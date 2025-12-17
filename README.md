@@ -132,9 +132,9 @@ To extract font image from `0018.bin` (PS2) and `0000.bin` (PSP):
 ![new_font](https://raw.githubusercontent.com/pnvnd/Tales-of-Destiny-2/main/current_font.png)
 
 ## Credits
-- Thanks to Amarant01 for graphics design work for the fonts, check out his work here: https://www.behance.net/deco-7105af
-- Thanks to Lanyn for allowing use of Tales of Destiny 2 English translation script, check out https://www.youtube.com/user/lanyn/videos
-- Thanks to the Temple of Tales Translations team (http://temple-tales.ru/translations.html) for providing tools to extract the skits and scenarios
-- Thanks to alizor for creating the Python scripts to extract and repack both PS2 and PSP versions of the game
-- Thanks to SkyBladeCloud from GBATemp for tips on how the game / file works
-- Thanks to flamethrower / flame1234 from GBATemp for having Python scripts available to extract the PSP version of the game
+- Thanks to `Amarant01` for graphics design work for the fonts, check out his work here: https://www.behance.net/deco-7105af
+- Thanks to `Lanyn` for allowing use of Tales of Destiny 2 English translation script, check out https://www.youtube.com/user/lanyn/videos
+- Thanks to the `Temple of Tales Translation`s team (http://temple-tales.ru/translations.html) for providing tools to extract the skits and scenarios
+- Thanks to `alizor` for creating the Python scripts to extract and repack both PS2 and PSP versions of the game
+- Thanks to `SkyBladeCloud` from GBATemp for tips on how the game / file works
+- Thanks to `flamethrower` / `flame1234` from GBATemp for having Python scripts available to extract the PSP version of the game
