@@ -1,0 +1,588 @@
+#古都ダリルシェイド
+Darilsheid Prison
+-----------------------
+#古都ダリルシェイド
+Darilsheid Prison
+-----------------------
+#おい<Kyle>、相手にすんな
+#あいつ、あからさまにあやしいぞ
+Hey, <Kyle>, don't mess with him.
+That guy's got some serious shit going on.
+-----------------------
+<Loni>
+-----------------------
+notice
+-----------------------
+#<03:00000000>休みますか？
+#　はい　
+#　いいえ　
+<03:00000000> Do you want to rest?
+Yes
+No
+-----------------------
+<Loni>
+-----------------------
+#こらあっ！
+#話も聞かずに牢屋に閉じこめるたぁ
+#どういう了見だ！
+Hey, I know you're out there!
+What's the big idea, locking us up in prison
+without even listening to our side of the story!
+-----------------------
+<Loni>
+-----------------------
+#おいこら！
+#責任者、出てこい!!
+Hey, I'm not screaming for my health here!
+Bring out the person in charge!!
+-----------------------
+<Loni>
+-----------------------
+#くそッ！　しくじっちまったぜ
+#まさか、こんなハメになるとは････
+Damn it! I messed up.
+I never expected things to turn out like this...
+-----------------------
+<Kyle>
+-----------------------
+#う～ん････
+#こ、ここは････？
+Hmm...
+W-where is this...?
+-----------------------
+<Kyle>
+-----------------------
+#えっと、ラグナ遺跡に行って
+#レンズを見つけたんだけど、割れちゃって
+#アタモニ神団に捕まって････
+Lemme think, we went to the Laguna Ruins and
+found the Lens, but it shattered into pieces
+and we got caught by the Church of Atamoni...
+-----------------------
+<Kyle>
+-----------------------
+#････あれ？
+#それから、どうしたんだっけ？
+Huh?
+What happened after that again?
+-----------------------
+<Loni>
+-----------------------
+#････のん気だねぇ、おまえは
+Boy, ain't got a care in the world, do you?
+-----------------------
+<Loni>
+-----------------------
+#見てのとおり
+#牢にぶちこまれたんだよ
+#たぶん、ダリルシェイドの地下だろう
+As you can see, we've been thrown in a cell.
+I'm guessing that we're probably in the jail
+underneath Darilshade.
+-----------------------
+<Kyle>
+-----------------------
+#えっ
+Eh?
+-----------------------
+<Loni>
+-----------------------
+#笑ってる････
+He's laughing...
+-----------------------
+<Loni>
+-----------------------
+#お、おい、<Kyle>!?
+#どうした!?　頭でも打ったか!?
+#ちょっと、見せてみろ！
+H, hey, <Kyle>!? What's wrong!?
+Did they hit you on the head too!?
+C'mere, let me take a look at it!
+-----------------------
+<Kyle>
+-----------------------
+#ちがうよ、<Loni>
+#オレさ、今すっごく幸せなんだ！
+#だってさ、冒険がはじまったんだよ！
+No, no, <Loni>, it's not that.
+It's just that I'm really happy right about
+now! I mean, my adventure's finally begun!
+-----------------------
+<Loni>
+-----------------------
+#冒険････？
+Adventure...?
+-----------------------
+<Kyle>
+-----------------------
+#あの子が現れた瞬間、オレ、思ったんだ
+#冒険がはじまったんだって
+The moment that girl appeared, I thought to
+myself, "My adventure has begun."
+-----------------------
+<Kyle>
+-----------------------
+#だってさ、レンズの中から出てきて
+#「英雄を探しているの」だよ！
+I mean, she came out of a Lens and said
+"I'm searching for a hero," you know!
+-----------------------
+<Kyle>
+-----------------------
+#お話の中でしか････いや、お話の中だって
+#こんなことなかった！
+#それが、オレの目の前で起こったんだ！
+It was only in stories... No, even in stories,
+This never happened!
+And it all happened right before my eyes!
+-----------------------
+<Kyle>
+-----------------------
+#そうだ、<Loni>！
+#オレ、クレスタへ戻ったら旅に出るよ
+That's right, <Loni>!
+I'm going to set off on a journey once I get back to Cresta.
+-----------------------
+<Loni>
+-----------------------
+#旅････？
+Journey...?
+-----------------------
+<Kyle>
+-----------------------
+#そう、英雄になるための冒険の旅！
+Yes, an adventure to become a hero!
+-----------------------
+<Kyle>
+-----------------------
+#あの子が探してるのはオレなんだ！
+#いまは違うかもしれないけど
+#････そう！　未来のオレだ！
+I'm the one that girl is searching for!
+I might not be the one right now,
+but...I know! It's the future me!
+-----------------------
+<Kyle>
+-----------------------
+#それをあの子に教えに････
+#いや、わからせに行くんだ！
+I'm going to go tell her that... no,
+I'm going to make her see that!
+-----------------------
+<Loni>
+-----------------------
+#未来のおまえ････か
+#フッ････嫌いじゃないぜ、そういうの
+The future you...huh.
+Heh...can't say that has such a bad ring to it.
+-----------------------
+<Loni>
+-----------------------
+#よし！　その旅、俺もつきあうぜ！
+I'm in! I'll join you on that journey!
+-----------------------
+<Kyle>
+-----------------------
+#えっ!?
+#でも<Loni>は
+#アタモニ神団に････
+Huh!?
+But <Loni>,
+To the Atamoni God Tribe...
+-----------------------
+<Loni>
+-----------------------
+#あんな連中、こっちから願い下げだ
+#今回のことで、よーくわかったよ！
+#あそこは、俺のいるべき場所じゃねえ
+I'm cutting ties with those jerks.
+This incident really taught me something:
+that place ain't where I belong!
+-----------------------
+<Loni>
+-----------------------
+#俺のいるべき場所は････
+#<Kyle>、おまえのとなりだ････
+#だから、俺はおまえにつきあうぜ
+The place where I belong is...
+by your side, <Kyle>...
+That's why I'm goin' along with ya.
+-----------------------
+<Kyle>
+-----------------------
+#<Loni>････
+<Loni>...
+-----------------------
+<Loni>
+-----------------------
+#それにな、俺はスタンさんの････
+#おまえのオヤジさんの代わりが
+#できたらと思ってる
+And besides, you could say that 
+I think of myself as a substitute for
+Sta-... your father.
+-----------------------
+<Loni>
+-----------------------
+#あの日から、ずっと････
+Ever since that day...
+-----------------------
+<Kyle>
+-----------------------
+#あの日････？
+That day...?
+-----------------------
+#？？？？？
+?????
+-----------------------
+#フッフッフ････
+#ハッハッハッハッ！
+Hm hm hm...
+Ha ha ha ha!
+-----------------------
+<Kyle>
+-----------------------
+#だれだッ!?
+Who's there!?
+-----------------------
+#？？？？？
+?????
+-----------------------
+#おまえ、自分が英雄になれるなどと
+#本気で思っているのか？
+#だとしたら、おめでたいヤツだ
+You actually think you can become a hero?
+If so,
+you're quite the optimist.
+-----------------------
+<Kyle>
+-----------------------
+#ねぇ、なんでオレが英雄になれないの!?
+Hey, why can't I become a hero!?
+-----------------------
+#？？？？？
+?????
+-----------------------
+#フッ、簡単なことだ
+Hmph, it's a simple matter, really.
+-----------------------
+#？？？？？
+?????
+-----------------------
+#英雄とは、過去の功績に対して
+#人々から贈られる称号
+The title of hero is awarded to a person by the masses
+based on his orher past achievements.
+-----------------------
+#？？？？？
+?????
+-----------------------
+#自らなろうとするものではないし
+#ましてや、なりたいと思って
+#なれるものでもない
+It's not something that you try to become,
+much less something that you can become
+just by wanting to become one.
+-----------------------
+<Loni>
+-----------------------
+#ずいぶんわかったような口を
+#きくじゃないか
+#まるで、自分が英雄だとでも言いたげだな
+You've got quite the confident air about you,
+don't you?
+Acting as if you were some kind of hero.
+-----------------------
+#？？？？？
+?????
+-----------------------
+#････
+#････････
+...
+......
+-----------------------
+#？？？？？
+?????
+-----------------------
+#僕自身は英雄じゃない
+#だが、そう呼ばれる人物を
+#少なくとも四人、知っている
+I'm not a hero.
+But I know of at least four people who
+are characterized as being heroes.
+-----------------------
+<Loni>
+-----------------------
+#四人？　ははぁ～ん････
+#俺たちなんざ、知ってるだけじゃない
+#そのうち二人と知り合いだぜ！
+Four people? Oh ho ho~...
+The thing is, we don't just know about them,
+we're personally acquainted with two of them!
+-----------------------
+<Loni>
+-----------------------
+#なにせ、こいつの両親が、そうだからな
+Well, considering their parents are just like that...
+-----------------------
+#？？？？？
+?????
+-----------------------
+#両親が････英雄!?
+#････！
+#そうか、あいつらの････！
+Your parents are...heroes!?
+...!
+I see, you're their...!
+-----------------------
+<Loni>
+-----------------------
+#へっへ～！　驚いて
+#声も出ないって感じだな
+Heh heh~! I take it that the shock has
+left you at a loss for words, eh?
+-----------------------
+<Kyle>
+-----------------------
+#そんなことより、<Loni>
+#早く、クレスタに戻ろうよ！
+#そうじゃないと、冒険に････
+Never mind that, <Loni>,
+let's hurry up and get back to Cresta! If we
+don't, then we can't go on an adventure...
+-----------------------
+<Loni>
+-----------------------
+#わかってるって
+#とはいえ、ここの牢屋は
+#頑丈だからなぁ････
+Alright already.
+That being said though, the door to this
+cell is built like a friggin' rock...
+-----------------------
+#？？？？？
+?????
+-----------------------
+#おい、おまえたち
+Hey, you two.
+-----------------------
+<Loni>
+-----------------------
+#んだよ？
+#俺たちは忙しいんだよ
+#見てわかんねぇか？
+What?
+We're busy.
+Don't you see?
+-----------------------
+#？？？？？
+?????
+-----------------------
+#ここを出たいのだろう？
+#なら、僕にいい考えがある
+You want to leave this place, am I right?
+In that case, I have a great idea.
+-----------------------
+<Kyle>
+-----------------------
+#ホント!?
+#なに、いい考えって!?
+Really!?
+What's this great idea of yours!?
+-----------------------
+<Loni>
+-----------------------
+#おいおい、<Kyle>
+#こいつの言うことなんか
+#信用すんなよ
+Hey, hey,<Kyle>
+Don't bother believing what this guy's saying
+Just don't trust him.
+-----------------------
+<Loni>
+-----------------------
+#仮面で顔を隠してるような輩だぜ？
+#なに考えてるか
+#わかったもんじゃないぞ？
+You're the type to hide your face behind a mask, right?
+What's going on in their heads?
+It's not something you can just figure out?
+-----------------------
+<Kyle>
+-----------------------
+#でも、こんなところでグズグズしてたら
+#あの子、どんどん遠くへ行っちゃうよ！
+#オレ、早く冒険に出たいんだよ!!
+But if we keep dawdling around here,
+that girl's going to get further and further away!
+I want to start my adventure soon!!
+-----------------------
+<Loni>
+-----------------------
+#････わかったよ
+#おまえの好きにしろ
+...Fine, I hear ya.
+Do as you please.
+-----------------------
+<Kyle>
+-----------------------
+#決まり！
+#それじゃ、教えてよ！
+#え～っと････
+It's settled then!
+So, tell us about it!
+Um...
+-----------------------
+#？？？？？
+?????
+-----------------------
+#名前か？
+#････名前など、僕にとっては
+#無意味なものだ
+What, my name?
+...Names are nothing to me.
+Just meaningless things.
+-----------------------
+#？？？？？
+?????
+-----------------------
+#おまえたちの好きなように
+#呼べばいい
+You two can call me
+whatever you'd like.
+-----------------------
+<Kyle>
+-----------------------
+#じゃあ････<Judas>！
+Okay then... <Judas>!
+-----------------------
+<Judas>
+-----------------------
+#<Judas>････か
+#まあ、それで我慢してやろう
+<Judas>...huh.
+Oh well, I'll just have to deal with it.
+-----------------------
+<Loni>
+-----------------------
+#で、<Judas>さんよ
+#こっからどうやって脱出するつもりだ？
+So, Mr. <Judas>, how do you intend
+to escape from this lovely place?
+-----------------------
+<Judas>
+-----------------------
+#簡単なことだ
+#出口から出ればいい
+A simple enough matter.
+All we need to do is leave through the exit.
+-----------------------
+<Loni>
+-----------------------
+#出口からって････おい！
+Through the exit... hey!
+-----------------------
+<Judas>
+-----------------------
+#さがっていろ
+Stand back.
+-----------------------
+<Judas>
+-----------------------
+#ハァッ！
+Haa!
+-----------------------
+<Kyle>
+-----------------------
+#すげえ････！
+Awesome...!
+-----------------------
+<Judas>
+-----------------------
+#なにをぼーっとしている？
+#さっさといくぞ
+What are you gawking at?
+Let's get moving.
+-----------------------
+notice
+-----------------------
+#<Kyle>は
+#称号「<item:00000809>」を得ました
+<Kyle> acquired the title
+"<item:00000809>".
+-----------------------
+notice
+-----------------------
+#<Loni>は
+#称号「<item:0000080C>」を得ました
+<Loni> acquired the title
+"<item:0000080C>".
+-----------------------
+notice
+-----------------------
+#<Judas>が仲間になりました
+<Judas> joined your party.
+-----------------------
+<Kyle>
+-----------------------
+#開かない
+It won't open.
+-----------------------
+#いってらっしゃいませ
+Have a good day.
+-----------------------
+#<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
+#お泊まりになりますか？
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+Would you like to stay?
+-----------------------
+#お泊まりになりますか？
+Would you like to stay?
+-----------------------
+select
+-----------------------
+#<03:00000000>　はい　
+#　いいえ　
+<03:00000000> Yes 
+ No 
+-----------------------
+#ごゆっくりお休みください
+Have a good night.
+-----------------------
+#おはようございます
+Good morning.
+-----------------------
+#お金が足りません
+Not enough money.
+-----------------------
+#またのおこしをお待ちしております
+See you again soon.
+-----------------------
+set_parameter( myself, C_PARTY, 0 );
+-----------------------
+wait_map_scroll();
+-----------------------
+exit-party_togather( short spd )
+-----------------------
+notice
+-----------------------
+#{16}{25}{CA}{C0}を手に入れました
+Acquired {16}{25}{CA}{C0}.
+-----------------------
+notice
+-----------------------
+#<item:FFFFFFFF>を手に入れました
+Acquired <item:FFFFFFFF>.
+-----------------------
+notice
+-----------------------
+#{16}{25}{D2}{C0}がありましたが
+#いっぱいで持てませんでした
+Found {16}{25}{D2}{C0}, but
+inventory full already.
+-----------------------
+notice
+-----------------------
+#何もありません
+There's nothing here.
+-----------------------

@@ -1,0 +1,307 @@
+#デュナミス孤児院・<Kyle>の部屋
+Dunamis Orphanage - <Kyle>'s Room
+-----------------------
+#デュナミス孤児院
+Dunamis Orphanage
+-----------------------
+#<Kyle>の部屋
+<Kyle>'s Room
+-----------------------
+<Kyle>
+-----------------------
+#さあ、どうしようかな？
+Well then, what am I gonna do?
+-----------------------
+select
+-----------------------
+#　もう寝る　
+#　まだ眠くない　
+ Go to bed 
+ I'm still not sleepy 
+-----------------------
+<Kyle>
+-----------------------
+#三百万ガルドのレンズ････か
+#そんなの持って帰ってきたら
+#みんな、ビックリするだろうなぁ
+A 3,000,000 Gald Lens...huh.
+I betcha everyone would be
+surprised if I came back with that thing.
+-----------------------
+<Kyle>
+-----------------------
+#母さんは、ああ言ってたけど
+#オレだって、いつか必ず
+#父さんのような英雄になってみせる
+Mom may have said those things about me,
+but I'm definitely going to prove her wrong
+someday and become a hero just like dad.
+-----------------------
+<Kyle>
+-----------------------
+#そのためにも
+#明日は････
+And in order to do that,
+tomorrow, I need to...
+-----------------------
+#<size:00000180>うわあぁぁぁっ！
+<size:00000180>Uwaaaahh!
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#キャアッ！
+Wah!
+-----------------------
+<Kyle>
+-----------------------
+#････あれ？
+#母さん････？
+...Huh?
+Mom...?
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#もう、ビックリしたじゃない！
+#いきなり大声だすんだもの！
+Geez, don't scare me like that!
+You let out a big scream all of a sudden!
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#まあいいわ
+#起こす手間がはぶけたし
+Oh well, no matter. It saved me the trouble
+of having to wake you up and everything.
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#しっかし、めずらしいわね
+#あんたがスカッと起きるなんて
+#今日は、雪でもふる････
+But I must say, it certainly is unusual
+for you to be wide awake first thing in
+the morning. It might even snow today...
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#････はぁ
+#結局、いつもと同じか
+...*sigh*. So things turned out
+the same way in the end, huh?
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#いくわよ････
+#秘技、死者の目覚め!!
+Here I go...Master Arte,
+Wake The Dead!!
+-----------------------
+<Kyle>
+-----------------------
+#うわぁっ！
+#な、な、なんだぁ!?
+Aaahh!
+W, w, what the!?
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#ほらほら、起きた起きた！
+#朝ごはんが片づかないでしょ!?
+Come on now, rise and shine!
+You DO want to have some breakfast, don't you!?
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#あっと、<Loni>はもう起きてるわよ
+#あんたが起きるのを待ってる････
+You're already up, <Loni>.
+I was waiting for you to wake up...
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#<size:00000180><Kyle>！
+<size:00000180><Kyle>!
+-----------------------
+<Kyle>
+-----------------------
+#はっ、はいぃ！
+#起きてます、起きてます！
+Y, yes ma'am!
+I'm awake, I'm awake!
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#････よろしい
+...Very well then.
+-----------------------
+<Kyle>
+-----------------------
+#ふわあぁぁ････
+#なんだったんだろ、あの夢････
+*yawns*...
+What was the deal with that dream...
+-----------------------
+<Kyle>
+-----------------------
+#････ふわぁ････むにゃむにゃ････
+#････とりあえず
+#<Loni>のところに行かなきゃ････
+......Phew...... Mmmph mmmph......
+......Anyway...
+I gotta head to <Loni>...
+-----------------------
+notice
+-----------------------
+#<Kyle>は
+#称号「<item:00000817>」を得ました
+<Kyle> acquired the title
+"<item:00000817>".
+-----------------------
+<Kyle>
+-----------------------
+#････結局、ゆうべは
+#眠れなかったな
+...After all, last night
+I couldn't sleep.
+-----------------------
+<Kyle>
+-----------------------
+#とにかく、もう一度
+#母さんに話すんだ
+#旅に出るって！
+Anyway, again.
+I'm going to tell Mom.
+We're going on a trip!
+-----------------------
+<Loni>
+-----------------------
+#<Kyle>！
+#おい<Kyle>、起きろ！
+<Kyle>!
+Hey <Kyle>, wake up!
+-----------------------
+<Kyle>
+-----------------------
+#むにゃ････
+#････おはよ、<Loni>････
+Munyaa...
+Good morning, <Loni>...
+-----------------------
+<Loni>
+-----------------------
+#寝ぼけてる場合じゃねえぞ！
+#ついに、出やがったんだ！
+#「神のたまご」が！
+You don't have time to be half-asleep!
+It's finally here!
+The 'Egg of God'!?
+-----------------------
+<Kyle>
+-----------------------
+#････出る････？
+#たまご････？
+...out...?
+Eggs...?
+-----------------------
+<Kyle>
+-----------------------
+#「神のたまご」が････!?
+God's Egg is now available at...?!
+-----------------------
+<Loni>
+-----------------------
+#いいから、早く来い！
+#みんな待ってんぞ！
+Just come on, come on!
+They're waiting for you!
+-----------------------
+select
+-----------------------
+#　休む　
+#　休まない　
+ Rest 
+ Don't rest 
+-----------------------
+<Kyle>
+-----------------------
+#オレもたまには
+#勉強しなくちゃな････
+I have to study once
+in a while too. 
+-----------------------
+#棚には<Kyle>のオモチャしか
+#入っていない････
+There's nothing on the shelf but <Kyle>'s toys...
+...just that.
+-----------------------
+#窓の外には牧歌的な風景が広がっている
+Idyllic scenery outside the window.
+-----------------------
+#いってらっしゃいませ
+Have a good day.
+-----------------------
+#<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
+#お泊まりになりますか？
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+Would you like to stay?
+-----------------------
+#お泊まりになりますか？
+Would you like to stay?
+-----------------------
+select
+-----------------------
+#<03:00000000>　はい　
+#　いいえ　
+<03:00000000> Yes 
+ No 
+-----------------------
+#ごゆっくりお休みください
+Have a good night.
+-----------------------
+#おはようございます
+Good morning.
+-----------------------
+#お金が足りません
+Not enough money.
+-----------------------
+#またのおこしをお待ちしております
+See you again soon.
+-----------------------
+set_parameter( myself, C_PARTY, 0 );
+-----------------------
+wait_map_scroll();
+-----------------------
+exit-party_togather( short spd )
+-----------------------
+notice
+-----------------------
+#{16}{25}{E2}{C0}を手に入れました
+Acquired {16}{25}{E2}{C0}.
+-----------------------
+notice
+-----------------------
+#<item:FFFFFFFF>を手に入れました
+Acquired <item:FFFFFFFF>.
+-----------------------
+notice
+-----------------------
+#{16}{25}{EA}{C0}がありましたが
+#いっぱいで持てませんでした
+{16}{25}{EA}{C0}There was , but
+I couldn't carry it because it was full.
+-----------------------
+notice
+-----------------------
+#何もありません
+There's nothing here.
+-----------------------

@@ -1,0 +1,141 @@
+#チェリク
+Celica
+-----------------------
+#チェリク
+Cherik
+-----------------------
+#荷が山積みされている
+#ここは倉庫として使われているようだ
+The cargo is piled high.
+It looks like this place is being used as a warehouse.
+-----------------------
+NOTICE
+-----------------------
+#<item:00000012>を手に入れました
+<item:00000012>You obtained .
+-----------------------
+#男性
+Guy
+-----------------------
+#あー、安い時給で
+#肉体労働はキツイぜ！
+Ah, with such low hourly pay...
+Manual labor is tough!
+-----------------------
+<Harold>
+-----------------------
+#給料が出るだけマシじゃない
+#地上軍の兵隊なんて
+#みんなタダ働きよ
+It's better than getting paid at all.
+Just ground army grunts,
+everyone works for free.
+-----------------------
+#男性
+Guy
+-----------------------
+#チェリクじゃ荷下ろしの
+#バイトしか仕事が無いよ
+In Cherik,
+there's nothing but part-time work to be had.
+-----------------------
+#男性
+Guy
+-----------------------
+#年々、人が減っていくし
+#チェリクはもうダメかもな
+The population keeps dropping year after year.
+Cherik might be done for.
+-----------------------
+#男性
+Guy
+-----------------------
+#あー、安い時給で
+#肉体労働はキツイぜ！
+Ah, with such low hourly pay...
+Manual labor is tough!
+-----------------------
+<Loni>
+-----------------------
+#いいじゃねえか
+#ダリルシェイドあたりじゃ
+#仕事そのものが無いんだぜ？
+Not bad.
+Like Dillshade's place.
+There ain't any work to be had?
+-----------------------
+#男性
+Guy
+-----------------------
+#チェリクじゃ荷下ろしの
+#バイトしか仕事が無いよ
+In Cherik,
+there's nothing but part-time jobs to be had.
+-----------------------
+#男性
+Guy
+-----------------------
+#年々、人が減っていくし
+#チェリクはもうダメかもな
+Every year, the population keeps dropping.
+Cherik might be done for.
+-----------------------
+#いってらっしゃいませ
+Have a good day.
+-----------------------
+#<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
+#お泊まりになりますか？
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+Would you like to stay?
+-----------------------
+#お泊まりになりますか？
+Would you like to stay?
+-----------------------
+select
+-----------------------
+#<03:00000000>　はい　
+#　いいえ　
+<03:00000000> Yes 
+ No 
+-----------------------
+#ごゆっくりお休みください
+Have a good night.
+-----------------------
+#おはようございます
+Good morning.
+-----------------------
+#お金が足りません
+Not enough money.
+-----------------------
+#またのおこしをお待ちしております
+See you again soon.
+-----------------------
+set_parameter( myself, C_PARTY, 0 );
+-----------------------
+wait_map_scroll();
+-----------------------
+exit-party_togather( short spd )
+-----------------------
+notice
+-----------------------
+#{16}{25}{BA}{C0}を手に入れました
+Acquired {16}{25}{BA}{C0}.
+-----------------------
+notice
+-----------------------
+#<item:FFFFFFFF>を手に入れました
+Acquired <item:FFFFFFFF>.
+-----------------------
+notice
+-----------------------
+#{16}{25}{C2}{C0}がありましたが
+#いっぱいで持てませんでした
+Acquired {16}{25}{C2}{C0} but
+inventory is full already.
+-----------------------
+notice
+-----------------------
+#何もありません
+There's nothing here.
+-----------------------
+

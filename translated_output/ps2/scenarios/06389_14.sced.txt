@@ -1,0 +1,120 @@
+#ストレイライズ大神殿
+Straylise Grand Temple
+-----------------------
+#ストレイライズ大神殿
+Straylise Grand Temple
+-----------------------
+#ストレイライズ神殿
+Straylise Temple
+-----------------------
+#ストレイライズ神殿
+Straylise Temple
+-----------------------
+#地理に関する書物が収められている
+#『神の眼を巡る騒乱』で、地形が大きく変わったと
+#記述されている
+A collection of books on geography is stored here.
+It describes how the terrain changed drastically during the 'Upheaval of the Divine Eye'.
+As recorded.
+-----------------------
+#地理に関する書物が収められている
+#････フィッツガルド大陸には『白雲の尾根』と
+#呼ばれる霧に閉ざされた尾根があると記述されている
+Contains books on geography.
+...On the Fitzgald Continent, there is
+a ridge shrouded in mist known as 'White Cloud Ridge'.
+-----------------------
+NOTICE
+-----------------------
+#<item:00000003>を手に入れました
+<item:00000003>You obtained .
+-----------------------
+#『カルバレイス大陸を歩く』
+#････過酷な気候のカルバレイス大陸を歩いて回った
+#冒険者の話だ
+Walking across the Calvados Continent
+...I walked around the harsh climate of the Calvados Continent
+It's an adventurer's tale.
+-----------------------
+#砂漠にうち捨てられた多くの宝を拾って
+#財を成した、とある
+#････カルバレイス地方には、まだ多くの宝が
+#眠っているのかもしれない
+I've picked up many treasures left behind in the desert.
+He made his fortune.
+...There may still be many treasures hidden in the Calvary region.
+Lying dormant.
+-----------------------
+#『異文化の地・アクアヴェイル』
+#････特殊な文化と歴史を持つ
+#アクアヴェイル地方について説明した本だ
+The land of Aquavelle, steeped in foreign culture
+...a place with its own unique culture and history
+A book explaining the region of Aquavelle
+-----------------------
+#世界の北東に位置する多島海を総称して
+#アクアヴェイル地方と呼ぶ、とある
+#機会があったら行ってみるのも良いかもしれない
+The archipelago located in the northeast of the world is collectively known as
+Aqua Vale region,
+If you get the chance, it might be worth visiting.
+-----------------------
+#いってらっしゃいませ
+Have a good day.
+-----------------------
+#<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
+#お泊まりになりますか？
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+Would you like to stay?
+-----------------------
+#お泊まりになりますか？
+Would you like to stay?
+-----------------------
+select
+-----------------------
+#<03:00000000>　はい　
+#　いいえ　
+<03:00000000> Yes 
+ No 
+-----------------------
+#ごゆっくりお休みください
+Have a good night.
+-----------------------
+#おはようございます
+Good morning.
+-----------------------
+#お金が足りません
+Not enough money.
+-----------------------
+#またのおこしをお待ちしております
+See you again soon.
+-----------------------
+set_parameter( myself, C_PARTY, 0 );
+-----------------------
+wait_map_scroll();
+-----------------------
+exit-party_togather( short spd )
+-----------------------
+notice
+-----------------------
+#{16}{25}{B6}{C0}を手に入れました
+{16}{25}{B6}{C0}You obtained .
+-----------------------
+notice
+-----------------------
+#<item:FFFFFFFF>を手に入れました
+Acquired <item:FFFFFFFF>.
+-----------------------
+notice
+-----------------------
+#{16}{25}{BE}{C0}がありましたが
+#いっぱいで持てませんでした
+{16}{25}{BE}{C0}There was , but
+I couldn't carry it because it was full.
+-----------------------
+notice
+-----------------------
+#何もありません
+There's nothing here.
+-----------------------
+

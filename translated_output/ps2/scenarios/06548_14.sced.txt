@@ -1,0 +1,220 @@
+#紅蓮都市スペランツァ・配給所
+Scarlet Lotus City Speranza - Distribution Center
+-----------------------
+#紅蓮都市スペランツァ
+Crimson Lotus City Speranza
+-----------------------
+#配給所
+Distribution Center
+-----------------------
+#おじさん
+Man
+-----------------------
+#あなたがた、もしや
+#黄昏都市レアルタに
+#向かわれるのですか？
+You all,
+to the twilight city of Realta
+are heading?
+-----------------------
+<Kyle>
+-----------------------
+#そうだけど
+#それがどうかした？
+That's true.
+What about it?
+-----------------------
+#おじさん
+Man
+-----------------------
+#実は、あなたがたに
+#おりいって、お願いがあるんです
+#どうか、聞いていただけないでしょうか？
+Actually,
+I have a favor to ask you.
+Would you mind listening?
+-----------------------
+<Reala>
+-----------------------
+#お願い････ですか？
+#どういったことでしょう？
+You're asking me...?
+What do you mean?
+-----------------------
+#おじさん
+Man
+-----------------------
+#難しいことじゃないんです
+#ただ、レアルタにいる
+#私の息子に、届けものをお願いしたくて････
+It's not that complicated.
+I'm just in Realta.
+I wanted to ask my son to deliver something for me...
+-----------------------
+<Judas>
+-----------------------
+#ほう
+#この時代でも、街同士の
+#行き来があるのか
+Ho?
+In this era, even between towns...
+is there still travel back and forth?
+-----------------------
+<Judas>
+-----------------------
+#しかし、どうする<Kyle>？
+#僕たちは、先を急ぐ身だ
+#ムダに時間を取っているヒマはないぞ
+How are we going to handle this, <Kyle>?
+We're in a hurry to get ahead.
+We don't have time to waste.
+-----------------------
+NOTICE
+-----------------------
+#黄昏都市レアルタまで、レンズを届けますか？
+Do you want to deliver the lens to the Twilight City of Realta?
+-----------------------
+select
+-----------------------
+#<03:00000000>　引き受ける　
+#　興味無い　
+<03:00000000>I'll take it.
+Not interested.
+-----------------------
+#おじさん
+Man
+-----------------------
+#ありがとうございます！
+#実は、これをレアルタにいる私の息子に
+#届けてほしいのです
+Thank you so much!
+Actually, I'd like to send this to my son in Realta.
+I want you to deliver it.
+-----------------------
+<Nanaly>
+-----------------------
+#これは････レンズ？
+This is... a lens?
+-----------------------
+#おじさん
+Man
+-----------------------
+#そうです
+#先日、亡くなった私の妻が
+#身につけていたものです
+That's right.
+My wife passed away recently,
+and these were her belongings.
+-----------------------
+#おじさん
+Man
+-----------------------
+#息子の名前は「ＲＥ－５４６０９」です
+#ＳＰ－３１１６からの言づてだと言えば
+#すぐにわかると思います
+My son's name is "R-E-54609".
+If I say it came from SP-3116,
+I think you'll understand right away.
+-----------------------
+#おじさん
+Man
+-----------------------
+#それでは
+#よろしくおねがいしますね
+Well then,
+I look forward to working with you.
+-----------------------
+#おじさん
+Man
+-----------------------
+#そうですか････
+#手間を取らせてしまい
+#申し訳ありませんでした
+I see...
+We took up your time,
+my apologies.
+-----------------------
+#ショップマシン
+Shop Machine
+-----------------------
+#いらっしゃいませ
+#何がご要り用ですか？
+Welcome!
+What can I help you find?
+-----------------------
+select
+-----------------------
+#<03:00000000>　道具　
+#　食材　
+#　武器　
+#　防具　
+<03:00000000>Items
+Ingredients
+Weapons
+Armor
+-----------------------
+#ショップマシン
+Shop Machine
+-----------------------
+#ありがとうございました
+Thank you very much.
+-----------------------
+#いってらっしゃいませ
+Have a good day.
+-----------------------
+#<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
+#お泊まりになりますか？
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+Would you like to stay?
+-----------------------
+#お泊まりになりますか？
+Would you like to stay?
+-----------------------
+select
+-----------------------
+#<03:00000000>　はい　
+#　いいえ　
+<03:00000000> Yes 
+ No 
+-----------------------
+#ごゆっくりお休みください
+Have a good night.
+-----------------------
+#おはようございます
+Good morning.
+-----------------------
+#お金が足りません
+Not enough money.
+-----------------------
+#またのおこしをお待ちしております
+See you again soon.
+-----------------------
+set_parameter( myself, C_PARTY, 0 );
+-----------------------
+wait_map_scroll();
+-----------------------
+exit-party_togather( short spd )
+-----------------------
+notice
+-----------------------
+#{16}{25}{BA}{C0}を手に入れました
+Acquired {16}{25}{BA}{C0}.
+-----------------------
+notice
+-----------------------
+#<item:FFFFFFFF>を手に入れました
+Acquired <item:FFFFFFFF>.
+-----------------------
+notice
+-----------------------
+#{16}{25}{C2}{C0}がありましたが
+#いっぱいで持てませんでした
+Acquired {16}{25}{C2}{C0} but
+inventory is full already.
+-----------------------
+notice
+-----------------------
+#何もありません
+There's nothing here.
+-----------------------
+

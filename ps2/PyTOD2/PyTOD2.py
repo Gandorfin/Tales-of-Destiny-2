@@ -97,6 +97,37 @@ def compress_comptoe(name, ctype=1):
 def decompress_comptoe(name):
     subprocess.run(['comptoe.exe', '-d', name, name + '.d'], stderr=subprocess.DEVNULL, stdout=subprocess.DEVNULL, stdin=subprocess.DEVNULL, creationflags=CREATE_NO_WINDOW)
 
+def validate_comptoe_roundtrip(
+    source_file,
+    compressed_file
+):
+    roundtrip_file = compressed_file + '.d'
+
+    if os.path.exists(roundtrip_file):
+        os.remove(roundtrip_file)
+
+    decompress_comptoe(compressed_file)
+
+    if not os.path.isfile(roundtrip_file):
+        raise RuntimeError(
+            f'Decompression validation failed: '
+            f'{roundtrip_file} was not created'
+        )
+
+    with open(source_file, 'rb') as source:
+        source_data = source.read()
+
+    with open(roundtrip_file, 'rb') as result:
+        roundtrip_data = result.read()
+
+    os.remove(roundtrip_file)
+
+    if roundtrip_data != source_data:
+        raise RuntimeError(
+            f'Compression round-trip mismatch: '
+            f'{source_file}'
+        )
+
 # by flame1234
 def decode(param):
     a2 = param
@@ -173,45 +204,117 @@ def move_sced():
 
 def extract_scpk():
     mkdir('SCPK')
-    json_file = open('SCPK.json', 'w')
-    json_data = {}
-    
-    for file in os.listdir('FPB'):
-        if not file.endswith('scpk'):
-            continue
-        f = open('FPB/%s' % file, 'rb')
-        header = f.read(4)
-        if header != b'SCPK':
-            f.close()
-            continue
-        mkdir('SCPK/%s' % file.split('.')[0])
-        index = file.split('.')[0]
-        json_data[index] = {}
-        f.read(4)
-        files = struct.unpack('<L', f.read(4))[0]
-        f.read(4)
-        sizes = []
-        for i in range(files):
-            sizes.append(struct.unpack('<L', f.read(4))[0])
-        for i in range(files):
-            ext = 'bin'
-            if i == files - 1:
-                ext = 'sced'
-            fname = 'SCPK/%s/%02d.%s' % (file.split('.')[0], i, ext)
-            o = open(fname, 'wb')
-            data = f.read(sizes[i])
-            json_data[index][i] = data[0]
-            o.write(data)
-            o.close()
-            if i == files - 1:
-                if data[0] == 1 or data[0] == 3:
-                    decompress_comptoe(fname)
-                    os.remove(fname)
-                    os.rename(fname + '.d', fname)
+    mkdir('SCPK_HEADERS')
 
-        f.close()
-        
-    json.dump(json_data, json_file, indent = 4)
+    json_data = {}
+
+    for file in sorted(os.listdir('FPB')):
+        if not file.lower().endswith('.scpk'):
+            continue
+
+        input_path = os.path.join('FPB', file)
+        index = os.path.splitext(file)[0]
+
+        with open(input_path, 'rb') as f:
+            header = f.read(16)
+
+            if len(header) != 16:
+                raise RuntimeError(
+                    f'{file}: truncated SCPK header'
+                )
+
+            if header[:4] != b'SCPK':
+                continue
+
+            member_count = struct.unpack_from(
+                '<L',
+                header,
+                8
+            )[0]
+
+            mkdir(os.path.join('SCPK', index))
+
+            header_path = os.path.join(
+                'SCPK_HEADERS',
+                index + '.bin'
+            )
+
+            with open(header_path, 'wb') as header_file:
+                header_file.write(header)
+
+            sizes = []
+
+            for member_index in range(member_count):
+                size_data = f.read(4)
+
+                if len(size_data) != 4:
+                    raise RuntimeError(
+                        f'{file}: truncated size table at '
+                        f'member {member_index}'
+                    )
+
+                sizes.append(
+                    struct.unpack('<L', size_data)[0]
+                )
+
+            json_data[index] = {}
+
+            for member_index, member_size in enumerate(sizes):
+                extension = (
+                    'sced'
+                    if member_index == member_count - 1
+                    else 'bin'
+                )
+
+                output_path = os.path.join(
+                    'SCPK',
+                    index,
+                    f'{member_index:02d}.{extension}'
+                )
+
+                member_data = f.read(member_size)
+
+                if len(member_data) != member_size:
+                    raise RuntimeError(
+                        f'{file}: member {member_index} is truncated. '
+                        f'Expected {member_size} bytes, '
+                        f'got {len(member_data)}.'
+                    )
+
+                if not member_data:
+                    raise RuntimeError(
+                        f'{file}: member {member_index} is empty'
+                    )
+
+                compression_type = member_data[0]
+                json_data[index][str(member_index)] = compression_type
+
+                with open(output_path, 'wb') as output:
+                    output.write(member_data)
+
+                if (
+                    member_index == member_count - 1
+                    and compression_type in (1, 3)
+                ):
+                    decompressed_path = output_path + '.d'
+
+                    if os.path.exists(decompressed_path):
+                        os.remove(decompressed_path)
+
+                    decompress_comptoe(output_path)
+
+                    if not os.path.isfile(decompressed_path):
+                        raise RuntimeError(
+                            f'{file}: decompression failed for '
+                            f'{output_path}'
+                        )
+
+                    os.remove(output_path)
+                    os.replace(decompressed_path, output_path)
+
+    with open('SCPK.json', 'w', encoding='utf-8') as json_file:
+        json.dump(json_data, json_file, indent=4)
+
 
 def extract_sced():
     move_sced()
@@ -389,50 +492,234 @@ def insert_sced():
 
 def pack_scpk():
     mkdir('SCPK_PACKED')
-    json_file = open('SCPK.json', 'r')
-    json_data = json.load(json_file)
-    json_file.close()
 
-    for name in os.listdir('SCED_NEW'):
+    with open('SCPK.json', 'r', encoding='utf-8') as json_file:
+        json_data = json.load(json_file)
+
+    translated_files = sorted(
+        filename
+        for filename in os.listdir('SCED_NEW')
+        if filename.lower().endswith('.sced')
+        and os.path.isfile(
+            os.path.join('SCED_NEW', filename)
+        )
+    )
+
+    seen_folders = set()
+
+    for name in translated_files:
+        if len(name) < 7 or name[5] != '_':
+            raise RuntimeError(
+                f'Unexpected translated SCED filename: {name}'
+            )
+
         folder = name[:5]
-        if not os.path.isdir('SCPK/' + folder):
+
+        if folder in seen_folders:
+            raise RuntimeError(
+                f'Multiple translated SCED files map to '
+                f'{folder}.scpk'
+            )
+
+        seen_folders.add(folder)
+
+        translated_sced = os.path.join(
+            'SCED_NEW',
+            name
+        )
+
+        source_folder = os.path.join(
+            'SCPK',
+            folder
+        )
+
+        if not os.path.isdir(source_folder):
+            print(
+                f'Warning: source SCPK folder not found: '
+                f'{source_folder}'
+            )
             continue
-        if os.path.isdir('SCPK/' + folder):
-            sizes = []
-            o = open('SCPK_PACKED/%s.scpk' % folder, 'wb')
-            data = bytearray()
-            listdir = os.listdir('SCPK/' + folder)
-            for file in listdir:
-                read = bytearray()
-                index = str(int(file.split('.')[0]))
-                fname = 'SCPK/%s/%s' % (folder, file)
-                f = open(fname, 'rb')
-                ctype = json_data[folder][index]
-                if file == listdir[-1]:
-                    if ctype != 0:
-                        fname = 'SCED_NEW/' + name
-                        compress_comptoe(fname, ctype)
-                        comp = open(fname + '.c', 'rb')
-                        read = comp.read()
-                        comp.close()
-                        os.remove(fname + '.c')
-                    else:
-                        read = f.read()
+
+        members = [
+            filename
+            for filename in os.listdir(source_folder)
+            if os.path.isfile(
+                os.path.join(source_folder, filename)
+            )
+        ]
+
+        try:
+            members.sort(
+                key=lambda filename: int(
+                    os.path.splitext(filename)[0]
+                )
+            )
+        except ValueError as exc:
+            raise RuntimeError(
+                f'{folder}: SCPK contains a non-numeric '
+                f'filename: {members}'
+            ) from exc
+
+        sced_members = [
+            filename
+            for filename in members
+            if filename.lower().endswith('.sced')
+        ]
+
+        if len(sced_members) != 1:
+            raise RuntimeError(
+                f'{folder}: expected exactly one SCED member, '
+                f'but found {len(sced_members)}: '
+                f'{sced_members}'
+            )
+
+        source_sced_name = sced_members[0]
+
+        if members[-1] != source_sced_name:
+            raise RuntimeError(
+                f'{folder}: SCED is not the final numerical '
+                f'member. Final member: {members[-1]}, '
+                f'SCED member: {source_sced_name}'
+            )
+
+        sizes = []
+        packed_data = bytearray()
+
+        for filename in members:
+            source_file = os.path.join(
+                source_folder,
+                filename
+            )
+
+            member_index = str(
+                int(os.path.splitext(filename)[0])
+            )
+
+            try:
+                compression_type = json_data[
+                    folder
+                ][member_index]
+            except KeyError as exc:
+                raise RuntimeError(
+                    f'{folder}: missing compression '
+                    f'information for member {member_index}'
+                ) from exc
+
+            if filename == source_sced_name:
+                if compression_type != 0:
+                    compressed_file = translated_sced + '.c'
+
+                    if os.path.exists(compressed_file):
+                        os.remove(compressed_file)
+
+                    compress_comptoe(
+                        translated_sced,
+                        compression_type
+                    )
+
+                    if not os.path.isfile(compressed_file):
+                        raise RuntimeError(
+                            f'Compression failed for '
+                            f'{translated_sced}: '
+                            f'{compressed_file} was not created'
+                        )
+
+                    validate_comptoe_roundtrip(
+                        translated_sced,
+                        compressed_file
+                    )
+
+                    with open(
+                        compressed_file,
+                        'rb'
+                    ) as input_file:
+                        member_data = input_file.read()
+
+                    os.remove(compressed_file)
                 else:
-                    read = f.read()
-                data += read
-                sizes.append(len(read))
-                f.close()
-                
-            o.write(b'\x53\x43\x50\x4B\x01\x00\x07\x00')
-            o.write(struct.pack('<L', len(sizes)))
-            o.write(b'\x00' * 4)
-            
-            for i in range(len(sizes)):
-                o.write(struct.pack('<L', sizes[i]))
-                
-            o.write(data)
-            o.close()
+                    with open(
+                        translated_sced,
+                        'rb'
+                    ) as input_file:
+                        member_data = input_file.read()
+            else:
+                with open(
+                    source_file,
+                    'rb'
+                ) as input_file:
+                    member_data = input_file.read()
+
+            packed_data += member_data
+            sizes.append(len(member_data))
+
+        header_file = os.path.join(
+            'SCPK_HEADERS',
+            f'{folder}.bin'
+        )
+
+        if not os.path.isfile(header_file):
+            raise RuntimeError(
+                f'{folder}: original SCPK header not found: '
+                f'{header_file}. Run Unpack SCPK again '
+                f'using the original Japanese FILE.FPB.'
+            )
+
+        with open(header_file, 'rb') as input_file:
+            original_header = bytearray(input_file.read())
+
+        if len(original_header) != 16:
+            raise RuntimeError(
+                f'{folder}: invalid saved SCPK header size: '
+                f'{len(original_header)}'
+            )
+
+        if original_header[:4] != b'SCPK':
+            raise RuntimeError(
+                f'{folder}: invalid saved SCPK signature'
+            )
+
+        struct.pack_into(
+            '<L',
+            original_header,
+            8,
+            len(sizes)
+        )
+
+        output_file = os.path.join(
+            'SCPK_PACKED',
+            f'{folder}.scpk'
+        )
+
+        with open(output_file, 'wb') as output:
+            output.write(original_header)
+
+            for member_size in sizes:
+                output.write(
+                    struct.pack('<L', member_size)
+                )
+
+            output.write(packed_data)
+
+        expected_size = (
+            16
+            + len(sizes) * 4
+            + sum(sizes)
+        )
+
+        actual_size = os.path.getsize(output_file)
+
+        if actual_size != expected_size:
+            raise RuntimeError(
+                f'{folder}: rebuilt SCPK has the wrong size. '
+                f'Expected {expected_size}, got {actual_size}.'
+            )
+
+        print(
+            f'Packed {output_file}: '
+            f'{len(members)} members, '
+            f'{len(packed_data)} data bytes'
+        )
+
 
 def move_scpk_packed():
     for f in os.listdir('SCPK_PACKED'):
@@ -442,50 +729,225 @@ def move_pak1_packed():
     for f in os.listdir('PAK1_PACKED'):
         shutil.copy(os.path.join('PAK1_PACKED', f), 'FPB/' + f)
 
+def verify_packed_fpb(
+    fpb_path,
+    packed_sources,
+    start_offsets,
+    remainders,
+    expected_total_size
+):
+    chunk_size = 1024 * 1024
+
+    actual_total_size = os.path.getsize(fpb_path)
+
+    if actual_total_size != expected_total_size:
+        raise RuntimeError(
+            f'{fpb_path}: wrong total size. '
+            f'Expected {expected_total_size}, '
+            f'got {actual_total_size}.'
+        )
+
+    with open(fpb_path, 'rb') as packed_file:
+        for index, (
+            key,
+            extension,
+            source_path,
+            source_size
+        ) in enumerate(packed_sources):
+            if extension == 'dummy':
+                continue
+
+            packed_file.seek(start_offsets[index])
+
+            with open(source_path, 'rb') as source_file:
+                remaining = source_size
+
+                while remaining:
+                    amount = min(chunk_size, remaining)
+                    expected = source_file.read(amount)
+                    actual = packed_file.read(amount)
+
+                    if actual != expected:
+                        raise RuntimeError(
+                            f'FILE_NEW.FPB verification failed '
+                            f'for entry {key}.{extension}'
+                        )
+
+                    remaining -= len(expected)
+
+            padding = packed_file.read(remainders[index])
+
+            if padding != b'\x00' * remainders[index]:
+                raise RuntimeError(
+                    f'FILE_NEW.FPB contains non-zero padding '
+                    f'after entry {key}.{extension}'
+                )
+
+
 def pack_fpb():
     move_scpk_packed()
-    try:
+
+    if os.path.isdir('PAK1_PACKED'):
         move_pak1_packed()
-    except:
-        pass
-    sectors = [0]
+
+    with open('FPB.json', 'r', encoding='utf-8') as json_file:
+        json_data = json.load(json_file)
+
+    try:
+        entries = sorted(
+            json_data.items(),
+            key=lambda item: int(item[0])
+        )
+    except ValueError as exc:
+        raise RuntimeError(
+            'FPB.json contains a non-numeric entry index'
+        ) from exc
+
+    actual_indices = [
+        int(key)
+        for key, _value in entries
+    ]
+
+    expected_indices = list(range(len(entries)))
+
+    if actual_indices != expected_indices:
+        raise RuntimeError(
+            'FPB.json indices are not continuous.\n'
+            f'Found:    {actual_indices}\n'
+            f'Expected: {expected_indices}'
+        )
+
+    original_pointer_count = len(get_pointers())
+
+    if len(entries) + 1 != original_pointer_count:
+        raise RuntimeError(
+            'FPB entry/pointer count mismatch.\n'
+            f'FPB.json entries: {len(entries)}\n'
+            f'SLPS pointers:    {original_pointer_count}\n'
+            'Expected one final end pointer after all entries.'
+        )
+
+    start_offsets = []
     remainders = []
+    packed_sources = []
     buffer = 0
-    json_file = open('FPB.json', 'r')
-    json_data = json.load(json_file)
-    json_file.close()
-    #ext_file = open('tree.json', 'r')
-    #ext_data = json.load(ext_file)
-    #ext_file.close()
-    o = open('FILE_NEW.FPB', 'wb')
 
-    #print ("Packing FPB...")
-    
-    for k, v in json_data.items():
-        size = 0
-        remainder = 0
-        if v != 'dummy':
-            f = open('fpb/%s.%s' % (k, v), 'rb')
-            o.write(f.read())
-            size = os.path.getsize('fpb/%s.%s' % (k, v))
-            remainder = 0x40 - (size % 0x40)
-            if remainder == 0x40:
+    with open('FILE_NEW.FPB', 'wb') as output:
+        for key, extension in entries:
+            start_offsets.append(buffer)
+
+            if extension == 'dummy':
+                source_path = None
+                source_size = 0
                 remainder = 0
-            o.write(b'\x00' * remainder)
-            f.close()
-        remainders.append(remainder)
-        buffer += (size + remainder)
-        sectors.append(buffer)
+            else:
+                source_path = os.path.join(
+                    'FPB',
+                    f'{key}.{extension}'
+                )
 
-    copyfile('SLPS_251.72', 'new_SLPS_251.72')
-    u = open('new_SLPS_251.72', 'r+b')
-    u.seek(pointer_begin)
-    
-    for i in range(len(sectors) - 1):
-        u.write(struct.pack('<L', sectors[i] + remainders[i]))
-        
-    o.close()
-    u.close()
+                if not os.path.isfile(source_path):
+                    raise RuntimeError(
+                        f'Missing FPB source entry: {source_path}'
+                    )
+
+                source_size = os.path.getsize(source_path)
+
+                with open(source_path, 'rb') as input_file:
+                    shutil.copyfileobj(
+                        input_file,
+                        output,
+                        length=1024 * 1024
+                    )
+
+                remainder = (-source_size) % 0x40
+                output.write(b'\x00' * remainder)
+
+            if buffer & low_bits:
+                raise RuntimeError(
+                    f'FPB entry {key} starts at an '
+                    f'unaligned offset: 0x{buffer:X}'
+                )
+
+            if remainder > low_bits:
+                raise RuntimeError(
+                    f'FPB entry {key} has an invalid '
+                    f'remainder: {remainder}'
+                )
+
+            packed_sources.append(
+                (
+                    key,
+                    extension,
+                    source_path,
+                    source_size
+                )
+            )
+
+            remainders.append(remainder)
+            buffer += source_size + remainder
+
+    if buffer & low_bits:
+        raise RuntimeError(
+            f'FILE_NEW.FPB ends at an unaligned '
+            f'offset: 0x{buffer:X}'
+        )
+
+    pointers = [
+        start_offsets[index] | remainders[index]
+        for index in range(len(entries))
+    ]
+
+    # The extractor needs one extra pointer to mark the end of
+    # the final FPB entry. The old packer left this pointer stale.
+    pointers.append(buffer)
+
+    copyfile(
+        'SLPS_251.72',
+        'new_SLPS_251.72'
+    )
+
+    with open('new_SLPS_251.72', 'r+b') as executable:
+        executable.seek(pointer_begin)
+
+        for pointer in pointers:
+            if pointer > 0xFFFFFFFF:
+                raise RuntimeError(
+                    f'FPB pointer exceeds 32-bit range: '
+                    f'0x{pointer:X}'
+                )
+
+            executable.write(
+                struct.pack('<L', pointer)
+            )
+
+        executable.seek(pointer_begin)
+
+        written_pointers = [
+            struct.unpack('<L', executable.read(4))[0]
+            for _ in pointers
+        ]
+
+    if written_pointers != pointers:
+        raise RuntimeError(
+            'new_SLPS_251.72 pointer verification failed'
+        )
+
+    verify_packed_fpb(
+        'FILE_NEW.FPB',
+        packed_sources,
+        start_offsets,
+        remainders,
+        buffer
+    )
+
+    print(
+        f'Packed FILE_NEW.FPB: '
+        f'{len(entries)} entries, '
+        f'{buffer} bytes, '
+        f'{len(pointers)} pointers verified'
+    )
+
 
 def insert_font():
     offset = 0xCA238
@@ -647,50 +1109,141 @@ def move_skits_in():
     os.chdir('../..')
 
 def insert_pak1():
-    json_file = open('compression.json', 'r')
-    json_data = json.load(json_file)
-    json_file.close()
-    #print ("Packing pak1...")
-    try: os.mkdir('PAK1_PACKED')
-    except: pass
-    for name in os.listdir('FILE/pak1'):
-        if not os.path.isdir('FILE/pak1/' + name):
+    with open('compression.json', 'r', encoding='utf-8') as json_file:
+        json_data = json.load(json_file)
+
+    os.makedirs('PAK1_PACKED', exist_ok=True)
+
+    excluded_folders = {
+        'SCED',
+        'SCED_NEW',
+        'TXT',
+        'TXT_EN'
+    }
+
+    pak1_root = os.path.join('FILE', 'pak1')
+
+    def get_member_index(filename):
+        """
+        Expected extracted filename format:
+            00023_00.bin
+            00023_01.tm2
+            00023_02.sced
+        """
+        stem = os.path.splitext(filename)[0]
+
+        try:
+            return int(stem.rsplit('_', 1)[1])
+        except (IndexError, ValueError) as exc:
+            raise RuntimeError(
+                f'Cannot determine PAK1 member index from: {filename}'
+            ) from exc
+
+    for name in sorted(os.listdir(pak1_root)):
+        folder_path = os.path.join(pak1_root, name)
+
+        if not os.path.isdir(folder_path):
             continue
-        dir_ = os.listdir('FILE/pak1/' + name)
-        if name == 'SCED' or name == 'SCED_NEW' or name == 'TXT' or name == 'TXT_EN':
+
+        if name in excluded_folders:
             continue
+
+        members = [
+            filename
+            for filename in os.listdir(folder_path)
+            if os.path.isfile(os.path.join(folder_path, filename))
+        ]
+
+        # Preserve the original internal PAK1 member order.
+        members.sort(key=get_member_index)
+
+        if not members:
+            print(f'Warning: skipping empty PAK1 directory: {folder_path}')
+            continue
+
+        # Validate that extracted indexes form a continuous sequence.
+        indexes = [get_member_index(filename) for filename in members]
+        expected_indexes = list(range(len(members)))
+
+        if indexes != expected_indexes:
+            raise RuntimeError(
+                f'{name}: unexpected PAK1 member indexes.\n'
+                f'Found:    {indexes}\n'
+                f'Expected: {expected_indexes}'
+            )
+
         files = []
         paddings = []
-        n = len(dir_)
-        for file in dir_:
-            f = open('FILE/pak1/' + name + '/' + file, 'rb')
-            data = f.read()
-            padding = 16 - (len(data) % 16)
-            if padding == 16:
-                padding = 0
-            files.append(data)
+
+        for filename in members:
+            member_path = os.path.join(folder_path, filename)
+
+            with open(member_path, 'rb') as member_file:
+                member_data = member_file.read()
+
+            padding = (-len(member_data)) % 16
+
+            files.append(member_data)
             paddings.append(padding)
-        fname = 'PAK1_PACKED/' + name + '.pak1'
-        o = open(fname, 'wb')
-        o.write(struct.pack('<I', n))
-        new_offset = 4 + n * 8
-        offset_padding = 16 - new_offset % 16
-        if offset_padding == 16:
-            offset_padding = 0
-        new_offset += offset_padding
-        for i in range(n):
-            o.write(struct.pack('<I', new_offset))
-            size = len(files[i])
-            o.write(struct.pack('<I', size))
-            new_offset += size + paddings[i]
-        o.write(b'\x00' * offset_padding)
-        for i in range(n):
-            o.write(files[i] + b'\x00' * paddings[i])
-        o.close()
-        if compress and json_data[name] == 3:
-            subprocess.run(['comptoe.exe', '-c3', fname, fname + '.c'], stderr=subprocess.DEVNULL, stdout=subprocess.DEVNULL, stdin=subprocess.DEVNULL, creationflags=CREATE_NO_WINDOW)
-            os.remove(fname)
-            os.rename(fname + '.c', fname)
+
+        member_count = len(files)
+        output_path = os.path.join(
+            'PAK1_PACKED',
+            f'{name}.pak1'
+        )
+
+        with open(output_path, 'wb') as output:
+            output.write(struct.pack('<I', member_count))
+
+            first_data_offset = 4 + member_count * 8
+            header_padding = (-first_data_offset) % 16
+            next_offset = first_data_offset + header_padding
+
+            # Write offset and size table.
+            for index in range(member_count):
+                output.write(struct.pack('<I', next_offset))
+                output.write(struct.pack('<I', len(files[index])))
+
+                next_offset += (
+                    len(files[index]) +
+                    paddings[index]
+                )
+
+            output.write(b'\x00' * header_padding)
+
+            # Write files in original numerical order.
+            for index in range(member_count):
+                output.write(files[index])
+                output.write(b'\x00' * paddings[index])
+
+        compression_type = json_data.get(name, 0)
+
+        if compress and compression_type == 3:
+            compressed_path = output_path + '.c'
+
+            if os.path.exists(compressed_path):
+                os.remove(compressed_path)
+
+            subprocess.run(
+                [
+                    'comptoe.exe',
+                    '-c3',
+                    output_path,
+                    compressed_path
+                ],
+                check=True,
+                stderr=subprocess.DEVNULL,
+                stdout=subprocess.DEVNULL,
+                stdin=subprocess.DEVNULL,
+                creationflags=CREATE_NO_WINDOW
+            )
+
+            os.replace(compressed_path, output_path)
+
+        print(
+            f'Packed {output_path}: '
+            f'{member_count} members in numerical order'
+        )
 
 def donothing():
    filewin = Toplevel(window)

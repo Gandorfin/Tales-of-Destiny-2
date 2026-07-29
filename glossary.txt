@@ -1,0 +1,266 @@
+GLOSSARY — Tales of Destiny 2
+
+Researched from published game material (wikis, official sites, series
+cross-references) since Tales of Destiny 2 itself has no official English release.
+Treat "Confirmed" entries as safe to lock in; treat "Needs team decision" entries as
+open questions — pick one and apply it consistently everywhere. Extend this list as
+translators encounter new names; anything added here overrides individual judgment
+calls going forward.
+
+STYLE NOTE: the Tales series' official English localizations consistently spell
+special skills "arte" (not "art") and use "Mystic Arte" for a character's ultimate
+attack (Japanese 奥義, hi-ougi). Keep both conventions for consistency with the rest of
+the series.
+
+DISAMBIGUATION WARNING: if anyone on the team searches for official English material on
+"Tales of Destiny II," they will likely land on the wrong game. The North American PS2
+release called Tales of Destiny II (Roman numeral) is actually a rebrand of Tales of
+Eternia — Namco renamed it because Mattel holds the "Eternia" trademark (He-Man toys)
+in North America. It shares no characters, story, or terminology with this game. This
+project is translating the Japan-only Tales of Destiny 2 (Arabic numeral), the true
+sequel to the first Tales of Destiny. Don't import terms from Eternia material.
+
+== PLAYABLE CHARACTERS ==
+カイル・デュナミス (Kairu Dyunamisu) -> Kyle Dunamis
+  Protagonist, son of Stahn Aileron and Rutee Katrea
+
+リアラ (Riara) -> Reala
+  Emerges from a Lens early in the story
+
+ロニ・デュナミス (Roni Dyunamisu) -> Loni Dunamis
+  Orphan raised alongside Kyle; Order of Atamoni member
+
+(katakana unconfirmed — likely ジュダス) -> Judas
+  In-story alias; true identity is Leon Magnus (see "Returning characters" below).
+  Verify Japanese spelling against script.
+
+ナナリー・フレッチ (Nanarii Furetchi?,) -> Nanaly Fletcher
+  Also appears as "Nanaly Fletch" in some series cross-overs — pick one spelling and
+  stay consistent. Verify katakana against script.
+
+ハロルド・ベルセリオス (Harorudo Beruseriosu) -> Harold Berselius
+  Female despite the name — this is intentional in the source material, not a
+  translation error. Verify katakana against script.
+
+== ANTAGONISTS & DEITIES ==
+(katakana unconfirmed — likely バルバトス・ゴエティア) -> Barbatos Goetia
+  Verify against script before locking in.
+
+エルレイン (Erurein) -> Elraine / Elrane
+  Both spellings circulate in community material; pick one and apply consistently.
+  "Elraine" is used more often in English-language fan writeups.
+
+フォルトゥナ (Forutuna) -> Fortuna
+  The goddess central to the setting's religion; final antagonist
+
+== RETURNING CHARACTERS FROM THE FIRST GAME (TALES OF DESTINY) ==
+スタン・エルロン (Sutan Eruron) -> Stahn Aileron
+  Kyle's father, protagonist of the first game
+
+ルーティ・カトレット (Ruuti Katoretto) -> Rutee Katrea
+  Kyle's mother, runs the Dunamis Orphanage in Cresta
+
+リオン・マグナス (Rion Magunasu) -> Leon Magnus
+  Judas's true identity; a traitor character from the first game, later redeemed
+
+フィリア・フィリス (Firia Firisu) -> Philia Felice
+  High Priestess of the Straylize Temple
+
+ウッドロウ・ケルヴィン (Uddoroo Keruvin) -> Woodrow Kelvin (Japanese name) /
+  Garr Kelvin (official Western localization of the first game)
+  NEEDS TEAM DECISION. Since Destiny 2 has no Western release, "Woodrow" is the more
+  literal choice, but "Garr" keeps continuity with the first game's official English
+  release. King of Phandaria.
+
+== MINOR & SUPPORTING CHARACTERS ==
+リムル・エルロン (Rimuru Eruron) -> Rimul Aileron
+  Daughter of Lilith Aileron and Bacchus; Stahn's niece, Kyle's cousin. Appears in a
+  Neuestadt arena side-quest.
+
+(no Japanese given) -> Lilith Aileron
+  Stahn's younger sister; fights with cooking implements (frying pan, ladle). Rimul's
+  mother.
+
+(no Japanese given) -> Bacchus
+  Lilith's husband, Rimul's father. Minor mention only.
+
+メルクリウス・リトラー (Merukuriusu Ritoraa, lit. "Mercurius Littler") -> Marius Raiker
+  NEEDS TEAM DECISION. The community-standard English name doesn't match a literal
+  reading of the katakana — verify which the project wants to use before locking in.
+
+(no Japanese given) -> Karyl Sheeden
+  Appears briefly after the Magnadeus optional boss fight; role unconfirmed, verify
+  against script.
+
+(no Japanese given) -> Bruiser Khang / Kongman
+  Former arena champion at Neuestadt, referenced/possibly appears; catchphrase in the
+  first game was "I'm the CHAMPION!" — confirm if reused here.
+
+== MINOR ANTAGONISTS & DEMONOLOGY-NAMED BOSSES ==
+サブノック (Sabunokku) -> Sabnock
+  Minor antagonist, brief obstacle at Heidelberg Castle
+
+マグナディウエス (Magunadiuesu) -> Magnadeus
+  Optional final boss of the Aqua Labyrinth EX Dungeon
+
+NAMING CONVENTION: several Destiny 2 antagonists and bosses (Barbatos, Sabnock, and
+reportedly others including Dantalion, Gaap, Ose, Vassago, Buer, Glasya-Labolas,
+Forneus, Halphas, and Vepar) take their names from the Ars Goetia / Lesser Key of
+Solomon, a 17th-century demonology grimoire. If translators encounter one of these
+names, use the name's standard historical English spelling (as used in English
+editions of the grimoire) rather than re-transliterating from the katakana.
+
+== NAMED ARTES & MYSTIC ARTES ==
+魔尽煉獄殺 (Majin Rengokusatsu) -> "Infernal Suffering" (community fan-translation)
+  Judas's Mystic Arte. Not an official translation — confirm the project wants to
+  keep it or retranslate.
+
+(no Japanese given) -> Critical Blade / Final Prayer / Spiral Driver
+  Named artes belonging to Judas. Already English loanwords in the original Japanese
+  script ("Gratuitous English") — keep as-is, don't retranslate.
+
+神天連空斬風閃滅砕神罰殺戮撃
+(Shinten Rekkuu Zankou Senpuu Messai Shinbatsu Kassatsugeki) -> NOT YET TRANSLATED
+  Loni's Mystic Arte; an intentionally absurd 15-kanji title (a running joke — it can
+  even fail to activate due to its length/requirements). No confirmed English version
+  exists; this is a genuine creative-translation call for the team, not a lookup.
+
+(no Japanese given) -> "NO. ITEMS. EVER!!"
+  Barbatos's catchphrase Mystic Arte in LATER Tales games when he appears as a guest
+  character. VERIFY BEFORE USING IN THIS PROJECT — in Destiny 2 itself, his anti-item
+  behavior is a different, unnamed invincibility gimmick, not necessarily this named
+  move.
+
+== BATTLE SYSTEM & UI TERMS ==
+トラスト＆タクティカルリニアモーションバトルシステム ->
+Trust and Tactical Linear Motion Battle System (TT-LMBS)
+  This game's specific variant of the series' trademark real-time battle system
+
+(no Japanese given) -> Spirit Points (SP)
+  The resource characters spend to act in battle (replaces/modifies the "TP" resource
+  used in some other Tales games — confirm exact mechanic against the actual
+  script/manual rather than assuming, since secondary sources describe it slightly
+  differently)
+
+(no Japanese given) -> Moon Selector
+  Key item; lets the player switch which character they're directly controlling from
+  the battle menu
+
+(no Japanese given) -> Halberd
+  Loni's weapon type — plain descriptive term, no special translation needed, listed
+  for consistency
+
+== SWORDIANS (sentient swords carrying the personalities of Er'ther war heroes) ==
+(no separate name given) -> Dymlos
+  Fire-elemental; Stahn's Swordian in the first game
+
+(no separate name given) -> Atwight
+  Water/ice-elemental, healing-focused; Rutee's Swordian
+
+ピエール・ド・シャルティエ (Pieru do Sharutie, person) -> Chaltier
+  Earth-elemental; Leon/Judas's Swordian
+
+イクティノス・マイナード (Ikutinosu Mainado, person) -> Igtenos
+  Wind-elemental; royal Swordian of Phandaria
+
+(no separate name given) -> Clemente
+  Light/lightning-elemental; may not physically appear in Destiny 2 — verify
+
+カーレル・ベルセリオス (Kareru Beruseriosu, person: Karell Berselius, implied to be
+Harold's brother) -> Berselius
+  Named for Karell Berselius; confirm which Destiny 2 character wields it, if any
+
+== ORGANIZATIONS & FACTIONS ==
+(no Japanese given) -> Order of Atamoni / Church of Atamoni
+  Religious organization tied to the Eye of Atamoni; both phrasings appear in
+  community sources — pick one
+
+(no Japanese given) -> Er'ther
+  One of the two peoples from the ancient Aeth'er Wars; spelling varies (Er'ther /
+  E'rther) across sources — standardize on one
+
+(no Japanese given) -> Aetherian
+  The other side of the Aeth'er Wars; exiled to Calvalese after their defeat
+
+(no Japanese given) -> Oberon Corporation
+  Powerful corporation from the first game, still relevant to the setting
+
+== KEY LOCATIONS ==
+クレスタ (Kuresuta) -> Cresta
+  Kyle's home village; site of the Dunamis Orphanage
+
+(no Japanese given) -> Dunamis Orphanage
+  Run by Rutee; source of Kyle and Loni's shared surname
+
+(no Japanese given) -> Laguna Ruins
+  Where Reala first appears, near Cresta
+
+(no Japanese given) -> Aigrette
+  Religious capital city, region of Seinegald
+
+(no Japanese given) -> Hope Town
+  Oasis town in Calvalese, Destiny-2-exclusive location
+
+(no Japanese given) -> Calvalese
+  Desert continent where the Aetherians were exiled
+
+(no Japanese given) -> Phandaria
+  Kingdom ruled by Woodrow/Garr Kelvin, capital Heidelberg
+
+(no Japanese given) -> Seinegald
+  Region containing Cresta, Aigrette, and the Laguna Ruins
+
+(no Japanese given) -> Heidelberg Castle
+  Royal castle in Heidelberg, capital of Phandaria
+
+ノイシュタット (Noishutatto) -> Neuestadt
+  City with a coliseum/arena used for optional battles
+
+(no Japanese given) -> Aqua Labyrinth
+  Optional "EX Dungeon" — 20-floor superboss gauntlet, unlocked by finding 15 stones
+  on the world map
+
+== CORE TERMS & SYSTEMS ==
+晶術 (shoujutsu) -> Lens Arte / spell
+  Magic system powered by Lens energy; confirm exact term the project has settled on
+
+(no Japanese given) -> Lens
+  The setting's core magical/technological energy source
+
+(no Japanese given) -> Eye of Atamoni
+  A major relic/artifact tied to the Order of Atamoni
+
+ガルド (Garudo) -> Gald
+  The setting's currency, standard across the whole Tales series
+
+奥義 (ougi / hi-ougi) -> Mystic Arte
+  A character's ultimate special attack — official series-wide term
+
+(no Japanese given) -> Aeth'er Wars
+  The ancient war between the Er'ther and Aetherian peoples
+
+(no Japanese given) -> Swordian Master
+  Title for a character who wields one of the six Swordians
+
+== CONFIRMED IN REAL SCRIPT FILES (added while cross-checking code_glossary.txt) ==
+リファイン (Rifain) -> Refine
+  Appears 27 times across scenarios/skits. A recurring game-system term,
+  likely an item-refining or synthesis mechanic. "Refine" is the literal
+  reading — confirm against menu/system script text if there's a dedicated
+  UI string for it, since that may already fix the exact English wording.
+
+ベルセリアの花 -> Bellseria Flower
+  Appears 3 times, a specific item name. NEEDS TEAM DECISION on exact
+  English rendering (Bellseria Flower is a straightforward default).
+
+スクリーンチャット (Sukuriin Chatto) -> Screen Chat
+  Appears in a menu/gallery context ("previously-seen Screen Chats" / "Screen
+  Chats you haven't seen yet"). Likely a skit replay/gallery feature, similar
+  to the "skit theater" mode in other Tales games — function inferred from
+  context, not confirmed. Verify before locking in a translation.
+
+NOTE on Straylize spelling: code_glossary.txt (a separate uploaded reference)
+used "Straylise Grand Temple." Checking the katakana directly (ストレイライズ
+= Sutoreiraizu) confirms "Straylize" — already the entry above — is the more
+accurate romanization. No change needed; noting this here so the discrepancy
+doesn't cause confusion later.

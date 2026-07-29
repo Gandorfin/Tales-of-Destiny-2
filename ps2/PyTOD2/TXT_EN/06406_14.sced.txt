@@ -1,0 +1,370 @@
+#リーネの村・マギーおばあさんの家
+Reine's Village - Grandma Maggie's House
+-----------------------
+#リーネの村
+Lienea Village
+-----------------------
+#マギーおばあさん
+Aunt Maggie
+-----------------------
+#マギーおばあさんの家
+Grandma Maggie's House
+-----------------------
+#おかしいねぇ････どうしてあんたが
+#スタンに見えたんだろうねぇ？
+Funny, isn't it? Why did you look so much like Stan?
+I wonder why?
+-----------------------
+#やっぱりその金髪ツンツン頭の
+#せいかねぇ？
+I'm sure it's that blond guy with the spiky hair.
+Right?
+-----------------------
+#ススス、スタン！
+#どどどどど、どうして････！
+H-h-halt!
+W-w-w-w-w-why...!
+-----------------------
+<Kyle>
+-----------------------
+#落ちついて、おばあさん！
+#オレは、父さんじゃないよ
+#息子の<Kyle>！
+Calm down, grandma!
+I'm not your father.
+My son, <Kyle>!
+-----------------------
+#へ････？あぁ、ホントだよ
+#ビックリしたよぉ！
+#今、あんたがスタンに見えたんだ！
+Huh...? Ah, it's true.
+I was so surprised!
+You looked just like Stan right then!
+-----------------------
+#ごめんごめん
+#コッチがスタンの息子だったのかい
+#なんだかさえないねぇ
+My bad, my bad
+So you're Stan's son?
+This place feels kinda dull.
+-----------------------
+<Loni>
+-----------------------
+#････だから、俺じゃなくて
+#このちっこいほうが
+#スタンさんの息子だってば！
+...That's why, it's not me.
+This small one here...
+Is Stan-san's son!
+-----------------------
+#おや、アンタがスタンの息子かい？
+#へえ、母親似なんだね
+Well, well. Are you Stan's son?
+Hmm, you really take after your mother.
+-----------------------
+#そんな仮面なんか
+#かぶってないで
+#顔を見せておくれよ
+That kind of mask...
+Just put it on,
+and show me your face.
+-----------------------
+<Judas>
+-----------------------
+#いや････僕じゃない････
+#こっちにいるのが
+#スタンの息子だ
+No... it's not me...
+The one over here is
+Stan's son.
+-----------------------
+#ごめんごめん
+#コッチがスタンの息子だったのかい
+#父親似なんだね
+My bad, my bad
+So you're Stan's son?
+You really take after your father.
+-----------------------
+#家の前の畑に{16}{34}{70}{C0}を
+#まいてごらんなさい
+Sow {16}{34}{70}{C0} in the field in front of the house.
+Give it a try.
+-----------------------
+#種は育っている？
+Are the seeds growing?
+-----------------------
+select
+-----------------------
+#<03:00000000>　育ってる　
+#　育ってない　
+<03:00000000>Growing up
+Not growing up
+-----------------------
+#ちゃんと世話すれば
+#１０分くらいで芽が出るはずよ
+If you take proper care of it,
+It should sprout in about ten minutes.
+-----------------------
+#芽が出る前に最初の肥料をあげて、
+#芽が出たら追肥してね
+Apply the first fertilizer before it sprouts,
+and once it has sprouted, give it top dressing.
+-----------------------
+#さらに１０分くらいたってから
+#最後の肥料をあげてね
+About ten minutes later...
+Apply the final fertilizer.
+-----------------------
+#枯らさないように適度に水をあげていれば
+#そのうちに実がなるはずよ
+If you water it moderately so it doesn't dry out,
+It should bear fruit eventually.
+-----------------------
+#芽が出てから３０分くらいは
+#かかるかしらね
+About 30 minutes after sprouting,
+I wonder how long it'll take?
+-----------------------
+#水をあげすぎても腐ってしまうから
+#気をつかってあげてね
+If you give it too much water, it'll rot.
+Be careful with how you handle it.
+-----------------------
+#収穫の期間は実がなってから
+#１０分くらいなのよ
+The harvest period begins once the fruit has ripened.
+It's about ten minutes.
+-----------------------
+#いつまでも収穫しないと
+#枯れてしまうわ
+If you don't harvest them forever,
+they'll wither away.
+-----------------------
+#ちゃんと世話すれば
+#収穫が得られるはずよ
+If you take proper care of them,
+you should get a good harvest.
+-----------------------
+#がんばってね
+Do your best.
+-----------------------
+#良かったわね
+I'm glad.
+-----------------------
+#種を育ててみないかい？
+Want to try growing some seeds?
+-----------------------
+select
+-----------------------
+#<03:00000000>　育ててみる　
+#　育てない　
+<03:00000000>Let's raise it
+Don't raise it
+-----------------------
+#お前さんに{16}{34}{70}{C0}をあげるよ
+I'll give you {16}{34}{70}{C0}.
+-----------------------
+#家の前にある畑を貸してあげるから
+#{16}{34}{70}{C0}をまいてごらんなさい
+I'll lend you the field in front of my house.
+{16}{34}{70}{C0}Try planting some .
+-----------------------
+#種を育ててるとステキな収穫が
+#得られることもあるんだよ
+If you take care of growing seeds,
+you might just end up with a wonderful harvest.
+-----------------------
+#昔はスタンも種を育てていたんだよ
+Back in the day, Stan used to grow seeds too.
+-----------------------
+#ごめんごめん
+#アンタがスタンの息子だったのかい
+My bad, my bad.
+So you're Stan's son.
+-----------------------
+#ところで、スタンは
+#どんな顔だったかのぅ？
+By the way, Stan...
+What did he look like?
+-----------------------
+#おや、あんたは････
+#もしかして、スタンの息子かい？
+#外でみんなが騒いでるから、知ってるよ
+Oh? You...
+Could you be Stan's son?
+I heard everyone making a fuss out there.
+-----------------------
+#にしても････似てないねぇ
+#なんかスタンとちがって
+#女で苦労しそうな顔してるし
+She doesn't look much like him.
+It's different from Stan.
+She has that face that looks like she'll have it rough as a woman.
+-----------------------
+<Loni>
+-----------------------
+#････悪かったな、苦労しそうで
+#それにちがうだろ！
+#スタンさんの息子は、このちっこいほう！
+...Sorry about that. You're going to have your work cut out for you.
+That's not it!
+Stan's son is this little guy right here!
+-----------------------
+#アルバムがある
+#マギーおばあさんの若かりし頃の姿が････!?
+There's an album.
+Grandma Maggie in her youth...!?
+-----------------------
+#人の過去を勝手に見るんじゃないよ！
+Don't go poking around in people's pasts without permission!
+-----------------------
+#マギーおばあさん特製シチューだ
+#とっても美味しそう････
+Maggie's special stew.
+It looks so delicious...
+-----------------------
+#一口だけでも食べてみたい････
+I'd like to try just one bite...
+-----------------------
+#きちんと掃除された、キレイなトイレだ！
+It's a clean, well-maintained bathroom!
+-----------------------
+#紙切れが入っている
+#『ノイシュタット闘技場・初代チャンピオン････』
+There's a piece of paper inside.
+'Neuestadt Colosseum - First Champion...'.
+-----------------------
+#人の過去を勝手に見るんじゃないよ！
+Don't just go peeking into people's pasts without permission!
+-----------------------
+NOTICE
+-----------------------
+#あやしげな扉がありますが、開け方が分かりません
+#道具が手に入ったら調べてみましょう
+There's a suspicious-looking door here, but I'm not sure how to open it.
+Once we get our hands on some tools, let's check it out.
+-----------------------
+select
+-----------------------
+#１番目の種
+#２番目の種
+#３番目の種
+#４番目の種
+The first seed
+The second seed
+The third seed
+The fourth seed
+-----------------------
+{14}{34}{70}{C0}
+-----------------------
+{14}{34}{70}{C0}
+-----------------------
+{14}{34}{70}{C0}
+-----------------------
+{14}{34}{70}{C0}
+-----------------------
+ERROE
+-----------------------
+select
+-----------------------
+#１番目の水
+#２番目の水
+#３番目の水
+#４番目の水
+The First Water
+The Second Water
+The Third Water
+The Fourth Water
+-----------------------
+{14}{34}{70}{C0}
+-----------------------
+{14}{34}{70}{C0}
+-----------------------
+{14}{34}{70}{C0}
+-----------------------
+{14}{34}{70}{C0}
+-----------------------
+ERROE
+-----------------------
+select
+-----------------------
+#１番目の肥料
+#２番目の肥料
+#３番目の肥料
+#４番目の肥料
+First fertilizer
+Second fertilizer
+Third fertilizer
+Fourth fertilizer
+-----------------------
+{14}{34}{70}{C0}
+-----------------------
+{14}{34}{70}{C0}
+-----------------------
+{14}{34}{70}{C0}
+-----------------------
+{14}{34}{70}{C0}
+-----------------------
+ERROE
+-----------------------
+{14}{34}{70}{C0}
+-----------------------
+#いってらっしゃいませ
+Have a good day.
+-----------------------
+#<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
+#お泊まりになりますか？
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+Would you like to stay?
+-----------------------
+#お泊まりになりますか？
+Would you like to stay?
+-----------------------
+select
+-----------------------
+#<03:00000000>　はい　
+#　いいえ　
+<03:00000000> Yes 
+ No 
+-----------------------
+#ごゆっくりお休みください
+Have a good night.
+-----------------------
+#おはようございます
+Good morning.
+-----------------------
+#お金が足りません
+Not enough money.
+-----------------------
+#またのおこしをお待ちしております
+See you again soon.
+-----------------------
+set_parameter( myself, C_PARTY, 0 );
+-----------------------
+wait_map_scroll();
+-----------------------
+exit-party_togather( short spd )
+-----------------------
+notice
+-----------------------
+#{16}{25}{CE}{C0}を手に入れました
+Acquired {16}{25}{CE}{C0}.
+-----------------------
+notice
+-----------------------
+#<item:FFFFFFFF>を手に入れました
+Acquired <item:FFFFFFFF>.
+-----------------------
+notice
+-----------------------
+#{16}{25}{D6}{C0}がありましたが
+#いっぱいで持てませんでした
+Acquired {16}{25}{D6}{C0} but
+inventory is full already.
+-----------------------
+notice
+-----------------------
+#何もありません
+There's nothing here.
+-----------------------
+

@@ -1,0 +1,232 @@
+#地上軍拠点跡地
+Former Ground Forces Base Site
+-----------------------
+#地上軍拠点跡地
+Former Ground Forces Base Site
+-----------------------
+#地上軍拠点跡地
+Former Ground Forces Base Site
+-----------------------
+#地上軍拠点跡地
+Former Ground Forces Base Site
+-----------------------
+#兵士
+soldier
+-----------------------
+#止まれ！
+#ここより先は王国の管理下にある！
+Halt!
+Beyond this point is under the Kingdom's jurisdiction!
+-----------------------
+#兵士
+soldier
+-----------------------
+#許可の無い者が入る事、まかりならん！
+#早々に立ち去るがよい！
+None shall enter without permission!
+Make haste and leave at once!
+-----------------------
+<Judas>
+-----------------------
+#僕たちはウッドロウ王から
+#勅命をたまわっている
+#これが、書状だ
+We're from King Woodrow's
+I have been given an imperial decree.
+This is the letter.
+-----------------------
+#兵士
+soldier
+-----------------------
+#こ、これは････！
+#失礼しました！
+W-wait...!
+My apologies!
+-----------------------
+<Loni>
+-----------------------
+#ヒュ～♪
+#さすが勅命状だねぇ
+Huu~♪
+As expected from an imperial decree.
+-----------------------
+<Judas>
+-----------------------
+#はしゃぐな、みっともない
+Don't get so excited, it's embarrassing.
+-----------------------
+<Judas>
+-----------------------
+#ところで、イクシフォスラーは
+#まだ、ここにあるのか？
+By the way, is the Xiphos Lancer...
+still here?
+-----------------------
+#兵士
+soldier
+-----------------------
+#あることは、あるのですが････
+#格納庫は封印が施されており、入る事ができません
+Well, there is something...
+The storage area has been sealed off, so we can't get in.
+-----------------------
+#兵士
+Soldier
+-----------------------
+#我々はイクシフォスラーの警備が任務
+#封印の解除方法までは、知らされていないのです
+We are tasked with guarding Ixionphoslar.
+We haven't been informed on how to lift the seal.
+-----------------------
+<Judas>
+-----------------------
+#わかった
+#あとは僕たちでなんとかする
+Got it.
+We'll handle the rest.
+-----------------------
+<Nanaly>
+-----------------------
+#ねぇ、<Judas>
+#イクシフォスラーって、なんなんだい？
+Hey, .<Judas>
+What's an Ixiphoslar?
+-----------------------
+<Judas>
+-----------------------
+#行けばわかる
+#とにかく、ついてこい
+You'll see once you get there.
+Anyway, just follow me.
+-----------------------
+#兵士
+Soldier
+-----------------------
+#封印がほどこされた部屋に
+#解除方法らしきものをつづった
+#石碑がありました
+In the room sealed away,
+there was a stone stele inscribed
+with what seemed to be instructions on how to break it.
+-----------------------
+#兵士
+soldier
+-----------------------
+#お調べになられては？
+Do you want to look into it?
+-----------------------
+#兵士
+Soldier
+-----------------------
+#ご自由にお通りください
+#異常ありません
+You're free to pass.
+No abnormalities.
+-----------------------
+#兵士
+soldier
+-----------------------
+#ここはファンダリア王国が管理する遺跡だ
+#入るのは構わんが中を荒らさないようにな
+This is a ruin managed by the Kingdom of Fundaria.
+You're free to enter, but don't mess things up inside.
+-----------------------
+#兵士
+soldier
+-----------------------
+#何度でも言うが
+#ここより先は王国の管理下にある！
+I'll say it again,
+This area is under the Kingdom's jurisdiction from here on out!
+-----------------------
+#兵士
+soldier
+-----------------------
+#許可の無い者が入る事、まかりならん！
+#早々に立ち去るがよい！
+None shall enter without permission!
+Leave at once!
+-----------------------
+#兵士
+soldier
+-----------------------
+#止まれ！
+#ここより先は王国の管理下にある！
+Halt!
+Beyond this point is under the Kingdom's jurisdiction!
+-----------------------
+#兵士
+soldier
+-----------------------
+#許可の無い者が入る事、まかりならん！
+#早々に立ち去るがよい！
+None shall enter without permission!
+Depart at once!
+-----------------------
+#兵士
+soldier
+-----------------------
+#許可の無い者が入る事、まかりならん！
+#早々に立ち去るがよい！
+None shall enter without permission!
+Make haste and leave at once!
+-----------------------
+#いってらっしゃいませ
+Have a good day.
+-----------------------
+#<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
+#お泊まりになりますか？
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+Would you like to stay?
+-----------------------
+#お泊まりになりますか？
+Would you like to stay?
+-----------------------
+select
+-----------------------
+#<03:00000000>　はい　
+#　いいえ　
+<03:00000000> Yes 
+ No 
+-----------------------
+#ごゆっくりお休みください
+Have a good night.
+-----------------------
+#おはようございます
+Good morning.
+-----------------------
+#お金が足りません
+Not enough money.
+-----------------------
+#またのおこしをお待ちしております
+See you again soon.
+-----------------------
+set_parameter( myself, C_PARTY, 0 );
+-----------------------
+wait_map_scroll();
+-----------------------
+exit-party_togather( short spd )
+-----------------------
+notice
+-----------------------
+#{16}{25}{BA}{C0}を手に入れました
+Acquired {16}{25}{BA}{C0}.
+-----------------------
+notice
+-----------------------
+#<item:FFFFFFFF>を手に入れました
+Acquired <item:FFFFFFFF>.
+-----------------------
+notice
+-----------------------
+#{16}{25}{C2}{C0}がありましたが
+#いっぱいで持てませんでした
+Acquired {16}{25}{C2}{C0} but
+inventory is full already.
+-----------------------
+notice
+-----------------------
+#何もありません
+There's nothing here.
+-----------------------
+

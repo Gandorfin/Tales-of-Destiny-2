@@ -1,0 +1,120 @@
+#闇の祭壇
+Altar of Darkness
+-----------------------
+#カタコンベ・闇の祭壇
+Catacomb Dark Altar
+-----------------------
+#カタコンベ
+Catacomb
+-----------------------
+NOTICE
+-----------------------
+#石碑に文字が書かれています
+There are inscriptions on the stone monument.
+-----------------------
+NOTICE
+-----------------------
+#１：『罪』に苦しみ
+#２：『罰』を受け
+#３：『死』をむかえて
+#４：『闇』に落ちよ
+1: Suffering from 'Sin'
+2: Receiving 'Punishment'
+3: Facing 'Death'
+4: Falling into 'Darkness'
+-----------------------
+NOTICE
+-----------------------
+#ソーサラースコープを使って
+#隠された文字を見つけ出しました
+Using the Solsal Scope
+I found the hidden message.
+-----------------------
+NOTICE
+-----------------------
+#１：『闇』に堕ち
+#２：『罰』を受け
+#３：『罪』をつぐない
+#４：『死』をむかえよ
+1: Fall into 'Darkness'
+2: Receive 'Punishment'
+3: Atonement for 'Sin'
+4: Welcome 'Death'
+-----------------------
+NOTICE
+-----------------------
+#ソーサラースコープを使って
+#隠された文字を見つけ出しました
+Using the Solsal Scope
+I found the hidden message.
+-----------------------
+NOTICE
+-----------------------
+#１：『闇』に堕ち
+#２：『罰』を受け
+#３：『罪』をつぐない
+#４：『死』をむかえよ
+1: Fall into 'Darkness'
+2: Receive 'Punishment'
+3: Atonement for 'Sin'
+4: Welcome 'Death'
+-----------------------
+#いってらっしゃいませ
+Have a good day.
+-----------------------
+#<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
+#お泊まりになりますか？
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+Would you like to stay?
+-----------------------
+#お泊まりになりますか？
+Would you like to stay?
+-----------------------
+select
+-----------------------
+#<03:00000000>　はい　
+#　いいえ　
+<03:00000000> Yes 
+ No 
+-----------------------
+#ごゆっくりお休みください
+Have a good night.
+-----------------------
+#おはようございます
+Good morning.
+-----------------------
+#お金が足りません
+Not enough money.
+-----------------------
+#またのおこしをお待ちしております
+See you again soon.
+-----------------------
+set_parameter( myself, C_PARTY, 0 );
+-----------------------
+wait_map_scroll();
+-----------------------
+exit-party_togather( short spd )
+-----------------------
+notice
+-----------------------
+#{16}{27}{4A}{C0}を手に入れました
+{16}{27}{4A}{C0}You obtained .
+-----------------------
+notice
+-----------------------
+#<item:FFFFFFFF>を手に入れました
+Acquired <item:FFFFFFFF>.
+-----------------------
+notice
+-----------------------
+#{16}{27}{52}{C0}がありましたが
+#いっぱいで持てませんでした
+{16}{27}{52}{C0}There was , but
+I couldn't hold it because it was full.
+-----------------------
+notice
+-----------------------
+#何もありません
+There's nothing here.
+-----------------------
+

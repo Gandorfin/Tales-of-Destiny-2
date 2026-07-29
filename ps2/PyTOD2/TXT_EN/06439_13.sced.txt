@@ -1,0 +1,86 @@
+#ハイデルベルグ・宿屋
+Heidelberg Inn
+-----------------------
+#ハイデルベルグ
+Heidelberg
+-----------------------
+#元気に走り回っている子供たちの姿が見える
+#ハイデルベルグの街中は平和そのものだ
+I can see children running around in good health.
+The streets of Heidelberg are peaceful.
+-----------------------
+#元気に走り回っている子供たちの姿が見える
+#ハイデルベルグの街中は平和そのものだ
+I can see children running around in good health.
+The streets of Heidelberg are peaceful.
+-----------------------
+#アタモニ神団のものらしき聖書がある
+#しかし、あまり利用されていないようだ
+There appears to be a holy book belonging to the Order of Adamon.
+However, it doesn't seem to be used very much.
+-----------------------
+#ストレイライズ神殿の聖書が入っている
+It contains the Bible from the Stray Rize Temple.
+-----------------------
+#タンスはからっぽだ
+The dresser is empty.
+-----------------------
+#いってらっしゃいませ
+Have a good day.
+-----------------------
+#<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
+#お泊まりになりますか？
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+Would you like to stay?
+-----------------------
+#お泊まりになりますか？
+Would you like to stay?
+-----------------------
+select
+-----------------------
+#<03:00000000>　はい　
+#　いいえ　
+<03:00000000> Yes 
+ No 
+-----------------------
+#ごゆっくりお休みください
+Have a good night.
+-----------------------
+#おはようございます
+Good morning.
+-----------------------
+#お金が足りません
+Not enough money.
+-----------------------
+#またのおこしをお待ちしております
+See you again soon.
+-----------------------
+set_parameter( myself, C_PARTY, 0 );
+-----------------------
+wait_map_scroll();
+-----------------------
+exit-party_togather( short spd )
+-----------------------
+notice
+-----------------------
+#{16}{25}{BA}{C0}を手に入れました
+Acquired {16}{25}{BA}{C0}.
+-----------------------
+notice
+-----------------------
+#<item:FFFFFFFF>を手に入れました
+Acquired <item:FFFFFFFF>.
+-----------------------
+notice
+-----------------------
+#{16}{25}{C2}{C0}がありましたが
+#いっぱいで持てませんでした
+Acquired {16}{25}{C2}{C0} but
+inventory is full already.
+-----------------------
+notice
+-----------------------
+#何もありません
+There's nothing here.
+-----------------------
+

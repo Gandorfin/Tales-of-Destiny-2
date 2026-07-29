@@ -1,0 +1,905 @@
+#ハイデルベルグ・図書館
+Heidelberg Library
+-----------------------
+#ハイデルベルグ
+Heidelberg
+-----------------------
+#ハイデルベルグ図書館
+Heidelberg Library
+-----------------------
+<char:000003E8>
+-----------------------
+#これは！
+This is it!
+-----------------------
+NOTICE
+-----------------------
+#ＴＯＰのクイズ問題を見つけた！
+I found the quiz question at the TOP!
+-----------------------
+NOTICE
+-----------------------
+#クイズ本に新しいジャンルが追加されました
+A new genre has been added to the quiz book.
+-----------------------
+NOTICE
+-----------------------
+#色々な本があります
+#『テイルズオブファンタジアを遊び倒す本』
+#『テイルズオブデスティニーをやり尽くす本』
+#『テイルズオブエターニアを極め尽くす本』
+There are all sorts of books here.
+A Guide to Playing Through Tales of Phantasia
+A Manual for Mastering Tales of Destiny
+The Ultimate Guide to Tales of Eternia
+-----------------------
+NOTICE
+-----------------------
+#『アイグレッテ・奇跡の街』
+#という本があります
+#読んでみますか？
+"Aigrette: The City of Miracles"
+is a book that exists.
+Would you like to read it?
+-----------------------
+select
+-----------------------
+#<03:00000000>　読んでみる　
+#　読まない　
+<03:00000000>I'll give it a read.
+I won't read it.
+-----------------------
+NOTICE
+-----------------------
+#アイグレッテは神の眼を巡る騒乱の直後に
+#難民たちの手によって建設された街である
+Iggreta was in the midst of the turmoil surrounding the Eye of God.
+It's a town built by refugees.
+-----------------------
+NOTICE
+-----------------------
+#難民の大部分は『ダリルシェイド』
+#『ハーメンツ』『アルメイダ』の
+#住民たちであり、彼らの故郷は
+#ほぼ完全に消滅してしまっていた
+Most of the refugees are from 'Darylshaid'
+'Harmenz' and 'Almeida'
+residents, and their hometowns
+had been almost completely wiped out
+-----------------------
+NOTICE
+-----------------------
+#彼らは救いを必要としていた
+#ストレイライズ神殿が彼らを保護し
+#神殿のひざ下に街を建設した
+#これがアイグレッテの生い立ちである
+They were in need of salvation.
+The Stray Rize Temple protected them,
+and they built a town beneath its altar steps.
+This is the story of Aigrette's upbringing.
+-----------------------
+NOTICE
+-----------------------
+#大陸北方の交通の要所として
+#アイグレッテは見る間に大きくなり
+#今では世界に名立たる大都市にまで
+#発展したのだった
+As a key transportation hub in the northern continent
+Igret grew rapidly
+Until it became a world-renowned metropolis
+It had developed into such.
+-----------------------
+NOTICE
+-----------------------
+#『巨大企業・オベロン社の歴史』
+#という本があります
+#読んでみますか？
+The History of the Mega-Corporation Oberon
+is a book that exists.
+Wanna give it a read?
+-----------------------
+select
+-----------------------
+#<03:00000000>　読んでみる　
+#　読まない　
+<03:00000000>Let's give it a read.
+No thanks.
+-----------------------
+NOTICE
+-----------------------
+#オベロン社は
+#先の騒乱の元凶とされる人物
+#『ヒューゴ＝ジルクリスト』によって
+#興された企業である
+The Oberon Company
+The person believed to be the mastermind behind the earlier unrest.
+by Hugo Jilchrist
+a company that was established
+-----------------------
+NOTICE
+-----------------------
+#オベロン社は
+#レンズを用いた製品の開発および販売
+#レンズの買い取りなどを主な業務とし
+#各大陸に支部を持つ巨大企業であった
+The Oberon Corporation
+developing and selling products using lenses,
+buying back lenses as its main business operations,
+was a massive corporation with branches across each continent.
+-----------------------
+NOTICE
+-----------------------
+#しかしながら
+#その強い社力は、ヒューゴの野望を
+#後押しする結果となった
+However,
+That immense social power ended up
+bolstering Hugo's ambitions.
+-----------------------
+NOTICE
+-----------------------
+#ヒューゴの野望は
+#四英雄によって打ちくだかれ
+#それと共にオベロン社は衰退した
+Hugo's ambitions were
+crushed by the Four Heroes,
+and with them, the Oberon Company declined.
+-----------------------
+NOTICE
+-----------------------
+#現在ではオベロン社によって生産された
+#レンズ製品に名を残すのみである
+In the present day, they are produced by Oberon Corporation.
+They remain only as names on lens products.
+-----------------------
+NOTICE
+-----------------------
+#『天地戦争の歴史』
+#という本があります
+#読んでみますか？
+The History of the War Between Heaven and Earth
+is a book that exists
+Would you like to read it?
+-----------------------
+select
+-----------------------
+#<03:00000000>　読んでみる　
+#　読まない　
+<03:00000000>Let's give it a read.
+No thanks.
+-----------------------
+NOTICE
+-----------------------
+#約千年もの昔････
+#巨大彗星がこの星に衝突した
+About a thousand years ago...
+A giant comet collided with this planet.
+-----------------------
+NOTICE
+-----------------------
+#その衝突によって巻き上げられた粉塵で
+#太陽の恩恵が失われたことにより
+#地上は荒廃した････
+With the dust stirred up by that collision,
+due to the loss of the sun's blessings,
+the surface was left desolate...
+-----------------------
+NOTICE
+-----------------------
+#極寒の地となった地上を逃れて
+#生きのびるべく
+#人々は天高く都市を浮かべ
+#光をとりもどそうとした
+Fleeing from the surface, which had become a land of extreme cold,
+in order to survive,
+people floated cities high into the sky
+and sought to reclaim the light.
+-----------------------
+NOTICE
+-----------------------
+#しかし、天上都市に移住できたのは
+#時の権力者など、ごく一部であり
+#多くの人々は、地上に取り残された････
+However, those who were able to relocate to the celestial city
+were but a select few, such as the rulers of time,
+while the majority of people were left behind on the ground...
+-----------------------
+NOTICE
+-----------------------
+#天上都市群の人々は、自らを『天上人』と名乗り
+#首都ダイクロフトに装備された兵器
+#ベルクラントの力により
+#地上に残った人々を武力支配した････
+The people of the sky cities call themselves 'Celestials'
+A weapon installed in the capital city of Dycrof
+By the power of Belkranft
+They subjugated those left on the ground through military force...
+-----------------------
+NOTICE
+-----------------------
+#地上に残された人々は
+#こうした『天上人』の行いに抵抗した
+The people left on the surface
+resisted these actions of the 'Celestials'
+-----------------------
+NOTICE
+-----------------------
+#天上と地上に分かれた戦争
+#『天地戦争』の幕開けである
+The war divided between heaven and earth
+The beginning of the 'Heaven and Earth War'
+-----------------------
+NOTICE
+-----------------------
+#圧倒的な軍事力を誇る天上軍の前に
+#地上軍は苦戦し、敗色濃厚であったが
+#新兵器『ソーディアン』の力によって
+#起死回生の勝利を収めた
+The Sky Army, boasting overwhelming military might,
+the Ground Forces struggled heavily, on the verge of defeat,
+but thanks to the power of the new weapon 'Sordian',
+they achieved a miraculous victory from the brink of death.
+-----------------------
+NOTICE
+-----------------------
+#『神の眼を巡る騒乱』
+#という本があります
+#読んでみますか？
+The Turmoil Surrounding the Eye of God
+is a book that exists.
+Wanna give it a read?
+-----------------------
+select
+-----------------------
+#<03:00000000>　読んでみる　
+#　読まない　
+<03:00000000>I'll give it a read.
+I won't read it.
+-----------------------
+NOTICE
+-----------------------
+#オベロン社総帥のヒューゴ＝ジルクリストは
+#ストレイライズ神殿に封印されていた
+#巨大レンズ『神の眼』を盗みだした
+Hugo Zirkrist, the president of Oberon Corporation,
+It was sealed within the Stray Rize Temple.
+I stole the giant lens, 'God's Eye'.
+-----------------------
+NOTICE
+-----------------------
+#強大な力を手にしたヒューゴは
+#天地戦争時代の天上都市群を復活させ
+#世界を恐怖と混乱におとしいれた
+Hugo, having gained immense power,
+revived the floating cities from the era of the War of Heaven and Earth,
+and plunged the world into terror and chaos.
+-----------------------
+NOTICE
+-----------------------
+#これに敢然と立ち向かったのが
+#ソーディアンを手にした四人の
+#若者たちである
+The ones who stood firm against it were
+the four young men
+who held the Sordian.
+-----------------------
+NOTICE
+-----------------------
+#彼ら四英雄の活躍により
+#ヒューゴの野望は打ちくだかれ
+#空中都市群と神の眼は破壊された
+Thanks to their exploits as the Four Heroes,
+Hugo's ambitions were crushed,
+and the floating cities and the Eye of God were destroyed.
+-----------------------
+NOTICE
+-----------------------
+#各所の街の崩壊や、地上の荒廃など
+#『神の眼を巡る騒乱』の犠牲は大きく
+#復興には長い時間が必要となった
+The collapse of towns across the land, and the devastation of the surface world,
+were significant casualties in the 'Upheaval Surrounding the Eye of God'.
+It took a long time for reconstruction to begin.
+-----------------------
+#若者
+Young Man
+-----------------------
+#ぼくはね、<Harold>博士のような
+#偉大な学者になりたいんだ
+#だからこうして、毎日図書館通いさ
+You know, I want to be just like Dr. <Harold>.
+I want to become a great scholar.
+So that's why I've been hitting the library every day.
+-----------------------
+<Judas>
+-----------------------
+#<Harold>博士といえば
+#天地戦争時代の科学者だったな
+#天才の名をほしいままにしたという
+Speaking of <Harold> Doctor,
+She was a scientist from the era of the Great War.
+They say she lived up to her title as a genius.
+-----------------------
+#若者
+Young Man
+-----------------------
+#そうそう、そうなんだ！
+#ソーディアンやラディスロウを
+#独力で作っちゃったんだよ！
+That's right, that's it!
+Sordian and Ladislaw,
+I built them all on my own!
+-----------------------
+#若者
+Young Man
+-----------------------
+#みんなは、ソーディアンチームを
+#英雄視するけど、ぼくなんかは
+#<Harold>博士のほうが、すごいと思うね
+Somedays, everyone's treating the Sodian team like
+total heroes, but for me,
+I think Dr. <Harold> is way cooler.
+-----------------------
+#若者
+Young Man
+-----------------------
+#だって、<Harold>博士が
+#ソーディアンを作らなかったら
+#地上軍は、負けてたかもしれないんだよ？
+Because if Dr. <Harold> hadn't
+created the Souldian
+the Ground Forces might have lost.
+-----------------------
+#若者
+Young Man
+-----------------------
+#ぼくはね、<Harold>博士のような
+#偉大な学者になりたいんだ
+#だからこうして、毎日図書館通いさ
+I want to be just like Dr. <Harold>.
+A great scholar.
+That's why I'm here at the library every day.
+-----------------------
+#若者
+Young Man
+-----------------------
+#さて、昨日はここまで読んだから
+#今日はこの本からだな
+#えーと････「レンズ・その特徴」か
+Well then, I got through as far as yesterday.
+So today it's from this book.
+Let me see... 'Lens: Its Characteristics'?
+-----------------------
+<Kyle>
+-----------------------
+#うわ、字がビッチリ！
+#見ただけで、めまいしそう････
+Whoa, so much text!
+Just looking at it gives me a headache...
+-----------------------
+<Reala>
+-----------------------
+#ふふっ！　<Kyle>には
+#本よりも剣のほうが
+#似合っているものね
+fufu! <Kyle>, you...
+are better suited to
+a sword than books.
+-----------------------
+#若者
+Young Man
+-----------------------
+#ぼくは、<Harold>博士のような
+#すばらしい科学者になりたいんだ
+#そのために、こうして毎日勉強さ
+I want to be like Dr. <Harold>.
+I want to become an amazing scientist.
+For that reason, I'm studying hard every day like this.
+-----------------------
+#若者
+Young Man
+-----------------------
+#あの城に止まってるのって
+#飛行竜だよね!?
+That ship anchored at that castle is...
+...the Flying Dragon, right!?
+-----------------------
+#若者
+Young Man
+-----------------------
+#現代最高のレンズ技術を
+#使ってるっていう！
+#････でも、なんでこの街に？
+They're using the most advanced lens technology available today!
+That's what they say!
+...But why here in this town?
+-----------------------
+#若者
+Young Man
+-----------------------
+#なんで、飛行竜なんかが
+#この街に来てるんだ？
+Why is that air dragon...
+here in this town?
+-----------------------
+#若者
+Young Man
+-----------------------
+#ぼく、飛行竜を見たとき
+#無邪気に、はしゃいじゃったんだ
+#レンズ技術の結晶体だ！　とかいって
+When I saw the air dragon,
+I just let myself go wild with excitement.
+saying it was the crystallization of lens technology!
+-----------------------
+#若者
+Young Man
+-----------------------
+#でもそれが、この国の平和を
+#おびやかす存在だったなんて････
+But that very existence was
+threatening the peace of this country...
+-----------------------
+#若者
+Young Man
+-----------------------
+#ぼく、科学者を目指してるんだ
+#だから、飛行竜みたいなものを見ると
+#見境なく興奮しちゃって････
+I'm aiming to become a scientist.
+So whenever I see something like a Flying Dragon,
+I get excited without holding back...
+-----------------------
+#若者
+Young Man
+-----------------------
+#でも、それじゃダメなんだよね
+#科学者は常に冷静に事象を観察し
+#真実を導き出さなくてはいけないんだ
+But that's just not enough.
+Scientists always observe phenomena calmly,
+and they have to deduce the truth.
+-----------------------
+#若者
+Young Man
+-----------------------
+#やはり、科学者たるもの
+#常に冷静な判断と分析ができないと
+#ぼくは、まだまだだな････
+As a scientist,
+I must always maintain calm judgment and analysis.
+I still have a long way to go...
+-----------------------
+#若者
+Young Man
+-----------------------
+#街も、落ち着きをとり戻してきたんで
+#勉強を再開しようと思ってるんだ
+The town is starting to settle down again.
+I'm thinking about resuming my studies.
+-----------------------
+#若者
+Young Man
+-----------------------
+#ぼくの夢は、<Harold>博士のような
+#天才科学者だから
+#もっともっと、がんばらないと！
+My dream is to become someone like Dr. <Harold>.
+Becaus e I'm a genius scientist.
+I've got to keep pushing harder!
+-----------------------
+<Harold>
+-----------------------
+#なに、科学者になるのって
+#がんばらないといけないの？
+#私、なんとなくなったんだけど
+What, becoming a scientist means...
+I have to work hard?
+I feel kind of strange all of a sudden.
+-----------------------
+#若者
+Young Man
+-----------------------
+#<Harold>博士は、著書を残さなかったんだ
+#「本は、柔軟な発想の妨げになる」
+#ってね！　やっぱ、天才はちがうよね！
+Dr. <Harold> didn't leave behind any books!
+"Books get in the way of flexible thinking."
+That's right! Genius really is different, isn't it!
+-----------------------
+<Kyle>
+-----------------------
+#そうなの？
+#<Harold>････
+Oh really?
+<Harold>...
+-----------------------
+<Harold>
+-----------------------
+#いや、一回書いてみたんだけどね
+#「難しすぎて、ワケがわからん」って
+#兄貴にいわれて、本にするのやめたの
+No, I actually tried writing it out once.
+'It's too complicated, I have no idea what's going on.'
+I stopped making it into a book because my brother told me to.
+-----------------------
+#若者
+Young Man
+-----------------------
+#････あなた、さっきからなんですか？
+#まるで自分が<Harold>博士みたいに
+What's your deal? You've been acting weird since earlier.
+As if you were some kind of Dr. <Harold>.
+-----------------------
+<Harold>
+-----------------------
+#つまりあんたは、私が
+#<Harold>じゃないと思うわけね
+#ダメね～、柔軟な発想が出来てないわ！
+So what you're saying is that I...
+am not <Harold>, right?
+No good~! You lack flexible thinking!
+-----------------------
+#若者
+Young Man
+-----------------------
+#つまり、あなたは本物の<Harold>博士で
+#タイムトラベルをして、現代に来たと？
+#そんな夢物語、子どもでも信じないよ！
+So you're telling me you're the real Dr. <Harold>?
+You time-traveled to get here in the present day?
+That kind of fairy tale wouldn't fool even a child!
+-----------------------
+#若者
+Young Man
+-----------------------
+#あなたは本物の<Harold>博士で
+#タイムトラベルをして、現代に来たと？
+#そんな夢物語、子どもでも信じないよ！
+You're the real Dr. <Harold>,
+So you time-traveled to come to the present?
+No kid would believe that fairy tale!
+-----------------------
+#若者
+Young Man
+-----------------------
+#ぼくはね、<Harold>博士のような
+#偉大な学者になりたいんだ
+#だからこうして、毎日図書館通いさ
+I want to be like Dr. <Harold>, you know?
+I want to become a great scholar.
+So that's why I'm here at the library every day.
+-----------------------
+<Kyle>
+-----------------------
+#え～っ!?
+#ああいうのに、なりたいの？
+Eh!?
+You want to become something like that?
+-----------------------
+#若者
+Young Man
+-----------------------
+#ああいうのとは、失礼な！
+#ソーディアンやラディスロウを作った
+#天才科学者なんだよ！
+That's so rude!
+The Sordian and Ladislaw were created
+by a genius scientist!
+-----------------------
+#若者
+Young Man
+-----------------------
+#<Harold>博士といえば
+#歴史に残るほどの、天才科学者だよ？
+#それを「ああいうの」だなんて！
+Speaking of <Harold> Doctor,
+She's a genius scientist destined to go down in history!
+And you call 'those things' just 'that'?!
+-----------------------
+<Loni>
+-----------------------
+#だいたいだ、おまえ
+#<Harold>博士のことなんか
+#全然知らないんじゃないのか？
+I mean, seriously, you...
+As for Dr. <Harold>,
+you don't know anything about her at all, do you?
+-----------------------
+<Kyle>
+-----------------------
+#う、うん、そうなんだけど････
+#ただ、なんとなく････
+Y-yeah, that's right...
+But, somehow...
+-----------------------
+#若者
+Young Man
+-----------------------
+#ぼくも、いつかは<Harold>博士のような
+#天才科学者になってみたいんだ！
+#そのために、毎日こうして図書館通いさ
+I want to become a scientist like <Harold> someday.
+I wanna try being a genius scientist!
+To that end, I've been coming to the library every day.
+-----------------------
+#司書
+The Librarian
+-----------------------
+#館内での騒音および
+#カップルのイチャつきは
+#かたく禁じられています
+Noise within the building and
+couples being overly affectionate
+are strictly prohibited.
+-----------------------
+<Reala>
+-----------------------
+#え、あの
+#わたしたちは････
+H-huh?
+We are...
+-----------------------
+#司書
+The Librarian
+-----------------------
+#かたく、禁じられています！
+It's strictly forbidden!
+-----------------------
+#司書
+The Librarian
+-----------------------
+#館内での騒音および
+#カップルのイチャつきは
+#かたく禁じられています
+Noise within the building and
+couples being overly affectionate
+are strictly prohibited.
+-----------------------
+#司書
+The Librarian
+-----------------------
+#さっきから、なにか
+#騒がしくありませんか？
+Something's been going on since earlier.
+Isn't it getting noisy?
+-----------------------
+#司書
+The Librarian
+-----------------------
+#また、子どもたちが
+#博物館の中で、遊んでいるのかしら？
+#まったく、困ったものね
+Also, are the children...
+...playing inside the museum?
+Goodness, what a handful.
+-----------------------
+#司書
+The Librarian
+-----------------------
+#「館内では、お静かに」って
+#書いてあるのに
+#まったく、あの子たちときたら････
+It says 'Please keep quiet inside the mansion.'
+But they just ignore it.
+Good grief, those kids are something else...
+-----------------------
+<Loni>
+-----------------------
+#そうじゃねえんだって！
+#今、城で････!!
+It's not like that!
+Now, at the castle...!!
+-----------------------
+#司書
+The Librarian
+-----------------------
+#シーーーーーーーーーーッ!!
+#館内では、お静かに！
+Hssssssssssss!!
+Please keep it down inside the mansion!
+-----------------------
+#司書
+The Librarian
+-----------------------
+#館内では、お静かにねがいます！
+Inside the mansion, please keep it quiet!
+-----------------------
+#司書
+The Librarian
+-----------------------
+#おかしいわ････
+#ベルデさん、いつもこの時間には
+#本を読みに来るのに････
+This is strange...
+Mr. Verde, usually at this time,
+he comes here to read books...
+-----------------------
+#司書
+The Librarian
+-----------------------
+#まさか、外の騒ぎと
+#なにか関係が････？
+Could it be that the commotion outside...
+...has something to do with this?
+-----------------------
+#司書
+The Librarian
+-----------------------
+#おかしいわ････
+#ベルデさん、いつもこの時間には
+#本を読みに来るのに････
+This is strange...
+Mr. Verde, at this time every day,
+he comes here to read...
+-----------------------
+#司書
+Librarian
+-----------------------
+#壊された城を見たときは
+#十八年前の再来かと思いました
+#歴史はくり返すのでしょうか････
+When I saw the ruined castle,
+I thought it was a repetition of eighteen years ago.
+Does history repeat itself...?
+-----------------------
+#司書
+Librarian
+-----------------------
+#その過ちを犯さないために
+#この図書館や博物館のような場所が
+#あると思っていたのに････
+To avoid making that mistake again
+I thought there was such a place as this library or museum
+...but I didn't think so.
+-----------------------
+#司書
+Librarian
+-----------------------
+#歴史はくり返すのでしょうか････
+#だとしたら、とても
+#悲しいことです････
+Does history truly repeat itself...?
+If that's the case,
+it's terribly sad...
+-----------------------
+#司書
+The Librarian
+-----------------------
+#今回の事件を、一冊の本に
+#まとめようと思っているんです
+I'm thinking about compiling this incident into a book.
+That's what I plan to do.
+-----------------------
+#司書
+The Librarian
+-----------------------
+#過去の歴史を学び、過ちをくり返さない
+#そう思っている人のお手伝いが
+#少しでもできればと思って
+To learn from history and avoid repeating past mistakes
+I want to help those who feel that way
+If I can be of even the slightest assistance
+-----------------------
+#司書
+Librarian
+-----------------------
+#今回の事件の顛末や
+#その場にいた城の人々
+#私財を投じて救助にあたった人････
+The outcome of this incident,
+the people in the castle who were there at the time,
+those who threw their own wealth into the rescue efforts...
+-----------------------
+#司書
+The Librarian
+-----------------------
+#それらをまとめて
+#一冊の本にしようと思っています
+#未来の人々に、語り継ぐために
+I'm going to compile all those records
+into a single volume.
+So they can be passed down to future generations.
+-----------------------
+#司書
+The Librarian
+-----------------------
+#過去の歴史を学び、過ちをくり返さない
+#そう思っている人の手助けになる本を
+#書こうと思っています
+I intend to learn from past history and avoid repeating those mistakes.
+A book that can help people who think that way,
+is what I plan to write.
+-----------------------
+#司書
+The Librarian
+-----------------------
+#ここは、静かに本を
+#読みたい方のための場所です
+#お静かにねがいます
+This is where I quietly read my books.
+It's a place for those who want to read.
+I'd appreciate your silence.
+-----------------------
+#司書
+The Librarian
+-----------------------
+#館内では、お静かにねがいます
+Inside the mansion, please keep it quiet.
+-----------------------
+<Loni>
+-----------------------
+#フッ････言葉なしで
+#あなたの美しさを
+#どう表現しろと？
+Fuh... Without words,
+your beauty,
+How am I supposed to describe it?
+-----------------------
+#司書
+The Librarian
+-----------------------
+#愛を語りたいのでしたら
+#館外でおひとりでどうぞ
+If you want to talk about love,
+go ahead and do it on your own outside.
+-----------------------
+#いってらっしゃいませ
+Have a good day.
+-----------------------
+#<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
+#お泊まりになりますか？
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+Would you like to stay?
+-----------------------
+#お泊まりになりますか？
+Would you like to stay?
+-----------------------
+select
+-----------------------
+#<03:00000000>　はい　
+#　いいえ　
+<03:00000000> Yes 
+ No 
+-----------------------
+#ごゆっくりお休みください
+Have a good night.
+-----------------------
+#おはようございます
+Good morning.
+-----------------------
+#お金が足りません
+Not enough money.
+-----------------------
+#またのおこしをお待ちしております
+See you again soon.
+-----------------------
+set_parameter( myself, C_PARTY, 0 );
+-----------------------
+wait_map_scroll();
+-----------------------
+exit-party_togather( short spd )
+-----------------------
+notice
+-----------------------
+#{16}{25}{BA}{C0}を手に入れました
+Acquired {16}{25}{BA}{C0}.
+-----------------------
+notice
+-----------------------
+#<item:FFFFFFFF>を手に入れました
+Acquired <item:FFFFFFFF>.
+-----------------------
+notice
+-----------------------
+#{16}{25}{C2}{C0}がありましたが
+#いっぱいで持てませんでした
+Acquired {16}{25}{C2}{C0} but
+inventory is full already.
+-----------------------
+notice
+-----------------------
+#何もありません
+There's nothing here.
+-----------------------
+

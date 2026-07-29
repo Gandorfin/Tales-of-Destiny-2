@@ -1,0 +1,228 @@
+#ねこにんの村・おじじの家
+Grandpa's House in Neko-nin Village
+-----------------------
+#ねこにんの村
+Katz Village
+-----------------------
+#おじじの家
+My grandpa's house
+-----------------------
+#おじじ
+Grandpa
+-----------------------
+#よし！
+#まれに見るすばらしい落としっぷりだったニャ！
+Alright!
+That was an amazing catch you rarely see! Nyaa!
+-----------------------
+#「一日一膳」
+#一日に一回はごはんを食べましょう
+One meal a day.
+We should eat at least once a day.
+-----------------------
+#見事な盆栽だ
+A magnificent bonsai.
+-----------------------
+#戸棚です　何か隠せます
+It's a cabinet. You can hide things in it.
+-----------------------
+#おじじ
+Grandpa
+-----------------------
+#この歳になると、知り合いも少なくなってくるニャ
+At my age, I'm finding that I have fewer acquaintances.
+-----------------------
+#おじじ
+Grandpa
+-----------------------
+#老人の一人暮らしに不自由はニャいが
+#たまには話し相手が欲しくなるニャァ････
+There's no hardship in an old man living alone,
+but sometimes you want someone to talk to.
+-----------------------
+#おじじ
+Grandpa
+-----------------------
+#この歳になると、知り合いも少なくなってくるニャ
+At my age, I'm starting to lose touch with people.
+-----------------------
+#おじじ
+Grandpa
+-----------------------
+#老人の一人暮らしに不自由はニャいが
+#たまには話し相手が欲しくなるニャァ････
+A cat doesn't find it inconvenient living alone.
+But sometimes you want someone to talk to.
+-----------------------
+#おじじ
+Grandpa
+-----------------------
+#旅の子供がうちに住むことになったニャ
+A traveling kid's moving in with us.
+-----------------------
+#おじじ
+Grandpa
+-----------------------
+#この下は掘りごたつになっているのニャ
+The area below is set up as a sunken hearth.
+-----------------------
+#おじじ
+Grandpa
+-----------------------
+<item:00000C02>
+#とても良い名じゃニャ
+It's a very good name.
+-----------------------
+<item:00000C02>
+-----------------------
+#ニャにかご用あるかミャ？
+Do you need something?
+-----------------------
+SELECT
+-----------------------
+#　ある　
+#　ない　
+There is.
+There isn't.
+-----------------------
+<item:00000C02>
+-----------------------
+#ご用の時は呼んでなのミャ
+Just call me if you need anything.
+-----------------------
+<item:00000C02>
+-----------------------
+#わちにもおうちが出来たのミャ
+We've got our own home now, meow.
+-----------------------
+<item:00000C02>
+-----------------------
+#おじじは、わちを
+#「<item:00000C02>っこ」って呼ぶのミャ
+#ちょっと照れくさいミャ
+I'm gonna call you
+You're my little <item:00000C02>
+This is kinda embarrassing.
+-----------------------
+<item:00000C02>
+-----------------------
+#これからはココで
+#「おじじ孝行」するミャ！
+Now on from here, I'll be staying right here.
+I'm going to show Grandpa some filial piety!
+-----------------------
+<item:00000C02>
+-----------------------
+#お散歩なのミャ！
+I'm going for a stroll!
+-----------------------
+#おじじ
+Grandpa
+-----------------------
+#こりゃ！
+Well then!
+-----------------------
+#おじじ
+Grandpa
+-----------------------
+#ここは土足厳禁じゃニャ！
+#もしどうしても土足で我が家に
+#足を踏み入れたいというニャラバ････
+No shoes allowed in here!
+If you absolutely insist on bringing your shoes inside my home,
+then so be it...
+-----------------------
+#おじじ
+Grandpa
+-----------------------
+#そこの「足ふきガリガリマット」で
+#足の雪を落としてから入るのニャ！
+On that 'foot-wiping scratchy mat'
+Shake off the snow from your feet before coming in, nyaa!
+-----------------------
+NOTICE
+-----------------------
+#入りますか？
+Do you want to enter?
+-----------------------
+SELECT
+-----------------------
+#　入ります　
+#　入りません　
+I'll go in.
+I won't go in.
+-----------------------
+#おじじ
+Grandpa
+-----------------------
+#よし！
+#まれに見るすばらしい落としっぷりだったニャ！
+Alright!
+That was an amazing catch you rarely see!
+-----------------------
+<item:00000C02>
+-----------------------
+#お散歩楽しかったミャ
+#ご用の時は呼んでなのミャ
+I had such a nice walk.
+You can call on me whenever you need anything.
+-----------------------
+#いってらっしゃいませ
+Have a good day.
+-----------------------
+#<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
+#お泊まりになりますか？
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+Would you like to stay?
+-----------------------
+#お泊まりになりますか？
+Would you like to stay?
+-----------------------
+select
+-----------------------
+#<03:00000000>　はい　
+#　いいえ　
+<03:00000000> Yes 
+ No 
+-----------------------
+#ごゆっくりお休みください
+Have a good night.
+-----------------------
+#おはようございます
+Good morning.
+-----------------------
+#お金が足りません
+Not enough money.
+-----------------------
+#またのおこしをお待ちしております
+See you again soon.
+-----------------------
+set_parameter( myself, C_PARTY, 0 );
+-----------------------
+wait_map_scroll();
+-----------------------
+exit-party_togather( short spd )
+-----------------------
+notice
+-----------------------
+#{16}{25}{D6}{C0}を手に入れました
+{16}{25}{D6}{C0}You obtained .
+-----------------------
+notice
+-----------------------
+#<item:FFFFFFFF>を手に入れました
+Acquired <item:FFFFFFFF>.
+-----------------------
+notice
+-----------------------
+#{16}{25}{DE}{C0}がありましたが
+#いっぱいで持てませんでした
+{16}{25}{DE}{C0}There was , but
+I couldn't carry it because it was full.
+-----------------------
+notice
+-----------------------
+#何もありません
+There's nothing here.
+-----------------------
+

@@ -1,0 +1,2285 @@
+#ハイデルベルグ城・謁見の間
+Heidelburg Castle - Audience Chamber
+-----------------------
+#ハイデルベルグ城
+Heidelburg Castle
+-----------------------
+#ハイデルベルグ城・謁見の間
+Heidelburg Castle - Audience Chamber
+-----------------------
+#玉座の後ろにある部屋
+The room behind the throne.
+-----------------------
+#ウッドロウと話す
+Talk to Woodrow
+-----------------------
+<char:000003E8>
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#玉座のうしろにある部屋に
+#我が国のレンズが集められている
+#興味があるなら、のぞいてみるといい
+There's a room behind the throne.
+It houses the lenses collected from our country.
+If you're interested, feel free to take a look.
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#レンズの力がひとつに集まることで
+#かつて大いなる災いが引き起こされた
+The power of the lenses converges into one
+A great calamity was once unleashed
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#あの過ちを二度とくり返してはならない
+#私は王として常に
+#自分にそう言い聞かせているのだ
+I must never repeat that mistake.
+As king, I always
+remind myself of that.
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#レンズは無事か････!?
+#は、はやく確認を････！
+Is the lens intact...?!
+Quickly, check it...!
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#善後策については我々で協議する････
+#明日まで待ってくれ、<Kyle>くん
+We'll discuss contingency plans among ourselves...
+Please wait until tomorrow, <Kyle>.
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#いきたまえ、<Kyle>くん
+#他のだれでもない
+#彼女の英雄となるために！
+Live on, <Kyle>.
+Not just anyone.
+To become her hero!
+-----------------------
+#ウッドロウ
+Woolong
+-----------------------
+#いまの我々にできるのは
+#城に泊まってもらうことぐらいだ
+#すまんな、<Kyle>くん
+What we can do for you right now is
+simply let you stay at the castle.
+My apologies, <Kyle>.
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#これはあくまで私見だが
+#いまの平和は嵐の前の静けさ････
+#そういう気がするのだ
+This is just my personal opinion,
+The current peace feels like the calm before the storm...
+I have that feeling.
+-----------------------
+#ウッドロウ
+Woolong
+-----------------------
+#<Kyle>くん、何があったのだ？
+#<Harold>くんが探していたようだが････
+<Kyle>, what happened?
+It seems <Harold> was looking for it... but
+-----------------------
+#ウッドロウ
+Woolong
+-----------------------
+#この世の破滅を見たというのか････
+#一体、何が起ころうとしているというのだ
+You've seen the destruction of this world...?
+What on earth is happening?
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#私の話したことが
+#参考になるといいのだがな
+What I said...
+I hope it helps.
+-----------------------
+#ウッドロウ
+Woolong
+-----------------------
+#つらいだろうが
+#誰にも君の代わりはできない
+#くじけないでくれ、<Kyle>くん
+It's tough, isn't it?
+No one can replace you.
+Don't give up, <Kyle>.
+-----------------------
+<Kyle>
+-----------------------
+#ありがとうございます
+#ウッドロウさん
+#それじゃ、オレたち、行きます
+Thank you very much.
+Woodrow-san.
+Well then, we're off.
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#わたしがウッドロウだ
+#我らが王国へ、ようこそ
+I am Woodrow.
+Welcome to our kingdom.
+-----------------------
+<Kyle>
+-----------------------
+#はじめまして、ウッドロウ王
+#<Kyle>＝デュナミスです！
+It's nice to meet you, King Woodrow!
+<Kyle> is Dunamis!
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#<Kyle>＝デュナミス････？
+#もしかして、君は
+#スタンとルーティの････
+<Kyle> Dunamis...?
+I'm guessing you're...
+...Stan and Rutee's...
+-----------------------
+<Kyle>
+-----------------------
+#はい、ふたりの息子です
+Yes, they're my two sons.
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#あのふたりの息子が
+#こんなに大きくなったのか！
+#いやはや、私も年をとるわけだ
+Their two sons have grown up so much.
+They've grown this big!
+My, my, I'm getting old too.
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#うむ、たしかによく似ている
+#金色の髪、そして瞳の輝き････
+Hmph, you're right, they do look quite similar.
+Golden hair, and that sparkle in their eyes...
+-----------------------
+#ウッドロウ
+Woolong
+-----------------------
+#冒険をしていたころの、スタンと
+#同じ瞳をしているな
+Back when we were adventuring, Stan and...
+You have the same eyes.
+-----------------------
+<Kyle>
+-----------------------
+#な、なんか
+#英雄王に見つめられてると思うと
+#キンチョウします････
+W-well...
+Just thinking about being stared at by the Hero King makes me
+so tense...
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#英雄王などとは、他人行儀な
+#あのふたりの息子ならば
+#私にとっても、息子のようなもの
+The way you act so distant from someone like the Hero King...
+If it's those two's son,
+He's like a son to me as well.
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#普通に、さんづけで呼んでくれていい
+#私も、<Kyle>くんと
+#呼ばせてもらうよ
+You can just call me normally with 'san'.
+I'll go ahead and call you <Kyle>-kun.
+And let me do the same for you.
+-----------------------
+<Kyle>
+-----------------------
+#ありがとうございます
+#ウッドロウさん！
+Thank you very much.
+Mr. Woodrow!
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#見たところ、冒険をしているようだが････
+#やはりスタンと同じように
+#英雄を目指しているのかね？
+From the looks of it, you seem to be on an adventure...
+Just like Stan,
+Are you aiming to become a hero?
+-----------------------
+<Kyle>
+-----------------------
+#いえ、ちがいます
+#英雄は、なりたいからって
+#なれるものじゃ、ないですから
+No, that's not it.
+Heroes aren't just born to become heroes,
+because you can't simply choose to become one.
+-----------------------
+<Kyle>
+-----------------------
+#父さんや、ウッドロウさんみたいに
+#なにかをした結果として
+#呼ばれるものだと、思うんです
+Like my father or Mr. Woodrow,
+as a result of doing something
+I think that's what they're called.
+-----------------------
+#ウッドロウ
+Woolong
+-----------------------
+#････うむ、たしかにその通りだ
+#しかし、その若さで
+#それをわきまえてるとは、すばらしい
+...Hmm, you're absolutely right.
+But at such a young age,
+to be aware of that is truly wonderful.
+-----------------------
+<Kyle>
+-----------------------
+#そ、そんな････
+W-wait...?
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#では、<Kyle>くん
+#改めて聞きたいのだが
+#君は、なぜ冒険をしているのかね？
+Well then, <Kyle>
+I want to ask again,
+Why are you adventuring?
+-----------------------
+<Kyle>
+-----------------------
+#父さんと、約束したんです
+#たったひとつでいいから
+#かけがえのないものを、見つけてくるって
+I made a promise to Father.
+Just one is enough.
+To find something irreplaceable.
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#フフ、スタンらしいな
+#どうかね？　それは見つかりそうかね？
+Heh, very much like Stan.
+What do you think? Do you think we'll find it?
+-----------------------
+<Kyle>
+-----------------------
+#わかりません････
+#でも、かならず見つけてみせます！
+I don't know...
+But I'll definitely find it!
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#････いい眼だ
+#君がその瞳の輝きを失わなければ
+#かならず見つけられるはずだ
+You have sharp eyes.
+If you don't lose that sparkle in your eyes,
+I'm sure you'll find it.
+-----------------------
+<Kyle>
+-----------------------
+#はい、がんばります！
+Yes, I'll do my best!
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#<Kyle>くん
+#また、いつでも遊びに来たまえ
+#いつでも君を歓迎する
+<Kyle>,
+You're always welcome to come visit.
+We'll always welcome you.
+-----------------------
+#ウッドロウ
+Woolong
+-----------------------
+#むろん、スタンの息子ではなく
+#<Kyle>＝デュナミスという
+#ひとりの男としてな
+Of course, I'm not Stan's son!
+The one called <Kyle> = Dunamis...
+As just one man.
+-----------------------
+<Kyle>
+-----------------------
+#ウッドロウさん････
+#ありがとうございます！
+Mr. Woodrow...
+Thank you very much!
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#君の探しているもの････
+#かけがえのないものが
+#見つかることを、私も願っているよ
+What you're looking for...
+That irreplaceable something
+I hope you find it too.
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#このフラグのセリフが未設定
+This flag's dialogue is unset.
+-----------------------
+#エルレイン
+Elle
+-----------------------
+#我々は、この国の人々が、幸せに暮らせるよう
+#力をお貸ししたいだけなのです
+We simply wish to lend our strength so that the people of this land may live in happiness.
+We merely want to offer our aid.
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#大変ありがたい申し出、感謝します
+#しかし････年をとると、
+#どうも疑り深くなってしまう
+I am deeply grateful for your generous offer.
+However... as you age,
+you tend to become more suspicious.
+-----------------------
+#エルレイン
+Elle
+-----------------------
+#ウッドロウ王が
+#レンズの提供に関して慎重なのは
+#むろん、こちらも承知しております
+King Woodrow is
+cautious about providing the lens because
+of course, we are well aware as well.
+-----------------------
+#エルレイン
+Elle
+-----------------------
+#ですが、レンズの力をもってすれば
+#より多くの人を救い、
+#幸福に導くことができます
+But with the power of the lens,
+We can save even more people
+And lead them to happiness.
+-----------------------
+#エルレイン
+Ereleyn
+-----------------------
+#わたしたちは神に仕えるものとして
+#可能な限りの救いの手を
+#人々に差し伸べたいのです
+We, as servants of God,
+wish to extend
+a helping hand to salvation in every way possible to the people.
+-----------------------
+#エルレイン
+Elle
+-----------------------
+#協力してはいただけませんか？
+Would you mind working together?
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#････････あなたがたの尊い信仰心を
+#疑いたくはない
+...I don't want to doubt your precious faith.
+I'd rather not question it.
+-----------------------
+#ウッドロウ
+Woolong
+-----------------------
+#しかし、先の動乱が
+#信仰心あつき大司祭から始まったこと、
+#あなたもご存じかと思うのだが
+But although the previous unrest...
+began with the High Priestess, who was deeply devout,
+I assume you're already aware of that.
+-----------------------
+#エルレイン
+Elle
+-----------------------
+#････王の信頼を勝ちとるためには
+#相応の時間と努力が必要なこと、
+#よくわかりました
+To win the king's trust,
+it will take considerable time and effort.
+I understand that well.
+-----------------------
+#エルレイン
+Elle
+-----------------------
+#今日のところは、これで失礼します
+#いずれ、また････
+I'll call it a day here for now.
+We'll meet again someday...
+-----------------------
+#衛兵
+Guard
+-----------------------
+#次の謁見者は
+#<Kyle>＝デュナミス殿であります
+The next audience member is
+<Kyle>, Lord Dunamis.
+-----------------------
+<Kyle>
+-----------------------
+#は、は、はじめまして！
+#へ、陛下におかれましては
+#ごきげん、うる、うるわ････
+It's, it's nice to meet you!
+As for Your Majesty,
+How are you, how are you...
+-----------------------
+<Loni>
+-----------------------
+#････落ち着け、<Kyle>
+#なに言ってんだか
+#まるで、わかんないぞ
+Get a grip, .<Kyle>
+What are you talking about?
+I have no idea.
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#わたしが、ウッドロウだ、よろしく
+#さて････話に入る前に、
+#ひとつ、言っておきたいことがある
+I'm Woodrow. Nice to meet you.
+Now then... before we get into it,
+There's something I want to say first.
+-----------------------
+#ウッドロウ
+Woolong
+-----------------------
+#君たちは謁見の順番待ちを、
+#割りこんで入ったようだが････
+#あまり、ほめられたことではないな
+You seem to have cut in line for the audience,
+though...
+that's hardly something to be praised.
+-----------------------
+#ウッドロウ
+Woolong
+-----------------------
+#みな、時間を作って順番を待っている
+#君だけではないのだよ？
+Everyone's making time to wait their turn.
+You're not the only one, you know?
+-----------------------
+<Kyle>
+-----------------------
+#あ････す、すいませんでした！
+My apologies! I'm so sorry!
+-----------------------
+<Loni>
+-----------------------
+#ちがうんです、ウッドロウ王！
+#割込ませてくれるよう頼んだのは
+#俺なんです、だから････
+It's not that, King Woodrow!
+I was the one who asked to interrupt,
+so it's me... therefore--
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#いや、わかってくれたのならいいんだ
+#君たちを罰するつもりなど、毛頭ない
+As long as you understand, that's all that matters.
+I don't have the slightest intention of punishing you.
+-----------------------
+#ウッドロウ
+Woolong
+-----------------------
+#それと、今後は謁見の申請はしなくていい
+#いつでも気軽に、来てくれ
+Also, from now on you don't need to submit an audience request.
+Feel free to come visit me anytime.
+-----------------------
+<Kyle>
+-----------------------
+#････え？
+...Huh?
+-----------------------
+#ウッドロウ
+Woolong
+-----------------------
+#戦友であるスタンとルーティの息子なら、
+#私にとっても、息子のようなものだ
+If he's the son of Stan and Rutee, my comrades-in-arms,
+he's like a son to me as well.
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#息子が親に会うのに
+#手続きをするなど、おかしいだろ？
+A son going to meet his parents...
+...and doing all that paperwork? Doesn't that seem weird?
+-----------------------
+<Kyle>
+-----------------------
+#陛下････
+My Liege...
+-----------------------
+#ウッドロウ
+Woolong
+-----------------------
+#「陛下」というのも、固すぎるな
+#さん付けでかまわんよ？
+It's a bit too stiff to call you 'Your Majesty'.
+You can just add '-san' if you want.
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#私も
+#<Kyle>くんと、呼ばせてもらうが
+#かまわんかね？
+I'd like to call you
+<Kyle> too,
+if that's all right with you.
+-----------------------
+<Kyle>
+-----------------------
+#もちろんです！
+#陛下････じゃなくて
+#ウッドロウさん！
+Of course!
+Your Majesty... no, that's not it.
+Mr. Woodrow!
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#ところで、わざわざ
+#クレスタから出向いてきたのには、
+#理由があってのことだと思うが････
+By the way,
+I assume you came all the way from Cresta
+for a reason...
+-----------------------
+<Reala>
+-----------------------
+#それは、わたしからお話します
+#ウッドロウさんに会って
+#確かめたいことがあったんです
+I'll be the one to tell you about it.
+I met with Woodrow,
+I had something I wanted to check.
+-----------------------
+<Reala>
+-----------------------
+#････
+#････････
+...
+......
+-----------------------
+<Kyle>
+-----------------------
+#ダメ、だったか････
+No, I think it was...
+-----------------------
+<Kyle>
+-----------------------
+#あ、あのさ
+#元気だしなよ、<Reala>！
+Heh, listen up,
+You stay healthy out there, <Reala>!
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#<Kyle>くん
+#これは、いったい････？
+<Kyle>!
+What on earth is this...?
+-----------------------
+<Kyle>
+-----------------------
+#ウッドロウさん
+#<Reala>は、英雄を
+#探しているんです
+Mr. Woodrow
+<Reala>, are you looking for a hero?
+to find?
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#英雄を探している？
+Looking for a hero?
+-----------------------
+<Reala>
+-----------------------
+#はい････
+#最初はフィリアさんにお会いしましたが、
+#わたしの求める英雄ではありませんでした
+Yes...
+At first, I met Miss Phileas,
+but she wasn't the hero I was looking for.
+-----------------------
+<Reala>
+-----------------------
+#それで、ウッドロウさんなら、
+#もしかしてと････
+So, if it's Mr. Woodrow,
+Could it be...?
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#だが････
+#わたしも、君のいうところの
+#英雄ではなかった
+But...
+I too was not,
+the hero you speak of.
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#つまり世間でいわれるような英雄が、
+#君の探す人物とは、かぎらないわけか
+#････なかなか厳しそうだな
+So, the kind of hero people talk about,
+doesn't necessarily mean they're the person you're looking for.
+...This looks pretty tough.
+-----------------------
+<Kyle>
+-----------------------
+#大丈夫だよ、<Reala>！
+#オレたちが、ついてるじゃんか
+#なんとかなるって！
+I'm fine, <Reala>!
+We've got each other's backs, don't we?
+It'll all work out in the end!
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#ははっ！　さすがは親子だな
+#スタンも、困難にあうと、
+#いつもそんなことを言っていたよ
+Haha! You really are father and son.
+When Stan gets into trouble,
+He always used to say things like that.
+-----------------------
+<Kyle>
+-----------------------
+#父さんも････
+My father...
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#<Reala>くん
+#ひとつ、私からアドバイスだ
+<Reala>,
+One piece of advice from me.
+-----------------------
+<Reala>
+-----------------------
+#はい････
+Yes...
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#「あきらめるな、なんとかしよう」
+#スタンのそんな言葉があったからこそ、
+#私たちは、最後までやりとげられた
+"Don't give up. We'll figure something out."
+It was because Stan said those words that,
+we were able to see it through to the end.
+-----------------------
+#ウッドロウ
+Woolong
+-----------------------
+#英雄とは、彼のような、
+#あきらめない心を持つ人間のことかもしれん
+#それを覚えておきたまえ
+Perhaps a hero is someone like him,
+a person who never gives up.
+Keep that in mind.
+-----------------------
+<Reala>
+-----------------------
+#はい、ありがとうございます
+Yes, thank you.
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#もし、忘れそうになったら、となりにいる
+#<Kyle>くんを、見ればいい
+If you ever feel like you're forgetting something, just look at the person standing next to you.
+Just look at <Kyle>.
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#彼は親から、英雄の素質を、
+#確実に受けついでいるようだからね
+He's undoubtedly inherited his parents'
+the potential to become a hero.
+-----------------------
+<Kyle>
+-----------------------
+#えっ？
+#それって････！
+Huh?
+Wait...!
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#むろん、まだまだ
+#努力する必要がありそうだが････
+#素質があるのは、間違いないからな
+Of course, there's still a long way to go.
+It seems I'll need to keep working hard...
+But there's no doubt about your potential.
+-----------------------
+<Kyle>
+-----------------------
+#は、はいっ、がんばります！
+#まかせてください！
+Yes, I'll do my best!
+Leave it to me!
+-----------------------
+<Kyle>
+-----------------------
+#英雄････
+#オレが、英雄か････！
+Hero...
+Am I... the hero?!
+-----------------------
+<Loni>
+-----------------------
+#そういえば････
+#さっき、エルレインがいましたよね
+#どうして、ここに？
+Now that I think about it...
+I saw Elrein just now, didn't I?
+Why are you here?
+-----------------------
+<Loni>
+-----------------------
+#････レンズが、どうとか、
+#おっしゃっていたようですが････
+...something about the lens...
+that's what they were saying...
+-----------------------
+#ウッドロウ
+Woolong
+-----------------------
+#聞こえてしまったか････
+#できれば、知られたくはなかったのだがな
+So you heard that...
+I suppose I didn't want to be found out if I could help it.
+-----------------------
+<Loni>
+-----------------------
+#どうせ「レンズをよこせ」と
+#言ってきたんでしょう？
+#連中のやり口は、どこでも同じですから
+"They'll just say 'Hand over the lens' anyway"
+"right?"
+"That's how those guys operate everywhere"
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#まあ、そんなところだ
+Well, that's about it.
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#正直、私の手にも余っているのだが
+#なにぶん量が量だ
+#誰かに渡すわけにもいかなくてね
+To be honest, I'm barely managing to handle it myself.
+It's just such a massive amount.
+And I can't exactly hand it off to someone else.
+-----------------------
+<Kyle>
+-----------------------
+#そんなに、あるんですか？
+Is there really that much?
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#よかったら、見ていきたまえ
+#玉座の後ろの部屋に集めてある
+If you'd like, go take a look.
+They're gathered in the room behind the throne.
+-----------------------
+#衛兵
+Guard
+-----------------------
+#ここは謁見の間です
+This is the audience chamber.
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#ぐああああぁぁぁっ!!
+Guaaahhh!!
+-----------------------
+<Judas>
+-----------------------
+#ウ、ウッドロウ！
+W-Woodrow!
+-----------------------
+<Kyle>
+-----------------------
+#お、おまえは、バルバトス!!
+You... you're Valbatus!!
+-----------------------
+#バルバトス
+Valbatos
+-----------------------
+#ほう、また会ったな、小僧！
+#<Kyle>といったか
+#貴様とは、みょうな縁があるらしい
+Ho? Running into me again, brat!
+Your name was <Kyle>, right?
+We've got some weird connection, you and I.
+-----------------------
+<Kyle>
+-----------------------
+#おまえがウッドロウさんを････！
+#くそッ、許さないぞ、絶対！
+You... to Mr. Woodrow!
+Damn it! I won't forgive you, absolutely!
+-----------------------
+#バルバトス
+Barbatos
+-----------------------
+#俺の目的は達した！
+#あとは、あの女が勝手にすること
+#さらばだ、<Kyle>！
+My objective has been achieved!
+Now it's up to that woman to do as she pleases.
+Farewell, <Kyle>!
+-----------------------
+<Kyle>
+-----------------------
+#あの女････？
+#いったい、誰のことだ!?
+That woman...?
+Who on earth are they talking about!?
+-----------------------
+<Judas>
+-----------------------
+#大丈夫か!?
+#しっかりしろ、ウッドロウ!!
+Are you alright!?
+Pull yourself together, Woodrow!!
+-----------------------
+#ウッドロウ
+Woolong
+-----------------------
+#うっ、うう････
+Hnn... Ugh...
+-----------------------
+<Loni>
+-----------------------
+#傷は深いが、かろうじて急所は外れている
+#大丈夫だ、これなら助かる！
+The wound is deep, but it barely missed the vital spot.
+It's fine! I can survive this!
+-----------------------
+<Loni>
+-----------------------
+#おい、早く医者を呼んでこい！
+Hurry up and fetch the doctor!
+-----------------------
+<Reala>
+-----------------------
+#フィリアさんに続いて
+#ウッドロウさんまで････
+Following Filia
+To Woodrow...
+-----------------------
+<Reala>
+-----------------------
+#このままでは、時の流れに
+#大きなひずみが生じて････
+If things continue like this, the flow of time...
+...will experience significant distortion.
+-----------------------
+<Reala>
+-----------------------
+#････！
+#まさか、これは全部
+#あの人のしわざなの････!?
+...!
+Could it be that all of this...
+was done by that person...!?
+-----------------------
+#エルレイン
+Elle
+-----------------------
+#だとしたら
+#なんだというのかしら････
+#<Reala>？
+If that's the case,
+What are you implying?
+<Reala>?
+-----------------------
+#エルレイン
+Elle
+-----------------------
+#なるほど････実に彼らしい
+#どんな英雄であれ、容赦はしない
+#ということか････
+I see... Very much like him.
+No matter what kind of hero they are, he shows no mercy.
+So that's how it is...
+-----------------------
+#エルレイン
+Elle
+-----------------------
+#あのとき素直にレンズを渡していれば
+#こんな目にあわずに、すんだものを････
+If I had just handed over the lens back then...
+I wouldn't have ended up in this mess.
+-----------------------
+<Reala>
+-----------------------
+#エルレイン！
+#あなたは間違っているわ！
+#こんなやり方で人々は救えはしない！
+Elle!
+You're wrong!
+People won't be saved this way!
+-----------------------
+#エルレイン
+Elle
+-----------------------
+#････では、おまえはどうするの？
+So... what are you going to do?
+-----------------------
+#エルレイン
+Elle
+-----------------------
+#いまだに何も見出せないお前に
+#救いが語れるとでも言うのか？
+You who still can't find anything
+Do you really think salvation is within reach?
+-----------------------
+<Reala>
+-----------------------
+#そ、それは････
+W-well, that's...
+-----------------------
+<Kyle>
+-----------------------
+#ど、どうなってんだ!?
+#なんで、エルレインがここに!?
+W-what's going on!?
+Why is Ellein here!?
+-----------------------
+<Kyle>
+-----------------------
+#それに<Reala>
+#どうしてキミはエルレインのことを････
+And besides,<Reala>
+Why are you... about Elle?
+-----------------------
+<Loni>
+-----------------------
+#わかんねえことだらけだが
+#ひとつだけハッキリしてることがあるぜ
+I don't know much about it,
+But there's one thing I'm sure of.
+-----------------------
+<Loni>
+-----------------------
+#それは、あの女が、黒幕だってことだ！
+#いくぞッ！
+#覚悟しろ、エルレイン！
+That means she's the mastermind behind all this!
+Let's go!
+Prepare yourself, Elrein!
+-----------------------
+<Loni>
+-----------------------
+#くっ！　こいつ････
+Hnn! This guy...
+-----------------------
+#ガープ
+Garp
+-----------------------
+#エルレインさまには
+#指一本触れさせん
+Lady Elraine
+not a finger shall touch her
+-----------------------
+<Judas>
+-----------------------
+#ならばッ！
+If that's so!
+-----------------------
+<Judas>
+-----------------------
+#ぐはっ！
+Guhh!
+-----------------------
+<Kyle>
+-----------------------
+#<Judas>！
+<Judas>!
+-----------------------
+<Loni>
+-----------------------
+#ぐあっ!!
+Guhh!!
+-----------------------
+<Kyle>
+-----------------------
+#<Loni>っ！
+<Loni>!
+-----------------------
+#エルレイン
+Elle
+-----------------------
+#人々の救いは神の願い
+#それを邪魔するものは
+#誰であれ、容赦はしない
+The salvation of humanity is God's will.
+Those who stand in the way,
+no matter who they are, shall show no mercy.
+-----------------------
+<Reala>
+-----------------------
+#やめて、エルレイン！
+Stop it, Elrein!
+-----------------------
+#エルレイン
+Ereine
+-----------------------
+#私を止めることは
+#誰にもできはしない････
+Nothing can stop me.
+No one can.
+-----------------------
+#エルレイン
+Elle
+-----------------------
+#そう、たとえお前でもだ、<Reala>
+Yes, even you are no exception,<Reala>
+-----------------------
+<Reala>
+-----------------------
+#いや！　やめてッ！
+#わたしにはまだ
+#ここで果たすべき使命が････！
+No! Stop it!
+I still have to...
+My mission here isn't finished...!
+-----------------------
+#エルレイン
+Elle
+-----------------------
+#いまだに何も見いだせぬ者に、
+#ここにいる意味はない････
+#帰るがよい、弱き者よ
+To those who still find nothing,
+there is no meaning in being here...
+Return to where you came from, weak ones.
+-----------------------
+<Reala>
+-----------------------
+#いやぁぁぁぁぁっ!!
+Nooooooo!!
+-----------------------
+<Kyle>
+-----------------------
+#<Reala>ーーーっ!!
+<Reala>--!!
+-----------------------
+<Loni>
+-----------------------
+#<Kyle>！　<Reala>！
+<Kyle>! <Reala>!
+-----------------------
+<Judas>
+-----------------------
+#追うぞ！
+I'm on your tail!
+-----------------------
+<Kyle>
+-----------------------
+#大丈夫ですか!?
+#ウッドロウさん！
+Are you okay!?
+Mr. Woodrow!
+-----------------------
+#衛兵
+Guard
+-----------------------
+#<Kyle>さん！
+#安心してください、応急手当は
+#すでにすませてあります
+<Kyle>!
+Don't worry, I've already taken care of first aid.
+It's all done.
+-----------------------
+#衛兵
+Guard
+-----------------------
+#先ほど医者を呼びましたので
+#すぐに来るかと
+I've already called for the doctor.
+He should be here any moment.
+-----------------------
+<Loni>
+-----------------------
+#あんたたちは、なんともないのか？
+#あのエルレインとやりあったんだ
+#無傷じゃすまないハズだが････
+You guys are okay?
+I fought against that Elraine.
+You should have been injured.
+-----------------------
+#衛兵
+Guard
+-----------------------
+#それが････エルレインは
+#なにもせずに、帰っていきました
+That was... Elrein.
+She left without doing anything.
+-----------------------
+<Judas>
+-----------------------
+#なんだって？
+What was that?
+-----------------------
+<Kyle>
+-----------------------
+#<Judas>？
+<Judas>?
+-----------------------
+<Judas>
+-----------------------
+#王が倒れれば民衆は混乱し
+#神団の連中が、つけいるスキもできる
+#今回は、その絶好の機会だった
+If the king falls, the people will fall into chaos,
+and the Godhand members will find an opening to exploit.
+This time was that perfect opportunity.
+-----------------------
+<Judas>
+-----------------------
+#だが、それをしなかった････
+#なぜエルレインは、ウッドロウに
+#とどめを刺さなかったんだ？
+But I didn't do it...
+Why is Elraine, Woodrow
+You didn't finish them off?
+-----------------------
+<Reala>
+-----------------------
+#エルレインの力なら
+#不可能ではないはずなのに････
+With Elrein's power,
+it shouldn't have been impossible... but it was.
+-----------------------
+#衛兵
+Guard
+-----------------------
+#陛下！
+Sire!
+-----------------------
+<Kyle>
+-----------------------
+#ウッドロウさん！
+Mr. Woodrow!
+-----------------------
+#衛兵
+Guard
+-----------------------
+#陛下！　ご自重ください！
+Your Majesty! Please watch yourself!
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#レンズは････レンズは無事か････!?
+#あれを奪われることだけは････！
+The lens... Is the lens alright...!?
+Just don't let them take that away from me...!
+-----------------------
+#衛兵
+Guard
+-----------------------
+#ご安心ください、陛下
+#エルレインは、なにもせずに
+#逃げ帰っていきました
+You can rest assured, Your Majesty.
+Elleire didn't do anything,
+and ran back.
+-----------------------
+#衛兵
+Guard
+-----------------------
+#レンズのある場所へは
+#誰も、近づけてはおりません！
+No one has been allowed near the lens.
+Not a soul has dared to approach it!
+-----------------------
+#ウッドロウ
+Woolong
+-----------------------
+#だが････！
+But...!
+-----------------------
+<Kyle>
+-----------------------
+#ウッドロウさん
+#オレたちが、今すぐ見てきます！
+Mr. Woodrow
+We'll go check it out right away!
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#････その様子では
+#やはり････
+...Judging by how things are going,
+I suppose...
+-----------------------
+<Kyle>
+-----------------------
+#････はい
+......Yes.
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#なんて････ザマだ！
+#侵入を許し････あげくに
+#レンズまで････！
+What a mess!
+We let them in... and in the end...
+The lens too...!
+-----------------------
+<Kyle>
+-----------------------
+#ウッドロウさん！
+#オレたちが、なんとか････！
+Mr. Woodrow!
+We'll make it somehow...!
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#････君の申し出は････わかっている
+#すまんが････明日、話がしたい････
+I understand your proposal...
+My apologies... I'd like to talk tomorrow...
+-----------------------
+#衛兵
+Guard
+-----------------------
+#今日は、城にお泊りください
+#そのほうが、陛下も安心されますし
+We'd like you to stay at the castle tonight.
+It would put Your Majesty's mind at ease as well.
+-----------------------
+<Kyle>
+-----------------------
+#わかりました････
+I understand.
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#すまないな、わざわざ来てもらって
+#例のレンズの件だが････
+Sorry to bother you for coming all this way.
+About that lens we talked about...
+-----------------------
+<Kyle>
+-----------------------
+#あの････その前に････
+#<Reala>を見かけませんでしたか？
+I'm sorry... before we proceed...
+Have you seen <Reala>?
+-----------------------
+#ウッドロウ
+Woolong
+-----------------------
+#<Reala>くんを？
+#いや、私は見かけていないが････
+<Reala>?
+No, I haven't seen him...
+-----------------------
+<Nanaly>
+-----------------------
+#ここには来てない？
+#じゃあ、あの子はいったいどこに？
+I haven't been here.
+So where on earth is that girl?
+-----------------------
+#兵士
+soldier
+-----------------------
+#あの、そのことで････
+#お役に立つかどうかわかりませんが
+#お話したいことがあるのですが････
+Um, about that...
+I'm not sure if it'll be any help,
+There's something I'd like to talk to you about...
+-----------------------
+#兵士
+soldier
+-----------------------
+#昨晩、私は正門の警備をしていたのですが
+#日も昇らぬうちに城を出て行く者がおり
+#不審に思って声をかけました
+Last night, I was on guard duty at the main gate.
+I noticed someone leaving the castle before dawn,
+so I called out to them.
+-----------------------
+#兵士
+soldier
+-----------------------
+#それが<Reala>さんだったのですが
+#彼女は「行かなければ」とつぶやくと
+#光に包まれて消えてしまいました
+It was actually <Reala>.
+She murmured that she had to go.
+She vanished, enveloped in light.
+-----------------------
+#兵士
+soldier
+-----------------------
+#幻を見たのかと思い
+#報告しなかったのですが････
+I thought I was seeing things,
+so I didn't report it... but...
+-----------------------
+<Kyle>
+-----------------------
+#そんな････<Reala>、
+#いったい、どこに行っちゃったんだ!?
+Wait... <Reala>,
+What on earth happened to you!?
+-----------------------
+<Judas>
+-----------------------
+#アイグレッテだろうな
+#エルレインを止めるために、
+#単身乗り込んだんだ
+Must be Igret.
+To stop Elraine,
+I went in alone.
+-----------------------
+<Loni>
+-----------------------
+#無謀すぎるぜ････
+#まわりじゅう敵だらけじゃねえか
+This is too reckless...
+Isn't it packed with enemies everywhere?
+-----------------------
+<Nanaly>
+-----------------------
+#<Kyle>、早いとこ、
+#助けに行かないと！
+<Kyle>, hurry up!
+We gotta go help them!
+-----------------------
+<Kyle>
+-----------------------
+#････････
+......
+-----------------------
+<Loni>
+-----------------------
+#おい、<Kyle>！
+#早くしないと、やばいんだぞ！
+Hey, <Kyle>!
+We gotta hurry up, or we're in trouble!
+-----------------------
+<Judas>
+-----------------------
+#待て
+Hold on.
+-----------------------
+<Judas>
+-----------------------
+#････恐いのだろう？
+...You're afraid, aren't you?
+-----------------------
+<Kyle>
+-----------------------
+#え？
+Huh?
+-----------------------
+<Judas>
+-----------------------
+#また拒絶され
+#傷つくのが恐いのだろう？
+I'm being rejected again.
+You're afraid of getting hurt, aren't you?
+-----------------------
+<Kyle>
+-----------------------
+#････････
+......
+-----------------------
+<Judas>
+-----------------------
+#････僕も、同じだった
+#傷つくのを恐れ、立ち止まってしまった
+...I was the same.
+Afraid of getting hurt, I ended up standing still.
+-----------------------
+<Judas>
+-----------------------
+#そして友や愛する人を失った
+#最後に僕に残されたのは････
+#自らを隠す仮面だけだった
+I lost friends and loved ones,
+What remained for me in the end...
+Were nothing but masks to hide myself.
+-----------------------
+<Kyle>
+-----------------------
+#････････
+......
+-----------------------
+<Judas>
+-----------------------
+#おまえがどんな結果を選ぼうと、
+#僕にはどうこう言える義理はない
+#だが、忠告ならできる
+What result you choose doesn't matter to me,
+I have no right to say anything about it.
+But I can offer some advice.
+-----------------------
+<Judas>
+-----------------------
+#････恐れるな、<Kyle>！
+#その先にこそ、おまえの求めるものがある
+......Do not fear, <Kyle>!
+There lies what you seek beyond that point.
+-----------------------
+<Kyle>
+-----------------------
+#<Judas>････
+<Judas>. . .
+-----------------------
+<Loni>
+-----------------------
+#････へっ、めずらしいな
+#こいつと意見が合うなんてよ
+Hmph, how unusual.
+I never expected to agree with this guy.
+-----------------------
+<Loni>
+-----------------------
+#どうしたんだよ、<Kyle>？
+#ウジウジ悩むなんて、お前らしくないぜ
+What's wrong, <Kyle>?
+You're not acting like yourself, worrying over every little thing.
+-----------------------
+<Loni>
+-----------------------
+#考えることはねえんだ
+#大切なのは、おまえの気持ち、それだけだ
+There's nothing else to think about.
+What matters is your feelings, that's all.
+-----------------------
+<Kyle>
+-----------------------
+#････････
+......
+-----------------------
+<Kyle>
+-----------------------
+#オレはもう必要とされてないかもしれない
+#英雄じゃないオレは、<Reala>にとって
+#どうでもいい存在かもしれない
+I might not be needed anymore.
+For you, <Reala>, I'm just some ordinary guy who isn't a hero,
+and probably someone you don't really care about.
+-----------------------
+<Kyle>
+-----------------------
+#でも、それでも････
+#それでもオレは、<Reala>を助けたいんだ！
+But even so...
+Even then, I want to help <Reala>!
+-----------------------
+<Kyle>
+-----------------------
+#だから、みんな････
+So, everyone...
+-----------------------
+<Loni>
+-----------------------
+#････行こうぜ、<Kyle>
+#こうなりゃ、とことん、つきあってやるよ
+Let's go, .<Kyle>
+Now that it's come to this, I'll stick with you till the very end.
+-----------------------
+<Nanaly>
+-----------------------
+#あたしも！
+#ここまで来て、仲間はずれはごめんだよ！
+Me too!
+I've come this far, I can't let you leave me behind!
+-----------------------
+<Judas>
+-----------------------
+#僕のほうに、断わる理由はない
+#あとは、おまえ次第だ<Kyle>
+There's no reason for me to back out.
+The rest is up to you.<Kyle>
+-----------------------
+<Kyle>
+-----------------------
+#よし、行こう、みんな
+#アイグレッテへ！
+Alright, let's go, everyone.
+To Aigrette!
+-----------------------
+<Kyle>
+-----------------------
+#行って、<Reala>を助ける！
+#そしてエルレインからレンズを取り返す！
+Hurry to <Reala>'s aid!
+And get the lens back from Elrein!
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#待ちたまえ、<Kyle>くん
+Hold on, <Kyle>.
+-----------------------
+#ウッドロウ
+Woolong
+-----------------------
+#これはハイデルベルグとアタモニ神団
+#間に起きた政治的な問題だ
+This is between Heidelberg and the Atmonian God Sect.
+a political issue that arose in between.
+-----------------------
+#ウッドロウ
+Woolong
+-----------------------
+#武力をもって事にあたれば衝突は避けられん
+#場合によっては戦争も起こる
+If you handle matters with force, conflict is inevitable.
+In some cases, war could even break out.
+-----------------------
+#ウッドロウ
+Woolong
+-----------------------
+#<Kyle>くん
+#君はスタンのような英雄になりたいと言ったね
+<Kyle>!
+You said you wanted to be a hero like Stan, right?
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#英雄とは、多くの人を救うものだ
+#君の取ろうとしている行動は、
+#それとは正反対だとは思わないかね？
+What defines a hero is saving many people.
+The path you're choosing,
+don't you think it's the exact opposite?
+-----------------------
+<Loni>
+-----------------------
+#たしかに、そうだけどよ････！
+I mean, sure, but still...!
+-----------------------
+<Nanaly>
+-----------------------
+#<Kyle>････
+#どうするんだい？
+<Kyle>...
+What are we gonna do?
+-----------------------
+<Kyle>
+-----------------------
+#････ウッドロウさん
+#それ、ちがうと思います
+......Mr. Woodrow
+I think that's wrong.
+-----------------------
+<Kyle>
+-----------------------
+#人ひとり････自分の大事な人も
+#守れないやつが英雄になんか
+#なれっこないです
+If you can't even protect your own loved ones,
+how can someone like you possibly become a hero?
+It's impossible.
+-----------------------
+<Kyle>
+-----------------------
+#だからオレは行きます
+#行って<Reala>を助けます！
+So I'm going.
+I'll go save <Reala>!
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#････どうしても、
+#行くというのか････
+...Even so,
+Are you really going...?
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#すまない<Kyle>くん
+#君を試すようなマネをしてしまった
+I'm sorry, <Kyle>.
+I shouldn't have done that to test you.
+-----------------------
+<Kyle>
+-----------------------
+#ウッドロウさん････？
+Woodrow...?
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#これを持っていきたまえ
+Take this with you.
+-----------------------
+<Kyle>
+-----------------------
+#これは････？
+What is this...?
+-----------------------
+<Loni>
+-----------------------
+#「この書状を持つ者、我の勅命により、
+#　レンズ奪還の任にあたる者なり」
+"Those who bear this missive are hereby commanded by my decree to"
+"take charge of the Lens's recovery."
+-----------------------
+<Loni>
+-----------------------
+#「任にあたる際に対し発生する、
+#　あらゆる制約を我の名の下に、
+#　排除することを認める」
+"Regarding the duties you undertake,
+I grant permission to remove
+all constraints under my name."
+-----------------------
+<Loni>
+-----------------------
+#「ファンダリア国王、ウッドロウ＝ケルヴィン」
+#････こりゃあ、勅命状じゃねえか！
+King Fundalia, Woodrow Kelvin
+...Well, isn't that a royal decree!
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#君の思うようにしたまえ
+#あとのことは私がなんとかする
+Do as you see fit.
+I'll handle the rest.
+-----------------------
+<Kyle>
+-----------------------
+#ウッドロウさん
+#それじゃ････！
+Mr. Woodrow
+In that case...!
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#行きたまえ、<Kyle>くん
+#他のだれでもない、彼女の英雄となるために！
+Go forth, <Kyle>.
+To become her hero, no one else but you!
+-----------------------
+<Kyle>
+-----------------------
+#はい！
+Yes!
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#････いったい彼に、何が起きたのだ？
+#昨日とは、まるで別人じゃないか
+What on earth happened to him?
+He's practically a different person from yesterday.
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#まるで旅をして、ひとまわり大きくなった
+#息子を見ているようだ････
+It's as if I went on a journey and grew up.
+He looks just like my son...
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#息子････か
+#もう彼のことを「スタンの息子」とは呼べんな
+My son...?
+I can't call him 'Stan's son' anymore.
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#彼は、すでに、<Kyle>＝デュナミスという
+#ひとりの男なのだから････
+He is already a man named <Kyle> = Dunamis.
+So...
+-----------------------
+notice
+-----------------------
+#<Kyle>は
+#称号「<item:00000824>」を得ました
+<Kyle> is...
+You've earned the title '<item:00000824>'.
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#先の災厄のあと、人々の間に、
+#レンズへの依存をひかえよう、
+#という気運が高まった
+After the calamity that struck before,
+a growing sentiment emerged among people
+to curb their reliance on lenses.
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#そのこと自体は歓迎すべき
+#ことだったのだが････
+#破棄のしかたが、問題になってね
+It was something to welcome in itself
+but...
+the way it was discarded became an issue.
+-----------------------
+<Loni>
+-----------------------
+#むやみに捨てたんじゃ、
+#また誰かに悪用されるとも、
+#限らないってわけか
+If you just throw it away recklessly,
+there's no telling
+that someone else won't misuse it.
+-----------------------
+#ウッドロウ
+Woolong
+-----------------------
+#そこで私が管理を申し出たのだ
+#その結果が、あの大量のレンズだ
+That's why I offered to take charge.
+And that resulted in those massive amounts of lenses.
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#レンズの集中を危惧していた私が、
+#こうして大量のレンズを抱えるハメになるとは････
+#皮肉なものだな
+I was worried about losing focus on the lenses,
+And yet here I am, holding onto so many of them...
+What an irony.
+-----------------------
+<Reala>
+-----------------------
+#でも、それはファンダリアの
+#人たちがウッドロウさんを
+#信頼している証拠だと思います
+However, that is a sign that the people of Fundaria
+trust Mr. Woodrow.
+I believe.
+-----------------------
+<Reala>
+-----------------------
+#ウッドロウさんに任せれば安心だ
+#そう思ったからこそ、
+#みんなレンズをあずけたのでしょう
+We can rest easy leaving it to Woodrow.
+That's precisely why I felt that way,
+everyone entrusted their lenses to him.
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#だと、いいのだがな
+Well, that would be fine.
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#ともかく、一度あずかった以上は、
+#責任をもって管理しなくてはいけない
+#悪用されぬよう、しっかりと監視せねばな
+Anyway, since we've taken them in,
+we have to manage them responsibly.
+We need to keep a close watch so they aren't misused.
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#おお、<Kyle>くん
+#それにみなも････
+#どうやら無事に目的を果たしたようだな
+Ah, <Kyle>.
+And everyone...
+It seems you've accomplished your goal safely.
+-----------------------
+<Kyle>
+-----------------------
+#ええ、なんとか<Reala>は助けることができました
+#ただ、ファンダリアのレンズは････
+We were able to save <Reala>, somehow.
+But the lens from Fundaria...
+-----------------------
+#ウッドロウ
+Woolong
+-----------------------
+#報告は受けている
+#飛行竜と共に海底に沈んだ、と
+I've received the report.
+It sank to the ocean floor along with the air dragon.
+-----------------------
+<Kyle>
+-----------------------
+#すみませんでした
+#オレの力が足りなかったばっかりに････
+My apologies.
+It was because my strength wasn't enough...
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#君があやまることはない
+#レンズの一極集中を防げただけで、
+#じゅうぶんだ
+There's no need for you to apologize.
+Just preventing Lens from focusing on a single point is
+enough.
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#ファンダリアの民を代表して、礼を言う
+#ありがとう、<Kyle>くん
+I speak on behalf of the people of Fundaria to offer my thanks.
+Thank you, <Kyle>.
+-----------------------
+<Kyle>
+-----------------------
+#いえ、お役に立てたなら光栄です
+No, it was my pleasure to help.
+-----------------------
+#ウッドロウ
+Woolong
+-----------------------
+#なんとか、君たちの功績に報いたいが
+#いまの我々にできるのは
+#城に泊まってもらうことぐらいだ
+I'll try my best to reward your achievements,
+but all we can offer you right now is
+lodging in the castle.
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#どうだろう<Kyle>くん
+How about it, <Kyle>?
+-----------------------
+<Kyle>
+-----------------------
+#ありがとうございます！
+#ぜひ、そうさせてください！
+Thank you!
+I'd love to!
+-----------------------
+#ウッドロウ
+Woolong
+-----------------------
+#ん、<Kyle>くんか
+#どうしたのかね？
+#顔色がすぐれぬようだが
+I see, it's you, <Kyle>.
+What's wrong?
+You don't look so good.
+-----------------------
+<Kyle>
+-----------------------
+#ウッドロウさん
+#オレの話を聞いてください････！
+Mr. Woodrow
+Please listen to me...!
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#なるほど････やはりエルレインは
+#ただの人間ではなかったか････
+I see... So Elrein was indeed...
+...not just an ordinary human.
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#それにしても････運命とは残酷なものだ
+#若い君たちにこのような試練を課すとは
+Still... fate is truly cruel.
+To impose such trials upon you young ones...
+-----------------------
+<Kyle>
+-----------------------
+#オレにはどうしたらいいのか
+#わかりません････
+I don't know what I should do.
+Not a clue...
+-----------------------
+#ウッドロウ
+Woolong
+-----------------------
+#････････････････
+#････････････････
+...
+...
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#たとえば、川沿いに小さな村と
+#大きな街があったとしよう
+For example, imagine a small village along the river,
+and a large city nearby.
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#上流にある村では畑の作物を育てるのに
+#川の水を引き込んで利用していた
+In the village upstream, they cultivated crops in their fields
+by diverting water from the river for use.
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#そのため、下流の街は
+#常に飲み水が不足していた
+As a result, the towns downstream were
+constantly short on drinking water.
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#両者の間に争いが起こったのは
+#自然の成り行きだった
+#むろん、水の使用権をめぐってだ
+The conflict between the two sides was
+simply a matter of natural progression.
+Naturally, it revolved around water rights.
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#<Kyle>くん
+#君なら、この状況をどうするかね？
+<Kyle>!
+If it were you, how would you handle this situation?
+-----------------------
+<Kyle>
+-----------------------
+#どうするっていわれても････
+#村にも街にもそれぞれ事情があって、
+#答えなんて出せません
+What am I supposed to do?
+Every village and town has its own circumstances,
+so there's no simple answer.
+-----------------------
+#ウッドロウ
+Woolong
+-----------------------
+#なるほど、もっともな意見だ
+I see, that's a valid point.
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#だが、もし君が私の立場････
+#つまり王だったとしたら、
+#それでは誰も納得させられない
+But if you were in my position...
+In other words, if I were king,
+Then no one would be satisfied.
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#住民たちにとっては生きるか
+#死ぬかの問題なのだから
+For the townspeople,
+it's a matter of life and death.
+-----------------------
+<Kyle>
+-----------------------
+#じゃあ、ウッドロウさんなら
+#どうするんですか？
+Well then, Mr. Woodrow,
+what will you do?
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#考える
+Think about it
+-----------------------
+<Kyle>
+-----------------------
+#考える？
+Do you want to think about it?
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#そう、考えて、考えて、
+#ひたすら考え抜く
+Yes, think, think,
+pondering deeply
+-----------------------
+<Kyle>
+-----------------------
+#それでも答えが出なかったら？
+What if we still can't find an answer?
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#もっと考える、答えが出るまでね
+I'll keep thinking about it until I find the answer.
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#そして、出した答えは何があっても
+#最後まで貫きとおす
+And no matter what happens, the answer I came to...
+I will see it through to the very end.
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#それが決断をゆだねられた者の
+#負うべき責任だと私は思う
+It is what those entrusted with the decision
+I believe to be their responsibility.
+-----------------------
+<Kyle>
+-----------------------
+#決断をゆだねられた者の責任････
+The responsibility of those entrusted with making the choice...
+-----------------------
+#ウッドロウ
+Woolong
+-----------------------
+#無責任な言い方に聞こえるかも
+#しれないが････悩み、考えたまえ
+It might sound irresponsible.
+But then again... think it over.
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#真剣に悩み、苦しみ、ギリギリまで
+#時間をかけて君自身が納得できる
+#答えを見つければいい
+Worry seriously, suffer through it, all the way to the very end
+Takes time for you yourself to come to terms with
+You just need to find an answer that satisfies you
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#つらいだろうが、誰にも君の代わりはできない
+#くじけないでくれ<Kyle>くん
+It's tough, but no one else can take your place.
+Don't lose heart, <Kyle>.
+-----------------------
+<Kyle>
+-----------------------
+#わかりました････
+#オレ、最後の最後まで考えてみます
+I understand...
+I'll think it over until the very end.
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#そして<Reala>くん
+#君もつらいだろうが････
+And then there's you, <Reala>
+You're suffering too, aren't you...?
+-----------------------
+<Reala>
+-----------------------
+#わたしなら、大丈夫です
+#<Kyle>を信じてますから！
+I'll be fine!
+I believe in <Kyle>!
+-----------------------
+<Kyle>
+-----------------------
+#<Reala>････
+<Reala>...
+-----------------------
+#ウッドロウ
+Woodrow
+-----------------------
+#････そうか
+#私などが心配するまでもなかったな
+...I see.
+It wasn't necessary to worry about someone like me.
+-----------------------
+<Reala>
+-----------------------
+#いいえ、お心づかい、本当に感謝します
+#ウッドロウさん････ありがとうございました
+No, I truly appreciate your thoughtfulness.
+Woodrow... thank you so much.
+-----------------------
+<Kyle>
+-----------------------
+#ありがとうございました、ウッドロウさん
+#それじゃあ、オレたち行きます
+Thank you very much, Woodrow.
+Alright then, we're off.
+-----------------------
+#安心してください、応急手当は
+#すでにすませてあります
+Don't worry, first aid is
+It's already taken care of.
+-----------------------
+#先ほど医者を呼びましたので
+#すぐに来ると思います
+I've already called for the doctor.
+He should be here any moment.
+-----------------------
+#エルレインはなにもせずに、
+#帰っていきました
+Ellein did nothing,
+and left.
+-----------------------
+#衛兵
+Guard
+-----------------------
+#いってらっしゃいませ
+Have a good day.
+-----------------------
+#<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
+#お泊まりになりますか？
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+Would you like to stay?
+-----------------------
+#お泊まりになりますか？
+Would you like to stay?
+-----------------------
+select
+-----------------------
+#<03:00000000>　はい　
+#　いいえ　
+<03:00000000> Yes 
+ No 
+-----------------------
+#ごゆっくりお休みください
+Have a good night.
+-----------------------
+#おはようございます
+Good morning.
+-----------------------
+#お金が足りません
+Not enough money.
+-----------------------
+#またのおこしをお待ちしております
+See you again soon.
+-----------------------
+set_parameter( myself, C_PARTY, 0 );
+-----------------------
+wait_map_scroll();
+-----------------------
+exit-party_togather( short spd )
+-----------------------
+notice
+-----------------------
+#{16}{26}{7A}{C0}を手に入れました
+{16}{26}{7A}{C0}You obtained .
+-----------------------
+notice
+-----------------------
+#<item:FFFFFFFF>を手に入れました
+Acquired <item:FFFFFFFF>.
+-----------------------
+notice
+-----------------------
+#{16}{26}{82}{C0}がありましたが
+#いっぱいで持てませんでした
+{16}{26}{82}{C0}There was , but
+I couldn't hold it because it was full.
+-----------------------
+notice
+-----------------------
+#何もありません
+There's nothing here.
+-----------------------

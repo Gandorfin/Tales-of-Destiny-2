@@ -1,0 +1,1036 @@
+#アイグレッテ・グランドバザール
+Aigrette - Grand Bazaar
+-----------------------
+#アイグレッテ
+Aigrette
+-----------------------
+#アイグレッテ・グランドバザール
+Aigrette - Grand Bazaar
+-----------------------
+<char:000003E8>
+-----------------------
+#早く大聖堂に行かないと！
+We have to get to the cathedral, fast!
+-----------------------
+#アイグレッテ・グランドバザール
+Aigrette - Grand Bazaar
+-----------------------
+#荷車には、アクアヴェイル産の食材が積まれている
+The cart is loaded with produce from Aquaveil.
+-----------------------
+#アクアヴェイル地方で採れたライスだ
+#ライスはアクアヴェイル地方の主食らしい
+Rice from the Aquaveil region.
+Apparently, rice is a staple food in the Aquaveil region.
+-----------------------
+#工事用のヘルメットだ
+#ずいぶんと使い込まれている
+It's a construction helmet.
+It's been used for a long time.
+-----------------------
+#人の身長ほどもある、大きなタルだ
+#中身は････食材のようだ
+It's a large barrel, as tall as a person.
+Looks like it contains food.
+-----------------------
+#タルの中身は････
+#カルバレイス特産のスパイスだ
+The contents of the barrel are...
+A traditional spice from Calvalese.
+-----------------------
+#小麦の袋だ
+#袋には「クレスタ産」と書かれている
+A bag of wheat.
+The bag is labeled "Cresta Grown".
+-----------------------
+#クレスタの水車小屋でひいた小麦だろうか？
+Were these wheat grains ground at Cresta's water mill?
+-----------------------
+<Kyle>
+-----------------------
+#うわぁ････！
+Whoa...!
+-----------------------
+<Loni>
+-----------------------
+#ここが、聖都アイグレッテ
+#この大陸一番の都市だ
+This is the Holy City of Aigrette.
+The greatest city on this continent.
+-----------------------
+<Loni>
+-----------------------
+#そして、アタモニ神団の総本山である
+#ストレイライズ大神殿も、ここにある
+The headquarters of the Order of Atamoni are here,
+as well as the Great Straylize Temple.
+-----------------------
+<Loni>
+-----------------------
+#どうだ、<Kyle>？
+#クレスタなんかより
+#ずーっと、でかいだろ？
+What do you think, <Kyle>?
+Compared to someone like Cresta,
+It's way bigger, right?
+-----------------------
+<Kyle>
+-----------------------
+#うん、うん！
+#すごいなぁ････
+Yeah, yeah!
+It's amazing...
+-----------------------
+<Loni>
+-----------------------
+#とりあえず
+#適当に街をぶらつきながら
+#宿を探そうぜ
+For now,
+let's just wander around town
+and look for an inn.
+-----------------------
+#おじさん
+Man
+-----------------------
+#おれっちはよ
+#今度、ここで店を出すんだ
+#よかったら、来てくれよ
+I'm here.
+I'm opening a shop here next time.
+Come visit if you'd like.
+-----------------------
+<Loni>
+-----------------------
+#ほー
+#で、何を売るんだよ？
+Hey!
+So, what are you selling?
+-----------------------
+#おじさん
+Man
+-----------------------
+#その辺で、売ってる
+#安い品物を仕入れて、高く売る！
+#商売の基本だろ、基本！
+It's just around the corner.
+Buy low, sell high!
+It's basic business. Basic business!
+-----------------------
+#おじさん
+Man
+-----------------------
+#店ができたら
+#バンバン買い物して
+#おれっちを、もうけさせてくれよ！
+When the store opens,
+I'd like you to buy from me.
+You're gonna make me a lot of money!
+-----------------------
+<Loni>
+-----------------------
+#誰が行くか！
+As if!
+-----------------------
+#おじさん
+Man
+-----------------------
+#あ～っ、しくじったなぁ
+#ちっきしょう････
+Ahhh, I screwed up.
+Damn it...
+-----------------------
+<Reala>
+-----------------------
+#あのう
+#どうしたんですか？
+Excuse me.
+What's going on?
+-----------------------
+#おじさん
+Man
+-----------------------
+#安いものをたくさん仕入れて
+#高く売ろうとしたんだけどよ
+#金を使いはたして、店が出せねえんだ
+I bought a lot of cheap stuff
+and tried to sell it at a high price.
+Spent all my money, and now I can't open a store.
+-----------------------
+<Judas>
+-----------------------
+#そういうのを
+#「安物買いの銭失い」というんだ
+That kind of thing,
+"You get what you pay for," they say.
+-----------------------
+#おじさん
+Man
+-----------------------
+#まさか、出店資金を
+#使いはたしちまうなんてなぁ････
+#商売ってのは、こわいぜ････
+I never thought I'd run out
+of money to open a store...
+Business is a scary thing...
+-----------------------
+#おじさん
+Man
+-----------------------
+#ボウズたち、この街は初めてかい？
+#実は、おれっちもそうなんだ
+#ここで、なにか商売を始めるつもりさ
+Are you kids new in town?
+So am I, and I'm gonna start
+a business here.
+-----------------------
+#おじさん
+Man
+-----------------------
+#カネはないけど
+#ここにゃあ、チャンスが転がってる
+#おれっちも、ガンバっちゃうぞ！
+I don't have a lot of money, but
+there are a lot of opportunities here,
+and I'm going to do my best!
+-----------------------
+#むすめ
+Girl
+-----------------------
+#いらっしゃ～い★
+#ここは、甘味処「あまあま」よん
+#甘いモノは、疲れが取れるわよ
+Welcome!
+This is the candy shop "Ama Ama".
+These sweets will give you lots of energy!
+-----------------------
+#ありがとね
+Thanks
+-----------------------
+#またね
+See you later
+-----------------------
+#むすめ
+Girl
+-----------------------
+#むすめ
+Girl
+-----------------------
+#いらっしゃ～い★
+#ここは、甘味処「あまあま」よん
+#甘いモノは、疲れが取れるわよ
+Welcome!
+This is the candy shop "Ama Ama".
+These sweets will give you lots of energy!
+-----------------------
+#屋台
+Food Stand
+-----------------------
+#おう！
+#ちょっと立ち食いして行かねえか！
+Hey!
+Let's go grab a bite to eat!
+-----------------------
+#ありがとよ！
+Thank you!
+-----------------------
+#またこいよ！
+Come again!
+-----------------------
+#屋台
+Food Stand
+-----------------------
+#屋台
+Food Stand
+-----------------------
+#おう！
+#ちょっと立ち食いして行かねえか！
+Hey!
+Let's go grab a bite to eat!
+-----------------------
+#青年
+Youth
+-----------------------
+#オラぁ正直すぎて
+#いままで、だまされてばかりだったから
+#今度は、だますほうにまわるだ
+I'm too naive, and I've been
+tricked many times in the past.
+Now it's my turn to fool others.
+-----------------------
+#青年
+Youth
+-----------------------
+#････ということで
+#お、おまえら、このあやしげなツボ
+#買ってくれ････
+So, in conclusion...
+H-hey, you guys... about this sketchy-looking pot...
+Buy it for me...
+-----------------------
+<Loni>
+-----------------------
+#あんた、その仕事
+#むいてねえんじゃねえか････
+I don't think you're
+cut out for this job...
+-----------------------
+#青年
+Youth
+-----------------------
+#こ、このツボを買ってくれ！
+#しあわせになれるぞ････
+I want you to buy this vase!
+It'll make you happy...
+-----------------------
+#青年
+Youth
+-----------------------
+#オラが････
+I'm gonna...
+-----------------------
+#青年
+Youth
+-----------------------
+#エルレインさまのスッゲエ奇跡で
+#オラのツボが売れるように
+#してくんねえかな～
+For Elrein's awesome miracle
+So my pots can sell well
+I wonder if it'll happen~
+-----------------------
+#青年
+Youth
+-----------------------
+#いっしょうけんめいツボ売って
+#レンズが集まったら
+#たのんでみるかな～
+I'll sell these pots as hard as I can
+Once we've gathered enough lenses
+I guess I'll give it a try~
+-----------------------
+#青年
+Youth
+-----------------------
+#あ、あんたら
+#水が、いくらでも入るツボ
+#買ってくれねえだか？
+You guys
+A jar that can hold as much water as you want
+Won't you buy it?
+-----------------------
+<Nanaly>
+-----------------------
+#まさか、底に穴があいてるから
+#いくら入れてもイッパイにならない
+#なんて言わないだろうねぇ？
+You're not going to tell me there's
+a hole in the bottom so it won't fill up
+no matter how much I put in, are you?
+-----------------------
+<Loni>
+-----------------------
+#思いっきり、目をそらしやがったな
+Don't look away...
+-----------------------
+#青年
+Youth
+-----------------------
+#オラぁ正直すぎて
+#いままで、だまされてばかりだったから
+#今度は、だますほうにまわるだ
+I'm too naive, and I've been
+tricked many times in the past.
+Now it's my turn to fool others.
+-----------------------
+#青年
+Youth
+-----------------------
+#････ということで
+#お、おまえら、このあやしげな像
+#買ってくれ････
+So, that's how it is.
+H-hey, you guys, this suspicious statue...
+Buy it... please.
+-----------------------
+<Loni>
+-----------------------
+#そこまでいわれて買うバカが
+#どこにいるってんだ････
+What kind of idiot would
+buy something like that?
+-----------------------
+<Loni>
+-----------------------
+#････って
+#ものほしそうな目で見るな<Kyle>！
+Don't look at me like that...
+Don't give me those hungry eyes <Kyle>!
+-----------------------
+#青年
+Youth
+-----------------------
+#こ、この像を買ってくれ！
+#ムチャクチャはやってるんだぞ････
+#オラの中では････
+I need you to buy this statue!
+It's really popular...
+In my opinion...
+-----------------------
+#学者
+Scholar
+-----------------------
+#十八年前の騒乱のあと
+#神殿に救いをもとめて集まった人々が
+#この大きな街をつくったそうです
+It is said that after the uprising 18 years ago,
+the people who gathered at the temple
+for salvation built this large city.
+-----------------------
+<Kyle>
+-----------------------
+#へ～え
+#じゃあ、アイグレッテって
+#けっこう新しい街なんだね
+Huh...
+So, you're saying Aigrette is...
+It's quite a new town, huh?
+-----------------------
+#学者
+Scholar
+-----------------------
+#神の眼をめぐる動乱から十八年････
+#このような大きな街ができるなんて
+#人の力は偉大ですね
+18 years since the upheaval over the
+Eye of Atamoni... It's great to see the
+power of mankind creating such a large city.
+-----------------------
+#学者
+Scholar
+-----------------------
+#初めてエルレイン様の力を
+#目にしましたが････
+#おどろきました････
+#あれが神の力というものなんですね
+This is my first time witnessing Lady Elrune's power
+...
+I was quite surprised...
+So that is what divine power truly looks like.
+-----------------------
+#学者
+Scholar
+-----------------------
+#人の力も偉大だと思っていましたが
+#神の力は、もっと偉大ですね
+I've always thought the power of man was great,
+but the power of God is even greater.
+-----------------------
+#学者
+Scholar
+-----------------------
+#この街は
+#神の力をもとめて集まった
+#人たちがつくったもの････
+This town is
+a place built by people
+who gathered seeking the power of God...
+-----------------------
+#学者
+Scholar
+-----------------------
+#やはり人は
+#神にたよらずには
+#生きていけないのでしょうか
+I suppose people
+cannot live without relying on God,
+is that so?
+-----------------------
+#学者
+Scholar
+-----------------------
+#十八年前の騒乱のあと
+#神殿に救いをもとめて集まった人々が
+#この大きな街をつくったそうです
+It is said that after the uprising 18 years ago,
+the people who gathered at the temple
+for salvation built this large city.
+-----------------------
+#学者
+Scholar
+-----------------------
+#たった十八年で
+#このような大きな街ができるなんて
+#人の力は偉大ですね
+In just eighteen years,
+to see such a large city built...
+the power of humanity is truly great.
+-----------------------
+#学者
+Scholar
+-----------------------
+#神の眼をめぐる動乱から十八年････
+#このような大きな街ができるなんて
+#人の力は偉大ですね
+18 years since the upheaval over the
+Eye of Atamoni... It's great to see the
+power of mankind creating such a large city.
+-----------------------
+#青年
+Youth
+-----------------------
+#みんな、エルレイン、エルレインって
+#さわいでるけど、僕に言わせりゃ
+#奇跡なんてトリックだね
+Everyone's been going on about Elrune, Elrune this and Elrune that...
+but in my opinion,
+it's nothing but a trick.
+-----------------------
+#青年
+Youth
+-----------------------
+#祈るだけで、病気が治ったり
+#赤ん坊がスクスク育ったり
+#そんなことができれば、苦労しないさ
+If I could be cured of my illness or have
+my baby grow up healthy just by praying,
+life would be really easy.
+-----------------------
+#青年
+Youth
+-----------------------
+#しょせん、聖女の奇跡なんて
+#トリックなんだ
+#僕には、すぐにわかったね
+After all, the saint's miracle is nothing but
+a trick.
+I figured that out right away.
+-----------------------
+#青年
+Youth
+-----------------------
+#キミたち！
+#この石を、見てくれよ！
+#すばらしいだろ？
+You guys!
+Take a look at this stone!
+It's wonderful, isn't it?
+-----------------------
+<Kyle>
+-----------------------
+#ただの石ころじゃん
+They're just rocks.
+-----------------------
+#青年
+Youth
+-----------------------
+#これは、エルレインさまが
+#おふみになった
+#道ばたの石なんだよ！
+This is something that Lady Elraine
+had taken notice of,
+it's just a stone on the roadside!
+-----------------------
+#青年
+Youth
+-----------------------
+#さすが
+#エルレインさまともなれば
+#ただの石にも、高貴な香りが････
+As expected
+For someone like Elrein
+There's even a noble scent to just a rock...
+-----------------------
+<Kyle>
+-----------------------
+#そんなわけないじゃん
+That can't be true.
+-----------------------
+#青年
+Youth
+-----------------------
+#ああ････エルレインさま････
+Oh... Lady Elrane...
+-----------------------
+#青年
+Youth
+-----------------------
+#アイグレッテにやってきたものの
+#何をすればいいのかわからずに
+#僕はずっと路地をさまよっていた
+I arrived in Igretta,
+not knowing what to do,
+I wandered the alleys for so long.
+-----------------------
+#青年
+Youth
+-----------------------
+#だけどね、あの日、エルレインさまの
+#奇跡の力を目の当たりにして思ったんだ
+#僕は、あの人についていこうって
+But on that day, I witnessed Lord Elrain's
+miraculous power firsthand, and I realized
+that I wanted to follow her.
+-----------------------
+#青年
+Youth
+-----------------------
+#僕は、一生エルレインさまについていく
+#僕自身が迷っていても、あの方が
+#光となって、導いてくれるからね
+I will follow Elrane for the rest of my life,
+and if I ever feel lost, she will be
+my guiding light.
+-----------------------
+#青年
+Youth
+-----------------------
+#知ってるかい？
+#フィリアさまは
+#僕に、気があるんだよ
+Do you know?
+Princess Fillia...
+is interested in me.
+-----------------------
+<Loni>
+-----------------------
+#はぁ？
+#なんで、そんなことが
+#わかるんだよ？
+Huh?
+Why would you...
+How do you know that?
+-----------------------
+#青年
+Youth
+-----------------------
+#だって、僕に向かって
+#ほほえみかけてくれたもの
+#あれは僕にホレてるね、絶対！
+Because you were looking at me,
+smiling.
+She's definitely got it bad for me, I'm sure of it!
+-----------------------
+#青年
+Youth
+-----------------------
+#フィリアさま、僕に向かって
+#ほほえみかけてくれたんだよ
+#あれは僕にホレてるね、絶対！
+Philia-sama was looking at me,
+smiling.
+She's definitely got a crush on me, I'm sure of it!
+-----------------------
+<Loni>
+-----------------------
+#あほらし
+#あの人は、いつだって
+#笑顔じゃねえか
+You're so silly.
+That person is always...
+So cheerful.
+-----------------------
+<char:000003E8>
+-----------------------
+#こっちは街はずれみたいだ
+Looks like we're on the outskirts of town.
+-----------------------
+<char:000003E8>
+-----------------------
+#こっちは街はずれみたいだな
+Looks like we're on the outskirts of town.
+-----------------------
+<Kyle>
+-----------------------
+#こっちは街はずれみたいだ
+Looks like we're on the outskirts of town.
+-----------------------
+#いってらっしゃいませ
+Have a good day.
+-----------------------
+#<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
+#お泊まりになりますか？
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+Would you like to stay?
+-----------------------
+#お泊まりになりますか？
+Would you like to stay?
+-----------------------
+select
+-----------------------
+#<03:00000000>　はい　
+#　いいえ　
+<03:00000000> Yes 
+ No 
+-----------------------
+#ごゆっくりお休みください
+Have a good night.
+-----------------------
+#おはようございます
+Good morning.
+-----------------------
+#お金が足りません
+Not enough money.
+-----------------------
+#またのおこしをお待ちしております
+See you again soon.
+-----------------------
+set_parameter( myself, C_PARTY, 0 );
+-----------------------
+wait_map_scroll();
+-----------------------
+exit-party_togather( short spd )
+-----------------------
+notice
+-----------------------
+#{16}{25}{BA}{C0}を手に入れました
+Acquired {16}{25}{BA}{C0}.
+-----------------------
+notice
+-----------------------
+#<item:FFFFFFFF>を手に入れました
+Acquired <item:FFFFFFFF>.
+-----------------------
+notice
+-----------------------
+#{16}{25}{C2}{C0}がありましたが
+#いっぱいで持てませんでした
+Acquired {16}{25}{C2}{C0} but
+inventory is full already.
+-----------------------
+notice
+-----------------------
+#何もありません
+There's nothing here.
+-----------------------
+#<item:00000012>屋
+<item:00000012>-ya
+-----------------------
+#こちらでは<item:00000012>の
+#販売を行っています
+We are currently selling <item:00000012> here.
+We handle sales.
+-----------------------
+#<item:00000012>を使ってリファインすると
+#ステキな物が作られることがあるようです
+Refining with <item:00000012> seems
+to create some nice things!
+-----------------------
+#武器や鎧をリファインすると
+#付加能力が引継がれることがあるようです
+Refining weapons and armor
+may transfer additional abilities.
+-----------------------
+#ひと瓶<0B:00000001>{14}{35}{CC}{C0}<0B:00000000>ガルドになりますが、
+#<item:00000012>を買いますか？
+One bottle will cost you <0B:00000001>{14}{35}{CC}{C0}<0B:00000000> Gald.
+<item:00000012>Do you want to buy ?
+-----------------------
+select
+-----------------------
+#<03:00000000>　買う　
+#　<0B:00000001>{14}{25}{D6}{C0}本まとめて買う（{14}{35}{D0}{C0}ガルド）<0B:00000000>　
+#　リファイン講座　
+#　いらない　
+<03:00000000>Buy
+<0B:00000001>{14}{25}{D6}{C0}Buy all at once ({14}{35}{D0}{C0} Gald)<0B:00000000>
+Refine Tutorial
+No thanks
+-----------------------
+select
+-----------------------
+#<03:00000000>　買う　
+#　リファイン講座　
+#　いらない　
+<03:00000000>Buy
+Refine Course
+No thanks
+-----------------------
+#お買い上げ、ありがとうございます
+Thank you for your purchase.
+-----------------------
+#お買い上げ、ありがとうございます
+Thank you for your purchase.
+-----------------------
+#<item:00000012>はひと瓶
+#<0B:00000001>{14}{35}{CC}{C0}<0B:00000000>ガルドです
+<item:00000012>One bottle's worth.
+<0B:00000001>{14}{35}{CC}{C0}<0B:00000000>That's  Gald.
+-----------------------
+#リファイン講座を聞きたいですか？
+Do you want to hear about Refine?
+-----------------------
+select
+-----------------------
+#<03:00000000>　聞きたい　
+#　聞きたくない　
+<03:00000000>I want to ask.
+I don't want to ask.
+-----------------------
+#何について知りたいですか？
+What would you like to know?
+-----------------------
+select
+-----------------------
+#<03:00000000>　４、スロットについて　
+#　５、装飾品のリファイン　
+#　６、リファインできない装備品について　
+#　前のページ　
+<03:00000000>4. About Slots
+5. Refining Accessories
+6. Equipment That Cannot Be Refined
+Previous Page
+-----------------------
+select
+-----------------------
+#<03:00000000>　１、リファインとは
+#　２、アイテムの変化　　　　　　　　　　
+#　３、装備品の合成　
+#　次のページ　
+<03:00000000>1. What is Refine?
+2. Item Transformations
+3. Equipment Synthesis
+Next Page
+-----------------------
+#リファインとは、選択したアイテムを
+#別なアイテムに変化させたり
+#武器や防具を合成することのできるコマンドです
+Refine is the process of taking selected items and
+Transform it into a different item
+This is a command that allows you to synthesize weapons and armor.
+-----------------------
+#リファインを行うのに必要なのは
+#<item:00000012>とレンズです
+What is needed to perform Refine is
+<item:00000012>and lenses.
+-----------------------
+#<item:00000012>は、各地にいる
+#私たちルーンボトル屋からお求めください
+<item:00000012>is located in various places
+Please purchase from our Rune Bottle shop.
+-----------------------
+#レンズはモンスターと
+#戦えば拾うことができます
+The lens can be found from monsters
+if you defeat them in battle.
+-----------------------
+#これを機会に、あなたも
+#どんどんリファインを行ってください
+With this as an opportunity, you too
+go ahead and refine them as much as possible
+-----------------------
+#アイテムの変化とは、アイテム単体に
+#リファインを行うことによって
+#別なアイテムに変化させることです
+Item changes refer to individual items
+by performing Refine on them
+transforming them into different items.
+-----------------------
+#例えば、<item:00000001>にリファインを行うと
+#<item:00000002>に変化し
+#逆に、<item:00000002>にリファインを行うと
+#<item:00000001>に変化します
+For example, if you Refine <item:00000001>,
+<item:00000002>it transforms into .
+Conversely, if you Refine <item:00000002>,
+<item:00000001>it changes into .
+-----------------------
+#また、装備品単体をリファインすることによって
+#<item:00000001>などのアイテムにも変化します
+You can also refine individual equipment pieces to
+<item:00000001>transform items such as .
+-----------------------
+#ダンジョンなどでアイテムが尽きてしまった時などに
+#行うと、有効な場合もあります
+#もちろん、最初からきちんと準備をしておくほうが
+#賢いといえますが････
+When you run out of items in dungeons or similar places,
+this method might come in handy.
+Of course, it's wiser to prepare properly from the start,
+but...
+-----------------------
+#リファインの一番の特徴は
+#やはり、装備品の合成です
+The defining feature of Refine is
+the synthesis of equipment.
+-----------------------
+#装備品を合成すると
+#お気に入りの装備品に
+#お気に入りのスロットが付いた
+#装備品を作ることができます････
+When you synthesize equipment,
+you can create your favorite gear
+with a custom slot added to it.
+You can craft equipment...
+-----------------------
+#ああ、まずはスロットの説明を
+#しなければいけませんね
+Ah, first I need to explain how the slots work.
+I suppose.
+-----------------------
+#スロットとは、装備品に
+#付けることができる
+#付加能力のようなものです
+Slots are items you equip
+to your gear that
+grant additional abilities.
+-----------------------
+#スロットについては、また別に
+#詳しく説明させていただきます
+As for the slots, we'll cover that separately.
+We will explain it in detail.
+-----------------------
+#いちばん簡単な装備品のリファインは
+#スロットが一つついた装備品どうしの
+#リファインです
+The simplest type of Refine is
+between two pieces of equipment,
+each having one slot.
+-----------------------
+#これを行うと、何とステキなことに
+#スロットが二つ付いた装備品ができます
+What a wonderful thing to do!
+You'll get equipment with two slots.
+-----------------------
+#注意しなければいけないのは
+#剣は剣、鎧は鎧といったように
+#同じ種類の装備品でしか
+#リファインできません
+What you need to keep in mind is that
+just as swords are for swords and armor is for armor,
+you can only
+Refine equipment of the same type.
+-----------------------
+#他にもいろいろな組み合わせがありますが
+#それはやってみてのお楽しみです
+There are plenty of other combinations as well.
+You'll just have to try it out and see.
+-----------------------
+#スロットについて
+#詳しく説明いたします
+About Slots
+I'll explain in detail.
+-----------------------
+#スロットは数多くの種類があり
+#アタック：攻撃力が上昇します
+#ディフェンス：防御力が上昇します
+#などが代表的なものです
+There are many types of slots available,
+Attack: Increases attack power.
+Defense: Increases defense power.
+among others.
+-----------------------
+#スロットによって装備品の名前も変わります
+#<item:00000078>　＋　アタックで
+#アタックソードなどです
+The name of equipped items also changes depending on the slot.
+<item:00000078>With  + Attack,
+such as the Attack Sword.
+-----------------------
+#また、スロットにはレベルがあり
+#レベルが高いと効果も上昇します
+#最高はレベル８です
+Additionally, slots have levels.
+Higher levels increase their effectiveness.
+The maximum level is 8.
+-----------------------
+#スロット付きの装備品は
+#主にモンスターが落とします
+Equipment with slots is
+mainly dropped by monsters.
+-----------------------
+#モンスターとたくさん戦って
+#スロット付き装備品を手に入れて
+#あなただけのスロット付き装備品を
+#作ってみてください
+Fight lots of monsters
+Obtain slot-equipped gear
+Create your own unique slot-equipped gear
+Just give it a try
+-----------------------
+#ここだけの話ですが、装飾品も
+#リファインすることができます
+#でも、それは装飾品どうしではありません
+Just between you and me, accessories can also
+be refined
+But that doesn't apply to combinations of accessories
+-----------------------
+#装飾品と、装備品のような
+#形でのみリファインが可能なのです
+Like accessories and equipment,
+Refining is only possible in that form.
+-----------------------
+#この場合の利点は、リファインする
+#装備品の場所によってスロットが
+#変化するということです
+#武器、防具によって違います
+The advantage in this case is that you can refine
+the slots change depending on where
+you equip the items.
+It varies depending on whether it's a weapon or armor.
+-----------------------
+#また、装飾品は一つしか装備できないので
+#いらない装飾品を、リファインに活用すれば
+#非常に有効です
+You can also only equip one accessory at a time,
+so if you utilize unnecessary accessories for Refining,
+it's highly effective.
+-----------------------
+#その他にも、外装つまり「マント」も
+#装飾品と同様に装備品とリファインできます
+#その場合はなんと、装備品に属性を
+#付加することができるのです
+Additionally, exterior components, specifically "cloaks,"
+can also be refined just like accessories.
+In such cases,
+you can even add attributes to your equipment.
+-----------------------
+#装飾品とのリファインもうまく活用し
+#さらにステキなリファイン職人を
+#目指してみてください
+Make good use of refining with accessories,
+and aim to find even more wonderful refiners.
+So give it your best shot.
+-----------------------
+#たまに、装備品の中に黄色い枠の
+#アイコンが付いたものがありますね
+#それは、ユニークアイテムと
+#呼ばれているものです
+Sometimes, among your equipment,
+you'll find items with yellow borders.
+These are known as
+Unique Items.
+-----------------------
+#ユニークアイテムは見た目にも
+#かっこよく、攻撃力も高く
+#スロットレベルも高いものが多いですが
+#スロットは一つしかありません
+Unique items look great,
+boast high attack power,
+and often have high slot levels,
+but they only have one slot.
+-----------------------
+#しかし、その反面、装飾品以外のユニークアイテムは
+#リファインすることができません
+#これ以上強化することができないのです
+However, on the other hand, unique items other than accessories
+cannot be refined.
+meaning they cannot be enhanced any further.
+-----------------------
+#ですから、いらなくなったアイテムは
+#どんどん売ってしまうことをお勧めします
+So, if you have items you no longer need,
+I recommend selling them off as soon as possible.
+-----------------------
+#なぜなら、アイテムをたくさん持っていると
+#モンスターがアイテムを
+#落としてくれなくなってしまうという
+#噂があるからです
+Because if you carry around too many items,
+The monster dropped an item.
+It means you won't be able to drop them anymore.
+Because there's a rumor.
+-----------------------
+#････アイテム整理も大切ですね
+...Organizing items is important too.
+-----------------------

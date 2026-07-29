@@ -1,0 +1,1648 @@
+#チェリク
+Cherik
+-----------------------
+#チェリク
+Cherik
+-----------------------
+#大きな魚が水揚げされている
+A large fish is being landed.
+-----------------------
+#魚の日干しが並んでいる
+Dried fish are laid out to dry in the sun.
+-----------------------
+#南国の果物が積んである
+There are tropical fruits stacked up.
+-----------------------
+#つぼの中には特産の香辛料が入ってる
+The jar contains specialty spices.
+-----------------------
+#ここは倉庫らしい
+#野菜が貯蔵されてる
+This looks like a warehouse.
+The vegetables are being stored here.
+-----------------------
+#チケット売り
+Ticket counter
+-----------------------
+#ここからはアイグレッテ港に行けます
+#船に乗りますか？
+From here, you can head to Aigrette Port.
+Would you like to board the ship?
+-----------------------
+SELECT
+-----------------------
+#<03:00000000>　アイグレッテ港に行く（<0B:00000001>{14}{24}{72}{C0}<0B:00000000>ガルド）　
+#　船には乗らない　
+<03:00000000>I'm heading to Aigrette Port (<0B:00000001>{14}{24}{72}{C0}<0B:00000000> Gald)
+Not boarding the ship.
+-----------------------
+#チケット売り
+TICKET SALES
+-----------------------
+#ここからはアイグレッテ港と
+#ノイシュタットに行けます
+#船に乗りますか？
+From here, you can reach
+Neuestadt.
+Would you like to board the ship?
+-----------------------
+select
+-----------------------
+#<03:00000000>　アイグレッテ港に行く（<0B:00000001>{14}{24}{72}{C0}<0B:00000000>ガルド）　
+#　ノイシュタットに行く（<0B:00000001>{14}{24}{74}{C0}<0B:00000000>ガルド）　
+#　船には乗らない　
+<03:00000000>Go to Aigrette Port (<0B:00000001>{14}{24}{72}{C0}<0B:00000000> Gald)
+Go to Neuestadt (<0B:00000001>{14}{24}{74}{C0}<0B:00000000> Gald)
+Do not board the ship
+-----------------------
+#チケット売り
+TICKET SALES
+-----------------------
+#ここからはアイグレッテ港と
+#ノイシュタットに行けます
+#船に乗りますか？
+We can head to Aigrette Port from here.
+And reach Neuestadt.
+Do you want to board the ship?
+-----------------------
+select
+-----------------------
+#<03:00000000>　アイグレッテ港に行く　
+#　ノイシュタットに行く　
+#　船には乗らない　
+<03:00000000>I'll go to Aigrette Port.
+I'll head to Neuestadt.
+I won't board the ship.
+-----------------------
+#チケット売り
+TICKET SALES
+-----------------------
+#おいおい、金が足りないじゃないか
+#カンベンしてくれよ、お客さん！
+Hey, hey, you're short on cash.
+Have mercy on me, customer!
+-----------------------
+#チケット売り
+TICKET SALES
+-----------------------
+#お客さん、いいのかい？
+#急がないと、船が出ちまうぜ！
+You sure about this?
+We gotta hurry, or we'll miss the boat!
+-----------------------
+<Nanaly>
+-----------------------
+#ここから西の方に行くと
+#ヒートリバーっていう川があるんだ
+If you head west from here,
+you'll come across a river called the Heat River.
+-----------------------
+<Nanaly>
+-----------------------
+#その川を越えれば、じきにあたしの村
+#ホープタウンに到着だよ
+Once we cross that river, we'll be at my village.
+We've arrived in Hope Town.
+-----------------------
+#おばさん
+Woman
+-----------------------
+#あら？
+#あなたたちも、聖地カルビオラへの
+#巡礼者？
+Oh?
+Are you all also pilgrims heading to the holy land of Calbiora?
+?
+-----------------------
+<Kyle>
+-----------------------
+#巡礼････？
+Pilgrimage...?
+-----------------------
+<Nanaly>
+-----------------------
+#カルビオラなんて胸クソ悪い所に
+#誰が行くもんか
+Who'd want to go to some stinky place like Calbora?
+I'm not going there.
+-----------------------
+#おばさん
+Woman
+-----------------------
+#あなたたち、ホープタウンに行くの？
+#あんなトコ、行っても
+#いいことなんかなにもないわよ
+You guys are heading to Hope Town?
+Just going there...
+isn't going to get you anything good.
+-----------------------
+#おじさん
+Man
+-----------------------
+#お前ら、巡礼者か？
+#聖地カルビオラへ行くのか？
+You pilgrims?
+Are you heading to the holy land of Calbiora?
+-----------------------
+<Judas>
+-----------------------
+#目的地はカルビオラだが････
+#巡礼にいくわけではない
+Our destination is Calbora...
+We're not going on a pilgrimage.
+-----------------------
+#おじさん
+Man
+-----------------------
+#聖地カルビオラで何かやってるらしく
+#一般信者は立ち入りが禁止されてるのだ
+It seems they're up to something in the holy land of Calbira.
+Ordinary believers are forbidden from entering.
+-----------------------
+#おじさん
+Man
+-----------------------
+#なにかあったんじゃないのか････？
+Weren't you okay?
+-----------------------
+#おばさん
+Woman
+-----------------------
+#集団移住ってやつが
+#近々、あるらしいね
+This whole mass migration thing...
+Seems to be happening soon.
+-----------------------
+#おばさん
+Woman
+-----------------------
+#あたしは絶対に
+#アイグレッテなんかにゃいかないよ
+I absolutely will not
+I'm not going to Igret after all
+-----------------------
+#おばさん
+Woman
+-----------------------
+#あんな場所に行くくらいなら
+#ホープタウンへでもいったほうが
+#マシってもんさ
+I'd rather go anywhere else than that place.
+Even going to Hope Town would be
+better.
+-----------------------
+#おばさん
+Woman
+-----------------------
+#生まれ育った故郷から
+#出ていく気はないよ
+#アタシはここで生きて
+#ここで死ぬんだ
+From the hometown where I was born and raised,
+I have no intention of leaving.
+I'll live here,
+and die here.
+-----------------------
+#おじさん
+Man
+-----------------------
+#アイグレッテとチェリクの間にある
+#デビルズリーフ････
+#そこに海の主ってバケモノがいるんだ
+Between Aigret and Chelick
+Devil's Leaf...
+There's a sea monster lurking there
+-----------------------
+#おじさん
+Man
+-----------------------
+#だれか、ソイツを倒してくれないかねえ
+#英雄でも現れないもんかな
+Anyone here willing to take down that guy?
+I wonder if some hero will show up.
+-----------------------
+#おじさん
+Man
+-----------------------
+#ああ、今日も暑いぜ！
+#これこそがチェリク日和ってやつよ！
+Ah, it's hot again today!
+This is what you call perfect weather for Cherik!
+-----------------------
+#旅人
+Traveler
+-----------------------
+#聖都カルビオラへの
+#玄関口にしては
+#神秘のカケラもない街だね
+The gateway to the holy city of Calbiora
+is hardly fitting for such a place
+It's just an ordinary town with no trace of mystery.
+-----------------------
+#旅人
+Traveler
+-----------------------
+#まあ、いっか
+#ボクが見たいのはカルビオラであって
+#こんなとこじゃないもんな
+Well, whatever.
+What I want to see is Calbira,
+Not someplace like this.
+-----------------------
+#旅人
+Traveler
+-----------------------
+#それにしても、なんだか寂しい
+#感じがするところだね
+Still, it feels kind of lonely.
+doesn't it?
+-----------------------
+#旅人
+Traveler
+-----------------------
+#物はあっても人が居ない
+#気味が悪いな
+There are things, but no people.
+This is creepy.
+-----------------------
+#旅人
+Traveler
+-----------------------
+#なんで聖地に入れないんだよ！
+#せっかくスノーフリアから
+#来たってのに
+Why can't I enter the Holy Land!?
+We went all the way from Snowfria,
+and yet...
+-----------------------
+#旅人
+Traveler
+-----------------------
+#なにやってるのか知らないけど
+#たのむから聖地を拝ませてくれ！
+I don't know what you're doing,
+But please, let me see the holy site!
+-----------------------
+#旅人
+Traveler
+-----------------------
+#月一回の聖地巡礼はかかせないね
+#たとえ仕事をクビになったとしても！
+I can't miss my monthly pilgrimage to the holy site.
+Even if I get fired from my job!
+-----------------------
+#学者
+Scholar
+-----------------------
+#アタモニ神団が、カルビオラに
+#神殿を建立しているようですね
+It seems the Order of Atamoni has established
+a temple in Calbiola.
+-----------------------
+#学者
+Scholar
+-----------------------
+#あんな辺境に、なぜ
+#神殿を建てたりしているんでしょうか
+Why in that remote frontier,
+are they building a temple?
+-----------------------
+#学者
+Scholar
+-----------------------
+#噂では、神殿に大量のレンズが
+#運び込まれたとか
+Rumors say that a massive amount of lenses were brought into the temple.
+That's what they're saying.
+-----------------------
+#学者
+Scholar
+-----------------------
+#うーん
+#一体、何をしているのやら
+Hmm...
+What on earth are they doing?
+-----------------------
+#学者
+Scholar
+-----------------------
+#天地戦争時代の敗者である
+#天上軍の兵士は、ここカルバレイスに
+#流刑になりました
+The vanquished from the era of the Heavenly War
+The soldiers of the Celestial Army were stationed here in Calvarys,
+and were exiled.
+-----------------------
+#学者
+Scholar
+-----------------------
+#この厳しい土地で
+#生きていくのは
+#大変だったでしょうね････
+In this harsh land,
+living day to day
+must have been quite difficult...
+-----------------------
+#学者
+Scholar
+-----------------------
+#天上軍に属した者は等しく
+#戦犯として扱われ、流刑に
+#処せられたそうです
+Those who belonged to the Heavenly Army were equally
+treated as war criminals and sentenced to exile,
+it is said.
+-----------------------
+#学者
+Scholar
+-----------------------
+#ここで生きていくのは
+#死ぬより辛かったかもしれないですね
+Living here...
+might have been harder than dying.
+-----------------------
+#おじいさん
+Old Man
+-----------------------
+#どうだ？港町にしては、人が居ないだろ？
+#なにせ、ほとんどの住人が
+#アイグレッテに引越しちまったからなあ
+How's it look? For a port town, there aren't many people around, are there?
+After all, most of the residents
+moved to Aigrette.
+-----------------------
+#おじいさん
+Old Man
+-----------------------
+#アイグレッテじゃ金も物も
+#いらないって話でな
+With Aigrette, we don't need gold or anything else.
+That's what I'm saying.
+-----------------------
+#おじいさん
+Old Man
+-----------------------
+#みんな、そこいらに物を
+#放置したまま行っちまいやがった････
+Everyone just left their stuff lying around everywhere.
+And walked off without a care.
+-----------------------
+#おじいさん
+Old Man
+-----------------------
+#これまでの生活を捨ててまで
+#アイグレッテで暮らしたいのか？
+#くそっ、宗教ってのは････
+Abandon everything you've known up until now
+to live in Aigrette?
+Damn it, religion is...
+-----------------------
+#少年
+Boy
+-----------------------
+#いらっさーい
+#南国果物はいかがですかー？
+Welcome!
+How about some tropical fruits?
+-----------------------
+#少年
+Boy
+-----------------------
+#ふう！暑い！
+#思わず商品を食べそうに
+#なっちゃうよ！
+Phew! It's hot!
+I almost ended up eating the merchandise,
+didn't I?
+-----------------------
+#船員
+Sailor
+-----------------------
+#なんか最近、チェリクから出て行く
+#人間が増えてるんだよな
+I've been noticing lately that people are leaving Chelick.
+There seem to be more humans around these days.
+-----------------------
+#船員
+Sailor
+-----------------------
+#ま、ここよりアイグレッテのほうが
+#住みやすいしな
+Well, Igurette is probably
+a better place to live.
+-----------------------
+#船員
+Sailor
+-----------------------
+#ここは、とにかく暑くて
+#たまんねーよ！
+It's hot as hell here, no matter what.
+I can't stand it!
+-----------------------
+#女の人
+Woman
+-----------------------
+#空に散らばってしまったレンズの回収････
+#手伝ってもらえませんか？
+Retrieving the lenses scattered across the sky...
+Could you give me a hand?
+-----------------------
+select
+-----------------------
+#<03:00000000>　手伝う　
+#　手伝わない　
+<03:00000000>I'll help.
+I won't help.
+-----------------------
+#女の人
+Woman
+-----------------------
+#空に散らばったレンズを１００枚集めてください
+#規定タイム以内ならば景品をあげます
+#ベストタイムを目指して頑張ってください
+Collect 100 lenses scattered across the sky.
+We'll give you a prize if you finish within the time limit.
+Do your best to aim for the best time.
+-----------------------
+#女の人
+Woman
+-----------------------
+#途中でやり直したくなったり
+#やめたくなったら
+#SELECTボタンのメニューから選んで下さい
+If you want to restart midway
+or quit,
+select the appropriate option from the SELECT-button menu.
+-----------------------
+#女の人
+Woman
+-----------------------
+#<03:00000000>現在のベストタイムは、以下の通りです
+<03:00000000>The current best time is as follows.
+-----------------------
+#女の人
+Woman
+-----------------------
+#<03:00000000>現在のベストタイムは、以下の通りです
+<03:00000000>The current best time is as follows.
+-----------------------
+#女の人
+Woman
+-----------------------
+#結果をお知らせします････
+I'll let you know the results...
+-----------------------
+#女の人
+Woman
+-----------------------
+#途中であきらめましたね････
+You gave up halfway through, didn't you?
+-----------------------
+#女の人
+Woman
+-----------------------
+#タイムは {14}{34}{E0}{C0}{14}{34}{E4}{C0}:{14}{34}{E8}{C0}{14}{34}{EC}{C0}:{14}{34}{F0}{C0}{14}{34}{F4}{C0} です
+The time is {14}{34}{E0}{C0}{14}{34}{E4}{C0}:{14}{34}{E8}{C0}{14}{34}{EC}{C0}:{14}{34}{F0}{C0}{14}{34}{F4}{C0}.
+-----------------------
+#女の人
+Woman
+-----------------------
+#おめでとうございます！
+#記録更新ですね！
+#タイムは {14}{34}{E0}{C0}{14}{34}{E4}{C0}:{14}{34}{E8}{C0}{14}{34}{EC}{C0}:{14}{34}{F0}{C0}{14}{34}{F4}{C0} です
+Celebrations!
+A new record!
+The time is {14}{34}{E0}{C0}{14}{34}{E4}{C0}:{14}{34}{E8}{C0}{14}{34}{EC}{C0}:{14}{34}{F0}{C0}{14}{34}{F4}{C0}.
+-----------------------
+notice
+-----------------------
+#<Judas>は
+#称号「<item:0000088A>」を得ました
+<Judas> is
+Gained title '<item:0000088A>.'
+-----------------------
+#女の人
+Woman
+-----------------------
+#どのコースにしますか？
+What course would you like to take?
+-----------------------
+select
+-----------------------
+<03:00000000>COURSE {14}{34}{F8}{C0}
+-----------------------
+<03:00000000>COURSE {14}{34}{F8}{C0}
+-----------------------
+select
+-----------------------
+#<03:00000000>　はい　
+#　いいえ　
+<03:00000000> Yes 
+ No 
+-----------------------
+set_parameter( myself, C_PARTY, 0 );
+-----------------------
+wait_map_scroll();
+-----------------------
+exit-party_togather( short spd )
+-----------------------
+notice
+-----------------------
+#{16}{26}{4E}{C0}を手に入れました
+{16}{26}{4E}{C0}You obtained .
+-----------------------
+notice
+-----------------------
+#<item:FFFFFFFF>を手に入れました
+Acquired <item:FFFFFFFF>.
+-----------------------
+notice
+-----------------------
+#{16}{26}{56}{C0}がありましたが
+#いっぱいで持てませんでした
+{16}{26}{56}{C0}There was , but
+I couldn't carry it because it was full.
+-----------------------
+notice
+-----------------------
+#何もありません
+There's nothing here.
+-----------------------
+#ベテラン
+Veteran
+-----------------------
+#ひよっこ
+rookie
+-----------------------
+notice
+-----------------------
+#「武器攻撃」について
+#話し合っているようです
+#耳を傾けますか？
+On "Weapon Attacks"
+They seem to be discussing it.
+Do you wish to listen?
+-----------------------
+#さて俺たちも冒険を始めるわけだが、
+#基本は身に付いたか？
+Well then, it's time for us to start our adventure.
+Do you have the basics down?
+-----------------------
+#もちろんさ、<button:00000045>で武器攻撃しまくりさ!!
+I sure am, <button:00000045>, gonna go wild with weapon attacks!!
+-----------------------
+#まあそうだが方向キー<button:00000006>、<button:00000021>、<button:00000016>、<button:00000017>
+#と組み合わせることによって、
+#四種類の攻撃が出るぞ！
+True enough, but using the directional buttons <button:00000006>, <button:00000021>, <button:00000016>, and<button:00000017>
+in combination with
+you can unleash four types of attacks!
+-----------------------
+#まずは実際に何度か繰り出してみて、
+#速度や射程を覚えていくといいな
+First, try throwing it out a few times in practice,
+and get used to the speed and range.
+-----------------------
+#連続攻撃はどうやればいいのさ？
+How do I pull off consecutive attacks?
+-----------------------
+#攻撃中に再度<button:00000045>を押せばいい
+#もちろん方向キー<button:00000006>、<button:00000021>、<button:00000016>、<button:00000017>
+#により攻撃方法は変わるぞ
+You just need to press <button:00000045> again while attacking.
+Of course, directional keys <button:00000006>, <button:00000021>, <button:00000016>, and .<button:00000017>
+The way you attack will change depending on them.
+-----------------------
+#攻撃をするとスピリッツゲージが減る
+#（ＳＰ　戦闘中の<color:00000001>青いゲージ<color:00000007>です）
+#減りすぎたら攻撃を控えて、
+#回復を待ったほうがいい
+Attacking depletes your Spirit Gauge.
+(This is the blue gauge for <color:00000001> during combat <color:00000007>.)
+If it drops too low,
+it's best to hold back on attacks and wait for it to recover.
+-----------------------
+#なんでさ？　しまくりゃいいさ
+Why? Just go wild.
+-----------------------
+#スピリッツゲージが少ないと
+#攻撃の命中・回避が下がるからな
+#かえって不利な状況になることもある
+#気をつけることだ
+If your Spirits Gauge is low,
+your attack accuracy and evasion will drop.
+This can put you at a disadvantage in some situations.
+So be careful.
+-----------------------
+#防御が成功するとＳＰが多く回復するから、
+#防御<button:00000047>も大切ということだな
+If your defense succeeds, you'll recover a lot of SP,
+So it's important to defend as well, <button:00000047>.
+-----------------------
+notice
+-----------------------
+#「特技」について
+#話し合っているようです
+#耳を傾けますか？
+How about "Special Skills"?
+It seems they're discussing it.
+Do you want to listen in?
+-----------------------
+#どうだ、特技を覚えて
+#戦略に幅が出たろう？
+How about it? Learn some special techniques.
+This should give you more strategic options, right?
+-----------------------
+#特技<button:00000046>はつえーけどＴＰがすぐなくなるさ
+#戦闘中も自動的に回復するけど、
+#まだ貧弱なので速度が遅いさ
+Special skill <button:00000046> is great, but TP runs out quickly.
+It automatically recovers during battle,
+but it's still weak and slow.
+-----------------------
+#それはそうだ　そこで重要なのが
+#<button:00000045>の通常攻撃となるわけだ
+#一回通常攻撃がヒットすると、
+#ＴＰが１回復するぞ
+That makes sense. What's important here is...
+<button:00000045>This becomes 's normal attack.
+If a normal hit connects,
+You'll recover 1 TP.
+-----------------------
+#じゃあ通常攻撃<button:00000045>しまくりさ
+So I'll just spam normal attacks <button:00000045>.
+-----------------------
+#････ＴＰが余ってももったいないからな
+#術を使ってＳＰを回復させるなど、
+#うまく使っていくのが大切だ
+...It's a waste to leave TP unused.
+Like using spells to recover SP,
+it's important to make good use of them.
+-----------------------
+#ＴＰは敵を倒したときも少量回復する
+#しかも、敵を連携中に
+#まとめて倒したりすると、
+#より多くのＴＰを回復できるのだ
+TP also recovers slightly when you defeat enemies.
+Moreover,
+if you defeat them all at once during a combo
+you can recover even more TP.
+-----------------------
+notice
+-----------------------
+#「エンチャント」について
+#話し合っているようです
+#耳を傾けますか？
+About "Enchant"
+It seems they're discussing it.
+Are you going to listen?
+-----------------------
+#エンチャントも覚えたさ
+I've learned enchantment too.
+-----------------------
+#････で、エンチャントって何さ？
+So, what's an enchantment?
+-----------------------
+#うむ　簡単に言えば
+#「覚えている特技、術を
+#　自分好みにカスタムできる能力」だな
+Indeed, to put it simply,
+"the ability to customize your learned skills and spells"
+that's what it is.
+-----------------------
+#まずは使い続けて使用回数を上げること！
+#そうすれば様々なエンチャントが
+#装備できるようになるだろう
+First off, keep using it to increase your usage count!
+That way,
+you'll be able to equip various enchantments.
+-----------------------
+#じゃあ、ひとつの特技を使いまくりさ
+So, I'll just spam one skill.
+-----------------------
+#それもひとつの方法ではあるな
+#ただ、戦闘中はエンチャントは変更できない
+#多くの技に多彩なエンチャントを
+#つけておくのも悪くないぞ
+That's certainly one way to go about it.
+However, you can't change enchantments during battle.
+Applying diverse enchantments to many techniques...
+isn't a bad idea at all.
+-----------------------
+#敵の能力を下げる術を使ってから
+#武器で切り込む････など、特技と術を
+#使いこなすことで戦略は拡がっていく
+#････仲間同士で補い合っていってもいいな
+Once you've used techniques to lower enemy stats,
+whether it's charging in with weapons... or combining special moves and spells,
+mastering their use will expand your strategic options.
+...and it's great when allies support each other too.
+-----------------------
+#ちなみに、装備したエンチャントは外せば
+#使用回数は戻るから、いろいろと
+#試してみるのがいいだろう
+By the way, if you remove equipped enchantments,
+their usage count will reset, so it's best to
+experiment with various combinations.
+-----------------------
+#ボクのお気に入りの特技はあまり
+#当たらないから、欠点を補うために
+#命中のエンチャントをつけるさ
+My favorite special technique doesn't really hit often,
+so to make up for that drawback,
+I put an enchantment on it to boost accuracy.
+-----------------------
+#････お前の場合は単に空振りしてるだけだな
+#空振りは、使用回数が増えないので
+#もったいないぞ！
+You're just swinging at air in your case.
+Swinging at air doesn't increase your usage count,
+What a waste!
+-----------------------
+#それと、回復晶術は
+#「対象のＨＰが５０％以下のときに
+#　使用したとき」のみ
+#使用回数が増える　気をつけろ!!
+Also, for recovery Lens Artes,
+"when the target's HP is below 50%,
+only when used under those conditions"
+the number of uses increases. Be careful!!
+-----------------------
+#確かにかすり傷で使っても
+#経験にはならないさ
+It's true that even with a scratch wound,
+you won't gain any experience.
+-----------------------
+notice
+-----------------------
+#「戦闘の作戦」について
+#話し合っているようです
+#耳を傾けますか？
+About battle strategy
+It seems they're discussing it
+Are you listening?
+-----------------------
+#いろんな敵に遭っても対処できるように、
+#作戦を決めておこうではないか！
+#「防御がかたい敵」が現れたらどうする？
+Let's prepare ourselves to handle whatever enemies we might encounter.
+We should decide on our strategy!
+What will you do when an enemy with high defense appears?
+-----------------------
+#みんなして術使いまくりさ
+They're all casting spells left and right.
+-----------------------
+#術を使うのは悪くないが、
+#全員が術を唱えてると、
+#いいようになぐられるので、
+#前衛を一人置くのがいいな
+Using magic isn't bad in itself,
+but if everyone is casting spells,
+you'll end up getting beaten up,
+so it's better to have at least one frontline fighter.
+-----------------------
+#「敵の後衛が強力な術を使う」場合は？
+What if the enemy's rear guard uses a powerful spell?
+-----------------------
+#昨日暗記して覚えたさ
+#「術を使わせるな」で
+#詠唱をジャマするのさ
+I memorized it yesterday.
+Don't let them cast spells.
+Interrupt their incantations.
+-----------------------
+#まあそんな感じだ
+Well, something like that.
+-----------------------
+#作戦は同時に３つまで登録できるから、
+#戦闘中に瞬時に切り替えながら闘うと、
+#見ていて気持ちがいいぞ
+You can register up to three strategies at once,
+so fighting while switching between them instantly during battle
+is really satisfying to watch.
+-----------------------
+#攻撃頻度、回復割合もキャラクターの能力と
+#敵に合わせて変えていくと、
+#より効率的な戦いが望めるだろう
+Adjusting attack frequency and healing ratios to match each character's abilities,
+and adapting them according to your enemies,
+should allow for more efficient battles.
+-----------------------
+notice
+-----------------------
+#「テクニカルスマッシュ」
+#について話し合っているようです
+#耳を傾けますか？
+Tactical Smash
+It seems they're discussing it.
+Will you listen?
+-----------------------
+#テクニカルスマッシュってなにさ？
+What's a Technical Smash?
+-----------------------
+#うむ　戦いのプロも認める、
+#「華麗なとどめのさし方」を行うと、
+#テクニカルスマッシュと認定される
+Indeed, even battle professionals acknowledge it,
+performing a "graceful finishing blow"
+is recognized as a Technical Smash.
+-----------------------
+#テクニカルスマッシュで敵を倒すと、
+#あまりにステキなのか、アイテムの
+#入手確率が跳ね上がるというもっぱらの噂だ
+When you defeat enemies with Technical Smash,
+it's so wonderful that there are rumors
+that your item drop rate skyrockets.
+-----------------------
+#きっと真実だろう
+It's probably the truth.
+-----------------------
+#連携とか、まとめて倒すとかで出まくりさ
+They show up all over the place during combos or when you take them out in groups.
+-----------------------
+#うむ　特に「とどめは連携でさす」のは
+#重要だ　とどめをさした時点で、その連携
+#に使っていたＳＰは全て回復するのだ
+#長い連携をしても態勢を立て直せる
+Mm. I specifically "finish them off with a linked attack".
+It's important that at the moment you land the finishing blow, their link...
+All SP used in it will be restored.
+You can recover your stance even after a long combo.
+-----------------------
+#じゃあ追加特技とかはとどめ用にとっとくさ
+So I'll save those added skills for finishing blows.
+-----------------------
+#ＳＰ不足に悩んでいる場合は、
+#それがいいだろう
+If you're struggling with low SP,
+That should work.
+-----------------------
+#アクションエンチャントは
+#ＳＰを消費するのが悩みだが、
+#とどめをうまく利用するのが達人への道だ
+Action Enchant is
+consuming SP can be a concern,
+but mastering the final blow is the path to becoming an expert.
+-----------------------
+notice
+-----------------------
+#「スピリッツ」について
+#話し合っているようです
+#耳を傾けますか？
+Regarding 'Spirits'
+It seems they are discussing it.
+Are you going to listen?
+-----------------------
+#敵に攻撃しても防御されまくりさ
+We're attacking them, but they're blocking everything.
+-----------------------
+#回避が高い敵には困ったものだ
+#術を当てるのも作戦のひとつだが、敵に
+#よっては、一回の攻撃でスピリッツを
+#激減させる一発屋もいるぞ
+High-evasion foes are a real headache.
+Using spells is part of the strategy, but depending on the enemy,
+a single attack can drastically reduce your spirits.
+Some opponents are one-shot wonders.
+-----------------------
+#空振りなどを誘い、スピリッツを
+#減らすと回避の能力も落ちる････
+#そこを狙うのもいいだろう
+By baiting them into missing their attacks, you can drain their spirits.
+As their spirit levels drop, so too does their evasion ability...
+It might be wise to target that weakness.
+-----------------------
+#ボクは<button:00000047>と<button:0000001D>のプレスガードで
+#狙ってＳＰを減らすのさ
+I'm using Press Guard with <button:00000047> and <button:0000001D>.
+To target them and drain their SP.
+-----------------------
+#お前は連続攻撃のときもやるから困る
+#プレスガードは敵の最後の攻撃で行うのが
+#いい　プレスガードではＳＰは２０も減る
+#敵の攻撃を見極めることだな
+You're troublesome because you keep doing consecutive attacks.
+The Press Guard is performed on the enemy's final attack.
+Good. Using a Press Guard costs 20 SP.
+It's about reading the enemy's attack.
+-----------------------
+#敵ターゲットをカスタムで表示させて
+#いる場合、カーソルの色が明るいほど
+#ＳＰが高いということが分かる
+#戦いながら敵のＳＰを見切れるぞ
+You can customize how enemy targets are displayed.
+When they're shown, the brighter the cursor color indicates,
+a higher SP value.
+So you can gauge an enemy's SP while fighting.
+-----------------------
+notice
+-----------------------
+#「連続ヒット」について
+#話し合っているようです
+#耳を傾けますか？
+About 'Continuous Hits'
+It seems they're discussing it.
+Are you listening?
+-----------------------
+#連続ヒットってなにさ？
+"What's a continuous hit?"
+-----------------------
+#ダメージを与えた敵が戦闘態勢に
+#復帰する前に連続してダメージを与えると
+#ヒット数が加算されて表示されるのだ
+Enemies that take damage enter battle stance.
+If you deal consecutive damage before they recover,
+the hit count will increase and display.
+-----------------------
+#いっぱい当てるとどうなるのさ？
+What happens if you hit them all?
+-----------------------
+#うむ　最高のヒット数は取得経験値に
+#影響する　なぜなら、そんな素晴らしい
+#連続攻撃は何よりも勝る経験だからな
+Mm-hmm. The number of hits achieved affects your EXP gain.
+Influencing... because such wonderful
+Continuous attacks are an experience that surpasses everything else.
+-----------------------
+#より高いヒット数を求めるなら
+#仲間との連携が不可欠だ　ヒット数とは
+#関係ない「攻撃のひと種類」は
+#ＣＨＡＩＮとして加算される
+If you want to aim for higher hit counts,
+cooperation with your allies is essential. That's what 'hit count' means.
+It doesn't matter if it's just "one type of attack"
+it gets added as part of the CHAIN.
+-----------------------
+#ＳＰをうまい具合に使っていかないと
+#大変さ
+We need to manage our SP carefully.
+It's going to be tough.
+-----------------------
+#そうだな　低いＳＰで連続攻撃に
+#参加しても足を引っ張ってしまうのが
+#オチだな　やはりここでも術と特技の
+#バランスが重要だな
+True enough. With low SP, it's all about chaining attacks.
+The catch is that joining in will just hold everyone back.
+That's the downside. It seems balance between spells and special skills is key here too.
+Balance is crucial.
+-----------------------
+notice
+-----------------------
+#「影響エリア」について
+#話し合っているようです
+#耳を傾けますか？
+About the "Influence Area"
+It seems they're discussing it.
+Do you want to listen in?
+-----------------------
+#敵の裏側から攻撃したら有利だと思ったけど
+#なんだか疲れるさ
+I figured attacking from behind would give us an advantage.
+It's exhausting.
+-----------------------
+#うむ　スピリッツも含め、
+#仲間たちとの連携が勇気を与えているので、
+#敵により分断されていると様々な
+#回復速度が落ちてしまうようだな
+Mm. Including the spirits,
+the coordination with my comrades gives me courage.
+If we're separated from each other by the enemy,
+various recovery rates will drop.
+-----------------------
+#意に反して敵の右側に回ってしまった
+#ときは<button:00000047>＋<button:00000019>のバックステップで
+#左側に戻るといいだろう
+You ended up on the enemy's right side against your intentions.
+When that happens, perform a backstep using <button:00000047> + <button:00000019>.
+It would be best to move back to the left side.
+-----------------------
+#そりゃあ裏には回らないほうがいいさ
+You'd better not go around back there.
+-----------------------
+#基本的にはそう考えてよいな
+#しかし戦況を見極めてくると、
+#そのペナルティを補える働きが
+#出来るかもしれないな
+You can generally think of it that way.
+However, as you assess the battlefield situation,
+there may be actions
+that could compensate for that penalty.
+-----------------------
+#セオリーが全て正しいとは限らないさ
+Theory isn't always right.
+-----------------------
+#たまにはいいこと言うな
+You're actually saying something nice once in a while.
+-----------------------
+#ベテランすぎ
+You're way too experienced.
+-----------------------
+#息子
+son
+-----------------------
+notice
+-----------------------
+#「ステータス変化」について
+#話し合っているようです
+#耳を傾けますか？
+"Status Changes"
+It seems they're discussing it.
+Shall I listen in?
+-----------------------
+#戦闘でステータス異常になってしもうた
+#パナシーアボトルもないのじゃ
+#もうダメかのう････
+I've got status ailments from the battle.
+And no Panacea Bottles either.
+Are we done for?
+-----------------------
+#あきらめちゃいけません父さん
+#戦闘中にステータス異常になっても
+#時間の経過で回復するようですよ
+You can't give up, Dad.
+Even if you get status abnormalities during battle,
+It seems they recover over time.
+-----------------------
+#ステータス異常はレベルがあるので
+#防止の装備をしていても軽減しきれずに
+#喰らってしまう場合があるので
+#気をつけねばいけませんね
+There's a level to status ailments,
+So even if you're wearing protective gear,
+You might still end up getting hit by them,
+So we need to be careful.
+-----------------------
+#むう････また戦いにいかねばならんのか
+#つらいのう････
+I'm groaning... Do I have to go into battle again?
+This is painful...
+-----------------------
+#やはりステータス異常を回復できる
+#料理を用意しておくのがいいですよ父さん
+#防止できる料理やアイテムもあるみたいですし
+It's best to have something that can cure status ailments.
+You should prepare some dishes, Father.
+There seem to be certain foods and items that can prevent them as well.
+-----------------------
+#後の祭りじゃあ　毒<button:00000056>に麻痺<button:0000005F>に衰弱<button:0000005A>に凍結に
+#鈍足でもうへとへとじゃあ
+After the fact? Poison <button:00000056>, paralysis <button:0000005F>, debilitation <button:0000005A>, and freezing.
+With slow movement, I'm already exhausted.
+-----------------------
+#うそはいけません父さん
+#ステータス異常は一人につき四つまでしか効果は
+#残らないのです　エンチャントで能力を
+#上げて毒が消えることもあるんです
+No lies, Dad.
+There's a limit of four status effects per person.
+Residual effects from enchantments that boost abilities
+can sometimes cure poison.
+-----------------------
+#しかも凍結と鈍足は
+#戦闘終了で回復しますよ
+Plus, freeze and slow are
+recovered once combat ends.
+-----------------------
+#そうじゃった　しかも鈍足は
+#もとからじゃったの
+So it was. And on top of that, their sluggishness...
+...was from the start.
+-----------------------
+#はっはっはっはっはっはっはっはっ
+#はっはっはっはっはっはっはっは
+Hahaha!
+Hahaha!
+-----------------------
+#（笑いすぎじゃと思うのじゃが････）
+I think I'm laughing too much...
+-----------------------
+#ベテランすぎ
+You're way too experienced.
+-----------------------
+#息子
+son
+-----------------------
+notice
+-----------------------
+#「スピリッツブラスター」
+#について話し合っているようです
+#耳を傾けますか？
+Spirits Blaster
+It seems they're discussing it.
+Do you lend an ear?
+-----------------------
+#ピンチになっても、スピリッツブラスター
+#になれば逆転のチャンスができるわい
+When you're in a pinch, Spirit Blaster
+is your chance to turn things around.
+-----------------------
+#スピリッツブラスターになりたいなら
+#攻撃を当てることと敵にガードされないこと
+#が有効ですね父さん、まあ攻撃を受けてても
+#なりますけど父さんには危険ですね
+If you want to become a Spirit Blaster,
+hitting your attacks and preventing enemies from guarding
+is effective, Father. Well, even if you take damage,
+it's possible, but it's dangerous for you, Father.
+-----------------------
+#体力が衰えたワシも、
+#スピリッツブラスターになれば
+#のけぞることなく攻撃できるしのう
+Even though my physical strength has waned,
+if I become a Spirit Blaster,
+I can attack without being knocked back.
+-----------------------
+#そうはいっても父さん、ＨＰがなくなれば
+#効果が切れてしまいますし、回復魔法などを
+#かけても効果が早く切れてしまいますよ
+Even so, Dad, once your HP runs out,
+the effects wear off, and even if you
+cast healing magic, the effects will wear off quickly.
+-----------------------
+#そんな細かいことは気にせんわい
+#ワシの最高の秘奥義はスピリッツブラスター
+#にならんと見せれんでの
+I don't sweat the small stuff.
+My ultimate Mystic Arte is the Spirits Blaster!
+You gotta show 'em what you've got to really impress 'em.
+-----------------------
+#いえ父さん　確かに秘奥義はＳＰを多く
+#消費しますが、敵を倒すことでＳＰが
+#回復することを利用すると秘奥義を
+#出せることもあるようです
+I'm afraid, Father, that while Mystic Artes consume a lot of SP,
+you can actually recover SP by defeating enemies.
+So if you time it right, there are situations where you can
+use Mystic Artes effectively.
+-----------------------
+#ただ、弓使いにはスピリッツブラスター
+#状態を利用して、追加晶術のかわりに
+#秘奥義を出せる人もいるらしいですよ
+#父さん
+Just for archers, there's Spirit Blaster.
+Taking advantage of that state, you can cast an additional Lens Arte instead.
+Some people seem to be able to use their Mystic Arts too.
+Dad.
+-----------------------
+#まあ奥義がヒットしても敵がのけぞって
+#ないと秘奥義にはいけぬから、
+#浮かす奥義だと重い敵にはうまく
+#いかんこともあるがの
+Well, even if a Mystic Arte hits and knocks them back,
+you can't follow up with a Secret Mystic Arte unless they're staggered.
+With floating Mystic Artes, it doesn't always work well against heavy enemies,
+but that's just how it is.
+-----------------------
+#そんなわけでさっそく二人で
+#秘奥義を出しにいこうではないか
+So without further ado, the two of us...
+...are off to unleash our Mystic Arte.
+-----------------------
+#いえ父さん　私は晶術使いなんで
+#秘奥義なんて使わないんですよ
+No, Father, I'm a Lens user.
+I don't use Mystic Artes.
+-----------------------
+#というか秘奥義の後はＳＰが０になるから
+#すごいジャマなんですよ父さん
+#とどめもさせないのに秘奥義
+#しないでください父さん
+It's not just that Mystic Artes drain your SP to zero afterward.
+You're really getting in my way, Dad.
+And you won't even let me land the finishing blow before using a Mystic Arte?
+Don't do it, Dad.
+-----------------------
+#ジャマなんで
+I'm in your way.
+-----------------------
+#（一回言えば分かると思うが・・・）
+(I think you'd understand if I just said it once...)
+-----------------------
+#ベテランすぎ
+You're way too veteran.
+-----------------------
+#息子
+son
+-----------------------
+notice
+-----------------------
+#「フィールドオブエフェクト」
+#について話し合っているようです
+#耳を傾けますか？
+"Field of Effect"
+seems to be discussing it.
+Are you listening?
+-----------------------
+#この間の、敵が出す
+#「フィールドオブエフェクト」には
+#ほとほと手を焼いたわい
+The enemies from the other day...
+the 'Field of Effect' was...
+I was really at my wit's end.
+-----------------------
+#略してＦＯＥ（フォエ）ですね父さん
+#あれには大きく二種類があって、
+#範囲内の敵たちに効果があるのと、
+#こちらの能力を下げるものがありますね
+So it's abbreviated as F.O.E., right, Dad?
+There are two main types:
+One affects enemies within range,
+And the other lowers our abilities.
+-----------------------
+#あれが出たらお手上げかのう
+If that shows up, we're done for.
+-----------------------
+#あきらめるのは早いです父さん
+#時間で切れるものや、ヒットを重ねることで
+#切れるものもあるんですもちろん、
+#とどめをさせば消えますしね
+It's too early to give up, Father.
+Things that break down over time,
+or those that shatter after taking enough hits--
+some can be destroyed outright.
+-----------------------
+#こちらに効果のあるものを出されたら、
+#前衛を一人だけにして術を使うのが
+#いいかのう
+If something effective is thrown our way,
+it's best to leave just one frontline fighter
+to cast spells.
+-----------------------
+#そうですね父さん　でもやはり状態変化に
+#応じて作戦を変えるのがいいようですよ
+#敵に効果がある場合は、スペクタクルズを
+#使えば内容が分かりますし
+That's true, Father, but it still comes down to status effects.
+It's best to adjust your strategy accordingly.
+If it's effective against enemies, Spectacles will
+If you use it, you'll see what's inside.
+-----------------------
+#それはそうと最近の若者は
+#なんでもかんでも略したがって困るわい
+Anyway, young people these days...
+They abbreviate everything and it's a pain.
+-----------------------
+#（言うのが遅いよ父さん････）
+I'm late to say it, Father...
+-----------------------
+notice
+-----------------------
+#「バトルグレード」について
+#話し合っているようです
+#耳を傾けますか？
+About Battle Grade
+It seems they're discussing it
+Are you listening?
+-----------------------
+#バトルグレードって結局なにさ？
+So what exactly is Battle Grade?
+-----------------------
+#戦闘中の様々な行動を集計して、
+#「戦闘のうまさ」を図るものでしたね先輩
+#ダメージの比率とか、空振りとか、
+#同じ技ばかりを使うことも審査されます
+By tallying up various actions taken during combat,
+you were able to measure 'combat proficiency,' Senpai.
+Things like damage ratios, missed attacks,
+and even overusing the same techniques are all evaluated.
+-----------------------
+#高い得点を目指したい場合、
+#やはりテクニカルスマッシュを目指しつつ、
+#エンチャントを織り交ぜながら、
+#できるだけダメージをうけずにいきましょう
+If you're aiming for a high score,
+you should focus on landing Technical Smashes,
+while weaving in Enchants,
+to deal as much damage as possible without taking hits.
+-----------------------
+#戦闘中にアイテムを使ったり、
+#回復晶術をかけたり、装備を変えたり
+#するのは、すこぶるイケてないと
+#いうウワサですよ
+Using items during battle,
+casting Lens Artes, or changing equipment
+is rumored to be terribly uncool
+and out of style.
+-----------------------
+#高いと、どんないいことがあるのさ？
+What's so great about being high up?
+-----------------------
+#それについては調査中です先輩
+#現世では役に立たないなどと
+#いう不届きな輩もいますが････
+We're currently investigating that, Senior.
+In this world, they're useless,
+but there are some ungrateful folks who say...
+-----------------------
+#まあ深く気にせずに自らの技術を
+#磨けばいいさ
+Well, just don't overthink it and focus on honing your skills.
+That's all you need to do.
+-----------------------
+#さすが先輩、勉強になります
+You really are something else, Senpai. I've learned so much.
+-----------------------
+notice
+-----------------------
+#「受身」について
+#話し合っているようです
+#耳を傾けますか？
+About 'Receiving'
+It seems they are discussing it.
+Are you listening?
+-----------------------
+#地面にたたきつけられると
+#倒れてしまうさ
+Once slammed into the ground,
+you'll go down.
+-----------------------
+#確かにつらいですね先輩
+#でも、地面に接地したまさに
+#その瞬間に<button:00000047>を押すと、
+#受身がとれますよね
+It's definitely tough, Senpai.
+But right at the moment
+when you press <button:00000047>
+you can break your fall, right?
+-----------------------
+#ももももちろん知ってたさ
+I knew that too.
+-----------------------
+#受身を取れるとダウンの時間が
+#減るし、なによりＳＰとＴＰが
+#回復するのがうれしいですよね
+If you can take hits, your downtime decreases,
+and on top of that, SP and TP
+recover, which is great.
+-----------------------
+#もももももちろん知ってたさ
+I knew that all along.
+-----------------------
+notice
+-----------------------
+#「戦闘難易度」について
+#話し合っているようです
+#耳を傾けますか？
+How about battle difficulty?
+It seems they're discussing it.
+Do you want to listen in?
+-----------------------
+#戦闘難易度を高くするのに、
+#なんの意味があるのさ？
+What's the point of
+cranking up the battle difficulty?
+-----------------------
+#まあ確かに戦闘難易度を高くしたって
+#世界は平和にならないですね
+#でも、噂によると、敵が落とす武具が
+#よいものになるそうです
+Well, it's true that even if we raise the combat difficulty,
+it won't bring peace to the world.
+But rumor has it that the equipment dropped by enemies
+is becoming better.
+-----------------------
+#それだったら上げまくるさ
+If that's the case, I'll max them out.
+-----------------------
+#でも、知っての通り戦闘難易度を上げると、
+#敵の攻撃力や知性が上がるうえ、
+#普通の難易度では使ってこない壮絶な攻撃を
+#してきたりするので悩みどころですよね
+However, as you may know, increasing the battle difficulty means that
+enemies will have higher attack power and intelligence,
+and they'll start using brutal attacks that they don't normally use on standard difficulty,
+which makes it quite the dilemma.
+-----------------------
+#そういうことなら一回世界を平和にするまで
+#ＮＯＲＭＡＬでいいさ
+If that's the case, let's make the world peaceful first.
+I'll stick with NORMAL.
+-----------------------
+#おっしゃってる意味が
+#よくわかりませんけど
+#その通りですね
+The meaning behind what you're saying
+I don't quite get it,
+but that's exactly right.
+-----------------------
+#ＳＥＣＯＮＤはほどよい難易度なので
+#ちょっと手ごたえがほしかったり
+#するならお勧めな気がします
+SECOND has a just-right difficulty level,
+I was looking for a bit more challenge,
+so I think it's worth recommending.
+-----------------------
+notice
+-----------------------
+#「通常攻撃」について
+#深く話し合っているようです
+#耳を傾けますか？
+How about 'Normal Attack'?
+It seems they're having a deep discussion.
+Do you want to listen in?
+-----------------------
+#慣れてきたから最近は通常攻撃は
+#<button:00000045>だけ叩きっぱなしさ
+I've gotten used to it, so lately I just stick to normal attacks
+<button:00000045>and hammer away with .
+-----------------------
+#まったくなっとらんな
+I'm completely lost.
+-----------------------
+#実は、二段目、三段目ではある程度
+#命中、ダメージが下がってしまうが、
+#同じ組み合わせの攻撃だと
+#より下がってしまうのだ
+In fact, at the second and third stages,
+accuracy and damage decrease somewhat.
+With attacks using the same combination,
+the drop becomes even greater.
+-----------------------
+#なにー
+#じゃあどうすればいいのさ？
+Huh?
+So what should I do then?
+-----------------------
+#うむ　「<button:00000017><button:00000045>、<button:00000045>、<button:00000016><button:00000045>」
+#と組み立てるなど、組み合わせを
+#変えるのがまず第一歩だ
+Indeed, "<button:00000017><button:00000045>, <button:00000045>, <button:00000016><button:00000045>"
+such as assembling them,
+is the first step in changing things up.
+-----------------------
+#第二歩はなにさ？
+What's the second step?
+-----------------------
+#<button:00000045>は攻撃力、命中の減少量が多い、
+#<button:00000017><button:00000045>では攻撃力が上がり命中が下がる、
+#<button:00000019><button:00000045>では攻撃力が下がり命中が上がる、
+#<button:00000016><button:00000045>は攻撃力、命中の減少量が少ない、
+<button:00000045>suffers a significant decrease in both Attack and Accuracy.
+<button:00000017><button:00000045>In , Attack increases but Accuracy drops.
+<button:00000019><button:00000045>In , Attack decreases while Accuracy rises.
+<button:00000016><button:00000045>has a minimal reduction in both Attack and Accuracy.
+-----------------------
+#以上を覚えておけ！
+#<button:00000045>による攻撃は効果範囲が広く、
+#当たりやすいことが多いが、その反面、
+#連続攻撃時にはあまり有効ではない
+Remember all that!
+<button:00000045>The attacks from  have a wide effective range,
+making them easy to land, but on the flip side,
+they aren't very effective during combos.
+-----------------------
+#これは次の攻撃にも影響を与えるから、
+#「<button:00000017><button:00000045>、<button:00000017><button:00000045>、<button:00000045>」と
+#「<button:00000019><button:00000045>、<button:00000019><button:00000045>、<button:00000045>」では、
+#三段目の攻撃の数値が変わるぞ
+This will also affect your next attack,
+"<button:00000017><button:00000045>, <button:00000017><button:00000045>, <button:00000045>"
+"<button:00000019><button:00000045>, <button:00000019><button:00000045>, <button:00000045>"
+the damage for the third strike changes.
+-----------------------
+#じゃあ回避が高い敵には
+#<button:00000019><button:00000045>から組み立てることにするさ
+#逆に回避が低い敵には
+#<button:00000017><button:00000045>から始めるさ
+For enemies with high evasion,
+<button:00000019><button:00000045>We'll start building from  to .
+And for enemies with low evasion,
+<button:00000017><button:00000045>We'll begin with  and .
+-----------------------
+#例としてはそんな感じだ
+#まあ、変化量は微々たるものだから、
+#他のルールで手一杯だというなら
+#無理して覚えなくてもいいぞ
+That's about what I mean.
+Well, the change is negligible,
+if you're already overwhelmed by other rules,
+you don't have to force yourself to memorize it.
+-----------------------
+notice
+-----------------------
+#「長い話」について
+#話し合っているようです
+#耳を傾けますか？
+A long story
+It seems they are discussing it
+Do you wish to listen?
+-----------------------
+#ためになる話も十年くらい聞いてると
+#さすがにつかれるさ
+I've been listening to these useful stories for about ten years now,
+You'd get tired of them eventually.
+-----------------------
+#そういえば教えてなかったな
+#<button:0000002F>と<button:0000002E>を押しっぱなしにすると
+#メッセージを早送りできる
+#同じ会話を読み飛ばすとき便利だ
+I forgot to mention this earlier.
+<button:0000002F>Holding down  and <button:0000002E>
+will skip through messages quickly.
+It's handy for skipping over repeated dialogue.
+-----------------------
+#なにー
+#どうして十年もそれを教えて
+#くれなかったのさ
+What?
+Why did you keep that to yourself for ten years?
+And not tell me?
+-----------------------
+#バカモン！　ひよっこのお前が
+#私の話を読み飛ばすなどとは
+#十年早いわ
+Fool! You, a mere chick
+To skip over my words
+You're ten years too early
+-----------------------
+#と思ってたので今教えることに
+#したわけだ
+I thought I'd tell you now.
+That's why.
+-----------------------
+#納得さ
+I understand.
+-----------------------
+notice
+-----------------------
+#「アイテム拾得」について
+#話し合っているようです
+#耳を傾けますか？
+Regarding Item Acquisition
+It seems they're discussing it
+Do you want to listen in?
+-----------------------
+#冒険者として生きるからには
+#敵からアイテムを拾いまくりたいさ
+As an adventurer,
+I want to pick up as many items from enemies as possible.
+-----------------------
+#うむ　確かにそうだな
+#しかし冒険者の間で、まことしやかな
+#噂が流れているぞ
+Hmph. You're right.
+But there's a rumor going around among adventurers,
+that's quite convincing.
+-----------------------
+#噂ってなにさ？
+What's the rumor about?
+-----------------------
+#「どうやら同じ種類のアイテムを多く持って
+#　いるほど敵がアイテムを落とす確率が
+#　減ってしまうようだ」というのだ
+"It seems that the more items of the same type you carry,
+the lower the probability of enemies dropping items.
+That's what they say."
+-----------------------
+#そりゃ困るさ　全部売るさ
+Well, that's a problem. I'll sell them all.
+-----------------------
+#それはどうかと思うが、いらない装備品
+#などはできるだけ売ったほうがいいのは
+#整理面でもおすすめだな
+I'm not sure about that, but unnecessary equipment
+should be sold off as much as possible,
+which is also recommended for inventory management.
+-----------------------
+#もちろん
+#リファインをして量を減らして質を
+#上げるのが冒険者の知恵ともいえるがな
+Of course.
+We refine them to reduce quantity while improving quality,
+which is often said to be an adventurer's wisdom.
+-----------------------
+#他にも消費アイテムを使いながら進みたい
+#場合は、聞いた話では少な目の数をキープ
+#したほうがいいということだな
+I also want to keep moving forward while using consumable items.
+In that case, based on what I've heard, it's better to keep a smaller number in stock.
+That means we should do just that.
+-----------------------
+#消費アイテムの場合、全体の総数ではなく
+#それぞれの所持数が関係するというのが
+#冒険者筋での通説らしいぞ
+In the case of consumable items, it's not based on the total count across all items,
+It's related to how many of each you have.
+It seems to be common knowledge among adventurers.
+-----------------------
+#でも少ないと、つえー敵で困りがちさ
+But if there aren't enough, it gets pretty tough dealing with those super-strong enemies.
+-----------------------
+#それもある　それぞれの冒険スタイルに
+#あった冒険をするのが重要ということだな
+That's also true. It depends on each person's style of adventure.
+It means it's important to pursue adventures that suit you.
+-----------------------
+select
+-----------------------
+#<03:00000000>　はい　
+#　いいえ　
+<03:00000000> Yes 
+ No 
+-----------------------
+<Kyle>
+-----------------------
+#オレはオレの道を極めるぜ!!
+I'm gonna master my own path!!
+-----------------------

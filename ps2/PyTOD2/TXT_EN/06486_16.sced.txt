@@ -1,0 +1,137 @@
+#ヒートリバー
+Heat River
+-----------------------
+#ヒートリバー
+Heat River
+-----------------------
+<Reala>
+-----------------------
+#増水してる････
+#橋が水に飲まれてしまっているわ
+The water level is rising...
+The bridge has been swallowed by the floodwaters.
+-----------------------
+<Kyle>
+-----------------------
+#なんとか渡れないかな････
+I wonder if I can make it across somehow...
+-----------------------
+<Kyle>
+-----------------------
+#アチィィィィ！
+#ダ、ダメだ！
+#歩いて渡るなんて、ムリムリ！
+Ouch!
+N-no good!
+Walking across? Impossible!
+-----------------------
+<Kyle>
+-----------------------
+#ねぇ、<Nanaly>
+#カルバレイスじゃ、これが普通なの？
+Hey, .<Nanaly>
+Is this normal in Calvarys?
+-----------------------
+<Nanaly>
+-----------------------
+#いや、これはちょっとおかしいね
+#この川は、普段は
+#ほとんど水が流れてないんだ
+No, this is a bit strange.
+This river usually...
+has very little water flowing through it.
+-----------------------
+<Nanaly>
+-----------------------
+#それにこの温度････
+#これじゃ、まるで熱湯じゃないか
+And besides, this temperature...
+This is practically boiling water.
+-----------------------
+<Nanaly>
+-----------------------
+#ともかく、原因を調べないと
+#渡れそうもないね
+#川の上流へ、行ってみようか
+Anyway, I need to figure out what's causing this.
+It doesn't look like we can cross.
+Let's head upstream.
+-----------------------
+<Kyle>
+-----------------------
+#遠回りになるけど
+#しかたないか････
+It'll take a detour, but...
+I guess there's no other way...
+-----------------------
+<Kyle>
+-----------------------
+#<Reala>、大丈夫？
+<Reala>, are you okay?
+-----------------------
+<Reala>
+-----------------------
+#え、えぇ
+#なんとか････ね
+Huh?
+I-I guess so...
+-----------------------
+#いってらっしゃいませ
+Have a good day.
+-----------------------
+#<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
+#お泊まりになりますか？
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+Would you like to stay?
+-----------------------
+#お泊まりになりますか？
+Would you like to stay?
+-----------------------
+select
+-----------------------
+#<03:00000000>　はい　
+#　いいえ　
+<03:00000000> Yes 
+ No 
+-----------------------
+#ごゆっくりお休みください
+Have a good night.
+-----------------------
+#おはようございます
+Good morning.
+-----------------------
+#お金が足りません
+Not enough money.
+-----------------------
+#またのおこしをお待ちしております
+See you again soon.
+-----------------------
+set_parameter( myself, C_PARTY, 0 );
+-----------------------
+wait_map_scroll();
+-----------------------
+exit-party_togather( short spd )
+-----------------------
+notice
+-----------------------
+#{16}{25}{D6}{C0}を手に入れました
+{16}{25}{D6}{C0}You obtained .
+-----------------------
+notice
+-----------------------
+#<item:FFFFFFFF>を手に入れました
+Acquired <item:FFFFFFFF>.
+-----------------------
+notice
+-----------------------
+#{16}{25}{DE}{C0}がありましたが
+#いっぱいで持てませんでした
+{16}{25}{DE}{C0}There was , but
+I couldn't hold it because it was full.
+-----------------------
+notice
+-----------------------
+#何もありません
+There's nothing here.
+-----------------------
+

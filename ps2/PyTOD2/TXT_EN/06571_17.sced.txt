@@ -1,0 +1,114 @@
+#地上軍拠点・武器屋＆防具屋
+Ground Forces Base - Weapon & Armor Shop
+-----------------------
+#地上軍拠点
+Ground Forces Base
+-----------------------
+#武器屋＆防具屋
+Weapon & Armor Shop
+-----------------------
+#武器屋
+Weapon Shop
+-----------------------
+#在庫が残り少ないんでね
+#たとえ軍の関係者と言えども、無償で
+#渡す事は出来ないからな
+We're running low on stock.
+Even if they are military personnel,
+we can't just give it away for free.
+-----------------------
+#まさか剣なんかを作る事になるとは
+#思わなかったぜ････
+I never would have guessed I'd end up making swords.
+Not that I expected it either...
+-----------------------
+#じゃあ、またな
+Well then, see you later.
+-----------------------
+#武器屋
+Weapon Shop
+-----------------------
+#防具屋
+Armor Shop
+-----------------------
+#良い品はほとんどさばいちまったよ
+#残り物だが何か持っていくか？
+Most of the good stuff has already been sold off.
+It's leftovers, but should I take some?
+-----------------------
+#まさか鎧なんか着て戦う事になるとはね････
+I never thought I'd actually have to fight in armor...
+-----------------------
+#また来いよ
+Come back anytime.
+-----------------------
+#防具屋
+Armor Shop
+-----------------------
+#科学者
+Scientist
+-----------------------
+#ロケット打ち上げの後始末をしています
+#立ち入りは御遠慮下さい
+I'm handling the cleanup after the rocket launch.
+Please refrain from entering.
+-----------------------
+#いってらっしゃいませ
+Have a good day.
+-----------------------
+#<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
+#お泊まりになりますか？
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+Would you like to stay?
+-----------------------
+#お泊まりになりますか？
+Would you like to stay?
+-----------------------
+select
+-----------------------
+#<03:00000000>　はい　
+#　いいえ　
+<03:00000000> Yes 
+ No 
+-----------------------
+#ごゆっくりお休みください
+Have a good night.
+-----------------------
+#おはようございます
+Good morning.
+-----------------------
+#お金が足りません
+Not enough money.
+-----------------------
+#またのおこしをお待ちしております
+See you again soon.
+-----------------------
+set_parameter( myself, C_PARTY, 0 );
+-----------------------
+wait_map_scroll();
+-----------------------
+exit-party_togather( short spd )
+-----------------------
+notice
+-----------------------
+#{16}{25}{BA}{C0}を手に入れました
+Acquired {16}{25}{BA}{C0}.
+-----------------------
+notice
+-----------------------
+#<item:FFFFFFFF>を手に入れました
+Acquired <item:FFFFFFFF>.
+-----------------------
+notice
+-----------------------
+#{16}{25}{C2}{C0}がありましたが
+#いっぱいで持てませんでした
+Acquired {16}{25}{C2}{C0} but
+inventory is full already.
+-----------------------
+notice
+-----------------------
+#何もありません
+There's nothing here.
+-----------------------
+

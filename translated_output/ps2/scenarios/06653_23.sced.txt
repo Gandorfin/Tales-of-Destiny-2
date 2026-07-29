@@ -1,0 +1,140 @@
+#神のたまご・上層部
+Egg of God - Upper Layer
+-----------------------
+#神のたまご・上層部
+Egg of God - Upper Layer
+-----------------------
+#神のたまご・上層部
+God's Egg - Upper Level
+-----------------------
+#神のたまご
+The Egg of God
+-----------------------
+notice
+-----------------------
+#「神のたまご」下層部まで
+#ワープしますか？
+The lower levels of the "Egg of God"
+Warp?
+-----------------------
+select
+-----------------------
+#<03:00000000>　はい　
+#　いいえ　
+<03:00000000> Yes 
+ No 
+-----------------------
+<Loni>
+-----------------------
+#ここが「神のたまご」か････
+#････薄気味悪い所だぜ
+This is the 'God's Egg', huh...
+...This place gives me the creeps.
+-----------------------
+<Judas>
+-----------------------
+#彗星というカラの中で
+#神をふ化させるか････なるほど
+#････まさしく「神のたまご」だな
+In the shell of a comet...
+So you're saying it hatches a god... I see.
+...Truly an 'egg of God'.
+-----------------------
+<Harold>
+-----------------------
+#おまけに、そのカラ自体も
+#レンズで作られてるってワケか
+#はてさて、なにが起きることやら
+To top it off, that Kara itself...
+So it's made of lenses?
+Well then, who knows what'll happen next?
+-----------------------
+<Nanaly>
+-----------------------
+#なにが起きたって、関係ない
+#力ずくで進むだけさ！
+#今までだって、そうしてきたんだしね
+What happened doesn't matter.
+We'll just push forward with brute force!
+That's how we've always done it.
+-----------------------
+<Kyle>
+-----------------------
+#････みんな、泣いても笑っても
+#これが最後の戦いになる
+...Whether we cry or laugh,
+this will be our final battle.
+-----------------------
+<Kyle>
+-----------------------
+#オレたちのすべてをぶつけて
+#神を倒すんだ！
+We'll throw everything we have at them!
+And bring down God!
+-----------------------
+<Reala>
+-----------------------
+#････ええ！
+#行きましょう、<Kyle>！
+...Yes!
+Let's go, <Kyle>!
+-----------------------
+#いってらっしゃいませ
+Have a good day.
+-----------------------
+#<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
+#お泊まりになりますか？
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+Would you like to stay?
+-----------------------
+#お泊まりになりますか？
+Would you like to stay?
+-----------------------
+select
+-----------------------
+#<03:00000000>　はい　
+#　いいえ　
+<03:00000000> Yes 
+ No 
+-----------------------
+#ごゆっくりお休みください
+Have a good night.
+-----------------------
+#おはようございます
+Good morning.
+-----------------------
+#お金が足りません
+Not enough money.
+-----------------------
+#またのおこしをお待ちしております
+See you again soon.
+-----------------------
+set_parameter( myself, C_PARTY, 0 );
+-----------------------
+wait_map_scroll();
+-----------------------
+exit-party_togather( short spd )
+-----------------------
+notice
+-----------------------
+#{16}{27}{0A}{C0}を手に入れました
+{16}{27}{0A}{C0}You obtained .
+-----------------------
+notice
+-----------------------
+#<item:FFFFFFFF>を手に入れました
+Acquired <item:FFFFFFFF>.
+-----------------------
+notice
+-----------------------
+#{16}{27}{12}{C0}がありましたが
+#いっぱいで持てませんでした
+{16}{27}{12}{C0}There was , but
+I couldn't hold it because it was full.
+-----------------------
+notice
+-----------------------
+#何もありません
+There's nothing here.
+-----------------------
+

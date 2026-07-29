@@ -1,0 +1,207 @@
+#古都ダリルシェイド
+Darilsheid Prison
+-----------------------
+#古都ダリルシェイド
+Darilsheid Prison
+-----------------------
+<Kyle>
+-----------------------
+#ダメだ、見張りがいる
+#これ以上は進めないよ
+It's no use, there're guards.
+We can't go any farther.
+-----------------------
+<Kyle>
+-----------------------
+#ダメだ、見張りがいる
+#これ以上は進めないよ
+It's no use, there're guards.
+We can't go any farther.
+-----------------------
+<Loni>
+-----------------------
+#しかし他に出口は無いぞ
+#どうする？　強行突破するか？
+There's no other way out.
+What should we do? Force our way through?
+-----------------------
+<Judas>
+-----------------------
+#待て
+#････こっちだ、ついて来い
+Hold on.
+...This way. Follow me.
+-----------------------
+<Judas>
+-----------------------
+#ここはオベロン社総帥だった
+#『ヒューゴ』の屋敷だ
+This was the headquarters of Oberon Corporation.
+The mansion of 'Hugo'.
+-----------------------
+<Judas>
+-----------------------
+#オベロン社解体と同時に屋敷は接収され、
+#神殿に改修されたが、
+#隠し通路はまだ残っているはずだ
+When the Oberon Corp. was dissolved, this
+mansion was confiscated and converted into a temple, but
+the hidden passageway should still be here.
+-----------------------
+<Judas>
+-----------------------
+#････ここだ
+#おい、これを使って
+#そこのマークを撃ってみろ
+...This is it.
+Hey, use this.
+Try shooting that mark over there.
+-----------------------
+notice
+-----------------------
+#<item:0000002B>をもらいました
+Acquired <item:0000002B>.
+-----------------------
+<Kyle>
+-----------------------
+#これは？
+What's this?
+-----------------------
+<Judas>
+-----------------------
+#レンズからエネルギーを引き出し、
+#熱線と衝撃を撃ち出す道具だ
+It draws energy from the lens,
+and it's a device that fires heat rays and shockwaves.
+-----------------------
+<Judas>
+-----------------------
+#<button:0000003C>ボタンで熱線を発射できるが、
+#一発毎にレンズを一枚消費する
+#ムダ撃ちはするなよ
+You can fire a heat ray by using the <button:0000003C> button,
+but each shot consumes one Lens.
+Don't go around shooting everything in sight.
+-----------------------
+<Judas>
+-----------------------
+#<item:0000002B>を使えば
+#手の届かない場所にあるスイッチを押せる
+If you use the <item:0000002B>, you can activate
+switches in places that you cannot normally reach.
+-----------------------
+<Judas>
+-----------------------
+#むろん、熱を利用して
+#火をともすことも可能だ
+#上手く使え
+Needless to say, the heat which is generated
+can also be used to light a fire.
+Utilize it well.
+-----------------------
+<Kyle>
+-----------------------
+#わかった
+#････ところで<Judas>
+#なんでこんな通路の事を知ってるの？
+I see.
+...By the way, .<Judas>
+How do you know about this corridor?
+-----------------------
+<Judas>
+-----------------------
+#････それを聞いてどうする？
+What's the point of asking me that?
+-----------------------
+<Kyle>
+-----------------------
+#いや、別にどうもしないけど････
+Well, there's not really a point persay, but...
+-----------------------
+<Judas>
+-----------------------
+#なら、行くぞ
+Then let's go.
+-----------------------
+notice
+-----------------------
+#<Judas>は
+#称号「<item:00000826>」を得ました
+<Judas> is
+Gained the title '<item:00000826>.'
+-----------------------
+#オベロン社の物らしき書類が保管されている
+#どうやら、神の眼の騒乱に関係した物のようだ
+It appears to be documents belonging to Oberon Company.
+It seems related to the disturbances surrounding the Eye of God.
+-----------------------
+#書類にサインがされている
+#『ヒューゴ』『イレーヌ』『レンブラント』
+#という名前が読み取れた
+The documents are signed.
+Hugo, Irene, Rembrandt
+I could make out those names.
+-----------------------
+#『ダリルシェイド復興を祈願して
+#　ストレイライズ神殿フィリア＝フィリスより』
+The papers are signed:
+"Hugo," "Irene," and "Rembrandt".
+-----------------------
+#いってらっしゃいませ
+Have a good day.
+-----------------------
+#<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
+#お泊まりになりますか？
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+Would you like to stay?
+-----------------------
+#お泊まりになりますか？
+Would you like to stay?
+-----------------------
+select
+-----------------------
+#<03:00000000>　はい　
+#　いいえ　
+<03:00000000> Yes 
+ No 
+-----------------------
+#ごゆっくりお休みください
+Have a good night.
+-----------------------
+#おはようございます
+Good morning.
+-----------------------
+#お金が足りません
+Not enough money.
+-----------------------
+#またのおこしをお待ちしております
+See you again soon.
+-----------------------
+set_parameter( myself, C_PARTY, 0 );
+-----------------------
+wait_map_scroll();
+-----------------------
+exit-party_togather( short spd )
+-----------------------
+notice
+-----------------------
+#{16}{25}{BE}{C0}を手に入れました
+Acquired {16}{25}{BE}{C0}
+-----------------------
+notice
+-----------------------
+#<item:FFFFFFFF>を手に入れました
+Acquired <item:FFFFFFFF>.
+-----------------------
+notice
+-----------------------
+#{16}{25}{C6}{C0}がありましたが
+#いっぱいで持てませんでした
+Found {16}{25}{C6}{C0}, but
+inventory full already.
+-----------------------
+notice
+-----------------------
+#何もありません
+There's nothing here.
+-----------------------

@@ -1,0 +1,168 @@
+#ハイデルベルグ・博物館『天地戦争の記憶』
+Heidelberg Museum 'Memories of the War of Heaven and Earth'
+-----------------------
+#ハイデルベルグ
+Heidelburg
+-----------------------
+#博物館『天地戦争の記憶』
+Museum 'Memory of the Tenchi War'
+-----------------------
+NOTICE
+-----------------------
+#『空中都市』
+Air Continent
+-----------------------
+NOTICE
+-----------------------
+#巨大彗星の衝突で巻き上がった
+#粉塵から逃れるため
+#人々は空中に都市を建造した
+The dust stirred up by the impact of the giant comet
+To escape the dust
+People built cities in the sky
+-----------------------
+NOTICE
+-----------------------
+#それら空中都市群は
+#天地戦争終結後に
+#地上軍の手によって
+#海底に沈められたという
+Those floating cities,
+after the end of the War of Heaven and Earth,
+by the forces of the ground army,
+are said to have been sunk into the ocean floor.
+-----------------------
+NOTICE
+-----------------------
+#『地上軍兵士』
+'Ground Army Soldier'
+-----------------------
+NOTICE
+-----------------------
+#天上側の武力支配に耐えかねた
+#地上の人々が立ち上がって結成された
+The people on Earth couldn't bear the military dominance from above.
+They rose up to form their own alliance.
+-----------------------
+NOTICE
+-----------------------
+#敗北寸前まで追いつめられた
+#地上軍であったが
+#ソーディアンの力によって
+#勝利をおさめた
+Driven to the brink of defeat
+the ground forces
+by the power of the Sodian
+secured victory
+-----------------------
+NOTICE
+-----------------------
+#『対空三脚架付機関銃』
+'Anti-Aircraft Tripod-Mounted Machine Gun'
+-----------------------
+NOTICE
+-----------------------
+#廃材を利用して作られた
+#固定式の擬似機関銃
+Crafted from scrap materials
+Fixed-type pseudo-machine gun
+-----------------------
+NOTICE
+-----------------------
+#戦争末期には弾薬が尽きていたため
+#金属製のボルトを弾薬代わりとし
+#炸薬で撃ち出していた
+Near the end of the war, ammunition had run out,
+so they used metal bolts as projectiles
+and fired them using gunpowder.
+-----------------------
+NOTICE
+-----------------------
+#『雪上船』
+Snow Ship
+-----------------------
+NOTICE
+-----------------------
+#地上軍の輸送艇とされているが
+#不明な点が多い
+It's designated as an aerial transport vessel for ground forces,
+but there are many unknowns.
+-----------------------
+NOTICE
+-----------------------
+#地上軍の兵士たちは
+#この輸送艇を
+#『シューズ』の愛称で呼んでいたらしい
+The ground forces' soldiers were
+this transport ship
+apparently called 'Shoes'
+-----------------------
+#天地戦争をモチーフにした
+#版画だ････
+Based on the War of the Heavens and Earth
+...is an engraving.
+-----------------------
+#絵が飾られている
+#『彗星衝突の悪夢』
+Paintings are displayed here.
+"The Nightmare of Comet Impact"
+-----------------------
+#いってらっしゃいませ
+Have a good day.
+-----------------------
+#<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
+#お泊まりになりますか？
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+Would you like to stay?
+-----------------------
+#お泊まりになりますか？
+Would you like to stay?
+-----------------------
+select
+-----------------------
+#<03:00000000>　はい　
+#　いいえ　
+<03:00000000> Yes 
+ No 
+-----------------------
+#ごゆっくりお休みください
+Have a good night.
+-----------------------
+#おはようございます
+Good morning.
+-----------------------
+#お金が足りません
+Not enough money.
+-----------------------
+#またのおこしをお待ちしております
+See you again soon.
+-----------------------
+set_parameter( myself, C_PARTY, 0 );
+-----------------------
+wait_map_scroll();
+-----------------------
+exit-party_togather( short spd )
+-----------------------
+notice
+-----------------------
+#{16}{25}{BA}{C0}を手に入れました
+Acquired {16}{25}{BA}{C0}.
+-----------------------
+notice
+-----------------------
+#<item:FFFFFFFF>を手に入れました
+Acquired <item:FFFFFFFF>.
+-----------------------
+notice
+-----------------------
+#{16}{25}{C2}{C0}がありましたが
+#いっぱいで持てませんでした
+Acquired {16}{25}{C2}{C0} but
+inventory is full already.
+-----------------------
+notice
+-----------------------
+#何もありません
+There's nothing here.
+-----------------------
+

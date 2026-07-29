@@ -1,0 +1,720 @@
+#地上軍拠点
+Ground Forces Base
+-----------------------
+#地上軍拠点
+Ground Forces Base
+-----------------------
+#地上軍拠点
+Ground Forces Base
+-----------------------
+#門衛
+Gatekeeper
+-----------------------
+#外へ出るのか？
+You're going outside?
+-----------------------
+#はい
+#いいえ
+Yes
+No
+-----------------------
+#門衛
+Gate Guard
+-----------------------
+#通ってよし
+It's great to visit.
+-----------------------
+#特技下士官
+Sergeant Special Technique
+-----------------------
+#廃材を利用した砲でも
+#あるだけマシというものです
+Even a cannon made from scrap materials
+is better than having nothing at all.
+-----------------------
+#特技下士官
+Sergeant Special Skill
+-----------------------
+#とはいえ、こんな装備で
+#いつまで戦えることやら････
+That said, with gear like this,
+I wonder how much longer I can keep fighting...
+-----------------------
+#特技下士官
+Sergeant Special Ability
+-----------------------
+#この吹雪の中
+#整備をするのは大変ですよ
+In the midst of this blizzard
+It's quite a hassle to perform maintenance.
+-----------------------
+#特技下士官
+Sergeant Special Skill
+-----------------------
+#でも、それが仕事ですからね
+#グチってもいられませんよ
+But that's what I'm paid to do.
+I don't have time to complain.
+-----------------------
+#特技下士官
+Sergeant Special Technique
+-----------------------
+#イクティノス少将は私の上官なんです
+#無口で冷たい印象を受けますが
+#根は良い人ですよ
+Iktnos is my superior officer.
+He may come across as quiet and cold,
+But he's a good person at heart.
+-----------------------
+<Judas>
+-----------------------
+#実力の程はどうなんだ？
+How strong are you really?
+-----------------------
+#特技下士官
+Sergeant Special Ability
+-----------------------
+#ハハ、彼は３０代で
+#将官に任命されたんですよ？
+#推して知るべし、ってところですね
+Haha, he was in his thirties,
+when he was appointed as a general officer?
+It goes without saying.
+-----------------------
+#特技下士官
+Sergeant Special Skill
+-----------------------
+#地上軍も天上軍も深刻な人不足なんです
+#十年以上、軍属を続けている人って
+#ほとんど居ないんじゃないですかね？
+Both the ground forces and the sky forces are suffering from a severe manpower shortage.
+People who have been serving in the military for over ten years...
+...are probably few and far between, aren't they?
+-----------------------
+<Kyle>
+-----------------------
+#クレメンテさんは？
+What about Clemente?
+-----------------------
+#特技下士官
+Sergeant Special Technique
+-----------------------
+#ハハ、あの人は文句無く最年長ですね
+#いったい何年、軍人をやってるんでしょうね
+Haha, she's definitely the oldest among us.
+I wonder how many years they've been in the military.
+-----------------------
+#特技下士官
+Sergeant Special Skill
+-----------------------
+#コイツを見てくれ！
+#７．９２ｍｍ×５７型ボルトを
+#炸薬で打ち出す、新型のランチャーさ
+Check this out!
+It fires 7.92x57mm bolts
+using propellant in this new launcher.
+-----------------------
+#特技下士官
+Sergeant Special Ability
+-----------------------
+#そこらの廃材を組み合わせて
+#作った武器とは、とても
+#思えないだろ!?
+Putting together scrap from around here...
+...to make weapons?
+You don't really believe that, do you!?
+-----------------------
+#特技下士官
+Sergeant Special Skill
+-----------------------
+#この美しさ！この力強さ！
+#ああ、スバラシー！
+This beauty! This power!
+Ah, magnificent!
+-----------------------
+<Loni>
+-----------------------
+#どの時代にも、ミリタリーマニアって
+#いるんだな････
+There are military enthusiasts in every era,
+I suppose.
+-----------------------
+#特技下士官
+Specialist Skill
+-----------------------
+#ハア････早くコイツを
+#ぶっぱなしてみたいよ
+Haa... I want to get rid of this guy ASAP.
+I just wanna blast him away.
+-----------------------
+#特技下士官
+Sergeant Special Technique
+-----------------------
+#でも俺、実際に人を撃ったことは
+#ないんだよね
+But I've never actually shot anyone,
+you know?
+-----------------------
+#特技下士官
+Sergeant Special Technique
+-----------------------
+#これは７．９２ｍｍ×５７型ボルトを
+#炸薬で打ち出す、新型のランチャーさ
+This is a 7.92mm x 57mm bolt.
+It's a new launcher that fires explosives.
+-----------------------
+#特技下士官
+Sergeant Special Skill
+-----------------------
+#ベルクラント突入作戦で使って
+#もらえないかと申請したんだけど
+#残念ながら却下されてしまったよ
+I submitted an application to use it during the Belkranth infiltration operation,
+but unfortunately, it was rejected.
+That's right.
+-----------------------
+#特技下士官
+Sergeant Special Technique
+-----------------------
+#なんでも、晶術とかっていう
+#スゴい攻撃方法が編み出されたから
+#火器は必要無いんだってさ
+They say that Lens Artes and such have been developed,
+a way to unleash incredible attacks.
+So they claim firearms are no longer necessary.
+-----------------------
+#特技下士官
+Sergeant Special Technique
+-----------------------
+#昔はもっとスゴい兵器が山ほどあったんだよ
+#砲弾一発で街の一区画を壊滅させることも
+#できたんだ
+Back in the day, there were tons of incredible weapons.
+A single shell could wipe out an entire district of a city,
+and they did.
+-----------------------
+#特技下士官
+Sergeant Special Technique
+-----------------------
+#でも、弾はぜんぶ撃ち尽くしちゃったし
+#壊れても修理する部品が無いっていうんで
+#大部分が廃棄処分にされたんだよね
+But we've fired off all our ammo.
+They said there were no spare parts to fix them even if they broke down.
+So most of them got scrapped.
+-----------------------
+#特技下士官
+Sergeant Special Technique
+-----------------------
+#このまま、軍事技術は廃れて
+#いくのかなあ？
+Will military technology fade away like this?
+I wonder?
+-----------------------
+#上級士官
+Senior Officer
+-----------------------
+#最近、我が軍に対する批判を
+#公然と口にする輩が増えている
+Lately,
+there have been more people openly criticizing our army.
+-----------------------
+#上級士官
+Senior Officer
+-----------------------
+#民間人も軍人も
+#黙って命令に従っていればいいのだ！
+Civilians and soldiers alike
+Just follow orders without a word!
+-----------------------
+#上級士官
+Senior Officer
+-----------------------
+#身命を地上軍に捧げるのだ！
+#さすれば勝利を得られよう！
+We shall dedicate our lives to the Earth Army!
+And thus, we shall achieve victory!
+-----------------------
+#上級士官
+Senior Officer
+-----------------------
+#これまでの戦いで
+#１００人以上の部下を失った
+In the battles up to now,
+we've lost over a hundred subordinates.
+-----------------------
+#上級士官
+Senior Officer
+-----------------------
+#だが、それが何だというのだ
+#戦争に犠牲はつきものではないか
+#勝利のためには仕方ないだろう
+What does that matter?
+Aren't casualties inevitable in war?
+It can't be helped for the sake of victory.
+-----------------------
+#上級士官
+Senior Officer
+-----------------------
+#私の息子は地上軍のために
+#命を捧げ、死んだのだ
+My son gave his life to the Ground Forces,
+and died.
+-----------------------
+#上級士官
+Senior Officer
+-----------------------
+#父親として、軍人として
+#これほど誇らしいことはない
+As a father, as a soldier
+I couldn't feel prouder
+-----------------------
+#士官
+officer
+-----------------------
+#先日の戦いで、私の隊から
+#多くの死傷者が出た
+#私の誤った指揮が招いた結果だ
+In the battle the other day,
+many of my soldiers were killed or wounded.
+It was the result of my poor command.
+-----------------------
+#士官
+officer
+-----------------------
+#全て私の責任だ
+#おとなしく軍法会議の場で
+#裁きを受けようと思う
+It's all my fault.
+Quietly at the court-martial,
+I intend to face judgment.
+-----------------------
+#士官
+officer
+-----------------------
+#人の命を預かるということが
+#どれだけ辛いかよく分かった
+What it means to have someone's life in your hands
+I understand just how painful that can be
+-----------------------
+#士官
+officer
+-----------------------
+#リトラー司令やディムロス中将は
+#その辛さに耐えている
+#あの人たちは本当に凄いよ････
+Commander Littra and Vice Admiral Dimros
+are enduring that hardship
+Those people are truly amazing...
+-----------------------
+#士官
+officer
+-----------------------
+#以前、私の判断ミスで部下を多く失った
+#軍法会議の場で裁きを受けたのだが････
+I once lost many subordinates due to my own poor judgment.
+I was brought before a court-martial to face judgment...
+-----------------------
+#士官
+officer
+-----------------------
+#不問に伏され、代わりに
+#ダイクロフト突入作戦の
+#分隊指揮官に任命された････
+Overlooked in favor of
+the operation to infiltrate the Dycroft
+was appointed squad commander...
+-----------------------
+#士官
+officer
+-----------------------
+#やり直すチャンスを与えられたのか
+#死んでこいと言われたのか････
+#････私は前者だと思う
+I've been given another chance to start over?
+Or was I told to go die...?
+...I think it's the former.
+-----------------------
+#士官
+officer
+-----------------------
+#もう二度と失敗はせん
+#部下の命は私が守ってみせる
+I won't fail again.
+I'll protect my subordinates' lives.
+-----------------------
+#ワン
+One
+-----------------------
+#兵卒Ａ
+Soldier A
+-----------------------
+#ヘイ、ブラザー！
+#『漆黒の翼』ってやつらの話を
+#知ってるかい？
+Hei, brother!
+I'm talking about those guys from 'The Pitch Black Wings'
+Do you know them?
+-----------------------
+#兵卒Ｂ
+Soldier B
+-----------------------
+#ああ！　もちろんだ
+#独自権限で動く
+#特殊部隊だろ!?
+Yes! Of course.
+Operating under exclusive authority.
+It's a special forces unit, right!?
+-----------------------
+#兵卒Ａ
+Soldier A
+-----------------------
+#きっと、隊員は軍のエリートたちだぜ！
+#ぜひ、お近づきになりたいね！
+Those squad members are definitely the military's elite!
+I'd love to get to know them better!
+-----------------------
+#兵卒Ｂ
+Soldier B
+-----------------------
+#『漆黒の翼』か！
+#戦場で会いたいもんだね！
+So, 'The Black Wings'!
+I'd love to meet you on the battlefield!
+-----------------------
+#兵卒Ａ
+Soldier A
+-----------------------
+#まったくだ！
+#ヤツラに背中を守ってもらえたら
+#心強いしな！
+Exactly!
+If they cover our backs,
+it's really reassuring!
+-----------------------
+#兵卒Ｂ
+Soldier B
+-----------------------
+#聞いたかよ！
+#『漆黒の翼』の連中
+#天上軍の将官を捕縛したらしいぜ
+You heard that!
+The crew of the 'Jet Black Wings'
+Heard they captured some high-ranking Celestial Army officers.
+-----------------------
+#兵卒Ａ
+Soldier A
+-----------------------
+#本当か！　そいつは最高にクールだな！
+#やっぱ『漆黒の翼』はタダ者じゃないな
+Seriously! That's totally awesome!
+So 'The Black Wings' aren't just any ordinary group after all.
+-----------------------
+#兵卒Ｂ
+Soldier B
+-----------------------
+#『漆黒の翼』の隊員は、たったの
+#三名らしいぜ！
+The members of the 'Pitch Black Wings' are just...
+only three people!
+-----------------------
+#兵卒Ａ
+Soldier A
+-----------------------
+#マジか！　たった三人であの戦果かよ！
+#俺『漆黒の翼』にホレちまいそうだぜ！
+No way! You got those results with just three people?!
+I'm totally falling for the 'Black Wings' already!
+-----------------------
+<Kyle>
+-----------------------
+#なあ、<Harold>
+#そろそろ、どこへ行くのか
+#教えてくれてもいいだろ
+C'mon, .<Harold>
+We should probably figure out where we're going soon.
+You could at least tell us.
+-----------------------
+<Harold>
+-----------------------
+#ここから東にある『物資保管所』よ
+#ベルクラントに撃たれて
+#今は使われてないけどね
+The 'Supply Storage' is to the east from here.
+I was shot by Belcrant,
+though it's not in use right now.
+-----------------------
+<Loni>
+-----------------------
+#そんなところで、なにするんだ？
+What are you doing over there?
+-----------------------
+<Harold>
+-----------------------
+#言ったじゃない、ゴミあさりよ
+I told you, scavengers.
+-----------------------
+<Harold>
+-----------------------
+#移動手段を確保するったって
+#飛行艇が丸ごと落ちてるわけないでしょ
+#だから、使える部品を集めて作るの
+We're supposed to secure transportation,
+But there's no way a whole airship would just crash.
+So we gather usable parts to build one.
+-----------------------
+<Harold>
+-----------------------
+#とにかく、だまってついてくる！
+#部品さえ集まれば、チョチョイのチョイで
+#できるんだから
+Anyway, just stay quiet and follow me!
+Once we've gathered all the parts,
+it'll be a piece of cake.
+-----------------------
+<Nanaly>
+-----------------------
+#ついてくのは、いいけどさ
+#あたしたち、この時代の地図持ってないよ？
+It's fine if you stick around, but...
+We don't have maps from this era.
+-----------------------
+<Nanaly>
+-----------------------
+#東っていわれても
+#どっちに行けばいいんだい？
+"East," you say?
+Which way should I go?
+-----------------------
+<Harold>
+-----------------------
+#そんなことだろうと思ってね
+#ホイ、地図！
+#それがあれば、わかるっしょ
+I figured as much.
+Heave-ho, map!
+With that, it should be clear.
+-----------------------
+notice
+-----------------------
+#<Harold>は
+#称号「<item:00000829>」を得ました
+<Harold> is
+Gained the title "<item:00000829>"
+-----------------------
+<Harold>
+-----------------------
+#じゃあ、私はさっそく
+#マシンの製作にとりかかるから
+#リトラー司令への報告、よろしく
+I'll get started right away.
+On the machine fabrication, I'll handle that.
+Please report to Commander Littra.
+-----------------------
+<Kyle>
+-----------------------
+#えっ!?
+#ちょ、ちょっと待ってよ！
+Huh!?
+W-wait a minute!
+-----------------------
+<Harold>
+-----------------------
+#飛べ～、飛べ～、ロケット～♪
+#燃料吹き出し、火をあげて～♪
+Fly away~ fly away~ rocket~♪
+Blast off the fuel, light it up~♪
+-----------------------
+<Loni>
+-----------------------
+#････なぁ、あいつにまかせて
+#本当に大丈夫なのか？
+...You know, I'm counting on him.
+Are you really sure it's okay?
+-----------------------
+<Nanaly>
+-----------------------
+#さぁ････
+Well then...
+-----------------------
+<Kyle>
+-----------------------
+#と、とにかく
+#リトラーさんのところに行こう
+Anyway,
+Let's head to Ritler's place.
+-----------------------
+notice
+-----------------------
+#<Harold>は
+#称号「<item:00000872>」を得ました
+<Harold> is
+Gained the title "<item:00000872>"!
+-----------------------
+<Loni>
+-----------------------
+#････なんか、入りづらい雰囲気だな
+......This place has an uneasy vibe.
+-----------------------
+#カーレル
+Carrel
+-----------------------
+#ここであせってもしょうがない
+#どのみち、<Harold>のマシンが
+#出来ないことには、動きようがないしな
+There's no point in rushing things here.
+Either way, since <Harold>'s machine
+we can't move forward if we can't do it.
+-----------------------
+#ディムロス
+Dymlos
+-----------------------
+#それにしても遅いな、<Harold>は
+#どこで油を売っているのか････
+You're late as usual, <Harold>.
+I wonder where they sell oil...
+-----------------------
+<Kyle>
+-----------------------
+#････入ろう、みんな
+Let's go in, everyone.
+-----------------------
+<Kyle>
+-----------------------
+#やっぱり、そんなのってないよ････！
+#仲間を見捨てるなんて
+#絶対にダメだよ！
+There's no way that could happen...!
+Abandoning our comrades
+is absolutely out of the question!
+-----------------------
+<Harold>
+-----------------------
+#だから、助けないって
+#選んだんでしょ
+So, you chose to leave me behind.
+That's right.
+-----------------------
+<Loni>
+-----------------------
+#おいおい、それ、違ってんぞ
+#仲間を見捨てちゃいけないのに
+#なんで助けに行かないんだよ？
+Hold on, that's wrong.
+You can't just abandon your comrades.
+Why aren't you going to help them?
+-----------------------
+<Harold>
+-----------------------
+#ねぇ、人の命の重さって
+#どれくらいだと思う？
+Hey, what do you think...
+...is the weight of a human life?
+-----------------------
+<Loni>
+-----------------------
+#は？
+What?
+-----------------------
+<Harold>
+-----------------------
+#ディムロスは地上軍の全兵士について
+#責任をもってる　つまり、あいつは
+#それだけの重さの命をあずかってんのよ
+Dimros is responsible for every soldier in the ground forces.
+That means he's
+carrying the weight of that many lives on his shoulders.
+-----------------------
+<Judas>
+-----------------------
+#････つまりディムロスは
+#アトワイトひとりの命と引きかえに
+#地上軍の全兵士のことを優先した、と？
+...So Dimros is...
+...in exchange for Atwight's life alone,
+...he prioritized all the soldiers of the surface army?
+-----------------------
+<Harold>
+-----------------------
+#そういうこと
+#そして、一度決めたからには
+#それを貫く義務がある
+That's how it is.
+And once I've made up my mind,
+I have an obligation to see it through.
+-----------------------
+<Harold>
+-----------------------
+#それが、あいつの持ってる
+#「中将」って肩書きの意味よ
+That's what he has.
+The meaning behind the title 'Vice Admiral'.
+-----------------------
+<Kyle>
+-----------------------
+#････････
+#････････････････
+...
+..........
+-----------------------
+<Harold>
+-----------------------
+#それより、ちょっといいかな？
+#私、これからソーディアン完成に向けて
+#総仕上げにかかんなきゃいけないの
+But never mind that, is it okay?
+I need to get started on completing the Sordian from here on out.
+I have to put the finishing touches on it.
+-----------------------
+<Harold>
+-----------------------
+#でね、この前行った物資保管所の奥に
+#開かない扉があったっしょ？　あの奥で
+#これからやんなきゃいけないことがあるのよ
+Well, deep inside that supply depot we went to last time,
+there was a door that wouldn't open, right? Behind that door,
+I've got something I need to do from now on.
+-----------------------
+<Harold>
+-----------------------
+#だから、もっかい、
+#物資保管所へ連れてってくんない？
+So, once again,
+Can you take me to the supply storage?
+-----------------------
+select
+-----------------------
+#<03:00000000>　はい　
+#　いいえ　
+<03:00000000> Yes 
+ No 
+-----------------------
+set_parameter( myself, C_PARTY, 0 );
+-----------------------
+wait_map_scroll();
+-----------------------
+exit-party_togather( short spd )
+-----------------------
+notice
+-----------------------
+#{16}{26}{4E}{C0}を手に入れました
+{16}{26}{4E}{C0}You obtained .
+-----------------------
+notice
+-----------------------
+#<item:FFFFFFFF>を手に入れました
+Acquired <item:FFFFFFFF>.
+-----------------------
+notice
+-----------------------
+#{16}{26}{56}{C0}がありましたが
+#いっぱいで持てませんでした
+{16}{26}{56}{C0}There was , but
+I couldn't carry it because it was full.
+-----------------------
+notice
+-----------------------
+#何もありません
+There's nothing here.
+-----------------------
+

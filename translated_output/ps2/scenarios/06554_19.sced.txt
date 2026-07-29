@@ -1,0 +1,280 @@
+#黄昏都市レアルタ・配給所
+Dusk City Realta - Distribution Center
+-----------------------
+#黄昏都市レアルタ
+Twilight City Realta
+-----------------------
+#配給所
+Distribution Center
+-----------------------
+#街の人
+Townsperson
+-----------------------
+#ありがとうございました
+#これで、母も無事に
+#天に召されることでしょう
+Thank you very much.
+With this, Mother will surely...
+...be called to heaven.
+-----------------------
+<Kyle>
+-----------------------
+#ねえ　ＲＥ－５４６０９さんって
+#君のこと？
+What's up, RE-54609?
+You mean me?
+-----------------------
+#街の人
+People in town
+-----------------------
+#はい？ＲＥ－５４６０９というのは
+#確かに僕の名前ですが････
+Yes? RE-54609 is...
+That is indeed my name...
+-----------------------
+<Kyle>
+-----------------------
+#よかった
+#実は、君のお父さんから
+#預かりものがあるんだ
+Good.
+Actually, from your father...
+I have something in my care.
+-----------------------
+#街の人
+Townsperson
+-----------------------
+#これは、母さんのレンズ････
+#そうか････母さんは
+#亡くなったんですね
+This is Mother's lens...
+I see... Mother...
+...has passed away.
+-----------------------
+<Loni>
+-----------------------
+#ああ････そのレンズが
+#形見の品ってわけだ
+Ah... that lens is...
+So it's a memento.
+-----------------------
+#街の人
+Townsperson
+-----------------------
+#わざわざ届けてくださって
+#ありがとうございます
+#ええと、あなたのお名前は？
+Thank you for going out of your way to deliver this.
+I appreciate it.
+Um, what's your name?
+-----------------------
+<Kyle>
+-----------------------
+#<Kyle>＝デュナミスだよ
+<Kyle> is a Dunamis.
+-----------------------
+#街の人
+Townsperson
+-----------------------
+#<Kyle>さん････ですか？
+#ずいぶんと、変わったお名前ですね
+Is that you, <Kyle>?
+What a strange name.
+-----------------------
+#街の人
+Townsperson
+-----------------------
+#ともかく、ありがとうございました
+#これで、母も天に召されることでしょう
+Anyway, thank you very much.
+With that, Mother will surely ascend to heaven.
+-----------------------
+#街の人
+Townsperson
+-----------------------
+#さあ、レンズを砕きましょう！
+Now, let's shatter the lens!
+-----------------------
+<Kyle>
+-----------------------
+#な、なにするんだよ！
+#母さんの形見なんだろ
+#あのレンズは！
+What are you doing!?
+It's my mother's keepsake.
+That lens is!
+-----------------------
+#街の人
+Townsfolk
+-----------------------
+#肉体が滅び、土へと還る････
+#同時に、レンズを天に還すことで
+#はじめて、死者の魂は無へ還ることができる
+When the body perishes and returns to the earth...
+At the same time, by returning the lens to the heavens,
+only then can the souls of the dead return to nothingness.
+-----------------------
+#街の人
+People in town
+-----------------------
+#そうすれば、次に生まれてくる子に
+#レンズは受け継がれていきますからね
+#当然のことじゃないですか
+If we do that, the next generation of children will
+inherently inherit the Lens.
+It's only natural, isn't it?
+-----------------------
+<Judas>
+-----------------------
+#それを、子供の手でやるのが
+#この世界の風習というわけか････
+To have children handle that...
+So that's just how things are done in this world...
+-----------------------
+#街の人
+Townspeople
+-----------------------
+#ありがとうございました
+#これで、母も無事に
+#天に召されることでしょう
+Thank you very much.
+With this, Mother will safely...
+...be called to heaven.
+-----------------------
+#街の人
+Townsperson
+-----------------------
+#これは、ほんのお礼です
+#とっておいてください
+This is just a small token of my gratitude.
+Please keep it.
+-----------------------
+NOTICE
+-----------------------
+#<item:00000009>を手に入れました
+<item:00000009>You obtained .
+-----------------------
+<Kyle>
+-----------------------
+#ねえ、悲しくないの？
+#お母さんが亡くなったのに････
+Hey, aren't you sad?
+Even though Mom passed away...
+-----------------------
+#街の人
+Townspeople
+-----------------------
+#悲しい？
+#どうして、悲しまなくては
+#いけないのですか？
+Sad?
+Why must you be sad?
+Is that wrong?
+-----------------------
+<Kyle>
+-----------------------
+#やっぱり、なにかおかしいよ
+#この世界は････
+I still think something's off.
+This world is...
+-----------------------
+#街の人
+Townsperson
+-----------------------
+#エルレインさまの人口整理政策によって
+#僕はスペランツァからレアルタに
+#移住してきたんです
+Due to Elrain's population control policy,
+I moved from Speranza to Realta.
+That's where I relocated.
+-----------------------
+#街の人
+Townsperson
+-----------------------
+#家族とは、別れ別れになりました
+#移住してからは
+#一度も顔をあわせていません
+We've gone our separate ways as a family.
+Since moving away,
+we haven't seen each other once.
+-----------------------
+#ショップマシン
+Shop Machine
+-----------------------
+#いらっしゃいませ
+#何がご要り用ですか？
+Welcome!
+What can I help you find?
+-----------------------
+select
+-----------------------
+#<03:00000000>　道具　
+#　食材　
+<03:00000000>Items
+Ingredients
+-----------------------
+#ショップマシン
+Shop Machine
+-----------------------
+#ありがとうございました
+Thank you very much.
+-----------------------
+#いってらっしゃいませ
+Have a good day.
+-----------------------
+#<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
+#お泊まりになりますか？
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+Would you like to stay?
+-----------------------
+#お泊まりになりますか？
+Would you like to stay?
+-----------------------
+select
+-----------------------
+#<03:00000000>　はい　
+#　いいえ　
+<03:00000000> Yes 
+ No 
+-----------------------
+#ごゆっくりお休みください
+Have a good night.
+-----------------------
+#おはようございます
+Good morning.
+-----------------------
+#お金が足りません
+Not enough money.
+-----------------------
+#またのおこしをお待ちしております
+See you again soon.
+-----------------------
+set_parameter( myself, C_PARTY, 0 );
+-----------------------
+wait_map_scroll();
+-----------------------
+exit-party_togather( short spd )
+-----------------------
+notice
+-----------------------
+#{16}{25}{BA}{C0}を手に入れました
+Acquired {16}{25}{BA}{C0}.
+-----------------------
+notice
+-----------------------
+#<item:FFFFFFFF>を手に入れました
+Acquired <item:FFFFFFFF>.
+-----------------------
+notice
+-----------------------
+#{16}{25}{C2}{C0}がありましたが
+#いっぱいで持てませんでした
+Acquired {16}{25}{C2}{C0} but
+inventory is full already.
+-----------------------
+notice
+-----------------------
+#何もありません
+There's nothing here.
+-----------------------
+

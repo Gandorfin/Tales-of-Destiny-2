@@ -1,0 +1,179 @@
+#地上軍拠点・購買部
+Ground Forces Base - Commissary
+-----------------------
+#地上軍拠点
+Ground Forces Base
+-----------------------
+#購買部
+School Store
+-----------------------
+#壊れかけのタルに
+#カビが生えた食料が入っている
+In a cracked barrel,
+there's food covered in mold.
+-----------------------
+#おばちゃん
+Auntie
+-----------------------
+#ちょっと聞いてヨ、アンタ！
+Hold on a sec, you!
+-----------------------
+#おばちゃん
+Auntie
+-----------------------
+#そこの兵隊さんったら、アタシたち
+#難民には品物を売ってくれないって
+#言うのよ！
+The soldiers over there are saying that they won't sell us supplies,
+to refugees.
+That's what they're saying!
+-----------------------
+#おばちゃん
+Auntie
+-----------------------
+#物不足だか何だか知らないけど
+#アタシたちも生活していかなきゃ
+#いけないのよ！
+I don't know if it's a shortage of goods or what,
+But we've got to make a living too.
+It won't do!
+-----------------------
+#おばちゃん
+Auntie
+-----------------------
+#まったくもー！
+#兵隊ってのは、ゆうずうが
+#きかないわね！
+Seriously!
+Soldiers are so stubborn that
+they won't listen to reason!
+-----------------------
+#おばちゃん
+Auntie
+-----------------------
+#ちょっと聞いてヨ、アンタ！
+Hold on a sec, you!
+-----------------------
+#おばちゃん
+Auntie
+-----------------------
+#『漆黒の翼』っていう義賊が
+#アタシたちに食べ物を持って来て
+#くれたんだよ！
+The 'Pitch-Black Wings' are these vigilantes,
+who brought us food
+and all that!
+-----------------------
+#おばちゃん
+Auntie
+-----------------------
+#困ってる人を助けてくれる義賊！
+#カッコいいじゃないかい！
+A righteous thief who helps those in need!
+Don't you think he's cool?
+-----------------------
+#おばちゃん
+Auntie
+-----------------------
+#きっと、漆黒の翼の名前は
+#歴史に残って後世に伝えられて
+#いくんだろうねえ
+Surely, the name of those pitch-black wings
+will remain in history and be passed down through the ages,
+won't it?
+-----------------------
+#補給将校
+Supply Officer
+-----------------------
+#物資は厳しく管理されている
+#例え軍の関係者といえども、無料では
+#渡せないからな
+Supplies are strictly managed.
+Not even military personnel get them for free.
+You can't just hand them over.
+-----------------------
+#ありがとうございます
+Thank you very much.
+-----------------------
+#またおこしください
+Please come again.
+-----------------------
+#補給将校
+Sergeant
+-----------------------
+#食材屋
+Grocery Store
+-----------------------
+#もう食糧も残り少なくてねえ
+#こんな物しか残ってないよ
+We're running low on food.
+This is all that's left.
+-----------------------
+#ありがとうねえ
+Thanks so much.
+-----------------------
+#アタシら、みんな飢え死にかねえ
+We're all on the verge of starving to death.
+-----------------------
+#食材屋
+Grocery Store
+-----------------------
+#いってらっしゃいませ
+Have a good day.
+-----------------------
+#<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
+#お泊まりになりますか？
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+Would you like to stay?
+-----------------------
+#お泊まりになりますか？
+Would you like to stay?
+-----------------------
+select
+-----------------------
+#<03:00000000>　はい　
+#　いいえ　
+<03:00000000> Yes 
+ No 
+-----------------------
+#ごゆっくりお休みください
+Have a good night.
+-----------------------
+#おはようございます
+Good morning.
+-----------------------
+#お金が足りません
+Not enough money.
+-----------------------
+#またのおこしをお待ちしております
+See you again soon.
+-----------------------
+set_parameter( myself, C_PARTY, 0 );
+-----------------------
+wait_map_scroll();
+-----------------------
+exit-party_togather( short spd )
+-----------------------
+notice
+-----------------------
+#{16}{25}{BA}{C0}を手に入れました
+Acquired {16}{25}{BA}{C0}.
+-----------------------
+notice
+-----------------------
+#<item:FFFFFFFF>を手に入れました
+Acquired <item:FFFFFFFF>.
+-----------------------
+notice
+-----------------------
+#{16}{25}{C2}{C0}がありましたが
+#いっぱいで持てませんでした
+Acquired {16}{25}{C2}{C0} but
+inventory is full already.
+-----------------------
+notice
+-----------------------
+#何もありません
+There's nothing here.
+-----------------------
+

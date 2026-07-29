@@ -1,0 +1,245 @@
+#クレスタの街
+Cresta Town
+-----------------------
+#クレスタの街
+Cresta Town
+-----------------------
+<Kyle>
+-----------------------
+#うわぁ････いい天気だよ
+#<Loni>！
+Oh man... what a gorgeous day.
+<Loni>!
+-----------------------
+<Loni>
+-----------------------
+#絶好の、冒険日和ってやつだな
+#ところで<Kyle>
+#出発の準備はいいのか？
+This is what you call perfect weather for an adventure.
+By the way, .<Kyle>
+Are you ready to set off?
+-----------------------
+<Kyle>
+-----------------------
+#うん、足りないモノは
+#道具屋で買えばいいんだよね
+Yeah, what we're missing is...
+We can just buy it at the shop, right?
+-----------------------
+<Loni>
+-----------------------
+#そうじゃねえよ
+#････ほれ、見てみろよ
+#こっからだと、街がよく見えるぜ
+Not really.
+...Come on, take a look.
+You can see the town pretty well from here.
+-----------------------
+<Loni>
+-----------------------
+#よ～く、目に焼きつけとけよ
+#二度と拝めないかも、しれないからな
+You'd better burn that into your memory.
+Otherwise you might never get another chance to see it.
+-----------------------
+<Kyle>
+-----------------------
+#えっ!?
+Huh!?
+-----------------------
+<Loni>
+-----------------------
+#冒険ってのは、危険と隣りあわせだ
+#運が悪けりゃ
+#命を落とすことだってある
+Adventure is always paired with danger.
+If you're unlucky,
+you could lose your life.
+-----------------------
+<Kyle>
+-----------------------
+#そんな････
+So...
+-----------------------
+<Loni>
+-----------------------
+#ははっ！　ビビったか？
+Hah! Scared you?
+-----------------------
+<Loni>
+-----------------------
+#でも、それが現実だ
+#････恐いか？
+But that's reality.
+...Are you afraid?
+-----------------------
+<Kyle>
+-----------------------
+#････<Loni>、オレさ
+#今、すっごくドキドキしてるんだ
+......<Loni>, I mean
+I'm really nervous right now.
+-----------------------
+<Kyle>
+-----------------------
+#もちろん、コワいからってのもある
+#けど････このドキドキは
+#それだけじゃないんだ
+I mean, part of it is because I'm scared.
+But... this excitement...
+It's not just that.
+-----------------------
+<Kyle>
+-----------------------
+#ラグナ遺跡で、あの子を見て
+#オレ、なにかがはじまったって思った
+I saw that girl at the Ragna Ruins.
+I felt like something had started.
+-----------------------
+<Kyle>
+-----------------------
+#それから、いろいろあったけど････
+#ずっとずっと、あこがれてた
+#冒険の旅に、やっと出られる
+After all that happened...
+I've always dreamed about it.
+I can finally set off on my adventure.
+-----------------------
+<Kyle>
+-----------------------
+#そう、父さんと同じように
+#英雄になるための旅に････
+Yes, just like Father.
+On a journey to become a hero...
+-----------------------
+<Kyle>
+-----------------------
+#そう考えたら、もうさ
+#胸がドキドキしっぱなしなんだ！
+I've been thinking about it that way ever since.
+My heart's been racing non-stop!
+-----------------------
+<Kyle>
+-----------------------
+#今すぐ、「わーっ！」って
+#叫びたいぐらいだよ、オレ！
+Right now, I just want to go 'Waaah!'
+I feel like screaming it out loud!
+-----------------------
+<Loni>
+-----------------------
+#ふふっ････あははっ！
+#それでこそ<Kyle>だ！
+Hehe... Ahaha!
+Now that's what I call <Kyle>!
+-----------------------
+<Loni>
+-----------------------
+#安心しろ、おまえはオレが守ってやる
+#なにがあっても、必ずな
+Don't worry, I'll protect you.
+No matter what happens, I will definitely.
+-----------------------
+<Kyle>
+-----------------------
+#<Loni>････
+<Loni>...
+-----------------------
+<Loni>
+-----------------------
+#んじゃ、行くとするか
+#冒険の旅へと、出発だ！
+Well then, let's get going.
+It's time to set off on our adventure!
+-----------------------
+<Kyle>
+-----------------------
+#「英雄になるための旅」
+#だよ、<Loni>！
+A journey to become a hero
+It's just like that, <Loni>!
+-----------------------
+<Loni>
+-----------------------
+#はははっ！　そうだったな
+Hahaha! That's right.
+-----------------------
+<Loni>
+-----------------------
+#それじゃ行こうぜ、<Kyle>
+#おまえが、英雄になるための旅によ！
+Well then, let's go, .<Kyle>
+It's your journey to becoming a hero!
+-----------------------
+<Kyle>
+-----------------------
+#ああ！
+Oh!
+-----------------------
+notice
+-----------------------
+#<Kyle>は
+#称号「<item:0000080D>」を得ました
+<Kyle>, you...
+You've earned the title of "<item:0000080D>."
+-----------------------
+#いってらっしゃいませ
+Have a good day.
+-----------------------
+#<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
+#お泊まりになりますか？
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+Would you like to stay?
+-----------------------
+#お泊まりになりますか？
+Would you like to stay?
+-----------------------
+select
+-----------------------
+#<03:00000000>　はい　
+#　いいえ　
+<03:00000000> Yes 
+ No 
+-----------------------
+#ごゆっくりお休みください
+Have a good night.
+-----------------------
+#おはようございます
+Good morning.
+-----------------------
+#お金が足りません
+Not enough money.
+-----------------------
+#またのおこしをお待ちしております
+See you again soon.
+-----------------------
+set_parameter( myself, C_PARTY, 0 );
+-----------------------
+wait_map_scroll();
+-----------------------
+exit-party_togather( short spd )
+-----------------------
+notice
+-----------------------
+#{16}{25}{C6}{C0}を手に入れました
+Acquired {16}{25}{C6}{C0}.
+-----------------------
+notice
+-----------------------
+#<item:FFFFFFFF>を手に入れました
+Acquired <item:FFFFFFFF>.
+-----------------------
+notice
+-----------------------
+#{16}{25}{CE}{C0}がありましたが
+#いっぱいで持てませんでした
+{16}{25}{CE}{C0}There was , but
+I couldn't hold it because it was full.
+-----------------------
+notice
+-----------------------
+#何もありません
+There's nothing here.
+-----------------------
+

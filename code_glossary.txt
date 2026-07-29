@@ -1,0 +1,121 @@
+CODE GLOSSARY — Tales of Destiny 2 (.sced.txt script format)
+
+Covers script commands and control codes found in ps2/scenarios and ps2/skits,
+as distinct from the story/character terminology in glossary.txt. Verified
+against real files, not just pattern-matched — see notes on each entry.
+Extend this as translators encounter new codes; unfamiliar codes should be
+preserved exactly and flagged rather than guessed at.
+
+== BLOCK STRUCTURE (confirmed against real files) ==
+A block is everything between two "-----------------------" dividers. There
+are three kinds of block:
+
+1. Dialogue block: one or more "#"-tagged Japanese lines, followed by the
+   same number of English lines (once translated).
+     #お泊まりになりますか？
+     Would you like to stay?
+
+2. Command-only block: a single line with NO Japanese and NO English pair —
+   pure script logic, not dialogue. Never gets a "#" tag, never gets
+   translated, always passed through completely untouched. Confirmed
+   examples from real files:
+     select
+     set_parameter( myself, C_PARTY, 0 );
+     wait_map_scroll();
+     exit-party_togather( short spd )
+     notice
+   A "select" or "notice" block is a *signal to the game engine* about how to
+   render the dialogue block(s) around it (e.g. "select" precedes a Yes/No
+   choice block; "notice" precedes an item-acquisition popup block) — it is
+   not itself something to translate, and it doesn't "belong" to one
+   particular Japanese/English pair the way a divider-bounded dialogue block
+   does.
+
+3. Choice/menu block: like a dialogue block, but the Japanese and English
+   lines are prefixed with a menu-position code (see <03:...> below):
+     #<03:00000000>　はい　
+     #　いいえ　
+     <03:00000000> Yes
+      No
+
+== SPEAKER TAGS ==
+Appear at the start of a dialogue line, e.g. <Kyle>, <Loni>, <Reala>,
+<Judas>, <Nanaly>. Preserve exactly, never translate. See
+character_voice_guide.txt for how each speaker should sound.
+
+== INLINE CONTROL CODES (appear within a dialogue line — preserve exactly) ==
+<item:XXXXXXXX>
+  Item name placeholder, resolved by the game engine at runtime.
+  Confirmed real example: "#<item:FFFFFFFF>を手に入れました" ->
+  "Acquired <item:FFFFFFFF>."
+
+{16}{XX}{XX}{C0}
+  Formatted item/number reference — an alternate form to <item:...>, same
+  purpose (resolved at runtime). Confirmed real example:
+  "#{16}{25}{BA}{C0}を手に入れました" -> "Acquired {16}{25}{BA}{C0}."
+
+<0B:00000001>...<0B:00000000>
+  A paired open/close code wrapping a variable amount (e.g. a gald cost) that
+  gets substituted at runtime. Confirmed real example:
+  "It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night."
+  Keep both the opening and closing tag, and everything between them,
+  exactly as given — this is a matched pair, not two independent codes.
+
+<03:00000000>
+  Menu-option / choice-position marker. Confirmed real example: appears at
+  the start of the "Yes" line in a Yes/No choice block, marking which option
+  is the default/first selection. Preserve exactly, including which of the
+  two choice lines it's attached to — don't move it to the other option.
+
+<button:XXXXXX>
+  Button icon reference (e.g. <button:00000045> = attack button per the
+  uploaded reference material — not yet independently confirmed against a
+  real file in this pass, verify if you rely on the exact hex value).
+
+<color:XXXXXX> / <size:XXXXXX> / <char:XXXXXX>
+  Text color / size / character-name-placeholder codes. Not yet
+  independently confirmed against a real scenario/skit file in this pass —
+  treat as "preserve exactly if encountered," and flag for the team to
+  confirm real examples once found.
+
+== GENERAL RULE FOR UNFAMILIAR CODES ==
+Anything in angle brackets < >, curly braces { }, or matching that general
+shape, that you don't recognize from this list: preserve it exactly, don't
+attempt to translate or interpret it, and flag it so this glossary can be
+extended. Don't guess at what an unfamiliar code does.
+
+== COMMON MESSAGE TEMPLATES (for consistency, not literal requirements) ==
+Acquired <item:XXXXXXXX>. / Acquired {16}{XX}{XX}{C0}.  — item pickup
+Not enough money.                                        — shop/inn context
+Have a good night. / Good morning.                       — inn stay/wake
+Would you like to stay?                                  — inn dialogue
+Found {16}{XX}{XX}{C0}, but inventory full already.      — inventory-full pickup
+There's nothing here.                                     — empty examine spot
+See you again soon.                                       — inn farewell
+
+== GAME-SYSTEM TERMS CONFIRMED IN THE REAL CORPUS ==
+(These are story/system terminology, not codes — cross-reference with
+glossary.txt, which is the authoritative list; noting them here since they
+were found while verifying this code glossary.)
+
+リファイン (Refine) — appears 27 times across scenarios/skits. A recurring
+  game-system term, likely an item-refining or synthesis mechanic. Not yet in
+  glossary.txt — recommend adding once the team picks an English term (e.g.
+  "Refine" is the literal reading, but confirm against how the menu UI names
+  it if there's a dedicated menu/system script for it).
+
+ベルセリアの花 (Bellseria Flower) — appears 3 times, a specific item name.
+  Not yet in glossary.txt — recommend adding as "Bellseria Flower" or the
+  team's preferred rendering.
+
+スクリーンチャット (Screen Chat) — appears in what looks like a menu/gallery
+  context ("previously-seen Screen Chats", "Screen Chats you haven't seen
+  yet") — likely a skit replay/gallery feature, similar to the "skit
+  theater" mode common in other Tales games. Translation and exact function
+  not yet confirmed — flag for team verification rather than assuming.
+
+ストレイライズ神殿 — confirms the spelling already in glossary.txt
+  ("Straylize Temple"). The uploaded reference material used "Straylise" —
+  that appears to be a less accurate romanization; "Straylize" matches the
+  katakana (ストレイライズ = Sutoreiraizu) better and is what's already
+  locked into glossary.txt, so no change needed there.

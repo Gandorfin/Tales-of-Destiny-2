@@ -1,0 +1,1349 @@
+#ノイシュタット・闘技場
+Neuestadt Colosseum
+-----------------------
+#ノイシュタット
+Neuestadt
+-----------------------
+#シングルバトル
+Single Battle
+-----------------------
+#タッグバトル
+Tag Battle
+-----------------------
+#初級
+Beginner
+-----------------------
+#中級
+Intermediate
+-----------------------
+#上級
+Advanced
+-----------------------
+#マニア
+Maniac
+-----------------------
+#一回
+One time
+-----------------------
+#二回
+Twice
+-----------------------
+#決勝
+The Final Battle
+-----------------------
+#司会
+Announcer
+-----------------------
+#闘技場{18}{44}{70}{C0}{18}{44}{74}{C0}
+#{18}{44}{6C}{C0}戦を始めます
+Arena{18}{44}{70}{C0}{18}{44}{74}{C0}
+{18}{44}{6C}{C0}Begin battle.
+-----------------------
+#司会
+Announcer
+-----------------------
+#チャンピオンリムルと再度激突です！
+It's another clash with Champion Rimul!
+-----------------------
+#司会
+Announcer
+-----------------------
+#闘技場{18}{44}{70}{C0}{18}{44}{74}{C0}
+#優勝おめでとうございます
+Colosseum{18}{44}{70}{C0}{18}{44}{74}{C0}
+Congratulations on your victory.
+-----------------------
+#司会
+Announcer
+-----------------------
+#こちらが賞金です
+This is your bounty.
+-----------------------
+#司会
+Announcer
+-----------------------
+#<0B:00000001>{14}{34}{78}{C0}<0B:00000000>ガルドを獲得しました
+<0B:00000001>{14}{34}{78}{C0}<0B:00000000>You obtained  Gald.
+-----------------------
+#司会
+Announcer
+-----------------------
+#こちらが賞金と副賞です
+Here is your bounty and the bonus prize.
+-----------------------
+#司会
+Announcer
+-----------------------
+#<0B:00000001>{14}{34}{78}{C0}<0B:00000000>ガルドを獲得しました
+<0B:00000001>{14}{34}{78}{C0}<0B:00000000>You obtained  Gald.
+-----------------------
+#司会
+Announcer
+-----------------------
+#{16}{24}{80}{C0}を獲得しました
+{16}{24}{80}{C0}Acquired .
+-----------------------
+#司会
+Announcer
+-----------------------
+#闘技場{18}{44}{70}{C0}{18}{44}{74}{C0}
+#残念ながら{18}{44}{6C}{C0}戦で敗退です
+Arena{18}{44}{70}{C0}{18}{44}{74}{C0}
+Unfortunately, you've been defeated in battle {18}{44}{6C}{C0}.
+-----------------------
+#司会
+Announcer
+-----------------------
+#闘技場{18}{44}{70}{C0}{18}{44}{74}{C0}
+#惜しくも決勝戦で敗れました
+Arena{18}{44}{70}{C0}{18}{44}{74}{C0}
+We narrowly lost in the finals.
+-----------------------
+#司会
+Announcer
+-----------------------
+#強い！　圧倒的な強さだ！
+#凶悪なモンスターを、まるで
+#赤子の手をひねるように倒してしまったぁ！
+Powerful! An overwhelming strength!
+Those ferocious monsters were defeated as easily as
+twisting an infant's fingers!
+-----------------------
+<Loni>
+-----------------------
+#おっ、盛り上がってんな！
+What's got everyone so hyped up?
+-----------------------
+<Nanaly>
+-----------------------
+#どうやら、とんでもなく
+#強いヤツがいるみたいだね
+#どんなバケモノだろ？
+Looks like there's someone incredibly
+strong around here.
+What kind of monster could it be?
+-----------------------
+<Kyle>
+-----------------------
+#あれ？　今の人････
+Huh? Was that person just now...?
+-----------------------
+#支配人
+Manager
+-----------------------
+#まったく、どこいっちまったんだ!?
+#報酬がいらないってのか!?
+Good grief, where did they go!?
+You mean you don't want your reward!?
+-----------------------
+#支配人
+Manager
+-----------------------
+#あっ！　なぁ、あんたたち!?
+#今、リムルが通らなかったか!?
+Ah! Hey, you guys!?
+Did Rimul just pass through?!
+-----------------------
+<Kyle>
+-----------------------
+#リムル？　誰、それ？
+Rimul? Who's that?
+-----------------------
+#支配人
+Manager
+-----------------------
+#彗星のごとく現れた
+#最強の武芸者、リムルだよ！
+I appeared like a comet!
+The ultimate martial artist, Rimul here!
+-----------------------
+#支配人
+Manager
+-----------------------
+#その剣はあらゆるモンスターを
+#一瞬にして葬りさるっていう
+#恐ろしい女さ！
+That sword can
+bury every monster in an instant,
+that terrifying woman!
+-----------------------
+<Judas>
+-----------------------
+#そうか････ヤツだ！
+So it is... that guy!
+-----------------------
+<Loni>
+-----------------------
+#さっきの子か？
+#この間、すれちがった････
+That kid from earlier?
+We crossed paths the other day...
+-----------------------
+#支配人
+Manager
+-----------------------
+#あんたたち、見たのか!?
+#なぁ、どこにいったかわかるか!?
+You guys saw that, right!?
+Hey, does anyone know where they went!?
+-----------------------
+<Reala>
+-----------------------
+#さっき、出ていきましたよ
+#追いかければ、まだ間に合うかも････
+They just left.
+If we chase after them, we might still make it in time...
+-----------------------
+#支配人
+Manager
+-----------------------
+#そうか、それじゃあ！
+So that's how it is then.
+-----------------------
+<Kyle>
+-----------------------
+#あの人、そんなに
+#すごいのか････
+Is that person really...
+that amazing...?
+-----------------------
+<Judas>
+-----------------------
+#だから、いっただろう
+#ただ者ではないと
+I told you so.
+They're no ordinary foe.
+-----------------------
+<Judas>
+-----------------------
+#おそらく、闘技場にいるのも
+#富や名声が目的じゃない
+#腕試しだろう
+It's probably because they're in the arena,
+that wealth and fame aren't their goal.
+They're just testing their skills.
+-----------------------
+<Loni>
+-----------------------
+#だから、報酬も受け取らず
+#出ていっちまうってわけか
+#何とも、かっこいいねぇ
+So, they're taking no reward either
+So that's why they left
+What a cool way to go
+-----------------------
+#観客
+Audience
+-----------------------
+#ひ、ひぇ～～～っ！
+Hiiieeeee~!
+-----------------------
+#観客
+Spectators
+-----------------------
+#そっちにいったぞ！
+#早く逃げろ!!
+It went that way!
+Hurry up and run!!
+-----------------------
+<Kyle>
+-----------------------
+#な、なに!?
+W-What!?
+-----------------------
+<Loni>
+-----------------------
+#げえっ!?
+#どうして、こんなところに
+#モンスターがいるんだよ!!
+Ghh!?
+Why is it that...
+there are monsters here!!
+-----------------------
+<Harold>
+-----------------------
+#闘技場のオリから、逃げたんでしょ？
+#他に考えられないわ
+You ran away from the arena's entrance, didn't you?
+I can't think of any other explanation.
+-----------------------
+<Loni>
+-----------------------
+#････目が、あったな
+... Our eyes met.
+-----------------------
+<Nanaly>
+-----------------------
+#来るよ、みんな！
+They're coming, everyone!
+-----------------------
+<Kyle>
+-----------------------
+#リムルさん！
+Rimuru-san!
+-----------------------
+#リムル
+Limu
+-----------------------
+#ここは、まかせて！
+Leave this to me!
+-----------------------
+#リムル
+Limuul
+-----------------------
+#････ハッ！
+......Hah!
+-----------------------
+#リムル
+Rimul
+-----------------------
+#････
+...
+-----------------------
+<Reala>
+-----------------------
+#ね、ねぇ、なにが起こったの!?
+#速すぎて
+#よくわからなかったんだけど････
+Hey, hey, what happened!?
+It was too fast
+I couldn't quite make sense of it...
+-----------------------
+<Judas>
+-----------------------
+#たんに、切りつけただけだ
+#ものすごい速さでな
+I just slashed at you.
+With incredible speed.
+-----------------------
+<Harold>
+-----------------------
+#なるほど、加速度をエネルギーに変えて
+#相手にぶつける攻撃方法か
+#あれは、確かに効くわね
+I see, converting acceleration into energy...
+So that's how you deliver it as an attack.
+That definitely works.
+-----------------------
+<Judas>
+-----------------------
+#しかも、あのスピードでは
+#かわすことは不可能
+#まさに、必殺の剣だ
+Moreover, at that speed,
+dodging is impossible.
+Truly, a finishing strike.
+-----------------------
+<Kyle>
+-----------------------
+#すごい････
+Wow...
+-----------------------
+#司会
+Announcer
+-----------------------
+#さぁ、ここまで
+#順調に勝ちあがってきた挑戦者に
+#最後のカベが立ちはだかる！
+Alright, we've made it this far.
+To the challengers who have steadily fought their way up,
+The final wall stands in their path!
+-----------------------
+#司会
+Announcer
+-----------------------
+#そのカベは、あまりにも高く
+#あまりにも大きい！
+That wall is so incredibly high.
+So incredibly huge!
+-----------------------
+#司会
+Announcer
+-----------------------
+#だが、このカベを乗り越えなくして
+#勝利もまた、ありえない！
+But unless we overcome this wall,
+victory is also impossible!
+-----------------------
+#司会
+Announcer
+-----------------------
+#立ちはだかるカベは
+#この闘技場のチャンピオン！
+The wall standing in our way is
+the champion of this arena!
+-----------------------
+#司会
+Announcer
+-----------------------
+#ある日、彗星のごとく現れ
+#またたく間に、すべての敵をしりぞけ
+#王者の座についた女！
+She appeared one day, like a comet,
+In the blink of an eye, she drove back all her enemies,
+The woman who took the throne!
+-----------------------
+#司会
+Announcer
+-----------------------
+#人は彼女を最強の武芸者と呼び
+#また、ある人は無敵と呼ぶ！
+People call her the greatest martial artist,
+And some say she's invincible!
+-----------------------
+#司会
+Announcer
+-----------------------
+#その名は････
+#さぁ！
+#みなさん、ごいっしょに！
+The name is...
+Now!
+All of you, join us!
+-----------------------
+#司会
+Announcer
+-----------------------
+#さぁ！
+#みなさん、ごいっしょに！
+Alright!
+Everyone, let's go together!
+-----------------------
+#司会
+Announcer
+-----------------------
+#リームールーッ!!
+Rimuruu!!
+-----------------------
+<Kyle>
+-----------------------
+#リムルさん!?
+Limu-san!?
+-----------------------
+#リムル
+Limuul
+-----------------------
+#････<Kyle>
+#待ち望んだわ！　この瞬間を！
+...<Kyle>
+I've waited for this moment! This very instant!
+-----------------------
+<Kyle>
+-----------------------
+#待ち望んだって････
+#どういうこと!?
+I've been waiting for this...
+What do you mean!?
+-----------------------
+#リムル
+Limu
+-----------------------
+#勝ったら、教えてあげる････
+If I win, I'll let you know...
+-----------------------
+#リムル
+Rimul
+-----------------------
+#さぁ来なさい、<Kyle>！
+#今こそ、雌雄を決しましょう！
+#わたしとキミの、どちらが最強なのかを!!
+Come on, <Kyle>!
+Now is the time to settle who's stronger!
+To see which of us is truly the strongest!!
+-----------------------
+#司会
+Announcer
+-----------------------
+#闘技場バトル
+#惜しくもリムルに敗れました
+Colosseum Battle
+Limmle narrowly defeated you.
+-----------------------
+#リムル
+Rimul
+-----------------------
+#負けた････
+#････見事だったわ
+#<Kyle>････
+I lost...
+...What a magnificent victory.
+<Kyle>...
+-----------------------
+#リムル
+Limuul
+-----------------------
+#さすがは、英雄スタンの血を
+#受け継ぐものね････
+As expected from someone who inherited the blood of Hero Stan,
+I suppose.
+-----------------------
+<Kyle>
+-----------------------
+#えっ!?
+#どうして、それを････
+Huh!?
+Why...?
+-----------------------
+#リムル
+Rimul
+-----------------------
+#知ってるよ、キミのことも
+#キミの父さんのことも････
+#母さんが、話してくれたから
+I know about you.
+And your father too...
+Your mother told me everything.
+-----------------------
+<Kyle>
+-----------------------
+#母さんって････
+My mother...
+-----------------------
+#リムル
+Limu
+-----------------------
+#リリス母さん････
+Lilith, Mom...
+-----------------------
+<Kyle>
+-----------------------
+#えええっ!?
+#そ、それじゃ
+#オレとリムルさんって････
+Wha-!?
+I-if that's the case...
+Rimuru and I are...
+-----------------------
+#リムル
+Rimul
+-----------------------
+#そう、いとこ同士････
+#黙っていて、悪かったわね
+That's right, cousins...
+Sorry for keeping quiet.
+-----------------------
+<Kyle>
+-----------------------
+#どうして、ずっと黙ってたの？
+Why did you keep quiet all this time?
+-----------------------
+#リムル
+Limuul
+-----------------------
+#いったら、キミは
+#手加減してしまうでしょう？
+#そんなのは、勝負とはいわないわ
+If you go there,
+you'll probably hold back, won't you?
+That's not what I call a match.
+-----------------------
+#リムル
+Rimuru
+-----------------------
+#わたしは、全力のキミと
+#戦ってみたかったのよ････
+I wanted to fight you,
+at your very best...
+-----------------------
+<Kyle>
+-----------------------
+#リムルさん････
+Rimuru-san...
+-----------------------
+#リムル
+Rimul
+-----------------------
+#だけど、わたしは負けた
+#まだまだ修行が足りないってことね
+I lost.
+So I still have plenty of training to do.
+-----------------------
+#リムル
+Rimul
+-----------------------
+#<Kyle>････わたし、旅に出る！
+#キミと同じように旅に出て
+#もっと強くなってみせる
+<Kyle>... I'm going on a journey!
+Just like you did.
+I'll show everyone just how strong I can become.
+-----------------------
+#リムル
+Rimul
+-----------------------
+#その時はまた････
+#勝負してくれる？
+Until then...
+Will you fight me?
+-----------------------
+<Kyle>
+-----------------------
+#････もちろん！
+...Of course!
+-----------------------
+notice
+-----------------------
+#<Kyle>は
+#称号「<item:0000086D>」を得ました
+<Kyle> is...
+You've earned the title "<item:0000086D>".
+-----------------------
+notice
+-----------------------
+#{15}{24}{B2}{C0}は
+#称号「<item:0000086B>」を得ました
+{15}{24}{B2}{C0}has
+Gained the title "<item:0000086B>."
+-----------------------
+notice
+-----------------------
+#{15}{24}{B2}{34}{00}{C6}{C0}は
+#称号「<item:0000086C>」を得ました
+{15}{24}{B2}{34}{00}{C6}{C0}has
+Gained the title "<item:0000086C>."
+-----------------------
+#観客
+Audience
+-----------------------
+#あたし弱い男には
+#キョウミないんだよね～
+I'm not really into weak guys.
+There's no interest in them~
+-----------------------
+#あんた、なかなかヤルじゃん
+#まあ、実力的には、まだまだだけどね
+You're pretty good.
+Well, you've still got a ways to go in terms of skill.
+-----------------------
+#あ～ん★
+#あたし、強い男に
+#メチャクチャ弱いの～
+Aaahn~!
+I want a strong man...
+So incredibly weak~
+-----------------------
+#今のあたしは
+#リムルさまにメロメロよ～★
+I'm completely different from before
+I'm totally head over heels for Rimuru-sama~★
+-----------------------
+#リムルさま、カッコイイ～！
+#もう、ステキステキステキッ★
+Limu-sama, so cool~!
+Geez, it's just wonderful, wonderful, wonderful! ★
+-----------------------
+#リムルさまも、ステキだったけど････
+#やっぱりあたしは、強い男がスキ★
+#というわけで、<Kyle>～★
+Rimuru was wonderful too...
+I guess I just prefer strong guys ★
+So that's how it is, from <Kyle> onwards~★
+-----------------------
+#観客
+Audience
+-----------------------
+#もっと
+#わしをマンゾクさせるような
+#強い戦士はおらんのか？
+More
+Are there any
+strong warriors who can satisfy me?
+-----------------------
+#フン！
+#すこしは、やるようだが
+#いつまでつづくことやら････
+Hmph!
+At least there's some effort being put in.
+I wonder how long this will go on...
+-----------------------
+#チャンピオ～ン
+#いつも勝負を
+#拝見させていただいてますよ～
+Champion~
+Always competing
+I've been watching you closely~
+-----------------------
+#だれか、あのリムルってやつ
+#やっつけてくれないもんかねぇ
+#オッズが低すぎて、つまらないんだよ
+Someone, that guy Rimul...
+Won't you take him out for me?
+The odds are too low, it's boring.
+-----------------------
+#こりゃすごい････
+#リムルの強さは
+#本物だな････
+This is incredible...
+Rimul's strength
+is truly genuine...
+-----------------------
+#チャンピオ～ン
+#わしは、あんたが勝つと
+#当然、思っとったよ！
+Champion~
+I knew you'd win,
+Of course I did!
+-----------------------
+#観客
+spectators
+-----------------------
+#ふわぁ～
+#伝説のチャンプ
+#スタンのような戦士はいないものかしら
+Sigh...
+The legendary champ
+I wonder if there's any warrior like Stan.
+-----------------------
+#あんたの戦う姿は
+#あの伝説のチャンプ
+#スタンに、どことなく似てるわねぇ
+You fighting style...
+That legendary champ,
+is somewhat reminiscent of Stan.
+-----------------------
+#新たな伝説のチャンプ
+#<Kyle>の誕生ね
+A new Legend Champ!
+The birth of <Kyle>, huh?
+-----------------------
+#謎の武芸者、リムル････
+#新しい伝説の予感がするわ！
+A mysterious martial artist, Rimul...
+I have a feeling a new legend is about to begin!
+-----------------------
+#あのモンスターを
+#一撃で倒してしまうなんて････
+#やっぱりリムルが、新しい伝説なの？
+That monster,
+to take it down in a single blow...
+So Rimul is the new legend after all?
+-----------------------
+#あのリムルすら倒してしまうなんて････
+#やっぱり、あなたたちが
+#真の、伝説のチャンプね！
+Even Rimur was defeated...
+As I thought, you guys are
+the true, legendary champs!
+-----------------------
+#観客
+Audience
+-----------------------
+#ボク？
+#戦士じゃありません
+#ただのコスプレマニアです
+Me?
+I'm no warrior.
+Just a cosplay enthusiast.
+-----------------------
+#ハッハッハ
+#あなたも戦士のコスプレですか？
+Hahaha!
+Are you cosplaying as a warrior too?
+-----------------------
+#えっ!?
+#ちゃんと戦ってるって？
+#知らなかったなあ････
+Huh!?
+You mean you're fighting properly?
+I had no idea...
+-----------------------
+#ボクも
+#コスプレでなら
+#チャンピオンになれるのになあ
+I too
+If it's cosplay,
+I could become a champion.
+-----------------------
+#知ってる？　リムルっていう
+#すっごく強い人が現れたんだよ！
+#今度は、リムルのコスプレしようかな････
+You know about Rimul, right?
+This incredibly strong person showed up!
+Maybe I'll dress up as Rimul this time...
+-----------------------
+#モンスターが逃げだした時は
+#どうなるかと思ったけど････
+#リムル、やっぱりすごいよ！
+When monsters scatter in fear,
+I thought it might turn out that way...
+Rimul, you're amazing as always!
+-----------------------
+#せっかく、リムルのコスプレが
+#完成したのに
+#負けちゃうなんて････
+After all that effort to get Rimuru's cosplay just right,
+and it's finally complete...
+to lose like this...
+-----------------------
+#観客
+Audience
+-----------------------
+#コラ、若造！
+#そんなところに立つでない！
+#ジャマじゃ！
+Hold it right there, kid!
+Don't stand around over there!
+You're in my way!
+-----------------------
+#い、いかん
+#コーフンしすぎて
+#血圧が････
+I can't take it
+I'm too stressed out
+My blood pressure is...
+-----------------------
+#よくやった！
+#さすがは、わしの一番弟子じゃ！
+#わしも、鼻が高いぞい！
+Well done!
+As expected from my top disciple!
+I'm quite proud too!
+-----------------------
+<Kyle>
+-----------------------
+#じいちゃん
+#オレの師匠だったの････？
+Grandpa
+Were you my master...?
+-----------------------
+#いやぁ、あのリムルはすごい！
+#戦いっぷりを見てるだけで
+#コーフンして、ぶっ倒れそうじゃ!!
+I mean, that Limule is amazing!
+Just watching her fight
+is enough to make me swoon and pass out!!
+-----------------------
+#いやぁ、モンスターが逃げだした時は
+#死ぬかと思ったゾイ!!
+Well, when the monsters started running away,
+I thought I was gonna die!!
+-----------------------
+#あのリムルすら倒すとは！
+#さすがは、わしの一番弟子じゃ！
+#わしも、鼻が高いぞい！
+To think they even took down that Rimul!
+As expected of my top disciple!
+I'm quite proud too!
+-----------------------
+<Kyle>
+-----------------------
+#じいちゃん
+#オレの師匠だったの････？
+Grandpa
+Were you my master...?
+-----------------------
+#観客
+Spectators
+-----------------------
+#兄ちゃん、押さないでくれよな
+#ここは、オレの席なんだから！
+Don't push me, bro.
+This is my seat!
+-----------------------
+#あれ、兄ちゃんの顔
+#どこかで見たことあるような････
+Huh? Brother's face.
+It feels like I've seen it somewhere before...
+-----------------------
+#わあっ、チャンプの
+#<Kyle>＝デュナミスだっ！
+#オ、オレと握手してください！
+Waah, Champ's...
+It's <Kyle> = Dunamis!
+H-Hey, shake my hand!
+-----------------------
+#すごいなぁ、リムル！
+#サインもらえないかなぁ？
+Wow, Rimuru!
+Can I get an autograph?
+-----------------------
+#リムルの剣が、見えなかった････
+#････すんげ～！
+Rimul's sword... was invisible.
+...Awesome!
+-----------------------
+#すごいです、すごいですよ、チャンプ！
+#あ、握手してくださいっ!!
+Amazing, just amazing, Champ!
+Oh, shake my hand!!
+-----------------------
+#観客
+Spectators
+-----------------------
+#やっぱり、戦う姿は
+#素敵ザマスねぇ
+As expected, your fighting form is
+simply magnificent.
+-----------------------
+#わたくし、戦う者の姿を見ると
+#どうしようもなく熱くなるザマス！
+#いけザマス！　そこザマス！
+I see a warrior in action,
+And my heart flutters uncontrollably!
+Now then! Strike there!
+-----------------------
+#んま～っ！
+#<Kyle>選手じゃないザマスか！
+#わたしと、握手してほしいザマス！
+Nom~!
+Why, isn't that contestant <Kyle>?!
+I want to shake hands with me!
+-----------------------
+#あのリムルという子････すごすぎるザマス！
+#あそこまで、わたくしを熱くさせる戦士は
+#他にはいないザマス！
+The girl named Limul... she's incredible, Zamasu!
+There is no other warrior who could ignite my passion quite like that,
+Zamasu!
+-----------------------
+#モンスターに、おそわれたときは
+#もうダメかと思ったザマス！
+When attacked by monsters
+I thought I was done for, Zamasu!
+-----------------------
+#リムルは、わたくしの
+#命の恩人ザマス！
+#というわけで、たくさん賭けるザマス！
+Rimuru is my
+lifesaver Zamas!
+So that's why I'm betting big, Zamas!
+-----------------------
+#あなたたち、なんてこと
+#してくれたザマス！
+#リムルに賭けてた分が、パーザマス！
+You guys...
+did what to Zamas!
+The part I bet on Limul is gone, Zamas!
+-----------------------
+#観客
+Spectators
+-----------------------
+#なに、君も出場したいのか？
+#やめたまえ、君では
+#ケガをするだけだぞ
+What, you want to enter too?
+Don't bother. You wouldn't stand a chance.
+You'll just get hurt.
+-----------------------
+#ハハハ、君、<Kyle>に
+#そっくりな格好をしているね
+#彼のファンなのかい？
+Hahaha, you look just like <Kyle>.
+You're dressed almost identically.
+Are you his fan?
+-----------------------
+#ボクには、最初からわかっていたよ
+#キミは、かならずチャンピオンに
+#なれるとね！
+I knew it from the start.
+You'll definitely become a champion,
+won't you?
+-----------------------
+#みんな、リムルがすごいっていうけど････
+#ボクが見るぶんには、まだまだだね
+All of you are saying Rimuru's amazing...
+But from what I can see, she's still got a long way to go.
+-----------------------
+#ボクは前からいってたんだ
+#リムルは、最強だ
+#かなうヤツなんかいないって！
+I've been saying it all along.
+Lumelle is the strongest.
+There's no one who can match her!
+-----------------------
+#ボクの見こみは、やっぱりあってたよ！
+#きみたちが、最強だってね！
+I knew it! My guess was right!
+You guys are the strongest!
+-----------------------
+#コングマン
+Kong Man
+-----------------------
+#コラ！
+#気安く話しかけるんじゃねえ！
+#俺様を誰だと思ってるんだ？
+Hey!
+Don't just start talking to me so casually!
+Who do you think I am?
+-----------------------
+#泣く子も逃げだす
+#天下無敵の元・チャンピオン
+#マイティ＝コングマンさまだぞ!!
+Frightens even the crying children
+The invincible former champion
+It's Mighty Kongman himself!!
+-----------------------
+select
+-----------------------
+#<03:00000000>　知ってる　
+#　知らない　
+<03:00000000>I know.
+I don't.
+-----------------------
+<Kyle>
+-----------------------
+#元・チャンピオン？
+A former champion?
+-----------------------
+<Kyle>
+-----------------------
+#そういえば、母さんから
+#聞いたことあるような気がするな
+Come to think of it, my mother...
+I feel like I've heard that before.
+-----------------------
+<Kyle>
+-----------------------
+#たしか、父さんたちといっしょに
+#旅してた････
+I'm pretty sure I was traveling with Dad and the others.
+back then...
+-----------------------
+#あン？
+Huh?
+-----------------------
+#てめえ、もしかしてスタンの息子か!?
+#どおりで、気にくわねえツラを
+#してやがると思ったぜ！
+You're Stan's kid, aren't ya!?
+No wonder you've got that face I can't stand,
+I figured as much!
+-----------------------
+#あン？
+#この俺様を知らねえだと!?
+Huh?
+You don't know me, this great me!?
+-----------------------
+#知らねえで声をかけるなんて
+#イイ度胸じゃねえか！
+#顔洗って、出直してきやがれ！
+You don't even know what's going on, yet you're still talking to me?
+That takes some serious nerve!
+Wash your face and get out there!
+-----------------------
+#まさか、ここでスタンの息子に
+#出会うとはな
+No way, I ran into Stan's son right here.
+Of all places.
+-----------------------
+#俺様は、てめえが大っキライだ！
+#ベロベロベ～
+I hate your guts!
+Wet as a fish~
+-----------------------
+#おい、スタンの息子！
+#闘技大会に出場しろよ！
+#この闘技場の厳しさを思い知りやがれ！
+You there, Stan's son!
+Enter the tournament!
+Feel the harshness of this arena!
+-----------------------
+#ケッ！　今のうちに、いい気になってろ！
+#だがな、勝利者ってやつは
+#常に誰かに追われる立場なんだぜ！
+#つらいんだぜ！
+Tch! Enjoy it while you can!
+But you see, a winner is always
+in the position of being chased by someone!
+It's tough out there!
+-----------------------
+<Kyle>
+-----------------------
+#ねえ、おじさん
+#どうして、そんなに
+#ケンカ腰なのさ？
+Hey, mister.
+Why are you so...
+on edge?
+-----------------------
+#うるせー！
+#おまえがスタンの息子だからだ！
+#俺様は、スタンが大っキライなんだ！
+Shut up!
+That's because you're Stan's son!
+I hate Stan with a passion!
+-----------------------
+#ケッ！　今のうちに、いい気になってろ！
+#だがな、勝利者ってやつは
+#常に誰かに追われる立場なんだぜ！
+#つらいんだぜ！
+Tch! Enjoy it while you can!
+But you see, winners are always
+in the position of being chased by someone!
+It's tough out there!
+-----------------------
+#ケッ！　今のうちに、いい気になってろ！
+#だがな、チャンピオンってやつは
+#常に誰かに追われる立場なんだぜ！
+#とっっっても　つらいんだぜ！
+Tch! Enjoy it while you can!
+But you see, champions
+are always in a position of being chased!
+It's suuuuper tough out there!
+-----------------------
+#チッ！　どうにも気に食わねえぜ
+#あのリムルの小娘！
+#スカした顔しやがって！
+Tch! I don't like the look of that.
+That little girl from Rymul!
+She's got such a cocky expression on her face!
+-----------------------
+#しかも、報酬を受けとらないだと!?
+#ヘッ、それでカッコつけてるつもりかよ！
+And you're saying you won't take the reward!?
+Hah, you think that makes you look cool?
+-----------------------
+#俺様の現役時代なら、
+#おまえもリムルもひとひねりよ！
+When I was still active,
+You and Rimul are both just amateurs!
+-----------------------
+#あの逃げだしたモンスターなんて
+#ザコ中のザコだぜ!?
+#なのに、他の連中、はやしたてやがって！
+That monster that ran off?
+It was total trash!
+And yet, they're hyping up the others!
+-----------------------
+#気にいらねぇ！
+#どうにも気にいらねぇ！
+#リムルの小娘！
+I don't like it!
+I really don't like it!
+Lum's little girl!
+-----------------------
+#へっ！　リムルを
+#倒したぐらいで、うかれるんじゃねえ！
+Heh! Just because you took down Rimul,
+Don't get too cocky about it!
+-----------------------
+#俺様の現役時代なら、
+#誰もかれも、み～んなひとひねりよ！
+My prime days,
+everyone's got their own little twist to them!
+-----------------------
+#まかせろ！
+Leave it to me!
+-----------------------
+#かかってこい！
+Bring it on!
+-----------------------
+#オレの力を見せてやる！
+I'll show you what I'm made of!
+-----------------------
+#いきます！
+I'm going!
+-----------------------
+#わたしにまかせて
+Leave it to me.
+-----------------------
+#次で終わり？
+Is that it?
+-----------------------
+#よっしゃ行くぜ！
+Alright, let's go!
+-----------------------
+#俺にまかせな！
+I'll take care of it!
+-----------------------
+#次で決めてやるぜ！
+I'll settle it right here!
+-----------------------
+#なんでこの僕が････
+Why is it me...?
+-----------------------
+#不本意だが････
+I didn't want to, but...
+-----------------------
+#まだいるのか
+You're still here?
+-----------------------
+#さあ、始めるよ
+Alright, let's get started.
+-----------------------
+#あたしにまかせな！
+Leave it to me!
+-----------------------
+#ちゃっちゃと終わらせるよ
+I'll wrap this up quickly.
+-----------------------
+#天才<Harold>参上！
+The genius <Harold> has arrived!
+-----------------------
+#おかわりまだぁ？
+Still want seconds?
+-----------------------
+#次のデータよろしく！
+Thanks for the data!
+-----------------------
+#やったぜ！
+We did it!
+-----------------------
+#オレって強い？
+Am I strong?
+-----------------------
+#英雄<Kyle>をよろしく！
+Take care of Hero <Kyle>!
+-----------------------
+#やったやったぁ！
+I did it! I did it!
+-----------------------
+#負けられない！ってね
+I can't afford to lose! That's what I'm saying.
+-----------------------
+#わたしを怒らせないでね
+Don't make me angry.
+-----------------------
+#決まった！
+It's decided!
+-----------------------
+#ナイスだ俺！
+I'm awesome!
+-----------------------
+#どるぅぁぁぁ！
+Doruuuuh!
+-----------------------
+#時間の無駄だ
+Waste of time.
+-----------------------
+#つまらん
+Boring.
+-----------------------
+#やれやれ････
+Well, well...
+-----------------------
+#弱いねぇ
+You're weak.
+-----------------------
+#もっと強いのいないのかい？
+Is there anyone stronger out there?
+-----------------------
+#もう終わりかい？
+Is it over already?
+-----------------------
+#データ採取完了！
+Data collection complete!
+-----------------------
+#天才の力、思い知った？
+Did you get a taste of what genius can do?
+-----------------------
+#ゴメンね
+#私ってば天才だから････
+My bad.
+I'm just that brilliant...
+-----------------------
+#こんなハズじゃ････
+This wasn't how it was supposed to be...
+-----------------------
+#強すぎる････
+It's too strong...
+-----------------------
+#あと一歩だったのに････
+It was just one step away...
+-----------------------
+#やっぱりわたしの力じゃ････
+I guess it's just my power that's...
+-----------------------
+#もうだめ････
+I can't take it anymore...
+-----------------------
+#天国の扉が見える････
+I can see the gates to heaven...
+-----------------------
+#死ぬって！
+I'm gonna die!
+-----------------------
+#これが俺の実力か････
+This is my true strength...
+-----------------------
+#運命は俺に厳しい････
+Fate is harsh on me...
+-----------------------
+#僕がザコにおくれをとるなんて････
+I can't let myself fall behind to some lowly grunt...
+-----------------------
+#この僕が負けるなんて････
+I, of all people, losing...?
+-----------------------
+#こんなお遊びでやられるなんて････
+To be taken out by such a little game...
+-----------------------
+#一回戦負け････
+Losing in the first round...
+-----------------------
+#あたしの負けか････
+I guess I lost...
+-----------------------
+#戦う前に気付くんだった････
+I should've noticed that before we started fighting...
+-----------------------
+#この天才がデータ採取されるなんて････
+To think I'd end up having my data collected...
+-----------------------
+#ちょっと待った････
+Hold on a second...
+-----------------------
+#やり直しを要求するわ
+I'm going to make you start over.
+-----------------------
+{15}{24}{B2}{C0}
+-----------------------
+#いってらっしゃいませ
+Have a good day.
+-----------------------
+#<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
+#お泊まりになりますか？
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+Would you like to stay?
+-----------------------
+#お泊まりになりますか？
+Would you like to stay?
+-----------------------
+select
+-----------------------
+#<03:00000000>　はい　
+#　いいえ　
+<03:00000000> Yes 
+ No 
+-----------------------
+#ごゆっくりお休みください
+Have a good night.
+-----------------------
+#おはようございます
+Good morning.
+-----------------------
+#お金が足りません
+Not enough money.
+-----------------------
+#またのおこしをお待ちしております
+See you again soon.
+-----------------------
+set_parameter( myself, C_PARTY, 0 );
+-----------------------
+wait_map_scroll();
+-----------------------
+exit-party_togather( short spd )
+-----------------------
+notice
+-----------------------
+#{16}{26}{12}{C0}を手に入れました
+{16}{26}{12}{C0}You obtained .
+-----------------------
+notice
+-----------------------
+#<item:FFFFFFFF>を手に入れました
+Acquired <item:FFFFFFFF>.
+-----------------------
+notice
+-----------------------
+#{16}{26}{1A}{C0}がありましたが
+#いっぱいで持てませんでした
+{16}{26}{1A}{C0}There was , but
+I couldn't hold it because it was full.
+-----------------------
+notice
+-----------------------
+#何もありません
+There's nothing here.
+-----------------------
+

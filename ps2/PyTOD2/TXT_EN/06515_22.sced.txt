@@ -1,0 +1,533 @@
+#聖地カルビオラ
+Holy Land Calbiora
+-----------------------
+#聖地カルビオラ
+Holy Land Calbiora
+-----------------------
+PLX0 = %d
+-----------------------
+PLY0 = %d
+-----------------------
+PLX1 = %d
+-----------------------
+PLY1 = %d
+-----------------------
+PLX2 = %d
+-----------------------
+PLY2 = %d
+-----------------------
+PLX3 = %d
+-----------------------
+PLY3 = %d
+-----------------------
+<Kyle>
+-----------------------
+#すげぇや、ラグナ遺跡で見たヤツと
+#同じくらい大きいや！
+Whoa, it's just as big as that thing we saw at the Laguna Ruins.
+It's on the same scale!
+-----------------------
+<Nanaly>
+-----------------------
+#どう、これでなんとかなりそう？
+Well, does that look like it'll work?
+-----------------------
+<Reala>
+-----------------------
+#ええ、それよりも････
+Yes, but rather than that...
+-----------------------
+<Reala>
+-----------------------
+#････いるのでしょう？
+#応えて、フォルトゥナ
+I suppose they are?
+Answer me, Fortuna.
+-----------------------
+#フォルトゥナ
+Fortuna
+-----------------------
+#････よく来ましたね
+#我が聖女よ････
+You've come far.
+My holy maiden...
+-----------------------
+<Kyle>
+-----------------------
+#な、なんだ、こいつ!?
+What... what is this guy!?
+-----------------------
+<Nanaly>
+-----------------------
+#<Reala>、たしか
+#フォルトゥナって言ってたよね!?
+<Reala>, I think
+you said it was Fortuna, right!?
+-----------------------
+<Loni>
+-----------------------
+#それじゃ、これが････
+Well then, is this it...?
+-----------------------
+<Judas>
+-----------------------
+#フォルトゥナだ････
+#現存する、神････
+It's Fortuna...
+The existing god...
+-----------------------
+<Kyle>
+-----------------------
+#本物････なのか････
+#本物の神さま････！
+Is it... real...
+The true God...
+-----------------------
+#フォルトゥナ
+Fortuna
+-----------------------
+#ここに来た理由は、わかっています
+#私の力で、あなたの願いを
+#かなえましょう
+I know why I came here.
+With my power, your wish...
+...shall be granted.
+-----------------------
+#フォルトゥナ
+Fortuna
+-----------------------
+#ですが、その前にひとつ
+#聞いておかなければなりません
+But before that,
+I have to ask you something.
+-----------------------
+<Reala>
+-----------------------
+#････はい
+...Yes.
+-----------------------
+#フォルトゥナ
+Fortuna
+-----------------------
+#エルレインはすでに
+#己がすべきことを見定めています
+Ellein has already
+determined what she needs to do.
+-----------------------
+#フォルトゥナ
+Fortuna
+-----------------------
+#そして、そのために動き
+#多くの人々の信頼を、得ています
+And so, they set into motion
+They have earned the trust of many people
+-----------------------
+<Reala>
+-----------------------
+#････それは、そうかもしれません
+#でも････！
+...That may be true.
+But...!
+-----------------------
+#フォルトゥナ
+Fortuna
+-----------------------
+#わかっています
+#あなたが、エルレインとは
+#異なる道を歩んでいるということは
+I understand.
+You are Elraine,
+and that you're walking a different path.
+-----------------------
+#フォルトゥナ
+Fortuna
+-----------------------
+#二人の聖女、ふたつの道････
+#それは、あなたとエルレインに
+#私が与えた運命です
+Two saints, two paths...
+It is something given to you and Elraine
+by me as your destiny.
+-----------------------
+#フォルトゥナ
+Fortuna
+-----------------------
+#ですが、道は違えど、想いは同じのはず
+#<Reala>、私たちの目的
+#ゆめゆめ忘れぬように
+But even if our paths differ, our feelings should be the same.
+<Reala>, our purpose...
+So that we may never forget.
+-----------------------
+<Reala>
+-----------------------
+#････はい
+......Yes.
+-----------------------
+<Kyle>
+-----------------------
+#ま、待ってよ<Reala>！
+W-wait! <Reala>!
+-----------------------
+<Kyle>
+-----------------------
+#二人の聖女だの、人々を導けだの････
+#いったい、なんのこと!?
+Two holy maidens, leading the people...
+What on earth are you talking about!?
+-----------------------
+<Reala>
+-----------------------
+#それは････
+That is...
+-----------------------
+#フォルトゥナ
+Fortuna
+-----------------------
+#二人の聖女は、私の代理者
+#人々を救いへと導く存在です
+The two Saintesses are my proxies.
+They guide people toward salvation.
+-----------------------
+<Kyle>
+-----------------------
+#神の････代理!?
+God's... proxy!?
+-----------------------
+#フォルトゥナ
+Fortuna
+-----------------------
+#人々の救いを求める想いが、私を
+#そして二人の聖女を生みだしたのです
+The desire to save people...
+...gave birth to those two holy maidens.
+-----------------------
+#フォルトゥナ
+Fortuna
+-----------------------
+#ひとりは、エルレイン
+#そしてもうひとりは、そこにいる、<Reala>
+One is Elrein.
+And the other is right there, .<Reala>
+-----------------------
+#フォルトゥナ
+Fortuna
+-----------------------
+#二人は違う道を歩み、
+#それぞれ人々の救いの姿を、
+#探し求める旅に出たのです
+The two walked different paths,
+each setting out on a journey
+to seek the faces of those they saved.
+-----------------------
+<Loni>
+-----------------------
+#じゃあ、じゃあよ！
+#エルレインがやろうとしてることは････
+#人々を救おうってことなのか!?
+That's it, that's it!
+What Elrein is trying to do...
+Is she trying to save people!?
+-----------------------
+<Kyle>
+-----------------------
+#そんな････
+#ウソだ！
+No way...
+You're kidding!
+-----------------------
+<Kyle>
+-----------------------
+#だってあいつは、ウッドロウさんを、
+#バルバトスに襲わせたり
+#レンズを奪ったりしてたじゃないか！
+Because that guy, he took Mr. Woodrow,
+Send Valbatos to attack them
+You were stealing lenses, weren't you?
+-----------------------
+#フォルトゥナ
+Fortuna
+-----------------------
+#エルレインは結果としてそれが
+#人々の救いにつながると思ったのでしょう
+Ellein believed that in the end,
+it would lead to the salvation of the people.
+-----------------------
+<Kyle>
+-----------------------
+#そんなの････間違ってる！
+#だって、現にウッドロウさんは
+#傷ついてるじゃないか！
+That's... wrong!
+After all, Woodrow is
+getting hurt, isn't he!
+-----------------------
+#フォルトゥナ
+Fortuna
+-----------------------
+#間違っている？
+#････なぜ、そう思うのですか？
+Am I wrong?
+...Why do you think that?
+-----------------------
+#フォルトゥナ
+Fortuna
+-----------------------
+#アイグレッテを見たのでしょう？
+#人々は安全で快適な街の中で、
+#幸福に暮らしています
+You saw Igret, didn't you?
+People live safely and comfortably in their towns,
+enjoying happiness.
+-----------------------
+<Nanaly>
+-----------------------
+#たしかに、なんにも知らなければ
+#あれでも幸福かもしれないね
+True enough, if you know nothing about it,
+maybe that's happiness too.
+-----------------------
+<Nanaly>
+-----------------------
+#けどさ････親から子を奪うのが、
+#幸福だってのかい？
+But seriously... is it really happiness to take children away from their parents?
+Is that what you call happiness?
+-----------------------
+<Nanaly>
+-----------------------
+#生きてるって、実感をなくしちまってるのに
+#本当に幸福なのかい？
+Even though I've lost all sense of what it means to truly live...
+Are you really happy?
+-----------------------
+<Kyle>
+-----------------------
+#そうだ！
+#やっぱり、間違ってる！
+#エルレインもフォルトゥナもおかしいよ！
+That's right!
+I was wrong after all!
+Ellein and Fortuna are both acting weird!
+-----------------------
+<Kyle>
+-----------------------
+#<Reala>だって、そう思うだろ!?
+#言ってやれよ！
+#あんなのは、ぜんぜん幸せじゃないって！
+<Reala>, you think so too, right!?
+Just say it!
+That's not happiness at all!
+-----------------------
+<Kyle>
+-----------------------
+#どうしちゃったんだよ、<Reala>！
+#なんでだまってるんだよ！
+What's gotten into you, <Reala>!
+Why are you staying quiet!
+-----------------------
+<Reala>
+-----------------------
+#わたしだって････
+I can too...
+-----------------------
+<Kyle>
+-----------------------
+#え？
+What?
+-----------------------
+<Reala>
+-----------------------
+#わたしだってエルレインは
+#間違ってると思うわ
+I think Elrein is...
+wrong.
+-----------------------
+<Reala>
+-----------------------
+#でも、エルレインには力がある！
+#あの人のおかげで幸せだと感じている人たちもいる！
+But Elraine has power!
+There are people who feel happy because of her!
+-----------------------
+<Reala>
+-----------------------
+#････けど、私にはなんの力もない！
+#英雄だっていない！
+...But I have no power!
+There are no heroes either!
+-----------------------
+<Reala>
+-----------------------
+#だれひとり幸せにしていないし、
+#どうやれば、幸せにできるのかも
+#わからないもの････
+No one is happy,
+and I don't even know
+how to make them so...
+-----------------------
+<Kyle>
+-----------------------
+#そんな････そんなことない！
+#だって<Reala>はすごい力を････！
+No... No way!
+Because <Reala> has such amazing power...!
+-----------------------
+<Reala>
+-----------------------
+#やめて！
+#なにもわからないくせに、
+#無責任なこと、言わないでよ！
+Stop it!
+You don't understand anything,
+Don't say such irresponsible things!
+-----------------------
+<Kyle>
+-----------------------
+#わからないって････
+#オレは！
+I don't get it...
+Me!
+-----------------------
+<Reala>
+-----------------------
+#あなたには、なにもわからないわ！
+#使命を負うことの重さも、
+#本当の力がどんなものかも！
+You don't understand anything!
+The weight of bearing your duty,
+And what true power really is!
+-----------------------
+<Kyle>
+-----------------------
+#そんなことない！
+No way!
+-----------------------
+<Reala>
+-----------------------
+#わからないわ！
+I don't get it!
+-----------------------
+<Reala>
+-----------------------
+#だって、<Kyle>は聖女でも････
+But I'm not some holy maiden... <Kyle>
+-----------------------
+<Reala>
+-----------------------
+#英雄でもないじゃない！
+I'm no hero, you know!
+-----------------------
+<Kyle>
+-----------------------
+#････ッ!?
+...!
+-----------------------
+<Reala>
+-----------------------
+#････フォルトゥナ
+#わたしたちを、十年前の時代に送って
+Fortuna...
+Send us back to ten years ago.
+-----------------------
+#フォルトゥナ
+Fortuna
+-----------------------
+#いいでしょう
+#お行きなさい、私の聖女よ
+That should suffice.
+Go forth, my holy maiden.
+-----------------------
+#フォルトゥナ
+Fortuna
+-----------------------
+#あなたに幸運があらんことを････
+#すべてが終わったあと、
+#また会いましょう、<Reala>
+I wish you good fortune...
+After everything is over,
+We'll meet again, .<Reala>
+-----------------------
+notice
+-----------------------
+#<Reala>は
+#称号「<item:0000081C>」を得ました
+<Reala> is
+You have earned the title "<item:0000081C>."
+-----------------------
+<Kyle>
+-----------------------
+#レンズがなくなってる････
+The lens is gone...
+-----------------------
+<Nanaly>
+-----------------------
+#いかにもって感じだね
+#きっとこの中にいるんだろうね、エルレインは
+That's just how it is.
+Elrein has to be somewhere in here.
+-----------------------
+<Kyle>
+-----------------------
+#よし、行こう！
+All right, let's go!
+-----------------------
+#いってらっしゃいませ
+Have a good day.
+-----------------------
+#<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
+#お泊まりになりますか？
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+Would you like to stay?
+-----------------------
+#お泊まりになりますか？
+Would you like to stay?
+-----------------------
+select
+-----------------------
+#<03:00000000>　はい　
+#　いいえ　
+<03:00000000> Yes 
+ No 
+-----------------------
+#ごゆっくりお休みください
+Have a good night.
+-----------------------
+#おはようございます
+Good morning.
+-----------------------
+#お金が足りません
+Not enough money.
+-----------------------
+#またのおこしをお待ちしております
+See you again soon.
+-----------------------
+set_parameter( myself, C_PARTY, 0 );
+-----------------------
+wait_map_scroll();
+-----------------------
+exit-party_togather( short spd )
+-----------------------
+notice
+-----------------------
+#{16}{27}{CE}{C0}を手に入れました
+{16}{27}{CE}{C0}You obtained .
+-----------------------
+notice
+-----------------------
+#<item:FFFFFFFF>を手に入れました
+Acquired <item:FFFFFFFF>.
+-----------------------
+notice
+-----------------------
+#{16}{27}{D6}{C0}がありましたが
+#いっぱいで持てませんでした
+{16}{27}{D6}{C0}There was , but
+I couldn't carry it because it was full.
+-----------------------
+notice
+-----------------------
+#何もありません
+There's nothing here.
+-----------------------
+

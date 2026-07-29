@@ -1,0 +1,225 @@
+#デュナミス孤児院
+Dunmais Orphanage
+-----------------------
+#デュナミス孤児院
+Dunmais Orphanage
+-----------------------
+<Loni>
+-----------------------
+#なにしてんだ、<Kyle>？
+#ルーティさんに、話するんだろ？
+What are you doing, <Kyle>?
+You're going to tell Mrs. Rutee, right?
+-----------------------
+#ここは夜の孤児院前です
+In front of the orphanage at night.
+-----------------------
+<Loni>
+-----------------------
+#ルーティさん
+#まだ起きてるみたいだな
+It looks like
+Mrs. Rutee's still awake doesn't it.
+-----------------------
+<Kyle>
+-----------------------
+#････
+...
+-----------------------
+<Loni>
+-----------------------
+#どうする、<Kyle>？
+#旅に出る話、言いづらかったら
+#俺が代わりに････
+Now what, <Kyle>?
+If it's too hard to ask her about going on a journey
+then I always could....
+-----------------------
+<Kyle>
+-----------------------
+#ダメだよ、<Loni>
+#オレ、自分で言うよ
+#そうじゃないと････いけないと思うんだ
+No you can't, <Loni>
+I think this is something....
+I have to do for myself.
+-----------------------
+<Loni>
+-----------------------
+#････そうだな、すまねえ
+#よし！　それじゃいくか！
+....Yeah, I guess you're right.
+Alrighty then!  Shall we!
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#今日ね、また、<Kyle>のこと
+#ぶっちゃったんだけど････
+#なんだか様子がちがったのよ、今回は
+I hit <Kyle> again,
+I know I messed up but....
+this time it's a different situation.
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#なんせ、あの子ったら
+#あたしに歯向かおうとしたのよ
+#このあたしに！
+Can you believe that boy?
+He was talking back to me.
+His own mother!
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#あんたみたいな
+#英雄になりたいってさ、あの子
+#････やっぱり、あんたの子ね
+Just like you
+He wants to be a hero.
+....He is your child, after all.
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#あ～あ、せめて、もう少し
+#あたしに似てくれたらなぁ
+#そんなバカなこと、言わないのに････
+Oh, I wish that he could
+be a little more like me.
+No, I shouldn't be saying something like that....
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#････あ、笑ったでしょ、いま？
+#ふふっ！
+....Ah, Are you laughing at me right now?
+Huh!
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#心配しないで
+#覚悟はできてる････つもり
+Don't worry about me.
+I'm ready to.... to....
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#明日、あの子が打ち明けてきたら
+#そのときは、あたし････
+Tomorrow, when he goes to
+tell me, I'll....
+-----------------------
+<Kyle>
+-----------------------
+#孤児院に帰らなきゃ････
+I have to go back to the orphanage....
+-----------------------
+<Kyle>
+-----------------------
+#母さんに話をしなきゃ････
+I need to talk to Mom....
+-----------------------
+<Kyle>
+-----------------------
+#母さんに話をしなきゃ････
+I need to talk to Mom....
+-----------------------
+special person effect
+-----------------------
+#<03:00000000>光の玉  : SPKIND_SHINE
+#十字    : SPKIND_CROSS
+#円      : SPKIND_CIRCLE
+#線      : SPKIND_GLINE
+<03:00000000>Sphere of Light : SPKIND_SHINE
+Cross : SPKIND_CROSS
+Circle : SPKIND_CIRCLE
+Line : SPKIND_GLINE
+-----------------------
+special person effect
+-----------------------
+#<03:00000000>雨      : SPKIND_RAIN
+#雪      : SPKIND_RAIN
+#火の粉  : SPKIND_RAIN
+#霧      : SPKIND_RAIN
+<03:00000000>Rain : SPKIND_RAIN
+Snow : SPKIND_RAIN
+Ash : SPKIND_RAIN
+Fog : SPKIND_RAIN
+-----------------------
+macro effect
+-----------------------
+#<03:00000000>光の柱  : ef_shinepillar.sce
+<03:00000000>Column of Light  : ef_shinepillar.sce
+-----------------------
+macro person
+-----------------------
+#<03:00000000>はと    : ch_bird.sce
+<03:00000000>is a bird.
+-----------------------
+
+-----------------------
+#いってらっしゃいませ
+Have a good day.
+-----------------------
+#<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
+#お泊まりになりますか？
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+Would you like to stay?
+-----------------------
+#お泊まりになりますか？
+Would you like to stay?
+-----------------------
+select
+-----------------------
+#<03:00000000>　はい　
+#　いいえ　
+<03:00000000> Yes 
+ No 
+-----------------------
+#ごゆっくりお休みください
+Have a good night.
+-----------------------
+#おはようございます
+Good morning.
+-----------------------
+#お金が足りません
+Not enough money.
+-----------------------
+#またのおこしをお待ちしております
+See you again soon.
+-----------------------
+set_parameter( myself, C_PARTY, 0 );
+-----------------------
+wait_map_scroll();
+-----------------------
+exit-party_togather( short spd )
+-----------------------
+notice
+-----------------------
+#{16}{27}{CA}{C0}を手に入れました
+{16}{27}{CA}{C0}You obtained .
+-----------------------
+notice
+-----------------------
+#<item:FFFFFFFF>を手に入れました
+Acquired <item:FFFFFFFF>.
+-----------------------
+notice
+-----------------------
+#{16}{27}{D2}{C0}がありましたが
+#いっぱいで持てませんでした
+{16}{27}{D2}{C0}There was , but
+I couldn't carry it because it was full.
+-----------------------
+notice
+-----------------------
+#何もありません
+There's nothing here.
+-----------------------
+

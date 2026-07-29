@@ -1,0 +1,3041 @@
+#クレスタの街
+Cresta City
+-----------------------
+#クレスタの街
+Cresta City
+-----------------------
+#クレスタの街
+Cresta City
+-----------------------
+#クレスタの街
+Cresta City
+-----------------------
+#クレスタの街
+Cresta City
+-----------------------
+notice
+-----------------------
+#<Loni>は
+#称号「<item:0000080B>」を得ました
+<Loni> acquired the title
+"<item:0000080B>".
+-----------------------
+notice
+-----------------------
+#マップ画面でSELECTボタンを押すことによって
+#「スクリーンチャット」が起動します
+You can activate Screen Chats by pressing
+the SELECT button on the map screen.
+-----------------------
+notice
+-----------------------
+#「スクリーンチャット」では
+#これから目指すべき場所などのヒントや
+#キャラクター同士の楽しいおしゃべりなど
+#様々な会話が行なわれます
+Hints on where to go next,
+amusing conversations between
+characters, and various dialogues
+take place during Screen Chats.
+-----------------------
+notice
+-----------------------
+#いろいろな場面で
+#SELECTボタンを押してみましょう
+Try pushing the SELECT button
+in different settings.
+-----------------------
+<Reala>
+-----------------------
+#ここは････クレスタ？
+Is this...Cresta?
+-----------------------
+<char:000003E8>
+-----------------------
+#<Kyle>を探さないと････
+Need to find <Kyle>
+-----------------------
+menu
+-----------------------
+#<03:00000000>操作説明を聞きますか？
+#　はい　
+#　いいえ　
+#　永久にいいえ　
+<03:00000000>Do you want to hear the operating instructions?
+ Yes 
+ No 
+ Don't ask again
+-----------------------
+notice
+-----------------------
+#メニュー画面でSELECTボタンを押すと
+#ヘルプが表示されます{02}メニューのキャラにカーソルを合わせて
+#<button:00000028>を押すと選択状態になり、別の場所で
+#もう一度<button:00000028>を押すと入換えができます{02}フィールドの森や砂漠、荒野は敵と遭遇する確率が高いので
+#避けて通るようにしましょう{02}武器や防具は装備しないと役に立ちません{02}ちなみに後々役立つ裏技として････
+#<button:00000029>、<button:00000029>で動かずに向きだけを
+#変えることができます{02}こまめにセーブしましょう{02}
+Pressing SELECT on the menu screen
+brings up the help screen.{02} Move the cursor to a character in the menu
+<button:00000028>and press  to select them, then move to another location
+and press <button:00000028> again to swap positions.{02} Forests, deserts, and wastelands in the field have a high encounter rate with enemies,
+so it's best to avoid them.{02} Weapons and armor are useless if not equipped.{02} As a side note, here's a handy trick that will come in useful later...
+<button:00000029>By using  and <button:00000029>, you can change direction without moving.
+{02} Be sure to save frequently.{02}
+-----------------------
+notice
+-----------------------
+#そうですか････
+I see...
+-----------------------
+#おばさん
+Woman
+-----------------------
+#おやおや、こんなに晴れた日に
+#<Loni>、あんたに会えるなんて
+#これも、アタモニさまのお導きかね？
+Well, well, on such a beautiful day
+<Loni>, I never thought I'd get to see you,
+Is this also the divine guidance of Lord Atamoni?
+-----------------------
+<Loni>
+-----------------------
+#アタモニ神団････ね
+#そんなにいいモンじゃなかったぜ
+#おばちゃん
+The Church of Atamoni...
+It wasn't that great,
+anyway.
+-----------------------
+#おばさん
+Woman
+-----------------------
+#<Loni>がクレスタにいてくれれば
+#ルーティも喜ぶだろうよ
+If <Loni> stays in Cresta,
+Rutee would be happy too.
+-----------------------
+#おばさん
+Woman
+-----------------------
+#<Kyle>、旅にでるのかい････？
+<Kyle>, are you going on a trip to...?
+-----------------------
+<Kyle>
+-----------------------
+#えっ！
+#どうしてわかったの？
+What!
+How did you know?
+-----------------------
+#おばさん
+Woman
+-----------------------
+#アンタは、ばか正直だからね
+#すぐに顔にでるんだよ
+You're stupidly honest,
+and it shows on your face.
+-----------------------
+#おばさん
+Woman
+-----------------------
+#やっぱり、英雄の子は英雄なのね
+#がんばっといで、<Kyle>！
+A hero's child is still a hero.
+Keep up the good work, <Kyle>!
+-----------------------
+#おばさん
+Woman
+-----------------------
+#ちょっと、聞いとくれよ！
+#ずっと旅に出てたスタンが
+#戻ってくるんだってさ！
+Hey, hey! Listen to me!
+Stahn's been on the road.
+He's coming back!
+-----------------------
+<Reala>
+-----------------------
+#スタン･･･<Kyle>の父親の？
+#なぜ突然････
+Stahn...<Kyle>'s father?
+Why all of a sudden...
+-----------------------
+#おばさん
+Woman
+-----------------------
+#特に<Kyle>は
+#久しぶりに、父親に会うんだ
+#きっと、よろこぶだろうよ！
+Especially <Kyle>. It's been a long
+time since he's seen his father.
+He's going to be so happy!
+-----------------------
+#おばさん
+Woman
+-----------------------
+#おやまあ、<Kyle>じゃないか！
+#まったく、飛び出していったきり
+#ちっとも戻ってこないんだから！
+Oh, my God, it's <Kyle>!
+He just ran off and never came back!
+And he never came back!
+-----------------------
+<Kyle>
+-----------------------
+#ご、ごめんよ、おばちゃん！
+#そんなに怒らないでくれよ････
+I'm sorry!
+Please don't be so angry...
+-----------------------
+#おばさん
+Woman
+-----------------------
+#ルーティには、顔を見せたのかい？
+#明るく振る舞ってはいるけど
+#さびしいと思うよ
+Did you show your face to Rutee?
+She appears to be cheerful,
+but I think she's lonely.
+-----------------------
+#おばさん
+Woman
+-----------------------
+#<Kyle>、また冒険ごっこに行くのかい
+#まったく、あぶないじゃないかい！
+<Kyle>, you're going on another
+pretend adventure, aren't you?
+-----------------------
+<Kyle>
+-----------------------
+#ごっこじゃなくて、本物の冒険だよ
+#冒険には、ある程度の危険は
+#つきものさ！
+It's not just pretend play; it's a real adventure.
+Adventures come with their share of danger,
+that's just how it is!
+-----------------------
+#おばさん
+Woman
+-----------------------
+#まったく、両親が英雄だからって
+#あんたまで、英雄を目指すことも
+#ないだろうに････
+Honestly, just because your parents are heroes,
+you don't have to aim for heroism yourself,
+do you...?
+-----------------------
+#おじいさん
+Old Man
+-----------------------
+#ぬおお、<Loni>と<Kyle>か！
+#悪ガキどもめ！
+#また、イタズラしにきおったな！
+Oh, <Loni> and <Kyle>!
+You bad boys! You've come to
+play a prank on us again!
+-----------------------
+<Loni>
+-----------------------
+#もう悪ガキあつかいはやめてくれよ
+#まさか、『空飛ぶ入れ歯事件』のこと
+#まだ根に持ってんのか････
+I'm not a bad kid anymore.
+You're not upset about the
+"flying dentures" are you?
+-----------------------
+#おじいさん
+Old Man
+-----------------------
+#ほかの連中は、おまえが
+#アタモニ神団に入って
+#安心しとったようじゃが
+#わしは、だまされんぞ
+The others were thinking that you had
+joined the Atamoni God Cult
+and could rest easy,
+but I won't be fooled.
+-----------------------
+<Kyle>
+-----------------------
+#七年前、イタズラで
+#ジイちゃんのパンツに、ヘビ入れただろ
+#それを、まだ覚えてるんだよ････
+Seven years ago, I put a
+snake in your pants as a
+prank, and I still remember it...
+-----------------------
+#おじいさん
+Old Man
+-----------------------
+#旅支度をして････
+#どうやら、イタズラをするつもりでは
+#なさそうじゃのう
+Get ready to travel. Looks like
+you're not planning on playing
+any tricks on me.
+-----------------------
+#おじいさん
+Old Man
+-----------------------
+#････ふん、いつか
+#こんな日がくることは、わかっとった
+#おまえは、英雄スタンの息子じゃからな
+I knew this day would come,
+because you are the son of
+the hero, Stahn.
+-----------------------
+#おじいさん
+Old Man
+-----------------------
+#ヒューゴの騒乱のとき
+#住む家を失ったわしは、流れ流れて
+#この街にやってきた････
+I lost my home during
+Hugo's Rebellion and
+drifted to this city.
+-----------------------
+#おじいさん
+Old Man
+-----------------------
+#家族と死に別れ、生きる気力もなかった
+#そんなオイボレに、おまえたちは
+#生きる気力をあたえてくれた････
+I was separated from my family by
+death and had no energy to live, but
+you guys gave me the energy to live.
+-----------------------
+#おじいさん
+Old Man
+-----------------------
+#はて？
+#見かけない顔の、お嬢さんじゃな
+Huh?
+You don't look familiar, young lady.
+-----------------------
+#おじいさん
+Old Man
+-----------------------
+#どこから来たのかは知らんが
+#ここには、あんたの知り合いなんぞ
+#ひとりもおらんぞ
+I don't know where they came from.
+There's no one you know here.
+Not a single soul.
+-----------------------
+#おじいさん
+Old Man
+-----------------------
+#お嬢さん
+#ここには、あんたの望むものは
+#何もないよ
+Young lady,
+What you're looking for
+is not here.
+-----------------------
+#おじいさん
+Old Man
+-----------------------
+#おお、シリの青いハナタレ坊主が
+#こんなべっぴんさんを
+#連れてくるとは！
+Oh, Siri's blue-headed boy.
+I never thought I'd see you
+with such a pretty face!
+-----------------------
+<Reala>
+-----------------------
+#まあ、おじいさんったら！
+Oh, Grandpa!
+-----------------------
+<Kyle>
+-----------------------
+#じいちゃん！
+#なに言ってるんだよ！
+Grandpa!
+What are you talking about!
+-----------------------
+#おじいさん
+Old Man
+-----------------------
+#いたずらっ子のハナタレ坊主が
+#べっぴんさんを連れてくるとは
+#やるではないか
+A mischievous little rascal
+bringing along such a beauty
+You've done well.
+-----------------------
+#おじいさん
+Old Man
+-----------------------
+#なんじゃ、悪ガキふたりが
+#首をならべて、どこへ行くんじゃ？
+Where are you two bad boys
+going with your heads together?
+-----------------------
+<Kyle>
+-----------------------
+#へっへ～！
+#冒険だよ、ぼ・う・け・ん！
+Heh heh~!
+It's an adventure, bo-u-ke-n!
+-----------------------
+#おじいさん
+Old Man
+-----------------------
+#ふむ、冒険か
+#晩メシまでには
+#帰ってくるんじゃぞ
+Hmm, an adventure.
+We'll be back in time for dinner.
+Do return.
+-----------------------
+#おじいさん
+Old Man
+-----------------------
+#ふたりとも、晩メシまでには
+#帰ってくるんじゃぞ
+Both of you,
+will be back in time for dinner.
+-----------------------
+#めくりのジョー
+Flippin' Joe
+-----------------------
+#フッハハハ！
+#ひさしぶりだな
+#『つむじ風の<Loni>』よ！
+Huhahaha!
+It's been a while,
+"Whirlwind <Loni>"!
+-----------------------
+#つむじ風の<Loni>
+Whirlwind <Loni>
+-----------------------
+#ムッ！
+#その通り名を知っているおまえは････
+#『めくりのジョー』か！
+Mmm!
+You know my street name ...
+Are you "Flippin' Joe"?
+-----------------------
+#めくりのジョー
+Flippin' Joe
+-----------------------
+#めくりのジョー
+#雷光のネルソン
+#そして、つむじ風の<Loni>
+Flippin' Joe,
+Lightning Nelson,
+and Whirlwind <Loni>.
+-----------------------
+#めくりのジョー
+Flippin' Joe
+-----------------------
+#スカートめくりを極めた者
+#それが、俺たち三人だ
+Those who have mastered the art of
+skirt-flipping, that's us three.
+-----------------------
+#つむじ風の<Loni>
+Whirlwind <Loni>
+-----------------------
+#フッ
+#大人になった今となっては････
+#なつかしい思い出だぜ････
+Hmm.
+Now that I'm an adult...
+It's a nostalgic memory.
+-----------------------
+#めくりのジョー
+Flippin' Joe
+-----------------------
+#かつて『めくりのジョー』と呼ばれた俺も
+#今は宿屋の見習い店員さ
+I was known as "Flippin' Joe".
+Now I'm an apprentice at the inn.
+-----------------------
+#つむじ風の<Loni>
+Whirlwind <Loni>
+-----------------------
+#互いに子供ではいられないということさ
+#友よ････
+That means we can't be
+childish anymore, my friend.
+-----------------------
+#めくりのジョー
+Flippin' Joe
+-----------------------
+#語り継ごうぜ
+#俺たちが作った伝説を
+Let's tell stories of the
+legends we've created.
+-----------------------
+<Kyle>
+-----------------------
+#スカートめくりの伝説なんて
+#語り継がないでくれよ････
+Don't tell me it's the
+Legend of the Skit Flipper...
+-----------------------
+#青年
+Youth
+-----------------------
+#クレスタは平和だな
+#この平和が永遠に続くなんて
+#素晴らしいだろ？
+Cresta is peaceful.
+I can't believe this peace will last forever.
+It's wonderful, isn't it?
+-----------------------
+#青年
+Youth
+-----------------------
+#クレスタにお客さんとは珍しいね
+#ダリルシェイドから来たのかい？
+A customer at Cresta? That's unusual.
+Did you come from Darryl Shade?
+-----------------------
+#青年
+Youth
+-----------------------
+#俺もダリルシェイドみたいな
+#都会で暮らしたいよ
+I want to live in Darilsheid.
+I wish I lived in the city.
+-----------------------
+#めくりのジョー
+Flippin' Joe
+-----------------------
+#ど、どうしたんだ、<Kyle>？
+#元気ないじゃないか
+What's wrong with you, <Kyle>?
+You don't look well.
+-----------------------
+<Kyle>
+-----------------------
+#うん････
+#ちょっと、ね
+Yeah...
+A little, you know.
+-----------------------
+#めくりのジョー
+Flippin' Joe
+-----------------------
+#らしくないぜ<Kyle>
+#お前に暗い顔は似合わないぞ？
+You're not acting like yourself, man.<Kyle>
+You don't look good with that gloomy face.
+-----------------------
+#めくりのジョー
+Flippin' Joe
+-----------------------
+#スカートめくりのテクニックを
+#戦いに応用すれば、勝利はたやすいハズだ
+Apply that skirt-lifting technique
+to combat, and victory should be easy.
+-----------------------
+#めくりのジョー
+Flippin' Joe
+-----------------------
+#どうだ？技を教えてやろうか？
+How about it? Want me to teach you a technique?
+-----------------------
+<Kyle>
+-----------------------
+#････
+#いえ、結構です････
+...
+No, thank you...
+-----------------------
+#めくりのジョー
+Flippin' Joe
+-----------------------
+#フッハハハ！
+#『つむじ風の<Loni>』よ！
+#また共に技を磨かないか？
+Huhahaha!
+Whirlwind <Loni>!
+SHall we hone our skills together again?
+-----------------------
+<Loni>
+-----------------------
+#ジョー、どうでもいいけど
+#店番サボってばかりいると
+#そのうち、クビになっちまうぞ
+Joe, I don't care what you do,
+but if you keep skipping work,
+you're going to get fired.
+-----------------------
+#めくりのジョー
+Flippin' Joe
+-----------------------
+#帰らぬ日々に思いをはせて
+#俺は今日も、スカートをめくるのさ
+Thinking about the days I'll never return,
+I'm flippin'skirt today.
+-----------------------
+notice
+-----------------------
+#<Loni>は
+#称号「<item:0000082E>」を得ました
+<Loni> acquired the title,
+"<item:0000082E>".
+-----------------------
+#女の子
+Girl
+-----------------------
+#あら、<Loni>じゃない！
+#おかえりなさい！
+#久しぶりの故郷はどう？
+Oh, <Loni>!
+Welcome back! How's it coming
+back home after all these years?
+-----------------------
+<Loni>
+-----------------------
+#俺がここにいたころと
+#ほとんどなにも変わってないな
+#でも、なんだかホッとするよ
+Almost nothing has
+changed here since I left.
+It's kind of a relief.
+-----------------------
+#女の子
+Girl
+-----------------------
+#そうね、変化はないけど
+#ここではみんなが平和に暮らしてる
+#<Kyle>のご両親のおかげでね
+Yeah, well, nothing's changed.
+We're all living in peace here.
+Thanks to <Kyle>'s parents.
+-----------------------
+#女の子
+Girl
+-----------------------
+#スタンさんとルーティさんが
+#ヒューゴを止めてくれたからこそ
+#今の私たちがあるんだものね
+Mr. Stahn and Mr. Rutee
+stopped Hugo, and that's
+why we're here today.
+-----------------------
+#女の子
+Girl
+-----------------------
+#二人には感謝しても
+#しきれないくらいよ
+We can never thank you enough,
+for everything.
+-----------------------
+#女の子
+Girl
+-----------------------
+#よ～し、おさんぽはおしまい！
+#早く帰って、ゴハンを作らないと
+#その後は、お洗濯と買い物と････
+Okay, that's it for the walk!
+I've got to get home early and make dinner,
+and then I've got laundry and shopping and...
+-----------------------
+<Loni>
+-----------------------
+#よお、お前さん
+#今日もキレイだなぁ
+Hey, you.
+You're looking good today.
+-----------------------
+#女の子
+Girl
+-----------------------
+#なに言ってるの
+#ホコリまみれだし、お化粧もしてないし
+#私なんか、ダメですよ～だ
+What are you talking about, I'm covered
+in dust, and don't have any makeup on.
+I'm no good!
+-----------------------
+#女の子
+Girl
+-----------------------
+#<Loni>、あなた相変わらず
+#見境無く女の子をくどいてるのね････
+<Loni>, you're still
+hitting on girls...
+-----------------------
+#女の子
+Girl
+-----------------------
+#ね、あんまり近くで見ないでよ
+#ホコリまみれで
+#恥ずかしいんだから
+Don't look at me from too close.
+Dusty all over.
+It's embarrassing.
+-----------------------
+<Loni>
+-----------------------
+#わかってないな････
+#そういうトコロが
+#カワイイんだぜ････
+You don't get it...
+That's what makes you
+so cute...
+-----------------------
+#女の子
+Girl
+-----------------------
+#<Kyle>が、うれしそうに
+#話してくれたの
+#もうすぐ、お父さんが帰ってくるって
+<Kyle> was so happy
+to hear that his father
+would be home soon.
+-----------------------
+#女の子
+Girl
+-----------------------
+#<Kyle>の、あんなに
+#うれしそうな顔、久しぶりに見たわ
+#なんだか、私もうれしくなっちゃった
+<Kyle>, that look of yours...
+I haven't seen you smile so happily in ages!
+It's making me happy too somehow.
+-----------------------
+#女の子
+Girl
+-----------------------
+#あれ、<Kyle>････？
+#なんだか、フンイキが変わったわね
+#誰かと思っちゃった
+Hey, <Kyle>...?
+Sorry, I thought you
+were someone else.
+-----------------------
+#女の子
+Girl
+-----------------------
+#旅をすると、人間って
+#成長するものなのね････
+When you travel,
+you grow as a person...
+-----------------------
+#女の子
+Girl
+-----------------------
+#でも、アナタが旅に出たのって
+#ほんの少し前じゃなかったっけ？
+But wasn't it only a short while
+ago that you started your journey?
+-----------------------
+#女の子
+Girl
+-----------------------
+#人間って短期間で
+#かわるものねー
+People change in
+such a short time.
+-----------------------
+#女の子
+Girl
+-----------------------
+#ふたりとも、旅に出るんですってね
+#<Loni>！
+#あなたは特に気をつけるのよ！
+You two are really heading out on a journey, huh?
+<Loni>!
+You'd better watch your step especially carefully!
+-----------------------
+<Loni>
+-----------------------
+#ちょっと待て
+#それは、俺の方が
+#頼りないっていうことか？
+Hold on a second.
+That's because I'm...
+Are you saying I'm unreliable?
+-----------------------
+#女の子
+Girl
+-----------------------
+#そうよ
+#最近は、<Kyle>の方が
+#大人っぽく見えるんだモン
+That's right.
+Lately, <Kyle> seems to be...
+...looking more mature.
+-----------------------
+#女の子
+Girl
+-----------------------
+#いってらっしゃい！
+#ふたりとも、あんまり危ないことしちゃ
+#ダメよ
+Have fun!
+You two shouldn't go getting into too much trouble,
+okay?
+-----------------------
+#バケツおじさん
+Bucket Man
+-----------------------
+#ルーティは、十八年前の戦いで
+#「英雄」とまで呼ばれた人物だ
+#望めば、楽な生活だってできたハズだ
+Rutee was,
+a figure even called a "hero" in the battle eighteen years ago.
+If she had wanted to, she could have lived an easy life.
+-----------------------
+#バケツおじさん
+Bucket Man
+-----------------------
+#なのに、あいつはこの街と孤児院を
+#再建することを選んだ
+#まったく、大したやつだよ
+Even so, that guy chose to
+rebuild this town and the orphanage.
+Good grief, what an incredible fellow.
+-----------------------
+<Kyle>
+-----------------------
+#そう考えると、母さんって
+#スゴい人なんだよなぁ
+#････普段は、ただの怒りんぼだけど
+When you think about it, Mom is...
+such an amazing person.
+...Usually she's just a grump, though.
+-----------------------
+#バケツおじさん
+Bucket Man
+-----------------------
+#<Kyle>、<Loni>
+#もし、ルーティが困ってたら
+#何なりと言ってくれよ
+<Kyle>, <Loni>,
+If Rutee is in trouble,
+just say the word.
+-----------------------
+#バケツおじさん
+Bucket Man
+-----------------------
+#ひとりで孤児院を支えてるんだ
+#苦しいことだってあるだろう
+#すぐに力を貸すからな
+You're running an orphanage all by yourself.
+I know how hard it can be.
+I'm here to help you.
+-----------------------
+#バケツおじさん
+Bucket Man
+-----------------------
+#孤児院も、だいぶガタがきてるだろ
+#いっちょ建て直すってのはどうだ？
+#木なら、俺が切ってくるからよ
+The orphanage's pretty much falling apart.
+How about rebuilding it together?
+If it's a tree, I'll cut it
+-----------------------
+<Kyle>
+-----------------------
+#気持ちはうれしいけど
+#たぶん必要ないと思う
+#母さん、あの建物気に入ってるから
+I appreciate the sentiment,
+but probably don't need it,
+because mom and I love that building.
+-----------------------
+#バケツおじさん
+Bucket Man
+-----------------------
+#そっか、そうだな
+#あれは、ルーティがスタンと建てた
+#思い出のある建物だったな
+I see, that makes sense.
+That was built by Rutee and Stan.
+It was a building filled with memories.
+-----------------------
+#バケツおじさん
+Bucket Man
+-----------------------
+#どんなに不便でも
+#何物にも代えがたいものがある
+#あの建物も、そうだってわけか････
+No matter how inconvenient it is,
+there are things that cannot be replaced.
+So that building is like that too, huh...?
+-----------------------
+#バケツおじさん
+Bucket Man
+-----------------------
+#<Kyle>も<Loni>も
+#幸せそうな顔してらぁ
+<Kyle> and <Loni>,
+look how happy you are.
+-----------------------
+#バケツおじさん
+Bucket Man
+-----------------------
+#二人が幸せだと
+#俺たちも幸せだぜ
+When you're happy,
+we're happy, too.
+-----------------------
+#バケツおじさん
+Bucket Man
+-----------------------
+#毎日が幸せだぜ
+#怖いくらいに････
+I'm so happy every day,
+it's scary...
+-----------------------
+#バケツおじさん
+Bucket Man
+-----------------------
+#どうしたんだよ、<Kyle>？
+#めずらしく帰ってきたと思ったら
+#シケた顔しやがって
+What's wrong, <Kyle>?
+I thought you were coming home for once,
+with that gloomy look on your face.
+-----------------------
+#バケツおじさん
+Bucket Man
+-----------------------
+#いつも、バカみたいに前を見てる
+#それが、おまえの長所だったハズだぜ
+#いったい、どうしたってんだよ？
+You're always looking ahead like an idiot.
+I thought that was your strong suit.
+What the hell happened to you?
+-----------------------
+#バケツおじさん
+Bucket Man
+-----------------------
+#なんだよ、<Kyle>
+#また、ルーティにナイショで
+#冒険ごっこか？
+<Kyle>, are you going on
+another adventure without
+telling Rutee?
+-----------------------
+<Kyle>
+-----------------------
+#ごっこじゃないって！
+#本当の冒険に出るんだよ！
+We're not playing games!
+We're going on a real adventure!
+-----------------------
+#バケツおじさん
+Bucket Man
+-----------------------
+#はっはっは！　そうだったな
+#冒険に出て、英雄になるってのは
+#ずっと、おまえの夢だったもんな
+Hahaha!　Right...
+Going on adventures and becoming a hero...
+It's always been your dream, right?
+-----------------------
+#バケツおじさん
+Bucket Man
+-----------------------
+#おまえなら、きっと英雄になれるさ
+#なんてったって、身近にふたりも
+#お手本がいるんだからな！
+I'm sure you'll be a hero,
+after all, you have two role
+models close by!
+-----------------------
+#富豪
+Millionaire
+-----------------------
+#私の娘がこの街に
+#嫁いだのだがな
+My daughter married
+into this city.
+-----------------------
+#富豪
+Millionaire
+-----------------------
+#こんなさびれた所より
+#アイグレッテのほうがいいに決まっとる
+This place is so deserted,
+Aigrette is much better.
+-----------------------
+#富豪
+Millionaire
+-----------------------
+#娘の幸せのためにも
+#アタモニ神のご加護のある
+#アイグレッテにつれもどさにゃならん
+For the sake of my daughter's happiness,
+I must bring her back to Aigrette, where
+Atamoni has blessed her.
+-----------------------
+#富豪
+Millionaire
+-----------------------
+#幸せになりたければ
+#アタモニ神のおひざもとである
+#アイグレッテに住むべきだと思わんか？
+If you want to be happy,
+don't you think you should
+live in Aigrette,  closer to Atamoni?
+-----------------------
+<Kyle>
+-----------------------
+#オレ、ここに住んでるけど
+#普通に幸せだよ？
+But I live here, and
+I'm happy as can be?
+-----------------------
+#富豪
+Millionaire
+-----------------------
+#こんなさびれた街じゃ
+#幸せになることはできん！
+You can't be happy in
+this deserted city!
+-----------------------
+#富豪
+Millionaire
+-----------------------
+#････そう思って、娘夫婦を
+#アイグレッテにつれ帰ろうと思っていたが
+#間違えてたのかもしれん････
+...that's what I thought, and I was going to
+take my daughter and her husband back to Aigrette,
+but maybe I was wrong.
+-----------------------
+#富豪
+Millionaire
+-----------------------
+#娘の幸せそうな顔を見てたら
+#むりやりアイグレッテにつれ帰るなんて
+#バカバカしく思えてきたんだ
+Seeing my daughter's happy face
+made me think it would be foolish
+to force her to come home to Aigrette.
+-----------------------
+#富豪
+Millionaire
+-----------------------
+#人間、どこでだって
+#どんな環境でだって
+#幸せになれるもんだな
+No matter where you are as a human,
+no matter what environment you're in,
+you can find happiness.
+-----------------------
+#富豪
+Millionaire
+-----------------------
+#仕事休みを利用して
+#娘夫婦に会いにきたんだが
+#こんな田舎だとは思わなかったよ
+I came here on my day off from work
+to see my daughter and her husband,
+but I didn't realize how rural it was.
+-----------------------
+#富豪
+Millionaire
+-----------------------
+#でも二人とも幸せそうだし
+#よかったよかった
+But they both look happy,
+which is good, good, good.
+-----------------------
+#富豪
+Millionaire
+-----------------------
+#どんなに貧しくても
+#幸せなのが一番！
+#そうは思わんかね？
+No matter how poor you are,
+you should be happy!
+Don't you think so?
+-----------------------
+#女性
+Woman
+-----------------------
+#アイグレッテではレンズさえあれば
+#アタモニ神団の人たちが
+#奇跡の力で助けてくれるの
+In Aigrette, as long as you have a lens,
+the Church of the Atamoni can help you
+with their miraculous powers.
+-----------------------
+#女性
+Woman
+-----------------------
+#でも、ここでは
+#自分で努力しなきゃいけないでしょ？
+#それが楽しいのよね♪
+But here, you have to do
+the work yourself, right?
+That's what makes it fun♪
+-----------------------
+<Kyle>
+-----------------------
+#う～ん････
+#楽するより努力するのが楽しいの？
+#よく、わかんないなあ
+Hmmm...it's more fun to
+work hard than to have fun?
+I don't get it.
+-----------------------
+#女性
+Woman
+-----------------------
+#いっしょに住んでる人たちも親切だし
+#ほんと、この街はいいところよ
+The people who live here are nice,
+and it's a really nice place to live.
+-----------------------
+#女性
+Woman
+-----------------------
+#あら、<Kyle>
+#あそびにいくの？
+#たまには、手伝いもしなきゃダメよ
+Hey, <Kyle>.
+Are you going out to play?
+You have to help out once in a while.
+-----------------------
+<Kyle>
+-----------------------
+#遊びじゃないよ！
+#今度はホンモノの冒険に
+#行くのさ！
+I'm not playing!
+We're going on a
+real adventure!
+-----------------------
+<Kyle>
+-----------------------
+#父さんみたいな
+#英雄になって帰ってくるからね！
+I'll come back a hero,
+just like my dad!
+-----------------------
+#女性
+Woman
+-----------------------
+#ふーん
+#英雄になる前に、ちゃんとお掃除が
+#出来るようになってね
+Hmmm...
+before you become a hero,
+learn to clean up properly.
+-----------------------
+#女性
+Woman
+-----------------------
+#<Kyle>、あんまりムリしないでね
+#<Loni>は<Kyle>に
+#へんなあそびばかり教えちゃダメよ
+<Kyle>, don't push yourself too hard, okay?
+<Loni>, don't teach <Kyle>
+nothing but weird games.
+-----------------------
+<Loni>
+-----------------------
+#俺って信用ねえんだな････
+I don't trust you...
+-----------------------
+#女性
+Woman
+-----------------------
+#ふふっ
+#わたし、もうすぐお母さんになるのよ♪
+#元気な子が生まれたらいいなあ
+Hmm.
+I'm going to be a mother soon♪
+I hope to have a healthy baby.
+-----------------------
+<Reala>
+-----------------------
+#赤ちゃんかぁ
+#これから生まれてくる子どものためにも
+#がんばらなきゃね♪
+A baby.
+I have to do my best
+for the child to be born♪
+-----------------------
+<Kyle>
+-----------------------
+#<Reala>････
+<Reala>...
+-----------------------
+#女性
+Woman
+-----------------------
+#ふふっ
+#わたし、もうすぐお母さんになるのよ♪
+#元気な子が生まれたらいいなあ
+Fufu~
+I'm going to be a mother soon♪
+I hope to have a healthy baby.
+-----------------------
+<Kyle>
+-----------------------
+#えっ！
+#まさか<Loni>の子じゃ････
+Eh!
+No way, <Loni>'s child...
+-----------------------
+#女性
+Woman
+-----------------------
+#そんなわけないでしょ！
+Hell nah!
+-----------------------
+#女性
+Woman
+-----------------------
+#アイグレッテの両親が
+#わたしのようすを見にきてるの
+My parents from Aigrette
+are here to see how I'm doing.
+-----------------------
+#女性
+Woman
+-----------------------
+#親っていうのは
+#いくつになっても子どものことが
+#心配なものなのね････
+Parents are always worried
+about their children, no matter
+how old they are.
+-----------------------
+<Loni>
+-----------------------
+#<Kyle>も
+#スタンさんやルーティさんに
+#心配かけっぱなしだもんな
+I'm still worrying about <Kyle>, too!
+Like Stan-san and Rutee-san,
+He's been causing us worry this whole time.
+-----------------------
+#女性
+Woman
+-----------------------
+#親になったら
+#お母さんたちの気持ちが
+#少しはわかるのかしら？
+I wonder if I'll better understand
+how mothers feel a little when I
+become a parent?
+-----------------------
+NOTICE
+-----------------------
+#<item:0000012F>を手に入れました
+Acquired <item:0000012F>.
+-----------------------
+#女性
+Woman
+-----------------------
+#って、コラ！
+#勝手に触らないの！
+Hey!
+Don't touch that!
+-----------------------
+NOTICE
+-----------------------
+#<item:0000012F>を元に戻しました
+Returned <item:0000012F>.
+-----------------------
+#女性
+Woman
+-----------------------
+#代わりにコレをあげるわ
+I'll give you this instead.
+-----------------------
+#女性
+Woman
+-----------------------
+#<Kyle>！
+#おねーさん、言うコト聞かない子は
+#キライよ！
+<Kyle>!
+I hate kids who
+don't listen to me!
+-----------------------
+#おじさん
+Man
+-----------------------
+#そうだな！
+#森の中はねらわれやすいから
+#なるべく避けて歩いた方がいいよなぁ
+That's right!
+It's easy to get trapped in the woods.
+Better avoid the forest as much as possible.
+-----------------------
+#おじさん
+Man
+-----------------------
+#デカい木が生えた遺跡があるが、
+#あぶなくて、みんな近づかねぇな！
+There's a ruin with a big tree growing out
+of it, but it's too dangerous to get close!
+-----------------------
+#おじさん
+Man
+-----------------------
+#お、<Kyle>
+#冒険に出るってのはホントか？
+Oh, <Kyle>. Is it true that
+you're going on an adventure?
+-----------------------
+<Kyle>
+-----------------------
+#ああ、英雄になるために
+#行ってくるよ！
+Yep, to be a hero.
+Off I go!
+-----------------------
+#おじさん
+Man
+-----------------------
+#ならよく聞け<Kyle>！
+Then listen up, <Kyle>!
+-----------------------
+#おじさん
+Man
+-----------------------
+#････････
+#････････
+......
+......
+-----------------------
+#おじさん
+Man
+-----------------------
+#････何を言おうとしたか忘れちまったぁ
+I forgot what I was going to say.
+-----------------------
+#おじさん
+Man
+-----------------------
+#思いだせんなぁ
+I don't recall.
+-----------------------
+#おじさん
+Man
+-----------------------
+#アクアヴェイルって知ってるか？
+#なんでも、建物も住民の服装も
+#ちょっと変わった雰囲気の街らしいぜ
+Do you know about Aqua Vale?
+It seems that both the buildings and the residents' clothing
+are quite unique in atmosphere.
+-----------------------
+#おじさん
+Man
+-----------------------
+#アクアヴェイルは、このクレスタから
+#海をこえてずっと北東の方向にあるらしい
+#一度行ってみたいもんだな
+Aquaveil is located across the ocean
+from Cresta, all the way to the northeast.
+I'd like to go there some day.
+-----------------------
+#おじさん
+Man
+-----------------------
+#アクアヴェイルは、このクレスタから
+#海をこえてずっと北東の方向にあるらしい
+#一度行ってみたいもんだな
+Aquaveil is located across the ocean
+from Cresta, all the way to the northeast.
+I'd like to go there some day.
+-----------------------
+#光り物好きなメイド
+Maid Who Likes Shiny Things
+-----------------------
+#レンズ<0B:00000001><num:00000005><0B:00000000>枚で
+#ダリルシェイドへの
+#行き方を知りたくない？
+Lens <0B:00000001><num:00000005><0B:00000000> piece
+To Darry Shade
+Don't you want to know how to get there?
+-----------------------
+select
+-----------------------
+#　聞きたい　
+#　自力でいきます　
+ Let's hear it 
+ I'm on my own
+-----------------------
+#光り物好きなメイド
+Maid Who Likes Shiny Things
+-----------------------
+#へへ････まいど♪
+Heheh...maid♪
+-----------------------
+#光り物好きなメイド
+Maid Who Likes Shiny Things
+-----------------------
+#ダリルシェイドへ行くには
+#ラグナ遺跡の近くの橋を渡るの
+#そうすると街道があるの
+To get to Darilsheid, you'll have to
+cross the bridge near the Laguna ruins,
+and then you'll find the road.
+-----------------------
+#光り物好きなメイド
+Maid Who Likes Shiny Things
+-----------------------
+#その街道を進むと海が見える
+#右手に見えるのがダリルシェイドよ
+You'll see the sea if you continue down that road.
+That's Darylshade over there to your right.
+-----------------------
+#光り物好きなメイド
+Maid Who Likes Shiny Things
+-----------------------
+#････って、足りてないじゃない！
+Tsk...it's not enough!
+-----------------------
+#光り物好きなメイド
+Maid Who Likes Shiny Things
+-----------------------
+#さまよい続けても
+#しらないからネ
+I don't care if
+you keep wandering.
+-----------------------
+#ワン！
+Woof!
+-----------------------
+#古びた記念碑がある
+#『クレスタの復興と世界の平和を記念して
+#　　　　　　ウッドロウ＝ケルヴィン寄贈』
+There's an old monument.
+"In memory of Cresta's restoration
+and world peace. Gift from Garr Kelvin".
+-----------------------
+#警鐘だ
+#村に何かあった場合、鳴らされる事になっている
+A warning bell. It's supposed to be rung
+if anything happens to the village.
+-----------------------
+notice
+-----------------------
+#鳴らしてみますか？
+Do you want to ring it?
+-----------------------
+select
+-----------------------
+#<03:00000000>　鳴らしてみる　
+#　興味無い　
+<03:00000000> I'll give it a whirl 
+ Not interested 
+-----------------------
+#おばさん
+Woman
+-----------------------
+#<size:00000200><char:000003E8>！
+#イタズラしちゃダメでしょ！
+<size:00000200><char:000003E8>!
+You shouldn't play pranks like that!
+-----------------------
+#美味しそうな野菜が実っている
+#ちょうど収穫時のようだ
+Delicious-looking vegetables are growing here.
+Looks like it's harvest time.
+-----------------------
+NOTICE
+-----------------------
+#<item:0000005B>を３個、手に入れました
+Acquired 3x <item:0000005B>.
+-----------------------
+#用水路だ
+#噴水がくみ上げた水を村に引き込んでいる
+A canal. The fountains draw
+the water into the village.
+-----------------------
+#用水路の奥は暗くて見えないが
+#小川に通じているのだろう
+The back of the canal is too dark to
+see, but it must lead to the creek.
+-----------------------
+#ごろごろと水車がまわっている
+#中で粉をひいているのだろう
+The waterwheel is spinning around and around.
+Maybe they're grinding flour inside.
+-----------------------
+#風力を利用した噴水がある
+#クレスタのシンボルだ
+There's a wind-powered fountain,
+the symbol of Cresta.
+-----------------------
+#看板がある
+#『デュナミス孤児院へ』
+There's a sign:
+"To Dunamis Orphanage".
+-----------------------
+#看板がある
+#『ここはクレスタ　全てが始まる場所』
+There's a sign:
+"Cresta, where it all begins".
+-----------------------
+#カーテンが閉められている　中は見えない････
+The curtains are closed. You can't see inside.
+-----------------------
+#孤児院の子供たちが植えた花だ
+The flowers were planted by the children at the orphanage.
+-----------------------
+#孤児院の子供たちが植えた花だ
+#これは何の花だろう？
+These are flowers planted by the children at the orphanage.
+I wonder what kind of flower this is?
+-----------------------
+#孤児院の子供たちが植えた花だ
+#『配合実験中・ユニー作』と書かれている
+The flowers were planted by the children at the orphanage.
+It says 'Formulation in progress - Made by Uny'.
+-----------------------
+#用水路が深くなっている
+#これ以上は進めそうもない
+The canal is getting deeper,
+and we can't go any further.
+-----------------------
+#謎の戦士
+Mysterious Warrior
+-----------------------
+#私は数多の激戦を潜り抜けてきた
+#勇者になる予定の者だ
+#君たちにとって戦いとは
+#なんたるものかね？
+I have survived countless fierce battles.
+The one destined to become a hero.
+To you all, what is battle?
+What manner of thing is it?
+-----------------------
+select
+-----------------------
+#<03:00000000>　楽勝　
+#　普通　
+#　つらい　
+<03:00000000> Easy 
+ Normal 
+ Hard
+-----------------------
+#ほほう
+#さすればより華麗に戦いGRADEを
+#積み重ねていくとよい
+Ohh?
+By the way, it's better to fight
+more splendidly and accumulate GRADE.
+-----------------------
+#まあ命を大事にな
+Well, take care of yourself.
+-----------------------
+#なんと
+#つまり初心者まるだしかね
+What?
+So you're just a beginner?
+-----------------------
+select
+-----------------------
+#<03:00000000>　はい　
+#　いいえ　
+<03:00000000> Yes 
+ No
+-----------------------
+#それはすなわちみんなから
+#ビギナービギナー呼ばれてもいいのかね
+That is, can everyone call
+you a beginner beginner?
+-----------------------
+select
+-----------------------
+#<03:00000000>　はい　
+#　いいえ　
+<03:00000000> Yes 
+ No
+-----------------------
+#むう
+#まあ誰でも最初は怖いものだ
+#経験をつみたまえよ
+Mmm.
+Well, everyone's scared at first.
+Get some experience.
+-----------------------
+notice
+-----------------------
+<Kyle> and party got the title
+"<item:00000853>".
+-----------------------
+#戦いから逃げちゃいかんな！戦士なら
+You can't run from a fight! You're a warrior.
+-----------------------
+#何か答えたまえ
+What's your answer?
+-----------------------
+#いってらっしゃいませ
+Take care.
+-----------------------
+#<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
+#お泊まりになりますか？
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald.
+Would you like to stay?
+-----------------------
+#お泊まりになりますか？
+Would you like to stay?
+-----------------------
+select
+-----------------------
+#<03:00000000>　はい　
+#　いいえ　
+<03:00000000> Yes 
+ No 
+-----------------------
+#ごゆっくりお休みください
+Have a good night.
+-----------------------
+#おはようございます
+Good morning!
+-----------------------
+#お金が足りません
+Not enough money.
+-----------------------
+#またのおこしをお待ちしております
+We look forward to seeing you again.
+-----------------------
+set_parameter( myself, C_PARTY, 0 );
+-----------------------
+wait_map_scroll();
+-----------------------
+exit-party_togather( short spd )
+-----------------------
+notice
+-----------------------
+#{16}{26}{2A}{C0}を手に入れました
+Acquired {16}{26}{2A}{C0}.
+-----------------------
+notice
+-----------------------
+#<item:FFFFFFFF>を手に入れました
+Acquired <item:FFFFFFFF>
+-----------------------
+notice
+-----------------------
+#{16}{26}{32}{C0}がありましたが
+#いっぱいで持てませんでした
+There's {16}{26}{32}{C0},
+but can't hold any more.
+-----------------------
+notice
+-----------------------
+#何もありません
+There's nothing here.
+-----------------------
+#<item:00000012>屋
+<item:00000012>-ya
+-----------------------
+#こちらでは<item:00000012>の
+#販売を行っています
+In this area, <item:00000012>'s
+We're handling sales.
+-----------------------
+#<item:00000012>を使ってリファインすると
+#ステキな物が作られることがあるようです
+<item:00000012>If you refine using ,
+it seems you can sometimes create something wonderful.
+-----------------------
+#武器や鎧をリファインすると
+#付加能力が引継がれることがあるようです
+When you refine weapons and armor,
+It seems that added abilities may sometimes carry over.
+-----------------------
+#ひと瓶<0B:00000001>{14}{36}{3C}{C0}<0B:00000000>ガルドになりますが、
+#<item:00000012>を買いますか？
+It'll cost you one bottle's worth of <0B:00000001>{14}{36}{3C}{C0}<0B:00000000> gald.
+<item:00000012>Will you buy ?
+-----------------------
+select
+-----------------------
+#<03:00000000>　買う　
+#　<0B:00000001>{14}{26}{46}{C0}本まとめて買う（{14}{36}{40}{C0}ガルド）<0B:00000000>　
+#　リファイン講座　
+#　いらない　
+<03:00000000>Buy
+<0B:00000001>{14}{26}{46}{C0}Buy all at once ({14}{36}{40}{C0} Gald)<0B:00000000>
+Refine Guide
+No thanks
+-----------------------
+select
+-----------------------
+#<03:00000000>　買う　
+#　リファイン講座　
+#　いらない　
+<03:00000000>Buy
+Refine Course
+No thanks
+-----------------------
+#お買い上げ、ありがとうございます
+Thank you for your purchase.
+-----------------------
+#お買い上げ、ありがとうございます
+Thank you for your purchase.
+-----------------------
+#<item:00000012>はひと瓶
+#<0B:00000001>{14}{36}{3C}{C0}<0B:00000000>ガルドです
+<item:00000012>One bottle's worth.
+<0B:00000001>{14}{36}{3C}{C0}<0B:00000000>That's  Gald.
+-----------------------
+#リファイン講座を聞きたいですか？
+Do you want to hear about Refine?
+-----------------------
+select
+-----------------------
+#<03:00000000>　聞きたい　
+#　聞きたくない　
+<03:00000000>I want to ask.
+I don't want to ask.
+-----------------------
+#何について知りたいですか？
+What would you like to know?
+-----------------------
+select
+-----------------------
+#<03:00000000>　４、スロットについて　
+#　５、装飾品のリファイン　
+#　６、リファインできない装備品について　
+#　前のページ　
+<03:00000000>4. About Slots
+5. Refining Accessories
+6. Equipment That Cannot Be Refined
+Previous Page
+-----------------------
+select
+-----------------------
+#<03:00000000>　１、リファインとは
+#　２、アイテムの変化　　　　　　　　　　
+#　３、装備品の合成　
+#　次のページ　
+<03:00000000>1. Refining is
+2. Item transformations
+3. Equipment synthesis
+Next page
+-----------------------
+#リファインとは、選択したアイテムを
+#別なアイテムに変化させたり
+#武器や防具を合成することのできるコマンドです
+Refine is when you select an item to
+You can transform it into other items.
+This command lets you combine weapons and armor.
+-----------------------
+#リファインを行うのに必要なのは
+#<item:00000012>とレンズです
+What you need to perform Refine is
+<item:00000012>and lenses.
+-----------------------
+#<item:00000012>は、各地にいる
+#私たちルーンボトル屋からお求めください
+<item:00000012>is located in various places
+Please purchase from our Rune Bottle shop.
+-----------------------
+#レンズはモンスターと
+#戦えば拾うことができます
+The lens can be obtained from monsters
+by defeating them.
+-----------------------
+#これを機会に、あなたも
+#どんどんリファインを行ってください
+Take this opportunity to
+refine as much as you can.
+-----------------------
+#アイテムの変化とは、アイテム単体に
+#リファインを行うことによって
+#別なアイテムに変化させることです
+Item changes involve individual items
+by performing Refine
+to transform them into different items
+-----------------------
+#例えば、<item:00000001>にリファインを行うと
+#<item:00000002>に変化し
+#逆に、<item:00000002>にリファインを行うと
+#<item:00000001>に変化します
+For example, if you refine <item:00000001>,
+<item:00000002>it transforms into .
+Conversely, refining <item:00000002>
+<item:00000001>will change it to .
+-----------------------
+#また、装備品単体をリファインすることによって
+#<item:00000001>などのアイテムにも変化します
+You can also refine individual equipment pieces.
+<item:00000001>It will transform into items such as .
+-----------------------
+#ダンジョンなどでアイテムが尽きてしまった時などに
+#行うと、有効な場合もあります
+#もちろん、最初からきちんと準備をしておくほうが
+#賢いといえますが････
+When you run out of items in dungeons or elsewhere,
+this method might come in handy.
+Of course, it's wiser to prepare properly from the start,
+but...
+-----------------------
+#リファインの一番の特徴は
+#やはり、装備品の合成です
+The most notable feature of Refine is
+the synthesis of equipment.
+-----------------------
+#装備品を合成すると
+#お気に入りの装備品に
+#お気に入りのスロットが付いた
+#装備品を作ることができます････
+When you synthesize equipment,
+you can create your favorite gear
+with a custom slot added
+to it.
+-----------------------
+#ああ、まずはスロットの説明を
+#しなければいけませんね
+Ah, first I need to explain how the slots work.
+I suppose.
+-----------------------
+#スロットとは、装備品に
+#付けることができる
+#付加能力のようなものです
+Slots are items you equip
+to your gear that
+grant additional abilities
+-----------------------
+#スロットについては、また別に
+#詳しく説明させていただきます
+As for the slots, we'll cover that separately.
+We will explain it in detail.
+-----------------------
+#いちばん簡単な装備品のリファインは
+#スロットが一つついた装備品どうしの
+#リファインです
+The simplest type of Refine is
+between two pieces of equipment
+that each have one slot.
+-----------------------
+#これを行うと、何とステキなことに
+#スロットが二つ付いた装備品ができます
+What a wonderful thing to do!
+You'll get equipment with two slots.
+-----------------------
+#注意しなければいけないのは
+#剣は剣、鎧は鎧といったように
+#同じ種類の装備品でしか
+#リファインできません
+What you need to keep in mind is
+that swords are for swords, armor is for armor,
+you can only
+Refine items of the same type.
+-----------------------
+#他にもいろいろな組み合わせがありますが
+#それはやってみてのお楽しみです
+There are plenty of other combinations as well.
+You'll just have to try it out and see.
+-----------------------
+#スロットについて
+#詳しく説明いたします
+About Slots
+I will explain in detail.
+-----------------------
+#スロットは数多くの種類があり
+#アタック：攻撃力が上昇します
+#ディフェンス：防御力が上昇します
+#などが代表的なものです
+There are many types of slots available,
+Attack: Increases attack power.
+Defense: Increases defense power.
+among others.
+-----------------------
+#スロットによって装備品の名前も変わります
+#<item:00000078>　＋　アタックで
+#アタックソードなどです
+The name of equipped items also changes depending on the slot.
+<item:00000078>+ Attack
+It's things like Attack Sword.
+-----------------------
+#また、スロットにはレベルがあり
+#レベルが高いと効果も上昇します
+#最高はレベル８です
+Also, slots have levels.
+Higher levels increase their effectiveness.
+The maximum level is eight.
+-----------------------
+#スロット付きの装備品は
+#主にモンスターが落とします
+Equipment with slots is
+mainly dropped by monsters
+-----------------------
+#モンスターとたくさん戦って
+#スロット付き装備品を手に入れて
+#あなただけのスロット付き装備品を
+#作ってみてください
+Battle lots of monsters
+obtain slot-equipped gear
+create your own unique
+slot-equipped equipment
+-----------------------
+#ここだけの話ですが、装飾品も
+#リファインすることができます
+#でも、それは装飾品どうしではありません
+Just between you and me, accessories can also
+be refined.
+But that doesn't apply to combinations of accessories.
+-----------------------
+#装飾品と、装備品のような
+#形でのみリファインが可能なのです
+Like accessories and equipment,
+Refining is only possible in that form.
+-----------------------
+#この場合の利点は、リファインする
+#装備品の場所によってスロットが
+#変化するということです
+#武器、防具によって違います
+This advantage in this case is that refining
+the slots change depending on where
+you equip the items.
+It varies by weapon and armor.
+-----------------------
+#また、装飾品は一つしか装備できないので
+#いらない装飾品を、リファインに活用すれば
+#非常に有効です
+You can also only equip one accessory at a time,
+so if you utilize unnecessary accessories for Refining,
+it's highly effective.
+-----------------------
+#その他にも、外装つまり「マント」も
+#装飾品と同様に装備品とリファインできます
+#その場合はなんと、装備品に属性を
+#付加することができるのです
+Additionally, exterior components, specifically 'cloaks', can also
+be refined just like accessories.
+In that case, remarkably,
+you can even add attributes to your equipment.
+-----------------------
+#装飾品とのリファインもうまく活用し
+#さらにステキなリファイン職人を
+#目指してみてください
+Make good use of refining your accessories as well
+As you aim to find even more wonderful refiners
+go for it.
+-----------------------
+#たまに、装備品の中に黄色い枠の
+#アイコンが付いたものがありますね
+#それは、ユニークアイテムと
+#呼ばれているものです
+Sometimes, among your equipment,
+you'll find items marked with a yellow border icon.
+These are known as
+Unique Items.
+-----------------------
+#ユニークアイテムは見た目にも
+#かっこよく、攻撃力も高く
+#スロットレベルも高いものが多いですが
+#スロットは一つしかありません
+Unique items look cool,
+have high attack power,
+and often have high slot levels,
+but they only have one slot.
+-----------------------
+#しかし、その反面、装飾品以外のユニークアイテムは
+#リファインすることができません
+#これ以上強化することができないのです
+However, on the other hand, unique items other than accessories
+cannot be refined.
+This means they cannot be upgraded any further.
+-----------------------
+#ですから、いらなくなったアイテムは
+#どんどん売ってしまうことをお勧めします
+So, if you have items you no longer need,
+I recommend selling them off as quickly as possible.
+-----------------------
+#なぜなら、アイテムをたくさん持っていると
+#モンスターがアイテムを
+#落としてくれなくなってしまうという
+#噂があるからです
+Because there's a rumor that if you carry too many items,
+monsters won't drop them
+when they're defeated.
+That's why.
+-----------------------
+#････アイテム整理も大切ですね
+...Organizing items is important too.
+-----------------------
+#ベテラン
+Pro
+-----------------------
+#ひよっこ
+Novice
+-----------------------
+notice
+-----------------------
+#「武器攻撃」について
+#話し合っているようです
+#耳を傾けますか？
+How about weapon attacks?
+It seems they're discussing it.
+Do you want to listen in?
+-----------------------
+#さて俺たちも冒険を始めるわけだが、
+#基本は身に付いたか？
+Now that we're starting our adventure,
+have you mastered the basics?
+-----------------------
+#もちろんさ、<button:00000045>で武器攻撃しまくりさ!!
+Of course, you can use <button:00000045> to attack!!
+-----------------------
+#まあそうだが方向キー<button:00000006>、<button:00000021>、<button:00000016>、<button:00000017>
+#と組み合わせることによって、
+#四種類の攻撃が出るぞ！
+True enough, but using the directional buttons <button:00000006>, <button:00000021>, <button:00000016>, and<button:00000017>
+in combination with
+you can unleash four types of attacks!
+-----------------------
+#まずは実際に何度か繰り出してみて、
+#速度や射程を覚えていくといいな
+I'd suggest you actually try it out a few
+times first to learn the speed and range.
+-----------------------
+#連続攻撃はどうやればいいのさ？
+How am I supposed to do a series of attacks?
+-----------------------
+#攻撃中に再度<button:00000045>を押せばいい
+#もちろん方向キー<button:00000006>、<button:00000021>、<button:00000016>、<button:00000017>
+#により攻撃方法は変わるぞ
+Press <button:00000045> again after attacking.
+And <button:00000006>, <button:00000021>, <button:00000016>, <button:00000017> directional keys
+will change the way you attack.
+-----------------------
+#攻撃をするとスピリッツゲージが減る
+#（ＳＰ　戦闘中の<color:00000001>青いゲージ<color:00000007>です）
+#減りすぎたら攻撃を控えて、
+#回復を待ったほうがいい
+Attacking depletes your Spirit Gauge.
+(SP: The blue gauge for <color:00000001> during combat is <color:00000007>.)
+If it drops too low, hold back on attacks,
+and wait for it to recover.
+-----------------------
+#なんでさ？　しまくりゃいいさ
+Why not? Can't I keep doing it?
+-----------------------
+#スピリッツゲージが少ないと
+#攻撃の命中・回避が下がるからな
+#かえって不利な状況になることもある
+#気をつけることだ
+If your spirit gauge is low,
+your accuracy and evasion drops.
+This can fuck you up,
+so be very careful.
+-----------------------
+#防御が成功するとＳＰが多く回復するから、
+#防御<button:00000047>も大切ということだな
+A successful defense will restore more SP.
+So defending with <button:00000047> is also important.
+-----------------------
+notice
+-----------------------
+#「特技」について
+#話し合っているようです
+#耳を傾けますか？
+How about 'Special Techniques'?
+It seems they're discussing it.
+Do you want to listen in?
+-----------------------
+#どうだ、特技を覚えて
+#戦略に幅が出たろう？
+How about it? Learn some special techniques.
+It should give you more strategic options, right?
+-----------------------
+#特技<button:00000046>はつえーけどＴＰがすぐなくなるさ
+#戦闘中も自動的に回復するけど、
+#まだ貧弱なので速度が遅いさ
+Special technique <button:00000046> is pretty good, but TP runs out fast.
+It automatically recovers during battle,
+but it's still weak and slow.
+-----------------------
+#それはそうだ　そこで重要なのが
+#<button:00000045>の通常攻撃となるわけだ
+#一回通常攻撃がヒットすると、
+#ＴＰが１回復するぞ
+That makes sense. What's important here is...
+<button:00000045>This becomes 's normal attack.
+As soon as a normal attack lands,
+You'll recover 1 TP.
+-----------------------
+#じゃあ通常攻撃<button:00000045>しまくりさ
+So I'll just spam regular attacks <button:00000045>.
+-----------------------
+#････ＴＰが余ってももったいないからな
+#術を使ってＳＰを回復させるなど、
+#うまく使っていくのが大切だ
+It'll be a waste to have an excess of TP.
+It's important to use it well, and using
+techniques to recover SP.
+-----------------------
+#ＴＰは敵を倒したときも少量回復する
+#しかも、敵を連携中に
+#まとめて倒したりすると、
+#より多くのＴＰを回復できるのだ
+TP also recovers slightly when you defeat enemies.
+Moreover, if you chain attacks while fighting enemies,
+and take them out in groups,
+you can recover even more TP.
+-----------------------
+notice
+-----------------------
+#「エンチャント」について
+#話し合っているようです
+#耳を傾けますか？
+About "Enchant"
+It seems they're discussing it.
+Do you wish to listen?
+-----------------------
+#エンチャントも覚えたさ
+I've learned enchantment too.
+-----------------------
+#････で、エンチャントって何さ？
+So, what's an enchantment?
+-----------------------
+#うむ　簡単に言えば
+#「覚えている特技、術を
+#　自分好みにカスタムできる能力」だな
+Indeed. In simple terms,
+"the ability to customize your equipped skills and spells"
+to suit your preferences."
+-----------------------
+#まずは使い続けて使用回数を上げること！
+#そうすれば様々なエンチャントが
+#装備できるようになるだろう
+First off, keep using it to rack up usage count!
+That way,
+you'll be able to equip various enchantments.
+-----------------------
+#じゃあ、ひとつの特技を使いまくりさ
+So, I'll just spam one skill.
+-----------------------
+#それもひとつの方法ではあるな
+#ただ、戦闘中はエンチャントは変更できない
+#多くの技に多彩なエンチャントを
+#つけておくのも悪くないぞ
+That's certainly one way to go about it.
+However, you can't change enchantments during battle.
+Applying diverse enchantments to many techniques...
+isn't a bad idea at all.
+-----------------------
+#敵の能力を下げる術を使ってから
+#武器で切り込む････など、特技と術を
+#使いこなすことで戦略は拡がっていく
+#････仲間同士で補い合っていってもいいな
+After using techniques that lower enemy stats
+Weapons for close combat... combining special moves and spells
+Mastering these will expand your strategic options
+...It's also fine to support each other as allies
+-----------------------
+#ちなみに、装備したエンチャントは外せば
+#使用回数は戻るから、いろいろと
+#試してみるのがいいだろう
+By the way, if you remove equipped enchantments,
+their usage counts will return, so it's best to
+experiment with various combinations.
+-----------------------
+#ボクのお気に入りの特技はあまり
+#当たらないから、欠点を補うために
+#命中のエンチャントをつけるさ
+My favorite special moves aren't really...
+Since they don't hit, I compensate for their shortcomings.
+I'll enchant it to ensure accuracy.
+-----------------------
+#････お前の場合は単に空振りしてるだけだな
+#空振りは、使用回数が増えないので
+#もったいないぞ！
+You're just swinging at air in your case.
+Swinging at air doesn't increase your usage count,
+What a waste!
+-----------------------
+#それと、回復晶術は
+#「対象のＨＰが５０％以下のときに
+#　使用したとき」のみ
+#使用回数が増える　気をつけろ!!
+Also, recovery Lens Artes
+"Only when used
+"when the target's HP is below 50%"
+will their usage count increase. Be careful!!
+-----------------------
+#確かにかすり傷で使っても
+#経験にはならないさ
+It's true that even with a scratch...
+You won't gain any experience from it.
+-----------------------
+notice
+-----------------------
+#「戦闘の作戦」について
+#話し合っているようです
+#耳を傾けますか？
+About battle strategy
+It seems they're discussing it
+Are you going to listen?
+-----------------------
+#いろんな敵に遭っても対処できるように、
+#作戦を決めておこうではないか！
+#「防御がかたい敵」が現れたらどうする？
+Let's prepare ourselves to handle whatever enemies we encounter.
+Let's decide on our strategy!
+What should we do when a 'tough defense' enemy appears?
+-----------------------
+#みんなして術使いまくりさ
+They're all casting spells left and right.
+-----------------------
+#術を使うのは悪くないが、
+#全員が術を唱えてると、
+#いいようになぐられるので、
+#前衛を一人置くのがいいな
+Using magic isn't bad in itself,
+but if everyone is casting spells,
+you'll end up getting beaten up for it,
+so it's better to have at least one frontline fighter.
+-----------------------
+#「敵の後衛が強力な術を使う」場合は？
+What if the enemy's rear guard uses powerful magic?
+-----------------------
+#昨日暗記して覚えたさ
+#「術を使わせるな」で
+#詠唱をジャマするのさ
+I memorized it yesterday.
+Don't let them cast spells.
+Interrupt their incantations.
+-----------------------
+#まあそんな感じだ
+Well, that's about it.
+-----------------------
+#作戦は同時に３つまで登録できるから、
+#戦闘中に瞬時に切り替えながら闘うと、
+#見ていて気持ちがいいぞ
+You can register up to three strategies at once,
+so fighting while switching between them instantly during battle
+is really satisfying to watch.
+-----------------------
+#攻撃頻度、回復割合もキャラクターの能力と
+#敵に合わせて変えていくと、
+#より効率的な戦いが望めるだろう
+Adjusting attack frequency and healing ratios based on each character's abilities
+and adapting to your enemies,
+should allow for more efficient battles.
+-----------------------
+notice
+-----------------------
+#「テクニカルスマッシュ」
+#について話し合っているようです
+#耳を傾けますか？
+"Technical Smash"
+It seems they're discussing it.
+Are you listening?
+-----------------------
+#テクニカルスマッシュってなにさ？
+What's a Technical Smash?
+-----------------------
+#うむ　戦いのプロも認める、
+#「華麗なとどめのさし方」を行うと、
+#テクニカルスマッシュと認定される
+Indeed, even battle professionals acknowledge,
+that performing a "gorgeous finishing blow"
+is certified as a Technical Smash.
+-----------------------
+#テクニカルスマッシュで敵を倒すと、
+#あまりにステキなのか、アイテムの
+#入手確率が跳ね上がるというもっぱらの噂だ
+When you defeat enemies with Technical Smash,
+it's so wonderful that there are rumors
+that your item drop rate skyrockets.
+-----------------------
+#きっと真実だろう
+It's probably the truth.
+-----------------------
+#連携とか、まとめて倒すとかで出まくりさ
+They pop up all over the place during combos or when you take out groups.
+-----------------------
+#うむ　特に「とどめは連携でさす」のは
+#重要だ　とどめをさした時点で、その連携
+#に使っていたＳＰは全て回復するのだ
+#長い連携をしても態勢を立て直せる
+Mm. I don't particularly "finish them off with a combo".
+It's important that at the moment you deliver the finishing blow, their linkage...
+All SP used is restored.
+You can recover your stance even after executing a long combo.
+-----------------------
+#じゃあ追加特技とかはとどめ用にとっとくさ
+So I'll save extra skills for finishing blows.
+-----------------------
+#ＳＰ不足に悩んでいる場合は、
+#それがいいだろう
+If you're struggling with low SP,
+That should work.
+-----------------------
+#アクションエンチャントは
+#ＳＰを消費するのが悩みだが、
+#とどめをうまく利用するのが達人への道だ
+Action Enchant is
+consuming SP can be a concern,
+but mastering the final blow is the path to becoming an expert.
+-----------------------
+notice
+-----------------------
+#「スピリッツ」について
+#話し合っているようです
+#耳を傾けますか？
+What about 'Spirits'?
+It seems they're discussing it.
+Are you listening?
+-----------------------
+#敵に攻撃しても防御されまくりさ
+They're blocking all our attacks.
+-----------------------
+#回避が高い敵には困ったものだ
+#術を当てるのも作戦のひとつだが、敵に
+#よっては、一回の攻撃でスピリッツを
+#激減させる一発屋もいるぞ
+High-evasion foes are a real headache.
+Using spells is part of the strategy, but depending on
+the enemy, they might drain your SP in just one hit.
+Some enemies can deal massive SP damage with a single blow.
+-----------------------
+#空振りなどを誘い、スピリッツを
+#減らすと回避の能力も落ちる････
+#そこを狙うのもいいだろう
+Baiting them into missing their attacks drains their Spirits,
+which also lowers their evasion ability...
+So targeting that weakness is a good strategy.
+-----------------------
+#ボクは<button:00000047>と<button:0000001D>のプレスガードで
+#狙ってＳＰを減らすのさ
+I'm using Press Guard to block <button:00000047> and <button:0000001D>.
+You aim to drain their SP.
+-----------------------
+#お前は連続攻撃のときもやるから困る
+#プレスガードは敵の最後の攻撃で行うのが
+#いい　プレスガードではＳＰは２０も減る
+#敵の攻撃を見極めることだな
+You're troublesome when you chain attacks.
+The Press Guard is performed right before the enemy's final attack.
+Good. A Press Guard costs 20 SP.
+It's about reading the enemy's attack.
+-----------------------
+#敵ターゲットをカスタムで表示させて
+#いる場合、カーソルの色が明るいほど
+#ＳＰが高いということが分かる
+#戦いながら敵のＳＰを見切れるぞ
+If you customize enemy targets to display,
+the brighter the cursor color indicates
+that their SP is higher.
+You can read an enemy's SP while fighting.
+-----------------------
+notice
+-----------------------
+#「連続ヒット」について
+#話し合っているようです
+#耳を傾けますか？
+About 'Continuous Hits'
+It seems they're discussing it.
+Do you want to listen?
+-----------------------
+#連続ヒットってなにさ？
+What's a continuous hit?
+-----------------------
+#ダメージを与えた敵が戦闘態勢に
+#復帰する前に連続してダメージを与えると
+#ヒット数が加算されて表示されるのだ
+The enemy you damaged is back in battle stance.
+If you deal consecutive damage before they recover,
+the hit count will increase and display.
+-----------------------
+#いっぱい当てるとどうなるのさ？
+What happens if you hit them all?
+-----------------------
+#うむ　最高のヒット数は取得経験値に
+#影響する　なぜなら、そんな素晴らしい
+#連続攻撃は何よりも勝る経験だからな
+Mhm. The number of hits directly affects your EXP gain.
+Influence it because such wonderful
+Continuous attacks are an experience that surpasses everything else.
+-----------------------
+#より高いヒット数を求めるなら
+#仲間との連携が不可欠だ　ヒット数とは
+#関係ない「攻撃のひと種類」は
+#ＣＨＡＩＮとして加算される
+If you're aiming for higher hit counts,
+coordination with your allies is essential to those hits.
+"One type of attack" has nothing to do with it:
+it's added as part of the CHAIN.
+-----------------------
+#ＳＰをうまい具合に使っていかないと
+#大変さ
+We need to manage our SP carefully.
+It's going to be tough.
+-----------------------
+#そうだな　低いＳＰで連続攻撃に
+#参加しても足を引っ張ってしまうのが
+#オチだな　やはりここでも術と特技の
+#バランスが重要だな
+Yeah, low SP for consecutive attacks.
+Dragging everyone down if you join in is
+the catch. As expected, magic and special skills'
+balance is important here.
+-----------------------
+notice
+-----------------------
+#「影響エリア」について
+#話し合っているようです
+#耳を傾けますか？
+About the "Impact Area"
+It seems they're discussing it.
+Do you want to listen in?
+-----------------------
+#敵の裏側から攻撃したら有利だと思ったけど
+#なんだか疲れるさ
+I thought it'd be an advantage to attack from behind the enemy,
+It's kind of exhausting.
+-----------------------
+#うむ　スピリッツも含め、
+#仲間たちとの連携が勇気を与えているので、
+#敵により分断されていると様々な
+#回復速度が落ちてしまうようだな
+Indeed, including the spirits,
+the bond with my companions gives me courage,
+but if we are separated from each other by enemies,
+various recovery rates will drop.
+-----------------------
+#意に反して敵の右側に回ってしまった
+#ときは<button:00000047>＋<button:00000019>のバックステップで
+#左側に戻るといいだろう
+You ended up on the enemy's right side against your intentions.
+In that case, perform a backstep using <button:00000047> + <button:00000019>.
+It would be best to return to the left side.
+-----------------------
+#そりゃあ裏には回らないほうがいいさ
+You'd better not go around back there.
+-----------------------
+#基本的にはそう考えてよいな
+#しかし戦況を見極めてくると、
+#そのペナルティを補える働きが
+#出来るかもしれないな
+You can think of it that way, basically.
+But once they began to assess the situation on the battlefield,
+The function that compensates for that penalty is
+It might be possible.
+-----------------------
+#セオリーが全て正しいとは限らないさ
+Theory isn't always right.
+-----------------------
+#たまにはいいこと言うな
+You're actually saying something nice once in a while.
+-----------------------
+#ベテランすぎ
+You're way too experienced.
+-----------------------
+#息子
+son
+-----------------------
+notice
+-----------------------
+#「ステータス変化」について
+#話し合っているようです
+#耳を傾けますか？
+"Status Changes"
+It seems they're discussing it.
+Shall I listen in?
+-----------------------
+#戦闘でステータス異常になってしもうた
+#パナシーアボトルもないのじゃ
+#もうダメかのう････
+I've been afflicted with status ailments in battle.
+And there's no Panacea Bottle either.
+Are we done for?
+-----------------------
+#あきらめちゃいけません父さん
+#戦闘中にステータス異常になっても
+#時間の経過で回復するようですよ
+You can't give up, Dad.
+Even if you get status ailments during battle,
+It seems they recover over time.
+-----------------------
+#ステータス異常はレベルがあるので
+#防止の装備をしていても軽減しきれずに
+#喰らってしまう場合があるので
+#気をつけねばいけませんね
+There's a level to status ailments,
+So even if you're wearing protective gear,
+You might still end up getting hit,
+So we need to be careful.
+-----------------------
+#むう････また戦いにいかねばならんのか
+#つらいのう････
+I'm groaning... Do I have to go into battle again?
+This is painful...
+-----------------------
+#やはりステータス異常を回復できる
+#料理を用意しておくのがいいですよ父さん
+#防止できる料理やアイテムもあるみたいですし
+It's best to have something that can cure status ailments.
+You'd better prepare some food, Dad.
+There seem to be certain dishes and items that can prevent them as well.
+-----------------------
+#後の祭りじゃあ　毒<button:00000056>に麻痺<button:0000005F>に衰弱<button:0000005A>に凍結に
+#鈍足でもうへとへとじゃあ
+After the fact? Poison <button:00000056>, paralysis <button:0000005F>, debilitation <button:0000005A>, and freezing.
+With slow movement, I'm completely drained.
+-----------------------
+#うそはいけません父さん
+#ステータス異常は一人につき四つまでしか効果は
+#残らないのです　エンチャントで能力を
+#上げて毒が消えることもあるんです
+It's bad to lie, Dad.
+There are only four status effects per person.
+They don't last forever. You can raise your stats
+with enchantments, which might even cure poison.
+-----------------------
+#しかも凍結と鈍足は
+#戦闘終了で回復しますよ
+Plus, Freeze and Slow are
+recovered once combat ends.
+-----------------------
+#そうじゃった　しかも鈍足は
+#もとからじゃったの
+So it was. And on top of that, his sluggishness...
+...was from the start.
+-----------------------
+#はっはっはっはっはっはっはっはっ
+#はっはっはっはっはっはっはっは
+Hahaha!
+Hahaha!
+-----------------------
+#（笑いすぎじゃと思うのじゃが････）
+I think I'm laughing too much...
+-----------------------
+#ベテランすぎ
+Too much of a veteran.
+-----------------------
+#息子
+son
+-----------------------
+notice
+-----------------------
+#「スピリッツブラスター」
+#について話し合っているようです
+#耳を傾けますか？
+Spirits Blaster
+It seems they're discussing it.
+Do you lend an ear?
+-----------------------
+#ピンチになっても、スピリッツブラスター
+#になれば逆転のチャンスができるわい
+When you're in a pinch, Spirit Blaster
+is your chance to turn things around.
+-----------------------
+#スピリッツブラスターになりたいなら
+#攻撃を当てることと敵にガードされないこと
+#が有効ですね父さん、まあ攻撃を受けてても
+#なりますけど父さんには危険ですね
+If you want to become a Spirit Blaster,
+hitting your attacks and preventing the enemy from guarding
+is effective, Father. Well, even if you take damage,
+it becomes possible, but it's dangerous for you, Father.
+-----------------------
+#体力が衰えたワシも、
+#スピリッツブラスターになれば
+#のけぞることなく攻撃できるしのう
+Even though my physical strength has waned,
+if I become a Spirit Blaster,
+I can attack without being knocked back.
+-----------------------
+#そうはいっても父さん、ＨＰがなくなれば
+#効果が切れてしまいますし、回復魔法などを
+#かけても効果が早く切れてしまいますよ
+That said, Dad, once your HP runs out,
+the effect wears off, and even if you
+use healing magic, it'll wear off quickly.
+-----------------------
+#そんな細かいことは気にせんわい
+#ワシの最高の秘奥義はスピリッツブラスター
+#にならんと見せれんでの
+I don't sweat the small stuff.
+My ultimate Mystic Arte is the Spirits Blaster!
+You gotta show 'em what you've got to really impress 'em.
+-----------------------
+#いえ父さん　確かに秘奥義はＳＰを多く
+#消費しますが、敵を倒すことでＳＰが
+#回復することを利用すると秘奥義を
+#出せることもあるようです
+No, Father. It's true that Mystic Artes consume a lot of SP.
+We'll consume it, but we can recover SP by defeating enemies.
+When you utilize recovery, you can unleash Mystic Artes.
+It seems they can pull it off too.
+-----------------------
+#ただ、弓使いにはスピリッツブラスター
+#状態を利用して、追加晶術のかわりに
+#秘奥義を出せる人もいるらしいですよ
+#父さん
+Just for archers, Spirit Blaster
+Using that status to cast an additional Lens Arte instead
+Some people seem able to unleash their Mystic Artes
+Dad
+-----------------------
+#まあ奥義がヒットしても敵がのけぞって
+#ないと秘奥義にはいけぬから、
+#浮かす奥義だと重い敵にはうまく
+#いかんこともあるがの
+Well, even if a Mystic Arte connects and knocks them back,
+you can't trigger a Secret Mystic Arte unless they're staggered,
+so while floating-type Mystic Artes work well on light enemies,
+they might not be effective against heavier foes.
+-----------------------
+#そんなわけでさっそく二人で
+#秘奥義を出しにいこうではないか
+So without further ado, the two of us...
+...are off to unleash our Mystic Arte.
+-----------------------
+#いえ父さん　私は晶術使いなんで
+#秘奥義なんて使わないんですよ
+No, Father, I'm a Lens user.
+I don't use Mystic Artes.
+-----------------------
+#というか秘奥義の後はＳＰが０になるから
+#すごいジャマなんですよ父さん
+#とどめもさせないのに秘奥義
+#しないでください父さん
+It's not just that Mystic Artes drain SP to zero afterward.
+You're really getting in my way, Dad.
+And you won't even let me land the finishing blow before using a Mystic Arte?
+Don't do it, Dad.
+-----------------------
+#ジャマなんで
+I'm in your way.
+-----------------------
+#（一回言えば分かると思うが・・・）
+I figured you'd get it after I said it once...
+-----------------------
+#ベテランすぎ
+Too much of a veteran.
+-----------------------
+#息子
+son
+-----------------------
+notice
+-----------------------
+#「フィールドオブエフェクト」
+#について話し合っているようです
+#耳を傾けますか？
+"Field of Effect"
+It seems they're discussing it.
+Will you listen in?
+-----------------------
+#この間の、敵が出す
+#「フィールドオブエフェクト」には
+#ほとほと手を焼いたわい
+The enemies from the other day...
+...the Field of Effect.
+I was truly at my wit's end.
+-----------------------
+#略してＦＯＥ（フォエ）ですね父さん
+#あれには大きく二種類があって、
+#範囲内の敵たちに効果があるのと、
+#こちらの能力を下げるものがありますね
+It's abbreviated as F.O.E., right, Dad?
+There are two main types:
+One affects enemies within range,
+and the other lowers our abilities.
+-----------------------
+#あれが出たらお手上げかのう
+If that shows up, we're done for.
+-----------------------
+#あきらめるのは早いです父さん
+#時間で切れるものや、ヒットを重ねることで
+#切れるものもあるんですもちろん、
+#とどめをさせば消えますしね
+It's too early to give up, Father.
+Some things break down over time,
+while others shatter after taking enough hits.
+And yes, they disappear when you land the finishing blow.
+-----------------------
+#こちらに効果のあるものを出されたら、
+#前衛を一人だけにして術を使うのが
+#いいかのう
+If something effective is thrown our way,
+is it better to leave just one frontline fighter
+and cast spells?
+-----------------------
+#そうですね父さん　でもやはり状態変化に
+#応じて作戦を変えるのがいいようですよ
+#敵に効果がある場合は、スペクタクルズを
+#使えば内容が分かりますし
+That's true, Father, but still, status changes...
+It's best to adjust your strategy accordingly.
+If it's effective against enemies, Spectacles
+You'll see what it's about if you use it.
+-----------------------
+#それはそうと最近の若者は
+#なんでもかんでも略したがって困るわい
+Anyway, these days' young people...
+They abbreviate everything and anything, it's quite a bother.
+-----------------------
+#（言うのが遅いよ父さん････）
+{"translations":["(I'm late to say it, Father...")]}
+-----------------------
+notice
+-----------------------
+#「バトルグレード」について
+#話し合っているようです
+#耳を傾けますか？
+About Battle Grade
+It seems they're discussing it
+Do you lend an ear?
+-----------------------
+#バトルグレードって結局なにさ？
+So what exactly is Battle Grade?
+-----------------------
+#戦闘中の様々な行動を集計して、
+#「戦闘のうまさ」を図るものでしたね先輩
+#ダメージの比率とか、空振りとか、
+#同じ技ばかりを使うことも審査されます
+To tally up various actions taken during battle,
+it was meant to measure 'combat skill,' Senpai.
+The ratio of damage dealt, missed attacks,
+and even overusing the same techniques are all evaluated.
+-----------------------
+#高い得点を目指したい場合、
+#やはりテクニカルスマッシュを目指しつつ、
+#エンチャントを織り交ぜながら、
+#できるだけダメージをうけずにいきましょう
+If you're aiming for a high score,
+you should focus on landing technical smashes,
+while weaving in enchantments
+to minimize damage taken as much as possible.
+-----------------------
+#戦闘中にアイテムを使ったり、
+#回復晶術をかけたり、装備を変えたり
+#するのは、すこぶるイケてないと
+#いうウワサですよ
+There's a rumor that using items during battle,
+casting recovery Lens Artes, or changing your equipment
+is considered terribly uncool.
+That's what people say.
+-----------------------
+#高いと、どんないいことがあるのさ？
+What's so great about being high up anyway?
+-----------------------
+#それについては調査中です先輩
+#現世では役に立たないなどと
+#いう不届きな輩もいますが････
+We're currently investigating that, Senior.
+To say they're useless in the mortal realm...
+there are some who would say such insolent things...
+-----------------------
+#まあ深く気にせずに自らの技術を
+#磨けばいいさ
+Just don't worry too much about it and focus on honing your skills.
+That's all you need to do.
+-----------------------
+#さすが先輩、勉強になります
+You're amazing, Senpai. I'm learning so much.
+-----------------------
+notice
+-----------------------
+#「受身」について
+#話し合っているようです
+#耳を傾けますか？
+About 'Receiving'
+It seems they're discussing it.
+Do you lend an ear?
+-----------------------
+#地面にたたきつけられると
+#倒れてしまうさ
+Once slammed into the ground,
+you'll go down.
+-----------------------
+#確かにつらいですね先輩
+#でも、地面に接地したまさに
+#その瞬間に<button:00000047>を押すと、
+#受身がとれますよね
+It's definitely tough, Senior.
+But right at the moment you make contact with the ground,
+if you press <button:00000047> at that instant,
+you can perform a fall roll.
+-----------------------
+#ももももちろん知ってたさ
+I knew that too.
+-----------------------
+#受身を取れるとダウンの時間が
+#減るし、なによりＳＰとＴＰが
+#回復するのがうれしいですよね
+It's great that you can recover SP and TP,
+since it also shortens your downtime
+when you're knocked down.
+-----------------------
+#もももももちろん知ってたさ
+I knew that all along.
+-----------------------
+notice
+-----------------------
+#「戦闘難易度」について
+#話し合っているようです
+#耳を傾けますか？
+How about battle difficulty?
+It seems they're discussing it.
+Will you listen?
+-----------------------
+#戦闘難易度を高くするのに、
+#なんの意味があるのさ？
+What's the point
+of raising the battle difficulty?
+-----------------------
+#まあ確かに戦闘難易度を高くしたって
+#世界は平和にならないですね
+#でも、噂によると、敵が落とす武具が
+#よいものになるそうです
+Well, true enough, even if we raise the combat difficulty...
+the world won't become peaceful.
+But according to rumors, the equipment dropped by enemies...
+is said to be better quality.
+-----------------------
+#それだったら上げまくるさ
+In that case, I'll max them out.
+-----------------------
+#でも、知っての通り戦闘難易度を上げると、
+#敵の攻撃力や知性が上がるうえ、
+#普通の難易度では使ってこない壮絶な攻撃を
+#してきたりするので悩みどころですよね
+But as you know, raising the battle difficulty means
+enemies will have higher attack power and intelligence,
+and they'll start using brutal attacks
+that you wouldn't see on normal difficulty, which can be quite a dilemma.
+-----------------------
+#そういうことなら一回世界を平和にするまで
+#ＮＯＲＭＡＬでいいさ
+If that's the case, let's make the world peaceful first.
+I'll stick with NORMAL.
+-----------------------
+#おっしゃってる意味が
+#よくわかりませんけど
+#その通りですね
+The meaning behind what you're saying
+I don't quite understand it
+That's exactly right
+-----------------------
+#ＳＥＣＯＮＤはほどよい難易度なので
+#ちょっと手ごたえがほしかったり
+#するならお勧めな気がします
+SECOND has a just-right difficulty level,
+I was looking for something with a bit more challenge,
+so I think it's worth recommending.
+-----------------------
+notice
+-----------------------
+#「通常攻撃」について
+#深く話し合っているようです
+#耳を傾けますか？
+How about 'Normal Attack'?
+It seems they're having a deep discussion.
+Do you want to listen in?
+-----------------------
+#慣れてきたから最近は通常攻撃は
+#<button:00000045>だけ叩きっぱなしさ
+I've gotten used to it, so lately I just stick to normal attacks
+<button:00000045>and keep hammering away with .
+-----------------------
+#まったくなっとらんな
+I really don't get it.
+-----------------------
+#実は、二段目、三段目ではある程度
+#命中、ダメージが下がってしまうが、
+#同じ組み合わせの攻撃だと
+#より下がってしまうのだ
+Actually, at the second and third stages,
+accuracy and damage decrease somewhat.
+But if you use the same combination of attacks,
+the drop will be even greater.
+-----------------------
+#なにー
+#じゃあどうすればいいのさ？
+What?
+Then what should I do?
+-----------------------
+#うむ　「<button:00000017><button:00000045>、<button:00000045>、<button:00000016><button:00000045>」
+#と組み立てるなど、組み合わせを
+#変えるのがまず第一歩だ
+Indeed, "<button:00000017><button:00000045>, <button:00000045>, <button:00000016><button:00000045>"
+assembling them and varying the combinations is
+the first step to take.
+-----------------------
+#第二歩はなにさ？
+What's the second step?
+-----------------------
+#<button:00000045>は攻撃力、命中の減少量が多い、
+#<button:00000017><button:00000045>では攻撃力が上がり命中が下がる、
+#<button:00000019><button:00000045>では攻撃力が下がり命中が上がる、
+#<button:00000016><button:00000045>は攻撃力、命中の減少量が少ない、
+<button:00000045>has a large decrease in attack power and accuracy.
+<button:00000017><button:00000045>In , attack power increases but accuracy drops.
+<button:00000019><button:00000045>In , attack power decreases but accuracy rises.
+<button:00000016><button:00000045>has a small decrease in attack power and accuracy.
+-----------------------
+#以上を覚えておけ！
+#<button:00000045>による攻撃は効果範囲が広く、
+#当たりやすいことが多いが、その反面、
+#連続攻撃時にはあまり有効ではない
+Keep that in mind!
+<button:00000045>'s attacks have a wide range,
+making them easy to land, but on the other hand,
+they aren't very effective during combos.
+-----------------------
+#これは次の攻撃にも影響を与えるから、
+#「<button:00000017><button:00000045>、<button:00000017><button:00000045>、<button:00000045>」と
+#「<button:00000019><button:00000045>、<button:00000019><button:00000045>、<button:00000045>」では、
+#三段目の攻撃の数値が変わるぞ
+This will also affect your next attack,
+"<button:00000017><button:00000045>, <button:00000017><button:00000045>, <button:00000045>"
+"<button:00000019><button:00000045>, <button:00000019><button:00000045>, <button:00000045>" is
+what changes the value of the third strike.
+-----------------------
+#じゃあ回避が高い敵には
+#<button:00000019><button:00000045>から組み立てることにするさ
+#逆に回避が低い敵には
+#<button:00000017><button:00000045>から始めるさ
+For enemies with high evasion,
+<button:00000019><button:00000045>I'll start building from  to .
+And for enemies with low evasion,
+<button:00000017><button:00000045>I'll begin with  and .
+-----------------------
+#例としてはそんな感じだ
+#まあ、変化量は微々たるものだから、
+#他のルールで手一杯だというなら
+#無理して覚えなくてもいいぞ
+That's roughly how it works.
+Well, since the change is negligible,
+if you're already overwhelmed by other rules,
+you don't have to force yourself to memorize them.
+-----------------------
+notice
+-----------------------
+#「長い話」について
+#話し合っているようです
+#耳を傾けますか？
+A long story
+It seems they're discussing it
+Will you listen?
+-----------------------
+#ためになる話も十年くらい聞いてると
+#さすがにつかれるさ
+After hearing useful advice for about ten years,
+you eventually start to get tired of it.
+-----------------------
+#そういえば教えてなかったな
+#<button:0000002F>と<button:0000002E>を押しっぱなしにすると
+#メッセージを早送りできる
+#同じ会話を読み飛ばすとき便利だ
+I guess I never told you about that.
+<button:0000002F>Holding down  and <button:0000002E> will
+fast-forward through messages.
+It's handy for skipping over repeated dialogue.
+-----------------------
+#なにー
+#どうして十年もそれを教えて
+#くれなかったのさ
+What?
+Why did you keep that to yourself for ten years?
+And not tell me?
+-----------------------
+#バカモン！　ひよっこのお前が
+#私の話を読み飛ばすなどとは
+#十年早いわ
+Fool! You, a mere chick,
+daring to skip over my words?
+You're ten years too early.
+-----------------------
+#と思ってたので今教えることに
+#したわけだ
+I figured I'd tell you now since that's what I was thinking
+that's why I did it
+-----------------------
+#納得さ
+I understand.
+-----------------------
+notice
+-----------------------
+#「アイテム拾得」について
+#話し合っているようです
+#耳を傾けますか？
+How to pick up items
+They seem to be discussing it
+Do you want to listen in?
+-----------------------
+#冒険者として生きるからには
+#敵からアイテムを拾いまくりたいさ
+As long as I live as an adventurer,
+I want to pick up items from enemies.
+-----------------------
+#うむ　確かにそうだな
+#しかし冒険者の間で、まことしやかな
+#噂が流れているぞ
+Hmph. You're right.
+But among adventurers, there's been a persistent rumor...
+That's been circulating.
+-----------------------
+#噂ってなにさ？
+What's the rumor about?
+-----------------------
+#「どうやら同じ種類のアイテムを多く持って
+#　いるほど敵がアイテムを落とす確率が
+#　減ってしまうようだ」というのだ
+It seems that the more items of the same type you carry,
+the lower the probability of enemies dropping items.
+That's what they say.
+-----------------------
+#そりゃ困るさ　全部売るさ
+Well, that's a problem. I'll sell them all.
+-----------------------
+#それはどうかと思うが、いらない装備品
+#などはできるだけ売ったほうがいいのは
+#整理面でもおすすめだな
+I'm not sure about that, but unneeded equipment
+should be sold off as much as possible,
+which is also recommended for inventory management.
+-----------------------
+#もちろん
+#リファインをして量を減らして質を
+#上げるのが冒険者の知恵ともいえるがな
+Of course.
+We refine them to reduce their volume while enhancing their quality,
+which is often said to be an adventurer's wisdom.
+-----------------------
+#他にも消費アイテムを使いながら進みたい
+#場合は、聞いた話では少な目の数をキープ
+#したほうがいいということだな
+I also want to keep moving forward while using consumable items.
+If that's the case, I've heard it's better to keep a smaller number on hand.
+So that's what they say.
+-----------------------
+#消費アイテムの場合、全体の総数ではなく
+#それぞれの所持数が関係するというのが
+#冒険者筋での通説らしいぞ
+For consumable items, it's not based on the total count,
+It's related to how many each person has.
+It seems to be common knowledge among adventurers.
+-----------------------
+#でも少ないと、つえー敵で困りがちさ
+But if there aren't enough, it gets pretty tough dealing with strong enemies.
+-----------------------
+#それもある　それぞれの冒険スタイルに
+#あった冒険をするのが重要ということだな
+That's also true. It depends on each person's style of adventure.
+It means it's important to go on adventures that suit you.
+-----------------------
+select
+-----------------------
+#<03:00000000>　はい　
+#　いいえ　
+<03:00000000> Yes 
+ No 
+-----------------------
+<Kyle>
+-----------------------
+#オレはオレの道を極めるぜ!!
+I'll follow my own path!!
+-----------------------
