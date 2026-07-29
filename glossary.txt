@@ -1,266 +1,558 @@
 GLOSSARY — Tales of Destiny 2
+Aselia-aligned revision for the English fan-translation project
+
+SOURCE AND STATUS POLICY
+
+This game has no official full English localization. Aselia Wiki is used here as the
+primary community reference for established English names and terminology, but it is
+not an official source.
+
+Status labels:
+  [LOCK]              Use this spelling/translation everywhere.
+  [ASELIA STANDARD]   Established Aselia Wiki spelling; use as the project default.
+  [PROVISIONAL]       Aselia translation from Japanese-only material; may be revised.
+  [SCRIPT CONFIRMED]  Japanese term was found in the extracted game script.
+  [TEAM DECISION]     A real ambiguity remains; choose once and apply consistently.
+  [DO NOT IMPORT]     Term belongs to another Tales game/version and should not be
+                      inserted into Tales of Destiny 2 without direct script evidence.
+
+Priority when sources disagree:
+  1. Actual Japanese text and control codes in the extracted game files
+  2. Explicit project-wide terminology decisions in this glossary
+  3. Established Aselia Wiki spelling
+  4. Literal romanization or individual translator preference
+
+STYLE RULES
 
-Researched from published game material (wikis, official sites, series
-cross-references) since Tales of Destiny 2 itself has no official English release.
-Treat "Confirmed" entries as safe to lock in; treat "Needs team decision" entries as
-open questions — pick one and apply it consistently everywhere. Extend this list as
-translators encounter new names; anything added here overrides individual judgment
-calls going forward.
-
-STYLE NOTE: the Tales series' official English localizations consistently spell
-special skills "arte" (not "art") and use "Mystic Arte" for a character's ultimate
-attack (Japanese 奥義, hi-ougi). Keep both conventions for consistency with the rest of
-the series.
-
-DISAMBIGUATION WARNING: if anyone on the team searches for official English material on
-"Tales of Destiny II," they will likely land on the wrong game. The North American PS2
-release called Tales of Destiny II (Roman numeral) is actually a rebrand of Tales of
-Eternia — Namco renamed it because Mattel holds the "Eternia" trademark (He-Man toys)
-in North America. It shares no characters, story, or terminology with this game. This
-project is translating the Japan-only Tales of Destiny 2 (Arabic numeral), the true
-sequel to the first Tales of Destiny. Don't import terms from Eternia material.
-
-== PLAYABLE CHARACTERS ==
-カイル・デュナミス (Kairu Dyunamisu) -> Kyle Dunamis
-  Protagonist, son of Stahn Aileron and Rutee Katrea
-
-リアラ (Riara) -> Reala
-  Emerges from a Lens early in the story
-
-ロニ・デュナミス (Roni Dyunamisu) -> Loni Dunamis
-  Orphan raised alongside Kyle; Order of Atamoni member
-
-(katakana unconfirmed — likely ジュダス) -> Judas
-  In-story alias; true identity is Leon Magnus (see "Returning characters" below).
-  Verify Japanese spelling against script.
-
-ナナリー・フレッチ (Nanarii Furetchi?,) -> Nanaly Fletcher
-  Also appears as "Nanaly Fletch" in some series cross-overs — pick one spelling and
-  stay consistent. Verify katakana against script.
-
-ハロルド・ベルセリオス (Harorudo Beruseriosu) -> Harold Berselius
-  Female despite the name — this is intentional in the source material, not a
-  translation error. Verify katakana against script.
-
-== ANTAGONISTS & DEITIES ==
-(katakana unconfirmed — likely バルバトス・ゴエティア) -> Barbatos Goetia
-  Verify against script before locking in.
-
-エルレイン (Erurein) -> Elraine / Elrane
-  Both spellings circulate in community material; pick one and apply consistently.
-  "Elraine" is used more often in English-language fan writeups.
-
-フォルトゥナ (Forutuna) -> Fortuna
-  The goddess central to the setting's religion; final antagonist
-
-== RETURNING CHARACTERS FROM THE FIRST GAME (TALES OF DESTINY) ==
-スタン・エルロン (Sutan Eruron) -> Stahn Aileron
-  Kyle's father, protagonist of the first game
-
-ルーティ・カトレット (Ruuti Katoretto) -> Rutee Katrea
-  Kyle's mother, runs the Dunamis Orphanage in Cresta
-
-リオン・マグナス (Rion Magunasu) -> Leon Magnus
-  Judas's true identity; a traitor character from the first game, later redeemed
-
-フィリア・フィリス (Firia Firisu) -> Philia Felice
-  High Priestess of the Straylize Temple
-
-ウッドロウ・ケルヴィン (Uddoroo Keruvin) -> Woodrow Kelvin (Japanese name) /
-  Garr Kelvin (official Western localization of the first game)
-  NEEDS TEAM DECISION. Since Destiny 2 has no Western release, "Woodrow" is the more
-  literal choice, but "Garr" keeps continuity with the first game's official English
-  release. King of Phandaria.
-
-== MINOR & SUPPORTING CHARACTERS ==
-リムル・エルロン (Rimuru Eruron) -> Rimul Aileron
-  Daughter of Lilith Aileron and Bacchus; Stahn's niece, Kyle's cousin. Appears in a
-  Neuestadt arena side-quest.
-
-(no Japanese given) -> Lilith Aileron
-  Stahn's younger sister; fights with cooking implements (frying pan, ladle). Rimul's
-  mother.
-
-(no Japanese given) -> Bacchus
-  Lilith's husband, Rimul's father. Minor mention only.
-
-メルクリウス・リトラー (Merukuriusu Ritoraa, lit. "Mercurius Littler") -> Marius Raiker
-  NEEDS TEAM DECISION. The community-standard English name doesn't match a literal
-  reading of the katakana — verify which the project wants to use before locking in.
-
-(no Japanese given) -> Karyl Sheeden
-  Appears briefly after the Magnadeus optional boss fight; role unconfirmed, verify
-  against script.
-
-(no Japanese given) -> Bruiser Khang / Kongman
-  Former arena champion at Neuestadt, referenced/possibly appears; catchphrase in the
-  first game was "I'm the CHAMPION!" — confirm if reused here.
-
-== MINOR ANTAGONISTS & DEMONOLOGY-NAMED BOSSES ==
-サブノック (Sabunokku) -> Sabnock
-  Minor antagonist, brief obstacle at Heidelberg Castle
-
-マグナディウエス (Magunadiuesu) -> Magnadeus
-  Optional final boss of the Aqua Labyrinth EX Dungeon
+[LOCK] Use "arte", not "art", for battle abilities.
+[LOCK] Use "Mystic Arte" only for 秘奥義 (hi-ougi).
+[LOCK] Do not translate plain 奥義 (ougi) as "Mystic Arte"; use "Arcane Arte".
+[LOCK] Preserve exact capitalization of proper names and menu labels.
+[LOCK] Do not confuse Tales of Destiny 2 with the North American title
+       Tales of Destiny II, which is Tales of Eternia under a different title.
 
-NAMING CONVENTION: several Destiny 2 antagonists and bosses (Barbatos, Sabnock, and
-reportedly others including Dantalion, Gaap, Ose, Vassago, Buer, Glasya-Labolas,
-Forneus, Halphas, and Vepar) take their names from the Ars Goetia / Lesser Key of
-Solomon, a 17th-century demonology grimoire. If translators encounter one of these
-names, use the name's standard historical English spelling (as used in English
-editions of the grimoire) rather than re-transliterating from the katakana.
+===============================================================================
+PLAYABLE CHARACTERS
+===============================================================================
 
-== NAMED ARTES & MYSTIC ARTES ==
-魔尽煉獄殺 (Majin Rengokusatsu) -> "Infernal Suffering" (community fan-translation)
-  Judas's Mystic Arte. Not an official translation — confirm the project wants to
-  keep it or retranslate.
+[LOCK] カイル・デュナミス (Kairu Dyunamisu) -> Kyle Dunamis
+  Protagonist; son of Stahn Aileron and Rutee Katrea.
 
-(no Japanese given) -> Critical Blade / Final Prayer / Spiral Driver
-  Named artes belonging to Judas. Already English loanwords in the original Japanese
-  script ("Gratuitous English") — keep as-is, don't retranslate.
+[LOCK] リアラ (Riara) -> Reala
+  Heroine who emerges from a giant Lens in the Laguna Ruins.
 
-神天連空斬風閃滅砕神罰殺戮撃
-(Shinten Rekkuu Zankou Senpuu Messai Shinbatsu Kassatsugeki) -> NOT YET TRANSLATED
-  Loni's Mystic Arte; an intentionally absurd 15-kanji title (a running joke — it can
-  even fail to activate due to its length/requirements). No confirmed English version
-  exists; this is a genuine creative-translation call for the team, not a lookup.
+[LOCK] ロニ・デュナミス (Roni Dyunamisu) -> Loni Dunamis
+  Raised in the Dunamis Orphanage; older-brother figure to Kyle; member of the
+  Order of Atamoni.
+  Weapon category: Polearm. His usual weapon is described as a poleaxe.
 
-(no Japanese given) -> "NO. ITEMS. EVER!!"
-  Barbatos's catchphrase Mystic Arte in LATER Tales games when he appears as a guest
-  character. VERIFY BEFORE USING IN THIS PROJECT — in Destiny 2 itself, his anti-item
-  behavior is a different, unnamed invincibility gimmick, not necessarily this named
-  move.
+[LOCK] ジューダス (Juudasu) -> Judas
+  Masked swordsman; true identity is Leon Magnus.
+  Do not write "Judah" or "Judas Magnus".
 
-== BATTLE SYSTEM & UI TERMS ==
-トラスト＆タクティカルリニアモーションバトルシステム ->
-Trust and Tactical Linear Motion Battle System (TT-LMBS)
-  This game's specific variant of the series' trademark real-time battle system
+[LOCK] ナナリー・フレッチ (Nanarii Furetchi) -> Nanaly Fletcher
+  Aselia's primary page spelling is "Nanaly Fletcher".
+  "Nanaly Fletch" appears in some officially localized crossover material, but this
+  project standardizes on Fletcher to avoid mixed naming.
 
-(no Japanese given) -> Spirit Points (SP)
-  The resource characters spend to act in battle (replaces/modifies the "TP" resource
-  used in some other Tales games — confirm exact mechanic against the actual
-  script/manual rather than assuming, since secondary sources describe it slightly
-  differently)
+[LOCK] ハロルド・ベルセリオス (Harorudo Beruseriosu) -> Harold Berselius
+  Female scientist and creator of the Swordians; younger twin sister of Karell
+  Berselius. The masculine given name is intentional.
 
-(no Japanese given) -> Moon Selector
-  Key item; lets the player switch which character they're directly controlling from
-  the battle menu
+===============================================================================
+MAJOR ANTAGONISTS AND DEITIES
+===============================================================================
 
-(no Japanese given) -> Halberd
-  Loni's weapon type — plain descriptive term, no special translation needed, listed
-  for consistency
+[LOCK] バルバトス・ゲーティア (Barubatosu Geetia) -> Barbatos Goetia
+  Major antagonist from the Aeth'er Wars era.
+  Weapon: battleaxe.
 
-== SWORDIANS (sentient swords carrying the personalities of Er'ther war heroes) ==
-(no separate name given) -> Dymlos
-  Fire-elemental; Stahn's Swordian in the first game
+[LOCK] エルレイン (Erurein) -> Elrane
+  Holy Woman and head of the Order of Atamoni; worshiped as a living manifestation
+  of Fortuna.
+  Do not alternate with "Elraine" in translated text.
 
-(no separate name given) -> Atwight
-  Water/ice-elemental, healing-focused; Rutee's Swordian
+[LOCK] フォルトゥナ (Forutuna) -> Fortuna
+  Final antagonist and deity worshiped in the altered/future era.
+  Fortuna is distinct from Atamoni; do not describe them as the same goddess.
 
-ピエール・ド・シャルティエ (Pieru do Sharutie, person) -> Chaltier
-  Earth-elemental; Leon/Judas's Swordian
+[ASELIA STANDARD] ミクトラン (Mikutoran) -> Kronos
+  Ancient Aeth'er ruler associated with Dycroft and the Swordian Berselius.
+  "Miktran" is a literal/alternate rendering; use Kronos for continuity with Aselia
+  and established English Tales terminology.
+
+===============================================================================
+RETURNING AND SUPPORTING CHARACTERS
+===============================================================================
+
+[LOCK] スタン・エルロン (Sutan Eruron) -> Stahn Aileron
+  Kyle's father; protagonist of Tales of Destiny.
+
+[LOCK] ルーティ・カトレット (Ruuti Katoretto) -> Rutee Katrea
+  Kyle's mother; runs the Dunamis Orphanage in Cresta.
+
+[LOCK] リオン・マグナス (Rion Magunasu) -> Leon Magnus
+  Judas's true identity.
+
+[LOCK] フィリア・フィリス (Firia Firisu) -> Philia Felice
+  High Priestess associated with Straylize Temple.
+
+[LOCK] ウッドロウ・ケルヴィン (Uddoroo Keruvin) -> Garr Kelvin
+  King of Phandaria in Tales of Destiny 2.
+  "Woodrow Kelvin" is the literal Japanese-name rendering shown by Aselia, but
+  Garr Kelvin is the established English name and the project standard.
+
+[LOCK] リムル・エルロン (Rimuru Eruron) -> Rimul Aileron
+  Daughter of Lilith Aileron and Bacchus; optional arena opponent.
+
+[LOCK] リリス・エルロン -> Lilith Aileron
+  Stahn's younger sister; Rimul's mother.
 
-イクティノス・マイナード (Ikutinosu Mainado, person) -> Igtenos
-  Wind-elemental; royal Swordian of Phandaria
+[LOCK] バッカス -> Bacchus
+  Lilith's husband; Rimul's father.
+
+[ASELIA STANDARD] メルクリウス・リトラー
+  (Merukuriusu Ritoraa; literal "Mercurius Littler") -> Marius Raiker
+  Do not replace with a fresh literal romanization. Marius Raiker is Aselia's
+  established character name.
 
-(no separate name given) -> Clemente
-  Light/lightning-elemental; may not physically appear in Destiny 2 — verify
+[LOCK] カーレル・ベルセリオス -> Karell Berselius
+  Harold's older twin brother and the personality used for Swordian Berselius.
 
-カーレル・ベルセリオス (Kareru Beruseriosu, person: Karell Berselius, implied to be
-Harold's brother) -> Berselius
-  Named for Karell Berselius; confirm which Destiny 2 character wields it, if any
+[LOCK] カイル's optional-cameo context: Karyl Sheeden
+  Karyl appears after the player defeats Magnadeus in the Aqua Labyrinth.
 
-== ORGANIZATIONS & FACTIONS ==
-(no Japanese given) -> Order of Atamoni / Church of Atamoni
-  Religious organization tied to the Eye of Atamoni; both phrasings appear in
-  community sources — pick one
+[TEAM DECISION / SCRIPT CHECK] Bruiser Khang / Kongman
+  Do not add this character to Destiny 2 dialogue unless the Japanese script
+  directly confirms that he is present or referenced.
 
-(no Japanese given) -> Er'ther
-  One of the two peoples from the ancient Aeth'er Wars; spelling varies (Er'ther /
-  E'rther) across sources — standardize on one
+===============================================================================
+MINOR ANTAGONISTS AND BOSSES
+===============================================================================
 
-(no Japanese given) -> Aetherian
-  The other side of the Aeth'er Wars; exiled to Calvalese after their defeat
+[LOCK] サブノック (Sabunokku) -> Sabnock
+  One of Elrane's three generals; encountered at Heidelberg Castle.
 
-(no Japanese given) -> Oberon Corporation
-  Powerful corporation from the first game, still relevant to the setting
+[LOCK] ダンタリオン (Dantarion) -> Dantalion
+  One of Elrane's three generals.
 
-== KEY LOCATIONS ==
-クレスタ (Kuresuta) -> Cresta
-  Kyle's home village; site of the Dunamis Orphanage
+[LOCK] ガープ (Gaapu) -> Gaap
+  One of Elrane's three generals.
 
-(no Japanese given) -> Dunamis Orphanage
-  Run by Rutee; source of Kyle and Loni's shared surname
+[LOCK] オセ (Ose) -> Ose
+  Sabnock's beast companion. Do not list Ose as one of Elrane's three generals.
 
-(no Japanese given) -> Laguna Ruins
-  Where Reala first appears, near Cresta
+[LOCK] マグナディウエス (Magunadiuesu) -> Magnadeus
+  Optional boss of the Aqua Labyrinth.
 
-(no Japanese given) -> Aigrette
-  Religious capital city, region of Seinegald
+DEMONOLOGY NAMING RULE
+  Several enemy names derive from the Ars Goetia. Use their established historical
+  English spellings when the katakana clearly represents those names:
+  Barbatos, Sabnock, Dantalion, Gaap, Ose, Vassago, Buer, Glasya-Labolas,
+  Forneus, Halphas, Vepar.
 
-(no Japanese given) -> Hope Town
-  Oasis town in Calvalese, Destiny-2-exclusive location
+===============================================================================
+AETH'ER WARS FIGURES AND SWORDIANS
+===============================================================================
 
-(no Japanese given) -> Calvalese
-  Desert continent where the Aetherians were exiled
+Use the full personal name for the human in the Aeth'er Wars era and the short name
+for the corresponding Swordian weapon/personality.
 
-(no Japanese given) -> Phandaria
-  Kingdom ruled by Woodrow/Garr Kelvin, capital Heidelberg
+[LOCK] ディムロス・ティンバー -> Dymlos Timber
+  Er'ther Army commander.
+[LOCK] ソーディアン・ディムロス / ディムロス -> Swordian Dymlos / Dymlos
+  Fire Swordian later wielded by Stahn Aileron.
 
-(no Japanese given) -> Seinegald
-  Region containing Cresta, Aigrette, and the Laguna Ruins
+[LOCK] アトワイト・エックス -> Atwight Eks
+  Colonel in the Er'ther Medical Corps.
+[LOCK] ソーディアン・アトワイト / アトワイト -> Swordian Atwight / Atwight
+  Water-oriented Swordian later wielded by Rutee Katrea.
 
-(no Japanese given) -> Heidelberg Castle
-  Royal castle in Heidelberg, capital of Phandaria
+[LOCK] ピエール・ド・シャルティエ -> Pierre de Chaltier
+  Squadron leader in the 2nd Er'ther Army.
+[LOCK] ソーディアン・シャルティエ / シャルティエ -> Swordian Chaltier / Chaltier
+  Earth Swordian associated with Leon Magnus and Judas.
+[LOCK] シャル -> Chal
+  Familiar nickname for Chaltier when the script uses it.
 
-ノイシュタット (Noishutatto) -> Neuestadt
-  City with a coliseum/arena used for optional battles
+[LOCK] ラヴィル・クレメンテ -> Laville Clemente
+  Chief of Staff of the Er'ther forces.
+[LOCK] ソーディアン・クレメンテ / クレメンテ -> Swordian Clemente / Clemente
+  Lightning-oriented Swordian associated with Philia Felice.
 
-(no Japanese given) -> Aqua Labyrinth
-  Optional "EX Dungeon" — 20-floor superboss gauntlet, unlocked by finding 15 stones
-  on the world map
+[LOCK] イクティノス・マイナード -> Igtenos Minarde
+  Leader of the Er'ther Army Intelligence Unit.
+[LOCK] ソーディアン・イクティノス / イクティノス -> Swordian Igtenos / Igtenos
+  Wind Swordian associated with Garr Kelvin.
 
-== CORE TERMS & SYSTEMS ==
-晶術 (shoujutsu) -> Lens Arte / spell
-  Magic system powered by Lens energy; confirm exact term the project has settled on
-
-(no Japanese given) -> Lens
-  The setting's core magical/technological energy source
-
-(no Japanese given) -> Eye of Atamoni
-  A major relic/artifact tied to the Order of Atamoni
-
-ガルド (Garudo) -> Gald
-  The setting's currency, standard across the whole Tales series
-
-奥義 (ougi / hi-ougi) -> Mystic Arte
-  A character's ultimate special attack — official series-wide term
-
-(no Japanese given) -> Aeth'er Wars
-  The ancient war between the Er'ther and Aetherian peoples
-
-(no Japanese given) -> Swordian Master
-  Title for a character who wields one of the six Swordians
-
-== CONFIRMED IN REAL SCRIPT FILES (added while cross-checking code_glossary.txt) ==
-リファイン (Rifain) -> Refine
-  Appears 27 times across scenarios/skits. A recurring game-system term,
-  likely an item-refining or synthesis mechanic. "Refine" is the literal
-  reading — confirm against menu/system script text if there's a dedicated
-  UI string for it, since that may already fix the exact English wording.
-
-ベルセリアの花 -> Bellseria Flower
-  Appears 3 times, a specific item name. NEEDS TEAM DECISION on exact
-  English rendering (Bellseria Flower is a straightforward default).
-
-スクリーンチャット (Sukuriin Chatto) -> Screen Chat
-  Appears in a menu/gallery context ("previously-seen Screen Chats" / "Screen
-  Chats you haven't seen yet"). Likely a skit replay/gallery feature, similar
-  to the "skit theater" mode in other Tales games — function inferred from
-  context, not confirmed. Verify before locking in a translation.
-
-NOTE on Straylize spelling: code_glossary.txt (a separate uploaded reference)
-used "Straylise Grand Temple." Checking the katakana directly (ストレイライズ
-= Sutoreiraizu) confirms "Straylize" — already the entry above — is the more
-accurate romanization. No change needed; noting this here so the discrepancy
-doesn't cause confusion later.
+[LOCK] カーレル・ベルセリオス -> Karell Berselius
+  Aeth'er scientist/soldier and Harold's twin brother.
+[LOCK] ソーディアン・ベルセリオス / ベルセリオス
+  -> Swordian Berselius / Berselius
+  Swordian containing Karell's copied personality.
+
+[LOCK] メルクリウス・リトラー -> Marius Raiker
+  Commander-in-Chief of the Er'ther ground forces.
+  He is not one of the six Swordian personalities.
+
+[LOCK] ハロルド・ベルセリオス -> Harold Berselius
+  Creator of Swordian technology; not the personality inside Swordian Berselius.
+
+===============================================================================
+RACES, HISTORY, TECHNOLOGY, AND CORE LORE
+===============================================================================
+
+[LOCK] 天上人 -> Aeth'er
+  Formal name of the people who lived on the Aethersphere.
+  "Aetherian" may be used naturally as an adjective or for an individual, but use
+  Aeth'er in formal race and historical labels.
+
+[LOCK] 地上人 -> Er'ther
+  Formal name of the surface people.
+  Do not alternate with "E'rther".
+
+[LOCK] 天地戦争 -> Aeth'er Wars
+  Ancient conflict between the Aeth'er and Er'ther peoples.
+
+[LOCK] Aethersphere
+  Floating landmass/civilization created with Lens technology.
+
+[LOCK] Er'ther Lands
+  Aselia's name for the surface world/planetary lands.
+
+[LOCK] ダイクロフト -> Dycroft
+  Capital aeropolis of the Aethersphere.
+
+[LOCK] レンズ -> Lens
+  Core magical and technological energy source of the setting.
+  Capitalize when referring to the setting-specific substance/artifact class.
+
+[LOCK] 神の眼 (Kami no Me; literal "Eye of God") -> Eye of Atamoni
+  Extremely powerful Lens and major artifact.
+  Use Eye of Atamoni as the proper name; do not alternate with Eye of God in normal
+  translated prose unless the dialogue explicitly explains the literal phrase.
+
+[LOCK] ベルクラント -> Belcrant
+  Sword-shaped superweapon powered through Aeth'er technology and the Eye of Atamoni.
+
+[LOCK] ソーディアン -> Swordian
+  Sentient Lens-based sword containing a copied human personality.
+
+[LOCK] ソーディアンマスター -> Swordian Master
+  Person capable of wielding and communicating with a Swordian.
+
+[LOCK] ラディスロウ / source spelling variants -> Radisrol
+  Er'ther command vessel/base associated with the Aeth'er Wars.
+
+[LOCK] 飛行竜 / flying craft context -> Flying Dragon
+  Use only where the Japanese identifies this vehicle.
+
+[LOCK] ルミナ・ドラコニス -> Lumina Draconis
+  Airship name used in established English Tales terminology.
+
+===============================================================================
+ORGANIZATIONS AND RELIGIONS
+===============================================================================
+
+[LOCK] アタモニ神団 / matching organization references -> Order of Atamoni
+  Formal project term for the religious organization.
+  "Church of Atamoni" may be used only when the Japanese wording or ordinary prose
+  specifically calls for "church"; do not randomly alternate the organization name.
+
+[LOCK] Fortuna's formal following -> Sacred Order of Fortuna
+  "Church of Fortuna" may be used generically when the Japanese wording calls for it.
+
+[LOCK] オベロン社 -> Oberon Corporation
+  Powerful corporation central to Tales of Destiny's setting.
+
+IMPORTANT DISTINCTION
+  Atamoni and Fortuna are separate religious figures.
+  Elrane is associated with the Order of Atamoni while presenting herself as a
+  manifestation/agent of Fortuna.
+
+===============================================================================
+LOCATION NAMES
+===============================================================================
+
+Use these Aselia spellings when the corresponding Japanese location appears in the
+script. The navigation lists on Aselia cover both Tales of Destiny and Destiny 2, so
+do not force a location into the translation unless it is actually present.
+
+SEINEGALD
+  [LOCK] Darilsheid
+  [LOCK] Harmentz
+  [LOCK] Armeida
+  [LOCK] クレスタ -> Cresta
+  [LOCK] Dunamis Orphanage
+  [LOCK] Aigrette
+  [LOCK] Port Aigrette
+  [LOCK] Speranza
+  [LOCK] Vangelo
+  [LOCK] Straylize Forest
+  [LOCK] Straylize Temple
+  [LOCK] Libra IV
+  [LOCK] Darilsheid Underground Waterway
+  [LOCK] Harmentz Valley
+  [LOCK] Laguna Ruins
+  [LOCK] Straylize Ruins
+  [LOCK] Coastal Cave
+
+PHANDARIA
+  [LOCK] Phandaria
+  [LOCK] Heidelberg
+  [LOCK] Heidelberg Castle
+  [LOCK] Janos
+  [LOCK] Cyril
+  [LOCK] Frostheim
+  [LOCK] Katz Korner
+  [LOCK] Er'ther Base
+  [LOCK] Chelsea's Hut
+  [LOCK] Mountain Cabin
+  [LOCK] Tilso Forest
+  [LOCK] Frozen River
+  [LOCK] Spiral Cave
+  [LOCK] Tower of Druaga
+  [LOCK] Arcana Ruins
+  [LOCK] ストレイライズ大神殿 -> Straylize Grand Temple
+  [LOCK] Er'ther Base Ruins
+  [LOCK] Supplies Storage
+  [LOCK] Untamed Forest
+
+CALVALESE
+  [LOCK] Calvalese
+  [LOCK] Cherik
+  [LOCK] Junkland
+  [LOCK] Hope Town
+  [LOCK] Kalviola
+  [LOCK] Realta
+  [LOCK] Trash Mountain
+  [LOCK] Heat River
+  [LOCK] Devil's Reef
+  [LOCK] Egg of God
+  [LOCK] Shrine of Light
+
+FITZGALD
+  [LOCK] Fitzgald
+  [LOCK] ノイシュタット -> Neuestadt
+  [LOCK] Lienea
+  [LOCK] Hidden Temple
+
+AQUAVEIL
+  [LOCK] Aquaveil
+  [LOCK] Terazzi
+  [LOCK] Sheeden
+  [LOCK] Moreau
+  [LOCK] Tidal Cave
+  [LOCK] Aqua Labyrinth
+
+AETHERSPHERE
+  [LOCK] Aethersphere
+  [LOCK] Dycroft
+  [LOCK] Ignasea
+  [LOCK] Deimos
+  [LOCK] Cloudius
+  [LOCK] Rodeon
+  [LOCK] Helraios
+  [LOCK] Josaia
+  [LOCK] Mikheil
+
+===============================================================================
+BATTLE SYSTEM, UI, AND GAMEPLAY TERMS
+===============================================================================
+
+[LOCK] トラスト＆タクティカルリニアモーションバトルシステム
+  -> Trust and Tactical Linear Motion Battle System (TT-LMBS)
+
+[LOCK] Spirits System
+  Battle system governing the characters' spirit gauge.
+
+[LOCK] SP -> Spirit Points (SP)
+  SP is spent by actions and restored through defensive/inactive behavior.
+
+[LOCK] TP -> TP
+  Tales of Destiny 2 uses TP and SP at the same time.
+  Do not state that SP replaces TP.
+
+[LOCK] Spirit Blaster Mode
+  Battle state used as a requirement or substitute for the full SP cost of several
+  Mystic Artes.
+
+[LOCK] Grade
+[LOCK] Grade Shop
+[LOCK] Field of Effect
+[LOCK] Enchant
+[LOCK] Skill Enchant
+[LOCK] Monster Book
+[LOCK] Strategy
+[LOCK] Status Effect / Status Effects
+
+[SCRIPT CONFIRMED] リファイン -> Refine
+  Use "Refine" as the verb or menu command.
+[ASELIA STANDARD] Refining
+  Use "Refining" when naming the overall equipment/system mechanic.
+
+[LOCK] ガルド -> Gald
+  Standard Tales-series currency.
+
+[LOCK] Loni weapon category -> Polearm
+  Use "poleaxe" for his characteristic weapon where a specific weapon description is
+  needed. Do not standardize his entire category as "Halberd".
+
+[PROJECT TERM / VERIFY IN UI] Moon Selector
+  Key item used to change the directly controlled character.
+  Retain unless an extracted item/menu string establishes a different spelling.
+
+[SCRIPT CONFIRMED] スクリーンチャット -> Screen Chat
+  Context indicates a viewed/unviewed skit or chat-gallery feature.
+  Preserve capitalization consistently. Do not silently rename it "Skit Theater"
+  without direct menu evidence.
+
+===============================================================================
+ARTE TERMINOLOGY
+===============================================================================
+
+[LOCK] 特技 (tokugi) -> Base Arte
+[LOCK] 追加特技 (tsuika tokugi) -> Base Arte Extension
+[LOCK] 奥義 (ougi) -> Arcane Arte
+[LOCK] 秘奥義 (hi-ougi) -> Mystic Arte
+[LOCK] 晶術 (shoujutsu) -> Magic Arte
+[LOCK] 上級晶術 (joukyuu shoujutsu) -> Advanced Magic Arte
+[LOCK] 追加晶術 (tsuika shoujutsu) -> Magic Arte Extension
+
+Do not use "Lens Arte" as the default translation of 晶術. Lens powers the setting,
+but Aselia's Destiny 2 arte lists classify 晶術 as Magic Artes.
+
+===============================================================================
+NAMED ARTES
+===============================================================================
+
+GENERAL NOTE
+  English glosses in parentheses on Aselia's Destiny 2 arte pages are community
+  translations from Japanese-only material. They are useful defaults but remain
+  [PROVISIONAL] unless the project explicitly locks them.
+
+JUDAS
+
+[PROVISIONAL] 魔人千裂衝 (Majin Senretsushou) -> Dark Slaughter
+[PROVISIONAL] 浄破滅焼闇 (Jouha Messhouen) -> Cleansing Inferno
+[PROVISIONAL] 翔破裂光閃 (Shouha Rekkousen) -> Light Blast
+[PROVISIONAL] 義憐聖霊斬 (Giren Shoureizan) -> Giren Shoureizan
+  No stable Aselia English gloss was shown; retain romanization until a project
+  translation is approved.
+
+[PROVISIONAL] 真神煉獄刹 (Majin Rengokusatsu) -> Wolf's Penitence
+  Judas's hidden Mystic Arte.
+  Replaces the previous incorrect Japanese spelling and the unsupported
+  "Infernal Suffering" translation.
+
+LONI
+
+[LOCK] クリティカルブレード -> Critical Blade
+[LOCK] スパイラルドライバー -> Spiral Driver
+
+[TEAM DECISION] ファイナルプレイヤー -> Final Prayer
+  Aselia displays the arte as "Final Prayer" while also noting the literal loanword
+  reading "Final Player". Use Final Prayer as the current project default, but verify
+  against the intended joke/voice line before final release.
+
+[PROVISIONAL] 震天裂空斬光旋風滅砕神罰割殺撃
+  (Shinten Rekkuu Zankou Senpuu Messai Shinbatsu Kassatsugeki)
+  -> Tremorous Celestial Sundering Shredding Light of Cyclonic Butchery
+  Loni's successful joke Mystic Arte.
+
+[PROVISIONAL] 震天裂空斬光旋風滅砕神罰攻撃
+  (Shinten Rekkuu Zankou Senpuu Messai Shinbatsu Kougeki)
+  -> retain romanization until the project approves an English failure-version name
+  This is the failed version of Loni's joke Mystic Arte.
+
+NANALY
+
+[LOCK] ワイルド・ギース -> Wild Geese
+  Nanaly's Mystic Arte.
+
+BARBATOS
+
+[ASELIA STANDARD] ジェノサイドブレイバー -> Genocide Edict
+  Japanese loanword/name: Genocide Braver.
+  Use Genocide Edict for consistency with the established localized recurring arte.
+
+[DO NOT IMPORT] アイテムなぞ使ってんじゃねえ! -> "No Items Ever!"
+  The named anti-item Blast Caliber belongs to the Tales of Destiny PS2 remake and
+  later appearances. In Tales of Destiny 2, Barbatos's item-use counter is associated
+  with Shadow Edge rather than this named Mystic Arte. Do not insert "NO. ITEMS.
+  EVER!!" into Destiny 2 unless the exact Japanese line occurs in the script.
+
+===============================================================================
+SCRIPT-CONFIRMED TERMS NOT CONFIRMED BY ASELIA
+===============================================================================
+
+[SCRIPT CONFIRMED] ベルセリアの花 -> Bellseria Flower
+  Appears in the extracted script.
+  [TEAM DECISION] Aselia search did not establish a reliable standard spelling for
+  this item. Keep Bellseria Flower as a temporary project term until item/menu data
+  or another primary Japanese source confirms the intended name.
+
+[SCRIPT CONFIRMED] リファイン -> Refine
+  Use the verb "Refine"; use "Refining" for the system noun.
+
+[SCRIPT CONFIRMED] スクリーンチャット -> Screen Chat
+  Keep this exact project term unless the actual menu assets establish another label.
+
+===============================================================================
+DO-NOT-MIX LIST
+===============================================================================
+
+Use only the left-hand project form:
+
+  Elrane                  — not Elraine
+  Garr Kelvin             — not Woodrow Kelvin in normal translated prose
+  Marius Raiker           — not Mercurius Littler
+  Nanaly Fletcher         — not alternating between Fletcher and Fletch
+  Er'ther                 — not E'rther
+  Aeth'er                 — not replacing the formal race name with Aetherian
+  Straylize               — not Straylise
+  Magic Arte              — not Lens Arte for 晶術
+  Arcane Arte             — for 奥義
+  Mystic Arte             — only for 秘奥義
+  Polearm / poleaxe       — not Halberd as Loni's universal weapon category
+  Wolf's Penitence        — not Infernal Suffering
+  Critical Blade,
+  Final Prayer,
+  Spiral Driver           — Loni's artes, not Judas's
+
+===============================================================================
+PRIMARY ASELIA PAGES USED FOR THIS REVISION
+===============================================================================
+
+  Tales of Destiny 2
+  Kyle Dunamis
+  Reala
+  Loni Dunamis
+  Judas
+  Nanaly Fletcher
+  Harold Berselius
+  Barbatos Goetia
+  Elrane
+  Fortuna
+  Garr Kelvin
+  Marius Raiker
+  Order of Atamoni
+  Aeth'er
+  Er'ther
+  Eye of Atamoni
+  Straylize Temple
+  Calvalese
+  Heidelberg
+  Aqua Labyrinth
+  Dymlos Timber
+  Atwight Eks
+  Pierre de Chaltier
+  Laville Clemente
+  Igtenos Minarde
+  Karell Berselius
+  ToD2 - Judas: Artes
+  ToD2 - Loni Dunamis: Artes
+  ToD2 - Nanaly Fletcher: Artes
+  ToD2 - Barbatos Goetia: Artes
+
+END OF GLOSSARY
