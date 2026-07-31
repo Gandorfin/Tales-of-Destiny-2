@@ -349,16 +349,49 @@ def extract_sced_skit():
         fsize = os.path.getsize('SCED/' + name)
         text_pointers = []
         addrs = []
+        # Scan every byte position, including overlapping F8 sequences.
+        #
+        # Some SCED files encode a valid text pointer as the second F8 in:
+        #     F8 F8 <little-endian text offset>
+        #
+        # The old stream-based loop consumed three bytes after the first F8 and
+        # skipped the second F8 entirely. That caused real text records and their
+        # pointer fields to be omitted from SCED.json. Rebuilding such a file then
+        # deleted those records and left stale pointers behind.
         f.seek(pointer_block, 0)
-        
-        while f.tell() < text_block:
-            b = f.read(1)
-            if b == b'\xF8':
-                addr = struct.unpack('<H', f.read(2))[0]
-                #if f.tell() - 2 in sced_data[name]:
-                if (addr < fsize - text_block) and (addr > 0):
-                    addrs.append(f.tell() - 2)
-                    text_pointers.append(addr)
+        pointer_region = f.read(text_block - pointer_block)
+
+        for relative_offset in range(max(0, len(pointer_region) - 2)):
+            if pointer_region[relative_offset] != 0xF8:
+                continue
+
+            addr = struct.unpack_from(
+                '<H',
+                pointer_region,
+                relative_offset + 1
+            )[0]
+
+            if not (0 < addr < fsize - text_block):
+                continue
+
+            target = text_block + addr - 1
+
+            if target < 0 or target >= fsize:
+                continue
+
+            f.seek(target, 0)
+
+            if f.read(1) != b'\x00':
+                continue
+
+            pointer_field = (
+                pointer_block
+                + relative_offset
+                + 1
+            )
+
+            addrs.append(pointer_field)
+            text_pointers.append(addr)
 
         for i in range(len(text_pointers)):
             f.seek(text_block + text_pointers[i] - 1, 0)
@@ -469,7 +502,35 @@ def insert_sced():
                 txt += (b'\x01')
                 
         f.close()
-        
+
+        if name not in sced_data:
+            raise RuntimeError(
+                f'{name}: no pointer data found in SCED.json'
+            )
+
+        expected_text_count = len(sced_data[name])
+
+        if len(txts) != expected_text_count:
+            raise RuntimeError(
+                f'{name}: translated text block count mismatch. '
+                f'Found {len(txts)} translated blocks, but '
+                f'SCED.json contains {expected_text_count} text pointers. '
+                f'Re-extract SCED with the overlapping-pointer fix and '
+                f'merge/translate every newly discovered block.'
+            )
+
+        total_text_bytes = 1 + sum(
+            len(text_record)
+            for text_record in txts
+        )
+
+        if total_text_bytes - 1 > 0xFFFF:
+            raise RuntimeError(
+                f'{name}: rebuilt text block requires '
+                f'{total_text_bytes} bytes, exceeding the 16-bit '
+                f'SCED text-pointer range'
+            )
+
         sced.seek(8, 0)
         pointer_block = struct.unpack('<L', sced.read(4))[0]
         sced.seek(0, 0)
@@ -487,7 +548,17 @@ def insert_sced():
         
         for t in txts:
             o.write(t)
-            
+
+        generated_size = o.tell()
+
+        if generated_size != pointer_block + total_text_bytes:
+            o.close()
+            raise RuntimeError(
+                f'{name}: generated SCED size mismatch. '
+                f'Expected {pointer_block + total_text_bytes}, '
+                f'wrote {generated_size}'
+            )
+
         o.close()
 
 def pack_scpk():
