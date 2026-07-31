@@ -62,7 +62,7 @@ What's your plan for our era!
 Answer me, Elraine!
 -----------------------
 #エルレイン
-Elle
+Elrane
 -----------------------
 #おまえたちか････だが、もはや時は過ぎた
 #すでに矢は放たれようとしている
@@ -77,7 +77,7 @@ Shoot an arrow...?
 What do you mean!?
 -----------------------
 #エルレイン
-Elle
+Elrane
 -----------------------
 #千年前、星を射抜いた光の矢、
 #その輝きを、今再び････！
@@ -237,7 +237,7 @@ What kind of relationship is there between them!?
 #エルレインはあの悲劇をもう一度
 #くり返そうとしてるのよ
 Don't you get it yet?
-Elle is trying to bring back that tragedy,
+Elrane is trying to bring back that tragedy,
 one more time.
 -----------------------
 <Harold>
@@ -257,13 +257,13 @@ So that's what it meant.
 But why now...!?
 -----------------------
 #エルレイン
-Elle
+Elrane
 -----------------------
 #おまえたちを救うためだ
 It's to save you all.
 -----------------------
 #エルレイン
-Elle
+Elrane
 -----------------------
 #おまえたちだけではない
 #この世界のすべてを救うために、
@@ -282,13 +282,13 @@ Destroying to save?
 That's impossible.
 -----------------------
 #エルレイン
-Elle
+Elrane
 -----------------------
 #私は間違ってなどいない！
 I'm not wrong!
 -----------------------
 #エルレイン
-Elle
+Elrane
 -----------------------
 #完全な形で神が降臨すれば････
 #全人類の絶対幸福を実現することができる
@@ -296,7 +296,7 @@ If God were to descend in His complete form...
 We could realize absolute happiness for all humanity.
 -----------------------
 #エルレイン
-Elle
+Elrane
 -----------------------
 #それを成すため、私は歴史を改変した
 #だが、その試みはことごとく無に帰した
@@ -313,17 +313,17 @@ But all my efforts came to naught.
 ...
 -----------------------
 #エルレイン
-Elle
+Elrane
 -----------------------
 #だからこそ、私は最後の手段を取るのだ
 #神のたまごともいえる、巨大彗星を
 #地表に落下させるという手段を
-That is precisely why I am resorting to my final measure.
-A giant comet, which can also be called an egg of the gods,
-is the method used to make it crash down onto the surface.
+That is why I must use
+my final measure: sending the comet
+crashing down upon the surface.
 -----------------------
 #エルレイン
-Elle
+Elrane
 -----------------------
 #ふたつの天体が衝突する際に生じる
 #すさまじいエネルギーをもってすれば
@@ -333,7 +333,7 @@ With that immense energy,
 The descent of God becomes reality.
 -----------------------
 #エルレイン
-Elle
+Elrane
 -----------------------
 #そう、完全なる神の････！
 Yes, the perfect God...!
@@ -360,7 +360,7 @@ To God, what are we humans?
 Exactly what are we?!
 -----------------------
 #エルレイン
-Elle
+Elrane
 -----------------------
 #神によって救われるべき、はかなく、
 #あわれで、いとおしい存在
@@ -396,13 +396,13 @@ I won't let anyone erase that.
 Not a soul will allow it!
 -----------------------
 #エルレイン
-Elle
+Elrane
 -----------------------
 #案ずることはない
 No need to worry.
 -----------------------
 #エルレイン
-Elle
+Elrane
 -----------------------
 #おまえたちがすべて死に絶えたとしても
 #完全神の降臨さえ果たされれば
@@ -412,7 +412,7 @@ As long as the descent of the Complete God is achieved
 We can give birth to a new humanity
 -----------------------
 #エルレイン
-Elle
+Elrane
 -----------------------
 #そして、新たなる人類は、完全なる世界で
 #完全な幸福を手にすることができる
@@ -420,7 +420,7 @@ And so, in a world of perfection,
 the new humanity can attain perfect happiness.
 -----------------------
 #エルレイン
-Elle
+Elrane
 -----------------------
 #いまこそ、人類自身のために
 #すべてを振り出しに戻すべきなのだ
@@ -435,7 +435,7 @@ The destruction of history is for humanity's sake...!?
 This isn't some joke!!
 -----------------------
 #エルレイン
-Elle
+Elrane
 -----------------------
 #おろかな････
 #まだ、わからないのか？
@@ -453,7 +453,7 @@ escape all misfortune
 attain absolute happiness
 -----------------------
 #エルレイン
-Elle
+Elrane
 -----------------------
 #なぜ、その真理を認めようとしない？
 Why won't you accept that truth?
@@ -490,7 +490,7 @@ Ereain
 it's probably pointless.
 -----------------------
 #エルレイン
-Elle
+Elrane
 -----------------------
 #すでに矢は放たれようとしている
 #これを止めることは、
@@ -517,7 +517,7 @@ Even if you were to defeat me, who am here right now,
 it would mean nothing.
 -----------------------
 #エルレイン
-Elle
+Elrane
 -----------------------
 #私は、神より産まれし者
 #何度でも生まれかわり
@@ -539,13 +539,13 @@ And so, I'll make sure you never
 come back again!
 -----------------------
 #エルレイン
-Elle
+Elrane
 -----------------------
 #神を殺す････か
 Killing God...?
 -----------------------
 #エルレイン
-Elle
+Elrane
 -----------------------
 #やはり真実は告げられなかったようだな
 #<Reala>････
@@ -565,7 +565,7 @@ I suppose the truth was kept from us after all.
 ...
 -----------------------
 #エルレイン
-Elle
+Elrane
 -----------------------
 #ならば、私が代わりに教えてやろう
 #<Reala>と私は････
@@ -578,7 +578,7 @@ If so, I shall teach you in my stead.
 Don't stop it, Elrein!!
 -----------------------
 #エルレイン
-Elle
+Elrane
 -----------------------
 #<Reala>と私は、神だ････
 <Reala> and I are gods...
@@ -589,7 +589,7 @@ Elle
 <Reala>...is God!?
 -----------------------
 #エルレイン
-Elle
+Elrane
 -----------------------
 #だから、神を殺せば、私と共に････
 #<Reala>も死ぬ
@@ -613,7 +613,7 @@ Don't fall for it, <Kyle>!
 It's nonsense, it has to be!
 -----------------------
 #エルレイン
-Elle
+Elrane
 -----------------------
 #信じるかどうかは、おまえたちの自由
 #だが、真実はひとつだ
@@ -663,7 +663,7 @@ Myself and Elraine as well...
 ......N-no way...!
 -----------------------
 #エルレイン
-Elle
+Elrane
 -----------------------
 #そう、やはりおまえたちに
 #神を殺せはしない
@@ -671,7 +671,7 @@ Yes, as I suspected, you two...
 You cannot kill God.
 -----------------------
 #エルレイン
-Elle
+Elrane
 -----------------------
 #それが分かったのなら帰るがいい
 #そして、裁きの時を迎える場所を
@@ -681,7 +681,7 @@ And choose the place where judgment shall fall,
 With your own hands.
 -----------------------
 #エルレイン
-Elle
+Elrane
 -----------------------
 #それが、おまえたちに
 #与えられた最後の幸福だ
@@ -831,4 +831,3 @@ notice
 #何もありません
 There's nothing here.
 -----------------------
-
