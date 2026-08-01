@@ -39,6 +39,9 @@ it's name is "<item:00000C01>".
 #ここは孤児院二階です
 This is the second floor of the orphanage.
 -----------------------
+#孤児院二階
+Orphanage - 2nd Floor
+-----------------------
 #いってらっしゃいませ
 Have a good day.
 -----------------------
@@ -95,4 +98,3 @@ notice
 #何もありません
 There's nothing here.
 -----------------------
-
