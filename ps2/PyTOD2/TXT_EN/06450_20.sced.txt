@@ -477,23 +477,23 @@ soldier
 #････おまえさん、本当にあの子か？
 #昨日とは、まるで別人だ････
 Wait... are you really that girl?
-She's practically a different person from yesterday.
+You're nothing like you were yesterday.
 -----------------------
 #兵士
 soldier
 -----------------------
 #とにかく頼んだぞ、スタンの････
 #････いや、<Kyle>くん
-I told him to do it anyway, Stan...
-......No, <Kyle>.
+I'm counting on you, Stan's...
+...No, <Kyle>.
 -----------------------
 #兵士
 soldier
 -----------------------
 #あー、それは別館のほうに運んでくれ！
 #重いなら、二回にわけていいから！
-Ah, take those to the annex!
-If they're heavy, it's fine to split them into two trips!
+Take those over to the annex!
+If they're heavy, make two trips!
 -----------------------
 #兵士
 soldier
@@ -501,9 +501,9 @@ soldier
 #いやぁ、復旧作業の担当になってから
 #兵士らしいこと、全然してなくて
 #ま、これはこれで楽しいんだけどな
-Man, ever since I took charge of the reconstruction work...
-I haven't been acting much like a soldier at all.
-Well, it's fun in its own way though.
+Since I was put on reconstruction duty,
+I haven't done much soldiering.
+But this work is fun in its own way.
 -----------------------
 #兵士
 soldier
@@ -511,9 +511,9 @@ soldier
 #剣とかヤリの扱いなら、得意なんだが
 #トンカチやノコギリ、おまけに
 #女の子の扱いまでしなきゃならん
-I'm quite skilled at handling swords and spears.
-Hammers, saws, and on top of that,
-I even have to know how to handle girls.
+I'm good with swords and spears,
+but now it's hammers and saws,
+and even dealing with girls.
 -----------------------
 #兵士
 soldier
@@ -521,17 +521,17 @@ soldier
 #だが、なんか楽しいんだよ
 #そう････なにかを作り直すってのが
 #きっと、いいんだろうな
-But it's fun somehow.
-That's right... rebuilding something is...
-It'll probably turn out great.
+But somehow, I'm enjoying it.
+There's something good about
+building things back up again.
 -----------------------
 #兵士
 soldier
 -----------------------
 #あー、それは二階だ！
 #客間のほうに、持ってってくれ！
-Oh, that's on the second floor!
-Take it to the guest room!
+Take those to the second floor!
+Bring them to the guest room!
 -----------------------
 #兵士
 soldier
@@ -539,9 +539,9 @@ soldier
 #あの英雄スタンの息子を
 #この眼で見られるとは････
 #生ける伝説と対面している気分だ
-Son of that hero Stan
-To see it with my own eyes...
-It feels like I'm meeting a living legend.
+To see the son of the hero Stan
+with my own eyes...
+is like meeting a living legend.
 -----------------------
 <Kyle>
 -----------------------
@@ -558,9 +558,9 @@ soldier
 #まぁ、陛下もそうなんだがな
 #もう十八年も見てると
 #そういう感慨は、おきないもんさ
-Well, Your Majesty is much the same.
-After watching them for eighteen years,
-That sort of sentiment doesn't really hit you.
+His Majesty is much the same.
+After serving him for eighteen years,
+that feeling fades.
 -----------------------
 #兵士
 Soldier
@@ -568,9 +568,9 @@ Soldier
 #陛下が戻られて十八年
 #ずっとお仕えしてきたからなぁ
 #生ける伝説って感じは、あんまりないのさ
-It's been eighteen years since His Majesty returned.
-I've served him faithfully all this time.
-He doesn't really come across as a living legend to me.
+His Majesty returned eighteen years ago.
+I've served him ever since.
+So he hardly feels like a legend.
 -----------------------
 <Kyle>
 -----------------------
@@ -587,9 +587,9 @@ soldier
 #ははっ！　おれもおまえも
 #英雄が近くにいすぎるっていう
 #ゼイタクな悩みを抱えているわけだ
-Haha! Both you and I
-have the problem of heroes being too close for comfort
-are dealing with an overly luxurious worry.
+Haha! You and I share
+the rare problem of having heroes
+too close to us.
 -----------------------
 #兵士
 soldier
@@ -597,9 +597,9 @@ soldier
 #英雄が近くにいすぎるっていう
 #ゼイタクな悩みを抱えているわけだ
 #おれたちは、似た者同士だな
-The hero is too close.
-That's quite the luxurious problem to have.
-We're cut from the same cloth.
+Heroes are simply too close to us.
+It's a fortunate problem to have.
+I suppose we're alike.
 -----------------------
 #兵士
 Soldier

@@ -2078,67 +2078,67 @@ it's a matter of life and death.
 -----------------------
 #じゃあ、ウッドロウさんなら
 #どうするんですか？
-Well then, Mr. Woodrow,
-what will you do?
+Then what would you do,
+Mr. Woodrow?
 -----------------------
 #ウッドロウ
 Woodrow
 -----------------------
 #考える
-Think about it
+I would think.
 -----------------------
 <Kyle>
 -----------------------
 #考える？
-Do you want to think about it?
+Think?
 -----------------------
 #ウッドロウ
 Woodrow
 -----------------------
 #そう、考えて、考えて、
 #ひたすら考え抜く
-Yes, think, think,
-pondering deeply
+Yes. Think, and think again.
+Think it through completely.
 -----------------------
 <Kyle>
 -----------------------
 #それでも答えが出なかったら？
-What if we still can't find an answer?
+And if you still find no answer?
 -----------------------
 #ウッドロウ
 Woodrow
 -----------------------
 #もっと考える、答えが出るまでね
-I'll keep thinking about it until I find the answer.
+Then think until the answer comes.
 -----------------------
 #ウッドロウ
 Woodrow
 -----------------------
 #そして、出した答えは何があっても
 #最後まで貫きとおす
-And no matter what happens, the answer I came to...
-I will see it through to the very end.
+Whatever answer you reach,
+you must stand by it to the end.
 -----------------------
 #ウッドロウ
 Woodrow
 -----------------------
 #それが決断をゆだねられた者の
 #負うべき責任だと私は思う
-It is what those entrusted with the decision
-I believe to be their responsibility.
+I believe that is the duty
+of anyone entrusted with a choice.
 -----------------------
 <Kyle>
 -----------------------
 #決断をゆだねられた者の責任････
-The responsibility of those entrusted with making the choice...
+The duty of one entrusted to choose...
 -----------------------
 #ウッドロウ
-Woolong
+Woodrow
 -----------------------
 #無責任な言い方に聞こえるかも
 #しれないが････悩み、考えたまえ
-It might sound irresponsible.
-But then again... think it over.
+This may sound irresponsible,
+but you must think it through.
 -----------------------
 #ウッドロウ
 Woodrow
@@ -2146,16 +2146,16 @@ Woodrow
 #真剣に悩み、苦しみ、ギリギリまで
 #時間をかけて君自身が納得できる
 #答えを見つければいい
-Worry seriously, suffer through it, all the way to the very end
-Takes time for you yourself to come to terms with
-You just need to find an answer that satisfies you
+Struggle with it in earnest,
+and take all the time you need
+to find an answer you can accept.
 -----------------------
 #ウッドロウ
 Woodrow
 -----------------------
 #つらいだろうが、誰にも君の代わりはできない
 #くじけないでくれ<Kyle>くん
-It's tough, but no one else can take your place.
+It will be hard, but it must be you.
 Don't lose heart, <Kyle>.
 -----------------------
 <Kyle>
@@ -2163,21 +2163,21 @@ Don't lose heart, <Kyle>.
 #わかりました････
 #オレ、最後の最後まで考えてみます
 I understand...
-I'll think it over until the very end.
+I'll think it through to the very end.
 -----------------------
 #ウッドロウ
 Woodrow
 -----------------------
 #そして<Reala>くん
 #君もつらいだろうが････
-And then there's you, <Reala>
-You're suffering too, aren't you...?
+And you, <Reala>.
+This must be painful for you too...
 -----------------------
 <Reala>
 -----------------------
 #わたしなら、大丈夫です
 #<Kyle>を信じてますから！
-I'll be fine!
+I'll be all right.
 I believe in <Kyle>!
 -----------------------
 <Kyle>
@@ -2191,21 +2191,21 @@ Woodrow
 #････そうか
 #私などが心配するまでもなかったな
 ...I see.
-It wasn't necessary to worry about someone like me.
+Then I had no need to worry.
 -----------------------
 <Reala>
 -----------------------
 #いいえ、お心づかい、本当に感謝します
 #ウッドロウさん････ありがとうございました
-No, I truly appreciate your thoughtfulness.
-Woodrow... thank you so much.
+No. I truly appreciate your concern.
+Thank you, Mr. Woodrow.
 -----------------------
 <Kyle>
 -----------------------
 #ありがとうございました、ウッドロウさん
 #それじゃあ、オレたち行きます
-Thank you very much, Woodrow.
-Alright then, we're off.
+Thank you, Mr. Woodrow.
+We'll be going now.
 -----------------------
 #安心してください、応急手当は
 #すでにすませてあります

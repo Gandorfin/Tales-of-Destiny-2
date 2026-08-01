@@ -974,9 +974,9 @@ woman
 #ワタシ、観光ガイドを目指してるの
 #ちょっと、名所説明の練習
 #つきあってくれない？
-I'm aiming to become a tour guide.
-Just practicing my sightseeing explanations.
-Won't you give it a try?
+I'm training to be a tour guide.
+Could you help me practice
+my descriptions of the sights?
 -----------------------
 select
 -----------------------
@@ -998,16 +998,16 @@ woman
 -----------------------
 #こちらの門、名前を「英雄門」といい
 #先の騒乱の終了を祝って、作られました
-This gate is known as 'Hero's Gate'.
-It was built to celebrate the end of the recent unrest.
+This is known as Hero's Gate.
+It marks the end of the recent unrest.
 -----------------------
 #女性
 woman
 -----------------------
 #この門を隔てて、城側が旧市街
 #街の外側が新市街と呼ばれています
-The city side beyond this gate is the Old Town.
-The area outside the town is known as the New Town.
+Inside the gate lies the Old Town.
+Outside it lies the New Town.
 -----------------------
 #女性
 woman
@@ -1015,9 +1015,9 @@ woman
 #旧市街は、以前からあった街並みです
 #古い建物が多く、また公園もあり
 #人々の憩いの場となっています
-The Old Town is the original district that has existed since long ago.
-It's filled with old buildings and also features parks,
-serving as a place for people to relax and unwind.
+The Old Town is the original district.
+It has old buildings and parks,
+where people come to relax.
 -----------------------
 #女性
 woman
@@ -1025,9 +1025,9 @@ woman
 #十八年前の騒乱後、崩壊してしまった
 #ジェノスとサイリルの住民を吸収し
 #新たに作られたのが、新市街です
-Eighteen years after the unrest, it collapsed.
-Absorbing the residents of Genos and Cyril,
-the new district was newly created.
+After the unrest eighteen years ago,
+Janos and Cyril's people settled here,
+forming what became the New Town.
 -----------------------
 #女性
 woman
@@ -1035,9 +1035,9 @@ woman
 #これらふたつの街をつなぐ「英雄門」は
 #新たなハイデルベルグの街を象徴する
 #記念碑的な建物なのです
-The 'Hero's Gate' connecting these two towns
-is symbolic of the new Heidelberg city
-a monumental structure.
+Hero's Gate links the two districts.
+It symbolizes the new Heidelberg
+and stands as a monument.
 -----------------------
 #女性
 Woman
@@ -1045,9 +1045,9 @@ Woman
 #また、門の上には博物館兼図書館があり
 #先の騒乱や、天地戦争時代の資料が
 #数多く納められています
-Additionally, there is a museum and library atop the gate,
-where numerous records from the previous unrest and the Era of Heavenly War are
-kept.
+Above the gate are a museum
+and a library holding many records
+of the unrest and the Aeth'er Wars.
 -----------------------
 #女性
 woman
@@ -1056,16 +1056,16 @@ woman
 #よかったぁ！　今日は一回も
 #間違えなかったわ！
 ...And that's all!
-Phew! Today I didn't make a single mistake.
-I got it right!
+Phew! I made no mistakes today!
+I got everything right!
 -----------------------
 #女性
 woman
 -----------------------
 #ザンネン････
 #ヒマができたら、声かけてね！
-How disappointing...
-Feel free to give me a shout if you're bored!
+That's too bad...
+Come back when you have some free time!
 -----------------------
 #女性
 woman
@@ -1271,9 +1271,9 @@ woman
 #ワタシ、観光ガイドを目指してるの
 #ちょっと、名所説明の練習
 #つきあってくれない？
-I'm aiming to become a tour guide.
-Just practicing my sightseeing commentary.
-Won't you give it a try?
+I'm training to be a tour guide.
+Could you help me practice
+my descriptions of the sights?
 -----------------------
 select
 -----------------------
@@ -1295,16 +1295,16 @@ woman
 -----------------------
 #こちらの門、名前を「英雄門」といい
 #先の騒乱の終了を祝って、作られました
-This gate is called the 'Hero's Gate'.
-It was built to celebrate the end of the recent unrest.
+This is known as Hero's Gate.
+It marks the end of the recent unrest.
 -----------------------
 #女性
 Woman
 -----------------------
 #この門を隔てて、城側が旧市街
 #街の外側が新市街と呼ばれています
-The city side beyond this gate is the Old Town.
-The area outside the town is known as the New Town.
+Inside the gate lies the Old Town.
+Outside it lies the New Town.
 -----------------------
 #女性
 Woman
@@ -1312,9 +1312,9 @@ Woman
 #旧市街は、以前からあった街並みです
 #古い建物が多く、また公園もあり
 #人々の憩いの場となっています
-The Old Town is the original district that has existed since long ago.
-It features many old buildings and also includes parks,
-serving as a place for people to relax.
+The Old Town is the original district.
+It has old buildings and parks,
+where people come to relax.
 -----------------------
 #女性
 woman
@@ -1322,9 +1322,9 @@ woman
 #十八年前の騒乱後、崩壊してしまった
 #ジェノスとサイリルの住民を吸収し
 #新たに作られたのが、新市街です
-Eighteen years after the unrest, it collapsed.
-Absorbing the residents of Genos and Cyril,
-the new district was newly created.
+After the unrest eighteen years ago,
+Janos and Cyril's people settled here,
+forming what became the New Town.
 -----------------------
 #女性
 woman
@@ -1332,9 +1332,9 @@ woman
 #これらふたつの街をつなぐ「英雄門」は
 #新たなハイデルベルグの街を象徴する
 #記念碑的な建物なのです
-The 'Hero Gate' connecting these two towns
-is symbolic of the new Heidelberg city
-a monumental structure.
+Hero's Gate links the two districts.
+It symbolizes the new Heidelberg
+and stands as a monument.
 -----------------------
 #女性
 woman
@@ -1342,9 +1342,9 @@ woman
 #また、門の上には博物館兼図書館があり
 #先の騒乱や、天地戦争時代の資料が
 #数多く納められています
-Additionally, there is a museum and library atop the gate,
-where numerous records from the previous unrest
-and the era of the Heavenly War are kept.
+Above the gate are a museum
+and a library holding many records
+of the unrest and the Aeth'er Wars.
 -----------------------
 #女性
 woman
@@ -1352,57 +1352,57 @@ woman
 #････以上！
 #よかったぁ！　今日は一回も
 #間違えなかったわ！
-...That's all!
-Thank goodness! Today I didn't make a single mistake.
-I got it right!
+...And that's all!
+Phew! I made no mistakes today!
+I got everything right!
 -----------------------
 #女性
 woman
 -----------------------
 #ザンネン････
 #ヒマができたら、声かけてね！
-Too bad...
-Hit me up if you're free!
+That's too bad...
+Come back when you have some free time!
 -----------------------
 <Kyle>
 -----------------------
 #ここがハイデルベルグかぁ！
 #さすが、英雄王が治めるだけあって
 #でっかい街だなぁ！
-This is Heidelburg, huh!
-As expected, it's fitting for a kingdom ruled by a Hero King.
-What a huge city!
+So this is Heidelberg!
+It's huge, just as you'd expect
+from the Hero King's capital!
 -----------------------
 <Loni>
 -----------------------
 #へッへへへ････たしかにな
 #これだけの大都市は、世界広しといえども
 #こことアイグレッテぐらいだろう
-Heh heh heh... You're right.
-In all the wide world, there are few cities as vast as this one.
-This place and Aigrette are probably it.
+Heh heh... You're right.
+Few cities in the world are this large.
+Only Heidelberg and Aigrette, perhaps.
 -----------------------
 <Reala>
 -----------------------
 #でも、アイグレッテとは
 #なにか感じが違うわ
 #うまく言えないけど････
-But something about Iglotte...
-It feels different somehow.
-I can't quite put my finger on it...
+But it feels different
+from Aigrette somehow.
+I can't quite explain it...
 -----------------------
 <Kyle>
 -----------------------
 #そんなことより、早く
 #ウッドロウ王に会いに行こうよ！
-Never mind that, let's hurry.
-Let's go meet King Woodrow!
+Never mind that. Let's hurry
+and go meet King Woodrow!
 -----------------------
 <Kyle>
 -----------------------
 #どんな人なんだろう？
 #ワクワクするなぁ！
-I wonder what kind of person they are?
+I wonder what he's like.
 This is so exciting!
 -----------------------
 <Reala>
@@ -1421,14 +1421,14 @@ This is so exciting!
 #もう！　<Kyle>ったら
 #すごい勢いで走るんだもの！
 Haa... haa...
-Geez! You're such a handful, <Kyle>.
-You were running at full speed!
+Geez, <Kyle>! You ran off
+at full speed!
 -----------------------
 <Kyle>
 -----------------------
 #････<Reala>
 #ごめんね
-...[L1C1]<Reala>
+...<Reala>
 I'm sorry.
 -----------------------
 <Reala>
@@ -1441,9 +1441,9 @@ I'm sorry.
 #遺跡の奥で<Reala>と出会って
 #それからいろんなところを旅して
 #一人前になったつもりだった
-I met <Reala> deep within the ruins
-We traveled to all sorts of places after that
-I thought I had become a true adult
+I met <Reala> deep in the ruins.
+Then we traveled all over.
+I thought I had finally grown up.
 -----------------------
 <Kyle>
 -----------------------
@@ -1451,26 +1451,26 @@ I thought I had become a true adult
 #「英雄になれるかも」って言われて
 #認められたつもりでいた
 Mr. Woodrow told me
-"You might become a hero"
-I thought I'd been acknowledged
+I might become a hero.
+I thought he'd acknowledged me.
 -----------------------
 <Kyle>
 -----------------------
 #････でも、それだけだった
 #父さんや母さんを越えてもいない
 #だれひとり、救ってもいない
-...But that was all there was to it.
-I haven't even surpassed my father or mother yet.
-Not a single person has been saved.
+But that was all.
+I haven't surpassed Mom or Dad,
+or saved even one person.
 -----------------------
 <Kyle>
 -----------------------
 #<Reala>が困ってるときも
 #オレ、ただうかれるだけで････
 #これじゃ、ただのガキだよな
-When <Reala> was in trouble...
-I was just getting carried away...
-In that case, I'm just a kid.
+Even when <Reala> needed me,
+I only got carried away...
+I'm still just a kid, aren't I?
 -----------------------
 <Reala>
 -----------------------
@@ -1482,46 +1482,46 @@ In that case, I'm just a kid.
 #<Judas>に、そのこと言われて
 #オレ、ほんとにバカなんだなって思って
 #はずかしくなって････
-When <Judas> said that to me,
-I figured I was actually an idiot
-It's embarrassing...
+When <Judas> pointed that out,
+I realized what a fool I'd been.
+I felt so ashamed...
 -----------------------
 <Kyle>
 -----------------------
 #あ、でも、もう大丈夫だから！
 #心配しないで先に戻ってて
-Ah, but I'm fine now!
-Don't worry, go back first.
+But I'm all right now!
+Don't worry. Go on ahead.
 -----------------------
 <Reala>
 -----------------------
 #<Kyle>は？
-What about <Kyle>?
+What about you, <Kyle>?
 -----------------------
 <Kyle>
 -----------------------
 #オレ、ちょっとぶらついて、
 #頭冷やしてくるよ
-I'm gonna wander around for a bit,
+I'll walk around for a while
 and clear my head.
 -----------------------
 <Reala>
 -----------------------
 #････ねえ、<Kyle>
 #わたしも一緒に、歩いてもいい？
-...Hey, .<Kyle>
-Can I walk with you too?
+...Hey, <Kyle>.
+May I walk with you?
 -----------------------
 <Kyle>
 -----------------------
 #ああ、いいけど････
-Yeah, sure.
+Sure, but...
 -----------------------
 <Reala>
 -----------------------
 #決まり！
 #行きましょ、<Kyle>！
-It's settled!
+Then it's settled!
 Let's go, <Kyle>!
 -----------------------
 #人の身長ほどもある巨大なタルだ
@@ -3441,3 +3441,4 @@ is the reason for it.
 Keeping our items organized is important too.
 -----------------------
 
+-----------------------
