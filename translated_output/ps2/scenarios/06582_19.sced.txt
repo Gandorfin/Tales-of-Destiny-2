@@ -352,8 +352,8 @@ Dymlos
 -----------------------
 #この作戦には我が地上軍の････
 #ひいては世界の運命がかかっている
-This operation hinges on our ground forces...
-Ultimately, it concerns the fate of the world.
+This mission puts our army...
+and the world's fate at stake.
 -----------------------
 #ディムロス
 Dymlos
@@ -361,9 +361,9 @@ Dymlos
 #ベルクラント開発チームを
 #救出することができなければ
 #そのときは････
-We need to rescue the Belkurt development team.
-If we can't save them,
-That's when...
+We must rescue the Belcrant team.
+If we cannot save them,
+then...
 -----------------------
 <Kyle>
 -----------------------
@@ -376,9 +376,9 @@ Dymlos
 #この作戦には我が地上軍の････
 #ひいては世界の運命がかかっている
 #失敗は許されない････決してな
-This operation involves our ground forces...
-Determining the fate of the world itself.
-We cannot afford to fail... Not ever.
+Our army and the world's fate...
+both depend on this mission.
+Failure is not an option.
 -----------------------
 #ディムロス
 Dymlos
@@ -386,16 +386,16 @@ Dymlos
 #君の言うとおり、私は腰抜けだ
 #だが、私には中将としての責務がある
 #そして、守るべき部下がいる
-I'm as much of a coward as you say.
-But I have my duties as a lieutenant general.
-And there are subordinates under my command that I need to protect.
+You're right. I am a coward.
+As lieutenant general, I have duties
+and subordinates to protect.
 -----------------------
 <Kyle>
 -----------------------
 #アトワイトさんだって
 #そのひとりじゃないんですか？
-Even Atwight,
-isn't he one of them?
+What about Atwight?
+Isn't she one of them?
 -----------------------
 #ディムロス
 Dymlos
@@ -403,9 +403,9 @@ Dymlos
 #アトワイトひとりのために
 #多くの部下を危険にさらすわけには
 #いかない････軍隊とは、そういうものだ
-For just Atwight's sake,
-I can't put so many subordinates in danger.
-That's what an army is.
+For Atwight's life alone,
+I cannot risk all my troops.
+That is what an army means.
 -----------------------
 #ディムロス
 Dymlos

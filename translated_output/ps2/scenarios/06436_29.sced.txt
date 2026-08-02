@@ -17,9 +17,9 @@ it was personally designed by King Woodrow.
 #台座に碑文が彫られている
 #『過ちの記憶を留めるため、後世にこの場所を残す
 #　　　　　　　　　　　　ウッドロウ＝ケルヴィン』
-The pedestal is engraved with an inscription.
-To preserve the memory of our mistakes, we leave this place for future generations.
-Woodrow Kelvin
+The pedestal bears an inscription.
+Remember our mistakes; leave this
+place to posterity. Woodrow Kelvin
 -----------------------
 #『記念公園の建設にあたって
 #　特に、多大な資金を援助して下さった
@@ -1307,9 +1307,9 @@ But history remained unchanged.
 #ディムロスさん、アトワイトさん
 #それに父さんや母さん････
 #みんなの強さが歴史を守ったんだ
-Dymlos-san, Atwight-san
-And Father and Mother...
-The strength of everyone protected history.
+Dymlos, Atwight,
+Mom and Dad, too...
+Their strength protected history.
 -----------------------
 <Reala>
 -----------------------
@@ -1331,14 +1331,14 @@ I still can't believe it.
 #遺跡で不思議な女の子に出会ったり、
 #仲間と世界中を旅したり
 #時を越えて英雄たちと一緒に戦ったり
-Meeting a mysterious girl in an ancient ruin,
-Traveling across the world with your companions
-Fighting alongside heroes as you transcend time
+I met a mysterious girl in ruins,
+traveled the world with friends,
+and fought heroes across time.
 -----------------------
 <Kyle>
 -----------------------
 #実は全部、夢なんじゃないかって････
-Actually, I can't help but wonder if it's all just a dream...
+Maybe it was all just a dream...
 -----------------------
 <Reala>
 -----------------------
@@ -1831,4 +1831,3 @@ notice
 #何もありません
 There's nothing here.
 -----------------------
-
