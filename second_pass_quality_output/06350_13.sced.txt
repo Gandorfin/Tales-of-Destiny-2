@@ -1,0 +1,209 @@
+#古都ダリルシェイド・宿屋
+Old Darilsheid - Inn
+-----------------------
+#古都ダリルシェイド
+Old Darilsheid
+-----------------------
+#安物のベッドだ････
+#ここで寝ても、疲れは取れないだろう････
+It's a cheap bed....
+Sleeping here won't do much to relieve your fatigue....
+-----------------------
+#メイドさん
+Maid
+-----------------------
+#それにしても、ヒマ････
+#やることがないっていうのも
+#結構、ツラいんですよぉ
+Still, I've got so much free time....
+Having nothing to do is
+actually pretty rough, you know?
+-----------------------
+#メイドさん
+Maid
+-----------------------
+#はぁ、今日もお客さまは
+#常連の方のひとりだけ････
+#お仕事なくて、タイクツだわぁ
+*sigh* Just one regular today, too....
+With so little work, I'm bored out of my mind.
+-----------------------
+#メイドさん
+Maid
+-----------------------
+#この街に港があったころは
+#ロビーなんか、お客さまで
+#あふれ返ってたらしいですけどね
+Back when this city still had a port,
+they say the lobby was overflowing
+with customers.
+-----------------------
+<Kyle>
+-----------------------
+#経営がタイヘンなのは
+#うちの孤児院だけじゃ
+#ないんだな････
+So it's not just our orphanage
+that's struggling to stay afloat....
+-----------------------
+#メイドさん
+Maid
+-----------------------
+#ね、あなたたち、よかったら
+#このホテルに泊まってかない？
+#お仕事がなくて、ヒマなんですぅ
+Hey, you guys, if it's all right,
+would you stay at this hotel?
+I've got no work, so I'm free.
+-----------------------
+#メイドさん
+Maid
+-----------------------
+#ね、おねがい
+#あなたたちのお世話を
+#あたしにさせて★
+Hey, please?
+Let me take care
+of you guys★
+-----------------------
+#メイドさん
+Maid
+-----------------------
+#ね、あなたたち、よかったら
+#泊まってかない？
+#お仕事がなくて、ヒマなんですぅ
+Hey, you guys, if it's all right,
+would you stay here?
+I've got no work, so I'm free.
+-----------------------
+#メイドさん
+Maid
+-----------------------
+#ね、おねがい
+#あなたたちのお世話を
+#あたしにさせて★
+Hey, please?
+Let me take care
+of you guys★
+-----------------------
+<Loni>
+-----------------------
+#よっしゃあッ！させたる！！
+#さあ、一番高い部屋に
+#案内してもらおうかッ！
+Heck yeah! I'm in!!
+C'mon, show me to
+the fanciest room you've got!
+-----------------------
+<Nanaly>
+-----------------------
+#ちょっと、なに乗せられてるんだよ！
+#まったく････
+Hey, don't let her play you like that!
+Honestly....
+-----------------------
+#メイドさん
+Maid
+-----------------------
+#あ～ん、ヒマ～！
+#もう帰っちゃおうかなぁ！
+Ahh, I'm so bored~!
+Maybe I'll just head home!
+-----------------------
+#メイドさん
+Maid
+-----------------------
+#わたし新婚だもん
+#早く帰って愛しのダーリンと
+#イチャイチャしたいですよぅ
+I'm a newlywed, after all.
+I wanna get home quick and be all lovey-dovey
+with my darling husband~
+-----------------------
+#メイドさん
+Maid
+-----------------------
+#たとえ、今日がツラくても
+#信じてがんばれば、明日はきっと
+#いいことがある････
+Even if today's been rough,
+if you keep believing and doing your best,
+something good's bound to come tomorrow....
+-----------------------
+#メイドさん
+Maid
+-----------------------
+#今日も、お客さまが少なかった
+#でも、がんばるぞぉ！
+#････とか、そんな感じ？
+Not many customers again today, but
+I'll do my best!
+....Or something like that?
+-----------------------
+<Kyle>
+-----------------------
+#そんな感じ？
+#とか、言われてもなぁ････
+#でも、そうだと思うよ
+Something like that?
+I mean, I dunno what to tell you....
+But yeah, I think that's right.
+-----------------------
+#いってらっしゃいませ
+Have a good day.
+-----------------------
+#<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
+#お泊まりになりますか？
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+Would you like to stay?
+-----------------------
+#お泊まりになりますか？
+Would you like to stay?
+-----------------------
+select
+-----------------------
+#<03:00000000>　はい　
+#　いいえ　
+<03:00000000> Yes
+No
+-----------------------
+#ごゆっくりお休みください
+Have a good night.
+-----------------------
+#おはようございます
+Good morning.
+-----------------------
+#お金が足りません
+Not enough money.
+-----------------------
+#またのおこしをお待ちしております
+See you again soon.
+-----------------------
+set_parameter( myself, C_PARTY, 0 );
+-----------------------
+wait_map_scroll();
+-----------------------
+exit-party_togather( short spd )
+-----------------------
+notice
+-----------------------
+#{16}{25}{BA}{C0}を手に入れました
+Acquired {16}{25}{BA}{C0}.
+-----------------------
+notice
+-----------------------
+#<item:FFFFFFFF>を手に入れました
+Acquired <item:FFFFFFFF>.
+-----------------------
+notice
+-----------------------
+#{16}{25}{C2}{C0}がありましたが
+#いっぱいで持てませんでした
+Found {16}{25}{C2}{C0}, but
+your inventory is full.
+-----------------------
+notice
+-----------------------
+#何もありません
+There's nothing here.
+-----------------------

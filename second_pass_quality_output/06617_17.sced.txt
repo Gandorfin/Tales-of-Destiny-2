@@ -1,0 +1,740 @@
+#アクアヴェイル・領主館
+Aquaveil - Lord's Manor
+-----------------------
+#アクアヴェイル
+Aquaveil
+-----------------------
+#領主館
+Lord's Manor
+-----------------------
+NOTICE
+-----------------------
+#<item:00000019>を手に入れました
+Acquired <item:00000019>.
+-----------------------
+#ワラで編み込まれた靴？が入っている
+There's a pair of woven straw shoes inside.
+-----------------------
+#矛や槍や剣などが所狭しと並んでいる
+Polearms, swords, and other weapons are crammed together here.
+-----------------------
+#宗教的な道具のようだ
+#不思議な箱の上にパンのような物が乗っている
+It looks like some kind of religious artifact.
+There's something like bread sitting on top of that mysterious box.
+-----------------------
+#どこかしら神聖な雰囲気を持った道具がある
+There's an item here that feels somehow sacred.
+-----------------------
+NOTICE
+-----------------------
+#石碑に文字が彫られています
+Characters are carved into the stone monument.
+-----------------------
+<Harold>
+-----------------------
+#読んだげよっか？
+Want me to read it for you?
+-----------------------
+select
+-----------------------
+#<03:00000000>　読んでもらう　
+#　興味無い　
+<03:00000000>Have her read it.
+Not interested.
+-----------------------
+NOTICE
+-----------------------
+#砂漠の大陸、燃え盛る火の中
+#白く険しき山の中腹
+#絶海に沈みし偶像の上
+#巨石文明の名残１
+The desert continent, amidst blazing flames
+The white, rugged mountainside
+The idol sunk in the boundless sea
+Remnants of the megalith civilization 1
+-----------------------
+NOTICE
+-----------------------
+#巨石文明の名残２
+#深き緑に覆われし湖のほとり
+#人の訪れぬ白い島、緑の園
+#異国の地、大地をえぐる円
+Remnants of the megalith civilization 2
+By the shores of a lake shrouded in deep green
+An unvisited white island, a garden of verdant life
+A foreign land, a circle gouging into the earth
+-----------------------
+NOTICE
+-----------------------
+#霧の混じる島
+#地図に載らぬ島
+#小さな小屋のうしろ
+#人の手が及ばぬ島々
+An island wreathed in mist
+An island not found on any map
+Behind the small hut
+Islands untouched by human hands
+-----------------------
+NOTICE
+-----------------------
+#霧深き大地で最も高き所にある草原
+#霧深き山の懐
+　
+#　　　そこで不吉の証を手に入れよ
+The highest pasture atop the mist-shrouded land
+Within the misty mountains
+There, obtain the token of ill omen
+-----------------------
+NOTICE
+-----------------------
+#石碑に文字が彫られていますが
+#難しくて読めません
+Characters are carved into the stone monument,
+but they're too difficult to read.
+-----------------------
+#リアーナ
+Riana
+-----------------------
+#本来ならば、娘のクレアも
+#呼ぶところなのですが････
+#今は、夫婦となる人と出ておりまして
+Normally, my daughter Claire would
+be here as well, but...
+she's currently out with her betrothed.
+-----------------------
+#かわりといっては、なんですが
+#ぜひ、エミリと
+#お話していってくださいましね
+It's not much of a substitute,
+but please do take the time
+to chat with Emily.
+-----------------------
+#そうですか、あなたが
+#スタンさんとルーティさんの････
+I see... so you're
+Stahn and Rutee's...
+-----------------------
+#おふたりには夫も私も
+#とてもお世話になったのです
+#ぜひお礼をいわせてください
+Both my husband and I
+owe them a great deal.
+Please, let us express our gratitude.
+-----------------------
+#これからもフェイトや娘のエミリやクレア
+#それに私のよき友人で
+#いてくださいましね
+I hope you'll remain close friends
+with Fate, my daughters Emily and Claire,
+and myself for years to come.
+-----------------------
+#エミリ
+Emily
+-----------------------
+#<Loni>さまってス・テ・キ！
+#エミリ、チューしちゃおっと！
+Lord <Loni>, you're so wonderful!
+Emily, I'm gonna give you a big kiss! Mwah!
+-----------------------
+<Loni>
+-----------------------
+#や、やめてくれ～
+#俺は１４歳以下には
+#手を出さない主義なんだぁ～！
+P-please, stop!
+I have a strict policy against
+getting involved with anyone under 14!
+-----------------------
+#あたし、エミリっていうの
+#あなたの名前は？
+My name's Emily.
+What's your name?
+-----------------------
+<Kyle>
+-----------------------
+#オ、オレ？
+#<Kyle>っていうんだけど
+Huh? Me?
+I'm <Kyle>, actually.
+-----------------------
+#ちがう、あんたじゃなくて
+#こっちのカッコイイお兄さま！
+No, not you.
+That cool big brother over there!
+-----------------------
+<Loni>
+-----------------------
+#えっ俺か？
+#<Loni>ってんだが
+What? Me?
+Name's <Loni>.
+-----------------------
+#<Loni>さま････
+#ああ、なんてステキなお名前！
+Lord <Loni>...
+Oh, what a wonderful name!
+-----------------------
+#あたし、あなたのことが
+#好きになってしまいましたわ
+#そんなわけで、ヨロシクしてくださいね！
+I've fallen head over heels
+for you, I'm afraid.
+So please, take good care of me!
+-----------------------
+#番兵
+Sentry
+-----------------------
+#館そのものが封印となって
+#異次元空間の広がりをおさえてはいるが
+#それもいつまでもつことやら････
+The mansion itself serves as the seal,
+holding back the expansion of that other-dimensional space,
+but who knows how much longer it will hold...
+-----------------------
+#番兵
+Sentry
+-----------------------
+#悪いことは言わん
+#ここから早々に立ち去るがいい
+#別世界へ連れ去られたくないならな
+I'm not one to mince words.
+You'd best leave this place at once,
+unless you fancy being dragged off to another world.
+-----------------------
+#番兵
+Sentry
+-----------------------
+#かつて、この世界は
+#激しく暴走するレンズによって
+#滅亡の危機にさらされた
+Long ago, this world was
+threatened with destruction
+by Lens that raged out of control.
+-----------------------
+#番兵
+Sentry
+-----------------------
+#アクアヴェイルとて例外ではない
+#そのとき、突然に現われた異次元空間が
+#いまも街を飲みこもうとしているのだ
+Aquaveil was no exception.
+The dimensional rift that appeared then
+still threatens to swallow the town to this day.
+-----------------------
+#番兵
+Sentry
+-----------------------
+#館そのものが封印となって
+#異次元空間の広がりをおさえてはいるが
+#それもいつまでもつことやら････
+The mansion itself serves as the seal,
+holding back the expansion of that other-dimensional space,
+but who knows how much longer it will hold...
+-----------------------
+#番兵
+Sentry
+-----------------------
+#悪いことは言わん
+#ここから早々に立ち去るがいい
+#別世界へ連れ去られたくないならな
+I'm not one to mince words.
+You'd best leave this place at once,
+unless you fancy being dragged off to another world.
+-----------------------
+#フェイト
+Fate
+-----------------------
+#リアーナ
+Riana
+-----------------------
+#旅の方、よくぞおいでくださいました
+#私は、リアーナと申します
+Welcome, travelers.
+My name is Riana.
+-----------------------
+#リアーナ
+Riana
+-----------------------
+#まずは夫の話に
+#耳をかたむけてやって
+#くださいませ
+First,
+please lend an ear
+to what my husband has to say.
+-----------------------
+#客人よ、アクアヴェイルへ
+#よくぞ参られたな
+#私がここの領主、フェイトだ
+Welcome, travelers, to Aquaveil.
+It is good of you to have come so far.
+I am Fate, lord of these lands.
+-----------------------
+<Kyle>
+-----------------------
+#はじめまして
+#<Kyle>＝デュナミスです
+It's a pleasure to meet you.
+I'm <Kyle> Dunamis.
+-----------------------
+<Kyle>
+-----------------------
+#････あの、ところで、ジョニーさんは？
+Um, by the way, where's Johnny?
+-----------------------
+#あやつは今、ここにはおらんのだ
+#旅先で、やつに会ったのか？
+He is not here at present.
+Did you encounter him on your journey?
+-----------------------
+<Kyle>
+-----------------------
+#いえ、オレじゃないです
+#父さんが会ったことがあるって
+#いってたんで
+No, not me.
+My dad said he'd met him,
+so I was just wondering.
+-----------------------
+#父さん････？
+#もしや君は、スタン殿のご子息か!?
+Your father...?
+Could it be that you are the son of Lord Stahn!?
+-----------------------
+<Kyle>
+-----------------------
+#はい、スタン＝エルロンは
+#オレの父さんです
+Yes. Stahn Aileron
+is my father.
+-----------------------
+#なんと！あのスタン殿の息子が
+#遠路はるばる、やってきてくれるとは！
+#なるほど、面影が････
+Incredible! To think the son of Lord Stahn
+would come all this way to see us!
+I see now... You really do bear his likeness...
+-----------------------
+#････もしや、母上はルーティ殿か？
+...Then might your mother be Lady Rutee?
+-----------------------
+<Kyle>
+-----------------------
+#わかっちゃいます？
+You can tell?
+-----------------------
+#ああ、もちろんだとも
+#君の両親は私たち夫婦にとって
+#本当に大切な友人なのだ
+Yes, of course.
+Your parents are
+truly dear friends to us.
+-----------------------
+#だから、その息子である君も
+#私たち夫婦の、大切な友人だ
+#ゆっくりしていってくれ
+And so you, their son,
+are a dear friend to us as well.
+Please, make yourself at home.
+-----------------------
+#フェイト
+Fate
+-----------------------
+#君の両親は私たち夫婦にとって
+#本当に大切な友人なんだ
+Your parents are
+truly dear friends to us.
+-----------------------
+#だから、その息子である君も
+#私たち夫婦の、大切な友人だ
+#ゆっくりしていってくれ
+And so you, their son,
+are a dear friend to us as well.
+Please, make yourself at home.
+-----------------------
+#アクアラビリンスには古代の悪魔が
+#封じられているのだ
+An ancient demon is sealed
+within the Aqua Labyrinth.
+-----------------------
+#君たちはそれを知らず、宝を手に入れ
+#封印を解いてしまったのだな
+You obtained the treasure without knowing,
+and in doing so broke the seal.
+-----------------------
+#その事を責めるつもりは無いが
+#この街と、中に入ったジョニーに
+#対しては責任を負ってもらわねばな
+I do not mean to blame you for this,
+but I must ask you to take responsibility
+for this town, and for Johnny, who entered within.
+-----------------------
+#君の両親は私たち夫婦にとって
+#本当に大切な友人なんだ
+Your parents are
+truly dear friends to us.
+-----------------------
+#だから、その息子である君も
+#私たち夫婦の、大切な友人だ
+#ゆっくりしていってくれ
+And so you, their son,
+are a dear friend to us as well.
+Please, make yourself at home.
+-----------------------
+#フェイト
+Fate
+-----------------------
+<Kyle>
+-----------------------
+#あれ？
+#フェイトさんは？
+Huh?
+Where did Fate go?
+-----------------------
+#リアーナ
+Riana
+-----------------------
+#ああ、<Kyle>さん！
+#実は先程、大変なことが････
+Ah, <Kyle>!
+I'm afraid something terrible has happened...
+-----------------------
+<Kyle>
+-----------------------
+#大変ですって？
+#なにかあったんですか!?
+Something terrible?
+What happened!?
+-----------------------
+#リアーナ
+Riana
+-----------------------
+#結界が････
+#地下の結界が････！
+The barrier...
+The barrier underground...!
+-----------------------
+#････ジョニー！
+#聞こえているか！
+#ジョニーッ！
+...Johnny!
+Can you hear me?!
+Johnny!
+-----------------------
+#････くそっ！
+#だめか････！
+...Damn it!
+It's no use...!
+-----------------------
+<Kyle>
+-----------------------
+#フェイトさん！
+#何があったんですか！
+Fate!
+What happened?!
+-----------------------
+#その声は<Kyle>くんか!?
+That voice... is that you, <Kyle>!?
+-----------------------
+<Loni>
+-----------------------
+#お、おい！見ろよ<Kyle>！
+#結界が解けちまってるぜ!?
+H-Hey! Look, <Kyle>!
+The barrier's come undone!
+-----------------------
+#････この結界は異次元空間
+#『アクアラビリンス』を封じる
+#大変、危険なものなのだ
+...This barrier seals away
+the other-dimensional space known as the 'Aqua Labyrinth.'
+It is an exceedingly dangerous thing.
+-----------------------
+#十八年前の災厄の時、激しく暴走する
+#レンズの力によって
+#アクアヴェイルは崩壊の危機に瀕した
+Eighteen years ago, during the calamity,
+the rampaging power of the Lens
+brought Aquaveil to the brink of collapse.
+-----------------------
+#異次元空間『アクアラビリンス』の
+#封印が弱まり、街を飲みこもうと
+#拡大したのだ
+The seal on the other-dimensional space 'Aqua Labyrinth'
+weakened, and it began to expand,
+threatening to swallow the town.
+-----------------------
+#『アクアラビリンス』の主である
+#古代の悪魔のしわざだろう
+#大方、その悪魔がレンズの力を利用して
+#封印を解こうとしたのだろうが････
+It was the work of the ancient demon
+who rules the 'Aqua Labyrinth.'
+No doubt that demon used the power of the Lens
+in an attempt to break the seal, but...
+-----------------------
+<Loni>
+-----------------------
+#この結界は、そいつを封じているんだな？
+This barrier is what's sealing that thing away, right?
+-----------------------
+#ああ
+#十八年前はこの結界のおかげで
+#大事には至らなかったのだ
+Yes.
+Thanks to this barrier, eighteen years ago
+the situation never became truly dire.
+-----------------------
+<Kyle>
+-----------------------
+#でも、それがなんで
+#突然、解けたんだろう
+But then why
+did it suddenly break?
+-----------------------
+#このおとぎ話を聞いたことはないか？
+Have you never heard this fairy tale?
+-----------------------
+#『石は悪を封じる　石は宝を封じる
+#　宝を得んとする者はまた悪をも得たり』
+'The stone seals evil; the stone seals treasure.
+Those who would gain treasure shall also gain evil.'
+-----------------------
+#実はこのおとぎ話は、アクアラビリンスに
+#封じられた悪魔の事を語っているのだ
+In truth, this fairy tale speaks of
+the demon sealed within the Aqua Labyrinth.
+-----------------------
+#宝を得たものは、その代償として
+#悪魔の封印を解いてしまう、ということだ
+Those who obtain the treasure
+shall unwittingly break the demon's seal as their price.
+-----------------------
+<Kyle>
+-----------------------
+#石････宝････？
+Stone... treasure...?
+-----------------------
+<Kyle>
+-----------------------
+#宝石を使って宝をみんな手に入れたけど
+#ま、まさかこれってオレたちのせい････!?
+We used gems to get all that treasure, but...
+W-wait, don't tell me this is our fault...!?
+-----------------------
+<Loni>
+-----------------------
+#そ、そんな気がするな････
+I... I'm getting that feeling too...
+-----------------------
+<Kyle>
+-----------------------
+#ご、ごめんなさい　フェイトさん
+#封印が解けたのって、たぶんオレたちの
+#責任です････
+I-I'm sorry, Fate.
+The seal breaking... that was probably
+our fault...
+-----------------------
+#なんだって！悪魔を封じる宝石を
+#使ってしまったというのか!?
+What?! You mean to say you used the very gems
+that seal away the demon!?
+-----------------------
+<Kyle>
+-----------------------
+#オレ、中に入って悪魔を封じる方法を
+#探してきます！
+I'm going inside to find a way to reseal the demon!
+-----------------------
+#なに！
+#本気か、<Kyle>くん！
+What!?
+Are you serious, <Kyle>?!
+-----------------------
+<Kyle>
+-----------------------
+#オレたちの責任です！
+#このまま放っておく事なんて
+#出来ません！
+It's our responsibility!
+We can't just leave things like this!
+I won't stand for it!
+-----------------------
+<Loni>
+-----------------------
+#そうだな
+#後始末は自分でやらなきゃな
+Yeah.
+Gotta clean up our own mess.
+-----------------------
+#そうか････
+#ならば、君たちにお願いしよう
+I see...
+Then I'm counting on you.
+-----------------------
+#それに、だ････
+#ひとつ頼みたい事がある
+Also...
+There's one more thing I'd like to ask.
+-----------------------
+#先刻、ジョニーが中へ入っていったのだ
+#だが、まったく帰ってくる気配が無い
+Johnny went inside a short while ago.
+But there's been no sign of him since.
+-----------------------
+#どこかで迷っているのかもしれん
+#奴を捜してもらいたいのだ
+He may have gotten lost in there.
+I'd like you to find him.
+-----------------------
+<Kyle>
+-----------------------
+#ジョニーさんが････
+#わかりました
+Johnny's in there...?
+Understood.
+-----------------------
+#中では何が起こるかわからん
+#くれぐれも用心するんだぞ
+You never know what might happen inside.
+Be on your guard.
+-----------------------
+#でばっぐ
+debug
+-----------------------
+#フラグかえる？
+#エキストラダンジョンＯＮ
+#エキストラダンジョンＯＦＦ
+#必要アイテムゲット
+Change flag?
+Extra Dungeon ON
+Extra Dungeon OFF
+Obtain Required Item
+-----------------------
+ON
+-----------------------
+OFF
+-----------------------
+OFF
+-----------------------
+notice
+-----------------------
+#アクアラビリンスに行きますか？
+#<03:00000000>　　　　　<size:000000C0><color:00000002>セーブはしましたか？
+Do you want to go to the Aqua Labyrinth?
+<03:00000000> <size:000000C0><color:00000002>Have you saved?
+-----------------------
+select
+-----------------------
+#<03:00000000>　はい　
+#　いいえ　
+<03:00000000> Yes
+No
+-----------------------
+notice
+-----------------------
+#不気味な光を放つ入口があります
+#強力な力で封印されているのか
+#中に入る事が出来ません
+There's an entrance emitting an eerie light.
+It seems to be sealed by a powerful force.
+You cannot enter.
+-----------------------
+notice
+-----------------------
+#手持ちの宝石があやしく輝いています
+The gems you carry are glowing ominously.
+-----------------------
+notice
+-----------------------
+#十五個の宝石が激しく輝いています
+#宝石を中に入れますか？
+The fifteen gems are shining intensely.
+Insert the gems?
+-----------------------
+select
+-----------------------
+#<03:00000000>　はい　
+#　いいえ　
+<03:00000000> Yes
+No
+-----------------------
+notice
+-----------------------
+#このマップは暗くなります
+This area will be dark.
+-----------------------
+notice
+-----------------------
+#このマップはダメージを受けます
+This area will inflict damage.
+-----------------------
+notice
+-----------------------
+#このマップはエンカウントマックスです
+This area has maximum encounter rate.
+-----------------------
+notice
+-----------------------
+#このマップは視界が狭くなります
+This area has limited visibility.
+-----------------------
+#いってらっしゃいませ
+Have a good day.
+-----------------------
+#<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
+#お泊まりになりますか？
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+Would you like to stay?
+-----------------------
+#お泊まりになりますか？
+Would you like to stay?
+-----------------------
+select
+-----------------------
+#<03:00000000>　はい　
+#　いいえ　
+<03:00000000> Yes
+No
+-----------------------
+#ごゆっくりお休みください
+Have a good night.
+-----------------------
+#おはようございます
+Good morning.
+-----------------------
+#お金が足りません
+Not enough money.
+-----------------------
+#またのおこしをお待ちしております
+See you again soon.
+-----------------------
+set_parameter( myself, C_PARTY, 0 );
+-----------------------
+wait_map_scroll();
+-----------------------
+exit-party_togather( short spd )
+-----------------------
+notice
+-----------------------
+#{16}{25}{DA}{C0}を手に入れました
+Acquired {16}{25}{DA}{C0}.
+-----------------------
+notice
+-----------------------
+#<item:FFFFFFFF>を手に入れました
+Acquired <item:FFFFFFFF>.
+-----------------------
+notice
+-----------------------
+#{16}{25}{E2}{C0}がありましたが
+#いっぱいで持てませんでした
+Found {16}{25}{E2}{C0}, but...
+Your inventory is full.
+-----------------------
+notice
+-----------------------
+#何もありません
+There's nothing here.
+-----------------------

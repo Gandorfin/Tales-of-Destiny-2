@@ -1,0 +1,776 @@
+#鍛冶屋のテント
+Blacksmith's Tent
+-----------------------
+#鍛冶屋のテント
+Blacksmith's Tent
+-----------------------
+#鍛冶屋のテント
+Blacksmith's Tent
+-----------------------
+#古都ダリルシェイド・装備品屋
+Ancient Capital Darilsheid - Equipment Shop
+-----------------------
+#鍛冶屋のテント
+Blacksmith's Tent
+-----------------------
+#装備品屋
+Equipment Shop
+-----------------------
+#鍛冶屋のテント
+Blacksmith's Tent
+-----------------------
+#武器屋
+Weapon Shop
+-----------------------
+#いらっしゃいませ
+Welcome!
+-----------------------
+#ありがとうございます
+Thank you very much.
+-----------------------
+#またおこしください
+Please come again.
+-----------------------
+#武器屋
+Weapon Shop
+-----------------------
+#武器屋
+Weapon Shop
+-----------------------
+#今は武器よりも街の復旧に使う工具の
+#発注のほうが多くて大変だよ
+These days we're getting more orders for reconstruction tools than weapons.
+It's been pretty hectic.
+-----------------------
+#防具屋
+Armor Shop
+-----------------------
+#いらっしゃいませ
+Welcome!
+-----------------------
+#ありがとうございます
+Thank you very much.
+-----------------------
+#またおこしください
+Please come again.
+-----------------------
+#防具屋
+Armor Shop
+-----------------------
+#防具屋
+Armor Shop
+-----------------------
+#今手がはなせないからまた今度ね
+I can't step away right now. Another time, okay?
+-----------------------
+#いってらっしゃいませ
+Have a good day.
+-----------------------
+#<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
+#お泊まりになりますか？
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+Would you like to stay?
+-----------------------
+#お泊まりになりますか？
+Would you like to stay?
+-----------------------
+select
+-----------------------
+#<03:00000000>　はい　
+#　いいえ　
+<03:00000000> Yes
+No
+-----------------------
+#ごゆっくりお休みください
+Have a good night.
+-----------------------
+#おはようございます
+Good morning.
+-----------------------
+#お金が足りません
+Not enough money.
+-----------------------
+#またのおこしをお待ちしております
+See you again soon.
+-----------------------
+set_parameter( myself, C_PARTY, 0 );
+-----------------------
+wait_map_scroll();
+-----------------------
+exit-party_togather( short spd )
+-----------------------
+notice
+-----------------------
+#{16}{25}{BA}{C0}を手に入れました
+Acquired {16}{25}{BA}{C0}.
+-----------------------
+notice
+-----------------------
+#<item:FFFFFFFF>を手に入れました
+Acquired <item:FFFFFFFF>.
+-----------------------
+notice
+-----------------------
+#{16}{25}{C2}{C0}がありましたが
+#いっぱいで持てませんでした
+Found {16}{25}{C2}{C0}, but
+inventory is full already.
+-----------------------
+notice
+-----------------------
+#何もありません
+There's nothing here.
+-----------------------
+#<item:00000012>屋
+<item:00000012> Shop
+-----------------------
+#こちらでは<item:00000012>の
+#販売を行っています
+We sell <item:00000012>
+products here.
+-----------------------
+#<item:00000012>を使ってリファインすると
+#ステキな物が作られることがあるようです
+Refining with <item:00000012> can
+sometimes yield wonderful results.
+-----------------------
+#武器や鎧をリファインすると
+#付加能力が引継がれることがあるようです
+When you refine weapons or armor,
+added abilities may sometimes carry over.
+-----------------------
+#ひと瓶<0B:00000001>{14}{35}{CC}{C0}<0B:00000000>ガルドになりますが、
+#<item:00000012>を買いますか？
+One bottle costs <0B:00000001>{14}{35}{CC}{C0}<0B:00000000> gald.
+Would you like to buy <item:00000012>?
+-----------------------
+select
+-----------------------
+#<03:00000000>　買う　
+#　<0B:00000001>{14}{25}{D6}{C0}本まとめて買う（{14}{35}{D0}{C0}ガルド）<0B:00000000>　
+#　リファイン講座　
+#　いらない　
+<03:00000000> Buy
+<0B:00000001>{14}{25}{D6}{C0} Buy in bulk ({14}{35}{D0}{C0} Gald)<0B:00000000>
+Refine Guide
+No thanks
+-----------------------
+select
+-----------------------
+#<03:00000000>　買う　
+#　リファイン講座　
+#　いらない　
+<03:00000000> Buy
+Refine Guide
+No thanks
+-----------------------
+#お買い上げ、ありがとうございます
+Thank you for your purchase.
+-----------------------
+#お買い上げ、ありがとうございます
+Thank you for your purchase.
+-----------------------
+#<item:00000012>はひと瓶
+#<0B:00000001>{14}{35}{CC}{C0}<0B:00000000>ガルドです
+<item:00000012> is <0B:00000001>{14}{35}{CC}{C0}<0B:00000000> gald per bottle.
+-----------------------
+#リファイン講座を聞きたいですか？
+Would you like to hear the Refine lecture?
+-----------------------
+select
+-----------------------
+#<03:00000000>　聞きたい　
+#　聞きたくない　
+<03:00000000> Yes
+No
+-----------------------
+#何について知りたいですか？
+What would you like to know?
+-----------------------
+select
+-----------------------
+#<03:00000000>　４、スロットについて　
+#　５、装飾品のリファイン　
+#　６、リファインできない装備品について　
+#　前のページ　
+<03:00000000> 4. About Slots
+5. Refining Accessories
+6. Equipment That Cannot Be Refined
+Previous Page
+-----------------------
+select
+-----------------------
+#<03:00000000>　１、リファインとは
+#　２、アイテムの変化　　　　　　　　　　
+#　３、装備品の合成　
+#　次のページ　
+<03:00000000> 1. What Is Refining?
+2. Item Transformations
+3. Equipment Synthesis
+Next Page
+-----------------------
+#リファインとは、選択したアイテムを
+#別なアイテムに変化させたり
+#武器や防具を合成することのできるコマンドです
+Refine is a command that lets you change selected items
+into different items, or combine weapons and armor.
+-----------------------
+#リファインを行うのに必要なのは
+#<item:00000012>とレンズです
+To perform Refine, you'll need
+<item:00000012>and Lens.
+-----------------------
+#<item:00000012>は、各地にいる
+#私たちルーンボトル屋からお求めください
+<item:00000012>can be purchased from us Rune Bottle sellers,
+who you'll find in towns everywhere.
+-----------------------
+#レンズはモンスターと
+#戦えば拾うことができます
+Lens can be obtained by battling
+and defeating monsters.
+-----------------------
+#これを機会に、あなたも
+#どんどんリファインを行ってください
+Take this opportunity to
+refine to your heart's content!
+-----------------------
+#アイテムの変化とは、アイテム単体に
+#リファインを行うことによって
+#別なアイテムに変化させることです
+Item transformation means using Refine on a single item
+to change it into a different item.
+-----------------------
+#例えば、<item:00000001>にリファインを行うと
+#<item:00000002>に変化し
+#逆に、<item:00000002>にリファインを行うと
+#<item:00000001>に変化します
+For example, refining <item:00000001>will turn it into
+<item:00000002>. Conversely, refining <item:00000002>will turn it
+into <item:00000001>.
+-----------------------
+#また、装備品単体をリファインすることによって
+#<item:00000001>などのアイテムにも変化します
+You can also refine individual pieces of equipment to turn them
+into items such as <item:00000001>.
+-----------------------
+#ダンジョンなどでアイテムが尽きてしまった時などに
+#行うと、有効な場合もあります
+#もちろん、最初からきちんと準備をしておくほうが
+#賢いといえますが････
+This can be useful when you run out of items in a dungeon, for instance.
+Of course, it's wiser to prepare properly from the start, but...
+-----------------------
+#リファインの一番の特徴は
+#やはり、装備品の合成です
+The most distinctive feature of Refine is, without a doubt,
+equipment synthesis.
+-----------------------
+#装備品を合成すると
+#お気に入りの装備品に
+#お気に入りのスロットが付いた
+#装備品を作ることができます････
+By combining equipment, you can create gear with your favorite slots
+attached to your favorite pieces...
+-----------------------
+#ああ、まずはスロットの説明を
+#しなければいけませんね
+Ah, but first I need to explain what slots are,
+don't I?
+-----------------------
+#スロットとは、装備品に
+#付けることができる
+#付加能力のようなものです
+Slots are bonus abilities that can be attached to equipment.
+-----------------------
+#スロットについては、また別に
+#詳しく説明させていただきます
+I'll explain slots in more detail
+in just a moment.
+-----------------------
+#いちばん簡単な装備品のリファインは
+#スロットが一つついた装備品どうしの
+#リファインです
+The simplest form of equipment Refine is combining two pieces of equipment
+that each have one slot.
+-----------------------
+#これを行うと、何とステキなことに
+#スロットが二つ付いた装備品ができます
+When you do this, you'll create equipment with two slots.
+How wonderful is that?
+-----------------------
+#注意しなければいけないのは
+#剣は剣、鎧は鎧といったように
+#同じ種類の装備品でしか
+#リファインできません
+One thing to keep in mind is that
+swords go with swords, armor with armor, and so on.
+You can only Refine equipment
+of the same type together.
+-----------------------
+#他にもいろいろな組み合わせがありますが
+#それはやってみてのお楽しみです
+There are many other combinations to discover,
+but I'll leave those for you to find out on your own.
+-----------------------
+#スロットについて
+#詳しく説明いたします
+Now, let me explain slots
+in more detail.
+-----------------------
+#スロットは数多くの種類があり
+#アタック：攻撃力が上昇します
+#ディフェンス：防御力が上昇します
+#などが代表的なものです
+There are many types of slots.
+Attack: raises your attack power.
+Defense: raises your defense power.
+These are the most common examples.
+-----------------------
+#スロットによって装備品の名前も変わります
+#<item:00000078>　＋　アタックで
+#アタックソードなどです
+Equipment names also change based on their slots.
+For example, <item:00000078>+ Attack becomes
+an Attack Sword.
+-----------------------
+#また、スロットにはレベルがあり
+#レベルが高いと効果も上昇します
+#最高はレベル８です
+Slots also have levels. Higher levels mean stronger effects,
+with a maximum level of 8.
+-----------------------
+#スロット付きの装備品は
+#主にモンスターが落とします
+Equipment with slots is mainly dropped by monsters.
+-----------------------
+#モンスターとたくさん戦って
+#スロット付き装備品を手に入れて
+#あなただけのスロット付き装備品を
+#作ってみてください
+Fight plenty of monsters to obtain slotted equipment,
+then try making your very own custom pieces!
+-----------------------
+#ここだけの話ですが、装飾品も
+#リファインすることができます
+#でも、それは装飾品どうしではありません
+Just between you and me, accessories can also be refined.
+However, not with other accessories.
+-----------------------
+#装飾品と、装備品のような
+#形でのみリファインが可能なのです
+Accessories can only be refined with equipment in this manner.
+-----------------------
+#この場合の利点は、リファインする
+#装備品の場所によってスロットが
+#変化するということです
+#武器、防具によって違います
+The advantage here is that the resulting slot changes depending on which
+equipment slot you refine into. It differs between weapons and armor.
+-----------------------
+#また、装飾品は一つしか装備できないので
+#いらない装飾品を、リファインに活用すれば
+#非常に有効です
+Since you can only equip one accessory at a time, putting
+unwanted accessories to use in Refining is extremely effective.
+-----------------------
+#その他にも、外装つまり「マント」も
+#装飾品と同様に装備品とリファインできます
+#その場合はなんと、装備品に属性を
+#付加することができるのです
+Additionally, exterior parts, specifically cloaks, can also
+be Refined with equipment, just like accessories.
+In that case, you can actually add elemental attributes
+to your equipment.
+-----------------------
+#装飾品とのリファインもうまく活用し
+#さらにステキなリファイン職人を
+#目指してみてください
+Make good use of refining with accessories and cloaks,
+and aim to become an even more wonderful Refine artisan!
+-----------------------
+#たまに、装備品の中に黄色い枠の
+#アイコンが付いたものがありますね
+#それは、ユニークアイテムと
+#呼ばれているものです
+Occasionally, you'll find equipment marked with a
+yellow border icon. These are known as unique items.
+-----------------------
+#ユニークアイテムは見た目にも
+#かっこよく、攻撃力も高く
+#スロットレベルも高いものが多いですが
+#スロットは一つしかありません
+Unique items look impressive and boast high attack power. They
+often have high slot levels too, but they only have one slot.
+-----------------------
+#しかし、その反面、装飾品以外のユニークアイテムは
+#リファインすることができません
+#これ以上強化することができないのです
+However, unique items other than accessories cannot be refined.
+This means they cannot be strengthened any further.
+-----------------------
+#ですから、いらなくなったアイテムは
+#どんどん売ってしまうことをお勧めします
+So I recommend selling off any items you no longer need as soon as possible.
+-----------------------
+#なぜなら、アイテムをたくさん持っていると
+#モンスターがアイテムを
+#落としてくれなくなってしまうという
+#噂があるからです
+Because there's a rumor that if you carry too
+many items, monsters will stop dropping them.
+-----------------------
+#････アイテム整理も大切ですね
+...Keeping your inventory tidy is important too, isn't it?
+-----------------------
+#鍛冶屋
+Blacksmith
+-----------------------
+#私は鍛冶屋です
+I'm a blacksmith.
+-----------------------
+select
+-----------------------
+#<03:00000000>どうしますか？
+#　開発援助　
+#　製作依頼　
+#　体系説明　
+<03:00000000>What would you like to do?
+Development Aid
+Crafting Request
+System Explanation
+-----------------------
+#私はかけ出しの鍛冶屋です
+I'm an aspiring blacksmith.
+-----------------------
+#よろしければ、装備品開発の資金を
+#援助してもらえないでしょうか？
+If you wouldn't mind, could you provide funds to aid our equipment development?
+-----------------------
+#鍛冶屋の技術が低いうちは
+#ヘボイ装備品しか作れませんが････
+While my skills are still low, I can only craft lousy equipment, but...
+-----------------------
+#でも、いずれは立派な
+#鍛冶屋になってみせます
+But someday, I'll become a fine blacksmith.
+-----------------------
+#おねがいします
+I'm counting on you.
+-----------------------
+#最近、技量が上がったような気がします
+I feel like my skills have improved lately.
+-----------------------
+notice
+-----------------------
+#鍛冶屋は{18}{45}{E0}{C0}になりました
+The blacksmith has become {18}{45}{E0}{C0}.
+-----------------------
+#初心者鍛冶屋
+Novice Blacksmith
+-----------------------
+#ヘボイ鍛冶屋
+Lousy Blacksmith
+-----------------------
+#かけだし鍛冶屋
+Apprentice Blacksmith
+-----------------------
+#初級の鍛冶屋
+Beginner Blacksmith
+-----------------------
+#なんちゃって鍛冶屋
+Wannabe Blacksmith
+-----------------------
+#中級の鍛冶屋
+Intermediate Blacksmith
+-----------------------
+#熱血鍛冶屋
+Hot-Blooded Blacksmith
+-----------------------
+#歌って踊れる鍛冶屋
+Singing, Dancing Blacksmith
+-----------------------
+#上級の鍛冶屋
+Advanced Blacksmith
+-----------------------
+#ハッスル鍛冶屋
+Hustling Blacksmith
+-----------------------
+#ベテラン鍛冶屋
+Veteran Blacksmith
+-----------------------
+#イカス鍛冶屋
+Stylish Blacksmith
+-----------------------
+#プロの鍛冶屋
+Pro Blacksmith
+-----------------------
+#すごい鍛冶屋
+Amazing Blacksmith
+-----------------------
+#エキスパート鍛冶屋
+Expert Blacksmith
+-----------------------
+#有名な鍛冶屋
+Famous Blacksmith
+-----------------------
+#鍛冶屋の達人
+Blacksmith Master
+-----------------------
+#鍛冶屋の名人
+Blacksmith Virtuoso
+-----------------------
+#鍛冶屋エース
+Blacksmith Ace
+-----------------------
+#マスター鍛冶屋
+Master Blacksmith
+-----------------------
+#鍛冶屋仙人
+Blacksmith Immortal
+-----------------------
+#鍛冶屋の神様
+Blacksmith Deity
+-----------------------
+#鍛冶屋創造主
+Blacksmith Creator
+-----------------------
+#異世界の鍛冶屋
+Otherworldly Blacksmith
+-----------------------
+#幻想世界の鍛冶屋
+Fantasy World Blacksmith
+-----------------------
+#鍛冶屋のサル
+Monkey Blacksmith
+-----------------------
+#鍛冶屋
+Blacksmith
+-----------------------
+#鍛冶屋
+Blacksmith
+-----------------------
+#<item:FFFFFFFF>が完成しました
+<item:FFFFFFFF> is complete.
+-----------------------
+#<item:FFFFFFFF>を手に入れました
+Acquired <item:FFFFFFFF>.
+-----------------------
+#アイテムがいっぱいで持てません
+Can't carry any more items.
+-----------------------
+notice
+-----------------------
+#<03:00000000>現在、{18}{45}{DC}{C0}です
+#完成まで<0B:00000001>{14}{26}{04}{C0}分{14}{26}{02}{C0}<0B:00000000>秒かかります
+<03:00000000>Currently {18}{45}{DC}{C0}.
+Will take <0B:00000001>{14}{26}{04}{C0} min. {14}{26}{02}{C0}<0B:00000000> sec. to complete.
+-----------------------
+#いくら援助してくれますか？
+#<size:00000100>現在の所持金<0B:00000001>{14}{34}{04}{C0}ガルド<0B:00000000> 
+How much would you like to contribute?
+<size:00000100>Current funds: <0B:00000001>{14}{34}{04}{C0} Gald<0B:00000000>
+-----------------------
+select
+-----------------------
+#<0B:00000001><03:00000000>　　　1000ガルド
+#　　10000ガルド
+#　100000ガルド
+#1000000ガルド<0B:00000000>
+<0B:00000001><03:00000000> 1,000 Gald
+10,000 Gald
+100,000 Gald
+1,000,000 Gald<0B:00000000>
+-----------------------
+#お金が足りません
+Not enough money.
+-----------------------
+select
+-----------------------
+#<03:00000000><0B:00000001>{14}{36}{08}{C0}<0B:00000000>ガルド援助してよろしいですか？
+#はいはい、ドーンといっちゃってください
+#いやいや、ちょっと待てよ
+<03:00000000><0B:00000001>{14}{36}{08}{C0}<0B:00000000>Provide Gald assistance?
+Sure, sure, go for it.
+No, no, hold on.
+-----------------------
+#ありがとうございます
+Thank you very much.
+-----------------------
+#また今度、おねがいします
+Please come again.
+-----------------------
+#資金は十分あります
+We have sufficient funds.
+-----------------------
+#現在、{18}{45}{DC}{C0}ですが、
+#なにか御用でしょうか？
+Currently at {18}{45}{DC}{C0}.
+Was there something you needed?
+-----------------------
+select
+-----------------------
+#<03:00000000>　変更する　
+#　製作をやめる　
+#　なんでもない　
+<03:00000000> Change order
+Stop crafting
+Never mind
+-----------------------
+#何を製作しますか？{02}
+What would you like to craft?{02}
+-----------------------
+select
+-----------------------
+#<03:00000000>　武器　
+#　防具　
+<03:00000000> Weapons
+Armor
+-----------------------
+select
+-----------------------
+#<03:00000000>　剣（<Kyle>、<Judas>用）　
+#　両手（<Loni>用）　
+#　杖（<Reala>、<Harold>用）　
+#　弓（<Nanaly>用）　
+<03:00000000> Sword (for <Kyle>, <Judas>)
+Two-handed (for <Loni>)
+Staff (for <Reala>, <Harold>)
+Bow (for <Nanaly>)
+-----------------------
+select
+-----------------------
+#<03:00000000>　鎧（<Kyle>、<Loni>、<Judas>用）　
+#　服（<Reala>、<Nanaly>、<Harold>用）　
+#　兜（<Kyle>、<Loni>、<Judas>用）　
+#　冠（<Reala>、<Nanaly>、<Harold>用）　
+<03:00000000> Armor (for <Kyle>, <Loni>, <Judas>)
+Clothing (for <Reala>, <Nanaly>, <Harold>)
+Helmet (for <Kyle>, <Loni>, <Judas>)
+Crown (for <Reala>, <Nanaly>, <Harold>)
+-----------------------
+select
+-----------------------
+#<03:00000000>製作してよろしいですか？
+#　はい　
+#　いいえ　
+<03:00000000>Begin crafting?
+Yes
+No
+-----------------------
+#装備品の製作を始めます
+Starting equipment production.
+-----------------------
+#製作資金が足りません
+Insufficient production funds.
+-----------------------
+select
+-----------------------
+#<03:00000000>現在の製作をやめます
+#　はい　
+#　いいえ　
+<03:00000000>Stop current production?
+Yes
+No
+-----------------------
+#<03:00000000>製作をやめました
+<03:00000000>Production stopped.
+-----------------------
+#<03:00000000>現在の製作を続行します
+<03:00000000>Continue current production?
+-----------------------
+notice
+-----------------------
+notice
+-----------------------
+#<03:00000000>鍛冶屋はプレイヤーが援助した
+#資金を使って修行に励みます
+#経験を積むと鍛冶屋はレベルアップします
+<03:00000000>The blacksmith uses funds you've provided
+to train and hone their craft.
+As they gain experience, the blacksmith will level up.
+-----------------------
+notice
+-----------------------
+#<03:00000000>レベルアップすると高い能力の
+#装備品を作れるようになります
+#また製作速度も上がります
+<03:00000000>Leveling up lets them craft equipment
+with higher stats.
+Production speed will increase as well.
+-----------------------
+notice
+-----------------------
+#<03:00000000>開発援助で鍛冶屋に資金援助を行います
+#資金は開発費としてプールされます
+<03:00000000>Development Aid lets you donate funds to the blacksmith.
+These funds are pooled as development costs.
+-----------------------
+notice
+-----------------------
+#<03:00000000>開発資金は時間とともに消費されます
+#また鍛冶屋に装備品の製作を
+#依頼したときにも消費されます
+<03:00000000>Development funds are consumed over time.
+They're also consumed when you place
+an equipment crafting order with the blacksmith.
+-----------------------
+notice
+-----------------------
+#<03:00000000>製作依頼した装備品は完成までに
+#一定の期間を要しますが、
+#その期間は高い能力の装備品ほど
+#長くなります
+<03:00000000>Commissioned equipment takes time to complete.
+A certain period is required,
+and the higher the stats of the gear,
+the longer that period becomes.
+-----------------------
+notice
+-----------------------
+#<03:00000000>最後に鍛冶屋の修行は
+#とても時間が掛かりますので、
+#気長に援助していただければ幸いです
+<03:00000000>Finally, the blacksmith's training
+is quite time-consuming,
+so we'd appreciate your patient support.
+-----------------------
+#<03:00000000>鍛冶屋ランク：{18}{45}{E0}{C0}
+#開発資金残高：<0B:00000001>{14}{26}{20}{90}{64}{C7}{C0}<0B:00000000>ガルド
+#状況：{18}{45}{DC}{C0}
+<03:00000000>Blacksmith Rank: {18}{45}{E0}{C0}
+Development Fund Balance: <0B:00000001>{14}{26}{20}{90}{64}{C7}{C0}<0B:00000000> Gald
+Status: {18}{45}{DC}{C0}
+-----------------------
+infomation
+-----------------------
+#刀剣を製作中
+Crafting swords
+-----------------------
+#杖を製作中
+Crafting staves
+-----------------------
+#斧・槍を製作中
+Crafting polearms
+-----------------------
+#弓を製作中
+Crafting bows
+-----------------------
+#鎧を製作中
+Crafting armor
+-----------------------
+#服を製作中
+Crafting clothing
+-----------------------
+#兜を製作中
+Crafting helmets
+-----------------------
+#帽子を製作中
+Crafting crowns
+-----------------------
+#不明なアイテムを製作中
+Crafting unknown item
+-----------------------
+#受注待ち
+Awaiting orders
+-----------------------

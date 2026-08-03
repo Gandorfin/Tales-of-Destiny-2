@@ -1,0 +1,259 @@
+#チェリク・雑貨屋＆食材屋
+Cherik - General Store & Grocery
+-----------------------
+#チェリク
+Cherik
+-----------------------
+#雑貨屋＆食材屋
+General Store & Grocery
+-----------------------
+#食材屋
+Grocery
+-----------------------
+#ああ、お客さんかい？
+#もう大した物は残ってないけど
+#なにか買っていくかい？
+Oh, a customer?
+We don't have much left in stock,
+but want to buy something?
+-----------------------
+#食材屋
+Grocery
+-----------------------
+#いらっしゃい！
+#新鮮な魚はいらんかね？
+Welcome!
+Care for some fresh fish?
+-----------------------
+#ありがとうございます
+Thank you very much.
+-----------------------
+#またおこしください
+Please come again.
+-----------------------
+#食材屋
+Grocery
+-----------------------
+#雑貨屋
+General Store
+-----------------------
+#雑貨が必要かい？
+Need some supplies?
+-----------------------
+#雑貨屋
+General Store
+-----------------------
+#なにか買ってくれよー
+#安くしとくからさー
+Buy something, would ya?
+I'll cut you a deal!
+-----------------------
+#ありがとよー
+Thanks a bunch~
+-----------------------
+#けちー
+Cheap-skate.
+-----------------------
+#雑貨屋
+General Store
+-----------------------
+#ありがとうございました
+Thank you very much.
+-----------------------
+#またおこしください
+Please come again.
+-----------------------
+#雑貨屋
+General Store
+-----------------------
+#ヘレン
+Helen
+-----------------------
+#<item:00000049>は見つかりましたか？
+Have you found <item:00000049>?
+-----------------------
+select
+-----------------------
+#<03:00000000>　見つかりました　
+#　見つかりません　
+#　探していません　
+<03:00000000>Found it.
+Not found.
+Haven't been looking.
+-----------------------
+#また<item:00000049>が手に入りましたか？
+You found another <item:00000049>, have you?
+-----------------------
+#ありがとうございます
+#これでしばらくは食料不足も
+#解消することでしょう
+Thank you very much.
+With this, our food shortage
+should be resolved for a while.
+-----------------------
+#「しばらくは」というのは
+#じつは<item:00000049>からは
+#同じ種が取れないらしいのです
+I say 'for a while' because,
+in fact, it seems you can't gather
+the same kind from <item:00000049>.
+-----------------------
+#もしもっと<item:00000049>が取れたら
+#譲っていただきたいです
+If you find any more <item:00000049>,
+I would be grateful if you could let me have them.
+-----------------------
+#つまらない物ですが
+#これはお礼です
+It's nothing much,
+but please accept this as thanks.
+-----------------------
+#本当にありがとうございました
+I truly appreciate it.
+-----------------------
+#本当ですか？
+#譲ってはいただけませんか？
+Really?
+Would you be willing to part with it?
+-----------------------
+#私が調べたところによると
+#<item:00000044>を品種改良していくと
+#<item:00000049>になるそうです
+According to my research,
+if you keep improving <item:00000044>,
+it should become <item:00000049>.
+-----------------------
+#この<item:00000044>は差しあげます
+I'll give you this <item:00000044>.
+-----------------------
+#<item:00000049>をお願いします
+<item:00000049>Please take care of .
+-----------------------
+#そんなヒドイ････
+How could you be so cruel...
+-----------------------
+#見つかったら教えてくださいね
+If you find it, please let me know.
+-----------------------
+#女性
+Woman
+-----------------------
+#わたしはやせた土地でも育つ
+#作物の種をさがしています
+I'm looking for seeds for crops
+that can grow even in barren soil.
+-----------------------
+#もしよろしければ協力しては
+#もらえないでしょうか？
+If you wouldn't mind,
+might I ask for your assistance?
+-----------------------
+select
+-----------------------
+#<03:00000000>　話をきく　
+#　遠慮する　
+<03:00000000>Listen
+Decline
+-----------------------
+#わたしの住んでいる村は
+#砂漠化が進んでいるのです
+The village I live in
+is slowly turning to desert.
+-----------------------
+#ホープタウンのように豊かな水源に
+#恵まれているわけでもなく
+We don't have abundant water sources
+like Hope Town does.
+-----------------------
+#このままでは遠からず
+#食料不足におちいるでしょう
+If things continue like this,
+we'll soon face a food shortage.
+-----------------------
+#そこで、やせた大地でも育つ
+#作物をさがしてチェリクまで
+#やってきたのですが････
+So I came all the way to Cherik
+searching for crops that can grow
+even in barren land, but...
+-----------------------
+#聞いた話では<item:00000049>という
+#乾燥に強くて収量の多い作物が
+#あるそうなのです
+I've heard there's a crop called <item:00000049>
+that's resistant to drought and high-yielding.
+-----------------------
+#<item:00000049>をみつけたら
+#わたしに譲っていただけませんか？
+If you find <item:00000049>,
+would you mind letting me have it?
+-----------------------
+#申し遅れましたが私は名もない砂漠の村に
+#住んでいるヘレンともうします
+I should have introduced myself sooner.
+My name is Helen, and I live in a nameless desert village.
+-----------------------
+#話だけでも聞いてください
+At least hear me out.
+-----------------------
+#残念です
+That's a shame.
+-----------------------
+#いってらっしゃいませ
+Please come again.
+-----------------------
+#<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
+#お泊まりになりますか？
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+Would you like to stay?
+-----------------------
+#お泊まりになりますか？
+Would you like to stay?
+-----------------------
+select
+-----------------------
+#<03:00000000>　はい　
+#　いいえ　
+<03:00000000> Yes
+No
+-----------------------
+#ごゆっくりお休みください
+Have a good night.
+-----------------------
+#おはようございます
+Good morning.
+-----------------------
+#お金が足りません
+Not enough money.
+-----------------------
+#またのおこしをお待ちしております
+We hope to see you again soon.
+-----------------------
+set_parameter( myself, C_PARTY, 0 );
+-----------------------
+wait_map_scroll();
+-----------------------
+exit-party_togather( short spd )
+-----------------------
+notice
+-----------------------
+#{16}{25}{BE}{C0}を手に入れました
+Acquired {16}{25}{BE}{C0}.
+-----------------------
+notice
+-----------------------
+#<item:FFFFFFFF>を手に入れました
+Acquired <item:FFFFFFFF>.
+-----------------------
+notice
+-----------------------
+#{16}{25}{D2}{C0}がありましたが
+#いっぱいで持てませんでした
+{16}{25}{D2}{C0}There was , but
+your inventory is full.
+-----------------------
+notice
+-----------------------
+#何もありません
+There's nothing here.
+-----------------------

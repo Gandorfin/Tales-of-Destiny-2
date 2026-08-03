@@ -1,0 +1,143 @@
+#蒼天都市ヴァンジェロ・配給所
+Distribution Center, Vangelo, the Azure City
+-----------------------
+#蒼天都市ヴァンジェロ
+The Azure City of Vangelo
+-----------------------
+#配給所
+Distribution Center
+-----------------------
+#女性
+Woman
+-----------------------
+#服も、住まいも、食べ物も
+#みんなエルレインさまが、くださるのよ
+Our clothes, our homes, our food...
+It's all given to us by Lady Elrane.
+-----------------------
+#女性
+Woman
+-----------------------
+#それなのに、自分で作ってしまったら
+#エルレインさまの、お恵みを
+#否定するってことじゃない
+But if I made something myself...
+Wouldn't that mean rejecting
+the blessings Lady Elrane gives us?
+-----------------------
+<Nanaly>
+-----------------------
+#あたしには、わかんないね
+#自分の手で作るモノだからこそ
+#愛着がわいたりするんじゃないかい？
+I don't get it.
+Isn't it the things you make with your own hands
+that you end up loving the most?
+-----------------------
+#女性
+Woman
+-----------------------
+#あなたたち････
+#ずいぶん変わった服着てるのね
+#他の街では、こんな服が配られるの？
+You all...
+You're wearing quite unusual clothes.
+Do they hand out clothes like that in other towns?
+-----------------------
+<Nanaly>
+-----------------------
+#配られる？
+#自分でぬったりしないのかい？
+They hand them out?
+Don't you sew your own?
+-----------------------
+#女性
+Woman
+-----------------------
+#ぬう････ってなに？
+#そんなことする必要あるの？
+#だって何もかもエルレインさまが
+#くださるじゃない
+Sew... what's that?
+Why would I need to do that?
+Everything comes from Lady Elrane.
+-----------------------
+#ショップマシン
+Shop Machine
+-----------------------
+#いらっしゃいませ
+#何がご要り用ですか？
+Welcome!
+What can I get for you?
+-----------------------
+select
+-----------------------
+#<03:00000000>　道具　
+#　食材　
+<03:00000000>Items
+Ingredients
+-----------------------
+#ショップマシン
+Shop Machine
+-----------------------
+#ありがとうございました
+Thank you very much.
+-----------------------
+#いってらっしゃいませ
+Have a good day.
+-----------------------
+#<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
+#お泊まりになりますか？
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+Would you like to stay?
+-----------------------
+#お泊まりになりますか？
+Would you like to stay?
+-----------------------
+select
+-----------------------
+#<03:00000000>　はい　
+#　いいえ　
+<03:00000000> Yes
+No
+-----------------------
+#ごゆっくりお休みください
+Have a good night.
+-----------------------
+#おはようございます
+Good morning.
+-----------------------
+#お金が足りません
+Not enough money.
+-----------------------
+#またのおこしをお待ちしております
+See you again soon.
+-----------------------
+set_parameter( myself, C_PARTY, 0 );
+-----------------------
+wait_map_scroll();
+-----------------------
+exit-party_togather( short spd )
+-----------------------
+notice
+-----------------------
+#{16}{25}{B6}{C0}を手に入れました
+{16}{25}{B6}{C0}Acquired .
+-----------------------
+notice
+-----------------------
+#<item:FFFFFFFF>を手に入れました
+Acquired <item:FFFFFFFF>.
+-----------------------
+notice
+-----------------------
+#{16}{25}{BE}{C0}がありましたが
+#いっぱいで持てませんでした
+{16}{25}{BE}{C0}Found , but
+your inventory is full.
+-----------------------
+notice
+-----------------------
+#何もありません
+There's nothing here.
+-----------------------

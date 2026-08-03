@@ -1,0 +1,2895 @@
+#ノイシュタット
+Neuestadt
+-----------------------
+#ノイシュタット
+Neuestadt
+-----------------------
+#ノイシュタット
+Neuestadt
+-----------------------
+#ノイシュタット
+Neuestadt
+-----------------------
+#ノイシュタット
+Neuestadt
+-----------------------
+#広場の中央に立派な噴水がある
+There's a splendid fountain in the center of the plaza.
+-----------------------
+NOTICE
+-----------------------
+#『幸運の噴水にガルドを投げ入れましょう』
+#噴水の中に小銭が沈んでいます
+#持っていきますか？
+'Toss some gald into the Fountain of Fortune.'
+Small change has settled at the bottom of the fountain.
+Take it?
+-----------------------
+select
+-----------------------
+#<03:00000000>　ありがたく頂きます　
+#　そんなみみっちいマネはしない　
+<03:00000000> I'll gladly take it.
+I won't do something so petty.
+-----------------------
+NOTICE
+-----------------------
+#１００ガルド、いただいてしまいました
+#なんだか自分がとても小さな人間のように思えました
+You took 100 Gald.
+Somehow, it made you feel like a very small person.
+-----------------------
+#『幸運の噴水にガルドを投げ入れましょう』
+#････<Kyle>がガルドをいただいてしまったため
+#噴水には１ガルドも入っていない････
+'Toss some gald into the Fountain of Fortune.'
+......Since <Kyle> took the Gald,
+there isn't a single Gald left in the fountain......
+-----------------------
+<char:000003E8>
+-----------------------
+#これは！
+What's this?!
+-----------------------
+NOTICE
+-----------------------
+#ＴＯＤ２の追加クイズ問題を見つけた！
+Found a bonus quiz question for T.O.D.2!
+-----------------------
+NOTICE
+-----------------------
+#クイズ本に新しいジャンルが追加されました
+A new category has been added to the quiz book.
+-----------------------
+#広告が貼ってある
+#『コングマン自伝・俺と拳　大好評発売中！』
+There's an advertisement posted.
+'Kong Man's Autobiography: Me and My Fists - Now on Sale!'
+-----------------------
+#『万雑貨・新鮮な食材のお求めはこちらで！』
+'For all your general goods and fresh ingredients, come right here!'
+-----------------------
+NOTICE
+-----------------------
+#<item:0000000A>を手に入れました
+<item:0000000A> Acquired.
+-----------------------
+#門の先に立派な庭が見える
+#ここは大金持ちの家なのだろう
+A splendid garden lies beyond the gate.
+This must be a wealthy family's home.
+-----------------------
+<Kyle>
+-----------------------
+#あはははっ！
+#ねぇ、あの顔見た!?
+Ahahaha!
+Hey, did you see that face?!
+-----------------------
+<Loni>
+-----------------------
+#金を渡すときだろ？
+#苦虫噛みつぶしたような顔してたな
+That was when he had to hand over the cash, right?
+He had that sour, bitter look on his face.
+-----------------------
+<Reala>
+-----------------------
+#これで、よかったのよね
+#<Judas>？
+So this is for the best, right
+<Judas>?
+-----------------------
+<Judas>
+-----------------------
+#････おまえたちにしては、上出来だ
+......Not bad, for you lot.
+-----------------------
+<Loni>
+-----------------------
+#さて、これでヒマもつぶせたことだし
+#船着き場に行ってみるか？
+Well, that killed some time.
+Wanna head down to the docks?
+-----------------------
+<Kyle>
+-----------------------
+#うん、そうだね！
+Yeah, let's go!
+-----------------------
+#おじさん
+Man
+-----------------------
+#貧民層のオレたちが
+#ボロボロになったこの街を
+#建てなおしたんだぜ
+We folks from the slums
+are the ones who rebuilt
+this worn-out town.
+-----------------------
+#おじさん
+Man
+-----------------------
+#富豪層のヤツらは
+#金がなくなったとたん
+#なにも、できなくなっちまった
+Those rich elites
+the moment their money ran out
+they couldn't do a thing anymore.
+-----------------------
+#おじさん
+Man
+-----------------------
+#金がなくても生きてきたオレたちは
+#街がボロボロになっても
+#いつもどおり生きてこられたのさ
+We've lived without money before.
+Even if the town falls to pieces,
+we'll keep on living like we always have.
+-----------------------
+<Loni>
+-----------------------
+#金があることが幸せじゃねえ････
+#つまり、貧しくても
+#美人のヨメをさがせってことだ
+Having money doesn't mean happiness......
+Which is to say, even if you're poor,
+you should still find yourself a beautiful wife.
+-----------------------
+<Kyle>
+-----------------------
+#なんか、ビミョーに
+#ズレてる気がするんだけど････
+Something about that
+feels just a little off......
+-----------------------
+#おじさん
+Man
+-----------------------
+#ノイシュタットは
+#昔ほど豊かじゃなくなったが
+#人の心は逆に豊かになった気がするな
+Neuestadt may not be
+as prosperous as it once was,
+but I feel like people's hearts have grown richer instead.
+-----------------------
+#おじさん
+Man
+-----------------------
+#いくら豊かでも
+#金持ちだけが幸せになれる街なんか
+#もう、たくさんだ
+No matter how wealthy it gets,
+I've had my fill of towns where
+only the rich can find happiness.
+-----------------------
+#おじさん
+Man
+-----------------------
+#貧しくても
+#みんなで支えあって生きていく････
+#そんな街であってほしいな
+Even if we're poor,
+I want this to be a town where we all
+support each other and keep on living......
+-----------------------
+#おじさん
+Man
+-----------------------
+#金持ち連中と、おれたち労働者が
+#それなりに平等に暮らしてるなんて
+#昔じゃ、信じられない話だよ
+The wealthy elite and us laborers
+living together in relative equality-
+would've been unbelievable back in the day.
+-----------------------
+#おじさん
+Man
+-----------------------
+#十八年前の、あの騒乱････
+#たくさんのものを失ったけど
+#だからこそ、今の幸せがあるんだよな
+That unrest from eighteen years ago......
+We lost so much,
+but that's precisely why we have the happiness we do now.
+-----------------------
+<Kyle>
+-----------------------
+#失ったもの････
+#それと引き換えに、手に入れた幸せ････
+#････なんか、どこかで････
+What I lost......
+The happiness I gained in exchange......
+......It feels like I've heard this somewhere before......
+-----------------------
+#おじさん
+Man
+-----------------------
+#多くの人の犠牲の上に
+#今の幸せがあるってこと
+#忘れちゃ、ダメなんだよな
+Our happiness today was built
+on the sacrifices of many.
+We mustn't ever forget that.
+-----------------------
+#青年
+Young Man
+-----------------------
+#闘技場に行ってみたか？
+#あそこは、この街で焼けのこった
+#数少ない建物のひとつなんだぜ
+Have you been to the arena?
+It's one of the few buildings in town
+that survived the fires.
+-----------------------
+#青年
+Young Man
+-----------------------
+#あの闘技場がなければ
+#この街の復興も
+#今ほどすすんでなかっただろうな
+Without that arena,
+this town's reconstruction
+probably wouldn't have come so far.
+-----------------------
+#青年
+Young Man
+-----------------------
+#よかったら、あんたがたも
+#この街の復興のためだと思って
+#闘技大会に参加してみてくれよ
+If you folks don't mind, think of it as
+helping this town get back on its feet,
+and give the tournament a shot, would ya?
+-----------------------
+#青年
+Young Man
+-----------------------
+#いつの時代も
+#人々は強い者にあこがれるもんだ
+No matter the era,
+people always look up to the strong.
+-----------------------
+#青年
+Young Man
+-----------------------
+#オレのあこがれは
+#ありきたりだが、コングマンと
+#伝説のチャンプ・英雄スタンだな
+My heroes are pretty standard, I guess--
+Kongman and the legendary champ,
+the hero Stahn.
+-----------------------
+#青年
+Young Man
+-----------------------
+#おまえも伝説のチャンプ
+#英雄スタンに会ってみたいと
+#思わないか？
+Don't you wanna meet the legendary champ,
+the hero Stahn, too?
+-----------------------
+<Kyle>
+-----------------------
+#オレは、もう会えたからいいよ････
+Nah, I've already met him, so I'm good...
+-----------------------
+#青年
+Young Man
+-----------------------
+#おまえ知ってるか？
+#ここの闘技場で、あの英雄スタンが
+#戦ったことがあるんだよ！
+Did you know?
+That hero Stahn fought right here
+in this arena, back in the day!
+-----------------------
+#青年
+Young Man
+-----------------------
+#もちろん、チャンプになったさ！
+#いやぁ、英雄スタンに敵なしだね！
+Of course he became champ!
+Man, no one could beat the hero Stahn!
+-----------------------
+<Kyle>
+-----------------------
+#でも、真のチャンプは
+#その父さんの頭をフライパンでなぐる
+#母さんなのかも････
+But the real champ might be
+the mom who smacks Dad's head
+with a frying pan...
+-----------------------
+#青年
+Young Man
+-----------------------
+#闘技大会での
+#英雄スタンの勇姿！
+#ぜひまた拝みたいもんだね！
+The hero Stahn, fighting at the tournament!
+I'd love to see that again someday!
+-----------------------
+#金持ち
+Wealthy Man
+-----------------------
+#その昔、ノイシュタットは
+#一部の特権階級が貧しい人を支配する
+#ひどい街だったんだ
+Long ago, Neuestadt was a terrible place
+where a privileged few oppressed
+the poor.
+-----------------------
+#金持ち
+Wealthy Man
+-----------------------
+#思えば、外殻の落下で街は壊滅したけれど
+#あれは彼女からのプレゼント
+#だったのかもしれない
+Come to think of it, the city was devastated
+when the outer shell fell, but maybe
+that was a gift from her.
+-----------------------
+<Kyle>
+-----------------------
+#彼女ってだれ？
+Who's "her"?
+-----------------------
+<Judas>
+-----------------------
+#イレーヌ＝レンブラントという女性だ
+#彼女は、貧富の差が激しい現状に
+#誰よりも心を痛めていたからな
+A woman named Irene Rembrandt.
+She took the gap between rich and poor
+more to heart than anyone.
+-----------------------
+#金持ち
+Wealthy Man
+-----------------------
+#十八年前の外殻の落下で
+#支配階級が権力と財産を失ったとき
+#この街は、生まれ変わったのさ
+When the ruling class lost their power
+and wealth in the fall of the outer shell
+eighteen years ago, this town was reborn.
+-----------------------
+#金持ち
+Wealthy Man
+-----------------------
+#今では、復興も進んで
+#ごらんのとおり、貧富の差のない
+#平等な街になったんだよ
+Now reconstruction's well underway, and as
+you can see, it's become an equal town
+without any gap between rich and poor.
+-----------------------
+#金持ち
+Wealthy Man
+-----------------------
+#貧富の差がなくなりつつある
+#今のノイシュタットを見て
+#イレーヌさんは、なんていうかな････
+The gap between rich and poor is fading.
+Looking at Neuestadt now, I wonder what
+Irene would say...
+-----------------------
+<Reala>
+-----------------------
+#きっと、よろこんでくれると思いますよ
+#彼女が思い描いていた街の姿に
+#近づいていっているのだから････
+I'm sure she'd be happy.
+The town is becoming what she always
+envisioned...
+-----------------------
+#金持ち
+Wealthy Man
+-----------------------
+#イレーヌさんは、子供がおなかを
+#すかしていると、とても悲しそうだった
+#だから、人一倍救いたいって気持ちが
+#強かったんだろうね
+Irene always looked so sad when she saw
+children going hungry. That's probably why
+she felt more strongly than anyone that
+she had to save them.
+-----------------------
+#金持ち
+Wealthy Man
+-----------------------
+#今のノイシュタットを見て
+#イレーヌさんはどう思うのかな？
+#喜んでくれてるいるといいけど････
+I wonder what Irene would think if she saw
+Neuestadt now. I hope she'd be happy...
+-----------------------
+#金持ち
+Wealthy Man
+-----------------------
+#どうだい、ここはいい街だろう？
+#でも、昔は一部の特権階級が
+#貧しい人を支配する街だったんだ
+Nice town, isn't it? But back in the day,
+it was a place where a privileged few
+ruled over the poor.
+-----------------------
+#金持ち
+Wealthy Man
+-----------------------
+#今のノイシュタットを
+#イレーヌさんに見せたかったなぁ
+I wish I could show Irene
+the Neuestadt of today...
+-----------------------
+<Kyle>
+-----------------------
+#イレーヌ？
+#････なんだろう？
+#聞いたことが、あるような気が････
+Irene?
+...Why does that sound familiar?
+Like I've heard it somewhere before...
+-----------------------
+#金持ち
+Wealthy Man
+-----------------------
+#イレーヌさんってのはさ
+#この街で、慈善事業をやっていた人さ
+#リッパな人だった････
+Irene was someone who did charity work
+right here in town. She was a wonderful
+person...
+-----------------------
+#金持ち
+Wealthy Man
+-----------------------
+#先の騒乱で、亡くなっていなければ
+#きっと今でも元気に
+#街のために、走りまわってたはずさ
+If she hadn't passed in the unrest, I'm sure
+she'd still be running around town, full of
+energy, working for its sake.
+-----------------------
+<Kyle>
+-----------------------
+#その人のこと、よくは知らないけど････
+#きっと、いい人だったんだと思う
+#････わかるんだ
+I don't know her well, but...
+I'm sure she was a good person.
+...I can tell.
+-----------------------
+#男性
+Man
+-----------------------
+#君たち、船に乗るつもりかい？
+#しばらくは、あきらめたほうがいいよ？
+You folks planning to take a ship?
+I'd give up on that for a while, if I were you.
+-----------------------
+#男性
+Man
+-----------------------
+#理由かい？　港に行ってみればわかるさ
+#港は、この道をいったすぐそこだから
+Why? Just head to the port and you'll see.
+It's right down this road.
+-----------------------
+#男性
+Man
+-----------------------
+#あの悪徳商人
+#なにをニタニタしてるんだか････
+That crooked merchant...
+What's he grinning about over there?
+-----------------------
+#男性
+Man
+-----------------------
+#ほら、すぐそこに屋敷が見えるだろ？
+#あそこに商人が住んでるんだが
+#こいつが、まぁ評判が悪くてな
+See that mansion right there?
+A merchant lives there, and let me tell you,
+he's got quite the reputation.
+-----------------------
+#男性
+Man
+-----------------------
+#あそこの屋敷に住んでる、商人な
+#メチャメチャ落ちこんでんだよ
+He's a merchant who lives in that mansion.
+He's been absolutely crushed lately.
+-----------------------
+#男性
+Man
+-----------------------
+#オベロン社とか、遺産とか
+#ブツブツつぶやいててさ
+#なんか、あったのかねぇ？
+Muttering about the Oberon Corporation, his inheritance...
+Just rambling to himself all the time.
+Wonder what happened to him?
+-----------------------
+#男性
+Man
+-----------------------
+#あそこに、でっかい屋敷があるだろ？
+#商人が住んでるんだけどさ
+#なんか、みょ～に落ちこんでんだよ
+See that huge mansion over there?
+A merchant lives there, but he's been
+acting really down in the dumps.
+-----------------------
+#男性
+Man
+-----------------------
+#あそこの商人は、やり方こそどうかと思うが
+#バイタリティだけは、尊敬してんだよ
+#だから、元気がないのが気になってな
+That merchant's methods may be questionable,
+but I've always respected his vitality.
+That's why it bothers me to see him so listless.
+-----------------------
+#おじいさん
+Old Man
+-----------------------
+#おい、聞いたか？
+#デビルズ・リーフの主が
+#だれかに、たおされちまったってよ
+Hey, you hear that?
+The master of Devil's Reef
+got taken down by someone!
+-----------------------
+<Kyle>
+-----------------------
+#それならオレたちが
+#チョチョイのチョイって
+#ヒネってやったよ！
+Well, that was us!
+We took him out easy as you please!
+-----------------------
+#おじいさん
+Old Man
+-----------------------
+#ハッハッハ
+#バカいっちゃいけねえよ
+#おまえらに、あいつがたおせるもんか
+Hahaha!
+Don't be ridiculous, kid.
+You think you could take down someone like that?
+-----------------------
+#おじいさん
+Old Man
+-----------------------
+#デビルズ・リーフの主は
+#とんでもなく、強いんだ
+#おまえさんたちにゃ、ムリだ
+The master of Devil's Reef is
+unbelievably strong.
+You kids wouldn't stand a chance.
+-----------------------
+<Kyle>
+-----------------------
+#なんだよ！
+#ホントに倒したんだってば！
+What's your problem!
+We really did defeat him, I swear!
+-----------------------
+#おじいさん
+Old Man
+-----------------------
+#デビルズ・リーフの主が
+#いなくなってから
+#ノイシュタットへの客も増えたんだ
+Ever since the master of Devil's Reef
+disappeared, we've been getting
+more visitors coming to Neuestadt.
+-----------------------
+#おじいさん
+Old Man
+-----------------------
+#だれがたおしてくれたかしらねえが
+#ホントにありがたいこった
+Don't know who took him down,
+but I'm truly grateful to 'em.
+-----------------------
+#おじいさん
+Old Man
+-----------------------
+#この街への観光客がふえりゃ
+#闘技場のもうけもふえて
+#より復興にちかづくってわけだな
+More tourists means more profits for the arena,
+which means we're one step closer
+to finishing reconstruction.
+-----------------------
+#金持ち
+Wealthy Man
+-----------------------
+#デビルズ・リーフの主のせいで
+#船客が、のびなやんでるんだ････
+Because of that master of Devil's Reef,
+ship passengers have been dwindling...
+-----------------------
+#金持ち
+Wealthy Man
+-----------------------
+#あぁ、どっかの
+#どえらい英雄さんとかが
+#倒してくれたりしねえかなぁ
+Ah, if only some great hero
+from somewhere would come along
+and take him down for us...
+-----------------------
+#金持ち
+Wealthy Man
+-----------------------
+#どっかの、どえらい英雄さんとかが
+#デビルズ・リーフの主
+#倒してくれたりしねえかなぁ
+If only some great hero from somewhere
+would come along and defeat
+the master of Devil's Reef...
+-----------------------
+#船員
+Sailor
+-----------------------
+#オレは、さすらいの船乗りジョー
+#港ごとに愛する女をのこし
+#今日もひとり、旅をつづけるのさ････
+I'm Joe, the wandering sailor.
+Leaving behind a beloved woman in every port,
+I continue my journey alone once more...
+-----------------------
+<Loni>
+-----------------------
+#クッ････
+#なんて、うらやましいヤツ････
+Tch...
+What a lucky bastard...
+-----------------------
+#船員
+Sailor
+-----------------------
+#オレは、さすらいの船乗りジョー
+#港ごとに愛する女をのこし
+#今日もひとり、旅をつづけるのさ････
+I'm Joe, the wandering sailor.
+Leaving behind a beloved woman in every port,
+I continue my journey alone today...
+-----------------------
+#船員
+Sailor
+-----------------------
+#なぜなら････
+#オレが愛する女は、だれひとりとして
+#オレを愛してくれないからだ････
+Why, you ask...?
+Because not a single woman I've loved
+has ever loved me back...
+-----------------------
+<Loni>
+-----------------------
+#なんて、うらやましくないヤツ････
+What an unlucky bastard...
+-----------------------
+#船員
+Sailor
+-----------------------
+#オレは、さすらいの船乗りジョー
+#だれにも、なにものにもしばられず
+#自由に生きてやるのさ････
+I'm Joe, the wandering sailor.
+Unbound by anyone or anything,
+I live my life free...
+-----------------------
+<Kyle>
+-----------------------
+#なにものにも、しばられず････かぁ
+#そういう風に生きるのって
+#けっこう大変なことだよね････
+Unbound by anyone or anything, huh...
+Living that way sounds
+pretty tough, actually...
+-----------------------
+#船員
+Sailor
+-----------------------
+#そうなんだ！
+#言うこと聞かないからって
+#どの船も、やとってくれなくて････
+You got that right!
+They won't hire me on any ship
+'cause I don't do what I'm told...
+-----------------------
+#船員
+Sailor
+-----------------------
+#オレは、さすらいの船乗りジョー
+#今日も空を流れる雲のように
+#だれにも、しばられずに生きるのさ････
+I'm Joe, the wandering sailor.
+Drifting free like the clouds in the sky today,
+unbound by anyone...
+-----------------------
+#船員
+Sailor
+-----------------------
+#オレは、さすらいの船乗りジョー
+#「さすらい」と言ってるにもかかわらず
+#もう三年もこの街でくらしてるのさ････
+I'm Joe, the wandering sailor.
+Even though I call myself 'wandering,'
+I've been living in this town for three years now...
+-----------------------
+<Kyle>
+-----------------------
+#ぜんぜん、さすらってないじゃん
+You're not wandering at all!
+-----------------------
+#船員
+Sailor
+-----------------------
+#仕事をさがして、この街の港を
+#えんえんとさすらってるのさ････
+I'm wandering this town's harbor
+endlessly, looking for work...
+-----------------------
+#船員
+Sailor
+-----------------------
+#オレは、さすらいの船乗りジョー
+#先の見えない人生を
+#手さぐりでさまよう男････
+I'm Joe, the wandering sailor.
+A man who gropes his way through
+a life with no clear path ahead...
+-----------------------
+#女性
+Woman
+-----------------------
+#あたし
+#闘技大会を見物したくて
+#この街に来たのよ
+I came to this town
+to watch the tournament.
+-----------------------
+#女性
+Woman
+-----------------------
+#ねえ、あなたたちも
+#参加するの？
+Hey, are you guys
+gonna enter too?
+-----------------------
+<Loni>
+-----------------------
+#ハッハッハ
+#俺にまかせときな！
+#おじょうさん
+Hahaha!
+Leave it to me, miss!
+-----------------------
+#女性
+Woman
+-----------------------
+#キャ～！スッテキィィ～ッ!!
+#応援するから、がんばってねぇっ♪
+Kyaa~! You're so cool~!!
+I'll cheer for you, so do your best~! ♪
+-----------------------
+<Loni>
+-----------------------
+#ハッハッハ
+#キミのために闘うとも！
+Hahaha!
+I'll fight for you!
+-----------------------
+#女性
+Woman
+-----------------------
+#キャ～！スッテキィィ～ッ!!
+#応援するから、がんばってねぇっ♪
+Kyaa~! You're so cool~!!
+I'll cheer for you, so do your best~! ♪
+-----------------------
+#女性
+Woman
+-----------------------
+#闘技大会で長い間
+#チャンピオンをつとめた
+#無敵のコングマンって人がいるの
+There's this guy named Kongman
+who was the champion of the tournament
+for the longest time. They called him invincible.
+-----------------------
+#女性
+Woman
+-----------------------
+#でも、そのコングマンをも
+#やぶった人がいた････
+#それが、あの英雄スタン＝エルロンよ！
+But even that Kongman
+had someone who defeated him...
+And that was the hero, Stahn Aileron!
+-----------------------
+#女性
+Woman
+-----------------------
+#ああ！
+#伝説のチャンピオンを越える
+#ステキな人があらわれないかしら★
+Oh, I wonder if someone wonderful
+will appear who can surpass
+the legendary champion~ ★
+-----------------------
+#女の子
+Girl
+-----------------------
+#あたし
+#マッハくんファンクラブの
+#かいちょ～さんなの！
+I'm the president
+of Mach-kun's fan club!
+-----------------------
+#女の子
+Girl
+-----------------------
+#マッハくんは
+#このまちでいちばん足のはやい
+#男の子なんだよ
+Mach-kun is the fastest boy
+in this whole town!
+-----------------------
+#女の子
+Girl
+-----------------------
+#コーナーからコーナーを
+#はやてのように
+#かけぬけるんだから♪
+He dashes from corner to corner
+like a gale~! ♪
+-----------------------
+#女の子
+Girl
+-----------------------
+#むかし、初代マッハくんをやぶった
+#すごく足のはやい人が、いたんだってさ
+A long time ago, there was someone
+really fast who beat the original Mach-kun.
+-----------------------
+#女の子
+Girl
+-----------------------
+#たしか、その人のなまえは
+#「すかたん＝えろりん」とかゆ～
+#ヘンな、なまえだったの
+I think his name was
+'Skatan Erolin' or something~
+What a weird name!
+-----------------------
+<Kyle>
+-----------------------
+#「すかたん＝えろりん」？
+#う～ん････
+#どこかで聞いたことあるような････
+'Skatan Erolin'?
+Hmm...
+I feel like I've heard that somewhere before...
+-----------------------
+#マッハ少年
+Mach Boy
+-----------------------
+#フッ　オレに勝つとはな
+#世の中にはまだまだ強者がいるものだ
+Hmph. So you think you can beat me?
+There are still plenty of strong fighters
+out there in this world.
+-----------------------
+#マッハ少年
+Mach Boy
+-----------------------
+#フッ　早くしろよ
+#オレの隣に居る娘に
+#エントリーしてもらえ！
+Hmph. Hurry it up.
+Have the girl standing next to me
+enter the race!
+-----------------------
+#マッハ少年
+Mach Boy
+-----------------------
+#フッ　オレの名はマッハ
+#ノイシュタットレースの現王者だ
+Hmph. My name is Mach.
+I'm the current champion of the Neuestadt race.
+-----------------------
+#マッハ少年
+Mach Boy
+-----------------------
+#フッ　お前、なかなか良い足を
+#してるじゃないか
+#その足でオレと戦ってみる気は無いか？
+Hmph. You've got some pretty fast legs.
+Care to test them against me?
+-----------------------
+SELECT
+-----------------------
+#<03:00000000>　勝負する！　
+#　興味無い　
+<03:00000000> Let's race!
+Not interested.
+-----------------------
+#マッハ少年
+Mach Boy
+-----------------------
+#フッ　ならば勝負だ！
+Hmph! Then let's settle this!
+-----------------------
+#マッハ少年
+Mach Boy
+-----------------------
+#フッ　オレの隣に居る娘に
+#エントリーしてもらえ！
+Hmph. Have the girl
+standing next to me enter!
+-----------------------
+#マッハ少年
+Mach Boy
+-----------------------
+#フッ　ならば早々に
+#立ち去るが良い
+Hmph. Then you'd best
+leave quickly.
+-----------------------
+#マッハ少年
+Mach Boy
+-----------------------
+#フッ　オレの名はマッハ
+#ノイシュタットレースの現王者にして
+#初代王者の息子だ
+Hmph. My name is Mach.
+Current champion of the Neuestadt race,
+and son of the very first champion.
+-----------------------
+#マッハ少年
+Mach Boy
+-----------------------
+#フッ　このオレの走りは誰にも
+#止められんさ
+#アタモニ神にすら、な
+Hmph. No one can stop me once I start running.
+Not anyone.
+Not even the goddess Atamoni herself.
+-----------------------
+#子供
+Kid
+-----------------------
+#ねえねえ、海のはじっこまで行ったら
+#滝になってて、下に落ちるしかないって
+#ホントなの？
+Hey, hey, is it true that if you go all the way to the edge of the sea,
+it turns into a waterfall, and you just fall off with no way down?
+-----------------------
+<Kyle>
+-----------------------
+#ゲッ！
+#そうだったのか!?
+Gah!
+Is that really true!?
+-----------------------
+<Judas>
+-----------------------
+#もう一度
+#この子どもといっしょに
+#勉強しなおしてこい････
+Go back and study
+with this child...
+one more time.
+-----------------------
+#子供
+Kid
+-----------------------
+#ときどき船が帰ってこないのは
+#海のはじっこから
+#落っこちたからなのかな～？
+Sometimes ships don't come back.
+Do you think maybe they fell off
+the edge of the sea?
+-----------------------
+#子供
+Kid
+-----------------------
+#ぼくね、おっきくなったら
+#海のはじっこが、どうなってるか
+#自分の目で見てくるんだ！
+When I grow up,
+I'm gonna see what the edge of the sea looks like
+with my own eyes!
+-----------------------
+#子供
+Kid
+-----------------------
+#だから、船乗りになる！
+#いつかきっと
+#ぜ～ったいに、船乗りになる！
+That's why I'm gonna be a sailor!
+Someday, for sure...
+I'm gonna be a sailor, no matter what!
+-----------------------
+#子供
+Kid
+-----------------------
+#ぼく、大きくなったら船乗りになる！
+#いつかきっと
+#ぜ～ったいに、船乗りになる！
+I'm gonna be a sailor when I grow up!
+Someday, for sure...
+I'm gonna be a sailor, no matter what!
+-----------------------
+<Kyle>
+-----------------------
+#いつか、きっと････
+#････でも、オレが選ばなきゃ
+#この子の未来も････
+Someday, for sure...
+...But if I'm not the one chosen,
+this kid's future will...
+-----------------------
+#子供
+Kid
+-----------------------
+#海のはじっこが、どうなってるか
+#ぼく、見たいの！
+#だから、船乗りを目指してるんだ！
+I wanna see what the edge of the sea is like!
+I wanna see it!
+That's why I'm gonna be a sailor!
+-----------------------
+<Kyle>
+-----------------------
+#なりたいものに、なればいいさ！
+#未来は、自分の手で
+#切り開くものだ････
+Just become whatever you want to be!
+The future is something you carve out
+with your own two hands...
+-----------------------
+<Kyle>
+-----------------------
+#････あれ？　今の言葉
+#前に、どこかで････
+...Huh? Those words...
+I've heard them somewhere before...
+-----------------------
+#子供
+Kid
+-----------------------
+#海のはじっこが、どうなってるか
+#ぼく、見たいの！
+#だから、船乗りを目指してるんだ！
+I wanna see what the edge of the sea is like!
+I wanna see it!
+That's why I'm gonna be a sailor!
+-----------------------
+#グリッド
+Grid
+-----------------------
+#ぐぬぬぬぬ････
+#今日は、調子が悪かっただけだ！
+Grrrr...
+I was just off my game today, that's all!
+-----------------------
+#グリッド
+Grid
+-----------------------
+#おれさまの実力は
+#いや、我等、漆黒の翼の力は
+#こんなものではない！
+My true strength...
+No, the power of we, the Jet-Black Wings,
+is far greater than this!
+-----------------------
+#グリッド
+Grid
+-----------------------
+#おれさまは、グリッド！
+#戦闘からの離脱の速さゆえについた
+#あざ名が「音速の貴公子」！
+I am Grid!
+My nickname, earned for my speed in retreating from battle,
+is the 'Prince of Sonic Speed'!
+-----------------------
+#グリッド
+Grid
+-----------------------
+#そのおれさまが
+#あんなガキに
+#負けるハズはないのだ！
+The great me,
+losing to some brat like that?
+There's no way that could happen!
+-----------------------
+#ミリー
+Millie
+-----------------------
+#もう３０回も負けてるんだからさあ････
+#いい加減、あきらめなって
+You've already lost thirty times...
+Isn't it about time you gave up?
+-----------------------
+#ジョン
+John
+-----------------------
+#普段のおやびんなら
+#あんなガキ、ぶっちぎりで
+#抜くでやんす！
+If it were the usual boss,
+he'd leave that brat in the dust
+without even trying!
+-----------------------
+#ジョン
+John
+-----------------------
+#今日は、たまたま
+#調子が悪かっただけでやんすよ！
+#そうでやんすよね、おやびん！
+Today was just a fluke,
+I was just feeling a little off!
+Isn't that right, boss!
+-----------------------
+#グリッド
+Grid
+-----------------------
+#おれさまは、グリッド！
+#戦闘からの離脱の速さゆえについた
+#あざ名が、「音速の貴公子」！
+I am Grid!
+My nickname, earned for my speed in retreating from battle,
+is the 'Prince of Sonic Speed'!
+-----------------------
+#グリッド
+Grid
+-----------------------
+#我等、漆黒の翼に負けは無いのだ！
+We, the Jet-Black Wings, know no defeat!
+-----------------------
+#ミリー
+Millie
+-----------------------
+#こりないねぇ、グリッドも････
+#３０回目で、やっとあきらめてくれたよ
+He never learns, that Grid...
+He finally gave up after the thirtieth loss.
+-----------------------
+#ジョン
+John
+-----------------------
+#普段のおやびんなら
+#あんなガキ、ぶっちぎりで
+#抜くでやんす！
+If it were the usual boss,
+he'd leave those brats in the dust
+without even trying!
+-----------------------
+#エントリー娘。
+Entry girl.
+-----------------------
+#レースをやりますか？
+#<03:00000000>　はい　
+#　いいえ　
+Shall we race?
+<03:00000000> Yes
+No
+-----------------------
+#娘
+Girl
+-----------------------
+#少年たちによるかけっこレースは
+#ノイシュタットの名物よ
+The boys' footrace is
+a Neuestadt specialty.
+-----------------------
+#{15}{14}{B4}{C0}は
+#称号「{16}{A0}{00}{08}{24}{B2}{CA}{C0}」を得ました
+{15}{14}{B4}{C0} earned
+the title "{16}{A0}{00}{08}{24}{B2}{CA}{C0}"!
+-----------------------
+notice
+-----------------------
+<Kyle>
+-----------------------
+#あっ！　あれは････
+Oh! Is that...?
+-----------------------
+#悪漢
+Thug
+-----------------------
+#おうおう、ねーちゃん！
+#正義の味方気どりかよ!!
+Hey, hey, little miss!
+Think you're some kinda hero?!
+-----------------------
+#悪漢
+Thug
+-----------------------
+#へっ！
+#とっとと、どかねえと
+#ケガすんぜ
+Heh!
+Beat it before you get hurt.
+-----------------------
+#リムル
+Rimul
+-----------------------
+#････そうはいかないわね
+...I'm afraid I can't do that.
+-----------------------
+#悪漢
+Thug
+-----------------------
+#んだとコラ！
+#やろうってのか!!
+What'd you say, brat?!
+You askin' for a beatdown?!
+-----------------------
+<Kyle>
+-----------------------
+#どうしよう、助けないと！
+What do we do? We gotta help her!
+-----------------------
+<Judas>
+-----------------------
+#いや、その必要はないだろう
+#黙って見ているんだ
+No need.
+Just watch.
+-----------------------
+#悪漢
+Thug
+-----------------------
+#なんとかいったらどうだよ、アン！
+C'mon, say somethin', Ann!
+-----------------------
+#リムル
+Rimul
+-----------------------
+#ケガをしたくなければ
+#すぐに立ち去りなさい････
+Leave now, unless you wish to be injured...
+-----------------------
+#悪漢
+Thug
+-----------------------
+#もうガマンできねぇ････
+#おい、やっちまえ!!
+I've had enough...
+Hey, waste her!!
+-----------------------
+#リムル
+Rimul
+-----------------------
+#････安心しなさい
+#これ以上の手出しはしないわ････
+#剣が泣くだけだもの････
+...Rest easy.
+I won't lift a finger...
+It would only make your swords weep.
+-----------------------
+#悪漢
+Thug
+-----------------------
+#つ、強ぇ････
+#････つよ、すぎ････る････
+S-so strong...
+Too... strong...
+-----------------------
+#リムル
+Rimul
+-----------------------
+#････とんだ寄り道をしてしまったわね
+#やはり、もっと強い敵とまみえてこその
+#剣の道ね････
+...Quite the detour.
+But the path of the sword demands stronger foes...
+-----------------------
+#少女
+Girl
+-----------------------
+#あ、あの！
+#ありがとうございました！
+#なにか、お礼を････
+Ah, um!
+Thank you so much!
+Please, let me give you something...
+-----------------------
+#リムル
+Rimul
+-----------------------
+#必要ないわ
+#当然のことを、したまでよ････
+That won't be necessary.
+I merely did what anyone would have done...
+-----------------------
+<Kyle>
+-----------------------
+#すごい････ホントに一瞬で
+#全員、やっつけちゃった････
+Whoa... She really took them all out in a flash...
+-----------------------
+<Judas>
+-----------------------
+#あれでおそらく
+#実力の欠片すら出していないだろう
+#まさに、すご腕だ
+And that was likely
+not even a fraction of her true strength.
+Truly formidable.
+-----------------------
+<Loni>
+-----------------------
+#しかし、なんであの子
+#<Kyle>のほう見たんだ？
+But why did she
+look over at <Kyle>?
+-----------------------
+<Kyle>
+-----------------------
+#さぁ････
+Well...
+-----------------------
+#少女
+Girl
+-----------------------
+#ああ････おねえさま････
+Ahh... my lady...
+-----------------------
+#リムル
+Rimul
+-----------------------
+#キミは････
+You are...
+-----------------------
+<Kyle>
+-----------------------
+#リムルさん、だよね？
+#ねぇ、なにしてたの？
+You're Rimul, right?
+Hey, what were you doing?
+-----------------------
+#リムル
+Rimul
+-----------------------
+#････考えごとよ
+...Thinking.
+-----------------------
+<Kyle>
+-----------------------
+#考えごと？
+#なにを考えてたの？
+Thinking?
+What about?
+-----------------------
+#リムル
+Rimul
+-----------------------
+#強くなること････
+#今よりも強くなるには
+#どうしたらいいかを、考えていたの
+How to grow stronger...
+I was considering what it would take
+to become stronger than I am now.
+-----------------------
+<Loni>
+-----------------------
+#そんだけ強くて
+#まだ、強くなりたいってのか？
+You're already that strong,
+and you still wanna get stronger?
+-----------------------
+#リムル
+Rimul
+-----------------------
+#今が、どうあろうと関係ないの
+#わたしは、強くなりたい････
+#それだけ
+It matters not how strong I am now.
+I wish to become stronger...
+That is all.
+-----------------------
+#リムル
+Rimul
+-----------------------
+#今のわたしには、切り札がないわ
+#どんな不利な状況をも、はね返せる
+#強力な切り札････
+I currently lack a trump card...
+A powerful trump card that could turn back
+any disadvantageous situation...
+-----------------------
+#リムル
+Rimul
+-----------------------
+#それがあれば、もっと高みに昇れる
+#そこまでは、考えいたったのよ
+With a trump card, I could rise even higher.
+That's as far as my thoughts had taken me.
+-----------------------
+<Kyle>
+-----------------------
+#ふぅん････
+Hmm...
+-----------------------
+<Loni>
+-----------------------
+#ヒュ～♪
+#かっ飛ばしてんなぁ！
+Hoo~♪
+She's really fired up!
+-----------------------
+#リムル
+Rimul
+-----------------------
+#ただ、速く走ることだけを
+#追い求める････
+Simply pursuing nothing but running faster and faster...
+-----------------------
+#リムル
+Rimul
+-----------------------
+#同じところを、何度もまわり
+#ただ、速く走ることだけを考える
+#････剣の道も、また同じ････
+Going around and around the same place,
+thinking of nothing but running as fast as possible...
+...The way of the sword is no different...
+-----------------------
+#リムル
+Rimul
+-----------------------
+#････走る････
+#････････同じところを････
+...Running...
+......around the same place...
+-----------------------
+#リムル
+Rimul
+-----------------------
+#まわる････走る････
+#････できるだけ、速く････
+Going around... running...
+...as fast as I possibly can...
+-----------------------
+#リムル
+Rimul
+-----------------------
+#････！！！
+#そう！　そういうことね！
+...!!!
+Yes! That's exactly it!
+-----------------------
+<Loni>
+-----------------------
+#････なんだ、ありゃ？
+...What's with her?
+-----------------------
+<Nanaly>
+-----------------------
+#さぁ
+#なんか、いいことでも
+#思いついたんじゃない？
+Who knows?
+Maybe she just thought of
+something good?
+-----------------------
+#ベテラン
+Veteran
+-----------------------
+#ひよっこ
+Rookie
+-----------------------
+notice
+-----------------------
+#「武器攻撃」について
+#話し合っているようです
+#耳を傾けますか？
+About "Weapon Attacks"
+They seem to be discussing it.
+Will you listen in?
+-----------------------
+#さて俺たちも冒険を始めるわけだが、
+#基本は身に付いたか？
+Well then, we're about to set off on our adventure.
+Do you have the basics down?
+-----------------------
+#もちろんさ、<button:00000045>で武器攻撃しまくりさ!!
+Of course! We're gonna hammer 'em with weapon attacks using <button:00000045>!!
+-----------------------
+#まあそうだが方向キー<button:00000006>、<button:00000021>、<button:00000016>、<button:00000017>
+#と組み合わせることによって、
+#四種類の攻撃が出るぞ！
+True enough, but combine it with the directional buttons <button:00000006>, <button:00000021>, <button:00000016>, and <button:00000017>,
+and you can pull off four different attacks!
+-----------------------
+#まずは実際に何度か繰り出してみて、
+#速度や射程を覚えていくといいな
+First, try them out a few times in practice,
+and get a feel for their speed and range.
+-----------------------
+#連続攻撃はどうやればいいのさ？
+How do I pull off consecutive attacks?
+-----------------------
+#攻撃中に再度<button:00000045>を押せばいい
+#もちろん方向キー<button:00000006>、<button:00000021>、<button:00000016>、<button:00000017>
+#により攻撃方法は変わるぞ
+Just press <button:00000045> again during an attack.
+Of course, the directional keys <button:00000006>, <button:00000021>, <button:00000016>, and <button:00000017>
+will change which attack you use.
+-----------------------
+#攻撃をするとスピリッツゲージが減る
+#（ＳＰ　戦闘中の<color:00000001>青いゲージ<color:00000007>です）
+#減りすぎたら攻撃を控えて、
+#回復を待ったほうがいい
+Attacking depletes your Spirit Gauge.
+(That's the blue <color:00000001>SP gauge<color:00000007> during combat.)
+If it gets too low, hold back on attacking
+and wait for it to recover.
+-----------------------
+#なんでさ？　しまくりゃいいさ
+Why? Just go all out.
+-----------------------
+#スピリッツゲージが少ないと
+#攻撃の命中・回避が下がるからな
+#かえって不利な状況になることもある
+#気をつけることだ
+If your Spirit Gauge runs low,
+your attack accuracy and evasion will drop.
+You could end up worse off than when you started.
+Be careful.
+-----------------------
+#防御が成功するとＳＰが多く回復するから、
+#防御<button:00000047>も大切ということだな
+You'll recover a lot of SP when you guard successfully,
+so guarding with <button:00000047> is important too.
+-----------------------
+notice
+-----------------------
+#「特技」について
+#話し合っているようです
+#耳を傾けますか？
+About "Base Artes"
+They seem to be discussing it.
+Will you listen in?
+-----------------------
+#どうだ、特技を覚えて
+#戦略に幅が出たろう？
+So, how about it? Now that you've learned some Base Artes,
+you've got more strategic options, right?
+-----------------------
+#特技<button:00000046>はつえーけどＴＰがすぐなくなるさ
+#戦闘中も自動的に回復するけど、
+#まだ貧弱なので速度が遅いさ
+Base Artes like <button:00000046> are powerful, but TP runs out fast.
+It recovers automatically during battle,
+but it's still weak, so the rate is slow.
+-----------------------
+#それはそうだ　そこで重要なのが
+#<button:00000045>の通常攻撃となるわけだ
+#一回通常攻撃がヒットすると、
+#ＴＰが１回復するぞ
+That's true. And that's where <button:00000045>'s normal attacks come in.
+Each time a normal attack lands,
+you'll recover 1 TP.
+-----------------------
+#じゃあ通常攻撃<button:00000045>しまくりさ
+Then I'll just spam normal attacks with <button:00000045>!
+-----------------------
+#････ＴＰが余ってももったいないからな
+#術を使ってＳＰを回復させるなど、
+#うまく使っていくのが大切だ
+...It's a waste to let TP go unused.
+Using spells to recover SP, for instance...
+Making the most of it is what matters.
+-----------------------
+#ＴＰは敵を倒したときも少量回復する
+#しかも、敵を連携中に
+#まとめて倒したりすると、
+#より多くのＴＰを回復できるのだ
+You'll also recover a small amount of TP when you defeat enemies.
+Moreover,
+if you take out a group of them during a combo,
+you'll recover even more TP.
+-----------------------
+notice
+-----------------------
+#「エンチャント」について
+#話し合っているようです
+#耳を傾けますか？
+About "Enchant"
+They seem to be discussing it.
+Will you listen in?
+-----------------------
+#エンチャントも覚えたさ
+I've learned Enchant too.
+-----------------------
+#････で、エンチャントって何さ？
+...So, what's an Enchant?
+-----------------------
+#うむ　簡単に言えば
+#「覚えている特技、術を
+#　自分好みにカスタムできる能力」だな
+Indeed. Simply put,
+it's "the ability to customize
+your learned Base Artes and Magic Artes to your liking."
+-----------------------
+#まずは使い続けて使用回数を上げること！
+#そうすれば様々なエンチャントが
+#装備できるようになるだろう
+First, keep using them to raise your usage count!
+Do that, and you'll be able to equip
+all kinds of different Enchants.
+-----------------------
+#じゃあ、ひとつの特技を使いまくりさ
+Then I'll just spam one Base Arte over and over.
+-----------------------
+#それもひとつの方法ではあるな
+#ただ、戦闘中はエンチャントは変更できない
+#多くの技に多彩なエンチャントを
+#つけておくのも悪くないぞ
+That's certainly one way to go about it.
+However, you can't change Enchants during battle.
+Applying diverse Enchants to many techniques...
+isn't a bad idea at all.
+-----------------------
+#敵の能力を下げる術を使ってから
+#武器で切り込む････など、特技と術を
+#使いこなすことで戦略は拡がっていく
+#････仲間同士で補い合っていってもいいな
+Using a spell to lower an enemy's stats, then cutting in with your weapon...
+Mastering both Base Artes and Magic Artes like that will expand your strategic
+options. ...And it's good to have allies cover for each other too.
+-----------------------
+#ちなみに、装備したエンチャントは外せば
+#使用回数は戻るから、いろいろと
+#試してみるのがいいだろう
+By the way, if you remove an equipped Enchant,
+its usage count will be refunded, so feel free to
+experiment with all kinds of combinations.
+-----------------------
+#ボクのお気に入りの特技はあまり
+#当たらないから、欠点を補うために
+#命中のエンチャントをつけるさ
+My favorite Base Arte doesn't hit very often,
+so to make up for that flaw,
+I equip it with an accuracy Enchant.
+-----------------------
+#････お前の場合は単に空振りしてるだけだな
+#空振りは、使用回数が増えないので
+#もったいないぞ！
+...In your case, you're just swinging at air.
+Misses don't increase your usage count,
+so it's a waste!
+-----------------------
+#それと、回復晶術は
+#「対象のＨＰが５０％以下のときに
+#　使用したとき」のみ
+#使用回数が増える　気をつけろ!!
+Also, for recovery Magic Artes,
+your usage count only increases
+"when used on a target whose HP is below 50%."
+Be careful!!
+-----------------------
+#確かにかすり傷で使っても
+#経験にはならないさ
+Sure, you can use it on a scratch,
+but it won't count as experience.
+-----------------------
+notice
+-----------------------
+#「戦闘の作戦」について
+#話し合っているようです
+#耳を傾けますか？
+"Battle Strategy"
+They seem to be discussing it.
+Will you listen in?
+-----------------------
+#いろんな敵に遭っても対処できるように、
+#作戦を決めておこうではないか！
+#「防御がかたい敵」が現れたらどうする？
+Let's decide on a strategy so we can handle all kinds of enemies!
+What do we do when a high-defense enemy shows up?
+-----------------------
+#みんなして術使いまくりさ
+Everyone just spams Magic Artes.
+-----------------------
+#術を使うのは悪くないが、
+#全員が術を唱えてると、
+#いいようになぐられるので、
+#前衛を一人置くのがいいな
+Using Magic Artes isn't bad,
+but if everyone's chanting,
+you'll get pummeled while your guard's down.
+Better keep one fighter on the front line.
+-----------------------
+#「敵の後衛が強力な術を使う」場合は？
+What if the enemy's rear guard uses powerful Magic Artes?
+-----------------------
+#昨日暗記して覚えたさ
+#「術を使わせるな」で
+#詠唱をジャマするのさ
+I memorized it yesterday.
+"Don't let them cast."
+You interrupt their incantations.
+-----------------------
+#まあそんな感じだ
+Well, that's the gist of it.
+-----------------------
+#作戦は同時に３つまで登録できるから、
+#戦闘中に瞬時に切り替えながら闘うと、
+#見ていて気持ちがいいぞ
+You can register up to three strategies at once.
+Switching between them instantly in battle
+feels great to pull off.
+-----------------------
+#攻撃頻度、回復割合もキャラクターの能力と
+#敵に合わせて変えていくと、
+#より効率的な戦いが望めるだろう
+Adjusting attack frequency and healing ratios
+to match each character's abilities and the enemy
+should let you fight more efficiently.
+-----------------------
+notice
+-----------------------
+#「テクニカルスマッシュ」
+#について話し合っているようです
+#耳を傾けますか？
+"Technical Smash"
+They seem to be discussing it.
+Will you listen in?
+-----------------------
+#テクニカルスマッシュってなにさ？
+What's a Technical Smash?
+-----------------------
+#うむ　戦いのプロも認める、
+#「華麗なとどめのさし方」を行うと、
+#テクニカルスマッシュと認定される
+Indeed. Even seasoned warriors acknowledge it.
+Execute a 'brilliant finishing blow,'
+and it is certified as a Technical Smash.
+-----------------------
+#テクニカルスマッシュで敵を倒すと、
+#あまりにステキなのか、アイテムの
+#入手確率が跳ね上がるというもっぱらの噂だ
+Defeat an enemy with a Technical Smash, and
+the item drop rate shoots way up.
+At least, that's the rumor going around.
+-----------------------
+#きっと真実だろう
+It's gotta be true.
+-----------------------
+#連携とか、まとめて倒すとかで出まくりさ
+They happen all the time during combos or when you wipe out groups at once.
+-----------------------
+#うむ　特に「とどめは連携でさす」のは
+#重要だ　とどめをさした時点で、その連携
+#に使っていたＳＰは全て回復するのだ
+#長い連携をしても態勢を立て直せる
+Mm. Especially crucial is landing the finishing blow
+as part of a combo. The moment you do,
+all SP spent on that combo is restored.
+You can recover your stance even after a long chain.
+-----------------------
+#じゃあ追加特技とかはとどめ用にとっとくさ
+Then I'll save my Base Arte Extensions for finishers.
+-----------------------
+#ＳＰ不足に悩んでいる場合は、
+#それがいいだろう
+If you're hurting for SP,
+that's a solid plan.
+-----------------------
+#アクションエンチャントは
+#ＳＰを消費するのが悩みだが、
+#とどめをうまく利用するのが達人への道だ
+Action Enchants are a pain since they eat SP,
+but mastering the finishing blow
+is the path to true mastery.
+-----------------------
+notice
+-----------------------
+#「スピリッツ」について
+#話し合っているようです
+#耳を傾けますか？
+"Spirits"
+They seem to be discussing it.
+Will you listen in?
+-----------------------
+#敵に攻撃しても防御されまくりさ
+Our attacks just get blocked left and right.
+-----------------------
+#回避が高い敵には困ったものだ
+#術を当てるのも作戦のひとつだが、敵に
+#よっては、一回の攻撃でスピリッツを
+#激減させる一発屋もいるぞ
+High-evasion enemies are a real pain.
+Using Magic Artes is one approach, but
+some enemies can drain your Spirits
+drastically with a single hit.
+-----------------------
+#空振りなどを誘い、スピリッツを
+#減らすと回避の能力も落ちる････
+#そこを狙うのもいいだろう
+Bait them into missing, drain their Spirits,
+and their evasion drops too...
+That's a solid angle to play.
+-----------------------
+#ボクは<button:00000047>と<button:0000001D>のプレスガードで
+#狙ってＳＰを減らすのさ
+I use Press Guard with <button:00000047> and <button:0000001D>
+to target and reduce their SP.
+-----------------------
+#お前は連続攻撃のときもやるから困る
+#プレスガードは敵の最後の攻撃で行うのが
+#いい　プレスガードではＳＰは２０も減る
+#敵の攻撃を見極めることだな
+You do it during combos too, which is the problem.
+You want to Press Guard against the enemy's last attack.
+A successful Press Guard drains 20 of their SP.
+It's all about reading their attacks.
+-----------------------
+#敵ターゲットをカスタムで表示させて
+#いる場合、カーソルの色が明るいほど
+#ＳＰが高いということが分かる
+#戦いながら敵のＳＰを見切れるぞ
+If you're displaying enemy targets in custom mode,
+the brighter the cursor color,
+the higher their SP.
+You can read an enemy's SP mid-fight.
+-----------------------
+notice
+-----------------------
+#「連続ヒット」について
+#話し合っているようです
+#耳を傾けますか？
+"Continuous Hit"
+They seem to be discussing it.
+Will you listen in?
+-----------------------
+#連続ヒットってなにさ？
+What's a Continuous Hit?
+-----------------------
+#ダメージを与えた敵が戦闘態勢に
+#復帰する前に連続してダメージを与えると
+#ヒット数が加算されて表示されるのだ
+When you damage an enemy and knock them out of their stance,
+deal consecutive damage before they recover
+and your hit count stacks and displays.
+-----------------------
+#いっぱい当てるとどうなるのさ？
+What happens if you rack up a ton of hits?
+-----------------------
+#うむ　最高のヒット数は取得経験値に
+#影響する　なぜなら、そんな素晴らしい
+#連続攻撃は何よりも勝る経験だからな
+Indeed, your maximum hit count affects experience gained.
+Because nothing beats the experience
+of pulling off a magnificent chain attack.
+-----------------------
+#より高いヒット数を求めるなら
+#仲間との連携が不可欠だ　ヒット数とは
+#関係ない「攻撃のひと種類」は
+#ＣＨＡＩＮとして加算される
+If you want higher hit counts,
+coordination with allies is essential. Attack types
+that don't affect the hit count directly
+are added as CHAIN instead.
+-----------------------
+#ＳＰをうまい具合に使っていかないと
+#大変さ
+If you don't manage your SP well,
+you're in for a rough time.
+-----------------------
+#そうだな　低いＳＰで連続攻撃に
+#参加しても足を引っ張ってしまうのが
+#オチだな　やはりここでも術と特技の
+#バランスが重要だな
+Exactly. Jump into a combo with low SP, and
+you'll just drag everyone down. That's the catch.
+Even here, balancing Magic Artes and Base Artes
+is what matters most.
+-----------------------
+notice
+-----------------------
+#「影響エリア」について
+#話し合っているようです
+#耳を傾けますか？
+"Field of Effect"
+They seem to be discussing it.
+Will you listen in?
+-----------------------
+#敵の裏側から攻撃したら有利だと思ったけど
+#なんだか疲れるさ
+I figured attacking from behind would give us an edge,
+but somehow it just wears me out.
+-----------------------
+#うむ　スピリッツも含め、
+#仲間たちとの連携が勇気を与えているので、
+#敵により分断されていると様々な
+#回復速度が落ちてしまうようだな
+Our Spirits and teamwork give us
+courage. If enemies split us up,
+our recovery rates will drop.
+-----------------------
+#意に反して敵の右側に回ってしまった
+#ときは<button:00000047>＋<button:00000019>のバックステップで
+#左側に戻るといいだろう
+If you end up on the enemy's right side by mistake,
+use a backstep with <button:00000047> + <button:00000019>
+to get back to their left.
+-----------------------
+#そりゃあ裏には回らないほうがいいさ
+Yeah, better not circle around behind them at all.
+-----------------------
+#基本的にはそう考えてよいな
+#しかし戦況を見極めてくると、
+#そのペナルティを補える働きが
+#出来るかもしれないな
+That's the right way to think about it, basically.
+But once you learn to read the battlefield,
+you might find ways to work around
+that penalty.
+-----------------------
+#セオリーが全て正しいとは限らないさ
+Theory isn't always right.
+-----------------------
+#たまにはいいこと言うな
+You actually said something decent for once.
+-----------------------
+#ベテランすぎ
+Too veteran.
+-----------------------
+#息子
+Son.
+-----------------------
+notice
+-----------------------
+#「ステータス変化」について
+#話し合っているようです
+#耳を傾けますか？
+"Status Effects"
+They seem to be discussing it.
+Will you listen in?
+-----------------------
+#戦闘でステータス異常になってしもうた
+#パナシーアボトルもないのじゃ
+#もうダメかのう････
+I've come down with status ailments in battle.
+And there's no Panacea Bottle either...
+Are we done for...?
+-----------------------
+#あきらめちゃいけません父さん
+#戦闘中にステータス異常になっても
+#時間の経過で回復するようですよ
+You can't give up, Dad.
+Even if you get status ailments during battle,
+they seem to recover over time.
+-----------------------
+#ステータス異常はレベルがあるので
+#防止の装備をしていても軽減しきれずに
+#喰らってしまう場合があるので
+#気をつけねばいけませんね
+Status ailments have levels, you see.
+Even with protective gear, you might not fully mitigate them
+and still get afflicted.
+You need to be careful.
+-----------------------
+#むう････また戦いにいかねばならんのか
+#つらいのう････
+Mmm... Must I go into battle again?
+How dreadful...
+-----------------------
+#やはりステータス異常を回復できる
+#料理を用意しておくのがいいですよ父さん
+#防止できる料理やアイテムもあるみたいですし
+You should definitely prepare dishes that can cure status ailments, Dad.
+There seem to be foods and items that can prevent them, too.
+-----------------------
+#後の祭りじゃあ　毒<button:00000056>に麻痺<button:0000005F>に衰弱<button:0000005A>に凍結に
+#鈍足でもうへとへとじゃあ
+Too late now! Poison <button:00000056>, paralysis <button:0000005F>, weakness <button:0000005A>, freezing,
+and slow... I'm completely worn out.
+-----------------------
+#うそはいけません父さん
+#ステータス異常は一人につき四つまでしか効果は
+#残らないのです　エンチャントで能力を
+#上げて毒が消えることもあるんです
+You shouldn't lie, Dad. Status effects can only stack up to four per person.
+They don't all linger forever, either. Sometimes raising your stats
+with an Enchant will even cure poison.
+-----------------------
+#しかも凍結と鈍足は
+#戦闘終了で回復しますよ
+Besides, Freeze and Slow
+wear off when the battle ends.
+-----------------------
+#そうじゃった　しかも鈍足は
+#もとからじゃったの
+So they do. And come to think of it, I've always been slow.
+-----------------------
+#はっはっはっはっはっはっはっはっ
+#はっはっはっはっはっはっはっは
+Hahahahahaha!
+Hahahahahaha!
+-----------------------
+#（笑いすぎじゃと思うのじゃが････）
+(I think he's laughing a bit too hard...)
+-----------------------
+#ベテランすぎ
+Too veteran.
+-----------------------
+#息子
+Son.
+-----------------------
+notice
+-----------------------
+#「スピリッツブラスター」
+#について話し合っているようです
+#耳を傾けますか？
+"Spirit Blaster"
+They seem to be discussing it.
+Will you listen in?
+-----------------------
+#ピンチになっても、スピリッツブラスター
+#になれば逆転のチャンスができるわい
+Even when you're in a pinch, activating Spirit Blaster
+gives you a chance to turn things around.
+-----------------------
+#スピリッツブラスターになりたいなら
+#攻撃を当てることと敵にガードされないこと
+#が有効ですね父さん、まあ攻撃を受けてても
+#なりますけど父さんには危険ですね
+If you want to enter Spirit Blaster Mode,
+landing your attacks and not getting guarded is key.
+Though you can also trigger it by taking hits...
+but that's dangerous for you, Father.
+-----------------------
+#体力が衰えたワシも、
+#スピリッツブラスターになれば
+#のけぞることなく攻撃できるしのう
+Even with my waning strength, if I enter Spirit Blaster,
+I can attack without getting knocked back.
+-----------------------
+#そうはいっても父さん、ＨＰがなくなれば
+#効果が切れてしまいますし、回復魔法などを
+#かけても効果が早く切れてしまいますよ
+That said, Dad, the effect wears off if your HP hits zero.
+And even if you cast healing magic on yourself,
+the effect will fade quickly.
+-----------------------
+#そんな細かいことは気にせんわい
+#ワシの最高の秘奥義はスピリッツブラスター
+#にならんと見せれんでの
+I don't sweat the small stuff.
+My greatest Mystic Arte can't even be shown
+unless I enter Spirit Blaster first.
+-----------------------
+#いえ父さん　確かに秘奥義はＳＰを多く
+#消費しますが、敵を倒すことでＳＰが
+#回復することを利用すると秘奥義を
+#出せることもあるようです
+No, Father. It's true that Mystic Artes consume a lot of SP,
+but you can use the SP recovered from defeating enemies
+to string together more Mystic Artes.
+-----------------------
+#ただ、弓使いにはスピリッツブラスター
+#状態を利用して、追加晶術のかわりに
+#秘奥義を出せる人もいるらしいですよ
+#父さん
+Also, some archers can use Spirit Blaster state
+to unleash a Mystic Arte in place of a Magic Arte Extension,
+or so I've heard, Dad.
+-----------------------
+#まあ奥義がヒットしても敵がのけぞって
+#ないと秘奥義にはいけぬから、
+#浮かす奥義だと重い敵にはうまく
+#いかんこともあるがの
+Well, even if your Arcane Arte connects, you can't enter a Mystic Arte
+unless the enemy staggers. So with launch-based Arcane Artes,
+heavy enemies might not cooperate. Something to keep in mind.
+-----------------------
+#そんなわけでさっそく二人で
+#秘奥義を出しにいこうではないか
+Well then, let's you and I go unleash our Mystic Artes right away!
+-----------------------
+#いえ父さん　私は晶術使いなんで
+#秘奥義なんて使わないんですよ
+No, Father. I'm a magic user,
+so I don't use Mystic Artes.
+-----------------------
+#というか秘奥義の後はＳＰが０になるから
+#すごいジャマなんですよ父さん
+#とどめもさせないのに秘奥義
+#しないでください父さん
+Besides, Mystic Artes drop your SP to zero,
+so they're a huge nuisance, Dad. You won't even let me land the finishing blow
+before firing one off. Please don't, Dad.
+-----------------------
+#ジャマなんで
+A huge nuisance.
+-----------------------
+#（一回言えば分かると思うが・・・）
+(You'd think he'd get it after one time...)
+-----------------------
+#ベテランすぎ
+Too veteran.
+-----------------------
+#息子
+Son.
+-----------------------
+notice
+-----------------------
+#「フィールドオブエフェクト」
+#について話し合っているようです
+#耳を傾けますか？
+"Field of Effect"
+They seem to be discussing it.
+Will you listen in?
+-----------------------
+#この間の、敵が出す
+#「フィールドオブエフェクト」には
+#ほとほと手を焼いたわい
+The other day, those enemies' "Field of Effect"
+really had me at my wit's end.
+-----------------------
+#略してＦＯＥ（フォエ）ですね父さん
+#あれには大きく二種類があって、
+#範囲内の敵たちに効果があるのと、
+#こちらの能力を下げるものがありますね
+Abbreviated as F.O.E., right, Dad? There are two main types:
+ones that buff enemies within range,
+and ones that lower our stats.
+-----------------------
+#あれが出たらお手上げかのう
+If those show up, we're finished.
+-----------------------
+#あきらめるのは早いです父さん
+#時間で切れるものや、ヒットを重ねることで
+#切れるものもあるんですもちろん、
+#とどめをさせば消えますしね
+It's too soon to give up, Dad. Some expire over time,
+and others break after taking enough hits. Of course,
+landing the finishing blow will make them vanish, too.
+-----------------------
+#こちらに効果のあるものを出されたら、
+#前衛を一人だけにして術を使うのが
+#いいかのう
+If they deploy one that affects us, perhaps it's best
+to leave just one frontline fighter and cast spells from the back.
+-----------------------
+#そうですね父さん　でもやはり状態変化に
+#応じて作戦を変えるのがいいようですよ
+#敵に効果がある場合は、スペクタクルズを
+#使えば内容が分かりますし
+That's true, Father. Still, it's best to adjust your strategy
+based on the status changes. If it's one that buffs enemies,
+using Spectacles will let you see what it does.
+-----------------------
+#それはそうと最近の若者は
+#なんでもかんでも略したがって困るわい
+That reminds me, young people these days abbreviate everything.
+It's quite a bother.
+-----------------------
+#（言うのが遅いよ父さん････）
+(You're one to talk, Dad...)
+-----------------------
+notice
+-----------------------
+#「バトルグレード」について
+#話し合っているようです
+#耳を傾けますか？
+"Battle Grade"
+They seem to be discussing it.
+Will you listen in?
+-----------------------
+#バトルグレードって結局なにさ？
+So what exactly is Battle Grade?
+-----------------------
+#戦闘中の様々な行動を集計して、
+#「戦闘のうまさ」を図るものでしたね先輩
+#ダメージの比率とか、空振りとか、
+#同じ技ばかりを使うことも審査されます
+It tallies up your various actions in battle to measure your "combat
+skill," right, Senior? Things like damage ratios, missed attacks,
+and even using the same arte repeatedly are all judged.
+-----------------------
+#高い得点を目指したい場合、
+#やはりテクニカルスマッシュを目指しつつ、
+#エンチャントを織り交ぜながら、
+#できるだけダメージをうけずにいきましょう
+If you're aiming for a high score, focus on landing Technical Smashes
+while weaving in Enchants, and try to take as little damage as possible.
+-----------------------
+#戦闘中にアイテムを使ったり、
+#回復晶術をかけたり、装備を変えたり
+#するのは、すこぶるイケてないと
+#いうウワサですよ
+Using items in battle, casting healing magic, or changing equipment
+is supposedly super uncool, or so the rumor goes.
+-----------------------
+#高いと、どんないいことがあるのさ？
+What's so great about having a high score anyway?
+-----------------------
+#それについては調査中です先輩
+#現世では役に立たないなどと
+#いう不届きな輩もいますが････
+We're still looking into that, Senior. There are some ungrateful types
+in this world who say it's useless, but...
+-----------------------
+#まあ深く気にせずに自らの技術を
+#磨けばいいさ
+Well, just don't overthink it and hone your skills.
+That's all there is to it.
+-----------------------
+#さすが先輩、勉強になります
+As expected of you, Senior. I'm learning a lot.
+-----------------------
+notice
+-----------------------
+#「受身」について
+#話し合っているようです
+#耳を傾けますか？
+"Recovery"
+They seem to be discussing it.
+Will you listen in?
+-----------------------
+#地面にたたきつけられると
+#倒れてしまうさ
+Get slammed into the ground and you're down for the count.
+-----------------------
+#確かにつらいですね先輩
+#でも、地面に接地したまさに
+#その瞬間に<button:00000047>を押すと、
+#受身がとれますよね
+It really is rough, Senior. But if you press <button:00000047>
+the exact moment you hit the ground,
+you can perform a recovery roll.
+-----------------------
+#ももももちろん知ってたさ
+O-o-o-of course I knew that.
+-----------------------
+#受身を取れるとダウンの時間が
+#減るし、なによりＳＰとＴＰが
+#回復するのがうれしいですよね
+Recovering reduces your downtime, and best of all,
+your SP and TP recover too. Pretty nice, right?
+-----------------------
+#もももももちろん知ってたさ
+I-I-I-I-I knew that all along.
+-----------------------
+notice
+-----------------------
+#「戦闘難易度」について
+#話し合っているようです
+#耳を傾けますか？
+"Battle Difficulty"
+They seem to be discussing it.
+Will you listen in?
+-----------------------
+#戦闘難易度を高くするのに、
+#なんの意味があるのさ？
+What's the point of raising the battle difficulty?
+-----------------------
+#まあ確かに戦闘難易度を高くしたって
+#世界は平和にならないですね
+#でも、噂によると、敵が落とす武具が
+#よいものになるそうです
+Well, it's true that raising the combat difficulty won't bring world peace.
+But rumor has it that enemies drop better equipment.
+-----------------------
+#それだったら上げまくるさ
+In that case, I'll crank it all the way up!
+-----------------------
+#でも、知っての通り戦闘難易度を上げると、
+#敵の攻撃力や知性が上がるうえ、
+#普通の難易度では使ってこない壮絶な攻撃を
+#してきたりするので悩みどころですよね
+But as you know, raising the battle difficulty boosts enemy attack
+power and intelligence. Plus they start using brutal attacks they
+don't use on normal difficulty. It's quite the dilemma, isn't it?
+-----------------------
+#そういうことなら一回世界を平和にするまで
+#ＮＯＲＭＡＬでいいさ
+If that's how it is, I'll stick with NORMAL until we bring peace to the world.
+-----------------------
+#おっしゃってる意味が
+#よくわかりませんけど
+#その通りですね
+I'm not quite sure what you mean by that,
+but you're exactly right.
+-----------------------
+#ＳＥＣＯＮＤはほどよい難易度なので
+#ちょっと手ごたえがほしかったり
+#するならお勧めな気がします
+SECOND offers a balanced difficulty, so if you're looking
+for a bit more of a challenge, I'd recommend it.
+-----------------------
+notice
+-----------------------
+#「通常攻撃」について
+#深く話し合っているようです
+#耳を傾けますか？
+"Normal Attacks"
+They seem to be having an in-depth discussion.
+Will you listen in?
+-----------------------
+#慣れてきたから最近は通常攻撃は
+#<button:00000045>だけ叩きっぱなしさ
+I've gotten used to things, so lately I've
+just been mashing <button:00000045> for normal attacks.
+-----------------------
+#まったくなっとらんな
+You really don't get it, do you?
+-----------------------
+#実は、二段目、三段目ではある程度
+#命中、ダメージが下がってしまうが、
+#同じ組み合わせの攻撃だと
+#より下がってしまうのだ
+Actually, your second and third hits lose some accuracy and damage.
+And if you use the same combination repeatedly,
+they'll drop even further.
+-----------------------
+#なにー
+#じゃあどうすればいいのさ？
+What?!
+Then what am I supposed to do?!
+-----------------------
+#うむ　「<button:00000017><button:00000045>、<button:00000045>、<button:00000016><button:00000045>」
+#と組み立てるなど、組み合わせを
+#変えるのがまず第一歩だ
+Indeed. Try building combos like "<button:00000017><button:00000045>, <button:00000045>, <button:00000016><button:00000045>"
+and varying your combinations.
+That is the first step.
+-----------------------
+#第二歩はなにさ？
+What's the second step?
+-----------------------
+#<button:00000045>は攻撃力、命中の減少量が多い、
+#<button:00000017><button:00000045>では攻撃力が上がり命中が下がる、
+#<button:00000019><button:00000045>では攻撃力が下がり命中が上がる、
+#<button:00000016><button:00000045>は攻撃力、命中の減少量が少ない、
+<button:00000045> has a large decrease in both attack power and accuracy.
+<button:00000017><button:00000045> increases attack power but decreases accuracy.
+<button:00000019><button:00000045> decreases attack power but increases accuracy.
+<button:00000016><button:00000045> has a minimal decrease in both attack power and accuracy.
+-----------------------
+#以上を覚えておけ！
+#<button:00000045>による攻撃は効果範囲が広く、
+#当たりやすいことが多いが、その反面、
+#連続攻撃時にはあまり有効ではない
+Remember all that!
+<button:00000045> attacks have a wide area of effect,
+so they're easy to land, but on the flip side,
+they're not very effective during combos.
+-----------------------
+#これは次の攻撃にも影響を与えるから、
+#「<button:00000017><button:00000045>、<button:00000017><button:00000045>、<button:00000045>」と
+#「<button:00000019><button:00000045>、<button:00000019><button:00000045>、<button:00000045>」では、
+#三段目の攻撃の数値が変わるぞ
+This also affects your next attack,
+so "<button:00000017><button:00000045>, <button:00000017><button:00000045>, <button:00000045>" versus
+"<button:00000019><button:00000045>, <button:00000019><button:00000045>, <button:00000045>" will change
+the stats on your third hit.
+-----------------------
+#じゃあ回避が高い敵には
+#<button:00000019><button:00000045>から組み立てることにするさ
+#逆に回避が低い敵には
+#<button:00000017><button:00000045>から始めるさ
+Then for enemies with high evasion,
+I'll build my combos starting with <button:00000019><button:00000045>.
+And for enemies with low evasion,
+I'll start with <button:00000017><button:00000045>.
+-----------------------
+#例としてはそんな感じだ
+#まあ、変化量は微々たるものだから、
+#他のルールで手一杯だというなら
+#無理して覚えなくてもいいぞ
+That's the general idea.
+Well, the changes are pretty negligible,
+so if you're already overwhelmed by other rules,
+don't force yourself to memorize these.
+-----------------------
+notice
+-----------------------
+#「長い話」について
+#話し合っているようです
+#耳を傾けますか？
+"Long Conversations"
+They seem to be discussing it.
+Will you listen in?
+-----------------------
+#ためになる話も十年くらい聞いてると
+#さすがにつかれるさ
+Even useful advice gets tiring after hearing it for ten years straight.
+-----------------------
+#そういえば教えてなかったな
+#<button:0000002F>と<button:0000002E>を押しっぱなしにすると
+#メッセージを早送りできる
+#同じ会話を読み飛ばすとき便利だ
+Come to think of it, I never told you.
+If you hold down <button:0000002F> and <button:0000002E>,
+you can fast-forward through messages.
+Handy for skipping conversations you've already seen.
+-----------------------
+#なにー
+#どうして十年もそれを教えて
+#くれなかったのさ
+What?!
+Why didn't you tell me that for ten years?!
+-----------------------
+#バカモン！　ひよっこのお前が
+#私の話を読み飛ばすなどとは
+#十年早いわ
+Fool! A fledgling like you
+skipping over my words?
+You're ten years too early for that!
+-----------------------
+#と思ってたので今教えることに
+#したわけだ
+That's what I thought, which is why I'm telling you now.
+-----------------------
+#納得さ
+Fair enough.
+-----------------------
+notice
+-----------------------
+#「アイテム拾得」について
+#話し合っているようです
+#耳を傾けますか？
+"Item Drops"
+They seem to be discussing it.
+Will you listen in?
+-----------------------
+#冒険者として生きるからには
+#敵からアイテムを拾いまくりたいさ
+If you're gonna live as an adventurer,
+you wanna rake in as many item drops from enemies as possible.
+-----------------------
+#うむ　確かにそうだな
+#しかし冒険者の間で、まことしやかな
+#噂が流れているぞ
+Indeed, that's true.
+However, there's a rather persistent rumor circulating among adventurers.
+-----------------------
+#噂ってなにさ？
+What's the rumor?
+-----------------------
+#「どうやら同じ種類のアイテムを多く持って
+#　いるほど敵がアイテムを落とす確率が
+#　減ってしまうようだ」というのだ
+"Apparently, the more items of the same type you carry,
+the lower the chance of enemies dropping items."
+That's what they say.
+-----------------------
+#そりゃ困るさ　全部売るさ
+Well, that's a problem. I'll sell everything!
+-----------------------
+#それはどうかと思うが、いらない装備品
+#などはできるだけ売ったほうがいいのは
+#整理面でもおすすめだな
+I'm not sure about that, but selling off unnecessary equipment
+is definitely recommended for inventory management.
+-----------------------
+#もちろん
+#リファインをして量を減らして質を
+#上げるのが冒険者の知恵ともいえるがな
+Of course,
+Refining to reduce quantity and improve quality
+is also said to be the mark of a wise adventurer.
+-----------------------
+#他にも消費アイテムを使いながら進みたい
+#場合は、聞いた話では少な目の数をキープ
+#したほうがいいということだな
+Also, if you want to keep moving forward while using consumables,
+from what I've heard, it's better to keep a modest stock of each.
+-----------------------
+#消費アイテムの場合、全体の総数ではなく
+#それぞれの所持数が関係するというのが
+#冒険者筋での通説らしいぞ
+For consumables, it's not your total item count that matters,
+but how many you have of each individual type.
+That's the prevailing theory among adventurers.
+-----------------------
+#でも少ないと、つえー敵で困りがちさ
+But if you don't have enough, tough enemies can be a real pain.
+-----------------------
+#それもある　それぞれの冒険スタイルに
+#あった冒険をするのが重要ということだな
+That too. The important thing is to adventure
+in a way that suits your own style.
+-----------------------
+select
+-----------------------
+#<03:00000000>　はい　
+#　いいえ　
+<03:00000000> Yes
+No
+-----------------------
+<Kyle>
+-----------------------
+#オレはオレの道を極めるぜ!!
+I'm gonna master my own path!!
+-----------------------
+#いってらっしゃいませ
+Take care.
+-----------------------
+#<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
+#お泊まりになりますか？
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+Would you like to stay?
+-----------------------
+#お泊まりになりますか？
+Would you like to stay?
+-----------------------
+select
+-----------------------
+#<03:00000000>　はい　
+#　いいえ　
+<03:00000000> Yes
+No
+-----------------------
+#ごゆっくりお休みください
+Have a good night.
+-----------------------
+#おはようございます
+Good morning.
+-----------------------
+#お金が足りません
+Not enough money.
+-----------------------
+#またのおこしをお待ちしております
+See you again soon.
+-----------------------
+set_parameter( myself, C_PARTY, 0 );
+-----------------------
+wait_map_scroll();
+-----------------------
+exit-party_togather( short spd )
+-----------------------
+notice
+-----------------------
+#{16}{26}{0E}{C0}を手に入れました
+Acquired {16}{26}{0E}{C0}.
+-----------------------
+notice
+-----------------------
+#<item:FFFFFFFF>を手に入れました
+Acquired <item:FFFFFFFF>.
+-----------------------
+notice
+-----------------------
+#{16}{26}{16}{C0}がありましたが
+#いっぱいで持てませんでした
+{16}{26}{16}{C0}You found , but
+your inventory is full.
+-----------------------
+notice
+-----------------------
+#何もありません
+There's nothing here.
+-----------------------
+#<item:00000012>屋
+<item:00000012> Shop
+-----------------------
+#こちらでは<item:00000012>の
+#販売を行っています
+We sell <item:00000012> here.
+-----------------------
+#<item:00000012>を使ってリファインすると
+#ステキな物が作られることがあるようです
+Refining with <item:00000012> can sometimes create wonderful items.
+-----------------------
+#武器や鎧をリファインすると
+#付加能力が引継がれることがあるようです
+When you refine weapons or armor, added abilities may sometimes carry over.
+-----------------------
+#ひと瓶<0B:00000001>{14}{36}{20}{C0}<0B:00000000>ガルドになりますが、
+#<item:00000012>を買いますか？
+One bottle costs <0B:00000001>{14}{36}{20}{C0}<0B:00000000> gald.
+Would you like to buy <item:00000012>?
+-----------------------
+select
+-----------------------
+#<03:00000000>　買う　
+#　<0B:00000001>{14}{26}{2A}{C0}本まとめて買う（{14}{36}{24}{C0}ガルド）<0B:00000000>　
+#　リファイン講座　
+#　いらない　
+<03:00000000>Buy
+<0B:00000001>{14}{26}{2A}{C0}Buy in bulk ({14}{36}{24}{C0} Gald)<0B:00000000>
+Refine Tutorial
+No thanks
+-----------------------
+select
+-----------------------
+#<03:00000000>　買う　
+#　リファイン講座　
+#　いらない　
+<03:00000000>Buy
+Refine Tutorial
+No thanks
+-----------------------
+#お買い上げ、ありがとうございます
+Thank you for your purchase.
+-----------------------
+#お買い上げ、ありがとうございます
+Thank you for your purchase.
+-----------------------
+#<item:00000012>はひと瓶
+#<0B:00000001>{14}{36}{20}{C0}<0B:00000000>ガルドです
+<item:00000012> is <0B:00000001>{14}{36}{20}{C0}<0B:00000000> gald per bottle.
+-----------------------
+#リファイン講座を聞きたいですか？
+Would you like to hear the Refine tutorial?
+-----------------------
+select
+-----------------------
+#<03:00000000>　聞きたい　
+#　聞きたくない　
+<03:00000000>Yes, please
+No thanks
+-----------------------
+#何について知りたいですか？
+What would you like to know?
+-----------------------
+select
+-----------------------
+#<03:00000000>　４、スロットについて　
+#　５、装飾品のリファイン　
+#　６、リファインできない装備品について　
+#　前のページ　
+<03:00000000>4. About Slots
+5. Refining Accessories
+6. Equipment That Cannot Be Refined
+Previous Page
+-----------------------
+select
+-----------------------
+#<03:00000000>　１、リファインとは
+#　２、アイテムの変化　　　　　　　　　　
+#　３、装備品の合成　
+#　次のページ　
+<03:00000000>1. What Is Refine?
+2. Item Transformations
+3. Equipment Synthesis
+Next Page
+-----------------------
+#リファインとは、選択したアイテムを
+#別なアイテムに変化させたり
+#武器や防具を合成することのできるコマンドです
+Refine is a command that lets you transform selected items
+into different ones, or synthesize weapons and armor.
+-----------------------
+#リファインを行うのに必要なのは
+#<item:00000012>とレンズです
+To perform Refine, you need <item:00000012> and Lens.
+-----------------------
+#<item:00000012>は、各地にいる
+#私たちルーンボトル屋からお求めください
+You can purchase <item:00000012> from us Rune Bottle vendors in various locations.
+-----------------------
+#レンズはモンスターと
+#戦えば拾うことができます
+You can obtain Lens by defeating monsters.
+-----------------------
+#これを機会に、あなたも
+#どんどんリファインを行ってください
+Take this opportunity to refine as much as you can.
+-----------------------
+#アイテムの変化とは、アイテム単体に
+#リファインを行うことによって
+#別なアイテムに変化させることです
+Item transformation means using Refine on a
+single item to change it into a different one.
+-----------------------
+#例えば、<item:00000001>にリファインを行うと
+#<item:00000002>に変化し
+#逆に、<item:00000002>にリファインを行うと
+#<item:00000001>に変化します
+For example, refining <item:00000001> transforms it into <item:00000002>.
+Conversely, refining <item:00000002> transforms it into <item:00000001>.
+-----------------------
+#また、装備品単体をリファインすることによって
+#<item:00000001>などのアイテムにも変化します
+You can also refine individual pieces of equipment to obtain items such as <item:00000001>.
+-----------------------
+#ダンジョンなどでアイテムが尽きてしまった時などに
+#行うと、有効な場合もあります
+#もちろん、最初からきちんと準備をしておくほうが
+#賢いといえますが････
+This can be effective when you run out of items in a dungeon, for instance.
+Of course, it's wiser to prepare properly from the start...
+-----------------------
+#リファインの一番の特徴は
+#やはり、装備品の合成です
+The greatest feature of Refine is undoubtedly equipment synthesis.
+-----------------------
+#装備品を合成すると
+#お気に入りの装備品に
+#お気に入りのスロットが付いた
+#装備品を作ることができます････
+By synthesizing equipment, you can create gear with your
+preferred slots added to your favorite equipment...
+-----------------------
+#ああ、まずはスロットの説明を
+#しなければいけませんね
+Ah, but first I must explain what slots are.
+-----------------------
+#スロットとは、装備品に
+#付けることができる
+#付加能力のようなものです
+Slots are bonus abilities that can be attached to equipment.
+-----------------------
+#スロットについては、また別に
+#詳しく説明させていただきます
+We'll explain slots in more detail separately.
+-----------------------
+#いちばん簡単な装備品のリファインは
+#スロットが一つついた装備品どうしの
+#リファインです
+The simplest form of equipment Refine is between
+two pieces of equipment that each have one slot.
+-----------------------
+#これを行うと、何とステキなことに
+#スロットが二つ付いた装備品ができます
+Doing this produces wonderful equipment with two slots.
+-----------------------
+#注意しなければいけないのは
+#剣は剣、鎧は鎧といったように
+#同じ種類の装備品でしか
+#リファインできません
+What you must keep in mind is that, just as swords go with swords and
+armor with armor, you can only Refine equipment of the same type.
+-----------------------
+#他にもいろいろな組み合わせがありますが
+#それはやってみてのお楽しみです
+There are many other combinations as well,
+but discovering them is part of the fun.
+-----------------------
+#スロットについて
+#詳しく説明いたします
+Now then, let me explain slots in detail.
+-----------------------
+#スロットは数多くの種類があり
+#アタック：攻撃力が上昇します
+#ディフェンス：防御力が上昇します
+#などが代表的なものです
+There are many types of slots.
+Attack: Increases attack power.
+Defense: Increases defense power.
+These are some of the most common.
+-----------------------
+#スロットによって装備品の名前も変わります
+#<item:00000078>　＋　アタックで
+#アタックソードなどです
+Equipment names also change depending on the slot.
+<item:00000078> + Attack becomes an Attack Sword, for example.
+-----------------------
+#また、スロットにはレベルがあり
+#レベルが高いと効果も上昇します
+#最高はレベル８です
+Additionally, slots have levels.
+Higher levels increase their effectiveness.
+The maximum level is 8.
+-----------------------
+#スロット付きの装備品は
+#主にモンスターが落とします
+Equipment with slots is mainly dropped by monsters.
+-----------------------
+#モンスターとたくさん戦って
+#スロット付き装備品を手に入れて
+#あなただけのスロット付き装備品を
+#作ってみてください
+Fight plenty of monsters, obtain equipment with slots,
+and try creating your own custom slotted gear.
+-----------------------
+#ここだけの話ですが、装飾品も
+#リファインすることができます
+#でも、それは装飾品どうしではありません
+Just between us, accessories can also be refined.
+However, you cannot refine accessories together with other accessories.
+-----------------------
+#装飾品と、装備品のような
+#形でのみリファインが可能なのです
+Refining is only possible between accessories and equipment.
+-----------------------
+#この場合の利点は、リファインする
+#装備品の場所によってスロットが
+#変化するということです
+#武器、防具によって違います
+The advantage in this case is that the resulting slot changes depending on
+which equipment piece you refine with. It differs between weapons and armor.
+-----------------------
+#また、装飾品は一つしか装備できないので
+#いらない装飾品を、リファインに活用すれば
+#非常に有効です
+Also, you can only equip one accessory at a time,
+so putting unwanted accessories to use in Refining
+is extremely effective.
+-----------------------
+#その他にも、外装つまり「マント」も
+#装飾品と同様に装備品とリファインできます
+#その場合はなんと、装備品に属性を
+#付加することができるのです
+In addition, exterior gear--that is, 'cloaks'--can also
+be refined with equipment, just like accessories.
+And in that case, you can actually
+add elemental attributes to your equipment.
+-----------------------
+#装飾品とのリファインもうまく活用し
+#さらにステキなリファイン職人を
+#目指してみてください
+Make good use of Refining with accessories,
+and aim to become an even greater
+master of Refining.
+-----------------------
+#たまに、装備品の中に黄色い枠の
+#アイコンが付いたものがありますね
+#それは、ユニークアイテムと
+#呼ばれているものです
+Every now and then, you may find equipment
+marked with a yellow-bordered icon.
+These are what's called
+Unique Items.
+-----------------------
+#ユニークアイテムは見た目にも
+#かっこよく、攻撃力も高く
+#スロットレベルも高いものが多いですが
+#スロットは一つしかありません
+Unique items look impressive,
+boast high attack power,
+and often have high slot levels,
+but they only have one slot.
+-----------------------
+#しかし、その反面、装飾品以外のユニークアイテムは
+#リファインすることができません
+#これ以上強化することができないのです
+However, the downside is that Unique Items other than accessories
+cannot be refined.
+This means they cannot be strengthened any further.
+-----------------------
+#ですから、いらなくなったアイテムは
+#どんどん売ってしまうことをお勧めします
+Therefore, I recommend selling off
+items you no longer need as soon as possible.
+-----------------------
+#なぜなら、アイテムをたくさん持っていると
+#モンスターがアイテムを
+#落としてくれなくなってしまうという
+#噂があるからです
+Because there is a rumor that if you carry too many items,
+monsters will stop
+dropping them for you.
+-----------------------
+#････アイテム整理も大切ですね
+...Keeping your inventory organized is important too, isn't it?
+-----------------------

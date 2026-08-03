@@ -1,0 +1,484 @@
+#アイグレッテ
+Aigrette
+-----------------------
+#アイグレッテ
+Aigrette
+-----------------------
+#ネコグッズがたくさん入っている
+It's full of cat merchandise.
+-----------------------
+#ネコの食べ物が入っている
+It contains cat food.
+-----------------------
+#ネコ好きのじいさん
+Cat-Loving Old Man
+-----------------------
+#コリャ！
+#ワシの大切なネコちゃんグッズに
+#さわってはいかん！
+Hey!
+Don't touch my precious kitty merchandise!
+Hands off!
+-----------------------
+#ネコの置物だ
+It's a cat figurine.
+-----------------------
+#ネコ好きのじいさん
+Cat-Loving Old Man
+-----------------------
+#わしはネコ好きのじいさんじゃ
+I'm the cat-loving old man.
+-----------------------
+#ネコ好きのじいさん
+Cat-Loving Old Man
+-----------------------
+#････別名、命名じじいじゃ
+...Also known as the Naming Gramps.
+-----------------------
+#ネコ好きのじいさん
+Cat-Loving Old Man
+-----------------------
+#あー、キミたちにも
+#「ネコ好きの」じいさんのように
+#ステキな称号をつけてしんぜよう
+Ah, you there!
+Just like "the cat-loving old man,"
+I shall bestow upon you a splendid title!
+-----------------------
+select
+-----------------------
+#<03:00000000>　お願いします　
+#　遠慮します　
+<03:00000000> Yes, please.
+No, thank you.
+-----------------------
+#ネコ好きのじいさん
+Cat-Loving Old Man
+-----------------------
+#････そうか････いらないのか････
+#気が変わったら、またきて下され
+...I see... you don't want it...
+If you change your mind, come back anytime.
+-----------------------
+#ネコ好きのじいさん
+Cat-Loving Old Man
+-----------------------
+#お！命名してほしくなったかの？
+#ん？ん～？？？
+Oh! Changed your mind about the naming?
+Hm? Hmm???
+-----------------------
+#ネコ好きのじいさん
+Cat-Loving Old Man
+-----------------------
+#それでは、キミたちにも
+#「ネコ好きの」じいさんのように
+#ステキな称号をつけてしんぜよう
+Now then, I shall bestow upon you all
+a title as splendid as
+"the cat-loving old man."
+-----------------------
+select
+-----------------------
+#<03:00000000>　お願いします　
+#　遠慮します　
+<03:00000000> Yes, please.
+No, thank you.
+-----------------------
+#ネコ好きのじいさん
+Cat-Loving Old Man
+-----------------------
+#ふが！････いらないのか････
+#そんな事言って、
+#実は、つけてほしいんじゃろ？ん？
+Hmph! ...You don't want it...?
+Saying things like that,
+when you actually want one, don't you? Hmm?
+-----------------------
+#ネコ好きのじいさん
+Cat-Loving Old Man
+-----------------------
+#わしはネコ好きのじいさんじゃ
+#う～ん　ネコちゃ～ん♪
+I'm the cat-loving old man.
+Mmm~ Kitty-chan ♪
+-----------------------
+#ネコ好きのじいさん
+Cat-Loving Old Man
+-----------------------
+#あー、キミたち！
+#わしのつけたステキな称号は
+#大切にしてるかね？
+Ah, you there!
+Are you cherishing
+the splendid title I bestowed upon you?
+-----------------------
+<Harold>
+-----------------------
+#私につけた変なやつ、変えなさいよ！
+Change this weird thing you gave me!
+-----------------------
+#ネコ好きのじいさん
+Cat-Loving Old Man
+-----------------------
+#<size:00000180>断じて変えん！
+<size:00000180>I shan't change it!
+-----------------------
+#ネコ好きのじいさん
+Cat-Loving Old Man
+-----------------------
+#わしはネコ好きのじいさんじゃ
+#う～ん　ネコちゃ～ん♪
+I'm the cat-loving old man.
+Mmm~ Kitty-chan ♪
+-----------------------
+#ネコ好きのじいさん
+Cat-Loving Old Man
+-----------------------
+#おお！　そうかそうか！
+#････ところでの････
+Oh! I see, I see!
+...By the way...
+-----------------------
+#ネコ好きのじいさん
+Cat-Loving Old Man
+-----------------------
+#わしは、ネコの小物を集めておるんじゃ！
+#アクアヴェイル名物の
+#「<item:00000030>」が欲しいのぉ････
+I'm collecting cat accessories!
+There's a famous Aquaveil specialty
+called "<item:00000030>" that I want...
+-----------------------
+select
+-----------------------
+#<03:00000000>　<item:00000030>をあげる　
+#　<item:00000030>をあげない　
+<03:00000000> Give him <item:00000030>.
+Don't give him <item:00000030>.
+-----------------------
+#ネコ好きのじいさん
+Cat-Loving Old Man
+-----------------------
+#おお！　本当かの！
+#う～ん　ネコちゃ～ん♪
+Oh! Is that really true?!
+Mmm~ Kitty-chan ♪
+-----------------------
+notice
+-----------------------
+#<item:00000030>をあげました
+Gave <item:00000030>.
+-----------------------
+#ネコ好きのじいさん
+Cat-Loving Old Man
+-----------------------
+#おお！　幸運のネコちゃんが
+#六人いないとダメだと言っておる！
+Oh! The lucky kitty says
+we need six people!
+-----------------------
+notice
+-----------------------
+#<item:00000030>を返してくれました
+<item:00000030> was returned.
+-----------------------
+#ネコ好きのじいさん
+Cat-Loving Old Man
+-----------------------
+#････さみしいのぉ････
+...So lonely...
+-----------------------
+#ネコ好きのじいさん
+Cat-Loving Old Man
+-----------------------
+#わしは、ネコの小物を集めておるんじゃ！
+#アクアヴェイル名物の
+#「<item:00000030>」が欲しいのぉ････
+I'm collecting cat accessories!
+There's a famous Aquaveil specialty
+called "<item:00000030>" that I want...
+-----------------------
+#ネコ好きのじいさん
+Cat-Loving Old Man
+-----------------------
+#いや････ただのひとりごとじゃ････
+No... merely talking to myself...
+-----------------------
+#ネコ好きのじいさん
+Cat-Loving Old Man
+-----------------------
+#････アクアヴェイル名物の
+#<item:00000030>が
+#欲しいのぉ････
+...I want the famous Aquaveil specialty,
+<item:00000030>...
+-----------------------
+#ネコ好きのじいさん
+Cat-Loving Old Man
+-----------------------
+#いや････あくまでこれは
+#ひとりごとじゃ････
+No... this is nothing more than
+talking to myself...
+-----------------------
+#ネコ好きのじいさん
+Cat-Loving Old Man
+-----------------------
+#<item:00000030>は
+#アクアヴェイルのおみやげ屋で
+#売っているそうじゃのぉ････
+They say <item:00000030> is sold
+at the souvenir shop in Aquaveil...
+-----------------------
+#ネコ好きのじいさん
+Cat-Loving Old Man
+-----------------------
+#うひゃひゃひゃ！
+#では、みんな一列に並んでくだされ～！
+Uhyahyahya!
+Now then, everyone line up in a row~!
+-----------------------
+#ネコ好きのじいさん
+Cat-Loving Old Man
+-----------------------
+#では、皆に
+#お似合いの称号をつけてしんぜよう
+Now then, let me bestow upon each of you
+a title befitting your character.
+-----------------------
+#ネコ好きのじいさん
+Cat-Loving Old Man
+-----------------------
+#ふーむ････ふーむ････
+Hmm... hmm...
+-----------------------
+#ネコ好きのじいさん
+Cat-Loving Old Man
+-----------------------
+#おぬしは、疾風の<Kyle>じゃ！
+You shall be <Kyle> of the Gale!
+-----------------------
+#ネコ好きのじいさん
+Cat-Loving Old Man
+-----------------------
+#そして････
+And next...
+-----------------------
+#ネコ好きのじいさん
+Cat-Loving Old Man
+-----------------------
+#おぬしは、暴れん坊番長<Loni>じゃ！
+You shall be <Loni>, the Rowdy Ringleader!
+-----------------------
+<Loni>
+-----------------------
+#おい！　ふざけんな！　コラ！
+Hey! You gotta be kidding me! Hey!
+-----------------------
+<Loni>
+-----------------------
+#認めねぇ！　絶対に認めねぇ！　今すぐ考え直せ！
+#もっとかっこいいやつにしろ！　殴るぞコラ！
+I don't accept this! I absolutely refuse!
+Take it back right now!
+Give me something cooler or I'll punch ya!
+-----------------------
+<Harold>
+-----------------------
+#暴れん坊番長が
+#ぴったりじゃない
+Rowdy Ringleader?
+Fits you perfectly.
+-----------------------
+#ネコ好きのじいさん
+Cat-Loving Old Man
+-----------------------
+#あううう････雷鳴の<Loni>････
+Auuu... <Loni> of Thunder...
+-----------------------
+#ネコ好きのじいさん
+Cat-Loving Old Man
+-----------------------
+#それと、黒衣の<Judas>！
+And <Judas>, the Black-Clad!
+-----------------------
+#ネコ好きのじいさん
+Cat-Loving Old Man
+-----------------------
+#陽光の<Reala>！　どうじゃ!?
+<Reala> of Sunlight! How's that?!
+-----------------------
+#ネコ好きのじいさん
+Cat-Loving Old Man
+-----------------------
+#流星の<Nanaly>！　イカスじゃろ！
+<Nanaly> of Shooting Stars! Ain't it snazzy!
+-----------------------
+#ネコ好きのじいさん
+Cat-Loving Old Man
+-----------------------
+#それと････ふーむ････
+And then... hmm...
+-----------------------
+<Harold>
+-----------------------
+#最後は私ね！
+#最後というのがちょっと気にいらないけど
+#まあ、トリを務めてあげる
+I'm last, then!
+Being last is a bit annoying, but...
+Well, I'll graciously take the finale.
+-----------------------
+#ネコ好きのじいさん
+Cat-Loving Old Man
+-----------------------
+#ふーむ････ふーむ････
+Hmm... hmm...
+-----------------------
+<Harold>
+-----------------------
+#ほら！　ほら！
+#天才である私を称えるような
+#素晴らしいものを考えなさい
+Come on! Come on!
+Think of something wonderful,
+something worthy of praising a genius like me!
+-----------------------
+#ネコ好きのじいさん
+Cat-Loving Old Man
+-----------------------
+#<size:000000D0>ふーむ････ふーむ････
+<size:000000D0> Hmm... hmm...
+-----------------------
+<Harold>
+-----------------------
+#ほら！　どうしたの？
+#いくらでも言葉があるでしょ？
+#キューティとか････ビューティとか････
+#頭脳明晰、才気煥発でもいいわよ
+Come on! What's wrong?
+You've got plenty of words, don't you?
+Cutie or... Beauty or...
+Brilliant and talented would work too.
+-----------------------
+#ネコ好きのじいさん
+Cat-Loving Old Man
+-----------------------
+#<size:000000A0>ふーむ････ふーむ････
+<size:000000A0> Hmm... hmm...
+-----------------------
+<Harold>
+-----------------------
+#もう････全然ダメね！
+#何が命名じじいよ
+#才能ないんじゃない!?　しょせん凡人よね････
+Ugh... you're completely hopeless!
+Some 'Naming Grandpa' you are!
+You've got no talent at all! You're just a commoner...
+-----------------------
+#ネコ好きのじいさん
+Cat-Loving Old Man
+-----------------------
+#むむむむむ！！！！！！！！
+Mmmmmmmgh!!!!!!!!
+-----------------------
+#ネコ好きのじいさん
+Cat-Loving Old Man
+-----------------------
+#<size:00000180>ねぐせ<Harold>じゃ！
+<size:00000180> It's Bedhead <Harold>!
+-----------------------
+<Harold>
+-----------------------
+#なにそれぇ！
+#認めないわ！　断じて認めないわ！
+#没！　絶対に没！
+What is THAT?!
+I don't accept it! I absolutely refuse!
+Rejected! Completely rejected!
+-----------------------
+#ネコ好きのじいさん
+Cat-Loving Old Man
+-----------------------
+#いいや！　絶対にねぐせ<Harold>じゃ！
+No way! It's definitely Bedhead <Harold>!
+-----------------------
+#ネコ好きのじいさん
+Cat-Loving Old Man
+-----------------------
+#<size:00000180>断じて変えん！　決定！
+<size:00000180>I absolutely won't change it! It's decided!
+-----------------------
+#ネコ好きのじいさん
+Cat-Loving Old Man
+-----------------------
+#<size:00000200>これで、決定！！！！
+<size:00000200>With this, it's decided!!!!
+-----------------------
+notice
+-----------------------
+#<Kyle>たちは称号を得ました
+<Kyle> earned a title!
+-----------------------
+#にゃあ
+Meow.
+-----------------------
+#いってらっしゃいませ
+Come again soon.
+-----------------------
+#<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
+#お泊まりになりますか？
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+Would you like to stay?
+-----------------------
+#お泊まりになりますか？
+Would you like to stay?
+-----------------------
+select
+-----------------------
+#<03:00000000>　はい　
+#　いいえ　
+<03:00000000> Yes
+No
+-----------------------
+#ごゆっくりお休みください
+Have a good night.
+-----------------------
+#おはようございます
+Good morning.
+-----------------------
+#お金が足りません
+Not enough money.
+-----------------------
+#またのおこしをお待ちしております
+We hope to see you again soon.
+-----------------------
+set_parameter( myself, C_PARTY, 0 );
+-----------------------
+wait_map_scroll();
+-----------------------
+exit-party_togather( short spd )
+-----------------------
+notice
+-----------------------
+#{16}{25}{BA}{C0}を手に入れました
+Acquired {16}{25}{BA}{C0}.
+-----------------------
+notice
+-----------------------
+#<item:FFFFFFFF>を手に入れました
+Acquired <item:FFFFFFFF>.
+-----------------------
+notice
+-----------------------
+#{16}{25}{C2}{C0}がありましたが
+#いっぱいで持てませんでした
+Found {16}{25}{C2}{C0}, but
+your inventory is full.
+-----------------------
+notice
+-----------------------
+#何もありません
+There's nothing here.
+-----------------------

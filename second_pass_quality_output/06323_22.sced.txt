@@ -1,0 +1,283 @@
+#ラグナ遺跡
+Laguna Ruins
+-----------------------
+#ラグナ遺跡
+Laguna Ruins
+-----------------------
+#ラグナ遺跡
+Laguna Ruins
+-----------------------
+#ラグナ遺跡
+Laguna Ruins
+-----------------------
+<Kyle>
+-----------------------
+#調査隊が来てるって言ってたけど、
+#姿が見えないじゃんか
+You said an investigation team was coming,
+but I don't see 'em anywhere!
+-----------------------
+<Loni>
+-----------------------
+#どうやら俺たちの方が先に
+#着いたらしいな････って言ってるそば
+#から来やがった　<Kyle>、隠れろ！
+Looks like we got here first...
+or so I was just saying.
+They showed up after all. <Kyle>, hide!
+-----------------------
+#隊長
+Commander
+-----------------------
+#ここか？
+#巨大レンズがあるという遺跡は
+So this is it?
+The ruins with the gigantic Lens.
+-----------------------
+#隊員
+Church Member
+-----------------------
+#はっ！　自分は以前、確かにこの遺跡で
+#レンズを目撃しました！
+Yes sir! I personally observed the Lens
+in these ruins during a previous visit!
+-----------------------
+#隊員
+Church Member
+-----------------------
+#この遺跡はレンズが作られた時代の
+#都市であると考えられています
+These ruins are believed to be the remains
+of a city from the era when Lenses were made.
+-----------------------
+#隊長
+Commander
+-----------------------
+#だから、レンズがあっても
+#不思議ではないと言うのか？
+#････疑わしいものだ
+So you're saying there's nothing strange
+about a Lens being here?
+...I have my doubts.
+-----------------------
+#隊員
+Church Member
+-----------------------
+#現物を見れば
+#信じていただけるでしょう
+#レンズはこの中です
+Once you see it for yourself,
+I'm sure you'll believe us.
+The Lens is inside.
+-----------------------
+#隊員
+Church Member
+-----------------------
+#おい、ソーサラースコープを
+Hey, bring out the Sorcerer's Scope.
+-----------------------
+<Kyle>
+-----------------------
+#どうしよう････
+#急がないと、あいつらに
+#レンズを取られちゃうよ！
+What do we do...
+If we don't hurry, they'll
+take the Lens!
+-----------------------
+<Loni>
+-----------------------
+#とはいえ、正面から
+#遺跡に入るのはヤバいな
+#あいつらと、はち合わせしちまう
+Still, going in through the front
+would be bad.
+We'd run right into 'em.
+-----------------------
+<Kyle>
+-----------------------
+#じゃあ、あっちの横穴はどう？
+Then what about that side tunnel over there?
+-----------------------
+<Loni>
+-----------------------
+#ん････なんとか行けそうだな
+#<Kyle>、急ぐぜ！
+Yeah... looks like we can squeeze through.
+<Kyle>, let's move!
+-----------------------
+<Kyle>
+-----------------------
+#あれ、ここは････？
+Huh, is this...?
+-----------------------
+<Loni>
+-----------------------
+#ラグナ遺跡だな
+The Laguna Ruins.
+-----------------------
+<Loni>
+-----------------------
+#かつては空中都市とよばれていた遺跡だが
+#あらかた調べつくされて
+#考古学的な価値はゼロって話だ
+They used to call it an aerial city,
+but it's been picked clean.
+Supposedly it's got zero archaeological value now.
+-----------------------
+<Kyle>
+-----------------------
+#････････
+#････････････････
+......
+............
+-----------------------
+<Loni>
+-----------------------
+#どうした？
+#気になるものでもあったか？
+What's up?
+See something?
+-----------------------
+<Kyle>
+-----------------------
+#いや、そうじゃないけど
+#ここにいると
+#なんだか不思議な感じがするんだ
+No, it's not that, but...
+being here,
+I get this strange feeling.
+-----------------------
+<Loni>
+-----------------------
+#不思議な感じ？
+Strange feeling?
+-----------------------
+<Kyle>
+-----------------------
+#口じゃうまく言えないよ
+#ただ、だれかが呼んでるような
+#それもよく知ってるはずのだれかが････
+I can't really put it into words.
+It's like someone's calling out to me.
+Someone I should know well...
+-----------------------
+<Loni>
+-----------------------
+#おい、気味悪ぃな
+#うらみを残して死んだ女が････
+#なんてのはゴメンだぜ
+Hey, that's creepy.
+Some woman who died with a grudge...
+I don't wanna hear it.
+-----------------------
+<Loni>
+-----------------------
+#そんなに気になるなら、いってこいよ
+#ここで待っててやるから
+If it bothers you that much, go check it out.
+I'll wait here.
+-----------------------
+<Kyle>
+-----------------------
+#うん、そうするよ
+#ごめんね、<Loni>
+Yeah, I'll do that.
+Sorry, <Loni>.
+-----------------------
+<Kyle>
+-----------------------
+#この辺から入っていった気がするけど････？
+#見つかったらマズイし、オレたちは横穴から
+#中に入ろう
+I feel like we went in around here...?
+If they spot us, we're in trouble. Let's go
+in through the side tunnel.
+-----------------------
+<Kyle>
+-----------------------
+#ここが入口かなあ？
+#でも、開け方が分からないや
+#なにか道具が手に入ったら、また来てみよう
+I wonder if this is the entrance?
+But I can't figure out how to open it.
+Let's come back once we have the right tool.
+-----------------------
+#いってらっしゃいませ
+Have a good day.
+-----------------------
+#<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
+#お泊まりになりますか？
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+Would you like to stay?
+-----------------------
+#お泊まりになりますか？
+Would you like to stay?
+-----------------------
+select
+-----------------------
+#<03:00000000>　はい　
+#　いいえ　
+<03:00000000> Yes
+No
+-----------------------
+#ごゆっくりお休みください
+Have a good night.
+-----------------------
+#おはようございます
+Good morning.
+-----------------------
+#お金が足りません
+Not enough money.
+-----------------------
+#またのおこしをお待ちしております
+See you again soon.
+-----------------------
+set_parameter( myself, C_PARTY, 0 );
+-----------------------
+wait_map_scroll();
+-----------------------
+exit-party_togather( short spd )
+-----------------------
+notice
+-----------------------
+#{16}{26}{16}{C0}を手に入れました
+Acquired {16}{26}{16}{C0}.
+-----------------------
+notice
+-----------------------
+#<item:FFFFFFFF>を手に入れました
+Acquired <item:FFFFFFFF>.
+-----------------------
+notice
+-----------------------
+#{16}{26}{1E}{C0}がありましたが
+#いっぱいで持てませんでした
+Found {16}{26}{1E}{C0}, but
+your inventory is full.
+-----------------------
+notice
+-----------------------
+#何もありません
+There's nothing here.
+-----------------------
+#{16}{36}{44}{C0}を
+#<0B:00000001>{14}{36}{40}{C0}<0B:00000000>個手に入れました
+Acquired {16}{36}{44}{C0} x<0B:00000001>{14}{36}{40}{C0}<0B:00000000>.
+-----------------------
+#{16}{36}{44}{C0}が<0B:00000001>{14}{36}{48}{C0}<0B:00000000>個ありましたが
+#これ以上もてません
+#宝箱に戻しました
+{16}{36}{44}{C0}There were <0B:00000001>{14}{36}{48}{C0}<0B:00000000>, but...
+I can't carry any more.
+I put it back in the treasure chest.
+-----------------------
+#{16}{36}{44}{C0}が<0B:00000001>{14}{36}{48}{C0}個ありましたが
+#全部は持つことはできません
+#・{14}{36}{40}{C0}個取り、{14}{36}{4C}{C0}<0B:00000000>個捨てる
+#・宝箱に戻す
+{16}{36}{44}{C0}There were <0B:00000001>{14}{36}{48}{C0}, but...
+I couldn't carry them all.
+- Take {14}{36}{40}{C0}, discard {14}{36}{4C}{C0}<0B:00000000>.
+- Put them back in the treasure chest.
+-----------------------

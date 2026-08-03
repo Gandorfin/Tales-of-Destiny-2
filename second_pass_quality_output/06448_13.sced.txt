@@ -1,0 +1,167 @@
+#ハイデルベルグ・博物館『天地戦争の記憶』
+Heidelberg Museum 'Memories of the Aeth'er Wars'
+-----------------------
+#ハイデルベルグ
+Heidelberg
+-----------------------
+#博物館『天地戦争の記憶』
+Museum 'Memories of the Aeth'er Wars'
+-----------------------
+NOTICE
+-----------------------
+#『空中都市』
+'Aethersphere Cities'
+-----------------------
+NOTICE
+-----------------------
+#巨大彗星の衝突で巻き上がった
+#粉塵から逃れるため
+#人々は空中に都市を建造した
+Dust thrown up by a giant comet's impact.
+To escape it,
+people built cities in the sky.
+-----------------------
+NOTICE
+-----------------------
+#それら空中都市群は
+#天地戦争終結後に
+#地上軍の手によって
+#海底に沈められたという
+Those aerial cities,
+after the Aeth'er Wars ended,
+were sunk beneath the sea
+by the Er'ther forces, or so it is said.
+-----------------------
+NOTICE
+-----------------------
+#『地上軍兵士』
+'Er'ther Soldier'
+-----------------------
+NOTICE
+-----------------------
+#天上側の武力支配に耐えかねた
+#地上の人々が立ち上がって結成された
+The Er'ther people could no longer endure
+the Aeth'er military domination, and rose up to fight.
+-----------------------
+NOTICE
+-----------------------
+#敗北寸前まで追いつめられた
+#地上軍であったが
+#ソーディアンの力によって
+#勝利をおさめた
+Driven to the brink of defeat,
+the Er'ther forces
+won victory
+through the power of the Swordians.
+-----------------------
+NOTICE
+-----------------------
+#『対空三脚架付機関銃』
+'Anti-Aircraft Tripod-Mounted Machine Gun'
+-----------------------
+NOTICE
+-----------------------
+#廃材を利用して作られた
+#固定式の擬似機関銃
+A fixed-position pseudo-machine gun
+built from scrap materials.
+-----------------------
+NOTICE
+-----------------------
+#戦争末期には弾薬が尽きていたため
+#金属製のボルトを弾薬代わりとし
+#炸薬で撃ち出していた
+By the war's end ammunition had run dry,
+so they fired metal bolts
+using explosives as propellant.
+-----------------------
+NOTICE
+-----------------------
+#『雪上船』
+'Snowship'
+-----------------------
+NOTICE
+-----------------------
+#地上軍の輸送艇とされているが
+#不明な点が多い
+Designated as an Er'ther transport vessel,
+but much about it remains unclear.
+-----------------------
+NOTICE
+-----------------------
+#地上軍の兵士たちは
+#この輸送艇を
+#『シューズ』の愛称で呼んでいたらしい
+Er'ther soldiers
+apparently nicknamed this transport vessel
+'Shoes.'
+-----------------------
+#天地戦争をモチーフにした
+#版画だ････
+An engraving,
+depicting the Aeth'er Wars...
+-----------------------
+#絵が飾られている
+#『彗星衝突の悪夢』
+A painting is displayed here:
+'The Nightmare of Comet Impact'
+-----------------------
+#いってらっしゃいませ
+Welcome. Please come again.
+-----------------------
+#<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
+#お泊まりになりますか？
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald.
+Would you like to stay?
+-----------------------
+#お泊まりになりますか？
+Would you like to stay?
+-----------------------
+select
+-----------------------
+#<03:00000000>　はい　
+#　いいえ　
+<03:00000000> Yes
+No
+-----------------------
+#ごゆっくりお休みください
+Please rest well.
+-----------------------
+#おはようございます
+Good morning.
+-----------------------
+#お金が足りません
+Not enough money.
+-----------------------
+#またのおこしをお待ちしております
+We look forward to your next visit.
+-----------------------
+set_parameter( myself, C_PARTY, 0 );
+-----------------------
+wait_map_scroll();
+-----------------------
+exit-party_togather( short spd )
+-----------------------
+notice
+-----------------------
+#{16}{25}{BA}{C0}を手に入れました
+Acquired {16}{25}{BA}{C0}.
+-----------------------
+notice
+-----------------------
+#<item:FFFFFFFF>を手に入れました
+Acquired <item:FFFFFFFF>.
+-----------------------
+notice
+-----------------------
+#{16}{25}{C2}{C0}がありましたが
+#いっぱいで持てませんでした
+Found {16}{25}{C2}{C0}, but
+couldn't carry any more.
+-----------------------
+notice
+-----------------------
+#何もありません
+There's nothing here.
+-----------------------

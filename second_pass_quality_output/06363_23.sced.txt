@@ -1,0 +1,608 @@
+#アイグレッテ・大神殿への参道
+Approach to the Straylize Grand Temple
+-----------------------
+#アイグレッテ
+Aigrette
+-----------------------
+#アイグレッテ・神殿への参道
+Aigrette - Approach to the Temple
+-----------------------
+#アイグレッテ
+Aigrette
+-----------------------
+#アイグレッテ・大神殿への参道
+Approach to the Straylize Grand Temple
+-----------------------
+#アイグレッテ・神殿への参道
+Aigrette - Path to the Temple
+-----------------------
+#雄大な自然に囲まれたストレイライズ大神殿が見える
+The Straylize Grand Temple stands before you, embraced by magnificent nature.
+-----------------------
+#雄大な自然に囲まれたストレイライズ神殿が見える
+You can see the Straylize Temple surrounded by majestic nature.
+-----------------------
+<Kyle>
+-----------------------
+#待ってよ、<Judas>！
+Wait, <Judas>!
+-----------------------
+<Kyle>
+-----------------------
+#さっさと行っちゃうなんて、ひどいよ！
+#助けてもらったお礼も
+#まだ言ってないのにさ
+You're just gonna take off like that? That's cold!
+I haven't even thanked you
+for helping me out yet!
+-----------------------
+<Judas>
+-----------------------
+#礼などいらん
+#偶然通りかかったから
+#気まぐれで助けた、それだけだ
+I don't need your thanks.
+I happened to be passing through.
+I helped on a whim. That's all.
+-----------------------
+<Kyle>
+-----------------------
+#どうやったら、あんなとこを
+#偶然通りかかれるのさ！
+#助けに来てくれたに決まってるよ
+How do you just 'happen to pass through'
+a place like that?!
+You came to save us. I know you did!
+-----------------------
+<Judas>
+-----------------------
+#････そう思いたいのなら、勝手にしろ
+#じゃあな
+...Think what you like.
+See you.
+-----------------------
+<Kyle>
+-----------------------
+#待って！
+#<Judas>はどうして
+#オレたちのこと助けてくれるの!?
+Wait!
+Why is <Judas>
+helping us out anyway?!
+-----------------------
+<Judas>
+-----------------------
+#おまえたちを見ていると
+#あぶなっかしくて
+#イライラするからだ
+Because watching you people
+is like watching a disaster waiting to happen.
+It's infuriating.
+-----------------------
+<Kyle>
+-----------------------
+#それじゃあさ、<Judas>も
+#いっしょに来ればいいんだよ！
+Well then, <Judas>,
+why don't you just come with us?!
+-----------------------
+<Judas>
+-----------------------
+#なに？
+What?
+-----------------------
+<Kyle>
+-----------------------
+#遠くでじーっと見てるから
+#イライラするんだよ
+#近くにいれば、そんなこともないし
+You're staring at us from far away,
+so of course it's annoying!
+If you stuck close, you wouldn't have to worry about that.
+-----------------------
+<Kyle>
+-----------------------
+#それに、フィリアさんも言ってたじゃん
+#<Reala>には、仲間が必要だって
+#だから、<Judas>も････
+And besides, Philia said it too, didn't she?
+That <Reala> needs companions.
+So <Judas> should...
+-----------------------
+<Kyle>
+-----------------------
+#<Judas>？
+<Judas>?
+-----------------------
+<Judas>
+-----------------------
+#････やめておけ
+#僕を仲間にすると
+#ロクでもないことになるぞ
+...Don't do this.
+If you make me your ally,
+nothing good will come of it.
+-----------------------
+<Kyle>
+-----------------------
+#ロクでもないことって？
+What do you mean, 'nothing good'?
+-----------------------
+<Judas>
+-----------------------
+#････話す必要はない
+...There's no need to discuss it.
+-----------------------
+#衛兵
+Guard
+-----------------------
+#おい、おまえたち！
+Hey, you there!
+-----------------------
+#衛兵
+Guard
+-----------------------
+#このあたりで
+#あやしいヤツを
+#見かけなかったか？
+Have you seen
+any suspicious characters
+around these parts?
+-----------------------
+#衛兵
+Guard
+-----------------------
+#神殿に賊が侵入したらしいんだ
+#なにか、知らないか？
+It seems thieves have broken into the temple.
+Do you know anything about it?
+-----------------------
+<Loni>
+-----------------------
+#ぎくぅ！
+Ghk!
+-----------------------
+#衛兵
+Guard
+-----------------------
+#なんだ、なにか知ってるのか？
+What's with you? You know something?
+-----------------------
+<Loni>
+-----------------------
+#い、いえ！　なんでもないです！
+#賊ですかぁ、へえぇ
+#おっそろしいですねぇ！
+N-no! Not at all!
+Thieves, you say? Geez...
+How terrifying!
+-----------------------
+#衛兵
+Guard
+-----------------------
+#････そういえば、おまえたち
+#今日は、参拝の日ではないのに
+#なぜこんなところに？
+...Come to think of it, what are you lot doing here?
+Today's not a day of worship.
+Why are you in a place like this?
+-----------------------
+<Kyle>
+-----------------------
+#え、えと、あの････
+Uh, um, well...
+-----------------------
+<Loni>
+-----------------------
+#い、いやぁ、なんか道歩いてたら
+#迷って、こんなところに
+#出ちゃって････
+W-well, y'see, we were just walking along and...
+got lost, and ended up here...
+...somehow.
+-----------------------
+<Loni>
+-----------------------
+#いちゃまずいんなら
+#すぐ消えますんで！
+#それじゃ！
+If we're in the way,
+we'll be gone before you know it!
+See ya!
+-----------------------
+#衛兵
+Guard
+-----------------------
+#････おい、ちょっと待て！
+#その後ろに立ってるやつ
+#なぜこちらを見ない？
+...Hey, hold it!
+That person standing behind you.
+Why won't they face us?
+-----------------------
+<Judas>
+-----------------------
+#････
+...
+-----------------------
+#衛兵
+Guard
+-----------------------
+#あやしいヤツだな････
+#おい、こっちを向けと
+#言っているんだ！
+Shady character, this one...
+Hey! I told you to face us!
+You hear me?!
+-----------------------
+<Kyle>
+-----------------------
+#ま、待ってください！
+#その人は、ぼくらの仲間です！
+W-wait, please!
+That person is our companion!
+-----------------------
+<Judas>
+-----------------------
+#････！
+...!
+-----------------------
+#衛兵
+Guard
+-----------------------
+#仲間････？
+Companion...?
+-----------------------
+<Kyle>
+-----------------------
+#はい！
+#そうだよね、<Loni>！
+Yeah!
+Right, <Loni>?!
+-----------------------
+<Loni>
+-----------------------
+#あ････
+#ええ、そうなんですよ！
+Ah...
+Yeah, that's right!
+-----------------------
+<Loni>
+-----------------------
+#いやね、あいつ
+#なんか腹が痛いらしくて････
+#なぁ、<Reala>？
+See, the guy's
+got a stomachache or something...
+Right, <Reala>?
+-----------------------
+<Reala>
+-----------------------
+#あっ、えっと････そうなんです！
+#動くとつらいからって
+#ここで休んでたんです！
+Ah, um... that's right!
+He said it hurts to move,
+so we were resting here!
+-----------------------
+#衛兵
+Guard
+-----------------------
+#ホントか････？
+Really...?
+-----------------------
+<Loni>
+-----------------------
+#ああ～～～っ！
+#今、あやしげな人影が！
+Ahhh!
+A suspicious figure, over there!
+-----------------------
+#衛兵
+Guard
+-----------------------
+#なにっ、どこだ!?
+What?! Where?!
+-----------------------
+<Loni>
+-----------------------
+#ほらほら、向こう！
+#早く追っかけないと
+#見失っちまう！
+There, there! Hurry!
+If we don't chase 'em now,
+we'll lose 'em!
+-----------------------
+#衛兵
+Guard
+-----------------------
+#よし、行くぞ！
+Alright, let's move!
+-----------------------
+<Kyle>
+-----------------------
+#ねぇ<Loni>、どこ!?
+#どこにいるの!?
+Hey <Loni>, where?!
+Where are you?!
+-----------------------
+<Loni>
+-----------------------
+#バ～カ、ウソだよ
+#こうでもしなきゃ
+#あいつらに、しつこく聞かれるだろ？
+You idiot, it was a lie.
+Had to do something like that
+or they'd keep grilling us, right?
+-----------------------
+<Judas>
+-----------------------
+#････なぜ、かばいだてした？
+#仲間などというウソまでついて
+...Why did you cover for me?
+Going so far as to lie that we were comrades.
+-----------------------
+<Kyle>
+-----------------------
+#だって、<Judas>は仲間だもん
+#かばうのも、あたりまえだよ
+'Cause <Judas> is our friend.
+Protecting a friend is the most natural thing in the world.
+-----------------------
+<Judas>
+-----------------------
+#僕は、仲間じゃ････！
+I'm not your...!
+-----------------------
+<Loni>
+-----------------------
+#じゃあ聞くが、あんた
+#<Kyle>が「仲間だ」って
+#言ったとき、だまってたよな
+Then answer me this.
+When <Kyle> said we were 'comrades',
+you just kept quiet.
+-----------------------
+<Loni>
+-----------------------
+#仲間じゃないと思ってたら
+#「ちがう」って、ハッキリ言うはずだぜ
+#あんたの性格ならな
+If you really thought we weren't,
+you'd have said so flat-out.
+That's just how you are.
+-----------------------
+<Judas>
+-----------------------
+#それは、ただ単に
+#言うタイミングが
+#なかっただけで････
+I simply...
+didn't have the chance
+to say anything... That's all.
+-----------------------
+<Kyle>
+-----------------------
+#それにさ、ダリルシェイドで
+#別れたときに
+#なんか言いかけてたよね？
+Besides, back in Darilsheid
+when we split up,
+you were about to say something, weren't you?
+-----------------------
+<Kyle>
+-----------------------
+#あれって、「いっしょに行こう」って
+#言いかけたんでしょ？
+#うん、ぜったいそうに、決まってるよ！
+You were gonna say 'Let's go together,' right?
+That's totally what it was!
+Yeah, I'm sure of it!
+-----------------------
+<Judas>
+-----------------------
+#それは････
+That was...
+-----------------------
+<Judas>
+-----------------------
+#････さっきのように
+#また、ロクでもないことに
+#巻きこまれるかもしれんぞ
+...Just like before,
+you may get dragged into
+more trouble than you bargained for.
+-----------------------
+<Judas>
+-----------------------
+#それでも････いいのか？
+Even so... are you sure?
+-----------------------
+<Kyle>
+-----------------------
+#英雄は困難を恐れない！
+#むしろ、望むところさ！
+A hero fears no hardship!
+Bring it on, I say!
+-----------------------
+<Loni>
+-----------------------
+#俺は、こんな能天気なヤツと
+#いっしょに旅をしてるんだぜ？
+#つまり最初っから、ロクでもないんだ
+I'm traveling with this carefree doofus, yeah?
+So I've been in nothing but trouble
+from day one.
+-----------------------
+<Loni>
+-----------------------
+#ロクでもないことが
+#今さら、ひとつやふたつ増えたって
+#かまいやしねえよ
+What's one or two more messes
+at this point?
+Won't make a lick of difference.
+-----------------------
+<Reala>
+-----------------------
+#困難に巻きこむということなら
+#わたしも同じだと思います
+#だから、わたしは気にしません
+If it means being drawn into hardship,
+then I feel the same way.
+So I don't mind at all.
+-----------------------
+<Judas>
+-----------------------
+#････バカ者どもが
+#あとで後悔しても知らんぞ
+...You fools.
+Don't come crying to me when you regret it.
+-----------------------
+<Kyle>
+-----------------------
+#それじゃ、決まり！
+#よろしくね、<Judas>！
+Then it's settled!
+Welcome aboard, <Judas>!
+-----------------------
+<Loni>
+-----------------------
+#んじゃ、仲間も
+#そろったことだし
+#出発しますか
+Well then, looks like the gang's
+all here.
+Shall we get going?
+-----------------------
+<Kyle>
+-----------------------
+#でも、どこに行こう？
+#<Reala>、あてはあるの？
+But where should we go?
+<Reala>, do you have any ideas?
+-----------------------
+<Reala>
+-----------------------
+#ひとつだけあるわ
+#まだ会っていない英雄････
+#ハイデルベルグのウッドロウ王よ
+I have one.
+A hero I haven't met yet...
+King Garr of Heidelberg.
+-----------------------
+<Loni>
+-----------------------
+#四英雄のひとり、英雄王ウッドロウか
+#確かに、スタンさんと並んで
+#もっとも英雄と呼ぶに、ふさわしい人だな
+One of the Four Heroes, the Hero King Garr?
+Yeah, he and Stahn-san are definitely
+the most worthy of the title.
+-----------------------
+<Judas>
+-----------------------
+#とすると、港から船に乗り
+#スノーフリアで降りて
+#ハイデルベルグに向かうことになるな
+That means taking a ship from the port,
+disembarking at Frostheim,
+and making for Heidelberg.
+-----------------------
+<Kyle>
+-----------------------
+#船旅かぁ････！
+A voyage, huh...!
+-----------------------
+<Loni>
+-----------------------
+#じゃあさっそく、行くとするか！
+#港は、たしか
+#アイグレッテの東だったはずだ
+Then let's get moving!
+The harbor should be
+east of Aigrette, if I recall.
+-----------------------
+<Kyle>
+-----------------------
+#よ～し、まずは港に行って
+#そこから、スノーフリアを目指そう！
+Alright, first stop: the harbor!
+From there, we set sail for Frostheim!
+-----------------------
+notice
+-----------------------
+#<Reala>が仲間になりました
+<Reala> has joined the party.
+-----------------------
+notice
+-----------------------
+#<Judas>が仲間になりました
+<Judas> has joined the party.
+-----------------------
+NOTICE
+-----------------------
+#<item:00000041>を手に入れました
+Acquired <item:00000041>.
+-----------------------
+#いってらっしゃいませ
+Have a good day.
+-----------------------
+#<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
+#お泊まりになりますか？
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+Would you like to stay?
+-----------------------
+#お泊まりになりますか？
+Would you like to stay?
+-----------------------
+select
+-----------------------
+#<03:00000000>　はい　
+#　いいえ　
+<03:00000000> Yes
+No
+-----------------------
+#ごゆっくりお休みください
+Have a good night.
+-----------------------
+#おはようございます
+Good morning.
+-----------------------
+#お金が足りません
+Not enough money.
+-----------------------
+#またのおこしをお待ちしております
+Please come again.
+-----------------------
+set_parameter( myself, C_PARTY, 0 );
+-----------------------
+wait_map_scroll();
+-----------------------
+exit-party_togather( short spd )
+-----------------------
+#衛兵
+Guard
+-----------------------
+notice
+-----------------------
+#{16}{26}{22}{C0}を手に入れました
+Acquired {16}{26}{22}{C0}.
+-----------------------
+notice
+-----------------------
+#<item:FFFFFFFF>を手に入れました
+Acquired <item:FFFFFFFF>.
+-----------------------
+notice
+-----------------------
+#{16}{26}{2A}{C0}がありましたが
+#いっぱいで持てませんでした
+Found {16}{26}{2A}{C0}, but
+your inventory is full.
+-----------------------
+notice
+-----------------------
+#何もありません
+There's nothing here.
+-----------------------

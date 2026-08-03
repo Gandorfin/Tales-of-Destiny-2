@@ -1,0 +1,540 @@
+#ノイシュタット
+Neuestadt
+-----------------------
+#ノイシュタット
+Neuestadt
+-----------------------
+#悪趣味な金色のトロフィーが飾られている
+A gaudy golden trophy is on display.
+-----------------------
+#これ見よがしに宝石が飾られている
+Jewelry is displayed for all to see.
+-----------------------
+#高価そうな陶器が自慢げに展示されている
+Expensive-looking pottery sits proudly on display.
+-----------------------
+NOTICE
+-----------------------
+#<item:00000189>を手に入れました
+Acquired <item:00000189>.
+-----------------------
+#高そうな葉巻が机の上に置かれている
+An expensive-looking cigar sits on the desk.
+-----------------------
+#商人
+#Businessman
+-----------------------
+#「オベロン社廃坑」は
+#この街の西にあります
+The "Oberon Company Abandoned Mine" is
+located to the west of this town.
+-----------------------
+#商人
+#Businessman
+-----------------------
+#南の海岸線に沿って
+#白雲の尾根の中を進めば
+#すぐ見付かるはずです
+Follow the southern coastline,
+head through the White Cloud Ridge,
+and you should find it right away.
+-----------------------
+<Kyle>
+-----------------------
+#わかった！
+#必ず、宝物を
+#取ってくるよ！
+Got it!
+I'll definitely get that treasure
+and bring it back!
+-----------------------
+#商人
+#Businessman
+-----------------------
+#「オベロン社廃坑」は
+#この街の西にあります
+The "Oberon Company Abandoned Mine" is
+located to the west of this town.
+-----------------------
+#商人
+#Businessman
+-----------------------
+#南の海岸線に沿って
+#白雲の尾根の中を進めば
+#すぐ見付かるはずです
+Follow the southern coastline,
+head through the White Cloud Ridge,
+and you should find it right away.
+-----------------------
+#商人
+#Businessman
+-----------------------
+#トホホホ････
+#あの巨大企業オベロン社の宝が
+#こんなガラクタだったなんて････
+*Sigh*...
+To think the treasure of that massive corporation, Oberon,
+would turn out to be nothing but junk...
+-----------------------
+<Loni>
+-----------------------
+#気の毒だったな、おっさん
+#ま、そのうち、いいことあるって
+Tough luck, old man.
+Well, good things'll come your way eventually.
+-----------------------
+#商人
+#Businessman
+-----------------------
+#くぅ～っ！
+#苦労して手に入れた
+#遺言状がぁっ！！
+Grrr!
+After all the trouble I went through to get it,
+my will...!!
+-----------------------
+#商人
+#Businessman
+-----------------------
+#ホーホッホッホッ
+#こんなすばらしい武芸者に会えるとは
+#ついてますなぁ
+Hohoho!
+To think I'd meet such a magnificent martial artist.
+I'm a lucky man indeed.
+-----------------------
+#商人
+#Businessman
+-----------------------
+#どういうことなんですか！
+#わたしもひと口のせてくれると
+#おっしゃったのにぃ～っ
+What do you mean!
+You said you'd let me in on it too!
+You promised~!
+-----------------------
+#商人
+#Businessman
+-----------------------
+#彼が紙をわたせと言ったから
+#遺言状のことだと思って
+#わたしたんですよ
+He told me to hand over the paper,
+so I thought it was about his will
+and handed it over.
+-----------------------
+#商人
+#Businessman
+-----------------------
+#そしたら、それをひったくって
+#そのままトイレに駆けこむなんて････
+Then he snatched it from me
+and bolted straight for the bathroom...
+-----------------------
+#雑貨屋
+General Store
+-----------------------
+#いらっしゃいませ？
+Welcome.
+-----------------------
+#ありがとうございました
+Thank you very much.
+-----------------------
+#またおこしください
+Please come again.
+-----------------------
+#雑貨屋
+General Store
+-----------------------
+#メイド
+Maid
+-----------------------
+#この先はご主人様の私室となっております
+#申し訳ありませんが、お客様はお引き取り下さい
+Beyond here is my master's private quarters.
+I apologize, but I must ask you to leave.
+-----------------------
+#商人
+#Businessman
+-----------------------
+#おお、お待ちしておりましたぞ！
+#必ず来てくださるものと
+#信じておりました！
+Ah, I've been waiting for you!
+I was certain
+that you would come!
+-----------------------
+<Kyle>
+-----------------------
+#あったりまえさ！
+#困っている人を助けるのも
+#英雄たるものの使命だからね
+Of course!
+Helping those in need is
+a hero's duty, after all!
+-----------------------
+<Loni>
+-----------------------
+#････で、俺たちに
+#頼みたいことってのはなんだ？
+...So, what is it
+you want from us?
+-----------------------
+#商人
+#Businessman
+-----------------------
+#実はですな
+#以前、この街にオベロン社という
+#大企業の支部がありまして････
+The truth is...
+there used to be a branch office in this town
+belonging to a major corporation called Oberon...
+-----------------------
+#商人
+#Businessman
+-----------------------
+#先の大乱でオベロン社が消滅したあと
+#そこの金庫に収められていた宝も
+#霧のように消え失せてしまいました
+After Oberon Corporation was wiped out in the Great War,
+the treasures stored in their vaults
+vanished like mist.
+-----------------------
+#商人
+#Businessman
+-----------------------
+#ところが、私が調べましたところ
+#その宝が街の近くの廃坑に
+#眠っていることがわかったのです
+However, upon investigation,
+I discovered that the treasure
+was sleeping in an abandoned mine near town.
+-----------------------
+<Loni>
+-----------------------
+#つまり、「その宝を
+#廃坑から取ってきてほしい」
+#そういうわけか？
+In other words, you want us to
+"bring back that treasure from the abandoned mine."
+That about right?
+-----------------------
+#商人
+#Businessman
+-----------------------
+#お礼はいくらでもいたしますゆえ
+#なにとぞ、なにとぞ
+#よろしくお願い申し上げます
+I will repay you generously,
+so please, I beg of you...
+I humbly request your assistance.
+-----------------------
+<Judas>
+-----------------------
+#････貴様、どこからかぎつけた？
+#彼女の遺言状にしか記されていないことを
+#貴様がなぜ知っている？
+...How did you figure that out?
+How do you know something
+recorded nowhere but in her will?
+-----------------------
+#商人
+#Businessman
+-----------------------
+#イ、イレーヌさまの遺言状など
+#私どもは、つゆと存じ上げません！
+#すべて、偶然に知ったことでして････
+W-we know nothing of Lady Irene's will!
+Nothing at all!
+It was all merely a coincidence...
+-----------------------
+<Judas>
+-----------------------
+#おかしいな、僕は「彼女」と言っただけだ
+#イレーヌなどとは
+#一言も言っていないぞ？
+That's strange. I only said "her."
+I never said a word
+about anyone named Irene.
+-----------------------
+#商人
+#Businessman
+-----------------------
+#そ、それは････
+Th-that's...
+-----------------------
+<Loni>
+-----------------------
+#おいおい、<Judas>
+#なにつっかかってんだよ！
+#おっさん、おびえてるだろうが
+Hey, hey, <Judas>,
+what's with the third degree?
+The old man's terrified.
+-----------------------
+<Judas>
+-----------------------
+#おびえている？
+#図星をつかれて
+#あわてているだけだろうが
+Terrified?
+He's panicking because
+I hit the nail on the head.
+-----------------------
+#商人
+#Businessman
+-----------------------
+#ず、図星などとは、いいがかりだ！
+#こんなことなら
+#この話、なかったことに････
+H-hit the nail on the head?! That's slander!
+If I'd known it would come to this,
+I'd have pretended this conversation never happened...
+-----------------------
+<Kyle>
+-----------------------
+#わ～～っ！
+#と、とにかく！
+#宝を取ってくれば、いいんだよね？
+Waaah!
+A-anyway!
+I just need to get the treasure, right?
+-----------------------
+#商人
+#Businessman
+-----------------------
+#････まぁ、そうですが
+#しかし････
+...Well, yes, but...
+-----------------------
+<Kyle>
+-----------------------
+#よし、わかった！
+#待っててよ、おじさん
+#オレたちが必ず持って帰って来るから！
+All right, got it!
+Just wait here, mister!
+We'll definitely bring it back!
+-----------------------
+#商人
+#Businessman
+-----------------------
+#オベロン社跡地の
+#この屋敷を買い取ったら
+#金庫に遺言状が入っておってな
+When I bought this mansion
+on the old Oberon Company site,
+there was a will in the safe.
+-----------------------
+#商人
+#Businessman
+-----------------------
+#それにしても、あのバカども
+#ちょっとおだてたら、飛んで行きよった
+Still, those idiots...
+A little flattery and off they flew.
+-----------------------
+#商人
+#Businessman
+-----------------------
+#ヤツらが途中でのたれ死んだところで
+#こっちの被害は１ガルドもない
+#我ながら、うまくしてやったものだ
+Even if they drop dead halfway there,
+we won't lose a single gald.
+I must say, I played that quite well.
+-----------------------
+#商人
+#Businessman
+-----------------------
+#あいかわらず、商売上手でいらっしゃる
+#あやかりたいものですなぁ
+#ホーホッホッホッ！
+Sharp as ever in business, I see.
+I could stand to learn from you.
+Hohoho!
+-----------------------
+#商人
+#Businessman
+-----------------------
+#おお、お待ちしておりましたぞ！
+#ケガなどされていないかと
+#そればかり心配で････
+Oh, I've been waiting for you!
+I was so worried you might have been injured...
+That's all I could think about...
+-----------------------
+<Loni>
+-----------------------
+#ケッ、ウソこけ！
+Tch, like hell you were!
+-----------------------
+#商人
+#Businessman
+-----------------------
+#ところで、お約束の品は
+#持ち帰って、いただけましたかな？
+Now then, about the item we agreed upon...
+Were you able to bring it back?
+-----------------------
+<Kyle>
+-----------------------
+#ああ、もちろんさ！
+#ほらっ、これ！
+Yeah, of course!
+Here, take it!
+-----------------------
+#商人
+#Businessman
+-----------------------
+#････これが
+#本当に宝なのですか？
+...This is...
+Is this truly the treasure?
+-----------------------
+<Loni>
+-----------------------
+#これしか、それらしいものは
+#なかったぜ？
+This was the only thing that looked like treasure, alright?
+-----------------------
+#商人
+#Businessman
+-----------------------
+#････あの、これはいったい
+#なんなんでしょうか？
+...Um, what in the world
+is this supposed to be?
+-----------------------
+<Kyle>
+-----------------------
+#知らない！
+No idea!
+-----------------------
+<Loni>
+-----------------------
+#俺たちは、ただ宝を持ってこいと
+#言われただけなんでねぇ
+We were just told to bring back some treasure.
+That's it.
+-----------------------
+<Judas>
+-----------------------
+#････ふっ
+...Hmph.
+-----------------------
+#商人
+#Businessman
+-----------------------
+#そ、それはそうですが････
+W-well, that may be so, but...
+-----------------------
+<Loni>
+-----------------------
+#さ、約束のモノは持ってきたんだ
+#報酬をいただきたいんだが？
+Anyway, we brought what you asked for.
+So how about that reward?
+-----------------------
+#商人
+#Businessman
+-----------------------
+#････し、しかし
+#なんなのか、わからないものでは
+#宝とは呼べないのではないかと････
+...B-but...
+If we don't even know what it is...
+Can one really call it treasure...?
+-----------------------
+<Judas>
+-----------------------
+#････この期におよんで
+#まだなにか
+#持ってこいと言うのか？
+...At this point,
+are you still going to demand
+we bring you something else?
+-----------------------
+#商人
+#Businessman
+-----------------------
+#ひっ！
+#な、な、なんでもありませんっ！
+#どどどど、どうぞお受け取りを！
+Eek!
+N-n-nothing! I said nothing!
+P-p-p-please, take this!
+-----------------------
+notice
+-----------------------
+#<0B:00000001><num:00000BB8><0B:00000000>ガルドを手に入れました
+<0B:00000001><num:00000BB8><0B:00000000>Gald acquired.
+-----------------------
+<Kyle>
+-----------------------
+#やったぁ！
+All right!
+-----------------------
+<Loni>
+-----------------------
+#んじゃ、そういうことで
+Well then, we're outta here.
+-----------------------
+#いってらっしゃいませ
+Have a good day.
+-----------------------
+#<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
+#お泊まりになりますか？
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald per night.
+Would you like to stay?
+-----------------------
+#お泊まりになりますか？
+Would you like to stay?
+-----------------------
+select
+-----------------------
+#<03:00000000>　はい　
+#　いいえ　
+<03:00000000> Yes
+No
+-----------------------
+#ごゆっくりお休みください
+Have a good night.
+-----------------------
+#おはようございます
+Good morning.
+-----------------------
+#お金が足りません
+Not enough money.
+-----------------------
+#またのおこしをお待ちしております
+We look forward to your next visit.
+-----------------------
+set_parameter( myself, C_PARTY, 0 );
+-----------------------
+wait_map_scroll();
+-----------------------
+exit-party_togather( short spd )
+-----------------------
+notice
+-----------------------
+#{16}{25}{BA}{C0}を手に入れました
+Acquired {16}{25}{BA}{C0}.
+-----------------------
+notice
+-----------------------
+#<item:FFFFFFFF>を手に入れました
+Acquired <item:FFFFFFFF>.
+-----------------------
+notice
+-----------------------
+#{16}{25}{C2}{C0}がありましたが
+#いっぱいで持てませんでした
+Found {16}{25}{C2}{C0}, but
+your inventory is full.
+-----------------------
+notice
+-----------------------
+#何もありません
+There's nothing here.
+-----------------------

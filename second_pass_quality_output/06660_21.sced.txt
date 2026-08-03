@@ -1,0 +1,149 @@
+#神のたまご・上層部
+Egg of God - Upper Layer
+-----------------------
+#神のたまご・上層部
+Egg of God - Upper Layer
+-----------------------
+<Nanaly>
+-----------------------
+#行き止まりみたいだね
+#それにしても、なんだいここは？
+#カベには鏡、床には変な模様････
+Looks like a dead end.
+What even is this place?
+Mirrors on the walls, strange patterns on the floor...
+-----------------------
+<Harold>
+-----------------------
+#床のは「デリスエンブレム」ね
+#歪められた時間と時空を正す魔法の紋章
+That on the floor is the 'Delis Emblem.'
+A magical seal that corrects distorted time and space.
+-----------------------
+<Loni>
+-----------------------
+#こっちの鏡は、なんだろうな
+#見たところ普通の鏡くさいが････
+What's with this mirror, though?
+Looks like any ordinary mirror to me...
+-----------------------
+<Loni>
+-----------------------
+#おわっ！
+#これ、ただの鏡じゃねえぞ！
+Whoa!
+This ain't just some ordinary mirror!
+-----------------------
+<Reala>
+-----------------------
+#････この鏡は
+#人の肉体ではなく
+#精神を映しているんだわ
+...This mirror
+doesn't reflect our physical bodies.
+It reflects the spirit.
+-----------------------
+<Kyle>
+-----------------------
+#精神を映す？
+The spirit?
+-----------------------
+<Reala>
+-----------------------
+#前に、エルレインに
+#夢を見させられた事があったでしょう？
+#あれと同じよ
+Remember before, when Elrane
+made you dream?
+It's the same thing.
+-----------------------
+<Reala>
+-----------------------
+#この鏡の中には
+#みんなの記憶を象った世界が
+#広がっている････
+Inside this mirror,
+a world shaped from all of our memories
+is waiting...
+-----------------------
+<Judas>
+-----------------------
+#記憶を象った世界か
+#ふん、どこまで歪められていることやら
+A world shaped from memories?
+Hmph. I can only imagine how distorted it is.
+-----------------------
+<Judas>
+-----------------------
+#大方、そのデリスエンブレムとかいう物で
+#歪みを戻せという事だろうが････
+Most likely, that 'Delis Emblem' or whatever
+is meant to restore the distortion.
+-----------------------
+<Kyle>
+-----------------------
+#この先にエルレインがいるのなら
+#先に進むだけさ
+#いこう、みんな！
+If Elrane's up ahead,
+we just keep moving forward.
+Let's go, everyone!
+-----------------------
+#いってらっしゃいませ
+Have a good day.
+-----------------------
+#<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
+#お泊まりになりますか？
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+Would you like to stay?
+-----------------------
+#お泊まりになりますか？
+Would you like to stay?
+-----------------------
+select
+-----------------------
+#<03:00000000>　はい　
+#　いいえ　
+<03:00000000> Yes
+No
+-----------------------
+#ごゆっくりお休みください
+Have a good night.
+-----------------------
+#おはようございます
+Good morning.
+-----------------------
+#お金が足りません
+Not enough money.
+-----------------------
+#またのおこしをお待ちしております
+See you again soon.
+-----------------------
+set_parameter( myself, C_PARTY, 0 );
+-----------------------
+wait_map_scroll();
+-----------------------
+exit-party_togather( short spd )
+-----------------------
+notice
+-----------------------
+#{16}{25}{BA}{C0}を手に入れました
+Acquired {16}{25}{BA}{C0}.
+-----------------------
+notice
+-----------------------
+#<item:FFFFFFFF>を手に入れました
+Acquired <item:FFFFFFFF>.
+-----------------------
+notice
+-----------------------
+#{16}{25}{C2}{C0}がありましたが
+#いっぱいで持てませんでした
+Found {16}{25}{C2}{C0}, but
+inventory is full already.
+-----------------------
+notice
+-----------------------
+#何もありません
+There's nothing here.
+-----------------------

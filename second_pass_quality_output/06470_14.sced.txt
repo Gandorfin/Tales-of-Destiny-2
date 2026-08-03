@@ -1,0 +1,92 @@
+#アイグレッテ
+Aigrette
+-----------------------
+#アイグレッテ
+Aigrette
+-----------------------
+#神団兵Ａ
+Order of Atamoni Soldier A
+-----------------------
+#おい、待て
+#ここから先は立ち入り禁止だ
+Hey, you! Halt!
+No trespassing beyond this point.
+-----------------------
+#神団兵Ｂ
+Order of Atamoni Soldier B
+-----------------------
+#バザーなどという場所は
+#フォルトゥナ神の威光に
+#そぐわないからな
+A bazaar is no place
+for the glory of the goddess
+Fortuna to be found.
+-----------------------
+#神団兵Ｃ
+Order of Atamoni Soldier C
+-----------------------
+#この区画はまるごと再開発する事に決まった
+#従って、関係者以外を通すわけには
+#いかんのだ
+This entire district
+has been slated for redevelopment.
+Unauthorized personnel are not permitted entry.
+-----------------------
+#いってらっしゃいませ
+Have a good day.
+-----------------------
+#<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
+#お泊まりになりますか？
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+Would you like to stay?
+-----------------------
+#お泊まりになりますか？
+Would you like to stay?
+-----------------------
+select
+-----------------------
+#<03:00000000>　はい　
+#　いいえ　
+<03:00000000> Yes
+No
+-----------------------
+#ごゆっくりお休みください
+Have a good night.
+-----------------------
+#おはようございます
+Good morning.
+-----------------------
+#お金が足りません
+Not enough money.
+-----------------------
+#またのおこしをお待ちしております
+We look forward to your next visit.
+-----------------------
+set_parameter( myself, C_PARTY, 0 );
+-----------------------
+wait_map_scroll();
+-----------------------
+exit-party_togather( short spd )
+-----------------------
+notice
+-----------------------
+#{16}{25}{BA}{C0}を手に入れました
+Acquired {16}{25}{BA}{C0}.
+-----------------------
+notice
+-----------------------
+#<item:FFFFFFFF>を手に入れました
+Acquired <item:FFFFFFFF>.
+-----------------------
+notice
+-----------------------
+#{16}{25}{C2}{C0}がありましたが
+#いっぱいで持てませんでした
+Found {16}{25}{C2}{C0}, but
+your inventory is full.
+-----------------------
+notice
+-----------------------
+#何もありません
+There's nothing here.
+-----------------------

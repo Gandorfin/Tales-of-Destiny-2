@@ -1,0 +1,379 @@
+#定期船
+Ferry
+-----------------------
+#定期船
+Ferry
+-----------------------
+<char:000003E8>
+-----------------------
+#これは！
+What's this?!
+-----------------------
+NOTICE
+-----------------------
+#ＴＯＥのクイズ問題を見つけました！
+Found a TOE quiz question!
+-----------------------
+NOTICE
+-----------------------
+#クイズ本に新しいジャンルが追加されました
+A new genre was added to the quiz book.
+-----------------------
+#メモ帳になにか書かれている････
+#『グミなんて大キライだ！
+#　オレは絶対、戦闘中にグミは食べないぞ！
+#　そうすれば称号････』
+There's something written in the notepad...
+'I hate gummies! Hate 'em!'
+'I'm never eating gummies in battle, no matter what!'
+'That way, I'll get the title...'
+-----------------------
+<Loni>
+-----------------------
+<Loni>
+-----------------------
+<Reala>
+-----------------------
+<Reala>
+-----------------------
+<Judas>
+-----------------------
+<Judas>
+-----------------------
+<Loni>
+-----------------------
+#船内ではおのおの
+#自由行動でいいよな？
+#じゃ、そういうことで
+While we're on the ship,
+everyone's free to do their own thing, right?
+Well, later then.
+-----------------------
+<Kyle>
+-----------------------
+#どこ行くの、<Loni>？
+Where you off to, <Loni>?
+-----------------------
+<Loni>
+-----------------------
+#<Kyle>、おまえは
+#知らないだろうから
+#教えといてやる
+<Kyle>, you probably
+don't know about this, so
+lemme teach you.
+-----------------------
+<Loni>
+-----------------------
+#旅というのは
+#人を開放的な気分に
+#させるものだ
+Travel's got a way of
+putting people in an open,
+free-spirited mood.
+-----------------------
+<Kyle>
+-----------------------
+#うんうん
+Uh-huh, uh-huh.
+-----------------------
+<Loni>
+-----------------------
+#行きずりの恋人たち
+#ただ一度の逢瀬････
+Strangers who become lovers,
+a single, fleeting tryst...
+-----------------------
+<Loni>
+-----------------------
+#だが、次がないからこそ
+#恋の炎は激しく燃えあがるんだ！
+#わかるか？
+But it's precisely because there's no next time
+that the flames of passion burn so fierce!
+You get it?
+-----------------------
+<Kyle>
+-----------------------
+#････つまり<Loni>は
+#ナンパしに行くんだね
+...So basically, <Loni>'s
+gonna go hit on some girls.
+-----------------------
+<Loni>
+-----------------------
+#そんな顔すんなよ
+#それに、開放的な気分にさせるってのは
+#あながち間違ってないと思うぜ
+Don't give me that look.
+And hey, putting people in an open mood?
+Not entirely wrong, if you ask me.
+-----------------------
+<Loni>
+-----------------------
+#ためしに、<Reala>でも
+#誘ってみたらどうだ？
+#イイ感じになれるかもしれないぜ
+Why don'tcha try inviting <Reala>?
+Might put you in a good mood too.
+-----------------------
+<Kyle>
+-----------------------
+#おっ、オレは別に
+#そんなんじゃ！
+Wha-- I'm not--
+like that!
+-----------------------
+<Loni>
+-----------------------
+#<Reala>に会ったら
+#お前が探してたって言っといてやるよ
+#んじゃな！
+If I see <Reala>,
+I'll tell 'em you were looking.
+See ya!
+-----------------------
+notice
+-----------------------
+#<Loni>は
+#称号「<item:0000081E>」を得ました
+<Loni> obtained
+the title "<item:0000081E>"!
+-----------------------
+<Judas>
+-----------------------
+#････まったく
+#ところかまわず、騒がしいヤツだ
+...Honestly.
+That man makes noise no matter where he goes.
+-----------------------
+<Kyle>
+-----------------------
+#あれ？　<Judas>も
+#行っちゃうの？
+Huh? <Judas>'s
+leaving too?
+-----------------------
+<Judas>
+-----------------------
+#ひとりで考え事がしたい
+#ついてくるなよ
+I wish to think alone.
+Do not follow me.
+-----------------------
+<Kyle>
+-----------------------
+#さて、どうしようかな････
+Now then, what should I do...
+-----------------------
+<Kyle>
+-----------------------
+#ボーっとしてるのも退屈だな････
+Just spacing out is boring too...
+-----------------------
+<Kyle>
+-----------------------
+#<Loni>も<Judas>も
+#どこ行っちゃったんだろ？
+<Loni> and <Judas> both--
+where'd they run off to?
+-----------------------
+<Loni>
+-----------------------
+#ちょっと　こいつに
+#聞きたいことがあってな
+#悪いが　おまえもここにいてくれ
+I've got something I wanna ask this guy.
+Sorry, but I need you to stick around too.
+-----------------------
+<Loni>
+-----------------------
+#得体の知れないヤツだとは思っていたが
+#今度の件で　それがハッキリした
+I always knew there was something off about him,
+but this whole mess made it crystal clear.
+-----------------------
+<Loni>
+-----------------------
+#最初に不審に思ったのは
+#おまえがスタンさんを知っていたことだ
+#それも　かなりくわしくな
+First thing that struck me as odd was
+that you knew Stahn.
+And in real detail, too.
+-----------------------
+<Loni>
+-----------------------
+#次に引っかかったのは
+#イレーヌ＝レンブラントを
+#しかも　彼女の遺言を知っていたことだ
+Next thing that got me was
+Irene Rembrandt.
+The fact you knew her will, on top of everything.
+-----------------------
+<Loni>
+-----------------------
+#スタンさんは先の大乱の英雄だし
+#オベロン社の幹部だったイレーヌは
+#その崩壊と共に　自ら命を絶ったはず････
+Stahn's a hero from the last great war,
+and Irene was an Oberon Corp. exec
+who took her own life when the company collapsed...
+-----------------------
+<Loni>
+-----------------------
+#おまえがふたりと知り合うのは
+#歳を考えると実に不自然なことだ
+For someone your age to know both of 'em?
+That's downright unnatural.
+-----------------------
+<Loni>
+-----------------------
+#思うに素顔をかくすのは
+#そのあたりに原因があるようだな
+#どうだ　ちがうか　<Judas>？
+I figure hiding your real face
+has something to do with all that.
+Am I wrong, <Judas>?
+-----------------------
+<Judas>
+-----------------------
+#それについては　すでに結論が出たはずだ
+#僕が何者だろうと仲間として信用すると
+We already settled that matter.
+You agreed to trust me as a comrade, regardless of who I am.
+-----------------------
+<Loni>
+-----------------------
+#わかった上で　あえて聞いている
+#俺はただ　真実が知りたいだけだ
+I know that, and I'm asking anyway.
+I just want the truth.
+-----------------------
+<Judas>
+-----------------------
+#どうしてもと言うなら
+#彼女に協力してもらうしかないな
+#それが合理的な説明を行う唯一の術だ
+If you insist,
+I suppose I'll need her cooperation.
+It's the only way to give a rational explanation.
+-----------------------
+<Reala>
+-----------------------
+#わ　わたしは････！
+I... I...!
+-----------------------
+<Kyle>
+-----------------------
+#もう　やめろよ　<Loni>！
+That's enough, <Loni>!
+-----------------------
+<Kyle>
+-----------------------
+#オレは<Judas>のこと
+#信じるって決めたし
+#<Loni>にもそうして欲しいんだ！
+I decided to trust <Judas>,
+and I want you to do the same
+for <Loni>!
+-----------------------
+<Kyle>
+-----------------------
+#ここまで旅を続けられたのだって
+#おたがいを信じられたからじゃないか！
+We've made it this far on our journey
+because we've trusted each other, haven't we?!
+-----------------------
+<Loni>
+-----------------------
+#わかった　おまえの言うとおりだ
+#この話はお預けだ
+#悪かったな　<Judas>
+All right, you're right.
+This conversation's on hold.
+Sorry, <Judas>.
+-----------------------
+<Loni>
+-----------------------
+#気分直しに船の中でも
+#ひとまわりするか
+#行こうぜ　<Kyle>
+Guess I'll take a walk around the ship
+to clear my head.
+C'mon, <Kyle>.
+-----------------------
+<Kyle>
+-----------------------
+#<Loni>と<Judas>の居場所が
+#わかったのはいいけど････
+I figured out where <Loni> and <Judas> are,
+but...
+-----------------------
+<Kyle>
+-----------------------
+#なんか、肝心なこと
+#全然聞いてないよな
+#<Reala>、どこにいるんだろ？
+Y'know, I feel like the important stuff
+totally went in one ear and out the other.
+Where do you think <Reala> is?
+-----------------------
+#いってらっしゃいませ
+Welcome.
+-----------------------
+#<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
+#お泊まりになりますか？
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald per night.
+Would you like to stay?
+-----------------------
+#お泊まりになりますか？
+Would you like to stay?
+-----------------------
+select
+-----------------------
+#<03:00000000>　はい　
+#　いいえ　
+<03:00000000> Yes
+No
+-----------------------
+#ごゆっくりお休みください
+Please rest well.
+-----------------------
+#おはようございます
+Good morning.
+-----------------------
+#お金が足りません
+Not enough money.
+-----------------------
+#またのおこしをお待ちしております
+We look forward to your next visit.
+-----------------------
+set_parameter( myself, C_PARTY, 0 );
+-----------------------
+wait_map_scroll();
+-----------------------
+exit-party_togather( short spd )
+-----------------------
+notice
+-----------------------
+#{16}{25}{BA}{C0}を手に入れました
+Acquired {16}{25}{BA}{C0}.
+-----------------------
+notice
+-----------------------
+#<item:FFFFFFFF>を手に入れました
+Acquired <item:FFFFFFFF>.
+-----------------------
+notice
+-----------------------
+#{16}{25}{C2}{C0}がありましたが
+#いっぱいで持てませんでした
+Found {16}{25}{C2}{C0}, but
+your inventory is full.
+-----------------------
+notice
+-----------------------
+#何もありません
+There's nothing here.
+-----------------------

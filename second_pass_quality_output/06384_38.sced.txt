@@ -1,0 +1,1182 @@
+#ストレイライズ大神殿
+Straylize Grand Temple
+-----------------------
+#ストレイライズ大神殿
+Straylize Grand Temple
+-----------------------
+#ストレイライズ神殿
+Straylize Temple
+-----------------------
+#ストレイライズ神殿
+Straylize Temple
+-----------------------
+#ストレイライズ大神殿
+Straylize Grand Temple
+-----------------------
+#ストレイライズ神殿
+Straylize Temple
+-----------------------
+NOTICE
+-----------------------
+#石碑に文字が彫られています
+Characters are carved into the stone monument.
+-----------------------
+<Harold>
+-----------------------
+#読んだげよっか？
+Want me to read it for you?
+-----------------------
+select
+-----------------------
+#<03:00000000>　読んでもらう　
+#　興味無い　
+<03:00000000>Have her read it.
+Not interested.
+-----------------------
+NOTICE
+-----------------------
+#砂漠の大陸、燃え盛る火の中
+#白く険しき山の中腹
+#絶海に沈みし偶像の上
+#巨石文明の名残１
+The desert continent, amidst blazing flames
+The white, rugged mountainside
+The idol sunk in the boundless sea
+Remnants of the megalithic civilization 1
+-----------------------
+NOTICE
+-----------------------
+#巨石文明の名残２
+#深き緑に覆われし湖のほとり
+#人の訪れぬ白い島、緑の園
+#異国の地、大地をえぐる円
+Remnants of the megalithic civilization 2
+By the shores of a lake shrouded in deep green
+A white island untouched by man, a garden of verdant life
+A foreign land, a circle gouging into the earth
+-----------------------
+NOTICE
+-----------------------
+#霧の混じる島
+#地図に載らぬ島
+#小さな小屋のうしろ
+#人の手が及ばぬ島々
+An island shrouded in mist
+An island uncharted on maps
+Behind a small hut
+Islands beyond human reach
+-----------------------
+NOTICE
+-----------------------
+#霧深き大地で最も高き所にある草原
+#霧深き山の懐
+#　　　そこで不吉の証を手に入れよ
+The highest grassland in all the mist-shrouded land
+Within the depths of the foggy mountains
+There, obtain the sign of ill omen.
+-----------------------
+NOTICE
+-----------------------
+#石碑に文字が彫られていますが
+#難しくて読めません
+Characters are carved into the stone monument,
+but they're too difficult to read.
+-----------------------
+#神官
+Priest
+-----------------------
+#ようこそ　ストレイライズ大神殿へ････
+#レンズの寄進にいらしたんですか？
+Welcome to the Straylize Grand Temple...
+Have you come to donate Lens?
+-----------------------
+#神官
+Priest
+-----------------------
+#レンズの寄進でしたら
+#奥の大神殿のほうに　どうぞ
+#アタモニ神のご加護がありますように
+If you've come to donate Lens,
+please head to the inner grand temple.
+May Lord Atamoni's blessing be upon you.
+-----------------------
+#神官
+Priest
+-----------------------
+#お気をつけください
+#どうやら　神殿内に
+#何者かが侵入したようです
+Please be careful.
+It seems someone has
+broken into the temple.
+-----------------------
+#神官
+Priest
+-----------------------
+#神殿に近づくと危険です！
+#安全な場所に　避難してください
+It's dangerous to approach the temple!
+Please evacuate to a safe location.
+-----------------------
+#神官
+Priest
+-----------------------
+#どうやら　賊は退散したようです
+#これも　すべて
+#アタモニ神のおかげですね
+It seems the bandits have scattered.
+This too is all...
+thanks to Lord Atamoni.
+-----------------------
+<Kyle>
+-----------------------
+#追いはらったのは
+#オレたちなんだけどな････
+We're the ones who drove them off, though...
+-----------------------
+#神官
+Priest
+-----------------------
+#きっと　神殿に侵入した賊には
+#アタモニ神の神罰がくだることでしょう
+Those who infiltrated the temple
+will surely face Lord Atamoni's divine punishment.
+-----------------------
+#神官
+Priest
+-----------------------
+#これから　大神殿で
+#重要な儀式が行われるので
+#参拝のほうは　ごエンリョください
+We are about to hold
+an important ceremony at the grand temple,
+so please refrain from visiting.
+-----------------------
+#神官
+Priest
+-----------------------
+#なにやら　騒がしかったですけど
+#儀式は　ぶじに終わったんでしょうか？
+It was quite noisy earlier, but...
+Did the ceremony end safely?
+-----------------------
+<Kyle>
+-----------------------
+#心配しなくても
+#オレたちが終わらせてやるさ････
+Don't worry.
+We'll put an end to it...
+-----------------------
+#神官
+Priest
+-----------------------
+#それは　それは
+#どなたか存じませぬが
+#ご協力ありがとうございます
+My, my...
+I do not know who you are, but
+thank you for your assistance.
+-----------------------
+#神官
+Priest
+-----------------------
+#ぶじに儀式が終わると　いいですねえ
+I do hope the ceremony ends safely.
+-----------------------
+#神官
+Priest
+-----------------------
+#レンズの寄進でしたら
+#奥の大神殿のほうに、どうぞ
+#アタモニ神のご加護がありますように
+If you've come to donate Lens,
+please head to the grand temple in the back.
+May Lord Atamoni's blessing be upon you.
+-----------------------
+#神官
+Priest
+-----------------------
+#このところ、エルレインさまの
+#お姿が、みえないんです
+I haven't seen Lady Elrane
+around here lately.
+-----------------------
+#神官
+Priest
+-----------------------
+#きっと
+#諸国の視察が
+#おいそがしいのでしょうね
+I'm sure
+her inspection tours of the various nations
+must keep her quite busy.
+-----------------------
+<Kyle>
+-----------------------
+#視察かどうか、わからないけど
+#いそがしいのは
+#たしかかもしれないな････
+Not sure if it's inspections or what,
+but she's definitely busy...
+that's for sure.
+-----------------------
+#神官
+Priest
+-----------------------
+#レンズの寄進でしたら
+#奥の大神殿のほうに、どうぞ
+#アタモニ神のご加護がありますように
+If you've come to donate Lens,
+please head to the grand temple in the back.
+May Lord Atamoni's blessing be upon you.
+-----------------------
+#神官
+Priest
+-----------------------
+#レンズの寄進でしたら
+#奥の大神殿のほうに、どうぞ
+#フォルトゥナ神のご加護がありますように
+If you've come to donate Lens,
+please head to the inner grand temple.
+May Fortuna's blessing be upon you.
+-----------------------
+#神官
+Priest
+-----------------------
+#このところ、エルレインさまの
+#お姿が、みえないんです
+We haven't seen
+Lady Elrane around lately.
+-----------------------
+#神官
+Priest
+-----------------------
+#きっと
+#諸国の視察が
+#おいそがしいのでしょうね
+I'm sure
+her inspection tours of the various nations
+must keep her quite busy.
+-----------------------
+<Kyle>
+-----------------------
+#視察かどうか、わからないけど
+#いそがしいのは
+#たしかかもしれないな････
+Not sure if it's inspections or what,
+but she's definitely busy...
+that's for sure.
+-----------------------
+#神官
+Priest
+-----------------------
+#レンズの寄進でしたら
+#奥の大神殿のほうに、どうぞ
+#フォルトゥナ神のご加護がありますように
+If you've come to donate Lens,
+please head to the grand temple in the back.
+May Fortuna's blessing be upon you.
+-----------------------
+#神官
+Priest
+-----------------------
+#フィリアさまなら
+#お部屋にいらっしゃると思います
+If you're looking for Lady Philia,
+I believe she's in her room.
+-----------------------
+#神官
+Priest
+-----------------------
+#フィリアさまなら
+#お部屋にいらっしゃるんじゃ
+#ないでしょうか
+If you're looking for Lady Philia,
+she should be in her room,
+shouldn't she?
+-----------------------
+#神官
+Priest
+-----------------------
+#わたしも、どちらかというと
+#エルレインさまより
+#フィリアさまのほうが････
+#あ、いえ、なんでもございません
+If I had to choose, I'd say
+I prefer Lady Philia
+to Lady Elrane...
+Oh, no, it's nothing.
+-----------------------
+#神官
+Priest
+-----------------------
+#あの知的な
+#メガネがなんともいえず････
+#あ、いえ、なんでもございません
+That intellectual air she has...
+And those glasses are simply divine...
+N-no, it's nothing!
+-----------------------
+#神官
+Priest
+-----------------------
+#どうぞ
+#ご自由に参拝なさってください
+Please,
+feel free to worship as you wish.
+-----------------------
+<Loni>
+-----------------------
+#参拝すると
+#ステキな女性に
+#めぐりあえたりするのか？
+If I come worship here,
+will I get to meet
+some lovely ladies?
+-----------------------
+#神官
+Priest
+-----------------------
+#それはもう
+#その人の努力次第ということで････
+Well, well...
+I'm afraid that all depends on the effort
+you put in yourself...
+-----------------------
+#神官
+Priest
+-----------------------
+#アタモニ神は
+#いつでも我々のことを
+#お見守りくださってます
+Lord Atamoni
+is always watching over us,
+guiding our way.
+-----------------------
+<Loni>
+-----------------------
+#見守るだけか････
+#もっとご利益あってもいいのにな
+Just watching, huh...
+You'd think there'd be more tangible perks.
+-----------------------
+#神官
+Priest
+-----------------------
+#幸せは
+#だれかにもらうものではなく
+#自分の手でつかむものですよ
+Happiness is
+not something given to you by others.
+It's something you seize with your own hands.
+-----------------------
+#神官
+Priest
+-----------------------
+#どうぞ、どうぞ
+#ご自由に参拝なさってください
+Please, please,
+feel free to worship as you wish.
+-----------------------
+#神官
+Priest
+-----------------------
+#････
+#････････ハッ！
+...
+......Huh!
+-----------------------
+#神官
+Priest
+-----------------------
+#寝てません！　寝てません！
+#ちょっと　メイソウにふけってただけです！
+#アタモニ神に誓って　わたしは････
+I wasn't sleeping! I wasn't sleeping!
+I was just... deeply meditating for a moment!
+I swear to Lord Atamoni, I...
+-----------------------
+#神官
+Priest
+-----------------------
+#････
+#････････グゥ････
+...
+......Zzz...
+-----------------------
+#神官
+Priest
+-----------------------
+#アワワワワワワワワワ････！
+#わたしが眠って････
+#いえ　メイソウにふけってる間に
+#神殿内が　大変なことに!!
+Waaaaah!
+I fell asleep...
+No, while I was meditating,
+the temple fell into chaos!!
+-----------------------
+#神官
+Priest
+-----------------------
+#あわてちゃダメだ！
+#こういうときこそ　冷静に････
+#大きく深呼吸をして････
+#スーハー　スーハー　スー　スー････
+Don't panic!
+This is exactly when I need to stay calm...
+Take a deep breath...
+Hooo... hooo... hoo... hoo...
+-----------------------
+<Kyle>
+-----------------------
+#いつの間にか
+#深呼吸が　寝息に変わってる････
+Before I knew it,
+those deep breaths turned into snoring...
+-----------------------
+<Loni>
+-----------------------
+#ある意味
+#大物かもしれんな････
+In a way,
+that takes real talent...
+-----------------------
+#神官
+Priest
+-----------------------
+#････
+#････････グゥ････
+...
+......Zzz...
+-----------------------
+#神官
+Priest
+-----------------------
+#わたしが眠って････
+#いえ　メイソウにふけってる間に
+#事件は解決したようです
+I fell asleep...
+No, while I was meditating,
+it seems the incident was resolved.
+-----------------------
+#神官
+Priest
+-----------------------
+#これで　安心して
+#また眠れるように････
+#あ　いえ　メイソウできるようになりました
+Now I can rest easy
+and get back to sleep...
+N-no, I can meditate again.
+-----------------------
+#神官
+Priest
+-----------------------
+#････
+#････････グゥ････
+...
+......Zzz...
+-----------------------
+#神官
+Priest
+-----------------------
+#････
+#････････ハッ！
+...
+......Huh!
+-----------------------
+#神官
+Priest
+-----------------------
+#寝てません！　寝てません！
+#大切な儀式の前に
+#ちょっと　メイソウにふけってただけです！
+I'm not asleep! I'm not asleep!
+I was just meditating a little
+before the important ceremony, that's all!
+-----------------------
+#神官
+Priest
+-----------------------
+#ふぅ････
+#さすがに儀式のときに
+#イネムリが見つかったら
+#破門されてしまうかも････
+Whew...
+If I got caught napping
+during the ceremony itself,
+I'd probably be excommunicated...
+-----------------------
+#神官
+Priest
+-----------------------
+#ウウウウウウウ････
+#どうですか！
+#儀式が終わるまで
+#イネムリせずに　持ちこたえましたよ
+Uuuuugh...
+How about that!
+I made it through the whole ceremony
+without dozing off once!
+-----------------------
+#神官
+Priest
+-----------------------
+#ウウウウウウウ････
+#儀式が終わるまでは
+#なんとしても　イネムリせずに
+#持ちこたえ････ね････ば････
+Uuuuugh...
+Not until the ritual's over...
+I absolutely cannot fall asleep...
+Hold on... just... hold... on...
+-----------------------
+#神官
+Priest
+-----------------------
+#････
+#････････グゥ････
+...
+......Zzz...
+-----------------------
+#信者
+Follower
+-----------------------
+#ハァー
+#たくさん寄進して　よかったのう
+#こんなジックリ　神殿内を見てまわれるなんて
+Ahhh...
+I'm so glad I donated so generously.
+To think I'd get to take my time touring the temple like this.
+-----------------------
+#信者
+Follower
+-----------------------
+#村に帰ったら
+#たくさん　となりのジイさんに
+#ジマンしてやらないとねえ
+When I get back to the village,
+I'll have to brag to that old man next door
+'til his ears fall off.
+-----------------------
+#信者
+Follower
+-----------------------
+#今度は　いつ来られるか　わからんから
+#この神殿の風景を
+#まぶたの裏まで　しっかり焼きつけとくんじゃ
+Who knows when I'll get to come again,
+so I'm burning every last detail
+of this temple into the back of my eyelids.
+-----------------------
+#信者
+Follower
+-----------------------
+#ねえ　あんた
+#なんだか　あわただしいけど
+#なにかあったのかい？
+Hey, you.
+Things seem pretty hectic around here.
+Did something happen?
+-----------------------
+#信者
+Follower
+-----------------------
+#ほんに　あわただしいのう
+#最近の若者は････
+#参拝くらい　静かにおこなえんもんかのう
+Truly hectic, indeed.
+Young people these days...
+Can't they even worship in peace and quiet?
+-----------------------
+#信者
+Follower
+-----------------------
+#村に帰る前に　もう一度
+#神殿を　すみずみまで見ていくんじゃ！
+#帰る途中に　忘れかねんからのう
+Before I head back to the village,
+I'm going to see every last corner of this temple!
+Can't be forgetting anything on the way home.
+-----------------------
+#信者
+Follower
+-----------------------
+#きっと　わしのミヤゲ話を聞いたら
+#となりのジイさん　たまげて
+#腰　ぬかすじゃろうなあ
+When that old man next door hears my souvenir stories,
+he's going to be so shocked
+he'll fall right over.
+-----------------------
+#信者
+Follower
+-----------------------
+#村に帰る前に　もう一度
+#神殿を　すみずみまで見ていくんじゃ！
+#帰る途中に　忘れかねんからのう
+Before I head back to the village,
+I'm going to see every last corner of this temple!
+Can't be forgetting anything on the way home.
+-----------------------
+#信者
+Follower
+-----------------------
+#ハァー
+#たくさん寄進して　よかったのう
+#こんなジックリ　神殿内を見てまわれるなんて
+Ahhh...
+I'm so glad I donated so generously.
+To think I'd get to take my time touring the temple like this.
+-----------------------
+#どうすれば、英雄に出会えるのですか!?
+#お願いです
+#教えてください、フィリアさん！
+How can I meet a hero!?
+Please!
+Tell me, Miss Philia!
+-----------------------
+<Kyle>
+-----------------------
+#この声････あの子だ！
+That voice... It's that girl!
+-----------------------
+<Loni>
+-----------------------
+#こりゃあマズいぞ、<Kyle>！
+This is bad, <Kyle>!
+-----------------------
+<Kyle>
+-----------------------
+#行こう、<Loni>！
+Let's go, <Loni>!
+-----------------------
+#参拝客
+Worshipper
+-----------------------
+#ねえ、あんた
+#神殿のほうが騒がしかったけど
+#なにかあったのかい？
+Hey there.
+The temple was pretty noisy earlier.
+Did something happen?
+-----------------------
+<Loni>
+-----------------------
+#ああ、ちょっとブッソウな参拝客が
+#来てたんだよ
+#もう帰ったけどな
+Ah, there was just a rowdy pilgrim
+who stopped by,
+but they already left.
+-----------------------
+#参拝客
+Worshipper
+-----------------------
+#ほんに、最近の若いモンは
+#参拝くらい
+#静かにできないのかのう････
+Honestly, young people these days...
+Can't they even manage
+to worship in peace and quiet...?
+-----------------------
+#参拝客
+Worshipper
+-----------------------
+#生きてるうちに、大神殿に
+#お参りにくることができるなんて
+#あたしゃ、幸せ者だねぇ
+To think I get to visit the Grand Temple
+while I'm still alive...
+I'm a lucky one, I am.
+-----------------------
+#参拝客
+Worshipper
+-----------------------
+#ウチに帰ったら、ジイさんに
+#うんとじまん話を
+#してやらないとねえ
+When I get back home,
+I've got to tell Grandpa
+all about my bragging rights.
+-----------------------
+#参拝客
+Worshipper
+-----------------------
+#ほぇ～～
+#空に、妙なモンが浮いとるのう
+#あれはいったい、なんじゃろうか？
+Oohhh...
+There's something strange floating up in the sky.
+What in the world could that be?
+-----------------------
+#参拝客
+Worshipper
+-----------------------
+#ほっほっほ
+#今日も、いいお天気だねぇ
+Heh heh heh...
+Lovely weather again today.
+-----------------------
+<Loni>
+-----------------------
+#ああ、そうだな
+#おばあちゃんは
+#お参りにきたのかい？
+Ah, that's right.
+Granny,
+did you come here to pray?
+-----------------------
+#参拝客
+Worshipper
+-----------------------
+#うんにゃ、ただの散歩だよ
+#天気のいい日は
+#ここまで散歩にくるのが日課でね
+Nope, just out for a stroll.
+On nice days like this,
+I make it my daily routine to walk this far.
+-----------------------
+#参拝客
+Worshipper
+-----------------------
+#ストレイライズ神殿までの散歩
+#それが、長生きのヒケツだよ
+A stroll to Straylize Temple
+is my secret to a long life.
+-----------------------
+#参拝客
+Worshipper
+-----------------------
+#ウチの田舎はね、去年
+#野菜も果物も大豊作だったんだよ
+#これも、アタモニ神さまのおかげさ
+Back home, we had a huge harvest
+of vegetables and fruit last year.
+It's all thanks to Lord Atamoni.
+-----------------------
+#参拝客
+Worshipper
+-----------------------
+#それを感謝しに
+#はるばる大神殿にまで
+#お参りにきたんだよ
+I came all the way to the Grand Temple
+to give thanks for that.
+-----------------------
+#参拝客
+Worshipper
+-----------------------
+#アタモニ神さまのおかげで
+#あたしたちは、生きていることが
+#できるんだ
+Thanks to Lord Atamoni,
+we're able to live at all.
+-----------------------
+#参拝客
+Worshipper
+-----------------------
+#どんなに遠く離れた場所でも
+#大神殿に、足を向けては
+#寝られないね
+No matter how far away you are,
+you can't sleep with your feet
+pointed toward the Grand Temple.
+-----------------------
+#参拝客
+Worshipper
+-----------------------
+#ウチの田舎はね、去年
+#野菜も果物も大豊作だったんだよ
+#これも、フォルトゥナ神さまのおかげさ
+Back home, we had a huge harvest
+of vegetables and fruit last year.
+It's all thanks to Lady Fortuna.
+-----------------------
+#参拝客
+Worshipper
+-----------------------
+#それを感謝しに
+#はるばる大神殿にまで
+#お参りにきたんだよ
+I came all the way to the Grand Temple
+to give thanks for that.
+-----------------------
+#参拝客
+Worshipper
+-----------------------
+#フォルトゥナ神さまのおかげで
+#あたしたちは、生きていることが
+#できるんだ
+Thanks to Lady Fortuna,
+we're able to live at all.
+-----------------------
+#参拝客
+Worshipper
+-----------------------
+#どんなに遠く離れた場所でも
+#大神殿に、足を向けては
+#寝られないね
+No matter how far away you are,
+you can't sleep with your feet
+pointed toward the Grand Temple.
+-----------------------
+#参拝客
+Worshipper
+-----------------------
+#フィリアさまってのは
+#とてもお優しい方だねえ
+Lady Philia is
+such a gentle soul.
+-----------------------
+#参拝客
+Worshipper
+-----------------------
+#あんなにエラい人なのに
+#あたしの悩みを
+#一生懸命聞いてくれるんだ
+She's such an important person,
+yet she listens to my worries
+with all her heart.
+-----------------------
+#参拝客
+Worshipper
+-----------------------
+#エルレインさまも大好きだけど
+#あたしゃ、フィリアさまのファンに
+#なっちまったよ
+I love Lady Elrane too,
+but I've become a fan of Lady Philia.
+-----------------------
+#参拝客
+Worshipper
+-----------------------
+#ウチの田舎はね、去年
+#野菜も果物も大豊作だったんだよ
+#これも、アタモニ神さまのおかげさ
+Back home, we had a huge harvest
+of vegetables and fruit last year.
+It's all thanks to Lord Atamoni.
+-----------------------
+#参拝客
+Worshipper
+-----------------------
+#あたしゃ、それを感謝しに
+#はるばる神殿にまで
+#お参りにきたんだよ
+I came all the way to the temple
+to give thanks for that.
+-----------------------
+#参拝客
+Worshipper
+-----------------------
+#アタモニさまが見守ってくださるから
+#安心して暮らすことができるのさ
+#ありがたいことだねぇ
+Lord Atamoni watches over us,
+so we can live in peace.
+We're truly blessed.
+-----------------------
+#参拝客
+Worshipper
+-----------------------
+#アンタの顔、幸せそうだなぁ
+#いったい、どのくらい
+#レンズを寄進したんだい？
+You look so happy.
+Just how many Lenses
+did you donate?
+-----------------------
+<Loni>
+-----------------------
+#こいつの顔は、幸せっつーか
+#ノーテンキなんだよ
+#レンズなんて関係ないの
+This guy's face? That's not happiness,
+he's just an airhead.
+Lenses got nothing to do with it.
+-----------------------
+#参拝客
+Worshipper
+-----------------------
+#いったい、どのくらい
+#レンズを寄進したら
+#幸せになれるのかなぁ････
+I wonder how many Lenses I'd have to donate
+to be happy...
+-----------------------
+#参拝客
+Worshipper
+-----------------------
+#あんた、何枚レンズを持ってきた？
+#おれは１５枚しかないんだが
+#これで幸せになれるのかなぁ？
+How many Lenses did you bring?
+I've only got fifteen.
+Think that'll make me happy?
+-----------------------
+#参拝客
+Worshipper
+-----------------------
+#神殿は、はじめてかい？
+#俺は、毎日きてるんだよ
+#なんつーか、心が落ちつくのさ
+First time at the temple?
+I come here every day.
+It really calms my mind.
+-----------------------
+#参拝客
+Worshipper
+-----------------------
+#ついでに
+#彼女ができるようにって
+#お参りもしちゃうのさ
+While I'm at it, I pray for a girlfriend too.
+-----------------------
+<Kyle>
+-----------------------
+#す、すごい････！
+#これがストレイライズ大神殿か！
+I-it's amazing...!
+So this is the Straylize Grand Temple!
+-----------------------
+<Loni>
+-----------------------
+#ここが、大神殿の中央に位置する大聖堂だ
+#ここへ入れるのは高位の神官だけで
+#俺も入ったのは、はじめてだ
+This is the cathedral at the center of the Grand Temple.
+Only high-ranking priests are allowed in here.
+It's my first time inside too.
+-----------------------
+<Kyle>
+-----------------------
+#んっ、なにか聞こえる････
+Hm? I hear something...
+-----------------------
+<Kyle>
+-----------------------
+#ここだっ！
+#この向こうに<Reala>がいる！
+This is it!
+<Reala> is on the other side!
+-----------------------
+#フィリア
+Philia
+-----------------------
+#<Kyle>さん！
+<Kyle>!
+-----------------------
+<Kyle>
+-----------------------
+#フィリアさん！
+Philia!
+-----------------------
+#フィリア
+Philia
+-----------------------
+#研究用に保管していたレンズが
+#すべて、なくなっているんです！
+#なにか知りませんか!?
+Every Lens I had in storage for research...
+is gone!
+Do you know anything about it!?
+-----------------------
+<Judas>
+-----------------------
+#レンズが････ない？
+The Lenses... are gone?
+-----------------------
+<Kyle>
+-----------------------
+#な、なんだッ!?
+Wh-what the heck!?
+-----------------------
+<Loni>
+-----------------------
+#くそっ！　逃げ足のはやいヤツだ！
+Damn it! That guy's fast on his feet!
+-----------------------
+<Judas>
+-----------------------
+#まさか、レンズは飛行竜に････！
+Don't tell me... the Lenses are on the Flying Dragon!?
+-----------------------
+#フィリア
+Philia
+-----------------------
+#あの、<Kyle>さん
+#これはいったい････
+Um, <Kyle>...
+What on earth is going on...?
+-----------------------
+<Kyle>
+-----------------------
+#たぶん、ですけど････
+#エルレインが
+#レンズを持って逃げたんです
+I think...
+Elrane
+took the Lenses and ran.
+-----------------------
+#フィリア
+Philia
+-----------------------
+#えっ!?
+What!?
+-----------------------
+<Reala>
+-----------------------
+#神を降臨させるため
+#レンズの力を使うつもりなんです
+She intends to use the power of the Lenses
+to summon a god.
+-----------------------
+#フィリア
+Philia
+-----------------------
+#そんな････
+#彼女は、そんな人では････！
+No...
+She would never...!
+-----------------------
+<Kyle>
+-----------------------
+#信じてもらえないかも、しれないけど････
+#オレたち、ウソはついてません
+You might not believe us, but...
+we're not lying.
+-----------------------
+#フィリア
+Philia
+-----------------------
+#････････
+......
+-----------------------
+<Kyle>
+-----------------------
+#それじゃ、フィリアさん
+Well then, Miss Philia...
+-----------------------
+#フィリア
+Philia
+-----------------------
+#待ってください！
+Wait, please!
+-----------------------
+#フィリア
+Philia
+-----------------------
+#これを････
+#きっと、なにかの役に立つはずです
+Take this...
+I'm sure it will be of some use.
+-----------------------
+#フィリア
+Philia
+-----------------------
+#目に見えないもの
+#知覚できないものを
+#探知する道具です
+It's a device that detects
+things invisible to the eye
+and beyond normal perception.
+-----------------------
+#フィリア
+Philia
+-----------------------
+#これを使えば
+#普段は見落としていた物を
+#見つけられるようになります
+With this, you'll be able to find
+things you would normally overlook.
+-----------------------
+<Kyle>
+-----------------------
+#フィリアさん････
+Miss Philia...
+-----------------------
+#フィリア
+Philia
+-----------------------
+#あなたがたの瞳は
+#ウソを言ってなかった
+#だから････信じます
+Your eyes...
+they weren't lying.
+That's why... I believe you.
+-----------------------
+<Kyle>
+-----------------------
+#････ありがとう、フィリアさん！
+#それじゃ、オレたち、行きます！
+...Thank you, Miss Philia!
+Well then, we're off!
+-----------------------
+#フィリア
+Philia
+-----------------------
+#<Kyle>さん
+#あなたを････信じます
+<Kyle>...
+I believe in you.
+-----------------------
+#いってらっしゃいませ
+Please come back safely.
+-----------------------
+#<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
+#お泊まりになりますか？
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+Would you like to stay?
+-----------------------
+#お泊まりになりますか？
+Would you like to stay?
+-----------------------
+select
+-----------------------
+#<03:00000000>　はい　
+#　いいえ　
+<03:00000000> Yes
+No
+-----------------------
+#ごゆっくりお休みください
+Have a good night.
+-----------------------
+#おはようございます
+Good morning.
+-----------------------
+#お金が足りません
+Not enough money.
+-----------------------
+#またのおこしをお待ちしております
+We hope to see you again soon.
+-----------------------
+set_parameter( myself, C_PARTY, 0 );
+-----------------------
+wait_map_scroll();
+-----------------------
+exit-party_togather( short spd )
+-----------------------
+notice
+-----------------------
+#{16}{25}{EE}{C0}を手に入れました
+Acquired {16}{25}{EE}{C0}.
+-----------------------
+notice
+-----------------------
+#<item:FFFFFFFF>を手に入れました
+Acquired <item:FFFFFFFF>.
+-----------------------
+notice
+-----------------------
+#{16}{25}{F6}{C0}がありましたが
+#いっぱいで持てませんでした
+Found {16}{25}{F6}{C0}, but
+your inventory is full.
+-----------------------
+notice
+-----------------------
+#何もありません
+There's nothing here.
+-----------------------

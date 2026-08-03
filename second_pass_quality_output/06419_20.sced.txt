@@ -1,0 +1,171 @@
+#ノイシュタット・闘技場
+Neuestadt Coliseum
+-----------------------
+#ノイシュタット
+Neuestadt
+-----------------------
+#闘技場
+Coliseum
+-----------------------
+#食材屋
+Grocery
+-----------------------
+#観戦のお供に、じゃがバターはいかが？
+How about some buttered potatoes for the show?
+-----------------------
+#ありがとうね！
+Thanks!
+-----------------------
+#またね！
+Come again!
+-----------------------
+#食材屋
+Grocery
+-----------------------
+#食材屋
+Grocery
+-----------------------
+#観戦のお供はじゃがバターよね
+Buttered potatoes are the only way to watch the fights.
+-----------------------
+<Kyle>
+-----------------------
+#うわっと！
+Whoa!
+-----------------------
+#？？？
+???
+-----------------------
+#失礼････
+Excuse me...
+-----------------------
+#？？？
+???
+-----------------------
+#････あ、キミは････
+...Ah, you're...
+-----------------------
+#？？？
+???
+-----------------------
+#いや、なんでもないの････
+#では････
+No, it's nothing...
+Farewell...
+-----------------------
+<Loni>
+-----------------------
+#なんだ、あの子？
+#ぶつかっといて、あれだけかよ!?
+What's with that girl?
+She bumps into me and that's all she says!?
+-----------------------
+<Judas>
+-----------------------
+#追いかけて、ケンカでもふっかけるか？
+#おそらく、一瞬で負けるだろうがな
+You want to chase her down and pick a fight?
+You'd probably lose in an instant.
+-----------------------
+<Loni>
+-----------------------
+#へっ！　あんな子に負けるかよ！
+Heh! Like I'd lose to a girl like her!
+-----------------------
+<Judas>
+-----------------------
+#だから、おまえは負けるといってるんだ
+#あの女は、ただ者じゃない
+#それが見抜けない時点で、勝ち目はない
+That's what I'm telling you. You'd lose.
+That woman is no ordinary opponent.
+If you can't see that much, you've already lost.
+-----------------------
+<Nanaly>
+-----------------------
+#へぇ、<Judas>が
+#そんなこというなんて、珍しいね
+Huh. <Judas>
+saying something like that? That's rare.
+-----------------------
+<Judas>
+-----------------------
+#僕は、強い者は素直に強いという
+#そういう相手が、少ないだけだ
+I simply believe the strong should acknowledge their strength.
+There are precious few who do.
+-----------------------
+<Harold>
+-----------------------
+#でも、そのあんたが
+#強いと認めた････
+#なんか、おもしろそうね
+But for you to admit
+someone's strong...
+Now that's interesting.
+-----------------------
+<Judas>
+-----------------------
+#おもしろいかどうかは、ともかくとして
+#戦いたくない手合いではあるな
+Interesting or not, that's beside the point.
+She's not someone I'd care to fight.
+-----------------------
+#いってらっしゃいませ
+Welcome.
+-----------------------
+#<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
+#お泊まりになりますか？
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald per night.
+Would you like to stay?
+-----------------------
+#お泊まりになりますか？
+Would you like to stay?
+-----------------------
+select
+-----------------------
+#<03:00000000>　はい　
+#　いいえ　
+<03:00000000> Yes
+No
+-----------------------
+#ごゆっくりお休みください
+Please rest well.
+-----------------------
+#おはようございます
+Good morning.
+-----------------------
+#お金が足りません
+Not enough money.
+-----------------------
+#またのおこしをお待ちしております
+We hope to see you again.
+-----------------------
+set_parameter( myself, C_PARTY, 0 );
+-----------------------
+wait_map_scroll();
+-----------------------
+exit-party_togather( short spd )
+-----------------------
+notice
+-----------------------
+#{16}{25}{BA}{C0}を手に入れました
+Acquired {16}{25}{BA}{C0}.
+-----------------------
+notice
+-----------------------
+#<item:FFFFFFFF>を手に入れました
+Acquired <item:FFFFFFFF>.
+-----------------------
+notice
+-----------------------
+#{16}{25}{C2}{C0}がありましたが
+#いっぱいで持てませんでした
+Found {16}{25}{C2}{C0}, but
+your inventory is full.
+-----------------------
+notice
+-----------------------
+#何もありません
+There's nothing here.
+-----------------------

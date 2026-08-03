@@ -1,0 +1,232 @@
+#アクアラビリンス
+Aqua Labyrinth
+-----------------------
+#アクアラビリンス
+Aqua Labyrinth
+-----------------------
+notice
+-----------------------
+#次に進みますか？
+Proceed to the next area?
+-----------------------
+select
+-----------------------
+#<03:00000000>　次に進む　
+#　脱出する　
+<03:00000000> Proceed onward
+Escape
+-----------------------
+notice
+-----------------------
+#脱出しますか？
+Escape?
+-----------------------
+select
+-----------------------
+#<03:00000000>　はい　
+#　いいえ　
+<03:00000000> Yes
+No
+-----------------------
+#？？？？？？？？
+????????
+-----------------------
+#私はマグナディウエス････
+#この迷宮に封じられし者････
+I am Magnadeus...
+The one sealed within this labyrinth...
+-----------------------
+#マグナディウエス
+Magnadeus
+-----------------------
+#千年を越える閉ざされた環････
+#退屈しのぎには
+#ちょうど良い訪問者よ････
+A ring sealed away for over a thousand years...
+To stave off boredom,
+you'll make a fine visitor...
+-----------------------
+#マグナディウエス
+Magnadeus
+-----------------------
+#どれ････少し相手をしてやろう
+Very well... I shall entertain you for a time.
+-----------------------
+#マグナディウエス
+Magnadeus
+-----------------------
+#私と共に無限回廊でさまようがよい････
+Wander the Infinite Corridor with me...
+-----------------------
+#？？？？
+????
+-----------------------
+#まったく、グルグルグルグルと････
+#さすがに疲れたぜ････
+Man, round and round we go...
+I'm beat...
+-----------------------
+<Kyle>
+-----------------------
+#あの････
+#あなたが、ジョニーさんですか？
+Um...
+Are you Johnny, sir?
+-----------------------
+#ジョニー
+Johnny
+-----------------------
+#べいびー！
+#どこかで見たような少年だな
+#その通り、俺の名はジョニー！
+#ジョニー＝シデンだ
+Baby!
+You look like a kid I've seen somewhere before.
+That's right, my name is Johnny!
+Johnny Sheeden.
+-----------------------
+#ジョニー
+Johnny
+-----------------------
+#悪魔の封印が解けたっていうんで
+#様子をさぐりに来たら
+#このザマさ
+Heard the demon's seal had broken,
+so I came to check it out,
+and look at the mess I'm in.
+-----------------------
+#ジョニー
+Johnny
+-----------------------
+#いくら倒しても復活する悪魔
+#いくら進んでも終わりのない迷宮
+#悪い夢でもみてるみたいだぜ
+Demons that revive no matter how many you cut down.
+A labyrinth with no end no matter how far you go.
+It's like I'm trapped in a bad dream.
+-----------------------
+#ジョニー
+Johnny
+-----------------------
+#『何かを信じることはとても大切なことさ
+#　だが、全てを疑うこと、それもまた大切さ』
+#････ずっと昔に作った歌の歌詞だ
+"Believing in something is a precious thing.
+But doubting everything... that, too, is precious."
+...Lyrics from a song I wrote long ago.
+-----------------------
+#ジョニー
+Johnny
+-----------------------
+#今いる場所、今見ているもの
+#全て嘘かもしれないな
+#全てが作りもので、本当は存在しない
+The place we stand now, the things we see now...
+It could all be a lie.
+Everything could be a fabrication, nothing here truly real.
+-----------------------
+#ジョニー
+Johnny
+-----------------------
+#こいつを持っていってくれ
+#俺は、もう少しここで探すぜ
+#「答」ってやつをさ
+Take this with you.
+I'll keep searching around here a while longer.
+For that thing called the 'Answer.'
+-----------------------
+NOTICE
+-----------------------
+#<item:0000004A>を手に入れました
+<item:0000004A>You obtained .
+-----------------------
+#ジョニー
+Johnny
+-----------------------
+#俺の眼は今を見ている
+#そして、心の眼は未来を見てる････
+#べいびー！
+#見えるぜ、キミの明日が････
+My eyes see the present.
+And the eye of my heart sees the future...
+Baby!
+I can see your tomorrow...
+-----------------------
+notice
+-----------------------
+#このマップは暗くなります
+This map is dark.
+-----------------------
+notice
+-----------------------
+#このマップはダメージを受けます
+This map inflicts damage.
+-----------------------
+notice
+-----------------------
+#このマップはエンカウントマックスです
+This map has max encounter rate.
+-----------------------
+notice
+-----------------------
+#このマップは視界が狭くなります
+This map has limited visibility.
+-----------------------
+#いってらっしゃいませ
+Have a good day.
+-----------------------
+#<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
+#お泊まりになりますか？
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+Would you like to stay?
+-----------------------
+#お泊まりになりますか？
+Would you like to stay?
+-----------------------
+select
+-----------------------
+#<03:00000000>　はい　
+#　いいえ　
+<03:00000000> Yes
+No
+-----------------------
+#ごゆっくりお休みください
+Have a good night.
+-----------------------
+#おはようございます
+Good morning.
+-----------------------
+#お金が足りません
+Not enough money.
+-----------------------
+#またのおこしをお待ちしております
+See you again soon.
+-----------------------
+set_parameter( myself, C_PARTY, 0 );
+-----------------------
+wait_map_scroll();
+-----------------------
+exit-party_togather( short spd )
+-----------------------
+notice
+-----------------------
+#{16}{25}{C2}{C0}を手に入れました
+Acquired {16}{25}{C2}{C0}.
+-----------------------
+notice
+-----------------------
+#<item:FFFFFFFF>を手に入れました
+Acquired <item:FFFFFFFF>.
+-----------------------
+notice
+-----------------------
+#{16}{25}{CA}{C0}がありましたが
+#いっぱいで持てませんでした
+Found {16}{25}{CA}{C0}, but
+couldn't carry it... inventory full already.
+-----------------------
+notice
+-----------------------
+#何もありません
+There's nothing here.
+-----------------------

@@ -1,0 +1,350 @@
+#ストレイライズ大神殿
+Straylize Grand Temple
+-----------------------
+#ストレイライズ大神殿
+Straylize Grand Temple
+-----------------------
+#ストレイライズ神殿
+Straylize Temple
+-----------------------
+#ストレイライズ神殿
+Straylize Temple
+-----------------------
+#人物に関する書物が収められている
+#『グレバム＝バーンハルト』
+#神の眼を巡る騒乱に荷担した
+#ストレイライズ大神殿の大司祭
+Books about notable figures are kept here.
+Grewam=Burnhardt
+A conspirator in the turmoil surrounding the Eye of Atamoni.
+High Priest of the Straylize Grand Temple.
+-----------------------
+#神の眼を奪い、逃走したが
+#四英雄たちの前に敗れ去る
+He stole the Eye of Atamoni and fled,
+only to be defeated by the Four Heroes.
+-----------------------
+<char:000003E8>
+-----------------------
+#これは！
+This is it!
+-----------------------
+NOTICE
+-----------------------
+#ＴＯＤ１のクイズ問題を見つけた！
+Found a Tales of Destiny quiz question!
+-----------------------
+NOTICE
+-----------------------
+#クイズ本に新しいジャンルが追加されました
+A new category has been added to the quiz book.
+-----------------------
+#人物に関する書物が収められている
+#『ヒューゴ＝ジルクリスト』
+#神の眼を巡る騒乱に荷担した
+#オベロン社の総帥
+Books about notable figures are kept here.
+Hugo=Gilchrist
+A conspirator in the turmoil surrounding the Eye of Atamoni.
+Head of the Oberon Corporation.
+-----------------------
+#神の眼を手に入れたヒューゴは
+#古代兵器『ベルクラント』を復活させ
+#地上を壊滅寸前まで追いこむものの
+#四英雄たちの手によって倒された
+Having obtained the Eye of Atamoni, Hugo
+revived the ancient superweapon Belcrant
+and drove the world to the brink of ruin,
+only to be defeated by the Four Heroes.
+-----------------------
+#手の込んだ形の置物がある
+#普通に買ったら、さぞ高価なことだろう････
+There's an intricately shaped figurine here.
+If you bought this at a shop, it'd surely cost a fortune...
+-----------------------
+#『特殊部隊・漆黒の翼』
+#････天地戦争時代に活躍した特殊部隊
+#『漆黒の翼』に関する本のようだ
+'Special Unit: Wings of Darkness'
+...A book about the special-ops unit 'Wings of Darkness'
+that was active during the Aeth'er Wars.
+-----------------------
+#地上軍の特殊部隊として潜入任務や
+#要人警護を行っていた、と書かれている
+It says they carried out infiltration missions
+and VIP protection as a special unit of the Er'ther forces.
+-----------------------
+#『輸送艦・ラディスロウ』
+#････天地戦争時代、地上軍の旗艦として
+#使用されていた船についての記述がある
+'Transport Vessel: Radisrol'
+...A record of the ship that served as
+the flagship of the Er'ther forces during the Aeth'er Wars.
+-----------------------
+#学者
+Scholar
+-----------------------
+#ボクはレンズについての
+#研究をしてるんです
+I research Lens,
+actually.
+-----------------------
+#学者
+Scholar
+-----------------------
+#レンズは、はるかなる昔
+#大地に飛来した彗星がもたらした････
+#といわれてるんですよね
+They say Lens was brought here
+by a comet that fell to earth
+ages and ages ago...
+-----------------------
+#学者
+Scholar
+-----------------------
+#ホントはレンズ兵器
+#ソーディアンも調べたいんですけど
+#十八年前にうしなわれちゃいましたしねぇ
+I'd really love to study Swordians too,
+since they're Lens weapons,
+but they were lost eighteen years ago.
+-----------------------
+#学者
+Scholar
+-----------------------
+#あれをつくったという
+#<Harold>＝ベルセリオス
+#彼はまぎれもない天才ですね
+The one who made them...
+<Harold>=Berselius
+He's nothing short of a genius, isn't he?
+-----------------------
+#学者
+Scholar
+-----------------------
+#ボクの研究が
+#いつかエルレインさまの
+#お役にたてるといいんですけど
+I hope my research
+can be of service to Lady Elrane
+someday...
+-----------------------
+#学者
+Scholar
+-----------------------
+#フォルトゥナ神を降臨させるなんて
+#レンズの力って
+#ほんと偉大なんだなあ
+Using Lens power to bring down
+the goddess Fortuna...
+Lens truly is magnificent.
+-----------------------
+<Loni>
+-----------------------
+#感心してる場合かよ！
+#おい、おまえ！
+#その降臨って、どこでやってるんだ!?
+Now's not the time to be impressed!
+Hey, you!
+Where's this 'descent' happening!?
+-----------------------
+#学者
+Scholar
+-----------------------
+#イテテテ････
+#れ、礼拝堂です！
+Owowow...
+Th-the chapel!
+-----------------------
+#学者
+Scholar
+-----------------------
+#ボクも見学をことわられたんです！
+#きっと、礼拝堂には
+#入れてもらえないですよ！
+They turned me away too!
+I'm sure they won't
+let you into the chapel either!
+-----------------------
+#学者
+Scholar
+-----------------------
+#ね、ねえ！
+#アタモニ神の降臨は成功したんですか？
+#研究の参考までに、ぜひ････
+H-hey!
+Did Atamoni's descent succeed?
+For my research, please tell me...
+-----------------------
+<Nanaly>
+-----------------------
+#ああ！
+#うっとうしいねえ！
+#今はとりこみ中だよ
+Ugh!
+You're a real pain!
+I'm busy right now.
+-----------------------
+#学者
+Scholar
+-----------------------
+#ね、ねえ！
+#ちょっとでいいから
+#儀式の話、聞かせてくださいよ～
+H-hey!
+Just for a little while,
+please tell me about the ritual~
+-----------------------
+#学者
+Scholar
+-----------------------
+#う～ん････
+#何度計算してもダメだ～！
+#ボクに<Harold>のような頭脳があったら････
+Ugh...
+No matter how many times I calculate it, I can't get it~!
+If only I had a brain like <Harold>'s...
+-----------------------
+<Harold>
+-----------------------
+#ムリムリ
+#きっと、あんたには
+#つかいこなせないわよ
+No way, no way.
+Someone like you
+could never handle it.
+-----------------------
+#学者
+Scholar
+-----------------------
+#ボクは負けませんよ！
+#現代の<Harold>と呼ばれる
+#その日まで!!
+I won't give up!
+Until the day they call me
+the modern <Harold>!!
+-----------------------
+#学者
+Scholar
+-----------------------
+#あの彗星
+#こっちに向かってる気がするけど
+#気のせいですよね～
+That comet...
+I feel like it's heading this way,
+but I'm sure it's just my imagination~
+-----------------------
+#学者
+Scholar
+-----------------------
+#アハハハハ････
+#さあ、研究にもどらなきゃ
+Ahahaha...
+Well, I'd better get back to my research.
+-----------------------
+<Loni>
+-----------------------
+#現実逃避だな････
+Running away from reality, huh...
+-----------------------
+#学者
+Scholar
+-----------------------
+#さあ、気をとりなおして
+#研究♪　研究♪
+Now then, let's get back in the groove.
+Research ♪ Research ♪
+-----------------------
+#学者
+Scholar
+-----------------------
+#今、荒れ地でも育つ
+#作物の研究をしてるんです
+Right now I'm researching crops
+that can grow even in wastelands.
+-----------------------
+#学者
+Scholar
+-----------------------
+#うまくいけば
+#カルバレイスも今よりずっと
+#住みよい大陸になりますよ
+If it works out,
+Calvalese could become
+a much more livable continent.
+-----------------------
+<Loni>
+-----------------------
+#そっか～
+#ウマイもんができるといいなぁ
+I see~
+Hope something tasty comes out of it.
+-----------------------
+#学者
+Scholar
+-----------------------
+#え～っと････
+#このサボテンとイモを
+#かけあわせて････っと
+Let's see...
+Cross this cactus with a potato...
+and...
+-----------------------
+#いってらっしゃいませ
+Come again soon.
+-----------------------
+#<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
+#お泊まりになりますか？
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+Would you like to stay?
+-----------------------
+#お泊まりになりますか？
+Would you like to stay?
+-----------------------
+select
+-----------------------
+#<03:00000000>　はい　
+#　いいえ　
+<03:00000000> Yes
+No
+-----------------------
+#ごゆっくりお休みください
+Please rest well.
+-----------------------
+#おはようございます
+Good morning.
+-----------------------
+#お金が足りません
+Not enough money.
+-----------------------
+#またのおこしをお待ちしております
+We look forward to your next visit.
+-----------------------
+set_parameter( myself, C_PARTY, 0 );
+-----------------------
+wait_map_scroll();
+-----------------------
+exit-party_togather( short spd )
+-----------------------
+notice
+-----------------------
+#{16}{25}{BA}{C0}を手に入れました
+Acquired {16}{25}{BA}{C0}.
+-----------------------
+notice
+-----------------------
+#<item:FFFFFFFF>を手に入れました
+Acquired <item:FFFFFFFF>.
+-----------------------
+notice
+-----------------------
+#{16}{25}{C2}{C0}がありましたが
+#いっぱいで持てませんでした
+Found {16}{25}{C2}{C0}, but
+your inventory is full.
+-----------------------
+notice
+-----------------------
+#何もありません
+There's nothing here.
+-----------------------

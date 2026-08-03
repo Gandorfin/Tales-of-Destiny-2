@@ -1,0 +1,209 @@
+#古都ダリルシェイド・宿屋
+Old Darilsheid - Inn
+-----------------------
+#古都ダリルシェイド
+Old Darilsheid
+-----------------------
+#青年
+Youth
+-----------------------
+#カノジョに会うためだけに
+#ボクは、ここに
+#泊まってるんだ
+I'm staying here
+just so I can
+see her.
+-----------------------
+#青年
+Youth
+-----------------------
+#････でも、家がすぐ近くなのに
+#毎日ホテルに泊まるってのも
+#ツラいんだよなぁ、トホホ････
+...But even though I live right nearby,
+staying at an inn every day
+really takes its toll, *sigh*...
+-----------------------
+#青年
+Youth
+-----------------------
+#キミたち、この宿に
+#泊まったことがあるかい？
+#カワイイ女の子が、働いているだろ？
+Have any of you stayed
+at this inn before?
+There's a cute girl working here, right?
+-----------------------
+#青年
+Youth
+-----------------------
+#でも、カノジョに手を出したら
+#ダメだからね！
+But don't you dare
+lay a hand on her!
+-----------------------
+#青年
+Youth
+-----------------------
+#う～ん、思いきって
+#カノジョにアタックするべきか
+#でも、もしフラれたら････
+Hmmm, should I take the plunge
+and go for it?
+But if she rejects me...
+-----------------------
+#青年
+Youth
+-----------------------
+#この宿で働いてるメイドのカノジョに
+#告白してみようと思ってるんだ
+I'm thinking of confessing to this girl I like,
+a maid who works at this inn.
+-----------------------
+#青年
+Youth
+-----------------------
+#でも、フラれたらと思うと
+#こわくて････
+But the thought of getting rejected
+terrifies me...
+-----------------------
+#青年
+Youth
+-----------------------
+#アタックすることに決めたけど
+#彼女もう結婚してるみたいなんだよね
+#ボクは気にしないけど････
+I've decided to go for it,
+but I think she's already married.
+Not that I mind...
+-----------------------
+<Loni>
+-----------------------
+#結果が見えてるじゃねえか････
+#哀れなヤツ････
+You can already see how this ends...
+Poor sap...
+-----------------------
+#青年
+Youth
+-----------------------
+#カノジョに想いを告げられぬまま
+#はや１年････
+#ああ、ボクはどうすればいいんだろう
+A whole year's passed, and I still
+haven't told her how I feel...
+What am I supposed to do?
+-----------------------
+<Loni>
+-----------------------
+#アタックすればいいじゃねえか
+#それでフラれたら泣けばいい
+Just go for it already.
+If she shoots you down, you can cry about it.
+-----------------------
+#青年
+Youth
+-----------------------
+#よ、よ～し、ボクはやるぞ！
+#カノジョに想いを伝えるんだ
+#アニキ、見ていてください！
+A-alright, I'm gonna do it!
+I'm gonna tell her how I feel!
+Watch me, bro!
+-----------------------
+<Loni>
+-----------------------
+#アニキって言うな！
+Don't call me bro!
+-----------------------
+#青年
+Youth
+-----------------------
+#ボク、思いきってカノジョに
+#告白してみようと思ってるんだ
+I'm gonna go out on a limb
+and confess to this girl I like.
+-----------------------
+#青年
+Youth
+-----------------------
+#でも、フラれたらと思うと
+#こわくて････
+But the thought of getting rejected
+terrifies me...
+-----------------------
+<Kyle>
+-----------------------
+#平気だよ、<Loni>なんか
+#星の数ほどフラれてるのに
+#こんなに元気に、生きてるんだよ
+Don't sweat it, <Loni>.
+I've been rejected more times than there are stars,
+and I'm still alive and kicking.
+-----------------------
+<Loni>
+-----------------------
+#たしかに、そのとおりだが････
+#ひと言多い！
+Can't argue with that, but...
+you didn't have to say that much!
+-----------------------
+#いってらっしゃいませ
+Come again soon.
+-----------------------
+#<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
+#お泊まりになりますか？
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+Would you like to stay?
+-----------------------
+#お泊まりになりますか？
+Would you like to stay?
+-----------------------
+select
+-----------------------
+#<03:00000000>　はい　
+#　いいえ　
+<03:00000000> Yes
+No
+-----------------------
+#ごゆっくりお休みください
+Have a good night.
+-----------------------
+#おはようございます
+Good morning.
+-----------------------
+#お金が足りません
+Not enough money.
+-----------------------
+#またのおこしをお待ちしております
+We hope to see you again soon.
+-----------------------
+set_parameter( myself, C_PARTY, 0 );
+-----------------------
+wait_map_scroll();
+-----------------------
+exit-party_togather( short spd )
+-----------------------
+notice
+-----------------------
+#{16}{25}{BA}{C0}を手に入れました
+Acquired {16}{25}{BA}{C0}.
+-----------------------
+notice
+-----------------------
+#<item:FFFFFFFF>を手に入れました
+Acquired <item:FFFFFFFF>.
+-----------------------
+notice
+-----------------------
+#{16}{25}{C2}{C0}がありましたが
+#いっぱいで持てませんでした
+Found {16}{25}{C2}{C0}, but
+your inventory is full.
+-----------------------
+notice
+-----------------------
+#何もありません
+There's nothing here.
+-----------------------

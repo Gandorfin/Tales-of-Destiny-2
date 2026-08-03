@@ -1,0 +1,1895 @@
+#デュナミス孤児院
+Dunamis Orphanage
+-----------------------
+#デュナミス孤児院
+Dunamis Orphanage
+-----------------------
+#孤児院一階
+Orphanage - 1st Floor
+-----------------------
+<char:000003E8>
+-----------------------
+#<Loni>を置いて
+#出かけるわけにはいかないよな
+We can't just leave
+<Loni> behind, can we?
+-----------------------
+#トニア
+Tonya
+-----------------------
+#もう、<Kyle>ってば
+#歩きながら眠らないでよ
+#ゾンビみたいで、こわいでしょ！
+Come on, <Kyle>,
+don't fall asleep while you're walking!
+You look like a zombie--it's creepy!
+-----------------------
+#トニア
+Tonya
+-----------------------
+#やっぱり、<Kyle>は
+#本物の英雄をめざすんだね････
+I knew it.
+<Kyle>, you're really aiming
+to become a true hero...
+-----------------------
+<Kyle>
+-----------------------
+#ごめんな、トニア
+#さびしい想いをさせるけど････
+Sorry, Tonya.
+I know this is hard on you...
+-----------------------
+#トニア
+Tonya
+-----------------------
+#ん、だいじょうぶ
+#ルーティやみんながいるから････
+#あたしは、さびしくないよ
+Mm, I'm fine.
+Rutee and everyone else is here, so...
+I'm not lonely.
+-----------------------
+#トニア
+Tonya
+-----------------------
+#ガンバってね、<Kyle>！
+#ルーティが悲しむようなこと
+#しちゃダメだかんね！
+Good luck, <Kyle>!
+And don't do anything
+that'd make Rutee sad, okay?!
+-----------------------
+#ユニー
+Yuni
+-----------------------
+#あっ、<Kyle>、<Loni>
+#おっかえり～!!
+#街の外で冒険したこと
+#ルーティには言ってないよ！
+Oh, <Kyle>, <Loni>!
+Welcome back~!!
+We went adventuring outside town,
+but I haven't told Rutee yet!
+-----------------------
+<Kyle>
+-----------------------
+#わっ！
+#声がでかいって！
+#母さんに聞こえるだろ！
+Whoa!
+Keep it down!
+Mom's gonna hear you!
+-----------------------
+#ユニー
+Yuni
+-----------------------
+#いっけな～い････
+#街の外で冒険したこと
+#ルーティには、ナイショだったっけ････
+Uh-oh~...
+We went adventuring outside town,
+and I was supposed to keep it a secret from Rutee...
+-----------------------
+#ユニー
+Yuni
+-----------------------
+#あれぇ？
+#<Kyle>がこんな時間に起きるなんて
+#めずらしいね！
+Huh?
+<Kyle> being up at this hour?
+That's rare!
+-----------------------
+<Kyle>
+-----------------------
+#そんなことないって････
+#ちゃんと、ニンジンも残さないで
+#食べてるだろ････
+That's not true...
+I eat all my carrots,
+down to the last bite...
+-----------------------
+#ユニー
+Yuni
+-----------------------
+#<Kyle>、まだ
+#寝ぼけてるみたいだね････
+<Kyle>, you still
+look half-asleep...
+-----------------------
+#ユニー
+Yuni
+-----------------------
+#ふわぁ････あれぇ？
+#<Kyle>、おでかけするの？
+*yawn*... Huh?
+<Kyle>, are you going out?
+-----------------------
+<Kyle>
+-----------------------
+#････ああ
+#しばらく、留守にするんだ
+#いい子にしててくれよな
+...Yeah.
+I'll be gone for a while.
+Be good while I'm away, okay?
+-----------------------
+#ユニー
+Yuni
+-----------------------
+#ふたりとも
+#いってらっしゃ～い････
+#ふわぁ････
+You two both...
+Have a safe trip~...
+*yawn*...
+-----------------------
+#ユニー
+Yuni
+-----------------------
+#ねえ、みてみて！
+#このスカート
+#あたしが作ったんだよ！
+Hey, look, look!
+This skirt...
+I made it myself!
+-----------------------
+<Loni>
+-----------------------
+#ほー、こりゃたいしたもんだ
+#ユニーは、将来
+#いいお嫁さんになるな！
+Well, well, that's impressive!
+Yuni, you're gonna make
+someone a fine wife someday!
+-----------------------
+#ユニー
+Yuni
+-----------------------
+#えへへ～★
+#みんなの服、あたしが作ってるんだよ
+#<Loni>にも、なにか作ったげようか？
+Ehehe~★
+I make clothes for everyone!
+Want me to make something for <Loni> too?
+-----------------------
+<Kyle>
+-----------------------
+#ユニーは器用だね
+#いつでもお嫁さんになれるね
+You're really handy, Yuni.
+You could be a bride any day now!
+-----------------------
+#ユニー
+Yuni
+-----------------------
+#そうだ！　<Loni>に
+#あたしとおそろいのスカートを
+#作ってあげるよ！
+I know! I'll make <Loni>
+a matching skirt, just like mine!
+-----------------------
+<Loni>
+-----------------------
+#いや
+#スカートはちょっと････
+Uh, no thanks.
+A skirt's a little...
+-----------------------
+#ユニー
+Yuni
+-----------------------
+#ね！　ね！　<Loni>にも
+#あたしとおそろいのスカート
+#作ってあげるよ！
+Hey! Hey! I'll make <Loni>
+a matching skirt too,
+just like mine!
+-----------------------
+#シナモン
+Cinnamon
+-----------------------
+#へっへ～！
+#おれ、さっきの冒険で
+#レンズ拾っちゃった～！
+Heh-heh~!
+I found a Lens
+on our adventure just now!
+-----------------------
+<Loni>
+-----------------------
+#なんだよ、そんなにレンズを集めて
+#アタモニ神団にでも
+#寄付するのか？
+What, you collecting that many Lenses
+to donate to the Order of Atamoni or something?
+-----------------------
+#シナモン
+Cinnamon
+-----------------------
+#ちがうよ、このレンズを
+#おカネにかえて
+#ルーティにあげるんだ！
+No way! I'm gonna sell this Lens
+and turn it into money!
+Then give it to Rutee!
+-----------------------
+#シナモン
+Cinnamon
+-----------------------
+#このレンズを
+#おカネにかえて
+#ルーティにあげるんだ！
+I'm gonna sell this Lens
+and turn it into money!
+Then give it to Rutee!
+-----------------------
+#シナモン
+Cinnamon
+-----------------------
+#これだけレンズがあったら
+#この建物を、お城みたいに
+#できるだろ！
+If I had this many Lenses,
+I could make this place
+look just like a castle!
+-----------------------
+#シナモン
+Cinnamon
+-----------------------
+#お～い、<Kyle>
+#だいじょうぶか？
+#なんだか、フラフラしてるぞ
+Hey, <Kyle>!
+You okay?
+You're kinda wobbling around.
+-----------------------
+<Kyle>
+-----------------------
+#････Ｚｚｚ････
+...Zzz...
+-----------------------
+<Loni>
+-----------------------
+#････眠りながら歩けるってのも
+#才能だよな････
+...Being able to walk while you're asleep
+takes real talent, huh...
+-----------------------
+#シナモン
+Cinnamon
+-----------------------
+#お～い、<Kyle>
+#だいじょうぶか？
+#なんだか、フラフラしてるぞ
+Hey, <Kyle>!
+You okay?
+You're kinda wobbling around.
+-----------------------
+#シナモン
+Cinnamon
+-----------------------
+#おっ、寝ぼすけ<Kyle>
+#今日は、早起きじゃん！
+Whoa, sleepyhead <Kyle>!
+You're up early today!
+-----------------------
+#シナモン
+Cinnamon
+-----------------------
+#おれ、もう少し大きくなったら
+#<Kyle>みたいに
+#英雄を目指すよ！
+When I grow up a little more,
+I'm gonna be a hero just like <Kyle>!
+-----------------------
+<Kyle>
+-----------------------
+#････いや、おまえにはここに残って
+#母さんや、みんなのことを
+#守ってほしいんだ
+...Nah, I want you to stay here
+and protect Mom and everyone else.
+-----------------------
+#シナモン
+Cinnamon
+-----------------------
+#そっか、そうだよな････
+#<Kyle>も<Loni>もいないんだ
+#おれが、ここを守らなきゃ････
+Oh yeah... that's right...
+<Kyle> and <Loni> aren't here,
+so I've gotta protect this place...
+-----------------------
+#シナモン
+Cinnamon
+-----------------------
+#孤児院のことは
+#おれに任せてくれよ
+#しっかりと、守るからさ
+Leave the orphanage to me.
+I'll protect it, no problem.
+I'll keep everyone safe.
+-----------------------
+#シナモン
+Cinnamon
+-----------------------
+#なぁ、<Kyle>
+#おれたちと鬼ごっこしようぜ
+#勝ったらおれのお宝をやるからさ
+Hey, <Kyle>!
+Let's play tag!
+If you win, I'll give you my treasure!
+-----------------------
+#シナモン
+Cinnamon
+-----------------------
+#ねぇ、<Loni>兄ちゃん
+#おれたちと鬼ごっこしようぜ
+#勝ったらおれのお宝をやるからさ
+Hey, <Loni>! Big bro!
+Let's play tag!
+If you win, I'll give you my treasure!
+-----------------------
+#シナモン
+Cinnamon
+-----------------------
+#なぁ、そこのあやしいにいちゃん
+#おれたちと鬼ごっこしようぜ
+#勝ったらおれのお宝をやるからさ
+Hey, you shady guy over there!
+Let's play tag!
+If you win, I'll give you my treasure!
+-----------------------
+#シナモン
+Cinnamon
+-----------------------
+#なぁ、そこのねえちゃん
+#おれたちと鬼ごっこしようぜ
+#勝ったらおれのお宝をやるからさ
+Hey, lady over there!
+Let's play tag!
+If you win, I'll give you my treasure!
+-----------------------
+#シナモン
+Cinnamon
+-----------------------
+#ねえちゃん、足早そうだね
+#おれたちと鬼ごっこしようぜ
+#勝ったらおれのお宝をやるからさ
+Hey, lady, you look fast!
+Let's play tag!
+If you win, I'll give you my treasure!
+-----------------------
+#シナモン
+Cinnamon
+-----------------------
+#そこのあやしいねえちゃん
+#おれたちと鬼ごっこしようぜ
+#勝ったらおれのお宝をやるからさ
+Hey, you shady lady over there!
+Let's play tag!
+If you win, I'll give you my treasure!
+-----------------------
+#シナモン
+Cinnamon
+-----------------------
+#なあ、鬼ごっこしようぜ
+Hey, let's play tag!
+-----------------------
+select
+-----------------------
+#<03:00000000>　する　
+#　しない　
+<03:00000000> Let's play
+Let's not
+-----------------------
+#シナモン
+Cinnamon
+-----------------------
+#それじゃあ、勝負だ！
+Then let's do this!
+-----------------------
+#シナモン
+Cinnamon
+-----------------------
+#まあ、いいけどさ
+Well, sure, I guess.
+-----------------------
+#シナモン
+Cinnamon
+-----------------------
+#おっ、寝ぼすけ<Kyle>
+#今日は、早起きじゃん！
+Whoa, sleepyhead <Kyle>!
+You're up early today!
+-----------------------
+#バジル
+Basil
+-----------------------
+#あっ、そこの床はあぶないですよ
+#床下がくさりかけて
+#今にも、抜けそうなんです
+Ah, that floor over there is dangerous.
+The supports underneath are rotting away.
+It could give out any moment.
+-----------------------
+<Kyle>
+-----------------------
+#この孤児院は、父さんと母さんが
+#建て直したらしいけど
+#十八年も前のコトだからなぁ
+My mom and dad rebuilt this orphanage,
+but that was eighteen years ago.
+It's pretty old now.
+-----------------------
+<Loni>
+-----------------------
+#俺たちで建て直せばいいんだよ
+#三百万ガルドのレンズがあれば
+#どこもかしこも、ピッカピカだぜ
+We could rebuild it ourselves!
+With three million gald worth of Lens,
+this place would be sparkling clean everywhere!
+-----------------------
+#バジル
+Basil
+-----------------------
+#この建物も、いろんなトコに
+#ガタがきてて
+#あぶないんですよねぇ････
+This building's got wear and tear
+all over the place.
+It's pretty dangerous...
+-----------------------
+#バジル
+Basil
+-----------------------
+#あいたた、<Kyle>さん
+#ひっぱらないでくださいよ
+#ボク、これから朝の仕事が････
+Ow! <Kyle>!
+Please don't pull on me!
+I still have my morning chores to do...
+-----------------------
+<Kyle>
+-----------------------
+#それよりも
+#レンズを手に入れるのが先だろ
+#早く行こうぜ、<Loni>････
+Anyway,
+we need to get that Lens first.
+C'mon, <Loni>...
+-----------------------
+<Loni>
+-----------------------
+#おい････
+#俺はこっちだ････
+Hey...
+I'm over here...
+-----------------------
+#バジル
+Basil
+-----------------------
+#あ～ん
+#ひっぱらないでくださいよぅ
+#<Kyle>さん････
+Ahhh!
+Please don't pull on meee,
+<Kyle>...
+-----------------------
+#バジル
+Basil
+-----------------------
+#わ、<Kyle>さんが起きてるなんて
+#ボク、ひょっとして
+#寝坊したんですか!?
+W-wow, <Kyle>'s awake?
+Could it be...
+Did I oversleep!?
+-----------------------
+#バジル
+Basil
+-----------------------
+#ボク、ひょっとして
+#夢でも見てるのかな････
+Could it be...
+Am I dreaming...?
+-----------------------
+#バジル
+Basil
+-----------------------
+#あっ、<Kyle>さんだ
+#おかえりなさい！
+#冒険もいいけど、ムリは禁物ですよ
+Oh, it's <Kyle>!
+Welcome back!
+Adventures are great, but don't overdo it, okay?
+-----------------------
+<Kyle>
+-----------------------
+#････母さんとおなじこと
+#言うなよ････
+...Quit saying the same stuff
+as Mom...
+-----------------------
+#バジル
+Basil
+-----------------------
+#だって、<Kyle>さん
+#無鉄砲で、行きあたりばったりで
+#もう、ドキドキハラハラですよ！
+Because, <Kyle>,
+you're so reckless, always rushing in headfirst...
+You've got me all worried sick!
+-----------------------
+#バジル
+Basil
+-----------------------
+#<Kyle>さん、
+#無鉄砲で、行きあたりばったりで
+#もう、ドキドキハラハラですよ！
+<Kyle>,
+you're so reckless, always rushing in headfirst...
+You've got me all worried sick!
+-----------------------
+#ソルト
+Salt
+-----------------------
+#<Kyle>、傷だらけだよ
+#たまには、部屋で本でも
+#読んでたら？
+<Kyle>, you're covered in scratches.
+Why don't you stay inside and
+read a book sometime?
+-----------------------
+<Kyle>
+-----------------------
+#読書もいいけど
+#おひさまの下で遊ぶのも
+#楽しいぜ
+Reading's great and all,
+but playing outside in the sun
+is pretty fun too.
+-----------------------
+#ソルト
+Salt
+-----------------------
+#ううん････ボクはいいよ
+#ひとりで、本を読むのが
+#好きだもん････
+No... I'm fine.
+I like reading books by myself.
+That's just how I am...
+-----------------------
+#ソルト
+Salt
+-----------------------
+#ボクはいいよ
+#ひとりで、本を読むのが
+#好きだもん････
+I'm fine.
+I like reading books by myself.
+That's just how I am.
+-----------------------
+#ソルト
+Salt
+-----------------------
+#<Kyle>、はやく
+#ハミガキしておいでよ
+<Kyle>, hurry up and
+go brush your teeth!
+-----------------------
+<Kyle>
+-----------------------
+#う～ん････、それじゃ
+#ハミガキセットを買ってこなきゃ････
+#Ｚｚｚ････
+Mmmm... Then I guess I'll have to
+go buy a toothbrush set...
+Zzz...
+-----------------------
+#ソルト
+Salt
+-----------------------
+#<Kyle>、ハミガキの前に
+#顔をあらったほうが
+#いいかも････
+<Kyle>, you might wanna
+wash your face first
+before brushing your teeth...
+-----------------------
+#ソルト
+Salt
+-----------------------
+#あ、<Kyle>････
+#よかった、ボク
+#怖い夢をみたんだ････
+Oh, <Kyle>...
+Thank goodness.
+I had a scary dream...
+-----------------------
+<Kyle>
+-----------------------
+#どうして？
+#ここには、みんないるじゃないか
+#怖いことなんて、ないだろ？
+Why?
+Everyone's here, aren't they?
+There's nothing to be afraid of.
+-----------------------
+#ソルト
+Salt
+-----------------------
+#うん････わかってるよ････
+#わかってるけど････
+Yeah... I know...
+I know, but...
+-----------------------
+#ソルト
+Salt
+-----------------------
+#ボクと仲良くしてくれるのは
+#<Kyle>だけだもん
+#どうせみんなは････
+You're the only one who's nice to me,
+<Kyle>...
+Everyone else just...
+-----------------------
+<Kyle>
+-----------------------
+#なに言ってんだ
+#おまえの方から寄っていけば
+#みんな、受け入れてくれるぞ
+What're you talking about?
+If you reach out to them,
+they'll accept you too.
+-----------------------
+<Kyle>
+-----------------------
+#オレだって、いつまでも
+#ここにいるわけじゃないんだぜ
+#自分で、なんとかしないとな
+I'm not gonna stay here forever either,
+you know.
+I've gotta figure things out for myself.
+-----------------------
+#ソルト
+Salt
+-----------------------
+#そうだよね････
+#<Kyle>の言うとおりだ
+#ボク、がんばってみるよ････
+Yeah... you're right.
+Just like <Kyle> said.
+I'll try my best...
+-----------------------
+<Kyle>
+-----------------------
+#そうだな、がんばろうな
+Yeah. Let's give it our all.
+-----------------------
+#ソルト
+Salt
+-----------------------
+<Kyle>
+#早起きしてどこかに行くの？
+#危ないトコに、行かないでね
+Are you going somewhere early?
+Don't go anywhere dangerous, okay?
+-----------------------
+<Kyle>
+-----------------------
+#心配するなよ
+#オレはだいじょうぶさ
+Don't worry.
+I'll be fine.
+-----------------------
+#ソルト
+Salt
+-----------------------
+<Kyle>
+#あまり、危ないトコには
+#行かないでね
+Please don't go anywhere
+too dangerous, okay?
+-----------------------
+<Loni>
+-----------------------
+#こいつの面倒は
+#この<Loni>兄ちゃんが見てるから
+#安心しろよ！
+Don't worry,
+this <Loni> big brother's
+got his back!
+-----------------------
+#ソルト
+Salt
+-----------------------
+#<Kyle>、なんだか
+#本の中の英雄みたい
+#カッコいいな････
+<Kyle>, you kinda look like
+a hero from a book.
+That's so cool...
+-----------------------
+#ソルト
+Salt
+-----------------------
+#ね！
+#ボク、最近ユニーといっしょに
+#畑の仕事をしてるんだよ
+Hey!
+I've been helping Uni out
+with the farm work lately!
+-----------------------
+<Kyle>
+-----------------------
+#そうかあ！
+#仕事も遊びも、みんなといっしょだと
+#楽しいだろ？
+Oh yeah?
+Work and play are both way more fun
+when you're with everyone, right?
+-----------------------
+#ソルト
+Salt
+-----------------------
+#うん！
+Yeah!
+-----------------------
+#ソルト
+Salt
+-----------------------
+#そろそろ、キュウリとトマトの
+#収穫時期なんだ
+#楽しみだな！
+The cucumbers and tomatoes
+are almost ready to harvest.
+I can't wait!
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#あら、あんたが
+#ちゃんと起きてくるなんて
+#めずらしいわね
+Well, well.
+You're actually up and about.
+That's a rare sight.
+-----------------------
+<Kyle>
+-----------------------
+#うん････ちょっと
+#大きなレンズをかっさらいに････
+Yeah... Gonna go snag
+a pretty big Lens...
+-----------------------
+<Loni>
+-----------------------
+#あわわ、なんでもない！
+#なんでもないぜ、ルーティさん！
+N-Nothing!
+Nothing at all, Rutee!
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#ま、いいわ
+#あんまり遅くならないように
+#帰ってきなさいね
+Well, fine.
+Just don't be out too late.
+And come back safe.
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#<Kyle>、いいこと？
+#冒険に出るからには
+#父親に負けないくらい
+#デカいことをしてみなさい
+<Kyle>, listen up.
+If you're going out on an adventure,
+you'd better do something
+as big as your father did.
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#････でも、父親の影を追うのは
+#やめるのよ
+#あんたはあんた、なんだからね
+...But stop chasing
+your father's shadow.
+You're you, and that's that.
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#さ、<Loni>が
+#待ってるんでしょ？
+#さっさと行ってきなさい
+Now, <Loni>'s
+waiting for you, right?
+Off you go, then.
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#<Loni>、<Kyle>のこと、たのんだわよ
+#この子の抜けているところは
+#あんたが、しっかりフォローして
+<Loni>, I'm counting on you to look after <Kyle>.
+This kid's got a few screws loose,
+so make sure you cover for him.
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#････それと、当然あんたも
+#無事に帰ってくること！
+#『親』を泣かせたら、承知しないわよ！
+...And that goes for you too, obviously.
+Come back in one piece!
+If you make your 'mom' cry, you'll answer to me!
+-----------------------
+<Loni>
+-----------------------
+#････ああ！
+#俺も、ぜったいに
+#無事で帰ってくるさ！
+...Yeah!
+I'll definitely
+make it back safe too!
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#よーし、じゃあ行っといで
+#子供たち！
+All right, off you go then,
+kids!
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#どうしたの、<Kyle>？
+#やるからには
+#中途ハンパは許さないわよ
+What's wrong, <Kyle>?
+If you're going to do this,
+I won't tolerate any half-measures.
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#ま、たまには
+#戻ってきてもいいけど････
+Well, I suppose
+you can come back and visit once in a while...
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#足長おじさんのお金は
+#当分、必要ないからね
+#心配しないで、しっかりやりなさい
+I won't be needing that money
+from Mr. Long-Legs for a while,
+so don't worry. Just focus on the task at hand.
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#あったかいスープを
+#作って待ってるから
+#しっかり、がんばってきなさい
+I'll have some warm soup ready
+and waiting for you,
+so go out there and give it your all.
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#あら、どうしたの<Kyle>
+#もう冒険ごっこは終わり？
+Oh? What's wrong, <Kyle>?
+Is your little pretend adventure
+over already?
+-----------------------
+<Kyle>
+-----------------------
+#冒険ごっこなんかじゃないよ
+#それに、まだ終わりじゃない
+This isn't some pretend adventure.
+And it's not over yet, either.
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#ふふっ
+#だったら、しっかり探してきなさい
+#あんたの「かけがえのないもの」をね♪
+Hehe.
+Then go and find it properly.
+Your 'irreplaceable treasure,' that is♪
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#あんたが、この旅で
+#なにを探してくるのか････
+#楽しみに待ってるわ
+I'm looking forward to seeing
+what you'll find on this journey...
+I'll be waiting.
+-----------------------
+#スタン
+Stahn
+-----------------------
+#十八年前の旅で
+#俺は、かけがえのないものを
+#見つけ、手にいれた
+On that journey eighteen years ago,
+I found something irreplaceable.
+Something I held in my own two hands.
+-----------------------
+#スタン
+Stahn
+-----------------------
+#それは、英雄という称号でも
+#力でもない
+It wasn't the title of 'hero.'
+It wasn't power, either.
+-----------------------
+#スタン
+Stahn
+-----------------------
+#仲間たちとの友情と
+#一生をかけて愛する者だ
+It was the friendship I shared with my comrades,
+and the person I'd love for the rest of my life.
+-----------------------
+#スタン
+Stahn
+-----------------------
+#俺は、俺が見つけたようなものを
+#おまえも見つけられたらいいなと
+#思っているよ
+I hope you can find something
+like what I found.
+That's what I wish for you.
+-----------------------
+#スタン
+Stahn
+-----------------------
+#行ってこい、<Kyle>！
+#おまえなら、きっと
+#なにかを見つけられるはずだ
+Go on, <Kyle>!
+If it's you, I'm sure
+you'll find something out there.
+-----------------------
+<Loni>
+-----------------------
+#しかたねえな････
+#やっぱ、遺跡に連れて行く話は
+#なかったってことで････
+Well, can't be helped...
+Guess that means there's no way
+I'm taking them to the ruins...
+-----------------------
+<Loni>
+-----------------------
+#まだいくな
+Not yet.
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#アハハッ、あんたらしいわね！
+#でも、それじゃ上の人たちに
+#うるさがられるでしょ？
+Ahaha, that's so like you!
+But didn't the higher-ups
+give you an earful about it?
+-----------------------
+<Loni>
+-----------------------
+#ああ、そりゃもうさんざん
+#ま、もう慣れたけど
+Yeah, they really tore into me.
+Well, I'm used to it by now.
+-----------------------
+<Loni>
+-----------------------
+#けどよ、やっぱりなんか間違ってるぜ
+#お祈りも、病気の治療も
+#レンズを持ってるヤツが優先される
+But still, something's not right.
+Whether it's prayers or healing the sick,
+the ones with Lens get priority.
+-----------------------
+<Loni>
+-----------------------
+#アタモニ神団ってのはあらゆる人を
+#助けるんじゃなかったのか？
+Wasn't the Order of Atamoni supposed
+to help everyone, no matter who?
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#それは････
+That's...
+-----------------------
+<Loni>
+-----------------------
+#それもこれも
+#エルレインって女が来てからだ
+#あれから、神団は変わっちまった････
+It's all because of that woman Elrane.
+Ever since she showed up,
+the Order's changed completely...
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#<Loni>････
+<Loni>...
+-----------------------
+<Kyle>
+-----------------------
+#ねえ、<Loni>
+#そんなことより
+#あの話、していいだろ？
+Hey, <Loni>.
+Forget about that for now.
+Can we talk about it?
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#あの話？
+Talk about what?
+-----------------------
+<Kyle>
+-----------------------
+#<Loni>ね、ラグナ遺跡に行くんだって！
+#で、オレもそれについてく！
+<Loni>'s heading to the Laguna Ruins!
+And I'm going with him!
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#え？
+What?
+-----------------------
+<Loni>
+-----------------------
+#いや、一応止めたんだけど
+#ほら、こいつ
+#言って聞くようなヤツじゃないから････
+Well, I tried to stop him, but...
+you know how he is.
+The type who never listens to anyone.
+-----------------------
+<Kyle>
+-----------------------
+#ねぇ、いいよね？
+C'mon, it's okay, right?
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#ダメダメ！
+#<Loni>を困らせないの
+#あんたが行っても、足手まといになるだけよ
+No, no!
+Don't make this harder on <Loni>.
+You'd just be dead weight.
+-----------------------
+<Kyle>
+-----------------------
+#そんなことない！
+That's not true!
+-----------------------
+<Kyle>
+-----------------------
+#母さんだってオレぐらいの歳には
+#もういっぱしの
+#レンズハンターだったんだし････
+Mom, you were already a full-fledged
+Lens Hunter by the time you were my age!
+-----------------------
+<Kyle>
+-----------------------
+#それにオレには
+#父さんの血だって流れてるんだ！
+#足手まといになんかならないよ！
+And I've got Dad's blood in me too!
+I won't be dead weight, I swear!
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#････それがいちばん心配なのよ
+#あんたに、あのスタンの血が
+#流れてるってことがね････
+...That's exactly what worries me most.
+That you've got that Stahn's blood
+running through your veins...
+-----------------------
+<Loni>
+-----------------------
+#ルーティさん････
+Rutee...
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#とにかく、この話はもうおしまい！
+#冒険なんて、あんたにゃ
+#まだ早すぎるの！
+Anyway, this conversation is over!
+You're not ready for adventures yet.
+It's too soon for you!
+-----------------------
+<Loni>
+-----------------------
+#････だとさ
+#しかたねえな、やっぱこの話は
+#なかったってことで････
+...That's what she says.
+Can't be helped, I guess.
+This whole thing never happened...
+-----------------------
+<Kyle>
+-----------------------
+#いいや、絶対に、ラグナ遺跡に行く！
+No way. I'm going to the Laguna Ruins,
+no matter what!
+-----------------------
+<Kyle>
+-----------------------
+#父さんが帰ってくるまでの間は
+#オレがここを守るって決めてるんだ
+#だから、絶対にレンズを持って帰る！
+Until Dad comes back,
+I've sworn to protect this place.
+So I'm definitely bringing back a Lens!
+-----------------------
+<Loni>
+-----------------------
+#････････････
+............
+-----------------------
+<Kyle>
+-----------------------
+#ふわぁ～････
+#････おはよう、<Loni>････
+*yawn*...
+Mornin', <Loni>...
+-----------------------
+<Loni>
+-----------------------
+#おう、<Kyle>
+#ずいぶんと早いじゃねえか
+#寝ぼすけのクセは、治った････
+Hey there, <Kyle>.
+You're up pretty early, aren't ya.
+Guess you've kicked that sleepyhead habit...
+-----------------------
+<Kyle>
+-----------------------
+#････････
+.........
+-----------------------
+<Loni>
+-----------------------
+#治ってねぇ････みたいだな
+...Not kicked, apparently.
+-----------------------
+<Loni>
+-----------------------
+#ま、いいか
+#今のうちに、ラグナ遺跡に････
+Oh well. Now's my chance
+to slip off to the Laguna Ruins...
+-----------------------
+<Kyle>
+-----------------------
+#ラグナ遺跡････そうだ！
+#<Loni>、どこ行くの!?　もう出発？
+Laguna Ruins... That's right!
+<Loni>, where you going!? You leaving already?
+-----------------------
+<Loni>
+-----------------------
+#････やっぱ、口は災いの元だな
+...Loose lips sink ships, huh.
+-----------------------
+<Loni>
+-----------------------
+#わーったよ、<Kyle>
+#連れてってやる
+Fine, fine, <Kyle>.
+I'll take you with me.
+-----------------------
+<Loni>
+-----------------------
+#ただし！　俺が無理だと思ったら
+#すぐに、引きかえす
+#それでいいな？
+But! If I think it's too dangerous,
+we turn right around.
+You got that?
+-----------------------
+<Kyle>
+-----------------------
+#オーケー、オーケー！
+#わかってるって！
+Okay, okay!
+I got it!
+-----------------------
+<Loni>
+-----------------------
+#やれやれ････
+#いいか、すぐに出かけるから
+#支度を整えるんだ
+Good grief... Listen up.
+We're heading out soon, so get ready.
+-----------------------
+<Loni>
+-----------------------
+#足りないぶんは
+#店で買いそろえればいい
+#わかったな、<Kyle>？
+If we're short on anything,
+we can pick it up at the shop.
+You got that, <Kyle>?
+-----------------------
+<Kyle>
+-----------------------
+#おはよう、母さん
+Morning, Mom.
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#おはようさん････って
+#あんたが、ひとりで起きてくるなんて
+#どういう風の吹きまわし!?
+Mornin'... wait.
+You got up on your own?
+What in the world got into you!?
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#どうしたの？
+#そんなところに突っ立ってないで
+#はやくテーブルにつきなさい
+What's wrong?
+Don't just stand there.
+Come sit down.
+-----------------------
+<Kyle>
+-----------------------
+#どうしたんだろ？
+#母さん
+#ずいぶん、ごきげんだな
+What's going on?
+Mom...
+you're in an awfully good mood.
+-----------------------
+<Kyle>
+-----------------------
+#あのさ、母さん、話があるんだ
+#オレさ････
+Hey, Mom, there's something I need to tell you.
+I...
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#おいしいでしょ、それ？
+#ガゼルさんの奥さんに教わったのよ
+#玉ねぎがポイントなんですって
+Isn't it delicious?
+Gazelle's wife taught me the recipe.
+The secret's in the onions, apparently.
+-----------------------
+<Kyle>
+-----------------------
+#母さん････
+Mom...
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#あ、そろそろ
+#<Loni>を起こさないとね
+#呼んできてくれる？
+Oh, it's about that time.
+We oughta get <Loni> up.
+Mind givin' 'em a shout?
+-----------------------
+<Kyle>
+-----------------------
+#母さんッ!!
+Mom!!
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#旅に出るんでしょ
+#<Loni>と････
+You're heading out on a journey, right?
+With <Loni>...
+-----------------------
+<Kyle>
+-----------------------
+#えっ････!?
+#ど、どうして、それを？
+Huh...!?
+H-how did you know that?
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#あたしをだれだと思ってんの？
+#だてにあんたの母親
+#十五年もやっちゃいないわよ
+Who do you think I am?
+You think I'd be your mother
+for fifteen years and not notice?
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#これはね
+#昔、あんたの父さんが
+#使ってたものよ
+This, see...
+it's something
+your father used to use.
+-----------------------
+<Kyle>
+-----------------------
+#父さんが････？
+Dad did...?
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#それから････
+#はい
+And also...
+here.
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#孤児院あてに
+#足長おじさんが送ってくれたお金
+#････あんたと、おんなじクセ字のね
+Money sent to the orphanage
+by a certain long-legged benefactor...
+...in the same messy handwriting as yours.
+-----------------------
+<Kyle>
+-----------------------
+#知ってたの、母さん!?
+#でも、オレたち
+#こんなにたくさんは････
+You knew, Mom!?
+But we can't possibly take
+this much...
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#だまって受けとればいいの！
+#子どもは子どもらしく
+#親のスネをかじる！
+Just shut up and take it!
+Kids are supposed to act like kids.
+Let your parents spoil you for once!
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#････その方がうれしいもんよ
+#親ってヤツは、ね････
+...That's what makes us happy.
+That's just how parents are...
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#ねえ、<Kyle>
+#あんた、父さんのこと覚えてる？
+Hey, <Kyle>.
+Do you remember your father?
+-----------------------
+<Kyle>
+-----------------------
+#父さんが旅に出たのって
+#十年以上も前のことだろ？
+#････正直、あんまり覚えてないよ
+Dad left on his journey
+over ten years ago, right?
+...Honestly, I don't remember much.
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#そっか････
+#あんたにはそう教えたんだっけ
+I see...
+I suppose that's what I told you.
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#ごめんね、<Kyle>････
+I'm sorry, <Kyle>...
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#こういうとき、どんな顔して
+#送り出してあげればいいか
+#わからないけど････
+I don't really know
+what face I'm supposed to make
+when I send you off like this...
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#うんと暴れてらっしゃい！
+#あいつに････
+#スタンに、負けないぐらいに！
+Go out there and give it your all!
+Don't you dare...
+lose to that fool Stahn!
+-----------------------
+<Kyle>
+-----------------------
+#母さん････！
+Mom...!
+-----------------------
+<Kyle>
+-----------------------
+#････母さん
+#オレ、行ってくるよ！
+...Mom.
+I'm heading out!
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#････いってらっしゃい、<Kyle>
+...Take care, <Kyle>.
+-----------------------
+notice
+-----------------------
+#<0B:00000001><num:000003E8><0B:00000000>ガルドを手に入れました
+<0B:00000001><num:000003E8><0B:00000000>Gald acquired.
+-----------------------
+#シナモン
+Cinnamon
+-----------------------
+#まだまだだな
+Not yet.
+-----------------------
+#シナモン
+Cinnamon
+-----------------------
+#約束だから、おれの宝物をやるよ
+A promise is a promise. I'll give you my treasure.
+-----------------------
+notice
+-----------------------
+#<Kyle>は
+#称号「<item:00000888>」を得ました
+<Kyle> has earned
+the title "<item:00000888>"!
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#あらっ、<Kyle>！おかえり！
+#どうしたの急に？
+Oh, <Kyle>! Welcome back!
+What's with the sudden visit?
+-----------------------
+<Kyle>
+-----------------------
+#母さん、オレ････
+Mom, I...
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#はは～ん
+#あんた、珍しく何か悩んでるでしょ？
+Hmm~?
+Something's bothering you. That's rare.
+-----------------------
+<Kyle>
+-----------------------
+#えっ!?　ど、どうして････？
+Huh!? Wh-why...?
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#自分じゃ気がついてないんだろうけど
+#やたらと鼻の頭をかくんだもの
+#父さんも同じクセを持ってたからね
+You probably haven't noticed,
+but you're scratching the tip of your nose like crazy.
+Your father had the exact same habit.
+-----------------------
+<Kyle>
+-----------------------
+#父さんが････
+Dad did...
+-----------------------
+<Kyle>
+-----------------------
+#みんなゴメン
+#ちょっと、はずしてもらえるかな？
+Sorry, everyone.
+Could you give us a minute?
+-----------------------
+<Loni>
+-----------------------
+#ああ、わかってる
+Yeah, I get it.
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#そっか、思いだしちゃったんだ
+#父さんが殺されたってこと
+I see... So you remembered.
+That your father was killed.
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#あの日のことだけ記憶から
+#抜けてたから、<Loni>と相談して
+#あんたには話さない方がいいって････
+That day was the only thing missing from your memory,
+so I talked it over with <Loni>,
+and we decided it was better not to tell you...
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#よかれと思ってやったことだけど
+#かえって傷つけたのかもしれないね
+#ごめんね、<Kyle>
+I thought I was doing the right thing,
+but maybe I only ended up hurting you more.
+I'm sorry, <Kyle>.
+-----------------------
+<Kyle>
+-----------------------
+#いいんだ、そのことはもう････
+It's fine. Let's not talk about that anymore...
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#でも、あんたが、まさか世界の命運を
+#決めるほどの英雄になるなんて思わなかった
+Still, I never imagined you'd grow up to be a hero
+with the fate of the world resting on your shoulders.
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#血は争えないってことかな
+#ふふっ････
+I guess the apple doesn't fall far from the tree.
+Hehe...
+-----------------------
+<Kyle>
+-----------------------
+#母さん、オレ、
+#自分なりにいろいろ考えてみたんだ
+Mom, I...
+I've been doing a lot of thinking on my own.
+-----------------------
+<Kyle>
+-----------------------
+#でも、どうしても答えが見つけられなくて････
+But no matter how hard I try, I can't find the answer...
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#あんたの探してる答えは
+#あたしは持ってないわ
+#それがあるのは････
+The answer you're looking for...
+I don't have it.
+The only place you'll find it is...
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#ここよ
+right here.
+-----------------------
+<Kyle>
+-----------------------
+#オレの････
+My...
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#あんたの胸の中にしか
+#その答えはないわ
+The answer lies
+only within your heart.
+-----------------------
+<Kyle>
+-----------------------
+#････････
+......
+-----------------------
+<Kyle>
+-----------------------
+#か、母さん････!?
+M-Mom...!?
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#<Kyle>････
+#つらいよね････苦しいよね････
+<Kyle>...
+It hurts... doesn't it? It's so hard...
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#大好きな人を、自分の手で
+#殺さなきゃいけないなんて････！
+Having to kill the person you love
+with your own hands...!
+-----------------------
+<Kyle>
+-----------------------
+#････母さん！
+...Mom!
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#････でもね、<Kyle>
+#やっぱり、あんたが決めなきゃいけないの
+...But you know, <Kyle>,
+in the end, you're the one who has to decide.
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#それは、あんたが英雄だからじゃない
+Not because you're some kind of hero.
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#あんたが、男の子だから
+#そして、あの子を好きになったから････
+Because you're a young man.
+And because you fell in love with that girl...
+-----------------------
+<Kyle>
+-----------------------
+#母さん、オレ････！
+Mom...!
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#つらいのはあの子だって同じ
+#だから、あんたが決めるの
+#ビシッと男らしく！
+She's hurting just as much as you are.
+That's why you need to be the one to decide.
+And you need to do it like a man!
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#どんな結果になろうと、あの子はきっと
+#あんたを信じてくれるわ
+No matter how things turn out, that girl will always
+believe in you.
+-----------------------
+<Kyle>
+-----------------------
+#うん、うん････！
+Yeah... yeah...!
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#なかなか、いないわよ？
+#自分のことを
+#そこまで信じてくれる人は
+Someone who believes in you
+that deeply, even when
+you don't believe in yourself?
+They're hard to come by.
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#だから････大事にしてあげなさい
+So... cherish her.
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#勇気を出して<Kyle>
+#あんたならだいじょうぶ
+#だって、あたしと父さんの子でしょ？
+Be brave, <Kyle>
+You'll be fine.
+After all, you're Stahn and my son, right?
+-----------------------
+<Kyle>
+-----------------------
+#う、うん････！
+Y-yeah...!
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#さあ、もう行きなさい
+#みんなが待ってるわ
+Now go.
+Everyone's waiting.
+-----------------------
+<Kyle>
+-----------------------
+#ありがとう、母さん････
+#オレ、行ってくるよ
+Thanks, Mom...
+I'm heading out.
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+<Kyle>
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#すべてが終わったら、
+#また、みんなでいらっしゃい
+#ここで待ってるから････
+Once everything's over,
+come back here with everyone.
+I'll be waiting...
+-----------------------
+#ルーティ
+Rutee
+-----------------------
+#あたしたちも、あんたを信じてる
+#そうでしょ、スタン････
+We believe in you too.
+Right, Stahn...?
+-----------------------
+<Loni>
+-----------------------
+#････話したんだな
+...You talked to her, huh.
+-----------------------
+<Kyle>
+-----------------------
+#････うん
+...Yeah.
+-----------------------
+<Loni>
+-----------------------
+#････んじゃ、行くか
+...Well then, let's get going.
+-----------------------
+<Kyle>
+-----------------------
+#････うん！
+...Yeah!
+-----------------------
+#いってらっしゃいませ
+Have a good day.
+-----------------------
+#<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
+#お泊まりになりますか？
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+Would you like to stay?
+-----------------------
+#お泊まりになりますか？
+Would you like to stay?
+-----------------------
+select
+-----------------------
+#<03:00000000>　はい　
+#　いいえ　
+<03:00000000> Yes
+No
+-----------------------
+#ごゆっくりお休みください
+Have a good night.
+-----------------------
+#おはようございます
+Good morning.
+-----------------------
+#お金が足りません
+Not enough money.
+-----------------------
+#またのおこしをお待ちしております
+We hope to see you again soon.
+-----------------------
+set_parameter( myself, C_PARTY, 0 );
+-----------------------
+wait_map_scroll();
+-----------------------
+exit-party_togather( short spd )
+-----------------------
+notice
+-----------------------
+#{16}{26}{12}{C0}を手に入れました
+{16}{26}{12}{C0}You obtained .
+-----------------------
+notice
+-----------------------
+#<item:FFFFFFFF>を手に入れました
+Acquired <item:FFFFFFFF>.
+-----------------------
+notice
+-----------------------
+#{16}{26}{1A}{C0}がありましたが
+#いっぱいで持てませんでした
+{16}{26}{1A}{C0}There was , but
+your inventory was full.
+-----------------------
+notice
+-----------------------
+#何もありません
+There's nothing here.
+-----------------------

@@ -1,0 +1,182 @@
+#飛行竜・中心部
+Flying Dragon - Central Area
+-----------------------
+#飛行竜
+Flying Dragon
+-----------------------
+noitce
+-----------------------
+#制御装置を破壊しないと通れません
+We can't get through unless we destroy the control device.
+-----------------------
+<Loni>
+-----------------------
+#くそっ！　遅かったか！
+Damn it! Were we too late?!
+-----------------------
+<Kyle>
+-----------------------
+#こんなもの！
+What the--?!
+-----------------------
+<Judas>
+-----------------------
+#いや、おそらくムダだろう
+#飛行竜は、限りなく生き物に近い機械だ
+#これを壊してもすぐに再生する
+No, it's probably futile.
+The Flying Dragon is a machine that's as close to a living creature as it gets.
+Destroy this part and it'll regenerate almost immediately.
+-----------------------
+<Kyle>
+-----------------------
+#じゃあ、どうすればいいの!?
+Then what are we supposed to do?!
+-----------------------
+<Judas>
+-----------------------
+#飛行竜の体内にある
+#制御装置を破壊するんだ
+There's a control device
+inside the Flying Dragon. Destroy it.
+-----------------------
+<Judas>
+-----------------------
+#全て壊せば、このロックも
+#解除されるだろう
+If we destroy them all, this lock
+should disengage as well.
+-----------------------
+<Judas>
+-----------------------
+#<Kyle>、さっきフィリアからもらった
+#ソーサラースコープはあるな？
+#それを使って、制御装置を見つけるんだ
+<Kyle>, you got the Sorcerer's Scope
+from Philia earlier, right?
+Use it to find the control devices.
+-----------------------
+<Judas>
+-----------------------
+#使うときは、<button:0000003B>ボタンだ
+#だが、ソーサラーリング以上に
+#レンズを消費する、気をつけろよ
+When you use it, press the <button:0000003B> button.
+But be warned: it consumes
+even more Lens than the Sorcerer's Ring.
+-----------------------
+<Kyle>
+-----------------------
+#わかった！
+Got it!
+-----------------------
+<Judas>
+-----------------------
+#それと、おそらくだが････
+#この飛行竜は、カルビオラに向かっている
+Also, I suspect...
+this Flying Dragon is heading toward Kalviola.
+-----------------------
+<Nanaly>
+-----------------------
+#聖地か････
+#そこで、神さまの降臨を
+#やりなおそうってワケだね
+The holy land, huh...
+So they mean to do God's descent
+all over again, is that it?
+-----------------------
+<Judas>
+-----------------------
+#うかうかしていると
+#やつの目的地に到着してしまう
+#時間はあまりないぞ
+If we waste time,
+we'll arrive at its destination.
+We don't have much time left.
+-----------------------
+<Kyle>
+-----------------------
+#わかった！
+#急いで探そう！
+Got it!
+Let's hurry and search!
+-----------------------
+notice
+-----------------------
+#<Judas>は
+#称号「<item:00000827>」を得ました
+<Judas> obtained
+the title "<item:00000827>"!
+-----------------------
+notice
+-----------------------
+#宝箱はフェイクでした
+The treasure chest was a fake.
+-----------------------
+#いってらっしゃいませ
+Welcome.
+-----------------------
+#<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
+#お泊まりになりますか？
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald per night.
+Would you like to stay?
+-----------------------
+#お泊まりになりますか？
+Would you like to stay?
+-----------------------
+select
+-----------------------
+#<03:00000000>　はい　
+#　いいえ　
+<03:00000000> Yes
+No
+-----------------------
+#ごゆっくりお休みください
+Please rest well.
+-----------------------
+#おはようございます
+Good morning.
+-----------------------
+#お金が足りません
+Not enough money.
+-----------------------
+#またのおこしをお待ちしております
+We hope to see you again.
+-----------------------
+set_parameter( myself, C_PARTY, 0 );
+-----------------------
+wait_map_scroll();
+-----------------------
+exit-party_togather( short spd )
+-----------------------
+notice
+-----------------------
+#{16}{25}{BE}{C0}を手に入れました
+Acquired {16}{25}{BE}{C0}.
+-----------------------
+notice
+-----------------------
+#<item:FFFFFFFF>を手に入れました
+Acquired <item:FFFFFFFF>.
+-----------------------
+notice
+-----------------------
+#{16}{25}{D2}{C0}がありましたが
+#いっぱいで持てませんでした
+Found {16}{25}{D2}{C0}, but
+couldn't carry it because your inventory is full.
+-----------------------
+notice
+-----------------------
+#何もありません
+There's nothing here.
+-----------------------
+#タイムオーバー
+Time over.
+-----------------------
+noitce
+-----------------------
+#制御装置を破壊しました
+Destroyed the control device.
+-----------------------

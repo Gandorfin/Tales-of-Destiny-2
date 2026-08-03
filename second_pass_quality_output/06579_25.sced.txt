@@ -1,0 +1,501 @@
+#ラディスロウ・カーレルの部屋
+Radisrol - Karell's Room
+-----------------------
+#ラディスロウ
+Radisrol
+-----------------------
+#カーレルの部屋
+Karell's Room
+-----------------------
+#カーレルの物らしきリュックが入っている
+There's a backpack that seems to belong to Karell.
+-----------------------
+<char:000003E8>
+-----------------------
+#これは！
+This is it!
+-----------------------
+NOTICE
+-----------------------
+#いろいろのクイズ問題を見つけた！
+I found all sorts of quiz questions!
+-----------------------
+NOTICE
+-----------------------
+#クイズ本に新しいジャンルが追加されました
+A new genre has been added to the quiz book.
+-----------------------
+#カーレルの机だ
+#報告書がキレイにまとめられている
+It's Karell's desk.
+The reports are neatly organized.
+-----------------------
+#兵士
+Soldier
+-----------------------
+#作戦開始まで、こちらでお休みください
+Please rest here until the operation begins.
+-----------------------
+select
+-----------------------
+#<03:00000000>　休む　
+#　休まない　
+<03:00000000> Rest
+Don't rest
+-----------------------
+#兵士
+Soldier
+-----------------------
+#作戦開始まで、こちらでお休みください
+Please rest here until the operation begins.
+-----------------------
+select
+-----------------------
+#<03:00000000>　休む　
+#　休まない　
+<03:00000000> Rest
+Don't rest
+-----------------------
+#兵士
+Soldier
+-----------------------
+#いってらっしゃいませ
+Have a good day.
+-----------------------
+#兵士
+Soldier
+-----------------------
+#お休みになりますか？
+Would you like to rest?
+-----------------------
+select
+-----------------------
+#<03:00000000>　はい　
+#　いいえ　
+<03:00000000> Yes
+No
+-----------------------
+#兵士
+Soldier
+-----------------------
+#ごゆっくりお休みください
+Have a good night.
+-----------------------
+#兵士
+Soldier
+-----------------------
+#おはようございます
+Good morning.
+-----------------------
+#兵士
+Soldier
+-----------------------
+#いつでも休んでかまわないとのことです
+They say you can rest whenever you'd like.
+-----------------------
+<Kyle>
+-----------------------
+#なんかさ、ワクワクしてくるよね！
+#あのソーディアンチームと
+#いっしょに戦えるなんてさ！
+Man, I'm getting so pumped!
+I mean, we're gonna be fighting
+alongside the Swordian team!
+-----------------------
+<Judas>
+-----------------------
+#浮かれていると、ケガをするぞ
+Get too excited and you'll get hurt.
+-----------------------
+<Kyle>
+-----------------------
+#言われなくても、わかってるよ！
+I know that without you telling me!
+-----------------------
+<Loni>
+-----------------------
+#まぁ、しょうがねえよな
+#ソーディアンチームといやあ伝説上の英雄
+#しかも、とびきり有名ときてる
+Well, can't blame ya.
+The Swordian team are basically legendary heroes.
+And the most famous ones at that.
+-----------------------
+<Loni>
+-----------------------
+#落ちつけってほうが、ムリな話さ
+#ましてや、こいつの英雄好きときたら
+#筋金入りだからな
+Telling you to calm down'd be asking too much.
+Especially with how crazy this guy is about heroes.
+He's a real fanatic.
+-----------------------
+<Reala>
+-----------------------
+#ふふっ！　そうね
+Hehe! That's true.
+-----------------------
+<Kyle>
+-----------------------
+#あ、<Reala>まで笑った！
+#ひでーなー！
+Ah, even <Reala>'s laughing!
+That's harsh!
+-----------------------
+<Reala>
+-----------------------
+#でも････<Kyle>だって
+#わたしから見たら
+#立派な英雄なんだけどな
+But... even <Kyle>,
+from where I'm standing,
+is a fine hero.
+-----------------------
+<Kyle>
+-----------------------
+#そ、そうかな････
+R-really...?
+-----------------------
+<Nanaly>
+-----------------------
+#はいはい、ごちそーさま！
+#なんせ<Kyle>は
+#<Reala>だけの英雄だもんね
+All right, all right, enough!
+I mean, <Kyle> is
+<Reala>'s own personal hero, after all.
+-----------------------
+<Loni>
+-----------------------
+#あー、アホらし
+#なにが悲しくて、他人のノロケ話
+#聞かなきゃなんねえんだよ
+Man, what a pain.
+Why do I gotta listen to other people
+gushing about their love lives?
+-----------------------
+<Loni>
+-----------------------
+#ちょっと、外の空気吸ってくるわ
+#････おい<Nanaly>
+#おまえも、つきあえよ
+I'm gonna step out for some fresh air.
+...Hey, <Nanaly>.
+You're coming with me.
+-----------------------
+<Nanaly>
+-----------------------
+#な、なんで、あんたに
+#つきあわなくちゃいけないのさ！
+W-why do I have to
+go along with you?!
+-----------------------
+<Loni>
+-----------------------
+#気ぃきかせろよ、バカ
+Read the room, idiot.
+-----------------------
+<Nanaly>
+-----------------------
+#････わ、わかった
+#けど、カン違いしないでよ！
+#しかたなくなんだからね！
+...F-fine.
+But don't get the wrong idea!
+I'm only doing this 'cause I have to!
+-----------------------
+<Loni>
+-----------------------
+#へいへい、行くぞ
+Yeah, yeah. Let's go.
+-----------------------
+<Judas>
+-----------------------
+#<Harold>の様子を見てくる
+I'll go check on <Harold>.
+-----------------------
+<Kyle>
+-----------------------
+#あ、あはは････
+#なんか、みんな
+#いなくなっちゃったね････
+Ah, hahaha...
+Looks like everyone
+just up and left...
+-----------------------
+<Reala>
+-----------------------
+#････<Kyle>
+#さっきのこと････冗談で
+#言ったんじゃないから
+...<Kyle>.
+What I said before...
+I wasn't joking.
+-----------------------
+<Kyle>
+-----------------------
+#えっ？
+Huh?
+-----------------------
+<Reala>
+-----------------------
+#わたしから見たら<Kyle>も
+#立派な英雄だってこと
+That <Kyle>, from where I'm standing,
+is a fine hero too.
+-----------------------
+<Kyle>
+-----------------------
+#あ、あはは････
+Ah, ahaha...
+-----------------------
+<Reala>
+-----------------------
+#<Kyle>なら
+#わたしの願いを、かなえてくれる
+#そう、信じてるから
+If it's <Kyle>, then
+my wish will be granted.
+That's what I believe.
+-----------------------
+<Kyle>
+-----------------------
+#わ、わかってるから！
+#おやすみ、<Reala>
+I-I get it!
+Good night, <Reala>
+-----------------------
+<Reala>
+-----------------------
+#信じてるわ、<Kyle>
+#わたしの願いを、かなえてくれるって
+I believe in you, <Kyle>.
+That you'll grant my wish.
+-----------------------
+<Reala>
+-----------------------
+#････たとえ、なにが起ころうとも
+#かなえてくれるって･････
+...No matter what happens,
+you'll make it come true...
+-----------------------
+<Kyle>
+-----------------------
+#いよいよ、最終決戦だね！
+It's finally time for the final battle!
+-----------------------
+<Loni>
+-----------------------
+#まさか、伝説のソーディアンチームと
+#いっしょに天地戦争を戦うことに
+#なるとはなぁ
+I can't believe I'm gonna be
+fighting alongside the legendary Swordian team
+in the Aeth'er Wars.
+-----------------------
+<Nanaly>
+-----------------------
+#アトワイトさんもいるし
+#あとは、ダイクロフトで
+#バルバトスの動きを封じれば････
+Atwight's here too.
+All that's left is to stop Barbatos's movements
+at Dycroft, and...
+-----------------------
+<Kyle>
+-----------------------
+#歴史改変は、防げる！
+We can stop history from being altered!
+-----------------------
+<Judas>
+-----------------------
+#そして、カーレルは死ぬ、か････
+And Karell dies, huh...
+-----------------------
+<Kyle>
+-----------------------
+#カーレルさんが死ぬって････
+Karell is going to die...
+-----------------------
+<Judas>
+-----------------------
+#天地戦争の結末を、知らないのか？
+Do you not know how the Aeth'er Wars ended?
+-----------------------
+<Loni>
+-----------------------
+#ソーディアンチームが
+#天上王ミクトランを倒して
+#めでたしめでたし、だろ？
+The Swordian team
+defeated the Aeth'er ruler Kronos,
+and they all lived happily ever after, right?
+-----------------------
+<Judas>
+-----------------------
+#それは間違っていない
+#だが、重要なことが抜けている
+That's not wrong.
+But you're missing something important.
+-----------------------
+<Judas>
+-----------------------
+#圧倒的な強さを誇るミクトランには
+#ソーディアンチームといえど苦戦したんだ
+Kronos was overwhelmingly powerful.
+Even the Swordian team struggled against him.
+-----------------------
+<Judas>
+-----------------------
+#ひとりの男が捨て身の攻撃をし
+#ミクトランと刺しちがえなければ
+#勝利は、おぼつかなかっただろう
+One man threw himself into a suicidal attack.
+If he hadn't impaled himself on Kronos along with his thrust,
+victory would have been far from certain.
+-----------------------
+<Reala>
+-----------------------
+#それが････カーレルさんね
+That man... was Karell.
+-----------------------
+<Kyle>
+-----------------------
+#そんな････！
+#ど、どうしよう!?
+No way...!
+W-what do we do!?
+-----------------------
+<Kyle>
+-----------------------
+#そうだ！　<Harold>に相談してみようよ！
+#そうすれば、カーレルさんは死なずに済む！
+I know! Let's ask <Harold> for help!
+Then Karell won't have to die!
+-----------------------
+<Judas>
+-----------------------
+#ダメだ、それは歴史を改変することになる
+#エルレインと同じことを
+#おまえもするつもりか？
+It's no good. That would alter history.
+Are you planning to do
+the same thing Elrane did?
+-----------------------
+<Kyle>
+-----------------------
+#あ････
+Ah...
+-----------------------
+<Judas>
+-----------------------
+#････とにかく、このことは
+#<Harold>には、だまっておくんだ
+...Anyway, we need to keep this quiet
+around <Harold>.
+-----------------------
+<Nanaly>
+-----------------------
+#正直････いやな気分だね
+#隠し事をするってのはさ
+Honestly... I hate this.
+Keeping secrets from people...
+-----------------------
+<Loni>
+-----------------------
+#あぁ、しかも
+#人の命に関わることを
+#黙ってるってのはよ････
+Yeah, and on top of that,
+keeping quiet about something
+that involves someone's life...
+-----------------------
+<Judas>
+-----------------------
+#人はいつか、かならず死ぬ
+#それが、遅いか早いかの違いだ
+People die eventually.
+The only difference is whether it's sooner or later.
+-----------------------
+<Judas>
+-----------------------
+#････そう、割り切るしかないんだ
+...We simply have to accept it.
+-----------------------
+<Kyle>
+-----------------------
+#････････
+......
+-----------------------
+<Reala>
+-----------------------
+#決まっている、死････
+#････だれでも、いつかは････
+It's certain... death...
+...everyone... eventually...
+-----------------------
+<Reala>
+-----------------------
+#････････
+#いつか、わたしも････
+......
+Someday, I too...
+-----------------------
+#いってらっしゃいませ
+Have a good day.
+-----------------------
+#<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
+#お泊まりになりますか？
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+Would you like to stay?
+-----------------------
+#お泊まりになりますか？
+Would you like to stay?
+-----------------------
+select
+-----------------------
+#<03:00000000>　はい　
+#　いいえ　
+<03:00000000> Yes
+No
+-----------------------
+#ごゆっくりお休みください
+Have a good night.
+-----------------------
+#おはようございます
+Good morning.
+-----------------------
+#お金が足りません
+Not enough money.
+-----------------------
+#またのおこしをお待ちしております
+See you again soon.
+-----------------------
+set_parameter( myself, C_PARTY, 0 );
+-----------------------
+wait_map_scroll();
+-----------------------
+exit-party_togather( short spd )
+-----------------------
+notice
+-----------------------
+#{16}{25}{C6}{C0}を手に入れました
+Acquired {16}{25}{C6}{C0}.
+-----------------------
+notice
+-----------------------
+#<item:FFFFFFFF>を手に入れました
+Acquired <item:FFFFFFFF>.
+-----------------------
+notice
+-----------------------
+#{16}{25}{CE}{C0}がありましたが
+#いっぱいで持てませんでした
+Found {16}{25}{CE}{C0}, but
+your inventory is full.
+-----------------------
+notice
+-----------------------
+#何もありません
+There's nothing here.
+-----------------------

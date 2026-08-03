@@ -1,0 +1,494 @@
+#物資保管所・ソーディアン研究室
+Supply Storage & Swordian Research Lab
+-----------------------
+#物資保管所
+Supplies Storage
+-----------------------
+#ソーディアン研究室
+Swordian Research Lab
+-----------------------
+<Harold>
+-----------------------
+#んじゃ、ちゃっちゃと
+#終わらせますか
+Well then, let's get this over with.
+and finish it up.
+-----------------------
+<Harold>
+-----------------------
+#これでよし････と！
+There we go... perfect!
+-----------------------
+<Harold>
+-----------------------
+#いい、あんたたち？
+#しっかり目に焼きつけなさいよ
+#この歴史的瞬間を！
+You getting this, everyone?
+Burn this into your eyes,
+this historic moment!
+-----------------------
+<Kyle>
+-----------------------
+#す、すごいや････！
+W-Wow...!
+-----------------------
+<Nanaly>
+-----------------------
+#どうなってんのさ、いったい？
+#まぶしくてなんにも見えやしない
+What's going on, anyway?
+It's so bright I can't see a thing.
+-----------------------
+<Loni>
+-----------------------
+#こ、こりゃあすげぇ････
+#これがソーディアンか････！
+W-Well, I'll be...
+So this is a Swordian...!
+-----------------------
+#ディムロス
+Dymlos
+-----------------------
+#驚いたな、試作品よりも
+#はるかに使いやすくなっている
+I'm amazed. It's far easier
+to wield than the prototype.
+-----------------------
+#イクティノス
+Igtenos
+-----------------------
+#これは････本当に剣なのか？
+#持っている感覚さえない
+#まるで自分の手の一部のようだ
+What... is this truly a sword?
+I can't even feel myself holding it.
+It's as if it were part of my own hand.
+-----------------------
+#シャルティエ
+Chaltier
+-----------------------
+#握っただけで、すごさがわかります
+#この剣さえあれば
+#だれにも負ける気がしません
+Simply holding it tells me how amazing it is.
+With this sword alone,
+I feel I could never lose to anyone.
+-----------------------
+<Harold>
+-----------------------
+#この程度で驚かれちゃ困るわ
+#ソーディアンには
+#もっとすごい力があるんだから
+It'd be a problem if you were amazed by just this.
+Swordians possess
+even greater power than that.
+-----------------------
+#カーレル
+Karell
+-----------------------
+#すごい力････？
+Greater power...?
+-----------------------
+<Harold>
+-----------------------
+#ちょっと貸してみて、兄貴
+Lend me a hand, bro.
+-----------------------
+<Harold>
+-----------------------
+#ハァーーーッ!!
+Haaaaaah!!
+-----------------------
+<Harold>
+-----------------------
+#あちゃ～、やりすぎちゃったかな
+Oops... did I overdo it?
+-----------------------
+#カーレル
+Karell
+-----------------------
+#い、いまのは････!?
+W-What was that...!?
+-----------------------
+<Harold>
+-----------------------
+#ディムロスは知ってると思うけど
+#この剣を持つ者は晶術という
+#特殊な力が使えるのよ
+I'm sure Dymlos already knows, but
+those who wield these swords can use a special
+power called Lens Arte.
+-----------------------
+<Harold>
+-----------------------
+#晶術はひとりひとり特性が違うから
+#六人もいれば、おたがいの弱点を
+#補いあえるってわけ
+Lens Arte differs from person to person,
+so with six of us, we can
+cover for each other's weaknesses.
+-----------------------
+<Harold>
+-----------------------
+#どう、スゴいっしょ？
+Pretty amazing, right?
+-----------------------
+#カーレル
+Karell
+-----------------------
+#まったく、おまえは天才だよ
+#我が妹ながらときどき
+#そらおそろしくなる････
+Honestly, you're a genius.
+Even as your older brother, I sometimes
+find you terrifying...
+-----------------------
+<Harold>
+-----------------------
+#あら、今ごろ気づいたの？
+#まったく、兄貴ってアホね
+Oh? Only just noticed?
+Honestly, you're such an idiot.
+-----------------------
+#ディムロス
+Dymlos
+-----------------------
+#ところで、<Kyle>くん
+#申し訳ないが、この吉報を
+#司令に届けてもらえないだろうか？
+By the way, <Kyle>,
+I'm sorry to ask, but could you deliver
+this good news to the commander?
+-----------------------
+#ディムロス
+Dymlos
+-----------------------
+#我々は<Harold>に
+#晶術の操り方を
+#学ばねばならないんでね
+We must learn from <Harold>
+how to wield Lens Arte.
+That's simply how it is.
+-----------------------
+<Kyle>
+-----------------------
+#わかりました
+#まかせてください、ディムロスさん
+Understood.
+Leave it to me, Dymlos.
+-----------------------
+notice
+-----------------------
+#<Harold>は
+#称号「<item:0000080F>」を得ました
+<Harold> is
+You've earned the title '<item:0000080F>'!
+-----------------------
+<Kyle>
+-----------------------
+#急いで、リトラーさんに
+#ソーディアン完成のことを知らせよう！
+Hurry, let's tell Marius
+about the Swordians being completed!
+-----------------------
+#ディムロス
+Dymlos
+-----------------------
+#ソーディアン完成の吉報を
+#司令に届けてもらえないだろうか？
+Could you deliver the good news
+of the Swordians' completion to the commander?
+-----------------------
+#ディムロス
+Dymlos
+-----------------------
+#我々は<Harold>に
+#晶術の操り方を
+#学ばねばならないんでね
+We must learn from <Harold>
+how to wield Lens Arte.
+That's simply how it is.
+-----------------------
+#イクティノス
+Igtenos
+-----------------------
+#これは････本当に剣なのか？
+#持っている感覚さえない
+#まるで自分の手の一部のようだ
+What... is this truly a sword?
+I can't even feel myself holding it.
+It's as if it were part of my own hand.
+-----------------------
+#シャルティエ
+Chaltier
+-----------------------
+#これがソーディアン････
+So this is a Swordian...
+-----------------------
+#カーレル
+Karell
+-----------------------
+#このソーディアンの名前は
+#ベルセリオスなんだ
+This Swordian's name
+is Berselius.
+-----------------------
+#カーレル
+Karell
+-----------------------
+#それぞれのソーディアンには
+#使い手の人格が投影されているが････
+Each Swordian has
+its wielder's personality projected into it, but...
+-----------------------
+#カーレル
+Karell
+-----------------------
+#これには、<Harold>の人格が
+#入っている
+This one contains <Harold>'s personality.
+-----------------------
+#カーレル
+Karell
+-----------------------
+#使い手は私････
+#人格は<Harold>････
+#私と<Harold>は、いかなる時も共にある
+#それが私の力となるんだ
+I am the wielder...
+The personality is <Harold>...
+<Harold> and I are together, no matter what.
+That is what gives me strength.
+-----------------------
+#クレメンテ
+Clemente
+-----------------------
+#なんという軽さじゃ････
+#ほとんど、重さを感じないのぉ････
+#ホイッホイッとな
+Such lightness...
+I can hardly feel any weight at all...
+Heave-ho, heave-ho.
+-----------------------
+#アトワイト
+Atwight
+-----------------------
+#晶術には
+#回復のための術もあるのですね？
+Magic Artes include
+spells for healing as well, don't they?
+-----------------------
+#ラディッツ
+Radisrol
+-----------------------
+#ベルクラントを開発してしまった罪を
+#このソーディアンによって
+#清算できればいいのだが････
+If only I could atone for my sin
+of developing Belcrant
+through this Swordian...
+-----------------------
+#ラディッツ
+Radisrol
+-----------------------
+#ベルクラントを開発してしまった罪を
+#このソーディアンによって
+#清算できればいいのだが････
+If only I could atone for my sin
+of developing Belcrant
+through this Swordian...
+-----------------------
+#研究員
+Researcher
+-----------------------
+#ベルクラント････
+#我々は
+#おそろしいものを作ってしまった
+Belcrant...
+We have
+created something terrible.
+-----------------------
+#研究員
+Researcher
+-----------------------
+#<Harold>博士は天才だ････
+#しかし、私は
+#彼女の普段の行動が理解できない････
+Dr. <Harold> is a genius...
+But I...
+I just can't understand her usual behavior...
+-----------------------
+#研究員
+Researcher
+-----------------------
+#えーと････
+#あのデータは
+#どこにいったかな？
+Um...
+Now where did
+that data go?
+-----------------------
+#研究員
+Researcher
+-----------------------
+#今の私には
+#見守る事しかできません
+As I am now,
+all I can do is watch over you.
+-----------------------
+#研究員
+Researcher
+-----------------------
+#コア････に人格を投与して････
+#････材質の強度は････
+#ぶつぶつ････
+Administering personality to the core...
+...material strength is...
+*mumble mumble*...
+-----------------------
+#研究員
+Researcher
+-----------------------
+#研究のゴールともいえる
+#完成を目の当たりにして少し複雑な気分です････
+#研究者は結果ではなく研究のプロセスの中に
+#生きがいを求めているのです
+It could be called the goal of our research.
+Seeing it completed leaves me with mixed feelings...
+For researchers, fulfillment isn't found in the results,
+but in the process of the research itself.
+-----------------------
+#研究員
+Researcher
+-----------------------
+#我々を救出して下さった方々ですね
+#そのせつは本当にありがとうございました！
+You're the ones who rescued us.
+Thank you so very much for that!
+-----------------------
+#研究員
+Researcher
+-----------------------
+#<Harold>博士には
+#正直、嫉妬の感情を抱くよ････
+#天才というものは
+#真に存在するものなのだね････
+I must admit, I feel a twinge of jealousy
+toward Dr. <Harold>...
+So a true genius
+really does exist...
+-----------------------
+#研究員
+Researcher
+-----------------------
+#何日も徹夜したかいがあった････
+All those sleepless nights were worth it...
+-----------------------
+#研究員
+Researcher
+-----------------------
+#僕は、戦争は嫌いです！
+#でも、まさか、こういう形で
+#戦争に参加することになるなどとは
+#思いませんでした････
+I hate war!
+But I never imagined
+I'd end up taking part in a war
+like this...
+-----------------------
+#研究員
+Researcher
+-----------------------
+#早くこんな戦争は
+#終わってほしいものです
+I just want this war
+to end as soon as possible.
+-----------------------
+<Harold>
+-----------------------
+#そんじゃ、またあとでね
+Well then, see you later.
+-----------------------
+<Harold>
+-----------------------
+#ホラホラ、研究の邪魔しないの
+#これあげるから、戻って戻って
+Come on, don't get in the way of my research.
+Here, I'll give you this, so go on, shoo.
+-----------------------
+NOTICE
+-----------------------
+#<item:000001B2>を手に入れました
+Acquired <item:000001B2>.
+-----------------------
+<Harold>
+-----------------------
+#ホラホラ、研究の邪魔しないの
+#アンタたちはアンタたちの用事を
+#すませてきちゃいなさい
+Come on, don't get in the way of my research.
+You all have your own business to attend to,
+so go take care of it.
+-----------------------
+#ライトニング！
+Lightning!
+-----------------------
+#いってらっしゃいませ
+Have a good day.
+-----------------------
+#<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
+#お泊まりになりますか？
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+Would you like to stay?
+-----------------------
+#お泊まりになりますか？
+Would you like to stay?
+-----------------------
+select
+-----------------------
+#<03:00000000>　はい　
+#　いいえ　
+<03:00000000> Yes
+No
+-----------------------
+#ごゆっくりお休みください
+Have a good night.
+-----------------------
+#おはようございます
+Good morning.
+-----------------------
+#お金が足りません
+Not enough money.
+-----------------------
+#またのおこしをお待ちしております
+We look forward to your next visit.
+-----------------------
+set_parameter( myself, C_PARTY, 0 );
+-----------------------
+wait_map_scroll();
+-----------------------
+exit-party_togather( short spd )
+-----------------------
+notice
+-----------------------
+#{16}{25}{C6}{C0}を手に入れました
+Acquired {16}{25}{C6}{C0}.
+-----------------------
+notice
+-----------------------
+#<item:FFFFFFFF>を手に入れました
+Acquired <item:FFFFFFFF>.
+-----------------------
+notice
+-----------------------
+#{16}{25}{CE}{C0}がありましたが
+#いっぱいで持てませんでした
+Found {16}{25}{CE}{C0}, but
+your inventory is full.
+-----------------------
+notice
+-----------------------
+#何もありません
+There's nothing here.
+-----------------------

@@ -1,0 +1,171 @@
+#未開の森
+Untamed Forest
+-----------------------
+#未開の森
+Untamed Forest
+-----------------------
+#未開の森
+Untamed Forest
+-----------------------
+<Kyle>
+-----------------------
+#ダメだ････この程度じゃ
+#火力が足りないよ
+No good... This isn't enough.
+We need more firepower.
+-----------------------
+<Loni>
+-----------------------
+#しょうがねえなぁ
+#切りはらってみるか？
+Well, can't be helped.
+Wanna try hacking through?
+-----------------------
+<Judas>
+-----------------------
+#この、見るからに
+#毒を持っていそうな草をか？
+#僕はゴメンだ
+You want me to cut
+grass that looks poisonous
+just from looking at it? I'll pass.
+-----------------------
+<Kyle>
+-----------------------
+#でも、火をつけられるものは
+#ソーサラーリングぐらいしか
+#持ってないし････
+But the only thing I've got
+that can start a fire
+is the Sorcerer's Ring...
+-----------------------
+<Nanaly>
+-----------------------
+#はいはい、ちょっとゴメンよ
+Yeah, yeah. Sorry, hold up.
+-----------------------
+<Nanaly>
+-----------------------
+#やっぱり、これは毒草だね
+#触ると危ないから
+#燃やすしかないよ
+Yep, this is definitely poisonous.
+It's too dangerous to touch, so
+burning it is our only option.
+-----------------------
+<Nanaly>
+-----------------------
+#こいつは、樹皮が硬いから
+#中々火はつかないけど
+#高温で一気に燃やせば、大丈夫だよ
+This stuff's got tough bark,
+so it won't catch easy.
+But if you hit it with high heat all at once, it'll go up fine.
+-----------------------
+<Loni>
+-----------------------
+#おお、さすが<Nanaly>
+#野生育ちは違うね
+#････んで、どうやって火をつけるんだ？
+Ooh, nice going, <Nanaly>!
+That's wild-born know-how for you.
+...So, how do we actually light it?
+-----------------------
+<Nanaly>
+-----------------------
+#頭を使いなよ、都会育ち！
+#そこいらじゅう、走り回ってるやつから
+#油を調達すればいいのさ
+Use your head, city boy!
+Just get some oil from
+those critters running all over the place.
+-----------------------
+<Loni>
+-----------------------
+#････まさか、モンスターを捕まえろとか
+#言うんじゃないだろうな？
+...Don't tell me
+you want us to catch monsters?
+-----------------------
+<Nanaly>
+-----------------------
+#ご明察
+Right on the money.
+-----------------------
+<Loni>
+-----------------------
+#････やっぱ、野生育ちは
+#考えることがワイルドだぜ････
+...Yep. Being raised in the wild
+makes your thinking pretty wild too...
+-----------------------
+notice
+-----------------------
+#<Nanaly>は
+#称号「<item:00000828>」を得ました
+<Nanaly> obtained
+the title "<item:00000828>"!
+-----------------------
+NOTICE
+-----------------------
+#ガルムの牙に着火しました
+Ignited Garm's Fang.
+-----------------------
+#いってらっしゃいませ
+Have a good day.
+-----------------------
+#<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
+#お泊まりになりますか？
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+Would you like to stay?
+-----------------------
+#お泊まりになりますか？
+Would you like to stay?
+-----------------------
+select
+-----------------------
+#<03:00000000>　はい　
+#　いいえ　
+<03:00000000> Yes
+No
+-----------------------
+#ごゆっくりお休みください
+Have a good night.
+-----------------------
+#おはようございます
+Good morning.
+-----------------------
+#お金が足りません
+Not enough money.
+-----------------------
+#またのおこしをお待ちしております
+See you again soon.
+-----------------------
+set_parameter( myself, C_PARTY, 0 );
+-----------------------
+wait_map_scroll();
+-----------------------
+exit-party_togather( short spd )
+-----------------------
+notice
+-----------------------
+#{16}{25}{BE}{C0}を手に入れました
+Acquired {16}{25}{BE}{C0}.
+-----------------------
+notice
+-----------------------
+#<item:FFFFFFFF>を手に入れました
+Acquired <item:FFFFFFFF>.
+-----------------------
+notice
+-----------------------
+#{16}{25}{D2}{C0}がありましたが
+#いっぱいで持てませんでした
+{16}{25}{D2}{C0} found,
+but your inventory is full.
+-----------------------
+notice
+-----------------------
+#何もありません
+There's nothing here.
+-----------------------

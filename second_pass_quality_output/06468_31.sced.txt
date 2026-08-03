@@ -1,0 +1,1311 @@
+#アイグレッテ
+Aigrette
+-----------------------
+#アイグレッテ
+Aigrette
+-----------------------
+#アイグレッテ
+Aigrette
+-----------------------
+#アイグレッテ
+Aigrette
+-----------------------
+#アイグレッテ
+Aigrette
+-----------------------
+#『ここはアイグレッテ
+#　忠実なる神のしもべたちが住まう聖なる都』
+"This is Aigrette,
+the holy city where faithful servants of God reside."
+-----------------------
+#『フォルトゥナ神のご降臨を祝して
+#　アイグレッテ有志一同』
+"Celebrating the descent of the Goddess Fortuna,
+the volunteers of Aigrette"
+-----------------------
+#怪しい場所では<item:00000032>を
+#使ってみよう
+Try using <item:00000032>
+in suspicious places.
+-----------------------
+#右上の宝箱が気になる････
+#『普段は眼に見えない物を
+#探知・知覚する道具』でもあれば････
+That chest in the upper right bothers me...
+If only I had a tool to detect and perceive
+things normally invisible to the eye...
+-----------------------
+NULL
+-----------------------
+#ソーサラースコープで
+#隠し扉を発見しました
+With the Sorcerer's Scope,
+I discovered a hidden door.
+-----------------------
+<Kyle>
+-----------------------
+#････ここって
+#アイグレッテじゃん！
+...This place...
+It's Aigrette!
+-----------------------
+<Kyle>
+-----------------------
+#<Reala>、オレたちツイてるぜ！
+#知らないところに飛ばされたわけじゃ
+#なかったんだ！
+<Reala>, we're in luck!
+We weren't just sent off to some random place,
+after all!
+-----------------------
+<Kyle>
+-----------------------
+#あれ？　だけど、なんか
+#雰囲気違わない？
+Huh? But doesn't something feel...
+different about the atmosphere?
+-----------------------
+<Reala>
+-----------------------
+#････十年もたてば、このぐらい変わるわ
+...A decade is enough time for things to change this much.
+-----------------------
+<Kyle>
+-----------------------
+#････え？
+...Huh?
+-----------------------
+<Reala>
+-----------------------
+#落ちついて聞いて、<Kyle>
+#わたしたちは、エルレインの力で
+#飛ばされてしまったの
+Calm down and listen, <Kyle>.
+We were sent flying here by Elrane's power.
+-----------------------
+<Reala>
+-----------------------
+#････未来に
+#<Kyle>たちがいた時代から
+#十年後の未来に
+...To the future.
+Ten years beyond the era when <Kyle>
+and the others lived.
+-----------------------
+<Kyle>
+-----------------------
+#は････
+...Haah...
+-----------------------
+<Kyle>
+-----------------------
+#あはははっ！
+#もう、冗談キツいなぁ
+#<Reala>は！
+Ahahaha!
+Geez, that joke was harsh, <Reala>!
+-----------------------
+<Reala>
+-----------------------
+#････やっぱり、信じてくれないよね
+#でも、確かにここは十年後なの
+#しばらくしたら、わかると思うわ
+...I knew you wouldn't believe me.
+But this really is ten years in the future.
+You'll understand soon enough.
+-----------------------
+<Kyle>
+-----------------------
+#<Reala>････？
+<Reala>...?
+-----------------------
+<Kyle>
+-----------------------
+#な、なんだよ、あれ････
+Wh-what is that...?
+-----------------------
+<Kyle>
+-----------------------
+#「フォルトゥナ神のご降臨を祝して
+#　アイグレッテ有志一同」
+"Celebrating the descent of the Goddess Fortuna,
+the volunteers of Aigrette"
+-----------------------
+<Kyle>
+-----------------------
+#なんだよ････これ!?
+#こんな像、この前来たときにはなかったよな!?
+What the heck is this!?
+This statue wasn't here when I came here before, right!?
+-----------------------
+<Reala>
+-----------------------
+#なくて、あたりまえよ
+Of course it wasn't.
+-----------------------
+<Reala>
+-----------------------
+#この像ができたのは、
+#<Kyle>たちのいた時代から、
+#少しあとなの
+This statue was erected
+a short while after the era when <Kyle>
+and the others lived.
+-----------------------
+<Kyle>
+-----------------------
+#じゃ、じゃあ
+#<Reala>の言ってたことは
+#本当に････
+Th-then...
+what <Reala> said was...
+really...
+-----------------------
+<Reala>
+-----------------------
+#そう、ここは
+#<Kyle>たちのいた時代から
+#十年後の世界よ
+Yes. This is a world
+ten years in the future
+from the era when <Kyle> and the others lived.
+-----------------------
+<Reala>
+-----------------------
+#あのとき、エルレインが使ったのは
+#わたしを未来へと飛ばす力････
+#みんなは、それに巻きこまれてしまったの
+What Elrane used back then...
+was the power to send me into the future.
+Everyone else got caught up in it.
+-----------------------
+<Kyle>
+-----------------------
+#だ、だって、エルレインは
+#アタモニ神団のえらい人だろ!?
+#どうして、<Reala>を････
+B-but Elrane is...
+She's a high-ranking member of the Order of Atamoni, right!?
+Why would she send <Reala>...
+-----------------------
+<Kyle>
+-----------------------
+#そ、それにさ！
+#「フォルトゥナ神のご降臨を祝して」
+#って、いったいどういうこと!?
+A-and besides!
+"Celebrating the descent of the Goddess Fortuna"...
+What does that even mean!?
+-----------------------
+<Reala>
+-----------------------
+#言葉通りよ
+#この時代には、神さまがいるの
+#フォルトゥナ神という、神さまが
+Exactly what it says.
+In this era, there is a god.
+A god named Fortuna.
+-----------------------
+<Kyle>
+-----------------------
+#そんな････
+#だってみんな、そんなことは一言も！
+No way...
+Nobody ever said a word about that!
+-----------------------
+<Reala>
+-----------------------
+#あたりまえのことだから、
+#みんな言わないだけよ
+#本当に神は降臨したの
+It's common knowledge.
+No one bothers mentioning it.
+A god truly has descended.
+-----------------------
+<Kyle>
+-----------------------
+#そんな････
+No way...
+-----------------------
+<Kyle>
+-----------------------
+#ね、ねぇ！
+#この世界に神さまがいるって
+#ホントなの!?
+H-hey!
+Is it really true
+that there's a god in this world!?
+-----------------------
+#街の人
+Townsperson
+-----------------------
+#あたりまえじゃないか
+#それが、どうかしたのかい？
+Of course there is.
+Is something wrong?
+-----------------------
+<Kyle>
+-----------------------
+#ウソ････
+No way...
+-----------------------
+#街の人
+Townsperson
+-----------------------
+#ねぇ、あなた、急がないと
+#出産式に遅れてしまうわ
+Hey, if we don't hurry,
+we'll be late for the birth ceremony.
+-----------------------
+#街の人
+Townsperson
+-----------------------
+#あぁ、そうだね
+#用はそれだけかい、ぼうや？
+Ah, that's right.
+Is that all you needed, young man?
+-----------------------
+<Kyle>
+-----------------------
+#････あ、はい････
+...Uh, yes...
+-----------------------
+#街の人
+Townsperson
+-----------------------
+#あなた、急がないと
+#間に合いませんよ
+You must hurry,
+or you won't make it in time.
+-----------------------
+#街の人
+Townsperson
+-----------------------
+#司教さまは、時間にうるさい方だからな
+#ましてや出産式なら、なおさらだ
+#大神殿に急ごう
+The Bishop is very strict about time.
+And a birth ceremony is no exception.
+Let's hurry to the Grand Temple.
+-----------------------
+<Kyle>
+-----------------------
+#この世界には本当に、
+#神さまがいるのか････
+Does God really exist
+in this world...?
+-----------------------
+<Reala>
+-----------------------
+#出産式か････
+#ちょうどいいかもしれない
+The birth ceremony...
+That might be perfect.
+-----------------------
+<Reala>
+-----------------------
+#ねぇ、<Kyle>
+#わたしたちも、あの人たちと一緒に
+#出産式に出てみない？
+Hey, <Kyle>
+why don't we join those people
+and attend the birth ceremony too?
+-----------------------
+<Kyle>
+-----------------------
+#え？
+Huh?
+-----------------------
+<Reala>
+-----------------------
+#それに出れば、この世界がどんなところか
+#わかってもらえると思うから
+If we go, I think you'll understand
+what kind of world this is.
+-----------------------
+#男性
+Man
+-----------------------
+#今日も、可もなく不可もなく
+#問題のない一日だったよ
+Another day of nothing special.
+Nothing out of the ordinary.
+-----------------------
+#男性
+Man
+-----------------------
+#この幸せを
+#フォルトゥナ神さまに
+#報告しておかないとな
+I should report this happiness
+to Lady Fortuna.
+-----------------------
+#男性
+Man
+-----------------------
+#フォルトゥナ神さま
+#明日も、なんにもない
+#一日でありますように････
+Lady Fortuna,
+please let tomorrow be another day
+where nothing happens...
+-----------------------
+#男性
+Man
+-----------------------
+#出産式も終わったし
+#そろそろ家に帰ろうかな
+#Ｅ－１１４が待っている
+The birth ceremony's over.
+I should head home soon.
+E-114 is waiting for me.
+-----------------------
+<Kyle>
+-----------------------
+#あ、あの～
+#Ｅ－１１４ってのは
+#やっぱり人の名前････なの？
+Uh, um...
+Is E-114 really
+someone's name...?
+-----------------------
+#男性
+Man
+-----------------------
+#なにを言っているんだね
+#当然じゃないか
+#愛する妻の名前だよ
+What are you talking about?
+Of course it is.
+It's my beloved wife's name.
+-----------------------
+#男性
+Man
+-----------------------
+#出産式も終わったし
+#愛するＥ－１１４の待っている
+#我が家に帰ろう
+The birth ceremony's over.
+Time to go home to my beloved E-114.
+-----------------------
+#男性
+Man
+-----------------------
+#最近、自分の名前が
+#あまり気に入らないんだよな
+Lately, I've been wishing
+I had a better name.
+-----------------------
+<Nanaly>
+-----------------------
+#そりゃ、そうだろうね
+#番号が名前だなんて
+#おかしいもの
+Well, yeah. Who wouldn't?
+Having a number for a name
+is ridiculous.
+-----------------------
+#男性
+Man
+-----------------------
+#いや、そうじゃなくて
+#もっといい番号がほしいんだ
+No, that's not what I mean.
+I want a better number.
+-----------------------
+#男性
+Man
+-----------------------
+#たとえば、Ｆ－４６１０７だったら
+#フォルトゥナって読めるだろ？
+#こういう名前がほしいんだよ
+Like, if it were F-46107,
+you could read it as Fortuna, right?
+That's the kind of name I want.
+-----------------------
+#男性
+Man
+-----------------------
+#このフラグでの会話未設定
+This conversation is not set up for this flag.
+-----------------------
+#男性
+Man
+-----------------------
+#十年くらい前まで
+#おれは、この街で商売をしてた
+#今とちがって、きびしい生活だったよ
+Until about ten years ago,
+I ran a business in this town.
+Life was hard back then, not like now.
+-----------------------
+#男性
+Man
+-----------------------
+#だけど、フォルトゥナさまが降臨して
+#食いっぱぐれる心配はなくなった
+#ありがたい話だよ
+But ever since Lady Fortuna descended,
+we haven't had to worry about going hungry.
+It's a real blessing.
+-----------------------
+#男性
+Man
+-----------------------
+#フォルトゥナさまが降臨して
+#食いっぱぐれる心配はなくなった
+#ありがたい話だよ
+Ever since Lady Fortuna descended,
+we haven't had to worry about going hungry.
+What a blessing.
+-----------------------
+#男性
+Man
+-----------------------
+#こうして、不自由ない生活をしていると
+#ときどきわからなくなってくるんだ
+Living so comfortably like this,
+I sometimes lose track of things.
+-----------------------
+#男性
+Man
+-----------------------
+#十年くらい前までは
+#とても貧しい生活をしてたんだけど
+#あれは、夢だったんじゃないかってね
+Until about ten years ago,
+we lived in terrible poverty.
+I wonder sometimes if it was all just a dream.
+-----------------------
+#男性
+Man
+-----------------------
+#このフラグでの会話未設定
+This conversation is not set up for this flag.
+-----------------------
+#女性
+Woman
+-----------------------
+#あなた、ずいぶんと古いセンスの
+#服を着てるわねぇ
+My, you're wearing clothes
+with quite an old-fashioned sense of style.
+-----------------------
+<Kyle>
+-----------------------
+#そ、そうかな？
+R-really?
+-----------------------
+#女性
+Woman
+-----------------------
+#ウン、だってそれ
+#十年くらい前の
+#デザインセンスじゃない
+Yes, because that looks like
+the design sense from about ten years ago.
+-----------------------
+#女性
+Woman
+-----------------------
+#あなたたちって、不思議よねぇ
+#まるで、十年前から
+#タイムスリップしてきたみたい
+You people are so strange.
+It's like you time-traveled here
+from ten years ago.
+-----------------------
+#女性
+Woman
+-----------------------
+#子供のころかな
+#わたしには、番号じゃない名前が
+#あったような気がする････
+When I was a child, I think...
+I feel like I had a name that wasn't a number...
+-----------------------
+#女性
+Woman
+-----------------------
+#でも、それがなんだったのか
+#よく思い出せないのよね････
+But I can't quite remember what it was...
+I just can't seem to recall it clearly.
+-----------------------
+<Judas>
+-----------------------
+#名前を、どこかで
+#なくしてしまったというわけか････
+So you've lost your name...
+somewhere along the way.
+-----------------------
+#女性
+Woman
+-----------------------
+#ま、名前なんか思い出せなくても
+#困ったことなんてないし
+#別に、いいんだけどね
+Well, even if I can't remember my name,
+it's not like it causes any trouble.
+I don't really mind either way.
+-----------------------
+#女性
+Woman
+-----------------------
+#このフラグでの会話未設定
+This conversation is not set up for this flag.
+-----------------------
+#女性
+Woman
+-----------------------
+#あなたアイグレッテ市民に
+#なりにきたの？
+Did you come here
+to become an Aigrette citizen?
+-----------------------
+<Kyle>
+-----------------------
+#いや、べつに
+#そういうわけじゃないけど････
+No, not really...
+It's nothing like that.
+-----------------------
+#女性
+Woman
+-----------------------
+#あら、そうなの？
+#わざわざつらい生き方をえらぶなんて
+#あなた、変わってるわねぇ
+Oh, is that so?
+To deliberately choose such a painful way to live...
+You're quite the oddball.
+-----------------------
+#女性
+Woman
+-----------------------
+#アイグレッテ市民になれば
+#だれでもかならず
+#幸せになれるって保証されてるのよ
+If you become a citizen of Aigrette,
+everyone is guaranteed
+to find happiness.
+-----------------------
+#女性
+Woman
+-----------------------
+#昔は、仕事や生活なんて
+#つまらないことにとらわれて
+#イライラがたえなかったの
+In the past, I was so caught up in
+work and all the boring trivialities of life...
+My frustration never seemed to end.
+-----------------------
+#女性
+Woman
+-----------------------
+#今は、なにもせず
+#ただ自分の幸せのことだけを
+#考えていられるのよ♪
+Now I don't have to do a thing.
+I can just spend my time thinking
+about my own happiness ♪
+-----------------------
+#女性
+Woman
+-----------------------
+#病気になることもないし
+#使える時間も山のようにあるなんて
+#なんてゼイタクなのかしら～
+I never get sick,
+and I've got more free time than I know what to do with.
+What a luxury~
+-----------------------
+#女性
+Woman
+-----------------------
+#このフラグでの会話未設定
+This conversation is not set up for this flag.
+-----------------------
+#男性
+Man
+-----------------------
+#人より優位にたちたいと思うから
+#争いがおきるんだ
+Conflicts arise because people want
+to be superior to others.
+-----------------------
+#男性
+Man
+-----------------------
+#この街のように
+#みなが平等に幸せなら
+#争いごとなんかおきないんだよ
+Just like this town,
+if everyone were equally happy,
+there wouldn't be any conflicts.
+-----------------------
+#男性
+Man
+-----------------------
+#キミたちも
+#ムダな欲は、すべてレンズに変えて
+#神団に寄進したまえ
+You too,
+turn all your useless desires into Lens
+and donate them to the Order of Atamoni.
+-----------------------
+#男性
+Man
+-----------------------
+#この世界には、まだ
+#アイグレッテの文化をこばみ
+#争いごとをのぞむ連中がいるようだな
+It seems there are still those in this world
+who despise Aigrette's culture
+and wish for conflict.
+-----------------------
+<Nanaly>
+-----------------------
+#べつに争いごとなんか
+#のぞんじゃいないよ････
+#温室育ちが、しょうにあわないだけさ
+It's not like I'm looking for a fight.
+I don't want any part of it...
+You've just been living in a bubble so long, you wouldn't understand.
+-----------------------
+#男性
+Man
+-----------------------
+#欲などすてて
+#すべてを神にささげれば
+#いいものを････
+If only you would cast aside your desires
+and offer everything to God...
+That would be for the best.
+-----------------------
+#男性
+Man
+-----------------------
+#このフラグでの会話未設定
+This conversation is not set up for this flag.
+-----------------------
+#男性
+Man
+-----------------------
+#オラぁ昔は
+#人にだまされてばかりいただ
+Back in my day,
+I was always getting duped by people.
+-----------------------
+#男性
+Man
+-----------------------
+#けんど、今のアイグレッテには
+#だれひとりとして
+#オラをだます人間なんていないだ
+But here in Aigrette today,
+there's not a single person
+who would try to pull one over on me.
+-----------------------
+#男性
+Man
+-----------------------
+#もう、ツボを
+#売ったりする必要もねえだ
+I don't need to sell pots anymore,
+or anything like that.
+-----------------------
+#男性
+Man
+-----------------------
+#なんだ？
+#オラんとこさきたって
+#もう、あやしいツボなんか売らねえぞ
+What?
+Even if you come to my place,
+I ain't selling any more suspicious pots.
+-----------------------
+<Kyle>
+-----------------------
+#こっちだって、そんなもんいらないよ
+Like I'd want that kind of thing anyway.
+-----------------------
+#男性
+Man
+-----------------------
+#アイグレッテでは
+#市民としての義務さえはたしていれば
+#はたらかなくても生きていけるだ
+In Aigrette,
+as long as you fulfill your duties as a citizen,
+you can live without working.
+-----------------------
+#男性
+Man
+-----------------------
+#このフラグでの会話未設定
+This conversation is not set up for this flag.
+-----------------------
+#女性
+Woman
+-----------------------
+#ねえ、あなた知ってる？
+#昔の人間って
+#ムダなことばかりしてたんだってさ
+Hey, did you know?
+People from the past
+used to waste so much time.
+-----------------------
+<Kyle>
+-----------------------
+#ムダなこと？
+Waste?
+-----------------------
+#女性
+Woman
+-----------------------
+#戦争とか、ケンカとか
+#人をだましたり、だまされたり
+#ほ～んとムダなことばっかりよね
+Wars and fights,
+deceiving others and being deceived.
+It's all such a waste of time.
+-----------------------
+#女性
+Woman
+-----------------------
+#むかしの人たちって
+#他人がイヤがることをして
+#幸せになれるとでも思ってたのかしら？
+Did people back then really think
+they could find happiness
+by doing things that upset others?
+-----------------------
+#女性
+Woman
+-----------------------
+#わたし将来は
+#フォルトゥナ神団の
+#保育管理官になるんだ
+When I grow up,
+I'm going to become
+a childcare supervisor
+for the Sacred Order of Fortuna.
+-----------------------
+#女性
+Woman
+-----------------------
+#入団試験にうかるように
+#もっと、べんきょうしなきゃ！
+I've got to study harder
+so I can pass the entrance exam!
+-----------------------
+#女性
+Woman
+-----------------------
+#優秀な人間でないと
+#優秀な子どもをそだてる
+#保育管理官にはなれないのよ
+Only someone truly excellent
+can become a childcare supervisor
+capable of raising excellent children.
+-----------------------
+#男性
+Man
+-----------------------
+#このフラグでの会話未設定
+This conversation is not set up for this flag.
+-----------------------
+#女性
+Woman
+-----------------------
+#どう、この洋服？
+#むかし、人につかえてた人が
+#着てた洋服なんだってさ
+How's this outfit?
+They say people who used to serve others
+wore clothes like this.
+-----------------------
+#女性
+Woman
+-----------------------
+#人が人につかえるなんて
+#おかしな話よね
+People serving people?
+What a strange idea.
+-----------------------
+#女性
+Woman
+-----------------------
+#人間はみな
+#神につかえるべきなのに
+#昔の人はなにを考えてたのかしら
+All humans should serve God.
+I wonder what people back then
+were even thinking.
+-----------------------
+#女性
+Woman
+-----------------------
+#どう、この洋服？
+#むかし、人につかえてた人が
+#着てた洋服なんだってさ
+How's this outfit?
+They say people who used to serve others
+wore clothes like this.
+-----------------------
+#女性
+Woman
+-----------------------
+#人の下で人がはたらくなんて
+#おかしい話よね～
+People working under other people?
+Isn't that just weird?
+-----------------------
+#女性
+Woman
+-----------------------
+#人はみな
+#神の下で平等にあるべきだと
+#思わない？
+Don't you think everyone
+should be equal
+under God?
+-----------------------
+#男性
+Man
+-----------------------
+#このフラグでの会話未設定
+This conversation is not set up for this flag.
+-----------------------
+#食材屋
+Grocery Store
+-----------------------
+#昔を思い出して店を出しています
+#よろしければ何か買ってください
+I opened this shop to remember the old days.
+Please buy something if you'd like.
+-----------------------
+#そんなところに扉があったなんて
+#気が付きませんでした････
+I never noticed there was a door there...
+-----------------------
+#あの宝箱はどうすれば････
+#きっと入口がどこかに････
+How do I get that treasure chest...?
+There must be an entrance somewhere...
+-----------------------
+#食材屋
+Grocery Store
+-----------------------
+#神殿騎士
+Temple Knight
+-----------------------
+#かつてこの先にはバザーがあった
+#そこに住んでいた連中は商売の事しか
+#頭に無い、不信心な奴ばかりだった
+There used to be a bazaar up ahead.
+The people who lived there cared for nothing
+but commerce--a pack of faithless fools.
+-----------------------
+#神殿騎士
+Temple Knight
+-----------------------
+#ここは神の都、聖都だ
+#聖都に不信心者など似合わない････
+#バザーは取り壊されたよ
+This is the Holy Capital, the City of God.
+Unbelievers have no place here...
+The bazaar was torn down.
+-----------------------
+#神殿騎士
+Temple Knight
+-----------------------
+#それでこの街は、より住みやすい場所に
+#なったのだ
+And so this town became
+an even more pleasant place to live.
+-----------------------
+#いってらっしゃいませ
+Have a good day.
+-----------------------
+#<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
+#お泊まりになりますか？
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+Would you like to stay?
+-----------------------
+#お泊まりになりますか？
+Would you like to stay?
+-----------------------
+select
+-----------------------
+#<03:00000000>　はい　
+#　いいえ　
+<03:00000000> Yes
+No
+-----------------------
+#ごゆっくりお休みください
+Have a good night.
+-----------------------
+#おはようございます
+Good morning.
+-----------------------
+#お金が足りません
+Not enough money.
+-----------------------
+#またのおこしをお待ちしております
+See you again soon.
+-----------------------
+set_parameter( myself, C_PARTY, 0 );
+-----------------------
+wait_map_scroll();
+-----------------------
+exit-party_togather( short spd )
+-----------------------
+notice
+-----------------------
+#{16}{25}{BA}{C0}を手に入れました
+Acquired {16}{25}{BA}{C0}.
+-----------------------
+notice
+-----------------------
+#<item:FFFFFFFF>を手に入れました
+Acquired <item:FFFFFFFF>.
+-----------------------
+notice
+-----------------------
+#{16}{25}{C2}{C0}がありましたが
+#いっぱいで持てませんでした
+Found {16}{25}{C2}{C0}, but
+inventory is full already.
+-----------------------
+notice
+-----------------------
+#何もありません
+There's nothing here.
+-----------------------
+#<item:00000012>屋
+<item:00000012> Shop
+-----------------------
+#こちらでは<item:00000012>の
+#販売を行っています
+We sell <item:00000012> here.
+-----------------------
+#<item:00000012>を使ってリファインすると
+#ステキな物が作られることがあるようです
+Refine with <item:00000012>, and
+you might just make something wonderful.
+-----------------------
+#武器や鎧をリファインすると
+#付加能力が引継がれることがあるようです
+When you refine weapons and armor,
+bonus abilities sometimes carry over.
+-----------------------
+#ひと瓶<0B:00000001>{14}{35}{CC}{C0}<0B:00000000>ガルドになりますが、
+#<item:00000012>を買いますか？
+One bottle costs <0B:00000001>{14}{35}{CC}{C0}<0B:00000000> Gald.
+Would you like to buy <item:00000012>?
+-----------------------
+select
+-----------------------
+#<03:00000000>　買う　
+#　<0B:00000001>{14}{25}{D6}{C0}本まとめて買う（{14}{35}{D0}{C0}ガルド）<0B:00000000>　
+#　リファイン講座　
+#　いらない　
+<03:00000000> Buy
+<0B:00000001>{14}{25}{D6}{C0}Buy all at once ({14}{35}{D0}{C0} Gald)<0B:00000000>
+Refine Course
+No thanks
+-----------------------
+select
+-----------------------
+#<03:00000000>　買う　
+#　リファイン講座　
+#　いらない　
+<03:00000000> Buy
+Refine Course
+No thanks
+-----------------------
+#お買い上げ、ありがとうございます
+Thank you for your purchase.
+-----------------------
+#お買い上げ、ありがとうございます
+Thank you for your purchase.
+-----------------------
+#<item:00000012>はひと瓶
+#<0B:00000001>{14}{35}{CC}{C0}<0B:00000000>ガルドです
+<item:00000012> is <0B:00000001>{14}{35}{CC}{C0}<0B:00000000> Gald per bottle.
+-----------------------
+#リファイン講座を聞きたいですか？
+Would you like to hear the Refine lecture?
+-----------------------
+select
+-----------------------
+#<03:00000000>　聞きたい　
+#　聞きたくない　
+<03:00000000> Yes, please.
+No, thanks.
+-----------------------
+#何について知りたいですか？
+What would you like to know?
+-----------------------
+select
+-----------------------
+#<03:00000000>　４、スロットについて　
+#　５、装飾品のリファイン　
+#　６、リファインできない装備品について　
+#　前のページ　
+<03:00000000> 4. About Slots
+5. Refining Accessories
+6. Equipment That Cannot Be Refined
+Previous Page
+-----------------------
+select
+-----------------------
+#<03:00000000>　１、リファインとは
+#　２、アイテムの変化　　　　　　　　　　
+#　３、装備品の合成　
+#　次のページ　
+<03:00000000> 1. What Is Refine?
+2. Item Transformations
+3. Equipment Synthesis
+Next Page
+-----------------------
+#リファインとは、選択したアイテムを
+#別なアイテムに変化させたり
+#武器や防具を合成することのできるコマンドです
+Refine is a command that lets you transform
+selected items into different items,
+or synthesize weapons and armor.
+-----------------------
+#リファインを行うのに必要なのは
+#<item:00000012>とレンズです
+To perform Refine, you need
+<item:00000012> and Lens.
+-----------------------
+#<item:00000012>は、各地にいる
+#私たちルーンボトル屋からお求めください
+You can purchase <item:00000012> from us Rune Bottle
+shops, found in towns all across the world.
+-----------------------
+#レンズはモンスターと
+#戦えば拾うことができます
+You can obtain Lens by
+battling monsters.
+-----------------------
+#これを機会に、あなたも
+#どんどんリファインを行ってください
+Take this opportunity to
+refine to your heart's content!
+-----------------------
+#アイテムの変化とは、アイテム単体に
+#リファインを行うことによって
+#別なアイテムに変化させることです
+Item transformation is when you refine
+a single item to change it
+into a different item.
+-----------------------
+#例えば、<item:00000001>にリファインを行うと
+#<item:00000002>に変化し
+#逆に、<item:00000002>にリファインを行うと
+#<item:00000001>に変化します
+For example, refine <item:00000001> and
+it becomes <item:00000002>.
+Conversely, refine <item:00000002> and
+it becomes <item:00000001>.
+-----------------------
+#また、装備品単体をリファインすることによって
+#<item:00000001>などのアイテムにも変化します
+You can also refine individual equipment pieces
+into items such as <item:00000001>.
+-----------------------
+#ダンジョンなどでアイテムが尽きてしまった時などに
+#行うと、有効な場合もあります
+#もちろん、最初からきちんと準備をしておくほうが
+#賢いといえますが････
+This can be effective when you run out of items
+in a dungeon or the like.
+Of course, it's wiser to prepare properly
+from the start, but...
+-----------------------
+#リファインの一番の特徴は
+#やはり、装備品の合成です
+The best feature of Refine is
+equipment synthesis, without a doubt.
+-----------------------
+#装備品を合成すると
+#お気に入りの装備品に
+#お気に入りのスロットが付いた
+#装備品を作ることができます････
+Synthesizing equipment lets you create gear
+with your favorite slots added
+to your favorite equipment pieces...
+-----------------------
+#ああ、まずはスロットの説明を
+#しなければいけませんね
+Ah, but first I must explain
+how slots work.
+-----------------------
+#スロットとは、装備品に
+#付けることができる
+#付加能力のようなものです
+Slots are bonus abilities
+that can be attached to equipment.
+-----------------------
+#スロットについては、また別に
+#詳しく説明させていただきます
+We'll explain slots in more detail
+in a separate section.
+-----------------------
+#いちばん簡単な装備品のリファインは
+#スロットが一つついた装備品どうしの
+#リファインです
+The simplest type of equipment Refine is
+between two pieces of equipment
+that each have one slot.
+-----------------------
+#これを行うと、何とステキなことに
+#スロットが二つ付いた装備品ができます
+Doing this creates wonderful equipment
+with two slots.
+-----------------------
+#注意しなければいけないのは
+#剣は剣、鎧は鎧といったように
+#同じ種類の装備品でしか
+#リファインできません
+What you must keep in mind is that,
+just as swords go with swords and armor with armor,
+you can only refine equipment
+of the same type.
+-----------------------
+#他にもいろいろな組み合わせがありますが
+#それはやってみてのお楽しみです
+There are many other combinations as well,
+but that's for you to discover.
+-----------------------
+#スロットについて
+#詳しく説明いたします
+Now then, let me explain slots
+in detail.
+-----------------------
+#スロットは数多くの種類があり
+#アタック：攻撃力が上昇します
+#ディフェンス：防御力が上昇します
+#などが代表的なものです
+There are many types of slots.
+Attack: increases attack power.
+Defense: increases defense power.
+These are the most common examples.
+-----------------------
+#スロットによって装備品の名前も変わります
+#<item:00000078>　＋　アタックで
+#アタックソードなどです
+Equipment names also change based on their slots.
+<item:00000078> + Attack
+becomes an Attack Sword, for example.
+-----------------------
+#また、スロットにはレベルがあり
+#レベルが高いと効果も上昇します
+#最高はレベル８です
+Additionally, slots have levels.
+Higher levels mean greater effects.
+The maximum level is 8.
+-----------------------
+#スロット付きの装備品は
+#主にモンスターが落とします
+Equipment with slots is
+mainly dropped by monsters.
+-----------------------
+#モンスターとたくさん戦って
+#スロット付き装備品を手に入れて
+#あなただけのスロット付き装備品を
+#作ってみてください
+Fight plenty of monsters to obtain
+slot-equipped gear, then try making
+your very own slot-equipped equipment.
+-----------------------
+#ここだけの話ですが、装飾品も
+#リファインすることができます
+#でも、それは装飾品どうしではありません
+Just between you and me, accessories can
+also be refined. However, you can't refine
+two accessories together.
+-----------------------
+#装飾品と、装備品のような
+#形でのみリファインが可能なのです
+Accessories can only be refined with
+equipment in that manner.
+-----------------------
+#この場合の利点は、リファインする
+#装備品の場所によってスロットが
+#変化するということです
+#武器、防具によって違います
+The advantage in this case is that the resulting slots
+change depending on where the equipment is placed.
+This differs between weapons and armor.
+-----------------------
+#また、装飾品は一つしか装備できないので
+#いらない装飾品を、リファインに活用すれば
+#非常に有効です
+Also, since you can only equip one accessory at a time,
+putting unwanted accessories to use in Refining
+is extremely effective.
+-----------------------
+#その他にも、外装つまり「マント」も
+#装飾品と同様に装備品とリファインできます
+#その場合はなんと、装備品に属性を
+#付加することができるのです
+Furthermore, exterior parts, namely 'cloaks',
+can be refined with equipment, just like accessories.
+And in that case, believe it or not,
+you can even add elemental attributes to your equipment.
+-----------------------
+#装飾品とのリファインもうまく活用し
+#さらにステキなリファイン職人を
+#目指してみてください
+Make good use of refining with accessories too,
+and aim to become an even greater
+Refining artisan.
+-----------------------
+#たまに、装備品の中に黄色い枠の
+#アイコンが付いたものがありますね
+#それは、ユニークアイテムと
+#呼ばれているものです
+Every now and then, you'll find equipment
+marked with a yellow-bordered icon.
+These are what's called
+Unique Items.
+-----------------------
+#ユニークアイテムは見た目にも
+#かっこよく、攻撃力も高く
+#スロットレベルも高いものが多いですが
+#スロットは一つしかありません
+Unique Items look cool,
+hit hard,
+and often come with high slot levels,
+but they only ever have one slot.
+-----------------------
+#しかし、その反面、装飾品以外のユニークアイテムは
+#リファインすることができません
+#これ以上強化することができないのです
+However, Unique Items other than accessories
+cannot be refined.
+They can't be strengthened any further.
+-----------------------
+#ですから、いらなくなったアイテムは
+#どんどん売ってしまうことをお勧めします
+So I recommend selling off items you no longer need
+as quickly as possible.
+-----------------------
+#なぜなら、アイテムをたくさん持っていると
+#モンスターがアイテムを
+#落としてくれなくなってしまうという
+#噂があるからです
+Because there's a rumor that if you carry too many items,
+monsters will stop dropping them.
+That's why I don't recommend
+hoarding everything you find.
+-----------------------
+#････アイテム整理も大切ですね
+...Keeping your items organized is important too.
+-----------------------
