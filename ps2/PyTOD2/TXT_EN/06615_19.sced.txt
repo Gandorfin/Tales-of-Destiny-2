@@ -32,9 +32,10 @@ Customer
 #さっそく買って試したら
 #一度目はヨロイが刀をはじき
 #二度目は刀がヨロイを突き通した
-I bought 'em and tried 'em right away.
-First swing, the armor deflected the blade.
-Second swing, the blade pierced right through.
+I bought 'em and tried 'em right
+away. First swing, the armor
+deflected the blade. Second swing,
+the blade pierced right through.
 -----------------------
 #お客
 Customer
@@ -58,9 +59,9 @@ Customer
 #こっちの刀は
 #あらゆるヨロイを突き通し
 #このヨロイはすべての刀をはね返すってな
-This blade here
-can pierce through any armor,
-and this armor can deflect any blade.
+This blade here can pierce through
+any armor, and this armor can
+deflect any blade.
 -----------------------
 #お客
 Customer
@@ -68,8 +69,9 @@ Customer
 #すかさず、オレは言ってやった
 #じゃあ、刀でヨロイに切りかかると
 #どうなるんだ、と
-So I shot right back at him:
-'What happens if you swing the blade at the armor?'
+So I shot right back at him: 'What
+happens if you swing the blade at
+the armor?'
 -----------------------
 #お客
 Customer

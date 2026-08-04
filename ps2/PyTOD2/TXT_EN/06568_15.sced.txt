@@ -5,7 +5,8 @@ Er'ther Base
 Er'ther Base
 -----------------------
 #非常用の食料などが置かれている
-Emergency food and supplies are stored here.
+Emergency food and supplies are
+stored here.
 -----------------------
 #鎖で封鎖された道がある
 #この奥は使われていないようだ
@@ -23,9 +24,10 @@ Soldier
 #それ、医療用アルコールだよ
 #そんな物でも飲めば酔えるしね
 #ま、飲んだ後の体調は保証しかねるけど
-That's medical alcohol.
-Drink enough of that and you'll get hammered.
-Can't say I'd vouch for how you'll feel come morning, though.
+That's medical alcohol. Drink enough
+of that and you'll get hammered.
+Can't say I'd vouch for how you'll
+feel come morning, though.
 -----------------------
 #『大本営から兵士の皆さんへ
 #投降した天上軍兵士の処遇ですが
@@ -50,9 +52,9 @@ Sergeant First Class
 #ソルジャー
 #君の仕事は考える事ではなく
 #身体を動かす事だ
-Soldier.
-Your job isn't to think.
-It's to move when you're told to move.
+Soldier. Your job isn't to think.
+It's to move when you're told to
+move.
 -----------------------
 #士官
 Officer
@@ -60,9 +62,9 @@ Officer
 #そうだな
 #考えるのはリトラー司令なり
 #ディムロス中将なりに任せればいい
-That's right.
-Leave the thinking to Commander Raiker,
-or to Lieutenant General Dymlos.
+That's right. Leave the thinking to
+Commander Raiker, or to Lieutenant
+General Dymlos.
 -----------------------
 #士官
 Officer
@@ -97,8 +99,9 @@ Sergeant First Class
 -----------------------
 #見事、大尉の過去を聞き出せたら
 #３００ガルドだ
-If you manage to dig up the captain's past,
-the bounty is 300 Gald.
+If you manage to dig up the
+captain's past, the bounty is 300
+Gald.
 -----------------------
 #士官
 Officer
@@ -123,10 +126,11 @@ Soldier
 #ソーディアン適性に受かって
 #本部詰めになったはいいものの
 #訓練で殺されかけてるそうですよ
-There was a Chaltier in my unit.
-He passed the Swordian aptitude test,
-and got assigned to headquarters, but...
-I hear the training nearly killed him.
+There was a Chaltier in my unit. He
+passed the Swordian aptitude test,
+and got assigned to headquarters,
+but... I hear the training nearly
+killed him.
 -----------------------
 #上級軍曹
 Sergeant First Class
@@ -141,14 +145,15 @@ Officer
 -----------------------
 #生意気ではあるが
 #憎たらしくはなかったな
-Cocky, sure,
-but he wasn't the type you could hate.
+Cocky, sure, but he wasn't the type
+you could hate.
 -----------------------
 #士官
 Officer
 -----------------------
 #せいぜい、生き延びてもらいたいもんだ
-Here's hoping he makes it through alive.
+Here's hoping he makes it through
+alive.
 -----------------------
 #いってらっしゃいませ
 Come again soon.

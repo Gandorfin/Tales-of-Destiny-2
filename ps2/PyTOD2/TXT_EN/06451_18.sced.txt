@@ -10,9 +10,10 @@ Soldier
 #はい、謁見の方は正面の階段ね
 #････あ～あ、毎日毎日
 #謁見者の相手ばっかりかぁ
-Yes, the audience chamber's up the stairs ahead.
-...Ahh, man. Day after day...
-Nothing but dealing with visitors.
+Yes, the audience chamber's up
+the stairs ahead. ...Ahh, man. Day
+after day... Nothing but dealing
+with visitors.
 -----------------------
 #兵士
 Soldier
@@ -20,9 +21,9 @@ Soldier
 #なんか、どデカいこと起きないかなぁ
 #････って、こんな
 #平和な世の中じゃムリか
-I wonder if something huge'll happen.
-...But in times this peaceful?
-Probably impossible.
+I wonder if something huge'll
+happen. ...But in times this
+peaceful? Probably impossible.
 -----------------------
 #兵士
 Soldier
@@ -30,9 +31,9 @@ Soldier
 #こんなこというと
 #隣のヤツは怒るんだけどさ
 #なんか、どデカいこと起きないもんかねぇ
-If I say this kinda thing,
-the guy next door gets mad at me, but...
-I wonder if something huge'll happen.
+If I say this kinda thing, the guy
+next door gets mad at me, but... I
+wonder if something huge'll happen.
 -----------------------
 #兵士
 Soldier
@@ -40,16 +41,17 @@ Soldier
 #あんた、本当にあの英雄スタンの
 #息子だったんだな！
 #こいつは、どデカい事件だ！
-You really are the son of that hero, Stahn!
-This is huge!
+You really are the son of that hero,
+Stahn! This is huge!
 -----------------------
 #兵士
 Soldier
 -----------------------
 #いやー、両親にも自慢できるよ
 #な、握手してくれよ、握手！
-Man, I can brag to my parents about this!
-C-Come on, shake my hand! Shake it!
+Man, I can brag to my parents about
+this! C-Come on, shake my hand!
+Shake it!
 -----------------------
 <Kyle>
 -----------------------
@@ -61,8 +63,9 @@ Soldier
 -----------------------
 #あの英雄スタンの息子が来るとは････
 #両親にも、自慢できるってもんさ！
-To think the son of that hero, Stahn, would come here...
-I can brag to my parents about this!
+To think the son of that hero,
+Stahn, would come here... I can brag
+to my parents about this!
 -----------------------
 #兵士
 Soldier
@@ -70,7 +73,8 @@ Soldier
 #どうした、英雄の息子さん？
 #陛下に、言い忘れたことでもあるのか？
 What's wrong, son of the hero?
-Did you forget to tell His Majesty something?
+Did you forget to tell His Majesty
+something?
 -----------------------
 #兵士
 Soldier
@@ -100,23 +104,25 @@ Soldier
 #････どデカいことが起きないか、なんて
 #無邪気にいってた自分に
 #ハラが立つよ、まったく････！
-...I can't believe I used to say stuff like
-'I wish something huge would happen' so innocently.
-Makes me sick just thinking about it...!
+...I can't believe I used to say
+stuff like 'I wish something huge
+would happen' so innocently. Makes
+me sick just thinking about it...!
 -----------------------
 #兵士
 Soldier
 -----------------------
 #そうそう････
 #陛下が、謁見の間でお待ちだ
-That's right...
-His Majesty is waiting in the audience chamber.
+That's right... His Majesty is
+waiting in the audience chamber.
 -----------------------
 #兵士
 Soldier
 -----------------------
 #････陛下が、謁見の間でお待ちだ
-...His Majesty is waiting in the audience chamber.
+...His Majesty is waiting in the
+audience chamber.
 -----------------------
 #兵士
 Soldier
@@ -124,18 +130,18 @@ Soldier
 #････いくんだな、あんたたち
 #やっぱ、英雄の息子は違うな
 #こんなときでも、強い････
-...So you're going.
-As expected, a hero's son really is different.
-Even at a time like this... he's strong.
+...So you're going. As expected, a
+hero's son really is different. Even
+at a time like this... he's strong.
 -----------------------
 <Kyle>
 -----------------------
 #････ちがうよ
 #オレは、英雄なんかじゃない
 #そんな資格、ないのかもしれない
-...That's not it.
-I'm no hero.
-I probably don't even have what it takes.
+...That's not it. I'm no hero. I
+probably don't even have what it
+takes.
 -----------------------
 <Kyle>
 -----------------------
@@ -172,8 +178,8 @@ Soldier
 #おれ、バカだよなぁ
 #「どデカいことが起きなくて退屈だ」
 #････なんて、前はいってたんだけどさ
-I'm such an idiot.
-'I'm bored 'cause nothing huge is happening.'
+I'm such an idiot. 'I'm bored
+'cause nothing huge is happening.'
 ...That's what I used to say.
 -----------------------
 #兵士
@@ -211,9 +217,10 @@ Soldier
 #はい、謁見の方は正面の階段ね
 #････あ～あ、毎日毎日
 #謁見者の相手ばっかりかぁ
-Yes, the audience chamber's up the stairs ahead.
-...Ahh, man. Day after day...
-Nothing but dealing with visitors.
+Yes, the audience chamber's up
+the stairs ahead. ...Ahh, man. Day
+after day... Nothing but dealing
+with visitors.
 -----------------------
 #兵士
 Soldier
@@ -221,9 +228,9 @@ Soldier
 #なんか、どデカいこと起きないかなぁ
 #････って、こんな
 #平和な世の中じゃムリか
-I wonder if something huge'll happen.
-...But in times this peaceful?
-Probably impossible.
+I wonder if something huge'll
+happen. ...But in times this
+peaceful? Probably impossible.
 -----------------------
 #兵士
 Soldier
@@ -231,9 +238,10 @@ Soldier
 #こんなこというと
 #隣のヤツは怒るんだけどさ
 #なんか、どデカいこと起きないもんかねぇ
-If I say stuff like this,
-the guy next door gets mad at me.
-But I can't help wondering if something huge is gonna happen.
+If I say stuff like this, the guy
+next door gets mad at me. But I
+can't help wondering if something
+huge is gonna happen.
 -----------------------
 #兵士
 Soldier
@@ -241,8 +249,8 @@ Soldier
 #あんた、本当にあの英雄スタンの
 #息子だったんだな！
 #こいつは、どデカい事件だ！
-You really are the son of that hero, Stahn!
-This is a huge event!
+You really are the son of that hero,
+Stahn! This is a huge event!
 -----------------------
 <Kyle>
 -----------------------
@@ -259,25 +267,27 @@ Soldier
 #それでもだよ！
 #おれにとっちゃ
 #じゅうぶん、どデカい事件さ！
-Even so!
-To me,
-that's more than enough to be a huge event!
+Even so! To me, that's more than
+enough to be a huge event!
 -----------------------
 #兵士
 Soldier
 -----------------------
 #あの英雄スタンの息子が来るとは････
 #両親にも、自慢できるってもんさ！
-To think the son of that hero, Stahn, would come here...
-I've got something to brag to my parents about!
+To think the son of that hero,
+Stahn, would come here... I've got
+something to brag to my parents
+about!
 -----------------------
 #兵士
 Soldier
 -----------------------
 #陛下への、謁見の方ですね？
 #正面の階段を上ってください
-You're here for an audience with His Majesty?
-Please go up the stairs straight ahead.
+You're here for an audience with
+His Majesty? Please go up the stairs
+straight ahead.
 -----------------------
 #兵士
 Soldier
@@ -285,8 +295,8 @@ Soldier
 #隣のやつは
 #いつも何かないか何かないかと
 #言ってまして････
-The guy next to me is always
-going on about how nothing ever happens,
+The guy next to me is always going
+on about how nothing ever happens,
 and so on...
 -----------------------
 #兵士
@@ -305,9 +315,9 @@ Soldier
 #あぁ、すみません
 #ついグチを････
 #謁見の間は、正面になります
-Ah, sorry about that.
-I couldn't help complaining...
-The audience chamber is straight ahead.
+Ah, sorry about that. I couldn't
+help complaining... The audience
+chamber is straight ahead.
 -----------------------
 #兵士
 Soldier
@@ -315,8 +325,9 @@ Soldier
 #英雄スタンのご子息と
 #こうして、お話ができるとは････
 #妻に、よいみやげ話ができました
-To think I'd get to speak with the son of the hero, Stahn...
-I've got a great story to tell my wife.
+To think I'd get to speak with the
+son of the hero, Stahn... I've got
+a great story to tell my wife.
 -----------------------
 #兵士
 Soldier
@@ -341,8 +352,9 @@ Soldier
 #英雄スタンのご子息と
 #こうして、お話ができるとは････
 #妻に、よいみやげ話ができました
-To think I'd get to speak with the son of the hero, Stahn...
-I've got a great story to tell my wife.
+To think I'd get to speak with the
+son of the hero, Stahn... I've got
+a great story to tell my wife.
 -----------------------
 #兵士
 Soldier
@@ -395,9 +407,9 @@ Soldier
 #かけがえのないものは失われてから
 #その価値に気づく････
 #わかっていたことですが････
-You don't realize how precious something is
-until it's lost...
-I knew that, and yet...
+You don't realize how precious
+something is until it's lost... I
+knew that, and yet...
 -----------------------
 #兵士
 Soldier
@@ -464,8 +476,9 @@ You looked like a completely different person.
 -----------------------
 #ま、顔つきが変わるぐらいには
 #いろいろあってな
-Well, I've been through enough to change a man's face.
-That's for sure.
+Well, I've been through enough to
+change a man's face. That's for
+sure.
 -----------------------
 #兵士
 Soldier
@@ -482,8 +495,8 @@ Soldier
 -----------------------
 #お引き留めしてすいません
 #陛下は謁見の間にいらっしゃいます
-Sorry for keeping you waiting.
-His Majesty is in the audience chamber.
+Sorry for keeping you waiting. His
+Majesty is in the audience chamber.
 -----------------------
 #兵士
 Soldier
@@ -491,9 +504,10 @@ Soldier
 #この前、隣のやつが聞いてきたんです
 #「嫁さんって、いいものか？」って
 #いったい、どういう風のふきまわしだか
-The guy next to me asked me the other day:
-'Is having a wife really all that great?'
-What in the world has gotten into him?
+The guy next to me asked me the
+other day: 'Is having a wife really
+all that great?' What in the world
+has gotten into him?
 -----------------------
 #兵士
 Soldier
@@ -501,9 +515,9 @@ Soldier
 #････ですが、守るべき存在があるのは
 #本当に幸せなことです
 #妻の寝顔を見てると、実感しますね
-...But having someone to protect
-is true happiness.
-I feel that every time I watch my wife sleep.
+...But having someone to protect is
+true happiness. I feel that every
+time I watch my wife sleep.
 -----------------------
 #兵士
 Soldier
@@ -511,17 +525,19 @@ Soldier
 #陛下や、妻、そして
 #この国の人々を守る････
 #今度こそ、やりとげてみせます！
-His Majesty, my wife, and the people of this land...
-I'll protect them all...
-This time, I'll see it through!
+His Majesty, my wife, and the
+people of this land... I'll protect
+them all... This time, I'll see
+it through!
 -----------------------
 #兵士
 Soldier
 -----------------------
 #陛下への、謁見の方ですね？
 #正面の階段を上ってください
-You're here for an audience with His Majesty?
-Please head up the stairs straight ahead.
+You're here for an audience with His
+Majesty? Please head up the stairs
+straight ahead.
 -----------------------
 #兵士
 Soldier
@@ -529,9 +545,10 @@ Soldier
 #隣のやつは
 #いつも何かないか何かないかと
 #言ってまして････
-The guy next to me is always going on about
-how something's missing, something's wrong...
-It's exhausting.
+The guy next to me is always
+going on about how something's
+missing, something's wrong... It's
+exhausting.
 -----------------------
 #兵士
 Soldier
@@ -539,9 +556,9 @@ Soldier
 #なにも起きない、平和ということが
 #いかに大事か、わかっていないのです
 #まったく････
-He doesn't understand how precious peace is.
-The fact that nothing happens at all...
-Honestly...
+He doesn't understand how precious
+peace is. The fact that nothing
+happens at all... Honestly...
 -----------------------
 #兵士
 Soldier
@@ -549,9 +566,9 @@ Soldier
 #あぁ、すみません
 #ついグチを････
 #謁見の間は、正面になります
-Ah, sorry about that.
-I didn't mean to vent...
-The audience chamber is straight ahead.
+Ah, sorry about that. I didn't mean
+to vent... The audience chamber is
+straight ahead.
 -----------------------
 #兵士
 Soldier
@@ -559,9 +576,10 @@ Soldier
 #英雄スタンのご子息と
 #こうして、お話ができるとは････
 #妻に、よいみやげ話ができました
-The son of the hero Stahn...
-I never thought I'd get to speak with you like this.
-I've got quite a story to tell my wife.
+The son of the hero Stahn... I never
+thought I'd get to speak with you
+like this. I've got quite a story
+to tell my wife.
 -----------------------
 <Kyle>
 -----------------------
@@ -612,7 +630,8 @@ as His Majesty Garr.
 Maid
 -----------------------
 #こちらの通路が客室に通じています
-This hallway leads to the guest rooms.
+This hallway leads to the guest
+rooms.
 -----------------------
 #メイド
 Maid
@@ -624,34 +643,38 @@ Maid
 Maid
 -----------------------
 #こちらの通路が客室に通じています
-This hallway leads to the guest rooms.
+This hallway leads to the guest
+rooms.
 -----------------------
 #メイド
 Maid
 -----------------------
 #こちらの通路が客室に通じています
-This hallway leads to the guest rooms.
+This hallway leads to the guest
+rooms.
 -----------------------
 #メイド
 Maid
 -----------------------
 #こちらの通路が客室に通じています
-This hallway leads to the guest rooms.
+This hallway leads to the guest
+rooms.
 -----------------------
 #メイド
 Maid
 -----------------------
 #謁見の方は、そこの階段を上がって････
 #････って、どうかされました？
-The audience chamber is up those stairs...
-...Is something wrong?
+The audience chamber is up those
+stairs... ...Is something wrong?
 -----------------------
 <Kyle>
 -----------------------
 #い、いや、なんか目の前に来たら
 #すごく緊張しちゃって････
-N-no, it's just... when you're right there in front of me,
-I get really nervous...
+N-no, it's just... when you're
+right there in front of me, I get
+really nervous...
 -----------------------
 #メイド
 Maid
@@ -669,9 +692,9 @@ Maid
 #陛下は、きさくで、お優しい方ですから
 #カタくならなくても
 #だいじょうぶですよ
-His Majesty is very approachable and kind,
-so there's no need to be so stiff.
-You'll be fine.
+His Majesty is very approachable
+and kind, so there's no need to be
+so stiff. You'll be fine.
 -----------------------
 #メイド
 Maid
@@ -680,8 +703,9 @@ Maid
 #ああいう人柄だからこそ
 #国民が、ついていくのですわ
 King Garr is so kind, isn't he?
-It's precisely because of his character
-that his people follow him so loyally.
+It's precisely because of his
+character that his people follow
+him so loyally.
 -----------------------
 #メイド
 Maid
@@ -689,9 +713,10 @@ Maid
 #ただ････新人コックの失敗した料理まで
 #笑顔でめしあがってしまうのは
 #どうかと思うんですけどねぇ
-Still... I do wonder if it's quite right
-for him to smile and eat even a rookie cook's
-failed dishes without complaint.
+Still... I do wonder if it's quite
+right for him to smile and eat
+even a rookie cook's failed dishes
+without complaint.
 -----------------------
 #メイド
 Maid
@@ -699,9 +724,10 @@ Maid
 #ウッドロウさまは、お優しい方ですわ
 #でも、失敗した料理まで
 #笑顔でめしあがってしまうのはどうかと････
-King Garr is such a kind man.
-But even for failed dishes,
-I wonder if it's right to eat them with a smile...
+King Garr is such a kind man. But
+even for failed dishes, I wonder
+if it's right to eat them with a
+smile...
 -----------------------
 #メイド
 Maid
@@ -765,17 +791,17 @@ Maid
 #でも････今は、それをする元気も
 #ないみたいで････
 #なんだか、見てて痛々しいぐらい････
-But... now they don't even have the energy
-for that anymore...
-It's almost painful just to watch.
+But... now they don't even have
+the energy for that anymore... It's
+almost painful just to watch.
 -----------------------
 #メイド
 Maid
 -----------------------
 #あのふたりの、口ゲンカがないのが
 #こんなに、さみしいものだなんて････
-I never realized how lonely it would feel
-without those two bickering...
+I never realized how lonely it would
+feel without those two bickering...
 -----------------------
 #メイド
 Maid
@@ -829,9 +855,10 @@ Maid
 #街の人たちが、協力を申し出てきた時の
 #あのウッドロウさまの笑顔････
 #見てて、胸がいっぱいになっちゃいました
-When the townsfolk offered their help...
-the smile on King Garr's face...
-It just filled my heart to bursting.
+When the townsfolk offered their
+help... the smile on King Garr's
+face... It just filled my heart
+to bursting.
 -----------------------
 #メイド
 Maid
@@ -845,8 +872,8 @@ of His Majesty King Garr?
 -----------------------
 #え？　今日はじめて会うけど････
 #どうして？
-Huh? We're meeting for the first time today...
-Why do you ask?
+Huh? We're meeting for the first
+time today... Why do you ask?
 -----------------------
 #メイド
 Maid
@@ -854,9 +881,9 @@ Maid
 #そうなんですか!?
 #めずらしいですねぇ
 #そんなにリラックスした顔をされるなんて
-Is that really true!?
-How unusual.
-To see someone look so relaxed like that.
+Is that really true!? How unusual.
+To see someone look so relaxed
+like that.
 -----------------------
 #メイド
 Maid
@@ -890,9 +917,10 @@ Maid
 #陛下と会う前に、そんな顔をされる方
 #はじめて見ました！
 #きっと、陛下に気に入られると思いますよ
-I've never seen someone make that kind of face
-before meeting His Majesty!
-I'm sure you'll win his favor.
+I've never seen someone make that
+kind of face before meeting His
+Majesty! I'm sure you'll win his
+favor.
 -----------------------
 #メイド
 Maid
@@ -901,8 +929,9 @@ Maid
 #ああいう人柄だからこそ
 #国民が、ついていくのですわ
 King Garr is so kind, isn't he?
-It's precisely because of his character
-that his people follow him so loyally.
+It's precisely because of his
+character that his people follow
+him so loyally.
 -----------------------
 <Kyle>
 -----------------------
@@ -920,8 +949,9 @@ Maid
 #ああいう人柄だからこそ
 #国民が、ついていくのですわ
 King Garr is so kind, isn't he?
-It's precisely because of his character
-that his people follow him so loyally.
+It's precisely because of his
+character that his people follow
+him so loyally.
 -----------------------
 #メイド
 Maid
@@ -929,9 +959,9 @@ Maid
 #ただ････新人コックの失敗した料理まで
 #笑顔でめしあがってしまうのは
 #どうかと思うんですけどねぇ
-Though... I do wonder if it's really right
-to smile and eat even a rookie cook's
-failed dishes.
+Though... I do wonder if it's really
+right to smile and eat even a rookie
+cook's failed dishes.
 -----------------------
 #メイド
 Maid
@@ -939,9 +969,10 @@ Maid
 #ウッドロウさまは、お優しい方ですわ
 #でも、失敗した料理まで
 #笑顔でめしあがってしまうのはどうかと････
-King Garr is such a kind man.
-But even for failed dishes,
-I wonder if it's right to eat them with a smile...
+King Garr is such a kind man. But
+even for failed dishes, I wonder
+if it's right to eat them with a
+smile...
 -----------------------
 <Kyle>
 -----------------------
@@ -983,7 +1014,8 @@ but I got a little worried.
 <Nanaly>
 -----------------------
 #なんで悩んでたか、あててみよっか？
-Want me to guess what's been bothering you?
+Want me to guess what's been
+bothering you?
 -----------------------
 <Nanaly>
 -----------------------
@@ -1004,7 +1036,8 @@ I think you really hurt him.
 #で、ふたつ同時に考えてるから、頭ん中、
 #ゴチャゴチャになっちゃってる････ちがう？
 So you're juggling both at once
-and your head's all scrambled... am I right?
+and your head's all scrambled...
+am I right?
 -----------------------
 <Reala>
 -----------------------
@@ -1016,7 +1049,8 @@ and your head's all scrambled... am I right?
 #ま、エルレインの方は止めればいい
 #だけの話だから、置いておくとして
 Well, we can just stop Elrane.
-That's simple enough, so let's set that aside.
+That's simple enough, so let's set
+that aside.
 -----------------------
 <Nanaly>
 -----------------------
@@ -1034,8 +1068,9 @@ I think... I do.
 -----------------------
 #これで、終わっちゃったんだと思うと、
 #ちょっと････ううん、すごく、つらい
-When I think about how it's all over now,
-it's just... no, it's really, really painful.
+When I think about how it's all over
+now, it's just... no, it's really,
+really painful.
 -----------------------
 <Nanaly>
 -----------------------
@@ -1058,15 +1093,16 @@ I went too far, so now...
 #････あたしもね、
 #ルーと、ケンカしたことがあるよ
 #もう、何回もね
-...You know, I've fought with Rue too.
-Like, a lot of times.
+...You know, I've fought with Rue
+too. Like, a lot of times.
 -----------------------
 <Nanaly>
 -----------------------
 #本気で怒鳴って、怒って、
 #手だって出るときがあった
-I'd yell at him for real, get furious...
-There were even times I threw punches.
+I'd yell at him for real, get
+furious... There were even times
+I threw punches.
 -----------------------
 <Reala>
 -----------------------
@@ -1079,9 +1115,10 @@ But you two were so close...
 -----------------------
 #仲がいいから、ケンカするんじゃないか
 #どうでもいいやつと、ケンカなんか、しないだろ？
-You only fight with people you're close to.
-You wouldn't bother arguing with someone
-who doesn't matter, right?
+You only fight with people you're
+close to. You wouldn't bother
+arguing with someone who doesn't
+matter, right?
 -----------------------
 <Nanaly>
 -----------------------
@@ -1090,14 +1127,16 @@ who doesn't matter, right?
 #もっと、もっと、わかりあいたい
 You want them to understand you.
 You want them to see their mistakes.
-You want to understand each other more and more.
+You want to understand each other
+more and more.
 -----------------------
 <Nanaly>
 -----------------------
 #そんなふうに、本気で、相手のこと思ってないと、
 #ケンカなんかしないし、できないだろ？
-If you didn't genuinely care about each other,
-you wouldn't fight in the first place.
+If you didn't genuinely care about
+each other, you wouldn't fight in
+the first place.
 -----------------------
 <Reala>
 -----------------------
@@ -1110,8 +1149,8 @@ you wouldn't fight in the first place.
 #どうしても、ゆずれないんだ
 #なんせ、こっちも向こうも本気だからね
 So when something doesn't sit right,
-you can't just back down.
-You're both serious about this, after all.
+you can't just back down. You're
+both serious about this, after all.
 -----------------------
 <Nanaly>
 -----------------------
@@ -1143,23 +1182,24 @@ Fighting hurts. It's rough.
 -----------------------
 #それをのりこえて、はじめて本当に
 #仲良くなれるし、幸せにもなれるんだ
-But once you get through it,
-that's when you can really become close
+But once you get through it, that's
+when you can really become close
 and find happiness.
 -----------------------
 <Reala>
 -----------------------
 #あんたたちは、はじめて本音をぶつけあって、
 #はじめてケンカをした
-You two finally clashed with your true feelings.
-You finally had your first real fight.
+You two finally clashed with your
+true feelings. You finally had your
+first real fight.
 -----------------------
 <Nanaly>
 -----------------------
 #だから、これでやっとスタート
 #終わりなんかじゃ、ないんだよ
-So this is finally your starting line.
-It's not the end.
+So this is finally your starting
+line. It's not the end.
 -----------------------
 <Reala>
 -----------------------
@@ -1170,8 +1210,8 @@ It's not the end.
 -----------------------
 #あたりまえじゃないか
 #じゃなきゃ、こんな話できないよ
-Well, obviously.
-If I hadn't, I couldn't talk about this stuff.
+Well, obviously. If I hadn't, I
+couldn't talk about this stuff.
 -----------------------
 <Nanaly>
 -----------------------
@@ -1224,8 +1264,9 @@ What are you talking about?
 -----------------------
 #ふわぁ～あ････なんか、マジメなこと
 #いったら、つかれちゃったよ
-Phew... Man, all that serious talk...
-It's exhausting just thinking about it.
+Phew... Man, all that serious
+talk... It's exhausting just
+thinking about it.
 -----------------------
 <Nanaly>
 -----------------------
@@ -1239,9 +1280,9 @@ You should get some rest too.
 #こっちじゃ昼前だけど、あたしたちは、
 #ホープタウンを出発してからずっと
 #起きてるんだからさ
-It's still morning here, but we've been
-up ever since we left Hope Town,
-so we're running on fumes.
+It's still morning here, but we've
+been up ever since we left Hope
+Town, so we're running on fumes.
 -----------------------
 <Nanaly>
 -----------------------
@@ -1260,8 +1301,9 @@ Sabnock
 -----------------------
 #我が名はサブノック！
 #おのが信念に命を賭する騎士なり！
-My name is Sabnock!
-I am a knight who stakes his life upon his convictions!
+My name is Sabnock! I am a knight
+who stakes his life upon his
+convictions!
 -----------------------
 <Reala>
 -----------------------
@@ -1280,7 +1322,8 @@ I know!
 #ジャマするっていうなら
 #力ずくでも、ここを通してもらうぞ！
 If you're gonna stand in my way,
-I'll force my way through, even if I gotta use my fists!
+I'll force my way through, even if
+I gotta use my fists!
 -----------------------
 #サブノック
 Sabnock
@@ -1288,9 +1331,9 @@ Sabnock
 #まいられよ、少年！
 #貴公の信念と我の信念、どちらがより強固か
 #戦いによって、証明しようぞ！
-Come, boy!
-Let us prove through battle
-whose conviction is the stronger: yours or mine!
+Come, boy! Let us prove through
+battle whose conviction is the
+stronger: yours or mine!
 -----------------------
 <Kyle>
 -----------------------

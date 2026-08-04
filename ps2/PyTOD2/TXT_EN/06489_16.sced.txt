@@ -8,8 +8,8 @@ Heat River
 -----------------------
 #岩陰にいれば
 #熱波を食らわずにすむんだ
-If we stay in the shade of these rocks,
-we can avoid the heat waves.
+If we stay in the shade of these
+rocks, we can avoid the heat waves.
 -----------------------
 <Nanaly>
 -----------------------
@@ -21,7 +21,9 @@ in the shade of these rocks.
 NOTICE
 -----------------------
 #この岩の陰にいれば、熱波を防げそうです
-If we stay behind these rocks, we should be able to block the heat waves.
+If we stay behind these rocks, we
+should be able to block the heat
+waves.
 -----------------------
 #いってらっしゃいませ
 Have a good day.

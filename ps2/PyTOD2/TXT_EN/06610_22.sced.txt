@@ -118,18 +118,18 @@ Barbatos
 #貴様の兄はミクトランとの戦いで
 #刺しちがえて死ぬ
 #これが、今の段階での史実だ
-Your brother dies from a mortal wound
-in battle against Kronos.
-That is the historical fact
-as it stands now.
+Your brother dies from a mortal
+wound in battle against Kronos.
+That is the historical fact as it
+stands now.
 -----------------------
 #バルバトス
 Barbatos
 -----------------------
 #だが、いますぐ向かえば十分に間に合う
 #歴史を変えることができる
-But if you go now, you'll make it in time.
-You can change history.
+But if you go now, you'll make it in
+time. You can change history.
 -----------------------
 #バルバトス
 Barbatos
@@ -180,8 +180,9 @@ Wireless Voice
 #敵部隊さらにＭブロックに侵入
 #来援を乞う、至急、来援を････！
 Blocks A through J have fallen!
-Enemy forces advancing into Block M!
-Requesting reinforcements! Urgently...!
+Enemy forces advancing into Block
+M! Requesting reinforcements!
+Urgently...!
 -----------------------
 #無線の声
 Wireless Voice
@@ -189,9 +190,9 @@ Wireless Voice
 #ミクトランさまはどこにおられる!?
 #くそッ、連絡はとれんのか!?
 #我が部隊、損害多数、降伏を許可されたし
-Where is Lord Kronos!?
-Damn it, can't we get through!?
-Our unit has sustained heavy casualties.
+Where is Lord Kronos!? Damn it,
+can't we get through!? Our unit
+has sustained heavy casualties.
 Requesting permission to surrender.
 -----------------------
 <Kyle>
@@ -210,7 +211,8 @@ I need... a more fitting place!
 <Kyle>
 -----------------------
 #待てッ、どこへ行く、バルバトス!?
-Wait! Where are you going, Barbatos!?
+Wait! Where are you going,
+Barbatos!?
 -----------------------
 #バルバトス
 Barbatos
@@ -239,8 +241,8 @@ He got away after all...
 -----------------------
 #バルバトスには、これ以上の手出しはできまい
 #放っておいていいだろう
-We can do nothing more about Barbatos.
-Best to leave him be.
+We can do nothing more about
+Barbatos. Best to leave him be.
 -----------------------
 <Loni>
 -----------------------

@@ -24,8 +24,9 @@ PLY3 = %d
 -----------------------
 #すげぇや、ラグナ遺跡で見たヤツと
 #同じくらい大きいや！
-Whoa, it's just as big as the one we saw at the Laguna Ruins!
-It's on the same scale!
+Whoa, it's just as big as the one
+we saw at the Laguna Ruins! It's
+on the same scale!
 -----------------------
 <Nanaly>
 -----------------------
@@ -174,8 +175,9 @@ W-wait, <Reala>!
 -----------------------
 #二人の聖女だの、人々を導けだの････
 #いったい、なんのこと!?
-Two Saintesses, leading the people...
-What the heck are you talking about!?
+Two Saintesses, leading the
+people... What the heck are you
+talking about!?
 -----------------------
 <Reala>
 -----------------------
@@ -188,7 +190,8 @@ Fortuna
 #二人の聖女は、私の代理者
 #人々を救いへと導く存在です
 The two Saintesses are my proxies.
-They are beings who guide people toward salvation.
+They are beings who guide people
+toward salvation.
 -----------------------
 <Kyle>
 -----------------------
@@ -200,8 +203,9 @@ Fortuna
 -----------------------
 #人々の救いを求める想いが、私を
 #そして二人の聖女を生みだしたのです
-The desire for people's salvation gave birth to me,
-and to the two Saintesses.
+The desire for people's salvation
+gave birth to me, and to the two
+Saintesses.
 -----------------------
 #フォルトゥナ
 Fortuna
@@ -217,9 +221,9 @@ Fortuna
 #二人は違う道を歩み、
 #それぞれ人々の救いの姿を、
 #探し求める旅に出たのです
-The two walked different paths,
-each setting out on a journey
-to find what form salvation should take.
+The two walked different paths, each
+setting out on a journey to find
+what form salvation should take.
 -----------------------
 <Loni>
 -----------------------
@@ -242,9 +246,9 @@ That's a lie!
 #だってあいつは、ウッドロウさんを、
 #バルバトスに襲わせたり
 #レンズを奪ったりしてたじゃないか！
-Because she had Garr attacked by Barbatos!
-She stole Lenses!
-How can you call that saving people!?
+Because she had Garr attacked by
+Barbatos! She stole Lenses! How can
+you call that saving people!?
 -----------------------
 #フォルトゥナ
 Fortuna
@@ -252,7 +256,8 @@ Fortuna
 #エルレインは結果としてそれが
 #人々の救いにつながると思ったのでしょう
 Elrane believed that in the end,
-it would lead to the salvation of the people.
+it would lead to the salvation of
+the people.
 -----------------------
 <Kyle>
 -----------------------
@@ -277,39 +282,41 @@ Fortuna
 #アイグレッテを見たのでしょう？
 #人々は安全で快適な街の中で、
 #幸福に暮らしています
-You saw Aigrette, didn't you?
-People live safely and comfortably in their towns,
-enjoying happiness.
+You saw Aigrette, didn't you? People
+live safely and comfortably in their
+towns, enjoying happiness.
 -----------------------
 <Nanaly>
 -----------------------
 #たしかに、なんにも知らなければ
 #あれでも幸福かもしれないね
-True enough, if you don't know any better,
-maybe that's happiness too.
+True enough, if you don't know any
+better, maybe that's happiness too.
 -----------------------
 <Nanaly>
 -----------------------
 #けどさ････親から子を奪うのが、
 #幸福だってのかい？
-But still... is taking children from their parents
-what you'd call happiness?
+But still... is taking children
+from their parents what you'd call
+happiness?
 -----------------------
 <Nanaly>
 -----------------------
 #生きてるって、実感をなくしちまってるのに
 #本当に幸福なのかい？
-When you've lost all sense of what it means to be alive,
-can you really call that happiness?
+When you've lost all sense of what
+it means to be alive, can you really
+call that happiness?
 -----------------------
 <Kyle>
 -----------------------
 #そうだ！
 #やっぱり、間違ってる！
 #エルレインもフォルトゥナもおかしいよ！
-That's right!
-I knew it, this is wrong!
-Both Elrane and Fortuna are messed up!
+That's right! I knew it, this is
+wrong! Both Elrane and Fortuna are
+messed up!
 -----------------------
 <Kyle>
 -----------------------
@@ -347,8 +354,9 @@ I think Elrane is wrong too.
 -----------------------
 #でも、エルレインには力がある！
 #あの人のおかげで幸せだと感じている人たちもいる！
-But Elrane has power!
-There are people who feel happy because of her!
+But Elrane has power! There are
+people who feel happy because of
+her!
 -----------------------
 <Reala>
 -----------------------
@@ -378,9 +386,9 @@ Because <Reala> has such amazing power...!
 #やめて！
 #なにもわからないくせに、
 #無責任なこと、言わないでよ！
-Stop it!
-You don't understand anything,
-so don't say such irresponsible things!
+Stop it! You don't understand
+anything, so don't say such
+irresponsible things!
 -----------------------
 <Kyle>
 -----------------------

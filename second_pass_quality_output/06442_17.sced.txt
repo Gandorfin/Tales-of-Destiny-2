@@ -9,8 +9,9 @@ Grocery
 -----------------------
 #このタルの中身は････
 #アクアヴェイル地方の特産品「ミソ」のようだ
-What's in this barrel...?
-It looks like miso, a specialty of the Aquaveil region.
+What's in this barrel...? It looks
+like miso, a specialty of the
+Aquaveil region.
 -----------------------
 #このタルの中身は････
 #カルバレイス地方の特産品「スパイス」のようだ
@@ -54,9 +55,9 @@ Woman
 #タマゴ、ひとりにつきひとつ････
 #あんたたち、よかったら
 #あたしのぶんも並んでくれない？
-One egg per person...
-Hey, you there.
-Would you mind getting in line for me too?
+One egg per person... Hey, you
+there. Would you mind getting in
+line for me too?
 -----------------------
 #おばさん
 Woman
@@ -73,9 +74,10 @@ Woman
 #ねえ、さっきの爆発はなんなのさ！
 #せっかくのタマゴを
 #落としちゃったじゃない！
-Hey, what was that explosion just now!?
-I finally got my hands on those eggs,
-and you went and dropped them!
+Hey, what was that explosion
+just now!? I finally got my hands
+on those eggs, and you went and
+dropped them!
 -----------------------
 #女性
 Woman
@@ -83,8 +85,8 @@ Woman
 #いらっしゃいませ～♪
 #当店名物「やきそばパン」は
 #いかがですかぁ？
-Welcome~♪
-How about our shop's famous yakisoba bread?
+Welcome~♪ How about our shop's
+famous yakisoba bread?
 -----------------------
 <Loni>
 -----------------------
@@ -111,8 +113,8 @@ Woman
 #いらっしゃいませ～♪
 #当店名物「やきそばパン」は
 #いかがですかぁ？
-Welcome~♪
-How about our shop's famous yakisoba bread?
+Welcome~♪ How about our shop's
+famous yakisoba bread?
 -----------------------
 <Reala>
 -----------------------
@@ -183,8 +185,9 @@ Woman
 #ウチの子は、みんな
 #食べざかりでね
 #食費がかかって、かかって････
-My kids are all growing boys and girls.
-The food bills just keep piling up...
+My kids are all growing boys and
+girls. The food bills just keep
+piling up...
 -----------------------
 #おばさん
 Woman
@@ -341,8 +344,9 @@ Chef
 -----------------------
 #食材を探しているんだ
 #見つけたら持ってきてくれないかい？
-I'm looking for ingredients.
-If you find any, would you bring them to me?
+I'm looking for ingredients. If
+you find any, would you bring them
+to me?
 -----------------------
 #シェフ
 Chef
@@ -357,8 +361,9 @@ Chef
 -----------------------
 #お前のような奴を待ってた
 #これをゆずるのに相応しい料理人を
-I've been waiting for someone like you.
-A chef worthy of inheriting this.
+I've been waiting for someone like
+you. A chef worthy of inheriting
+this.
 -----------------------
 notice
 -----------------------

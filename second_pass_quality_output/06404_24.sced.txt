@@ -45,8 +45,8 @@ The Peeping Hero
 #････ただ風呂をのぞき続けた英雄
 #それが俺だ
 Unbowed by rain, by wind, by snow...
-...the hero who simply kept on peeping.
-That hero is me.
+...the hero who simply kept on
+peeping. That hero is me.
 -----------------------
 #のぞき英雄
 The Peeping Hero
@@ -118,8 +118,9 @@ Go get her, <Kyle>.
 -----------------------
 #まだ体調が万全ではないはずだ
 #勝手に出歩くなと、言ったのだがな
-You shouldn't be fully recovered yet.
-I told you not to go wandering off.
+You shouldn't be fully recovered
+yet. I told you not to go wandering
+off.
 -----------------------
 #リリス
 Lilith
@@ -127,9 +128,10 @@ Lilith
 #せっかくだから、村のみんなにも
 #いろいろ聞いてみたらどう？
 #きっと、おもしろい話が聞けるはずよ
-Since you're here anyway,
-why not go chat with the villagers?
-I'm sure you'll hear all sorts of interesting stories.
+Since you're here anyway, why
+not go chat with the villagers?
+I'm sure you'll hear all sorts of
+interesting stories.
 -----------------------
 #リリス
 Lilith
@@ -137,9 +139,9 @@ Lilith
 #早くあの子を呼んできてちょうだい
 #でないと、せっかくの朝ごはんが
 #冷めちゃうから、ねっ
-Go fetch that child for me, would you?
-If you don't hurry,
-our breakfast will get cold.
+Go fetch that child for me, would
+you? If you don't hurry, our
+breakfast will get cold.
 -----------------------
 #リリス
 Lilith
@@ -147,9 +149,9 @@ Lilith
 #疲れたとき、悩んだとき
 #そして、つらいとき、苦しいとき････
 #また、いらっしゃい
-When you're weary, when you're troubled...
-when it hurts, when it's hard...
-please, come visit again.
+When you're weary, when you're
+troubled... when it hurts, when it's
+hard... please, come visit again.
 -----------------------
 #リリス
 Lilith
@@ -191,17 +193,18 @@ Lilith
 #なんでもないわけ、ないでしょ？
 #あなたが、ここに来るなんて
 #よっぽどのことじゃない
-It can't be nothing, can it?
-For you to come all the way here...
-something serious must have happened.
+It can't be nothing, can it? For
+you to come all the way here...
+something serious must have
+happened.
 -----------------------
 #リリス
 Lilith
 -----------------------
 #なにが、あったのかは････
 #話してくれなさそうね
-Whatever it is...
-you don't seem ready to talk about it.
+Whatever it is... you don't seem
+ready to talk about it.
 -----------------------
 <Kyle>
 -----------------------
@@ -216,7 +219,8 @@ Lilith
 #誰かに頼るのは、悪いことじゃないのよ
 There's nothing to apologize for.
 It's just... when times are hard,
-there's no shame in leaning on someone.
+there's no shame in leaning on
+someone.
 -----------------------
 #リリス
 Lilith
@@ -224,9 +228,10 @@ Lilith
 #あなたには、すっごく頼れる人が
 #身近にいるじゃない
 #世界を救った英雄にして、お母さんが
-You've got someone incredibly reliable
-right there beside you, you know.
-Your mother, the hero who saved the world.
+You've got someone incredibly
+reliable right there beside you,
+you know. Your mother, the hero who
+saved the world.
 -----------------------
 #リリス
 Lilith
@@ -234,8 +239,8 @@ Lilith
 #つらかったら、誰かに頼ってもいいの
 #だから、話してごらんなさい
 #ルーティさんに、全部
-When things get hard, it's okay to lean on someone.
-So talk to her.
+When things get hard, it's okay to
+lean on someone. So talk to her.
 Tell Rutee everything.
 -----------------------
 #リリス
@@ -252,8 +257,8 @@ I never expected to see you at my door.
 -----------------------
 #いや、なんとなくさ
 #リリスおばさんの顔、見たかったんだ
-Nah, no real reason.
-Just felt like seeing your face, Aunt Lilith.
+Nah, no real reason. Just felt like
+seeing your face, Aunt Lilith.
 -----------------------
 #リリス
 Lilith
@@ -283,9 +288,10 @@ Lilith
 #この前ここに来てから
 #まだ、時間があんまりたってないのに
 #すごく大きな冒険をしてきたみたい
-It hasn't been that long since you were here last,
-but it feels like you've been through
-an incredible adventure in that short time.
+It hasn't been that long since you
+were here last, but it feels like
+you've been through an incredible
+adventure in that short time.
 -----------------------
 #リリス
 Lilith
@@ -304,8 +310,8 @@ Lilith
 #親子だからっていうだけじゃない
 #なにか、すごく大きなものを感じるの
 #あなた自身から
-And it's not just because you're his son.
-I sense something truly vast...
+And it's not just because you're his
+son. I sense something truly vast...
 radiating from within you.
 -----------------------
 #リリス
@@ -347,9 +353,9 @@ Lilith
 #私が兄さんのところに
 #遊びにいって以来だから････
 #もう、十年ぶり？
-Not since I went to visit my brother's place...
-Goodness, has it really been
-ten years already?
+Not since I went to visit my
+brother's place... Goodness, has it
+really been ten years already?
 -----------------------
 #リリス
 Lilith
@@ -364,8 +370,9 @@ Lilith
 -----------------------
 #今は、旅の途中なの？
 #やっぱり、英雄になるための旅？
-Are you traveling right now?
-A journey to become a hero, just like I thought?
+Are you traveling right now? A
+journey to become a hero, just
+like I thought?
 -----------------------
 <Kyle>
 -----------------------
@@ -382,9 +389,10 @@ Lilith
 #それ、兄さんが言ったんでしょ？
 #まったく、変わってないわね････
 #で、それは見つかりそう？
-That's what my brother used to say, isn't it?
-Honestly, you haven't changed a bit...
-So, do you think you'll find it?
+That's what my brother used to say,
+isn't it? Honestly, you haven't
+changed a bit... So, do you think
+you'll find it?
 -----------------------
 <Kyle>
 -----------------------
@@ -399,8 +407,9 @@ Lilith
 #じゃ、私から
 #「かけがえのないもの」を
 #探すための、アドバイス！
-Well then, let me give you some advice
-on finding that "something irreplaceable"!
+Well then, let me give you some
+advice on finding that "something
+irreplaceable"!
 -----------------------
 #リリス
 Lilith
@@ -416,9 +425,10 @@ Lilith
 #旅に出たいと思った動機
 #自分の心の中にある思い
 #あなたを突き動かすもの････
-The reason you set out on your journey.
-The feelings nestled deep in your heart.
-What drives you forward...
+The reason you set out on your
+journey. The feelings nestled deep
+in your heart. What drives you
+forward...
 -----------------------
 #リリス
 Lilith
@@ -450,7 +460,8 @@ Good luck, <Kyle>!
 #うん！　オレ、必ず見つけてみせるよ！
 #それが、父さんとの････
 Yeah! I'll find it, no matter what!
-It's... something that connects me to Dad...
+It's... something that connects
+me to Dad...
 -----------------------
 <Kyle>
 -----------------------
@@ -499,9 +510,10 @@ And all of you too.
 #いや、俺たちはどーってことないです
 #それより、急に押しかけちゃって
 #リリスさんのほうがタイヘンかなって
-Nah, we're fine, really.
-More importantly, we kinda barged in on you
-outta nowhere. Figured it'd be rougher on you, Miss Lilith.
+Nah, we're fine, really. More
+importantly, we kinda barged in on
+you outta nowhere. Figured it'd be
+rougher on you, Miss Lilith.
 -----------------------
 #リリス
 Lilith
@@ -509,9 +521,9 @@ Lilith
 #ああ、いいのよ
 #ここは、見てのとおり
 #なんにもない村でしょ？
-Oh, it's fine.
-As you can see,
-this is just a tiny village with nothing going on.
+Oh, it's fine. As you can see,
+this is just a tiny village with
+nothing going on.
 -----------------------
 #リリス
 Lilith
@@ -558,9 +570,10 @@ Lilith
 #そう････とにかく、寝ぼすけさんだったわ
 #兄さんを起こすのは、あたしだったから
 #毎日、そりゃもう大変だったの
-Well... first off, he was a total sleepyhead.
-I was the one who had to wake him up every morning,
-so you can imagine how rough that was.
+Well... first off, he was a total
+sleepyhead. I was the one who had
+to wake him up every morning, so you
+can imagine how rough that was.
 -----------------------
 #リリス
 Lilith
@@ -568,9 +581,10 @@ Lilith
 #大声で叫んだり、毛布を取ったり
 #ほっぺたをつねったり････
 #でもね、それでも起きないのよ
-I'd scream at the top of my lungs, yank off his blankets,
-pinch his cheeks...
-But even then, he wouldn't wake up.
+I'd scream at the top of my lungs,
+yank off his blankets, pinch his
+cheeks... But even then, he wouldn't
+wake up.
 -----------------------
 #リリス
 Lilith
@@ -578,9 +592,10 @@ Lilith
 #で、最後にはフライパンを持ち出して
 #おたまで乱れ打ちするの
 #「秘技、死者の目覚め!!」ってね
-So finally I'd pull out a frying pan
-and start whaling on him with a ladle.
-"Secret Technique: Awakening of the Dead!!" and all that.
+So finally I'd pull out a frying
+pan and start whaling on him with a
+ladle. "Secret Technique: Awakening
+of the Dead!!" and all that.
 -----------------------
 <Kyle>
 -----------------------
@@ -595,9 +610,11 @@ Lilith
 #あとは、いたって普通の子どもだった
 #夢なんかも意外にちっちゃくて
 #お城の兵士になりたいなんて言ってたっけ
-Other than that, he was a totally normal kid.
-His dreams were actually pretty small, come to think of it.
-I think he used to say he wanted to be a castle soldier.
+Other than that, he was a totally
+normal kid. His dreams were actually
+pretty small, come to think of it.
+I think he used to say he wanted to
+be a castle soldier.
 -----------------------
 <Kyle>
 -----------------------
@@ -614,9 +631,9 @@ Lilith
 #ううん、ぜ～んぜん
 #本人が言うには、いつのまにか
 #世界の危機を救ってたんですって
-Nope, not at all.
-According to him, he just kinda...
-ended up saving the world before he knew it.
+Nope, not at all. According to him,
+he just kinda... ended up saving the
+world before he knew it.
 -----------------------
 #リリス
 Lilith
@@ -647,9 +664,10 @@ Lilith
 #せっかくだから、村のみんなにも
 #いろいろ聞いてみたらどう？
 #きっと、おもしろい話が聞けるはずよ
-Since you're here anyway,
-why don't you go ask around the village?
-I'm sure you'll hear some interesting stories.
+Since you're here anyway, why don't
+you go ask around the village? I'm
+sure you'll hear some interesting
+stories.
 -----------------------
 <Kyle>
 -----------------------
@@ -672,9 +690,10 @@ Lilith
 #あっ、お帰りなさい
 #どうだった？　みんなの話を聞いて
 #少しは兄さんのことわかった？
-Oh, welcome back.
-How'd it go? Did you hear everyone's stories?
-Do you understand my brother a little better now?
+Oh, welcome back. How'd it go? Did
+you hear everyone's stories? Do
+you understand my brother a little
+better now?
 -----------------------
 <Kyle>
 -----------------------
@@ -732,8 +751,8 @@ Lilith
 -----------------------
 #じゃあ、すぐに
 #ベッドを用意するわね
-All right, then.
-I'll go get the bed ready right away.
+All right, then. I'll go get the
+bed ready right away.
 -----------------------
 #リリス
 Lilith
@@ -808,8 +827,8 @@ Lilith
 -----------------------
 #いくわよ････
 #秘技「死者の目覚め」！
-Here I go...
-Secret Technique: Awakening of the Dead!
+Here I go... Secret Technique:
+Awakening of the Dead!
 -----------------------
 <Kyle>
 -----------------------
@@ -831,8 +850,8 @@ Lilith
 #はいはい、いいから起きて
 <Kyle>
 #朝ごはんにしましょう
-Yes, yes, that's enough. Just get up.
-Let's have breakfast.
+Yes, yes, that's enough. Just get
+up. Let's have breakfast.
 -----------------------
 <Kyle>
 -----------------------
@@ -844,9 +863,10 @@ Let's have breakfast.
 #････さ、さすが本家
 #しっかりふさいだはずなのに
 #耳なりが････
-...Man, that's the real deal for you.
-I plugged my ears good and tight,
-and they still won't stop ringing...
+...Man, that's the real deal for
+you. I plugged my ears good and
+tight, and they still won't stop
+ringing...
 -----------------------
 <Kyle>
 -----------------------
@@ -859,17 +879,18 @@ Where's <Reala>?
 -----------------------
 #考え事があるからと
 #外に出て行った
-She said she had something on her mind
-and went outside.
+She said she had something on her
+mind and went outside.
 -----------------------
 <Loni>
 -----------------------
 #そういえば、ずいぶん長いな････
 #おまえ、呼んでこいよ
 #戻ってきたら、朝メシにしようぜ
-Come to think of it, she's been gone a while...
-Go call her in, would ya?
-Once you're back, we'll have breakfast.
+Come to think of it, she's been
+gone a while... Go call her in,
+would ya? Once you're back, we'll
+have breakfast.
 -----------------------
 <Kyle>
 -----------------------
@@ -885,8 +906,8 @@ Lilith
 -----------------------
 #ごはんになると元気になるのも
 #兄さんと同じなのね
-You perk right up when it's time to eat, too.
-Just like my brother.
+You perk right up when it's time to
+eat, too. Just like my brother.
 -----------------------
 #リリス
 Lilith
@@ -917,8 +938,9 @@ You know you can take your time.
 -----------------------
 #またいつか、必ず来るよ
 #今度は、父さんと母さんを連れて！
-I'll come back again someday, I promise!
-Next time, I'll bring Mom and Dad!
+I'll come back again someday, I
+promise! Next time, I'll bring Mom
+and Dad!
 -----------------------
 #リリス
 Lilith
@@ -933,8 +955,9 @@ Lilith
 -----------------------
 #はい、これを持っていって
 #兄さんも使ってた、英雄御用達の品よ
-Here, take this with you.
-Even my brother used it -- a true hero's staple.
+Here, take this with you. Even my
+brother used it -- a true hero's
+staple.
 -----------------------
 notice
 -----------------------
@@ -946,9 +969,9 @@ notice
 #さらに
 #リーネで取れた新鮮な野菜を
 #ドッサリもらいました
-Furthermore,
-you received plenty of fresh vegetables
-harvested right here in Lienea.
+Furthermore, you received plenty
+of fresh vegetables harvested right
+here in Lienea.
 -----------------------
 #リリス
 Lilith
@@ -979,9 +1002,10 @@ notice
 #リファインは、選択したアイテムを
 #別なアイテムに変化させたり
 #武器や防具などを合成させることのできるコマンドです
-Refine is a command that lets you transform
-selected items into different ones,
-or synthesize weapons and armor.
+Refine is a command that lets
+you transform selected items into
+different ones, or synthesize
+weapons and armor.
 -----------------------
 notice
 -----------------------

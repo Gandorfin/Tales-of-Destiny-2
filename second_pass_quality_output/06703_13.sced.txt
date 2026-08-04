@@ -8,15 +8,18 @@ Egg of God - Middle Layer
 -----------------------
 #ここは････オベロン社廃坑か
 #どうやら僕の記憶らしいな
-This is... the Oberon Corporation abandoned mine.
-It seems my memory was correct.
+This is... the Oberon Corporation
+abandoned mine. It seems my memory
+was correct.
 -----------------------
 NOTICE
 -----------------------
 #不気味に光る何かの『かけら』があります
 #不吉な予感がしますが、これを持っていきますか？
-There's a fragment of some kind glowing ominously.
-I have a bad feeling about this... Will you take it?
+There's a fragment of some kind
+glowing ominously. I have a bad
+feeling about this... Will you
+take it?
 -----------------------
 select
 -----------------------
@@ -28,7 +31,8 @@ Don't take it
 NOTICE
 -----------------------
 #デリスエンブレムのかけらを手に入れました
-Obtained a piece of the Delis Emblem.
+Obtained a piece of the Delis
+Emblem.
 -----------------------
 #いってらっしゃいませ
 Have a good day.

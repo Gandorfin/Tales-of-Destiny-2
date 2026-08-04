@@ -14,8 +14,9 @@ Laguna Ruins
 -----------------------
 #調査隊が来てるって言ってたけど、
 #姿が見えないじゃんか
-You said an investigation team was coming,
-but I don't see 'em anywhere!
+You said an investigation team
+was coming, but I don't see 'em
+anywhere!
 -----------------------
 <Loni>
 -----------------------
@@ -39,16 +40,18 @@ Church Member
 -----------------------
 #はっ！　自分は以前、確かにこの遺跡で
 #レンズを目撃しました！
-Yes sir! I personally observed the Lens
-in these ruins during a previous visit!
+Yes sir! I personally observed
+the Lens in these ruins during a
+previous visit!
 -----------------------
 #隊員
 Church Member
 -----------------------
 #この遺跡はレンズが作られた時代の
 #都市であると考えられています
-These ruins are believed to be the remains
-of a city from the era when Lenses were made.
+These ruins are believed to be the
+remains of a city from the era when
+Lenses were made.
 -----------------------
 #隊長
 Commander
@@ -56,8 +59,8 @@ Commander
 #だから、レンズがあっても
 #不思議ではないと言うのか？
 #････疑わしいものだ
-So you're saying there's nothing strange
-about a Lens being here?
+So you're saying there's nothing
+strange about a Lens being here?
 ...I have my doubts.
 -----------------------
 #隊員
@@ -97,7 +100,8 @@ We'd run right into 'em.
 <Kyle>
 -----------------------
 #じゃあ、あっちの横穴はどう？
-Then what about that side tunnel over there?
+Then what about that side tunnel
+over there?
 -----------------------
 <Loni>
 -----------------------
@@ -121,9 +125,10 @@ The Laguna Ruins.
 #かつては空中都市とよばれていた遺跡だが
 #あらかた調べつくされて
 #考古学的な価値はゼロって話だ
-They used to call it an aerial city,
-but it's been picked clean.
-Supposedly it's got zero archaeological value now.
+They used to call it an aerial
+city, but it's been picked
+clean. Supposedly it's got zero
+archaeological value now.
 -----------------------
 <Kyle>
 -----------------------
@@ -159,8 +164,8 @@ Strange feeling?
 #ただ、だれかが呼んでるような
 #それもよく知ってるはずのだれかが････
 I can't really put it into words.
-It's like someone's calling out to me.
-Someone I should know well...
+It's like someone's calling out to
+me. Someone I should know well...
 -----------------------
 <Loni>
 -----------------------
@@ -175,8 +180,8 @@ I don't wanna hear it.
 -----------------------
 #そんなに気になるなら、いってこいよ
 #ここで待っててやるから
-If it bothers you that much, go check it out.
-I'll wait here.
+If it bothers you that much, go
+check it out. I'll wait here.
 -----------------------
 <Kyle>
 -----------------------
@@ -190,9 +195,10 @@ Sorry, <Loni>.
 #この辺から入っていった気がするけど････？
 #見つかったらマズイし、オレたちは横穴から
 #中に入ろう
-I feel like we went in around here...?
-If they spot us, we're in trouble. Let's go
-in through the side tunnel.
+I feel like we went in around
+here...? If they spot us, we're in
+trouble. Let's go in through the
+side tunnel.
 -----------------------
 <Kyle>
 -----------------------
@@ -200,8 +206,9 @@ in through the side tunnel.
 #でも、開け方が分からないや
 #なにか道具が手に入ったら、また来てみよう
 I wonder if this is the entrance?
-But I can't figure out how to open it.
-Let's come back once we have the right tool.
+But I can't figure out how to open
+it. Let's come back once we have
+the right tool.
 -----------------------
 #いってらっしゃいませ
 Have a good day.

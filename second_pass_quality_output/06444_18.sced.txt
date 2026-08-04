@@ -115,9 +115,9 @@ Priest
 #ほら、やっぱり････
 #住人たちがレンズを寄進しないから
 #街が不幸になったんですよ！
-See? I told you so...
-The townsfolk didn't donate their Lens,
-so misfortune has befallen us!
+See? I told you so... The townsfolk
+didn't donate their Lens, so
+misfortune has befallen us!
 -----------------------
 #神官
 Priest
@@ -125,8 +125,8 @@ Priest
 #ああ！
 #わたしたちまで、まきこまれたら
 #どうしよう!!
-Ahh!
-What if we get dragged into this too?!
+Ahh! What if we get dragged into
+this too?!
 -----------------------
 #神官
 Priest
@@ -143,8 +143,8 @@ Priest
 -----------------------
 #何かお困りですか？
 #困った時はいつでも来てください
-Is something troubling you?
-Please come back anytime you need help.
+Is something troubling you? Please
+come back anytime you need help.
 -----------------------
 #神官
 Priest
@@ -230,9 +230,9 @@ Priest
 #エルレインさまの
 #お力を目にすれば
 #きっと、わかってもらえるのに････
-If only they could see
-Lady Elrane's power for themselves...
-I'm sure they'd understand.
+If only they could see Lady Elrane's
+power for themselves... I'm sure
+they'd understand.
 -----------------------
 #神官
 Priest
@@ -240,9 +240,9 @@ Priest
 #この混乱こそ
 #われわれアタモニ神団の価値を
 #住人たちに見せるチャンスだ
-This chaos is our chance
-to show the townsfolk
-just how valuable the Order of Atamoni is.
+This chaos is our chance to show
+the townsfolk just how valuable the
+Order of Atamoni is.
 -----------------------
 #神官
 Priest
@@ -250,8 +250,8 @@ Priest
 #みなを混乱から救いだせば
 #きっと、これからは
 #神団をたよってくれるようになる！
-If we can save them from this confusion,
-they'll finally start
+If we can save them from this
+confusion, they'll finally start
 relying on the Order!
 -----------------------
 #神官
@@ -260,8 +260,9 @@ Priest
 #しかし、どうやって
 #何の力もないわれわれが
 #みなを救いだせるのだろう････
-But how are we supposed to save everyone
-when we don't have any power of our own...?
+But how are we supposed to save
+everyone when we don't have any
+power of our own...?
 -----------------------
 <Loni>
 -----------------------
@@ -286,9 +287,9 @@ Priest
 #ハァ････
 #平和なのは良いことなんですが
 #こう平和すぎると退屈で････
-*sigh*...
-Peace is a wonderful thing,
-but when it's this peaceful, I get bored...
+*sigh*... Peace is a wonderful
+thing, but when it's this peaceful,
+I get bored...
 -----------------------
 #神官
 Priest
@@ -296,14 +297,15 @@ Priest
 #ハァ････
 #このぶんだと、今日も
 #寄進されるレンズはゼロですな
-*sigh*...
-At this rate, we'll get zero Lens donations today too.
+*sigh*... At this rate, we'll get
+zero Lens donations today too.
 -----------------------
 #レギーナ
 Regina
 -----------------------
 #もうすぐ聖誕祭ですね
-The Holy Birth Festival is almost here.
+The Holy Birth Festival is almost
+here.
 -----------------------
 #子供たちのプレゼントを
 #用意しましょう
@@ -550,8 +552,8 @@ Ginny
 -----------------------
 #うん！
 #今年もサンタさん来るかなぁ？
-Yeah!
-I wonder if Santa's coming this year too?
+Yeah! I wonder if Santa's coming
+this year too?
 -----------------------
 #レギーナ
 Regina
@@ -726,8 +728,8 @@ Dear Lady Philia,
 -----------------------
 #今日はフィリアさんに教えて欲しいことが
 #あってお手紙を書きました
-Today I wrote you a letter
-because there's something I want to ask.
+Today I wrote you a letter because
+there's something I want to ask.
 -----------------------
 #それは聖誕祭の夜に私たちにプレゼントをくれる
 #サンタさんのことです
@@ -791,8 +793,9 @@ Ginny
 #それじゃ、この手紙を
 #ストレイライズ大神殿のフィリアさまに
 #届けていただけますか
-In that case, could you deliver this letter
-to Lady Philia at the Straylize Grand Temple?
+In that case, could you deliver
+this letter to Lady Philia at the
+Straylize Grand Temple?
 -----------------------
 notice
 -----------------------
@@ -803,7 +806,8 @@ Received Ginny's letter.
 Ginny
 -----------------------
 #それでは、よろしくお願いします
-Thank you so much. I really appreciate it.
+Thank you so much. I really
+appreciate it.
 -----------------------
 #ジニー
 Ginny
@@ -815,7 +819,8 @@ That's right. I'm sorry to ask.
 Ginny
 -----------------------
 #はぁ、どうしたらいいのかしら････
-*Sigh*... I wonder what I should do...
+*Sigh*... I wonder what I should
+do...
 -----------------------
 #ジニー
 Ginny

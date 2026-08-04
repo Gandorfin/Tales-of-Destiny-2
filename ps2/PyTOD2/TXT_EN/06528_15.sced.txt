@@ -7,21 +7,23 @@ Flying Dragon
 notice
 -----------------------
 #隔壁が下りているため通れません
-Can't pass through. The partition is down.
+Can't pass through. The partition
+is down.
 -----------------------
 notice
 -----------------------
 #近くにあるとおもわれる
 #緊急用の避難路を探しましょう
-There should be one nearby.
-Let's find the emergency evacuation route.
+There should be one nearby. Let's
+find the emergency evacuation route.
 -----------------------
 notice
 -----------------------
 #パワー不足で上まで到達しません
 #補助電源を探しましょう
-Not enough power to reach the top.
-Let's find an auxiliary power source.
+Not enough power to reach the
+top. Let's find an auxiliary power
+source.
 -----------------------
 #リフトの補助電源スイッチを入れました
 Turned on the lift's auxiliary power switch.

@@ -42,7 +42,8 @@ Yorozu Equipment Shop: Weapon Repair and Sales
 NOTICE
 -----------------------
 #石碑に文字が彫られています
-Characters are carved into this stone monument.
+Characters are carved into this
+stone monument.
 -----------------------
 <Harold>
 -----------------------
@@ -95,16 +96,18 @@ NOTICE
 #霧深き山の懐
 　
 #　　　そこで不吉の証を手に入れよ
-The highest meadow in all the mist-shrouded land
-Within the embrace of the fog-laden mountains
+The highest meadow in all the
+mist-shrouded land Within the
+embrace of the fog-laden mountains
 There, obtain the token of ill omen
 -----------------------
 NOTICE
 -----------------------
 #石碑に文字が彫られていますが
 #難しくて読めません
-Characters are carved into this stone monument,
-but they're too difficult to read.
+Characters are carved into this
+stone monument, but they're too
+difficult to read.
 -----------------------
 #騎士
 Knight
@@ -112,9 +115,10 @@ Knight
 #我々の手段は、ときに強引に
 #見えるかもしれない
 #しかし、それが街のためになるのだ
-Our methods may sometimes seem heavy-handed.
-They may appear that way.
-But it is all for the good of this town.
+Our methods may sometimes seem
+heavy-handed. They may appear that
+way. But it is all for the good
+of this town.
 -----------------------
 #騎士
 Knight
@@ -133,10 +137,10 @@ Knight
 #少々強引な手段をとることが
 #あるかもしれない
 #それが、街のためになるのだからな
-To that end,
-we may sometimes resort to forceful measures.
-That is simply what must be done.
-After all, it is for the good of this town.
+To that end, we may sometimes resort
+to forceful measures. That is simply
+what must be done. After all, it is
+for the good of this town.
 -----------------------
 #騎士
 Knight
@@ -144,8 +148,8 @@ Knight
 #苦難と貧困に満ちているこの世界を
 #人間の力だけで正すことは
 #もはや不可能だ
-This world, filled with hardship and poverty,
-can no longer be set right
+This world, filled with hardship and
+poverty, can no longer be set right
 by human power alone.
 -----------------------
 #騎士
@@ -155,19 +159,21 @@ Knight
 #ダリルシェイドの住民をはじめとする
 #すべての民を救済していただく
 #理想の世界が、もうそこまで迫っているんだ
-By the miraculous power of Lady Elrane,
-all people, beginning with the residents of Darilsheid,
-shall be saved.
-The ideal world draws near.
+By the miraculous power of Lady
+Elrane, all people, beginning
+with the residents of Darilsheid,
+shall be saved. The ideal world
+draws near.
 -----------------------
 <Kyle>
 -----------------------
 #ちがう････ちがうよ
 #幸せは、神さまにもらうものじゃない
 #自分の力で、勝ちとるものだ！
-No... that's wrong.
-Happiness isn't something you receive from God.
-It's something you seize with your own strength!
+No... that's wrong. Happiness isn't
+something you receive from God.
+It's something you seize with your
+own strength!
 -----------------------
 #騎士
 Knight
@@ -206,9 +212,9 @@ Knight
 #第一線で、レンズ集めを行っていた
 #我々の努力が報われる日も
 #そう遠くないだろう
-We were on the front lines, gathering Lens.
-The day our efforts are rewarded
-is surely not far off.
+We were on the front lines,
+gathering Lens. The day our efforts
+are rewarded is surely not far off.
 -----------------------
 #騎士
 Knight
@@ -248,7 +254,8 @@ all over the world waiting for me.
 <Kyle>
 -----------------------
 #ほとんど、おしかけだけどね
-Mostly 'cause you forced yourself on 'em, though.
+Mostly 'cause you forced yourself
+on 'em, though.
 -----------------------
 #お姉さん
 Sister
@@ -265,8 +272,8 @@ Sister
 -----------------------
 #押しあわないでください
 #配給は、まだたくさんありますから！
-Please don't push.
-There are still plenty of rations left!
+Please don't push. There are still
+plenty of rations left!
 -----------------------
 #お姉さん
 Sister
@@ -274,9 +281,9 @@ Sister
 #この街の人たちは
 #いまだに十八年前の事件から
 #立ちなおれていないのです････
-The people of this town
-still haven't recovered
-from the incident eighteen years ago...
+The people of this town still
+haven't recovered from the incident
+eighteen years ago...
 -----------------------
 #お姉さん
 Sister
@@ -292,8 +299,9 @@ will see this town restored someday!
 -----------------------
 #恋に傷つきっぱなしの
 #俺のハートも、いやしてくれねえかな★
-My heart's still aching from love's wounds...
-Think you could heal me up too? ★
+My heart's still aching from love's
+wounds... Think you could heal me
+up too? ★
 -----------------------
 #お姉さん
 Sister
@@ -307,9 +315,10 @@ Sister
 #あなた方の顔
 #どこかで見たことがあると思ったら
 #手配書の犯人さんですね？
-Your faces...
-I thought I'd seen them somewhere before.
-You're the criminals from the wanted posters, aren't you?
+Your faces... I thought I'd seen
+them somewhere before. You're the
+criminals from the wanted posters,
+aren't you?
 -----------------------
 <Loni>
 -----------------------
@@ -324,9 +333,10 @@ Sister
 #人間は不完全だから罪をおかすんです！
 #完全なる神に身をゆだねれば
 #あなた方も、きっと幸福になれますよ★
-Humans sin because they are imperfect!
-If you surrender yourselves to the perfect God,
-you too shall surely find happiness~ ★
+Humans sin because they are
+imperfect! If you surrender
+yourselves to the perfect God, you
+too shall surely find happiness~ ★
 -----------------------
 <Loni>
 -----------------------
@@ -350,9 +360,9 @@ met you somewhere before?
 #い、いや････！
 #たぶん人ちがいだと思うぜ！
 #別にレンズドロボウなんてしてねぇぞ！
-N-no...!
-You've gotta be mistaking me for someone else!
-I ain't no Lens thief or anything!
+N-no...! You've gotta be mistaking
+me for someone else! I ain't no Lens
+thief or anything!
 -----------------------
 #お姉さん
 Sister
@@ -361,8 +371,8 @@ Sister
 #幸せは自分の手で
 #つかみとるものなんですから
 You can't stay depressed forever!
-Happiness is something
-you have to seize with your own hands.
+Happiness is something you have to
+seize with your own hands.
 -----------------------
 #お姉さん
 Sister
@@ -370,9 +380,10 @@ Sister
 #さあ、配給がほしいかたは
 #奉仕活動を手伝ってくださいね♪
 #働かざるもの、食うべからずです！
-Now then, those who want their rations,
-please help out with our volunteer work~♪
-Those who do not work shall not eat!
+Now then, those who want their
+rations, please help out with our
+volunteer work~♪ Those who do not
+work shall not eat!
 -----------------------
 <Kyle>
 -----------------------
@@ -390,8 +401,8 @@ Old Man
 #この城も･･･今ではガレキの下じゃ
 #むなしいもんじゃのう
 This town that once prospered so...
-This castle too... now naught but rubble.
-How hollow it all is...
+This castle too... now naught but
+rubble. How hollow it all is...
 -----------------------
 #おじいさん
 Old Man
@@ -409,9 +420,10 @@ Old Man
 #昔、レンズ加工製品をつくり
 #われわれの生活をささえた
 #オベロン社という企業があった
-Long ago, there was a company called Oberon
-that manufactured Lens-processing products
-and sustained our livelihoods.
+Long ago, there was a company
+called Oberon that manufactured
+Lens-processing products and
+sustained our livelihoods.
 -----------------------
 #おじいさん
 Old Man
@@ -419,9 +431,10 @@ Old Man
 #彼らは、その強大な力におぼれ
 #世界をほろぼそうとして
 #その結果、破滅への道をあゆんだのじゃ
-They were intoxicated by their immense power
-and sought to destroy the world.
-In the end, they walked the path to ruin.
+They were intoxicated by their
+immense power and sought to destroy
+the world. In the end, they walked
+the path to ruin.
 -----------------------
 <Kyle>
 -----------------------
@@ -438,17 +451,19 @@ Old Man
 #わしの人生は、すべて
 #このガレキの下にうもれてしもうた････
 #財産も大切な人の想い出も････
-My whole life...
-everything is buried beneath this rubble...
-My wealth, my memories of those I held dear...
+My whole life... everything is
+buried beneath this rubble... My
+wealth, my memories of those I
+held dear...
 -----------------------
 #おじいさん
 Old Man
 -----------------------
 #いつか、すべて失ってしまうのなら
 #幸せな想い出など、わしはいらん････
-If I'm going to lose everything someday...
-then I want no part of happy memories...
+If I'm going to lose everything
+someday... then I want no part of
+happy memories...
 -----------------------
 #おじいさん
 Old Man
@@ -456,17 +471,19 @@ Old Man
 #わしの人生は、すべて
 #このガレキの下にうもれてしもうた････
 #財産も大切な人の想い出も････
-My whole life...
-everything is buried beneath this rubble...
-My wealth, my memories of those I held dear...
+My whole life... everything is
+buried beneath this rubble... My
+wealth, my memories of those I
+held dear...
 -----------------------
 #おじいさん
 Old Man
 -----------------------
 #大切なものなど、なにもなければ
 #失う苦しみも知らずにすんだのにのぅ････
-If I'd had nothing precious to me...
-I could have been spared the pain of loss...
+If I'd had nothing precious to
+me... I could have been spared the
+pain of loss...
 -----------------------
 <Reala>
 -----------------------
@@ -474,8 +491,9 @@ I could have been spared the pain of loss...
 #でも、その大切なものがくれた
 #幸せな想い出まで、苦しみに変えないで････
 Losing something may be painful.
-But please, don't let the happy memories
-that precious thing gave you turn to suffering...
+But please, don't let the happy
+memories that precious thing gave
+you turn to suffering...
 -----------------------
 <Kyle>
 -----------------------
@@ -489,8 +507,9 @@ Old Man
 #目をとじるたびに
 #幸せなころの想い出が浮かんでくるんじゃ
 No matter how I try to forget...
-every time I close my eyes,
-memories of those happy days come floating back.
+every time I close my eyes, memories
+of those happy days come floating
+back.
 -----------------------
 #おじいさん
 Old Man
@@ -498,17 +517,18 @@ Old Man
 #失った大切なものを
 #すべて忘れることができれば
 #もっと、楽になれるんだがのぅ････
-If only I could forget everything I've lost...
-I could feel so much lighter...
+If only I could forget everything
+I've lost... I could feel so much
+lighter...
 -----------------------
 <Kyle>
 -----------------------
 #そうかな？
 #大切なもののことを忘れちゃうなんて
 #なんかさみしい気がするけど････
-You think so?
-Forgetting about what's precious to you...
-That feels kind of lonely to me...
+You think so? Forgetting about
+what's precious to you... That feels
+kind of lonely to me...
 -----------------------
 #男性
 Man
@@ -516,9 +536,9 @@ Man
 #俺だって、この街は好きさ
 #昔みたいになってほしいと思ってる
 #でも、どうすればいいんだよ････
-I love this town too.
-I want it to go back to how it used to be.
-But what am I supposed to do...?
+I love this town too. I want it to
+go back to how it used to be. But
+what am I supposed to do...?
 -----------------------
 #男性
 Man
@@ -526,9 +546,9 @@ Man
 #アタモニ神団の連中がよ
 #街を建て直すために
 #力を貸してくれって言うんだよ
-The Order of Atamoni folks are asking us
-to lend our strength
-so we can rebuild the town.
+The Order of Atamoni folks are
+asking us to lend our strength so
+we can rebuild the town.
 -----------------------
 #男性
 Man
@@ -536,9 +556,9 @@ Man
 #街を復興するって言ってもよぉ
 #これだけ荒れ果てて
 #どこから手をつけりゃいいんだよ
-They say they're gonna rebuild the town,
-but look at this mess.
-Where the hell do we even start?
+They say they're gonna rebuild the
+town, but look at this mess. Where
+the hell do we even start?
 -----------------------
 <Kyle>
 -----------------------
@@ -565,8 +585,8 @@ Man
 #必死に働かなくても
 #食っていけるのなら
 #それが一番だよな
-If I can get by without busting my ass,
-that's the life, right?
+If I can get by without busting my
+ass, that's the life, right?
 -----------------------
 #男性
 Man
@@ -587,8 +607,8 @@ for free too~
 -----------------------
 #「タダより高いものはない」とは
 #よくいったものだな････
-"Nothing is more expensive than free."
-Well said...
+"Nothing is more expensive than
+free." Well said...
 -----------------------
 #男性
 Man
@@ -604,8 +624,8 @@ Man
 #わーったよ！
 #そこまで言われて、黙ってられるか
 #やってやろうじゃねえか！
-All right, all right!
-You think I'm just gonna sit here and take that?
+All right, all right! You think I'm
+just gonna sit here and take that?
 Fine, I'll show you what I can do!
 -----------------------
 #男性
@@ -614,9 +634,10 @@ Man
 #そういや、俺は大工だったな
 #壊れた建物を、建て直してやろうじゃねえか
 #どこまでやれるか、わからんが････
-Come to think of it, I was a carpenter.
-I'll help rebuild those broken buildings.
-Dunno how much I can manage, but...
+Come to think of it, I was a
+carpenter. I'll help rebuild those
+broken buildings. Dunno how much I
+can manage, but...
 -----------------------
 #男性
 Man
@@ -631,9 +652,9 @@ Darilsheid's finished.
 #だったら、別の街に行けば
 #いいじゃないか
 #どうして、この街を離れないの？
-Then why not just go to another town?
-What's keeping you here?
-Why don't you leave?
+Then why not just go to another
+town? What's keeping you here? Why
+don't you leave?
 -----------------------
 #男性
 Man
@@ -650,9 +671,9 @@ Like hell I'm leavin'!
 #だったら、ボヤいてばかりいないで
 #やることがあるんじゃない
 #自分の手で、街を復興すればいいんだよ
-Then quit your whining
-and do something about it.
-Rebuild the town with your own two hands.
+Then quit your whining and do
+something about it. Rebuild the town
+with your own two hands.
 -----------------------
 <Kyle>
 -----------------------
@@ -667,15 +688,17 @@ NOTICE
 -----------------------
 #王城はガレキに押しつぶされています
 #これ以上、進むことは出来ません････
-The royal castle is crushed beneath the rubble.
-You cannot proceed any further...
+The royal castle is crushed beneath
+the rubble. You cannot proceed any
+further...
 -----------------------
 NOTICE
 -----------------------
 #王城はガレキに押しつぶされています
 #これ以上、進むことは出来ません････
-The royal castle is crushed beneath the rubble.
-You cannot proceed any further...
+The royal castle is crushed beneath
+the rubble. You cannot proceed any
+further...
 -----------------------
 #グリッド
 Grid
@@ -683,9 +706,10 @@ Grid
 #････なぜだ!?
 #おれたちは史上最強、絶対不敗の
 #レンズハンター団『漆黒の翼』だぞ！
-...Why!?
-We're the strongest in history, the absolutely undefeated
-Lens Hunter brigade, the 'Jet Black Wings'!
+...Why!? We're the strongest in
+history, the absolutely undefeated
+Lens Hunter brigade, the 'Jet Black
+Wings'!
 -----------------------
 #グリッド
 Grid
@@ -700,8 +724,9 @@ Millie
 -----------------------
 #でもさぁ、食わないと死んじまうよ
 #背に腹は変えられないじゃん
-But come on, if I don't eat, I'll die.
-A girl's gotta do what a girl's gotta do.
+But come on, if I don't eat, I'll
+die. A girl's gotta do what a
+girl's gotta do.
 -----------------------
 #グリッド
 Grid
@@ -719,17 +744,19 @@ John
 #おやびんの、言うとおりでやんす！
 #ひもじさに負けるようなことがあれば
 #先代にあわせる顔がないでやんす！
-The boss is absolutely right, de gozaru!
-If we let hunger defeat us,
-I'd have no face to show our predecessors, de gozaru!
+The boss is absolutely right, de
+gozaru! If we let hunger defeat
+us, I'd have no face to show our
+predecessors, de gozaru!
 -----------------------
 #グリッド
 Grid
 -----------------------
 #よく言った、ジョン！
 #それでこそ「漆黒の翼」の一員！
-Well said, John!
-That's what it means to be a member of the 'Jet Black Wings'!
+Well said, John! That's what it
+means to be a member of the 'Jet
+Black Wings'!
 -----------------------
 #グリッド
 Grid
@@ -737,9 +764,9 @@ Grid
 #おれたちは十八年前の災厄の時代に
 #活躍した、偉大なる先代より
 #名前を受けついだ！
-We inherited our names
-from the great predecessors
-who fought in the era of calamity eighteen years ago!
+We inherited our names from the
+great predecessors who fought in the
+era of calamity eighteen years ago!
 -----------------------
 #グリッド
 Grid
@@ -764,8 +791,8 @@ Grid
 -----------------------
 #というわけで、配給は受けない！
 #行くぞ、野郎ども！
-And that's why we're not taking rations!
-Let's go, you bastards!
+And that's why we're not taking
+rations! Let's go, you bastards!
 -----------------------
 #ジョン
 John
@@ -789,9 +816,9 @@ Millie
 #なんだい、ケチケチせずに
 #もっとよこしなよ！
 #あ、肉、もうひときれ入れな！
-Hey, don't be so stingy!
-Give me some more!
-Oh, and throw in another slice of meat!
+Hey, don't be so stingy! Give me
+some more! Oh, and throw in another
+slice of meat!
 -----------------------
 #ミリー
 Millie
@@ -843,19 +870,22 @@ Grocery Store
 Grocery Store
 -----------------------
 #食事をとってみんな元気にならないとね
-We've gotta eat up and get everyone's strength back.
+We've gotta eat up and get
+everyone's strength back.
 -----------------------
 #トランプマン
 Card Man
 -----------------------
 #君とは勝負付けが済んでいるはずだ
-You and I should have already settled our score.
+You and I should have already
+settled our score.
 -----------------------
 #トランプマン
 Card Man
 -----------------------
 #私と神経衰弱で勝負するかね？
-Care to challenge me to a game of Concentration?
+Care to challenge me to a game of
+Concentration?
 -----------------------
 select
 -----------------------
@@ -894,8 +924,9 @@ Card Man
 #取れなくなるまで続ける
 #取れなくなったら相手の番になる
 If you take a pair, flip two more.
-Keep going until you can't take any more.
-Once you can't, it becomes your opponent's turn.
+Keep going until you can't take any
+more. Once you can't, it becomes
+your opponent's turn.
 -----------------------
 #トランプマン
 Card Man
@@ -903,7 +934,8 @@ Card Man
 #場にカードがなくなるまで続け
 #最後に多くカードを取った方の勝ちだ
 Continue until no cards remain.
-Whoever holds the most cards at the end wins.
+Whoever holds the most cards at
+the end wins.
 -----------------------
 #トランプマン
 Card Man
@@ -924,8 +956,8 @@ Card Man
 -----------------------
 #そうか････
 #勝負がしたくなったら、また来なさい
-I see...
-Come back when you're ready for a rematch.
+I see... Come back when you're ready
+for a rematch.
 -----------------------
 #トランプマン
 Card Man
@@ -1900,8 +1932,8 @@ notice
 #「通常攻撃」について
 #深く話し合っているようです
 #耳を傾けますか？
-About "Normal Attacks"
-They seem to be having an in-depth discussion.
+About "Normal Attacks" They seem to
+be having an in-depth discussion.
 Will you listen in?
 -----------------------
 #慣れてきたから最近は通常攻撃は

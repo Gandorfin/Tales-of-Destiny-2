@@ -13,8 +13,9 @@ NOTICE
 -----------------------
 #『闘技場で何よりも大切なのは持久力です
 #　ＨＰを上げて戦いに望みましょう』
-"Stamina matters most in the coliseum."
-"Raise your HP before you fight."
+"Stamina matters most in the
+coliseum." "Raise your HP before
+you fight."
 -----------------------
 NOTICE
 -----------------------
@@ -278,8 +279,8 @@ Guide Maid
 -----------------------
 #闘技場へようこそ
 #なにか聞きたいことはある？
-Welcome to the arena.
-Is there anything you'd like to know?
+Welcome to the arena. Is there
+anything you'd like to know?
 -----------------------
 select
 -----------------------

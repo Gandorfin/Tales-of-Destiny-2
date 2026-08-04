@@ -98,9 +98,9 @@ Sailor
 #このオレさまの姿を見たら
 #どんなキケンも
 #シッポをまいて逃げ出すのさ！
-One look at this magnificent form of mine
-and any danger'll
-turn tail and flee!
+One look at this magnificent form
+of mine and any danger'll turn
+tail and flee!
 -----------------------
 #船員
 Sailor
@@ -108,9 +108,10 @@ Sailor
 #う、海の主が現れたくらいで
 #おおお、オタオタしてたら
 #海の男なんて、つとまらないぜぃ！！
-J-Just because the Sea Lord showed up...
-I-I-If you go panicking like that...
-you ain't fit to call yourself a man of the sea!!
+J-Just because the Sea Lord showed
+up... I-I-If you go panicking
+like that... you ain't fit to call
+yourself a man of the sea!!
 -----------------------
 <Kyle>
 -----------------------
@@ -127,9 +128,9 @@ Sailor
 #お、オレさまが乗ってる船を
 #おそうなんて
 #不幸なヤツもいたもんだ
-T-To attack a ship
-that I'm aboard...
-There are some mighty unlucky fools out there.
+T-To attack a ship that I'm
+aboard... There are some mighty
+unlucky fools out there.
 -----------------------
 #船員
 Sailor
@@ -175,9 +176,9 @@ Sailor
 #まいったぜ！
 #オレさまがかけつけるまえに
 #おまえらが倒しちまうんだもんな
-I'm done for!
-Before I could even rush to the rescue,
-you guys went and finished 'em off!
+I'm done for! Before I could even
+rush to the rescue, you guys went
+and finished 'em off!
 -----------------------
 #船員
 Sailor
@@ -186,8 +187,8 @@ Sailor
 #海の主の一匹や二匹
 #オレさまがヒネってやったのによぉ
 If only I hadn't gotten seasick...
-A Sea Lord or two?
-I'd have twisted their heads off for ya!
+A Sea Lord or two? I'd have twisted
+their heads off for ya!
 -----------------------
 #船員
 Sailor
@@ -253,9 +254,9 @@ Sailor
 #この航海だって
 #フォルトゥナ神に見守られているから
 #きっと、無事に着くだろうさ
-This voyage too,
-Fortuna's watchin' over us.
-We'll make it through safe, no doubt.
+This voyage too, Fortuna's watchin'
+over us. We'll make it through
+safe, no doubt.
 -----------------------
 #船員
 Sailor
@@ -433,9 +434,10 @@ Quit calling me a fool!!
 #はいはい、ケンカはあと！
 #何が起きたのか確かめるのが先だ！
 #へさきへ行ってみようぜ！
-Yeah, yeah, save the fight for later!
-First we gotta figure out what happened!
-Let's head to the bow!
+Yeah, yeah, save the fight for
+later! First we gotta figure out
+what happened! Let's head to the
+bow!
 -----------------------
 <Kyle>
 -----------------------
@@ -466,8 +468,8 @@ has ever made it out alive!!
 -----------------------
 #逃げるったって
 #いったい、どこに逃げるんだよ!?
-Run where, exactly!?
-Where the hell are we supposed to run!?
+Run where, exactly!? Where the hell
+are we supposed to run!?
 -----------------------
 <Kyle>
 -----------------------
@@ -515,8 +517,9 @@ Let's go check it out!
 -----------------------
 #とりあえず甲板に集めたが････
 #これから、いったいどうする!?
-I've got everyone gathered on deck for now, but...
-What the hell are we supposed to do now!?
+I've got everyone gathered on deck
+for now, but... What the hell are
+we supposed to do now!?
 -----------------------
 <Kyle>
 -----------------------
@@ -526,7 +529,8 @@ Hey, what if we swim for shore!?
 <Judas>
 -----------------------
 #男はともかく、女子供は無理だな
-The men might manage, but the women and children wouldn't.
+The men might manage, but the women
+and children wouldn't.
 -----------------------
 <Loni>
 -----------------------
@@ -739,8 +743,9 @@ effect off
 -----------------------
 #だからぁ、そういうつもりで
 #聞いてるんじゃねえんだってば！
-That's not what I meant, and you know it!
-I was asking what you were thinking!
+That's not what I meant, and you
+know it! I was asking what you
+were thinking!
 -----------------------
 <Kyle>
 -----------------------
@@ -769,8 +774,9 @@ right around the corner.
 -----------------------
 #長かった船旅も、これでおしまいね
 #なんだか、なごりおしい気がする
-Our long voyage is finally coming to an end.
-I can't help feeling a little sad about it.
+Our long voyage is finally coming
+to an end. I can't help feeling a
+little sad about it.
 -----------------------
 <Kyle>
 -----------------------
@@ -834,24 +840,24 @@ I'm more mature than you mentally.
 #大人である僕がすべきことではなかったな
 #反省している
 An adult like me shouldn't have been
-stooping to a child's level to argue with you.
-I regret that.
+stooping to a child's level to argue
+with you. I regret that.
 -----------------------
 <Loni>
 -----------------------
 #な、な、な････なんだよそりゃあ！
 #それじゃ、俺がガキってことか!?
-Wh-what the heck's that supposed to mean!?
-So you're calling me a kid!?
+Wh-what the heck's that supposed to
+mean!? So you're calling me a kid!?
 -----------------------
 <Judas>
 -----------------------
 #そう言ったつもりだが
 #わからなかったか？
 #僕の言い方も、まだまだのようだ
-That was precisely my intent.
-Did you not understand?
-Seems I still need to work on my delivery.
+That was precisely my intent. Did
+you not understand? Seems I still
+need to work on my delivery.
 -----------------------
 <Kyle>
 -----------------------

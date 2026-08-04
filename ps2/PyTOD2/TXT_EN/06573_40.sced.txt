@@ -10,9 +10,10 @@ Raiker
 #栄えある地上軍の兵士諸君！
 #永きに渡ってくり広げられた戦いに
 #今日、ついに終止符が打たれた
-Honored soldiers of the Er'ther ground forces!
-After a war that has raged for so long,
-today it finally comes to an end.
+Honored soldiers of the Er'ther
+ground forces! After a war that has
+raged for so long, today it finally
+comes to an end.
 -----------------------
 #リトラー
 Raiker
@@ -63,8 +64,8 @@ delivered in such a way.
 -----------------------
 #それに････こんな気持ちで
 #聞くことになるとはね
-Besides... I never thought
-I'd hear it with this kind of feeling.
+Besides... I never thought I'd hear
+it with this kind of feeling.
 -----------------------
 <Kyle>
 -----------------------
@@ -82,8 +83,8 @@ Huh? What's up, <Kyle>?
 -----------------------
 #あのとき、オレたちは
 #カーレルさんを救えるはずだった
-Back then, we...
-We should've been able to save Karell.
+Back then, we... We should've been
+able to save Karell.
 -----------------------
 <Kyle>
 -----------------------
@@ -113,9 +114,9 @@ as that monkey.
 #言ったでしょ？
 #未来を知る者が自分の都合だけで
 #歴史を変えちゃいけないって
-Didn't I tell you?
-Those who know the future aren't allowed
-to change history for their own convenience.
+Didn't I tell you? Those who know
+the future aren't allowed to change
+history for their own convenience.
 -----------------------
 <Kyle>
 -----------------------
@@ -128,15 +129,17 @@ But...
 -----------------------
 #それにね、兄貴の死は運命でもなければ
 #無駄死にでもなかった
-And besides, my brother's death wasn't fate,
-nor was it a meaningless death.
+And besides, my brother's
+death wasn't fate, nor was it a
+meaningless death.
 -----------------------
 <Harold>
 -----------------------
 #兄貴は兄貴なりに一所懸命生きてきた
 #その結果だもの
-My brother lived his life the best he could.
-That's just how it turned out.
+My brother lived his life the
+best he could. That's just how it
+turned out.
 -----------------------
 <Harold>
 -----------------------
@@ -155,14 +158,16 @@ I think he lived a happy life.
 #たとえ、死が決まっていたとしても
 #精一杯生きて、幸せをつかむ････
 Even if death is already decided...
-live with everything you've got, and seize happiness...
+live with everything you've got,
+and seize happiness...
 -----------------------
 <Harold>
 -----------------------
 #････な～んか、しんみりしちゃったわね
 #というわけで、この話は、ここまで！
-...Man, things got pretty solemn there.
-And that's enough of that subject!
+...Man, things got pretty solemn
+there. And that's enough of that
+subject!
 -----------------------
 <Harold>
 -----------------------
@@ -172,15 +177,17 @@ So, what are you guys gonna do now?
 <Kyle>
 -----------------------
 #バルバトスを、追おうと思ってる
-I'm thinking of going after Barbatos.
+I'm thinking of going after
+Barbatos.
 -----------------------
 <Judas>
 -----------------------
 #「神の眼の前」というのは
 #おそらく、先の騒乱の時の
 #ダイクロフトのことだろう
-'Before the Eye of Atamoni' likely refers
-to Dycroft during the recent disturbance.
+'Before the Eye of Atamoni' likely
+refers to Dycroft during the recent
+disturbance.
 -----------------------
 <Judas>
 -----------------------
@@ -188,8 +195,9 @@ to Dycroft during the recent disturbance.
 #自らの命運をも決する････
 #やつの考えそうなことだ
 Deciding his own fate at the place
-that will decide the fate of the world...
-That sounds like something he'd do.
+that will decide the fate of the
+world... That sounds like something
+he'd do.
 -----------------------
 <Reala>
 -----------------------
@@ -215,17 +223,17 @@ I figured as much.
 #ソーディアンはレンズ技術の
 #粋を集めたものなのよ
 #エネルギーだって、ハンパじゃないわ
-Swordians are the pinnacle of Lens technology.
-The energy they hold is no joke.
+Swordians are the pinnacle of Lens
+technology. The energy they hold
+is no joke.
 -----------------------
 <Nanaly>
 -----------------------
 #なるほどね！
 #よかったじゃんか
 #レンズを探す手間がはぶけてさ
-I see!
-That's great!
-Saves us the trouble of hunting for Lens.
+I see! That's great! Saves us the
+trouble of hunting for Lens.
 -----------------------
 <Kyle>
 -----------------------
@@ -286,7 +294,8 @@ it'll be way more fun!
 <Harold>
 -----------------------
 #そういうわけだから、よろしく！
-That's the deal, so nice to work with you!
+That's the deal, so nice to work
+with you!
 -----------------------
 <Kyle>
 -----------------------

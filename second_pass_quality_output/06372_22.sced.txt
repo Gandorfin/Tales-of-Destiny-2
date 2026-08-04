@@ -16,9 +16,8 @@ Cat-Loving Old Man
 #コリャ！
 #ワシの大切なネコちゃんグッズに
 #さわってはいかん！
-Hey!
-Don't touch my precious kitty merchandise!
-Hands off!
+Hey! Don't touch my precious kitty
+merchandise! Hands off!
 -----------------------
 #ネコの置物だ
 It's a cat figurine.
@@ -41,9 +40,9 @@ Cat-Loving Old Man
 #あー、キミたちにも
 #「ネコ好きの」じいさんのように
 #ステキな称号をつけてしんぜよう
-Ah, you there!
-Just like "the cat-loving old man,"
-I shall bestow upon you a splendid title!
+Ah, you there! Just like "the
+cat-loving old man," I shall bestow
+upon you a splendid title!
 -----------------------
 select
 -----------------------
@@ -58,15 +57,16 @@ Cat-Loving Old Man
 #････そうか････いらないのか････
 #気が変わったら、またきて下され
 ...I see... you don't want it...
-If you change your mind, come back anytime.
+If you change your mind, come back
+anytime.
 -----------------------
 #ネコ好きのじいさん
 Cat-Loving Old Man
 -----------------------
 #お！命名してほしくなったかの？
 #ん？ん～？？？
-Oh! Changed your mind about the naming?
-Hm? Hmm???
+Oh! Changed your mind about the
+naming? Hm? Hmm???
 -----------------------
 #ネコ好きのじいさん
 Cat-Loving Old Man
@@ -74,9 +74,9 @@ Cat-Loving Old Man
 #それでは、キミたちにも
 #「ネコ好きの」じいさんのように
 #ステキな称号をつけてしんぜよう
-Now then, I shall bestow upon you all
-a title as splendid as
-"the cat-loving old man."
+Now then, I shall bestow upon you
+all a title as splendid as "the
+cat-loving old man."
 -----------------------
 select
 -----------------------
@@ -92,8 +92,8 @@ Cat-Loving Old Man
 #そんな事言って、
 #実は、つけてほしいんじゃろ？ん？
 Hmph! ...You don't want it...?
-Saying things like that,
-when you actually want one, don't you? Hmm?
+Saying things like that, when you
+actually want one, don't you? Hmm?
 -----------------------
 #ネコ好きのじいさん
 Cat-Loving Old Man
@@ -109,9 +109,9 @@ Cat-Loving Old Man
 #あー、キミたち！
 #わしのつけたステキな称号は
 #大切にしてるかね？
-Ah, you there!
-Are you cherishing
-the splendid title I bestowed upon you?
+Ah, you there! Are you cherishing
+the splendid title I bestowed upon
+you?
 -----------------------
 <Harold>
 -----------------------
@@ -236,16 +236,17 @@ Cat-Loving Old Man
 -----------------------
 #うひゃひゃひゃ！
 #では、みんな一列に並んでくだされ～！
-Uhyahyahya!
-Now then, everyone line up in a row~!
+Uhyahyahya! Now then, everyone line
+up in a row~!
 -----------------------
 #ネコ好きのじいさん
 Cat-Loving Old Man
 -----------------------
 #では、皆に
 #お似合いの称号をつけてしんぜよう
-Now then, let me bestow upon each of you
-a title befitting your character.
+Now then, let me bestow upon each
+of you a title befitting your
+character.
 -----------------------
 #ネコ好きのじいさん
 Cat-Loving Old Man
@@ -280,9 +281,10 @@ Hey! You gotta be kidding me! Hey!
 -----------------------
 #認めねぇ！　絶対に認めねぇ！　今すぐ考え直せ！
 #もっとかっこいいやつにしろ！　殴るぞコラ！
-I don't accept this! I absolutely refuse!
-Take it back right now!
-Give me something cooler or I'll punch ya!
+I don't accept this! I absolutely
+refuse! Take it back right now!
+Give me something cooler or I'll
+punch ya!
 -----------------------
 <Harold>
 -----------------------
@@ -326,9 +328,9 @@ And then... hmm...
 #最後は私ね！
 #最後というのがちょっと気にいらないけど
 #まあ、トリを務めてあげる
-I'm last, then!
-Being last is a bit annoying, but...
-Well, I'll graciously take the finale.
+I'm last, then! Being last is a
+bit annoying, but... Well, I'll
+graciously take the finale.
 -----------------------
 #ネコ好きのじいさん
 Cat-Loving Old Man
@@ -341,9 +343,9 @@ Hmm... hmm...
 #ほら！　ほら！
 #天才である私を称えるような
 #素晴らしいものを考えなさい
-Come on! Come on!
-Think of something wonderful,
-something worthy of praising a genius like me!
+Come on! Come on! Think of something
+wonderful, something worthy of
+praising a genius like me!
 -----------------------
 #ネコ好きのじいさん
 Cat-Loving Old Man
@@ -357,10 +359,10 @@ Cat-Loving Old Man
 #いくらでも言葉があるでしょ？
 #キューティとか････ビューティとか････
 #頭脳明晰、才気煥発でもいいわよ
-Come on! What's wrong?
-You've got plenty of words, don't you?
-Cutie or... Beauty or...
-Brilliant and talented would work too.
+Come on! What's wrong? You've got
+plenty of words, don't you? Cutie
+or... Beauty or... Brilliant and
+talented would work too.
 -----------------------
 #ネコ好きのじいさん
 Cat-Loving Old Man
@@ -375,7 +377,8 @@ Cat-Loving Old Man
 #才能ないんじゃない!?　しょせん凡人よね････
 Ugh... you're completely hopeless!
 Some 'Naming Grandpa' you are!
-You've got no talent at all! You're just a commoner...
+You've got no talent at all! You're
+just a commoner...
 -----------------------
 #ネコ好きのじいさん
 Cat-Loving Old Man
@@ -394,9 +397,9 @@ Cat-Loving Old Man
 #なにそれぇ！
 #認めないわ！　断じて認めないわ！
 #没！　絶対に没！
-What is THAT?!
-I don't accept it! I absolutely refuse!
-Rejected! Completely rejected!
+What is THAT?! I don't accept it!
+I absolutely refuse! Rejected!
+Completely rejected!
 -----------------------
 #ネコ好きのじいさん
 Cat-Loving Old Man

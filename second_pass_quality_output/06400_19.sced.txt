@@ -58,8 +58,8 @@ Since it doesn't seem to work, I'm returning it.'
 -----------------------
 #････ま、そんなもんだと思うけど････
 #いらないんなら、オレがもらっておこう････
-...Well, figures.
-If he doesn't want it, I'll hang onto it...
+...Well, figures. If he doesn't want
+it, I'll hang onto it...
 -----------------------
 NOTICE
 -----------------------
@@ -73,8 +73,9 @@ Sailor
 #でも、今は海の主と戦争なんだ！
 #ああ････どうすれば････
 Down below is the ship's hold!
-But right now, we're at war with the Lord of the Sea!
-Ahh... what do I do...?
+But right now, we're at war with
+the Lord of the Sea! Ahh... what
+do I do...?
 -----------------------
 #船員
 Sailor
@@ -82,9 +83,9 @@ Sailor
 #この下に！
 #船倉に！船倉が！主に！
 #船倉が！主に！船倉に！あわわわわ！
-Down below!
-The hold! The hold! The hold!
-The hold! The hold! The hoooold! Awawawawa!
+Down below! The hold! The hold!
+The hold! The hold! The hold! The
+hoooold! Awawawawa!
 -----------------------
 #船員
 Sailor
@@ -106,7 +107,8 @@ Sailor
 #この下は船倉だよ
 #悪いがお客さんは通せないんだ
 Down below is the ship's hold.
-Sorry, but passengers aren't allowed through.
+Sorry, but passengers aren't allowed
+through.
 -----------------------
 #船員
 Sailor
@@ -114,8 +116,8 @@ Sailor
 #あ～あ････
 #また船長に
 #しかられちゃったよ････
-Ahh...
-The captain's gonna chew me out again...
+Ahh... The captain's gonna chew me
+out again...
 -----------------------
 #船員
 Sailor
@@ -157,8 +159,8 @@ Sailor
 -----------------------
 #落ちついてください！
 #まずは係員の指示にしたがって････
-Please remain calm!
-Follow the crew's instructions and...
+Please remain calm! Follow the
+crew's instructions and...
 -----------------------
 <Judas>
 -----------------------
@@ -228,9 +230,9 @@ Sailor
 #カナヅチで
 #船よいもしてしまうボクだけど
 #船乗りの夢だけは、すてたくないんです
-I can't swim, and I get seasick,
-but even so...
-I don't want to give up my dream of being a sailor.
+I can't swim, and I get seasick, but
+even so... I don't want to give up
+my dream of being a sailor.
 -----------------------
 <Kyle>
 -----------------------
@@ -272,9 +274,9 @@ a proper sailor?
 #海の上で５０メートルは
 #つらいだろうな････
 #最低でも５キロくらいじゃないか？
-Fifty meters at sea
-wouldn't get you far...
-You'd need at least five kilometers, wouldn't you?
+Fifty meters at sea wouldn't get
+you far... You'd need at least five
+kilometers, wouldn't you?
 -----------------------
 #船員
 Sailor
@@ -373,9 +375,9 @@ Captain
 #ぬうぅッ！
 #海の主だか、なんだか知らないが
 #この船で勝手は許さん！
-Nngh!
-I don't know if he's the lord of the sea or what, but...
-No one runs wild on my ship!
+Nngh! I don't know if he's the lord
+of the sea or what, but... No one
+runs wild on my ship!
 -----------------------
 #船長
 Captain
@@ -398,9 +400,8 @@ Captain
 #ああっ！
 #できることなら、この手で
 #あの怪物を倒してやりたい････！
-Agh!
-If only I could...
-I'd slay that monster with my own hands...!
+Agh! If only I could... I'd slay
+that monster with my own hands...!
 -----------------------
 #船長
 Captain
@@ -434,9 +435,9 @@ Captain
 #さあ、応急処置も済んだし
 #あとは、スノーフリアに向けて
 #突っ走るのみ！
-Right, the emergency repairs are done!
-Now all that's left is to make straight
-for Snowfria!
+Right, the emergency repairs are
+done! Now all that's left is to make
+straight for Snowfria!
 -----------------------
 <Kyle>
 -----------------------
@@ -470,8 +471,8 @@ Captain
 #聖地巡礼のお手伝いができるなんて
 #船長冥利につきるよ
 To think I, the captain, get to help
-with your pilgrimage to the Holy Land...
-Truly, no greater honor.
+with your pilgrimage to the Holy
+Land... Truly, no greater honor.
 -----------------------
 #船長
 Captain
@@ -498,8 +499,9 @@ Captain
 -----------------------
 #と、見せかけて取り舵～！
 #どうだ、だまされただろ？
-...Or so it seems, then hard to port~!
-How's that? Fooled you, didn't I?
+...Or so it seems, then hard to
+port~! How's that? Fooled you,
+didn't I?
 -----------------------
 #船長
 Captain
@@ -534,9 +536,10 @@ Captain
 #おお、来た来た！
 #待っとったぞ、聖女を守る
 #若き英雄諸君よ！
-Oh, you've come! You've finally come!
-I've been waiting for you young heroes
-who protect the Holy Maiden!
+Oh, you've come! You've finally
+come! I've been waiting for you
+young heroes who protect the Holy
+Maiden!
 -----------------------
 <Kyle>
 -----------------------
@@ -551,8 +554,8 @@ Captain
 #いくたの船を沈めてきた
 #恐怖の象徴、フォルネウスを
 #わずか四名で倒してしまった！
-You defeated Forneus, the symbol of terror
-who's sunk countless ships,
+You defeated Forneus, the symbol of
+terror who's sunk countless ships,
 with only four people!
 -----------------------
 #船長
@@ -561,9 +564,10 @@ Captain
 #さらに、沈没の危機を
 #アタモニ神団のエルレインをも越える
 #奇跡の力で救った！
-What's more, you saved us from the brink
-of sinking with miraculous power surpassing
-even Elrane of the Order of Atamoni!
+What's more, you saved us from the
+brink of sinking with miraculous
+power surpassing even Elrane of the
+Order of Atamoni!
 -----------------------
 #船長
 Captain
@@ -600,16 +604,17 @@ Captain
 #むろん、それも聞きおよんでいるよ
 #この先に、リーネという村がある
 #そこで聖女さまを休ませてはどうかね？
-Of course, I've heard of that as well.
-There's a village called Lienea up ahead.
-Why not let the Holy Maiden rest there?
+Of course, I've heard of that as
+well. There's a village called
+Lienea up ahead. Why not let the
+Holy Maiden rest there?
 -----------------------
 <Kyle>
 -----------------------
 #でもさ、そうしたら
 #船を降りなくちゃダメだよね？
-But if we do that,
-we'd have to get off the ship, right?
+But if we do that, we'd have to get
+off the ship, right?
 -----------------------
 #船長
 Captain
@@ -623,9 +628,10 @@ Captain
 #この船は、どのみち
 #応急処置をせねば、スノーフリアはおろか
 #アイグレッテに戻ることさえままならん
-This ship needs emergency repairs regardless.
-Without them, we couldn't even make it back
-to Port Aigrette, let alone Snowfria.
+This ship needs emergency repairs
+regardless. Without them, we
+couldn't even make it back to Port
+Aigrette, let alone Snowfria.
 -----------------------
 #船長
 Captain
@@ -633,9 +639,9 @@ Captain
 #そこでだ、聖女さまにはリーネで
 #休んでいただき、回復を待って
 #陸路でノイシュタットへ向かっていただく
-Therefore, the Holy Maiden shall rest in Lienea
-while she recovers, then proceed overland
-to Neuestadt.
+Therefore, the Holy Maiden shall
+rest in Lienea while she recovers,
+then proceed overland to Neuestadt.
 -----------------------
 #船長
 Captain
@@ -643,9 +649,9 @@ Captain
 #我々はそれまでに船を補修して
 #ノイシュタットで、みなさまをお待ちする
 #････とまあ、こういう寸法だ
-We shall repair the ship in the meantime
-and await you all in Neuestadt.
-...Well, that's the plan.
+We shall repair the ship in the
+meantime and await you all in
+Neuestadt. ...Well, that's the plan.
 -----------------------
 <Judas>
 -----------------------
@@ -662,24 +668,24 @@ Captain
 #あぁ、もちろんだ！
 #君たちが着くまで、船は出さないと誓おう
 #なにせ、命の恩人だからな
-Ah, of course!
-I swear the ship shall not depart until you arrive.
+Ah, of course! I swear the ship
+shall not depart until you arrive.
 After all, you are my saviors.
 -----------------------
 <Kyle>
 -----------------------
 #わかった、じゃあオレたちは
 #リーネって村に行ってみるよ！
-Got it. Then we'll go
-check out that village called Lienea!
+Got it. Then we'll go check out that
+village called Lienea!
 -----------------------
 #船長
 Captain
 -----------------------
 #それじゃあ、船を降りるときには、
 #声をかけてくれ
-Very well then. When you're ready to disembark,
-just let me know.
+Very well then. When you're ready to
+disembark, just let me know.
 -----------------------
 <Loni>
 -----------------------
@@ -761,9 +767,9 @@ Captain
 #今、キャンペーンをやっていてね
 #定期船の各航路に乗るたびに
 #スタンプを押しているんだ
-I'm running a little campaign just now.
-Every time you ride one of our ferry routes,
-you get a stamp.
+I'm running a little campaign just
+now. Every time you ride one of our
+ferry routes, you get a stamp.
 -----------------------
 #船長
 Captain
@@ -771,9 +777,9 @@ Captain
 #アイグレッテ・スノーフリア
 #ノイシュタット・チェリク
 #各航路の往復で、それぞれちがっている
-Aigrette - Snowfria
-Neuestadt - Cherik
-Each route's round trip has its own unique stamp.
+Aigrette - Snowfria Neuestadt -
+Cherik Each route's round trip has
+its own unique stamp.
 -----------------------
 #船長
 Captain
@@ -781,7 +787,8 @@ Captain
 #だから、全部で六つのスタンプがあるんだ
 #それを全部集めると、なんと････
 So there are six stamps in all.
-Collect every last one, and... why, you'd get...
+Collect every last one, and... why,
+you'd get...
 -----------------------
 <Kyle>
 -----------------------
@@ -794,9 +801,9 @@ Captain
 #スペシャルプレゼントがあるんだ！
 #なかなかに貴重なものだから
 #集める価値は、あると思うぞ
-A special present!
-And it's quite a valuable one at that.
-I'd say it's well worth the effort.
+A special present! And it's quite a
+valuable one at that. I'd say it's
+well worth the effort.
 -----------------------
 #船長
 Captain
@@ -804,9 +811,10 @@ Captain
 #というわけで、これがスタンプだ
 #すでにひとつ押してあるから、残りは五つ
 #がんばって集めてくれたまえ！
-So here's your stamp card.
-You've already got one stamp, so five to go.
-Best of luck collecting the rest!
+So here's your stamp card. You've
+already got one stamp, so five to
+go. Best of luck collecting the
+rest!
 -----------------------
 #船長
 Captain
@@ -848,8 +856,9 @@ Captain
 #ここからは折り返しの後半戦だ
 #がんばりたまえ！
 Three left - you're halfway there!
-From here on, it's the second half of the journey.
-Keep up the good work!
+From here on, it's the second half
+of the journey. Keep up the good
+work!
 -----------------------
 #船長
 Captain
@@ -857,9 +866,9 @@ Captain
 #残りはふたつか
 #だいぶ集まってきたね
 #この調子なら、あとふたつもすぐかな？
-Just two left, then.
-You've come quite a long way.
-At this rate, the last two'll be no time at all, eh?
+Just two left, then. You've come
+quite a long way. At this rate, the
+last two'll be no time at all, eh?
 -----------------------
 #船長
 Captain
@@ -867,9 +876,9 @@ Captain
 #よく、ここまで集めてきたね
 #残りはひとつ、ラストワンだ！
 #がんばりたまえよ！
-You've done well to make it this far.
-Only one left now - the final stamp!
-Keep at it!
+You've done well to make it this
+far. Only one left now - the final
+stamp! Keep at it!
 -----------------------
 #船長
 Captain
@@ -894,8 +903,8 @@ Captain
 -----------------------
 #さぁ、これがスペシャルプレゼントだ
 #受けとってくれたまえ！
-Now then, here's your special present!
-Please, take it!
+Now then, here's your special
+present! Please, take it!
 -----------------------
 notice
 -----------------------

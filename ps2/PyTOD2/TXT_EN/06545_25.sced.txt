@@ -71,9 +71,10 @@ Grandma
 #あの子たちを見ていると、しみじみと思うの
 #このドームを与えてくださった
 #エルレインさまに感謝しなくては、って
-Watching them, I can't help but feel deeply moved.
-I must give thanks to Lady Elrane
-for granting us this dome.
+Watching them, I can't help but
+feel deeply moved. I must give
+thanks to Lady Elrane for granting
+us this dome.
 -----------------------
 <Loni>
 -----------------------
@@ -134,8 +135,9 @@ Woman
 -----------------------
 #昨日は木陰で読書、今日はお散歩
 #明日は、なにをしようかなぁ････
-Yesterday I read in the shade, today a stroll.
-What shall I do tomorrow, I wonder...
+Yesterday I read in the shade,
+today a stroll. What shall I do
+tomorrow, I wonder...
 -----------------------
 <Kyle>
 -----------------------
@@ -206,8 +208,9 @@ so peaceful.
 -----------------------
 #作り物の街に、作り物の幸せ････
 #まさに、ここは箱庭だな
-A fabricated town, a fabricated happiness...
-Truly, this place is a miniature garden.
+A fabricated town, a fabricated
+happiness... Truly, this place is
+a miniature garden.
 -----------------------
 <Reala>
 -----------------------
@@ -1473,9 +1476,9 @@ notice
 #「通常攻撃」について
 #深く話し合っているようです
 #耳を傾けますか？
-"Normal Attack"
-They seem to be having an in-depth discussion.
-Will you listen in?
+"Normal Attack" They seem to be
+having an in-depth discussion. Will
+you listen in?
 -----------------------
 #慣れてきたから最近は通常攻撃は
 #<button:00000045>だけ叩きっぱなしさ

@@ -23,7 +23,8 @@ We can't get any farther.
 #しかし他に出口は無いぞ
 #どうする？　強行突破するか？
 But there ain't no other way out.
-What do we do? Try to force our way through?
+What do we do? Try to force our
+way through?
 -----------------------
 <Judas>
 -----------------------
@@ -44,9 +45,11 @@ the president of Oberon Corporation.
 #オベロン社解体と同時に屋敷は接収され、
 #神殿に改修されたが、
 #隠し通路はまだ残っているはずだ
-When Oberon Corporation was dissolved, the mansion was confiscated
-and converted into a temple, but
-the hidden passageway should still remain.
+When Oberon Corporation was
+dissolved, the mansion was
+confiscated and converted into a
+temple, but the hidden passageway
+should still remain.
 -----------------------
 <Judas>
 -----------------------
@@ -71,8 +74,9 @@ What's this?
 -----------------------
 #レンズからエネルギーを引き出し、
 #熱線と衝撃を撃ち出す道具だ
-A device that draws energy from a Lens
-to fire heat rays and shockwaves.
+A device that draws energy from
+a Lens to fire heat rays and
+shockwaves.
 -----------------------
 <Judas>
 -----------------------
@@ -111,7 +115,8 @@ how do you know about this passageway?
 <Judas>
 -----------------------
 #････それを聞いてどうする？
-...What would you do with that knowledge?
+...What would you do with that
+knowledge?
 -----------------------
 <Kyle>
 -----------------------

@@ -15,8 +15,8 @@ Soldier
 -----------------------
 #止まれ！
 #ここより先は王国の管理下にある！
-Halt!
-Beyond this point is under the kingdom's jurisdiction!
+Halt! Beyond this point is under the
+kingdom's jurisdiction!
 -----------------------
 #兵士
 Soldier
@@ -67,16 +67,17 @@ Soldier
 -----------------------
 #あることは、あるのですが････
 #格納庫は封印が施されており、入る事ができません
-It is, but...
-The storage facility has been sealed. We cannot enter.
+It is, but... The storage facility
+has been sealed. We cannot enter.
 -----------------------
 #兵士
 Soldier
 -----------------------
 #我々はイクシフォスラーの警備が任務
 #封印の解除方法までは、知らされていないのです
-We are tasked with guarding the Xiphos Lancer.
-We have not been told how to break the seal.
+We are tasked with guarding the
+Xiphos Lancer. We have not been told
+how to break the seal.
 -----------------------
 <Judas>
 -----------------------
@@ -105,9 +106,9 @@ Soldier
 #封印がほどこされた部屋に
 #解除方法らしきものをつづった
 #石碑がありました
-In the sealed room,
-there is a stone tablet inscribed
-with what appears to be instructions to break it.
+In the sealed room, there is a stone
+tablet inscribed with what appears
+to be instructions to break it.
 -----------------------
 #兵士
 Soldier
@@ -128,16 +129,18 @@ Soldier
 -----------------------
 #ここはファンダリア王国が管理する遺跡だ
 #入るのは構わんが中を荒らさないようにな
-This ruin is under the management of the Kingdom of Phandaria.
-You may enter, but do not disturb anything inside.
+This ruin is under the management
+of the Kingdom of Phandaria. You
+may enter, but do not disturb
+anything inside.
 -----------------------
 #兵士
 Soldier
 -----------------------
 #何度でも言うが
 #ここより先は王国の管理下にある！
-I will say it again:
-This area is under the kingdom's jurisdiction!
+I will say it again: This area is
+under the kingdom's jurisdiction!
 -----------------------
 #兵士
 Soldier
@@ -152,8 +155,8 @@ Soldier
 -----------------------
 #止まれ！
 #ここより先は王国の管理下にある！
-Halt!
-Beyond this point is under the kingdom's jurisdiction!
+Halt! Beyond this point is under the
+kingdom's jurisdiction!
 -----------------------
 #兵士
 Soldier

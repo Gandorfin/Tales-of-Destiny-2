@@ -17,9 +17,10 @@ Hey, missus! Tea, please, tea!
 #んじゃ、まずはおたがい
 #なにをしてたかでも話すか
 #どうせ、話したいこと山ほどあるんだろ？
-Well then, first things first,
-let's talk about what we've been up to.
-You've got plenty you want to tell me, don't you?
+Well then, first things first, let's
+talk about what we've been up to.
+You've got plenty you want to tell
+me, don't you?
 -----------------------
 <Kyle>
 -----------------------
@@ -217,8 +218,8 @@ Chef
 -----------------------
 #食材を探しているんだ
 #見つけたら持ってきてくれないかい？
-I'm looking for ingredients.
-If you find any, would you bring them here?
+I'm looking for ingredients. If you
+find any, would you bring them here?
 -----------------------
 #シェフ
 Chef
@@ -233,8 +234,9 @@ Chef
 -----------------------
 #お前のような奴を待ってた
 #これをゆずるのに相応しい料理人を
-I've been waiting for someone like you.
-A chef worthy of receiving this.
+I've been waiting for someone like
+you. A chef worthy of receiving
+this.
 -----------------------
 notice
 -----------------------

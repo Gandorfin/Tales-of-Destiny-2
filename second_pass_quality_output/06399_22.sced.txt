@@ -128,8 +128,9 @@ It's Stahn's hometown.
 -----------------------
 #遠まわりするハメになっちまったけど
 #ま、災い転じてってやつだ
-We ended up taking the long way around,
-but hey, every cloud has a silver lining.
+We ended up taking the long way
+around, but hey, every cloud has
+a silver lining.
 -----------------------
 <Loni>
 -----------------------
@@ -1056,9 +1057,9 @@ notice
 #「通常攻撃」について
 #深く話し合っているようです
 #耳を傾けますか？
-"Normal Attack"
-They seem to be discussing it in depth.
-Would you like to listen in?
+"Normal Attack" They seem to be
+discussing it in depth. Would you
+like to listen in?
 -----------------------
 #慣れてきたから最近は通常攻撃は
 #<button:00000045>だけ叩きっぱなしさ

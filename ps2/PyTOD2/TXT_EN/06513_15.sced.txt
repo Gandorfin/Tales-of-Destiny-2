@@ -147,7 +147,8 @@ Chef
 #食材を探しているんだ
 #見つけたら持ってきてくれないかい？
 I'm searching for ingredients.
-If you find any, would you bring them to me?
+If you find any, would you bring
+them to me?
 -----------------------
 #シェフ
 Chef
@@ -162,8 +163,9 @@ Chef
 -----------------------
 #お前のような奴を待ってた
 #これをゆずるのに相応しい料理人を
-I've been waiting for someone like you.
-A chef worthy of receiving this.
+I've been waiting for someone like
+you. A chef worthy of receiving
+this.
 -----------------------
 notice
 -----------------------

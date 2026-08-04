@@ -40,7 +40,8 @@ Raiker
 #ディムロスが中将としての立場に
 #こだわるのは私のためでもある
 Dymlos's insistence on his rank
-as lieutenant general is also for my sake.
+as lieutenant general is also for
+my sake.
 -----------------------
 #リトラー
 Raiker
@@ -48,9 +49,10 @@ Raiker
 #自分が暴走すれば直属の上官である私に
 #迷惑をかけることになる････
 #そう考えているのだ
-If he were to lose control, it would cause trouble
-for his direct superior... me.
-That is what he is thinking.
+If he were to lose control, it
+would cause trouble for his direct
+superior... me. That is what he
+is thinking.
 -----------------------
 #リトラー
 Raiker
@@ -58,9 +60,10 @@ Raiker
 #自分が暴走すれば直属の上官である私に
 #迷惑をかけることになる････
 #ディムロスは、そう考えているのだ
-If he were to lose control, it would cause trouble
-for his direct superior... me.
-Dymlos is thinking exactly that.
+If he were to lose control, it
+would cause trouble for his direct
+superior... me. Dymlos is thinking
+exactly that.
 -----------------------
 #リトラー
 Raiker
@@ -68,7 +71,8 @@ Raiker
 #ディムロスが中将としての立場に
 #こだわるのは私のためでもある
 Dymlos's insistence on his rank
-as lieutenant general is also for my sake.
+as lieutenant general is also for
+my sake.
 -----------------------
 #リトラー
 Raiker
@@ -76,9 +80,10 @@ Raiker
 #自分が暴走すれば直属の上官である私に
 #迷惑をかけることになる････
 #そう考えているのだ
-If he were to lose control, it would cause trouble
-for his direct superior... me.
-That is what he is thinking.
+If he were to lose control, it
+would cause trouble for his direct
+superior... me. That is what he
+is thinking.
 -----------------------
 #リトラー
 Raiker
@@ -106,16 +111,18 @@ Raiker
 #明日にはダイクロフトへ
 #乗りこむことになる
 #君たちも休息を取ってくれたまえ
-We'll be boarding for Dycroft tomorrow.
-Make sure you get some rest as well.
+We'll be boarding for Dycroft
+tomorrow. Make sure you get some
+rest as well.
 -----------------------
 #リトラー
 Raiker
 -----------------------
 #ともかくも、突入には成功した
 #さっそく、次の行動に移ってくれ
-At any rate, the infiltration was a success.
-Now, proceed to your next objective at once.
+At any rate, the infiltration was a
+success. Now, proceed to your next
+objective at once.
 -----------------------
 #ディムロス
 Dymlos
@@ -130,17 +137,18 @@ Do not act on your own...
 #あ～、もう
 #いちいち、いわれなくても
 #わかってるってばぁ！
-Ugh, enough already!
-You don't have to tell me every single time!
-I get it, okay!?
+Ugh, enough already! You don't have
+to tell me every single time! I
+get it, okay!?
 -----------------------
 #ディムロス
 Dymlos
 -----------------------
 #この作戦には我が地上軍の････
 #ひいては世界の運命がかかっている
-This operation carries the fate of our ground forces...
-and ultimately, the fate of the entire world.
+This operation carries the fate of
+our ground forces... and ultimately,
+the fate of the entire world.
 -----------------------
 #ディムロス
 Dymlos
@@ -148,8 +156,9 @@ Dymlos
 #ベルクラント開発チームを
 #救出することができなければ
 #そのときは････
-If we cannot rescue the Belcrant development team,
-then at that point...
+If we cannot rescue the Belcrant
+development team, then at that
+point...
 -----------------------
 <Kyle>
 -----------------------
@@ -162,9 +171,11 @@ Dymlos
 #この作戦には我が地上軍の････
 #ひいては世界の運命がかかっている
 #失敗は許されない････決してな
-This operation carries the fate of our ground forces...
-and ultimately, the fate of the entire world.
-Failure is not an option... Absolutely not.
+This operation carries the fate
+of our ground forces... and
+ultimately, the fate of the entire
+world. Failure is not an option...
+Absolutely not.
 -----------------------
 #ディムロス
 Dymlos
@@ -172,15 +183,17 @@ Dymlos
 #君の言うとおり、私は腰抜けだ
 #だが、私には中将としての責務がある
 #そして、守るべき部下がいる
-You're right. I'm a coward.
-But I have my duties as lieutenant general.
-And I have subordinates to protect.
+You're right. I'm a coward. But
+I have my duties as lieutenant
+general. And I have subordinates
+to protect.
 -----------------------
 <Kyle>
 -----------------------
 #アトワイトさんだって
 #そのひとりじゃないんですか？
-Atwight is one of those subordinates, isn't she?
+Atwight is one of those
+subordinates, isn't she?
 -----------------------
 #ディムロス
 Dymlos
@@ -231,15 +244,17 @@ You are a benefactor to me as well.
 Dymlos
 -----------------------
 #このフラグでの会話、未設定
-This conversation at this flag is unset.
+This conversation at this flag is
+unset.
 -----------------------
 #イクティノス
 Igtenos
 -----------------------
 #司令の決定は絶対だ
 #結論が出た以上、私もそれに従う
-The Commander's decision is absolute.
-Once a conclusion is reached, I too will follow it.
+The Commander's decision is
+absolute. Once a conclusion is
+reached, I too will follow it.
 -----------------------
 #イクティノス
 Igtenos
@@ -257,9 +272,10 @@ Igtenos
 #ディムロス中将が下された判断は
 #あの状況下において、もっとも的確で
 #もっとも合理的なものだった
-The judgment Vice Admiral Dymlos reached
-was the most accurate
-and the most reasonable possible under those circumstances.
+The judgment Vice Admiral Dymlos
+reached was the most accurate and
+the most reasonable possible under
+those circumstances.
 -----------------------
 #イクティノス
 Igtenos
@@ -275,9 +291,10 @@ Igtenos
 #今回のディムロス中将の行動は
 #我々がいかに組織にしばられているか
 #それを知らしめるものだった
-Vice Admiral Dymlos's actions this time
-made clear to us all just how bound we are
-to the chain of command.
+Vice Admiral Dymlos's actions this
+time made clear to us all just
+how bound we are to the chain of
+command.
 -----------------------
 #イクティノス
 Igtenos
@@ -285,9 +302,10 @@ Igtenos
 #だが、個人にしか
 #成しえないことがあるのと同様に
 #また、組織にしか成しえないこともある
-But just as there are things
-only an individual can accomplish...
-there are also things only an organization can accomplish.
+But just as there are things only an
+individual can accomplish... there
+are also things only an organization
+can accomplish.
 -----------------------
 #イクティノス
 Igtenos
@@ -295,9 +313,11 @@ Igtenos
 #これから行われる作戦が、まさにそれだ
 #多くの人間の力を、ひとつにまとめあげ
 #天上軍にクサビを打ちこむのだ
-The operation we are about to carry out is precisely that.
-We shall gather the strength of many into one unified force
-and drive a wedge into the Aeth'er Army.
+The operation we are about to carry
+out is precisely that. We shall
+gather the strength of many into
+one unified force and drive a wedge
+into the Aeth'er Army.
 -----------------------
 #イクティノス
 Igtenos
@@ -305,15 +325,17 @@ Igtenos
 #我ら地上軍の力を、ひとつにまとめ
 #天上軍の牙城に、クサビを打ちこむ････
 #ついに、その時が来たのだ
-We unite the strength of our ground forces
-to drive a wedge into the Aeth'er stronghold...
-At long last, that time has come.
+We unite the strength of our ground
+forces to drive a wedge into the
+Aeth'er stronghold... At long last,
+that time has come.
 -----------------------
 #イクティノス
 Igtenos
 -----------------------
 #このフラグでの会話、未設定
-This conversation at this flag is unset.
+This conversation at this flag is
+unset.
 -----------------------
 #シャルティエ
 Chaltier
@@ -358,14 +380,16 @@ Chaltier
 -----------------------
 #さぁ、これでなんの迷いもなく
 #最後の決戦に向かえますね！
-Now, with no more hesitation left in our hearts...
-we can face the final battle!
+Now, with no more hesitation left
+in our hearts... we can face the
+final battle!
 -----------------------
 #シャルティエ
 Chaltier
 -----------------------
 #このフラグでの会話、未設定
-This conversation at this flag is unset.
+This conversation at this flag is
+unset.
 -----------------------
 #カーレル
 Karell
@@ -382,16 +406,17 @@ Karell
 -----------------------
 #いろいろ苦労をかけると思うが
 #よろしく、頼まれてくれ
-I'm sure she'll cause you no end of trouble,
-but please, look after her.
+I'm sure she'll cause you no end of
+trouble, but please, look after her.
 -----------------------
 <Harold>
 -----------------------
 #なによ、それ？
 #人を珍獣みたいに
 #いわないでくれる？
-What's that supposed to mean?
-Don't talk about people like they're some kind of exotic beast.
+What's that supposed to mean? Don't
+talk about people like they're some
+kind of exotic beast.
 -----------------------
 #カーレル
 Karell
@@ -399,9 +424,10 @@ Karell
 #変わり者ではあるが
 #決して悪いヤツではないんだ
 #すまないが相手をしてやってほしい
-She's certainly eccentric,
-but she's not a bad person by any means.
-I'm sorry to ask, but could you humor her?
+She's certainly eccentric, but
+she's not a bad person by any
+means. I'm sorry to ask, but could
+you humor her?
 -----------------------
 #カーレル
 Karell
@@ -419,9 +445,10 @@ Karell
 #作戦決行は明日になると思う
 #準備を整えておいてくれ
 #休むなら私の部屋を使って構わない
-I believe the operation will commence tomorrow.
-Please make your preparations.
-If you need rest, you are welcome to use my quarters.
+I believe the operation will
+commence tomorrow. Please make your
+preparations. If you need rest, you
+are welcome to use my quarters.
 -----------------------
 #カーレル
 Karell
@@ -429,9 +456,10 @@ Karell
 #ディムロスは今
 #微妙な立場に立たされている
 #だが、すべて彼に委ねるしかない････
-Dymlos currently finds himself
-in a rather precarious position.
-But we have no choice but to leave everything in his hands...
+Dymlos currently finds himself in
+a rather precarious position. But
+we have no choice but to leave
+everything in his hands...
 -----------------------
 #カーレル
 Karell
@@ -439,8 +467,8 @@ Karell
 #いよいよ、ソーディアンが完成するか
 #これで我が軍の戦力が
 #格段に強化されることになるな
-At last, the Swordian will be completed.
-With this, our forces
+At last, the Swordian will be
+completed. With this, our forces
 will be strengthened considerably.
 -----------------------
 <Harold>
@@ -448,15 +476,18 @@ will be strengthened considerably.
 #そう、ソーディアンがあれば
 #戦局を一気に打開できるはずよ
 #あとは兄貴たち次第ってわけ
-That's right. With a Swordian,
-we should be able to break through the stalemate in an instant.
-From there, it's all up to my brother and his team.
+That's right. With a Swordian, we
+should be able to break through
+the stalemate in an instant. From
+there, it's all up to my brother
+and his team.
 -----------------------
 #カーレル
 Karell
 -----------------------
 #このフラグでの会話、未設定
-This conversation at this flag is unset.
+This conversation at this flag is
+unset.
 -----------------------
 #クレメンテ
 Clemente
@@ -464,18 +495,18 @@ Clemente
 #そもそも、アトワイトでなく
 #ワシが捕まるべきだったのじゃ
 #老い先短いこのワシが････
-In the first place, it should have been me
-captured, not Atwight.
-This old man, with so little time left...
+In the first place, it should have
+been me captured, not Atwight. This
+old man, with so little time left...
 -----------------------
 <Harold>
 -----------------------
 #じゃあなに？
 #じいさんを助けようとした
 #すべての人の思いを、無視するつもり？
-So what?
-You'd ignore the feelings of everyone
-who tried to save Grandpa?
+So what? You'd ignore the feelings
+of everyone who tried to save
+Grandpa?
 -----------------------
 #クレメンテ
 Clemente
@@ -503,9 +534,9 @@ Clemente
 #その無謀とも思えるひたむきさ
 #おまえさんはかつてのディムロスに
 #本当によく似ておる････
-That reckless, unwavering determination...
-You truly remind me of Dymlos
-in his younger days...
+That reckless, unwavering
+determination... You truly remind me
+of Dymlos in his younger days...
 -----------------------
 <Kyle>
 -----------------------
@@ -516,7 +547,8 @@ Dymlos...?
 Clemente
 -----------------------
 #このフラグでの会話、未設定
-This conversation at this flag is unset.
+This conversation at this flag is
+unset.
 -----------------------
 #アトワイト
 Atwight
@@ -524,15 +556,17 @@ Atwight
 #中将が処罰を受けるのなら
 #私も共にと思っていたけれど････
 #司令のご厚情、決して忘れはしないわ
-If the Vice Admiral was to be punished,
-I had intended to share his fate...
-I will never forget the Commander's kindness.
+If the Vice Admiral was to be
+punished, I had intended to share
+his fate... I will never forget the
+Commander's kindness.
 -----------------------
 #アトワイト
 Atwight
 -----------------------
 #このフラグでの会話、未設定
-This conversation at this flag is unset.
+This conversation at this flag is
+unset.
 -----------------------
 <Harold>
 -----------------------
@@ -546,9 +580,10 @@ Looks like everyone's here.
 #いちばん偉そうなのがリトラー
 #あと順番にディムロス、シャルティエ
 #イクティノス、兄貴のカーレルよ
-The one who looks the most important is Marius.
-After him, in order: Dymlos, Chaltier,
-Igtenos, and my brother Karell.
+The one who looks the most important
+is Marius. After him, in order:
+Dymlos, Chaltier, Igtenos, and my
+brother Karell.
 -----------------------
 #ディムロス
 Dymlos
@@ -563,9 +598,10 @@ We're in a meeting. Wait your turn.
 #すぐ済むから、ちょっと待って
 #私の新しい部下よ
 #みんな、よろしくね
-It'll be quick, so just wait a moment.
-These are my new subordinates.
-Everyone, please be nice to them.
+It'll be quick, so just wait
+a moment. These are my new
+subordinates. Everyone, please be
+nice to them.
 -----------------------
 #ディムロス
 Dymlos
@@ -587,8 +623,8 @@ What are you thinking, <Harold>?
 -----------------------
 #私のＨＲＸ－２型を倒した
 #と言えば、納得してくれるでしょ？
-If I told you they defeated my HRX-2 model,
-would that convince you?
+If I told you they defeated my HRX-2
+model, would that convince you?
 -----------------------
 #シャルティエ
 Chaltier
@@ -625,15 +661,17 @@ You, be silent!
 -----------------------
 #とにかく、そういうことだから
 #この子たちは工兵隊に所属させるわ
-Anyway, that's how it is.
-I'm assigning these kids to the engineering corps.
+Anyway, that's how it is. I'm
+assigning these kids to the
+engineering corps.
 -----------------------
 <Harold>
 -----------------------
 #工兵隊の人事権は、部隊長である
 #私にあるはずよね？
-Personnel decisions for the engineering corps
-fall under my authority as unit commander, right?
+Personnel decisions for the
+engineering corps fall under my
+authority as unit commander, right?
 -----------------------
 #ディムロス
 Dymlos
@@ -641,9 +679,9 @@ Dymlos
 #認められん
 #全兵士の人事権は
 #中将の私がにぎっている
-I cannot allow it.
-Authority over all military personnel
-rests with me as Vice Admiral.
+I cannot allow it. Authority over
+all military personnel rests with
+me as Vice Admiral.
 -----------------------
 <Harold>
 -----------------------
@@ -659,9 +697,9 @@ independent action from now on.
 #ダイクロフト突入作戦も
 #勝手にやってもらうことになるけど
 #それでもいいのね？
-That means you'll have to handle the Dycroft
-infiltration operation on your own too.
-Is that really okay?
+That means you'll have to handle the
+Dycroft infiltration operation on
+your own too. Is that really okay?
 -----------------------
 #カーレル
 Karell
@@ -680,8 +718,8 @@ Marius
 -----------------------
 #彼らを、地上軍の
 #正式な兵士として認める
-I hereby recognize them as
-official soldiers of the ground forces.
+I hereby recognize them as official
+soldiers of the ground forces.
 -----------------------
 #ディムロス
 Dymlos
@@ -789,9 +827,9 @@ Dymlos
 #だが、カン違いしてもらっては困る
 #現場の指揮をとるのは私だ
 #私の命令には、必ず従ってもらう
-But don't get any ideas.
-I take command in the field.
-You will follow my orders without question.
+But don't get any ideas. I take
+command in the field. You will
+follow my orders without question.
 -----------------------
 <Harold>
 -----------------------
@@ -803,9 +841,9 @@ Yeah, yeah, I know, I know.
 #それよりディムロス
 #作戦の説明してたんでしょ？
 #もう一回、最初からしてくれる？
-Anyway, Dymlos,
-you were explaining the plan, weren't you?
-Mind running through it again from the top?
+Anyway, Dymlos, you were explaining
+the plan, weren't you? Mind running
+through it again from the top?
 -----------------------
 #ディムロス
 Dymlos
@@ -835,8 +873,10 @@ Dymlos
 #ひとつは、我が軍に投降の意を示した
 #ベルクラント開発チームの救出だ
 This operation has two objectives.
-First: the rescue of the Belcrant development team,
-who have indicated their intent to surrender to our forces.
+First: the rescue of the Belcrant
+development team, who have indicated
+their intent to surrender to our
+forces.
 -----------------------
 #ディムロス
 Dymlos
@@ -870,9 +910,10 @@ Dymlos
 #そしてもうひとつ、すでにその任にあたり
 #敵将ミクトランの策に落ちた
 #同志ふたりの救出にある
-The second objective is the rescue of two comrades
-who were already on that mission
-but fell into enemy commander Kronos's trap.
+The second objective is the rescue
+of two comrades who were already
+on that mission but fell into enemy
+commander Kronos's trap.
 -----------------------
 #ディムロス
 Dymlos
@@ -893,15 +934,17 @@ And what is our mission?
 #もう目星はついてるから
 #あとは、人手がいるだけ
 Securing our transport to Dycroft.
-I've already picked out a promising option.
-All we need now is the manpower.
+I've already picked out a promising
+option. All we need now is the
+manpower.
 -----------------------
 <Nanaly>
 -----------------------
 #人手って････あたしたちは
 #機械なんか、いじれないよ？
-Manpower? You mean us?
-We don't know the first thing about machines, you know?
+Manpower? You mean us? We don't
+know the first thing about machines,
+you know?
 -----------------------
 <Harold>
 -----------------------
@@ -963,9 +1006,10 @@ Karell
 #構造も複雑だし、作成班は
 #ここのところ徹夜作業が続いている
 #仕方がないだろう
-The structure's complex, and the drafting team
-has been pulling all-nighters as it is.
-It can't be helped.
+The structure's complex, and the
+drafting team has been pulling
+all-nighters as it is. It can't
+be helped.
 -----------------------
 #ディムロス
 Dymlos
@@ -978,8 +1022,9 @@ Karell
 -----------------------
 #言いたくはないが
 #今回の作戦は、準備期間が短すぎる
-I hate to say it, but
-this operation's preparation period was far too short.
+I hate to say it, but this
+operation's preparation period was
+far too short.
 -----------------------
 #カーレル
 Karell
@@ -987,17 +1032,18 @@ Karell
 #普段の君なら、ここまで時間に
 #余裕のない作戦スケジュールは
 #組まないはずだ
-If this were the usual you,
-you'd never have drawn up an operation schedule
-with so little time to spare.
+If this were the usual you, you'd
+never have drawn up an operation
+schedule with so little time to
+spare.
 -----------------------
 #ディムロス
 Dymlos
 -----------------------
 #わかっている
 #しかし、我々には時間がないんだ
-I know.
-But we don't have the luxury of time.
+I know. But we don't have the
+luxury of time.
 -----------------------
 #リトラー
 Marius
@@ -1029,7 +1075,8 @@ Wait here until <Harold>'s machine is complete.
 #あの････まだそんなに疲れてませんし
 #なにか、手伝えることありませんか？
 Um... I'm not all that tired yet.
-Isn't there anything I can help with?
+Isn't there anything I can help
+with?
 -----------------------
 #ディムロス
 Dymlos
@@ -1078,7 +1125,8 @@ You should rest as well.
 Dymlos
 -----------------------
 #････わかった、後は頼む
-...Understood. I'll leave the rest to you.
+...Understood. I'll leave the rest
+to you.
 -----------------------
 #カーレル
 Karell
@@ -1090,7 +1138,8 @@ Whew... what a relief.
 Marius
 -----------------------
 #気苦労をかけるな、カーレル君
-Sorry to cause you such trouble, Karell.
+Sorry to cause you such trouble,
+Karell.
 -----------------------
 #カーレル
 Karell
@@ -1098,9 +1147,10 @@ Karell
 #本来なら、部下への配慮は
 #ディムロスの専売特許なんですけどね
 #ま、たまにはいいです
-Normally, looking out for subordinates
-is Dymlos's exclusive specialty.
-Well, I suppose I can manage it once in a while.
+Normally, looking out for
+subordinates is Dymlos's exclusive
+specialty. Well, I suppose I can
+manage it once in a while.
 -----------------------
 <Nanaly>
 -----------------------
@@ -1115,9 +1165,9 @@ Karell
 #あぁ、君たちは知らないのか
 #彼はね、兵たちの間で
 #もっとも人気があるんだ
-Ah, you didn't know?
-He's actually the most popular commander
-among the troops.
+Ah, you didn't know? He's actually
+the most popular commander among
+the troops.
 -----------------------
 #カーレル
 Karell
@@ -1125,9 +1175,10 @@ Karell
 #「突撃兵」と異名を取るほどの強さも
 #理由のひとつなんだが
 #それ以上に、部下への接し方がある
-His strength, enough to earn him the nickname "Assault Trooper,"
-is part of it, sure.
-But more than that, it's how he treats his men.
+His strength, enough to earn him the
+nickname "Assault Trooper," is part
+of it, sure. But more than that,
+it's how he treats his men.
 -----------------------
 #カーレル
 Karell
@@ -1135,8 +1186,9 @@ Karell
 #えこひいきや差別をせず、常に公明正大
 #つらいときには励ましてくれ
 #喜びは、共にわかちあう
-No favoritism, no discrimination. Always fair and aboveboard.
-He encourages you when times are tough.
+No favoritism, no discrimination.
+Always fair and aboveboard. He
+encourages you when times are tough.
 And he shares in your joys as well.
 -----------------------
 #カーレル
@@ -1156,7 +1208,8 @@ honestly, I just don't see it.
 Karell
 -----------------------
 #ディムロスも、余裕がないのさ
-Dymlos isn't himself right now either.
+Dymlos isn't himself right now
+either.
 -----------------------
 #カーレル
 Karell
@@ -1164,9 +1217,9 @@ Karell
 #今度の作戦は、必ず
 #成功させなくてはいけない
 #そのプレッシャーのせいだろう
-This next mission absolutely
-has to succeed.
-The pressure's getting to him, I imagine.
+This next mission absolutely has
+to succeed. The pressure's getting
+to him, I imagine.
 -----------------------
 <Kyle>
 -----------------------
@@ -1194,9 +1247,8 @@ Marius
 #ちょうどよかった
 #これから作戦の説明を行うところだ
 #始めてくれ、ディムロス
-Perfect timing.
-We're about to go over the battle plan.
-Begin, Dymlos.
+Perfect timing. We're about to go
+over the battle plan. Begin, Dymlos.
 -----------------------
 #ディムロス
 Dymlos
@@ -1213,8 +1265,9 @@ Dymlos
 -----------------------
 #Ａチームはベルクラント開発チームおよび
 #クレメンテ、アトワイト両氏の救出
-Team A will rescue the Belcrant development team
-along with Clemente and Atwight.
+Team A will rescue the Belcrant
+development team along with Clemente
+and Atwight.
 -----------------------
 #ディムロス
 Dymlos
@@ -1222,9 +1275,10 @@ Dymlos
 #Ｂチームは敵の撹乱をおこなう
 #Ａチームが救出した後は、制御室を奪取
 #ダイクロフトの全機能を一時的にマヒさせる
-Team B will create a diversion.
-Once Team A completes the rescue, seize the control room
-and temporarily paralyze all Dycroft functions.
+Team B will create a diversion. Once
+Team A completes the rescue, seize
+the control room and temporarily
+paralyze all Dycroft functions.
 -----------------------
 #ディムロス
 Dymlos
@@ -1232,9 +1286,10 @@ Dymlos
 #ダイクロフトがマヒしているスキをついて
 #ＡチームとＢチームは合流
 #脱出ポッドで、ラディスロウへ帰還する
-We'll take advantage of the opening while Dycroft is paralyzed.
-Team A and Team B will regroup,
-then return to Radisrol via escape pod.
+We'll take advantage of the opening
+while Dycroft is paralyzed. Team A
+and Team B will regroup, then return
+to Radisrol via escape pod.
 -----------------------
 #シャルティエ
 Chaltier
@@ -1249,7 +1304,8 @@ to get back as well?
 #あぁ、強襲用にってことだったから
 #片道しか想定してないのよ
 Yeah, it was built for the assault,
-so they only planned for a one-way trip.
+so they only planned for a one-way
+trip.
 -----------------------
 #イクティノス
 Igtenos
@@ -1257,25 +1313,29 @@ Igtenos
 #マシンを帰りにも使うとすれば
 #敵に破壊されないよう、守備人員を
 #割かなくてはいけなくなる
-If we wished to use it for the return trip as well,
-we would need to station defensive personnel
-to keep it from being destroyed by the enemy.
+If we wished to use it for the
+return trip as well, we would need
+to station defensive personnel to
+keep it from being destroyed by
+the enemy.
 -----------------------
 #イクティノス
 Igtenos
 -----------------------
 #少数精鋭で突入するこの作戦で
 #これ以上の兵力分散は愚行だろう
-This operation depends on inserting a small, elite force.
-Diverting any more troops than that would be folly.
+This operation depends on inserting
+a small, elite force. Diverting
+any more troops than that would
+be folly.
 -----------------------
 #ディムロス
 Dymlos
 -----------------------
 #そういうことだ
 #では、各チームの割り振りを発表する
-Exactly.
-Now then, I'll announce the team assignments.
+Exactly. Now then, I'll announce
+the team assignments.
 -----------------------
 #ディムロス
 Dymlos
@@ -1304,7 +1364,8 @@ You don't mind, do you?
 Dymlos
 -----------------------
 #了解した････以上だ、質問は？
-Understood... that is all. Any questions?
+Understood... that is all. Any
+questions?
 -----------------------
 #ディムロス
 Dymlos
@@ -1328,18 +1389,21 @@ Marius
 #会議はこれまでだ
 #各員、格納庫にて集合せよ
 #健闘を期待している
-This meeting is adjourned.
-All personnel, assemble in the hangar.
-I expect nothing less than your best efforts.
+This meeting is adjourned. All
+personnel, assemble in the hangar.
+I expect nothing less than your
+best efforts.
 -----------------------
 <Judas>
 -----------------------
 #さすがは、ディムロス
 #地上軍の総指揮官だけのことはある
 #作戦の前だというのに、平常心を忘れていない
-As expected of Dymlos.
-Just what one would expect from the supreme commander of the ground forces.
-He hasn't lost his composure, even on the eve of battle.
+As expected of Dymlos. Just what
+one would expect from the supreme
+commander of the ground forces. He
+hasn't lost his composure, even on
+the eve of battle.
 -----------------------
 <Loni>
 -----------------------
@@ -1353,16 +1417,16 @@ he's so popular with the troops.
 #････やれやれ
 #兄さんの言うとおり
 #ホントに余裕ないみたいね
-...Good grief.
-Just as my brother said.
-He really doesn't have any leeway right now.
+...Good grief. Just as my brother
+said. He really doesn't have any
+leeway right now.
 -----------------------
 <Kyle>
 -----------------------
 #え？　だってディムロスさん
 #すごく堂々としてたけど････
-Huh? But Mr. Dymlos...
-he seemed so confident and composed...
+Huh? But Mr. Dymlos... he seemed so
+confident and composed...
 -----------------------
 <Harold>
 -----------------------
@@ -1379,27 +1443,27 @@ She didn't say her usual line today.
 #そ、あいつは作戦前に
 #必ず部下にこう言うのよ
 #「生きて、帰ってこい」って
-See, before every operation,
-she always tells her subordinates the same thing:
-"Come back alive."
+See, before every operation, she
+always tells her subordinates the
+same thing: "Come back alive."
 -----------------------
 <Nanaly>
 -----------------------
 #へぇ････
 #部下思いの
 #いい人じゃない
-Huh...
-Sounds like a good commander.
-Someone who really looks out for her troops.
+Huh... Sounds like a good commander.
+Someone who really looks out for
+her troops.
 -----------------------
 <Harold>
 -----------------------
 #でも、今日は言わなかった
 #他人のことが目に入ってないなんて
 #らしくないわ
-But she didn't say it today.
-To not even notice what's going on around her...
-That's not like her at all.
+But she didn't say it today. To not
+even notice what's going on around
+her... That's not like her at all.
 -----------------------
 <Kyle>
 -----------------------
@@ -1419,8 +1483,8 @@ Dymlos
 #････････････････
 #以上で今回の作戦の結果報告を
 #終わらせていただきます
-...
-That concludes my report on the results of this operation.
+... That concludes my report on
+the results of this operation.
 Thank you.
 -----------------------
 #リトラー
@@ -1429,9 +1493,10 @@ Marius
 #開発チームを無事に救出できたことで
 #作戦は成功したと言っていいだろう
 #諸君、ご苦労だった
-We've successfully rescued the development team,
-so I'd say the mission was a success.
-Well done, everyone.
+We've successfully rescued the
+development team, so I'd say the
+mission was a success. Well done,
+everyone.
 -----------------------
 #リトラー
 Marius
@@ -1439,9 +1504,11 @@ Marius
 #なお、捕らわれたアトワイトについてだが
 #彼女の捜索を行うかどうかは
 #上層部で会議にかけて決めたいと思う
-Now, regarding Atwight, who was captured...
-Whether we launch a search for her or not
-is something I wish to put to a meeting with the higher-ups.
+Now, regarding Atwight, who was
+captured... Whether we launch a
+search for her or not is something
+I wish to put to a meeting with
+the higher-ups.
 -----------------------
 <Reala>
 -----------------------
@@ -1452,8 +1519,8 @@ How could you...!
 -----------------------
 #どうして、今すぐアトワイトさんを
 #探しにいかないんですか!?
-Why aren't we going to search for Atwight
-right now!?
+Why aren't we going to search for
+Atwight right now!?
 -----------------------
 #ディムロス
 Dymlos
@@ -1482,9 +1549,11 @@ Dymlos
 #それを待って発令される
 #天上軍との最終決戦をひかえた今、
 #戦略的に無意味な行動をとるべきではない
-Orders will be issued once that is ready.
-With our final battle against the Aeth'er Army looming,
-we cannot afford strategically meaningless actions.
+Orders will be issued once that
+is ready. With our final battle
+against the Aeth'er Army looming,
+we cannot afford strategically
+meaningless actions.
 -----------------------
 <Kyle>
 -----------------------
@@ -1525,8 +1594,9 @@ Dymlos
 -----------------------
 #仲間だからこそ理解しているはずだ
 #私の判断が間違いではなかったことを
-It is because they are my comrades that they will understand.
-That my judgment was not wrong.
+It is because they are my comrades
+that they will understand. That my
+judgment was not wrong.
 -----------------------
 <Kyle>
 -----------------------
@@ -1541,7 +1611,8 @@ She could be killed!
 Dymlos
 -----------------------
 #････軍の勝利には代えられない
-...No sacrifice is too great for victory.
+...No sacrifice is too great for
+victory.
 -----------------------
 <Kyle>
 -----------------------
@@ -1555,18 +1626,19 @@ believed you were a hero.
 #誰よりも強くて、誰よりもやさしくて
 #仲間のためなら命をかけられる
 #本当の英雄だと
-Stronger than anyone, kinder than anyone,
-someone who'd risk their life for their comrades.
-A true hero.
+Stronger than anyone, kinder than
+anyone, someone who'd risk their
+life for their comrades. A true
+hero.
 -----------------------
 <Kyle>
 -----------------------
 #でも、あなたは、そうじゃなかった！
 #本物の英雄なら決してアトワイトさんを
 #見捨てたりしない！
-But you're not!
-A true hero would never abandon Atwight!
-Would never leave her behind!
+But you're not! A true hero would
+never abandon Atwight! Would never
+leave her behind!
 -----------------------
 <Kyle>
 -----------------------
@@ -1597,9 +1669,10 @@ Clemente
 #たしかに非情な決断かもしれんが
 #人の上に立つ者は時にこうした難問に
 #直面することがある
-It may indeed be a heartless decision.
-But those who lead must sometimes face
-such difficult choices.
+It may indeed be a heartless
+decision. But those who lead must
+sometimes face such difficult
+choices.
 -----------------------
 #クレメンテ
 Clemente
@@ -1632,9 +1705,9 @@ Marius
 #ディムロスの言うとおり
 #最終決戦の日は近い
 #十分に休んで英気を養ってくれ
-As Dymlos said,
-the day of the final battle draws near.
-Rest well and ready yourselves.
+As Dymlos said, the day of the final
+battle draws near. Rest well and
+ready yourselves.
 -----------------------
 #リトラー
 Marius
@@ -1650,9 +1723,9 @@ Marius
 #ディムロス中将
 #君から先ほど申告があった話
 #再度確認するが、本当かね？
-Vice Admiral Dymlos
-Regarding the report you submitted earlier
-I must confirm once more: is it true?
+Vice Admiral Dymlos Regarding the
+report you submitted earlier I must
+confirm once more: is it true?
 -----------------------
 #ディムロス
 Dymlos
@@ -1714,9 +1787,9 @@ Dymlos
 #それに私は、これでも人の上に立つものだ
 #処罰されないことには
 #下の者に示しがつかない
-Besides, I am one who stands above others.
-If I go unpunished,
-I cannot set an example for those below me.
+Besides, I am one who stands above
+others. If I go unpunished, I cannot
+set an example for those below me.
 -----------------------
 <Kyle>
 -----------------------
@@ -1757,7 +1830,8 @@ Marius
 Marius
 -----------------------
 #ディムロス中将、処分を言い渡す
-Vice Admiral Dymlos, I hereby pronounce your sentence.
+Vice Admiral Dymlos, I hereby
+pronounce your sentence.
 -----------------------
 #リトラー
 Marius
@@ -1765,9 +1839,10 @@ Marius
 #作戦行動中の独断専行
 #および、上層部の指示無視は
 #厳罰に値する
-Acting unilaterally during an operation
-and ignoring orders from the high command
-warrant severe punishment.
+Acting unilaterally during an
+operation and ignoring orders from
+the high command warrant severe
+punishment.
 -----------------------
 #リトラー
 Marius
@@ -1775,9 +1850,9 @@ Marius
 #よって、中将に
 #「ダイクロフト突入作戦」の
 #前線指揮官の任を命ずる
-Therefore, I hereby appoint the Vice Admiral
-as frontline commander
-of Operation Dycroft Infiltration.
+Therefore, I hereby appoint the Vice
+Admiral as frontline commander of
+Operation Dycroft Infiltration.
 -----------------------
 #ディムロス
 Dymlos
@@ -1793,9 +1868,10 @@ Marius
 #前線指揮官といえば
 #もっとも死ぬ確率の高い役職だ
 #十分、厳罰に当たると判断した
-The frontline commander is, without question,
-the position with the highest mortality rate.
-I deemed it punishment enough.
+The frontline commander is, without
+question, the position with the
+highest mortality rate. I deemed it
+punishment enough.
 -----------------------
 #ディムロス
 Dymlos
@@ -1831,9 +1907,9 @@ Dymlos
 #し、しかし！
 #クレメンテ殿は高齢なので
 #私が代わりにと、カーレルと話を････
-B-but!
-Lord Clemente is advanced in years,
-so I spoke with Karell about taking his place...
+B-but! Lord Clemente is advanced in
+years, so I spoke with Karell about
+taking his place...
 -----------------------
 #カーレル
 Karell
@@ -1841,9 +1917,10 @@ Karell
 #確かに、話には出ましたが
 #それは口約束であって
 #正式な軍の命令ではなかったはずです
-True, it was discussed.
-But that was merely a verbal agreement.
-It was never made an official military order.
+True, it was discussed. But that
+was merely a verbal agreement. It
+was never made an official military
+order.
 -----------------------
 #ディムロス
 Dymlos
@@ -1856,8 +1933,8 @@ Raiker
 -----------------------
 #あきらめたまえ、ディムロス君
 #すでに処分は決定済みだ
-Give it up, Dymlos.
-Your punishment has already been decided.
+Give it up, Dymlos. Your punishment
+has already been decided.
 -----------------------
 #ディムロス
 Dymlos
@@ -1869,7 +1946,8 @@ Commander...
 Raiker
 -----------------------
 #君なりの責任の取り方もわかる
-I understand your desire to take responsibility in your own way.
+I understand your desire to take
+responsibility in your own way.
 -----------------------
 #リトラー
 Raiker
@@ -1877,8 +1955,9 @@ Raiker
 #だが、君を
 #失いたくないという者たちの
 #気持ちも、察してやれ
-But you must also consider the feelings
-of those who do not wish to lose you.
+But you must also consider the
+feelings of those who do not wish
+to lose you.
 -----------------------
 #ディムロス
 Dymlos
@@ -1902,9 +1981,9 @@ Raiker
 #さて、前線指揮官も決まったことだし
 #そろそろ突入作戦を
 #発令したいところなのだが････
-Now that our frontline commander is decided,
-I should like to issue
-the assault order shortly, but...
+Now that our frontline commander is
+decided, I should like to issue the
+assault order shortly, but...
 -----------------------
 #カーレル
 Karell
@@ -1917,9 +1996,9 @@ Karell
 #実戦データはバッチリ！
 #あとは調整だけよ
 #すぐにでも用意できるわ
-The combat data is perfect!
-Just needs a few adjustments.
-I can have them ready at a moment's notice.
+The combat data is perfect! Just
+needs a few adjustments. I can have
+them ready at a moment's notice.
 -----------------------
 #リトラー
 Raiker
@@ -1961,8 +2040,8 @@ Raiker
 #地上軍の総司令として
 #それと、ディムロスの友人として
 #礼を言わせてくれ
-As Commander-in-Chief of the ground forces,
-and as a friend of Dymlos,
+As Commander-in-Chief of the ground
+forces, and as a friend of Dymlos,
 allow me to express my gratitude.
 -----------------------
 #リトラー
@@ -1971,8 +2050,9 @@ Raiker
 #････ありがとう、君のおかげで
 #ディムロスとアトワイト
 #二人を救うことができた
-...Thank you. Thanks to you,
-I was able to save both Dymlos and Atwight.
+...Thank you. Thanks to you, I
+was able to save both Dymlos and
+Atwight.
 -----------------------
 <Kyle>
 -----------------------
@@ -1985,8 +2065,9 @@ What should we be doing?
 -----------------------
 #せっかくこの時代に来たんだから
 #見たいでしょ？
-We came all the way to this era, after all.
-There's something you want to see, isn't there?
+We came all the way to this era,
+after all. There's something you
+want to see, isn't there?
 -----------------------
 <Kyle>
 -----------------------
@@ -2008,7 +2089,8 @@ for the whole Dymlos affair.
 -----------------------
 #というわけで、物資保管所までの
 #護衛よろしく！
-Which means I'll need an escort to the Supplies Storage!
+Which means I'll need an escort to
+the Supplies Storage!
 -----------------------
 <Kyle>
 -----------------------
@@ -2021,21 +2103,24 @@ The Swordians are complete!
 Raiker
 -----------------------
 #そうか、ソーディアンが････
-I see... The Swordians are complete...
+I see... The Swordians are
+complete...
 -----------------------
 #リトラー
 Raiker
 -----------------------
 #よし、工作班に伝達
 #ラディスロウ浮上の準備を急がせろ
-Good. Relay that to the engineering team.
-Hurry and make preparations for Radisrol's ascent.
+Good. Relay that to the engineering
+team. Hurry and make preparations
+for Radisrol's ascent.
 -----------------------
 #兵士
 Soldier
 -----------------------
 #では司令、ついに････！
-Then, Commander, it's finally time...!
+Then, Commander, it's finally
+time...!
 -----------------------
 #リトラー
 Raiker
@@ -2043,15 +2128,17 @@ Raiker
 #ソーディアンチームが戻り次第
 #ダイクロフトへの総攻撃をかける
 #二交代制で兵たちに休息をとらせろ
-Once the Swordian team returns,
-we shall launch our full-scale assault on Dycroft.
-Let the men rest in two-shift rotations.
+Once the Swordian team returns, we
+shall launch our full-scale assault
+on Dycroft. Let the men rest in
+two-shift rotations.
 -----------------------
 #リトラー
 Raiker
 -----------------------
 #少量ならば酒を出してもかまわん
-If it's only a small amount, I don't mind serving some sake.
+If it's only a small amount, I don't
+mind serving some sake.
 -----------------------
 #兵士
 Soldier
@@ -2075,7 +2162,8 @@ Understood, Commander Raiker.
 <Kyle>
 -----------------------
 #お待たせしました、リトラーさん
-Sorry to keep you waiting, Commander Raiker.
+Sorry to keep you waiting, Commander
+Raiker.
 -----------------------
 #リトラー
 Raiker
@@ -2092,8 +2180,9 @@ Raiker
 #我が軍は敵本拠地ダイクロフトに対して
 #総攻撃をかける
 Gentlemen, at 1300 hours today,
-our forces will launch a full-scale assault
-on the enemy stronghold, Dycroft.
+our forces will launch a full-scale
+assault on the enemy stronghold,
+Dycroft.
 -----------------------
 #リトラー
 Raiker
@@ -2101,9 +2190,10 @@ Raiker
 #文字どおり、この一戦で
 #世界の命運が決まる
 #どうか、死力を尽くして戦ってほしい
-Make no mistake: the fate of the world
-will be decided in this single battle.
-Fight with everything you have.
+Make no mistake: the fate of the
+world will be decided in this single
+battle. Fight with everything you
+have.
 -----------------------
 #ディムロス
 Dymlos
@@ -2116,7 +2206,8 @@ Raiker
 -----------------------
 #この作戦においてカギとなるのは
 #もちろん、君たちソーディアンチームだ
-The key to this operation is, of course, you--the Swordian team.
+The key to this operation is, of
+course, you--the Swordian team.
 -----------------------
 #リトラー
 Raiker
@@ -2124,9 +2215,11 @@ Raiker
 #隊長ディムロス、副隊長カーレルを中心に
 #最終目標である敵将ミクトランのもとへ
 #なんとしてもたどり着いてくれ
-Led by Captain Dymlos and Vice-Captain Karell,
-you must reach our final objective: the enemy commander, Kronos.
-No matter what it takes.
+Led by Captain Dymlos and
+Vice-Captain Karell, you must reach
+our final objective: the enemy
+commander, Kronos. No matter what
+it takes.
 -----------------------
 #カーレル
 Karell
@@ -2151,8 +2244,8 @@ Dymlos
 -----------------------
 #前回の作戦があったので
 #敵も警戒を強めているはずだ
-Our last operation put them on guard.
-Expect heightened security.
+Our last operation put them on
+guard. Expect heightened security.
 -----------------------
 #ディムロス
 Dymlos
@@ -2182,8 +2275,9 @@ Dymlos
 -----------------------
 #死力を尽くすことと、死ぬことは別だ
 #････必ず、生きて帰ってきてくれ！
-Giving your all isn't the same as dying.
-...Make sure you come back alive!
+Giving your all isn't the same as
+dying. ...Make sure you come back
+alive!
 -----------------------
 #了解！
 Understood!
@@ -2237,17 +2331,18 @@ Chaltier
 -----------------------
 #僕もなんとか無事のようです
 #肩を強く打っちゃいましたけど
-I seem to have made it through in one piece too.
-Though I took quite a blow to the shoulder.
+I seem to have made it through in
+one piece too. Though I took quite
+a blow to the shoulder.
 -----------------------
 <Harold>
 -----------------------
 #まったく、司令もムチャするわ
 #一歩間違ったら
 #全員、あの世行きだったわよ
-Honestly, the commander's pushing his luck.
-One wrong step
-and we'd all be meeting our maker.
+Honestly, the commander's pushing
+his luck. One wrong step and we'd
+all be meeting our maker.
 -----------------------
 #カーレル
 Karell
@@ -2263,9 +2358,11 @@ Raiker
 #私の墓にはそう刻んでもらおう
 #ともかくも、突入には成功した
 #さっそく、次の行動に移ってくれ
-Have those words carved on my grave, then.
-At any rate, we've successfully breached their defenses.
-Now then, proceed to your next objective.
+Have those words carved on my
+grave, then. At any rate, we've
+successfully breached their
+defenses. Now then, proceed to your
+next objective.
 -----------------------
 #ディムロス
 Dymlos

@@ -7,7 +7,8 @@ Radisrol
 #難民たちの雑貨だ
 #どれもこれも、使い古した物ばかりだ
 Supplies for the refugees.
-Everything here is worn out from use.
+Everything here is worn out from
+use.
 -----------------------
 #使いこまれてボロボロになった雑貨が並んでいる
 Worn-out supplies, battered from long use, are lined up here.
@@ -44,23 +45,25 @@ Old Man
 #敗れるようなことがあれば
 #世界はどうなってしまうんじゃろう？
 If the ground forces lose this war,
-what do you suppose will become of the world?
+what do you suppose will become
+of the world?
 -----------------------
 #お爺さん
 Old Man
 -----------------------
 #わしらは天上軍に支配されたまま
 #死んでいくんじゃろうか
-Will we spend our final days under Aeth'er rule,
-just waiting to die?
+Will we spend our final days under
+Aeth'er rule, just waiting to die?
 -----------------------
 #お爺さん
 Old Man
 -----------------------
 #どうせワシは生い先短い身じゃ
 #いつ死んでもええじゃが、子供たちは････
-I'm old and don't have much time left anyway.
-I don't mind when I go, but the children...
+I'm old and don't have much time
+left anyway. I don't mind when I
+go, but the children...
 -----------------------
 #お爺さん
 Old Man
@@ -68,7 +71,8 @@ Old Man
 #敵の長ミクトランは
 #血も涙もない男だというウワサじゃ
 They say the enemy leader, Kronos,
-is a man without a shred of mercy in him.
+is a man without a shred of mercy
+in him.
 -----------------------
 #お爺さん
 Old Man
@@ -77,21 +81,24 @@ Old Man
 #ワシらはベルクラントで
 #焼き殺されてしまうんじゃろうか
 If we lose the final battle,
-will they burn us all alive with Belcrant?
+will they burn us all alive with
+Belcrant?
 -----------------------
 #お爺さん
 Old Man
 -----------------------
 #いまは勝利を信じるしかないのぅ
-For now, all we can do is believe in victory.
+For now, all we can do is believe
+in victory.
 -----------------------
 #お爺さん
 Old Man
 -----------------------
 #じゃが、負けた時の事を思うと
 #恐怖で夜も眠れんよ
-But when I think about what'll happen if we lose,
-I'm too terrified to sleep at night.
+But when I think about what'll
+happen if we lose, I'm too terrified
+to sleep at night.
 -----------------------
 #おばちゃん
 Woman
@@ -108,8 +115,9 @@ Woman
 -----------------------
 #こんなせまいところに押しこめられて
 #友達もいなきゃ、食べるものもない
-The kids are cooped up in this cramped place.
-No friends, barely any food...
+The kids are cooped up in this
+cramped place. No friends, barely
+any food...
 -----------------------
 #おばちゃん
 Woman
@@ -137,15 +145,16 @@ Woman
 #そんな男に殺されるなんて
 #まっぴらごめんだよ
 Getting killed by a man like that?
-No thank you. I'd rather die any other way.
+No thank you. I'd rather die any
+other way.
 -----------------------
 #おばちゃん
 Woman
 -----------------------
 #あの子たち、兵隊になりたいって言うけど
 #アタシは賛成できないねぇ
-Those girls say they want to become soldiers,
-but I can't support that.
+Those girls say they want to become
+soldiers, but I can't support that.
 -----------------------
 #おばちゃん
 Woman
@@ -194,8 +203,8 @@ Old Woman
 #あ････ご、ごめんなさいね
 #あなたが死んだ孫にソックリ
 #だったから････
-Oh... I-I'm so sorry.
-You look just like my grandson who passed away...
+Oh... I-I'm so sorry. You look just
+like my grandson who passed away...
 That's why...
 -----------------------
 #おばあさん
@@ -204,9 +213,9 @@ Old Woman
 #孫はスペランツァに帰郷したとき
 #ベルクラントで撃たれて
 #死んだの
-My grandson was returning to Speranza
-when he was shot down by Belcrant.
-He died.
+My grandson was returning to
+Speranza when he was shot down by
+Belcrant. He died.
 -----------------------
 #おばあさん
 Old Woman
@@ -238,8 +247,9 @@ Old Woman
 -----------------------
 #土着宗教の神様だよ
 #キレイな女神様なんだとさ
-She's the god of the local religion, they say.
-A beautiful goddess, or so I'm told.
+She's the god of the local religion,
+they say. A beautiful goddess, or
+so I'm told.
 -----------------------
 #おばあさん
 Old Woman
@@ -256,8 +266,8 @@ Drill Instructor
 -----------------------
 #我等が倒れたら
 #諸君らの世代が剣を取るのだ！
-If we fall,
-it will be your generation that takes up the sword!
+If we fall, it will be your
+generation that takes up the sword!
 -----------------------
 #教官
 Drill Instructor
@@ -296,16 +306,16 @@ Drill Instructor
 -----------------------
 #明日から
 #基礎体力訓練を行う！
-Starting tomorrow,
-we begin basic physical conditioning!
+Starting tomorrow, we begin basic
+physical conditioning!
 -----------------------
 #教官
 Drill Instructor
 -----------------------
 #頑張って、早く一人前の
 #兵隊になるんだぞ！
-Work hard and become a full-fledged soldier,
-and do it quickly!
+Work hard and become a full-fledged
+soldier, and do it quickly!
 -----------------------
 #教官
 Drill Instructor
@@ -322,8 +332,9 @@ Drill Instructor
 #仲間と家族と軍を
 #守るために！
 Defeat the enemy! Defeat the enemy!
-For the sake of protecting your comrades,
-your families, and your army!
+For the sake of protecting your
+comrades, your families, and your
+army!
 -----------------------
 #子供Ａ
 Child A
@@ -354,16 +365,16 @@ Drill Instructor
 -----------------------
 #諸君らは士官候補生として
 #軍の管理下におかれる！
-As officer cadets,
-you are now under military jurisdiction!
+As officer cadets, you are now under
+military jurisdiction!
 -----------------------
 #教官
 Drill Instructor
 -----------------------
 #頑張って、早く一人前の
 #兵隊になるんだぞ！
-Work hard and become a full-fledged soldier,
-and do it quickly!
+Work hard and become a full-fledged
+soldier, and do it quickly!
 -----------------------
 #女の子
 Girl
@@ -414,8 +425,9 @@ Girl
 -----------------------
 #そこに大量の物資が残っていたから
 #地上軍は今まで戦ってこられたわけ
-A huge amount of supplies was left there,
-which is how the ground forces have kept fighting until now.
+A huge amount of supplies was left
+there, which is how the ground
+forces have kept fighting until now.
 -----------------------
 #女の子
 Girl
@@ -590,8 +602,9 @@ Chef
 -----------------------
 #食材を探しているんだ
 #見つけたら持ってきてくれないかい？
-I'm looking for ingredients.
-Could you bring them to me if you find any?
+I'm looking for ingredients. Could
+you bring them to me if you find
+any?
 -----------------------
 #シェフ
 Chef
@@ -606,8 +619,9 @@ Chef
 -----------------------
 #お前のような奴を待ってた
 #これをゆずるのに相応しい料理人を
-I've been waiting for someone like you.
-A chef worthy of receiving this.
+I've been waiting for someone like
+you. A chef worthy of receiving
+this.
 -----------------------
 notice
 -----------------------

@@ -17,8 +17,9 @@ NOTICE
 -----------------------
 #不気味に光る何かの『かけら』があります
 #不吉な予感がしますが、これを持っていきますか？
-There is a fragment of something glowing ominously.
-You sense ill foreboding, but will you take it?
+There is a fragment of something
+glowing ominously. You sense ill
+foreboding, but will you take it?
 -----------------------
 select
 -----------------------

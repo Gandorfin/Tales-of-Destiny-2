@@ -7,7 +7,8 @@ Egg of God - Middle Layer
 NOTICE
 -----------------------
 #床にはデリスエンブレムが描かれています
-A Delis Emblem is drawn on the floor.
+A Delis Emblem is drawn on the
+floor.
 -----------------------
 #プレートに何か書かれている
 There's something written on the plate.
@@ -45,8 +46,8 @@ NOTICE
 -----------------------
 #プレートがあります
 #このプレートには何かをはめ込めそうです
-There's a plate here.
-It looks like something can be inserted into it.
+There's a plate here. It looks like
+something can be inserted into it.
 -----------------------
 <Reala>
 -----------------------

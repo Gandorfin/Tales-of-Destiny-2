@@ -5,7 +5,9 @@ Er'ther Base
 Er'ther Base
 -----------------------
 #暖炉の火は、いつ果てるとも無く燃え続けている
-The fire in the hearth burns endlessly, with no sign of going out.
+The fire in the hearth burns
+endlessly, with no sign of going
+out.
 -----------------------
 #担架と簡単な医療用具がある
 #どれもこれも、使い古された物ばかりだ
@@ -22,8 +24,8 @@ Soldier
 #お偉いさんには、オレたち
 #下っ端の苦労は分からないだろうな
 Those big shots holed up in Radisrol
-wouldn't understand the struggles
-of us grunts at the bottom, would they?
+wouldn't understand the struggles of
+us grunts at the bottom, would they?
 -----------------------
 #兵卒
 Soldier
@@ -31,8 +33,9 @@ Soldier
 #こっちは現場で命をかけてるんだ
 #もう少し、待遇を良くしてくれても
 #いいだろうに
-We're risking our lives out here on the front lines.
-They could at least treat us a little better.
+We're risking our lives out here
+on the front lines. They could at
+least treat us a little better.
 Would it kill them?
 -----------------------
 #兵卒
@@ -41,33 +44,36 @@ Soldier
 #ま、上には上の苦労があるんだろうけどな
 #でも、命がけで戦ってる下っ端の苦労も
 #少しは分かってもらいたいもんだぜ
-Well, I suppose the higher-ups have their own troubles.
-But still, I'd like 'em to understand what us grunts
-go through fighting with our lives on the line.
+Well, I suppose the higher-ups
+have their own troubles. But still,
+I'd like 'em to understand what us
+grunts go through fighting with our
+lives on the line.
 -----------------------
 #兵卒
 Soldier
 -----------------------
 #クソッタレめ、この傷が治ってれば
 #ダイクロフト突入作戦に参加できたのに
-Damn it all... If this wound had healed,
-I could've joined the Dycroft assault operation.
+Damn it all... If this wound had
+healed, I could've joined the
+Dycroft assault operation.
 -----------------------
 #兵卒
 Soldier
 -----------------------
 #肝心な時に役に立てないなんて
 #情けねぇぜ････
-To be useless when it matters most...
-Pathetic...
+To be useless when it matters
+most... Pathetic...
 -----------------------
 #兵卒
 Soldier
 -----------------------
 #ふん、こうなったら
 #地上から命がけで応援してやるぜ
-Hmph. Fine then.
-I'll risk my life cheering them on from the surface.
+Hmph. Fine then. I'll risk my life
+cheering them on from the surface.
 -----------------------
 #兵卒
 Soldier

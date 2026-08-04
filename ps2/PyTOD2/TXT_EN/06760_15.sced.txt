@@ -46,7 +46,8 @@ This map has maximum encounter rate.
 notice
 -----------------------
 #このマップは視界が狭くなります
-This map will have limited visibility.
+This map will have limited
+visibility.
 -----------------------
 #いってらっしゃいませ
 Please come again.

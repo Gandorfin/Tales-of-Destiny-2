@@ -8,7 +8,8 @@ Radisrol
 Karell's Room
 -----------------------
 #カーレルの物らしきリュックが入っている
-There's a backpack that seems to belong to Karell.
+There's a backpack that seems to
+belong to Karell.
 -----------------------
 <char:000003E8>
 -----------------------
@@ -23,7 +24,8 @@ I found all sorts of quiz questions!
 NOTICE
 -----------------------
 #クイズ本に新しいジャンルが追加されました
-A new genre has been added to the quiz book.
+A new genre has been added to the
+quiz book.
 -----------------------
 #カーレルの机だ
 #報告書がキレイにまとめられている
@@ -34,7 +36,8 @@ The reports are neatly organized.
 Soldier
 -----------------------
 #作戦開始まで、こちらでお休みください
-Please rest here until the operation begins.
+Please rest here until the operation
+begins.
 -----------------------
 select
 -----------------------
@@ -47,7 +50,8 @@ Don't rest
 Soldier
 -----------------------
 #作戦開始まで、こちらでお休みください
-Please rest here until the operation begins.
+Please rest here until the operation
+begins.
 -----------------------
 select
 -----------------------
@@ -91,7 +95,8 @@ Good morning.
 Soldier
 -----------------------
 #いつでも休んでかまわないとのことです
-They say you can rest whenever you'd like.
+They say you can rest whenever
+you'd like.
 -----------------------
 <Kyle>
 -----------------------
@@ -117,8 +122,8 @@ I know that without you telling me!
 #まぁ、しょうがねえよな
 #ソーディアンチームといやあ伝説上の英雄
 #しかも、とびきり有名ときてる
-Well, can't blame ya.
-The Swordian team are basically legendary heroes.
+Well, can't blame ya. The Swordian
+team are basically legendary heroes.
 And the most famous ones at that.
 -----------------------
 <Loni>
@@ -126,9 +131,10 @@ And the most famous ones at that.
 #落ちつけってほうが、ムリな話さ
 #ましてや、こいつの英雄好きときたら
 #筋金入りだからな
-Telling you to calm down'd be asking too much.
-Especially with how crazy this guy is about heroes.
-He's a real fanatic.
+Telling you to calm down'd be asking
+too much. Especially with how crazy
+this guy is about heroes. He's a
+real fanatic.
 -----------------------
 <Reala>
 -----------------------
@@ -170,9 +176,9 @@ I mean, <Kyle> is
 #あー、アホらし
 #なにが悲しくて、他人のノロケ話
 #聞かなきゃなんねえんだよ
-Man, what a pain.
-Why do I gotta listen to other people
-gushing about their love lives?
+Man, what a pain. Why do I gotta
+listen to other people gushing about
+their love lives?
 -----------------------
 <Loni>
 -----------------------
@@ -200,9 +206,9 @@ Read the room, idiot.
 #････わ、わかった
 #けど、カン違いしないでよ！
 #しかたなくなんだからね！
-...F-fine.
-But don't get the wrong idea!
-I'm only doing this 'cause I have to!
+...F-fine. But don't get the wrong
+idea! I'm only doing this 'cause
+I have to!
 -----------------------
 <Loni>
 -----------------------
@@ -282,7 +288,8 @@ you'll make it come true...
 <Kyle>
 -----------------------
 #いよいよ、最終決戦だね！
-It's finally time for the final battle!
+It's finally time for the final
+battle!
 -----------------------
 <Loni>
 -----------------------
@@ -290,22 +297,23 @@ It's finally time for the final battle!
 #いっしょに天地戦争を戦うことに
 #なるとはなぁ
 I can't believe I'm gonna be
-fighting alongside the legendary Swordian team
-in the Aeth'er Wars.
+fighting alongside the legendary
+Swordian team in the Aeth'er Wars.
 -----------------------
 <Nanaly>
 -----------------------
 #アトワイトさんもいるし
 #あとは、ダイクロフトで
 #バルバトスの動きを封じれば････
-Atwight's here too.
-All that's left is to stop Barbatos's movements
-at Dycroft, and...
+Atwight's here too. All that's left
+is to stop Barbatos's movements at
+Dycroft, and...
 -----------------------
 <Kyle>
 -----------------------
 #歴史改変は、防げる！
-We can stop history from being altered!
+We can stop history from being
+altered!
 -----------------------
 <Judas>
 -----------------------
@@ -320,39 +328,43 @@ Karell is going to die...
 <Judas>
 -----------------------
 #天地戦争の結末を、知らないのか？
-Do you not know how the Aeth'er Wars ended?
+Do you not know how the Aeth'er
+Wars ended?
 -----------------------
 <Loni>
 -----------------------
 #ソーディアンチームが
 #天上王ミクトランを倒して
 #めでたしめでたし、だろ？
-The Swordian team
-defeated the Aeth'er ruler Kronos,
-and they all lived happily ever after, right?
+The Swordian team defeated the
+Aeth'er ruler Kronos, and they all
+lived happily ever after, right?
 -----------------------
 <Judas>
 -----------------------
 #それは間違っていない
 #だが、重要なことが抜けている
-That's not wrong.
-But you're missing something important.
+That's not wrong. But you're missing
+something important.
 -----------------------
 <Judas>
 -----------------------
 #圧倒的な強さを誇るミクトランには
 #ソーディアンチームといえど苦戦したんだ
 Kronos was overwhelmingly powerful.
-Even the Swordian team struggled against him.
+Even the Swordian team struggled
+against him.
 -----------------------
 <Judas>
 -----------------------
 #ひとりの男が捨て身の攻撃をし
 #ミクトランと刺しちがえなければ
 #勝利は、おぼつかなかっただろう
-One man threw himself into a suicidal attack.
-If he hadn't impaled himself on Kronos along with his thrust,
-victory would have been far from certain.
+One man threw himself into a
+suicidal attack. If he hadn't
+impaled himself on Kronos along with
+his thrust, victory would have been
+far from certain.
 -----------------------
 <Reala>
 -----------------------
@@ -378,9 +390,9 @@ Then Karell won't have to die!
 #ダメだ、それは歴史を改変することになる
 #エルレインと同じことを
 #おまえもするつもりか？
-It's no good. That would alter history.
-Are you planning to do
-the same thing Elrane did?
+It's no good. That would alter
+history. Are you planning to do the
+same thing Elrane did?
 -----------------------
 <Kyle>
 -----------------------
@@ -414,8 +426,9 @@ that involves someone's life...
 -----------------------
 #人はいつか、かならず死ぬ
 #それが、遅いか早いかの違いだ
-People die eventually.
-The only difference is whether it's sooner or later.
+People die eventually. The only
+difference is whether it's sooner
+or later.
 -----------------------
 <Judas>
 -----------------------

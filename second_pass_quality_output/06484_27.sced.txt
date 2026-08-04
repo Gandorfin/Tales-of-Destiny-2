@@ -26,8 +26,9 @@ Ticket Seller
 -----------------------
 #ここからはアイグレッテ港に行けます
 #船に乗りますか？
-From here, you can head to Aigrette Port.
-Would you like to board the ship?
+From here, you can head to Aigrette
+Port. Would you like to board the
+ship?
 -----------------------
 SELECT
 -----------------------
@@ -42,9 +43,9 @@ Ticket Seller
 #ここからはアイグレッテ港と
 #ノイシュタットに行けます
 #船に乗りますか？
-From here, you can head to Aigrette Port
-and Neuestadt.
-Would you like to board the ship?
+From here, you can head to Aigrette
+Port and Neuestadt. Would you like
+to board the ship?
 -----------------------
 select
 -----------------------
@@ -61,9 +62,9 @@ Ticket Seller
 #ここからはアイグレッテ港と
 #ノイシュタットに行けます
 #船に乗りますか？
-From here, you can head to Aigrette Port
-and Neuestadt.
-Would you like to board the ship?
+From here, you can head to Aigrette
+Port and Neuestadt. Would you like
+to board the ship?
 -----------------------
 select
 -----------------------
@@ -87,22 +88,23 @@ Ticket Seller
 -----------------------
 #お客さん、いいのかい？
 #急がないと、船が出ちまうぜ！
-You sure about this?
-If we don't hurry, the ship'll leave without us!
+You sure about this? If we don't
+hurry, the ship'll leave without us!
 -----------------------
 <Nanaly>
 -----------------------
 #ここから西の方に行くと
 #ヒートリバーっていう川があるんだ
-If you head west from here,
-you'll come across a river called Heat River.
+If you head west from here, you'll
+come across a river called Heat
+River.
 -----------------------
 <Nanaly>
 -----------------------
 #その川を越えれば、じきにあたしの村
 #ホープタウンに到着だよ
-Cross that river, and we'll soon reach
-my village, Hope Town.
+Cross that river, and we'll soon
+reach my village, Hope Town.
 -----------------------
 #おばさん
 Woman
@@ -141,8 +143,8 @@ Man
 -----------------------
 #お前ら、巡礼者か？
 #聖地カルビオラへ行くのか？
-You pilgrims?
-Heading to the holy land of Kalviola?
+You pilgrims? Heading to the holy
+land of Kalviola?
 -----------------------
 <Judas>
 -----------------------
@@ -156,8 +158,9 @@ Man
 -----------------------
 #聖地カルビオラで何かやってるらしく
 #一般信者は立ち入りが禁止されてるのだ
-Seems they're up to something in the holy land of Kalviola.
-Ordinary believers aren't allowed to enter.
+Seems they're up to something in
+the holy land of Kalviola. Ordinary
+believers aren't allowed to enter.
 -----------------------
 #おじさん
 Man
@@ -187,9 +190,10 @@ Woman
 #あんな場所に行くくらいなら
 #ホープタウンへでもいったほうが
 #マシってもんさ
-If it came down to going to a place like that,
-I'd be better off going to Hope Town
-or somewhere else instead.
+If it came down to going to a
+place like that, I'd be better off
+going to Hope Town or somewhere
+else instead.
 -----------------------
 #おばさん
 Woman
@@ -198,10 +202,10 @@ Woman
 #出ていく気はないよ
 #アタシはここで生きて
 #ここで死ぬんだ
-I was born and raised here,
-and I've got no intention of leaving.
-I'll live my life here,
-and I'll die here.
+I was born and raised here, and
+I've got no intention of leaving.
+I'll live my life here, and I'll
+die here.
 -----------------------
 #おじさん
 Man
@@ -226,8 +230,9 @@ Man
 -----------------------
 #ああ、今日も暑いぜ！
 #これこそがチェリク日和ってやつよ！
-Ah, another scorcher today!
-Now THIS is what I call perfect Cherik weather!
+Ah, another scorcher today! Now
+THIS is what I call perfect Cherik
+weather!
 -----------------------
 #旅人
 Traveler
@@ -235,9 +240,10 @@ Traveler
 #聖都カルビオラへの
 #玄関口にしては
 #神秘のカケラもない街だね
-For a gateway to the holy city of Kalviola,
-this town's got no mystique at all.
-Not a single shred of mystery to be found.
+For a gateway to the holy city
+of Kalviola, this town's got no
+mystique at all. Not a single shred
+of mystery to be found.
 -----------------------
 #旅人
 Traveler
@@ -271,8 +277,9 @@ Traveler
 #なんで聖地に入れないんだよ！
 #せっかくスノーフリアから
 #来たってのに
-Why won't they let me into the holy land!?
-I came all the way from Snowfria for this!
+Why won't they let me into the
+holy land!? I came all the way from
+Snowfria for this!
 -----------------------
 #旅人
 Traveler
@@ -280,23 +287,25 @@ Traveler
 #なにやってるのか知らないけど
 #たのむから聖地を拝ませてくれ！
 I don't know what you're up to,
-but please, just let me visit the holy site!
+but please, just let me visit the
+holy site!
 -----------------------
 #旅人
 Traveler
 -----------------------
 #月一回の聖地巡礼はかかせないね
 #たとえ仕事をクビになったとしても！
-I can't miss my monthly pilgrimage to the holy site.
-Even if it costs me my job!
+I can't miss my monthly pilgrimage
+to the holy site. Even if it costs
+me my job!
 -----------------------
 #学者
 Scholar
 -----------------------
 #アタモニ神団が、カルビオラに
 #神殿を建立しているようですね
-It seems the Order of Atamoni has built
-a temple in Kalviola.
+It seems the Order of Atamoni has
+built a temple in Kalviola.
 -----------------------
 #学者
 Scholar
@@ -312,7 +321,8 @@ Scholar
 #噂では、神殿に大量のレンズが
 #運び込まれたとか
 Rumor has it they've transported
-a massive quantity of Lens into the temple.
+a massive quantity of Lens into
+the temple.
 -----------------------
 #学者
 Scholar
@@ -328,9 +338,9 @@ Scholar
 #天地戦争時代の敗者である
 #天上軍の兵士は、ここカルバレイスに
 #流刑になりました
-The vanquished of the Aeth'er Wars era,
-the Aeth'er soldiers, were exiled here
-to Calvalese.
+The vanquished of the Aeth'er Wars
+era, the Aeth'er soldiers, were
+exiled here to Calvalese.
 -----------------------
 #学者
 Scholar
@@ -348,17 +358,18 @@ Scholar
 #天上軍に属した者は等しく
 #戦犯として扱われ、流刑に
 #処せられたそうです
-All who belonged to the Aeth'er Army
-were treated equally as war criminals
-and sentenced to exile, or so it is said.
+All who belonged to the Aeth'er
+Army were treated equally as war
+criminals and sentenced to exile,
+or so it is said.
 -----------------------
 #学者
 Scholar
 -----------------------
 #ここで生きていくのは
 #死ぬより辛かったかもしれないですね
-Living here...
-may well have been harder than dying.
+Living here... may well have been
+harder than dying.
 -----------------------
 #おじいさん
 Old Man
@@ -366,17 +377,18 @@ Old Man
 #どうだ？港町にしては、人が居ないだろ？
 #なにせ、ほとんどの住人が
 #アイグレッテに引越しちまったからなあ
-See that? Not many folks around for a port town, huh?
-Most of the residents up and moved
-to Aigrette, that's why.
+See that? Not many folks around
+for a port town, huh? Most of the
+residents up and moved to Aigrette,
+that's why.
 -----------------------
 #おじいさん
 Old Man
 -----------------------
 #アイグレッテじゃ金も物も
 #いらないって話でな
-Word is you don't need gold or goods in Aigrette.
-That's the draw.
+Word is you don't need gold or goods
+in Aigrette. That's the draw.
 -----------------------
 #おじいさん
 Old Man
@@ -392,9 +404,9 @@ Old Man
 #これまでの生活を捨ててまで
 #アイグレッテで暮らしたいのか？
 #くそっ、宗教ってのは････
-Throw away everything you've ever known
-just to live in Aigrette?
-Damn it, religion is...
+Throw away everything you've ever
+known just to live in Aigrette? Damn
+it, religion is...
 -----------------------
 #少年
 Boy
@@ -410,40 +422,41 @@ Boy
 #ふう！暑い！
 #思わず商品を食べそうに
 #なっちゃうよ！
-Phew! It's hot!
-I'm about to start eating my own merchandise!
+Phew! It's hot! I'm about to start
+eating my own merchandise!
 -----------------------
 #船員
 Sailor
 -----------------------
 #なんか最近、チェリクから出て行く
 #人間が増えてるんだよな
-Lately more and more people have been
-leaving Cherik.
+Lately more and more people have
+been leaving Cherik.
 -----------------------
 #船員
 Sailor
 -----------------------
 #ま、ここよりアイグレッテのほうが
 #住みやすいしな
-Well, Aigrette's a better place to live
-than here, after all.
+Well, Aigrette's a better place to
+live than here, after all.
 -----------------------
 #船員
 Sailor
 -----------------------
 #ここは、とにかく暑くて
 #たまんねーよ！
-It's sweltering here no matter what you do.
-I can barely stand it!
+It's sweltering here no matter what
+you do. I can barely stand it!
 -----------------------
 #女の人
 Woman
 -----------------------
 #空に散らばってしまったレンズの回収････
 #手伝ってもらえませんか？
-I need help collecting the Lenses scattered across the sky...
-Could you give me a hand?
+I need help collecting the Lenses
+scattered across the sky... Could
+you give me a hand?
 -----------------------
 select
 -----------------------
@@ -458,9 +471,10 @@ Woman
 #空に散らばったレンズを１００枚集めてください
 #規定タイム以内ならば景品をあげます
 #ベストタイムを目指して頑張ってください
-Please collect 100 Lenses scattered across the sky.
-If you finish within the time limit, you'll receive a prize.
-Aim for the best time!
+Please collect 100 Lenses scattered
+across the sky. If you finish within
+the time limit, you'll receive a
+prize. Aim for the best time!
 -----------------------
 #女の人
 Woman
@@ -468,9 +482,10 @@ Woman
 #途中でやり直したくなったり
 #やめたくなったら
 #SELECTボタンのメニューから選んで下さい
-If you want to restart partway through
-or quit entirely,
-choose the appropriate option from the SELECT button menu.
+If you want to restart partway
+through or quit entirely, choose
+the appropriate option from the
+SELECT button menu.
 -----------------------
 #女の人
 Woman
@@ -494,7 +509,8 @@ Here are your results...
 Woman
 -----------------------
 #途中であきらめましたね････
-You gave up partway through, didn't you...
+You gave up partway through, didn't
+you...
 -----------------------
 #女の人
 Woman
@@ -1447,9 +1463,9 @@ notice
 #「通常攻撃」について
 #深く話し合っているようです
 #耳を傾けますか？
-"Normal Attacks"
-They seem to be having a deep discussion.
-Will you listen in?
+"Normal Attacks" They seem to be
+having a deep discussion. Will you
+listen in?
 -----------------------
 #慣れてきたから最近は通常攻撃は
 #<button:00000045>だけ叩きっぱなしさ

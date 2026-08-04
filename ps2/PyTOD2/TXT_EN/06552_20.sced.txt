@@ -13,9 +13,9 @@ Old Man
 #老いたものは死に
 #次に生まれてくる者のために道をゆずる
 #それが、当然のことじゃろ？
-The old must die,
-yielding the path to those who come next.
-Is that not only natural?
+The old must die, yielding the path
+to those who come next. Is that
+not only natural?
 -----------------------
 #おじいさん
 Old Man
@@ -23,9 +23,9 @@ Old Man
 #それに、死んだ後には、今度は
 #フォルトゥナ神さまの下で
 #永遠の幸福があたえられるんじゃからの
-Besides, after death
-we shall be granted eternal happiness
-under the goddess Fortuna.
+Besides, after death we shall be
+granted eternal happiness under the
+goddess Fortuna.
 -----------------------
 #おじいさん
 Old Man
@@ -33,9 +33,9 @@ Old Man
 #さすがにこの歳になると
 #何度もカプセルに入らなくては
 #体がもたんのう
-At my age,
-I must enter the capsule time and again.
-My body can no longer endure it.
+At my age, I must enter the capsule
+time and again. My body can no
+longer endure it.
 -----------------------
 #おじいさん
 Old Man
@@ -51,8 +51,8 @@ Perhaps it is best that I die.
 -----------------------
 #おいおい、おだやかじゃねえな
 #自殺するつもりか？
-Hey, hey, that's not very peaceful talk.
-You planning to kill yourself?
+Hey, hey, that's not very peaceful
+talk. You planning to kill yourself?
 -----------------------
 #おじいさん
 Old Man
@@ -61,15 +61,15 @@ Old Man
 #次に生まれてくる者のために
 #道をゆずるのは、当然のことじゃろ？
 I have lived more than long enough.
-Yielding the path to those who come next...
-Is that not only natural?
+Yielding the path to those who come
+next... Is that not only natural?
 -----------------------
 <Loni>
 -----------------------
 #にしたってよぉ、自殺ってのは
 #あんまりおだやかじゃないと思うぜ？
-Even so, suicide...
-I don't think that's very peaceful, you know?
+Even so, suicide... I don't think
+that's very peaceful, you know?
 -----------------------
 <Reala>
 -----------------------
@@ -106,8 +106,8 @@ Townsperson
 -----------------------
 #歴史が、そんなに重要でしょうか？
 #大切なのは、今を生きることです
-Is history truly so important?
-What matters is living in the present.
+Is history truly so important? What
+matters is living in the present.
 -----------------------
 <Kyle>
 -----------------------
@@ -115,8 +115,8 @@ What matters is living in the present.
 #この街にいる？
 #英雄王って、呼ばれてるはずなんだけど
 Hey, is there a man named Garr
-in this town?
-He's supposed to be called the Hero King.
+in this town? He's supposed to be
+called the Hero King.
 -----------------------
 #街の人
 Townsperson
@@ -134,9 +134,10 @@ Townsperson
 #英雄といえば、バルバトスさまでしょう
 #エルレインさまと共に
 #世界を混乱から救った人ですからね
-When one speaks of heroes, surely it is Lord Barbatos.
-Together with Lady Elrane,
-he saved the world from chaos.
+When one speaks of heroes, surely
+it is Lord Barbatos. Together with
+Lady Elrane, he saved the world
+from chaos.
 -----------------------
 <Kyle>
 -----------------------
@@ -160,9 +161,10 @@ and they will tell you.
 #いや、自分たちで調べたい
 #この街に歴史を調べられるような
 #図書館はあるか？
-No, we would rather investigate ourselves.
-Is there a library in this town
-where one might research history?
+No, we would rather investigate
+ourselves. Is there a library in
+this town where one might research
+history?
 -----------------------
 #街の人
 Townsperson
@@ -170,9 +172,9 @@ Townsperson
 #歴史を調べられるような････
 #以前は、そういう場所があったとは
 #聞いています
-A place where one might research history...
-I have heard that
-such a place existed once.
+A place where one might research
+history... I have heard that such
+a place existed once.
 -----------------------
 #街の人
 Townsperson
@@ -210,9 +212,9 @@ Barbatos provided his assistance.
 #謎はすべて、図書館にあり････か
 #だが、その図書館の場所自体も
 #謎とはねぇ
-So all mysteries lie within the library, eh?
-But even the location of that library itself
-is a mystery.
+So all mysteries lie within the
+library, eh? But even the location
+of that library itself is a mystery.
 -----------------------
 <Kyle>
 -----------------------
@@ -228,34 +230,37 @@ simply aren't interested in history?
 #きっと、おだやかで、なにもない日々が
 #ずっと繰り返されていたから
 #歴史を学ぶ意味を失ったんだと思うわ
-Surely it is because peaceful, uneventful days
-have repeated for so very long
-that they have lost the meaning of studying history.
+Surely it is because peaceful,
+uneventful days have repeated for
+so very long that they have lost the
+meaning of studying history.
 -----------------------
 <Judas>
 -----------------------
 #人は、過去の過ちを反省し
 #よりよい未来を作るために、歴史を学ぶ
-People study history to reflect upon past mistakes
-and build a better future.
+People study history to reflect
+upon past mistakes and build a
+better future.
 -----------------------
 <Judas>
 -----------------------
 #だが、この世界の未来はエルレインが決める
 #だから歴史を学ぶ必要もない････
 #というわけか
-But in this world, Elrane decides the future.
-So there is no need to study history...
-Is that the meaning of it?
+But in this world, Elrane decides
+the future. So there is no need
+to study history... Is that the
+meaning of it?
 -----------------------
 <Reala>
 -----------------------
 #でも、それは
 #この世界が、今まで本当に平和だった
 #証なのかもしれない････
-But perhaps that is
-proof that this world has truly been at peace
-all this time...
+But perhaps that is proof that this
+world has truly been at peace all
+this time...
 -----------------------
 <Kyle>
 -----------------------
@@ -275,8 +280,9 @@ Yes...
 -----------------------
 #ともかく、図書館を探すぞ
 #すべての謎が、そこで解けるはずだ
-At any rate, we must find that library.
-All mysteries should be unraveled there.
+At any rate, we must find that
+library. All mysteries should be
+unraveled there.
 -----------------------
 #シェフ
 Chef
@@ -381,7 +387,8 @@ The ingredients needed to make {16}{34}{7C}{C0} are {18}{44}{78}{C0}.
 Chef
 -----------------------
 #材料を持っているじゃないか
-You've got the ingredients right there.
+You've got the ingredients right
+there.
 -----------------------
 #シェフ
 Chef
@@ -418,8 +425,9 @@ Chef
 -----------------------
 #食材を探しているんだ
 #見つけたら持ってきてくれないかい？
-I'm looking for ingredients.
-If you find any, would you bring them to me?
+I'm looking for ingredients. If
+you find any, would you bring them
+to me?
 -----------------------
 #シェフ
 Chef
@@ -434,8 +442,9 @@ Chef
 -----------------------
 #お前のような奴を待ってた
 #これをゆずるのに相応しい料理人を
-I've been waiting for someone like you.
-A chef worthy of receiving this.
+I've been waiting for someone like
+you. A chef worthy of receiving
+this.
 -----------------------
 notice
 -----------------------

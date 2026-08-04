@@ -34,7 +34,8 @@ Good of you to come.
 Dymlos
 -----------------------
 #クレメンテ殿、よくぞご無事で
-Lord Clemente. I'm glad to see you unharmed.
+Lord Clemente. I'm glad to see you
+unharmed.
 -----------------------
 #クレメンテ
 Clemente
@@ -42,9 +43,9 @@ Clemente
 #まあ、こんな場所で
 #くたばるわけにもいかんて
 #「老兵は死なず」じゃ
-Well, I can't very well
-kick the bucket in a place like this.
-"Old soldiers never die," as they say.
+Well, I can't very well kick the
+bucket in a place like this. "Old
+soldiers never die," as they say.
 -----------------------
 #ディムロス
 Dymlos
@@ -52,17 +53,19 @@ Dymlos
 #地上軍総司令リトラーの
 #命により参上しました
 #我々はあなた方を歓迎します
-We come at the command of Marius Raiker,
-Supreme Commander of the Ground Forces.
-We welcome you.
+We come at the command of Marius
+Raiker, Supreme Commander of the
+Ground Forces. We welcome you.
 -----------------------
 #ラディッツ
 Radisrol
 -----------------------
 #ベルクラント開発陣を代表して礼を言う
 #ありがとう、ディムロスくん
-On behalf of the Belcrant development team, allow me to express our gratitude.
-Thank you, Dymlos.
+On behalf of the Belcrant
+development team, allow me to
+express our gratitude. Thank you,
+Dymlos.
 -----------------------
 #イクティノス
 Igtenos
@@ -70,7 +73,8 @@ Igtenos
 #急ぐぞ、ディムロス中将
 #ここにも、じきに追っ手が来る
 Hurry, Lieutenant General Dymlos.
-The enemy will be upon us soon as well.
+The enemy will be upon us soon as
+well.
 -----------------------
 #ディムロス
 Dymlos
@@ -84,9 +88,9 @@ Dymlos
 #これより格納庫を目指して
 #敵中を強行突破します
 #我々から決して離れないでください
-We now make for the hangar,
-breaking through enemy lines by force.
-Do not stray from our side.
+We now make for the hangar, breaking
+through enemy lines by force. Do
+not stray from our side.
 -----------------------
 #ディムロス
 Dymlos
@@ -109,9 +113,10 @@ Dymlos
 #制御室を落とされたとわかった時点で
 #敵の注意は、すべてそちらに向く
 #十分、気をつけるんだ
-The moment they realize the control room has fallen,
-all enemy attention will shift to you.
-Take every precaution.
+The moment they realize the control
+room has fallen, all enemy attention
+will shift to you. Take every
+precaution.
 -----------------------
 <Harold>
 -----------------------
@@ -144,7 +149,8 @@ I'll be waiting in the hangar!
 <Loni>
 -----------------------
 #ちっとは認められたってところかな？
-Guess I've earned a little respect, huh?
+Guess I've earned a little respect,
+huh?
 -----------------------
 <Kyle>
 -----------------------

@@ -44,9 +44,9 @@ Sailor
 #ボウヤ、気をつけな！
 #嵐、海賊、幽霊船
 #海にキケンはつきものだぜぃ！
-Watch yourself, lad!
-Storms, pirates, ghost ships...
-The sea's always got danger in spades!
+Watch yourself, lad! Storms,
+pirates, ghost ships... The sea's
+always got danger in spades!
 -----------------------
 #船員
 Sailor
@@ -84,9 +84,10 @@ Sailor
 #う、海の主が現れたくらいで
 #おおお、オタオタしてたら
 #海の男なんて、つとまらないぜぃ！！
-I-If ya start panicking
-just 'cause the Lord of the Sea shows up...
-ya got no business calling yourself a seaman!!
+I-If ya start panicking just 'cause
+the Lord of the Sea shows up... ya
+got no business calling yourself
+a seaman!!
 -----------------------
 <Kyle>
 -----------------------
@@ -103,9 +104,10 @@ Sailor
 #お、オレさまが乗ってる船を
 #おそうなんて
 #不幸なヤツもいたもんだ
-To think some poor fool would actually
-attack a ship with me on it...
-Now that's what I call unlucky.
+To think some poor fool would
+actually attack a ship with me
+on it... Now that's what I call
+unlucky.
 -----------------------
 #船員
 Sailor
@@ -171,9 +173,8 @@ Sailor
 #ガハハハハ！
 #今度、海の主があらわれたら
 #オレさまにまかせとけ！
-Gahahaha!
-Next time the Lord of the Sea shows up,
-just leave it to me!
+Gahahaha! Next time the Lord of the
+Sea shows up, just leave it to me!
 -----------------------
 #船員
 Sailor
@@ -209,9 +210,8 @@ Sailor
 #ガハハハハ！
 #今度、海の主があらわれたら
 #オレさまにまかせとけ！
-Gahahaha!
-Next time the Lord of the Sea shows up,
-just leave it to me!
+Gahahaha! Next time the Lord of the
+Sea shows up, just leave it to me!
 -----------------------
 #乗客
 Passenger
@@ -219,9 +219,10 @@ Passenger
 #神さまが存在する世界ってのも
 #いいものだよな
 #いつも、見守ってもらえるんだからよ
-It's pretty nice living in a world where gods exist,
-don't you think?
-Always having someone watching over us.
+It's pretty nice living in a world
+where gods exist, don't you think?
+Always having someone watching
+over us.
 -----------------------
 #乗客
 Passenger
@@ -341,7 +342,8 @@ Nothing but sea as far as I can see!
 #それに、風がビュービュー吹いてって
 #････空を飛んでるみたいだ！
 And the wind's howling by...
-...Feels like I'm flying through the sky!
+...Feels like I'm flying through
+the sky!
 -----------------------
 <Reala>
 -----------------------
@@ -368,18 +370,18 @@ Why? The sea breeze feels so nice.
 #いや、なんかさ
 #高いところに上がると
 #「こわ～い！」とか言いそうだったし
-I dunno, I just figured
-you'd get up somewhere high and start
-yelling "Scaaary!" or something.
+I dunno, I just figured you'd get
+up somewhere high and start yelling
+"Scaaary!" or something.
 -----------------------
 <Reala>
 -----------------------
 #ぷっ！　あははっ！
 #なに、今の「こわ～い！」って
 #わたしのマネ？　全然似てない！
-Pfft! Ahaha!
-What was that "Scaaary!" just now?
-Were you imitating me? That was terrible!
+Pfft! Ahaha! What was that
+"Scaaary!" just now? Were you
+imitating me? That was terrible!
 -----------------------
 <Kyle>
 -----------------------
@@ -480,9 +482,9 @@ He was always smiling.
 #とはいえ、オレが小さいころに旅に出て
 #それっきり戻ってきてないから
 #よくは、覚えてないんだけどね
-That said, he left on a journey
-when I was little and never came back,
-so I don't remember him too well.
+That said, he left on a journey when
+I was little and never came back, so
+I don't remember him too well.
 -----------------------
 <Kyle>
 -----------------------
@@ -601,9 +603,10 @@ Quit calling me an idiot!!
 #はいはい、ケンカはあと！
 #何が起きたのか確かめるのが先だ！
 #へさきに行ってみようぜ！
-Yeah, yeah, save the squabble for later!
-First we need to find out what happened!
-Let's head to the bow!
+Yeah, yeah, save the squabble for
+later! First we need to find out
+what happened! Let's head to the
+bow!
 -----------------------
 <Kyle>
 -----------------------
@@ -626,9 +629,9 @@ Sailor
 #そいつは「海の主」だ！
 #このバケモンと出会って
 #無事だった船はねえんだぞ!!
-That's the 'Lord of the Sea'!
-Any ship that crosses paths
-with that monster don't make it out alive!!
+That's the 'Lord of the Sea'! Any
+ship that crosses paths with that
+monster don't make it out alive!!
 -----------------------
 <Loni>
 -----------------------
@@ -772,17 +775,18 @@ I regret it.
 -----------------------
 #な、な、な････なんだよそりゃあ！
 #それじゃ、俺がガキってことか!?
-Wh-wh-what the heck is that supposed to mean!?
-So you're saying I'm just a kid!?
+Wh-wh-what the heck is that supposed
+to mean!? So you're saying I'm
+just a kid!?
 -----------------------
 <Judas>
 -----------------------
 #そういったつもりだが
 #わからなかったか？
 #僕の言い方も、まだまだのようだ
-That was precisely my intent.
-Did you not grasp it?
-I suppose my delivery still needs work.
+That was precisely my intent. Did
+you not grasp it? I suppose my
+delivery still needs work.
 -----------------------
 <Kyle>
 -----------------------
@@ -837,9 +841,9 @@ There's something I want to ask you.
 #キミは、ここが十年後の世界だってことも
 #神さまがいるってことも
 #全部、知ってたんだよね？
-You knew this was the world ten years from now.
-You knew there was a god.
-You knew all of it, didn't you?
+You knew this was the world ten
+years from now. You knew there was a
+god. You knew all of it, didn't you?
 -----------------------
 <Reala>
 -----------------------
@@ -867,24 +871,25 @@ I knew it...
 -----------------------
 #ごめんなさい
 #ずっと、黙ってて････
-I'm sorry.
-I kept quiet about it all this time...
+I'm sorry. I kept quiet about it
+all this time...
 -----------------------
 <Kyle>
 -----------------------
 #あ、いや、責めてるわけじゃないんだ！
 #たださ、ちょっとビックリしちゃって････
-Ah, no, I'm not blaming you!
-I just got a little startled, that's all...
+Ah, no, I'm not blaming you! I just
+got a little startled, that's all...
 -----------------------
 <Kyle>
 -----------------------
 #だってさ、そうだろ？
 #未来から来た子と知り合いになるなんて、
 #考えもしなかったからさ
-I mean, come on, right?
-Meeting someone from the future?
-I never would've imagined something like that.
+I mean, come on, right? Meeting
+someone from the future? I never
+would've imagined something like
+that.
 -----------------------
 <Reala>
 -----------------------
@@ -954,9 +959,9 @@ one of the 'Two Holy Maidens,' would you?
 #やっぱり、そうかい
 #名前を聞いたときに
 #もしかしてって思ったんだけどさ
-So that's how it is.
-When I heard your name,
-I started to wonder if that might be the case.
+So that's how it is. When I heard
+your name, I started to wonder if
+that might be the case.
 -----------------------
 <Reala>
 -----------------------
@@ -1007,8 +1012,9 @@ I don't want <Kyle> to find out.
 -----------------------
 #でも、きっといつか知ってしまう
 #そのとき、わたしは････
-But I'm sure I'll learn the truth someday.
-And when that day comes, I will...
+But I'm sure I'll learn the truth
+someday. And when that day comes,
+I will...
 -----------------------
 notice
 -----------------------
@@ -1021,8 +1027,9 @@ earned the title "<item:00000823>"!
 -----------------------
 #とりあえず甲板に集めたが････
 #これから、いったいどうする!?
-I've gathered everyone on deck for now, but...
-what the heck are we supposed to do now!?
+I've gathered everyone on deck for
+now, but... what the heck are we
+supposed to do now!?
 -----------------------
 <Kyle>
 -----------------------
@@ -1032,7 +1039,8 @@ Hey, can't we just swim to shore!?
 <Judas>
 -----------------------
 #男はともかく、女子供は無理だな
-The men might manage, but women and children would never make it.
+The men might manage, but women and
+children would never make it.
 -----------------------
 <Loni>
 -----------------------
@@ -1240,8 +1248,8 @@ effect off
 -----------------------
 #だからぁ、そういうつもりで
 #聞いてるんじゃねえんだってば！
-That's not what I meant,
-and you know I'm not listening like that!
+That's not what I meant, and you
+know I'm not listening like that!
 -----------------------
 <Kyle>
 -----------------------
@@ -1303,9 +1311,9 @@ Let's keep this journey going!
 #････なぜだ？
 #どうして僕を信じられる？
 #なにも明かそうとはしない僕を････
-...Why?
-How can you trust me?
-When I won't reveal anything about myself...
+...Why? How can you trust me?
+When I won't reveal anything about
+myself...
 -----------------------
 <Kyle>
 -----------------------
@@ -1337,7 +1345,8 @@ That's why I can trust <Judas>.
 #なにも教えてはいないんだぞ？
 #そんな相手を、好きになるなんてことは････
 I've told you nothing about myself.
-How could you come to like someone like that...
+How could you come to like someone
+like that...
 -----------------------
 <Kyle>
 -----------------------
@@ -1358,9 +1367,10 @@ That's...
 #そうじゃないよね
 #ヒミツがあってもなくても、関係ないんだ
 #そいつが、好きかどうかってだけさ
-That's not how it works, right?
-It doesn't matter if there are secrets or not.
-It's about whether you like the person.
+That's not how it works, right? It
+doesn't matter if there are secrets
+or not. It's about whether you like
+the person.
 -----------------------
 <Kyle>
 -----------------------
@@ -1402,18 +1412,18 @@ See ya!
 #････今度はちがう、そう思っていた
 #だが結局は、同じことを
 #繰り返している････
-...I thought this time would be different.
-But in the end,
-I'm just repeating the same thing...
+...I thought this time would be
+different. But in the end, I'm just
+repeating the same thing...
 -----------------------
 <Judas>
 -----------------------
 #それでも････それでもだ
 #僕は、仮面をはずすわけにはいかない
 #すべてを隠して、やりとげなくては････
-Even so... even so...
-I can't remove this mask.
-I must hide everything and see this through...
+Even so... even so... I can't remove
+this mask. I must hide everything
+and see this through...
 -----------------------
 #いってらっしゃいませ
 Welcome.

@@ -14,16 +14,17 @@ What's this?
 #これは『レンズ起動型エンジン』といって、
 #レンズからエネルギーを引き出して
 #動力に変える機械だ
-This is called a 'Lens Activation Engine' -
-a device that draws energy from Lens
-and converts it into power.
+This is called a 'Lens Activation
+Engine' - a device that draws
+energy from Lens and converts it
+into power.
 -----------------------
 <Judas>
 -----------------------
 #これを作動させれば、坑道内の設備を
 #再び動かすことができる
-If we activate it,
-we can get the mine's facilities running again.
+If we activate it, we can get the
+mine's facilities running again.
 -----------------------
 <Reala>
 -----------------------
@@ -35,8 +36,9 @@ How do we activate it?
 #････このタンクにレンズを
 #入れればいいようだ
 #数は『２００』
-...It seems we need to insert Lens into this tank.
-The required amount is '200'.
+...It seems we need to insert Lens
+into this tank. The required amount
+is '200'.
 -----------------------
 <Loni>
 -----------------------
@@ -52,9 +54,9 @@ We need that many!?
 #文句を言っても仕方がない
 #とにかくレンズを探すぞ
 #廃坑の奥にいけば、あるかもしれない
-Complaining won't help.
-We need to find the Lens.
-There may be some deeper in the abandoned mine.
+Complaining won't help. We need to
+find the Lens. There may be some
+deeper in the abandoned mine.
 -----------------------
 NOTICE
 -----------------------

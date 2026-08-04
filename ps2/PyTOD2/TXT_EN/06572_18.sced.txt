@@ -29,9 +29,10 @@ Boy
 #これ、空中都市の機関部なんだってさ
 #わざわざ墜落した空中都市から引っ張り出して
 #来たんだ
-They say this is part of an aerial city's engine.
-They went out of their way to drag it out
-from the crashed city and bring it here.
+They say this is part of an aerial
+city's engine. They went out of
+their way to drag it out from the
+crashed city and bring it here.
 -----------------------
 #少年
 Boy
@@ -40,10 +41,11 @@ Boy
 #今の技術じゃ、これと同じ物を作るのは
 #無理だからね
 #昔の人は凄かったんだなあ
-It's quite a valuable find.
-With today's technology,
-replicating something like this would be impossible.
-People back then were truly remarkable.
+It's quite a valuable find. With
+today's technology, replicating
+something like this would be
+impossible. People back then were
+truly remarkable.
 -----------------------
 NOTICE
 -----------------------
@@ -87,7 +89,8 @@ Scientist
 #部品が足りず、作業が進められないため
 #残念ながら実戦投入はできないでしょうね
 We lack the parts to continue work,
-so I'm afraid they won't be ready for active duty.
+so I'm afraid they won't be ready
+for active duty.
 -----------------------
 #科学者
 Scientist
@@ -118,8 +121,8 @@ Scientist
 -----------------------
 #ですので格納庫を遊び場代わりに
 #してあげたんですが････
-So I let them use the storage as a play area,
-but...
+So I let them use the storage as a
+play area, but...
 -----------------------
 #科学者
 Scientist
@@ -127,17 +130,17 @@ Scientist
 #これがまた、ウルサイのなんの
 #研究がはかどらなくて
 #困ってます
-Now they're so loud,
-I can't make any progress on my research.
-It's quite a problem.
+Now they're so loud, I can't make
+any progress on my research. It's
+quite a problem.
 -----------------------
 #科学者
 Scientist
 -----------------------
 #この子たち、僕のあとを継いで
 #科学者になってくれないかな？
-I wonder if these kids will carry on my legacy
-and become scientists?
+I wonder if these kids will carry on
+my legacy and become scientists?
 -----------------------
 #科学者
 Scientist
@@ -145,9 +148,9 @@ Scientist
 #そしていつか
 #世の役に立つ機械を
 #作ってくれたらウレシイですね
-And someday, if they could build machines
-that help the world,
-I would be so happy.
+And someday, if they could build
+machines that help the world, I
+would be so happy.
 -----------------------
 #少年
 Boy
@@ -180,8 +183,9 @@ Boy
 -----------------------
 #会社の名前は、僕の名前を取って
 #『オベロン社』でいいかな
-I'll name the company after myself...
-'Oberon Corporation' sounds about right.
+I'll name the company after
+myself... 'Oberon Corporation'
+sounds about right.
 -----------------------
 #子供
 Child
@@ -203,8 +207,8 @@ Child
 -----------------------
 #最近、配給が少なくなったって
 #お母さんが困ってたよ
-Mom was worried because
-our rations have been getting smaller lately.
+Mom was worried because our rations
+have been getting smaller lately.
 -----------------------
 #子供
 Child
@@ -230,9 +234,9 @@ Child
 #ずっと前に
 #『かくめいにさんかする』って言って
 #いなくなっちゃったの
-A long time ago,
-he said he was going to 'join the revolution,'
-and then he disappeared.
+A long time ago, he said he was
+going to 'join the revolution,' and
+then he disappeared.
 -----------------------
 #子供
 Child

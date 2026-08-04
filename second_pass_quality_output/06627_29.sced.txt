@@ -13,9 +13,10 @@ Gaap
 #あのお方の崇高な理念を理解しようとせず、
 #たてつき、ジャマをし続け、あげくの果てには、
 #害しようとたくらむとは････
-They refuse to understand that person's noble ideals,
-opposing us, constantly interfering, and now
-they even plot to do us harm...
+They refuse to understand that
+person's noble ideals, opposing us,
+constantly interfering, and now they
+even plot to do us harm...
 -----------------------
 #ガープ
 Gaap
@@ -23,14 +24,15 @@ Gaap
 #もはや、おまえたちに救いは必要ない
 #エルレインさまが許しても、我が許しはしない
 You no longer deserve salvation.
-Even if Lady Elrane forgives you, I never will.
+Even if Lady Elrane forgives you,
+I never will.
 -----------------------
 <Loni>
 -----------------------
 #へっ！てめえらの救いなんざ、
 #こっちから願い下げだ！
-Heh! Like we'd ever want your salvation!
-We'd sooner pass!
+Heh! Like we'd ever want your
+salvation! We'd sooner pass!
 -----------------------
 <Kyle>
 -----------------------
@@ -44,8 +46,9 @@ Gaap
 -----------------------
 #エルレインさまのお手をわずらわせることもない
 #我が今ここで全てを終わらせてくれよう
-There's no need to trouble Lady Elrane.
-I shall end everything here and now.
+There's no need to trouble Lady
+Elrane. I shall end everything
+here and now.
 -----------------------
 <Kyle>
 -----------------------
@@ -66,8 +69,9 @@ Elrane
 -----------------------
 #おまえたちか････だが、もはや時は過ぎた
 #すでに矢は放たれようとしている
-You again... but it is already too late.
-The arrow is about to be loosed.
+You again... but it is already
+too late. The arrow is about to
+be loosed.
 -----------------------
 <Kyle>
 -----------------------
@@ -81,8 +85,9 @@ Elrane
 -----------------------
 #千年前、星を射抜いた光の矢、
 #その輝きを、今再び････！
-A thousand years ago, an arrow of light pierced the stars...
-That brilliance shall shine once more!
+A thousand years ago, an arrow of
+light pierced the stars... That
+brilliance shall shine once more!
 -----------------------
 <Loni>
 -----------------------
@@ -99,16 +104,17 @@ is that guy planning!?
 <Harold>
 -----------------------
 #千年前、光の矢････
-A thousand years ago... the arrow of light...
+A thousand years ago... the arrow
+of light...
 -----------------------
 <Harold>
 -----------------------
 #････そっか、そういうことか
 #さすがは神の名を語るだけあって
 #やることがハデじゃない
-...I see, so that's it.
-As expected of one who speaks for God.
-She certainly doesn't do things halfway.
+...I see, so that's it. As expected
+of one who speaks for God. She
+certainly doesn't do things halfway.
 -----------------------
 <Loni>
 -----------------------
@@ -120,7 +126,8 @@ Explain it, <Harold>!
 <Harold>
 -----------------------
 #千年前、世界で何があったか知ってる？
-Do you know what happened in the world a thousand years ago?
+Do you know what happened in the
+world a thousand years ago?
 -----------------------
 <Loni>
 -----------------------
@@ -132,8 +139,8 @@ Of course. The Aeth'er Wars, right?
 #そのもう少し前よ
 #そもそも、なぜ天地戦争が
 #起こるにいたったかの、発端
-A little before that.
-I'm talking about what caused the Aeth'er Wars
+A little before that. I'm talking
+about what caused the Aeth'er Wars
 in the first place.
 -----------------------
 <Kyle>
@@ -145,33 +152,36 @@ What caused... the Aeth'er Wars?
 -----------------------
 #天地戦争は、そもそも荒廃した大地を捨て
 #都市を浮上させる計画が発端だったの
-The Aeth'er Wars began as a plan to abandon the devastated land
-and raise cities into the sky.
+The Aeth'er Wars began as a plan
+to abandon the devastated land and
+raise cities into the sky.
 -----------------------
 <Harold>
 -----------------------
 #その浮上した都市に乗り込んだ
 #特権階級の人間たちが
 #圧倒的な武力で地上を支配した
-The privileged class that boarded those floating cities
-dominated the surface
-with overwhelming military force.
+The privileged class that boarded
+those floating cities dominated the
+surface with overwhelming military
+force.
 -----------------------
 <Harold>
 -----------------------
 #それに地上の人間たちが反旗をひるがえし、
 #天地戦争が始まった････
-And the people of the surface rose up in rebellion...
-Thus began the Aeth'er Wars.
+And the people of the surface rose
+up in rebellion... Thus began the
+Aeth'er Wars.
 -----------------------
 <Kyle>
 -----------------------
 #天地戦争の話はわかったよ
 #でも、それとこのレンズと
 #どういう関係が････？
-Okay, I get the Aeth'er Wars.
-But what's that got to do with this Lens?
-How are they connected...?
+Okay, I get the Aeth'er Wars. But
+what's that got to do with this
+Lens? How are they connected...?
 -----------------------
 <Harold>
 -----------------------
@@ -198,8 +208,9 @@ A comet impact.
 #この星に巨大な彗星が衝突したとき
 #人類の過半数が一瞬にして死に絶えた
 Right. About a thousand years ago,
-when a massive comet struck this planet,
-more than half of humanity perished in an instant.
+when a massive comet struck this
+planet, more than half of humanity
+perished in an instant.
 -----------------------
 <Harold>
 -----------------------
@@ -208,52 +219,56 @@ more than half of humanity perished in an instant.
 #地上は極寒の地と化してしまった
 The dust thrown up by the impact
 completely blotted out the sun,
-turning the surface into a frozen wasteland.
+turning the surface into a frozen
+wasteland.
 -----------------------
 <Harold>
 -----------------------
 #だから、空をおおう粉塵よりもさらに高く
 #都市そのものを浮かべたのよ
-So they raised the cities even higher than the dust
-choking the skies.
+So they raised the cities even
+higher than the dust choking the
+skies.
 -----------------------
 <Harold>
 -----------------------
 #彗星によってもたらされた未知の力
 #レンズを使ってね
-Using the unknown power brought by the comet.
-Using Lens.
+Using the unknown power brought by
+the comet. Using Lens.
 -----------------------
 <Loni>
 -----------------------
 #だから、それとこのレンズと
 #どんな関係があるってんだよ!?
-So what's the connection between that and this Lens!?
-What kind of connection is there!?
+So what's the connection between
+that and this Lens!? What kind of
+connection is there!?
 -----------------------
 <Harold>
 -----------------------
 #まだわかんない？
 #エルレインはあの悲劇をもう一度
 #くり返そうとしてるのよ
-You still don't get it?
-Elrane is trying to repeat that tragedy
-all over again.
+You still don't get it? Elrane is
+trying to repeat that tragedy all
+over again.
 -----------------------
 <Harold>
 -----------------------
 #人類を滅亡の寸前にまで追いやった
 #巨大彗星の衝突を････
 The impact of that massive comet...
-that drove humanity to the brink of extinction.
+that drove humanity to the brink
+of extinction.
 -----------------------
 <Kyle>
 -----------------------
 #世界を消すってのは
 #そういうことだったのか
 #でも、今になって、どうして････!?
-So that's what she meant by erasing the world.
-But why now...!?
+So that's what she meant by erasing
+the world. But why now...!?
 -----------------------
 #エルレイン
 Elrane
@@ -292,7 +307,8 @@ Elrane
 #完全な形で神が降臨すれば････
 #全人類の絶対幸福を実現することができる
 If God descends in complete form...
-absolute happiness for all humanity can be realized.
+absolute happiness for all humanity
+can be realized.
 -----------------------
 #エルレイン
 Elrane
@@ -300,9 +316,10 @@ Elrane
 #それを成すため、私は歴史を改変した
 #だが、その試みはことごとく無に帰した
 #････おまえたちの手によって！
-To accomplish that, I altered history.
-But every attempt was returned to nothing...
-...by your hands!
+To accomplish that, I altered
+history. But every attempt was
+returned to nothing... ...by your
+hands!
 -----------------------
 <Reala>
 -----------------------
@@ -327,9 +344,10 @@ Elrane
 #ふたつの天体が衝突する際に生じる
 #すさまじいエネルギーをもってすれば
 #神の降臨が現実のものとなる
-The tremendous energy released
-when two celestial bodies collide...
-With it, the descent of God becomes reality.
+The tremendous energy released when
+two celestial bodies collide...
+With it, the descent of God becomes
+reality.
 -----------------------
 #エルレイン
 Elrane
@@ -346,8 +364,9 @@ Wait, Elrane!
 -----------------------
 #すべてを救うためにすべてを破壊する
 #そんなことが許されるとしたら････
-Destroy everything to save everything?
-If something like that were allowed...
+Destroy everything to save
+everything? If something like that
+were allowed...
 -----------------------
 <Kyle>
 -----------------------
@@ -364,8 +383,8 @@ Elrane
 #神によって救われるべき、はかなく、
 #あわれで、いとおしい存在
 #それ以上でもそれ以下でもない
-Fragile beings who should be saved by God,
-pitiful, precious creatures
+Fragile beings who should be saved
+by God, pitiful, precious creatures
 nothing more, nothing less
 -----------------------
 <Kyle>
@@ -378,7 +397,8 @@ Don't screw with me!!
 #オレはずっとこの目で見てきた
 #歴史を築いた人たちの強さを！
 I've seen it all with these eyes!
-The strength of those who built history!
+The strength of those who built
+history!
 -----------------------
 <Kyle>
 -----------------------
@@ -406,32 +426,36 @@ Elrane
 #おまえたちがすべて死に絶えたとしても
 #完全神の降臨さえ果たされれば
 #新たなる人類を生み出すことができる
-Even if all of you perish completely,
-so long as the descent of the Complete God is achieved,
-a new humanity can be created.
+Even if all of you perish
+completely, so long as the descent
+of the Complete God is achieved, a
+new humanity can be created.
 -----------------------
 #エルレイン
 Elrane
 -----------------------
 #そして、新たなる人類は、完全なる世界で
 #完全な幸福を手にすることができる
-And that new humanity, in a world of perfection,
-can attain perfect happiness.
+And that new humanity, in a world
+of perfection, can attain perfect
+happiness.
 -----------------------
 #エルレイン
 Elrane
 -----------------------
 #いまこそ、人類自身のために
 #すべてを振り出しに戻すべきなのだ
-Now is the time, for humanity's own sake,
-to return everything to the beginning.
+Now is the time, for humanity's
+own sake, to return everything to
+the beginning.
 -----------------------
 <Kyle>
 -----------------------
 #歴史の破壊が人のためだと････!?
 #じょうだんじゃないッ!!
-The destruction of history is for humanity's sake...?!
-This isn't a damn joke!!
+The destruction of history is for
+humanity's sake...?! This isn't a
+damn joke!!
 -----------------------
 #エルレイン
 Elrane
@@ -447,20 +471,22 @@ Elrane
 #人は、神の力によってのみ
 #すべての不幸から逃れ
 #絶対の幸福を手にすることができる
-Only through the power of God can mankind
-escape all misfortune
-and attain absolute happiness.
+Only through the power of God can
+mankind escape all misfortune and
+attain absolute happiness.
 -----------------------
 #エルレイン
 Elrane
 -----------------------
 #なぜ、その真理を認めようとしない？
-Why do you refuse to accept this truth?
+Why do you refuse to accept this
+truth?
 -----------------------
 <Kyle>
 -----------------------
 #絶対の幸福なんてこの世にない！
-There's no such thing as absolute happiness in this world!
+There's no such thing as absolute
+happiness in this world!
 -----------------------
 <Kyle>
 -----------------------
@@ -476,9 +502,10 @@ We strive to grasp it ourselves!
 #本当の幸せは
 #幸せを探して生きる毎日の中にある
 #人はそうやって歴史を築いていくんだ！
-True happiness is found
-in the everyday act of living while seeking it out!
-That's how people build history!
+True happiness is found in the
+everyday act of living while seeking
+it out! That's how people build
+history!
 -----------------------
 #エルレイン
 Elrane
@@ -493,9 +520,9 @@ Elrane
 #すでに矢は放たれようとしている
 #これを止めることは、
 #おまえたちには、できはしない
-The arrow is already on the verge of being loosed.
-Stopping this
-is beyond your capabilities.
+The arrow is already on the verge
+of being loosed. Stopping this is
+beyond your capabilities.
 -----------------------
 <Kyle>
 -----------------------
@@ -644,9 +671,9 @@ Please... tell me it's a lie.
 #いいえ････二人の聖女は
 #神より生み出されしもの
 #いうなれば神の化身････
-No... The two Saintesses
-were born from God.
-We are, in essence, incarnations of the divine...
+No... The two Saintesses were
+born from God. We are, in essence,
+incarnations of the divine...
 -----------------------
 <Reala>
 -----------------------
@@ -675,8 +702,8 @@ Elrane
 #そして、裁きの時を迎える場所を
 #自らの手で選べ
 If you understand that, then go.
-Choose the place where judgment shall fall
-with your own hands.
+Choose the place where judgment
+shall fall with your own hands.
 -----------------------
 #エルレイン
 Elrane
@@ -728,8 +755,8 @@ If we don't kill God, this world will...
 -----------------------
 #････やめてくれ
 #今は何も聞きたくない
-...Please stop.
-I don't want to hear anything right now.
+...Please stop. I don't want to hear
+anything right now.
 -----------------------
 <Reala>
 -----------------------

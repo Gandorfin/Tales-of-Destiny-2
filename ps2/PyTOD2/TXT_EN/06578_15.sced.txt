@@ -6,8 +6,9 @@ Radisrol
 -----------------------
 #『確率実験』なる本がある
 #カードをめくると････？
-There's a book called 'Probability Experiments'.
-If you flip over a card...?
+There's a book called 'Probability
+Experiments'. If you flip over a
+card...?
 -----------------------
 #青のカード
 #『このカードを引く確率は
@@ -127,9 +128,9 @@ Soldier
 #優れた鍛冶士に渡せば
 #なにか作ってもらえるかも
 #しれないな
-If you give it to a skilled blacksmith,
-they might be able to craft
-something for you.
+If you give it to a skilled
+blacksmith, they might be able to
+craft something for you.
 -----------------------
 #兵卒
 Soldier
@@ -152,8 +153,8 @@ Soldier
 -----------------------
 #普段と違う事をすれば
 #なにか得られるかもしれないぜ？
-If you do things differently than usual,
-you might earn something new.
+If you do things differently than
+usual, you might earn something new.
 -----------------------
 #兵卒
 Soldier
@@ -185,9 +186,10 @@ Soldier
 #ソーサラースコープを使えば
 #新しい発見があるかもしれないぜ
 #どこぞの遺跡の入口とか、な
-If you use a Sorcerer's Scope,
-you might make some new discoveries.
-Like the entrance to some ruins, maybe.
+If you use a Sorcerer's Scope, you
+might make some new discoveries.
+Like the entrance to some ruins,
+maybe.
 -----------------------
 #兵卒
 Soldier
@@ -256,7 +258,8 @@ Child
 -----------------------
 #パパもママも
 #いつもどってくるんだろ？
-Dad and Mom always come back, don't they?
+Dad and Mom always come back,
+don't they?
 -----------------------
 #いってらっしゃいませ
 Have a good day.

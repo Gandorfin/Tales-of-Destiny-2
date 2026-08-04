@@ -257,8 +257,9 @@ We've got no chance of winning!!
 -----------------------
 #だからって、引き下がれるか！
 #オレのすべてを、ぶつけてやる!!
-Like hell I'm backing down!
-I'm throwing everything I've got at you!!
+Like hell I'm backing down! I'm
+throwing everything I've got at
+you!!
 -----------------------
 #？？？？？
 ?????
@@ -370,23 +371,24 @@ She's alive!
 #フィリアさんの私室があるはずだ
 #すぐに運ぶぞ!!
 Alright! Philia's private quarters
-should be somewhere inside this temple.
-Let's get her there, now!!
+should be somewhere inside this
+temple. Let's get her there, now!!
 -----------------------
 #司祭
 Priest
 -----------------------
 #準備はよろしいですね？
 #では、これより出産式をはじめます
-Is everything prepared?
-Then let us begin the birth ceremony.
+Is everything prepared? Then let us
+begin the birth ceremony.
 -----------------------
 <Kyle>
 -----------------------
 #出産････って、ここって神殿だよね？
 #しかも、お医者さんいないじゃん
-Giving birth...? But this is a temple, right?
-And there's no doctor here or anything.
+Giving birth...? But this is a
+temple, right? And there's no doctor
+here or anything.
 -----------------------
 #街の人
 Townsperson
@@ -454,8 +456,8 @@ Wife
 -----------------------
 #ありがとうございます
 #痛みもなく、とても楽でした
-Thank you so much.
-There was no pain at all. It was so easy.
+Thank you so much. There was no pain
+at all. It was so easy.
 -----------------------
 #司祭
 Priest
@@ -480,8 +482,9 @@ by borrowing the power of the gods.
 -----------------------
 #無痛で、産後の病気の心配もない
 #もっとも安全な出産法なのよ
-It's painless, with no risk of postpartum illness.
-The safest childbirth method there is.
+It's painless, with no risk of
+postpartum illness. The safest
+childbirth method there is.
 -----------------------
 <Kyle>
 -----------------------
@@ -502,16 +505,18 @@ Priest
 -----------------------
 #では、この子の名前ですが････
 #慣例どおり、「Ｊ－２３７」になります
-Now then, as for this child's name...
-By convention, it shall be "J-237."
+Now then, as for this child's
+name... By convention, it shall
+be "J-237."
 -----------------------
 #司祭
 Priest
 -----------------------
 #「Ｊ－２３７」は、三年間の初期保育期間終了後、
 #ふたりに引きわたされます
-"J-237" shall be transferred to the two of you
-upon completion of the three-year initial childcare period.
+"J-237" shall be transferred to the
+two of you upon completion of the
+three-year initial childcare period.
 -----------------------
 <Kyle>
 -----------------------
@@ -526,9 +531,9 @@ Priest
 #････オッホン！
 #出産式の最中ですので
 #静粛に願います
-...Ahem!
-We are in the midst of the childbirth ceremony.
-I must ask for silence.
+...Ahem! We are in the midst of
+the childbirth ceremony. I must
+ask for silence.
 -----------------------
 <Kyle>
 -----------------------
@@ -566,31 +571,33 @@ in the order they are born.
 -----------------------
 #そして、三年間の初期保育期間の後
 #はじめて、親に引き渡されるの
-And after the three-year initial childcare period,
-only then are they finally handed over to their parents.
+And after the three-year initial
+childcare period, only then are
+they finally handed over to their
+parents.
 -----------------------
 <Kyle>
 -----------------------
 #三年間!?
 #産まれたばっかりなのに
 #三年も一緒に暮らせないの!?
-Three years!?
-She was just born, and they can't
-live together for three whole years!?
+Three years!? She was just born,
+and they can't live together for
+three whole years!?
 -----------------------
 <Reala>
 -----------------------
 #でもね、初期保育は、専門の人が
 #ちゃんとやってくれるのよ
-But you see, early childcare is handled
-by trained specialists.
+But you see, early childcare is
+handled by trained specialists.
 -----------------------
 <Reala>
 -----------------------
 #人格、身体ともに、なんの
 #問題もない子どもが育つの
-Children grow up without any problems
-in mind or body.
+Children grow up without any
+problems in mind or body.
 -----------------------
 <Kyle>
 -----------------------
@@ -649,9 +656,9 @@ That'd be unthinkable back in my village.
 #ほんと、ほんと！
 #もっと「やったぞーっ！」
 #とかって喜ぶもんだよねぇ？
-Right, right!?
-Shouldn't they be more like "We did it!"
-and stuff? That's how you celebrate!
+Right, right!? Shouldn't they be
+more like "We did it!" and stuff?
+That's how you celebrate!
 -----------------------
 #？？？？
 ????
@@ -686,9 +693,9 @@ holds their hand through everything.
 #でも、その方が危なくないし、
 #結果として、親も、産まれた子も、
 #幸せになるから････
-But that way it's safer, and in the end
-both the parents and the child born
-end up happier for it...
+But that way it's safer, and in the
+end both the parents and the child
+born end up happier for it...
 -----------------------
 <Kyle>
 -----------------------
@@ -827,8 +834,8 @@ past Cherik, and it's right there.
 -----------------------
 #ちょっとした旅になっちまうけど
 #ま、道中よろしくね
-It's gonna be a bit of a trip,
-but take care of me on the way, yeah?
+It's gonna be a bit of a trip, but
+take care of me on the way, yeah?
 -----------------------
 <Kyle>
 -----------------------
@@ -856,8 +863,9 @@ Elrane
 #人々の幸せを願う想いの現れ
 #そして、私の、人々を救いたいという愛の証
 The very number of these Lenses
-is a manifestation of the people's wish for happiness,
-and proof of my love...my desire to save them all.
+is a manifestation of the people's
+wish for happiness, and proof of my
+love...my desire to save them all.
 -----------------------
 #エルレイン
 Elrane
@@ -874,16 +882,18 @@ That is why they chose me.
 #あなたの作ろうとしている世界は
 #確かに、苦痛や悩みがないわ
 The world you're trying to create...
-Certainly, it knows no pain or sorrow.
+Certainly, it knows no pain or
+sorrow.
 -----------------------
 <Reala>
 -----------------------
 #けれど、それといっしょに
 #本当の楽しみや喜びまで失っている
 #そんな世界、人々が求めるはずがない！
-But along with that,
-they lose their true joys and happiness as well.
-That's not the kind of world people want!
+But along with that, they lose
+their true joys and happiness as
+well. That's not the kind of world
+people want!
 -----------------------
 #エルレイン
 Elrane
@@ -896,8 +906,8 @@ Elrane
 -----------------------
 #なんの力も持たず、英雄もいず
 #ただひとりで閉じこめられている？
-Devoid of power, with no heroes to be found.
-Locked away all alone?
+Devoid of power, with no heroes to
+be found. Locked away all alone?
 -----------------------
 <Reala>
 -----------------------
@@ -921,16 +931,18 @@ Elrane
 -----------------------
 #だからこそ、私たちが必要なのだ
 #神と、その、み使いたる聖女が････
-That is precisely why we are needed.
-God, and His holy maiden as messenger...
+That is precisely why we are
+needed. God, and His holy maiden
+as messenger...
 -----------------------
 #エルレイン
 Elrane
 -----------------------
 #フォルトゥナが完全な形で降臨すれば
 #その瞬間、私たちの役目も終わる
-Should Fortuna descend in her complete form,
-our duty shall end at that very moment.
+Should Fortuna descend in her
+complete form, our duty shall end
+at that very moment.
 -----------------------
 #エルレイン
 Elrane
@@ -939,8 +951,9 @@ Elrane
 #そのときこそ、すべての人々が
 #神の愛に満たされる瞬間なのだから
 But there is no cause for grief.
-For that is the very moment
-when all people shall be filled with divine love.
+For that is the very moment when
+all people shall be filled with
+divine love.
 -----------------------
 #エルレイン
 Elrane
@@ -949,8 +962,9 @@ Elrane
 #苦痛や悩みなどとは、無縁の完全なる世界
 #これこそが、救いのあるべき姿････
 A world filled with divine love...
-A perfect realm untouched by pain or sorrow.
-This is the true form salvation should take...
+A perfect realm untouched by pain
+or sorrow. This is the true form
+salvation should take...
 -----------------------
 #エルレイン
 Elrane
@@ -968,8 +982,8 @@ Elrane
 #おまえが求めているのは
 #共に歩み、助けてくれる英雄か？
 #それとも････
-Is it a hero you seek?
-One who would walk beside you and lend you aid?
+Is it a hero you seek? One who would
+walk beside you and lend you aid?
 Or perhaps...
 -----------------------
 <Reala>
@@ -983,9 +997,9 @@ Elrane
 #わからない････
 #その先には悲劇しか待っていないというのに
 #それでもなお、求めるというのか？
-I do not understand...
-Even though nothing but tragedy awaits beyond that path,
-do you still seek it?
+I do not understand... Even though
+nothing but tragedy awaits beyond
+that path, do you still seek it?
 -----------------------
 <Reala>
 -----------------------
@@ -1028,8 +1042,9 @@ Elrane
 -----------------------
 #大いなる神の御魂を、ここに！
 #そして、人々に永遠の幸福を！
-Let the great god's soul descend here!
-And grant eternal happiness to all people!
+Let the great god's soul descend
+here! And grant eternal happiness
+to all people!
 -----------------------
 <Kyle>
 -----------------------
@@ -1071,8 +1086,9 @@ Elrane
 -----------------------
 #････すべての人々の、幸福を無視しても
 #あくまで、逆らうというのか
-...Even if it means ignoring the happiness of all people?
-You would still defy us to the end?
+...Even if it means ignoring the
+happiness of all people? You would
+still defy us to the end?
 -----------------------
 #エルレイン
 Elrane
@@ -1086,9 +1102,9 @@ Elrane
 #おろかな････
 #････その先に････待つのは････
 #････悲しみだけ････なのに････
-Foolish...
-...beyond this path... what awaits...
-...is naught but sorrow... and yet...
+Foolish... ...beyond this path...
+what awaits... ...is naught but
+sorrow... and yet...
 -----------------------
 <Reala>
 -----------------------
@@ -1150,8 +1166,9 @@ Huh?
 #あんなひどいこと言ったんだもの
 #嫌われて当然だって思ってた
 I thought you wouldn't come back.
-I said such terrible things to you.
-I thought it was only natural you'd hate me.
+I said such terrible things to
+you. I thought it was only natural
+you'd hate me.
 -----------------------
 <Reala>
 -----------------------
@@ -1179,8 +1196,8 @@ The hero you're looking for is me.
 #英雄は困ってる女の子を
 #助けるもんだからね
 #どんなことがあろうと、必ず
-A hero's supposed to help a girl in trouble,
-no matter what happens.
+A hero's supposed to help a girl
+in trouble, no matter what happens.
 No matter what.
 -----------------------
 <Reala>
@@ -1244,9 +1261,9 @@ G-113
 #産みのくるしみもない
 #子育ての苦労もない
 #産後の肥立ちも心配ない
-No pain in childbirth,
-no hardship raising children,
-no worries about postpartum recovery.
+No pain in childbirth, no hardship
+raising children, no worries about
+postpartum recovery.
 -----------------------
 #Ｇ－１１３
 G-113
@@ -1260,9 +1277,9 @@ G-113
 #産みのくるしみもない
 #子育ての苦労もない
 #産後の肥立ちも心配ない
-No pain in childbirth,
-no hardship raising children,
-no worries about postpartum recovery.
+No pain in childbirth, no hardship
+raising children, no worries about
+postpartum recovery.
 -----------------------
 #Ｇ－１１３
 G-113
@@ -1319,8 +1336,9 @@ E-102
 -----------------------
 #正直、子どもが生まれたってのに
 #親になったって感覚がないんだよな
-Honestly, even though my kid's been born...
-I don't feel like a parent at all.
+Honestly, even though my kid's
+been born... I don't feel like a
+parent at all.
 -----------------------
 #Ｅ－１０２
 E-102
@@ -1328,8 +1346,8 @@ E-102
 #今は、まだわからないけど
 #三年間たって子どもが帰ってきたら
 #パパになったって思えるのかなあ
-I don't know yet, but...
-Once three years pass and my child comes back,
+I don't know yet, but... Once three
+years pass and my child comes back,
 maybe then I'll feel like a father.
 -----------------------
 #男性
@@ -1338,7 +1356,8 @@ Man
 #ん、三年間も子どもと暮らせなくて
 #さびしくないのかって？
 Hmm? You're asking if I'm lonely,
-being apart from my child for three years?
+being apart from my child for
+three years?
 -----------------------
 #男性
 Man
@@ -1346,8 +1365,8 @@ Man
 #なに言ってんだ、自分で育てるより
 #その方がよっぽど楽じゃないか
 #親としてはよろこばしいかぎりだね
-What're you talking about?
-It's way easier than raising them yourself.
+What're you talking about? It's way
+easier than raising them yourself.
 What parent wouldn't be thrilled?
 -----------------------
 #男性
@@ -1357,8 +1376,8 @@ Man
 #神団の人たちが見てくれて
 #しかも、しつけされてもどってくるんだ
 The Order handles the toughest part
-of raising the kids for us.
-And they come back already disciplined.
+of raising the kids for us. And they
+come back already disciplined.
 -----------------------
 #男性
 Man
@@ -1366,9 +1385,9 @@ Man
 #親たちは
 #そのしつけされた子供たちを
 #育てるだけでいいのさ
-All us parents have to do
-is raise kids
-who've already been properly trained.
+All us parents have to do is raise
+kids who've already been properly
+trained.
 -----------------------
 #司祭
 Priest
@@ -1377,8 +1396,9 @@ Priest
 #『神の眼』という名前の巨大レンズが
 #安置されていたそうです
 During the era of Hugo's Rebellion,
-a giant Lens called the 'Eye of God'
-was said to be enshrined in a room deeper within.
+a giant Lens called the 'Eye of
+God' was said to be enshrined in a
+room deeper within.
 -----------------------
 #司祭
 Priest
@@ -1396,8 +1416,8 @@ Woman
 #思い出すねぇ
 #そういえば、あたしもここで
 #出産したんだっけ
-Brings back memories.
-Come to think of it, I gave birth here too.
+Brings back memories. Come to think
+of it, I gave birth here too.
 -----------------------
 #女性
 Woman
@@ -1433,8 +1453,9 @@ Woman
 #そんなに苦労するなんて
 #今じゃ考えられないわよねぇ
 Just giving birth to a child...
-and going through so much hardship for it?
-I can't even imagine that these days.
+and going through so much hardship
+for it? I can't even imagine that
+these days.
 -----------------------
 #おばさん
 Woman
@@ -1442,9 +1463,10 @@ Woman
 #昔は出産のときには
 #激しい痛みに耐えていたそうだけど
 #いま考えるとバカバカしい話だね
-They say in the old days, women endured
-terrible pain during childbirth.
-Thinking about it now, it sounds absurd.
+They say in the old days, women
+endured terrible pain during
+childbirth. Thinking about it now,
+it sounds absurd.
 -----------------------
 #おばさん
 Woman
@@ -1452,8 +1474,10 @@ Woman
 #人がひとり産まれるだけのことで
 #そんな思いをしなきゃいけないなんて
 #割に合わないよ、まったく
-All that suffering, just to bring one person into the world?
-Hardly seems worth the trouble, if you ask me.
+All that suffering, just to bring
+one person into the world? Hardly
+seems worth the trouble, if you
+ask me.
 -----------------------
 #おばさん
 Woman
@@ -1481,9 +1505,9 @@ Woman
 #おめでとう「Ｇ－１１３」
 #とても優秀そうな子だったから
 #三年後がたのしみね
-Congratulations, G-113.
-She seemed like a very talented girl.
-Looking forward to three years from now.
+Congratulations, G-113. She seemed
+like a very talented girl. Looking
+forward to three years from now.
 -----------------------
 #男性
 Man
@@ -1491,9 +1515,10 @@ Man
 #三年後までに
 #優秀なアイグレッテ市民を育てられる
 #親になっておくんだな～
-You'd better be parents who can raise
-an excellent citizen of Aigrette
-by the time those three years are up.
+You'd better be parents who can
+raise an excellent citizen of
+Aigrette by the time those three
+years are up.
 -----------------------
 #女性
 Woman

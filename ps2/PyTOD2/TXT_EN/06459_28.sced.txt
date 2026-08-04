@@ -17,8 +17,8 @@ Soldier
 -----------------------
 #こちらがみなさまのお部屋になります
 #今日はもうお休みになりますか？
-These will be your rooms.
-Will you be turning in for the night?
+These will be your rooms. Will you
+be turning in for the night?
 -----------------------
 select
 -----------------------
@@ -37,8 +37,9 @@ Please, take your time.
 -----------------------
 #時間旅行から帰ってみりゃあ、レンズはなし
 #よくもまあ、こう難問ばかり続くもんだ
-We get back from time travel, and no Lens.
-Man, the hard questions just keep on coming.
+We get back from time travel, and
+no Lens. Man, the hard questions
+just keep on coming.
 -----------------------
 <Loni>
 -----------------------
@@ -90,15 +91,15 @@ Sorry, I wasn't listening.
 -----------------------
 #････休もう
 #もう、今日はすることもないしな
-...Let's rest.
-There's nothing left to do today anyway.
+...Let's rest. There's nothing left
+to do today anyway.
 -----------------------
 <Loni>
 -----------------------
 #ん～、もう朝か
 #ついさっき、寝たと思ったんだが････
-Ugh... morning already?
-I could've sworn I just went to sleep...
+Ugh... morning already? I could've
+sworn I just went to sleep...
 -----------------------
 <Loni>
 -----------------------
@@ -165,8 +166,8 @@ I've been searching everywhere...
 -----------------------
 #お、おい、落ちつけよ
 #どっか散歩に行ってるだけかもしれないだろ？
-H-hey, calm down!
-She might just be out for a stroll somewhere.
+H-hey, calm down! She might just be
+out for a stroll somewhere.
 -----------------------
 <Nanaly>
 -----------------------
@@ -297,8 +298,8 @@ I have no idea what's going on...
 #時間軸の歪みと、エントロピーの
 #異常なまでの増大を検知したの
 My "Analysis-kun Mark II" detected
-distortions in the time axis and an abnormal
-surge in entropy growth.
+distortions in the time axis and an
+abnormal surge in entropy growth.
 -----------------------
 <Harold>
 -----------------------
@@ -312,14 +313,15 @@ a totally crazy state.
 <Kyle>
 -----------------------
 #ヤ、ヤバイ状態って？
-Wh-what do you mean by 'crazy state'?
+Wh-what do you mean by 'crazy
+state'?
 -----------------------
 <Harold>
 -----------------------
 #ぶっちゃけた話、
 #未来がなくなりかけてるのよ
-To put it bluntly,
-the future's on the verge of disappearing.
+To put it bluntly, the future's on
+the verge of disappearing.
 -----------------------
 <Nanaly>
 -----------------------
@@ -341,15 +343,16 @@ is interfering with this era.
 -----------------------
 #その影響で本来あるはずの未来が
 #失われようとしてるってわけ
-Because of that, the future that should exist
-is on the verge of being lost.
+Because of that, the future that
+should exist is on the verge of
+being lost.
 -----------------------
 <Kyle>
 -----------------------
 #それってエルレインが、今度はこの時代を
 #変えようとしてるってことか？
-So Elrane's trying to change this era now?
-Is that what you're saying?
+So Elrane's trying to change this
+era now? Is that what you're saying?
 -----------------------
 <Harold>
 -----------------------
@@ -362,8 +365,9 @@ This is no gentle nudge.
 -----------------------
 #未来そのものを消してしまいかねない、
 #恐ろしく大がかりなものよ
-It's something terrifyingly large-scale,
-something that could erase the future itself.
+It's something terrifyingly
+large-scale, something that could
+erase the future itself.
 -----------------------
 <Harold>
 -----------------------
@@ -387,7 +391,8 @@ Y-yeah...
 <Harold>
 -----------------------
 #あんたたち、なんか心当たりでも？
-You lot have some idea what's going on?
+You lot have some idea what's
+going on?
 -----------------------
 <Kyle>
 -----------------------
@@ -424,15 +429,16 @@ What do you mean by that, <Harold>?
 #エルレインはこの世界を消そうとしてる
 #未来がなくなるのはあたりまえだわ
 It's exactly what it sounds like.
-Elrane's trying to erase this world.
-Of course the future would disappear.
+Elrane's trying to erase this
+world. Of course the future would
+disappear.
 -----------------------
 <Nanaly>
 -----------------------
 #世界を消すだって････！
 #どうして、そんなことを!?
-Erase the world...!
-Why would she do something like that!?
+Erase the world...! Why would she
+do something like that!?
 -----------------------
 <Harold>
 -----------------------
@@ -440,8 +446,8 @@ Why would she do something like that!?
 #こればっかりは本人に聞くしか、
 #ないんじゃないの？
 Well, I don't know the reason.
-You'll just have to ask her yourself,
-won't you?
+You'll just have to ask her
+yourself, won't you?
 -----------------------
 <Judas>
 -----------------------
@@ -457,7 +463,8 @@ But where on earth is Elrane...
 #時空間に残されたパルスを
 #たどっておいたから
 Ah, no need to worry about that.
-I traced the pulse she left behind in spacetime.
+I traced the pulse she left behind
+in spacetime.
 -----------------------
 <Harold>
 -----------------------
@@ -494,31 +501,34 @@ an Exisphoslar, didn't you?
 #なら、そのレンズを使えばいいじゃない
 #ソーディアンに使ったのと同じ
 #私の特別製だからエネルギーもバッチリよ
-Then just use that Lens.
-Same as what you used on the Swordian.
-It's my special creation, so the energy's perfect.
+Then just use that Lens. Same as
+what you used on the Swordian.
+It's my special creation, so the
+energy's perfect.
 -----------------------
 <Judas>
 -----------------------
 #だが、あれはどこに墜落したのか
 #わからないんだ
-But we don't know where that crashed.
+But we don't know where that
+crashed.
 -----------------------
 <Judas>
 -----------------------
 #地上ならいいが、時空間の歪みに
 #まきこまれたりしていたら････
-If it's on the surface, fine.
-But if it got caught in a spacetime distortion...
+If it's on the surface, fine. But
+if it got caught in a spacetime
+distortion...
 -----------------------
 <Harold>
 -----------------------
 #フッフ～ン！
 #こんなこともあろうかと、
 #自動帰還機能をつけておいたのよ～ん！
-Heh heh!
-Just in case something like this happened,
-I installed an auto-return feature~!
+Heh heh! Just in case something
+like this happened, I installed an
+auto-return feature~!
 -----------------------
 <Loni>
 -----------------------

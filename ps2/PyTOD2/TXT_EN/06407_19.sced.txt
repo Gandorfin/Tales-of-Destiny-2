@@ -20,8 +20,9 @@ Uncle Bob
 -----------------------
 #また来ておくれよ
 #ボブおじさんと約束じゃ
-Come back and see us again, you hear?
-That's a promise between you and Uncle Bob.
+Come back and see us again, you
+hear? That's a promise between you
+and Uncle Bob.
 -----------------------
 #ボブおじさん
 Uncle Bob
@@ -36,8 +37,9 @@ Uncle Bob
 -----------------------
 #おまえさん、遠慮ってものを知らんのか？
 #オヤジもそんな風にねだったもんじゃが
-Don't you know the meaning of restraint?
-Your old man used to beg me the same way.
+Don't you know the meaning of
+restraint? Your old man used to beg
+me the same way.
 -----------------------
 #<size:00000200>ワシャ
 #がめつい子はキライじゃ！
@@ -200,8 +202,8 @@ Kid
 #スタンさんの、秘密の修行場を
 #知っているってことは、おまえ････
 #････スタンさんのファンだな！
-You know about Mr. Stahn's secret training ground,
-which means you...
+You know about Mr. Stahn's secret
+training ground, which means you...
 ...You're a fan of Mr. Stahn's!
 -----------------------
 #子供
@@ -211,7 +213,8 @@ Kid
 #オレは、スタンさんの秘密の修行場を
 #知ってるんだぜ！
 Heh heh! Listen and be amazed!
-I know where Mr. Stahn's secret training ground is!
+I know where Mr. Stahn's secret
+training ground is!
 -----------------------
 <Kyle>
 -----------------------
@@ -260,8 +263,8 @@ Innkeeper
 -----------------------
 #そう？
 #にてると思ったんだけどなぁ････
-Is that so?
-I could've sworn they looked alike...
+Is that so? I could've sworn they
+looked alike...
 -----------------------
 #宿屋受付
 Innkeeper
@@ -328,7 +331,8 @@ Staying the night?
 Innkeeper
 -----------------------
 #造花のバラだ　なんの匂いもしない････
-It's an artificial rose. It doesn't smell like anything...
+It's an artificial rose. It doesn't
+smell like anything...
 -----------------------
 #風が無いのに風車が回っている
 #ゼンマイ仕掛けのおもちゃだろう
@@ -497,7 +501,8 @@ The ingredients you need to make
 Chef
 -----------------------
 #材料を持っているじゃないか
-You've got the ingredients right there.
+You've got the ingredients right
+there.
 -----------------------
 #シェフ
 Chef
@@ -536,23 +541,25 @@ Chef
 #食材を探しているんだ
 #見つけたら持ってきてくれないかい？
 I'm on the hunt for ingredients.
-Mind bringing me some if you find any?
+Mind bringing me some if you find
+any?
 -----------------------
 #シェフ
 Chef
 -----------------------
 #お前には資格がない
 #また、出直して来るといい
-You're not qualified.
-Come back when you've got what it takes.
+You're not qualified. Come back when
+you've got what it takes.
 -----------------------
 #シェフ
 Chef
 -----------------------
 #お前のような奴を待ってた
 #これをゆずるのに相応しい料理人を
-I've been waiting for someone like you.
-A chef worthy of inheriting this.
+I've been waiting for someone like
+you. A chef worthy of inheriting
+this.
 -----------------------
 notice
 -----------------------

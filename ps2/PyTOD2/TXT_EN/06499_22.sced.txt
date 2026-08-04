@@ -5,7 +5,8 @@ Hope Town - Weapon Shop, Armor Shop & General Store
 Hope Town
 -----------------------
 #武器屋＆防具屋＆雑貨屋
-Weapon Shop, Armor Shop & General Store
+Weapon Shop, Armor Shop & General
+Store
 -----------------------
 #武器屋
 Weapon Shop
@@ -989,9 +990,9 @@ notice
 #「通常攻撃」について
 #深く話し合っているようです
 #耳を傾けますか？
-"Normal Attacks"
-They seem to be having a deep discussion.
-Will you listen in?
+"Normal Attacks" They seem to be
+having a deep discussion. Will you
+listen in?
 -----------------------
 #慣れてきたから最近は通常攻撃は
 #<button:00000045>だけ叩きっぱなしさ

@@ -19,9 +19,9 @@ The power must be down...
 #よし
 #１階の動力室で『レンズ起動型エンジン』の
 #電源を入れるんだ
-All right.
-We need to go to the power room on the first floor
-and activate the Lens Startup Engine.
+All right. We need to go to the
+power room on the first floor and
+activate the Lens Startup Engine.
 -----------------------
 notice
 -----------------------
@@ -73,7 +73,8 @@ The bomb exploded!
 NOTICE
 -----------------------
 #この壁は壊せそうです
-This wall looks like it can be broken.
+This wall looks like it can be
+broken.
 -----------------------
 #いってらっしゃいませ
 Have a good day.

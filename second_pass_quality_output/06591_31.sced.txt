@@ -62,8 +62,9 @@ Igtenos
 #持っている感覚さえない
 #まるで自分の手の一部のようだ
 What... is this truly a sword?
-I can't even feel myself holding it.
-It's as if it were part of my own hand.
+I can't even feel myself holding
+it. It's as if it were part of my
+own hand.
 -----------------------
 #シャルティエ
 Chaltier
@@ -71,18 +72,19 @@ Chaltier
 #握っただけで、すごさがわかります
 #この剣さえあれば
 #だれにも負ける気がしません
-Simply holding it tells me how amazing it is.
-With this sword alone,
-I feel I could never lose to anyone.
+Simply holding it tells me how
+amazing it is. With this sword
+alone, I feel I could never lose
+to anyone.
 -----------------------
 <Harold>
 -----------------------
 #この程度で驚かれちゃ困るわ
 #ソーディアンには
 #もっとすごい力があるんだから
-It'd be a problem if you were amazed by just this.
-Swordians possess
-even greater power than that.
+It'd be a problem if you were amazed
+by just this. Swordians possess even
+greater power than that.
 -----------------------
 #カーレル
 Karell
@@ -117,16 +119,16 @@ W-What was that...!?
 #この剣を持つ者は晶術という
 #特殊な力が使えるのよ
 I'm sure Dymlos already knows, but
-those who wield these swords can use a special
-power called Lens Arte.
+those who wield these swords can use
+a special power called Lens Arte.
 -----------------------
 <Harold>
 -----------------------
 #晶術はひとりひとり特性が違うから
 #六人もいれば、おたがいの弱点を
 #補いあえるってわけ
-Lens Arte differs from person to person,
-so with six of us, we can
+Lens Arte differs from person to
+person, so with six of us, we can
 cover for each other's weaknesses.
 -----------------------
 <Harold>
@@ -140,9 +142,9 @@ Karell
 #まったく、おまえは天才だよ
 #我が妹ながらときどき
 #そらおそろしくなる････
-Honestly, you're a genius.
-Even as your older brother, I sometimes
-find you terrifying...
+Honestly, you're a genius. Even as
+your older brother, I sometimes find
+you terrifying...
 -----------------------
 <Harold>
 -----------------------
@@ -197,8 +199,9 @@ Dymlos
 -----------------------
 #ソーディアン完成の吉報を
 #司令に届けてもらえないだろうか？
-Could you deliver the good news
-of the Swordians' completion to the commander?
+Could you deliver the good news of
+the Swordians' completion to the
+commander?
 -----------------------
 #ディムロス
 Dymlos
@@ -217,8 +220,9 @@ Igtenos
 #持っている感覚さえない
 #まるで自分の手の一部のようだ
 What... is this truly a sword?
-I can't even feel myself holding it.
-It's as if it were part of my own hand.
+I can't even feel myself holding
+it. It's as if it were part of my
+own hand.
 -----------------------
 #シャルティエ
 Chaltier
@@ -239,8 +243,9 @@ Karell
 -----------------------
 #それぞれのソーディアンには
 #使い手の人格が投影されているが････
-Each Swordian has
-its wielder's personality projected into it, but...
+Each Swordian has its wielder's
+personality projected into it,
+but...
 -----------------------
 #カーレル
 Karell
@@ -267,17 +272,17 @@ Clemente
 #なんという軽さじゃ････
 #ほとんど、重さを感じないのぉ････
 #ホイッホイッとな
-Such lightness...
-I can hardly feel any weight at all...
-Heave-ho, heave-ho.
+Such lightness... I can hardly
+feel any weight at all... Heave-ho,
+heave-ho.
 -----------------------
 #アトワイト
 Atwight
 -----------------------
 #晶術には
 #回復のための術もあるのですね？
-Magic Artes include
-spells for healing as well, don't they?
+Magic Artes include spells for
+healing as well, don't they?
 -----------------------
 #ラディッツ
 Radisrol
@@ -343,8 +348,8 @@ Researcher
 #コア････に人格を投与して････
 #････材質の強度は････
 #ぶつぶつ････
-Administering personality to the core...
-...material strength is...
+Administering personality to the
+core... ...material strength is...
 *mumble mumble*...
 -----------------------
 #研究員
@@ -383,7 +388,8 @@ really does exist...
 Researcher
 -----------------------
 #何日も徹夜したかいがあった････
-All those sleepless nights were worth it...
+All those sleepless nights were
+worth it...
 -----------------------
 #研究員
 Researcher
@@ -414,8 +420,9 @@ Well then, see you later.
 -----------------------
 #ホラホラ、研究の邪魔しないの
 #これあげるから、戻って戻って
-Come on, don't get in the way of my research.
-Here, I'll give you this, so go on, shoo.
+Come on, don't get in the way of
+my research. Here, I'll give you
+this, so go on, shoo.
 -----------------------
 NOTICE
 -----------------------
@@ -427,9 +434,10 @@ Acquired <item:000001B2>.
 #ホラホラ、研究の邪魔しないの
 #アンタたちはアンタたちの用事を
 #すませてきちゃいなさい
-Come on, don't get in the way of my research.
-You all have your own business to attend to,
-so go take care of it.
+Come on, don't get in the way of
+my research. You all have your own
+business to attend to, so go take
+care of it.
 -----------------------
 #ライトニング！
 Lightning!

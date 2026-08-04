@@ -212,9 +212,9 @@ pretend adventure? It's dangerous!
 #ごっこじゃなくて、本物の冒険だよ
 #冒険には、ある程度の危険は
 #つきものさ！
-It's not pretend--it's a real adventure!
-A certain amount of danger
-comes with the territory!
+It's not pretend--it's a real
+adventure! A certain amount of
+danger comes with the territory!
 -----------------------
 #おばさん
 Woman
@@ -222,8 +222,9 @@ Woman
 #まったく、両親が英雄だからって
 #あんたまで、英雄を目指すことも
 #ないだろうに････
-Honestly, just because your parents are heroes
-doesn't mean you have to become one too...
+Honestly, just because your parents
+are heroes doesn't mean you have
+to become one too...
 -----------------------
 #おじいさん
 Old Man
@@ -240,9 +241,10 @@ Come to play pranks again, have you?
 #もう悪ガキあつかいはやめてくれよ
 #まさか、『空飛ぶ入れ歯事件』のこと
 #まだ根に持ってんのか････
-Come on, quit treating me like a brat.
-Don't tell me you're still hung up on
-the "Flying Dentures Incident"...
+Come on, quit treating me like a
+brat. Don't tell me you're still
+hung up on the "Flying Dentures
+Incident"...
 -----------------------
 #おじいさん
 Old Man
@@ -251,17 +253,19 @@ Old Man
 #アタモニ神団に入って
 #安心しとったようじゃが
 #わしは、だまされんぞ
-The others seemed to think you'd joined
-the Order of Atamoni and could rest easy,
-but I ain't so easily fooled.
+The others seemed to think you'd
+joined the Order of Atamoni and
+could rest easy, but I ain't so
+easily fooled.
 -----------------------
 <Kyle>
 -----------------------
 #七年前、イタズラで
 #ジイちゃんのパンツに、ヘビ入れただろ
 #それを、まだ覚えてるんだよ････
-Seven years ago, I snuck a snake into your pants
-as a prank, and you still remember that...?
+Seven years ago, I snuck a snake
+into your pants as a prank, and you
+still remember that...?
 -----------------------
 #おじいさん
 Old Man
@@ -269,9 +273,9 @@ Old Man
 #旅支度をして････
 #どうやら、イタズラをするつもりでは
 #なさそうじゃのう
-You've made your travel preparations...
-and it seems you're not planning
-any pranks this time.
+You've made your travel
+preparations... and it seems you're
+not planning any pranks this time.
 -----------------------
 #おじいさん
 Old Man
@@ -279,9 +283,9 @@ Old Man
 #････ふん、いつか
 #こんな日がくることは、わかっとった
 #おまえは、英雄スタンの息子じゃからな
-...Hmph. I always knew
-this day would come.
-You're the son of the hero Stahn, after all.
+...Hmph. I always knew this day
+would come. You're the son of the
+hero Stahn, after all.
 -----------------------
 #おじいさん
 Old Man
@@ -300,16 +304,17 @@ Old Man
 #そんなオイボレに、おまえたちは
 #生きる気力をあたえてくれた････
 Separated from my family by death,
-I had no will to live. But you boys
-gave this old wreck a reason to go on...
+I had no will to live. But you
+boys gave this old wreck a reason
+to go on...
 -----------------------
 #おじいさん
 Old Man
 -----------------------
 #はて？
 #見かけない顔の、お嬢さんじゃな
-Hmm?
-I don't recognize your face, young lady.
+Hmm? I don't recognize your face,
+young lady.
 -----------------------
 #おじいさん
 Old Man
@@ -337,9 +342,9 @@ Old Man
 #おお、シリの青いハナタレ坊主が
 #こんなべっぴんさんを
 #連れてくるとは！
-Well, well! The blue-haired runt from Siri
-bringing home such a beauty!
-Who'd have thought!
+Well, well! The blue-haired runt
+from Siri bringing home such a
+beauty! Who'd have thought!
 -----------------------
 <Reala>
 -----------------------
@@ -368,8 +373,8 @@ Old Man
 -----------------------
 #なんじゃ、悪ガキふたりが
 #首をならべて、どこへ行くんじゃ？
-What's this, the two brats
-heading off together? Where are you going?
+What's this, the two brats heading
+off together? Where are you going?
 -----------------------
 <Kyle>
 -----------------------
@@ -393,8 +398,8 @@ Old Man
 -----------------------
 #ふたりとも、晩メシまでには
 #帰ってくるんじゃぞ
-Both of you,
-make sure you're back in time for dinner.
+Both of you, make sure you're back
+in time for dinner.
 -----------------------
 #めくりのジョー
 Flippin' Joe
@@ -451,7 +456,8 @@ Flippin' Joe
 #かつて『めくりのジョー』と呼ばれた俺も
 #今は宿屋の見習い店員さ
 I was once known as "Flippin' Joe,"
-but now I'm just an apprentice innkeeper.
+but now I'm just an apprentice
+innkeeper.
 -----------------------
 #つむじ風の<Loni>
 Whirlwind <Loni>
@@ -530,14 +536,16 @@ Flippin' Joe
 -----------------------
 #スカートめくりのテクニックを
 #戦いに応用すれば、勝利はたやすいハズだ
-If you applied that skirt-flipping technique
-to combat, victory'd be a cinch.
+If you applied that skirt-flipping
+technique to combat, victory'd be
+a cinch.
 -----------------------
 #めくりのジョー
 Flippin' Joe
 -----------------------
 #どうだ？技を教えてやろうか？
-How about it? Want me to teach you the technique?
+How about it? Want me to teach you
+the technique?
 -----------------------
 <Kyle>
 -----------------------
@@ -561,9 +569,10 @@ hone our skills together once more?
 #ジョー、どうでもいいけど
 #店番サボってばかりいると
 #そのうち、クビになっちまうぞ
-Joe, not that I care, but if you keep
-skipping out on the shop, you're gonna
-get fired one of these days.
+Joe, not that I care, but if you
+keep skipping out on the shop,
+you're gonna get fired one of
+these days.
 -----------------------
 #めくりのジョー
 Flippin' Joe
@@ -595,8 +604,9 @@ to be home after so long?
 #俺がここにいたころと
 #ほとんどなにも変わってないな
 #でも、なんだかホッとするよ
-Almost nothing's changed since I lived here.
-Still, it's kind of a relief.
+Almost nothing's changed since I
+lived here. Still, it's kind of
+a relief.
 -----------------------
 #女の子
 Girl
@@ -614,8 +624,9 @@ Girl
 #スタンさんとルーティさんが
 #ヒューゴを止めてくれたからこそ
 #今の私たちがあるんだものね
-It's because Mr. Stahn and Ms. Rutee
-stopped Hugo that we can be here today.
+It's because Mr. Stahn and Ms.
+Rutee stopped Hugo that we can be
+here today.
 -----------------------
 #女の子
 Girl
@@ -631,9 +642,9 @@ Girl
 #よ～し、おさんぽはおしまい！
 #早く帰って、ゴハンを作らないと
 #その後は、お洗濯と買い物と････
-All right, walk's over!
-I've gotta get home quick and make dinner,
-then there's laundry and shopping and...
+All right, walk's over! I've gotta
+get home quick and make dinner, then
+there's laundry and shopping and...
 -----------------------
 <Loni>
 -----------------------
@@ -648,9 +659,9 @@ Girl
 #なに言ってるの
 #ホコリまみれだし、お化粧もしてないし
 #私なんか、ダメですよ～だ
-What are you talking about? I'm covered
-in dust, and I don't even have makeup on.
-I'm a total mess!
+What are you talking about? I'm
+covered in dust, and I don't even
+have makeup on. I'm a total mess!
 -----------------------
 #女の子
 Girl
@@ -721,8 +732,8 @@ Girl
 -----------------------
 #でも、アナタが旅に出たのって
 #ほんの少し前じゃなかったっけ？
-But didn't you only just
-set out on your journey a little while ago?
+But didn't you only just set out on
+your journey a little while ago?
 -----------------------
 #女の子
 Girl
@@ -797,9 +808,9 @@ Good grief, she's really something.
 #そう考えると、母さんって
 #スゴい人なんだよなぁ
 #････普段は、ただの怒りんぼだけど
-When you think about it, Mom's
-an amazing person.
-...Even if she is just a grump most days.
+When you think about it, Mom's an
+amazing person. ...Even if she is
+just a grump most days.
 -----------------------
 #バケツおじさん
 Bucket Man
@@ -817,8 +828,8 @@ Bucket Man
 #ひとりで孤児院を支えてるんだ
 #苦しいことだってあるだろう
 #すぐに力を貸すからな
-You're running that orphanage all alone.
-Must be tough sometimes.
+You're running that orphanage all
+alone. Must be tough sometimes.
 I'm here to help.
 -----------------------
 #バケツおじさん
@@ -827,9 +838,9 @@ Bucket Man
 #孤児院も、だいぶガタがきてるだろ
 #いっちょ建て直すってのはどうだ？
 #木なら、俺が切ってくるからよ
-That orphanage is pretty run-down by now.
-How about we rebuild it?
-I'll go cut the lumber myself.
+That orphanage is pretty run-down by
+now. How about we rebuild it? I'll
+go cut the lumber myself.
 -----------------------
 <Kyle>
 -----------------------
@@ -846,9 +857,9 @@ Bucket Man
 #そっか、そうだな
 #あれは、ルーティがスタンと建てた
 #思い出のある建物だったな
-I see, that's right.
-That place was built by Rutee and Stahn.
-It's full of memories.
+I see, that's right. That place
+was built by Rutee and Stahn. It's
+full of memories.
 -----------------------
 #バケツおじさん
 Bucket Man
@@ -856,9 +867,10 @@ Bucket Man
 #どんなに不便でも
 #何物にも代えがたいものがある
 #あの建物も、そうだってわけか････
-No matter how inconvenient something is,
-there are things you just can't replace.
-So that building's one of them, huh...
+No matter how inconvenient something
+is, there are things you just can't
+replace. So that building's one of
+them, huh...
 -----------------------
 #バケツおじさん
 Bucket Man
@@ -900,9 +912,10 @@ Bucket Man
 #いつも、バカみたいに前を見てる
 #それが、おまえの長所だったハズだぜ
 #いったい、どうしたってんだよ？
-You're always looking ahead like an idiot.
-I thought that was your strong suit.
-What the hell happened to you?
+You're always looking ahead like
+an idiot. I thought that was your
+strong suit. What the hell happened
+to you?
 -----------------------
 #バケツおじさん
 Bucket Man
@@ -927,9 +940,9 @@ Bucket Man
 #はっはっは！　そうだったな
 #冒険に出て、英雄になるってのは
 #ずっと、おまえの夢だったもんな
-Hahaha! That's right...
-Going on adventures, becoming a hero...
-It's always been your dream, hasn't it?
+Hahaha! That's right... Going on
+adventures, becoming a hero... It's
+always been your dream, hasn't it?
 -----------------------
 #バケツおじさん
 Bucket Man
@@ -937,8 +950,8 @@ Bucket Man
 #おまえなら、きっと英雄になれるさ
 #なんてったって、身近にふたりも
 #お手本がいるんだからな！
-You'll be a hero for sure.
-After all, you've got two role models
+You'll be a hero for sure. After
+all, you've got two role models
 right here close by!
 -----------------------
 #富豪
@@ -963,9 +976,9 @@ Millionaire
 #娘の幸せのためにも
 #アタモニ神のご加護のある
 #アイグレッテにつれもどさにゃならん
-For my daughter's happiness,
-I need to bring her back to Aigrette,
-where Atamoni's blessings flow.
+For my daughter's happiness, I need
+to bring her back to Aigrette, where
+Atamoni's blessings flow.
 -----------------------
 #富豪
 Millionaire
@@ -998,9 +1011,10 @@ Millionaire
 #････そう思って、娘夫婦を
 #アイグレッテにつれ帰ろうと思っていたが
 #間違えてたのかもしれん････
-...That's what I thought, so I was going to
-take my daughter and her husband back to Aigrette,
-but maybe I was wrong...
+...That's what I thought, so I was
+going to take my daughter and her
+husband back to Aigrette, but maybe
+I was wrong...
 -----------------------
 #富豪
 Millionaire
@@ -1018,9 +1032,9 @@ Millionaire
 #人間、どこでだって
 #どんな環境でだって
 #幸せになれるもんだな
-No matter where they are,
-no matter what environment they're in,
-people can find happiness.
+No matter where they are, no matter
+what environment they're in, people
+can find happiness.
 -----------------------
 #富豪
 Millionaire
@@ -1056,9 +1070,9 @@ Woman
 #アイグレッテではレンズさえあれば
 #アタモニ神団の人たちが
 #奇跡の力で助けてくれるの
-In Aigrette, as long as you have a Lens,
-the Order of Atamoni will help you
-with their miraculous powers.
+In Aigrette, as long as you have a
+Lens, the Order of Atamoni will help
+you with their miraculous powers.
 -----------------------
 #女性
 Woman
@@ -1075,17 +1089,18 @@ That's what makes it fun♪
 #う～ん････
 #楽するより努力するのが楽しいの？
 #よく、わかんないなあ
-Hmmm...
-Working hard is more fun than taking it easy?
-I don't really get it.
+Hmmm... Working hard is more fun
+than taking it easy? I don't really
+get it.
 -----------------------
 #女性
 Woman
 -----------------------
 #いっしょに住んでる人たちも親切だし
 #ほんと、この街はいいところよ
-The people who live here are so kind.
-This town really is a wonderful place.
+The people who live here are
+so kind. This town really is a
+wonderful place.
 -----------------------
 #女性
 Woman
@@ -1119,9 +1134,9 @@ Woman
 #ふーん
 #英雄になる前に、ちゃんとお掃除が
 #出来るようになってね
-Hmmm...
-Before you become a hero,
-learn to clean up after yourself, okay?
+Hmmm... Before you become a hero,
+learn to clean up after yourself,
+okay?
 -----------------------
 #女性
 Woman
@@ -1218,9 +1233,9 @@ Woman
 #親になったら
 #お母さんたちの気持ちが
 #少しはわかるのかしら？
-I wonder if I'll understand
-how mothers feel
-a little better once I'm a parent myself?
+I wonder if I'll understand how
+mothers feel a little better once
+I'm a parent myself?
 -----------------------
 NOTICE
 -----------------------
@@ -1262,17 +1277,19 @@ Man
 #そうだな！
 #森の中はねらわれやすいから
 #なるべく避けて歩いた方がいいよなぁ
-That's right!
-The woods are dangerous--you're easy prey in there.
-Best to steer clear of the forest as much as you can.
+That's right! The woods are
+dangerous--you're easy prey in
+there. Best to steer clear of the
+forest as much as you can.
 -----------------------
 #おじさん
 Man
 -----------------------
 #デカい木が生えた遺跡があるが、
 #あぶなくて、みんな近づかねぇな！
-There's a ruin with a huge tree growin' out of it,
-but it's dangerous. Nobody goes near it!
+There's a ruin with a huge tree
+growin' out of it, but it's
+dangerous. Nobody goes near it!
 -----------------------
 #おじさん
 Man
@@ -1307,7 +1324,8 @@ Man
 Man
 -----------------------
 #････何を言おうとしたか忘れちまったぁ
-...Shoot, I forgot what I was gonna say.
+...Shoot, I forgot what I was
+gonna say.
 -----------------------
 #おじさん
 Man
@@ -1322,8 +1340,9 @@ Man
 #なんでも、建物も住民の服装も
 #ちょっと変わった雰囲気の街らしいぜ
 You ever heard of Aquaveil?
-Apparently it's a town with a real unique vibe--
-the buildings, the clothes the locals wear, everything.
+Apparently it's a town with a real
+unique vibe-- the buildings, the
+clothes the locals wear, everything.
 -----------------------
 #おじさん
 Man
@@ -1331,8 +1350,9 @@ Man
 #アクアヴェイルは、このクレスタから
 #海をこえてずっと北東の方向にあるらしい
 #一度行ってみたいもんだな
-Aquaveil's way northeast of here, across the sea from Cresta.
-Someday I'd love to see it for myself.
+Aquaveil's way northeast of here,
+across the sea from Cresta. Someday
+I'd love to see it for myself.
 -----------------------
 #おじさん
 Man
@@ -1340,8 +1360,9 @@ Man
 #アクアヴェイルは、このクレスタから
 #海をこえてずっと北東の方向にあるらしい
 #一度行ってみたいもんだな
-Aquaveil's way northeast of here, across the sea from Cresta.
-Someday I'd love to see it for myself.
+Aquaveil's way northeast of here,
+across the sea from Cresta. Someday
+I'd love to see it for myself.
 -----------------------
 #光り物好きなメイド
 Maid Who Likes Shiny Things
@@ -1501,10 +1522,11 @@ Mysterious Warrior
 #勇者になる予定の者だ
 #君たちにとって戦いとは
 #なんたるものかね？
-I have survived countless fierce battles.
-I am one destined to become a hero.
-Tell me - what does battle mean to you?
-What manner of thing is it?
+I have survived countless fierce
+battles. I am one destined to
+become a hero. Tell me - what does
+battle mean to you? What manner of
+thing is it?
 -----------------------
 select
 -----------------------
@@ -2813,9 +2835,9 @@ notice
 #「通常攻撃」について
 #深く話し合っているようです
 #耳を傾けますか？
-"Normal Attack"
-They seem to be having a deep discussion.
-Will you listen in?
+"Normal Attack" They seem to be
+having a deep discussion. Will you
+listen in?
 -----------------------
 #慣れてきたから最近は通常攻撃は
 #<button:00000045>だけ叩きっぱなしさ

@@ -17,9 +17,10 @@ NOTICE
 #こんな所に植え込みがあります
 #不思議な事に、まったく雪をかぶっていません
 #この植え込みに『苗木』を植えてみますか？
-There's a hedge here.
-Strangely enough, it's completely free of snow.
-Would you like to plant a 'sapling' in this hedge?
+There's a hedge here. Strangely
+enough, it's completely free of
+snow. Would you like to plant a
+'sapling' in this hedge?
 -----------------------
 select
 -----------------------
@@ -37,8 +38,9 @@ NOTICE
 -----------------------
 #こんな所に植え込みがあります
 #不思議な事に、まったく雪をかぶっていません
-There's a hedge here.
-Strangely enough, it's completely free of snow.
+There's a hedge here. Strangely
+enough, it's completely free of
+snow.
 -----------------------
 #いってらっしゃいませ
 Have a good day.

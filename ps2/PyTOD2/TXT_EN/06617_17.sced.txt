@@ -29,7 +29,8 @@ There's an item here that feels somehow sacred.
 NOTICE
 -----------------------
 #石碑に文字が彫られています
-Characters are carved into the stone monument.
+Characters are carved into the
+stone monument.
 -----------------------
 <Harold>
 -----------------------
@@ -82,16 +83,18 @@ NOTICE
 #霧深き山の懐
 　
 #　　　そこで不吉の証を手に入れよ
-The highest pasture atop the mist-shrouded land
-Within the misty mountains
-There, obtain the token of ill omen
+The highest pasture atop the
+mist-shrouded land Within the misty
+mountains There, obtain the token
+of ill omen
 -----------------------
 NOTICE
 -----------------------
 #石碑に文字が彫られていますが
 #難しくて読めません
-Characters are carved into the stone monument,
-but they're too difficult to read.
+Characters are carved into the
+stone monument, but they're too
+difficult to read.
 -----------------------
 #リアーナ
 Riana
@@ -100,8 +103,8 @@ Riana
 #呼ぶところなのですが････
 #今は、夫婦となる人と出ておりまして
 Normally, my daughter Claire would
-be here as well, but...
-she's currently out with her betrothed.
+be here as well, but... she's
+currently out with her betrothed.
 -----------------------
 #かわりといっては、なんですが
 #ぜひ、エミリと
@@ -142,9 +145,9 @@ Emily, I'm gonna give you a big kiss! Mwah!
 #や、やめてくれ～
 #俺は１４歳以下には
 #手を出さない主義なんだぁ～！
-P-please, stop!
-I have a strict policy against
-getting involved with anyone under 14!
+P-please, stop! I have a strict
+policy against getting involved
+with anyone under 14!
 -----------------------
 #あたし、エミリっていうの
 #あなたの名前は？
@@ -188,9 +191,11 @@ Sentry
 #館そのものが封印となって
 #異次元空間の広がりをおさえてはいるが
 #それもいつまでもつことやら････
-The mansion itself serves as the seal,
-holding back the expansion of that other-dimensional space,
-but who knows how much longer it will hold...
+The mansion itself serves as the
+seal, holding back the expansion
+of that other-dimensional space,
+but who knows how much longer it
+will hold...
 -----------------------
 #番兵
 Sentry
@@ -198,9 +203,10 @@ Sentry
 #悪いことは言わん
 #ここから早々に立ち去るがいい
 #別世界へ連れ去られたくないならな
-I'm not one to mince words.
-You'd best leave this place at once,
-unless you fancy being dragged off to another world.
+I'm not one to mince words. You'd
+best leave this place at once,
+unless you fancy being dragged off
+to another world.
 -----------------------
 #番兵
 Sentry
@@ -218,9 +224,10 @@ Sentry
 #アクアヴェイルとて例外ではない
 #そのとき、突然に現われた異次元空間が
 #いまも街を飲みこもうとしているのだ
-Aquaveil was no exception.
-The dimensional rift that appeared then
-still threatens to swallow the town to this day.
+Aquaveil was no exception. The
+dimensional rift that appeared then
+still threatens to swallow the town
+to this day.
 -----------------------
 #番兵
 Sentry
@@ -228,9 +235,11 @@ Sentry
 #館そのものが封印となって
 #異次元空間の広がりをおさえてはいるが
 #それもいつまでもつことやら････
-The mansion itself serves as the seal,
-holding back the expansion of that other-dimensional space,
-but who knows how much longer it will hold...
+The mansion itself serves as the
+seal, holding back the expansion
+of that other-dimensional space,
+but who knows how much longer it
+will hold...
 -----------------------
 #番兵
 Sentry
@@ -238,9 +247,10 @@ Sentry
 #悪いことは言わん
 #ここから早々に立ち去るがいい
 #別世界へ連れ去られたくないならな
-I'm not one to mince words.
-You'd best leave this place at once,
-unless you fancy being dragged off to another world.
+I'm not one to mince words. You'd
+best leave this place at once,
+unless you fancy being dragged off
+to another world.
 -----------------------
 #フェイト
 Fate
@@ -476,7 +486,8 @@ in an attempt to break the seal, but...
 <Loni>
 -----------------------
 #この結界は、そいつを封じているんだな？
-This barrier is what's sealing that thing away, right?
+This barrier is what's sealing that
+thing away, right?
 -----------------------
 #ああ
 #十八年前はこの結界のおかげで
@@ -519,8 +530,9 @@ Stone... treasure...?
 -----------------------
 #宝石を使って宝をみんな手に入れたけど
 #ま、まさかこれってオレたちのせい････!?
-We used gems to get all that treasure, but...
-W-wait, don't tell me this is our fault...!?
+We used gems to get all that
+treasure, but... W-wait, don't tell
+me this is our fault...!?
 -----------------------
 <Loni>
 -----------------------
@@ -532,9 +544,9 @@ I... I'm getting that feeling too...
 #ご、ごめんなさい　フェイトさん
 #封印が解けたのって、たぶんオレたちの
 #責任です････
-I-I'm sorry, Fate.
-The seal breaking... that was probably
-our fault...
+I-I'm sorry, Fate. The seal
+breaking... that was probably our
+fault...
 -----------------------
 #なんだって！悪魔を封じる宝石を
 #使ってしまったというのか!?
@@ -545,7 +557,8 @@ that seal away the demon!?
 -----------------------
 #オレ、中に入って悪魔を封じる方法を
 #探してきます！
-I'm going inside to find a way to reseal the demon!
+I'm going inside to find a way to
+reseal the demon!
 -----------------------
 #なに！
 #本気か、<Kyle>くん！
@@ -557,9 +570,9 @@ Are you serious, <Kyle>?!
 #オレたちの責任です！
 #このまま放っておく事なんて
 #出来ません！
-It's our responsibility!
-We can't just leave things like this!
-I won't stand for it!
+It's our responsibility! We can't
+just leave things like this! I
+won't stand for it!
 -----------------------
 <Loni>
 -----------------------
@@ -637,21 +650,23 @@ notice
 #不気味な光を放つ入口があります
 #強力な力で封印されているのか
 #中に入る事が出来ません
-There's an entrance emitting an eerie light.
-It seems to be sealed by a powerful force.
-You cannot enter.
+There's an entrance emitting an
+eerie light. It seems to be sealed
+by a powerful force. You cannot
+enter.
 -----------------------
 notice
 -----------------------
 #手持ちの宝石があやしく輝いています
-The gems you carry are glowing ominously.
+The gems you carry are glowing
+ominously.
 -----------------------
 notice
 -----------------------
 #十五個の宝石が激しく輝いています
 #宝石を中に入れますか？
-The fifteen gems are shining intensely.
-Insert the gems?
+The fifteen gems are shining
+intensely. Insert the gems?
 -----------------------
 select
 -----------------------
@@ -673,7 +688,8 @@ This area will inflict damage.
 notice
 -----------------------
 #このマップはエンカウントマックスです
-This area has maximum encounter rate.
+This area has maximum encounter
+rate.
 -----------------------
 notice
 -----------------------

@@ -9,14 +9,16 @@ Egg of God - Middle Layer
 #今度は、あたしの番みたいだね
 #このゴミの山は、トラッシュマウンテン････か
 Looks like it's my turn this time.
-So this garbage heap is Trash Mountain, huh...
+So this garbage heap is Trash
+Mountain, huh...
 -----------------------
 NOTICE
 -----------------------
 #不気味に光る何かの『かけら』があります
 #不吉な予感がしますが、これを持っていきますか？
-There's a fragment of something glowing ominously.
-It gives off an ill omen, but will you take it?
+There's a fragment of something
+glowing ominously. It gives off an
+ill omen, but will you take it?
 -----------------------
 select
 -----------------------

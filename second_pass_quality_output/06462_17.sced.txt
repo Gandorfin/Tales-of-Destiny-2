@@ -52,9 +52,9 @@ Soldier
 #それは、間違いありません！
 #モンスターを率いている男が
 #『ウッドロウ王の命をもらいうける』と････
-There's no doubt about it!
-The man leading the monsters
-said he's here to claim King Garr's life...
+There's no doubt about it! The man
+leading the monsters said he's here
+to claim King Garr's life...
 -----------------------
 <Reala>
 -----------------------
@@ -81,10 +81,10 @@ Soldier
 #突然の襲撃に皆も対処しきれていない！
 #守備兵も城のあちこちに散らばって
 #しまっている！
-Damn it, what's going on!?
-Nobody can keep up with this sudden attack!
-The guards are scattered all over the castle
-and we're in trouble!
+Damn it, what's going on!? Nobody
+can keep up with this sudden attack!
+The guards are scattered all over
+the castle and we're in trouble!
 -----------------------
 #兵士
 Soldier
@@ -92,18 +92,20 @@ Soldier
 #城下から応援が来るのもしばらく先だろう
 #このままでは城に散らばった兵たちが
 #各個撃破されてしまう････！
-Reinforcements from the town below won't arrive for some time.
-If this keeps up, the soldiers scattered throughout the castle
-will be picked off one by one...!
+Reinforcements from the town below
+won't arrive for some time. If this
+keeps up, the soldiers scattered
+throughout the castle will be picked
+off one by one...!
 -----------------------
 <Judas>
 -----------------------
 #連絡役は僕たちがやる
 #お前は持ち場を離れず、まずは別館の安全を
 #確保するんだ
-We'll handle communications.
-Stay at your post and secure the annex first.
-Understood?
+We'll handle communications. Stay
+at your post and secure the annex
+first. Understood?
 -----------------------
 #兵士
 Soldier
@@ -167,9 +169,9 @@ Soldier
 #あの鐘は、この街で
 #普段から鳴っていました
 #いわば、日常の象徴です
-That bell used to ring
-all the time in this town.
-It's practically a symbol of everyday life.
+That bell used to ring all the time
+in this town. It's practically a
+symbol of everyday life.
 -----------------------
 #兵士
 Soldier
@@ -177,9 +179,10 @@ Soldier
 #だから、今こそ鳴らすべきだと思うんです
 #失われてしまった、日常とか、平和とか
 #鐘が鳴れば、取りもどせるかもって････
-That's why I think we need to ring it now.
-The daily life we lost, peace itself...
-If the bells ring, maybe we can get it all back...
+That's why I think we need to ring
+it now. The daily life we lost,
+peace itself... If the bells ring,
+maybe we can get it all back...
 -----------------------
 #兵士
 Soldier
@@ -197,9 +200,10 @@ Soldier
 #ガレキを取り除く作業は、順調に進んでます
 #この分だと、遠くないうちに
 #鐘楼への道が開けそうです
-The debris removal is going smoothly.
-At this rate, it won't be long
-before the path to the bell tower opens up.
+The debris removal is going
+smoothly. At this rate, it won't
+be long before the path to the bell
+tower opens up.
 -----------------------
 #兵士
 Soldier
@@ -207,9 +211,9 @@ Soldier
 #道が開けたら、鐘を直すつもりです
 #どれぐらい時間がかかるか
 #わかりませんけど････やってみたいんです
-Once the path opens, I plan to fix the bell.
-Not sure how long it'll take,
-but I want to give it a try.
+Once the path opens, I plan to fix
+the bell. Not sure how long it'll
+take, but I want to give it a try.
 -----------------------
 #兵士
 Soldier
@@ -228,8 +232,9 @@ Soldier
 #私ひとりだと、思ってたんですけど････
 #匿名で、寄付をいただいたんです！
 I thought I was the only one
-thinking about something so ridiculous...
-but someone anonymously donated to me!
+thinking about something so
+ridiculous... but someone
+anonymously donated to me!
 -----------------------
 #兵士
 Soldier
@@ -247,8 +252,8 @@ Soldier
 #やぁ、ようこそ！
 #ここまで登ってくる方は
 #めずらしいんですよ
-Hey there, welcome!
-Not many people make it all the way up here.
+Hey there, welcome! Not many people
+make it all the way up here.
 -----------------------
 <Kyle>
 -----------------------
@@ -263,9 +268,10 @@ Soldier
 #えぇ、先々代の国王さまが
 #平和の象徴として建てたんです
 #すごく澄んだ、いい音が鳴るんですよ
-Yes. The king from two generations ago
-had it built as a symbol of peace.
-It has the most wonderfully clear tone.
+Yes. The king from two generations
+ago had it built as a symbol of
+peace. It has the most wonderfully
+clear tone.
 -----------------------
 #兵士
 Soldier
@@ -273,9 +279,9 @@ Soldier
 #鐘の手入れは、面倒だし地味だって
 #みんな、いうんですけど････
 #私には性にあってるみたいです
-Everyone says tending to bells is a dull,
-thankless chore... but I suppose
-it's just in my nature.
+Everyone says tending to bells is
+a dull, thankless chore... but I
+suppose it's just in my nature.
 -----------------------
 #兵士
 Soldier
@@ -283,9 +289,10 @@ Soldier
 #それに、ここから街が一望できるんです
 #夕方、手入れを終えたあととかに見ると
 #一日の疲れも吹き飛んじゃいますよ
-Besides, you can see the whole town from up here.
-Watching the sunset after finishing my work...
-it melts the day's fatigue right away.
+Besides, you can see the whole town
+from up here. Watching the sunset
+after finishing my work... it melts
+the day's fatigue right away.
 -----------------------
 #兵士
 Soldier

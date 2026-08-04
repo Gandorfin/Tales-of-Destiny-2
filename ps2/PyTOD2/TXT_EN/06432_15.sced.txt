@@ -41,8 +41,8 @@ Woman
 #もらった人の
 #身も心も凍りつかせるような
 #おみやげってないかしら？
-I wonder if there's a souvenir
-that would freeze whoever received it
+I wonder if there's a souvenir that
+would freeze whoever received it
 body and soul?
 -----------------------
 <Loni>
@@ -101,8 +101,8 @@ Woman
 #もらった人の
 #身も心も凍りつかせるような
 #おみやげってないかしら？
-I wonder if there's a souvenir
-that would freeze whoever received it
+I wonder if there's a souvenir that
+would freeze whoever received it
 body and soul?
 -----------------------
 <Loni>
@@ -234,7 +234,8 @@ to make it are {18}{44}{78}{C0}.
 Chef
 -----------------------
 #材料を持っているじゃないか
-Looks like you've got the ingredients.
+Looks like you've got the
+ingredients.
 -----------------------
 #シェフ
 Chef
@@ -273,7 +274,8 @@ Chef
 #食材を探しているんだ
 #見つけたら持ってきてくれないかい？
 I'm on the hunt for ingredients.
-If you find any, would you bring them to me?
+If you find any, would you bring
+them to me?
 -----------------------
 #シェフ
 Chef
@@ -288,8 +290,9 @@ Chef
 -----------------------
 #お前のような奴を待ってた
 #これをゆずるのに相応しい料理人を
-I've been waiting for someone like you.
-A chef worthy of receiving this.
+I've been waiting for someone like
+you. A chef worthy of receiving
+this.
 -----------------------
 notice
 -----------------------

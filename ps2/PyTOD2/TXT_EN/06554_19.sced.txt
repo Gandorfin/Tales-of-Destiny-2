@@ -111,9 +111,11 @@ Townsperson
 #肉体が滅び、土へと還る････
 #同時に、レンズを天に還すことで
 #はじめて、死者の魂は無へ還ることができる
-When the body perishes and returns to the earth...
-At the same time, by returning the Lens to the heavens,
-only then can the souls of the dead return to nothingness.
+When the body perishes and returns
+to the earth... At the same time, by
+returning the Lens to the heavens,
+only then can the souls of the dead
+return to nothingness.
 -----------------------
 #街の人
 Townsperson
@@ -121,16 +123,17 @@ Townsperson
 #そうすれば、次に生まれてくる子に
 #レンズは受け継がれていきますからね
 #当然のことじゃないですか
-If we do that, the next child to be born
-will inherit the Lens, you see?
+If we do that, the next child to be
+born will inherit the Lens, you see?
 It's only natural, isn't it?
 -----------------------
 <Judas>
 -----------------------
 #それを、子供の手でやるのが
 #この世界の風習というわけか････
-And having children perform that task
-is the custom in this world, I see...
+And having children perform that
+task is the custom in this world,
+I see...
 -----------------------
 #街の人
 Townsperson
@@ -147,8 +150,8 @@ Townsperson
 -----------------------
 #これは、ほんのお礼です
 #とっておいてください
-This is just a small token of my gratitude.
-Please, take it.
+This is just a small token of my
+gratitude. Please, take it.
 -----------------------
 NOTICE
 -----------------------
@@ -176,8 +179,8 @@ Is there some reason I should be?
 -----------------------
 #やっぱり、なにかおかしいよ
 #この世界は････
-I knew it. Something's seriously wrong
-with this world...
+I knew it. Something's seriously
+wrong with this world...
 -----------------------
 #街の人
 Townsperson
@@ -185,8 +188,9 @@ Townsperson
 #エルレインさまの人口整理政策によって
 #僕はスペランツァからレアルタに
 #移住してきたんです
-Due to Lady Elrane's population control policies,
-I was relocated from Speranza to Realta.
+Due to Lady Elrane's population
+control policies, I was relocated
+from Speranza to Realta.
 -----------------------
 #街の人
 Townsperson

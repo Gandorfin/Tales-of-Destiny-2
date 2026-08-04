@@ -11,8 +11,8 @@ Flying Dragon
 -----------------------
 #飛行竜に追いついたのはいいけどよ
 #これから、どうするんだ？
-We caught up to the flying dragon, but...
-what do we do now?
+We caught up to the flying dragon,
+but... what do we do now?
 -----------------------
 <Judas>
 -----------------------
@@ -25,8 +25,8 @@ we can't carry it all out.
 -----------------------
 #飛行竜の動力を止めて墜落させ
 #海に沈めるしかないな
-We'll have to stop its engines, crash it,
-and sink it into the sea.
+We'll have to stop its engines,
+crash it, and sink it into the sea.
 -----------------------
 <Loni>
 -----------------------
@@ -74,8 +74,9 @@ notice
 -----------------------
 #鎖を登ってイクシフォスラーに戻ると
 #有料で回復やアイテムの補充が行えます
-Climb the chain to return to Ixion Fortress,
-where you can pay to heal and replenish items.
+Climb the chain to return to Ixion
+Fortress, where you can pay to heal
+and replenish items.
 -----------------------
 #いってらっしゃいませ
 Take care.

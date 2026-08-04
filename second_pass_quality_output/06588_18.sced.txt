@@ -8,8 +8,8 @@ Supplies Storage
 -----------------------
 #ああ、こっから先は研究所だから
 #行かなくていいわよ
-Yeah, from here on it's the research facility.
-You don't need to go.
+Yeah, from here on it's the research
+facility. You don't need to go.
 -----------------------
 <Kyle>
 -----------------------
@@ -24,10 +24,11 @@ How do you know that?
 #ちょっと見た事があるのよ
 #そのうち、ソーディアンの研究施設として
 #使おうと思ってるの
-I stopped by once, back before the gas showed up.
-I've seen it a little.
-Eventually, we're planning to use it
-as a Swordian research facility.
+I stopped by once, back before
+the gas showed up. I've seen it a
+little. Eventually, we're planning
+to use it as a Swordian research
+facility.
 -----------------------
 <Harold>
 -----------------------
@@ -35,8 +36,8 @@ as a Swordian research facility.
 #行かなくていいわよ
 #そのうち、ソーディアンの研究施設として
 #使おうと思ってるの
-Yeah, from here on it's the research facility.
-You don't need to go in.
+Yeah, from here on it's the research
+facility. You don't need to go in.
 Eventually, we're planning to use it
 as a Swordian research facility.
 -----------------------
@@ -48,21 +49,24 @@ notice
 #大きなコンテナがあります
 <item:00000033>、<item:00000034>、<item:00000035>
 #この三つの鍵でプロテクトされているようです
-There's a large container here.
-It appears to be protected by three keys.
+There's a large container here. It
+appears to be protected by three
+keys.
 -----------------------
 notice
 -----------------------
 <item:00000033>、<item:00000034>、<item:00000035>
 #三つの鍵を使ってプロテクトを解除しました
-Protection removed with the three keys.
+Protection removed with the three
+keys.
 -----------------------
 <Harold>
 -----------------------
 #ん～と、必要な部品は
 #バルブとノズルと耐熱材と････
-Let's see, the parts we need are...
-a valve, a nozzle, and heat-resistant material...
+Let's see, the parts we need
+are... a valve, a nozzle, and
+heat-resistant material...
 -----------------------
 <Harold>
 -----------------------
@@ -75,15 +79,17 @@ Now I just need to put it together.
 -----------------------
 #こんなガラクタの寄せ集めで
 #ホントに空飛ぶ乗り物が作れるの？
-You really think we can build a flying vehicle
-out of a pile of scrap like this?
+You really think we can build a
+flying vehicle out of a pile of
+scrap like this?
 -----------------------
 <Harold>
 -----------------------
 #これだけの材料があるのよ
 #普通、作れない？
 We've got all these materials.
-Isn't it normal to be able to make something?
+Isn't it normal to be able to make
+something?
 -----------------------
 <Loni>
 -----------------------
@@ -114,8 +120,9 @@ Time over.
 #低レベルのプロテクトを
 #解除するためのカギね
 #同じモノがあと２つあるはずよ
-This key removes low-level protection.
-There should be two more just like it.
+This key removes low-level
+protection. There should be two
+more just like it.
 -----------------------
 <Harold>
 -----------------------
@@ -134,17 +141,19 @@ Huh? Why?
 #こいつ、温度変化に弱いのよ
 #外の吹雪の中に出たら
 #あっという間に、ボロボロよ
-This thing's weak to temperature shifts.
-If you take it out into that blizzard,
-it'll fall apart before you know it.
+This thing's weak to temperature
+shifts. If you take it out into
+that blizzard, it'll fall apart
+before you know it.
 -----------------------
 <Harold>
 -----------------------
 #低レベルのプロテクトを
 #解除するためのカギね
 #同じモノがもう１つあるはずよ
-This key removes low-level protection.
-There should be one more just like it.
+This key removes low-level
+protection. There should be one
+more just like it.
 -----------------------
 <Harold>
 -----------------------
@@ -152,10 +161,10 @@ There should be one more just like it.
 #マスターキーが手に入るわ
 #どこかにあるはずだから
 #探しましょ
-With these three keys,
-I can get the master key.
-They should be around here somewhere,
-so let's look for them.
+With these three keys, I can get
+the master key. They should be
+around here somewhere, so let's
+look for them.
 -----------------------
 <Harold>
 -----------------------
@@ -169,9 +178,10 @@ protection removal key.
 #「マスターキー」「セルキー」「バイオキー」
 #この３つのキーを資材コンテナに使えば
 #プロテクトを解除できるわ
-"Master Key," "Cell Key," and "Bio Key."
-Use these three keys on the supply container
-and you can remove the protection.
+"Master Key," "Cell Key," and "Bio
+Key." Use these three keys on the
+supply container and you can remove
+the protection.
 -----------------------
 <Harold>
 -----------------------
@@ -179,10 +189,11 @@ and you can remove the protection.
 #温度変化に弱いから、外に出ちゃダメよ
 #あんな吹雪の中に出たら
 #一発でボロボロだからね！
-But "Cell Key" and "Bio Key"
-are weak to temperature changes, so don't take them outside.
-If you go out in that blizzard,
-they'll be ruined in an instant!
+But "Cell Key" and "Bio Key" are
+weak to temperature changes, so
+don't take them outside. If you go
+out in that blizzard, they'll be
+ruined in an instant!
 -----------------------
 #特に何もありません
 There's nothing of note.

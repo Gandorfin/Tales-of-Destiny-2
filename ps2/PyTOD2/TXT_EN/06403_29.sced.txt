@@ -159,9 +159,9 @@ Woman
 #スタンくんったら
 #村の池のコイを持っていって
 #大目玉くらったらしいわよ
-And Stahn, he went and took
-the koi from the village pond.
-Got himself in big trouble for it, they say.
+And Stahn, he went and took the koi
+from the village pond. Got himself
+in big trouble for it, they say.
 -----------------------
 #おばさん
 Woman
@@ -195,8 +195,8 @@ Woman
 -----------------------
 #お帰りなさい
 #ずいぶんと長旅だったのね
-Welcome back.
-That must have been quite a long journey.
+Welcome back. That must have been
+quite a long journey.
 -----------------------
 <Reala>
 -----------------------
@@ -211,9 +211,10 @@ Woman
 #ほとんど、人がおとずれない村だから
 #何度もきてくれるお客さんは
 #村の一員みたいに感じるのよね
-Hardly anyone ever visits this village,
-so when guests keep coming back,
-they start to feel like family.
+Hardly anyone ever visits this
+village, so when guests keep
+coming back, they start to feel
+like family.
 -----------------------
 #おばさん
 Woman
@@ -230,9 +231,9 @@ you found yourselves a nice girl?
 #好きな････子？
 #オレには、好きな
 #いや、ちがう、もっと大切な人が････
-A girl... I like?
-I do have someone I like...
-No, wait. Someone even more important to me...
+A girl... I like? I do have someone
+I like... No, wait. Someone even
+more important to me...
 -----------------------
 #おばさん
 Woman
@@ -303,8 +304,8 @@ there's nothing he can't defeat!
 -----------------------
 #スタンゴッコか
 #昔、オレもよくやったな
-Playing Stahn, huh?
-I used to do that all the time when I was little.
+Playing Stahn, huh? I used to do
+that all the time when I was little.
 -----------------------
 #子供
 Kid
@@ -359,8 +360,8 @@ Kid
 #オレも、いつか、この村をでて
 #ものすごい、えいゆうになるのだぁ～！
 #そして、世界を救うのだ～！
-Someday, I'm gonna leave this village
-and become an amazing hero!
+Someday, I'm gonna leave this
+village and become an amazing hero!
 And then I'll save the world!
 -----------------------
 <Kyle>
@@ -368,8 +369,8 @@ And then I'll save the world!
 #世界を････救う？
 #････そうだ、英雄は世界を救うんだよな
 #でも････
-Save... the world?
-...Right. Heroes are supposed to save the world.
+Save... the world? ...Right. Heroes
+are supposed to save the world.
 But...
 -----------------------
 #子供
@@ -415,9 +416,10 @@ Man
 #いやぁ、どっかで
 #見たことある頭だと思ったら
 #ハリネズミにソックリなんだ、うんうん！
-Man, I feel like I've seen that head somewhere before.
-And then it hit me...
-It's a dead ringer for a hedgehog! Yep, yep!
+Man, I feel like I've seen that
+head somewhere before. And then it
+hit me... It's a dead ringer for a
+hedgehog! Yep, yep!
 -----------------------
 <Kyle>
 -----------------------
@@ -432,9 +434,9 @@ Man
 #ん？　あんた
 #昔、どこかで見たような
 #ん～、どこで見たんだっけ････
-Hm? You.
-I feel like I've seen you somewhere...
-Hmm, where was it again...?
+Hm? You. I feel like I've seen
+you somewhere... Hmm, where was
+it again...?
 -----------------------
 #おじさん
 Man
@@ -442,9 +444,9 @@ Man
 #あぁ、そうだ！
 #裏山でみた、ハリネズミ！
 #あんたの頭そっくりだ！
-Ah, that's it!
-The hedgehog I saw on the back mountain!
-Your head looks exactly like it!
+Ah, that's it! The hedgehog I saw
+on the back mountain! Your head
+looks exactly like it!
 -----------------------
 #おじさん
 Man
@@ -489,14 +491,16 @@ Man
 #いやぁ、どっかで
 #見たことある頭だと思ったら
 #ハリネズミにソックリなんだ、うんうん！
-Man, I feel like I've seen that head somewhere before.
-And then it hit me...
-It's a dead ringer for a hedgehog! Yep, yep!
+Man, I feel like I've seen that
+head somewhere before. And then it
+hit me... It's a dead ringer for a
+hedgehog! Yep, yep!
 -----------------------
 <Kyle>
 -----------------------
 #････いや、きっと、父さんのことだよ
-...No, it's definitely about my father.
+...No, it's definitely about my
+father.
 -----------------------
 #おじさん
 Man
@@ -504,9 +508,9 @@ Man
 #ん？　あんた
 #どこかで見たような顔だな
 #ん～、どこで見たんだっけ････
-Hm? You.
-You've got a face I've seen somewhere...
-Hmm, where was it again...?
+Hm? You. You've got a face I've
+seen somewhere... Hmm, where was
+it again...?
 -----------------------
 #おじさん
 Man
@@ -514,9 +518,9 @@ Man
 #あぁ、そうだ！
 #裏山でみた、ハリネズミ！
 #あんたの頭そっくりだ！
-Ah, that's it!
-The hedgehog I saw on the back mountain!
-Your head looks just like it!
+Ah, that's it! The hedgehog I saw
+on the back mountain! Your head
+looks just like it!
 -----------------------
 #判定人
 Judge
@@ -579,8 +583,9 @@ There's something written on the wooden crate.
 -----------------------
 #なんだかスゴい農具がある････
 #何に使うんだろう？
-There's some pretty incredible farming tool here...
-I wonder what it's used for?
+There's some pretty incredible
+farming tool here... I wonder what
+it's used for?
 -----------------------
 #いらっしゃいませぃ
 #『もんぺハウス』
@@ -666,7 +671,8 @@ All right!
 notice
 -----------------------
 #まだ芽が出ないようです
-It doesn't seem to have sprouted yet.
+It doesn't seem to have sprouted
+yet.
 -----------------------
 notice
 -----------------------
@@ -748,7 +754,8 @@ White-Label Excellent Fertilizer
 notice
 -----------------------
 #どの肥料をあげますか？
-Which fertilizer would you like to apply?
+Which fertilizer would you like
+to apply?
 -----------------------
 select
 -----------------------
@@ -1619,9 +1626,9 @@ notice
 #「通常攻撃」について
 #深く話し合っているようです
 #耳を傾けますか？
-"Normal Attacks"
-They seem to be having an in-depth discussion.
-Would you like to listen in?
+"Normal Attacks" They seem to be
+having an in-depth discussion. Would
+you like to listen in?
 -----------------------
 #慣れてきたから最近は通常攻撃は
 #<button:00000045>だけ叩きっぱなしさ

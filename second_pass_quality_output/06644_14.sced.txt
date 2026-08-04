@@ -13,8 +13,9 @@ NOTICE
 -----------------------
 #この暖炉だけ、まったく壊れていません
 #暖炉に炭をくべてみますか？
-This fireplace is completely unharmed.
-Shall we add charcoal to the fireplace?
+This fireplace is completely
+unharmed. Shall we add charcoal to
+the fireplace?
 -----------------------
 select
 -----------------------
@@ -32,8 +33,9 @@ NOTICE
 -----------------------
 #この暖炉だけまったく壊れていません
 #暖炉から不思議な力を感じます
-This fireplace is completely unharmed.
-A mysterious power emanates from the fireplace.
+This fireplace is completely
+unharmed. A mysterious power
+emanates from the fireplace.
 -----------------------
 #いつ果てるとも無く
 #暖炉の火は燃え続けている

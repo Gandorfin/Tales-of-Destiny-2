@@ -7,7 +7,8 @@ Neuestadt
 #新鮮な野菜が陸揚げされている
 #近隣から船で輸送されて来た物のようだ
 Fresh vegetables are being unloaded.
-They appear to have been shipped in from nearby.
+They appear to have been shipped
+in from nearby.
 -----------------------
 #山のように積まれた建材だ
 #あて先はハイデルベルグとなっている
@@ -47,8 +48,8 @@ Sailor
 -----------------------
 #申しわけありません
 #修理に手間取っておりまして････
-My apologies.
-The repairs are taking longer than expected...
+My apologies. The repairs are taking
+longer than expected...
 -----------------------
 #船員
 Sailor
@@ -72,18 +73,17 @@ when the ship'll actually leave.
 #だが、ハイデルベルグへは
 #海路で行くより他に方法がない
 #ひたすら待つしかないだろう
-But there's no other way to Heidelberg
-than by sea.
-We'll simply have to wait.
+But there's no other way to
+Heidelberg than by sea. We'll simply
+have to wait.
 -----------------------
 <Kyle>
 -----------------------
 #う～ん････
 #ただ待ってるだけってのも退屈だし
 #どうしよっか？
-Hmm...
-Just waiting around is boring, though.
-What should we do?
+Hmm... Just waiting around is
+boring, though. What should we do?
 -----------------------
 #商人
 #Businessman
@@ -240,17 +240,18 @@ Captain
 #アイアイサー！
 #スノーフリアまで飛ばしていくからな
 #振り落とされんよう気をつけろ！
-Aye aye!
-We're making straight for Snowfria,
-so mind you don't get thrown overboard!
+Aye aye! We're making straight for
+Snowfria, so mind you don't get
+thrown overboard!
 -----------------------
 #船長
 Captain
 -----------------------
 #わかった、準備を整えたら来てくれ
 #またあとで、若人たちよ！
-Very well. Come back once you're ready.
-I'll see you later, youngsters!
+Very well. Come back once you're
+ready. I'll see you later,
+youngsters!
 -----------------------
 #船員
 Sailor
@@ -266,9 +267,10 @@ Sailor
 #船のほうは、まだ修理に
 #手間どってるようなので
 #街の中でも見物しててください
-The ship is still undergoing repairs,
-so I'm afraid it'll take some time.
-Please enjoy a stroll around town in the meantime.
+The ship is still undergoing
+repairs, so I'm afraid it'll take
+some time. Please enjoy a stroll
+around town in the meantime.
 -----------------------
 #船員
 Sailor
@@ -283,8 +285,8 @@ Sailor
 -----------------------
 #準備ができたら、船長に話しかけて
 #船に乗ってください
-When you're ready, talk to the captain
-and board the ship.
+When you're ready, talk to the
+captain and board the ship.
 -----------------------
 #船員
 Sailor
@@ -383,8 +385,8 @@ Ticket Seller
 #ここからはチェリクと
 #スノーフリアに行けます
 #船に乗りますか？
-We sail to Cherik and Snowfria from here.
-Will you be boarding?
+We sail to Cherik and Snowfria from
+here. Will you be boarding?
 -----------------------
 select
 -----------------------
@@ -401,8 +403,8 @@ Ticket Seller
 #ここからはチェリクと
 #スノーフリアに行けます
 #船に乗りますか？
-We sail to Cherik and Snowfria from here.
-Will you be boarding?
+We sail to Cherik and Snowfria from
+here. Will you be boarding?
 -----------------------
 select
 -----------------------
@@ -418,16 +420,16 @@ Ticket Seller
 -----------------------
 #おいおい、金が足りないじゃないか
 #カンベンしてくれよ、お客さん！
-Hey now, you haven't got enough gald.
-Have a heart, would you?
+Hey now, you haven't got enough
+gald. Have a heart, would you?
 -----------------------
 #チケット売り
 Ticket Seller
 -----------------------
 #お客さん、いいのかい？
 #急がないと、船が出ちまうぜ！
-You sure about that?
-Hurry it up, or the ship'll leave without you!
+You sure about that? Hurry it up, or
+the ship'll leave without you!
 -----------------------
 #船員たちが忙しそうに
 #船を修理している････

@@ -10,9 +10,9 @@ Priest of Fortuna
 #なにか、お困りですか？
 #私たちフォルトゥナ神団が
 #なんでも、お答えしますよ？
-Is something troubling you?
-The Sacred Order of Fortuna is here
-to answer any questions you may have.
+Is something troubling you? The
+Sacred Order of Fortuna is here to
+answer any questions you may have.
 -----------------------
 select
 -----------------------
@@ -41,9 +41,9 @@ Priest of Fortuna
 #「フォルトゥナ」という名前は
 #この世界をつくりたもうた
 #偉大なる神から、いただきました
-The name "Fortuna"
-was bestowed upon us
-by the great goddess who created this world.
+The name "Fortuna" was bestowed
+upon us by the great goddess who
+created this world.
 -----------------------
 #フォルトゥナ司祭
 Priest of Fortuna
@@ -51,9 +51,10 @@ Priest of Fortuna
 #一階にある『レンズ治療機』を使いなさい
 #フォルトゥナ神の御力で、病気も怪我も
 #一瞬で治りますよ
-Use the Lens Treatment Device on the first floor.
-Through Fortuna's divine power,
-illness and injury are healed in an instant.
+Use the Lens Treatment Device on
+the first floor. Through Fortuna's
+divine power, illness and injury are
+healed in an instant.
 -----------------------
 <Loni>
 -----------------------
@@ -66,17 +67,18 @@ Priest of Fortuna
 #宿？宿とは一体なんですか？
 #レンズ治療機さえあれば
 #生きていけるでしょう？
-An inn? What exactly is an inn?
-As long as we have a Lens Treatment Device,
-we can survive, can we not?
+An inn? What exactly is an inn? As
+long as we have a Lens Treatment
+Device, we can survive, can we not?
 -----------------------
 #フォルトゥナ司祭
 Priest of Fortuna
 -----------------------
 #一階にある配給所には行きましたか？
 #たいていの物はそこで手に入りますよ
-Have you been to the distribution center on the first floor?
-You can obtain most things there.
+Have you been to the distribution
+center on the first floor? You can
+obtain most things there.
 -----------------------
 <Judas>
 -----------------------
@@ -90,16 +92,18 @@ Priest of Fortuna
 #大昔、経済というものがあった頃は
 #そんな呼び方をしていたようですが
 Purchase? Do you mean distribution?
-Long ago, when there was such a thing as an economy,
-that seems to be what they called it.
+Long ago, when there was such a
+thing as an economy, that seems to
+be what they called it.
 -----------------------
 #フォルトゥナ司祭
 Priest of Fortuna
 -----------------------
 #お困りのことがあったら
 #いつでも、声をかけてください
-If you ever find yourselves in trouble,
-please don't hesitate to speak with us.
+If you ever find yourselves in
+trouble, please don't hesitate to
+speak with us.
 -----------------------
 #おばあさん
 Old Woman
@@ -107,9 +111,10 @@ Old Woman
 #エルレインさまは、レンズだけじゃない
 #あんな、すばらしい人たちまで
 #つかわせてくださったの
-Lady Elrane has given us more than just Lens.
-Why, she's even sent us such wonderful people
-to serve our needs.
+Lady Elrane has given us more than
+just Lens. Why, she's even sent
+us such wonderful people to serve
+our needs.
 -----------------------
 #おばあさん
 Old Woman
@@ -126,8 +131,9 @@ Old Woman
 -----------------------
 #あそこにいるフォルトゥナ神団の方ね
 #とってもいい人なのよ
-That member of the Sacred Order of Fortuna over there?
-She's such a wonderful person.
+That member of the Sacred Order of
+Fortuna over there? She's such a
+wonderful person.
 -----------------------
 #おばあさん
 Old Woman
@@ -135,9 +141,10 @@ Old Woman
 #身体の調子も、見てくださるし
 #話し相手にもなってくださるし････
 #本当、感謝することばかりだわ
-She checks on my health,
-and she's always there to talk with me...
-I truly have so much to be grateful for.
+She checks on my health, and she's
+always there to talk with me... I
+truly have so much to be grateful
+for.
 -----------------------
 #おばあさん
 Old Woman
@@ -145,9 +152,10 @@ Old Woman
 #あなたたちも、困ったことがあったら
 #相談してごらんなさいな
 #きっと、力になってくれるわ
-If you ever find yourselves in trouble,
-go ahead and speak with her.
-She's sure to lend you her strength.
+If you ever find yourselves in
+trouble, go ahead and speak with
+her. She's sure to lend you her
+strength.
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -1070,8 +1078,8 @@ notice
 #「通常攻撃」について
 #深く話し合っているようです
 #耳を傾けますか？
-About "Normal Attacks"
-They seem to be having an in-depth discussion.
+About "Normal Attacks" They seem to
+be having an in-depth discussion.
 Will you lend an ear?
 -----------------------
 #慣れてきたから最近は通常攻撃は

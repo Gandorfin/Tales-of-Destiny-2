@@ -69,9 +69,9 @@ It's killing our business.
 #街も気味が悪いくらい
 #静かだしね
 #本当に活気が無いのね････
-The town is unnervingly...
-It's so quiet.
-There really isn't any vitality at all...
+The town is unnervingly... It's
+so quiet. There really isn't any
+vitality at all...
 -----------------------
 #女将ダリエ
 The innkeeper, Darie.
@@ -276,24 +276,27 @@ Chef
 -----------------------
 #チェリクは食材が豊富にあるから
 #色々な料理が作れて楽しいよ
-Cherik's got ingredients in abundance,
-so it's a joy cooking up all sorts of dishes.
+Cherik's got ingredients in
+abundance, so it's a joy cooking up
+all sorts of dishes.
 -----------------------
 #シェフ
 Chef
 -----------------------
 #チェリクは食材が豊富にあるから
 #色々な料理が作れて楽しいよ
-Cherik's got ingredients in abundance,
-so it's a joy cooking up all sorts of dishes.
+Cherik's got ingredients in
+abundance, so it's a joy cooking up
+all sorts of dishes.
 -----------------------
 #ジョン
 John
 -----------------------
 #あっしは『漆黒の翼』のジョンでやんす！
 #あっしらは有名なレンズハンターでやんすよ！
-I'm John of the 'Black Wings,' yes indeed!
-We're famous Lens hunters, yes indeed!
+I'm John of the 'Black Wings,' yes
+indeed! We're famous Lens hunters,
+yes indeed!
 -----------------------
 select
 -----------------------
@@ -309,10 +312,11 @@ John
 #『一般市民に頭を下げて
 #仕事をもらうなど、言語道断！』って
 #宣言したでやんす！
-Our boss is an incredible man, yes indeed!
-'To bow our heads before common folk
-and take work from them is unthinkable!'
-That's what he declared, yes indeed!
+Our boss is an incredible man, yes
+indeed! 'To bow our heads before
+common folk and take work from them
+is unthinkable!' That's what he
+declared, yes indeed!
 -----------------------
 #ジョン
 John
@@ -321,8 +325,8 @@ John
 #あっしはおやびんに一生ついていくで
 #やんすよ！
 A man of such pride, yes indeed!
-I'll follow my boss to the end of my days,
-yes indeed!
+I'll follow my boss to the end of
+my days, yes indeed!
 -----------------------
 #ジョン
 John
@@ -340,9 +344,9 @@ John
 #それはイカンでやんす！
 #絶対不敗のレンズハンター
 #『漆黒の翼』を覚えておくでやんす！
-That's unacceptable!
-You'd best remember the undefeated Lens Hunters,
-the 'Jet-Black Wings'!
+That's unacceptable! You'd best
+remember the undefeated Lens
+Hunters, the 'Jet-Black Wings'!
 -----------------------
 #ジョン
 John
@@ -350,9 +354,10 @@ John
 #あっしらのご先祖様は
 #天地戦争時代に活躍したそうでやんす
 #それくらい由緒正しいチームでやんすよ！
-Our ancestors, they say, fought bravely
-during the Aeth'er Wars, yes indeed.
-We're a team with that noble a history!
+Our ancestors, they say, fought
+bravely during the Aeth'er Wars,
+yes indeed. We're a team with that
+noble a history!
 -----------------------
 #ジョン
 John
@@ -361,8 +366,9 @@ John
 #１ヶ月、宿に泊まれなかったりしても
 #あっしはおやびんについていくでやんすよ！
 Even if I go a week without food,
-or a month without a roof over my head,
-I'll stick with you till the end, boss!
+or a month without a roof over my
+head, I'll stick with you till the
+end, boss!
 -----------------------
 #シェフ
 Chef
@@ -510,7 +516,8 @@ Chef
 #食材を探しているんだ
 #見つけたら持ってきてくれないかい？
 I'm on the hunt for ingredients.
-If you find any, would you bring them to me?
+If you find any, would you bring
+them to me?
 -----------------------
 #シェフ
 Chef
@@ -525,8 +532,9 @@ Chef
 -----------------------
 #お前のような奴を待ってた
 #これをゆずるのに相応しい料理人を
-I've been waiting for someone like you.
-A chef worthy of receiving this.
+I've been waiting for someone like
+you. A chef worthy of receiving
+this.
 -----------------------
 notice
 -----------------------

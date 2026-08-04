@@ -19,7 +19,8 @@ Straylize Temple
 NOTICE
 -----------------------
 #石碑に文字が彫られています
-Characters are carved into the stone monument.
+Characters are carved into the
+stone monument.
 -----------------------
 <Harold>
 -----------------------
@@ -71,24 +72,27 @@ NOTICE
 #霧深き大地で最も高き所にある草原
 #霧深き山の懐
 #　　　そこで不吉の証を手に入れよ
-The highest grassland in all the mist-shrouded land
-Within the depths of the foggy mountains
-There, obtain the sign of ill omen.
+The highest grassland in all the
+mist-shrouded land Within the depths
+of the foggy mountains There, obtain
+the sign of ill omen.
 -----------------------
 NOTICE
 -----------------------
 #石碑に文字が彫られていますが
 #難しくて読めません
-Characters are carved into the stone monument,
-but they're too difficult to read.
+Characters are carved into the
+stone monument, but they're too
+difficult to read.
 -----------------------
 #神官
 Priest
 -----------------------
 #ようこそ　ストレイライズ大神殿へ････
 #レンズの寄進にいらしたんですか？
-Welcome to the Straylize Grand Temple...
-Have you come to donate Lens?
+Welcome to the Straylize Grand
+Temple... Have you come to donate
+Lens?
 -----------------------
 #神官
 Priest
@@ -97,8 +101,9 @@ Priest
 #奥の大神殿のほうに　どうぞ
 #アタモニ神のご加護がありますように
 If you've come to donate Lens,
-please head to the inner grand temple.
-May Lord Atamoni's blessing be upon you.
+please head to the inner grand
+temple. May Lord Atamoni's blessing
+be upon you.
 -----------------------
 #神官
 Priest
@@ -115,8 +120,9 @@ Priest
 -----------------------
 #神殿に近づくと危険です！
 #安全な場所に　避難してください
-It's dangerous to approach the temple!
-Please evacuate to a safe location.
+It's dangerous to approach the
+temple! Please evacuate to a safe
+location.
 -----------------------
 #神官
 Priest
@@ -132,7 +138,8 @@ thanks to Lord Atamoni.
 -----------------------
 #追いはらったのは
 #オレたちなんだけどな････
-We're the ones who drove them off, though...
+We're the ones who drove them off,
+though...
 -----------------------
 #神官
 Priest
@@ -140,7 +147,8 @@ Priest
 #きっと　神殿に侵入した賊には
 #アタモニ神の神罰がくだることでしょう
 Those who infiltrated the temple
-will surely face Lord Atamoni's divine punishment.
+will surely face Lord Atamoni's
+divine punishment.
 -----------------------
 #神官
 Priest
@@ -148,9 +156,9 @@ Priest
 #これから　大神殿で
 #重要な儀式が行われるので
 #参拝のほうは　ごエンリョください
-We are about to hold
-an important ceremony at the grand temple,
-so please refrain from visiting.
+We are about to hold an important
+ceremony at the grand temple, so
+please refrain from visiting.
 -----------------------
 #神官
 Priest
@@ -190,8 +198,9 @@ Priest
 #奥の大神殿のほうに、どうぞ
 #アタモニ神のご加護がありますように
 If you've come to donate Lens,
-please head to the grand temple in the back.
-May Lord Atamoni's blessing be upon you.
+please head to the grand temple
+in the back. May Lord Atamoni's
+blessing be upon you.
 -----------------------
 #神官
 Priest
@@ -207,17 +216,17 @@ Priest
 #きっと
 #諸国の視察が
 #おいそがしいのでしょうね
-I'm sure
-her inspection tours of the various nations
-must keep her quite busy.
+I'm sure her inspection tours of
+the various nations must keep her
+quite busy.
 -----------------------
 <Kyle>
 -----------------------
 #視察かどうか、わからないけど
 #いそがしいのは
 #たしかかもしれないな････
-Not sure if it's inspections or what,
-but she's definitely busy...
+Not sure if it's inspections or
+what, but she's definitely busy...
 that's for sure.
 -----------------------
 #神官
@@ -227,8 +236,9 @@ Priest
 #奥の大神殿のほうに、どうぞ
 #アタモニ神のご加護がありますように
 If you've come to donate Lens,
-please head to the grand temple in the back.
-May Lord Atamoni's blessing be upon you.
+please head to the grand temple
+in the back. May Lord Atamoni's
+blessing be upon you.
 -----------------------
 #神官
 Priest
@@ -237,8 +247,9 @@ Priest
 #奥の大神殿のほうに、どうぞ
 #フォルトゥナ神のご加護がありますように
 If you've come to donate Lens,
-please head to the inner grand temple.
-May Fortuna's blessing be upon you.
+please head to the inner grand
+temple. May Fortuna's blessing be
+upon you.
 -----------------------
 #神官
 Priest
@@ -254,17 +265,17 @@ Priest
 #きっと
 #諸国の視察が
 #おいそがしいのでしょうね
-I'm sure
-her inspection tours of the various nations
-must keep her quite busy.
+I'm sure her inspection tours of
+the various nations must keep her
+quite busy.
 -----------------------
 <Kyle>
 -----------------------
 #視察かどうか、わからないけど
 #いそがしいのは
 #たしかかもしれないな････
-Not sure if it's inspections or what,
-but she's definitely busy...
+Not sure if it's inspections or
+what, but she's definitely busy...
 that's for sure.
 -----------------------
 #神官
@@ -274,8 +285,9 @@ Priest
 #奥の大神殿のほうに、どうぞ
 #フォルトゥナ神のご加護がありますように
 If you've come to donate Lens,
-please head to the grand temple in the back.
-May Fortuna's blessing be upon you.
+please head to the grand temple in
+the back. May Fortuna's blessing
+be upon you.
 -----------------------
 #神官
 Priest
@@ -313,8 +325,8 @@ Priest
 #あの知的な
 #メガネがなんともいえず････
 #あ、いえ、なんでもございません
-That intellectual air she has...
-And those glasses are simply divine...
+That intellectual air she has... And
+those glasses are simply divine...
 N-no, it's nothing!
 -----------------------
 #神官
@@ -339,9 +351,9 @@ Priest
 -----------------------
 #それはもう
 #その人の努力次第ということで････
-Well, well...
-I'm afraid that all depends on the effort
-you put in yourself...
+Well, well... I'm afraid that all
+depends on the effort you put in
+yourself...
 -----------------------
 #神官
 Priest
@@ -357,8 +369,8 @@ guiding our way.
 -----------------------
 #見守るだけか････
 #もっとご利益あってもいいのにな
-Just watching, huh...
-You'd think there'd be more tangible perks.
+Just watching, huh... You'd think
+there'd be more tangible perks.
 -----------------------
 #神官
 Priest
@@ -366,9 +378,9 @@ Priest
 #幸せは
 #だれかにもらうものではなく
 #自分の手でつかむものですよ
-Happiness is
-not something given to you by others.
-It's something you seize with your own hands.
+Happiness is not something given to
+you by others. It's something you
+seize with your own hands.
 -----------------------
 #神官
 Priest
@@ -392,9 +404,10 @@ Priest
 #寝てません！　寝てません！
 #ちょっと　メイソウにふけってただけです！
 #アタモニ神に誓って　わたしは････
-I wasn't sleeping! I wasn't sleeping!
-I was just... deeply meditating for a moment!
-I swear to Lord Atamoni, I...
+I wasn't sleeping! I wasn't
+sleeping! I was just... deeply
+meditating for a moment! I swear to
+Lord Atamoni, I...
 -----------------------
 #神官
 Priest
@@ -423,17 +436,17 @@ Priest
 #こういうときこそ　冷静に････
 #大きく深呼吸をして････
 #スーハー　スーハー　スー　スー････
-Don't panic!
-This is exactly when I need to stay calm...
-Take a deep breath...
-Hooo... hooo... hoo... hoo...
+Don't panic! This is exactly when
+I need to stay calm... Take a deep
+breath... Hooo... hooo... hoo...
+hoo...
 -----------------------
 <Kyle>
 -----------------------
 #いつの間にか
 #深呼吸が　寝息に変わってる････
-Before I knew it,
-those deep breaths turned into snoring...
+Before I knew it, those deep breaths
+turned into snoring...
 -----------------------
 <Loni>
 -----------------------
@@ -492,9 +505,9 @@ Priest
 #寝てません！　寝てません！
 #大切な儀式の前に
 #ちょっと　メイソウにふけってただけです！
-I'm not asleep! I'm not asleep!
-I was just meditating a little
-before the important ceremony, that's all!
+I'm not asleep! I'm not asleep! I
+was just meditating a little before
+the important ceremony, that's all!
 -----------------------
 #神官
 Priest
@@ -546,9 +559,10 @@ Follower
 #ハァー
 #たくさん寄進して　よかったのう
 #こんなジックリ　神殿内を見てまわれるなんて
-Ahhh...
-I'm so glad I donated so generously.
-To think I'd get to take my time touring the temple like this.
+Ahhh... I'm so glad I donated so
+generously. To think I'd get to
+take my time touring the temple
+like this.
 -----------------------
 #信者
 Follower
@@ -556,9 +570,9 @@ Follower
 #村に帰ったら
 #たくさん　となりのジイさんに
 #ジマンしてやらないとねえ
-When I get back to the village,
-I'll have to brag to that old man next door
-'til his ears fall off.
+When I get back to the village, I'll
+have to brag to that old man next
+door 'til his ears fall off.
 -----------------------
 #信者
 Follower
@@ -566,9 +580,10 @@ Follower
 #今度は　いつ来られるか　わからんから
 #この神殿の風景を
 #まぶたの裏まで　しっかり焼きつけとくんじゃ
-Who knows when I'll get to come again,
-so I'm burning every last detail
-of this temple into the back of my eyelids.
+Who knows when I'll get to come
+again, so I'm burning every last
+detail of this temple into the back
+of my eyelids.
 -----------------------
 #信者
 Follower
@@ -576,9 +591,8 @@ Follower
 #ねえ　あんた
 #なんだか　あわただしいけど
 #なにかあったのかい？
-Hey, you.
-Things seem pretty hectic around here.
-Did something happen?
+Hey, you. Things seem pretty hectic
+around here. Did something happen?
 -----------------------
 #信者
 Follower
@@ -586,9 +600,9 @@ Follower
 #ほんに　あわただしいのう
 #最近の若者は････
 #参拝くらい　静かにおこなえんもんかのう
-Truly hectic, indeed.
-Young people these days...
-Can't they even worship in peace and quiet?
+Truly hectic, indeed. Young people
+these days... Can't they even
+worship in peace and quiet?
 -----------------------
 #信者
 Follower
@@ -597,8 +611,9 @@ Follower
 #神殿を　すみずみまで見ていくんじゃ！
 #帰る途中に　忘れかねんからのう
 Before I head back to the village,
-I'm going to see every last corner of this temple!
-Can't be forgetting anything on the way home.
+I'm going to see every last corner
+of this temple! Can't be forgetting
+anything on the way home.
 -----------------------
 #信者
 Follower
@@ -606,9 +621,9 @@ Follower
 #きっと　わしのミヤゲ話を聞いたら
 #となりのジイさん　たまげて
 #腰　ぬかすじゃろうなあ
-When that old man next door hears my souvenir stories,
-he's going to be so shocked
-he'll fall right over.
+When that old man next door hears my
+souvenir stories, he's going to be
+so shocked he'll fall right over.
 -----------------------
 #信者
 Follower
@@ -617,8 +632,9 @@ Follower
 #神殿を　すみずみまで見ていくんじゃ！
 #帰る途中に　忘れかねんからのう
 Before I head back to the village,
-I'm going to see every last corner of this temple!
-Can't be forgetting anything on the way home.
+I'm going to see every last corner
+of this temple! Can't be forgetting
+anything on the way home.
 -----------------------
 #信者
 Follower
@@ -626,9 +642,10 @@ Follower
 #ハァー
 #たくさん寄進して　よかったのう
 #こんなジックリ　神殿内を見てまわれるなんて
-Ahhh...
-I'm so glad I donated so generously.
-To think I'd get to take my time touring the temple like this.
+Ahhh... I'm so glad I donated so
+generously. To think I'd get to
+take my time touring the temple
+like this.
 -----------------------
 #どうすれば、英雄に出会えるのですか!?
 #お願いです
@@ -687,9 +704,9 @@ Worshipper
 #生きてるうちに、大神殿に
 #お参りにくることができるなんて
 #あたしゃ、幸せ者だねぇ
-To think I get to visit the Grand Temple
-while I'm still alive...
-I'm a lucky one, I am.
+To think I get to visit the Grand
+Temple while I'm still alive... I'm
+a lucky one, I am.
 -----------------------
 #参拝客
 Worshipper
@@ -707,9 +724,9 @@ Worshipper
 #ほぇ～～
 #空に、妙なモンが浮いとるのう
 #あれはいったい、なんじゃろうか？
-Oohhh...
-There's something strange floating up in the sky.
-What in the world could that be?
+Oohhh... There's something strange
+floating up in the sky. What in the
+world could that be?
 -----------------------
 #参拝客
 Worshipper
@@ -734,9 +751,9 @@ Worshipper
 #うんにゃ、ただの散歩だよ
 #天気のいい日は
 #ここまで散歩にくるのが日課でね
-Nope, just out for a stroll.
-On nice days like this,
-I make it my daily routine to walk this far.
+Nope, just out for a stroll. On nice
+days like this, I make it my daily
+routine to walk this far.
 -----------------------
 #参拝客
 Worshipper
@@ -762,8 +779,8 @@ Worshipper
 #それを感謝しに
 #はるばる大神殿にまで
 #お参りにきたんだよ
-I came all the way to the Grand Temple
-to give thanks for that.
+I came all the way to the Grand
+Temple to give thanks for that.
 -----------------------
 #参拝客
 Worshipper
@@ -800,8 +817,8 @@ Worshipper
 #それを感謝しに
 #はるばる大神殿にまで
 #お参りにきたんだよ
-I came all the way to the Grand Temple
-to give thanks for that.
+I came all the way to the Grand
+Temple to give thanks for that.
 -----------------------
 #参拝客
 Worshipper
@@ -846,8 +863,8 @@ Worshipper
 #エルレインさまも大好きだけど
 #あたしゃ、フィリアさまのファンに
 #なっちまったよ
-I love Lady Elrane too,
-but I've become a fan of Lady Philia.
+I love Lady Elrane too, but I've
+become a fan of Lady Philia.
 -----------------------
 #参拝客
 Worshipper
@@ -893,8 +910,8 @@ did you donate?
 #こいつの顔は、幸せっつーか
 #ノーテンキなんだよ
 #レンズなんて関係ないの
-This guy's face? That's not happiness,
-he's just an airhead.
+This guy's face? That's not
+happiness, he's just an airhead.
 Lenses got nothing to do with it.
 -----------------------
 #参拝客
@@ -903,8 +920,8 @@ Worshipper
 #いったい、どのくらい
 #レンズを寄進したら
 #幸せになれるのかなぁ････
-I wonder how many Lenses I'd have to donate
-to be happy...
+I wonder how many Lenses I'd have
+to donate to be happy...
 -----------------------
 #参拝客
 Worshipper
@@ -932,23 +949,25 @@ Worshipper
 #ついでに
 #彼女ができるようにって
 #お参りもしちゃうのさ
-While I'm at it, I pray for a girlfriend too.
+While I'm at it, I pray for a
+girlfriend too.
 -----------------------
 <Kyle>
 -----------------------
 #す、すごい････！
 #これがストレイライズ大神殿か！
-I-it's amazing...!
-So this is the Straylize Grand Temple!
+I-it's amazing...! So this is the
+Straylize Grand Temple!
 -----------------------
 <Loni>
 -----------------------
 #ここが、大神殿の中央に位置する大聖堂だ
 #ここへ入れるのは高位の神官だけで
 #俺も入ったのは、はじめてだ
-This is the cathedral at the center of the Grand Temple.
-Only high-ranking priests are allowed in here.
-It's my first time inside too.
+This is the cathedral at the
+center of the Grand Temple. Only
+high-ranking priests are allowed in
+here. It's my first time inside too.
 -----------------------
 <Kyle>
 -----------------------
@@ -979,9 +998,9 @@ Philia
 #研究用に保管していたレンズが
 #すべて、なくなっているんです！
 #なにか知りませんか!?
-Every Lens I had in storage for research...
-is gone!
-Do you know anything about it!?
+Every Lens I had in storage for
+research... is gone! Do you know
+anything about it!?
 -----------------------
 <Judas>
 -----------------------
@@ -996,12 +1015,14 @@ Wh-what the heck!?
 <Loni>
 -----------------------
 #くそっ！　逃げ足のはやいヤツだ！
-Damn it! That guy's fast on his feet!
+Damn it! That guy's fast on his
+feet!
 -----------------------
 <Judas>
 -----------------------
 #まさか、レンズは飛行竜に････！
-Don't tell me... the Lenses are on the Flying Dragon!?
+Don't tell me... the Lenses are on
+the Flying Dragon!?
 -----------------------
 #フィリア
 Philia
@@ -1030,8 +1051,8 @@ What!?
 -----------------------
 #神を降臨させるため
 #レンズの力を使うつもりなんです
-She intends to use the power of the Lenses
-to summon a god.
+She intends to use the power of the
+Lenses to summon a god.
 -----------------------
 #フィリア
 Philia

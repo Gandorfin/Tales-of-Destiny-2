@@ -11,8 +11,9 @@ Aquaveil
 #　モリュウ領時代から続く伝統の店
 #　万屋・モリュウはこちら！』
 'Three hundred years of history,
-A traditional shop dating back to the Moriau era.
-The general store Moriau is right here!'
+A traditional shop dating back to
+the Moriau era. The general store
+Moriau is right here!'
 -----------------------
 #奇妙な形の街灯だ
 #トーローと言う名前らしい
@@ -31,9 +32,9 @@ I wonder if we can eat these?
 #ハハハ！
 #これはキンギョスクイっていう
 #この地方独特の遊びだぜ
-Hahaha!
-This is called 'Kingyo Sukui.'
-It's a unique pastime in this region.
+Hahaha! This is called 'Kingyo
+Sukui.' It's a unique pastime in
+this region.
 -----------------------
 #不思議な形の植木が並んでいる
 Oddly shaped potted plants are lined up here.
@@ -51,8 +52,9 @@ Woman
 -----------------------
 #まわりを海に囲まれてるからね
 #よそから人が来るのも、まれなことだよ
-We're surrounded by sea on all sides, after all.
-It's rare for outsiders to visit.
+We're surrounded by sea on all
+sides, after all. It's rare for
+outsiders to visit.
 -----------------------
 #おばさん
 Woman
@@ -60,31 +62,33 @@ Woman
 #おんや、あんたたち
 #アクアヴェイルの人間じゃないね
 #その格好を見りゃすぐわかるよ
-Well now, you folks...
-You're not from Aquaveil, are you?
-I can tell just by looking at your clothes.
+Well now, you folks... You're not
+from Aquaveil, are you? I can tell
+just by looking at your clothes.
 -----------------------
 <Kyle>
 -----------------------
 #そういや、ここの人たちって
 #変わった服を着てるよね
-Now that you mention it, the people here...
-are wearing pretty unusual clothes, huh?
+Now that you mention it, the people
+here... are wearing pretty unusual
+clothes, huh?
 -----------------------
 <Kyle>
 -----------------------
 #昔、父さんに
 #東の国は文化が違うって
 #教えてもらったことがあるけど････
-A long time ago, my dad told me
-that the eastern kingdom had a different culture,
-and so on...
+A long time ago, my dad told me that
+the eastern kingdom had a different
+culture, and so on...
 -----------------------
 #茶店
 Tea Shop
 -----------------------
 #お買い物のついでに、お茶はどないどすか？
-How about some tea while you're out shopping?
+How about some tea while you're
+out shopping?
 -----------------------
 #まいどおおきに
 Thanks a bunch.
@@ -100,8 +104,8 @@ Customer
 -----------------------
 #うむ、この風味････
 #やはりお茶は、これにかぎりますな
-Hmm, this flavor...
-Truly, tea is best enjoyed just like this.
+Hmm, this flavor... Truly, tea is
+best enjoyed just like this.
 -----------------------
 <Kyle>
 -----------------------
@@ -143,9 +147,9 @@ Customer
 #やはり、お茶はいい
 #こうしていると気持ちが
 #ほんのりと安らいできますな
-Tea truly is wonderful.
-Moments like these bring
-a gentle, soothing peace to the heart.
+Tea truly is wonderful. Moments
+like these bring a gentle, soothing
+peace to the heart.
 -----------------------
 <Kyle>
 -----------------------
@@ -167,9 +171,9 @@ Fishmonger
 #どうでぇ、このイキのよさ！
 #みんな近海でとれた
 #ピッチピチの天然モノよ！
-How's that for vitality!
-Caught fresh in the nearby waters.
-Prime, natural-born beauties, every one!
+How's that for vitality! Caught
+fresh in the nearby waters. Prime,
+natural-born beauties, every one!
 -----------------------
 #またよろしくたのむぜ
 I'll be counting on you again.
@@ -185,8 +189,8 @@ Souvenir Shop Toukei
 -----------------------
 #寄ってらっしゃい、見てらっしゃい
 #珍品やレアものがあるよ
-Step right up, take a look!
-We've got rare finds and unique treasures!
+Step right up, take a look! We've
+got rare finds and unique treasures!
 -----------------------
 #今後ともどうかごひいきに！
 We look forward to your continued patronage!
@@ -235,8 +239,8 @@ Kid
 -----------------------
 #なわとび、ケン玉、いろいろあるよ
 #コン、コン、コン♪
-We've got jump rope, kendama, all sorts of stuff.
-Kon, kon, kon♪
+We've got jump rope, kendama, all
+sorts of stuff. Kon, kon, kon♪
 -----------------------
 <Kyle>
 -----------------------
@@ -244,8 +248,8 @@ Kon, kon, kon♪
 #だけど、また来るから、その時遊ぼう
 #････約束するよ！
 I don't have time to play right now.
-But I'll come back, so let's play then.
-...I promise!
+But I'll come back, so let's play
+then. ...I promise!
 -----------------------
 #自由を愛する男
 A Man Who Loves Freedom
@@ -836,7 +840,8 @@ I'll sell it to you.
 Chef
 -----------------------
 #まぁ、しようがないな
-Well, I guess there's nothing we can do about it.
+Well, I guess there's nothing we
+can do about it.
 -----------------------
 {16}{24}{A8}{C0}、{16}{24}{AA}{C0}、{16}{24}{AC}{C0}
 -----------------------
@@ -911,8 +916,9 @@ Chef
 -----------------------
 #食材を探しているんだ
 #見つけたら持ってきてくれないかい？
-I'm looking for ingredients.
-Could you bring them to me if you find any?
+I'm looking for ingredients. Could
+you bring them to me if you find
+any?
 -----------------------
 #シェフ
 Chef
@@ -927,8 +933,8 @@ Chef
 -----------------------
 #お前のような奴を待ってた
 #これをゆずるのに相応しい料理人を
-I've been waiting for someone like you.
-A chef worthy of this.
+I've been waiting for someone like
+you. A chef worthy of this.
 -----------------------
 notice
 -----------------------

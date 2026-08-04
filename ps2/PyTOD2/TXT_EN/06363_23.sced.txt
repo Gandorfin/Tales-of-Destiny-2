@@ -11,7 +11,8 @@ Aigrette - Approach to the Temple
 Aigrette
 -----------------------
 #アイグレッテ・大神殿への参道
-Approach to the Straylize Grand Temple
+Approach to the Straylize Grand
+Temple
 -----------------------
 #アイグレッテ・神殿への参道
 Aigrette - Path to the Temple
@@ -32,9 +33,9 @@ Wait, <Judas>!
 #さっさと行っちゃうなんて、ひどいよ！
 #助けてもらったお礼も
 #まだ言ってないのにさ
-You're just gonna take off like that? That's cold!
-I haven't even thanked you
-for helping me out yet!
+You're just gonna take off like
+that? That's cold! I haven't even
+thanked you for helping me out yet!
 -----------------------
 <Judas>
 -----------------------
@@ -50,9 +51,9 @@ I helped on a whim. That's all.
 #どうやったら、あんなとこを
 #偶然通りかかれるのさ！
 #助けに来てくれたに決まってるよ
-How do you just 'happen to pass through'
-a place like that?!
-You came to save us. I know you did!
+How do you just 'happen to pass
+through' a place like that?! You
+came to save us. I know you did!
 -----------------------
 <Judas>
 -----------------------
@@ -75,9 +76,9 @@ helping us out anyway?!
 #おまえたちを見ていると
 #あぶなっかしくて
 #イライラするからだ
-Because watching you people
-is like watching a disaster waiting to happen.
-It's infuriating.
+Because watching you people is
+like watching a disaster waiting to
+happen. It's infuriating.
 -----------------------
 <Kyle>
 -----------------------
@@ -97,8 +98,9 @@ What?
 #イライラするんだよ
 #近くにいれば、そんなこともないし
 You're staring at us from far away,
-so of course it's annoying!
-If you stuck close, you wouldn't have to worry about that.
+so of course it's annoying! If you
+stuck close, you wouldn't have to
+worry about that.
 -----------------------
 <Kyle>
 -----------------------
@@ -154,8 +156,9 @@ Guard
 -----------------------
 #神殿に賊が侵入したらしいんだ
 #なにか、知らないか？
-It seems thieves have broken into the temple.
-Do you know anything about it?
+It seems thieves have broken into
+the temple. Do you know anything
+about it?
 -----------------------
 <Loni>
 -----------------------
@@ -183,9 +186,10 @@ Guard
 #････そういえば、おまえたち
 #今日は、参拝の日ではないのに
 #なぜこんなところに？
-...Come to think of it, what are you lot doing here?
-Today's not a day of worship.
-Why are you in a place like this?
+...Come to think of it, what are
+you lot doing here? Today's not a
+day of worship. Why are you in a
+place like this?
 -----------------------
 <Kyle>
 -----------------------
@@ -197,9 +201,9 @@ Uh, um, well...
 #い、いやぁ、なんか道歩いてたら
 #迷って、こんなところに
 #出ちゃって････
-W-well, y'see, we were just walking along and...
-got lost, and ended up here...
-...somehow.
+W-well, y'see, we were just walking
+along and... got lost, and ended up
+here... ...somehow.
 -----------------------
 <Loni>
 -----------------------
@@ -339,8 +343,9 @@ or they'd keep grilling us, right?
 -----------------------
 #････なぜ、かばいだてした？
 #仲間などというウソまでついて
-...Why did you cover for me?
-Going so far as to lie that we were comrades.
+...Why did you cover for me? Going
+so far as to lie that we were
+comrades.
 -----------------------
 <Kyle>
 -----------------------
@@ -386,18 +391,18 @@ to say anything... That's all.
 #それにさ、ダリルシェイドで
 #別れたときに
 #なんか言いかけてたよね？
-Besides, back in Darilsheid
-when we split up,
-you were about to say something, weren't you?
+Besides, back in Darilsheid when
+we split up, you were about to say
+something, weren't you?
 -----------------------
 <Kyle>
 -----------------------
 #あれって、「いっしょに行こう」って
 #言いかけたんでしょ？
 #うん、ぜったいそうに、決まってるよ！
-You were gonna say 'Let's go together,' right?
-That's totally what it was!
-Yeah, I'm sure of it!
+You were gonna say 'Let's go
+together,' right? That's totally
+what it was! Yeah, I'm sure of it!
 -----------------------
 <Judas>
 -----------------------
@@ -430,9 +435,9 @@ Bring it on, I say!
 #俺は、こんな能天気なヤツと
 #いっしょに旅をしてるんだぜ？
 #つまり最初っから、ロクでもないんだ
-I'm traveling with this carefree doofus, yeah?
-So I've been in nothing but trouble
-from day one.
+I'm traveling with this carefree
+doofus, yeah? So I've been in
+nothing but trouble from day one.
 -----------------------
 <Loni>
 -----------------------
@@ -448,16 +453,16 @@ Won't make a lick of difference.
 #困難に巻きこむということなら
 #わたしも同じだと思います
 #だから、わたしは気にしません
-If it means being drawn into hardship,
-then I feel the same way.
+If it means being drawn into
+hardship, then I feel the same way.
 So I don't mind at all.
 -----------------------
 <Judas>
 -----------------------
 #････バカ者どもが
 #あとで後悔しても知らんぞ
-...You fools.
-Don't come crying to me when you regret it.
+...You fools. Don't come crying to
+me when you regret it.
 -----------------------
 <Kyle>
 -----------------------
@@ -496,18 +501,19 @@ King Garr of Heidelberg.
 #四英雄のひとり、英雄王ウッドロウか
 #確かに、スタンさんと並んで
 #もっとも英雄と呼ぶに、ふさわしい人だな
-One of the Four Heroes, the Hero King Garr?
-Yeah, he and Stahn-san are definitely
-the most worthy of the title.
+One of the Four Heroes, the Hero
+King Garr? Yeah, he and Stahn-san
+are definitely the most worthy of
+the title.
 -----------------------
 <Judas>
 -----------------------
 #とすると、港から船に乗り
 #スノーフリアで降りて
 #ハイデルベルグに向かうことになるな
-That means taking a ship from the port,
-disembarking at Frostheim,
-and making for Heidelberg.
+That means taking a ship from the
+port, disembarking at Frostheim, and
+making for Heidelberg.
 -----------------------
 <Kyle>
 -----------------------
@@ -528,7 +534,8 @@ east of Aigrette, if I recall.
 #よ～し、まずは港に行って
 #そこから、スノーフリアを目指そう！
 Alright, first stop: the harbor!
-From there, we set sail for Frostheim!
+From there, we set sail for
+Frostheim!
 -----------------------
 notice
 -----------------------

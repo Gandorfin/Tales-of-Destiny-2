@@ -43,7 +43,8 @@ Battle {18}{44}{6C}{C0} begins now!
 Announcer
 -----------------------
 #チャンピオンリムルと再度激突です！
-It's another clash with Champion Rimul!
+It's another clash with Champion
+Rimul!
 -----------------------
 #司会
 Announcer
@@ -69,7 +70,8 @@ Announcer
 Announcer
 -----------------------
 #こちらが賞金と副賞です
-Here's your prize money and bonus reward.
+Here's your prize money and bonus
+reward.
 -----------------------
 #司会
 Announcer
@@ -105,14 +107,16 @@ Announcer
 #強い！　圧倒的な強さだ！
 #凶悪なモンスターを、まるで
 #赤子の手をひねるように倒してしまったぁ！
-Incredible! Utterly overwhelming strength!
-She cut down those vicious monsters
-like they were nothing at all!
+Incredible! Utterly overwhelming
+strength! She cut down those vicious
+monsters like they were nothing
+at all!
 -----------------------
 <Loni>
 -----------------------
 #おっ、盛り上がってんな！
-Ooh, something's got the crowd fired up!
+Ooh, something's got the crowd
+fired up!
 -----------------------
 <Nanaly>
 -----------------------
@@ -163,8 +167,8 @@ Manager
 #その剣はあらゆるモンスターを
 #一瞬にして葬りさるっていう
 #恐ろしい女さ！
-They say her blade can send
-any monster to its grave in an instant.
+They say her blade can send any
+monster to its grave in an instant.
 A terrifying woman, I tell you!
 -----------------------
 <Judas>
@@ -184,15 +188,15 @@ Manager
 -----------------------
 #あんたたち、見たのか!?
 #なぁ、どこにいったかわかるか!?
-You guys saw her, right!?
-Hey, does anyone know where she went!?
+You guys saw her, right!? Hey, does
+anyone know where she went!?
 -----------------------
 <Reala>
 -----------------------
 #さっき、出ていきましたよ
 #追いかければ、まだ間に合うかも････
-She just left a moment ago.
-If we hurry, we might still catch her...
+She just left a moment ago. If we
+hurry, we might still catch her...
 -----------------------
 #支配人
 Manager
@@ -219,16 +223,17 @@ She's no ordinary fighter.
 #おそらく、闘技場にいるのも
 #富や名声が目的じゃない
 #腕試しだろう
-She probably isn't here for wealth or fame.
-Most likely, she's just testing her skills.
+She probably isn't here for wealth
+or fame. Most likely, she's just
+testing her skills.
 -----------------------
 <Loni>
 -----------------------
 #だから、報酬も受け取らず
 #出ていっちまうってわけか
 #何とも、かっこいいねぇ
-So that's why she won't take any reward, huh?
-Just walks right out.
+So that's why she won't take any
+reward, huh? Just walks right out.
 Man, that's pretty cool.
 -----------------------
 #観客
@@ -263,8 +268,9 @@ in a place like this!!
 -----------------------
 #闘技場のオリから、逃げたんでしょ？
 #他に考えられないわ
-It must've escaped from the arena pens, right?
-I can't think of any other explanation.
+It must've escaped from the arena
+pens, right? I can't think of any
+other explanation.
 -----------------------
 <Loni>
 -----------------------
@@ -304,9 +310,9 @@ Rimul
 #ね、ねぇ、なにが起こったの!?
 #速すぎて
 #よくわからなかったんだけど････
-H-Hey, what just happened!?
-It was so fast,
-I couldn't really tell what was going on...
+H-Hey, what just happened!? It was
+so fast, I couldn't really tell
+what was going on...
 -----------------------
 <Judas>
 -----------------------
@@ -320,17 +326,19 @@ At an extraordinary speed.
 #なるほど、加速度をエネルギーに変えて
 #相手にぶつける攻撃方法か
 #あれは、確かに効くわね
-I see. You convert acceleration into energy...
-and smash it into your opponent.
-Yes, that would certainly be effective.
+I see. You convert acceleration into
+energy... and smash it into your
+opponent. Yes, that would certainly
+be effective.
 -----------------------
 <Judas>
 -----------------------
 #しかも、あのスピードでは
 #かわすことは不可能
 #まさに、必殺の剣だ
-At that speed, evasion is impossible.
-Truly, a sword of certain death.
+At that speed, evasion is
+impossible. Truly, a sword of
+certain death.
 -----------------------
 <Kyle>
 -----------------------
@@ -343,9 +351,10 @@ Announcer
 #さぁ、ここまで
 #順調に勝ちあがってきた挑戦者に
 #最後のカベが立ちはだかる！
-And now, the final wall rises
-to block the challengers
-who have fought their way steadily to this point!
+And now, the final wall rises to
+block the challengers who have
+fought their way steadily to this
+point!
 -----------------------
 #司会
 Announcer
@@ -378,16 +387,17 @@ Announcer
 #またたく間に、すべての敵をしりぞけ
 #王者の座についた女！
 She appeared one day like a comet,
-and in the blink of an eye drove back every foe
-to claim the throne!
+and in the blink of an eye drove
+back every foe to claim the throne!
 -----------------------
 #司会
 Announcer
 -----------------------
 #人は彼女を最強の武芸者と呼び
 #また、ある人は無敵と呼ぶ！
-Some call her the ultimate martial artist,
-while others speak of her as invincible!
+Some call her the ultimate martial
+artist, while others speak of her
+as invincible!
 -----------------------
 #司会
 Announcer
@@ -688,9 +698,9 @@ Spectators
 #ふわぁ～
 #伝説のチャンプ
 #スタンのような戦士はいないものかしら
-*sigh*~
-The legendary champion...
-I wonder if there's any warrior like Stahn.
+*sigh*~ The legendary champion...
+I wonder if there's any warrior
+like Stahn.
 -----------------------
 #あんたの戦う姿は
 #あの伝説のチャンプ
@@ -870,8 +880,9 @@ Spectators
 -----------------------
 #やっぱり、戦う姿は
 #素敵ザマスねぇ
-As I thought, there's nothing more
-magnificent than a warrior in battle.
+As I thought, there's nothing
+more magnificent than a warrior
+in battle.
 -----------------------
 #わたくし、戦う者の姿を見ると
 #どうしようもなく熱くなるザマス！
@@ -986,8 +997,8 @@ A former champion?
 -----------------------
 #そういえば、母さんから
 #聞いたことあるような気がするな
-Come to think of it,
-I feel like I've heard Mom mention that before.
+Come to think of it, I feel like
+I've heard Mom mention that before.
 -----------------------
 <Kyle>
 -----------------------

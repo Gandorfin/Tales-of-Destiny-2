@@ -41,9 +41,10 @@ Huh? Why not?
 #こいつ、温度変化に弱いのよ
 #外の吹雪の中に出たら
 #あっという間に、ボロボロよ
-This thing's weak to temperature changes.
-If you take it out into that blizzard,
-it'll fall apart in no time.
+This thing's weak to temperature
+changes. If you take it out into
+that blizzard, it'll fall apart
+in no time.
 -----------------------
 <Harold>
 -----------------------
@@ -61,10 +62,10 @@ just like it.
 #マスターキーが手に入るわ
 #どこかにあるはずだから
 #探しましょ
-If we find all three keys,
-we can get the master key.
-They should be around here somewhere.
-Let's go look.
+If we find all three keys, we can
+get the master key. They should
+be around here somewhere. Let's
+go look.
 -----------------------
 <Harold>
 -----------------------
@@ -78,9 +79,10 @@ protection release key.
 #「マスターキー」「セルキー」「バイオキー」
 #この３つのキーを資材コンテナに使えば
 #プロテクトを解除できるわ
-"Master Key", "Cell Key", "Bio Key"
-Use these three keys on the supply containers
-to release their protection.
+"Master Key", "Cell Key", "Bio
+Key" Use these three keys on the
+supply containers to release their
+protection.
 -----------------------
 <Harold>
 -----------------------
@@ -88,10 +90,11 @@ to release their protection.
 #温度変化に弱いから、外に出ちゃダメよ
 #あんな吹雪の中に出たら
 #一発でボロボロだからね！
-But "Cell Key" and "Bio Key"
-are weak to temperature changes, so don't take them outside.
-If you take them out in that blizzard,
-they'll be ruined in an instant!
+But "Cell Key" and "Bio Key" are
+weak to temperature changes, so
+don't take them outside. If you take
+them out in that blizzard, they'll
+be ruined in an instant!
 -----------------------
 #特に何もありません
 Nothing of note.

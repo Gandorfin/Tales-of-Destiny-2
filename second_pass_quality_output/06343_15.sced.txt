@@ -19,8 +19,9 @@ NOTICE
 #『ドロボウがここから逃げたようなので
 #　以後、この出口を封鎖します』
 There's a notice posted here.
-"A thief appears to have escaped through here.
-This exit will be sealed from now on."
+"A thief appears to have escaped
+through here. This exit will be
+sealed from now on."
 -----------------------
 <Kyle>
 -----------------------
@@ -54,17 +55,18 @@ NOTICE
 -----------------------
 #石切り機を使って
 #石像と土台を切り離しました
-Used the stone cutter.
-Separated the stone statue from its base.
+Used the stone cutter. Separated the
+stone statue from its base.
 -----------------------
 NOTICE
 -----------------------
 #石像があります
 #石の土台にしっかりと固定されていますが
 #切り離せば引きずって動かせそうです
-There is a stone statue.
-It is firmly fixed to a stone base,
-but detaching it would let you drag it around.
+There is a stone statue. It is
+firmly fixed to a stone base, but
+detaching it would let you drag
+it around.
 -----------------------
 <Judas>
 -----------------------

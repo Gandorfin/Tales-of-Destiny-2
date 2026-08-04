@@ -26,8 +26,9 @@ What in the world is it?
 #この鉱山だけで採掘できる
 #特殊な鉱石だ
 #状態を安定させるため、それに入ってる
-It's a special ore that can only be mined from this mine.
-To stabilize its condition, it's stored in that.
+It's a special ore that can only be
+mined from this mine. To stabilize
+its condition, it's stored in that.
 -----------------------
 <Kyle>
 -----------------------
@@ -50,21 +51,25 @@ You know of Belcrant, don't you?
 #ああ、知ってるさ
 #天空都市ダイクロフトに
 #あったっていう、兵器のことだろ？
-Yeah, I know it.
-The weapon they say was in the aerial city of Dycroft, right?
+Yeah, I know it. The weapon they
+say was in the aerial city of
+Dycroft, right?
 -----------------------
 <Loni>
 -----------------------
 #地殻にエネルギーをブチこんで
 #破壊するっていう、とんでもねえシロモノだ
-A monstrous thing that pumps energy into the crust and destroys everything.
+A monstrous thing that pumps
+energy into the crust and destroys
+everything.
 -----------------------
 <Judas>
 -----------------------
 #その石は、ベルクラントに使われていた
 #レンズの力を増幅させる石だ
 That stone was used in Belcrant.
-It's a stone that amplifies the power of Lens.
+It's a stone that amplifies the
+power of Lens.
 -----------------------
 <Reala>
 -----------------------
@@ -77,39 +82,44 @@ What!? Then if we have this...
 #そうだ、もう一度ベルクラントが作れる
 #街ひとつ軽く吹き飛ばせるほどの兵器が
 #また作れてしまうんだ
-That's right. Belcrant could be built again.
-A weapon capable of easily obliterating an entire town...
-could be created once more.
+That's right. Belcrant could be
+built again. A weapon capable
+of easily obliterating an entire
+town... could be created once more.
 -----------------------
 <Judas>
 -----------------------
 #････とはいえ、現実にはムリだがな
 #この石をどうやって使えばいいか
 #それが、だれにもわからんのだ
-...That said, it's impossible in reality.
-No one knows how to actually use this stone.
+...That said, it's impossible
+in reality. No one knows how to
+actually use this stone.
 -----------------------
 <Judas>
 -----------------------
 #本来ならば、オベロン社が
 #解析をすすめるはずだったが････
 #なくなってしまったからな
-In principle, the Oberon Corporation should have been proceeding
-with the analysis... but they've gone under, you see.
+In principle, the Oberon Corporation
+should have been proceeding with
+the analysis... but they've gone
+under, you see.
 -----------------------
 <Loni>
 -----------------------
 #うへ、お宝って
 #こんなぶっそうなもんかよ
-Ugh, so this is what treasure looks like?
-Pretty grim stuff.
+Ugh, so this is what treasure looks
+like? Pretty grim stuff.
 -----------------------
 <Loni>
 -----------------------
 #まったく、オベロン社ってやつも
 #ロクなことしやがらねぇなぁ
 Sheesh, that Oberon Corporation...
-They never do anything decent, do they?
+They never do anything decent, do
+they?
 -----------------------
 <Reala>
 -----------------------
@@ -119,7 +129,8 @@ They never do anything decent, do they?
 <Loni>
 -----------------------
 #たしかに････まだ、なにかあるのか？
-You're right... Is there still something else?
+You're right... Is there still
+something else?
 -----------------------
 <Reala>
 -----------------------
@@ -131,8 +142,9 @@ It's beautiful...!
 #岩の切れ目から
 #光が差しこんでいるのか
 #なるほど、どうりで明るいわけだ
-Light's shining through a crack in the rock.
-I see. No wonder it's so bright.
+Light's shining through a crack
+in the rock. I see. No wonder it's
+so bright.
 -----------------------
 <Judas>
 -----------------------
@@ -154,8 +166,8 @@ Ha ha ha ha!
 -----------------------
 #････なんて皮肉な
 #こんなものが、あるとはな････
-...How ironic.
-I never imagined something like this existed...
+...How ironic. I never imagined
+something like this existed...
 -----------------------
 <Loni>
 -----------------------
@@ -223,26 +235,27 @@ the people of Neuestadt."
 #「これを読む、未来の誰かへ
 #　オベロン社　ノイシュタット支部長
 #　イレーヌ＝レンブラントより」
-"To whoever reads this in the future,
-Oberon Corporation Neuestadt Branch Manager,
-Irene Rembrandt"
+"To whoever reads this in the
+future, Oberon Corporation Neuestadt
+Branch Manager, Irene Rembrandt"
 -----------------------
 <Loni>
 -----------------------
 #なるほどねぇ････
 #確かに鉱石は、兵器だけじゃない
 #工場や船にも使えるもんな
-I see...
-It's true that ore isn't just for weapons.
-It can be used in factories and ships too.
+I see... It's true that ore isn't
+just for weapons. It can be used in
+factories and ships too.
 -----------------------
 <Loni>
 -----------------------
 #俺たちは、そのことに
 #頭がまわらなかった
 #これじゃ、兵器を作ったやつと同じだな
-We didn't consider that.
-In that case, we're no different from those who built those weapons.
+We didn't consider that. In that
+case, we're no different from those
+who built those weapons.
 -----------------------
 <Judas>
 -----------------------
@@ -256,39 +269,45 @@ And... so was Irene...
 #彼女たちは道をあやまった
 #理想の実現を急ぐあまり
 #即効性を求めて、劇薬を選んだんだ
-They lost their way.
-In their haste to realize their ideals,
-they sought immediate results and chose a drastic cure.
+They lost their way. In their
+haste to realize their ideals, they
+sought immediate results and chose
+a drastic cure.
 -----------------------
 <Loni>
 -----------------------
 #「神の眼」の騒乱の話か？
 #そうだな････こんな風に考えられる人が
 #いったい、なんで･･････
-You mean the disturbances surrounding the Eye of Atamoni?
-Yeah... someone who could think like this...
-why in the world would they...
+You mean the disturbances
+surrounding the Eye of Atamoni?
+Yeah... someone who could think
+like this... why in the world would
+they...
 -----------------------
 <Reala>
 -----------------------
 #けれど････イレーヌさんの想いは
 #ウソじゃなかったと思う
-But... I don't think Irene's feelings were a lie.
+But... I don't think Irene's
+feelings were a lie.
 -----------------------
 <Reala>
 -----------------------
 #ノイシュタットに
 #住む人たちのことを考えて
 #鉱石を掘っていた
-She was mining ore, thinking of the people who live in Neuestadt.
+She was mining ore, thinking of the
+people who live in Neuestadt.
 -----------------------
 <Reala>
 -----------------------
 #そして、この場所が荒らされ
 #鉱石が取れなくならないよう
 #メッセージを残してくれていた････
-And she left this message so that this place
-wouldn't be ravaged and the ore depleted...
+And she left this message so that
+this place wouldn't be ravaged and
+the ore depleted...
 -----------------------
 <Reala>
 -----------------------
@@ -302,8 +321,8 @@ Just like... a treasure.
 #宝物････か
 #案外、こっちが
 #本当の宝かもしれないな
-A treasure, huh...
-Maybe this is actually the real treasure.
+A treasure, huh... Maybe this is
+actually the real treasure.
 -----------------------
 <Kyle>
 -----------------------

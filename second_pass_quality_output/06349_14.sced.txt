@@ -178,7 +178,8 @@ To make {16}{35}{D8}{C0}, you'll need
 Chef
 -----------------------
 #材料を持っているじゃないか
-Why, you've got the ingredients right there.
+Why, you've got the ingredients
+right there.
 -----------------------
 #シェフ
 Chef
@@ -232,8 +233,8 @@ Chef
 -----------------------
 #お前のような奴を待ってた
 #これをゆずるのに相応しい料理人を
-I've been waiting for someone like you.
-A chef worthy of this recipe.
+I've been waiting for someone like
+you. A chef worthy of this recipe.
 -----------------------
 notice
 -----------------------

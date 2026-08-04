@@ -5,7 +5,8 @@ Heidelberg
 Heidelberg
 -----------------------
 #博物館『天地戦争の記憶』はこちら
-The museum 'Memory of the Aeth'er Wars' is this way.
+The museum 'Memory of the Aeth'er
+Wars' is this way.
 -----------------------
 #博物館『神の眼を巡る騒乱』はこちら
 The museum 'The Unrest Over the Eye of Atamoni' is this way.
@@ -25,7 +26,8 @@ Miya
 -----------------------
 #この街について
 #なにか聞きたい事はあるかい？
-Is there anything you'd like to know about this town?
+Is there anything you'd like to
+know about this town?
 -----------------------
 select
 -----------------------
@@ -43,8 +45,9 @@ Miya
 -----------------------
 #新市街は十八年前の騒乱の後に
 #難民や移民たちの手で建築された地区の事だ
-The New Town is the district built by refugees and
-immigrants after the unrest eighteen years ago.
+The New Town is the district built
+by refugees and immigrants after the
+unrest eighteen years ago.
 -----------------------
 #ミヤ
 Miya
@@ -52,8 +55,10 @@ Miya
 #旧ハイデルベルグ市街を切り崩して
 #居住区や商店街を作ったんだ
 #あれは大変な作業だったよ
-We carved away the old Heidelberg city district to make room for
-residential areas and shopping streets. It was quite a job.
+We carved away the old Heidelberg
+city district to make room for
+residential areas and shopping
+streets. It was quite a job.
 -----------------------
 #ミヤ
 Miya
@@ -61,30 +66,36 @@ Miya
 #そのかいあってか、今では世界に
 #名立たる大都市にまで発展したよ
 #うれしいかぎりだね
-Thanks to that effort, it's grown into one of the world's great metropolises.
-I couldn't be more pleased.
+Thanks to that effort, it's grown
+into one of the world's great
+metropolises. I couldn't be more
+pleased.
 -----------------------
 #ミヤ
 Miya
 -----------------------
 #旧市街は十八年前の騒乱をかろうじて
 #乗り越えた一画の事だ
-The Old Town is the district that barely made
-it through the unrest eighteen years ago.
+The Old Town is the district that
+barely made it through the unrest
+eighteen years ago.
 -----------------------
 #ミヤ
 Miya
 -----------------------
 #新市街に比べると古い建物が多いだろう？
-You'll find a lot more older buildings here compared to the New Town, right?
+You'll find a lot more older
+buildings here compared to the New
+Town, right?
 -----------------------
 #ミヤ
 Miya
 -----------------------
 #古都の落ち着いた雰囲気を壊さないよう
 #注意しながら作業したもんだよ
-We took great care during construction to preserve
-the calm atmosphere of the ancient capital.
+We took great care during
+construction to preserve the calm
+atmosphere of the ancient capital.
 -----------------------
 #ミヤ
 Miya
@@ -92,25 +103,29 @@ Miya
 #十八年前の騒乱を忘れないため
 #そして街の復興の記念として
 #象徴を作ったんだ
-To ensure we never forget the turmoil of eighteen years ago,
-and to commemorate the city's reconstruction,
-we created several symbols.
+To ensure we never forget the
+turmoil of eighteen years ago,
+and to commemorate the city's
+reconstruction, we created several
+symbols.
 -----------------------
 #ミヤ
 Miya
 -----------------------
 #まずひとつ目が『英雄門』
 #新市街と旧市街の間にある巨大な門のことだ
-The first is the 'Hero Gate'.
-It's a massive gate between the New Town and the Old Town.
+The first is the 'Hero Gate'. It's
+a massive gate between the New Town
+and the Old Town.
 -----------------------
 #ミヤ
 Miya
 -----------------------
 #ここは博物館と図書館になっている
 #何か調べ物があるなら行ってみるといい
-It houses both a museum and a library.
-If you need to research something, you should stop by.
+It houses both a museum and a
+library. If you need to research
+something, you should stop by.
 -----------------------
 #ミヤ
 Miya
@@ -129,8 +144,9 @@ Miya
 -----------------------
 #街が完成した今となっては
 #昔の苦労も良い思い出だよ
-Now that the town is complete,
-the hardships of those days are fond memories.
+Now that the town is complete, the
+hardships of those days are fond
+memories.
 -----------------------
 #いってらっしゃいませ
 Have a good day.

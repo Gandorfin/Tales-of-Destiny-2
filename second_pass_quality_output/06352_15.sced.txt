@@ -30,8 +30,8 @@ NOTICE
 -----------------------
 #旧オベロン社製・全自動オルガンがあります
 #オルガンを鳴らしますか？
-An old Oberon Corporation fully automatic organ.
-Play the organ?
+An old Oberon Corporation fully
+automatic organ. Play the organ?
 -----------------------
 select
 -----------------------
@@ -47,10 +47,11 @@ Cancel
 #『今月の帳簿外出費は２５０００ガルド
 #　配給品の横流しで穴埋めしておくように』
 #と書かれている
-There's paperwork.
-'Off-book expenses this month: 25,000 Gald.
-Cover the shortfall by diverting rations as usual.'
-That's what's written.
+There's paperwork. 'Off-book
+expenses this month: 25,000 Gald.
+Cover the shortfall by diverting
+rations as usual.' That's what's
+written.
 -----------------------
 #女の子
 Girl
@@ -131,9 +132,8 @@ Girl
 #ねェ聞いて！
 #アイグレッテで働いてたお兄ちゃんが
 #帰ってくるの！
-Hey, guess what!
-My brother who was working in Aigrette
-is coming back!
+Hey, guess what! My brother who was
+working in Aigrette is coming back!
 -----------------------
 #女の子
 Girl
@@ -159,8 +159,8 @@ Priest
 -----------------------
 #この街が復興すれば
 #自然とレンズがあつまるようになります
-Once this town is rebuilt,
-Lens will naturally begin to gather here.
+Once this town is rebuilt, Lens will
+naturally begin to gather here.
 -----------------------
 #司祭
 Priest
@@ -187,8 +187,8 @@ Priest
 #わたしは、この街に
 #昔のような活気をとりもどしたくて
 #アタモニ神団の神官になったんです
-I became a priest of the Order of Atamoni
-because I wanted to restore
+I became a priest of the Order of
+Atamoni because I wanted to restore
 the vitality this town once knew.
 -----------------------
 #司祭
@@ -236,17 +236,18 @@ even a little.
 #バカヤロウ！
 #あいつは街の復興なんて考えてねえ！
 #それどころか････、ちっくしょー!!
-You idiot!
-She's not thinking about rebuilding the town at all!
-If anything... Damn it!!
+You idiot! She's not thinking about
+rebuilding the town at all! If
+anything... Damn it!!
 -----------------------
 #司祭
 Priest
 -----------------------
 #今は、アタモニ神の教えのとおり
 #人の心を信じましょう
-For now, as the teachings of Atamoni say,
-let us trust in people's hearts.
+For now, as the teachings of Atamoni
+say, let us trust in people's
+hearts.
 -----------------------
 #司祭
 Priest
@@ -256,7 +257,8 @@ Priest
 #心の中でひきずっているようです････
 It seems the people of this town
 are still carrying the incident
-from eighteen years ago in their hearts...
+from eighteen years ago in their
+hearts...
 -----------------------
 #司祭
 Priest
@@ -273,16 +275,20 @@ Pastor
 -----------------------
 #地下はアタモニ神団の倉庫となっています
 #一般信者の方を通す事は出来ません
-The underground serves as a warehouse for the Order of Atamoni.
-Ordinary believers are not permitted entry.
+The underground serves as a
+warehouse for the Order of Atamoni.
+Ordinary believers are not permitted
+entry.
 -----------------------
 #牧師
 Pastor
 -----------------------
 #地下はストレイライズ神殿の倉庫となっています
 #一般信者の方を通す事は出来ません
-The underground serves as a warehouse for Straylize Temple.
-Ordinary believers are not permitted entry.
+The underground serves as a
+warehouse for Straylize Temple.
+Ordinary believers are not permitted
+entry.
 -----------------------
 #いってらっしゃいませ
 Have a good day.

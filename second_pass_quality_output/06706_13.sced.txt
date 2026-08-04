@@ -15,8 +15,9 @@ NOTICE
 -----------------------
 #不気味に光る何かの『かけら』があります
 #不吉な予感がしますが、これを持っていきますか？
-There's an eerily glowing fragment of some kind.
-A bad feeling hangs in the air... Will you take it?
+There's an eerily glowing fragment
+of some kind. A bad feeling hangs in
+the air... Will you take it?
 -----------------------
 select
 -----------------------

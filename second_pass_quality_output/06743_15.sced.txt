@@ -7,9 +7,9 @@ Aigrette
 #古時計がある
 #『旧アルメイダ村・村長寄贈』と
 #書かれている
-There's an old clock here.
-It says 'Donated by the Village Chief of Old Armeida Village'.
-And so on.
+There's an old clock here. It says
+'Donated by the Village Chief of Old
+Armeida Village'. And so on.
 -----------------------
 #女性
 Woman
@@ -27,7 +27,8 @@ Woman
 #だれも泊まりにきませんけど････
 Citizens can stay here for free.
 Well, everyone has their own home,
-so nobody ever actually stays here...
+so nobody ever actually stays
+here...
 -----------------------
 #女性
 Woman
@@ -136,7 +137,8 @@ Chef
 Chef
 -----------------------
 #材料を持っているじゃないか
-You've got the ingredients right there.
+You've got the ingredients right
+there.
 -----------------------
 #シェフ
 Chef
@@ -175,7 +177,8 @@ Chef
 #食材を探しているんだ
 #見つけたら持ってきてくれないかい？
 I'm searching for ingredients.
-Could you bring them to me if you find any?
+Could you bring them to me if you
+find any?
 -----------------------
 #シェフ
 Chef
@@ -183,15 +186,17 @@ Chef
 #お前には資格がない
 #また、出直して来るといい
 You don't have what it takes.
-Come back once you've gotten some experience.
+Come back once you've gotten some
+experience.
 -----------------------
 #シェフ
 Chef
 -----------------------
 #お前のような奴を待ってた
 #これをゆずるのに相応しい料理人を
-I've been waiting for someone like you.
-A chef worthy of inheriting this.
+I've been waiting for someone like
+you. A chef worthy of inheriting
+this.
 -----------------------
 notice
 -----------------------

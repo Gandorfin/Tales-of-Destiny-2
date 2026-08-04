@@ -9,8 +9,9 @@ Equipment Shop
 -----------------------
 #多種多様な武器が並べられている
 #珍しい異国の武器や、古代の刀剣も見うけられる
-All manner of weapons line the shelves.
-You can even spot rare foreign arms and ancient blades.
+All manner of weapons line the
+shelves. You can even spot rare
+foreign arms and ancient blades.
 -----------------------
 #いろいろな服が下がっている
 #デザインもなかなかのものだ
@@ -223,17 +224,18 @@ Neuestadt Merchant
 #ウィンターズくん
 #例の物、それぞれ１５着ずつ
 #よろしく頼まれてくれるかね？
-Winters, my boy
-Fifteen of each of those items, if you please.
-Can I count on you?
+Winters, my boy Fifteen of each of
+those items, if you please. Can I
+count on you?
 -----------------------
 #ウィンターズ
 Winters
 -----------------------
 #それなら二十日で３０万ガルドだ
 #それ以上は時間も金もまからん
-In that case, 300,000 Gald in twenty days.
-Beyond that, I haven't got the time or the money.
+In that case, 300,000 Gald in twenty
+days. Beyond that, I haven't got
+the time or the money.
 -----------------------
 #ノイシュタットの商人
 Neuestadt Merchant
@@ -251,9 +253,9 @@ Winters
 #オーダーメイドは、お断りだ
 #時間がかかりすぎる
 #だいいち、いい素材が手元にない
-I don't do custom orders.
-They take too long.
-For one thing, I don't have the right materials on hand.
+I don't do custom orders. They take
+too long. For one thing, I don't
+have the right materials on hand.
 -----------------------
 #ノイシュタットの商人
 Neuestadt Merchant
@@ -261,8 +263,10 @@ Neuestadt Merchant
 #納得できる素材と持ち主でないと
 #仕事は引き受けない････か
 #さすがは天才といったところか
-So you won't take a job unless the materials and the client
-meet your standards... huh? That's the mark of a true genius.
+So you won't take a job unless the
+materials and the client meet your
+standards... huh? That's the mark
+of a true genius.
 -----------------------
 #ノイシュタットの商人
 Neuestadt Merchant
@@ -292,16 +296,17 @@ Neuestadt Merchant
 #ここの店主のウィンターズくんは
 #『その道』では有名な人なんだよ
 What, you came here without knowing?
-Winters, the owner here,
-is quite famous in that line of work.
+Winters, the owner here, is quite
+famous in that line of work.
 -----------------------
 #ノイシュタットの商人
 Neuestadt Merchant
 -----------------------
 #なんなら、彼に話を聞いてみたらどうかね
 #色々と面白い事が聞けるかもしれないぞ？
-Why not go talk to him yourself?
-You might hear all sorts of interesting things.
+Why not go talk to him yourself? You
+might hear all sorts of interesting
+things.
 -----------------------
 #ウィンターズ
 Winters
@@ -337,9 +342,10 @@ Winters
 #････待てよ、やはり素材が悪い
 #強度と柔軟性を確保するには、やはり
 #ベルセリウムを使うしかないな････
-...Wait, it's the materials after all.
-To get both strength and flexibility,
-I've got no choice but to use Berserium...
+...Wait, it's the materials after
+all. To get both strength and
+flexibility, I've got no choice but
+to use Berserium...
 -----------------------
 <Kyle>
 -----------------------
@@ -361,30 +367,33 @@ Winters
 #『ソウル＆ソード』へようこそ
 #伝統だけは長い、古ぼけた店だが
 #よかったら、いろいろ見てってくれ
-I'm Winters, the shopkeeper.
-Welcome to Soul & Sword.
-It's a worn-down old shop, but we've got history.
+I'm Winters, the shopkeeper. Welcome
+to Soul & Sword. It's a worn-down
+old shop, but we've got history.
 Feel free to look around.
 -----------------------
 <Kyle>
 -----------------------
 #伝統が長いって････どれぐらいなの？
-A long history... how long are we talking?
+A long history... how long are we
+talking?
 -----------------------
 #ウィンターズ
 Winters
 -----------------------
 #ひいじいさまが、いうには
 #『天地戦争時代から続く由緒正しき店』だそうだ
-My great-grandfather used to say...
-'A shop with true pedigree, stretching back to the Aeth'er Wars.'
+My great-grandfather used to
+say... 'A shop with true pedigree,
+stretching back to the Aeth'er
+Wars.'
 -----------------------
 <Kyle>
 -----------------------
 #すごいや！
 #ねぇ、頼めば何か作ってくれるの!?
-Whoa, amazing!
-Hey, if I ask, will you make something for me?!
+Whoa, amazing! Hey, if I ask, will
+you make something for me?!
 -----------------------
 #ウィンターズ
 Winters
@@ -401,8 +410,8 @@ Winters
 -----------------------
 #････ん？　あんたたち
 #見たところ、冒険者みたいだな？
-...Hmm? You folks...
-From the look of you, you're adventurers?
+...Hmm? You folks... From the look
+of you, you're adventurers?
 -----------------------
 <Kyle>
 -----------------------
@@ -416,8 +425,9 @@ Winters
 -----------------------
 #そうか、冒険者か
 #ふむ　ならば例の件、頼めるかもしれんな
-I see, adventurers.
-Hmm... in that case, I might just be able to ask you about that matter.
+I see, adventurers. Hmm... in that
+case, I might just be able to ask
+you about that matter.
 -----------------------
 #ウィンターズ
 Winters
@@ -444,9 +454,9 @@ I'll hear out your request.
 #オーケー！
 #『ベルセリウム』と引き換えだね！
 #持ってくるから、スゴイ物を作ってね！
-Okay!
-In exchange for Berserium, right?!
-I'll bring it, so make something awesome!
+Okay! In exchange for Berserium,
+right?! I'll bring it, so make
+something awesome!
 -----------------------
 #ウィンターズ
 Winters
@@ -505,8 +515,9 @@ Winters
 -----------------------
 #そうか････残念だが仕方ないか
 #気が向いたら、また話しかけてくれよ
-I see... Too bad, but it can't be helped.
-If you change your mind, come talk to me again.
+I see... Too bad, but it can't be
+helped. If you change your mind,
+come talk to me again.
 -----------------------
 <Kyle>
 -----------------------
@@ -519,9 +530,9 @@ Winters
 #そうか
 #まあ、幻の鉱石ってくらいだからな
 #そう簡単には見付からないだろうよ
-I see.
-Well, it is called a phantom ore.
-Not something you'd find just anywhere.
+I see. Well, it is called a phantom
+ore. Not something you'd find just
+anywhere.
 -----------------------
 #洋服セット・低レベルその１
 Clothing Set - Low Level 1
@@ -547,8 +558,8 @@ Winters
 -----------------------
 #さあ、受け取りな！
 #ウィンターズ、会心の一品だぜ！
-Here, take it!
-A Winters masterpiece, through and through!
+Here, take it! A Winters
+masterpiece, through and through!
 -----------------------
 NOTICE
 -----------------------
@@ -576,8 +587,8 @@ Winters
 #フフフ････我ながら、素晴らしい物を
 #作ってしまったぜ
 #確認してみな！
-Heh heh... Even I'm impressed by what I've made.
-Go on, take a look!
+Heh heh... Even I'm impressed by
+what I've made. Go on, take a look!
 -----------------------
 NOTICE
 -----------------------
@@ -620,8 +631,8 @@ Winters
 -----------------------
 #さあ、受け取りな！
 #ウィンターズ、会心の一品だぜ！
-Here, take it!
-A Winters masterpiece, through and through!
+Here, take it! A Winters
+masterpiece, through and through!
 -----------------------
 NOTICE
 -----------------------
@@ -649,8 +660,8 @@ Winters
 #フフフ････我ながら、素晴らしい物を
 #作ってしまったぜ
 #確認してみな！
-Heh heh... Even I'm impressed by what I've made.
-Go on, take a look!
+Heh heh... Even I'm impressed by
+what I've made. Go on, take a look!
 -----------------------
 NOTICE
 -----------------------

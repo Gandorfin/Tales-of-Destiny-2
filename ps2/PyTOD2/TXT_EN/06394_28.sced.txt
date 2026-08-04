@@ -27,8 +27,8 @@ Ticket Seller
 -----------------------
 #申し訳ありませんが
 #定期船のチケットは完売です
-I'm sorry,
-but regular ferry tickets are sold out.
+I'm sorry, but regular ferry tickets
+are sold out.
 -----------------------
 #チケット売り
 Ticket Seller
@@ -85,8 +85,8 @@ Ticket Seller
 -----------------------
 #お客さん、いいのかい？
 #急がないと、船が出ちまうぜ！
-You sure, customer?
-If we don't hurry, the ship's gonna leave!
+You sure, customer? If we don't
+hurry, the ship's gonna leave!
 -----------------------
 <Kyle>
 -----------------------
@@ -99,8 +99,9 @@ What kind of person is he!?
 -----------------------
 #ま、英雄王と呼ばれるほどの方だ
 #ただ者じゃないのは、確かだな
-Well, he's called the Hero King for a reason.
-No doubt about it--he's no ordinary man.
+Well, he's called the Hero King for
+a reason. No doubt about it--he's
+no ordinary man.
 -----------------------
 <Reala>
 -----------------------
@@ -115,14 +116,15 @@ he's a real hero.
 #それより、チケットは
 #買わなくていいのか？
 You'll find out when you meet him.
-More importantly, don't we need to buy tickets?
+More importantly, don't we need to
+buy tickets?
 -----------------------
 <Kyle>
 -----------------------
 #あっ、すっかり忘れてた！
 #早いとこ、買いに行こうぜ！
-Ah, I totally forgot!
-Let's go get 'em before it's too late!
+Ah, I totally forgot! Let's go get
+'em before it's too late!
 -----------------------
 #チケット売り
 Ticket Seller
@@ -230,17 +232,18 @@ Ticket Seller
 #いえ、あのあたりには
 #フォルトゥナ神さまのご意向に従わない
 #粗暴な者たちが多くいるのです
-No, it's just that around those parts,
-there are many rough individuals who do not
-follow the will of Lady Fortuna.
+No, it's just that around those
+parts, there are many rough
+individuals who do not follow the
+will of Lady Fortuna.
 -----------------------
 #チケット売り
 Ticket Seller
 -----------------------
 #くれぐれも、お気をつけて
 #神のご加護があらんことを････
-Please take care out there.
-May the goddess's blessing be with you...
+Please take care out there. May the
+goddess's blessing be with you...
 -----------------------
 <Kyle>
 -----------------------
@@ -263,16 +266,17 @@ Just let him talk.
 #神さまのご意向とやらがなけりゃ
 #動けない連中になにいわれても
 #気にしないよ、あたしは
-I don't care what people like that say.
-They can't even move without some
-so-called "divine will" telling them how.
+I don't care what people like that
+say. They can't even move without
+some so-called "divine will" telling
+them how.
 -----------------------
 <Nanaly>
 -----------------------
 #そんなことより、船が出港しちまうよ
 #さ、早くいこう
-Forget that--the ship's about to leave!
-C'mon, let's get going.
+Forget that--the ship's about to
+leave! C'mon, let's get going.
 -----------------------
 #船員
 Sailor
@@ -280,9 +284,8 @@ Sailor
 #やっぱり、おれは
 #根っからの海の男なんだろうな
 #ガッハッハ！
-Guess I'm just a born son of the sea,
-through and through!
-Gwahahaha!
+Guess I'm just a born son of the
+sea, through and through! Gwahahaha!
 -----------------------
 #船員
 Sailor
@@ -300,9 +303,8 @@ Sailor
 #やっぱり、おれは
 #根っからの海の男なんだろうな
 #ガッハッハ！
-Guess I'm just a born son of the sea,
-through and through!
-Gwahahaha!
+Guess I'm just a born son of the
+sea, through and through! Gwahahaha!
 -----------------------
 #船員
 Sailor
@@ -430,9 +432,10 @@ What brings you out on the road?
 #どこかで、何かがオレを待っている
 #そんな気がしたから、それを
 #探しにいこうと思ったんだ
-I just got this feeling that something
-out there's waiting for me. So I decided
-to go find it, whatever it is.
+I just got this feeling that
+something out there's waiting for
+me. So I decided to go find it,
+whatever it is.
 -----------------------
 #若者
 Young Man
@@ -455,9 +458,9 @@ Old Salt
 #さーて、次の航海までなにをするか
 #うまいメシでも食いに行くか？
 #それとも、女の子を探すとするかな
-Now then, what to do till the next voyage?
-Maybe grab some grub?
-Or go huntin' for ladies?
+Now then, what to do till the next
+voyage? Maybe grab some grub? Or go
+huntin' for ladies?
 -----------------------
 #おやじ
 Old Salt
@@ -473,8 +476,8 @@ Old Salt
 #一度航海に出ちまうと
 #しばらく海の上だからな
 #陸で、思いっきり遊ぶのさ
-Once you ship out, you're stuck
-on the water for ages. Gotta live it up
+Once you ship out, you're stuck on
+the water for ages. Gotta live it up
 on land while you still can.
 -----------------------
 #おやじ
@@ -483,9 +486,11 @@ Old Salt
 #海の男は最高だぜ
 #国をめぐるたび、新しい恋に華がさく
 #これが、旅のだいごみってヤツさ
-There's nothin' better than bein' a man of the sea.
-Every new country means a new romance in full bloom.
-That's the real joy of travel, right there.
+There's nothin' better than bein'
+a man of the sea. Every new country
+means a new romance in full bloom.
+That's the real joy of travel,
+right there.
 -----------------------
 #おやじ
 Old Salt
@@ -493,9 +498,11 @@ Old Salt
 #海の男は最高だぜ
 #国をめぐるたび、新しい恋に華がさく
 #これが、旅のだいごみってヤツさ
-There's nothin' better than bein' a man of the sea.
-Every new country means a new romance in full bloom.
-That's the real joy of travel, right there.
+There's nothin' better than bein'
+a man of the sea. Every new country
+means a new romance in full bloom.
+That's the real joy of travel,
+right there.
 -----------------------
 <Kyle>
 -----------------------
@@ -524,8 +531,8 @@ Old Salt
 -----------------------
 #ううっ
 #潮風が、目にしみるなぁ････
-*sniff*
-Dang sea breeze's makin' my eyes water...
+*sniff* Dang sea breeze's makin'
+my eyes water...
 -----------------------
 #おやじ
 Old Salt
@@ -533,9 +540,9 @@ Old Salt
 #あははっ････
 #海の男に、涙はにあわないよな
 #そうは思わないか？
-Hahaha...
-Tears don't suit a man of the sea, right?
-That's what I always say.
+Hahaha... Tears don't suit a man
+of the sea, right? That's what I
+always say.
 -----------------------
 <Loni>
 -----------------------
@@ -548,7 +555,8 @@ Let's just leave him be, <Kyle>.
 Sailor
 -----------------------
 #次の航海が無事でありますように････
-I pray our next voyage is a safe one...
+I pray our next voyage is a safe
+one...
 -----------------------
 #私たちの船をお守りください････
 Please watch over our ship...
@@ -573,7 +581,8 @@ Ticket Seller
 -----------------------
 #チケットを買ってから
 #乗船してください
-Please purchase your tickets before boarding.
+Please purchase your tickets before
+boarding.
 -----------------------
 #シェフ
 Chef
@@ -679,7 +688,8 @@ The ingredients you need to make {16}{34}{84}{C0} are
 Chef
 -----------------------
 #材料を持っているじゃないか
-Looks like you've got the ingredients.
+Looks like you've got the
+ingredients.
 -----------------------
 #シェフ
 Chef
@@ -717,8 +727,9 @@ Chef
 -----------------------
 #食材を探しているんだ
 #見つけたら持ってきてくれないかい？
-I'm looking for ingredients.
-If you find any, could you bring them to me?
+I'm looking for ingredients. If
+you find any, could you bring them
+to me?
 -----------------------
 #シェフ
 Chef
@@ -733,8 +744,8 @@ Chef
 -----------------------
 #お前のような奴を待ってた
 #これをゆずるのに相応しい料理人を
-I've been waiting for someone like you.
-A chef worthy of this.
+I've been waiting for someone like
+you. A chef worthy of this.
 -----------------------
 notice
 -----------------------
@@ -1668,8 +1679,8 @@ notice
 #「通常攻撃」について
 #深く話し合っているようです
 #耳を傾けますか？
-About "Normal Attacks"
-They seem to be having an in-depth discussion.
+About "Normal Attacks" They seem to
+be having an in-depth discussion.
 Will you listen in?
 -----------------------
 #慣れてきたから最近は通常攻撃は

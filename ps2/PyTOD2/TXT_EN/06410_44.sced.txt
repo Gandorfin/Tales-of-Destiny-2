@@ -14,15 +14,17 @@ Neuestadt
 Neuestadt
 -----------------------
 #広場の中央に立派な噴水がある
-There's a splendid fountain in the center of the plaza.
+There's a splendid fountain in the
+center of the plaza.
 -----------------------
 NOTICE
 -----------------------
 #『幸運の噴水にガルドを投げ入れましょう』
 #噴水の中に小銭が沈んでいます
 #持っていきますか？
-'Toss some gald into the Fountain of Fortune.'
-Small change has settled at the bottom of the fountain.
+'Toss some gald into the Fountain of
+Fortune.' Small change has settled
+at the bottom of the fountain.
 Take it?
 -----------------------
 select
@@ -36,8 +38,8 @@ NOTICE
 -----------------------
 #１００ガルド、いただいてしまいました
 #なんだか自分がとても小さな人間のように思えました
-You took 100 Gald.
-Somehow, it made you feel like a very small person.
+You took 100 Gald. Somehow, it made
+you feel like a very small person.
 -----------------------
 #『幸運の噴水にガルドを投げ入れましょう』
 #････<Kyle>がガルドをいただいてしまったため
@@ -54,12 +56,14 @@ What's this?!
 NOTICE
 -----------------------
 #ＴＯＤ２の追加クイズ問題を見つけた！
-Found a bonus quiz question for T.O.D.2!
+Found a bonus quiz question for
+T.O.D.2!
 -----------------------
 NOTICE
 -----------------------
 #クイズ本に新しいジャンルが追加されました
-A new category has been added to the quiz book.
+A new category has been added to
+the quiz book.
 -----------------------
 #広告が貼ってある
 #『コングマン自伝・俺と拳　大好評発売中！』
@@ -90,8 +94,9 @@ Hey, did you see that face?!
 -----------------------
 #金を渡すときだろ？
 #苦虫噛みつぶしたような顔してたな
-That was when he had to hand over the cash, right?
-He had that sour, bitter look on his face.
+That was when he had to hand over
+the cash, right? He had that sour,
+bitter look on his face.
 -----------------------
 <Reala>
 -----------------------
@@ -145,16 +150,19 @@ Man
 #いつもどおり生きてこられたのさ
 We've lived without money before.
 Even if the town falls to pieces,
-we'll keep on living like we always have.
+we'll keep on living like we always
+have.
 -----------------------
 <Loni>
 -----------------------
 #金があることが幸せじゃねえ････
 #つまり、貧しくても
 #美人のヨメをさがせってことだ
-Having money doesn't mean happiness......
-Which is to say, even if you're poor,
-you should still find yourself a beautiful wife.
+Having money doesn't mean
+happiness...... Which is to say,
+even if you're poor, you should
+still find yourself a beautiful
+wife.
 -----------------------
 <Kyle>
 -----------------------
@@ -169,9 +177,10 @@ Man
 #ノイシュタットは
 #昔ほど豊かじゃなくなったが
 #人の心は逆に豊かになった気がするな
-Neuestadt may not be
-as prosperous as it once was,
-but I feel like people's hearts have grown richer instead.
+Neuestadt may not be as prosperous
+as it once was, but I feel like
+people's hearts have grown richer
+instead.
 -----------------------
 #おじさん
 Man
@@ -189,9 +198,9 @@ Man
 #貧しくても
 #みんなで支えあって生きていく････
 #そんな街であってほしいな
-Even if we're poor,
-I want this to be a town where we all
-support each other and keep on living......
+Even if we're poor, I want this to
+be a town where we all support each
+other and keep on living......
 -----------------------
 #おじさん
 Man
@@ -200,8 +209,9 @@ Man
 #それなりに平等に暮らしてるなんて
 #昔じゃ、信じられない話だよ
 The wealthy elite and us laborers
-living together in relative equality-
-would've been unbelievable back in the day.
+living together in relative
+equality- would've been unbelievable
+back in the day.
 -----------------------
 #おじさん
 Man
@@ -209,18 +219,20 @@ Man
 #十八年前の、あの騒乱････
 #たくさんのものを失ったけど
 #だからこそ、今の幸せがあるんだよな
-That unrest from eighteen years ago......
-We lost so much,
-but that's precisely why we have the happiness we do now.
+That unrest from eighteen years
+ago...... We lost so much, but
+that's precisely why we have the
+happiness we do now.
 -----------------------
 <Kyle>
 -----------------------
 #失ったもの････
 #それと引き換えに、手に入れた幸せ････
 #････なんか、どこかで････
-What I lost......
-The happiness I gained in exchange......
-......It feels like I've heard this somewhere before......
+What I lost...... The happiness I
+gained in exchange...... ......It
+feels like I've heard this somewhere
+before......
 -----------------------
 #おじさん
 Man
@@ -238,9 +250,9 @@ Young Man
 #闘技場に行ってみたか？
 #あそこは、この街で焼けのこった
 #数少ない建物のひとつなんだぜ
-Have you been to the arena?
-It's one of the few buildings in town
-that survived the fires.
+Have you been to the arena? It's one
+of the few buildings in town that
+survived the fires.
 -----------------------
 #青年
 Young Man
@@ -258,9 +270,10 @@ Young Man
 #よかったら、あんたがたも
 #この街の復興のためだと思って
 #闘技大会に参加してみてくれよ
-If you folks don't mind, think of it as
-helping this town get back on its feet,
-and give the tournament a shot, would ya?
+If you folks don't mind, think of
+it as helping this town get back on
+its feet, and give the tournament
+a shot, would ya?
 -----------------------
 #青年
 Young Man
@@ -276,9 +289,9 @@ Young Man
 #オレのあこがれは
 #ありきたりだが、コングマンと
 #伝説のチャンプ・英雄スタンだな
-My heroes are pretty standard, I guess--
-Kongman and the legendary champ,
-the hero Stahn.
+My heroes are pretty standard, I
+guess-- Kongman and the legendary
+champ, the hero Stahn.
 -----------------------
 #青年
 Young Man
@@ -286,13 +299,14 @@ Young Man
 #おまえも伝説のチャンプ
 #英雄スタンに会ってみたいと
 #思わないか？
-Don't you wanna meet the legendary champ,
-the hero Stahn, too?
+Don't you wanna meet the legendary
+champ, the hero Stahn, too?
 -----------------------
 <Kyle>
 -----------------------
 #オレは、もう会えたからいいよ････
-Nah, I've already met him, so I'm good...
+Nah, I've already met him, so I'm
+good...
 -----------------------
 #青年
 Young Man
@@ -309,8 +323,8 @@ Young Man
 -----------------------
 #もちろん、チャンプになったさ！
 #いやぁ、英雄スタンに敵なしだね！
-Of course he became champ!
-Man, no one could beat the hero Stahn!
+Of course he became champ! Man, no
+one could beat the hero Stahn!
 -----------------------
 <Kyle>
 -----------------------
@@ -327,8 +341,9 @@ Young Man
 #闘技大会での
 #英雄スタンの勇姿！
 #ぜひまた拝みたいもんだね！
-The hero Stahn, fighting at the tournament!
-I'd love to see that again someday!
+The hero Stahn, fighting at the
+tournament! I'd love to see that
+again someday!
 -----------------------
 #金持ち
 Wealthy Man
@@ -336,9 +351,9 @@ Wealthy Man
 #その昔、ノイシュタットは
 #一部の特権階級が貧しい人を支配する
 #ひどい街だったんだ
-Long ago, Neuestadt was a terrible place
-where a privileged few oppressed
-the poor.
+Long ago, Neuestadt was a terrible
+place where a privileged few
+oppressed the poor.
 -----------------------
 #金持ち
 Wealthy Man
@@ -346,9 +361,10 @@ Wealthy Man
 #思えば、外殻の落下で街は壊滅したけれど
 #あれは彼女からのプレゼント
 #だったのかもしれない
-Come to think of it, the city was devastated
-when the outer shell fell, but maybe
-that was a gift from her.
+Come to think of it, the city was
+devastated when the outer shell
+fell, but maybe that was a gift
+from her.
 -----------------------
 <Kyle>
 -----------------------
@@ -360,8 +376,8 @@ Who's "her"?
 #イレーヌ＝レンブラントという女性だ
 #彼女は、貧富の差が激しい現状に
 #誰よりも心を痛めていたからな
-A woman named Irene Rembrandt.
-She took the gap between rich and poor
+A woman named Irene Rembrandt. She
+took the gap between rich and poor
 more to heart than anyone.
 -----------------------
 #金持ち
@@ -370,9 +386,10 @@ Wealthy Man
 #十八年前の外殻の落下で
 #支配階級が権力と財産を失ったとき
 #この街は、生まれ変わったのさ
-When the ruling class lost their power
-and wealth in the fall of the outer shell
-eighteen years ago, this town was reborn.
+When the ruling class lost their
+power and wealth in the fall of
+the outer shell eighteen years ago,
+this town was reborn.
 -----------------------
 #金持ち
 Wealthy Man
@@ -380,9 +397,10 @@ Wealthy Man
 #今では、復興も進んで
 #ごらんのとおり、貧富の差のない
 #平等な街になったんだよ
-Now reconstruction's well underway, and as
-you can see, it's become an equal town
-without any gap between rich and poor.
+Now reconstruction's well underway,
+and as you can see, it's become an
+equal town without any gap between
+rich and poor.
 -----------------------
 #金持ち
 Wealthy Man
@@ -390,9 +408,9 @@ Wealthy Man
 #貧富の差がなくなりつつある
 #今のノイシュタットを見て
 #イレーヌさんは、なんていうかな････
-The gap between rich and poor is fading.
-Looking at Neuestadt now, I wonder what
-Irene would say...
+The gap between rich and poor is
+fading. Looking at Neuestadt now, I
+wonder what Irene would say...
 -----------------------
 <Reala>
 -----------------------
@@ -410,10 +428,11 @@ Wealthy Man
 #すかしていると、とても悲しそうだった
 #だから、人一倍救いたいって気持ちが
 #強かったんだろうね
-Irene always looked so sad when she saw
-children going hungry. That's probably why
-she felt more strongly than anyone that
-she had to save them.
+Irene always looked so sad when
+she saw children going hungry.
+That's probably why she felt more
+strongly than anyone that she had
+to save them.
 -----------------------
 #金持ち
 Wealthy Man
@@ -421,8 +440,9 @@ Wealthy Man
 #今のノイシュタットを見て
 #イレーヌさんはどう思うのかな？
 #喜んでくれてるいるといいけど････
-I wonder what Irene would think if she saw
-Neuestadt now. I hope she'd be happy...
+I wonder what Irene would think
+if she saw Neuestadt now. I hope
+she'd be happy...
 -----------------------
 #金持ち
 Wealthy Man
@@ -430,9 +450,9 @@ Wealthy Man
 #どうだい、ここはいい街だろう？
 #でも、昔は一部の特権階級が
 #貧しい人を支配する街だったんだ
-Nice town, isn't it? But back in the day,
-it was a place where a privileged few
-ruled over the poor.
+Nice town, isn't it? But back in
+the day, it was a place where a
+privileged few ruled over the poor.
 -----------------------
 #金持ち
 Wealthy Man
@@ -447,9 +467,9 @@ the Neuestadt of today...
 #イレーヌ？
 #････なんだろう？
 #聞いたことが、あるような気が････
-Irene?
-...Why does that sound familiar?
-Like I've heard it somewhere before...
+Irene? ...Why does that sound
+familiar? Like I've heard it
+somewhere before...
 -----------------------
 #金持ち
 Wealthy Man
@@ -457,9 +477,9 @@ Wealthy Man
 #イレーヌさんってのはさ
 #この街で、慈善事業をやっていた人さ
 #リッパな人だった････
-Irene was someone who did charity work
-right here in town. She was a wonderful
-person...
+Irene was someone who did charity
+work right here in town. She was a
+wonderful person...
 -----------------------
 #金持ち
 Wealthy Man
@@ -467,9 +487,10 @@ Wealthy Man
 #先の騒乱で、亡くなっていなければ
 #きっと今でも元気に
 #街のために、走りまわってたはずさ
-If she hadn't passed in the unrest, I'm sure
-she'd still be running around town, full of
-energy, working for its sake.
+If she hadn't passed in the unrest,
+I'm sure she'd still be running
+around town, full of energy, working
+for its sake.
 -----------------------
 <Kyle>
 -----------------------
@@ -486,15 +507,17 @@ Man
 #君たち、船に乗るつもりかい？
 #しばらくは、あきらめたほうがいいよ？
 You folks planning to take a ship?
-I'd give up on that for a while, if I were you.
+I'd give up on that for a while,
+if I were you.
 -----------------------
 #男性
 Man
 -----------------------
 #理由かい？　港に行ってみればわかるさ
 #港は、この道をいったすぐそこだから
-Why? Just head to the port and you'll see.
-It's right down this road.
+Why? Just head to the port and
+you'll see. It's right down this
+road.
 -----------------------
 #男性
 Man
@@ -511,16 +534,18 @@ Man
 #あそこに商人が住んでるんだが
 #こいつが、まぁ評判が悪くてな
 See that mansion right there?
-A merchant lives there, and let me tell you,
-he's got quite the reputation.
+A merchant lives there, and let
+me tell you, he's got quite the
+reputation.
 -----------------------
 #男性
 Man
 -----------------------
 #あそこの屋敷に住んでる、商人な
 #メチャメチャ落ちこんでんだよ
-He's a merchant who lives in that mansion.
-He's been absolutely crushed lately.
+He's a merchant who lives in that
+mansion. He's been absolutely
+crushed lately.
 -----------------------
 #男性
 Man
@@ -528,8 +553,9 @@ Man
 #オベロン社とか、遺産とか
 #ブツブツつぶやいててさ
 #なんか、あったのかねぇ？
-Muttering about the Oberon Corporation, his inheritance...
-Just rambling to himself all the time.
+Muttering about the Oberon
+Corporation, his inheritance... Just
+rambling to himself all the time.
 Wonder what happened to him?
 -----------------------
 #男性
@@ -538,8 +564,8 @@ Man
 #あそこに、でっかい屋敷があるだろ？
 #商人が住んでるんだけどさ
 #なんか、みょ～に落ちこんでんだよ
-See that huge mansion over there?
-A merchant lives there, but he's been
+See that huge mansion over there? A
+merchant lives there, but he's been
 acting really down in the dumps.
 -----------------------
 #男性
@@ -548,9 +574,11 @@ Man
 #あそこの商人は、やり方こそどうかと思うが
 #バイタリティだけは、尊敬してんだよ
 #だから、元気がないのが気になってな
-That merchant's methods may be questionable,
-but I've always respected his vitality.
-That's why it bothers me to see him so listless.
+That merchant's methods may be
+questionable, but I've always
+respected his vitality. That's
+why it bothers me to see him so
+listless.
 -----------------------
 #おじいさん
 Old Man
@@ -576,9 +604,9 @@ Old Man
 #ハッハッハ
 #バカいっちゃいけねえよ
 #おまえらに、あいつがたおせるもんか
-Hahaha!
-Don't be ridiculous, kid.
-You think you could take down someone like that?
+Hahaha! Don't be ridiculous, kid.
+You think you could take down
+someone like that?
 -----------------------
 #おじいさん
 Old Man
@@ -603,8 +631,8 @@ Old Man
 #デビルズ・リーフの主が
 #いなくなってから
 #ノイシュタットへの客も増えたんだ
-Ever since the master of Devil's Reef
-disappeared, we've been getting
+Ever since the master of Devil's
+Reef disappeared, we've been getting
 more visitors coming to Neuestadt.
 -----------------------
 #おじいさん
@@ -621,17 +649,19 @@ Old Man
 #この街への観光客がふえりゃ
 #闘技場のもうけもふえて
 #より復興にちかづくってわけだな
-More tourists means more profits for the arena,
-which means we're one step closer
-to finishing reconstruction.
+More tourists means more profits
+for the arena, which means we're
+one step closer to finishing
+reconstruction.
 -----------------------
 #金持ち
 Wealthy Man
 -----------------------
 #デビルズ・リーフの主のせいで
 #船客が、のびなやんでるんだ････
-Because of that master of Devil's Reef,
-ship passengers have been dwindling...
+Because of that master of Devil's
+Reef, ship passengers have been
+dwindling...
 -----------------------
 #金持ち
 Wealthy Man
@@ -649,9 +679,9 @@ Wealthy Man
 #どっかの、どえらい英雄さんとかが
 #デビルズ・リーフの主
 #倒してくれたりしねえかなぁ
-If only some great hero from somewhere
-would come along and defeat
-the master of Devil's Reef...
+If only some great hero from
+somewhere would come along and
+defeat the master of Devil's Reef...
 -----------------------
 #船員
 Sailor
@@ -660,8 +690,9 @@ Sailor
 #港ごとに愛する女をのこし
 #今日もひとり、旅をつづけるのさ････
 I'm Joe, the wandering sailor.
-Leaving behind a beloved woman in every port,
-I continue my journey alone once more...
+Leaving behind a beloved woman in
+every port, I continue my journey
+alone once more...
 -----------------------
 <Loni>
 -----------------------
@@ -677,8 +708,9 @@ Sailor
 #港ごとに愛する女をのこし
 #今日もひとり、旅をつづけるのさ････
 I'm Joe, the wandering sailor.
-Leaving behind a beloved woman in every port,
-I continue my journey alone today...
+Leaving behind a beloved woman in
+every port, I continue my journey
+alone today...
 -----------------------
 #船員
 Sailor
@@ -686,9 +718,9 @@ Sailor
 #なぜなら････
 #オレが愛する女は、だれひとりとして
 #オレを愛してくれないからだ････
-Why, you ask...?
-Because not a single woman I've loved
-has ever loved me back...
+Why, you ask...? Because not a
+single woman I've loved has ever
+loved me back...
 -----------------------
 <Loni>
 -----------------------
@@ -710,9 +742,9 @@ I live my life free...
 #なにものにも、しばられず････かぁ
 #そういう風に生きるのって
 #けっこう大変なことだよね････
-Unbound by anyone or anything, huh...
-Living that way sounds
-pretty tough, actually...
+Unbound by anyone or anything,
+huh... Living that way sounds pretty
+tough, actually...
 -----------------------
 #船員
 Sailor
@@ -731,8 +763,8 @@ Sailor
 #今日も空を流れる雲のように
 #だれにも、しばられずに生きるのさ････
 I'm Joe, the wandering sailor.
-Drifting free like the clouds in the sky today,
-unbound by anyone...
+Drifting free like the clouds in the
+sky today, unbound by anyone...
 -----------------------
 #船員
 Sailor
@@ -740,9 +772,10 @@ Sailor
 #オレは、さすらいの船乗りジョー
 #「さすらい」と言ってるにもかかわらず
 #もう三年もこの街でくらしてるのさ････
-I'm Joe, the wandering sailor.
-Even though I call myself 'wandering,'
-I've been living in this town for three years now...
+I'm Joe, the wandering sailor. Even
+though I call myself 'wandering,'
+I've been living in this town for
+three years now...
 -----------------------
 <Kyle>
 -----------------------
@@ -797,8 +830,8 @@ Woman
 -----------------------
 #キャ～！スッテキィィ～ッ!!
 #応援するから、がんばってねぇっ♪
-Kyaa~! You're so cool~!!
-I'll cheer for you, so do your best~! ♪
+Kyaa~! You're so cool~!! I'll cheer
+for you, so do your best~! ♪
 -----------------------
 <Loni>
 -----------------------
@@ -812,8 +845,8 @@ Woman
 -----------------------
 #キャ～！スッテキィィ～ッ!!
 #応援するから、がんばってねぇっ♪
-Kyaa~! You're so cool~!!
-I'll cheer for you, so do your best~! ♪
+Kyaa~! You're so cool~!! I'll cheer
+for you, so do your best~! ♪
 -----------------------
 #女性
 Woman
@@ -821,9 +854,10 @@ Woman
 #闘技大会で長い間
 #チャンピオンをつとめた
 #無敵のコングマンって人がいるの
-There's this guy named Kongman
-who was the champion of the tournament
-for the longest time. They called him invincible.
+There's this guy named Kongman who
+was the champion of the tournament
+for the longest time. They called
+him invincible.
 -----------------------
 #女性
 Woman
@@ -831,9 +865,9 @@ Woman
 #でも、そのコングマンをも
 #やぶった人がいた････
 #それが、あの英雄スタン＝エルロンよ！
-But even that Kongman
-had someone who defeated him...
-And that was the hero, Stahn Aileron!
+But even that Kongman had someone
+who defeated him... And that was
+the hero, Stahn Aileron!
 -----------------------
 #女性
 Woman
@@ -878,7 +912,8 @@ Girl
 #むかし、初代マッハくんをやぶった
 #すごく足のはやい人が、いたんだってさ
 A long time ago, there was someone
-really fast who beat the original Mach-kun.
+really fast who beat the original
+Mach-kun.
 -----------------------
 #女の子
 Girl
@@ -895,9 +930,8 @@ What a weird name!
 #「すかたん＝えろりん」？
 #う～ん････
 #どこかで聞いたことあるような････
-'Skatan Erolin'?
-Hmm...
-I feel like I've heard that somewhere before...
+'Skatan Erolin'? Hmm... I feel like
+I've heard that somewhere before...
 -----------------------
 #マッハ少年
 Mach Boy
@@ -905,8 +939,8 @@ Mach Boy
 #フッ　オレに勝つとはな
 #世の中にはまだまだ強者がいるものだ
 Hmph. So you think you can beat me?
-There are still plenty of strong fighters
-out there in this world.
+There are still plenty of strong
+fighters out there in this world.
 -----------------------
 #マッハ少年
 Mach Boy
@@ -923,8 +957,9 @@ Mach Boy
 -----------------------
 #フッ　オレの名はマッハ
 #ノイシュタットレースの現王者だ
-Hmph. My name is Mach.
-I'm the current champion of the Neuestadt race.
+Hmph. My name is Mach. I'm the
+current champion of the Neuestadt
+race.
 -----------------------
 #マッハ少年
 Mach Boy
@@ -932,8 +967,8 @@ Mach Boy
 #フッ　お前、なかなか良い足を
 #してるじゃないか
 #その足でオレと戦ってみる気は無いか？
-Hmph. You've got some pretty fast legs.
-Care to test them against me?
+Hmph. You've got some pretty fast
+legs. Care to test them against me?
 -----------------------
 SELECT
 -----------------------
@@ -970,9 +1005,9 @@ Mach Boy
 #フッ　オレの名はマッハ
 #ノイシュタットレースの現王者にして
 #初代王者の息子だ
-Hmph. My name is Mach.
-Current champion of the Neuestadt race,
-and son of the very first champion.
+Hmph. My name is Mach. Current
+champion of the Neuestadt race, and
+son of the very first champion.
 -----------------------
 #マッハ少年
 Mach Boy
@@ -980,9 +1015,9 @@ Mach Boy
 #フッ　このオレの走りは誰にも
 #止められんさ
 #アタモニ神にすら、な
-Hmph. No one can stop me once I start running.
-Not anyone.
-Not even the goddess Atamoni herself.
+Hmph. No one can stop me once I
+start running. Not anyone. Not even
+the goddess Atamoni herself.
 -----------------------
 #子供
 Kid
@@ -990,8 +1025,10 @@ Kid
 #ねえねえ、海のはじっこまで行ったら
 #滝になってて、下に落ちるしかないって
 #ホントなの？
-Hey, hey, is it true that if you go all the way to the edge of the sea,
-it turns into a waterfall, and you just fall off with no way down?
+Hey, hey, is it true that if you go
+all the way to the edge of the sea,
+it turns into a waterfall, and you
+just fall off with no way down?
 -----------------------
 <Kyle>
 -----------------------
@@ -1025,9 +1062,9 @@ Kid
 #ぼくね、おっきくなったら
 #海のはじっこが、どうなってるか
 #自分の目で見てくるんだ！
-When I grow up,
-I'm gonna see what the edge of the sea looks like
-with my own eyes!
+When I grow up, I'm gonna see what
+the edge of the sea looks like with
+my own eyes!
 -----------------------
 #子供
 Kid
@@ -1036,8 +1073,8 @@ Kid
 #いつかきっと
 #ぜ～ったいに、船乗りになる！
 That's why I'm gonna be a sailor!
-Someday, for sure...
-I'm gonna be a sailor, no matter what!
+Someday, for sure... I'm gonna be a
+sailor, no matter what!
 -----------------------
 #子供
 Kid
@@ -1045,9 +1082,9 @@ Kid
 #ぼく、大きくなったら船乗りになる！
 #いつかきっと
 #ぜ～ったいに、船乗りになる！
-I'm gonna be a sailor when I grow up!
-Someday, for sure...
-I'm gonna be a sailor, no matter what!
+I'm gonna be a sailor when I grow
+up! Someday, for sure... I'm gonna
+be a sailor, no matter what!
 -----------------------
 <Kyle>
 -----------------------
@@ -1064,9 +1101,9 @@ Kid
 #海のはじっこが、どうなってるか
 #ぼく、見たいの！
 #だから、船乗りを目指してるんだ！
-I wanna see what the edge of the sea is like!
-I wanna see it!
-That's why I'm gonna be a sailor!
+I wanna see what the edge of the sea
+is like! I wanna see it! That's why
+I'm gonna be a sailor!
 -----------------------
 <Kyle>
 -----------------------
@@ -1074,8 +1111,8 @@ That's why I'm gonna be a sailor!
 #未来は、自分の手で
 #切り開くものだ････
 Just become whatever you want to be!
-The future is something you carve out
-with your own two hands...
+The future is something you carve
+out with your own two hands...
 -----------------------
 <Kyle>
 -----------------------
@@ -1090,17 +1127,17 @@ Kid
 #海のはじっこが、どうなってるか
 #ぼく、見たいの！
 #だから、船乗りを目指してるんだ！
-I wanna see what the edge of the sea is like!
-I wanna see it!
-That's why I'm gonna be a sailor!
+I wanna see what the edge of the sea
+is like! I wanna see it! That's why
+I'm gonna be a sailor!
 -----------------------
 #グリッド
 Grid
 -----------------------
 #ぐぬぬぬぬ････
 #今日は、調子が悪かっただけだ！
-Grrrr...
-I was just off my game today, that's all!
+Grrrr... I was just off my game
+today, that's all!
 -----------------------
 #グリッド
 Grid
@@ -1108,9 +1145,9 @@ Grid
 #おれさまの実力は
 #いや、我等、漆黒の翼の力は
 #こんなものではない！
-My true strength...
-No, the power of we, the Jet-Black Wings,
-is far greater than this!
+My true strength... No, the power
+of we, the Jet-Black Wings, is far
+greater than this!
 -----------------------
 #グリッド
 Grid
@@ -1118,8 +1155,8 @@ Grid
 #おれさまは、グリッド！
 #戦闘からの離脱の速さゆえについた
 #あざ名が「音速の貴公子」！
-I am Grid!
-My nickname, earned for my speed in retreating from battle,
+I am Grid! My nickname, earned for
+my speed in retreating from battle,
 is the 'Prince of Sonic Speed'!
 -----------------------
 #グリッド
@@ -1166,23 +1203,25 @@ Grid
 #おれさまは、グリッド！
 #戦闘からの離脱の速さゆえについた
 #あざ名が、「音速の貴公子」！
-I am Grid!
-My nickname, earned for my speed in retreating from battle,
+I am Grid! My nickname, earned for
+my speed in retreating from battle,
 is the 'Prince of Sonic Speed'!
 -----------------------
 #グリッド
 Grid
 -----------------------
 #我等、漆黒の翼に負けは無いのだ！
-We, the Jet-Black Wings, know no defeat!
+We, the Jet-Black Wings, know no
+defeat!
 -----------------------
 #ミリー
 Millie
 -----------------------
 #こりないねぇ、グリッドも････
 #３０回目で、やっとあきらめてくれたよ
-He never learns, that Grid...
-He finally gave up after the thirtieth loss.
+He never learns, that Grid... He
+finally gave up after the thirtieth
+loss.
 -----------------------
 #ジョン
 John
@@ -1278,7 +1317,8 @@ Rimul
 -----------------------
 #ケガをしたくなければ
 #すぐに立ち去りなさい････
-Leave now, unless you wish to be injured...
+Leave now, unless you wish to be
+injured...
 -----------------------
 #悪漢
 Thug
@@ -1312,8 +1352,8 @@ Rimul
 #････とんだ寄り道をしてしまったわね
 #やはり、もっと強い敵とまみえてこその
 #剣の道ね････
-...Quite the detour.
-But the path of the sword demands stronger foes...
+...Quite the detour. But the path of
+the sword demands stronger foes...
 -----------------------
 #少女
 Girl
@@ -1330,22 +1370,23 @@ Rimul
 -----------------------
 #必要ないわ
 #当然のことを、したまでよ････
-That won't be necessary.
-I merely did what anyone would have done...
+That won't be necessary. I merely
+did what anyone would have done...
 -----------------------
 <Kyle>
 -----------------------
 #すごい････ホントに一瞬で
 #全員、やっつけちゃった････
-Whoa... She really took them all out in a flash...
+Whoa... She really took them all
+out in a flash...
 -----------------------
 <Judas>
 -----------------------
 #あれでおそらく
 #実力の欠片すら出していないだろう
 #まさに、すご腕だ
-And that was likely
-not even a fraction of her true strength.
+And that was likely not even a
+fraction of her true strength.
 Truly formidable.
 -----------------------
 <Loni>
@@ -1426,16 +1467,18 @@ Rimul
 #どんな不利な状況をも、はね返せる
 #強力な切り札････
 I currently lack a trump card...
-A powerful trump card that could turn back
-any disadvantageous situation...
+A powerful trump card that could
+turn back any disadvantageous
+situation...
 -----------------------
 #リムル
 Rimul
 -----------------------
 #それがあれば、もっと高みに昇れる
 #そこまでは、考えいたったのよ
-With a trump card, I could rise even higher.
-That's as far as my thoughts had taken me.
+With a trump card, I could rise
+even higher. That's as far as my
+thoughts had taken me.
 -----------------------
 <Kyle>
 -----------------------
@@ -1454,7 +1497,8 @@ Rimul
 -----------------------
 #ただ、速く走ることだけを
 #追い求める････
-Simply pursuing nothing but running faster and faster...
+Simply pursuing nothing but running
+faster and faster...
 -----------------------
 #リムル
 Rimul
@@ -1462,9 +1506,11 @@ Rimul
 #同じところを、何度もまわり
 #ただ、速く走ることだけを考える
 #････剣の道も、また同じ････
-Going around and around the same place,
-thinking of nothing but running as fast as possible...
-...The way of the sword is no different...
+Going around and around the same
+place, thinking of nothing but
+running as fast as possible...
+...The way of the sword is no
+different...
 -----------------------
 #リムル
 Rimul
@@ -2338,9 +2384,9 @@ notice
 #「通常攻撃」について
 #深く話し合っているようです
 #耳を傾けますか？
-"Normal Attacks"
-They seem to be having an in-depth discussion.
-Will you listen in?
+"Normal Attacks" They seem to be
+having an in-depth discussion. Will
+you listen in?
 -----------------------
 #慣れてきたから最近は通常攻撃は
 #<button:00000045>だけ叩きっぱなしさ

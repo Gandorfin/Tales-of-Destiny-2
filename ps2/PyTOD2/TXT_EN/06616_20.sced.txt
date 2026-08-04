@@ -8,7 +8,8 @@ Aquaveil
 Inn Shiden
 -----------------------
 #緑豊かな庭園が広がっている
-A lush garden stretches out before you.
+A lush garden stretches out before
+you.
 -----------------------
 #アクアヴェイルの『ワビ・サビ』の文化を反映した
 #質素で慎ましやかな調度品がある
@@ -21,9 +22,9 @@ Innkeeper
 #ようこそ、シデンへおこしやす
 #大したおもてなしはできまへんけど
 #ゆるりとしていっとくんなはれや
-Welcome to Shiden.
-I can't offer much in the way of hospitality,
-but please, make yourself at home.
+Welcome to Shiden. I can't offer
+much in the way of hospitality, but
+please, make yourself at home.
 -----------------------
 #おかみ
 Innkeeper
@@ -33,8 +34,9 @@ Townsperson
 -----------------------
 #メイワクなことに、たまに広場で
 #ストリートライブをやるんだよ
-It's a real nuisance, but sometimes they hold
-street concerts in the plaza.
+It's a real nuisance, but sometimes
+they hold street concerts in the
+plaza.
 -----------------------
 #街の人
 Townsperson
@@ -42,8 +44,9 @@ Townsperson
 #ジョニーさまの歌を
 #聞いたことあるかい？
 #もしまだなら、気をつけなさい
-Have you ever heard Lord Johnny's songs?
-If you haven't, you'd best be careful.
+Have you ever heard Lord Johnny's
+songs? If you haven't, you'd best
+be careful.
 -----------------------
 #街の人
 Townsperson
@@ -51,8 +54,9 @@ Townsperson
 #なにせ、うっかり耳にして
 #そのまま三日三晩目が覚めなかった人も
 #いるくらいなんだから
-Why, some folks have accidentally overheard them
-and gone three whole days and nights without sleep.
+Why, some folks have accidentally
+overheard them and gone three whole
+days and nights without sleep.
 -----------------------
 #いってらっしゃいませ
 Please come again.

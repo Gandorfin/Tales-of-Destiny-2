@@ -12,8 +12,9 @@ Richman
 -----------------------
 #この店はハイデルベルグの装備品屋
 #『ソウル＆ソード』の直営店なのだ
-This shop is the Heidelberg equipment store.
-It's a direct branch of 'Soul & Sword'.
+This shop is the Heidelberg
+equipment store. It's a direct
+branch of 'Soul & Sword'.
 -----------------------
 #リッチマン
 Richman
@@ -21,8 +22,9 @@ Richman
 #そこの店主であり鍛冶士でもある
 #『ウィンターズ』が手がけた
 #作品がこれなのだが････
-The shopkeeper there is also a blacksmith.
-This piece was crafted by 'Winters'...
+The shopkeeper there is also a
+blacksmith. This piece was crafted
+by 'Winters'...
 -----------------------
 #リッチマン
 Richman
@@ -39,8 +41,8 @@ Exterior Shop
 -----------------------
 #いらっしゃいませ
 #こちらでは外装を扱っています
-Welcome!
-We handle exterior modifications here.
+Welcome! We handle exterior
+modifications here.
 -----------------------
 #武器屋
 Weapon Shop
@@ -94,9 +96,9 @@ Woman
 #昔は、お金の価値もわからず
 #自分の好きなものを
 #好きなだけ買っていたの
-Back then, I didn't understand the value of money.
-I'd buy whatever I liked,
-as much as I pleased.
+Back then, I didn't understand the
+value of money. I'd buy whatever I
+liked, as much as I pleased.
 -----------------------
 #女性
 Woman
@@ -104,9 +106,10 @@ Woman
 #今は、自分ではたらいて
 #必死にためたお金で買ってるから
 #ムダづかいできないのよね
-Now I work for my own money,
-and buy things with what I've saved up desperately.
-I can't afford to waste anything.
+Now I work for my own money, and
+buy things with what I've saved
+up desperately. I can't afford to
+waste anything.
 -----------------------
 #女性
 Woman
@@ -134,9 +137,10 @@ Woman
 #昔なら、父親にたのむだけで
 #ここにある商品よりも
 #ずっと高級なものが買えたの
-In the past, I could've just asked my father.
-I could've bought things far more luxurious
-than anything they have here.
+In the past, I could've just asked
+my father. I could've bought things
+far more luxurious than anything
+they have here.
 -----------------------
 #女性
 Woman
@@ -144,9 +148,9 @@ Woman
 #でも、自分ではたらいて
 #手に入れたものは
 #どんな高級品よりかがやいて見えるわ
-But something I worked for
-and earned with my own hands
-shines brighter than any luxury item.
+But something I worked for and
+earned with my own hands shines
+brighter than any luxury item.
 -----------------------
 #女性
 Woman
@@ -173,9 +177,10 @@ would be this hard.
 #そーそー、だから俺もこいつと
 #三百万ガルドのレンズを取りに････
 #････いったっけか？
-Right, right. That's why I'm with this guy,
-off to get that three-million-Gald Lens...
-...Did I say that?
+Right, right. That's why I'm
+with this guy, off to get that
+three-million-Gald Lens... ...Did
+I say that?
 -----------------------
 <Kyle>
 -----------------------
@@ -190,9 +195,9 @@ Woman
 #昔は、お金の価値もわからず
 #自分の好きなものを
 #好きなだけ買っていたの
-Back then, I didn't understand the value of money.
-I'd buy whatever I liked,
-as much as I pleased.
+Back then, I didn't understand the
+value of money. I'd buy whatever I
+liked, as much as I pleased.
 -----------------------
 #女性
 Woman
@@ -200,9 +205,10 @@ Woman
 #今は、自分ではたらいて
 #必死にためたお金で買ってるから
 #ムダづかいできないのよね
-Now I work for my own money,
-and buy things with what I've desperately saved up.
-I can't afford to waste anything.
+Now I work for my own money, and buy
+things with what I've desperately
+saved up. I can't afford to waste
+anything.
 -----------------------
 #豪華な装飾を施された槍斧だ
 #『非売品』と書かれている
