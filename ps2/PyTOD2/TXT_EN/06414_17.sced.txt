@@ -10,17 +10,17 @@ Infirmary
 NOTICE
 -----------------------
 #<item:00000003>を手に入れました
-<item:00000003>You obtained .
+Acquired <item:00000003>.
 -----------------------
 #救急箱にはグミが入っている
 #怪我をしたら、とりあえずグミを食えという事だろうか
-The first aid kit contains gummy bears.
-Does that mean you should just eat some gummies whenever you get hurt?
+The first aid kit contains gummies.
+I guess the idea is to eat some whenever you get hurt?
 -----------------------
 #医学書のようだ
 #････難しすぎてまったく理解できない
-It reads like a medical textbook.
-...It's so complicated I can't understand any of it.
+These appear to be medical texts.
+...They're far too complex for me to understand.
 -----------------------
 <char:000003E8>
 -----------------------
@@ -33,112 +33,112 @@ Doctor
 #そこの男は
 #毎回、参加だけはするんだが
 #まだ一度も戦ったことがないらしい
-That man over there
-He always shows up to participate,
-but it seems he's never actually fought.
+That man over there...
+He shows up to participate every single time,
+but apparently he's never actually fought once.
 -----------------------
 #「参加することに意義がある」
 #とはいうけど
 #ホントに意義なんかあるのかね？
-"The important thing is to participate."
-That's what they say,
-but does it really matter?
+"Taking part is what matters,"
+or so they say...
+but is there really any point?
 -----------------------
 #あっちにいる男のことなら
 #心配する必要はないぞ
-As for that guy over there,
-you don't need to worry.
+If you're talking about that guy over there,
+don't waste your energy worrying about him.
 -----------------------
 #毎回、参加だけはするんだが
 #自分の出番が近くなると
 #いつも、医務室に駆けこんでくるんだ
-I always make sure to show up,
-but just as my turn is getting close
-I always end up rushing off to the infirmary.
+He always makes sure to show up,
+but whenever his turn draws near,
+he comes rushing straight to the infirmary.
 -----------------------
 #医務室は、あくまで
 #闘いの傷をいやすところだ
-The infirmary is merely
-a place to heal wounds from battle.
+The infirmary exists solely
+to treat wounds sustained in battle.
 -----------------------
 #闘う前に
 #飛びこんでくるのは
 #そこに転がってるヤツだけだ
-Before we fight
-The ones who jump in are
-only those rolling around there.
+The only ones who come rushing in
+before they've even fought
+are the ones already lying over there.
 -----------------------
 #剣士
 Swordsman
 -----------------------
 #ぐぉ～っ！
 #し、死ぬぅ～!!
-Guhh~!
+Guhoooh~!
 I-I'm gonna die~!!
 -----------------------
 #ふぐぉわ～～っ!!
 #モ、モウレツに腹がいてえっ!!
-Fuguwa~~!
-I'm... I'm furious!!
+Fuguwaah~~!!
+M-My stomach hurts like crazy!!
 -----------------------
 <Kyle>
 -----------------------
 #お腹でも刺されたのかな？
-Were they stabbed in the stomach?
+Think he got stabbed in the gut or something?
 -----------------------
 <Judas>
 -----------------------
 #見たところ
 #外傷はないようだが････
-From what I can see
-It doesn't look like there are any external injuries... but...
+From what I can see,
+there don't appear to be any external injuries...
 -----------------------
 #今までは、急な病で
 #不戦敗ばかりだったが
 #今度こそ、闘ってみせるぞ！
-I've been struck down by sudden illness up until now,
-suffering nothing but forfeit defeats,
-But this time, I'll give it my all in battle!
+Up until now, sudden illness
+has left me with nothing but forfeit defeats.
+But this time, I'll show them I can fight!
 -----------------------
 #････この腹痛が
 #おさまったらな････
-...if only this stomachache would...
-...subside...
+...Once this stomachache
+subsides, that is...
 -----------------------
 {15}{24}{6E}{C0}
 -----------------------
 #大丈夫？
-Are you okay?
+You okay?
 -----------------------
 <char:000003E8>
 -----------------------
 #恥ずかしいところ見せちゃったね
-I showed you something embarrassing.
+I let you see something embarrassing.
 -----------------------
 {15}{24}{6E}{C0}
 -----------------------
 #おいおい大丈夫か？
-You okay?
+Hey, hey. You okay?
 -----------------------
 <char:000003E8>
 -----------------------
 #うん、なんとか････
-Yeah, I think we'll make it...
+Yeah, somehow...
 -----------------------
 {15}{24}{6E}{C0}
 -----------------------
 #がんばってその程度か
-That's about all you can manage.
+That's all you've got after trying that hard?
 -----------------------
 <char:000003E8>
 -----------------------
 #あきらめるものか！
-I'm not giving up on it!
+Like I'd give up!
 -----------------------
 {15}{24}{6E}{C0}
 -----------------------
 #大丈夫かい？
-You okay?
+You okay there?
 -----------------------
 <char:000003E8>
 -----------------------
@@ -148,27 +148,27 @@ I won't lose next time.
 {15}{24}{6E}{C0}
 -----------------------
 #治したげようか？
-Do you want me to heal it?
+Want me to heal you?
 -----------------------
 <char:000003E8>
 -----------------------
 #ありがとう
-Thank you.
+Thanks.
 -----------------------
 {15}{24}{6E}{C0}
 -----------------------
 #あ、大丈夫？
-Ah, are you okay?
+Oh, are you okay?
 -----------------------
 <char:000003E8>
 -----------------------
 #心配してくれた？
-You were worried about me?
+Were you worried about me?
 -----------------------
 {15}{24}{6E}{C0}
 -----------------------
 #気が付いたか？
-You noticed, didn't you?
+You noticed, did you?
 -----------------------
 <char:000003E8>
 -----------------------
@@ -178,17 +178,17 @@ Yes, I'm fine...
 {15}{24}{6E}{C0}
 -----------------------
 #おまえの力はそんなものか？
-So that's all you've got?
+So that's all the strength you have?
 -----------------------
 <char:000003E8>
 -----------------------
 #わたし、がんばらなきゃ
-I have to try my best.
+I have to do better.
 -----------------------
 {15}{24}{6E}{C0}
 -----------------------
 #あんまり無理しちゃダメだよ
-Don't push yourself too hard.
+Don't push yourself so hard.
 -----------------------
 <char:000003E8>
 -----------------------
@@ -198,37 +198,37 @@ Yes, thank you.
 {15}{24}{6E}{C0}
 -----------------------
 #そんなにムリしちゃダメよ
-Don't push yourself too hard.
+You shouldn't overdo it like that.
 -----------------------
 <char:000003E8>
 -----------------------
 #そうね、ごめんなさい
-That's right, I'm sorry.
+You're right. I'm sorry.
 -----------------------
 {15}{24}{6E}{C0}
 -----------------------
 #ムチャやってると母さんが心配するよ？
-You're pushing yourself too hard. Mom's gonna worry about you, you know?
+If you keep pushing yourself like that, Mom's gonna worry, you know?
 -----------------------
 <char:000003E8>
 -----------------------
 #ムチャなもんかよ
-No way.
+It's not that big a deal.
 -----------------------
 {15}{24}{6E}{C0}
 -----------------------
 #大丈夫？
-Are you okay?
+You okay?
 -----------------------
 <char:000003E8>
 -----------------------
 #頑丈なのが取柄でね
-My strength lies in my durability.
+Being tough is my one redeeming quality.
 -----------------------
 {15}{24}{6E}{C0}
 -----------------------
 #ぶざまだな
-It's awkward.
+Pathetic.
 -----------------------
 <char:000003E8>
 -----------------------
@@ -238,7 +238,7 @@ Leave me alone!
 {15}{24}{6E}{C0}
 -----------------------
 #ぷっ････
-Phhh...
+Pfft...
 -----------------------
 <char:000003E8>
 -----------------------
@@ -253,7 +253,7 @@ So weak~
 <char:000003E8>
 -----------------------
 #ハッキリ言われるとツラいぜ
-It's tough being told it so bluntly.
+It stings when someone puts it that bluntly.
 -----------------------
 {15}{24}{6E}{C0}
 -----------------------
@@ -268,27 +268,27 @@ No need to worry.
 {15}{24}{6E}{C0}
 -----------------------
 #自分を大事にして････
-Treat yourself well...
+Take better care of yourself...
 -----------------------
 <char:000003E8>
 -----------------------
 #どこで倒れようとも悔いはない
-I have no regrets wherever I fall.
+I have no regrets, no matter where I fall.
 -----------------------
 {15}{24}{6E}{C0}
 -----------------------
 #そんなにムチャしてどうすんだよ？
-What are you trying to prove by pushing yourself so hard?
+What's the point of pushing yourself that hard?
 -----------------------
 <char:000003E8>
 -----------------------
 #人の生き方はそれぞれだ
-People live their lives in different ways.
+Everyone lives their own way.
 -----------------------
 {15}{24}{6E}{C0}
 -----------------------
 #悲壮感ただよってるよ？
-There's a real sense of tragedy hanging in the air, isn't there?
+You're practically radiating tragic hero vibes.
 -----------------------
 <char:000003E8>
 -----------------------
@@ -298,7 +298,7 @@ You too.
 {15}{24}{6E}{C0}
 -----------------------
 #あなたのデータ取らせてくれない？
-Can I take your data?
+Mind if I collect some data on you?
 -----------------------
 <char:000003E8>
 -----------------------
@@ -308,12 +308,12 @@ No.
 {15}{24}{6E}{C0}
 -----------------------
 #大変な目にあったね
-You've been through a lot.
+You've had it rough, huh?
 -----------------------
 <char:000003E8>
 -----------------------
 #この程度たいしたこたぁないさ
-This is nothing to worry about.
+This is nothing, really.
 -----------------------
 {15}{24}{6E}{C0}
 -----------------------
@@ -323,22 +323,22 @@ You okay?
 <char:000003E8>
 -----------------------
 #これでも自信あったんだけどね
-I was pretty confident about it.
+And here I thought I had a shot.
 -----------------------
 {15}{24}{6E}{C0}
 -----------------------
 #ぷっ････
-Phew...
+Pfft...
 -----------------------
 <char:000003E8>
 -----------------------
 #笑うんじゃないよ！
-Don't you dare laugh at me!
+Don't you dare laugh!
 -----------------------
 {15}{24}{6E}{C0}
 -----------------------
 #子供たちに会えなくなるぞ
-We'll miss out on seeing the kids.
+You won't get to see the kids again.
 -----------------------
 <char:000003E8>
 -----------------------
@@ -348,7 +348,7 @@ I'll keep that in mind.
 {15}{24}{6E}{C0}
 -----------------------
 #じゃーん、ドーピング薬！
-Ta-da! Doping drugs!
+Ta-da! Performance-enhancing drugs!
 -----------------------
 <char:000003E8>
 -----------------------
@@ -358,12 +358,12 @@ I don't need it.
 {15}{24}{6E}{C0}
 -----------------------
 #ムチャしすぎだよ
-You're pushing it too hard.
+You're overdoing it.
 -----------------------
 <char:000003E8>
 -----------------------
 #天才に不可能は無いわ！
-There's no such thing as impossible for a genius!
+Nothing's impossible for a genius!
 -----------------------
 {15}{24}{6E}{C0}
 -----------------------
@@ -373,12 +373,12 @@ You noticed?
 <char:000003E8>
 -----------------------
 #次こそボコボコにしてやるわ！
-I'm gonna beat you to a pulp next time!
+Next time, I'm gonna pulverize you!
 -----------------------
 {15}{24}{6E}{C0}
 -----------------------
 #生きてるかー？
-You alive?
+You still alive?
 -----------------------
 <char:000003E8>
 -----------------------
@@ -394,7 +394,7 @@ I'm alive!
 -----------------------
 #うっさいわねー
 #放っておいてよ！
-I'm getting tired of this.
+You're so annoying!
 Leave me alone!
 -----------------------
 {15}{24}{6E}{C0}
@@ -405,7 +405,7 @@ You okay?
 <char:000003E8>
 -----------------------
 #この私がここまでボコられるなんて
-To think I'd get beaten up to this extent.
+I can't believe *I* got beaten this badly.
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -422,8 +422,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -457,8 +457,8 @@ notice
 -----------------------
 #{16}{25}{D2}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{25}{D2}{C0}There was , but
-I couldn't hold it because it was full.
+Found {16}{25}{D2}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------

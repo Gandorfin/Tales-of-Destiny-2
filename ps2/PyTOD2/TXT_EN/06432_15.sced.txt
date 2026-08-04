@@ -1,5 +1,5 @@
 #スノーフリア・宿屋
-Snoefria - Inn
+Frostheim - Inn
 -----------------------
 #スノーフリア
 Frostheim
@@ -13,17 +13,17 @@ It's herbal tea!
 <Kyle>
 -----------------------
 #う、うまい！
-It's so good!
+Mmm, this is great!
 -----------------------
 <Loni>
 -----------------------
 #あったかいのぅ････
-It's so warm...
+So warm...
 -----------------------
 #帳簿が入っていたので、のぞいてみた
 #････それなりに繁盛しているようだ
-I found a ledger in there, so I took a peek.
-...It seems to be doing quite well.
+There was a ledger inside, so I took a peek.
+...Seems to be doing fairly well.
 -----------------------
 #女性
 Woman
@@ -31,69 +31,69 @@ Woman
 #せっかく、ファンダリアまで
 #来たんだから、なにか
 #記念に買っていこっと
-Since we went all the way to Fandaria,
-we should at least
-buy something as a souvenir.
+Since we came all the way
+to Phandaria, I ought to
+pick up something to remember it by.
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #もらった人の
 #身も心も凍りつかせるような
 #おみやげってないかしら？
-to whoever received it
-a gift that chills you to the bone,
-I wonder if there's anything else?
+I wonder if there's a souvenir
+that would freeze whoever received it
+body and soul?
 -----------------------
 <Loni>
 -----------------------
 #そんなおそろしいみやげは
 #売ってないだろ････
-Such a terrifying souvenir...
-isn't sold anywhere, right...?
+They don't sell souvenirs
+that terrifying...
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #もらった人の
 #ふるえが止まらなくなるような
 #そんなおみやげ、ないかしら？
-for whoever receives it
-so that their trembling won't stop
-I wonder if there's such a gift?
+I wonder if there's a souvenir
+that would leave whoever received it
+shaking uncontrollably?
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #雑貨屋にかざられてる
 #クマの毛皮が気になるわね
-It's displayed in the general goods shop.
-I'm quite interested in that bear fur.
+That bear pelt on display
+at the general store has me curious.
 -----------------------
 <Harold>
 -----------------------
 #カンバラーベアの毛皮かしら？
 #シッポがキュートね
-Is it Kambalabea fur?
-The tail is cute.
+Is that a Kambare Bear pelt?
+The tail's adorable.
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #スノーフリア名物『毛皮のマント』は
 #売り切れみたい　残念だわ
-The Snowflake specialty 'Fur Cape' seems to be sold out.
-What a shame.
+Frostheim's famous 'Fur Mantle'
+seems to be sold out. What a shame.
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #せっかく、ファンダリアまで
 #来たんだから、なにか
 #記念に買っていこっと
-Since we've gone all the way to Fundaria,
-we should at least
-pick up a souvenir.
+Since we came all the way
+to Phandaria, I ought to
+pick up something to remember it by.
 -----------------------
 #女性
 Woman
@@ -101,16 +101,16 @@ Woman
 #もらった人の
 #身も心も凍りつかせるような
 #おみやげってないかしら？
-for whoever received it
-a chillingly freezing
-I wonder if there's any good souvenirs?
+I wonder if there's a souvenir
+that would freeze whoever received it
+body and soul?
 -----------------------
 <Loni>
 -----------------------
 #そんなおそろしいみやげは
 #売ってないだろ････
-You don't sell something that terrifying as a souvenir,
-do you...?
+They don't sell souvenirs
+that terrifying...
 -----------------------
 #女性
 Woman
@@ -118,9 +118,9 @@ Woman
 #もらった人の
 #ふるえが止まらなくなるような
 #そんなおみやげ、ないかしら？
-for whoever receives it
-so much that they can't stop trembling
-I wonder if there's such a gift?
+I wonder if there's a souvenir
+that would leave whoever received it
+shaking uncontrollably?
 -----------------------
 #宿屋
 Inn
@@ -139,66 +139,65 @@ Chef
 -----------------------
 #{16}{34}{7C}{C0}の作り方を
 #知りたいですか？
-{16}{34}{7C}{C0}How to make
-Do you want to know?
+{16}{34}{7C}{C0}Would you like to know
+how to make it?
 -----------------------
 select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #シェフ
 Chef
 -----------------------
 #{16}{34}{7C}{C0}の作り方を
 #教えてあげよう
-{16}{34}{7C}{C0}How to make
-Let me tell you.
+{16}{34}{7C}{C0}Let me teach you
+how to make it.
 -----------------------
 #シェフ
 Chef
 -----------------------
 #自分で作るのかい？
 #まぁ、それもいいだろう
-Are you making it yourself?
-Well, that works too.
+Making it yourself, are you?
+Well, I suppose that works too.
 -----------------------
 #シェフ
 Chef
 -----------------------
 #{16}{34}{7C}{C0}のレシピがあるんだが、
 #<0B:00000001>{14}{34}{74}{C0}<0B:00000000>ガルドで買わないか？
-{16}{34}{7C}{C0}I've got a recipe here,
-<0B:00000001>{14}{34}{74}{C0}<0B:00000000>Won't you buy it for  Gald?
+{16}{34}{7C}{C0}I've got a recipe here.
+<0B:00000001>{14}{34}{74}{C0}<0B:00000000>Won't you buy it for Gald?
 -----------------------
 select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #シェフ
 Chef
 -----------------------
 #お金が足りないね
-We're short on cash.
+You haven't got enough money.
 -----------------------
 #シェフ
 Chef
 -----------------------
 #{16}{34}{7C}{C0}のレシピを
 #売ってあげよう
-{16}{34}{7C}{C0}Lets sell 's recipe
-and give it to them.
+{16}{34}{7C}{C0}I'll sell you the recipe.
 -----------------------
 #シェフ
 Chef
 -----------------------
 #まぁ、しようがないな
-Well, there's nothing else to be done.
+Well, can't be helped.
 -----------------------
 {16}{24}{80}{C0}、{16}{24}{82}{C0}、{16}{24}{84}{C0}
 -----------------------
@@ -228,22 +227,22 @@ Chef
 -----------------------
 #{16}{34}{7C}{C0}を作るのに必要な食材は
 #{18}{44}{78}{C0}です
-{16}{34}{7C}{C0}The ingredients needed to make  are
-{18}{44}{78}{C0}.
+{16}{34}{7C}{C0}The ingredients you need
+to make it are {18}{44}{78}{C0}.
 -----------------------
 #シェフ
 Chef
 -----------------------
 #材料を持っているじゃないか
-You've got the materials.
+Looks like you've got the ingredients.
 -----------------------
 #シェフ
 Chef
 -----------------------
 #ゆずってくれれば{16}{34}{7C}{C0}を
 #作るがどうだい？
-If you yield to us, we'll make {16}{34}{7C}{C0}
-for you.
+Hand them over and I'll make {16}{34}{7C}{C0}
+for you. How about it?
 -----------------------
 select
 -----------------------
@@ -257,32 +256,32 @@ Chef
 -----------------------
 #そうか、待ってな　
 #すぐに{16}{34}{7C}{C0}を作ってやるよ
-I see. Wait.
-I'll make {16}{34}{7C}{C0} right away.
+All right, wait here.
+I'll whip up {16}{34}{7C}{C0} right away.
 -----------------------
 #シェフ
 Chef
 -----------------------
 #残念だな
 #凄く美味いのに･･･
-What a shame.
-It's so delicious... but...
+That's a shame.
+And it would've been so delicious...
 -----------------------
 #シェフ
 Chef
 -----------------------
 #食材を探しているんだ
 #見つけたら持ってきてくれないかい？
-I'm looking for ingredients.
-Could you bring them to me if you find any?
+I'm on the hunt for ingredients.
+If you find any, would you bring them to me?
 -----------------------
 #シェフ
 Chef
 -----------------------
 #お前には資格がない
 #また、出直して来るといい
-You're not qualified.
-Come back when you've improved.
+You don't have what it takes.
+Come back once you've improved.
 -----------------------
 #シェフ
 Chef
@@ -295,7 +294,7 @@ A chef worthy of receiving this.
 notice
 -----------------------
 #{16}{34}{7C}{C0}のレシピを拾いました
-{16}{34}{7C}{C0}Picked up 's recipe.
+{16}{34}{7C}{C0}Picked up the recipe for .
 -----------------------
 notice
 -----------------------
@@ -303,7 +302,7 @@ notice
 {16}{34}{90}{C0}I've learned how to make .
 -----------------------
 #いってらっしゃいませ
-Have a good day.
+Come again soon.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
@@ -317,8 +316,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -330,7 +329,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We hope to see you again.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -353,11 +352,10 @@ notice
 #{16}{25}{E6}{C0}がありましたが
 #いっぱいで持てませんでした
 {16}{25}{E6}{C0}There was , but
-I couldn't hold it because it was full.
+your inventory was full, so you couldn't take it.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

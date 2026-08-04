@@ -9,32 +9,32 @@ Orphanage - 2nd Floor
 -----------------------
 #ぬいぐるみだ
 #『くま：マリー作』と書かれている
-It's a stuffed animal,
-labeled "Bear: by Marie"
+It's a stuffed animal.
+The label reads "Bear: Handmade by Marie."
 -----------------------
 #孤児院で飼っているハムスターだ
 #名前は････
-It's a hamster from an orphanage,
-it's name is...
+It's a hamster kept at the orphanage.
+Its name is...
 -----------------------
 notice
 -----------------------
 #名前は『<item:00000C01>』
 #でよろしいですか？
-So your name is <item:00000C01>.
+Its name is <item:00000C01>.
 Is that correct?
 -----------------------
 select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #孤児院で飼っているハムスターだ
 #名前は『<item:00000C01>』
-It's a hamster kept at the orphanage,
-it's name is "<item:00000C01>".
+It's a hamster kept at the orphanage.
+Its name is <item:00000C01>.
 -----------------------
 #ここは孤児院二階です
 This is the second floor of the orphanage.
@@ -47,7 +47,7 @@ Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -57,8 +57,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -90,8 +90,8 @@ notice
 -----------------------
 #{16}{25}{D2}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{25}{D2}{C0}There was , but
-I couldn't hold it because it was full.
+Found {16}{25}{D2}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------

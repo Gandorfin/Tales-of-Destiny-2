@@ -1,84 +1,84 @@
 #チェリク
-Celica
+Cherik
 -----------------------
 #チェリク
 Cherik
 -----------------------
 #荷が山積みされている
 #ここは倉庫として使われているようだ
-The cargo is piled high.
-It looks like this place is being used as a warehouse.
+Cargo is piled high in here.
+Looks like this place is being used as a warehouse.
 -----------------------
 NOTICE
 -----------------------
 #<item:00000012>を手に入れました
-<item:00000012>You obtained .
+Acquired <item:00000012>.
 -----------------------
 #男性
-Guy
+Man
 -----------------------
 #あー、安い時給で
 #肉体労働はキツイぜ！
-Ah, with such low hourly pay...
-Manual labor is tough!
+Man, this hourly pay is a joke...
+Manual labor's a real grind!
 -----------------------
 <Harold>
 -----------------------
 #給料が出るだけマシじゃない
 #地上軍の兵隊なんて
 #みんなタダ働きよ
-It's better than getting paid at all.
-Just ground army grunts,
-everyone works for free.
+At least you're getting paid.
+The ground army grunts?
+They all work for free.
 -----------------------
 #男性
-Guy
+Man
 -----------------------
 #チェリクじゃ荷下ろしの
 #バイトしか仕事が無いよ
-In Cherik,
-there's nothing but part-time work to be had.
+In Cherik, unloading cargo's
+the only part-time work you'll find.
 -----------------------
 #男性
-Guy
+Man
 -----------------------
 #年々、人が減っていくし
 #チェリクはもうダメかもな
-The population keeps dropping year after year.
-Cherik might be done for.
+Fewer people every year...
+Cherik might be finished.
 -----------------------
 #男性
-Guy
+Man
 -----------------------
 #あー、安い時給で
 #肉体労働はキツイぜ！
-Ah, with such low hourly pay...
-Manual labor is tough!
+Man, this hourly pay is a joke...
+Manual labor's a real grind!
 -----------------------
 <Loni>
 -----------------------
 #いいじゃねえか
 #ダリルシェイドあたりじゃ
 #仕事そのものが無いんだぜ？
-Not bad.
-Like Dillshade's place.
-There ain't any work to be had?
+What's wrong with that?
+Around Darilsheid,
+there ain't any work at all, y'know?
 -----------------------
 #男性
-Guy
+Man
 -----------------------
 #チェリクじゃ荷下ろしの
 #バイトしか仕事が無いよ
-In Cherik,
-there's nothing but part-time jobs to be had.
+In Cherik, unloading cargo's
+the only part-time work you'll find.
 -----------------------
 #男性
-Guy
+Man
 -----------------------
 #年々、人が減っていくし
 #チェリクはもうダメかもな
-Every year, the population keeps dropping.
-Cherik might be done for.
+Fewer people every year...
+Cherik might be finished.
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -95,8 +95,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -130,7 +130,7 @@ notice
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{C2}{C0} but
+Found {16}{25}{C2}{C0}, but
 inventory is full already.
 -----------------------
 notice
@@ -138,4 +138,3 @@ notice
 #何もありません
 There's nothing here.
 -----------------------
-

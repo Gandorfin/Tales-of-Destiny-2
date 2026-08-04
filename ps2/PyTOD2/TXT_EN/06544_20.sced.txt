@@ -1,115 +1,115 @@
 #未開の森
-Uncharted Forest
+Untamed Forest
 -----------------------
 #未開の森
-Uncharted Forest
+Untamed Forest
 -----------------------
 #未開の森
-Uncharted Forest
+Untamed Forest
 -----------------------
 <Kyle>
 -----------------------
 #ダメだ････この程度じゃ
 #火力が足りないよ
 No good... This isn't enough.
-The firepower is lacking.
+We need more firepower.
 -----------------------
 <Loni>
 -----------------------
 #しょうがねえなぁ
 #切りはらってみるか？
 Well, can't be helped.
-Wanna try cutting them down?
+Wanna try hacking through?
 -----------------------
 <Judas>
 -----------------------
 #この、見るからに
 #毒を持っていそうな草をか？
 #僕はゴメンだ
-This, looking at it,
-is that grass likely to have poison?
-I'll pass.
+You want me to cut
+grass that looks poisonous
+just from looking at it? I'll pass.
 -----------------------
 <Kyle>
 -----------------------
 #でも、火をつけられるものは
 #ソーサラーリングぐらいしか
 #持ってないし････
-But what can be lit...
-is pretty much just
-The Sorcerer Ring...
+But the only thing I've got
+that can start a fire
+is the Sorcerer's Ring...
 -----------------------
 <Nanaly>
 -----------------------
 #はいはい、ちょっとゴメンよ
-Yes, yes, sorry about that.
+Yeah, yeah. Sorry, hold up.
 -----------------------
 <Nanaly>
 -----------------------
 #やっぱり、これは毒草だね
 #触ると危ないから
 #燃やすしかないよ
-It really is poisonous.
-We shouldn't touch it.
-Burning it's our only option.
+Yep, this is definitely poisonous.
+It's too dangerous to touch, so
+burning it is our only option.
 -----------------------
 <Nanaly>
 -----------------------
 #こいつは、樹皮が硬いから
 #中々火はつかないけど
 #高温で一気に燃やせば、大丈夫だよ
-This one has tough bark,
-It's hard to get it to catch fire,
-But if you burn it all at once at high heat, it'll be fine.
+This stuff's got tough bark,
+so it won't catch easy.
+But if you hit it with high heat all at once, it'll go up fine.
 -----------------------
 <Loni>
 -----------------------
 #おお、さすが<Nanaly>
 #野生育ちは違うね
 #････んで、どうやって火をつけるんだ？
-Well, well, as expected of you, .<Nanaly>
-You really are something else.
-...So, how do you actually light it?
+Ooh, nice going, <Nanaly>!
+That's wild-born know-how for you.
+...So, how do we actually light it?
 -----------------------
 <Nanaly>
 -----------------------
 #頭を使いなよ、都会育ち！
 #そこいらじゅう、走り回ってるやつから
 #油を調達すればいいのさ
-You should use your head, you city slicker!
-From all those running around everywhere
-We just need to secure some oil.
+Use your head, city boy!
+Just get some oil from
+those critters running all over the place.
 -----------------------
 <Loni>
 -----------------------
 #････まさか、モンスターを捕まえろとか
 #言うんじゃないだろうな？
-...You don't actually mean we have to catch monsters,
-d'you?
+...Don't tell me
+you want us to catch monsters?
 -----------------------
 <Nanaly>
 -----------------------
 #ご明察
-You're quite perceptive.
+Right on the money.
 -----------------------
 <Loni>
 -----------------------
 #････やっぱ、野生育ちは
 #考えることがワイルドだぜ････
-...As I figured, being raised in the wild...
-means your thinking is wild too...
+...Yep. Being raised in the wild
+makes your thinking pretty wild too...
 -----------------------
 notice
 -----------------------
 #<Nanaly>は
 #称号「<item:00000828>」を得ました
-<Nanaly> is
-Gained the title "<item:00000828>."
+<Nanaly> obtained
+the title "<item:00000828>"!
 -----------------------
 NOTICE
 -----------------------
 #ガルムの牙に着火しました
-Ignited the fang of Garum.
+Ignited Garm's Fang.
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -126,8 +126,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -161,8 +161,8 @@ notice
 -----------------------
 #{16}{25}{D2}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{25}{D2}{C0}There was , but
-I couldn't hold it because it was full.
+{16}{25}{D2}{C0} found,
+but your inventory is full.
 -----------------------
 notice
 -----------------------

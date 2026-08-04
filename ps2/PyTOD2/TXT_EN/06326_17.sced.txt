@@ -15,17 +15,17 @@ Captain
 #<size:000000F0>なんだ？
 #こっちは行き止まりではないか！
 <size:000000F0>What the hell?
-We're at a dead end here!
+This is a dead end!
 -----------------------
 #隊員
-Troops
+Soldier
 -----------------------
 #<size:000000F0>以前は通れたんですが････
 #どうやら道が崩れてしまったようです
 #なにぶん、古いですし････
-<size:000000F0>But we've been through here before...
-It seems the road collapsed. 
-Please, bear in mind that this place is old.
+<size:000000F0>We were able to pass through here before...
+but it seems the path has collapsed.
+These ruins are ancient, after all...
 -----------------------
 #隊長
 Captain
@@ -33,16 +33,16 @@ Captain
 #<size:000000F0>遺跡が古いのは、当たり前だろう！
 #まったく、無駄足を踏ませおって････
 #別の道を探すぞ！
-<size:000000F0>It's only natural that these ruins are so old!
-Good grief, making me take such a roundabout way...
-We'll find another route!
+<size:000000F0>Of course these ruins are old!
+Good grief, making me waste my time...
+We'll find another way!
 -----------------------
 #いってらっしゃいませ
-Have a good day.
+Welcome.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -52,8 +52,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -65,7 +65,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We look forward to your next visit.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -87,8 +87,8 @@ notice
 -----------------------
 #{16}{25}{D2}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{25}{D2}{C0}There was , but
-I couldn't hold it because it was full.
+{16}{25}{D2}{C0} was there, but
+it was full, so you couldn't carry it.
 -----------------------
 notice
 -----------------------

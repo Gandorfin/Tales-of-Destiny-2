@@ -1,24 +1,24 @@
 #ダイクロフト
-Dycrof
+Dycroft
 -----------------------
 #ダイクロフト
-Dycrof
+Dycroft
 -----------------------
 NOTICE
 -----------------------
 #ソーサラースコープを使うとモンスターの
 #視界が分かります
 #モンスターをかわしながら先に進みましょう
-When using a Soul Sphere Scope,
-you can see monsters.
-Let's move forward while dodging them.
+Use the Sorcerer's Scope to see
+monster sight lines.
+Avoid monsters as you proceed.
 -----------------------
 #いってらっしゃいませ
-Have a good day.
+Come again.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -28,8 +28,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -41,7 +41,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We look forward to your next visit.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -52,7 +52,7 @@ exit-party_togather( short spd )
 notice
 -----------------------
 #{16}{26}{42}{C0}を手に入れました
-{16}{26}{42}{C0}You obtained .
+Acquired {16}{26}{42}{C0}.
 -----------------------
 notice
 -----------------------
@@ -63,12 +63,11 @@ notice
 -----------------------
 #{16}{26}{4A}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{26}{4A}{C0}There was , but
-I couldn't carry it because it was full.
+Found {16}{26}{4A}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

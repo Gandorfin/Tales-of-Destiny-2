@@ -1,18 +1,18 @@
 #アイグレッテ
-Igret
+Aigrette
 -----------------------
 #アイグレッテ
-Igret
+Aigrette
 -----------------------
 #『天婦羅の作り方』という本が入っている
 #天婦羅とはアクアヴェイル地方の料理の事らしい
-A book titled 'How to Make Tempura' is included.
-It seems tempura is a dish from the Aqua Vale region.
+There's a book called 'How to Make Tempura.'
+Tempura seems to be a dish from the Aquaveil region.
 -----------------------
 #旧オベロン社の売れ筋商品だった
 #『レンズ冷蔵庫』だ
-It was the best-selling product from the old Oberon Company.
-The 'Lens Refrigerator'.
+This was a best-seller from the former Oberon Corporation.
+The 'Lens Refrigerator.'
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -29,8 +29,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -64,7 +64,7 @@ notice
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{C2}{C0} but
+Found {16}{25}{C2}{C0}, but
 inventory is full already.
 -----------------------
 notice
@@ -72,4 +72,3 @@ notice
 #何もありません
 There's nothing here.
 -----------------------
-

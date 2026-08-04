@@ -20,7 +20,7 @@ Found a TOP quiz question!
 NOTICE
 -----------------------
 #クイズ本に新しいジャンルが追加されました
-A new genre has been added to the quiz book.
+A new quiz genre was added.
 -----------------------
 NOTICE
 -----------------------
@@ -28,10 +28,10 @@ NOTICE
 #『テイルズオブファンタジアを遊び倒す本』
 #『テイルズオブデスティニーをやり尽くす本』
 #『テイルズオブエターニアを極め尽くす本』
-There are all sorts of books here.
-"A Guide to Playing Through Tales of Phantasia"
-"A Manual for Mastering Tales of Destiny"
-"The Ultimate Guide to Tales of Eternia"
+Many kinds of books are here.
+'Mastering Tales of Phantasia'
+'Mastering Tales of Destiny'
+'Mastering Tales of Eternia'
 -----------------------
 NOTICE
 -----------------------
@@ -53,8 +53,8 @@ NOTICE
 -----------------------
 #アイグレッテは神の眼を巡る騒乱の直後に
 #難民たちの手によって建設された街である
-Aigrette was built by refugees
-in the immediate aftermath of the turmoil surrounding the Eye of Atamoni.
+Refugees built Aigrette soon after
+the Eye of Atamoni turmoil.
 -----------------------
 NOTICE
 -----------------------
@@ -62,10 +62,10 @@ NOTICE
 #『ハーメンツ』『アルメイダ』の
 #住民たちであり、彼らの故郷は
 #ほぼ完全に消滅してしまっていた
-Most of the refugees were residents
-of Darilsheid, Harmentz, and Armeida,
-and their hometowns
-had been almost completely destroyed.
+Most refugees came from Darilsheid,
+Harmentz, and Armeida.
+Their hometowns had been
+almost completely destroyed.
 -----------------------
 NOTICE
 -----------------------
@@ -84,18 +84,18 @@ NOTICE
 #アイグレッテは見る間に大きくなり
 #今では世界に名立たる大都市にまで
 #発展したのだった
-As a key transportation hub in the northern continent,
-Aigrette grew rapidly before anyone's eyes,
-until it had developed into a world-renowned metropolis.
-Such was the city's rise.
+Aigrette was a northern trade hub.
+It grew at remarkable speed,
+expanding before anyone's eyes
+into a major city.
 -----------------------
 NOTICE
 -----------------------
 #『巨大企業・オベロン社の歴史』
 #という本があります
 #読んでみますか？
-"The History of Oberon Corporation, a Mega-Corporation"
-There's a book like this.
+'Oberon Corporation: A History'
+There is a book with this title.
 Would you like to read it?
 -----------------------
 select
@@ -111,10 +111,10 @@ NOTICE
 #先の騒乱の元凶とされる人物
 #『ヒューゴ＝ジルクリスト』によって
 #興された企業である
-Oberon Corporation was
-a company founded by
-Hugo Gilchrist, the man regarded as
-the mastermind behind the earlier turmoil.
+Oberon Corporation was founded
+by Hugo Gilchrist,
+the man blamed for causing
+the earlier turmoil.
 -----------------------
 NOTICE
 -----------------------
@@ -122,10 +122,10 @@ NOTICE
 #レンズを用いた製品の開発および販売
 #レンズの買い取りなどを主な業務とし
 #各大陸に支部を持つ巨大企業であった
-Oberon Corporation
-developed and sold products using Lens,
-bought back Lens as its main business,
-and was a massive corporation with branches across each continent.
+Oberon developed Lens products
+and sold them across the world.
+It also bought back used Lens,
+becoming a vast corporation.
 -----------------------
 NOTICE
 -----------------------
@@ -133,24 +133,24 @@ NOTICE
 #その強い社力は、ヒューゴの野望を
 #後押しする結果となった
 However,
-its immense corporate strength
-ended up bolstering Hugo's ambitions.
+its great corporate power
+helped Hugo pursue his ambitions.
 -----------------------
 NOTICE
 -----------------------
 #ヒューゴの野望は
 #四英雄によって打ちくだかれ
 #それと共にオベロン社は衰退した
-Hugo's ambitions were
-crushed by the Four Heroes,
-and with them, Oberon Corporation declined.
+Hugo's ambitions were crushed
+by the Four Heroes,
+and Oberon Corporation declined.
 -----------------------
 NOTICE
 -----------------------
 #現在ではオベロン社によって生産された
 #レンズ製品に名を残すのみである
-Today, only the Lens products
-produced by Oberon Corporation remain as its legacy.
+Today, Oberon's Lens products
+are all that preserve its name.
 -----------------------
 NOTICE
 -----------------------
@@ -172,17 +172,17 @@ NOTICE
 -----------------------
 #約千年もの昔････
 #巨大彗星がこの星に衝突した
-About a thousand years ago...
-a giant comet collided with this planet.
+About a thousand years ago,
+a giant comet struck this planet.
 -----------------------
 NOTICE
 -----------------------
 #その衝突によって巻き上げられた粉塵で
 #太陽の恩恵が失われたことにより
 #地上は荒廃した････
-The dust stirred up by that collision
-blocked out the sun's blessings,
-and the surface was left desolate...
+Dust from the comet's impact
+blocked the sun's light,
+leaving the surface desolate.
 -----------------------
 NOTICE
 -----------------------
@@ -190,19 +190,19 @@ NOTICE
 #生きのびるべく
 #人々は天高く都市を浮かべ
 #光をとりもどそうとした
-Fleeing the surface, which had become a frozen wasteland,
-and seeking to survive,
-people raised cities high into the sky
-and tried to reclaim the light.
+The surface became a frozen waste.
+Seeking a way to survive,
+people raised cities into the sky
+and began life above the ground.
 -----------------------
 NOTICE
 -----------------------
 #しかし、天上都市に移住できたのは
 #時の権力者など、ごく一部であり
 #多くの人々は、地上に取り残された････
-However, only a select few, such as the powerful of the age,
-were able to migrate to the aerial cities,
-while the majority of people were left behind on the surface...
+Yet only a privileged few
+could move to the aerial cities.
+Most people were left below.
 -----------------------
 NOTICE
 -----------------------
@@ -210,24 +210,24 @@ NOTICE
 #首都ダイクロフトに装備された兵器
 #ベルクラントの力により
 #地上に残った人々を武力支配した････
-The people of the aerial cities called themselves 'Aeth'er'
-and with the weapon Belcrant installed in their capital, Dycroft,
-they used its power to
-subjugate those left on the surface by military force...
+The people of the aerial cities
+called themselves the Aeth'er.
+With Belcrant in their capital,
+they wielded enormous power.
 -----------------------
 NOTICE
 -----------------------
 #地上に残された人々は
 #こうした『天上人』の行いに抵抗した
-The people left on the surface
-resisted these actions of the 'Aeth'er'.
+Those left on the surface
+resisted the Aeth'er's actions.
 -----------------------
 NOTICE
 -----------------------
 #天上と地上に分かれた戦争
 #『天地戦争』の幕開けである
-Thus began the war divided between heaven and earth,
-the opening of the 'Aeth'er Wars'.
+Heaven and earth went to war.
+The Aeth'er Wars had begun.
 -----------------------
 NOTICE
 -----------------------
@@ -235,18 +235,18 @@ NOTICE
 #地上軍は苦戦し、敗色濃厚であったが
 #新兵器『ソーディアン』の力によって
 #起死回生の勝利を収めた
-Before the Aeth'er Army, which boasted overwhelming military might,
-the Er'ther forces struggled heavily and were on the verge of defeat,
-but thanks to the power of the new weapon 'Swordian',
-they achieved a miraculous victory from the brink of death.
+The Aeth'er Army was overwhelming.
+The Er'ther forces neared defeat,
+but the new Swordians turned
+the battle into a stunning victory.
 -----------------------
 NOTICE
 -----------------------
 #『神の眼を巡る騒乱』
 #という本があります
 #読んでみますか？
-"The Turmoil Surrounding the Eye of Atamoni"
-There's a book like this.
+'Turmoil over the Eye of Atamoni'
+There is a book with this title.
 Would you like to read it?
 -----------------------
 select
@@ -261,45 +261,45 @@ NOTICE
 #オベロン社総帥のヒューゴ＝ジルクリストは
 #ストレイライズ神殿に封印されていた
 #巨大レンズ『神の眼』を盗みだした
-Hugo Gilchrist, the president of Oberon Corporation,
-stole the giant Lens 'Eye of Atamoni'
-that had been sealed within Straylize Temple.
+Oberon president Hugo Gilchrist
+stole the Eye of Atamoni,
+sealed inside Straylize Temple.
 -----------------------
 NOTICE
 -----------------------
 #強大な力を手にしたヒューゴは
 #天地戦争時代の天上都市群を復活させ
 #世界を恐怖と混乱におとしいれた
-Having gained immense power, Hugo
-revived the aerial cities from the era of the Aeth'er Wars
-and plunged the world into terror and chaos.
+With immense power, Hugo revived
+the Aeth'er Wars' aerial cities
+and plunged the world into chaos.
 -----------------------
 NOTICE
 -----------------------
 #これに敢然と立ち向かったのが
 #ソーディアンを手にした四人の
 #若者たちである
-The ones who stood firm against this were
-four young people
-who held Swordians.
+Four young people stood against him.
+Each carried a Swordian,
+and boldly faced the threat.
 -----------------------
 NOTICE
 -----------------------
 #彼ら四英雄の活躍により
 #ヒューゴの野望は打ちくだかれ
 #空中都市群と神の眼は破壊された
-Through the exploits of these Four Heroes,
-Hugo's ambitions were crushed,
-and the aerial cities and the Eye of Atamoni were destroyed.
+Thanks to the Four Heroes,
+Hugo's ambitions were crushed.
+The aerial cities and Eye were lost.
 -----------------------
 NOTICE
 -----------------------
 #各所の街の崩壊や、地上の荒廃など
 #『神の眼を巡る騒乱』の犠牲は大きく
 #復興には長い時間が必要となった
-The collapse of towns across the land and the devastation of the surface
-were immense sacrifices of the Turmoil Surrounding the Eye of Atamoni,
-and reconstruction would require a long time to come.
+Many towns fell, and the surface
+was devastated by the Eye turmoil.
+Reconstruction took many years.
 -----------------------
 #若者
 Young Man

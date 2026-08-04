@@ -1,15 +1,15 @@
 #ハイデルベルグ城・ウッドロウの部屋
-Heidelburg Castle - Woodrow's Room
+Heidelberg Castle - Garr's Room
 -----------------------
 #ハイデルベルグ城
-Heidelburg Castle
+Heidelberg Castle
 -----------------------
 #ハイデルベルグ城・ウッドロウの部屋
-Heidelburg Castle - Woodrow's Room
+Heidelberg Castle - Garr's Room
 -----------------------
 #ウッドロウ王のベッドだ
 #とても豪華だ････！
-King Woodrow's bed.
+King Garr's bed.
 It's so luxurious...!
 -----------------------
 #いってらっしゃいませ
@@ -27,8 +27,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -62,7 +62,7 @@ notice
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{C2}{C0} but
+Found {16}{25}{C2}{C0}, but
 inventory is full already.
 -----------------------
 notice
@@ -72,77 +72,76 @@ There's nothing here.
 -----------------------
 #よく手入れされた武器が並んでいる
 #どれもこれも高級品のようだ
-A well-maintained selection of weapons is lined up.
-They all look like high-end items.
+Well-maintained weapons are lined up here.
+Every one of them looks like a high-end piece.
 -----------------------
 #有事の際に使われるのだろう
 #実戦仕様の武器が並んでいる
-It's probably used in case of emergencies.
-Weapons designed for actual combat are lined up.
+These must be for emergencies.
+Combat-ready weapons, all of them.
 -----------------------
 #鋭く研ぎすまされた武器だ
 #一流の鍛冶士の手によるものだろう
-A weapon honed to razor-sharp perfection.
-It was likely forged by a master smith.
+A weapon honed to a razor's edge.
+Must be the work of a master smith.
 -----------------------
 #この武器にはちゃんと刃が付いている
 #美術品ではなく、本物なのだろう
 This weapon actually has a blade.
-It's not just an art piece; it's the real thing.
+Not a display piece. It's the real thing.
 -----------------------
 #ハイデルベルグ城の兵士たちが使う武器だ
 #刃は、くもりひとつ無く研ぎすまされている
-It's the weaponry used by the soldiers at Heidelberg Castle.
-The blades are sharpened to a flawless edge.
+Weapons used by the soldiers of Heidelberg Castle.
+The blades are sharpened without a single blemish.
 -----------------------
 #巨大な板金鎧だ
 #とっても重そう････
-It's a massive plate armor.
+A massive suit of plate armor.
 Looks incredibly heavy...
 -----------------------
 #実戦仕様の鎧だ
 #非常に手の込んだ造りをしている
-It's armor designed for actual combat.
+Combat-grade armor.
 The craftsmanship is incredibly intricate.
 -----------------------
 #板金を打ち広げて作った全身型の鎧だ
 #ずいぶん手が込んでいるが
 #一着、いくらするのだろうか････
-It's full-body armor crafted from hammered sheet metal.
-It's quite intricately made,
-I wonder how much a single set costs...?
+Full-body armor made from hammered sheet metal.
+Quite elaborate work...
+I wonder how much a single suit costs...?
 -----------------------
 #本物の全身鎧だ
 #圧倒的な威圧感を感じる････
-It's real full plate armor.
-I can feel an overwhelming sense of pressure...
+Real full plate armor.
+There's an overwhelming sense of intimidation...
 -----------------------
 #鎧が並べられている
 #美術品ではなく、実戦仕様の本物のようだ
 Armor is lined up.
-It doesn't look like artwork; it seems to be real combat-grade equipment.
+Not artwork. It's real combat-grade equipment.
 -----------------------
 #年代物の品のようだ
 #････壊さないように気をつけよう
-It looks like an antique.
-...Let's make sure we don't break it.
+Looks like an antique.
+...Better be careful not to break it.
 -----------------------
 #細々した品が並んでいる
 #どれもこれも非常に高価な物のようだ
-There's an assortment of small items lined up.
-They all seem to be quite expensive.
+Small items are lined up here.
+Every one of them looks quite expensive.
 -----------------------
 #さすがに王城
 #小物のひとつひとつが素晴らしい出来ばえだ
-As expected, the royal castle...
+As expected of a royal castle...
 Every little detail is wonderfully crafted.
 -----------------------
 #素晴らしい品々が並べられている････
-A wonderful selection of items on display...
+Wonderful items on display...
 -----------------------
 #アンティークだろうか
 #年代物の品々が並んでいる
-Is it an antique?
-Items from bygone eras are lined up.
+Are these antiques?
+Items from bygone eras are lined up here.
 -----------------------
-

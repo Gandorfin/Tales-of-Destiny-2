@@ -1,57 +1,59 @@
 #物資保管所
-Supply Storage
+Supplies Storage
 -----------------------
 #物資保管所
-Supply Storage
+Supplies Storage
 -----------------------
 NOTICE
 -----------------------
 #このコンテナは<item:00000035>で
 #プロテクトされています
-This container is at <item:00000035>.
+This container is protected by <item:00000035>.
 It's protected.
 -----------------------
 #タイムオーバー
-Time's up.
+Time over.
 -----------------------
 <Harold>
 -----------------------
 #低レベルのプロテクトを
 #解除するためのカギね
 #同じモノがあと２つあるはずよ
-It's a low-level protection
-The key to unlocking it
-There should be two more of them
+It's a key for releasing
+low-level protection.
+There should be two more
+just like it.
 -----------------------
 <Harold>
 -----------------------
 #あー、そうそう
 #これを持ったまま外には出ないでね
 Oh, right, right.
-Don't go outside while holding that.
+Don't take this outside with you.
 -----------------------
 <Kyle>
 -----------------------
 #え、なんで？
-Eh, why?
+Huh? Why not?
 -----------------------
 <Harold>
 -----------------------
 #こいつ、温度変化に弱いのよ
 #外の吹雪の中に出たら
 #あっという間に、ボロボロよ
-This thing is weak to temperature changes.
-If you go out into the blizzard outside,
-It'll fall apart in no time.
+This thing's weak to temperature changes.
+If you take it out into that blizzard,
+it'll fall apart in no time.
 -----------------------
 <Harold>
 -----------------------
 #低レベルのプロテクトを
 #解除するためのカギね
 #同じモノがもう１つあるはずよ
-It's a low-level protection.
-The key to removing it.
-There should be another one just like it.
+It's a key for releasing
+low-level protection.
+There should be one more
+just like it.
 -----------------------
 <Harold>
 -----------------------
@@ -59,10 +61,10 @@ There should be another one just like it.
 #マスターキーが手に入るわ
 #どこかにあるはずだから
 #探しましょ
-With these three keys,
-I'll get my hands on the master key.
-They should be somewhere around here,
-So let's go look for them.
+If we find all three keys,
+we can get the master key.
+They should be around here somewhere.
+Let's go look.
 -----------------------
 <Harold>
 -----------------------
@@ -77,8 +79,8 @@ protection release key.
 #この３つのキーを資材コンテナに使えば
 #プロテクトを解除できるわ
 "Master Key", "Cell Key", "Bio Key"
-If you use these three keys on the material container,
-you can disable the protection.
+Use these three keys on the supply containers
+to release their protection.
 -----------------------
 <Harold>
 -----------------------
@@ -86,20 +88,20 @@ you can disable the protection.
 #温度変化に弱いから、外に出ちゃダメよ
 #あんな吹雪の中に出たら
 #一発でボロボロだからね！
-But "Celkey" and "Biokey"
-are sensitive to temperature changes, so you can't take them outside.
-If you go out in that blizzard,
-they'll be ruined instantly!
+But "Cell Key" and "Bio Key"
+are weak to temperature changes, so don't take them outside.
+If you take them out in that blizzard,
+they'll be ruined in an instant!
 -----------------------
 #特に何もありません
-No particular reason.
+Nothing of note.
 -----------------------
 #いってらっしゃいませ
-Have a good day.
+Come again soon.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -109,8 +111,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -122,7 +124,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We hope to see you again.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -133,7 +135,7 @@ exit-party_togather( short spd )
 notice
 -----------------------
 #{16}{25}{FE}{C0}を手に入れました
-{16}{25}{FE}{C0}You obtained .
+Acquired {16}{25}{FE}{C0}.
 -----------------------
 notice
 -----------------------
@@ -144,12 +146,11 @@ notice
 -----------------------
 #{16}{26}{06}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{26}{06}{C0}There was , but
-I couldn't carry it because it was full.
+Found {16}{26}{06}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

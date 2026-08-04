@@ -1,8 +1,8 @@
 #ダイクロフト
-Dycrof
+Dycroft
 -----------------------
 #ダイクロフト
-Dycrof
+Dycroft
 -----------------------
 #ディムロス
 Dymlos
@@ -10,9 +10,9 @@ Dymlos
 #地上軍ユンカース隊所属
 #ディムロス＝ティンバー中将
 #ただいま、お迎えに上がりました！
-Member of the Ground Forces Junkers Unit
-Lieutenant General Dimros Timber
-I'm here to escort you right away!
+Er'ther Army, Junkers Unit
+Lieutenant General Dymlos Timber
+I've come to escort you!
 -----------------------
 #アトワイト
 Atwight
@@ -20,21 +20,21 @@ Atwight
 #ディムロス････！
 #中将閣下････
 Dymlos...!
-Vice Admiral...
+Lieutenant General...
 -----------------------
 #クレメンテ
 Clemente
 -----------------------
 #おお、ディムロス！
 #よう来てくれたな
-Oh, Dimros!
-Glad you could make it.
+Ah, Dymlos!
+Good of you to come.
 -----------------------
 #ディムロス
 Dymlos
 -----------------------
 #クレメンテ殿、よくぞご無事で
-Clemente, I'm so glad you're safe.
+Lord Clemente. I'm glad to see you unharmed.
 -----------------------
 #クレメンテ
 Clemente
@@ -42,9 +42,9 @@ Clemente
 #まあ、こんな場所で
 #くたばるわけにもいかんて
 #「老兵は死なず」じゃ
-Well, in a place like this,
-I can't just kick the bucket.
-"Old soldiers never die," they say.
+Well, I can't very well
+kick the bucket in a place like this.
+"Old soldiers never die," as they say.
 -----------------------
 #ディムロス
 Dymlos
@@ -52,31 +52,31 @@ Dymlos
 #地上軍総司令リトラーの
 #命により参上しました
 #我々はあなた方を歓迎します
-We are here at the command of Rittra,
+We come at the command of Marius Raiker,
 Supreme Commander of the Ground Forces.
 We welcome you.
 -----------------------
 #ラディッツ
-Raditz
+Radisrol
 -----------------------
 #ベルクラント開発陣を代表して礼を言う
 #ありがとう、ディムロスくん
-On behalf of the Belkran development team, I'd like to express our gratitude.
-Thank you, Dimros.
+On behalf of the Belcrant development team, allow me to express our gratitude.
+Thank you, Dymlos.
 -----------------------
 #イクティノス
-Ictinus
+Igtenos
 -----------------------
 #急ぐぞ、ディムロス中将
 #ここにも、じきに追っ手が来る
-Hurry, Lieutenant Dimros.
-The pursuers will arrive here soon too.
+Hurry, Lieutenant General Dymlos.
+The enemy will be upon us soon as well.
 -----------------------
 #ディムロス
 Dymlos
 -----------------------
 #うむ、わかった
-Mm, got it.
+Understood.
 -----------------------
 #ディムロス
 Dymlos
@@ -84,9 +84,9 @@ Dymlos
 #これより格納庫を目指して
 #敵中を強行突破します
 #我々から決して離れないでください
-From here, we head for the storage room.
-We'll push through enemy lines.
-Stay close to us.
+We now make for the hangar,
+breaking through enemy lines by force.
+Do not stray from our side.
 -----------------------
 #ディムロス
 Dymlos
@@ -94,14 +94,14 @@ Dymlos
 #当初の予定どおり、制御室を乗っ取って
 #ダイクロフトの機能を
 #一時的に停止させてくれ
-As originally planned, I'll take over the control room
-and temporarily disable
+As planned, seize the control room
+and temporarily halt
 Dycroft's functions.
 -----------------------
 <Harold>
 -----------------------
 #まかせときなさいって
-I told you to leave it to me.
+I said leave it to me.
 -----------------------
 #ディムロス
 Dymlos
@@ -109,19 +109,19 @@ Dymlos
 #制御室を落とされたとわかった時点で
 #敵の注意は、すべてそちらに向く
 #十分、気をつけるんだ
-By the time we realized the control room had been dropped,
-all enemy attention would be focused on that direction.
-Be careful.
+The moment they realize the control room has fallen,
+all enemy attention will shift to you.
+Take every precaution.
 -----------------------
 <Harold>
 -----------------------
 #わかってるってば
 #それより、急ぎなさいな
-I get it, okay?
-Anyway, you'd better hurry.
+I know, I know.
+Now hurry up already.
 -----------------------
 #ディムロス
-Dimlos
+Dymlos
 -----------------------
 #<Kyle>くん
 <Kyle>!
@@ -129,7 +129,7 @@ Dimlos
 <Kyle>
 -----------------------
 #は、はいっ！
-Yes, sir!
+Y-Yes, sir!
 -----------------------
 #ディムロス
 Dymlos
@@ -137,33 +137,33 @@ Dymlos
 #<Harold>のこと
 #よろしく頼んだぞ
 #格納庫で待っている！
-About <Harold>...
+Look after <Harold> for me.
 I'm counting on you!
-Wait for me in the storage room!
+I'll be waiting in the hangar!
 -----------------------
 <Loni>
 -----------------------
 #ちっとは認められたってところかな？
-So I guess I've been acknowledged to some extent?
+Guess I've earned a little respect, huh?
 -----------------------
 <Kyle>
 -----------------------
 #････ああ、そうだね！
-Oh, right! That's it!
+...Yeah, that's it!
 -----------------------
 <Kyle>
 -----------------------
 #よーし、やってやろうじゃん！
 #行こう、みんな！
-Alright, let's do this!
+All right, let's do this!
 Let's go, everyone!
 -----------------------
 #いってらっしゃいませ
-Have a good day.
+Please come again.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald per night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -173,8 +173,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -186,7 +186,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We look forward to your next visit.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -208,8 +208,8 @@ notice
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{C2}{C0} but
-inventory is full already.
+Found {16}{25}{C2}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------

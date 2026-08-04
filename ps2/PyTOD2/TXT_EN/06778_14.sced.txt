@@ -7,22 +7,22 @@ Aqua Labyrinth
 notice
 -----------------------
 #このマップは暗くなります
-This map will get dark.
+This area is dark.
 -----------------------
 notice
 -----------------------
 #このマップはダメージを受けます
-This map takes damage.
+This area deals damage over time.
 -----------------------
 notice
 -----------------------
 #このマップはエンカウントマックスです
-This map has maximum encounter rates.
+This area has maximum encounter rates.
 -----------------------
 notice
 -----------------------
 #このマップは視界が狭くなります
-This map has limited visibility.
+This area has limited visibility.
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -39,8 +39,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -74,7 +74,7 @@ notice
 -----------------------
 #{16}{25}{CA}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{CA}{C0} but
+Found {16}{25}{CA}{C0}, but
 inventory is full already.
 -----------------------
 notice
@@ -82,4 +82,3 @@ notice
 #何もありません
 There's nothing here.
 -----------------------
-

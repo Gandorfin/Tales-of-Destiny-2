@@ -1,43 +1,43 @@
 #ダイクロフト
-Dycrof
+Dycroft
 -----------------------
 #ダイクロフト
-Dycrof
+Dycroft
 -----------------------
 NOTICE
 -----------------------
 #エレベーターはまだ戻って来ていません
-The elevator still hasn't come back.
+The elevator hasn't returned yet.
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #くそっ！　この前は
 #妙なガキ共に張り倒されるし
 #今日は今日で地上軍の攻撃かよ！
 Damn it! Last time,
-I got beaten up by some weird kids.
-And today I'm under attack from the ground forces too!
+I got beaten up by some weird brats.
+And now today it's the ground forces attacking us!
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #ああ、やっぱりミクトランなんかに
 #ついていったのが間違いなんだ････
 #なぁ、トンズラしちまおうぜ！
-Yeah, I should've known better than to follow Miktlan around.
-Going along with him was definitely a mistake...
-Hey, let's just bail out of here!
+Yeah, following Kronos was a mistake...
+I should've known better...
+Hey, let's just cut and run!
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #逃げ場所なんかねえよ！
 #それに、地上軍のやつらに捕まってみろ
 #何をされるか分かったもんじゃない！
 There's nowhere to run!
-Besides, if you get caught by those ground forces,
-you won't know what they'll do to you!
+Besides, if those ground forces catch you,
+there's no telling what they'll do to you!
 -----------------------
 <Kyle>
 -----------------------
@@ -48,7 +48,7 @@ Get out of my way!
 Soldier
 -----------------------
 #こ、この前のガキ共!?
-T-those brats from before!?
+Th-those brats from before!?
 -----------------------
 <Judas>
 -----------------------
@@ -58,18 +58,18 @@ There's nowhere to run!
 Surrender quietly!
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #ど、どうする!?
-What do we do!?
+Wh-what do we do!?
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #やられっぱなしで終われるかよ！
 #こいつをくらえ！
-I'm not just gonna sit here and take it!
-Take this!
+Like hell I'm just gonna sit here and take it!
+Eat this!
 -----------------------
 <Loni>
 -----------------------
@@ -78,21 +78,21 @@ Take this!
 #しばらく戻って来ないぞ！
 Damn it!
 This elevator...
-It's taking forever to get back.
+It's not coming back for a while!
 -----------------------
 <Nanaly>
 -----------------------
 #しかたないね！
 #戻って来るまで
 #根性で、たえるんだよ！
-It can't be helped!
-Until they come back
-Just hang in there with grit!
+Nothing we can do about it!
+Until it comes back,
+we'll just have to tough it out!
 -----------------------
 <Kyle>
 -----------------------
 #やれやれ････
-Well, well...
+Good grief...
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -109,8 +109,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -122,7 +122,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We look forward to your next visit.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -133,7 +133,7 @@ exit-party_togather( short spd )
 notice
 -----------------------
 #{16}{25}{EA}{C0}を手に入れました
-{16}{25}{EA}{C0}You obtained .
+Acquired {16}{25}{EA}{C0}.
 -----------------------
 notice
 -----------------------
@@ -144,8 +144,8 @@ notice
 -----------------------
 #{16}{25}{F2}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{25}{F2}{C0}There was , but
-I couldn't carry it because it was full.
+Found {16}{25}{F2}{C0}, but
+couldn't carry it because your inventory is full.
 -----------------------
 notice
 -----------------------

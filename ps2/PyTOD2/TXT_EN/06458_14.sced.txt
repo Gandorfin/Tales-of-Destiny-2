@@ -1,11 +1,11 @@
 #ハイデルベルグ城
-Heidelburg Castle
+Heidelberg Castle
 -----------------------
 #ハイデルベルグ城
-Heidelburg Castle
+Heidelberg Castle
 -----------------------
 #いってらっしゃいませ
-Have a good day.
+Welcome.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
@@ -19,8 +19,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -32,7 +32,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We hope to see you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -54,7 +54,7 @@ notice
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{C2}{C0} but
+Found {16}{25}{C2}{C0}, but
 inventory is full already.
 -----------------------
 notice
@@ -64,77 +64,76 @@ There's nothing here.
 -----------------------
 #よく手入れされた武器が並んでいる
 #どれもこれも高級品のようだ
-Well-maintained weapons are lined up.
-They all look like high-end items.
+Well-maintained weapons line the racks.
+Every one of them looks like a premium piece.
 -----------------------
 #有事の際に使われるのだろう
 #実戦仕様の武器が並んでいる
-It's probably used in case of an emergency.
-There are combat-ready weapons lined up.
+These must be kept for emergencies.
+Combat-ready weapons, lined up in rows.
 -----------------------
 #鋭く研ぎすまされた武器だ
 #一流の鍛冶士の手によるものだろう
-A weapon honed to razor sharpness.
-It was likely forged by a master smith.
+A blade honed to razor sharpness.
+The work of a master smith, no doubt.
 -----------------------
 #この武器にはちゃんと刃が付いている
 #美術品ではなく、本物なのだろう
 This weapon actually has a blade.
-It's not just an art piece; it's the real thing.
+Not some decorative piece... this is the real thing.
 -----------------------
 #ハイデルベルグ城の兵士たちが使う武器だ
 #刃は、くもりひとつ無く研ぎすまされている
-The weapons used by the soldiers at Heidelburg Castle.
-The blades are sharpened to a flawless edge.
+Weapons used by the soldiers of Heidelberg Castle.
+The blades are polished without a single blemish.
 -----------------------
 #巨大な板金鎧だ
 #とっても重そう････
-It's a massive plate armor.
+A massive suit of plate armor.
 Looks incredibly heavy...
 -----------------------
 #実戦仕様の鎧だ
 #非常に手の込んだ造りをしている
-It's armor built for actual combat.
-The craftsmanship is incredibly intricate.
+Armor built for actual combat.
+The craftsmanship is extraordinarily intricate.
 -----------------------
 #板金を打ち広げて作った全身型の鎧だ
 #ずいぶん手が込んでいるが
 #一着、いくらするのだろうか････
-It's full-body armor crafted by hammering out sheets of metal.
-It's quite intricately made,
-I wonder how much a single set costs...?
+Full-body armor forged from hammered-out metal plates.
+Quite an elaborate build.
+I wonder what a single suit costs...?
 -----------------------
 #本物の全身鎧だ
 #圧倒的な威圧感を感じる････
-It's real full plate armor.
-I feel an overwhelming sense of pressure...
+Genuine full plate armor.
+The sheer presence is overwhelming...
 -----------------------
 #鎧が並べられている
 #美術品ではなく、実戦仕様の本物のようだ
-Armor is lined up.
-It doesn't look like artwork; it seems to be genuine combat-grade equipment.
+Armor is lined up here.
+Not artwork... these are genuine combat pieces.
 -----------------------
 #年代物の品のようだ
 #････壊さないように気をつけよう
-It looks like an antique.
-...Let's make sure we don't break it.
+These look like genuine antiques.
+...Let's be careful not to break anything.
 -----------------------
 #細々した品が並んでいる
 #どれもこれも非常に高価な物のようだ
-There's an assortment of small items lined up.
-They all seem to be quite expensive.
+Small trinkets and accessories line the shelves.
+Every last one seems worth a fortune.
 -----------------------
 #さすがに王城
 #小物のひとつひとつが素晴らしい出来ばえだ
-As expected, the royal castle...
-Every little detail is wonderfully crafted.
+As befits a royal castle...
+Even the smallest pieces are wonderfully crafted.
 -----------------------
 #素晴らしい品々が並べられている････
-A wonderful assortment of items on display...
+A wonderful collection of items on display...
 -----------------------
 #アンティークだろうか
 #年代物の品々が並んでいる
-Is it an antique?
-Items from bygone eras are lined up.
+Are these antiques?
+Items from ages past, lined up in rows.
 -----------------------
-

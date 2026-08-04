@@ -8,11 +8,11 @@ Neuestadt
 Equipment Shop
 -----------------------
 #リッチマン
-Lichman
+Richman
 -----------------------
 #この店はハイデルベルグの装備品屋
 #『ソウル＆ソード』の直営店なのだ
-This shop is the equipment store in Heidelberg.
+This shop is the Heidelberg equipment store.
 It's a direct branch of 'Soul & Sword'.
 -----------------------
 #リッチマン
@@ -21,19 +21,18 @@ Richman
 #そこの店主であり鍛冶士でもある
 #『ウィンターズ』が手がけた
 #作品がこれなのだが････
-The shopkeeper and blacksmith over there
-crafted by 'Winters'
-is this piece here...
+The shopkeeper there is also a blacksmith.
+This piece was crafted by 'Winters'...
 -----------------------
 #リッチマン
-Lichman
+Richman
 -----------------------
 #ううむ････素晴らしい出来だ
 #まったくウィンターズという鍛治士は
 #大したものだな
 Hmm... splendid work.
-Winter's craftsmanship is truly...
-impressive.
+That blacksmith Winters truly
+is something else.
 -----------------------
 #外装屋
 Exterior Shop
@@ -77,67 +76,67 @@ We carry armor here.
 Thank you very much.
 -----------------------
 #またおこしください
-Please come back again.
+Please come again.
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #あれにしようかしら････
 #それとも、これにしようかしら････
 #ホント迷うわぁ～
-I wonder if I should go with that...
-Or maybe I should choose this one...
-This is such a tough decision~
+Should I go with that one...
+Or maybe this one...
+I really can't decide~
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #昔は、お金の価値もわからず
 #自分の好きなものを
 #好きなだけ買っていたの
-Back then, I didn't understand the value of money,
-I would buy whatever I wanted
+Back then, I didn't understand the value of money.
+I'd buy whatever I liked,
 as much as I pleased.
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #今は、自分ではたらいて
 #必死にためたお金で買ってるから
 #ムダづかいできないのよね
-I'm working hard on my own right now.
-So I'm buying things with the money I've been saving desperately.
+Now I work for my own money,
+and buy things with what I've saved up desperately.
 I can't afford to waste anything.
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #お金を手に入れるのが
 #こんなにむずかしいなんて
 #思ってもみなかったわ
-I never thought
-getting money would be
-this hard.
+I never imagined
+earning money
+would be this hard.
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #自分ではたらいて
 #ためたお金で
 #装飾品を買ったのよ
 I worked hard on my own
-With the money I saved
-I bought some accessories
+and used the money I saved
+to buy these accessories.
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #昔なら、父親にたのむだけで
 #ここにある商品よりも
 #ずっと高級なものが買えたの
-In the past, I could have just asked my father to get it.
-Even compared to the items here,
-I could have bought something much more luxurious.
+In the past, I could've just asked my father.
+I could've bought things far more luxurious
+than anything they have here.
 -----------------------
 #女性
 Woman
@@ -145,44 +144,44 @@ Woman
 #でも、自分ではたらいて
 #手に入れたものは
 #どんな高級品よりかがやいて見えるわ
-But what I've worked hard to get
-is something I've earned with my own hands
-it shines brighter than any luxury item
+But something I worked for
+and earned with my own hands
+shines brighter than any luxury item.
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #財産はうしなったけど
 #もっと大切なものを
 #手に入れたような気がするわね
 I lost my fortune, but
-A more precious thing
-I feel like I've got it.
+I feel like I've gained
+something far more precious.
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #お金を手に入れるのが
 #こんなにむずかしいなんて
 #思ってもみなかったわ
-I never thought
-getting money would be
-this hard.
+I never imagined
+earning money
+would be this hard.
 -----------------------
 <Loni>
 -----------------------
 #そーそー、だから俺もこいつと
 #三百万ガルドのレンズを取りに････
 #････いったっけか？
-So that's why I'm going with him.
-To get the three million Gald lens...
-...right?
+Right, right. That's why I'm with this guy,
+off to get that three-million-Gald Lens...
+...Did I say that?
 -----------------------
 <Kyle>
 -----------------------
 #うん、いってない････はずだよね
 #でも････？
-Yeah, I didn't go... right?
+Yeah, you didn't... I don't think.
 But...?
 -----------------------
 #女性
@@ -191,67 +190,67 @@ Woman
 #昔は、お金の価値もわからず
 #自分の好きなものを
 #好きなだけ買っていたの
-Back then, I didn't understand the value of money,
-I would buy whatever I wanted,
+Back then, I didn't understand the value of money.
+I'd buy whatever I liked,
 as much as I pleased.
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #今は、自分ではたらいて
 #必死にためたお金で買ってるから
 #ムダづかいできないのよね
-I'm working hard on my own right now,
-so I'm buying things with the money I've scraped together desperately.
+Now I work for my own money,
+and buy things with what I've desperately saved up.
 I can't afford to waste anything.
 -----------------------
 #豪華な装飾を施された槍斧だ
 #『非売品』と書かれている
-It's a lance-axe adorned with lavish decorations.
-It says 'Non-sale item'.
+An ornate poleaxe.
+It says 'Not for sale.'
 -----------------------
 #美しい曲面で構成された板金鎧だ
 #『作者・ウィンターズ』と書かれている
-It's plate armor constructed from beautifully curved sheets.
-It reads 'Creator: Winters'.
+Plate armor built from beautifully curved sheets.
+It reads 'Creator: Winters.'
 -----------------------
 #篭手と具足が展示されている
 #『非売品』と書かれている
-Gloves and armor are on display.
-It says 'Not for sale'.
+Gauntlets and greaves are on display.
+It says 'Not for sale.'
 -----------------------
 #一山いくらのクズ武器だ
 #『１０本で９８０ガルド』と書かれている
-What a pile of junk weapons.
-It says '980 Gald for 10'.
+A whole pile of junk weapons.
+'980 Gald for 10,' it says.
 -----------------------
 #一山いくらのクズ鎧だ
 #『兜と胸当てセットで１９８０ガルドから』と
 #書かれている
-This junk armor is a steal at any price.
-'Helm and chest plate set starting from 1980 Gald,' it says.
-That's what it reads.
+A whole pile of junk armor.
+'Helm and breastplate set, from 1980 Gald,'
+it says.
 -----------------------
 #女性用の布鎧だ
 #『男性の試着厳禁！』と
 #書かれている････
-It's cloth armor designed for women.
-'Men Not Allowed to Try It On!' it says,
-and so on...
+Cloth armor for women.
+'No men allowed to try on!'
+it says...
 -----------------------
 #最新のレンズアクセサリーだ
 #『試作品につき非売品』と
 #書かれている
-It's the latest lens accessory.
-Labeled as 'Prototype, Not for Sale.'
-That's what it says.
+It's the latest Lens accessory.
+'Prototype, Not for Sale,' it says.
+That's what it reads.
 -----------------------
 #いってらっしゃいませ
 Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -261,8 +260,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -274,7 +273,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We look forward to your next visit.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -296,12 +295,11 @@ notice
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{C2}{C0} but
-inventory is full already.
+Found {16}{25}{C2}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

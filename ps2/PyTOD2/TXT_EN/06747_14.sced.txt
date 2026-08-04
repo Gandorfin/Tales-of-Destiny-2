@@ -2,7 +2,7 @@
 Aigrette General Store
 -----------------------
 #アイグレッテ
-Igret
+Aigrette
 -----------------------
 #雑貨屋
 General Store
@@ -14,18 +14,18 @@ Item Shop
 #ここは、配給をしてもらえない人の
 #ためのお店です
 Well, hello there!
-This is where people who don't get their rations go.
-It's a shop that takes care.
+This shop is for people who don't receive rations.
+We take care of folks like that.
 -----------------------
 #ホントは
 #おカネなんか稼いでも
 #ここじゃ使い道がないんですけどね
-Actually,
+To tell the truth,
 even if I earned money,
-there's nowhere to spend it here.
+there's not much to spend it on here.
 -----------------------
 #あなたは、配給をしてもらえない人ですか？
-Are you someone who hasn't received their rations?
+Are you someone who doesn't receive rations?
 -----------------------
 #道具屋
 Item Shop
@@ -45,8 +45,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -80,12 +80,11 @@ notice
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{C2}{C0} but
-inventory is full already.
+Found {16}{25}{C2}{C0}, but
+your inventory is already full.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

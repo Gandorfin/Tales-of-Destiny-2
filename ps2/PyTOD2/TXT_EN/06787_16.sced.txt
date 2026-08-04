@@ -1,15 +1,15 @@
 #リーネの村
-Lienea Village
+Lienea
 -----------------------
 #リーネの村
-Lienea Village
+Lienea
 -----------------------
 <Kyle>
 -----------------------
 #<Reala>！
 #朝ごはん、できたってさ！
 <Reala>!
-I made breakfast!
+Breakfast is ready!
 -----------------------
 <Reala>
 -----------------------
@@ -20,13 +20,13 @@ Oh, <Kyle>...
 -----------------------
 #もう、元気そうだね
 #よかった！
-He looks healthy.
+You look like you're feeling better.
 That's a relief!
 -----------------------
 <Reala>
 -----------------------
 #ごめんね、心配かけちゃって
-I'm sorry for worrying you.
+I'm sorry for making you worry.
 -----------------------
 <Kyle>
 -----------------------
@@ -34,58 +34,58 @@ I'm sorry for worrying you.
 #あれだけ、がんばったんだから
 #疲れちゃうのも、しょうがないよ
 Don't worry about it!
-You worked so hard.
-It's only natural to get tired.
+After all you did,
+it's only natural you'd be tired.
 -----------------------
 <Kyle>
 -----------------------
 #それにしても、すごかったよなぁ！
 #ペンダントが光って、船が浮いて
 #おまけに、空まで飛んじゃってさ！
-It was seriously amazing!
-The pendant glowed, and the ship started floating...
-On top of that, it even flew into the sky!
+But man, that was incredible!
+Your pendant glowed, the ship started floating,
+and then we even flew through the sky!
 -----------------------
 <Reala>
 -----------------------
 #そんな････
-That...
+I couldn't...
 -----------------------
 <Kyle>
 -----------------------
 #船長さんなんかさ
 #「彼女は、聖女にちがいない！」
 #とか、コーフンしちゃってさ！
-You know how captains are...
-"She's definitely the Saint!"
-getting all worked up about it!
+The captain was all like,
+"She's definitely the Holy Woman!"
+He was totally fired up about it!
 -----------------------
 <Reala>
 -----------------------
 #････え!?
-Huh!?
+...What?!
 -----------------------
 <Kyle>
 -----------------------
 #だから、聖女だよ
 #奇跡を起こせる女の人のこと
 #エルレインってのが、そうなんだけどさ
-So that's why she's the Saint.
+That's what a Holy Woman is.
 A woman who can perform miracles.
-Well, Elrein is one such example.
+Elrane is one, for example.
 -----------------------
 <Reala>
 -----------------------
 #エルレイン････
-Elle...
+Elrane...
 -----------------------
 <Kyle>
 -----------------------
 #そうそう、そのエルレインってさ
 #<Reala>と同じペンダントしてるんだ
 #でね、力を使うと、ペンダントが光って････
-So, about this Elrein person...
-That pendant she's wearing is just like <Reala>'s.
+Right, so this Elrane person...
+she wears the same pendant as <Reala>.
 And when she uses her power, the pendant glows...
 -----------------------
 <Kyle>
@@ -95,9 +95,9 @@ And when she uses her power, the pendant glows...
 #なんか、すごい力があるの？
 #それがあったら、オレも奇跡が起こせる!?
 ...Ah!
-Could it be that pendant...
-has some kind of amazing power?
-If I have that, can I perform miracles too?!
+Could that pendant
+have some kind of amazing power?
+If I had one, could I perform miracles too?!
 -----------------------
 <Reala>
 -----------------------
@@ -112,21 +112,21 @@ That is...
 #あの時は別に、なんにも起こらなかったし
 Just kidding!
 That couldn't possibly be it.
-I actually picked up your pendant once,
+I picked up your pendant once before,
 but nothing happened back then.
 -----------------------
 <Kyle>
 -----------------------
 #だから、やっぱりあれは、<Reala>の力なんだ
 #ホント、すっごいよ！
-So, it really was <Reala>'s power after all.
-It's seriously amazing!
+So it really was <Reala>'s power after all.
+That's seriously amazing!
 -----------------------
 <Reala>
 -----------------------
 #････そんなことない
 #わたしの力なんて、まだまだよ
-...Not at all.
+...That's not true.
 My power is still so lacking.
 -----------------------
 <Reala>
@@ -134,9 +134,9 @@ My power is still so lacking.
 #今回は、たまたま、うまくいっただけ
 #また、同じことができるかって
 #いわれたら････
-This time, we just got lucky.
-Can you really expect me to pull off the same thing again?
-If you put it that way...
+This time, I just got lucky.
+If you asked me whether I could do
+the same thing again...
 -----------------------
 <Kyle>
 -----------------------
@@ -148,8 +148,8 @@ If you put it that way...
 #「自分と相手を、信じ続けろ
 #　そうしたら
 #　最後はきっとうまくいく」
-"Keep believing in yourself and in each other. "
-If you do that, "
+"Keep believing in yourself and in each other."
+If you do that,
 things will surely work out in the end."
 -----------------------
 <Reala>
@@ -162,22 +162,22 @@ What?
 #<Loni>が、教えてくれたんだ
 #父さんの言葉なんだって
 <Loni> was the one who told me.
-He said it was Dad's words.
+He said they were Dad's words.
 -----------------------
 <Kyle>
 -----------------------
 #オレ、ここにきて
 #父さんの話、いろいろ聞いたんだ
-I came here,
-I heard all sorts of things about my dad.
+I came here
+and heard all sorts of stories about my dad.
 -----------------------
 <Kyle>
 -----------------------
 #父さんも、オレとかわらない
 #イタズラもするし、ポカもやっちゃう
 #普通の子供だったんだって
-My dad is no different from me.
-He plays pranks and makes mistakes too.
+They say he was no different from me.
+He played pranks and made mistakes too.
 He was just an ordinary kid.
 -----------------------
 <Kyle>
@@ -187,34 +187,34 @@ He was just an ordinary kid.
 #そう思った
 That's why I...
 thought maybe I could become a hero too.
-That was what I thought.
+That's what I believed.
 -----------------------
 <Kyle>
 -----------------------
 #けど････<Loni>が
 #教えてくれたんだ
 #さっきの言葉
-But... <Loni>, you...
-taught me.
-The words from earlier.
+But... <Loni>
+taught me
+those words from earlier.
 -----------------------
 <Reala>
 -----------------------
 #自分と相手を、信じ続ける････
-I'll keep believing in myself and in you...
+Keep believing in yourself and in others...
 -----------------------
 <Kyle>
 -----------------------
 #それって、すごく大変なことだって
 #オレも、なんとなくわかる
-That's something really tough to handle.
-I kind of get it too.
+I know that's something really tough to do.
+I kind of get that now.
 -----------------------
 <Kyle>
 -----------------------
 #でも、父さんは、それができた
 #だから英雄になれたんだ
-But my father was able to do that.
+But my dad was able to do it.
 That's why he became a hero.
 -----------------------
 <Kyle>
@@ -224,7 +224,7 @@ That's why he became a hero.
 #<Reala>を信じる！
 So... I'll give it a try too!
 Myself, and everyone else...
-I believe in <Reala>!
+I'll believe in <Reala>!
 -----------------------
 <Reala>
 -----------------------
@@ -236,46 +236,45 @@ I believe in <Reala>!
 #この前みたいなこと
 #またできるか、わからないって
 #言ってたけど････
-What happened before...
-I wasn't sure if it would happen again.
-is what I said...
+You said before that you didn't know
+if you could do something like that again.
 -----------------------
 <Kyle>
 -----------------------
 #オレは、できると思う！
 #<Reala>なら
 #必ずできるって、信じてる！
-I think I can do it!
+I think you can!
 If it's <Reala>,
-I'm sure we'll make it happen!
+I believe you'll definitely make it happen!
 -----------------------
 <Kyle>
 -----------------------
 #だからさ、<Reala>も
 #信じてみてよ
 #自分と････オレたちをさ
-So, <Reala>, too...
-Just give it a try.
-Myself... and us.
+So <Reala>, too...
+just try believing.
+In yourself... and in us.
 -----------------------
 <Reala>
 -----------------------
 #････うん！
-......Yeah!
+...Yeah!
 -----------------------
 <Kyle>
 -----------------------
 #行こう、<Reala>
 #みんな待ってるよ！
-Let's go, .<Reala>
-They're all waiting for you!
+Let's go, <Reala>!
+Everyone's waiting for you!
 -----------------------
 #いってらっしゃいませ
 Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -285,8 +284,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -320,12 +319,11 @@ notice
 -----------------------
 #{16}{25}{CE}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{25}{CE}{C0}There was , but
-I couldn't carry it because it was full.
+Found {16}{25}{CE}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

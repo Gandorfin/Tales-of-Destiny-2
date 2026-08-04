@@ -1,50 +1,50 @@
 #物資保管所
-Supply Storage
+Supplies Storage
 -----------------------
 #物資保管所
-Supply Storage
+Supplies Storage
 -----------------------
 #タイムオーバー
-Time's up.
+Time over.
 -----------------------
 <Harold>
 -----------------------
 #低レベルのプロテクトを
 #解除するためのカギね
 #同じモノがあと２つあるはずよ
-It's the low-level protection
-The key to unlocking it.
-There should be two more of those.
+This is a key to release
+the low-level protection.
+There should be two more just like it.
 -----------------------
 <Harold>
 -----------------------
 #あー、そうそう
 #これを持ったまま外には出ないでね
-Oh yeah, that's right.
-Don't go outside while holding this.
+Oh, right, right.
+Make sure you don't go outside while carrying this.
 -----------------------
 <Kyle>
 -----------------------
 #え、なんで？
-Why?
+Huh? Why not?
 -----------------------
 <Harold>
 -----------------------
 #こいつ、温度変化に弱いのよ
 #外の吹雪の中に出たら
 #あっという間に、ボロボロよ
-This thing is weak to temperature changes.
-If you go out into the blizzard outside,
-It'll fall apart in no time.
+This thing's weak to temperature shifts.
+If you take it out into that blizzard,
+it'll fall apart before you know it.
 -----------------------
 <Harold>
 -----------------------
 #低レベルのプロテクトを
 #解除するためのカギね
 #同じモノがもう１つあるはずよ
-It's a low-level protection
-The key to removing it
-There should be another one just like it.
+This is a key to release
+the low-level protection.
+There should be one more just like it.
 -----------------------
 <Harold>
 -----------------------
@@ -52,16 +52,16 @@ There should be another one just like it.
 #マスターキーが手に入るわ
 #どこかにあるはずだから
 #探しましょ
-With these three keys,
-I'll get my hands on the master key.
-They should be somewhere out there,
-So let's go look for them.
+If we get all three keys,
+we can obtain the Master Key.
+They should be around here somewhere,
+so let's go find them.
 -----------------------
 <Harold>
 -----------------------
 #これが上位レベルの
 #プロテクト解除キーよ
-This is a high-level
+This is the high-level
 protection release key.
 -----------------------
 <Harold>
@@ -69,9 +69,9 @@ protection release key.
 #「マスターキー」「セルキー」「バイオキー」
 #この３つのキーを資材コンテナに使えば
 #プロテクトを解除できるわ
-"Master Key", "Cell Key", "Bio Key"
-If you use these three keys on the material container,
-you can disable the protection.
+The "Master Key", "Cell Key", and "Bio Key".
+Use these three keys on the supply container
+and you can release the protection.
 -----------------------
 <Harold>
 -----------------------
@@ -79,16 +79,16 @@ you can disable the protection.
 #温度変化に弱いから、外に出ちゃダメよ
 #あんな吹雪の中に出たら
 #一発でボロボロだからね！
-But "Celkey" and "Biokey"
-are sensitive to temperature changes, so you can't take them outside.
+But the "Cell Key" and "Bio Key"
+are weak to temperature shifts, so don't take them outside.
 If you go out in that blizzard,
-they'll be ruined in no time!
+they'll be ruined in an instant!
 -----------------------
 #特に何もありません
-No, nothing in particular.
+Nothing in particular.
 -----------------------
 #いってらっしゃいませ
-Have a good day.
+Come again.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
@@ -102,20 +102,20 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
-Have a good night.
+Please rest well.
 -----------------------
 #おはようございます
 Good morning.
 -----------------------
 #お金が足りません
-Not enough money.
+Not enough Gald.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We hope to see you again.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -126,7 +126,7 @@ exit-party_togather( short spd )
 notice
 -----------------------
 #{16}{25}{F6}{C0}を手に入れました
-{16}{25}{F6}{C0}You obtained .
+Acquired {16}{25}{F6}{C0}.
 -----------------------
 notice
 -----------------------
@@ -137,7 +137,7 @@ notice
 -----------------------
 #{16}{25}{FE}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{25}{FE}{C0}There was , but
+Found {16}{25}{FE}{C0}, but inventory full already.
 I couldn't carry it because it was full.
 -----------------------
 notice
@@ -145,4 +145,3 @@ notice
 #何もありません
 There's nothing here.
 -----------------------
-

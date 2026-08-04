@@ -1,11 +1,11 @@
 #蒼天都市ヴァンジェロ
-The Azure City of Vangelor
+The Azure City, Vangelo
 -----------------------
 #蒼天都市ヴァンジェロ
-The Azure City Vangelor
+The Azure City, Vangelo
 -----------------------
 #蒼天都市ヴァンジェロ
-The Azure City of Vangelor
+The Azure City, Vangelo
 -----------------------
 #若者
 Young Man
@@ -13,26 +13,26 @@ Young Man
 #ドームごしでなく
 #直接、日差しを浴びてたら
 #命がいくつあっても、たりないよ
-Not through the dome,
-If I were bathed in sunlight directly,
-I'd need more than just a few lives.
+If it weren't for the dome,
+and we were exposed to direct sunlight,
+a hundred lives wouldn't be enough.
 -----------------------
 #若者
 Young Man
 -----------------------
 #今日は、ちょっぴり日差しが強いね
 #気をつけないと、倒れてしまいそうだよ
-The sun's shining a bit stronger today.
-If I'm not careful, I think I might collapse.
+The sun's a little stronger than usual today.
+If I'm not careful, I might just collapse.
 -----------------------
 <Loni>
 -----------------------
 #日差しが強いって････
 #ここ、ドームに被われてんだぞ？
 #直射日光があたるわけでもないのに
-The sunlight is pretty strong...
-It's covered by a dome here, you know?
-And yet it's not even getting direct sunlight.
+A little strong...?
+We're under a dome here, y'know?
+It's not even getting direct sunlight.
 -----------------------
 #若者
 Young Man
@@ -41,8 +41,8 @@ Young Man
 #直接、日差しを浴びたりしたら
 #命にかかわるよ
 Of course.
-If you're exposed to direct sunlight,
-it could cost you your life.
+If you were exposed to direct sunlight,
+it'd be life-threatening.
 -----------------------
 #女の子
 Girl
@@ -57,9 +57,9 @@ Girl
 #なんか、えらい警戒されてるな
 #おい、<Judas>、おどかすなよ
 #かわいそうじゃねえか
-You're being awfully on guard.
-Hey, <Judas>, don't scare me like that.
-Aren't you feeling sorry for him?
+Man, she's really on guard.
+Hey, <Judas>, don't go scaring her.
+Poor kid.
 -----------------------
 <Judas>
 -----------------------
@@ -67,8 +67,8 @@ Aren't you feeling sorry for him?
 #おまえの、大きすぎる態度に
 #おびえているんじゃないのか？
 I haven't done anything.
-To your overly arrogant attitude,
-aren't you trembling?
+Perhaps she's simply frightened
+by your overbearing attitude?
 -----------------------
 #女の子
 Girl
@@ -91,9 +91,9 @@ Girl
 #こんにちは！どうしたの？
 #お兄ちゃんたちの顔に
 #なんかついてる？
-Hi! What's up?
-Is there something on your faces,
-older brothers?
+Hi there! What's wrong?
+Is there something on our faces,
+big brothers?
 -----------------------
 #女の子
 Girl
@@ -109,24 +109,24 @@ Woman
 #外は、汚染された外気で満ちています
 #わざわざ危険をおかしてまで
 #他の街にいく必要は、ないじゃないですか
-The outside is filled with contaminated air.
-Going out of our way to take that risk...
-There's no need to go to another town, right?
+The outside air is completely contaminated.
+Why would you willingly risk danger
+to visit another town?
 -----------------------
 <Loni>
 -----------------------
 #ってことは････あんたたちは
 #この街から、１歩も出ないってことか？
-So that means... you guys are
-Saying we can't take even one step out of this town?
+So what you're saying is...
+you folks have never once stepped outside this town?
 -----------------------
 #おばさん
 Woman
 -----------------------
 #ええ、そうですよ
 #外から人が来ることも、まれですし
-Yes, that's right.
-It's also rare for people to come from the outside.
+Yes, exactly.
+It's rare for outsiders to come here, too.
 -----------------------
 #おばさん
 Woman
@@ -134,9 +134,9 @@ Woman
 #ほら、お兄ちゃんたちに
 #ごあいさつなさい
 #「こんにちは」って
-Come on, say hello to your big brothers
-Now, give them a greeting
-Saying 'Hello'
+Come now, say hello to the nice men.
+Greet them properly.
+Say "hello."
 -----------------------
 #おばさん
 Woman
@@ -144,16 +144,16 @@ Woman
 #すみません、この子
 #この街以外の人と会うのは
 #はじめてなもので
-I'm sorry, this child...
-It's been a while since I met someone from outside this town.
-For the first time.
+I'm so sorry about this child...
+It's her first time meeting someone
+from outside this town.
 -----------------------
 <Kyle>
 -----------------------
 #え？もう結構、大きいよね？
 #他の街にいったこと、ないのかい？
-Huh? It's pretty big already, isn't it?
-Have you never been to any other towns?
+Huh? But she's already pretty big, right?
+She's never been to another town?
 -----------------------
 #おばさん
 Woman
@@ -161,9 +161,9 @@ Woman
 #ここで、なんの不自由もない
 #生活ができるのに
 #どうして、他の街にいく必要があるんです？
-Here, we lack nothing in terms of comfort.
-We can live our lives just fine,
-so why is there any need to go to another town?
+We want for nothing here.
+We can live comfortably without hardship,
+so why would we ever need to go elsewhere?
 -----------------------
 #おじさん
 Man
@@ -171,18 +171,18 @@ Man
 #あそこに、子どもがいるだろ？
 #あの子が生まれる前に、ひとり来たはずだ
 #それ以来だよ、外から人が来たのは
-There are children over there, right?
-She should have come here alone before that child was born.
-That's when it started--the first time someone came from the outside.
+See that child over there?
+One person came before she was born.
+That's the last time anyone came from outside.
 -----------------------
 <Judas>
 -----------------------
 #そうすると、十年ぐらいは
 #人の交流がなかったということか････
 #正確には、何年前だかわかるか？
-In that case, it's been about ten years
-So there was no human interaction for that time...
-To be precise, can you tell how many years ago?
+So for roughly ten years,
+there's been no contact with the outside world...
+Can you be more precise about how many years ago?
 -----------------------
 #おじさん
 Man
@@ -190,24 +190,24 @@ Man
 #そんなきっちりは、覚えていないよ
 #あの子が生まれる前
 #それ以上細かいことは、わからないな
-I don't remember it that clearly.
-Before she was born.
-I don't know any more details than that.
+I don't remember the exact details.
+Before that girl was born,
+that's all I can tell you.
 -----------------------
 #おじさん
 Man
 -----------------------
 #外から人が来るなんて
 #ずいぶん、ひさしぶりだなぁ
-People coming from out there?
-It's been quite a while.
+People coming from outside?
+Now that's something I haven't seen in ages.
 -----------------------
 <Loni>
 -----------------------
 #ひさしぶりって
 #どれぐらい前なんだ？
-Long time no see,
-how long has it been?
+In ages?
+How long are we talking?
 -----------------------
 #おじさん
 Man
@@ -215,75 +215,75 @@ Man
 #どれぐらいって････そうだな
 #あそこにいる子が
 #生まれる前ぐらいだな
-How much? Hmm, let's see.
-The girl over there,
-About before she was born.
+How long, you ask... let's see.
+About before that girl over there
+was born, I'd say.
 -----------------------
 <Loni>
 -----------------------
 #あのドームは････街だったのか！
 #まるで、でっかいレンズに町全体が
 #おおわれてるみたいだぜ
-That dome... was it a town!?
-It's as if the entire town is
-covered by a giant lens.
+That dome... it was covering a whole town!?
+It's like the entire place is wrapped up
+in one giant Lens!
 -----------------------
 <Kyle>
 -----------------------
 #ホントだ、スゴいや････！
-It's true! This is amazing...
+You're right, that's incredible...!
 -----------------------
 <Judas>
 -----------------------
 #それにしても、この気密性の高さはどうだ
 #外界から空気が入るのを
 #完全に防ぐよう設計されている
-It's incredible how airtight this place is.
-To prevent air from the outside world
-from entering completely.
+Remarkable air-tightness, to say the least.
+It's designed to completely prevent
+any outside air from getting in.
 -----------------------
 <Nanaly>
 -----------------------
 #どうして、そこまでする必要があるのさ？
 #たしかに外は荒れた世界だけど
 #生きてけないってほどじゃないのに
-Why does it need to go that far?
-It's true that the outside is a harsh world,
-But it's not like we can't survive.
+Why go to such extremes?
+Sure, the outside world's pretty rough,
+but it's not like you can't survive out there.
 -----------------------
 <Judas>
 -----------------------
 #なんらかの理由で
 #外界と遮断せざるをえない････
 #といったところだな
-For some reason
-We're forced to cut ourselves off from the outside world...
-That's about it.
+They must have some compelling reason
+to be so thoroughly cut off from the outside world...
+That would be the long and short of it.
 -----------------------
 #街の人
-Townspeople
+Townsperson
 -----------------------
 #あ、あんたら、外から来たのかい!?
 #大丈夫か!?
 #レンズは、どうしたんだ!?
-You guys came from out there!?
+Y-You guys came from outside!?
 Are you okay!?
-What happened to the lens!?
+What about your Lens!?
 -----------------------
 <Loni>
 -----------------------
 #････あんたこそ、なんで
 #頭にレンズなんか
 #はり付けてるんだ？
-...And you, why...
-do you have a lens
-attached to your head?
+...More importantly, why
+do you have a Lens
+stuck to your head?
 -----------------------
 #街の人
 Townsperson
 -----------------------
 #なんでって････
-Why?
+What do you mean, why...
 -----------------------
 #街の人
 Townsperson
@@ -291,23 +291,23 @@ Townsperson
 #あぁ！　外気にふれたせいで
 #頭がやられちまったのか！
 #こりゃあ、大変だ････
-Aah! Because I was exposed to the outside air,
-My head's been fried!
-This is bad...
+Aah! Exposure to the outside air
+must have fried your brain!
+This is terrible...
 -----------------------
 <Kyle>
 -----------------------
 #なに言ってんだよ！
 #オレたちは別に････
 What are you talking about!?
-We're just... well...
+We're fine, we just...
 -----------------------
 <Judas>
 -----------------------
 #････どうやら、そうらしい
 #なにも、思い出せないんだ
-...It seems so.
-I can't remember anything.
+...It would appear so.
+I can't seem to remember anything.
 -----------------------
 <Kyle>
 -----------------------
@@ -317,47 +317,47 @@ I can't remember anything.
 -----------------------
 #<size:000000C8>いいから、だまっていろ
 #このほうが、情報を手に入れやすい
-<size:000000C8>Never mind that, just shut up.
-This way, it's easier to gather information.
+<size:000000C8>Never mind that. Just be quiet.
+This will make it easier to gather information.
 -----------------------
 <Judas>
 -----------------------
 #すまないが、教えてもらえないか？
 #レンズのことや、この街のことを
-I'm sorry, but could you tell me something?
-About the lens and this town.
+I'm sorry, but could you tell us something?
+About the Lens, and about this town.
 -----------------------
 #街の人
-Townsfolk
+Townsperson
 -----------------------
 #ああ、わかった
 #困ったときは、おたがいさまだからな
-Ah, got it.
-When you're in trouble, we're all in it together.
+Ah, I understand.
+When times are tough, we help each other out.
 -----------------------
 #街の人
 Townsperson
 -----------------------
 #ここは、蒼天都市ヴァンジェロって街さ
-This is the city of Vangelo, the Azure Sky City.
+This here's the city of Vangelo, the Azure Sky City.
 -----------------------
 #街の人
 Townsperson
 -----------------------
 #で、あんたたちが、なくしちまったのは
 #「命のレンズ」って呼ばれてる
-So, what you lost was...
-"The Lens of Life"
+And what you folks lost
+is called the "Lens of Life."
 -----------------------
 #街の人
-Citizen of the town
+Townsperson
 -----------------------
 #この命のレンズがあればこそ
 #人は汚染された外気に触れても
 #生きることができるんだ
-It is precisely because we have this lens of life
-that even when people are exposed to polluted external air
-they can survive.
+It's only because we have this Lens of Life
+that people can survive
+even when exposed to contaminated outside air.
 -----------------------
 #街の人
 Townsperson
@@ -365,14 +365,14 @@ Townsperson
 #慈悲ぶかきエルレインさまは
 #ドームの中でしか生きられなかった我々に
 #希望の光を与えてくださったんだ
-The merciful Elrein-sama
-gave us who could only survive within the dome
-the light of hope.
+The merciful Lady Elrane
+granted light and hope to we who could only survive
+within the dome.
 -----------------------
 <Kyle>
 -----------------------
 #エルレインが････！
-Elle ain't...!
+Elrane did...!?
 -----------------------
 #街の人
 Townsperson
@@ -380,24 +380,23 @@ Townsperson
 #あぁ、エルレインさまのことは
 #覚えているんだね
 #よかった････
-Ah, I remember Lady Elleain.
-You still recall her, don't you?
+Ah, so you do remember Lady Elrane.
 That's a relief...
 -----------------------
 #街の人
-The townspeople
+Townsperson
 -----------------------
 #なにせ、エルレインさまは
 #我らにこのドームと、生きるための力を
 #与えてくださる、大事な方だからね
-After all, Lady Elraine is
-the important person who gave us this dome and the strength to survive,
-so we must cherish her.
+After all, Lady Elrane is the one who gave us
+this dome and the power to live.
+She's someone very important to us.
 -----------------------
 <Nanaly>
 -----------------------
 #そんな････
-That...
+It can't be...
 -----------------------
 #街の人
 Townsperson
@@ -405,14 +404,14 @@ Townsperson
 #あんたたち、とりあえず
 #フォルトゥナ神団の方たちに
 #話をしてみなよ
-You guys,
-go talk to
-the Fortuna Deity faction.
+You folks should go talk to
+the people from the Order of Fortuna
+for now.
 -----------------------
 <Judas>
 -----------------------
 #フォルトゥナ神団？
-The Fortuna Divine Assembly?
+The Order of Fortuna?
 -----------------------
 #街の人
 Townsperson
@@ -420,9 +419,8 @@ Townsperson
 #あぁ、フォルトゥナ神団ってのは
 #エルレインさまを支える人たちの
 #集まりのことさ
-Ah, the Fortuna Divine Order is...
-a gathering of people who support Lady Elraine.
-That's what it is.
+Yeah, the Order of Fortuna is
+a group of people who support Lady Elrane.
 -----------------------
 #街の人
 Townsperson
@@ -430,51 +428,51 @@ Townsperson
 #みんな、優しい方ばかりだから
 #きっと親身になって
 #相談にのってくれるよ
-Everyone here is so kind-hearted.
-They'll surely take a personal interest in you,
-and give you good advice.
+They're all kind folks,
+so I'm sure they'll listen to your troubles
+and help you out.
 -----------------------
 <Judas>
 -----------------------
 #････わかった、ありがとう
-I see. Thank you.
+...Understood. Thank you.
 -----------------------
 <Judas>
 -----------------------
 #････たしかに、ここは僕たちのいた世界だ
 #エルレインという名前が
 #それを証明している
-Indeed, this is our world.
-The name Elrein...
-is proof enough.
+...Indeed, this is the world we knew.
+The very name Elrane
+proves it.
 -----------------------
 <Nanaly>
 -----------------------
 #にしたって、この変わりようは
 #ただごとじゃないよ!?
-Even so, this change is...
-Something's definitely wrong!?
+Even so, this change...
+This is no small matter!
 -----------------------
 <Loni>
 -----------------------
 #命のレンズとやらも、ドームもそうだが････
 #まるでエルレインが
 #この世界を支配しているみたいじゃねえか！
-The so-called Lens of Life and that dome too...
-It's as if Elraine
-is ruling over this whole world!
+This "Lens of Life" and the dome...
+It's almost like
+Elrane is ruling over this entire world!
 -----------------------
 <Judas>
 -----------------------
 #相当大がかりな
 #歴史改変が行われたらしいな
 #いったい、なにが起こったんだ････？
-Quite an extensive scale
-It seems history was rewritten
+It seems history has been rewritten
+on a massive scale.
 What on earth happened...?
 -----------------------
 #いってらっしゃいませ
-Have a good day.
+Welcome.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
@@ -488,11 +486,11 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
-Have a good night.
+Please rest well.
 -----------------------
 #おはようございます
 Good morning.
@@ -501,7 +499,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We hope to see you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -523,8 +521,8 @@ notice
 -----------------------
 #{16}{25}{CA}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{CA}{C0} but
-inventory is full already.
+Found {16}{25}{CA}{C0}, but
+your inventory is already full.
 -----------------------
 notice
 -----------------------
@@ -532,27 +530,27 @@ notice
 There's nothing here.
 -----------------------
 #<item:00000012>屋
-<item:00000012>-ya
+<item:00000012> Shop
 -----------------------
 #こちらでは<item:00000012>の
 #販売を行っています
-Here, we offer <item:00000012>
-for sale.
+We sell <item:00000012>
+here at our shop.
 -----------------------
 #<item:00000012>を使ってリファインすると
 #ステキな物が作られることがあるようです
-<item:00000012>If you refine using ,
-it seems wonderful items can sometimes be created.
+Use <item:00000012> to Refine,
+and you may be able to create some wonderful items.
 -----------------------
 #武器や鎧をリファインすると
 #付加能力が引継がれることがあるようです
-When you refine weapons or armor,
-It seems that added abilities may sometimes carry over.
+When you Refine weapons or armor,
+added abilities may sometimes carry over.
 -----------------------
 #ひと瓶<0B:00000001>{14}{35}{D4}{C0}<0B:00000000>ガルドになりますが、
 #<item:00000012>を買いますか？
-One bottle will cost you <0B:00000001>{14}{35}{D4}{C0}<0B:00000000> gald.
-<item:00000012>Do you want to buy ?
+One bottle costs <0B:00000001>{14}{35}{D4}{C0}<0B:00000000> gald.
+Would you like to buy <item:00000012>?
 -----------------------
 select
 -----------------------
@@ -571,7 +569,7 @@ select
 #　リファイン講座　
 #　いらない　
 <03:00000000>Buy
-Refine Course
+Refine Guide
 No thanks
 -----------------------
 #お買い上げ、ありがとうございます
@@ -582,18 +580,17 @@ Thank you for your purchase.
 -----------------------
 #<item:00000012>はひと瓶
 #<0B:00000001>{14}{35}{D4}{C0}<0B:00000000>ガルドです
-<item:00000012>One bottle's worth.
-<0B:00000001>{14}{35}{D4}{C0}<0B:00000000>That'll be  gald.
+<item:00000012> costs <0B:00000001>{14}{35}{D4}{C0}<0B:00000000> gald per bottle.
 -----------------------
 #リファイン講座を聞きたいですか？
-Do you want to hear about Refine?
+Would you like to hear the Refine lecture?
 -----------------------
 select
 -----------------------
 #<03:00000000>　聞きたい　
 #　聞きたくない　
-<03:00000000>I want to ask.
-I don't want to ask.
+<03:00000000>Yes
+No thanks
 -----------------------
 #何について知りたいですか？
 What would you like to know?
@@ -615,7 +612,7 @@ select
 #　２、アイテムの変化　　　　　　　　　　
 #　３、装備品の合成　
 #　次のページ　
-<03:00000000>1. What is Refine?
+<03:00000000>1. What Is Refine?
 2. Item Transformations
 3. Equipment Synthesis
 Next Page
@@ -623,243 +620,239 @@ Next Page
 #リファインとは、選択したアイテムを
 #別なアイテムに変化させたり
 #武器や防具を合成することのできるコマンドです
-What Refine is,
-is changing selected items
-into other items or synthesizing weapons and armor.
+Refine is a command that lets you change
+selected items into other items,
+or synthesize weapons and armor.
 -----------------------
 #リファインを行うのに必要なのは
 #<item:00000012>とレンズです
-What you need to perform Refine is
-<item:00000012>and lenses.
+To perform Refine, you need
+<item:00000012> and Lens.
 -----------------------
 #<item:00000012>は、各地にいる
 #私たちルーンボトル屋からお求めください
-<item:00000012>is located in various places
-Please purchase them from our Rune Bottle shop.
+You can purchase <item:00000012>
+from us Rune Bottle shops in various locations.
 -----------------------
 #レンズはモンスターと
 #戦えば拾うことができます
-The lens can be found from monsters
-if you fight them
+You can obtain Lens by
+battling monsters.
 -----------------------
 #これを機会に、あなたも
 #どんどんリファインを行ってください
-With this as an opportunity, you too...
-Please proceed with refining.
+Take this opportunity to
+Refine to your heart's content!
 -----------------------
 #アイテムの変化とは、アイテム単体に
 #リファインを行うことによって
 #別なアイテムに変化させることです
-What item changes are is that an individual item
-by performing Refine on it,
-transforms into a different item.
+Item transformation means using Refine
+on a single item to change it
+into a different item.
 -----------------------
 #例えば、<item:00000001>にリファインを行うと
 #<item:00000002>に変化し
 #逆に、<item:00000002>にリファインを行うと
 #<item:00000001>に変化します
-For example, if you refine <item:00000001>,
-<item:00000002>it transforms into .
-Conversely, if you refine <item:00000002>,
-<item:00000001>it changes into .
+For example, Refining <item:00000001>
+will transform it into <item:00000002>.
+Conversely, Refining <item:00000002>
+will change it into <item:00000001>.
 -----------------------
 #また、装備品単体をリファインすることによって
 #<item:00000001>などのアイテムにも変化します
-You can also refine individual equipment pieces to
-<item:00000001>transform items such as .
+You can also Refine individual equipment pieces
+into items such as <item:00000001>.
 -----------------------
 #ダンジョンなどでアイテムが尽きてしまった時などに
 #行うと、有効な場合もあります
 #もちろん、最初からきちんと準備をしておくほうが
 #賢いといえますが････
-When you run out of items in dungeons or similar places,
-it might be effective to do so.
-Of course, it's wiser to prepare properly from the start,
-but...
+This can be useful when you run out of items
+in a dungeon or similar situation.
+Of course, it's wiser to prepare properly
+from the start, but...
 -----------------------
 #リファインの一番の特徴は
 #やはり、装備品の合成です
 The most distinctive feature of Refine is
-the synthesis of equipment.
+equipment synthesis.
 -----------------------
 #装備品を合成すると
 #お気に入りの装備品に
 #お気に入りのスロットが付いた
 #装備品を作ることができます････
-When you synthesize equipment,
-you can create your favorite gear
-with a preferred slot added
-to craft custom equipment...
+By synthesizing equipment, you can create
+custom gear with your favorite slots
+added to your favorite equipment...
 -----------------------
 #ああ、まずはスロットの説明を
 #しなければいけませんね
-Ah, first I need to explain how the slots work.
-I suppose.
+Ah, but first I must explain
+how slots work.
 -----------------------
 #スロットとは、装備品に
 #付けることができる
 #付加能力のようなものです
-Slots are items you equip,
-that can be attached to your gear
-to grant bonus abilities.
+Slots are like bonus abilities
+that can be attached to equipment.
 -----------------------
 #スロットについては、また別に
 #詳しく説明させていただきます
-As for the slots, we'll cover that separately.
-We will explain in detail.
+We will explain slots in greater detail
+in a separate lecture.
 -----------------------
 #いちばん簡単な装備品のリファインは
 #スロットが一つついた装備品どうしの
 #リファインです
-The simplest type of Refine is
-between two pieces of equipment,
-each having one slot.
+The simplest form of equipment Refine is
+combining two pieces of equipment
+that each have one slot.
 -----------------------
 #これを行うと、何とステキなことに
 #スロットが二つ付いた装備品ができます
-What a wonderful thing to do!
-You'll get equipment with two slots.
+Doing so will create wonderful equipment
+with two slots.
 -----------------------
 #注意しなければいけないのは
 #剣は剣、鎧は鎧といったように
 #同じ種類の装備品でしか
 #リファインできません
-What you need to keep in mind is that
-just as swords are for swords and armor is for armor,
-you can only
-refine equipment of the same type.
+One important thing to keep in mind:
+just as swords go with swords and armor with armor,
+you can only Refine
+equipment of the same type.
 -----------------------
 #他にもいろいろな組み合わせがありますが
 #それはやってみてのお楽しみです
-There are plenty of other combinations as well.
-You'll just have to try it out and see.
+There are many other combinations as well.
+You'll just have to try them out and see.
 -----------------------
 #スロットについて
 #詳しく説明いたします
-I'll explain about slots.
-I will provide detailed instructions.
+Now I will explain slots
+in greater detail.
 -----------------------
 #スロットは数多くの種類があり
 #アタック：攻撃力が上昇します
 #ディフェンス：防御力が上昇します
 #などが代表的なものです
-There are many types of slots available,
+There are many types of slots.
 Attack: Increases attack power.
 Defense: Increases defense power.
-among others.
+These are some of the most common.
 -----------------------
 #スロットによって装備品の名前も変わります
 #<item:00000078>　＋　アタックで
 #アタックソードなどです
-The name of equipped items also changes depending on the slot.
-<item:00000078>+ Attack
-It's things like Attack Sword.
+Equipment names also change based on their slots.
+<item:00000078> + Attack
+becomes an Attack Sword, for example.
 -----------------------
 #また、スロットにはレベルがあり
 #レベルが高いと効果も上昇します
 #最高はレベル８です
-Also, slots have levels.
+Slots also have levels.
 Higher levels increase their effectiveness.
-The maximum is level 8.
+The maximum level is 8.
 -----------------------
 #スロット付きの装備品は
 #主にモンスターが落とします
 Equipment with slots is
-mainly dropped by monsters
+mainly dropped by monsters.
 -----------------------
 #モンスターとたくさん戦って
 #スロット付き装備品を手に入れて
 #あなただけのスロット付き装備品を
 #作ってみてください
-Battle lots of monsters
-Obtain equipment with slots
-Create your own slot-equipped gear
-Just give it a try
+Battle plenty of monsters to obtain
+equipment with slots, and try creating
+your very own custom gear.
 -----------------------
 #ここだけの話ですが、装飾品も
 #リファインすることができます
 #でも、それは装飾品どうしではありません
 Just between you and me, accessories can also
-be refined
-But that doesn't apply to combinations of accessories
+be Refined. However, you cannot combine
+accessories with each other.
 -----------------------
 #装飾品と、装備品のような
 #形でのみリファインが可能なのです
-Like accessories and equipment,
-Refining is only possible in that form.
+Accessories can only be Refined
+together with equipment.
 -----------------------
 #この場合の利点は、リファインする
 #装備品の場所によってスロットが
 #変化するということです
 #武器、防具によって違います
-The advantage in this case is that refining
-slots change depending on where the equipment is placed
-This means they vary
-depending on whether it's a weapon or armor
+The advantage here is that the resulting slot
+changes depending on where the equipment
+is placed in the synthesis.
+It differs between weapons and armor.
 -----------------------
 #また、装飾品は一つしか装備できないので
 #いらない装飾品を、リファインに活用すれば
 #非常に有効です
-You can also only equip one accessory at a time,
-so if you utilize unnecessary accessories for Refining,
-it's highly effective.
+Since you can only equip one accessory at a time,
+putting unwanted accessories to use in Refining
+is highly effective.
 -----------------------
 #その他にも、外装つまり「マント」も
 #装飾品と同様に装備品とリファインできます
 #その場合はなんと、装備品に属性を
 #付加することができるのです
-Additionally, exterior components, specifically 'cloaks', can also be
-refined just like accessories.
-In that case, you can actually imbue
-attributes onto your equipment.
+Additionally, exterior components, specifically "mantles",
+can also be Refined with equipment, just like accessories.
+And in that case, you can actually
+imbue your equipment with elemental attributes.
 -----------------------
 #装飾品とのリファインもうまく活用し
 #さらにステキなリファイン職人を
 #目指してみてください
-You'll also want to make good use of refining accessories.
-Try aiming to become an even more wonderful refiner.
-Aim for that goal.
+Make good use of Refining with accessories,
+and aim to become an even more wonderful
+master Refiner.
 -----------------------
 #たまに、装備品の中に黄色い枠の
 #アイコンが付いたものがありますね
 #それは、ユニークアイテムと
 #呼ばれているものです
-Sometimes, among your equipment,
-you'll find items marked with a yellow border icon.
-These are known as
+Sometimes you'll find equipment
+marked with a yellow-bordered icon.
+These are what we call
 Unique Items.
 -----------------------
 #ユニークアイテムは見た目にも
 #かっこよく、攻撃力も高く
 #スロットレベルも高いものが多いですが
 #スロットは一つしかありません
-Unique items look great,
-boast high attack power,
-and often have high slot levels,
-but they only have one slot.
+Unique Items look cool,
+hit hard, and often have high slot levels.
+The catch is, they only come
+with a single slot.
 -----------------------
 #しかし、その反面、装飾品以外のユニークアイテムは
 #リファインすることができません
 #これ以上強化することができないのです
-However, on the other hand, unique items other than accessories
-cannot be refined.
-This means they cannot be enhanced any further.
+However, Unique Items other than accessories
+cannot be Refined.
+That means there's no way to strengthen them further.
 -----------------------
 #ですから、いらなくなったアイテムは
 #どんどん売ってしまうことをお勧めします
-So, if you have items you no longer need,
-I recommend selling them off as quickly as possible.
+So I recommend selling off items
+you no longer need as soon as possible.
 -----------------------
 #なぜなら、アイテムをたくさん持っていると
 #モンスターがアイテムを
 #落としてくれなくなってしまうという
 #噂があるからです
-Because there's a rumor that if you carry too many items,
-monsters won't drop items
+Rumor has it that if you carry too many items,
+monsters will stop dropping them
 for you.
-That's why.
+That's the word, anyway.
 -----------------------
 #････アイテム整理も大切ですね
-Keeping items organized is important too.
+...Keeping your inventory tidy is important too.
 -----------------------
-

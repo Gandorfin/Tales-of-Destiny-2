@@ -26,7 +26,7 @@ True
 Guts
 -----------------------
 #ジャスティス
-Justis
+Justice
 -----------------------
 #ブレイブ
 Brave
@@ -34,28 +34,28 @@ Brave
 #<Nanaly>姉ちゃん
 #今度、弓のうちかた教えてね
 Big Sis <Nanaly>,
-You gotta teach me how to use that bow next time.
+teach me how to shoot that bow next time, okay?
 -----------------------
 #重たい剣はふりまわせないけど
 #小さな弓なら
 #わたしにも使えるでしょ？
-I can't swing around this heavy sword,
-but if it's a small bow,
-you think I could handle that?
+I can't swing around a heavy sword,
+but a small bow
+I could manage, right?
 -----------------------
 <Nanaly>
 -----------------------
 #よし
 #じゃあ、まずは
 #小さなエモノから挑戦だね
-Alright.
-Then, first things first,
-we'll start with the smaller enemies.
+All right.
+Then let's start
+with some small prey.
 -----------------------
 #わたしも
 #<Nanaly>姉ちゃんみたいに
 #強くなりたいなぁ
-I want to become
+I wanna get
 strong like Big Sis <Nanaly>
 too.
 -----------------------
@@ -63,32 +63,32 @@ too.
 -----------------------
 #強くなるのはいいけど
 #性格までは似ないほうがいいぞ
-Getting stronger is fine,
-but you'd better not have a similar personality.
+Getting stronger's fine,
+but don't go copying her personality too.
 -----------------------
 #わたしも、はやく大きくなって
 #<Nanaly>姉ちゃんを
 #助けてあげたいなぁ
-I want to grow up soon too,
+I wanna grow up soon too
 so I can help Big Sis <Nanaly>
 out.
 -----------------------
 #この町では、自分の事は自分で、
 #みんなの事はみんなでやるという
 #決まりがあるんだ
-In this town, you take care of yourself,
-and everyone looks out for each other.
-That's just how it is.
+In this town, there's a rule:
+you handle your own business,
+and everyone handles things together.
 -----------------------
 #子供だからって遊んでばかりは
 #いられないんだよ
-Just because you're a kid doesn't mean you can spend all your time playing.
-You've got to grow up sometime.
+Just because you're a kid
+doesn't mean you can play all day.
 -----------------------
 #畑の水まき、やっと終わったよ
 #二十五回も井戸まで行ってきたんだよ
 I finally finished watering the fields.
-I had to make twenty-five trips to the well.
+I made twenty-five trips to the well.
 -----------------------
 <Nanaly>
 -----------------------
@@ -96,29 +96,29 @@ I had to make twenty-five trips to the well.
 #全部ひとりでやったのかい？
 #そりゃ大したもんだ
 Good job, good job.
-Did you handle everything on your own?
-That's quite impressive.
+You did all that by yourself?
+That's really something.
 -----------------------
 #えっと････
 #畑の水まきが終わったら
 #つぎはお料理用の水をくんで････
 Um...
-After I'm done watering the fields,
-I'll go fetch water for cooking...
+Once I'm done watering the fields,
+I'll fetch water for cooking...
 -----------------------
 <Kyle>
 -----------------------
 #うへぇ～
 #みんな、働きもんだなぁ
 Ugh...
-Everyone's working so hard.
+Everyone works so hard here.
 -----------------------
 #えっと････
 #畑の水まきが終わったら
 #つぎはお料理用の水をくんで････
-Hold on...
-After I'm done watering the fields,
-I'll go fetch water for cooking...
+Um...
+Once I'm done watering the fields,
+I'll fetch water for cooking...
 -----------------------
 debug
 -----------------------
@@ -127,8 +127,8 @@ This conversation at this flag is unset.
 -----------------------
 #やった～♪
 #怪物役が二人もふえたぜ～
-We did it~!
-Looks like we've got two monsters on our hands~
+We did it~♪
+Now we've got two more monsters~
 -----------------------
 <Nanaly>
 -----------------------
@@ -136,8 +136,8 @@ Looks like we've got two monsters on our hands~
 #長旅でつかれてるから
 #やるなら<Loni>にしな
 These two are
-tired from their long journey,
-If you're going to do it, make it <Loni>.
+tired from their long journey.
+If you're gonna do it, pick on <Loni>.
 -----------------------
 <Loni>
 -----------------------
@@ -149,14 +149,14 @@ My stomach's acting up a bit...
 #やった～♪
 #怪物役が二人もふえたぜ
 We did it~♪
-Looks like we've got two monsters on our hands.
+Now we've got two more monsters.
 -----------------------
 <Kyle>
 -----------------------
 #二人って
 #オレと<Reala>のことか!?
-You two...
-You mean me and <Reala>!?
+You mean
+me and <Reala>!?
 -----------------------
 <Reala>
 -----------------------
@@ -166,22 +166,22 @@ Monster...
 #<Loni>や<Judas>に
 #ためした技で
 #エモノでもとってこようかな
-I could go after <Loni> or <Judas>...
-With my tried-and-true moves,
-Wanna go snag some prey?
+I tested my moves on <Loni> and <Judas>...
+Think I'll go
+snag some prey?
 -----------------------
 <Loni>
 #こんど、ナンパのしかたの続き
 #教えてくれよな
-Next up, we'll continue where we left off on picking up girls.
-So, teach me.
+Next time, teach me more
+about picking up girls, okay?
 -----------------------
 <Loni>
 -----------------------
 #バカ！
 #デカイ声でそんなこといったら････
 Idiot!
-If you're going to shout something that big...
+If you shout that stuff so loud...
 -----------------------
 <Nanaly>
 -----------------------
@@ -189,44 +189,44 @@ If you're going to shout something that big...
 #うちの子どもたちに
 #ロクでもないことばかり教えて！
 That guy...
-To my kids
-He's teaching them all sorts of bad habits!
+He's teaching my kids
+nothing but bad stuff!
 -----------------------
 <Loni>
 #こんど、ナンパのしかたの続き
 #教えてくれよな
-Next up, we'll continue teaching you how to pick up girls.
-Make sure you teach me.
+Next time, teach me more
+about picking up girls, okay?
 -----------------------
 <Loni>
 -----------------------
 #おうっ♪
 #けど、<Nanaly>にはしゃべるなよ！
 #あいつ、けっこう頭カタイからな
-Alright!
-But don't talk to <Nanaly>!
+You got it♪
+But don't tell <Nanaly>!
 That guy's pretty stubborn.
 -----------------------
 #<Loni>って
 #剣のケイコでは役にたたないけど
 #いろんなヘンなこと知ってるんだよな
-You know, <Loni>,
-I might not be much help in sword practice,
-But I've picked up all sorts of weird stuff.
+<Loni>, you know,
+might not help much in sword practice,
+but I've picked up all kinds of weird stuff.
 -----------------------
 #こんなにあっても
 #食べきれないから
 #パイのぶつけあいでもしようぜ
-Even though there's so much here,
-we won't be able to finish it all.
-Let's have a pie-shoving contest.
+Even with all this,
+we can't finish it all.
+Let's have a pie fight or something.
 -----------------------
 #<Loni>に
 #教えてもらったとおりやったら
 #女の子にホッペはたかれたぞ！
-<Loni>, you see,
-Just did as I told ya,
-And got smacked on the cheek by a girl!
+<Loni>,
+I did exactly what you taught me,
+and got slapped on the cheek by a girl!
 -----------------------
 <Loni>
 -----------------------
@@ -234,21 +234,21 @@ And got smacked on the cheek by a girl!
 #もし機会があったら
 #今度は、そいつも教えてやるよ
 It's all about timing.
-If you get the chance,
-Next time, I'll let him in on it too.
+If I get the chance,
+I'll teach that stuff too.
 -----------------------
 <Nanaly>
 -----------------------
 #うちの純粋な子どもたちに
 #よけいなこと、ふきこむんじゃない！
-Our innocent children...
-Don't let any unnecessary things get in there!
+Don't go filling my innocent kids'
+heads with a bunch of extra junk!
 -----------------------
 <Loni>
 #ナンパ教えてくれるって話
 #約束だからな！
-You said you'd give me some tips on picking up girls.
-It's a promise!
+You promised you'd teach me
+how to pick up girls!
 -----------------------
 debug
 -----------------------
@@ -258,24 +258,24 @@ This conversation at this flag is unset.
 <Judas>
 #今度こそ、その仮面
 #うばってやるからな！
-This time, that mask...
-I'm taking it from you!
+This time, I'm taking
+that mask off you for good!
 -----------------------
 <Nanaly>
 -----------------------
 #コラ！
 #お客にむかって
 #なんて口のききかただい！
-Hold it!
-To our customers,
-What kind of attitude is that?!
+Hey!
+Talking to customers
+with that kind of attitude!
 -----------------------
 #おい、<Judas>
 #もしかして、オレたちと遊ぶの
 #バカらしいとかって思ってるだろ？
-Hey,<Judas>
-You're gonna play with us?
-You think it's pointless, don't you?
+Hey, <Judas>,
+don't tell me you think
+playing with us is pointless, right?
 -----------------------
 <Judas>
 -----------------------
@@ -285,55 +285,55 @@ N-no, that's not what I meant...
 #オレたちにとっちゃ
 #これも訓練のウチなんだからな
 #マジメにやらなきゃ晩飯ヌキだぞ！
-For us,
-consider it part of our training.
-If you don't take it seriously, you're skipping dinner!
+For us, this counts
+as part of our training.
+Slack off and you're skipping dinner!
 -----------------------
 #すばやい<Judas>の
 #仮面をうばうのは
 #エモノをつかまえる訓練だからな
-You're quick, <Judas>.
-To steal the mask is
-part of your training to catch prey.
+Stealing the mask from
+a quick <Judas>
+is practice for catching prey.
 -----------------------
 #これだけ食いもんがあれば
 #もう、はたらかなくていいよな～♪
-With all this food around,
-I guess I don't have to work anymore~♪
+With this much grub around,
+I don't gotta work anymore~♪
 -----------------------
 #<Nanaly>が出かけてる間に
 #また新しい武器を作ったんだぜ
 #ほら、見てくれよっ！
-While <Nanaly> is out
-I made some new weapons too
-C'mon, take a look!
+I made some new weapons
+while <Nanaly> was out.
+C'mon, check 'em out!
 -----------------------
 <Nanaly>
 -----------------------
 #へぇ、悪くないデキだね
 #これなら、相手が大物でも
 #しとめられるかもしれないよ
-Heh, that's not bad.
-With this, even if they're a big shot,
-we might just be able to take them down.
+Heh, not bad at all.
+With these, we might even
+be able to take down a big shot.
 -----------------------
 #ホント？
 #じゃあ、今度、いっしょに
 #狩りにつれてってくれよな！
 Really?
-Well then, next time,
-take me hunting!
+Then next time,
+take me hunting with you!
 -----------------------
 <Nanaly>
 #今度、いっしょに
 #狩りにつれてってくれよな！
-Next time, let's go together.
-Take me hunting!
+Next time, take me
+hunting with you!
 -----------------------
 debug
 -----------------------
 #このフラグでの会話、未設定
-This conversation at this flag is not set up.
+This conversation flag is unset.
 -----------------------
 #バイラスおじさん
 Uncle Birus
@@ -341,17 +341,17 @@ Uncle Birus
 #おまえさんたちが
 #<Loni>や<Judas>の言ってた
 #お仲間ってヤツか？
-You guys were saying
-about <Loni> and <Judas>
-that you're part of their crew?
+So you folks are the ones
+<Loni> and <Judas>
+were talking about?
 -----------------------
 #バイラスおじさん
-Uncle Vyrus
+Uncle Birus
 -----------------------
 #おまえさんたちに会えるのを
 #クビを長くして待ってたみたいだぜ
-I've been looking forward to meeting you all.
-Seems like I've been keeping my neck stretched out waiting.
+Looks like he's been waiting
+to meet you with his neck stretched out.
 -----------------------
 #バイラスおじさん
 Uncle Birus
@@ -360,40 +360,38 @@ Uncle Birus
 #きっと、おまえさんたちのことを
 #ルーに話してやるんだな
 Are you off to visit the graves, <Nanaly>?
-I bet it's about all you guys.
-I'll go tell Rue.
+I'll bet you're gonna tell Rue all about us.
 -----------------------
 <Kyle>
 -----------------------
 #墓まいり？　ルー？
-Grave visit? Lou?
+Grave visit? Rue?
 -----------------------
 #バイラスおじさん
-Uncle Vyrus
+Uncle Birus
 -----------------------
 #<Nanaly>は
 #きっと、おまえさんたちのことを
 #ルーに話してやるんだな
 <Nanaly>, you...
-I'm sure you're just going to
-go running to Rue about it.
+I'm sure you're gonna go
+running straight to Rue about this.
 -----------------------
 #バイラスおじさん
-Uncle Vyrus
+Uncle Birus
 -----------------------
 #<Nanaly>のことを
 #よろしくたのむな♪
 #こうみえて、なかなか繊細なヤツだからよ
-About <Nanaly>,
-do me a favor, okay? ♪
+Take care of <Nanaly> for me, okay? ♪
 She may look tough, but she's actually pretty sensitive underneath.
 -----------------------
 <Nanaly>
 -----------------------
 #ば、バカ！
 #ヘンなこと言うんじゃないよ
-W-wait!
-Don't say such weird things.
+Y-you idiot!
+Don't say weird stuff like that!
 -----------------------
 <Loni>
 -----------------------
@@ -401,35 +399,34 @@ Don't say such weird things.
 #こいつが繊細なんて
 #ジョーク以外のなにものでもないぜ
 That's right, that's right.
-I can't believe he's so delicate.
-It's nothing but a joke.
+The idea that this one's 'sensitive'?
+Nothing but a bad joke.
 -----------------------
 #バイラスおじさん
-Uncle Virus
+Uncle Birus
 -----------------------
 #<Nanaly>のことを
 #よろしくたのむな♪
-Take care of <Nanaly> for me.
-Don't mess around, okay? ♪
+Take care of <Nanaly> for me, okay? ♪
 -----------------------
 #バイラスおじさん
-Uncle Virus
+Uncle Birus
 -----------------------
 #おい、<Nanaly>
 #あんまり食い過ぎると
 #太っちまうから、気をつけろよ
-Hey,<Nanaly>
-If you eat too much
-you'll get fat, so watch out.
+Hey, <Nanaly>.
+Don't eat too much or you'll
+get fat. Watch yourself.
 -----------------------
 <Nanaly>
 -----------------------
 #あんたのほうこそ
 #それ以上、食べたら
 #ハラが破裂しちまうんじゃないかい♪
-You're the one who...
-If you eat any more,
-You might just burst from your stomach, won't you? ♪
+You're the one who'll
+burst if you eat any more,
+aren't you? ♪
 -----------------------
 #バイラスおじさん
 Uncle Birus
@@ -438,18 +435,18 @@ Uncle Birus
 #これ以上、食ったら
 #二度と動けなくなりそうだぜぃ
 Heh heh.
-If I eat any more,
-I think I'll lose the ability to move again.
+Any more and I don't think
+I'll ever be able to move again.
 -----------------------
 #バイラスおじさん
-Uncle Biralus
+Uncle Birus
 -----------------------
 #ホント
 #食っても食っても
 #ぜんぜん減らねえなぁ
-Seriously
-No matter how much I eat,
-It doesn't seem to decrease at all.
+Seriously,
+no matter how much I eat,
+it never seems to go down.
 -----------------------
 #バイラスおじさん
 Uncle Birus
@@ -458,15 +455,15 @@ Uncle Birus
 <Nanaly>
 #そんな懐かしそうな顔して････
 What's wrong?
-You've got that nostalgic look on your face...
+You've got such a nostalgic look...
 -----------------------
 #バイラスおじさん
 Uncle Birus
 -----------------------
 #おまえが、そいつらと出てって
 #まだ、一週間やそこらだってのによ
-You're going out with them?
-It's only been a week or so.
+You only left with them
+a week or so ago.
 -----------------------
 <Nanaly>
 -----------------------
@@ -474,30 +471,30 @@ It's only been a week or so.
 #あたしがここを出てから
 #まだ、それくらいしか経ってないんだ
 I see...
-Now that I've left here,
-It hasn't even been that long.
+It's only been that long
+since I left here.
 -----------------------
 #バイラスおじさん
-Uncle Virus
+Uncle Birus
 -----------------------
 #そんなに故郷が恋しいなら
 #今すぐ帰ってきてもいいんだぜ？
 If you miss your hometown that much,
-you can head back right now if you want.
+you can come back right now, you know?
 -----------------------
 <Nanaly>
 -----------------------
 #まだ、ちょっと
 #デッカイ仕事がのこってるからね
 #帰るわけにはいかないんだよ
-Not yet, just a little bit.
-I still have a big job left to do.
-I can't just go back.
+Not yet. I've still got
+one big job left to do.
+I can't go back just yet.
 -----------------------
 debug
 -----------------------
 #このフラグでの会話、未設定
-This conversation at this flag is unset.
+This conversation flag is unset.
 -----------------------
 #カミーユおばさん
 Aunt Camille
@@ -505,9 +502,8 @@ Aunt Camille
 #あたしらは、昔
 #ジャンクランドって町の
 #住人だったのさ
-We used to,
-in a town called
-Junkland.
+We used to live in
+a town called Junkland.
 -----------------------
 #カミーユおばさん
 Aunt Camille
@@ -515,9 +511,8 @@ Aunt Camille
 #昔、あたしらが住んでた
 #ジャンクランドって町は
 #そりゃあ、まあヒドイとこだったよ
-We used to live in
-a town called Junk Land.
-It was quite a rough place.
+The town of Junkland we lived in
+was a pretty rough place.
 -----------------------
 #カミーユおばさん
 Aunt Camille
@@ -525,9 +520,9 @@ Aunt Camille
 #天地戦争時代のゴミがつもってて
 #悪臭のするガスは吹き出るし
 #人の住めるような場所じゃなかったのさ
-It's piled up with trash from the era of the War of Heaven and Earth.
-Stinking gas is billowing out everywhere.
-It wasn't a place where people could live.
+Trash from the Aeth'er Wars was piled up everywhere,
+stinking gas was billowing out,
+and it wasn't fit for people to live in.
 -----------------------
 #カミーユおばさん
 Aunt Camille
@@ -536,7 +531,7 @@ Aunt Camille
 #ジャンクランドって町は崩壊して
 #あたしらは住むところを失くしちまった
 The nightmare from twenty-eight years ago
-the town of Junkland collapsed,
+destroyed the town of Junkland,
 and we lost our home.
 -----------------------
 #カミーユおばさん
@@ -545,18 +540,18 @@ Aunt Camille
 #けど、そのとき地殻変動があったのか
 #この場所にオアシスがわいて
 #今のホープタウンができたってわけなのさ
-But was there a crustal shift back then?
-An oasis sprang up in this location,
-which is how Hope Town came to be.
+But something must've shifted beneath the earth that day,
+because an oasis sprang up right here,
+and that's how Hope Town came to be.
 -----------------------
 <Loni>
 -----------------------
 #悪夢の中で見いだした
 #希望の地････
 #それでホープタウンってわけか
-Found within a nightmare
-The land of hope...
-So that's why it's called Hope Town
+A land of hope...
+found in the middle of a nightmare.
+So that's why they call it Hope Town.
 -----------------------
 #カミーユおばさん
 Camille
@@ -565,8 +560,8 @@ Camille
 #危険な場所といわれても
 #あたしらには、ここが最高の場所なんだよ
 No matter how harsh the climate gets,
-Even if it's said to be a dangerous place,
-This is our perfect spot.
+or how dangerous people say it is,
+to us, this is the best place on earth.
 -----------------------
 #カミーユおばさん
 Aunt Camille
@@ -574,23 +569,23 @@ Aunt Camille
 #体重なんか気にしてられないね
 #あたしゃ死ぬまで
 #食べまくっちゃうよ！
-I don't have time to worry about my weight.
-As long as I'm alive,
-I'll just keep eating everything in sight!
+Ain't got no time to worry about my figure.
+Long as I'm breathin',
+I'm gonna eat my fill!
 -----------------------
 <Nanaly>
 -----------------------
 #あっ！
 #そっちのもおいしそう～♪
 Ah!
-That one looks delicious too~♪
+That one looks tasty too~♪
 -----------------------
 <Loni>
 -----------------------
 #おい、<Nanaly>
 #しっかりしろって！
-Hey,<Nanaly>
-Pull yourself together!
+Hey, <Nanaly>!
+Get a grip!
 -----------------------
 #カミーユおばさん
 Aunt Camille
@@ -598,9 +593,9 @@ Aunt Camille
 #ほらほら
 #あんたたちも、しっかりお食べ！
 #ハラがはちきれるまでさぁ
-Come on, come on
-You guys eat up too!
-So your bellies burst
+C'mon, c'mon!
+You folks eat up too!
+Till your bellies are fit to burst!
 -----------------------
 #カミーユおばさん
 Aunt Camille
@@ -608,9 +603,8 @@ Aunt Camille
 #アイグレッテの連中は
 #こんな場所に住むあたしらの
 #気がしれないなんて言ってるけど････
-Aigret's bunch...
-We who live in a place like this...
-I don't think they believe it.
+Folks in Aigrette say they can't understand
+how we can live in a place like this, but...
 -----------------------
 #カミーユおばさん
 Aunt Camille
@@ -618,9 +612,9 @@ Aunt Camille
 #さんざん働いたあとに水をあびる
 #気持ちよさとか充実感とか
 #知らないんだろうねぇ
-Taking a shower after working yourself to the bone
-That feeling of satisfaction and fulfillment
-He probably doesn't know about it
+They don't know the satisfaction, the feeling of fulfillment
+from washing up after a hard day's work.
+Bet they've never felt that.
 -----------------------
 #カミーユおばさん
 Aunt Camille
@@ -628,150 +622,148 @@ Aunt Camille
 #アイグレッテに住む連中にも
 #汗をかくことの気持ちよさってもんを
 #教えてやりたいねえ
-To those living in Igretta,
-I want to show them
-just how good it feels to sweat.
+I'd love to show 'em folks in Aigrette
+just how good it feels to break a sweat.
 -----------------------
 #カミーユ
-Camielle
+Camille
 -----------------------
 #あたしたちの故郷をうばった
 #十八年前のあの大災厄が
 #こんなオアシスを生み出すなんてね････
-We had our homeland stolen from us.
-The great calamity eighteen years ago...
-To think it would create an oasis like this.
+The great calamity eighteen years ago
+took our homeland from us...
+Hard to believe it created an oasis like this.
 -----------------------
 <Nanaly>
 -----------------------
 #おばさん！
 #まだ、このときは若かったんだ
 Auntie!
-I was still young back then.
+You were still young back then.
 -----------------------
 #カミーユ
-Camiille
+Camille
 -----------------------
 #あたしは、まだ
 #「おばさん」なんて年じゃないよ！
 #シツレイな子だね････
-I'm still...
-I'm not old enough to be called an 'old lady'!
-What rude manners.
+I'm not...
+I'm not old enough to be called an 'auntie'!
+What a rude child...
 -----------------------
 #カミーユ
-Camiille
+Camille
 -----------------------
 #あたしたちの故郷をうばった
 #十八年前のあの大災厄が
 #こんなオアシスを生み出すなんてね････
-We had our homeland stolen from us.
-The great calamity eighteen years ago...
-Created an oasis like this.
+The great calamity eighteen years ago
+took our homeland from us...
+Hard to believe it created an oasis like this.
 -----------------------
 #カミーユ
-Camiille
+Camille
 -----------------------
 #人生なんて、ほんと
 #いつ、どんなことがおきるか
 #わかんないもんだね････
-Life really is...
-You never know what's going to happen,
-do you?...
+Life, I tell ya...
+You never know what's gonna happen,
+or when...
 -----------------------
 #カミーユ
-Camiille
+Camille
 -----------------------
 #あんたたちの身にも
 #いつ、どんなことがおきるか
 #わかんないってことだよ
-For your own sakes,
-you never know what's going to happen,
-that's what I'm saying.
+Same goes for you folks.
+You never know what's gonna happen,
+or when.
 -----------------------
 #カミーユ
-Camielle
+Camille
 -----------------------
 #ほんと、あの子はたいしたもんだよ！
 #病気の弟をせおって
 #こんなとこまで旅してきたってんだからさ
-She's really something else!
-Carrying her sick younger brother on her back
-We've come all this way, after all.
+She's really something, that girl!
+Carried her sick little brother on her back
+all the way here.
 -----------------------
 #クルトンばあさん
-Old Lady Kurtan
+Old Lady Kurton
 -----------------------
 #はぁ～
 #年よりには、この暑さはこたえるよ････
-Sigh...
-This heat really gets to an old man...
+*sigh*
+This heat really takes it out of an old timer...
 -----------------------
 <Nanaly>
 -----------------------
 #バアちゃんが
 #まだ、生きてるよ！
-Grandma is
-still alive!
+Granny's
+still kickin'!
 -----------------------
 #クルトンばあさん
-Old Woman Kurtan
+Old Woman Kurton
 -----------------------
 #ムキィ～ッ！
 #人を勝手に殺すんじゃないよ!!
-Guhhh~!
-Don't just go killing people on your own!!
+Grrr~!
+Don't go killin' people off on your own!!
 -----------------------
 <Loni>
 -----------------------
 #<Nanaly>････
 #おまえ、ちょっとだまってろ
 <Nanaly>...
-You shut up for a bit.
+You shut your mouth for a minute.
 -----------------------
 #クルトンばあさん
-Old Lady Kurtan
+Old Lady Kurton
 -----------------------
 #はぁ～
 #年よりには、この暑さはこたえるよ････
-Sigh...
-This heat really takes it out of an old timer like me...
+*sigh*
+This heat really takes it out of an old timer...
 -----------------------
 #クルトンばあさん
-Old Lady Kurtan
+Old Lady Kurton
 -----------------------
 #水浴びでもせねば
 #脳ミソがゆだっちまうねぇ････
-I should go take a bath.
-My brain's gonna melt...
+If I don't go splash some water on myself,
+my brain's gonna boil over...
 -----------------------
 #クルトンばあさん
-Old Lady Kurtan
+Old Lady Kurton
 -----------------------
 #ふぅ～
 #頭までいたくなってきたよ････
-Phew~
-My head's starting to hurt...
+Whew~
+Even my head's startin' to hurt...
 -----------------------
 #クルトンばあさん
-Old Lady Kurtan
+Old Lady Kurton
 -----------------------
 #あんな幼子が
 #苦しまなきゃならないなんて
 #ナットクいかないねえ････
-That kind of young child
-having to suffer like that
-isn't very satisfying.
+A young child like that
+havin' to suffer so...
+It just ain't right...
 -----------------------
 #クルトンばあさん
-Old Lady Kurtan
+Old Lady Kurton
 -----------------------
 #アタモニ神は
 #みずから努力するものを
 #助けるんじゃなかったのかい！
-The God Atamoni
-wasn't he supposed to help those who strive on their own?
-isn't that right?
+Isn't Atamoni supposed to help
+those who help themselves?!
 -----------------------
 #ドナ
 Donna
@@ -779,17 +771,17 @@ Donna
 #あたいは一生
 #おヨメなんかいかないで
 #この村を守っていくんだ！
-I'm going to spend my life
-not becoming anyone's wife
-protecting this village!
+I'm gonna spend my whole life
+never bein' no one's wife,
+protectin' this village!
 -----------------------
 <Nanaly>
 -----------------------
 #ところが、ドナ姉ちゃんは
 #行商人の一人に恋して
 #追いかけていっちゃうんだよね
-Don't get me wrong, but Donnie-chan...
-fell in love with one of the traveling merchants
+Thing is, Donna-neechan
+fell for one of the traveling merchants
 and ran off after him.
 -----------------------
 #ドナ
@@ -798,9 +790,9 @@ Donna
 #あたいは一生
 #おヨメなんかいかないで
 #この村を守っていくんだ！
-I'm going to spend my life
-not becoming anyone's wife
-protecting this village!
+I'm gonna spend my whole life
+never gettin' married,
+protectin' this village!
 -----------------------
 #ドナ
 Donna
@@ -808,9 +800,9 @@ Donna
 #男なんてぇ！
 #ドゥオリャァーーーッ！
 #キィェーッ!!
-Men are such...
-Dolyaah!
-Kyehh!!
+Men, I swear!
+Hiyaaah!
+Kyaaah!!
 -----------------------
 #ドナ
 Donna
@@ -819,8 +811,8 @@ Donna
 #病気って、いったい
 #どうやってやっつければいいんだ？
 Ugh...
-What on earth is this illness?
-How am I supposed to get rid of it?
+What kind of illness is this, anyway?
+How am I supposed to beat it?
 -----------------------
 #ビリー
 Billy
@@ -828,16 +820,15 @@ Billy
 #あんたたち旅の人だろ？
 #このあたりはキケンだから
 #オレがボディーガードやってやろうか？
-You guys are travelers, right?
-This area is dangerous,
-So how about I act as your bodyguard?
+You guys travelers?
+This area's dangerous, so
+how about I be your bodyguard?
 -----------------------
 <Nanaly>
 -----------------------
 #ビリー兄ちゃんは
 #あたしの初恋の人だったんだ････
-Billy-niichan was
-the person I had my first crush on...
+Billy was my first crush...
 -----------------------
 <Loni>
 -----------------------
@@ -845,15 +836,15 @@ the person I had my first crush on...
 #おまえでも、いっちょまえに
 #恋なんかしてたのかよ
 W-what...?
-You've grown quite bold yourself.
-Were you in love or something?
+Even you actually
+had a thing for someone?
 -----------------------
 <Nanaly>
 -----------------------
 #ある日、狩りの途中で
 #ガケから落ちて死んじゃったんだよね････
 One day, while out hunting,
-I fell off a cliff and died.
+he fell off a cliff and died...
 -----------------------
 #ビリー
 Billy
@@ -861,9 +852,9 @@ Billy
 #あんたたち旅の人だろ？
 #このあたりはキケンだから
 #オレがボディーガードやってやろうか？
-You guys are travelers, right?
+You guys travelers?
 It's dangerous around here.
-How about I act as your bodyguard?
+How about I be your bodyguard?
 -----------------------
 #ビリー
 Billy
@@ -871,9 +862,9 @@ Billy
 #姉ちゃん
 #オレが守ってやるから
 #あとでデートしてくれよな
-Sis
-I'll protect you.
-Take me on a date later, yeah?
+Sis,
+I'll protect you,
+so take me on a date later, yeah?
 -----------------------
 <Nanaly>
 -----------------------
@@ -882,14 +873,14 @@ Take me on a date later, yeah?
 #年上の女が好きだったっけ････
 That's right, that's right.
 Reminds me of <Loni>.
-I guess I've always had a thing for older women.
+Guess I've always had a thing for older women.
 -----------------------
 <Loni>
 -----------------------
 #お、オレは
 #こんな軽い男じゃねえ！
 H-Hey, I'm...
-Not some lightweight guy like this!
+not some sleazy guy like this!
 -----------------------
 #ビリー
 Billy
@@ -897,9 +888,9 @@ Billy
 #なあ、どうだい？
 #安くしとくからボディーガードとして
 #やとってくれないか？
-What do you think?
-I'll keep it cheap if you act as my bodyguard.
-Won't you take the job?
+What do you say?
+I'll cut you a deal if you
+hire me as your bodyguard.
 -----------------------
 #ビリー
 Billy
@@ -908,8 +899,8 @@ Billy
 #ぜったいなおらねえなんて
 #あの子たちが、かわいそうじゃねえか!!
 Damn it!
-There's no way I'm going down.
-Don't those kids deserve better?!
+Sayin' there's no cure...
+Those poor kids don't deserve this!!
 -----------------------
 <Nanaly>
 -----------------------
@@ -921,11 +912,11 @@ Could you kill some time for me?
 #あたしは食事の準備
 #それと････ちょっと寄るところがあってね
 I'm getting dinner ready.
-And... I have somewhere to stop by on the way.
+And... I have somewhere to stop by.
 -----------------------
 #あっ、<Nanaly>姉ちゃん！
 #おかえりぃ～！
-Ah, sis! <Nanaly>!
+Ah, <Nanaly>!
 You're back~!
 -----------------------
 <Nanaly>
@@ -933,22 +924,22 @@ You're back~!
 #ただいま！
 #みんな、いい子にしてたかい？
 I'm home!
-Everyone, were you good?
+Were you all good kids?
 -----------------------
 #もちろんだよ！
 #ねぇ、<Nanaly>姉ちゃん
 #おみやげは!?　おみやげ！
 Of course!
-Hey, <Nanaly> sis.
-What about souvenirs? Souvenirs!
+Hey, <Nanaly>,
+what about souvenirs? Souvenirs!
 -----------------------
 <Nanaly>
 -----------------------
 #もう、せかさないの！
 #もちろんあるよ
 #でも、その前に････
-Hurry up already!
-Of course there is.
+Sheesh, don't rush me!
+Of course I have some.
 But first...
 -----------------------
 <Nanaly>
@@ -958,34 +949,34 @@ But first...
 #姉ちゃん、話があるんだけど
 <Loni> and <Judas>...
 where are they?
-Sis, I gotta talk to you about somethin'.
+Sis, I gotta talk to you about something.
 -----------------------
 #あのふたりならねぇ････
-If it's those two, then no way...
+If it's those two, then forget it...
 -----------------------
 <Loni>
 -----------------------
 #待てこらっ！
 #こんの悪ガキが～っ！
 Hold it right there!
-You little brat~!
+You little brats~!
 -----------------------
 <Nanaly>
 -----------------------
 #聞くまでもなかったね、こりゃ
-No need to ask, that's clear.
+No need to ask, I can already tell.
 -----------------------
 <Loni>
 -----------------------
 #おまえらなぁ、そんなに
 #マジで叩くことないだろうが！
 You guys, seriously,
-There's no need to beat them that hard!
+there's no need to beat 'em up that hard!
 -----------------------
 #だって、<Loni>も<Judas>も
 #ぜんぜん、本気出さないんだもん！
-Because both <Loni> and <Judas> are here.
-not even trying seriously at all!
+Because both <Loni> and <Judas>
+aren't even trying seriously!
 -----------------------
 #そうだよぉ！
 #特に<Judas>！
@@ -998,22 +989,22 @@ Get serious for once!
 #ボソボソしゃべらないよ！
 #もっと「ぐわー！」とか言わないと！
 Monsters don't just
-mumble away like that!
-You've gotta go 'Grrr!' or something!
+mumble to themselves like that!
+You've gotta go "Graaargh!" or something!
 -----------------------
 <Judas>
 -----------------------
 #なんで僕が
 #こんなことを････
-Why me?
-Am I really doing this...?
+Why do I have to
+do something like this...
 -----------------------
 #あ～っ！　文句言うなら
 #<Loni>と<Judas>
 #晩飯ヌキ！
-Ahhh! If you've got a problem with that,
+Agh! If you've got a problem with that,
 <Loni> and <Judas>
-No dinner for you!
+are skipping dinner!
 -----------------------
 <Loni>
 -----------------------
@@ -1022,16 +1013,16 @@ No dinner for you!
 #たまったもんじゃねえぞ！
 Y-you idiot! I told you to get serious!
 If we miss out on food,
-it's unbearable!
+that's gonna be a real problem!
 -----------------------
 #わかったら、もう一回最初から！
-If you get it wrong, start over from the beginning!
+If you mess up, start over from the beginning!
 -----------------------
 <Nanaly>
 -----------------------
 #おーい、<Loni>
 #<Judas>！
-Hey, .<Loni>
+Hey, <Loni>!
 <Judas>!
 -----------------------
 <Loni>
@@ -1039,13 +1030,13 @@ Hey, .<Loni>
 #<Nanaly>～
 #こいつらに、なんか言って････
 <Nanaly>~
-Don't say anything to those guys...
+Say something to these guys...
 -----------------------
 <Loni>
 -----------------------
 #････<Kyle>!?
 #<Kyle>じゃねえか!!
-Huh... <Kyle>!?
+...<Kyle>!?
 It's <Kyle>!!
 -----------------------
 <Loni>
@@ -1053,190 +1044,190 @@ It's <Kyle>!!
 #無事だったかぁ！
 #ふたりとも
 #心配かけさせやがって!!
-You're safe!
-Both of you
-Making me worry so much!!
+Thank goodness you're safe!
+Both of you,
+making me worry like that!!
 -----------------------
 <Kyle>
 -----------------------
 #それは、こっちのセリフだよ！
 #オレたちだって、ふたりを探してて
 #タイヘンだったんだから！
-It's my turn to talk!
+That's my line!
 We were looking for you two too,
-It was quite an ordeal!
+and it was rough!
 -----------------------
 <Judas>
 -----------------------
 #僕らのほうが、大変だ
 #まったく、どうして僕が
 #子守りなどを････
-We've got it harder.
-Seriously, why is it always me?
-Being babysitter and all...
+We've had it way worse.
+Honestly, why do I always end up
+babysitting...
 -----------------------
 #だめじゃんか、<Judas>！
 #ホントに、晩飯ヌキにするぞ！
 You're no good at all, <Judas>!
-I'm serious, I'm skipping dinner!
+I'm serious, you're skipping dinner!
 -----------------------
 #なーなー、<Loni>
 #続き、やろうぜ！
-Hey, hey,<Loni>
-Let's get back to it!
+Hey, hey, <Loni>,
+let's get back to it!
 -----------------------
 #ねぇ<Nanaly>
 #こいつら、だれ？
-Hey, .<Nanaly>
-Who are these guys?
+Hey, <Nanaly>,
+who are these guys?
 -----------------------
 #はやくしよーぜー！
 #ほら、<Loni>！
 #晩飯ヌキだぞ！
-Hurry up already!
-C'mon, <Loni>!
+C'mon, hurry up!
+Hey, <Loni>!
 No dinner for you!
 -----------------------
 <Nanaly>
 -----------------------
 #はいはい、いっぺんにしゃべらないの！
-Yes, yes, don't talk all at once!
+Yeah, yeah, one at a time!
 -----------------------
 <Nanaly>
 -----------------------
 #ふたりは、<Kyle>と<Reala>
 #<Loni>や<Judas>の友だち
 #もちろん、姉ちゃんとも友だち！
-We two are <Kyle> and .<Reala>
-Friends with <Loni> and <Judas>.
-Of course, I'm friends with my sis too!
+These two are <Kyle> and <Reala>.
+Friends of <Loni> and <Judas>.
+And of course, they're friends with my sis too!
 -----------------------
 <Nanaly>
 -----------------------
 #で、姉ちゃんたちは話があるから
 #ちょっと、<Loni>と<Judas>
 #借りてくけど、いいかい？
-So, my sister wants to talk about something.
-Hold on, <Loni> and .<Judas>
-I'll borrow it, okay?
+So, my sister wants to talk to you,
+so I'm gonna borrow <Loni> and <Judas>
+for a bit, okay?
 -----------------------
 #うん！
-Yes!
+Okay!
 -----------------------
 <Nanaly>
 -----------------------
 #あと、<Loni>と<Judas>
 #今日は晩飯ヌキ！
 #おばちゃんたちに、そう伝えておいて
-Also, <Loni> and .<Judas>
-We're skipping dinner tonight!
-Just tell the ladies that.
+Oh, and <Loni> and <Judas>,
+no dinner for you two tonight!
+Make sure you tell the ladies that.
 -----------------------
 <Loni>
 -----------------------
 #なっ、なんだよ、そりゃあ!?
-What the heck is that!?
+Wh-what the heck!?
 -----------------------
 <Nanaly>
 -----------------------
 #カン違いしないの！
 #今日は、あたしが
 #ごちそうしてあげるよ
-Don't get it wrong!
-I'm going to treat you today,
-so let me buy you a meal.
+Don't get the wrong idea!
+Tonight, I'm treating you all.
+I'm buying you dinner, got it?
 -----------------------
 <Loni>
 -----------------------
 #････人間の食えるものが
 #出てくりゃいいけどな
-...as long as there's something humans can eat,
-that'd be fine.
+...As long as whatever comes out
+is actually edible.
 -----------------------
 <Nanaly>
 -----------------------
 #････ホントに
 #晩飯ヌキでもいいんだよ
 #<Loni>？
-Seriously...
-You can skip dinner if you want.
+...Are you sure
+you're fine with skipping dinner,
 <Loni>?
 -----------------------
 <Loni>
 -----------------------
 #いえっ、よろこんで
 #食べさせていただきますっ！
-No, I'd be happy to.
-I'll dig in!
+N-No, I'd be honored!
+Please let me eat!
 -----------------------
 <Nanaly>
 -----------------------
 #決まりだね！
 #じゃあ、ちょっと時間をつぶしてておくれよ
-It's settled!
-Alright, then go kill some time while I'm at it.
+It's settled, then!
+Now go kill some time for me, will ya?
 -----------------------
 <Nanaly>
 -----------------------
 #積もる話もあるだろうし、
 #この村も見てもらいたいしね
-There's probably plenty to catch up on,
-and I want you to see this village too.
+You've probably got a lot to catch up on,
+and I want you to see the village too.
 -----------------------
 <Kyle>
 -----------------------
 #<Nanaly>は、どうするの？
-What are you gonna do about it, <Nanaly>?
+What about you, <Nanaly>?
 -----------------------
 <Nanaly>
 -----------------------
 #あたしは食事の準備
 #それと････ちょっと寄るところがあってね
-I'm getting dinner ready.
-And... I have somewhere to stop by on the way.
+I've gotta get dinner ready.
+And... there's somewhere I need to stop by.
 -----------------------
 <Nanaly>
 -----------------------
 #じゃ、またあとでね！
-Well, see you later!
+See you all later!
 -----------------------
 <Kyle>
 -----------------------
 #じゃあ、行こうか
-Well then, let's get going.
+Well then, let's go.
 -----------------------
 <Kyle>
 -----------------------
 #････って、<Loni>
 #どうかしたの？
-Well, ...<Loni>
-What's wrong?
+...Huh? <Loni>,
+is something wrong?
 -----------------------
 <Loni>
 -----------------------
 #あ、いや････
 #あいつも、マメだなと思ってよ
 Ah, no...
-That guy is surprisingly diligent.
+Just thinking, she's surprisingly diligent.
 -----------------------
 <Loni>
 -----------------------
 #なんでもねえよ
 #さ、行こうぜ
 It's nothing.
-L-Let's go.
+C'mon, let's go.
 -----------------------
 <Kyle>
 -----------------------
 #あれは････
 #おーい、<Nanaly>････
-That is...
+Is that...
 Hey, <Nanaly>...
 -----------------------
 <Loni>
 -----------------------
 #待て、<Kyle>
-Hold on,<Kyle>
+Wait, <Kyle>.
 -----------------------
 <Kyle>
 -----------------------
@@ -1248,26 +1239,26 @@ Huh?
 #ただいま、ルー
 #今日は、いいことがあったんだ
 #その報告
-I'm back, Rue.
-I had something good happen today.
-That report.
+I'm home, Rue.
+Something good happened today.
+I came to tell you about it.
 -----------------------
 <Nanaly>
 -----------------------
 #ほら、スケベ<Loni>と
 #むっつり<Judas>って
 #いただろ？
-Look, you pervert <Loni>,
-you shut-in <Judas>,
-right?
+See, there was this pervy <Loni>
+and this gloomy <Judas>,
+remember?
 -----------------------
 <Nanaly>
 -----------------------
 #あいつらが探してた
 #<Kyle>と<Reala>って子
 #見つかったんだ
-They were looking for those guys.
-The kids named <Kyle> and <Reala>.
+They were looking for these kids
+named <Kyle> and <Reala>.
 We found them!
 -----------------------
 <Nanaly>
@@ -1276,7 +1267,7 @@ We found them!
 #特に、<Kyle>なんて
 #バカ正直で、まっすぐで････
 They're both really good kids.
-Especially someone like <Kyle>.
+Especially <Kyle>...
 So honest and straightforward...
 -----------------------
 <Nanaly>
@@ -1284,16 +1275,16 @@ So honest and straightforward...
 #････あんたが、生きていたら
 #<Kyle>ぐらいの
 #年なんだね････
-...If you're alive,
-About <Kyle> years old,
-is what you are...
+...If you were still alive,
+you'd be about <Kyle> years old
+by now...
 -----------------------
 <Nanaly>
 -----------------------
 #あんたと、性格は全然ちがうけどさ
 #きっと、いい友だちになれたと思うよ
-Even though we're totally different kinds of people...
-I think we could've been good friends.
+Our personalities are totally different,
+but I'm sure we would've been good friends.
 -----------------------
 <Reala>
 -----------------------
@@ -1303,16 +1294,16 @@ That grave over there... could it be...
 <Judas>
 -----------------------
 #<Nanaly>の、弟の墓だそうだ
-It's said to be <Nanaly>'s little brother's grave.
+It's <Nanaly>'s little brother's grave.
 -----------------------
 <Loni>
 -----------------------
 #旅から帰ってきたり、なにか
 #うれしいことがあったら
 #いつも、ああやって報告するんだよ
-When you come back from your travels, or if something
-happy happens,
-you always report it to me just like that.
+Whenever she comes back from a trip,
+or something good happens to her,
+she always reports it to him like that.
 -----------------------
 <Kyle>
 -----------------------
@@ -1324,40 +1315,40 @@ I see...
 #あぁ、ごめんね
 #ここに来ると
 #つい長くなっちまってね
-Oh, sorry about that.
+Ah, sorry about that.
 When I come here,
 I tend to go on a bit.
 -----------------------
 <Reala>
 -----------------------
 #弟さんの････お墓だって聞いたけど
-I heard you have your brother's grave.
+I heard... that it's your brother's grave.
 -----------------------
 <Nanaly>
 -----------------------
 #あぁ、そうだよ
 #あたしが、ちっちゃいころ
 #病気で死んじまってね
-Oh right, that's it.
+Yeah, that's right.
 When I was little,
-She died from an illness.
+he died of an illness.
 -----------------------
 <Kyle>
 -----------------------
 #治せなかったの？
-You couldn't heal it?
+You couldn't heal him?
 -----------------------
 <Nanaly>
 -----------------------
 #普通の方法じゃあね
-With normal methods, no.
+Not by normal means, no.
 -----------------------
 <Kyle>
 -----------------------
 #普通の方法って････
 #普通じゃない方法なんて、あるの？
-"The usual way..."
-"Is there such a thing as an unusual way?"
+"Normal means"...
+You mean there's an abnormal way?
 -----------------------
 <Reala>
 -----------------------
@@ -1365,15 +1356,15 @@ With normal methods, no.
 #フォルトゥナ神団に帰依すれば
 #奇跡の力で、治してもらえるはずよ
 ...There is.
-If you devote yourself to the Fortuna Church,
-you should be healed by the power of miracles.
+If you devote yourself to the Sacred Order of Fortuna,
+their miraculous power could have healed him.
 -----------------------
 <Nanaly>
 -----------------------
 #でも、あたしもルーも
 #それは選ばなかったんだよ
-But, whether it's me or Rutee...
-We didn't choose that path.
+But neither Rue nor I
+chose that path.
 -----------------------
 <Reala>
 -----------------------
@@ -1381,16 +1372,16 @@ We didn't choose that path.
 #フォルトゥナ神の力を使えば
 #どんなことだって････
 Why?
-If we use the power of Fortuna God,
-We can do anything...
+With Fortuna's power,
+you could do anything...
 -----------------------
 <Nanaly>
 -----------------------
 #でも、その代わりに
 #一生をアイグレッテで
 #過ごさなきゃいけない
-But in return,
-I have to spend my whole life in Aigrette
+But in exchange,
+you'd have to spend your entire life in Aigrette
 and never leave.
 -----------------------
 <Nanaly>
@@ -1398,34 +1389,34 @@ and never leave.
 #安全で清潔だけど････
 #生きてるって実感が、わかない場所でね
 It's safe and clean, but...
-In a place where I don't really feel alive.
+it's a place where you never really feel alive.
 -----------------------
 <Reala>
 -----------------------
 #それは････
-It's...
+That's...
 -----------------------
 <Nanaly>
 -----------------------
 #だから、あたしはルーといっしょに
 #ここに来たんだ
 That's why I came here with Rue.
-I came here.
+That's why we're here.
 -----------------------
 <Nanaly>
 -----------------------
 #死ぬまでの間････短かい時間だったけど
 #あの子はいつも笑顔だった
 #村のみんなも、ホントによくしてくれた
-It was a short time until I died...
-That girl always had a smile on her face.
-Everyone in the village really took good care of me.
+It was a short time until he died...
+but he was always smiling.
+And everyone in the village was so good to us.
 -----------------------
 <Nanaly>
 -----------------------
 #だから、あたしは後悔してないし
 #この村を誇りに思ってる
-I don't regret it.
+So I don't regret it.
 I'm proud of this village.
 -----------------------
 <Loni>
@@ -1435,14 +1426,14 @@ I'm proud of this village.
 #雑貨屋でなんか飲んでいかねえか？
 Man, I'm parched.
 Hey, before we eat...
-You wanna grab something to drink at the general store?
+wanna grab something to drink at the general store?
 -----------------------
 <Loni>
 -----------------------
 #結局、おたがいの報告も
 #まだ済ませてないんだしよ
-We still haven't finished reporting to each other,
-have we?
+We still haven't filled each other in,
+after all.
 -----------------------
 <Nanaly>
 -----------------------
@@ -1457,85 +1448,84 @@ Well then, let's head to the row houses.
 #ハラに入れておいたほうが
 #いいかもな
 While we're at it,
-I think it'd be wise to
-keep that in mind.
+might be smart to
+get a little something in our stomachs.
 -----------------------
 <Loni>
 -----------------------
 #こいつの出すものが
 #食えたもんじゃなかったら
 #晩メシ食いっぱぐれるわけだし
-What this thing produces
-If it's not edible
-We'd miss dinner
+If whatever this place serves
+isn't fit to eat,
+we'll end up missing dinner entirely.
 -----------------------
 <Nanaly>
 -----------------------
 #別にかまわないよ、あんたヌキで
 #<Kyle>たちと楽しく
 #メシにするからさ！
-It doesn't matter! I'll skip you!
-Having fun with <Kyle> and all
-I'm gonna eat them up!
+It doesn't matter! I'll eat without you!
+I'll have a great meal with <Kyle> and the others!
 -----------------------
 <Kyle>
 -----------------------
 #もう、<Loni>ったら
 #ワガママなんだから～
-I'm telling you, <Loni>, ...
-So selfish~
+Honestly, <Loni>...
+You're so selfish~
 -----------------------
 <Judas>
 -----------------------
 #････まったく、わざとらしい
-......Honestly, that was so obvious.
+...How transparent.
 -----------------------
 <Kyle>
 -----------------------
 #えっ？
-What?
+Huh?
 -----------------------
 <Judas>
 -----------------------
 #気を使ったんだろう
 #<Reala>と、<Nanaly>に
 You were being considerate.
-With <Reala> and <Nanaly>,
+Of <Reala> and <Nanaly>.
 -----------------------
 <Reala>
 -----------------------
 #あ････
-A...
+Ah...
 -----------------------
 notice
 -----------------------
 #<Loni>は
 #称号「<item:00000831>」を得ました
-<Loni> is
-You've earned the title "<item:00000831>."
+<Loni>
+earned the title "<item:00000831>"!
 -----------------------
 notice
 -----------------------
 #<Judas>は
 #称号「<item:00000832>」を得ました
-<Judas> is
-Gained the title '<item:00000832>.'
+<Judas>
+earned the title "<item:00000832>"!
 -----------------------
 <Kyle>
 -----------------------
 #ここは････ホープタウンだ
 #ってことは････
 This is... Hope Town.
-So that means...
+Which means...
 -----------------------
 <Loni>
 -----------------------
 #<Nanaly>の記憶ってことになるな
 #それじゃ、まずは
 #あいつを探そうぜ
-It means we're dealing with <Nanaly>'s memories.
+We're in <Nanaly>'s memories.
 In that case, first off,
-Let's go find that guy.
+let's go find that guy.
 -----------------------
 <Nanaly>
 -----------------------
@@ -1543,15 +1533,15 @@ Let's go find that guy.
 #ちょうどよかった
 #ね、あたしにつきあってよ！
 Isn't that <Kyle>!
-Just in time.
+Perfect timing.
 Hey, come hang out with me!
 -----------------------
 <Kyle>
 -----------------------
 #え？　つきあうって････
 #なにかあったの？
-Huh? You mean... go out with me?
-Is something wrong?
+Huh? Hang out?
+Did something happen?
 -----------------------
 <Nanaly>
 -----------------------
@@ -1559,17 +1549,17 @@ Is something wrong?
 #食い物があまっちゃって
 #しょうがないんだよ
 Well, we've had an unusually bountiful harvest lately.
-There's just so much food that it's piling up,
-so there's nothing else we can do about it.
+There's so much food it's piling up.
+Nothing we can do about it.
 -----------------------
 <Nanaly>
 -----------------------
 #村中で食べてるんだけど
 #それでも、おっつかないんだ
 #<Kyle>たちも、協力してよ
-Eatin' up all over the village!
-But it's still not enough!
-<Kyle> and the others, help out too.
+The whole village is eating,
+but we still can't keep up.
+<Kyle>, you guys gotta help out too!
 -----------------------
 <Kyle>
 -----------------------
@@ -1578,15 +1568,15 @@ But it's still not enough!
 #そんなに物が取れないんでしょ？
 Huh, that's rare.
 Around Hope Town,
-isn't it hard to find items there?
+it's hard to find much of anything, right?
 -----------------------
 <Reala>
 -----------------------
 <Kyle>
 #これは、<Nanaly>の
 #夢の中だから････
-This is within <Nanaly>'s...
-It's inside a dream...
+This is <Nanaly>'s dream,
+so...
 -----------------------
 <Kyle>
 -----------------------
@@ -1598,9 +1588,9 @@ Oh, right...
 #ふたりして、な～に
 #コソコソ話してるんだい？
 #まったく、あやしいねぇ！
-What are you two up to?
-Whispering away in secret?
-Really suspicious, aren't you?
+What are you two up to,
+whispering away in secret?
+Really suspicious, aren't you!
 -----------------------
 <Kyle>
 -----------------------
@@ -1612,29 +1602,29 @@ Oh, no, hahaha...
 #しかし、そんなに
 #食い物が余ってるんなら
 #今ごろ、墓の前は大変なんだろうな
-But if it's that much...
-If there's so much food left over,
-I guess the graveside would be pretty busy right about now.
+But if there's that much food to spare,
+I bet the area around the grave
+is pretty busy right about now.
 -----------------------
 <Nanaly>
 -----------------------
 #墓････？
-Tomb...?
+The grave...?
 -----------------------
 <Loni>
 -----------------------
 #なにボケてんだよ
 #おまえ、いつも食い物が取れたら
 #弟の墓にお供えしてただろ？
-What's wrong, spaced out?
-You always,
-bring offerings to your brother's grave, right?
+What's with that blank stare?
+Whenever you got food,
+you'd always bring offerings to your brother's grave, right?
 -----------------------
 <Nanaly>
 -----------------------
 #なにいってんだい<Loni>
 #ルーは････
-What are you talking about, ?<Loni>
+What are you talking about, <Loni>?
 Rue is...
 -----------------------
 #ルー
@@ -1653,9 +1643,9 @@ Big Sis <Nanaly>~!
 #その子って････
 #やだねぇ、そんな他人行儀に
 #いつもみたいに「ルー」って呼びなよ
-That kid...
-No way, being so formal.
-Just call me 'Rue' like always.
+That girl...?
+Come on, don't be so formal.
+Just call me "Rue" like always.
 -----------------------
 <Nanaly>
 -----------------------
@@ -1681,41 +1671,41 @@ Dinner's ready! Dinner's ready!
 -----------------------
 #ああ、悪い悪い
 #さ、行こうよ、みんな
-Ah, sorry, sorry
-Come on, let's go everyone
+Ah, sorry, sorry.
+Come on, let's go, everyone.
 -----------------------
 <Loni>
 -----------------------
 #････<Reala>
 #あいつ、本当に････
-......[L1C1]<Reala>
-He really is...
+...<Reala>.
+She really has...
 -----------------------
 <Reala>
 -----------------------
 #ええ、忘れているんだわ
 #弟さんが
 #もう死んでるってこと････
-I see, you've forgotten.
-My younger brother...
-He's already dead...
+Yes. She's forgotten.
+That her younger brother...
+is already dead...
 -----------------------
 <Loni>
 -----------------------
 #････チッ！
-Tch!
+...Tch!
 -----------------------
 <Nanaly>
 -----------------------
 #ほーら！
 #早く来るの！
-Hoora!
-Hurry up and come here!
+Come on!
+Hurry up and get over here!
 -----------------------
 <Kyle>
 -----------------------
 #あ、あぁ、ごめん！
-Oh, ah, sorry!
+O-oh, sorry!
 -----------------------
 <Reala>
 -----------------------
@@ -1735,15 +1725,15 @@ I get nauseous...
 Rue
 -----------------------
 #････こっち、ヤダ････
-...I don't want to go that way...
+...I don't wanna go that way...
 -----------------------
 <Nanaly>
 -----------------------
 #････ほら、ルーも
 #こう言ってるしさ、戻ろう！
 #こっちには、墓しかないし････
-...See, even Rue...
-is saying we should head back!
+...See, even Rue's
+saying we should head back!
 There's nothing but graves over here...
 -----------------------
 <Loni>
@@ -1755,8 +1745,8 @@ There's nothing but graves over here...
 -----------------------
 #ちょ、ちょっと<Loni>！
 #はなしてってば！
-H-Hey, wait! <Loni>!
-I told you to let go!
+H-Hey, <Loni>!
+Let go of me already!
 -----------------------
 #ルー
 Rue
@@ -1775,15 +1765,15 @@ Sis! Sis!
 #なんかさ、胸がしめつけられて
 #苦しくってさ････
 I hate it here...
-It feels like my chest is being squeezed tight,
-so suffocating...
+My chest feels so tight,
+like I can't breathe...
 -----------------------
 <Nanaly>
 -----------------------
 #だからさ、早く行こうよ
 #こんなところに、用なんか････
-Come on, let's get going.
-What could we possibly need here...?
+So come on, let's go.
+There's no reason for us to be here...
 -----------------------
 <Loni>
 -----------------------
@@ -1794,64 +1784,64 @@ What could we possibly need here...?
 -----------------------
 #････いいか、よく聞け
 #そこにいるルーは････ニセモノだ！
-Listen up, and listen well.
-The Rue over there... she's a fake!
+...Listen up, and listen well.
+The Rue over there... is a fake!
 -----------------------
 <Nanaly>
 -----------------------
 #ニセモノ････って････
-Fake...?
+A fake...?
 -----------------------
 <Nanaly>
 -----------------------
 #なに言ってるんだい、<Loni>！
 #まったく、冗談ばっかり････
 What are you talking about, <Loni>!
-Seriously, all you ever do is joke around...
+Sheesh, you're always joking around...
 -----------------------
 <Loni>
 -----------------------
 #これが、冗談を言ってる顔に見えるのか!?
 #ルーは死んだんだよ、病気でな！
-Does that look like I'm joking to you!?
-Lue is dead! She died from an illness!
+Does this look like I'm joking to you!?
+Rue is dead! He died of an illness!
 -----------------------
 <Nanaly>
 -----------------------
 #そんな････だってルーは
 #こんなに元気に････
-That's because Rue...
-Is so full of life...
+That's not true... Rue is
+so full of life...
 -----------------------
 <Nanaly>
 -----------------------
 #････うっ！
-Ugh!
+...Ngh!
 -----------------------
 <Nanaly>
 -----------------------
 #頭････痛い････
 #････なんで････くっ！
-My head... it hurts...
-...Why... Ugh!
+My head... hurts...
+...Why... Ngh!
 -----------------------
 <Loni>
 -----------------------
 #おまえは、こうも言ってたよ
 #ルーは、自分のワガママで
 #殺したようなもんだって
-You even said that yourself.
-Rue was so selfish,
-that it was as if she'd killed him.
+You even said it yourself.
+That Rue died because
+of your selfishness.
 -----------------------
 <Loni>
 -----------------------
 #フォルトゥナの連中に頭下げて
 #薬もらってれば、ルーは
 #死なずに済んだかもって
-Swear allegiance to Fortuna's crew
-If they'd given him medicine, Rou
-might have survived.
+That if you'd bowed your head to Fortuna's people
+and gotten the medicine, Rue
+might not have had to die.
 -----------------------
 #ルー
 Rue
@@ -1866,7 +1856,7 @@ What is she saying?
 #ルー････
 #････うあっ！
 Rue...
-...Ah!
+...Ahh!
 -----------------------
 <Kyle>
 -----------------------
@@ -1887,17 +1877,17 @@ But!
 -----------------------
 #････<Loni>を
 #信じてあげて
-I'll believe in <Loni>.
-Trust me.
+...Believe in <Loni>.
+Please.
 -----------------------
 <Loni>
 -----------------------
 #おまえが後悔してたのも････
 #それこそ、死にたくなるほど
 #後悔してたのも、知ってる
-I knew you were regretting it...
-That's how much I wanted to die.
-And I knew about your regrets too.
+I know you regretted it...
+Regretted it so much
+you wanted to die.
 -----------------------
 <Loni>
 -----------------------
@@ -1913,17 +1903,17 @@ Rue
 #ボク、生きてるよ!?
 #死んでなんかないよ!?
 Big Sis <Nanaly>!
-I'm still alive, you know!?
-I haven't died yet!?
+I'm alive, okay!?
+I haven't died, okay!?
 -----------------------
 <Nanaly>
 -----------------------
 #････ルー････････
 #････････そうだ････よ････
 #ルーは、死んで････なんか････
-...Rue...
-...That's right... yes...
-Rue is dead... something...
+...Rue......
+......That's right... yes...
+Rue is... dead... there's no...
 -----------------------
 <Loni>
 -----------------------
@@ -1944,35 +1934,35 @@ Is that really the happiness you wanted?!
 #そうじゃねえだろうが！
 #ルーといっしょに、精一杯生きたことが
 #おまえの幸せなんだろうが！
-That's not how it is!
-The fact that I lived my best life alongside Rue
-is what makes you happy, isn't it!
+That's not it!
+Living your hardest alongside Rue
+is what made you happy, isn't it!
 -----------------------
 #ルー
-Rune
+Rue
 -----------------------
 #<Nanaly>姉ちゃん！
 #ボク、死んでなんかないよ!!
 Big Sis <Nanaly>!
-I'm not dead yet, okay?!
+I'm not dead, okay!!
 -----------------------
 <Loni>
 -----------------------
 #そうやって、ルーといっしょに生きて
 #手に入れたものが
 #山ほどあるだろうが！
-Living alongside Rude like that,
-The things you've gained
-Must be countless!
+You lived like that with Rue,
+and the things you gained
+must be countless!
 -----------------------
 <Loni>
 -----------------------
 #命ってもんの大事さも
 #大好きなやつを守ろうとする意志も
 #全部、ルーからもらったんだろうが！
-The value of life itself,
-and the will to protect what you love--
-It's all thanks to Rutee!
+The preciousness of life itself,
+and the will to protect those you love...
+You got all of that from Rue, didn't you!
 -----------------------
 #ルー
 Rue
@@ -2001,7 +1991,7 @@ Your true happiness!!
 #「ルー、ここに眠る」
 #･････
 #････････
-Rue, resting here...
+"Here lies Rue"
 ...
 ......
 -----------------------
@@ -2027,39 +2017,39 @@ Big Sis <Nanaly>...?
 <Nanaly>
 -----------------------
 #････姉ちゃん、バカだった････
-...Sis, you're an idiot...
+...Sis, I was such an idiot...
 -----------------------
 <Nanaly>
 -----------------------
 #あんたを死なせちまって
 #ずっと後悔してた････
 I let you die,
-I've been regretting it ever since...
+and I've regretted it ever since...
 -----------------------
 <Nanaly>
 -----------------------
 #頭のスミでいつも
 #ルーが、生きてればとか
 #そんなことばっか、考えてた････
-Deep in my mind, I was always...
-Wondering if Rue was still alive...
-That's all I kept thinking about...
+Deep in the back of my mind, I was always...
+wondering if Rue was still alive...
+That's all I ever thought about...
 -----------------------
 <Nanaly>
 -----------------------
 #あげくに、こんな････
 #こんな夢見させられて
 #満足････して････
-In the end, it was just like this...
-To make me dream such dreams,
-Satisfied... enough...
+And in the end...
+I let them make me dream like this...
+And I was... satisfied...
 -----------------------
 <Nanaly>
 -----------------------
 #あんたと････生きてた時間････
 #全部、忘れちまってた････
-You... lived all that time...
-I forgot it all...
+The time I spent... living with you...
+I forgot all of it...
 -----------------------
 #ルー
 Rue
@@ -2072,9 +2062,9 @@ Sis, I...
 #でも、それも････おしまい
 #････････姉ちゃん、やっと
 #全部、思い出せたから････だから････
-It's all over...
-Sis... finally.
-I've remembered everything... so...
+But that's... over now too...
+......Sis, I finally...
+remembered everything... so...
 -----------------------
 <Nanaly>
 -----------------------
@@ -2091,19 +2081,19 @@ Bye-bye, Rue...!
 #････<Loni>････
 #あた････し････あたし！
 ......<Loni>......
-I... am me! I'm the one!
+I... am... me!
 -----------------------
 <Nanaly>
 -----------------------
 #････！
-...
+...!
 -----------------------
 <Loni>
 -----------------------
 #････いいから、泣け
 #顔、隠しといてやるから
-...Just do it, cry.
-I'll let you keep your face hidden.
+...Go ahead and cry.
+I'll keep your face hidden.
 -----------------------
 <Nanaly>
 -----------------------
@@ -2114,19 +2104,19 @@ I'll let you keep your face hidden.
 -----------------------
 #うっ････うあっ････！
 #････うああぁぁぁっ！
-Hnn... Ahh...
-...Uaaaaah!
+Ngh... Nngh...!
+...Uuaaaaaah!
 -----------------------
 <Loni>
 -----------------------
 #････辛かったな
-It was tough.
+...That was rough.
 -----------------------
 <Loni>
 -----------------------
 #でも、これで････よかったんだ
 #そうだろ？
-I guess that's fine.
+But this is... for the best.
 Right?
 -----------------------
 <Nanaly>
@@ -2146,30 +2136,30 @@ grave is here.
 #ほら、そんなことより
 #あの二人に元気な顔を見せてやるのが
 #先だろ？
-Forget about that for now.
-We should focus on showing those two our cheerful faces first,
-isn't that right?
+Come on, forget about that.
+The first thing we gotta do is show those two our cheerful faces,
+right?
 -----------------------
 <Kyle>
 -----------------------
 #これが<Nanaly>の弟の････
-This is my brother's... <Nanaly>
+This is <Nanaly>'s little brother's...
 -----------------------
 <Loni>
 -----------------------
 #ほれ、<Kyle>
 #さっさとメシ食わせてもらいにいくぞ
-Come on, .<Kyle>
-I'm heading out to get some food.
+Come on, <Kyle>.
+Let's go get some grub.
 -----------------------
 <Judas>
 -----------------------
 #まあ、たしかに
 #あんまりジロジロ
 #見るようなものではないな
-Well, I suppose you're right.
-You don't just stare at them.
-It's not something you should be looking at so closely.
+Well, certainly.
+It's not something
+you should be staring at so intently.
 -----------------------
 <Nanaly>
 -----------------------
@@ -2177,46 +2167,45 @@ It's not something you should be looking at so closely.
 #ちょっと出かけてくるから
 #いい子にしてるんだよ
 Well then, see you later.
-I'm going out for a bit.
-Be good.
+I'm heading out for a bit,
+so be good.
 -----------------------
 <Nanaly>
 -----------------------
 #ごめんね
 #長い間、留守にしちまって････
-I'm sorry.
-I've been gone for so long...
+Sorry.
+I've been away so long...
 -----------------------
 <Nanaly>
 -----------------------
 #････ていっても、こっちの世界では
 #そんなに時間は流れてないんだっけ････
-...Even so, in this world,
-hasn't that much time passed...?
+...Though I guess in this world,
+not that much time has passed...
 -----------------------
 <Nanaly>
 -----------------------
 #また、ちょっと留守にするけど
 #いい子で待ってられるよね？
-I'll also be away for a bit.
-You'll wait for me like a good kid, right?
+I'll be away for a bit again,
+but you'll wait for me like a good kid, right?
 -----------------------
 <Nanaly>
 -----------------------
 #ミヤゲ話は、今度帰ったときに
 #まとめてするよ
-I'll catch you up on all the souvenirs when I get back.
-in one go.
+I'll tell you all about my souvenirs
+when I get back.
 -----------------------
 <Nanaly>
 -----------------------
 #話したいことが
 #山ほどあるんだ････
-I have so much I want to tell you
-that I don't even know where to start...
+There's so much I want to tell you...
 -----------------------
 #お墓だ････誰のお墓だろうか
-It's a grave... Whose grave could it be?
+It's a grave... I wonder whose it is.
 -----------------------
 <char:000003E8>
 -----------------------
@@ -2239,40 +2228,40 @@ It's best not to go outside right now...
 #また、ほかの街でナンパとか
 #してきたんだろ！
 <Loni>!
-Like hitting on girls in some other town,
-You went ahead and did that, didn't you!
+You went off hitting on girls in some other town again,
+didn't you!
 -----------------------
 <Loni>
 -----------------------
 #もてる男はツライってね♪
 #うぉっ！
 #弓を向けるな<Nanaly>!!
-A guy who's good with women has it tough, they say ♪
+Being popular is such a burden, they say ♪
 Woah!
-Don't aim that bow at me <Nanaly>!!
+Don't aim that bow at me, <Nanaly>!!
 -----------------------
 #カルバレイス地方独特の装飾が施された陶器だ
-It's pottery adorned with decorations unique to the Calvaris region.
+It's pottery decorated with ornaments unique to the Calvalese region.
 -----------------------
 #枯れた土地に、わずかな野菜が実っている
 #カルバレイスの厳しい気候の下では
 #まともな農業は出来ないのだろう
-A few vegetables are growing in the barren land.
-Under Calvary's harsh climate,
-I suppose proper farming isn't possible.
+A few vegetables are growing in the parched land.
+Under Calvalese's harsh climate,
+proper farming probably isn't possible.
 -----------------------
 #清らかな水をたたえた井戸だ
-It's a well filled with clear water.
+It's a well filled with pure water.
 -----------------------
 #雑貨が並んでいる
 #････さすがに貧しいホープタウンから
 #物を持っていくのは気が引ける
-Goods are lined up.
-...Even from Hope Town, which is so poor,
-I feel hesitant to take things.
+Goods are lined up here.
+...I feel bad about taking things from Hope Town,
+poor as it is.
 -----------------------
 #ツボの中にはヘビがいる
-There's a snake in the jar.
+There's a snake inside the jar.
 -----------------------
 #女の子
 Girl
@@ -2281,7 +2270,7 @@ Girl
 #あの････そこの仮面をかぶった人
 #････暑くないですか？
 It's hot again today...
-Um... that person wearing a mask over there.
+Um... that person wearing a mask over there...
 ...Isn't it hot?
 -----------------------
 <Judas>
@@ -2294,8 +2283,8 @@ Girl
 -----------------------
 #ルーくん、すっかりよくなったみたい！
 #よかったぁ！
-Roo-kun seems to have made a full recovery!
-That's a relief!
+Roo-kun looks like he's made a full recovery!
+That's wonderful!
 -----------------------
 #女の子
 Girl
@@ -2310,8 +2299,8 @@ Boy
 #思いっきり汗をかいて、そのあとで
 #水をキューッと飲むのが最高さ！
 I absolutely love working!
-Sweating it out to my heart's content,
-and then chugging down some water is just the best!
+Sweating with all I've got, and then
+chugging down some water is the best!
 -----------------------
 #男の子
 Boy
@@ -2319,8 +2308,8 @@ Boy
 #<Nanaly>ちゃんって
 #かわいくて、やさしくて、いいよなぁ････
 #<Nanaly>ちゃんをおよめさんにしたいなぁ
-You know, <Nanaly>,
-She's cute, kind-hearted... really nice.
+You know, <Nanaly>...
+She's cute, kind, and just wonderful...
 I wanna make <Nanaly> my wife.
 -----------------------
 #男の子
@@ -2329,9 +2318,8 @@ Boy
 #なんとか<Nanaly>ちゃんの
 #力になりたいんだけど
 #俺、なんにもできないよ････
-I'll try my best to help <Nanaly>.
-I want to be of some use.
-But I can't do anything...
+I wanna help <Nanaly> somehow,
+but I can't do a thing...
 -----------------------
 #女の子
 Girl
@@ -2340,20 +2328,20 @@ Girl
 #水がないところでは
 #動物も植物も生きていけないのよね
 Water is the source of life...
-In places without water,
-neither animals nor plants can survive.
+Without it, neither animals
+nor plants can survive.
 -----------------------
 #女の子
 Girl
 -----------------------
 #あたし、お医者さんになりたいな
-I want to become a doctor.
+I wanna be a doctor someday.
 -----------------------
 #女の子
 Girl
 -----------------------
 #どうすればいいのかな････
-What should I do...?
+What am I supposed to do...?
 -----------------------
 #男の子
 Boy
@@ -2362,10 +2350,10 @@ Boy
 #ちょっと、おせっかいだよ！
 #僕は、もっと「個」というものを
 #大切にしたいんだ
-The people here are kind,
-but they're a bit too meddlesome!
-I want to value my individuality even more.
-I really cherish who I am.
+The folks here are kind,
+but a little too nosy for my taste!
+I want to value my individuality more.
+I want to be my own person.
 -----------------------
 #男の子
 Boy
@@ -2373,17 +2361,17 @@ Boy
 #僕が病気になったときも
 #みんなは、心配してくれるのかな････
 #助けてくれるのかな････
-Even when I got sick,
-I wonder if everyone will worry about me...
-I wonder if they'll come to help me...
+If I got sick,
+would everyone worry about me...?
+Would they come help me...?
 -----------------------
 #男の子
 Boy
 -----------------------
 #よそから来た子が、病気で寝込んでいるよ
 #ちょっと、いやだなぁ････うつらないよね？
-A kid from out of town is bedridden with an illness.
-Ugh, I don't want to get it... I won't catch it, right?
+Some kid from out of town's bedridden with an illness.
+Ugh, that's gross... I'm not gonna catch it, right?
 -----------------------
 #男の子
 Boy
@@ -2391,9 +2379,8 @@ Boy
 #ここでは、みんな
 #協力して暮らしてるんだ
 #喜びも苦労もわけあってるんだよ
-Here, everyone
-lives together in cooperation.
-We share both our joys and hardships.
+Here, everyone works together to get by.
+We share the joys and the hardships alike.
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -2410,8 +2397,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -2434,7 +2421,7 @@ exit-party_togather( short spd )
 notice
 -----------------------
 #{16}{27}{26}{C0}を手に入れました
-{16}{27}{26}{C0}You obtained .
+Acquired {16}{27}{26}{C0}.
 -----------------------
 notice
 -----------------------
@@ -2445,8 +2432,8 @@ notice
 -----------------------
 #{16}{27}{2E}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{27}{2E}{C0}There was , but
-I couldn't hold it all.
+Found {16}{27}{2E}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------
@@ -2454,27 +2441,26 @@ notice
 There's nothing here.
 -----------------------
 #<item:00000012>屋
-<item:00000012>-ya
+<item:00000012> Shop
 -----------------------
 #こちらでは<item:00000012>の
 #販売を行っています
-Here is <item:00000012>'s
-We're handling sales.
+We sell <item:00000012> here.
 -----------------------
 #<item:00000012>を使ってリファインすると
 #ステキな物が作られることがあるようです
-<item:00000012>If you refine using ,
-it seems wonderful items can sometimes be created.
+Refine with <item:00000012>, and
+you might just create something wonderful.
 -----------------------
 #武器や鎧をリファインすると
 #付加能力が引継がれることがあるようです
-When you refine weapons and armor,
-It seems that some added abilities may carry over.
+Refine weapons and armor,
+and you may inherit their added abilities.
 -----------------------
 #ひと瓶<0B:00000001>{14}{37}{38}{C0}<0B:00000000>ガルドになりますが、
 #<item:00000012>を買いますか？
-One bottle will cost you <0B:00000001>{14}{37}{38}{C0}<0B:00000000> gald.
-<item:00000012>Do you want to buy ?
+One bottle costs <0B:00000001>{14}{37}{38}{C0}<0B:00000000> gald.
+Would you like to buy <item:00000012>?
 -----------------------
 select
 -----------------------
@@ -2482,8 +2468,8 @@ select
 #　<0B:00000001>{14}{27}{42}{C0}本まとめて買う（{14}{37}{3C}{C0}ガルド）<0B:00000000>　
 #　リファイン講座　
 #　いらない　
-<03:00000000>Buy
-<0B:00000001>{14}{27}{42}{C0}Buy all at once ({14}{37}{3C}{C0} Gald)<0B:00000000>
+<03:00000000> Buy
+<0B:00000001>{14}{27}{42}{C0} Buy all at once ({14}{37}{3C}{C0} Gald)<0B:00000000>
 Refine Guide
 No thanks
 -----------------------
@@ -2492,8 +2478,8 @@ select
 #<03:00000000>　買う　
 #　リファイン講座　
 #　いらない　
-<03:00000000>Buy
-Refine Course
+<03:00000000> Buy
+Refine Guide
 No thanks
 -----------------------
 #お買い上げ、ありがとうございます
@@ -2504,18 +2490,17 @@ Thank you for your purchase.
 -----------------------
 #<item:00000012>はひと瓶
 #<0B:00000001>{14}{37}{38}{C0}<0B:00000000>ガルドです
-<item:00000012>One bottle's worth.
-<0B:00000001>{14}{37}{38}{C0}<0B:00000000>That's  Gald.
+<item:00000012> is <0B:00000001>{14}{37}{38}{C0}<0B:00000000> gald per bottle.
 -----------------------
 #リファイン講座を聞きたいですか？
-Do you want to hear about Refine?
+Would you like to hear about Refining?
 -----------------------
 select
 -----------------------
 #<03:00000000>　聞きたい　
 #　聞きたくない　
-<03:00000000>I want to ask
-I don't want to ask
+<03:00000000> Yes, please
+No thanks
 -----------------------
 #何について知りたいですか？
 What would you like to know?
@@ -2526,7 +2511,7 @@ select
 #　５、装飾品のリファイン　
 #　６、リファインできない装備品について　
 #　前のページ　
-<03:00000000>4. About Slots
+<03:00000000> 4. About Slots
 5. Refining Accessories
 6. Equipment That Cannot Be Refined
 Previous Page
@@ -2537,7 +2522,7 @@ select
 #　２、アイテムの変化　　　　　　　　　　
 #　３、装備品の合成　
 #　次のページ　
-<03:00000000>1. What is Refining?
+<03:00000000> 1. What is Refining?
 2. Item Transformations
 3. Equipment Synthesis
 Next Page
@@ -2545,192 +2530,187 @@ Next Page
 #リファインとは、選択したアイテムを
 #別なアイテムに変化させたり
 #武器や防具を合成することのできるコマンドです
-What Refine is, is selecting items to
-transform them into different ones,
-or combining weapons and armor.
+Refining lets you transform selected items
+into different ones, or synthesize
+weapons and armor.
 -----------------------
 #リファインを行うのに必要なのは
 #<item:00000012>とレンズです
-What's needed to perform Refine is
-<item:00000012>and lenses.
+To perform Refining, you'll need
+<item:00000012> and Lens.
 -----------------------
 #<item:00000012>は、各地にいる
 #私たちルーンボトル屋からお求めください
-<item:00000012>can be found in various locations,
-Please purchase them from our Rune Bottle shop.
+You can purchase <item:00000012> from us Rune Bottle merchants
+found in various locations.
 -----------------------
 #レンズはモンスターと
 #戦えば拾うことができます
-The lens can be found from monsters
-if you fight them
+You can obtain Lens by fighting monsters.
 -----------------------
 #これを機会に、あなたも
 #どんどんリファインを行ってください
-With this opportunity, you too
-go ahead and refine as much as possible
+Take this opportunity to refine
+to your heart's content.
 -----------------------
 #アイテムの変化とは、アイテム単体に
 #リファインを行うことによって
 #別なアイテムに変化させることです
-Item changes refer to individual items
-by performing Refine on them
-transforming them into different items
+"Item transformation" means using Refine
+on a single item to change it
+into a different item.
 -----------------------
 #例えば、<item:00000001>にリファインを行うと
 #<item:00000002>に変化し
 #逆に、<item:00000002>にリファインを行うと
 #<item:00000001>に変化します
 For example, if you refine <item:00000001>,
-<item:00000002>it transforms into .
+it transforms into <item:00000002>.
 Conversely, if you refine <item:00000002>,
-<item:00000001>it changes into .
+it changes into <item:00000001>.
 -----------------------
 #また、装備品単体をリファインすることによって
 #<item:00000001>などのアイテムにも変化します
-You can also refine individual equipment pieces to
-<item:00000001>transform items such as .
+You can also refine individual pieces of equipment
+to transform them into items such as <item:00000001>.
 -----------------------
 #ダンジョンなどでアイテムが尽きてしまった時などに
 #行うと、有効な場合もあります
 #もちろん、最初からきちんと準備をしておくほうが
 #賢いといえますが････
-When you run out of items in dungeons or other areas,
-this method can sometimes come in handy.
-Of course, it's wiser to prepare properly from the start,
-but...
+This can be useful when you run out of items
+in dungeons or other areas.
+Of course, it's wiser to prepare properly
+from the start, but...
 -----------------------
 #リファインの一番の特徴は
 #やはり、装備品の合成です
-The defining feature of Refine is
-the synthesis of equipment.
+The defining feature of Refining, however,
+is equipment synthesis.
 -----------------------
 #装備品を合成すると
 #お気に入りの装備品に
 #お気に入りのスロットが付いた
 #装備品を作ることができます････
 When you synthesize equipment,
-you can create your favorite gear
-with a preferred slot attached.
-You can craft equipment...
+you can create gear with your preferred slot
+attached to your favorite equipment...
 -----------------------
 #ああ、まずはスロットの説明を
 #しなければいけませんね
-Ah, first I need to explain how the slots work
-before we can proceed.
+Ah, but first I need to explain
+how slots work.
 -----------------------
 #スロットとは、装備品に
 #付けることができる
 #付加能力のようなものです
-Slots are items you equip
-to your gear that
-grant additional abilities.
+Slots are essentially additional abilities
+that can be attached to equipment.
 -----------------------
 #スロットについては、また別に
 #詳しく説明させていただきます
-As for the slots,
-we'll explain in detail later.
+We'll explain slots in more detail
+in a separate section.
 -----------------------
 #いちばん簡単な装備品のリファインは
 #スロットが一つついた装備品どうしの
 #リファインです
-The simplest type of equipment Refine is
-between two pieces of equipment that each have
-one slot.
+The simplest form of equipment Refining
+is between two pieces of equipment
+that each have one slot.
 -----------------------
 #これを行うと、何とステキなことに
 #スロットが二つ付いた装備品ができます
-How wonderful it is to do this!
-You'll get equipment with two slots.
+When you do this, you'll get wonderful
+equipment with two slots!
 -----------------------
 #注意しなければいけないのは
 #剣は剣、鎧は鎧といったように
 #同じ種類の装備品でしか
 #リファインできません
 What you need to keep in mind is
-that swords are for swords, armor is for armor,
-you can only
+that swords go with swords, armor with armor, and so on.
+You can only
 Refine items of the same type.
 -----------------------
 #他にもいろいろな組み合わせがありますが
 #それはやってみてのお楽しみです
-There are plenty of other combinations as well.
-You'll have to try it out to find out.
+There are many other combinations as well,
+but you'll have to discover those for yourself.
 -----------------------
 #スロットについて
 #詳しく説明いたします
-About Slots
-I'll explain in detail.
+Now then, let me explain
+slots in detail.
 -----------------------
 #スロットは数多くの種類があり
 #アタック：攻撃力が上昇します
 #ディフェンス：防御力が上昇します
 #などが代表的なものです
-There are numerous types of slots available,
-Attack: Increases attack power.
-Defense: Increases defense power.
-among others.
+There are numerous types of slots.
+Attack: increases attack power.
+Defense: increases defense power.
+These are the most common examples.
 -----------------------
 #スロットによって装備品の名前も変わります
 #<item:00000078>　＋　アタックで
 #アタックソードなどです
-The name of equipped items also changes depending on the slot.
-<item:00000078>+ Attack
-It's things like the Attack Sword.
+The name of equipment also changes
+depending on its slot. <item:00000078> + Attack
+becomes something like an Attack Sword.
 -----------------------
 #また、スロットにはレベルがあり
 #レベルが高いと効果も上昇します
 #最高はレベル８です
 Additionally, slots have levels.
 Higher levels increase their effectiveness.
-The maximum level is eight.
+The maximum level is 8.
 -----------------------
 #スロット付きの装備品は
 #主にモンスターが落とします
-Equipment with slots is
-mainly dropped by monsters
+Equipment with slots
+is mainly dropped by monsters.
 -----------------------
 #モンスターとたくさん戦って
 #スロット付き装備品を手に入れて
 #あなただけのスロット付き装備品を
 #作ってみてください
-Battle against plenty of monsters
-Obtain equipment with slots
-Create your own unique slotted equipment
-Give it a try
+Fight plenty of monsters to obtain
+equipment with slots, and try creating
+your own unique slotted equipment.
 -----------------------
 #ここだけの話ですが、装飾品も
 #リファインすることができます
 #でも、それは装飾品どうしではありません
-Just between you and me, accessories can also
-be refined
-But that doesn't apply to combinations of accessories
+Just between you and me, accessories can
+also be refined. But not with other accessories.
 -----------------------
 #装飾品と、装備品のような
 #形でのみリファインが可能なのです
-Like accessories and equipment,
-Refining is only possible in that form.
+Accessories can only be refined
+with equipment in that manner.
 -----------------------
 #この場合の利点は、リファインする
 #装備品の場所によってスロットが
 #変化するということです
 #武器、防具によって違います
-This advantage in this case is that refining
-the slots change depending on where the equipment is placed.
-That's what it means.
-It varies depending on whether it's a weapon or armor.
+The advantage in this case is that
+the resulting slot changes depending on
+which equipment piece you refine.
+It differs for weapons and armor.
 -----------------------
 #また、装飾品は一つしか装備できないので
 #いらない装飾品を、リファインに活用すれば
 #非常に有効です
-You can also only equip one accessory at a time,
-so if you utilize unnecessary accessories for Refining,
-it's highly effective.
+Since you can only equip one accessory at a time,
+making use of spare accessories for Refining
+is highly effective.
 -----------------------
 #その他にも、外装つまり「マント」も
 #装飾品と同様に装備品とリファインできます
 #その場合はなんと、装備品に属性を
 #付加することができるのです
-Additionally, exterior components, specifically 'cloaks',
+Additionally, exterior components, specifically "cloaks",
 can also be refined just like accessories.
 In that case,
 you can even add attributes to your equipment.
@@ -2738,49 +2718,46 @@ you can even add attributes to your equipment.
 #装飾品とのリファインもうまく活用し
 #さらにステキなリファイン職人を
 #目指してみてください
-You can also make good use of refining accessories.
-We're looking for even more wonderful refinement artisans.
-So please aim to become one.
+Make good use of refining with accessories,
+and aim to become an even more wonderful
+Refining artisan.
 -----------------------
 #たまに、装備品の中に黄色い枠の
 #アイコンが付いたものがありますね
 #それは、ユニークアイテムと
 #呼ばれているものです
-Sometimes, among the equipment, those with yellow borders
-There are some with icons.
-It's about unique items and
-I'm being called.
+Sometimes you'll find equipment with
+a yellow-bordered icon.
+These are called unique items.
 -----------------------
 #ユニークアイテムは見た目にも
 #かっこよく、攻撃力も高く
 #スロットレベルも高いものが多いですが
 #スロットは一つしかありません
-Unique items look great,
-boast high attack power,
+Unique items look impressive, boast high attack power,
 and often have high slot levels,
 but they only have one slot.
 -----------------------
 #しかし、その反面、装飾品以外のユニークアイテムは
 #リファインすることができません
 #これ以上強化することができないのです
-However, on the other hand, unique items other than accessories
+However, unique items other than accessories
 cannot be refined.
-This means they cannot be upgraded any further.
+This means they cannot be strengthened any further.
 -----------------------
 #ですから、いらなくなったアイテムは
 #どんどん売ってしまうことをお勧めします
-So, if you have items you no longer need,
-I recommend selling them off as soon as possible.
+So I recommend selling off items
+you no longer need as soon as possible.
 -----------------------
 #なぜなら、アイテムをたくさん持っていると
 #モンスターがアイテムを
 #落としてくれなくなってしまうという
 #噂があるからです
 Because there's a rumor that if you carry too many items,
-monsters won't
-drop them anymore.
+monsters will stop dropping them.
 That's why.
 -----------------------
 #････アイテム整理も大切ですね
-Taking care of organizing items is important too.
+...Keeping your inventory organized is important too.
 -----------------------

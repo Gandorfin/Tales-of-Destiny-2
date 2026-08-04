@@ -1,94 +1,93 @@
 #未開の森
-Uncharted Forest
+Untamed Forest
 -----------------------
 #未開の森
-Uncharted Forest
+Untamed Forest
 -----------------------
 #未開の森
-Uncharted Forest
+Untamed Forest
 -----------------------
 #未開の森
-Uncharted Forest
+Untamed Forest
 -----------------------
 <Loni>
 -----------------------
 #おいおいおい････なんだ、この密林は！
-Hold on, hold on... What is this jungle?
+Whoa, whoa, whoa... What the heck is this jungle?!
 -----------------------
 <Nanaly>
 -----------------------
 #たしかに、こりゃあすごいね
 #ここまですごいジャングルは
 #あたしもはじめてだよ
-This is definitely something else.
-A jungle this amazing...
-is my first time seeing it too.
+No kidding, this is intense.
+I've never seen a jungle this thick before, either.
 -----------------------
 <Loni>
 -----------------------
 #こんなところ、通れるのか？
-Can we really pass through here?
+Can we even get through a place like this?
 -----------------------
 <Nanaly>
 -----------------------
 #他に道は無いみたいだし
 #ここを進むしかないね
-Looks like there's no other way.
-We'll just have to keep going from here.
+Doesn't look like there's any other path.
+We'll just have to push on through here.
 -----------------------
 <Loni>
 -----------------------
 #････はぁ、やっぱりかよ
-......Haa, just as I thought.
+...*sigh* Figured as much.
 -----------------------
 <Nanaly>
 -----------------------
 #おっ、今見えたのはガルムじゃないか！
 #アイツのキバは、よく燃えるんだ
 #そうだね････五本もあれば、大丈夫だよ
-Well, well! Isn't that Garm?
-His fangs sure burn bright.
-Yeah... With five of them, we'll be fine.
+Hey, was that a Garm I just saw?
+Those fangs of his burn real good.
+That's right... Five of 'em ought to do the trick.
 -----------------------
 <Kyle>
 -----------------------
 #よぉし！
 #根性で捕まえてみせるぜ！
-Alright!
-I'll catch them all with sheer guts!
+All right!
+I'll catch 'em with sheer guts!
 -----------------------
 <Nanaly>
 -----------------------
 #ただ追っかけてるだけじゃ、ダメさ
 #どこか、落とし穴を掘れる場所を探すんだ
 #ソーサラーなんとかを使うんだよ！
-Just chasing after them won't cut it.
-We need to find somewhere we can dig a trap.
-Use that Sorcerer something-or-other!
+You can't just chase 'em down, though.
+Find somewhere you can dig a pitfall.
+Use that Sorcerer's Ring thing!
 -----------------------
 <Nanaly>
 -----------------------
 #アイツらは、水が苦手なんだ
 #水を使って道をふさぐんだよ！
-They're weak against water.
-They're using water to block our path!
+Those things can't stand water.
+Use it to block their path!
 -----------------------
 <char:000003E8>
 -----------------------
 #捕らえたっ！
-I got you!
+Gotcha!
 -----------------------
 #ガルムの牙を五本集めました
-I've collected five Garum fangs.
+Collected five Garm Fangs.
 -----------------------
 #ガルムの牙を手に入れました
-I obtained the Fang of Garm.
+Obtained a Garm Fang.
 -----------------------
 #落とし穴にかかった
-Fell into a pitfall
+Fell into a pitfall.
 -----------------------
 #ガルムが落とし穴にかかった
-Garm fell into a pitfall.
+The Garm fell into a pitfall.
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -105,8 +104,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -118,7 +117,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We hope to see you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -148,4 +147,3 @@ notice
 #何もありません
 There's nothing here.
 -----------------------
-

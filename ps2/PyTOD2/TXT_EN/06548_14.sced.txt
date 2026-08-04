@@ -1,5 +1,5 @@
 #紅蓮都市スペランツァ・配給所
-Scarlet Lotus City Speranza - Distribution Center
+Crimson Lotus City Speranza - Distribution Center
 -----------------------
 #紅蓮都市スペランツァ
 Crimson Lotus City Speranza
@@ -13,16 +13,16 @@ Man
 #あなたがた、もしや
 #黄昏都市レアルタに
 #向かわれるのですか？
-You all,
-to the twilight city of Realta
-are heading?
+Might you all be
+heading to the twilight city
+of Realta?
 -----------------------
 <Kyle>
 -----------------------
 #そうだけど
 #それがどうかした？
-That's true.
-What about it?
+Yeah, we are.
+What's it to you?
 -----------------------
 #おじさん
 Man
@@ -30,16 +30,16 @@ Man
 #実は、あなたがたに
 #おりいって、お願いがあるんです
 #どうか、聞いていただけないでしょうか？
-Actually,
-I have a favor to ask you.
-Would you mind listening?
+Actually, I was hoping to
+impose on you with a request.
+Would you hear me out?
 -----------------------
 <Reala>
 -----------------------
 #お願い････ですか？
 #どういったことでしょう？
-You're asking me...?
-What do you mean?
+A request...?
+What sort of thing?
 -----------------------
 #おじさん
 Man
@@ -47,32 +47,32 @@ Man
 #難しいことじゃないんです
 #ただ、レアルタにいる
 #私の息子に、届けものをお願いしたくて････
-It's not that complicated.
-I'm just in Realta.
-I wanted to ask my son to deliver something for me...
+It's nothing difficult.
+I simply wanted to ask you to
+deliver something to my son in Realta...
 -----------------------
 <Judas>
 -----------------------
 #ほう
 #この時代でも、街同士の
 #行き来があるのか
-Ho?
-In this era, even between towns...
-is there still travel back and forth?
+Oh?
+Even in this era, there is still
+travel between towns?
 -----------------------
 <Judas>
 -----------------------
 #しかし、どうする<Kyle>？
 #僕たちは、先を急ぐ身だ
 #ムダに時間を取っているヒマはないぞ
-How are we going to handle this, <Kyle>?
-We're in a hurry to get ahead.
-We don't have time to waste.
+But what will we do, <Kyle>?
+We're in a hurry.
+We haven't time to waste.
 -----------------------
 NOTICE
 -----------------------
 #黄昏都市レアルタまで、レンズを届けますか？
-Do you want to deliver the lens to the Twilight City of Realta?
+Will you deliver the Lens to the twilight city of Realta?
 -----------------------
 select
 -----------------------
@@ -88,13 +88,13 @@ Man
 #実は、これをレアルタにいる私の息子に
 #届けてほしいのです
 Thank you so much!
-Actually, I'd like to send this to my son in Realta.
-I want you to deliver it.
+Actually, I'd like you to deliver
+this to my son in Realta.
 -----------------------
 <Nanaly>
 -----------------------
 #これは････レンズ？
-This is... a lens?
+This is... a Lens?
 -----------------------
 #おじさん
 Man
@@ -103,8 +103,8 @@ Man
 #先日、亡くなった私の妻が
 #身につけていたものです
 That's right.
-My wife passed away recently,
-and these were her belongings.
+My wife passed away the other day,
+and this was something she wore.
 -----------------------
 #おじさん
 Man
@@ -112,9 +112,9 @@ Man
 #息子の名前は「ＲＥ－５４６０９」です
 #ＳＰ－３１１６からの言づてだと言えば
 #すぐにわかると思います
-My son's name is "R-E-54609".
-If I say it came from SP-3116,
-I think you'll understand right away.
+My son's name is "RE-54609".
+If you tell him it's a message
+from SP-3116, he'll understand.
 -----------------------
 #おじさん
 Man
@@ -122,7 +122,7 @@ Man
 #それでは
 #よろしくおねがいしますね
 Well then,
-I look forward to working with you.
+I'm counting on you.
 -----------------------
 #おじさん
 Man
@@ -131,8 +131,8 @@ Man
 #手間を取らせてしまい
 #申し訳ありませんでした
 I see...
-We took up your time,
-my apologies.
+Forgive me for taking up
+your time.
 -----------------------
 #ショップマシン
 Shop Machine
@@ -140,7 +140,7 @@ Shop Machine
 #いらっしゃいませ
 #何がご要り用ですか？
 Welcome!
-What can I help you find?
+What can I help you with?
 -----------------------
 select
 -----------------------
@@ -160,11 +160,11 @@ Shop Machine
 Thank you very much.
 -----------------------
 #いってらっしゃいませ
-Have a good day.
+Please come again.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -174,8 +174,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -187,7 +187,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We look forward to your next visit.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -209,12 +209,11 @@ notice
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{C2}{C0} but
-inventory is full already.
+Found {16}{25}{C2}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

@@ -2,14 +2,14 @@
 Eighteen years ago in Dycroft
 -----------------------
 #十八年前のダイクロフト
-Eighteen years ago at Dycroft
+Eighteen years ago in Dycroft
 -----------------------
 NOTICE
 -----------------------
 #エレベーターが戻って来る気配はありません
 #どうやら墜落して壊れてしまったようです
 There's no sign of the elevator coming back.
-It seems to have crashed and broken down.
+It seems to have crashed and broken.
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -26,8 +26,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -61,7 +61,7 @@ notice
 -----------------------
 #{16}{25}{CA}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{CA}{C0} but
+Found {16}{25}{CA}{C0}, but
 inventory is full already.
 -----------------------
 notice
@@ -69,4 +69,3 @@ notice
 #何もありません
 There's nothing here.
 -----------------------
-

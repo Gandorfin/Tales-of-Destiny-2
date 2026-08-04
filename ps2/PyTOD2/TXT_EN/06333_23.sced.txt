@@ -10,30 +10,30 @@ NOTICE
 Acquired <item:000000B5>.
 -----------------------
 #ここはレンズ無し部屋です
-This is a room without lens.
+This room contains no Lens.
 -----------------------
 <Kyle>
 -----------------------
 #あっ、待ってよ、君！
 #ねえってば！
-Ah, wait up, you!
-Hey, I said wait!
+Ah, wait! Hey, you!
+Hey, I'm talking to you!
 -----------------------
 <Loni>
 -----------------------
 #いったいなんなんだ？
 #いきなりレンズの中から出てくるわ
 #何事もなかったかのように立ち去るわ
-What the hell was that all about?
-Oh look, I just popped out of a Lens all of a sudden.
-Oh look, I'm just going to leave as if nothing happened.
+What the heck was that all about?
+She just pops out of a Lens out of nowhere,
+then walks off like nothing happened.
 -----------------------
 <Loni>
 -----------------------
 #おまけに
 #「英雄を探しているの」だぜ？
-And then she goes and tops it off with
-"I'm searching for a hero"?
+And on top of that,
+she says she's "searching for a hero"? What gives?
 -----------------------
 <Kyle>
 -----------------------
@@ -45,33 +45,33 @@ Let's go after her, <Loni>!
 #追うって････
 #あの子をか!?
 Go after her...
-You mean after that girl!?
+You mean that girl!?
 -----------------------
 <Kyle>
 -----------------------
 #早く行こうよ！
-C'mon, let's go, hurry!
+C'mon, let's hurry!
 -----------------------
 <Loni>
 -----------------------
 #うわっ！　ヤバ････
-Gah! Christ on a...
+Whoa! This is bad...
 -----------------------
 #隊長
 Captain
 -----------------------
 #なんだ、貴様らは!?
 #ここでなにをしている！
-Identify yourselves, you rogues!
-What do you think you're doing here!?
+Who are you rogues!?
+What are you doing here!
 -----------------------
 #隊員
-Troops
+Trooper
 -----------------------
 #た、大変です！
 #レンズが、なくなってます！
-T, this is terrible!
-The Lens, it has disappeared!
+C-Captain, this is terrible!
+The Lens is gone!
 -----------------------
 #隊長
 Captain
@@ -80,14 +80,14 @@ Captain
 What! What do you mean!?
 -----------------------
 #隊員
-Troops
+Trooper
 -----------------------
 #自分は以前、この部屋で
 #巨大なレンズを確かに見ました！
 #それが跡形もなく････
-I am certain that I saw a gigantic Lens in
-this room during my last visit!
-It has vanished without a trace...
+I saw it myself on my last patrol.
+There was a gigantic Lens in this room!
+And now it's vanished without a trace...
 -----------------------
 #隊長
 Captain
@@ -95,23 +95,23 @@ Captain
 #レンズをどこへやった!?
 #さあ、言えッ！
 What have you done with the Lens!?
-Come now, speak up!
+Speak up!
 -----------------------
 <Kyle>
 -----------------------
 #し、知るもんか！
 #オレたちだって、なにがなんだか
 #さっぱり、わからないんだ！
-H, hell if I know!
-It's not like we have the foggiest
-idea about what's going on either!
+H-Hell if I know!
+We don't have the foggiest idea
+what's going on either!
 -----------------------
 <Kyle>
 -----------------------
 #いきなり、女の子が出てきて
 #レンズが砕けて････
 This girl came out of nowhere,
-the Lens broke, and then...
+the Lens shattered, and then...
 -----------------------
 #隊長
 Captain
@@ -120,8 +120,8 @@ Captain
 #貴重な巨大レンズを割るとは
 #バカなことを････！
 Wha...!
-What manner of a fool would shatter a
-precious Lens of that size...!
+What manner of fool would shatter
+a precious Lens of that size...!
 -----------------------
 #隊長
 Captain
@@ -129,22 +129,21 @@ Captain
 #おい、こいつらを
 #ひっとらえろ！
 #そっちの男もだ!!
-Hold on, those guys...
-Get them!
-And that guy over there too!!
+You there! Seize these two!
+And that man over there as well!!
 -----------------------
 #隊員
-Troops
+Trooper
 -----------------------
 #た、隊長！
 #こいつ、<Loni>＝デュナミスです!!
-C, Captain!
-This person is <Loni> Dunamis!!
+C-Captain!
+This man is <Loni> Dunamis!!
 -----------------------
 <Loni>
 -----------------------
 #････あちゃ～
-Ho boy...
+...Ah, geez.
 -----------------------
 #隊長
 Captain
@@ -152,8 +151,8 @@ Captain
 #貴様････護衛兵でありながら
 #盗っ人と共にいるとは
 #どういうことだ!?
-You lout...why are you, a military escort,
-in the company of a thief!?
+You... you're a military escort,
+yet you're in the company of a thief?
 Explain yourself!
 -----------------------
 <Kyle>
@@ -165,12 +164,12 @@ Are you calling me a thief!?
 Captain
 -----------------------
 #他に誰がいる！
-Who else would I be referring to!?
+Who else would I be talking about!
 -----------------------
 <Kyle>
 -----------------------
 #オレは、盗っ人なんかじゃない！
-I'm not some sort of thief!
+I'm not a thief!
 -----------------------
 #隊長
 Captain
@@ -178,14 +177,14 @@ Captain
 #盗っ人は、みんなそう言うんだ！
 #さぁ、いっしょに来てもらおうか
 #貴様もだぞ、<Loni>！
-All thieves talk just like that!
-Well then, come along with me.
+That's what every thief says!
+Now then, you'll both come with me.
 You too, <Loni>!
 -----------------------
 <Loni>
 -----------------------
 #････なりゃ････だ････！
-If this's...then...!
+...If that's how it's gonna be...!
 -----------------------
 #隊長
 Captain
@@ -198,13 +197,13 @@ You listening?
 <Loni>
 -----------------------
 #････あぁもう、やぶれかぶれだ！
-That's it, I've had it up to here with you people!
+...All right, I've had it!
 -----------------------
 <Loni>
 -----------------------
 #こうなりゃ強行突破だ！
 #ついてこい、<Kyle>！
-If it comes to this, we'll just force our way through!
+We're busting through!
 Stick with me, <Kyle>!
 -----------------------
 <Kyle>
@@ -218,15 +217,15 @@ Captain
 #ダリルシェイドへ連行しろ！
 #レンズの行方を
 #かならず、はかせるんだ！
-Take them to Darilshade!
-Make them disclose the whereabouts of the
-Lens by any means necessary!
+Take them to Darilsheid!
+Make them reveal the whereabouts of that Lens
+by any means necessary!
 -----------------------
 #隊員
-Troops
+Trooper
 -----------------------
 #はッ！
-Yes sir!
+Yes, sir!
 -----------------------
 <Kyle>
 -----------------------
@@ -234,34 +233,34 @@ Yes sir!
 #ここへ来るのは
 #初めてじゃないような気がする････
 I wonder why?
-Came here before,
-Feels like I've been here before...
+It feels like...
+I've been here before.
 -----------------------
 <Kyle>
 -----------------------
 #なんだろう？
 #この胸の痛みは････
 What is this?
-This pain in my chest is...
+This pain in my chest...
 -----------------------
 <Kyle>
 -----------------------
 #････気のせいかな？
-...just my imagination?
+...Is it just my imagination?
 -----------------------
 <Kyle>
 -----------------------
 #<Loni>が待ってるし
 #もう帰ろう････
-<Loni> is waiting for me,
-let's go home now.
+<Loni>'s waiting for me.
+Let's head home...
 -----------------------
 #いってらっしゃいませ
-Have a good day.
+Come again soon.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+That'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -271,8 +270,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -284,7 +283,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We hope to see you again.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -295,7 +294,7 @@ exit-party_togather( short spd )
 notice
 -----------------------
 ##{16}{25}{C6}{C0}を手に入れました
-You obtained {16}{25}{C6}{C0}.
+Acquired {16}{25}{C6}{C0}.
 -----------------------
 notice
 -----------------------
@@ -307,7 +306,7 @@ notice
 #{16}{25}{CE}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{CE}{C0}, but
-inventory full already.
+your inventory is full.
 -----------------------
 notice
 -----------------------

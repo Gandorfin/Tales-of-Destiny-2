@@ -1,49 +1,49 @@
 #ハイデルベルグ城
-Heidelburg Castle
+Heidelberg Castle
 -----------------------
 #ハイデルベルグ城
-Heidelburg Castle
+Heidelberg Castle
 -----------------------
 <Kyle>
 -----------------------
 #くそっ！　こんなところで
 #手間取ってるわけにはいかない！
-Damn it! Not here!
-I can't afford to waste time!
+Damn it! I can't afford
+to get held up here!
 -----------------------
 <Judas>
 -----------------------
 #一気に蹴散らすぞ
-I'll scatter them all at once.
+I'll scatter them in one sweep.
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #うう････痛い････
 Ugh... it hurts...
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #まさか、こんな方法で
 #城を襲ってくるなんて････
-Could it be that they're using this method...
-To attack the castle like this...
+I can't believe they'd attack
+the castle like this...
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #<Kyle>さん！
 #お気をつけ下さい！
 <Kyle>!
-Watch out!
+Please be careful!
 -----------------------
 #いってらっしゃいませ
 Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -53,8 +53,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -66,7 +66,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We hope to see you again.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -88,12 +88,11 @@ notice
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{C2}{C0} but
-inventory is full already.
+Found {16}{25}{C2}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

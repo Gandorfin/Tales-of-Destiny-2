@@ -1,14 +1,14 @@
 #聖地カルビオラ
-Holy Land Calbiora
+Holy Land Calviola
 -----------------------
 #聖地カルビオラ
-Holy Land Calbiora
+Holy Land Calviola
 -----------------------
 #聖地カルビオラ
-Holy Land Calbora
+Holy Land Calviola
 -----------------------
 #聖地カルビオラ
-Holy Land Calbiora
+Holy Land Calviola
 -----------------------
 #司祭
 Priest
@@ -20,44 +20,43 @@ This building is still under construction.
 -----------------------
 #これが、聖地カルビオラ････
 #ずいぶん変な形してるね
-This is the Holy Land of Calbora...
-It's got quite a strange shape.
+So this is the Holy Land of Calviola...
+It's got a pretty weird shape.
 -----------------------
 <Judas>
 -----------------------
 #ドーム状の建物とはな
 #さすがに十年後だけあって
 #様子がまるでちがう
-What is this dome-shaped building?
-As expected after ten years,
-It looks completely different.
+A dome-shaped building, is it?
+Well, it has been ten years.
+The place looks completely different.
 -----------------------
 <Loni>
 -----------------------
 #････なあ、妙じゃないか？
 #さっきまであんなに暑かったのに
 #今はやけに涼しいぜ
-Hmm... isn't that strange?
-It was so hot just a moment ago,
-But now it's unusually cool.
+...Hey, isn't this weird?
+It was scorching hot just a minute ago,
+and now it's almost chilly.
 -----------------------
 <Loni>
 -----------------------
 #それに、見ろよ
 #ここには砂粒どころか
 #チリひとつ落ちてない
-On top of that, just look at it.
-It's not just sand grains here,
-Not even a speck of dust has fallen.
+And look around.
+There isn't a single grain of sand,
+not even a speck of dust anywhere.
 -----------------------
 <Nanaly>
 -----------------------
 #まるでここだけ
 #世界から切り離されてる
 #みたいだね････
-It's as if just this place
-has been cut off from the rest of the world
-is what it seems...
+It's almost like this place alone
+has been cut off from the rest of the world...
 -----------------------
 <Judas>
 -----------------------
@@ -67,7 +66,7 @@ is what it seems...
 <Judas>
 -----------------------
 #ちょうど、礼拝が終わったようだな
-It looks like the service has just ended.
+Looks like the service just ended.
 -----------------------
 <Loni>
 -----------------------
@@ -75,8 +74,8 @@ It looks like the service has just ended.
 #やつらが戻ってこないうちに
 #とっとと忍びこもうぜ
 This is our chance.
-While they're still gone,
-Let's sneak in quick.
+While they're not back yet,
+let's sneak right in.
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -93,8 +92,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -117,7 +116,7 @@ exit-party_togather( short spd )
 notice
 -----------------------
 #{16}{25}{EE}{C0}を手に入れました
-{16}{25}{EE}{C0}You obtained .
+{16}{25}{EE}{C0}Acquired .
 -----------------------
 notice
 -----------------------
@@ -129,11 +128,10 @@ notice
 #{16}{25}{F6}{C0}がありましたが
 #いっぱいで持てませんでした
 {16}{25}{F6}{C0}There was , but
-I couldn't hold it because it was full.
+your inventory was full.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

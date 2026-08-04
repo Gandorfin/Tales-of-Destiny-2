@@ -1,59 +1,59 @@
 #古都ダリルシェイド
-Darilsheid Prison
+Darilsheid, the Ancient Capital
 -----------------------
 #古都ダリルシェイド
-Darilsheid Prison
+Darilsheid, the Ancient Capital
 -----------------------
 <Kyle>
 -----------------------
 #ダメだ、見張りがいる
 #これ以上は進めないよ
-It's no use, there're guards.
-We can't go any farther.
+No good, there are guards.
+We can't get any farther.
 -----------------------
 <Kyle>
 -----------------------
 #ダメだ、見張りがいる
 #これ以上は進めないよ
-It's no use, there're guards.
-We can't go any farther.
+No good, there are guards.
+We can't get any farther.
 -----------------------
 <Loni>
 -----------------------
 #しかし他に出口は無いぞ
 #どうする？　強行突破するか？
-There's no other way out.
-What should we do? Force our way through?
+But there ain't no other way out.
+What do we do? Try to force our way through?
 -----------------------
 <Judas>
 -----------------------
 #待て
 #････こっちだ、ついて来い
-Hold on.
+Wait.
 ...This way. Follow me.
 -----------------------
 <Judas>
 -----------------------
 #ここはオベロン社総帥だった
 #『ヒューゴ』の屋敷だ
-This was the headquarters of Oberon Corporation.
-The mansion of 'Hugo'.
+This was once the residence of Hugo,
+the president of Oberon Corporation.
 -----------------------
 <Judas>
 -----------------------
 #オベロン社解体と同時に屋敷は接収され、
 #神殿に改修されたが、
 #隠し通路はまだ残っているはずだ
-When the Oberon Corp. was dissolved, this
-mansion was confiscated and converted into a temple, but
-the hidden passageway should still be here.
+When Oberon Corporation was dissolved, the mansion was confiscated
+and converted into a temple, but
+the hidden passageway should still remain.
 -----------------------
 <Judas>
 -----------------------
 #････ここだ
 #おい、これを使って
 #そこのマークを撃ってみろ
-...This is it.
+...Here.
 Hey, use this.
 Try shooting that mark over there.
 -----------------------
@@ -71,52 +71,52 @@ What's this?
 -----------------------
 #レンズからエネルギーを引き出し、
 #熱線と衝撃を撃ち出す道具だ
-It draws energy from the lens,
-and it's a device that fires heat rays and shockwaves.
+A device that draws energy from a Lens
+to fire heat rays and shockwaves.
 -----------------------
 <Judas>
 -----------------------
 #<button:0000003C>ボタンで熱線を発射できるが、
 #一発毎にレンズを一枚消費する
 #ムダ撃ちはするなよ
-You can fire a heat ray by using the <button:0000003C> button,
+You can fire a heat ray with the <button:0000003C> button,
 but each shot consumes one Lens.
-Don't go around shooting everything in sight.
+Don't waste your shots.
 -----------------------
 <Judas>
 -----------------------
 #<item:0000002B>を使えば
 #手の届かない場所にあるスイッチを押せる
-If you use the <item:0000002B>, you can activate
-switches in places that you cannot normally reach.
+Using the <item:0000002B>, you can press switches
+in places beyond your reach.
 -----------------------
 <Judas>
 -----------------------
 #むろん、熱を利用して
 #火をともすことも可能だ
 #上手く使え
-Needless to say, the heat which is generated
-can also be used to light a fire.
-Utilize it well.
+Of course, you can also use the heat
+to light fires.
+Make good use of it.
 -----------------------
 <Kyle>
 -----------------------
 #わかった
 #････ところで<Judas>
 #なんでこんな通路の事を知ってるの？
-I see.
-...By the way, .<Judas>
-How do you know about this corridor?
+Got it.
+...By the way, <Judas>
+how do you know about this passageway?
 -----------------------
 <Judas>
 -----------------------
 #････それを聞いてどうする？
-What's the point of asking me that?
+...What would you do with that knowledge?
 -----------------------
 <Kyle>
 -----------------------
 #いや、別にどうもしないけど････
-Well, there's not really a point persay, but...
+Well, nothing really, but...
 -----------------------
 <Judas>
 -----------------------
@@ -127,32 +127,32 @@ notice
 -----------------------
 #<Judas>は
 #称号「<item:00000826>」を得ました
-<Judas> is
-Gained the title '<item:00000826>.'
+<Judas>
+gained the title "<item:00000826>"!
 -----------------------
 #オベロン社の物らしき書類が保管されている
 #どうやら、神の眼の騒乱に関係した物のようだ
-It appears to be documents belonging to Oberon Company.
-It seems related to the disturbances surrounding the Eye of God.
+Documents that appear to belong to Oberon Corporation are stored here.
+They seem to be related to the disturbances surrounding the Eye of Atamoni.
 -----------------------
 #書類にサインがされている
 #『ヒューゴ』『イレーヌ』『レンブラント』
 #という名前が読み取れた
-The documents are signed.
-Hugo, Irene, Rembrandt
-I could make out those names.
+The documents bear signatures.
+The names "Hugo," "Irene," and "Rembrandt"
+could be made out.
 -----------------------
 #『ダリルシェイド復興を祈願して
 #　ストレイライズ神殿フィリア＝フィリスより』
-The papers are signed:
-"Hugo," "Irene," and "Rembrandt".
+'Praying for the restoration of Darilsheid.
+From Philia Felice, Straylize Temple'
 -----------------------
 #いってらっしゃいませ
-Have a good day.
+Welcome.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It will be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -162,11 +162,11 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
-Have a good night.
+Please rest well.
 -----------------------
 #おはようございます
 Good morning.
@@ -175,7 +175,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We hope to see you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -186,7 +186,7 @@ exit-party_togather( short spd )
 notice
 -----------------------
 #{16}{25}{BE}{C0}を手に入れました
-Acquired {16}{25}{BE}{C0}
+Acquired {16}{25}{BE}{C0}.
 -----------------------
 notice
 -----------------------
@@ -198,7 +198,7 @@ notice
 #{16}{25}{C6}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{C6}{C0}, but
-inventory full already.
+your inventory is already full.
 -----------------------
 notice
 -----------------------

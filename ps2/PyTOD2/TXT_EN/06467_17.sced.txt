@@ -1,8 +1,8 @@
 #ハイデルベルグ城
-Heidelburg Castle
+Heidelberg Castle
 -----------------------
 #ハイデルベルグ城
-Heidelburg Castle
+Heidelberg Castle
 -----------------------
 <Loni>
 -----------------------
@@ -10,8 +10,8 @@ Heidelburg Castle
 #こりゃまた
 #ド派手に乗りこんできたもんだ
 Hoo!
-Well then,
-You really made an entrance.
+Well, well.
+You sure made a flashy entrance.
 -----------------------
 <Judas>
 -----------------------
@@ -19,15 +19,15 @@ You really made an entrance.
 #これでは、ひとたまりもあるまい
 #戦術としては見事だな
 But even an impregnable fortress
-won't stand a chance against this
-That's a brilliant tactic.
+won't stand a chance against this.
+A brilliant tactic, indeed.
 -----------------------
 <Kyle>
 -----------------------
 #とにかく、急ごう！
 #ウッドロウさんが、心配だ！
 Anyway, let's hurry!
-I'm worried about Woodrow!
+I'm worried about Garr!
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -44,8 +44,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -57,7 +57,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We look forward to your next visit.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -79,8 +79,8 @@ notice
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{C2}{C0} but
-inventory is full already.
+Found {16}{25}{C2}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------
@@ -88,24 +88,24 @@ notice
 There's nothing here.
 -----------------------
 #補給部隊
-Supply unit
+Supplies Storage
 -----------------------
 #こちらは補給部隊です
-This is our supply unit.
+This is the Supplies Storage.
 -----------------------
 #がんばれよ
-Do your best.
+Give it your best.
 -----------------------
 #いつでもどうぞ
-Feel free to come anytime.
+Come by anytime.
 -----------------------
 #補給部隊
-Supply Unit
+Supplies Storage
 -----------------------
 #負傷兵の救護が我々の仕事だ
 #治療費はいただくが････
 Tending to the wounded is our job.
-We'll collect the medical fees...
+We do charge for treatment, though...
 -----------------------
 #負傷兵の救護が我々の使命だ
 Our mission is to care for the wounded.
@@ -119,7 +119,7 @@ Medic
 #応急手当をしていくか？
 #<03:00000000>　はい（<0B:00000001><num:00000064><0B:00000000>ガルド）　
 #　いいえ　
-Do you want to apply first aid?
+Want first aid?
 <03:00000000>Yes (<0B:00000001><num:00000064><0B:00000000> Gald)
 No
 -----------------------
@@ -127,13 +127,13 @@ No
 Medic
 -----------------------
 #応急手当開始！
-First aid in progress!
+Beginning first aid!
 -----------------------
 #もう大丈夫だ
-It's okay now.
+You should be fine now.
 -----------------------
 #今回はサービスだ
-This time it's on the house.
+This one's on the house.
 -----------------------
 #衛生兵
 Medic
@@ -142,6 +142,5 @@ Medic
 Medic
 -----------------------
 #いつでもどうぞ
-Feel free to come anytime.
+Come by anytime.
 -----------------------
-

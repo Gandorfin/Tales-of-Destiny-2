@@ -1,44 +1,44 @@
 #ハイデルベルグ城・客室
-Heidelburg Castle Guest Room
+Heidelberg Castle Guest Room
 -----------------------
 #ハイデルベルグ城
-Heidelburg Castle
+Heidelberg Castle
 -----------------------
 #ハイデルベルグ城・客室
-Heidelburg Castle Guest Room
+Heidelberg Castle Guest Room
 -----------------------
 #いつ果てるとも無く
 #暖炉の火は燃えつづける････
-The end seemed endless
-The fire in the hearth continued to burn...
+The fire in the hearth burns on and on...
+as if it will never end.
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #こちらがみなさまのお部屋になります
 #今日はもうお休みになりますか？
-Here are your rooms.
-Are you retiring for the day?
+These will be your rooms.
+Will you be turning in for the night?
 -----------------------
 select
 -----------------------
 #<03:00000000>　休む　
 #　まだ　
-<03:00000000>Rest
+<03:00000000> Rest
 Not yet
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #ごゆっくり
-Take your time.
+Please, take your time.
 -----------------------
 <Loni>
 -----------------------
 #時間旅行から帰ってみりゃあ、レンズはなし
 #よくもまあ、こう難問ばかり続くもんだ
-We get back from time travel, and Lens isn't there.
-You really can't beat it, with these difficult puzzles going on and on.
+We get back from time travel, and no Lens.
+Man, the hard questions just keep on coming.
 -----------------------
 <Loni>
 -----------------------
@@ -47,21 +47,21 @@ You really can't beat it, with these difficult puzzles going on and on.
 #退屈するヒマもありゃしない
 This is what they call a tumultuous journey.
 Ever since I met <Reala>,
-I haven't had a moment to spare for boredom.
+I haven't had a spare moment to get bored.
 -----------------------
 <Loni>
 -----------------------
 #いてぇッ!!
 #なにしやがんだ、この････！
-It hurts!!
-What are you doing, you...!
+Owww!!
+What the hell was that for, you...!
 -----------------------
 <Nanaly>
 -----------------------
 #バカっ！
 #ちょっとは考えてもの言いな！
-Idiot!
-At least think before you speak!
+Moron!
+Think before you open your mouth!
 -----------------------
 <Loni>
 -----------------------
@@ -69,15 +69,15 @@ At least think before you speak!
 #<Reala>が来たから迷惑してるとか
 #そういうんじゃなくて････
 Oh, no, that's not it.
-It's not like <Reala> is causing trouble.
-Not quite like that...
+It's not like <Reala> is a burden or anything.
+That's not what I meant...
 -----------------------
 <Loni>
 -----------------------
 #退屈しなくて、いいよなってのが
 #言いたくて････な、なぁ、<Kyle>！
-"It's nice that I don't get bored."
-"I wanted to say... well, <Kyle>!"
+I just wanted to say it's nice
+not being bored... R-right, <Kyle>?!
 -----------------------
 <Kyle>
 -----------------------
@@ -90,29 +90,29 @@ Sorry, I wasn't listening.
 -----------------------
 #････休もう
 #もう、今日はすることもないしな
-Let's take a break.
-There's nothing else to do today anyway.
+...Let's rest.
+There's nothing left to do today anyway.
 -----------------------
 <Loni>
 -----------------------
 #ん～、もう朝か
 #ついさっき、寝たと思ったんだが････
 Ugh... morning already?
-I just went to sleep a moment ago...
+I could've sworn I just went to sleep...
 -----------------------
 <Loni>
 -----------------------
 #よぉ、<Nanaly>！
 #････なんだ、<Reala>は
 #いっしょじゃないのか？
-You're here, <Nanaly>!
-What's up, <Reala>?
-Aren't you coming along?
+Yo, <Nanaly>!
+...Wait, where's <Reala>?
+Isn't she with you?
 -----------------------
 <Nanaly>
 -----------------------
 #いなくなっちまった････
-He's gone...
+She's gone...
 -----------------------
 <Judas>
 -----------------------
@@ -137,8 +137,8 @@ Ah, good morning...
 -----------------------
 #ほら、ボケッとしてない！
 #急いで起きな！
-Hey, stop spacing out!
-Get up quickly!
+Hey, quit spacing out!
+Get up, now!
 -----------------------
 <Loni>
 -----------------------
@@ -158,7 +158,7 @@ That girl...
 #もういなかったんだよ！
 #ずっと探してたんだけど････
 When I woke up,
-he was already gone!
+she was already gone!
 I've been searching everywhere...
 -----------------------
 <Loni>
@@ -166,31 +166,31 @@ I've been searching everywhere...
 #お、おい、落ちつけよ
 #どっか散歩に行ってるだけかもしれないだろ？
 H-hey, calm down!
-They might just be out for a stroll somewhere.
+She might just be out for a stroll somewhere.
 -----------------------
 <Nanaly>
 -----------------------
 #ちがうんだよ！
 #そうじゃなくって････
 That's not it!
-Not like that...
+It's not like that...
 -----------------------
 <Nanaly>
 -----------------------
 #あぁもう、とにかく、
 #ウッドロウさんのところに行くよ！
-Ah, come on, anyway,
-We're heading to Woodrow's place!
+Ah, forget it! Anyway,
+we're heading to Garr's place!
 -----------------------
 <Reala>
 -----------------------
 #ねぇ、<Kyle>、起きて
-Wake up, <Kyle>.
+Hey, <Kyle>, wake up.
 -----------------------
 <Reala>
 -----------------------
 #ちょっと、<Kyle>ってば！
-Hold on, <Kyle>!
+Come on, <Kyle>!
 -----------------------
 <Reala>
 -----------------------
@@ -212,22 +212,22 @@ Good night~......
 -----------------------
 #なに言ってるの！　もう朝でしょ、あさ！
 #ねぇ、起きてよ、<Kyle>
-What are you talking about! It's morning already, morning!
-Hey, wake up,<Kyle>
+What are you talking about! It's morning, morning!
+Hey, wake up, <Kyle>
 -----------------------
 <Kyle>
 -----------------------
 #あとちょっと････
 #ほんのちょびっとだけ････
-A little bit more...
-Just a tiny bit...
+Just a little more...
+Just a tiny bit longer...
 -----------------------
 <Reala>
 -----------------------
 #ほら、せっかくだから
 #どこかに出かけましょうよ
-Come on, since we're here anyway
-Let's go somewhere
+Come on, since we're here anyway,
+let's go somewhere.
 -----------------------
 <Kyle>
 -----------------------
@@ -243,7 +243,7 @@ I'm sleeping...
 #そんなにわたしとデートしたくないのね？
 Fine, then!
 <Kyle>, honestly...
-You really don't want to go on a date with me, do you?
+You really don't want to go on a date with me?
 -----------------------
 <Kyle>
 -----------------------
@@ -263,31 +263,31 @@ A date isn't really...
 -----------------------
 #そう、デート！
 #行きましょ<Kyle>！
-Exactly, a date!
-Let's go <Kyle>!
+That's right, a date!
+Let's go, <Kyle>!
 -----------------------
 <Reala>
 -----------------------
 #場所は････そうだ！
 #公園にしましょう
 #きっと、気持ちがいいわよ
-The location... I've got it!
+The location... I know!
 Let's go to the park.
-It'll feel wonderful.
+I'm sure it'll feel wonderful.
 -----------------------
 <Nanaly>
 -----------------------
 #あぁ、来た来た
 #これでみんなそろったよ
 Ah, here they come.
-Now everyone's together.
+Now everyone's here.
 -----------------------
 <Kyle>
 -----------------------
 #話ってなに？
 #<Loni>から聞いたんだけど
 #さっぱりわからなくって････
-What's the story?
+What's this about?
 I heard it from <Loni>, but...
 I have no idea what's going on...
 -----------------------
@@ -296,9 +296,9 @@ I have no idea what's going on...
 #私の「解析君二号改」が
 #時間軸の歪みと、エントロピーの
 #異常なまでの増大を検知したの
-My "Analysis-kun Mark II" is
-Distortion in the time axis and entropy's
-We've detected an abnormal surge.
+My "Analysis-kun Mark II" detected
+distortions in the time axis and an abnormal
+surge in entropy growth.
 -----------------------
 <Harold>
 -----------------------
@@ -306,73 +306,73 @@ We've detected an abnormal surge.
 #時間の流れがとっても
 #ヤバイ状態になってるってこと
 To put it simply,
-the flow of time is in a
-totally crazy state.
+the flow of time has entered
+a totally crazy state.
 -----------------------
 <Kyle>
 -----------------------
 #ヤ、ヤバイ状態って？
-What do you mean 'critical condition'?
+Wh-what do you mean by 'crazy state'?
 -----------------------
 <Harold>
 -----------------------
 #ぶっちゃけた話、
 #未来がなくなりかけてるのよ
 To put it bluntly,
-Our future is on the verge of being erased.
+the future's on the verge of disappearing.
 -----------------------
 <Nanaly>
 -----------------------
 #未来がなくなるって････
 #どういうことだい、それ!?
-The future is going to disappear...
-What do you mean by that!?
+The future's going to vanish...
+What the heck does that mean!?
 -----------------------
 <Harold>
 -----------------------
 #具体的なことまではわからないけど、
 #未来からこの時代に対して、
 #なんらかの干渉がおこなわれているようね
-I don't know the specifics,
-but it seems that
-some kind of interference is being exerted upon this era from the future.
+I don't know the specifics, but
+it seems something from the future
+is interfering with this era.
 -----------------------
 <Harold>
 -----------------------
 #その影響で本来あるはずの未来が
 #失われようとしてるってわけ
-The consequences are causing the future that should have been...
-...to be lost.
+Because of that, the future that should exist
+is on the verge of being lost.
 -----------------------
 <Kyle>
 -----------------------
 #それってエルレインが、今度はこの時代を
 #変えようとしてるってことか？
-So Elle is trying to change this era...
+So Elrane's trying to change this era now?
 Is that what you're saying?
 -----------------------
 <Harold>
 -----------------------
 #だとしても、これまでのように、
 #なまやさしいものじゃないわ
-Even so,
-it's no longer something to be taken lightly.
+Even if so, it's not like before.
+This is no gentle nudge.
 -----------------------
 <Harold>
 -----------------------
 #未来そのものを消してしまいかねない、
 #恐ろしく大がかりなものよ
-It could very well erase the future itself,
-a terrifyingly massive undertaking.
+It's something terrifyingly large-scale,
+something that could erase the future itself.
 -----------------------
 <Harold>
 -----------------------
 #すでにそのきざしは出はじめてる
 #さっきも時空間のゆらぎを観測したわ
 #一瞬だけど、現代と未来が重なったみたい
-The signs have already begun.
-We saw a spacetime ripple just now.
-For a moment, two eras overlapped.
+The signs are already appearing.
+We saw spacetime warp earlier, too.
+For a moment, now and future merged.
 -----------------------
 <Reala>
 -----------------------
@@ -382,137 +382,134 @@ For a moment, two eras overlapped.
 <Kyle>
 -----------------------
 #あ、ああ････
-Oh, ah...
+Y-yeah...
 -----------------------
 <Harold>
 -----------------------
 #あんたたち、なんか心当たりでも？
-You lot, any idea what's going on?
+You lot have some idea what's going on?
 -----------------------
 <Kyle>
 -----------------------
 #････見たんだ
-I saw it.
+...I saw it.
 -----------------------
 <Nanaly>
 -----------------------
 #見たって、なにを？
-What are you looking at?
+Saw what?
 -----------------------
 <Kyle>
 -----------------------
 #････ハイデルベルグが、
 #ゆがんで、消えかけるの････
-...Heidelburg is...
-...distorting, fading away...
+...Heidelberg was
+distorting, fading away...
 -----------------------
 <Harold>
 -----------------------
 #世界の破滅、か････
-The world's destruction, huh...?
+The world's destruction, huh...
 -----------------------
 <Loni>
 -----------------------
 #世界の破滅って････
 #どういうことだ、<Harold>？
-The destruction of the world...
-What do you mean, <Harold>?
+The world's destruction...
+What do you mean by that, <Harold>?
 -----------------------
 <Harold>
 -----------------------
 #だから、そのまんまよ
 #エルレインはこの世界を消そうとしてる
 #未来がなくなるのはあたりまえだわ
-So, that's just how it is.
-Elle is trying to erase this world.
-It's only natural that the future will disappear.
+It's exactly what it sounds like.
+Elrane's trying to erase this world.
+Of course the future would disappear.
 -----------------------
 <Nanaly>
 -----------------------
 #世界を消すだって････！
 #どうして、そんなことを!?
-They're going to erase the world...!
-Why would they do something like that!?
+Erase the world...!
+Why would she do something like that!?
 -----------------------
 <Harold>
 -----------------------
 #さあ、理由まではね
 #こればっかりは本人に聞くしか、
 #ないんじゃないの？
-Well, as for the reason...
-We can only ask them directly about that,
-can't we?
+Well, I don't know the reason.
+You'll just have to ask her yourself,
+won't you?
 -----------------------
 <Judas>
 -----------------------
 #それしかなさそうだな
 #だが、エルレインはいったい
 #どこにいるのか････
-Looks like that's our only option.
-But where on earth is Elraine?
-And what is she doing?
+Looks like we have no other choice.
+But where on earth is Elrane...
 -----------------------
 <Harold>
 -----------------------
 #あぁ、それなら心配ないわ
 #時空間に残されたパルスを
 #たどっておいたから
-Ah, then there's no need to worry.
-The pulse left behind in spacetime,
-I traced it back.
+Ah, no need to worry about that.
+I traced the pulse she left behind in spacetime.
 -----------------------
 <Harold>
 -----------------------
 #今から、約八万七千時間後、
 #つまり十年後ね
 #そのあたりにいるわ
-Approximately 87,000 hours from now,
-which is to say, ten years later.
-That's about where I'll be.
+About 87,000 hours from now,
+in other words, ten years later.
+That's where she is.
 -----------------------
 <Loni>
 -----------------------
 #となると、次の問題は
 #時間移動のためのレンズか
-In that case, the next problem is
-the lens for time travel?
+So the next problem is
+the Lens for time travel?
 -----------------------
 <Loni>
 -----------------------
 #この城にあったのは、
 #俺たちが海に沈めちまったし････
-This castle was where...
-We sank it into the sea...
+The one in this castle,
+we sank into the sea...
 -----------------------
 <Harold>
 -----------------------
 #あんたたち、たしか
 #イクシフォスラー使ったのよね？
-You guys, I'm pretty sure...
-You used an Exisphoslar, right?
+You guys used
+an Exisphoslar, didn't you?
 -----------------------
 <Harold>
 -----------------------
 #なら、そのレンズを使えばいいじゃない
 #ソーディアンに使ったのと同じ
 #私の特別製だからエネルギーもバッチリよ
-If that's the case, just use that lens.
-Just like you did with the Sordian.
-It's my special creation, so the energy is perfect.
+Then just use that Lens.
+Same as what you used on the Swordian.
+It's my special creation, so the energy's perfect.
 -----------------------
 <Judas>
 -----------------------
 #だが、あれはどこに墜落したのか
 #わからないんだ
-But where did that crash?
-We don't know.
+But we don't know where that crashed.
 -----------------------
 <Judas>
 -----------------------
 #地上ならいいが、時空間の歪みに
 #まきこまれたりしていたら････
-On the surface, they should be fine.
-But if spacetime swept them away...
+If it's on the surface, fine.
+But if it got caught in a spacetime distortion...
 -----------------------
 <Harold>
 -----------------------
@@ -521,12 +518,12 @@ But if spacetime swept them away...
 #自動帰還機能をつけておいたのよ～ん！
 Heh heh!
 Just in case something like this happened,
-I made sure to install an auto-return feature~!
+I installed an auto-return feature~!
 -----------------------
 <Loni>
 -----------------------
 #････インチキくせえな、オイ
-Damn cheater, you are.
+...You're such a dirty cheater.
 -----------------------
 <Harold>
 -----------------------
@@ -547,7 +544,7 @@ We're after the hangar.
 <Kyle>
 -----------------------
 #よし、行こう、みんな！
-Well then, let's go, everyone!
+All right, let's go, everyone!
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -564,8 +561,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -599,7 +596,7 @@ notice
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{C2}{C0} but
+Found {16}{25}{C2}{C0}, but
 inventory is full already.
 -----------------------
 notice

@@ -1,8 +1,8 @@
 #蒼天都市ヴァンジェロ・噴水広場
-Azure City Vangelor - Fountain Plaza
+Azure City Vangelo - Fountain Plaza
 -----------------------
 #蒼天都市ヴァンジェロ
-The Azure City of Vangelor
+The Azure City of Vangelo
 -----------------------
 #噴水広場
 Fountain Plaza
@@ -13,17 +13,17 @@ Old Man
 #エルレインさまは、地上に恵みをもたらし
 #その恵みを受けたわしらの感謝の念が
 #祈りとなって、エルレインさまに返る････
-Elleyn brings blessings to the surface,
+Lady Elrane brings blessings to the surface,
 and our gratitude for those blessings
-returns to Elleyn as prayer...
+returns to her as prayer...
 -----------------------
 #おじいさん
 Old Man
 -----------------------
 #その関係をあらわしたのが
 #この噴水なんじゃよ
-This is what represents that relationship,
-is this fountain.
+That relationship is what
+this fountain represents.
 -----------------------
 #おじいさん
 Old Man
@@ -31,9 +31,9 @@ Old Man
 #エルレインさまと、わしらの関係････
 #それが、この噴水に
 #こめられているんじゃ
-The relationship between Elrein-sama and us...
-is contained within this fountain,
-in it.
+The relationship between Lady Elrane and us...
+is what this fountain
+embodies.
 -----------------------
 #おじいさん
 Old Man
@@ -41,8 +41,8 @@ Old Man
 #ここの噴水、おもしろいじゃろ？
 #一度落ちた水が、再びくみあげられ
 #ぐるぐる、めぐっているんじゃよ
-This fountain's pretty cool, isn't it?
-The water that falls down gets pumped back up again,
+Pretty interesting, this fountain, ain't it?
+The water falls once, then gets drawn back up,
 and goes round and round in a loop.
 -----------------------
 <Reala>
@@ -50,9 +50,9 @@ and goes round and round in a loop.
 #たしかに、不思議な形をしていますね
 #でも、なんでわざわざ
 #こんな形にしたんですか？
-True, it does have an unusual shape.
-But why go to the trouble...
-to make it shaped like that?
+It certainly has an unusual shape.
+But why go to the trouble
+of making it like this?
 -----------------------
 #おじいさん
 Old Man
@@ -60,15 +60,15 @@ Old Man
 #それはな、ここの噴水が
 #エルレインさまと
 #わしらの関係を表しているからじゃよ
-It's because this fountain here
-is symbolizing the relationship between Lady Elraine
-and us.
+It's because this fountain
+represents the relationship
+between Lady Elrane and us.
 -----------------------
 <Kyle>
 -----------------------
 #ちょうどいいや
 #ここで、ちょっと休んでこう
-Just perfect.
+Perfect timing.
 Let's take a quick break here.
 -----------------------
 <Loni>
@@ -77,46 +77,46 @@ Let's take a quick break here.
 #こんなに世界を変えちまうなんて
 #本当にできることなのか？
 I just can't wrap my head around it.
-To change the world so drastically...
-Is he really capable of doing that?
+Changing the world this much...
+Can anyone really do that?
 -----------------------
 <Judas>
 -----------------------
 #それに関して
 #ひとつ、気づいたことがある
-Regarding that
-I've noticed something
+Regarding that,
+I've noticed one thing.
 -----------------------
 <Judas>
 -----------------------
 #ここのドームは、建てられてから
 #相当時間がたっている
 #最低でも、百年単位だ
-This dome has been here since it was built,
-so quite a bit of time has passed.
-At least a hundred years.
+This dome has stood here
+for a considerable amount of time.
+At least a hundred years, by my estimate.
 -----------------------
 <Reala>
 -----------------------
 #つまり、こんな世界に変わったのは
 #ずいぶん昔からってことね
-In other words, it's been like this world for quite some time.
-So that means it's been this way for a very long time.
+So the world changed like this
+a very long time ago.
 -----------------------
 <Judas>
 -----------------------
 #おそらく、かなり前の歴史を
 #いじったからこそ、ドームも古いし
 #これだけ、様変わりしているのだろう
-We probably messed with history from quite some time ago,
-which is why the dome is so old
-and has changed so much.
+Most likely, history was altered
+far enough back that the dome is old,
+which explains how much everything has changed.
 -----------------------
 <Kyle>
 -----------------------
 #じゃあさ、どこらへんで
 #歴史が変わったの？
-So, where abouts...
+So then, whereabouts
 did history change?
 -----------------------
 <Judas>
@@ -124,16 +124,16 @@ did history change?
 #そこまでは、僕にもわからない
 #それを調べるためにも
 #別の街に行く必要がありそうだな
-I don't know about that far.
-To investigate that,
-It looks like we'll need to go to another town.
+I don't know that far.
+To find out,
+we'll likely need to visit another town.
 -----------------------
 <Kyle>
 -----------------------
 #よし、それじゃあ
 #別の街で、もっと情報を集めよう！
-Alright then,
-Let's gather more information in another town!
+Alright, then!
+Let's gather more info in another town!
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -150,8 +150,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -185,12 +185,11 @@ notice
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{C2}{C0} but
-inventory is full already.
+Found {16}{25}{C2}{C0}, but
+your inventory is already full.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

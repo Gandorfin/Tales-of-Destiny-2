@@ -10,35 +10,35 @@ Church
 #記帳がある
 #『ストレイライズ神殿フィリア＝フィリス』
 #と記帳されている
-It is recorded.
-Stray Rise Temple Philia = Philis
-as noted in the records.
+There's a guestbook.
+'Straylize Temple -- Philia Felice'
+is written inside.
 -----------------------
 #記帳がある
 #記帳者数は一万人を超えている
-There's an account book.
-The number of account holders exceeds ten thousand.
+There's a registry.
+The number of registered names exceeds ten thousand.
 -----------------------
 #『この配給品はいつもの方法で
 #リストから外すように』
 #と荷物に書かれている
-This ration is in the usual method
-Remove it from the list.
-It says 'Luggage' on it.
+'Handle this ration the usual way.
+Remove it from the list.'
+is written on the package.
 -----------------------
 NOTICE
 -----------------------
 #旧オベロン社製・全自動オルガンがあります
 #オルガンを鳴らしますか？
-It's an old, fully automatic organ manufactured by Oberon Corporation.
-Do you want to play the organ?
+An old Oberon Corporation fully automatic organ.
+Play the organ?
 -----------------------
 select
 -----------------------
 #<03:00000000>　鳴らす　
 #　やめておく　
-<03:00000000>Play it.
-I'll hold off.
+<03:00000000> Play it.
+Pass.
 -----------------------
 #キャンセル
 Cancel
@@ -48,9 +48,9 @@ Cancel
 #　配給品の横流しで穴埋めしておくように』
 #と書かれている
 There's paperwork.
-The monthly ledger notes that off-book expenses amounted to 25,000 Gald.
-'Make sure to cover the shortfall using diverted rations.'
-is written.
+'Off-book expenses this month: 25,000 Gald.
+Cover the shortfall by diverting rations as usual.'
+That's what's written.
 -----------------------
 #女の子
 Girl
@@ -58,9 +58,9 @@ Girl
 #お兄ちゃんが働いてくれてるおかげで
 #ゴハンを食べられるけど
 #ホントは一緒に暮らしたいな････
-Thanks to my brother working hard
-I can eat a meal.
-I really wish we could live together...
+My brother works so I can eat,
+but I really wish
+we could live together...
 -----------------------
 #女の子
 Girl
@@ -68,9 +68,9 @@ Girl
 #あたしのお兄ちゃんはね
 #アイグレッテに働きに行ってるんだよ
 #お給料がいいからって
-My big brother,
-is working at Igret.
-Just because he gets paid well.
+My big brother
+went to work in Aigrette.
+Said the pay's better there.
 -----------------------
 #女の子
 Girl
@@ -78,7 +78,7 @@ Girl
 #でも、ホントは
 #お兄ちゃんと一緒に
 #暮らしたいな････
-But actually,
+But really,
 I want to live together
 with my big brother...
 -----------------------
@@ -87,23 +87,23 @@ Girl
 -----------------------
 #あたしは、この街も
 #けっこう好きだけどな････
-I actually quite like this town,
-and all.
+I actually
+quite like this town, though...
 -----------------------
 #女の子
 Girl
 -----------------------
 #ね、アイグレッテって
 #そんなにいいトコなのかな？
-Hey, is Aigrette really...
+Hey, is Aigrette really
 such a great place?
 -----------------------
 <Kyle>
 -----------------------
 #どうして
 #そう思うんだい？
-Why?
-What makes you think that?
+Why
+do you think that?
 -----------------------
 #女の子
 Girl
@@ -111,9 +111,9 @@ Girl
 #オトナの人が、そういうんだよ
 #あそこに行けば仕事がある
 #おいしいモノも食べられるって
-That's just how adults are.
-There's work to be done over there.
-They say you can eat good food too.
+That's what the grown-ups say.
+That there's work there.
+That you can eat good food, too.
 -----------------------
 #女の子
 Girl
@@ -121,9 +121,9 @@ Girl
 #ラン、ララ、ラン♪
 #お兄ちゃんと一緒に暮らせる
 #うれしいな～♪
-Run, lala, run♪
-I get to live together with my big brother
-How wonderful~♪
+Run, la-la, run♪
+I get to live with my big brother
+I'm so happy~♪
 -----------------------
 #女の子
 Girl
@@ -131,8 +131,8 @@ Girl
 #ねェ聞いて！
 #アイグレッテで働いてたお兄ちゃんが
 #帰ってくるの！
-Hey, listen!
-My brother who works at Aigrette
+Hey, guess what!
+My brother who was working in Aigrette
 is coming back!
 -----------------------
 #女の子
@@ -141,8 +141,8 @@ Girl
 #これからは、ずっと一緒に
 #暮らせるんだって
 #うれしいな！
-From now on,
-we'll be able to live together.
+From now on, we'll always
+be together.
 I'm so happy!
 -----------------------
 <Loni>
@@ -151,8 +151,8 @@ I'm so happy!
 #俺たちも、いつか旅が終わったら
 #デュナミス孤児院に帰ろうな
 <Kyle>...
-We should head back to the Dunamis Orphanage once our journey's over.
-Let's go back to the Dunamis Orphanage.
+Once our journey's over,
+let's head back to the Dunamis Orphanage too.
 -----------------------
 #司祭
 Priest
@@ -160,7 +160,7 @@ Priest
 #この街が復興すれば
 #自然とレンズがあつまるようになります
 Once this town is rebuilt,
-lenses will naturally start to gather here.
+Lens will naturally begin to gather here.
 -----------------------
 #司祭
 Priest
@@ -168,18 +168,18 @@ Priest
 #そうすれば、アタモニ神の力で
 #この街を、昔以上に
 #すばらしいものにできるはずです
-With that power from the God Adamon,
-I can make this town
-even better than it was in the past.
+Then, through the power of Atamoni,
+this town can be made
+even greater than it once was.
 -----------------------
 <Loni>
 -----------------------
 #ハァ････
 #結局はレンズがなきゃ
 #なんにもできねえってことじゃねえか････
-Haa...
-In the end, without lenses,
-isn't that just saying we can't do anything...?
+Hah...
+So in the end, without Lens
+you can't do a damn thing, huh...
 -----------------------
 #司祭
 Priest
@@ -187,9 +187,9 @@ Priest
 #わたしは、この街に
 #昔のような活気をとりもどしたくて
 #アタモニ神団の神官になったんです
-I came to this town
-hoping to restore the vitality it once had,
-so I became a priestess of the Atamoni Shrine.
+I became a priest of the Order of Atamoni
+because I wanted to restore
+the vitality this town once knew.
 -----------------------
 #司祭
 Priest
@@ -197,9 +197,9 @@ Priest
 #今は、まだ
 #食料の配給だけで精一杯ですが
 #いつか希望をとりもどしてみせます
-For now, it's still...
-We're barely making ends meet on food rations alone,
-but someday I'll show you that we can reclaim our hope.
+For now, we're barely getting by
+on food rations alone, but someday
+I'll show you we can reclaim hope.
 -----------------------
 #司祭
 Priest
@@ -207,9 +207,9 @@ Priest
 #エルレインさまは
 #きっと、われわれを
 #幸福にみちびいてくださるはずです
-Lord Elrune
-is sure to
-guide us toward happiness.
+Lady Elrane
+will surely
+guide us to happiness.
 -----------------------
 #司祭
 Priest
@@ -217,9 +217,9 @@ Priest
 #今回は、苦労しましたが
 #けっこうな量のレンズを
 #エルレインさまにお渡しできました
-It was quite a struggle this time,
-I managed to gather
-a considerable amount of lenses to present to Lady Elle.
+It was quite a struggle, but
+I was able to present Lady Elrane
+with a considerable amount of Lens.
 -----------------------
 #司祭
 Priest
@@ -227,25 +227,25 @@ Priest
 #あのレンズが
 #すこしでも、この街の復興に
 #役だてばよいのですが
-If that lens
-can even slightly contribute to the city's recovery,
-I would be glad.
+I only hope that Lens
+can serve this town's recovery
+even a little.
 -----------------------
 <Loni>
 -----------------------
 #バカヤロウ！
 #あいつは街の復興なんて考えてねえ！
 #それどころか････、ちっくしょー!!
-Fool!
-He's not thinking about rebuilding the town at all!
-Not to mention... damn it!!
+You idiot!
+She's not thinking about rebuilding the town at all!
+If anything... Damn it!!
 -----------------------
 #司祭
 Priest
 -----------------------
 #今は、アタモニ神の教えのとおり
 #人の心を信じましょう
-Now, as taught by the God Atamoni,
+For now, as the teachings of Atamoni say,
 let us trust in people's hearts.
 -----------------------
 #司祭
@@ -254,9 +254,9 @@ Priest
 #まだ、この街のみなさんは
 #十八年前の事件を
 #心の中でひきずっているようです････
-It seems that many people in this town are still...
-...carrying the incident from eighteen years ago
-...in their hearts.
+It seems the people of this town
+are still carrying the incident
+from eighteen years ago in their hearts...
 -----------------------
 #司祭
 Priest
@@ -264,16 +264,16 @@ Priest
 #でも、いつかきっと
 #悲しみを乗りこえて
 #歩きだしてくれると信じてます
-But, someday surely
-Overcoming sorrow
-I believe you will start walking again
+But I believe that someday, surely,
+they will overcome their sorrow
+and begin to walk forward again.
 -----------------------
 #牧師
 Pastor
 -----------------------
 #地下はアタモニ神団の倉庫となっています
 #一般信者の方を通す事は出来ません
-The underground serves as a warehouse for the Atamoni Divine Order.
+The underground serves as a warehouse for the Order of Atamoni.
 Ordinary believers are not permitted entry.
 -----------------------
 #牧師
@@ -281,7 +281,7 @@ Pastor
 -----------------------
 #地下はストレイライズ神殿の倉庫となっています
 #一般信者の方を通す事は出来ません
-The underground serves as the storage facility for the Stray Rise Temple.
+The underground serves as a warehouse for Straylize Temple.
 Ordinary believers are not permitted entry.
 -----------------------
 #いってらっしゃいませ
@@ -299,8 +299,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -334,12 +334,11 @@ notice
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{C2}{C0} but
-inventory is full already.
+Found {16}{25}{C2}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

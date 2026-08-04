@@ -1,48 +1,48 @@
 #飛行竜
-Airship
+Flying Dragon
 -----------------------
 #飛行竜
-Airship
+Flying Dragon
 -----------------------
 #飛行竜
-Airship
+Flying Dragon
 -----------------------
 <Loni>
 -----------------------
 #飛行竜に追いついたのはいいけどよ
 #これから、どうするんだ？
-We caught up to the air dragon, but...
-So what are we going to do from here?
+We caught up to the flying dragon, but...
+what do we do now?
 -----------------------
 <Judas>
 -----------------------
 #レンズを奪還したとしても
 #持ち出せる量じゃない
-Even if we reclaim the lens,
-it's not enough to carry away.
+Even if we reclaim the Lens,
+we can't carry it all out.
 -----------------------
 <Judas>
 -----------------------
 #飛行竜の動力を止めて墜落させ
 #海に沈めるしかないな
-Stop the airship's engines and bring it down,
-we'll have no choice but to sink it into the sea.
+We'll have to stop its engines, crash it,
+and sink it into the sea.
 -----------------------
 <Loni>
 -----------------------
 #マジかよ････
-No way...
+You've gotta be kidding...
 -----------------------
 <Judas>
 -----------------------
 #動力室へ行くぞ、こっちだ！
-We're heading to the power room, this way!
+To the engine room. This way!
 -----------------------
 #回復しますか？（<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルド）
-Do you want to heal? (<0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald)
+Heal? (<0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald)
 -----------------------
 #回復しますか？（無料）
-Restore HP? (Free)
+Heal? (Free)
 -----------------------
 notice
 -----------------------
@@ -50,39 +50,39 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 notice
 -----------------------
 #回復しました
-Recovered.
+HP restored.
 -----------------------
 notice
 -----------------------
 #アイテムを補充しますか？
-Do you want to replenish items?
+Replenish items?
 -----------------------
 select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 notice
 -----------------------
 #鎖を登ってイクシフォスラーに戻ると
 #有料で回復やアイテムの補充が行えます
-Climbing up the chain brings you back to the Ixion Fortress.
-You can pay to have your HP restored and items replenished.
+Climb the chain to return to Ixion Fortress,
+where you can pay to heal and replenish items.
 -----------------------
 #いってらっしゃいませ
-Have a good day.
+Take care.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -92,8 +92,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -105,7 +105,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We hope to see you again.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -127,8 +127,8 @@ notice
 -----------------------
 #{16}{25}{D2}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{25}{D2}{C0}There was , but
-I couldn't hold it because it was full.
+Found {16}{25}{D2}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------
@@ -141,5 +141,5 @@ Time's up.
 noitce
 -----------------------
 #制御装置を破壊しました
-Destroyed the control device.
+Control device destroyed.
 -----------------------

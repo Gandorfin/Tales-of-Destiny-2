@@ -1,8 +1,8 @@
 #飛行竜
-Sky Dragon
+Flying Dragon
 -----------------------
 #飛行竜
-Airship
+Flying Dragon
 -----------------------
 #部屋のあちこちから、何かの気配を感じます
 I sense something from various parts of the room.
@@ -10,17 +10,17 @@ I sense something from various parts of the room.
 NOTICE
 -----------------------
 #体組織が行く手を阻んでいます
-Tissue is blocking our path.
+Organic tissue is blocking the path ahead.
 -----------------------
 NOTICE
 -----------------------
 #ソーサラーリングではビクともしません！
-I'm completely immune to Sorcerer Rings!
+Sorcerer's Rings have no effect!
 -----------------------
 notice
 -----------------------
 #マザーセルを焼き殺しました
-We burned the Mother Cell to death.
+We incinerated the Mother Cell.
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -37,8 +37,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -61,7 +61,7 @@ exit-party_togather( short spd )
 notice
 -----------------------
 #{16}{25}{DA}{C0}を手に入れました
-{16}{25}{DA}{C0}You obtained .
+Acquired {16}{25}{DA}{C0}.
 -----------------------
 notice
 -----------------------
@@ -72,8 +72,8 @@ notice
 -----------------------
 #{16}{25}{E2}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{25}{E2}{C0}There was , but
-I couldn't hold it because it was full.
+{16}{25}{E2}{C0} was found, but
+it couldn't be carried because the inventory was full.
 -----------------------
 notice
 -----------------------
@@ -88,4 +88,3 @@ noitce
 #制御装置を破壊しました
 Destroyed the control device.
 -----------------------
-

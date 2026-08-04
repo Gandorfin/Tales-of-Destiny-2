@@ -1,56 +1,55 @@
 #飛行竜
-Airship
+Flying Dragon
 -----------------------
 #飛行竜
-Airship
+Flying Dragon
 -----------------------
 #ガープ
-Garp
+Gaap
 -----------------------
 #････来たか
 #崇高な理念を理解できぬ
 #あわれなる者たちよ
-You've finally arrived.
-You fail to grasp our noble ideals.
+...So you've come.
+You who cannot comprehend our noble ideals.
 Pitiful souls.
 -----------------------
 <Nanaly>
 -----------------------
 #はいはい、勝手にあわれんでてよ
 #けど････レンズは、使わせないよ！
-Pfft, fine, pity me all you want.
-But... I'm not letting you use that lens!
+Yeah, yeah, pity me all you like.
+But... I'm not letting you use that Lens!
 -----------------------
 <Judas>
 -----------------------
 #すなおに、そこをどけ
 #邪魔だてするならば････斬る！
-Be honest and move out of my way.
-If you're going to get in my way... I'll cut you down!
+Move aside, now.
+Interfere, and I will cut you down.
 -----------------------
 #ガープ
-Garp
+Gaap
 -----------------------
 #<Reala>さま････
 #本当に、よろしいのか？
 <Reala>-sama...
-Are you truly certain?
+Is this truly what you wish?
 -----------------------
 #ガープ
-Garp
+Gaap
 -----------------------
 #神の救いを拒絶する者たちと
 #行動すること
 #とても聖女のすることとは思えません
-They who reject God's salvation,
-and act together.
-I find it hard to believe that is what a saint would do.
+To take action alongside those who reject salvation...
+I cannot believe such behavior befits a holy woman.
 -----------------------
 <Reala>
 -----------------------
 #････わたしの求めていた英雄は
 #<Kyle>だった
-......The hero I was looking for...
+......The hero I sought...
 was <Kyle>.
 -----------------------
 <Reala>
@@ -58,9 +57,9 @@ was <Kyle>.
 #だから、たとえどんな結果になろうと
 #彼と共に歩むわ
 #そう････決めたの
-So, no matter what happens...
-I'll walk alongside him.
-That's it... I've decided.
+And so, whatever may come...
+I shall walk with him.
+That is... my decision.
 -----------------------
 <Kyle>
 -----------------------
@@ -68,63 +67,63 @@ That's it... I've decided.
 <Reala>...
 -----------------------
 #ガープ
-Garp
+Gaap
 -----------------------
 #････あなたは
 #エルレインさまとは違いすぎる
 #そんなことでは、救いはもたらせはしない  
 ...You are
-Too different from Elrein-sama.
-That won't bring salvation.
+far too different from Elrane-sama.
+Such methods cannot bring salvation.
 -----------------------
 <Loni>
 -----------------------
 #ベラベラしゃべるのは、勝手だがな
 #そろそろどかねえと、痛い目みるぜ
-You can chatter all you want if that's what you're into.
-It's about time you moved out, or you'll get hurt.
+Talk all you want, that's your business.
+But if you don't move, you're gonna get hurt.
 -----------------------
 #ガープ
-Garp
+Gaap
 -----------------------
 #あくまで、飛行竜を止めるつもりか
 #ならば････！
-So you're determined to stop the Wyvern after all?
-In that case...!
+You would still stop the Flying Dragon?
+Then...!
 -----------------------
 #ガープ
-Garp
+Gaap
 -----------------------
 #おまえたちの相手は
 #このグラシャラボラスで十分だ
-Your opponent is
-this Grasharabolas.
+This Glasya-Labolas alone
+shall be your opponent.
 -----------------------
 <Loni>
 -----------------------
 #おいおい、そんなのアリかよ！
-No way, you're kidding me!
+Whoa, whoa, is that even allowed?!
 -----------------------
 <Nanaly>
 -----------------------
 #なんだい、腰が引けてるよ！
 #痛い目みせるんじゃなかったのかい？
-What's with you holding back?
-Weren't you going to show me what you've got?
+What's with the cold feet?
+Weren't you gonna show us what you've got?
 -----------------------
 <Judas>
 -----------------------
 #ムダ口はそこまでにしろ
 #来るぞ････！
-Cut the chatter.
-They're coming...!
+Enough idle talk.
+Here they come...!
 -----------------------
 #いってらっしゃいませ
-Have a good day.
+Welcome.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+That will be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -134,11 +133,11 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
-Have a good night.
+Please rest well.
 -----------------------
 #おはようございます
 Good morning.
@@ -147,7 +146,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We look forward to your next visit.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -169,8 +168,8 @@ notice
 -----------------------
 #{16}{25}{D2}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{25}{D2}{C0}There was , but
-I couldn't carry it because it was full.
+Found {16}{25}{D2}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------
@@ -183,6 +182,5 @@ Time's up.
 noitce
 -----------------------
 #制御装置を破壊しました
-Destroyed the control device.
+Control device destroyed.
 -----------------------
-

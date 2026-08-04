@@ -1,45 +1,45 @@
 #神のたまご・下層部
-God's Egg - Lower Level
+Egg of God - Lower Level
 -----------------------
 #神のたまご・下層部
-Divine Egg - Lower Level
+Egg of God - Lower Level
 -----------------------
 <Kyle>
 -----------------------
 #あれは････！
 #あそこに････エルレインがいる！
-That's it...!
-Over there... Elrein is there!
+There she is...!
+Over there... It's Elrane!
 -----------------------
 <Harold>
 -----------------------
 #いよいよ、神さまと
 #直接対決ってわけね！
-At last, it's time to face God,
-So we're going head-to-head!
+At last, it's time to face God
+head-on!
 -----------------------
 <Nanaly>
 -----------------------
 #ここまで、長かったね････
-It's been quite a journey, hasn't it?
+It's been a long road getting here...
 -----------------------
 <Judas>
 -----------------------
 #だが、まだ終わっていない
 #ここで負けてしまっては
 #元も子もない
-But it's not over yet.
-If I lose here,
-It'll all be for nothing.
+But it isn't over yet.
+If we lose here,
+it'll all be for nothing.
 -----------------------
 <Loni>
 -----------------------
 #縁起でもないこと、いうなよ
 #俺たちは絶対に勝つ！
 #そうだろ、<Kyle>？
-Don't jinx it.
-We're definitely going to win!
-That's right, <Kyle>, isn't it?
+Don't go saying unlucky stuff like that.
+We're gonna win, no matter what!
+Right, <Kyle>?
 -----------------------
 <Kyle>
 -----------------------
@@ -47,78 +47,78 @@ That's right, <Kyle>, isn't it?
 #オレたちは、勝つ！
 #そして････すべてを終わらせる！
 Of course!
-We're going to win!
-And... bring everything to an end!
+We're gonna win!
+And... put an end to all of this!
 -----------------------
 <Judas>
 -----------------------
 #そう、これで最後だ
 #やつらは、どんな手を使ってくるかわからん
 #準備だけは、しっかりしておけ
-This is it. This is the end.
-We don't know what tricks they'll pull next.
-Just make sure you're fully prepared.
+Yes. This is the end.
+We don't know what tricks they'll try.
+Make sure you're fully prepared.
 -----------------------
 <Loni>
 -----------------------
 #やれやれ、最後の最後まで
 #クールっていうか
 #さめてるっていうか
-Well, well, right up to the very end
-Cool, I mean
-Sober, I mean
+Sheesh, right up to the very end...
+Is he trying to play it cool,
+or is he just cold?
 -----------------------
 <Judas>
 -----------------------
 #おまえたちが、無鉄砲すぎるだけだ
-You're just being too reckless.
+You're simply too reckless.
 -----------------------
 <Nanaly>
 -----------------------
 #はいはい、そこまで！
 #まったく････最後までこんな調子かい？
-That's enough!
-Seriously... is that how you're going to play it till the end?
+All right, that's enough!
+Honestly... you're gonna be like this till the very end?
 -----------------------
 <Harold>
 -----------------------
 #いいんじゃない？
 #ヘンに緊張するより
 #よっぽどマシよ
-Isn't it better?
-Rather than getting unnecessarily tense,
-this is much better.
+What's wrong with that?
+It's way better than
+getting all wound up for no reason.
 -----------------------
 <Loni>
 -----------------------
 #････ハッハッハ
 #ちがいねえ！
 ...Hahaha!
-That's wrong!
+You got that right!
 -----------------------
 <Loni>
 -----------------------
 #それじゃ、いくとしますか！
-Well then, let's get going!
+Well then, shall we get going?
 -----------------------
 <Nanaly>
 -----------------------
 #ああ、やってやろうじゃないか！
-Oh, I'll do it!
+Yeah, let's go show 'em what we've got!
 -----------------------
 <Harold>
 -----------------------
 #私の頭脳が、神をも越えることを
 #証明してみせるわ！
-I'll show you my intellect surpassing even the gods.
-I will prove it!
+I'll prove that my intellect
+surpasses even the gods!
 -----------------------
 <Judas>
 -----------------------
 #やつらに、思い知らせてやろう
 #人の力というものを！
-I'll make them realize it.
-The true power of humanity!
+I'll make them understand
+the true power of humanity!
 -----------------------
 <Reala>
 -----------------------
@@ -131,7 +131,7 @@ Let's go, <Kyle>!
 Yeah, let's go, everyone!
 -----------------------
 #いってらっしゃいませ
-Have a good day.
+Welcome.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
@@ -145,11 +145,11 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
-Have a good night.
+Please rest well.
 -----------------------
 #おはようございます
 Good morning.
@@ -158,7 +158,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We hope to see you again.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -180,12 +180,11 @@ notice
 -----------------------
 #{16}{25}{D2}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{25}{D2}{C0}There was , but
-I couldn't hold it because it was full.
+Found {16}{25}{D2}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

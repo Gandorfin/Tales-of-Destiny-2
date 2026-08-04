@@ -1,5 +1,5 @@
 #神のたまご・中層部
-God's Egg - Middle Layer
+Egg of God - Middle Layer
 -----------------------
 #神のたまご・中層部
 Egg of God - Middle Layer
@@ -9,22 +9,22 @@ notice
 The treasure chest was a cheap trick.
 -----------------------
 #いってらっしゃいませ
-Have a good day.
+Come again soon.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
-Would you like to stay?
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald.
+Care to stay the night?
 -----------------------
 #お泊まりになりますか？
-Would you like to stay?
+Care to stay the night?
 -----------------------
 select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -36,7 +36,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We hope to see you again.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -66,4 +66,3 @@ notice
 #何もありません
 There's nothing here.
 -----------------------
-

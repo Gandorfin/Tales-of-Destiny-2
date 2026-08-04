@@ -1,8 +1,8 @@
 #蒼天都市ヴァンジェロ・配給所
-Distribution Center in Vangelor, the Azure City
+Distribution Center, Vangelo, the Azure City
 -----------------------
 #蒼天都市ヴァンジェロ
-The Azure City of Vangelor
+The Azure City of Vangelo
 -----------------------
 #配給所
 Distribution Center
@@ -13,17 +13,17 @@ Woman
 #服も、住まいも、食べ物も
 #みんなエルレインさまが、くださるのよ
 Our clothes, our homes, our food...
-It's all given to us by Lady Elle.
+It's all given to us by Lady Elrane.
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #それなのに、自分で作ってしまったら
 #エルレインさまの、お恵みを
 #否定するってことじゃない
-And yet, if I were to create it myself...
-The blessings bestowed upon us by Lady Elleyn,
-It's not as if I'm denying them.
+But if I made something myself...
+Wouldn't that mean rejecting
+the blessings Lady Elrane gives us?
 -----------------------
 <Nanaly>
 -----------------------
@@ -31,11 +31,11 @@ It's not as if I'm denying them.
 #自分の手で作るモノだからこそ
 #愛着がわいたりするんじゃないかい？
 I don't get it.
-It's because you're making something with your own hands,
-that you develop an attachment to it, right?
+Isn't it the things you make with your own hands
+that you end up loving the most?
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #あなたたち････
 #ずいぶん変わった服着てるのね
@@ -48,20 +48,19 @@ Do they hand out clothes like that in other towns?
 -----------------------
 #配られる？
 #自分でぬったりしないのかい？
-They're handing them out?
-Won't you sew them yourself?
+They hand them out?
+Don't you sew your own?
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #ぬう････ってなに？
 #そんなことする必要あるの？
 #だって何もかもエルレインさまが
 #くださるじゃない
-Nnn... What is it?
-Is that really necessary?
-Because everything Elrein-sama
-provides for us.
+Sew... what's that?
+Why would I need to do that?
+Everything comes from Lady Elrane.
 -----------------------
 #ショップマシン
 Shop Machine
@@ -69,7 +68,7 @@ Shop Machine
 #いらっしゃいませ
 #何がご要り用ですか？
 Welcome!
-What can I help you find?
+What can I get for you?
 -----------------------
 select
 -----------------------
@@ -99,8 +98,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -123,7 +122,7 @@ exit-party_togather( short spd )
 notice
 -----------------------
 #{16}{25}{B6}{C0}を手に入れました
-{16}{25}{B6}{C0}You obtained .
+{16}{25}{B6}{C0}Acquired .
 -----------------------
 notice
 -----------------------
@@ -134,12 +133,11 @@ notice
 -----------------------
 #{16}{25}{BE}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{25}{BE}{C0}There was , but
-I couldn't hold it because it was full.
+{16}{25}{BE}{C0}Found , but
+your inventory is full.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

@@ -1,8 +1,8 @@
 #アイグレッテ
-Iggreta
+Aigrette
 -----------------------
 #アイグレッテ
-Iguvette
+Aigrette
 -----------------------
 #ネコグッズがたくさん入っている
 It's full of cat merchandise.
@@ -11,129 +11,129 @@ It's full of cat merchandise.
 It contains cat food.
 -----------------------
 #ネコ好きのじいさん
-The old cat lover
+Cat-Loving Old Man
 -----------------------
 #コリャ！
 #ワシの大切なネコちゃんグッズに
 #さわってはいかん！
 Hey!
-Don't touch my precious cat merchandise!
-Not a chance!
+Don't touch my precious kitty merchandise!
+Hands off!
 -----------------------
 #ネコの置物だ
 It's a cat figurine.
 -----------------------
 #ネコ好きのじいさん
-The old cat lover
+Cat-Loving Old Man
 -----------------------
 #わしはネコ好きのじいさんじゃ
-I'm an old man who loves cats.
+I'm the cat-loving old man.
 -----------------------
 #ネコ好きのじいさん
-The old cat lover
+Cat-Loving Old Man
 -----------------------
 #････別名、命名じじいじゃ
-Or as they call him, Naming Grandpa.
+...Also known as the Naming Gramps.
 -----------------------
 #ネコ好きのじいさん
-The old cat lover
+Cat-Loving Old Man
 -----------------------
 #あー、キミたちにも
 #「ネコ好きの」じいさんのように
 #ステキな称号をつけてしんぜよう
-Ah, I'll give you guys too
-Just like that old man who loves cats
-I shall bestow upon you a splendid title
+Ah, you there!
+Just like "the cat-loving old man,"
+I shall bestow upon you a splendid title!
 -----------------------
 select
 -----------------------
 #<03:00000000>　お願いします　
 #　遠慮します　
-<03:00000000>I'll leave it to you.
+<03:00000000> Yes, please.
 No, thank you.
 -----------------------
 #ネコ好きのじいさん
-The old cat lover
+Cat-Loving Old Man
 -----------------------
 #････そうか････いらないのか････
 #気が変わったら、またきて下され
-...I see... so you don't need it...
+...I see... you don't want it...
 If you change your mind, come back anytime.
 -----------------------
 #ネコ好きのじいさん
-The old cat lover
+Cat-Loving Old Man
 -----------------------
 #お！命名してほしくなったかの？
 #ん？ん～？？？
-Oh! You want me to name it?
+Oh! Changed your mind about the naming?
 Hm? Hmm???
 -----------------------
 #ネコ好きのじいさん
-The old cat lover
+Cat-Loving Old Man
 -----------------------
 #それでは、キミたちにも
 #「ネコ好きの」じいさんのように
 #ステキな称号をつけてしんぜよう
 Now then, I shall bestow upon you all
-a title as splendid as that of
-the old cat lover.
+a title as splendid as
+"the cat-loving old man."
 -----------------------
 select
 -----------------------
 #<03:00000000>　お願いします　
 #　遠慮します　
-<03:00000000>Please.
-I'll pass.
+<03:00000000> Yes, please.
+No, thank you.
 -----------------------
 #ネコ好きのじいさん
-The old cat lover
+Cat-Loving Old Man
 -----------------------
 #ふが！････いらないのか････
 #そんな事言って、
 #実は、つけてほしいんじゃろ？ん？
 Hmph! ...You don't want it...?
-With you saying things like that,
-Actually, you do want me to wear it, right? Hmm?
+Saying things like that,
+when you actually want one, don't you? Hmm?
 -----------------------
 #ネコ好きのじいさん
-The old cat lover
+Cat-Loving Old Man
 -----------------------
 #わしはネコ好きのじいさんじゃ
 #う～ん　ネコちゃ～ん♪
-I'm just an old man who loves cats.
-Hmm~ Meow-chan ♪
+I'm the cat-loving old man.
+Mmm~ Kitty-chan ♪
 -----------------------
 #ネコ好きのじいさん
-The old cat lover
+Cat-Loving Old Man
 -----------------------
 #あー、キミたち！
 #わしのつけたステキな称号は
 #大切にしてるかね？
-Oh, you guys!
-The splendid title I bestowed upon you is
-being cherished?
+Ah, you there!
+Are you cherishing
+the splendid title I bestowed upon you?
 -----------------------
 <Harold>
 -----------------------
 #私につけた変なやつ、変えなさいよ！
-Take that weird thing you put on me off!
+Change this weird thing you gave me!
 -----------------------
 #ネコ好きのじいさん
-The old cat lover
+Cat-Loving Old Man
 -----------------------
 #<size:00000180>断じて変えん！
-<size:00000180>I won't change my mind!
+<size:00000180>I shan't change it!
 -----------------------
 #ネコ好きのじいさん
-The old cat lover
+Cat-Loving Old Man
 -----------------------
 #わしはネコ好きのじいさんじゃ
 #う～ん　ネコちゃ～ん♪
-I'm just an old man who loves cats.
-Mmm~ Meow-chan ♪
+I'm the cat-loving old man.
+Mmm~ Kitty-chan ♪
 -----------------------
 #ネコ好きのじいさん
-The old cat lover
+Cat-Loving Old Man
 -----------------------
 #おお！　そうかそうか！
 #････ところでの････
@@ -141,198 +141,197 @@ Oh! I see, I see!
 ...By the way...
 -----------------------
 #ネコ好きのじいさん
-The old cat lover
+Cat-Loving Old Man
 -----------------------
 #わしは、ネコの小物を集めておるんじゃ！
 #アクアヴェイル名物の
 #「<item:00000030>」が欲しいのぉ････
-I'm collecting all sorts of cat accessories!
-A specialty of Aqua Veil
-I want "<item:00000030>"...
+I'm collecting cat accessories!
+There's a famous Aquaveil specialty
+called "<item:00000030>" that I want...
 -----------------------
 select
 -----------------------
 #<03:00000000>　<item:00000030>をあげる　
 #　<item:00000030>をあげない　
-<03:00000000><item:00000030>I'll give you  .
-<item:00000030>I won't give you .
+<03:00000000> Give him <item:00000030>.
+Don't give him <item:00000030>.
 -----------------------
 #ネコ好きのじいさん
-The old cat lover
+Cat-Loving Old Man
 -----------------------
 #おお！　本当かの！
 #う～ん　ネコちゃ～ん♪
-Whoa! Is that really true?
-Hmm~ Miss Cat~ ♪
+Oh! Is that really true?!
+Mmm~ Kitty-chan ♪
 -----------------------
 notice
 -----------------------
 #<item:00000030>をあげました
-<item:00000030>I gave .
+Gave <item:00000030>.
 -----------------------
 #ネコ好きのじいさん
-The old cat lover
+Cat-Loving Old Man
 -----------------------
 #おお！　幸運のネコちゃんが
 #六人いないとダメだと言っておる！
-Oh! Lucky little kitty!
-He said we need six people!
+Oh! The lucky kitty says
+we need six people!
 -----------------------
 notice
 -----------------------
 #<item:00000030>を返してくれました
-<item:00000030>was returned to us.
+<item:00000030> was returned.
 -----------------------
 #ネコ好きのじいさん
-The old cat lover
+Cat-Loving Old Man
 -----------------------
 #････さみしいのぉ････
-...I'm so lonely...
+...So lonely...
 -----------------------
 #ネコ好きのじいさん
-The old cat lover
+Cat-Loving Old Man
 -----------------------
 #わしは、ネコの小物を集めておるんじゃ！
 #アクアヴェイル名物の
 #「<item:00000030>」が欲しいのぉ････
-I'm collecting all sorts of cat accessories!
-A specialty of Aqua Veil
-I want "<item:00000030>"...
+I'm collecting cat accessories!
+There's a famous Aquaveil specialty
+called "<item:00000030>" that I want...
 -----------------------
 #ネコ好きのじいさん
-A cat-loving old man
+Cat-Loving Old Man
 -----------------------
 #いや････ただのひとりごとじゃ････
-No... just talking to myself.
+No... merely talking to myself...
 -----------------------
 #ネコ好きのじいさん
-The old cat lover
+Cat-Loving Old Man
 -----------------------
 #････アクアヴェイル名物の
 #<item:00000030>が
 #欲しいのぉ････
-...the specialty of Aqua Veil is...
-<item:00000030>is
-what I want...
+...I want the famous Aquaveil specialty,
+<item:00000030>...
 -----------------------
 #ネコ好きのじいさん
-The old cat lover
+Cat-Loving Old Man
 -----------------------
 #いや････あくまでこれは
 #ひとりごとじゃ････
-No... this is merely
-just a mutter to myself...
+No... this is nothing more than
+talking to myself...
 -----------------------
 #ネコ好きのじいさん
-The old cat lover
+Cat-Loving Old Man
 -----------------------
 #<item:00000030>は
 #アクアヴェイルのおみやげ屋で
 #売っているそうじゃのぉ････
-<item:00000030>is
-at the Aqua Vale souvenir shop
-they say they sell it there.
+They say <item:00000030> is sold
+at the souvenir shop in Aquaveil...
 -----------------------
 #ネコ好きのじいさん
-A cat-loving old man
+Cat-Loving Old Man
 -----------------------
 #うひゃひゃひゃ！
 #では、みんな一列に並んでくだされ～！
-Hehehe!
-Now then, everyone please line up in a row~!
+Uhyahyahya!
+Now then, everyone line up in a row~!
 -----------------------
 #ネコ好きのじいさん
-The old cat lover
+Cat-Loving Old Man
 -----------------------
 #では、皆に
 #お似合いの称号をつけてしんぜよう
-Now then,
-let us bestow upon each of you a title that suits you well.
+Now then, let me bestow upon each of you
+a title befitting your character.
 -----------------------
 #ネコ好きのじいさん
-The old cat lover
+Cat-Loving Old Man
 -----------------------
 #ふーむ････ふーむ････
 Hmm... hmm...
 -----------------------
 #ネコ好きのじいさん
-The old cat lover
+Cat-Loving Old Man
 -----------------------
 #おぬしは、疾風の<Kyle>じゃ！
-You are the wind's <Kyle>!
+You shall be <Kyle> of the Gale!
 -----------------------
 #ネコ好きのじいさん
-The old cat lover
+Cat-Loving Old Man
 -----------------------
 #そして････
-And then...
+And next...
 -----------------------
 #ネコ好きのじいさん
-The old cat lover
+Cat-Loving Old Man
 -----------------------
 #おぬしは、暴れん坊番長<Loni>じゃ！
-You're the rowdy boss, <Loni>!
+You shall be <Loni>, the Rowdy Ringleader!
 -----------------------
 <Loni>
 -----------------------
 #おい！　ふざけんな！　コラ！
-Hold on! Don't mess around! Hey!
+Hey! You gotta be kidding me! Hey!
 -----------------------
 <Loni>
 -----------------------
 #認めねぇ！　絶対に認めねぇ！　今すぐ考え直せ！
 #もっとかっこいいやつにしろ！　殴るぞコラ！
-I won't accept it! I absolutely refuse to accept it! Think about it right now!
-Make it look cooler! Or I'll punch you!
+I don't accept this! I absolutely refuse!
+Take it back right now!
+Give me something cooler or I'll punch ya!
 -----------------------
 <Harold>
 -----------------------
 #暴れん坊番長が
 #ぴったりじゃない
-The unruly gang leader is
-a perfect fit
+Rowdy Ringleader?
+Fits you perfectly.
 -----------------------
 #ネコ好きのじいさん
-The old cat lover
+Cat-Loving Old Man
 -----------------------
 #あううう････雷鳴の<Loni>････
-Auuu... <Loni> the Thunder's roar...
+Auuu... <Loni> of Thunder...
 -----------------------
 #ネコ好きのじいさん
-The old cat lover
+Cat-Loving Old Man
 -----------------------
 #それと、黒衣の<Judas>！
-And also, that black-clad <Judas>!
+And <Judas>, the Black-Clad!
 -----------------------
 #ネコ好きのじいさん
-The old cat lover
+Cat-Loving Old Man
 -----------------------
 #陽光の<Reala>！　どうじゃ!?
-The sun's <Reala>! How about that?!
+<Reala> of Sunlight! How's that?!
 -----------------------
 #ネコ好きのじいさん
-The old cat lover
+Cat-Loving Old Man
 -----------------------
 #流星の<Nanaly>！　イカスじゃろ！
-Meteor <Nanaly>! That's awesome!
+<Nanaly> of Shooting Stars! Ain't it snazzy!
 -----------------------
 #ネコ好きのじいさん
-The old cat lover
+Cat-Loving Old Man
 -----------------------
 #それと････ふーむ････
-And... hmm...
+And then... hmm...
 -----------------------
 <Harold>
 -----------------------
 #最後は私ね！
 #最後というのがちょっと気にいらないけど
 #まあ、トリを務めてあげる
-I'll take the final spot!
-It's a bit annoying that it's 'the end', but...
-Well, I suppose I can play the lead role.
+I'm last, then!
+Being last is a bit annoying, but...
+Well, I'll graciously take the finale.
 -----------------------
 #ネコ好きのじいさん
-The old cat lover
+Cat-Loving Old Man
 -----------------------
 #ふーむ････ふーむ････
 Hmm... hmm...
@@ -342,15 +341,15 @@ Hmm... hmm...
 #ほら！　ほら！
 #天才である私を称えるような
 #素晴らしいものを考えなさい
-Look! Look!
-Come up with something wonderful,
-something worthy of praising me, the genius.
+Come on! Come on!
+Think of something wonderful,
+something worthy of praising a genius like me!
 -----------------------
 #ネコ好きのじいさん
-A cat-loving old man
+Cat-Loving Old Man
 -----------------------
 #<size:000000D0>ふーむ････ふーむ････
-<size:000000D0>Hmm... hmm...
+<size:000000D0> Hmm... hmm...
 -----------------------
 <Harold>
 -----------------------
@@ -359,74 +358,74 @@ A cat-loving old man
 #キューティとか････ビューティとか････
 #頭脳明晰、才気煥発でもいいわよ
 Come on! What's wrong?
-You've got plenty of words to choose from!
-Cuty or... Beauty or...
-I'd go for sharp-witted and brilliant too.
+You've got plenty of words, don't you?
+Cutie or... Beauty or...
+Brilliant and talented would work too.
 -----------------------
 #ネコ好きのじいさん
-The old cat lover
+Cat-Loving Old Man
 -----------------------
 #<size:000000A0>ふーむ････ふーむ････
-<size:000000A0>Hmm... hmm...
+<size:000000A0> Hmm... hmm...
 -----------------------
 <Harold>
 -----------------------
 #もう････全然ダメね！
 #何が命名じじいよ
 #才能ないんじゃない!?　しょせん凡人よね････
-I'm completely useless!
-What kind of name is 'Grandpa Namer'?
-You don't have any talent, do you? You're just an ordinary person after all...
+Ugh... you're completely hopeless!
+Some 'Naming Grandpa' you are!
+You've got no talent at all! You're just a commoner...
 -----------------------
 #ネコ好きのじいさん
-The old cat lover
+Cat-Loving Old Man
 -----------------------
 #むむむむむ！！！！！！！！
-Uuuugh!!!!!!
+Mmmmmmmgh!!!!!!!!
 -----------------------
 #ネコ好きのじいさん
-The old cat lover
+Cat-Loving Old Man
 -----------------------
 #<size:00000180>ねぐせ<Harold>じゃ！
-<size:00000180>It's my usual self, <Harold>!
+<size:00000180> It's Bedhead <Harold>!
 -----------------------
 <Harold>
 -----------------------
 #なにそれぇ！
 #認めないわ！　断じて認めないわ！
 #没！　絶対に没！
-What's that!?
-I don't accept it! I absolutely won't accept it!
-No way! Absolutely no way!
+What is THAT?!
+I don't accept it! I absolutely refuse!
+Rejected! Completely rejected!
 -----------------------
 #ネコ好きのじいさん
-The old cat lover
+Cat-Loving Old Man
 -----------------------
 #いいや！　絶対にねぐせ<Harold>じゃ！
-No way! It's definitely <Harold>'s stubbornness!
+No way! It's definitely Bedhead <Harold>!
 -----------------------
 #ネコ好きのじいさん
-A cat-loving old man
+Cat-Loving Old Man
 -----------------------
 #<size:00000180>断じて変えん！　決定！
-<size:00000180>I won't change my mind! Decision made!
+<size:00000180>I absolutely won't change it! It's decided!
 -----------------------
 #ネコ好きのじいさん
-The old cat lover
+Cat-Loving Old Man
 -----------------------
 #<size:00000200>これで、決定！！！！
-<size:00000200>With that, it's decided!!!!
+<size:00000200>With this, it's decided!!!!
 -----------------------
 notice
 -----------------------
 #<Kyle>たちは称号を得ました
-<Kyle>[L1C1] got their title.
+<Kyle> earned a title!
 -----------------------
 #にゃあ
-Meow
+Meow.
 -----------------------
 #いってらっしゃいませ
-Have a good day.
+Come again soon.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
@@ -440,8 +439,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -453,7 +452,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We hope to see you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -475,12 +474,11 @@ notice
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{C2}{C0} but
-inventory is full already.
+Found {16}{25}{C2}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

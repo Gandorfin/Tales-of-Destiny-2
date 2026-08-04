@@ -2,7 +2,7 @@
 Chelsea's Hut
 -----------------------
 #チェルシーの小屋
-Chesta's Hut
+Chelsea's Hut
 -----------------------
 #チェルシーの小屋
 Chelsea's Hut
@@ -15,7 +15,7 @@ Chelsea
 #「永遠の王子さま」だものね
 A bit girly, huh...
 Hehe, maybe so!
-She's the 'Prince Charming' type after all.
+After all, he's my "Prince Charming" forever.
 -----------------------
 #チェルシー
 Chelsea
@@ -24,14 +24,14 @@ Chelsea
 #わたしの中のあなたは
 #いつまでも、王子さまの、ままですよ
 ...But it's true.
-The you inside me...
-Will always remain Prince Charming.
+To me, you'll always
+be Prince Charming.
 -----------------------
 #チェルシー
 Chelsea
 -----------------------
 #････ウッドロウさま
-......Lord Woodrow.
+......Lord Garr.
 -----------------------
 #チェルシーの小屋
 Chelsea's Hut
@@ -42,29 +42,29 @@ A small house
 NOTICE
 -----------------------
 #<item:000000EB>を手に入れました
-<item:000000EB>You obtained .
+Acquired <item:000000EB>.
 -----------------------
 #青年を描いた絵が入っている
 #････若き日のウッドロウ王のようだ
-It contains a painting depicting a young man.
-...It looks just like King Woodrow in his youth.
+It contains a painting of a young man.
+...It looks like King Garr in his youth.
 -----------------------
 #戸棚の中には本が入っていた
 #『本当にケヤキさんと会話する百の方法』
-The cabinet contained books.
+Inside the cabinet were books.
 'One Hundred Ways to Talk to Mr. Keyaki'
 -----------------------
 #男性用の青い鎧が入っている
 #ずいぶんと古びているが、誰の物だろう？
-It contains blue armor designed for men.
-It's quite worn down, but whose is it?
+It contains blue armor for a man.
+It's quite worn, but whose could it be?
 -----------------------
 #････なぜベッドがふたつあるのだろう
 #お客様用だろうか？
 #それにしても、ふたつ並べて置くのは妙な気が････
 ...I wonder why there are two beds.
 Are they for guests?
-Still, it's a bit strange to have them placed side by side...
+Still, it's odd to place them side by side...
 -----------------------
 #チェルシー
 Chelsea
@@ -74,7 +74,7 @@ Chelsea
 #ホント、ありがとう
 <Kyle>!
 You really saved my hide.
-I mean it, thanks.
+I mean it. Thank you.
 -----------------------
 #チェルシー
 Chelsea
@@ -91,40 +91,40 @@ Woman
 #お客さんだなんて！
 #どうしたの？　道にでも、迷った？
 Out here?
-And you're a customer!
-What's wrong? Did you get lost on your way?
+And we have a customer!
+What's wrong? Did you get lost?
 -----------------------
 <Kyle>
 -----------------------
 #いや、そういうわけじゃ
 #ないんだけど････
-No, that's not it.
+No, that's not it,
 but...
 -----------------------
 <Kyle>
 -----------------------
 #おねえさん、ここに
 #ひとりで住んでるの？
-Sis, over here.
-Do you live alone?
+Miss, do you
+live here alone?
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #「おねえさん」じゃなくて
 #チェルシーよ
 #チェルシー＝トーン
-Not "big sis"
+Not "miss."
 It's Chelsea.
-Claire Tone.
+Chelsea Torn.
 -----------------------
 #チェルシー
 Chelsea
 -----------------------
 #ちょっとここで
 #やることがあってね
-Just a moment here.
-I've got something to take care of.
+I have some business
+to take care of here.
 -----------------------
 <Kyle>
 -----------------------
@@ -135,7 +135,7 @@ Here?
 Chelsea
 -----------------------
 #そう、ここでしかできないこと
-Yes, things you can't do anywhere else.
+Yes. Things you can only do here.
 -----------------------
 #チェルシー
 Chelsea
@@ -151,8 +151,8 @@ but it holds many memories for me.
 -----------------------
 #本当にここに、街があったの？
 #今は、なにもないよね？
-Was there really a town here?
-Now, there's nothing left, right?
+There was really a town here?
+There's nothing left now, right?
 -----------------------
 #チェルシー
 Chelsea
@@ -166,8 +166,8 @@ Eighteen years ago.
 -----------------------
 #そっか････先の騒乱のときに
 #ベルクラントで壊されたのか････
-I see... During that earlier disturbance...
-It was destroyed in Belkranth...
+I see... So during that earlier disturbance...
+it was destroyed by Belcrant...
 -----------------------
 #チェルシー
 Chelsea
@@ -175,23 +175,23 @@ Chelsea
 #ええ、ベルクラントの直撃を受けて
 #失われてしまったわ
 #その街の名前は「ジェノス」
-It's true, after being struck directly by Belkrand.
-It was lost.
-The name of that town is 'Genos'.
+Yes. It was struck directly by Belcrant
+and lost.
+The name of that town was 'Janos.'
 -----------------------
 #チェルシー
 Chelsea
 -----------------------
 #わたしは、その街を
 #また作ろうと思っているの
-I plan to
+I intend to
 rebuild that town.
 -----------------------
 <Kyle>
 -----------------------
 #どうして、街を直そうとするの？
 #すごく大変でしょ？
-Why are you trying to fix up the town?
+Why are you trying to rebuild the town?
 It's going to be a huge hassle, isn't it?
 -----------------------
 #チェルシー
@@ -200,9 +200,9 @@ Chelsea
 #ええ、確かに大変よ
 #土地はベルクラントのせいで
 #荒れ果ててしまったし
-Yes, it was certainly difficult.
-The land is because of Belklot
-and has become desolate.
+Yes, it certainly is.
+The land was left barren
+by Belcrant's wrath.
 -----------------------
 #チェルシー
 Chelsea
@@ -210,9 +210,9 @@ Chelsea
 #でも････それでも
 #ここに住んでた人たちにとっては
 #故郷であることに、変わりないわ
-But...
-To those who lived here,
-It's still their homeland.
+But... even so,
+to the people who lived here,
+this is still their homeland.
 -----------------------
 #チェルシー
 Chelsea
@@ -220,17 +220,17 @@ Chelsea
 #故郷を････帰るべき家を
 #失った悲しみは
 #わたし、すごくよく分かるから････
-The hometown... the home I should return to.
-The sorrow of losing it...
-I understand that feeling very well...
+Losing your hometown...
+the home you should return to...
+I know that sorrow all too well...
 -----------------------
 #チェルシー
 Chelsea
 -----------------------
 #だから、彼らの
 #帰るべき家を作りたいの
-So, their
-I want to build a home I can return to.
+That's why I want to build them
+a home they can return to.
 -----------------------
 #チェルシー
 Chelsea
@@ -238,14 +238,14 @@ Chelsea
 #そして、もう一度
 #大切な人と、ともに
 #暮らせるようにしたいの
-And once again,
-Alongside those dear to me.
-I want us to be able to live together.
+And I want them to be able to live
+together with the people they love
+once again.
 -----------------------
 <Kyle>
 -----------------------
 #もう一度、大切な人と････
-One more time, with someone dear to me...
+Together with someone dear to me, once more...
 -----------------------
 #チェルシー
 Chelsea
@@ -257,36 +257,36 @@ What's wrong?
 -----------------------
 #いや････オレも、同じかもって
 #なんとなく････思ったんだ
-No... I might feel the same way.
-I just had a hunch.
+No... I just got this feeling
+that maybe I'm the same way.
 -----------------------
 #チェルシー
 Chelsea
 -----------------------
 #そっか････きみも
 #とり戻そうとしてるんだ
-I see... so you're...
-...trying to get it back.
+I see... so you're
+trying to get it back too.
 -----------------------
 <Kyle>
 -----------------------
 #よく、わかんないけど････
 #そうかも、しれない
-I don't really get it...
-Maybe so.
+I don't really get it, but...
+maybe so.
 -----------------------
 #チェルシー
 Chelsea
 -----------------------
 #じゃ、わたしたちは仲間ってことね
 #おたがい、がんばりましょう！
-So, we're partners then?
-Let's do our best together!
+Then we're comrades, aren't we?
+Let's both do our best!
 -----------------------
 <Kyle>
 -----------------------
 #うん！
-Yes!
+Yeah!
 -----------------------
 #チェルシー
 Chelsea
@@ -294,9 +294,9 @@ Chelsea
 #わたしも、あなたも
 #失われたものを、とり戻すために生きてる
 #仲間ってところか
-I too, you as well
-We live to reclaim what was lost
-So we're comrades then
+Both you and I are living
+to reclaim what we've lost.
+I suppose that makes us comrades.
 -----------------------
 #チェルシー
 Chelsea
@@ -305,8 +305,8 @@ Chelsea
 #あなたの失われたものも
 #取り戻せるといいわね
 Let's both do our best!
-And what you've lost as well
-I hope we can get it back.
+I hope you can reclaim
+what you've lost as well.
 -----------------------
 #チェルシー
 Chelsea
@@ -315,7 +315,7 @@ Chelsea
 Error
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #こんなところに
 #お客さんだなんて！
@@ -328,88 +328,87 @@ What's wrong? Did you get lost?
 -----------------------
 #いや、そういうわけじゃ
 #ないんだけど････
-No, that's not it.
-But...
+No, that's not it,
+but...
 -----------------------
 <Kyle>
 -----------------------
 #おねえさん、ここに
 #ひとりで住んでるの？
-Sis, over here.
-Do you live alone?
+Miss, do you live
+out here all alone?
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #ええ、そうよ
 #ちょっとここで
 #やることがあってね
 Yes, that's right.
-Hold on a moment.
-I have something to take care of.
+I have something I need to do here.
 -----------------------
 <Kyle>
 -----------------------
 #こんなところで？
-Here?
+Out here?
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #そう、ここでしかできないこと
-Yes, something you can only do here.
+Yes. Something only I can do here.
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #ここには以前、街があったの
 #それほど大きくはなかったけど
 #わたしにとっては、思い出深い街が
 There used to be a town here.
 It wasn't very large,
-But it's a place filled with memories for me.
+but it holds so many memories for me.
 -----------------------
 <Kyle>
 -----------------------
 #本当にここに、街があったの？
 #今は、なにもないよね？
-Was there really a town here?
-Now, there's nothing left, right?
+There was really a town here?
+There's nothing left now, right?
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #そう、なくなってしまったの
 #十八年前にね
-It's true, it's gone.
+Yes, it's gone.
 Eighteen years ago.
 -----------------------
 <Loni>
 -----------------------
 #そっか････先の騒乱のときに
 #ベルクラントで壊されたのか････
-I see... During that earlier disturbance...
-It was destroyed in Belkranth...
+I see... So it was destroyed by Belcrant
+during the unrest...
 -----------------------
 <Kyle>
 -----------------------
 #十八年前ってことは････
 #騒乱の時に、ベルクラントで？
-So that means eighteen years ago...
-In the midst of the unrest, in Belklot?
+Eighteen years ago...
+So during the unrest, Belcrant...?
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #ええ、ベルクラントの直撃を受けて
 #失われてしまったわ
 #その街の名前は「ジェノス」
-Yes, after being struck directly by Belkrand
-It was lost
-The name of that town is 'Genos'
+Yes, it was struck directly by Belcrant
+and lost.
+The name of that town was 'Genos'.
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #わたしは、その街を
 #また作ろうと思っているの
@@ -420,46 +419,46 @@ rebuild that town.
 -----------------------
 #どうして、街を直そうとするの？
 #すごく大変でしょ？
-Why are you trying to restore the town?
+Why are you trying to rebuild the town?
 It's going to be a huge hassle, isn't it?
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #ええ、確かに大変よ
 #土地はベルクラントのせいで
 #荒れ果ててしまったし
-Yes, it was certainly tough.
-The land is because of Belklot
-It has become desolate.
+Yes, it certainly is difficult.
+The land was left barren
+by Belcrant's wrath.
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #でも････それでも
 #ここに住んでた人たちにとっては
 #故郷であることに、変わりないわ
-But...
-To those who lived here,
-It's still their homeland.
+But... even so,
+to the people who lived here,
+this is still their homeland.
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #故郷を････帰るべき家を
 #失った悲しみは
 #わたし、すごくよく分かるから････
-The hometown... the home I should have returned to.
-The sorrow of losing it,
-I understand that feeling very well...
+Losing your hometown...
+the home you should return to...
+I know that sorrow all too well...
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #だから、彼らの
 #帰るべき家を作りたいの
-That's why, I want to create a home for them
-to return to
+So I want to build a home
+for them to come back to.
 -----------------------
 <Kyle>
 -----------------------
@@ -467,32 +466,32 @@ to return to
 I see...
 -----------------------
 #女性
-woman
+Chelsea
 -----------------------
 #な～んて、エラそうなこといってるけど
 #自分ひとりが暮らしていくのにも
 #不自由してるのが、実情よ
-I'm talking big, but...
-Even just living on my own,
-is pretty much a struggle in reality.
+Not that I should be talking so high and mighty.
+The truth is, I can barely
+even get by on my own.
 -----------------------
 #女性
-woman
+Chelsea
 -----------------------
 #自給自足ができれば、まだいいんだけど
 #それも、外があのありさまじゃ、ね
-It's fine if we can live off the land.
-But even that's tough with things looking so bad out there.
+Self-sufficiency would be one thing,
+but with the land in that state...
 -----------------------
 #女性
-Woman
+Chelsea
 -----------------------
 #だから、弓を作って
 #ハイデルベルグに売りにいって
 #そのお金で、買い出しをしてるの
-So, make a bow
-and sell it in Heidelburg
-then use that money to go shopping.
+That's why I make bows,
+sell them in Heidelberg,
+and use the money to buy supplies.
 -----------------------
 <Kyle>
 -----------------------
@@ -500,97 +499,95 @@ then use that money to go shopping.
 You can make bows?
 -----------------------
 #女性
-woman
+Chelsea
 -----------------------
 #こう見えても、弓には自信があるわよ
 #作るほうはもちろん、撃つほうもね
-Don't let appearances fool you; I'm confident in my archery.
-Not just in making them, but in shooting them too.
+I may not look it, but I'm quite confident with a bow.
+That goes for making them and shooting them alike.
 -----------------------
 #女性
-woman
+Chelsea
 -----------------------
 #おじいちゃんが
 #「ファンダリアに、その人あり」って
 #いわれるぐらいの弓の名手だったからね
-Grandpa was
-the kind of person who was known as
-a master archer
+My grandpa was a legendary archer,
+the kind people would say
+"Phandaria has its master" about.
 -----------------------
 <Kyle>
 -----------------------
 #へぇ････！
 #じゃあさ、頼めば
 #作ってくれたりする!?
-Oh really...!
-So then, if I ask you to,
-you'll make it for me!?
+Whoa, really?!
+So if I asked, you'd make one for me?!
 -----------------------
 #女性
-Woman
+Chelsea
 -----------------------
 #もちろん！
 Of course!
 -----------------------
 #女性
-woman
+Chelsea
 -----------------------
 #････と、いいたいところだけど
 #今は、街の復興に専念しているから
 #暮らしていけるだけの分しか、作らないの
-...Well, that's what I'd say,
-but right now we're focusing on rebuilding the town.
-We only produce enough to get by.
+...is what I'd like to say,
+but right now I'm devoting myself to rebuilding the town.
+I only make enough to get by.
 -----------------------
 #女性
-Woman
+Chelsea
 -----------------------
 #あ、でも、復興に協力してくれるなら
 #作ってあげても、いいわよ
-Ah, but if you're going to help with the reconstruction...
-I'll make it for you.
+Ah, but if you help with the reconstruction...
+I'd be happy to make one for you!
 -----------------------
 <Kyle>
 -----------------------
 #復興に協力するって
 #どんなことすればいいの？
-You're going to help with the reconstruction?
-What exactly do we need to do?
+Help with the reconstruction?
+What would I need to do?
 -----------------------
 #女性
-woman
+Chelsea
 -----------------------
 #今、ひとりで買い出しにいってるでしょ？
 #重かったり、数が多すぎて
 #運べないものが、結構あるのよ
-You're out shopping alone right now, aren't you?
-If it's too heavy or there are just too many items,
-there's quite a bit that I can't carry.
+I go shopping by myself, right?
+There are plenty of things that are too heavy
+or too numerous for me to carry.
 -----------------------
 #女性
-woman
+Chelsea
 -----------------------
 #そういうものを
 #買ってきてくれたら
 #弓、作ってあげるわ！
-If you get something like that
-and buy it for me,
+If you buy things like that for me,
 I'll make you a bow!
 -----------------------
 <Kyle>
 -----------------------
 #わかった！
-I got it!
+You got it!
 -----------------------
 #女性
-woman
+Chelsea
 -----------------------
 #商談成立ね！
 #それじゃ、よろしく！
 #えーと････
-The deal is official!
-Then it's a deal!
-Well...
+It's a deal, then!
+I'm counting on you!
+Now then...
 -----------------------
 <Kyle>
 -----------------------
@@ -604,20 +601,20 @@ Chelsea
 -----------------------
 #チェルシー＝トーンよ
 #よろしくね、<Kyle>くん！
-Chelsea Ton
+Chelsea Tone.
 Nice to meet you, <Kyle>!
 -----------------------
 #持ってきてもらったばかりで
 #悪いんだけど････
 #また、頼んでいいかな？
-I just got it brought over,
-but I'm sorry to bother you...
-Can I ask for your help again?
+I just had you bring something over,
+so I'm sorry to ask again, but...
+could I trouble you for more help?
 -----------------------
 #<Kyle>くん
 #次のものを、買ってきてくれない？
 <Kyle>!
-You gonna go buy me some stuff?
+Could you go buy the next batch of items for me?
 -----------------------
 #チェルシー
 Chelsea
@@ -625,37 +622,34 @@ Chelsea
 #まず、雪かきのための道具
 #<item:00000039>を<0B:00000001>{14}{11}{5B}{C0}<0B:00000000>個
 #買ってきてほしいの
-First, the tools we'll need for shoveling snow.
-<item:00000039>We need <0B:00000001>{14}{11}{5B}{C0}<0B:00000000> units of .
-I'd like you to go buy them.
+First, I need tools for shoveling snow.
+Could you buy me <item:00000039> x<0B:00000001>{14}{11}{5B}{C0}<0B:00000000>?
+I'd really appreciate it.
 -----------------------
 #次に、井戸を掘るための道具
 #<item:0000003A>を<0B:00000001>{14}{11}{5B}{C0}<0B:00000000>個
 #買ってきてちょうだい
-Next, the tools needed to dig a well.
-<item:0000003A>x <0B:00000001>{14}{11}{5B}{C0}<0B:00000000>
-Please go buy them for me.
+Next, I need tools for digging a well.
+Please buy me <item:0000003A> x<0B:00000001>{14}{11}{5B}{C0}<0B:00000000>.
 -----------------------
 #小屋を作るための道具
 #<item:0000003B>を<0B:00000001>{14}{11}{5B}{C0}<0B:00000000>個
 #お願いするわね
-Tools needed to build a hut
-<item:0000003B>x <0B:00000001>{14}{11}{5B}{C0}<0B:00000000>
-I'll ask her for you.
+I need tools for building a hut.
+Could you get me <item:0000003B> x<0B:00000001>{14}{11}{5B}{C0}<0B:00000000>?
+I'd be ever so grateful.
 -----------------------
 #今度は、小屋を作るための道具
 #<item:0000003C>を<0B:00000001>{14}{11}{5B}{C0}<0B:00000000>個
 #買ってきてほしいの
-I need tools to build the cabin this time.
-<item:0000003C>x <0B:00000001>{14}{11}{5B}{C0}<0B:00000000>
-Could you go buy them for me?
+This time, I need tools for building a hut.
+Could you buy me <item:0000003C> x<0B:00000001>{14}{11}{5B}{C0}<0B:00000000>?
 -----------------------
 #小屋を作るための道具
 #<item:0000003D>を<0B:00000001>{14}{11}{5B}{C0}<0B:00000000>個
 #運んできてほしいの
-Tools needed to build a hut
-<item:0000003D>x <0B:00000001>{14}{11}{5B}{C0}<0B:00000000>
-I'd like you to bring them over.
+I need tools for building a hut.
+Could you bring me <item:0000003D> x<0B:00000001>{14}{11}{5B}{C0}<0B:00000000>?
 -----------------------
 #チェルシー
 Chelsea
@@ -664,28 +658,28 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #チェルシー
 Chelsea
 -----------------------
 #いつもありがとう
-Thank you as always.
+Thanks as always.
 -----------------------
 #チェルシー
 Chelsea
 -----------------------
 #<Kyle>くんのおかげで
 #大助かりね
-We owe it all to <Kyle>!
-You're a lifesaver.
+<Kyle>'s been such a huge help.
+You're a lifesaver!
 -----------------------
 #チェルシー
 Chelsea
 -----------------------
 #それじゃ、よろしくね★
-Well then, I'm counting on you~
+Well then, I'm counting on you!
 -----------------------
 #チェルシー
 Chelsea
@@ -693,9 +687,9 @@ Chelsea
 #････そうなの
 #じゃあ、時間がある時に
 #協力お願いね
-...That's right.
-In that case, whenever you have some free time,
-I'll count on your help.
+...I see.
+Well then, whenever you have the time,
+I'd appreciate your help.
 -----------------------
 #チェルシー
 Chelsea
@@ -703,40 +697,40 @@ Chelsea
 #<Kyle>くん
 #頼まれたもの、用意できた？
 <Kyle>!
-You ready to go? You got everything you needed?
+Did you get everything I asked for?
 -----------------------
 <Kyle>
 -----------------------
 #ごめん、チェルシーさん
 #なに買ってくればいいんだっけ？
 Sorry, Chelsea.
-What was it I was supposed to buy again?
+What was I supposed to bring again?
 -----------------------
 #チェルシー
 Chelsea
 -----------------------
 #もう、忘れちゃダメじゃない
 #ちゃんと覚えるのよ
-You shouldn't forget it.
-You need to remember it properly.
+Come on, you can't just forget.
+Make sure you remember properly.
 -----------------------
 #チェルシー
 Chelsea
 -----------------------
 #{16}{24}{8E}{C0}を<0B:00000001>{14}{11}{5B}{C0}<0B:00000000>個お願いね
-{16}{24}{8E}{C0}I'll count on you to get me <0B:00000001>{14}{11}{5B}{C0}<0B:00000000> of .
+{16}{24}{8E}{C0}Could you get me <0B:00000001>{14}{11}{5B}{C0}<0B:00000000> of them?
 -----------------------
 <Kyle>
 -----------------------
 #これだよね、はい！
-This is it, right? Yes!
+This is it, right? Here!
 -----------------------
 #チェルシー
 Chelsea
 -----------------------
 #そうそう、これこれ！
 #ありがとう、助かったわ！
-That's right, that's it!
+Yes, yes, that's the one!
 Thanks, you really saved me!
 -----------------------
 #チェルシー
@@ -745,17 +739,17 @@ Chelsea
 #････<Kyle>くん
 #君のおかげで、わたし
 #ずいぶん助けられちゃったわ
-......Mr. <Kyle>
-Thanks to you,
-I've been such a big help.
+......<Kyle>,
+you've been such a huge help to me.
+I can't thank you enough.
 -----------------------
 #チェルシー
 Chelsea
 -----------------------
 #いろいろ、面倒だったでしょ？
 #本当に、ありがとうね
-It was quite a hassle, wasn't it?
-Thank you so much.
+It was a lot of trouble, wasn't it?
+Thank you so much, really.
 -----------------------
 #チェルシー
 Chelsea
@@ -763,17 +757,17 @@ Chelsea
 #お礼の意味をこめて
 #今回は、特別な弓を用意したわ
 #受けとって
-To show my gratitude,
+As a token of my gratitude,
 I've prepared a special bow this time.
-Please accept it.
+Please, take it.
 -----------------------
 #チェルシー
 Chelsea
 -----------------------
 #それじゃあ、お礼の弓よ
 #受けとって！
-Well then, here's my thanks.
-Accept it!
+Here, this bow is my thanks to you.
+Please accept it!
 -----------------------
 notice
 -----------------------
@@ -783,15 +777,15 @@ Acquired <item:FFFFFFFF>.
 <Kyle>
 -----------------------
 #この弓････ずいぶん使いこんでるね
-This bow... you've really put it through its paces.
+This bow... it's seen a lot of use.
 -----------------------
 #チェルシー
 Chelsea
 -----------------------
 #その弓はね、ある人に
 #作ってもらったものなの
-This bow was made for me by someone special.
-I had it crafted specifically.
+That bow was made for me
+by someone very special.
 -----------------------
 #チェルシー
 Chelsea
@@ -799,9 +793,8 @@ Chelsea
 #その人は、おじいちゃんに
 #弟子入りしてた人でね
 #すっごい、かっこよかったのよ！
-That person was to Grandpa,
-It was someone who had become my disciple.
-It was so amazing! So cool!
+He was a student of my grandfather's,
+and he was so incredibly cool!
 -----------------------
 #チェルシー
 Chelsea
@@ -809,16 +802,16 @@ Chelsea
 #その弓を持って、ふたりで
 #いろんなところにいったわ
 #狩りにも、冒険にも････
-We took that bow with us,
-and traveled to all sorts of places.
-Hunting, adventure... everything.
+The two of us took that bow
+and went everywhere together.
+Hunting, adventuring... you name it.
 -----------------------
 <Kyle>
 -----------------------
 #そんな大切な弓････
 #ホントに、もらっちゃっていいの？
-Such an important bow...
-Are you sure I can really take it?
+Something so precious...
+Are you sure it's okay for me to take it?
 -----------------------
 #チェルシー
 Chelsea
@@ -826,9 +819,9 @@ Chelsea
 #大切なものだから、もらって欲しいの
 #だって<Kyle>くん
 #すごく、がんばってくれたから
-I want you to have it because it's something precious to me.
-Because you're <Kyle>.
-You worked so hard.
+I want you to have it precisely because it's precious.
+Because you, <Kyle>,
+worked so hard for me.
 -----------------------
 #チェルシー
 Chelsea
@@ -836,16 +829,16 @@ Chelsea
 #それにね、弓がなくなったとしても
 #その人との想い出は、残るから
 #だから、だいじょうぶ！
-Besides, even if my bow is gone
-the memories I have with that person will remain
-so it'll be okay!
+Besides, even without the bow,
+the memories I have of that person will always remain.
+So it's all right!
 -----------------------
 <Kyle>
 -----------------------
 #その人は････今なにしてるの？
 #会いにいったりしないの？
-What is that person doing right now?
-Aren't you going to go see them?
+What is that person doing now?
+Don't you ever go see them?
 -----------------------
 #チェルシー
 Chelsea
@@ -853,9 +846,9 @@ Chelsea
 #今はもう、わたしなんかが
 #手の届かないところにいるから････
 #だから、会ってないわ
-It's too late for someone like me...
-to be within reach anymore...
-That's why I haven't seen you.
+By now, they're somewhere
+far beyond my reach...
+So no, I haven't seen them.
 -----------------------
 #チェルシー
 Chelsea
@@ -863,36 +856,36 @@ Chelsea
 #それに、ほら！
 #美しい想い出にしたままのほうが
 #いいこともあるでしょ？
-Besides, look!
-It's better to keep them as beautiful memories,
-don't you think?
+And besides, you know!
+Sometimes it's better to leave things
+as beautiful memories, don't you think?
 -----------------------
 #チェルシー
 Chelsea
 -----------------------
 #わたしの中では、あの人は････
 #永遠の王子さまだから
-In my eyes, that person is...
-The Eternal Prince.
+To me, that person will always be...
+my prince forever.
 -----------------------
 <Kyle>
 -----------------------
 #････チェルシーさん
 #意外と、乙女チックなんだね
-...Chelsea-san.
-You're surprisingly girly.
+...Chelsea.
+You're more of a romantic than I thought.
 -----------------------
 #チェルシー
 Chelsea
 -----------------------
 #悪かったわね、乙女チックで！
-I suppose I was too girlish about it.
+Sorry for being such a romantic!
 -----------------------
 #チェルシー
 Chelsea
 -----------------------
 #････とにかく、受けとって
-Anyway, take it.
+...Anyway, just take it.
 -----------------------
 #チェルシー
 Chelsea
@@ -900,23 +893,23 @@ Chelsea
 #これが、わたしから
 #<Kyle>くんにできる
 #せいいっぱいのお礼だから
-This is
-the best way I can thank you, <Kyle>,
-with all my heart.
+This is the best thanks
+I can give you, <Kyle>...
+from the bottom of my heart.
 -----------------------
 <Kyle>
 -----------------------
 #････うん！
 #ありがとう、チェルシーさん！
 ...Yeah!
-Thank you, Chelsea-san!
+Thank you so much, Chelsea!
 -----------------------
 notice
 -----------------------
 #<item:FFFFFFFF>がもらえますが
 #いっぱいで持てませんでした
-<item:FFFFFFFF>You'll receive , but
-I couldn't carry any more because I was full.
+You would have received <item:FFFFFFFF>, but
+your inventory was full.
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -933,8 +926,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.

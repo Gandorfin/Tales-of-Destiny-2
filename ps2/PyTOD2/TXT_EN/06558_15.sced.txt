@@ -11,57 +11,57 @@ Shrine of Light
 Shrine of Light
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #魔方陣はエルレインさまの
 #ご意志によって制御されている
-The magic circle is controlled by
-Her Excellency Elraine's will.
+This magic circle is controlled
+by Lady Elrane's will.
 -----------------------
 <Kyle>
 -----------------------
 #これのことだな？
 #ダイクロフトへ行くための魔方陣って
 This is it, right?
-The magic circle to get to Dycroft...
+The magic circle that leads to Dycroft...
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #なんだ、おまえたちは？
 #ここに来ていいのは、エルレインさまに
 #登城を認められたものだけだぞ
-What's with you guys?
-You're only allowed to come here if
-you've been granted permission to enter the castle.
+What do you want?
+Only those granted an audience
+with Lady Elrane may enter here.
 -----------------------
 #兵士
 Soldier
 -----------------------
 #すぐに引き返して････って、おい！
-Turn back right away... Hey!
+Turn back at once... Hey!
 -----------------------
 <Kyle>
 -----------------------
 #聞こえているんだろう、エルレイン！
 #オレたちは、逃げも隠れもしない！
 #ダイクロフトまで連れていけ！
-You can hear me, Elrein!
-We won't run or hide!
+I know you can hear me, Elrane!
+We're not running or hiding!
 Take us to Dycroft!
 -----------------------
 #エルレイン
-Elle
+Elrane
 -----------------------
 #････やはり、来ましたね
 #いいでしょう、あなた方の
 #望みどおりに････
-You've finally come.
-As you wish.
-Just as I hoped...
+...So you came after all.
+Very well.
+I shall grant your wish...
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #こ、これは････！
 #ダイクロフトへの道が････！
@@ -69,15 +69,15 @@ Th-this is...!
 The path to Dycroft...!
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #ここに来ていいのは、エルレインさまに
 #登城を認められたものだけだ
-You may only come here if
-Lord Elrein has granted you permission to enter the castle.
+Only those granted an audience
+with Lady Elrane may enter here.
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #すみやかに立ち去られよ
 Make your exit swiftly.
@@ -97,8 +97,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -132,7 +132,7 @@ notice
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{C2}{C0} but
+Found {16}{25}{C2}{C0}, but
 inventory is full already.
 -----------------------
 notice
@@ -140,4 +140,3 @@ notice
 #何もありません
 There's nothing here.
 -----------------------
-

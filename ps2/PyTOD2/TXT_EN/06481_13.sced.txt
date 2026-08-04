@@ -5,91 +5,91 @@ Cherik Inn
 Cherik
 -----------------------
 #宿泊用のガウンやローブが入っている
-It contains gowns and robes for staying overnight.
+It contains gowns and robes for guests.
 -----------------------
 #ミリー
-Millie
+Milly
 -----------------------
 #アタイは『漆黒の翼』のミリー
 #世間じゃそれなりに有名な
 #レンズハンターってことになってるよ
-I'm Milly from the 'Jet Black Wings'.
-People know me pretty well out there.
-They call me a Lens Hunter.
+I'm Milly of the 'Jet Black Wings'.
+I'm pretty well known around these parts.
+Folks call me a Lens Hunter.
 -----------------------
 select
 -----------------------
 #<03:00000000>　知っている　
 #　聞いたことがない　
-<03:00000000>I know it.
+<03:00000000> I've heard of it.
 I've never heard of it.
 -----------------------
 #ミリー
-Millie
+Milly
 -----------------------
 #そいつはありがたいね
 #でも、悪評ばかり聞いてるんだろ？
-That's good to hear.
-But you've probably heard nothing but bad things about them, right?
+Glad to hear it.
+Bet you've heard nothing but bad press, though, huh?
 -----------------------
 #ミリー
-Millie
+Milly
 -----------------------
 #ハァ、グリッドのヤツさえ
 #もう少しシッカリしていればねえ
-Haa... if it were just Grid's guy...
-If he'd been a bit more solid about it...
+*sigh* If only that Grid guy
+could've been a little more dependable...
 -----------------------
 #ミリー
-Millie
+Milly
 -----------------------
 #荷物運びの仕事をすれば海に落とし
 #届け物をすれば道に迷い
 #店番をすれば居眠りはするし
-If you take on the job of carrying luggage, you'll end up dropping it into the sea.
-If you deliver messages, you'll get lost along the way.
-If you work as a shopkeeper, you'll fall asleep at your post.
+You give him luggage to carry, he drops it in the sea.
+You send him on a delivery, he gets lost.
+You put him on shop duty, he dozes off on the job.
 -----------------------
 #ミリー
-Millie
+Milly
 -----------------------
 #ハァ～
 #なんでアタイはあんなヤツに
 #くっついて回ってるんだろうね
-Haa~
-Why am I stuck with that guy?
-I wonder.
+*sigh*
+Why do I stick around with a guy like that, anyway?
+I wonder sometimes.
 -----------------------
 #ミリー
-Millie
+Milly
 -----------------------
 #あらら････
 #まあ、知らなくて幸いかもね
-Oh my...
-Well, maybe it's better you don't know.
+Oh dear...
+Well, maybe you're better off not knowing.
 -----------------------
 #ミリー
-Millie
+Milly
 -----------------------
 #どっちかっていうと
 #悪評のほうが多いしね････
-If anything, it's more like...
-There are more bad reviews anyway.
+If I had to say,
+the bad rumors definitely outnumber the good ones...
 -----------------------
 #ミリー
-Millie
+Milly
 -----------------------
 #ハァ、グリッドのヤツさえ
 #もう少しシッカリしていればねえ
-Haa... if it weren't for Grid's guy...
-If he'd been just a bit more reliable...
+*sigh* If only that Grid guy
+could've been a little more dependable...
 -----------------------
 #いってらっしゃいませ
 Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -99,8 +99,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -112,7 +112,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We hope to see you again.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -134,12 +134,11 @@ notice
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{C2}{C0} but
-inventory is full already.
+Found {16}{25}{C2}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

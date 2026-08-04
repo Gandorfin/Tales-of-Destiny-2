@@ -5,72 +5,72 @@ Egg of God - Upper Layer
 Egg of God - Upper Layer
 -----------------------
 #神のたまご・上層部
-God's Egg - Upper Level
+Egg of God - Upper Layer
 -----------------------
 #神のたまご
-The Egg of God
+Egg of God
 -----------------------
 notice
 -----------------------
 #「神のたまご」下層部まで
 #ワープしますか？
-The lower levels of the "Egg of God"
-Warp?
+Warp to the lower levels
+of the "Egg of God"?
 -----------------------
 select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 <Loni>
 -----------------------
 #ここが「神のたまご」か････
 #････薄気味悪い所だぜ
-This is the 'God's Egg', huh...
-...This place gives me the creeps.
+So this is the "Egg of God"...
+...Gives me the creeps.
 -----------------------
 <Judas>
 -----------------------
 #彗星というカラの中で
 #神をふ化させるか････なるほど
 #････まさしく「神のたまご」だな
-In the shell of a comet...
-So you're saying it hatches a god... I see.
-...Truly an 'egg of God'.
+Hatching a god inside the shell
+of a comet... I see.
+...Truly an "Egg of God."
 -----------------------
 <Harold>
 -----------------------
 #おまけに、そのカラ自体も
 #レンズで作られてるってワケか
 #はてさて、なにが起きることやら
-To top it off, that Kara itself...
-So it's made of lenses?
-Well then, who knows what'll happen next?
+And to top it off, that shell itself
+is made of Lens, too?
+Well, well... I wonder what'll happen.
 -----------------------
 <Nanaly>
 -----------------------
 #なにが起きたって、関係ない
 #力ずくで進むだけさ！
 #今までだって、そうしてきたんだしね
-What happened doesn't matter.
-We'll just push forward with brute force!
-That's how we've always done it.
+Whatever happens, it doesn't matter.
+We just push through by force!
+That's how we've made it this far.
 -----------------------
 <Kyle>
 -----------------------
 #････みんな、泣いても笑っても
 #これが最後の戦いになる
-...Whether we cry or laugh,
+...Everyone, whether we laugh or cry,
 this will be our final battle.
 -----------------------
 <Kyle>
 -----------------------
 #オレたちのすべてをぶつけて
 #神を倒すんだ！
-We'll throw everything we have at them!
-And bring down God!
+We'll give it everything we've got
+and take down that god!
 -----------------------
 <Reala>
 -----------------------
@@ -94,8 +94,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -118,7 +118,7 @@ exit-party_togather( short spd )
 notice
 -----------------------
 #{16}{27}{0A}{C0}を手に入れました
-{16}{27}{0A}{C0}You obtained .
+Acquired {16}{27}{0A}{C0}.
 -----------------------
 notice
 -----------------------
@@ -129,12 +129,11 @@ notice
 -----------------------
 #{16}{27}{12}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{27}{12}{C0}There was , but
-I couldn't hold it because it was full.
+Found {16}{27}{12}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

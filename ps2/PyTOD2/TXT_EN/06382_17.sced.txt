@@ -1,27 +1,27 @@
 #ストレイライズ遺跡
-Stray Ruins
+Straylize Ruins
 -----------------------
 #ストレイライズ遺跡
-Stray Ruins
+Straylize Ruins
 -----------------------
 #ここはストレイライズ神殿です
-This is the Stray Rise Temple.
+This is Straylize Temple.
 -----------------------
 <Kyle>
 -----------------------
 #うわあ！
 #見てよ<Loni>！
 #すごいレンズがあるよ！
-Woah!
-Look at this, <Loni>!
-There's an amazing lens here!
+Whoa!
+Check it out, <Loni>!
+There's a huge Lens here!
 -----------------------
 <Loni>
 -----------------------
 #････よく見ろ、ニセモノだよ
 #これは『神の眼』のミニチュアだな
-......Look closely, it's a fake.
-This is a miniature 'Eye of God'.
+...Look closer. It's a fake.
+This is a miniature Eye of Atamoni.
 -----------------------
 <Loni>
 -----------------------
@@ -29,31 +29,31 @@ This is a miniature 'Eye of God'.
 #超巨大レンズで
 #とてつもない力を秘めていたが
 #悪用されて世界は危機に陥った
-The 'Eye of God' is a six-meter diameter
-super-large lens
-that harbors immense power,
-but it was misused, plunging the world into crisis.
+The Eye of Atamoni was a super-massive Lens,
+six meters across,
+with power beyond imagining.
+When it was misused, the world was plunged into crisis.
 -----------------------
 <Kyle>
 -----------------------
 #それを壊して
 #世界の平和を守ったんだよね！
 #父さんと母さんが!
-Destroy it.
-You saved world peace!
-Dad and Mom!
+And Dad and Mom
+destroyed it to protect
+world peace!
 -----------------------
 <Loni>
 -----------------------
 #そういうことだ
-That's how it is.
+That's the story.
 -----------------------
 #いってらっしゃいませ
-Have a good day.
+Welcome.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald per night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -63,11 +63,11 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
-Have a good night.
+Please rest well.
 -----------------------
 #おはようございます
 Good morning.
@@ -76,7 +76,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We hope to see you again.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -98,12 +98,11 @@ notice
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{C2}{C0} but
-inventory is full already.
+Found {16}{25}{C2}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

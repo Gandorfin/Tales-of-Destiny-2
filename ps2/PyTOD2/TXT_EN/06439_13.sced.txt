@@ -6,21 +6,21 @@ Heidelberg
 -----------------------
 #元気に走り回っている子供たちの姿が見える
 #ハイデルベルグの街中は平和そのものだ
-I can see children running around in good health.
-The streets of Heidelberg are peaceful.
+Children can be seen running around energetically.
+The streets of Heidelberg are the very picture of peace.
 -----------------------
 #元気に走り回っている子供たちの姿が見える
 #ハイデルベルグの街中は平和そのものだ
-I can see children running around in good health.
-The streets of Heidelberg are peaceful.
+Children can be seen running around energetically.
+The streets of Heidelberg are the very picture of peace.
 -----------------------
 #アタモニ神団のものらしき聖書がある
 #しかし、あまり利用されていないようだ
-There appears to be a holy book belonging to the Order of Adamon.
-However, it doesn't seem to be used very much.
+There's a holy book that appears to belong to the Order of Atamoni.
+But it doesn't seem to get much use.
 -----------------------
 #ストレイライズ神殿の聖書が入っている
-It contains the Bible from the Stray Rize Temple.
+It contains a holy book from Straylize Temple.
 -----------------------
 #タンスはからっぽだ
 The dresser is empty.
@@ -40,8 +40,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -75,7 +75,7 @@ notice
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{C2}{C0} but
+Found {16}{25}{C2}{C0}, but
 inventory is full already.
 -----------------------
 notice
@@ -83,4 +83,3 @@ notice
 #何もありません
 There's nothing here.
 -----------------------
-

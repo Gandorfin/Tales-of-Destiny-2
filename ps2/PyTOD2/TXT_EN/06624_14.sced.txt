@@ -11,31 +11,31 @@ NOTICE
 -----------------------
 #石碑の文字が削り取られており
 #読む事が出来ません
-The characters on the stone monument have been scraped off,
-so they can't be read.
+The writing on the stone monument has been
+chiseled away and cannot be read.
 -----------------------
 NOTICE
 -----------------------
 #白骨のわきに
 #メモが落ちています
 Beside the skeleton
-There's a memo lying here.
+lies a memo.
 -----------------------
 NOTICE
 -----------------------
 #『ロウソク････火を撃ち込め････』
 #『ただし順番････』
 #『あの碑文が････間違い････』
-The candle... Shoot fire into it...
-But in order...
-That inscription... It's wrong...
+"Candle... Shoot fire into it..."
+"But the order..."
+"That inscription... is wrong..."
 -----------------------
 NOTICE
 -----------------------
 #どこかから
 #鐘が落ちる音が聞こえました
 From somewhere,
-we could hear the sound of bells tolling.
+the sound of a falling bell could be heard.
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -52,8 +52,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -65,7 +65,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We look forward to your next visit.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -76,7 +76,7 @@ exit-party_togather( short spd )
 notice
 -----------------------
 #{16}{27}{4A}{C0}を手に入れました
-{16}{27}{4A}{C0}You obtained .
+Acquired {16}{27}{4A}{C0}.
 -----------------------
 notice
 -----------------------
@@ -87,12 +87,11 @@ notice
 -----------------------
 #{16}{27}{52}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{27}{52}{C0}There was , but
-I couldn't hold it because it was full.
+Found {16}{27}{52}{C0}, but
+couldn't carry it because your inventory is full.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

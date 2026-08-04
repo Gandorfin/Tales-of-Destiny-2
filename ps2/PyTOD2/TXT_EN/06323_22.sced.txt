@@ -14,41 +14,41 @@ Laguna Ruins
 -----------------------
 #調査隊が来てるって言ってたけど、
 #姿が見えないじゃんか
-You said that an investigation team is coming,
-but I don't see 'em anywhere, do you?
+You said an investigation team was coming,
+but I don't see 'em anywhere!
 -----------------------
 <Loni>
 -----------------------
 #どうやら俺たちの方が先に
 #着いたらしいな････って言ってるそば
 #から来やがった　<Kyle>、隠れろ！
-We seem to have arrived first.
-or so I thought...
-But right as I said that, they showed up. <Kyle>, hide!
+Looks like we got here first...
+or so I was just saying.
+They showed up after all. <Kyle>, hide!
 -----------------------
 #隊長
 Commander
 -----------------------
 #ここか？
 #巨大レンズがあるという遺跡は
-So these are the ruins where
-the gigantic Lens is said to be.
+So this is it?
+The ruins with the gigantic Lens.
 -----------------------
 #隊員
 Church Member
 -----------------------
 #はっ！　自分は以前、確かにこの遺跡で
 #レンズを目撃しました！
-Yes sir! I personally observed the Lens during a
-previous visit, so I can attest to its presence here!
+Yes sir! I personally observed the Lens
+in these ruins during a previous visit!
 -----------------------
 #隊員
 Church Member
 -----------------------
 #この遺跡はレンズが作られた時代の
 #都市であると考えられています
-It is believed that these ruins date back to the
-era where cities were constructed out of Lenses.
+These ruins are believed to be the remains
+of a city from the era when Lenses were made.
 -----------------------
 #隊長
 Commander
@@ -56,9 +56,9 @@ Commander
 #だから、レンズがあっても
 #不思議ではないと言うのか？
 #････疑わしいものだ
-And that is why you say that there is
-nothing strange about a Lens being here?
-...I somehow have my doubts.
+So you're saying there's nothing strange
+about a Lens being here?
+...I have my doubts.
 -----------------------
 #隊員
 Church Member
@@ -66,9 +66,9 @@ Church Member
 #現物を見れば
 #信じていただけるでしょう
 #レンズはこの中です
-I hope that you will be able to
-believe us once you see the actual
-item. The Lens is inside here.
+Once you see it for yourself,
+I'm sure you'll believe us.
+The Lens is inside.
 -----------------------
 #隊員
 Church Member
@@ -81,29 +81,29 @@ Hey, bring out the Sorcerer's Scope.
 #どうしよう････
 #急がないと、あいつらに
 #レンズを取られちゃうよ！
-What're we gonna do...
-those guys will end up taking
-the Lens if we don't hurry!
+What do we do...
+If we don't hurry, they'll
+take the Lens!
 -----------------------
 <Loni>
 -----------------------
 #とはいえ、正面から
 #遺跡に入るのはヤバいな
 #あいつらと、はち合わせしちまう
-Be that as it may, entering the
-ruins from the front is chancy.
-We may accidentally bump into them.
+Still, going in through the front
+would be bad.
+We'd run right into 'em.
 -----------------------
 <Kyle>
 -----------------------
 #じゃあ、あっちの横穴はどう？
-Then how about that tunnel over there?
+Then what about that side tunnel over there?
 -----------------------
 <Loni>
 -----------------------
 #ん････なんとか行けそうだな
 #<Kyle>、急ぐぜ！
-Well... I think we can make it.
+Yeah... looks like we can squeeze through.
 <Kyle>, let's move!
 -----------------------
 <Kyle>
@@ -121,9 +121,9 @@ The Laguna Ruins.
 #かつては空中都市とよばれていた遺跡だが
 #あらかた調べつくされて
 #考古学的な価値はゼロって話だ
-The ruins of what used to be an aerial city,
-but it's been completely destroyed. There's
-no archeological value to it.
+They used to call it an aerial city,
+but it's been picked clean.
+Supposedly it's got zero archaeological value now.
 -----------------------
 <Kyle>
 -----------------------
@@ -137,71 +137,71 @@ no archeological value to it.
 #どうした？
 #気になるものでもあったか？
 What's up?
-Is there something on your mind?
+See something?
 -----------------------
 <Kyle>
 -----------------------
 #いや、そうじゃないけど
 #ここにいると
 #なんだか不思議な感じがするんだ
-No, I'm not, but...
-When I'm here,
+No, it's not that, but...
+being here,
 I get this strange feeling.
 -----------------------
 <Loni>
 -----------------------
 #不思議な感じ？
-Strange, isn't it?
+Strange feeling?
 -----------------------
 <Kyle>
 -----------------------
 #口じゃうまく言えないよ
 #ただ、だれかが呼んでるような
 #それもよく知ってるはずのだれかが････
-I can't really put my finger on it.
-But it's like someone's calling me.
-And it's someone you know well...
+I can't really put it into words.
+It's like someone's calling out to me.
+Someone I should know well...
 -----------------------
 <Loni>
 -----------------------
 #おい、気味悪ぃな
 #うらみを残して死んだ女が････
 #なんてのはゴメンだぜ
-I'm getting a bad feeling about this.
-A woman who died holding onto her grudge...
-But I'm not buying that.
+Hey, that's creepy.
+Some woman who died with a grudge...
+I don't wanna hear it.
 -----------------------
 <Loni>
 -----------------------
 #そんなに気になるなら、いってこいよ
 #ここで待っててやるから
-If it bothers you that much,
-go ahead, I'll wait here for you.
+If it bothers you that much, go check it out.
+I'll wait here.
 -----------------------
 <Kyle>
 -----------------------
 #うん、そうするよ
 #ごめんね、<Loni>
-Yeah, I will.
-I'm sorry, <Loni>.
+Yeah, I'll do that.
+Sorry, <Loni>.
 -----------------------
 <Kyle>
 -----------------------
 #この辺から入っていった気がするけど････？
 #見つかったらマズイし、オレたちは横穴から
 #中に入ろう
-I feel like we came in from around here...?
-If they find it, it'll be bad, so let's go through the side tunnel.
-Let's head inside.
+I feel like we went in around here...?
+If they spot us, we're in trouble. Let's go
+in through the side tunnel.
 -----------------------
 <Kyle>
 -----------------------
 #ここが入口かなあ？
 #でも、開け方が分からないや
 #なにか道具が手に入ったら、また来てみよう
-I wonder if this is the entrance.
-I can't figure out how to open it,
-we need to come back with some tools.
+I wonder if this is the entrance?
+But I can't figure out how to open it.
+Let's come back once we have the right tool.
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -218,8 +218,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -242,7 +242,7 @@ exit-party_togather( short spd )
 notice
 -----------------------
 #{16}{26}{16}{C0}を手に入れました
-{16}{26}{16}{C0}You obtained .
+Acquired {16}{26}{16}{C0}.
 -----------------------
 notice
 -----------------------
@@ -253,8 +253,8 @@ notice
 -----------------------
 #{16}{26}{1E}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{26}{1E}{C0}There was , but
-I couldn't hold it because it was full.
+Found {16}{26}{1E}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------
@@ -263,22 +263,21 @@ There's nothing here.
 -----------------------
 #{16}{36}{44}{C0}を
 #<0B:00000001>{14}{36}{40}{C0}<0B:00000000>個手に入れました
-{16}{36}{44}{C0}'s
-<0B:00000001>{14}{36}{40}{C0}<0B:00000000>Gained  units of
+Acquired {16}{36}{44}{C0} x<0B:00000001>{14}{36}{40}{C0}<0B:00000000>.
 -----------------------
 #{16}{36}{44}{C0}が<0B:00000001>{14}{36}{48}{C0}<0B:00000000>個ありましたが
 #これ以上もてません
 #宝箱に戻しました
-{16}{36}{44}{C0}There were  of <0B:00000001>{14}{36}{48}{C0}<0B:00000000>, but...
-I can't hold any more.
-I've put it back in the treasure chest.
+{16}{36}{44}{C0}There were <0B:00000001>{14}{36}{48}{C0}<0B:00000000>, but...
+I can't carry any more.
+I put it back in the treasure chest.
 -----------------------
 #{16}{36}{44}{C0}が<0B:00000001>{14}{36}{48}{C0}個ありましたが
 #全部は持つことはできません
 #・{14}{36}{40}{C0}個取り、{14}{36}{4C}{C0}<0B:00000000>個捨てる
 #・宝箱に戻す
-{16}{36}{44}{C0}I had  of <0B:00000001>{14}{36}{48}{C0} in total,
+{16}{36}{44}{C0}There were <0B:00000001>{14}{36}{48}{C0}, but...
 I couldn't carry them all.
-- Take {14}{36}{40}{C0} items and discard {14}{36}{4C}{C0}<0B:00000000>.
+- Take {14}{36}{40}{C0}, discard {14}{36}{4C}{C0}<0B:00000000>.
 - Put them back in the treasure chest.
 -----------------------

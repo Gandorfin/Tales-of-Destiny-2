@@ -1,13 +1,13 @@
 #古都ダリルシェイド
-Darilsheid Prison
+Darilsheid
 -----------------------
 #古都ダリルシェイド
-Darilsheid Prison
+Darilsheid
 -----------------------
 #おい<Kyle>、相手にすんな
 #あいつ、あからさまにあやしいぞ
-Hey, <Kyle>, don't mess with him.
-That guy's got some serious shit going on.
+Hey, <Kyle>, don't engage with him.
+That guy's obviously suspicious.
 -----------------------
 <Loni>
 -----------------------
@@ -16,7 +16,7 @@ notice
 #<03:00000000>休みますか？
 #　はい　
 #　いいえ　
-<03:00000000> Do you want to rest?
+<03:00000000> Would you like to rest?
 Yes
 No
 -----------------------
@@ -25,88 +25,88 @@ No
 #こらあっ！
 #話も聞かずに牢屋に閉じこめるたぁ
 #どういう了見だ！
-Hey, I know you're out there!
-What's the big idea, locking us up in prison
-without even listening to our side of the story!
+Hey, you out there!
+You threw us in a cell without even hearing us out!
+What the hell are you thinking?!
 -----------------------
 <Loni>
 -----------------------
 #おいこら！
 #責任者、出てこい!!
-Hey, I'm not screaming for my health here!
-Bring out the person in charge!!
+Hey!
+Get the person in charge out here!!
 -----------------------
 <Loni>
 -----------------------
 #くそッ！　しくじっちまったぜ
 #まさか、こんなハメになるとは････
-Damn it! I messed up.
-I never expected things to turn out like this...
+Damn it! I really screwed up.
+Never thought we'd end up in a mess like this...
 -----------------------
 <Kyle>
 -----------------------
 #う～ん････
 #こ、ここは････？
-Hmm...
-W-where is this...?
+Nnngh...
+W-where... am I?
 -----------------------
 <Kyle>
 -----------------------
 #えっと、ラグナ遺跡に行って
 #レンズを見つけたんだけど、割れちゃって
 #アタモニ神団に捕まって････
-Lemme think, we went to the Laguna Ruins and
-found the Lens, but it shattered into pieces
-and we got caught by the Church of Atamoni...
+Let's see, we went to the Laguna Ruins
+and found a Lens, but it shattered...
+and then the Order of Atamoni caught us...
 -----------------------
 <Kyle>
 -----------------------
 #････あれ？
 #それから、どうしたんだっけ？
-Huh?
-What happened after that again?
+...Huh?
+What happened after that?
 -----------------------
 <Loni>
 -----------------------
 #････のん気だねぇ、おまえは
-Boy, ain't got a care in the world, do you?
+...You're a real piece of work, you know that?
 -----------------------
 <Loni>
 -----------------------
 #見てのとおり
 #牢にぶちこまれたんだよ
 #たぶん、ダリルシェイドの地下だろう
-As you can see, we've been thrown in a cell.
-I'm guessing that we're probably in the jail
-underneath Darilshade.
+Take a look around.
+We got thrown in a cell.
+Probably somewhere under Darilsheid.
 -----------------------
 <Kyle>
 -----------------------
 #えっ
-Eh?
+Huh?
 -----------------------
 <Loni>
 -----------------------
 #笑ってる････
-He's laughing...
+He's smiling...
 -----------------------
 <Loni>
 -----------------------
 #お、おい、<Kyle>!?
 #どうした!?　頭でも打ったか!?
 #ちょっと、見せてみろ！
-H, hey, <Kyle>!? What's wrong!?
-Did they hit you on the head too!?
-C'mere, let me take a look at it!
+H-hey, <Kyle>!?
+What's wrong!? Did you hit your head!?
+C'mere, let me see!
 -----------------------
 <Kyle>
 -----------------------
 #ちがうよ、<Loni>
 #オレさ、今すっごく幸せなんだ！
 #だってさ、冒険がはじまったんだよ！
-No, no, <Loni>, it's not that.
-It's just that I'm really happy right about
-now! I mean, my adventure's finally begun!
+That's not it, <Loni>!
+I'm really, really happy right now!
+Because my adventure's finally started!
 -----------------------
 <Loni>
 -----------------------
@@ -117,87 +117,87 @@ Adventure...?
 -----------------------
 #あの子が現れた瞬間、オレ、思ったんだ
 #冒険がはじまったんだって
-The moment that girl appeared, I thought to
-myself, "My adventure has begun."
+The moment that girl appeared, I just knew it.
+I knew my adventure had begun.
 -----------------------
 <Kyle>
 -----------------------
 #だってさ、レンズの中から出てきて
 #「英雄を探しているの」だよ！
-I mean, she came out of a Lens and said
-"I'm searching for a hero," you know!
+I mean, she came out of a Lens saying
+she's searching for a hero!
 -----------------------
 <Kyle>
 -----------------------
 #お話の中でしか････いや、お話の中だって
 #こんなことなかった！
 #それが、オレの目の前で起こったんだ！
-It was only in stories... No, even in stories,
-This never happened!
-And it all happened right before my eyes!
+Stuff like that only happens in stories...
+No, even in stories this never happens!
+And it happened right in front of me!
 -----------------------
 <Kyle>
 -----------------------
 #そうだ、<Loni>！
 #オレ、クレスタへ戻ったら旅に出るよ
 That's right, <Loni>!
-I'm going to set off on a journey once I get back to Cresta.
+Once we get back to Cresta, I'm heading out on a journey!
 -----------------------
 <Loni>
 -----------------------
 #旅････？
-Journey...?
+A journey...?
 -----------------------
 <Kyle>
 -----------------------
 #そう、英雄になるための冒険の旅！
-Yes, an adventure to become a hero!
+Yeah! A journey of adventure to become a hero!
 -----------------------
 <Kyle>
 -----------------------
 #あの子が探してるのはオレなんだ！
 #いまは違うかもしれないけど
 #････そう！　未来のオレだ！
-I'm the one that girl is searching for!
-I might not be the one right now,
-but...I know! It's the future me!
+I'm the one that girl's searching for!
+Maybe not right now, but...
+That's right! The future me!
 -----------------------
 <Kyle>
 -----------------------
 #それをあの子に教えに････
 #いや、わからせに行くんだ！
-I'm going to go tell her that... no,
-I'm going to make her see that!
+I'm gonna go tell her that...
+No, I'm gonna make her see it!
 -----------------------
 <Loni>
 -----------------------
 #未来のおまえ････か
 #フッ････嫌いじゃないぜ、そういうの
-The future you...huh.
-Heh...can't say that has such a bad ring to it.
+The future you, huh...
+Heh... Can't say I hate that idea.
 -----------------------
 <Loni>
 -----------------------
 #よし！　その旅、俺もつきあうぜ！
-I'm in! I'll join you on that journey!
+All right! I'm coming with you on that journey!
 -----------------------
 <Kyle>
 -----------------------
 #えっ!?
 #でも<Loni>は
 #アタモニ神団に････
-Huh!?
+What!?
 But <Loni>,
-To the Atamoni God Tribe...
+what about the Order of Atamoni...
 -----------------------
 <Loni>
 -----------------------
 #あんな連中、こっちから願い下げだ
 #今回のことで、よーくわかったよ！
 #あそこは、俺のいるべき場所じゃねえ
-I'm cutting ties with those jerks.
-This incident really taught me something:
-that place ain't where I belong!
+Those guys? I'm done with them.
+This whole mess made one thing crystal clear:
+That place isn't where I belong.
 -----------------------
 <Loni>
 -----------------------
@@ -205,8 +205,8 @@ that place ain't where I belong!
 #<Kyle>、おまえのとなりだ････
 #だから、俺はおまえにつきあうぜ
 The place where I belong is...
-by your side, <Kyle>...
-That's why I'm goin' along with ya.
+<Kyle>, it's right beside you...
+That's why I'm sticking with you.
 -----------------------
 <Kyle>
 -----------------------
@@ -218,9 +218,8 @@ That's why I'm goin' along with ya.
 #それにな、俺はスタンさんの････
 #おまえのオヤジさんの代わりが
 #できたらと思ってる
-And besides, you could say that 
-I think of myself as a substitute for
-Sta-... your father.
+And besides, I've always wanted to be...
+a substitute for Stahn... for your old man.
 -----------------------
 <Loni>
 -----------------------
@@ -251,9 +250,9 @@ Who's there!?
 #おまえ、自分が英雄になれるなどと
 #本気で思っているのか？
 #だとしたら、おめでたいヤツだ
-You actually think you can become a hero?
-If so,
-you're quite the optimist.
+You honestly believe you can become a hero?
+If so...
+you're a bigger fool than you look.
 -----------------------
 <Kyle>
 -----------------------
@@ -264,15 +263,15 @@ Hey, why can't I become a hero!?
 ?????
 -----------------------
 #フッ、簡単なことだ
-Hmph, it's a simple matter, really.
+Hmph. It's simple, really.
 -----------------------
 #？？？？？
 ?????
 -----------------------
 #英雄とは、過去の功績に対して
 #人々から贈られる称号
-The title of hero is awarded to a person by the masses
-based on his orher past achievements.
+A hero is a title bestowed upon someone
+by the people, in recognition of past deeds.
 -----------------------
 #？？？？？
 ?????
@@ -280,18 +279,17 @@ based on his orher past achievements.
 #自らなろうとするものではないし
 #ましてや、なりたいと思って
 #なれるものでもない
-It's not something that you try to become,
-much less something that you can become
-just by wanting to become one.
+It is not something one strives to become.
+Much less something one can become
+simply by wishing for it.
 -----------------------
 <Loni>
 -----------------------
 #ずいぶんわかったような口を
 #きくじゃないか
 #まるで、自分が英雄だとでも言いたげだな
-You've got quite the confident air about you,
-don't you?
-Acting as if you were some kind of hero.
+You sure talk like you know everything.
+Almost like you're trying to say you're a hero yourself.
 -----------------------
 #？？？？？
 ?????
@@ -307,23 +305,23 @@ Acting as if you were some kind of hero.
 #僕自身は英雄じゃない
 #だが、そう呼ばれる人物を
 #少なくとも四人、知っている
-I'm not a hero.
-But I know of at least four people who
-are characterized as being heroes.
+I'm no hero myself.
+But I know at least four people
+who are called heroes.
 -----------------------
 <Loni>
 -----------------------
 #四人？　ははぁ～ん････
 #俺たちなんざ、知ってるだけじゃない
 #そのうち二人と知り合いだぜ！
-Four people? Oh ho ho~...
-The thing is, we don't just know about them,
-we're personally acquainted with two of them!
+Four? Oho~...
+We don't just know about 'em, either.
+We're on personal terms with two of 'em!
 -----------------------
 <Loni>
 -----------------------
 #なにせ、こいつの両親が、そうだからな
-Well, considering their parents are just like that...
+After all, this kid's parents are two of 'em.
 -----------------------
 #？？？？？
 ?????
@@ -331,7 +329,7 @@ Well, considering their parents are just like that...
 #両親が････英雄!?
 #････！
 #そうか、あいつらの････！
-Your parents are...heroes!?
+His parents are...heroes!?
 ...!
 I see, you're their...!
 -----------------------
@@ -339,26 +337,25 @@ I see, you're their...!
 -----------------------
 #へっへ～！　驚いて
 #声も出ないって感じだな
-Heh heh~! I take it that the shock has
-left you at a loss for words, eh?
+Heh heh~! Shocked you speechless,
+didn't I?
 -----------------------
 <Kyle>
 -----------------------
 #そんなことより、<Loni>
 #早く、クレスタに戻ろうよ！
 #そうじゃないと、冒険に････
-Never mind that, <Loni>,
-let's hurry up and get back to Cresta! If we
-don't, then we can't go on an adventure...
+Never mind that, <Loni>!
+Let's hurry back to Cresta!
+If we don't, I can't go on my adventure...
 -----------------------
 <Loni>
 -----------------------
 #わかってるって
 #とはいえ、ここの牢屋は
 #頑丈だからなぁ････
-Alright already.
-That being said though, the door to this
-cell is built like a friggin' rock...
+I know, I know.
+Still, this cell's built like a fortress...
 -----------------------
 #？？？？？
 ?????
@@ -372,65 +369,65 @@ Hey, you two.
 #俺たちは忙しいんだよ
 #見てわかんねぇか？
 What?
-We're busy.
-Don't you see?
+We're busy here.
+Can't you tell?
 -----------------------
 #？？？？？
 ?????
 -----------------------
 #ここを出たいのだろう？
 #なら、僕にいい考えがある
-You want to leave this place, am I right?
-In that case, I have a great idea.
+You want out of here, don't you?
+Then I have an idea.
 -----------------------
 <Kyle>
 -----------------------
 #ホント!?
 #なに、いい考えって!?
 Really!?
-What's this great idea of yours!?
+What's the idea!?
 -----------------------
 <Loni>
 -----------------------
 #おいおい、<Kyle>
 #こいつの言うことなんか
 #信用すんなよ
-Hey, hey,<Kyle>
-Don't bother believing what this guy's saying
-Just don't trust him.
+Hey, hey, <Kyle>!
+Don't go believing a word this guy says.
+Don't trust him.
 -----------------------
 <Loni>
 -----------------------
 #仮面で顔を隠してるような輩だぜ？
 #なに考えてるか
 #わかったもんじゃないぞ？
-You're the type to hide your face behind a mask, right?
-What's going on in their heads?
-It's not something you can just figure out?
+He's the type to hide his face behind a mask, yeah?
+Who knows what he's thinking?
+Not exactly easy to read.
 -----------------------
 <Kyle>
 -----------------------
 #でも、こんなところでグズグズしてたら
 #あの子、どんどん遠くへ行っちゃうよ！
 #オレ、早く冒険に出たいんだよ!!
-But if we keep dawdling around here,
-that girl's going to get further and further away!
-I want to start my adventure soon!!
+But if we keep dragging our feet here,
+that girl's gonna get farther and farther away!
+I wanna start my adventure already!!
 -----------------------
 <Loni>
 -----------------------
 #････わかったよ
 #おまえの好きにしろ
-...Fine, I hear ya.
-Do as you please.
+...Fine.
+Do what you want.
 -----------------------
 <Kyle>
 -----------------------
 #決まり！
 #それじゃ、教えてよ！
 #え～っと････
-It's settled then!
-So, tell us about it!
+It's decided!
+Okay, tell us!
 Um...
 -----------------------
 #？？？？？
@@ -439,48 +436,47 @@ Um...
 #名前か？
 #････名前など、僕にとっては
 #無意味なものだ
-What, my name?
-...Names are nothing to me.
-Just meaningless things.
+My name?
+...Names are meaningless to me.
+Nothing but empty labels.
 -----------------------
 #？？？？？
 ?????
 -----------------------
 #おまえたちの好きなように
 #呼べばいい
-You two can call me
-whatever you'd like.
+Call me whatever you like.
 -----------------------
 <Kyle>
 -----------------------
 #じゃあ････<Judas>！
-Okay then... <Judas>!
+Then... <Judas>!
 -----------------------
 <Judas>
 -----------------------
 #<Judas>････か
 #まあ、それで我慢してやろう
-<Judas>...huh.
-Oh well, I'll just have to deal with it.
+<Judas>...is it.
+Very well. I'll tolerate it.
 -----------------------
 <Loni>
 -----------------------
 #で、<Judas>さんよ
 #こっからどうやって脱出するつもりだ？
-So, Mr. <Judas>, how do you intend
-to escape from this lovely place?
+So, <Judas>,
+how exactly do you plan to break out of here?
 -----------------------
 <Judas>
 -----------------------
 #簡単なことだ
 #出口から出ればいい
-A simple enough matter.
-All we need to do is leave through the exit.
+Simple.
+We leave through the exit.
 -----------------------
 <Loni>
 -----------------------
 #出口からって････おい！
-Through the exit... hey!
+Through the... hey!
 -----------------------
 <Judas>
 -----------------------
@@ -490,19 +486,19 @@ Stand back.
 <Judas>
 -----------------------
 #ハァッ！
-Haa!
+Hah!
 -----------------------
 <Kyle>
 -----------------------
 #すげえ････！
-Awesome...!
+Whoa...!
 -----------------------
 <Judas>
 -----------------------
 #なにをぼーっとしている？
 #さっさといくぞ
-What are you gawking at?
-Let's get moving.
+What are you gaping at?
+Move.
 -----------------------
 notice
 -----------------------
@@ -543,8 +539,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -579,7 +575,7 @@ notice
 #{16}{25}{D2}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{D2}{C0}, but
-inventory full already.
+your inventory is full.
 -----------------------
 notice
 -----------------------

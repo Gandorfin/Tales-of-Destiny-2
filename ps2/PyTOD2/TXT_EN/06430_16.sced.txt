@@ -1,8 +1,8 @@
 #スノーフリア・雑貨屋
-Snoefria General Store
+Snowfria General Store
 -----------------------
 #スノーフリア・雑貨屋
-Snoofria General Store
+Snowfria General Store
 -----------------------
 #雑貨屋
 General Store
@@ -13,14 +13,13 @@ Sailor
 #カルバレイス出身のあっしには
 #ここの寒さは
 #キビしすぎるでヤンス
-For someone from Calvarys,
-the cold here is
-a bit too harsh, y'know.
+For a Calvalese fella like me,
+this cold is way too harsh, y'know.
 -----------------------
 <Kyle>
 -----------------------
 #カルバレイス････？
-Calvares...?
+Calvalese...?
 -----------------------
 <Judas>
 -----------------------
@@ -28,10 +27,10 @@ Calvares...?
 #第二大陸の名前だ
 #大地のほとんどが砂漠という
 #キビしい環境なんだ
-It's located far to the northwest from here.
-The name of the Second Continent.
-A place where most of the land is desert,
-And an incredibly harsh environment.
+It's the name of the Second Continent,
+far to the northwest.
+A harsh place where most of the land
+is desert.
 -----------------------
 #船員
 Sailor
@@ -39,9 +38,9 @@ Sailor
 #この土地にいると
 #地獄のような暑さのカルバレイスが
 #恋しくなるからフシギでヤンス
-It's strange how being in this land makes me
-miss Calvarys, with its hellish heat,
-so much, Yuns.
+Funny thing is, bein' here makes me
+miss Calvalese and its hellish heat,
+y'know.
 -----------------------
 #船員
 Sailor
@@ -49,9 +48,9 @@ Sailor
 #さ、寒いでヤンス
 #なんだか風邪をひいた
 #みたいでヤンス
-It's cold, y'know
-I think I caught a cold
-is what it seems, y'know
+S-so cold, y'know...
+Feels like I caught a cold
+or somethin', y'know.
 -----------------------
 #船員
 Sailor
@@ -59,29 +58,29 @@ Sailor
 #カルバレイス育ちのあっしは
 #スノーフリアなどに来ちゃ
 #いけないってことでヤンスか？
-I'm from Calvale, so...
-If I go somewhere like Snowfria...
-Is that why you're hesitant?
+Guess a Calvalese fella like me
+was never meant to come to a place
+like Snowfria, huh?
 -----------------------
 <Loni>
 -----------------------
 #そんな薄着してたら
 #風邪ひいて当たり前だろ････
-If you dress that lightly,
-you're just asking to catch a cold.
+Dress that light and you're
+just beggin' to catch a cold...
 -----------------------
 #船員
 Sailor
 -----------------------
 #アンタらはいつでもどこでも
 #どんな時でも薄着なのに････
-You guys are always, everywhere...
-Dressed so lightly no matter what time it is...
+And you lot are dressed light
+no matter when or where...
 -----------------------
 <Loni>
 -----------------------
 #それは言っちゃいけないな････
-That's something you shouldn't say...
+Now, now. Let's not go there...
 -----------------------
 #船員
 Sailor
@@ -89,17 +88,16 @@ Sailor
 #カルバレイス出身のあっしには
 #ここの寒さは
 #キビしすぎるでヤンス
-For someone from Calvarus,
-the cold here is
-a bit too harsh, y'know.
+For a Calvalese fella like me,
+this cold is way too harsh, y'know.
 -----------------------
 #船員
 Sailor
 -----------------------
 #もう雪も見あきたでヤンス
 #故郷の砂漠が恋しいでヤンス
-I'm tired of seeing snow.
-I miss my hometown's desert.
+I'm sick of lookin' at snow, y'know.
+Miss the desert back home, y'know.
 -----------------------
 #雑貨屋
 General Store
@@ -107,7 +105,7 @@ General Store
 #いらっしゃい！
 #雪国みやげはいらんかね？
 Welcome!
-Would you like some snow country souvenirs?
+Care for some snow-country souvenirs?
 -----------------------
 #ありがとな
 Thanks.
@@ -123,12 +121,12 @@ General Store
 #ご用の方はハイデルベルグの北西にある
 #チェルシー＝トーン宅へお越し下さい』
 It's a promotional poster.
-We'll take your bow orders.
-If you have business, it's northwest of Heidelberg.
-Please visit the Tone residence.
+'Bows made to order.
+Interested parties should visit the home
+of Chelsea Tone, northwest of Heidelberg.'
 -----------------------
 #いってらっしゃいませ
-Have a good day.
+Come again.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
@@ -142,8 +140,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -155,7 +153,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We hope to see you again.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -177,12 +175,11 @@ notice
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{C2}{C0} but
-inventory is full already.
+Found {16}{25}{C2}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

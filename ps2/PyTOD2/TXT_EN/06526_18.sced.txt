@@ -1,8 +1,8 @@
 #飛行竜・中心部
-Central Hub of the Airship
+Flying Dragon: Central Area
 -----------------------
 #飛行竜
-Airship
+Flying Dragon
 -----------------------
 #中心部
 Central Area
@@ -10,53 +10,53 @@ Central Area
 <Kyle>
 -----------------------
 #な、なんだ!?
-W-what!?
+Wh-what the heck!?
 -----------------------
 <Judas>
 -----------------------
 #レンズの力を失って
 #飛行竜が降下をはじめたんだ
-The loss of the lens's power
-The air dragon has begun its descent.
+The Flying Dragon has begun its descent.
+It lost the power of its Lens.
 -----------------------
 <Loni>
 -----------------------
 #あー、なるほどな
 #････って、冷静にいってる場合かよ！
 #とっととずらかるぞ！
-Ah, I see.
-...But is this really the time to stay calm?!
-I'm outta here!
+Ah, I get it now.
+...Wait, is this really the time to be calm?!
+Let's get outta here, fast!
 -----------------------
 #いってらっしゃいませ
-Have a good day.
+Come again soon.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
-Would you like to stay?
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald.
+Would you like to stay the night?
 -----------------------
 #お泊まりになりますか？
-Would you like to stay?
+Would you like to stay the night?
 -----------------------
 select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
-Have a good night.
+Please rest well.
 -----------------------
 #おはようございます
 Good morning.
 -----------------------
 #お金が足りません
-Not enough money.
+You don't have enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We hope to see you again.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -78,8 +78,8 @@ notice
 -----------------------
 #{16}{25}{D2}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{25}{D2}{C0}There was , but
-I couldn't carry it because it was full.
+Found {16}{25}{D2}{C0}, but
+your inventory is full, so you couldn't take it.
 -----------------------
 notice
 -----------------------
@@ -87,11 +87,10 @@ notice
 There's nothing here.
 -----------------------
 #タイムオーバー
-Time's up.
+Time Over
 -----------------------
 noitce
 -----------------------
 #制御装置を破壊しました
-Destroyed the control device.
+Control device destroyed.
 -----------------------
-

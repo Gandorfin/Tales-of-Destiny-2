@@ -1,50 +1,50 @@
 #地上軍拠点
-Ground Forces Base
+Er'ther Base
 -----------------------
 #地上軍拠点
-Ground Forces Base
+Er'ther Base
 -----------------------
 #地上軍拠点
-Ground Forces Base
+Er'ther Base
 -----------------------
 #地上軍拠点
-Ground Forces Base
+Er'ther Base
 -----------------------
 #地上軍拠点
-Ground Forces Base
+Er'ther Base
 -----------------------
 #『２８０ｍｍ地対地丸太砲』がある
-There's a '280mm Ground-to-Ground Log Cannon'.
+There's a '280mm Ground-to-Ground Log Cannon' here.
 -----------------------
 <Kyle>
 -----------------------
 #ここが千年前の世界
 #天地戦争時代か････
-This is the world from a thousand years ago.
-The era of the War of Heaven and Earth...
+So this is the world from a thousand years ago.
+The era of the Aeth'er Wars...
 -----------------------
 <Nanaly>
 -----------------------
 #さて、着いたはいいけど
 #これからどうする？
-We're here, but now what?
-What should we do from here?
+Well, we're here. Now what?
+What do we do next?
 -----------------------
 <Judas>
 -----------------------
 #まずは、情報を集めなくてはな
 #エルレインが、どうやって天地戦争の
 #勝敗をひっくり返すつもりなのか････
-First, we need to gather some information.
-How Elrein plans to turn the tide of the War of Heavens and Earth...
-...is what I'm wondering.
+First, we must gather information.
+We need to learn how Elrane plans
+to turn the tide of the Aeth'er Wars...
 -----------------------
 <Judas>
 -----------------------
 #それがわからないことには
 #動きようがない
-Until we figure that out,
-we can't make any moves.
+Without knowing that,
+we won't be able to act.
 -----------------------
 <Loni>
 -----------------------
@@ -52,37 +52,37 @@ we can't make any moves.
 #地上軍の拠点じゃねえか？
 #ほら、イクシフォスラーが置いてあった
 By the way...
-Isn't this an Earth Forces base?
-See? That's where they kept the Xiphos Lancer.
+Isn't this an Er'ther base?
+Look, that's where they kept the Xiphos Lancer.
 -----------------------
 <Judas>
 -----------------------
 #たしかにそうだな
 #ちょうどいい、ここなら
 #情報も集めやすい
-You're right about that.
-Just in time. This place is perfect.
-It's also easy to gather information here.
+You're right.
+Perfect. This is the ideal place
+to gather information.
 -----------------------
 <Kyle>
 -----------------------
 #じゃあ、まずは
 #ここにいる人から
 #話を聞いてみよう
-Alright then, first off,
-starting with the people here,
-let's try asking them what they know.
+Alright then. Let's start
+by asking the people here
+what they know.
 -----------------------
 <Kyle>
 -----------------------
 #････なんだ？
-Hmm? What is it?
+...What's that?
 -----------------------
 #？？？？
 ????
 -----------------------
 #待ちなさ～～～い！
-Don't wait~~~!
+Waaait~~~!
 -----------------------
 #？？？？
 ????
@@ -90,9 +90,8 @@ Don't wait~~~!
 #こらあっ！　あんたのマスターは
 #この私なのよっ！
 #言うこと聞きなさい！
-Hold it right there! Your master is...
-...this very me!
-Now listen to what I say!
+Hold it! I am your master!
+You listen to me!
 -----------------------
 #？？？？
 ????
@@ -100,19 +99,19 @@ Now listen to what I say!
 #ちょっとばかし試作パーツを
 #組みこんだぐらいで暴走するなんて！
 #こらぁ～～～～っ！
-A few prototype parts...
-And you're saying they go berserk just from being installed?!
-Hold on!!!!
+It goes berserk just from installing
+a few prototype parts?!
+Get back heeeere!
 -----------------------
 <Loni>
 -----------------------
 #なんだ？
-What?
+What the heck?
 -----------------------
 <Nanaly>
 -----------------------
 #さぁ････
-Well then...
+Here we go...
 -----------------------
 #？？？？
 ????
@@ -120,15 +119,15 @@ Well then...
 #止まれっていうのが、わからないの
 #このポンコツが！
 #スクラップにして、ジャンク箱行きよ!!
-You don't get it when I tell you to stop?
-This piece of junk!
-Scrap it and send it to the junkyard!!
+Can't you understand "stop"?!
+You hunk of junk!
+I'm scrapping you! Off to the junkyard!!
 -----------------------
 #？？？？
 ????
 -----------------------
 #な、なによ････
-What... what is it?...
+Wh-what...?
 -----------------------
 #？？？？
 ????
@@ -136,33 +135,32 @@ What... what is it?...
 #こらあぁ～～～～っ！
 #私は、あんたのマスターだって
 #言ってるでしょうがっ！
-Hold on!
-I'm telling you,
-I'm your master!
+Get back heeeere!
+I'm telling you, I'm your master!
 -----------------------
 <Reala>
 -----------------------
 #あの、ちょっと････
-Well, um...
+Um, excuse me...
 -----------------------
 <Judas>
 -----------------------
 #ムダだ、<Reala>
 #どうやら、取りこみ中らしい
-It's useless, .<Reala>
-It seems to be in the process of absorbing it.
+It's useless, <Reala>.
+It seems she's preoccupied.
 -----------------------
 <Kyle>
 -----------------------
 #う、うわっ！
-Ugh, w-wait!
+Wh-whoa!
 -----------------------
 <Loni>
 -----------------------
 #ちょ、ちょっとあんた！
 #なに隠れてんだよ！
-Hey, hey you!
-What are you hiding for!
+H-hey, you!
+What are you hiding for?!
 -----------------------
 #？？？？
 ????
@@ -170,16 +168,16 @@ What are you hiding for!
 #ちょっと、あんたたち！
 #あれ、チャッチャと
 #片づけちゃって！
-Hold on, you guys!
-Hey, quick as can be,
-Clean it all up!
+Hey, you guys!
+Go on, hurry up and
+clean up that mess!
 -----------------------
 <Loni>
 -----------------------
 #････もしかしてそれは
 #俺たちに言ってるのか？
-...Could it be that...
-Are you talking to us?
+...Wait, is she
+talking to us?
 -----------------------
 #？？？？
 ????
@@ -190,43 +188,43 @@ Do I sound like I'm talking to anyone else?
 <Loni>
 -----------------------
 #俺たちは関係ないだろうが！
-We're not involved in this, are we?
+We've got nothing to do with this!
 -----------------------
 <Judas>
 -----------------------
 #どうやら、あいつは
 #僕たちも敵とみなしたようだな
-It seems that guy...
-He's probably considering us enemies as well.
+It seems that thing
+has identified us as enemies too.
 -----------------------
 <Loni>
 -----------------------
 #冷静に言ってる場合か！
-I'm not in the mood to be calm about this!
+Now's not the time for calm analysis!
 -----------------------
 <Nanaly>
 -----------------------
 #ほら、グチってるヒマはないよ！
-Don't you have time to keep complaining?
+Quit whining and fight!
 -----------------------
 <Kyle>
 -----------------------
 #ふぅ、ビックリしたぁ！
-Hoo... That scared me!
+Phew... That was close!
 -----------------------
 <Loni>
 -----------------------
 #まったく、いきなり
 #こんなことに巻きこまれるとは････
-Good grief, all of a sudden...
-To get dragged into something like this...
+Good grief. Getting dragged
+into something like this out of nowhere...
 -----------------------
 <Loni>
 -----------------------
 #おい、ねーちゃん
 #ケガはなかったか？
-Hey, sis
-You okay?
+Hey, miss.
+You hurt?
 -----------------------
 #？？？？
 ????
@@ -238,32 +236,32 @@ You okay?
 -----------------------
 #････な、なんだよ？
 #俺の顔に、なんかついてるか？
-...Wh-what is it?
+...Wh-what?
 Is there something on my face?
 -----------------------
 #？？？？
 ????
 -----------------------
 #････････とうっ！
-......Ugh!
+......Hmph!
 -----------------------
 <Loni>
 -----------------------
 #でぇ！　なっ、なっ、なっ････
 #なにしやがる、この野郎！
-Hey!
-What are you doing, you brat!?
+Gah! Wh-what the...
+What do you think you're doing, punk?!
 -----------------------
 #？？？？
 ????
 -----------------------
 #なにって、仕返し
-What do you mean? I'm getting revenge.
+What do you mean? Payback.
 -----------------------
 <Loni>
 -----------------------
 #はぁ!?
-Huh!?
+Huh?!
 -----------------------
 #？？？？
 ????
@@ -271,18 +269,18 @@ Huh!?
 #私のＨＲＸ－２型
 #壊したでしょ？
 #だから、仕返し
-My HRX-2 model
-You broke it, didn't you?
-So, I'm getting revenge.
+You broke my HRX-2,
+didn't you?
+So I'm getting payback.
 -----------------------
 <Loni>
 -----------------------
 #仕返しって････おまえ自分で
 #「片づけちゃって！」
 #とか言ってただろうが！
-"Revenge... you did it yourself"
-"Finished them off!"
-Wasn't that what you said?!
+Payback?! You were the one
+yelling 'Clean 'em up!'
+or whatever!
 -----------------------
 #？？？？
 ????
@@ -290,18 +288,18 @@ Wasn't that what you said?!
 #いいじゃない
 #本来なら軍法会議もののところが
 #跳び蹴りですんだのよ？
-It's not so bad.
-This should have been a court-martial matter,
-But it was settled with a flying kick, you know?
+What's wrong with that?
+This should've been a court-martial offense.
+Instead, you got off with a flying kick.
 -----------------------
 <Kyle>
 -----------------------
 #軍法会議!?
 #それじゃ、これって････
 #地上軍のものなの!?
-Court-martial!?
-So that means...!
-It belongs to the ground forces!?
+Court-martial?!
+Then that means...
+This belongs to the Er'ther Army?!
 -----------------------
 #？？？？
 ????
@@ -309,16 +307,16 @@ It belongs to the ground forces!?
 #ま、しょうがないわよねぇ
 #あんたたち、未来から来たんだから
 #事情もわからなかったんだろうし
-Well, I guess it can't be helped.
-You guys came from the future,
-So you probably didn't understand the situation either.
+Well, can't be helped, I suppose.
+You guys came from the future, after all.
+You probably didn't know the situation.
 -----------------------
 <Kyle>
 -----------------------
 #ちょ、ちょっとまってよ！
 #なんにも言わないのに、どうして････
-W-wait a minute!
-Why are you saying nothing...?
+W-wait a second!
+How did you know when we didn't say anything...?
 -----------------------
 #？？？？
 ????
@@ -326,25 +324,25 @@ Why are you saying nothing...?
 #あ、当たってた？
 #イチバン可能性がないものを
 #言ってみたんだけど
-It hit?
-The one with the least chance
-I did say that.
+Oh, did I get it right?
+I picked the least likely possibility
+just to see what would happen.
 -----------------------
 <Judas>
 -----------------------
 #カマをかけた、というわけか
 #まんまと乗せられたな
-So you set a trap, huh?
-You got me completely.
+So you laid a trap.
+And we walked right into it.
 -----------------------
 <Judas>
 -----------------------
 #････それにしても
 #どうして、僕たちが未来人だ
 #などと思ったんだ？
-...Still,
-Why would you think that we were from the future?
-or something like that?
+...Even so,
+why would you think we're
+from the future?
 -----------------------
 #？？？？
 ????
@@ -352,20 +350,20 @@ or something like that?
 #根拠は、時空間の歪みから生ずる
 #大気中の成分の変化から
 #あくびの仕方まで、三十六通りほどあるけど
-The evidence lies in the distortion of spacetime.
-From changes in atmospheric composition.
-There are about thirty-six different ways to yawn.
+My basis ranges from changes in atmospheric composition caused by spacetime
+distortions all the way to the way you yawn...
+about thirty-six different things.
 -----------------------
 #？？？？
 ????
 -----------------------
 #ま、イッチバン大きかったのは「カン」ね
-Well, the biggest one was definitely 'Kan'.
+Well, the biggest one was definitely 'intuition.'
 -----------------------
 <Reala>
 -----------------------
 #カン････？
-Hmm...?
+Intuition...?
 -----------------------
 #？？？？
 ????
@@ -373,44 +371,44 @@ Hmm...?
 #ほら、女のカンは
 #カオス理論をも越えるって
 #よく言うじゃない
-You see, women's intuition
-is said to surpass chaos theory
-isn't that right?
+You know, they say women's intuition
+surpasses even chaos theory,
+don't they?
 -----------------------
 <Kyle>
 -----------------------
 #ね、ねぇ
 #「かおすりろん」って、なに？
-Heeey, hey
-What's this 'face-rubbing theory'?
+H-hey,
+what's 'chaos theory'?
 -----------------------
 <Nanaly>
 -----------------------
 #さぁ････
-Well then...
+Who knows...
 -----------------------
 <Loni>
 -----------------------
 #とにかく、このねーちゃんはヤバいぞ
 #とっととずらかろうぜ
-Anyway, this chick is dangerous.
-Let's beat it while we can.
+Anyway, this chick's bad news.
+Let's get outta here while we can.
 -----------------------
 <Judas>
 -----------------------
 #しかし、あのロボットを
 #操っていたということは
 #おそらく、軍の関係者だろう
-However, that robot...
-was being controlled by someone,
-likely someone from the military.
+However, the fact that she was
+controlling that robot means
+she's likely connected to the military.
 -----------------------
 <Judas>
 -----------------------
 #しかも、機械を扱っているということは
 #<Harold>博士の助手かもしれん
-And besides, if you're working with machines,
-You might even be Dr. <Harold>'s assistant.
+Moreover, if she works with machines,
+she might even be Dr. <Harold>'s assistant.
 -----------------------
 <Kyle>
 -----------------------
@@ -418,26 +416,26 @@ You might even be Dr. <Harold>'s assistant.
 #オレたちが使ったイクシフォスラーを
 #作った人だよね？
 Dr. <Harold>, right?
-The Exisphoslar that we used,
-is the person who made it, isn't she?
+The one who made the Xiphos Lancer
+that we used?
 -----------------------
 <Judas>
 -----------------------
 #博士ならば、
 #エルレインの介入に関しても、
 #なにかつかんでいるかも知れない
-If you're a doctor,
-As for Elrein's involvement,
-We might have caught something.
+If she's a doctor,
+she may have some grasp
+of Elrane's involvement as well.
 -----------------------
 <Judas>
 -----------------------
 #それに博士は、軍師カーレルの双子の弟だ
 #軍関係の情報も詳しいだろう
 #やはり、<Harold>博士に面会を････
-He's also the younger twin brother of Strategist Carrel.
-He'll likely have detailed knowledge of military affairs as well.
-As expected, I should pay a visit to Dr. <Harold>.
+Besides, the doctor is the younger twin
+of Strategist Karell. She should have detailed
+knowledge of military affairs too. We must meet with Dr. <Harold>...
 -----------------------
 #？？？？
 ????
@@ -448,13 +446,13 @@ You called?
 <Kyle>
 -----------------------
 #よ、呼んでないよ！
-I-I didn't call you!
+N-no we didn't!
 -----------------------
 <Kyle>
 -----------------------
 #で、でもさ････
 #あの人、ホントに学者なの？
-So, but...
+B-but...
 Is that person really a scholar?
 -----------------------
 <Loni>
@@ -462,44 +460,44 @@ Is that person really a scholar?
 #まず、それが疑わしいよなぁ
 #泣く子もダマる天才科学者の
 #助手っていうには、ムリがねえか？
-It's suspicious to begin with.
-The genius scientist who can fool even crying children...
-Is he really fit for the title of 'assistant'?
+That's exactly what's suspicious.
+The assistant to a genius scientist
+who could fool crying children? Doesn't add up.
 -----------------------
 #？？？？
 ????
 -----------------------
 #ねぇ、呼んだ？
-You called?
+Hey, did you call me?
 -----------------------
 <Kyle>
 -----------------------
 #呼んでないってば！
-I told you I didn't call you!
+I said we didn't call you!
 -----------------------
 #？？？？
 ????
 -----------------------
 #だって今「天才科学者」って
 #それ、私のことでしょ？
-Because right now I'm a 'genius scientist'
-That's referring to me, isn't it?
+But you just said 'genius scientist.'
+That's me, isn't it?
 -----------------------
 <Loni>
 -----------------------
 #････あんたじゃねえよ
 #あんたの上司････かどうかは知らねえが
 #<Harold>博士って、知ってるんだろ？
-It's not you.
-I don't know if he's your boss...
-You know Dr. <Harold>, right?
+...Not you.
+I don't know if she's your boss or what,
+but you know Dr. <Harold>, right?
 -----------------------
 <Judas>
 -----------------------
 #もしできるのなら、会わせてほしい
 #話がしたいんだ
-If it's possible, I want to see them.
-I have something to talk about.
+If possible, we'd like to meet her.
+We have matters to discuss.
 -----------------------
 #？？？？
 ????
@@ -507,7 +505,7 @@ I have something to talk about.
 #話がしたいの？
 #そんなこと、お安いご用よ
 You want to talk?
-That's nothing to you.
+That's easily arranged.
 -----------------------
 <Kyle>
 -----------------------
@@ -515,7 +513,7 @@ That's nothing to you.
 #じゃあ、博士のところまで
 #案内してよ！
 Really?
-Then, to Dr. Kleis's place.
+Then take us to the doctor's place!
 Show us the way!
 -----------------------
 #？？？？
@@ -524,31 +522,31 @@ Show us the way!
 #その必要はないわ
 #さ、話して
 No need for that.
-C-Come on, talk to me.
+Now then, talk.
 -----------------------
 <Loni>
 -----------------------
 #お、おいおい、話が違うじゃねーか！
 #俺たちは、<Harold>博士に
 #話があってだな････
-Hold on, that's not what we agreed!
-We're here to see Dr. <Harold>
-I've got something to talk about...
+H-Hold on, that's not what we agreed!
+We're here to see Dr. <Harold>,
+so we've got business with her...
 -----------------------
 #？？？？
 ????
 -----------------------
 #だから、ここで話せばいいじゃない！
 #わかんないやつねぇ！
-Then we might as well talk about it right here!
-I don't get it at all!
+So we can just talk about it right here!
+You're a real piece of work, you know that?
 -----------------------
 <Loni>
 -----------------------
 #だぁーかぁーら！　俺たちは
 #<Harold>博士に話があるんで
 #助手であるあんたには････
-That's what I'm saying! We're here
+That's what I'm sayin'! We're here
 to speak with Dr. <Harold>,
 not with her assistant...
 -----------------------
@@ -564,21 +562,21 @@ Whose assistant am I supposed to be?
 -----------------------
 #････おまえは、<Harold>博士の
 #助手じゃないのか？
-Are you... Dr. <Harold>'s...
+...You're not Dr. <Harold>'s
 assistant?
 -----------------------
 #？？？？
 ????
 -----------------------
 #私は、助手なんかじゃないわよ
-I'm not just some assistant.
+I'm not anybody's assistant.
 -----------------------
 <Loni>
 -----------------------
 #ハァ････アホらし････
 #さ、行こうぜ
-Haa... What a waste.
-L-let's go.
+*sigh* ...What a pain.
+C'mon, let's go.
 -----------------------
 #？？？？
 ????
@@ -590,7 +588,7 @@ Because I'm <Harold>, after all.
 -----------------------
 #はいはい、わかったわかった
 #あんたが<Harold>････
-Alright, alright, I get it.
+Yeah, yeah, I get it.
 You're <Harold>...
 -----------------------
 <Kyle>
@@ -601,98 +599,98 @@ Huh? R-Really...?
 <Harold>
 -----------------------
 #うん
-Yes.
+Yep.
 -----------------------
 <Judas>
 -----------------------
 #くだらない冗談はよせ
 #おまえが<Harold>博士なわけが････
-Cut out the lame jokes.
+Enough with the stupid jokes.
 There's no way you're Dr. <Harold>...
 -----------------------
 <Harold>
 -----------------------
 #あんたの背中にあるの
 #シャルティエでしょ？
-What's on your back?
-It's Shartier, right?
+That thing on your back.
+It's Chaltier, right?
 -----------------------
 <Harold>
 -----------------------
 #細身の曲刀で、刃渡り６７．３cｍ
 #柄も含めた全長は８１．７cｍ
 #重さは２．６４ｋｇ
-A slender curved blade with a cutting edge length of 67.3 cm.
-The total length, including the hilt, is 81.7 cm.
-It weighs 2.64 kg.
+A slender curved blade, 67.3 cm cutting edge.
+81.7 cm total length including the hilt.
+Weight: 2.64 kg.
 -----------------------
 <Harold>
 -----------------------
 #柄はシャルティエ自身の
 #手にあわせて若干ふくらみを持たせてる
 #レリーフに刻まれてるのはジェルベ模様
-The handle is made by Chartier himself
-It's slightly padded to fit his hand
-The relief features the Gerbe pattern
+The grip was shaped to fit Chaltier's own hand,
+with a slight swell for comfort.
+The relief is engraved with the Gerbe pattern.
 -----------------------
 <Harold>
 -----------------------
 #属性は地
 #主に石や岩などを用いた晶術を使用････
 #あ、初期状態で使える晶術も聞きたい？
-Its attribute is Earth.
-They primarily use Lens Artes involving stones and rocks...
-Oh, you want to know which Lens Artes are available from the start?
+Earth attribute.
+Primarily uses Magic Artes involving stone and rock...
+Oh, want to hear which ones he starts with?
 -----------------------
 <Judas>
 -----------------------
 #そこまで詳細なデータを････
-That detailed data...
+You have data that detailed...
 -----------------------
 <Harold>
 -----------------------
 #把握していて当然よ
 #設計者なんだから
-It's only natural that you'd know.
-After all, you're the designer.
+Of course I do.
+I'm the designer, after all.
 -----------------------
 <Loni>
 -----------------------
 #で、でもよぉ！
 #<Harold>博士は男だろうが！
-Well, but hey!
-Dr. <Harold> is a man!
+B-But still!
+Dr. <Harold> is supposed to be a man!
 -----------------------
 <Harold>
 -----------------------
 #あ、やっぱりそういうことに
 #なってるんだ！
-Ah, so that's how it is.
+Ah, so that's what people think!
 I see!
 -----------------------
 <Harold>
 -----------------------
 #いや～、男の名前にしとけば
 #み～んなカン違いすると思ったのよねぇ
-I figured if I went with a guy's name...
-I thought everyone would get it wrong.
+See, I figured if I went with a guy's name...
+everyone would totally get the wrong idea.
 -----------------------
 <Harold>
 -----------------------
 #案の定、みんな、まんまと
 #ダマされてるってワケね！
 #グフ、グフフフッ！
-As expected, everyone was completely
-fooled!
-Guh, guhuhu!
+And just as I expected, you all
+fell for it completely!
+Guh, guhuhuhu!
 -----------------------
 <Reala>
 -----------------------
 #じゃ、じゃあ
 #あなたは本当に
 #<Harold>博士････
-Well then,
-You really are
+Th-Then...
+you really are...
 Dr. <Harold>...
 -----------------------
 <Harold>
@@ -701,57 +699,57 @@ Dr. <Harold>...
 #「博士」って、言葉の響きが硬すぎて
 #かわいくないし
 Ahh, <Harold> is fine.
-The title 'Doctor' feels too stiff.
-And it's not cute either.
+The title 'Doctor' sounds way too stiff.
+And it's not cute at all.
 -----------------------
 <Nanaly>
 -----------------------
 #かわいくないって････
-It's not cute...
+Not cute...
 -----------------------
 <Harold>
 -----------------------
 #さて、じゃ行きましょうか
-Well then, let's get going.
+Well then, shall we be off?
 -----------------------
 <Kyle>
 -----------------------
 #ちょ、ちょっと待って
 #行くって、どこに････
-W-wait a minute!
-You're going... where?
+W-Wait a sec!
+Going where, exactly...?
 -----------------------
 <Harold>
 -----------------------
 #みんなに、あんたたちを紹介するわ
 #私の部下ってことでね
-I'll introduce you all to everyone.
-As my subordinates.
+I'm going to introduce you to everyone.
+As my subordinates, of course.
 -----------------------
 <Harold>
 -----------------------
 #そしたら、ラディスロウの中でも
 #動きやすいでしょ？
-So then, even within Ladislaw...
-It's easier to move around, right?
+That way, you'll be able to move around
+Radisrol more freely, right?
 -----------------------
 <Harold>
 -----------------------
 #････それと、これはマジメな話
 #あんたたちが、この時代に来た理由
 #絶対に、ナイショにしておいてね
-...And also, this is serious business.
+...Also, this is serious.
 The reason you came to this era.
-You have to keep it absolutely secret.
+Keep that absolutely secret, okay?
 -----------------------
 <Kyle>
 -----------------------
 #うん、わかった！
 #<Harold>以外の人間には
 #絶対に言わないよ
-Yes, got it!
-Other than <Harold>, humans are
-absolutely forbidden from knowing.
+Yeah, got it!
+I won't tell anyone besides <Harold>,
+no matter what!
 -----------------------
 <Harold>
 -----------------------
@@ -763,142 +761,140 @@ You're keeping it a secret from me too!
 <Kyle>
 -----------------------
 #え？　だって････
-What? I mean--
+Huh? But--
 -----------------------
 <Harold>
 -----------------------
 #こんな、おもしろい問題があるのに
 #答えをいきなり聞いちゃったら
 #つまらないじゃない！
-With such an interesting problem right here,
-if you just go and ask for the answer straight away,
-it won't be any fun at all!
+There's such an interesting mystery right here!
+If you just blurt out the answer right away,
+where's the fun in that?!
 -----------------------
 <Harold>
 -----------------------
 #いい？　私が考えてる最中は
 #答えを絶対に言っちゃダメよ！
-Got it? While I'm thinking...
-Don't you dare give me the answer!
+Got it? While I'm still working it out,
+don't you dare tell me the answer!
 -----------------------
 <Harold>
 -----------------------
 #それじゃ、ラディスロウの中へ
 #レッツゴー！
-Well then, let's head inside Ladislaw.
+Now then, into Radisrol we go!
 Let's go!
 -----------------------
 <Kyle>
 -----------------------
 #････と、とにかく
 #行こうか、みんな････
-...Anyway,
+...A-Anyway,
 let's go, everyone...
 -----------------------
 notice
 -----------------------
 #<Harold>が仲間になりました
-<Harold> joined our party!
+<Harold> joined the party!
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #<Harold>博士
 #リトラー総司令がお呼びです
 #すぐに「作戦会議室」へ出頭してください
 Dr. <Harold>!
-Littra Supreme Commander is calling for you.
-Please report to the 'Operations Room' immediately.
+Commander Raiker is calling for you.
+Please report to the Operations Room at once.
 -----------------------
 <Kyle>
 -----------------------
 #やっぱ、ディムロスさんのこと････だよね
-It's Dimros, right?
+It's gotta be about Dymlos, right...?
 -----------------------
 <Harold>
 -----------------------
 #ま、行けばわかるわよ
-Well, you'll know once we get there.
+Well, you'll find out when we get there.
 -----------------------
 #士官
-officer
+Officer
 -----------------------
 #<size:0000019C>天上軍と地上軍！
 #この戦争に勝つのは
 #どちらであるかっ！
-<size:0000019C>Heavenly Army versus Earthly Army!
-The winner of this war
-is going to be... which side?!
+<size:0000019C>The Aeth'er Army versus the Er'ther Army!
+Who will emerge victorious
+from this war?!
 -----------------------
 #下士官Ａ
 Sergeant A
 -----------------------
 #<size:00000200>地上軍であります！
-<size:00000200>We are the ground forces!
+<size:00000200>The Er'ther Army, sir!
 -----------------------
 #下士官Ｂ
 Sergeant B
 -----------------------
 #<size:00000200>地上軍であります！
-<size:00000200>We are the ground forces!
+<size:00000200>The Er'ther Army, sir!
 -----------------------
 #下士官Ｃ
 Sergeant C
 -----------------------
 #<size:00000200>地上軍であります！
-<size:00000200>We are the ground forces!
+<size:00000200>The Er'ther Army, sir!
 -----------------------
 #士官
-officer
+Officer
 -----------------------
 #<size:0000019C>リトラー総司令と
 #ラディスロウに向けて
 #万歳三唱！
-<size:0000019C>Commander-in-Chief Littra and
-towards Ladislaw
-Hurrah! Three cheers!
+<size:0000019C>Three cheers for Commander-in-Chief Raiker
+and Radisrol!
 -----------------------
 #士官
-officer
+Officer
 -----------------------
 #<size:0000019C>天上軍と地上軍！
 #この戦争に勝つのは
 #どちらであるかっ！
-<size:0000019C>Heavenly Army versus Earthly Army!
-The victor in this war
-is going to be... which side?!
+<size:0000019C>The Aeth'er Army versus the Er'ther Army!
+Who will emerge victorious
+from this war?!
 -----------------------
 #下士官Ａ
 Sergeant A
 -----------------------
 #<size:00000200>地上軍であります！
-<size:00000200>We are the ground forces!
+<size:00000200>The Er'ther Army, sir!
 -----------------------
 #下士官Ｂ
 Sergeant B
 -----------------------
 #<size:00000200>地上軍であります！
-<size:00000200>We are the ground forces!
+<size:00000200>The Er'ther Army, sir!
 -----------------------
 #下士官Ｃ
 Sergeant C
 -----------------------
 #<size:00000200>地上軍であります！
-<size:00000200>We are the ground forces!
+<size:00000200>The Er'ther Army, sir!
 -----------------------
 #士官
-officer
+Officer
 -----------------------
 #<size:0000019C>ソーディアン諸兄に
 #対して万歳三唱！
-<size:0000019C>Sordian brothers,
-Huzzah three times!
+<size:0000019C>Three cheers for our Swordian brethren!
 -----------------------
 #下士官Ａ
 Sergeant A
 -----------------------
 #<size:00000200>万歳！
-<size:00000200>Hooray! !
+<size:00000200>Hurrah!
 -----------------------
 #下士官Ｂ
 Sergeant B
@@ -910,7 +906,7 @@ Sergeant B
 Sergeant C
 -----------------------
 #<size:00000200>万歳！
-<size:00000200>Long live !
+<size:00000200>Hurrah!
 -----------------------
 #下士官
 Sergeant
@@ -918,15 +914,15 @@ Sergeant
 #彗星が落ちてすぐ、あらゆる
 #軍隊や治安維持部隊は力を失った
 Right after the comet fell,
-all military forces and police units lost their power.
+every military force and peacekeeping unit lost its power.
 -----------------------
 #下士官
 Sergeant
 -----------------------
 #なにせ、物資も人員の補給も
 #まったく出来なくなったんだからな
-After all, supplies and personnel reinforcements have
-completely dried up.
+Supplies and personnel reinforcements
+dried up completely, after all.
 -----------------------
 #下士官
 Sergeant
@@ -934,17 +930,16 @@ Sergeant
 #こんな木の棒で
 #ベルクラントに立ち向かうことに
 #なろうとはな
-What with this wooden stick,
-I'm going to face off against Belkranth.
-And here I am.
+Never thought I'd end up facing Belcrant
+with nothing but a wooden stick.
 -----------------------
 #下士官
 Sergeant
 -----------------------
 #よくもまあ、いままでベルクラントに
 #撃たれなかったもんだよな
-You've managed to stay alive in Belkunt all this time,
-haven't you?
+It's a miracle we haven't been shot by Belcrant
+all this time.
 -----------------------
 #下士官
 Sergeant
@@ -952,17 +947,17 @@ Sergeant
 #へっ
 #天上軍にはまともな照準手が
 #いないんだろうよ
-Hmph.
-The Celestial Army doesn't have any competent snipers,
-do they?
+Heh.
+The Aeth'er Army must not have any decent
+gunners, that's all.
 -----------------------
 #下士官
 Sergeant
 -----------------------
 #錬度の無い兵隊ほど
 #役に立たないものはないな
-Soldiers without any skill...
-are useless.
+Nothing's more useless than soldiers
+without proper training.
 -----------------------
 #門衛
 Gate Guard
@@ -970,17 +965,17 @@ Gate Guard
 #サー
 #ここ数日、敵性目標は
 #目撃されておりません
-Sir
-Over the past few days, hostile targets have
-not been sighted.
+Sir.
+No hostile targets have been sighted
+in the past several days.
 -----------------------
 #門衛
 Gate Guard
 -----------------------
 #状況に変化があるまで
 #監視任務を続行いたします
-Until there's a change in the situation
-I will continue my surveillance mission
+I shall continue my surveillance duties
+until the situation changes.
 -----------------------
 #門衛
 Gate Guard
@@ -988,12 +983,12 @@ Gate Guard
 #サー
 #自分たちになにか不手際でも？
 S-sir?
-Did we make some kind of mistake?
+Have we done something wrong?
 -----------------------
 <Judas>
 -----------------------
 #いや、邪魔をして悪かったな
-No worries about interrupting me.
+No, I should apologize for getting in your way.
 -----------------------
 #補給将校
 Supply Officer
@@ -1001,9 +996,9 @@ Supply Officer
 #このあたりで
 #配給されるはずの物資の横流しが
 #行われているというのだ
-This area...
-is where the diverted supplies are being distributed.
-That's what they say.
+Supplies that should have been distributed
+in this area are being diverted,
+or so I've heard.
 -----------------------
 #補給将校
 Supply Officer
@@ -1011,9 +1006,9 @@ Supply Officer
 #貴重な物資をなんだと思っているのだ
 #犯人を必ず見つけて営倉に
 #叩きこんでくれる
-What do you think you're doing with such precious supplies?
-I'll find the culprit and throw them in the brig.
-And lock them up tight.
+Stealing our supplies? The nerve!
+I'll find the culprit and jail them.
+Then I'll throw away the key!
 -----------------------
 #補給将校
 Supply Officer
@@ -1027,17 +1022,16 @@ Supply Officer
 #士気が高いうちは、まだ不満を
 #押さえることが出来るが
 #限界が近いのは誰の目にも明らかだ
-As long as morale is high, there's still no room for complaints.
-You can hold them down,
-It's obvious to everyone that they're nearing their limit.
+As long as morale stays high, we can still keep a lid on the discontent.
+But anyone with eyes can see we're nearing the breaking point.
 -----------------------
 #補給将校
 Supply Officer
 -----------------------
 #次の作戦に、全ての物資を
 #まわせと通達が来た
-For the next operation,
-we've received orders to divert all supplies.
+We've received orders to divert all supplies
+to the next operation.
 -----------------------
 #補給将校
 Supply Officer
@@ -1046,10 +1040,9 @@ Supply Officer
 #どうなるのだ
 #食べる物も持たず
 #この吹雪の中で凍え死ねというのか
-But if the mission fails,
-what will happen?
-Without even food to eat,
-are you saying we should freeze to death in this blizzard?
+But what happens if the operation fails?
+Without so much as food to eat,
+are they telling us to freeze to death in this blizzard?
 -----------------------
 <Harold>
 -----------------------
@@ -1057,15 +1050,15 @@ are you saying we should freeze to death in this blizzard?
 #突入作戦が失敗したら
 #遅かれ早かれ地上軍は全滅よ
 You're an idiot.
-If our infiltration mission fails,
-The ground forces will be wiped out sooner or later.
+If the infiltration mission fails,
+the ground forces will be wiped out sooner or later.
 -----------------------
 <Harold>
 -----------------------
 #だったら持てる力の全てを
 #この作戦にまわすべきじゃない
-Then all my strength should
-be dedicated to this operation.
+Then shouldn't you commit every resource you've got
+to this operation?
 -----------------------
 #補給将校
 Supply Officer
@@ -1073,9 +1066,8 @@ Supply Officer
 #本当に勝てる見こみがある上での
 #命令なのだろうか
 #私は納得できない････
-Given that there is genuinely a chance of victory,
-is it truly an order?
-I can't accept it...
+Is this truly an order given with any real hope of victory?
+I cannot accept it...
 -----------------------
 #兵卒
 Soldier
@@ -1083,14 +1075,13 @@ Soldier
 #おまえら、ずいぶんと変わった
 #装備をつけてるな
 #所属はどの隊だ？
-You've all changed quite a bit.
-You're wearing gear.
-Which unit are you from?
+You folks are wearing some unusual gear.
+What unit are you from?
 -----------------------
 <Nanaly>
 -----------------------
 #隊？軍隊の事はよく分からないよ
-The squad? I don't know much about military affairs.
+Unit? I don't really know much about the military.
 -----------------------
 #兵卒
 Soldier
@@ -1098,9 +1089,9 @@ Soldier
 #分からない？
 #ああ、さては臨時徴兵された
 #民兵だな？
-Don't you get it?
-Yeah, looks like they got drafted as reserves.
-Militia, right?
+You don't know?
+Ah, I get it. You must be militia
+conscripted for the emergency.
 -----------------------
 #兵卒
 soldier
@@ -1108,9 +1099,9 @@ soldier
 #なげかわしいな
 #民間人に武器を持たせるなんて
 #軍隊の面目が無いじゃねえか
-What a pity.
-To arm civilians...
-Doesn't that tarnish the army's reputation?
+What a sorry sight.
+Arming civilians...
+Doesn't that disgrace the army?
 -----------------------
 #兵卒
 Soldier
@@ -1118,55 +1109,55 @@ Soldier
 #軍人ってのは民間人を守るために
 #存在してるんだ
 Soldiers exist to protect civilians.
-That's what they're here for.
+That's why we're here.
 -----------------------
 #兵卒
 Soldier
 -----------------------
 #その民間人の力をかりなきゃ
 #いけないなんて、本末転倒だぜ
-We need to borrow that civilian's power.
-It's all backward to say it's no good.
+Having to borrow strength from those same civilians?
+That's putting the cart before the horse.
 -----------------------
 #兵卒
 soldier
 -----------------------
 #いよいよダイクロフト突入作戦が
 #発動されるらしいな
-The Dycroft infiltration operation is finally
-about to commence.
+Sounds like the Dycroft infiltration operation
+is finally about to launch.
 -----------------------
 #兵卒
 Soldier
 -----------------------
 #敵の本拠地に乗りこむんだ
 #生きては帰れないかもしれんな
-We're heading straight into the enemy's stronghold.
-You might not make it back alive.
+We're heading straight into the enemy stronghold.
+Might not make it back alive.
 -----------------------
 #兵卒
 soldier
 -----------------------
 #だが、それでもやるしかないんだ
 #この世界の命運がかかってるんだからな
-But I still have no choice but to go through with it.
-This world's fate is on the line.
+But we've got no choice.
+The fate of the world is riding on this.
 -----------------------
 #兵卒
 Soldier
 -----------------------
 #もし生き残ったら
 #軍人は廃業だな
-If I survive...
-I guess being a soldier is a dead-end job.
+If I survive this...
+I'm done being a soldier.
 -----------------------
 #兵卒
 Soldier
 -----------------------
 #ストレイライズ教団にでも入って
 #平和に暮らしたいもんだ
-I could just join the Stray Rize cult
-and live in peace.
+I'll join the Order of Straylize or something
+and live out my days in peace.
 -----------------------
 #地上軍兵士
 Ground Army Soldier
@@ -1174,168 +1165,168 @@ Ground Army Soldier
 #なあ、信じられるかい？
 #ベルクラントみたいな兵器にたいして
 #俺たちは剣と弓で戦いを挑んでるんだぜ？
-Hey, can you trust it?
+Hey, can you believe it?
 Against weapons like Belcrant,
-we're fighting them with swords and bows, you know?
+we're fighting with swords and bows.
 -----------------------
 #地上軍兵士
 Ground Army Soldier
 -----------------------
 #イカれてるぜ
 #勝てっこねえよ
-You're crazy.
+We're out of our minds.
 There's no way we can win.
 -----------------------
 #元空挺兵
-Former Airborne Troops soldier
+Former Airborne Soldier
 -----------------------
 #俺はもともと空挺兵だったんだが
 #今じゃ飛行機なんざ一機も
 #残ってない
-I was originally a paratrooper.
-Nowadays, there isn't a single plane left,
-not even one.
+I used to be a paratrooper.
+These days, not a single plane's left.
+Not even one.
 -----------------------
 #元空挺兵
-Former Airborne Infantryman
+Former Airborne Soldier
 -----------------------
 #いや、たとえ残っていたとしても
 #ベルクラント相手じゃ、なにも
 #出来ねえよな････
-No, even if they were still around
-Against Belkranth, there's nothing we can
-do about it...
+No, even if we still had them,
+against Belcrant, there'd be nothing
+we could do...
 -----------------------
 #地上軍兵士
 Ground Army Soldier
 -----------------------
 #ソーディアンねえ････
 #たかが剣一本が、戦局をくつがえすってのか？
-So it's a Sordian...
-You're telling me that just one sword can turn the tide of battle?
+A Swordian, huh...
+So one little sword is supposed to turn the tide of battle?
 -----------------------
 #地上軍兵士
-Ground Forces Soldier
+Ground Army Soldier
 -----------------------
 #兵隊一人、武器一個で
 #戦争が終わるわけないだろうが
 One soldier, one weapon...
-That's hardly enough to end a war.
+That's not enough to end a war.
 -----------------------
 <Loni>
 -----------------------
 #ところがどっこい
 #本当に終わっちまうのが
 #歴史の不思議ってやつだな
-But just you wait
-It really is over
-That's what makes history so mysterious
+And yet, lo and behold,
+it really does end.
+That's the strange thing about history.
 -----------------------
 #地上軍兵士
 Ground Army Soldier
 -----------------------
 #ソーディアンの性能が本当なら
 #俺だって使いたいさ
-If Sordian's performance is truly as good as they say,
-I'd want to use it too.
+If a Swordian's really that powerful,
+I'd want to use one too.
 -----------------------
 #地上軍兵士
-Ground Soldier
+Ground Army Soldier
 -----------------------
 #こんなクソみたいな戦争は
 #とっとと終わらせなきゃいけない
 #そのために、有効に使ってやるさ
-This damn war is nothing but trash,
-and we need to end it already.
-So I'll put it to good use for that purpose.
+This damn war's a pile of trash.
+We need to end it fast.
+And I'll make sure it gets put to good use.
 -----------------------
 #女性兵
-FEMALE SOLDIER
+Female Soldier
 -----------------------
 #私は臨時徴兵された民兵なの
 #これまでは軍隊なんて
 #無縁の存在だったんだけどね････
-I'm just a militia member who was temporarily conscripted.
-So far, I've been
-completely unrelated to the military.
+I'm just a militia member who got conscripted.
+Before this, the military was
+the last thing I'd ever have anything to do with...
 -----------------------
 #女性兵
-Female soldier
+Female Soldier
 -----------------------
 #軍人って、ほんとタフよ
 #この吹雪の中、よく立ち続けて
 #られるわよね････
-Soldiers are really tough.
-You can still stand in this blizzard?
-I suppose that's to be expected...
+Soldiers are really something, aren't they?
+Standing out in this blizzard like it's nothing.
+I could never manage that...
 -----------------------
 #女性兵
-FEMALE SOLDIER
+Female Soldier
 -----------------------
 #おっと、ボヤいてると
 #上官に怒鳴られちゃうわ
 #ちゃんと見張りをしてないと
-Oh, if I keep yapping,
-I'll get yelled at by my superior.
-If you don't keep watch properly,
+Oops, if I keep griping like this,
+my superior's gonna chew me out.
+Gotta stay focused on watch duty.
 -----------------------
 #女性兵
-Female soldier
+Female Soldier
 -----------------------
 #それにしても寒いわぁ
 #凍死しちゃいそう
-It's freezing out there.
-I feel like I'm going to freeze to death.
+It's freezing out here...
+I feel like I'm gonna freeze to death.
 -----------------------
 #女性兵
-Female soldier
+Female Soldier
 -----------------------
 #天上軍に勝利したら、正式に入隊
 #しようと思ってるの
-If we defeat the Heavenly Army, I plan to officially enlist.
-That's what I'm thinking.
+If we beat the Aeth'er Army, I'm thinking
+of officially enlisting.
 -----------------------
 #女性兵
-Female soldier
+Female Soldier
 -----------------------
 #戦争が終わっても、しばらくは
 #混乱した状態が続くわ
 #兵隊は一人でも多いほうが
 #いいでしょうからね
-Even after the war ends,
-the state of chaos will likely continue for some time.
-Having as many soldiers as possible
-is probably for the best.
+Even after the war ends, things are gonna
+stay chaotic for a while.
+The more soldiers we have,
+the better off we'll be.
 -----------------------
 #女性兵
-Female soldier
+Female Soldier
 -----------------------
 #絶対に勝って
 #より良い世界を子供たちに
 #残さなきゃね
-I have to win.
-To pass on a better world to our children.
-We can't let it end here.
+We have to win.
+To leave a better world behind
+for our children.
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #<Harold>博士
 #リトラー総司令がお呼びです
 #すぐに「作戦会議室」へ出頭してください
 Dr. <Harold>!
-Commander Littra is calling for you.
-Please report to the 'Operations Room' immediately.
+Commander Raiker is calling for you.
+Please report to the Operations Room immediately.
 -----------------------
 <Harold>
 -----------------------
 #回収、回収～♪
-Gotta collect 'em all~♪
+Collect, collect~♪
 -----------------------
 <Harold>
 -----------------------
 #持ち物がいっぱいね
-You've got your inventory full.
+Your inventory's full.
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -1352,8 +1343,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -1387,8 +1378,8 @@ notice
 -----------------------
 #{16}{25}{D2}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{25}{D2}{C0}There was , but
-I couldn't hold it because it was full.
+Found {16}{25}{D2}{C0}, but
+your inventory was full.
 -----------------------
 notice
 -----------------------
@@ -1396,27 +1387,26 @@ notice
 There's nothing here.
 -----------------------
 #<item:00000012>屋
-<item:00000012>-ya
+<item:00000012> Shop
 -----------------------
 #こちらでは<item:00000012>の
 #販売を行っています
-We are currently selling <item:00000012> here.
-We handle sales.
+We sell <item:00000012> here.
 -----------------------
 #<item:00000012>を使ってリファインすると
 #ステキな物が作られることがあるようです
-<item:00000012>If you refine using ,
-it seems that something wonderful can be created.
+If you Refine using <item:00000012>,
+you can sometimes make something wonderful.
 -----------------------
 #武器や鎧をリファインすると
 #付加能力が引継がれることがあるようです
-When you refine weapons and armor,
-it seems that some added abilities may carry over.
+When you Refine weapons and armor,
+their added abilities may carry over.
 -----------------------
 #ひと瓶<0B:00000001>{14}{35}{DC}{C0}<0B:00000000>ガルドになりますが、
 #<item:00000012>を買いますか？
-One bottle will cost you <0B:00000001>{14}{35}{DC}{C0}<0B:00000000> gald.
-<item:00000012>Do you want to buy ?
+One bottle costs <0B:00000001>{14}{35}{DC}{C0}<0B:00000000> gald.
+Would you like to buy <item:00000012>?
 -----------------------
 select
 -----------------------
@@ -1424,9 +1414,9 @@ select
 #　<0B:00000001>{14}{25}{E6}{C0}本まとめて買う（{14}{35}{E0}{C0}ガルド）<0B:00000000>　
 #　リファイン講座　
 #　いらない　
-<03:00000000>Buy
-<0B:00000001>{14}{25}{E6}{C0}Buy all at once ({14}{35}{E0}{C0} Gald)<0B:00000000>
-Refine Guide
+<03:00000000> Buy
+<0B:00000001>{14}{25}{E6}{C0} Buy all at once ({14}{35}{E0}{C0} Gald)<0B:00000000>
+Refining Guide
 No thanks
 -----------------------
 select
@@ -1434,8 +1424,8 @@ select
 #<03:00000000>　買う　
 #　リファイン講座　
 #　いらない　
-<03:00000000>Buy
-Refine Course
+<03:00000000> Buy
+Refining Guide
 No thanks
 -----------------------
 #お買い上げ、ありがとうございます
@@ -1446,18 +1436,17 @@ Thank you for your purchase.
 -----------------------
 #<item:00000012>はひと瓶
 #<0B:00000001>{14}{35}{DC}{C0}<0B:00000000>ガルドです
-<item:00000012>One bottle's worth.
-<0B:00000001>{14}{35}{DC}{C0}<0B:00000000>It costs  gald.
+<item:00000012> is <0B:00000001>{14}{35}{DC}{C0}<0B:00000000> gald per bottle.
 -----------------------
 #リファイン講座を聞きたいですか？
-Do you want to hear about Refine?
+Would you like to hear about Refining?
 -----------------------
 select
 -----------------------
 #<03:00000000>　聞きたい　
 #　聞きたくない　
-<03:00000000>I want to ask
-I don't want to ask
+<03:00000000> I'd like to hear it.
+No thanks
 -----------------------
 #何について知りたいですか？
 What would you like to know?
@@ -1468,7 +1457,7 @@ select
 #　５、装飾品のリファイン　
 #　６、リファインできない装備品について　
 #　前のページ　
-<03:00000000>4. About Slots
+<03:00000000> 4. About Slots
 5. Refining Accessories
 6. Equipment That Cannot Be Refined
 Previous Page
@@ -1479,7 +1468,7 @@ select
 #　２、アイテムの変化　　　　　　　　　　
 #　３、装備品の合成　
 #　次のページ　
-<03:00000000>1. What is Refine?
+<03:00000000> 1. What Is Refine?
 2. Item Transformations
 3. Equipment Synthesis
 Next Page
@@ -1487,186 +1476,175 @@ Next Page
 #リファインとは、選択したアイテムを
 #別なアイテムに変化させたり
 #武器や防具を合成することのできるコマンドです
-Refine is when you select an item to
-You can transform it into other items.
-This command lets you combine weapons and armor.
+Refine is a command that lets you transform a selected item
+into a different item, or synthesize weapons and armor.
 -----------------------
 #リファインを行うのに必要なのは
 #<item:00000012>とレンズです
-What is needed to perform Refine is
-<item:00000012>and lenses.
+To perform Refine, you'll need
+<item:00000012> and Lens.
 -----------------------
 #<item:00000012>は、各地にいる
 #私たちルーンボトル屋からお求めください
-<item:00000012>is located in various places
-Please purchase from our Rune Bottle shop.
+You can purchase <item:00000012> from us Rune Bottle vendors
+found in various locations.
 -----------------------
 #レンズはモンスターと
 #戦えば拾うことができます
-The lens can be found from monsters
-if you defeat them in battle.
+You can obtain Lens by battling monsters.
 -----------------------
 #これを機会に、あなたも
 #どんどんリファインを行ってください
-With this as an opportunity, you too
-go ahead and refine them as much as possible
+Take this opportunity to refine as much as you'd like!
 -----------------------
 #アイテムの変化とは、アイテム単体に
 #リファインを行うことによって
 #別なアイテムに変化させることです
-What changes to items are,
-by performing Refine on them,
-is transforming them into different items.
+Item transformation means using Refine on a single item
+to change it into a different item.
 -----------------------
 #例えば、<item:00000001>にリファインを行うと
 #<item:00000002>に変化し
 #逆に、<item:00000002>にリファインを行うと
 #<item:00000001>に変化します
-For example, if you refine <item:00000001>,
-<item:00000002>it transforms into .
-Conversely, if you refine <item:00000002>,
-<item:00000001>it changes into .
+For example, refining <item:00000001> will transform it into
+<item:00000002>.
+Conversely, refining <item:00000002> will change it into
+<item:00000001>.
 -----------------------
 #また、装備品単体をリファインすることによって
 #<item:00000001>などのアイテムにも変化します
-You can also refine individual equipment pieces to
-<item:00000001>transform items such as .
+You can also refine individual equipment pieces
+into items such as <item:00000001>.
 -----------------------
 #ダンジョンなどでアイテムが尽きてしまった時などに
 #行うと、有効な場合もあります
 #もちろん、最初からきちんと準備をしておくほうが
 #賢いといえますが････
-When you run out of items in dungeons or similar places,
-this method might come in handy.
+This can be effective when you run out of items
+in dungeons and the like.
 Of course, it's wiser to prepare properly from the start,
 but...
 -----------------------
 #リファインの一番の特徴は
 #やはり、装備品の合成です
 The most notable feature of Refine is
-the synthesis of equipment.
+undoubtedly equipment synthesis.
 -----------------------
 #装備品を合成すると
 #お気に入りの装備品に
 #お気に入りのスロットが付いた
 #装備品を作ることができます････
-When you synthesize equipment,
-you can create your favorite gear
-with a preferred slot attached
-to craft custom equipment...
+By synthesizing equipment, you can create gear
+with your preferred slots attached
+to your favorite equipment...
 -----------------------
 #ああ、まずはスロットの説明を
 #しなければいけませんね
-Ah, first I need to explain how the slots work.
-I suppose.
+Ah, but first I must explain how slots work.
 -----------------------
 #スロットとは、装備品に
 #付けることができる
 #付加能力のようなものです
-Slots are items you equip
-that can be attached to your gear
-to grant bonus abilities.
+Slots are bonus abilities that can be
+attached to your equipment.
 -----------------------
 #スロットについては、また別に
 #詳しく説明させていただきます
-As for the slots, we'll cover that separately.
-We will explain in detail.
+We'll explain slots in detail separately.
 -----------------------
 #いちばん簡単な装備品のリファインは
 #スロットが一つついた装備品どうしの
 #リファインです
-The simplest equipment Refine is
-between two pieces of equipment
+The simplest equipment Refine involves
+refining two pieces of equipment
 that each have one slot.
 -----------------------
 #これを行うと、何とステキなことに
 #スロットが二つ付いた装備品ができます
-What a wonderful thing to do!
-You'll get equipment with two slots.
+Doing so will wonderfully produce equipment
+with two slots!
 -----------------------
 #注意しなければいけないのは
 #剣は剣、鎧は鎧といったように
 #同じ種類の装備品でしか
 #リファインできません
-What you need to keep in mind is that
-just as swords are for swords and armor is for armor,
-you can only
-Refine equipment of the same type.
+One thing to keep in mind:
+just as swords go with swords and armor with armor,
+you can only Refine equipment
+of the same type.
 -----------------------
 #他にもいろいろな組み合わせがありますが
 #それはやってみてのお楽しみです
-There are plenty of other combinations as well.
-You'll have to try it out to find out.
+There are many other combinations as well.
+You'll have to try them out for yourself!
 -----------------------
 #スロットについて
 #詳しく説明いたします
-I'll explain about slots.
-I will provide detailed instructions.
+Now let me explain slots in detail.
 -----------------------
 #スロットは数多くの種類があり
 #アタック：攻撃力が上昇します
 #ディフェンス：防御力が上昇します
 #などが代表的なものです
-There are many types of slots available,
-Attack: Increases attack power.
-Defense: Increases defense power.
-among others.
+There are many types of slots.
+Attack: increases attack power.
+Defense: increases defense power.
+These are the most common examples.
 -----------------------
 #スロットによって装備品の名前も変わります
 #<item:00000078>　＋　アタックで
 #アタックソードなどです
-The name of equipped items also changes depending on the slot.
-<item:00000078>+ Attack
-It's called an Attack Sword, for example.
+Equipment names also change based on their slots.
+<item:00000078> + Attack becomes
+an Attack Sword, for example.
 -----------------------
 #また、スロットにはレベルがあり
 #レベルが高いと効果も上昇します
 #最高はレベル８です
-Additionally, slots have levels.
+Slots also have levels.
 Higher levels increase their effectiveness.
-The maximum level is eight.
+The maximum level is 8.
 -----------------------
 #スロット付きの装備品は
 #主にモンスターが落とします
 Equipment with slots is
-mainly dropped by monsters
+primarily dropped by monsters.
 -----------------------
 #モンスターとたくさん戦って
 #スロット付き装備品を手に入れて
 #あなただけのスロット付き装備品を
 #作ってみてください
-Fight lots of monsters
-obtain equipment with slots
-create your own slot-equipped gear
-and give it a try
+Fight plenty of monsters to obtain slot-equipped gear,
+and try creating your very own
+custom slot-equipped equipment!
 -----------------------
 #ここだけの話ですが、装飾品も
 #リファインすることができます
 #でも、それは装飾品どうしではありません
 Just between you and me, accessories can also
-be refined
-But that doesn't apply to combinations between accessories themselves
+be refined.
+However, not with other accessories.
 -----------------------
 #装飾品と、装備品のような
 #形でのみリファインが可能なのです
-Like accessories and equipment,
-Refining is only possible in that form.
+Refining is only possible when combining accessories
+with equipment in this manner.
 -----------------------
 #この場合の利点は、リファインする
 #装備品の場所によってスロットが
 #変化するということです
 #武器、防具によって違います
-This advantage in this case is that you can refine
-the slots change depending on where
-you equip the items.
-It varies by weapon and armor.
+The advantage here is that the resulting slots
+change depending on which equipment piece you refine.
+This differs for weapons and armor.
 -----------------------
 #また、装飾品は一つしか装備できないので
 #いらない装飾品を、リファインに活用すれば
 #非常に有効です
-You can also only equip one accessory at a time,
-so you can make good use of unwanted accessories for Refining.
-It's highly effective.
+Also, since you can only equip one accessory at a time,
+putting unwanted accessories to use in Refining
+is extremely effective.
 -----------------------
 #その他にも、外装つまり「マント」も
 #装飾品と同様に装備品とリファインできます
@@ -1680,16 +1658,16 @@ add attributes to your equipment.
 #装飾品とのリファインもうまく活用し
 #さらにステキなリファイン職人を
 #目指してみてください
-You can also make good use of refining accessories.
-We're looking for even more wonderful refinement artisans.
-So please aim to become one.
+Make good use of refining with accessories,
+and aim to become an even more wonderful
+master of Refine!
 -----------------------
 #たまに、装備品の中に黄色い枠の
 #アイコンが付いたものがありますね
 #それは、ユニークアイテムと
 #呼ばれているものです
-Sometimes, among your equipment,
-you'll find items marked with a yellow border icon.
+Occasionally, you may find equipment marked with
+a yellow-bordered icon.
 These are known as
 Unique Items.
 -----------------------
@@ -1697,33 +1675,32 @@ Unique Items.
 #かっこよく、攻撃力も高く
 #スロットレベルも高いものが多いですが
 #スロットは一つしかありません
-Unique items look great,
-boast high attack power,
-and often have high slot levels,
+Unique items look cool,
+have high attack power,
+and often boast high slot levels,
 but they only have one slot.
 -----------------------
 #しかし、その反面、装飾品以外のユニークアイテムは
 #リファインすることができません
 #これ以上強化することができないのです
-However, on the other hand, unique items other than accessories
+However, the downside is that Unique Items other than accessories
 cannot be refined.
-meaning they cannot be upgraded any further.
+They cannot be strengthened any further.
 -----------------------
 #ですから、いらなくなったアイテムは
 #どんどん売ってしまうことをお勧めします
-So, if you have items you no longer need,
-I recommend selling them off as quickly as possible.
+Therefore, I recommend selling off items you no longer need
+as quickly as possible.
 -----------------------
 #なぜなら、アイテムをたくさん持っていると
 #モンスターがアイテムを
 #落としてくれなくなってしまうという
 #噂があるからです
 There's a rumor that if you carry too many items,
-monsters won't drop their loot.
-It's said that having an inventory full of stuff
-is why they stop dropping items.
+monsters will stop
+dropping their loot.
+It's said that having a full inventory is what causes this.
 -----------------------
 #････アイテム整理も大切ですね
-...Organizing items is important too.
+...Keeping your items organized is important too.
 -----------------------
-

@@ -13,9 +13,9 @@ Rimu
 #<Kyle>にいちゃんたちが
 #服をよごすから
 #お洗濯、タイヘンなんだから！
-<Kyle>, it's so hard to
-do laundry when you're
-getting your clothes dirty!
+<Kyle>, you guys get your
+clothes all dirty, so laundry
+is a huge pain, okay?!
 -----------------------
 #リィム
 Rimu
@@ -23,26 +23,27 @@ Rimu
 #････ルーティ母さん？
 #ベランダでみんなのフトンを干してるわよ
 #あたし、お洗濯のお手伝いしてるの
-Mama Rutee?
+...Mama Rutee?
 She's out on the balcony
 drying everyone's futons.
+I'm helping with the laundry.
 -----------------------
 #リィム
 Rimu
 -----------------------
 #これ以外のときはあたしはベランダにいるはず
-When I'm not here, I'm on the balcony.
+If I'm not here, I should be on the balcony.
 -----------------------
 #ルーティ
 Rutee
 -----------------------
 #冒険なんて、あんたにゃ
 #まだ早すぎるの！
-You're not ready for an adventure.
-You're too young!
+Adventuring? You're way too
+young for that!
 -----------------------
 #洗濯物を落としてしまった
-The laundry dropped.
+Dropped the laundry.
 -----------------------
 NOTICE
 -----------------------
@@ -53,14 +54,14 @@ Acquired <item:0000000C>.
 It contains small miscellaneous items.
 -----------------------
 #手紙が入っている
-There's a letter in there.
+There's a letter inside.
 -----------------------
 #『････こっちは宿屋の経営も順調で毎日が楽しいぞ
 #　ハイデルベルグへ来る事があったら、顔を見せてくれ
 #　　　　　　　　　　　　　　　　　　　　マリーより』
-"The inn is running well and every day is fun.
-If you ever come to Heidelberg, come see me.
---Marie."
+'...Business at the inn is going well, and every day is a joy.
+If you ever come to Heidelberg, stop by and see me.
+--Marie'
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -77,8 +78,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -120,4 +121,3 @@ notice
 #何もありません
 There's nothing here.
 -----------------------
-

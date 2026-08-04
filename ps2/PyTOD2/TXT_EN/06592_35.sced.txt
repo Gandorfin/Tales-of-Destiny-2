@@ -1,45 +1,45 @@
 #ダイクロフト
-Dycrof
+Dycroft
 -----------------------
 #ダイクロフト
-Dycrof
+Dycroft
 -----------------------
 #ダイクロフト
-Dycrof
+Dycroft
 -----------------------
 <Kyle>
 -----------------------
 #イテテテテ････
 #もう、なんなんだよ、このマシン！
 #飛び方も着陸もメチャクチャじゃないか！
-Ouch...
-Geez, what is wrong with this machine?
-Its flying and landing are a mess!
+Ow ow ow ow...
+Man, what's with this thing!?
+It can't fly straight OR land straight!
 -----------------------
 <Harold>
 -----------------------
 #メチャクチャじゃないわよ
 #ちゃ～んと、揺れ方とか衝撃も計算して
 #軌道を入力したもの
-I'm not going crazy!
-I calculated the swaying motion and impact precisely.
-The trajectory has been input.
+It's not a mess at all!
+I calculated every shake and impact
+and entered the trajectory myself.
 -----------------------
 <Loni>
 -----------------------
 #････ちょっと待て
 #ってことは、わざと
 #こういうふうに飛んだのか!?
-Hold on a second.
-So you did that on purpose?
-You flew just like that!?
+...Hold on.
+So you mean you flew like that
+ON PURPOSE!?
 -----------------------
 <Harold>
 -----------------------
 #このぐらいドッタンバッタンしないと
 #飛んでるって感じがしないでしょ？
-This isn't enough clatter and bang to really feel it.
-You don't get that sense of flight, do you?
+If it doesn't bump and bang around like this,
+you wouldn't feel like you're flying, right?
 -----------------------
 <Kyle>
 -----------------------
@@ -50,33 +50,33 @@ You don't get that sense of flight, do you?
 -----------------------
 #うんうん、計算通り
 #格納庫に到着したわね
-That's right, just as calculated.
-We've arrived at the storage room.
+Yep yep, just as calculated.
+We've arrived at the hangar.
 -----------------------
 <Harold>
 -----------------------
 #ほら、これが脱出用ポッドよ
 #覚えておいてね
 There, that's the escape pod.
-Just remember.
+Make sure you remember it.
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #地上軍の強襲揚陸艇だ！
 #Ｇブロックのガーディアンを向かわせろ！
 #ひとりたりとも生かして帰すな！
-Those are ground forces' assault landing craft!
-Send in the G Block guardians!
-Don't let any of them escape alive!
+Ground forces' assault landing craft!
+Send the G Block guardians to intercept!
+Don't let a single one escape alive!
 -----------------------
 #カーレル
-Carrel
+Karell
 -----------------------
 #まずいな、思ったよりも
 #早く気づかれてしまった
-This is bad. I was noticed sooner than expected.
-I was discovered faster than I thought.
+This is bad. They found us
+sooner than I expected.
 -----------------------
 #ディムロス
 Dymlos
@@ -84,40 +84,40 @@ Dymlos
 #なに、いつかは見つかるんだ
 #それが少しばかり
 #早まっただけのことさ
-I mean, it'll turn up eventually.
-It's just that I was
-a little too hasty.
+Well, we were bound to be found eventually.
+It's just happening
+a little sooner than planned.
 -----------------------
 #ディムロス
-Dimlos
+Dymlos
 -----------------------
 #よし、作戦開始だ！
 #<Harold>、撹乱はまかせたぞ
 #他の者は、私に続け！
-Alright, let's get this show on the road!
-<Harold>, you handle the diversion.
-Everyone else, follow my lead!
+Alright, operation commence!
+<Harold>, you're on diversion duty.
+Everyone else, follow me!
 -----------------------
 <Kyle>
 -----------------------
 #おまえたちの相手はこっちだ！
 #さあ、かかってこいッ！
-You're up against us!
-Now then, bring it on!
+We're your opponents!
+Come on, bring it!
 -----------------------
 <Loni>
 -----------------------
 #ほい、一丁上がりっと！
 #さ、俺たちもとっとと
 #行こう････
-One down!
-C'mon, let's get moving.
+There, one down!
+C'mon, let's get a move on.
 Let's go...
 -----------------------
 <Harold>
 -----------------------
 #ちょい待ち！
-Hold on!
+Hold up!
 -----------------------
 <Kyle>
 -----------------------
@@ -128,15 +128,15 @@ What's wrong, <Harold>?
 -----------------------
 #あんたたち、このモンスターと
 #戦ったことがあるの？
-You lot, have you ever
-fought that monster?
+Have you guys ever
+fought this monster before?
 -----------------------
 <Kyle>
 -----------------------
 #え？　うん、あるけど････
 #それがどうしたの？
-Huh? Yeah, there is...
-So what about it?
+Huh? Yeah, we have, but...
+What about it?
 -----------------------
 <Harold>
 -----------------------
@@ -144,8 +144,8 @@ So what about it?
 #あんたたちと同じように
 #未来から来たやつがいるってワケね
 I see... so that means
-Just like you lot
-So there are people from the future around, huh?
+just like you guys,
+there's someone else here from the future.
 -----------------------
 <Reala>
 -----------------------
@@ -156,41 +156,41 @@ What do you mean?
 -----------------------
 #このモンスター
 #私、見たことないもの
-This monster
-I've never seen anything like it
+This monster...
+I've never seen anything like it.
 -----------------------
 <Harold>
 -----------------------
 #こいつと似たようなのは
 #今も存在してるけど
 #それよりも、異常なまでに進化してるわ
-There are things similar to this one
-that still exist today,
-but it's evolved abnormally.
+There are similar ones around
+even now, but this one's evolved
+far beyond anything normal.
 -----------------------
 <Harold>
 -----------------------
 #つまり、これは誰かが
 #未来から連れて来たってこと
 #心当たり、ある？
-So, someone brought them
-from the future?
-Do you have any idea who?
+In other words, someone brought it
+from the future.
+Any idea who?
 -----------------------
 <Loni>
 -----------------------
 #ありもあり、大ありさ
 #エルレインってやつのしわざだよ
-It's totally possible, and highly likely.
-That's Elrein's doing.
+Oh, I've got a hunch. A big one.
+It's Elrane's handiwork.
 -----------------------
 <Judas>
 -----------------------
 #おそらく、やつの手下が
 #すでに天上軍に入りこんでいて
 #支援しているのだろうな
-Probably, his subordinates have
-already infiltrated the Celestial Army,
+Most likely, her subordinates have
+already infiltrated the Aeth'er Army
 and are providing support.
 -----------------------
 <Harold>
@@ -198,8 +198,8 @@ and are providing support.
 #ふむふむ････
 #つまり、あんたたちの目的は
 #歴史修正ってわけね
-I see...
-So, your goal is to
+Hmm, hmm...
+So your goal is to
 correct history, then?
 -----------------------
 <Harold>
@@ -207,75 +207,75 @@ correct history, then?
 #そのエルレインってやつが
 #天上軍に肩入れして、この戦争を
 #勝たせようとしている
-That Erlein fellow...
-Side with the Heavenly Army and see this war through.
-Trying to make us win
+This Elrane person is siding with
+the Aeth'er Army, trying to make them
+win this war.
 -----------------------
 <Harold>
 -----------------------
 #で、それを阻止するために
 #あんたたちは、この時代に来たと
-So, to stop that,
-you've come to this era.
+And you came to this era
+to stop that.
 -----------------------
 <Reala>
 -----------------------
 #ええ、その通りよ
 #わたしたちは、エルレインの
 #歴史介入を防ぐために、ここに来たの
-Yes, that's correct.
+Yes, that's right.
 We came here to prevent
-interference in Elleion's history.
+Elrane's interference in history.
 -----------------------
 <Harold>
 -----------------------
 #歴史をいじるなんて、ずいぶんと
 #面白そうなことやってるじゃない
 #そいつ、神様きどりね
-Meddling with history is quite...
-a fascinating thing to do.
-That guy's acting like he's God.
+Meddling with history? That's quite
+the interesting thing to be doing.
+She's really playing God, isn't she?
 -----------------------
 <Reala>
 -----------------------
 #いえ、神の名を語ってるんじゃないわ
 #本当に神を降臨させて
 #その力を使っているの
-No, I'm not invoking the name of God.
-To truly summon God,
-is to wield that power.
+No, it's not just invoking God's name.
+She's actually summoning a god
+and using its power.
 -----------------------
 <Harold>
 -----------------------
 #本物の神の力!?
 #ってことは、あんたたち
 #神様にケンカ売ってるわけ!?
-The true power of God!?
-So that means you guys...
-Are you picking a fight with God!?
+The power of a real god!?
+So that means you guys are
+picking a fight with God!?
 -----------------------
 <Kyle>
 -----------------------
 #ま、まぁ、そうなるかな
-Well, I guess that's how it goes.
+W-well, I guess that's about right.
 -----------------------
 <Harold>
 -----------------------
 #････フフ、フフフッ！
-......Hehe, hehehe!
+...Hehe, heheheh!
 -----------------------
 <Kyle>
 -----------------------
 <Harold>!?
 #ど、どうかした!?
-Wh-what's wrong?!
+Wh-what's with you!?
 -----------------------
 <Harold>
 -----------------------
 #面白くなってきたじゃない！
 #神様とケンカなんて、最高だわ！
-Isn't it getting interesting?
-Fighting God is just the best!
+Now THIS is getting interesting!
+Fighting God? That's just the BEST!
 -----------------------
 <Harold>
 -----------------------
@@ -283,57 +283,57 @@ Fighting God is just the best!
 #私の頭脳が、神をも凌駕すること
 #証明して見せるわっ！
 Alright!
-My intellect shall surpass even the gods.
-I'll prove it to you!
+I'll prove that my intellect
+can surpass even the gods!
 -----------------------
 <Kyle>
 -----------------------
 #は、はぁ････
-Heh, hehe...
+Uh... huh.
 -----------------------
 <Harold>
 -----------------------
 #さ、そうとわかったら
 #こんなところで
 #グズグズしてらんないわ！
-Well, if that's how it is,
-out here in a place like this?
-I can't afford to dawdle!
+Well, now that we know that,
+we can't afford to stand around
+dawdling in a place like this!
 -----------------------
 <Harold>
 -----------------------
 #作戦続行！
 #行くわよ、みんな！
-Continue the mission!
+Operation continues!
 Let's go, everyone!
 -----------------------
 notice
 -----------------------
 #<Kyle>は
 #称号「<item:0000082C>」を得ました
-<Kyle> is...
-You've earned the title "<item:0000082C>".
+<Kyle> received
+the title "<item:0000082C>".
 -----------------------
 <Kyle>
 -----------------------
 #なんとか間にあった！
-I made it in time!
+We made it just in time!
 -----------------------
 #アトワイト
 Atwight
 -----------------------
 #よかった････
 #無事だったのね、あなたたち
-Good...
-So you're safe after all.
+Thank goodness...
+You're safe, all of you.
 -----------------------
 #ディムロス
 Dymlos
 -----------------------
 #敵の追っ手が来ているはずだ！
 #急げ！
-The enemy's pursuers should be here!
-Hurry up!
+The enemy's on our tail!
+Move!
 -----------------------
 #バルバトス
 Barbatos
@@ -346,7 +346,7 @@ You're late, <Kyle> Dunamis.
 <Kyle>
 -----------------------
 #お、おまえは････！
-Oh, you...!
+Y-you...!
 -----------------------
 <Kyle>
 -----------------------
@@ -365,19 +365,19 @@ Barbatos
 #ほぅ、地上軍のディムロス中将閣下が
 #小官ごときを覚えておいでとは
 #まこと、光栄の極みですな
-Ho? Lieutenant General Dimros of the Earth Forces
-is actually remembering someone as insignificant as I am.
-It is truly an honor beyond measure.
+Ho? Lieutenant General Dymlos of the Er'ther Army
+deigns to remember a lowly officer such as myself?
+I am truly, profoundly honored.
 -----------------------
 #ディムロス
-Dimlos
+Dymlos
 -----------------------
 #なぜ、おまえがここにいる!?
 #おまえはあのとき
 #確かに、この手で････！
 Why are you here!?
-You back then...
-With these very hands...!
+Back then...
+I finished you with these very hands...!
 -----------------------
 #バルバトス
 Barbatos
@@ -385,8 +385,8 @@ Barbatos
 #たしかに俺は一度死んだ
 #だが、貴様への尽きぬ憎しみが
 #俺に再び命を与えたのだ！
-I did die once, it's true.
-But my endless hatred for you...
+It's true, I died once.
+But my undying hatred for you...
 gave me life again!
 -----------------------
 #バルバトス
@@ -394,8 +394,8 @@ Barbatos
 -----------------------
 #さぁ、はじめようか････
 #次は貴様が死ぬ番だ、ディムロス！
-Well then, let's begin...
-Now it's your turn to die, Dimros!
+Now then, let us begin...
+This time, it's your turn to die, Dymlos!
 -----------------------
 #ディムロス
 Dymlos
@@ -403,39 +403,39 @@ Dymlos
 #ぬかせッ!!
 #生き返ったのなら
 #もう一度、倒すまでだ！
-Wake up!
-If you've come back to life,
-I'll crush you once more!
+Like hell!
+If you've come back from the dead,
+I'll just have to kill you again!
 -----------------------
 #ディムロス
-Dimlos
+Dymlos
 -----------------------
 #貴様との積もりに積もった因縁････
 #今度こそ、ケリをつけてやる！
-I've got a bone to pick with you...
-This time, I'll settle the score once and for all!
+Our long, bitter history...
+This time, I'll settle it for good!
 -----------------------
 #ディムロス
 Dymlos
 -----------------------
 #くッ、バカな！
 #私の剣をこうも軽々と････!?
-No way!
-You think you can just take my sword so easily...?!
+Impossible!
+He brushed aside my blade so easily...!?
 -----------------------
 #バルバトス
 Barbatos
 -----------------------
 #どうした、この程度か？
 #ならば、こちらから行くぞ！
-What's wrong? Is that all you've got?
-Then I'll come at you!
+What's wrong? Is that all?
+Then I'll take the offensive!
 -----------------------
 #バルバトス
 Barbatos
 -----------------------
 #････失望したぞ、ディムロス
-...Disappointing, Dimros.
+...Disappointing, Dymlos.
 -----------------------
 #バルバトス
 Barbatos
@@ -443,9 +443,9 @@ Barbatos
 #俺は時を越えて
 #多くの英雄どもと戦ってきた
 #とはいえ、この力の差はどうだ？
-I have crossed through time
-and fought many heroes
-But still, how about this difference in power?
+I have crossed time itself
+and fought countless heroes.
+And yet, what of this gap in strength?
 -----------------------
 #バルバトス
 Barbatos
@@ -453,39 +453,39 @@ Barbatos
 #つまらん････なんともつまらん結果だ
 #貴様も、俺の渇きを
 #癒せはしないというのか
-Boring... What a utterly boring result.
-You too, my thirst...
-Will you not quench it?
+Pathetic... utterly pathetic.
+You too are unable
+to slake my thirst?
 -----------------------
 #バルバトス
 Barbatos
 -----------------------
 #ならば、せめて最後は楽しませてくれ
 #････そう、断末魔の叫びをな
-If that's the case, at least let me enjoy the end.
-...Yes, the scream of death.
+Then at least let me savor the end.
+...Yes, your death throes.
 -----------------------
 #バルバトス
-Valbatos
+Barbatos
 -----------------------
 #少しずつ、切り刻んでやろう
 #まずは････右足から!!
 I'll carve you up piece by piece.
-First off... starting with your right leg!!
+Starting with... your right leg!!
 -----------------------
 #アトワイト
 Atwight
 -----------------------
 #やめなさい、バルバトス！
-Stop it, Valvates!
+Stop, Barbatos!
 -----------------------
 #アトワイト
 Atwight
 -----------------------
 #あなたが殺されたのは、仲間を裏切り
 #天上軍に寝返ろうとしたためでしょう！
-You were killed because you betrayed your comrades
-likely because you defected to the Celestial Army!
+You were killed for betraying your comrades
+and trying to defect to the Aeth'er Army!
 -----------------------
 #アトワイト
 Atwight
@@ -493,9 +493,9 @@ Atwight
 #だというのに、おめおめと生き返り
 #こんな形で復讐をとげようとするなんて････
 #逆恨み以外の何物でもないわ！
-And yet, you come back to life so meekly
-To seek revenge in such a manner...
-It's nothing but misplaced resentment!
+And yet you return so shamelessly,
+seeking revenge in this manner...
+It's nothing but twisted spite!
 -----------------------
 #アトワイト
 Atwight
@@ -503,9 +503,9 @@ Atwight
 #もし、あなたに軍人としての誇りが
 #少しでも残っているのなら
 #いますぐ剣を収めて退きなさい！
-If you have any pride as a soldier,
-If even a little remains...
-Put away your sword at once and withdraw!
+If you have even a shred of pride
+left as a soldier,
+sheath your sword and withdraw at once!
 -----------------------
 #バルバトス
 Barbatos
@@ -514,8 +514,8 @@ Barbatos
 #アトワイト、おまえは
 #なぜ命をはってまで、この男をかばう？
 ...As always.
-Atwight, you...
-Why risk your life to protect that man?
+Atwight, why is it
+you throw your life away to shield this man?
 -----------------------
 #バルバトス
 Barbatos
@@ -524,7 +524,7 @@ Barbatos
 #そうすれば、なにもかも手に入る
 #力も、金も、永遠の名声さえも！
 Become my woman.
-If you do, you'll have it all.
+Do so, and everything shall be yours...
 Power, wealth, even eternal fame!
 -----------------------
 #ディムロス
@@ -533,9 +533,9 @@ Dymlos
 #や、やめろ、バルバトス！
 #彼女には････
 #アトワイトには手を出すな････！
-No, stop it, Valbatos!
+S-stop, Barbatos!
 She...
-Don't lay a finger on Atwight...!
+Don't you lay a finger on Atwight...!
 -----------------------
 #バルバトス
 Barbatos
@@ -543,9 +543,9 @@ Barbatos
 #まだ、そんなふざけた
 #口をきく余裕があったか
 #この死にぞこないがッ････！
-You still had the nerve to make such a flippant
-remark?
-You damn fool!
+You still have the nerve
+to make such a flippant remark,
+you worthless wretch...?!
 -----------------------
 #バルバトス
 Barbatos
@@ -553,9 +553,9 @@ Barbatos
 #････待てよ
 #フッ、あったぞ
 #貴様を最大限に苦しめる法が！
-Hold on...
-Heh, found it.
-A way to make you suffer to the fullest!
+...Wait.
+Heh, I've got it.
+A way to make you suffer as much as possible!
 -----------------------
 #バルバトス
 Barbatos
@@ -567,7 +567,7 @@ This is your weakness!
 Atwight
 -----------------------
 #････！
-...
+...!
 -----------------------
 #ディムロス
 Dymlos
@@ -576,79 +576,79 @@ Dymlos
 #おまえの相手は私のはずだ！
 #アトワイトを放せ！
 Stop it, Barbatos!
-You should be fighting me!
-Let go of Atwight!
+I'm the one you should be fighting!
+Let Atwight go!
 -----------------------
 #バルバトス
 Barbatos
 -----------------------
 #クックックッ、残されたわずかの間
 #死をも上まわる苦しみを味わうがいい
-Kuukuku, in the brief time that remains
-Savor suffering that surpasses even death
+Kukuku... In what little time you have left,
+savor a suffering that surpasses even death.
 -----------------------
 <Kyle>
 -----------------------
 #き、消えた････！
-It... disappeared!
+Th-they vanished...!
 -----------------------
 #ディムロス
 Dymlos
 -----------------------
 #待て、バルバトス!!
-Hold on, Barbatos!!
+Wait, Barbatos!!
 -----------------------
 #ディムロス
 Dymlos
 -----------------------
 #････くっ！
-...Hnngh!
+...Ngh!
 -----------------------
 <Kyle>
 -----------------------
 #ディムロスさん！
 #大丈夫ですか!?
-Mr. Dimlos!
+Dymlos-san!
 Are you okay!?
 -----------------------
 #ディムロス
 Dymlos
 -----------------------
 #<Kyle>くん････ああ、問題ない
-<Kyle>, uh... no problem.
+<Kyle>... Ah, no problem.
 -----------------------
 <Kyle>
 -----------------------
 #････ディムロスさん、ここで待っててください
 #オレたち、アトワイトさんを探してきます！
-...Dimros-san, please wait here.
-We're going to go look for Atwight!
+...Dymlos-san, please wait here.
+We'll go look for Atwight-san!
 -----------------------
 <Reala>
 -----------------------
 #アトワイトさんを連れて
 #そんなに遠くには飛べないはずです
 #まだ、この近くに････
-We need to bring Atwight along
-He shouldn't be able to fly that far
-Not yet... not around here...
+He took Atwight-san with him.
+He shouldn't be able to fly that far.
+She must still be nearby...
 -----------------------
 #ディムロス
 Dymlos
 -----------------------
 #････いや、このまま脱出だ
 #君たちも早くポッドに乗りたまえ
-...No, we're getting out of here.
-You should get into your pods quickly too.
+...No. We're escaping now.
+All of you, get in your pods quickly.
 -----------------------
 <Loni>
 -----------------------
 #なに言ってんだ、あんた！
 #仲間が人質にされたんだぞ！
 #それを見捨てて帰るって言うのか!?
-What are you talking about, you idiot!
-Our comrades have been taken hostage!
-Are you saying you're just going to leave them behind and go home!?
+What the hell are you saying?!
+Our comrade just got taken hostage!
+And you want us to just abandon her and go home?!
 -----------------------
 #ディムロス
 Dymlos
@@ -656,9 +656,9 @@ Dymlos
 #開発メンバーの救出は成功した
 #これ以上の犠牲を増やさないためにも
 #一刻も早く退却すべきだ
-The rescue of the development team was successful.
-To prevent any further casualties,
-We need to retreat as quickly as possible.
+The development team has been rescued.
+To keep casualties from rising any further,
+we must retreat immediately.
 -----------------------
 #ディムロス
 Dymlos
@@ -667,8 +667,8 @@ Dymlos
 #死を伴う危険も常に覚悟していたはず
 #あえてそれに甘えさせてもらう
 She's a soldier too.
-She should have always been prepared for the dangers that come with death.
-I'll gladly let her rely on me.
+She should have been prepared for the dangers of death.
+I'll have to take advantage of that.
 -----------------------
 <Kyle>
 -----------------------
@@ -676,17 +676,17 @@ I'll gladly let her rely on me.
 #本気ですか、ディムロスさん!?
 #オレは、納得できません!!
 That...
-Are you serious, Dimros?
-I can't accept that!!
+Are you serious, Dymlos-san?!
+I can't accept this!!
 -----------------------
 <Kyle>
 -----------------------
 #それに、ディムロスさん
 #言ったじゃないですか！
 #みんなで無事に帰るって！
-Besides, Mr. Dimlos
-I told you!
-That we'd all return safely!
+Besides, Dymlos-san,
+you said it yourself!
+That we'd all make it back safely!
 -----------------------
 #ディムロス
 Dymlos
@@ -698,7 +698,7 @@ This is an order!
 Dymlos
 -----------------------
 #････ラディスロウに帰還する、急げ！
-...Return to Ladislaw! Hurry up!
+...Return to Radisrol. Hurry!
 -----------------------
 <Harold>
 -----------------------
@@ -706,29 +706,29 @@ Dymlos
 #帰るって言ったら、帰るの！
 #とっとと乗る！
 Yes, yes!
-I said I'm going back, so I'm going back!
-Hurry up and get on!
+I said we're going back, so we're going back!
+Hurry up and get in!
 -----------------------
 <Kyle>
 -----------------------
 #ちょ、なにするんだよ
-W-wait, what are you doing?
+H-hey, what are you doing?!
 -----------------------
 <Harold>
 -----------------------
 #これで、いいのよね？
-So, is that it?
+This is what you wanted, right?
 -----------------------
 #ディムロス
 Dymlos
 -----------------------
 #････すまん、<Harold>
-Sorry about that, .<Harold>
+...Sorry, <Harold>.
 -----------------------
 <Harold>
 -----------------------
 #正直、私も納得できないけどね
-Honestly, I can't wrap my head around it either.
+Honestly, I can't accept it either.
 -----------------------
 #有償サポートロボ
 Paid Support Robot
@@ -740,36 +740,36 @@ select
 -----------------------
 #<03:00000000>　補給　
 #　治療（<0B:00000001><num:000002FD><0B:00000000>ガルド）　
-<03:00000000>Supplies
+<03:00000000> Supplies
 Healing (<0B:00000001><num:000002FD><0B:00000000> Gald)
 -----------------------
 #応急手当開始！
-First aid starting!
+Beginning first aid!
 -----------------------
 #完治！
 Fully healed!
 -----------------------
 #今回はサービスです
-This time it's on the house.
+This one's on the house.
 -----------------------
 #モンスターが倒れている
-The monster is down.
+A monster lies here.
 -----------------------
 #モンスターが倒れている
-The monster is down.
+A monster lies here.
 -----------------------
 #モンスターが倒れている
-A monster is lying there.
+A monster lies here.
 -----------------------
 #モンスターが倒れている
-A monster is lying on the ground.
+A monster lies here.
 -----------------------
 #いってらっしゃいませ
-Have a good day.
+Take care.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -779,8 +779,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -792,7 +792,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We look forward to your next visit.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -814,8 +814,8 @@ notice
 -----------------------
 #{16}{25}{D6}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{D6}{C0} but
-inventory is full already.
+Found {16}{25}{D6}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------

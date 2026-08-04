@@ -1,15 +1,15 @@
 #デュナミス孤児院
-Dunmais Orphanage
+Dunamis Orphanage
 -----------------------
 #デュナミス孤児院
-Dunmais Orphanage
+Dunamis Orphanage
 -----------------------
 <Loni>
 -----------------------
 #なにしてんだ、<Kyle>？
 #ルーティさんに、話するんだろ？
-What are you doing, <Kyle>?
-You're going to tell Mrs. Rutee, right?
+What're you doing, <Kyle>?
+You're gonna talk to Rutee, right?
 -----------------------
 #ここは夜の孤児院前です
 In front of the orphanage at night.
@@ -18,8 +18,8 @@ In front of the orphanage at night.
 -----------------------
 #ルーティさん
 #まだ起きてるみたいだな
-It looks like
-Mrs. Rutee's still awake doesn't it.
+Looks like
+Rutee's still awake.
 -----------------------
 <Kyle>
 -----------------------
@@ -31,25 +31,25 @@ Mrs. Rutee's still awake doesn't it.
 #どうする、<Kyle>？
 #旅に出る話、言いづらかったら
 #俺が代わりに････
-Now what, <Kyle>?
-If it's too hard to ask her about going on a journey
-then I always could....
+So what'll it be, <Kyle>?
+If it's too hard to tell her you're leaving on a journey,
+I could always do it for you....
 -----------------------
 <Kyle>
 -----------------------
 #ダメだよ、<Loni>
 #オレ、自分で言うよ
 #そうじゃないと････いけないと思うんだ
-No you can't, <Loni>
-I think this is something....
-I have to do for myself.
+No, <Loni>.
+I'll tell her myself.
+It wouldn't be right if I didn't....
 -----------------------
 <Loni>
 -----------------------
 #････そうだな、すまねえ
 #よし！　それじゃいくか！
-....Yeah, I guess you're right.
-Alrighty then!  Shall we!
+...Yeah, you're right. Sorry.
+All right, let's do this!
 -----------------------
 #ルーティ
 Rutee
@@ -57,9 +57,9 @@ Rutee
 #今日ね、また、<Kyle>のこと
 #ぶっちゃったんだけど････
 #なんだか様子がちがったのよ、今回は
-I hit <Kyle> again,
-I know I messed up but....
-this time it's a different situation.
+I hit <Kyle> again today.
+I know, I messed up, but....
+something about him seemed different this time.
 -----------------------
 #ルーティ
 Rutee
@@ -67,9 +67,9 @@ Rutee
 #なんせ、あの子ったら
 #あたしに歯向かおうとしたのよ
 #このあたしに！
-Can you believe that boy?
-He was talking back to me.
-His own mother!
+I mean, that kid actually
+tried to talk back to me.
+To me, of all people!
 -----------------------
 #ルーティ
 Rutee
@@ -77,9 +77,9 @@ Rutee
 #あんたみたいな
 #英雄になりたいってさ、あの子
 #････やっぱり、あんたの子ね
-Just like you
-He wants to be a hero.
-....He is your child, after all.
+He says he wants to be a hero
+just like you.
+...He's definitely your son, all right.
 -----------------------
 #ルーティ
 Rutee
@@ -87,17 +87,17 @@ Rutee
 #あ～あ、せめて、もう少し
 #あたしに似てくれたらなぁ
 #そんなバカなこと、言わないのに････
-Oh, I wish that he could
-be a little more like me.
-No, I shouldn't be saying something like that....
+*sigh* I just wish he'd
+taken after me a little more.
+Not that I should be saying such foolish things....
 -----------------------
 #ルーティ
 Rutee
 -----------------------
 #････あ、笑ったでしょ、いま？
 #ふふっ！
-....Ah, Are you laughing at me right now?
-Huh!
+...Hey, you laughed just now, didn't you?
+Heh heh!
 -----------------------
 #ルーティ
 Rutee
@@ -105,20 +105,20 @@ Rutee
 #心配しないで
 #覚悟はできてる････つもり
 Don't worry about me.
-I'm ready to.... to....
+I'm ready.... I think.
 -----------------------
 #ルーティ
 Rutee
 -----------------------
 #明日、あの子が打ち明けてきたら
 #そのときは、あたし････
-Tomorrow, when he goes to
-tell me, I'll....
+Tomorrow, when he works up the nerve to tell me....
+I'll....
 -----------------------
 <Kyle>
 -----------------------
 #孤児院に帰らなきゃ････
-I have to go back to the orphanage....
+I gotta get back to the orphanage....
 -----------------------
 <Kyle>
 -----------------------
@@ -136,7 +136,7 @@ special person effect
 #十字    : SPKIND_CROSS
 #円      : SPKIND_CIRCLE
 #線      : SPKIND_GLINE
-<03:00000000>Sphere of Light : SPKIND_SHINE
+<03:00000000>Light Sphere : SPKIND_SHINE
 Cross : SPKIND_CROSS
 Circle : SPKIND_CIRCLE
 Line : SPKIND_GLINE
@@ -149,18 +149,18 @@ special person effect
 #霧      : SPKIND_RAIN
 <03:00000000>Rain : SPKIND_RAIN
 Snow : SPKIND_RAIN
-Ash : SPKIND_RAIN
+Embers : SPKIND_RAIN
 Fog : SPKIND_RAIN
 -----------------------
 macro effect
 -----------------------
 #<03:00000000>光の柱  : ef_shinepillar.sce
-<03:00000000>Column of Light  : ef_shinepillar.sce
+<03:00000000>Pillar of Light : ef_shinepillar.sce
 -----------------------
 macro person
 -----------------------
 #<03:00000000>はと    : ch_bird.sce
-<03:00000000>is a bird.
+<03:00000000>Bird : ch_bird.sce
 -----------------------
 
 -----------------------
@@ -179,8 +179,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -203,7 +203,7 @@ exit-party_togather( short spd )
 notice
 -----------------------
 #{16}{27}{CA}{C0}を手に入れました
-{16}{27}{CA}{C0}You obtained .
+Acquired {16}{27}{CA}{C0}.
 -----------------------
 notice
 -----------------------
@@ -214,12 +214,11 @@ notice
 -----------------------
 #{16}{27}{D2}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{27}{D2}{C0}There was , but
-I couldn't carry it because it was full.
+Found {16}{27}{D2}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

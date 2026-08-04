@@ -1,28 +1,28 @@
 #飛行竜
-Airship
+Flying Dragon
 -----------------------
 #飛行竜
-Airship
+Flying Dragon
 -----------------------
 #この部屋の床は、とても滑りやすそうです
-The floor in this room looks really slippery.
+The floor in this room looks very slippery.
 -----------------------
 #消化液ダメージ
-Digestive Acid Damage
+Digestive Fluid Damage
 -----------------------
 <Nanaly>
 -----------------------
 #苦戦してるみたいだね
 #手伝ってあげようか？
-Looks like you're having a tough time.
-Want me to give you a hand?
+Looks like you're in trouble.
+Need a hand?
 -----------------------
 select
 -----------------------
 #<03:00000000>　<Nanaly>助けて　
 #　がんばる　
-<03:00000000><Nanaly>, help me...
-I'll do my best.
+<03:00000000> <Nanaly>Help me out
+I'll manage
 -----------------------
 <Nanaly>
 -----------------------
@@ -32,36 +32,36 @@ Leave it to me!
 <Nanaly>
 -----------------------
 #ざっとこんなもんだよ
-That's about it.
+That'll do it.
 -----------------------
 <Kyle>
 -----------------------
 #すごい！
 #助かったよ
-Amazing!
-You saved me.
+Whoa, amazing!
+You saved my hide!
 -----------------------
 <Loni>
 -----------------------
 #さすがは男まさり！
-You're truly a man among men!
+Now that's a woman among men!
 -----------------------
 <Nanaly>
 -----------------------
 #あんた、わざと言ってるだろ？
-You're saying that on purpose, aren't you?
+You said that on purpose, didn't you?
 -----------------------
 <Nanaly>
 -----------------------
 #がんばりな！
-Do your best!
+Good luck out there!
 -----------------------
 #いってらっしゃいませ
-Have a good day.
+Come again soon.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -71,8 +71,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -84,7 +84,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We hope to see you again.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -95,7 +95,7 @@ exit-party_togather( short spd )
 notice
 -----------------------
 #{16}{26}{12}{C0}を手に入れました
-{16}{26}{12}{C0}You obtained .
+Acquired {16}{26}{12}{C0}.
 -----------------------
 notice
 -----------------------
@@ -106,8 +106,8 @@ notice
 -----------------------
 #{16}{26}{1A}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{26}{1A}{C0}There was , but
-I couldn't hold it because it was full.
+Found {16}{26}{1A}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------
@@ -115,11 +115,10 @@ notice
 There's nothing here.
 -----------------------
 #タイムオーバー
-Time's up.
+Time Over
 -----------------------
 noitce
 -----------------------
 #制御装置を破壊しました
-Destroyed the control device.
+Control device destroyed.
 -----------------------
-

@@ -1,27 +1,27 @@
 #地上軍拠点
-Ground Forces Base
+Er'ther Base
 -----------------------
 #地上軍拠点
-Ground Force Base
+Er'ther Base
 -----------------------
 #リトラー
-Littra
+Raiker
 -----------------------
 #栄えある地上軍の兵士諸君！
 #永きに渡ってくり広げられた戦いに
 #今日、ついに終止符が打たれた
-Honorable soldiers of the ground forces!
+Honored soldiers of the Er'ther ground forces!
 After a war that has raged for so long,
-Today, it finally comes to an end.
+today it finally comes to an end.
 -----------------------
 #リトラー
-Littra
+Raiker
 -----------------------
 #非情なる暴君ミクトランは死んだ
-The ruthless tyrant Mictlan is dead.
+The ruthless tyrant Kronos is dead.
 -----------------------
 #リトラー
-Littra
+Raiker
 -----------------------
 #強大な軍事力を誇った天上軍も
 #恐怖と憎悪の象徴だったダイクロフトも
@@ -63,36 +63,36 @@ delivered in such a way.
 -----------------------
 #それに････こんな気持ちで
 #聞くことになるとはね
-Besides... feeling this way,
-I never thought I'd end up asking.
+Besides... I never thought
+I'd hear it with this kind of feeling.
 -----------------------
 <Kyle>
 -----------------------
 #なあ、<Loni>････
 #あれで本当によかったのかな？
-Come on, <Loni>...
+Hey, <Loni>...
 Was that really the right thing to do?
 -----------------------
 <Loni>
 -----------------------
 #ん、なにがだ、<Kyle>？
-Huh? What is it, <Kyle>?
+Huh? What's up, <Kyle>?
 -----------------------
 <Kyle>
 -----------------------
 #あのとき、オレたちは
 #カーレルさんを救えるはずだった
 Back then, we...
-We should have been able to save Mr. Carrel.
+We should've been able to save Karell.
 -----------------------
 <Kyle>
 -----------------------
 #バルバトスの言ったように
 #すぐにミクトランのところへ
 #向かっていれば、もしかしたら････
-As Barbatos said,
-I should head straight to Mictlan.
-If I had gone there, maybe...
+Like Barbatos said,
+if we'd headed straight to Kronos,
+maybe...
 -----------------------
 <Harold>
 -----------------------
@@ -100,8 +100,8 @@ If I had gone there, maybe...
 #それじゃ、あのサルと
 #レベルがおんなじよ
 You're an idiot.
-In that case, that monkey and...
-The levels are the same.
+That'd put you on the same level
+as that monkey.
 -----------------------
 <Reala>
 -----------------------
@@ -113,9 +113,9 @@ The levels are the same.
 #言ったでしょ？
 #未来を知る者が自分の都合だけで
 #歴史を変えちゃいけないって
-I told you.
-People who know the future shouldn't
-change history just to suit their own needs.
+Didn't I tell you?
+Those who know the future aren't allowed
+to change history for their own convenience.
 -----------------------
 <Kyle>
 -----------------------
@@ -129,21 +129,21 @@ But...
 #それにね、兄貴の死は運命でもなければ
 #無駄死にでもなかった
 And besides, my brother's death wasn't fate,
-nor was it in vain.
+nor was it a meaningless death.
 -----------------------
 <Harold>
 -----------------------
 #兄貴は兄貴なりに一所懸命生きてきた
 #その結果だもの
-My brother has lived his life as hard as he could.
+My brother lived his life the best he could.
 That's just how it turned out.
 -----------------------
 <Harold>
 -----------------------
 #だから悔いが残らない
 #幸せな人生だったと思うわ
-So I won't have any regrets
-I think it was a happy life
+So he has no regrets.
+I think he lived a happy life.
 -----------------------
 <Kyle>
 -----------------------
@@ -154,52 +154,51 @@ I think it was a happy life
 -----------------------
 #たとえ、死が決まっていたとしても
 #精一杯生きて、幸せをつかむ････
-If death is already decided,
-I'll live my best life and seize happiness...
+Even if death is already decided...
+live with everything you've got, and seize happiness...
 -----------------------
 <Harold>
 -----------------------
 #････な～んか、しんみりしちゃったわね
 #というわけで、この話は、ここまで！
-...Man, things got pretty solemn over there.
-And that's it for this story!
+...Man, things got pretty solemn there.
+And that's enough of that subject!
 -----------------------
 <Harold>
 -----------------------
 #で、あんたたち、これからどうすんの？
-So, what are you guys planning to do next?
+So, what are you guys gonna do now?
 -----------------------
 <Kyle>
 -----------------------
 #バルバトスを、追おうと思ってる
-I'm thinking about going after Valbatus.
+I'm thinking of going after Barbatos.
 -----------------------
 <Judas>
 -----------------------
 #「神の眼の前」というのは
 #おそらく、先の騒乱の時の
 #ダイクロフトのことだろう
-In front of God's eye,
-probably referring to
-the Dyckfort incident.
+'Before the Eye of Atamoni' likely refers
+to Dycroft during the recent disturbance.
 -----------------------
 <Judas>
 -----------------------
 #世界の命運を決する場で
 #自らの命運をも決する････
 #やつの考えそうなことだ
-At the juncture that decides the fate of the world,
-deciding their own destiny as well...
-That's just what he'd think.
+Deciding his own fate at the place
+that will decide the fate of the world...
+That sounds like something he'd do.
 -----------------------
 <Reala>
 -----------------------
 #でも、レンズが････
 #時間移動するためには
 #レンズの力が足りないわ
-But the lens...
+But the Lens...
 To travel through time,
-The lens's power isn't enough.
+we don't have enough Lens power.
 -----------------------
 <Harold>
 -----------------------
@@ -216,9 +215,8 @@ I figured as much.
 #ソーディアンはレンズ技術の
 #粋を集めたものなのよ
 #エネルギーだって、ハンパじゃないわ
-Sordian is the pinnacle of lens technology.
-It's the culmination of it all.
-The energy levels are no joke.
+Swordians are the pinnacle of Lens technology.
+The energy they hold is no joke.
 -----------------------
 <Nanaly>
 -----------------------
@@ -226,21 +224,21 @@ The energy levels are no joke.
 #よかったじゃんか
 #レンズを探す手間がはぶけてさ
 I see!
-Glad to hear it.
-Saves us the trouble of looking for lenses.
+That's great!
+Saves us the trouble of hunting for Lens.
 -----------------------
 <Kyle>
 -----------------------
 #それじゃ<Harold>
 #いろいろありが････
-Well then, .<Harold>
-All sorts of things... thanks.
+Well then, <Harold>,
+thanks for everything...
 -----------------------
 <Harold>
 -----------------------
 #さぁ、未来に向かって
 #レッツゴー！
-Alright, towards the future!
+Now then, off to the future!
 Let's go!
 -----------------------
 <Loni>
@@ -253,42 +251,42 @@ Let's go!
 #前に言ったでしょ？
 #私の頭脳が神をも越えること
 #証明してみせるって
-I told you before, didn't I?
-That my intellect surpasses even the gods.
-I'll prove it.
+I told you before, right?
+That I'd prove my intellect
+surpasses even the gods.
 -----------------------
 <Judas>
 -----------------------
 #まさか････ついてくるつもりか？
-No way... You're planning to come along?
+No way... You're coming with us?
 -----------------------
 <Harold>
 -----------------------
 #いやなら、
 #ソーディアンは使わせないわよ
-If you don't want to,
-I won't let you use the Sordian.
+If you don't like it,
+I won't let you use the Swordian.
 -----------------------
 <Loni>
 -----------------------
 #････はぁ
 #どうする、<Kyle>？
-Sigh...
-What should we do, <Kyle>?
+...*sigh*
+What do we do, <Kyle>?
 -----------------------
 <Kyle>
 -----------------------
 #いいじゃん！
 #<Harold>がいっしょのほうが
 #もっと楽しいだろうしさ！
-It's great!
-With <Harold> around,
-it'll be way more fun, right?
+What's wrong with that?
+With <Harold> along,
+it'll be way more fun!
 -----------------------
 <Harold>
 -----------------------
 #そういうわけだから、よろしく！
-That's why I'm counting on you!
+That's the deal, so nice to work with you!
 -----------------------
 <Kyle>
 -----------------------
@@ -296,45 +294,45 @@ That's why I'm counting on you!
 #行き先は、現代から十八年前････
 #父さんの生きた時代！
 All right! Let's go, <Reala>!
-Our destination is eighteen years ago from the present...
-The era when my father lived!
+Our destination is eighteen years before the present...
+the era when my father lived!
 -----------------------
 <Reala>
 -----------------------
 #わかったわ
 #････みんな、行くわよ！
-Got it.
-...Alright everyone, let's go!
+Understood.
+...Everyone, let's go!
 -----------------------
 #いってらっしゃいませ
-いってらっしゃいませ
+Please come again.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
-お泊まりになりますか？
+That'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald.
+Would you like to stay the night?
 -----------------------
 #お泊まりになりますか？
-お泊まりになりますか？
+Would you like to stay the night?
 -----------------------
 select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
-ごゆっくりお休みください
+Please rest well.
 -----------------------
 #おはようございます
-おはようございます
+Good morning.
 -----------------------
 #お金が足りません
-お金が足りません
+Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-またのおこしをお待ちしております
+Please come again.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -345,7 +343,7 @@ exit-party_togather( short spd )
 notice
 -----------------------
 #{16}{26}{4E}{C0}を手に入れました
-{16}{26}{4E}{C0}You obtained .
+Acquired {16}{26}{4E}{C0}.
 -----------------------
 notice
 -----------------------
@@ -356,8 +354,8 @@ notice
 -----------------------
 #{16}{26}{56}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{26}{56}{C0}There was , but
-I couldn't hold it because it was full.
+Found {16}{26}{56}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------

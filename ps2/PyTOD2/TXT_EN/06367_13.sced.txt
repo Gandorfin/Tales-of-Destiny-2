@@ -2,17 +2,17 @@
 Aigrette - Equipment Shop
 -----------------------
 #アイグレッテ
-Igret
+Aigrette
 -----------------------
 NOTICE
 -----------------------
 #<item:00000078>を手に入れました
-<item:00000078>You obtained .
+Acquired <item:00000078>.
 -----------------------
 #壊れた武具が入っている
 #下取りした中古品だろうか････
-It contains damaged weapons and armor.
-Is it a used item from a trade-in...?
+It contains damaged arms and armor.
+Trade-ins, perhaps...?
 -----------------------
 #剣士
 Swordsman
@@ -20,17 +20,17 @@ Swordsman
 #聖女エルレインか････
 #人々の前で奇跡を起こすというが
 #いったい何者なのだろうか？
-Saint Elleyn, huh...
-They say she performs miracles before the masses.
-Just who is she?
+Elrane, the Holy Woman, huh...
+They say she performs miracles before the people.
+Just who is she, really?
 -----------------------
 #剣士
 Swordsman
 -----------------------
 #人心をまどわすペテン師であれば
 #私がこの手で捕らえてくれるぞ
-If he's a swindler who confuses people,
-I'll catch him myself.
+If she's a charlatan who deceives the masses,
+I'll catch her with my own two hands.
 -----------------------
 #剣士
 Swordsman
@@ -38,9 +38,9 @@ Swordsman
 #私は簡単にはだまされんぞ
 #奇跡などというあやしいものを
 #そう簡単に信じられるか
-I'm not that easy to fool.
-A dubious thing called a miracle,
-Do you really think I'd believe it so easily?
+I'm not so easily fooled.
+Some dubious thing called a 'miracle'?
+You think I'd believe in that so readily?
 -----------------------
 #剣士
 Swordsman
@@ -48,9 +48,9 @@ Swordsman
 #まさしく、あの方の奇跡は本物だ！
 #エルレインさまを悪く言うヤツがいれば
 #私がこの手で捕らえてくれるぞ
-Truly, that person's miracle is real!
-If anyone speaks ill of Elrein-sama,
-I'll capture them myself.
+Truly, her miracles are genuine!
+If anyone speaks ill of Lady Elrane,
+I'll catch them with my own two hands!
 -----------------------
 #剣士
 Swordsman
@@ -58,9 +58,9 @@ Swordsman
 #エルレイン様とアタモニ神の
 #ためなら、命を捨てても
 #おしくはない
-For Lady Elrune and the God Atmoni,
-I would gladly give up my life
-in an instant.
+For Lady Elrane and the goddess Atamoni,
+I would gladly lay down my life
+without a moment's regret.
 -----------------------
 #剣士
 Swordsman
@@ -68,17 +68,17 @@ Swordsman
 #私は、神殿の門を守る
 #騎士になりたい
 #あのお方の愛に心うたれてな
-I am here to guard the gates of the temple.
-I wish to become a knight.
-My heart is moved by that person's love.
+I wish to become a knight
+who guards the gates of the temple.
+My heart was moved by her love.
 -----------------------
 #剣士
 Swordsman
 -----------------------
 #あの方？
 #もちろんフィリアさまのことだ
-That person?
-Of course, it's about Lady Philia.
+Her?
+Why, Lady Philia, of course.
 -----------------------
 #剣士
 Swordsman
@@ -89,7 +89,7 @@ Ahh... Lady Philia...
 Lady Philia... Lady Philia...
 -----------------------
 #いってらっしゃいませ
-Have a good day.
+Come again soon.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
@@ -103,8 +103,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -116,7 +116,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We hope to see you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -138,12 +138,11 @@ notice
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{C2}{C0} but
-inventory is full already.
+Found {16}{25}{C2}{C0}, but
+your inventory is already full.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

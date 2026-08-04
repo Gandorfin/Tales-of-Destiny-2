@@ -1,40 +1,40 @@
 #ストレイライズ大神殿
-Straylise Grand Temple
+Straylize Grand Temple
 -----------------------
 #ストレイライズ大神殿
-Straylise Grand Temple
+Straylize Grand Temple
 -----------------------
 #ストレイライズ神殿
-Straylise Temple
+Straylize Temple
 -----------------------
 #ストレイライズ神殿
-Straylise Temple
+Straylize Temple
 -----------------------
 #アタモニ神像がある
 #アタモニ神は平和をもたらす女神と信じられている
-There is an idol of Atamoni.
-Atamoni is believed to be a goddess who brings peace.
+A statue of Atamoni stands here.
+Atamoni is worshipped as the goddess of peace.
 -----------------------
 NOTICE
 -----------------------
 #<item:00000003>を手に入れました
-<item:00000003>You obtained .
+Acquired <item:00000003>.
 -----------------------
 <Loni>
 -----------------------
 #屋上から乗りこむとは
 #考えたな、<Judas>
 Climbing in from the rooftop...
-You really thought that through, .<Judas>
+Not bad thinking, <Judas>.
 -----------------------
 <Judas>
 -----------------------
 #やつらの手法をマネしただけだ
 #たしかに、強襲ならこれがもっとも
 #効果的だからな
-I just copied their methods.
-True, in terms of a surprise attack, this is the best option.
-It's effective.
+I merely copied their methods.
+Indeed, for a surprise assault, this is the most
+effective approach.
 -----------------------
 #警備兵
 Guard
@@ -42,55 +42,55 @@ Guard
 #侵入者め！
 #生きて帰れるとは思うなよ！
 Intruders!
-Don't think you'll make it back alive!
+Don't expect to leave here alive!
 -----------------------
 <Kyle>
 -----------------------
 #な、な、なんだ!?
-W-what is it!?
+Wh-what the--!?
 -----------------------
 #警備兵
 Guard
 -----------------------
 #覚悟しろ！
-Get ready!
+Prepare yourself!
 -----------------------
 <Loni>
 -----------------------
 #わざわざ、警備兵まで用意してたんだ
 #<Reala>がこの中にいるのは間違いない
-You went to the trouble of preparing guards.
-There's no doubt that <Reala> is among them.
+They even went to the trouble of stationing guards.
+There's no doubt <Reala> is inside.
 -----------------------
 <Loni>
 -----------------------
 #エルレインのところへ
 #行ったんだとしたら、大聖堂だ
 #ヤツは必ずそこにいる
-To Elraine's place
-If she went anywhere, it'd be the cathedral.
-He'll definitely be there.
+If she went to Elrane,
+it'd be the Grand Cathedral.
+She's sure to be there.
 -----------------------
 <Kyle>
 -----------------------
 #大聖堂か････
 #よし、急ごう、みんな！
-The Grand Cathedral...
-Alright, let's hurry, everyone!
+The Grand Cathedral, huh...
+All right, let's move, everyone!
 -----------------------
 <Judas>
 -----------------------
 #早くイクシフォスラーに乗り込め！
 #飛行竜を追うぞ！
-Hurry and board the Ixifoslar!
-Let's chase after the Sky Dragon!
+Hurry aboard the Ixifoslar!
+We pursue the Flying Dragon!
 -----------------------
 #いってらっしゃいませ
 Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+That'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald per night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -100,8 +100,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -113,7 +113,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We look forward to your next visit.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -135,12 +135,11 @@ notice
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{C2}{C0} but
-inventory is full already.
+Found {16}{25}{C2}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

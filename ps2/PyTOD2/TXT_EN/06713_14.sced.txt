@@ -1,18 +1,18 @@
 #神のたまご・下層部
-God's Egg - Lower Level
+Egg of God - Lower Level
 -----------------------
 #神のたまご・下層部
-God's Egg - Lower Level
+Egg of God - Lower Level
 -----------------------
 #神のたまご・下層部
-God's Egg - Lower Level
+Egg of God - Lower Level
 -----------------------
 #いってらっしゃいませ
 Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -22,8 +22,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -57,7 +57,7 @@ notice
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{C2}{C0} but
+Found {16}{25}{C2}{C0}, but
 inventory is full already.
 -----------------------
 notice
@@ -65,4 +65,3 @@ notice
 #何もありません
 There's nothing here.
 -----------------------
-

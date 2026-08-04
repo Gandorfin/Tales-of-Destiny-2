@@ -1,31 +1,31 @@
 #地上軍拠点跡地
-Former Ground Forces Base Site
+Er'ther Base Ruins
 -----------------------
 #地上軍拠点跡地
-Former Ground Army Base Site
+Er'ther Base Ruins
 -----------------------
 #苗木が埋めこまれた植え込みだ
-It's a shrub with saplings planted in it.
+A hedge with saplings set into it.
 -----------------------
 #冷気をまったく受けつけていない
 #どうやら不思議な力が働いているようだ
-It's completely unaffected by the cold.
-It seems some mysterious power is at work.
+It shows no sign of the cold.
+Some mysterious power seems to be at work here.
 -----------------------
 NOTICE
 -----------------------
 #こんな所に植え込みがあります
 #不思議な事に、まったく雪をかぶっていません
 #この植え込みに『苗木』を植えてみますか？
-There's a hedge over here.
-Funny enough, it's completely snow-free.
-Do you want to plant a 'sapling' in this hedge?
+There's a hedge here.
+Strangely enough, it's completely free of snow.
+Would you like to plant a 'sapling' in this hedge?
 -----------------------
 select
 -----------------------
 #<03:00000000>　植えてみる　
 #　やめる　
-<03:00000000>Try planting it
+<03:00000000>Plant it
 Cancel
 -----------------------
 NOTICE
@@ -37,8 +37,8 @@ NOTICE
 -----------------------
 #こんな所に植え込みがあります
 #不思議な事に、まったく雪をかぶっていません
-There's a hedge in a place like this.
-It's strange that it's completely free of snow.
+There's a hedge here.
+Strangely enough, it's completely free of snow.
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -55,8 +55,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000>Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -90,12 +90,11 @@ notice
 -----------------------
 #{16}{27}{0E}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{27}{0E}{C0}There was , but
-I couldn't hold it because it was full.
+{16}{27}{0E}{C0}You found , but
+your inventory was full.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

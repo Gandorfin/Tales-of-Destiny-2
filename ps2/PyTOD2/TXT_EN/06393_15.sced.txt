@@ -1,28 +1,28 @@
 #ストレイライズ大神殿
-Straylise Grand Temple
+Straylize Grand Temple
 -----------------------
 #ストレイライズ大神殿
-Straylise Grand Temple
+Straylize Grand Temple
 -----------------------
 #ストレイライズ神殿
-Straylise Temple
+Straylize Temple
 -----------------------
 #ストレイライズ神殿
-Straylise Temple
+Straylize Temple
 -----------------------
 #人物に関する書物が収められている
 #『グレバム＝バーンハルト』
 #神の眼を巡る騒乱に荷担した
 #ストレイライズ大神殿の大司祭
-A collection of books about people.
-Grewam Burnhardt
-Participated in the turmoil surrounding the Eye of God.
-The High Priest of the Stray Rise Grand Cathedral.
+Books about notable figures are kept here.
+Grewam=Burnhardt
+A conspirator in the turmoil surrounding the Eye of Atamoni.
+High Priest of the Straylize Grand Temple.
 -----------------------
 #神の眼を奪い、逃走したが
 #四英雄たちの前に敗れ去る
-I stole the Eye of God and fled,
-But I was defeated before the Four Heroes.
+He stole the Eye of Atamoni and fled,
+only to be defeated by the Four Heroes.
 -----------------------
 <char:000003E8>
 -----------------------
@@ -32,62 +32,62 @@ This is it!
 NOTICE
 -----------------------
 #ＴＯＤ１のクイズ問題を見つけた！
-I found a quiz question from Tales of Destiny!
+Found a Tales of Destiny quiz question!
 -----------------------
 NOTICE
 -----------------------
 #クイズ本に新しいジャンルが追加されました
-A new genre has been added to the quiz book.
+A new category has been added to the quiz book.
 -----------------------
 #人物に関する書物が収められている
 #『ヒューゴ＝ジルクリスト』
 #神の眼を巡る騒乱に荷担した
 #オベロン社の総帥
-A collection of books about notable figures.
-Hugo Zirkrist
-Played a role in the turmoil surrounding the Eye of God.
-The head of Oberon Corporation.
+Books about notable figures are kept here.
+Hugo=Gilchrist
+A conspirator in the turmoil surrounding the Eye of Atamoni.
+Head of the Oberon Corporation.
 -----------------------
 #神の眼を手に入れたヒューゴは
 #古代兵器『ベルクラント』を復活させ
 #地上を壊滅寸前まで追いこむものの
 #四英雄たちの手によって倒された
-Hugo, having obtained the Eye of God,
-revived the ancient weapon 'Belcrant',
-and drove the world to the brink of destruction,
-but was ultimately defeated by the Four Heroes.
+Having obtained the Eye of Atamoni, Hugo
+revived the ancient superweapon Belcrant
+and drove the world to the brink of ruin,
+only to be defeated by the Four Heroes.
 -----------------------
 #手の込んだ形の置物がある
 #普通に買ったら、さぞ高価なことだろう････
-There's an intricately designed figurine here.
-If you bought it at a regular store, it would surely cost a fortune...
+There's an intricately shaped figurine here.
+If you bought this at a shop, it'd surely cost a fortune...
 -----------------------
 #『特殊部隊・漆黒の翼』
 #････天地戦争時代に活躍した特殊部隊
 #『漆黒の翼』に関する本のようだ
 'Special Unit: Wings of Darkness'
-... A special unit that was active during the Heaven and Earth War.
-It appears to be a book about the 'Wings of Darkness'.
+...A book about the special-ops unit 'Wings of Darkness'
+that was active during the Aeth'er Wars.
 -----------------------
 #地上軍の特殊部隊として潜入任務や
 #要人警護を行っていた、と書かれている
-Infiltration missions as a special ops unit of the ground forces,
-and they were tasked with protecting VIPs.
+It says they carried out infiltration missions
+and VIP protection as a special unit of the Er'ther forces.
 -----------------------
 #『輸送艦・ラディスロウ』
 #････天地戦争時代、地上軍の旗艦として
 #使用されていた船についての記述がある
-The Transport Ship Ladislow
-...During the Heaven and Earth War,
-there is a record about the ship that was used as the flagship of the ground forces.
+'Transport Vessel: Radisrol'
+...A record of the ship that served as
+the flagship of the Er'ther forces during the Aeth'er Wars.
 -----------------------
 #学者
 Scholar
 -----------------------
 #ボクはレンズについての
 #研究をしてるんです
-I'm about the lens
-We're conducting research.
+I research Lens,
+actually.
 -----------------------
 #学者
 Scholar
@@ -95,9 +95,9 @@ Scholar
 #レンズは、はるかなる昔
 #大地に飛来した彗星がもたらした････
 #といわれてるんですよね
-The Lens dates back to ancient times,
-a comet that fell from the sky brought it...
-or so they say.
+They say Lens was brought here
+by a comet that fell to earth
+ages and ages ago...
 -----------------------
 #学者
 Scholar
@@ -105,9 +105,9 @@ Scholar
 #ホントはレンズ兵器
 #ソーディアンも調べたいんですけど
 #十八年前にうしなわれちゃいましたしねぇ
-Lenses are actually weapons.
-I'd also like to investigate the Sordians,
-since they were lost eighteen years ago.
+I'd really love to study Swordians too,
+since they're Lens weapons,
+but they were lost eighteen years ago.
 -----------------------
 #学者
 Scholar
@@ -115,9 +115,9 @@ Scholar
 #あれをつくったという
 #<Harold>＝ベルセリオス
 #彼はまぎれもない天才ですね
-The one who made that thing...
-<Harold>= Berselius
-He's an undeniable genius, isn't he?
+The one who made them...
+<Harold>=Berselius
+He's nothing short of a genius, isn't he?
 -----------------------
 #学者
 Scholar
@@ -125,9 +125,9 @@ Scholar
 #ボクの研究が
 #いつかエルレインさまの
 #お役にたてるといいんですけど
-If my research
-can someday be of service to Lady Ellrein,
-I'd be glad.
+I hope my research
+can be of service to Lady Elrane
+someday...
 -----------------------
 #学者
 Scholar
@@ -135,26 +135,26 @@ Scholar
 #フォルトゥナ神を降臨させるなんて
 #レンズの力って
 #ほんと偉大なんだなあ
-To summon Fortuna...
-The power of the lens...
-is truly magnificent.
+Using Lens power to bring down
+the goddess Fortuna...
+Lens truly is magnificent.
 -----------------------
 <Loni>
 -----------------------
 #感心してる場合かよ！
 #おい、おまえ！
 #その降臨って、どこでやってるんだ!?
-What's with all the admiration right now?!
+Now's not the time to be impressed!
 Hey, you!
-Where are they performing that descent anyway!?
+Where's this 'descent' happening!?
 -----------------------
 #学者
 Scholar
 -----------------------
 #イテテテ････
 #れ、礼拝堂です！
-Ouch...
-I-it's the chapel!
+Owowow...
+Th-the chapel!
 -----------------------
 #学者
 Scholar
@@ -162,9 +162,9 @@ Scholar
 #ボクも見学をことわられたんです！
 #きっと、礼拝堂には
 #入れてもらえないですよ！
-I was turned away from watching too!
-There's no way
-they'll let us into the chapel!
+They turned me away too!
+I'm sure they won't
+let you into the chapel either!
 -----------------------
 #学者
 Scholar
@@ -172,18 +172,18 @@ Scholar
 #ね、ねえ！
 #アタモニ神の降臨は成功したんですか？
 #研究の参考までに、ぜひ････
-Hey, hey!
-Did our goddess's descent go successfully?
-For reference in our research, please...
+H-hey!
+Did Atamoni's descent succeed?
+For my research, please tell me...
 -----------------------
 <Nanaly>
 -----------------------
 #ああ！
 #うっとうしいねえ！
 #今はとりこみ中だよ
-Oh!
-This is so annoying!
-I'm currently absorbing it.
+Ugh!
+You're a real pain!
+I'm busy right now.
 -----------------------
 #学者
 Scholar
@@ -191,9 +191,9 @@ Scholar
 #ね、ねえ！
 #ちょっとでいいから
 #儀式の話、聞かせてくださいよ～
-Hey, hey!
-Just a little bit,
-Let me hear about the ritual~
+H-hey!
+Just for a little while,
+please tell me about the ritual~
 -----------------------
 #学者
 Scholar
@@ -201,8 +201,8 @@ Scholar
 #う～ん････
 #何度計算してもダメだ～！
 #ボクに<Harold>のような頭脳があったら････
-Hmm...
-No matter how many times I calculate it, it's no good~!
+Ugh...
+No matter how many times I calculate it, I can't get it~!
 If only I had a brain like <Harold>'s...
 -----------------------
 <Harold>
@@ -210,9 +210,9 @@ If only I had a brain like <Harold>'s...
 #ムリムリ
 #きっと、あんたには
 #つかいこなせないわよ
-You're pushing it too hard.
-I'm sure you,
-won't be able to handle it.
+No way, no way.
+Someone like you
+could never handle it.
 -----------------------
 #学者
 Scholar
@@ -220,9 +220,9 @@ Scholar
 #ボクは負けませんよ！
 #現代の<Harold>と呼ばれる
 #その日まで!!
-I won't lose!
-Called the modern <Harold>
-Until that day!!
+I won't give up!
+Until the day they call me
+the modern <Harold>!!
 -----------------------
 #学者
 Scholar
@@ -230,9 +230,9 @@ Scholar
 #あの彗星
 #こっちに向かってる気がするけど
 #気のせいですよね～
-That comet
-I feel like it's heading this way
-It's probably just my imagination~
+That comet...
+I feel like it's heading this way,
+but I'm sure it's just my imagination~
 -----------------------
 #学者
 Scholar
@@ -240,19 +240,19 @@ Scholar
 #アハハハハ････
 #さあ、研究にもどらなきゃ
 Ahahaha...
-Now, I have to get back to my research.
+Well, I'd better get back to my research.
 -----------------------
 <Loni>
 -----------------------
 #現実逃避だな････
-You're just running away from reality...
+Running away from reality, huh...
 -----------------------
 #学者
 Scholar
 -----------------------
 #さあ、気をとりなおして
 #研究♪　研究♪
-Alright, let's pull ourselves together.
+Now then, let's get back in the groove.
 Research ♪ Research ♪
 -----------------------
 #学者
@@ -260,8 +260,8 @@ Scholar
 -----------------------
 #今、荒れ地でも育つ
 #作物の研究をしてるんです
-It can grow in wastelands right now.
-I'm researching crops.
+Right now I'm researching crops
+that can grow even in wastelands.
 -----------------------
 #学者
 Scholar
@@ -269,16 +269,16 @@ Scholar
 #うまくいけば
 #カルバレイスも今よりずっと
 #住みよい大陸になりますよ
-If things go well,
-Calvados will also become
-an even better place to live.
+If it works out,
+Calvalese could become
+a much more livable continent.
 -----------------------
 <Loni>
 -----------------------
 #そっか～
 #ウマイもんができるといいなぁ
 I see~
-I hope something delicious turns out.
+Hope something tasty comes out of it.
 -----------------------
 #学者
 Scholar
@@ -286,12 +286,12 @@ Scholar
 #え～っと････
 #このサボテンとイモを
 #かけあわせて････っと
-Well...
-This cactus and potato,
-combined together... wait.
+Let's see...
+Cross this cactus with a potato...
+and...
 -----------------------
 #いってらっしゃいませ
-Have a good day.
+Come again soon.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
@@ -305,11 +305,11 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
-Have a good night.
+Please rest well.
 -----------------------
 #おはようございます
 Good morning.
@@ -318,7 +318,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We look forward to your next visit.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -340,12 +340,11 @@ notice
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{C2}{C0} but
-inventory is full already.
+Found {16}{25}{C2}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

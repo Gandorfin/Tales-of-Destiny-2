@@ -1,39 +1,40 @@
 #ハイデルベルグ・食材屋
-Heidelburg Grocery
+Heidelberg Grocery
 -----------------------
 #ハイデルベルグ
-Heidelburg
+Heidelberg
 -----------------------
 #食材屋
-Grocery Store
+Grocery
 -----------------------
 #このタルの中身は････
 #アクアヴェイル地方の特産品「ミソ」のようだ
-What's inside this barrel...?
-It seems to be 'miso', a specialty of the Aqua Vale region.
+What's in this barrel...?
+It looks like miso, a specialty of the Aquaveil region.
 -----------------------
 #このタルの中身は････
 #カルバレイス地方の特産品「スパイス」のようだ
-The contents of this barrel...
-It appears to be 'spice', a specialty of the Calvarys region.
+What's in this barrel...?
+It looks like spice, a specialty of the Calvalese region.
 -----------------------
 #このタルの中身は････なにやらあやしい物のようだ
 #見なかった事にしておこう
-The contents of this barrel... seem to be something suspicious.
-I'll just pretend I didn't see anything.
+What's in this barrel...? It looks like something suspicious.
+I'll pretend I didn't see anything.
 -----------------------
 #このハコの中身は････リーネの村おこし品
 #「スタンまんじゅう」のようだ
-The contents of this box are... items for Rina's village revitalization project.
-It looks like 'Stan Manju'.
+What's in this box...?
+Items for Lienea's village revitalization project.
+Looks like Stan Buns.
 -----------------------
 #『あのウッドロウ王も絶賛の
 #　やきそばパンはいかが？』
-Even King Woodrow was raving about it.
-How about some yakisoba bread?
+'Even King Garr can't get enough!
+How about some yakisoba bread?'
 -----------------------
 #食材屋
-Grocery Store
+Grocery
 -----------------------
 #いらっしゃいませ
 Welcome!
@@ -45,7 +46,7 @@ Thank you very much.
 Please come again.
 -----------------------
 #食材屋
-Grocery Store
+Grocery
 -----------------------
 #おばさん
 Woman
@@ -54,8 +55,8 @@ Woman
 #あんたたち、よかったら
 #あたしのぶんも並んでくれない？
 One egg per person...
-If you'd like,
-Would you mind sharing yours?
+Hey, you there.
+Would you mind getting in line for me too?
 -----------------------
 #おばさん
 Woman
@@ -63,9 +64,8 @@ Woman
 #まったく、ケチケチしないで
 #おひとりさま１００パックくらい
 #買わせてよ！
-Seriously, don't be so stingy.
-One hundred packs each.
-Let me buy them!
+Come on, don't be so stingy!
+Let me buy at least a hundred packs!
 -----------------------
 #おばさん
 Woman
@@ -74,47 +74,45 @@ Woman
 #せっかくのタマゴを
 #落としちゃったじゃない！
 Hey, what was that explosion just now!?
-All those precious eggs,
-you went and dropped them!
+I finally got my hands on those eggs,
+and you went and dropped them!
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #いらっしゃいませ～♪
 #当店名物「やきそばパン」は
 #いかがですかぁ？
-Welcome~!
-Our shop's signature dish is the "Yakisoba Bread"
-How does it sound?
+Welcome~♪
+How about our shop's famous yakisoba bread?
 -----------------------
 <Loni>
 -----------------------
 #キミが食べさせてくれるなら
 #ボクは喜んで
 #焼きそばパンを買うよ
-If you're going to feed it to me,
-I'd be happy to.
-I'll buy yakisoba pan.
+If you'll feed it to me yourself,
+I'd be more than happy
+to buy some yakisoba bread.
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #ふっくらホクホクのパンに
 #おいしいやきそばをはさんだパン
 #ひとりで、食べてくださいねぇ！
-On fluffy, warm bread,
-sandwiching delicious yakisoba
-please eat it all by yourself~!
+Fluffy, steaming-hot bread
+stuffed with delicious yakisoba.
+Please, eat it all by yourself~!
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #いらっしゃいませ～♪
 #当店名物「やきそばパン」は
 #いかがですかぁ？
-Welcome~!
-Our shop's specialty is the 'Yakisoba Bread'
-How about it?
+Welcome~♪
+How about our shop's famous yakisoba bread?
 -----------------------
 <Reala>
 -----------------------
@@ -128,29 +126,19 @@ What's that?
 #やきそばパンというのは
 #パンにやきそばをサンドする
 #食べ物のことさ
-What is yakisoba bread?
-It's just yakisoba sandwiched between slices of bread.
-It's all about food.
+Yakisoba bread is food where you
+sandwich yakisoba inside bread.
+That's all it is.
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #今日みたいな日は
 #公園で食べる焼きそばパンが
 #とってもおいしいですよぉ！
-On days like today,
-the yakisoba pan you eat at the park
+On a day like today,
+yakisoba bread eaten at the park
 is absolutely delicious!
------------------------
-#女性
-woman
------------------------
-#ふっくらホクホクのパンに
-#おいしいやきそばをはさんだパン
-#とっても、おいしいですよぉ！
-Fluffy, steaming bread
-Bread stuffed with delicious yakisoba
-It's really, really tasty!
 -----------------------
 #女性
 Woman
@@ -158,9 +146,19 @@ Woman
 #ふっくらホクホクのパンに
 #おいしいやきそばをはさんだパン
 #とっても、おいしいですよぉ！
-On fluffy, warm bread,
-sandwiching delicious yakisoba
-it's really, really tasty~!
+Fluffy, steaming-hot bread
+stuffed with delicious yakisoba.
+It's really, really tasty~!
+-----------------------
+#女性
+Woman
+-----------------------
+#ふっくらホクホクのパンに
+#おいしいやきそばをはさんだパン
+#とっても、おいしいですよぉ！
+Fluffy, steaming-hot bread
+stuffed with delicious yakisoba.
+It's really, really tasty~!
 -----------------------
 #おばさん
 Woman
@@ -168,16 +166,16 @@ Woman
 #う～ん、ちょっと高いわねぇ
 #ねえ、あんたも
 #そう思わない？
-I'm, hmm, a bit pricey.
-Hey, you too
-Don't you think so?
+Hmm, this is a little expensive.
+Hey, you.
+Don't you think so too?
 -----------------------
 <Kyle>
 -----------------------
 #え？
 #そ、そうかな････？
 Huh?
-I... I guess so...
+Y-Yeah, I guess...?
 -----------------------
 #おばさん
 Woman
@@ -185,9 +183,8 @@ Woman
 #ウチの子は、みんな
 #食べざかりでね
 #食費がかかって、かかって････
-My kids are all...
-in their growing phases.
-The grocery bills just keep adding up...
+My kids are all growing boys and girls.
+The food bills just keep piling up...
 -----------------------
 #おばさん
 Woman
@@ -195,9 +192,9 @@ Woman
 #う～ん････店員さん
 #これ、もうちょっと
 #安くならないかね？
-Hmm... clerk.
-This, just a little bit more...
-Can't you come down on the price?
+Hmm... Miss?
+Couldn't you make this
+just a little cheaper?
 -----------------------
 #シェフ
 Chef
@@ -217,8 +214,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #シェフ
 Chef
@@ -233,7 +230,7 @@ Chef
 -----------------------
 #自分で作るのかい？
 #まぁ、それもいいだろう
-Do you plan to make it yourself?
+Gonna make it yourself?
 Well, that works too.
 -----------------------
 #シェフ
@@ -241,35 +238,35 @@ Chef
 -----------------------
 #{16}{34}{7C}{C0}のレシピがあるんだが、
 #<0B:00000001>{14}{34}{74}{C0}<0B:00000000>ガルドで買わないか？
-{16}{34}{7C}{C0}I've got a recipe here,
-<0B:00000001>{14}{34}{74}{C0}<0B:00000000>wanna buy it for  Gald?
+I've got a recipe for {16}{34}{7C}{C0},
+wanna buy it for <0B:00000001>{14}{34}{74}{C0}<0B:00000000> Gald?
 -----------------------
 select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #シェフ
 Chef
 -----------------------
 #お金が足りないね
-We're short on cash.
+Not enough money.
 -----------------------
 #シェフ
 Chef
 -----------------------
 #{16}{34}{7C}{C0}のレシピを
 #売ってあげよう
-{16}{34}{7C}{C0}Lets sell 's recipe
-for them.
+I'll sell you the recipe
+for {16}{34}{7C}{C0}.
 -----------------------
 #シェフ
 Chef
 -----------------------
 #まぁ、しようがないな
-Well, there's nothing we can do about it.
+Well, can't be helped.
 -----------------------
 {16}{24}{80}{C0}、{16}{24}{82}{C0}、{16}{24}{84}{C0}
 -----------------------
@@ -299,28 +296,28 @@ Chef
 -----------------------
 #{16}{34}{7C}{C0}を作るのに必要な食材は
 #{18}{44}{78}{C0}です
-{16}{34}{7C}{C0}The ingredients needed to make  are
+To make {16}{34}{7C}{C0}, you need
 {18}{44}{78}{C0}.
 -----------------------
 #シェフ
 Chef
 -----------------------
 #材料を持っているじゃないか
-You've got the materials.
+You've got the ingredients.
 -----------------------
 #シェフ
 Chef
 -----------------------
 #ゆずってくれれば{16}{34}{7C}{C0}を
 #作るがどうだい？
-If you give it up, I'll make {16}{34}{7C}{C0}
-for you?
+If you hand them over, I'll make {16}{34}{7C}{C0}
+for you. What do you say?
 -----------------------
 select
 -----------------------
 #<03:00000000>　はい
 #　いいえ
-<03:00000000>Yes
+<03:00000000> Yes
 No
 -----------------------
 #シェフ
@@ -328,7 +325,7 @@ Chef
 -----------------------
 #そうか、待ってな　
 #すぐに{16}{34}{7C}{C0}を作ってやるよ
-I see. Wait.
+I see. Hold on.
 I'll make {16}{34}{7C}{C0} right away.
 -----------------------
 #シェフ
@@ -336,8 +333,8 @@ Chef
 -----------------------
 #残念だな
 #凄く美味いのに･･･
-What a shame.
-It's so delicious... but...
+That's a shame.
+It's incredibly delicious...
 -----------------------
 #シェフ
 Chef
@@ -345,15 +342,15 @@ Chef
 #食材を探しているんだ
 #見つけたら持ってきてくれないかい？
 I'm looking for ingredients.
-Could you bring them to me if you find any?
+If you find any, would you bring them to me?
 -----------------------
 #シェフ
 Chef
 -----------------------
 #お前には資格がない
 #また、出直して来るといい
-You're not qualified.
-You'd better come back after trying again.
+You don't have what it takes.
+Come back when you're ready.
 -----------------------
 #シェフ
 Chef
@@ -361,24 +358,24 @@ Chef
 #お前のような奴を待ってた
 #これをゆずるのに相応しい料理人を
 I've been waiting for someone like you.
-A chef worthy of receiving this.
+A chef worthy of inheriting this.
 -----------------------
 notice
 -----------------------
 #{16}{34}{7C}{C0}のレシピを拾いました
-{16}{34}{7C}{C0}Picked up 's recipe.
+Picked up the recipe for {16}{34}{7C}{C0}.
 -----------------------
 notice
 -----------------------
 #{16}{34}{90}{C0}の作り方を覚えました
-{16}{34}{90}{C0}I've learned how to make .
+Learned how to make {16}{34}{90}{C0}.
 -----------------------
 #いってらっしゃいませ
 Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -388,8 +385,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -412,7 +409,7 @@ exit-party_togather( short spd )
 notice
 -----------------------
 #{16}{25}{DE}{C0}を手に入れました
-{16}{25}{DE}{C0}You obtained .
+Acquired {16}{25}{DE}{C0}.
 -----------------------
 notice
 -----------------------
@@ -423,12 +420,11 @@ notice
 -----------------------
 #{16}{25}{E6}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{25}{E6}{C0}There was , but
-I couldn't hold it because it was full.
+Found {16}{25}{E6}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

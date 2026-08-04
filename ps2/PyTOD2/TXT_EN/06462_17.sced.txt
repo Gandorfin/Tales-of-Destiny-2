@@ -1,11 +1,11 @@
 #ハイデルベルグ城
-Heidelburg Castle
+Heidelberg Castle
 -----------------------
 #ハイデルベルグ城
-Heidelburg Castle
+Heidelberg Castle
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #ぐぁぁああー！
 Graaah!
@@ -15,46 +15,46 @@ Graaah!
 #お、おい！
 #大丈夫か!?
 H-hey!
-Are you okay!?
+You okay!?
 -----------------------
 <Kyle>
 -----------------------
 #マズい！
 #みんな、やるぞ！
 This is bad!
-Everyone, let's go!
+Everyone, let's move!
 -----------------------
 <Reala>
 -----------------------
 #大丈夫ですか？
-Are you okay?
+Are you all right?
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #わ、私はなんとか！
 #それよりも、ウッドロウ様を
 #お守りせねば！
 I-I'm fine!
 But more importantly,
-I have to protect Lord Woodrow!
+I must protect Lord Garr!
 -----------------------
 <Judas>
 -----------------------
 #この襲撃は、やはり
 #ウッドロウをねらったものなのか？
-This attack was,
-targeting Woodrow after all?
+So this attack
+was targeting Garr after all?
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #それは、間違いありません！
 #モンスターを率いている男が
 #『ウッドロウ王の命をもらいうける』と････
-That's no mistake!
+There's no doubt about it!
 The man leading the monsters
-is here to claim King Woodrow's life...
+said he's here to claim King Garr's life...
 -----------------------
 <Reala>
 -----------------------
@@ -64,243 +64,242 @@ Oh no...!
 <Kyle>
 -----------------------
 #急ごう、みんな！
-Hurry up, everyone!
+Let's hurry, everyone!
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #ウッドロウ陛下を
 #お守りせねば････！
-His Majesty Woodrow
-I must protect him...!
+I must protect
+His Majesty Garr...!
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #くそっ、なんてことだ！
 #突然の襲撃に皆も対処しきれていない！
 #守備兵も城のあちこちに散らばって
 #しまっている！
-Damn it, what's going on!
-Everyone is struggling to handle the sudden attack!
-The guards are scattered all over the castle,
+Damn it, what's going on!?
+Nobody can keep up with this sudden attack!
+The guards are scattered all over the castle
 and we're in trouble!
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #城下から応援が来るのもしばらく先だろう
 #このままでは城に散らばった兵たちが
 #各個撃破されてしまう････！
-Reinforcements from the town below won't arrive for some time yet.
-If things continue like this, the soldiers scattered throughout the castle...
-...will be picked off one by one!.
+Reinforcements from the town below won't arrive for some time.
+If this keeps up, the soldiers scattered throughout the castle
+will be picked off one by one...!
 -----------------------
 <Judas>
 -----------------------
 #連絡役は僕たちがやる
 #お前は持ち場を離れず、まずは別館の安全を
 #確保するんだ
-We'll handle the communications.
+We'll handle communications.
 Stay at your post and secure the annex first.
-Got it?
+Understood?
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #戦況はどうなっているんだ！
 #ウッドロウ様はご無事なのか！
-What's the situation on the battlefield?
-Is Lord Woodrow safe?
+What's the situation!?
+Is Lord Garr safe?
 -----------------------
 <Kyle>
 -----------------------
 #ウッドロウさんはオレたちが見てくるから
 #おじさんは持ち場を守ってて！
-We'll go check it out, Mr. Woodrow.
-You stay at your post!
+We'll go check on Garr,
+so you stay at your post!
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #わかりました････
 #陛下のこと、よろしく頼みます！
 Understood...
-Please take good care of His Majesty!
+Please, take care of His Majesty!
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #･････平和の鐘が････
 #････なんてことだ････
-...The bell of peace...
+...The Bell of Peace...
 ...What's going on...
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #よい･･しょっと！　････ふぅ！
 #やっぱり、ひとりだと
 #ちょっとツラいな････
-Alright... here goes! ...Phew!
-As I thought, being alone is
-a bit tough...
+Heave... ho! ...Whew!
+Doing this alone
+is tougher than I thought...
 -----------------------
 <Loni>
 -----------------------
 #あんた、なにしてるんだ？
-What are you doing?
+What're you doing?
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #あぁ、ガレキをどかしてるんです
 #ここが通れるようにならないことには
 #鐘の修理も、できませんから
-I'm clearing away the rubble.
-We can't proceed until this path is open.
-So we won't be able to repair the bell either.
+Clearing away the rubble.
+We can't get through here,
+so we can't repair the bell either.
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #あの鐘は、この街で
 #普段から鳴っていました
 #いわば、日常の象徴です
-That bell in this town...
-rings all the time.
+That bell used to ring
+all the time in this town.
 It's practically a symbol of everyday life.
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #だから、今こそ鳴らすべきだと思うんです
 #失われてしまった、日常とか、平和とか
 #鐘が鳴れば、取りもどせるかもって････
-I think it's time to ring them now.
+That's why I think we need to ring it now.
 The daily life we lost, peace itself...
 If the bells ring, maybe we can get it all back...
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #みんなに、バカげているって
 #笑われるかもしれないけど････
 #私、もう一度鐘を鳴らしたいんです
-They might think I'm being ridiculous,
-and laugh at me... but...
-I want to ring that bell again.
+Everyone might laugh at me,
+say I'm being ridiculous...
+but I want to ring that bell again.
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #ガレキを取り除く作業は、順調に進んでます
 #この分だと、遠くないうちに
 #鐘楼への道が開けそうです
 The debris removal is going smoothly.
-At this rate,
-a path to the bell tower seems to be opening up.
+At this rate, it won't be long
+before the path to the bell tower opens up.
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #道が開けたら、鐘を直すつもりです
 #どれぐらい時間がかかるか
 #わかりませんけど････やってみたいんです
-I plan to fix the bell once the path opens up.
-How much time it will take
-I'm not sure, but I want to give it a try.
+Once the path opens, I plan to fix the bell.
+Not sure how long it'll take,
+but I want to give it a try.
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #あの鐘は、この街の
 #日常の象徴だと思うんです
 #だから、どうしても直したくて
-I believe that bell is a symbol of this town's
-daily life.
-That's why I really wanted to fix it.
+I believe that bell is a symbol
+of this town's daily life.
+That's why I really want to fix it.
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #こんなバカげたこと考えてるの
 #私ひとりだと、思ってたんですけど････
 #匿名で、寄付をいただいたんです！
-Thinking about such ridiculous things,
-I thought I was on my own...
-Someone anonymously donated to me!
+I thought I was the only one
+thinking about something so ridiculous...
+but someone anonymously donated to me!
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #時間は、かかるかもしれませんが････
 #寄付をしていただいた方のためにも
 #ぜったい、鐘を元にもどしてみせます！
-It may take some time...
-For those who have made donations,
-I'll definitely bring the bell back to its original state!
+It might take some time...
+But for everyone who donated,
+I swear I'll restore that bell!
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #やぁ、ようこそ！
 #ここまで登ってくる方は
 #めずらしいんですよ
-Hey, welcome!
-People who make it up here are
-pretty rare.
+Hey there, welcome!
+Not many people make it all the way up here.
 -----------------------
 <Kyle>
 -----------------------
 #これは････鐘？
 #ずいぶん、おっきいね
-This is... a bell?
-It's pretty big.
+Is this... a bell?
+It's huge!
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #えぇ、先々代の国王さまが
 #平和の象徴として建てたんです
 #すごく澄んだ、いい音が鳴るんですよ
-Yes, Your Majesty the King from two reigns ago...
-...built it as a symbol of peace.
-It produces a wonderfully clear sound.
+Yes. The king from two generations ago
+had it built as a symbol of peace.
+It has the most wonderfully clear tone.
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #鐘の手入れは、面倒だし地味だって
 #みんな、いうんですけど････
 #私には性にあってるみたいです
-Tending to the bells is such a bother and so dull.
-But everyone says that...
-It seems to suit me just fine.
+Everyone says tending to bells is a dull,
+thankless chore... but I suppose
+it's just in my nature.
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #それに、ここから街が一望できるんです
 #夕方、手入れを終えたあととかに見ると
 #一日の疲れも吹き飛んじゃいますよ
-And besides, you can get a full view of the town from here.
-When you see it in the evening after finishing your chores,
-It really blows away all the day's fatigue.
+Besides, you can see the whole town from up here.
+Watching the sunset after finishing my work...
+it melts the day's fatigue right away.
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #鐘は定期的に鳴らしていますから
 #聞こえたら、耳を傾けてみてください
-The bells are rung at regular intervals.
-If you hear them, take a moment to listen.
+We ring it at regular intervals,
+so if you hear it, stop and listen.
 -----------------------
 #兵士
 Soldier
 -----------------------
 #このフラグでの会話未設定
-Conversation not set up for this flag.
+Conversation not set for this flag.
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -317,8 +316,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -352,7 +351,7 @@ notice
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{C2}{C0} but
+Found {16}{25}{C2}{C0}, but
 inventory is full already.
 -----------------------
 notice
@@ -360,4 +359,3 @@ notice
 #何もありません
 There's nothing here.
 -----------------------
-

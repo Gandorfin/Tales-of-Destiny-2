@@ -1,59 +1,59 @@
 #地上軍拠点跡地
-Former Ground Forces Base Site
+Er'ther Base Ruins
 -----------------------
 #地上軍拠点跡地
-Former Ground Forces Base Site
+Er'ther Base Ruins
 -----------------------
 NOTICE
 -----------------------
 #あるべき場所にあるべき物を戻せ
-Return everything to where it belongs.
+Return all that belongs in its rightful place.
 -----------------------
 NOTICE
 -----------------------
 #木の封印
-The Wood Seal
+Wood Seal
 -----------------------
 NOTICE
 -----------------------
 #水の封印
-The Water Seal
+Water Seal
 -----------------------
 NOTICE
 -----------------------
 #火の封印
-The Fire Seal
+Fire Seal
 -----------------------
 NOTICE
 -----------------------
 #翼の封印
-The Seal of Wings
+Wing Seal
 -----------------------
 NOTICE
 -----------------------
 #さすれば力を得られよう
-So shall you gain power.
+Only then shall you gain power.
 -----------------------
 NOTICE
 -----------------------
 #強力な封印に阻まれて
 #先へ進めません
-Blocked by a powerful seal
-We can't proceed any further
+A powerful seal blocks the way.
+You cannot proceed.
 -----------------------
 NOTICE
 -----------------------
 #強力な封印に阻まれて
 #先へ進めません
-Blocked by a powerful seal
-We cannot proceed further
+A powerful seal blocks the way.
+You cannot proceed.
 -----------------------
 NOTICE
 -----------------------
 #強力な封印に阻まれて
 #先へ進めません
-Hindered by a powerful seal
-We cannot proceed further.
+A powerful seal blocks the way.
+You cannot proceed.
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -70,8 +70,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -113,4 +113,3 @@ notice
 #何もありません
 There's nothing here.
 -----------------------
-

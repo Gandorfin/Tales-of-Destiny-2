@@ -1,39 +1,39 @@
 #ダイクロフト
-Dycrof
+Dycroft
 -----------------------
 #ダイクロフト
-Dycrof
+Dycroft
 -----------------------
 #ダイクロフト
-Dycrof
+Dycroft
 -----------------------
 <Kyle>
 -----------------------
 #ここが････
 #天空都市ダイクロフト････？
-This is...
-The sky city of Dycroft...?
+So this is...
+the aerial city of Dycroft...?
 -----------------------
 <Loni>
 -----------------------
 #敵を招きいれるとは大した自信だな
 #それとも、俺たちをナメてるのか
-You're pretty confident inviting them in.
-Or are you underestimating us?
+That's some confidence, inviting the enemy in.
+Or are you just looking down on us?
 -----------------------
 <Nanaly>
 -----------------------
 #どっちでもいいさ
 #あとで後悔させてやりゃいいんだから
-Either way works for me.
-I can just make them regret it later.
+Either way's fine by me.
+I'll just make 'em regret it later.
 -----------------------
 <Kyle>
 -----------------------
 #そういうこと！
 #よし、行こう、みんな！
-That's it!
-Alright, let's go, everyone!
+That's the spirit!
+All right, let's go, everyone!
 -----------------------
 #ダンタリオン
 Dantalion
@@ -41,12 +41,12 @@ Dantalion
 #<Kyle>さま
 #それに、<Reala>さまですね
 Lord <Kyle>!
-And besides, it's Lord <Reala>, right?
+And Lady <Reala>, I presume?
 -----------------------
 <Kyle>
 -----------------------
 #おまえは････誰だ！
-You... who are you?!
+Who... who are you?!
 -----------------------
 #ダンタリオン
 Dantalion
@@ -54,7 +54,7 @@ Dantalion
 #我が名はダンタリオン
 #エルレインさまの理想に賛同する者です
 My name is Dantalion.
-I am one who agrees with Elraine's ideals.
+One who shares Lady Elrane's vision.
 -----------------------
 #ダンタリオン
 Dantalion
@@ -62,48 +62,48 @@ Dantalion
 #ムリを承知で、お願いします
 #････<Kyle>さま
 #ここは、お引き取りください
-I understand it's a stretch, but please.
+I know this is a lot to ask, but please...
 ...Lord <Kyle>.
-You should leave this place.
+Withdraw from this place.
 -----------------------
 <Kyle>
 -----------------------
 #････それは、できない
 #オレたちはエルレインに
 #どうしても会わなきゃいけないんだ
-...That's impossible.
-We have to
-meet Ellrein no matter what.
+...I can't do that.
+We have to see Elrane.
+No matter what.
 -----------------------
 <Kyle>
 -----------------------
 #それを、ジャマするっていうんなら････
 #おまえを、倒す！
-If you're going to get in my way...
-I'll defeat you!
+If you're gonna stand in our way...
+then I'll take you down!
 -----------------------
 #ダンタリオン
 Dantalion
 -----------------------
 #ふたつの道は、交わらず
 #ということですか････
-The two paths never cross.
-Is that what you're saying...?
+So our two paths cannot cross...
+Is that what you are saying?
 -----------------------
 #ダンタリオン
 Dantalion
 -----------------------
 #ならば、私も自らの理想に従いましょう
 #エルレインさまの理想に････！
-Then I shall follow my own ideals as well.
-To Lady Elraine's ideals...!
+Then I, too, shall follow my own convictions.
+For Lady Elrane's ideals...!
 -----------------------
 #いってらっしゃいませ
-Have a good day.
+Farewell.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald per night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -113,8 +113,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -126,7 +126,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We look forward to your next visit.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -148,12 +148,11 @@ notice
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{C2}{C0} but
-inventory is full already.
+Found {16}{25}{C2}{C0}, but
+couldn't carry any more.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

@@ -8,7 +8,7 @@ Dunamis Orphanage
 Dunamis Orphanage
 -----------------------
 #<size:00000180>いってえぇぇっ～!!
-<size:00000180>Owwie~!!
+<size:00000180>Ow ow ow~!!
 -----------------------
 #バジル
 Basil
@@ -25,8 +25,8 @@ Cinnamon
 #そこで<Kyle>がやられちゃ
 #なんにもならないだろ！
 What are you doing, geez!
-And then <Kyle> got taken out
-It won't amount to anything!
+If <Kyle> gets taken out there,
+this'll all be for nothing!
 -----------------------
 #シナモン
 Cinnamon
@@ -34,18 +34,18 @@ Cinnamon
 #英雄スタンの息子なんだろ？
 #もうちょっと、しっかりしてくれよな！
 #ったく････
-You're the son of the hero, Stahn, aren't you?
-Get your act together a little better, will ya!
-For crying out loud...
+You're the son of the hero Stahn, right?
+Get your act together already!
+Sheesh...
 -----------------------
 <Kyle>
 -----------------------
 #ハハッ、わりぃわりぃ
 #なかなか父さんみたいには
 #いかなくてさぁ
-Ha ha, sorry, my bad.
-I have a ways to go before
-I'll be like my dad.
+Ha ha, sorry, sorry.
+I just can't seem to measure up
+to my dad.
 -----------------------
 #シナモン
 Cinnamon
@@ -53,9 +53,9 @@ Cinnamon
 #でもさ、毎日毎日
 #ごっこ遊びばっかじゃ、つまんないよな～
 #<Kyle>は、こんなんだし
-Ya know what though? Playing nothin' but make-
-believe everyday is so bo~ring. It doesn't help
-that <Kyle>'s being like this either.
+But ya know, playing make-believe
+every single day gets boring, right?
+And <Kyle>'s no help either.
 -----------------------
 #シナモン
 Cinnamon
@@ -64,16 +64,16 @@ Cinnamon
 #今日は、本物の冒険に
 #行ってみようぜ！
 ...Wait, that's it!
-Let's try goin' on
-a real adventure today!
+Let's go on a real
+adventure today!
 -----------------------
 #ユニー
 Yuni
 -----------------------
 #あっ、それいい！
 #あたし賛成～！
-Ah, me like that!
-I'm with him!
+Oh, I like that!
+I'm totally in~!
 -----------------------
 #バジル
 Basil
@@ -81,9 +81,9 @@ Basil
 #で、でも
 #街の外にはモンスターがいるんだぞぉ!?
 #ボクたちだけじゃ、あぶないよぉ････
-B, but there are monsters outside of
-the town, you know!? It'll be dangerous
-if we're by ourselves...
+B-but there are monsters
+outside town, you know!?
+It'll be dangerous if it's just us...
 -----------------------
 #シナモン
 Cinnamon
@@ -91,9 +91,9 @@ Cinnamon
 #だいじょうぶ！
 #モンスターが出たら
 #逃げりゃいいんだしさ
-I'm fine!
+It'll be fine!
 If monsters show up,
-just run away.
+we'll just run away!
 -----------------------
 #シナモン
 Cinnamon
@@ -103,72 +103,72 @@ Cinnamon
 #なっ、そうだろ？
 And besides, if things get serious,
 <Kyle> will protect us!
-I-I mean, right?
+R-right?
 -----------------------
 <Kyle>
 -----------------------
 #ああ！　未来の大英雄
 #<Kyle>＝デュナミスに
 #まかせとけ！
-Ah! A future great hero!
-The <Kyle> = Dunamis
-Leave it to me!
+Yeah! Leave it to
+<Kyle> Dunamis,
+the future great hero!
 -----------------------
 <Kyle>
 -----------------------
 #よし、これから街を出て冒険だ！
 #みんな、オレから離れるんじゃないぞ！
 #いいなッ！
-Alright then, we're leaving town to go on
-an adventure! Everyone, don't leave my side
-for even a second! Is that clear!
+Alright, we're leaving town for an adventure!
+Everyone, stick close to me!
+Got it?!
 -----------------------
 <Kyle>
 -----------------------
 #とうッ、ハッ、でぇいッ!!
-Huuuh! Haaah! Diee!!
+Hup! Ha! Hyaaah!!
 -----------------------
 #スタン
-Stand
+Stahn
 -----------------------
 #どうした、<Kyle>！
 #剣先がだんだん下がってきてるぞ！
 #もうバテたのか!?
 What's wrong, <Kyle>!
-The tip of your sword is drooping!
-Are you already worn out!?
+Your sword tip's drooping lower and lower!
+You worn out already!?
 -----------------------
 <Kyle>
 -----------------------
 #くそぅッ、まだまだぁ！
-Darn it! I'm not done yet!
+Damn it... not yet!
 -----------------------
 <Kyle>
 -----------------------
 #でやぁぁぁぁッ!!
-Haaaah!!
+Hiyaaah!!
 -----------------------
 #スタン
-Stand
+Stahn
 -----------------------
 #な、なにぃッ!?
-What... what is it!?
+Wh-what the!?
 -----------------------
 #スタン
-Stand
+Stahn
 -----------------------
 #････！
-...
+...!
 -----------------------
 <Kyle>
 -----------------------
 #はぁはぁ････
 #や、やった････！
 Haa... haa...
-W-we did it...!
+W-we won...!
 -----------------------
 #スタン
-Stand
+Stahn
 -----------------------
 #お、おい！
 #だいじょうぶか、<Kyle>!?
@@ -180,18 +180,18 @@ You okay, <Kyle>!?
 #ヘヘッ････
 #オレの初勝利だね、父さん？
 Heh heh...
-My first victory, Father?
+That was my first win, wasn't it, Dad?
 -----------------------
 #スタン
-Stand
+Stahn
 -----------------------
 #ああ、そうだ
 #まいった、降参だ
-I see, that's right.
-I'm done for, I give up.
+Yeah, that's right.
+I'm beat. I give up.
 -----------------------
 #スタン
-Stand
+Stahn
 -----------------------
 #これでまた一歩
 #おまえも英雄に近づいたってわけだな
@@ -218,7 +218,7 @@ or because you want to be one.
 Right, Father?
 -----------------------
 #スタン
-Stand
+Stahn
 -----------------------
 #ほぉ････
 Ho...
@@ -237,25 +237,25 @@ Oh, <Loni>!
 -----------------------
 #ほら、うちの店のパンだ
 #売れ残りだがな
-Look, it's bread from my shop.
-It's unsold stock.
+Here, bread from my shop.
+It's leftover stock.
 -----------------------
 <Kyle>
 -----------------------
 #ありがとう、いつも助かるよ････
-Thanks, you always come in handy.
+Thanks. You always save us...
 -----------------------
 #子供の声
 A child's voice
 -----------------------
 #ワ～イ！
-Woo-hoo!
+Yaaay!
 -----------------------
 #シナモン
 Cinnamon
 -----------------------
 #わ～い！
-Woo-hoo!
+Yaaay!
 -----------------------
 #バジル
 Basil
@@ -264,10 +264,10 @@ Basil
 Bread! Bread!
 -----------------------
 #リィム
-Lire
+Lime
 -----------------------
 #お腹すいたぁ！
-I'm so hungry!
+I'm hungry~!
 -----------------------
 #ブルー
 Blue
@@ -282,78 +282,78 @@ Salt
 Dinner time, yay~!
 -----------------------
 #ジャン
-Jump
+Jean
 -----------------------
 #腹へったよぉ！
-I'm starving!
+My tummy's rumbling~!
 -----------------------
 #ミーナ
 Meena
 -----------------------
 #おいしいパンだぁ！
-This bread is delicious!
+This bread is so good~!
 -----------------------
 #トニア
 Tonia
 -----------------------
 #<Loni>、ありがとう！
-Thank you, <Loni>!
+<Loni>, thanks!
 -----------------------
 #ソルト
 Salt
 -----------------------
 #わ～い！　わ～い！
-Woo-hoo! Woo-hoo!
+Yaaay! Yaaay!
 -----------------------
 <Loni>
 -----------------------
 #そ、それにしても
 #ずいぶんと増えたような気が････
 S-still...
-It feels like there's been quite an increase...
+Feels like the crowd's grown a lot...
 -----------------------
 #スタン
-Stand
+Stahn
 -----------------------
 #ハッハッハッハッハッ！
 #何人でも、ドーンとこいだ！
-Hahaha!
-Bring it on! Let's see what you've got!
+Hahahahaha!
+Bring it on, however many of you there are!
 -----------------------
 <Kyle>
 -----------------------
 #････う～ん、やっぱり
 #父さんと母さんは、英雄だと思うよ
-Hmm... I still think so.
-I think Mom and Dad are heroes.
+...Yeah, I still think so.
+Mom and Dad are heroes.
 -----------------------
 #スタン
-Stand
+Stahn
 -----------------------
 #あったりまえだ！
 #さあ、急がないと、食いっぱぐれるぞ！
 Of course!
-Come on, we'd better hurry, or we'll starve!
+Come on, hurry up or we'll miss the food!
 -----------------------
 <Kyle>
 -----------------------
 #うん！
-Yes!
+Yeah!
 -----------------------
 #スタン
-Stand
+Stahn
 -----------------------
 #<Loni>、今度、休みの日に
 #ゆっくりと遊びにきてくれ
-Hey, <Loni>, next time you've got some free time,
-come on out and hang with us.
+<Loni>, come visit us
+next time you have a day off.
 -----------------------
 <Loni>
 -----------------------
 #はっ、はい！
 #じゃあ、またな、<Kyle>！
 Ha, yes!
-Alright then, see you later, <Kyle>!
+See you later, <Kyle>!
 -----------------------
 <Kyle>
 -----------------------
@@ -366,13 +366,13 @@ See ya!
 -----------------------
 #父さん、母さん、それにみんな
 #････いってきます！
-Dad, Mom, and everyone else.
-...I'm off!
+Dad, Mom, everyone...
+...I'm heading out!
 -----------------------
 <Loni>
 -----------------------
 #よお、遅かったじゃねえか！
-You're late as usual!
+Hey, you're late!
 -----------------------
 <Kyle>
 -----------------------
@@ -384,30 +384,30 @@ You're late as usual!
 #まったく、親友の俺にだまって
 #ひとりで旅にでようなんて
 #ホント、薄情なヤツだぜ
-Seriously, just keeping it from your best friend...
-Going off on a journey all alone...
-You really are a heartless guy.
+Man, keeping it from your best friend...
+Going off on a journey all by yourself...
+You're one cold-hearted bastard.
 -----------------------
 <Kyle>
 -----------------------
 #ご、ごめん
 #でも、どうして････
 S-sorry...
-But, why...
+But why...
 -----------------------
 <Loni>
 -----------------------
 #おまえの行動なんて、なにもかもお見通しさ
 #ガキンチョのときから、そうだっただろ？
-You've been predictable in everything you've done.
-It's been that way since you were just a brat.
+I can see right through everything you do.
+It's been that way since you were a brat.
 -----------------------
 <Loni>
 -----------------------
 #しかし、まさか
 #おまえに先をこされるとはなぁ
-But I never expected
-To think you'd beat me to it.
+But man, I never thought
+you'd beat me to the punch.
 -----------------------
 <Kyle>
 -----------------------
@@ -419,14 +419,13 @@ Huh?
 #スタンさんやルーティさんに
 #あこがれてるのは
 #おまえだけじゃないってことさ
-To Stan-san and Rutee-san,
-I'm envious.
-It's not just you.
+It's not just you who looks up to
+Stahn and Rutee, you know.
 -----------------------
 <Loni>
 -----------------------
 #さあ、いこうぜ、相棒！
-Alright, let's go, partner!
+C'mon, let's go, partner!
 -----------------------
 <Kyle>
 -----------------------
@@ -434,22 +433,22 @@ Alright, let's go, partner!
 #たしかに、<Loni>がいなきゃ
 #はじまらないね！
 ...You're right.
-Indeed, without <Loni>,
-it wouldn't have started!
+Without <Loni>,
+this never would've gotten started!
 -----------------------
 <Loni>
 -----------------------
 #おっ、やっとわかったか！
 #ハハハッ！
-Oh, so you finally get it!
+Oh, so you finally figured it out!
 Hahaha!
 -----------------------
 <Loni>
 -----------------------
 #さあ、いこうぜ
 #まだ見ぬ未知の世界へ！
-C'mon, let's go.
-To an unknown world we've yet to see!
+C'mon, let's go!
+To a world we've yet to see!
 -----------------------
 <Kyle>
 -----------------------
@@ -461,28 +460,27 @@ To an unknown world we've yet to see!
 #旅の中で、自分にとって
 #かけがえのないものを探せって
 #父さんがいってた････
-During my travels,
-my father told me to look for something
-that was irreplaceable to me...
+Dad told me to search for something
+irreplaceable to me on my journey...
 -----------------------
 <Kyle>
 -----------------------
 #それがなんなのか
 #今はまだ、わからないけど････
-What it is...
-I don't know yet... but...
+What that something is...
+I still don't know yet, but...
 -----------------------
 <Kyle>
 -----------------------
 #でも、きっと見つかる！
 #<Loni>といっしょなら！
-But I'm sure we'll find it!
-With <Loni> around!
+But we'll find it, I'm sure!
+As long as I've got <Loni> with me!
 -----------------------
 
 -----------------------
 #いってらっしゃいませ
-Have a good day.
+Take care.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
@@ -496,8 +494,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -520,7 +518,7 @@ exit-party_togather( short spd )
 notice
 -----------------------
 #{16}{26}{7A}{C0}を手に入れました
-{16}{26}{7A}{C0}You obtained .
+Acquired {16}{26}{7A}{C0}.
 -----------------------
 notice
 -----------------------
@@ -531,8 +529,8 @@ notice
 -----------------------
 #{16}{26}{82}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{26}{82}{C0}There was , but
-I couldn't carry it because it was full.
+{16}{26}{82}{C0}You found , but
+your inventory was full, so you couldn't take it.
 -----------------------
 notice
 -----------------------
@@ -551,42 +549,42 @@ select
 -----------------------
 #<03:00000000>　遊ぶ　
 #　遊ばない　
-<03:00000000>Play
+<03:00000000> Play
 Don't play
 -----------------------
 <Kyle>
 -----------------------
 #よっしゃ！
-You got it!
+All right!
 -----------------------
 #<Kyle>がサボっているせいで
 #マキ置き場には、一本もマキが無い････
-Because <Kyle> is slacking off...
-There isn't even a single log in the woodpile...
+<Kyle>'s slacking off, so...
+there's not a single log in the woodpile...
 -----------------------
 <Kyle>
 -----------------------
 #結構な量の洗濯物だ
 #毎日毎日、母さんも大変だよな････
 That's quite a pile of laundry.
-Your mom has her hands full doing it every day.
+Mom must have her hands full with this every day...
 -----------------------
 #孤児たちの洗濯物が干されている
 #ルーティが一人で干しているようだ
-The orphans' laundry is hanging out to dry.
-It looks like Rute is doing it all by herself.
+The orphans' laundry is hung out to dry.
+Looks like Rutee's doing it all by herself.
 -----------------------
 #孤児院の花壇だ
 #きれいな花が咲いている
-It's the flower bed at the orphanage.
+It's the orphanage flower bed.
 Beautiful flowers are blooming.
 -----------------------
 #看板がある
 #『デュナミス孤児院
 #　院長：スタン＝エルロン
 #　　　　ルーティ＝カトレット』
-There's a sign here.
+There's a sign.
 "Dunamis Orphanage"
-Director: Stan Elron
-Ruti Catlet"
+Director: Stahn Aileron
+Rutee Katrea"
 -----------------------

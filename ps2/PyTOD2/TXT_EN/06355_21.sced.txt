@@ -14,147 +14,147 @@ The wreckage of an aerial city that crashed 18 years ago.
 #わたし、あなたたちと
 #話しているヒマなんてないんです
 ....What is it?
-I don't have any time
-to be talking to you two.
+I don't have time
+to talk with you two.
 -----------------------
 #ない････ここにも････
 #どうしよう････
-No....Here too....?
+Not here either....
 What should I do....?
 -----------------------
 <Kyle>
 -----------------------
 #ねぇ、君？
-Hey, you?
+Hey, you!
 -----------------------
 #どうしよう････見つからない････
 #あれがないと、わたし････！
-What should I do....?  I can't find it....
+What should I do....? I can't find it....
 Without that, I....!
 -----------------------
 <Kyle>
 -----------------------
 #ねぇってば！
-Hey!
+Hey, I'm talking to you!
 -----------------------
 #はっ････
-Hmm....
+...!
 -----------------------
 <Kyle>
 -----------------------
 #････！
 #君････泣いてるの？
 ....!
-Are....you crying?
+You're....crying?
 -----------------------
 #････なんですか？
 #わたし、あなたたちと
 #話しているヒマなんてないんです
 ....What is it?
-I don't have any time
-to be talking to you two.
+I don't have time
+to talk with you two.
 -----------------------
 <Loni>
 -----------------------
 #ずいぶんとつれないセリフだねぇ
 #あんたの落とし物を
 #拾ってやったってのに
-You don't have to be so cold.
-That thing you lost, 
-well we picked it up.
+That's a pretty cold way to talk
+to the guys who picked up
+the thing you dropped.
 -----------------------
 #えっ!?
-huh!?
+What!?
 -----------------------
 <Kyle>
 -----------------------
 #これ、君のだよね
 #はい！
-This is yours
-right!
+This is yours, right?
+Here!
 -----------------------
 #････！
-...
+....!
 -----------------------
 <Loni>
 -----------------------
 #おいおい
 #礼のひとこともナシかよ？
 Hey, hey.
-No word of gratitude?
+Not even a word of thanks?
 -----------------------
 <Loni>
 -----------------------
 #泣いて探すほど
 #大切なものなんだろ？
-The way you're crying and looking.
-It must be important, right?
+You were crying while you searched.
+Must be pretty important, huh?
 -----------------------
 #あ････
-Ahh....
+Ah....
 -----------------------
 #････あ、ありがとう
-....Ah, thank you.
+....Th-thank you.
 -----------------------
 <Kyle>
 -----------------------
 #な～に、困っている人を助けるのは
 #英雄として、当然のことさ！
-A hero will always help a person
-in need.  It's what they do!
+It's nothing! Helping people in trouble
+is just what a hero does!
 -----------------------
 #英雄････
 A hero....
 -----------------------
 #････やっぱり、ちがう
-....It's different, after all.
+....No. You're not.
 -----------------------
 <Kyle>
 -----------------------
 #え、なに？
-W, What?
+Huh? What?
 -----------------------
 #拾ってくれたことには
 #お礼を言います
-What you picked up.
-Thank you.
+I do thank you
+for picking it up.
 -----------------------
 #でも････
 #もう、わたしに関わらないで
 #それじゃあ
 But....
-Don't get involved with me, anymore.
-Alright?
+please don't involve yourself with me anymore.
+Goodbye.
 -----------------------
 <Kyle>
 -----------------------
 #あ、ちょっと待ってよ、ねぇ！
-Oh, wait a bit.  Hey!
+Ah, wait up! Hey!
 -----------------------
 <Loni>
 -----------------------
 #････感じ悪ぅ
 #おい<Kyle>、あんな女
 #追っかける価値なんかないぜ？
-....I feel bad.
-Hey, <Kyle>.  Don't you think
-it's worth going after her?
+....Talk about attitude.
+Hey <Kyle>, a girl like that
+ain't worth chasing after, yeah?
 -----------------------
 <Kyle>
 -----------------------
 #いいや！　あの子に
 #オレが英雄だってことを、絶対に認めさせる！
-Yeah!  I'm not a child.
-I'll make her see that I'm a hero!
+Wrong! I'll make that girl
+admit that I'm a hero, no matter what!
 -----------------------
 <Kyle>
 -----------------------
 #さ、オレたちも行こう！
 #ボヤボヤしてたら、あの子
 #どんどん先に行っちゃうよ！
-Let's go too!
-If we don't hurry
-she'll get away!
+C'mon, let's go!
+If we just stand around,
+she'll get further and further ahead!
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -171,8 +171,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -206,12 +206,11 @@ notice
 -----------------------
 #{16}{26}{0E}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{26}{0E}{C0} but
-inventory is full already.
+Found {16}{26}{0E}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

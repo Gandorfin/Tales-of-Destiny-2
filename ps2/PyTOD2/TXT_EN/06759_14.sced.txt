@@ -7,29 +7,29 @@ Aqua Labyrinth
 notice
 -----------------------
 #次に進みますか？
-Do you want to proceed?
+Proceed to the next area?
 -----------------------
 select
 -----------------------
 #<03:00000000>　次に進む　
 #　脱出する　
-<03:00000000>Proceed to the next area
-Flee
+<03:00000000> Proceed onward
+Escape
 -----------------------
 notice
 -----------------------
 #このマップは暗くなります
-This map will get dark.
+This area is dark.
 -----------------------
 notice
 -----------------------
 #このマップはダメージを受けます
-This map takes damage.
+This area causes damage.
 -----------------------
 notice
 -----------------------
 #このマップはエンカウントマックスです
-This map has maximum encounter rates.
+This area has maximum encounter rate.
 -----------------------
 notice
 -----------------------
@@ -51,8 +51,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -86,7 +86,7 @@ notice
 -----------------------
 #{16}{25}{CA}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{CA}{C0} but
+Found {16}{25}{CA}{C0}, but
 inventory is full already.
 -----------------------
 notice
@@ -94,4 +94,3 @@ notice
 #何もありません
 There's nothing here.
 -----------------------
-

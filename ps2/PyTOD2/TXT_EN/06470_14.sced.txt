@@ -1,36 +1,36 @@
 #アイグレッテ
-Igret
+Aigrette
 -----------------------
 #アイグレッテ
-Igret
+Aigrette
 -----------------------
 #神団兵Ａ
-God Squad Soldier A
+Order of Atamoni Soldier A
 -----------------------
 #おい、待て
 #ここから先は立ち入り禁止だ
-Hey, wait!
-No trespassing past this point.
+Hey, you! Halt!
+No trespassing beyond this point.
 -----------------------
 #神団兵Ｂ
-Divine Army Soldier B
+Order of Atamoni Soldier B
 -----------------------
 #バザーなどという場所は
 #フォルトゥナ神の威光に
 #そぐわないからな
-Bazaar is no place for...
-...the majesty of Fortuna's god.
-...to be found.
+A bazaar is no place
+for the glory of the goddess
+Fortuna to be found.
 -----------------------
 #神団兵Ｃ
-God Squad Soldier C
+Order of Atamoni Soldier C
 -----------------------
 #この区画はまるごと再開発する事に決まった
 #従って、関係者以外を通すわけには
 #いかんのだ
-It's been decided that this entire district will undergo redevelopment.
-Therefore, we can't just let anyone in,
-no matter who they are.
+This entire district
+has been slated for redevelopment.
+Unauthorized personnel are not permitted entry.
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -47,8 +47,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -60,7 +60,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We look forward to your next visit.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -82,12 +82,11 @@ notice
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{C2}{C0} but
-inventory is full already.
+Found {16}{25}{C2}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

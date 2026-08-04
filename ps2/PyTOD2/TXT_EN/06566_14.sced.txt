@@ -1,44 +1,44 @@
 #地上軍拠点
-Ground Forces Base
+Er'ther Base
 -----------------------
 #地上軍拠点
-Ground Forces Base
+Er'ther Base
 -----------------------
 #壊れかけの古い装備だ
 #こんな物でも使わざるを得ないのだろう
-It's old gear on the verge of breaking down.
-I suppose I have no choice but to make do with something like this.
+This old gear's falling apart.
+Guess we have to make do with whatever we can get.
 -----------------------
 #新米将校
-Rookie officer
+Rookie Officer
 -----------------------
 #なぜ天上軍などという組織が
 #生まれたのでしょうか？
-How did an organization like the Celestial Army come to be?
-What was the reason for its creation?
+Why did an organization like the Aeth'er Army come to exist?
+How did it ever come to this?
 -----------------------
 #ベテラン将校
-Veteran officer
+Veteran Officer
 -----------------------
 #クーデターよ
 #ダイクロフトの圧倒的な力を
 #欲したミクトランとその配下が
 #謀反を起こしたの
-It's a coup d'etat.
-The overwhelming power of the Dycroft family,
-which Miktlan and his subordinates desired,
-led them to rebel.
+It was a coup.
+Kronos and his followers coveted
+the overwhelming power of Dycroft,
+and they rebelled.
 -----------------------
 #ベテラン将校
-Veteran officer
+Veteran Officer
 -----------------------
 #この戦争は、ミクトランとその配下の
 #野心から発生した、くだらないものなのよ
-This war is nothing but a petty affair born from Mictlan's
-ambitions.
+This whole war is nothing but a pointless mess
+born from Kronos and his followers' ambition.
 -----------------------
 #新米将校
-Rookie officer
+Rookie Officer
 -----------------------
 #････先日、指揮官に任命されました
 #自分のような新米が部下を持つ事になるとは
@@ -48,91 +48,91 @@ I never thought a rookie like me
 would have subordinates.
 -----------------------
 #ベテラン将校
-Veteran officer
+Veteran Officer
 -----------------------
 #まあ、こういう状況だしね
 #なりふり構ってられないってのが本音よ
-Well, given the situation.
-Honestly, I don't have time to care about appearances.
+Well, that's the situation we're in.
+Honestly? We don't have the luxury of caring how it looks.
 -----------------------
 #ベテラン将校
-Veteran officer
+Veteran Officer
 -----------------------
 #でも、アンタの部下は悲惨よね
 #経験の無いヒヨッコに指揮されて死んだ日にゃ
 #浮かばれないわー
-But your subordinates are in a miserable state.
-If they're led to their deaths by an inexperienced rookie,
-They won't find peace.
+Still, your subordinates have it rough.
+If they die being led by some inexperienced chick,
+they'll never rest in peace.
 -----------------------
 #新米将校
-Rookie officer
+Rookie Officer
 -----------------------
 #プ、プレッシャーをかけないで下さい！
-P-Please don't put pressure on me!
+D-Don't put so much pressure on me!
 -----------------------
 #ベテラン将校
-Veteran officer
+Veteran Officer
 -----------------------
 #新米、アンタ、ダイクロフト突入作戦では
 #地上待機だってね
-You're a rookie, so in the Dycroft infiltration mission...
-I hear you'll be holding down the fort on the ground.
+You're a rookie, so for the Dycroft infiltration operation...
+you'll be on standby down here, I hear.
 -----------------------
 #新米将校
-Rookie officer
+Rookie Officer
 -----------------------
 #悔しいです
 #経験が無いばっかりに････
-I hate it.
-It's all because I lack experience...
+It's frustrating.
+All because I lack experience...
 -----------------------
 #ベテラン将校
-Veteran officer
+Veteran Officer
 -----------------------
 #まあ誰だって素人に命を預けたくはないやね
-Well, no one really wants to leave their life in the hands of an amateur.
+Well, nobody wants to leave their life in the hands of an amateur.
 -----------------------
 #ベテラン将校
 Veteran Officer
 -----------------------
 #アンタのかわりに頑張ってくるから
 #メシでも作って待っててよ
-I'll do my best in your place.
-Just make some food and wait for me.
+I'll go do my best in your place,
+so make some grub and wait for me.
 -----------------------
 #新米将校
-Rookie officer
+Rookie Officer
 -----------------------
 #イエス、マム！
 #御武運を！
 Yes, ma'am!
-Good luck in battle!
+May fortune favor you in battle!
 -----------------------
 #ベテラン将校
-Veteran officer
+Veteran Officer
 -----------------------
 #軍隊生活も悪くなかったわ
 #それも次の作戦でオシマイ
 #生きて帰ったら退役ね
-I wasn't bad at military life either.
-That'll wrap up our next operation too.
+Military life wasn't so bad.
+This next operation will be the end of it, too.
 If I make it back alive, I'm retiring.
 -----------------------
 #新米将校
-Rookie officer
+Rookie Officer
 -----------------------
 #イエス、マム！
 #必ず勝って戦争を終わらせましょう！
 Yes, ma'am!
-We'll definitely win and end this war!
+We'll win this and end the war, I swear it!
 -----------------------
 #いってらっしゃいませ
-Have a good day.
+Take care out there.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -142,11 +142,11 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
-Have a good night.
+Please rest well.
 -----------------------
 #おはようございます
 Good morning.
@@ -155,7 +155,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We hope to see you again.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -177,12 +177,11 @@ notice
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{C2}{C0} but
-inventory is full already.
+Found {16}{25}{C2}{C0}, but
+couldn't carry it--inventory full.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

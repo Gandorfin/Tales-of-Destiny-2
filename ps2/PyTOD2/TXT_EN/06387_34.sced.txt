@@ -7,7 +7,7 @@ Laboratory
 debug
 -----------------------
 #レンズイベント
-sw[3] : on
+Lens Event
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -24,8 +24,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -48,7 +48,7 @@ exit-party_togather( short spd )
 notice
 -----------------------
 #{16}{26}{C6}{C0}を手に入れました
-{16}{26}{C6}{C0}You obtained .
+Acquired {16}{26}{C6}{C0}.
 -----------------------
 notice
 -----------------------
@@ -59,12 +59,11 @@ notice
 -----------------------
 #{16}{26}{CE}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{26}{CE}{C0}There was , but
-I couldn't hold it because it was full.
+{16}{26}{CE}{C0}You found , but
+your inventory is full.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

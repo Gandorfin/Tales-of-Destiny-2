@@ -1,20 +1,20 @@
 #飛行竜
-Airship
+Flying Dragon
 -----------------------
 #飛行竜
-Airship
+Flying Dragon
 -----------------------
 notice
 -----------------------
 #宝箱はフェイクでした
-The treasure chest was fake.
+The chest was a fake.
 -----------------------
 #いってらっしゃいませ
 Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -24,8 +24,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -37,7 +37,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We hope to see you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -60,7 +60,7 @@ notice
 #{16}{25}{D2}{C0}がありましたが
 #いっぱいで持てませんでした
 {16}{25}{D2}{C0}There was , but
-I couldn't hold it because it was full.
+your inventory was full.
 -----------------------
 notice
 -----------------------
@@ -73,5 +73,5 @@ Time's up.
 noitce
 -----------------------
 #制御装置を破壊しました
-Destroyed the control device.
+Control device destroyed.
 -----------------------

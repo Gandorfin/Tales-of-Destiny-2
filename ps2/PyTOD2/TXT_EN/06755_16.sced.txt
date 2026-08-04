@@ -1,11 +1,11 @@
 #ねこにんの村・おじじの家
-Grandpa's House in Neko-nin Village
+Grandpa's House, Katz Village
 -----------------------
 #ねこにんの村
 Katz Village
 -----------------------
 #おじじの家
-My grandpa's house
+Grandpa's House
 -----------------------
 #おじじ
 Grandpa
@@ -13,114 +13,114 @@ Grandpa
 #よし！
 #まれに見るすばらしい落としっぷりだったニャ！
 Alright!
-That was an amazing catch you rarely see! Nyaa!
+That was a catch you rarely see! Meow!
 -----------------------
 #「一日一膳」
 #一日に一回はごはんを食べましょう
-One meal a day.
+"One Meal a Day"
 We should eat at least once a day.
 -----------------------
 #見事な盆栽だ
 A magnificent bonsai.
 -----------------------
 #戸棚です　何か隠せます
-It's a cabinet. You can hide things in it.
+It's a cabinet. You could hide something in it.
 -----------------------
 #おじじ
 Grandpa
 -----------------------
 #この歳になると、知り合いも少なくなってくるニャ
-At my age, I'm finding that I have fewer acquaintances.
+At my age, I've been losing touch with people, meow.
 -----------------------
 #おじじ
 Grandpa
 -----------------------
 #老人の一人暮らしに不自由はニャいが
 #たまには話し相手が欲しくなるニャァ････
-There's no hardship in an old man living alone,
-but sometimes you want someone to talk to.
+Living alone isn't hard for an old man, meow,
+but sometimes I wish I had someone to talk to...
 -----------------------
 #おじじ
 Grandpa
 -----------------------
 #この歳になると、知り合いも少なくなってくるニャ
-At my age, I'm starting to lose touch with people.
+At my age, I've been losing touch with people, meow.
 -----------------------
 #おじじ
 Grandpa
 -----------------------
 #老人の一人暮らしに不自由はニャいが
 #たまには話し相手が欲しくなるニャァ････
-A cat doesn't find it inconvenient living alone.
-But sometimes you want someone to talk to.
+Living alone isn't hard for an old cat, meow,
+but sometimes I wish I had someone to talk to...
 -----------------------
 #おじじ
 Grandpa
 -----------------------
 #旅の子供がうちに住むことになったニャ
-A traveling kid's moving in with us.
+A traveling kid is going to be living with us, meow.
 -----------------------
 #おじじ
 Grandpa
 -----------------------
 #この下は掘りごたつになっているのニャ
-The area below is set up as a sunken hearth.
+There's a sunken hearth down below, meow.
 -----------------------
 #おじじ
 Grandpa
 -----------------------
 <item:00000C02>
 #とても良い名じゃニャ
-It's a very good name.
+It's a very good name, meow.
 -----------------------
 <item:00000C02>
 -----------------------
 #ニャにかご用あるかミャ？
-Do you need something?
+Did you need something, meow?
 -----------------------
 SELECT
 -----------------------
 #　ある　
 #　ない　
-There is.
-There isn't.
+Yes
+No
 -----------------------
 <item:00000C02>
 -----------------------
 #ご用の時は呼んでなのミャ
-Just call me if you need anything.
+Just call me if you need anything, meow.
 -----------------------
 <item:00000C02>
 -----------------------
 #わちにもおうちが出来たのミャ
-We've got our own home now, meow.
+I've got a home of my own now, meow.
 -----------------------
 <item:00000C02>
 -----------------------
 #おじじは、わちを
 #「<item:00000C02>っこ」って呼ぶのミャ
 #ちょっと照れくさいミャ
-I'm gonna call you
-You're my little <item:00000C02>
-This is kinda embarrassing.
+Grandpa calls me
+his little <item:00000C02>, meow.
+It's a little embarrassing, meow.
 -----------------------
 <item:00000C02>
 -----------------------
 #これからはココで
 #「おじじ孝行」するミャ！
-Now on from here, I'll be staying right here.
-I'm going to show Grandpa some filial piety!
+From now on, I'll be right here.
+I'm gonna do my best to take care of Grandpa, meow!
 -----------------------
 <item:00000C02>
 -----------------------
 #お散歩なのミャ！
-I'm going for a stroll!
+I'm going for a stroll, meow!
 -----------------------
 #おじじ
 Grandpa
 -----------------------
 #こりゃ！
-Well then!
+Hey now!
 -----------------------
 #おじじ
 Grandpa
@@ -128,29 +128,29 @@ Grandpa
 #ここは土足厳禁じゃニャ！
 #もしどうしても土足で我が家に
 #足を踏み入れたいというニャラバ････
-No shoes allowed in here!
-If you absolutely insist on bringing your shoes inside my home,
-then so be it...
+No shoes beyond this point, meow!
+If you absolutely insist on walking into my home
+with your shoes on, then...
 -----------------------
 #おじじ
 Grandpa
 -----------------------
 #そこの「足ふきガリガリマット」で
 #足の雪を落としてから入るのニャ！
-On that 'foot-wiping scratchy mat'
-Shake off the snow from your feet before coming in, nyaa!
+Use that foot-wiping scratchy mat over there
+to clean the snow off your feet before you come in, meow!
 -----------------------
 NOTICE
 -----------------------
 #入りますか？
-Do you want to enter?
+Would you like to enter?
 -----------------------
 SELECT
 -----------------------
 #　入ります　
 #　入りません　
-I'll go in.
-I won't go in.
+Enter
+Don't enter
 -----------------------
 #おじじ
 Grandpa
@@ -158,14 +158,14 @@ Grandpa
 #よし！
 #まれに見るすばらしい落としっぷりだったニャ！
 Alright!
-That was an amazing catch you rarely see!
+That was a catch you rarely see, meow!
 -----------------------
 <item:00000C02>
 -----------------------
 #お散歩楽しかったミャ
 #ご用の時は呼んでなのミャ
-I had such a nice walk.
-You can call on me whenever you need anything.
+That was a nice walk, meow.
+Just call me if you need anything, meow.
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -182,8 +182,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -195,7 +195,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We hope to see you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -206,7 +206,7 @@ exit-party_togather( short spd )
 notice
 -----------------------
 #{16}{25}{D6}{C0}を手に入れました
-{16}{25}{D6}{C0}You obtained .
+Acquired {16}{25}{D6}{C0}.
 -----------------------
 notice
 -----------------------
@@ -217,12 +217,11 @@ notice
 -----------------------
 #{16}{25}{DE}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{25}{DE}{C0}There was , but
-I couldn't carry it because it was full.
+{16}{25}{DE}{C0}You found , but
+your inventory was full, so you couldn't take it.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

@@ -1,29 +1,29 @@
 #カタコンベ
-Catacomb
+Catacombs
 -----------------------
 #カタコンベ
-Catacomb
+Catacombs
 -----------------------
 NOTICE
 -----------------------
 #ソーサラーリングで
 #クモの巣を焼き払いました
-With the Sorcerer Ring,
-we burned away the spider webs.
+Used the Sorcerer's Ring to
+burn away the cobwebs.
 -----------------------
 NOTICE
 -----------------------
 #クモの巣が行く手を塞いでいます
 #手で取り除くのは不可能そうです
-The spider web is blocking your path.
-It doesn't look possible to remove it by hand.
+Cobwebs block the way ahead.
+They can't be removed by hand.
 -----------------------
 #いってらっしゃいませ
-Have a good day.
+Please come again.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald per night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -33,8 +33,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -46,7 +46,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We look forward to your next visit.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -68,12 +68,11 @@ notice
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{C2}{C0} but
-inventory is full already.
+Found {16}{25}{C2}{C0}, but
+couldn't carry any more.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

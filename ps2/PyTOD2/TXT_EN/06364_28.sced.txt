@@ -1,199 +1,200 @@
 #宿屋のおやじ
-The innkeeper
+Innkeeper
 -----------------------
 #アイグレッテ・宿屋
-Aigrette Inn
+Aigrette - Inn
 -----------------------
 #アイグレッテ
-Igret
+Aigrette
 -----------------------
 #宿屋
 Inn
 -----------------------
 #男性
-Guy
+Man
 -----------------------
 #イテテ････
 #アイテテテテテテ････
 #は、ハラがいてえっ！
-Ouch...
-It hurts...!
-My stomach's killing me!
+Ow...
+Owowowowow...
+M-My stomach hurts!
 -----------------------
 #男性
-Guy
+Man
 -----------------------
 #イテテテッ････
 #さっき食べたチーズ････
 #それともリンゴが原因か？
 Ow ow ow...
-That cheese I just ate...
-Or is it the apple that's the culprit?
+That cheese I ate earlier...
+Or maybe the apple's to blame?
 -----------------------
 #おばあさん
-Grandma
+Old Woman
 -----------------------
 #街は参拝者でおおにぎわいじゃよ････
 #参拝の日まで
 #少し、ここでのんびりしようかの
-The town is bustling with pilgrims...
-Until the day of pilgrimage.
-Why don't we relax here for a bit?
+The town's bustling with pilgrims...
+Until the day of the pilgrimage,
+let's relax here a while, shall we?
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #もうすぐ私、ママになるの････
 #安産をお願いするために神殿に来たのよ
-I'm going to be a mom soon...
-I came to the temple to pray for an easy delivery.
+I'm going to be a mother soon...
+I came to the temple to pray for a safe delivery.
 -----------------------
 #いらっしゃい、旅のお方！
 #泊りかい？
 #二人でいいんだね？
 Welcome, traveler!
-Are you looking to stay the night?
-Two will do just fine?
+Looking for a room?
+Just the two of you, right?
 -----------------------
 #いやぁ、お客さんたちみたいな
 #神殿への参拝客が増えたおかげで
 #うちも大もうけだよ
-Well, just like our customers,
-thanks to the increase in pilgrims visiting the temple,
-we're making a huge profit too.
+Well, thanks to all the pilgrims
+heading to the temple, folks like you
+have really helped my business boom.
 -----------------------
 <Kyle>
 -----------------------
 #あ、いや、オレたちは････
-Ah, no, we're...
+Ah, no, we were just...
 -----------------------
 #レンズを納めて祈るだけで
 #どんな願いもかなっちまう！
 #参拝したくなる気持ちも、わかるよ
-Just putting away the lens and praying...
-...makes any wish come true!
-I get why you'd want to go worship.
+You just offer up a Lens and pray,
+and any wish comes true!
+I get why everyone wants to go worship.
 -----------------------
 #男性
-Guy
+Man
 -----------------------
 #エルレインさまだ！
 #いまそこに、エルレインさまが
 #お見えになってるぞ！
-Lady Elraine!
-Right there, Lady Elraine is...
-...arriving!
+It's Lady Elrane!
+Right over there!
+Lady Elrane is showing herself to us!
 -----------------------
 #おばあさん
-Grandma
+Old Woman
 -----------------------
 #この歳になって
 #エルレインさまにお目にかかれるとは！
 #長生きして本当によかったぞい！
 At my age,
-To think I'd get to meet Lady Elraine!
+to think I'd live to see Lady Elrane!
 I'm truly glad I lived so long!
 -----------------------
 #男性
-Guy
+Man
 -----------------------
 #はるばるスノーフリアから
 #来たかいがあったってもんだ
 #いま行きますよ、エルレインさま！
-All the way from Snowfria...
-It was all worth it.
-I'm on my way right now, Lady Elraine!
+Coming all the way from Snowfria...
+it was worth every step.
+I'm coming right now, Lady Elrane!
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #元気な赤ちゃんが生まれますようにって
 #お願いしてこなきゃ
 #できれば、男の子がいいわね！
-I hope she gives birth to a healthy baby.
-I need to make sure I pray for that.
-If possible, I'd prefer a boy!
+I need to go pray that
+my baby will be born healthy.
+A boy would be nice, if I had my pick!
 -----------------------
 #男性
-Guy
+Man
 -----------------------
 #聖女の不思議な力とやら
 #一度、目の前で見てみたいものだ
 That mysterious power of the Saintess...
-I'd love to see it firsthand at least once.
+I'd love to see it with my own eyes at least once.
 -----------------------
 #おお、こうしちゃおれん！
 #部屋には後で案内するから
 #ちょいと、待っててくれよぉ！
-Oh, I can't let this slide!
-I'll show you to your room later.
-Hey, wait up for me!
+Oh, I can't just sit here!
+I'll show you to your room later,
+so wait just a bit for me, would ya?!
 -----------------------
 <Kyle>
 -----------------------
 #な、なに？
 #なにか始まるの!?
-W-what?
-Is something starting!?
+Wh-What?
+Is something happening!?
 -----------------------
 <Loni>
 -----------------------
 #エルレインが来てるんだよ
 #････めずらしいな、外に出るなんてよ
-Elle is here.
-...How unusual. You're actually going out.
+Elrane's here, that's what.
+...Pretty rare for her to show herself outside.
 -----------------------
 <Kyle>
 -----------------------
 #エルレイン？　誰それ？
-Elle? Who's that?
+Elrane? Who's that?
 -----------------------
 <Loni>
 -----------------------
 #今のアタモニ神団の長だよ
 #奇跡を起こす力を持っていて
 #「輝きの聖女」なんて呼ばれてる
-She's the current leader of the Atamoni God Clan.
-Possessing the power to perform miracles,
-she is known as the 'Saintess of Radiance.'
+She's the current head of the Order of Atamoni.
+They say she can work miracles,
+so they call her the 'Saintess of Radiance.'
 -----------------------
 <Loni>
 -----------------------
 #みんなの目の前で奇跡を起こして
 #信者獲得に、ひと役もふた役もかってる
-Pulling off miracles right in front of everyone's eyes
-Playing a major role in gaining followers
+She performs miracles right in front of everyone,
+pulling more than her weight when it comes to
+recruiting believers.
 -----------------------
 <Loni>
 -----------------------
 #････だが、俺はどうにも気に入らねえ
 #あいつが現れてから、アタモニ神団は
 #おかしくなっちまって････
-......But I just can't stand it.
-Ever since he showed up, the Atamoni God Clan has been
-acting all weird...
+...But I just can't stand her.
+Ever since she showed up, the Order of Atamoni's
+been going off the rails...
 -----------------------
 <Kyle>
 -----------------------
 #奇跡!?　聖女!?　ホントに!?
 #すごい、すごいじゃん！
-A miracle!? A saintess!? Is it really true!?
-Amazing, amazing!
+A miracle!? A saintess!? For real!?
+That's amazing, totally amazing!
 -----------------------
 <Kyle>
 -----------------------
 #ねぇ、頼めばサインとかくれるの!?
 #やっぱ難しいのかな････
 #握手ぐらいなら、だいじょうぶ!?
-Hey, if I ask nicely, will you give me an autograph!?
-Guess it is pretty tough, huh...
-At least a handshake should be fine, right!?
+Hey, do you think she'd give me an autograph if I asked!?
+...No, that's probably too much, huh.
+What about a handshake, that should be okay, right!?
 -----------------------
 <Kyle>
 -----------------------
 #あぁ、こうしちゃいられない！
 #オレたちも早く行こうぜ、<Loni>！
-Ah, I can't just stand here!
+Agh, I can't just stand here!
 Let's get moving too, <Loni>!
 -----------------------
 <Loni>
@@ -201,282 +202,281 @@ Let's get moving too, <Loni>!
 #････はぁ
 #こいつにマジな話をした
 #俺がバカだった････
-Sigh...
-I gave him the straight talk.
-I was such an idiot...
+...Sigh.
+I actually tried to have a serious talk with this guy.
+I'm such an idiot...
 -----------------------
 <Kyle>
 -----------------------
 #もう、なにブツブツ言ってるのさ！
 #早く早く！
-Come on, what are you mumbling about!
-Hurry up! Hurry up!
+Come on, quit your grumbling!
+Hurry up, hurry up!
 -----------------------
 #おう、さっきはすまなかったな
 #今から部屋に案内するからよ
-You're right, sorry about earlier.
+Hey, sorry about earlier.
 I'll show you to your room now.
 -----------------------
 #ところで、泊まりは二人でいいのか？
 #連れの子は、どうするんだい？
-What about staying over? Is it okay for just the two of us?
-And what are we going to do about your companion?
+By the way, it's just the two of you staying?
+What about the girl with you?
 -----------------------
 <Loni>
 -----------------------
 #連れの子って････だれのことだ？
-Who are you talking about when you say 'the kid who came along'?
+The girl with us...? Who do you mean?
 -----------------------
 #だから、エルレインさまと
 #同じペンダントした子だよ
 #あんたたちの知り合いの
-So, Lady Elleyn...
-is wearing the same pendant.
-are your acquaintances.
+You know, the girl wearing the same pendant
+as Lady Elrane.
+A friend of yours, right?
 -----------------------
 #かわいい子だよねぇ
 #で、どっちの彼女なんだい？
-She's cute, isn't she?
-So, which one is your girlfriend?
+She's a cutie, isn't she?
+So, which one of you is she with?
 -----------------------
 <Kyle>
 -----------------------
 #かわいい子って････
 #おじさん、会ったことあるの!?
-Cute kids...
-Have you met that old man!?
+A cute girl...?
+Mister, you've seen her!?
 -----------------------
 #さっき、買い出しの途中で見かけたんだ
 #あのペンダント、変わった形だから
 #覚えてたんだよ
-I saw it earlier while I was out shopping.
-That pendant has such an unusual shape,
-so I remembered it.
+I spotted her earlier while I was out shopping.
+That pendant of hers has such an unusual shape,
+it really stuck with me.
 -----------------------
 <Kyle>
 -----------------------
 #ね、ねぇ、その子
 #どこに行ったか、わかる!?
-Hey, hey, that girl.
-Do you know where she went!?
+H-Hey, that girl...
+Do you know where she went?!
 -----------------------
 #ストレイライズ大神殿に向かってたぜ
 #なんだい
 #待ち合わせしてないのかい？
-We're heading to the Stray Rize Grand Temple.
-What's up?
-Didn't we agree on a meeting spot?
+She was headed for the Straylize Grand Temple.
+What's the matter?
+Didn't you arrange to meet up?
 -----------------------
 <Loni>
 -----------------------
 #待て待て！
 #おまえ、どうするつもりだ？
-Hold on!
-What are you planning to do?
+Hold on, hold on!
+What exactly are you planning to do?
 -----------------------
 <Kyle>
 -----------------------
 #どうするって
 #追いかけるに決まってるじゃないか！
-What else would I do?
-Of course I'm going after them!
+What do you mean, what am I gonna do?
+I'm going after her, obviously!
 -----------------------
 <Kyle>
 -----------------------
 #ぼけっとしてると
 #あの子、またどっかにいっちゃうよ！
 #さ、早く！
-If you just zone out,
-that girl's going to wander off somewhere again!
-Hurry up!
+If you just stand there spacing out,
+she's gonna disappear on us again!
+Come on, hurry up!
 -----------------------
 <Loni>
 -----------------------
 #お、おい！
-H-Hey!
+H-Hey, wait!
 -----------------------
 #男性
-Guy
+Man
 -----------------------
 #エルレインさまの光をあびたら
 #ハラのいたみが
 #すっかりとれたんだ
-After being bathed in Elrein's light
-My stomach ache
-has completely gone away
+After I basked in Lady Elrane's light,
+my stomach pain
+completely went away.
 -----------------------
 #男性
-Guy
+Man
 -----------------------
 #お礼の意味もこめて
 #これからも、どんどん
 #神団にレンズを寄進するつもりさ
-To show my gratitude as well,
-We'll keep pushing forward from here on out.
-I plan to donate lenses to the God Squad.
+To show my gratitude,
+I plan to keep donating
+more and more Lens to the Order of Atamoni.
 -----------------------
 #男性
-Guy
+Man
 -----------------------
 #これからも、どんどん
 #神団にレンズを寄進するつもりさ
-From now on,
-I plan to donate lenses to the Divine Order.
+I plan to keep donating
+more and more Lens to the Order of Atamoni.
 -----------------------
 #男性
-Guy
+Man
 -----------------------
 #平和な世の中といっても
 #いつ、また十八年前のような
 #悲劇がおとずれないともかぎらないだろ？
-It may seem like we're living in peaceful times,
-But you can't say for sure that
-a tragedy won't strike again just like it did eighteen years ago.
+Peaceful as things seem,
+there's no guarantee we won't see
+another tragedy like the one eighteen years ago.
 -----------------------
 #男性
-Guy
+Man
 -----------------------
 #そうならないように、神団に
 #レンズを納めて
 #エルレインさまの奇跡に
 #おすがりするのさ
-To make sure that doesn't happen, to the God Army
-I'll deliver the Lens
-To Elrain-sama's miracle
-I'll entrust myself.
+That's why I donate Lens to the Order of Atamoni,
+and place my faith in
+Lady Elrane's miracles.
 -----------------------
 <Harold>
 -----------------------
 #そのレンズが命取り････
 #「みずからの尾をかむトカゲ」とは
 #まさにこのことね
-That lens will be our undoing...
-The 'snake eating its own tail' is
-Exactly that.
+That Lens will be their undoing...
+A serpent devouring its own tail...
+Truly, nothing else fits.
 -----------------------
 #男性
-Guy
+Man
 -----------------------
 #神団にレンズを納めて
 #エルレインさまの奇跡に
 #おすがりするのさ
-We'll hand over the lenses to the God Squad.
-To Elrain-sama's miracle,
-I shall entrust myself.
+I donate Lens to the Order of Atamoni,
+and place my faith in
+Lady Elrane's miracles.
 -----------------------
 <Reala>
 -----------------------
 #人々の願いがこめられたレンズを
 #あんなことに使うなんて
 #ぜったい、ゆるせないわ････
-The lens imbued with the hopes of the people,
-To use it for something like that...
-I absolutely won't forgive you...!
+To think they'd use Lens filled with people's wishes
+for something like that...
+I can never forgive them...
 -----------------------
 #男性
-Guy
+Man
 -----------------------
 #イテテ････
 #アイテテテテテテ････
 #は、ハラがいてえっ！
-Ouch...
-It hurts so much...
-My stomach's killing me!
+Ow...
+Owwwowowow...
+M-My stomach's killing me!
 -----------------------
 #男性
-Guy
+Man
 -----------------------
 #アイグレッテは
 #食べものがウマイから
 #ついつい食べすぎてしまったよ
-Igret is
-because the food was so good,
-I ended up eating too much.
+The food in Aigrette
+is so good, I just
+couldn't help myself.
 -----------------------
 <Loni>
 -----------------------
 #ハハハッ
 #おまえも気をつけろよ
 Hahaha!
-You should watch your back too.
+You'd better watch yourself too.
 -----------------------
 #男性
-Guy
+Man
 -----------------------
 #イテテッ････
 #ストレイライズ神殿で
 #クスリもらってこなきゃ
-It hurts...
-At the Straighrise Temple,
-I need to go get some medicine.
+Owww...
+I gotta go get some medicine
+at Straylize Temple.
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #ふぅふぅ････
 #おなかが大きくなってくると
 #大神殿までのお参りはつらいわ
-Phew... phew...
-As my belly starts to grow,
-The pilgrimage to the Great Shrine is getting tough.
+Whew... whew...
+As my belly gets bigger,
+making the pilgrimage to the Grand Temple gets harder.
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #でも、生まれてくる子どものために
 #がんばらなくっちゃね
-But, for the sake of the child being born
-I've got to do my best
+But I've gotta keep at it
+for the baby on the way.
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #ふぅふぅ････
 #あんたたちも度胸あるわね
 #エルレインさまに食ってかかるなんて
-Huff... huff...
-You've got some nerve.
-To challenge Lady Elraine.
+Whew... whew...
+You've got some nerve,
+standing up to Lady Elrane like that.
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #もし、男の子が生まれたら
 #それぐらいワンパクに
 #育ってほしいものだわ
-If we have a boy,
-I want him to grow up just as mischievous as that.
-That's what I wish for.
+If I have a boy,
+I hope he grows up to be
+just as wild and spirited as that.
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #ふぅふぅ････
 #子どもが生まれたら、エルレインさまに
 #名付け親になっていただきたいわ
-Huff... huff...
-If we have a child, I want Her Lady Elrein to
-be their godparent.
+Whew... whew...
+If we have a child, I'd love for Lady Elrane
+to be the one to name them.
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #ふぅふぅ････
 #おなかが大きくなってくると
 #大神殿までのお参りはつらいわ
-Phew... phew...
-As my belly starts to grow,
-The pilgrimage to the Grand Shrine is getting tough.
+Whew... whew...
+As my belly gets bigger,
+making the pilgrimage to the Grand Temple gets harder.
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #ふぅふぅ････
 #このおなかで、神殿にお参りってのも
 #なかなかタイヘンなのよ
-Huff... huff...
-Offering prayers to the temple from within this belly is also...
-Quite a tough ordeal.
+Whew... whew...
+Praying at the temple with this belly
+is no easy task, let me tell you.
 -----------------------
 #女性
 Woman
@@ -484,36 +484,36 @@ Woman
 #でも、おながか大きくなってくると
 #ああ、子供が生まれるんだなってのが
 #実感できるわ
-But as you grow older,
-I mean, it's like
-you can really feel it.
+But once your belly starts to grow,
+you really start to feel like...
+oh, a child's really coming.
 -----------------------
 #時計の台座に記念碑がはめこまれている
 # 『アイグレッテの発展に
 # 　　　　　旧アルメイダ村 村長寄贈』
-The monument is set into the clock's pedestal.
-For the development of Aigrette,
-Donated by the Village Chief of Old Almeida Village.
+A commemorative plaque is set into the clock pedestal.
+'For the prosperity of Aigrette...'
+...Donated by the Village Chief of Old Armeida Village.
 -----------------------
 #ここより先は
 #宿の関係者しか入れないようだ
 Beyond this point,
-it seems only inn staff can enter.
+only inn staff may enter.
 -----------------------
 #-ダミーメニュー-
 - Dummy Menu -
 -----------------------
 #オリエンタルライス
-Oriental rice
+Oriental Rice
 -----------------------
 #いつものやつ
-The usual stuff
+The Usual
 -----------------------
 #焼肉定食
 Yakiniku Set Meal
 -----------------------
 #肉まん
-Steamed buns
+Pork Bun
 -----------------------
 #うまティー
 Uma Tea
@@ -522,13 +522,13 @@ Uma Tea
 Grilled Fish Set Meal
 -----------------------
 #しょうが焼き定食
-Shogayaki Set Meal
+Ginger Pork Set Meal
 -----------------------
 #おろし焼肉定食
-Oroshi Yakiniku Set Meal
+Grated-Daikon Yakiniku Set Meal
 -----------------------
 #今日のオススメ
-Today's Recommendation
+Today's Special
 -----------------------
 #マーボーカレー
 Mapo Curry
@@ -540,48 +540,48 @@ Life Bottle
 Head Chef
 -----------------------
 #ウェイター
-Wayer
+Waiter
 -----------------------
 #ウェイトレス
-Weiress
+Waitress
 -----------------------
 #キミキミ、ちょっと{18}{45}{00}{C0}やらない？
-You, you, wanna give it a try, {18}{45}{00}{C0}?
+Hey, you! Wanna try {18}{45}{00}{C0}?
 -----------------------
 select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #説明は必要かい？
-Do I need to explain?
+Need me to explain?
 -----------------------
 select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #客の注文する料理を届けてほしい
-I'd like you to deliver the dishes ordered by our customers.
+I need you to deliver the dishes our customers order.
 -----------------------
 #料理は作りためているから
 #私に言ってくれればすぐに渡せるよ
-I've been cooking up a storm in advance.
-Just let me know, and I'll hand it over right away.
+I've got the food ready to go.
+Just ask and I'll hand it right over.
 -----------------------
 #あまり客を待たせると
 #怒って帰ってしまうから
 #手早く頼む
-If you keep customers waiting too long,
-they'll get angry and leave.
-So hurry up and take their orders.
+Keep the customers waiting too long
+and they'll get mad and walk out.
+Make it quick.
 -----------------------
 #さぁ････客が来はじめたぞ
-Well, here come the customers.
+All right... here they come.
 -----------------------
 <03:00000000><size:00000200>level {14}{24}{70}{C0}
 -----------------------
@@ -591,8 +591,8 @@ Well, here come the customers.
 -----------------------
 #遅い！もう待てん！
 #帰らせてもらう！
-You're too slow! I've had enough!
-I'm heading back!
+Too slow! I can't wait any longer!
+I'm outta here!
 -----------------------
 clear
 -----------------------
@@ -604,27 +604,27 @@ time over
 -----------------------
 #ありがとう
 #キミのおかげでたんまりともうけたよ
-Thank you
-I made a fortune thanks to you
+Thanks!
+Thanks to you, I made a killing!
 -----------------------
 #キミの取り分だ、受け取ってくれ
-This is your share. Take it.
+Here's your cut. Take it.
 -----------------------
 notice
 -----------------------
 #<0B:00000001>{14}{34}{88}{C0}ガルドを手に入れました<0B:00000000>
-<0B:00000001>{14}{34}{88}{C0}I've acquired  gald.<0B:00000000>
+<0B:00000001>{14}{34}{88}{C0}Acquired <0B:00000000> gald.
 -----------------------
 #また頼むよ
-I'll count on you again.
+I'll be counting on you again.
 -----------------------
 #できるできる言うからまかせてみれば
 #このザマだ！
-I said I can do it! Just leave it to me!
-Look at this mess!
+You said you could handle it, so I gave you a shot...
+And this is the result?!
 -----------------------
 #<size:00000180>帰れ！
-<size:00000180>Go back!
+<size:00000180>Get out!
 -----------------------
 #お、おい！キミ？！
 H-Hey! You?!
@@ -632,10 +632,10 @@ H-Hey! You?!
 
 -----------------------
 #<03:00000000><0B:00000001>あと<color:00000006>{14}{24}{84}{24}{7E}{CB}{C0}<color:00000007>回/給料{12}{25}{44}{C0}{14}{34}{8C}{C0}<color:00000007>ガルド
-<03:00000000><0B:00000001>Next <color:00000006>{14}{24}{84}{24}{7E}{CB}{C0}<color:00000007> times / Salary {12}{25}{44}{C0}{14}{34}{8C}{C0}<color:00000007> Gald
+<03:00000000><0B:00000001>Remaining: <color:00000006>{14}{24}{84}{24}{7E}{CB}{C0}<color:00000007> / Pay: {12}{25}{44}{C0}{14}{34}{8C}{C0}<color:00000007> Gald
 -----------------------
 #<03:00000000><0B:00000001>あと<color:00000006>{14}{24}{84}{24}{7E}{CB}{C0}<color:00000007>回/給料{12}{25}{44}{C0}{14}{34}{8C}{C0}<color:00000007>ガルド
-<03:00000000><0B:00000001>After that, <color:00000006>{14}{24}{84}{24}{7E}{CB}{C0}<color:00000007> times / Salary {12}{25}{44}{C0}{14}{34}{8C}{C0}<color:00000007> Gald
+<03:00000000><0B:00000001>Remaining: <color:00000006>{14}{24}{84}{24}{7E}{CB}{C0}<color:00000007> / Pay: {12}{25}{44}{C0}{14}{34}{8C}{C0}<color:00000007> Gald
 -----------------------
 #１
 1
@@ -667,7 +667,7 @@ H-Hey! You?!
 <03:00000000>Next
 -----------------------
 #{18}{44}{98}{14}{CE}{25}{7C}{C6}{C6}{C0}だよ、早くしてね
-{18}{44}{98}{14}{CE}{25}{7C}{C6}{C6}{C0}It's , so hurry up.
+{18}{44}{98}{14}{CE}{25}{7C}{C6}{C6}{C0}, so hurry it up.
 -----------------------
 #食べてるときに話しかけないで！
 Don't talk to me while I'm eating!
@@ -676,15 +676,15 @@ notice
 -----------------------
 #{15}{24}{86}{C0}は
 #称号「{16}{A0}{75}{08}{24}{86}{CA}{81}{CB}{C0}」を得ました
-{15}{24}{86}{C0}has
-Gained the title "{16}{A0}{75}{08}{24}{86}{CA}{81}{CB}{C0}."
+{15}{24}{86}{C0} earned
+the title "{16}{A0}{75}{08}{24}{86}{CA}{81}{CB}{C0}"!
 -----------------------
 #いってらっしゃいませ
 Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+That'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -694,8 +694,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -707,7 +707,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We hope to see you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -718,7 +718,7 @@ exit-party_togather( short spd )
 notice
 -----------------------
 #{16}{26}{D2}{C0}を手に入れました
-{16}{26}{D2}{C0}You obtained .
+Acquired {16}{26}{D2}{C0}.
 -----------------------
 notice
 -----------------------
@@ -729,8 +729,8 @@ notice
 -----------------------
 #{16}{26}{DA}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{26}{DA}{C0}There was , but
-I couldn't hold it because it was full.
+Found {16}{26}{DA}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------

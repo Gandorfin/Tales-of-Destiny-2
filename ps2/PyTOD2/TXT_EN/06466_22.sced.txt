@@ -2,7 +2,7 @@
 Heidelberg Castle Lens Storage
 -----------------------
 #ハイデルベルグ城
-Heidelburg Castle
+Heidelberg Castle
 -----------------------
 #ハイデルベルグ城・レンズ保管庫
 Heidelberg Castle Lens Storage
@@ -10,21 +10,20 @@ Heidelberg Castle Lens Storage
 <Kyle>
 -----------------------
 #うわっ、すげえ････！
-Oh man, that's insane...!
+Whoa, no way...!
 -----------------------
 <Loni>
 -----------------------
 #ファンダリア中から集めると
 #さすがに、これぐらいの数になるか
-If you gather them all from Fandaria,
-I suppose that's about how many there'd be.
+If you gather them from all across Phandaria,
+I guess this is how many you'd end up with.
 -----------------------
 <Loni>
 -----------------------
 #こりゃあアタモニの連中が
 #目をつけたくなるのもわかるぜ
-It makes sense why these guys from Adamon would
-catch your eye.
+No wonder the Order of Atamoni set their sights on this.
 -----------------------
 <Kyle>
 -----------------------
@@ -35,15 +34,14 @@ No way...!
 -----------------------
 #レンズなんて
 #影も形もねえじゃねえか！
-That lens...
-There's no sign of it!
+There's not a single Lens left!
 -----------------------
 <Judas>
 -----------------------
 #ウッドロウへの襲撃は、おとり
 #連中の本当の目的は、レンズだったんだ
-The attack on Woodrow was a decoy.
-So their real goal was the lens.
+The attack on Garr was a decoy.
+Their real goal was the Lens all along.
 -----------------------
 <Kyle>
 -----------------------
@@ -51,74 +49,74 @@ So their real goal was the lens.
 #あれだけのレンズを
 #いったいどうやって････
 B-but...
-With that many lenses,
-How on earth...?
+with that many Lens,
+how on earth did they...?
 -----------------------
 <Reala>
 -----------------------
 #････エルレインの力なら
 #物質転送ぐらい、わけないわ
 #人間すら、未来に送れるんですもの
-With Elle's power,
-transferring matter is no big deal.
-We can even send humans into the future.
+...With Elrane's power,
+something like matter transference is trivial.
+She can even send humans to the future.
 -----------------------
 <Reala>
 -----------------------
 #でも････あんなに大量のレンズを
 #いったいなにに使うつもりなの!?
-But... all those lenses...
-What on earth are they planning to use them for!?
+But... what could they possibly need
+that many Lens for!?
 -----------------------
 <Judas>
 -----------------------
 <Nanaly>
 #フォルトゥナ神が降臨したのは
 #十年前だと言っていたな
-Fortuna descended upon us
-They said it was ten years ago.
+Fortuna's descent
+was said to be ten years ago, wasn't it.
 -----------------------
 <Nanaly>
 -----------------------
 #あ、あぁ、そのはずだけど････
 #それが、どうかしたのかい？
-Ah, well, that's right...
-Is something wrong?
+Y-yeah, that's right...
+Did something happen?
 -----------------------
 <Reala>
 -----------------------
 #････もしかして
-Wait... could it be?
+...Could it be?
 -----------------------
 #衛兵
 Guard
 -----------------------
 #<Kyle>さん
 #どうかされまし････
-Mr. <Kyle>!
-What's wrong?...
+<Kyle>!
+Is something wrong...?
 -----------------------
 #衛兵
 Guard
 -----------------------
 #そ、そんな！
 #レンズがない!!
-W-wait!
-No lens!!
+Th-this can't be!
+The Lens are gone!!
 -----------------------
 #衛兵
 Guard
 -----------------------
 #急いで、全兵士に伝えろ！
 #城の中を、しらみつぶしに調べろと！
-Hurry! Inform all the soldiers!
-I said to search the castle from top to bottom!
+Hurry! Spread the word to all soldiers!
+Search every inch of the castle!
 -----------------------
 #衛兵
 Guard
 -----------------------
 #は、はいっ！
-Yes, sir!
+Y-yes, sir!
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -135,8 +133,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -170,7 +168,7 @@ notice
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{C2}{C0} but
+Found {16}{25}{C2}{C0}, but
 inventory is full already.
 -----------------------
 notice

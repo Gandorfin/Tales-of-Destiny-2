@@ -1,8 +1,8 @@
 #神のたまご・中層部
-God's Egg - Middle Layer
+Egg of God - Middle Layer
 -----------------------
 #神のたまご・中層部
-God's Egg - Middle Layer
+Egg of God - Middle Layer
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -19,8 +19,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -54,12 +54,11 @@ notice
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{C2}{C0} but
-inventory is full already.
+Found {16}{25}{C2}{C0}, but inventory is full already.
+You couldn't pick it up.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

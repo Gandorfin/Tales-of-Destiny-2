@@ -1,49 +1,49 @@
 #ねこにんの村・のこ栽培場
-Neko-nin Village's Noko Cultivation Area
+Katz Village: Noko Cultivation Area
 -----------------------
 #ねこにんの村
 Katz Village
 -----------------------
 #のこ栽培場
-Remaining Cultivation Area
+Noko Cultivation Area
 -----------------------
 #のこ
-remaining
+Noko
 -----------------------
 #の～
-Ooh~
+Nooo~
 -----------------------
 #のこ
-remaining
+Noko
 -----------------------
 #の！
-Of course!
+No!
 -----------------------
 #のこ
-remaining
+Noko
 -----------------------
 #の！
-It's here!
+No!
 -----------------------
 <item:00000C02>
 -----------------------
 #のこのこミャ～
-Here I come~
+Nokonoko, meow~
 -----------------------
 #きのこや
 Mushrooms.
 -----------------------
 #のこのきのこ食べるニャ？
-Do you eat mushrooms?
+Wanna eat noko-noko mushrooms, meow?
 -----------------------
 #ねこにん
-Neko-nin
+Katz
 -----------------------
 #食べるニャ
-Eat it, nya.
+Eat up, meow.
 -----------------------
 #いってらっしゃいませ
-Have a good day.
+Come again!
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
@@ -57,8 +57,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -70,7 +70,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We look forward to your next visit.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -92,7 +92,7 @@ notice
 -----------------------
 #{16}{25}{D6}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{D6}{C0} but
+Found {16}{25}{D6}{C0}, but
 inventory is full already.
 -----------------------
 notice
@@ -100,4 +100,3 @@ notice
 #何もありません
 There's nothing here.
 -----------------------
-

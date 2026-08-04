@@ -1,15 +1,15 @@
 #十八年前のダイクロフト
-Eighteen years ago at the Dycroft
+Dycroft, Eighteen Years Ago
 -----------------------
 #十八年前のダイクロフト
-Dycroft eighteen years ago
+Dycroft, Eighteen Years Ago
 -----------------------
 NOTICE
 -----------------------
 #エレベーターはまったく反応しません
 #どうやら壊れてしまったようです
 The elevator isn't responding at all.
-It looks like it's broken.
+It seems to be broken.
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -26,8 +26,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -39,7 +39,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We look forward to your next visit.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -61,12 +61,11 @@ notice
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{C2}{C0} but
-inventory is full already.
+Found {16}{25}{C2}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

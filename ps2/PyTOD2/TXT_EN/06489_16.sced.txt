@@ -8,20 +8,20 @@ Heat River
 -----------------------
 #岩陰にいれば
 #熱波を食らわずにすむんだ
-If you stay behind that rock,
-you can avoid taking damage from the heat waves.
+If we stay in the shade of these rocks,
+we can avoid the heat waves.
 -----------------------
 <Nanaly>
 -----------------------
 #この岩陰に隠れながら
 #先へ進むんだよ
-While hiding behind these rocks,
-we'll move forward.
+We'll move forward while hiding
+in the shade of these rocks.
 -----------------------
 NOTICE
 -----------------------
 #この岩の陰にいれば、熱波を防げそうです
-If we stay behind these rocks, we should be able to block out the heat.
+If we stay behind these rocks, we should be able to block the heat waves.
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -38,8 +38,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -74,11 +74,10 @@ notice
 #{16}{26}{4A}{C0}がありましたが
 #いっぱいで持てませんでした
 {16}{26}{4A}{C0}There was , but
-I couldn't carry it because it was full.
+I couldn't carry it because my inventory was full.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

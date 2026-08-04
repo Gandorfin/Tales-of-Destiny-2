@@ -1,13 +1,13 @@
 #オベロン社廃坑
-O'Brien Mine Abandonment
+Oberon Corporation Abandoned Mine
 -----------------------
 #オベロン社廃坑
-Abandoned Oberton Mine
+Oberon Corporation Abandoned Mine
 -----------------------
 <Kyle>
 -----------------------
 #奥の明かりが気になるな････
-I'm curious about that light in the back.
+That light up ahead bothers me...
 -----------------------
 <Kyle>
 -----------------------
@@ -19,126 +19,119 @@ There's treasure ahead...
 #これが････宝なの？
 #いったい、なんなんだろ？
 Is this... treasure?
-What on earth is it?
+What in the world is it?
 -----------------------
 <Judas>
 -----------------------
 #この鉱山だけで採掘できる
 #特殊な鉱石だ
 #状態を安定させるため、それに入ってる
-From just this mine alone, we can extract
-a special ore.
-to stabilize its condition, it contains
+It's a special ore that can only be mined from this mine.
+To stabilize its condition, it's stored in that.
 -----------------------
 <Kyle>
 -----------------------
 #特殊な鉱石？
 #それじゃ、ただの
 #石っころなの？
-What kind of special ore?
-In that case, it's just...
-a mere rock?
+A special ore?
+So then it's just...
+a rock?
 -----------------------
 <Judas>
 -----------------------
 #････おまえたち
 #ベルクラントは知っているな
-I see you've heard of us.
-You know Belkranth.
+...You lot.
+You know of Belcrant, don't you?
 -----------------------
 <Loni>
 -----------------------
 #ああ、知ってるさ
 #天空都市ダイクロフトに
 #あったっていう、兵器のことだろ？
-I know it.
-in the sky city of Dycroft
-that weapon we heard about.
+Yeah, I know it.
+The weapon they say was in the aerial city of Dycroft, right?
 -----------------------
 <Loni>
 -----------------------
 #地殻にエネルギーをブチこんで
 #破壊するっていう、とんでもねえシロモノだ
-Pumping energy into the Earth's crust
-It's an absolutely insane thing that destroys everything
+A monstrous thing that pumps energy into the crust and destroys everything.
 -----------------------
 <Judas>
 -----------------------
 #その石は、ベルクラントに使われていた
 #レンズの力を増幅させる石だ
-The stone was used in Bercanland.
-It's a stone that amplifies the power of the lens.
+That stone was used in Belcrant.
+It's a stone that amplifies the power of Lens.
 -----------------------
 <Reala>
 -----------------------
 #え!?　それじゃあ
 #これさえあれば････
-Eh!? Then that means...
-If we have just this...
+What!? Then if we have this...
 -----------------------
 <Judas>
 -----------------------
 #そうだ、もう一度ベルクラントが作れる
 #街ひとつ軽く吹き飛ばせるほどの兵器が
 #また作れてしまうんだ
-That's right, we can create Belklot once again.
-A weapon capable of easily blowing away an entire town,
-can be built once more.
+That's right. Belcrant could be built again.
+A weapon capable of easily obliterating an entire town...
+could be created once more.
 -----------------------
 <Judas>
 -----------------------
 #････とはいえ、現実にはムリだがな
 #この石をどうやって使えばいいか
 #それが、だれにもわからんのだ
-Still, it's impossible in reality.
-How to use this stone?
-That's what no one knows.
+...That said, it's impossible in reality.
+No one knows how to actually use this stone.
 -----------------------
 <Judas>
 -----------------------
 #本来ならば、オベロン社が
 #解析をすすめるはずだったが････
 #なくなってしまったからな
-In theory, Oberon Corporation should have been
-proceeding with the analysis...
-but they've disappeared.
+In principle, the Oberon Corporation should have been proceeding
+with the analysis... but they've gone under, you see.
 -----------------------
 <Loni>
 -----------------------
 #うへ、お宝って
 #こんなぶっそうなもんかよ
-Ugh, treasure is...
-Really as flashy as this?
+Ugh, so this is what treasure looks like?
+Pretty grim stuff.
 -----------------------
 <Loni>
 -----------------------
 #まったく、オベロン社ってやつも
 #ロクなことしやがらねぇなぁ
-Seriously, that Oberon Corporation...
-They're up to no good again.
+Sheesh, that Oberon Corporation...
+They never do anything decent, do they?
 -----------------------
 <Reala>
 -----------------------
 #････ねぇ、あっち、明るくない？
-...Hey, isn't that side bright?
+...Hey, isn't it bright over there?
 -----------------------
 <Loni>
 -----------------------
 #たしかに････まだ、なにかあるのか？
-Hmm... Is there still something else?
+You're right... Is there still something else?
 -----------------------
 <Reala>
 -----------------------
 #キレイ････！
-Beautiful...
+It's beautiful...!
 -----------------------
 <Loni>
 -----------------------
 #岩の切れ目から
 #光が差しこんでいるのか
 #なるほど、どうりで明るいわけだ
-From a crack in the rock,
-light is shining through.
+Light's shining through a crack in the rock.
 I see. No wonder it's so bright.
 -----------------------
 <Judas>
@@ -150,8 +143,8 @@ This is...!
 -----------------------
 #････ふふふっ
 #ははははっ！
-...heh heh.
-Hahaha!
+...Heh heh heh.
+Ha ha ha ha!
 -----------------------
 <Kyle>
 -----------------------
@@ -161,14 +154,14 @@ Hahaha!
 -----------------------
 #････なんて皮肉な
 #こんなものが、あるとはな････
-What an irony.
-I never thought something like this would exist...
+...How ironic.
+I never imagined something like this existed...
 -----------------------
 <Loni>
 -----------------------
 #いったい、なんだってんだよ？
 #どれどれ････
-What in the world is going on?
+What the heck is it?
 Let's see here...
 -----------------------
 <Loni>
@@ -176,63 +169,63 @@ Let's see here...
 #「この鉱山にある鉱石を使えば
 #　レンズの力を大いに高めることが
 #　できるようになります」
-"If we use the ore found in this mine, "
-"we can greatly enhance "
-"the power of the lens."
+"By using the ore in this mine,
+it will become possible to greatly
+enhance the power of Lens."
 -----------------------
 #「そうすれば、生産力は増大し
 #　すべての人々が、豊かな暮らしを
 #　おくれるようになるでしょう」
-If we do that, productivity will increase,
-and everyone will be able to live
-a prosperous life.
+"If we do so, productivity will increase,
+and all people will be able to
+live prosperous lives."
 -----------------------
 #「鉱石は、ノイシュタットの
 #　貧富の格差をなくせる
 #　奇跡の石となるのです」
-"The ore will become
-a miracle stone that can
-eliminate the gap between rich and poor in Neuestadt."
+"The ore will become a miracle stone
+capable of eliminating the gap between
+rich and poor in Neuestadt."
 -----------------------
 #「この奇跡の石は
 #　光との化学反応によってのみ
 #　作られるもののようです」
-"This stone of miracles is"
-Only through a chemical reaction with light
-It seems to have been created.
+"This miracle stone appears to be
+created only through a chemical
+reaction with light."
 -----------------------
 #「偶然、光が差しこむよう
 #　岩がつらなっていて
 #　偶然、この場所に石があった････」
-"Like chance, light shines down..."
-The rocks are lined up,
-...and for some reason, there's a stone here.".
+"By chance, the rocks are arranged
+so that light shines through, and by chance,
+there was ore in this place..."
 -----------------------
 #「これはきっと、神様からの
 #　贈り物なのでしょう」
-"This has to be a gift from God.
-I'm sure of it."
+"Surely this must be
+a gift from God."
 -----------------------
 #「ですから、この場所を壊さぬよう
 #　大切に守っていってください」
-So, please make sure to protect this place without destroying it.
-We ask that you cherish and guard it well.
+"Therefore, please take care to protect
+this place without destroying it."
 -----------------------
 #「この場所を守ることが
 #　そのまま、ノイシュタットの人たちを
 #　守ることになるのですから」
-Protecting this place is
-With that, the people of Neuestadt
-you'll have to protect it.
+"For protecting this place is
+the same as protecting
+the people of Neuestadt."
 -----------------------
 <Kyle>
 -----------------------
 #「これを読む、未来の誰かへ
 #　オベロン社　ノイシュタット支部長
 #　イレーヌ＝レンブラントより」
-To whoever reads this in the future,
-Oberon Company Neuestadt Branch Manager
-Irene Rembrandt
+"To whoever reads this in the future,
+Oberon Corporation Neuestadt Branch Manager,
+Irene Rembrandt"
 -----------------------
 <Loni>
 -----------------------
@@ -240,67 +233,62 @@ Irene Rembrandt
 #確かに鉱石は、兵器だけじゃない
 #工場や船にも使えるもんな
 I see...
-It's true that ores aren't just used for weapons.
-They can also be put to use in factories and ships.
+It's true that ore isn't just for weapons.
+It can be used in factories and ships too.
 -----------------------
 <Loni>
 -----------------------
 #俺たちは、そのことに
 #頭がまわらなかった
 #これじゃ、兵器を作ったやつと同じだな
-We were...
-unable to process that.
-In that case, we're no different from the ones who built those weapons.
+We didn't consider that.
+In that case, we're no different from those who built those weapons.
 -----------------------
 <Judas>
 -----------------------
 #オベロン社も同じさ
 #そして････イレーヌもな････
-Oberon's the same way.
-And... so is Irenes...
+The Oberon Corporation was the same.
+And... so was Irene...
 -----------------------
 <Judas>
 -----------------------
 #彼女たちは道をあやまった
 #理想の実現を急ぐあまり
 #即効性を求めて、劇薬を選んだんだ
-They took the wrong path.
-In their rush to realize their ideals,
-They chose a drastic remedy for immediate results.
+They lost their way.
+In their haste to realize their ideals,
+they sought immediate results and chose a drastic cure.
 -----------------------
 <Loni>
 -----------------------
 #「神の眼」の騒乱の話か？
 #そうだな････こんな風に考えられる人が
 #いったい、なんで･･････
-You mean the disturbances surrounding the Eye of God?
-Well, someone who can think about it like that...
-What on earth...?
+You mean the disturbances surrounding the Eye of Atamoni?
+Yeah... someone who could think like this...
+why in the world would they...
 -----------------------
 <Reala>
 -----------------------
 #けれど････イレーヌさんの想いは
 #ウソじゃなかったと思う
-But... Irene's feelings...
-I think they were genuine.
+But... I don't think Irene's feelings were a lie.
 -----------------------
 <Reala>
 -----------------------
 #ノイシュタットに
 #住む人たちのことを考えて
 #鉱石を掘っていた
-I was digging up ore,
-thinking about the people
-in Neuestadt.
+She was mining ore, thinking of the people who live in Neuestadt.
 -----------------------
 <Reala>
 -----------------------
 #そして、この場所が荒らされ
 #鉱石が取れなくならないよう
 #メッセージを残してくれていた････
-And that this place was ravaged,
-so that no more ore could be mined.
-They left behind a message...
+And she left this message so that this place
+wouldn't be ravaged and the ore depleted...
 -----------------------
 <Reala>
 -----------------------
@@ -314,15 +302,14 @@ Just like... a treasure.
 #宝物････か
 #案外、こっちが
 #本当の宝かもしれないな
-A treasure... perhaps?
-It's quite possible that this...
-is the real treasure after all.
+A treasure, huh...
+Maybe this is actually the real treasure.
 -----------------------
 <Kyle>
 -----------------------
 #そうだね！
 #きっと、そうだよ！
-That's right!
+Yeah!
 I'm sure it is!
 -----------------------
 <Judas>
@@ -334,8 +321,8 @@ The real treasure...
 -----------------------
 #････ふっ
 #安っぽいセリフだな
-...heh.
-That's such a cheap line.
+...Heh.
+Such a cheap line.
 -----------------------
 <Loni>
 -----------------------
@@ -346,8 +333,8 @@ Hmph! Shut up...
 -----------------------
 #････だが、安っぽいものも
 #たまにはいい
-...But even cheap things...
-Are good once in a while.
+...But even cheap things
+are good once in a while.
 -----------------------
 <Kyle>
 -----------------------
@@ -359,73 +346,74 @@ Are good once in a while.
 #さて、本当の宝も
 #見られたことだし
 #街に戻るとしますか
-Well then, as for the real treasure,
-now that we've seen it,
-shall we head back to town?
+Well, we've seen the real treasure,
+so what do you say we head
+back to town?
 -----------------------
 <Kyle>
 -----------------------
 #うん！
-Yes!
+Yeah!
 -----------------------
 #「この鉱山にある鉱石を使えば
 #　レンズの力を大いに高めることが
 #　できるようになります」
-"If we use the ore found in this mine,"
-"we can greatly enhance the power of the lens."
-"That's how it works."
+"Using the ore from this mine,
+we can greatly increase
+the power of Lens."
 -----------------------
 #「そうすれば、生産力は増大し
 #　すべての人々が、豊かな暮らしを
 #　おくれるようになるでしょう」
-If we do that, productivity will increase,
-and everyone will be able to live
-a prosperous life.
+"If we do so, productivity will rise,
+and all people will be able to
+live prosperous lives."
 -----------------------
 #「鉱石は、ノイシュタットの
 #　貧富の格差をなくせる
 #　奇跡の石となるのです」
-"The ore will become
-a miracle stone that can
-eliminate the gap between rich and poor in Neuestadt."
+"This ore will become a miracle stone
+that can eliminate the gap between
+rich and poor in Neuestadt."
 -----------------------
 #「この奇跡の石は
 #　光との化学反応によってのみ
 #　作られるもののようです」
-"This miracle stone"
-"appears to be created solely through a chemical reaction with light."
-""
+"This miracle stone appears to be
+created only through a chemical
+reaction with light."
 -----------------------
 #「偶然、光が差しこむよう
 #　岩がつらなっていて
 #　偶然、この場所に石があった････」
-"Like chance, light filtering in..."
-With rocks lining up...
-...and stones just happened to be here by coincidence.".
+"By chance, the rocks are aligned
+so that light filters in.
+By chance, there was ore here..."
 -----------------------
 #「これはきっと、神様からの
 #　贈り物なのでしょう」
-This has to be...
-...a gift from God.
+"Surely this must be
+a gift from God."
 -----------------------
 #「ですから、この場所を壊さぬよう
 #　大切に守っていってください」
-So, please make sure to protect this place carefully without destroying it.
-We ask that you cherish and guard it well.
+"Therefore, please take care
+to protect this place
+and not destroy it."
 -----------------------
 #「この場所を守ることが
 #　そのまま、ノイシュタットの人たちを
 #　守ることになるのですから」
-"Protecting this place"
-is the same as protecting
+"For protecting this place is
+the same as protecting
 the people of Neuestadt."
 -----------------------
 #「これを読む、未来の誰かへ
 #　オベロン社　ノイシュタット支部長
 #　イレーヌ＝レンブラントより」
-To whoever reads this in the future,
-Oberon Company Neuestadt Branch Manager
-Irene Rembrandt
+"To whoever reads this in the future,
+Oberon Corporation, Neuestadt Branch Manager
+Irene Rembrandt"
 -----------------------
 <Loni>
 -----------------------
@@ -433,8 +421,8 @@ Irene Rembrandt
 #この石碑に、レンズの力を高める鉱石って
 #書いてあるぞ!!
 Hey, <Kyle>!
-There's something written on this stone monument about an ore that enhances the power of lenses,
-It says so!!
+This stone tablet says there's ore here
+that enhances the power of Lens!!
 -----------------------
 <Kyle>
 -----------------------
@@ -455,9 +443,9 @@ The Bellseria Flower has bloomed.
 #よし、<Kyle>
 #急いでフィリアさんのとこに
 #持っていくぞ!!
-Alright, .<Kyle>
-Hurry over to Philia's place.
-And take it there!!
+All right, <Kyle>,
+let's hurry and take this
+to Philia!!
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -474,8 +462,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -487,7 +475,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We hope to see you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -509,12 +497,11 @@ notice
 -----------------------
 #{16}{25}{CA}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{CA}{C0} but
-inventory is full already.
+Found {16}{25}{CA}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

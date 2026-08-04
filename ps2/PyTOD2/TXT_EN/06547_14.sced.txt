@@ -1,11 +1,11 @@
 #紅蓮都市スペランツァ・回復施設
-Red Lotus City Speranza - Recovery Facility
+Crimson Lotus City Speranza - Recovery Facility
 -----------------------
 #紅蓮都市スペランツァ
 Crimson Lotus City Speranza
 -----------------------
 #回復施設
-Inn
+Recovery Facility
 -----------------------
 #女の子
 Girl
@@ -13,7 +13,7 @@ Girl
 #やっぱりドームの中は良いですわねぇ
 #外に出るなんて考えられませんわ
 I really do prefer being inside the dome.
-The thought of going out there is unbearable.
+I can't imagine ever going outside.
 -----------------------
 #女の子
 Girl
@@ -21,21 +21,20 @@ Girl
 #ドームの中は良いですわねぇ
 #外に出るなんて考えられませんわ
 It's quite nice in here.
-I can't imagine going out there.
+I can't imagine ever going outside.
 -----------------------
 <Kyle>
 -----------------------
 #ずっとこの中にいるのなんて
 #オレはイヤだな････
-I don't want to stay in here forever.
-I'm not into that.
+No way I'd want to stay cooped up in here forever...
 -----------------------
 #いってらっしゃいませ
-Have a good day.
+Come again.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -45,11 +44,11 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
-Have a good night.
+Please rest well.
 -----------------------
 #おはようございます
 Good morning.
@@ -58,7 +57,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We look forward to your next visit.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -80,12 +79,11 @@ notice
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{C2}{C0} but
-inventory is full already.
+Found {16}{25}{C2}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

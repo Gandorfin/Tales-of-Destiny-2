@@ -1,8 +1,8 @@
 #ダイクロフト
-Dycrof
+Dycroft
 -----------------------
 #ダイクロフト
-Dycrof
+Dycroft
 -----------------------
 #ディムロス
 Dymlos
@@ -10,15 +10,15 @@ Dymlos
 #来たな････！
 #どうやら、敵の備えも万全のようだ
 You've come!
-It seems their defenses are fully prepared as well.
+Seems the enemy's defenses are fully prepared.
 -----------------------
 #カーレル
-Carrel
+Karell
 -----------------------
 #では、さっそく新兵器の
 #実戦投入といきましょう！
-Well then, let's get right to testing out our new weapon.
-Let's deploy it in actual combat!
+Well then, let's deploy our new weapon
+to actual combat at once!
 -----------------------
 #ディムロス
 Dymlos
@@ -27,13 +27,13 @@ Dymlos
 Fearful Flare!
 -----------------------
 #イクティノス
-Ictinus
+Igtenos
 -----------------------
 #サイクロン！
 Cyclone!
 -----------------------
 #シャルティエ
-Shaltie
+Chaltier
 -----------------------
 #プレス！
 Press!
@@ -42,7 +42,7 @@ Press!
 Atwight
 -----------------------
 #クレメンテさん！
-Clemente-san!
+Clemente!
 -----------------------
 #アトワイト
 Atwight
@@ -55,8 +55,8 @@ Clemente
 -----------------------
 #老兵だからといって
 #あなどるなッ！
-Just because I'm an old soldier,
-don't underestimate me!
+Don't underestimate me
+just because I'm an old soldier!
 -----------------------
 #クレメンテ
 Clemente
@@ -65,13 +65,13 @@ Clemente
 Meteor Swarm!
 -----------------------
 #カーレル
-Carrel
+Karell
 -----------------------
 #では、私も････
-Well then, I shall too...
+Well then, I shall join in as well...
 -----------------------
 #カーレル
-Carrel
+Karell
 -----------------------
 #ブラックホール！
 Black Hole!
@@ -80,22 +80,22 @@ Black Hole!
 -----------------------
 #さすがソーディアン
 #あんなにいたモンスターが一瞬で････！
-Just as I expected from a Sodian.
-All those monsters gone in an instant...!
+Now that's a Swordian for you.
+So many monsters, wiped out in an instant...!
 -----------------------
 #ディムロス
 Dymlos
 -----------------------
 #よし、道は開けた
 #先へ進むぞ、みんな！
-Alright, the path is clear.
-Let's move forward, everyone!
+Good, the path is clear.
+Everyone, move forward!
 -----------------------
 #ディムロス
 Dymlos
 -----------------------
 #ここでお別れだ、<Kyle>くん
-It's time to part ways here, <Kyle>.
+This is where we part ways, <Kyle>.
 -----------------------
 <Kyle>
 -----------------------
@@ -108,29 +108,29 @@ Dymlos
 #後は、我々の仕事だ
 #歴史は、その時代の人間の手によって
 #作られるべき････そうだろう？
-The rest is our job.
-History is shaped by the people of that era,
-isn't it?
+The rest is our duty.
+History should be shaped by the people
+of that era... isn't that right?
 -----------------------
 <Kyle>
 -----------------------
 #ディムロスさん
 #まさか、オレたちのこと････！
-Mr. Dimlos
-No way... it's about us...!
+Dymlos...
+Don't tell me you're saying we can't...!
 -----------------------
 #ディムロス
 Dymlos
 -----------------------
 #君たちのいる未来が創れるのなら
 #我々も、たいしたものじゃないか？
-If we can create the future you all live in,
-Perhaps we aren't so useless after all?
+If we can create the future where you all live,
+then perhaps we aren't so useless after all?
 -----------------------
 <Kyle>
 -----------------------
 #ディムロスさん････
-Mr. Dimlos...
+Dymlos...
 -----------------------
 #ディムロス
 Dymlos
@@ -138,8 +138,8 @@ Dymlos
 #君たちは、君たちの道を進め
 #歴史の流れを元に戻すのは
 #君たちにしかできない
-You should continue on your own path.
-To restore the flow of history,
+You must continue on your own path.
+Restoring the flow of history
 is something only you can do.
 -----------------------
 <Kyle>
@@ -148,47 +148,47 @@ is something only you can do.
 Yes!
 -----------------------
 #ディムロス
-Dimlos
+Dymlos
 -----------------------
 #がんばりたまえ
 #<Kyle>くん！
-Give it your all!
+Give it your all,
 <Kyle>!
 -----------------------
 <Loni>
 -----------------------
 #さて、オレたちも行こうぜ
-Well, let's get moving too.
+Well then, let's get moving too.
 -----------------------
 <Loni>
 -----------------------
 #最後の最後で
 #バルバトスにジャマされちゃ
 #今までの苦労が、パーだ
-At the very last moment
-I got interrupted by Barbatos
-All my hard work up to now is for nothing.
+And at the very last moment,
+Barbatos had to interfere.
+All my hard work up till now, ruined.
 -----------------------
 <Harold>
 -----------------------
 #そういうこと！
 #んじゃ、レッツゴー！
-That's it!
-Alright then, let's go!
+That's the spirit!
+Now then, let's go!
 -----------------------
 <Kyle>
 -----------------------
 #待って、<Harold>！
-Hold on, <Harold>!
+Wait, <Harold>!
 -----------------------
 <Kyle>
 -----------------------
 #<Harold>は
 #ディムロスさんたちを追いかけて
 #今なら、まだ間に合うから！
-<Harold> is
-chasing after Mr. Dimlos and the others,
-so it's still in time if you hurry up now!
+<Harold> went after
+Dymlos and the others.
+If you hurry, you can still catch up!
 -----------------------
 <Judas>
 -----------------------
@@ -199,17 +199,17 @@ so it's still in time if you hurry up now!
 -----------------------
 #わかってる！
 #わかってるけど････
-I get it!
-I know... but...
+I know!
+I know, but...
 -----------------------
 <Kyle>
 -----------------------
 #やっぱり、ダメだよ！
 #このまま黙ってるなんて
 #オレ････！
-No way, it won't work!
-To just stay silent like this...
-I--!
+I can't do it!
+I can't just stay quiet and watch...
+I...!
 -----------------------
 <Harold>
 -----------------------
@@ -224,39 +224,39 @@ I--!
 <Harold>
 -----------------------
 #あんた、アホね
-You're an idiot.
+You're such an idiot.
 -----------------------
 <Harold>
 -----------------------
 #あんたたちの目的は、歴史の修正でしょ？
 #それなのに、歴史を
 #ひっくり返すようなことしちゃダメじゃない
-What's your goal, huh? To rewrite history?
-And yet,
-you're going to turn everything upside down?
+Your goal is to fix history, right?
+So why would you go and do something
+that turns history completely upside down?
 -----------------------
 <Kyle>
 -----------------------
 #でも、<Harold>
 #きっと悲しむよ！
 #それでもいいの!?
-But,<Harold>
-They'll surely be sad!
-Is that really okay!?
+But <Harold>
+would be so sad!
+Is that really okay with you!?
 -----------------------
 <Harold>
 -----------------------
 #私に、歴史を変えろっていうの？
 #自分がイヤな結果を回避するために？
-Are you asking me to change history?
-To avoid an outcome I don't want?
+You're asking me to change history?
+Just to avoid a result I don't like?
 -----------------------
 <Harold>
 -----------------------
 #じょーだん！　そんなことしたら
 #例の神さまと同じレベルじゃない
-You're kidding! If you do that,
-It's on the same level as that god.
+Don't be ridiculous! If I did that,
+I'd be no different from that so-called goddess.
 -----------------------
 <Kyle>
 -----------------------
@@ -268,69 +268,69 @@ It's on the same level as that god.
 #私は、未来を知りたいと思わないし
 #たとえ知ったとしても行動を変えたりしない
 #今やるべきことを、やるだけ
-I don't want to know what the future holds,
-and even if I did, it wouldn't change how I act.
-I'll just do what needs to be done right now.
+I have no desire to know the future,
+and even if I did, it wouldn't change my actions.
+I simply do what needs to be done now.
 -----------------------
 <Harold>
 -----------------------
 #そうやって、人間ってのは
 #手探りで歴史を作ってきたのよ
-That's how humans are,
-they've been forging history through trial and error.
+That's how humanity has always been,
+groping through the darkness to make history.
 -----------------------
 <Harold>
 -----------------------
 #私だけインチキする気は
 #さらさらないわ
 #わかった？
-I'm not the only one cutting corners here.
-Not even a little bit.
-Got it?
+I've got absolutely zero intention
+of cheating like that.
+Understand?
 -----------------------
 <Kyle>
 -----------------------
 #････････
 #････わかった
-...
-... I see.
+......
+...Got it.
 -----------------------
 <Harold>
 -----------------------
 #よろしい！
 #それじゃ、改めて
 #レッツ････
-That's fine!
-Well then, let me restate...
+Very good!
+Well then, once more...
 Let's...
 -----------------------
 <Reala>
 -----------------------
 #な、なに!?
-What... what is it!?
+Wh-what is it!?
 -----------------------
 <Harold>
 -----------------------
 #ベルクラントの発射音ね
 #予想通りの展開、
 #まったく、芸がないわねぇ
-The sound of Belcran firing.
-Just as I expected,
-Honestly, so predictable.
+That was the sound of Belcrant firing.
+Everything's proceeding exactly as expected.
+Honestly, so utterly predictable.
 -----------------------
 <Judas>
 -----------------------
 #まさか、
 #ベルクラントによる無差別攻撃か!?
-No way,
-an indiscriminate attack from Belkranft!?
+Don't tell me...
+An indiscriminate attack by Belcrant!?
 -----------------------
 <Kyle>
 -----------------------
 #急がないと････！
 #みんな、制御室に行くぞ！
-Hurry up!
-Everyone, head to the control room!
+We have to hurry...!
+Everyone, to the control room!
 -----------------------
 #サイクロン！
 Cyclone!
@@ -362,8 +362,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -386,7 +386,7 @@ exit-party_togather( short spd )
 notice
 -----------------------
 #{16}{26}{4A}{C0}を手に入れました
-{16}{26}{4A}{C0}You obtained .
+Acquired {16}{26}{4A}{C0}.
 -----------------------
 notice
 -----------------------
@@ -397,12 +397,11 @@ notice
 -----------------------
 #{16}{26}{52}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{26}{52}{C0}There was , but
-I couldn't hold it because it was full.
+Found {16}{26}{52}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

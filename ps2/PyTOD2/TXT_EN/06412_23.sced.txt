@@ -6,23 +6,23 @@ Neuestadt
 -----------------------
 #新鮮な野菜が陸揚げされている
 #近隣から船で輸送されて来た物のようだ
-The fresh vegetables are being unloaded.
-They appear to have been transported by ship from nearby.
+Fresh vegetables are being unloaded.
+They appear to have been shipped in from nearby.
 -----------------------
 #山のように積まれた建材だ
 #あて先はハイデルベルグとなっている
-Building materials piled up like mountains.
+Building materials piled up like a mountain.
 The destination is Heidelberg.
 -----------------------
 #船具が収められた箱だ
 #『アルジャーノン号、補修資材』と書かれている
-It's a box containing ship equipment.
-It reads 'Algeron, repair materials.'
+A box containing ship equipment.
+It reads 'Aljarnon, repair materials.'
 -----------------------
 <Loni>
 -----------------------
 #なんだありゃ？
-What's that?
+What's all this?
 -----------------------
 <Kyle>
 -----------------------
@@ -32,7 +32,7 @@ Wonder if something happened?
 <Kyle>
 -----------------------
 #ねぇ、なにかあったの？
-Hmm? Is something wrong?
+Hey, did something happen?
 -----------------------
 #乗客
 Passenger
@@ -40,7 +40,7 @@ Passenger
 #船の修理が
 #まだ終わらないそうなんです
 The ship's repairs
-don't seem to be finished yet
+don't seem to be finished yet.
 -----------------------
 #船員
 Sailor
@@ -55,8 +55,8 @@ Sailor
 -----------------------
 #すいませんが、少々
 #お時間をいただけますか？
-Excuse me, but I need to ask you something.
-Could I have your time?
+Excuse me, but could I
+have a moment of your time?
 -----------------------
 <Loni>
 -----------------------
@@ -64,17 +64,17 @@ Could I have your time?
 #この調子じゃ、いつ船が出るか
 #わかったもんじゃないぜ
 Hey, what's the plan, <Kyle>?
-At this rate,
-I don't know if we'll ever make it.
+At this rate, who knows
+when the ship'll actually leave.
 -----------------------
 <Judas>
 -----------------------
 #だが、ハイデルベルグへは
 #海路で行くより他に方法がない
 #ひたすら待つしかないだろう
-However, to get to Heidelberg,
-there's no way other than going by sea.
-We'll just have to wait it out.
+But there's no other way to Heidelberg
+than by sea.
+We'll simply have to wait.
 -----------------------
 <Kyle>
 -----------------------
@@ -82,8 +82,8 @@ We'll just have to wait it out.
 #ただ待ってるだけってのも退屈だし
 #どうしよっか？
 Hmm...
-Just waiting around gets boring too.
-What should I do?
+Just waiting around is boring, though.
+What should we do?
 -----------------------
 #商人
 #Businessman
@@ -91,29 +91,29 @@ What should I do?
 #すいません、よろしいですか？
 #いずれも腕の立つ
 #旅の武芸者とお見受けしますが････
-Excuse me, is everything alright?
-Both are skilled in their arts,
-I take it you're traveling martial artists...
+Excuse me, might I have a word?
+You both appear to be
+quite capable traveling martial artists...
 -----------------------
 <Kyle>
 -----------------------
 #あれれ、やっぱり、そう見えちゃう？
-Oh? So that's how it looks to you?
+Huh? So I really do look the part?
 -----------------------
 <Kyle>
 -----------------------
 #へへへ････いやぁ、まいったなぁ！
 #英雄としてのカンロクみたいなものが
 #こう自然に出ちゃうって感じ？
-Hehehe... Man, I'm beat!
-It's like being registered as a hero,
-is that how it just comes out naturally?
+Hehehe... Aw, shucks!
+Guess it's just the natural dignity
+of a born hero shining through, huh?
 -----------------------
 #商人
 #Businessman
 -----------------------
 #英雄のカンロク････？
-A hero's chronicle...?
+A hero's dignity...?
 -----------------------
 #商人
 #Businessman
@@ -121,9 +121,9 @@ A hero's chronicle...?
 #おお、感じます、感じますとも！
 #いかにもといった
 #勇ましい顔つきをしていらっしゃる！
-Ah, I feel it! Yes, I truly sense it!
-Just as expected,
-You have such a valiant appearance!
+Oh, I sense it! Yes, I sense it indeed!
+You have precisely the sort of
+bold, valiant bearing about you!
 -----------------------
 #商人
 #Businessman
@@ -131,18 +131,18 @@ You have such a valiant appearance!
 #ところで、その英雄さま方に
 #折り入ってお願いがあるのですが････
 #聞いてはいただけませんでしょうか？
-By the way, regarding those heroes,
-I have a humble request to make...
-Would you mind listening?
+Which brings me to my humble request
+for you heroes...
+Might I trouble you to hear me out?
 -----------------------
 <Kyle>
 -----------------------
 #ＯＫ、ＯＫ！　なんでも言ってよ
 #英雄<Kyle>さまが
 #ひょひょいっとかたづけちゃうから！
-OK, OK! Just say whatever you want.
-The hero <Kyle>,
-I'll take care of it in no time!
+OK, OK! Just say the word,
+and the great hero <Kyle>
+will take care of it in a jiffy!
 -----------------------
 #商人
 #Businessman
@@ -150,35 +150,35 @@ I'll take care of it in no time!
 #まあ、ここではなんですので
 #気が向きましたら
 #私どものあばら家へ、お越しくださいませ
-Well, anything goes here.
-Whenever you feel like it,
-please come visit our humble abode.
+Well, this is hardly the place for it.
+Whenever you're so inclined,
+please do stop by our humble home.
 -----------------------
 #商人
 #Businessman
 -----------------------
 #市街地の、北の方にございます
 #いつでも、お好きな時に、いらしてください
-It's located in the northern part of the city.
-Please feel free to visit whenever you'd like.
+It's in the northern part of town.
+Please come by whenever you like.
 -----------------------
 <Loni>
 -----------------------
 #････おい、<Kyle>
 #まさか、さっきの話
 #受けるつもりじゃないだろうな？
-Hey, .<Kyle>
-You don't mean that earlier comment...
-...you're actually going to take it?
+...Hey, <Kyle>.
+Don't tell me you're actually
+planning to take that guy up on it?
 -----------------------
 <Kyle>
 -----------------------
 #もちろん、引き受けるさ！
 #困っている人を助けるのが
 #英雄ってもんだろ！
-I'll gladly take it on!
-Helping those in need is
-what heroes are all about!
+Of course I'm taking the job!
+Helping people in trouble
+is what heroes do, right?!
 -----------------------
 <Kyle>
 -----------------------
@@ -186,13 +186,13 @@ what heroes are all about!
 #困っている人が、英雄を
 #待ちわびてるんだからさ！
 C'mon, let's go!
-People who are in trouble,
-are waiting for a hero!
+There's someone in trouble out there
+just waiting for a hero to show up!
 -----------------------
 <Kyle>
 -----------------------
 #やあ、船長さん！
-Well, well, Captain!
+Hey there, Captain!
 -----------------------
 #船長
 Captain
@@ -200,7 +200,7 @@ Captain
 #おお、若き英雄さんたち！
 #どうだ、陸の暮らしはつらかったろう？
 Well, well, young heroes!
-How was life on land? Must have been tough.
+How was life on land? Tough, I bet!
 -----------------------
 #船長
 Captain
@@ -209,13 +209,13 @@ Captain
 #今日からはまた、めくるめく海の世界へ
 #旅立つことができるのだ！
 But rejoice!
-From today on, you can once again set sail into the dazzling world of the sea
-And begin your journey!
+For today you set sail once more
+into the dazzling world of the sea!
 -----------------------
 <Kyle>
 -----------------------
 #よ、よろしく････
-Well then... nice to meet you.
+S-Sure thing...
 -----------------------
 #船長
 Captain
@@ -223,15 +223,15 @@ Captain
 #我がアルジャーノン号は
 #まもなく出港する
 #準備はいいかな、若人たちよ！{02}
-Our Aljarnon is
-about to set sail
-You ready for it, you youngsters?{02}
+The Aljarnon
+will be departing shortly.
+Ready, youngsters?{02}
 -----------------------
 select
 -----------------------
 #<03:00000000>　もちろんさ！　
 #　････ゴメン、ちょっと待って　
-<03:00000000>Of course!
+<03:00000000> Of course!
 ...Sorry, wait a sec.
 -----------------------
 #船長
@@ -240,25 +240,25 @@ Captain
 #アイアイサー！
 #スノーフリアまで飛ばしていくからな
 #振り落とされんよう気をつけろ！
-Aye aye, sir!
-We're heading straight to Snowfall.
-Make sure you don't get shaken off!
+Aye aye!
+We're making straight for Snowfria,
+so mind you don't get thrown overboard!
 -----------------------
 #船長
 Captain
 -----------------------
 #わかった、準備を整えたら来てくれ
 #またあとで、若人たちよ！
-Understood. Come find me once everything's ready.
-See you all later!
+Very well. Come back once you're ready.
+I'll see you later, youngsters!
 -----------------------
 #船員
 Sailor
 -----------------------
 #みなさんには
 #たいへんもうしわけないです････
-To all of you,
-I am terribly sorry...
+We are deeply sorry
+for the inconvenience...
 -----------------------
 #船員
 Sailor
@@ -266,16 +266,16 @@ Sailor
 #船のほうは、まだ修理に
 #手間どってるようなので
 #街の中でも見物しててください
-The ship is still undergoing repairs.
-So it seems to be taking some time.
-Please enjoy sightseeing around town in the meantime.
+The ship is still undergoing repairs,
+so I'm afraid it'll take some time.
+Please enjoy a stroll around town in the meantime.
 -----------------------
 #船員
 Sailor
 -----------------------
 #おまたせして、すみませんでした
 #まもなく出航します
-I'm sorry to keep you waiting.
+Sorry to have kept you waiting.
 We'll be setting sail shortly.
 -----------------------
 #船員
@@ -283,24 +283,24 @@ Sailor
 -----------------------
 #準備ができたら、船長に話しかけて
 #船に乗ってください
-When you're ready, talk to the captain.
-Board the ship.
+When you're ready, talk to the captain
+and board the ship.
 -----------------------
 #船員
 Sailor
 -----------------------
 #今は
 #私は配置されないはずです
-Right now,
-I shouldn't be stationed here.
+I shouldn't be stationed here
+at the moment.
 -----------------------
 #乗客
-passenger
+Passenger
 -----------------------
 #まだ、船の修理は
 #終わらないのでしょうか
-The ship's repairs are still...
-...not finished yet?
+Are the ship's repairs
+still not finished?
 -----------------------
 #乗客
 Passenger
@@ -308,9 +308,9 @@ Passenger
 #このままじゃ
 #恋人のところに着くのも
 #いつになるか、わかりませんわね････
-If it goes on like this,
-I don't know how long
-it'll take to reach my lover's place.
+At this rate, I haven't a clue
+when I'll finally reach
+my beloved's side...
 -----------------------
 #乗客
 Passenger
@@ -318,7 +318,7 @@ Passenger
 #ああ！
 #やっと船が出ますのね
 Oh!
-So the ship is finally setting sail.
+The ship is finally departing.
 -----------------------
 #乗客
 Passenger
@@ -326,17 +326,17 @@ Passenger
 #待たされた分だけ
 #あの人への想いがつのって
 #ずいぶんとイイ感じですわ★
-For all the time I had to wait,
-My feelings for that person are swelling up,
-It feels really good~
+All that waiting only made
+my longing for him grow stronger.
+What a wonderful feeling~★
 -----------------------
 #乗客
 Passenger
 -----------------------
 #今は
 #私は配置されないはずです
-Now is
-I shouldn't be deployed.
+I shouldn't be stationed here
+at the moment.
 -----------------------
 #商人
 #Businessman
@@ -351,100 +351,98 @@ What a nuisance.
 -----------------------
 #やっと、船が直ったってさ
 #さあ、残りの積荷を積んじまおうかね
-We finally got the ship fixed.
-Well then, shall we load up the remaining cargo?
+They finally got the ship fixed.
+Well then, shall we load up the rest of the cargo?
 -----------------------
 #商人
 #Businessman
 -----------------------
 #今は
 #私は配置されないはずです
-Right now,
-I shouldn't be deployed.
+I shouldn't be stationed here
+at the moment.
 -----------------------
 #チケット売り
-TICKET SALES
+Ticket Seller
 -----------------------
 #ここからはスノーフリアに行けます
 #船に乗りますか？
-We can head to Snowfall from here.
-Do you want to board the ship?
+We sail to Snowfria from here.
+Will you be boarding?
 -----------------------
 select
 -----------------------
 #<03:00000000>　スノーフリアに行く（{14}{24}{74}{C0}<0B:00000000>ガルド）　
 #　船には乗らない　
-<03:00000000>Go to Snowfallia ({14}{24}{74}{C0}<0B:00000000> Gald)
-Do not board the ship
+<03:00000000> Go to Snowfria ({14}{24}{74}{C0}<0B:00000000> Gald)
+Do not board
 -----------------------
 #チケット売り
-TICKET SALES
+Ticket Seller
 -----------------------
 #ここからはチェリクと
 #スノーフリアに行けます
 #船に乗りますか？
-We can head to Cherik from here.
-And reach Snowflake.
-Do you want to board the ship?
+We sail to Cherik and Snowfria from here.
+Will you be boarding?
 -----------------------
 select
 -----------------------
 #<03:00000000>　チェリクに行く（<0B:00000001>{14}{24}{72}{C0}ガルド）　
 #　スノーフリアに行く（{14}{24}{74}{C0}<0B:00000000>ガルド）　
 #　船には乗らない　
-<03:00000000>Go to Cherik ([<0B:00000001>{14}{24}{72}{C0} Gald])
+<03:00000000> Go to Cherik (<0B:00000001>{14}{24}{72}{C0} Gald)
 Go to Snowfria ({14}{24}{74}{C0}<0B:00000000> Gald)
-Do not board the ship
+Do not board
 -----------------------
 #チケット売り
-TICKET SALES
+Ticket Seller
 -----------------------
 #ここからはチェリクと
 #スノーフリアに行けます
 #船に乗りますか？
-We can head to Cherik from here.
-And then to Snowfria.
-Do you want to board the ship?
+We sail to Cherik and Snowfria from here.
+Will you be boarding?
 -----------------------
 select
 -----------------------
 #<03:00000000>　チェリクに行く　
 #　スノーフリアに行く　
 #　船には乗らない　
-<03:00000000>Go to Cherik
+<03:00000000> Go to Cherik
 Go to Snowfria
-Don't board the ship
+Do not board
 -----------------------
 #チケット売り
-TICKET SALES
+Ticket Seller
 -----------------------
 #おいおい、金が足りないじゃないか
 #カンベンしてくれよ、お客さん！
-Hey, you're short on cash.
-Cut us some slack, customer!
+Hey now, you haven't got enough gald.
+Have a heart, would you?
 -----------------------
 #チケット売り
-Ticket booth
+Ticket Seller
 -----------------------
 #お客さん、いいのかい？
 #急がないと、船が出ちまうぜ！
-You sure about this?
-We gotta hurry, or we'll miss the boat!
+You sure about that?
+Hurry it up, or the ship'll leave without you!
 -----------------------
 #船員たちが忙しそうに
 #船を修理している････
-The crew busily
+The crew is hard at work
 repairing the ship...
 -----------------------
 #船がたくさん停泊している････
-A lot of ships are docked...
+Many ships are docked here...
 -----------------------
 #いってらっしゃいませ
-Have a good day.
+Come again soon.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -454,11 +452,11 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
-Have a good night.
+Please rest well.
 -----------------------
 #おはようございます
 Good morning.
@@ -467,7 +465,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We hope to see you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -489,12 +487,11 @@ notice
 -----------------------
 #{16}{25}{CA}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{CA}{C0} but
-inventory is full already.
+Found {16}{25}{CA}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

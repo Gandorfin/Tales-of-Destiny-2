@@ -1,8 +1,8 @@
 #黄昏都市レアルタ
-Dusk City Realta
+Realta, the Twilight City
 -----------------------
 #黄昏都市レアルタ
-Twilight City Realta
+Realta, the Twilight City
 -----------------------
 #男の子
 Boy
@@ -10,9 +10,9 @@ Boy
 #フォルトゥナ神と、エルレインさまの
 #お力によって、我々は生きていけるのです
 #そのことを忘れてはなりませんよ
-The God Fortuna, and Lady Elraine's
-We live by our strength.
-You mustn't forget that.
+It is by the grace of the goddess Fortuna
+and Lady Elrane that we are able to live.
+You must never forget that.
 -----------------------
 #おじさん
 Man
@@ -20,26 +20,26 @@ Man
 #我々は女神フォルトゥナと
 #エルレインさまのおかげで
 #この世に生をうけているのです
-We are indebted to the goddess Fortuna,
-and to Lady Elraine,
-for our very existence in this world.
+We owe our very existence in this world
+to the goddess Fortuna
+and to Lady Elrane.
 -----------------------
 #おじさん
 Man
 -----------------------
 #そのことに対する感謝のきもちを
 #ひとときも、忘れてはなりませんよ
-We must never forget that feeling of gratitude
-for even a moment.
+You must never forget that feeling of gratitude,
+not even for a moment.
 -----------------------
 <Loni>
 -----------------------
 #俺には生をうけてるっていうより
 #命をにぎられてるようにしか
 #見えないぜ････
-I feel less like I've been given life,
-and more like someone's just holding it in their grip.
-It doesn't look any different to me...
+To me, it looks less like we've been given life
+and more like someone's got a grip around our throats.
+That's all I see...
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -56,8 +56,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -91,7 +91,7 @@ notice
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{C2}{C0} but
+Found {16}{25}{C2}{C0}, but
 inventory is full already.
 -----------------------
 notice
@@ -99,4 +99,3 @@ notice
 #何もありません
 There's nothing here.
 -----------------------
-

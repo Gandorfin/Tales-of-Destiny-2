@@ -1,41 +1,41 @@
 #飛行竜
-Sky Dragon
+Flying Dragon
 -----------------------
 #飛行竜
-Airship
+Flying Dragon
 -----------------------
 select
 -----------------------
 #<03:00000000>　梯子移動　
 #　梯子回収　
-<03:00000000>Ladder Movement
+<03:00000000> Move Ladder
 Retrieve Ladder
 -----------------------
 select
 -----------------------
 #<03:00000000>　設置する　
 #　設置しない　
-<03:00000000>Install
-Do not install
+<03:00000000> Place
+Don't Place
 -----------------------
 notice
 -----------------------
 #梯子設置可能ポイント
-Ladder placement points
+Ladder placement point.
 -----------------------
 notice
 -----------------------
 #<button:00000035>ボタンで縄梯子を回収、設置できます
 #（注意：ただし上からのみです）
-<button:00000035>Press  to retrieve and set up the rope ladder.
-(Note: This is possible from above only.)
+<button:00000035>Press to retrieve and set up the rope ladder.
+(Note: from above only.)
 -----------------------
 #いってらっしゃいませ
-Have a good day.
+Come again soon.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -45,8 +45,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -58,7 +58,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We hope to see you again.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -80,8 +80,8 @@ notice
 -----------------------
 #{16}{25}{D6}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{D6}{C0} but
-inventory is full already.
+Found {16}{25}{D6}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------
@@ -94,6 +94,5 @@ Time's up.
 noitce
 -----------------------
 #制御装置を破壊しました
-Destroyed the control device.
+Control device destroyed.
 -----------------------
-

@@ -1,22 +1,22 @@
 #デュナミス孤児院
-Dunmais Orphanage
+Dunamis Orphanage
 -----------------------
 #デュナミス孤児院
-Dunmais Orphanage
+Dunamis Orphanage
 -----------------------
 <Kyle>
 -----------------------
 #ただいま、母さん
 #遅くなって、ごめん････
 I'm home, Mom.
-Sorry for being late....
+Sorry I'm late...
 -----------------------
 <Kyle>
 -----------------------
 #あ、あのさ
 #実は話があるんだけど････
-Um, actually.
-There's something I need to tell you....
+Um, hey...
+There's something I need to talk to you about...
 -----------------------
 #ルーティ
 Rutee
@@ -29,7 +29,7 @@ Rutee
 <Kyle>
 -----------------------
 #か、母さん････？
-M, Mom....?
+M-Mom...?
 -----------------------
 #ルーティ
 Rutee
@@ -43,19 +43,19 @@ Rutee
 -----------------------
 #聞いてよ、母さん
 #オレ、話したいことがあるんだ！
-C'mon, Mom listen to me.
-I have something that I want to talk to you about!
+C'mon, Mom, listen to me!
+There's something I really need to tell you!
 -----------------------
 <Kyle>
 -----------------------
 #････！
-...
+...!
 -----------------------
 #ルーティ
 Rutee
 -----------------------
 #いま、何時だと思ってるの！
-Do you have any idea what time it is!
+Do you have any idea what time it is?!
 -----------------------
 #ルーティ
 Rutee
@@ -63,8 +63,8 @@ Rutee
 #冒険なんて、あんたには
 #まだ早すぎるって言ったのに････
 #みんな、心配してたのよ！
-I told you that it was way too early
-for you to be going on and adventure, and yet you still....
+I told you you're way too young
+to be going off on adventures, and yet you still...
 Everyone was worried sick about you!
 -----------------------
 <Kyle>
@@ -72,52 +72,52 @@ Everyone was worried sick about you!
 #だまって遺跡へ出かけたのは
 #悪かったって思ってる
 #でも、そのおかげでわかったんだ
-Look, I know it was wrong of me
-to go off to the ruins without telling you.
-But thanks to that, I came to realize something.
+I know it was wrong to go off
+to the ruins without telling you.
+But because of that, I realized something.
 -----------------------
 <Kyle>
 -----------------------
 #母さん！
 #オレ、<Loni>といっしょに････
 Mom!
-<Loni>, and I, we....
+I want to go with <Loni>, and...
 -----------------------
 #ルーティ
 Rutee
 -----------------------
 #いいから！
 #今日はもう寝なさい！
-Never mind that!
-Just march yourself straight to bed, young man!
+That's enough!
+Go to bed, now!
 -----------------------
 <Kyle>
 -----------------------
 #いやだ！
 #ちゃんと聞いてよ、母さん！
-No, I won't!
+No!
 At least hear me out, Mom!
 -----------------------
 #ルーティ
 Rutee
 -----------------------
 #いいかげんにしなさいっ!!
-I've heard just about enough out of you!!
+That's quite enough!!
 -----------------------
 #ルーティ
 Rutee
 -----------------------
 #････！
-...
+...!
 -----------------------
 <Kyle>
 -----------------------
 #････オレ、父さんみたいになりたいんだ！
 #父さんみたいな、すごい英雄に!!
 #だから････!!
-....I want to be like Dad!
-I want to become a great hero, just like he did!!
-And that's why....!!
+...I want to be like Dad!
+I want to become a great hero, just like he was!!
+That's why...!!
 -----------------------
 #ルーティ
 Rutee
@@ -128,7 +128,7 @@ Rutee
 <Kyle>
 -----------------------
 #母さん････
-Mom....
+Mom...
 -----------------------
 <Loni>
 -----------------------
@@ -138,42 +138,42 @@ You okay, <Kyle>?
 <Kyle>
 -----------------------
 #････うん
-....Uh, huh.
+...Yeah.
 -----------------------
 <Loni>
 -----------------------
 #今日は、日が悪かったんだ
 #明日、もう一度話すことにしようぜ
-We picked a bad day to ask.
-Let's try talking to her again, tomorrow.
+Today's just not the day for it.
+Let's try talking to her again tomorrow.
 -----------------------
 <Loni>
 -----------------------
 #なに、心配すんなって
 #ちゃんと話せば、お前の真剣な気持ち
 #きっと、わかってくれるさ
-Eh, trust me, you ain't got nothing to worry about.
-If you sit down and talk things over,
-then I'm sure she'll understand how you really feel.
+Hey, don't worry about it.
+If you sit down and really talk it out,
+she'll understand how serious you are.
 -----------------------
 <Kyle>
 -----------------------
 #････うん
-....Yeah.
+...Yeah.
 -----------------------
 <Loni>
 -----------------------
 #今日は、もう寝ろ
 #いろいろあって、疲れてるだろうしな
-Just call it a night, already.
-You've gotta be bushed after all the crap we went through today.
+Get some sleep already.
+You've gotta be exhausted after everything today.
 -----------------------
 <Loni>
 -----------------------
 #なにしてんだ、<Kyle>？
 #ルーティさんに、話するんだろ？
 What are you doing, <Kyle>?
-You're going to tell Mrs. Rutee, right?
+You're gonna talk to Mrs. Rutee, right?
 -----------------------
 #ルーティ
 Rutee
@@ -181,119 +181,119 @@ Rutee
 #････でさ、奥さんがワッて声を上げたら
 #小麦粉の袋をひっくりかえして
 #頭のてっぺんから、つま先まで真っ白け！
-Anyway, when my wife let out a scream,
+...So then, when my wife screamed,
 she knocked over a bag of flour
-covering her from head to toe in white powder!
+and was covered in white from head to toe!
 -----------------------
 #ルーティ
 Rutee
 -----------------------
 #もう、おかしくて、おかしくて････
-How amusing.  How amusing....
+Oh, it was hilarious, just hilarious...
 -----------------------
 #スタン
 Stahn
 -----------------------
 #そりゃ、ガゼルさんらしいや
 #アッハッハッハッ！
-That's just like Gazel.
-Hahahahaha!
+That's so like Gazel.
+Ahahahaha!
 -----------------------
 <Kyle>
 -----------------------
 #････････
 #････････････････
-...
-..........
+......
+..............
 -----------------------
 <Kyle>
 -----------------------
 #父さん、母さん
 #ちょっといいかな？
 #話したいことがあるんだけど
-Mom, Dad
+Dad, Mom...
 Do you have a minute?
-I have something to tell you.
+There's something I want to talk to you about.
 -----------------------
 #ルーティ
 Rutee
 -----------------------
 #どうしたの？
 #急に改まっちゃって
-What's wrong?
-This isn't like you.
+What's with you all of a sudden?
+Getting so serious like this.
 -----------------------
 <Kyle>
 -----------------------
 #オレさ、すごく幸せだと思うんだ
 #父さんや母さん、チビたちにかこまれて
 #毎日、楽しく暮らすことができて
-I'm very happy.  Being surrounded
-by my parents and everyone.
-Everyone is great, but.
+I'm really happy, you know.
+Being surrounded by you, Dad, Mom, and the kids...
+Every day's been so much fun.
 -----------------------
 #ルーティ
 Rutee
 -----------------------
 #････で？
-....Huh?
+...And?
 -----------------------
 <Kyle>
 -----------------------
 #それをわかってて
 #こんなこと言うのは
 #自分勝手だって思うんだけど････
-The thing is.
-That is to say.
-I know this is selfish but.....
+I know that, and I know
+saying this anyway makes me
+selfish, but...
 -----------------------
 <Kyle>
 -----------------------
 #旅がしてみたいんだ、オレ
 #広い世界を、自分の足で････
-I want to travel.
-I want to see the world myself....
+I want to go on a journey.
+I want to see the wide world with my own two feet...
 -----------------------
 #ルーティ
 Rutee
 -----------------------
 #旅ですって!?
-Travel!?
+A journey!?
 -----------------------
 #ルーティ
 Rutee
 -----------------------
 #なにいってんの！
 #あんたにゃ、まだ早すぎるわよ！
-Are you nuts!
-You're too young for that!
+What are you saying!
+You're way too young for that!
 -----------------------
 <Kyle>
 -----------------------
 #そんなことないよ
-No, I'm not.
+That's not true.
 -----------------------
 <Kyle>
 -----------------------
 #母さんだってオレぐらいの歳には
 #もういっぱしの
 #レンズハンターだったんだろ？
-You know, Mom, 
-when you were my age,
-weren't you a full blown Lens Hunter?
+Mom, when you were my age,
+you were already a full-fledged
+Lens Hunter, weren't you?
 -----------------------
 <Kyle>
 -----------------------
 #それにオレには
 #父さんの血だって流れてる
-Dad's blood
-flows in my veins too, you know.
+Besides, I've got
+Dad's blood in my veins too.
 -----------------------
 #ルーティ
 Rutee
 -----------------------
 #だから、心配だっての
-I'm just worried.
+That's exactly why I'm worried.
 -----------------------
 #ルーティ
 Rutee
@@ -301,9 +301,9 @@ Rutee
 #とにかく、ダメったらダメ！
 #もう、あんたもだまってないで
 #なんとか言いなさいよ！
-Anyway, it's just no good!
-Come on, stop being so quiet.
-Just say something already!
+Anyway, no means no!
+Come on, stop sitting there so quiet
+and say something!
 -----------------------
 #スタン
 Stahn
@@ -311,37 +311,37 @@ Stahn
 #････････
 #････････････････
 ...
-..........
+...........
 -----------------------
 <Kyle>
 -----------------------
 #止めてもムダだよ
 #じつはもう
 #準備だって終わってるんだ
-You can't stop me.
-Actually, I've
-already finished my preperations.
+It's no use trying to stop me.
+The truth is, I've
+already finished my preparations.
 -----------------------
 <Kyle>
 -----------------------
 #反対されたら
 #このまま出ていく
 If you object,
-then I'm leaving anyway.
+I'm leaving just like this.
 -----------------------
 #ルーティ
 Rutee
 -----------------------
 #<Kyle>、あんた････
-<Kyle>, you....
+<Kyle>, you...
 -----------------------
 #スタン
 Stahn
 -----------------------
 #止めるつもりはないさ
 #行ってくればいい
-I won't stop you.
-You can go.
+I don't intend to stop you.
+Go, if that's what you want.
 -----------------------
 #ルーティ
 Rutee
@@ -352,13 +352,13 @@ Hey, Stahn!
 <Kyle>
 -----------------------
 #父さん････！
-Dad....!
+Dad...!
 -----------------------
 #スタン
 Stahn
 -----------------------
 #ただし、条件がある
-But, I have one condition.
+However, I have one condition.
 -----------------------
 #スタン
 Stahn
@@ -366,14 +366,14 @@ Stahn
 #その旅の中で、たったひとつでいい
 #おまえにとってかけがえのないものを
 #見つけてくるんだ
-When you're out there.
-Look for what's most important to you,
-and don't let go of it.
+During that journey, just one thing is enough.
+Find something irreplaceable to you,
+and bring it back.
 -----------------------
 <Kyle>
 -----------------------
 #かけがえのないもの････
-What's most important....
+Something irreplaceable...
 -----------------------
 #スタン
 Stahn
@@ -381,15 +381,15 @@ Stahn
 #それができるなら
 If I can
 #俺はだまって見送ろう
-If that's possible,
-I'll just watch quietly.
+If you can do that,
+I'll see you off without a word.
 -----------------------
 <Kyle>
 -----------------------
 #わかった････
 #ありがとう、父さん
-Okay....
-Thank you, Dad.
+Got it...
+Thanks, Dad.
 -----------------------
 #ルーティ
 Rutee
@@ -397,9 +397,9 @@ Rutee
 #あ～あ、バッカみたい
 #これじゃ、あたしひとり
 #ヤな女じゃない
-I'm such an idiot.
-In that case, I'm all alone.
-She's quite the unpleasant woman.
+Ahh, I look like such an idiot.
+Now I'm the only one
+playing the bad guy here.
 -----------------------
 #ルーティ
 Rutee
@@ -407,17 +407,17 @@ Rutee
 #････わかったわ
 #スタンがそういうんなら
 #あたしも反対はしない
-....I understand.
+...All right.
 If Stahn says so,
-Then I won't object.
+I won't object either.
 -----------------------
 #ルーティ
 Rutee
 -----------------------
 #気をつけていっといで
 #<Kyle>････
-Take care,
-<Kyle>....
+Take care out there,
+<Kyle>...
 -----------------------
 <Kyle>
 -----------------------
@@ -439,8 +439,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -452,7 +452,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We hope to see you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -463,7 +463,7 @@ exit-party_togather( short spd )
 notice
 -----------------------
 #{16}{25}{D2}{C0}を手に入れました
-{16}{25}{D2}{C0}You obtained .
+Acquired {16}{25}{D2}{C0}.
 -----------------------
 notice
 -----------------------
@@ -474,12 +474,11 @@ notice
 -----------------------
 #{16}{25}{DA}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{25}{DA}{C0}There was , but
-I couldn't hold it because it was full.
+Found {16}{25}{DA}{C0}, but your inventory is full.
+You couldn't pick it up.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

@@ -14,8 +14,8 @@ Heat River
 -----------------------
 #うわっちちち！
 #あ、暑ぃ～！
-Hoo-hoo!
-Ahh, it's hot~!
+Yeowch! Hot!
+Man, it's hot~!
 -----------------------
 <Nanaly>
 -----------------------
@@ -23,13 +23,13 @@ Ahh, it's hot~!
 #たしかにここは暑い所だけど
 #この熱気は異常だよ
 ...That's weird.
-It is true that it's hot here,
-but this heat is abnormal.
+Sure, this place is always hot,
+but this heat is way too intense.
 -----------------------
 <Nanaly>
 -----------------------
 #とにかく、もう少し進んでみようか
-Well, let's keep moving forward for a bit.
+Well, let's keep going a little further.
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -46,8 +46,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -89,4 +89,3 @@ notice
 #何もありません
 There's nothing here.
 -----------------------
-

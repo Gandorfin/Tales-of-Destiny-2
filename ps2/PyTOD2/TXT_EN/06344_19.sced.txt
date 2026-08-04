@@ -1,41 +1,41 @@
 #ダリルシェイド地下水路
-Darilsheid Prison, Underground Canal
+Darilsheid Underground Waterway
 -----------------------
 #ダリルシェイド地下水路
-Darilsheid Prison, Underground Canal
+Darilsheid Underground Waterway
 -----------------------
 #ダリルシェイド地下水路
-Darilsheid Prison, Underground Canal
+Darilsheid Underground Waterway
 -----------------------
 <Judas>
 -----------------------
 #ここが出口だ
 #街の外へとつながっている
 This is the exit.
-It leads to the outskirts of the city.
+It leads outside the city.
 -----------------------
 <Judas>
 -----------------------
 #しかし、思ったより時間がかかったな
 #まったく、僕ひとりなら
 #もっと早く出られたものを････
-However, that certainly took much longer than I had expected.
-Honestly, I could have gotten out of here
-a lot faster had I been alone...
+That took longer than expected.
+Honestly, if I'd been alone,
+I could've gotten out much sooner...
 -----------------------
 <Loni>
 -----------------------
 #はいはい、言ってろよ
 #ったく････
-I know, I know, just keep talking.
+Yeah, yeah, keep talking.
 Geez...
 -----------------------
 <Loni>
 -----------------------
 #<Kyle>、こんなヤツほっといて
 #とっとと孤児院に戻ろうぜ
-<Kyle>, let's ditch this guy and get back
-to the orphanage as soon as possible.
+<Kyle>, let's just leave this guy behind
+and get back to the orphanage already.
 -----------------------
 <Kyle>
 -----------------------
@@ -46,27 +46,27 @@ Ah, right.
 -----------------------
 #どうした？　早くもどって
 #旅に出るんじゃなかったのか？
-What's wrong? Get back here quickly.
-Didn't you say you were going on a journey?
+What's wrong? Hurry back.
+Weren't you going on a journey?
 -----------------------
 <Kyle>
 -----------------------
 #<Judas>
 #ホント、ありがとう！
 <Judas>,
-Really, thank you!
+thank you so much!
 -----------------------
 <Judas>
 -----------------------
 #別に、礼を言われる筋合いはない
-There's no reason for you to thank me.
+You don't need to thank me.
 -----------------------
 <Kyle>
 -----------------------
 #それでも、ありがとう
 #ホントに助かったよ！
 Even so, thanks.
-You really helped us out!
+You really saved us!
 -----------------------
 <Judas>
 -----------------------
@@ -77,8 +77,8 @@ You really helped us out!
 -----------------------
 #それじゃあね、<Judas>
 #またどこかで会えるといいね！
-Well then, later, <Judas>.
-Hopefully, we'll meet again sometime!
+Well, see you later, <Judas>.
+I hope we meet again somewhere!
 -----------------------
 <Judas>
 -----------------------
@@ -93,64 +93,64 @@ What?
 <Judas>
 -----------------------
 #僕は、おまえといっしょに････
-I'd like to go with...
+I want to go with you...
 -----------------------
 <Judas>
 -----------------------
 #････いや、なんでもない
-No, it's nothing.
+...No, it's nothing.
 -----------------------
 <Judas>
 -----------------------
 #英雄になりたければ
 #せいぜい、がんばることだ
 #じゃあな
-If you want to become a hero,
-then I wish you the best of luck.
-See you around.
+If you want to be a hero,
+you'd better do your best.
+See you.
 -----------------------
 <Kyle>
 -----------------------
 #････なんかさ
 #<Judas>って不思議だよね
-It's just...
-<Judas> is weird, isn't it?
+...You know,
+<Judas> is pretty strange, huh?
 -----------------------
 <Loni>
 -----------------------
 #不思議ぃ？
 #ああいうのは不思議じゃなくて
 #「ヘン」っていうんだぞ
-What's so strange about it?
-That's not what you call 'strange'.
-It's called 'weird'.
+Strange?
+That's not strange.
+That's 'weird'.
 -----------------------
 <Kyle>
 -----------------------
 #言い過ぎだよ、<Loni>
 #<Judas>はいい人だよ
-You're exaggerating, .<Loni>
-<Judas> is a decent guy.
+You're exaggerating, <Loni>.
+<Judas> is a good person.
 -----------------------
 <Kyle>
 -----------------------
 #自分ひとりでも、脱出できたのに
 #オレたちを連れ出してくれたりさ
-He could have escaped by himself and all,
-but he brought us along with him instead.
+He could've escaped by himself,
+but he brought us along too.
 -----------------------
 <Kyle>
 -----------------------
 #それに今だって
 #オレのこと、励ましてくれたし！
-Plus, even now...
-You cheered me up too!
+And even just now,
+he was trying to cheer me up!
 -----------------------
 <Loni>
 -----------------------
 #････あのな<Kyle>
 #あれは皮肉だ、励ましじゃない
-Listen, .<Kyle>
+...Listen, <Kyle>.
 That was sarcasm, not encouragement.
 -----------------------
 <Kyle>
@@ -162,15 +162,15 @@ You think so...?
 -----------------------
 #そんなことより、早く孤児院に戻るぞ
 #すっかり遅くなっちまったから、急ごうぜ
-More importantly though, let's hurry back to the orphanage.
-We're late as hell, so we'd better book it.
+Anyway, let's get back to the orphanage.
+We're already way late, so let's hurry.
 -----------------------
 #いってらっしゃいませ
 Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald per night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -180,8 +180,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -215,8 +215,8 @@ notice
 -----------------------
 #{16}{25}{D6}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{D6}{C0} but
-inventory is full already.
+Found {16}{25}{D6}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------

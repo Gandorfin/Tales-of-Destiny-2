@@ -1,13 +1,13 @@
 #チェリク・宿屋
-Cheric Inn
+Cherik Inn
 -----------------------
 #チェリク
 Cherik
 -----------------------
 #カヤに覆われたベッドだ
 #南国だけあって、虫が多いのだろう
-It's a bed covered in moss.
-Given that it's a tropical region, there are probably plenty of bugs.
+A bed draped with mosquito netting.
+Figures there'd be bugs in the tropics.
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -24,8 +24,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -59,7 +59,7 @@ notice
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{C2}{C0} but
+Found {16}{25}{C2}{C0}, but
 inventory is full already.
 -----------------------
 notice
@@ -67,4 +67,3 @@ notice
 #何もありません
 There's nothing here.
 -----------------------
-

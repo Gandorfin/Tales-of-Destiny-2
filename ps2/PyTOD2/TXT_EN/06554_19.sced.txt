@@ -1,5 +1,5 @@
 #黄昏都市レアルタ・配給所
-Dusk City Realta - Distribution Center
+Twilight City Realta - Distribution Center
 -----------------------
 #黄昏都市レアルタ
 Twilight City Realta
@@ -14,32 +14,32 @@ Townsperson
 #これで、母も無事に
 #天に召されることでしょう
 Thank you very much.
-With this, Mother will surely...
-...be called to heaven.
+With this, Mother can finally
+be called to heaven in peace.
 -----------------------
 <Kyle>
 -----------------------
 #ねえ　ＲＥ－５４６０９さんって
 #君のこと？
-What's up, RE-54609?
-You mean me?
+Hey, you're RE-54609, right?
+That's you?
 -----------------------
 #街の人
-People in town
+Townsperson
 -----------------------
 #はい？ＲＥ－５４６０９というのは
 #確かに僕の名前ですが････
 Yes? RE-54609 is...
-That is indeed my name...
+indeed my name, but...
 -----------------------
 <Kyle>
 -----------------------
 #よかった
 #実は、君のお父さんから
 #預かりものがあるんだ
-Good.
-Actually, from your father...
-I have something in my care.
+Great.
+Actually, your father asked me
+to deliver something to you.
 -----------------------
 #街の人
 Townsperson
@@ -47,16 +47,16 @@ Townsperson
 #これは、母さんのレンズ････
 #そうか････母さんは
 #亡くなったんですね
-This is Mother's lens...
-I see... Mother...
-...has passed away.
+This is Mother's Lens...
+I see... So Mother
+has passed away.
 -----------------------
 <Loni>
 -----------------------
 #ああ････そのレンズが
 #形見の品ってわけだ
-Ah... that lens is...
-So it's a memento.
+Ah... so that Lens
+was her keepsake.
 -----------------------
 #街の人
 Townsperson
@@ -64,82 +64,83 @@ Townsperson
 #わざわざ届けてくださって
 #ありがとうございます
 #ええと、あなたのお名前は？
-Thank you for going out of your way to deliver this.
-I appreciate it.
-Um, what's your name?
+Thank you for going out of your way
+to deliver this to me.
+Um, what was your name?
 -----------------------
 <Kyle>
 -----------------------
 #<Kyle>＝デュナミスだよ
-<Kyle> is a Dunamis.
+<Kyle> Dunamis.
 -----------------------
 #街の人
 Townsperson
 -----------------------
 #<Kyle>さん････ですか？
 #ずいぶんと、変わったお名前ですね
-Is that you, <Kyle>?
-What a strange name.
+<Kyle>... was it?
+That's quite an unusual name.
 -----------------------
 #街の人
 Townsperson
 -----------------------
 #ともかく、ありがとうございました
 #これで、母も天に召されることでしょう
-Anyway, thank you very much.
-With that, Mother will surely ascend to heaven.
+At any rate, thank you very much.
+With this, Mother can finally
+be called to heaven.
 -----------------------
 #街の人
 Townsperson
 -----------------------
 #さあ、レンズを砕きましょう！
-Now, let's shatter the lens!
+Now, let us shatter the Lens!
 -----------------------
 <Kyle>
 -----------------------
 #な、なにするんだよ！
 #母さんの形見なんだろ
 #あのレンズは！
-What are you doing!?
-It's my mother's keepsake.
-That lens is!
+Wh-what are you doing!?
+That's your mother's keepsake!
+That Lens!
 -----------------------
 #街の人
-Townsfolk
+Townsperson
 -----------------------
 #肉体が滅び、土へと還る････
 #同時に、レンズを天に還すことで
 #はじめて、死者の魂は無へ還ることができる
 When the body perishes and returns to the earth...
-At the same time, by returning the lens to the heavens,
+At the same time, by returning the Lens to the heavens,
 only then can the souls of the dead return to nothingness.
 -----------------------
 #街の人
-People in town
+Townsperson
 -----------------------
 #そうすれば、次に生まれてくる子に
 #レンズは受け継がれていきますからね
 #当然のことじゃないですか
-If we do that, the next generation of children will
-inherently inherit the Lens.
+If we do that, the next child to be born
+will inherit the Lens, you see?
 It's only natural, isn't it?
 -----------------------
 <Judas>
 -----------------------
 #それを、子供の手でやるのが
 #この世界の風習というわけか････
-To have children handle that...
-So that's just how things are done in this world...
+And having children perform that task
+is the custom in this world, I see...
 -----------------------
 #街の人
-Townspeople
+Townsperson
 -----------------------
 #ありがとうございました
 #これで、母も無事に
 #天に召されることでしょう
 Thank you very much.
-With this, Mother will safely...
-...be called to heaven.
+With this, Mother can finally
+be called to heaven in peace.
 -----------------------
 #街の人
 Townsperson
@@ -147,36 +148,36 @@ Townsperson
 #これは、ほんのお礼です
 #とっておいてください
 This is just a small token of my gratitude.
-Please keep it.
+Please, take it.
 -----------------------
 NOTICE
 -----------------------
 #<item:00000009>を手に入れました
-<item:00000009>You obtained .
+Acquired <item:00000009>.
 -----------------------
 <Kyle>
 -----------------------
 #ねえ、悲しくないの？
 #お母さんが亡くなったのに････
 Hey, aren't you sad?
-Even though Mom passed away...
+Your mother just died...
 -----------------------
 #街の人
-Townspeople
+Townsperson
 -----------------------
 #悲しい？
 #どうして、悲しまなくては
 #いけないのですか？
 Sad?
-Why must you be sad?
-Is that wrong?
+Why must I be sad?
+Is there some reason I should be?
 -----------------------
 <Kyle>
 -----------------------
 #やっぱり、なにかおかしいよ
 #この世界は････
-I still think something's off.
-This world is...
+I knew it. Something's seriously wrong
+with this world...
 -----------------------
 #街の人
 Townsperson
@@ -184,9 +185,8 @@ Townsperson
 #エルレインさまの人口整理政策によって
 #僕はスペランツァからレアルタに
 #移住してきたんです
-Due to Elrain's population control policy,
-I moved from Speranza to Realta.
-That's where I relocated.
+Due to Lady Elrane's population control policies,
+I was relocated from Speranza to Realta.
 -----------------------
 #街の人
 Townsperson
@@ -194,9 +194,9 @@ Townsperson
 #家族とは、別れ別れになりました
 #移住してからは
 #一度も顔をあわせていません
-We've gone our separate ways as a family.
-Since moving away,
-we haven't seen each other once.
+My family and I were separated.
+Since relocating,
+I haven't seen them once.
 -----------------------
 #ショップマシン
 Shop Machine
@@ -210,7 +210,7 @@ select
 -----------------------
 #<03:00000000>　道具　
 #　食材　
-<03:00000000>Items
+<03:00000000> Items
 Ingredients
 -----------------------
 #ショップマシン
@@ -224,7 +224,7 @@ Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald per night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -234,8 +234,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -269,7 +269,7 @@ notice
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{C2}{C0} but
+Found {16}{25}{C2}{C0}, but
 inventory is full already.
 -----------------------
 notice
@@ -277,4 +277,3 @@ notice
 #何もありません
 There's nothing here.
 -----------------------
-

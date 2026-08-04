@@ -1,5 +1,5 @@
 #ホープタウン・<Nanaly>の家
-Hope Town's <Nanaly> House
+<Nanaly>'s House, Hope Town
 -----------------------
 #ホープタウン
 Hope Town
@@ -14,35 +14,35 @@ Hope Town
 <Nanaly>'s place
 -----------------------
 #民家
-residence
+A private home
 -----------------------
 #クマ････らしき生き物の毛皮だ
-It's fur from something resembling a bear...
+Fur from some kind of bear-like creature.
 -----------------------
 #クマ････らしき生き物の毛皮だ
-It's fur from something resembling a bear.
+Fur from some kind of bear-like creature.
 -----------------------
 #クマ････らしき生き物の毛皮だ
-It looks like bear fur.
+Fur from some kind of bear-like creature.
 -----------------------
 #廃材同然の食器が並んでいる
 #ホープタウンでは物を無駄にしないのだろう
-Dishes that are practically scrap metal are lined up.
-In Hope Town, they don't waste anything.
+Dishes that are practically scrap are lined up here.
+In Hope Town, nothing goes to waste.
 -----------------------
 #ルー
 Rue
 -----------------------
 #くるしいよ････
 #<Nanaly>姉ちゃん････
-It's so painful...
-Big Sis <Nanaly>...
+It hurts...
+<Nanaly>...
 -----------------------
 #ルー
 Rue
 -----------------------
 #スゥスゥ････
-Sss...
+Zzz...
 -----------------------
 #ベッドだ････
 It's a bed...
@@ -54,18 +54,18 @@ This is <Nanaly>'s bed...
 This is <Nanaly>'s bed...
 -----------------------
 #つつましやかな家具がある
-There are modest furnishings.
+Modest furnishings.
 -----------------------
 #つつましやかな家具がある
-There are modest furnishings.
+Modest furnishings.
 -----------------------
 NOTICE
 -----------------------
 #<item:00000005>を手に入れました
-<item:00000005>You obtained .
+Acquired <item:00000005>.
 -----------------------
 #なにもありません
-{"translations": ["Nothing."]}}
+There's nothing here.
 -----------------------
 #ドリーム
 Dream
@@ -80,73 +80,73 @@ True
 -----------------------
 #ちょっと待っててね
 #今、ぱぱっと作っちまうからさ
-Hold on just a sec.
+Just hang tight a sec.
 I'll whip it up real quick.
 -----------------------
 <Kyle>
 -----------------------
 #じゃ、いっただっきま～す！
-Well then, let's get going~!
+Well then, let's dig in~!
 -----------------------
 <Kyle>
 -----------------------
 #う、うまい！
 #これ、ホントに
 #みんな<Nanaly>が作ったの？
-It's delicious!
-This is really...
-Did everyone make these, <Nanaly>?
+Mmm, this is great!
+Did you really
+make all this, <Nanaly>?
 -----------------------
 <Nanaly>
 -----------------------
 #あたりまえじゃないか
 #これでも、料理は得意なんだよ
-Of course.
-I'm pretty good at cooking too.
+Well, yeah.
+I'm pretty good at this stuff, y'know.
 -----------------------
 <Loni>
 -----------------------
 #ま、人間だれにでも
 #ひとつぐらいは
 #とりえがあるもんさ
-Well, everyone has
-at least one
-strength to their name.
+Well, everyone's got
+at least one thing
+they're good at.
 -----------------------
 <Nanaly>
 -----------------------
 #････<Loni>
 #あんたやっぱ、メシぬき
-...<Loni>
-You really are skipping meals.
+...<Loni>.
+You're skipping meals again.
 -----------------------
 <Loni>
 -----------------------
 #料理もうまい、弓もうまい
 #腕っぷしは男まさり！
 #いやぁ、<Nanaly>先生、最高！
-She's great at cooking and archery.
-Her fighting skills are even better than most men's!
+Great at cooking, great with a bow...
+And tough as nails to boot!
 Man, <Nanaly>, you're the best!
 -----------------------
 <Nanaly>
 -----------------------
 #腕っぷしは余計だ！
-I don't need extra muscle!
+The tough-as-nails part I could do without!
 -----------------------
 <Kyle>
 -----------------------
 #でもさぁ、ホントにうまいよね！
 #特にこのスープなんか最高だよ！
 #ね、<Reala>？
-It's really delicious!
-This soup is especially amazing!
+But seriously, this is amazing!
+Especially this soup!
 Right, <Reala>?
 -----------------------
 <Kyle>
 -----------------------
 #････<Reala>？
-......<Reala>?
+...<Reala>?
 -----------------------
 <Reala>
 -----------------------
@@ -157,32 +157,32 @@ Huh? Wh-what?
 -----------------------
 #あんまり、食べてないね
 #口に合わなかったかい？
-You haven't been eating much.
+You haven't eaten much.
 Wasn't it to your taste?
 -----------------------
 <Reala>
 -----------------------
 #あ、そんなことないわ････
 #うん、おいしいよ！
-Ah, that's not true...
-Yeah, it's delicious!
+Oh, that's not it...
+It's delicious!
 -----------------------
 <Nanaly>
 -----------------------
 #なら、いいんだけど････
-Well, that's fine...
+Well, good then...
 -----------------------
 <Judas>
 -----------------------
 #食事に夢中になるのもいいが、
 #肝心の話がまだすんでいないんじゃないか？
-It's fine to get lost in your meal,
-but don't you think we still have important matters to discuss?
+Enjoying your meal is fine,
+but don't you think we have more pressing matters to discuss?
 -----------------------
 <Kyle>
 -----------------------
 #肝心の話？
-What about the important part?
+Pressing matters?
 -----------------------
 <Judas>
 -----------------------
@@ -190,31 +190,31 @@ What about the important part?
 #つまり、僕たちのいた時代に戻る方法だ
 #<Reala>、なにか方策はあるのか？
 The past...
-In other words, it's a way to return to our era.
-<Reala>, is there any strategy?
+In other words, a way to return to our own time.
+<Reala>, do you have any ideas?
 -----------------------
 <Reala>
 -----------------------
 #あ、うん
 #そのことなんだけど････
 Ah, yeah.
-About that thing...
+About that...
 -----------------------
 <Loni>
 -----------------------
 #つまりだ
 #過去に帰れることは帰れるが
 #レンズの力が足りないってわけだな？
-In other words,
-While it is possible to return to the past,
-It means the lens's power isn't enough?
+So basically,
+we can go back to the past,
+but we don't have enough Lens power, right?
 -----------------------
 <Reala>
 -----------------------
 #ええ、わたしひとりなら、ともかく
 #みんなと一緒に過去に行くのは････
-Yes, if it's just me, that's one thing
-Going back to the past with everyone else...
+Yes. If it were just me, that would be one thing,
+but taking everyone back...
 -----------------------
 <Nanaly>
 -----------------------
@@ -222,35 +222,35 @@ Going back to the past with everyone else...
 #この先にあるカルビオラって町に
 #巨大なレンズがあるって話を
 #聞いたことがあるんだ
-Then I might know something about it.
-There's a town called Calbira ahead,
-where they say there's a giant lens.
-I've heard that before.
+Then I might know something.
+There's a town called Kalviola ahead
+where they say there's a giant Lens.
+I've heard about it.
 -----------------------
 <Loni>
 -----------------------
 #カルビオラっていやあ
 #たしか、アタモニ神団の
 #神殿があったはずだな
-Calbora, huh?
-It was definitely the...
-The Ammoni Shrine, I believe.
+Kalviola, huh?
+If I recall, the Order of Atamoni
+had a temple there.
 -----------------------
 <Nanaly>
 -----------------------
 #けど、あんたの知ってるカルビオラとは
 #ちがってるかも知れないよ
-But what you know about Calbira might
-differ from reality.
+But the Kalviola you know
+might be completely different now.
 -----------------------
 <Nanaly>
 -----------------------
 #昔はそれなりに栄えてたらしいけど
 #いまじゃ、神さまを守る
 #神官たちがいるだけさ
-It seems it used to be quite prosperous back in the day.
-Nowadays, all that's left is protecting God,
-is just the presence of priests.
+It used to be fairly prosperous, apparently.
+But now it's just priests
+left to watch over their god.
 -----------------------
 <Loni>
 -----------------------
@@ -285,7 +285,7 @@ not even as a rumor.
 <Reala>
 -----------------------
 #カルビオラ････
-Calbora...
+Kalviola...
 -----------------------
 <Loni>
 -----------------------
@@ -304,13 +304,13 @@ N-no, it's nothing.
 #そうね････過去に戻るためにも、
 #カルビオラに向かうのが、いいと思うわ
 That's right... In order to go back to the past,
-I think it would be best to head toward Calbira.
+I think it would be best to head toward Kalviola.
 -----------------------
 <Kyle>
 -----------------------
 #よし、とにかく、カルビオラへ行ってみよう！
 #オレたちの時代に戻るために！
-Alright, anyway, let's head to Calbora!
+Alright, anyway, let's head to Kalviola!
 To return to our own time!
 -----------------------
 notice
@@ -342,7 +342,7 @@ and cook.
 #あたし、トマトきらいなの
 #おねがい食べて～
 I hate tomatoes.
-Please eat it~
+Please eat them~
 -----------------------
 <Nanaly>
 -----------------------
@@ -401,7 +401,7 @@ and cook.
 #お兄ちゃん！
 #ルーをなおす方法
 #見つかったの!?
-Onee-chan!
+Big brother!
 How to cure Rue
 You found it!?
 -----------------------
@@ -443,18 +443,18 @@ Got sick...
 #アタモニ神団の人にも
 #みてもらったんだけど････
 #奇跡でもおきないかぎり助からないって････
-Even the members of the Atamoni Divine Order
-took a look at me...
-and said I wouldn't make it unless a miracle happened...
+Even the members of the Order of Atamoni
+took a look at him...
+and said he wouldn't make it unless a miracle happened...
 -----------------------
 <Nanaly>
 -----------------------
 #でも、あたしイヤだから
 #そんなのイヤだから････
 #病気なおす方法さがしたの！
-I just don't want to.
-That's why I hate it...
-I found a way to cure the illness!
+But I don't want that!
+I hate that so much...
+So I searched for a way to cure the illness!
 -----------------------
 <Nanaly>
 -----------------------
@@ -471,33 +471,33 @@ But I couldn't find it anywhere!!
 #あたし、なんにもしてあげられないよ････
 #どうしたらいいのか、わかんないよ!!
 Rue is suffering so much.
-I can't do anything for her...
+I can't do anything for him...
 I don't know what to do!!
 -----------------------
 <Loni>
 -----------------------
 #だいじょうぶだ････
-I'm fine...
+It'll be alright...
 -----------------------
 <Nanaly>
 -----------------------
 #なにが、だいじょうぶなの！
 #ぜんぜん、だいじょうぶなんかじゃない!!
-What do you mean 'fine'!
-It's not fine at all!!
+What do you mean 'alright'?!
+It's not alright at all!!
 -----------------------
 <Loni>
 -----------------------
 #だいじょうぶなんだよ････
 #俺たちにまかせておけばな！
-I'm fine...
+It'll be alright...
 Just leave it to us!
 -----------------------
 <Nanaly>
 -----------------------
 #お兄ちゃんたち
 #お医者さんなの!?
-Older sisters
+Big brothers
 You're doctors!?
 -----------------------
 <Loni>
@@ -532,8 +532,8 @@ You feel the same way, don't you?
 #うん！
 #ぜったい、助けるべきだと思う！
 #････だけど、いったいどうすれば････
-Yes!
-I definitely think we should save them!
+Yeah!
+I definitely think we should help them!
 ...But what on earth should we do...?
 -----------------------
 <Loni>
@@ -542,7 +542,7 @@ I definitely think we should save them!
 #フィリアさんなら
 #きっと、なんか知ってるだろ！
 Well, you know...
-If it's Filia...
+If it's Philia...
 She probably knows something about it!
 -----------------------
 <Kyle>
@@ -552,24 +552,22 @@ She probably knows something about it!
 #ストレイライズ大神殿にいかなきゃな
 Philia, huh...
 Well then, first off,
-I guess I need to head to the Strayraiz Grand Temple.
+I guess we need to head to the Straylize Grand Temple.
 -----------------------
 <Loni>
 -----------------------
 #ストレイライズ大神殿にいるっていう
 #四英雄の一人が
 #病気の治療に詳しかったはずだ
-They're at the Stray Rize Grand Cathedral.
-One of the Four Heroes
-was supposedly an expert in treating illnesses.
+There's one of the Four Heroes at the Straylize Grand Temple
+who was supposedly an expert in treating illnesses.
 -----------------------
 <Loni>
 -----------------------
 #スタンさんやルーティさんと
 #共に戦ったという人だ
 #きっと力になってくれるはずだ
-Mr. Stan and Rutee,
-is someone I fought alongside.
+Someone who fought alongside Stahn and Rutee.
 They'll surely be a great help.
 -----------------------
 <Nanaly>
@@ -586,8 +584,8 @@ You found it!?
 #ああ！
 #ただ････この薬を飲ませると
 #患者の体の機能が一時的に低下するらしい
-Ah!
-However... if you administer this medicine,
+Yeah!
+But... if you give him this medicine,
 it seems the patient's bodily functions will temporarily decline.
 -----------------------
 <Loni>
@@ -595,9 +593,9 @@ it seems the patient's bodily functions will temporarily decline.
 #その間、容態が急変しないように
 #だれかが数日間、寝ずの看病を
 #する必要があるって････
-During that time, to prevent her condition from taking a sudden turn for the worse,
-someone needs to stay awake for several days
-to provide round-the-clock care...
+During that time, to prevent his condition from taking a
+sudden turn for the worse, someone needs to stay awake
+for several days to provide round-the-clock care...
 -----------------------
 <Nanaly>
 -----------------------
@@ -614,32 +612,32 @@ Huh?
 #お兄ちゃんたちが
 #がんばってくれたんだから
 #こんどはあたしの番だよ！
-Since my older brothers
-have been doing their best,
-it's my turn now!
+You big brothers
+have been doing your best for us,
+so now it's my turn!
 -----------------------
 notice
 -----------------------
 #ベルセリアの秘薬を
 #<Nanaly>に渡しました
-I've got Berserker's Secret Medicine.
-Handed it over to <Nanaly>.
+Gave the Bellseria Secret Medicine
+to <Nanaly>.
 -----------------------
 <Kyle>
 -----------------------
 #オレたちも交代で
 #手伝ってやろうか？
-We'll take turns too.
-Want us to help out?
+Want us to take shifts
+and help out too?
 -----------------------
 <Nanaly>
 -----------------------
 #だいじょうぶ！
 #今度はわたしが
 #ルーを守ってみせるから!!
-I'm okay!
-This time I'll
-protect Rue, so just wait!!
+I'm fine!
+This time, *I'm* the one
+who's going to protect Rue, so just watch!!
 -----------------------
 <Nanaly>
 -----------------------
@@ -647,7 +645,7 @@ protect Rue, so just wait!!
 #あとは、あたしが
 #この子を守ってみせるから!!
 I've given her the medicine!
-As for what comes next, I'll...
+From here on out, I'll...
 protect this child no matter what!!
 -----------------------
 <Loni>
@@ -659,31 +657,31 @@ Don't push yourself too hard...
 -----------------------
 #ムリしなきゃ
 #なおらないんでしょ？
-You're pushing yourself too hard.
-It's not going to get better, is it?
+If I don't push myself,
+it won't get better, right?
 -----------------------
 <Nanaly>
 -----------------------
 #ルーの熱が････
 #すっごく高いんだ････
-Rue's heat...
+Rue's fever...
 It's incredibly high...
 -----------------------
 <Nanaly>
 -----------------------
 #ぬれタオルを頭にのせても
 #すぐ、かわいちゃうの････
-Even if you put a wet towel on your head
-it'll dry up right away...
+Even when I put a wet towel on her forehead,
+it dries up right away...
 -----------------------
 <Loni>
 -----------------------
 #だいじょうぶ････
 #もうすぐ、よくなるって証拠だから
 #気にするな！
-I'm fine...
-It's proof that you'll get better soon.
-Don't worry about it!
+It's okay...
+It means she's about to get better,
+so don't worry!
 -----------------------
 <Nanaly>
 -----------------------
@@ -699,9 +697,9 @@ Sis... I'm right here...
 #病気････なおったら
 #姉ちゃんが････あそんであげるから
 #だから････、だから、がんばらなきゃ････
-When I get better...
-Sis will play with me...
-So... so I have to try hard...
+When you're better...
+Sis will... play with you...
+So... so you have to keep trying...
 -----------------------
 <Loni>
 -----------------------
@@ -715,51 +713,51 @@ You can do it! Just a little more!!
 #ありがとう、お兄ちゃんたち！
 #ルーの病気
 #ほんとになおったみたい！
-Thanks, big brothers!
-Rue's illness
-She really seems to have recovered!
+Thanks, you guys!
+Rue's illness...
+It really looks like she's recovered!
 -----------------------
 <Loni>
 -----------------------
 #だから言っただろうが
 #あれは魔法の薬だってな
 I told you, didn't I?
-That's a magical potion.
+That stuff's basically magic.
 -----------------------
 <Nanaly>
 -----------------------
 #お兄ちゃん
 #魔法使いなの？
-Big brother
-So you're a mage?
+So you're
+a mage?
 -----------------------
 <Loni>
 -----------------------
 #････あのな
-Listen...
+...Listen.
 -----------------------
 <Loni>
 -----------------------
 #どうでもいいけど
 #その「お兄ちゃん」って
 #やめてくれねえかな？
-It's nothing important, but...
-That 'big brother' guy...
-Could you stop it?
+It's not a big deal, but...
+that "big brother" thing...
+Could you cut it out?
 -----------------------
 <Loni>
 -----------------------
 #なんか、おまえに言われると
 #ヘンにくすぐったいっていうか
 #なぜか調子くるっちまうんだよな････
-It's weird, but when you say it to me,
-I get this strange ticklish feeling,
+I dunno, when you say it,
+it gives me this weird, ticklish feeling,
 and somehow I just start getting cocky...
 -----------------------
 <Nanaly>
 -----------------------
 #じゃあ、なんて言えばいいの？
-So, what should I say?
+So what should I call you?
 -----------------------
 <Loni>
 -----------------------
@@ -772,20 +770,20 @@ No honorifics needed.
 -----------------------
 #じゃあ、あたしのことも
 #<Nanaly>って呼んでよ
-So, about me...
-Just call me <Nanaly>, okay?
+Then you should call me
+<Nanaly> too, okay?
 -----------------------
 <Loni>
 -----------------------
 #ああ
 #わかったよ<Nanaly>
-I see.
-Got it.<Nanaly>
+Yeah.
+Got it, <Nanaly>.
 -----------------------
 <Nanaly>
 -----------------------
 #あたしもわかったよ
-I get it too.
+Got it here too.
 -----------------------
 <Loni>
 -----------------------
@@ -793,8 +791,8 @@ I get it too.
 #やっぱ、こっちのほうが
 #しっくりいくな････
 Heh heh.
-I figured as much, this way is...
-...more comfortable.
+Yeah, this feels
+way more natural...
 -----------------------
 #ルー
 Rue
@@ -802,7 +800,7 @@ Rue
 #お兄ちゃんありがとう
 #元気になったよー
 Thanks, big brother.
-I feel great now~
+I feel all better now~
 -----------------------
 notice
 -----------------------
@@ -810,22 +808,22 @@ notice
 #戦闘にはトップメニューの
 #上から四人が参加します
 The party has grown to five members.
-In battle, from the top menu,
-the four characters above will participate.
+In battle, the top four characters
+in the menu will participate.
 -----------------------
 notice
 -----------------------
 #キャラクターにカーソルを合わせて
 #<button:00000038>ボタンで並び変更が行えます
 Move the cursor over a character
-<button:00000038>Press  to change the order
+and press <button:00000038> to change the order.
 -----------------------
 notice
 -----------------------
 #五人目以降は控えメンバーとなりますが、
 #経験値は他のメンバーと同様に入ります
-Anyone beyond the fifth member will serve as reserves,
-but they'll earn experience just like everyone else.
+Anyone beyond the fifth member will be reserves,
+but they'll still earn experience.
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -842,8 +840,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -866,7 +864,7 @@ exit-party_togather( short spd )
 notice
 -----------------------
 #{16}{25}{DA}{C0}を手に入れました
-{16}{25}{DA}{C0}You obtained .
+Acquired {16}{25}{DA}{C0}.
 -----------------------
 notice
 -----------------------
@@ -877,8 +875,8 @@ notice
 -----------------------
 #{16}{25}{E2}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{25}{E2}{C0}There was , but
-I couldn't hold it because it was full.
+Found {16}{25}{E2}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------

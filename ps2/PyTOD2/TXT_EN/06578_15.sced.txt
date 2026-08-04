@@ -1,8 +1,8 @@
 #ラディスロウ
-Radishrow
+Radisrol
 -----------------------
 #ラディスロウ
-Ladislaw
+Radisrol
 -----------------------
 #『確率実験』なる本がある
 #カードをめくると････？
@@ -13,36 +13,36 @@ If you flip over a card...?
 #『このカードを引く確率は
 #５１２／１０２４』
 Blue Card
-The probability of drawing this card is
-512/1024
+'The probability of drawing this card is
+512/1024.'
 -----------------------
 #黄色のカード
 #『このカードを引く確率は
 #２５６／１０２４』
-Yellow card
-The probability of drawing this card is
-256/1024
+Yellow Card
+'The probability of drawing this card is
+256/1024.'
 -----------------------
 #赤のカード
 #『このカードを引く確率は
 #１２８／１０２４』
 Red Card
-The probability of drawing this card is
-128/1024
+'The probability of drawing this card is
+128/1024.'
 -----------------------
 #黒入りカード
 #『このカードを引く確率は
 #６４／１０２４』
-Black-bordered card
-The probability of drawing this card is
-64/1024
+Black-bordered Card
+'The probability of drawing this card is
+64/1024.'
 -----------------------
 #３色カード
 #『このカードを引く確率は
 #６４／１０２４』
-Three-color card
-The probability of drawing this card is
-64/1024.
+Three-color Card
+'The probability of drawing this card is
+64/1024.'
 -----------------------
 #洗濯物のカゴだ
 #汚れた服が押し込められている
@@ -59,30 +59,30 @@ Soldier
 -----------------------
 #ここ最近、酒の配給が無いんだ
 #<item:0000000C>が恋しいぜ
-There's been no liquor rationing lately.
-<item:0000000C>I really miss .
+They haven't been handing out liquor lately.
+I really miss <item:0000000C>.
 -----------------------
 select
 -----------------------
 #<03:00000000>　<item:0000000C>をあげる　
 #　あげない　
-<03:00000000><item:0000000C>I'll give you  .
-No.
+<03:00000000> Give them the <item:0000000C>.
+Don't give them anything.
 -----------------------
 #兵卒
 Soldier
 -----------------------
 #ここ最近、酒の配給が無いんだ
 #<item:0000000C>が恋しいぜ
-There's been no liquor rationing lately.
-<item:0000000C>I'm really missing .
+They haven't been handing out liquor lately.
+I really miss <item:0000000C>.
 -----------------------
 <Kyle>
 -----------------------
 #<item:0000000C>は
 #持ってないなあ
-<item:0000000C>is
-I don't have it.
+<item:0000000C>?
+I don't have any.
 -----------------------
 #兵卒
 Soldier
@@ -91,35 +91,35 @@ Soldier
 #<item:0000000C>をくれるのかい!?
 #そいつはありがとうよ！
 Oh!
-<item:0000000C>You're giving me !?
-I appreciate it!
+You're giving me <item:0000000C>!?
+Thanks a bunch!
 -----------------------
 #兵卒
-soldier
+Soldier
 -----------------------
 #お礼に、面白い事を
 #教えてやるぜ
-As thanks, I'll show you something interesting.
-I'll teach it to ya.
+In return, let me tell you
+something interesting.
 -----------------------
 select
 -----------------------
 #<03:00000000>　ベルセリウムのヒミツ　
 #　戦闘称号のヒミツ　
 #　ソーサラースコープのヒミツ　
-<03:00000000>The Secrets of Berserium
-The Secrets of Battle Titles
-The Secrets of Sorcerer Scope
+<03:00000000> The Secret of Berserium
+The Secret of Battle Titles
+The Secret of the Sorcerer's Scope
 -----------------------
 #兵卒
-soldier
+Soldier
 -----------------------
 #ベルセリウムってのは
 #強力な武具の原料になる
 #鉱石の事だ
-Berserium is...
-a mineral used as raw material for powerful weapons.
-specifically.
+Berserium is a mineral
+that serves as raw material
+for powerful equipment.
 -----------------------
 #兵卒
 Soldier
@@ -128,48 +128,48 @@ Soldier
 #なにか作ってもらえるかも
 #しれないな
 If you give it to a skilled blacksmith,
-they might craft something for us.
-I suppose.
+they might be able to craft
+something for you.
 -----------------------
 #兵卒
 Soldier
 -----------------------
 #ベルセリウムは、よく『スパイラルケイブ』で
 #見付かるらしいぜ
-Berserium is said to be found in the Spiral Cave.
-It seems you can find it there.
+They say Berserium is often found
+in the Spiral Cave.
 -----------------------
 #兵卒
 Soldier
 -----------------------
 #戦闘終了後に得られる称号ってのが
 #あるんだよ
-There's something called a title you get after finishing a battle.
-You know.
+There are titles you can earn
+after finishing battles.
 -----------------------
 #兵卒
 Soldier
 -----------------------
 #普段と違う事をすれば
 #なにか得られるかもしれないぜ？
-If you try something different from your usual routine,
-you might just gain something new?
+If you do things differently than usual,
+you might earn something new.
 -----------------------
 #兵卒
 Soldier
 -----------------------
 #バカみたいなことでもいいから
 #色々とやってみることだな
-Even if it's something silly,
-you should try doing various things.
+Even if it seems stupid,
+just try doing all kinds of things.
 -----------------------
 #兵卒
 Soldier
 -----------------------
 #お前さんが今まで通ってきた道を
 #思い出してみろよ
-The path you've walked so far,
-try to remember it.
+Think back on the path
+you've walked so far.
 -----------------------
 #兵卒
 Soldier
@@ -177,7 +177,7 @@ Soldier
 #あやしい場所や
 #行けなかった道があっただろ？
 There were suspicious places,
-and paths you couldn't reach before, right?
+and paths you couldn't reach, right?
 -----------------------
 #兵卒
 Soldier
@@ -185,81 +185,78 @@ Soldier
 #ソーサラースコープを使えば
 #新しい発見があるかもしれないぜ
 #どこぞの遺跡の入口とか、な
-If you use a Solsal Scope,
-I might make some new discoveries.
-like an entrance to some ancient ruins.
+If you use a Sorcerer's Scope,
+you might make some new discoveries.
+Like the entrance to some ruins, maybe.
 -----------------------
 #兵卒
-soldier
+Soldier
 -----------------------
 #なんだい
 #聞かなくていいのかい？
-What's up?
+What's the matter?
 You don't want to hear it?
 -----------------------
 #子供
-Kid
+Child
 -----------------------
 #ボクのパパは兵隊さんなんだ
 My dad is a soldier.
 -----------------------
 #子供
-Kid
+Child
 -----------------------
 #でもこの前、出ていったきり
 #もどってこないの
-But since they left before...
-they haven't come back.
+But he went away a while ago
+and never came back.
 -----------------------
 #子供
-Kid
+Child
 -----------------------
 #他の兵隊さんは
 #『パパは天国に行った』って
 #言うんだけど、そこドコかな？
-As for the other soldiers,
-"Dad went to heaven," they say.
-But where is that place?
+The other soldiers say
+'Daddy went to heaven,'
+but where is that?
 -----------------------
 #子供
-Kid
+Child
 -----------------------
 #パパは、いつもどってくるんだろ？
-Dad's coming back soon, right?
+Dad always comes back, doesn't he?
 -----------------------
 #子供
-Kid
+Child
 -----------------------
 #ここの兵隊さん
 #『君のパパは天国に行った』って
 #言うんだ
 The soldiers here
-'Your daddy went to heaven,' they say.
-That's what they tell you.
+say your daddy went to heaven.
 -----------------------
 #子供
-Kid
+Child
 -----------------------
 #ママもそこへ行ったって
 #聞いたんだけど････
-I heard Mom went there too.
-But I did hear about it...
+I heard Mama went there too...
 -----------------------
 #子供
-Kid
+Child
 -----------------------
 #戦争が終われば、ボクも
 #そこへ行けるのかなあ？
-Once the war is over, I...
-will I be able to go there?
+Once the war is over,
+will I be able to go there too?
 -----------------------
 #子供
-Kid
+Child
 -----------------------
 #パパもママも
 #いつもどってくるんだろ？
-Dad and Mom too
-They'll come back just like always, right?
+Dad and Mom always come back, don't they?
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -276,8 +273,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -289,7 +286,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We hope to see you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -311,8 +308,8 @@ notice
 -----------------------
 #{16}{25}{D2}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{25}{D2}{C0}There was , but
-I couldn't hold it because it was full.
+Found {16}{25}{D2}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------

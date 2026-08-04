@@ -1,24 +1,24 @@
 #アイグレッテ・民家
-Iggreta - Residence
+Aigrette - Residence
 -----------------------
 #アイグレッテ
-Igret
+Aigrette
 -----------------------
 #民家
-residence
+Residence
 -----------------------
 NOTICE
 -----------------------
 #<item:00000068>を手に入れました
-<item:00000068>You obtained .
+Acquired <item:00000068>.
 -----------------------
 #母親
 Mother
 -----------------------
 #うち、たくさんネコがいるでしょう？
 #「ネコ好きのじいさん」にもらったのよ
-We have lots of cats, right?
-I got them from an old man who loves cats.
+We have a lot of cats, don't we?
+I got them from the "cat-loving old man."
 -----------------------
 #母親
 Mother
@@ -27,10 +27,9 @@ Mother
 #我が子のように
 #ネコをかわいがっている
 #おじいさんよ
-Nobody knows his real name,
-but he treats them
-like they were his own children.
-That old man.
+Nobody knows his real name, but he's
+an old man who dotes on cats
+as if they were his own children.
 -----------------------
 #母親
 Mother
@@ -39,10 +38,10 @@ Mother
 #天を覆った外殻によって
 #多くの人が生命力を吸われたわ････
 #もちろん、動物もね････
-During the unrest eighteen years ago,
+During the upheaval eighteen years ago,
 the outer shell that covered the sky
-drained the life force from many people...
-and of course, animals too...
+drained the life force from countless people...
+and animals, too...
 -----------------------
 #母親
 Mother
@@ -50,9 +49,9 @@ Mother
 #さっき話した「ネコ好きのじいさん」の
 #飼いネコも全滅してしまったの････
 #おじいさんの嘆きようったらなかった････
-The "cat-loving old man" I mentioned earlier...
-His cats all perished as well...
-The old man's lament was truly heartbreaking...
+The "cat-loving old man" I mentioned earlier
+lost every cat he had...
+I've never heard such grief...
 -----------------------
 #母親
 Mother
@@ -60,9 +59,9 @@ Mother
 #でも、おじいさんは
 #世界に平和が戻ったあと
 #もう一度、ネコの世話をはじめたわ
-But Grandpa...
-After peace was restored to the world,
-He started taking care of cats again.
+But after peace returned to the world,
+that old man began caring for cats
+once again.
 -----------------------
 #母親
 Mother
@@ -70,17 +69,16 @@ Mother
 #ここにいるネコは、
 #そのネコたちの
 #子孫かもしれないわね････
-The cats here,
-those cats'
-might be their descendants...
+The cats here might even be
+descendants of those he raised...
 -----------------------
 #女の子
 Girl
 -----------------------
 #あたしのお母さん
 #ずっと病気だったの
-My mother
-She was sick for so long
+My mother was sick
+for the longest time.
 -----------------------
 #女の子
 Girl
@@ -88,9 +86,8 @@ Girl
 #でも、エルレインさまが
 #奇跡でお母さんの病気を
 #治してくれたんだよ！
-But, Lady Elraine...
-performed a miracle to cure Mother's illness.
-She healed her!
+But Lady Elrane performed a miracle
+and cured her illness!
 -----------------------
 #女の子
 Girl
@@ -98,9 +95,8 @@ Girl
 #あたしも、大きくなったら
 #聖女さまみたいに
 #なりたいな！
-When I grow up,
-I want to be just like
-the Saintess!
+When I grow up, I want to be
+just like the Holy Woman!
 -----------------------
 #女の子
 Girl
@@ -108,25 +104,23 @@ Girl
 #あっ、おねえちゃんのペンダント
 #エルレインさまとおそろいだね！
 #いいなぁ～！
-Oh, your pendant!
-It matches Elrein-sama's!
-How nice~!
+Oh, your pendant matches
+Lady Elrane's! Lucky~!
 -----------------------
 #女の子
 Girl
 -----------------------
 #おねえちゃんのペンダント
 #あたしも欲しいなあ
-My sister's pendant.
-I want one too.
+I want a pendant too...
 -----------------------
 #女の子
 Girl
 -----------------------
 #あたしのお母さん
 #ずっと病気だったの
-My mother
-She was sick for so long
+My mother was sick
+for the longest time.
 -----------------------
 #女の子
 Girl
@@ -134,7 +128,7 @@ Girl
 #でも、フィリアさまのおかげで
 #こんなに元気になったんだよ！
 But thanks to Lady Philia,
-I've recovered so much energy!
+she's all better now!
 -----------------------
 #女の子
 Girl
@@ -142,12 +136,11 @@ Girl
 #あたしも、大きくなったら
 #フィリアさまみたいに
 #なりたいな！
-When I grow up,
-I want to be just like
-Philia-sama!
+When I grow up, I want to be
+just like Lady Philia!
 -----------------------
 #にゃあ
-Meow
+Meow.
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -164,8 +157,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -199,8 +192,8 @@ notice
 -----------------------
 #{16}{25}{D2}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{25}{D2}{C0}There was , but
-I couldn't hold it because it was full.
+Found {16}{25}{D2}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------

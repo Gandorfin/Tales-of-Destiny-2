@@ -2,12 +2,12 @@
 Old Darilsheid - Inn
 -----------------------
 #古都ダリルシェイド
-Old Darilsheid City
+Old Darilsheid
 -----------------------
 #安物のベッドだ････
 #ここで寝ても、疲れは取れないだろう････
 It's a cheap bed....
-Even if you sleep here, you won't get tired....
+Sleeping here won't do much to relieve your fatigue....
 -----------------------
 #メイドさん
 Maid
@@ -15,9 +15,9 @@ Maid
 #それにしても、ヒマ････
 #やることがないっていうのも
 #結構、ツラいんですよぉ
-Anyway, free time....
-There's nothing to do.
-I'm so bored.
+Still, I've got so much free time....
+Having nothing to do is
+actually pretty rough, you know?
 -----------------------
 #メイドさん
 Maid
@@ -25,9 +25,8 @@ Maid
 #はぁ、今日もお客さまは
 #常連の方のひとりだけ････
 #お仕事なくて、タイクツだわぁ
-Well, today there's only
-One of the regular customers....
-So there's very little work to do.
+*sigh* Just one regular today, too....
+With so little work, I'm bored out of my mind.
 -----------------------
 #メイドさん
 Maid
@@ -35,18 +34,17 @@ Maid
 #この街に港があったころは
 #ロビーなんか、お客さまで
 #あふれ返ってたらしいですけどね
-When there was a port here.
-The lobby was just 
-overflowing with customers.
+Back when this city still had a port,
+they say the lobby was overflowing
+with customers.
 -----------------------
 <Kyle>
 -----------------------
 #経営がタイヘンなのは
 #うちの孤児院だけじゃ
 #ないんだな････
-It's not just our
-orphanage that's 
-hard to manage...
+So it's not just our orphanage
+that's struggling to stay afloat....
 -----------------------
 #メイドさん
 Maid
@@ -54,9 +52,9 @@ Maid
 #ね、あなたたち、よかったら
 #このホテルに泊まってかない？
 #お仕事がなくて、ヒマなんですぅ
-Hey, you guys, if you like.
-You like to stay at the hotel?
-I'm not working, so I'm free.
+Hey, you guys, if it's all right,
+would you stay at this hotel?
+I've got no work, so I'm free.
 -----------------------
 #メイドさん
 Maid
@@ -64,9 +62,9 @@ Maid
 #ね、おねがい
 #あなたたちのお世話を
 #あたしにさせて★
-Hey, please.
+Hey, please?
 Let me take care
-of you guys★.
+of you guys★
 -----------------------
 #メイドさん
 Maid
@@ -74,9 +72,9 @@ Maid
 #ね、あなたたち、よかったら
 #泊まってかない？
 #お仕事がなくて、ヒマなんですぅ
-Hey, you guys, if you like.
-You want to stay at the hotel?
-I'm not working, so I'm free.
+Hey, you guys, if it's all right,
+would you stay here?
+I've got no work, so I'm free.
 -----------------------
 #メイドさん
 Maid
@@ -84,33 +82,33 @@ Maid
 #ね、おねがい
 #あなたたちのお世話を
 #あたしにさせて★
-Hey, please.
+Hey, please?
 Let me take care
-of you guys★.
+of you guys★
 -----------------------
 <Loni>
 -----------------------
 #よっしゃあッ！させたる！！
 #さあ、一番高い部屋に
 #案内してもらおうかッ！
-Alright!  Let me do it!!
-Let me show you to
-the tallest room!
+Heck yeah! I'm in!!
+C'mon, show me to
+the fanciest room you've got!
 -----------------------
 <Nanaly>
 -----------------------
 #ちょっと、なに乗せられてるんだよ！
 #まったく････
-Hey, what are you carrying!
-Jeez....
+Hey, don't let her play you like that!
+Honestly....
 -----------------------
 #メイドさん
 Maid
 -----------------------
 #あ～ん、ヒマ～！
 #もう帰っちゃおうかなぁ！
-Ahh, free time!
-I'm ready to go home!
+Ahh, I'm so bored~!
+Maybe I'll just head home!
 -----------------------
 #メイドさん
 Maid
@@ -118,9 +116,9 @@ Maid
 #わたし新婚だもん
 #早く帰って愛しのダーリンと
 #イチャイチャしたいですよぅ
-I'm a newlywed.
-I want to go home and flirt 
-with my beloved darling.
+I'm a newlywed, after all.
+I wanna get home quick and be all lovey-dovey
+with my darling husband~
 -----------------------
 #メイドさん
 Maid
@@ -128,9 +126,9 @@ Maid
 #たとえ、今日がツラくても
 #信じてがんばれば、明日はきっと
 #いいことがある････
-Even if today is tough
-If you believe and try your best
-Tomorrow something good will happen....
+Even if today's been rough,
+if you keep believing and doing your best,
+something good's bound to come tomorrow....
 -----------------------
 #メイドさん
 Maid
@@ -138,7 +136,7 @@ Maid
 #今日も、お客さまが少なかった
 #でも、がんばるぞぉ！
 #････とか、そんな感じ？
-Even if there are few customers,
+Not many customers again today, but
 I'll do my best!
 ....Or something like that?
 -----------------------
@@ -147,9 +145,9 @@ I'll do my best!
 #そんな感じ？
 #とか、言われてもなぁ････
 #でも、そうだと思うよ
-Like this?
-I can't wait to see you again....
-I think so.
+Something like that?
+I mean, I dunno what to tell you....
+But yeah, I think that's right.
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -166,8 +164,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -201,12 +199,11 @@ notice
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{C2}{C0} but
-inventory is full already.
+Found {16}{25}{C2}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

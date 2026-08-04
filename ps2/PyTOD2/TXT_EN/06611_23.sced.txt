@@ -1,127 +1,127 @@
 #ダイクロフト
-Dycrof
+Dycroft
 -----------------------
 #ダイクロフト
-Dycrof
+Dycroft
 -----------------------
 <Kyle>
 -----------------------
 #いた！
 #ディムロスさんたちだ！
 There!
-It's Dimros and the others!
+It's Dymlos and the others!
 -----------------------
 #カーレル
-Carrel
+Karell
 -----------------------
 #ミクトラン、覚悟ッ!!
-Mictlan, get ready!!
+Kronos, prepare yourself!!
 -----------------------
 #ミクトラン
-Mictlan
+Kronos
 -----------------------
 #ぐおおぉぉぁぁぁッ!!
 Grooooaah!!
 -----------------------
 #ミクトラン
-Mictlan
+Kronos
 -----------------------
 #私とて天上の王と呼ばれた男
 #ムダ死にはしないッ！
-Even I am called the King of Heaven.
-My death won't be in vain!
+I was once called the King of the Aeth'er.
+I shall not die in vain!
 -----------------------
 #カーレル
-Carrel
+Karell
 -----------------------
 #ぐああああぁっ！
 Guaaah!
 -----------------------
 #カーレル
-Carrel
+Karell
 -----------------------
 #････離しは････ゲフッ！
 #････････離しは････しない！
-...I won't let go... *Guh*!
-...I'm not letting go...
+...I won't let... *Guh*!
+...I'm not... letting go!
 -----------------------
 #ミクトラン
-Mictlan
+Kronos
 -----------------------
 #うぐあああぁぁーーッ!!!!
-Aghhhhh!!!
+Ughaaaaah!!!!
 -----------------------
 <Harold>
 -----------------------
 #兄さんっ！
 #しっかりして、兄さんっ！
 Brother!
-Snap out of it, brother!
+Hang in there, brother!
 -----------------------
 #カーレル
-Carrel
+Karell
 -----------------------
 #<Harold>････
 #････ハハ、ヘンだな････
 #幻聴････か？
 <Harold>...
-...Haha, how strange...
+...Heh, how strange...
 An auditory hallucination...?
 -----------------------
 #カーレル
-Carrel
+Karell
 -----------------------
 #････いつも････なら････
 #兄貴って････
 ...Always... if it's always...
-Brother...
+...big brother...
 -----------------------
 <Harold>
 -----------------------
 #しゃべっちゃダメ、傷口が広がる！
-Don't talk! It'll make the wound worse!
+Don't talk! You'll open your wound!
 -----------------------
 #カーレル
-Carrel
+Karell
 -----------------------
 #････どうした、<Harold>？
 #なに････泣いてんだ････？
-What's wrong, <Harold>?
-What... why are you crying...?
+...What's wrong, <Harold>?
+Why... are you crying...?
 -----------------------
 #カーレル
-Carrel
+Karell
 -----------------------
 #また････だれかに････いじめられた････か？
 #････あんし････ん････しろ････
 #････にいちゃん････が････まも････て････
-Were... were you bullied again?
-...R-relax...
-...Big brother... protected me...
+Did... did someone... bully you again?
+...D-don't... worry...
+...Big brother... will... protect... you...
 -----------------------
 <Harold>
 -----------------------
 #しゃべっちゃ、ダメだってばッ!!
-I told you to stop talking!!
+I said don't talk!!
 -----------------------
 #カーレル
-Carrel
+Karell
 -----------------------
 #････にいちゃ････････は････
 #････････いつ････も････
 #････おま････え････････
-...to you...
+...to... you...
 ...always...
 ...you...
 -----------------------
 #カーレル
-Carrel
+Karell
 -----------------------
 #････いっ････しょ････
 #････････だ････････
 #････････
-...together...
-...it's...
+...to... gether...
+...we'll...
 ...
 -----------------------
 <Harold>
@@ -134,7 +134,7 @@ Brother...?
 #兄さん！
 #目を覚まして、兄さんッ!!
 Brother!
-Wake up, brother!!
+Open your eyes, brother!!
 -----------------------
 #ディムロス
 Dymlos
@@ -142,17 +142,17 @@ Dymlos
 #<Harold>････
 #････カーレルは、もう････
 <Harold>...
-...Carrel is already...
+...Karell is already...
 -----------------------
 <Harold>
 -----------------------
 #････にい････さ････
-...ni... sa...
+...Bro... ther...
 -----------------------
 <Harold>
 -----------------------
 #兄さぁぁぁーーーんッ!!!!
-Brother!!!
+Brotheeeeer!!!!
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -169,8 +169,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -204,7 +204,7 @@ notice
 -----------------------
 #{16}{25}{CA}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{CA}{C0} but
+Found {16}{25}{CA}{C0}, but
 inventory is full already.
 -----------------------
 notice
@@ -212,4 +212,3 @@ notice
 #何もありません
 There's nothing here.
 -----------------------
-

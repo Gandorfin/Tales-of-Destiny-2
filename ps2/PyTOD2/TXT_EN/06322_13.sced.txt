@@ -22,20 +22,20 @@ There's a <item:00000059>.
 -----------------------
 #キレイにたたまれた洗濯物が
 #カゴに入っている
-The laundry is folded
-neatly in a basket.
+Neatly folded laundry sits
+in a basket.
 -----------------------
 #レンズ製湯わかし機のおかげで
 #風呂はいつでも焚きたてだ
-Thanks to the hot water lens heater,
-the bath is always fresh.
+Thanks to the Lens-powered water heater,
+the bath is always piping hot.
 -----------------------
 <Kyle>
 -----------------------
 #のんびりと風呂に入ってる
 #場合じゃないよな････
 This is no time for
-a leisurely bath.
+a leisurely bath...
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -52,8 +52,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -95,4 +95,3 @@ notice
 #何もありません
 There's nothing here.
 -----------------------
-

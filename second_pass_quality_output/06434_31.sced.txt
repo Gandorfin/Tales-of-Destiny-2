@@ -706,9 +706,9 @@ Young Man
 #城がおそわれたというのに
 #平然と商品の仕入れに出かけた父に
 #ぼくは、怒ったんです
-The castle was attacked,
-and my father went out to buy goods like nothing had happened.
-I was furious at him.
+The castle had been attacked,
+yet Father left to buy supplies.
+I was furious with him.
 -----------------------
 #若者
 Young Man
@@ -1200,9 +1200,9 @@ Woman
 #城は未だ痛々しい姿を残していますが
 #人々の笑顔や希望は、以前と変りません
 #むしろ、前より輝いています
-The castle still bears its painful scars,
-but the people's smiles and hope remain unchanged.
-If anything, they shine brighter than ever.
+The castle still bears deep scars,
+but hope and smiles remain.
+They shine brighter than before.
 -----------------------
 #女性
 Woman
@@ -2417,10 +2417,9 @@ Yeah, it's better not to circle around back there.
 #しかし戦況を見極めてくると、
 #そのペナルティを補える働きが
 #出来るかもしれないな
-You can generally think of it that way.
-However, once you learn to read the battlefield,
-you might find ways to work around
-that penalty.
+That's generally the right idea.
+But read the battle, and you may
+find a way around that penalty.
 -----------------------
 #セオリーが全て正しいとは限らないさ
 Theory isn't always right.

@@ -1,19 +1,19 @@
 #アクアヴェイル・旅籠シデン
-Aqua Vale - Inn Sidon
+Aquaveil - Inn Shiden
 -----------------------
 #アクアヴェイル
-Aqua Veil
+Aquaveil
 -----------------------
 #旅籠シデン
 Inn Shiden
 -----------------------
 #緑豊かな庭園が広がっている
-A lush garden stretches out before us.
+A lush garden stretches out before you.
 -----------------------
 #アクアヴェイルの『ワビ・サビ』の文化を反映した
 #質素で慎ましやかな調度品がある
-Reflecting the culture of 'wabi-sabi' in Aqua Veil
-There are simple and modest furnishings.
+Simple, modest furnishings reflect
+Aquaveil's culture of 'wabi-sabi'.
 -----------------------
 #おかみ
 Innkeeper
@@ -22,42 +22,40 @@ Innkeeper
 #大したおもてなしはできまへんけど
 #ゆるりとしていっとくんなはれや
 Welcome to Shiden.
-It's not much of a welcome, but...
-Just take it easy for now.
+I can't offer much in the way of hospitality,
+but please, make yourself at home.
 -----------------------
 #おかみ
 Innkeeper
 -----------------------
 #街の人
-Townspeople
+Townsperson
 -----------------------
 #メイワクなことに、たまに広場で
 #ストリートライブをやるんだよ
-Unfortunately, they occasionally hold street performances in the plaza.
-They put on street live shows.
+It's a real nuisance, but sometimes they hold
+street concerts in the plaza.
 -----------------------
 #街の人
-Townspeople
+Townsperson
 -----------------------
 #ジョニーさまの歌を
 #聞いたことあるかい？
 #もしまだなら、気をつけなさい
-Do you know Johnny's song?
-HAVE YOU HEARD IT?
-If not, watch out.
+Have you ever heard Lord Johnny's songs?
+If you haven't, you'd best be careful.
 -----------------------
 #街の人
-Townsfolk
+Townsperson
 -----------------------
 #なにせ、うっかり耳にして
 #そのまま三日三晩目が覚めなかった人も
 #いるくらいなんだから
-After all, it's not uncommon to hear something in passing
-and have people who don't wake up for three days and nights
-as a result
+Why, some folks have accidentally overheard them
+and gone three whole days and nights without sleep.
 -----------------------
 #いってらっしゃいませ
-Have a good day.
+Please come again.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
@@ -71,11 +69,11 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
-Have a good night.
+Please rest well.
 -----------------------
 #おはようございます
 Good morning.
@@ -84,7 +82,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We hope to see you again.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -106,12 +104,11 @@ notice
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{C2}{C0} but
-inventory is full already.
+Found {16}{25}{C2}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

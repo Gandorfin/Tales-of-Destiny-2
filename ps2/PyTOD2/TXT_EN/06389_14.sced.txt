@@ -1,63 +1,63 @@
 #ストレイライズ大神殿
-Straylise Grand Temple
+Straylize Grand Temple
 -----------------------
 #ストレイライズ大神殿
-Straylise Grand Temple
+Straylize Grand Temple
 -----------------------
 #ストレイライズ神殿
-Straylise Temple
+Straylize Temple
 -----------------------
 #ストレイライズ神殿
-Straylise Temple
+Straylize Temple
 -----------------------
 #地理に関する書物が収められている
 #『神の眼を巡る騒乱』で、地形が大きく変わったと
 #記述されている
-A collection of books on geography is stored here.
-It describes how the terrain changed drastically during the 'Upheaval of the Divine Eye'.
-As recorded.
+This shelf holds books on geography.
+They describe how the terrain changed drastically
+during the 'Upheaval of the Eye of Atamoni'.
 -----------------------
 #地理に関する書物が収められている
 #････フィッツガルド大陸には『白雲の尾根』と
 #呼ばれる霧に閉ざされた尾根があると記述されている
-Contains books on geography.
-...On the Fitzgald Continent, there is
-a ridge shrouded in mist known as 'White Cloud Ridge'.
+This shelf holds books on geography.
+...One mentions a mist-shrouded ridge on the
+Fitzgald continent known as 'White Cloud Ridge'.
 -----------------------
 NOTICE
 -----------------------
 #<item:00000003>を手に入れました
-<item:00000003>You obtained .
+Acquired <item:00000003>.
 -----------------------
 #『カルバレイス大陸を歩く』
 #････過酷な気候のカルバレイス大陸を歩いて回った
 #冒険者の話だ
-Walking across the Calvados Continent
-...I walked around the harsh climate of the Calvados Continent
-It's an adventurer's tale.
+'Walking the Calvalese Continent'
+...The tale of an adventurer who traveled
+the harsh lands of Calvalese on foot.
 -----------------------
 #砂漠にうち捨てられた多くの宝を拾って
 #財を成した、とある
 #････カルバレイス地方には、まだ多くの宝が
 #眠っているのかもしれない
-I've picked up many treasures left behind in the desert.
-He made his fortune.
-...There may still be many treasures hidden in the Calvary region.
-Lying dormant.
+It says he gathered treasures abandoned in the desert
+and made his fortune.
+...Perhaps many more treasures still lie
+sleeping in the Calvalese region.
 -----------------------
 #『異文化の地・アクアヴェイル』
 #････特殊な文化と歴史を持つ
 #アクアヴェイル地方について説明した本だ
-The land of Aquavelle, steeped in foreign culture
-...a place with its own unique culture and history
-A book explaining the region of Aquavelle
+'Aquaveil: A Land of Foreign Culture'
+...A book describing the Aquaveil region,
+with its unique culture and history.
 -----------------------
 #世界の北東に位置する多島海を総称して
 #アクアヴェイル地方と呼ぶ、とある
 #機会があったら行ってみるのも良いかもしれない
-The archipelago located in the northeast of the world is collectively known as
-Aqua Vale region,
-If you get the chance, it might be worth visiting.
+It says the archipelago in the northeast
+of the world is collectively called Aquaveil.
+Might be worth visiting if you ever get the chance.
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -74,8 +74,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -98,7 +98,7 @@ exit-party_togather( short spd )
 notice
 -----------------------
 #{16}{25}{B6}{C0}を手に入れました
-{16}{25}{B6}{C0}You obtained .
+Acquired {16}{25}{B6}{C0}.
 -----------------------
 notice
 -----------------------
@@ -109,12 +109,11 @@ notice
 -----------------------
 #{16}{25}{BE}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{25}{BE}{C0}There was , but
-I couldn't carry it because it was full.
+Found {16}{25}{BE}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

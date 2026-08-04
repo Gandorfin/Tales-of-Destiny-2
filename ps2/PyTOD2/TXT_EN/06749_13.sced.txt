@@ -1,5 +1,5 @@
 #アイグレッテ
-Igret
+Aigrette
 -----------------------
 #アイグレッテ
 Aigrette
@@ -7,7 +7,7 @@ Aigrette
 #宗教的な道具が入っている
 #何に使うのか、サッパリ分からない
 It contains religious implements.
-I have no idea what they're for.
+I have no idea what they're used for.
 -----------------------
 #カラッポの引き出しだ
 It's an empty drawer.
@@ -15,7 +15,7 @@ It's an empty drawer.
 #『お布施箱』なる箱が置かれている
 #中にはレンズが入っている
 There's an offering box labeled 'Donation Box'.
-Inside is a lens.
+Inside is a Lens.
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -32,8 +32,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -67,7 +67,7 @@ notice
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{C2}{C0} but
+Found {16}{25}{C2}{C0}, but
 inventory is full already.
 -----------------------
 notice
@@ -75,4 +75,3 @@ notice
 #何もありません
 There's nothing here.
 -----------------------
-

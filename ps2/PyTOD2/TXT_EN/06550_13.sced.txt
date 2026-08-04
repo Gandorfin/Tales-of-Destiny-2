@@ -10,9 +10,8 @@ Man
 #よくもまあ、命のレンズなしで
 #ドームの外に、出られるもんだ
 #あんたたち、チャレンジャーだね！
-You actually managed to pull it off without a Life Lens.
-To head out beyond the dome...
-You guys are real challengers!
+I can't believe you'd go outside the dome without a Life Lens.
+You folks are real challengers!
 -----------------------
 #おじさん
 Man
@@ -20,18 +19,17 @@ Man
 #あんたたち、外から来たのかい!?
 #ああっ、レンズも持たないで！
 #ホントに大丈夫なのかい!?
-You guys came from out there!?
-Ah, you didn't bring your lens!
-Are you really sure about this!?
+You came from outside!?
+And without a Lens, no less!
+Are you really gonna be okay!?
 -----------------------
 <Nanaly>
 -----------------------
 #やれやれ････
 #ここでも、おんなじようなことを
 #聞かれるんだね････
-Sigh...
-We're going through the same thing here too.
-I suppose I have to hear it again...
+Geez...
+Guess we get the same questions here too.
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -48,8 +46,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -83,7 +81,7 @@ notice
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{C2}{C0} but
+Found {16}{25}{C2}{C0}, but
 inventory is full already.
 -----------------------
 notice
@@ -91,4 +89,3 @@ notice
 #何もありません
 There's nothing here.
 -----------------------
-

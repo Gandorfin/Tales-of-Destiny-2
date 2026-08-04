@@ -1,8 +1,8 @@
 #神のたまご・上層部
-God's Egg - Upper Layer
+Egg of God - Upper Layer
 -----------------------
 #神のたまご・上層部
-The Upper Region of the Divine Egg
+Egg of God - Upper Layer
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -19,8 +19,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -62,4 +62,3 @@ notice
 #何もありません
 There's nothing here.
 -----------------------
-

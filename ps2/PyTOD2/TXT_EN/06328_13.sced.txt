@@ -7,7 +7,7 @@ Laguna Ruins
 <Kyle>
 -----------------------
 #よっしゃ！
-Alright!
+All right!
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -24,8 +24,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Please have a good night's rest.
@@ -37,7 +37,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-I look forward to seeing you again.
+We look forward to your next visit.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -60,11 +60,10 @@ notice
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{C2}{C0}, but
-inventory full already.
+your inventory is full.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

@@ -1,21 +1,21 @@
 #物資保管所
-Supply Storage
+Supplies Storage
 -----------------------
 #物資保管所
-Supply Storage
+Supplies Storage
 -----------------------
 <Harold>
 -----------------------
 #ああ、こっから先は研究所だから
 #行かなくていいわよ
-Yeah, from here on out it's the research facility.
+Yeah, from here on it's the research facility.
 You don't need to go.
 -----------------------
 <Kyle>
 -----------------------
 #研究所？
 #なんでそんな事知ってるの？
-What's a research facility?
+A research facility?
 How do you know that?
 -----------------------
 <Harold>
@@ -24,10 +24,10 @@ How do you know that?
 #ちょっと見た事があるのよ
 #そのうち、ソーディアンの研究施設として
 #使おうと思ってるの
-I remember stopping by back in the day... before there was any gas.
-I've actually seen it once or twice.
-It's supposed to become a Sodian research facility eventually.
-That's what we're planning to do with it.
+I stopped by once, back before the gas showed up.
+I've seen it a little.
+Eventually, we're planning to use it
+as a Swordian research facility.
 -----------------------
 <Harold>
 -----------------------
@@ -35,10 +35,10 @@ That's what we're planning to do with it.
 #行かなくていいわよ
 #そのうち、ソーディアンの研究施設として
 #使おうと思ってるの
-So, from here on out, it's the research facility.
-You don't need to go in there.
-We're planning to convert it into a Sodian research facility eventually.
-That is our intention.
+Yeah, from here on it's the research facility.
+You don't need to go in.
+Eventually, we're planning to use it
+as a Swordian research facility.
 -----------------------
 #扉は閉ざされています
 The door is closed.
@@ -49,104 +49,102 @@ notice
 <item:00000033>、<item:00000034>、<item:00000035>
 #この三つの鍵でプロテクトされているようです
 There's a large container here.
-It seems to be protected by these three keys.
+It appears to be protected by three keys.
 -----------------------
 notice
 -----------------------
 <item:00000033>、<item:00000034>、<item:00000035>
 #三つの鍵を使ってプロテクトを解除しました
-We've lifted the protection using the three keys.
+Protection removed with the three keys.
 -----------------------
 <Harold>
 -----------------------
 #ん～と、必要な部品は
 #バルブとノズルと耐熱材と････
-Well, the parts we need are...
-A valve, a nozzle, and heat-resistant material...
+Let's see, the parts we need are...
+a valve, a nozzle, and heat-resistant material...
 -----------------------
 <Harold>
 -----------------------
 #よ～し、これだけあれば十分だわ
 #あとは組み立てるだけね
-Alright, that's plenty.
-Now I just need to assemble it.
+All right, this should be plenty.
+Now I just need to put it together.
 -----------------------
 <Kyle>
 -----------------------
 #こんなガラクタの寄せ集めで
 #ホントに空飛ぶ乗り物が作れるの？
-A bunch of junk thrown together like this...
-Do you really think we can build an airship out of it?
+You really think we can build a flying vehicle
+out of a pile of scrap like this?
 -----------------------
 <Harold>
 -----------------------
 #これだけの材料があるのよ
 #普通、作れない？
-There's enough ingredients here to make it.
-You mean you can't just make it normally?
+We've got all these materials.
+Isn't it normal to be able to make something?
 -----------------------
 <Loni>
 -----------------------
 #････いや、それができるのは
 #あんただけだと思うぞ
-...No, I think only you can do that.
-I believe it's just you who can pull that off.
+...No, I think you're the only one
+who could pull that off.
 -----------------------
 <Harold>
 -----------------------
 #みんな、そう言うのよねぇ
 #よくわからないわ
-That's just how it is, isn't it?
+Everyone always says that.
 I don't really get it.
 -----------------------
 <Harold>
 -----------------------
 #ま、用は済んだし
 #とっとと帰るわよ
-Well, that's settled then.
-I'm heading home.
+Well, I'm done here.
+Let's head back.
 -----------------------
 #タイムオーバー
-Time's up.
+Time over.
 -----------------------
 <Harold>
 -----------------------
 #低レベルのプロテクトを
 #解除するためのカギね
 #同じモノがあと２つあるはずよ
-It's a low-level protection
-The key to unlocking it
-There should be two more of them.
+This key removes low-level protection.
+There should be two more just like it.
 -----------------------
 <Harold>
 -----------------------
 #あー、そうそう
 #これを持ったまま外には出ないでね
 Oh, right, right.
-Don't go outside while holding that.
+Don't take this outside with you.
 -----------------------
 <Kyle>
 -----------------------
 #え、なんで？
-What? Why?
+Huh? Why?
 -----------------------
 <Harold>
 -----------------------
 #こいつ、温度変化に弱いのよ
 #外の吹雪の中に出たら
 #あっという間に、ボロボロよ
-This thing is weak to temperature changes.
-If you go out into the blizzard outside,
-It'll fall apart in no time.
+This thing's weak to temperature shifts.
+If you take it out into that blizzard,
+it'll fall apart before you know it.
 -----------------------
 <Harold>
 -----------------------
 #低レベルのプロテクトを
 #解除するためのカギね
 #同じモノがもう１つあるはずよ
-It's a low-level protection
-The key to unlocking it
-There should be another one just like it
+This key removes low-level protection.
+There should be one more just like it.
 -----------------------
 <Harold>
 -----------------------
@@ -155,25 +153,25 @@ There should be another one just like it
 #どこかにあるはずだから
 #探しましょ
 With these three keys,
-I'll get my hands on the master key.
-They should be somewhere around here,
-So let's go look for them.
+I can get the master key.
+They should be around here somewhere,
+so let's look for them.
 -----------------------
 <Harold>
 -----------------------
 #これが上位レベルの
 #プロテクト解除キーよ
 This is a high-level
-protection release key.
+protection removal key.
 -----------------------
 <Harold>
 -----------------------
 #「マスターキー」「セルキー」「バイオキー」
 #この３つのキーを資材コンテナに使えば
 #プロテクトを解除できるわ
-"Master Key", "Cell Key", "Bio Key"
-If you use these three keys on the material container,
-you can disable the protection.
+"Master Key," "Cell Key," and "Bio Key."
+Use these three keys on the supply container
+and you can remove the protection.
 -----------------------
 <Harold>
 -----------------------
@@ -181,16 +179,16 @@ you can disable the protection.
 #温度変化に弱いから、外に出ちゃダメよ
 #あんな吹雪の中に出たら
 #一発でボロボロだからね！
-But "Selkey" and "Biokey"
-are sensitive to temperature changes, so you can't take them outside.
+But "Cell Key" and "Bio Key"
+are weak to temperature changes, so don't take them outside.
 If you go out in that blizzard,
-they'll be ruined in no time!
+they'll be ruined in an instant!
 -----------------------
 #特に何もありません
-There's nothing special about it.
+There's nothing of note.
 -----------------------
 #いってらっしゃいませ
-Have a good day.
+Come again soon.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
@@ -204,8 +202,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -217,7 +215,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We hope to see you again.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -247,4 +245,3 @@ notice
 #何もありません
 There's nothing here.
 -----------------------
-

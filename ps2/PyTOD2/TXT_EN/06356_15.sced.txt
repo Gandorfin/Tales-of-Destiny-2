@@ -8,7 +8,7 @@ Harmentz Valley
 This is Harmentz Valley.
 -----------------------
 #がけ崩れだ！
-It's a landslide!
+Landslide!
 -----------------------
 #フラフラだ！
 Getting dizzy!
@@ -17,44 +17,44 @@ Getting dizzy!
 -----------------------
 #<03:00000000><button:00000025>ボタンでジャンプ
 #<button:00000026>ボタンでキャンセル
-Jump with <03:00000000><button:00000025>.
-Cancel with <button:00000026>.
+<03:00000000><button:00000025> to jump
+<button:00000026> to cancel
 -----------------------
 #突風だ ！
-A gust of wind!
+Gust of wind!
 -----------------------
 #絶壁だ！『自力では』登れない！
-It's a cliff! You can't climb it on your own!
+A cliff! Can't climb it alone!
 -----------------------
 #風が無いので大落下！
-There is no wind, so it's going to be a big drop!
+No wind here... It's a long way down!
 -----------------------
 #風を使って大ジャンプ！
-A big jump using the wind!
+Big jump with the wind!
 -----------------------
 #フラフラだ！
-It's fluffy!
+Getting dizzy!
 -----------------------
 NOTICE
 -----------------------
 #ただの岩のようです
 #特に変わった所は見当たりません
-It's just like a rock.
+It looks like an ordinary rock.
 Nothing unusual here.
 -----------------------
 NOTICE
 -----------------------
 #ソーサラースコープで
 #岩の奥の空洞を見つけました
-Found a cavity in the back of
-the rock with a Sorcerer Scope.
+Used the Sorcerer's Scope to find
+a hollow inside the rock.
 -----------------------
 #いってらっしゃいませ
 Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -64,8 +64,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -99,12 +99,11 @@ notice
 -----------------------
 #{16}{26}{02}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{26}{02}{C0} but
-inventory is full already.
+Found {16}{26}{02}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

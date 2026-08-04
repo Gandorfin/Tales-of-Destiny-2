@@ -1,11 +1,11 @@
 #定期船
-Regular ferry
+Passenger Ferry
 -----------------------
 #定期船
-Regular ferry
+Passenger Ferry
 -----------------------
 #船内貸し出し用の本が散らばっている
-Books available for rental on the ship are scattered about.
+Books for loan are scattered about the cabin.
 -----------------------
 #乗客
 Passenger
@@ -15,7 +15,7 @@ Passenger
 #サバディーチョであ～る
 I am
 the great prophet
-Sabadicho!
+Sabadicho~!
 -----------------------
 #乗客
 Passenger
@@ -23,22 +23,22 @@ Passenger
 #わたしの予言では
 #もうすぐ
 #よからぬことが起きるはず････
-According to my prophecy,
-very soon,
-something ill will happen...
+My prophecy foretells
+that something terrible
+will happen very soon...
 -----------------------
 #乗客
 Passenger
 -----------------------
 #ウップ････、オエ～
-Gulp... Ugh~
+Urp... Oogh~
 -----------------------
 <Kyle>
 -----------------------
 #たしかに
 #よからぬことが起きたね････
-True enough.
-Something bad happened, didn't it...?
+Well, something bad
+definitely happened...
 -----------------------
 #乗客
 Passenger
@@ -46,9 +46,9 @@ Passenger
 #ウップ････
 #サバディーチョの予言は
 #あたるのであ～る
-Wup...
-The prophecy of Sabaadicho is
-going to come true~
+Urp...
+Sabadicho's prophecies
+always come true~
 -----------------------
 #乗客
 Passenger
@@ -66,24 +66,24 @@ Passenger
 #キミたちはかならずや
 #デビルズ・リーフの主を
 #うちやぶるだろ～う････
-You will surely
-The master of Devil's Leaf
-Be defeated~...
+You shall surely
+defeat the master
+of Devil's Reef~...
 -----------------------
 #乗客
 Passenger
 -----------------------
 #っていうより
 #たのむから、うちやぶってくれ～
-More like,
-Please, just break me already~
+More like...
+I'm begging you, just defeat him already~
 -----------------------
 <Kyle>
 -----------------------
 #予言でも
 #なんでもないじゃんか････
-It's just a prophecy.
-Isn't it nothing special...?
+That's not a prophecy.
+It's not even a prediction...
 -----------------------
 #乗客
 Passenger
@@ -91,19 +91,18 @@ Passenger
 #わたしは
 #こんなとこで死ぬ
 #運命じゃないのであ～る！！
-I am
-dying in a place like this
-is my destiny~!!
+I am not fated
+to die in a place like this~!!
 -----------------------
 #乗客
-passenger
+Passenger
 -----------------------
 #わたしは
 #偉大なる予言者
 #サバディーチョであ～る
 I am
 the great prophet
-Sabadicho!
+Sabadicho~!
 -----------------------
 #乗客
 Passenger
@@ -111,26 +110,25 @@ Passenger
 #わたしをまっさきに
 #救命ボートに乗せると「吉」････
 #と出てるのであ～る
-I'm going to get on that lifeboat first,
-which means it's 'lucky'...
-That's what it says.
+The omens say it is 'auspicious'
+to place me upon the lifeboat
+before all others~...
 -----------------------
 <Loni>
 -----------------------
 #そりゃ、あんたにとっては
 #「吉」だろうさ
-Well, to you,
-"Good fortune," I suppose.
+Well, it'd sure be
+'auspicious' for you.
 -----------------------
 #乗客
-Passengers
+Passenger
 -----------------------
 #わたしは
 #こんなとこで死ぬ
 #運命じゃないのであ～る！！
-I am
-dying in a place like this
-is my destiny~!!
+I am not fated
+to die in a place like this~!!
 -----------------------
 #乗客
 Passenger
@@ -140,7 +138,7 @@ Passenger
 #サバディーチョであ～る
 I am
 the great prophet
-Sabidicho~
+Sabadicho~
 -----------------------
 #乗客
 Passenger
@@ -148,29 +146,29 @@ Passenger
 #キミたちが
 #われわれを救ってくれることは
 #わたしの予言でわかっていたであ～る
-You guys
-will save us
-I knew it from my prophecy~
+I foresaw in my prophecy
+that you would be the ones
+to save us~
 -----------------------
 #乗客
 Passenger
 -----------------------
 #キミたちは、いずれ
 #偉大な英雄になるであろ～な
-You two will eventually
+You shall one day
 become great heroes~
 -----------------------
 <Kyle>
 -----------------------
 #それホント!?
-That's true!?
+Really!?
 -----------------------
 <Loni>
 -----------------------
 #こんなあやしいヤツの
 #予言なんか信じるなよ････
-Don't trust some shady guy like him
-to make predictions...
+Don't go believing
+some shady guy's prophecies...
 -----------------------
 #乗客
 Passenger
@@ -178,8 +176,8 @@ Passenger
 #サバディーチョ、うそつかない
 #キミたちは、いずれ
 #偉大な英雄になるのであ～る
-Sabidicho, I swear it
-You guys will eventually
+Sabadicho does not lie.
+You shall one day
 become great heroes~
 -----------------------
 #乗客
@@ -190,41 +188,41 @@ Passenger
 #サバディーチョであ～る
 I am
 the great prophet
-Sabadicho!
+Sabadicho~!
 -----------------------
 #乗客
-Passengers
+Passenger
 -----------------------
 #キミたちは
 #これから身も凍えるような
 #極寒の地にみちびかれるであろ～
-You two
-are about to be led
-to a freezing cold land~
+You are about to be led
+to a land of bitter cold
+that freezes the very soul~
 -----------------------
 <Kyle>
 -----------------------
 #えっ！
 #どうしよう！
-Huh!
-What should I do!
+What!?
+What do we do!?
 -----------------------
 <Loni>
 -----------------------
 #あたりまえじゃねえか････
 #この船は
 #スノーフリアに向かってんだから
-Well, obviously.
-This ship is...
-We're heading toward Snowflake.
+Well, obviously...
+This ship is headed
+straight for Snowfria.
 -----------------------
 #乗客
-Passengers
+Passenger
 -----------------------
 #サバディーチョの予言は
 #かならず、あたるのであ～る
-Sabichio's prophecy is
-certainly going to come true~
+Sabadicho's prophecies
+shall surely come true~
 -----------------------
 #乗客
 Passenger
@@ -234,25 +232,25 @@ Passenger
 #サバディーチョであ～る
 I am
 the great prophet
-Sabidicho~
+Sabadicho~
 -----------------------
 #乗客
-Passengers
+Passenger
 -----------------------
 #サバディーチョの予言は
 #かならず、あたるのであ～る
-Savdycho's prophecy is...
-bound to come true~
+Sabadicho's prophecies
+shall surely come true~
 -----------------------
 #乗客
-passenger
+Passenger
 -----------------------
 #巡礼者たちはよ、レンズだのカネだの
 #たくさん持ってやがるからなぁ
 #スキをみつけて、スッてやるぜ
-Pilgrims come loaded with lenses and cash,
-plenty of it.
-I'll spot an opening and make my move.
+Pilgrims are loaded with Lens and cash,
+so I'll find an opening and
+lift whatever I can.
 -----------------------
 #乗客
 Passenger
@@ -260,9 +258,9 @@ Passenger
 #････でも、そんなコトしたら
 #フォルトゥナさまのバチが
 #あたるかなぁ････
-...But if I do something like that,
-Fortuna-sama's wrath
-might fall upon me...
+...But if I do that,
+I might get struck down
+by Fortuna's wrath...
 -----------------------
 #乗客
 Passenger
@@ -270,15 +268,15 @@ Passenger
 #はるばるカルビオラまで行くんだ
 #なんでもいいから、金目のモノを
 #手に入れてやるぜ
-You're going all the way to Calbora?
-Anything goes, just get me something valuable.
-I'll make sure I get it.
+All the way to Kalviola, huh?
+Anything valuable will do...
+I'll make sure I grab something.
 -----------------------
 #乗客
 Passenger
 -----------------------
 #でも、バチがあたるとこわいなぁ････
-But I'm scared it'll bring bad luck...
+But I'm scared of getting struck down...
 -----------------------
 #乗客
 Passenger
@@ -286,16 +284,16 @@ Passenger
 #巡礼者たちはよ、レンズだのカネだの
 #たくさん持ってやがるからなぁ
 #スキをみつけて、スッてやるぜ
-Pilgrims are loaded down with lenses and cash,
-and they've got plenty of it.
-I'll find an opening and make my escape.
+Pilgrims are loaded with Lens and cash,
+so I'll find an opening and
+lift whatever I can.
 -----------------------
 #いってらっしゃいませ
-Have a good day.
+Have a good trip.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -305,11 +303,11 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
-Have a good night.
+Please rest well.
 -----------------------
 #おはようございます
 Good morning.
@@ -318,7 +316,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We hope to see you again.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -340,12 +338,11 @@ notice
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{C2}{C0} but
-inventory is full already.
+Found {16}{25}{C2}{C0}, but
+couldn't carry it.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

@@ -5,21 +5,21 @@ Heidelberg Inn
 Heidelberg
 -----------------------
 #建物にはばまれて、残念ながら見通しはよくない
-The buildings are blocking our view, so unfortunately we can't see much.
+The buildings block the view. Unfortunately, you can't see very far.
 -----------------------
 #建物にはばまれて、残念ながら見通しはよくない
-The buildings are blocking our view, so unfortunately we can't see much.
+The buildings block the view. Unfortunately, you can't see very far.
 -----------------------
 #ハイデルベルグの観光案内本が入っている
 #お勧めは英雄門の中にある図書館と博物館らしい
-There's a tourist guidebook for Heidelberg in here.
-It seems they recommend the library and museum inside Hero Gate.
+There's a Heidelberg tourist guidebook inside.
+It recommends the library and museum in Hero Gate.
 -----------------------
 #掛け軸の奥には、何も無かった
-There was nothing behind the scroll.
+There was nothing behind the hanging scroll.
 -----------------------
 #いってらっしゃいませ
-Have a good day.
+Come again soon.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
@@ -33,8 +33,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -46,7 +46,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We hope to see you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -68,12 +68,11 @@ notice
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{C2}{C0} but
-inventory is full already.
+Found {16}{25}{C2}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

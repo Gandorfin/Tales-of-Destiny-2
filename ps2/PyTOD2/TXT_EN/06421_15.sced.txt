@@ -1,14 +1,14 @@
 #オベロン社廃坑
-Ophir Mine Abandonment
+Oberon Abandoned Mine
 -----------------------
 #オベロン社廃坑
-Ophir Mine Abandonment
+Oberon Abandoned Mine
 -----------------------
 #オベロン社廃坑
-Ophir Mine Abandonment
+Oberon Abandoned Mine
 -----------------------
 #オベロン社廃坑
-Oberon Mine Abandonment
+Oberon Abandoned Mine
 -----------------------
 <Judas>
 -----------------------
@@ -22,20 +22,20 @@ Oberon Mine Abandonment
 #んっ？
 #どうしたの？　<Judas>････
 Hm?
-What's wrong? <Judas>...
+What's wrong, <Judas>...
 -----------------------
 <Judas>
 -----------------------
 #なんでもない････
 #先を急ごう････
 It's nothing...
-Hurry along...
+Let's keep moving.
 -----------------------
 select
 -----------------------
 #<03:00000000>　爆弾を降ろす　
 #　ボートを流す　
-<03:00000000>Drop the bomb
+<03:00000000> Drop the bomb
 Release the boat
 -----------------------
 select
@@ -43,33 +43,33 @@ select
 #ボートを流しますか？
 #<03:00000000>　はい　
 #　いいえ　
-Do you want to set the boat adrift?
-<03:00000000>Yes
+Release the boat?
+<03:00000000> Yes
 No
 -----------------------
 #爆弾は爆発しました！
-The bomb has exploded!
+The bomb exploded!
 -----------------------
 <Kyle>
 -----------------------
 #土砂で道が埋まってる
 #これをどかさないと先に進めないや
-The path is buried under dirt.
-We can't move forward unless we clear this.
+The path is buried under dirt and rocks.
+We can't get through unless we clear it.
 -----------------------
 <Judas>
 -----------------------
 #爆弾を使って
 #土砂を吹き飛ばすしかないな
-Using explosives
-We've got no choice but to blast away the dirt.
+We'll have to use bombs
+to blast through the debris.
 -----------------------
 <Loni>
 -----------------------
 #爆弾？　おいおい、
 #そんなもんいったいどこにあるって････
 Bombs? Hey, hey,
-Where on earth would you find something like that...?
+where the heck would we find something like that...?
 -----------------------
 <Judas>
 -----------------------
@@ -77,20 +77,20 @@ Where on earth would you find something like that...?
 #探せば見つかるはずだ
 #着火は････そうだな
 #ソーサラーリングを使えばいい
-We used to use it for blasting in tunnels back in the day.
-If we search around, we should be able to find some.
-As for ignition... hmm, let me think.
-We can just use a Sorcerer Ring.
+They were used for blasting tunnels long ago.
+If we search around, we should find some.
+As for ignition... yes, that's it.
+We can use a Sorcerer's Ring.
 -----------------------
 NOTICE
 -----------------------
 #階段は岩と土砂で埋まっています
 #この岩は爆破できそうです
 The stairs are buried under rocks and debris.
-It looks like we can blow up these rocks.
+These rocks look like they can be blown up.
 -----------------------
 #いってらっしゃいませ
-Have a good day.
+Come again soon.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
@@ -104,8 +104,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -117,7 +117,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We hope to see you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -139,12 +139,11 @@ notice
 -----------------------
 #{16}{25}{CA}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{CA}{C0} but
-inventory is full already.
+Found {16}{25}{CA}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

@@ -1,60 +1,60 @@
 #飛行竜・中心部
-Airship Central Area
+Flying Dragon - Central Area
 -----------------------
 #飛行竜
-Airship
+Flying Dragon
 -----------------------
 noitce
 -----------------------
 #制御装置を破壊しないと通れません
-We can't get past unless we destroy the control device.
+We can't get through unless we destroy the control device.
 -----------------------
 <Loni>
 -----------------------
 #くそっ！　遅かったか！
-Darn it! I was too late!
+Damn it! Were we too late?!
 -----------------------
 <Kyle>
 -----------------------
 #こんなもの！
-This is it!
+What the--?!
 -----------------------
 <Judas>
 -----------------------
 #いや、おそらくムダだろう
 #飛行竜は、限りなく生き物に近い機械だ
 #これを壊してもすぐに再生する
-It's probably futile.
-The Sky Dragon is a machine that's as close to living as it gets.
-It'll regenerate almost instantly even if you destroy it.
+No, it's probably futile.
+The Flying Dragon is a machine that's as close to a living creature as it gets.
+Destroy this part and it'll regenerate almost immediately.
 -----------------------
 <Kyle>
 -----------------------
 #じゃあ、どうすればいいの!?
-So what should we do!?
+Then what are we supposed to do?!
 -----------------------
 <Judas>
 -----------------------
 #飛行竜の体内にある
 #制御装置を破壊するんだ
-The inside of the air dragon
-Destroy the control device.
+There's a control device
+inside the Flying Dragon. Destroy it.
 -----------------------
 <Judas>
 -----------------------
 #全て壊せば、このロックも
 #解除されるだろう
-If we destroy everything, even this lock...
-should come undone.
+If we destroy them all, this lock
+should disengage as well.
 -----------------------
 <Judas>
 -----------------------
 #<Kyle>、さっきフィリアからもらった
 #ソーサラースコープはあるな？
 #それを使って、制御装置を見つけるんだ
-<Kyle>, I got this from Philia earlier.
-You've got the Sora Scope, right?
-Now let's use it to find the control device.
+<Kyle>, you got the Sorcerer's Scope
+from Philia earlier, right?
+Use it to find the control devices.
 -----------------------
 <Judas>
 -----------------------
@@ -62,64 +62,64 @@ Now let's use it to find the control device.
 #だが、ソーサラーリング以上に
 #レンズを消費する、気をつけろよ
 When you use it, press the <button:0000003B> button.
-But, more than just the Sorcerer Ring,
-You'll consume lenses, so watch out.
+But be warned: it consumes
+even more Lens than the Sorcerer's Ring.
 -----------------------
 <Kyle>
 -----------------------
 #わかった！
-I got it!
+Got it!
 -----------------------
 <Judas>
 -----------------------
 #それと、おそらくだが････
 #この飛行竜は、カルビオラに向かっている
-And also, I suspect...
-This air dragon is heading toward Calbira.
+Also, I suspect...
+this Flying Dragon is heading toward Kalviola.
 -----------------------
 <Nanaly>
 -----------------------
 #聖地か････
 #そこで、神さまの降臨を
 #やりなおそうってワケだね
-A holy land...
-There, the descent of God
-So we're starting over.
+The holy land, huh...
+So they mean to do God's descent
+all over again, is that it?
 -----------------------
 <Judas>
 -----------------------
 #うかうかしていると
 #やつの目的地に到着してしまう
 #時間はあまりないぞ
-If you let your guard down,
-you'll end up arriving at their destination.
-We don't have much time.
+If we waste time,
+we'll arrive at its destination.
+We don't have much time left.
 -----------------------
 <Kyle>
 -----------------------
 #わかった！
 #急いで探そう！
 Got it!
-Let's hurry and look for them!
+Let's hurry and search!
 -----------------------
 notice
 -----------------------
 #<Judas>は
 #称号「<item:00000827>」を得ました
-<Judas> is
-Gained title "<item:00000827>."
+<Judas> obtained
+the title "<item:00000827>"!
 -----------------------
 notice
 -----------------------
 #宝箱はフェイクでした
-The treasure chest was fake.
+The treasure chest was a fake.
 -----------------------
 #いってらっしゃいませ
-Have a good day.
+Welcome.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald per night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -129,11 +129,11 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
-Have a good night.
+Please rest well.
 -----------------------
 #おはようございます
 Good morning.
@@ -142,7 +142,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We hope to see you again.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -164,8 +164,8 @@ notice
 -----------------------
 #{16}{25}{D2}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{25}{D2}{C0}There was , but
-I couldn't hold it because it was full.
+Found {16}{25}{D2}{C0}, but
+couldn't carry it because your inventory is full.
 -----------------------
 notice
 -----------------------
@@ -173,7 +173,7 @@ notice
 There's nothing here.
 -----------------------
 #タイムオーバー
-Time's up.
+Time over.
 -----------------------
 noitce
 -----------------------

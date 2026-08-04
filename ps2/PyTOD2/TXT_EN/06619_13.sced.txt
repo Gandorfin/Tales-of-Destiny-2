@@ -19,8 +19,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -43,7 +43,7 @@ exit-party_togather( short spd )
 notice
 -----------------------
 #{16}{26}{FE}{C0}を手に入れました
-{16}{26}{FE}{C0}You obtained .
+Acquired {16}{26}{FE}{C0}.
 -----------------------
 notice
 -----------------------
@@ -54,12 +54,11 @@ notice
 -----------------------
 #{16}{27}{06}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{27}{06}{C0}There was , but
-I couldn't hold it because it was full.
+{16}{27}{06}{C0} was there, but
+your inventory is full, so you couldn't take it.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

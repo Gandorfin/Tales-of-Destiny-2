@@ -1,38 +1,38 @@
 #ハイデルベルグ城
-Heidelburg Castle
+Heidelberg Castle
 -----------------------
 #ハイデルベルグ城
-Heidelburg Castle
+Heidelberg Castle
 -----------------------
 #ハイデルベルグ城
-Heidelburg Castle
+Heidelberg Castle
 -----------------------
 <Loni>
 -----------------------
 #<Kyle>、客室に急げ！
 #<Harold>が待ってる！
-<Kyle>, get to your rooms!
+<Kyle>, hurry to the guest rooms!
 <Harold> is waiting!
 -----------------------
 #『神の眼を巡る騒乱』を題材にした絵画だ
 #四英雄とソーディアンの活躍が描かれている
-This is a painting depicting 'The Turmoil Surrounding the Eye of God'.
-It portrays the exploits of the Four Heroes and the Sordians.
+A painting depicting the turmoil surrounding the Eye of Atamoni.
+It portrays the exploits of the Four Heroes and their Swordians.
 -----------------------
 #金と銀で飾り付けられた燭台だ
 #いくらするんだろう････
 A candelabra adorned with gold and silver.
-I wonder how much it costs...
+I wonder how much it's worth...
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #謁見の間は、この上になります！
 #････････
 #････あ、あの、本当に････
 The audience chamber is above us!
 ...
-...Uh, um, really...?
+...Uh, um, is it really true...?
 -----------------------
 <Kyle>
 -----------------------
@@ -40,12 +40,12 @@ The audience chamber is above us!
 Huh? What?
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #い、いえっ！
 #なんでもありません！
-N-no!
-Nothing at all!
+N-No!
+It's nothing!
 -----------------------
 #兵士
 Soldier
@@ -58,61 +58,57 @@ Soldier
 -----------------------
 #ぼく、あなたのお父上にあこがれて
 #騎士になったんです！
-I've always admired your father,
-and that's why I became a knight!
+I became a knight because I admired your father!
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #ぼくたちと同じ
 #なんの地位もない、普通の人なのに
 #世界を救う英雄になったんですから！
-Just like us.
-Someone with no status at all, just an ordinary person,
-and they've become the hero who saved the world!
+He's just like us.
+A completely ordinary person with no status at all,
+and yet he became the hero who saved the world!
 -----------------------
 #兵士
 Soldier
 -----------------------
 #スタンさんのような男になるため
 #ぼく、がんばります！
-To become a man like Stan-san
-I'll do my best!
+I'll do my best to become a man like Stan!
 -----------------------
 <Kyle>
 -----------------------
 #オレも、父さんみたいな英雄が
 #目標なんだ！
 #いっしょに、がんばろう！
-I want to be a hero just like my dad.
+I want to be a hero like my dad too!
 That's my goal!
 Let's work hard together!
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #そんな言葉がいただけるなんて････
 #か、感激です！
 To hear those words from you...
-I'm so touched!
+I'm so moved!
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #ぼくも
 #あなたのお父上をめざして
 #がんばります！
-I will too
-To aim for your father
-Do my best!
+I'll do my best too,
+to become a man like your father!
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #ぼく、あなたのお父上にあこがれて
 #騎士になったんです！
-I've always admired your father,
-and that's why I became a knight!
+I became a knight because I admired your father!
 -----------------------
 #兵士
 Soldier
@@ -120,128 +116,127 @@ Soldier
 #ぼくたちと同じ
 #なんの地位もない、普通の人なのに
 #世界を救う英雄になったんですから！
-We're the same.
-He's just an ordinary person with no status whatsoever,
-And yet he became the hero who saved the world!
+He's just like us.
+A completely ordinary person with no status at all,
+and yet he became the hero who saved the world!
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #ぼくも
 #あなたのお父上をめざして
 #がんばります！
-I will too
-to aim for your father
-do my best!
+I'll do my best too,
+to become a man like your father!
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #<Kyle>さん！
 #ここよりも、謁見の間へ！
 #陛下を、お助けください!!
 <Kyle>!
-We need to get to the audience chamber, right here!
+We need to get to the audience chamber!
 Please, help His Majesty!!
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #この城が、おそわれるなんて････
 #････それに、陛下まで････！
-This castle... being attacked...
-...And Your Majesty too...!
+To think this castle would be attacked...
+...And His Majesty too...!
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #<Kyle>さん････
 #がんばってきてください！
 <Kyle>...
-We'll be counting on you!
+Please, do your best!
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #おねがいです、陛下のためにも
 #レンズを････！
-I beg you, Your Majesty!
-The lens...!
+I beg you, for His Majesty's sake...
+The Lens...!
 -----------------------
 <Kyle>
 -----------------------
 #あぁ、わかってる！
-I get it!
+Yeah, I know!
 -----------------------
 #兵士
 Soldier
 -----------------------
 #おねがいします、<Kyle>さん！
 #がんばってください！
-Please, Mr./Ms. <Kyle>!
+Please, <Kyle>!
 Good luck!
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #<Kyle>さん！
 #おかえりなさい！
-Mr. <Kyle>!
+<Kyle>!
 Welcome back!
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #陛下も、みんなも
 #あなたの帰りを待ってたんですよ！
-Your Majesty, everyone...
-We've been waiting for your return!
+His Majesty and everyone else
+have been waiting for your return!
 -----------------------
 <Kyle>
 -----------------------
 #な、なんか照れるな････
-I-I'm getting kinda embarrassed...
+I-I'm kinda embarrassed...
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #さぁ、<Kyle>さん
 #謁見の間に、急いでください！
-So, <Kyle>, let's go.
-Hurry to the audience chamber!
+Now, <Kyle>,
+please hurry to the audience chamber!
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #城のほうは、急ピッチで直しています
 #街の人たちの協力もあって
 #すごくスムーズにいってるんですよ
-The castle is being repaired at a rapid pace.
-With the cooperation of the townspeople,
-It's going very smoothly.
+We're repairing the castle as fast as we can.
+With the townspeople's help,
+everything's going really smoothly.
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #ぼくは、よく覚えてないんですけど････
 #十八年前みたいだって、上官とかは
 #なつかしそうに、言ってました
-I don't really remember much...
-My superiors said it was eighteen years ago.
-They said it fondly.
+I don't really remember it myself, but...
+my superiors said it's just like eighteen years ago.
+They talked about it so fondly.
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #城のほうは、急ピッチで直しています
 #街の人たちの協力もあって
 #すごくスムーズにいってるんですよ
-The castle is being repaired at a rapid pace.
-With the cooperation of the townspeople,
-It's going very smoothly.
+We're repairing the castle as fast as we can.
+With the townspeople's help,
+everything's going really smoothly.
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #ハイデルベルグ城へ、ようこそ！
 #陛下への、謁見をご希望ですか？
@@ -251,160 +246,160 @@ Would you like an audience with His Majesty?
 Then please proceed to the second floor!
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #あ、あの、はじめまして！
 #お聞きしたんですが、あなたは
 #あのスタンさんの息子さんだとか！
 Ah, um, nice to meet you!
-I heard that you are...
-the son of Mr. Stan!
+I heard that you're...
+the son of that Stahn!
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #ぼく、あなたのお父上にあこがれて
 #騎士になったんです！
 #お会いできて、光栄です！
 I've always looked up to your father,
 and that's why I became a knight!
-It is an honor to meet you!
+It's an honor to meet you!
 -----------------------
 <Kyle>
 -----------------------
 #う～ん、オレなんかと会って
 #なんでうれしいのか、わからないけど････
 #とにかく、よろしく！
-Hmm, meeting up with someone like me...
-I don't really get why I'm so happy about it...
+Hmm, I don't really get why
+meeting someone like me would make you so happy...
 But anyway, nice to meet you!
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #ぼく、スタンさんのような男に
 #なりたいと思っているんです！
-I want to become a man just like Mr. Stan.
-That's what I'm aiming for!
+I want to become a man
+just like Stahn!
 -----------------------
 <Kyle>
 -----------------------
 #う、う～ん････
 #夢をこわすみたいで、悪いけど
 #そんなに、カッコイイもんじゃないよ
-Huh... hmm...
-It's kind of like ruining a dream, so sorry about that.
-It's not *that* cool.
+Uhh... hmm...
+Sorry, I feel like I'm crushing your dream here,
+but he's not *that* cool.
 -----------------------
 <Kyle>
 -----------------------
 #オレに負けないぐらいの、寝ぼすけだし
 #イビキはうるさいし
 #母さんに頭あがらないし････
-He's so groggy he can barely keep up.
-And his snoring is loud enough to wake the dead.
-On top of that, Mom never seems to notice him.
+He's such a sleepyhead he could give me a run for my money.
+His snoring's loud enough to wake the dead.
+And he can't even stand up to Mom...
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #奥さんに、頭があがらない････
 #い、意外と普通の方なんですね
 #スタンさんも････
-I can't help but bow my head to her...
-She's surprisingly normal.
-And Stan-san too...
+Can't stand up to his wife...
+I-I'm surprised. He's surprisingly normal,
+Stahn too...
 -----------------------
 #兵士
 Soldier
 -----------------------
 #ほう････たしかに面影があるな････
-I see... Indeed, there are traces of that.
+Hmm... Indeed, I can see the resemblance...
 -----------------------
 <Kyle>
 -----------------------
 #おじさん････
 #オレの顔に、なにかついてる？
-Uncle...
+Mister...
 Is there something on my face?
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #ああ、いや････オホン！
 #謁見の者は、階段を上がって
 #さらに先に進むように！
-Oh, no... Ahem!
+Ah, no... Ahem!
 Those granted an audience should ascend the stairs
-And continue further ahead!
+and continue further ahead!
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #謁見の者は、階段を上がって
 #さらに先に進むように！
-The audience is to ascend the stairs.
-And proceed further ahead!
+Those granted an audience should ascend the stairs
+and continue further ahead!
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #あの英雄スタンの息子を
 #この眼で見られるとは････
 #生ける伝説と対面している気分だ
-Son of that hero Stan
-To see it with my own eyes...
+To think I'd see the son of that hero Stahn
+with my own eyes...
 I feel as though I'm meeting a living legend.
 -----------------------
 <Kyle>
 -----------------------
 #「生ける伝説」だってさ！
 #いや～、なんかすごいよね！
-"Living legend," they say!
-Man, that's amazing!
+"Living legend," they said!
+Wow, that's amazing!
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #それは、こっちのセリフだよ
 #こんなに、おどろいたのは
 #十八年前以来だよ
 That's my line.
-I've never been so surprised,
-not since eighteen years ago.
+I haven't been this surprised
+since eighteen years ago.
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #十八年前、ウッドロウ陛下が
 #世界を救ったという話を聞いたときも
 #えらい、ビックリしたが････
-Eighteen years ago, when His Majesty Woodrow
-heard the story about how he saved the world,
+Eighteen years ago, when I heard the story
+about how His Majesty Garr saved the world,
 I was quite surprised...
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #こうして、陛下と共に戦った
 #英雄スタンの息子と
 #対面できるのも、ビックリさ
-It was then that I fought alongside His Majesty,
-The son of the hero Stan,
-And meeting him was quite a surprise.
+And now, to think I'd meet the son of the hero Stahn,
+who fought alongside His Majesty...
+I'm quite surprised at that too.
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #あの英雄スタンの息子を
 #この眼で見られるとは････
 #生ける伝説と対面している気分だ
-Son of that hero Stan
-To see it with my own eyes...
-I feel as if I'm meeting a living legend.
+To think I'd see the son of that hero Stahn
+with my own eyes...
+I feel as though I'm meeting a living legend.
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #ん？　君は････
 #なにか、忘れ物かい？
@@ -412,7 +407,7 @@ Hm? You...
 Did you forget something?
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #き、きみは････！
 Y-you...!
@@ -421,58 +416,58 @@ Y-you...!
 -----------------------
 #ひどいケガ････！
 #動かないで、キズが広がります！
-Severe injuries...!
-Don't move, or your wounds will spread!
+Such terrible wounds...!
+Don't move, or your injuries will worsen!
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #おれの･･ことは、いい！
 #････陛下を････たのむ････！
-Don't worry about me!
-...Your Majesty... I entrust him to you...!
+Don't... worry about me!
+...Please... protect... His Majesty...!
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #謁見･･の････間は････
 #････守りが、手薄････！
 #いそ････げ････！
-Audience... is... ...in progress...
-...The defense... is thinning...!
-Hurry... up...!
+The audience... is... in progress...
+...Our defenses... are thin...!
+Hurry...!
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #････くそっ！
 #陛下を守れもせずに
 #なにがハイデルベルグの兵士だ････！
 ...Damn it!
-Failing to protect His Majesty...
-What kind of Heidelburg soldier are you...!?
+I couldn't even protect His Majesty...
+What kind of Heidelberg soldier am I...!?
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #頼むぞ、英雄スタンの息子よ
 #やつらに、目に物見せてやってくれ！
 #そして、レンズを････！
-I'm counting on you, son of the hero Stan.
-Show those guys what you're made of!
-And... the lens!..
+I'm counting on you, son of the hero Stahn.
+Show them what you're made of!
+And... the Lens...!
 -----------------------
 <Kyle>
 -----------------------
 #うん、わかってる
 #<Reala>のことも、レンズのことも
 #オレに、まかせておいて！
-I understand.
-About <Reala>, too, and about Lens...
-Just leave it to me!
+Yeah, I know.
+About <Reala>, and about the Lens...
+Leave it all to me!
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #････おまえさん、本当にあの子か？
 #昨日とは、まるで別人だ････
@@ -609,128 +604,126 @@ Soldier
 #ウッドロウ陛下に、謁見か？
 Hold it, you two!
 You look like travelers...
-Audience with King Woodrow?
+Here to see King Garr?
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #謁見の約束は、取りつけているのか？
 #約束のない者への謁見は
 #数週間先になるぞ
 Have you arranged an audience?
-Audiences without appointments are
-weeks away.
+Audiences without appointments
+are weeks away.
 -----------------------
 <Kyle>
 -----------------------
 #数週間!?　じょうだんじゃない
 #そんなに待ってられないよ！
-Weeks?! You're kidding.
+Weeks?! No way!
 I can't wait that long!
 -----------------------
 <Loni>
 -----------------------
 #待て、<Kyle>
 #俺に考えがある
-Hold on,<Kyle>
-I have an idea.
+Hold on, <Kyle>.
+I've got an idea.
 -----------------------
 <Loni>
 -----------------------
 #約束は取りつけてないんだが
 #ためしに、陛下に
 #話を通してもらえないか？
-I haven't made any promises.
-Why don't you try speaking to His Majesty?
-And see if you can get him on board?
+We don't have an appointment,
+but could you try asking His Majesty
+if he'd hear us out?
 -----------------------
 <Loni>
 -----------------------
 #スタンの息子の、<Kyle>が来た
 #そう言ってもらえれば、わかるはずだ
-Stan's son, <Kyle>, has arrived.
-If you put it that way, I should understand.
+Tell him that <Kyle>, son of Stahn, is here.
+He'll understand.
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #だから、約束のない者は････
-So, those without a promise...
+Like I said, without an appointment...
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #待て、スタンと言ったな
 #まさか････いや、そんなはずは
-Hold on, you said Stan?
-No way... No, that can't be right.
+Wait, did you say Stahn?
+No way... No, that can't be.
 -----------------------
 <Loni>
 -----------------------
 #だから、ためしにでいいんだよ
 #ダメだったら、すぐに引き下がる
 So just give it a try.
-If it doesn't work out, we'll back off right away.
+If it doesn't work, we'll back off right away.
 -----------------------
 <Loni>
 -----------------------
 #････とはいえ、ウッドロウ王が
 #旧知の友の息子を
 #むげに追いかえす方とは、思えないがな
-...that said, I don't think King Woodrow would
-so abruptly send back
-the son of an old friend.
+...Besides, I can't imagine King Garr
+would turn away the son of an old friend
+so coldly.
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #････わかった、話してみよう
-......Alright, I'll give it a try.
+......All right. I'll see what I can do.
 -----------------------
 <Kyle>
 -----------------------
 #ねぇ<Loni>
 #なんて言ったの？
-Hey, .<Loni>
-What did you say?
+Hey, <Loni>.
+What'd you say to him?
 -----------------------
 <Loni>
 -----------------------
 #ん？　ま、細かいことは
 #いいじゃねえか
-Huh? Well, details don't matter.
-Isn't that good enough?
+Hmm? Aw, don't sweat the small stuff.
 -----------------------
 <Judas>
 -----------------------
 #ずいぶんと、姑息な手を使うな
-You're using quite the underhanded tactics.
+You resort to rather underhanded means.
 -----------------------
 <Loni>
 -----------------------
 #な～に、会えたらそれで
 #オッケーなんだ
 #カタいこと言うなよ
-Well, seeing you is enough.
-That's okay.
-Don't be so serious.
+Hey, all that matters is we got in, right?
+No need to be so stiff about it.
 -----------------------
 <Judas>
 -----------------------
 #････つきあいきれんな
 #僕は、しばらく時間をつぶしてくる
 #おまえたちだけで、会ってこい
-I can't keep up with you.
-I'll pass the time for a while.
-You guys go ahead and meet.
+...You're exhausting.
+I'll go kill some time.
+You two handle this on your own.
 -----------------------
 <Kyle>
 -----------------------
 #あっ、待ってよ、<Judas>！
-Hold on, wait! <Judas>!
+Ah, wait, <Judas>!
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #失礼いたしました！
 #すぐに、謁見したいとのことです！
@@ -738,22 +731,22 @@ My apologies!
 He requests an audience immediately!
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #おい、本当か？
 #約束のないものの取り次ぎは････
-Hold up, is that true?
-I can't take orders from someone who hasn't made a promise...
+Hold up, is that for real?
+I can't just pass along unscheduled...
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #いいんだ
 #陛下から、丁重に
 #おもてなしをしろとのお達しだ
 It's fine.
-The Emperor has ordered us to show him proper respect,
-and to provide him with hospitality.
+His Majesty has ordered us
+to receive him with the utmost courtesy.
 -----------------------
 <Kyle>
 -----------------------
@@ -765,16 +758,16 @@ Soldier
 -----------------------
 #さぁ、<Kyle>さん
 #中にお入りください
-So, let's go, <Kyle>.
-Please come in.
+Right this way, <Kyle>.
+Please, come inside.
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #また、いつでもお越しください
 #<Kyle>さん！
-Come back anytime!
-Mr. <Kyle>!
+You're welcome back anytime,
+<Kyle>!
 -----------------------
 <Kyle>
 -----------------------
@@ -786,97 +779,97 @@ Yeah, thanks!
 #なあ、聞いてくれよ、<Judas>！
 #ウッドロウさん
 #やっぱ、すっごい人だったよ！
-Hey, listen to me, <Judas>!
-Mr. Woodrow
-He really was an amazing guy!
+Hey, listen to this, <Judas>!
+Garr...
+He's incredible!
 -----------------------
 <Kyle>
 -----------------------
 #そこにいるだけで、なんかこう
 #「英雄～っ！」って感じなんだよ！
-Just being there gives off a certain vibe,
-like 'Hey, that's a hero!'
+Just standing there, you can feel it...
+like 'Now that's a hero!'
 -----------------------
 <Kyle>
 -----------------------
 #でも、全然いばらないし、気さくな人でさ！
 #オレのこと、自分の子どもみたいだって！
 #しかもだよ！
-She's not stuck-up at all, and she's really easy to talk to!
-She treats me just like her own kid!
+And he's not stuck-up at all, he's so down-to-earth!
+He said I'm like his own kid!
 And get this!
 -----------------------
 <Kyle>
 -----------------------
 #「彼は親から英雄の素質を確実に
 #　受け継いでいるようだからね」
-He's sure to have inherited his heroism from his parents.
-That's why.
+"He has undoubtedly inherited
+the makings of a hero from his parents."
 -----------------------
 <Kyle>
 -----------------------
 #だって！
 #英雄王に、期待されちゃうなんてさ！
 #タハハ････
-I mean!
-To think I'd be expected to live up to the Hero King's hopes!
+Can you believe it?
+The Hero King said he's counting on me!
 Tahaha...
 -----------------------
 <Judas>
 -----------------------
 #････やれやれ、思ったとおりだ
-......Well, that's what I expected.
+...Just as I expected.
 -----------------------
 <Kyle>
 -----------------------
 #････えっ!?
-......Huh!?
+...What?!
 -----------------------
 <Judas>
 -----------------------
 #気づかないのか？
 #ウッドロウも、兵士たちも
 #おまえのことなど見てはいない
-You don't even notice?
-Woodrow and the soldiers...
-aren't looking at you.
+Don't you realize?
+Garr and the soldiers...
+they aren't looking at you.
 -----------------------
 <Judas>
 -----------------------
 #おまえの後ろにいる
 #スタンとルーティを見ているだけだ
-Behind you.
-I'm just watching Stan and Rutee.
+They're looking past you,
+at Stahn and Rutee.
 -----------------------
 <Judas>
 -----------------------
 #「親から受け継いでいる」という、
 #ウッドロウの言葉がそれを証明している････
 #違うか？
-"Inherited from my parents,"
-Woodrow's words prove it...
-Right?
+'Inherited from his parents'...
+Woodrow's words prove as much...
+Wouldn't you agree?
 -----------------------
 <Kyle>
 -----------------------
 #あ････
-A...
+Ah...
 -----------------------
 <Judas>
 -----------------------
 #<Reala>、結局ウッドロウは
 #おまえの求める英雄だったのか？
-<Reala>, in the end, Woodrow was...
-...the hero you were looking for?
+<Reala>, in the end, was Garr
+the hero you were looking for?
 -----------------------
 <Judas>
 -----------------------
 #違ったのだろう？
 #でなければ、<Kyle>と
 #いっしょに出てくるはずはないからな
-It was different, wasn't it?
-If that's not the case, then <Kyle> and
-they wouldn't have shown up together.
+I take it he wasn't?
+If he had been, you wouldn't have
+come back out with <Kyle>.
 -----------------------
 <Reala>
 -----------------------
@@ -887,63 +880,63 @@ Yes...
 -----------------------
 #新しい手がかりも････
 #その顔を見るかぎり、なさそうだな
-Another lead...
-Judging by that look on their face, I don't think so.
+A new lead, too...
+Judging by your faces, I doubt it.
 -----------------------
 <Judas>
 -----------------------
 #それだというのに
 #おまえは、ひとりで浮かれて
 #いい気なものだな
-Even so...
-You're just getting carried away on your own,
-Living in such high spirits.
+And yet here you are,
+getting carried away all by yourself.
+Feeling pretty good about it, aren't you?
 -----------------------
 <Judas>
 -----------------------
 #ウッドロウにおだてられ
 #城の兵士たちに、ちやほやされ
 #さぞ、気分がよかったことだろう
-Flattered by Woodrow
-Pampered by the castle guards
-I'm sure it felt wonderful
+Flattered by Garr,
+fawned over by the castle soldiers...
+I'm sure you were having the time of your life.
 -----------------------
 <Judas>
 -----------------------
 #だが、仲間のことを考えられんやつが
 #英雄などに、なれはしない
 #････決してな
-But those who can't think of their comrades,
-will never become heroes.
+But someone who can't even think about their comrades
+will never become a hero.
 ...Never.
 -----------------------
 <Kyle>
 -----------------------
 #････････くっ！
-......Hrrk!
+......Nngh!
 -----------------------
 <Reala>
 -----------------------
 #あっ、<Kyle>!?
-Oh, <Kyle>!?
+Ah, <Kyle>!?
 -----------------------
 <Loni>
 -----------------------
 #たしかに、おまえの言うことは正論だよ
 #だが、それにしたって
 #言い方ってもんがあるだろう！
-You're right about that.
-But even so...
-There's such a thing as how to phrase things!
+Sure, what you're saying makes sense.
+But even so,
+there's a right way to say things!
 -----------------------
 <Judas>
 -----------------------
 #よくも、そんなことがいえるな
 #おまえも、ウッドロウたちと
 #同じじゃないか
-You really have some nerve saying that.
-You too, just like Woodrow and the others,
-aren't you?
+You really have some nerve.
+You're no different from Garr and the others,
+are you?
 -----------------------
 <Loni>
 -----------------------
@@ -955,36 +948,34 @@ What!?
 #城に入るときのことを、忘れたのか？
 #おまえは、スタンの息子というのを
 #利用したんだぞ
-Do you forget what happens when we enter the castle?
-You used Stan's son,
-didn't you?
+Did you forget how we got into the castle?
+You used the fact that he's Stahn's son.
+Don't deny it.
 -----------------------
 <Judas>
 -----------------------
 #あの瞬間から、連中は
 #<Kyle>を<Kyle>としてではなく
 #「スタンの息子」として見だしたんだ
-That moment on, those guys...
-Not treating <Kyle> as <Kyle>
-But seeing him as Stan's son!
+From that moment on, they stopped seeing <Kyle> as <Kyle>.
+They only saw him as "Stahn's son."
 -----------------------
 <Loni>
 -----------------------
 #そ、それは
 #時間がなくて
 #しかたなく････
-Th-that is...
-We're out of time.
-I have no choice...
+Th-that was...
+We were out of time.
+I had no choice...
 -----------------------
 <Judas>
 -----------------------
 #なら、結果として
 #<Kyle>がああなったのも
 #しかたがないということだ
-If that's the case,
-The reason <Kyle> ended up like that is also
-just inevitable.
+Then by that logic,
+it's only natural that <Kyle> ended up like this.
 -----------------------
 <Loni>
 -----------------------
@@ -996,9 +987,9 @@ just inevitable.
 #あいつがなりたいのは
 #ただの英雄じゃない
 #スタンのような英雄だ
-What he wants to become is
-not just any hero.
-a hero like Stan.
+What he wants to become
+isn't just any hero.
+It's a hero like Stahn.
 -----------------------
 <Judas>
 -----------------------
@@ -1006,7 +997,7 @@ a hero like Stan.
 #常に仲間のことを思いやる････
 #そんな英雄だ
 No matter what happens,
-always thinking of your comrades...
+always thinking of his comrades first...
 That is the kind of hero.
 -----------------------
 <Judas>
@@ -1014,9 +1005,8 @@ That is the kind of hero.
 #だとしたら、ちゃんと
 #言ってやらなくてはいけないんだ
 #････たとえ、あいつが傷つこうと
-If that's the case, I have to
-go ahead and tell them properly
-...even if it hurts them.
+If that's so, then someone has to tell him plainly.
+...Even if it wounds him.
 -----------------------
 <Loni>
 -----------------------
@@ -1026,14 +1016,14 @@ go ahead and tell them properly
 <Reala>
 -----------------------
 #････わたし、行ってくる！
-...I'm off!
+...I'm going after him!
 -----------------------
 notice
 -----------------------
 #<Kyle>は
 #称号「<item:0000082F>」を得ました
-<Kyle> is...
-You've earned the title "<item:0000082F>".
+<Kyle> earned
+the title "<item:0000082F>"!
 -----------------------
 <char:000003E8>
 -----------------------
@@ -1055,8 +1045,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -1090,8 +1080,8 @@ notice
 -----------------------
 #{16}{25}{CE}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{25}{CE}{C0}There was , but
-I couldn't carry it because it was full.
+Found {16}{25}{CE}{C0}, but
+it couldn't be carried because your inventory is full.
 -----------------------
 notice
 -----------------------

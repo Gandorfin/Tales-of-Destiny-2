@@ -1,96 +1,96 @@
 #クレスタの街・雑貨屋＆装備屋
-Cresta City - Item & Equipment Store
+Cresta - General Store & Equipment Shop
 -----------------------
 #クレスタの街
-Cresta City
+Cresta
 -----------------------
 #雑貨屋＆装備屋
-Item & Equipment Store
+General Store & Equipment Shop
 -----------------------
 #雑貨屋
-Item Clerk
+Shopkeeper
 -----------------------
 #あら、いらっしゃい！
 #何か必要なの？
 Oh, welcome!
-Do you need anything?
+Can I help you find something?
 -----------------------
 #またヨロシクね！
-See you soon!
+Come again soon!
 -----------------------
 #何も買ってくれないの？
 You're not buying anything?
 -----------------------
 #雑貨屋
-Item Clerk
+Shopkeeper
 -----------------------
 #雑貨屋
-Item Clerk
+Shopkeeper
 -----------------------
 #あら、いらっしゃい！
 Oh, welcome!
 -----------------------
 #装備屋
-Equipment Clerk
+Equipment Dealer
 -----------------------
 #よお！何か買っていってくれよ！
-Yo! Please buy something!
+Hey! Buy somethin', will ya?
 -----------------------
 #ありがとな！
-Thank you!
+Thanks!
 -----------------------
 #何も買ってくれないなんて
 #せちがらいぜ！
-I can't believe you didn't buy anything.
-What a cheapass!
+You didn't buy a thing?
+Tough crowd...
 -----------------------
 #装備屋
-Equipment Clerk
+Equipment Dealer
 -----------------------
 #装備屋
-Equipment Clerk
+Equipment Dealer
 -----------------------
 #よお！いつも元気だな！
-Hey! Good seeing you!
+Hey! You're lookin' lively as always!
 -----------------------
 #装備屋
-Equipment Clerk
+Equipment Dealer
 -----------------------
 #コラ！
 #勝手に売り物に触っちゃ
 #ダメでしょ！
 Hey!
-You can't touch the merchandise
-without permission!
+Don't go touching the merchandise
+without asking!
 -----------------------
 #この水車で
 #小麦粉をひいているようだ
-Looks like they're using this
-water mill to grind flour.
+Looks like they use this water wheel
+to grind flour.
 -----------------------
 #クレスタの台所を支えている
 #大事な水車だ
 #触らないでおこう
-The kitchen in Cresta is well-supported.
-It's an important waterwheel.
-I'll leave it alone.
+This water wheel supports Cresta's kitchens.
+It's vital to the town.
+Best not touch it.
 -----------------------
 #『アクアヴェイル産ミソ・一袋で２９８ガルド』
 #と書かれている
 It says:
-"Aquiveil Miso: 298 Gald each"
+"Aquaveil Miso: 298 Gald per bag."
 -----------------------
 #ミソ・スープはアクアヴェイル地方の
 #代表的な家庭料理らしい
-Miso soup is a typical home-style
-dish in the Aquaveil region.
+Miso soup seems to be a typical
+homestyle dish in the Aquaveil region.
 -----------------------
 #いってらっしゃいませ
-Welcome
+Welcome.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald per night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -100,11 +100,11 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
-Have a good night.
+Please rest well.
 -----------------------
 #おはようございます
 Good morning.
@@ -113,7 +113,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We hope to see you again.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -135,12 +135,11 @@ notice
 -----------------------
 #{16}{25}{D2}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{25}{D2}{C0}was there,
-I couldn't hold any more.
+{16}{25}{D2}{C0} was there,
+but your inventory was full.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

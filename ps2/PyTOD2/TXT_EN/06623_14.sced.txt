@@ -2,7 +2,7 @@
 Altar of Darkness
 -----------------------
 #カタコンベ・闇の祭壇
-Catacomb Dark Altar
+Catacomb: Altar of Darkness
 -----------------------
 #カタコンベ
 Catacomb
@@ -10,7 +10,7 @@ Catacomb
 NOTICE
 -----------------------
 #石碑に文字が書かれています
-There are inscriptions on the stone monument.
+There are words carved into the stone monument.
 -----------------------
 NOTICE
 -----------------------
@@ -18,17 +18,17 @@ NOTICE
 #２：『罰』を受け
 #３：『死』をむかえて
 #４：『闇』に落ちよ
-1: Suffering from 'Sin'
-2: Receiving 'Punishment'
-3: Facing 'Death'
-4: Falling into 'Darkness'
+1: Suffer 'Sin'
+2: Receive 'Punishment'
+3: Face 'Death'
+4: Fall into 'Darkness'
 -----------------------
 NOTICE
 -----------------------
 #ソーサラースコープを使って
 #隠された文字を見つけ出しました
-Using the Solsal Scope
-I found the hidden message.
+Using the Sorcerer's Scope,
+I found hidden writing.
 -----------------------
 NOTICE
 -----------------------
@@ -45,8 +45,8 @@ NOTICE
 -----------------------
 #ソーサラースコープを使って
 #隠された文字を見つけ出しました
-Using the Solsal Scope
-I found the hidden message.
+Using the Sorcerer's Scope,
+I found hidden writing.
 -----------------------
 NOTICE
 -----------------------
@@ -60,11 +60,11 @@ NOTICE
 4: Welcome 'Death'
 -----------------------
 #いってらっしゃいませ
-Have a good day.
+Welcome.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -74,8 +74,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -87,7 +87,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We look forward to your next visit.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -98,7 +98,7 @@ exit-party_togather( short spd )
 notice
 -----------------------
 #{16}{27}{4A}{C0}を手に入れました
-{16}{27}{4A}{C0}You obtained .
+Acquired {16}{27}{4A}{C0}.
 -----------------------
 notice
 -----------------------
@@ -109,12 +109,11 @@ notice
 -----------------------
 #{16}{27}{52}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{27}{52}{C0}There was , but
-I couldn't hold it because it was full.
+Found {16}{27}{52}{C0}, but
+couldn't carry it because your inventory is full.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

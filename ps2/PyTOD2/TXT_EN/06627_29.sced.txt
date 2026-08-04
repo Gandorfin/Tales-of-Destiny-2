@@ -1,79 +1,79 @@
 #カタコンベ・生誕への階段
-Stairs to the Catacomb's Birth
+Catacomb: Stairs to Birth
 -----------------------
 #カタコンベ
 Catacomb
 -----------------------
 #生誕への階段
-The Stairs to Birth
+Stairs to Birth
 -----------------------
 #ガープ
-Garp
+Gaap
 -----------------------
 #あのお方の崇高な理念を理解しようとせず、
 #たてつき、ジャマをし続け、あげくの果てには、
 #害しようとたくらむとは････
-They don't even try to understand that person's noble ideals,
-standing in the way, constantly getting in my way, and finally,
-To plot against us...
+They refuse to understand that person's noble ideals,
+opposing us, constantly interfering, and now
+they even plot to do us harm...
 -----------------------
 #ガープ
-Garp
+Gaap
 -----------------------
 #もはや、おまえたちに救いは必要ない
 #エルレインさまが許しても、我が許しはしない
-You no longer need salvation.
-Even if Elrein forgives you, I will not.
+You no longer deserve salvation.
+Even if Lady Elrane forgives you, I never will.
 -----------------------
 <Loni>
 -----------------------
 #へっ！てめえらの救いなんざ、
 #こっちから願い下げだ！
-Hmph! I don't need your salvation.
-I'll gladly take it from you!
+Heh! Like we'd ever want your salvation!
+We'd sooner pass!
 -----------------------
 <Kyle>
 -----------------------
 #ジャマをするなら
 #力づくでもどいてもらうぞ！
-If you're going to get in my way,
-I'll drag you back by force!
+If you're gonna stand in our way,
+we'll make you move by force!
 -----------------------
 #ガープ
-Garp
+Gaap
 -----------------------
 #エルレインさまのお手をわずらわせることもない
 #我が今ここで全てを終わらせてくれよう
-We haven't even troubled Lady Elraine.
-Let me bring everything to an end here and now.
+There's no need to trouble Lady Elrane.
+I shall end everything here and now.
 -----------------------
 <Kyle>
 -----------------------
 #そこまでだ！！
-That's it!!
+That's enough!!
 -----------------------
 <Kyle>
 -----------------------
 #今度は何を企んでいる！
 #オレたちの時代をどうするつもりだ！
 #答えろ、エルレイン！
-What are you up to this time!
-What's your plan for our era!
-Answer me, Elraine!
+What are you plotting this time!
+What do you intend for our era!
+Answer me, Elrane!
 -----------------------
 #エルレイン
 Elrane
 -----------------------
 #おまえたちか････だが、もはや時は過ぎた
 #すでに矢は放たれようとしている
-You lot... but it's already too late.
-The arrow has already been loosed.
+You again... but it is already too late.
+The arrow is about to be loosed.
 -----------------------
 <Kyle>
 -----------------------
 #矢を放つ････？
 #どういう意味だッ！
-Shoot an arrow...?
+Loose an arrow...?
 What do you mean!?
 -----------------------
 #エルレイン
@@ -81,51 +81,51 @@ Elrane
 -----------------------
 #千年前、星を射抜いた光の矢、
 #その輝きを、今再び････！
-A light arrow that pierced the stars a thousand years ago,
-That brilliance returns once more!..
+A thousand years ago, an arrow of light pierced the stars...
+That brilliance shall shine once more!
 -----------------------
 <Loni>
 -----------------------
 #うおっ、こ、これは････
-Woah, w-wait...!
+Whoa, th-this is...
 -----------------------
 <Nanaly>
 -----------------------
 #あいつ、いったい、
 #何をするつもりなんだい!?
-That guy, just what...
-What does he plan to do!?
+What the heck
+is that guy planning!?
 -----------------------
 <Harold>
 -----------------------
 #千年前、光の矢････
-A thousand years ago, the Arrow of Light...
+A thousand years ago... the arrow of light...
 -----------------------
 <Harold>
 -----------------------
 #････そっか、そういうことか
 #さすがは神の名を語るだけあって
 #やることがハデじゃない
-I see... so that's how it is.
-As expected from someone who speaks the name of God.
-You really don't hold back.
+...I see, so that's it.
+As expected of one who speaks for God.
+She certainly doesn't do things halfway.
 -----------------------
 <Loni>
 -----------------------
 #ひとりで納得してないで
 #説明しろ、<Harold>！
-Don't just accept it on your own.
-Explain yourself, <Harold>!
+Don't go figuring it out on your own!
+Explain it, <Harold>!
 -----------------------
 <Harold>
 -----------------------
 #千年前、世界で何があったか知ってる？
-Do you know what happened to the world a thousand years ago?
+Do you know what happened in the world a thousand years ago?
 -----------------------
 <Loni>
 -----------------------
 #もちろんだ、天地戦争だろ？
-Of course, it's the War of the Heavens.
+Of course. The Aeth'er Wars, right?
 -----------------------
 <Harold>
 -----------------------
@@ -133,72 +133,72 @@ Of course, it's the War of the Heavens.
 #そもそも、なぜ天地戦争が
 #起こるにいたったかの、発端
 A little before that.
-For starters, why did the War of Heaven and Earth
-originate?
+I'm talking about what caused the Aeth'er Wars
+in the first place.
 -----------------------
 <Kyle>
 -----------------------
 #天地戦争が起こる････発端？
-The Heavenly War... What was the cause?
+What caused... the Aeth'er Wars?
 -----------------------
 <Harold>
 -----------------------
 #天地戦争は、そもそも荒廃した大地を捨て
 #都市を浮上させる計画が発端だったの
-The Heavenly and Earthly War originally began as a plan to abandon the desolate land
-and bring the cities into the sky.
+The Aeth'er Wars began as a plan to abandon the devastated land
+and raise cities into the sky.
 -----------------------
 <Harold>
 -----------------------
 #その浮上した都市に乗り込んだ
 #特権階級の人間たちが
 #圧倒的な武力で地上を支配した
-They boarded that floating city.
-The privileged elite,
-dominated the surface with overwhelming military force.
+The privileged class that boarded those floating cities
+dominated the surface
+with overwhelming military force.
 -----------------------
 <Harold>
 -----------------------
 #それに地上の人間たちが反旗をひるがえし、
 #天地戦争が始まった････
-On top of that, the humans on the surface rose up in rebellion,
-and the War of Heaven and Earth began...
+And the people of the surface rose up in rebellion...
+Thus began the Aeth'er Wars.
 -----------------------
 <Kyle>
 -----------------------
 #天地戦争の話はわかったよ
 #でも、それとこのレンズと
 #どういう関係が････？
-I get it now about the war between Heaven and Earth.
-But what's the connection to this lens?
-How are they related...?
+Okay, I get the Aeth'er Wars.
+But what's that got to do with this Lens?
+How are they connected...?
 -----------------------
 <Harold>
 -----------------------
 #話は最後まで聞く！
-Let me hear you out to the end!
+Listen to the whole story!
 -----------------------
 <Harold>
 -----------------------
 #そもそも、なんで都市を
 #浮かせなきゃいけなかったの？
 #なぜ、そこまで大地が荒廃したの？
-For starters, why did we have to
-float the city?
-Why was the land devastated so much?
+First of all, why did they have to
+raise the cities into the sky?
+Why was the land so devastated?
 -----------------------
 <Judas>
 -----------------------
 #彗星の衝突だな
-It's a comet collision.
+A comet impact.
 -----------------------
 <Harold>
 -----------------------
 #そう、今から約千年前
 #この星に巨大な彗星が衝突したとき
 #人類の過半数が一瞬にして死に絶えた
-Aye, about a thousand years ago.
-When that massive comet struck this planet,
+Right. About a thousand years ago,
+when a massive comet struck this planet,
 more than half of humanity perished in an instant.
 -----------------------
 <Harold>
@@ -206,61 +206,60 @@ more than half of humanity perished in an instant.
 #衝突の際に巻き上がった粉塵によって
 #太陽の光は完全にさえぎられ
 #地上は極寒の地と化してしまった
-The dust kicked up during the collision
-completely blocked out the sunlight
-turning the surface into a land of extreme cold
+The dust thrown up by the impact
+completely blotted out the sun,
+turning the surface into a frozen wasteland.
 -----------------------
 <Harold>
 -----------------------
 #だから、空をおおう粉塵よりもさらに高く
 #都市そのものを浮かべたのよ
-So high that it towers above even the dust covering the sky
-I floated the entire city itself.
+So they raised the cities even higher than the dust
+choking the skies.
 -----------------------
 <Harold>
 -----------------------
 #彗星によってもたらされた未知の力
 #レンズを使ってね
-The unknown power brought by the comet
-Use the lens.
+Using the unknown power brought by the comet.
+Using Lens.
 -----------------------
 <Loni>
 -----------------------
 #だから、それとこのレンズと
 #どんな関係があるってんだよ!?
-So, what's the connection between that and this lens?
-What kind of relationship is there between them!?
+So what's the connection between that and this Lens!?
+What kind of connection is there!?
 -----------------------
 <Harold>
 -----------------------
 #まだわかんない？
 #エルレインはあの悲劇をもう一度
 #くり返そうとしてるのよ
-Don't you get it yet?
-Elrane is trying to bring back that tragedy,
-one more time.
+You still don't get it?
+Elrane is trying to repeat that tragedy
+all over again.
 -----------------------
 <Harold>
 -----------------------
 #人類を滅亡の寸前にまで追いやった
 #巨大彗星の衝突を････
-Driven humanity to the brink of extinction
-The collision of that massive comet...
+The impact of that massive comet...
+that drove humanity to the brink of extinction.
 -----------------------
 <Kyle>
 -----------------------
 #世界を消すってのは
 #そういうことだったのか
 #でも、今になって、どうして････!?
-To erase the world,
-So that's what it meant.
+So that's what she meant by erasing the world.
 But why now...!?
 -----------------------
 #エルレイン
 Elrane
 -----------------------
 #おまえたちを救うためだ
-It's to save you all.
+To save you all.
 -----------------------
 #エルレイン
 Elrane
@@ -268,32 +267,32 @@ Elrane
 #おまえたちだけではない
 #この世界のすべてを救うために、
 #すべてを破壊する
-You're not the only ones.
+Not just you.
 To save everything in this world,
-Destroy everything.
+I shall destroy everything.
 -----------------------
 <Harold>
 -----------------------
 #明らかに論理が破たんしてるわね
 #救うために破壊する？
 #そんなことはありえないわ
-Her logic is clearly falling apart.
-Destroying to save?
+Her logic is clearly broken.
+Destroy in order to save?
 That's impossible.
 -----------------------
 #エルレイン
 Elrane
 -----------------------
 #私は間違ってなどいない！
-I'm not wrong!
+I am not wrong!
 -----------------------
 #エルレイン
 Elrane
 -----------------------
 #完全な形で神が降臨すれば････
 #全人類の絶対幸福を実現することができる
-If God were to descend in His complete form...
-We could realize absolute happiness for all humanity.
+If God descends in complete form...
+absolute happiness for all humanity can be realized.
 -----------------------
 #エルレイン
 Elrane
@@ -301,9 +300,9 @@ Elrane
 #それを成すため、私は歴史を改変した
 #だが、その試みはことごとく無に帰した
 #････おまえたちの手によって！
-To achieve that, I altered history.
-But all my efforts came to naught.
-...Because of you lot!
+To accomplish that, I altered history.
+But every attempt was returned to nothing...
+...by your hands!
 -----------------------
 <Reala>
 -----------------------
@@ -328,9 +327,9 @@ Elrane
 #ふたつの天体が衝突する際に生じる
 #すさまじいエネルギーをもってすれば
 #神の降臨が現実のものとなる
-When two celestial bodies collide,
-With that immense energy,
-The descent of God becomes reality.
+The tremendous energy released
+when two celestial bodies collide...
+With it, the descent of God becomes reality.
 -----------------------
 #エルレイン
 Elrane
@@ -341,23 +340,23 @@ Yes, the perfect God...!
 <Kyle>
 -----------------------
 #待てッ、エルレイン！
-Hold it, Elrein!
+Wait, Elrane!
 -----------------------
 <Kyle>
 -----------------------
 #すべてを救うためにすべてを破壊する
 #そんなことが許されるとしたら････
-Destroy everything to save everything.
-If that were allowed...?
+Destroy everything to save everything?
+If something like that were allowed...
 -----------------------
 <Kyle>
 -----------------------
 #オレたちはなんだ！
 #神にとってオレたち人間は
 #いったいなんなんだ！
-What are we?
-To God, what are we humans?
-Exactly what are we?!
+What are we?!
+To God, what are we humans?!
+What in the world are we?!
 -----------------------
 #エルレイン
 Elrane
@@ -366,40 +365,40 @@ Elrane
 #あわれで、いとおしい存在
 #それ以上でもそれ以下でもない
 Fragile beings who should be saved by God,
-pitiful and precious creatures
+pitiful, precious creatures
 nothing more, nothing less
 -----------------------
 <Kyle>
 -----------------------
 #ふざけるなッ!!
-Don't mess with me!!
+Don't screw with me!!
 -----------------------
 <Kyle>
 -----------------------
 #オレはずっとこの目で見てきた
 #歴史を築いた人たちの強さを！
-I've witnessed it all with my own eyes.
-The strength of those who forged history!
+I've seen it all with these eyes!
+The strength of those who built history!
 -----------------------
 <Kyle>
 -----------------------
 #人が生きた証として
 #積み重ねられていく歴史を！
-As proof that people have lived,
-the history built up upon itself!
+History piled up layer upon layer
+as proof that people lived!
 -----------------------
 <Kyle>
 -----------------------
 #それを消すなんてこと、
 #誰にもさせはしない！
-I won't let anyone erase that.
-Not a soul will allow it!
+I won't let anyone erase that!
+Not a single soul!
 -----------------------
 #エルレイン
 Elrane
 -----------------------
 #案ずることはない
-No need to worry.
+You needn't worry.
 -----------------------
 #エルレイン
 Elrane
@@ -407,32 +406,32 @@ Elrane
 #おまえたちがすべて死に絶えたとしても
 #完全神の降臨さえ果たされれば
 #新たなる人類を生み出すことができる
-Even if you all perish completely
-As long as the descent of the Complete God is achieved
-We can give birth to a new humanity
+Even if all of you perish completely,
+so long as the descent of the Complete God is achieved,
+a new humanity can be created.
 -----------------------
 #エルレイン
 Elrane
 -----------------------
 #そして、新たなる人類は、完全なる世界で
 #完全な幸福を手にすることができる
-And so, in a world of perfection,
-the new humanity can attain perfect happiness.
+And that new humanity, in a world of perfection,
+can attain perfect happiness.
 -----------------------
 #エルレイン
 Elrane
 -----------------------
 #いまこそ、人類自身のために
 #すべてを振り出しに戻すべきなのだ
-Now is the time to fight for humanity itself.
-Everything should be brought back to square one.
+Now is the time, for humanity's own sake,
+to return everything to the beginning.
 -----------------------
 <Kyle>
 -----------------------
 #歴史の破壊が人のためだと････!?
 #じょうだんじゃないッ!!
-The destruction of history is for humanity's sake...!?
-This isn't some joke!!
+The destruction of history is for humanity's sake...?!
+This isn't a damn joke!!
 -----------------------
 #エルレイン
 Elrane
@@ -440,23 +439,23 @@ Elrane
 #おろかな････
 #まだ、わからないのか？
 Foolish...
-Don't you understand yet?
+Do you still not understand?
 -----------------------
 #エルレイン
-Ereleyn
+Elrane
 -----------------------
 #人は、神の力によってのみ
 #すべての不幸から逃れ
 #絶対の幸福を手にすることができる
-Man can only
+Only through the power of God can mankind
 escape all misfortune
-attain absolute happiness
+and attain absolute happiness.
 -----------------------
 #エルレイン
 Elrane
 -----------------------
 #なぜ、その真理を認めようとしない？
-Why won't you accept that truth?
+Why do you refuse to accept this truth?
 -----------------------
 <Kyle>
 -----------------------
@@ -468,26 +467,25 @@ There's no such thing as absolute happiness in this world!
 #苦しみや悲しみがあるからこそ
 #人は幸せになりたいと願う！
 #それを自分の力でつかもうとする！
-It is precisely because there is suffering and sorrow,
-that people wish to find happiness!
-They strive to grasp it with their own strength!
+It is pain and sorrow that make us
+yearn for happiness!
+We strive to grasp it ourselves!
 -----------------------
 <Kyle>
 -----------------------
 #本当の幸せは
 #幸せを探して生きる毎日の中にある
 #人はそうやって歴史を築いていくんだ！
-True happiness is
-found in the daily pursuit of it.
+True happiness is found
+in the everyday act of living while seeking it out!
 That's how people build history!
 -----------------------
 #エルレイン
-Ereain
+Elrane
 -----------------------
 #････これ以上話しても
 #ムダのようだな
-......Even if I keep talking,
-it's probably pointless.
+...Further words seem pointless.
 -----------------------
 #エルレイン
 Elrane
@@ -495,8 +493,8 @@ Elrane
 #すでに矢は放たれようとしている
 #これを止めることは、
 #おまえたちには、できはしない
-The arrow is already about to be loosed.
-To stop this,
+The arrow is already on the verge of being loosed.
+Stopping this
 is beyond your capabilities.
 -----------------------
 <Kyle>
@@ -504,16 +502,16 @@ is beyond your capabilities.
 #できる！
 #おまえを倒して
 #衝突を止めてみせる！
-I can do it!
-To defeat you,
-I'll stop this collision!
+We can!
+We'll defeat you
+and stop the collision!
 -----------------------
 #エルレイン
-Erein
+Elrane
 -----------------------
 #今ここにいる私を倒した所で
 #何の意味もない
-Even if you were to defeat me, who am here right now,
+Even if you defeat me here and now,
 it would mean nothing.
 -----------------------
 #エルレイン
@@ -522,9 +520,9 @@ Elrane
 #私は、神より産まれし者
 #何度でも生まれかわり
 #完全なる世界を作りあげる
-I am one born by the will of God
-To be reborn time and again
-And forge a world of perfection
+I am one born of God.
+I shall be reborn again and again,
+and forge a world of perfection.
 -----------------------
 <Kyle>
 -----------------------
@@ -535,7 +533,7 @@ Then... I'll kill God!
 -----------------------
 #そして、二度とおまえが
 #生まれないようにしてやる！
-And so, I'll make sure you never
+And I'll make sure you never
 come back again!
 -----------------------
 #エルレイン
@@ -549,33 +547,33 @@ Elrane
 -----------------------
 #やはり真実は告げられなかったようだな
 #<Reala>････
-I suppose the truth was kept from us after all.
+So the truth was kept from you after all,
 <Reala>...
 -----------------------
 <Kyle>
 -----------------------
 #････真実!?
-......The truth!?
+...The truth!?
 -----------------------
 <Reala>
 -----------------------
 #････････････････
 #････････････････
-...
-...
+......
+......
 -----------------------
 #エルレイン
 Elrane
 -----------------------
 #ならば、私が代わりに教えてやろう
 #<Reala>と私は････
-If so, I shall teach you in my stead.
+Then let me teach you in her place.
 <Reala> and I...
 -----------------------
 <Reala>
 -----------------------
 #やめてッ、エルレイン!!
-Don't stop it, Elrein!!
+Stop, Elrane!!
 -----------------------
 #エルレイン
 Elrane
@@ -593,15 +591,15 @@ Elrane
 -----------------------
 #だから、神を殺せば、私と共に････
 #<Reala>も死ぬ
-So if I kill God... I'll go with you...
-<Reala> will die too.
+So if you kill God, I too will...
+and <Reala> will die.
 -----------------------
 <Kyle>
 -----------------------
 #ウ、ウソだッ!!
 #<Reala>が神だなんて････
 #そんなことありえない！
-I-I'm kidding!
+Th-That's a lie!!
 <Reala> is a god?
 That can't be true!
 -----------------------
@@ -610,14 +608,14 @@ That can't be true!
 #だまされるな<Kyle>！
 #でたらめだ、でたらめに決まってる！
 Don't fall for it, <Kyle>!
-It's nonsense, it has to be!
+It's a load of bull, it has to be!
 -----------------------
 #エルレイン
 Elrane
 -----------------------
 #信じるかどうかは、おまえたちの自由
 #だが、真実はひとつだ
-Whether you believe it is up to you.
+Believe what you will.
 But there is only one truth.
 -----------------------
 <Kyle>
@@ -625,9 +623,9 @@ But there is only one truth.
 #ウソだよな、<Reala>？
 #君が神だなんて!?
 #エルレインがでまかせ言ってんだよな!!
-You're kidding, right, <Reala>?
+It's a lie, right, <Reala>?
 You're a god!?
-Elraine's just making things up, isn't she?!
+Elrane's just making this up, isn't she?!
 -----------------------
 <Reala>
 -----------------------
@@ -639,36 +637,36 @@ Elraine's just making things up, isn't she?!
 <Kyle>
 -----------------------
 #お願いだ、ウソだって言ってくれ
-I'm begging you, tell me it's a lie.
+Please... tell me it's a lie.
 -----------------------
 <Reala>
 -----------------------
 #いいえ････二人の聖女は
 #神より生み出されしもの
 #いうなれば神の化身････
-No... The two Saintesses are
-Born from the will of God,
-As if incarnations of the divine...
+No... The two Saintesses
+were born from God.
+We are, in essence, incarnations of the divine...
 -----------------------
 <Reala>
 -----------------------
 #神の存在が消滅する時
 #わたしとエルレインもまた････
-The moment God's existence vanishes
-Myself and Elraine as well...
+When God's existence vanishes,
+Elrane and I will also...
 -----------------------
 <Kyle>
 -----------------------
 #････････そ、そんな････！
-......N-no way...!
+...Th-That's...!
 -----------------------
 #エルレイン
 Elrane
 -----------------------
 #そう、やはりおまえたちに
 #神を殺せはしない
-Yes, as I suspected, you two...
-You cannot kill God.
+Yes. As I suspected,
+you cannot kill God.
 -----------------------
 #エルレイン
 Elrane
@@ -676,37 +674,37 @@ Elrane
 #それが分かったのなら帰るがいい
 #そして、裁きの時を迎える場所を
 #自らの手で選べ
-If you've come to that conclusion, then go back.
-And choose the place where judgment shall fall,
-With your own hands.
+If you understand that, then go.
+Choose the place where judgment shall fall
+with your own hands.
 -----------------------
 #エルレイン
 Elrane
 -----------------------
 #それが、おまえたちに
 #与えられた最後の幸福だ
-That is what was given to you all,
-your final happiness.
+That is the last happiness
+granted to you all.
 -----------------------
 <Loni>
 -----------------------
 #待ちやがれ、エルレイン！
-Hold on, Elrein!
+Hold it, Elrane!
 -----------------------
 <Nanaly>
 -----------------------
 #逃しはしないよッ！
-I won't let you get away!
+I won't let you escape!
 -----------------------
 <Loni>
 -----------------------
 #のわぁっ！
-Aaaah!
+Nwoah!
 -----------------------
 <Nanaly>
 -----------------------
 #うわぁっ！
-Ahhh!
+Uwaaah!
 -----------------------
 <Reala>
 -----------------------
@@ -714,16 +712,16 @@ Ahhh!
 #････ごめんなさい
 #今まで、言えなくて
 <Kyle>...
-...Sorry.
-I couldn't say it until now.
+...I'm sorry.
+I couldn't tell you until now.
 -----------------------
 <Reala>
 -----------------------
 #････でもね、<Kyle>
 #他に、方法はないの
 #神を殺さないと、この世界は････
-Still... but,<Kyle>
-Is there no other way?
+...But <Kyle>,
+there is no other way.
 If we don't kill God, this world will...
 -----------------------
 <Kyle>
@@ -742,36 +740,36 @@ I don't want to hear anything right now.
 -----------------------
 #わからないんだ････
 #自分がこれからどうすればいいのか
-I don't understand...
-What I should do from here on out
+I don't know...
+what I'm supposed to do now.
 -----------------------
 <Kyle>
 -----------------------
 #わからない････
 #なにもわからないんだ！
-I don't understand...
-I don't understand anything!
+I don't know...
+I don't know anything anymore!
 -----------------------
 <Judas>
 -----------------------
 #ここにいてもラチがあかない
 #とにかく、帰ろう････
 Staying here is pointless.
-Anyway, let's head back...
+Let's head back for now...
 -----------------------
 <Reala>
 -----------------------
 #････････････････
 #････････････････
-...
-...
+......
+......
 -----------------------
 notice
 -----------------------
 #<Reala>は
 #称号「<item:0000082D>」を得ました
-<Reala> is...
-You have obtained the title "<item:0000082D>."
+<Reala>
+obtained the title "<item:0000082D>"!
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -788,8 +786,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -812,7 +810,7 @@ exit-party_togather( short spd )
 notice
 -----------------------
 #{16}{28}{86}{09}{C0}を手に入れました
-{16}{28}{86}{09}{C0}You obtained .
+Acquired {16}{28}{86}{09}{C0}.
 -----------------------
 notice
 -----------------------
@@ -823,8 +821,8 @@ notice
 -----------------------
 #{16}{28}{8E}{09}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{28}{8E}{09}{C0}There was , but
-I couldn't hold it because it was full.
+{16}{28}{8E}{09}{C0}Found , but your
+inventory is full.
 -----------------------
 notice
 -----------------------

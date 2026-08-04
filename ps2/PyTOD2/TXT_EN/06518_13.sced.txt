@@ -1,8 +1,8 @@
 #飛行竜
-Airship
+Flying Dragon
 -----------------------
 #飛行竜
-Sky Dragon
+Flying Dragon
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -19,8 +19,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -54,8 +54,8 @@ notice
 -----------------------
 #{16}{25}{D2}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{25}{D2}{C0}There was , but
-I couldn't hold it because it was full.
+{16}{25}{D2}{C0} was there, but
+your inventory is full.
 -----------------------
 notice
 -----------------------

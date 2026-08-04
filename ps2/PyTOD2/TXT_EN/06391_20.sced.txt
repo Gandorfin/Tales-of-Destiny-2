@@ -1,26 +1,26 @@
 #ストレイライズ大神殿
-Straylise Grand Temple
+Straylize Grand Temple
 -----------------------
 #ストレイライズ大神殿
-Straylise Grand Temple
+Straylize Grand Temple
 -----------------------
 #ストレイライズ神殿
-Straylise Temple
+Straylize Temple
 -----------------------
 #ストレイライズ神殿
-Straylise Temple
+Straylize Temple
 -----------------------
 #大きくノッポな古時計がある
 #どこかのおばあさんが使用していたのだろうか
-There's a really tall old clock over there.
-I wonder if some grandmother used to keep it.
+There's a really tall, lanky old clock here.
+I wonder if some grandmother used to own it.
 -----------------------
 #不思議な輝きを放つ水晶だ
 #とんでもなく大きいが、一体どれくらいの
 #値段になるのだろう････
-It's a crystal radiating a mysterious glow.
-It's incredibly large, but just how much...
-...do you think it costs?
+It's a crystal giving off a mysterious glow.
+It's absurdly large, but I wonder
+just how much something like this would cost...
 -----------------------
 #ここは礼拝堂です
 This is the chapel.
@@ -29,17 +29,17 @@ This is the chapel.
 -----------------------
 #ここは････未来の
 #ストレイライズ大神殿････？
-This is... in the future.
-The Stray Raiser Grand Cathedral...?
+This is... the future's
+Straylize Grand Temple...?
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #おい、おまえたち！
-Hold it right there!
+Hey, you there!
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #こんなところで、なにをしている!?
 What are you doing in a place like this!?
@@ -52,16 +52,16 @@ Uh, well, we...
 <Reala>
 -----------------------
 #エルレインはどこですか？
-Where is Elrein?
+Where is Elrane?
 -----------------------
 #兵士
 Soldier
 -----------------------
 #なんだ、おまえは？
-What's with you?
+Who are you?
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #お、おい！
 #あのペンダント！
@@ -69,75 +69,75 @@ H-hey!
 That pendant!
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #もしかして、せ、聖女さま････!?
-Could it be... you're the Saintess!?
+Could it be... the Saintess!?
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #エルレインさまは、
 #こちらにはいらっしゃいません
-Lady Elraine is not here.
-She isn't around.
+Lady Elrane is not
+present here.
 -----------------------
 <Reala>
 -----------------------
 #では、どこにいるのです？
-So where are they?
+Then where is she?
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #それがその････
 #誰にも行き先をつげるな、と
-That's it...
-Don't tell anyone where we're going.
+That's the thing...
+She told us not to tell anyone where she went.
 -----------------------
 <Reala>
 -----------------------
 #事は急を要します
 #答えなさい、エルレインはどこですか？
-Time is of the essence.
-Answer me, where is Elrein?
+This is urgent.
+Answer me. Where is Elrane?
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #････････カ、カルビオラです
-......It's... Calviora.
+......K-Kalviola.
 -----------------------
 <Loni>
 -----------------------
 #カルビオラっていえば、
 #<Nanaly>の村の近くの
 #巨大レンズがあったところだったな
-Speaking of Calbira,
-that's the place near <Nanaly>'s village
-where the giant Lens was.
+If we're talking Kalviola,
+that's near <Nanaly>'s village,
+where that giant Lens was.
 -----------------------
 <Judas>
 -----------------------
 #ヤツがなにをたくらんでいるのか････
 #とにかく急いだ方がいい
-What is that guy plotting...?
-We'd better hurry up.
+What is she plotting...
+We'd best hurry.
 -----------------------
 <Kyle>
 -----------------------
 #ああ、わかってる
 #行こう、カルビオラへ！
-I see, I get it.
-Let's go to Calbira!
+Yeah, I know.
+Let's go to Kalviola!
 -----------------------
 #司祭
 Priest
 -----------------------
 #はて？
 #本日は、礼拝の日ではないはずだが････
-Huh?
-Today isn't supposed to be a day of worship... but...
+Hmm?
+Today shouldn't be a day of worship...
 -----------------------
 <Kyle>
 -----------------------
@@ -150,8 +150,8 @@ Because that girl is here...!
 #ちょっとした手ちがいです
 #どうも、どうも～
 Haha...
-Just a little slip-up.
-Hehe, hehe~
+Just a little mistake.
+Sorry, sorry~
 -----------------------
 #司祭
 Priest
@@ -159,17 +159,16 @@ Priest
 #まったく、こまったものだ････
 #エルレインさまから、礼拝をとりやめるよう
 #おおせつかっていたというのに
-Good grief, what a nuisance...
-She told us to cancel the worship service,
-but we were under orders from Lady Elrein.
+Good grief, what a bother...
+Lady Elrane had ordered us to cancel the worship service.
 -----------------------
 #司祭
 Priest
 -----------------------
 #大神殿内に賊が侵入し
 #フィリアがおそわれたようだ
-Thieves have infiltrated the Great Shrine
-It seems Filia was attacked
+Thieves have infiltrated the Grand Temple,
+and it seems Philia was attacked.
 -----------------------
 #司祭
 Priest
@@ -177,9 +176,9 @@ Priest
 #しかし、神殿を敵に回すとは････
 #神をもおそれぬ行為とは
 #まさに、このことだな
-But to turn against the temple...
-An act that fears even the gods.
-That is precisely what I mean.
+But to make an enemy of the temple...
+An act that shows no fear of the gods.
+That is precisely what this is.
 -----------------------
 #司祭
 Priest
@@ -189,7 +188,7 @@ Priest
 #どこのだれなんだね？
 Hm?
 By the way,
-who are you guys?
+who might you people be?
 -----------------------
 #司祭
 Priest
@@ -197,39 +196,40 @@ Priest
 #おや、あなたが
 #このような場所にいらっしゃるなんて
 #めずらしいですな
-Oh? You here?
-In a place like this?
+Oh my, to see you
+in a place like this...
 How unusual.
 -----------------------
 <Kyle>
 -----------------------
 #この人
 #<Reala>のしりあい？
-This person
-You know <Reala>, don't you?
+Do you
+know <Reala>?
 -----------------------
 <Reala>
 -----------------------
 #きっと、人ちがいをしてるんだわ････
 #行きましょ、<Kyle>
-You're probably just mistaken.
-Let's go, .<Kyle>
+You must be mistaken.
+Let's go, <Kyle>.
 -----------------------
 #司祭
 Priest
 -----------------------
 #どうぞ、ごゆっくり
 #おくつろぎください
-Please, take your time.
-Make yourself at home.
+Please, take your time
+and make yourself at home.
 -----------------------
 #司祭
 Priest
 -----------------------
 #司祭であるわたしでさえも
 #降臨の儀には、たちあえんというのか････
-Even I, as a priest,
-Are you saying you won't attend the descent ceremony...?
+Even a priest like me
+isn't allowed to attend
+the descent ceremony...?
 -----------------------
 #司祭
 Priest
@@ -237,17 +237,17 @@ Priest
 #ううっ････
 #そういわれると
 #なおさら見たくなるではないか
-Hnn...
-When you put it that way,
-doesn't that make me want to see it even more?
+Nnngh...
+But when you say it like that,
+it only makes me want to see it more.
 -----------------------
 #司祭
 Priest
 -----------------------
 #しかし、あそこに通すことをゆるされた
 #あの娘は、いったい何者なんだろうか？
-However, I was allowed to pass through there.
-Who on earth is that girl?
+Still, who in the world
+is that girl they let through?
 -----------------------
 #司祭
 Priest
@@ -255,8 +255,8 @@ Priest
 #どうした!?
 #なんのさわぎだ？
 #とうとう神が降臨なされたのか？
-What's wrong!?
-What's all the commotion about?
+What's going on!?
+What's all this commotion?
 Has God finally descended?
 -----------------------
 <Kyle>
@@ -264,9 +264,9 @@ Has God finally descended?
 #ヘヘッ
 #そうカンタンに
 #なされてたまるかってんだ！
-Heh heh.
-So easily,
-like hell that's gonna happen!
+Heh heh!
+As if it'd be
+that easy!
 -----------------------
 #司祭
 Priest
@@ -274,9 +274,9 @@ Priest
 #エルレインさまは
 #いったい、どこへ行かれたのだ!?
 #儀式は、どうなったのだ？
-Lord Elrein...
-Where on earth did she go!?
-What happened to the ritual?
+Lady Elrane...
+where in the world has she gone!?
+What became of the ceremony?
 -----------------------
 #司祭
 Priest
@@ -284,18 +284,18 @@ Priest
 #エルレインさまのお言葉では
 #世界が幸福へとみちびかれる日も
 #そう遠くないそうだ
-My lady Elraine's words suggest that
-the day will come when the world is guided toward happiness,
-and it won't be long from now.
+According to Lady Elrane,
+the day the world is guided
+to happiness is not far off.
 -----------------------
 <Judas>
 -----------------------
 #やれやれ････
 #こいつら、ほんとうに
 #なにも知らされていないようだな
-Tch...
-These guys really are...
-They don't seem to have been told anything.
+Good grief...
+These people truly
+haven't been told a thing.
 -----------------------
 #司祭
 Priest
@@ -303,26 +303,26 @@ Priest
 #エルレインさまのお言葉では
 #世界が幸福へとみちびかれる日も
 #そう遠くないそうだ
-According to Elrein's words,
-a day will come when the world is guided toward happiness.
-It seems that day isn't far off.
+According to Lady Elrane,
+the day the world is guided
+to happiness is not far off.
 -----------------------
 <Reala>
 -----------------------
 #エルレインがみちびくのは
 #この世界だけ････
 #人類は、その中にふくまれてないのよ！
-Eirain guides us to
-only this world...
-Humankind isn't included within it!
+Elrane guides only this world...
+Humanity isn't included
+in that vision!
 -----------------------
 #司祭
 Priest
 -----------------------
 #はやく世界中が
 #幸福につつまれるとよいのぉ
-I hope the whole world
-can soon be wrapped in happiness.
+I do hope the whole world
+will be wrapped in happiness soon.
 -----------------------
 #司祭
 Priest
@@ -330,9 +330,9 @@ Priest
 #どうしました？
 #神になにか相談ごとでも
 #おありですかな？
-What's wrong?
-Do you have something to discuss with God?
-If so?
+Is something the matter?
+Do you have something
+you wish to discuss with God?
 -----------------------
 <Loni>
 -----------------------
@@ -340,8 +340,8 @@ If so?
 #女の子しょうかいして、とか言ったら
 #天罰くだされそうだな････
 Something to discuss?
-Like if I said I wanted you to introduce me to some girls,
-Looks like divine punishment is about to rain down on me...
+If I asked him to set me up with some girls,
+I'd probably get smited on the spot...
 -----------------------
 #司祭
 Priest
@@ -349,9 +349,9 @@ Priest
 #なにごともあきらめずに努力すれば
 #きっと、神のご助力が
 #えられることでしょう
-If you work hard without giving up on anything,
-you will surely receive
-the help of God.
+If you persevere without giving up,
+I am certain you will receive
+the aid of God.
 -----------------------
 #神官
 Priest
@@ -359,15 +359,15 @@ Priest
 #本日は礼拝日ではないはずです････
 #これは、いわゆるひとつの
 #ルール違反というヤツじゃありませんか？
-Today shouldn't be a day of worship...
-This is what you might call
-a violation of the rules, isn't it?
+Today is not a day of worship...
+Would this not be what one might call,
+a violation of the rules?
 -----------------------
 <Kyle>
 -----------------------
 #えっ！
 #あっ････　いや、そのう････
-Huh!
+Huh!?
 Uh... n-no, I mean...
 -----------------------
 #神官
@@ -376,9 +376,9 @@ Priest
 #違反をおかしてでも
 #礼拝したいという気持ちはわかりますが
 #以後、気をつけてくださいね
-I'd rather break the rules
-I understand that you want to pay your respects,
-Just keep an eye on things from now on.
+I understand the desire to worship
+even if it means breaking the rules,
+but please be more careful in the future.
 -----------------------
 #神官
 Priest
@@ -386,9 +386,9 @@ Priest
 #あなたがたは
 #いわゆるひとつの
 #信仰熱心なかたがたなんですね
-You all are
-so-called ones who have
-a devout faith.
+You are what one might call
+exceptionally devout followers,
+are you not?
 -----------------------
 #神官
 Priest
@@ -396,16 +396,16 @@ Priest
 #何者かが侵入したそうです！
 #世間一般でいう
 #「賊」というやからです！
-Someone has breached the perimeter!
-In the eyes of the general public,
-"they are nothing but bandits!"
+Someone has intruded!
+In common parlance,
+they are what you would call "bandits"!
 -----------------------
 <Loni>
 -----------------------
 #誤解されないうちに
 #ずらかったほうが、よさそうだぜ
-Before it gets misunderstood
-Looks better if we're all together
+We'd better scram
+before they get the wrong idea.
 -----------------------
 #神官
 Priest
@@ -413,9 +413,8 @@ Priest
 #これは、いわゆるひとつの
 #「キケンな状況」というヤツでは
 #ありませんか？
-This is what they call a
-situations where things are
-in danger, isn't it?
+Would this not be what one might call
+a "dangerous situation"?
 -----------------------
 #神官
 Priest
@@ -423,24 +422,25 @@ Priest
 #アイグレッテに
 #争いごとを持ちこむのは
 #いつも外部の人間なんです
-To Aigrette,
-The ones who always bring
-conflict are outsiders.
+It is always outsiders
+who bring conflict
+to Aigrette.
 -----------------------
 #神官
 Priest
 -----------------------
 #世界中がアイグレッテのようになれば
 #争いごとなど消えると思うんですが････
-If the whole world were like Aigrette,
-I think all conflicts would disappear...
+If only the whole world
+were like Aigrette...
+then conflict would vanish.
 -----------------------
 <Nanaly>
 -----------------------
 #フン！
 #よけいなお世話だよ
 Hmph!
-That's none of your business.
+None of your business.
 -----------------------
 #神官
 Priest
@@ -449,8 +449,8 @@ Priest
 #外の世界の人たちには
 #なぜ、それがわからないのでしょうね
 People must be happy.
-To those in the outside world,
-Why can't they understand that?
+Why is it that those
+in the outside world cannot grasp this?
 -----------------------
 #神官
 Priest
@@ -458,32 +458,32 @@ Priest
 #「密室にうらわかき乙女が二人きり」
 #････はっ！
 #いえ、わたしはみだらな想像など････
-A pair of young maidens in a private room
-...Huh!
-No, I wasn't imagining anything indecent...
+"Two young maidens, alone in a private chamber..."
+...Ah!
+N-no, I was not entertaining any indecent thoughts...
 -----------------------
 #神官
 Priest
 -----------------------
 #こ、これは、世間一般でいうとこの
 #「誤解」というヤツです！
-Th-this is what people generally call...
-"misunderstanding"!
+Th-this is what one might call,
+in common parlance, a "misunderstanding"!
 -----------------------
 <Nanaly>
 -----------------------
 #こんなヤツ、ほっといて
 #ほかをあたるよ！
-Leave this guy alone.
-I'll try somewhere else!
+Let's leave this guy be.
+I'll check somewhere else!
 -----------------------
 #神官
 Priest
 -----------------------
 #ああっ！
 #わたしは、なんてはしたないことを
-Ah!
-What have I done... so unladylike.
+Ahh!
+What have I done... how unladylike of me.
 -----------------------
 #神官
 Priest
@@ -491,9 +491,9 @@ Priest
 #なんなんですか、外のさわぎは！
 #もしかして、これが世にいう
 #「世界のおわり」ってヤツですか？
-What's all that commotion outside?
-Could it be that what they call in this world...
-is the 'end of the world'?
+What's all that commotion outside?!
+Could this be what they call...
+the 'end of the world'?
 -----------------------
 #神官
 Priest
@@ -502,8 +502,8 @@ Priest
 #昨晩のつまみぐいが
 #このようなバチをあたえようとは････
 Huuu~
-The late-night snacking I did last night...
-To bring down such punishment upon me.....
+To think my late-night snacking...
+would bring such divine punishment upon me...
 -----------------------
 #神官
 Priest
@@ -511,9 +511,9 @@ Priest
 #先ほどのみだらな想像も
 #アタモニ神には
 #つつぬけだったのですか～!!
-That lewd imagination I had just now,
-To the God Atamoni,
-Was it all for nothing~?!
+Was that lewd imagination I had earlier
+also laid completely bare
+before the God Atamoni~?!
 -----------------------
 #神官
 Priest
@@ -521,26 +521,26 @@ Priest
 #俗にいう「ハッピーエンド」
 #というヤツが
 #おとずれようとしているわけです
-The so-called "happy ending"
+The so-called 'happy ending'
 is about to
-arrive
+make its arrival.
 -----------------------
 <Loni>
 -----------------------
 #なにがハッピーエンドだ
 #自分につごうよく
 #終わらせようとしてるだけじゃねえか
-What do you mean 'happy ending'?
-So convenient for themselves...
-Aren't they just trying to wrap things up on their own terms?
+What 'happy ending'?
+They're just trying to wrap things up
+in a way that's convenient for them, that's all.
 -----------------------
 <Reala>
 -----------------------
 #このまま
 #終わらせるわけにはいかないわ････
 #この世界を････、<Kyle>たちの歴史を････
-I can't just leave it like this
-There's no way I'm letting it end here...
+I can't
+let it end like this...
 This world... the history of <Kyle>...
 -----------------------
 #神官
@@ -549,9 +549,9 @@ Priest
 #「幸福な世界」というのは
 #世間一般でいうと
 #どんなかんじなんでしょうねぇ
-A 'happy world' is...
-In general public terms,
-I wonder what that would look like?
+I wonder what a 'happy world'
+would look like
+in ordinary terms?
 -----------------------
 #神官
 Priest
@@ -559,9 +559,9 @@ Priest
 #みなさんの笑顔をみるたびに
 #あらたなエネルギーが
 #わいてくるんです
-Every time I see everyone's smiles
-a fresh wave of energy
-starts to well up inside me
+Every time I see everyone's smiles,
+a fresh energy
+wells up inside me.
 -----------------------
 #神官
 Priest
@@ -569,9 +569,9 @@ Priest
 #いわゆるひとつの充実感というヤツが
 #わたしの体を
 #かけめぐってるわけですね
-That so-called sense of fulfillment,
+That so-called sense of fulfillment
 is coursing through my body,
-all over.
+you might say.
 -----------------------
 #神官
 Priest
@@ -579,9 +579,9 @@ Priest
 #あなたがたにも
 #「充実感」にみちた毎日が
 #おとずれますように
-You all too,
-a daily life filled with "fulfillment"
-may come to you.
+May each of you, too,
+come to know days filled
+with 'fulfillment.'
 -----------------------
 #神官
 Priest
@@ -589,14 +589,14 @@ Priest
 #あら？
 #今日は礼拝の日じゃないはず････
 #ということは････
-Huh?
-This isn't supposed to be the day of worship...
-So that means...
+Oh my?
+Today shouldn't be a day of worship...
+Which means...
 -----------------------
 <Loni>
 -----------------------
 #ギクぅ！
-Guhh!
+Gkh!
 -----------------------
 #神官
 Priest
@@ -605,29 +605,29 @@ Priest
 #神官になりにきたんですの？
 #騎士になりにきたんですの？
 You're here to observe!
-So you've come to become a priestess?
-And you've come to become a knight?
+Have you come to become a priest?
+Or perhaps a knight?
 -----------------------
 #神官
 Priest
 -----------------------
 #いっしょに力をあわせて
 #幸福な世界をつくりましょうね～♪
-Let's join forces together
-We'll create a happy world~♪
+Let's join our strength together
+and create a happy world~♪
 -----------------------
 #神官
 Priest
 -----------------------
 #どうしましょう！
 #悪い人が侵入なさったみたいなの！
-What should we do!
-It looks like someone bad has broken in!
+Oh no, what shall we do?!
+It seems someone bad has broken in!
 -----------------------
 <Kyle>
 -----------------------
 #「侵入なされた」って････
-We've been invaded...
+'Someone bad has broken in'...?
 -----------------------
 #神官
 Priest
@@ -637,7 +637,7 @@ Priest
 #うん、うん！
 But they're human too.
 If we talk to them, I'm sure they'll understand!
-Yeah, yeah!
+Yes, yes!
 -----------------------
 #神官
 Priest
@@ -646,8 +646,8 @@ Priest
 #幸せになりたくて
 #悪いことをやってるのよ～
 Even bad people
-want to be happy,
-so they do bad things~
+do bad things because
+they want to be happy~
 -----------------------
 #神官
 Priest
@@ -655,17 +655,17 @@ Priest
 #フォルトゥナ神が
 #降臨なされてから
 #世界はとっても平和なんですよ
-Since the God Fortuna
-descended upon us
-the world has been incredibly peaceful.
+Ever since the Goddess Fortuna
+descended upon us,
+the world has been so very peaceful.
 -----------------------
 #神官
 Priest
 -----------------------
 #わたしもフォルトゥナ神と
 #お話してみたいわ～♪
-I too wish to speak with Fortuna God
-I'd love to have a chat with them~♪
+I'd love to speak with
+the Goddess Fortuna too~♪
 -----------------------
 #神官
 Priest
@@ -673,16 +673,16 @@ Priest
 #さっきから、お外が
 #さわがしいんですけど
 #なにかあったんでしょうか～？
-It's been going on since earlier, but outside...
-it's gotten pretty noisy.
-Did something happen?
+It's been rather noisy outside
+since earlier, I wonder
+if something happened~?
 -----------------------
 <Kyle>
 -----------------------
 #ああっ！　もう
 #急いでるんだから、はなしてくれよ～
-Ah! I'm done.
-I'm in a hurry, so let me go~
+Agh, come on!
+I'm in a hurry, so let me through~
 -----------------------
 #神官
 Priest
@@ -690,25 +690,25 @@ Priest
 #エルレインさまのおっしゃる
 #幸福な世界って
 #いったいどんな世界なのかしら
-what Lady Elraine is saying
-a happy world,
-I wonder what kind of world that would be.
+I wonder what kind of world
+the happy world Lady Elrane speaks of
+could possibly be.
 -----------------------
 #神官
 Priest
 -----------------------
 #きっと、みんなが
 #笑顔でくらせる世界よね
-Surely, everyone
-will live in a world with smiles on their faces
+Surely it's a world where
+everyone can live with a smile.
 -----------------------
 #神官
 Priest
 -----------------------
 #儀式がおわれば
 #世界は幸福につつまれるんですって～
-Once the ceremony is over,
-The world will be wrapped in happiness~
+They say that once the ceremony ends,
+the world will be enveloped in happiness~
 -----------------------
 #神官
 Priest
@@ -716,9 +716,9 @@ Priest
 #今は、まだ大変だけど
 #みんなで力をあわせてがんばれば
 #幸せな世界になるはずよ
-It's tough right now,
-but if we all work together and do our best,
-we'll surely create a happy world.
+Things are hard right now,
+but if we all work together,
+we can make a world where everyone is happy.
 -----------------------
 #神官
 Priest
@@ -726,9 +726,9 @@ Priest
 #だって、みんな
 #「幸せになりたい」って思いは
 #おんなじですものね～♪
-Because everyone...
-wants to be happy.
-It's all the same feeling~♪
+After all, everyone wants
+to be happy, right?
+We all feel the same way~♪
 -----------------------
 #神官
 Priest
@@ -736,9 +736,9 @@ Priest
 #「幸せになりたい」って
 #思ってる者どうし
 #きっと、力をあわせていけるはずだわ～
-"I want to be happy."
-People who think alike
-We'll definitely be able to work together.
+People who all want
+to be happy...
+I'm sure we can find a way to work together~
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -755,8 +755,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -790,12 +790,11 @@ notice
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{C2}{C0} but
-inventory is full already.
+Found {16}{25}{C2}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

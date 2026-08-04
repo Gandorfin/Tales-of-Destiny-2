@@ -2,7 +2,7 @@
 Aigrette General Store
 -----------------------
 #アイグレッテ
-Igret
+Aigrette
 -----------------------
 #雑貨屋
 General Store
@@ -31,24 +31,24 @@ Welcome!
 We sell tools here.
 -----------------------
 #リッチマン
-Lichman
+Richman
 -----------------------
 #アタモニ神団には
 #いつも世話になっているから
 #レンズ以外にも、なにか寄進したいものだ
-As for the Ammoni Divine Assembly,
-we're always in their debt.
-I'd like to donate something other than lenses.
+The Order of Atamoni's always
+been good to me, so I'd like
+to donate something besides Lens.
 -----------------------
 #リッチマン
-Lichman
+Richman
 -----------------------
 #しかし、ここの商品は安すぎる････
 #もっと格調高い
 #高級な品物はないものだろうか
 But these goods are too cheap...
-A bit more refined.
-I wonder if there aren't any high-end items.
+Don't you carry anything
+with a little more class?
 -----------------------
 #リッチマン
 Richman
@@ -56,69 +56,69 @@ Richman
 #おい、主人
 #あの「輝きの聖女」にふさわしい
 #大きな宝石などは置いてないのか？
-Hey, Master.
-Worthy of that "Saintess of Radiance"
-Don't you have any big gems or anything?
+Hey, shopkeep.
+You don't have any big gems
+fit for the "Saintess of Radiance"?
 -----------------------
 #リッチマン
-Lichman
+Richman
 -----------------------
 #アタモニ神団に高価な装飾品などを
 #寄進しようとしたのだが
 #レンズ以外は必要ないといわれたんだ
-I tried donating expensive ornaments and such to the Amatoni God Clan,
-but they told me
-that except for the lens, they didn't need anything else.
+I tried donating expensive ornaments
+to the Order of Atamoni, but they
+told me they didn't need anything but Lens.
 -----------------------
 #リッチマン
-Lichman
+Richman
 -----------------------
 #エルレインさまの力のもととなる
 #レンズさえあればいいなんて
 #なんとも欲のない連中じゃないか
-The power that serves as the foundation for Elrein-sama's abilities
-To think that all they need is a lens
-What unambitious bunch these guys are
+Lens is all they need to fuel
+Lady Elrane's power? What a
+modest bunch they are.
 -----------------------
 #リッチマン
-Lichman
+Richman
 -----------------------
 #こうなったら
 #いつもの三倍くらいは
 #レンズを寄進せねばならんな
-In that case,
-about three times as much as usual
-I suppose I'll have to donate the lens.
+Well then, I suppose I'll just
+have to donate about three times
+the usual amount of Lens.
 -----------------------
 #リッチマン
-Rich Man
+Richman
 -----------------------
 #む～
 #もっと、わしの屋敷にあうような
 #リッパな装飾品は置いとらんのか
-Hmm~
-There's nothing quite as fitting for my estate as...
-A splendid ornament?
+Hmm...
+Don't you have any fine ornaments
+that'd suit my estate?
 -----------------------
 #リッチマン
-Lichman
+Richman
 -----------------------
 #ハイデルベルグには腕の良い鍛冶屋が
 #いると聞くしのー
 #ソイツになにか頼んでみるかのぅ
-I've heard there's a skilled blacksmith in Heidelburg.
-So I thought-
-maybe we should ask him for something.
+I hear there's a skilled smithy
+in Heidelberg. Maybe I'll
+commission something from him.
 -----------------------
 #リッチマン
-Lichman
+Richman
 -----------------------
 #なまめかしい色づかいで
 #スベスベしたハダざわりの
 #熊のおきものでもいいんだが････
-A seductive color scheme
-With smooth, soft skin
-You could even go for a bear plushie...
+A bear figurine with a seductive
+color scheme and smooth, silky
+texture would do nicely...
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -135,8 +135,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -170,12 +170,11 @@ notice
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{C2}{C0} but
-inventory is full already.
+Found {16}{25}{C2}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

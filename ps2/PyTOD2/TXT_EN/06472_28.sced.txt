@@ -1,58 +1,58 @@
 #チェリク
-Celica
------------------------
-#チェリク
 Cherik
 -----------------------
 #チェリク
 Cherik
 -----------------------
 #チェリク
-Celica
+Cherik
+-----------------------
+#チェリク
+Cherik
 -----------------------
 NOTICE
 -----------------------
 #<item:0000000F>を手に入れました
-<item:0000000F>You obtained .
+Acquired <item:0000000F>.
 -----------------------
 #布団が敷かれている
 #ここで寝泊りしている人間がいるようだ
-There are futons laid out.
-It looks like someone is staying here.
+Futon bedding is laid out here.
+Looks like someone's staying here.
 -----------------------
 #すぐそばに魚影が見える
 #チェリク近海は水資源が豊かな事でも有名だ
-You can see fish shadows right nearby.
-The waters near Cherik are also famous for their abundant water resources.
+Fish swim in the waters nearby.
+The seas around Cherik are famous for their abundant water resources.
 -----------------------
 #不安定な船だ････
-It's an unstable ship...
+This boat feels unstable...
 -----------------------
 #フォルトゥナ司祭
-Fortuna Priest
+Priest of Fortuna
 -----------------------
 #さあ、信徒たちよ
 #アイグレッテへ旅立つ準備は
 #出来たかな？
-So then, believers,
-Are you ready to set off on your journey to Aigrette?
-Have you prepared?
+Come now, believers.
+Are you prepared
+for your journey to Aigrette?
 -----------------------
 #おじさん
 Man
 -----------------------
 #なあ････本当に、アイグレッテじゃ
 #金も物もいらねえのか？
-I'm telling you... it's really Aigrette.
-Don't you want any money or stuff?
+Hey... are you telling me
+we won't need money or anything in Aigrette?
 -----------------------
 #おばさん
 Woman
 -----------------------
 #家も店も捨てて引越しなんて････
 #向こうで何かあったら、どうするの？
-I'm leaving everything behind--my home, my shop...
-What are you going to do if something happens over there?
+Leaving behind our home and shop to move...
+What are we supposed to do if something happens over there?
 -----------------------
 #フォルトゥナ司祭
 Priest of Fortuna
@@ -60,123 +60,122 @@ Priest of Fortuna
 #心配は無い
 #アイグレッテでの生活は、われら
 #フォルトゥナ神団が保証する
-No need to worry.
-Our life in Igretta,
-is guaranteed by the Fortuna Divine Order.
+There is no need for concern.
+Your life in Aigrette
+is guaranteed by the Sacred Order of Fortuna.
 -----------------------
 #フォルトゥナ司祭
 Priest of Fortuna
 -----------------------
 #君たちはフォルトゥナの信徒として
 #アイグレッテで生まれ変わるのだよ
-As followers of Fortuna,
-you will be reborn in Aigrette.
+You shall be reborn in Aigrette
+as followers of Fortuna.
 -----------------------
 #フォルトゥナ司祭
-Fortuna Priest
+Priest of Fortuna
 -----------------------
 #これまでの生活、財産や物を捨てることは
 #『みそぎ』であると考えなさい
-To abandon your past life, your wealth, and all your possessions,
-consider it an act of purification.
+Consider the abandonment of your past life,
+your wealth, and your possessions to be an act of purification.
 -----------------------
 #フォルトゥナ司祭
-Fortuna Priest
+Priest of Fortuna
 -----------------------
 #全てをフォルトゥナにゆだねるのだ
 #そうすれば、永遠の幸せを得られる
 #であろう
 Surrender everything to Fortuna.
-And in doing so, you shall attain eternal happiness.
-It is.
+Only then may you attain eternal happiness.
+I assure you.
 -----------------------
 #フォルトゥナ司祭
-Fortuna Priest
+Priest of Fortuna
 -----------------------
 #フォルトゥナの前では、皆が等しく
 #平等である
 #これまでの人生で得た財産や物は
 #この地に残していきなさい
-Before Fortuna, everyone is equal
-in every sense
-Leave behind all the wealth and possessions
-you have accumulated throughout your life
+Before Fortuna, all are equal.
+Wealth and possessions earned in your former lives
+must be left behind in this land.
 -----------------------
 #フォルトゥナ司祭
-Fortuna Priest
+Priest of Fortuna
 -----------------------
 #神をたたえよ！
 #人はフォルトゥナの加護なくして
 #生きてはいけないのだから！
-Blessed be God!
-People cannot survive
+Praise be to the divine!
+Mankind cannot survive
 without Fortuna's blessing!
 -----------------------
 #おばあさん
-Grandma
+Old Woman
 -----------------------
 #ワシらは、誇り高き天上人の子孫じゃ
 #本来ならば、今のような生活苦を
 #味わうべき人間ではない
-We are descendants of the proud Celestials.
-In principle, we shouldn't have to endure
-the kind of poverty-stricken existence you're facing.
+We are descendants of the proud Aeth'er.
+We were never meant to suffer
+the hardships of this life.
 -----------------------
 #おばあさん
-Grandma
+Old Woman
 -----------------------
 #････と、いくら言っても
 #誰も耳をかたむけようとせん
 #なげかわしいことじゃ
-...even if I say it over and over,
-no one seems to pay any attention.
-It's so frustrating.
+...No matter how many times I say it,
+no one will listen.
+It is a pitiful thing.
 -----------------------
 #おばあさん
-Grandma
+Old Woman
 -----------------------
 #天地戦争で天上軍さえ勝っていれば
 #今ごろ、こんな生活をしなくても
 #よかっただろうに････
-If the Heavenly Forces had won in the War of Heaven and Earth,
-we wouldn't have to live like this right now.
-It would have been better...
+If only the Aeth'er forces had won the Aeth'er Wars...
+We would not have to live like this.
+Things would have been so different...
 -----------------------
 #姉御
-Sister
+Young Woman
 -----------------------
 #もう････ウチのおばあちゃん
 #妹がアイグレッテに嫁いでからというもの
 #ヒマさえあればグチばかりこぼすのよ
-My grandmother...
-Ever since my younger sister married Aigrette,
-She complains about everything whenever she has free time.
+Honestly... my grandmother.
+Ever since my younger sister married into Aigrette,
+she does nothing but complain whenever she has a spare moment.
 -----------------------
 #姉御
-Sister
+Young Woman
 -----------------------
 #「天上人の子孫にふさわしいムコ」だの
 #「天地戦争に負けていなければ」だの
 #イヤになっちゃうわ
-Something about being 'worthy son-in-law to the descendants of the Celestials'
-'If we hadn't lost in the War of Heaven and Earth'
-It's getting annoying.
+Always going on about 'a son-in-law worthy of Aeth'er descendants'
+and 'if only we hadn't lost the Aeth'er Wars'...
+It drives me up the wall.
 -----------------------
 #姉御
-Sister
+Young Woman
 -----------------------
 #カルバレイス人のご先祖様って
 #天地戦争の敗者の天上人なのよ
-The ancestors of the Calvarians...
-They were the Celestials who lost the War of Heaven and Earth.
+The ancestors of us Calvalese people
+were the Aeth'er who lost the Aeth'er Wars.
 -----------------------
 #姉御
-Sister
+Young Woman
 -----------------------
 #戦争に負けて戦犯となった彼等は
 #カルバレイスに流刑させられたの
-They were defeated in war and became war criminals,
-and were exiled to Calvarys.
+They were branded war criminals for losing
+and exiled to Calvalese.
 -----------------------
 #リッチボーイ
 Rich Boy
@@ -184,9 +183,9 @@ Rich Boy
 #うわあ、かわいそう････
 #ここの人たちは
 #こんな、あばら屋に住んでるんだ
-Aww, that's so pitiful...
+Wow, how awful...
 The people here
-are living in shacks like this.
+live in shacks like these.
 -----------------------
 #リッチボーイ
 Rich Boy
@@ -194,9 +193,9 @@ Rich Boy
 #どうしてみんな
 #アイグレッテに住まないんだろ
 #アイグレッテには何でもあるのに
-Why don't you all
-live in Igret?
-since Igret has everything.
+Why doesn't everyone
+just live in Aigrette?
+They have everything there.
 -----------------------
 #リッチボーイ
 Rich Boy
@@ -205,15 +204,15 @@ Rich Boy
 #フォルトゥナ神団にたのめば
 #なんでもしてもらえるんだよ
 In Aigrette,
-if you ask the Fortuna Divine Assembly,
-they'll get you anything.
+if you ask the Sacred Order of Fortuna,
+they'll do anything for you.
 -----------------------
 #リッチボーイ
 Rich Boy
 -----------------------
 #僕たちはなにもする必要が無いんだ
 #とっても楽しいよ
-We don't have to do anything.
+We don't have to do anything ourselves.
 It's so much fun.
 -----------------------
 #姉御
@@ -223,8 +222,8 @@ Sister
 #妹がアイグレッテに嫁いでからというもの
 #ヒマさえあればグチばかりこぼすのよ
 My grandmother...
-Ever since my younger sister married Aigrette,
-She complains about everything whenever she has free time.
+Ever since my sister married into a family in Aigrette,
+she does nothing but complain whenever she has free time.
 -----------------------
 #姉御
 Sister
@@ -232,25 +231,25 @@ Sister
 #「天上人の子孫にふさわしいムコ」だの
 #「天地戦争に負けていなければ」だの
 #イヤになっちゃうわ
-Something about being a 'worthy son-in-law to the descendants of the Celestials'
-'If we hadn't lost in the War of Heaven and Earth'
-It's getting annoying.
+Something about finding a husband 'worthy of the Aeth'er descendants'
+and 'if only we hadn't lost the Aeth'er Wars'...
+It's driving me crazy.
 -----------------------
 #姉御
 Sister
 -----------------------
 #カルバレイス人のご先祖様って
 #天地戦争の敗者の天上人なのよ
-The ancestors of the Calvarians...
-They were the Celestials who lost the War of Heaven and Earth.
+The ancestors of us Calvalese...
+were the Aeth'er who lost the Aeth'er Wars.
 -----------------------
 #姉御
 Sister
 -----------------------
 #戦争に負けて戦犯となった彼等は
 #カルバレイスに流刑させられたの
-They were defeated in war and branded as war criminals,
-And exiled to Calvarys.
+They were branded war criminals after losing,
+and exiled to Calvalese.
 -----------------------
 #狩人
 Hunter
@@ -258,9 +257,9 @@ Hunter
 #バジリスクの鱗って知ってるかい？
 #あらゆる病気と怪我に効く
 #特効薬の原料なんだ
-Do you know what a basilisk scale is?
-It's effective against all sorts of illnesses and injuries.
-It's an ingredient for a special remedy.
+You know about basilisk scales?
+They're the key ingredient in a special remedy
+that's effective against all kinds of illness and injury.
 -----------------------
 #狩人
 Hunter
@@ -269,10 +268,9 @@ Hunter
 #とれるんだけど
 #バジリスクってとっても
 #狂暴なんだよね
-Basilisks are monsters that
-can drop these,
-But basilisks are really
-pretty aggressive, you know.
+You can get them from basilisk monsters,
+but basilisks are really
+pretty vicious, you know.
 -----------------------
 #狩人
 Hunter
@@ -280,9 +278,9 @@ Hunter
 #マジカルポットって道具を知ってるかい？
 #何が飛び出すか分からない
 #不思議なポットのことさ
-Do you know what a Magical Pot is?
-You never know what's going to pop out.
-I'm talking about that mysterious pot.
+You ever heard of a Magical Pot?
+It's a mysterious pot where you never know
+what's gonna pop out.
 -----------------------
 #狩人
 Hunter
@@ -290,17 +288,16 @@ Hunter
 #マジカルポットでしか手に入らない
 #道具があるっていうよ
 #手に入れるには運が必要かもね
-You can only get it from a Magical Pot.
-There's supposed to be an item available.
-You might need some luck to get your hands on it.
+They say there's an item you can only get from one.
+Might take some luck to pull it, though.
 -----------------------
 #おじいさん
 Old Man
 -----------------------
 #みんな、アイグレッテに
 #集団移住しちまった
-Everyone moved to Aigrette,
-in a mass migration.
+Everyone up and moved to Aigrette,
+the whole lot of 'em together.
 -----------------------
 #おじいさん
 Old Man
@@ -308,9 +305,8 @@ Old Man
 #そんなに神様に助けてもらうのが
 #ええんかのぅ
 #故郷を捨てるほどの事なのじゃろうか
-Is it really okay to rely so much on God's help?
-Is that alright?
-Is it truly something worth abandoning your homeland for?
+Is having the gods do everything for you really such a good thing?
+Is it really worth abandoning your homeland for?
 -----------------------
 #おじいさん
 Old Man
@@ -318,9 +314,8 @@ Old Man
 #息子も孫もアイグレッテに
 #いっちまったよ
 #ワシを置いてな
-My son and grandson are both with Aigrette.
-It's all over.
-Don't leave me behind.
+My son and grandson both went off to Aigrette.
+Left me behind, they did.
 -----------------------
 #おじいさん
 Old Man
@@ -330,16 +325,15 @@ Old Man
 #親を捨ててまでアイグレッテに
 #行きたかったのかのぅ
 How am I supposed to live from tomorrow on?
-I wonder.
-Did you really want to go to Igret so much that you abandoned your parents?
-I wonder.
+Did they want to get to Aigrette so badly
+that they'd abandon their own parents?
 -----------------------
 NOTICE
 -----------------------
 #扉にはカギがかかっています
 #中には誰も居ないようです
 The door is locked.
-It looks like no one's inside.
+No one seems to be inside.
 -----------------------
 #ドロボウさん
 The Thief
@@ -347,29 +341,28 @@ The Thief
 #おっと！俺はドロボウじゃないぜ？
 #ここに置き去りにされた物を
 #回収してやってるんだ！
-I'm no thief, you know?
-The items left behind here
-I'm collecting them all!
+Whoa there! I'm no thief, got it?
+I'm just collecting the stuff people left behind!
 -----------------------
 #ドロボウさん
 The Thief
 -----------------------
 #だって、雨ざらしにしてたら
 #もったいないだろ!?
-Besides, leaving them out in the rain...
-would be such a waste!?
+I mean, leaving it all out in the rain?
+That'd be a waste!
 -----------------------
 #ドロボウさん
-Thief-san
+The Thief
 -----------------------
 #しかし、引っ越していったヤツラは
 #一体、何を考えてるんだか！
 #財産置いて移住とは
 #アタマおかしいんじゃねえか!?
 But those guys who moved away...
-What on earth are they thinking?!
-Leaving their assets behind to relocate...
-Aren't they out of their minds!?
+What the heck are they thinking?!
+Leaving their property behind to relocate?
+Are they out of their minds?!
 -----------------------
 #ドロボウさん
 The Thief
@@ -378,10 +371,9 @@ The Thief
 #それまでの人生を捨てても
 #フォルトゥナとやらに
 #与したいのか？
-I've abandoned my home, left behind all my wealth,
-even if I were to cast off everything up until now,
-do you wish to bestow it upon
-this Fortuna fellow?
+Throwing away your home, your money,
+your whole life up to now...
+just to throw in your lot with this Fortuna person?
 -----------------------
 #ドロボウさん
 The Thief
@@ -389,7 +381,7 @@ The Thief
 #そーいう考え方って
 #なんか怖えーよな････
 That way of thinking...
-It's kind of creepy, isn't it...?
+It's kinda scary, y'know...
 -----------------------
 #木こり
 Lumberjack
@@ -397,9 +389,8 @@ Lumberjack
 #わたしは、自分の心の弱さを
 #克服するために
 #アタモニ神団に入ろうと思っています
-I intend to join the Atamoni God Clan
-in order to overcome
-my own inner weakness
+I'm planning to join the Order of Atamoni
+to overcome the weakness in my own heart.
 -----------------------
 #木こり
 Lumberjack
@@ -407,9 +398,8 @@ Lumberjack
 #神の御前で、すべてをさらけ出して
 #進むべき道を、示してもらおうと
 #思っているんです
-I lay everything bare before God,
-hoping He'll show me the path I should take.
-That's what I'm thinking.
+I intend to lay everything bare before God
+and have Him show me the path I should walk.
 -----------------------
 #木こり
 Lumberjack
@@ -417,9 +407,8 @@ Lumberjack
 #次の集団移住で
 #アイグレッテに引っ越そうと
 #考えています
-We're planning to move as a group next time.
-To Aigrette,
-I'm thinking about it.
+I'm thinking of moving to Aigrette
+with the next group migration.
 -----------------------
 #木こり
 Lumberjack
@@ -428,64 +417,59 @@ Lumberjack
 #暮らしたいですからね
 #ここを去るのに、未練は
 #ありませんよ
-I still prefer living alongside my followers.
-That's just how it is for me.
-As for leaving this place,
-I have no regrets.
+After all, I want to live together with my fellow believers.
+I have no regrets about leaving this place.
 -----------------------
 #おばちゃんＡ
-Aunt A
+Auntie A
 -----------------------
 #最近、なじみの人たちが
 #次々とアイグレッテに行って
 #しまうザマス！
-Recently, my usual acquaintances
-are heading to Igretta one after another,
-leaving me behind!
+Lately, all my familiar faces have been
+heading off to Aigrette one after another!
 -----------------------
 #おばちゃんＢ
-Aunt B
+Auntie B
 -----------------------
 #あら、奥様は行かないんザマスの？
 #アイグレッテでは、アタモニ神団の
 #人たちがなんでもしてくれるっていう
 #話ザマスよ！
-Oh my, you're not going, ma'am?
-In Aigret, the followers of Ammoni God
-will do everything for you,
-that's what I heard!
+Oh my, aren't you going, dear?
+They say in Aigrette, the Order of Atamoni people will do anything for you!
 -----------------------
 #おばちゃんＢ
-Aunt B
+Auntie B
 -----------------------
 #アタモニ神団に入るには
 #レンズを寄進しなければ
 #いけないんザマス！
-To join the Order of the Monastery God,
-you must donate your lenses.
-That's not allowed!
+To join the Order of Atamoni,
+you have to donate Lens.
+That's the rule, zamasu!
 -----------------------
 #おばちゃんＡ
-Aunt A
+Auntie A
 -----------------------
 #んまあ！お金、もといレンズが
 #必要なんザマスか！
 #みんなを助けてくれるんじゃないん
 #ザマスか!?
-Well then! Money, I mean lenses,
-are what you need!
-Won't they help everyone out?
-Huh?!
+My my! Money, or rather Lens,
+is required?!
+I thought they were supposed to
+help everyone?!
 -----------------------
 #おばちゃんＢ
-Aunt B
+Auntie B
 -----------------------
 #アタモニ神団も
 #意外とケチくさい
 #ザマスねー
-The Amaterasu Divine Assembly is also
-surprisingly stingy.
-What a pain.
+The Order of Atamoni is
+surprisingly stingy too,
+zamasu, isn't it?
 -----------------------
 #船員
 Sailor
@@ -493,9 +477,9 @@ Sailor
 #ボートハウスってのも
 #なかなかいいもんだぜー
 #チェリクの名物だしな！
-There's also this boathouse,
-It's pretty great, isn't it?
-After all, it's Cherik's specialty!
+A boathouse like this is
+pretty nice, ya know.
+It's one of Cherik's famous sights!
 -----------------------
 #船員
 Sailor
@@ -512,7 +496,7 @@ and never wake up again!
 <Kyle>
 -----------------------
 #オレは絶対に止めたほうがいいな････
-I'd better stop this.
+I should definitely not sleep here...
 -----------------------
 #船員
 Sailor
@@ -520,9 +504,9 @@ Sailor
 #昔のチェリクは
 #十八年前の戦乱で
 #水没しちまったよ
-The old Cherik was
-submerged in the chaos of war eighteen years ago,
-and it's gone.
+The old Cherik sank
+during the chaos of war
+eighteen years ago.
 -----------------------
 #船員
 Sailor
@@ -530,12 +514,12 @@ Sailor
 #ここらの海底には
 #昔の家屋が沈んでるんだ
 #犠牲者と共にな････
-The seabed around here is
-filled with sunken houses from back in the day.
-Just like the victims... it's all gone.
+The houses from back then
+are still sunken on the seabed
+around here... along with the victims.
 -----------------------
 #いってらっしゃいませ
-Have a good day.
+Welcome.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
@@ -549,11 +533,11 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
-Have a good night.
+Please rest well.
 -----------------------
 #おはようございます
 Good morning.
@@ -562,7 +546,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We look forward to your next visit.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -584,8 +568,8 @@ notice
 -----------------------
 #{16}{25}{D2}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{25}{D2}{C0}There was , but
-I couldn't hold it because it was full.
+Found {16}{25}{D2}{C0}, but
+couldn't carry it because your inventory is full.
 -----------------------
 notice
 -----------------------

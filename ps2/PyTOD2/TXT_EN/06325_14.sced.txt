@@ -1,36 +1,36 @@
 #ラグナ遺跡
-Ragna Ruins
+Laguna Ruins
 -----------------------
 #ラグナ遺跡
-Ragna Ruins
+Laguna Ruins
 -----------------------
 #{16}{34}{88}{C0}を
 #<0B:00000001>{14}{34}{84}{C0}<0B:00000000>個手に入れました
-{16}{34}{88}{C0}'s
-<0B:00000001>{14}{34}{84}{C0}<0B:00000000>Gained  units
+Acquired {16}{34}{88}{C0}.
+(<0B:00000001>{14}{34}{84}{C0}<0B:00000000> units)
 -----------------------
 #{16}{34}{88}{C0}が<0B:00000001>{14}{34}{8C}{C0}<0B:00000000>個ありましたが
 #これ以上もてません
 #宝箱に戻しました
-{16}{34}{88}{C0}There were  of <0B:00000001>{14}{34}{8C}{C0}<0B:00000000>, but
-I can't hold any more.
-I've put it back in the treasure chest.
+Found {16}{34}{88}{C0} x<0B:00000001>{14}{34}{8C}{C0}<0B:00000000>, but
+you can't carry any more.
+It was returned to the chest.
 -----------------------
 #{16}{34}{88}{C0}が<0B:00000001>{14}{34}{8C}{C0}個ありましたが
 #全部は持つことはできません
 #・{14}{34}{84}{C0}個取り、{14}{34}{90}{C0}<0B:00000000>個捨てる
 #・宝箱に戻す
-{16}{34}{88}{C0}There were  <0B:00000001>{14}{34}{8C}{C0} in total,
-I can't carry them all.
-- Take {14}{34}{84}{C0} items and discard {14}{34}{90}{C0} <0B:00000000>.
-- Put them back in the treasure chest.
+Found {16}{34}{88}{C0} x<0B:00000001>{14}{34}{8C}{C0}, but
+you can't carry them all.
+- Take {14}{34}{84}{C0}, discard {14}{34}{90}{C0}<0B:00000000>
+- Return to chest
 -----------------------
 #いってらっしゃいませ
-Have a good day.
+Come again soon.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald per night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -40,8 +40,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -53,7 +53,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We hope to see you again.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -75,12 +75,11 @@ notice
 -----------------------
 #{16}{25}{EE}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{25}{EE}{C0}There was , but
-I couldn't carry it because it was full.
+Found {16}{25}{EE}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

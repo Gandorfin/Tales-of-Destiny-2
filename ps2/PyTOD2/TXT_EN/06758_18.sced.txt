@@ -7,26 +7,26 @@ Aqua Labyrinth
 notice
 -----------------------
 #次に進みますか？
-Do you want to proceed?
+Proceed to the next area?
 -----------------------
 select
 -----------------------
 #<03:00000000>　次に進む　
 #　脱出する　
-<03:00000000>Proceed to the next area
-Flee
+<03:00000000> Proceed onward
+Escape
 -----------------------
 notice
 -----------------------
 #脱出しますか？
-Do you want to escape?
+Escape?
 -----------------------
 select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #？？？？？？？？
 ????????
@@ -43,35 +43,35 @@ Magnadeus
 #退屈しのぎには
 #ちょうど良い訪問者よ････
 A ring sealed away for over a thousand years...
-Just to pass the time,
-You're just the right visitor...
+To stave off boredom,
+you'll make a fine visitor...
 -----------------------
 #マグナディウエス
 Magnadeus
 -----------------------
 #どれ････少し相手をしてやろう
-Well... I suppose I'll give you some attention.
+Very well... I shall entertain you for a time.
 -----------------------
 #マグナディウエス
 Magnadeus
 -----------------------
 #私と共に無限回廊でさまようがよい････
-Wander the Infinite Labyrinth with me.
+Wander the Infinite Corridor with me...
 -----------------------
 #？？？？
 ????
 -----------------------
 #まったく、グルグルグルグルと････
 #さすがに疲れたぜ････
-I really am going in circles...
-This is exhausting...
+Man, round and round we go...
+I'm beat...
 -----------------------
 <Kyle>
 -----------------------
 #あの････
 #あなたが、ジョニーさんですか？
-That...
-Are you Johnny?
+Um...
+Are you Johnny, sir?
 -----------------------
 #ジョニー
 Johnny
@@ -81,9 +81,9 @@ Johnny
 #その通り、俺の名はジョニー！
 #ジョニー＝シデンだ
 Baby!
-He looks like someone I've seen before.
+You look like a kid I've seen somewhere before.
 That's right, my name is Johnny!
-Johnny Cydon.
+Johnny Sheeden.
 -----------------------
 #ジョニー
 Johnny
@@ -91,9 +91,9 @@ Johnny
 #悪魔の封印が解けたっていうんで
 #様子をさぐりに来たら
 #このザマさ
-They say the seal on the demon has been broken.
-So I came to check things out,
-and look at this mess.
+Heard the demon's seal had broken,
+so I came to check it out,
+and look at the mess I'm in.
 -----------------------
 #ジョニー
 Johnny
@@ -101,9 +101,9 @@ Johnny
 #いくら倒しても復活する悪魔
 #いくら進んでも終わりのない迷宮
 #悪い夢でもみてるみたいだぜ
-Demons that revive no matter how many you slay
-A labyrinth with no end no matter how far you advance
-You look like you're having a bad dream
+Demons that revive no matter how many you cut down.
+A labyrinth with no end no matter how far you go.
+It's like I'm trapped in a bad dream.
 -----------------------
 #ジョニー
 Johnny
@@ -111,9 +111,9 @@ Johnny
 #『何かを信じることはとても大切なことさ
 #　だが、全てを疑うこと、それもまた大切さ』
 #････ずっと昔に作った歌の歌詞だ
-It's very important to believe in something.
-But it's also important to doubt everything.
-...It's lyrics from a song I wrote ages ago.
+"Believing in something is a precious thing.
+But doubting everything... that, too, is precious."
+...Lyrics from a song I wrote long ago.
 -----------------------
 #ジョニー
 Johnny
@@ -121,9 +121,9 @@ Johnny
 #今いる場所、今見ているもの
 #全て嘘かもしれないな
 #全てが作りもので、本当は存在しない
-The place we're in right now, what we're seeing right now
-It could all be a lie
-Everything is fabricated, it doesn't actually exist
+The place we stand now, the things we see now...
+It could all be a lie.
+Everything could be a fabrication, nothing here truly real.
 -----------------------
 #ジョニー
 Johnny
@@ -132,8 +132,8 @@ Johnny
 #俺は、もう少しここで探すぜ
 #「答」ってやつをさ
 Take this with you.
-I'll keep looking around here for a bit longer.
-That thing called 'Answer'...
+I'll keep searching around here a while longer.
+For that thing called the 'Answer.'
 -----------------------
 NOTICE
 -----------------------
@@ -147,25 +147,25 @@ Johnny
 #そして、心の眼は未来を見てる････
 #べいびー！
 #見えるぜ、キミの明日が････
-My eyes are focused on the present.
-And my inner eye sees the future...
+My eyes see the present.
+And the eye of my heart sees the future...
 Baby!
 I can see your tomorrow...
 -----------------------
 notice
 -----------------------
 #このマップは暗くなります
-This map will get dark.
+This map is dark.
 -----------------------
 notice
 -----------------------
 #このマップはダメージを受けます
-This map takes damage.
+This map inflicts damage.
 -----------------------
 notice
 -----------------------
 #このマップはエンカウントマックスです
-This map has maximum encounter rates.
+This map has max encounter rate.
 -----------------------
 notice
 -----------------------
@@ -187,8 +187,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -222,12 +222,11 @@ notice
 -----------------------
 #{16}{25}{CA}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{CA}{C0} but
-inventory is full already.
+Found {16}{25}{CA}{C0}, but
+couldn't carry it... inventory full already.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

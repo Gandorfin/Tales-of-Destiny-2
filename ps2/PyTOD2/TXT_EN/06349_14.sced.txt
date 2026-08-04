@@ -2,24 +2,24 @@
 Old Darilsheid - Inn
 -----------------------
 #古都ダリルシェイド
-Old Darilsheid 
+Old Darilsheid
 -----------------------
 #宿屋
 Inn
 -----------------------
 #使い古された家具が並んでいる
-A row of worn-out furniture.
+Worn-out furniture lines the walls.
 -----------------------
 #宿屋
 Inn
 -----------------------
 #いってらっしゃいませ
-Have a great day! 
+Come again soon!
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It costs <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald 
-to spend the night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald.
+Care to stay the night?
 -----------------------
 #お泊まりになりますか？
 Stay the night?
@@ -28,11 +28,11 @@ select
 -----------------------
 #<03:00000000>　はい　
 # いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
-Enjoy your stay!
+Enjoy your stay.
 -----------------------
 #おはようございます
 Good morning.
@@ -41,7 +41,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-Please visit again.
+We hope to see you again.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -63,50 +63,50 @@ notice
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{C2}{C0}, but
-inventory is full already.
+Found {16}{25}{C2}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------
 #何もありません
-Nothing else here.
+There's nothing here.
 -----------------------
 #シェフ
 Chef
 -----------------------
 #{16}{35}{D8}{C0}作ってる？
-Are you making {16}{35}{D8}{C0}?
+Making {16}{35}{D8}{C0}, are you?
 -----------------------
 #シェフ
 Chef
 -----------------------
 #{16}{35}{D8}{C0}の作り方を
 #知りたいですか？
-{16}{35}{D8}{C0}How to make
-Do you want to know?
+Want to learn how
+to make {16}{35}{D8}{C0}?
 -----------------------
 select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
-No 
+<03:00000000> Yes
+No
 -----------------------
 #シェフ
 Chef
 -----------------------
 #{16}{35}{D8}{C0}の作り方を
 #教えてあげよう
-{16}{35}{D8}{C0}How to make
-Let me tell you.
+I'll teach you how
+to make {16}{35}{D8}{C0}.
 -----------------------
 #シェフ
 Chef
 -----------------------
 #自分で作るのかい？
 #まぁ、それもいいだろう
-Did you make it by yourself?
-Well, that's fine.
+Going to make it yourself?
+Well, that's fine too.
 -----------------------
 #シェフ
 Chef
@@ -114,14 +114,14 @@ Chef
 #{16}{35}{D8}{C0}のレシピがあるんだが、
 #<0B:00000001>{14}{35}{D0}{C0}<0B:00000000>ガルドで買わないか？
 I've got a recipe for {16}{35}{D8}{C0}.
-Would you like to buy it for <0B:00000001>{14}{35}{D0}{C0}<0B:00000000> gald?
+Want to buy it for <0B:00000001>{14}{35}{D0}{C0}<0B:00000000> Gald?
 -----------------------
 select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #シェフ
 Chef
@@ -134,14 +134,14 @@ Chef
 -----------------------
 #{16}{35}{D8}{C0}のレシピを
 #売ってあげよう
-{16}{35}{D8}{C0}Let's sell 's recipe
-and give it to them
+I'll sell you the recipe
+for {16}{35}{D8}{C0}.
 -----------------------
 #シェフ
 Chef
 -----------------------
 #まぁ、しようがないな
-Well, it can't be helped.
+Well, can't be helped.
 -----------------------
 {16}{25}{DC}{C0}、{16}{25}{DE}{C0}、{16}{25}{E0}{C0}
 -----------------------
@@ -171,61 +171,61 @@ Chef
 -----------------------
 #{16}{35}{D8}{C0}を作るのに必要な食材は
 #{18}{45}{D4}{C0}です 
-In order to make {16}{35}{D8}{C0} you need
-these ingredients {18}{45}{D4}{C0}
+To make {16}{35}{D8}{C0}, you'll need
+{18}{45}{D4}{C0}.
 -----------------------
 #シェフ
 Chef
 -----------------------
 #材料を持っているじゃないか
-You dont have the necessary ingredients
+Why, you've got the ingredients right there.
 -----------------------
 #シェフ
 Chef
 -----------------------
 #ゆずってくれれば{16}{35}{D8}{C0}を
 #作るがどうだい？ 
-If you let me have it, I'll make {16}{35}{D8}{C0}
-for you?
+Hand them over and I'll whip up
+some {16}{35}{D8}{C0}. How about it?
 -----------------------
 select
 -----------------------
 #<03:00000000>　はい
 #　いいえ
 <03:00000000> Yes
- No
+No
 -----------------------
 #シェフ
 Chef
 -----------------------
 #そうか、待ってな　
 #すぐに{16}{35}{D8}{C0}を作ってやるよ
-Well, wait here
-I'll go cook {16}{35}{D8}{C0} at once
+All right, just a moment.
+I'll have {16}{35}{D8}{C0} ready in no time.
 -----------------------
 #シェフ
 Chef
 -----------------------
 #残念だな
 #凄く美味いのに･･･
-What a shame!
-It's too good...
+That's a shame.
+It would've been delicious...
 -----------------------
 #シェフ
 Chef
 -----------------------
 #食材を探しているんだ
 #見つけたら持ってきてくれないかい？
-I'm looking for ingredients, if you
-find some can you bring them to me?
+I'm on the hunt for ingredients.
+Bring me any you find, would you?
 -----------------------
 #シェフ
 Chef
 -----------------------
 #お前には資格がない
 #また、出直して来るといい
-You're not qualified
-Well, you'll have to visit again
+You're not qualified for this.
+Come back once you've earned it.
 -----------------------
 #シェフ
 Chef
@@ -233,7 +233,7 @@ Chef
 #お前のような奴を待ってた
 #これをゆずるのに相応しい料理人を
 I've been waiting for someone like you.
-A cook worthy of this recipe!
+A chef worthy of this recipe.
 -----------------------
 notice
 -----------------------
@@ -243,5 +243,5 @@ Acquired the recipe for {16}{35}{D8}{C0}.
 notice
 -----------------------
 #{16}{35}{EC}{C0}の作り方を覚えました
-Learned how to cook {16}{35}{EC}{C0}.
+Learned how to make {16}{35}{EC}{C0}.
 -----------------------

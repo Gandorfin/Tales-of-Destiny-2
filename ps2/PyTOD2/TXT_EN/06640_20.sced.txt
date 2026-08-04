@@ -1,103 +1,103 @@
 #地上軍拠点跡地
-Former Ground Forces Base Site
+Er'ther Base Ruins
 -----------------------
 #地上軍拠点跡地
-Former Ground Forces Base Site
+Er'ther Base Ruins
 -----------------------
 #地上軍拠点跡地
-Former Ground Forces Base Site
+Er'ther Base Ruins
 -----------------------
 #地上軍拠点跡地
-Former Ground Forces Base Site
+Er'ther Base Ruins
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #止まれ！
 #ここより先は王国の管理下にある！
 Halt!
-Beyond this point is under the Kingdom's jurisdiction!
+Beyond this point is under the kingdom's jurisdiction!
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #許可の無い者が入る事、まかりならん！
 #早々に立ち去るがよい！
-None shall enter without permission!
-Make haste and leave at once!
+None may enter without permission!
+Leave at once!
 -----------------------
 <Judas>
 -----------------------
 #僕たちはウッドロウ王から
 #勅命をたまわっている
 #これが、書状だ
-We're from King Woodrow's
-I have been given an imperial decree.
-This is the letter.
+We come bearing a royal decree
+from King Garr.
+Here is the letter.
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #こ、これは････！
 #失礼しました！
-W-wait...!
-My apologies!
+Th-this is...!
+Forgive me!
 -----------------------
 <Loni>
 -----------------------
 #ヒュ～♪
 #さすが勅命状だねぇ
-Huu~♪
-As expected from an imperial decree.
+Hoo~♪
+That's a royal decree for ya.
 -----------------------
 <Judas>
 -----------------------
 #はしゃぐな、みっともない
-Don't get so excited, it's embarrassing.
+Don't make a spectacle of yourself.
 -----------------------
 <Judas>
 -----------------------
 #ところで、イクシフォスラーは
 #まだ、ここにあるのか？
-By the way, is the Xiphos Lancer...
+By the way, is the Xiphos Lancer
 still here?
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #あることは、あるのですが････
 #格納庫は封印が施されており、入る事ができません
-Well, there is something...
-The storage area has been sealed off, so we can't get in.
+It is, but...
+The storage facility has been sealed. We cannot enter.
 -----------------------
 #兵士
 Soldier
 -----------------------
 #我々はイクシフォスラーの警備が任務
 #封印の解除方法までは、知らされていないのです
-We are tasked with guarding Ixionphoslar.
-We haven't been informed on how to lift the seal.
+We are tasked with guarding the Xiphos Lancer.
+We have not been told how to break the seal.
 -----------------------
 <Judas>
 -----------------------
 #わかった
 #あとは僕たちでなんとかする
-Got it.
+Understood.
 We'll handle the rest.
 -----------------------
 <Nanaly>
 -----------------------
 #ねぇ、<Judas>
 #イクシフォスラーって、なんなんだい？
-Hey, .<Judas>
-What's an Ixiphoslar?
+Hey, <Judas>
+what's a Xiphos Lancer?
 -----------------------
 <Judas>
 -----------------------
 #行けばわかる
 #とにかく、ついてこい
-You'll see once you get there.
-Anyway, just follow me.
+You'll see when we get there.
+Now follow me.
 -----------------------
 #兵士
 Soldier
@@ -105,71 +105,71 @@ Soldier
 #封印がほどこされた部屋に
 #解除方法らしきものをつづった
 #石碑がありました
-In the room sealed away,
-there was a stone stele inscribed
-with what seemed to be instructions on how to break it.
+In the sealed room,
+there is a stone tablet inscribed
+with what appears to be instructions to break it.
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #お調べになられては？
-Do you want to look into it?
+Might you look into it?
 -----------------------
 #兵士
 Soldier
 -----------------------
 #ご自由にお通りください
 #異常ありません
-You're free to pass.
-No abnormalities.
+You may pass freely.
+Nothing to report.
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #ここはファンダリア王国が管理する遺跡だ
 #入るのは構わんが中を荒らさないようにな
-This is a ruin managed by the Kingdom of Fundaria.
-You're free to enter, but don't mess things up inside.
+This ruin is under the management of the Kingdom of Phandaria.
+You may enter, but do not disturb anything inside.
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #何度でも言うが
 #ここより先は王国の管理下にある！
-I'll say it again,
-This area is under the Kingdom's jurisdiction from here on out!
+I will say it again:
+This area is under the kingdom's jurisdiction!
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #許可の無い者が入る事、まかりならん！
 #早々に立ち去るがよい！
-None shall enter without permission!
+None may enter without permission!
 Leave at once!
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #止まれ！
 #ここより先は王国の管理下にある！
 Halt!
-Beyond this point is under the Kingdom's jurisdiction!
+Beyond this point is under the kingdom's jurisdiction!
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #許可の無い者が入る事、まかりならん！
 #早々に立ち去るがよい！
-None shall enter without permission!
-Depart at once!
+None may enter without permission!
+Leave at once!
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #許可の無い者が入る事、まかりならん！
 #早々に立ち去るがよい！
-None shall enter without permission!
-Make haste and leave at once!
+None may enter without permission!
+Leave at once!
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -186,8 +186,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -199,7 +199,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We hope to see you again.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -221,7 +221,7 @@ notice
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{C2}{C0} but
+Found {16}{25}{C2}{C0}, but
 inventory is full already.
 -----------------------
 notice
@@ -229,4 +229,3 @@ notice
 #何もありません
 There's nothing here.
 -----------------------
-

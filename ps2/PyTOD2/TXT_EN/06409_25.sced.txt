@@ -1,119 +1,119 @@
 #山小屋
-Mountain hut
+Mountain Cabin
 -----------------------
 #山小屋
-Mountain cabin
+Mountain Cabin
 -----------------------
 #山小屋
-Mountain cabin
+Mountain Cabin
 -----------------------
 #山小屋
-Mountain hut
+Mountain Cabin
 -----------------------
 NOTICE
 -----------------------
 #<item:00000021>を手に入れました
-<item:00000021>You obtained .
+Acquired <item:00000021>.
 -----------------------
 #コングマン印の非常食や雑貨が置いてある
 #旅人のために無料で提供されているようだ
-They stock emergency rations and miscellaneous goods bearing the Kongman seal.
-It appears they're offering these free of charge to travelers.
+Emergency rations and sundries bearing the Kongman seal are stocked here.
+They seem to be provided free of charge for travelers.
 -----------------------
 NOTICE
 -----------------------
 #<item:00000007>を手に入れました
-<item:00000007>You obtained .
+Acquired <item:00000007>.
 -----------------------
 #コングマン印の非常食や雑貨が置いてある
 #旅人のために無料で提供されているようだ
-There are emergency rations and miscellaneous goods bearing the Kongman seal.
-It appears they're being offered free of charge for travelers.
+Emergency rations and sundries bearing the Kongman seal are stocked here.
+They seem to be provided free of charge for travelers.
 -----------------------
 #フィッツガルド大陸の地図だ
 #････しかし、これは十八年前の物のようだ
 #今では使い物にならないだろう
-A map of the Fitzgald Continent.
-...But this looks like it's from eighteen years ago.
-It probably wouldn't be much use anymore.
+A map of the Fitzgald continent.
+...But this appears to be from eighteen years ago.
+It wouldn't be of much use now.
 -----------------------
 <Kyle>
 -----------------------
 #オレ、山小屋って
 #入るのはじめてだよ！
 #へぇ～、こうなってるんだぁ････
-I'm at the mountain hut.
-This is my first time coming in!
-Oh, so that's how it works...
+I've never been inside
+a mountain cabin before!
+Ooh, so this is what they're like...
 -----------------------
 <Loni>
 -----------------------
 #元気だねぇ、おまえは
 #ふわ～あ････
 #霧の山道ってのは、歩くだけで疲れるな
-You're full of energy, aren't you?
-Phew...
-Walking through these misty mountain paths is exhausting.
+You're sure full of energy.
+*yawn*...
+Walking these misty mountain paths is exhausting enough on its own.
 -----------------------
 <Judas>
 -----------------------
 #眠たかったら、仮眠をとれ
 #見張りは、僕がやる
 If you're sleepy, take a nap.
-I'll handle the watch.
+I'll keep watch.
 -----------------------
 <Reala>
 -----------------------
 #いいの？
 #<Judas>だって
 #疲れているんじゃ････
-Sure you're okay?
-It's because of <Judas>.
-I'm exhausted...
+Are you sure?
+Even <Judas> must be
+tired...
 -----------------------
 <Judas>
 -----------------------
 #代わってほしくなったら起こす
 #それまで、体を休めておけ
-If you want someone to take your place, just wake me up.
-Until then, get some rest.
+Wake me if you want me to take over.
+Until then, rest your body.
 -----------------------
 <Judas>
 -----------------------
 #････まったく、よく眠る
 #あいつにソックリだな
-......Honestly, they really can sleep.
-They look just like that guy.
+...Honestly, he sleeps so soundly.
+He's the spitting image of that man.
 -----------------------
 <Judas>
 -----------------------
 #････シャル？
 #まずいぞ、あいつらがいる前で････
-...Shall?
-This is bad... right in front of them...
+...Chal?
+Not now, with them right here...
 -----------------------
 <Judas>
 -----------------------
 #････少しだけだからな
 #しかし、おまえもそう思うか？
 #あいつに、ソックリだと
-...Just a little.
-But you think so too?
-He's just like him.
+...Only for a moment.
+But you think so too, don't you?
+That he's the spitting image of him.
 -----------------------
 <Judas>
 -----------------------
 #････スタン、そして<Kyle>････
 #運命とは、皮肉なものだな
-Stan... and <Kyle>...
-Fate is quite ironic.
+...Stahn, and <Kyle>...
+Fate is a cruel thing indeed.
 -----------------------
 <Judas>
 -----------------------
 #････僕は、この旅で
 #あいつを････<Kyle>を････
-...I, on this journey,
-That guy... <Kyle>...
+...On this journey, I...
+That boy... <Kyle>...
 -----------------------
 <Loni>
 -----------------------
@@ -123,7 +123,7 @@ What's wrong, <Judas>?
 <Judas>
 -----------------------
 #････なんでもない、寝ていろ
-Nothing. Just go to sleep.
+...It's nothing. Go back to sleep.
 -----------------------
 <Loni>
 -----------------------
@@ -131,13 +131,13 @@ Nothing. Just go to sleep.
 #なんか、<Kyle>をどうこうって
 #聞こえたんだけどよ････
 No one's around... right?
-Something about <Kyle>...
-...I thought I heard.
+I could've sworn I heard something
+about <Kyle>...
 -----------------------
 <Judas>
 -----------------------
 #なんでもないと言っている！
-I'm telling you, it's nothing!
+I said it's nothing!
 -----------------------
 <Loni>
 -----------------------
@@ -148,107 +148,107 @@ I'm telling you, it's nothing!
 -----------------------
 #････<Judas>
 #ひとつだけ、言っておくぜ
-Just...<Judas>
-I'll say just one thing.
+...<Judas>.
+Let me say one thing.
 -----------------------
 <Loni>
 -----------------------
 #おまえがどんな目的で
 #俺たちといっしょにいるかは
 #聞くつもりはねえ
-I don't care what your motives are,
-or why you're sticking around with us.
-That's none of my business.
+I don't intend to ask
+what your purpose is
+for sticking with us.
 -----------------------
 <Loni>
 -----------------------
 #だがな････もし<Kyle>に
 #害がおよぶようなことをしてみろ
 #そのときは････！
-But... if you lay a hand on <Kyle>
-I'll make sure you regret it.
-Then I'll...
+But... if you do anything
+to harm <Kyle>,
+then I'll...!
 -----------------------
 <Judas>
 -----------------------
 #････熱心なことだ
 #そうして保護者きどりを
 #いつまで続けるつもりだ？
-...You're so earnest.
-And there you go, playing the protective parent again.
-How long do you plan to keep that up?
+...How earnest of you.
+How long do you intend to keep up
+that guardian act?
 -----------------------
 <Loni>
 -----------------------
 #････なに!?
-......What!?
+...What!?
 -----------------------
 <Judas>
 -----------------------
 #いつまで保護者きどりを
 #続けるつもりかと言ったんだ
-How long are you going to keep up that parental act?
-That's what I asked.
+I asked how long you intend
+to keep playing the guardian.
 -----------------------
 <Judas>
 -----------------------
 #おまえはそれで満足だろうが
 #そうやって、<Kyle>を
 #甘やかしている限り、あいつは成長しない
-You're probably satisfied with that.
-That's how you spoil <Kyle>.
-As long as you keep coddling them, they won't grow.
+You may be content with that,
+but as long as you keep coddling
+<Kyle> like that, he'll never grow.
 -----------------------
 <Loni>
 -----------------------
 #てめぇ････何様のつもりだ！
 #俺はな、おまえなんかよりも
 #ずっと<Kyle>のことを････！
-What do you think you're messing with!?
-I'm telling you,
-I care about <Kyle> so much more...!
+Who the hell do you think you are!?
+I care about <Kyle>
+far more than you ever...!
 -----------------------
 <Reala>
 -----------------------
 #････<Loni>？
-......<Loni>?
+...<Loni>?
 -----------------------
 <Reala>
 -----------------------
 #なにか、あったの？
-What's wrong?
+Did something happen?
 -----------------------
 <Loni>
 -----------------------
 #あ、あぁ、<Reala>
 #起こしちまったか？
 #悪ぃな、なんでもねえんだ
-Ah, ahh,<Reala>
-So I woke you up?
-My bad, nothing's wrong.
+Ah, a-ah, <Reala>.
+Did I wake you?
+Sorry, it's nothing.
 -----------------------
 <Reala>
 -----------------------
 #････ウソ
 #だって、<Loni>の顔
 #すごく、こわばってる
-......No way.
-Because <Loni>'s face
-is really stiff.
+...That's not true.
+<Loni>, your face
+is terribly tense.
 -----------------------
 <Loni>
 -----------------------
 #そ、そんなことは････
-W-well, that's not it...
+Th-that's not...
 -----------------------
 <Reala>
 -----------------------
 #<Kyle>のことね？
 #<Loni>が、そこまで怒るのって
 #<Kyle>のことだけだもの
-So you're talking about <Kyle>, right?
-The fact that <Loni> gets that mad...
-It's only ever about <Kyle>.
+It's about <Kyle>, right?
+<Loni> only ever gets that angry
+when it's about <Kyle>.
 -----------------------
 <Reala>
 -----------------------
@@ -258,30 +258,30 @@ Hey, what happened?
 <Loni>
 -----------------------
 #････ホントに、なんでもねえんだ
-Seriously, you can't get anything right.
+...It's really nothing.
 -----------------------
 <Reala>
 -----------------------
 #なんでもないわけ、ないじゃない！
 #だって<Loni>、今にも
 #なぐりかかりそうだったし････
-There's no way that's nothing!
-Because <Loni>, right now,
-I felt like you were about to hit me...
+There's no way it's nothing!
+<Loni>, you looked like
+you were about to hit someone...
 -----------------------
 <Loni>
 -----------------------
 #なんでもねえよ！
-It's nothing!
+It's nothing, I said!
 -----------------------
 <Loni>
 -----------------------
 #あ････わ、悪ぃ
 #怒鳴るつもりはなかったんだ
 #その････
-My bad...
-I didn't mean to yell.
-That...
+Ah... s-sorry.
+I didn't mean to shout.
+I just...
 -----------------------
 <Kyle>
 -----------------------
@@ -293,15 +293,15 @@ That...
 #････むにゃ････････
 #････ずっと、いっしょに････
 Mmmnn...
-...forever, together...
+...always... together...
 -----------------------
 <Loni>
 -----------------------
 #なんだ、ネゴトかよ････
 #人騒がせなヤツだな
 #ったく！
-What's this, a mystery?
-He sure knows how to stir up trouble.
+Hah, just sleep-talking...
+What a guy, getting everyone worked up.
 Geez!
 -----------------------
 <Kyle>
@@ -309,7 +309,7 @@ Geez!
 #････いっしょ････････
 #<Loni>も････<Judas>････も････
 #････いっしょ････だ････へへっ････
-......together......
+...Together...
 <Loni> too... and <Judas> too...
 ...together... hehe...
 -----------------------
@@ -321,63 +321,63 @@ Geez!
 <Loni>
 -----------------------
 #おい、<Judas>
-Hey,<Judas>
+Hey, <Judas>
 -----------------------
 <Judas>
 -----------------------
 #なんだ？
 #まだなにか言いたいのか？
-What is it?
-You still have something to say?
+What?
+Got something else to say?
 -----------------------
 <Loni>
 -----------------------
 #････寝ろや
 #見張り、交代してやるよ
-Get some sleep.
-I'll take over guard duty.
+...Get some sleep.
+I'll take watch.
 -----------------------
 <Judas>
 -----------------------
 #････おまえ････
-......You......
+...You...
 -----------------------
 <Loni>
 -----------------------
 #あいつのネゴト聞いてたら
 #ど～でもよくなっちまったよ
 #ったく、<Kyle>のヤツめ！
-If I keep listening to that guy's nonsense,
-I'm just gonna lose interest completely.
-Geez, that <Kyle> brat!
+Listening to that guy sleep-talk
+made me stop caring about all that.
+Geez, that <Kyle>...
 -----------------------
 <Judas>
 -----------------------
 #････ふっ
 #では、休ませてもらおう
-...heh.
-Well then, I'll take a rest.
+...Heh.
+Then I'll take you up on that.
 -----------------------
 <Loni>
 -----------------------
 #<Reala>も、もうちょっと寝とけよ
 #見張りは俺がやっとくからよ
-<Reala>, you should get a little more sleep too.
-Don't worry about the watch. I'll handle it.
+<Reala>, you get some more sleep too.
+I'll handle the watch.
 -----------------------
 <Reala>
 -----------------------
 #あ、あの、<Loni>！
 #････ごめんなさい
-Uh, um, <Loni>!
-...Sorry.
+U-Um, <Loni>!
+...I'm sorry.
 -----------------------
 <Loni>
 -----------------------
 #いいって
 #どうせもう、寝つけないしな
-Sure.
-Besides, I'm not going to sleep anyway.
+It's fine.
+I wasn't gonna get back to sleep anyway.
 -----------------------
 <Reala>
 -----------------------
@@ -385,14 +385,14 @@ Besides, I'm not going to sleep anyway.
 #その、さっきのこと
 #ヘンに問いつめちゃって････
 No, that's not it.
-That thing from earlier...
-You're asking in such a weird way...
+It's just... what happened earlier.
+I pressed you so strangely...
 -----------------------
 <Loni>
 -----------------------
 #････悪いのは、こっちだ
 #気にすんなって
-...The fault is mine.
+...I'm the one who was out of line.
 Don't worry about it.
 -----------------------
 <Loni>
@@ -400,21 +400,21 @@ Don't worry about it.
 #いいから、すこしでも寝ておけって
 #これからまた、うんざりするほど
 #歩くんだからよ
-Just leave it, I told you to get some sleep.
-We're going to have to endure another round of...
-You've got to keep walking.
+Just get whatever sleep you can.
+We've got plenty more walking ahead of us.
+Enough to make you sick of it.
 -----------------------
 <Reala>
 -----------------------
 #････うん、おやすみなさい
-...Yeah, good night.
+...Okay. Good night.
 -----------------------
 <Kyle>
 -----------------------
 #仮眠とって、疲れも取れたし、
 #一気にノイシュタットまで行こうぜ！
-I've caught up on some sleep and shaken off the fatigue,
-Let's head straight to Neuestadt!
+The nap really helped! I'm feeling great!
+Let's push straight through to Neuestadt!
 -----------------------
 <Judas>
 -----------------------
@@ -425,15 +425,15 @@ Let's head straight to Neuestadt!
 -----------------------
 #あ、あれ？
 #みんな、どうしたの？
-Huh? What's that?
-Everyone, what's going on?
+H-Huh?
+What's with you guys?
 -----------------------
 <Loni>
 -----------------------
 #････いや
 #おまえは気楽でいいなと思ってよ
-...No.
-You've got it easy, don't you?
+...Nothing.
+Just thinking how easy you've got it.
 -----------------------
 <Reala>
 -----------------------
@@ -441,39 +441,38 @@ You've got it easy, don't you?
 #でも、それが<Kyle>の
 #いいところ、でしょ？
 Hehe!
-But that's what makes <Kyle> so...
-...great, isn't it?
+But that's what's so great
+about <Kyle>, right?
 -----------------------
 <Loni>
 -----------------------
 #まあ、な
-Well, yeah.
+Yeah, I guess.
 -----------------------
 <Judas>
 -----------------------
 #バカはほっといて、出発するぞ
 #ノイシュタットまで
 #まだ、結構あるからな
-Leave the idiots alone; let's move out.
-To Neuestadt.
-It's still quite a distance.
+Leave the fool be. We're moving out.
+Neuestadt's still quite a ways off.
 -----------------------
 <Kyle>
 -----------------------
 #な、なんなんだよ～っ！
-What's going on~!?
+Wh-What'd I do~!?
 -----------------------
 select
 -----------------------
 #休みますか？
-Do you want to rest?
+Would you like to rest?
 -----------------------
 select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #シェフ
 Chef
@@ -493,8 +492,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #シェフ
 Chef
@@ -509,7 +508,7 @@ Chef
 -----------------------
 #自分で作るのかい？
 #まぁ、それもいいだろう
-Are you going to make it yourself?
+Going to make it yourself?
 Well, that works too.
 -----------------------
 #シェフ
@@ -518,20 +517,20 @@ Chef
 #{16}{34}{88}{C0}のレシピがあるんだが、
 #<0B:00000001>{14}{34}{80}{C0}<0B:00000000>ガルドで買わないか？
 {16}{34}{88}{C0}I've got a recipe here,
-<0B:00000001>{14}{34}{80}{C0}<0B:00000000>wanna buy it for  Gald?
+<0B:00000001>{14}{34}{80}{C0}<0B:00000000>wanna buy it for Gald?
 -----------------------
 select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #シェフ
 Chef
 -----------------------
 #お金が足りないね
-We're short on cash.
+Not enough Gald.
 -----------------------
 #シェフ
 Chef
@@ -545,7 +544,7 @@ I'll sell it to you.
 Chef
 -----------------------
 #まぁ、しようがないな
-Well, there's nothing else to do.
+Well, can't be helped.
 -----------------------
 {16}{24}{8C}{C0}、{16}{24}{8E}{C0}、{16}{24}{90}{C0}
 -----------------------
@@ -575,21 +574,21 @@ Chef
 -----------------------
 #{16}{34}{88}{C0}を作るのに必要な食材は
 #{18}{44}{84}{C0}です
-{16}{34}{88}{C0}The ingredients needed to make  are
+{16}{34}{88}{C0}The ingredients needed to make are
 {18}{44}{84}{C0}.
 -----------------------
 #シェフ
 Chef
 -----------------------
 #材料を持っているじゃないか
-You've got the materials.
+You've got the ingredients.
 -----------------------
 #シェフ
 Chef
 -----------------------
 #ゆずってくれれば{16}{34}{88}{C0}を
 #作るがどうだい？
-If you yield to us, we'll let {16}{34}{88}{C0} go.
+If you hand them over, I'll make {16}{34}{88}{C0} for you.
 What do you say?
 -----------------------
 select
@@ -612,24 +611,24 @@ Chef
 -----------------------
 #残念だな
 #凄く美味いのに･･･
-Pity.
-It's so delicious... but...
+That's a shame.
+And here I thought it'd be delicious...
 -----------------------
 #シェフ
 Chef
 -----------------------
 #食材を探しているんだ
 #見つけたら持ってきてくれないかい？
-I'm looking for ingredients.
-Could you bring them to me if you find any?
+I'm on the hunt for ingredients.
+If you find any, would you mind bringing them to me?
 -----------------------
 #シェフ
 Chef
 -----------------------
 #お前には資格がない
 #また、出直して来るといい
-You're not qualified.
-Go back and try again.
+You don't have what it takes.
+Come back when you're ready.
 -----------------------
 #シェフ
 Chef
@@ -642,12 +641,12 @@ A chef worthy of receiving this.
 notice
 -----------------------
 #{16}{34}{88}{C0}のレシピを拾いました
-{16}{34}{88}{C0}Picked up 's recipe.
+Picked up the {16}{34}{88}{C0} recipe.
 -----------------------
 notice
 -----------------------
 #{16}{34}{9C}{C0}の作り方を覚えました
-{16}{34}{9C}{C0}I've learned how to make .
+Learned how to make {16}{34}{9C}{C0}.
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -664,8 +663,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -677,7 +676,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We hope to see you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -688,7 +687,7 @@ exit-party_togather( short spd )
 notice
 -----------------------
 #{16}{25}{EA}{C0}を手に入れました
-{16}{25}{EA}{C0}You obtained .
+Acquired {16}{25}{EA}{C0}.
 -----------------------
 notice
 -----------------------
@@ -699,12 +698,11 @@ notice
 -----------------------
 #{16}{25}{F2}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{25}{F2}{C0}There was , but
-I couldn't hold it because it was full.
+Found {16}{25}{F2}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

@@ -1,69 +1,69 @@
 #地上軍拠点跡地
-Former Ground Forces Base Site
+Er'ther Base Ruins
 -----------------------
 #地上軍拠点跡地
-Former Ground Forces Base Site
+Er'ther Base Ruins
 -----------------------
 #<item:00000031>が入っていた切りかぶある
 #何か不思議な力を持っているようだ
-<item:00000031>It has a  embedded in it.
-It seems to possess some kind of mysterious power.
+<item:00000031> is embedded in a stump here.
+It seems to radiate some mysterious power.
 -----------------------
 NOTICE
 -----------------------
 #不思議な切りかぶの上に<item:00000031>があります
 #この<item:00000031>を持っていきますか？
-There is an <item:00000031> on top of that strange lid.
-Do you want to take this <item:00000031>?
+There is an <item:00000031> on top of that strange stump.
+Take this <item:00000031>?
 -----------------------
 select
 -----------------------
 #<03:00000000>　持っていく　
 #　やめておく　
-<03:00000000>I'll take it.
-I'll pass.
+<03:00000000> Take it.
+Leave it.
 -----------------------
 NOTICE
 -----------------------
 #<item:00000031>を手に入れました
-<item:00000031>You obtained .
+Acquired <item:00000031>.
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #お疲れなら
 #ここでお休み下さい
 If you're tired,
-take a rest here.
+please rest here.
 -----------------------
 select
 -----------------------
 #<03:00000000>　休む　
 #　遠慮します　
-<03:00000000>I'll rest.
-No, thank you.
+<03:00000000> Rest.
+Decline.
 -----------------------
 #補給部隊
-Supply unit
+Supply Corps
 -----------------------
 #こちらは補給部隊です
-This is our supply unit.
+This is the Supply Corps.
 -----------------------
 #がんばれよ
-Do your best.
+Good luck out there.
 -----------------------
 #いつでもどうぞ
-Feel free to come anytime.
+You're welcome anytime.
 -----------------------
 #補給部隊
-Supply unit
+Supply Corps
 -----------------------
 #いってらっしゃいませ
-Have a good day.
+Take care out there.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald per night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -73,8 +73,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -86,7 +86,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We hope to see you again.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -108,12 +108,11 @@ notice
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{C2}{C0} but
-inventory is full already.
+Found {16}{25}{C2}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

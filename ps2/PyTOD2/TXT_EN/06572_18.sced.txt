@@ -1,27 +1,27 @@
 #地上軍拠点
-Ground Forces Base
+Er'ther Base
 -----------------------
 #地上軍拠点
-Ground Forces Base
+Er'ther Base
 -----------------------
 <Kyle>
 -----------------------
 #これ、現代でオレたちが使った
 #イクシフォスラーかな？
-This is what we used in modern times.
-Ixiphoslar?
+Is this the Ixiphoslar
+we used in the present day?
 -----------------------
 <Reala>
 -----------------------
 #天地戦争の最中には
 #完成してなかったのね
-While the War of the Heavens and Earth was raging
-So it wasn't finished yet.
+It wasn't completed
+during the Aeth'er Wars, then.
 -----------------------
 #何かのエンジンだろうか？
 #これは一体、何なのだろう････
-Is it some kind of engine?
-What on earth is this...?
+Is this some kind of engine?
+What in the world could it be...?
 -----------------------
 #少年
 Boy
@@ -29,9 +29,9 @@ Boy
 #これ、空中都市の機関部なんだってさ
 #わざわざ墜落した空中都市から引っ張り出して
 #来たんだ
-It's said this is part of the airship city's engine.
-He went out of his way to drag it out from the crashed airship city,
-and brought it here.
+They say this is part of an aerial city's engine.
+They went out of their way to drag it out
+from the crashed city and bring it here.
 -----------------------
 #少年
 Boy
@@ -40,26 +40,26 @@ Boy
 #今の技術じゃ、これと同じ物を作るのは
 #無理だからね
 #昔の人は凄かったんだなあ
-It's a rare find.
-With current technology,
-it would be impossible to replicate something just like it.
-The people of old were truly amazing.
+It's quite a valuable find.
+With today's technology,
+replicating something like this would be impossible.
+People back then were truly remarkable.
 -----------------------
 NOTICE
 -----------------------
 #<item:00000012>を手に入れました
-<item:00000012>You obtained .
+<item:00000012>Acquired .
 -----------------------
 #航空力学に関する文献がある
-There are documents regarding aerodynamics.
+There are documents on aerodynamics.
 -----------------------
 #ディムロス
-Dimlos
+Dymlos
 -----------------------
 #あとは君たちだけだ
 #準備ができたら、乗りこんでくれ
-It's up to you two now.
-Once you're ready, get on board.
+The rest is up to you two.
+Once you're ready, come aboard.
 -----------------------
 notice
 -----------------------
@@ -70,56 +70,56 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #科学者
 Scientist
 -----------------------
 #これは現在、開発中の
 #飛行機械です
-This is currently in development,
-a flying machine.
+This is a flying machine
+currently in development.
 -----------------------
 #科学者
 Scientist
 -----------------------
 #部品が足りず、作業が進められないため
 #残念ながら実戦投入はできないでしょうね
-We don't have enough parts, so we can't proceed with the work.
-As it stands, I'm afraid they won't be fit for active duty.
+We lack the parts to continue work,
+so I'm afraid they won't be ready for active duty.
 -----------------------
 #科学者
 Scientist
 -----------------------
 #まともな部品さえあれば
 #すぐにでも完成させられるんですけどね
-If I had even decent parts,
-I could have it finished right away.
+If I had even proper parts,
+I could finish it right away.
 -----------------------
 #科学者
 Scientist
 -----------------------
 #ま、終戦後に
 #ゆっくりと作りますよ
-Well, after the war ended...
-We'll take our time making it.
+Well, after the war ends,
+I'll take my time building it.
 -----------------------
 #科学者
 Scientist
 -----------------------
 #拠点には子供たちの遊び場に
 #使えるような場所が無いんです
-There's nowhere for the kids to play at our base.
-We don't have any suitable spots.
+There isn't anywhere at the base
+suitable for the children to play.
 -----------------------
 #科学者
 Scientist
 -----------------------
 #ですので格納庫を遊び場代わりに
 #してあげたんですが････
-So I let them use the storage as a play area
-But then...
+So I let them use the storage as a play area,
+but...
 -----------------------
 #科学者
 Scientist
@@ -127,17 +127,17 @@ Scientist
 #これがまた、ウルサイのなんの
 #研究がはかどらなくて
 #困ってます
-This is so annoying.
-My research isn't progressing well,
-and it's really bothering me.
+Now they're so loud,
+I can't make any progress on my research.
+It's quite a problem.
 -----------------------
 #科学者
 Scientist
 -----------------------
 #この子たち、僕のあとを継いで
 #科学者になってくれないかな？
-These kids will carry on my legacy,
-Will you become scientists?
+I wonder if these kids will carry on my legacy
+and become scientists?
 -----------------------
 #科学者
 Scientist
@@ -145,9 +145,9 @@ Scientist
 #そしていつか
 #世の役に立つ機械を
 #作ってくれたらウレシイですね
-And someday,
-machines that will
-be useful to the world.
+And someday, if they could build machines
+that help the world,
+I would be so happy.
 -----------------------
 #少年
 Boy
@@ -155,115 +155,115 @@ Boy
 #僕、科学者になって
 #世の中の役に立つ機械を
 #たくさん作るんだ！
-I'm going to become a scientist.
-And I'll create
-lots of machines that are useful to society!
+I'm gonna become a scientist
+and build lots of machines
+that help the world!
 -----------------------
 #少年
 Boy
 -----------------------
 #そのために、今からいろいろと
 #勉強しておかなきゃね
-For that reason, I need to get started on various things right away.
-I really ought to study up.
+So I've gotta start studying
+all kinds of things right now!
 -----------------------
 #少年
 Boy
 -----------------------
 #自分で会社を作って
 #役に立つ機械を売り出すんだ
-Start my own company
-And sell useful machines
+I'll start my own company
+and sell useful machines!
 -----------------------
 #少年
 Boy
 -----------------------
 #会社の名前は、僕の名前を取って
 #『オベロン社』でいいかな
-The company's name is based on my own.
-I think 'Oberon Inc.' works well.
+I'll name the company after myself...
+'Oberon Corporation' sounds about right.
 -----------------------
 #子供
-Kid
+Child
 -----------------------
 #毎日ヒマだなー
 #なんでここから遠くに行っちゃ
 #いけないの？
 I'm so bored every day.
-Why did we go so far away from here?
-What's wrong?
+Why can't we go far away from here?
 -----------------------
 #子供
-Kid
+Child
 -----------------------
 #せんそうなんてつまらないよ
 Wars are so boring.
 -----------------------
 #子供
-Kid
+Child
 -----------------------
 #最近、配給が少なくなったって
 #お母さんが困ってたよ
-Lately, our rations have been getting smaller.
-Mom was really worried about it.
+Mom was worried because
+our rations have been getting smaller lately.
 -----------------------
 #子供
-Kid
+Child
 -----------------------
 #なんで、お腹一杯
 #食べ物を食べられないの？
-I'm so full.
-Why can't you eat?
+Why can't we eat
+until our stomachs are full?
 -----------------------
 #子供
-Kid
+Child
 -----------------------
 #私のお父さん
 #『てんじょうぐん』ってところに
 #行ったんだよ
-My dad
-To a place called 'Tenjougun'
-I went there
+My dad went to
+a place called the
+'Aeth'er Army,' you know.
 -----------------------
 #子供
-Kid
+Child
 -----------------------
 #ずっと前に
 #『かくめいにさんかする』って言って
 #いなくなっちゃったの
 A long time ago,
-'said it would spread through the revolution'
-and then they disappeared.
+he said he was going to 'join the revolution,'
+and then he disappeared.
 -----------------------
 #子供
-Kid
+Child
 -----------------------
 #いつかまた、お父さんと
 #会えるかなあ？
-I wonder if I'll get to see Dad again someday.
-Maybe we can meet up?
+I wonder if I'll ever
+get to see Dad again?
 -----------------------
 #女の子
 Girl
 -----------------------
 #もう何年、太陽を見てないんだろう
-How many years has it been since I last saw the sun?
+How many years has it been
+since I last saw the sun?
 -----------------------
 #女の子
 Girl
 -----------------------
 #青い空なんて
 #思い出せないわ
-I can't even remember what a blue sky looks like
-Not that I could recall
+I can't even remember
+what a blue sky looks like.
 -----------------------
 #女の子
 Girl
 -----------------------
 #私が大人になる前に
 #雪は止むのかしら
-Before I become an adult...
-I wonder if the snow will stop.
+I wonder if the snow will stop
+before I grow up.
 -----------------------
 #女の子
 Girl
@@ -271,35 +271,36 @@ Girl
 #もうすぐ戦争は終わるって
 #大人たちは騒いでるけど
 #本当かしら
-The war will end soon.
-Even though the adults are making such a fuss,
-I wonder if it's true.
+The adults are all saying
+the war will end soon,
+but I wonder if it's true.
 -----------------------
 #女の子
 Girl
 -----------------------
 #早く、思いきり外で遊びたいわ
-I want to go out and play as much as possible.
+I want to go outside and play
+with everything I've got.
 -----------------------
 #女の子
 Girl
 -----------------------
 #いつかまた、太陽の下で
 #遊びたいわ
-Someday, under the sun again
-I want to play
+Someday, I want to play
+under the sun again.
 -----------------------
 <Harold>
 -----------------------
 #飛べ～、飛べ～、ロケット～♪
 #燃料吹き出し、火をあげて～♪
-Fly away~ fly away~ rocket~♪
-Fuel spewing, fire up~♪
+Fly~, fly~, rocket~♪
+Spewing fuel, light the fire~♪
 -----------------------
 NOTICE
 -----------------------
 #<item:00000041>を手に入れました
-<item:00000041>You obtained .
+<item:00000041>Acquired .
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -316,8 +317,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -351,12 +352,11 @@ notice
 -----------------------
 #{16}{25}{CA}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{CA}{C0} but
-inventory is full already.
+Found {16}{25}{CA}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

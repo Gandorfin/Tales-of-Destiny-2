@@ -5,43 +5,43 @@ Laguna Ruins
 Laguna Ruins
 -----------------------
 #ここは崩落予定地です
-This is a planned collapse site.
+This area is scheduled to collapse.
 -----------------------
 <Kyle>
 -----------------------
 #見てよ<Loni>！　宝箱だ！
 #中身はなんだろう、レンズかな!?
-Look at that, <Loni>! A treasure chest!
-I wonder what's inside... maybe a lens?!
+Hey, <Loni>! A treasure chest!
+I wonder what's inside... Maybe a Lens?!
 -----------------------
 <Loni>
 -----------------------
 #まあ、そう簡単にお宝は
 #手に入らないよな
-Well, it wouldn't be much of a treasure
-if it were that easy to get it, right?
+Well, treasure that easy to grab
+wouldn't be much of a treasure, right?
 -----------------------
 <Kyle>
 -----------------------
 #なんだ!?
-What the!?
+What the?!
 -----------------------
 <Loni>
 -----------------------
 #うわあああーーー!?
-Uwaaaaahh---!?
+Uwaaaaahh---?!
 -----------------------
 <Kyle>
 -----------------------
 #うわあああーーー!?
-Uwaaaaahh---!?
+Uwaaaaahh---?!
 -----------------------
 #いってらっしゃいませ
-Have a good day.
+Come again soon.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -51,11 +51,11 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
-Have a good night.
+Please rest well.
 -----------------------
 #おはようございます
 Good morning.
@@ -64,7 +64,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We hope to see you again.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -87,7 +87,7 @@ notice
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{C2}{C0}, but
-inventory full already.
+your inventory is full.
 -----------------------
 notice
 -----------------------

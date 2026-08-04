@@ -1,49 +1,49 @@
 #ハイデルベルグ城
-Heidelburg Castle
+Heidelberg Castle
 -----------------------
 #ハイデルベルグ城
-Heidelburg Castle
+Heidelberg Castle
 -----------------------
 <Kyle>
 -----------------------
 #････！　しまった！
 #ここにはもう　だれもいない！
-......! Darn it!
-There's no one else here anymore!
+...! Damn it!
+There's no one here anymore!
 -----------------------
 <Judas>
 -----------------------
 #そうか！　連中のねらいはレンズだ
 #保管庫に収められた大量の････
-I see! They're after the lenses.
+I see! They're after the Lens.
 The massive amount stored in the vault...
 -----------------------
 <Reala>
 -----------------------
 #ウッドロウさんがあぶないわ！
 #行きましょう　みんな！
-Woodrow's in danger!
+Garr's in danger!
 Let's go, everyone!
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #やぁ、ようこそ！
 #ここまで登ってくる方は
 #めずらしいんですよ
 Well, hello there!
-People who make it all the way up here
-are pretty rare.
+Not many people make it
+all the way up here.
 -----------------------
 <Kyle>
 -----------------------
 #これは････鐘？
 #ずいぶん、おっきいね
-This is... a bell?
-It's pretty big.
+Is this... a bell?
+It's pretty huge.
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #えぇ、先々代の国王さまが
 #平和の象徴として建てたんです
@@ -136,10 +136,10 @@ We ring the bell at regular times.
 Listen for it when you hear it.
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #このフラグでの会話未設定
-Conversation not set up for this flag.
+Conversation not set for this flag.
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -156,8 +156,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -191,7 +191,7 @@ notice
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{C2}{C0} but
+Found {16}{25}{C2}{C0}, but
 inventory is full already.
 -----------------------
 notice

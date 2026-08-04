@@ -1,5 +1,5 @@
 #アイグレッテ・大神殿への参道
-Approach to the Great Temple of Igret
+Approach to the Straylize Grand Temple
 -----------------------
 #アイグレッテ
 Aigrette
@@ -8,19 +8,19 @@ Aigrette
 Aigrette - Approach to the Temple
 -----------------------
 #アイグレッテ
-Igret
+Aigrette
 -----------------------
 #アイグレッテ・大神殿への参道
-Approach to the Great Temple of Igret
+Approach to the Straylize Grand Temple
 -----------------------
 #アイグレッテ・神殿への参道
 Aigrette - Path to the Temple
 -----------------------
 #雄大な自然に囲まれたストレイライズ大神殿が見える
-You can see the Strayraz Grand Temple surrounded by magnificent nature.
+The Straylize Grand Temple stands before you, embraced by magnificent nature.
 -----------------------
 #雄大な自然に囲まれたストレイライズ神殿が見える
-I can see the Stray Rise Temple surrounded by majestic nature.
+You can see the Straylize Temple surrounded by majestic nature.
 -----------------------
 <Kyle>
 -----------------------
@@ -32,17 +32,17 @@ Wait, <Judas>!
 #さっさと行っちゃうなんて、ひどいよ！
 #助けてもらったお礼も
 #まだ言ってないのにさ
-You're just leaving so quickly? That's mean!
-The thanks I owe you for helping me...
-I haven't even said it yet.
+You're just gonna take off like that? That's cold!
+I haven't even thanked you
+for helping me out yet!
 -----------------------
 <Judas>
 -----------------------
 #礼などいらん
 #偶然通りかかったから
 #気まぐれで助けた、それだけだ
-No need for thanks.
-I just happened to pass by.
+I don't need your thanks.
+I happened to be passing through.
 I helped on a whim. That's all.
 -----------------------
 <Kyle>
@@ -50,41 +50,41 @@ I helped on a whim. That's all.
 #どうやったら、あんなとこを
 #偶然通りかかれるのさ！
 #助けに来てくれたに決まってるよ
-How did you even get to that place?
-You just happened to pass by!
-Of course I came to help.
+How do you just 'happen to pass through'
+a place like that?!
+You came to save us. I know you did!
 -----------------------
 <Judas>
 -----------------------
 #････そう思いたいのなら、勝手にしろ
 #じゃあな
-If that's what you want to think, go ahead.
-See ya.
+...Think what you like.
+See you.
 -----------------------
 <Kyle>
 -----------------------
 #待って！
 #<Judas>はどうして
 #オレたちのこと助けてくれるの!?
-Hold on.
+Wait!
 Why is <Judas>
-actually helping us out?
+helping us out anyway?!
 -----------------------
 <Judas>
 -----------------------
 #おまえたちを見ていると
 #あぶなっかしくて
 #イライラするからだ
-When I look at you guys,
-I get so nervous,
-that it makes me irritated.
+Because watching you people
+is like watching a disaster waiting to happen.
+It's infuriating.
 -----------------------
 <Kyle>
 -----------------------
 #それじゃあさ、<Judas>も
 #いっしょに来ればいいんだよ！
-Well then, <Judas>, you can...
-Just come along with us!
+Well then, <Judas>,
+why don't you just come with us?!
 -----------------------
 <Judas>
 -----------------------
@@ -96,18 +96,18 @@ What?
 #遠くでじーっと見てるから
 #イライラするんだよ
 #近くにいれば、そんなこともないし
-You're just staring from far away.
-It's so annoying.
-If you were closer, it wouldn't be such a big deal.
+You're staring at us from far away,
+so of course it's annoying!
+If you stuck close, you wouldn't have to worry about that.
 -----------------------
 <Kyle>
 -----------------------
 #それに、フィリアさんも言ってたじゃん
 #<Reala>には、仲間が必要だって
 #だから、<Judas>も････
-And besides, Phileas said it too.
-<Reala> needs companions,
-So, <Judas> as well...
+And besides, Philia said it too, didn't she?
+That <Reala> needs companions.
+So <Judas> should...
 -----------------------
 <Kyle>
 -----------------------
@@ -119,25 +119,25 @@ So, <Judas> as well...
 #････やめておけ
 #僕を仲間にすると
 #ロクでもないことになるぞ
-...You'd better stop.
+...Don't do this.
 If you make me your ally,
-it's going to cause trouble.
+nothing good will come of it.
 -----------------------
 <Kyle>
 -----------------------
 #ロクでもないことって？
-What kind of rotten stuff?
+What do you mean, 'nothing good'?
 -----------------------
 <Judas>
 -----------------------
 #････話す必要はない
-No need to talk about it.
+...There's no need to discuss it.
 -----------------------
 #衛兵
 Guard
 -----------------------
 #おい、おまえたち！
-Hold it right there!
+Hey, you there!
 -----------------------
 #衛兵
 Guard
@@ -145,37 +145,37 @@ Guard
 #このあたりで
 #あやしいヤツを
 #見かけなかったか？
-Around here,
-have you seen
-any suspicious types?
+Have you seen
+any suspicious characters
+around these parts?
 -----------------------
 #衛兵
 Guard
 -----------------------
 #神殿に賊が侵入したらしいんだ
 #なにか、知らないか？
-It seems bandits have broken into the temple.
+It seems thieves have broken into the temple.
 Do you know anything about it?
 -----------------------
 <Loni>
 -----------------------
 #ぎくぅ！
-Guhk!
+Ghk!
 -----------------------
 #衛兵
 Guard
 -----------------------
 #なんだ、なにか知ってるのか？
-What's up? You know something?
+What's with you? You know something?
 -----------------------
 <Loni>
 -----------------------
 #い、いえ！　なんでもないです！
 #賊ですかぁ、へえぇ
 #おっそろしいですねぇ！
-N-no! It's nothing!
-A bandit? Geez.
-That's terrifying!
+N-no! Not at all!
+Thieves, you say? Geez...
+How terrifying!
 -----------------------
 #衛兵
 Guard
@@ -183,9 +183,9 @@ Guard
 #････そういえば、おまえたち
 #今日は、参拝の日ではないのに
 #なぜこんなところに？
-...Come to think of it, you guys...
-Even though today isn't the day for worship.
-Why are you here?
+...Come to think of it, what are you lot doing here?
+Today's not a day of worship.
+Why are you in a place like this?
 -----------------------
 <Kyle>
 -----------------------
@@ -197,17 +197,17 @@ Uh, um, well...
 #い、いやぁ、なんか道歩いてたら
 #迷って、こんなところに
 #出ちゃって････
-I-I wasn't, I mean, I was just walking down the road when...
-I got lost and ended up in a place like this.
-...right here.
+W-well, y'see, we were just walking along and...
+got lost, and ended up here...
+...somehow.
 -----------------------
 <Loni>
 -----------------------
 #いちゃまずいんなら
 #すぐ消えますんで！
 #それじゃ！
-If it's just flirting,
-It'll disappear right away!
+If we're in the way,
+we'll be gone before you know it!
 See ya!
 -----------------------
 #衛兵
@@ -216,9 +216,9 @@ Guard
 #････おい、ちょっと待て！
 #その後ろに立ってるやつ
 #なぜこちらを見ない？
-...Hey, wait!
-You standing behind there.
-Why aren't you looking at us?
+...Hey, hold it!
+That person standing behind you.
+Why won't they face us?
 -----------------------
 <Judas>
 -----------------------
@@ -231,49 +231,49 @@ Guard
 #あやしいヤツだな････
 #おい、こっちを向けと
 #言っているんだ！
-He's a shady guy...
-Hey, look over here!
-I'm talking to you!
+Shady character, this one...
+Hey! I told you to face us!
+You hear me?!
 -----------------------
 <Kyle>
 -----------------------
 #ま、待ってください！
 #その人は、ぼくらの仲間です！
-W-wait!
-That person is our comrade!
+W-wait, please!
+That person is our companion!
 -----------------------
 <Judas>
 -----------------------
 #････！
-...
+...!
 -----------------------
 #衛兵
 Guard
 -----------------------
 #仲間････？
-Companions...?
+Companion...?
 -----------------------
 <Kyle>
 -----------------------
 #はい！
 #そうだよね、<Loni>！
-Yes!
-That's right, <Loni>!
+Yeah!
+Right, <Loni>?!
 -----------------------
 <Loni>
 -----------------------
 #あ････
 #ええ、そうなんですよ！
 Ah...
-Yes, that's right!
+Yeah, that's right!
 -----------------------
 <Loni>
 -----------------------
 #いやね、あいつ
 #なんか腹が痛いらしくて････
 #なぁ、<Reala>？
-No way, that guy...
-He says his stomach hurts or something...
+See, the guy's
+got a stomachache or something...
 Right, <Reala>?
 -----------------------
 <Reala>
@@ -282,8 +282,8 @@ Right, <Reala>?
 #動くとつらいからって
 #ここで休んでたんです！
 Ah, um... that's right!
-Saying it hurts to move,
-we were resting here!
+He said it hurts to move,
+so we were resting here!
 -----------------------
 #衛兵
 Guard
@@ -296,98 +296,98 @@ Really...?
 #ああ～～～っ！
 #今、あやしげな人影が！
 Ahhh!
-There's a suspicious figure over there!
+A suspicious figure, over there!
 -----------------------
 #衛兵
 Guard
 -----------------------
 #なにっ、どこだ!?
-What? Where is it!?
+What?! Where?!
 -----------------------
 <Loni>
 -----------------------
 #ほらほら、向こう！
 #早く追っかけないと
 #見失っちまう！
-Look over there!
-We need to hurry and catch up.
-Or we'll lose them!
+There, there! Hurry!
+If we don't chase 'em now,
+we'll lose 'em!
 -----------------------
 #衛兵
 Guard
 -----------------------
 #よし、行くぞ！
-Alright, let's go!
+Alright, let's move!
 -----------------------
 <Kyle>
 -----------------------
 #ねぇ<Loni>、どこ!?
 #どこにいるの!?
-Hey <Loni>, where are you!?
-Where are you!?
+Hey <Loni>, where?!
+Where are you?!
 -----------------------
 <Loni>
 -----------------------
 #バ～カ、ウソだよ
 #こうでもしなきゃ
 #あいつらに、しつこく聞かれるだろ？
-Idiot, it's a lie.
-I had no choice but to do it this way.
-They'll keep pestering us with questions, won't they?
+You idiot, it was a lie.
+Had to do something like that
+or they'd keep grilling us, right?
 -----------------------
 <Judas>
 -----------------------
 #････なぜ、かばいだてした？
 #仲間などというウソまでついて
-Why did you step in?
-Lying that we were comrades...
+...Why did you cover for me?
+Going so far as to lie that we were comrades.
 -----------------------
 <Kyle>
 -----------------------
 #だって、<Judas>は仲間だもん
 #かばうのも、あたりまえだよ
-I mean, <Judas> is part of our team.
-It's only natural to look out for each other.
+'Cause <Judas> is our friend.
+Protecting a friend is the most natural thing in the world.
 -----------------------
 <Judas>
 -----------------------
 #僕は、仲間じゃ････！
-I'm not just a comrade...!
+I'm not your...!
 -----------------------
 <Loni>
 -----------------------
 #じゃあ聞くが、あんた
 #<Kyle>が「仲間だ」って
 #言ったとき、だまってたよな
-So let me ask you this, you...
-You said <Kyle> was 'one of us'...
-And you just stayed quiet about it.
+Then answer me this.
+When <Kyle> said we were 'comrades',
+you just kept quiet.
 -----------------------
 <Loni>
 -----------------------
 #仲間じゃないと思ってたら
 #「ちがう」って、ハッキリ言うはずだぜ
 #あんたの性格ならな
-If I thought you weren't my ally,
-I'd say it clearly: 'No.'
-That's just your personality.
+If you really thought we weren't,
+you'd have said so flat-out.
+That's just how you are.
 -----------------------
 <Judas>
 -----------------------
 #それは、ただ単に
 #言うタイミングが
 #なかっただけで････
-It's just that
-the timing wasn't right
-to say it... That's all.
+I simply...
+didn't have the chance
+to say anything... That's all.
 -----------------------
 <Kyle>
 -----------------------
 #それにさ、ダリルシェイドで
 #別れたときに
 #なんか言いかけてたよね？
-Besides, in Darylshaid,
-when we parted ways,
+Besides, back in Darilsheid
+when we split up,
 you were about to say something, weren't you?
 -----------------------
 <Kyle>
@@ -395,14 +395,14 @@ you were about to say something, weren't you?
 #あれって、「いっしょに行こう」って
 #言いかけたんでしょ？
 #うん、ぜったいそうに、決まってるよ！
-You were about to say, 'Let's go together,' right?
-That's what you were going to say, isn't it?
-Yeah, there's no doubt about it!
+You were gonna say 'Let's go together,' right?
+That's totally what it was!
+Yeah, I'm sure of it!
 -----------------------
 <Judas>
 -----------------------
 #それは････
-It was...
+That was...
 -----------------------
 <Judas>
 -----------------------
@@ -410,70 +410,70 @@ It was...
 #また、ロクでもないことに
 #巻きこまれるかもしれんぞ
 ...Just like before,
-We're going to get into some nonsense again.
-You might get dragged in too.
+you may get dragged into
+more trouble than you bargained for.
 -----------------------
 <Judas>
 -----------------------
 #それでも････いいのか？
-Are you sure...?
+Even so... are you sure?
 -----------------------
 <Kyle>
 -----------------------
 #英雄は困難を恐れない！
 #むしろ、望むところさ！
-Heroes fear no hardship!
-Rather, it's just what I want!
+A hero fears no hardship!
+Bring it on, I say!
 -----------------------
 <Loni>
 -----------------------
 #俺は、こんな能天気なヤツと
 #いっしょに旅をしてるんだぜ？
 #つまり最初っから、ロクでもないんだ
-I'm with such an airhead as you.
-We're traveling together, you know?
-So it's been nothing but trouble from the start.
+I'm traveling with this carefree doofus, yeah?
+So I've been in nothing but trouble
+from day one.
 -----------------------
 <Loni>
 -----------------------
 #ロクでもないことが
 #今さら、ひとつやふたつ増えたって
 #かまいやしねえよ
-Shady stuff
-It's not like adding one or two things makes much difference at this point
-Don't bother yourself over it
+What's one or two more messes
+at this point?
+Won't make a lick of difference.
 -----------------------
 <Reala>
 -----------------------
 #困難に巻きこむということなら
 #わたしも同じだと思います
 #だから、わたしは気にしません
-If it means getting dragged into trouble,
-I feel the same way.
-So, I don't mind.
+If it means being drawn into hardship,
+then I feel the same way.
+So I don't mind at all.
 -----------------------
 <Judas>
 -----------------------
 #････バカ者どもが
 #あとで後悔しても知らんぞ
 ...You fools.
-Don't come crying to me later if you regret it.
+Don't come crying to me when you regret it.
 -----------------------
 <Kyle>
 -----------------------
 #それじゃ、決まり！
 #よろしくね、<Judas>！
-It's settled, then!
-You've got it, <Judas>!
+Then it's settled!
+Welcome aboard, <Judas>!
 -----------------------
 <Loni>
 -----------------------
 #んじゃ、仲間も
 #そろったことだし
 #出発しますか
-Well then, the party is
-all gathered,
-so shall we set off?
+Well then, looks like the gang's
+all here.
+Shall we get going?
 -----------------------
 <Kyle>
 -----------------------
@@ -487,48 +487,48 @@ But where should we go?
 #ひとつだけあるわ
 #まだ会っていない英雄････
 #ハイデルベルグのウッドロウ王よ
-There's just one.
-The hero I haven't met yet...
-King Woodrow of Heidelberg
+I have one.
+A hero I haven't met yet...
+King Garr of Heidelberg.
 -----------------------
 <Loni>
 -----------------------
 #四英雄のひとり、英雄王ウッドロウか
 #確かに、スタンさんと並んで
 #もっとも英雄と呼ぶに、ふさわしい人だな
-One of the Four Heroes, King Woodrow the Hero.
-Indeed, standing alongside Stan-san,
-He is truly worthy of being called a hero.
+One of the Four Heroes, the Hero King Garr?
+Yeah, he and Stahn-san are definitely
+the most worthy of the title.
 -----------------------
 <Judas>
 -----------------------
 #とすると、港から船に乗り
 #スノーフリアで降りて
 #ハイデルベルグに向かうことになるな
-In that case, board the ship from the port,
-disembark at Snowfria,
-and head for Heidelberg.
+That means taking a ship from the port,
+disembarking at Frostheim,
+and making for Heidelberg.
 -----------------------
 <Kyle>
 -----------------------
 #船旅かぁ････！
-A ship journey, huh...!
+A voyage, huh...!
 -----------------------
 <Loni>
 -----------------------
 #じゃあさっそく、行くとするか！
 #港は、たしか
 #アイグレッテの東だったはずだ
-Well then, let's get moving!
-The harbor is, I believe...
-East of Igret.
+Then let's get moving!
+The harbor should be
+east of Aigrette, if I recall.
 -----------------------
 <Kyle>
 -----------------------
 #よ～し、まずは港に行って
 #そこから、スノーフリアを目指そう！
-Alright, first stop is the harbor.
-From there, we'll head to Snowfriar!
+Alright, first stop: the harbor!
+From there, we set sail for Frostheim!
 -----------------------
 notice
 -----------------------
@@ -538,12 +538,12 @@ notice
 notice
 -----------------------
 #<Judas>が仲間になりました
-<Judas> joined the party.
+<Judas> has joined the party.
 -----------------------
 NOTICE
 -----------------------
 #<item:00000041>を手に入れました
-<item:00000041>You obtained .
+Acquired <item:00000041>.
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -560,8 +560,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -573,7 +573,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+Please come again.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -598,8 +598,8 @@ notice
 -----------------------
 #{16}{26}{2A}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{26}{2A}{C0}There was , but
-I couldn't hold it all.
+Found {16}{26}{2A}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------

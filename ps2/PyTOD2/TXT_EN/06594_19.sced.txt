@@ -1,8 +1,8 @@
 #ダイクロフト
-Dycrof
+Dycroft
 -----------------------
 #ダイクロフト
-Dycrof
+Dycroft
 -----------------------
 #ディムロス
 Dymlos
@@ -10,25 +10,25 @@ Dymlos
 #無事か、<Harold>！
 #欠員は出てないか？
 Are you alright, <Harold>!
-No casualties?
+Any casualties?
 -----------------------
 <Harold>
 -----------------------
 #ごらんの通り、全員無事よ
-As you can see, everyone is safe.
+As you can see, everyone's safe and sound.
 -----------------------
 #ディムロス
-Dimlos
+Dymlos
 -----------------------
 #ほう････はじめての実戦にしては
 #よくがんばっているな
-Hmm... considering it's your first real combat experience,
-you're doing quite well.
+Hmm... for your first real battle,
+you're holding up well.
 -----------------------
 <Harold>
 -----------------------
 #そっちこそ、平気なの？
-And you're sure you're okay?
+What about you? You okay over there?
 -----------------------
 #ディムロス
 Dymlos
@@ -37,37 +37,37 @@ Dymlos
 #だが、扉が開かなくてな
 #これから破壊をしようと････
 As you can see.
-But the door won't open.
-I'm about to try breaking it down...
+But the door won't budge.
+I was about to break it down...
 -----------------------
 <Harold>
 -----------------------
 #やれやれ、こんなところで
 #手間取ってるとはね
-Good grief, right here...
-I didn't expect it to take so much trouble.
+Good grief...
+To think we'd get stuck here of all places.
 -----------------------
 <Harold>
 -----------------------
 #扉の向こうにみんないるんでしょ？
 #さっさと助けて帰るわよ
 They're all on the other side of that door, right?
-I'm going to save them and head home.
+Let's get them out and go home.
 -----------------------
 #カーレル
-Carrel
+Karell
 -----------------------
 #ムチャを言うな、<Harold>
 #扉のカギはパスワード式になっていて
 #おそらくミクトランにしか････
-Don't push your luck, .<Harold>
-The door's lock uses a password system.
-It's probably only accessible to Mictlan...
+Don't be reckless, <Harold>.
+The door uses a password lock.
+Only Kronos could...
 -----------------------
 <Harold>
 -----------------------
 #なんか言った、兄貴？
-You said something, bro?
+Did you say something, big brother?
 -----------------------
 #ディムロス
 Dymlos
@@ -75,16 +75,16 @@ Dymlos
 #おまえの妹に
 #常識は通用しないらしいな
 #カーレル
-You're sister...
-It seems common sense doesn't apply to you.
-Carrel
+Your sister, it seems,
+doesn't operate on common sense.
+Karell.
 -----------------------
 #いってらっしゃいませ
-Have a good day.
+Welcome. Please come again.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald per night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -94,11 +94,11 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
-Have a good night.
+Please rest well.
 -----------------------
 #おはようございます
 Good morning.
@@ -107,7 +107,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We look forward to your next visit.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -129,8 +129,8 @@ notice
 -----------------------
 #{16}{25}{D2}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{25}{D2}{C0}There was , but
-I couldn't hold it because it was full.
+Found {16}{25}{D2}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------

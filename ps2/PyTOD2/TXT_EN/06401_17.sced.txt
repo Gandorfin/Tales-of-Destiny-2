@@ -1,77 +1,77 @@
 #定期船
-Regular ship
+Ferry
 -----------------------
 #定期船
-Regular ship
+Ferry
 -----------------------
 <Reala>
 -----------------------
 #な、なんなの、これ!?
-What... what is this!?
+Wh-what is this!?
 -----------------------
 <Loni>
 -----------------------
 #くそッ、こっちが本体か！
 #まんまと一杯くわされたぜ!!
-Damn it, so you're the main body!
-I've been played like a fiddle!
+Damn it, so this is the real one!
+Played for a fool!!
 -----------------------
 <Loni>
 -----------------------
 #このままじゃ、船がもたねえ！
 #けど、ヤツを倒しても、穴から水が････
 #どうする、<Kyle>!?
-We won't last much longer in this state!
-But even if we take him down, water's still pouring through that hole...
-What do you say, <Kyle>!?
+At this rate, the ship won't hold!
+But even if we beat him, water'll keep pouring through that hole...
+What do we do, <Kyle>!?
 -----------------------
 <Kyle>
 -----------------------
 #ど、どうするったって････
-Well, what are we supposed to do about it...?
+Wh-what do you expect us to do...?
 -----------------------
 <Judas>
 -----------------------
 #考えているヒマはない
 #････来るぞッ!!
-No time to think about it.
+No time to think.
 ...Here they come!!
 -----------------------
 <Loni>
 -----------------------
 #まずいぞ！　もう沈みはじめてる！
-This is bad! It's already starting to sink!
+This is bad! She's already starting to sink!
 -----------------------
 <Kyle>
 -----------------------
 #ど、どうしよう!?
 #えっと、水、水をかき出さないと････
-W-what do we do!?
-Uh, we have to bail out the water...
+Wh-what do we do!?
+Uh, w-we've gotta bail the water out...
 -----------------------
 <Loni>
 -----------------------
 #バカ！　そんなことしても
 #おっつかねえよ！
-Idiot! Even if you do that,
-It won't work!
+Idiot! You could try,
+but it won't make a dent!
 -----------------------
 <Loni>
 -----------------------
 #とにかく、船室に残ってる人間を
 #全員、甲板まで連れてくんだ！
-Anyway, get everyone who's still in their cabins
-and bring them all up to the deck!
+Just get everyone still in the cabins
+up to the deck, now!
 -----------------------
 <Kyle>
 -----------------------
 #わ、わかった!!
-I-I get it!!
+G-got it!!
 -----------------------
 <Reala>
 -----------------------
 #ど、どうすれば････
-W-what should I do...?
+Wh-what should I do...?
 -----------------------
 <Judas>
 -----------------------
@@ -89,21 +89,21 @@ Huh!?
 #ここにいる人間を救うことが
 #できるはずだ
 With your power,
-I believe you can save
+you should be able to save
 the people here.
 -----------------------
 <Reala>
 -----------------------
 #そんな････ムリよ！
 #今のわたしの力じゃ････
-No way... It's impossible!
-With my current power... I can't...
+I can't... it's impossible!
+My power isn't enough right now...
 -----------------------
 <Kyle>
 -----------------------
 #なにしてるんだよ
 #<Reala>、<Judas>！
-What are you doing?
+What're you doing
 <Reala>, <Judas>!
 -----------------------
 <Reala>
@@ -112,7 +112,7 @@ What are you doing?
 I-I'm sorry!
 -----------------------
 #いってらっしゃいませ
-Have a good day.
+Welcome.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
@@ -126,8 +126,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -161,12 +161,11 @@ notice
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{C2}{C0} but
-inventory is full already.
+Found {16}{25}{C2}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

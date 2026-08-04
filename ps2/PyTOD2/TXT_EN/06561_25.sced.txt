@@ -1,21 +1,21 @@
 #海岸の洞窟
-Cave on the Coast
+Coastal Cave
 -----------------------
 #海岸の洞窟
-Cave on the coast
+Coastal Cave
 -----------------------
 #海岸の洞窟
-Cave on the coast
+Coastal Cave
 -----------------------
 <Kyle>
 -----------------------
 #うっ、う～ん････
-Hnngh... Uuuun...
+Nngh... Uuuun...
 -----------------------
 <Kyle>
 -----------------------
 #こ、ここは････？
-W-what is this place...?
+W-where... am I...?
 -----------------------
 <Reala>
 -----------------------
@@ -32,7 +32,7 @@ W-what is this place...?
 #大丈夫、<Reala>？
 #ケガはない？
 Are you okay, <Reala>?
-No injuries?
+You hurt?
 -----------------------
 <Reala>
 -----------------------
@@ -45,52 +45,52 @@ What about everyone else...?
 -----------------------
 #どうやら生きてるらしいな
 #いや、今度ばかりは一瞬、覚悟を決めたぜ
-It seems he's still alive.
-Nah, but this time I made up my mind in an instant.
+Looks like we're still alive.
+Yeah, I steeled myself for the worst there for a second.
 -----------------------
 <Nanaly>
 -----------------------
 #よく言うよ
 #殺したって死なないような顔してさ
 #ま、それだけ悪運が強いってことだね
-You really say that.
-With that face like you won't die even if I kill you.
-Well, it just means your bad luck is strong.
+You sure talk big.
+With that face like you wouldn't die even if someone killed you.
+Well, guess that just means your bad luck's as strong as ever.
 -----------------------
 <Judas>
 -----------------------
 #助かったのはいいが
 #僕たちをどこへ連れてきたんだ、<Reala>？
-Glad I'm alive, but...
-Where did you bring us, <Reala>?
+I'm glad to be alive, but...
+where did you bring us, <Reala>?
 -----------------------
 <Reala>
 -----------------------
 #わからないの、わたしにも
 #ただ、みんなを安全なところへって
 #そう念じただけだから
-I don't understand it either.
-Just wanting to get everyone somewhere safe...
-That was all I could think about.
+I don't know either.
+I just... wanted to get everyone somewhere safe.
+That's all I was thinking about.
 -----------------------
 <Reala>
 -----------------------
 #でも････
 #あの空間の歪みは、もしかして････
 But...
-That distortion in that space... could it be...
+That spatial distortion... could it be...
 -----------------------
 <Reala>
 -----------------------
 #イヤな予感がするわ
 #早く、ここを出ましょう
-I have a bad feeling about this.
-Let's get out of here quickly.
+I've got a bad feeling about this.
+Let's hurry and get out of here.
 -----------------------
 <Kyle>
 -----------------------
 #そうだね、とにかく、外へ出よう！
-You're right. Anyway, let's head outside!
+Right. Anyway, let's head outside!
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -107,8 +107,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -120,7 +120,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We look forward to seeing you again.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -150,4 +150,3 @@ notice
 #何もありません
 There's nothing here.
 -----------------------
-

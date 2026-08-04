@@ -1,31 +1,31 @@
 #物資保管所
-Supply Storage
+Supplies Storage
 -----------------------
 #物資保管所
-Supply Storage
+Supplies Storage
 -----------------------
 #物資保管所
-Supply Storage
+Supplies Storage
 -----------------------
 <Reala>
 -----------------------
 #これが、物資保管所？
-This is the supply storage?
+So this is the Supplies Storage?
 -----------------------
 <Nanaly>
 -----------------------
 #ずいぶんと荒れ果てた
 #って感じだね
-It's quite desolate.
-That's how it feels.
+Feels pretty run-down,
+doesn't it?
 -----------------------
 <Harold>
 -----------------------
 #建物の原型を留めてるんだから
 #マシな方よ　直撃じゃなかったから
 #この程度で済んだのよ
-It's still standing in its original form.
-At least it wasn't a direct hit.
+At least it's still recognizable.
+Could've been worse if it took a direct hit.
 We got off easy.
 -----------------------
 <Loni>
@@ -33,140 +33,137 @@ We got off easy.
 #ぞっとしねえなぁ
 #なんで、ベルクラントみたいなモン
 #作っちまったんだか････
-This gives me chills.
-Why did they go ahead and create something like Belkranth?
-...just to make it happen.
+Gives me the creeps.
+Why'd they have to go and build
+something like Belcrant...?
 -----------------------
 <Harold>
 -----------------------
 #なんでって
 #新しい地表の生成のためじゃない
 #知らなかったの？
-Why?
-It's to generate new surface land.
-You didn't know?
+Why? To generate new surface land,
+of course. You didn't know?
 -----------------------
 <Kyle>
 -----------------------
 #え？　そうなの？
-Eh? Is that so?
+Huh? Really?
 -----------------------
 <Harold>
 -----------------------
 #もともとベルクラントは
 #地表を細かく粉砕し
 #空に巻きあげるためのシステムだったの
-It was originally designed to
-crush the surface into fine dust
-and hurl it up into the sky.
+Belcrant was originally a system designed
+to pulverize the surface into fine dust
+and launch it up into the sky.
 -----------------------
 <Harold>
 -----------------------
 #で、その巻きあげた石や岩を使って
 #空に浮遊大地を作って
 #街や村を作るつもりだったのよ
-So, using those rocks and boulders they'd heaved up,
-they intended to create a floating landmass in the sky
-and build towns and villages there.
+Then they'd use all that rock and debris
+to build floating landmasses up there
+and create towns and villages on them.
 -----------------------
 <Judas>
 -----------------------
 #本来ならば、すべての人が
 #その浮遊大地に
 #移民するはずだった
-In theory, everyone was supposed to
-to that floating landmass
-migrate there.
+In theory, everyone was meant
+to emigrate to those floating lands.
 -----------------------
 <Judas>
 -----------------------
 #だが、天上人と呼ばれる
 #特権階級の人間たちだけが
 #使うことになったんだ
-However, those known as Celestials
-are members of the privileged class,
-who came to use it.
+But in the end, only those known as the Aeth'er
+the privileged class
+came to use it.
 -----------------------
 <Nanaly>
 -----------------------
 #それに反発した地上人が
 #反旗をひるがえしたのが
 #天地戦争なんだよね
-Those who resisted from the surface
-raised their banners in rebellion,
-which is what came to be known as the War of Heaven and Earth.
+The Er'ther who rose up against that
+are the ones who started
+the Aeth'er Wars, right?
 -----------------------
 <Judas>
 -----------------------
 #そうだ、そして
 #戦争になったとたん、ベルクラントは
 #その姿を兵器へと変えた････
-That's right, and then
-The moment war broke out, Belkran
-Transformed its form into weapons...
+Exactly. And the moment war broke out,
+Belcrant transformed itself
+into a weapon...
 -----------------------
 <Harold>
 -----------------------
 #ま、そんなところね
 #兵器としても、申し分ないからね～
 #最大出力で撃てば、島ひとつ吹き飛ばせるし
-Well, that's about it.
-It's flawless as a weapon too~
-If you fire it at maximum output, you can blow an island away.
+Well, that's the gist of it.
+It's flawless as a weapon, too~
+Fire it at max output and you can blow an island clean away.
 -----------------------
 <Reala>
 -----------------------
 #人助けのために作った機械で
 #人殺しの手伝いを
 #させられることになった････
-I built these machines to help people,
-But now I'm being made
-To help kill them...
+A machine built to help people,
+forced to help kill them instead...
 -----------------------
 <Reala>
 -----------------------
 #開発チームの人たちは
 #きっと、つらいでしょうね････
-The development team members...
-must be going through a tough time.
+The people on the development team...
+must have suffered terribly.
 -----------------------
 <Harold>
 -----------------------
 #私の作ってるソーディアンみたいに
 #人殺しの道具で
 #人助けができることもあるけどね
-Like the Sordian I'm creating,
-it can sometimes be used to help people,
-even if it's a tool for killing.
+Like the Swordian I'm making,
+sometimes you can save lives with a tool
+that's also made for taking them.
 -----------------------
 <Harold>
 -----------------------
 #ともかく、今度の作戦を
 #成功させたいのは、そういうこと！
 #だから、キリキリ働いてね
-Anyway, regarding this next operation,
-that's why I want to make sure it succeeds!
-So, give it your all.
+Anyway, that's exactly why I want
+this next operation to succeed!
+So work hard, everyone.
 -----------------------
 <Kyle>
 -----------------------
 #わかった！
-I got it!
+Got it!
 -----------------------
 <Harold>
 -----------------------
 #ちょい待ち！
 #････なんだか変な
 #ニオイがするわねぇ
-Hold on!
-...Something feels off.
+Hold up!
+...Something smells weird.
 I smell something strange.
 -----------------------
 <Harold>
 -----------------------
 #あちゃあ、マズった！
 #化学物質がもれちゃってる
-Oh no, trouble!
+Oh no, this is bad!
 The chemicals are leaking.
 -----------------------
 <Judas>
@@ -174,122 +171,121 @@ The chemicals are leaking.
 #毒ガスか？
 #中には入れないか････
 Poison gas?
-We can't go in there...?
+We can't go inside...?
 -----------------------
 <Harold>
 -----------------------
 #あぁ、だいじょぶだいじょぶ
 #かなりヤバいけど
 #１０分くらいなら我慢できるわよ、たぶん
-I'm fine, I'm fine
-It's pretty bad though
-I think I can hold out for about ten minutes
+Ah, it's fine, it's fine.
+It's pretty nasty, though.
+I can probably endure it for about ten minutes.
 -----------------------
 <Loni>
 -----------------------
 #マジで？
-No way?
+For real?
 -----------------------
 <Harold>
 -----------------------
 #マジで
-Seriously.
+For real.
 -----------------------
 <Harold>
 -----------------------
 #いい？　よく聞きなさいよ
 #目的のブツは、資材置き場の
 #一番奥にあるコンテナに保管されてるわ
-Got it? Listen carefully.
-The item we're after is in the storage yard,
-in the container at the very back.
+Listen up. The item we're after is stored
+in a container at the very back
+of the materials yard.
 -----------------------
 <Harold>
 -----------------------
 #でも、それを開けるには
 #何個ものプロテクトを
 #突破しなくちゃいけないの
-But to open it,
-we have to get past
-numerous protections.
+But to open it, you'll have to break through
+multiple layers of protection.
 -----------------------
 <Harold>
 -----------------------
 #あちこちに『プロテクト解除用のキー』が
 #落ちてるハズだから
 #それを全部手に入れるのよ
-Keys to remove the protection are scattered all over the place.
-They should be lying around somewhere,
-so I'll collect them all.
+There should be 'protection release keys'
+scattered all over the place.
+You'll need to collect all of them.
 -----------------------
 <Kyle>
 -----------------------
 #わ、わかった
-I-I get it.
+O-okay.
 -----------------------
 <Kyle>
 -----------------------
 #で、でも、
 #本当に中に入って
 #大丈夫なの!?
-Well, but,
-I really went inside
-Is it okay!?
+B-but, are you sure
+it's really safe
+to go in there!?
 -----------------------
 <Harold>
 -----------------------
 #１０分くらいなら
 #だいじょ～ぶって言ったでしょうが
-I said ten minutes would be fine
-As I said, it'll be just fine~
+I told you, ten minutes or so
+should be just fine~
 -----------------------
 <Harold>
 -----------------------
 #････でも、１０分過ぎたら
 #命の保証は出来ないわよ
 #いい？　１０分よ、１０分！
-...But once ten minutes have passed,
-I can't guarantee your life.
-Got it? Ten minutes, ten minutes!
+...But once those ten minutes are up,
+I can't guarantee your lives.
+Got it? Ten minutes. Ten minutes!
 -----------------------
 <Harold>
 -----------------------
 #ここでいいわ
 #送ってくれてありがとね
-This is fine.
-Thanks for seeing me off.
+This is far enough.
+Thanks for escorting me.
 -----------------------
 <Harold>
 -----------------------
 #いつもなら、兄貴に頼むんだけど
 #あっちはあっちで
 #タイヘンそうだったしね
-I usually ask my brother to handle it,
-But over there,
-It looked pretty serious.
+I'd normally ask my brother to do this,
+but he's got his own hands full
+with something pretty serious.
 -----------------------
 <Reala>
 -----------------------
 #ソーディアンの仕上げ
 #がんばってね<Harold>
-The finishing touches on Sodian
-You can do it!<Harold>
+Good luck with the finishing touches
+on the Swordian, Harold.<Harold>
 -----------------------
 <Harold>
 -----------------------
 #完成したら、
 #あんたたちにも知らせるわ
 #それじゃ
-Once it's complete,
-I'll let you know.
-Well then,
+Once it's finished,
+I'll let you all know.
+Well then.
 -----------------------
 <Harold>
 -----------------------
 #あ、そういえばさ
 #恋人同士なんだよね、あのふたり
-Oh, come to think of it...
-They're a couple, those two.
+Oh, that reminds me.
+Those two are a couple, you know.
 -----------------------
 <Kyle>
 -----------------------
@@ -299,30 +295,30 @@ Those two?
 <Harold>
 -----------------------
 #もちろん、ディムロスとアトワイト
-Of course, Dimros and Atwight.
+Dymlos and Atwight, of course.
 -----------------------
 <Kyle>
 -----------------------
 #だったら、どうして
 #ディムロスさんはあんな････！
 Then why...
-Dimros was just like that...!
+why did Dymlos have to be like that...!
 -----------------------
 <Reala>
 -----------------------
 #ディムロスさんには
 #責任があるから････だと思う
-Mr. Dimlos
-I think he's responsible.
+I think...
+it's because of the responsibility he bears.
 -----------------------
 <Reala>
 -----------------------
 #すごく重い責任を前にしたら
 #自分の思いを、簡単には
 #つらぬけなくなるから････
-When faced with such a heavy responsibility,
-you can't easily
-stick to your convictions...
+When you're faced with such a heavy burden,
+it becomes hard to simply follow
+your heart and stay true...
 -----------------------
 <Kyle>
 -----------------------
@@ -333,18 +329,17 @@ stick to your convictions...
 -----------------------
 #しかし、今さらなぜそのことを
 #僕たちに告げた？
-Why bring that up now?
-to us?
+But why tell us that now?
 -----------------------
 <Harold>
 -----------------------
 #触媒
-Catalyst
+A catalyst.
 -----------------------
 <Loni>
 -----------------------
 #は？
-What?
+Huh?
 -----------------------
 <Harold>
 -----------------------
@@ -352,33 +347,32 @@ What?
 #外的要因によって変化をうながす
 #たとえそれが、毒であってもね
 If there's no hope from internal factors,
-then we'll have to prompt change through external ones.
-Even if it is poison.
+we'll have to prompt change through external ones.
+Even if that means poison.
 -----------------------
 <Harold>
 -----------------------
 #あ、でも、あんたたちは
 #薬だと思ってるから、安心して
-Ah, but you guys...
-You think it's medicine, so you can relax.
+Ah, but you all think it's medicine,
+so don't worry.
 -----------------------
 <Loni>
 -----------------------
 #････はぁ
 #わかったような
 #ぜんぜんわからんような････
-... *sigh*
-It seems clear enough,
-but I have no idea what's going on...
+...*sigh*
+I think I get it,
+but I really don't...
 -----------------------
 <Harold>
 -----------------------
 #あ～、実験結果が
 #観察できないのが
 #残念ねぇ････
-Ahh, the experimental results...
-...can't be observed.
-What a pity...
+Ahh, too bad I can't observe
+the experimental results...
 -----------------------
 <Loni>
 -----------------------
@@ -386,27 +380,27 @@ What a pity...
 #おまえのことだしな
 #このまま放っておく気はないんだろ？
 So, what are we gonna do, <Kyle>?
-Given who you are.
-You're not just going to leave it as is, right?
+This is you we're talking about.
+You're not gonna just leave it like this, right?
 -----------------------
 <Kyle>
 -----------------------
 #ああ、もう一度だけ
 #ディムロスさんを説得してみるよ
 #それでもダメなら、そのときは････
-One last time.
-I'll try to talk some sense into Dimros.
-If that doesn't work, then at that point...
+Yeah. I'll try to talk to Dymlos
+one more time.
+If that doesn't work, then...
 -----------------------
 #{16}{34}{70}{34}{90}{C6}{C0}は砕け散った････
-{16}{34}{70}{34}{90}{C6}{C0}shattered to pieces...
+{16}{34}{70}{34}{90}{C6}{C0} shattered to pieces...
 -----------------------
 #いってらっしゃいませ
 Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald per night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -416,8 +410,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -440,7 +434,7 @@ exit-party_togather( short spd )
 notice
 -----------------------
 #{16}{25}{E2}{C0}を手に入れました
-{16}{25}{E2}{C0}You obtained .
+Acquired {16}{25}{E2}{C0}.
 -----------------------
 notice
 -----------------------
@@ -451,12 +445,11 @@ notice
 -----------------------
 #{16}{25}{EA}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{25}{EA}{C0}There was , but
-I couldn't hold it because it was full.
+Found {16}{25}{EA}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

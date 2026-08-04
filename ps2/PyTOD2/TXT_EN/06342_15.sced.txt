@@ -1,44 +1,44 @@
 #ダリルシェイド地下水路
-Darilsheid - Underground Canal
+Darilsheid Underground Waterway
 -----------------------
 #ダリルシェイド地下水路
-Darilsheid - Underground Canal
+Darilsheid Underground Waterway
 -----------------------
 #ここは地下水路です
-This is an underground canal.
+This is the underground waterway.
 -----------------------
 NOTICE
 -----------------------
 #古びたロープが垂れ下がっています
 #このロープは焼き切れそうです
-There's an old rope hanging down.
-This rope is about to burn out.
+An old rope hangs down.
+It looks like this rope could burn through.
 -----------------------
 NOTICE
 -----------------------
 #古びたロープが垂れ下がっています
 #このロープは焼き切れそうです
-There's an old rope hanging down.
-This rope is about to burn out.
+An old rope hangs down.
+It looks like this rope could burn through.
 -----------------------
 NOTICE
 -----------------------
 #古びたロープが垂れ下がっています
 #このロープは焼き切れそうです
-There's an old rope hanging down.
-This rope is about to burn out.
+An old rope hangs down.
+It looks like this rope could burn through.
 -----------------------
 NOTICE
 -----------------------
 #<item:00000041>を手に入れました
-<item:00000041>You obtained .
+Acquired <item:00000041>.
 -----------------------
 #いってらっしゃいませ
 Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -48,8 +48,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -61,7 +61,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We hope to see you again.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -83,8 +83,8 @@ notice
 -----------------------
 #{16}{25}{D2}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{25}{D2}{C0}There was , but
-I couldn't hold it because it was full.
+Found {16}{25}{D2}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------

@@ -1,25 +1,25 @@
 #ハイデルベルグ・博物館『天地戦争の記憶』
-Heidelberg Museum 'Memories of the War of Heaven and Earth'
+Heidelberg Museum 'Memories of the Aeth'er Wars'
 -----------------------
 #ハイデルベルグ
-Heidelburg
+Heidelberg
 -----------------------
 #博物館『天地戦争の記憶』
-Museum 'Memory of the Tenchi War'
+Museum 'Memories of the Aeth'er Wars'
 -----------------------
 NOTICE
 -----------------------
 #『空中都市』
-Air Continent
+'Aethersphere Cities'
 -----------------------
 NOTICE
 -----------------------
 #巨大彗星の衝突で巻き上がった
 #粉塵から逃れるため
 #人々は空中に都市を建造した
-The dust stirred up by the impact of the giant comet
-To escape the dust
-People built cities in the sky
+Dust thrown up by a giant comet's impact.
+To escape it,
+people built cities in the sky.
 -----------------------
 NOTICE
 -----------------------
@@ -27,22 +27,22 @@ NOTICE
 #天地戦争終結後に
 #地上軍の手によって
 #海底に沈められたという
-Those floating cities,
-after the end of the War of Heaven and Earth,
-by the forces of the ground army,
-are said to have been sunk into the ocean floor.
+Those aerial cities,
+after the Aeth'er Wars ended,
+were sunk beneath the sea
+by the Er'ther forces, or so it is said.
 -----------------------
 NOTICE
 -----------------------
 #『地上軍兵士』
-'Ground Army Soldier'
+'Er'ther Soldier'
 -----------------------
 NOTICE
 -----------------------
 #天上側の武力支配に耐えかねた
 #地上の人々が立ち上がって結成された
-The people on Earth couldn't bear the military dominance from above.
-They rose up to form their own alliance.
+The Er'ther people could no longer endure
+the Aeth'er military domination, and rose up to fight.
 -----------------------
 NOTICE
 -----------------------
@@ -50,10 +50,10 @@ NOTICE
 #地上軍であったが
 #ソーディアンの力によって
 #勝利をおさめた
-Driven to the brink of defeat
-the ground forces
-by the power of the Sodian
-secured victory
+Driven to the brink of defeat,
+the Er'ther forces
+won victory
+through the power of the Swordians.
 -----------------------
 NOTICE
 -----------------------
@@ -64,55 +64,55 @@ NOTICE
 -----------------------
 #廃材を利用して作られた
 #固定式の擬似機関銃
-Crafted from scrap materials
-Fixed-type pseudo-machine gun
+A fixed-position pseudo-machine gun
+built from scrap materials.
 -----------------------
 NOTICE
 -----------------------
 #戦争末期には弾薬が尽きていたため
 #金属製のボルトを弾薬代わりとし
 #炸薬で撃ち出していた
-Near the end of the war, ammunition had run out,
-so they used metal bolts as projectiles
-and fired them using gunpowder.
+By the war's end ammunition had run dry,
+so they fired metal bolts
+using explosives as propellant.
 -----------------------
 NOTICE
 -----------------------
 #『雪上船』
-Snow Ship
+'Snowship'
 -----------------------
 NOTICE
 -----------------------
 #地上軍の輸送艇とされているが
 #不明な点が多い
-It's designated as an aerial transport vessel for ground forces,
-but there are many unknowns.
+Designated as an Er'ther transport vessel,
+but much about it remains unclear.
 -----------------------
 NOTICE
 -----------------------
 #地上軍の兵士たちは
 #この輸送艇を
 #『シューズ』の愛称で呼んでいたらしい
-The ground forces' soldiers were
-this transport ship
-apparently called 'Shoes'
+Er'ther soldiers
+apparently nicknamed this transport vessel
+'Shoes.'
 -----------------------
 #天地戦争をモチーフにした
 #版画だ････
-Based on the War of the Heavens and Earth
-...is an engraving.
+An engraving,
+depicting the Aeth'er Wars...
 -----------------------
 #絵が飾られている
 #『彗星衝突の悪夢』
-Paintings are displayed here.
-"The Nightmare of Comet Impact"
+A painting is displayed here:
+'The Nightmare of Comet Impact'
 -----------------------
 #いってらっしゃいませ
-Have a good day.
+Welcome. Please come again.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -122,11 +122,11 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
-Have a good night.
+Please rest well.
 -----------------------
 #おはようございます
 Good morning.
@@ -135,7 +135,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We look forward to your next visit.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -157,12 +157,11 @@ notice
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{C2}{C0} but
-inventory is full already.
+Found {16}{25}{C2}{C0}, but
+couldn't carry any more.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

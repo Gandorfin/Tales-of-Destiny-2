@@ -7,7 +7,7 @@ Heat River
 <Kyle>
 -----------------------
 #ふう････これで進めるかな
-Phew... I guess we can move forward now.
+Phew... Guess we can keep going now.
 -----------------------
 <Nanaly>
 -----------------------
@@ -19,7 +19,7 @@ You okay?
 #だ、大丈夫････
 #ただ、ちょっと疲れたかな････
 I-I'm fine...
-Just... I guess I'm a little tired...
+Just a little tired, I think...
 -----------------------
 <Nanaly>
 -----------------------
@@ -28,39 +28,39 @@ Just... I guess I'm a little tired...
 #毎日こういう道を往復してるけど？
 Is that so?
 My kids go to fetch water
-every day on paths just like this?
+down paths like this every day.
 -----------------------
 <Kyle>
 -----------------------
 #うちの子たちって････
 #<Nanaly>、子持ちだったの!?
-My kids...
-<Nanaly>, you had a child!?
+My kids...?
+<Nanaly>, you have a kid!?
 -----------------------
 <Nanaly>
 -----------------------
 #アッハハハハ！　違うって！
 #村の子たちのことだよ
-Hahaha! No, I'm serious!
-It's about the village kids.
+Ahahaha! No, no!
+I mean the village kids!
 -----------------------
 <Nanaly>
 -----------------------
 #ま、おしめが取れない頃から
 #ずっと面倒みてるから
 #本当の、子供みたいなもんだけどね
-Well, since I couldn't get rid of him...
-I've been taking care of him all along.
-He's really just like a child.
+I've been looking after 'em since they were
+in diapers, so they're basically
+my own children at this point.
 -----------------------
 <Kyle>
 -----------------------
 #あ、そっかぁ
 #いやさ、実はオレにも
 #弟と妹がたくさんいてさぁ････
-Ah, I see.
-Actually, it's that I also have...
-I've got lots of younger brothers and sisters.
+Ah, I get it.
+Actually, I've got plenty of
+little brothers and sisters myself...
 -----------------------
 <Nanaly>
 -----------------------
@@ -72,35 +72,35 @@ I hear something strange!
 <Reala>
 -----------------------
 #な、なにかいるわ！
-There's something there!
+S-something's there!
 -----------------------
 <Nanaly>
 -----------------------
 #この声は････二人とも、気をつけな！
-This voice... Both of you, stay alert!
+That sound... Both of you, stay alert!
 -----------------------
 <Kyle>
 -----------------------
 #やれやれ････っと
 #ふぅ、息つくヒマもないなぁ
-Well, that's done.
-Haa... I don't even have time to catch my breath.
+Well, that's that.
+Sheesh, not even time to catch my breath.
 -----------------------
 <Nanaly>
 -----------------------
 #そうかい？
 #これでなんにも出なかったら
 #拍子抜けしちまうよ
-I see?
-If nothing comes out of this,
-It'll be a letdown.
+Really?
+I'd be disappointed if nothing
+popped out after all that.
 -----------------------
 <Nanaly>
 -----------------------
 #それにさ、これだけ動いたら
 #今日のメシはきっとうまいよぉ！
-Plus, after moving around as much as we have...
-Today's meal is gonna be delicious!
+Besides, after all that exercise,
+tonight's dinner's gonna taste amazing!
 -----------------------
 <Kyle>
 -----------------------
@@ -112,30 +112,30 @@ H-Haha...
 #はぁ、はぁ････
 #････わたし、もうダメ････
 Haa... haa...
-...I'm done for...
+...I can't go on...
 -----------------------
 <Nanaly>
 -----------------------
 #ほら、がんばって！
 #村まで、あと少しだからさ
-Come on, you can do it!
-We're just a little ways from the village.
+Come on, hang in there!
+The village is just up ahead.
 -----------------------
 <Nanaly>
 -----------------------
 #ついたら、おいし～い
 #ゴハンが待ってるよ！
 #さ、行こう！
-We've arrived! It smells delicious~
-Dinner is waiting!
+Once we're there, a delicious
+meal is waiting for us!
 Let's go!
 -----------------------
 #いってらっしゃいませ
-Have a good day.
+Welcome.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald per night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -145,8 +145,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -158,7 +158,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We hope to see you again.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -169,7 +169,7 @@ exit-party_togather( short spd )
 notice
 -----------------------
 #{16}{25}{D6}{C0}を手に入れました
-{16}{25}{D6}{C0}You obtained .
+Acquired {16}{25}{D6}{C0}.
 -----------------------
 notice
 -----------------------
@@ -180,8 +180,8 @@ notice
 -----------------------
 #{16}{25}{DE}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{25}{DE}{C0}There was , but
-I couldn't hold it because it was full.
+Found {16}{25}{DE}{C0}, but
+couldn't carry it: inventory full.
 -----------------------
 notice
 -----------------------

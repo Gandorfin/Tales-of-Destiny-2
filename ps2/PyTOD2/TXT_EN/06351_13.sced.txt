@@ -2,7 +2,7 @@
 Old Darilsheid - Inn
 -----------------------
 #古都ダリルシェイド
-Old Darilsheid 
+Old Darilsheid
 -----------------------
 #青年
 Youth
@@ -10,9 +10,9 @@ Youth
 #カノジョに会うためだけに
 #ボクは、ここに
 #泊まってるんだ
-Just to meet her,
-I am here
-staying.
+I'm staying here
+just so I can
+see her.
 -----------------------
 #青年
 Youth
@@ -20,9 +20,9 @@ Youth
 #････でも、家がすぐ近くなのに
 #毎日ホテルに泊まるってのも
 #ツラいんだよなぁ、トホホ････
-But it's also hard to stay
-at an Inn every day when your
-house is just around the corner.
+...But even though I live right nearby,
+staying at an inn every day
+really takes its toll, *sigh*...
 -----------------------
 #青年
 Youth
@@ -30,17 +30,17 @@ Youth
 #キミたち、この宿に
 #泊まったことがあるかい？
 #カワイイ女の子が、働いているだろ？
-You lot, at this inn,
-Ever stayed there?
-A cute girl is working there, right?
+Have any of you stayed
+at this inn before?
+There's a cute girl working here, right?
 -----------------------
 #青年
 Youth
 -----------------------
 #でも、カノジョに手を出したら
 #ダメだからね！
-But if you lay a hand on her,
-it's no good!
+But don't you dare
+lay a hand on her!
 -----------------------
 #青年
 Youth
@@ -49,7 +49,7 @@ Youth
 #カノジョにアタックするべきか
 #でも、もしフラれたら････
 Hmmm, should I take the plunge
-and pursue my girlfriend?
+and go for it?
 But if she rejects me...
 -----------------------
 #青年
@@ -57,16 +57,16 @@ Youth
 -----------------------
 #この宿で働いてるメイドのカノジョに
 #告白してみようと思ってるんだ
-I'm thinking of confessing my feelings to
-my crush, a maid who works at this inn.
+I'm thinking of confessing to this girl I like,
+a maid who works at this inn.
 -----------------------
 #青年
 Youth
 -----------------------
 #でも、フラれたらと思うと
 #こわくて････
-But thinking about getting rejected...
-It's so scary...
+But the thought of getting rejected
+terrifies me...
 -----------------------
 #青年
 Youth
@@ -74,16 +74,16 @@ Youth
 #アタックすることに決めたけど
 #彼女もう結婚してるみたいなんだよね
 #ボクは気にしないけど････
-I've decided to pursue her.
-But she's already married.
-I don't mind.
+I've decided to go for it,
+but I think she's already married.
+Not that I mind...
 -----------------------
 <Loni>
 -----------------------
 #結果が見えてるじゃねえか････
 #哀れなヤツ････
-You can already see the outcome...
-Poor guy...
+You can already see how this ends...
+Poor sap...
 -----------------------
 #青年
 Youth
@@ -91,16 +91,16 @@ Youth
 #カノジョに想いを告げられぬまま
 #はや１年････
 #ああ、ボクはどうすればいいんだろう
-It's been a year, and I've yet
-to confess feelings to her...
-Oh, what should I do?
+A whole year's passed, and I still
+haven't told her how I feel...
+What am I supposed to do?
 -----------------------
 <Loni>
 -----------------------
 #アタックすればいいじゃねえか
 #それでフラれたら泣けばいい
-Why don't you just go for it?
-If you get rejected, just cry.
+Just go for it already.
+If she shoots you down, you can cry about it.
 -----------------------
 #青年
 Youth
@@ -108,49 +108,49 @@ Youth
 #よ、よ～し、ボクはやるぞ！
 #カノジョに想いを伝えるんだ
 #アニキ、見ていてください！
-A-alright, I'll do it!
-I'm going to tell her how I feel.
+A-alright, I'm gonna do it!
+I'm gonna tell her how I feel!
 Watch me, bro!
 -----------------------
 <Loni>
 -----------------------
 #アニキって言うな！
-I'm not your bro!
+Don't call me bro!
 -----------------------
 #青年
 Youth
 -----------------------
 #ボク、思いきってカノジョに
 #告白してみようと思ってるんだ
-I'm going to go out on a limb
-and confess my feelings to crush.
+I'm gonna go out on a limb
+and confess to this girl I like.
 -----------------------
 #青年
 Youth
 -----------------------
 #でも、フラれたらと思うと
 #こわくて････
-But thinking about getting rejected...
-I'm so scared...
+But the thought of getting rejected
+terrifies me...
 -----------------------
 <Kyle>
 -----------------------
 #平気だよ、<Loni>なんか
 #星の数ほどフラれてるのに
 #こんなに元気に、生きてるんだよ
-I'm fine, <Loni>.  I've been
-rejected countless times and
-I'm alive and well.
+Don't sweat it, <Loni>.
+I've been rejected more times than there are stars,
+and I'm still alive and kicking.
 -----------------------
 <Loni>
 -----------------------
 #たしかに、そのとおりだが････
 #ひと言多い！
-Yeah, you're right. 
-Too many words!
+Can't argue with that, but...
+you didn't have to say that much!
 -----------------------
 #いってらっしゃいませ
-Have a good day.
+Come again soon.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
@@ -164,8 +164,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -177,7 +177,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We hope to see you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -199,12 +199,11 @@ notice
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{C2}{C0} but
-inventory is full already.
+Found {16}{25}{C2}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

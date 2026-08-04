@@ -1,8 +1,8 @@
 #飛行竜・制御室
-Airship Control Room
+Flying Dragon Control Room
 -----------------------
 #飛行竜
-Airship
+Flying Dragon
 -----------------------
 #制御室
 Control Room
@@ -22,8 +22,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -57,8 +57,8 @@ notice
 -----------------------
 #{16}{25}{D2}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{25}{D2}{C0}There was , but
-I couldn't carry it because it was full.
+Found {16}{25}{D2}{C0}, but
+your inventory was full.
 -----------------------
 notice
 -----------------------

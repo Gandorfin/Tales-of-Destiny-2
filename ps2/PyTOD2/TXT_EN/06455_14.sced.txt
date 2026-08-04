@@ -1,13 +1,13 @@
 #ハイデルベルグ城
-Heidelburg Castle
+Heidelberg Castle
 -----------------------
 #ハイデルベルグ城
-Heidelburg Castle
+Heidelberg Castle
 -----------------------
 #いつ果てるとも無く
 #暖炉の火は燃えつづける････
-The fire seemed to burn on forever...
-The hearth's flames continued to burn...
+The fire burns on, seemingly without end...
+The hearth's flames continue to flicker...
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -24,8 +24,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -59,7 +59,7 @@ notice
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{C2}{C0} but
+Found {16}{25}{C2}{C0}, but
 inventory is full already.
 -----------------------
 notice
@@ -69,76 +69,76 @@ There's nothing here.
 -----------------------
 #よく手入れされた武器が並んでいる
 #どれもこれも高級品のようだ
-An array of well-maintained weapons is lined up.
-They all look like high-end items.
+Well-maintained weapons line the racks.
+Each one looks like a premium piece.
 -----------------------
 #有事の際に使われるのだろう
 #実戦仕様の武器が並んでいる
-It's probably used in case of an emergency.
-There are weapons lined up here that are battle-ready.
+These must be kept ready for emergencies.
+Battle-tested weapons, lined up in rows.
 -----------------------
 #鋭く研ぎすまされた武器だ
 #一流の鍛冶士の手によるものだろう
-A weapon sharpened to a razor's edge.
-It was likely forged by a master smith.
+A blade honed to razor sharpness.
+The work of a master smith, no doubt.
 -----------------------
 #この武器にはちゃんと刃が付いている
 #美術品ではなく、本物なのだろう
-This weapon actually has a blade.
-It's probably genuine, not just an art piece.
+This weapon has a proper edge on it.
+Genuine steel, not some decorative showpiece.
 -----------------------
 #ハイデルベルグ城の兵士たちが使う武器だ
 #刃は、くもりひとつ無く研ぎすまされている
-It's the weaponry used by the soldiers at Heidelburg Castle.
-The blades are sharpened to a flawless edge.
+The standard armament of Heidelberg Castle's soldiers.
+Every blade polished to a mirror finish, without a single blemish.
 -----------------------
 #巨大な板金鎧だ
 #とっても重そう････
-It's a massive plate armor.
+A massive suit of plate armor.
 Looks incredibly heavy...
 -----------------------
 #実戦仕様の鎧だ
 #非常に手の込んだ造りをしている
-It's armor built for actual combat.
-The craftsmanship is incredibly intricate.
+Combat-grade armor.
+Remarkably intricate craftsmanship.
 -----------------------
 #板金を打ち広げて作った全身型の鎧だ
 #ずいぶん手が込んでいるが
 #一着、いくらするのだろうか････
-It's full-body armor crafted from hammered sheet metal.
-It's quite intricately made,
-I wonder how much a single set costs...?
+Full-body armor forged from hammered sheet metal.
+The workmanship is extraordinarily detailed.
+I wonder what a single suit costs...?
 -----------------------
 #本物の全身鎧だ
 #圧倒的な威圧感を感じる････
-It's full plate armor.
-I can feel an overwhelming pressure...
+Genuine full plate armor.
+The sheer presence of it is overwhelming...
 -----------------------
 #鎧が並べられている
 #美術品ではなく、実戦仕様の本物のようだ
 Armor is lined up.
-They don't look like mere artworks; they appear to be genuine combat-grade gear.
+Not mere decoration -- this is the real thing, built for battle.
 -----------------------
 #年代物の品のようだ
 #････壊さないように気をつけよう
 It looks like an antique.
-...Let's be careful not to break it.
+...Better be careful not to break it.
 -----------------------
 #細々した品が並んでいる
 #どれもこれも非常に高価な物のようだ
-There's an assortment of small items lined up.
-They all seem to be quite expensive.
+Small trinkets and accessories line the shelves.
+Each one appears to be quite valuable.
 -----------------------
 #さすがに王城
 #小物のひとつひとつが素晴らしい出来ばえだ
-As expected, the royal castle...
-Every little detail is wonderfully crafted.
+As befits a royal castle...
+Even the smallest pieces are exquisitely made.
 -----------------------
 #素晴らしい品々が並べられている････
-A wonderful selection of items on display...
+Wonderful pieces on display...
 -----------------------
 #アンティークだろうか
 #年代物の品々が並んでいる
-Is it an antique?
-Items from bygone eras are lined up.
+Are these antiques?
+Items from ages past, lined up together.
 -----------------------

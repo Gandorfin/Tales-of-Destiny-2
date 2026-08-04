@@ -7,106 +7,106 @@ Hope Town
 NOTICE
 -----------------------
 #<item:00000041>を手に入れました
-<item:00000041>You obtained .
+<item:00000041>Acquired.
 -----------------------
 #トラッシュマウンテンから拾ってきたのだろうか
 #廃材が積まれている
-Did you pick that up from Trash Mountain?
-It's piled up with scrap materials.
+Maybe someone picked this up from Trash Mountain?
+Scrap materials are piled up here.
 -----------------------
 #スパイシーな香りが立ち込めている
 #カルバレイス地方では濃い味付けの料理が
 #好まれているようだ
-A spicy aroma fills the air.
-In the Calvarius region,
-hearty, heavily seasoned dishes seem to be popular.
+A spicy aroma hangs in the air.
+In the Calvalese region,
+heavily seasoned dishes seem to be preferred.
 -----------------------
 #タルには『クレスタ産小麦』と書かれている
 #はるばるクレスタから輸入された物のようだ
-It says 'Cresta-grown wheat' on the barrel.
-It seems to have been imported all the way from Cresta.
+The barrel says 'Cresta-grown wheat.'
+Looks like it was imported all the way from Cresta.
 -----------------------
 #イカ
 Squid
 -----------------------
 #タコ
-Tako
+Octopus
 -----------------------
 #ネギトロ
-Tuna and scallion roll
+Negitoro
 -----------------------
 #トロ
-Tro
+Fatty Tuna
 -----------------------
 #タマゴ
 Egg
 -----------------------
 #ウニ
-Uni
+Sea Urchin
 -----------------------
 #イクラ
-Ikura
+Salmon Roe
 -----------------------
 #アナゴ
-Anago
+Conger Eel
 -----------------------
 #ガリ
-Gari
+Ginger
 -----------------------
 #今日のオススメ
-Today's Recommendation
+Today's Special
 -----------------------
 #いつものやつ
-The usual stuff
+The Usual
 -----------------------
 #デザート
-Desert
+Dessert
 -----------------------
 #キングコック
 King Cock
 -----------------------
 #キミキミ、ちょっと寿司職人やらない？
-You, you wanna try your hand at making sushi?
+Hey, you! Wanna try being a sushi chef?
 -----------------------
 select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #説明は必要かい？
-Do I need to explain?
+Need me to explain the rules?
 -----------------------
 select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #客の注文する料理を出してほしい
-I'd like you to bring out the dishes our customers ordered.
+I need you to serve the dishes customers order.
 -----------------------
 #早さが全てだ
 #メニューはできるだけ暗記してから
 #客前に立ってくれ
 Speed is everything.
-Memorize the menu as much as possible before...
-Stand before your customers.
+Memorize the menu as best you can
+before you get out there.
 -----------------------
 #あと、ちゃんとお客の方を向いて
 #料理を出すように
-And make sure you're facing your customers properly.
-To serve the food.
+And make sure you actually face the customers
+when you serve their food.
 -----------------------
 #さぁ････客が来はじめたぞ
-Well... the customers are starting to show up.
+Well... the customers are starting to arrive.
 -----------------------
 #次のメニューはこれだ
 #覚えたら行ってくれ
 Here's the next menu.
-Once you've learned it, let's go.
+Once you've got it down, get to work.
 -----------------------
 <03:00000000><size:00000200>level {14}{24}{74}{C0}
 -----------------------
@@ -116,8 +116,8 @@ Once you've learned it, let's go.
 -----------------------
 #遅い！もう待てん！
 #帰らせてもらう！
-I'm too slow! I can't wait any longer!
-I'm heading back!
+You're too slow! I can't wait anymore!
+I'm leaving!
 -----------------------
 clear
 -----------------------
@@ -129,27 +129,27 @@ time over
 -----------------------
 #ありがとう
 #キミのおかげで掃いて捨てるほどもうけたよ
-Thank you.
-Thanks to you, I made a fortune.
+Thanks.
+Thanks to you, I made more money than I know what to do with.
 -----------------------
 #キミの取り分だ、受け取ってくれ
-This is your share. Take it.
+Here's your cut. Take it.
 -----------------------
 notice
 -----------------------
 #<0B:00000001>{14}{34}{A4}{C0}ガルドを手に入れました<0B:00000000>
-<0B:00000001>{14}{34}{A4}{C0}I've acquired  Galds!<0B:00000000>
+<0B:00000001>{14}{34}{A4}{C0}Gald acquired!<0B:00000000>
 -----------------------
 #また頼むよ
-I'm counting on you again.
+Come back anytime.
 -----------------------
 #天職だと言うからまかせてみれば
 #このザマだ！
-You said it's my calling, so I'll give it a shot.
-Look at this mess!
+You said this was my calling, so I gave it a shot...
+and look at this mess!
 -----------------------
 #<size:00000180>帰れ！
-<size:00000180>Go back!
+<size:00000180>Get out!
 -----------------------
 
 -----------------------
@@ -158,12 +158,12 @@ Look at this mess!
 
 -----------------------
 #<color:00000007>SELECT <color:00000006>逃亡
-<color:00000007>SELECT <color:00000006>Escape
+<color:00000007>SELECT <color:00000006>Flee
 -----------------------
 
 -----------------------
 #<03:00000000><0B:00000001>あと<color:00000006>{14}{24}{86}{24}{80}{CB}{C0}<color:00000007>回/給料{12}{25}{74}{C0}{14}{34}{A8}{C0}<color:00000007>ガルド{18}{45}{78}{C0}
-<03:00000000><0B:00000001>After that, <color:00000006>{14}{24}{86}{24}{80}{CB}{C0}<color:00000007> times / Salary {12}{25}{74}{C0}{14}{34}{A8}{C0}<color:00000007> Gald{18}{45}{78}{C0}
+<03:00000000><0B:00000001>Remaining: <color:00000006>{14}{24}{86}{24}{80}{CB}{C0}<color:00000007> / Pay: {12}{25}{74}{C0}{14}{34}{A8}{C0}<color:00000007> Gald{18}{45}{78}{C0}
 -----------------------
 <03:00000000><0B:00000001><button:00000038><color:00000004>{18}{45}{90}{C0}
 <button:00000039><color:00000008>{18}{45}{94}{C0}
@@ -171,7 +171,7 @@ Look at this mess!
 <0B:00000000>{18}{45}{7C}{C0}
 -----------------------
 #<03:00000000><0B:00000001>あと<color:00000006>{14}{24}{86}{24}{80}{CB}{C0}<color:00000007>回/給料{12}{25}{74}{C0}{14}{34}{A8}{C0}<color:00000007>ガルド{18}{45}{78}{C0}
-<03:00000000><0B:00000001>After that, <color:00000006>{14}{24}{86}{24}{80}{CB}{C0}<color:00000007> times / Salary {12}{25}{74}{C0}{14}{34}{A8}{C0}<color:00000007> Gald{18}{45}{78}{C0}
+<03:00000000><0B:00000001>Remaining: <color:00000006>{14}{24}{86}{24}{80}{CB}{C0}<color:00000007> / Pay: {12}{25}{74}{C0}{14}{34}{A8}{C0}<color:00000007> Gald{18}{45}{78}{C0}
 -----------------------
 <03:00000000><0B:00000001><button:00000038><color:00000004>{18}{45}{90}{C0}
 <button:00000039><color:00000008>{18}{45}{94}{C0}
@@ -182,8 +182,8 @@ notice
 -----------------------
 #{15}{24}{88}{C0}は
 #称号「{16}{A0}{81}{08}{24}{88}{CA}{81}{CB}{C0}」を得ました
-{15}{24}{88}{C0}is
-You have earned the title "{16}{A0}{81}{08}{24}{88}{CA}{81}{CB}{C0}."
+{15}{24}{88}{C0} earned the title
+"{16}{A0}{81}{08}{24}{88}{CA}{81}{CB}{C0}"!
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -200,8 +200,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -224,7 +224,7 @@ exit-party_togather( short spd )
 notice
 -----------------------
 #{16}{26}{EA}{C0}を手に入れました
-{16}{26}{EA}{C0}You obtained .
+{16}{26}{EA}{C0}Acquired.
 -----------------------
 notice
 -----------------------
@@ -235,8 +235,8 @@ notice
 -----------------------
 #{16}{26}{F2}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{26}{F2}{C0}There was , but
-I couldn't hold it because it was full.
+Found {16}{26}{F2}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------

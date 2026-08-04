@@ -1,50 +1,50 @@
 #物資保管所
-Supply Storage
+Supplies Storage
 -----------------------
 #物資保管所
-Supply Storage
+Supplies Storage
 -----------------------
 #タイムオーバー
-Time's up!
+Time Over
 -----------------------
 <Harold>
 -----------------------
 #低レベルのプロテクトを
 #解除するためのカギね
 #同じモノがあと２つあるはずよ
-It's a low-level protection
-The key to unlocking it
-There should be two more of the same thing
+This key disables a low-level
+protection lock. There should be
+two more just like it.
 -----------------------
 <Harold>
 -----------------------
 #あー、そうそう
 #これを持ったまま外には出ないでね
-Oh, right, right.
-Don't go outside while holding that.
+Oh, and one more thing.
+Don't take that outside with you.
 -----------------------
 <Kyle>
 -----------------------
 #え、なんで？
-What? Why?
+Huh? Why not?
 -----------------------
 <Harold>
 -----------------------
 #こいつ、温度変化に弱いのよ
 #外の吹雪の中に出たら
 #あっという間に、ボロボロよ
-This thing is weak to temperature changes.
-If you go out into the blizzard outside,
-It'll fall apart in no time.
+That thing's sensitive to temperature changes.
+If you took it out into that blizzard,
+it'd fall apart in no time.
 -----------------------
 <Harold>
 -----------------------
 #低レベルのプロテクトを
 #解除するためのカギね
 #同じモノがもう１つあるはずよ
-It's a low-level protection
-The key to unlocking it.
-There should be another one just like it.
+This key disables a low-level
+protection lock. There should be
+one more just like it.
 -----------------------
 <Harold>
 -----------------------
@@ -52,16 +52,15 @@ There should be another one just like it.
 #マスターキーが手に入るわ
 #どこかにあるはずだから
 #探しましょ
-With these three keys,
-I'll get my hands on the master key.
-So let's go find it somewhere.
-Let's search for it.
+With all three keys, I'll be able to get
+the master key. It should be around here
+somewhere, so let's look for it.
 -----------------------
 <Harold>
 -----------------------
 #これが上位レベルの
 #プロテクト解除キーよ
-This is a high-level
+This is the high-level
 protection release key.
 -----------------------
 <Harold>
@@ -69,9 +68,9 @@ protection release key.
 #「マスターキー」「セルキー」「バイオキー」
 #この３つのキーを資材コンテナに使えば
 #プロテクトを解除できるわ
-"Master Key", "Cell Key", "Bio Key"
-If you use these three keys on the material container,
-you can disable the protection.
+"Master Key," "Cell Key," and "Bio Key."
+Use all three on the supply container
+to disable the protection lock.
 -----------------------
 <Harold>
 -----------------------
@@ -79,13 +78,13 @@ you can disable the protection.
 #温度変化に弱いから、外に出ちゃダメよ
 #あんな吹雪の中に出たら
 #一発でボロボロだからね！
-But "Selkie" and "Biokey"
-are sensitive to temperature changes, so you can't take them outside.
-If you go out in that blizzard,
-they'll fall apart instantly!
+But the Cell Key and Bio Key are both
+sensitive to temperature changes, so don't
+take them outside. If you went out in
+that blizzard, they'd fall apart instantly!
 -----------------------
 #特に何もありません
-No, nothing in particular.
+Nothing of note here.
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -102,8 +101,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -115,7 +114,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We look forward to seeing you again.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -145,4 +144,3 @@ notice
 #何もありません
 There's nothing here.
 -----------------------
-

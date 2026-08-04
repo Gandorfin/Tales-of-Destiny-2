@@ -1,58 +1,58 @@
 #クレスタの街・長屋
-Cresta - Townhouse
+Cresta - Townhouses
 -----------------------
 #クレスタの街
-Cresta City
+Cresta
 -----------------------
 #長屋
-Townhouse
+Townhouses
 -----------------------
 NOTICE
 -----------------------
 #<item:00000069>を２個手に入れました
-Acquired 2x <item:00000069>.
+Acquired 2 <item:00000069>.
 -----------------------
 #もう<item:00000069>は無い････
-Lost <item:00000069>...
+No more <item:00000069> left...
 -----------------------
 #旧オベロン社製品
 #『レンズ湯わかし機』がある
-Formerly an Oberon product,
-this is a "Lens Water Heater".
+There's a former Oberon Corporation product here:
+the "Lens Water Heater."
 -----------------------
 #『レンズ湯わかし機』は
 #オベロン社の売れすじ商品
 #だったらしい
-The 'Lens Warmer' is
-a best-selling product from Oberon Corporation.
-Apparently.
+The "Lens Water Heater" was
+apparently one of Oberon Corporation's
+best-selling products.
 -----------------------
 #キレイなトイレだが
 #別に何があるというわけでもない
-It's a clean bathroom, but it's
-not really anything special.
+It's a clean bathroom, but there's
+nothing particularly noteworthy about it.
 -----------------------
 #マーボーカレーだ！
-Mapo Curry!
+It's mapo curry!
 -----------------------
 <Kyle>
 -----------------------
 #う、うまい！
-Ooh, that's good!
+M-man, that's good!
 -----------------------
 #酒がある
 #『アクアヴェイル産にごり酒・神殺し』
 #アルコール度数８０度
-There's sake.
-"Aquaveil Nigori Sake, God Killer.
-Alcohol content: 80%".
+There's some sake here.
+"Aquaveil Cloudy Sake: Godslayer."
+Alcohol content: 80%.
 -----------------------
 <Kyle>
 -----------------------
 #オレはまだお酒は飲めないけど････
 #これは飲まないほうが良い気がする････
-I'm not a drinker yet, but...
-I don't think I should drink this...
+I can't drink yet, but...
+even if I could, I probably shouldn't touch this...
 -----------------------
 #おばあさん
 Elderly Woman
@@ -61,15 +61,15 @@ Elderly Woman
 #ずいぶんと、男まえに
 #なったじゃないかい
 Oh my, <Loni>!
-You've become quite
-the man, haven't you?
+You've grown into quite
+the handsome young man, haven't you?
 -----------------------
 <Loni>
 -----------------------
 #そういうバアさんこそ
 #あいかわらず、イイ女じゃねえか
-This lil' lady is still
-good-looking, isn't she?
+Nah, you're the one who's still
+a fine-lookin' woman, same as ever.
 -----------------------
 #おばあさん
 Elderly Woman
@@ -77,17 +77,17 @@ Elderly Woman
 #ホッホッホ、なに言ってるんだい
 #あたしをクドこうなんて
 #五十年おそいんだよ
-Whoa, whoa, whoa, what are you talking about?
-You can't seduce me,
-You're fifty years too late!
+Hohoho, what's this now?
+Trying to woo me?
+You're fifty years too late for that!
 -----------------------
 #おばあさん
 Elderly Woman
 -----------------------
 #いつまでもガキだと思ってたけど
 #アンタもいい男になったもんだねえ
-I thought you'd always be a kid.
-You've become a good man, haven't you?
+I always thought you'd stay a kid forever,
+but you've become a fine man too, haven't you?
 -----------------------
 #おばあさん
 Elderly Woman
@@ -96,16 +96,16 @@ Elderly Woman
 #あんたの父さんは
 #すごくセクスィーな、イイ男だった････
 <Kyle>,
-Your father was
-a very sexy, handsome man...
+your father was
+such a sexy, handsome man...
 -----------------------
 #おばあさん
 Elderly Woman
 -----------------------
 #あんたも、あたしごのみの
 #イイ男になって、帰ってくるんだよ
-You're going turn out to
-be as good a man as he is.
+You make sure you come back
+a fine man, just my type.
 -----------------------
 #おばあさん
 Elderly Woman
@@ -113,9 +113,8 @@ Elderly Woman
 #あんたたちの旅がうまくいくように
 #アタモニさまに
 #祈っといてあげようかね
-I'll make sure your journey goes well.
-To Lord Atamoni,
-I suppose I should pray for you.
+Shall I pray to Lord Atamoni
+for your journey to go smoothly?
 -----------------------
 #おばあさん
 Elderly Woman
@@ -123,9 +122,9 @@ Elderly Woman
 #そろそろスタンが旅から帰ってくるから
 #<Kyle>も<Loni>も
 #朝からはしゃぎっぱなしだよ
-Stahn will be back from his journey soon,
+Stahn should be back from his journey soon,
 so <Kyle> and <Loni>
-have been excited all morning.
+have been bouncing off the walls all morning.
 -----------------------
 <Reala>
 -----------------------
@@ -138,9 +137,9 @@ Elderly Woman
 #スタンったら<Kyle>をおいて
 #旅に出ちまうなんてねえ
 #まあ無事でなによりだよ
-Once Stan's back, leave <Kyle> behind
-He actually went off on a journey
-Well, as long as he's safe, that's all that matters
+Fancy Stan going off on a journey
+and leaving <Kyle> behind.
+Well, nothing matters more than him coming back safe.
 -----------------------
 #おばあさん
 Elderly Woman
@@ -149,36 +148,36 @@ Elderly Woman
 #あんたも旅してセクスィーな嫁さんを
 #見つけたみたいだねえ
 <Kyle>,
-You've gone traveling too, it seems.
-And found yourself a sexy bride.
+looks like you went traveling too
+and found yourself a sexy little wife.
 -----------------------
 <Kyle>
 -----------------------
 #バ、バアちゃん！
-B-baa-chan!
+G-Granny!
 -----------------------
 <Reala>
 -----------------------
 #もうっ
 #おばあさんったら････
-Ugh...
-You old lady...
+Honestly...
+That old lady...
 -----------------------
 #おばあさん
 Elderly Woman
 -----------------------
 #あんたも女の子とデートするような
 #としごろになったのかい
-Are you old enough
-to be dating a girl?
+My, are you old enough now
+to be taking girls out on dates?
 -----------------------
 #おばあさん
 Elderly Woman
 -----------------------
 #スケベな<Loni>に
 #似ないといいがねえ････
-Pervert <Loni>
-I hope you're not too much of a match.
+Let's hope you don't turn out
+like that pervert <Loni>...
 -----------------------
 #おばあさん
 Elderly Woman
@@ -186,9 +185,9 @@ Elderly Woman
 #<Kyle>、恋人でもさがしに行くのかい？
 #あたしも新たな恋をさがして
 #旅に出ようかねえ
-<Kyle>, are you goin' off to find yourself a lover or somethin'?
-I'm gonna set out to find my own new love!
-Time to hit the road, huh?
+<Kyle>, off to find yourself a lover, are you?
+Maybe I should go on a journey too
+and find myself a new romance!
 -----------------------
 #おばあさん
 Elderly Woman
@@ -196,9 +195,9 @@ Elderly Woman
 #いつになったら
 #白馬の王子さまは
 #あたしをむかえにくるのかねえ
-When will it be
-that my prince charming
-comes to pick me up?
+I wonder when my prince charming
+will finally come
+to sweep me off my feet...
 -----------------------
 #子供
 Child
@@ -206,27 +205,27 @@ Child
 #へっへ～♪
 #見てくれよ、<Kyle>！
 #さっきレンズ拾ったんだ
-Heh...
-Look at this, <Kyle>!
-I just picked up a lens.
+Heh heh~♪
+Check it out, <Kyle>!
+I found a Lens just now!
 -----------------------
 <Loni>
 -----------------------
 #ふ～ん、レンズかぁ
 #俺がガキのころは、オベロン社製の
 #便利なレンズ商品があったなぁ
-Hmm, lenses, huh?
+Hmm, a Lens, huh?
 Back when I was a kid,
-there were some handy lens products around.
+Oberon Corporation made all kinds of handy Lens products.
 -----------------------
 <Loni>
 -----------------------
 #でも、今どきレンズなんか持ってても
 #アタモニ神団にくれてやるしか
 #使い道がないぞ
-But even if you have a lens nowadays,
-the only use for it is to give it to
-the Church of Atamoni.
+But these days, even if you've got a Lens,
+the only thing you can do with it
+is hand it over to the Order of Atamoni.
 -----------------------
 #子供
 Child
@@ -234,17 +233,17 @@ Child
 #さっきひろったレンズ
 #いったい、なにに使おうかなあ？
 #う～ん････
-The lens I just picked up,
-what should I use it for?
-Hmmm... 
+The Lens I just picked up...
+What in the world should I use it for?
+Hmm...
 -----------------------
 #子供
 Child
 -----------------------
 #クレスタじゃ、お金にもかえられないし
 #価値が無いなあ
-It's not even worth
-anything in Cresta.
+You can't even sell it in Cresta.
+It's worthless.
 -----------------------
 #子供
 Child
@@ -252,34 +251,34 @@ Child
 #<Kyle>、英雄ごっこしようぜ！
 #オレがスタン役で
 #<Kyle>はリオン役！
-<Kyle>, let's play hero!
-I'll play Stahn.
-<Kyle>, you play Leon!
+<Kyle>, let's play heroes!
+I'll be Stahn,
+and <Kyle>, you be Leon!
 -----------------------
 <Kyle>
 -----------------------
 #ええ～っ！
 #リオンなんて悪役じゃないか
 #オレ、ヤだよ！
-Oh, no!
-Leon's a villain!
-I don't want to!
+Whaaat?!
+Leon was the bad guy!
+No way, I don't wanna!
 -----------------------
 #子供
 Child
 -----------------------
 #ちぇっ
 #誰もリオン役をやってくれないんだよな
-Tsk.
-No one's going to play Leon, are they?
+Tch...
+Nobody ever wants to play Leon.
 -----------------------
 #子供
 Child
 -----------------------
 #ま、裏切り者の役なんて
 #誰もやりたがらないよなー
-Well, no one wants to play
-the role of a traitor, right?
+Well, yeah.
+Who'd want to play the traitor?
 -----------------------
 #子供
 Child
@@ -287,17 +286,17 @@ Child
 #お、<Kyle>じゃん！
 #おかえり！
 #もう、英雄にはなれたのか？
-Hey, it <Kyle>!
+Oh, hey, it's <Kyle>!
 Welcome back!
-Did you become a hero?
+So, did you become a hero?
 -----------------------
 <Kyle>
 -----------------------
 #英雄････か････
 #どうして、オレは英雄になりたいって
 #思ったんだっけ････
-A hero... huh...
-Why did I want to become a hero?
+A hero, huh...
+Why did I want to become a hero again...?
 What was it that made me think that...
 -----------------------
 #子供
@@ -305,8 +304,8 @@ Child
 -----------------------
 #なんだ、<Kyle>
 #英雄になれたんじゃなかったの？
-What...<Kyle>,
-I thought you were supposed to be a hero.
+Huh? <Kyle>,
+I thought you were gonna be a hero.
 -----------------------
 #子供
 Child
@@ -314,18 +313,16 @@ Child
 #おれ、もう少し大きくなったら
 #<Kyle>みたいに
 #英雄を目指すよ！
-I'm gonna get even bigger!
-Just like <Kyle>,
-I'll aim to become a hero!
+When I get a little bigger,
+I'm gonna be a hero just like <Kyle>!
 -----------------------
 <Kyle>
 -----------------------
 #いや、おまえにはここに残って
 #母さんや、みんなのことを
 #守ってほしいんだ
-No, I need you to stay here
-and protect your mother and
-everyone else.
+No, I want you to stay here
+and protect Mom and everyone else.
 -----------------------
 #子供
 Child
@@ -333,9 +330,9 @@ Child
 #そっか、そうだよな
 #<Kyle>も<Loni>もいなくなっちゃったら
 #オレがクレスタを守らなきゃな
-Oh, yeah, that's right.
-With <Kyle> and <Loni> gone,
-I'll have to protect Cresta.
+Oh yeah, that's right.
+If both <Kyle> and <Loni> are gone,
+I've gotta protect Cresta.
 -----------------------
 #司書
 Librarian
@@ -343,9 +340,8 @@ Librarian
 #四英雄の故郷をたずねて
 #はるばるハイデルベルグから
 #やって来ました
-I came all the way from
-Heidelberg to visit the
-home of the four heroes.
+I came all the way from Heidelberg
+to visit the hometown of the four heroes.
 -----------------------
 #司書
 Librarian
@@ -353,17 +349,16 @@ Librarian
 #英雄にふさわしい大きな街だと
 #思っていましたが
 #なんとも牧歌的なところですね
-I thought it would be a
-big city, fit for a hero,
-but what an idyllic place.
+I expected a grand city befitting heroes,
+but this is quite the pastoral little place.
 -----------------------
 #司書
 Librarian
 -----------------------
 #ルーティさんにお会いしましたが
 #飾らない、ステキな人でした
-I've met with Rutee.
-She is a lovely person.
+I had the pleasure of meeting Rutee.
+She's a wonderful person, so genuine and unpretentious.
 -----------------------
 #司書
 Librarian
@@ -371,41 +366,40 @@ Librarian
 #なるほど、確かにあの人は
 #英雄ですよ
 #素晴らしい女性ですね
-Well, she's a hero,
-that's for sure, and
-a wonderful woman.
+I see now. She truly is a hero,
+and a remarkable woman at that.
 -----------------------
 #司書
 Librarian
 -----------------------
 #さて、そろそろハイデルベルグに
 #帰らなくては
-Well, I'd better get
-back to Heidelberg.
+Well then, I suppose it's time I returned
+to Heidelberg.
 -----------------------
 #司書
 Librarian
 -----------------------
 #余りに居心地が良いので
 #つい長居をしてしまいましたよ
-It was so comfortable that I ended
-up staying there for a long time.
+It was so comfortable here that I ended up
+staying far longer than I intended.
 -----------------------
 #司書
 Librarian
 -----------------------
 #クレスタでの日々は
 #良い思い出になりました
-My days in Cresta were
-filled with good memories.
+My time in Cresta has become
+a cherished memory.
 -----------------------
 #司書
 Librarian
 -----------------------
 #いつの日か
 #また来てみたいですね
-Someday
-I'd love to come back again.
+I do hope
+I can visit again someday.
 -----------------------
 #司書
 Librarian
@@ -413,9 +407,8 @@ Librarian
 #四英雄の本を書こうと思って
 #はるばるハイデルベルグから
 #取材に来ました
-I came all the way from
-Heidelberg to write a book
-about the four heroes.
+I came all the way from Heidelberg
+to gather material for a book about the four heroes.
 -----------------------
 #司書
 Librarian
@@ -423,24 +416,23 @@ Librarian
 #スタンさんとルーティさんに
 #お会いしましたが
 #二人とも、暖かく歓迎してくれましたよ
-To Stan and Rutee
-I did meet him
-They both welcomed us warmly.
+I had the honor of meeting both Stahn and Rutee.
+They welcomed me so warmly.
 -----------------------
 #司書
 Librarian
 -----------------------
 #四英雄とはどんなに偉い人かと思いましたが
 #お二人とも素朴で優しい人でした
-I wondered how great the four heroes were,
-but they were both simple and kind.
+I imagined the four heroes would be terribly grand,
+but the two of them were so humble and kind.
 -----------------------
 #いってらっしゃいませ
 Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald per night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -450,8 +442,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -463,7 +455,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We look forward to your next visit.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -485,8 +477,8 @@ notice
 -----------------------
 #{16}{25}{D2}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{25}{D2}{C0}There was , but
-I couldn't hold it because it was full.
+Found {16}{25}{D2}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------

@@ -1,17 +1,17 @@
 #地上軍拠点
-Ground Forces Base
+Er'ther Base
 -----------------------
 #地上軍拠点
-Ground Forces Base
+Er'ther Base
 -----------------------
 #闇商人
-Dark Merchant
+Black Market Dealer
 -----------------------
 #へへ････兄ちゃんたちよ
 #いい物あるぜ
 #ちょっと見ていかねえか？
-Heh... you guys.
-I've got some good stuff.
+Heh... Hey there, fellas.
+Got some good stuff here.
 Wanna take a look?
 -----------------------
 <Harold>
@@ -19,54 +19,54 @@ Wanna take a look?
 #ちょっとアンタ！
 #それ軍の備品じゃないの!?
 #装備の売買は禁止されてるはずよ！
-Hey you!
+Hey, you!
 Aren't those military supplies!?
-Selling and buying equipment should be forbidden!
+Trading equipment is supposed to be forbidden!
 -----------------------
 #売人
 Merchant
 -----------------------
 #うわ！ヤベエ！
 #軍の関係者かよ！
-Whoa! This is bad!
-Is that someone from the military?
+Whoa! Crap!
+Is she with the military!?
 -----------------------
 #闇商人
-Dark Merchant
+Black Market Dealer
 -----------------------
 #悪いな兄ちゃん！
 #そのネエチャンの居ない時に
 #また来てくんな！
-My bad, bro!
-While that chick's not around,
-Don't come back here!
+Sorry, bro!
+Come back when that chick ain't around!
+See ya!
 -----------------------
 #へへ････ありがとうよ
 Hehe... thanks.
 -----------------------
 #へへ････またな
-Hehe... See you later.
+Hehe... See you around.
 -----------------------
 #闇商人
-Dark Merchant
+Black Market Dealer
 -----------------------
 #売人
 Merchant
 -----------------------
 #おい、リキュールボトルは
 #いくらだよ？
-Hey, how much is that liquor bottle?
-going to cost?
+Hey, how much for that
+liquor bottle?
 -----------------------
 #闇商人
-Dark Merchant
+Black Market Dealer
 -----------------------
 #へへ････そいつはちょっとばかり
 #値が張るぜ
 #酒の類は貴重なんでね
-Heh... well, that's a bit
-pricey,
-since booze is pretty precious.
+Heh... that one's gonna
+cost ya.
+Booze is hard to come by these days.
 -----------------------
 #売人
 Merchant
@@ -74,9 +74,9 @@ Merchant
 #ちっ、足下みやがって
 #どうせ、これも軍の横流し品
 #なんだろ？
-Tch, looking at my feet.
-Probably just another military surplus item anyway.
-What is it?
+Tch, look at you sizing me up.
+This is just more military surplus,
+isn't it?
 -----------------------
 #売人
 Merchant
@@ -84,49 +84,49 @@ Merchant
 #クソッ、軍人どもめ
 #いつまで俺たち、民間人に
 #こんな暮らしをさせるつもりだ
-Damn it, those military bastards.
-How much longer are they going to make us civilians
-live like this?
+Damn those military bastards.
+How long are they gonna keep
+making us civilians live like this?
 -----------------------
 #売人
 Merchant
 -----------------------
 #地上軍が勝とうが天上軍が勝とうが
 #どっちだって大差ないだろうよ
-It doesn't matter whether the ground forces win or the heavenly forces win.
-Either way, it's hardly a difference.
+Whether the Er'ther win or the Aeth'er win,
+either way, it won't make much difference.
 -----------------------
 #売人
 Merchant
 -----------------------
 #なんでもいいから、とっとと
 #戦争を終わらせてくれ････
-Whatever it is, just hurry up.
-End this war...
+I don't care who wins, just
+end this damn war already...
 -----------------------
 #売人
 Merchant
 -----------------------
 #いよいよ戦争も佳境らしいな
 #軍人ども、慌ててやがるぜ
-The war is finally reaching its climax.
-The soldiers are in a panic.
+Sounds like the war's really heating up.
+The soldiers are scrambling.
 -----------------------
 #売人
 Merchant
 -----------------------
 #別に地上軍が勝たなくてもいいんだ
 #戦争さえ終わってくれれば、それでいい
-I don't necessarily need the ground forces to win.
-As long as the war ends, that's all I care about.
+I don't even need the Er'ther to win.
+As long as the war ends, that's enough for me.
 -----------------------
 #売人
 Merchant
 -----------------------
 #戦争が終わったら、戦犯たちは
 #どうなるんだろうな
-Once the war is over, what will happen to the war criminals?
-I wonder.
+Once the war's over, what happens
+to all the war criminals?
 -----------------------
 #売人
 Merchant
@@ -134,7 +134,7 @@ Merchant
 #悪くて処刑か････よくても
 #カルバレイス辺りに流刑だな
 Worst case, execution... Best case,
-Exile to Calvaris.
+exile somewhere like Calvalese.
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -151,8 +151,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -186,7 +186,7 @@ notice
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{C2}{C0} but
+Found {16}{25}{C2}{C0}, but
 inventory is full already.
 -----------------------
 notice

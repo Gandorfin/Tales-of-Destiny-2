@@ -6,35 +6,35 @@ Dunamis Orphanage
 -----------------------
 #元・<Loni>のベッドだ
 #今はシナモンが使っている
-<Loni>'s old bed.
-Cinnamon is using it now.
+This used to be <Loni>'s bed.
+Cinnamon sleeps here now.
 -----------------------
 #昔のテストがしまわれていた
 #<Loni>：数学３５点
 #<Kyle>：歴史２８点
-Old test papers are here.
-<Loni>: Math - 35 Points
-<Kyle>: History - 28 Points
+Old test papers are stashed away here.
+<Loni>: Math, 35 points
+<Kyle>: History, 28 points
 -----------------------
 <char:000003E8>
 -----------------------
 #これは！
-This is...!
+What's this?!
 -----------------------
 NOTICE
 -----------------------
 #いろいろのクイズ問題を見つけた！
-Found all sorts of quiz questions!
+Found all kinds of quiz questions!
 -----------------------
 NOTICE
 -----------------------
 #クイズ本に新しいジャンルが追加されました
-A new category has been added to the quiz books!
+A new category was added to the quiz book!
 -----------------------
 #『レンズ科学読本・不思議パワーを解明せよ』
 #なにやらあやしげな本が置かれている
-The Lens Science Primer: Unraveling the Mysterious Power
-Some rather dubious-looking books are on display.
+'Lens Science Primer: Unlocking the Power of Mystery'
+Some rather suspicious-looking books are lying here.
 -----------------------
 #トニア
 Tonya
@@ -42,9 +42,9 @@ Tonya
 #もう、<Kyle>ってば
 #歩きながら眠らないでよ
 #ゾンビみたいで、こわいでしょ！
-Hey, <Kyle>.
-Stop sleep walking.
-You look like a zombie and it's scary!
+Geez, <Kyle>...
+Don't sleep while you're walking!
+You look like a zombie, and it's scary!
 -----------------------
 #トニア
 Tonya
@@ -52,24 +52,24 @@ Tonya
 #ムニャムニャ････
 #オナカ････へったぁ････
 #もっと食べたいなぁ････
-Mmmm, Mmmm....
-Ma, hey....
-'m still hungry....
+Mmm, mmm...
+My tummy... rumbling...
+Wanna eat more...
 -----------------------
 #トニア
 Tonya
 -----------------------
 #やっぱり、<Kyle>は
 #本物の英雄をめざすんだね････
-After all, <Kyle>
-Is aiming to be a real hero....
+So <Kyle> really is
+aiming to become a true hero...
 -----------------------
 <Kyle>
 -----------------------
 #ごめんな、トニア
 #さびしい想いをさせるけど････
-I'm sorry, Tonya
-I know you're a bit lonely....
+Sorry, Tonya.
+I know I'm making you feel lonely...
 -----------------------
 #トニア
 Tonya
@@ -77,8 +77,8 @@ Tonya
 #ん、だいじょうぶ
 #ルーティやみんながいるから････
 #あたしは、さびしくないよ
-Hmm, It's fine.
-Because of Rutee and everyone else,
+Mm, it's okay.
+Rutee and everyone are here, so...
 I'm not lonely.
 -----------------------
 #トニア
@@ -87,15 +87,15 @@ Tonya
 #ガンバってね、<Kyle>！
 #ルーティが悲しむようなこと
 #しちゃダメだかんね！
-Dummy, <Kyle>!
-Don't do things that
-make Rutee sad!
+Good luck, <Kyle>!
+Don't do anything
+that'd make Rutee sad, okay?!
 -----------------------
 #ユニー
 Yuni
 -----------------------
 #<Loni>が帰ってきてうれしいなー
-I'm glad <Loni> is back!
+I'm so glad <Loni>'s back!
 -----------------------
 #ユニー
 Yuni
@@ -104,8 +104,8 @@ Yuni
 #<Kyle>がこんな時間に起きるなんて
 #めずらしいね！
 Huh?
-I can't believe <Kyle>'s awake
-at this hour. That's weird!
+I can't believe <Kyle>'s up
+at this hour. That's rare!
 -----------------------
 <Kyle>
 -----------------------
@@ -113,31 +113,31 @@ at this hour. That's weird!
 #ちゃんと、ニンジンも残さないで
 #食べてるだろ････
 That's not true...
-I'm sure you've eaten all
-the carrots you could...
+I bet you've been eating your carrots
+without leaving any behind...
 -----------------------
 #ユニー
 Yuni
 -----------------------
 #<Kyle>、まだ
 #寝ぼけてるみたいだね････
-<Kyle>, you look like
-you're still sleepwalking.
+<Kyle>, you still seem
+pretty out of it...
 -----------------------
 #ユニー
 Yuni
 -----------------------
 #ムニャムニャ････
 #おしっこ～････
-Munya Munya...
-Pee~...
+Mmm, mmm...
+Gotta pee...
 -----------------------
 #ユニー
 Yuni
 -----------------------
 #ふわぁ････あれぇ？
 #<Kyle>、おでかけするの？
-Fuwaa...huh?
+Yaaawn... huh?
 <Kyle>, are you going out?
 -----------------------
 <Kyle>
@@ -145,9 +145,9 @@ Fuwaa...huh?
 #････ああ
 #しばらく、留守にするんだ
 #いい子にしててくれよな
-...Oh.
-I'm going away for a while.
-You be good, okay?
+...Yeah.
+I'll be away for a while.
+Be good while I'm gone, okay?
 -----------------------
 #ユニー
 Yuni
@@ -155,9 +155,9 @@ Yuni
 #ふたりとも
 #いってらっしゃ～い････
 #ふわぁ････
-You two
-Have a safe trip~...
-Sigh...
+You two...
+have a safe trip~...
+Yaaawn...
 -----------------------
 #ユニー
 Yuni
@@ -165,7 +165,7 @@ Yuni
 #ねえ、みてみて！
 #このスカート
 #あたしが作ったんだよ！
-Hey, look! Look!
+Hey, look, look!
 This skirt...
 I made it myself!
 -----------------------
@@ -174,9 +174,9 @@ I made it myself!
 #ほー、こりゃたいしたもんだ
 #ユニーは、将来
 #いいお嫁さんになるな！
-Wow, that's great!
-Yunie, you're going
-to be a great wife!
+Well, well! That's impressive!
+Yuni, you're gonna make
+a fine wife someday!
 -----------------------
 #ユニー
 Yuni
@@ -184,8 +184,8 @@ Yuni
 #えへへ～★
 #みんなの服、あたしが作ってるんだよ
 #<Loni>にも、なにか作ったげようか？
-Hehehe~★
-I'm making clothes for everyone.
+Ehehe~★
+I make clothes for everyone, you know.
 Can I make something for <Loni> too?
 -----------------------
 #ユニー
@@ -194,16 +194,15 @@ Yuni
 #そうだ！　<Loni>に
 #あたしとおそろいのスカートを
 #作ってあげるよ！
-That's it! I'll make one for <Loni>.
-a skirt that matches mine,
-I'll sew it up for you!
+I know! I'll make <Loni>
+a matching skirt, just like mine!
 -----------------------
 <Loni>
 -----------------------
 #いや
 #スカートはちょっと････
-No way
-The skirt is a bit...
+Uh...
+a skirt's a bit...
 -----------------------
 #ユニー
 Yuni
@@ -211,9 +210,8 @@ Yuni
 #ね！　ね！　<Loni>にも
 #あたしとおそろいのスカート
 #作ってあげるよ！
-It's a match! Even for <Loni>,
-a skirt just like mine.
-I'll make you one too!
+Hey! Hey! I'll make <Loni>
+a matching skirt too!
 -----------------------
 #シナモン
 Cinnamon
@@ -221,18 +219,18 @@ Cinnamon
 #へっへ～！
 #おれ、さっきの冒険で
 #レンズ拾っちゃった～！
-Heh~!
-I picked up a lens on
-our adventure just now!
+Heh heh~!
+I picked up a Lens
+on our adventure just now!
 -----------------------
 <Loni>
 -----------------------
 #なんだよ、そんなにレンズを集めて
 #アタモニ神団にでも
 #寄付するのか？
-What, you're going to collect
-lens and donate them to the
-Church of Atamoni?
+What, you collecting that many Lens to
+donate to the Order of Atamoni
+or something?
 -----------------------
 #シナモン
 Cinnamon
@@ -240,9 +238,8 @@ Cinnamon
 #ちがうよ、このレンズを
 #おカネにかえて
 #ルーティにあげるんだ！
-Not wrong, this lens is
-exchange it for money
-giving it to Rutee!
+Nope! I'm gonna trade this Lens
+for money and give it to Rutee!
 -----------------------
 #シナモン
 Cinnamon
@@ -250,9 +247,9 @@ Cinnamon
 #このレンズを
 #おカネにかえて
 #ルーティにあげるんだ！
-This lens,
-exchange it for money,
-and give it to Rutee!
+I'm gonna trade this Lens
+for money and give it
+to Rutee!
 -----------------------
 #シナモン
 Cinnamon
@@ -260,7 +257,7 @@ Cinnamon
 #これだけレンズがあったら
 #この建物を、お城みたいに
 #できるだろ！
-If I had lots of lens,
+If I had this many Lens,
 I could make this building
 look like a castle!
 -----------------------
@@ -270,9 +267,9 @@ Cinnamon
 #お～い、<Kyle>
 #だいじょうぶか？
 #なんだか、フラフラしてるぞ
-Hey, <Kyle>.
-Are you all right?
-You look a little dizzy.
+Hey, <Kyle>!
+You okay?
+You're kinda wobbling around.
 -----------------------
 <Kyle>
 -----------------------
@@ -283,8 +280,8 @@ You look a little dizzy.
 -----------------------
 #････眠りながら歩けるってのも
 #才能だよな････
-...Being able to sleep
-walk is also a talent...
+...Being able to walk
+while asleep takes talent, too...
 -----------------------
 #シナモン
 Cinnamon
@@ -292,9 +289,9 @@ Cinnamon
 #お～い、<Kyle>
 #だいじょうぶか？
 #なんだか、フラフラしてるぞ
-Hey, <Kyle>.
-Are you all right?
-You look a little dizzy.
+Hey, <Kyle>!
+You okay?
+You're kinda wobbling around.
 -----------------------
 #シナモン
 Cinnamon
@@ -318,18 +315,18 @@ Cinnamon
 #おれ、もう少し大きくなったら
 #<Kyle>みたいに
 #英雄を目指すよ！
-I'm gonna get bigger!
-Just like <Kyle>,
-I'll aim to be a hero!
+When I get a little bigger,
+I'm gonna be a hero
+just like <Kyle>!
 -----------------------
 <Kyle>
 -----------------------
 #････いや、おまえにはここに残って
 #母さんや、みんなのことを
 #守ってほしいんだ
-No, I want you to
-stay here and protect
-mom and everyone else.
+...No, I want you to stay
+here and protect Mom
+and everyone else.
 -----------------------
 #シナモン
 Cinnamon
@@ -339,7 +336,7 @@ Cinnamon
 #おれが、ここを守らなきゃ････
 Oh yeah, that's right...
 <Kyle> and <Loni> aren't here,
-so I have to protect this place. 
+so I've gotta protect this place...
 -----------------------
 #シナモン
 Cinnamon
@@ -347,9 +344,8 @@ Cinnamon
 #ふたりとも、孤児院のことは
 #おれに任せてくれよ
 #しっかりと、守るからさ
-Both of you, about the orphanage,
-leave it to me.
-I'll protect them properly.
+You two, leave the orphanage to me.
+I'll protect it properly.
 -----------------------
 #バジル
 Basil
@@ -357,16 +353,16 @@ Basil
 #モンスターに会った時
 #ただ、ふるえていました････
 #ボクは、おくびょう者です････
-When I encountered monsters
-I was just trembling...
-I am a coward...
+When I ran into monsters,
+I just stood there trembling...
+I'm such a coward...
 -----------------------
 <Kyle>
 -----------------------
 #バジルは、バジルで
 #いいところがたくさんあるさ
-Basil is Basil,
-He's got plenty of good points.
+Basil's got plenty of good points
+just by being Basil.
 -----------------------
 #バジル
 Basil
@@ -375,10 +371,10 @@ Basil
 #他人の事はわかっても
 #自分の事って意外と
 #わからないんですよねぇ････
-Being true to myself...
-I may understand others well,
-but surprisingly enough,
-when it comes to myself...
+Being true to myself, huh...
+I can understand other people,
+but when it comes to myself,
+it's surprisingly hard...
 -----------------------
 #バジル
 Basil
@@ -386,25 +382,24 @@ Basil
 #あいたた、<Kyle>さん
 #ひっぱらないでくださいよ
 #ボク、これから朝の仕事が････
-Ouch, <Kyle>.
-Don't pull on me.
-I got work in the morning....
+Ow! <Kyle>, please
+don't pull on me!
+I've got morning chores to do...
 -----------------------
 <Kyle>
 -----------------------
 #それよりも
 #レンズを手に入れるのが先だろ
 #早く行こうぜ、<Loni>････
-Look.
-There's a Lens in that direction.
-Let's go take a look, <Loni>....
+Anyway, we've gotta get that Lens first.
+C'mon, <Loni>...
 -----------------------
 <Loni>
 -----------------------
 #おい････
 #俺はこっちだ････
-Hey....
-I'm coming....
+Hey...
+I'm over here...
 -----------------------
 #バジル
 Basil
@@ -413,14 +408,14 @@ Basil
 #ひっぱらないでくださいよぅ
 #<Kyle>さん････
 Aaahn!
-Don't pull me!
+Please don't pull on me,
 <Kyle>...
 -----------------------
 #バジル
 Basil
 -----------------------
 #うぅん････まだねむいよぉ････
-Mmm.... Still sleepy....
+Mmm... I'm still sleepy...
 -----------------------
 #バジル
 Basil
@@ -429,16 +424,16 @@ Basil
 #ボク、ひょっとして
 #寝坊したんですか!?
 Whoa, <Kyle> is actually awake!
-You didn't happen to
-oversleep, did you!?
+Wait, did I oversleep
+or something!?
 -----------------------
 #バジル
 Basil
 -----------------------
 #ボク、ひょっとして
 #3夢でも見てるのかな････
-I think that
-I might be dreaming....
+Maybe I'm still dreaming
+or something...
 -----------------------
 #バジル
 Basil
@@ -446,16 +441,16 @@ Basil
 #あっ、<Kyle>さんだ
 #おかえりなさい！
 #冒険もいいけど、ムリは禁物ですよ
-Oh, it's <Kyle>.
+Oh, it's <Kyle>!
 Welcome back!
-Adventures are great, but don't push yourself too hard.
+Adventures are great, but don't overdo it, okay?
 -----------------------
 <Kyle>
 -----------------------
 #････母さんとおなじこと
 #言うなよ････
-....That's the same thing,
-Mom would say....
+...That's the same thing
+Mom would say...
 -----------------------
 #バジル
 Basil
@@ -463,9 +458,9 @@ Basil
 #だって、<Kyle>さん
 #無鉄砲で、行きあたりばったりで
 #もう、ドキドキハラハラですよ！
-Because, <Kyle>.
-You're always so recklace.
-Running off in excitement!
+Because, <Kyle>,
+you're so reckless and impulsive,
+you've got me all worried sick!
 -----------------------
 #バジル
 Basil
@@ -474,8 +469,8 @@ Basil
 #無鉄砲で、行きあたりばったりで
 #もう、ドキドキハラハラですよ！
 <Kyle>,
-You're so reckless, just going wherever the wind takes you!
-I'm all worked up and on edge already!
+you're so reckless and impulsive,
+you've got me all worried sick!
 -----------------------
 #ソルト
 Salt
@@ -483,18 +478,18 @@ Salt
 #<Kyle>、傷だらけだよ
 #たまには、部屋で本でも
 #読んでたら？
-<Kyle>, you're all scratched up.
-Why don't you go to your room and
-read a book sometime?
+<Kyle>, you're covered in scratches.
+Why don't you stay in your room
+and read a book sometime?
 -----------------------
 <Kyle>
 -----------------------
 #読書もいいけど
 #おひさまの下で遊ぶのも
 #楽しいぜ
-Reading's great too,
-But playing out in the sun
-is fun too.
+Reading's great and all,
+but playing outside in the sun
+is fun too!
 -----------------------
 #ソルト
 Salt
@@ -503,8 +498,8 @@ Salt
 #ひとりで、本を読むのが
 #好きだもん････
 No... I'm fine.
-I prefer reading books on my own
-...it's just what I like.
+I like reading books
+all by myself...
 -----------------------
 #ソルト
 Salt
@@ -513,7 +508,7 @@ Salt
 #ひとりで、本を読むのが
 #好きだもん････
 I'm fine.
-I just like reading books
+I like reading books
 all by myself...
 -----------------------
 #ソルト
@@ -521,16 +516,16 @@ Salt
 -----------------------
 #<Kyle>、はやく
 #ハミガキしておいでよ
-<Kyle>, hurry up!
-Go brush your teeth.
+<Kyle>, hurry up
+and brush your teeth.
 -----------------------
 <Kyle>
 -----------------------
 #う～ん････、それじゃ
 #ハミガキセットを買ってこなきゃ････
 #Ｚｚｚ････
-Mmmm...I'll have to get
-the toothpaste then...
+Mmm... guess I'll have to
+go buy a toothbrush set...
 Zzz...
 -----------------------
 #ソルト
@@ -539,9 +534,9 @@ Salt
 #<Kyle>、ハミガキの前に
 #顔をあらったほうが
 #いいかも････
-<Kyle>, before brushing your teeth
-You might want to wash your face first
-It's probably better that way...
+<Kyle>, you might want
+to wash your face first
+before brushing your teeth...
 -----------------------
 #ソルト
 Salt
@@ -550,8 +545,8 @@ Salt
 #よかった、ボク
 #怖い夢をみたんだ････
 Oh, <Kyle>...
-Good, I thought I'm
-having a scary dream.
+Thank goodness. I had
+a scary dream...
 -----------------------
 <Kyle>
 -----------------------
@@ -559,16 +554,16 @@ having a scary dream.
 #ここには、みんないるじゃないか
 #怖いことなんて、ないだろ？
 Why?
-Everyone here with us,
-So it couldn't be that scary, could it?
+Everyone's here with us.
+Nothing scary could happen, right?
 -----------------------
 #ソルト
 Salt
 -----------------------
 #うん････わかってるよ････
 #わかってるけど････
-Yeah.... I know....
-I know, but....
+Yeah... I know...
+I know, but...
 -----------------------
 #ソルト
 Salt
@@ -576,27 +571,27 @@ Salt
 #ボクと仲良くしてくれるのは
 #<Kyle>だけだもん
 #どうせみんなは････
-But you're the only one
-that tried to me friends with me <Kyle>.
-Anyway, everyone....
+You're the only one
+who's nice to me, <Kyle>.
+Everyone else just...
 -----------------------
 <Kyle>
 -----------------------
 #なに言ってんだ
 #おまえの方から寄っていけば
 #みんな、受け入れてくれるぞ
-What are you saying?
-If you try to go to them, 
-I'm sure they will understand.
+What're you talking about?
+If you reach out to them,
+everyone'll welcome you.
 -----------------------
 <Kyle>
 -----------------------
 #オレだって、いつまでも
 #ここにいるわけじゃないんだぜ
 #自分で、なんとかしないとな
-I'm not gonna stay here forever,
+I'm not gonna be here forever,
 you know.
-Gotta figure something out on my own.
+You've gotta figure this out yourself.
 -----------------------
 #ソルト
 Salt
@@ -604,9 +599,8 @@ Salt
 #そうだよね････
 #<Kyle>の言うとおりだ
 #ボク、がんばってみるよ････
-That's true....
-As you say, <Kyle>,
-"I'll do my best...."
+Yeah... you're right, <Kyle>.
+I'll try my best...
 -----------------------
 <Kyle>
 -----------------------
@@ -619,16 +613,16 @@ Salt
 #<Kyle>
 #早起きしてどこかに行くの？
 #危ないトコに、行かないでね
-<Kyle>,
-Are you going somewhere early in the morning?
-Don't go to any dangerous places.
+<Kyle>, you're up early.
+Going somewhere?
+Don't go anywhere dangerous.
 -----------------------
 <Kyle>
 -----------------------
 #心配するなよ
 #オレはだいじょうぶさ
-Don't worry,
-I'll stay safe.
+Don't worry.
+I'll be fine.
 -----------------------
 #ソルト
 Salt
@@ -636,17 +630,17 @@ Salt
 <Kyle>
 #あまり、危ないトコには
 #行かないでね
-Don't go to places that are too dangerous,
-okay?
+Please don't go anywhere
+too dangerous, okay?
 -----------------------
 <Loni>
 -----------------------
 #こいつの面倒は
 #この<Loni>兄ちゃんが見てるから
 #安心しろよ！
-Don't worry.
-Big Brother <Loni> will watch over him.
-Rest assured!
+Don't worry!
+Big Brother <Loni>'s got
+his back, so relax!
 -----------------------
 #ソルト
 Salt
@@ -654,9 +648,9 @@ Salt
 #<Kyle>、なんだか
 #本の中の英雄みたい
 #カッコいいな････
-<Kyle> is just like
-a hero in a storybook.
-So cool....
+<Kyle>, you're just like
+a hero from a storybook.
+So cool...
 -----------------------
 #ソルト
 Salt
@@ -665,17 +659,17 @@ Salt
 #ボク、最近ユニーといっしょに
 #畑の仕事をしてるんだよ
 Hey!
-I've been working in the
-fields with Uni lately.
+I've been helping Uni
+with the fieldwork lately.
 -----------------------
 <Kyle>
 -----------------------
 #そうかあ！
 #仕事も遊びも、みんなといっしょだと
 #楽しいだろ？
-Oh, I see!
-Working and playing with everyone 
-is fun, right?
+Oh yeah?
+Work and play are both more fun
+when you're with everyone, right?
 -----------------------
 #ソルト
 Salt
@@ -689,8 +683,8 @@ Salt
 #そろそろ、キュウリとトマトの
 #収穫時期なんだ
 #楽しみだな！
-Soon, it'll be time to harvest
-the cucumbers and tomatoes.
+The cucumbers and tomatoes
+should be ready to harvest soon.
 I can't wait!
 -----------------------
 #いってらっしゃいませ
@@ -708,8 +702,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.

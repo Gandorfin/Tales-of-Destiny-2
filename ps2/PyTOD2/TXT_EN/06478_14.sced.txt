@@ -1,5 +1,5 @@
 #チェリク・宿屋
-Cheric Inn
+Cherik Inn
 -----------------------
 #チェリク
 Cherik
@@ -9,33 +9,33 @@ NOTICE
 #何の意味があるのか分かりませんが
 #<item:0000000A>が置いてあります
 #持っていきますか？
-I'm not sure what it means,
-<item:0000000A>There's  left behind.
-Do you want to take it?
+I don't know what the point is, but
+<item:0000000A> is sitting here.
+Will you take it?
 -----------------------
 select
 -----------------------
 #<03:00000000>　もちろん持っていく　
 #　絶対に持っていかない　
-<03:00000000>I'll definitely take it.
-I'm absolutely not taking it.
+<03:00000000> Of course I'll take it.
+No way I'm taking that.
 -----------------------
 NOTICE
 -----------------------
 #<item:0000000A>を手に入れました
 #何だか、人として大切なものを失った気がしました
 <item:0000000A>I obtained .
-It felt as though I had lost something essential to being human.
+Somehow, I feel like I've lost something important to my humanity.
 -----------------------
 NOTICE
 -----------------------
 #人として大切なものを
 #失わずにすんだ気がしました
-The things that are important to me as a person
-I felt like I hadn't lost them
+I feel like I managed to avoid losing
+something important to my humanity.
 -----------------------
 #グミは、もう無い････
-Gum's all gone...
+No more gummies...
 -----------------------
 #グリッド
 Grid
@@ -44,23 +44,22 @@ Grid
 #この俺が『漆黒の翼』のリーダー
 #グリッド様と知った上で話しかけてるのか？
 What's with you?
-I, the leader of the 'Black Wings',
-Do you know who Grid-sama is before speaking to me?
+You mean to tell me you came up and spoke to me
+knowing full well that I am Grid, leader of the 'Black Wings'?!
 -----------------------
 select
 -----------------------
 #<03:00000000>　知っている　
 #　聞いたことがない　
-<03:00000000>I know it.
-I've never heard of it.
+<03:00000000> I know them.
+Never heard of them.
 -----------------------
 #グリッド
 Grid
 -----------------------
 #ふふん、俺は有名人だからな
 #知っていて当然だ！
-Heh heh, I'm a celebrity after all.
-That's to be expected!
+Heh, I'm famous, so of course you'd know!
 -----------------------
 #グリッド
 Grid
@@ -68,9 +67,9 @@ Grid
 #『漆黒の翼』の名は優れた才能を
 #持つ者にのみ与えられる栄誉！
 #それを知らない者が居るわけないのだ！
-The name 'Raven' is given to those with outstanding talent.
-Honor bestowed upon those who possess it!
-There's no way someone wouldn't know that!
+The name 'Black Wings' is an honor granted
+only to those with exceptional talent!
+There's no way anyone wouldn't know that!
 -----------------------
 #グリッド
 Grid
@@ -78,9 +77,9 @@ Grid
 #さあ！　この俺を、あがめるがいい！
 #宿代の寄付金ならいつでも
 #受けつけているぞっ！
-Come on! Worship me!
-For lodging donations,
-we accept them anytime!
+Now then! Worship me!
+Donations to cover lodging costs
+are always welcome!
 -----------------------
 #グリッド
 Grid
@@ -89,8 +88,8 @@ Grid
 #まさかこの世に『漆黒の翼』の名を
 #知らない者がいるとは！
 What! How ignorant!
-Could it be that in this world,
-there are those who don't know the name 'Pitch Black Wings'!
+To think there are people in this world
+who don't know the name 'Black Wings'!
 -----------------------
 #グリッド
 Grid
@@ -99,10 +98,10 @@ Grid
 #絶対不敗の誇り高き義賊
 #『漆黒の翼』のリーダーとは
 #このグリッド様のことだ！
-You better remember this well!
-The invincible, proud righteous thief.
-The leader of the 'Black Wings' is...
-This Grid-sama!
+Listen up, and listen good!
+The invincible, proud righteous thief...
+...leader of the 'Black Wings'...
+...is none other than Grid himself!
 -----------------------
 #グリッド
 Grid
@@ -110,25 +109,24 @@ Grid
 #『漆黒の翼』は今、四英雄並に
 #有名なチームなんだぞ!?
 #しっかり頭に叩き込んでおけよ！
-"The Black Wings" are now on par with the Four Heroes.
-They're a famous team, you know!?
-Make sure to keep that firmly in mind!
+The 'Black Wings' are as famous as the Four Heroes now, you know!?
+Drill that into your thick skull!
 -----------------------
 #グリッド
 Grid
 -----------------------
 #先代は、ヒューゴの野望を打ち砕くべく
 #かの四英雄と共に戦ったという
-The previous generation fought to crush Hugo's ambitions,
-alongside those four heroes.
+The previous generation fought alongside those four heroes
+to crush Hugo's ambitions, or so they say.
 -----------------------
 #グリッド
 Grid
 -----------------------
 #俺はじきに、先代すら超えてみせよう！
 #今のうちに俺の顔をよく覚えておくんだな！
-I'll surpass even the previous generation soon enough!
-You'd best memorize my face while you still can!
+I'll surpass even the previous generation before long!
+You'd best remember my face while you can!
 -----------------------
 #グリッド
 Grid
@@ -136,16 +134,16 @@ Grid
 #さあ！この俺を、あがめるがいい！
 #宿代の寄付金ならいつでも
 #受けつけているぞっ！
-Come on! Worship me!
-If it's a donation for lodging fees,
-I'll accept them anytime!
+Now then! Worship me!
+If it's a donation for lodging costs,
+I'll accept it anytime!
 -----------------------
 #メイド
-maid
+Maid
 -----------------------
 #お客さんがちっとも来なくて
 #とってもヒマですぅ････
-No customers have been coming in at all.
+We haven't had any customers at all...
 I'm so bored...
 -----------------------
 #メイド
@@ -153,16 +151,16 @@ Maid
 -----------------------
 #部屋はガラガラ
 #これじゃ、赤字でつぶれちゃいますぅ
-The room is completely empty.
-At this rate, we'll go bankrupt.
+Every room is empty.
+At this rate, we'll go under...
 -----------------------
 #メイド
 Maid
 -----------------------
 #私が子供の頃
 #チェリクはもっと小さかったのよ
-When I was a kid
-Cherik was much smaller back then
+When I was a child,
+Cherik was much smaller.
 -----------------------
 #メイド
 Maid
@@ -170,9 +168,9 @@ Maid
 #十八年前の戦乱のあと
 #カルバレイス中の難民を受け入れて
 #急成長したの
-After the turmoil eighteen years ago
-Taking in refugees from all over Calvarys
-It grew rapidly.
+After the war eighteen years ago,
+it took in refugees from all over Calvalese
+and grew rapidly.
 -----------------------
 #メイド
 Maid
@@ -180,9 +178,9 @@ Maid
 #子供のころ
 #英雄スタンとオニゴッコをしたのよ
 #良い思い出ね
-When I was a kid
-I played hero with Stan
-What a lovely memory
+When I was a child,
+I played tag with the hero Stahn.
+Such a lovely memory.
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -199,8 +197,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -234,12 +232,11 @@ notice
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{C2}{C0} but
-inventory is full already.
+Found {16}{25}{C2}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

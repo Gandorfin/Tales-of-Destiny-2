@@ -2,62 +2,62 @@
 Heidelberg
 -----------------------
 #ハイデルベルグ
-Heidelburg
------------------------
-#ハイデルベルグ
-Heidelburg
+Heidelberg
 -----------------------
 #ハイデルベルグ
 Heidelberg
 -----------------------
 #ハイデルベルグ
-Heidelburg
+Heidelberg
+-----------------------
+#ハイデルベルグ
+Heidelberg
 -----------------------
 #食材屋はこの角を曲がってすぐ
 #『ルックデリシャス！』
 The ingredient shop is just around this corner.
-'Look Delicious!'
+"Look Delicious!"
 -----------------------
 NOTICE
 -----------------------
 #雪だるまの中から<item:00000003>が
 #出てきました
-<item:00000003> from inside the snowman
-...and steps out.
+<item:00000003> emerges
+from inside the snowman.
 -----------------------
 NOTICE
 -----------------------
 #<item:00000003>を
 #手に入れました
-<item:00000003>'s
-I got it.
+Acquired <item:00000003>.
+Got it.
 -----------------------
 #シェフをかたどった雪だるまだ
 A snowman shaped like a chef.
 -----------------------
 #『ここはハイデルベルグ旧市街
 #　天地戦争の終結後に造られた歴史ある街』
-It's the Old Town of Heidelburg.
-A historic city built after the end of the War of the Heavens and Earth.
+"You are now in the Old Town of Heidelberg,
+a historic district built after the Aeth'er Wars."
 -----------------------
 #『ハイデルベルグ記念公園へお越しの方は
 #　このまま城を左手に見ながら進んで下さい』
-'Those heading to Heidelburg Memorial Park,
-please continue forward with the castle on your left.'
+"Those heading to Heidelberg Memorial Park,
+please continue forward with the castle on your left."
 -----------------------
 #おじさん
 Man
 -----------------------
 #おし、道の雪かきは済んだな！
 #次はうちの雪かきだ！
-Well, the road's snow is cleared!
-Now it's time to clear our snow!
+All right, the road's cleared of snow!
+Now it's time to clear our own!
 -----------------------
 <Reala>
 -----------------------
 #大変そうですね、雪かき････
 #寒くありませんか？
-That looks like a lot of work, shoveling snow...
+That looks like hard work, shoveling all that snow...
 Aren't you cold?
 -----------------------
 #おじさん
@@ -66,9 +66,9 @@ Man
 #な～に、どうせ突っ立ってても寒いんだ
 #同じ寒いなら、体動かしてるほうが
 #なんぼかマシってね！
-What's the point of just standing around in the cold?
-If we're going to be cold anyway,
-it's better to keep moving!
+Eh, standing around doing nothing's just as cold.
+If I'm gonna be cold either way,
+I'd rather be moving my body!
 -----------------------
 #おじさん
 Man
@@ -76,18 +76,18 @@ Man
 #何年か前によ
 #雪があんま降らない年があってな
 #そん時はもう大変だったよ！
-A few years ago,
-there was a year where it barely snowed.
-Things were pretty rough back then!
+A few years back, see,
+there was a year where it barely snowed at all.
+Now that was rough!
 -----------------------
 <Kyle>
 -----------------------
 #なんで、大変なの？
 #雪かきしなくていいから
 #ラクじゃないの？
-Why is it so tough?
-We don't have to shovel snow.
-Isn't that easy?
+Why was it rough?
+You didn't have to shovel snow,
+so wasn't it easier?
 -----------------------
 #おじさん
 Man
@@ -95,9 +95,9 @@ Man
 #いやもう、メシも酒もマズいんだ！
 #やっぱ、カラダ動かさないと
 #ダメだな！
-It's terrible! The food and drink are both awful!
-I guess I really need to get moving.
-This won't do!
+Nah, the food and drink both tasted awful!
+See, if I don't move my body,
+it just doesn't work!
 -----------------------
 #おじさん
 Man
@@ -105,9 +105,9 @@ Man
 #雪かきする！　カラダ動かす！
 #そうすりゃメシも酒もうまい！
 #こうでなくっちゃよぉ！
-Time to shovel snow! Get moving!
+Shovel snow! Move my body!
 That's how you make food and sake taste great!
-Now that's what I call living!
+That's what I'm talking about!
 -----------------------
 #おじさん
 Man
@@ -115,8 +115,8 @@ Man
 #お、おい、なんだありゃあ････！
 #おい、かーちゃん！
 #城が大変だぞ！
-H-hey, what's going on!?
-Hey, Mom!
+H-hey, what's all that about...!
+Hey, Ma!
 The castle is in trouble!
 -----------------------
 #おじさん
@@ -125,9 +125,9 @@ Man
 #城がよ、大変なのは知ってんだけどよ
 #おれっちは雪かきぐらいしか
 #能がないからよ
-The castle, I know it's tough.
-I can barely even shovel snow.
-It's because I'm useless.
+I know the castle's in a bad way,
+but shoveling snow's about all
+I'm good for.
 -----------------------
 #おじさん
 Man
@@ -135,18 +135,18 @@ Man
 #せめて、みんながいつもどおり
 #道を歩けるよう、雪かきしてんのさ
 #ははっ！　しまらねえよな
-At least, so everyone can go about their usual lives
-I'm shoveling snow so they can walk their paths
-Haha! It's endless, isn't it?
+At least I can clear the snow
+so folks can walk their usual paths.
+Haha! It's endless, ain't it?
 -----------------------
 <Nanaly>
 -----------------------
 #そんなことないよ
 #それぞれが、できることをやる
 #ステキなことじゃないか
-No, that's not it.
-That each does what they can.
-Isn't that wonderful?
+That's not true at all.
+Everyone doing what they can do...
+Isn't that a wonderful thing?
 -----------------------
 #おじさん
 Man
@@ -154,9 +154,9 @@ Man
 #ひとつ掘っては、みなのため～♪
 #ふたつ掘っては
 #ウッドロウさまのため～っと！
-One dig for everyone~♪
-Digs two more
-For Lord Woodrow~!
+One scoop for everyone~♪
+Two scoops more
+for Lord Garr~!
 -----------------------
 #おじさん
 Man
@@ -164,9 +164,9 @@ Man
 #ほい、ほい、ほいっ♪
 #雪かき、雪かき、か～きかき♪
 #やらなきゃ、みんな、すってんころり♪
-Heave-ho, heave-ho, ho♪
-Shovel snow, shovel snow, shoveling away♪
-Gotta do it, everyone, tumbling down♪
+Heave, ho, heave-ho♪
+Shoveling snow, shoveling away♪
+Gotta do it, or everyone tumbles down♪
 -----------------------
 #おじさん
 Man
@@ -175,7 +175,7 @@ Man
 #みんな、すってんころりん
 #しちまうからな！
 If nobody's out there shoveling snow,
-everyone'll end up tumbling around,
+everyone'll end up slipping and sliding,
 you know!
 -----------------------
 #若者
@@ -184,9 +184,9 @@ Young Man
 #フ、あなたがたは
 #よその国から来た人ですね
 #歩き方でわかりますよ
-W-wait, you are...
-You're from another country, aren't you?
-I can tell just by the way you walk.
+Heh, you folks are
+from another country, aren't you?
+I can tell by the way you walk.
 -----------------------
 #若者
 Young Man
@@ -204,9 +204,9 @@ Young Man
 #すべらないように歩く
 #ただ、それだけのことが
 #この国ではむずかしいんですよねぇ････
-Don't slip as you walk.
-It's just that simple,
-But it's hard to come by in this country...
+Walking without slipping.
+That's all it is,
+but in this country, that's hard to come by...
 -----------------------
 #若者
 Young Man
@@ -214,8 +214,8 @@ Young Man
 #フ、あなたがたは
 #デート中ですね
 #顔を見ればわかります
-W-well, you two...
-Are on a date.
+Heh, you two...
+are on a date, aren't you?
 I can tell just by looking at your faces.
 -----------------------
 #若者
@@ -225,16 +225,16 @@ Young Man
 #なぜか嫉妬心が
 #ムラムラとわいてきますからね
 When I look at you two,
-I don't know why,
-but jealousy starts to well up inside me.
+for some reason, jealousy
+just wells up inside me.
 -----------------------
 #若者
 Young Man
 -----------------------
 #あぁ････、ボクも
 #はやくカノジョがほしい････
-I see... I want that too.
-I want her to hurry up and get married...
+Ahh... I want a girlfriend too...
+Hurry up and get one...
 -----------------------
 #若者
 Young Man
@@ -242,8 +242,8 @@ Young Man
 #フ、あなたがたは
 #急いでいますね
 #顔を見れば、わかります
-W-well, you all are
-in quite a hurry.
+Heh, you folks
+look like you're in a hurry.
 I can tell just by looking at your faces.
 -----------------------
 #若者
@@ -252,16 +252,16 @@ Young Man
 #ズバリ！
 #トイレをさがして
 #いるのでしょう!?
-Exactly!
-Looking for the restroom
-is it?
+Bingo!
+You're looking for a restroom,
+aren't you!?
 -----------------------
 <Loni>
 -----------------------
 #アホか！
 #お城に急いでるんだ！
-Are you kidding me?!
-I'm in a hurry to get to the castle!
+Are you nuts?!
+We're hurrying to the castle!
 -----------------------
 #若者
 Young Man
@@ -269,9 +269,9 @@ Young Man
 #お城でトイレを借りるんですか？
 #でも、爆発音がしてたし
 #あまり近寄らない方がいいですよ
-Do you borrow a toilet at the castle?
-But there was an explosion sound
-You'd better not get too close
+You're gonna borrow a toilet at the castle?
+But there was an explosion, so
+you'd better not get too close.
 -----------------------
 #若者
 Young Man
@@ -279,8 +279,8 @@ Young Man
 #フ、あなたがたは
 #落ちこんでいますね
 #顔を見れば、わかります
-Th- you all are
-looking downcast.
+Heh, you folks
+look pretty downcast.
 I can tell just by looking at your faces.
 -----------------------
 #若者
@@ -290,15 +290,15 @@ Young Man
 #この寒さで、お腹を痛めた！
 #そうでしょう!?
 Bingo!
-My stomach's killing me in this cold!
-Now you see?
+This cold's given you stomach cramps!
+Am I right!?
 -----------------------
 <Loni>
 -----------------------
 #アホか！
 #お城に急いでるんだ！
-Are you kidding me?!
-I'm in a hurry to get to the castle!
+Are you nuts?!
+We're hurrying to the castle!
 -----------------------
 #若者
 Young Man
@@ -307,8 +307,8 @@ Young Man
 #あなたがたも、お腹が痛いから
 #落ちこんで････うっ！
 It hurts... My stomach hurts...
-You all have stomachaches too,
-I'm depressed... Ugh!
+You all look down because
+your stomachs hurt too... Ugh!
 -----------------------
 #若者
 Young Man
@@ -316,8 +316,8 @@ Young Man
 #フ、あなたがたは
 #やる気に満ちていますね
 #顔を見れば、わかります
-H-You all are
-full of drive.
+Heh, you folks
+are brimming with motivation.
 I can tell just by looking at your faces.
 -----------------------
 #若者
@@ -326,24 +326,24 @@ Young Man
 #ズバリ！
 #今日こそは雪合戦で
 #勝利すると、燃えている！
-Spot on!
-Today's the day I'll win
-a snowball fight! I'm fired up!
+Bingo!
+Today's the day you're fired up
+to win a snowball fight!
 -----------------------
 <Loni>
 -----------------------
 #バカはほっておいて
 #いくぞ、<Kyle>
-I'll leave the idiots alone.
-Let's go, .<Kyle>
+Forget the idiots.
+Let's go, <Kyle>.
 -----------------------
 #若者
 Young Man
 -----------------------
 #ボクも雪合戦がやりたい････
 #でも、ひとりじゃできない････
-I want to have a snowball fight too...
-But I can't do it all by myself...
+I wanna have a snowball fight too...
+But I can't do it by myself...
 -----------------------
 #若者
 Young Man
@@ -351,9 +351,9 @@ Young Man
 #フ、あなたがたは
 #なにかをやりとげた
 #顔を見れば、わかります
-H-You all are
-have accomplished something
-I can tell just by looking at your faces
+Heh, you folks
+look like you've accomplished something.
+I can tell just by looking at your faces.
 -----------------------
 #若者
 Young Man
@@ -361,14 +361,14 @@ Young Man
 #ズバリ！
 #家の雪かきが
 #すべて終わったのでしょう!?
-Spot on!
-The snow shoveling around the house
-is all done, right!?
+Bingo!
+You've finished shoveling snow
+around the house, haven't you!?
 -----------------------
 <Loni>
 -----------------------
 #････いくぞ、<Kyle>
-Alright, let's go, .<Kyle>
+...Let's go, <Kyle>.
 -----------------------
 #若者
 Young Man
@@ -384,8 +384,8 @@ Young Man
 #フ、あなたがたは
 #デート中ですね
 #顔を見ればわかります
-W-well, you two...
-Are on a date?
+Heh, you two...
+are on a date, aren't you?
 I can tell just by looking at your faces.
 -----------------------
 #若者
@@ -393,16 +393,16 @@ Young Man
 -----------------------
 #なにせ、あなたがたを見ていると
 #自然と涙がこぼれてきますからね
-As much as I look at you all,
-I can't help but shed tears.
+When I look at you two,
+tears just start flowing naturally.
 -----------------------
 #若者
 Young Man
 -----------------------
 #あぁ、寒さが身にしみる････
 #彼女がほしいよぉ････
-I'm freezing...
-I want her so bad...
+Ahh, this cold cuts right through you...
+I want a girlfriend so bad...
 -----------------------
 #若者
 Young Man
@@ -410,30 +410,30 @@ Young Man
 #フ、あなたがたは
 #急いでいますね
 #顔を見ればわかります
-Th- you all are
-in a hurry.
+Heh, you folks
+look like you're in a hurry.
 I can tell just by looking at your faces.
 -----------------------
 #若者
 Young Man
 -----------------------
 #ズバリ････！
-Exactly...!
+Bingo...!
 -----------------------
 <Loni>
 -----------------------
 #おい、急ぐぞ<Kyle>！
 #<Harold>が
 #待ってるんだって！
-Hurry it up, <Kyle>!
-<Harold> is
+Hey, hurry it up, <Kyle>!
+<Harold>'s
 waiting for us!
 -----------------------
 #若者
 Young Man
 -----------------------
 #････おねがい、話を聞いて････
-Please... listen to me...
+...Please, listen to me...
 -----------------------
 #若者
 Young Man
@@ -441,8 +441,8 @@ Young Man
 #フ、あなたがたは
 #決意に満ちていますね
 #顔を見ればわかります
-H-hmph, you lot...
-Are full of resolve.
+Heh, you folks
+are filled with resolve.
 I can tell just by looking at your faces.
 -----------------------
 #若者
@@ -451,9 +451,9 @@ Young Man
 #ズバリ！
 #これから世界を滅ぼそうとしている
 #そうでしょう！
-That's it!
-Right now, they're trying to destroy the world.
-That's right!
+Bingo!
+You're about to go
+destroy the world, aren't you!
 -----------------------
 <Kyle>
 -----------------------
@@ -461,8 +461,8 @@ That's right!
 #世界を滅ぼすのを
 #止めにいくんだ！
 It's the opposite!
-To destroy the world,
-I'm going to stop it!
+We're going to stop
+the world from being destroyed!
 -----------------------
 #若者
 Young Man
@@ -470,9 +470,9 @@ Young Man
 #世界を、ほろぼすのを、止める････？
 #････あの、ボク
 #冗談でいったんだけど････
-Stop it from destroying the world...?
+Stop the world... from being destroyed...?
 ...Um, I...
-I was just kidding...
+I was only joking...
 -----------------------
 #若者
 Young Man
@@ -480,8 +480,8 @@ Young Man
 #フ、あなたがたは
 #絶望のどん底にいますね
 #顔を見ればわかります
-Th- you all are
-At the very bottom of despair.
+Heh, you folks look
+like you're at rock bottom.
 I can tell just by looking at your faces.
 -----------------------
 #若者
@@ -491,16 +491,16 @@ Young Man
 #せっかく作った雪だるまが
 #こわされてしまったのでしょう!?
 Bingo!
-All that effort to build a snowman...
-And it got ruined!?
+The snowman you worked so hard to build
+got smashed to pieces, didn't it!?
 -----------------------
 #若者
 Young Man
 -----------------------
 #ボクの雪だるまも、こわされたんだ････
 #くそっ！　悪ガキどもめ････
-My snowman got broken too...
-Damn it! You brats...
+My snowman got smashed too...
+Damn those little brats...
 -----------------------
 #若者
 Young Man
@@ -508,8 +508,8 @@ Young Man
 #フ、あなたがたは
 #すべてを終わらせようとしていますね
 #顔を見ればわかります
-Th- you all are
-trying to bring everything to an end.
+Heh, you folks look
+like you're ready to end it all.
 I can tell just by looking at your faces.
 -----------------------
 #若者
@@ -518,24 +518,24 @@ Young Man
 #ズバリ！
 #だいっ嫌いな相手に
 #ケンカを売りにいくのでしょう!?
-Spot on!
-To someone you absolutely despise
-You're going to pick a fight with them!?
+Bingo!
+You're going to pick a fight
+with someone you absolutely despise, aren't you!?
 -----------------------
 <Harold>
 -----------------------
 #そのとーり！
 #神さま相手に大げんかよ！
-That's right!
-A huge fight against God?!
+That's riiight!
+A huge brawl against God!
 -----------------------
 #若者
 Young Man
 -----------------------
 #神さま相手に、大げんかって････
 #････マジ？
-Fighting God to the death...?
-...Seriously?
+A huge brawl against God...?
+...For real?
 -----------------------
 #若者
 Young Man
@@ -543,8 +543,8 @@ Young Man
 #フ、あなたがたは
 #なにかをさがしていますね
 #顔を見ればわかります
-W-well, you two...
-You're looking for something.
+Heh, you two
+are looking for something.
 I can tell just by looking at your faces.
 -----------------------
 <Kyle>
@@ -553,8 +553,8 @@ I can tell just by looking at your faces.
 #自分にとってかけがえのないものってヤツを
 #さがしてるのさ
 You really get it!
-The irreplaceable thing to me,
-is what I'm looking for.
+I'm searching for something
+irreplaceable to me.
 -----------------------
 #若者
 Young Man
@@ -563,8 +563,8 @@ Young Man
 #ボクとおんなじで雪の中に落としたコイン
 #さがしてるのかと思った････
 Oh, really?
-The coin I dropped in the snow, just like you did.
-I thought you were looking for it...
+I thought you were looking for a coin
+you dropped in the snow, just like me...
 -----------------------
 #若者
 Young Man
@@ -572,8 +572,8 @@ Young Man
 #雪の中にコイン落とすと
 #さがすのとっても大変なんだよね
 #シクシク････
-If you drop a coin in the snow,
-it's really tough to find it.
+When you drop a coin in the snow,
+it's so hard to find...
 *sniffle*...
 -----------------------
 #子供
@@ -582,9 +582,9 @@ Kid
 #ガォ～!!
 #息が白いから
 #ドラゴンみたいでしょ
-Gao~!!
-The breath is white,
-It's like a dragon, right?
+Graaaw!!
+My breath's white, so
+I'm like a dragon, right?
 -----------------------
 #子供
 Kid
@@ -593,31 +593,31 @@ Kid
 #ドラゴンよりも
 #すごいんだぞ
 My old man's breath
-is stronger
-than a dragon's.
+is even stronger
+than a dragon's!
 -----------------------
 #子供
 Kid
 -----------------------
 #におっただけで
 #みんな倒れちゃうんだからな
-Just the smell alone
-will make everyone collapse
+Just smelling it
+makes everyone collapse!
 -----------------------
 <Loni>
 -----------------------
 #そんなこと
 #ジマンするなよ････
-Don't go there
-Don't get your hopes up...
+Don't brag
+about stuff like that...
 -----------------------
 #子供
 Kid
 -----------------------
 #ガォ～!!
 #お口くさい攻撃だぁ
-Gao~!
-What a stinky attack.
+Graaaw!!
+What a stinky breath attack!
 -----------------------
 #子供
 Kid
@@ -625,9 +625,8 @@ Kid
 #うちの父ちゃんの
 #はく息は
 #すっごくお酒くさいんだぞ
-My old man's
-his breath
-smells like booze.
+My old man's breath
+reeks of booze!
 -----------------------
 #子供
 Kid
@@ -635,16 +634,15 @@ Kid
 #父ちゃんの息に火をつけたら
 #きっと燃えるって
 #母ちゃんが言ってたぞ
-If Dad's breath caught fire,
-it would definitely burn.
-Mom said so.
+Mom says if you lit Dad's breath on fire,
+it'd go right up in flames!
 -----------------------
 <Kyle>
 -----------------------
 #いくらなんでも
 #それはウソだよな････
-Come on, that's too much
-That has to be a lie...
+Come on, that's gotta be
+a lie...
 -----------------------
 #子供
 Kid
@@ -652,9 +650,9 @@ Kid
 #うちの父ちゃん
 #大きくなったら
 #ドラゴンになるのかなぁ？
-My old man
-When I grow up
-I wonder if I'll become a dragon?
+My old man...
+I wonder if I'll become
+a dragon when I grow up?
 -----------------------
 #子供
 Kid
@@ -662,7 +660,7 @@ Kid
 #ドラゴンだ！　本物のドラゴンだ！
 #すっげぇ～～～～っ！
 It's a dragon! A real dragon!
-Woahhhhh~!
+Wooaaahhhh~!
 -----------------------
 #子供
 Kid
@@ -670,23 +668,23 @@ Kid
 #ドラゴンだ！　本物のドラゴンだ！
 #すっげぇ～～～～っ！
 It's a dragon! A real dragon!
-Awesome~~~!
+Wooaaahhhh~!
 -----------------------
 <Loni>
 -----------------------
 #こらこら！
 #危ないから、いっちゃダメだ！
 #ここでおとなしくしてろ！
-Hold it right there!
-It's dangerous! Don't go in there!
-Stay put here!
+Hey, hey!
+It's dangerous, so don't go over there!
+Stay put right here!
 -----------------------
 #子供
 Kid
 -----------------------
 #え～、つまんない～！
 #本物のドラゴン、おれも見る～！
-Eh~ boring~!
+Aww, that's no fun~!
 I wanna see a real dragon too~!
 -----------------------
 #子供
@@ -695,17 +693,17 @@ Kid
 #兄ちゃんたちだけ、本物のドラゴン
 #見にいくつもりだな！
 #ズルいぞ！
-You guys are the real deal, brothers.
-I'm going to go check it out!
-That's cheating!
+You guys are just gonna go see
+the real dragon without me!
+That's not fair!
 -----------------------
 #子供
 Kid
 -----------------------
 #ドラゴン、飛んでっちゃった････
 #つまんねえの～！
-The dragon flew off...
-This is boring~!
+The dragon flew away...
+Booooring~!
 -----------------------
 <Nanaly>
 -----------------------
@@ -717,16 +715,16 @@ Dragon?
 #あぁ、飛行竜のことだよ
 #そいつがおそってきて
 #城を、あんなにしちまったんだ
-Oh, you mean the Wyvern.
-It came at us,
-and turned the castle into such a mess.
+Yeah, the Flying Dragon.
+It attacked us and
+made a real mess of the castle.
 -----------------------
 #子供
 Kid
 -----------------------
 #ドラゴン、どこ
 #飛んでっちゃったのかなぁ････
-Dragon, where is it?
+Dragon, where'd it go?
 I wonder if it flew away...
 -----------------------
 #子供
@@ -736,8 +734,8 @@ Kid
 #････って母ちゃんにいったら
 #ゲンコツで殴られたんだ
 That dragon was so cool!
-...or at least that's what I told Mom,
-but she just punched me.
+...is what I told Mom,
+and she punched me for it.
 -----------------------
 #子供
 Kid
@@ -745,17 +743,17 @@ Kid
 #あれって、悪いドラゴンだったの？
 #だからみんな、怒ったり
 #泣いたりしてたの？
-Was that dragon bad?
-That's why everyone was angry,
-and crying?
+Was that a bad dragon?
+Is that why everyone was
+so angry and crying?
 -----------------------
 <Loni>
 -----------------------
 #まぁ、ドラゴンというより
 #乗ってたヤツのほうが
 #ワルなんだけどな
-Well, it's less of a dragon,
-and more about the guy riding it.
+Well, it's less the dragon
+and more the guy riding it.
 He's the real troublemaker.
 -----------------------
 #子供
@@ -764,16 +762,16 @@ Kid
 #おれにとっちゃ、悪いドラゴンより
 #母ちゃんのゲンコツのほうが
 #ずっとコワイや
-For me, it's worse than a bad dragon
-my mom's fist
-is way scarier
+For me, my mom's fist
+is way scarier than
+any bad dragon.
 -----------------------
 #子供
 Kid
 -----------------------
 #お城に来てた、あのドラゴン
 #どこにいっちゃったのかな？
-That dragon who came to the castle.
+That dragon that came to the castle.
 I wonder where it went?
 -----------------------
 <Loni>
@@ -781,9 +779,9 @@ I wonder where it went?
 #あぁ、飛行竜のことか
 #それなら、兄ちゃんたちが
 #海のもくずにしてやったぜ！
-Ah, you mean the Sky Dragon?
-In that case, your brothers...
-I'll turn them into sea foam!
+Yeah, the Flying Dragon.
+In that case, your big brothers
+sent it straight to the bottom of the sea!
 -----------------------
 #子供
 Kid
@@ -791,9 +789,9 @@ Kid
 #えー、ウソだぁ！
 #兄ちゃんに
 #ドラゴンが倒せっこないよ！
-Eh, no way!
-To my brother,
-The dragon won't die!
+Ehh, no way!
+My big brothers
+could never beat a dragon!
 -----------------------
 #子供
 Kid
@@ -801,9 +799,9 @@ Kid
 #あのドラゴンを倒せるのは
 #ウッドロウさまの剣か
 #うちの母ちゃんのゲンコツぐらいさ！
-The only ones who can defeat that dragon are
-Woodrow's sword,
-and my old man's fist!
+The only ones who could beat that dragon
+are Lord Garr's sword
+or my mom's fist!
 -----------------------
 #子供
 Kid
@@ -812,8 +810,8 @@ Kid
 #息が白いから
 #ドラゴンみたいでしょ
 Gao~!!
-The breath is white,
-It's like a dragon, right?
+My breath's all white,
+so it's like I'm a dragon, right?
 -----------------------
 #子供
 Kid
@@ -822,23 +820,23 @@ Kid
 #ドラゴンよりも
 #すごいんだぞ
 My old man's breath
-is stronger
-than any dragon's.
+is even stronger
+than a dragon's.
 -----------------------
 #子供
 Kid
 -----------------------
 #におっただけで
 #みんな倒れちゃうんだからな
-Just by smelling it,
-everyone would collapse.
+Just smell it and
+everyone keels over.
 -----------------------
 <Loni>
 -----------------------
 #そんなこと
 #ジマンするなよ････
-Don't go there
-Stop being so stubborn...
+Don't go bragging
+about stuff like that...
 -----------------------
 #子供
 Kid
@@ -846,7 +844,7 @@ Kid
 #ガォ～!!
 #お口くさい攻撃だぁ
 Gao~!!
-What a stinky attack.
+It's a stinky breath attack!
 -----------------------
 #おじいさん
 Old Man
@@ -854,9 +852,9 @@ Old Man
 #この街が
 #ここまで復興したのも
 #ウッドロウさまのおかげじゃ
-This town,
-has recovered to this extent
-thanks to Lord Woodrow.
+This town's recovery
+to this point is all
+thanks to Lord Garr.
 -----------------------
 #おじいさん
 Old Man
@@ -865,8 +863,8 @@ Old Man
 #まっ先に材木をはこびはじめたのは
 #あのウッドロウさまだった
 In this town reduced to rubble,
-the first to start hauling timber was
-that Lord Woodrow.
+the first to start hauling timber
+was none other than Lord Garr.
 -----------------------
 #おじいさん
 Old Man
@@ -874,16 +872,16 @@ Old Man
 #ワシらは落ちこむヒマもなく
 #あわてて王のあとに
 #つづいたというわけじゃ
-We didn't have time to wallow in despair.
-Hurrying after the King,
-is what happened.
+We didn't even have time to despair.
+We just hurried after the King,
+that's all there was to it.
 -----------------------
 <Kyle>
 -----------------------
 #へえ～
 #なんかいい話だな
-Well~
-Sounds like a nice story.
+Huh~
+That's a nice story.
 -----------------------
 #おじいさん
 Old Man
@@ -891,9 +889,9 @@ Old Man
 #ウッドロウさまのためなら
 #このオイボレの命
 #いつ投げ出してもおしくないわい
-For Lord Woodrow's sake,
-This humble life of mine
-I wouldn't mind throwing it away at any time.
+For Lord Garr's sake,
+this old sack of bones
+would gladly lay down his life.
 -----------------------
 #おじいさん
 Old Man
@@ -901,9 +899,9 @@ Old Man
 #この街から
 #笑い声がたえんのも
 #みなウッドロウさまのおかげじゃ
-This town...
-is where the laughter never ends,
-all thanks to Lord Woodrow.
+The laughter never dying out
+in this town is all
+thanks to Lord Garr.
 -----------------------
 #おじいさん
 Old Man
@@ -911,9 +909,9 @@ Old Man
 #ワシは毎日
 #公園の英雄像に
 #感謝の祈りをささげとる
-I spend my days
-in front of the hero's statue in the park,
-offering prayers of gratitude.
+Every day I go
+to the hero's statue in the park
+and offer prayers of gratitude.
 -----------------------
 #おじいさん
 Old Man
@@ -921,17 +919,17 @@ Old Man
 #おぬしらも「でえと」なんぞ
 #しとるヒマがあったら
 #公園の英雄像に祈るがよい
-You lot are wasting time on 'deeto'...
-If you had any free time at all,
-You'd better pray to the hero statue in the park.
+If you lot have time for 'dates'
+and such nonsense,
+you'd best pray at the hero statue in the park.
 -----------------------
 #おじいさん
 Old Man
 -----------------------
 #まさかウッドロウさまの身に
 #なにかあったんじゃないだろうな！
-Could it be that something happened to Lord Woodrow?
-I hope nothing's wrong with him!
+Surely nothing's happened
+to Lord Garr, has it?!
 -----------------------
 #おじいさん
 Old Man
@@ -939,14 +937,14 @@ Old Man
 #こうなったら
 #ワシの身をていして
 #ウッドロウさまをお守りするしか････!!
-If it comes to this,
-I'll throw my body into it
-and protect Lord Woodrow...!!
+If it comes to that,
+I'll throw this old body of mine
+into protecting Lord Garr...!!
 -----------------------
 <Loni>
 -----------------------
 #やめなってジイさん！
-Don't tell me to stop, old man!
+Calm down, old man!
 -----------------------
 #おじいさん
 Old Man
@@ -954,7 +952,7 @@ Old Man
 #ウッドロウさまは
 #ワシらの希望なんじゃ！
 #なんとしてもお守りせねばならん!!
-Lord Woodrow is
+Lord Garr is
 our hope!
 We must protect him at all costs!!
 -----------------------
@@ -966,7 +964,7 @@ Old Man
 #ウッドロウさまのおかげじゃ
 This town's
 recovery up to this point
-is all thanks to Lord Woodrow.
+is all thanks to Lord Garr.
 -----------------------
 #おじいさん
 Old Man
@@ -976,7 +974,7 @@ Old Man
 #あのウッドロウさまだった
 In this town reduced to rubble,
 the first to start hauling lumber was
-that Lord Woodrow.
+Lord Garr himself.
 -----------------------
 #おじいさん
 Old Man
@@ -984,9 +982,9 @@ Old Man
 #ワシらは落ちこむヒマもなく
 #あわてて王のあとに
 #つづいたというわけじゃ
-We didn't have time to wallow in despair.
-Hurrying after the King,
-is what happened.
+We didn't even have time to despair.
+We simply hurried after our King.
+That's all there was to it.
 -----------------------
 <Kyle>
 -----------------------
@@ -1001,9 +999,9 @@ Old Man
 #ウッドロウさまのためなら
 #このオイボレの命
 #いつ投げ出してもおしくないわい
-For Lord Woodrow's sake,
-I'll give my life.
-It wouldn't hurt to throw it away anytime.
+For Lord Garr's sake,
+this old body of mine
+I'd gladly lay down at any moment.
 -----------------------
 #おばさん
 Woman
@@ -1012,8 +1010,8 @@ Woman
 #うちのビリーちゃんは
 #お城でしっかりやってるのかしら
 Ah...
-Billy over at my place
-I wonder if she's doing well in the castle
+I wonder if my little Billy
+is doing all right at the castle.
 -----------------------
 #おばさん
 Woman
@@ -1021,9 +1019,9 @@ Woman
 #うちのビリーちゃんは
 #今年から
 #お城ではたらくことになったの
-My Billy is...
-starting this year,
-he's going to work in the castle.
+My little Billy
+started working at the castle
+this year, you see.
 -----------------------
 #おばさん
 Woman
@@ -1031,9 +1029,9 @@ Woman
 #ママがいないとこで
 #はたらくなんて
 #とっても心細いにちがいないわ････
-Where Mom is
-Working, huh?
-I'm sure I feel so lonely.
+Working away from his mother...
+He must be so frightened
+without me there...
 -----------------------
 #おばさん
 Woman
@@ -1041,9 +1039,9 @@ Woman
 #お城に行ったら
 #うちのビリーちゃんが泣いてないか
 #見てきてくださらないかしら？
-If I go to the castle,
-I wonder if my Billy is crying.
-Would you mind going to check on him?
+If you're going to the castle,
+would you mind checking on my little Billy?
+I worry he might be crying...
 -----------------------
 #おばさん
 Woman
@@ -1052,8 +1050,8 @@ Woman
 #若い男女が二人っきりで
 #はしたないこと････
 Oh my.
-Just two young people alone together...
-So improper...
+A young man and woman all alone...
+How scandalous...
 -----------------------
 #おばさん
 Woman
@@ -1061,9 +1059,9 @@ Woman
 #うちのビリーちゃんは
 #あなたたちみたいに
 #はしたなくありませんことよ
-My Billy is...
-Unlike you lot,
-Not half-bad at all.
+My little Billy would never
+behave so improperly
+like you two.
 -----------------------
 #おばさん
 Woman
@@ -1071,9 +1069,9 @@ Woman
 #ママ以外の女の人には
 #きっと手をふれたことも
 #ございませんのよ
-To any woman other than Mom,
-I'm sure I've never even touched her hand.
-That's right.
+I'm quite certain he's never
+so much as laid a hand on
+any woman besides his mother.
 -----------------------
 #おばさん
 Woman
@@ -1081,9 +1079,9 @@ Woman
 #うちのビリーちゃん
 #お城のメイドとかに
 #ゆうわくされてないわよね････
-My Billy-chan
-Like the maids at the castle
-She hasn't been seduced, has she...?
+My little Billy...
+He hasn't been seduced by
+the castle maids, has he...?
 -----------------------
 #おばさん
 Woman
@@ -1092,8 +1090,8 @@ Woman
 #お城にはわたしのかわいい
 #ビリーちゃんがいるのに!!
 What happened!?
-My cute Billy is in the castle,
-But Billy-chan is there!!
+My precious little Billy is in that castle!
+How could this be!!
 -----------------------
 #おばさん
 Woman
@@ -1101,16 +1099,16 @@ Woman
 #待ってなさいよ
 #ビリーちゃん！
 #今、ママが助けにいきますからね!!
-Hold on!
-Billy-chan!
-I'm coming to save you right now!!
+Wait for me,
+Billy!
+Mama's coming to save you right now!!
 -----------------------
 <Judas>
 -----------------------
 #今、城に行ったら危険なだけだ････
 #僕たちにまかせてもらおう
-It's just dangerous to go to the castle right now...
-Leave it to us.
+Going to the castle now would only be dangerous...
+Leave this to us.
 -----------------------
 #おばさん
 Woman
@@ -1118,9 +1116,9 @@ Woman
 #待ってなさいよ
 #ビリーちゃん！
 #今、この人たちを行かせますからね!!
-Wait!
-Billy-chan!
-I'm letting these people go right now!!
+Wait right there,
+Billy!
+I'm sending these people to help you right now!!
 -----------------------
 #おばさん
 Woman
@@ -1128,9 +1126,9 @@ Woman
 #ああ！
 #かわいいビリーちゃん
 #どうか無事でいてちょうだい!!
-Ah!
-Cute Billy-chan
-Please stay safe!!
+Oh!
+My precious little Billy,
+please stay safe!!
 -----------------------
 #おばさん
 Woman
@@ -1139,16 +1137,16 @@ Woman
 #うちのビリーちゃんは
 #お城でしっかりやってるのかしら
 Ah...
-Billy over at my place
-I wonder if she's doing well in the castle
+I wonder if my little Billy
+is doing all right at the castle.
 -----------------------
 #グリッド
 Grid
 -----------------------
 #････あぁ･･･････真っ白な････花畑････
 #もうすぐ････そこへ････
-......Ah...... A sea of pure white flowers......
-Soon...... I'll reach that place......
+...Ah...... A field of pure white...... flowers......
+Soon...... I'll be there......
 -----------------------
 #ミリー
 Millie
@@ -1156,9 +1154,9 @@ Millie
 #グリッドのバカが旅費を使いこむから
 #こんな事に････
 #本当に凍え死んじまうよ････
-Grid's an idiot for blowing through our travel expenses.
-To think it would come to this...
-We're going to freeze to death, you know...
+That idiot Grid blew through our travel funds,
+and now look where we are...
+We're going to freeze to death out here...
 -----------------------
 #ジョン
 John
@@ -1169,10 +1167,10 @@ John
 ......
 -----------------------
 #返事が無い　ついでに意識も無いようだ
-No reply... and she seems to have lost consciousness too.
+No reply... and it looks like she's lost consciousness too.
 -----------------------
 #ジニー
-Gene
+Ginny
 -----------------------
 #サンタさんに会えるといいな
 I hope I get to meet Santa.
@@ -1182,15 +1180,15 @@ Saga
 -----------------------
 #私はピアノが欲しいけど････
 #ちょっと無理だよね
-I want a piano...
-That's a bit much, isn't it?
+I want a piano, but...
+that's a bit much, isn't it?
 -----------------------
 <Loni>
 -----------------------
 #ここは････
 #ハイデルベルグか？
 This is...
-Is this Heidelburg?
+Heidelberg?
 -----------------------
 <Judas>
 -----------------------
@@ -1198,15 +1196,15 @@ Is this Heidelburg?
 #どうやら、戻ってきたらしい
 #僕たちの時代に
 It seems so.
-Looks like they've come back.
-In our time
+It looks like we've come back.
+To our own time.
 -----------------------
 <Loni>
 -----------------------
 #ふぅ、やれやれだぜ
 #まったく、大変だったなぁ、<Kyle>
-Well, that's done.
-Geez, that was a lot of work, .<Kyle>
+Phew. Good riddance.
+Man, that was rough, <Kyle>.
 -----------------------
 <Kyle>
 -----------------------
@@ -1223,50 +1221,50 @@ Geez, that was a lot of work, .<Kyle>
 #････ま、まぁ、ともかくだ
 #無事、十年前にもどってきたんだ
 #それは、めでたいことだよな？　な？
-...Well, it's all the same in the end.
-We've safely made it back to ten years ago.
-That's something to celebrate, isn't it? Right?
+...W-well, anyway.
+We made it back to ten years ago, safe and sound.
+That's something to celebrate, right? Right?
 -----------------------
 <Nanaly>
 -----------------------
 #････あんたねぇ
 #もうちょっと
 #空気ってもんを読みなさいよ
-......You know what?
-A little bit more.
-You need to read the room.
+...You know what?
+You could stand to read
+the room a little better.
 -----------------------
 <Loni>
 -----------------------
 #うるせえ！
 #おまえ、用がすんだんなら
 #とっとと帰って････
-Shut up!
-If you're done with what you wanted to say,
-hurry back home...
+Shut it!
+If you're done here,
+then hurry up and go home...
 -----------------------
 <Loni>
 -----------------------
 #ってちょっと待て!?
 #どうしておまえ、ここにいるんだ!?
-Wait a minute!?
-Why are you here!?
+Wait, hold on!?
+Why are YOU here!?
 -----------------------
 <Nanaly>
 -----------------------
 #どうしてもなにも
 #光に巻きこまれて、気づいたら
 #ここにいたんだからさ
-I just couldn't help but...
-Before I knew it, I was swept up in the light,
-And ended up here.
+It's not like I wanted to.
+I got caught up in that light, and before I knew it...
+I was here.
 -----------------------
 <Reala>
 -----------------------
 #ごめんなさい、<Nanaly>！
 #今すぐに、あなただけ未来に････
 I'm sorry, <Nanaly>!
-Now, right away, just you into the future...
+I'll send you back to the future right away...
 -----------------------
 <Nanaly>
 -----------------------
@@ -1274,8 +1272,8 @@ Now, right away, just you into the future...
 #あたしも、あんたたちに
 #ついていくことにするよ
 Hold it!
-I've decided to join you guys as well.
-And I'll be going along with you.
+I've decided to come with you guys.
+I'm joining your group.
 -----------------------
 <Loni>
 -----------------------
@@ -1287,68 +1285,67 @@ And I'll be going along with you.
 #エルレインは、勝手に歴史を変えて
 #自分の都合のいいように
 #しようとしているんだろ？
-Elle is out there changing history on her own,
-twisting it to suit her own needs.
+Elrane's changing history as she pleases,
+twisting everything to suit her own needs.
 That's what she's trying to do, right?
 -----------------------
 <Nanaly>
 -----------------------
 #なら、あたしはそれを止めてみせる！
 #あいつの好き勝手には、させないよ！
-Then I'll stop it!
-I won't let him do whatever he wants!
+Then I'll stop her!
+I'm not letting her have her way!
 -----------------------
 <Judas>
 -----------------------
 #だが、それは結局
 #歴史を変えるということになるぞ？
 But in the end,
-it'll mean changing history.
+that would mean changing history too, wouldn't it?
 -----------------------
 <Judas>
 -----------------------
 #それにだ、この時代の人間ではない
 #おまえがここにいるだけで
 #歴史は、変わってしまっているんだ
-Besides, they aren't from this era.
-Just your being here...
-The course of history has already changed.
+Besides, you're not from this era.
+Just by being here,
+you've already changed the course of history.
 -----------------------
 <Nanaly>
 -----------------------
 #それを言うなら、あたしたちの時代に
 #あんたたちがいたのも
 #マズいんじゃないのかい？
-If you're going to say that, then in our time,
-the fact that you were there as well
-doesn't make things worse, does it?
+If you're gonna say that, then you being in our time
+was just as bad,
+wasn't it?
 -----------------------
 <Loni>
 -----------------------
 #そりゃまぁ、そうだが････
-Well, that's true...
+Well... I mean, I guess so...
 -----------------------
 <Nanaly>
 -----------------------
 #なら、おたがいさまってことだね
 #今さらいったって、はじまらないよ
-Then it's a case of give and take.
-Even if we go there right now, nothing will happen.
+Then we're even.
+No point in complaining about it now.
 -----------------------
 <Nanaly>
 -----------------------
 #というわけで、あたしは
 #あんたたちについていくよ！
 #もう、決めたからね！
-So anyway,
-I'm going to follow you guys!
-That's final!
+So like I said, I'm coming with you!
+I've already decided!
 -----------------------
 <Judas>
 -----------------------
 #････どうする、<Kyle>？
 #おまえが決めろ
-......What will you do, <Kyle>?
+......What do you say, <Kyle>?
 You decide.
 -----------------------
 <Kyle>
@@ -1358,64 +1355,64 @@ You decide.
 #オレはいいよ
 ...Fine.
 If <Nanaly> says so,
-I'm fine with it.
+I'm okay with it.
 -----------------------
 <Nanaly>
 -----------------------
 #じゃ、決まりぃ！
-Well then, it's settled!
+Then it's settled!
 -----------------------
 <Loni>
 -----------------------
 #････まったく、うるさいのが
 #ついてきちまったぜ････ブツブツ････
-......Honestly, you're so noisy.
-I've been dragged into this mess... Mumbling...
+...Great. Now I've got a loudmouth tagging along.
+*grumble grumble*...
 -----------------------
 <Nanaly>
 -----------------------
 #なんか言ったかい、<Loni>！
-You called, <Loni>?
+Did you say something, <Loni>?
 -----------------------
 <Judas>
 -----------------------
 #ともかくだ！
-It's time to fight!
+Enough of this!
 -----------------------
 <Judas>
 -----------------------
 #････まずは、ウッドロウに
 #会いに行くことにするぞ
-...First off,
-I'll go pay Woodrow a visit.
+...First,
+we'll go see Garr.
 -----------------------
 <Judas>
 -----------------------
 #あのあと、ハイデルベルグ城が
 #どうなったのかを、見ないことにはな
-After that, Heidelburg Castle...
-is what I need to see.
+We need to see what became of Heidelberg Castle
+after everything that happened.
 -----------------------
 <Reala>
 -----------------------
 #ねぇ<Kyle>
 #こっちに公園があるみたいよ
-Heeey,<Kyle>
-It looks like there's a park over here.
+Hey, <Kyle>.
+There's a park over here.
 -----------------------
 <Kyle>
 -----------------------
 #公園？
-Park?
+A park?
 -----------------------
 <Reala>
 -----------------------
 #せっかくだから
 #ちょっと休んでいきましょう
 #････ね？
-Since we're here anyway,
+Since we're here,
 let's take a little break.
-...right?
+...Okay?
 -----------------------
 <Kyle>
 -----------------------
@@ -1423,15 +1420,15 @@ let's take a little break.
 #休むんなら、みんなと合流してから
 #暖かいところで････
 But isn't it cold?
-If you're going to rest, wait until we regroup with everyone.
-In a warm place...
+If you want to rest, we should meet up with everyone first
+and find somewhere warm...
 -----------------------
 <Reala>
 -----------------------
 #あら、せっかくのデートの誘い
 #断るつもりなの？
-Oh my, you're actually asking me out on a date.
-Are you planning to turn it down?
+Oh my, are you really going to turn down
+a chance for a date?
 -----------------------
 <Kyle>
 -----------------------
@@ -1450,8 +1447,8 @@ Millie
 -----------------------
 #ああ、寒っ！
 #いったいなんだい、この寒さは！
-Ah, it's cold!
-What on earth is this chill?
+Brrr, it's freezing!
+What in the world is with this cold!
 -----------------------
 #グリッド
 Grid
@@ -1459,17 +1456,17 @@ Grid
 #や････宿代が、払えぬとはな････
 #漆黒の翼ともあろう者が････
 #ふ････不覚････････
-I... I can't even pay my lodging fee...
-A being with wings as dark as midnight...
-Hmph... My oversight...
+To think I can't even pay for lodging...
+One with wings of deepest black...
+How... humiliating...
 -----------------------
 #グリッド
 Grid
 -----------------------
 #････････だが････だんだん････
 #････気持ち････よく････？
-...But... gradually...
-...Does it feel... good...?
+......But... gradually...
+...doesn't it feel... good...?
 -----------------------
 #グリッド
 Grid
@@ -1477,8 +1474,8 @@ Grid
 #････あぁ、見える････
 #････････真っ白な････花畑････
 #････キレイ････だ････
-...Ah, I can see...
-...Pure white... flower fields...
+...Ah, I can see it...
+...A field of pure white flowers...
 ...So beautiful...
 -----------------------
 #ジョン
@@ -1486,7 +1483,7 @@ John
 -----------------------
 #おやびん、寝ちゃダメでやんす！
 #寝たら････寝たら････
-Don't fall asleep on me!
+Boss, you can't fall asleep!
 If you sleep... if you sleep...
 -----------------------
 #ジョン
@@ -1495,55 +1492,55 @@ John
 #･･･あれ？　寝ると
 #どうなるでやんすか？
 #試しに寝てみるでやんす････
-Hmm? If I sleep...
-What happens then?
-I'll try sleeping for now.
+...Huh? What happens
+if I sleep?
+I'll try sleeping for a bit...
 -----------------------
 #サーガ
 Saga
 -----------------------
 #サンタさんなんて
 #ホントはいないんだよ
-Santa Claus isn't
-really real
+Santa Claus doesn't
+actually exist.
 -----------------------
 #ジニー
-Gene
+Ginny
 -----------------------
 #えー、いるよー！
 #だって、ちゃんとプレゼントくれたよ
-Eh, yeah!
-After all, you gave me a proper present.
+What? Yes he does!
+He gave me a present and everything!
 -----------------------
 #ジニー
-Gene
+Ginny
 -----------------------
 #私がお願いした通りに
 #暖かい手袋をくれたもの
-As I requested
-The ones who gave me warm gloves
+He gave me warm gloves,
+just like I asked for.
 -----------------------
 #サーガ
 Saga
 -----------------------
 #それはきっと神父さまなのよ
-It's probably Father.
+That was probably the priest.
 -----------------------
 #サーガ
 Saga
 -----------------------
 #私たちが寝てる間に神父さまが
 #プレゼントを置いていくの
-While we were sleeping, Father...
-is going to leave us presents.
+He leaves presents for us
+while we're asleep.
 -----------------------
 #ジニー
-Ginni
+Ginny
 -----------------------
 #そんなことないもん
 #サンタさんが来るんだもん！
 That's not true!
-Santa Claus is coming!
+Santa Claus is coming, I know it!
 -----------------------
 #サーガ
 Saga
@@ -1552,43 +1549,43 @@ Saga
 Ginny, wait!
 -----------------------
 #巡察官
-Inspector
+Patrolman
 -----------------------
 #ここは巡察隊の詰め所です
 #もし困った事が起きたのなら
 #私たちに声をおかけ下さい
-This is the patrol team's duty station.
-If you find yourself in trouble,
-please call out to us.
+This is the patrol station.
+If anything troubles you,
+please don't hesitate to call on us.
 -----------------------
 #巡察官
-Inspector
+Patrolman
 -----------------------
 #もっとも、ハイデルベルグは平和な街ですからね
 #犯罪などは万にひとつも起きませんから
 #ご安心して観光をお続け下さい
-That said, Heidelburg is a peaceful town.
-Crimes are practically nonexistent there.
-Please continue your sightseeing in peace.
+That said, Heidelberg is a peaceful town.
+Crimes are practically unheard of here.
+Please enjoy your sightseeing without worry.
 -----------------------
 #巡察官
-Inspector
+Patrolman
 -----------------------
 #ここは巡察隊の詰め所です
-This is the patrol team's headquarters.
+This is the patrol station.
 -----------------------
 #巡察官
-Inquisitor
+Patrolman
 -----------------------
 #街の平和は我々が守ります！
 #安心して観光をお続け下さい
-We shall protect the peace of this town!
+We protect the peace of this town!
 Please continue your sightseeing with peace of mind.
 -----------------------
 <char:000003E8>
 -----------------------
 #今は街から出ない方がいい
-It's best to stay in town for now.
+You shouldn't leave town right now.
 -----------------------
 <Reala>
 -----------------------
@@ -1618,8 +1615,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -1631,7 +1628,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We look forward to seeing you again.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -1653,8 +1650,8 @@ notice
 -----------------------
 #{16}{25}{D2}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{25}{D2}{C0}There was , but
-I couldn't carry it because it was full.
+Found {16}{25}{D2}{C0}, but
+couldn't carry it because your inventory is full.
 -----------------------
 notice
 -----------------------

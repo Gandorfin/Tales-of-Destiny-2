@@ -1,27 +1,27 @@
 #ねこにんの村・民家
-The village of Neko-nin's residence
+Katz Village - Residence
 -----------------------
 #ねこにんの村
 Katz Village
 -----------------------
 #民家
-residential house
+Residence
 -----------------------
 #大きくもなければ
 #あまりのっぽでもない
-Not particularly tall,
-nor especially lanky.
+Not too big,
+and not especially lanky.
 -----------------------
 NOTICE
 -----------------------
 #<item:0000000A>を１個手に入れました
-<item:0000000A>You obtained 1 .
+Acquired <item:0000000A>.
 -----------------------
 #戸棚です　何か隠せます
-It's a cabinet. You can hide things in it.
+It's a cabinet. You can hide things inside.
 -----------------------
 #マーボーカレーだ！
-It's Mapo Curry!
+It's Mabo Curry!
 -----------------------
 <Kyle>
 -----------------------
@@ -34,70 +34,70 @@ Huh, this part...
 Ah!!
 -----------------------
 #ねこにん
-Neko-nin
+Katz
 -----------------------
 #あっ！！
 #直したばっかりだったのにひどいニャ････
-Oh!!
-I just fixed it! This is terrible, meow...
+Ah!!
+I just fixed it, and now this... How awful, meow...
 -----------------------
 #ねこにん
-Neko-nin
+Katz
 -----------------------
 #ふかふかマットが
 #やさしく肉球にフィットなのニャ
-The plush mat
-fits gently against my paw pads, meow
+This fluffy mat
+fits my paw pads so gently, meow.
 -----------------------
 #ねこにん
-Neko-nin
+Katz
 -----------------------
 #この村の家は
 #温泉を使って床暖房になってるのニャ
 The houses in this village
-use hot springs to heat the floors, meow.
+use hot springs for underfloor heating, meow.
 -----------------------
 #ねこにん
-Neko-nin
+Katz
 -----------------------
 #ひどいにゃ････
-It's terrible...
+How awful, meow...
 -----------------------
 #ねこにん
-Neko-nin
+Katz
 -----------------------
 #すきま風も気持ち良いニャ～
 #しばらくこのままにするニャ
-The breeze feels so nice~
-Let's leave it like this for a while
+The draft feels so nice, meow~
+I'll leave it like this for a while, meow.
 -----------------------
 #ねこにん
-Neko-nin
+Katz
 -----------------------
 #すきま風が気持ち良いニャ～
-The breeze feels so nice~
+The draft feels so nice, meow~
 -----------------------
 #きぷるち
-Kipuru-chi
+Kipurchi
 -----------------------
 #スーツ破れちゃったので
 #今は修復中ニャ････
-I ruined my suit.
-We're repairing it right now.
+My suit got torn up,
+so I'm repairing it right now, meow...
 -----------------------
 #きぷるち
-kippuru-chi
+Kipurchi
 -----------------------
 #「ねこにんスーツ」
 #急いで直してるニャ
-Neko-nin Suit
-I'm hurrying to fix it, nyaa~
+"Katz Suit"
+I'm hurrying to fix it, meow.
 -----------------------
 #きぷるち
-kipurchi
+Kipurchi
 -----------------------
 #早くフカフカになりたいニャ
-I want to get fluffy soon, nyaa.
+I wanna get all fluffy again soon, meow.
 -----------------------
 #？？？
 ???
@@ -105,55 +105,55 @@ I want to get fluffy soon, nyaa.
 #ムッ！
 #見つかってしまったニャ！
 Hmph!
-I've been spotted, nya!
+I've been found out, meow!
 -----------------------
 #？？？
 ???
 -----------------------
 #セッシャは、ねこにんの忍者
 #すなわち「猫人忍」だニャ
-Sessha is a cat-person ninja.
-That's what 'Neko-nin' means, nyaa.
+This one is a Katz ninja,
+in other words, a "Neko-nin," meow.
 -----------------------
 #猫人忍
-Ninja Catperson
+Neko-nin
 -----------------------
 #ねこにんにんでござるよ
 #ニンニンニンニン････だニャ！
-It's cat garlic!
-Ninnin ninnin... nya!
+I am a Neko-nin, meow.
+Nin-nin nin-nin... meow!
 -----------------------
 #ごり
-Gory
+Gori
 -----------------------
 #この帽子、不評なんだよな････
-This hat isn't very popular, you know...
+This hat's not very popular, you know...
 -----------------------
 #ごり
-Gory
+Gori
 -----------------------
 #もしかして
 #『ネコみみ』じゃないからかなぁ････
 Could it be...
-Maybe it's because I don't have cat ears...
+because I don't have cat ears...?
 -----------------------
 <item:00000C02>
 -----------------------
 #あ、すきまだミャ！
 #わちなら入れるミャ～　行ってくるミャ！
-Oh, there's an opening!
-We can fit through here~ Let's go!
+Ah, there's a gap, meow!
+We can squeeze through here~ Off I go, meow!
 -----------------------
 <item:00000C02>
 -----------------------
 #こんなのがあったニャ
-Look what I found.
+Look what I found, meow.
 -----------------------
 <item:00000C02>
 -----------------------
 #お散歩楽しかったミャ
 #お先にかえるミャ
-I had such a nice walk, meow.
+That was a fun walk, meow.
 We'll head back first, meow.
 -----------------------
 #いってらっしゃいませ
@@ -161,7 +161,7 @@ Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -171,11 +171,11 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
-Have a good night.
+Please rest well.
 -----------------------
 #おはようございます
 Good morning.
@@ -184,7 +184,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We look forward to your next visit.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -206,12 +206,11 @@ notice
 -----------------------
 #{16}{25}{CE}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{25}{CE}{C0}There was , but
-I couldn't carry it because it was full.
+Found {16}{25}{CE}{C0}, but inventory full already.
+You couldn't pick it up.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

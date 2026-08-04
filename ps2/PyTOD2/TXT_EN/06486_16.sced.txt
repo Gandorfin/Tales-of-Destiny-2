@@ -8,73 +8,73 @@ Heat River
 -----------------------
 #増水してる････
 #橋が水に飲まれてしまっているわ
-The water level is rising...
-The bridge has been swallowed by the floodwaters.
+The water's risen so high...
+The bridge is completely submerged.
 -----------------------
 <Kyle>
 -----------------------
 #なんとか渡れないかな････
-I wonder if I can make it across somehow...
+Think we can still make it across somehow...?
 -----------------------
 <Kyle>
 -----------------------
 #アチィィィィ！
 #ダ、ダメだ！
 #歩いて渡るなんて、ムリムリ！
-Ouch!
-N-no good!
-Walking across? Impossible!
+Hot hot hot!
+N-no way!
+Walking across? Not happening!
 -----------------------
 <Kyle>
 -----------------------
 #ねぇ、<Nanaly>
 #カルバレイスじゃ、これが普通なの？
-Hey, .<Nanaly>
-Is this normal in Calvarys?
+Hey, <Nanaly>
+Is this normal for Calvalese?
 -----------------------
 <Nanaly>
 -----------------------
 #いや、これはちょっとおかしいね
 #この川は、普段は
 #ほとんど水が流れてないんだ
-No, this is a bit strange.
-This river usually...
-has very little water flowing through it.
+No, this is definitely weird.
+This river usually
+barely has any water in it.
 -----------------------
 <Nanaly>
 -----------------------
 #それにこの温度････
 #これじゃ、まるで熱湯じゃないか
-And besides, this temperature...
-This is practically boiling water.
+And this temperature...
+It's practically boiling.
 -----------------------
 <Nanaly>
 -----------------------
 #ともかく、原因を調べないと
 #渡れそうもないね
 #川の上流へ、行ってみようか
-Anyway, I need to figure out what's causing this.
-It doesn't look like we can cross.
-Let's head upstream.
+Anyway, we need to find out what's causing it.
+Doesn't look like we can cross like this.
+Let's head upstream and investigate.
 -----------------------
 <Kyle>
 -----------------------
 #遠回りになるけど
 #しかたないか････
-It'll take a detour, but...
-I guess there's no other way...
+It's gonna be a detour, but...
+Guess we don't have a choice...
 -----------------------
 <Kyle>
 -----------------------
 #<Reala>、大丈夫？
-<Reala>, are you okay?
+<Reala>, are you all right?
 -----------------------
 <Reala>
 -----------------------
 #え、えぇ
 #なんとか････ね
-Huh?
-I-I guess so...
+Y-yes...
+Somehow...
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -91,8 +91,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -134,4 +134,3 @@ notice
 #何もありません
 There's nothing here.
 -----------------------
-

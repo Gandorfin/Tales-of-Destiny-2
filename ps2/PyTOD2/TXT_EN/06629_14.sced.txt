@@ -1,11 +1,11 @@
 #カタコンベ
-Catacomb
+Catacombs
 -----------------------
 #カタコンベ
-Catacomb
+Catacombs
 -----------------------
 #カタコンベ
-Catacomb
+Catacombs
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -22,8 +22,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -35,7 +35,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We hope to see you again.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -65,4 +65,3 @@ notice
 #何もありません
 There's nothing here.
 -----------------------
-

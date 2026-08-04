@@ -13,9 +13,8 @@ Priest
 #この街の住人は
 #幸せになりたいとは
 #思わないのでしょうか？
-The people of this town
-don't wish to be happy,
-is that so?
+Do the people of this town
+not want to be happy?
 -----------------------
 #神官
 Priest
@@ -23,9 +22,9 @@ Priest
 #この街には
 #アタモニ神団に寄進する人間が
 #ほとんどいないんですよ
-In this town,
-there are barely any people
-who donate to the Atamoni God Sect.
+Hardly anyone in this town
+makes donations to the
+Order of Atamoni.
 -----------------------
 #神官
 Priest
@@ -33,16 +32,15 @@ Priest
 #みなさん
 #幸せになりたいとは
 #思わないのでしょうかねえ？
-Everyone
-You don't think about wanting to be happy,
-do you?
+Does no one here
+even want to be happy?
 -----------------------
 <Judas>
 -----------------------
 #寄進なんかしなくても
 #じゅうぶん幸せなんだろう
-Even if you don't make a donation,
-you're probably happy enough.
+They're probably happy enough
+without making donations.
 -----------------------
 #神官
 Priest
@@ -50,9 +48,9 @@ Priest
 #どの街でも
 #アタモニ神団に寄進する人々で
 #あふれているというのに････
-In any town,
-with people donating to the Atamoni Sect
-it's overflowing... but still
+Every other town is overflowing
+with people donating to the
+Order of Atamoni...
 -----------------------
 #神官
 Priest
@@ -61,8 +59,8 @@ Priest
 #あなたたち、もしかして････
 #いや、でもまさか････
 Um...
-You guys, could it be that...
-No, but surely not...
+You two couldn't possibly be...
+No, surely not...
 -----------------------
 #神官
 Priest
@@ -71,15 +69,15 @@ Priest
 #お二人でレンズの寄進に
 #いらっしゃったとか････？
 Could it be...
-You two came to donate the lens,
-...is that right?
+the two of you came here
+to donate Lens?
 -----------------------
 <Kyle>
 -----------------------
 #いや
 #ぜんぜんちがうけど････
-No.
-It's completely different though...
+Nope.
+You've got the wrong idea.
 -----------------------
 #神官
 Priest
@@ -87,9 +85,9 @@ Priest
 #ハァ～、やっぱり････
 #ここの住人が
 #寄進にくるわけないか････
-Sigh... I guess so...
-The locals here...
-There's no way they'd come to make offerings...
+*sigh* ...I figured as much.
+The locals would never come
+to make offerings...
 -----------------------
 #神官
 Priest
@@ -97,9 +95,9 @@ Priest
 #どうしてこの街の住人は
 #レンズの寄進に
 #おとずれないんでしょう････
-Why don't the residents of this town
-make their offerings to the Lens
-come visit...?
+Why don't the people here
+ever come to make
+Lens donations...?
 -----------------------
 #神官
 Priest
@@ -107,9 +105,9 @@ Priest
 #な！
 #なんなんですか？
 #あの爆音は!!
-Huh!
-What's going on?
-That explosion sound!!
+Wh... what?!
+What was that?!
+That explosion!!
 -----------------------
 #神官
 Priest
@@ -118,8 +116,8 @@ Priest
 #住人たちがレンズを寄進しないから
 #街が不幸になったんですよ！
 See? I told you so...
-The townsfolk didn't donate their lenses,
-so the town fell into misfortune!
+The townsfolk didn't donate their Lens,
+so misfortune has befallen us!
 -----------------------
 #神官
 Priest
@@ -127,9 +125,8 @@ Priest
 #ああ！
 #わたしたちまで、まきこまれたら
 #どうしよう!!
-Ah!
-If we get dragged into it too,
-What should we do?!
+Ahh!
+What if we get dragged into this too?!
 -----------------------
 #神官
 Priest
@@ -137,17 +134,17 @@ Priest
 #みんなが
 #寄進していれば
 #アタモニ神のご加護があったのにぃ････
-If everyone had
-contributed,
-God Atamoni's blessing would have been upon us...
+If only everyone had donated,
+the blessing of Atamoni
+would have been upon us...
 -----------------------
 #神官
 Priest
 -----------------------
 #何かお困りですか？
 #困った時はいつでも来てください
-Is something bothering you?
-Feel free to come back anytime if you need help.
+Is something troubling you?
+Please come back anytime you need help.
 -----------------------
 #神官
 Priest
@@ -155,9 +152,9 @@ Priest
 #この街には
 #アタモニ神団に寄進する人間が
 #ほとんどいないんですよ
-In this town,
-there are barely any people
-who make donations to the Atamoni Shrine.
+Hardly anyone in this town
+makes donations to the
+Order of Atamoni.
 -----------------------
 #神官
 Priest
@@ -165,9 +162,9 @@ Priest
 #ハァ････
 #このぶんだと、今日も
 #寄進されるレンズはゼロですな
-Haa...
-Given how things are looking today,
-we're getting zero lens donations.
+*sigh*...
+At this rate, we won't get
+a single Lens donation today.
 -----------------------
 #神官
 Priest
@@ -175,17 +172,17 @@ Priest
 #みなさんを幸福にみちびこうと
 #海を渡ってきたのですが････
 #どうやら必要とされてないようで････
-I've come to guide everyone toward happiness,
-crossing over the sea...
-It seems I'm not needed after all...
+I crossed the sea to guide
+everyone toward happiness...
+but it seems I'm not needed here.
 -----------------------
 #神官
 Priest
 -----------------------
 #われわれの布教活動が
 #足りないんですかねえ････
-Our evangelism efforts are
-not enough, I suppose...
+Perhaps our missionary work
+hasn't been enough...
 -----------------------
 #神官
 Priest
@@ -193,9 +190,9 @@ Priest
 #もっとアタモニ神団の
 #すばらしさを
 #みなに広めなくてはなりませんな････
-We must spread
-the greatness
-of the Atamoni God Clan to everyone...
+We must spread the greatness
+of the Order of Atamoni
+to everyone...
 -----------------------
 #神官
 Priest
@@ -203,9 +200,9 @@ Priest
 #住人たちが
 #ここを訪れてくれるように
 #なんとかがんばらないとな････
-The townsfolk
-To visit here,
-I've got to do my best...""
+I must do my best somehow
+to get the townsfolk
+to visit this place...
 -----------------------
 #神官
 Priest
@@ -213,9 +210,9 @@ Priest
 #みなさん
 #どうぞ、だまされたと思って
 #レンズを････
-Everyone
-Go ahead, just pretend you've been fooled
-The lens...
+Everyone, please...
+just pretend you've been fooled
+and donate some Lens...
 -----------------------
 #神官
 Priest
@@ -224,8 +221,8 @@ Priest
 #「だまされた」なんて言葉を使うと
 #ホントにだましてるようだな････
 I mean...
-If you say something like 'I was fooled'
-It really does sound like I'm deceiving you...
+saying 'pretend you've been fooled'
+really makes it sound like a scam...
 -----------------------
 #神官
 Priest
@@ -233,9 +230,9 @@ Priest
 #エルレインさまの
 #お力を目にすれば
 #きっと、わかってもらえるのに････
-Her Highness Elraine's
-If you could see her power,
-I'm sure you'd understand...
+If only they could see
+Lady Elrane's power for themselves...
+I'm sure they'd understand.
 -----------------------
 #神官
 Priest
@@ -243,9 +240,9 @@ Priest
 #この混乱こそ
 #われわれアタモニ神団の価値を
 #住人たちに見せるチャンスだ
-This very chaos is
-a chance to show our value as the Atamoni Divine Order
-to the residents.
+This chaos is our chance
+to show the townsfolk
+just how valuable the Order of Atamoni is.
 -----------------------
 #神官
 Priest
@@ -253,9 +250,9 @@ Priest
 #みなを混乱から救いだせば
 #きっと、これからは
 #神団をたよってくれるようになる！
-If we can save everyone from their confusion,
-I'm sure that from now on,
-people will start to rely on the Shindan!
+If we can save them from this confusion,
+they'll finally start
+relying on the Order!
 -----------------------
 #神官
 Priest
@@ -263,16 +260,15 @@ Priest
 #しかし、どうやって
 #何の力もないわれわれが
 #みなを救いだせるのだろう････
-How are we supposed to...
-We who have no power at all,
-...be able to save everyone...?
+But how are we supposed to save everyone
+when we don't have any power of our own...?
 -----------------------
 <Loni>
 -----------------------
 #あんたたちが
 #混乱してどうすんだよ
-You guys
-What's the point of being confused?
+What's the point of you lot
+getting all confused?
 -----------------------
 #神官
 Priest
@@ -281,8 +277,8 @@ Priest
 #なんとかして
 #住人たちの役にたたねば････
 Ah...
-I have to somehow
-make myself useful to the townspeople...
+I need to find some way
+to be useful to the townspeople...
 -----------------------
 #神官
 Priest
@@ -290,9 +286,9 @@ Priest
 #ハァ････
 #平和なのは良いことなんですが
 #こう平和すぎると退屈で････
-Haa...
-Peace is a good thing,
-but it's getting so peaceful that I'm starting to get bored...
+*sigh*...
+Peace is a wonderful thing,
+but when it's this peaceful, I get bored...
 -----------------------
 #神官
 Priest
@@ -300,24 +296,22 @@ Priest
 #ハァ････
 #このぶんだと、今日も
 #寄進されるレンズはゼロですな
-Haa...
-Given how things are going today,
-we're getting zero lens donations.
+*sigh*...
+At this rate, we'll get zero Lens donations today too.
 -----------------------
 #レギーナ
 Regina
 -----------------------
 #もうすぐ聖誕祭ですね
-The Christmas Festival is almost here.
+The Holy Birth Festival is almost here.
 -----------------------
 #子供たちのプレゼントを
 #用意しましょう
-The children's presents
-Let's prepare them
+Let's get the children's presents ready.
 -----------------------
 #聖誕祭の夜にはサンタさんがやってきて
 #ステキなプレゼントをくれるんですよ
-On Christmas Eve, Santa Claus comes around
+On Holy Birth Eve, Santa Claus comes
 and gives you wonderful presents.
 -----------------------
 #子供たちの夢は大切にしたいですね
@@ -325,205 +319,196 @@ I want to cherish the dreams of children.
 -----------------------
 #この教会にはジニーという
 #女の子がいます
-This church has a girl named Ginny.
-There's a girl.
+There's a girl named Ginny
+who lives in this church.
 -----------------------
 #とてもピュアな子なんですよ
 She's such a pure-hearted girl.
 -----------------------
 #ジニーはとても素直な子なんです
-Ginnie is such an honest kid.
+Ginny is such an honest, good-natured child.
 -----------------------
 #あの子の望みは
 #かなえてあげたいですね
-That girl's wish is...
-I want to grant it.
+I want to grant that girl's wish.
 -----------------------
 #あの子、サンタを本当に信じてるんです
-That girl really believes in Santa.
+That girl truly believes in Santa Claus.
 -----------------------
 #ほほえましいですよね
 It's heartwarming, isn't it?
 -----------------------
 #ジニーは身寄りがなくて、
 #この教会でくらしています
-Ginnie has no family to rely on,
-so she lives in this church.
+Ginny has no family to rely on,
+so she lives here at this church.
 -----------------------
 #とてもいい子なんですよ
-He's such a good kid.
+She's such a good child.
 -----------------------
 #サーガちゃんもいい子なんだけど、
 #ジニーとは正反対なのよ
-Saga-chan is a good kid too,
-but she's the complete opposite of Gine.
+Saga-chan is a good child too,
+but she's the complete opposite of Ginny.
 -----------------------
 #サーガちゃんはしっかりした子なの
-Saga's a pretty solid kid.
+Saga-chan is a very grounded, dependable child.
 -----------------------
 #だけど、もう少し夢を持った方が
 #いいかもしれないわね
-But maybe it's better to hold onto your dreams a little longer.
-I think so.
+But maybe it would be better if she still
+held onto her dreams a little longer.
 -----------------------
 #次の飛脚便は････
 #けっこう先になってしまうわ
-The next courier service will be...
-It'll be quite some time before then.
+The next courier won't come...
+for quite some time.
 -----------------------
 #いい返事をもらえたら
 #いいのですが････
-If I could get a good answer,
-that would be great...
+I hope we get a favorable reply...
 -----------------------
 #私にはジニーに掛けてあげる
 #言葉が見つかりません
-I have something to say to Genie.
-I can't find the words.
+I can't find the right words
+to say to Ginny.
 -----------------------
 #こんな時、フィリアさまなら
 #どうするのでしょうか
-If Lady Philia were here in a time like this,
-what would she do?
+I wonder what Lady Philia would do
+in a situation like this?
 -----------------------
 #フィリアさまから返事は
 #いただけましたか？
-We received a reply from Fillia.
-Did we?
+Have we received a reply from Lady Philia?
 -----------------------
 #ジニーの優しい心を
 #大切にしたいと思います
-Ginnie's gentle heart,
-I want to cherish it.
+I want to cherish Ginny's gentle heart.
 -----------------------
 #フィリアさまのおかげで子供たちの
 #笑顔を失わずにすみました
-For the sake of Philia-sama,
-we were able to keep the children's smiles.
+Thanks to Lady Philia, we were able to
+keep the children smiling.
 -----------------------
 #感謝の極みです
-I am utterly grateful.
+I am deeply grateful.
 -----------------------
 #夢や希望････
 #大人になっても忘れては
 #いけないのですね
 Dreams and hopes...
 Even as adults,
-we shouldn't forget them.
+we must never forget them.
 -----------------------
 #この子は私の一人娘
 #みたいなものですね
-This girl is my only daughter.
-It's kind of like that.
+This child is like a daughter to me.
 -----------------------
 #この教会にはジニーという
 #女の子が住んでいます
-This church has a girl named Ginny.
-She lives in a girl's house.
+A girl named Ginny lives in this church.
 -----------------------
 #この子はバージニア
 #親しい人はジニーと呼んでいます
-This girl is Virginia.
+Her name is Virginia.
 Those close to her call her Ginny.
 -----------------------
 #ジニーはどこに行ったのかしら？
-I wonder where Genny went?
+I wonder where Ginny went?
 -----------------------
 #ジニー
-Gene
+Ginny
 -----------------------
 #私、本当に信じてたの
-I really believed it.
+I really believed in it.
 -----------------------
 #ジニー
-Gene
+Ginny
 -----------------------
 #本当は、もう分かって
 #しまっているの････
-I actually already knew
-all along...
+The truth is, I already knew...
 -----------------------
 #ジニー
-Gene
+Ginny
 -----------------------
 #フィリアさまに期待してしまう
 #自分がいるの････
-I can't help but have high hopes for Philia.
-That I'm here...
+I can't help but hope Lady Philia
+will come through for me...
 -----------------------
 #ジニー
-Gene
+Ginny
 -----------------------
 #サンタさんが本当にいたら
 #良かったなぁ････
-If Santa really existed...
-I'd be so happy...
+I wish Santa were really real...
+That would be so nice...
 -----------------------
 #ジニー
-Genny
+Ginny
 -----------------------
 #事実を教えられて私も
 #少しは大人になれたのかな？
 Now that I've been told the truth,
-have I finally grown up a little?
+maybe I've grown up a little?
 -----------------------
 #ジニー
-Genny
+Ginny
 -----------------------
 #でも、なんか悲しい気持ちなの
-But I feel kind of sad.
+But somehow, I feel sad.
 -----------------------
 #ジニー
-Gene
+Ginny
 -----------------------
 #私もフィリアさんに
 #会ってみたいな
-I also want to meet Phileas-san.
-I'd love to see her.
+I'd love to meet Lady Philia too.
 -----------------------
 #ジニー
-Gene
+Ginny
 -----------------------
 #私はサンタさんを信じます
 I believe in Santa.
 -----------------------
 #ジニー
-Gene
+Ginny
 -----------------------
 #サンタさんを信じられなく
 #なってしまったことが、
 #ちょっと恥ずかしい
-I can't believe Santa...
-It's already done,
-A little embarrassing.
+I'm a little ashamed
+that I stopped believing
+in Santa.
 -----------------------
 #ジニー
-Genny
+Ginny
 -----------------------
 #私、バージニアっていうの
 #ジニーでいいわよ
-I'm Virginia.
-Just call me Ginny.
+My name's Virginia,
+but everyone calls me Ginny.
 -----------------------
 #サーガ
 Saga
 -----------------------
 #私、悪いこと言っちゃった
-I said something bad.
+I said something mean.
 -----------------------
 #サーガ
 Saga
 -----------------------
 #いい返事がもらえるといいわね
-I hope I get a good answer.
+I hope she gets a good reply.
 -----------------------
 #サーガ
 Saga
 -----------------------
 #フィリアさまはなんて
 #言ってたの？
-What did Philia say?
-Was she saying?
+What did Lady Philia say?
 -----------------------
 #サーガ
 Saga
@@ -537,32 +522,31 @@ I was wrong.
 Saga
 -----------------------
 #私も昔は信じていたのに････
-I used to believe it too...
+I used to believe too...
 -----------------------
 #サーガ
 Saga
 -----------------------
 #大切なことを忘れて
 #しまっていたのね
-You were forgetting something important.
-Weren't you?
+I'd forgotten something important.
 -----------------------
 #サーガ
 Saga
 -----------------------
 #フィリアさまの言葉で
 #目が覚めました
-With Philia's words,
-I woke up.
+Lady Philia's words
+opened my eyes.
 -----------------------
 #レギーナ
 Regina
 -----------------------
 #もうすぐ、聖誕祭ね
-{"translations": ["It's almost Christmas."]}}
+Christmas is almost here.
 -----------------------
 #ジニー
-Gene
+Ginny
 -----------------------
 #うん！
 #今年もサンタさん来るかなぁ？
@@ -573,15 +557,15 @@ I wonder if Santa's coming this year too?
 Regina
 -----------------------
 #ジニーは何が欲しいの？
-What does Ginny want?
+What would you like, Ginny?
 -----------------------
 #ジニー
-Genny
+Ginny
 -----------------------
 #えーっと････
 #かわいいリボンかな
-Well...
-A cute ribbon?
+Let's see...
+Maybe a cute ribbon?
 -----------------------
 #レギーナ
 Regina
@@ -589,85 +573,85 @@ Regina
 #そう････
 #きっとサンタさんが
 #プレゼントしてくれるわ
-That's right...
-Santa Claus is surely
-going to give us presents.
+Yes...
+I'm sure Santa
+will bring you a present.
 -----------------------
 #ジニー
-Genny
+Ginny
 -----------------------
 #うん、とっても楽しみ
-I'm really looking forward to it.
+Yeah, I can't wait!
 -----------------------
 #ジニー
-Jinnie
+Ginny
 -----------------------
 #いけない、そういえばサーガちゃんと
 #遊ぶ約束してたんだ
-Oh no, come to think of it, Saga-chan...
-I had promised to hang out.
+Oh no, I just remembered...
+I promised to play with Saga-chan.
 -----------------------
 #ジニー
-Gene
+Ginny
 -----------------------
 #おばあちゃん、行ってくるね
-I'm off, Grandma.
+I'm heading out, Grandma!
 -----------------------
 #レギーナ
 Regina
 -----------------------
 #いってらっしゃい
 #気をつけてね
-See you later!
-Be careful!
+Take care now!
+Have a good day!
 -----------------------
 #レギーナ
 Regina
 -----------------------
 #おやおや、どうしたの？
-Oh my, what's wrong?
+Oh my, what's the matter?
 -----------------------
 #ジニー
-Gene
+Ginny
 -----------------------
 #あのね
 #サーガちゃんがサンタさんは
 #いないって････
 Well, you see...
-Saga-chan says Santa isn't...
-here...
+Saga-chan says Santa
+isn't real...
 -----------------------
 #レギーナ
 Regina
 -----------------------
 #サンタさんはいない？
-Isn't there a Santa?
+Santa isn't real?
 -----------------------
 #ジニー
-Gene
+Ginny
 -----------------------
 #本当は神父さまがプレゼントを
 #くれるんだって････
-Actually, Father was going to give us presents.
-That's what he said...
+She says Father actually
+gives us the presents...
 -----------------------
 #ジニー
-Genny
+Ginny
 -----------------------
 #ねぇ、本当にサンタさんはいないの？
 Hey, is Santa really not real?
 -----------------------
 #ジニー
-Gene
+Ginny
 -----------------------
 #プレゼント、神父さまがくれたの？
 Did Father give you that present?
 -----------------------
 #ジニー
-Ginni
+Ginny
 -----------------------
 #私、迷惑をかけていたの？
-Was I causing you trouble?
+Was I being a bother?
 -----------------------
 #レギーナ
 Regina
@@ -675,12 +659,12 @@ Regina
 #そんなことないですよ
 #ジニーはいつも仕事を
 #手伝ってくれるものね
-That's not true at all.
-Ginnie always does her work,
-and she's always there to help out.
+Not at all, dear.
+Ginny always helps out
+with the work around here.
 -----------------------
 #ジニー
-Gene
+Ginny
 -----------------------
 #でも････
 But...
@@ -691,100 +675,100 @@ Saga
 #そうだわジニー
 #手紙を書いて本当にサンタさんが
 #いるかどうか聞いてみたら？
-That's right, Gene.
-You really wrote that letter to see if Santa Claus is actually real?
-Why don't you ask him?
+I know, Ginny.
+Why don't you write a letter
+and ask if Santa's really real?
 -----------------------
 #ジニー
-Genny
+Ginny
 -----------------------
 #手紙？
 #誰に聞くの？
 A letter?
-Who are you going to ask?
+Who would I ask?
 -----------------------
 #サーガ
 Saga
 -----------------------
 #ストレイライズ大神殿の
 #フィリアさまよ
-The Grand Cathedral of Stray Rize,
-Princess Philia
+Lady Philia, at the
+Straylize Grand Temple.
 -----------------------
 #ジニー
-Gene
+Ginny
 -----------------------
 #フィリアさま？
-Filia-sama?
+Lady Philia?
 -----------------------
 #サーガ
 Saga
 -----------------------
 #そうよ、フィリアさまなら
 #きっと本当のことを教えてくれるわ
-That's right. If it's Lady Philia,
-she'll surely tell us the truth.
+That's right. Lady Philia
+will surely tell you the truth.
 -----------------------
 #レギーナ
 Regina
 -----------------------
 #そうね、それはいい考えだわ
-That's actually a good idea.
+Yes, that's a wonderful idea.
 -----------------------
 #ジニー
-Gene
+Ginny
 -----------------------
 #うん、わかった
-Yeah, got it.
+Okay, I will!
 -----------------------
 #フィリアさんこんにちは
-Hi, Philia.
+Dear Lady Philia,
 -----------------------
 #今日はフィリアさんに教えて欲しいことが
 #あってお手紙を書きました
-Today, I wrote a letter to ask Filia about something
-that I wanted her to teach me
+Today I wrote you a letter
+because there's something I want to ask.
 -----------------------
 #それは聖誕祭の夜に私たちにプレゼントをくれる
 #サンタさんのことです
-It's someone who gives us presents on Christmas Eve
-Santa Claus
+It's about Santa Claus, who gives us
+presents on Christmas Eve.
 -----------------------
 #私は今日まで本当に
 #サンタさんがいると････
-I've truly been until today
-That Santa Claus exists...
+I've always believed that
+Santa was really real...
 -----------------------
 #････････
 ......
 -----------------------
 #ジニー
-Gene
+Ginny
 -----------------------
 #ふうっ、書けた
-Sigh... It's done.
+Whew... All done.
 -----------------------
 #ジニー
-Gene
+Ginny
 -----------------------
 #でも困ったわ
-But I'm in a bit of a bind.
+But now I'm stuck.
 -----------------------
 #ジニー
-Gene
+Ginny
 -----------------------
 #この手紙をフィリアさまに届けるには
 #どうしたらいいのかしら････
-To deliver this letter to Philia...
-I wonder what I should do...?
+I wonder how I can get this letter
+delivered to Lady Philia...
 -----------------------
 #ジニー
-Gene
+Ginny
 -----------------------
 #もしかして、フィリアさんと
 #お知り合いなんですか？{02}
-Could it be that you know Miss Philia?
-Do you happen to know her?{02}
+Could it be that you know
+Lady Philia?{02}
 -----------------------
 select
 -----------------------
@@ -794,22 +778,21 @@ select
 I'm busy right now.
 -----------------------
 #ジニー
-Gene
+Ginny
 -----------------------
 #本当ですか？
 #ありがとうございます！
-Is that true?
-Thank you very much!
+Really?
+Thank you so much!
 -----------------------
 #ジニー
-Gene
+Ginny
 -----------------------
 #それじゃ、この手紙を
 #ストレイライズ大神殿のフィリアさまに
 #届けていただけますか
-In that case,
-to Lady Phileia at the Stray Rize Grand Temple
-could you deliver this letter?
+In that case, could you deliver this letter
+to Lady Philia at the Straylize Grand Temple?
 -----------------------
 notice
 -----------------------
@@ -817,36 +800,35 @@ notice
 Received Ginny's letter.
 -----------------------
 #ジニー
-Gine
+Ginny
 -----------------------
 #それでは、よろしくお願いします
-Well then, I look forward to working with you.
+Thank you so much. I really appreciate it.
 -----------------------
 #ジニー
-Gene
+Ginny
 -----------------------
 #そうですよね、ごめんなさい
-That's right, sorry about that.
+That's right. I'm sorry to ask.
 -----------------------
 #ジニー
-Gene
+Ginny
 -----------------------
 #はぁ、どうしたらいいのかしら････
-Sigh... I wonder what I should do...
+*Sigh*... I wonder what I should do...
 -----------------------
 #ジニー
-Gene
+Ginny
 -----------------------
 #これは、フィリアさまからの
 #お返事ですか？
-This is from Lady Philia.
-Is it a reply?
+Is this a reply from Lady Philia?
 -----------------------
 #ジニー
-Gene
+Ginny
 -----------------------
 #どうも、ありがとう
-Thanks a lot.
+Thank you so much.
 -----------------------
 #サーガ
 Saga
@@ -857,21 +839,21 @@ What's wrong?
 Aren't you going to read it?
 -----------------------
 #ジニー
-Gene
+Ginny
 -----------------------
 #私、心のどこかで返事が帰って
 #こなければいいと思ってたの
-Somewhere in my heart,
-I was hoping you'd come back.
+Deep down, I was hoping
+I wouldn't get a reply...
 -----------------------
 #レギーナ
 Regina
 -----------------------
 #そんなこと言わずに････
-Don't say that...
+Don't say things like that...
 -----------------------
 #ジニー
-Gene
+Ginny
 -----------------------
 #うん、わかってる
 #心配しないでおばあちゃん
@@ -879,151 +861,151 @@ I know.
 Don't worry, Grandma.
 -----------------------
 #親愛なるバージニアへ
-To my beloved Virginia,
+To my dearest Virginia,
 -----------------------
 #お手紙読ませていただきました
-I've read your letter.
+I have read your letter.
 -----------------------
 #本当にサンタさんはいるのですか？
 #という質問ですが
-Is Santa Claus really real?
-That's the question.
+You asked whether Santa Claus is truly real.
 -----------------------
 #もちろんサンタさんはいますよ
-Of course Santa is around.
+Of course Santa Claus exists.
 -----------------------
 #確かにお友達が言うように
 #サンタさんの姿を見た人は
 #いないかもしれません
-As my friend said,
-there may be no one
-who has seen Santa's true form.
+It is true, as your friend said,
+that no one may have ever seen Santa Claus
+with their own eyes.
 -----------------------
 #でも見た人がいなければ
 #本当にいないのでしょうか？
-But if no one saw them,
-is it really true that there are none?
+But if no one has seen him,
+does that mean he truly does not exist?
 -----------------------
 #見えないからサンタさんを
 #信じられないのでしょうか？
-Because you can't see him, Santa Claus...
-Do you find that hard to believe?
+Is he so hard to believe in
+simply because you cannot see him?
 -----------------------
 #私は多くの人たちに思いやりや愛情、
 #夢、希望をあげられたらいいな
 #と思っています
-I hope to be able to give many people compassion and love,
-dreams and hopes.
-That's what I think.
+I hope to give many people compassion, love,
+dreams, and hope.
+That is my wish.
 -----------------------
 #今までも、この先もそうでありたい、
 #そのようにしたいと願います
-I want to remain as I am now, into the future,
-and I wish for it to be so.
+I hope to remain this way forever,
+both now and always.
 -----------------------
 #なぜなら夢や希望のように
 #目には見えない不確かな存在が、
 #私たちには必要だと信じているからです
-Because we believe that things like dreams and hopes,
-those uncertain existences invisible to the eye,
-are necessary for us.
+Because I believe that uncertain things we cannot see,
+like dreams and hope,
+are what we need most.
 -----------------------
 #もしジニーが、サンタさんはいないと
 #思ってしまった瞬間からサンタさんは
 #いなくなってしまうでしょう
-If Ginny were to think that Santa isn't here,
-the moment she does, Santa would
-disappear.
+If you were to decide Santa Claus isn't real,
+Ginny, I believe he would truly vanish
+from that very moment.
 -----------------------
 #この世の中で本当に大切な存在というのは
 #目には見えない存在なのではないかと、
 #私は思うのです
-The truly important beings in this world
-I believe they are things that cannot be seen with the eyes,
-that is what I think.
+I believe that in this world,
+the things most precious to us
+are those we cannot see with our eyes.
 -----------------------
 #見えないから信じられないなんて
 #悲しいことを言わないでください
-Don't say you can't believe it just because you can't see it.
-Please don't say such sad things.
+Please do not say such sad things
+as that you cannot believe because you cannot see.
 -----------------------
 #ジニーが信じてさえくれれば、
 #サンタさんはあなたの心の中で
 #確かに存在することでしょう
-If only Ginny would believe in it,
-Santa Claus is truly there within your heart,
-existing for certain.
+As long as you believe, Ginny,
+Santa Claus will surely live on
+within your heart.
 -----------------------
 #目をつぶって聖誕祭の夜を
 #思い出してみてください
-Close your eyes and let the night of the Nativity Festival
-wash over you in memory
+Close your eyes and remember
+the night of the Holy Birth Festival.
 -----------------------
 #ワクワクした気持ちでベッドにもぐって
 #なかなか寝付けなかった、あの時を
-I dove into bed with excitement
-That time I couldn't fall asleep no matter what
+That excitement as you climbed into bed,
+tossing and turning, unable to sleep.
 -----------------------
 #朝起きて使い古しのくつしたの中に
 #プレゼントを見つけた、あの感激を
-Waking up in the morning, inside my worn-out socks,
-I found that gift, that thrill I felt back then.
+Waking up to find a present inside a worn old sock,
+and the joy I felt in that moment.
 -----------------------
 #それがサンタさんなんですよ
-That's Santa Claus.
+That is Santa Claus.
 -----------------------
 #世界中に子供たちの優しい心がある限り、
 #その心の中で永遠に生き続けるでしょう
-As long as there are kind hearts in children across the world,
-they will live on forever within those hearts.
+As long as kind hearts dwell in children
+all across the world, he will live on forever
+within those hearts.
 -----------------------
 #サンタさんがいつまでもジニーの
 #優しい心と一緒でありますように
-May Santa always stay with Genie,
-alongside his gentle heart.
+May Santa Claus always remain
+with your gentle heart, Ginny.
 -----------------------
 #ジニーの友達になりたい
 #フィリア＝フィリスより
-I want to be friends with Gene.
-More than Philia Phelis.
+Your friend,
+Philia Felice
 -----------------------
 #ジニー
-Gene
+Ginny
 -----------------------
 #うん、そうだよね
-Yeah, that's right.
+Yeah... you're right.
 -----------------------
 #ジニー
-Gene
+Ginny
 -----------------------
 #私、大切なことを忘れて、
 #すごくつまらないことに悩んで････
-I forgot something important,
-worrying about such trivial things...
+I forgot something so important,
+worrying about such silly things...
 -----------------------
 #ジニー
-Gene
+Ginny
 -----------------------
 #<char:000003E8>さん、もう大丈夫です
 #ありがとうございました
-<char:000003E8>You're okay now, .
-Thank you very much.
+<char:000003E8>, I'm all right now.
+Thank you so much for everything.
 -----------------------
 #ジニー
-Gene
+Ginny
 -----------------------
 #フィリアさんのおかげで
 #バージニアは元気になったと、
 #よろしくお伝えください
-Thanks to Philia,
-Virginia has recovered.
-Please convey my regards.
+Please tell Philia
+that Virginia is doing much better
+thanks to her.
 -----------------------
 #教会
-The Church
+Church
 -----------------------
 #いってらっしゃいませ
-Have a good day.
+Take care.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
@@ -1037,8 +1019,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -1050,7 +1032,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We look forward to your next visit.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -1080,4 +1062,3 @@ notice
 #何もありません
 There's nothing here.
 -----------------------
-

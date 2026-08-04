@@ -11,25 +11,25 @@ Harmentz Valley
 Harmentz Valley
 -----------------------
 #ここはハーメンツヴァレーです
-This is Harmentz Valley
+This is Harmentz Valley.
 -----------------------
 #いってらっしゃいませ
 Have a great day!
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-Would you like to spend <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald 
-to stay the night?
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald.
+Would you like to stay the night?
 -----------------------
 #お泊まりになりますか？
-Spend the night?
+Would you like to stay?
 -----------------------
 select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
-No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -41,7 +41,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-Please come again.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -52,23 +52,22 @@ exit-party_togather( short spd )
 notice
 -----------------------
 #{16}{25}{B6}{C0}を手に入れました
-You obtained {16}{25}{B6}{C0}.
+Acquired {16}{25}{B6}{C0}.
 -----------------------
 notice
 -----------------------
 #<item:FFFFFFFF>を手に入れました
-You obtained <item:FFFFFFFF>.
+Acquired <item:FFFFFFFF>.
 -----------------------
 notice
 -----------------------
 #{16}{25}{BE}{C0}がありましたが
 #いっぱいで持てませんでした 
-You received {16}{25}{BE}{C0} but
-your inventory is already full
+Found {16}{25}{BE}{C0}, but
+your inventory is already full.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

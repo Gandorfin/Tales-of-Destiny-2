@@ -1,58 +1,58 @@
 #神のたまご・中層部
-God's Egg - Middle Layer
+Egg of God - Middle Layer
 -----------------------
 #神のたまご・中層部
-God's Egg - Middle Layer
+Egg of God - Middle Layer
 -----------------------
 NOTICE
 -----------------------
 #床にはデリスエンブレムが描かれています
-The floor is inscribed with the Delis emblem.
+A Delis Emblem is drawn on the floor.
 -----------------------
 #プレートに何か書かれている
 There's something written on the plate.
 -----------------------
 #『デリスエンブレム
 #　それは歪められた時間と空間を正すもの』
-The Delis Emblem
-It is that which rectifies distorted time and space.
+'The Delis Emblem
+rectifies distorted time and space.'
 -----------------------
 #『真なる姿を求める者のため
 #　あらゆる世界、あらゆる場所に現れる』
-For those who seek their true form,
-They appear in all worlds, in all places.
+'For those who seek their true form,
+it appears in all worlds, in all places.'
 -----------------------
 NOTICE
 -----------------------
 #プレートに<item:0000002E>をはめ込めそうです
 #持っている<item:0000002E>をはめ込みますか？
-It looks like we can fit <item:0000002E> into the plate.
-Do you want to insert the held <item:0000002E>?
+It looks like <item:0000002E> can fit into the plate.
+Insert the <item:0000002E> you're holding?
 -----------------------
 select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 NOTICE
 -----------------------
 #<item:0000002E>をはめ込みました
-<item:0000002E>I've inserted .
+Inserted <item:0000002E>.
 -----------------------
 NOTICE
 -----------------------
 #プレートがあります
 #このプレートには何かをはめ込めそうです
-There's a plate.
-This plate looks like it can hold something.
+There's a plate here.
+It looks like something can be inserted into it.
 -----------------------
 <Reala>
 -----------------------
 #扉よ開け！
 #真実の道を････！
-Open the door!
+Open, door!
 The path to truth...!
 -----------------------
 notice
@@ -60,11 +60,11 @@ notice
 The treasure chest was a cheap trick.
 -----------------------
 #いってらっしゃいませ
-Have a good day.
+Come again soon.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald per night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -74,11 +74,11 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
-Have a good night.
+Please rest well.
 -----------------------
 #おはようございます
 Good morning.
@@ -87,7 +87,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We look forward to your next visit.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -109,12 +109,11 @@ notice
 -----------------------
 #{16}{25}{D6}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{D6}{C0} but
-inventory is full already.
+Found {16}{25}{D6}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

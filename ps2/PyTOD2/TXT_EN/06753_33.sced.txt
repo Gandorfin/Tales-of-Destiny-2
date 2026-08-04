@@ -1,20 +1,20 @@
 #定期船
-Regular ship
+Passenger Liner
 -----------------------
 #定期船
-Regular ship
+Passenger Liner
 -----------------------
 #おろおろ････
-Flustered...
+I'm so flustered...
 -----------------------
 #････船は沈んでしまうのでしょうか？
-...Will the ship sink?
+...Will this ship sink?
 -----------------------
 #どうすれば････
-How should I...?
+What should I do...?
 -----------------------
 #助けて････
-Help me...
+Someone help me...
 -----------------------
 #乗客
 Passenger
@@ -22,7 +22,7 @@ Passenger
 <Loni>
 -----------------------
 #<Judas>の野郎････
-That guy from <Judas>...
+That bastard from <Judas>...
 -----------------------
 <Reala>
 -----------------------
@@ -32,7 +32,7 @@ That guy from <Judas>...
 <Judas>
 -----------------------
 #僕は････
-I'm...
+I am...
 -----------------------
 <Nanaly>
 -----------------------
@@ -44,9 +44,9 @@ Sailor
 #ボウヤ、気をつけな！
 #嵐、海賊、幽霊船
 #海にキケンはつきものだぜぃ！
-Watch out!
+Watch yourself, lad!
 Storms, pirates, ghost ships...
-Danger's always part of the sea!
+The sea's always got danger in spades!
 -----------------------
 #船員
 Sailor
@@ -54,9 +54,9 @@ Sailor
 #いいかいボウヤ？
 #海の上は、つねにキケンと
 #となりあわせだ
-Ready, boy?
-The sea is always full of danger,
-and close calls.
+You hear me, lad?
+Out on the sea, danger and
+close calls are never far apart.
 -----------------------
 #船員
 Sailor
@@ -65,8 +65,8 @@ Sailor
 #なぜなら、この船には
 #オレさまが乗ってるからだ！
 But there's nothing to fear...
-After all, on this ship,
-I am aboard!
+'Cause this ship's got
+yours truly aboard!
 -----------------------
 #船員
 Sailor
@@ -74,9 +74,9 @@ Sailor
 #このオレさまの姿を見たら
 #どんなキケンも
 #シッポをまいて逃げ出すのさ！
-Behold my magnificent form!
-No matter what danger awaits,
-They'll cower in fear and flee!
+One look at this fine specimen
+and any danger'll turn tail
+and run for the hills!
 -----------------------
 #船員
 Sailor
@@ -84,18 +84,18 @@ Sailor
 #う、海の主が現れたくらいで
 #おおお、オタオタしてたら
 #海の男なんて、つとまらないぜぃ！！
-Just because the Lord of the Sea has appeared...
-Ohhh, if you keep dithering around...
-You can't handle a sea man!!
+I-If ya start panicking
+just 'cause the Lord of the Sea shows up...
+ya got no business calling yourself a seaman!!
 -----------------------
 <Kyle>
 -----------------------
 #すごく
 #オタオタしてるように
 #見えるんだけど････
-So much
-Like I'm panicking
-It seems that way...
+He looks like
+he's panicking pretty hard
+to me, though...
 -----------------------
 #船員
 Sailor
@@ -103,9 +103,9 @@ Sailor
 #お、オレさまが乗ってる船を
 #おそうなんて
 #不幸なヤツもいたもんだ
-What, someone's actually boarding my ship?
-To dare to attack me,
-There really are some unlucky ones out there.
+To think some poor fool would actually
+attack a ship with me on it...
+Now that's what I call unlucky.
 -----------------------
 #船員
 Sailor
@@ -113,18 +113,17 @@ Sailor
 #い、今に見てろよ！
 #オレさまの鋼鉄のモリで
 #海のモクズとなってくれるわ！！
-I-I'll show you!
-With my steel mace,
-You'll become sea monsters!!
+J-Just you wait!
+Once my steel mace is ready,
+I'll turn you into sea chum!!
 -----------------------
 <Loni>
 -----------------------
 #あんたが
 #海のモクズになって
 #どうすんだよ
-You,
-turn into a sea shark
-what are you gonna do?
+What good's it gonna do
+if you turn into sea chum?
 -----------------------
 #船員
 Sailor
@@ -132,8 +131,8 @@ Sailor
 #待ってろよ、怪物！
 #は、ハライタがなおったら
 #やっつけてやるからな！！
-Just you wait, monster!
-When Haraita is healed,
+Just wait, you monster!
+Once my seasickness clears up,
 I'll take care of you!!
 -----------------------
 #船員
@@ -142,9 +141,9 @@ Sailor
 #いやあ
 #まさか、おまえらに
 #先をこされるとは思わなかったぜ
-Well, well
-You don't mean to tell me it was you guys
-I didn't think I'd get bested by you lot
+Well, well...
+Never thought you lot
+would beat me to the punch.
 -----------------------
 #船員
 Sailor
@@ -152,9 +151,9 @@ Sailor
 #まいったぜ！
 #オレさまがかけつけるまえに
 #おまえらが倒しちまうんだもんな
-We're done for!
-Before I show up,
-you guys are gonna get taken out.
+I'm impressed!
+You guys took 'em all out
+before I could even show up.
 -----------------------
 #船員
 Sailor
@@ -162,9 +161,9 @@ Sailor
 #ハライタにさえならなけりゃ
 #海の主の一匹や二匹
 #オレさまがヒネってやったのによぉ
-If it's just rain...
-A few fish out of the sea.
-I twisted them around for you.
+If it weren't for my seasickness,
+one or two Lords of the Sea?
+I'd have wrung their necks for ya!
 -----------------------
 #船員
 Sailor
@@ -172,9 +171,9 @@ Sailor
 #ガハハハハ！
 #今度、海の主があらわれたら
 #オレさまにまかせとけ！
-Ha ha ha ha!
-When the Lord of the Sea appears next time,
-Leave it all to me!
+Gahahaha!
+Next time the Lord of the Sea shows up,
+just leave it to me!
 -----------------------
 #船員
 Sailor
@@ -182,16 +181,16 @@ Sailor
 #もう体調は万全だ！
 #海の主が出ても
 #オレさまが追いはらってやるぜ！
-I'm in perfect condition!
+I'm back in top form!
 Even if the Lord of the Sea appears,
-I'll sweep him away!
+I'll send him packing!
 -----------------------
 #船員
 Sailor
 -----------------------
 #おまえらも強えけど
 #まだ、お子さまだからなあ
-You guys are strong too,
+You lot are plenty strong,
 but you're still just kids.
 -----------------------
 #船員
@@ -201,8 +200,8 @@ Sailor
 #オレさまが、まもってやるぞ
 #ガッハッハ！
 If anything happens,
-I'll protect you.
-Gwahahaha!
+I'll be the one protecting you.
+Gwahaha!
 -----------------------
 #船員
 Sailor
@@ -210,19 +209,19 @@ Sailor
 #ガハハハハ！
 #今度、海の主があらわれたら
 #オレさまにまかせとけ！
-Kuhahaha!
-When the Lord of the Sea appears next time,
-Leave it all to me!
+Gahahaha!
+Next time the Lord of the Sea shows up,
+just leave it to me!
 -----------------------
 #乗客
-passenger
+Passenger
 -----------------------
 #神さまが存在する世界ってのも
 #いいものだよな
 #いつも、見守ってもらえるんだからよ
 It's pretty nice living in a world where gods exist,
 don't you think?
-since they're always watching over us.
+Always having someone watching over us.
 -----------------------
 #乗客
 Passenger
@@ -230,9 +229,9 @@ Passenger
 #この航海だって
 #フォルトゥナ神に見守られているから
 #きっと、無事に着くだろうさ
-This voyage too,
-is watched over by Fortuna.
-We'll surely arrive safely.
+This voyage too
+is blessed by the goddess Fortuna.
+I'm sure we'll arrive safely.
 -----------------------
 #乗客
 Passenger
@@ -240,9 +239,9 @@ Passenger
 #神さまに見守ってもらえるなんて
 #十年前じゃ
 #考えられないことだよな
-To have God watching over us...
+Having a god watch over us...
 Ten years ago,
-it would've been unthinkable.
+that would've been unthinkable.
 -----------------------
 #船員
 Sailor
@@ -250,9 +249,9 @@ Sailor
 #ボウヤ、気をつけな！
 #嵐、海賊、幽霊船
 #海にキケンはつきものだぜぃ！
-You idiot, watch out!
+Watch it, kid!
 Storms, pirates, ghost ships...
-Danger's always part of the sea life!
+Danger's part and parcel of the sea!
 -----------------------
 #船員
 Sailor
@@ -260,9 +259,9 @@ Sailor
 #いいかいボウヤ？
 #海の上は、つねにキケンと
 #となりあわせだ
-What's wrong, boy?
-The sea is always full of danger
-and trouble.
+You hear me, kid?
+Out on the sea, danger's
+always right beside you.
 -----------------------
 #船員
 Sailor
@@ -271,8 +270,8 @@ Sailor
 #なぜなら、この船には
 #オレさまが乗ってるからだ！
 But there's no need to fear...
-That's because on this ship,
-I am aboard!
+After all, on this ship,
+yours truly is aboard!
 -----------------------
 #船員
 Sailor
@@ -280,9 +279,9 @@ Sailor
 #このオレさまの姿を見たら
 #どんなキケンも
 #シッポをまいて逃げ出すのさ！
-Behold my magnificent form!
-No matter what danger awaits,
-They'll cower in fear and flee!
+One look at my magnificent form
+and any danger'll
+turn tail and run!
 -----------------------
 <Reala>
 -----------------------
@@ -295,17 +294,17 @@ Hey, over here, over here!
 -----------------------
 #あ、あぶないよ、<Reala>！
 #落ちたらタイヘンだよ!!
-It's dangerous, <Reala>!
-You'll be in big trouble if you fall!!
+Careful, <Reala>!
+It'd be bad if you fell!!
 -----------------------
 <Reala>
 -----------------------
 #あははっ、平気、平気！
 #もし落っこちても
 #<Kyle>が助けてくれるもの！
-Ahaha! I'm fine, I'm fine!
-If we fall,
-<Kyle> will save us!
+Ahaha, I'm fine, I'm fine!
+And if I did fall,
+<Kyle> would save me!
 -----------------------
 <Reala>
 -----------------------
@@ -313,66 +312,65 @@ If we fall,
 #未来の大英雄なんでしょ
 #あなた！
 I mean,
-You're the future great hero, right?
-You there!
+you're the future great hero,
+aren't you?
 -----------------------
 <Reala>
 -----------------------
 #ねえ、<Kyle>も上がってくれば？
 #潮の香りが、とっても気持ちいいわよ！
-C'mon, <Kyle>, why don't you come up too?
-The scent of the sea is so refreshing!
+Hey, <Kyle>, why don't you come up too?
+The sea breeze feels wonderful!
 -----------------------
 <Kyle>
 -----------------------
 #待ってて、<Reala>！
 #オレもすぐ、そっちへ行くから！
-Hold on, <Reala>!
-I'll be right there too!
+Wait for me, <Reala>!
+I'll be right over!
 -----------------------
 <Kyle>
 -----------------------
 #うわぁ････すごいや！
 #海以外、な～んにも見えない！
 Whoa... incredible!
-I can't see anything but the sea!
+Nothing but sea as far as I can see!
 -----------------------
 <Kyle>
 -----------------------
 #それに、風がビュービュー吹いてって
 #････空を飛んでるみたいだ！
-And on top of that, the wind is howling away
-...It feels like I'm flying through the sky!
+And the wind's howling by...
+...Feels like I'm flying through the sky!
 -----------------------
 <Reala>
 -----------------------
 #ね？　すごいでしょ？
-Right? It's amazing, isn't it?
+See? Amazing, isn't it?
 -----------------------
 <Kyle>
 -----------------------
 #でも、意外だったな
 #<Reala>って
 #こういう場所、恐がると思ってた
-I didn't expect that.
-It's about <Reala>.
-I thought you'd be afraid of places like this.
+I have to admit, I'm surprised.
+I thought <Reala>
+would be scared of a place like this.
 -----------------------
 <Reala>
 -----------------------
 #どうして？　潮風も吹いて
 #こんなに気持ちいいのに
-Why is that? Even with the sea breeze blowing,
-It feels so good.
+Why? The sea breeze feels so nice.
 -----------------------
 <Kyle>
 -----------------------
 #いや、なんかさ
 #高いところに上がると
 #「こわ～い！」とか言いそうだったし
-No, it's just that...
-When you go up to high places,
-I thought she was going to yell something like 'Scary!'
+I dunno, I just figured
+you'd get up somewhere high and start
+yelling "Scaaary!" or something.
 -----------------------
 <Reala>
 -----------------------
@@ -380,13 +378,13 @@ I thought she was going to yell something like 'Scary!'
 #なに、今の「こわ～い！」って
 #わたしのマネ？　全然似てない！
 Pfft! Ahaha!
-What's with that 'Scaaaaary!' just now?
-Copying me? You don't look anything like it!
+What was that "Scaaary!" just now?
+Were you imitating me? That was terrible!
 -----------------------
 <Kyle>
 -----------------------
 #わ、笑うことないじゃんか！
-W-what's so funny about that!
+W-what's so funny about that?!
 -----------------------
 <Reala>
 -----------------------
@@ -394,40 +392,39 @@ W-what's so funny about that!
 #でも「こわ～い！」って････
 #あはははっ！
 S-sorry, <Kyle>...
-But I was like 'scary~'...
-Hahaha!
+But "Scaaary!"...
+Ahahaha!
 -----------------------
 <Kyle>
 -----------------------
 #････やっぱ、ヘンかな？
 #へ、へへへ････
-Hmm... is it weird?
-Heh hehe...
+...Was it really that weird?
+Heh, hehehe...
 -----------------------
 <Kyle>
 -----------------------
 #････でも、ホッとしたよ、オレ
 #<Reala>も、そんなふうに
 #笑うんだね
-I... I feel relieved, though.
-<Reala>, too...
-...you're smiling.
+...But I'm glad, actually.
+I didn't know <Reala>
+could smile like that too.
 -----------------------
 <Reala>
 -----------------------
 #あたりまえじゃない
 #ヘンな<Kyle>！
-That's just how it is.
-A weird <Kyle>!
+Of course I can, you silly <Kyle>!
 -----------------------
 <Kyle>
 -----------------------
 #だってさ、最初会ったときなんか
 #オレがなにを言っても
 #表情ひとつ変えなかったじゃん
-Because, you know, when we first met...
-No matter what I said
-You didn't change your expression at all.
+I mean, when we first met...
+No matter what I said,
+you never changed your expression.
 -----------------------
 <Kyle>
 -----------------------
@@ -435,24 +432,23 @@ You didn't change your expression at all.
 #「ずいぶん、無愛想な子だな」
 #って思ったよ
 Honestly,
-She's quite unfriendly.
-That was my thought.
+I thought, "Man, she's a cold one."
 -----------------------
 <Reala>
 -----------------------
 #････あのときは
 #「英雄を探さなきゃ」
 #ってことで、頭がいっぱいだったから････
-...back then,
-"I had to find the hero."
-so my head was full of that...
+...Back then,
+"I have to find the hero"
+was all I could think about...
 -----------------------
 <Kyle>
 -----------------------
 #あ、うん････
 #そういえば、そうだったね
-Ah, yeah...
-Now that I think about it, that's right.
+Oh, right...
+Now that you mention it.
 -----------------------
 <Reala>
 -----------------------
@@ -460,15 +456,15 @@ Now that I think about it, that's right.
 #あなたはなぜ
 #英雄になりたいと思ったの？
 ...Hey, <Kyle>?
-Why did you
+Why do you
 want to become a hero?
 -----------------------
 <Kyle>
 -----------------------
 #やっぱ、父さんみたいに
 #なりたいからかな
-I guess it's because I want to be just like Dad.
-That's probably why.
+I guess...
+I want to be like my dad.
 -----------------------
 <Kyle>
 -----------------------
@@ -476,62 +472,62 @@ That's probably why.
 #でも、やさしくて、あったかくて････
 #いつもニコニコ笑ってた
 My dad was big and strong,
-but also kind and warm...
-He always had such a bright smile.
+but kind and warm too...
+He was always smiling.
 -----------------------
 <Kyle>
 -----------------------
 #とはいえ、オレが小さいころに旅に出て
 #それっきり戻ってきてないから
 #よくは、覚えてないんだけどね
-That said, I set off on my travels when I was young,
-and I haven't come back since.
-I don't remember much about it.
+That said, he left on a journey
+when I was little and never came back,
+so I don't remember him too well.
 -----------------------
 <Kyle>
 -----------------------
 #けど、オレもいつか
 #父さんみたいになりたいと思ってる
 #････父さんのような、本当の英雄に
-But I also want to...
-I want to become someone like my dad.
-...a true hero like my father.
+But I want to become
+someone like him someday...
+...A true hero, like my father.
 -----------------------
 <Reala>
 -----------------------
 #････本当の、英雄
-......The real hero.
+......A true hero.
 -----------------------
 <Kyle>
 -----------------------
 #そういえばさ
 #<Reala>はどうして
 #英雄を探しているの？
-Well, come to think of it...
-Why is <Reala>
-...looking for a hero?
+Come to think of it...
+<Reala>, why are you
+looking for a hero?
 -----------------------
 <Reala>
 -----------------------
 #････わたしが
 #わたしが、英雄を
 #探している理由は････
-...I am
-the hero,
-is why I'm looking.
+...The reason I am
+looking for a hero...
+is because I am the one who...
 -----------------------
 <Kyle>
 -----------------------
 #な、なんだッ!?
-What... what is it!?
+Wh-what?!
 -----------------------
 #船員
 Sailor
 -----------------------
 #主だぁっ！
 #デビルズ・リーフの主だぁッ!!
-My Lord!
-The Master of Devil's Leaf!
+The Lord!
+The Lord of Devil's Reef!!
 -----------------------
 #船員
 Sailor
@@ -540,7 +536,7 @@ Sailor
 #お、おた、お助けぇ!!
 #オイラ、まだ死にたくねえよォ！
 Hiiiy!
-W-wait, help m-me!!
+H-help me!!
 I-I don't wanna die yet!
 -----------------------
 #船員
@@ -548,8 +544,8 @@ Sailor
 -----------------------
 #ガタガタぬかすな！
 #とにかく、船長に伝えてこい！
-Shut up and stop rattling on!
-Anyway, get that message to the captain!
+Quit your sniveling!
+Get word to the captain, now!
 -----------------------
 #船員
 Sailor
@@ -557,26 +553,26 @@ Sailor
 #それから、見張りの人数を増やせ！
 #船体に損傷がないか調べろ！
 #急げ！
-Increase the number of guards!
-Check the hull for any damage!
-Hurry up!
+Double the watch!
+Check the hull for damage!
+Move it!
 -----------------------
 <Loni>
 -----------------------
 #おい、おふたりさん！
 #そんなところで
 #いちゃついてる場合じゃねえぞ！
-Hey, you two!
-In a place like that,
-this isn't the time for flirting!
+Hey, lovebirds!
+Now's not the time
+for canoodling up there!
 -----------------------
 <Kyle>
 -----------------------
 #あっ！　い、いや
 #ちがうんだ、<Reala>！
 #そんなつもりじゃなくて････
-N-no!
-It's not like that, <Reala>!
+Ah! N-no,
+that's not it, <Reala>!
 I didn't mean it like that...
 -----------------------
 <Reala>
@@ -589,40 +585,40 @@ I didn't mean it like that...
 #心配いらん
 #バカは頑丈と
 #昔から決まっている
-No need to worry.
-Fools are tough.
-It's been decided since old.
+No need to fret.
+Fools are durable.
+That's always been the way of it.
 -----------------------
 <Kyle>
 -----------------------
 #なんだよ！
 #バカバカ言うなよなっ!!
-What's with you!
-Don't give me that nonsense! Hmph!!
+What's your problem!
+Quit calling me an idiot!!
 -----------------------
 <Loni>
 -----------------------
 #はいはい、ケンカはあと！
 #何が起きたのか確かめるのが先だ！
 #へさきに行ってみようぜ！
-Yeah, yeah, save the fighting for later!
-We should check what happened first!
-Let's head to the front!
+Yeah, yeah, save the squabble for later!
+First we need to find out what happened!
+Let's head to the bow!
 -----------------------
 <Kyle>
 -----------------------
 #船が止まったのは
 #こいつのせいだな！
-The ship has stopped.
-It's all because of you!
+The ship stopped
+because of this thing!
 -----------------------
 #船員
 Sailor
 -----------------------
 #おい！　あんたたちも
 #早く逃げろ!!
-Hold up! You guys too!
-Hurry and get out of here!!
+Hey! You lot too,
+get out of here, now!!
 -----------------------
 #船員
 Sailor
@@ -631,31 +627,31 @@ Sailor
 #このバケモンと出会って
 #無事だった船はねえんだぞ!!
 That's the 'Lord of the Sea'!
-Meeting that monster...
-There aren't any ships left intact!!
+Any ship that crosses paths
+with that monster don't make it out alive!!
 -----------------------
 <Loni>
 -----------------------
 #逃げるったって
 #いったい、どこに逃げるんだよ!?
-Running away,
-Where exactly are you planning to run to!?
+Run where, exactly!?
+We're in the middle of the ocean!
 -----------------------
 <Kyle>
 -----------------------
 #まかせといて！
 #こんなヤツ
 #オレたちがやっつけてやる!!
-Leave it to me!
-Some guy like this...
-We'll take care of him ourselves!!
+Leave it to us!
+We'll take down
+a chump like this!!
 -----------------------
 <Kyle>
 -----------------------
 #やった！
 #これで船も････
 We did it!
-Now we can get the ship...
+Now the ship can...
 -----------------------
 #船員
 Sailor
@@ -663,92 +659,92 @@ Sailor
 #大変です！
 #船底に、海の主が!!
 It's terrible!
-The Lord of the Sea is at the bottom of the ship!!
+The Lord of the Sea is at the hull!!
 -----------------------
 #船員
 Sailor
 -----------------------
 #なんだと!?
-What was that!?
+What did you say!?
 -----------------------
 <Loni>
 -----------------------
 #こりゃ、まずいぞ
 #船底に穴が開いたんだとしたら････
-This is bad.
-If there's a hole in the hull...
+This ain't good.
+If it's breached the hull...
 -----------------------
 <Kyle>
 -----------------------
 #とにかく、行ってみよう！
-Well, let's just go take a look!
+Let's go check it out!
 -----------------------
 <Loni>
 -----------------------
 #そろそろ、スノーフリアの港が、
 #見えてくるはずだぜ
-We should be reaching Snowfall Harbor soon,
-it's about time we could see it.
+We should be able to see
+Snowfall Harbor soon.
 -----------------------
 <Loni>
 -----------------------
 #ここまで来れば
 #ハイデルベルグは
 #もう目と鼻の先だな
-We've made it this far.
-Heidelberg is
-just around the corner.
+From here on out,
+Heidelberg's
+just a stone's throw away.
 -----------------------
 <Reala>
 -----------------------
 #長かった船旅も、これでおしまいね
 #なんだか、なごりおしい気がする
-The long sea voyage is finally over.
-I can't help but feel a bit nostalgic.
+Our long voyage is finally over.
+I feel almost... wistful.
 -----------------------
 <Kyle>
 -----------------------
 #な～に、帰るときに
 #また乗ればいいさ
 #そうだろ？
-What's up? When you're heading back...
-You can just ride again.
-Right?
+What's with the long face?
+You can just ride it again
+when we head back, right?
 -----------------------
 <Reala>
 -----------------------
 #････そうね
 #帰るときに、ね････
-...Yeah.
-When you go back, okay...?
+...I suppose so.
+When we head back...
 -----------------------
 <Judas>
 -----------------------
 #すぐにスノーフリアに着く
 #出発の準備をしておけ
 #グズグズしてると、置いていくぞ
-We'll reach Snowfall soon.
-Get ready to depart.
-Hurry up, or we're leaving without you.
+We'll reach Snowfall shortly.
+Prepare to disembark.
+Dawdle and we'll leave you behind.
 -----------------------
 <Kyle>
 -----------------------
 #<Judas>････うん！
-<Judas>... Yeah.
+<Judas>... Yeah!
 -----------------------
 <Loni>
 -----------------------
 #<Judas>、あ、あのよ････
 #悪かったな
 #さっきは、その････
-<Judas>, uh, well...
-My bad.
-Aboout earlier, I mean...
+<Judas>, uh, listen...
+Sorry about before.
+I mean...
 -----------------------
 <Judas>
 -----------------------
 #いや、僕も大人げなかった
-No, I was being childish too.
+No, I was childish as well.
 -----------------------
 <Loni>
 -----------------------
@@ -759,7 +755,7 @@ No, I was being childish too.
 -----------------------
 #実際の年齢はともかくとして
 #精神年齢は、僕のほうが高い
-Setting aside our actual ages,
+Setting actual age aside,
 my mental age is higher.
 -----------------------
 <Judas>
@@ -767,32 +763,33 @@ my mental age is higher.
 #子供であるおまえと同レベルで話すなんて
 #大人である僕がすべきことではなかったな
 #反省している
-I shouldn't have been talking to you on your level, being just a kid.
-That wasn't something I should've done as an adult.
-I'm reflecting on it.
+I shouldn't have stooped to speaking
+with a child like you as an equal.
+That was unbecoming of an adult.
+I regret it.
 -----------------------
 <Loni>
 -----------------------
 #な、な、な････なんだよそりゃあ！
 #それじゃ、俺がガキってことか!?
-W-w-w-what is that supposed to mean!?
-So you're saying I'm just some kid!?
+Wh-wh-what the heck is that supposed to mean!?
+So you're saying I'm just a kid!?
 -----------------------
 <Judas>
 -----------------------
 #そういったつもりだが
 #わからなかったか？
 #僕の言い方も、まだまだのようだ
-I meant it that way.
-You didn't get it?
-My explanation could still be better.
+That was precisely my intent.
+Did you not grasp it?
+I suppose my delivery still needs work.
 -----------------------
 <Kyle>
 -----------------------
 #････ぷっ！
 #アハハハハッ!!
 ...Pfft!
-Ahahaha!!
+Ahahahaha!!
 -----------------------
 <Reala>
 -----------------------
@@ -802,19 +799,19 @@ Hehe! Ahaha!
 <Loni>
 -----------------------
 #笑うな、ふたりとも！
-Don't laugh, you two!
+Quit laughing, you two!
 -----------------------
 <Loni>
 -----------------------
 #こんにゃろう････
 #好き放題いいやがって････
-I'm starving...
-You're acting so selfishly...
+Why, you little...
+Saying whatever you please...
 -----------------------
 <Kyle>
 -----------------------
 #ここにいたんだ
-You're here.
+So this is where you were.
 -----------------------
 <Reala>
 -----------------------
@@ -826,40 +823,40 @@ You're here.
 #今日は、甲板にいたんだね
 #オレ、ずっと上ばかり見てたよ！
 You were on deck today.
-I've been looking up at you the whole time!
+I kept looking up the whole time!
 -----------------------
 <Kyle>
 -----------------------
 #あ、あのさ、<Reala>････
 #聞きたいことが、あるんだ
-Uh, listen, <Reala>...
-I've got something I want to ask you.
+Uh, hey, <Reala>...
+There's something I want to ask you.
 -----------------------
 <Kyle>
 -----------------------
 #キミは、ここが十年後の世界だってことも
 #神さまがいるってことも
 #全部、知ってたんだよね？
-You knew that this was the world ten years from now,
-and that there was a God.
+You knew this was the world ten years from now.
+You knew there was a god.
 You knew all of it, didn't you?
 -----------------------
 <Reala>
 -----------------------
 #････ええ
-......Yes.
+...Yes.
 -----------------------
 <Kyle>
 -----------------------
 #ってことはさ、<Reala>は、もしかして････
 #元々、この時代にいたってことなの？
-So you're saying that maybe... <Reala> is...
+So that means... <Reala>, maybe...
 You were originally from this era?
 -----------------------
 <Reala>
 -----------------------
 #････ええ、そうよ
-......Yes, that's right.
+...Yes. That's right.
 -----------------------
 <Kyle>
 -----------------------
@@ -871,14 +868,14 @@ I knew it...
 #ごめんなさい
 #ずっと、黙ってて････
 I'm sorry.
-I've been quiet all along...
+I kept quiet about it all this time...
 -----------------------
 <Kyle>
 -----------------------
 #あ、いや、責めてるわけじゃないんだ！
 #たださ、ちょっとビックリしちゃって････
 Ah, no, I'm not blaming you!
-I just got a little startled...
+I just got a little startled, that's all...
 -----------------------
 <Kyle>
 -----------------------
@@ -886,8 +883,8 @@ I just got a little startled...
 #未来から来た子と知り合いになるなんて、
 #考えもしなかったからさ
 I mean, come on, right?
-To think I'd end up meeting someone from the future,
-I never would have guessed.
+Meeting someone from the future?
+I never would've imagined something like that.
 -----------------------
 <Reala>
 -----------------------
@@ -898,8 +895,8 @@ I never would have guessed.
 -----------------------
 #あ、あのさ、じゃあ、
 #エルレインもやっぱり････
-Uh, you know...
-Elleyn too, I guess...
+Uh, so then...
+Elrane is from...
 -----------------------
 <Reala>
 -----------------------
@@ -908,49 +905,49 @@ Elleyn too, I guess...
 <Kyle>
 -----------------------
 #え？
-What?
+Huh?
 -----------------------
 <Reala>
 -----------------------
 #････ごめんなさい
 #それ以上は言えないの
 #だから････
-I'm sorry.
-That's all I can say.
-So...
+...I'm sorry.
+I can't tell you any more than that.
+So please...
 -----------------------
 <Kyle>
 -----------------------
 #あ････う、うん
 #わかった････
-Ah... yeah.
-I see...
+Ah... y-yeah.
+I understand...
 -----------------------
 <Nanaly>
 -----------------------
 #ここにいたんだね
-You were here after all.
+So this is where you were.
 -----------------------
 <Nanaly>
 -----------------------
 #もうすぐチェリクに着くよ
 #降りる準備、しておきな
-We'll be at Cherik soon.
+We'll be reaching Cherik soon.
 Get ready to disembark.
 -----------------------
 <Kyle>
 -----------------------
 #あ、うん････
-Oh, yeah...
+Oh, right...
 -----------------------
 <Nanaly>
 -----------------------
 #ところでさ、<Reala>
 #あんた、もしかして
 #「二人の聖女」なのかい？
-By the way,<Reala>
-You're not...
-one of the 'Two Holy Maidens', are you?
+By the way, <Reala>...
+you wouldn't happen to be
+one of the 'Two Holy Maidens,' would you?
 -----------------------
 <Nanaly>
 -----------------------
@@ -959,21 +956,21 @@ one of the 'Two Holy Maidens', are you?
 #もしかしてって思ったんだけどさ
 So that's how it is.
 When I heard your name,
-I started to wonder if...
+I started to wonder if that might be the case.
 -----------------------
 <Reala>
 -----------------------
 #お願い、<Nanaly>！
 #このことは････
-I'm begging you, <Nanaly>!
-This matter...
+Please, <Nanaly>!
+About this...
 -----------------------
 <Nanaly>
 -----------------------
 #<Kyle>には、黙ってろって？
 #別に、あたしはかまわないよ
-<Kyle>, you want me to shut up?
-I don't really care either way.
+<Kyle>, you want me to keep quiet?
+Fine by me. I don't really care either way.
 -----------------------
 <Reala>
 -----------------------
@@ -989,43 +986,43 @@ Thank you...
 -----------------------
 #････ま、あたしから
 #とやかくいうことじゃないね
-...I'll go first.
-There's no need to make a fuss about it.
+...Well, it's not really my place
+to go poking into your business.
 -----------------------
 <Nanaly>
 -----------------------
 #先に部屋にいってるよ
 #早く、降りておいでね
-I'll head to my room first.
-Hurry up and come down.
+I'll head back to my room first.
+Make sure you come down soon.
 -----------------------
 <Reala>
 -----------------------
 #････できれば
 #<Kyle>には知られたくない
-I'd rather not...
+If I can help it...
 I don't want <Kyle> to find out.
 -----------------------
 <Reala>
 -----------------------
 #でも、きっといつか知ってしまう
 #そのとき、わたしは････
-But I'll surely find out someday.
-At that time, I will...
+But I'm sure I'll learn the truth someday.
+And when that day comes, I will...
 -----------------------
 notice
 -----------------------
 #<Reala>は
 #称号「<item:00000823>」を得ました
-<Reala> is
-You have earned the title "<item:00000823>."
+<Reala>
+earned the title "<item:00000823>"!
 -----------------------
 <Loni>
 -----------------------
 #とりあえず甲板に集めたが････
 #これから、いったいどうする!?
-For now, we've gathered everyone on deck...
-What are we going to do from here on out!?
+I've gathered everyone on deck for now, but...
+what the heck are we supposed to do now!?
 -----------------------
 <Kyle>
 -----------------------
@@ -1035,21 +1032,21 @@ Hey, can't we just swim to shore!?
 <Judas>
 -----------------------
 #男はともかく、女子供は無理だな
-Be that as it may, women and kids are out.
+The men might manage, but women and children would never make it.
 -----------------------
 <Loni>
 -----------------------
 #救命ボートが、あの大きさじゃ
 #ほとんど、助けられないか････
-With that size, the lifeboats...
-...won't be able to save many.
+The lifeboats are too small.
+They'd barely save anyone...
 -----------------------
 <Loni>
 -----------------------
 #くそっ！
 #完全に手詰まりかよ!!
 Damn it!
-We're completely stuck!?
+Are we completely out of options!?
 -----------------------
 <Reala>
 -----------------------
@@ -1062,57 +1059,57 @@ We're completely stuck!?
 #なんとかして
 #みんなを助ける方法を、考えようよ!!
 We can't give up!
-Let's find a way,
-to figure out how to save everyone!?
+We've gotta think of something,
+some way to save everyone!!
 -----------------------
 <Loni>
 -----------------------
 #とはいっても････
-Even so...
+Easier said than done...
 -----------------------
 <Judas>
 -----------------------
 #全員が助かる方法が
 #ひとつだけある
-There is only one way
-for everyone to survive
+There is one way
+for everyone to survive.
 -----------------------
 <Kyle>
 -----------------------
 #えっ!?　ほ、ホントに!?
-W-what?! R-really!?
+What?! R-really!?
 -----------------------
 <Judas>
 -----------------------
 #････力を使え、<Reala>
-...Use your power, .<Reala>
+...Use your power, <Reala>.
 -----------------------
 <Reala>
 -----------------------
 #わたしが････
-I'm...
+My power...
 -----------------------
 <Kyle>
 -----------------------
 #うわあっ!!
-Ahh!!
+Whoa!!
 -----------------------
 <Loni>
 -----------------------
 #こりゃ、マジでやばいぜ！
-This is seriously dangerous!
+This is seriously bad!
 -----------------------
 <Reala>
 -----------------------
 #････わたしが････
 #みんなを････
-...I...
-...everyone...
+...I have to...
+...save everyone...
 -----------------------
 <Reala>
 -----------------------
 #････！
-...
+...!
 -----------------------
 <Kyle>
 -----------------------
@@ -1123,8 +1120,8 @@ This is seriously dangerous!
 -----------------------
 #････おねがい････
 #････････飛んで!!
-I beg you...
-Fly away!!
+Please...
+...Fly!!
 -----------------------
 <Loni>
 -----------------------
@@ -1137,51 +1134,51 @@ What exactly are you planning to do!?
 -----------------------
 #船を、浮かせるつもりなんだ
 #だが････
-We're planning to set the ship afloat.
+She intends to make the ship float.
 But...
 -----------------------
 <Reala>
 -----------------------
 #････くっ!!
-...ugh!
+...Ngh!!
 -----------------------
 <Judas>
 -----------------------
 #これだけのものを動かすんだ
 #今の<Reala>に
 #できるかどうか････
-Moving all of this around...
-For you right now, <Reala>
-...whether I can actually pull it off.
+Moving something this massive...
+Can <Reala> do it
+in her current state...?
 -----------------------
 <Kyle>
 -----------------------
 #そんな････
-That...
+No way...
 -----------------------
 <Loni>
 -----------------------
 #がんばれっ！
 #がんばれ、<Reala>！
-Go for it!
-Good luck, <Reala>!
+You can do it!
+Hang in there, <Reala>!
 -----------------------
 <Reala>
 -----------------------
 #････ああっ！
-......Ah!
+...Aah!
 -----------------------
 <Judas>
 -----------------------
 #たのむ････！
-I'm begging you...!
+Please...!
 -----------------------
 <Reala>
 -----------------------
 #････や、やっぱり････
 #ダ････メ････
-......No, I guess...
-N-no...
+...I... I can't...
+It's... no use...
 -----------------------
 <Kyle>
 -----------------------
@@ -1198,26 +1195,26 @@ Don't give up, <Reala>!!
 #<Reala>ならできる！
 #きっと、できるよ!!
 <Reala> can do it!
-We'll definitely make it happen.
+I know you can!!
 -----------------------
 <Reala>
 -----------------------
 #････！<Kyle>････！
-......! <Kyle> ......!
+......! <Kyle>......!
 -----------------------
 <Loni>
 -----------------------
 #すげえ････
 #マジで、助かっちまった････！
 #はは････あはははっ!!
-Awesome...
-Seriously, you saved me...
+Whoa...
+You seriously saved our skins...
 Haha... Ahahaha!!
 -----------------------
 <Kyle>
 -----------------------
 #すごいよ、<Reala>････！
-Incredible, <Reala>...!
+That was amazing, <Reala>...!
 -----------------------
 <Reala>
 -----------------------
@@ -1225,8 +1222,8 @@ Incredible, <Reala>...!
 #････････わたし････力････
 #････でき････た････
 ...I did it...
-...Me... my power...
-...I made it...
+...I... my power...
+...it worked...
 -----------------------
 <Kyle>
 -----------------------
@@ -1243,22 +1240,22 @@ effect off
 -----------------------
 #だからぁ、そういうつもりで
 #聞いてるんじゃねえんだってば！
-So that's what you mean,
-I'm telling you, stop listening to me like that!
+That's not what I meant,
+and you know I'm not listening like that!
 -----------------------
 <Kyle>
 -----------------------
 #あの声････<Loni>だ！
 #どうしたんだろ？
-That voice... It's <Loni>!
-I wonder what happened?
+That voice... it's <Loni>!
+I wonder what's going on?
 -----------------------
 <Kyle>
 -----------------------
 #探したよ、<Judas>！
 #もう、突然いなくなっちゃうんだもん！
 I found you, <Judas>!
-You just disappear out of nowhere!
+You can't just vanish like that!
 -----------------------
 <Judas>
 -----------------------
@@ -1268,7 +1265,7 @@ You just disappear out of nowhere!
 <Kyle>
 -----------------------
 #あ、あのさ、<Judas>････
-Well, you see, <Judas>...
+Um, hey, <Judas>...
 -----------------------
 <Kyle>
 -----------------------
@@ -1285,7 +1282,7 @@ I believe in you!
 #<Judas>が、何歳だろうと
 #だれだろうと、関係ない
 #オレは、<Judas>を信じてる！
-Whether <Judas> is any age...
+Whether <Judas> is young or old...
 It doesn't matter who they are.
 I believe in <Judas>!
 -----------------------
@@ -1293,8 +1290,8 @@ I believe in <Judas>!
 -----------------------
 #だからさ、いっしょに行こう！
 #旅、続けようよ！
-So, let's go together!
-Let's keep traveling!
+So come on, let's go together!
+Let's keep this journey going!
 -----------------------
 <Judas>
 -----------------------
@@ -1308,7 +1305,7 @@ Let's keep traveling!
 #なにも明かそうとはしない僕を････
 ...Why?
 How can you trust me?
-You who won't reveal anything about yourself...
+When I won't reveal anything about myself...
 -----------------------
 <Kyle>
 -----------------------
@@ -1325,62 +1322,61 @@ I think it's because I like <Judas>.
 <Judas>
 -----------------------
 #････好き？
-...Like it?
+...Like?
 -----------------------
 <Kyle>
 -----------------------
 #好きだから、いっしょにいたいって思うし
 #<Judas>のこと、信じられるんだよ
-I like him, so I want to stay together.
-I can trust <Judas>.
+I like them, so I want to stay together.
+That's why I can trust <Judas>.
 -----------------------
 <Judas>
 -----------------------
 #僕は、おまえに対して
 #なにも教えてはいないんだぞ？
 #そんな相手を、好きになるなんてことは････
-I'm not doing anything for you,
-to teach you anything?
-To fall for someone like that...
+I've told you nothing about myself.
+How could you come to like someone like that...
 -----------------------
 <Kyle>
 -----------------------
 #あのさ、<Judas>は
 #相手のヒミツ、全部教えてもらったら
 #好きになれるの？
-Hey, <Judas>, if
-I knew all their secrets,
-would I fall for them?
+Hey, <Judas>...
+If you learned all of someone's secrets,
+would that make you like them?
 -----------------------
 <Judas>
 -----------------------
 #それは････
-That is...
+That's...
 -----------------------
 <Kyle>
 -----------------------
 #そうじゃないよね
 #ヒミツがあってもなくても、関係ないんだ
 #そいつが、好きかどうかってだけさ
-It's not like that.
-It doesn't matter whether there are secrets or not.
-It's just about whether I like them or not.
+That's not how it works, right?
+It doesn't matter if there are secrets or not.
+It's about whether you like the person.
 -----------------------
 <Kyle>
 -----------------------
 #だから、<Judas>もそうだよ
 #ヒミツがあっても････
-So that means you're in on it too, <Judas>.
-There's something we're keeping secret...
+So <Judas>, it's the same for you.
+Even with secrets...
 -----------------------
 <Kyle>
 -----------------------
 #いや、ヒミツがあるところ
 #ぜ～んぶ含めて
 #<Judas>が好きなんだよ！
-Nope. Where secrets are kept.
-Including everything.
-I love <Judas>!
+No. It's because I love
+every last thing about <Judas>
+including the secrets!
 -----------------------
 <Judas>
 -----------------------
@@ -1392,7 +1388,7 @@ I love <Judas>!
 #････<Kyle>
 #僕は････
 ...<Kyle>
-I'm...
+I...
 -----------------------
 <Kyle>
 -----------------------
@@ -1406,21 +1402,21 @@ See ya!
 #････今度はちがう、そう思っていた
 #だが結局は、同じことを
 #繰り返している････
-I thought... this time would be different.
+...I thought this time would be different.
 But in the end,
-I was just repeating the same thing...
+I'm just repeating the same thing...
 -----------------------
 <Judas>
 -----------------------
 #それでも････それでもだ
 #僕は、仮面をはずすわけにはいかない
 #すべてを隠して、やりとげなくては････
-Even so... even still...
-I can't take off this mask.
-I have to hide everything and pull it off...
+Even so... even so...
+I can't remove this mask.
+I must hide everything and see this through...
 -----------------------
 #いってらっしゃいませ
-Have a good day.
+Welcome.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
@@ -1434,8 +1430,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -1447,7 +1443,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We hope to see you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -1458,7 +1454,7 @@ exit-party_togather( short spd )
 notice
 -----------------------
 #{16}{26}{E6}{C0}を手に入れました
-{16}{26}{E6}{C0}You obtained .
+Acquired {16}{26}{E6}{C0}.
 -----------------------
 notice
 -----------------------
@@ -1469,12 +1465,11 @@ notice
 -----------------------
 #{16}{26}{EE}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{26}{EE}{C0}There was , but
-I couldn't hold it because it was full.
+Found {16}{26}{EE}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

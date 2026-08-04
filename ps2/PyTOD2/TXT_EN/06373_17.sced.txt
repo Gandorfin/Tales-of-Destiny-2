@@ -1,19 +1,19 @@
 #ストレイライズ遺跡
-Stray Ruins
+Straylize Ruins
 -----------------------
 #ストレイライズ遺跡
-Stray Ruins
+Straylize Ruins
 -----------------------
 #ストレイライズ遺跡
-Stray Ruins
+Straylize Ruins
 -----------------------
 #ここはストレイライズ神殿です
-This is the Stray Rise Temple.
+This is Straylize Temple.
 -----------------------
 NOTICE
 -----------------------
 #何かで衝撃を加えれば壊せそうです
-It looks like it could break if we hit it with something.
+It looks like it could break if struck with something.
 -----------------------
 <Loni>
 -----------------------
@@ -21,26 +21,25 @@ It looks like it could break if we hit it with something.
 #ストレイライズ大神殿に
 #関係した遺跡らしいな
 #柱の作りとか、ソックリだぜ
-Hmm... it seems we're here.
-in the Stray Raiser Great Temple,
-apparently an ancient ruin connected to that place.
-The pillar construction is practically identical.
+Hmm... looks like this place
+is connected to the Straylize Grand Temple.
+The pillars and everything are a dead match.
 -----------------------
 <Kyle>
 -----------------------
 #ねえ<Loni>、この廊下って
 #ストレイライズ大神殿の方に
 #向かってのびてない？
-Hey <Loni>, isn't this hallway
-leading towards
-the Stray Raze Grand Cathedral?
+Hey <Loni>, doesn't this hallway
+lead toward
+the Straylize Grand Temple?
 -----------------------
 <Kyle>
 -----------------------
 #もしかしてここ
 #大神殿と繋がっているのかな？
-Could it be that we're...
-...connected to the Great Shrine?
+Could this place
+be connected to the Grand Temple?
 -----------------------
 <Loni>
 -----------------------
@@ -48,10 +47,10 @@ Could it be that we're...
 #けど、気をつけろよ<Kyle>！
 #どうやらここは、モンスターの住処に
 #なってるみたいだぜ
-It's probably true.
-But watch out, <Kyle>!
-Looks like this place is home to monsters.
-That seems to be the case.
+Probably.
+But watch your back, <Kyle>!
+Looks like this place has become
+a monster nest.
 -----------------------
 NOTICE
 -----------------------
@@ -59,7 +58,7 @@ NOTICE
 It displays 'D' in blue text.
 -----------------------
 #いってらっしゃいませ
-Have a good day.
+Welcome.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
@@ -73,8 +72,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -97,7 +96,7 @@ exit-party_togather( short spd )
 notice
 -----------------------
 #{16}{25}{EA}{C0}を手に入れました
-{16}{25}{EA}{C0}You obtained .
+Acquired {16}{25}{EA}{C0}.
 -----------------------
 notice
 -----------------------
@@ -108,8 +107,8 @@ notice
 -----------------------
 #{16}{25}{F2}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{25}{F2}{C0}There was , but
-I couldn't carry it because it was full.
+Found {16}{25}{F2}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------

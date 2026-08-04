@@ -1,44 +1,43 @@
 #地上軍拠点跡地
-Former Ground Forces Base Site
+Er'ther Base Ruins
 -----------------------
 #地上軍拠点跡地
-Former Ground Forces Base Site
+Er'ther Base Ruins
 -----------------------
 NOTICE
 -----------------------
 #暖炉に炭が置かれている
-Charcoal is placed in the fireplace.
+There's charcoal in the fireplace.
 -----------------------
 NOTICE
 -----------------------
 #この暖炉だけ、まったく壊れていません
 #暖炉に炭をくべてみますか？
-The fireplace is the only thing that hasn't been destroyed.
-Shall we add some charcoal to the fireplace?
+This fireplace is completely unharmed.
+Shall we add charcoal to the fireplace?
 -----------------------
 select
 -----------------------
 #<03:00000000>　くべてみる　
 #　やめる　
-<03:00000000>Try adding it
+<03:00000000> Add charcoal
 Cancel
 -----------------------
 NOTICE
 -----------------------
 #暖炉に炭をくべました
-I added coal to the fireplace.
+Added charcoal to the fireplace.
 -----------------------
 NOTICE
 -----------------------
 #この暖炉だけまったく壊れていません
 #暖炉から不思議な力を感じます
-The fireplace is the only thing completely unharmed.
-I sense a mysterious power emanating from the fireplace.
+This fireplace is completely unharmed.
+A mysterious power emanates from the fireplace.
 -----------------------
 #いつ果てるとも無く
 #暖炉の火は燃え続けている
-The fire seemed to burn on endlessly,
-The hearth fire continued to blaze.
+The fire burns on without end.
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -55,8 +54,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -79,7 +78,7 @@ exit-party_togather( short spd )
 notice
 -----------------------
 #{16}{27}{06}{C0}を手に入れました
-{16}{27}{06}{C0}You obtained .
+Acquired {16}{27}{06}{C0}.
 -----------------------
 notice
 -----------------------
@@ -90,12 +89,11 @@ notice
 -----------------------
 #{16}{27}{0E}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{27}{0E}{C0}There was , but
-I couldn't hold it because it was full.
+{16}{27}{0E}{C0}You found, but
+your inventory was full.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

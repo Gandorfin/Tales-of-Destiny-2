@@ -1,62 +1,62 @@
 #ダイクロフト
-Dycrof
+Dycroft
 -----------------------
 #ダイクロフト
-Dycrof
+Dycroft
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #おい、侵入者が現われたらしいぞ
 #地上軍のヤツらが妙なマシンで
 #乗りこんできたって話だ
-Ho, looks like we've got intruders.
-The ground forces are bringing in some strange machines...
-They say they're boarding them.
+Hey, sounds like we've got intruders.
+The surface army's bringing in some weird machines...
+Rumor is they're already aboard.
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #な～に、俺たちは
 #持ち場を守ってりゃいいのさ
 #まさかココに攻めてくるわけないしな
-What's it to you? We just
-need to hold our ground.
-There's no way they'd attack us here.
+What's it to us? We just gotta
+hold our positions.
+No way they'd attack us here.
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #そうだな、たかが数人で
 #このダイクロフトが落とせるわけもなし
 #なに考えてんだか、おめでたいヤツらだぜ
-So, just a handful of people...
-There's no way the Dycroft could have taken it down.
-What are they thinking? They're such naive bunches.
+Yeah, just a handful of people...
+Like they could take down Dycroft.
+What are they thinking? What a bunch of naive fools.
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #な、なんだ、おまえたちは!?
-Wh-what are you guys doing here?!
+Wh-who the hell are you?!
 -----------------------
 <Kyle>
 -----------------------
 #地上から来た
 #おめでたいヤツらさ！
-Came from the surface.
-They're the lucky ones!
+We're the naive fools
+who came from the surface!
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #なんだと!?
 #じゃあ、こいつら････！
-What did you say!?
-So, these guys...!
+What?!
+Then you guys are...!
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #せ、制御室に敵襲あり････
 #至急、増援を求む････ぐはッ！
@@ -68,73 +68,73 @@ Requesting immediate reinforcements... Ggh!
 #しかし、ダイクロフトの制御を
 #奪うなんてことが
 #本当にできるのか？
-But, control over the Dycroft--
-To take it away from you
-Can we really do it?
+But can we really seize
+control of Dycroft?
+Is that actually possible?
 -----------------------
 <Harold>
 -----------------------
 #私の辞書に、不可能の文字はないわ！
-There's no such thing as impossible in my dictionary!
+The word 'impossible' doesn't exist in my dictionary!
 -----------------------
 <Harold>
 -----------------------
 #いい？　５分間だけ時間を稼いで
 #それだけあれば、メインコンピュータを
 #ハッキングできるわ
-Got it? I'll buy us five minutes.
-That's all we need to
-hack into the main computer.
+Listen up. Buy me five minutes.
+That's all I need to hack
+into the main computer.
 -----------------------
 <Kyle>
 -----------------------
 #わかった！
 #その間、ここを守ればいいんだね！
 Got it!
-So I just need to guard this place in the meantime, right?
+So we just gotta defend this place until then, right?!
 -----------------------
 #来たな････！
 #けど、<Harold>には指一本
 #触れさせないぞ！
 You're here...!
-But I won't let you so much as touch <Harold>
-Not a finger on them!
+But I won't let you lay a single finger
+on <Harold>!
 -----------------------
 #女だと思って甘く見てると
 #大ケガすることになるよ
 #痛い目にあう前にとっとと失せな！
-If you think she's just some girl and let your guard down,
-you're going to end up badly hurt.
-Get lost before you get hurt!
+If you think she's just some girl and go easy on her,
+you're gonna get hurt bad.
+Beat it before you learn the hard way!
 -----------------------
 #またぞろ来やがったな
 #あいにく取りこみ中なんでな
 #ちょっと手荒いあいさつになるぜ！
-You're back again.
-Inconveniently enough, I'm in the middle of taking something in.
-This greeting's gonna be a bit rough!
+Back again, are ya?
+Too bad, I'm in the middle of something here.
+Gonna have to give you a rough welcome!
 -----------------------
 #最後まで力のかぎり戦ってみせる
 #それがいま、わたしにできる
 #すべてだから････！
-I'll fight to my very last breath!
-This is all I can do right now.
-It's everything...!
+I'll fight with everything I have until the very end!
+That's all I can do now...
+It's everything I have!
 -----------------------
 <Loni>
 -----------------------
 #やれやれ、こりもせずご苦労なこった
 #学習ってもんを知らないらしいな
-Good grief, you really don't give up, do you?
-Looks like they haven't got a clue about learning.
+Sheesh, you guys never learn.
+Don't you know what 'learning' means?
 -----------------------
 #減らず口が叩ける間は安心だな
 #せいぜい、息巻いててくれよ
-You can still talk back, so I'm relieved.
-Just keep up that fight as much as you can.
+As long as you can still run your mouth, I'm relieved.
+Keep that fire burning as long as you can.
 -----------------------
 #<0B:00000001>あと{14}{34}{04}{A0}{10}{0E}{C8}{C0}分{14}{34}{04}{A0}{10}{0E}{C9}{90}{3C}{C8}{C0}秒かせいでね☆<0B:00000000>
-<0B:00000001>Work hard for another {14}{34}{04}{A0}{10}{0E}{C8}{C0} minutes and {14}{34}{04}{A0}{10}{0E}{C9}{90}{3C}{C8}{C0} seconds!<0B:00000000>
+<0B:00000001>Work hard for another {14}{34}{04}{A0}{10}{0E}{C8}{C0} minutes and {14}{34}{04}{A0}{10}{0E}{C9}{90}{3C}{C8}{C0} seconds!☆<0B:00000000>
 -----------------------
 #<0B:00000001>あと{14}{34}{04}{A0}{10}{0E}{C9}{90}{3C}{C8}{C0}秒かせいでね☆<0B:00000000>
 <0B:00000001>Just {14}{34}{04}{A0}{10}{0E}{C9}{90}{3C}{C8}{C0} seconds left! ☆<0B:00000000>
@@ -146,23 +146,23 @@ Just keep up that fight as much as you can.
 #まだかい、<Harold>!?
 #あたしたちも
 #そろそろ限界だよ！
-Is it still not time, <Harold>!?
-We too
-It's about our limit!
+You done yet, <Harold>?!
+We're about at
+our limit here too!
 -----------------------
 <Harold>
 -----------------------
 #ふん、ふん、ふ～ん♪
 #ふふふん、ふ～ん♪
-Hmph, hmph, hmm~♪
-Hehe-hmph, hmm~♪
+Hmm, hmm, hmm~♪
+Heh-heh-hmm, hmm~♪
 -----------------------
 <Loni>
 -----------------------
 #のんきに鼻歌なんて歌ってんなよ！
 #聞いてるのか、<Harold>!?
-You think you can just hum along so casually!?
-Are you even listening to me, <Harold>!?
+Quit humming to yourself so casually!
+You listening to me, <Harold>?!
 -----------------------
 <Harold>
 -----------------------
@@ -174,23 +174,23 @@ Are you even listening to me, <Harold>!?
 #これで脱出用ポッド以外の
 #ダイクロフトのすべての機能が停止したわ
 #ベルクラントもおやすみ中よ
-With this, everything except the escape pods...
-All functions of the Deicoft have stopped.
-The Belkrand is also taking a nap.
+And done! All Dycroft functions
+except the escape pods are stopped.
+Belcrant's taking a nap too.
 -----------------------
 <Kyle>
 -----------------------
 #よし、オレたちも脱出だ！
 #格納庫まで一気に行くぞ！
-Alright, let's make our escape!
-Let's head straight for the hangar!
+Alright, we're getting out too!
+Straight to the hangar, full speed!
 -----------------------
 notice
 -----------------------
 #<Harold>は
 #称号「<item:00000871>」を得ました
-<Harold> is
-Gained the title "<item:00000871>"
+<Harold> obtained
+the title "<item:00000871>"!
 -----------------------
 {15}{24}{72}{C0}
 -----------------------
@@ -209,8 +209,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -233,7 +233,7 @@ exit-party_togather( short spd )
 notice
 -----------------------
 #{16}{26}{1E}{C0}を手に入れました
-{16}{26}{1E}{C0}You obtained .
+Acquired {16}{26}{1E}{C0}.
 -----------------------
 notice
 -----------------------
@@ -244,12 +244,11 @@ notice
 -----------------------
 #{16}{26}{26}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{26}{26}{C0}There was , but
-I couldn't carry it because it was full.
+Found {16}{26}{26}{C0}, but
+it couldn't be carried because inventory is full.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

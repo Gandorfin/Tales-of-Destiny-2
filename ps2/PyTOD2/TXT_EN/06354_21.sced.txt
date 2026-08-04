@@ -11,97 +11,96 @@ This is Harmentz Valley.
 -----------------------
 #<03:00000000><button:00000025>ボタンでジャンプ
 #<button:00000026>ボタンでキャンセル
-<03:00000000><button:00000025>Jump using  button
-<button:00000026>Cancel using  button
+<03:00000000><button:00000025> to jump
+<button:00000026> to cancel
 -----------------------
 #突風だ ！
 A gust of wind!
 -----------------------
 #フラフラだ！
-Getting dizzy!
+I'm getting dizzy!
 -----------------------
 <Loni>
 -----------------------
 #こいつは、ジャンプに失敗して落ちたら
 #ただじゃすまねぇな
-If this guy fails to jump and falls.
-Well, too bad.
+If you botch a jump and fall here,
+it ain't gonna end pretty.
 -----------------------
 <Loni>
 -----------------------
 #いいか<Kyle>　降りられそうな場所や
 #ジャンプできそうな場所を
 #探しながら、少しずつ進むんだ
-It's okay, <Kyle>.  We just need
-to look for a safe place to jump.
-Just proceed carefully.
+Listen, <Kyle>. Look for places you can
+climb down or jump across, and take it
+slow, one step at a time.
 -----------------------
 <Loni>
 -----------------------
 #なんだ、ありゃ？
-What is it?
+What's that over there?
 -----------------------
 <Kyle>
 -----------------------
 #これ････
 #あの子のペンダントだよ
 #間違いない！
-This....
-It's that girl's pendant.
-I'm sure of it!
+This...
+It's that girl's pendant!
+No doubt about it!
 -----------------------
 <Loni>
 -----------------------
 #歩いている途中か
 #ガケを降りてる最中に
 #落としたんだろ
-You dropped it
-while trying to climb
-down the cliff.
+She must've dropped it
+while she was walking, or maybe
+climbing down the cliff.
 -----------------------
 <Kyle>
 -----------------------
 #ふふ～ん！
-Nooo!
+Heh heh heh!
 -----------------------
 <Loni>
 -----------------------
 #なんだよ、気持ち悪ぃな
 #急に笑い出したりしてよ
-Hey, that's rude.
-Don't start laughing like that.
+Ugh, creepy.
+Don't just start cackling out of nowhere.
 -----------------------
 <Kyle>
 -----------------------
 #あの子の落とし物を
 #オレが拾うなんて
 #これって、やっぱり運命だよね！
-This girl's lost item.
-I can pick it up.
-It's got to be fate!
+Me finding something she lost?
+This has gotta be fate, right?!
 -----------------------
 <Loni>
 -----------------------
 #････はぁ、おまえはどうしてそう
 #物事を、いい方へいい方へとばっかり
 #考えられるのかねぇ
-....Hmm, why do you think that?
-This just gets better and better.
-Can you imagine?
+...Sigh. How do you always manage
+to twist everything into some
+rosy little fairy tale?
 -----------------------
 <Loni>
 -----------------------
 #とにかく、おまえが持っとけ
 #会えたら渡してやればいいさ
-Anyway, take it with you.
-If you see her again, you can give it back.
+Anyway, you hang onto it.
+Give it back to her if you run into her again.
 -----------------------
 #いってらっしゃいませ
-Have a good day.
+Welcome.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald per night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -111,11 +110,11 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
-Have a good night.
+Please rest well.
 -----------------------
 #おはようございます
 Good morning.
@@ -124,7 +123,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We look forward to your next visit.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -146,12 +145,11 @@ notice
 -----------------------
 #{16}{26}{02}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{26}{02}{C0} but
-inventory is full already.
+Found {16}{26}{02}{C0}, but
+couldn't carry it - inventory full.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

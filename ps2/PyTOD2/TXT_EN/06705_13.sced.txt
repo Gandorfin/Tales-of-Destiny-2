@@ -1,14 +1,14 @@
 #神のたまご・中層部
-God's Egg - Middle Layer
+Egg of God - Middle Layer
 -----------------------
 #神のたまご・中層部
-God's Egg - Middle Layer
+Egg of God - Middle Layer
 -----------------------
 <Loni>
 -----------------------
 #ストレイライズ大神殿････
 #ってことは、<Reala>か
-Stray Rize Grand Cathedral...
+The Straylize Grand Temple...
 So that means it's <Reala>, huh?
 -----------------------
 <Reala>
@@ -16,35 +16,35 @@ So that means it's <Reala>, huh?
 #ううん
 #私にはこの手の魔法は通じないわ
 #だからきっと、<Loni>のだと思う
-Nope.
-This kind of magic won't work on me.
+No.
+This kind of magic doesn't work on me.
 So I'm sure it's because of <Loni>.
 -----------------------
 NOTICE
 -----------------------
 #不気味に光る何かの『かけら』があります
 #不吉な予感がしますが、これを持っていきますか？
-There's some kind of fragment glowing eerily.
-I have a bad feeling about this... but are you going to take it?
+There's a fragment of something glowing ominously.
+A bad feeling hangs in the air... Will you take it?
 -----------------------
 select
 -----------------------
 #<03:00000000>　持っていく　
 #　持っていかない　
-<03:00000000>I'll take it.
-I won't take it.
+<03:00000000> Take it
+Don't take it
 -----------------------
 NOTICE
 -----------------------
 #デリスエンブレムのかけらを手に入れました
-I obtained a fragment of the Delis Emblem.
+Acquired a Delis Emblem fragment.
 -----------------------
 #いってらっしゃいませ
 Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald per night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -54,8 +54,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -89,12 +89,11 @@ notice
 -----------------------
 #{16}{25}{CA}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{CA}{C0} but
-inventory is full already.
+Found {16}{25}{CA}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

@@ -1,32 +1,31 @@
 #ハイデルベルグ
-Heidelburg
+Heidelberg
 -----------------------
 #ハイデルベルグ
-Heidelburg
+Heidelberg
 -----------------------
 #博物館『天地戦争の記憶』はこちら
-The Museum 'Memory of the Heavenly War' is right here.
+The museum 'Memory of the Aeth'er Wars' is this way.
 -----------------------
 #博物館『神の眼を巡る騒乱』はこちら
-The 'Riot Over God's Eye' at the museum is here.
+The museum 'The Unrest Over the Eye of Atamoni' is this way.
 -----------------------
 #ミヤ
-Mia
+Miya
 -----------------------
 #俺は建築士ミヤ
 #ウッドロウ王の命を受けて
 #この街の設計と建築を行ったんだ
-I'm Miyu, the architect.
-On King Woodrow's orders,
+I'm Miya, the architect.
+By order of King Garr,
 I designed and built this town.
 -----------------------
 #ミヤ
-Mia
+Miya
 -----------------------
 #この街について
 #なにか聞きたい事はあるかい？
-About this town
-Do you have any questions?
+Is there anything you'd like to know about this town?
 -----------------------
 select
 -----------------------
@@ -34,113 +33,111 @@ select
 #　旧市街について聞きたい　
 #　復興の象徴について聞きたい　
 #　もういきます　
-<03:00000000>I want to ask about the New Town.
-I want to ask about the Old Town.
-I want to ask about the symbol of reconstruction.
-I'm heading out.
+<03:00000000> Tell me about the New Town.
+Tell me about the Old Town.
+Tell me about the symbols of reconstruction.
+I'm done here.
 -----------------------
 #ミヤ
-Mia
+Miya
 -----------------------
 #新市街は十八年前の騒乱の後に
 #難民や移民たちの手で建築された地区の事だ
-The New Town was built after the unrest eighteen years ago.
-It's the district constructed by refugees and immigrants.
+The New Town is the district built by refugees and
+immigrants after the unrest eighteen years ago.
 -----------------------
 #ミヤ
-Mia
+Miya
 -----------------------
 #旧ハイデルベルグ市街を切り崩して
 #居住区や商店街を作ったんだ
 #あれは大変な作業だったよ
-Carving out the old Heidelburg city district
-to build residential areas and shopping streets
-It was quite an undertaking.
+We carved away the old Heidelberg city district to make room for
+residential areas and shopping streets. It was quite a job.
 -----------------------
 #ミヤ
-Mia
+Miya
 -----------------------
 #そのかいあってか、今では世界に
 #名立たる大都市にまで発展したよ
 #うれしいかぎりだね
-As it turns out, these days across the world,
-it has developed into one of the great metropolises.
-I couldn't be happier.
+Thanks to that effort, it's grown into one of the world's great metropolises.
+I couldn't be more pleased.
 -----------------------
 #ミヤ
-Mia
+Miya
 -----------------------
 #旧市街は十八年前の騒乱をかろうじて
 #乗り越えた一画の事だ
-The Old Town barely survived the unrest eighteen years ago,
-and that's what this district is all about.
+The Old Town is the district that barely made
+it through the unrest eighteen years ago.
 -----------------------
 #ミヤ
-Mia
+Miya
 -----------------------
 #新市街に比べると古い建物が多いだろう？
-You'll notice there are quite a few older buildings here compared to the new district, right?
+You'll find a lot more older buildings here compared to the New Town, right?
 -----------------------
 #ミヤ
-Mia
+Miya
 -----------------------
 #古都の落ち着いた雰囲気を壊さないよう
 #注意しながら作業したもんだよ
-We worked carefully so as not to disturb the calm atmosphere of the ancient city.
-That's how we did it.
+We took great care during construction to preserve
+the calm atmosphere of the ancient capital.
 -----------------------
 #ミヤ
-Mia
+Miya
 -----------------------
 #十八年前の騒乱を忘れないため
 #そして街の復興の記念として
 #象徴を作ったんだ
-To remember the turmoil from eighteen years ago
-And to commemorate the city's reconstruction
-We created this symbol.
+To ensure we never forget the turmoil of eighteen years ago,
+and to commemorate the city's reconstruction,
+we created several symbols.
 -----------------------
 #ミヤ
-Mia
+Miya
 -----------------------
 #まずひとつ目が『英雄門』
 #新市街と旧市街の間にある巨大な門のことだ
 The first is the 'Hero Gate'.
-It's a massive gate located between the New Town and the Old Town.
+It's a massive gate between the New Town and the Old Town.
 -----------------------
 #ミヤ
-Mia
+Miya
 -----------------------
 #ここは博物館と図書館になっている
 #何か調べ物があるなら行ってみるといい
-This place serves as both a museum and a library.
-If you have something to look up, it's worth checking out.
+It houses both a museum and a library.
+If you need to research something, you should stop by.
 -----------------------
 #ミヤ
-Mia
+Miya
 -----------------------
 #ふたつ目が『記念公園』
 #ハイデルベルグ城の横にある大きな公園だ
 #戦いを忘れ、公園でゆっくりと休むのも
 #いいもんだぞ
-The second location is 'Memorial Park'.
-It's a large park located next to Heidelberg Castle.
-Taking a moment to relax in the park,
-isn't such a bad idea.
+Second is Memorial Park.
+It lies beside Heidelberg Castle.
+People go there to forget battle
+and enjoy a peaceful rest.
 -----------------------
 #ミヤ
-Mia
+Miya
 -----------------------
 #街が完成した今となっては
 #昔の苦労も良い思い出だよ
 Now that the town is complete,
-the hardships we went through back then are just fond memories.
+the hardships of those days are fond memories.
 -----------------------
 #いってらっしゃいませ
 Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+<0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald per night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -150,8 +147,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.

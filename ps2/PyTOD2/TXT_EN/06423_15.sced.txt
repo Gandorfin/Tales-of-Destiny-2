@@ -1,43 +1,42 @@
 #オベロン社廃坑
-Abandoned Oberton Mine
+Oberon Corporation Abandoned Mine
 -----------------------
 #オベロン社廃坑
-Oberon Mine Abandoned
+Oberon Corporation Abandoned Mine
 -----------------------
 <Kyle>
 -----------------------
 #これ、なに？
-What is this?
+What's this?
 -----------------------
 <Judas>
 -----------------------
 #これは『レンズ起動型エンジン』といって、
 #レンズからエネルギーを引き出して
 #動力に変える機械だ
-This is called a 'Lens Activation Engine,'
-which draws energy from the lens
+This is called a 'Lens Activation Engine' -
+a device that draws energy from Lens
 and converts it into power.
 -----------------------
 <Judas>
 -----------------------
 #これを作動させれば、坑道内の設備を
 #再び動かすことができる
-If we activate this,
-we can get the facilities in the mine running again.
+If we activate it,
+we can get the mine's facilities running again.
 -----------------------
 <Reala>
 -----------------------
 #作動させるには、どうすればいいの？
-How do I activate it?
+How do we activate it?
 -----------------------
 <Judas>
 -----------------------
 #････このタンクにレンズを
 #入れればいいようだ
 #数は『２００』
-...Insert the lens into this tank.
-It seems I just need to put it in.
-The number is '200'.
+...It seems we need to insert Lens into this tank.
+The required amount is '200'.
 -----------------------
 <Loni>
 -----------------------
@@ -45,25 +44,25 @@ The number is '200'.
 #レンズ２００枚!?
 #そんなに必要なのかよ!?
 Two hundred...
-Two hundred lenses!?
-Do we really need that many!?
+Two hundred Lens!?
+We need that many!?
 -----------------------
 <Judas>
 -----------------------
 #文句を言っても仕方がない
 #とにかくレンズを探すぞ
 #廃坑の奥にいけば、あるかもしれない
-It's no use complaining.
-We'd better start looking for the lens.
-There might be something deeper in the abandoned mine.
+Complaining won't help.
+We need to find the Lens.
+There may be some deeper in the abandoned mine.
 -----------------------
 NOTICE
 -----------------------
 #<item:00000001>を手に入れました
-<item:00000001>You obtained .
+Acquired <item:00000001>.
 -----------------------
 #レンズエンジンは起動しています
-The Lens Engine is online.
+The Lens Engine is active.
 -----------------------
 select
 -----------------------
@@ -71,31 +70,31 @@ select
 #持っているレンズを{14}{34}{70}{C0}<0B:00000000>枚入れますか？
 #　はい　
 #　いいえ　
-<03:00000000>You need  more <0B:00000001>{14}{34}{74}{C0} lenses.
-Do you want to insert your current lenses as {14}{34}{70}{C0}<0B:00000000> pieces?
+<03:00000000>You need <0B:00000001>{14}{34}{74}{C0} more Lens.
+Insert {14}{34}{70}{C0}<0B:00000000> of your Lens?
 Yes
 No
 -----------------------
 #レンズエンジンは起動しました
-The Lens Engine has started up.
+The Lens Engine has activated.
 -----------------------
 #レンズを<0B:00000001>{14}{34}{70}{C0}<0B:00000000>枚入れました
-I've inserted <0B:00000001>{14}{34}{70}{C0}<0B:00000000> lens(es).
+Inserted <0B:00000001>{14}{34}{70}{C0}<0B:00000000> Lens.
 -----------------------
 #やめました
-I quit.
+Never mind.
 -----------------------
 #レンズを持っていません
-I don't have any lenses.
+You have no Lens.
 -----------------------
 notice
 -----------------------
 #いってらっしゃいませ
-Have a good day.
+Come again soon.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald per night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -105,11 +104,11 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
-Have a good night.
+Please rest well.
 -----------------------
 #おはようございます
 Good morning.
@@ -118,7 +117,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We look forward to your next visit.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -140,8 +139,8 @@ notice
 -----------------------
 #{16}{25}{CA}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{CA}{C0} but
-inventory is full already.
+Found {16}{25}{CA}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------
@@ -150,23 +149,22 @@ There's nothing here.
 -----------------------
 #{16}{35}{F0}{C0}を
 #<0B:00000001>{14}{35}{EC}{C0}<0B:00000000>個手に入れました
-{16}{35}{F0}{C0}'s
-<0B:00000001>{14}{35}{EC}{C0}<0B:00000000>obtained  units
+Acquired {16}{35}{F0}{C0}.
+<0B:00000001>{14}{35}{EC}{C0}<0B:00000000> units obtained.
 -----------------------
 #{16}{35}{F0}{C0}が<0B:00000001>{14}{35}{F4}{C0}<0B:00000000>個ありましたが
 #これ以上もてません
 #宝箱に戻しました
-{16}{35}{F0}{C0}There were  of <0B:00000001>{14}{35}{F4}{C0}<0B:00000000>, but
-I can't carry any more.
-I've put it back in the treasure chest.
+Found {16}{35}{F0}{C0} ×<0B:00000001>{14}{35}{F4}{C0}<0B:00000000>, but
+you can't carry any more.
+Returned it to the treasure chest.
 -----------------------
 #{16}{35}{F0}{C0}が<0B:00000001>{14}{35}{F4}{C0}個ありましたが
 #全部は持つことはできません
 #・{14}{35}{EC}{C0}個取り、{14}{35}{F8}{C0}<0B:00000000>個捨てる
 #・宝箱に戻す
-{16}{35}{F0}{C0}I had  <0B:00000001>{14}{35}{F4}{C0} in total,
-but I couldn't carry them all.
-- Take {14}{35}{EC}{C0} items and discard {14}{35}{F8}{C0} <0B:00000000>.
-- Put them back in the treasure chest.
+{16}{35}{F0}{C0} had <0B:00000001>{14}{35}{F4}{C0} in total,
+but could not carry them all.
+- Take {14}{35}{EC}{C0}, discard {14}{35}{F8}{C0}<0B:00000000>
+- Put them back in the treasure chest
 -----------------------
-

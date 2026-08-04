@@ -1,19 +1,19 @@
 #地上軍拠点
-Ground Forces Base
+Er'ther Base
 -----------------------
 #地上軍拠点
-Ground Forces Base
+Er'ther Base
 -----------------------
 #暖炉の火は、いつ果てるとも無く燃え続けている
-The fire in the hearth burns on endlessly.
+The fire in the hearth burns endlessly, with no sign of going out.
 -----------------------
 #担架と簡単な医療用具がある
 #どれもこれも、使い古された物ばかりだ
-There are stretchers and basic medical supplies.
-They're all worn-out items.
+There are stretchers and basic medical supplies here.
+Everything is worn out from long use.
 -----------------------
 #残り少ない医薬品が置かれている
-There's a small supply of medicine left.
+A small amount of medicine remains here.
 -----------------------
 #兵卒
 Soldier
@@ -21,9 +21,9 @@ Soldier
 #ラディスロウの中にいる
 #お偉いさんには、オレたち
 #下っ端の苦労は分からないだろうな
-Lurking inside Ladislaw
-We're just low-level grunts to the bigwigs
-They wouldn't understand the struggles of someone at the bottom.
+Those big shots holed up in Radisrol
+wouldn't understand the struggles
+of us grunts at the bottom, would they?
 -----------------------
 #兵卒
 Soldier
@@ -31,9 +31,9 @@ Soldier
 #こっちは現場で命をかけてるんだ
 #もう少し、待遇を良くしてくれても
 #いいだろうに
-We're risking our lives out here in the field.
-You could at least improve our working conditions.
-It's not that bad.
+We're risking our lives out here on the front lines.
+They could at least treat us a little better.
+Would it kill them?
 -----------------------
 #兵卒
 Soldier
@@ -41,42 +41,42 @@ Soldier
 #ま、上には上の苦労があるんだろうけどな
 #でも、命がけで戦ってる下っ端の苦労も
 #少しは分かってもらいたいもんだぜ
-Well, there are hardships at every level.
-But I want them to understand the struggles of the grunts fighting for their lives too,
-at least a little.
+Well, I suppose the higher-ups have their own troubles.
+But still, I'd like 'em to understand what us grunts
+go through fighting with our lives on the line.
 -----------------------
 #兵卒
-soldier
+Soldier
 -----------------------
 #クソッタレめ、この傷が治ってれば
 #ダイクロフト突入作戦に参加できたのに
-You bastard, if only this wound had healed...
-I could have joined the Dycrof infiltration mission.
+Damn it all... If this wound had healed,
+I could've joined the Dycroft assault operation.
 -----------------------
 #兵卒
 Soldier
 -----------------------
 #肝心な時に役に立てないなんて
 #情けねぇぜ････
-I can't believe I couldn't be of any help at such a crucial moment.
-This is pathetic.
+To be useless when it matters most...
+Pathetic...
 -----------------------
 #兵卒
 Soldier
 -----------------------
 #ふん、こうなったら
 #地上から命がけで応援してやるぜ
-Hmph, if it comes to this...
-I'll cheer you on with all my might from the surface.
+Hmph. Fine then.
+I'll risk my life cheering them on from the surface.
 -----------------------
 #兵卒
-soldier
+Soldier
 -----------------------
 #『くたばれミクトラン』ってな！
-Die, Miktlan!
+"Rot in hell, Kronos!"
 -----------------------
 #いってらっしゃいませ
-Have a good day.
+Welcome.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
@@ -90,8 +90,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -103,7 +103,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We look forward to your next visit.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -125,12 +125,11 @@ notice
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{C2}{C0} but
-inventory is full already.
+Found {16}{25}{C2}{C0}, but
+couldn't carry it--inventory full.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

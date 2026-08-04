@@ -1,26 +1,26 @@
 #ダリルシェイド地下水路
-Darilsheid Prison, Underground Canal
+Darilsheid Underground Waterway
 -----------------------
 #ダリルシェイド地下水路
-Darilsheid Prison, Underground Canal
+Darilsheid Underground Waterway
 -----------------------
 #・ボスに勝利していない
 #・石切り機を拾う
 #・石像を切り離した
 #・石像を切り離していない
-- You have not defeated the boss.
-- Picked up the stone cutter.
-- Separated the stone statue.
-- Did not detach the stone statue
+- Boss not yet defeated
+- Picked up the stone cutter
+- Separated the stone statue
+- Stone statue not yet separated
 -----------------------
 NOTICE
 -----------------------
 #張り紙がされています
 #『ドロボウがここから逃げたようなので
 #　以後、この出口を封鎖します』
-There's a sign on the door.
-"From now on, this exit will be closed,
-since a thief has escaped from here."
+There's a notice posted here.
+"A thief appears to have escaped through here.
+This exit will be sealed from now on."
 -----------------------
 <Kyle>
 -----------------------
@@ -32,30 +32,30 @@ Huh!?
 #ソーサラーリングでは
 #火力が足りないようだな
 #なにか燃える物を持ってくるんだ
-The heat from the Sorcerer's Ring
-isn't enough. We need something
-more flammable.
+The Sorcerer's Ring doesn't
+seem to pack enough heat.
+Bring something that burns.
 -----------------------
 <Kyle>
 -----------------------
 #うわ！　なんだこの
 #ネバネバしたのは!?
-Whoa! What is this?
-What's that sticky stuff?!
+Whoa! What's this
+sticky stuff?!
 -----------------------
 <Judas>
 -----------------------
 #これを手で取り払うのは
 #不可能だな････
-Hmm, clearing this away by
-hand is out of the question...
+Clearing this away by hand
+would be impossible...
 -----------------------
 NOTICE
 -----------------------
 #石切り機を使って
 #石像と土台を切り離しました
 Used the stone cutter.
-The stone statue and the base were separated.
+Separated the stone statue from its base.
 -----------------------
 NOTICE
 -----------------------
@@ -63,15 +63,15 @@ NOTICE
 #石の土台にしっかりと固定されていますが
 #切り離せば引きずって動かせそうです
 There is a stone statue.
-It's firmly fixed to a stone base,
-but if you detach it, you can drag it around.
+It is firmly fixed to a stone base,
+but detaching it would let you drag it around.
 -----------------------
 <Judas>
 -----------------------
 #････待て！なにかいるぞ！
 #気を付けろ！
-Hold on! Something's there!
-Beware!
+...Wait! Something's here!
+Stay on guard!
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -88,8 +88,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -101,7 +101,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We look forward to your next visit.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -124,7 +124,7 @@ notice
 #{16}{25}{D2}{C0}がありましたが
 #いっぱいで持てませんでした
 {16}{25}{D2}{C0}There was , but
-I couldn't hold it because it was full.
+your inventory was full.
 -----------------------
 notice
 -----------------------

@@ -1,25 +1,25 @@
 #カタコンベ・転生の門
-Catacomb: Gate of Rebirth
+Catacombs: Gate of Rebirth
 -----------------------
 #カタコンベ
-Catacomb
+Catacombs
 -----------------------
 #転生の門
-Gate of Reincarnation
+Gate of Rebirth
 -----------------------
 NOTICE
 -----------------------
 #巨大な石版が道を塞いでいます
 #この石版は壊せそうにありません
-A massive stone slab is blocking the path.
-This stone slab doesn't look like it can be broken.
+A massive stone slab blocks the path.
+This slab doesn't look like it can be broken.
 -----------------------
 #いってらっしゃいませ
 Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -29,8 +29,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -42,7 +42,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We hope to see you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -53,7 +53,7 @@ exit-party_togather( short spd )
 notice
 -----------------------
 #{16}{27}{3A}{C0}を手に入れました
-{16}{27}{3A}{C0}You obtained .
+{16}{27}{3A}{C0}Acquired .
 -----------------------
 notice
 -----------------------
@@ -64,12 +64,11 @@ notice
 -----------------------
 #{16}{27}{42}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{27}{42}{C0}There was , but
-I couldn't hold it because it was full.
+{16}{27}{42}{C0}Found , but
+your inventory is full.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

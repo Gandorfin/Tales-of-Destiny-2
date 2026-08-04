@@ -1,11 +1,11 @@
 #物資保管所・ソーディアン研究室
-Supply Storage & Sodian Research Lab
+Supply Storage & Swordian Research Lab
 -----------------------
 #物資保管所
-Supply Storage
+Supplies Storage
 -----------------------
 #ソーディアン研究室
-Sordian Research Lab
+Swordian Research Lab
 -----------------------
 <Harold>
 -----------------------
@@ -17,78 +17,78 @@ and finish it up.
 <Harold>
 -----------------------
 #これでよし････と！
-It's done... finally!
+There we go... perfect!
 -----------------------
 <Harold>
 -----------------------
 #いい、あんたたち？
 #しっかり目に焼きつけなさいよ
 #この歴史的瞬間を！
-Alright, you guys?
-Burn it into your memories.
-This historic moment!
+You getting this, everyone?
+Burn this into your eyes,
+this historic moment!
 -----------------------
 <Kyle>
 -----------------------
 #す、すごいや････！
-W-wow!...
+W-Wow...!
 -----------------------
 <Nanaly>
 -----------------------
 #どうなってんのさ、いったい？
 #まぶしくてなんにも見えやしない
 What's going on, anyway?
-It's so bright I can't see anything.
+It's so bright I can't see a thing.
 -----------------------
 <Loni>
 -----------------------
 #こ、こりゃあすげぇ････
 #これがソーディアンか････！
-W-well, I'll be...
-So this is a Sodian...!
+W-Well, I'll be...
+So this is a Swordian...!
 -----------------------
 #ディムロス
 Dymlos
 -----------------------
 #驚いたな、試作品よりも
 #はるかに使いやすくなっている
-You're surprised? It's far superior to the prototype.
-It's much easier to use.
+I'm amazed. It's far easier
+to wield than the prototype.
 -----------------------
 #イクティノス
-Ictinus
+Igtenos
 -----------------------
 #これは････本当に剣なのか？
 #持っている感覚さえない
 #まるで自分の手の一部のようだ
 What... is this truly a sword?
-I can't even feel it in my hand.
+I can't even feel myself holding it.
 It's as if it were part of my own hand.
 -----------------------
 #シャルティエ
-Shalitea
+Chaltier
 -----------------------
 #握っただけで、すごさがわかります
 #この剣さえあれば
 #だれにも負ける気がしません
-Just holding it tells you how amazing it is.
+Simply holding it tells me how amazing it is.
 With this sword alone,
-I feel like I can't lose to anyone.
+I feel I could never lose to anyone.
 -----------------------
 <Harold>
 -----------------------
 #この程度で驚かれちゃ困るわ
 #ソーディアンには
 #もっとすごい力があるんだから
-I'm not easily impressed by something like this.
-To the Sordian,
-there's even greater power.
+It'd be a problem if you were amazed by just this.
+Swordians possess
+even greater power than that.
 -----------------------
 #カーレル
-Carrel
+Karell
 -----------------------
 #すごい力････？
-A tremendous power...?
+Greater power...?
 -----------------------
 <Harold>
 -----------------------
@@ -103,53 +103,53 @@ Haaaaaah!!
 <Harold>
 -----------------------
 #あちゃ～、やりすぎちゃったかな
-Oh no... did I go too far?
+Oops... did I overdo it?
 -----------------------
 #カーレル
-Carrel
+Karell
 -----------------------
 #い、いまのは････!?
-T-That was...!?
+W-What was that...!?
 -----------------------
 <Harold>
 -----------------------
 #ディムロスは知ってると思うけど
 #この剣を持つ者は晶術という
 #特殊な力が使えるのよ
-I'm sure you know about Dimrose.
-Those who wield this sword can use Lens Arte,
-a special power.
+I'm sure Dymlos already knows, but
+those who wield these swords can use a special
+power called Lens Arte.
 -----------------------
 <Harold>
 -----------------------
 #晶術はひとりひとり特性が違うから
 #六人もいれば、おたがいの弱点を
 #補いあえるってわけ
-Lens Arts vary in nature from person to person,
-With six people around, you can
-cover each other's weaknesses.
+Lens Arte differs from person to person,
+so with six of us, we can
+cover for each other's weaknesses.
 -----------------------
 <Harold>
 -----------------------
 #どう、スゴいっしょ？
-How awesome is that?
+Pretty amazing, right?
 -----------------------
 #カーレル
-Carrel
+Karell
 -----------------------
 #まったく、おまえは天才だよ
 #我が妹ながらときどき
 #そらおそろしくなる････
-You really are a genius.
-My sister can be something else sometimes,
-It's terrifying...
+Honestly, you're a genius.
+Even as your older brother, I sometimes
+find you terrifying...
 -----------------------
 <Harold>
 -----------------------
 #あら、今ごろ気づいたの？
 #まったく、兄貴ってアホね
-Oh? You just noticed?
-Seriously, you're such an idiot.
+Oh? Only just noticed?
+Honestly, you're such an idiot.
 -----------------------
 #ディムロス
 Dymlos
@@ -157,9 +157,9 @@ Dymlos
 #ところで、<Kyle>くん
 #申し訳ないが、この吉報を
 #司令に届けてもらえないだろうか？
-By the way, <Kyle>
-I'm afraid I can't share this good news.
-Could you deliver it to the commander?
+By the way, <Kyle>,
+I'm sorry to ask, but could you deliver
+this good news to the commander?
 -----------------------
 #ディムロス
 Dymlos
@@ -167,16 +167,16 @@ Dymlos
 #我々は<Harold>に
 #晶術の操り方を
 #学ばねばならないんでね
-We are at <Harold>
-how to wield Lens Arte
-I've got to learn it.
+We must learn from <Harold>
+how to wield Lens Arte.
+That's simply how it is.
 -----------------------
 <Kyle>
 -----------------------
 #わかりました
 #まかせてください、ディムロスさん
 Understood.
-Leave it to me, Mr. Dimlos.
+Leave it to me, Dymlos.
 -----------------------
 notice
 -----------------------
@@ -189,78 +189,77 @@ You've earned the title '<item:0000080F>'!
 -----------------------
 #急いで、リトラーさんに
 #ソーディアン完成のことを知らせよう！
-Hurry, we need to tell Mr. Littra
-about the completion of the Sordian!
+Hurry, let's tell Marius
+about the Swordians being completed!
 -----------------------
 #ディムロス
 Dymlos
 -----------------------
 #ソーディアン完成の吉報を
 #司令に届けてもらえないだろうか？
-The good news regarding the completion of the Sordian
-Could you deliver it to the commander?
+Could you deliver the good news
+of the Swordians' completion to the commander?
 -----------------------
 #ディムロス
-Dimlos
+Dymlos
 -----------------------
 #我々は<Harold>に
 #晶術の操り方を
 #学ばねばならないんでね
-We need to learn from <Harold>
-how to wield Lens Arte
-we have to.
+We must learn from <Harold>
+how to wield Lens Arte.
+That's simply how it is.
 -----------------------
 #イクティノス
-Iktinos
+Igtenos
 -----------------------
 #これは････本当に剣なのか？
 #持っている感覚さえない
 #まるで自分の手の一部のようだ
 What... is this truly a sword?
-I can't even feel it in my hand.
-It feels just like part of my own body.
+I can't even feel myself holding it.
+It's as if it were part of my own hand.
 -----------------------
 #シャルティエ
 Chaltier
 -----------------------
 #これがソーディアン････
-This is a Sodian...
+So this is a Swordian...
 -----------------------
 #カーレル
-Carrel
+Karell
 -----------------------
 #このソーディアンの名前は
 #ベルセリオスなんだ
-This Sorian's name is
-Berselius.
+This Swordian's name
+is Berselius.
 -----------------------
 #カーレル
-Carrel
+Karell
 -----------------------
 #それぞれのソーディアンには
 #使い手の人格が投影されているが････
-Each Sordian
-reflects the personality of its wielder...
+Each Swordian has
+its wielder's personality projected into it, but...
 -----------------------
 #カーレル
-Carrel
+Karell
 -----------------------
 #これには、<Harold>の人格が
 #入っている
-This contains <Harold>'s personality
-is inside it.
+This one contains <Harold>'s personality.
 -----------------------
 #カーレル
-Carrel
+Karell
 -----------------------
 #使い手は私････
 #人格は<Harold>････
 #私と<Harold>は、いかなる時も共にある
 #それが私の力となるんだ
-The user is me...
-My personality is <Harold>...
-I am always together with <Harold>, no matter what.
-That becomes my power.
+I am the wielder...
+The personality is <Harold>...
+<Harold> and I are together, no matter what.
+That is what gives me strength.
 -----------------------
 #クレメンテ
 Clemente
@@ -268,7 +267,7 @@ Clemente
 #なんという軽さじゃ････
 #ほとんど、重さを感じないのぉ････
 #ホイッホイッとな
-What lightness...
+Such lightness...
 I can hardly feel any weight at all...
 Heave-ho, heave-ho.
 -----------------------
@@ -277,28 +276,28 @@ Atwight
 -----------------------
 #晶術には
 #回復のための術もあるのですね？
-Lens Arte includes
-there are spells for healing as well, right?
+Magic Artes include
+spells for healing as well, don't they?
 -----------------------
 #ラディッツ
-Raditz
+Radisrol
 -----------------------
 #ベルクラントを開発してしまった罪を
 #このソーディアンによって
 #清算できればいいのだが････
-I hope I can atone for my sin of developing Belkranth
-through this Sodian
-and settle the score...
+If only I could atone for my sin
+of developing Belcrant
+through this Swordian...
 -----------------------
 #ラディッツ
-Raditz
+Radisrol
 -----------------------
 #ベルクラントを開発してしまった罪を
 #このソーディアンによって
 #清算できればいいのだが････
-I hope I can atone for my sin of developing Belkranth
-through this Sodian
-and settle the score...
+If only I could atone for my sin
+of developing Belcrant
+through this Swordian...
 -----------------------
 #研究員
 Researcher
@@ -306,7 +305,7 @@ Researcher
 #ベルクラント････
 #我々は
 #おそろしいものを作ってしまった
-Belkranth...
+Belcrant...
 We have
 created something terrible.
 -----------------------
@@ -316,9 +315,9 @@ Researcher
 #<Harold>博士は天才だ････
 #しかし、私は
 #彼女の普段の行動が理解できない････
-Dr. <Harold> is such a genius!
+Dr. <Harold> is a genius...
 But I...
-I just can't understand her usual behavior... it's so puzzling~
+I just can't understand her usual behavior...
 -----------------------
 #研究員
 Researcher
@@ -327,8 +326,8 @@ Researcher
 #あのデータは
 #どこにいったかな？
 Um...
-That data is...
-Where did it go?
+Now where did
+that data go?
 -----------------------
 #研究員
 Researcher
@@ -336,7 +335,7 @@ Researcher
 #今の私には
 #見守る事しかできません
 As I am now,
-I can only watch over you.
+all I can do is watch over you.
 -----------------------
 #研究員
 Researcher
@@ -346,7 +345,7 @@ Researcher
 #ぶつぶつ････
 Administering personality to the core...
 ...material strength is...
-Muttering...
+*mumble mumble*...
 -----------------------
 #研究員
 Researcher
@@ -355,18 +354,18 @@ Researcher
 #完成を目の当たりにして少し複雑な気分です････
 #研究者は結果ではなく研究のプロセスの中に
 #生きがいを求めているのです
-It could also be called the goal of our research.
-I feel a bit conflicted seeing it come to completion...
+It could be called the goal of our research.
+Seeing it completed leaves me with mixed feelings...
 For researchers, fulfillment isn't found in the results,
-But rather in the process of the research itself.
+but in the process of the research itself.
 -----------------------
 #研究員
 Researcher
 -----------------------
 #我々を救出して下さった方々ですね
 #そのせつは本当にありがとうございました！
-The ones who came to our rescue.
-Thank you so much for your kindness!
+You're the ones who rescued us.
+Thank you so very much for that!
 -----------------------
 #研究員
 Researcher
@@ -375,16 +374,16 @@ Researcher
 #正直、嫉妬の感情を抱くよ････
 #天才というものは
 #真に存在するものなのだね････
-Dr. <Harold>, I have to admit...
-I feel a twinge of jealousy...!
-A true genius...
-is truly out there somewhere...
+I must admit, I feel a twinge of jealousy
+toward Dr. <Harold>...
+So a true genius
+really does exist...
 -----------------------
 #研究員
 Researcher
 -----------------------
 #何日も徹夜したかいがあった････
-It was all worth it after pulling those nights in a row...
+All those sleepless nights were worth it...
 -----------------------
 #研究員
 Researcher
@@ -395,42 +394,42 @@ Researcher
 #思いませんでした････
 I hate war!
 But I never imagined
-that I would end up
-getting involved in a war like this...
+I'd end up taking part in a war
+like this...
 -----------------------
 #研究員
 Researcher
 -----------------------
 #早くこんな戦争は
 #終わってほしいものです
-Hurry up and end this war already.
-I just want it to end.
+I just want this war
+to end as soon as possible.
 -----------------------
 <Harold>
 -----------------------
 #そんじゃ、またあとでね
-Well then, I'll see you later.
+Well then, see you later.
 -----------------------
 <Harold>
 -----------------------
 #ホラホラ、研究の邪魔しないの
 #これあげるから、戻って戻って
 Come on, don't get in the way of my research.
-I'll give you this, so go back, go back.
+Here, I'll give you this, so go on, shoo.
 -----------------------
 NOTICE
 -----------------------
 #<item:000001B2>を手に入れました
-<item:000001B2>You obtained .
+Acquired <item:000001B2>.
 -----------------------
 <Harold>
 -----------------------
 #ホラホラ、研究の邪魔しないの
 #アンタたちはアンタたちの用事を
 #すませてきちゃいなさい
-Hurry up, don't get in the way of my research.
-You guys should go handle your own business,
-and finish it up.
+Come on, don't get in the way of my research.
+You all have your own business to attend to,
+so go take care of it.
 -----------------------
 #ライトニング！
 Lightning!
@@ -450,8 +449,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -463,7 +462,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We look forward to your next visit.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -485,12 +484,11 @@ notice
 -----------------------
 #{16}{25}{CE}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{25}{CE}{C0}There was , but
-I couldn't hold it because it was full.
+Found {16}{25}{CE}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

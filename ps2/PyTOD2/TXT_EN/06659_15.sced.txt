@@ -2,7 +2,7 @@
 Egg of God - Upper Layer
 -----------------------
 #神のたまご・上層部
-God's Egg - Upper Level
+Egg of God - Upper Layer
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -19,8 +19,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -54,12 +54,11 @@ notice
 -----------------------
 #{16}{26}{2A}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{26}{2A}{C0}There was , but
-I couldn't hold it because it was full.
+Found {16}{26}{2A}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

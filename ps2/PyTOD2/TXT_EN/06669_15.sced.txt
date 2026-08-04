@@ -1,8 +1,8 @@
 #神のたまご・上層部
-Divine Egg - Upper Layer
+Egg of God - Upper Layer
 -----------------------
 #神のたまご・上層部
-Divine Egg - Upper Layer
+Egg of God - Upper Layer
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -19,8 +19,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -43,7 +43,7 @@ exit-party_togather( short spd )
 notice
 -----------------------
 #{16}{25}{EA}{C0}を手に入れました
-{16}{25}{EA}{C0}You obtained .
+Acquired {16}{25}{EA}{C0}.
 -----------------------
 notice
 -----------------------
@@ -54,12 +54,11 @@ notice
 -----------------------
 #{16}{25}{F2}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{25}{F2}{C0}There was , but
-I couldn't carry it because it was full.
+{16}{25}{F2}{C0} was found, but
+your inventory is full.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

@@ -2,7 +2,7 @@
 Egg of God - Upper Layer
 -----------------------
 #神のたまご・上層部
-Upper Layer of the God's Egg
+Egg of God - Upper Layer
 -----------------------
 <Nanaly>
 -----------------------
@@ -10,83 +10,83 @@ Upper Layer of the God's Egg
 #それにしても、なんだいここは？
 #カベには鏡、床には変な模様････
 Looks like a dead end.
-Still, what is this place?
-There's a mirror on the wall and strange patterns on the floor...
+What even is this place?
+Mirrors on the walls, strange patterns on the floor...
 -----------------------
 <Harold>
 -----------------------
 #床のは「デリスエンブレム」ね
 #歪められた時間と時空を正す魔法の紋章
-The floor has the 'Delis Emblem' on it.
-A magical seal that corrects distorted time and spacetime.
+That on the floor is the 'Delis Emblem.'
+A magical seal that corrects distorted time and space.
 -----------------------
 <Loni>
 -----------------------
 #こっちの鏡は、なんだろうな
 #見たところ普通の鏡くさいが････
-This mirror here... I wonder what it is?
-It looks like an ordinary mirror...
+What's with this mirror, though?
+Looks like any ordinary mirror to me...
 -----------------------
 <Loni>
 -----------------------
 #おわっ！
 #これ、ただの鏡じゃねえぞ！
 Whoa!
-This isn't just any old mirror!
+This ain't just some ordinary mirror!
 -----------------------
 <Reala>
 -----------------------
 #････この鏡は
 #人の肉体ではなく
 #精神を映しているんだわ
-...This mirror is
-not reflecting the human body,
-but rather the spirit.
+...This mirror
+doesn't reflect our physical bodies.
+It reflects the spirit.
 -----------------------
 <Kyle>
 -----------------------
 #精神を映す？
-Reflecting the spirit?
+The spirit?
 -----------------------
 <Reala>
 -----------------------
 #前に、エルレインに
 #夢を見させられた事があったでしょう？
 #あれと同じよ
-Before, you were made to dream by Elraine,
-right?
-It's just like that.
+Remember before, when Elrane
+made you dream?
+It's the same thing.
 -----------------------
 <Reala>
 -----------------------
 #この鏡の中には
 #みんなの記憶を象った世界が
 #広がっている････
-In this mirror,
-is a world that embodies everyone's memories
-stretching out...
+Inside this mirror,
+a world shaped from all of our memories
+is waiting...
 -----------------------
 <Judas>
 -----------------------
 #記憶を象った世界か
 #ふん、どこまで歪められていることやら
-A world shaped by memories?
-Hmph, just how distorted it's become.
+A world shaped from memories?
+Hmph. I can only imagine how distorted it is.
 -----------------------
 <Judas>
 -----------------------
 #大方、そのデリスエンブレムとかいう物で
 #歪みを戻せという事だろうが････
-It's probably something to do with that 'Delis Emblem'...
-...that we should reverse the distortion.
+Most likely, that 'Delis Emblem' or whatever
+is meant to restore the distortion.
 -----------------------
 <Kyle>
 -----------------------
 #この先にエルレインがいるのなら
 #先に進むだけさ
 #いこう、みんな！
-If Elraine is ahead of us,
-We just keep moving forward.
+If Elrane's up ahead,
+we just keep moving forward.
 Let's go, everyone!
 -----------------------
 #いってらっしゃいませ
@@ -104,8 +104,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -139,7 +139,7 @@ notice
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{C2}{C0} but
+Found {16}{25}{C2}{C0}, but
 inventory is full already.
 -----------------------
 notice
@@ -147,4 +147,3 @@ notice
 #何もありません
 There's nothing here.
 -----------------------
-

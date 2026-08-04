@@ -10,8 +10,8 @@ Townsperson
 #きっと、エルレインさまも
 #あなたたちと同じぐらい
 #いや、もっとお美しいんでしょうねぇ
-Lady Ellrein is surely...
-Just as beautiful as you all,
+I'm sure Lady Elrane is
+just as beautiful as all of you...
 No, even more so.
 -----------------------
 #街の人
@@ -20,55 +20,55 @@ Townsperson
 #････すごい！
 #はじめて見た！
 ...Amazing!
-I've never seen anything like it before!
+I've never seen anything like it!
 -----------------------
 <Kyle>
 -----------------------
 #な、なんだなんだ？
-What's going on?
+Wh-what's going on?
 -----------------------
 #街の人
-Citizen of the town
+Townsperson
 -----------------------
 #外から来た････しかも
 #こんな可愛らしい女の子たちを
 #はじめて見ましたッ！
-From the outside... And moreover,
-These adorable girls...
-I've never seen it before!
+From the outside... and moreover,
+girls this adorable...
+I've never seen the like!
 -----------------------
 #青年
-Youth
+Young Man
 -----------------------
 #ひえぇ～！
 #なんで、おいかけてくるんですかぁ!?
-Hiiie~!
+Hiiiie~!
 Why are you chasing me!?
 -----------------------
 <Kyle>
 -----------------------
 #そっちこそ
 #どうして逃げるんだよ！
-You're the one who should be asking that.
+You're the one running!
 Why are you running away?!
 -----------------------
 #青年
-Youth
+Young Man
 -----------------------
 #いや、その････
 #外の世界から来たなんて
 #バイ菌が、たくさんついてそうで････
 No, it's just...
-To think they came from the outside world...
-It looks like there are tons of germs on them...
+Coming from the outside world and all...
+You must be covered in germs...
 -----------------------
 #青年
-Youth
+Young Man
 -----------------------
 #う、うわぁっ!!
 #こ、こっちにこないでくださぁい!!
-W-wait!
-P-please don't come over here!!
+W-waaah!!
+D-don't come this way!!
 -----------------------
 <Kyle>
 -----------------------
@@ -79,64 +79,64 @@ What's this?
 -----------------------
 #ボタンがついてるな････
 #押してみっか
-I see buttons here...
-Wanna give it a press?
+It's got buttons...
+Let's give 'em a press.
 -----------------------
 <Loni>
 -----------------------
 #うわっ！
 #な、なんだ!?
 Whoa!
-W-What!?
+Wh-what?!
 -----------------------
 <Judas>
 -----------------------
 #世界地図のようだな
-It looks like a world map.
+It appears to be a world map.
 -----------------------
 <Judas>
 -----------------------
 #だが、これは････
-But still...
+But this...
 -----------------------
 <Nanaly>
 -----------------------
 #同じだ････山も、川も、みんな
 #あたしたちの知っているのと
 #同じ場所にある！
-It's all the same... the mountains, the rivers, everything.
-Just like we know it,
-In the very same place!
+It's the same... The mountains, the rivers, everything.
+They're all in the same places
+we know them to be!
 -----------------------
 <Judas>
 -----------------------
 #これで、間違いないな
 #この世界は、やはり
 #僕たちのいた世界と同じなんだ
-There, that settles it.
+This confirms it.
 This world is indeed...
-Just like our own.
+the same one we came from.
 -----------------------
 <Loni>
 -----------------------
 #でもよ、街は違ってるぜ？
 #クレスタも、アイグレッテも
 #ハイデルベルグも無い
-But hey, the town's different, right?
-Both Cresta and Aigrette
-And there's no Heidelberg either.
+But hey, the towns are different, right?
+Cresta, Aigrette,
+and Heidelberg are all missing.
 -----------------------
 <Judas>
 -----------------------
 #場所も、名前も違うな
 #これが歴史改変の手掛かりに････
-Different place, different name.
-This could be a clue to history being altered...
+Different locations, different names.
+This must be a clue to the altered history...
 -----------------------
 <Judas>
 -----------------------
 #････ん？
-Hm?
+...Hm?
 -----------------------
 <Judas>
 -----------------------
@@ -144,8 +144,8 @@ Hm?
 #天地戦争時代と
 #変わっていないのか!?
 ...Is that true?
-During the War of Heaven and Earth,
-Hasn't it changed at all!?
+It's no different
+from the Aeth'er Wars era!?
 -----------------------
 <Kyle>
 -----------------------
@@ -155,25 +155,25 @@ Hasn't it changed at all!?
 <Judas>
 -----------------------
 #あ、いや････
-Oh, no...
+Ah, nothing...
 -----------------------
 <Judas>
 -----------------------
 #ヴァンジェロもスペランツァも
 #天地戦争時代以前にあった
 #街の名前らしい
-Vangelo and Speranza,
-dating back to before the War of Heavens and Earth
-seem to be the names of towns.
+Vangelo and Speranza both appear to be
+town names from before
+the Aeth'er Wars.
 -----------------------
 <Judas>
 -----------------------
 #本来ならば、天地戦争が終結したあと
 #壊滅した街を復興させる過程で
 #名称や場所が変わった
-In theory, after the war between Heaven and Earth had concluded
-during the process of rebuilding the devastated city
-the names and locations have changed
+Normally, after the Aeth'er Wars ended,
+the names and locations changed
+in the process of rebuilding the devastated cities.
 -----------------------
 <Judas>
 -----------------------
@@ -181,8 +181,8 @@ the names and locations have changed
 #それが行われていない････
 #歴史が、ねじ曲げられているんだ
 But in this world,
-that hasn't happened...
-history has been twisted.
+that never happened...
+History has been twisted.
 -----------------------
 <Kyle>
 -----------------------
@@ -193,7 +193,7 @@ I see...
 -----------------------
 #ねぇ、この街、ハイデルベルグと
 #同じ場所にあるんじゃない？
-Hey, isn't this town,
+Hey, isn't this town
 in the same place as Heidelberg?
 -----------------------
 <Loni>
@@ -201,18 +201,18 @@ in the same place as Heidelberg?
 #どれどれ････レアルタってところか
 #で、今いるのがスペランツァだから････
 #なんとか、行けそうだな
-Well then... This is Realta, I assume.
-So, since we're currently in Speranza...
-I think we can make it somehow.
+Lemme see... So this Realta place.
+And we're in Speranza right now...
+Yeah, we can probably make it there somehow.
 -----------------------
 <Judas>
 -----------------------
 #地図で見るかぎりは、大きそうな街だな
 #ここなら、もっと
 #情報が手に入るかもしれない
-As far as I can see on the map, it looks like a pretty big town.
-If we're here, we might be able to get even more...
-...information.
+It looks like a fairly large town from what I can see on the map.
+If we go there, we might be able to find
+more information.
 -----------------------
 <Kyle>
 -----------------------
@@ -221,10 +221,10 @@ If we're here, we might be able to get even more...
 #じゃなかった、レアルタへ！
 Alright, let's go!
 Heidelberg...
-No wait, to Realta!
+No, I mean, to Realta!
 -----------------------
 #いってらっしゃいませ
-Have a good day.
+Come again soon.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
@@ -238,8 +238,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -251,7 +251,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We look forward to your next visit.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -273,7 +273,7 @@ notice
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{C2}{C0} but
+Found {16}{25}{C2}{C0}, but
 inventory is full already.
 -----------------------
 notice
@@ -281,4 +281,3 @@ notice
 #何もありません
 There's nothing here.
 -----------------------
-

@@ -1,14 +1,14 @@
 #ラディスロウ
-Ladislaw
+Radisrol
 -----------------------
 #ラディスロウ
-Ladislaw
+Radisrol
 -----------------------
 #『集金箱』と書かれた箱がある
-There's a box labeled 'Collection Box'.
+There's a box labeled "Collection Box."
 -----------------------
 #『カンバラーベアスーツ図案』
-"Cumballa Bear Suit Pattern"
+"Kumbara Bear Suit Pattern"
 -----------------------
 #箱の中には食料が入っている
 The box contains food supplies.
@@ -18,16 +18,16 @@ Soldier A
 -----------------------
 #君はこの戦争が終わったら
 #どうするつもりだい？
-Once this war is over,
-what are you planning to do?
+What do you plan to do
+once this war is over?
 -----------------------
 #兵卒Ｂ
 Soldier B
 -----------------------
 #さあ････
 #そんな先のこと、考えられないわ
-Well then...
-I can't even think about what's going to happen next.
+Who knows...
+I can't even think that far ahead.
 -----------------------
 #兵卒Ａ
 Soldier A
@@ -35,25 +35,25 @@ Soldier A
 #俺はね
 #どこかの山奥に村を作ろうと
 #思ってるんだ
-I'm thinking
-of building a village
-somewhere deep in the mountains.
+Me? I'm thinking of building
+a village somewhere deep
+in the mountains.
 -----------------------
 #兵卒Ｂ
 Soldier B
 -----------------------
 #山奥の村ねえ
 #そこで畑でも耕して生きるつもり？
-In a village deep in the mountains?
-So you plan to just till fields and survive out there?
+A village deep in the mountains?
+So you'd till the fields and live off the land?
 -----------------------
 #兵卒Ａ
 Soldier A
 -----------------------
 #悪くない生活だろ？
 #剣を持つのは、もうあきたよ
-Not a bad life, is it?
-I'm done carrying swords.
+Not a bad life, right?
+I'm sick of carrying a sword.
 -----------------------
 #兵卒Ｂ
 Soldier B
@@ -61,37 +61,37 @@ Soldier B
 #そうかもね
 #もし生き残ったら
 #私もついていってあげるわ
-It could be.
-If I survive,
-I'll go along too.
+Maybe so.
+If I make it through alive,
+I'll come with you.
 -----------------------
 #兵卒Ｃ
 Soldier C
 -----------------------
 #よう
 #お前さん、出身はどこだい？
-Hey there.
+Hey.
 Where are you from?
 -----------------------
 <Kyle>
 -----------------------
 #クレスタってところだよ
-It's Cresta.
+A place called Cresta.
 -----------------------
 #兵卒Ｃ
 Soldier C
 -----------------------
 #クレスタ？聞いたことないなぁ
-Cresta? I've never heard of her.
+Cresta? Never heard of it.
 -----------------------
 <Loni>
 -----------------------
 #おいおい<Kyle>
 #天地戦争時代にゃ
 #クレスタなんて存在してないぜ
-Hey, hey, <Kyle>
-Back in the days of the Heavenly War
-There was no such thing as Cresta
+Hey, hey, <Kyle>!
+Back in the Aeth'er Wars,
+there was no such place as Cresta.
 -----------------------
 <Kyle>
 -----------------------
@@ -113,8 +113,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -148,12 +148,11 @@ notice
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{C2}{C0} but
-inventory is full already.
+Found {16}{25}{C2}{C0}, but couldn't
+carry it due to full inventory.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

@@ -1,64 +1,64 @@
 #聖地カルビオラ
-Holy Land Calbora
+Calviola, the Holy Land
 -----------------------
 #聖地カルビオラ
-Holy Land Calbiole
+Calviola, the Holy Land
 -----------------------
 NOTICE
 -----------------------
 #扉は固く閉ざされています
-The door is firmly shut.
+The door is tightly shut.
 -----------------------
 <Kyle>
 -----------------------
 #えっと････
 #『神は光　光は熱
 #　熱と光を神に捧げよ』
-Well...
-The divine is light, light is heat,
-Offer your heat and light to the divine.
+Let's see...
+'God is light, and light is heat.
+Offer your heat and light unto God.'
 -----------------------
 <Loni>
 -----------------------
 #なにかの暗号みたいだな
 #熱と光か････
-It's like some kind of cipher.
-Heat and light, huh...?
+Looks like some kinda cipher.
+Heat and light, huh...
 -----------------------
 <Kyle>
 -----------------------
 #よっしゃ！
-You got it!
+All right!
 -----------------------
 #僧兵
-Sohei
+Monk Soldier
 -----------------------
 #貴様ら！
 #そこで何をしている！
-You lot!
-What are you doing there!
+You there!
+What do you think you're doing?!
 -----------------------
 <Loni>
 -----------------------
 #おわっ！しまった！
 #もう戻ってきちまいやがった！
-Whoa! Darn it!
-I've already gone back!
+Whoa! Damn it!
+They're already back!
 -----------------------
 #僧兵
-Sohei
+Monk Soldier
 -----------------------
 #神の御前を汚そうとする
 #ふらち者め！覚悟しろ！
-To defile the presence of God
-You fool! Prepare yourself!
+You would defile the holy presence?
+Impudent wretch! Prepare yourself!
 -----------------------
 #いってらっしゃいませ
-Have a good day.
+Take care on your journey.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -68,11 +68,11 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
-Have a good night.
+Please rest well.
 -----------------------
 #おはようございます
 Good morning.
@@ -81,7 +81,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We await your next visit.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -103,12 +103,11 @@ notice
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{C2}{C0} but
-inventory is full already.
+Found {16}{25}{C2}{C0}, but
+couldn't carry it--inventory full.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

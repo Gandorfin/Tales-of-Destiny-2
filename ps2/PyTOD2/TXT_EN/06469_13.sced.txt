@@ -1,14 +1,14 @@
 #アイグレッテ・大神殿への参道
-Approach to the Great Temple of Igret
+Approach to the Straylize Grand Temple
 -----------------------
 #アイグレッテ
-Igret
+Aigrette
 -----------------------
 #アイグレッテ・大神殿への参道
-Approach to the Great Temple of Igret
+Approach to the Straylize Grand Temple
 -----------------------
 #雄大な自然に囲まれたストレイライズ大神殿が見える
-I can see the Stray Rise Grand Temple surrounded by majestic nature.
+The Straylize Grand Temple stands before you, surrounded by majestic nature.
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -25,8 +25,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -38,7 +38,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We look forward to your next visit.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -68,4 +68,3 @@ notice
 #何もありません
 There's nothing here.
 -----------------------
-

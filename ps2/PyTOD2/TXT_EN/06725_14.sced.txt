@@ -1,13 +1,13 @@
 #オベロン社廃坑
-Abandoned Oboron Mine
+Abandoned Oberon Mine
 -----------------------
 #オベロン社廃坑
-Abandoned Oboron Mine
+Abandoned Oberon Mine
 -----------------------
 #落石で閉じ込められた人の
 #書き残したメモだろうか
-The people trapped by the rockfall,
-was it the memo they left behind?
+A memo left behind by someone
+trapped by the rockfall, perhaps?
 -----------------------
 #『もうだめだ････
 #　水が無い････
@@ -19,28 +19,28 @@ We ran out of food ages ago...
 #『こんな時にかぎって、親の顔が浮かんで来る････
 #　さんざん親不孝をしておいて････
 #　なんて勝手なヤツなんだ俺は････』
-I always have to bring up my parents' faces at a time like this...
-After being such an unfilial son for so long...
-What a selfish guy I am...
+Why now, of all times, do my parents' faces come to mind...
+After being such an unfilial son all this time...
+What a selfish bastard I am...
 -----------------------
 #『親より先に逝くことは最大の親不孝だ････
 #　助けてくれ助けてくれ助けてくれ
 #　タスケテクレタスケテクレタスケテクレ！』
-"To outlive one's parents is the greatest act of unfilial piety..."
-"Help me! Help me! Help me!"
-"Please help me! Please help me! Please help me!"
+To die before one's parents is the worst unfilial act...
+Help me help me help me
+HELP ME HELP ME HELP ME!
 -----------------------
 #『生きてさえいれば、生きてさえいれば！
 #　もう何もいらない　金もいらない！
 #　生きたいたすけてたすけてたすけて････』
-As long as I'm alive, as long as I'm alive!
+If only I could live, if only I could live!
 I don't need anything else, not even money!
-I want to live... help me, please, help me...
+I want to live... help me, help me, help me...
 -----------------------
 #ここから先は
 #文字が乱れていて読めない････
-From here on out,
-The text is garbled and unreadable...
+From here on,
+the writing is too garbled to read...
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -57,8 +57,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -70,7 +70,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We look forward to your next visit.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -92,12 +92,11 @@ notice
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{C2}{C0} but
-inventory is full already.
+Found {16}{25}{C2}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

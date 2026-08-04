@@ -2,72 +2,72 @@
 Ladislaw Dimros's private quarters and official office
 -----------------------
 #ラディスロウ
-Ladislaw
+Radisrol
 -----------------------
 #ディムロスの私室兼公務室
-Dimlos's private quarters and official office
+Dymlos's Private Quarters and Office
 -----------------------
 #巧妙に隠されたお酒を発見しました
 #<item:0000000C>と<item:0000000B>を
 #３つずつ手に入れました
-I found the sake cleverly hidden away.
-<item:0000000C>and <item:0000000B>
-I got three of each.
+I found some cleverly hidden liquor.
+Obtained <item:0000000C> and <item:0000000B>,
+three of each.
 -----------------------
 #ディムロス
 Dymlos
 -----------------------
 #････楽しみに、とっておいたのに････
-I had been saving it in anticipation...
+...I was saving that for a special occasion...
 -----------------------
 #他にも色々な私物が入っているが
 #これ以上持っていくのは勘弁してあげよう
-There are all sorts of other personal items in here too.
-I'll let you off carrying any more than that.
+There are various other personal belongings in here,
+but I'll let you off with just that.
 -----------------------
 #地図や軍事拠点を記した資料が集められている
-Documents detailing maps and military bases have been collected.
+Documents detailing maps and military bases are collected here.
 -----------------------
 #資料の山の中から本をみつけた
 #『素敵な結婚生活』
 #『ガンコ老人のいさめ方』
 #『部下をしかる１００の方法』
-I found a book buried in a pile of documents.
-A Wonderful Married Life
-How to Reason With a Stubborn Old Man
-100 Ways to Scold Your Subordinates
+I found some books buried in a pile of documents.
+"A Wonderful Married Life"
+"How to Handle a Stubborn Old Man"
+"100 Ways to Scold Your Subordinates"
 -----------------------
 #ディムロスの机だ
 #無駄な物は一切、置かれていない
-It's Dimros's desk.
-Not a single unnecessary item is placed here.
+It's Dymlos's desk.
+Not a single unnecessary item rests upon it.
 -----------------------
 #ディムロスの机だ
 #机の上には軍票や作戦の立案書など
 #書きかけの書類が並べられている
-This is Dimros's desk.
-On top of the desk are military scrip and operational plans,
-alongside unfinished documents.
+It's Dymlos's desk.
+Military scrip, draft operation plans, and other
+unfinished documents are arranged on top.
 -----------------------
 #非常に質素なディムロスのベッドだ
 #兵卒たちと同じ物を使用しているのだろう
-It's a very modest bed in Dimrose.
-They're probably using the same things as the soldiers.
+It's Dymlos's very modest bed.
+He must use the same things as the common soldiers.
 -----------------------
 <Kyle>
 -----------------------
 #ディムロスさん
 #お話があります
-Dymlos-san
-I have something to tell you.
+Dymlos,
+I need to speak with you.
 -----------------------
 #ディムロス
-Dimlos
+Dymlos
 -----------------------
 #････疲れているんだ
 #後にしてくれ
 ...I'm exhausted.
-Please leave me alone.
+Leave me be for now.
 -----------------------
 <Kyle>
 -----------------------
@@ -75,8 +75,8 @@ Please leave me alone.
 #アトワイトさんを
 #探しに行きましょう！
 Dymlos!
-We need to find Atwight.
-Let's go look for him!
+Let's go find
+Atwight!
 -----------------------
 #ディムロス
 Dymlos
@@ -84,9 +84,9 @@ Dymlos
 #同じ事を、何度も言わせるな
 #アトワイトの捜索に関しては
 #上層部の決定が････
-Don't make me say the same thing over and over.
-As for the search for Atwight,
-The decision from the higher-ups...
+Don't make me repeat myself.
+Regarding the search for Atwight,
+the higher-ups have decided...
 -----------------------
 <Kyle>
 -----------------------
@@ -94,16 +94,16 @@ The decision from the higher-ups...
 #アトワイトさんは、ディムロスさんの
 #恋人なんでしょう!?
 That doesn't matter!
-Mr. Atwight is Mr. Dimros's
-lover, right!?
+Atwight is your lover,
+isn't she!?
 -----------------------
 #ディムロス
 Dymlos
 -----------------------
 #････<Harold>め
 #余計なことを････
-...<Harold>, you.
-Don't overthink it...
+...<Harold>, you...
+meddling in things that don't concern you...
 -----------------------
 #ディムロス
 Dymlos
@@ -113,112 +113,112 @@ Dymlos
 #だが、それと今回の件とは････
 ...True enough.
 Atwight is my lover.
-But that has nothing to do with what's happening now...
+But that has nothing to do with this matter...
 -----------------------
 <Nanaly>
 -----------------------
 #無関係ってことはないよね？
 #少なくともあたしには
 #こだわってるように見えるけど
-It's not like we're strangers, right?
-At least to me.
-You seem pretty particular about it.
+It's not unrelated, is it?
+At least from where I'm standing,
+you sure seem hung up on it.
 -----------------------
 <Nanaly>
 -----------------------
 #捕まったのがアトワイトさんだから
 #動けないんだとしたら
 #それこそ公私混同って言うんじゃない？
-Since Atwight was the one caught,
-if they can't move around,
-wouldn't that be mixing business with pleasure?
+If the reason you can't act is because
+Atwight's the one who was captured,
+isn't that the very definition of mixing public and private?
 -----------------------
 #ディムロス
 Dymlos
 -----------------------
 #････････
 #････････････････
-...
-..........
+......
+..............
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #ディムロス閣下！
-My Lord Dimlos!
+Lord Dymlos!
 -----------------------
 #ディムロス
 Dymlos
 -----------------------
 #なにごとだ、騒々しい
-What's all the racket about?
+What's all this commotion?
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #こ、これを！
 T-take this!
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #自分にも、見覚えがあります
 #これ、アトワイト大佐の
 #ブレスレットですよね!?
-I have a feeling I've seen this before.
-This is Colonel Atwait's...
-bracelet, right!?
+I... I recognize this.
+This is Colonel Atwight's
+bracelet, isn't it!?
 -----------------------
 #ディムロス
 Dymlos
 -----------------------
 #････これは、どうして!?
-...Why is this happening!?
+...How can this be!?
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #巡回の兵士が見つけました
 #駐屯地の正門の前に、あったそうです
 #それと、手紙が････
 Patrol soldiers found it.
-They say it was in front of the garrison's main gate.
-And there was a letter...
+It was apparently left in front of the garrison's main gate.
+Along with this letter...
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #「スパイラルケイブにて、待つ」
 #とだけ････
-"Wait at Spiral Cave."
-...that's all.
+"I shall wait at Spiral Cave."
+...That's all it says.
 -----------------------
 #ディムロス
 Dymlos
 -----------------------
 #････わかった
 #さがっていい
-I see.
-You can step back.
+...Understood.
+You may step back.
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #閣下、あの････
-My lord, that...
+My lord, but...
 -----------------------
 #ディムロス
 Dymlos
 -----------------------
 #さがっていい
-You can step back.
+Step back.
 -----------------------
 <Kyle>
 -----------------------
 #ディムロスさん、これは絶対
 #バルバトスからの挑戦状です！
-Mr. Dimlos, this is definitely...
-a challenge from Valvatos!
+Dymlos, this is definitely
+a challenge from Barbatos!
 -----------------------
 #ディムロス
 Dymlos
@@ -226,24 +226,24 @@ Dymlos
 #････そして、やつが仕組んだ罠でもある
 #こんなものに、やすやすと
 #乗るわけにはいかない
-...and it's also the trap he set up.
-I can't just fall for something like this so easily.
-There's no way I'd take that bait.
+...and it's a trap he laid as well.
+I can't simply take
+the bait so easily.
 -----------------------
 <Kyle>
 -----------------------
 #罠だろうが、行かなきゃ
 #アトワイトさんは
 #助けられないんですよ!?
-Trap or not, I have to go.
-Mr. Atwight is...
-unable to be saved!?
+Trap or not, we have to go!
+Atwight can't be saved
+if we don't, right!?
 -----------------------
 #ディムロス
 Dymlos
 -----------------------
 #待て、どこへ行く!?
-Wait! Where are you going?!
+Wait! Where do you think you're going?!
 -----------------------
 <Kyle>
 -----------------------
@@ -257,19 +257,19 @@ Dymlos
 #形はどうあれ、君たちも
 #この軍の兵士ならば････
 Refrain from acting on your own!
-No matter how things stand,
-If you are soldiers in this army...
+Whatever the circumstances,
+if you are soldiers of this army...
 -----------------------
 <Kyle>
 -----------------------
 #なら、オレたちは辞めます！
-In that case, we're out!
+Then we're quitting!
 -----------------------
 #ディムロス
 Dymlos
 -----------------------
 #なっ････！
-Huh...!?
+Wha...!?
 -----------------------
 <Kyle>
 -----------------------
@@ -277,8 +277,8 @@ Huh...!?
 #ディムロスさんには関係ありません
 #オレたちが勝手にやることです
 What happens from here on out
-has nothing to do with Mr. Dimlos.
-It's our own business.
+has nothing to do with you, Dymlos.
+We're doing this on our own.
 -----------------------
 <Loni>
 -----------------------
@@ -289,7 +289,7 @@ H-Hey, <Kyle>!
 Dymlos
 -----------------------
 #････ひとつだけ教えてほしい
-......I just want you to tell me one thing.
+...I want to ask you one thing.
 -----------------------
 #ディムロス
 Dymlos
@@ -297,63 +297,63 @@ Dymlos
 #君たちにとって私はもとより
 #アトワイトも赤の他人のはずだ････
 #なのになぜ、そこまで？
-For you two, I am
-and Atwight are practically strangers...
-so why? Why go to such lengths?
+To you two, I should be a stranger,
+and Atwight even more so...
+So why would you go this far?
 -----------------------
 <Reala>
 -----------------------
 #<Kyle>はディムロスさんが
 #大切な人を失おうとしているのを
 #だまって見ていられないんだと思います
-<Kyle> is Mr. Dimlos
-I can't just sit there
-and watch someone lose what's dear to them.
+<Kyle> can't just sit by
+and watch you lose someone dear to you.
+That's the kind of person he is.
 -----------------------
 #ディムロス
-Dimlos
+Dymlos
 -----------------------
 #大切な人････
-My precious person...
+Someone dear...
 -----------------------
 <Reala>
 -----------------------
 #それが<Kyle>なんです
 #まっすぐすぎるぐらい、まっすぐな人････
 That's what <Kyle> is.
-They're so straightforward it's almost too much.
+So straightforward it's almost too much...
 -----------------------
 <Reala>
 -----------------------
 #････一緒にいて、そのまっすぐさが
 #つらい時もあるけど････
-...Being together, that straightforwardness...
-There are tough times too... but...
+...Being with him, that straightforwardness
+can be hard to bear sometimes, but...
 -----------------------
 <Reala>
 -----------------------
 #でも、だからこそ信じられるんです
 #この人なら大丈夫って
-But that's precisely why I can believe in it.
-I know they'll be fine.
+But that's exactly why I can believe.
+I know that with him, it'll be okay.
 -----------------------
 #ディムロス
-Dimlos
+Dymlos
 -----------------------
 #あのときの私の判断は
 #決して間違ってはいなかった
 #間違っては････いなかったんだ
 My judgment back then
-was never wrong.
-I wasn't wrong...
+was not mistaken.
+It was not... mistaken.
 -----------------------
 #ディムロス
 Dymlos
 -----------------------
 #この作戦には我が地上軍の････
 #ひいては世界の運命がかかっている
-This mission puts our army...
-and the world's fate at stake.
+This mission carries the fate of our ground forces...
+and by extension, the fate of the world.
 -----------------------
 #ディムロス
 Dymlos
@@ -361,14 +361,14 @@ Dymlos
 #ベルクラント開発チームを
 #救出することができなければ
 #そのときは････
-We must rescue the Belcrant team.
-If we cannot save them,
+If we cannot rescue
+the Belcrant development team,
 then...
 -----------------------
 <Kyle>
 -----------------------
 #ディムロスさん････
-Mr. Dimlos...
+Dymlos...
 -----------------------
 #ディムロス
 Dymlos
@@ -376,9 +376,9 @@ Dymlos
 #この作戦には我が地上軍の････
 #ひいては世界の運命がかかっている
 #失敗は許されない････決してな
-Our army and the world's fate...
-both depend on this mission.
-Failure is not an option.
+This mission carries the fate of our ground forces...
+and by extension, the fate of the world.
+Failure will not be tolerated... absolutely not.
 -----------------------
 #ディムロス
 Dymlos
@@ -387,15 +387,15 @@ Dymlos
 #だが、私には中将としての責務がある
 #そして、守るべき部下がいる
 You're right. I am a coward.
-As lieutenant general, I have duties
-and subordinates to protect.
+But I have duties as a lieutenant general.
+And subordinates I must protect.
 -----------------------
 <Kyle>
 -----------------------
 #アトワイトさんだって
 #そのひとりじゃないんですか？
 What about Atwight?
-Isn't she one of them?
+Isn't she one of those subordinates?
 -----------------------
 #ディムロス
 Dymlos
@@ -403,15 +403,15 @@ Dymlos
 #アトワイトひとりのために
 #多くの部下を危険にさらすわけには
 #いかない････軍隊とは、そういうものだ
-For Atwight's life alone,
-I cannot risk all my troops.
-That is what an army means.
+I cannot risk many troops
+for Atwight alone...
+That is what an army is.
 -----------------------
 #ディムロス
 Dymlos
 -----------------------
 #････スパイラルケイブ････か
-......Spiral Cave... huh.
+...Spiral Cave... is it.
 -----------------------
 #ディムロス
 Dymlos
@@ -420,11 +420,11 @@ Dymlos
 This conversation at this flag is unset.
 -----------------------
 #いってらっしゃいませ
-Have a good day.
+Welcome.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -434,8 +434,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -469,8 +469,8 @@ notice
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{C2}{C0} but
-inventory is full already.
+Found {16}{25}{C2}{C0}, but
+couldn't carry it--inventory full.
 -----------------------
 notice
 -----------------------

@@ -2,7 +2,7 @@
 Aigrette Inn
 -----------------------
 #アイグレッテ
-Igret
+Aigrette
 -----------------------
 #おじいさん
 Old Man
@@ -10,9 +10,9 @@ Old Man
 #ワシは、ずっと
 #腰をわずらっていたんじゃ
 #そりゃもう、しょっちゅう痛んでの
-I've been
-bothered by my hips
-hurting all the time
+I've been plagued
+by hip problems for the longest time.
+Hurt something fierce, they did.
 -----------------------
 #おじいさん
 Old Man
@@ -20,9 +20,9 @@ Old Man
 #じゃが、エルレインさまの奇跡が
 #ワシを病から救ってくださった
 #ほんに、ありがたいことよのう
-But Lady Elraine's miracle...
+But Lady Elrane's miracle
 saved me from my illness.
-It is truly a blessing.
+Truly, I am blessed.
 -----------------------
 #おじいさん
 Old Man
@@ -30,9 +30,9 @@ Old Man
 #腰を治してもらって以来
 #感謝の気持ちをこめて、レンズを
 #神団に寄進しとる
-After getting my waist fixed up,
-I'm offering these lenses
-as a donation to the God Squad.
+Ever since she healed my hips,
+I've been donating Lens to the
+Order of Atamoni out of gratitude.
 -----------------------
 #おじいさん
 Old Man
@@ -40,9 +40,9 @@ Old Man
 #生活は苦しくなるが
 #なに、これも、ワシの信仰の証
 #じゃからのう
-It'll make life harder,
-What? This too is proof of my faith.
-So there you have it.
+Life's gotten harder, sure,
+but this too is proof of my faith.
+That's just how it is.
 -----------------------
 #おじいさん
 Old Man
@@ -50,9 +50,9 @@ Old Man
 #ワシは、もうかれこれ十年間
 #毎月、神団にレンズを
 #寄進しておるのじゃ
-I've been doing this for nearly ten years now.
-Every month, I donate lenses to the God Clan,
-you see.
+I've been at it for nigh on ten years now.
+Every month, I donate Lens
+to the Order, you see.
 -----------------------
 #おじいさん
 Old Man
@@ -60,39 +60,39 @@ Old Man
 #神官さまは、ムリにレンズを
 #納めなくともよいと言ってくださるが
 #それでは、もうしわけなくてのう
-The priestess says we don't have to force the lens in.
-She says it's fine if we don't put it back.
-Well then, I suppose I'll just have to apologize.
+The priestess says I needn't force myself
+to donate Lens if it's too much.
+But I couldn't bear the shame of that.
 -----------------------
 <Harold>
 -----------------------
 #その結果、レンズの一極集中が
 #行われてしまったというわけね
-As a result, the lenses became centralized in a single entity.
-So that's what happened.
+So as a result, all the Lens ended up
+concentrated in one place.
 -----------------------
 #おじいさん
 Old Man
 -----------------------
 #レンズを寄進することが
 #ワシの信仰の証なんじゃ！
-Donating the lens
-Is proof of my faith!
+Donating Lens is
+proof of my faith!
 -----------------------
 #おじいさん
 Old Man
 -----------------------
 #アタタタ････
 #持病の腰痛が････
-Hhhngg...
-My chronic back pain is...
+Oww...
+My chronic back pain...
 -----------------------
 <Kyle>
 -----------------------
 #じいちゃん
 #だいじょうぶ？
-Grandpa
-Are you okay?
+Grandpa!
+You okay?
 -----------------------
 #おじいさん
 Old Man
@@ -100,8 +100,8 @@ Old Man
 #じゃが、ワシが腰痛で苦しんでると
 #フィリアさまが、訪ねてきてくださる
 #それが楽しみでのう････
-But while I'm suffering from back pain,
-Lady Philia comes to visit me.
+But you know, when my back pain
+has me suffering, Lady Philia comes to visit.
 That's what keeps me going...
 -----------------------
 #おじいさん
@@ -110,17 +110,17 @@ Old Man
 #フィリアさまは、腰痛で苦しんでるワシを
 #ときどき、訪ねてくださるんじゃ
 #あの方こそ、女神じゃ
-Princess Philia often visits me
-in my suffering from back pain.
-She is truly a goddess.
+Lady Philia visits me from time to time
+when my back pain acts up.
+She is a true goddess.
 -----------------------
 #おばさん
 Woman
 -----------------------
 #これから、大神殿に
 #レンズの寄進に行くんだ
-From now on,
-we're heading to the Great Temple to make an offering of the lens.
+I'm on my way to the Grand Temple
+to donate some Lens.
 -----------------------
 #おばさん
 Woman
@@ -128,9 +128,9 @@ Woman
 #身よりのないあたしには
 #神団がすべてだからね
 #残りの人生をささげるつもりさ
-I have no family to rely on
-The God Generals are all I have
-So I intend to devote my remaining life
+I have no family to speak of.
+The Order of Atamoni is everything to me.
+I intend to devote what remains of my life to it.
 -----------------------
 #おばさん
 Woman
@@ -138,17 +138,17 @@ Woman
 #身よりのないあたしには
 #神団がすべてだからね
 #残りの人生をささげるつもりさ
-For someone like me with no family ties
-The Shindan is everything to me.
-I intend to dedicate my remaining life.
+I have no family to speak of.
+The Order of Atamoni is everything to me.
+I intend to devote what remains of my life to it.
 -----------------------
 #おばさん
 Woman
 -----------------------
 #十八年前の動乱で、故郷を失って
 #あたしはこの街にやってきたんだ
-I lost my hometown during the unrest eighteen years ago.
-That's when I came to this town.
+I lost my hometown in the upheaval
+eighteen years ago, and came to this town.
 -----------------------
 #おばさん
 Woman
@@ -156,9 +156,9 @@ Woman
 #行く場所のないあたしを
 #ストレイライズ神殿のみなさまは
 #こころよく受けいれてくださってねえ
-I, who have nowhere to go,
-the people of the Stray Rise Temple,
-have kindly welcomed me.
+The people of Straylize Temple
+kindly took me in when I had
+nowhere else to go.
 -----------------------
 #おばさん
 Woman
@@ -166,45 +166,45 @@ Woman
 #ここでは、ずっとアタモニ神さまが
 #見守っていてくださる
 #生活は苦しいけど、幸せだよ
-Here, Lord Atamoni has always been watching over us.
-Watching over us.
-Life is hard, but we're happy.
+Here, Lord Atamoni is always
+watching over us.
+Life is hard, but I'm happy.
 -----------------------
 <Kyle>
 -----------------------
 #おや？　お湯の中に
 #グミが落ちてるぞ
-Oh? In the hot spring...
-There's a gummy in there.
+Huh? There's a gummy
+floating in the water.
 -----------------------
 #<item:00000003>を手に入れました
-<item:00000003>You obtained .
+Acquired <item:00000003>.
 -----------------------
 <Kyle>
 -----------------------
 #デロデロにとけてるけど････
 #まあ、食べられないこともないか････
-It's melting into a gooey mess...
-Well, I suppose it's still edible...
+It's all melted and gooey, but...
+Well, I guess it's still edible...
 -----------------------
 #服を着たまま風呂に浸かるのは
 #気持ちが良いなあ････
-It feels good soaking in the bath while still wearing your clothes.
-Just how nice that is...
+Soaking in the bath with my clothes on...
+Feels pretty good, actually...
 -----------------------
 #座りごこちの良さそうなソファだ
-A sofa that looks incredibly comfortable to sit in.
+A sofa that looks mighty comfortable.
 -----------------------
 #さすがに高級ホテル！キレイなトイレだ！
-This is a high-class hotel! The bathroom is so clean!
+Now this is a fancy hotel! Even the bathroom's spotless!
 -----------------------
 #棚の上のトイレットペーパーを持っていったら
 #怒られるだろうか････
-If I take the toilet paper off the shelf...
-I wonder if they'll get mad at me...
+I wonder if they'd get mad
+if I took the toilet paper from the shelf...
 -----------------------
 #いってらっしゃいませ
-Have a good day.
+Welcome.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
@@ -218,11 +218,11 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
-Have a good night.
+Please rest well.
 -----------------------
 #おはようございます
 Good morning.
@@ -231,7 +231,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We hope to see you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -253,12 +253,11 @@ notice
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{C2}{C0} but
-inventory is full already.
+Found {16}{25}{C2}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

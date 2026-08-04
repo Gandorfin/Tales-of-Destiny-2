@@ -1,48 +1,48 @@
 #地上軍拠点
-Ground Forces Base
+Er'ther Base
 -----------------------
 #地上軍拠点
-Ground Forces Base
+Er'ther Base
 -----------------------
 #非常用の食料などが置かれている
-There are emergency food supplies and other items stored here.
+Emergency food and supplies are stored here.
 -----------------------
 #鎖で封鎖された道がある
 #この奥は使われていないようだ
-There's a path sealed off by chains.
-It looks like this area hasn't been used in a while.
+A path is sealed off with chains.
+It looks like the area beyond hasn't been used in some time.
 -----------------------
 #強烈なにおいを放つ酒瓶がある
 #密造酒だろうか････
-There's a sake bottle emitting a strong scent.
+A bottle giving off a powerful stench.
 Could it be moonshine...?
 -----------------------
 #兵卒
-soldier
+Soldier
 -----------------------
 #それ、医療用アルコールだよ
 #そんな物でも飲めば酔えるしね
 #ま、飲んだ後の体調は保証しかねるけど
-It's medical-grade alcohol.
-You can get drunk on something like that.
-Well, I can't guarantee how you'll feel after drinking it.
+That's medical alcohol.
+Drink enough of that and you'll get hammered.
+Can't say I'd vouch for how you'll feel come morning, though.
 -----------------------
 #『大本営から兵士の皆さんへ
 #投降した天上軍兵士の処遇ですが
 #我々には敵兵を養う余力は残っていませんので
 #投降してきた敵兵はその場で････』
-From the Imperial Headquarters to all our soldiers,
-Regarding the treatment of surrendered Celestial Army troops,
-We no longer have the resources to sustain enemy prisoners,
-So the surrendered enemy forces will be dealt with on the spot...'
+'To all soldiers, from High Command:
+Regarding the treatment of surrendered Aeth'er troops:
+We no longer possess the means to sustain enemy soldiers.
+Surrendered enemy forces are to be dealt with on the spot...'
 -----------------------
 #兵卒
 Soldier
 -----------------------
 #日増しに戦況は悪化しています
 #我々は本当に天上軍に勝てるんでしょうか？
-The situation on the battlefield is worsening day by day.
-Do you really think we can defeat the Celestial Army?
+The war gets worse by the day.
+Can we really beat the Aeth'er?
 -----------------------
 #上級軍曹
 Sergeant First Class
@@ -50,30 +50,30 @@ Sergeant First Class
 #ソルジャー
 #君の仕事は考える事ではなく
 #身体を動かす事だ
-Soldier
-Your job isn't to think,
-It's to move your body.
+Soldier.
+Your job isn't to think.
+It's to move when you're told to move.
 -----------------------
 #士官
-officer
+Officer
 -----------------------
 #そうだな
 #考えるのはリトラー司令なり
 #ディムロス中将なりに任せればいい
-Hmm...
-The decision is up to Commander Litra.
-I'll leave it to Lieutenant Dimros.
+That's right.
+Leave the thinking to Commander Raiker,
+or to Lieutenant General Dymlos.
 -----------------------
 #士官
-officer
+Officer
 -----------------------
 #我々兵隊は与えられた命令を
 #こなせばいいだけだ
 We soldiers just need to
-carry out our orders.
+follow the orders we're given.
 -----------------------
 #兵卒
-soldier
+Soldier
 -----------------------
 #イエッサー
 Yes sir!
@@ -82,39 +82,39 @@ Yes sir!
 Soldier
 -----------------------
 #大尉殿、出身地はどこでありますか？
-What is your place of origin, Captain?
+Captain, where are you from?
 -----------------------
 #上級軍曹
 Sergeant First Class
 -----------------------
 #おっと、ソルジャー
 #その質問には賞金がかかってるぞ
-Whoops, soldier.
-That question comes with a bounty.
+Whoa there, soldier.
+That question's got a price on it.
 -----------------------
 #上級軍曹
 Sergeant First Class
 -----------------------
 #見事、大尉の過去を聞き出せたら
 #３００ガルドだ
-If you manage to uncover the captain's past...
-That'll cost you 300 gald.
+If you manage to dig up the captain's past,
+the bounty is 300 Gald.
 -----------------------
 #士官
-officer
+Officer
 -----------------------
 #５００ガルドになるまで待つさ
 #そうしたら君と山分けだ
-I'll wait until it reaches 500 gald.
-And then I'll split it evenly with you.
+I'll wait until it hits 500 Gald.
+Then I'll split the take with you.
 -----------------------
 #士官
-officer
+Officer
 -----------------------
 #もっとも、それまで
 #命があればいいがな
-Then again, up until that point...
-As long as we have our lives, it's fine.
+Of course, that's assuming
+we're both still alive by then.
 -----------------------
 #兵卒
 Soldier
@@ -123,39 +123,39 @@ Soldier
 #ソーディアン適性に受かって
 #本部詰めになったはいいものの
 #訓練で殺されかけてるそうですよ
-My squad had a Shartier in it.
-He passed the Sordian aptitude test,
-And while he was assigned to headquarters,
-It seems he nearly died during training.
+There was a Chaltier in my unit.
+He passed the Swordian aptitude test,
+and got assigned to headquarters, but...
+I hear the training nearly killed him.
 -----------------------
 #上級軍曹
 Sergeant First Class
 -----------------------
 #あの自信家のガキか
 #生意気なヤツだった
-That arrogant brat?
-He was such a cocky kid.
+That cocky little brat?
+He was always full of himself.
 -----------------------
 #士官
-officer
+Officer
 -----------------------
 #生意気ではあるが
 #憎たらしくはなかったな
-She may have been cheeky,
-but she wasn't annoying.
+Cocky, sure,
+but he wasn't the type you could hate.
 -----------------------
 #士官
-officer
+Officer
 -----------------------
 #せいぜい、生き延びてもらいたいもんだ
-I just want them to survive as best they can.
+Here's hoping he makes it through alive.
 -----------------------
 #いってらっしゃいませ
-Have a good day.
+Come again soon.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -165,8 +165,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -200,12 +200,11 @@ notice
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{C2}{C0} but
-inventory is full already.
+Found {16}{25}{C2}{C0}, but
+couldn't carry any more.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

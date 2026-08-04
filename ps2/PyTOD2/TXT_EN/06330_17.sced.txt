@@ -5,17 +5,17 @@ Laguna Ruins
 Laguna Ruins
 -----------------------
 #岩の上を通れそうです
-I think I can make it over the rocks.
+Looks like we can cross over the rocks.
 -----------------------
 #岩を動かしました
-The rock was moved.
+Moved the rock.
 -----------------------
 notice
 -----------------------
 #何かがはまりそうな
 #くぼみがあります
-There's a hollow where something could fit.
-There's an indentation
+There's a hollow where something
+looks like it could fit.
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -32,8 +32,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -68,11 +68,10 @@ notice
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{C2}{C0}, but
-inventory full already.
+your inventory is full.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

@@ -1,40 +1,40 @@
 #ハイデルベルグ城
-Heidelburg Castle
+Heidelberg Castle
 -----------------------
 #ハイデルベルグ城
-Heidelburg Castle
+Heidelberg Castle
 -----------------------
 #包丁人
-Cleaver
+Knife Wielder
 -----------------------
 #料理しているか？
 #包丁は使っているか？
 Are you cooking?
-Are you using the knife?
+Are you using a knife?
 -----------------------
 #包丁人
-Cleaver
+Knife Wielder
 -----------------------
 #<item:00000074>を持っているな
-<item:00000074>You've got .
+You've got <item:00000074>.
 -----------------------
 #包丁人
-Culinary Knife Man
+Knife Wielder
 -----------------------
 #<item:00000075>を持っているな
-<item:00000075>You have .
+You have <item:00000075>.
 -----------------------
 #包丁人
-Cleaver
+Knife Wielder
 -----------------------
 #<item:00000076>を持っているな
-<item:00000076>You have .
+You have <item:00000076>.
 -----------------------
 #包丁人
-Culinary Master
+Knife Wielder
 -----------------------
 #<item:00000077>を持っているな
-<item:00000077>You've got .
+You've got <item:00000077>.
 -----------------------
 notice
 -----------------------
@@ -58,8 +58,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -93,7 +93,7 @@ notice
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{C2}{C0} but
+Found {16}{25}{C2}{C0}, but
 inventory is full already.
 -----------------------
 notice
@@ -108,8 +108,8 @@ They all look like high-end items.
 -----------------------
 #有事の際に使われるのだろう
 #実戦仕様の武器が並んでいる
-It's probably used in case of an emergency.
-There are weapons lined up that are ready for actual combat.
+These must be for emergencies.
+Combat-ready weapons are lined up here.
 -----------------------
 #鋭く研ぎすまされた武器だ
 #一流の鍛冶士の手によるものだろう
@@ -123,12 +123,12 @@ It's likely an authentic piece, not just artwork.
 -----------------------
 #ハイデルベルグ城の兵士たちが使う武器だ
 #刃は、くもりひとつ無く研ぎすまされている
-It's the weapons used by the soldiers at Heidelberg Castle.
+These are the weapons used by Heidelberg Castle soldiers.
 The blades are sharpened to a flawless edge.
 -----------------------
 #巨大な板金鎧だ
 #とっても重そう････
-It's a massive plate armor.
+It's a massive suit of plate armor.
 Looks incredibly heavy...
 -----------------------
 #実戦仕様の鎧だ
@@ -140,8 +140,8 @@ It's crafted with exceptional intricacy.
 #ずいぶん手が込んでいるが
 #一着、いくらするのだろうか････
 It's full-body armor crafted by hammering out sheets of metal.
-It's quite intricately made,
-I wonder how much each piece costs...?
+It's quite intricately made.
+I wonder how much each suit costs...
 -----------------------
 #本物の全身鎧だ
 #圧倒的な威圧感を感じる････
@@ -150,7 +150,7 @@ I feel an overwhelming sense of pressure...
 -----------------------
 #鎧が並べられている
 #美術品ではなく、実戦仕様の本物のようだ
-Armor is lined up.
+Armor is lined up here.
 It doesn't look like artwork; it seems to be genuine combat-grade equipment.
 -----------------------
 #年代物の品のようだ
@@ -165,15 +165,14 @@ They all seem to be quite expensive.
 -----------------------
 #さすがに王城
 #小物のひとつひとつが素晴らしい出来ばえだ
-As expected, the royal castle...
+As expected of a royal castle...
 Every little detail is wonderfully crafted.
 -----------------------
 #素晴らしい品々が並べられている････
-A wonderful assortment of items on display...
+A wonderful assortment of items is on display...
 -----------------------
 #アンティークだろうか
 #年代物の品々が並んでいる
-Is it an antique?
+Are these antiques?
 Items from bygone eras are lined up.
 -----------------------
-

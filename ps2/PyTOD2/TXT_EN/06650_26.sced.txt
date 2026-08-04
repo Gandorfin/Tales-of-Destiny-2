@@ -1,15 +1,15 @@
 #地上軍拠点跡地
-Former Ground Forces Base Site
+Er'ther Base Ruins
 -----------------------
 #地上軍拠点跡地
-Former Ground Forces Base Site
+Er'ther Base Ruins
 -----------------------
 <Loni>
 -----------------------
 #飛行艇････
 #････マジかよ！
-Airship...
-...Seriously?!
+A Flying Dragon...
+...No way!
 -----------------------
 <Judas>
 -----------------------
@@ -20,111 +20,111 @@ This is an Exisphoslar.
 -----------------------
 #天地戦争時代の遺産で、ここに眠っていたのを
 #オベロン社が見つけだしたそうだ
-It's a relic from the era of the War of Heaven and Earth, which had been buried here,
-apparently discovered by the Oberon Corporation.
+A relic from the Aeth'er Wars that slept here
+until the Oberon Corporation unearthed it.
 -----------------------
 <Nanaly>
 -----------------------
 #天地戦争時代の遺産って････
 #そんな古いもの、本当に動くのかい？
-The legacy from the Heavenly War era...
-Could something that old really still work?
+A relic from the Aeth'er Wars...
+Can something that ancient really still fly?
 -----------------------
 <Judas>
 -----------------------
 #心配はいらない
 #これを作ったのは
 #かの<Harold>＝ベルセリオス博士だ
-Don't worry about it.
-The person who made this is
-That's Dr. <Harold> Berselius.
+There's no need for concern.
+It was built by none other than
+Dr. <Harold> Berselius herself.
 -----------------------
 <Loni>
 -----------------------
 #<Harold>博士といやあ、たしか、
 #ソーディアンを作った人だったよな？
-Dr. <Harold>, oh yes, I'm pretty sure,
-she was the one who created the Sordian, right?
+Dr. <Harold>, right?
+She's the one who created the Swordians, isn't she?
 -----------------------
 <Judas>
 -----------------------
 #ソーディアンも、天地戦争での活躍後、
 #千年もの眠りについていたが、
 #先の災厄の時にも、ちゃんと使えた
-After their exploits during the War of the Heavens and Earth,
-the Soradions had been in slumber for a millennium,
-yet they were still fully functional during that recent calamity.
+The Swordians too, after their role in the Aeth'er Wars,
+slept for a thousand years,
+yet they still functioned during the recent calamity.
 -----------------------
 <Judas>
 -----------------------
 #その<Harold>博士が作ったものだ
 #同じように、今でも動くだろう
-That's what Professor <Harold> created.
-It should still work just fine.
+This was built by that same Dr. <Harold>.
+It should work just as well now.
 -----------------------
 <Nanaly>
 -----------------------
 #さすがは希代の天才科学者だね
-You really are a once-in-a-generation genius scientist.
+Truly a once-in-a-generation genius.
 -----------------------
 <Kyle>
 -----------------------
 #それじゃ、急ごう！
 #<Reala>を助けないと！
-Well then, let's hurry!
+Then let's hurry!
 We have to save <Reala>!
 -----------------------
 <Loni>
 -----------------------
 #ところで、だれが操縦するんだ？
-By the way, who's going to pilot it?
+So who's gonna pilot this thing?
 -----------------------
 <Judas>
 -----------------------
 #この手の乗り物なら、経験がある
-I've got experience with vehicles like these.
+I have experience with craft like this.
 -----------------------
 <Judas>
 -----------------------
 #飛ぶぞ！
 #しっかりつかまってろ！
-Here we go!
+We're taking off!
 Hold on tight!
 -----------------------
 notice
 -----------------------
 #<Judas>は
 #称号「<item:00000825>」を得ました
-<Judas> is
-Gained title '<item:00000825>.'
+<Judas>
+earned the title "<item:00000825>"!
 -----------------------
 <Kyle>
 -----------------------
 #すげぇ････
 #ホントに帰って来てる
-Awesome...
-He's really back.
+Whoa...
+It really brought us back.
 -----------------------
 <Harold>
 -----------------------
 #あったりまえでしょ!?
 #だれが作ったと思ってんの？
-Obviously!
-Who do you think made it?
+Well, obviously!
+Who do you think built it?
 -----------------------
 <Harold>
 -----------------------
 #ほい、取れた
 #小さいけど、これひとつあれば
 #ペンダントの力を増幅できるはずよ
-Here you go, got it.
-It's small, but just having this one is enough.
-It should amplify the power of the pendant.
+Here, I got it.
+It's small, but this alone
+should amplify the pendant's power.
 -----------------------
 <Reala>
 -----------------------
 #じゃあ、みんな集まって････
-Alright then, let's all gather up...
+Then everyone, gather around...
 -----------------------
 <Kyle>
 -----------------------
@@ -141,77 +141,77 @@ Alright then, let's all gather up...
 #これから、たとえなにが起こっても････
 #エルレインを止めるって、誓って
 From now on, no matter what happens...
-I swear I'll stop Elraine.
+swear to me that you'll stop Elrane.
 -----------------------
 <Kyle>
 -----------------------
 #どうしたんだよ、<Reala>
 #そんなの、あたりまえじゃ････
-What's wrong, ?<Reala>
+What's with you, <Reala>?
 That goes without saying...
 -----------------------
 <Reala>
 -----------------------
 #お願い、誓って
-I'm begging you, swear it.
+Please. Swear it.
 -----------------------
 <Kyle>
 -----------------------
 #････わかった
-I see.
+...All right.
 -----------------------
 <Kyle>
 -----------------------
 #誓うよ、<Reala>
 #なにがあっても、エルレインを
 #止めてみせる、かならず！
-I swear it, .<Reala>
+I swear it, <Reala>.
 No matter what happens,
-I'll stop her, I promise!
+I'll stop Elrane. I promise!
 -----------------------
 <Reala>
 -----------------------
 #････････
 #････････うん
 ......
-...... Yeah.
+......Yeah.
 -----------------------
 <Reala>
 -----------------------
 #それじゃ、行くわ
 #未来へ････！
-Well then, let's go.
+Then let's go.
 To the future...!
 -----------------------
 <Loni>
 -----------------------
 #帰ってきたのはいいとして
 #問題はこれからどうするかだが････
-Fine that you're back, but
-the real question is what to do from here...
+Good, we're back.
+But the real question is what we do now...
 -----------------------
 <Kyle>
 -----------------------
 #････････････････
 #････････････････
-...
-...
+......
+......
 -----------------------
 <Loni>
 -----------------------
 #やれやれ････
 #肝心の<Kyle>がこの調子じゃな
-Tch...
-With <Kyle> in this state, we're in trouble.
+Sheesh...
+With <Kyle> in this state, we're sunk.
 -----------------------
 <Nanaly>
 -----------------------
 #ムリもないよ
 #落ち込まない方がどうかしてるさ
 #あんな話を聞かされた後なんだから
-It's only natural.
-If you weren't down in the dumps, something would be wrong.
-After hearing all that, it's understandable.
+Can't blame him.
+Anyone would be depressed after hearing all that.
+It'd be strange if he weren't.
 -----------------------
 <Reala>
 -----------------------
@@ -223,8 +223,8 @@ After hearing all that, it's understandable.
 #しかし、だからといって
 #このまま手をこまねいていても
 #何も変わりはしない
-But just because that's the case,
-If we just sit here doing nothing,
+Even so,
+if we simply sit here with our hands folded,
 nothing will change.
 -----------------------
 <Judas>
@@ -232,9 +232,9 @@ nothing will change.
 #エルレインは「神のたまご」を
 #衝突させるつもりだ
 #なにがあろうともな
-Elle is going to launch the "Egg of God"
-at full force
-no matter what happens
+Elrane intends to crash the Egg of God
+into this world.
+No matter what.
 -----------------------
 <Kyle>
 -----------------------
@@ -245,27 +245,27 @@ no matter what happens
 -----------------------
 #<Kyle>、おまえがいくら悩んだところで
 #事実は変えようがない
-<Kyle>, no matter how much you agonize over it
-There's nothing you can do to change the facts.
+<Kyle>, no matter how much you brood,
+the facts remain unchanged.
 -----------------------
 <Judas>
 -----------------------
 #おまえが、決めなくてはいけないんだ
 #この世界をどうするのかを
 #<Reala>をどうするのかを
-You have to make the decision.
-About what to do with this world.
+You must be the one to decide.
+What to do with this world.
 What to do with <Reala>.
 -----------------------
 <Loni>
 -----------------------
 #おい、おまえ････！
-Hold on, you...!
+Hey, you...!
 -----------------------
 <Kyle>
 -----------------------
 #････どうすれば、いい？
-......What should I do?
+...What should I do?
 -----------------------
 <Loni>
 -----------------------
@@ -277,9 +277,9 @@ Hold on, you...!
 #言ったはずだ
 #どうするかは、
 #おまえが決めることだと
-I told you.
-What to do about it is up to
-you.
+I told you before.
+What to do
+is for you to decide.
 -----------------------
 <Judas>
 -----------------------
@@ -287,30 +287,30 @@ you.
 #<Reala>の英雄となった
 #おまえしかできないことだ
 This is something no one else can decide.
-You've become the hero of <Reala>.
-It's something only you can do.
+You have become the hero of <Reala>.
+Only you can do this.
 -----------------------
 <Kyle>
 -----------------------
 #英雄････そうか、英雄だ！
-A hero... I see, a hero!
+A hero... That's right, I'm a hero!
 -----------------------
 <Kyle>
 -----------------------
 #この世界にはたくさんの英雄がいる
 #フィリアさん、ウッドロウさん、
 #それに母さんも
-There are many heroes in this world.
-Miss Filia, Mr. Woodrow,
-And Mother as well.
+There are heroes all over this world.
+Miss Philia, King Garr,
+and Mother too.
 -----------------------
 <Kyle>
 -----------------------
 #あの人たちなら知ってるかもしれない
 #こんなとき、どうしたらいいのか
 #どうするべきなのかを････！
-They might know about those people.
-What should I do in a situation like this?
+They might know what to do.
+In a time like this, what should I do...
 What I ought to do...!
 -----------------------
 <Loni>
@@ -318,9 +318,9 @@ What I ought to do...!
 #なるほど、英雄の先輩たちに
 #アドバイスをもらうってわけか
 #悪くないぜ、そのアイデア
-I see, so you're getting advice from veteran heroes
-That's what it is
-Not a bad idea at all
+I get it. We're gonna ask the veteran heroes for advice.
+That's the plan, huh?
+Not a bad idea.
 -----------------------
 <Nanaly>
 -----------------------
@@ -328,27 +328,27 @@ Not a bad idea at all
 #ここでじっとしてたって、
 #なんにもならないしさ
 Alright, let's go!
-Just staying put here,
+Sitting around here
 isn't going to get us anywhere.
 -----------------------
 <Harold>
 -----------------------
 #なら、足はコイツを使えばいいわ
-If it comes down to it, I'll just use these legs.
+Then we'll just use this thing to get around.
 -----------------------
 <Loni>
 -----------------------
 #確かに、あちこちいくんなら、
 #コイツの方が便利だな
-True enough, if we're going to be running around everywhere,
-this guy's way more convenient.
+True enough. If we're gonna be running around everywhere,
+this thing'll be way more convenient.
 -----------------------
 <Harold>
 -----------------------
 #そーゆーこと！
 #さ、乗って乗って！
-That's it!
-H-hurry up and get on!
+Exactly!
+C'mon, get on, get on!
 -----------------------
 <Reala>
 -----------------------
@@ -358,7 +358,7 @@ Let's go, <Kyle>!
 <Kyle>
 -----------------------
 #････そうだね、行こう
-...Yeah, let's go.
+...Yeah. Let's go.
 -----------------------
 <Kyle>
 -----------------------
@@ -370,14 +370,14 @@ What is this...?
 #なぜだか分からないけど
 #乗ったことがあるような気がする････
 I don't know why,
-but I feel like I've been on it before...
+but I feel like I've ridden on this before...
 -----------------------
 <Loni>
 -----------------------
 #おもしろそうだな
 #乗ってみようぜ
-Sounds interesting.
-Let's give it a try.
+Sounds like fun.
+Let's give it a shot.
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -394,8 +394,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -418,7 +418,7 @@ exit-party_togather( short spd )
 notice
 -----------------------
 #{16}{26}{66}{C0}を手に入れました
-{16}{26}{66}{C0}You obtained .
+Acquired {16}{26}{66}{C0}.
 -----------------------
 notice
 -----------------------
@@ -429,12 +429,11 @@ notice
 -----------------------
 #{16}{26}{6E}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{26}{6E}{C0}There was , but
-I couldn't carry it because it was full.
+Found {16}{26}{6E}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

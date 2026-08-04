@@ -21,45 +21,45 @@ NOTICE
 #『幸運の噴水にガルドを投げ入れましょう』
 #噴水の中に小銭が沈んでいます
 #持っていきますか？
-Toss some gald into the Fountain of Fortune.
-Copper coins are sinking to the bottom of the fountain.
-Do you want to take them?
+'Toss some gald into the Fountain of Fortune.'
+Small change has settled at the bottom of the fountain.
+Take it?
 -----------------------
 select
 -----------------------
 #<03:00000000>　ありがたく頂きます　
 #　そんなみみっちいマネはしない　
-<03:00000000>I'll gladly accept.
+<03:00000000> I'll gladly take it.
 I won't do something so petty.
 -----------------------
 NOTICE
 -----------------------
 #１００ガルド、いただいてしまいました
 #なんだか自分がとても小さな人間のように思えました
-I've taken 100 gald.
-I felt strangely small.
+You took 100 Gald.
+Somehow, it made you feel like a very small person.
 -----------------------
 #『幸運の噴水にガルドを投げ入れましょう』
 #････<Kyle>がガルドをいただいてしまったため
 #噴水には１ガルドも入っていない････
-Let's toss some gald into the Fountain of Fortune.
-Since <Kyle> took our gald...
-There isn't even a single gald left in the fountain...
+'Toss some gald into the Fountain of Fortune.'
+......Since <Kyle> took the Gald,
+there isn't a single Gald left in the fountain......
 -----------------------
 <char:000003E8>
 -----------------------
 #これは！
-This is it!
+What's this?!
 -----------------------
 NOTICE
 -----------------------
 #ＴＯＤ２の追加クイズ問題を見つけた！
-I found an additional quiz question for T.O.D. 2!
+Found a bonus quiz question for T.O.D.2!
 -----------------------
 NOTICE
 -----------------------
 #クイズ本に新しいジャンルが追加されました
-A new genre has been added to the quiz book.
+A new category has been added to the quiz book.
 -----------------------
 #広告が貼ってある
 #『コングマン自伝・俺と拳　大好評発売中！』
@@ -67,55 +67,55 @@ There's an advertisement posted.
 'Kong Man's Autobiography: Me and My Fists - Now on Sale!'
 -----------------------
 #『万雑貨・新鮮な食材のお求めはこちらで！』
-『For all your general goods and fresh ingredients, come right here!』
+'For all your general goods and fresh ingredients, come right here!'
 -----------------------
 NOTICE
 -----------------------
 #<item:0000000A>を手に入れました
-<item:0000000A>You obtained .
+<item:0000000A> Acquired.
 -----------------------
 #門の先に立派な庭が見える
 #ここは大金持ちの家なのだろう
 A splendid garden lies beyond the gate.
-This must be the home of some wealthy magnate.
+This must be a wealthy family's home.
 -----------------------
 <Kyle>
 -----------------------
 #あはははっ！
 #ねぇ、あの顔見た!?
-Hahaha!
-Hey, did you see that face!?
+Ahahaha!
+Hey, did you see that face?!
 -----------------------
 <Loni>
 -----------------------
 #金を渡すときだろ？
 #苦虫噛みつぶしたような顔してたな
-Time to hand over the cash, right?
-You had that sour look on your face.
+That was when he had to hand over the cash, right?
+He had that sour, bitter look on his face.
 -----------------------
 <Reala>
 -----------------------
 #これで、よかったのよね
 #<Judas>？
-So that's it.
+So this is for the best, right
 <Judas>?
 -----------------------
 <Judas>
 -----------------------
 #････おまえたちにしては、上出来だ
-......Not bad for you lot.
+......Not bad, for you lot.
 -----------------------
 <Loni>
 -----------------------
 #さて、これでヒマもつぶせたことだし
 #船着き場に行ってみるか？
 Well, that killed some time.
-Wanna check out the dock?
+Wanna head down to the docks?
 -----------------------
 <Kyle>
 -----------------------
 #うん、そうだね！
-Yeah, that's right!
+Yeah, let's go!
 -----------------------
 #おじさん
 Man
@@ -123,9 +123,9 @@ Man
 #貧民層のオレたちが
 #ボロボロになったこの街を
 #建てなおしたんだぜ
-We from the lower class
-this worn-out town
-we rebuilt it.
+We folks from the slums
+are the ones who rebuilt
+this worn-out town.
 -----------------------
 #おじさん
 Man
@@ -133,9 +133,9 @@ Man
 #富豪層のヤツらは
 #金がなくなったとたん
 #なにも、できなくなっちまった
-Those wealthy elites
+Those rich elites
 the moment their money ran out
-they couldn't do anything anymore
+they couldn't do a thing anymore.
 -----------------------
 #おじさん
 Man
@@ -143,25 +143,25 @@ Man
 #金がなくても生きてきたオレたちは
 #街がボロボロになっても
 #いつもどおり生きてこられたのさ
-We've managed to survive even without money,
-even if the town falls apart,
-we've been able to live just as we always have.
+We've lived without money before.
+Even if the town falls to pieces,
+we'll keep on living like we always have.
 -----------------------
 <Loni>
 -----------------------
 #金があることが幸せじゃねえ････
 #つまり、貧しくても
 #美人のヨメをさがせってことだ
-Having money isn't happiness...
-So even if you're poor,
-You should look for a beautiful wife.
+Having money doesn't mean happiness......
+Which is to say, even if you're poor,
+you should still find yourself a beautiful wife.
 -----------------------
 <Kyle>
 -----------------------
 #なんか、ビミョーに
 #ズレてる気がするんだけど････
-It feels kind of off,
-like something's just not quite right...
+Something about that
+feels just a little off......
 -----------------------
 #おじさん
 Man
@@ -169,9 +169,9 @@ Man
 #ノイシュタットは
 #昔ほど豊かじゃなくなったが
 #人の心は逆に豊かになった気がするな
-Neuestadt may
-not be as prosperous as it once was,
-but I feel its people's hearts have grown richer.
+Neuestadt may not be
+as prosperous as it once was,
+but I feel like people's hearts have grown richer instead.
 -----------------------
 #おじさん
 Man
@@ -179,9 +179,9 @@ Man
 #いくら豊かでも
 #金持ちだけが幸せになれる街なんか
 #もう、たくさんだ
-As rich as it may be
-A town where only the wealthy can find happiness
-I've had enough already.
+No matter how wealthy it gets,
+I've had my fill of towns where
+only the rich can find happiness.
 -----------------------
 #おじさん
 Man
@@ -189,9 +189,9 @@ Man
 #貧しくても
 #みんなで支えあって生きていく････
 #そんな街であってほしいな
-Even if we're poor
-We'll support each other and live on...
-I hope it's that kind of town
+Even if we're poor,
+I want this to be a town where we all
+support each other and keep on living......
 -----------------------
 #おじさん
 Man
@@ -200,8 +200,8 @@ Man
 #それなりに平等に暮らしてるなんて
 #昔じゃ、信じられない話だよ
 The wealthy elite and us laborers
-living together in relative equality
-would have been unbelievable back in the day.
+living together in relative equality-
+would've been unbelievable back in the day.
 -----------------------
 #おじさん
 Man
@@ -209,18 +209,18 @@ Man
 #十八年前の、あの騒乱････
 #たくさんのものを失ったけど
 #だからこそ、今の幸せがあるんだよな
-The unrest from eighteen years ago...
-We lost many things,
-But that's precisely why we have our current happiness.
+That unrest from eighteen years ago......
+We lost so much,
+but that's precisely why we have the happiness we do now.
 -----------------------
 <Kyle>
 -----------------------
 #失ったもの････
 #それと引き換えに、手に入れた幸せ････
 #････なんか、どこかで････
-What I lost...
-The happiness I gained in exchange...
-...It feels like somewhere...
+What I lost......
+The happiness I gained in exchange......
+......It feels like I've heard this somewhere before......
 -----------------------
 #おじさん
 Man
@@ -228,222 +228,219 @@ Man
 #多くの人の犠牲の上に
 #今の幸せがあるってこと
 #忘れちゃ、ダメなんだよな
-On the sacrifice of many people,
-there is our current happiness.
-We can't forget that.
+Our happiness today was built
+on the sacrifices of many.
+We mustn't ever forget that.
 -----------------------
 #青年
-Youth
+Young Man
 -----------------------
 #闘技場に行ってみたか？
 #あそこは、この街で焼けのこった
 #数少ない建物のひとつなんだぜ
-You went to the arena?
-That place is one of the few
-buildings that survived in this town.
+Have you been to the arena?
+It's one of the few buildings in town
+that survived the fires.
 -----------------------
 #青年
-Youth
+Young Man
 -----------------------
 #あの闘技場がなければ
 #この街の復興も
 #今ほどすすんでなかっただろうな
 Without that arena,
-the reconstruction of this town
-wouldn't have progressed as far as it has.
+this town's reconstruction
+probably wouldn't have come so far.
 -----------------------
 #青年
-Youth
+Young Man
 -----------------------
 #よかったら、あんたがたも
 #この街の復興のためだと思って
 #闘技大会に参加してみてくれよ
-If you're interested, all of you too
-I'm thinking about it as part of the town's reconstruction efforts
-Why don't you give the tournament a try?
+If you folks don't mind, think of it as
+helping this town get back on its feet,
+and give the tournament a shot, would ya?
 -----------------------
 #青年
-Youth
+Young Man
 -----------------------
 #いつの時代も
 #人々は強い者にあこがれるもんだ
-In any era,
-people always admire those who are strong.
+No matter the era,
+people always look up to the strong.
 -----------------------
 #青年
-Youth
+Young Man
 -----------------------
 #オレのあこがれは
 #ありきたりだが、コングマンと
 #伝説のチャンプ・英雄スタンだな
-My dream is to
-be just like Kong Man,
-a legendary champion and hero named Stan.
+My heroes are pretty standard, I guess--
+Kongman and the legendary champ,
+the hero Stahn.
 -----------------------
 #青年
-Youth
+Young Man
 -----------------------
 #おまえも伝説のチャンプ
 #英雄スタンに会ってみたいと
 #思わないか？
-You're also a legendary champ.
-I want to meet the hero Stan.
-Don't you think so?
+Don't you wanna meet the legendary champ,
+the hero Stahn, too?
 -----------------------
 <Kyle>
 -----------------------
 #オレは、もう会えたからいいよ････
-I've already met up with them, so I'm good.
+Nah, I've already met him, so I'm good...
 -----------------------
 #青年
-Youth
+Young Man
 -----------------------
 #おまえ知ってるか？
 #ここの闘技場で、あの英雄スタンが
 #戦ったことがあるんだよ！
-You know about that?
-That hero Stan fought in the arena here,
-back in his day!
+Did you know?
+That hero Stahn fought right here
+in this arena, back in the day!
 -----------------------
 #青年
-Youth
+Young Man
 -----------------------
 #もちろん、チャンプになったさ！
 #いやぁ、英雄スタンに敵なしだね！
-Of course I became champ!
-Man, there's no match for hero Stan!
+Of course he became champ!
+Man, no one could beat the hero Stahn!
 -----------------------
 <Kyle>
 -----------------------
 #でも、真のチャンプは
 #その父さんの頭をフライパンでなぐる
 #母さんなのかも････
-However, the true champ is...
-hitting her father's head with a frying pan
-might actually be mom...
+But the real champ might be
+the mom who smacks Dad's head
+with a frying pan...
 -----------------------
 #青年
-Youth
+Young Man
 -----------------------
 #闘技大会での
 #英雄スタンの勇姿！
 #ぜひまた拝みたいもんだね！
-At the tournament,
-the heroic Stan in all his glory!
-I'd love to see it again someday!
+The hero Stahn, fighting at the tournament!
+I'd love to see that again someday!
 -----------------------
 #金持ち
-Rich people
+Wealthy Man
 -----------------------
 #その昔、ノイシュタットは
 #一部の特権階級が貧しい人を支配する
 #ひどい街だったんだ
-Back in those days, Neuestadt was
-a place where a privileged few
-oppressed the poor.
+Long ago, Neuestadt was a terrible place
+where a privileged few oppressed
+the poor.
 -----------------------
 #金持ち
-Rich people
+Wealthy Man
 -----------------------
 #思えば、外殻の落下で街は壊滅したけれど
 #あれは彼女からのプレゼント
 #だったのかもしれない
-Looking back, even though the city was devastated by the fall of the outer shell,
+Come to think of it, the city was devastated
+when the outer shell fell, but maybe
 that was a gift from her.
-or so it might have been.
 -----------------------
 <Kyle>
 -----------------------
 #彼女ってだれ？
-Who is she?
+Who's "her"?
 -----------------------
 <Judas>
 -----------------------
 #イレーヌ＝レンブラントという女性だ
 #彼女は、貧富の差が激しい現状に
 #誰よりも心を痛めていたからな
-Irene Rembrandt is the woman in question.
-She was deeply troubled by the stark disparity between the rich and poor,
-more so than anyone else.
+A woman named Irene Rembrandt.
+She took the gap between rich and poor
+more to heart than anyone.
 -----------------------
 #金持ち
-The rich
+Wealthy Man
 -----------------------
 #十八年前の外殻の落下で
 #支配階級が権力と財産を失ったとき
 #この街は、生まれ変わったのさ
-The fall of the outer shell eighteen years ago
-When the ruling class lost their power and wealth
-This town was reborn.
+When the ruling class lost their power
+and wealth in the fall of the outer shell
+eighteen years ago, this town was reborn.
 -----------------------
 #金持ち
-Rich people
+Wealthy Man
 -----------------------
 #今では、復興も進んで
 #ごらんのとおり、貧富の差のない
 #平等な街になったんだよ
-Now that reconstruction is well underway,
-As you can see, it's become
-a city where everyone is equal, regardless of wealth.
+Now reconstruction's well underway, and as
+you can see, it's become an equal town
+without any gap between rich and poor.
 -----------------------
 #金持ち
-rich people
+Wealthy Man
 -----------------------
 #貧富の差がなくなりつつある
 #今のノイシュタットを見て
 #イレーヌさんは、なんていうかな････
-The gap between rich and poor is gradually disappearing.
-Just look at Neuestadt right now.
-Irene-san... how should I put it...
+The gap between rich and poor is fading.
+Looking at Neuestadt now, I wonder what
+Irene would say...
 -----------------------
 <Reala>
 -----------------------
 #きっと、よろこんでくれると思いますよ
 #彼女が思い描いていた街の姿に
 #近づいていっているのだから････
-I'm sure she'll be delighted.
-To the image of the city she had envisioned in her mind,
-She's getting closer to it...
+I'm sure she'd be happy.
+The town is becoming what she always
+envisioned...
 -----------------------
 #金持ち
-The wealthy
+Wealthy Man
 -----------------------
 #イレーヌさんは、子供がおなかを
 #すかしていると、とても悲しそうだった
 #だから、人一倍救いたいって気持ちが
 #強かったんだろうね
-When Irena saw that the children were hungry,
-she looked so sad.
-That's probably why she had such a strong desire
-to save them all.
+Irene always looked so sad when she saw
+children going hungry. That's probably why
+she felt more strongly than anyone that
+she had to save them.
 -----------------------
 #金持ち
-Rich people
+Wealthy Man
 -----------------------
 #今のノイシュタットを見て
 #イレーヌさんはどう思うのかな？
 #喜んでくれてるいるといいけど････
-Look at Neuestadt right now.
-I wonder what Irene thinks about it?
-I hope she's happy to see it...
+I wonder what Irene would think if she saw
+Neuestadt now. I hope she'd be happy...
 -----------------------
 #金持ち
-The wealthy
+Wealthy Man
 -----------------------
 #どうだい、ここはいい街だろう？
 #でも、昔は一部の特権階級が
 #貧しい人を支配する街だったんだ
-How's it? This is quite a nice town, isn't it?
-But back in the day,
-it was a city where a privileged few ruled over the poor.
+Nice town, isn't it? But back in the day,
+it was a place where a privileged few
+ruled over the poor.
 -----------------------
 #金持ち
-The wealthy
+Wealthy Man
 -----------------------
 #今のノイシュタットを
 #イレーヌさんに見せたかったなぁ
-I wanted to show you the current Neuestadt
-To Irene.
+I wish I could show Irene
+the Neuestadt of today...
 -----------------------
 <Kyle>
 -----------------------
@@ -451,109 +448,109 @@ To Irene.
 #････なんだろう？
 #聞いたことが、あるような気が････
 Irene?
-...What is it?
-It feels like I've heard that before...
+...Why does that sound familiar?
+Like I've heard it somewhere before...
 -----------------------
 #金持ち
-Rich people
+Wealthy Man
 -----------------------
 #イレーヌさんってのはさ
 #この街で、慈善事業をやっていた人さ
 #リッパな人だった････
-Speaking of Irenes,
-she was someone who ran charity work in this town.
-She was quite the wonderful person...
+Irene was someone who did charity work
+right here in town. She was a wonderful
+person...
 -----------------------
 #金持ち
-The wealthy
+Wealthy Man
 -----------------------
 #先の騒乱で、亡くなっていなければ
 #きっと今でも元気に
 #街のために、走りまわってたはずさ
-If they hadn't perished in the earlier unrest,
-they'd surely still be thriving
-running all over town for its sake.
+If she hadn't passed in the unrest, I'm sure
+she'd still be running around town, full of
+energy, working for its sake.
 -----------------------
 <Kyle>
 -----------------------
 #その人のこと、よくは知らないけど････
 #きっと、いい人だったんだと思う
 #････わかるんだ
-I don't know that person very well...
-But I'm sure they were a good person.
-...I understand.
+I don't know her well, but...
+I'm sure she was a good person.
+...I can tell.
 -----------------------
 #男性
-Guy
+Man
 -----------------------
 #君たち、船に乗るつもりかい？
 #しばらくは、あきらめたほうがいいよ？
-You guys planning to get on that ship?
-I'd say it's best to give up on it for now.
+You folks planning to take a ship?
+I'd give up on that for a while, if I were you.
 -----------------------
 #男性
-Guy
+Man
 -----------------------
 #理由かい？　港に行ってみればわかるさ
 #港は、この道をいったすぐそこだから
-You want to know why? Just head over to the port and you'll see.
-The port is right there at the end of this road.
+Why? Just head to the port and you'll see.
+It's right down this road.
 -----------------------
 #男性
-Guy
+Man
 -----------------------
 #あの悪徳商人
 #なにをニタニタしてるんだか････
-That shady merchant
-What's he grinning about...?
+That crooked merchant...
+What's he grinning about over there?
 -----------------------
 #男性
-Guy
+Man
 -----------------------
 #ほら、すぐそこに屋敷が見えるだろ？
 #あそこに商人が住んでるんだが
 #こいつが、まぁ評判が悪くてな
-You see that mansion right there?
-That's where the merchant lives.
-And he's got quite the reputation.
+See that mansion right there?
+A merchant lives there, and let me tell you,
+he's got quite the reputation.
 -----------------------
 #男性
-Guy
+Man
 -----------------------
 #あそこの屋敷に住んでる、商人な
 #メチャメチャ落ちこんでんだよ
-He's a merchant living in that mansion.
-He's completely crushed.
+He's a merchant who lives in that mansion.
+He's been absolutely crushed lately.
 -----------------------
 #男性
-Guy
+Man
 -----------------------
 #オベロン社とか、遺産とか
 #ブツブツつぶやいててさ
 #なんか、あったのかねぇ？
-Like Oberon Company or whatever, and the inheritance...
-Muttering to herself all the time,
-I wonder if something actually happened?
+Muttering about the Oberon Corporation, his inheritance...
+Just rambling to himself all the time.
+Wonder what happened to him?
 -----------------------
 #男性
-Guy
+Man
 -----------------------
 #あそこに、でっかい屋敷があるだろ？
 #商人が住んでるんだけどさ
 #なんか、みょ～に落ちこんでんだよ
 See that huge mansion over there?
-Some merchants live in it.
-They seem kinda depressed.
+A merchant lives there, but he's been
+acting really down in the dumps.
 -----------------------
 #男性
-Guy
+Man
 -----------------------
 #あそこの商人は、やり方こそどうかと思うが
 #バイタリティだけは、尊敬してんだよ
 #だから、元気がないのが気になってな
-That merchant over there may have his questionable methods,
-but I respect his vitality.
-That's why it bothers me when he seems so listless.
+That merchant's methods may be questionable,
+but I've always respected his vitality.
+That's why it bothers me to see him so listless.
 -----------------------
 #おじいさん
 Old Man
@@ -561,18 +558,17 @@ Old Man
 #おい、聞いたか？
 #デビルズ・リーフの主が
 #だれかに、たおされちまったってよ
-Hei, you hear that?
-The master of Devil's Leaf,
-has been taken down by someone.
+Hey, you hear that?
+The master of Devil's Reef
+got taken down by someone!
 -----------------------
 <Kyle>
 -----------------------
 #それならオレたちが
 #チョチョイのチョイって
 #ヒネってやったよ！
-If that's the case, we'll...
-Just a little bit,
-We twisted it up!
+Well, that was us!
+We took him out easy as you please!
 -----------------------
 #おじいさん
 Old Man
@@ -581,8 +577,8 @@ Old Man
 #バカいっちゃいけねえよ
 #おまえらに、あいつがたおせるもんか
 Hahaha!
-You're an idiot.
-Do you really think you can take him down?
+Don't be ridiculous, kid.
+You think you could take down someone like that?
 -----------------------
 #おじいさん
 Old Man
@@ -590,16 +586,16 @@ Old Man
 #デビルズ・リーフの主は
 #とんでもなく、強いんだ
 #おまえさんたちにゃ、ムリだ
-The master of Devil's Leaf
-is incredibly strong.
-You guys don't stand a chance.
+The master of Devil's Reef is
+unbelievably strong.
+You kids wouldn't stand a chance.
 -----------------------
 <Kyle>
 -----------------------
 #なんだよ！
 #ホントに倒したんだってば！
-What's with you!
-I really did defeat them, I swear!
+What's your problem!
+We really did defeat him, I swear!
 -----------------------
 #おじいさん
 Old Man
@@ -607,17 +603,17 @@ Old Man
 #デビルズ・リーフの主が
 #いなくなってから
 #ノイシュタットへの客も増えたんだ
-The lord of Devils' Leaf
-has been gone
-and we've seen more visitors to Neuestadt.
+Ever since the master of Devil's Reef
+disappeared, we've been getting
+more visitors coming to Neuestadt.
 -----------------------
 #おじいさん
 Old Man
 -----------------------
 #だれがたおしてくれたかしらねえが
 #ホントにありがたいこった
-I wonder who took me down?
-This is truly appreciated.
+Don't know who took him down,
+but I'm truly grateful to 'em.
 -----------------------
 #おじいさん
 Old Man
@@ -625,37 +621,37 @@ Old Man
 #この街への観光客がふえりゃ
 #闘技場のもうけもふえて
 #より復興にちかづくってわけだな
-If tourist numbers in this town increase,
-the arena's profits will rise as well,
-bringing us closer to reconstruction.
+More tourists means more profits for the arena,
+which means we're one step closer
+to finishing reconstruction.
 -----------------------
 #金持ち
-Rich people
+Wealthy Man
 -----------------------
 #デビルズ・リーフの主のせいで
 #船客が、のびなやんでるんだ････
-Because of the master of Devil's Leaf,
-The passengers are just loafing around...
+Because of that master of Devil's Reef,
+ship passengers have been dwindling...
 -----------------------
 #金持ち
-The wealthy
+Wealthy Man
 -----------------------
 #あぁ、どっかの
 #どえらい英雄さんとかが
 #倒してくれたりしねえかなぁ
-Ah, maybe some...
-...great hero or something...
-...could take them down for us.
+Ah, if only some great hero
+from somewhere would come along
+and take him down for us...
 -----------------------
 #金持ち
-Wealthy
+Wealthy Man
 -----------------------
 #どっかの、どえらい英雄さんとかが
 #デビルズ・リーフの主
 #倒してくれたりしねえかなぁ
-Some great hero from somewhere...
-The master of Devil's Leaf,
-I wonder if they'll go and defeat him.
+If only some great hero from somewhere
+would come along and defeat
+the master of Devil's Reef...
 -----------------------
 #船員
 Sailor
@@ -664,15 +660,15 @@ Sailor
 #港ごとに愛する女をのこし
 #今日もひとり、旅をつづけるのさ････
 I'm Joe, the wandering sailor.
-Leaving behind my beloved woman in every port,
-I continue my journey alone once again...
+Leaving behind a beloved woman in every port,
+I continue my journey alone once more...
 -----------------------
 <Loni>
 -----------------------
 #クッ････
 #なんて、うらやましいヤツ････
-Grr...
-What an enviable guy...
+Tch...
+What a lucky bastard...
 -----------------------
 #船員
 Sailor
@@ -681,7 +677,7 @@ Sailor
 #港ごとに愛する女をのこし
 #今日もひとり、旅をつづけるのさ････
 I'm Joe, the wandering sailor.
-Leaving behind my beloved woman in every port,
+Leaving behind a beloved woman in every port,
 I continue my journey alone today...
 -----------------------
 #船員
@@ -690,14 +686,14 @@ Sailor
 #なぜなら････
 #オレが愛する女は、だれひとりとして
 #オレを愛してくれないからだ････
-Why...
-The woman I love,
-isn't in love with me...
+Why, you ask...?
+Because not a single woman I've loved
+has ever loved me back...
 -----------------------
 <Loni>
 -----------------------
 #なんて、うらやましくないヤツ････
-What a jealous guy...
+What an unlucky bastard...
 -----------------------
 #船員
 Sailor
@@ -707,16 +703,16 @@ Sailor
 #自由に生きてやるのさ････
 I'm Joe, the wandering sailor.
 Unbound by anyone or anything,
-I'll live free.
+I live my life free...
 -----------------------
 <Kyle>
 -----------------------
 #なにものにも、しばられず････かぁ
 #そういう風に生きるのって
 #けっこう大変なことだよね････
-Unbound by anything... is it?
-Living that way...
-It's quite a demanding thing to do...
+Unbound by anyone or anything, huh...
+Living that way sounds
+pretty tough, actually...
 -----------------------
 #船員
 Sailor
@@ -724,9 +720,9 @@ Sailor
 #そうなんだ！
 #言うこと聞かないからって
 #どの船も、やとってくれなくて････
-I see!
-Just because they don't listen to me...
-Not a single ship will hire us...
+You got that right!
+They won't hire me on any ship
+'cause I don't do what I'm told...
 -----------------------
 #船員
 Sailor
@@ -735,8 +731,8 @@ Sailor
 #今日も空を流れる雲のように
 #だれにも、しばられずに生きるのさ････
 I'm Joe, the wandering sailor.
-Just like the clouds drifting across the sky today,
-I live free from any ties.
+Drifting free like the clouds in the sky today,
+unbound by anyone...
 -----------------------
 #船員
 Sailor
@@ -746,20 +742,20 @@ Sailor
 #もう三年もこの街でくらしてるのさ････
 I'm Joe, the wandering sailor.
 Even though I call myself 'wandering,'
-I've been living in this town for three years already...
+I've been living in this town for three years now...
 -----------------------
 <Kyle>
 -----------------------
 #ぜんぜん、さすらってないじゃん
-I'm not wandering around at all.
+You're not wandering at all!
 -----------------------
 #船員
 Sailor
 -----------------------
 #仕事をさがして、この街の港を
 #えんえんとさすらってるのさ････
-Looking for work, I've been wandering around this town's harbor...
-Just wandering on and on...
+I'm wandering this town's harbor
+endlessly, looking for work...
 -----------------------
 #船員
 Sailor
@@ -768,26 +764,25 @@ Sailor
 #先の見えない人生を
 #手さぐりでさまよう男････
 I'm Joe, the wandering sailor.
-A life with no clear path ahead,
-A man stumbling through the dark...
+A man who gropes his way through
+a life with no clear path ahead...
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #あたし
 #闘技大会を見物したくて
 #この街に来たのよ
-I
-I came to watch the tournament
-So I came to this town.
+I came to this town
+to watch the tournament.
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #ねえ、あなたたちも
 #参加するの？
 Hey, are you guys
-going to join us too?
+gonna enter too?
 -----------------------
 <Loni>
 -----------------------
@@ -795,41 +790,40 @@ going to join us too?
 #俺にまかせときな！
 #おじょうさん
 Hahaha!
-Leave it to me!
-Miss
+Leave it to me, miss!
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #キャ～！スッテキィィ～ッ!!
 #応援するから、がんばってねぇっ♪
-Wow~! That's amazing~!
-I'll cheer you on, so give it your best~!
+Kyaa~! You're so cool~!!
+I'll cheer for you, so do your best~! ♪
 -----------------------
 <Loni>
 -----------------------
 #ハッハッハ
 #キミのために闘うとも！
 Hahaha!
-I'll fight for you too!
+I'll fight for you!
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #キャ～！スッテキィィ～ッ!!
 #応援するから、がんばってねぇっ♪
-Woooh~! That's amazing~!
-I'll cheer you on, so give it your best shot! ♪
+Kyaa~! You're so cool~!!
+I'll cheer for you, so do your best~! ♪
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #闘技大会で長い間
 #チャンピオンをつとめた
 #無敵のコングマンって人がいるの
-In the tournament arena for quite some time,
-He served as champion.
-There's someone called Kongman who was invincible.
+There's this guy named Kongman
+who was the champion of the tournament
+for the longest time. They called him invincible.
 -----------------------
 #女性
 Woman
@@ -837,19 +831,19 @@ Woman
 #でも、そのコングマンをも
 #やぶった人がいた････
 #それが、あの英雄スタン＝エルロンよ！
-But even that Kong Man
+But even that Kongman
 had someone who defeated him...
-That was none other than the hero Stan Elron!
+And that was the hero, Stahn Aileron!
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #ああ！
 #伝説のチャンピオンを越える
 #ステキな人があらわれないかしら★
-Oh!
-To surpass the legendary champion
-I wonder if someone wonderful will show up~
+Oh, I wonder if someone wonderful
+will appear who can surpass
+the legendary champion~ ★
 -----------------------
 #女の子
 Girl
@@ -857,9 +851,8 @@ Girl
 #あたし
 #マッハくんファンクラブの
 #かいちょ～さんなの！
-I
-The president of
-Mach-kun's Fan Club!
+I'm the president
+of Mach-kun's fan club!
 -----------------------
 #女の子
 Girl
@@ -867,9 +860,8 @@ Girl
 #マッハくんは
 #このまちでいちばん足のはやい
 #男の子なんだよ
-Mach-kun is
-the fastest runner in town.
-He's a boy.
+Mach-kun is the fastest boy
+in this whole town!
 -----------------------
 #女の子
 Girl
@@ -877,17 +869,16 @@ Girl
 #コーナーからコーナーを
 #はやてのように
 #かけぬけるんだから♪
-From corner to corner,
-like the wind
-we're going to dash right through! ♪
+He dashes from corner to corner
+like a gale~! ♪
 -----------------------
 #女の子
 Girl
 -----------------------
 #むかし、初代マッハくんをやぶった
 #すごく足のはやい人が、いたんだってさ
-I heard that back in the day, someone defeated the original Mach-kun.
-They say there was once a person incredibly fast.
+A long time ago, there was someone
+really fast who beat the original Mach-kun.
 -----------------------
 #女の子
 Girl
@@ -895,26 +886,27 @@ Girl
 #たしか、その人のなまえは
 #「すかたん＝えろりん」とかゆ～
 #ヘンな、なまえだったの
-It was definitely...
-'Skatan Erolin' or something like that~
-A weird name.
+I think his name was
+'Skatan Erolin' or something~
+What a weird name!
 -----------------------
 <Kyle>
 -----------------------
 #「すかたん＝えろりん」？
 #う～ん････
 #どこかで聞いたことあるような････
-"Skatan = Ero-rin"?
+'Skatan Erolin'?
 Hmm...
-It sounds familiar...
+I feel like I've heard that somewhere before...
 -----------------------
 #マッハ少年
 Mach Boy
 -----------------------
 #フッ　オレに勝つとはな
 #世の中にはまだまだ強者がいるものだ
-Hmph. You think you can beat me?
-There are still plenty of strong fighters out there in this world.
+Hmph. So you think you can beat me?
+There are still plenty of strong fighters
+out there in this world.
 -----------------------
 #マッハ少年
 Mach Boy
@@ -922,17 +914,17 @@ Mach Boy
 #フッ　早くしろよ
 #オレの隣に居る娘に
 #エントリーしてもらえ！
-Hmph. Hurry up.
-To the girl standing beside me,
-please enter your details!
+Hmph. Hurry it up.
+Have the girl standing next to me
+enter the race!
 -----------------------
 #マッハ少年
 Mach Boy
 -----------------------
 #フッ　オレの名はマッハ
 #ノイシュタットレースの現王者だ
-Hmph. I am Mach.
-The current champion of the Neuestadt race.
+Hmph. My name is Mach.
+I'm the current champion of the Neuestadt race.
 -----------------------
 #マッハ少年
 Mach Boy
@@ -940,15 +932,14 @@ Mach Boy
 #フッ　お前、なかなか良い足を
 #してるじゃないか
 #その足でオレと戦ってみる気は無いか？
-Hmph. You've got some nice legs.
-I have to say.
-Wanna test them out against me?
+Hmph. You've got some pretty fast legs.
+Care to test them against me?
 -----------------------
 SELECT
 -----------------------
 #<03:00000000>　勝負する！　
 #　興味無い　
-<03:00000000>I'm going all out!
+<03:00000000> Let's race!
 Not interested.
 -----------------------
 #マッハ少年
@@ -962,26 +953,26 @@ Mach Boy
 -----------------------
 #フッ　オレの隣に居る娘に
 #エントリーしてもらえ！
-Hmph. To the girl standing by my side.
-I'll have you enter!
+Hmph. Have the girl
+standing next to me enter!
 -----------------------
 #マッハ少年
-The Mach Boy
+Mach Boy
 -----------------------
 #フッ　ならば早々に
 #立ち去るが良い
-Hmph. Then I'll leave quickly.
-It's best you depart as well.
+Hmph. Then you'd best
+leave quickly.
 -----------------------
 #マッハ少年
-The Mach Boy
+Mach Boy
 -----------------------
 #フッ　オレの名はマッハ
 #ノイシュタットレースの現王者にして
 #初代王者の息子だ
-Hmph. I am Mach.
-The current champion of the Neuestadt race,
-And son of the inaugural champion.
+Hmph. My name is Mach.
+Current champion of the Neuestadt race,
+and son of the very first champion.
 -----------------------
 #マッハ少年
 Mach Boy
@@ -989,9 +980,9 @@ Mach Boy
 #フッ　このオレの走りは誰にも
 #止められんさ
 #アタモニ神にすら、な
-Hmph. No one can match my speed.
-They can't stop me.
-Not even the God of Aratan.
+Hmph. No one can stop me once I start running.
+Not anyone.
+Not even the goddess Atamoni herself.
 -----------------------
 #子供
 Kid
@@ -999,25 +990,24 @@ Kid
 #ねえねえ、海のはじっこまで行ったら
 #滝になってて、下に落ちるしかないって
 #ホントなの？
-Hey, hey, if we go all the way to the edge of the sea,
-it turns into a waterfall, and there's no way down but to fall,
-is that really true?
+Hey, hey, is it true that if you go all the way to the edge of the sea,
+it turns into a waterfall, and you just fall off with no way down?
 -----------------------
 <Kyle>
 -----------------------
 #ゲッ！
 #そうだったのか!?
 Gah!
-So that's how it is!?
+Is that really true!?
 -----------------------
 <Judas>
 -----------------------
 #もう一度
 #この子どもといっしょに
 #勉強しなおしてこい････
-One more time
-With this child
-Go back to studying
+Go back and study
+with this child...
+one more time.
 -----------------------
 #子供
 Kid
@@ -1026,8 +1016,8 @@ Kid
 #海のはじっこから
 #落っこちたからなのかな～？
 Sometimes ships don't come back.
-At the edge of the sea
-I wonder if it's because I fell?
+Do you think maybe they fell off
+the edge of the sea?
 -----------------------
 #子供
 Kid
@@ -1036,8 +1026,8 @@ Kid
 #海のはじっこが、どうなってるか
 #自分の目で見てくるんだ！
 When I grow up,
-I want to see
-what's at the edge of the sea with my own eyes!
+I'm gonna see what the edge of the sea looks like
+with my own eyes!
 -----------------------
 #子供
 Kid
@@ -1045,9 +1035,9 @@ Kid
 #だから、船乗りになる！
 #いつかきっと
 #ぜ～ったいに、船乗りになる！
-So, I'm gonna become a sailor!
-Someday, definitely
-Abso-lutely, I'm becoming a sailor!
+That's why I'm gonna be a sailor!
+Someday, for sure...
+I'm gonna be a sailor, no matter what!
 -----------------------
 #子供
 Kid
@@ -1055,18 +1045,18 @@ Kid
 #ぼく、大きくなったら船乗りになる！
 #いつかきっと
 #ぜ～ったいに、船乗りになる！
-I'm going to become a sailor when I grow up!
-Someday, definitely
-I'll absolutely become a sailor!
+I'm gonna be a sailor when I grow up!
+Someday, for sure...
+I'm gonna be a sailor, no matter what!
 -----------------------
 <Kyle>
 -----------------------
 #いつか、きっと････
 #････でも、オレが選ばなきゃ
 #この子の未来も････
-One day, surely...
-...But I have to be the one chosen.
-This child's future too...
+Someday, for sure...
+...But if I'm not the one chosen,
+this kid's future will...
 -----------------------
 #子供
 Kid
@@ -1074,24 +1064,24 @@ Kid
 #海のはじっこが、どうなってるか
 #ぼく、見たいの！
 #だから、船乗りを目指してるんだ！
-I want to know what's at the edge of the sea.
+I wanna see what the edge of the sea is like!
 I wanna see it!
-That's why I'm aiming to become a sailor!
+That's why I'm gonna be a sailor!
 -----------------------
 <Kyle>
 -----------------------
 #なりたいものに、なればいいさ！
 #未来は、自分の手で
 #切り開くものだ････
-Just become who you want to be!
-The future is something you carve out with your own hands.
-With your own two hands.
+Just become whatever you want to be!
+The future is something you carve out
+with your own two hands...
 -----------------------
 <Kyle>
 -----------------------
 #････あれ？　今の言葉
 #前に、どこかで････
-Huh? Those words...
+...Huh? Those words...
 I've heard them somewhere before...
 -----------------------
 #子供
@@ -1100,17 +1090,17 @@ Kid
 #海のはじっこが、どうなってるか
 #ぼく、見たいの！
 #だから、船乗りを目指してるんだ！
-I want to know what's at the edge of the sea.
+I wanna see what the edge of the sea is like!
 I wanna see it!
-That's why I'm aiming to become a sailor!
+That's why I'm gonna be a sailor!
 -----------------------
 #グリッド
 Grid
 -----------------------
 #ぐぬぬぬぬ････
 #今日は、調子が悪かっただけだ！
-Grrr...
-I was just feeling off today!
+Grrrr...
+I was just off my game today, that's all!
 -----------------------
 #グリッド
 Grid
@@ -1118,9 +1108,9 @@ Grid
 #おれさまの実力は
 #いや、我等、漆黒の翼の力は
 #こんなものではない！
-My true strength
-No, our power as the Wings of Pitch Black
-is far from that!
+My true strength...
+No, the power of we, the Jet-Black Wings,
+is far greater than this!
 -----------------------
 #グリッド
 Grid
@@ -1129,8 +1119,8 @@ Grid
 #戦闘からの離脱の速さゆえについた
 #あざ名が「音速の貴公子」！
 I am Grid!
-This nickname was earned due to his speed in disengaging from battle.
-The 'Prince of Supersonic Speed'!
+My nickname, earned for my speed in retreating from battle,
+is the 'Prince of Sonic Speed'!
 -----------------------
 #グリッド
 Grid
@@ -1138,17 +1128,17 @@ Grid
 #そのおれさまが
 #あんなガキに
 #負けるハズはないのだ！
-I, the great me,
-lose to some brat like that?
-There's no way it could happen!
+The great me,
+losing to some brat like that?
+There's no way that could happen!
 -----------------------
 #ミリー
 Millie
 -----------------------
 #もう３０回も負けてるんだからさあ････
 #いい加減、あきらめなって
-I've lost thirty times already, you know...
-You should give up already.
+You've already lost thirty times...
+Isn't it about time you gave up?
 -----------------------
 #ジョン
 John
@@ -1156,9 +1146,9 @@ John
 #普段のおやびんなら
 #あんなガキ、ぶっちぎりで
 #抜くでやんす！
-If it's your usual allowance,
-I'd easily beat that brat
-without breaking a sweat!
+If it were the usual boss,
+he'd leave that brat in the dust
+without even trying!
 -----------------------
 #ジョン
 John
@@ -1166,9 +1156,9 @@ John
 #今日は、たまたま
 #調子が悪かっただけでやんすよ！
 #そうでやんすよね、おやびん！
-It just so happens that today,
-I was just feeling under the weather!
-That's right, O-yabin!
+Today was just a fluke,
+I was just feeling a little off!
+Isn't that right, boss!
 -----------------------
 #グリッド
 Grid
@@ -1177,22 +1167,22 @@ Grid
 #戦闘からの離脱の速さゆえについた
 #あざ名が、「音速の貴公子」！
 I am Grid!
-This nickname was earned due to his speed in retreating from battle.
-The 'Prince of Sonic Speed'!
+My nickname, earned for my speed in retreating from battle,
+is the 'Prince of Sonic Speed'!
 -----------------------
 #グリッド
 Grid
 -----------------------
 #我等、漆黒の翼に負けは無いのだ！
-We shall not yield to the pitch-black wings!
+We, the Jet-Black Wings, know no defeat!
 -----------------------
 #ミリー
 Millie
 -----------------------
 #こりないねぇ、グリッドも････
 #３０回目で、やっとあきらめてくれたよ
-You never learn, Grid...
-He finally gave up on me after thirty tries.
+He never learns, that Grid...
+He finally gave up after the thirtieth loss.
 -----------------------
 #ジョン
 John
@@ -1200,9 +1190,9 @@ John
 #普段のおやびんなら
 #あんなガキ、ぶっちぎりで
 #抜くでやんす！
-If it's your usual allowance,
-I'd easily beat those brats
-without breaking a sweat!
+If it were the usual boss,
+he'd leave those brats in the dust
+without even trying!
 -----------------------
 #エントリー娘。
 Entry girl.
@@ -1211,94 +1201,92 @@ Entry girl.
 #<03:00000000>　はい　
 #　いいえ　
 Shall we race?
-<03:00000000>Yes
+<03:00000000> Yes
 No
 -----------------------
 #娘
-daughter
+Girl
 -----------------------
 #少年たちによるかけっこレースは
 #ノイシュタットの名物よ
-The kids' footrace is
-a specialty of Neuestadt.
+The boys' footrace is
+a Neuestadt specialty.
 -----------------------
 #{15}{14}{B4}{C0}は
 #称号「{16}{A0}{00}{08}{24}{B2}{CA}{C0}」を得ました
-{15}{14}{B4}{C0}has
-Gained the title "{16}{A0}{00}{08}{24}{B2}{CA}{C0}."
+{15}{14}{B4}{C0} earned
+the title "{16}{A0}{00}{08}{24}{B2}{CA}{C0}"!
 -----------------------
 notice
 -----------------------
 <Kyle>
 -----------------------
 #あっ！　あれは････
-Oh! What's that...?
+Oh! Is that...?
 -----------------------
 #悪漢
-scoundrel
+Thug
 -----------------------
 #おうおう、ねーちゃん！
 #正義の味方気どりかよ!!
-Hey there, sis!
-You think you're some kind of hero?
+Hey, hey, little miss!
+Think you're some kinda hero?!
 -----------------------
 #悪漢
-Villain
+Thug
 -----------------------
 #へっ！
 #とっとと、どかねえと
 #ケガすんぜ
-Hmph!
-Get lost before I kick you out.
-You'll get hurt.
+Heh!
+Beat it before you get hurt.
 -----------------------
 #リムル
 Rimul
 -----------------------
 #････そうはいかないわね
-Not quite.
+...I'm afraid I can't do that.
 -----------------------
 #悪漢
-Villain
+Thug
 -----------------------
 #んだとコラ！
 #やろうってのか!!
-What was that, you brat!?
-You're gonna do it, aren't you?!
+What'd you say, brat?!
+You askin' for a beatdown?!
 -----------------------
 <Kyle>
 -----------------------
 #どうしよう、助けないと！
-What should I do? I have to save them!
+What do we do? We gotta help her!
 -----------------------
 <Judas>
 -----------------------
 #いや、その必要はないだろう
 #黙って見ているんだ
-No, I don't think that's necessary.
-Just sit back and watch.
+No need.
+Just watch.
 -----------------------
 #悪漢
-Villain
+Thug
 -----------------------
 #なんとかいったらどうだよ、アン！
-What do you think about trying that out, Ann?
+C'mon, say somethin', Ann!
 -----------------------
 #リムル
 Rimul
 -----------------------
 #ケガをしたくなければ
 #すぐに立ち去りなさい････
-If you don't want to get hurt,
-leave immediately.
+Leave now, unless you wish to be injured...
 -----------------------
 #悪漢
-Villain
+Thug
 -----------------------
 #もうガマンできねぇ････
 #おい、やっちまえ!!
-I can't take it anymore...
-Hey, finish him off!!
+I've had enough...
+Hey, waste her!!
 -----------------------
 #リムル
 Rimul
@@ -1306,17 +1294,17 @@ Rimul
 #････安心しなさい
 #これ以上の手出しはしないわ････
 #剣が泣くだけだもの････
-Don't worry.
-I won't interfere any further...
-It's just going to make your sword cry...
+...Rest easy.
+I won't lift a finger...
+It would only make your swords weep.
 -----------------------
 #悪漢
-Villain
+Thug
 -----------------------
 #つ、強ぇ････
 #････つよ、すぎ････る････
-It's... strong...
-...Too... strong...
+S-so strong...
+Too... strong...
 -----------------------
 #リムル
 Rimul
@@ -1324,9 +1312,8 @@ Rimul
 #････とんだ寄り道をしてしまったわね
 #やはり、もっと強い敵とまみえてこその
 #剣の道ね････
-Well, that was quite a detour.
-As expected, it's only fitting to face stronger foes
-on the path of the sword...
+...Quite the detour.
+But the path of the sword demands stronger foes...
 -----------------------
 #少女
 Girl
@@ -1335,44 +1322,43 @@ Girl
 #ありがとうございました！
 #なにか、お礼を････
 Ah, um!
-Thank you very much!
-Something... to show my gratitude...
+Thank you so much!
+Please, let me give you something...
 -----------------------
 #リムル
 Rimul
 -----------------------
 #必要ないわ
 #当然のことを、したまでよ････
-I don't need it.
-I just did what was natural.
+That won't be necessary.
+I merely did what anyone would have done...
 -----------------------
 <Kyle>
 -----------------------
 #すごい････ホントに一瞬で
 #全員、やっつけちゃった････
-Incredible... It really was over in an instant.
-They've all been taken care of...
+Whoa... She really took them all out in a flash...
 -----------------------
 <Judas>
 -----------------------
 #あれでおそらく
 #実力の欠片すら出していないだろう
 #まさに、すご腕だ
-With that, probably
-They haven't even shown a fraction of their true strength.
-Now that's what I call skilled.
+And that was likely
+not even a fraction of her true strength.
+Truly formidable.
 -----------------------
 <Loni>
 -----------------------
 #しかし、なんであの子
 #<Kyle>のほう見たんだ？
-But why is it that kid...
-You were looking at <Kyle>, right?
+But why did she
+look over at <Kyle>?
 -----------------------
 <Kyle>
 -----------------------
 #さぁ････
-Well then...
+Well...
 -----------------------
 #少女
 Girl
@@ -1381,47 +1367,47 @@ Girl
 Ahh... my lady...
 -----------------------
 #リムル
-Limuul
+Rimul
 -----------------------
 #キミは････
-You're...
+You are...
 -----------------------
 <Kyle>
 -----------------------
 #リムルさん、だよね？
 #ねぇ、なにしてたの？
-Rimuru-san, right?
-Heeey, what were you doing?
+You're Rimul, right?
+Hey, what were you doing?
 -----------------------
 #リムル
-Limu
+Rimul
 -----------------------
 #････考えごとよ
-......I'm deep in thought.
+...Thinking.
 -----------------------
 <Kyle>
 -----------------------
 #考えごと？
 #なにを考えてたの？
-Deep in thought?
-What were you thinking about?
+Thinking?
+What about?
 -----------------------
 #リムル
-Limuul
+Rimul
 -----------------------
 #強くなること････
 #今よりも強くなるには
 #どうしたらいいかを、考えていたの
-Becoming stronger...
-To become even stronger than I am now,
-I was thinking about what I should do.
+How to grow stronger...
+I was considering what it would take
+to become stronger than I am now.
 -----------------------
 <Loni>
 -----------------------
 #そんだけ強くて
 #まだ、強くなりたいってのか？
-You're that strong,
-and you still want to get stronger?
+You're already that strong,
+and you still wanna get stronger?
 -----------------------
 #リムル
 Rimul
@@ -1429,27 +1415,27 @@ Rimul
 #今が、どうあろうと関係ないの
 #わたしは、強くなりたい････
 #それだけ
-It doesn't matter what happens now.
-I want to become stronger...
-That's all.
+It matters not how strong I am now.
+I wish to become stronger...
+That is all.
 -----------------------
 #リムル
-Limuul
+Rimul
 -----------------------
 #今のわたしには、切り札がないわ
 #どんな不利な状況をも、はね返せる
 #強力な切り札････
-I have no trump cards left.
-No matter how dire the situation,
-A powerful trump card...
+I currently lack a trump card...
+A powerful trump card that could turn back
+any disadvantageous situation...
 -----------------------
 #リムル
-Limuul
+Rimul
 -----------------------
 #それがあれば、もっと高みに昇れる
 #そこまでは、考えいたったのよ
-If I have that, I can ascend even higher.
-That's where my thoughts led me.
+With a trump card, I could rise even higher.
+That's as far as my thoughts had taken me.
 -----------------------
 <Kyle>
 -----------------------
@@ -1460,16 +1446,15 @@ Hmm...
 -----------------------
 #ヒュ～♪
 #かっ飛ばしてんなぁ！
-Huu~♪
-You're blasting off!
+Hoo~♪
+She's really fired up!
 -----------------------
 #リムル
 Rimul
 -----------------------
 #ただ、速く走ることだけを
 #追い求める････
-Just focusing on running as fast as possible
-is all I pursue...
+Simply pursuing nothing but running faster and faster...
 -----------------------
 #リムル
 Rimul
@@ -1477,8 +1462,8 @@ Rimul
 #同じところを、何度もまわり
 #ただ、速く走ることだけを考える
 #････剣の道も、また同じ････
-Circling the same spot over and over again,
-Thinking only about running as fast as possible.
+Going around and around the same place,
+thinking of nothing but running as fast as possible...
 ...The way of the sword is no different...
 -----------------------
 #リムル
@@ -1486,16 +1471,16 @@ Rimul
 -----------------------
 #････走る････
 #････････同じところを････
-Running...
-...In the same place...
+...Running...
+......around the same place...
 -----------------------
 #リムル
 Rimul
 -----------------------
 #まわる････走る････
 #････できるだけ、速く････
-Spinning... Running...
-...As fast as I can...
+Going around... running...
+...as fast as I possibly can...
 -----------------------
 #リムル
 Rimul
@@ -1503,56 +1488,55 @@ Rimul
 #････！！！
 #そう！　そういうことね！
 ...!!!
-Right! That's what I meant!
+Yes! That's exactly it!
 -----------------------
 <Loni>
 -----------------------
 #････なんだ、ありゃ？
-Huh... what's that?
+...What's with her?
 -----------------------
 <Nanaly>
 -----------------------
 #さぁ
 #なんか、いいことでも
 #思いついたんじゃない？
-So then
-I guess something good
-Must have come to mind?
+Who knows?
+Maybe she just thought of
+something good?
 -----------------------
 #ベテラン
 Veteran
 -----------------------
 #ひよっこ
-rookie
+Rookie
 -----------------------
 notice
 -----------------------
 #「武器攻撃」について
 #話し合っているようです
 #耳を傾けますか？
-How about 'Weapon Attack'?
+About "Weapon Attacks"
 They seem to be discussing it.
-Do you want to listen in?
+Will you listen in?
 -----------------------
 #さて俺たちも冒険を始めるわけだが、
 #基本は身に付いたか？
-Well then, it's time we start our adventure.
+Well then, we're about to set off on our adventure.
 Do you have the basics down?
 -----------------------
 #もちろんさ、<button:00000045>で武器攻撃しまくりさ!!
-We sure are, <button:00000045>, gonna hammer them with weapon attacks!!
+Of course! We're gonna hammer 'em with weapon attacks using <button:00000045>!!
 -----------------------
 #まあそうだが方向キー<button:00000006>、<button:00000021>、<button:00000016>、<button:00000017>
 #と組み合わせることによって、
 #四種類の攻撃が出るぞ！
-True enough, but using the directional buttons <button:00000006>, <button:00000021>, <button:00000016>, and<button:00000017>
-in combination with
-you can unleash four types of attacks!
+True enough, but combine it with the directional buttons <button:00000006>, <button:00000021>, <button:00000016>, and <button:00000017>,
+and you can pull off four different attacks!
 -----------------------
 #まずは実際に何度か繰り出してみて、
 #速度や射程を覚えていくといいな
-First, try throwing it out a few times in practice,
-and get used to the speed and range.
+First, try them out a few times in practice,
+and get a feel for their speed and range.
 -----------------------
 #連続攻撃はどうやればいいのさ？
 How do I pull off consecutive attacks?
@@ -1560,84 +1544,83 @@ How do I pull off consecutive attacks?
 #攻撃中に再度<button:00000045>を押せばいい
 #もちろん方向キー<button:00000006>、<button:00000021>、<button:00000016>、<button:00000017>
 #により攻撃方法は変わるぞ
-You can press <button:00000045> again during an attack.
-Of course, directional keys <button:00000006>, <button:00000021>, <button:00000016>, and .<button:00000017>
-The method of attack will change depending on that.
+Just press <button:00000045> again during an attack.
+Of course, the directional keys <button:00000006>, <button:00000021>, <button:00000016>, and <button:00000017>
+will change which attack you use.
 -----------------------
 #攻撃をするとスピリッツゲージが減る
 #（ＳＰ　戦闘中の<color:00000001>青いゲージ<color:00000007>です）
 #減りすぎたら攻撃を控えて、
 #回復を待ったほうがいい
 Attacking depletes your Spirit Gauge.
-(This is the blue gauge for <color:00000001> during combat <color:00000007>.)
-If it gets too low, hold back on attacking,
+(That's the blue <color:00000001>SP gauge<color:00000007> during combat.)
+If it gets too low, hold back on attacking
 and wait for it to recover.
 -----------------------
 #なんでさ？　しまくりゃいいさ
-Why? Just go wild.
+Why? Just go all out.
 -----------------------
 #スピリッツゲージが少ないと
 #攻撃の命中・回避が下がるからな
 #かえって不利な状況になることもある
 #気をつけることだ
-If your Spirit Gauge is low,
+If your Spirit Gauge runs low,
 your attack accuracy and evasion will drop.
-It can even put you at a disadvantage.
+You could end up worse off than when you started.
 Be careful.
 -----------------------
 #防御が成功するとＳＰが多く回復するから、
 #防御<button:00000047>も大切ということだな
-If your defense succeeds, you'll recover a lot of SP,
-So it's important to defend as well, <button:00000047>.
+You'll recover a lot of SP when you guard successfully,
+so guarding with <button:00000047> is important too.
 -----------------------
 notice
 -----------------------
 #「特技」について
 #話し合っているようです
 #耳を傾けますか？
-How about 'Special Skills'?
-It seems they're discussing it.
-Do you want to listen in?
+About "Base Artes"
+They seem to be discussing it.
+Will you listen in?
 -----------------------
 #どうだ、特技を覚えて
 #戦略に幅が出たろう？
-How about it? Learn some special techniques.
-It's given you more strategic options, hasn't it?
+So, how about it? Now that you've learned some Base Artes,
+you've got more strategic options, right?
 -----------------------
 #特技<button:00000046>はつえーけどＴＰがすぐなくなるさ
 #戦闘中も自動的に回復するけど、
 #まだ貧弱なので速度が遅いさ
-Special skill <button:00000046> is powerful, but TP runs out fast.
-It automatically recovers during battle,
-but it's still weak and slow.
+Base Artes like <button:00000046> are powerful, but TP runs out fast.
+It recovers automatically during battle,
+but it's still weak, so the rate is slow.
 -----------------------
 #それはそうだ　そこで重要なのが
 #<button:00000045>の通常攻撃となるわけだ
 #一回通常攻撃がヒットすると、
 #ＴＰが１回復するぞ
-That makes sense. What's important here is...
-<button:00000045>This becomes 's normal attack.
-As soon as a normal attack lands,
-You'll recover 1 TP.
+That's true. And that's where <button:00000045>'s normal attacks come in.
+Each time a normal attack lands,
+you'll recover 1 TP.
 -----------------------
 #じゃあ通常攻撃<button:00000045>しまくりさ
-So I'll just spam regular attacks <button:00000045>.
+Then I'll just spam normal attacks with <button:00000045>!
 -----------------------
 #････ＴＰが余ってももったいないからな
 #術を使ってＳＰを回復させるなど、
 #うまく使っていくのが大切だ
-...It's a waste to leave TP unused.
-Like using spells to recover SP,
-it's important to make good use of them.
+...It's a waste to let TP go unused.
+Using spells to recover SP, for instance...
+Making the most of it is what matters.
 -----------------------
 #ＴＰは敵を倒したときも少量回復する
 #しかも、敵を連携中に
 #まとめて倒したりすると、
 #より多くのＴＰを回復できるのだ
-TP also recovers slightly when you defeat enemies.
+You'll also recover a small amount of TP when you defeat enemies.
 Moreover,
-if you take them out in a group during Link Attacks,
-you can recover even more TP.
+if you take out a group of them during a combo,
+you'll recover even more TP.
 -----------------------
 notice
 -----------------------
@@ -1645,139 +1628,137 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 About "Enchant"
-It seems they're discussing it.
-Are you going to listen?
+They seem to be discussing it.
+Will you listen in?
 -----------------------
 #エンチャントも覚えたさ
-I've learned enchantment too.
+I've learned Enchant too.
 -----------------------
 #････で、エンチャントって何さ？
-So, what's an enchantment?
+...So, what's an Enchant?
 -----------------------
 #うむ　簡単に言えば
 #「覚えている特技、術を
 #　自分好みにカスタムできる能力」だな
-Indeed, simply put,
-"the ability to
-customize your learned skills and spells"
+Indeed. Simply put,
+it's "the ability to customize
+your learned Base Artes and Magic Artes to your liking."
 -----------------------
 #まずは使い続けて使用回数を上げること！
 #そうすれば様々なエンチャントが
 #装備できるようになるだろう
-First off, keep using it to build up your usage count!
-That way,
-you'll be able to equip various enchantments.
+First, keep using them to raise your usage count!
+Do that, and you'll be able to equip
+all kinds of different Enchants.
 -----------------------
 #じゃあ、ひとつの特技を使いまくりさ
-So, I'll just spam one skill.
+Then I'll just spam one Base Arte over and over.
 -----------------------
 #それもひとつの方法ではあるな
 #ただ、戦闘中はエンチャントは変更できない
 #多くの技に多彩なエンチャントを
 #つけておくのも悪くないぞ
 That's certainly one way to go about it.
-However, you can't change enchantments during battle.
-Applying diverse enchantments to many techniques...
+However, you can't change Enchants during battle.
+Applying diverse Enchants to many techniques...
 isn't a bad idea at all.
 -----------------------
 #敵の能力を下げる術を使ってから
 #武器で切り込む････など、特技と術を
 #使いこなすことで戦略は拡がっていく
 #････仲間同士で補い合っていってもいいな
-You can expand your strategy by mastering techniques and spells to lower enemy stats.
-Weapons for close-range attacks... combining special moves and magic,
-is key to broadening your strategic options.
-...and it's great when allies support each other.
+Using a spell to lower an enemy's stats, then cutting in with your weapon...
+Mastering both Base Artes and Magic Artes like that will expand your strategic
+options. ...And it's good to have allies cover for each other too.
 -----------------------
 #ちなみに、装備したエンチャントは外せば
 #使用回数は戻るから、いろいろと
 #試してみるのがいいだろう
-By the way, if you remove equipped enchantments,
-their usage counts will return, so it's best to
-experiment with various combinations.
+By the way, if you remove an equipped Enchant,
+its usage count will be refunded, so feel free to
+experiment with all kinds of combinations.
 -----------------------
 #ボクのお気に入りの特技はあまり
 #当たらないから、欠点を補うために
 #命中のエンチャントをつけるさ
-My favorite skill isn't very
-accurate, so to make up for that flaw,
-I enchant it with accuracy.
+My favorite Base Arte doesn't hit very often,
+so to make up for that flaw,
+I equip it with an accuracy Enchant.
 -----------------------
 #････お前の場合は単に空振りしてるだけだな
 #空振りは、使用回数が増えないので
 #もったいないぞ！
-You're just swinging at air in your case.
-The misses don't count toward your usage total,
-What a waste!
+...In your case, you're just swinging at air.
+Misses don't increase your usage count,
+so it's a waste!
 -----------------------
 #それと、回復晶術は
 #「対象のＨＰが５０％以下のときに
 #　使用したとき」のみ
 #使用回数が増える　気をつけろ!!
-Also, recovery Lens Artes
-only increase in usage count
-"when used while the target's HP is below 50%"
-so be careful!!
+Also, for recovery Magic Artes,
+your usage count only increases
+"when used on a target whose HP is below 50%."
+Be careful!!
 -----------------------
 #確かにかすり傷で使っても
 #経験にはならないさ
-It might work even on a scratch-level wound,
-But it won't give you any experience.
+Sure, you can use it on a scratch,
+but it won't count as experience.
 -----------------------
 notice
 -----------------------
 #「戦闘の作戦」について
 #話し合っているようです
 #耳を傾けますか？
-About battle strategy
-It seems they're discussing it
-Are you going to listen?
+"Battle Strategy"
+They seem to be discussing it.
+Will you listen in?
 -----------------------
 #いろんな敵に遭っても対処できるように、
 #作戦を決めておこうではないか！
 #「防御がかたい敵」が現れたらどうする？
-Let's prepare ourselves to handle whatever enemies we encounter.
-Let's decide on our strategy!
-What should we do when an enemy with high defense appears?
+Let's decide on a strategy so we can handle all kinds of enemies!
+What do we do when a high-defense enemy shows up?
 -----------------------
 #みんなして術使いまくりさ
-They're all casting spells left and right.
+Everyone just spams Magic Artes.
 -----------------------
 #術を使うのは悪くないが、
 #全員が術を唱えてると、
 #いいようになぐられるので、
 #前衛を一人置くのがいいな
-Using magic isn't bad in itself,
-but if everyone is casting spells,
-you'll end up getting beaten up,
-so it's better to have at least one frontline fighter.
+Using Magic Artes isn't bad,
+but if everyone's chanting,
+you'll get pummeled while your guard's down.
+Better keep one fighter on the front line.
 -----------------------
 #「敵の後衛が強力な術を使う」場合は？
-What if the enemy's rear guard uses powerful magic?
+What if the enemy's rear guard uses powerful Magic Artes?
 -----------------------
 #昨日暗記して覚えたさ
 #「術を使わせるな」で
 #詠唱をジャマするのさ
 I memorized it yesterday.
-Don't let them cast spells.
-Interrupt their incantations.
+"Don't let them cast."
+You interrupt their incantations.
 -----------------------
 #まあそんな感じだ
-Well, that's about right.
+Well, that's the gist of it.
 -----------------------
 #作戦は同時に３つまで登録できるから、
 #戦闘中に瞬時に切り替えながら闘うと、
 #見ていて気持ちがいいぞ
-You can register up to three strategies at once,
-so fighting while switching between them instantly during battle
-is really satisfying to watch.
+You can register up to three strategies at once.
+Switching between them instantly in battle
+feels great to pull off.
 -----------------------
 #攻撃頻度、回復割合もキャラクターの能力と
 #敵に合わせて変えていくと、
 #より効率的な戦いが望めるだろう
-Adjusting attack frequency and healing ratios based on each character's abilities,
-and adapting to your enemies,
-should allow for more efficient battles.
+Adjusting attack frequency and healing ratios
+to match each character's abilities and the enemy
+should let you fight more efficiently.
 -----------------------
 notice
 -----------------------
@@ -1785,8 +1766,8 @@ notice
 #について話し合っているようです
 #耳を傾けますか？
 "Technical Smash"
-It seems they're discussing it.
-Are you listening?
+They seem to be discussing it.
+Will you listen in?
 -----------------------
 #テクニカルスマッシュってなにさ？
 What's a Technical Smash?
@@ -1794,163 +1775,163 @@ What's a Technical Smash?
 #うむ　戦いのプロも認める、
 #「華麗なとどめのさし方」を行うと、
 #テクニカルスマッシュと認定される
-Indeed, even battle professionals acknowledge,
-executing a 'graceful finishing blow'
-is certified as a Technical Smash.
+Indeed. Even seasoned warriors acknowledge it.
+Execute a 'brilliant finishing blow,'
+and it is certified as a Technical Smash.
 -----------------------
 #テクニカルスマッシュで敵を倒すと、
 #あまりにステキなのか、アイテムの
 #入手確率が跳ね上がるというもっぱらの噂だ
-When you defeat enemies with Technical Smash,
-it's so wonderful that there are rumors
-that your item drop rate skyrockets.
+Defeat an enemy with a Technical Smash, and
+the item drop rate shoots way up.
+At least, that's the rumor going around.
 -----------------------
 #きっと真実だろう
-It's probably the truth.
+It's gotta be true.
 -----------------------
 #連携とか、まとめて倒すとかで出まくりさ
-They pop up all over the place during combos or when you take them out in groups.
+They happen all the time during combos or when you wipe out groups at once.
 -----------------------
 #うむ　特に「とどめは連携でさす」のは
 #重要だ　とどめをさした時点で、その連携
 #に使っていたＳＰは全て回復するのだ
 #長い連携をしても態勢を立て直せる
-Mm. I particularly prefer finishing them off with a combo.
-It's crucial that you land the finishing blow during that combo.
-All SP used is restored.
-You can recover your stance even after a long combo.
+Mm. Especially crucial is landing the finishing blow
+as part of a combo. The moment you do,
+all SP spent on that combo is restored.
+You can recover your stance even after a long chain.
 -----------------------
 #じゃあ追加特技とかはとどめ用にとっとくさ
-So I'll save those extra skills for finishing moves.
+Then I'll save my Base Arte Extensions for finishers.
 -----------------------
 #ＳＰ不足に悩んでいる場合は、
 #それがいいだろう
-If you're struggling with low SP,
-That should work.
+If you're hurting for SP,
+that's a solid plan.
 -----------------------
 #アクションエンチャントは
 #ＳＰを消費するのが悩みだが、
 #とどめをうまく利用するのが達人への道だ
-Action Enchant is
-the SP consumption can be a concern,
-but mastering the finishing blow is the path to mastery.
+Action Enchants are a pain since they eat SP,
+but mastering the finishing blow
+is the path to true mastery.
 -----------------------
 notice
 -----------------------
 #「スピリッツ」について
 #話し合っているようです
 #耳を傾けますか？
-About the Spirits
-It seems they're discussing it
-Are you listening?
+"Spirits"
+They seem to be discussing it.
+Will you listen in?
 -----------------------
 #敵に攻撃しても防御されまくりさ
-They're blocking all our attacks.
+Our attacks just get blocked left and right.
 -----------------------
 #回避が高い敵には困ったものだ
 #術を当てるのも作戦のひとつだが、敵に
 #よっては、一回の攻撃でスピリッツを
 #激減させる一発屋もいるぞ
-High-evasion foes are a real headache.
-Using spells is part of the strategy, but depending on
-the enemy, a single attack can
-drastically deplete your SP.
+High-evasion enemies are a real pain.
+Using Magic Artes is one approach, but
+some enemies can drain your Spirits
+drastically with a single hit.
 -----------------------
 #空振りなどを誘い、スピリッツを
 #減らすと回避の能力も落ちる････
 #そこを狙うのもいいだろう
-By baiting them into missing their attacks, you can drain their spirits.
-As their spirit levels drop, so does their evasion ability...
-It might be wise to target that weakness.
+Bait them into missing, drain their Spirits,
+and their evasion drops too...
+That's a solid angle to play.
 -----------------------
 #ボクは<button:00000047>と<button:0000001D>のプレスガードで
 #狙ってＳＰを減らすのさ
-I'm using Press Guard to block <button:00000047> and <button:0000001D>.
-You aim to reduce their SP.
+I use Press Guard with <button:00000047> and <button:0000001D>
+to target and reduce their SP.
 -----------------------
 #お前は連続攻撃のときもやるから困る
 #プレスガードは敵の最後の攻撃で行うのが
 #いい　プレスガードではＳＰは２０も減る
 #敵の攻撃を見極めることだな
-You're troublesome when you chain attacks.
-The Press Guard is performed on the enemy's final attack,
-Good. A Press Guard costs 20 SP.
-It's about reading the enemy's attack.
+You do it during combos too, which is the problem.
+You want to Press Guard against the enemy's last attack.
+A successful Press Guard drains 20 of their SP.
+It's all about reading their attacks.
 -----------------------
 #敵ターゲットをカスタムで表示させて
 #いる場合、カーソルの色が明るいほど
 #ＳＰが高いということが分かる
 #戦いながら敵のＳＰを見切れるぞ
-When displaying enemy targets in custom mode,
-the brighter the cursor color is,
+If you're displaying enemy targets in custom mode,
+the brighter the cursor color,
 the higher their SP.
-You can gauge an enemy's SP while fighting.
+You can read an enemy's SP mid-fight.
 -----------------------
 notice
 -----------------------
 #「連続ヒット」について
 #話し合っているようです
 #耳を傾けますか？
-About "Continuous Hit"
-It seems they're discussing it.
-Will you listen?
+"Continuous Hit"
+They seem to be discussing it.
+Will you listen in?
 -----------------------
 #連続ヒットってなにさ？
-What's a continuous hit?
+What's a Continuous Hit?
 -----------------------
 #ダメージを与えた敵が戦闘態勢に
 #復帰する前に連続してダメージを与えると
 #ヒット数が加算されて表示されるのだ
-Enemies that take damage are knocked out of battle stance.
-If you deal consecutive damage before they recover,
-the hit count will increase and display.
+When you damage an enemy and knock them out of their stance,
+deal consecutive damage before they recover
+and your hit count stacks and displays.
 -----------------------
 #いっぱい当てるとどうなるのさ？
-What happens if you hit them all?
+What happens if you rack up a ton of hits?
 -----------------------
 #うむ　最高のヒット数は取得経験値に
 #影響する　なぜなら、そんな素晴らしい
 #連続攻撃は何よりも勝る経験だからな
-Indeed, the number of hits directly affects your experience gain.
-That's because nothing beats the experience gained from such an incredible
-chain attack.
+Indeed, your maximum hit count affects experience gained.
+Because nothing beats the experience
+of pulling off a magnificent chain attack.
 -----------------------
 #より高いヒット数を求めるなら
 #仲間との連携が不可欠だ　ヒット数とは
 #関係ない「攻撃のひと種類」は
 #ＣＨＡＩＮとして加算される
-If you're looking for higher hit counts,
-coordination with your allies is essential. That's what 'hit count' means.
-Irrelevant 'types of attacks'
-are added as CHAINs.
+If you want higher hit counts,
+coordination with allies is essential. Attack types
+that don't affect the hit count directly
+are added as CHAIN instead.
 -----------------------
 #ＳＰをうまい具合に使っていかないと
 #大変さ
-We need to manage our SP carefully.
-It's going to be tough.
+If you don't manage your SP well,
+you're in for a rough time.
 -----------------------
 #そうだな　低いＳＰで連続攻撃に
 #参加しても足を引っ張ってしまうのが
 #オチだな　やはりここでも術と特技の
 #バランスが重要だな
-Yeah, low SP for consecutive attacks.
-Dragging everyone down if you join in is
-the catch. As expected, here too, the balance between spells and special techniques
-is important.
+Exactly. Jump into a combo with low SP, and
+you'll just drag everyone down. That's the catch.
+Even here, balancing Magic Artes and Base Artes
+is what matters most.
 -----------------------
 notice
 -----------------------
 #「影響エリア」について
 #話し合っているようです
 #耳を傾けますか？
-About the "Influence Area"
-It seems they're discussing it.
-Do you want to listen in?
+"Field of Effect"
+They seem to be discussing it.
+Will you listen in?
 -----------------------
 #敵の裏側から攻撃したら有利だと思ったけど
 #なんだか疲れるさ
-I thought attacking from behind would give us an advantage,
-It's just exhausting.
+I figured attacking from behind would give us an edge,
+but somehow it just wears me out.
 -----------------------
 #うむ　スピリッツも含め、
 #仲間たちとの連携が勇気を与えているので、
@@ -1963,115 +1944,111 @@ our recovery rates will drop.
 #意に反して敵の右側に回ってしまった
 #ときは<button:00000047>＋<button:00000019>のバックステップで
 #左側に戻るといいだろう
-You ended up on the enemy's right side against your intentions.
-When that happens, perform a backstep using <button:00000047> + <button:00000019>.
-It would be best to move back to the left side.
+If you end up on the enemy's right side by mistake,
+use a backstep with <button:00000047> + <button:00000019>
+to get back to their left.
 -----------------------
 #そりゃあ裏には回らないほうがいいさ
-You'd better not go around back there.
+Yeah, better not circle around behind them at all.
 -----------------------
 #基本的にはそう考えてよいな
 #しかし戦況を見極めてくると、
 #そのペナルティを補える働きが
 #出来るかもしれないな
-You can generally think of it that way.
-However, as you assess the battlefield situation,
-there may be actions that
-can compensate for that penalty.
+That's generally the right idea.
+But read the battle, and you may
+find a way around that penalty.
 -----------------------
 #セオリーが全て正しいとは限らないさ
 Theory isn't always right.
 -----------------------
 #たまにはいいこと言うな
-You're actually saying something nice once in a while.
+You actually said something decent for once.
 -----------------------
 #ベテランすぎ
-You're way too veteran.
+Too veteran.
 -----------------------
 #息子
-son
+Son.
 -----------------------
 notice
 -----------------------
 #「ステータス変化」について
 #話し合っているようです
 #耳を傾けますか？
-"Status Changes"
-It seems they're discussing it.
-Will you listen closely?
+"Status Effects"
+They seem to be discussing it.
+Will you listen in?
 -----------------------
 #戦闘でステータス異常になってしもうた
 #パナシーアボトルもないのじゃ
 #もうダメかのう････
-I've been afflicted with status ailments in battle.
-And there's no Panacea Bottle either.
-Are we done for?
+I've come down with status ailments in battle.
+And there's no Panacea Bottle either...
+Are we done for...?
 -----------------------
 #あきらめちゃいけません父さん
 #戦闘中にステータス異常になっても
 #時間の経過で回復するようですよ
 You can't give up, Dad.
 Even if you get status ailments during battle,
-It seems they'll recover over time.
+they seem to recover over time.
 -----------------------
 #ステータス異常はレベルがあるので
 #防止の装備をしていても軽減しきれずに
 #喰らってしまう場合があるので
 #気をつけねばいけませんね
-There's a level difference in status ailments,
-so even if you're wearing protective gear,
-you might still end up getting hit.
+Status ailments have levels, you see.
+Even with protective gear, you might not fully mitigate them
+and still get afflicted.
 You need to be careful.
 -----------------------
 #むう････また戦いにいかねばならんのか
 #つらいのう････
-Sigh... I have to go into battle again?
-It's so painful...
+Mmm... Must I go into battle again?
+How dreadful...
 -----------------------
 #やはりステータス異常を回復できる
 #料理を用意しておくのがいいですよ父さん
 #防止できる料理やアイテムもあるみたいですし
-It's best to have something that can cure status ailments.
-You'd better prepare some food, Dad.
-There seem to be certain foods and items that can prevent them as well.
+You should definitely prepare dishes that can cure status ailments, Dad.
+There seem to be foods and items that can prevent them, too.
 -----------------------
 #後の祭りじゃあ　毒<button:00000056>に麻痺<button:0000005F>に衰弱<button:0000005A>に凍結に
 #鈍足でもうへとへとじゃあ
-After the fact? Poison <button:00000056>, paralysis <button:0000005F>, debilitation <button:0000005A>, and freezing.
-With slow movement, I'm completely drained.
+Too late now! Poison <button:00000056>, paralysis <button:0000005F>, weakness <button:0000005A>, freezing,
+and slow... I'm completely worn out.
 -----------------------
 #うそはいけません父さん
 #ステータス異常は一人につき四つまでしか効果は
 #残らないのです　エンチャントで能力を
 #上げて毒が消えることもあるんです
-It's bad to lie, Dad.
-A status abnormality can have up to four effects per person,
-but it doesn't last forever. If you enhance your abilities
-with an enchantment, the poison might disappear.
+You shouldn't lie, Dad. Status effects can only stack up to four per person.
+They don't all linger forever, either. Sometimes raising your stats
+with an Enchant will even cure poison.
 -----------------------
 #しかも凍結と鈍足は
 #戦闘終了で回復しますよ
-Plus, Freeze and Slow are
-recovered upon ending the battle.
+Besides, Freeze and Slow
+wear off when the battle ends.
 -----------------------
 #そうじゃった　しかも鈍足は
 #もとからじゃったの
-So it was. And that slowpoke...
-...was from the start.
+So they do. And come to think of it, I've always been slow.
 -----------------------
 #はっはっはっはっはっはっはっはっ
 #はっはっはっはっはっはっはっは
-Hahaha!
-Hahaha!
+Hahahahahaha!
+Hahahahahaha!
 -----------------------
 #（笑いすぎじゃと思うのじゃが････）
-I think I'm laughing too much...
+(I think he's laughing a bit too hard...)
 -----------------------
 #ベテランすぎ
-You're way too veteran.
+Too veteran.
 -----------------------
 #息子
-son
+Son.
 -----------------------
 notice
 -----------------------
@@ -2079,101 +2056,95 @@ notice
 #について話し合っているようです
 #耳を傾けますか？
 "Spirit Blaster"
-It seems they're discussing it.
-Are you listening?
+They seem to be discussing it.
+Will you listen in?
 -----------------------
 #ピンチになっても、スピリッツブラスター
 #になれば逆転のチャンスができるわい
-When you're in a pinch, Spirit Blaster
-is your chance to turn things around.
+Even when you're in a pinch, activating Spirit Blaster
+gives you a chance to turn things around.
 -----------------------
 #スピリッツブラスターになりたいなら
 #攻撃を当てることと敵にガードされないこと
 #が有効ですね父さん、まあ攻撃を受けてても
 #なりますけど父さんには危険ですね
-If you want to become a Spirit Blaster,
-hitting your attacks and preventing the enemy from guarding
-is effective, Father. Well, even if you take damage,
-it's possible, but it's dangerous for you, Father.
+If you want to enter Spirit Blaster Mode,
+landing your attacks and not getting guarded is key.
+Though you can also trigger it by taking hits...
+but that's dangerous for you, Father.
 -----------------------
 #体力が衰えたワシも、
 #スピリッツブラスターになれば
 #のけぞることなく攻撃できるしのう
-Even though my physical strength has waned,
-if I become a Spirit Blaster,
-I can attack without being knocked back.
+Even with my waning strength, if I enter Spirit Blaster,
+I can attack without getting knocked back.
 -----------------------
 #そうはいっても父さん、ＨＰがなくなれば
 #効果が切れてしまいますし、回復魔法などを
 #かけても効果が早く切れてしまいますよ
-That said, Dad, once your HP runs out,
-the effects will wear off, and even if you
-use healing magic, the effects will fade quickly.
+That said, Dad, the effect wears off if your HP hits zero.
+And even if you cast healing magic on yourself,
+the effect will fade quickly.
 -----------------------
 #そんな細かいことは気にせんわい
 #ワシの最高の秘奥義はスピリッツブラスター
 #にならんと見せれんでの
 I don't sweat the small stuff.
-My ultimate Mystic Arte is the Spirits Blaster!
-You gotta show 'em what you've got to really impress 'em.
+My greatest Mystic Arte can't even be shown
+unless I enter Spirit Blaster first.
 -----------------------
 #いえ父さん　確かに秘奥義はＳＰを多く
 #消費しますが、敵を倒すことでＳＰが
 #回復することを利用すると秘奥義を
 #出せることもあるようです
-No, Father. It's true that Mystic Artes consume a lot of SP.
-We'll consume it, but defeating enemies will restore SP.
-If you take advantage of recovery, you can perform Mystic Artes.
-It seems there are times when it can be used.
+No, Father. It's true that Mystic Artes consume a lot of SP,
+but you can use the SP recovered from defeating enemies
+to string together more Mystic Artes.
 -----------------------
 #ただ、弓使いにはスピリッツブラスター
 #状態を利用して、追加晶術のかわりに
 #秘奥義を出せる人もいるらしいですよ
 #父さん
-Just for archers, Spirit Blaster.
-Using that state to cast an additional Lens Arte instead.
-Some people seem able to unleash their Mystic Artes.
-Dad.
+Also, some archers can use Spirit Blaster state
+to unleash a Mystic Arte in place of a Magic Arte Extension,
+or so I've heard, Dad.
 -----------------------
 #まあ奥義がヒットしても敵がのけぞって
 #ないと秘奥義にはいけぬから、
 #浮かす奥義だと重い敵にはうまく
 #いかんこともあるがの
-Well, even if your Mystic Arte connects and staggers the enemy,
-You can't enter without using your Mystic Arte,
-With Mystic Artes that lift you up, it's hard to land effective hits on heavy enemies.
-There are things to consider.
+Well, even if your Arcane Arte connects, you can't enter a Mystic Arte
+unless the enemy staggers. So with launch-based Arcane Artes,
+heavy enemies might not cooperate. Something to keep in mind.
 -----------------------
 #そんなわけでさっそく二人で
 #秘奥義を出しにいこうではないか
-So with that in mind, the two of us immediately
-set out to unleash our Mystic Arte.
+Well then, let's you and I go unleash our Mystic Artes right away!
 -----------------------
 #いえ父さん　私は晶術使いなんで
 #秘奥義なんて使わないんですよ
-No, Father, I'm a Lens user.
-I don't use Mystic Artes.
+No, Father. I'm a magic user,
+so I don't use Mystic Artes.
 -----------------------
 #というか秘奥義の後はＳＰが０になるから
 #すごいジャマなんですよ父さん
 #とどめもさせないのに秘奥義
 #しないでください父さん
-It's not just that Mystic Artes drain SP to zero afterward.
-You're really getting in my way, Dad.
-And you won't even let me land the finishing blow before using a Mystic Arte?
-Don't do it, Dad.
+Besides, Mystic Artes drop your SP to zero,
+so they're a huge nuisance, Dad. You won't even let me land the finishing blow
+before firing one off. Please don't, Dad.
 -----------------------
 #ジャマなんで
-I'm in your way.
+A huge nuisance.
 -----------------------
 #（一回言えば分かると思うが・・・）
-(I thought you'd understand if I just said it once...)
+(You'd think he'd get it after one time...)
 -----------------------
 #ベテランすぎ
-You're way too much of a veteran.
+Too veteran.
 -----------------------
 #息子
-son
+Son.
 -----------------------
 notice
 -----------------------
@@ -2181,69 +2152,64 @@ notice
 #について話し合っているようです
 #耳を傾けますか？
 "Field of Effect"
-It seems they're discussing it.
-Will you lend an ear?
+They seem to be discussing it.
+Will you listen in?
 -----------------------
 #この間の、敵が出す
 #「フィールドオブエフェクト」には
 #ほとほと手を焼いたわい
-The enemies from the other day...
-the 'Field of Effect'...
-I was really at my wit's end.
+The other day, those enemies' "Field of Effect"
+really had me at my wit's end.
 -----------------------
 #略してＦＯＥ（フォエ）ですね父さん
 #あれには大きく二種類があって、
 #範囲内の敵たちに効果があるのと、
 #こちらの能力を下げるものがありますね
-So it's abbreviated as F.O.E., right, Dad?
-There are two main types:
-One affects enemies within range,
-And the other lowers our abilities.
+Abbreviated as F.O.E., right, Dad? There are two main types:
+ones that buff enemies within range,
+and ones that lower our stats.
 -----------------------
 #あれが出たらお手上げかのう
-If that shows up, we're done for.
+If those show up, we're finished.
 -----------------------
 #あきらめるのは早いです父さん
 #時間で切れるものや、ヒットを重ねることで
 #切れるものもあるんですもちろん、
 #とどめをさせば消えますしね
-It's too early to give up, Dad.
-Things that break down over time,
-or those that shatter after taking enough hits--
-some of them do indeed disappear when you land the final blow.
+It's too soon to give up, Dad. Some expire over time,
+and others break after taking enough hits. Of course,
+landing the finishing blow will make them vanish, too.
 -----------------------
 #こちらに効果のあるものを出されたら、
 #前衛を一人だけにして術を使うのが
 #いいかのう
-If you were to give me something that affects this side,
-it would be best to leave just one frontline fighter
-and cast spells.
+If they deploy one that affects us, perhaps it's best
+to leave just one frontline fighter and cast spells from the back.
 -----------------------
 #そうですね父さん　でもやはり状態変化に
 #応じて作戦を変えるのがいいようですよ
 #敵に効果がある場合は、スペクタクルズを
 #使えば内容が分かりますし
-That's true, Father, but status changes are still an issue.
-It's best to adjust your strategy accordingly.
-If it's effective against enemies, Spectacles will
-You'll see what it's about once you use it.
+That's true, Father. Still, it's best to adjust your strategy
+based on the status changes. If it's one that buffs enemies,
+using Spectacles will let you see what it does.
 -----------------------
 #それはそうと最近の若者は
 #なんでもかんでも略したがって困るわい
-Speaking of which, these days' youth...
-They abbreviate everything and anything, it's quite a bother.
+That reminds me, young people these days abbreviate everything.
+It's quite a bother.
 -----------------------
 #（言うのが遅いよ父さん････）
-I'm telling you this late, Dad...
+(You're one to talk, Dad...)
 -----------------------
 notice
 -----------------------
 #「バトルグレード」について
 #話し合っているようです
 #耳を傾けますか？
-About Battle Grade
-It seems they're discussing it
-Are you listening?
+"Battle Grade"
+They seem to be discussing it.
+Will you listen in?
 -----------------------
 #バトルグレードって結局なにさ？
 So what exactly is Battle Grade?
@@ -2252,174 +2218,157 @@ So what exactly is Battle Grade?
 #「戦闘のうまさ」を図るものでしたね先輩
 #ダメージの比率とか、空振りとか、
 #同じ技ばかりを使うことも審査されます
-By tallying up various actions taken during battle,
-you were able to measure 'combat proficiency,' Senior.
-Things like damage ratios, missed attacks,
-and even using the same techniques repeatedly were all part of the evaluation.
+It tallies up your various actions in battle to measure your "combat
+skill," right, Senior? Things like damage ratios, missed attacks,
+and even using the same arte repeatedly are all judged.
 -----------------------
 #高い得点を目指したい場合、
 #やはりテクニカルスマッシュを目指しつつ、
 #エンチャントを織り交ぜながら、
 #できるだけダメージをうけずにいきましょう
-If you're aiming for a high score,
-you'll want to focus on landing technical smashes,
-while weaving in enchantments,
-to deal as much damage as possible without taking hits.
+If you're aiming for a high score, focus on landing Technical Smashes
+while weaving in Enchants, and try to take as little damage as possible.
 -----------------------
 #戦闘中にアイテムを使ったり、
 #回復晶術をかけたり、装備を変えたり
 #するのは、すこぶるイケてないと
 #いうウワサですよ
-Using items during battle,
-casting Lens Artes, or changing equipment
-is rumored to be terribly uncool.
-That's what they say.
+Using items in battle, casting healing magic, or changing equipment
+is supposedly super uncool, or so the rumor goes.
 -----------------------
 #高いと、どんないいことがあるのさ？
-What's so great about being high up anyway?
+What's so great about having a high score anyway?
 -----------------------
 #それについては調査中です先輩
 #現世では役に立たないなどと
 #いう不届きな輩もいますが････
-We're currently investigating that, Senior.
-In this world, they're useless,
-but there are some ungrateful folks who say...
+We're still looking into that, Senior. There are some ungrateful types
+in this world who say it's useless, but...
 -----------------------
 #まあ深く気にせずに自らの技術を
 #磨けばいいさ
-Well, just don't overthink it and focus on honing your skills.
-That's all you need to do.
+Well, just don't overthink it and hone your skills.
+That's all there is to it.
 -----------------------
 #さすが先輩、勉強になります
-You really are something else, Senpai. I'm learning so much from you.
+As expected of you, Senior. I'm learning a lot.
 -----------------------
 notice
 -----------------------
 #「受身」について
 #話し合っているようです
 #耳を傾けますか？
-About 'Receiving'
-It seems they're discussing it
-Do you lend an ear?
+"Recovery"
+They seem to be discussing it.
+Will you listen in?
 -----------------------
 #地面にたたきつけられると
 #倒れてしまうさ
-If you're slammed into the ground,
-you'll end up knocked out.
+Get slammed into the ground and you're down for the count.
 -----------------------
 #確かにつらいですね先輩
 #でも、地面に接地したまさに
 #その瞬間に<button:00000047>を押すと、
 #受身がとれますよね
-It's definitely tough, Senior.
-But right at the moment you touch the ground,
-pressing <button:00000047> at that instant allows you to
-perform a roll.
+It really is rough, Senior. But if you press <button:00000047>
+the exact moment you hit the ground,
+you can perform a recovery roll.
 -----------------------
 #ももももちろん知ってたさ
-I knew that too, obviously.
+O-o-o-of course I knew that.
 -----------------------
 #受身を取れるとダウンの時間が
 #減るし、なによりＳＰとＴＰが
 #回復するのがうれしいですよね
-If you can take a hit, your downtime decreases,
-and best of all, your SP and TP
-recover, which is pretty great.
+Recovering reduces your downtime, and best of all,
+your SP and TP recover too. Pretty nice, right?
 -----------------------
 #もももももちろん知ってたさ
-I knew that all along.
+I-I-I-I-I knew that all along.
 -----------------------
 notice
 -----------------------
 #「戦闘難易度」について
 #話し合っているようです
 #耳を傾けますか？
-How about battle difficulty?
-It seems they're discussing it.
-Do you want to listen in?
+"Battle Difficulty"
+They seem to be discussing it.
+Will you listen in?
 -----------------------
 #戦闘難易度を高くするのに、
 #なんの意味があるのさ？
-To increase the battle difficulty,
-What's the point?
+What's the point of raising the battle difficulty?
 -----------------------
 #まあ確かに戦闘難易度を高くしたって
 #世界は平和にならないですね
 #でも、噂によると、敵が落とす武具が
 #よいものになるそうです
-Well, it's true that even if you raise the combat difficulty
-the world won't become peaceful.
-But rumor has it that the equipment dropped by enemies
-is becoming better.
+Well, it's true that raising the combat difficulty won't bring world peace.
+But rumor has it that enemies drop better equipment.
 -----------------------
 #それだったら上げまくるさ
-In that case, I'll max them out.
+In that case, I'll crank it all the way up!
 -----------------------
 #でも、知っての通り戦闘難易度を上げると、
 #敵の攻撃力や知性が上がるうえ、
 #普通の難易度では使ってこない壮絶な攻撃を
 #してきたりするので悩みどころですよね
-However, as you know, increasing the battle difficulty means that
-enemies will have higher attack power and intelligence,
-and they'll start using brutal attacks that they don't use on normal difficulty,
-which makes it quite the dilemma.
+But as you know, raising the battle difficulty boosts enemy attack
+power and intelligence. Plus they start using brutal attacks they
+don't use on normal difficulty. It's quite the dilemma, isn't it?
 -----------------------
 #そういうことなら一回世界を平和にするまで
 #ＮＯＲＭＡＬでいいさ
-If that's the case, let's make the world peaceful first.
-I'll stick with NORMAL.
+If that's how it is, I'll stick with NORMAL until we bring peace to the world.
 -----------------------
 #おっしゃってる意味が
 #よくわかりませんけど
 #その通りですね
-The meaning behind what you're saying
-I don't quite understand it
-That's exactly right
+I'm not quite sure what you mean by that,
+but you're exactly right.
 -----------------------
 #ＳＥＣＯＮＤはほどよい難易度なので
 #ちょっと手ごたえがほしかったり
 #するならお勧めな気がします
-SECOND has just the right difficulty level,
-I want a bit more of a challenge,
-I think it's worth recommending.
+SECOND offers a balanced difficulty, so if you're looking
+for a bit more of a challenge, I'd recommend it.
 -----------------------
 notice
 -----------------------
 #「通常攻撃」について
 #深く話し合っているようです
 #耳を傾けますか？
-"Normal Attack"
-It seems they're having a deep discussion.
-Are you going to listen?
+"Normal Attacks"
+They seem to be having an in-depth discussion.
+Will you listen in?
 -----------------------
 #慣れてきたから最近は通常攻撃は
 #<button:00000045>だけ叩きっぱなしさ
-I've gotten used to it, so lately I just stick to regular attacks
-<button:00000045>and keep hammering away with .
+I've gotten used to things, so lately I've
+just been mashing <button:00000045> for normal attacks.
 -----------------------
 #まったくなっとらんな
-I'm totally lost.
+You really don't get it, do you?
 -----------------------
 #実は、二段目、三段目ではある程度
 #命中、ダメージが下がってしまうが、
 #同じ組み合わせの攻撃だと
 #より下がってしまうのだ
-Actually, at the second and third stages,
-accuracy and damage decrease somewhat.
-But if you use the same combination of attacks,
+Actually, your second and third hits lose some accuracy and damage.
+And if you use the same combination repeatedly,
 they'll drop even further.
 -----------------------
 #なにー
 #じゃあどうすればいいのさ？
-What?
-So what should I do?
+What?!
+Then what am I supposed to do?!
 -----------------------
 #うむ　「<button:00000017><button:00000045>、<button:00000045>、<button:00000016><button:00000045>」
 #と組み立てるなど、組み合わせを
 #変えるのがまず第一歩だ
-Indeed, "<button:00000017><button:00000045>, <button:00000045>, <button:00000016><button:00000045>"
-such as assembling them, and combining
-is the first step to take.
+Indeed. Try building combos like "<button:00000017><button:00000045>, <button:00000045>, <button:00000016><button:00000045>"
+and varying your combinations.
+That is the first step.
 -----------------------
 #第二歩はなにさ？
 What's the second step?
@@ -2428,168 +2377,162 @@ What's the second step?
 #<button:00000017><button:00000045>では攻撃力が上がり命中が下がる、
 #<button:00000019><button:00000045>では攻撃力が下がり命中が上がる、
 #<button:00000016><button:00000045>は攻撃力、命中の減少量が少ない、
-<button:00000045>has a significant decrease in both attack power and accuracy.
-<button:00000017><button:00000045>In , attack power increases while accuracy drops.
-<button:00000019><button:00000045>In , attack power decreases but accuracy improves.
-<button:00000016><button:00000045>has a minimal decrease in both attack power and accuracy.
+<button:00000045> has a large decrease in both attack power and accuracy.
+<button:00000017><button:00000045> increases attack power but decreases accuracy.
+<button:00000019><button:00000045> decreases attack power but increases accuracy.
+<button:00000016><button:00000045> has a minimal decrease in both attack power and accuracy.
 -----------------------
 #以上を覚えておけ！
 #<button:00000045>による攻撃は効果範囲が広く、
 #当たりやすいことが多いが、その反面、
 #連続攻撃時にはあまり有効ではない
 Remember all that!
-<button:00000045>The attacks from  have a wide range,
-making them easy to land, but on the flip side,
-they aren't very effective during combos.
+<button:00000045> attacks have a wide area of effect,
+so they're easy to land, but on the flip side,
+they're not very effective during combos.
 -----------------------
 #これは次の攻撃にも影響を与えるから、
 #「<button:00000017><button:00000045>、<button:00000017><button:00000045>、<button:00000045>」と
 #「<button:00000019><button:00000045>、<button:00000019><button:00000045>、<button:00000045>」では、
 #三段目の攻撃の数値が変わるぞ
-This will also affect your next attack,
-"<button:00000017><button:00000045>, <button:00000017><button:00000045>, <button:00000045>"
-"<button:00000019><button:00000045>, <button:00000019><button:00000045>, <button:00000045>"
-the stats for the third strike will change.
+This also affects your next attack,
+so "<button:00000017><button:00000045>, <button:00000017><button:00000045>, <button:00000045>" versus
+"<button:00000019><button:00000045>, <button:00000019><button:00000045>, <button:00000045>" will change
+the stats on your third hit.
 -----------------------
 #じゃあ回避が高い敵には
 #<button:00000019><button:00000045>から組み立てることにするさ
 #逆に回避が低い敵には
 #<button:00000017><button:00000045>から始めるさ
-For enemies with high evasion,
-<button:00000019><button:00000045>I'll start building from  to .
+Then for enemies with high evasion,
+I'll build my combos starting with <button:00000019><button:00000045>.
 And for enemies with low evasion,
-<button:00000017><button:00000045>I'll begin with  and .
+I'll start with <button:00000017><button:00000045>.
 -----------------------
 #例としてはそんな感じだ
 #まあ、変化量は微々たるものだから、
 #他のルールで手一杯だというなら
 #無理して覚えなくてもいいぞ
-That's about how it goes.
-Well, the amount of change is negligible,
-so if you're already overwhelmed with other rules
-you don't have to force yourself to memorize them.
+That's the general idea.
+Well, the changes are pretty negligible,
+so if you're already overwhelmed by other rules,
+don't force yourself to memorize these.
 -----------------------
 notice
 -----------------------
 #「長い話」について
 #話し合っているようです
 #耳を傾けますか？
-A lengthy tale
-It seems they are discussing it
-Will you lend an ear?
+"Long Conversations"
+They seem to be discussing it.
+Will you listen in?
 -----------------------
 #ためになる話も十年くらい聞いてると
 #さすがにつかれるさ
-After hearing useful stories for about ten years,
-you eventually get tired of them.
+Even useful advice gets tiring after hearing it for ten years straight.
 -----------------------
 #そういえば教えてなかったな
 #<button:0000002F>と<button:0000002E>を押しっぱなしにすると
 #メッセージを早送りできる
 #同じ会話を読み飛ばすとき便利だ
-I forgot to mention that.
-<button:0000002F>Holding down  and <button:0000002E>
-will fast-forward the text.
-It's handy for skipping through conversations.
+Come to think of it, I never told you.
+If you hold down <button:0000002F> and <button:0000002E>,
+you can fast-forward through messages.
+Handy for skipping conversations you've already seen.
 -----------------------
 #なにー
 #どうして十年もそれを教えて
 #くれなかったのさ
-What?
-Why did you keep that to yourself for ten years?
-And not tell me?
+What?!
+Why didn't you tell me that for ten years?!
 -----------------------
 #バカモン！　ひよっこのお前が
 #私の話を読み飛ばすなどとは
 #十年早いわ
-Fool! You, a mere chick
-To skip over my words entirely
-You're ten years too early.
+Fool! A fledgling like you
+skipping over my words?
+You're ten years too early for that!
 -----------------------
 #と思ってたので今教えることに
 #したわけだ
-I figured I'd tell you now since that's what I was thinking,
-that's why.
+That's what I thought, which is why I'm telling you now.
 -----------------------
 #納得さ
-I understand.
+Fair enough.
 -----------------------
 notice
 -----------------------
 #「アイテム拾得」について
 #話し合っているようです
 #耳を傾けますか？
-How to pick up items
+"Item Drops"
 They seem to be discussing it.
-Do you want to listen in?
+Will you listen in?
 -----------------------
 #冒険者として生きるからには
 #敵からアイテムを拾いまくりたいさ
-Since I live as an adventurer,
-I want to pick up items from enemies.
+If you're gonna live as an adventurer,
+you wanna rake in as many item drops from enemies as possible.
 -----------------------
 #うむ　確かにそうだな
 #しかし冒険者の間で、まことしやかな
 #噂が流れているぞ
-Hmph. You're right.
-But there's a persistent rumor among adventurers,
-that's been circulating.
+Indeed, that's true.
+However, there's a rather persistent rumor circulating among adventurers.
 -----------------------
 #噂ってなにさ？
-What's the rumor about?
+What's the rumor?
 -----------------------
 #「どうやら同じ種類のアイテムを多く持って
 #　いるほど敵がアイテムを落とす確率が
 #　減ってしまうようだ」というのだ
-"It seems that the more items of the same type you carry,
-the lower the probability of enemies dropping items.
-That's what they say."
+"Apparently, the more items of the same type you carry,
+the lower the chance of enemies dropping items."
+That's what they say.
 -----------------------
 #そりゃ困るさ　全部売るさ
-Well, that's a problem. I'll sell them all.
+Well, that's a problem. I'll sell everything!
 -----------------------
 #それはどうかと思うが、いらない装備品
 #などはできるだけ売ったほうがいいのは
 #整理面でもおすすめだな
-That's debatable, but unnecessary equipment.
-It's best to sell those off as much as possible,
-which is also recommended for inventory management.
+I'm not sure about that, but selling off unnecessary equipment
+is definitely recommended for inventory management.
 -----------------------
 #もちろん
 #リファインをして量を減らして質を
 #上げるのが冒険者の知恵ともいえるがな
-Of course.
-We reduce the quantity through refining to improve the quality,
-which is often said to be an adventurer's wisdom.
+Of course,
+Refining to reduce quantity and improve quality
+is also said to be the mark of a wise adventurer.
 -----------------------
 #他にも消費アイテムを使いながら進みたい
 #場合は、聞いた話では少な目の数をキープ
 #したほうがいいということだな
-I also want to keep moving forward while using consumable items.
-In that case, based on what I've heard, it's better to keep a smaller number in stock.
-That means we should do just that.
+Also, if you want to keep moving forward while using consumables,
+from what I've heard, it's better to keep a modest stock of each.
 -----------------------
 #消費アイテムの場合、全体の総数ではなく
 #それぞれの所持数が関係するというのが
 #冒険者筋での通説らしいぞ
-In the case of consumable items,
-it's the individual quantity held that matters,
-rather than the total count across all types.
+For consumables, it's not your total item count that matters,
+but how many you have of each individual type.
+That's the prevailing theory among adventurers.
 -----------------------
 #でも少ないと、つえー敵で困りがちさ
-But if there aren't enough, it gets pretty tough dealing with those strong enemies.
+But if you don't have enough, tough enemies can be a real pain.
 -----------------------
 #それもある　それぞれの冒険スタイルに
 #あった冒険をするのが重要ということだな
-That's also true. It depends on each person's style of adventure.
-It means it's important to go on adventures that suit you.
+That too. The important thing is to adventure
+in a way that suits your own style.
 -----------------------
 select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 <Kyle>
 -----------------------
@@ -2597,7 +2540,7 @@ select
 I'm gonna master my own path!!
 -----------------------
 #いってらっしゃいませ
-Have a good day.
+Take care.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
@@ -2611,8 +2554,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -2635,7 +2578,7 @@ exit-party_togather( short spd )
 notice
 -----------------------
 #{16}{26}{0E}{C0}を手に入れました
-{16}{26}{0E}{C0}You obtained .
+Acquired {16}{26}{0E}{C0}.
 -----------------------
 notice
 -----------------------
@@ -2646,8 +2589,8 @@ notice
 -----------------------
 #{16}{26}{16}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{26}{16}{C0}There was , but
-I couldn't hold it because it was full.
+{16}{26}{16}{C0}You found , but
+your inventory is full.
 -----------------------
 notice
 -----------------------
@@ -2655,27 +2598,24 @@ notice
 There's nothing here.
 -----------------------
 #<item:00000012>屋
-<item:00000012>-ya
+<item:00000012> Shop
 -----------------------
 #こちらでは<item:00000012>の
 #販売を行っています
-We are currently selling <item:00000012> here.
-We handle sales.
+We sell <item:00000012> here.
 -----------------------
 #<item:00000012>を使ってリファインすると
 #ステキな物が作られることがあるようです
-<item:00000012>If you refine using ,
-It seems that wonderful items can sometimes be created.
+Refining with <item:00000012> can sometimes create wonderful items.
 -----------------------
 #武器や鎧をリファインすると
 #付加能力が引継がれることがあるようです
-When you refine weapons or armor,
-It seems that added abilities may sometimes carry over.
+When you refine weapons or armor, added abilities may sometimes carry over.
 -----------------------
 #ひと瓶<0B:00000001>{14}{36}{20}{C0}<0B:00000000>ガルドになりますが、
 #<item:00000012>を買いますか？
-It'll cost you one bottle's worth of <0B:00000001>{14}{36}{20}{C0}<0B:00000000> gald.
-<item:00000012>Would you like to buy ?
+One bottle costs <0B:00000001>{14}{36}{20}{C0}<0B:00000000> gald.
+Would you like to buy <item:00000012>?
 -----------------------
 select
 -----------------------
@@ -2684,7 +2624,7 @@ select
 #　リファイン講座　
 #　いらない　
 <03:00000000>Buy
-<0B:00000001>{14}{26}{2A}{C0}Buy all at once ({14}{36}{24}{C0} Gald)<0B:00000000>
+<0B:00000001>{14}{26}{2A}{C0}Buy in bulk ({14}{36}{24}{C0} Gald)<0B:00000000>
 Refine Tutorial
 No thanks
 -----------------------
@@ -2694,7 +2634,7 @@ select
 #　リファイン講座　
 #　いらない　
 <03:00000000>Buy
-Refine Course
+Refine Tutorial
 No thanks
 -----------------------
 #お買い上げ、ありがとうございます
@@ -2705,18 +2645,17 @@ Thank you for your purchase.
 -----------------------
 #<item:00000012>はひと瓶
 #<0B:00000001>{14}{36}{20}{C0}<0B:00000000>ガルドです
-<item:00000012>One bottle's worth.
-<0B:00000001>{14}{36}{20}{C0}<0B:00000000>It costs  gald.
+<item:00000012> is <0B:00000001>{14}{36}{20}{C0}<0B:00000000> gald per bottle.
 -----------------------
 #リファイン講座を聞きたいですか？
-Do you want to hear about Refine?
+Would you like to hear the Refine tutorial?
 -----------------------
 select
 -----------------------
 #<03:00000000>　聞きたい　
 #　聞きたくない　
-<03:00000000>I want to ask
-I don't want to ask
+<03:00000000>Yes, please
+No thanks
 -----------------------
 #何について知りたいですか？
 What would you like to know?
@@ -2738,7 +2677,7 @@ select
 #　２、アイテムの変化　　　　　　　　　　
 #　３、装備品の合成　
 #　次のページ　
-<03:00000000>1. What is Refine?
+<03:00000000>1. What Is Refine?
 2. Item Transformations
 3. Equipment Synthesis
 Next Page
@@ -2746,217 +2685,186 @@ Next Page
 #リファインとは、選択したアイテムを
 #別なアイテムに変化させたり
 #武器や防具を合成することのできるコマンドです
-What Refine is,
-is allowing you to transform selected items
-into different ones, or combine weapons and armor.
+Refine is a command that lets you transform selected items
+into different ones, or synthesize weapons and armor.
 -----------------------
 #リファインを行うのに必要なのは
 #<item:00000012>とレンズです
-What you need to perform Refine is
-<item:00000012>and lenses.
+To perform Refine, you need <item:00000012> and Lens.
 -----------------------
 #<item:00000012>は、各地にいる
 #私たちルーンボトル屋からお求めください
-<item:00000012>can be found in various locations
-You can purchase them from our Rune Bottle shop.
+You can purchase <item:00000012> from us Rune Bottle vendors in various locations.
 -----------------------
 #レンズはモンスターと
 #戦えば拾うことができます
-The lens is obtained from monsters
-when you defeat them.
+You can obtain Lens by defeating monsters.
 -----------------------
 #これを機会に、あなたも
 #どんどんリファインを行ってください
-With this as an opportunity, you too
-go ahead and refine them as much as possible
+Take this opportunity to refine as much as you can.
 -----------------------
 #アイテムの変化とは、アイテム単体に
 #リファインを行うことによって
 #別なアイテムに変化させることです
-Item changes refer to the item itself,
-by performing Refine on it,
-transforming it into a different item.
+Item transformation means using Refine on a
+single item to change it into a different one.
 -----------------------
 #例えば、<item:00000001>にリファインを行うと
 #<item:00000002>に変化し
 #逆に、<item:00000002>にリファインを行うと
 #<item:00000001>に変化します
-For example, if you Refine <item:00000001>,
-<item:00000002>it transforms into .
-Conversely, if you Refine <item:00000002>,
-<item:00000001>it changes into .
+For example, refining <item:00000001> transforms it into <item:00000002>.
+Conversely, refining <item:00000002> transforms it into <item:00000001>.
 -----------------------
 #また、装備品単体をリファインすることによって
 #<item:00000001>などのアイテムにも変化します
-You can also refine individual equipment pieces to
-<item:00000001>transform items such as .
+You can also refine individual pieces of equipment to obtain items such as <item:00000001>.
 -----------------------
 #ダンジョンなどでアイテムが尽きてしまった時などに
 #行うと、有効な場合もあります
 #もちろん、最初からきちんと準備をしておくほうが
 #賢いといえますが････
-When you run out of items in dungeons or similar places,
-this method might come in handy.
-While it's certainly smarter to prepare properly from the start...
-there are times when this approach works too.
+This can be effective when you run out of items in a dungeon, for instance.
+Of course, it's wiser to prepare properly from the start...
 -----------------------
 #リファインの一番の特徴は
 #やはり、装備品の合成です
-The most notable feature of Refine is
-undoubtedly equipment synthesis.
+The greatest feature of Refine is undoubtedly equipment synthesis.
 -----------------------
 #装備品を合成すると
 #お気に入りの装備品に
 #お気に入りのスロットが付いた
 #装備品を作ることができます････
-When you synthesize equipment,
-you can create your favorite gear
-with your preferred slots added
-to make custom equipment...
+By synthesizing equipment, you can create gear with your
+preferred slots added to your favorite equipment...
 -----------------------
 #ああ、まずはスロットの説明を
 #しなければいけませんね
-Ah, first I need to explain how the slots work.
-I suppose.
+Ah, but first I must explain what slots are.
 -----------------------
 #スロットとは、装備品に
 #付けることができる
 #付加能力のようなものです
-Slots are items you can equip,
-that attach to your gear
-to provide bonus abilities.
+Slots are bonus abilities that can be attached to equipment.
 -----------------------
 #スロットについては、また別に
 #詳しく説明させていただきます
-As for the slots,
-we'll explain in more detail.
+We'll explain slots in more detail separately.
 -----------------------
 #いちばん簡単な装備品のリファインは
 #スロットが一つついた装備品どうしの
 #リファインです
-The simplest type of Refine is
-between two pieces of equipment
-that each have one slot.
+The simplest form of equipment Refine is between
+two pieces of equipment that each have one slot.
 -----------------------
 #これを行うと、何とステキなことに
 #スロットが二つ付いた装備品ができます
-How wonderful it is to do this
-You'll get equipment with two slots.
+Doing this produces wonderful equipment with two slots.
 -----------------------
 #注意しなければいけないのは
 #剣は剣、鎧は鎧といったように
 #同じ種類の装備品でしか
 #リファインできません
-What you need to keep in mind is that
-just as swords are for swords and armor is for armor,
-you can only
-Refine equipment of the same type.
+What you must keep in mind is that, just as swords go with swords and
+armor with armor, you can only Refine equipment of the same type.
 -----------------------
 #他にもいろいろな組み合わせがありますが
 #それはやってみてのお楽しみです
-There are plenty of other combinations as well.
-You'll have to try it out to find out.
+There are many other combinations as well,
+but discovering them is part of the fun.
 -----------------------
 #スロットについて
 #詳しく説明いたします
-I'll explain about slots.
-I will provide detailed instructions.
+Now then, let me explain slots in detail.
 -----------------------
 #スロットは数多くの種類があり
 #アタック：攻撃力が上昇します
 #ディフェンス：防御力が上昇します
 #などが代表的なものです
-There are many different types of slots available,
+There are many types of slots.
 Attack: Increases attack power.
 Defense: Increases defense power.
-among others.
+These are some of the most common.
 -----------------------
 #スロットによって装備品の名前も変わります
 #<item:00000078>　＋　アタックで
 #アタックソードなどです
-The name of equipped items also changes depending on the slot.
-<item:00000078>+ Attack
-It's things like the Attack Sword.
+Equipment names also change depending on the slot.
+<item:00000078> + Attack becomes an Attack Sword, for example.
 -----------------------
 #また、スロットにはレベルがあり
 #レベルが高いと効果も上昇します
 #最高はレベル８です
 Additionally, slots have levels.
 Higher levels increase their effectiveness.
-The maximum level is eight.
+The maximum level is 8.
 -----------------------
 #スロット付きの装備品は
 #主にモンスターが落とします
-Equipment with slots is
-mainly dropped by monsters
+Equipment with slots is mainly dropped by monsters.
 -----------------------
 #モンスターとたくさん戦って
 #スロット付き装備品を手に入れて
 #あなただけのスロット付き装備品を
 #作ってみてください
-Fight plenty of monsters
-obtain equipment with slots
-create your own slot-equipped gear
-and give it a try
+Fight plenty of monsters, obtain equipment with slots,
+and try creating your own custom slotted gear.
 -----------------------
 #ここだけの話ですが、装飾品も
 #リファインすることができます
 #でも、それは装飾品どうしではありません
-Between you and me, accessories can also
-be refined.
-But that doesn't apply to combinations between accessories.
+Just between us, accessories can also be refined.
+However, you cannot refine accessories together with other accessories.
 -----------------------
 #装飾品と、装備品のような
 #形でのみリファインが可能なのです
-Like accessories and equipment,
-Refining is only possible in that form.
+Refining is only possible between accessories and equipment.
 -----------------------
 #この場合の利点は、リファインする
 #装備品の場所によってスロットが
 #変化するということです
 #武器、防具によって違います
-The advantage in this case is that refining
-the slots change depending on where
-you equip the item.
-It varies by weapon and armor.
+The advantage in this case is that the resulting slot changes depending on
+which equipment piece you refine with. It differs between weapons and armor.
 -----------------------
 #また、装飾品は一つしか装備できないので
 #いらない装飾品を、リファインに活用すれば
 #非常に有効です
-You can also only equip one accessory at a time,
-so if you utilize unnecessary accessories for Refining,
-it's highly effective.
+Also, you can only equip one accessory at a time,
+so putting unwanted accessories to use in Refining
+is extremely effective.
 -----------------------
 #その他にも、外装つまり「マント」も
 #装飾品と同様に装備品とリファインできます
 #その場合はなんと、装備品に属性を
 #付加することができるのです
-Additionally, exterior components, specifically 'cloaks', can also
-be refined just like accessories.
-In that case, you can actually
-add attributes to your equipment.
+In addition, exterior gear--that is, 'cloaks'--can also
+be refined with equipment, just like accessories.
+And in that case, you can actually
+add elemental attributes to your equipment.
 -----------------------
 #装飾品とのリファインもうまく活用し
 #さらにステキなリファイン職人を
 #目指してみてください
-Make good use of refining your accessories as well
-And aim to find even more wonderful refiners
-To try reaching for them
+Make good use of Refining with accessories,
+and aim to become an even greater
+master of Refining.
 -----------------------
 #たまに、装備品の中に黄色い枠の
 #アイコンが付いたものがありますね
 #それは、ユニークアイテムと
 #呼ばれているものです
-Sometimes, among your equipment,
-you'll find items marked with a yellow border icon.
-These are known as
+Every now and then, you may find equipment
+marked with a yellow-bordered icon.
+These are what's called
 Unique Items.
 -----------------------
 #ユニークアイテムは見た目にも
 #かっこよく、攻撃力も高く
 #スロットレベルも高いものが多いですが
 #スロットは一つしかありません
-Unique items look great,
+Unique items look impressive,
 boast high attack power,
 and often have high slot levels,
 but they only have one slot.
@@ -2964,25 +2872,23 @@ but they only have one slot.
 #しかし、その反面、装飾品以外のユニークアイテムは
 #リファインすることができません
 #これ以上強化することができないのです
-However, on the other hand, unique items other than accessories
+However, the downside is that Unique Items other than accessories
 cannot be refined.
-This means they cannot be enhanced any further.
+This means they cannot be strengthened any further.
 -----------------------
 #ですから、いらなくなったアイテムは
 #どんどん売ってしまうことをお勧めします
-So, if you have items you no longer need,
-I recommend selling them off as quickly as possible.
+Therefore, I recommend selling off
+items you no longer need as soon as possible.
 -----------------------
 #なぜなら、アイテムをたくさん持っていると
 #モンスターがアイテムを
 #落としてくれなくなってしまうという
 #噂があるからです
-Because carrying around a lot of items means
-The monster dropped an item.
-it means you won't be able to drop them anymore
-Because there's a rumor.
+Because there is a rumor that if you carry too many items,
+monsters will stop
+dropping them for you.
 -----------------------
 #････アイテム整理も大切ですね
-...Organizing items is important too.
+...Keeping your inventory organized is important too, isn't it?
 -----------------------
-

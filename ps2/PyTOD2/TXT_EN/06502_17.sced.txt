@@ -7,7 +7,7 @@ Trash Mountain
 notice
 -----------------------
 #毒ガスで箱の中身が変質しました！
-The contents inside the box have been altered by poison gas!
+The contents of the box have been altered by poison gas!
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -24,8 +24,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -67,4 +67,3 @@ notice
 #何もありません
 There's nothing here.
 -----------------------
-

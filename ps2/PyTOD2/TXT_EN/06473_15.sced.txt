@@ -1,5 +1,5 @@
 #チェリク・武器屋
-Cerek - Weapon Shop
+Cherik - Weapon Shop
 -----------------------
 #チェリク
 Cherik
@@ -8,10 +8,10 @@ Cherik
 Weapon Shop
 -----------------------
 #様々な種類の雑貨が並んでいる
-A wide variety of miscellaneous goods are lined up.
+Various kinds of goods are lined up.
 -----------------------
 #変わった形状の武器が並んでいる
-A collection of uniquely shaped weapons is lined up.
+Uniquely shaped weapons are lined up.
 -----------------------
 #武器屋
 Weapon Shop
@@ -20,10 +20,10 @@ Weapon Shop
 #ウチも防具屋も、昔は
 #活気があったんだけどな
 #今じゃぜんぜん客が来ないよ
-Haa...
-Back in the day,
-our shop was bustling
-with customers.
+*Sigh*...
+Our shop and the armor store
+used to be so lively.
+Now we barely get any customers.
 -----------------------
 #武器屋
 Weapon Shop
@@ -32,10 +32,10 @@ Weapon Shop
 #ウチも防具屋も、昔は
 #活気があったんだけどな
 #今じゃぜんぜん客が来ないよ
-Haa...
-Our shop used to be,
-just as lively as the armor store back in the day.
-Nowadays, we don't get any customers at all.
+*Sigh*...
+Our shop and the armor store
+used to be so lively.
+Now we barely get any customers.
 -----------------------
 #武器屋
 Weapon Shop
@@ -43,15 +43,15 @@ Weapon Shop
 #攻撃こそが最大の防御！
 #どんな防具も切りさく
 #史上最強の武器屋はここだッ！
-Attack is the best defense!
-Slicing through any armor
-This is where the strongest weapon shop in history stands!
+Attack is the ultimate defense!
+We slice through any armor!
+The strongest weapon shop in history is right here!
 -----------------------
 #ありがとな
 Thanks.
 -----------------------
 #じゃあ、またな
-Well then, see you later.
+See you around.
 -----------------------
 #武器屋
 Weapon Shop
@@ -61,8 +61,8 @@ Swordsman
 -----------------------
 #なんだか凄い剣だな
 #と言うより、これ本当に剣なのか？
-This is quite an impressive sword.
-Or rather, is this even a sword?
+That's quite a sword.
+Or rather, is this thing even a sword?
 -----------------------
 #剣士
 Swordsman
@@ -72,12 +72,12 @@ Swordsman
 #ここの武器って、どこかで
 #見た事あるのばっかりなんだよな
 This sword,
-and that hammer over there,
-all these weapons here,
-they're all ones I've seen before.
+and that hammer over there...
+All the weapons here
+are ones I've seen somewhere before.
 -----------------------
 #いってらっしゃいませ
-Have a good day.
+Come again.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
@@ -91,8 +91,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -104,7 +104,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We look forward to your next visit.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -126,12 +126,11 @@ notice
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{C2}{C0} but
-inventory is full already.
+Found {16}{25}{C2}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

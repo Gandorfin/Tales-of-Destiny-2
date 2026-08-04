@@ -2,18 +2,18 @@
 The room of Ladislaw Chartier and Ictinus
 -----------------------
 #ラディスロウ
-Ladislaw
+Radisrol
 -----------------------
 #シャルティエとイクティノスの部屋
-Shaltea and Iktinos's Room
+Chaltier and Igtenos's Room
 -----------------------
 #シャルティエの日記だ
 #『････早くディムロス中将のような実力を
 #　身につけて、僕をバカにした連中を
 #　見返してやるんだ････』
 It's Chaltier's diary.
-"...Quickly, someone with the strength of Vice Admiral Dimlos"
-Equip it and show those who looked down on me what I'm made of.
+"...I'll become as strong as Lieutenant General Dymlos as soon as I can,
+and show up all the jerks who made a fool of me..."
 I'll show them what I'm made of...
 -----------------------
 #････これ以上、読むのは止めておこう
@@ -21,19 +21,19 @@ I'll show them what I'm made of...
 -----------------------
 #イクティノス所有の機械だ
 #戦術についてまとめた論文が表示されている
-Ikhtinos's machinery.
-A treatise on tactics is displayed.
+Machinery owned by Igtenos.
+A treatise on tactics is displayed on it.
 -----------------------
 #イクティノスの私物がある
 #女性の写真がおさめられたペンダントだ
-Ictinus has some personal belongings.
-It's a pendant containing a photograph of a woman.
+There's something personal of Igtenos's here.
+It's a pendant with a photograph of a woman inside.
 -----------------------
 #中にはシャルティエの本が入っている
 #『楽しい人生』『プレッシャーに負けない』
 #『良い上司・悪い上司の見分け方』
-There are Schartier's books inside.
-'A Fun Life', 'Don't Give In to Pressure'
+Inside are Chaltier's books.
+'A Fun Life,' 'Don't Give In to Pressure,'
 'How to Tell Good Bosses from Bad Ones'
 -----------------------
 #いってらっしゃいませ
@@ -51,8 +51,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -86,12 +86,11 @@ notice
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{C2}{C0} but
-inventory is full already.
+Found {16}{25}{C2}{C0}, but
+your inventory is already full.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

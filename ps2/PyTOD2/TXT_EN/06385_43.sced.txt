@@ -1,14 +1,14 @@
 #ストレイライズ大神殿
-Straylise Grand Temple
+Straylize Grand Temple
 -----------------------
 #ストレイライズ大神殿
-Straylise Grand Temple
+Straylize Grand Temple
 -----------------------
 #ストレイライズ神殿
-Straylise Temple
+Straylize Temple
 -----------------------
 #ストレイライズ神殿
-Straylise Temple
+Straylize Temple
 -----------------------
 <Nanaly>
 -----------------------
@@ -22,7 +22,7 @@ Philia
 #英雄を求めるのですか？
 ...Before that, I have one question.
 Why are you
-seeking heroes?
+seeking a hero?
 -----------------------
 #？？？
 ???
@@ -30,12 +30,12 @@ seeking heroes?
 #力が････
 #世界を変えられるほどの力が
 #必要だからです
-The power...
+Power...
 Power enough to change the world.
 That is what I need.
 -----------------------
 #力？
-Strength?
+Power?
 -----------------------
 #？？？
 ???
@@ -43,9 +43,9 @@ Strength?
 #英雄とは、人々だけでなく
 #この世界自体の運命すら
 #変えてしまうほどの力を持っています
-Heroes are not just people who
-can change the fate of even
-this very world itself
+A hero possesses power enough to change
+not only the fate of people,
+but even the fate of this world itself.
 -----------------------
 #？？？
 ???
@@ -54,8 +54,7 @@ this very world itself
 #その力の源がいったい何なのか
 #知りたいのです
 I want to know
-what the true source of that power is
-and understand it.
+what the true source of that power is.
 -----------------------
 #？？？
 ???
@@ -63,14 +62,14 @@ and understand it.
 #そして、わたしも
 #そんな力を、手に入れたいのです
 And I...
-I want to gain that kind of power.
+I want to obtain that kind of power.
 -----------------------
 #････私の目には
 #あなたはすでに、大きな力を
 #持っているように見えます
 ...To my eyes,
-you already seem to possess great power.
-It appears you have it within you.
+you already seem to possess
+great power.
 -----------------------
 #？？？
 ???
@@ -80,21 +79,21 @@ It appears you have it within you.
 #足りないんです、全然！
 No, it won't work!
 With my current power,
-It's not enough... not even close!
+it's not enough... not even close!
 -----------------------
 #････
 ...
 -----------------------
 #もうひとつ
 #お聞きしたいことがあります
-One more thing
-I have something I'd like to ask
+One more thing.
+There is something else I'd like to ask.
 -----------------------
 #英雄と出会い
 #力を手に入れた時、あなたは
 #なにをするつもりなのですか？
-Meeting the Hero
-When you gain that power,
+When you meet the hero
+and obtain that power,
 what do you intend to do?
 -----------------------
 #？？？
@@ -106,15 +105,15 @@ what do you intend to do?
 #････話せない、ということですか
 #それは、私が
 #あなたの求める英雄ではないから？
-So... you're saying I can't speak?
-That's because I...
-I'm not the hero you're looking for?
+...You cannot say?
+Is it because I...
+am not the hero you seek?
 -----------------------
 #？？？
 ???
 -----------------------
 #････すみません
-Sorry about that.
+...Forgive me.
 -----------------------
 #？？？
 ???
@@ -122,26 +121,26 @@ Sorry about that.
 #でも、悪いことに
 #力を使うわけじゃありません！
 #信じてください！
-But, unfortunately,
-I'm not using my strength!
-Please believe me!
+But I would never
+use this power for evil!
+Please, believe me!
 -----------------------
 #ええ、わかっています
 #だからこそ、お聞きしたのです
 Yes, I understand.
-That's precisely why I asked.
+That is precisely why I asked.
 -----------------------
 #それほどの力と
 #信念を持っているあなたが
 #いったい何を望むのかを
-with such power,
-and you who possess
-what on earth is it that you desire?
+One who possesses such power
+and conviction...
+what is it that you desire?
 -----------------------
 #････私には
 #あなたがまるで････
 I...
-You're just like...
+You remind me of...
 -----------------------
 #？？？？？
 ?????
@@ -149,12 +148,12 @@ You're just like...
 #神の眼を砕いたという
 #四英雄がひとり････
 #フィリア＝フィリスだな？
-The one who shattered the Eye of God
-One of the Four Heroes...
-Philia Pharis, right?
+The one said to have shattered
+the Eye of Atamoni... one of the Four Heroes.
+Philia Felice, is it not?
 -----------------------
 #あ、あなたは････!?
-Oh, you're...!?
+Y-you...!?
 -----------------------
 #？？？？？
 ?????
@@ -162,20 +161,20 @@ Oh, you're...!?
 #死にゆく者に
 #名乗ったとしてもムダだ
 #････覚悟！
-To those who are dying,
-It's pointless to introduce yourself.
+To one who is about to die,
+giving my name would be pointless.
 ...Prepare yourself!
 -----------------------
 #？？？
 ???
 -----------------------
 #フィリアさん!!
-Philia!?
+Philia!!
 -----------------------
 #私のことはいいから！
 #早く逃げて････！
-Don't worry about me!
-Hurry up and get out of here...!
+Never mind me!
+Hurry, you must flee...!
 -----------------------
 #？？？？？
 ?????
@@ -184,38 +183,38 @@ Hurry up and get out of here...!
 #これが、かつての英雄の姿とはな
 #まったく、失望させてくれる
 ...Weak. Too weak.
-So this is what a former hero looks like?
-You really know how to disappoint.
+So this is what becomes of a former hero?
+You truly disappoint.
 -----------------------
 #？？？？？
 ?????
 -----------------------
 #せめて、最後の断末魔ぐらいは
 #楽しませて････
-At least let me hear their final death cry
-Give me some pleasure...
+At least let me savor
+your final death throes...
 -----------------------
 <Kyle>
 -----------------------
 #動くなッ！
 #いますぐ、フィリアさんから離れろ！
 Don't move!
-Get away from Filia right now!
+Get away from Philia right now!
 -----------------------
 #？？？？？
 ?????
 -----------------------
 #････なんだ、貴様は!?
-......What is it? You!?
+...Who the hell are you!?
 -----------------------
 <Kyle>
 -----------------------
 #よくも、フィリアさんを････！
 #次はオレが････未来の大英雄
 #<Kyle>＝デュナミスが相手だ！
-You dare attack Filia--!
-I'll be next... the future great hero.
-<Kyle> Dunamis is my opponent!
+You dare hurt Philia--!
+You're looking at your next opponent...
+The future great hero, <Kyle> Dunamis!
 -----------------------
 #？？？？？
 ?????
@@ -229,36 +228,36 @@ A hero...!?
 #貴様のような虫ケラが
 #英雄を名乗るとはな････！
 #死にたいのか、小僧!!
-You little insect like yourself
-to call yourself a hero...!
-Do you want to die, kid?!
+A worm like you
+daring to call himself a hero...!
+Are you itching to die, brat?!
 -----------------------
 <Loni>
 -----------------------
 #あぶない、<Kyle>！
-Dangerous, <Kyle>!
+Look out, <Kyle>!
 -----------------------
 <Loni>
 -----------------------
 #なッ････!?
 #あいつは、バケモノか!?
 Wha--!?
-Is that thing some kind of monster!?
+Is that guy some kind of monster!?
 -----------------------
 <Loni>
 -----------------------
 #ヤバいぜ、<Kyle>！
 #手ごわい････というより
 #勝ち目はないぞ!!
-You're in big trouble, <Kyle>!
-Tough... or rather,
-There's no way we win!!
+This is bad, <Kyle>!
+Tough doesn't even cover it...
+We've got no chance of winning!!
 -----------------------
 <Kyle>
 -----------------------
 #だからって、引き下がれるか！
 #オレのすべてを、ぶつけてやる!!
-Just because of that, you think I'll back down!?
+Like hell I'm backing down!
 I'm throwing everything I've got at you!!
 -----------------------
 #？？？？？
@@ -267,14 +266,14 @@ I'm throwing everything I've got at you!!
 #覚悟だけは誉めてやろう、小僧
 #俺の前で英雄と口に出したこと････
 #死の淵で、悔やむがいい!!
-I'll give you credit for your resolve, kid.
-You called yourself a hero right in front of me...
-Suffer at the gates of death!
+I'll give you credit for guts, brat.
+Spouting 'hero' right to my face...
+You'll regret that at the edge of death!!
 -----------------------
 <Kyle>
 -----------------------
 #どうだ、思い知ったか！
-How does that feel? Did you learn your lesson?
+How's that?! Learn your lesson?!
 -----------------------
 #？？？？？
 ?????
@@ -283,13 +282,13 @@ How does that feel? Did you learn your lesson?
 #油断して、礼を失したようだ
 #ならば、改めて敬意を払おう！
 Kukuku... I see.
-I let my guard down and lost my manners.
-Then allow me to show my respect once again!
+I let my guard down and forgot my manners.
+Then allow me to show you my respect once more!
 -----------------------
 <Kyle>
 -----------------------
 #くッ!!　つ、強い････！
-Tch!! It's... so strong!..
+Ngh!! H-He's strong...!
 -----------------------
 #？？？？？
 ?????
@@ -297,33 +296,33 @@ Tch!! It's... so strong!..
 #残念だったな、英雄になりそこねて
 #クックックッ････
 #ハーッハッハッハッ!!
-Too bad you didn't quite make it as a hero.
-Kuukuukku...
-Hahaha!!
+Too bad you didn't quite become a hero.
+Kukukuku...
+Haaahahaha!!
 -----------------------
 #？？？？？
 ?????
 -----------------------
 #ぐぁッ!!
 #き、貴様は････!?
-Ghh!
-Y-you...!?
+Guah!!
+Y-You...!?
 -----------------------
 <Judas>
 -----------------------
 #受けとれ、<Kyle>！
-Accept it, <Kyle>!
+Take this, <Kyle>!
 -----------------------
 <Kyle>
 -----------------------
 #でやああああぁぁっ!!
-Hyaahhh!!
+Deyaaaaaahhh!!
 -----------------------
 #？？？？？
 ?????
 -----------------------
 #ぐぬッ!!
-Grrr!!
+Gnuh!!
 -----------------------
 #？？？？？
 ?????
@@ -332,8 +331,8 @@ Grrr!!
 #我が餓えを満たす相手が
 #この世界に、いようとはな････
 ...Kukuku.
-The one to satisfy my hunger...
-Is actually in this world.....
+The one who would sate my hunger...
+To think they would be in this world...
 -----------------------
 #バルバトス
 Barbatos
@@ -348,59 +347,59 @@ Remember that name!
 <Kyle>
 -----------------------
 #や、やった････
-W-well done...
+W-We did it...
 -----------------------
 <Kyle>
 -----------------------
 #そうだ！
 #フィリアさんが!!
 That's right!
-Philia-san!!
+Philia!!
 -----------------------
 #？？？
 ???
 -----------------------
 #まだ息がある････
 #生きてるわ！
-I'm still alive...
-I'm alive!
+She's still breathing...
+She's alive!
 -----------------------
 <Loni>
 -----------------------
 #よし！　この神殿内に
 #フィリアさんの私室があるはずだ
 #すぐに運ぶぞ!!
-Alright! Inside this temple,
-Philia's private room should be.
-I'll carry it right away!!
+Alright! Philia's private quarters
+should be somewhere inside this temple.
+Let's get her there, now!!
 -----------------------
 #司祭
 Priest
 -----------------------
 #準備はよろしいですね？
 #では、これより出産式をはじめます
-Are you ready?
-Now, let us begin the birth ceremony.
+Is everything prepared?
+Then let us begin the birth ceremony.
 -----------------------
 <Kyle>
 -----------------------
 #出産････って、ここって神殿だよね？
 #しかも、お医者さんいないじゃん
-Giving birth... Wait, isn't this a temple?
-And besides, there's no doctor here.
+Giving birth...? But this is a temple, right?
+And there's no doctor here or anything.
 -----------------------
 #街の人
-Citizen
+Townsperson
 -----------------------
 #シーッ！　静かに！
 #式の最中なんだよ！
-Shh! Be quiet!
-The ceremony is in progress!
+Shh! Quiet!
+The ceremony is underway!
 -----------------------
 <Kyle>
 -----------------------
 #ご、ごめんなさい････
-S-sorry...
+S-Sorry...
 -----------------------
 #司祭
 Priest
@@ -408,31 +407,31 @@ Priest
 #大いなる神、フォルトゥナよ
 #あなたの御力をお借りして、
 #今、新しい命を、ここに！
-Great god Fortuna,
-I borrow your power,
-Now, new life, here!
+O great god Fortuna,
+lend us your divine power,
+and bring new life here this day!
 -----------------------
 #司祭
 Priest
 -----------------------
 #おめでと････
-Celebrations...
+Congratul--...
 -----------------------
 <Kyle>
 -----------------------
 #見た、<Reala>!?
 #パーッと光ったら赤ん坊がいるなんて
 #まるで、手品みたいじゃん！
-You saw it, <Reala>!?
-One moment it's bright light, and then there's a baby.
-It's just like magic!
+Did you see that, <Reala>!?
+A flash of light and then there's a baby!
+It's like some kind of magic trick!
 -----------------------
 <Kyle>
 -----------------------
 #ああ････しずかに････ですね
 #アハハ、アハ、アハ････
-Ah... so quiet...
-Hahaha, ha, ha...
+Ah... q-quiet... right
+Ahaha, aha, aha...
 -----------------------
 #司祭
 Priest
@@ -440,29 +439,29 @@ Priest
 #オホン！
 #････では、あらためて
 Ahem!
-...Well then, let me start over.
+...Well then, let me begin again.
 -----------------------
 #司祭
 Priest
 -----------------------
 #おめでとうございます
 #無事、出産できましたよ
-Celebrations!
-We've successfully delivered the baby.
+Congratulations.
+The birth was a success.
 -----------------------
 #妻
-wife
+Wife
 -----------------------
 #ありがとうございます
 #痛みもなく、とても楽でした
-Thank you very much.
-There was no pain at all, it felt so easy.
+Thank you so much.
+There was no pain at all. It was so easy.
 -----------------------
 #司祭
 Priest
 -----------------------
 #これが、あなたの子どもです
-This is your child.
+Here is your child.
 -----------------------
 #夫
 Husband
@@ -474,52 +473,52 @@ Yes, thank you.
 -----------------------
 #ここでは、こうして
 #神の力を借りて出産をするの
-In here, just like this,
-I give birth with the power of the gods.
+Here, this is how they give birth
+by borrowing the power of the gods.
 -----------------------
 <Reala>
 -----------------------
 #無痛で、産後の病気の心配もない
 #もっとも安全な出産法なのよ
-Painless, with no worries about postpartum illness.
-It's the safest method of childbirth.
+It's painless, with no risk of postpartum illness.
+The safest childbirth method there is.
 -----------------------
 <Kyle>
 -----------------------
 #ふ～ん、安全ねぇ
 #････でもさ、なんかふたりとも
 #あんまりうれしそうじゃないね
-Hmm, safe enough.
-...But still, both of them seem...
-not very happy about it.
+Huh. Safe, huh?
+...But y'know, those two
+don't look all that happy about it.
 -----------------------
 <Reala>
 -----------------------
 #････そ、そうね
-...Yeah, that's right.
+...Y-Yes, I suppose not.
 -----------------------
 #司祭
 Priest
 -----------------------
 #では、この子の名前ですが････
 #慣例どおり、「Ｊ－２３７」になります
-Well, as for this child's name...
-As per convention, it will be 'J-237'.
+Now then, as for this child's name...
+By convention, it shall be "J-237."
 -----------------------
 #司祭
 Priest
 -----------------------
 #「Ｊ－２３７」は、三年間の初期保育期間終了後、
 #ふたりに引きわたされます
-"J-237" will be handed over to the two of them after the three-year initial childcare period ends,
-following its conclusion.
+"J-237" shall be transferred to the two of you
+upon completion of the three-year initial childcare period.
 -----------------------
 <Kyle>
 -----------------------
 #「Ｊ－２３７」!?
 #それが、名前なの!?
 "J-237"!?
-That's your name!?
+That's its name!?
 -----------------------
 #司祭
 Priest
@@ -528,84 +527,85 @@ Priest
 #出産式の最中ですので
 #静粛に願います
 ...Ahem!
-We are in the middle of the childbirth ceremony,
-so please maintain silence.
+We are in the midst of the childbirth ceremony.
+I must ask for silence.
 -----------------------
 <Kyle>
 -----------------------
 #は、はい････
-Yes, yes...
+Y-Yes, sir...
 -----------------------
 #司祭
 Priest
 -----------------------
 #では、改めておめでとう
 #「Ｅ－１０２」そして「Ｇ－１１３」よ
-Well then, congratulations again
-"E-102" and "G-113"
+Then once more, congratulations
+to "E-102" and "G-113."
 -----------------------
 <Kyle>
 -----------------------
 #な、なぁ、<Reala>
 #「Ｊ－２３７」ってなんだよ!?
 #それに、保育期間がどうこうって････
-H-Hey, wait...<Reala>
-What's with 'J-237'!?
-And what about this nursery period thing...
+H-Hey, <Reala>
+What's with "J-237"!?
+And what's this about a childcare period...
 -----------------------
 <Reala>
 -----------------------
 #この街では、人は名前ではなく
 #番号で管理されているの
 #産まれた順に、番号がつくのよ
-In this town, people aren't managed by name,
-but by number.
-They're assigned numbers in order of birth.
+In this town, people are not managed
+by names, but by numbers.
+They are assigned numbers
+in the order they are born.
 -----------------------
 <Reala>
 -----------------------
 #そして、三年間の初期保育期間の後
 #はじめて、親に引き渡されるの
-And after three years of initial childcare...
-They are finally handed over to their parents.
+And after the three-year initial childcare period,
+only then are they finally handed over to their parents.
 -----------------------
 <Kyle>
 -----------------------
 #三年間!?
 #産まれたばっかりなのに
 #三年も一緒に暮らせないの!?
-How three years!?
-She's barely been born yet.
-You can't live together for three whole years!?
+Three years!?
+She was just born, and they can't
+live together for three whole years!?
 -----------------------
 <Reala>
 -----------------------
 #でもね、初期保育は、専門の人が
 #ちゃんとやってくれるのよ
-But see, early childcare is handled by professionals
-who really know what they're doing.
+But you see, early childcare is handled
+by trained specialists.
 -----------------------
 <Reala>
 -----------------------
 #人格、身体ともに、なんの
 #問題もない子どもが育つの
-In terms of both personality and physical health,
-a child grows up without any issues.
+Children grow up without any problems
+in mind or body.
 -----------------------
 <Kyle>
 -----------------------
 #そう、なのか････
 #でもさ、それって････
-I see...
-But then again...
+I... guess so...
+But still, doesn't that mean...
 -----------------------
 #？？？？
 ????
 -----------------------
 #ぜったいにヘン、だよねぇ
 #あんたも、そう思うだろ？
-It's definitely weird, isn't it?
-You think so too, right?
+It's totally weird, right?
+You think so too, dontcha?
 -----------------------
 #？？？？
 ????
@@ -613,17 +613,17 @@ You think so too, right?
 #あぁ、ごめんね
 #この街に、まともな人間がいるとは
 #思ってもみなかったからさ
-Oh, sorry.
-I never thought there'd be any decent people in this town.
-That's why.
+Ah, sorry.
+I just never thought there'd be
+any decent folk in this town, is all.
 -----------------------
 #？？？？
 ????
 -----------------------
 #うれしくなって
 #つい、ね
-I couldn't help but feel happy
-It just happened, you know.
+I got so happy, I just...
+y'know, couldn't help myself.
 -----------------------
 #？？？？
 ????
@@ -631,9 +631,9 @@ It just happened, you know.
 #ちょいと薬を買いに
 #ひさしぶりに来てみたんだけど････
 #相変わらず、この街はヘンだよねぇ
-I'm going to pick up some medicine.
-It's been a while since I last came here...
-As always, this town is so weird.
+Came here to grab some medicine.
+Haven't been by in a while, but...
+this town's as weird as ever, huh?
 -----------------------
 #？？？？
 ????
@@ -641,26 +641,25 @@ As always, this town is so weird.
 #赤ちゃんが産まれたのに
 #あんなに平然としてる親なんて
 #あたしの村じゃ、考えられないよ
-With a baby being born,
-parents who act so casually about it
-would be unthinkable in my village.
+Parents actin' all calm when their baby's born?
+That'd be unthinkable back in my village.
 -----------------------
 <Kyle>
 -----------------------
 #ほんと、ほんと！
 #もっと「やったぞーっ！」
 #とかって喜ぶもんだよねぇ？
-Really, really!
-"We did it!"
-Isn't that how you're supposed to celebrate?
+Right, right!?
+Shouldn't they be more like "We did it!"
+and stuff? That's how you celebrate!
 -----------------------
 #？？？？
 ????
 -----------------------
 #苦労がなんにもないから、ここの連中は
 #あんまり喜べないのかもね
-Since they've never known hardship, the people here...
-might not be all that thrilled.
+Guess the folks here can't really be happy about it
+'cause they've never known hardship.
 -----------------------
 #？？？？
 ????
@@ -668,9 +667,9 @@ might not be all that thrilled.
 #赤ちゃんを産むのってさ、
 #そりゃあ大変なことなんだよ
 #ヘタすりゃ、命に関わることだってある
-It's no secret that giving birth to a baby...
-is quite an ordeal.
-And if you're not careful, it could even cost you your life.
+Givin' birth to a baby, y'know...
+It's a huge ordeal.
+Mess it up, and it could cost ya your life.
 -----------------------
 #？？？？
 ????
@@ -678,27 +677,27 @@ And if you're not careful, it could even cost you your life.
 #けど、ここの連中は、産まれる前も、
 #産まれた後も、フォルトゥナ神団が、
 #全部手取り足取りやってくれるからさ
-But everyone here has been...
-...from before they were born to after,
-...the Fortuna Divine Order has taken care of everything for them.
+But everyone here, from before they're born
+to after, the Sacred Order of Fortuna
+holds their hand through everything.
 -----------------------
 <Reala>
 -----------------------
 #でも、その方が危なくないし、
 #結果として、親も、産まれた子も、
 #幸せになるから････
-But it's safer that way,
-and in the end, both the parents and the child
-end up happier...
+But that way it's safer, and in the end
+both the parents and the child born
+end up happier for it...
 -----------------------
 <Kyle>
 -----------------------
 #････本気で言ってるの
 #<Reala>？
 #だって、それじゃあ････
-Are you serious?
+...Do you really mean that,
 <Reala>?
-Because if that's the case...
+Because if so...
 -----------------------
 #？？？？
 ????
@@ -712,9 +711,9 @@ Because if that's the case...
 #････ねぇ、あんたたち
 #もしかして、<Kyle>と
 #<Reala>かい!?
-...Hey, you guys.
-Could it be that... <Kyle>?
-<Reala>, right!?
+...Hey, you two.
+Could you be... <Kyle> and
+<Reala>, by any chance!?
 -----------------------
 <Reala>
 -----------------------
@@ -724,15 +723,15 @@ Huh!?
 <Kyle>
 -----------------------
 #どうしてオレたちの名前を!?
-Why would you know our names!?
+How do you know our names!?
 -----------------------
 #？？？？
 ????
 -----------------------
 #じゃあ、あいつらが言ってたのは、
 #本当のことだったのか････
-So what they were saying was...
-...actually true?
+So what they were saying...
+was actually true...?
 -----------------------
 #？？？？
 ????
@@ -740,17 +739,17 @@ So what they were saying was...
 #いやね、あたしの村に、この前
 #見なれない格好をした
 #ヘンな二人組がやってきたんだよ
-Well, the other day,
-a couple of unfamiliar-looking
-weirdos showed up in my village.
+See, the other day, a couple of
+weirdos in strange getups showed up
+in my village.
 -----------------------
 #？？？？
 ????
 -----------------------
 #あんたたちの名前を出して
 #見かけなかったかって、探してたんだ
-I put your names out there
-looking for anyone who might have seen them
+They were asking around, dropping
+your names, trying to find you.
 -----------------------
 #？？？？
 ????
@@ -758,22 +757,22 @@ looking for anyone who might have seen them
 #おまけに、「ここはどこだ？」だの
 #「エルレインに飛ばされた」だの
 #ワケのわかんないことばっかり言っててさ
-On top of that, he's all 'Where am I?' and stuff.
-'I got sent to Elraine' and whatever else.
-He's just spouting off nonsense left and right.
+And on top of that, they were spouting
+nonsense like 'Where are we?' and
+'Elrane sent us here.' Total weirdos.
 -----------------------
 <Reala>
 -----------------------
 #それって････
 #<Loni>と<Judas>だわ！
 That's...
-It's <Loni> and <Judas>!
+It's gotta be <Loni> and <Judas>!
 -----------------------
 <Kyle>
 -----------------------
 #ね、ねぇ！
 #ふたりは今、どこにいるの!?
-Hey, hey!
+H-Hey!
 Where are those two right now!?
 -----------------------
 #？？？？
@@ -782,9 +781,9 @@ Where are those two right now!?
 #あたしの村にいるよ
 #いっしょに来れば会えるけど
 #来るかい？
-I'm back in my village.
-You can meet me if you come along.
-So, are you coming?
+They're back in my village.
+You can meet 'em if you come with me.
+So, you coming?
 -----------------------
 <Kyle>
 -----------------------
@@ -797,44 +796,44 @@ Of course!
 #じゃ、決まりだ！
 #そうとなったら、とっとと動こうか
 #こんな辛気くさい街、早く出たいしね
-Alright, it's settled!
-In that case, let's get moving right away.
-I want to get out of this gloomy town as soon as possible.
+Then it's settled!
+Let's get a move on, then.
+I wanna get out of this gloomy town ASAP.
 -----------------------
 <Nanaly>
 -----------------------
 #････っと、自己紹介がまだだったね
 #あたしは<Nanaly>
 #ホープタウンの<Nanaly>さ　よろしく
-...I haven't introduced myself yet.
-I'm .<Nanaly>
-From Hope Town's <Nanaly>. Nice to meet you.
+...Oh right, I haven't introduced myself.
+I'm <Nanaly>.
+<Nanaly> from Hope Town. Nice to meet ya.
 -----------------------
 <Kyle>
 -----------------------
 #ホープタウン？
 #それって、村の名前？
 Hope Town?
-Is that the name of the village?
+That's the name of the village?
 -----------------------
 <Nanaly>
 -----------------------
 #そ、こっから船に乗って
 #チェリクを越えた先にある村さ
-From here, we board the ship.
-It's the village beyond Cheric.
+Yep. You take a boat from here
+past Cherik, and it's right there.
 -----------------------
 <Nanaly>
 -----------------------
 #ちょっとした旅になっちまうけど
 #ま、道中よろしくね
-It'll turn into quite the journey,
-Well, take care on your travels.
+It's gonna be a bit of a trip,
+but take care of me on the way, yeah?
 -----------------------
 <Kyle>
 -----------------------
 #こっちこそ、よろしく、<Nanaly>！
-I'm looking forward to working with you too, <Nanaly>!
+Likewise, <Nanaly>!
 -----------------------
 notice
 -----------------------
@@ -842,40 +841,40 @@ notice
 <Nanaly> has joined your party.
 -----------------------
 #エルレイン
-Elle
+Elrane
 -----------------------
 <Reala>
 #見るがいい
 #このレンズを････
 Behold.
-This lens is...
+This Lens...
 -----------------------
 #エルレイン
-Elle
+Elrane
 -----------------------
 #このレンズの数こそが
 #人々の幸せを願う想いの現れ
 #そして、私の、人々を救いたいという愛の証
-The very number of these lenses
-is a manifestation of the wish for people's happiness
-and proof of my love to save them all
+The very number of these Lenses
+is a manifestation of the people's wish for happiness,
+and proof of my love...my desire to save them all.
 -----------------------
 #エルレイン
-Ereine
+Elrane
 -----------------------
 #私の救いこそが
 #人々を幸せにする
 #だから彼らは、私を選んだ
-My salvation is precisely what
-brings happiness to people.
-That's why they chose me.
+My salvation is what
+brings happiness to the people.
+That is why they chose me.
 -----------------------
 <Reala>
 -----------------------
 #あなたの作ろうとしている世界は
 #確かに、苦痛や悩みがないわ
-The world you're trying to create is
-Indeed, it lacks pain and worry.
+The world you're trying to create...
+Certainly, it knows no pain or sorrow.
 -----------------------
 <Reala>
 -----------------------
@@ -883,22 +882,22 @@ Indeed, it lacks pain and worry.
 #本当の楽しみや喜びまで失っている
 #そんな世界、人々が求めるはずがない！
 But along with that,
-they're losing their true joys and happiness as well.
-That's not what people are looking for in such a world!
+they lose their true joys and happiness as well.
+That's not the kind of world people want!
 -----------------------
 #エルレイン
-Elle
+Elrane
 -----------------------
 #なら、どうして、おまえはそこにいる？
-If that's so, then why are you there?
+Then why are you there?
 -----------------------
 #エルレイン
-Elle
+Elrane
 -----------------------
 #なんの力も持たず、英雄もいず
 #ただひとりで閉じこめられている？
-No power at all, no heroes in sight.
-Just locked away all alone?
+Devoid of power, with no heroes to be found.
+Locked away all alone?
 -----------------------
 <Reala>
 -----------------------
@@ -908,70 +907,70 @@ Just locked away all alone?
 Th-that's...
 -----------------------
 #エルレイン
-Elle
+Elrane
 -----------------------
 #人々は、苦しみや悩みを恐れる
 #でも、彼らだけでは
 #それをなくすことはできない
-People fear suffering and worry.
+People fear suffering and sorrow.
 But on their own,
 they cannot eliminate it.
 -----------------------
 #エルレイン
-Elle
+Elrane
 -----------------------
 #だからこそ、私たちが必要なのだ
 #神と、その、み使いたる聖女が････
 That is precisely why we are needed.
-The God, and His... holy maiden as messenger...
+God, and His holy maiden as messenger...
 -----------------------
 #エルレイン
-Ereine
+Elrane
 -----------------------
 #フォルトゥナが完全な形で降臨すれば
 #その瞬間、私たちの役目も終わる
-If Fortuna descends in her complete form,
-our duty will end at that very moment.
+Should Fortuna descend in her complete form,
+our duty shall end at that very moment.
 -----------------------
 #エルレイン
-Elle
+Elrane
 -----------------------
 #でも、悲しむことは、なにもない
 #そのときこそ、すべての人々が
 #神の愛に満たされる瞬間なのだから
-But there is no reason to grieve.
-For it is at that very moment,
-that all people are filled with God's love.
+But there is no cause for grief.
+For that is the very moment
+when all people shall be filled with divine love.
 -----------------------
 #エルレイン
-Elle
+Elrane
 -----------------------
 #神の愛に満たされた世界････
 #苦痛や悩みなどとは、無縁の完全なる世界
 #これこそが、救いのあるべき姿････
 A world filled with divine love...
 A perfect realm untouched by pain or sorrow.
-This is how salvation ought to be...
+This is the true form salvation should take...
 -----------------------
 #エルレイン
-Elle
+Elrane
 -----------------------
 #････おかしな話だ
 #神の、み使いであるおまえが
 #だれかにすがるとは
-Strange, isn't it?
-You, who are God's messenger,
-relying on someone else.
+...How strange.
+You, God's own messenger,
+clinging to another for support.
 -----------------------
 #エルレイン
-Elle
+Elrane
 -----------------------
 #おまえが求めているのは
 #共に歩み、助けてくれる英雄か？
 #それとも････
-What you're looking for is
-a hero who will walk beside you and lend you their aid?
-or perhaps...
+Is it a hero you seek?
+One who would walk beside you and lend you aid?
+Or perhaps...
 -----------------------
 <Reala>
 -----------------------
@@ -979,58 +978,58 @@ or perhaps...
 ......
 -----------------------
 #エルレイン
-Elle
+Elrane
 -----------------------
 #わからない････
 #その先には悲劇しか待っていないというのに
 #それでもなお、求めるというのか？
-I don't understand...
-Even though tragedy awaits beyond that point,
-Do you still seek it?
+I do not understand...
+Even though nothing but tragedy awaits beyond that path,
+do you still seek it?
 -----------------------
 <Reala>
 -----------------------
 #････<Kyle>は来ないわ
 #そうよ、来るはずなんてない
 ......<Kyle> isn't coming.
-That's right, there's no way they're showing up.
+That's right. There's no reason they would.
 -----------------------
 <Reala>
 -----------------------
 #だって、わたしはあのとき････！
-Because back then...!
+Because back then, I...!
 -----------------------
 #エルレイン
-Elle
+Elrane
 -----------------------
 #案ずるな、<Reala>
 #おまえの果たせなかった願いは
 #神が、果たしてくれる
-Fear not, .<Reala>
+Fear not, <Reala>
 The wishes you could not fulfill,
 God will grant them.
 -----------------------
 #エルレイン
-Elle
+Elrane
 -----------------------
 #おまえの苦しみもまた
 #すべて、消えさる････
-Your suffering as well
-is all about to vanish...
+Your suffering, too,
+shall all fade away...
 -----------------------
 #エルレイン
-Elle
+Elrane
 -----------------------
 #時は満ちれり！
 The time has come!
 -----------------------
 #エルレイン
-Elle
+Elrane
 -----------------------
 #大いなる神の御魂を、ここに！
 #そして、人々に永遠の幸福を！
-The soul of the great god, here!
-And eternal happiness to all people!
+Let the great god's soul descend here!
+And grant eternal happiness to all people!
 -----------------------
 <Kyle>
 -----------------------
@@ -1043,24 +1042,24 @@ And eternal happiness to all people!
 <Kyle>...!?
 -----------------------
 #エルレイン
-Elle
+Elrane
 -----------------------
 #････彼もまた、おまえと同じように
 #悲劇を求めるというわけか
 #なんと、おろかしい････
-...Just like you,
-You seek tragedy?
-How absurd...
+...He, too, seeks tragedy
+just as you do?
+How foolish...
 -----------------------
 #エルレイン
-Elle
+Elrane
 -----------------------
 #あきらめろ
 #おまえたちの努力は
 #ムダに終わる
 Give up.
-All your efforts,
-will end in vain.
+All your efforts
+shall end in vain.
 -----------------------
 <Kyle>
 -----------------------
@@ -1068,28 +1067,28 @@ will end in vain.
 Let go of <Reala>!
 -----------------------
 #エルレイン
-Elle
+Elrane
 -----------------------
 #････すべての人々の、幸福を無視しても
 #あくまで、逆らうというのか
-...Even if you ignore everyone's happiness?
-So you're determined to defy us?
+...Even if it means ignoring the happiness of all people?
+You would still defy us to the end?
 -----------------------
 #エルレイン
-Elle
+Elrane
 -----------------------
 #ならば････容赦はしない！
-If that's so... I won't hold back!
+Then... I shall show no mercy!
 -----------------------
 #エルレイン
-Elle
+Elrane
 -----------------------
 #おろかな････
 #････その先に････待つのは････
 #････悲しみだけ････なのに････
 Foolish...
-...what awaits beyond...
-...is nothing but sorrow... yet...
+...beyond this path... what awaits...
+...is naught but sorrow... and yet...
 -----------------------
 <Reala>
 -----------------------
@@ -1097,29 +1096,29 @@ Foolish...
 ......
 -----------------------
 #エルレイン
-Elle
+Elrane
 -----------------------
 #････まあ、いい････
 #すでに････次の手････は････
 #････うって････ある････
-Hmm... never mind.
-I've already... taken my next step...
-...I have... struck...
+...Very well...
+My next move... is already...
+...in place...
 -----------------------
 #エルレイン
-Elle
+Elrane
 -----------------------
 #今度････こそ････
 #････完全な････る････
 #せか････い････を････････
-This time... surely...
-...completely... ru...
-hurry... up... to...
+This time... for certain...
+...a perfect... wor...
+...the... world... shall...
 -----------------------
 <Judas>
 -----------------------
 #退いたか････
-You've moved back...
+She's retreated...
 -----------------------
 <Kyle>
 -----------------------
@@ -1131,8 +1130,8 @@ You've moved back...
 #よかった　間にあって
 #<Reala>にもしものことがあったら
 #オレ････
-I'm glad I made it in time.
-If anything happens to <Reala>,
+Thank goodness. I made it in time.
+If anything had happened to <Reala>,
 I...
 -----------------------
 <Reala>
@@ -1150,29 +1149,29 @@ Huh?
 #もう来てくれないって思ってた
 #あんなひどいこと言ったんだもの
 #嫌われて当然だって思ってた
-I thought you weren't coming back.
-That's why I said such mean things.
-I figured you'd hate me for it.
+I thought you wouldn't come back.
+I said such terrible things to you.
+I thought it was only natural you'd hate me.
 -----------------------
 <Reala>
 -----------------------
 #それなのに････
 #どうして　<Kyle>!?
 And yet...
-Why, <Kyle>!?
+why, <Kyle>!?
 -----------------------
 <Reala>
 -----------------------
 #あなたはどうして
 #わたしのことを････!?
-Why are you...
-About me...!?
+Why would you...
+do this for me...!?
 -----------------------
 <Kyle>
 -----------------------
 #言ったろ、<Reala>に初めて会ったとき
 #君が探してる英雄は、このオレなんだって
-I told you, the first time I met <Reala>...
+I told you, back when I first met <Reala>...
 The hero you're looking for is me.
 -----------------------
 <Kyle>
@@ -1180,9 +1179,9 @@ The hero you're looking for is me.
 #英雄は困ってる女の子を
 #助けるもんだからね
 #どんなことがあろうと、必ず
-Heroes are supposed to help girls in trouble,
+A hero's supposed to help a girl in trouble,
 no matter what happens.
-No matter what,
+No matter what.
 -----------------------
 <Reala>
 -----------------------
@@ -1194,8 +1193,8 @@ No matter what,
 #あ　あれ････？
 #ちがうの、<Kyle>！
 #わたし、悲しくなんてない！
-Huh? What's that...?
-It's wrong, <Kyle>!
+H-huh...?
+That's not it, <Kyle>!
 I'm not sad at all!
 -----------------------
 <Reala>
@@ -1208,7 +1207,7 @@ I'm not sad... not at all...
 #行こう、<Reala>！
 #エルレインを追いかけるんだ！
 Let's go, <Reala>!
-We're chasing Elrein!
+We've got to chase down Elrane!
 -----------------------
 <Reala>
 -----------------------
@@ -1219,24 +1218,25 @@ notice
 -----------------------
 #<Kyle>は
 #称号「<item:00000887>」を得ました
-<Kyle> is...
-You've earned the title "<item:00000887>".
+<Kyle> earned
+the title "<item:00000887>"!
 -----------------------
 #司祭
 Priest
 -----------------------
 #アイグレッテに争いごとを持ちこむのは
 #いつも外部の人間なのです
-Whenever there's trouble at Igretta,
-it's always an outsider who causes it.
+It's always outsiders
+who bring conflict to Aigrette.
 -----------------------
 #司祭
 Priest
 -----------------------
 #世界中がアイグレッテのようになれば
 #争いごとなど消えると思うのですが････
-If the whole world were like Aigrette,
-I think all conflicts would disappear...
+If only the whole world
+could be like Aigrette...
+Then conflict would disappear.
 -----------------------
 #Ｇ－１１３
 G-113
@@ -1246,13 +1246,13 @@ G-113
 #産後の肥立ちも心配ない
 No pain in childbirth,
 no hardship raising children,
-and no worries about postpartum recovery.
+no worries about postpartum recovery.
 -----------------------
 #Ｇ－１１３
 G-113
 -----------------------
 #ああ、これって幸せなのよね、きっと
-Yeah, I'm sure this is happiness.
+Yes... this must be happiness.
 -----------------------
 #Ｇ－１１３
 G-113
@@ -1260,22 +1260,22 @@ G-113
 #産みのくるしみもない
 #子育ての苦労もない
 #産後の肥立ちも心配ない
-No pain during childbirth
-No struggles raising children
-And no worries about postpartum recovery either
+No pain in childbirth,
+no hardship raising children,
+no worries about postpartum recovery.
 -----------------------
 #Ｇ－１１３
 G-113
 -----------------------
 #ああ････！
 #これって幸せなのよね、きっと
-Oh...
+Yes...!
 This must be happiness.
 -----------------------
 <Nanaly>
 -----------------------
 #本当にそう思うのかい、あんた？
-Do you really mean that?
+Do you really believe that?
 -----------------------
 #Ｇ－１１３
 G-113
@@ -1283,9 +1283,9 @@ G-113
 #まだ子どもが帰ってくるまで
 #三年間もあるんだから
 #ゆっくりできるわね
-I'm still waiting for the kids to get back.
-It's been three whole years.
-We can take our time.
+My child won't be back
+for another three years.
+We can take it easy.
 -----------------------
 #Ｅ－１０２
 E-102
@@ -1293,8 +1293,8 @@ E-102
 #今日からパパ････かぁ
 #でも、いまいち実感がわかないのは
 #どうしてなんだろう････？
-So I'm Dad starting today... huh?
-But why is it that I still don't quite feel like it?
+So I'm a dad starting today...
+But why can't I really feel it?
 I wonder why...
 -----------------------
 #Ｅ－１０２
@@ -1303,24 +1303,24 @@ E-102
 #今日からパパ････かぁ
 #でも、いまいち実感がわかないのは
 #どうしてなんだろう････？
-So I'm Dad starting today... huh?
-But the reason I still don't quite feel it is...
-I wonder why...?
+So I'm a dad starting today...
+But why can't I really feel it?
+I wonder why...
 -----------------------
 <Nanaly>
 -----------------------
 #あたしに言わせりゃ
 #その理由はハッキリしてるけどねぇ
-In my opinion,
-the reason is pretty clear-cut.
+If you ask me,
+that reason's pretty obvious.
 -----------------------
 #Ｅ－１０２
 E-102
 -----------------------
 #正直、子どもが生まれたってのに
 #親になったって感覚がないんだよな
-Honestly, even though I've got a kid...
-I still don't feel like a parent.
+Honestly, even though my kid's been born...
+I don't feel like a parent at all.
 -----------------------
 #Ｅ－１０２
 E-102
@@ -1328,47 +1328,47 @@ E-102
 #今は、まだわからないけど
 #三年間たって子どもが帰ってきたら
 #パパになったって思えるのかなあ
-I don't know yet.
-Three years have passed, and my child has come back.
-Do you think I can feel like a father?
+I don't know yet, but...
+Once three years pass and my child comes back,
+maybe then I'll feel like a father.
 -----------------------
 #男性
-Guy
+Man
 -----------------------
 #ん、三年間も子どもと暮らせなくて
 #さびしくないのかって？
-I mean, I haven't been able to live with kids for three whole years.
-You're asking if I'm lonely?
+Hmm? You're asking if I'm lonely,
+being apart from my child for three years?
 -----------------------
 #男性
-Guy
+Man
 -----------------------
 #なに言ってんだ、自分で育てるより
 #その方がよっぽど楽じゃないか
 #親としてはよろこばしいかぎりだね
-What are you talking about? Raising them yourself is way harder.
-Isn't that much easier?
-As a parent, I couldn't be happier.
+What're you talking about?
+It's way easier than raising them yourself.
+What parent wouldn't be thrilled?
 -----------------------
 #男性
-Guy
+Man
 -----------------------
 #子育てで一番手間のかかる時期を
 #神団の人たちが見てくれて
 #しかも、しつけされてもどってくるんだ
-The most demanding period in raising children is...
-...while the members of the God Clan were watching over us,
-And on top of that, they even came back after being disciplined.
+The Order handles the toughest part
+of raising the kids for us.
+And they come back already disciplined.
 -----------------------
 #男性
-Guy
+Man
 -----------------------
 #親たちは
 #そのしつけされた子供たちを
 #育てるだけでいいのさ
-The parents
-of those well-raised children
-just need to raise them.
+All us parents have to do
+is raise kids
+who've already been properly trained.
 -----------------------
 #司祭
 Priest
@@ -1376,9 +1376,9 @@ Priest
 #ヒューゴの乱の時代、ここより奥の部屋に
 #『神の眼』という名前の巨大レンズが
 #安置されていたそうです
-Hugo's Rebellion era, in the room deeper inside here
-a giant lens named 'Eye of God'
-is said to have been enshrined.
+During the era of Hugo's Rebellion,
+a giant Lens called the 'Eye of God'
+was said to be enshrined in a room deeper within.
 -----------------------
 #司祭
 Priest
@@ -1386,56 +1386,55 @@ Priest
 #今ではもう何もありませんが
 #いまわしい記憶と共に、この場所は封印されて
 #いるのです
-There's nothing left here anymore.
-Sealed away along with those dreadful memories,
-is where it lies.
+Nothing remains here now.
+This place has been sealed away,
+along with those dreadful memories.
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #思い出すねぇ
 #そういえば、あたしもここで
 #出産したんだっけ
-I remember that.
-Now that I think about it, I was here too...
-to give birth.
+Brings back memories.
+Come to think of it, I gave birth here too.
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #ウチの子は「Ｊ－１６４････」
 #いや、たしか１５２････
 #あらら、１７０だったかしら？
-My kid's number is 'J-164'...
-No, I'm pretty sure it was 152...
-Oh my, wasn't it 170?
+My kid was 'J-164'...
+No, wait, I think it was 152...
+Oh dear, or was it 170?
 -----------------------
 <Reala>
 -----------------------
 #････････
 #････････････････
 ......
-..........
+............
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #あたしの母親は
 #あたしを産んだとき
 #難産だったって言ってたよ
-My mother used to say
-that she had a difficult time
-giving birth to me.
+My mother used to tell me
+she had a difficult delivery
+when she gave birth to me.
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #子を産むだけで
 #そんなに苦労するなんて
 #今じゃ考えられないわよねぇ
 Just giving birth to a child...
-Is really that much of a struggle.
-I can't even imagine it these days.
+and going through so much hardship for it?
+I can't even imagine that these days.
 -----------------------
 #おばさん
 Woman
@@ -1443,9 +1442,9 @@ Woman
 #昔は出産のときには
 #激しい痛みに耐えていたそうだけど
 #いま考えるとバカバカしい話だね
-Back in the day, during childbirth,
-they used to endure intense pain,
-but thinking about it now, it seems ridiculous.
+They say in the old days, women endured
+terrible pain during childbirth.
+Thinking about it now, it sounds absurd.
 -----------------------
 #おばさん
 Woman
@@ -1453,9 +1452,8 @@ Woman
 #人がひとり産まれるだけのことで
 #そんな思いをしなきゃいけないなんて
 #割に合わないよ、まったく
-Just because one person is born,
-we have to go through all that trouble?
-It's hardly worth it.
+All that suffering, just to bring one person into the world?
+Hardly seems worth the trouble, if you ask me.
 -----------------------
 #おばさん
 Woman
@@ -1463,9 +1461,9 @@ Woman
 #あたしの息子なんか
 #今まで一度も、あたしのいうことに
 #さからったことがないんだよ
-I'm my son...
-Not once until now have I ever
-defied what you said.
+My son's never once
+talked back to me,
+not even once.
 -----------------------
 #おばさん
 Woman
@@ -1473,39 +1471,39 @@ Woman
 #いかに神団の教育が
 #しっかりしてるか
 #よぉくわかるだろ？
-Just how thorough God's education is,
-you can see that clearly enough,
-right?
+Shows you just how solid
+the Order's education is,
+wouldn't you say?
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #おめでとう「Ｇ－１１３」
 #とても優秀そうな子だったから
 #三年後がたのしみね
 Congratulations, G-113.
 She seemed like a very talented girl.
-I'm looking forward to three years from now.
+Looking forward to three years from now.
 -----------------------
 #男性
-Guy
+Man
 -----------------------
 #三年後までに
 #優秀なアイグレッテ市民を育てられる
 #親になっておくんだな～
-By the end of three years
-We can nurture excellent citizens of Igretta
-You'd better become parents~
+You'd better be parents who can raise
+an excellent citizen of Aigrette
+by the time those three years are up.
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #へぇ～
 #わたしも、ああやって
 #生まれてきたのね
-Oh?
-I also ended up like that...
-So I was born.
+Huh...
+So that's how
+I was born too.
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -1522,8 +1520,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -1546,7 +1544,7 @@ exit-party_togather( short spd )
 notice
 -----------------------
 #{16}{28}{F2}{09}{C0}を手に入れました
-{16}{28}{F2}{09}{C0}You obtained .
+Acquired {16}{28}{F2}{09}{C0}.
 -----------------------
 notice
 -----------------------
@@ -1557,8 +1555,8 @@ notice
 -----------------------
 #{16}{28}{FA}{09}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{28}{FA}{09}{C0}There was , but
-I couldn't hold it because it was full.
+Found {16}{28}{FA}{09}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------

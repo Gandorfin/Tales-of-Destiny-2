@@ -1,79 +1,77 @@
 #蒼天都市ヴァンジェロ
-The Azure City of Vangelor
+The Azure City of Vangelo
 -----------------------
 #蒼天都市ヴァンジェロ
-The Azure City of Vangelor
+The Azure City of Vangelo
 -----------------------
 #蒼天都市ヴァンジェロ
-The Azure City of Vangelor
+The Azure City of Vangelo
 -----------------------
 #光り物好きなメイド
-Maid who likes shiny things
+Shiny-Things Maid
 -----------------------
 #レンズ<0B:00000001><num:00000005><0B:00000000>枚で
 #紅蓮都市スペランツァへの
 #行き方を知りたくない？
-Lens <0B:00000001><num:00000005><0B:00000000> piece
-To the Crimson City of Speranza
-Don't you want to know how to get there?
+For <0B:00000001><num:00000005><0B:00000000> Lens,
+don't you want to know how to reach
+the Crimson City of Speranza?
 -----------------------
 select
 -----------------------
 #　聞きたい　
 #　自力でいきます　
-I have a question.
-I'll go on my own.
+Tell me.
+I'll find my own way.
 -----------------------
 #光り物好きなメイド
-Maid who likes shiny things
+Shiny-Things Maid
 -----------------------
 #へへ････まいど♪
-Hehe... every time! ♪
+Hehe... pleasure doin' business. ♪
 -----------------------
 #光り物好きなメイド
-Maid who likes shiny things
+Shiny-Things Maid
 -----------------------
 #スペランツァへ行くには
 #南の砂地を渡り、
 #直後に右手にまっすぐ進む
-To get to Speranza,
-cross the southern desert,
-then head straight right immediately after.
+To reach Speranza, cross the southern sands,
+then bear right immediately after.
 -----------------------
 #光り物好きなメイド
-Maid who likes shiny things
+Shiny-Things Maid
 -----------------------
 #あさ瀬を渡り
 #砂漠を越えて
 #山を右手に見ながらまっすぐ
-Crossing the shallow stream at dawn,
-Overcoming the desert,
-Walking straight ahead with the mountains on our right
+Cross the shallows, pass through the desert,
+and keep the mountains on your right as you go straight.
 -----------------------
 #光り物好きなメイド
-Maid who likes shiny things
+Shiny-Things Maid
 -----------------------
 #その先の森をつっきれば
 #はれてスペランツァよ
-If you push through the forest ahead,
-it's clear skies in Speranza.
+Cut straight through the forest beyond,
+and you'll reach sunny Speranza.
 -----------------------
 #光り物好きなメイド
-Maid who likes shiny things
+Shiny-Things Maid
 -----------------------
 #････って、足りてないじゃない！
-...Wait, that's not enough!
+...Hey, this isn't enough!
 -----------------------
 #光り物好きなメイド
-Maid who likes shiny things
+Shiny-Things Maid
 -----------------------
 #さまよい続けても
 #しらないからネ
-Even if I keep wandering around,
-because I don't know.
+Wander all you want,
+I won't tell you a thing.
 -----------------------
 #いってらっしゃいませ
-Have a good day.
+Come again.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
@@ -87,8 +85,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -100,7 +98,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We hope to see you again.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -111,7 +109,7 @@ exit-party_togather( short spd )
 notice
 -----------------------
 #{16}{25}{FE}{C0}を手に入れました
-{16}{25}{FE}{C0}You obtained .
+Acquired {16}{25}{FE}{C0}.
 -----------------------
 notice
 -----------------------
@@ -122,12 +120,11 @@ notice
 -----------------------
 #{16}{26}{06}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{26}{06}{C0}There was , but
-I couldn't hold it because it was full.
+Found {16}{26}{06}{C0}, but inventory full already.
+Have a good night.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

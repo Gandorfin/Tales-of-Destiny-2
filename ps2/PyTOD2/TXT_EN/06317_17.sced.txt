@@ -10,48 +10,48 @@ Dunamis Orphanage
 <Kyle>
 -----------------------
 #さあ、どうしようかな？
-Well then, what am I gonna do?
+Now, what should I do?
 -----------------------
 select
 -----------------------
 #　もう寝る　
 #　まだ眠くない　
- Go to bed 
- I'm still not sleepy 
+Go to sleep
+Not sleepy yet
 -----------------------
 <Kyle>
 -----------------------
 #三百万ガルドのレンズ････か
 #そんなの持って帰ってきたら
 #みんな、ビックリするだろうなぁ
-A 3,000,000 Gald Lens...huh.
-I betcha everyone would be
-surprised if I came back with that thing.
+A 3,000,000 Gald Lens, huh...
+If I brought something like that back home,
+everyone would flip out.
 -----------------------
 <Kyle>
 -----------------------
 #母さんは、ああ言ってたけど
 #オレだって、いつか必ず
 #父さんのような英雄になってみせる
-Mom may have said those things about me,
-but I'm definitely going to prove her wrong
-someday and become a hero just like dad.
+Mom might've said all that stuff,
+but I'm gonna become a hero just like Dad
+someday, no matter what!
 -----------------------
 <Kyle>
 -----------------------
 #そのためにも
 #明日は････
-And in order to do that,
-tomorrow, I need to...
+And to do that,
+tomorrow I need to...
 -----------------------
 #<size:00000180>うわあぁぁぁっ！
-<size:00000180>Uwaaaahh!
+<size:00000180>Uwaaaahhh!
 -----------------------
 #ルーティ
 Rutee
 -----------------------
 #キャアッ！
-Wah!
+Kyaaah!
 -----------------------
 <Kyle>
 -----------------------
@@ -65,16 +65,16 @@ Rutee
 -----------------------
 #もう、ビックリしたじゃない！
 #いきなり大声だすんだもの！
-Geez, don't scare me like that!
-You let out a big scream all of a sudden!
+Geez, you scared me!
+You just screamed out of nowhere!
 -----------------------
 #ルーティ
 Rutee
 -----------------------
 #まあいいわ
 #起こす手間がはぶけたし
-Oh well, no matter. It saved me the trouble
-of having to wake you up and everything.
+Well, whatever.
+Saved me the trouble of waking you up.
 -----------------------
 #ルーティ
 Rutee
@@ -82,48 +82,48 @@ Rutee
 #しっかし、めずらしいわね
 #あんたがスカッと起きるなんて
 #今日は、雪でもふる････
-But I must say, it certainly is unusual
-for you to be wide awake first thing in
-the morning. It might even snow today...
+Still, this is rare.
+You actually waking up on your own...
+Maybe it'll snow today...
 -----------------------
 #ルーティ
 Rutee
 -----------------------
 #････はぁ
 #結局、いつもと同じか
-...*sigh*. So things turned out
-the same way in the end, huh?
+...*sigh*
+In the end, same as always, huh?
 -----------------------
 #ルーティ
 Rutee
 -----------------------
 #いくわよ････
 #秘技、死者の目覚め!!
-Here I go...Master Arte,
-Wake The Dead!!
+Here I go...
+Secret Technique: Wake the Dead!!
 -----------------------
 <Kyle>
 -----------------------
 #うわぁっ！
 #な、な、なんだぁ!?
-Aaahh!
-W, w, what the!?
+Waaah!
+Wh-wh-what the!?
 -----------------------
 #ルーティ
 Rutee
 -----------------------
 #ほらほら、起きた起きた！
 #朝ごはんが片づかないでしょ!?
-Come on now, rise and shine!
-You DO want to have some breakfast, don't you!?
+Come on, up and at 'em!
+You don't want breakfast to get cold, do you!?
 -----------------------
 #ルーティ
 Rutee
 -----------------------
 #あっと、<Loni>はもう起きてるわよ
 #あんたが起きるのを待ってる････
-You're already up, <Loni>.
-I was waiting for you to wake up...
+Oh, and <Loni>'s already up.
+He's been waiting for you to wake up...
 -----------------------
 #ルーティ
 Rutee
@@ -135,30 +135,30 @@ Rutee
 -----------------------
 #はっ、はいぃ！
 #起きてます、起きてます！
-Y, yes ma'am!
+Y-yes ma'am!
 I'm awake, I'm awake!
 -----------------------
 #ルーティ
 Rutee
 -----------------------
 #････よろしい
-...Very well then.
+...Good.
 -----------------------
 <Kyle>
 -----------------------
 #ふわあぁぁ････
 #なんだったんだろ、あの夢････
-*yawns*...
-What was the deal with that dream...
+*yawn*...
+What was that dream about...
 -----------------------
 <Kyle>
 -----------------------
 #････ふわぁ････むにゃむにゃ････
 #････とりあえず
 #<Loni>のところに行かなきゃ････
-......Phew...... Mmmph mmmph......
-......Anyway...
-I gotta head to <Loni>...
+...*yawn*... Mmmph mmmph...
+...Anyway...
+I gotta get to <Loni>...
 -----------------------
 notice
 -----------------------
@@ -171,17 +171,16 @@ notice
 -----------------------
 #････結局、ゆうべは
 #眠れなかったな
-...After all, last night
-I couldn't sleep.
+...In the end, I couldn't
+get to sleep last night.
 -----------------------
 <Kyle>
 -----------------------
 #とにかく、もう一度
 #母さんに話すんだ
 #旅に出るって！
-Anyway, again.
-I'm going to tell Mom.
-We're going on a trip!
+Anyway, I've gotta tell Mom again.
+That I'm going on a journey!
 -----------------------
 <Loni>
 -----------------------
@@ -195,57 +194,57 @@ Hey <Kyle>, wake up!
 #むにゃ････
 #････おはよ、<Loni>････
 Munyaa...
-Good morning, <Loni>...
+...Morning, <Loni>...
 -----------------------
 <Loni>
 -----------------------
 #寝ぼけてる場合じゃねえぞ！
 #ついに、出やがったんだ！
 #「神のたまご」が！
-You don't have time to be half-asleep!
-It's finally here!
-The 'Egg of God'!?
+This ain't the time to be half-asleep!
+It's finally shown up!
+The 'Egg of God'!
 -----------------------
 <Kyle>
 -----------------------
 #････出る････？
 #たまご････？
-...out...?
-Eggs...?
+...Shown up...?
+Egg...?
 -----------------------
 <Kyle>
 -----------------------
 #「神のたまご」が････!?
-God's Egg is now available at...?!
+The 'Egg of God' has...!?
 -----------------------
 <Loni>
 -----------------------
 #いいから、早く来い！
 #みんな待ってんぞ！
-Just come on, come on!
-They're waiting for you!
+Just hurry up and come!
+Everyone's waiting!
 -----------------------
 select
 -----------------------
 #　休む　
 #　休まない　
- Rest 
- Don't rest 
+Rest
+Don't rest
 -----------------------
 <Kyle>
 -----------------------
 #オレもたまには
 #勉強しなくちゃな････
-I have to study once
-in a while too. 
+Guess I should study
+once in a while too...
 -----------------------
 #棚には<Kyle>のオモチャしか
 #入っていない････
-There's nothing on the shelf but <Kyle>'s toys...
-...just that.
+The shelf only has <Kyle>'s toys
+on it...
 -----------------------
 #窓の外には牧歌的な風景が広がっている
-Idyllic scenery outside the window.
+Idyllic scenery stretches out beyond the window.
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -262,8 +261,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -297,8 +296,8 @@ notice
 -----------------------
 #{16}{25}{EA}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{25}{EA}{C0}There was , but
-I couldn't carry it because it was full.
+{16}{25}{EA}{C0} was there, but
+your inventory is full.
 -----------------------
 notice
 -----------------------

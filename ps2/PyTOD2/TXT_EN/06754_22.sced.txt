@@ -14,60 +14,60 @@ Katz Village
 Katz Village
 -----------------------
 #ねこにん
-Neko-nin
+Katz
 -----------------------
 #はげるニャ！
-I'm going bald, nya!
+I'm gonna go bald, nya!
 -----------------------
 #ねこにん
-Nekonin
+Katz
 -----------------------
 #はげるニャ！
-I'm going bald, nya!
+I'm gonna go bald, nya!
 -----------------------
 #ねこにん
-Neko-nin
+Katz
 -----------------------
 #はげるニャ！
-I'm going bald, nya!
+I'm gonna go bald, nya!
 -----------------------
 #つめとぎ禁止
-No sharpening allowed.
+No claw sharpening allowed.
 -----------------------
 #つめとぎ禁止
-No sharpening allowed.
+No claw sharpening allowed.
 -----------------------
 #ねこだるまだ
-Cat drum
+It's a cat daruma.
 -----------------------
 #のこ栽培中
-Cultivation in progress
+Catnip under cultivation.
 -----------------------
 #ねこにん
-Neko-nin
+Katz
 -----------------------
 #こういう「すとらくちゃ」のあるトコロが
 #ポイントニャ
-That's what makes these "structures" so great.
-It's the real point, ya know.
+These "strucktures" are
+what make this place great, nya.
 -----------------------
 #ねこにん
-Neko-nin
+Katz
 -----------------------
 #かからないニャ～････
-It won't work~...
+It won't hit, nya~...
 -----------------------
 NOTICE
 -----------------------
 #おさいせんをいれますか？
-Do you want to insert a coin?
+Will you make an offering?
 -----------------------
 SELECT
 -----------------------
 #<03:00000000>　いれます　
 #　いれません　
-<03:00000000>I'll take it.
-I won't take it.
+<03:00000000> Yes
+No
 -----------------------
 NOTICE
 -----------------------
@@ -79,14 +79,14 @@ General Store
 -----------------------
 #いらっしゃいニャ！
 #なんか買っていってほしいニャ！
-Welcome!
-I hope you'll buy something!
+Welcome, nya!
+Buy somethin', would ya?
 -----------------------
 #どうもありがとうニャ！
-Thanks a lot, meow!
+Thanks a bunch, nya!
 -----------------------
 #残念ニャ････
-Pity...
+Too bad, nya...
 -----------------------
 #雑貨屋
 General Store
@@ -95,44 +95,44 @@ General Store
 General Store
 -----------------------
 #お客さんなんて久しぶりニャ！
-We haven't had any customers in a while, nya!
+We haven't had a customer in forever, nya!
 -----------------------
 #食材屋
-Grocery Store
+Grocery
 -----------------------
 #いらっしゃいニャ！
 #なんか買っていってほしいニャ！
-Welcome!
-I hope you'll buy something!
+Welcome, nya!
+Buy somethin', would ya?
 -----------------------
 #どうもありがとうニャ！
-Thanks a lot, meow!
+Thanks a bunch, nya!
 -----------------------
 #残念ニャ････
-Pity...
+Too bad, nya...
 -----------------------
 #食材屋
-Grocery Store
+Grocery
 -----------------------
 #食材屋
-Grocery Store
+Grocery
 -----------------------
 #いらっしゃいニャ！
-Welcome, nyaa!
+Welcome, nya!
 -----------------------
 #武器屋
 Weapon Shop
 -----------------------
 #いらっしゃいニャ！
 #なんか買っていってほしいニャ！
-Welcome!
-I'd love it if you bought something!
+Welcome, nya!
+Buy somethin', would ya?
 -----------------------
 #どうもありがとうニャ！
-Thanks a lot, meow!
+Thanks a bunch, nya!
 -----------------------
 #残念ニャ････
-Pity...
+Too bad, nya...
 -----------------------
 #雑貨屋
 General Store
@@ -142,37 +142,37 @@ Armor Shop
 -----------------------
 #いらっしゃいニャ！
 #なんか買っていってほしいニャ！
-Welcome!
-I'd love it if you bought something!
+Welcome, nya!
+Buy somethin', would ya?
 -----------------------
 #どうもありがとうニャ！
-Thanks a lot, meow!
+Thanks a bunch, nya!
 -----------------------
 #残念ニャ････
-Pity...
+Too bad, nya...
 -----------------------
 #食材屋
-Grocery Store
+Grocery
 -----------------------
 #ねこにん
-Neko-nin
+Katz
 -----------------------
 #ニャッ！　ニャッ！
 #ニャッ！　ニャッ！
-Nya!
-Nya!
+Meow! Meow!
+Meow! Meow!
 -----------------------
 #ねこにん
-Neko-nin
+Katz
 -----------------------
 #ここは「ねこにんのむら」ニャ
-This is 'Neko-nin's Village', nya.
+This is Katz Village, meow.
 -----------------------
 #ねこにん
-Neko-nin
+Katz
 -----------------------
 #温泉であったかなのニャ
-I wonder if it was a hot spring.
+The hot spring sure is warm, meow.
 -----------------------
 <Kyle>
 -----------------------
@@ -180,86 +180,86 @@ I wonder if it was a hot spring.
 There's a hot spring but no bath...?
 -----------------------
 #ねこにん
-Neko-nin
+Katz
 -----------------------
 #お風呂はぬれるから嫌いなのニャ
-I hate baths because they make me wet.
+I hate baths 'cause they get me wet, meow.
 -----------------------
 #ねこにん
-Neko-nin
+Katz
 -----------------------
 #肉球がペタペタするニャ
-My paws are all sticky.
+My paw pads get all squishy, meow.
 -----------------------
 <Kyle>
 -----------------------
 #ねこにんって････被ってるの？
-What's with Neko-nin... Are they copying each other?
+Hey, are Katz... wearing costumes?
 -----------------------
 #ねこにん
-Neko-nin
+Katz
 -----------------------
 #ニャニャ～！やめるニャ～～！
-Nyanyan~! Stop it, nyaa~~!
+Nyanya~! Stop that, nyaa~~!
 -----------------------
 <Kyle>
 -----------------------
 #あ、チャックが････
-Oh, the zipper's stuck...
+Oh, the zipper's...
 -----------------------
 #ねこにん
-Neko-nin
+Katz
 -----------------------
 #肉球が自慢なのニャ
-My paw pads are my pride.
+My paw pads are my pride, meow.
 -----------------------
 #ねこにん
-Neko-nin
+Katz
 -----------------------
 #ねこにんスーツであったかなのニャ
-It was a cat ninja suit, wasn't it?
+The Katz suit keeps me warm, meow.
 -----------------------
 #きのこや
-mushrooms
+Mushroom shop
 -----------------------
 #のこのきのこ
 #食べるニャ？
-Knock knock, who's there?
-Do you want to eat it?
+Knock-knock mushrooms.
+Want a bite, meow?
 -----------------------
 SELECT
 -----------------------
 #<03:00000000>　食べるニャ　
 #　食べないニャ　
-<03:00000000>I'll eat it, meow.
+<03:00000000> I'll eat it, meow.
 I won't eat it, meow.
 -----------------------
 #きのこや
-Mushrooms.
+Mushroom shop
 -----------------------
 #残念ニャ････
-Pity...
+Too bad, meow...
 -----------------------
 #きのこや
-Mushrooms.
+Mushroom shop
 -----------------------
 #ちょっとまってるニャ
-Hold on a sec.
+Just a moment, meow.
 -----------------------
 #きのこや
-Mushrooms.
+Mushroom shop
 -----------------------
 #のこの耳がまた生えてからくるニャ
-My ears are gonna grow back again, nya.
+Come back once my ears grow back, meow.
 -----------------------
 #きのこや
-Mushrooms.
+Mushroom shop
 -----------------------
 #のこのきのこはとってもおいしいのニャ
-The mushrooms are super yummy, meow.
+Knock-knock mushrooms are super tasty, meow.
 -----------------------
 #チャイム
-Bell chime
+Chime
 -----------------------
 #お名前ないなんて、へんなのニャ～
 You don't have a name? That's weird, meow~
@@ -269,52 +269,52 @@ Chime
 -----------------------
 #カッコイイ名前ニャ～
 #うらやましいニャ
-A cool name, meow~
-How envious, meow.
+What a cool name, meow~
+I'm so jealous, meow.
 -----------------------
 #チャイム
-Bell chime
+Chime
 -----------------------
 #「チャイム」も
 #カッコイイ名前なのニャ！
-The "Chime" is also
-a really cool name, nya!
+"Chime" is
+a really cool name too, meow!
 -----------------------
 #シロフォン
-Sylphphone
+Sylph
 -----------------------
 #おうちがないなんて、へんなのニャ～
-It's weird to not have a home, nya~
+You don't have a home? That's weird, meow~
 -----------------------
 #シロフォン
-Sylphphone
+Sylph
 -----------------------
 #「<item:00000C02>」は
 #おじじの家に住むことになったニャ
-<item:00000C02> is
-I ended up living at Grandpa's house, nya.
+<item:00000C02> ended up
+living at Grandpa's house, meow.
 -----------------------
 #チャイム
-Bell chime
+Chime
 -----------------------
 #どこから来たニャ～？
-Where did you come from?
+Where did you come from, meow~?
 -----------------------
 #シロフォン
-Sylphphone
+Sylph
 -----------------------
 #何ていう名前ニャ？
-What's your name?
+What's your name, meow?
 -----------------------
 #わかんないミュ････
-I don't know, Myu...
+I don't know, myu...
 -----------------------
 <Judas>
 -----------------------
 #なるほど････
 #コイツはここの住人では無いようだな
 I see...
-This guy doesn't seem to be a resident around here.
+This one doesn't seem to be a local.
 -----------------------
 <Kyle>
 -----------------------
@@ -329,118 +329,118 @@ The dialect is different.
 #色んなところを旅してきたけど
 #なぜか雪のふるトコロが好きなわち
 #ここに住んで名前よんでもらいたいミュ～
-I've traveled to all sorts of places,
-But for some reason, I just love snowy towns.
-I want to live here and have you give me a name~
+I've traveled all over,
+but for some reason I love snowy towns.
+I want to live here and have you give me a name, myu~
 -----------------------
 #････おねがいミュ
 #わちに名前をつけて欲しいのミュ
-...Please, Mu.
-I want you to give me a name, Mu.
+...Please, myu.
+I want you to give me a name, myu.
 -----------------------
 NOTICE
 -----------------------
 #名前をつけてあげますか？
-Do you want to give it a name?
+Would you like to give it a name?
 -----------------------
 SELECT
 -----------------------
 #<03:00000000>　つける　
 #　つけない　
-<03:00000000>Turn it on
-Turn it off
+<03:00000000> Give it a name
+Don't name it
 -----------------------
 #ありがとミュ～
 #カッコイイ名前をかんがえてミュ！
-Thanks, Myu~
-Come up with a cool name, Myu!
+Thanks, myu~
+Think up a cool name, myu!
 -----------------------
 notice
 -----------------------
 #どんな名前がいいか
 #しばらく考えることにしました
-What name would you like?
-I decided to think about it for a while.
+What kind of name would be good?
+I'll take some time to think about it.
 -----------------------
 #ミュ････
-Muu...
+Myu...
 -----------------------
 #ありがとミュ～
 #カッコイイ名前をかんがえてミュ！
-Thanks, Myu~
-Come up with a cool name, Myu!
+Thanks, myu~
+Think up a cool name, myu!
 -----------------------
 #こねこにん
-Neko Ninnin
+Neko-nin
 -----------------------
 #名前きまったミュ？
-So you've decided on a name, huh?
+Have you decided on a name?
 -----------------------
 SELECT
 -----------------------
 #<03:00000000>　きまった　
 #　きまってない　
-<03:00000000>It's decided.
-Not yet.
+<03:00000000> I've decided
+Not yet
 -----------------------
 notice
 -----------------------
 #名前は『<item:00000C02>』
 #でよろしいですか？
-Your name is <item:00000C02>.
-Is that correct?
+The name will be '<item:00000C02>'.
+Is that acceptable?
 -----------------------
 select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 <item:00000C02>
 -----------------------
 #ありがとミュ～
-Thanks, Myu~
+Thanks, myu~
 -----------------------
 #ミュ････
-Muu...
+Myu...
 -----------------------
 <item:00000C02>
 -----------------------
 #名前をありがとミュ～
 #『<item:00000C02>』最高だミュ～
 Thanks for the name, myu~
-The <item:00000C02> is awesome, myu~
+'<item:00000C02>' is the best, myu~
 -----------------------
 <item:00000C02>
 -----------------------
 #わちでお役にたてることがあったら
 #いつでも呼んで欲しいのミュ！
 If there's anything I can help you with,
-Call on me anytime, Mieu!
+call on me anytime, myu!
 -----------------------
 <item:00000C02>
 -----------------------
 #お散歩なのミャ！
-I'm going for a stroll!
+I'm going for a walk, meow!
 -----------------------
 #きのこや
 Mushrooms.
 -----------------------
 #どうぞニャ
-My pleasure.
+Here you go, meow.
 -----------------------
 notice
 -----------------------
 #回復しました
-Recovered
+Recovered.
 -----------------------
 #いってらっしゃいませ
 Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald per night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -450,11 +450,11 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
-Have a good night.
+Please rest well.
 -----------------------
 #おはようございます
 Good morning.
@@ -463,7 +463,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We look forward to your next visit.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -474,7 +474,7 @@ exit-party_togather( short spd )
 notice
 -----------------------
 #{16}{25}{E2}{C0}を手に入れました
-{16}{25}{E2}{C0}You obtained .
+Acquired {16}{25}{E2}{C0}.
 -----------------------
 notice
 -----------------------
@@ -485,12 +485,11 @@ notice
 -----------------------
 #{16}{25}{EA}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{25}{EA}{C0}There was , but
-I couldn't hold it because it was full.
+Found {16}{25}{EA}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

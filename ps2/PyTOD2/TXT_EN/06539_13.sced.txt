@@ -1,11 +1,11 @@
 #蒼天都市ヴァンジェロ
-The Azure City of Vangelor
+The Azure City of Vangelo
 -----------------------
 #蒼天都市ヴァンジェロ
-The Azure City of Vangelor
+The Azure City of Vangelo
 -----------------------
 #いってらっしゃいませ
-Have a good day.
+Welcome.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
@@ -19,8 +19,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -32,7 +32,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+We hope to see you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -62,4 +62,3 @@ notice
 #何もありません
 There's nothing here.
 -----------------------
-

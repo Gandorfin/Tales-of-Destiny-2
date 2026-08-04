@@ -1,5 +1,5 @@
 #神のたまご・中層部
-God's Egg - Middle Layer
+Egg of God - Middle Layer
 -----------------------
 #神のたまご・中層部
 Egg of God - Middle Layer
@@ -9,21 +9,21 @@ NOTICE
 #『デリスエンブレム
 #　それは歪められた時間と空間を正すもの』
 The Delis Emblem
-It is that which rectifies distorted time and space.
+rectifies distorted time and space.
 -----------------------
 NOTICE
 -----------------------
 #『真なる姿を求める者のため
 #　あらゆる世界、あらゆる場所に現れる』
 For those who seek their true form,
-They appear in all worlds, in all places.
+it appears in every world, every place.
 -----------------------
 #いってらっしゃいませ
 Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -33,8 +33,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -46,7 +46,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-See you again soon.
+Please come again.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -68,12 +68,11 @@ notice
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{C2}{C0} but
-inventory is full already.
+Found {16}{25}{C2}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------
 #何もありません
 There's nothing here.
 -----------------------
-

@@ -2,10 +2,10 @@
 Heidelberg General Store & Ornament Shop
 -----------------------
 #ハイデルベルグ
-Heidelburg
+Heidelberg
 -----------------------
 #雑貨屋＆装飾品屋
-General Goods & Accessories Shop
+General Store & Ornament Shop
 -----------------------
 #雑貨屋
 General Store
@@ -17,7 +17,7 @@ Welcome!
 Thank you very much.
 -----------------------
 #なんか買ってよ
-Buy something.
+Buy something, will ya?
 -----------------------
 #雑貨屋
 General Store
@@ -28,9 +28,9 @@ Man
 #うぉっ！　出た！
 #ハイデルベルグ名物の
 #木彫りのカンバラーベアだ!!
-Woah! It's here!
-A specialty of Heidelberg,
-the wooden carved Kumbarbear!!
+Whoa! There it is!
+Heidelberg's famous
+hand-carved Kumbara Bear!!
 -----------------------
 #おじさん
 Man
@@ -38,17 +38,17 @@ Man
 #カンバラーベアの置物って
 #ハイデルベルグみやげで
 #みんな買ってくるんだよな
-Those Cambala Bear figurines,
-as souvenirs from Heidelberg,
-everyone buys them, right?
+Kumbara Bear figurines are
+the souvenir to get in Heidelberg,
+so everyone's buying 'em up, y'know?
 -----------------------
 #おじさん
 Man
 -----------------------
 #これがまた大きくて
 #置き場所にこまるのなんのって
-It's so huge,
-I can't believe how hard it is to find room for it.
+But they're so darn big,
+finding a place to put 'em is a real headache.
 -----------------------
 #おじさん
 Man
@@ -56,17 +56,17 @@ Man
 #イヤがらせに
 #となりの夫婦に
 #買っていこうかなあ
-harassment
-to the couple next door
-I think I'll go buy it.
+Maybe I'll buy one
+and give it to the couple next door
+just to annoy 'em.
 -----------------------
 #おじさん
 Man
 -----------------------
 #キミたちは
 #まだ、ういういしくていいねえ
-You guys
-Still so young and fresh, aren't you?
+You kids
+are still so young and innocent. Must be nice.
 -----------------------
 #おじさん
 Man
@@ -74,9 +74,9 @@ Man
 #いいか？
 #女の子がやさしくしてくれるのは
 #結婚する前までだ
-You got that?
-A girl being nice to you is
-only until you get married.
+You hear me?
+A girl being nice to you
+only lasts until you get married.
 -----------------------
 #おじさん
 Man
@@ -84,25 +84,25 @@ Man
 #ぼくなんか新婚ホヤホヤなのに
 #ひとりで買い物
 #させられてるんだぞ
-I'm still on my honeymoon, you know.
-Just going shopping alone...
-And I'm stuck doing it.
+I'm practically a newlywed myself,
+and here I am shopping alone...
+They've got me running errands already.
 -----------------------
 <Reala>
 -----------------------
 #わたしは
 #そんなヒドイこと
 #しませんよ～だ
-I am
-Something so terrible
-won't happen~
+I would never
+do something so awful
+to my partner~
 -----------------------
 #おじさん
 Man
 -----------------------
 #なんで新婚旅行のみやげを
 #ひとりで買わなきゃならないんだ
-Why do I have to buy souvenirs from our honeymoon
+Why do I have to buy honeymoon souvenirs
 all by myself?
 -----------------------
 #おじさん
@@ -110,8 +110,8 @@ Man
 -----------------------
 #なんか外で
 #花火みたいな音しなかった？
-I heard something outside.
-Did you hear that sound? It sounded like fireworks.
+Did you hear something outside?
+Sounded like fireworks, didn't it?
 -----------------------
 #おじさん
 Man
@@ -119,23 +119,23 @@ Man
 #花火が鳴ったってことは
 #なんかお祭りでもあるのかな？
 If there are fireworks going off,
-maybe there's some kind of festival happening?
+maybe there's a festival or something going on?
 -----------------------
 #おじさん
 Man
 -----------------------
 #あとで彼女でもつれて
 #見物にいこうかな
-I'll drag her along later.
-I think I'll go sightseeing.
+Maybe I'll bring my girlfriend along later
+and go check it out.
 -----------------------
 #おじさん
 Man
 -----------------------
 #はやくおみやげ買って
 #彼女のとこにもどらなきゃ
-Hurry up and buy me souvenirs.
-I need to get back to her place.
+I'd better hurry up and buy souvenirs
+so I can get back to her.
 -----------------------
 #おじさん
 Man
@@ -143,9 +143,9 @@ Man
 #うぉっ！　出た！
 #ハイデルベルグ名物の
 #木彫りのカンバラーベアだ!!
-Woah! It's here!
-A specialty of Heidelberg,
-The wooden carved Kumbar-Bar!!
+Whoa! There it is!
+Heidelberg's famous
+hand-carved Kumbara Bear!!
 -----------------------
 #おじさん
 Man
@@ -153,17 +153,17 @@ Man
 #カンバラーベアの置物って
 #ハイデルベルグみやげで
 #みんな買ってくるんだよな
-Those Kumbalbear figurines,
-as souvenirs from Heidelberg,
-everyone buys them, right?
+Kumbara Bear figurines are
+the souvenir to get in Heidelberg,
+so everyone's buying 'em up, y'know?
 -----------------------
 #おじさん
 Man
 -----------------------
 #これがまた大きくて
 #置き場所にこまるのなんのって
-It's so huge,
-I can't believe how hard it is to find a place for it.
+But they're so darn big,
+finding a place to put 'em is a real headache.
 -----------------------
 #おじさん
 Man
@@ -171,26 +171,26 @@ Man
 #イヤがらせに
 #となりの夫婦に
 #買っていこうかなあ
-Irritation
-The couple next door
-I think I'll go buy it.
+Maybe I'll buy one
+and give it to the couple next door
+just to annoy 'em.
 -----------------------
 #装飾品屋
-Accessory Shop
+Ornament Shop
 -----------------------
 #いらっしゃいませ
 #こちらでは装飾品を扱っています
 Welcome!
-We sell accessories here.
+We deal in ornaments here.
 -----------------------
 #ありがとうございます
 Thank you very much.
 -----------------------
 #またおこしください
-Please come back again.
+Please come again.
 -----------------------
 #装飾品屋
-Accessory Shop
+Ornament Shop
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -207,8 +207,8 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000> Yes 
- No 
+<03:00000000> Yes
+No
 -----------------------
 #ごゆっくりお休みください
 Have a good night.
@@ -242,7 +242,7 @@ notice
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
-Acquired {16}{25}{C2}{C0} but
+Found {16}{25}{C2}{C0}, but
 inventory is full already.
 -----------------------
 notice
@@ -250,4 +250,3 @@ notice
 #何もありません
 There's nothing here.
 -----------------------
-
