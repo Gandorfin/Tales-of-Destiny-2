@@ -1810,8 +1810,9 @@ There's no such thing.
 -----------------------
 #<Kyle>、そこの通路を進んで城の裏口に出ろ
 #そっちからのほうが、早いはずだ
-<Kyle>, head through that corridor to the castle's rear entrance!
-It should be faster that way.
+<Kyle>, head through that corridor
+to the castle's rear entrance! It
+should be faster that way.
 -----------------------
 <Kyle>
 -----------------------

@@ -97,8 +97,9 @@ notice
 -----------------------
 #{16}{26}{26}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{26}{26}{C0}Found , but
-couldn't carry it because inventory is full.
+Found:
+{16}{26}{26}{C0}
+Inventory full. Couldn't take it.
 -----------------------
 notice
 -----------------------

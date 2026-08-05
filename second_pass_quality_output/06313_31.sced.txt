@@ -20,9 +20,9 @@ Tonya
 #もう、<Kyle>ってば
 #歩きながら眠らないでよ
 #ゾンビみたいで、こわいでしょ！
-Come on, <Kyle>,
-don't fall asleep while you're walking!
-You look like a zombie--it's creepy!
+Come on, <Kyle>, don't fall asleep
+while you're walking! You look like
+a zombie--it's creepy!
 -----------------------
 #トニア
 Tonya
@@ -169,9 +169,9 @@ Yuni
 #えへへ～★
 #みんなの服、あたしが作ってるんだよ
 #<Loni>にも、なにか作ったげようか？
-Ehehe~★
-I make clothes for everyone!
-Want me to make something for <Loni> too?
+Ehehe~★ I make clothes for everyone!
+Want me to make something for <Loni>
+too?
 -----------------------
 <Kyle>
 -----------------------
@@ -338,9 +338,8 @@ Cinnamon
 #なぁ、<Kyle>
 #おれたちと鬼ごっこしようぜ
 #勝ったらおれのお宝をやるからさ
-Hey, <Kyle>!
-Let's play tag!
-If you win, I'll give you my treasure!
+Hey, <Kyle>! Let's play tag! If you
+win, I'll give you my treasure!
 -----------------------
 #シナモン
 Cinnamon
@@ -348,9 +347,9 @@ Cinnamon
 #ねぇ、<Loni>兄ちゃん
 #おれたちと鬼ごっこしようぜ
 #勝ったらおれのお宝をやるからさ
-Hey, <Loni>! Big bro!
-Let's play tag!
-If you win, I'll give you my treasure!
+Hey, <Loni>! Big bro! Let's play
+tag! If you win, I'll give you my
+treasure!
 -----------------------
 #シナモン
 Cinnamon
@@ -471,9 +470,9 @@ Basil
 #あいたた、<Kyle>さん
 #ひっぱらないでくださいよ
 #ボク、これから朝の仕事が････
-Ow! <Kyle>!
-Please don't pull on me!
-I still have my morning chores to do...
+Ow! <Kyle>! Please don't pull on me!
+I still have my morning chores to
+do...
 -----------------------
 <Kyle>
 -----------------------
@@ -525,9 +524,9 @@ Basil
 #あっ、<Kyle>さんだ
 #おかえりなさい！
 #冒険もいいけど、ムリは禁物ですよ
-Oh, it's <Kyle>!
-Welcome back!
-Adventures are great, but don't overdo it, okay?
+Oh, it's <Kyle>! Welcome back!
+Adventures are great, but don't
+overdo it, okay?
 -----------------------
 <Kyle>
 -----------------------
@@ -542,8 +541,8 @@ Basil
 #だって、<Kyle>さん
 #無鉄砲で、行きあたりばったりで
 #もう、ドキドキハラハラですよ！
-Because, <Kyle>,
-you're so reckless, always rushing in headfirst...
+Because, <Kyle>, you're so reckless,
+always rushing in headfirst...
 You've got me all worried sick!
 -----------------------
 #バジル
@@ -552,9 +551,9 @@ Basil
 #<Kyle>さん、
 #無鉄砲で、行きあたりばったりで
 #もう、ドキドキハラハラですよ！
-<Kyle>,
-you're so reckless, always rushing in headfirst...
-You've got me all worried sick!
+<Kyle>, you're so reckless, always
+rushing in headfirst... You've got
+me all worried sick!
 -----------------------
 #ソルト
 Salt
@@ -655,9 +654,8 @@ Salt
 #ボクと仲良くしてくれるのは
 #<Kyle>だけだもん
 #どうせみんなは････
-You're the only one who's nice to me,
-<Kyle>...
-Everyone else just...
+You're the only one who's nice to
+me, <Kyle>... Everyone else just...
 -----------------------
 <Kyle>
 -----------------------
@@ -843,9 +841,10 @@ Rutee
 #<Loni>、<Kyle>のこと、たのんだわよ
 #この子の抜けているところは
 #あんたが、しっかりフォローして
-<Loni>, I'm counting on you to look after <Kyle>.
-This kid's got a few screws loose,
-so make sure you cover for him.
+<Loni>, I'm counting on you to look
+after <Kyle>. This kid's got a few
+screws loose, so make sure you
+cover for him.
 -----------------------
 #ルーティ
 Rutee
@@ -1207,9 +1206,9 @@ Mornin', <Loni>...
 #おう、<Kyle>
 #ずいぶんと早いじゃねえか
 #寝ぼすけのクセは、治った････
-Hey there, <Kyle>.
-You're up pretty early, aren't ya.
-Guess you've kicked that sleepyhead habit...
+Hey there, <Kyle>. You're up pretty
+early, aren't ya. Guess you've
+kicked that sleepyhead habit...
 -----------------------
 <Kyle>
 -----------------------
@@ -1233,7 +1232,8 @@ to slip off to the Laguna Ruins...
 #ラグナ遺跡････そうだ！
 #<Loni>、どこ行くの!?　もう出発？
 Laguna Ruins... That's right!
-<Loni>, where you going!? You leaving already?
+<Loni>, where you going!? You leaving
+already?
 -----------------------
 <Loni>
 -----------------------
@@ -1356,8 +1356,8 @@ Rutee
 -----------------------
 #旅に出るんでしょ
 #<Loni>と････
-You're heading out on a journey, right?
-With <Loni>...
+You're heading out on a journey,
+right? With <Loni>...
 -----------------------
 <Kyle>
 -----------------------
@@ -1599,9 +1599,10 @@ Rutee
 #あの日のことだけ記憶から
 #抜けてたから、<Loni>と相談して
 #あんたには話さない方がいいって････
-That day was the only thing missing from your memory,
-so I talked it over with <Loni>,
-and we decided it was better not to tell you...
+That day was the only thing missing
+from your memory, so I talked it
+over with <Loni>, and we decided it
+was better not to tell you...
 -----------------------
 #ルーティ
 Rutee
@@ -1609,9 +1610,9 @@ Rutee
 #よかれと思ってやったことだけど
 #かえって傷つけたのかもしれないね
 #ごめんね、<Kyle>
-I thought I was doing the right thing,
-but maybe I only ended up hurting you more.
-I'm sorry, <Kyle>.
+I thought I was doing the right
+thing, but maybe I only ended up
+hurting you more. I'm sorry, <Kyle>.
 -----------------------
 <Kyle>
 -----------------------
@@ -1693,8 +1694,8 @@ Rutee
 -----------------------
 #<Kyle>････
 #つらいよね････苦しいよね････
-<Kyle>...
-It hurts... doesn't it? It's so hard...
+<Kyle>... It hurts... doesn't it?
+It's so hard...
 -----------------------
 #ルーティ
 Rutee
@@ -1714,8 +1715,8 @@ Rutee
 -----------------------
 #････でもね、<Kyle>
 #やっぱり、あんたが決めなきゃいけないの
-...But you know, <Kyle>,
-in the end, you're the one who has to decide.
+...But you know, <Kyle>, in the end,
+you're the one who has to decide.
 -----------------------
 #ルーティ
 Rutee
@@ -1785,9 +1786,8 @@ Rutee
 #勇気を出して<Kyle>
 #あんたならだいじょうぶ
 #だって、あたしと父さんの子でしょ？
-Be brave, <Kyle>
-You'll be fine.
-After all, you're Stahn and my son, right?
+Be brave, <Kyle> You'll be fine. After
+all, you're Stahn and my son, right?
 -----------------------
 <Kyle>
 -----------------------

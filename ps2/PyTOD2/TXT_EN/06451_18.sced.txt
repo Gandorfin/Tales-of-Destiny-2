@@ -361,8 +361,8 @@ Soldier
 -----------------------
 #<Kyle>さん
 #また、陛下にご用ですか？
-<Kyle>!
-You need something from His Majesty again?
+<Kyle>! You need something from His
+Majesty again?
 -----------------------
 #兵士
 Soldier
@@ -427,9 +427,9 @@ Soldier
 #<Kyle>さん
 #陛下が、謁見の間でお待ちです
 #････どうか、お話を聞いてください
-<Kyle>!
-His Majesty is waiting in the audience chamber.
-...Please, hear him out.
+<Kyle>! His Majesty is waiting in
+the audience chamber. ...Please,
+hear him out.
 -----------------------
 #兵士
 Soldier
@@ -468,9 +468,9 @@ Soldier
 #あなたは････<Kyle>さんですか!?
 #いや、失礼････まるで
 #別人のように見えたので
-You... are <Kyle>, right!?
-No, my apologies...
-You looked like a completely different person.
+You... are <Kyle>, right!? No, my
+apologies... You looked like a
+completely different person.
 -----------------------
 <Loni>
 -----------------------
@@ -596,8 +596,9 @@ Soldier
 #例えば<Kyle>さんは
 #ウッドロウ陛下とお会いできたこと
 #みなさんに、お話しするでしょう？
-For example, <Kyle>, if you met King Garr,
-you'd tell everyone about it, wouldn't you?
+For example, <Kyle>, if you met King
+Garr, you'd tell everyone about
+it, wouldn't you?
 -----------------------
 <Kyle>
 -----------------------
@@ -1204,7 +1205,8 @@ line. It's not the end.
 <Reala>
 -----------------------
 #････<Nanaly>は、幸せになれた？
-...<Nanaly>, were you able to find happiness?
+...<Nanaly>, were you able to find
+happiness?
 -----------------------
 <Nanaly>
 -----------------------
@@ -1309,8 +1311,8 @@ convictions!
 -----------------------
 #<Kyle>！
 #急がないと、ウッドロウさんが！
-<Kyle>!
-We gotta hurry, or Woodrow's gonna--!
+<Kyle>! We gotta hurry, or Woodrow's
+gonna--!
 -----------------------
 <Kyle>
 -----------------------

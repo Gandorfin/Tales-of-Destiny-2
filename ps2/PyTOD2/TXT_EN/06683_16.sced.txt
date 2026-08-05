@@ -10,15 +10,15 @@ Egg of God - Middle Layer
 #『<Harold>＝ベルセリオス
 #　神をあざむく異端の知識にそまりし者
 #　故に断罪』
-<Harold> = Berselius
-One who wallows in heretical knowledge that deceives the gods
-Condemned.
+<Harold> = Berselius One who wallows
+in heretical knowledge that deceives
+the gods Condemned.
 -----------------------
 #『<Nanaly>＝フレッチ
 #　神の威光を否定する不信心者
 #　故に断罪』
-<Nanaly> = Flitch
-A faithless one who denies the glory of the gods
+<Nanaly> = Flitch A faithless one
+who denies the glory of the gods
 Condemned.
 -----------------------
 #『リオン＝マグナス
@@ -31,8 +31,8 @@ Condemned.
 #『<Loni>＝デュナミス
 #　神への信仰を忘れた愚か者
 #　故に断罪』
-<Loni> = Dunamis
-A fool who has forgotten faith in the gods
+<Loni> = Dunamis A fool who has
+forgotten faith in the gods
 Condemned.
 -----------------------
 #『<Kyle>＝デュナミス

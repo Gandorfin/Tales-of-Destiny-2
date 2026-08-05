@@ -621,8 +621,8 @@ could I trouble you for more help?
 -----------------------
 #<Kyle>くん
 #次のものを、買ってきてくれない？
-<Kyle>!
-Could you go buy the next batch of items for me?
+<Kyle>! Could you go buy the next
+batch of items for me?
 -----------------------
 #チェルシー
 Chelsea
@@ -630,15 +630,20 @@ Chelsea
 #まず、雪かきのための道具
 #<item:00000039>を<0B:00000001>{14}{11}{5B}{C0}<0B:00000000>個
 #買ってきてほしいの
-First, I need tools for shoveling snow.
-Could you buy me <item:00000039> x<0B:00000001>{14}{11}{5B}{C0}<0B:00000000>?
-I'd really appreciate it.
+Please buy:
+<item:00000039>
+Quantity:
+<0B:00000001>{14}{11}{5B}{C0}<0B:00000000>
+For snow shoveling.
 -----------------------
 #次に、井戸を掘るための道具
 #<item:0000003A>を<0B:00000001>{14}{11}{5B}{C0}<0B:00000000>個
 #買ってきてちょうだい
-Next, I need tools for digging a well.
-Please buy me <item:0000003A> x<0B:00000001>{14}{11}{5B}{C0}<0B:00000000>.
+Please buy:
+<item:0000003A>
+Quantity:
+<0B:00000001>{14}{11}{5B}{C0}<0B:00000000>
+For digging a well.
 -----------------------
 #小屋を作るための道具
 #<item:0000003B>を<0B:00000001>{14}{11}{5B}{C0}<0B:00000000>個
@@ -650,8 +655,11 @@ I'd be ever so grateful.
 #今度は、小屋を作るための道具
 #<item:0000003C>を<0B:00000001>{14}{11}{5B}{C0}<0B:00000000>個
 #買ってきてほしいの
-This time, I need tools for building a hut.
-Could you buy me <item:0000003C> x<0B:00000001>{14}{11}{5B}{C0}<0B:00000000>?
+Please buy:
+<item:0000003C>
+Quantity:
+<0B:00000001>{14}{11}{5B}{C0}<0B:00000000>
+For building a hut.
 -----------------------
 #小屋を作るための道具
 #<item:0000003D>を<0B:00000001>{14}{11}{5B}{C0}<0B:00000000>個
@@ -828,9 +836,9 @@ Chelsea
 #大切なものだから、もらって欲しいの
 #だって<Kyle>くん
 #すごく、がんばってくれたから
-I want you to have it precisely because it's precious.
-Because you, <Kyle>,
-worked so hard for me.
+I want you to have it precisely
+because it's precious. Because you,
+<Kyle>, worked so hard for me.
 -----------------------
 #チェルシー
 Chelsea
@@ -970,8 +978,9 @@ notice
 -----------------------
 #{16}{25}{E6}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{25}{E6}{C0}There was , but
-I couldn't hold it because it was full.
+Found:
+{16}{25}{E6}{C0}
+Inventory full. Couldn't take it.
 -----------------------
 notice
 -----------------------

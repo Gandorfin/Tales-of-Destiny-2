@@ -44,9 +44,10 @@ you feel like a very small person.
 #『幸運の噴水にガルドを投げ入れましょう』
 #････<Kyle>がガルドをいただいてしまったため
 #噴水には１ガルドも入っていない････
-'Toss some gald into the Fountain of Fortune.'
-......Since <Kyle> took the Gald,
-there isn't a single Gald left in the fountain......
+'Toss some gald into the Fountain
+of Fortune.' ......Since <Kyle> took
+the Gald, there isn't a single Gald
+left in the fountain......
 -----------------------
 <char:000003E8>
 -----------------------
@@ -1571,13 +1572,16 @@ Well then, we're about to set off on our adventure.
 Do you have the basics down?
 -----------------------
 #もちろんさ、<button:00000045>で武器攻撃しまくりさ!!
-Of course! We're gonna hammer 'em with weapon attacks using <button:00000045>!!
+Of course! We're gonna hammer 'em
+with weapon attacks using <button:00000045>!!
 -----------------------
 #まあそうだが方向キー<button:00000006>、<button:00000021>、<button:00000016>、<button:00000017>
 #と組み合わせることによって、
 #四種類の攻撃が出るぞ！
-True enough, but combine it with the directional buttons <button:00000006>, <button:00000021>, <button:00000016>, and <button:00000017>,
-and you can pull off four different attacks!
+True enough, but combine it with
+the directional buttons <button:00000006>, <button:00000021>, <button:00000016>,
+and <button:00000017>, and you can pull off four
+different attacks!
 -----------------------
 #まずは実際に何度か繰り出してみて、
 #速度や射程を覚えていくといいな
@@ -1590,17 +1594,18 @@ How do I pull off consecutive attacks?
 #攻撃中に再度<button:00000045>を押せばいい
 #もちろん方向キー<button:00000006>、<button:00000021>、<button:00000016>、<button:00000017>
 #により攻撃方法は変わるぞ
-Just press <button:00000045> again during an attack.
-Of course, the directional keys <button:00000006>, <button:00000021>, <button:00000016>, and <button:00000017>
-will change which attack you use.
+Just press <button:00000045> again during an
+attack. Of course, the directional
+keys <button:00000006>, <button:00000021>, <button:00000016>, and <button:00000017> will change
+which attack you use.
 -----------------------
 #攻撃をするとスピリッツゲージが減る
 #（ＳＰ　戦闘中の<color:00000001>青いゲージ<color:00000007>です）
 #減りすぎたら攻撃を控えて、
 #回復を待ったほうがいい
-Attacking depletes your Spirit Gauge.
-(That's the blue <color:00000001>SP gauge<color:00000007> during combat.)
-If it gets too low, hold back on attacking
+Attacks drain the Spirit Gauge.
+(SP is the <color:00000001>blue gauge<color:00000007> in battle.)
+If it gets too low, ease up
 and wait for it to recover.
 -----------------------
 #なんでさ？　しまくりゃいいさ
@@ -1617,8 +1622,9 @@ Be careful.
 -----------------------
 #防御が成功するとＳＰが多く回復するから、
 #防御<button:00000047>も大切ということだな
-You'll recover a lot of SP when you guard successfully,
-so guarding with <button:00000047> is important too.
+You'll recover a lot of SP when you
+guard successfully, so guarding with
+<button:00000047> is important too.
 -----------------------
 notice
 -----------------------
@@ -1637,20 +1643,24 @@ you've got more strategic options, right?
 #特技<button:00000046>はつえーけどＴＰがすぐなくなるさ
 #戦闘中も自動的に回復するけど、
 #まだ貧弱なので速度が遅いさ
-Base Artes like <button:00000046> are powerful, but TP runs out fast.
-It recovers automatically during battle,
-but it's still weak, so the rate is slow.
+Base Artes like <button:00000046> are powerful,
+but TP runs out fast. It recovers
+automatically during battle, but
+it's still weak, so the rate is
+slow.
 -----------------------
 #それはそうだ　そこで重要なのが
 #<button:00000045>の通常攻撃となるわけだ
 #一回通常攻撃がヒットすると、
 #ＴＰが１回復するぞ
-That's true. And that's where <button:00000045>'s normal attacks come in.
-Each time a normal attack lands,
-you'll recover 1 TP.
+That's true. And that's where
+<button:00000045>'s normal attacks come in. Each
+time a normal attack lands, you'll
+recover 1 TP.
 -----------------------
 #じゃあ通常攻撃<button:00000045>しまくりさ
-Then I'll just spam normal attacks with <button:00000045>!
+Then I'll just spam normal attacks
+with <button:00000045>!
 -----------------------
 #････ＴＰが余ってももったいないからな
 #術を使ってＳＰを回復させるなど、
@@ -1990,9 +2000,9 @@ our recovery rates will drop.
 #意に反して敵の右側に回ってしまった
 #ときは<button:00000047>＋<button:00000019>のバックステップで
 #左側に戻るといいだろう
-If you end up on the enemy's right side by mistake,
-use a backstep with <button:00000047> + <button:00000019>
-to get back to their left.
+If you end up on the enemy's right
+side by mistake, use a backstep with
+<button:00000047> + <button:00000019> to get back to their left.
 -----------------------
 #そりゃあ裏には回らないほうがいいさ
 Yeah, better not circle around behind them at all.
@@ -2062,8 +2072,9 @@ There seem to be foods and items that can prevent them, too.
 -----------------------
 #後の祭りじゃあ　毒<button:00000056>に麻痺<button:0000005F>に衰弱<button:0000005A>に凍結に
 #鈍足でもうへとへとじゃあ
-Too late now! Poison <button:00000056>, paralysis <button:0000005F>, weakness <button:0000005A>, freezing,
-and slow... I'm completely worn out.
+Too late now! Poison <button:00000056>, paralysis
+<button:0000005F>, weakness <button:0000005A>, freezing, and
+slow... I'm completely worn out.
 -----------------------
 #うそはいけません父さん
 #ステータス異常は一人につき四つまでしか効果は
@@ -2316,9 +2327,10 @@ Get slammed into the ground and you're down for the count.
 #でも、地面に接地したまさに
 #その瞬間に<button:00000047>を押すと、
 #受身がとれますよね
-It really is rough, Senior. But if you press <button:00000047>
-the exact moment you hit the ground,
-you can perform a recovery roll.
+It really is rough, Senior. But if
+you press <button:00000047> the exact moment you
+hit the ground, you can perform a
+recovery roll.
 -----------------------
 #ももももちろん知ってたさ
 O-o-o-of course I knew that.
@@ -2390,8 +2402,9 @@ you listen in?
 -----------------------
 #慣れてきたから最近は通常攻撃は
 #<button:00000045>だけ叩きっぱなしさ
-I've gotten used to things, so lately I've
-just been mashing <button:00000045> for normal attacks.
+I've gotten used to things, so
+lately I've just been mashing <button:00000045>
+for normal attacks.
 -----------------------
 #まったくなっとらんな
 You really don't get it, do you?
@@ -2412,9 +2425,10 @@ Then what am I supposed to do?!
 #うむ　「<button:00000017><button:00000045>、<button:00000045>、<button:00000016><button:00000045>」
 #と組み立てるなど、組み合わせを
 #変えるのがまず第一歩だ
-Indeed. Try building combos like "<button:00000017><button:00000045>, <button:00000045>, <button:00000016><button:00000045>"
-and varying your combinations.
-That is the first step.
+Indeed. Try building combos like
+"<button:00000017><button:00000045>, <button:00000045>, <button:00000016><button:00000045>" and varying your
+combinations. That is the first
+step.
 -----------------------
 #第二歩はなにさ？
 What's the second step?
@@ -2423,19 +2437,20 @@ What's the second step?
 #<button:00000017><button:00000045>では攻撃力が上がり命中が下がる、
 #<button:00000019><button:00000045>では攻撃力が下がり命中が上がる、
 #<button:00000016><button:00000045>は攻撃力、命中の減少量が少ない、
-<button:00000045> has a large decrease in both attack power and accuracy.
-<button:00000017><button:00000045> increases attack power but decreases accuracy.
-<button:00000019><button:00000045> decreases attack power but increases accuracy.
-<button:00000016><button:00000045> has a minimal decrease in both attack power and accuracy.
+<button:00000045>: Attack/accuracy drop greatly.
+<button:00000017><button:00000045>: Attack rises; accuracy falls.
+<button:00000019><button:00000045>: Attack falls; accuracy rises.
+<button:00000016><button:00000045>: Attack/accuracy drop slightly.
 -----------------------
 #以上を覚えておけ！
 #<button:00000045>による攻撃は効果範囲が広く、
 #当たりやすいことが多いが、その反面、
 #連続攻撃時にはあまり有効ではない
-Remember all that!
-<button:00000045> attacks have a wide area of effect,
-so they're easy to land, but on the flip side,
-they're not very effective during combos.
+Remember all that! <button:00000045> attacks have
+a wide area of effect, so they're
+easy to land, but on the flip side,
+they're not very effective during
+combos.
 -----------------------
 #これは次の攻撃にも影響を与えるから、
 #「<button:00000017><button:00000045>、<button:00000017><button:00000045>、<button:00000045>」と
@@ -2481,10 +2496,11 @@ Even useful advice gets tiring after hearing it for ten years straight.
 #<button:0000002F>と<button:0000002E>を押しっぱなしにすると
 #メッセージを早送りできる
 #同じ会話を読み飛ばすとき便利だ
-Come to think of it, I never told you.
-If you hold down <button:0000002F> and <button:0000002E>,
-you can fast-forward through messages.
-Handy for skipping conversations you've already seen.
+Come to think of it, I never told
+you. If you hold down <button:0000002F> and <button:0000002E>, you
+can fast-forward through messages.
+Handy for skipping conversations
+you've already seen.
 -----------------------
 #なにー
 #どうして十年もそれを教えて
@@ -2652,7 +2668,9 @@ We sell <item:00000012> here.
 -----------------------
 #<item:00000012>を使ってリファインすると
 #ステキな物が作られることがあるようです
-Refining with <item:00000012> can sometimes create wonderful items.
+Refining with
+<item:00000012>
+may create something wonderful.
 -----------------------
 #武器や鎧をリファインすると
 #付加能力が引継がれることがあるようです
@@ -2736,11 +2754,16 @@ into different ones, or synthesize weapons and armor.
 -----------------------
 #リファインを行うのに必要なのは
 #<item:00000012>とレンズです
-To perform Refine, you need <item:00000012> and Lens.
+Refining requires
+<item:00000012>
+and Lens.
 -----------------------
 #<item:00000012>は、各地にいる
 #私たちルーンボトル屋からお求めください
-You can purchase <item:00000012> from us Rune Bottle vendors in various locations.
+Buy
+<item:00000012>
+from Rune Bottle merchants found
+throughout the world.
 -----------------------
 #レンズはモンスターと
 #戦えば拾うことができます
@@ -2760,12 +2783,17 @@ single item to change it into a different one.
 #<item:00000002>に変化し
 #逆に、<item:00000002>にリファインを行うと
 #<item:00000001>に変化します
-For example, refining <item:00000001> transforms it into <item:00000002>.
-Conversely, refining <item:00000002> transforms it into <item:00000001>.
+Refine <item:00000001>
+into <item:00000002>.
+Reverse:
+Refine <item:00000002>
+into <item:00000001>.
 -----------------------
 #また、装備品単体をリファインすることによって
 #<item:00000001>などのアイテムにも変化します
-You can also refine individual pieces of equipment to obtain items such as <item:00000001>.
+Refining equipment alone can
+turn it into items such as
+<item:00000001>.
 -----------------------
 #ダンジョンなどでアイテムが尽きてしまった時などに
 #行うと、有効な場合もあります
@@ -2836,8 +2864,10 @@ These are some of the most common.
 #スロットによって装備品の名前も変わります
 #<item:00000078>　＋　アタックで
 #アタックソードなどです
-Equipment names also change depending on the slot.
-<item:00000078> + Attack becomes an Attack Sword, for example.
+Slots can change equipment names.
+Combine
+<item:00000078>
+with Attack to make an Attack Sword.
 -----------------------
 #また、スロットにはレベルがあり
 #レベルが高いと効果も上昇します

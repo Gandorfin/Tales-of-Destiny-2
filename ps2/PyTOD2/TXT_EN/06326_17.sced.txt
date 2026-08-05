@@ -23,9 +23,10 @@ Soldier
 #<size:000000F0>以前は通れたんですが････
 #どうやら道が崩れてしまったようです
 #なにぶん、古いですし････
-<size:000000F0>We were able to pass through here before...
-but it seems the path has collapsed.
-These ruins are ancient, after all...
+<size:000000F0>We could pass here before...
+But the path has collapsed.
+These ruins are old,
+after all...
 -----------------------
 #隊長
 Captain
@@ -33,8 +34,8 @@ Captain
 #<size:000000F0>遺跡が古いのは、当たり前だろう！
 #まったく、無駄足を踏ませおって････
 #別の道を探すぞ！
-<size:000000F0>Of course these ruins are old!
-Good grief, making me waste my time...
+<size:000000F0>Of course the ruins are old!
+What a wasted trip...
 We'll find another way!
 -----------------------
 #いってらっしゃいませ
@@ -87,8 +88,9 @@ notice
 -----------------------
 #{16}{25}{D2}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{25}{D2}{C0} was there, but
-it was full, so you couldn't carry it.
+Found:
+{16}{25}{D2}{C0}
+Inventory full. Couldn't take it.
 -----------------------
 notice
 -----------------------

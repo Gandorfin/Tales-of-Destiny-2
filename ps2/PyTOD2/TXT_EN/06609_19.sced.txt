@@ -124,8 +124,9 @@ Er'ther Officer
 -----------------------
 #<Harold>大佐、お疲れ様でした
 #こいつらの後送は我々にお任せ下さい
-Colonel <Harold>, thank you for your hard work.
-We'll handle evacuating these prisoners from here.
+Colonel <Harold>, thank you for your
+hard work. We'll handle evacuating
+these prisoners from here.
 -----------------------
 <Harold>
 -----------------------
@@ -254,8 +255,9 @@ notice
 -----------------------
 #{16}{25}{D2}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{25}{D2}{C0}There was , but
-I couldn't carry it because it was full.
+Found:
+{16}{25}{D2}{C0}
+Inventory full. Couldn't take it.
 -----------------------
 notice
 -----------------------

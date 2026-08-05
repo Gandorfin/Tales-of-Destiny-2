@@ -45,8 +45,8 @@ Dr. <Harold> Berselius herself.
 -----------------------
 #<Harold>博士といやあ、たしか、
 #ソーディアンを作った人だったよな？
-Dr. <Harold>, right?
-She's the one who created the Swordians, isn't she?
+Dr. <Harold>, right? She's the one who
+created the Swordians, isn't she?
 -----------------------
 <Judas>
 -----------------------
@@ -63,8 +63,9 @@ calamity.
 -----------------------
 #その<Harold>博士が作ったものだ
 #同じように、今でも動くだろう
-This was built by that same Dr. <Harold>.
-It should work just as well now.
+This was built by that same Dr.
+<Harold>. It should work just as
+well now.
 -----------------------
 <Nanaly>
 -----------------------
@@ -291,9 +292,9 @@ is for you to decide.
 #これは、他の誰にも決められない
 #<Reala>の英雄となった
 #おまえしかできないことだ
-This is something no one else can decide.
-You have become the hero of <Reala>.
-Only you can do this.
+This is something no one else can
+decide. You have become the hero of
+<Reala>. Only you can do this.
 -----------------------
 <Kyle>
 -----------------------

@@ -354,8 +354,9 @@ notice
 -----------------------
 #{16}{25}{E6}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{25}{E6}{C0}There was , but
-your inventory was full, so you couldn't take it.
+Found:
+{16}{25}{E6}{C0}
+Inventory full. Couldn't take it.
 -----------------------
 notice
 -----------------------

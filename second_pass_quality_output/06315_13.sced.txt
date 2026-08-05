@@ -33,8 +33,9 @@ No
 -----------------------
 #孤児院で飼っているハムスターだ
 #名前は『<item:00000C01>』
-It's a hamster kept at the orphanage.
-Its name is <item:00000C01>.
+The orphanage keeps this hamster.
+Its name is
+<item:00000C01>.
 -----------------------
 #ここは孤児院二階です
 This is the second floor of the orphanage.

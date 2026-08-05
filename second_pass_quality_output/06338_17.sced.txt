@@ -83,9 +83,9 @@ shockwaves.
 #<button:0000003C>ボタンで熱線を発射できるが、
 #一発毎にレンズを一枚消費する
 #ムダ撃ちはするなよ
-You can fire a heat ray with the <button:0000003C> button,
-but each shot consumes one Lens.
-Don't waste your shots.
+You can fire a heat ray with the <button:0000003C>
+button, but each shot consumes one
+Lens. Don't waste your shots.
 -----------------------
 <Judas>
 -----------------------
@@ -108,9 +108,8 @@ Make good use of it.
 #わかった
 #････ところで<Judas>
 #なんでこんな通路の事を知ってるの？
-Got it.
-...By the way, <Judas>
-how do you know about this passageway?
+Got it. ...By the way, <Judas> how do
+you know about this passageway?
 -----------------------
 <Judas>
 -----------------------

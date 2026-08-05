@@ -430,9 +430,9 @@ A Man Who Loves Freedom
 #<Kyle>よ、ＳＯＵＬを解き放て！
 #身体は束縛できても、ＳＯＵＬは縛れない
 #････永遠にな！
-<Kyle>, unleash your SOUL!
-You can bind the body, but you can't bind the SOUL.
-...Forever!
+<Kyle>, unleash your SOUL! You can
+bind the body, but you can't bind
+the SOUL. ...Forever!
 -----------------------
 <Kyle>
 -----------------------
@@ -446,8 +446,8 @@ A Man Who Loves Freedom
 #もし仮に、自由な心を奪われたとしたら････
 #そこで････ＴＨＥ　ＥＮＤさ････
 <Reala>, people are always free!
-But if that free heart were ever stolen...
-Then... it's THE END...
+But if that free heart were ever
+stolen... Then... it's THE END...
 -----------------------
 <Reala>
 -----------------------
@@ -461,8 +461,10 @@ A Man Who Loves Freedom
 #盗んだ船で海を行け！　行く先もわからぬまま！
 #朝日のまだ昇らない、ほの暗い闇夜の中を････
 <Loni>, smash every window you see!
-Sail the seas on a stolen ship! With no clue where you're headed!
-Through the dark of night, before the sun ever rises...
+Sail the seas on a stolen ship!
+With no clue where you're headed!
+Through the dark of night, before
+the sun ever rises...
 -----------------------
 <Loni>
 -----------------------
@@ -475,9 +477,10 @@ A Man Who Loves Freedom
 #<Judas>よ、人のキラメキなんて一瞬さ！
 #しょせんは、一夜のＨＥＡＶＥＮ！
 #なまぬるい日常なんかいらねぇ！　時よ輝け！
-<Judas>, human brilliance lasts but a moment!
-At best, it's a one-night HEAVEN!
-Who needs lukewarm everyday life? Shine, time!
+<Judas>, human brilliance lasts but
+a moment! At best, it's a one-night
+HEAVEN! Who needs lukewarm everyday
+life? Shine, time!
 -----------------------
 <Judas>
 -----------------------
@@ -491,10 +494,10 @@ A Man Who Loves Freedom
 #道は無限に分岐している！
 #俺たちにできることは
 #ＮＯＮＳＴＯＰで突っ走ることだけさ････
-<Nanaly>, believe in your own potential!
-The path branches infinitely!
-All we can do
-is charge ahead NONSTOP...
+<Nanaly>, believe in your own
+potential! The path branches
+infinitely! All we can do is charge
+ahead NONSTOP...
 -----------------------
 <Nanaly>
 -----------------------
@@ -505,7 +508,8 @@ is charge ahead NONSTOP...
 A Man Who Loves Freedom
 -----------------------
 #<Harold>、勝手にしやがれ！
-<Harold>, do whatever the hell you want!
+<Harold>, do whatever the hell you
+want!
 -----------------------
 <Harold>
 -----------------------
@@ -604,7 +608,7 @@ No one would blame you for it...
 A Man Who Loves Freedom
 -----------------------
 #さあ、誰の自由称号を変えたいんだ？{02}
-Now then, whose Freedom Title do you want to change?{02}
+Whose Freedom Title should I change?{02}
 -----------------------
 <03:00000000><Judas>
 <Nanaly>
@@ -1014,8 +1018,9 @@ products here.
 -----------------------
 #<item:00000012>を使ってリファインすると
 #ステキな物が作られることがあるようです
-<item:00000012>If you Refine using ,
-you can sometimes create something wonderful.
+Refining with
+<item:00000012>
+may create something wonderful.
 -----------------------
 #武器や鎧をリファインすると
 #付加能力が引継がれることがあるようです
@@ -1106,8 +1111,10 @@ To perform Refining, you need
 -----------------------
 #<item:00000012>は、各地にいる
 #私たちルーンボトル屋からお求めください
-<item:00000012>can be purchased
-from our Rune Bottle shops in various locations.
+Buy
+<item:00000012>
+from Rune Bottle merchants found
+throughout the world.
 -----------------------
 #レンズはモンスターと
 #戦えば拾うことができます
@@ -1137,8 +1144,9 @@ Conversely, if you Refine <item:00000002>,
 -----------------------
 #また、装備品単体をリファインすることによって
 #<item:00000001>などのアイテムにも変化します
-You can also Refine individual equipment pieces,
-<item:00000001>turning them into items such as .
+Refining equipment alone can
+turn it into items such as
+<item:00000001>.
 -----------------------
 #ダンジョンなどでアイテムが尽きてしまった時などに
 #行うと、有効な場合もあります
@@ -1222,9 +1230,10 @@ These are some of the most common.
 #スロットによって装備品の名前も変わります
 #<item:00000078>　＋　アタックで
 #アタックソードなどです
-Equipment names will also change based on their slots.
-For example, <item:00000078> + Attack
-becomes an Attack Sword.
+Slots can change equipment names.
+Combine
+<item:00000078>
+with Attack to make an Attack Sword.
 -----------------------
 #また、スロットにはレベルがあり
 #レベルが高いと効果も上昇します

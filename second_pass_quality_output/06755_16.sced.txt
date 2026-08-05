@@ -225,8 +225,9 @@ notice
 -----------------------
 #{16}{25}{DE}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{25}{DE}{C0}You found , but
-your inventory was full, so you couldn't take it.
+Found:
+{16}{25}{DE}{C0}
+Inventory full. Couldn't take it.
 -----------------------
 notice
 -----------------------

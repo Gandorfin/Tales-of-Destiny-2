@@ -101,9 +101,9 @@ Raiker
 #これから、ソーディアンチームも
 #<Harold>くんの研究所に向かわせる
 #君たちも向かってくれたまえ
-Now then, the Swordian team will also
-head to <Harold>-kun's research lab.
-You should go there as well.
+Now then, the Swordian team will
+also head to <Harold>-kun's research
+lab. You should go there as well.
 -----------------------
 #リトラー
 Raiker
@@ -397,9 +397,9 @@ Karell
 #やれやれ････
 #<Harold>につかまるとは
 #君たちも災難だったな
-Well, well...
-To think you'd end up caught by <Harold>.
-You've certainly had your share of misfortune.
+Well, well... To think you'd end up
+caught by <Harold>. You've certainly
+had your share of misfortune.
 -----------------------
 #カーレル
 Karell
@@ -436,8 +436,9 @@ Karell
 #敵地へ乗りこむことになるが
 #その際は、ぜひ君たちの力も借りたい
 Once <Harold>'s machine is complete,
-we'll be heading into enemy territory.
-At that time, I would greatly appreciate your assistance.
+we'll be heading into enemy
+territory. At that time, I would
+greatly appreciate your assistance.
 -----------------------
 #カーレル
 Karell
@@ -743,9 +744,10 @@ Raiker
 #････それに
 #<Harold>くんのことだ
 #一度言い出したら、聞かないだろうしな
-...Besides,
-it's <Harold> we're talking about.
-Once she sets her mind to something, there's no stopping her.
+...Besides, it's <Harold> we're
+talking about. Once she sets her
+mind to something, there's no
+stopping her.
 -----------------------
 <Harold>
 -----------------------
@@ -818,8 +820,9 @@ Raiker
 #君たちは
 #<Harold>くんの部下として
 #工兵隊に配属される
-You lot will be assigned
-to the engineering corps as <Harold>'s subordinates.
+You lot will be assigned to the
+engineering corps as <Harold>'s
+subordinates.
 -----------------------
 #ディムロス
 Dymlos
@@ -976,9 +979,9 @@ Dymlos
 #頼んだぞ、<Harold>
 #おまえのムリは飲んだんだ
 #今度はそっちが････
-I'm counting on you, <Harold>.
-I've already indulged your unreasonable request.
-Now it's your turn to...
+I'm counting on you, <Harold>. I've
+already indulged your unreasonable
+request. Now it's your turn to...
 -----------------------
 <Harold>
 -----------------------
@@ -1058,8 +1061,9 @@ How did things go?
 #必要な材料はそろいました
 #いま<Harold>が組み立て作業に
 #とりかかったところです
-We've gathered all the necessary materials.
-<Harold> is starting on the assembly work now.
+We've gathered all the necessary
+materials. <Harold> is starting on
+the assembly work now.
 -----------------------
 #リトラー
 Marius
@@ -1068,7 +1072,8 @@ Marius
 #<Harold>のマシンが完成するまで
 #待機していてくれ
 Well done. You've all worked hard.
-Wait here until <Harold>'s machine is complete.
+Wait here until <Harold>'s machine
+is complete.
 -----------------------
 <Kyle>
 -----------------------
@@ -1103,8 +1108,8 @@ Karell
 #まぁ、好意はありがたく
 #受けとっておくよ
 #ありがとう、<Kyle>くん
-Well, I'll gratefully accept your goodwill.
-Thank you, <Kyle>.
+Well, I'll gratefully accept your
+goodwill. Thank you, <Kyle>.
 -----------------------
 <Kyle>
 -----------------------
@@ -1296,8 +1301,8 @@ Chaltier
 -----------------------
 #あの････<Harold>さんのマシンは
 #帰りは使えないんですか？
-Um... couldn't we use <Harold>'s machine
-to get back as well?
+Um... couldn't we use <Harold>'s
+machine to get back as well?
 -----------------------
 <Harold>
 -----------------------
@@ -1539,9 +1544,10 @@ Dymlos
 #ベルクラント開発チームの協力によって
 #<Harold>が研究中の武器が
 #まもなく完成するだろう
-With the cooperation of the Belcrant development team,
-the weapon that <Harold> has been researching
-will soon be completed.
+With the cooperation of the Belcrant
+development team, the weapon that
+<Harold> has been researching will
+soon be completed.
 -----------------------
 #ディムロス
 Dymlos
@@ -1739,8 +1745,8 @@ Dymlos
 #<Harold>博士との
 #新兵器の実験中、私は勝手な判断で
 #アトワイトを救出しました
-During the new weapon test with Dr. <Harold>,
-I acted on my own judgment
+During the new weapon test with Dr.
+<Harold>, I acted on my own judgment
 and rescued Atwight.
 -----------------------
 #ディムロス
@@ -1989,7 +1995,8 @@ assault order shortly, but...
 Karell
 -----------------------
 #<Harold>、ソーディアンはどうだ？
-<Harold>, how are the Swordians coming along?
+<Harold>, how are the Swordians
+coming along?
 -----------------------
 <Harold>
 -----------------------
@@ -2151,8 +2158,8 @@ Raiker
 -----------------------
 #ご苦労だったな、<Kyle>君
 #君たちも、休息を取ってくれたまえ
-You did well, <Kyle>.
-The rest of you, get some rest as well.
+You did well, <Kyle>. The rest of you,
+get some rest as well.
 -----------------------
 <Kyle>
 -----------------------
@@ -2349,8 +2356,9 @@ Karell
 -----------------------
 #<Harold>をあきれさせた男か
 #ぞっとしませんな、司令
-A man who managed to baffle <Harold>, huh?
-You don't even flinch, Commander?
+A man who managed to baffle
+<Harold>, huh? You don't even flinch,
+Commander?
 -----------------------
 #リトラー
 Raiker

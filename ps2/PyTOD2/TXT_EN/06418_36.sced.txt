@@ -90,16 +90,21 @@ Announcer
 -----------------------
 #闘技場{18}{44}{70}{C0}{18}{44}{74}{C0}
 #残念ながら{18}{44}{6C}{C0}戦で敗退です
-Colosseum{18}{44}{70}{C0}{18}{44}{74}{C0}
-Unfortunately, you've been eliminated in battle {18}{44}{6C}{C0}.
+Colosseum
+{18}{44}{70}{C0}
+{18}{44}{74}{C0}
+Eliminated in battle:
+{18}{44}{6C}{C0}
 -----------------------
 #司会
 Announcer
 -----------------------
 #闘技場{18}{44}{70}{C0}{18}{44}{74}{C0}
 #惜しくも決勝戦で敗れました
-Colosseum{18}{44}{70}{C0}{18}{44}{74}{C0}
-So close, yet you fell in the final match.
+Colosseum
+{18}{44}{70}{C0}
+{18}{44}{74}{C0}
+Lost in the final match.
 -----------------------
 #司会
 Announcer
@@ -433,8 +438,8 @@ Rimul
 -----------------------
 #････<Kyle>
 #待ち望んだわ！　この瞬間を！
-...<Kyle>
-I've been waiting for this moment! This very instant!
+...<Kyle> I've been waiting for this
+moment! This very instant!
 -----------------------
 <Kyle>
 -----------------------
@@ -455,9 +460,9 @@ Rimul
 #さぁ来なさい、<Kyle>！
 #今こそ、雌雄を決しましょう！
 #わたしとキミの、どちらが最強なのかを!!
-Come, <Kyle>!
-Now we shall settle this once and for all!
-Which of us is the strongest!!
+Come, <Kyle>! Now we shall settle
+this once and for all! Which of us
+is the strongest!!
 -----------------------
 #司会
 Announcer
@@ -644,8 +649,9 @@ Absolutely wonderful, wonderful, wonderful! ★
 #やっぱりあたしは、強い男がスキ★
 #というわけで、<Kyle>～★
 Rimul-sama was wonderful too, but...
-I guess I just love strong guys ★
-Which means it's all about <Kyle> from here on~ ★
+I guess I just love strong guys
+★ Which means it's all about <Kyle>
+from here on~ ★
 -----------------------
 #観客
 Spectator

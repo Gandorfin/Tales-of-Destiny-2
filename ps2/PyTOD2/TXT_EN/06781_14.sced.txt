@@ -27,9 +27,10 @@ notice
 #再生したいスクリーンチャットの
 #番号を選んで<button:00000025>ボタンを押して下さい
 #再生中止は<button:00000026>ボタンです
-Select the number of the Screen Chat
-you wish to play, then press the <button:00000025> button.
-Press the <button:00000026> button to stop playback.
+Select the number of the Screen
+Chat you wish to play, then press
+the <button:00000025> button. Press the <button:00000026> button
+to stop playback.
 -----------------------
 notice
 -----------------------

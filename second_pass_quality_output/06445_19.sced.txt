@@ -436,10 +436,10 @@ Winters
 #幻の鉱石を探しているんだが
 #こいつはおそろしく希少価値があって
 #滅多に手に入らないんだ
-<Kyle>, I'm looking for an ore called 'Berserium.'
-It's a legendary ore,
-absurdly rare,
-and nearly impossible to find.
+<Kyle>, I'm looking for an ore called
+'Berserium.' It's a legendary ore,
+absurdly rare, and nearly impossible
+to find.
 -----------------------
 #ウィンターズ
 Winters
@@ -490,10 +490,11 @@ Winters
 #ソイツと引き換えに、なにか作ってみるか？
 #俺が好きなように作るから
 #どんなものに仕上がるかはお楽しみだがな！
-So, what'll it be, <Kyle>?!
-Wanna have me make something in exchange for that?
-I'll craft it however I like,
-so you'll just have to wait and see how it turns out!
+So, what'll it be, <Kyle>?! Wanna
+have me make something in exchange
+for that? I'll craft it however I
+like, so you'll just have to wait
+and see how it turns out!
 -----------------------
 select
 -----------------------
@@ -549,9 +550,8 @@ Winters
 #ハッハァー！
 #<Kyle>、お前は運が良いぜ！
 #とんでもないものを作っちまったよ、俺は！
-Hahaha!
-You're in luck, <Kyle>!
-I've whipped up something incredible!
+Hahaha! You're in luck, <Kyle>! I've
+whipped up something incredible!
 -----------------------
 #ウィンターズ
 Winters
@@ -622,9 +622,8 @@ Winters
 #ハッハァー！
 #<Kyle>、お前は運が良いぜ！
 #とんでもないものを作っちまったよ、俺は！
-Hahaha!
-You're in luck, <Kyle>!
-I've whipped up something incredible!
+Hahaha! You're in luck, <Kyle>! I've
+whipped up something incredible!
 -----------------------
 #ウィンターズ
 Winters

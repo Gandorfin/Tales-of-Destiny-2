@@ -63,9 +63,10 @@ Use it to find the control devices.
 #使うときは、<button:0000003B>ボタンだ
 #だが、ソーサラーリング以上に
 #レンズを消費する、気をつけろよ
-When you use it, press the <button:0000003B> button.
-But be warned: it consumes
-even more Lens than the Sorcerer's Ring.
+When you use it, press the <button:0000003B>
+button. But be warned: it consumes
+even more Lens than the Sorcerer's
+Ring.
 -----------------------
 <Kyle>
 -----------------------
@@ -166,8 +167,9 @@ notice
 -----------------------
 #{16}{25}{D2}{C0}がありましたが
 #いっぱいで持てませんでした
-Found {16}{25}{D2}{C0}, but
-couldn't carry it because your inventory is full.
+Found:
+{16}{25}{D2}{C0}
+Inventory full. Couldn't take it.
 -----------------------
 notice
 -----------------------

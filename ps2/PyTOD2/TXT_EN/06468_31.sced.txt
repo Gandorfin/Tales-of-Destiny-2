@@ -55,8 +55,8 @@ It's Aigrette!
 #<Reala>、オレたちツイてるぜ！
 #知らないところに飛ばされたわけじゃ
 #なかったんだ！
-<Reala>, we're in luck!
-We weren't just sent off to some random place,
+<Reala>, we're in luck! We weren't
+just sent off to some random place,
 after all!
 -----------------------
 <Kyle>
@@ -82,8 +82,8 @@ things to change this much.
 #落ちついて聞いて、<Kyle>
 #わたしたちは、エルレインの力で
 #飛ばされてしまったの
-Calm down and listen, <Kyle>.
-We were sent flying here by Elrane's power.
+Calm down and listen, <Kyle>. We were
+sent flying here by Elrane's power.
 -----------------------
 <Reala>
 -----------------------
@@ -153,9 +153,9 @@ Of course it wasn't.
 #この像ができたのは、
 #<Kyle>たちのいた時代から、
 #少しあとなの
-This statue was erected
-a short while after the era when <Kyle>
-and the others lived.
+This statue was erected a short
+while after the era when <Kyle> and
+the others lived.
 -----------------------
 <Kyle>
 -----------------------
@@ -171,9 +171,9 @@ really...
 #そう、ここは
 #<Kyle>たちのいた時代から
 #十年後の世界よ
-Yes. This is a world
-ten years in the future
-from the era when <Kyle> and the others lived.
+Yes. This is a world ten years in
+the future from the era when <Kyle>
+and the others lived.
 -----------------------
 <Reala>
 -----------------------
@@ -190,9 +190,10 @@ up in it.
 #だ、だって、エルレインは
 #アタモニ神団のえらい人だろ!?
 #どうして、<Reala>を････
-B-but Elrane is...
-She's a high-ranking member of the Order of Atamoni, right!?
-Why would she send <Reala>...
+B-but Elrane is... She's a
+high-ranking member of the Order
+of Atamoni, right!? Why would she
+send <Reala>...
 -----------------------
 <Kyle>
 -----------------------
@@ -1022,8 +1023,9 @@ We sell <item:00000012> here.
 -----------------------
 #<item:00000012>を使ってリファインすると
 #ステキな物が作られることがあるようです
-Refine with <item:00000012>, and
-you might just make something wonderful.
+Refining with
+<item:00000012>
+may create something wonderful.
 -----------------------
 #武器や鎧をリファインすると
 #付加能力が引継がれることがあるようです
@@ -1114,8 +1116,10 @@ To perform Refine, you need
 -----------------------
 #<item:00000012>は、各地にいる
 #私たちルーンボトル屋からお求めください
-You can purchase <item:00000012> from us Rune Bottle
-shops, found in towns all across the world.
+Buy
+<item:00000012>
+from Rune Bottle merchants found
+throughout the world.
 -----------------------
 #レンズはモンスターと
 #戦えば拾うことができます
@@ -1145,8 +1149,9 @@ it becomes <item:00000001>.
 -----------------------
 #また、装備品単体をリファインすることによって
 #<item:00000001>などのアイテムにも変化します
-You can also refine individual equipment pieces
-into items such as <item:00000001>.
+Refining equipment alone can
+turn it into items such as
+<item:00000001>.
 -----------------------
 #ダンジョンなどでアイテムが尽きてしまった時などに
 #行うと、有効な場合もあります
@@ -1229,9 +1234,10 @@ These are the most common examples.
 #スロットによって装備品の名前も変わります
 #<item:00000078>　＋　アタックで
 #アタックソードなどです
-Equipment names also change based on their slots.
-<item:00000078> + Attack
-becomes an Attack Sword, for example.
+Slots can change equipment names.
+Combine
+<item:00000078>
+with Attack to make an Attack Sword.
 -----------------------
 #また、スロットにはレベルがあり
 #レベルが高いと効果も上昇します

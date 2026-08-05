@@ -27,8 +27,9 @@ No one dares complain to the ladies out of fear.
 -----------------------
 #これは一体、なんだろう？
 #<Harold>のあやしげな機械の一部なのかもしれない
-What in the world is this?
-It might be part of <Harold>'s suspicious machinery.
+What in the world is this? It might
+be part of <Harold>'s suspicious
+machinery.
 -----------------------
 #技術士官
 Technical Officer
@@ -256,10 +257,11 @@ Auntie A
 #年齢には見えないザマスよホホホホホホところで
 #お宅のご主人<Harold>中佐の下で隊長をつとめて
 #らっしゃるとかまったくもーうらやましいザマス
-<size:00000138>My my, madam, you look simply radiant today!
-You don't look your age at all! Ho ho ho ho ho.
-By the way, your husband serves as captain
-under Lieutenant Colonel <Harold>, I'm told. Oh, how enviable!
+<size:00000138>My, you look lovely!
+You seem so young!
+Your husband serves
+under Colonel <Harold>.
+How enviable!
 -----------------------
 #おばちゃんＢ
 Auntie B
@@ -268,10 +270,11 @@ Auntie B
 #アトワイト大佐直属の衛生兵として高給取じゃ
 #ないザマスかうらやましいザマスわ最近は配給
 #少なくて困ってしまうザマスのよホホホホホホ
-<size:00000138>What are you going on about? Your young master, now...
-He's a high earner as a medic directly under Colonel Atwight.
-Isn't that enviable? I'm quite jealous. Lately rations
-have been so scarce, it's been such a bother. Ho ho ho ho ho.
+<size:00000138>What are you saying?
+Your boy is Atwight's
+well-paid medic!
+I'm jealous. Rations
+are scarce! Ho ho ho!
 -----------------------
 #おばちゃんＣ
 Auntie C
@@ -280,10 +283,11 @@ Auntie C
 #お噂をまだ独身の身空とかアタクシがあと十歳
 #若ければほっとかないんザマスが若いっていい
 #ザマスねウチのヤドロクとは大違いザマスのよ
-<size:00000138>By the way, have you heard the rumors about young Chaltier?
-Still single and available, they say. If only I were ten years younger,
-I wouldn't let him slip away! Ah, youth is wonderful, isn't it?
-So different from my worthless old man.
+<size:00000138>Heard about Chaltier?
+He's still single!
+Ten years younger,
+I'd chase him!
+Unlike my useless man.
 -----------------------
 #おばちゃんＡ
 Auntie A

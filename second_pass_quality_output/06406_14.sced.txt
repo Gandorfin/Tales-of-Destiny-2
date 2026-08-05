@@ -166,8 +166,9 @@ I'll give you {16}{34}{70}{C0}.
 -----------------------
 #家の前にある畑を貸してあげるから
 #{16}{34}{70}{C0}をまいてごらんなさい
-I'll let you use the field in front of my house,
-so try planting {16}{34}{70}{C0}.
+Use the field by my house.
+Try planting
+{16}{34}{70}{C0}
 -----------------------
 #種を育ててるとステキな収穫が
 #得られることもあるんだよ

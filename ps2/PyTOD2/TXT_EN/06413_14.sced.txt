@@ -31,18 +31,19 @@ NOTICE
 #『レベルが低いうちは、スロット装備の補助効果を
 #　有効に活用しましょう
 #　敵を毒状態にして逃げ回るのも立派な戦法です』
-"While your level is still low, make effective"
-"use of your slot equipment's support effects."
-"Poisoning enemies and running away is a perfectly valid strategy."
+"At low levels, make good use of
+slot equipment's support effects.
+Poison foes, then run away; that too
+is a sound strategy."
 -----------------------
 NOTICE
 -----------------------
 #『闘技場ではアイテムの使用が不可な他、
 #　戦闘開始後約１０秒が経過すると
 #　装備変更ができなくなります』
-"Items cannot be used in the coliseum, and"
-"you will be unable to change your equipment"
-"approximately ten seconds after battle begins."
+"Items are banned in the coliseum.
+About ten seconds into battle,
+you can no longer change equipment."
 -----------------------
 #記念品が展示されている
 #装備品のようだが････誰の物だろう？

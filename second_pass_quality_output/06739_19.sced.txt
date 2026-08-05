@@ -16,9 +16,9 @@ Man, what a gorgeous day.
 #絶好の、冒険日和ってやつだな
 #ところで<Kyle>
 #出発の準備はいいのか？
-This is what you call perfect weather for an adventure.
-By the way, <Kyle>.
-You ready to head out?
+This is what you call perfect
+weather for an adventure. By the
+way, <Kyle>. You ready to head out?
 -----------------------
 <Kyle>
 -----------------------
@@ -79,8 +79,8 @@ But that's the truth.
 -----------------------
 #････<Loni>、オレさ
 #今、すっごくドキドキしてるんだ
-...<Loni>, I mean...
-my heart's pounding like crazy right now.
+...<Loni>, I mean... my heart's
+pounding like crazy right now.
 -----------------------
 <Kyle>
 -----------------------
@@ -172,8 +172,8 @@ Hahaha! That's right, isn't it?
 -----------------------
 #それじゃ行こうぜ、<Kyle>
 #おまえが、英雄になるための旅によ！
-Let's go, <Kyle>!
-This is your journey to become a hero!
+Let's go, <Kyle>! This is your journey
+to become a hero!
 -----------------------
 <Kyle>
 -----------------------
@@ -237,8 +237,9 @@ notice
 -----------------------
 #{16}{25}{CE}{C0}がありましたが
 #いっぱいで持てませんでした
-Found {16}{25}{CE}{C0}, but
-couldn't carry it because your inventory is full.
+Found:
+{16}{25}{CE}{C0}
+Inventory full. Couldn't take it.
 -----------------------
 notice
 -----------------------

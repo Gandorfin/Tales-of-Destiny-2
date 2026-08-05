@@ -370,8 +370,8 @@ after bein' told all that?
 -----------------------
 #････って
 #ものほしそうな目で見るな<Kyle>！
-...Wait.
-Don't look at me with those puppy-dog eyes<Kyle>!
+...Wait. Don't look at me with those
+puppy-dog eyes<Kyle>!
 -----------------------
 #青年
 Youth
@@ -825,8 +825,10 @@ To perform Refine, you need
 -----------------------
 #<item:00000012>は、各地にいる
 #私たちルーンボトル屋からお求めください
-You can purchase <item:00000012>
-from us Rune Bottle vendors in various locations.
+Buy
+<item:00000012>
+from Rune Bottle merchants found
+throughout the world.
 -----------------------
 #レンズはモンスターと
 #戦えば拾うことができます
@@ -856,8 +858,9 @@ transforms it into <item:00000001>.
 -----------------------
 #また、装備品単体をリファインすることによって
 #<item:00000001>などのアイテムにも変化します
-You can also refine individual equipment pieces
-into items such as <item:00000001>.
+Refining equipment alone can
+turn it into items such as
+<item:00000001>.
 -----------------------
 #ダンジョンなどでアイテムが尽きてしまった時などに
 #行うと、有効な場合もあります
@@ -940,9 +943,10 @@ These are some of the most common.
 #スロットによって装備品の名前も変わります
 #<item:00000078>　＋　アタックで
 #アタックソードなどです
-Equipment names also change based on their slots.
-<item:00000078> + Attack creates
-an Attack Sword, for example.
+Slots can change equipment names.
+Combine
+<item:00000078>
+with Attack to make an Attack Sword.
 -----------------------
 #また、スロットにはレベルがあり
 #レベルが高いと効果も上昇します

@@ -12,8 +12,8 @@ Uncle Bob
 -----------------------
 #おうおう<Kyle>
 #なにか買っていってくれや
-Well, well, <Kyle>!
-Why don't you buy something before you go?
+Well, well, <Kyle>! Why don't you buy
+something before you go?
 -----------------------
 #ボブおじさん
 Uncle Bob
@@ -83,8 +83,10 @@ NOTICE
 -----------------------
 #むう、<0B:00000001>{14}{24}{74}{C0}<0B:00000000>ガルドあげよう
 #最近の若者は遠慮が無いのぅ
-Hmph, I'll give you <0B:00000001>{14}{24}{74}{C0}<0B:00000000> Gald.
-Youngsters these days sure don't know restraint.
+Hmph. I'll give you
+<0B:00000001>{14}{24}{74}{C0}<0B:00000000>
+Gald.
+Young people have no restraint.
 -----------------------
 NOTICE
 -----------------------
@@ -143,8 +145,10 @@ NOTICE
 -----------------------
 #むう、<0B:00000001>{14}{24}{74}{C0}<0B:00000000>ガルドあげよう
 #最近の若者は遠慮が無いのぅ
-Hmph, I'll give you <0B:00000001>{14}{24}{74}{C0}<0B:00000000> Gald.
-Youngsters these days sure don't know restraint.
+Hmph. I'll give you
+<0B:00000001>{14}{24}{74}{C0}<0B:00000000>
+Gald.
+Young people have no restraint.
 -----------------------
 NOTICE
 -----------------------
@@ -272,9 +276,9 @@ Innkeeper
 #<Reala>？
 #ああ、あなたがおぶってきた子ね？
 #あの子だったら、池の方にいたわよ
-<Reala>?
-Oh, you mean the child you were carrying?
-She was over by the pond.
+<Reala>? Oh, you mean the child you
+were carrying? She was over by
+the pond.
 -----------------------
 #宿屋受付
 Innkeeper

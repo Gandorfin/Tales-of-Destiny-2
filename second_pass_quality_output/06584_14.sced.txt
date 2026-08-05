@@ -58,9 +58,11 @@ Memo
 #　資材を残して待避するのは口惜しいが止むを得ない
 #　もし、ここと資材が生き残った場合に備えて
 #　プロテクトの解除方法を書き残しておく事にする』
-'...It seems we've been caught in Belcrant's range. It's a shame to leave the
-supplies behind, but we have no choice but to evacuate. In case both this place
-and the supplies survive, I will write down how to remove the protection.'
+'...We're in Belcrant's range.
+We must abandon the supplies,
+and evacuate. If both survive,
+I'll leave instructions to disable
+the protection.'
 -----------------------
 #メモ
 Memo
@@ -69,9 +71,10 @@ Memo
 　<item:00000036>、<item:00000037>、<item:00000038>
 #　この三つのチップが必要だ
 #　低レベルプロテクトを解除して、<item:00000035>を入手しろ』
-'To remove low-level protection,
-you'll need these three chips.
-Remove the low-level protection and obtain <item:00000035>.'
+'Three chips are needed to disable
+low-level protection. Disable it
+and obtain
+<item:00000035>.'
 -----------------------
 #メモ
 Memo
@@ -93,9 +96,11 @@ Memo
 #　細工しておいた　温度変化で崩壊する仕組みだ
 #　････資材が戦争終結のために利用される事を祈っている
 #　　　　　　　　　　　　　　　　　　　　　　所長より』
-'Also, for security purposes, we've rigged the chips and keys so they
-can't be removed. They're designed to collapse from temperature changes.
-...I pray these supplies will be used to end the war. - Warden'
+'For security, the chips and keys
+cannot be removed.
+They will break under temperature
+changes. May these supplies help end
+the war. - Warden'
 -----------------------
 #タイムオーバー
 Time's up.
@@ -233,8 +238,9 @@ notice
 -----------------------
 #{16}{25}{FE}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{25}{FE}{C0}There was , but
-it couldn't be carried because inventory is full.
+Found:
+{16}{25}{FE}{C0}
+Inventory full. Couldn't take it.
 -----------------------
 notice
 -----------------------

@@ -1264,8 +1264,8 @@ I knew it... I was here.
 -----------------------
 #ごめんなさい、<Nanaly>！
 #今すぐに、あなただけ未来に････
-I'm sorry, <Nanaly>!
-I'll send you back to the future right away...
+I'm sorry, <Nanaly>! I'll send you
+back to the future right away...
 -----------------------
 <Nanaly>
 -----------------------
@@ -1656,8 +1656,9 @@ notice
 -----------------------
 #{16}{25}{D2}{C0}がありましたが
 #いっぱいで持てませんでした
-Found {16}{25}{D2}{C0}, but
-couldn't carry it because your inventory is full.
+Found:
+{16}{25}{D2}{C0}
+Inventory full. Couldn't take it.
 -----------------------
 notice
 -----------------------

@@ -249,9 +249,9 @@ Lilith
 #<Kyle>、いらっしゃい！
 #どういう風のふきまわし？
 #ここに来るなんて
-<Kyle>, welcome!
-What brings you all the way out here?
-I never expected to see you at my door.
+<Kyle>, welcome! What brings you all
+the way out here? I never expected
+to see you at my door.
 -----------------------
 <Kyle>
 -----------------------
@@ -416,8 +416,8 @@ Lilith
 -----------------------
 #いい、<Kyle>？
 #困った時は、原点に戻りなさい
-Listen close, <Kyle>.
-When you're lost, return to where you started.
+Listen close, <Kyle>. When you're
+lost, return to where you started.
 -----------------------
 #リリス
 Lilith
@@ -451,8 +451,8 @@ Lilith
 #あなたの探しているものを、見つけるのは
 #難しいかもしれないけど････
 #がんばって、<Kyle>！
-Finding what you seek may not be easy...
-but I know you can do it.
+Finding what you seek may not be
+easy... but I know you can do it.
 Good luck, <Kyle>!
 -----------------------
 <Kyle>
@@ -727,9 +727,9 @@ Lilith
 #あの兄さんにできたことですもの
 #きっと、あなたも立派な英雄になれるわ
 #がんばってね<Kyle>
-If my brother could do it, so can you.
-I'm sure you'll become a fine hero as well.
-Do your best!<Kyle>
+If my brother could do it, so can
+you. I'm sure you'll become a fine
+hero as well. Do your best!<Kyle>
 -----------------------
 #リリス
 Lilith

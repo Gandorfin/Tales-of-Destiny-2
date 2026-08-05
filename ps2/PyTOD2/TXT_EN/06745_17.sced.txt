@@ -120,13 +120,16 @@ Well then, we're about to start our adventure.
 Have you got the basics down?
 -----------------------
 #もちろんさ、<button:00000045>で武器攻撃しまくりさ!!
-Of course! I'll go wild with weapon attacks using <button:00000045>!!
+Of course! I'll go wild with weapon
+attacks using <button:00000045>!!
 -----------------------
 #まあそうだが方向キー<button:00000006>、<button:00000021>、<button:00000016>、<button:00000017>
 #と組み合わせることによって、
 #四種類の攻撃が出るぞ！
-True enough, but by combining it with the directional buttons <button:00000006>, <button:00000021>, <button:00000016>, and <button:00000017>,
-you can unleash four different attacks!
+True enough, but by combining it
+with the directional buttons <button:00000006>,
+<button:00000021>, <button:00000016>, and <button:00000017>, you can unleash four
+different attacks!
 -----------------------
 #まずは実際に何度か繰り出してみて、
 #速度や射程を覚えていくといいな
@@ -140,16 +143,17 @@ How do I pull off consecutive attacks?
 #もちろん方向キー<button:00000006>、<button:00000021>、<button:00000016>、<button:00000017>
 #により攻撃方法は変わるぞ
 Press <button:00000045> again while attacking.
-Of course, directional keys <button:00000006>, <button:00000021>, <button:00000016>, and <button:00000017>
-will change your attack methods.
+Of course, directional keys <button:00000006>,
+<button:00000021>, <button:00000016>, and <button:00000017> will change your
+attack methods.
 -----------------------
 #攻撃をするとスピリッツゲージが減る
 #（ＳＰ　戦闘中の<color:00000001>青いゲージ<color:00000007>です）
 #減りすぎたら攻撃を控えて、
 #回復を待ったほうがいい
-Attacking depletes your Spirit Gauge.
-(That's the blue <color:00000001>gauge<color:00000007> during combat.)
-If it gets too low, hold back on attacking
+Attacks drain the Spirit Gauge.
+(SP is the <color:00000001>blue gauge<color:00000007> in battle.)
+If it gets too low, ease up
 and wait for it to recover.
 -----------------------
 #なんでさ？　しまくりゃいいさ
@@ -166,8 +170,9 @@ Be careful.
 -----------------------
 #防御が成功するとＳＰが多く回復するから、
 #防御<button:00000047>も大切ということだな
-If your guard is successful, you'll recover a lot of SP,
-so <button:00000047>defense is important too.
+If your guard is successful, you'll
+recover a lot of SP, so <button:00000047>defense
+is important too.
 -----------------------
 notice
 -----------------------
@@ -186,20 +191,22 @@ your strategy's got more variety, right?
 #特技<button:00000046>はつえーけどＴＰがすぐなくなるさ
 #戦闘中も自動的に回復するけど、
 #まだ貧弱なので速度が遅いさ
-Base Arte <button:00000046> is great, but TP runs out fast.
-It recovers automatically during battle,
-but it's still weak, so the rate is slow.
+Base Arte <button:00000046> is great, but TP runs
+out fast. It recovers automatically
+during battle, but it's still weak,
+so the rate is slow.
 -----------------------
 #それはそうだ　そこで重要なのが
 #<button:00000045>の通常攻撃となるわけだ
 #一回通常攻撃がヒットすると、
 #ＴＰが１回復するぞ
-That's right. And that's why <button:00000045>'s normal attacks matter.
-Each normal attack that lands
-recovers 1 TP.
+That's right. And that's why <button:00000045>'s
+normal attacks matter. Each normal
+attack that lands recovers 1 TP.
 -----------------------
 #じゃあ通常攻撃<button:00000045>しまくりさ
-Then I'll just spam normal attacks with <button:00000045>.
+Then I'll just spam normal attacks
+with <button:00000045>.
 -----------------------
 #････ＴＰが余ってももったいないからな
 #術を使ってＳＰを回復させるなど、
@@ -541,9 +548,10 @@ our recovery rates will drop.
 #意に反して敵の右側に回ってしまった
 #ときは<button:00000047>＋<button:00000019>のバックステップで
 #左側に戻るといいだろう
-If you end up on the enemy's right side unintentionally,
-use a backstep with <button:00000047> + <button:00000019>
-to get back to the left side.
+If you end up on the enemy's right
+side unintentionally, use a backstep
+with <button:00000047> + <button:00000019> to get back to the
+left side.
 -----------------------
 #そりゃあ裏には回らないほうがいいさ
 Yeah, better not circle around to the back.
@@ -614,8 +622,9 @@ There are also dishes and items that can prevent them.
 -----------------------
 #後の祭りじゃあ　毒<button:00000056>に麻痺<button:0000005F>に衰弱<button:0000005A>に凍結に
 #鈍足でもうへとへとじゃあ
-It's too late now. Poison <button:00000056>, Paralysis <button:0000005F>, Weak <button:0000005A>, Freeze,
-and Slow... I'm completely wiped out.
+It's too late now. Poison <button:00000056>,
+Paralysis <button:0000005F>, Weak <button:0000005A>, Freeze, and
+Slow... I'm completely wiped out.
 -----------------------
 #うそはいけません父さん
 #ステータス異常は一人につき四つまでしか効果は
@@ -969,8 +978,9 @@ Will you listen in?
 -----------------------
 #慣れてきたから最近は通常攻撃は
 #<button:00000045>だけ叩きっぱなしさ
-I've gotten the hang of things, so lately
-I just spam <button:00000045> for normal attacks.
+I've gotten the hang of things, so
+lately I just spam <button:00000045> for normal
+attacks.
 -----------------------
 #まったくなっとらんな
 You really don't get it, do you?
@@ -1003,19 +1013,19 @@ What's the second step?
 #<button:00000017><button:00000045>では攻撃力が上がり命中が下がる、
 #<button:00000019><button:00000045>では攻撃力が下がり命中が上がる、
 #<button:00000016><button:00000045>は攻撃力、命中の減少量が少ない、
-<button:00000045> loses a lot of attack power and accuracy.
-<button:00000017><button:00000045> raises attack power but lowers accuracy.
-<button:00000019><button:00000045> lowers attack power but raises accuracy.
-<button:00000016><button:00000045> has only a minor reduction to both.
+<button:00000045>: Attack/accuracy drop greatly.
+<button:00000017><button:00000045>: Attack rises; accuracy falls.
+<button:00000019><button:00000045>: Attack falls; accuracy rises.
+<button:00000016><button:00000045>: Attack/accuracy drop slightly.
 -----------------------
 #以上を覚えておけ！
 #<button:00000045>による攻撃は効果範囲が広く、
 #当たりやすいことが多いが、その反面、
 #連続攻撃時にはあまり有効ではない
-Remember that!
-<button:00000045> attacks have a wide effect range
-and are easy to land, but on the flip side,
-they're not very effective during combos.
+Remember that! <button:00000045> attacks have a
+wide effect range and are easy to
+land, but on the flip side, they're
+not very effective during combos.
 -----------------------
 #これは次の攻撃にも影響を与えるから、
 #「<button:00000017><button:00000045>、<button:00000017><button:00000045>、<button:00000045>」と
@@ -1063,9 +1073,9 @@ after listening for ten years straight.
 #メッセージを早送りできる
 #同じ会話を読み飛ばすとき便利だ
 That reminds me, I never told you.
-Hold down <button:0000002F> and <button:0000002E>
-to fast-forward messages.
-Handy for skipping through conversations.
+Hold down <button:0000002F> and <button:0000002E> to fast-forward
+messages. Handy for skipping through
+conversations.
 -----------------------
 #なにー
 #どうして十年もそれを教えて

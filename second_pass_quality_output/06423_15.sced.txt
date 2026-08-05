@@ -165,8 +165,9 @@ Returned it to the treasure chest.
 #全部は持つことはできません
 #・{14}{35}{EC}{C0}個取り、{14}{35}{F8}{C0}<0B:00000000>個捨てる
 #・宝箱に戻す
-{16}{35}{F0}{C0} had <0B:00000001>{14}{35}{F4}{C0} in total,
-but could not carry them all.
-- Take {14}{35}{EC}{C0}, discard {14}{35}{F8}{C0}<0B:00000000>
-- Put them back in the treasure chest
+{16}{35}{F0}{C0}
+Found: <0B:00000001>{14}{35}{F4}{C0}
+Take: {14}{35}{EC}{C0}
+Discard: {14}{35}{F8}{C0}<0B:00000000>
+Or return everything to the chest.
 -----------------------

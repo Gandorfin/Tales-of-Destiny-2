@@ -80,8 +80,9 @@ notice
 -----------------------
 #{16}{25}{CA}{C0}がありましたが
 #いっぱいで持てませんでした
-Found {16}{25}{CA}{C0}, but inventory is full already.
-There's nothing here.
+Found:
+{16}{25}{CA}{C0}
+Inventory full. Couldn't take it.
 -----------------------
 notice
 -----------------------

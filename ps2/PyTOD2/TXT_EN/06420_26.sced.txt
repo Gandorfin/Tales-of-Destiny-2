@@ -12,7 +12,7 @@ Please wait a moment.
 #レース中ですが中断しますか？<03:00000000>
 #　はい
 #　いいえ
-Do you want to pause during the race?<03:00000000>
+Stop the race?<03:00000000>
 Yes
 No
 -----------------------

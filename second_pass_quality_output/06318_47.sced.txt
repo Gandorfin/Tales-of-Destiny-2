@@ -142,8 +142,9 @@ know!?
 -----------------------
 #でも、<Loni>は探そうと思ってるんでしょ？
 #だから、護衛役を引き受けたんだよね？
-But you're planning to look for <Loni>, right?
-That's why you took the escort job?
+But you're planning to look for
+<Loni>, right? That's why you took
+the escort job?
 -----------------------
 <Loni>
 -----------------------
@@ -159,7 +160,8 @@ And knowing <Loni>...
 -----------------------
 #「<Kyle>やルーティさんに
 #  メイワクはかけられない」
-"Can't cause trouble for <Kyle> and Rutee..."
+"Can't cause trouble for <Kyle> and
+Rutee..."
 -----------------------
 <Kyle>
 -----------------------
@@ -178,8 +180,8 @@ Grrgh!
 -----------------------
 #それこそ水くさいよ！
 #<Loni>と、オレの仲じゃないか！
-Now that's just cold!
-Me and you, we're practically brothers, <Loni>!
+Now that's just cold! Me and you,
+we're practically brothers, <Loni>!
 -----------------------
 <Loni>
 -----------------------
@@ -210,9 +212,8 @@ But! Only if Rutee says it's okay.
 #分かってるって！
 #じゃ、さっそく母さんに話さなくっちゃ
 #行こう、<Loni>！
-I know, I know!
-Then I gotta go talk to Mom right away.
-Let's go, <Loni>!
+I know, I know! Then I gotta go talk
+to Mom right away. Let's go, <Loni>!
 -----------------------
 notice
 -----------------------
@@ -631,9 +632,9 @@ It's like I killed him myself.
 #しかも、そのことをずっと隠してた
 #知らないほうがいい、そのほうが
 #<Kyle>のためだって････
-And I hid it from you the whole time.
-Better you didn't know.
-For <Kyle>'s sake...
+And I hid it from you the whole
+time. Better you didn't know. For
+<Kyle>'s sake...
 -----------------------
 <Loni>
 -----------------------
@@ -791,8 +792,8 @@ or whatever.
 -----------------------
 #ね、<Kyle>
 #ちょっとつきあってほしい場所があるんだけど
-Hey, <Kyle>...
-There's somewhere I want you to come with me.
+Hey, <Kyle>... There's somewhere I
+want you to come with me.
 -----------------------
 <Kyle>
 -----------------------
@@ -820,8 +821,8 @@ I want to go...
 -----------------------
 #行ってこいよ、<Kyle>
 #イクシフォスラーの改造が済んだら知らせてやるから
-Go on, <Kyle>.
-I'll let you know when the Ixphlosla's ready.
+Go on, <Kyle>. I'll let you know when
+the Ixphlosla's ready.
 -----------------------
 <Kyle>
 -----------------------
@@ -945,8 +946,10 @@ notice
 -----------------------
 #子供たちとにわとりから<num:00000014>秒逃げて下さい
 #マップの外に出たら無条件で負けになります
-Run away from the children and chickens for <num:00000014> seconds.
-Leaving the map will result in an automatic loss.
+Run from the children and chickens
+for
+<num:00000014> seconds.
+Leave the map and you lose.
 -----------------------
 NOTICE
 -----------------------
@@ -1040,7 +1043,8 @@ All right!
 #<Kyle>がサボっているせいで
 #マキ置き場には、一本もマキが無い････
 <Kyle>'s slacking off, so...
-there isn't a single log in the woodpile...
+there isn't a single log in the
+woodpile...
 -----------------------
 <Kyle>
 -----------------------

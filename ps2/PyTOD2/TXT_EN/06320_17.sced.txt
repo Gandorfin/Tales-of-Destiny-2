@@ -12,9 +12,9 @@ Cinnamon sleeps here now.
 #昔のテストがしまわれていた
 #<Loni>：数学３５点
 #<Kyle>：歴史２８点
-Old test papers are stashed away here.
-<Loni>: Math, 35 points
-<Kyle>: History, 28 points
+Old test papers are stashed away
+here. <Loni>: Math, 35 points <Kyle>:
+History, 28 points
 -----------------------
 <char:000003E8>
 -----------------------
@@ -43,9 +43,9 @@ Tonya
 #もう、<Kyle>ってば
 #歩きながら眠らないでよ
 #ゾンビみたいで、こわいでしょ！
-Geez, <Kyle>...
-Don't sleep while you're walking!
-You look like a zombie, and it's scary!
+Geez, <Kyle>... Don't sleep while
+you're walking! You look like a
+zombie, and it's scary!
 -----------------------
 #トニア
 Tonya
@@ -185,9 +185,9 @@ Yuni
 #えへへ～★
 #みんなの服、あたしが作ってるんだよ
 #<Loni>にも、なにか作ったげようか？
-Ehehe~★
-I make clothes for everyone, you know.
-Can I make something for <Loni> too?
+Ehehe~★ I make clothes for everyone,
+you know. Can I make something for
+<Loni> too?
 -----------------------
 #ユニー
 Yuni
@@ -392,8 +392,8 @@ I've got morning chores to do...
 #それよりも
 #レンズを手に入れるのが先だろ
 #早く行こうぜ、<Loni>････
-Anyway, we've gotta get that Lens first.
-C'mon, <Loni>...
+Anyway, we've gotta get that Lens
+first. C'mon, <Loni>...
 -----------------------
 <Loni>
 -----------------------
@@ -442,9 +442,9 @@ Basil
 #あっ、<Kyle>さんだ
 #おかえりなさい！
 #冒険もいいけど、ムリは禁物ですよ
-Oh, it's <Kyle>!
-Welcome back!
-Adventures are great, but don't overdo it, okay?
+Oh, it's <Kyle>! Welcome back!
+Adventures are great, but don't
+overdo it, okay?
 -----------------------
 <Kyle>
 -----------------------

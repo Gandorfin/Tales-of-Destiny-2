@@ -141,9 +141,8 @@ Soldier
 #<Kyle>さん！
 #ここよりも、謁見の間へ！
 #陛下を、お助けください!!
-<Kyle>!
-We need to get to the audience chamber!
-Please, help His Majesty!!
+<Kyle>! We need to get to the audience
+chamber! Please, help His Majesty!!
 -----------------------
 #兵士
 Soldier
@@ -209,8 +208,8 @@ Soldier
 -----------------------
 #さぁ、<Kyle>さん
 #謁見の間に、急いでください！
-Now, <Kyle>,
-please hurry to the audience chamber!
+Now, <Kyle>, please hurry to the
+audience chamber!
 -----------------------
 #兵士
 Soldier
@@ -665,8 +664,8 @@ if he'd hear us out?
 -----------------------
 #スタンの息子の、<Kyle>が来た
 #そう言ってもらえれば、わかるはずだ
-Tell him that <Kyle>, son of Stahn, is here.
-He'll understand.
+Tell him that <Kyle>, son of Stahn,
+is here. He'll understand.
 -----------------------
 #兵士
 Soldier
@@ -984,8 +983,9 @@ Stahn's son. Don't deny it.
 #あの瞬間から、連中は
 #<Kyle>を<Kyle>としてではなく
 #「スタンの息子」として見だしたんだ
-From that moment on, they stopped seeing <Kyle> as <Kyle>.
-They only saw him as "Stahn's son."
+From that moment on, they stopped
+seeing <Kyle> as <Kyle>. They only saw
+him as "Stahn's son."
 -----------------------
 <Loni>
 -----------------------
@@ -1001,8 +1001,9 @@ I had no choice...
 #なら、結果として
 #<Kyle>がああなったのも
 #しかたがないということだ
-Then by that logic,
-it's only natural that <Kyle> ended up like this.
+Then by that logic, it's only
+natural that <Kyle> ended up like
+this.
 -----------------------
 <Loni>
 -----------------------
@@ -1108,8 +1109,9 @@ notice
 -----------------------
 #{16}{25}{CE}{C0}がありましたが
 #いっぱいで持てませんでした
-Found {16}{25}{CE}{C0}, but
-it couldn't be carried because your inventory is full.
+Found:
+{16}{25}{CE}{C0}
+Inventory full. Couldn't take it.
 -----------------------
 notice
 -----------------------

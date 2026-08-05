@@ -58,8 +58,9 @@ Garr
 -----------------------
 #善後策については我々で協議する････
 #明日まで待ってくれ、<Kyle>くん
-We'll discuss contingency plans among ourselves...
-Please wait until tomorrow, <Kyle>.
+We'll discuss contingency plans
+among ourselves... Please wait until
+tomorrow, <Kyle>.
 -----------------------
 #ウッドロウ
 Garr
@@ -97,8 +98,8 @@ Garr
 -----------------------
 #<Kyle>くん、何があったのだ？
 #<Harold>くんが探していたようだが････
-<Kyle>, what happened?
-It seems <Harold> was looking for you, but...
+<Kyle>, what happened? It seems <Harold>
+was looking for you, but...
 -----------------------
 #ウッドロウ
 Garr
@@ -148,8 +149,8 @@ Welcome to our kingdom.
 -----------------------
 #はじめまして、ウッドロウ王
 #<Kyle>＝デュナミスです！
-It's an honor to meet you, King Garr!
-I'm <Kyle> Dunamis!
+It's an honor to meet you, King
+Garr! I'm <Kyle> Dunamis!
 -----------------------
 #ウッドロウ
 Garr
@@ -219,9 +220,9 @@ Garr
 #普通に、さんづけで呼んでくれていい
 #私も、<Kyle>くんと
 #呼ばせてもらうよ
-Feel free to call me whatever you're comfortable with.
-I'll call you <Kyle>,
-if that's all right.
+Feel free to call me whatever you're
+comfortable with. I'll call you
+<Kyle>, if that's all right.
 -----------------------
 <Kyle>
 -----------------------
@@ -329,9 +330,9 @@ Garr
 #<Kyle>くん
 #また、いつでも遊びに来たまえ
 #いつでも君を歓迎する
-<Kyle>,
-you are always welcome here.
-We will receive you warmly at any time.
+<Kyle>, you are always welcome here.
+We will receive you warmly at any
+time.
 -----------------------
 #ウッドロウ
 Garr
@@ -766,8 +767,9 @@ Garr
 -----------------------
 #もし、忘れそうになったら、となりにいる
 #<Kyle>くんを、見ればいい
-If you ever feel like you're forgetting,
-just look at <Kyle> here beside you.
+If you ever feel like you're
+forgetting, just look at <Kyle> here
+beside you.
 -----------------------
 #ウッドロウ
 Garr
@@ -901,9 +903,9 @@ Barbatos
 #ほう、また会ったな、小僧！
 #<Kyle>といったか
 #貴様とは、みょうな縁があるらしい
-Ho? We meet again, brat!
-Your name was <Kyle>, wasn't it?
-Fate seems to bind us together, you and I.
+Ho? We meet again, brat! Your name
+was <Kyle>, wasn't it? Fate seems to
+bind us together, you and I.
 -----------------------
 <Kyle>
 -----------------------
@@ -918,8 +920,8 @@ Barbatos
 #俺の目的は達した！
 #あとは、あの女が勝手にすること
 #さらばだ、<Kyle>！
-My objective is achieved!
-Now that woman may do as she pleases.
+My objective is achieved! Now
+that woman may do as she pleases.
 Farewell, <Kyle>!
 -----------------------
 <Kyle>
@@ -1188,9 +1190,8 @@ Guard
 #<Kyle>さん！
 #安心してください、応急手当は
 #すでにすませてあります
-<Kyle>!
-Don't worry, I've already administered
-first aid.
+<Kyle>! Don't worry, I've already
+administered first aid.
 -----------------------
 #衛兵
 Guard
@@ -1469,8 +1470,8 @@ hurry and help her!
 -----------------------
 #おい、<Kyle>！
 #早くしないと、やばいんだぞ！
-Hey, <Kyle>!
-If we don't hurry, we're in deep trouble!
+Hey, <Kyle>! If we don't hurry, we're
+in deep trouble!
 -----------------------
 <Judas>
 -----------------------
@@ -1552,8 +1553,8 @@ thought I'd see eye to eye with him.
 -----------------------
 #どうしたんだよ、<Kyle>？
 #ウジウジ悩むなんて、お前らしくないぜ
-What's wrong, <Kyle>?
-Wringing your hands like that ain't like you.
+What's wrong, <Kyle>? Wringing your
+hands like that ain't like you.
 -----------------------
 <Loni>
 -----------------------
@@ -1573,9 +1574,9 @@ and simple.
 #オレはもう必要とされてないかもしれない
 #英雄じゃないオレは、<Reala>にとって
 #どうでもいい存在かもしれない
-Maybe I'm not needed anymore.
-I'm no hero, so to <Reala>, I'm probably just...
-someone who doesn't matter.
+Maybe I'm not needed anymore. I'm
+no hero, so to <Reala>, I'm probably
+just... someone who doesn't matter.
 -----------------------
 <Kyle>
 -----------------------
@@ -1593,8 +1594,8 @@ So, everyone...
 -----------------------
 #････行こうぜ、<Kyle>
 #こうなりゃ、とことん、つきあってやるよ
-...Let's go, <Kyle>.
-You know I'll stick with you till the bitter end.
+...Let's go, <Kyle>. You know I'll
+stick with you till the bitter end.
 -----------------------
 <Nanaly>
 -----------------------
@@ -1652,8 +1653,8 @@ Woodrow
 -----------------------
 #<Kyle>くん
 #君はスタンのような英雄になりたいと言ったね
-<Kyle>,
-didn't you say you wanted to become a hero like Stahn?
+<Kyle>, didn't you say you wanted to
+become a hero like Stahn?
 -----------------------
 #ウッドロウ
 Woodrow
@@ -1779,8 +1780,8 @@ Woodrow
 -----------------------
 #行きたまえ、<Kyle>くん
 #他のだれでもない、彼女の英雄となるために！
-Go forth, <Kyle>.
-Become her hero--no one else but you!
+Go forth, <Kyle>. Become her hero--no
+one else but you!
 -----------------------
 <Kyle>
 -----------------------
@@ -1818,8 +1819,8 @@ Woodrow
 -----------------------
 #彼は、すでに、<Kyle>＝デュナミスという
 #ひとりの男なのだから････
-He is already a man named <Kyle> Dunamis.
-So...
+He is already a man named <Kyle>
+Dunamis. So...
 -----------------------
 notice
 -----------------------
@@ -1917,9 +1918,9 @@ Woodrow
 #おお、<Kyle>くん
 #それにみなも････
 #どうやら無事に目的を果たしたようだな
-Ah, <Kyle>.
-And everyone else as well...
-It seems you've accomplished your goal safely.
+Ah, <Kyle>. And everyone else as
+well... It seems you've accomplished
+your goal safely.
 -----------------------
 <Kyle>
 -----------------------
@@ -1960,8 +1961,9 @@ Woodrow
 -----------------------
 #ファンダリアの民を代表して、礼を言う
 #ありがとう、<Kyle>くん
-On behalf of the people of Phandaria, I thank you.
-Thank you, <Kyle>.
+On behalf of the people of
+Phandaria, I thank you. Thank you,
+<Kyle>.
 -----------------------
 <Kyle>
 -----------------------
@@ -2082,8 +2084,8 @@ Garr
 -----------------------
 #<Kyle>くん
 #君なら、この状況をどうするかね？
-<Kyle>!
-If it were you, how would you handle this situation?
+<Kyle>! If it were you, how would you
+handle this situation?
 -----------------------
 <Kyle>
 -----------------------

@@ -381,7 +381,10 @@ Chef
 -----------------------
 #{16}{34}{7C}{C0}を作るのに必要な食材は
 #{18}{44}{78}{C0}です
-The ingredients needed to make {16}{34}{7C}{C0} are {18}{44}{78}{C0}.
+To make
+{16}{34}{7C}{C0}
+you need
+{18}{44}{78}{C0}
 -----------------------
 #シェフ
 Chef
@@ -395,7 +398,10 @@ Chef
 -----------------------
 #ゆずってくれれば{16}{34}{7C}{C0}を
 #作るがどうだい？
-If you let me have them, I'll make {16}{34}{7C}{C0} for you. How about it?
+I'll make
+{16}{34}{7C}{C0}
+if you provide the ingredients.
+Interested?
 -----------------------
 select
 -----------------------
@@ -506,8 +512,9 @@ notice
 -----------------------
 #{16}{25}{E6}{C0}がありましたが
 #いっぱいで持てませんでした
-Found {16}{25}{E6}{C0}, but
-couldn't carry it because your inventory is full.
+Found:
+{16}{25}{E6}{C0}
+Inventory full. Couldn't take it.
 -----------------------
 notice
 -----------------------

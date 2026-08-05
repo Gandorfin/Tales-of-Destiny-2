@@ -6,15 +6,19 @@ Er'ther Base Ruins
 -----------------------
 #<item:00000031>が入っていた切りかぶある
 #何か不思議な力を持っているようだ
-<item:00000031> is embedded in a stump here.
-It seems to radiate some mysterious power.
+A strange stump holds
+<item:00000031>.
+It seems to possess a mysterious
+power.
 -----------------------
 NOTICE
 -----------------------
 #不思議な切りかぶの上に<item:00000031>があります
 #この<item:00000031>を持っていきますか？
-There is an <item:00000031> on top of that strange stump.
-Take this <item:00000031>?
+On that strange stump:
+<item:00000031>.
+Take this:
+<item:00000031>?
 -----------------------
 select
 -----------------------

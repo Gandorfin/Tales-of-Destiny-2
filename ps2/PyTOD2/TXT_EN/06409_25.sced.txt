@@ -591,8 +591,10 @@ Chef
 -----------------------
 #ゆずってくれれば{16}{34}{88}{C0}を
 #作るがどうだい？
-If you hand them over, I'll make {16}{34}{88}{C0} for you.
-What do you say?
+I'll make
+{16}{34}{88}{C0}
+if you provide the ingredients.
+Interested?
 -----------------------
 select
 -----------------------

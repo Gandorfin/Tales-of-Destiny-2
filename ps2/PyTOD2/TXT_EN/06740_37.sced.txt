@@ -134,9 +134,9 @@ Stahn
 #どうした、<Kyle>！
 #剣先がだんだん下がってきてるぞ！
 #もうバテたのか!?
-What's wrong, <Kyle>!
-Your sword tip's drooping lower and lower!
-You worn out already!?
+What's wrong, <Kyle>! Your sword tip's
+drooping lower and lower! You worn
+out already!?
 -----------------------
 <Kyle>
 -----------------------
@@ -531,8 +531,9 @@ notice
 -----------------------
 #{16}{26}{82}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{26}{82}{C0}You found , but
-your inventory was full, so you couldn't take it.
+Found:
+{16}{26}{82}{C0}
+Inventory full. Couldn't take it.
 -----------------------
 notice
 -----------------------
@@ -561,8 +562,8 @@ All right!
 -----------------------
 #<Kyle>がサボっているせいで
 #マキ置き場には、一本もマキが無い････
-<Kyle>'s slacking off, so...
-there's not a single log in the woodpile...
+<Kyle>'s slacking off, so... there's
+not a single log in the woodpile...
 -----------------------
 <Kyle>
 -----------------------

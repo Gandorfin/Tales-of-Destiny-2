@@ -411,8 +411,9 @@ likely connected to the military.
 -----------------------
 #しかも、機械を扱っているということは
 #<Harold>博士の助手かもしれん
-Moreover, if she works with machines,
-she might even be Dr. <Harold>'s assistant.
+Moreover, if she works with
+machines, she might even be Dr.
+<Harold>'s assistant.
 -----------------------
 <Kyle>
 -----------------------
@@ -437,9 +438,11 @@ of Elrane's involvement as well.
 #それに博士は、軍師カーレルの双子の弟だ
 #軍関係の情報も詳しいだろう
 #やはり、<Harold>博士に面会を････
-Besides, the doctor is the younger twin
-of Strategist Karell. She should have detailed
-knowledge of military affairs too. We must meet with Dr. <Harold>...
+Besides, the doctor is the younger
+twin of Strategist Karell. She
+should have detailed knowledge of
+military affairs too. We must meet
+with Dr. <Harold>...
 -----------------------
 #？？？？
 ????
@@ -493,9 +496,9 @@ That's me, isn't it?
 #････あんたじゃねえよ
 #あんたの上司････かどうかは知らねえが
 #<Harold>博士って、知ってるんだろ？
-...Not you.
-I don't know if she's your boss or what,
-but you know Dr. <Harold>, right?
+...Not you. I don't know if she's
+your boss or what, but you know
+Dr. <Harold>, right?
 -----------------------
 <Judas>
 -----------------------
@@ -534,9 +537,10 @@ Now then, talk.
 #お、おいおい、話が違うじゃねーか！
 #俺たちは、<Harold>博士に
 #話があってだな････
-H-Hold on, that's not what we agreed!
-We're here to see Dr. <Harold>,
-so we've got business with her...
+H-Hold on, that's not what we
+agreed! We're here to see Dr.
+<Harold>, so we've got business with
+her...
 -----------------------
 #？？？？
 ????
@@ -706,9 +710,9 @@ Dr. <Harold>...
 #あぁ、<Harold>でいいわよ
 #「博士」って、言葉の響きが硬すぎて
 #かわいくないし
-Ahh, <Harold> is fine.
-The title 'Doctor' sounds way too stiff.
-And it's not cute at all.
+Ahh, <Harold> is fine. The title
+'Doctor' sounds way too stiff. And
+it's not cute at all.
 -----------------------
 <Nanaly>
 -----------------------
@@ -815,9 +819,9 @@ Soldier
 #<Harold>博士
 #リトラー総司令がお呼びです
 #すぐに「作戦会議室」へ出頭してください
-Dr. <Harold>!
-Commander Raiker is calling for you.
-Please report to the Operations Room at once.
+Dr. <Harold>! Commander Raiker is
+calling for you. Please report to
+the Operations Room at once.
 -----------------------
 <Kyle>
 -----------------------
@@ -837,9 +841,10 @@ Officer
 #<size:0000019C>天上軍と地上軍！
 #この戦争に勝つのは
 #どちらであるかっ！
-<size:0000019C>The Aeth'er Army versus the Er'ther Army!
-Who will emerge victorious
-from this war?!
+<size:0000019C>Aeth'er Army vs
+Er'ther Army!
+Who will win
+this war?!
 -----------------------
 #下士官Ａ
 Sergeant A
@@ -865,7 +870,8 @@ Officer
 #<size:0000019C>リトラー総司令と
 #ラディスロウに向けて
 #万歳三唱！
-<size:0000019C>Three cheers for Commander-in-Chief Raiker
+<size:0000019C>Three cheers for
+Commander Raiker
 and Radisrol!
 -----------------------
 #士官
@@ -874,9 +880,10 @@ Officer
 #<size:0000019C>天上軍と地上軍！
 #この戦争に勝つのは
 #どちらであるかっ！
-<size:0000019C>The Aeth'er Army versus the Er'ther Army!
-Who will emerge victorious
-from this war?!
+<size:0000019C>Aeth'er Army vs
+Er'ther Army!
+Who will win
+this war?!
 -----------------------
 #下士官Ａ
 Sergeant A
@@ -901,7 +908,8 @@ Officer
 -----------------------
 #<size:0000019C>ソーディアン諸兄に
 #対して万歳三唱！
-<size:0000019C>Three cheers for our Swordian brethren!
+<size:0000019C>Three cheers for
+our Swordians!
 -----------------------
 #下士官Ａ
 Sergeant A
@@ -1344,9 +1352,9 @@ Soldier
 #<Harold>博士
 #リトラー総司令がお呼びです
 #すぐに「作戦会議室」へ出頭してください
-Dr. <Harold>!
-Commander Raiker is calling for you.
-Please report to the Operations Room immediately.
+Dr. <Harold>! Commander Raiker is
+calling for you. Please report to
+the Operations Room immediately.
 -----------------------
 <Harold>
 -----------------------
@@ -1425,8 +1433,9 @@ We sell <item:00000012> here.
 -----------------------
 #<item:00000012>を使ってリファインすると
 #ステキな物が作られることがあるようです
-If you Refine using <item:00000012>,
-you can sometimes make something wonderful.
+Refining with
+<item:00000012>
+may create something wonderful.
 -----------------------
 #武器や鎧をリファインすると
 #付加能力が引継がれることがあるようです
@@ -1516,8 +1525,10 @@ To perform Refine, you'll need
 -----------------------
 #<item:00000012>は、各地にいる
 #私たちルーンボトル屋からお求めください
-You can purchase <item:00000012> from us Rune Bottle vendors
-found in various locations.
+Buy
+<item:00000012>
+from Rune Bottle merchants found
+throughout the world.
 -----------------------
 #レンズはモンスターと
 #戦えば拾うことができます
@@ -1537,15 +1548,17 @@ to change it into a different item.
 #<item:00000002>に変化し
 #逆に、<item:00000002>にリファインを行うと
 #<item:00000001>に変化します
-For example, refining <item:00000001> will transform it into
-<item:00000002>.
-Conversely, refining <item:00000002> will change it into
-<item:00000001>.
+Refine <item:00000001>
+into <item:00000002>.
+Reverse:
+Refine <item:00000002>
+into <item:00000001>.
 -----------------------
 #また、装備品単体をリファインすることによって
 #<item:00000001>などのアイテムにも変化します
-You can also refine individual equipment pieces
-into items such as <item:00000001>.
+Refining equipment alone can
+turn it into items such as
+<item:00000001>.
 -----------------------
 #ダンジョンなどでアイテムが尽きてしまった時などに
 #行うと、有効な場合もあります
@@ -1625,9 +1638,10 @@ These are the most common examples.
 #スロットによって装備品の名前も変わります
 #<item:00000078>　＋　アタックで
 #アタックソードなどです
-Equipment names also change based on their slots.
-<item:00000078> + Attack becomes
-an Attack Sword, for example.
+Slots can change equipment names.
+Combine
+<item:00000078>
+with Attack to make an Attack Sword.
 -----------------------
 #また、スロットにはレベルがあり
 #レベルが高いと効果も上昇します

@@ -100,9 +100,8 @@ place until then, right?!
 #来たな････！
 #けど、<Harold>には指一本
 #触れさせないぞ！
-You're here...!
-But I won't let you lay a single finger
-on <Harold>!
+You're here...! But I won't let you
+lay a single finger on <Harold>!
 -----------------------
 #女だと思って甘く見てると
 #大ケガすることになるよ
@@ -138,7 +137,11 @@ As long as you can still run your mouth, I'm relieved.
 Keep that fire burning as long as you can.
 -----------------------
 #<0B:00000001>あと{14}{34}{04}{A0}{10}{0E}{C8}{C0}分{14}{34}{04}{A0}{10}{0E}{C9}{90}{3C}{C8}{C0}秒かせいでね☆<0B:00000000>
-<0B:00000001>Work hard for another {14}{34}{04}{A0}{10}{0E}{C8}{C0} minutes and {14}{34}{04}{A0}{10}{0E}{C9}{90}{3C}{C8}{C0} seconds!☆<0B:00000000>
+<0B:00000001>Time remaining:
+{14}{34}{04}{A0}{10}{0E}{C8}{C0}
+minutes
+{14}{34}{04}{A0}{10}{0E}{C9}{90}{3C}{C8}{C0}
+seconds!☆<0B:00000000>
 -----------------------
 #<0B:00000001>あと{14}{34}{04}{A0}{10}{0E}{C9}{90}{3C}{C8}{C0}秒かせいでね☆<0B:00000000>
 <0B:00000001>Just {14}{34}{04}{A0}{10}{0E}{C9}{90}{3C}{C8}{C0} seconds left! ☆<0B:00000000>
@@ -165,8 +168,9 @@ Heh-heh-hmm, hmm~♪
 -----------------------
 #のんきに鼻歌なんて歌ってんなよ！
 #聞いてるのか、<Harold>!?
-Quit humming to yourself so casually!
-You listening to me, <Harold>?!
+Quit humming to yourself so
+casually! You listening to me,
+<Harold>?!
 -----------------------
 <Harold>
 -----------------------
@@ -248,8 +252,9 @@ notice
 -----------------------
 #{16}{26}{26}{C0}がありましたが
 #いっぱいで持てませんでした
-Found {16}{26}{26}{C0}, but
-it couldn't be carried because inventory is full.
+Found:
+{16}{26}{26}{C0}
+Inventory full. Couldn't take it.
 -----------------------
 notice
 -----------------------

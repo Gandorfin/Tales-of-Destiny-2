@@ -76,12 +76,16 @@ notice
 #<button:00000029>、<button:00000029>で動かずに向きだけを
 #変えることができます{02}こまめにセーブしましょう{02}
 Press SELECT on the menu screen to
-display the help window.{02} Move the cursor to a character in the menu
-and press <button:00000028> to select them, then move to another slot
-and press <button:00000028> again to swap positions.{02} Forests, deserts, and wastelands on the field have a high enemy encounter rate,
-so try to avoid them when possible.{02} Weapons and armor won't do any good if you don't equip them.{02} As a handy trick for later...
-by using <button:00000029> and <button:00000029>, you can change your facing
-without moving.{02} Be sure to save often.{02}
+display the help window.{02}Move the cursor to a character in
+the menu and press <button:00000028> to select
+them, then move to another slot and
+press <button:00000028> again to swap positions.{02}Forests, deserts, and wastelands
+on the field have a high enemy
+encounter rate, so try to avoid
+them when possible.{02}Weapons and armor won't do any good
+if you don't equip them.{02}As a handy trick for later... by
+using <button:00000029> and <button:00000029>, you can change your
+facing without moving.{02}Be sure to save often.{02}
 -----------------------
 notice
 -----------------------
@@ -95,8 +99,9 @@ Woman
 #<Loni>、あんたに会えるなんて
 #これも、アタモニさまのお導きかね？
 Well, well, on such a beautiful day
-<Loni>, I never thought I'd get to see you,
-Is this also the divine guidance of Lord Atamoni?
+<Loni>, I never thought I'd get to
+see you, Is this also the divine
+guidance of Lord Atamoni?
 -----------------------
 <Loni>
 -----------------------
@@ -528,8 +533,8 @@ Flippin' Joe
 -----------------------
 #らしくないぜ<Kyle>
 #お前に暗い顔は似合わないぞ？
-That's not like you, <Kyle>.
-A gloomy face doesn't suit you, yeah?
+That's not like you, <Kyle>. A gloomy
+face doesn't suit you, yeah?
 -----------------------
 #めくりのジョー
 Flippin' Joe
@@ -749,9 +754,9 @@ Girl
 #ふたりとも、旅に出るんですってね
 #<Loni>！
 #あなたは特に気をつけるのよ！
-So you two are heading out on a journey, huh?
-<Loni>!
-You'd better be especially careful!
+So you two are heading out on a
+journey, huh? <Loni>! You'd better be
+especially careful!
 -----------------------
 <Loni>
 -----------------------
@@ -902,9 +907,9 @@ Bucket Man
 #どうしたんだよ、<Kyle>？
 #めずらしく帰ってきたと思ったら
 #シケた顔しやがって
-What's wrong, <Kyle>?
-You finally come home for once,
-and you've got that gloomy look on your face.
+What's wrong, <Kyle>? You finally come
+home for once, and you've got that
+gloomy look on your face.
 -----------------------
 #バケツおじさん
 Bucket Man
@@ -1108,9 +1113,9 @@ Woman
 #あら、<Kyle>
 #あそびにいくの？
 #たまには、手伝いもしなきゃダメよ
-Oh, <Kyle>.
-Going out to play?
-You need to help out once in a while, you know.
+Oh, <Kyle>. Going out to play? You
+need to help out once in a while,
+you know.
 -----------------------
 <Kyle>
 -----------------------
@@ -1144,9 +1149,9 @@ Woman
 #<Kyle>、あんまりムリしないでね
 #<Loni>は<Kyle>に
 #へんなあそびばかり教えちゃダメよ
-<Kyle>, don't push yourself too hard, okay?
-<Loni>, don't teach <Kyle>
-nothing but weird games.
+<Kyle>, don't push yourself too hard,
+okay? <Loni>, don't teach <Kyle> nothing
+but weird games.
 -----------------------
 <Loni>
 -----------------------
@@ -1296,8 +1301,8 @@ Man
 -----------------------
 #お、<Kyle>
 #冒険に出るってのはホントか？
-Oh, <Kyle>!
-Is it true you're headin' out on an adventure?
+Oh, <Kyle>! Is it true you're headin'
+out on an adventure?
 -----------------------
 <Kyle>
 -----------------------
@@ -1749,8 +1754,10 @@ To perform Refining, you'll need
 -----------------------
 #<item:00000012>は、各地にいる
 #私たちルーンボトル屋からお求めください
-<item:00000012> can be purchased from us Rune Bottle
-merchants, found in various locations.
+Buy
+<item:00000012>
+from Rune Bottle merchants found
+throughout the world.
 -----------------------
 #レンズはモンスターと
 #戦えば拾うことができます
@@ -1780,8 +1787,9 @@ changes it into <item:00000001>.
 -----------------------
 #また、装備品単体をリファインすることによって
 #<item:00000001>などのアイテムにも変化します
-You can also refine individual pieces of equipment
-into items such as <item:00000001>.
+Refining equipment alone can
+turn it into items such as
+<item:00000001>.
 -----------------------
 #ダンジョンなどでアイテムが尽きてしまった時などに
 #行うと、有効な場合もあります
@@ -1864,9 +1872,10 @@ These are the most common examples.
 #スロットによって装備品の名前も変わります
 #<item:00000078>　＋　アタックで
 #アタックソードなどです
-Equipment names also change based on their slots.
-<item:00000078> + Attack
-becomes something like an Attack Sword.
+Slots can change equipment names.
+Combine
+<item:00000078>
+with Attack to make an Attack Sword.
 -----------------------
 #また、スロットにはレベルがあり
 #レベルが高いと効果も上昇します
@@ -1995,13 +2004,16 @@ Now then, we're about to set off on our adventure.
 Have you got the basics down?
 -----------------------
 #もちろんさ、<button:00000045>で武器攻撃しまくりさ!!
-Of course! I'll be swinging my weapon like crazy with <button:00000045>!!
+Of course! I'll be swinging my
+weapon like crazy with <button:00000045>!!
 -----------------------
 #まあそうだが方向キー<button:00000006>、<button:00000021>、<button:00000016>、<button:00000017>
 #と組み合わせることによって、
 #四種類の攻撃が出るぞ！
-Well, yes, but by combining it with the directional buttons <button:00000006>, <button:00000021>, <button:00000016>, and <button:00000017>,
-you can unleash four different types of attacks!
+Well, yes, but by combining it with
+the directional buttons <button:00000006>, <button:00000021>,
+<button:00000016>, and <button:00000017>, you can unleash four
+different types of attacks!
 -----------------------
 #まずは実際に何度か繰り出してみて、
 #速度や射程を覚えていくといいな
@@ -2015,16 +2027,17 @@ How do I do a combo attack?
 #もちろん方向キー<button:00000006>、<button:00000021>、<button:00000016>、<button:00000017>
 #により攻撃方法は変わるぞ
 Press <button:00000045> again during your attack.
-Of course, the directional buttons <button:00000006>, <button:00000021>, <button:00000016>, and <button:00000017>
-will change your attack pattern.
+Of course, the directional buttons
+<button:00000006>, <button:00000021>, <button:00000016>, and <button:00000017> will change your
+attack pattern.
 -----------------------
 #攻撃をするとスピリッツゲージが減る
 #（ＳＰ　戦闘中の<color:00000001>青いゲージ<color:00000007>です）
 #減りすぎたら攻撃を控えて、
 #回復を待ったほうがいい
-Attacking depletes your Spirit Gauge.
-(SP: the blue gauge <color:00000001> in battle <color:00000007>.)
-If it drops too low, ease up on attacks
+Attacks drain the Spirit Gauge.
+(SP is the <color:00000001>blue gauge<color:00000007> in battle.)
+If it gets too low, ease up
 and wait for it to recover.
 -----------------------
 #なんでさ？　しまくりゃいいさ
@@ -2041,8 +2054,9 @@ so watch it.
 -----------------------
 #防御が成功するとＳＰが多く回復するから、
 #防御<button:00000047>も大切ということだな
-A successful guard restores a lot of SP,
-so guarding with <button:00000047> is important too.
+A successful guard restores a
+lot of SP, so guarding with <button:00000047> is
+important too.
 -----------------------
 notice
 -----------------------
@@ -2061,17 +2075,20 @@ Opened up your strategic options, right?
 #特技<button:00000046>はつえーけどＴＰがすぐなくなるさ
 #戦闘中も自動的に回復するけど、
 #まだ貧弱なので速度が遅いさ
-Base Artes <button:00000046> pack a punch, but TP runs out fast.
-It recovers automatically in battle,
-but your pool's still small, so it's slow going.
+Base Artes <button:00000046> pack a punch, but
+TP runs out fast. It recovers
+automatically in battle, but your
+pool's still small, so it's slow
+going.
 -----------------------
 #それはそうだ　そこで重要なのが
 #<button:00000045>の通常攻撃となるわけだ
 #一回通常攻撃がヒットすると、
 #ＴＰが１回復するぞ
-Right. That's where <button:00000045>'s normal attacks come in.
-Land a single normal attack,
-and you'll recover 1 TP.
+Right. That's where <button:00000045>'s normal
+attacks come in. Land a single
+normal attack, and you'll recover
+1 TP.
 -----------------------
 #じゃあ通常攻撃<button:00000045>しまくりさ
 Then I'll just spam normal attacks <button:00000045>.
@@ -2415,9 +2432,9 @@ our recovery rates will drop.
 #意に反して敵の右側に回ってしまった
 #ときは<button:00000047>＋<button:00000019>のバックステップで
 #左側に戻るといいだろう
-If you accidentally end up on the enemy's right,
-use a backstep with <button:00000047> + <button:00000019>
-to get back to their left.
+If you accidentally end up on the
+enemy's right, use a backstep with
+<button:00000047> + <button:00000019> to get back to their left.
 -----------------------
 #そりゃあ裏には回らないほうがいいさ
 Yeah, better not circle around back there.
@@ -2487,8 +2504,9 @@ There seem to be foods and items that can prevent them too.
 -----------------------
 #後の祭りじゃあ　毒<button:00000056>に麻痺<button:0000005F>に衰弱<button:0000005A>に凍結に
 #鈍足でもうへとへとじゃあ
-After the fact? Poison <button:00000056>, paralysis <button:0000005F>, weakness <button:0000005A>, and freezing.
-Even Slow has me completely wiped out.
+After the fact? Poison <button:00000056>, paralysis
+<button:0000005F>, weakness <button:0000005A>, and freezing. Even
+Slow has me completely wiped out.
 -----------------------
 #うそはいけません父さん
 #ステータス異常は一人につき四つまでしか効果は
@@ -2841,8 +2859,9 @@ listen in?
 -----------------------
 #慣れてきたから最近は通常攻撃は
 #<button:00000045>だけ叩きっぱなしさ
-I've gotten used to it, so lately I've just been
-hammering away with <button:00000045> alone.
+I've gotten used to it, so lately
+I've just been hammering away with
+<button:00000045> alone.
 -----------------------
 #まったくなっとらんな
 You really don't get it.
@@ -2864,9 +2883,10 @@ Then what should I do?
 #うむ　「<button:00000017><button:00000045>、<button:00000045>、<button:00000016><button:00000045>」
 #と組み立てるなど、組み合わせを
 #変えるのがまず第一歩だ
-Indeed, building your attacks as "<button:00000017><button:00000045>, <button:00000045>, <button:00000016><button:00000045>"
-and varying the combinations like that
-is the first step.
+Indeed, building your attacks as
+"<button:00000017><button:00000045>, <button:00000045>, <button:00000016><button:00000045>" and varying the
+combinations like that is the
+first step.
 -----------------------
 #第二歩はなにさ？
 What's the second step?
@@ -2875,28 +2895,28 @@ What's the second step?
 #<button:00000017><button:00000045>では攻撃力が上がり命中が下がる、
 #<button:00000019><button:00000045>では攻撃力が下がり命中が上がる、
 #<button:00000016><button:00000045>は攻撃力、命中の減少量が少ない、
-<button:00000045> has a large decrease in attack power and accuracy.
-<button:00000017><button:00000045> increases attack power but lowers accuracy.
-<button:00000019><button:00000045> lowers attack power but increases accuracy.
-<button:00000016><button:00000045> has a small decrease in attack power and accuracy.
+<button:00000045>: Attack/accuracy drop greatly.
+<button:00000017><button:00000045>: Attack rises; accuracy falls.
+<button:00000019><button:00000045>: Attack falls; accuracy rises.
+<button:00000016><button:00000045>: Attack/accuracy drop slightly.
 -----------------------
 #以上を覚えておけ！
 #<button:00000045>による攻撃は効果範囲が広く、
 #当たりやすいことが多いが、その反面、
 #連続攻撃時にはあまり有効ではない
-Keep that in mind!
-<button:00000045> attacks have a wide range,
-making them easy to land, but on the other hand,
-they aren't very effective during combos.
+Keep that in mind! <button:00000045> attacks have
+a wide range, making them easy to
+land, but on the other hand, they
+aren't very effective during combos.
 -----------------------
 #これは次の攻撃にも影響を与えるから、
 #「<button:00000017><button:00000045>、<button:00000017><button:00000045>、<button:00000045>」と
 #「<button:00000019><button:00000045>、<button:00000019><button:00000045>、<button:00000045>」では、
 #三段目の攻撃の数値が変わるぞ
 This also affects your next attack,
-so "<button:00000017><button:00000045>, <button:00000017><button:00000045>, <button:00000045>"
-and "<button:00000019><button:00000045>, <button:00000019><button:00000045>, <button:00000045>"
-will change the values of your third hit.
+so "<button:00000017><button:00000045>, <button:00000017><button:00000045>, <button:00000045>" and "<button:00000019><button:00000045>,
+<button:00000019><button:00000045>, <button:00000045>" will change the values
+of your third hit.
 -----------------------
 #じゃあ回避が高い敵には
 #<button:00000019><button:00000045>から組み立てることにするさ
@@ -2934,10 +2954,11 @@ after about ten years of hearing it.
 #<button:0000002F>と<button:0000002E>を押しっぱなしにすると
 #メッセージを早送りできる
 #同じ会話を読み飛ばすとき便利だ
-Come to think of it, I never told you.
-If you hold down <button:0000002F> and <button:0000002E>,
-you can fast-forward through messages.
-Handy for skipping dialogue you've already seen.
+Come to think of it, I never told
+you. If you hold down <button:0000002F> and <button:0000002E>, you
+can fast-forward through messages.
+Handy for skipping dialogue you've
+already seen.
 -----------------------
 #なにー
 #どうして十年もそれを教えて

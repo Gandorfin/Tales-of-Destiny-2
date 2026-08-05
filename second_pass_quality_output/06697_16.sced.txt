@@ -27,8 +27,10 @@ NOTICE
 -----------------------
 #プレートに<item:0000002E>をはめ込めそうです
 #持っている<item:0000002E>をはめ込みますか？
-It looks like <item:0000002E> can fit into the plate.
-Insert the <item:0000002E> you're holding?
+This fits into the plate:
+<item:0000002E>.
+Insert this:
+<item:0000002E>?
 -----------------------
 select
 -----------------------

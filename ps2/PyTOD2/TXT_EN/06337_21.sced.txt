@@ -98,18 +98,17 @@ He's smiling...
 #お、おい、<Kyle>!?
 #どうした!?　頭でも打ったか!?
 #ちょっと、見せてみろ！
-H-hey, <Kyle>!?
-What's wrong!? Did you hit your head!?
-C'mere, let me see!
+H-hey, <Kyle>!? What's wrong!? Did you
+hit your head!? C'mere, let me see!
 -----------------------
 <Kyle>
 -----------------------
 #ちがうよ、<Loni>
 #オレさ、今すっごく幸せなんだ！
 #だってさ、冒険がはじまったんだよ！
-That's not it, <Loni>!
-I'm really, really happy right now!
-Because my adventure's finally started!
+That's not it, <Loni>! I'm really,
+really happy right now! Because my
+adventure's finally started!
 -----------------------
 <Loni>
 -----------------------
@@ -145,8 +144,9 @@ in front of me!
 -----------------------
 #そうだ、<Loni>！
 #オレ、クレスタへ戻ったら旅に出るよ
-That's right, <Loni>!
-Once we get back to Cresta, I'm heading out on a journey!
+That's right, <Loni>! Once we get
+back to Cresta, I'm heading out
+on a journey!
 -----------------------
 <Loni>
 -----------------------
@@ -357,9 +357,9 @@ didn't I?
 #そんなことより、<Loni>
 #早く、クレスタに戻ろうよ！
 #そうじゃないと、冒険に････
-Never mind that, <Loni>!
-Let's hurry back to Cresta!
-If we don't, I can't go on my adventure...
+Never mind that, <Loni>! Let's hurry
+back to Cresta! If we don't, I can't
+go on my adventure...
 -----------------------
 <Loni>
 -----------------------
@@ -404,9 +404,8 @@ What's the idea!?
 #おいおい、<Kyle>
 #こいつの言うことなんか
 #信用すんなよ
-Hey, hey, <Kyle>!
-Don't go believing a word this guy says.
-Don't trust him.
+Hey, hey, <Kyle>! Don't go believing a
+word this guy says. Don't trust him.
 -----------------------
 <Loni>
 -----------------------
@@ -477,8 +476,8 @@ Very well. I'll tolerate it.
 -----------------------
 #で、<Judas>さんよ
 #こっからどうやって脱出するつもりだ？
-So, <Judas>,
-how exactly do you plan to break out of here?
+So, <Judas>, how exactly do you plan
+to break out of here?
 -----------------------
 <Judas>
 -----------------------

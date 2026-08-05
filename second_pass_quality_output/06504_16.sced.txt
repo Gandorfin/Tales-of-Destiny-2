@@ -68,8 +68,9 @@ notice
 -----------------------
 #{16}{26}{7E}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{26}{7E}{C0}There was , but
-I couldn't hold it because it was full.
+Found:
+{16}{26}{7E}{C0}
+Inventory full. Couldn't take it.
 -----------------------
 notice
 -----------------------

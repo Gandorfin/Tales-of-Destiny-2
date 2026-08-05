@@ -583,9 +583,9 @@ Karell
 #ここであせってもしょうがない
 #どのみち、<Harold>のマシンが
 #出来ないことには、動きようがないしな
-There's no point rushing things here.
-Either way, we can't move until <Harold>'s
-machine is finished.
+There's no point rushing things
+here. Either way, we can't move
+until <Harold>'s machine is finished.
 -----------------------
 #ディムロス
 Dymlos
@@ -593,7 +593,8 @@ Dymlos
 #それにしても遅いな、<Harold>は
 #どこで油を売っているのか････
 She's late as always, that <Harold>.
-I wonder where she's off wasting time...
+I wonder where she's off wasting
+time...
 -----------------------
 <Kyle>
 -----------------------

@@ -179,9 +179,9 @@ Village Chief's Daughter
 #いらっしゃい、<Kyle>！
 #ごらんのとおり、なんにもないけど
 #ゆっくりしていってね
-Welcome, <Kyle>!
-As you can see, there's not much here,
-but please make yourself at home.
+Welcome, <Kyle>! As you can see,
+there's not much here, but please
+make yourself at home.
 -----------------------
 #村長の娘
 Village Chief's Daughter
@@ -189,9 +189,8 @@ Village Chief's Daughter
 #あら････
 #あなた、もしかしてスタンの息子の
 #<Kyle>？
-Oh my...
-You wouldn't happen to be Stahn's son,
-<Kyle>, would you?
+Oh my... You wouldn't happen to be
+Stahn's son, <Kyle>, would you?
 -----------------------
 <Kyle>
 -----------------------

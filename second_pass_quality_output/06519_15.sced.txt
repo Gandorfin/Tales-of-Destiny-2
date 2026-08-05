@@ -27,8 +27,9 @@ notice
 -----------------------
 #<button:00000035>ボタンで縄梯子を回収、設置できます
 #（注意：ただし上からのみです）
-<button:00000035>Press to retrieve and set up the rope ladder.
-(Note: from above only.)
+<button:00000035>Press to retrieve and set up
+the rope ladder. (Note: from above
+only.)
 -----------------------
 #いってらっしゃいませ
 Come again soon.

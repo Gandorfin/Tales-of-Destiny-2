@@ -60,8 +60,9 @@ notice
 -----------------------
 #{16}{26}{A6}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{26}{A6}{C0}was available,
-I couldn't carry it because I was full.
+Found:
+{16}{26}{A6}{C0}
+Inventory full. Couldn't take it.
 -----------------------
 notice
 -----------------------

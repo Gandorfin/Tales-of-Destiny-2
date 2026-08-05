@@ -484,11 +484,16 @@ into different items, or synthesize weapons and armor.
 -----------------------
 #リファインを行うのに必要なのは
 #<item:00000012>とレンズです
-To perform Refining, you'll need <item:00000012> and Lens.
+Refining requires
+<item:00000012>
+and Lens.
 -----------------------
 #<item:00000012>は、各地にいる
 #私たちルーンボトル屋からお求めください
-You can purchase <item:00000012> from us Rune Bottle vendors, found in towns across the land.
+Buy
+<item:00000012>
+from Rune Bottle merchants found
+throughout the world.
 -----------------------
 #レンズはモンスターと
 #戦えば拾うことができます
@@ -508,11 +513,17 @@ item to change it into something else entirely.
 #<item:00000002>に変化し
 #逆に、<item:00000002>にリファインを行うと
 #<item:00000001>に変化します
-For example, Refining <item:00000001> turns it into <item:00000002>, and conversely, Refining <item:00000002> turns it into <item:00000001>.
+Refine <item:00000001>
+into <item:00000002>.
+Reverse:
+Refine <item:00000002>
+into <item:00000001>.
 -----------------------
 #また、装備品単体をリファインすることによって
 #<item:00000001>などのアイテムにも変化します
-You can also Refine individual pieces of equipment to obtain items like <item:00000001>.
+Refining equipment alone can
+turn it into items such as
+<item:00000001>.
 -----------------------
 #ダンジョンなどでアイテムが尽きてしまった時などに
 #行うと、有効な場合もあります
@@ -583,8 +594,10 @@ power, Defense raises your defense power, and so on.
 #スロットによって装備品の名前も変わります
 #<item:00000078>　＋　アタックで
 #アタックソードなどです
-Slots can also change an item's name. For example,
-<item:00000078> plus Attack becomes an Attack Sword.
+Slots can change equipment names.
+Combine
+<item:00000078>
+with Attack to make an Attack Sword.
 -----------------------
 #また、スロットにはレベルがあり
 #レベルが高いと効果も上昇します

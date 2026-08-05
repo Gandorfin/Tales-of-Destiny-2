@@ -328,8 +328,9 @@ I can't seem to remember anything.
 -----------------------
 #<size:000000C8>いいから、だまっていろ
 #このほうが、情報を手に入れやすい
-<size:000000C8>Never mind that. Just be quiet.
-This will make it easier to gather information.
+<size:000000C8>Enough. Be quiet.
+This makes gathering information
+easier.
 -----------------------
 <Judas>
 -----------------------
@@ -555,8 +556,9 @@ here at our shop.
 -----------------------
 #<item:00000012>を使ってリファインすると
 #ステキな物が作られることがあるようです
-Use <item:00000012> to Refine,
-and you may be able to create some wonderful items.
+Refining with
+<item:00000012>
+may create something wonderful.
 -----------------------
 #武器や鎧をリファインすると
 #付加能力が引継がれることがあるようです
@@ -647,8 +649,10 @@ To perform Refine, you need
 -----------------------
 #<item:00000012>は、各地にいる
 #私たちルーンボトル屋からお求めください
-You can purchase <item:00000012>
-from us Rune Bottle shops in various locations.
+Buy
+<item:00000012>
+from Rune Bottle merchants found
+throughout the world.
 -----------------------
 #レンズはモンスターと
 #戦えば拾うことができます
@@ -678,8 +682,9 @@ will change it into <item:00000001>.
 -----------------------
 #また、装備品単体をリファインすることによって
 #<item:00000001>などのアイテムにも変化します
-You can also Refine individual equipment pieces
-into items such as <item:00000001>.
+Refining equipment alone can
+turn it into items such as
+<item:00000001>.
 -----------------------
 #ダンジョンなどでアイテムが尽きてしまった時などに
 #行うと、有効な場合もあります
@@ -762,9 +767,10 @@ These are some of the most common.
 #スロットによって装備品の名前も変わります
 #<item:00000078>　＋　アタックで
 #アタックソードなどです
-Equipment names also change based on their slots.
-<item:00000078> + Attack
-becomes an Attack Sword, for example.
+Slots can change equipment names.
+Combine
+<item:00000078>
+with Attack to make an Attack Sword.
 -----------------------
 #また、スロットにはレベルがあり
 #レベルが高いと効果も上昇します

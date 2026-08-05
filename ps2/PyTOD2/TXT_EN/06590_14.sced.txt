@@ -141,8 +141,9 @@ notice
 -----------------------
 #{16}{25}{FE}{C0}がありましたが
 #いっぱいで持てませんでした
-Found {16}{25}{FE}{C0}, but inventory full already.
-I couldn't carry it because it was full.
+Found:
+{16}{25}{FE}{C0}
+Inventory full. Couldn't take it.
 -----------------------
 notice
 -----------------------

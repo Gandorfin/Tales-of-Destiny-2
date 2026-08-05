@@ -60,8 +60,9 @@ Soldier
 -----------------------
 #ここ最近、酒の配給が無いんだ
 #<item:0000000C>が恋しいぜ
-They haven't been handing out liquor lately.
-I really miss <item:0000000C>.
+No liquor has been issued lately.
+I really miss
+<item:0000000C>.
 -----------------------
 select
 -----------------------
@@ -75,8 +76,9 @@ Soldier
 -----------------------
 #ここ最近、酒の配給が無いんだ
 #<item:0000000C>が恋しいぜ
-They haven't been handing out liquor lately.
-I really miss <item:0000000C>.
+No liquor has been issued lately.
+I really miss
+<item:0000000C>.
 -----------------------
 <Kyle>
 -----------------------

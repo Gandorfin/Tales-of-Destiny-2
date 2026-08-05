@@ -748,9 +748,9 @@ Brother
 #････そうだな、俺とお前の仲だからな
 #フレンド価格で<0B:00000001><num:00000FA0><0B:00000000>ガルドでいいぜ
 #今しか買えない特別セールだ
-...Yeah, that's right. We're like brothers, after all.
-I'll cut ya a deal, just <0B:00000001><num:00000FA0><0B:00000000> Gald.
-It's a special one-time sale, brother.
+We're friends, so your price is
+<0B:00000001><num:00000FA0><0B:00000000>
+Gald. Today only.
 -----------------------
 select
 -----------------------
@@ -844,8 +844,11 @@ Collector
 #あなたの<item:0000004B>、<0B:00000001>{14}{24}{72}{C0}<0B:00000000>枚と
 #わたしの<item:FFFFFFFF>を
 #交換していただけませんか？
-Would you mind trading your <item:0000004B>, <0B:00000001>{14}{24}{72}{C0}<0B:00000000> pieces
-for my <item:FFFFFFFF>?
+Trade:
+<item:0000004B>
+<0B:00000001>{14}{24}{72}{C0}<0B:00000000>
+For:
+<item:FFFFFFFF>
 -----------------------
 select
 -----------------------
@@ -895,7 +898,8 @@ shoveling snow at the manor, but...
 Well, that's neither here nor there.
 -----------------------
 #実は<item:0000004B>を集めてて････
-The thing is, I've been collecting <item:0000004B>...
+Actually, I've been collecting
+<item:0000004B>...
 -----------------------
 #もし<item:0000004B>を見つけたら
 #わたしに譲っていただけませんか？
@@ -1064,8 +1068,10 @@ To perform Refining, you'll need
 -----------------------
 #<item:00000012>は、各地にいる
 #私たちルーンボトル屋からお求めください
-You can purchase <item:00000012> from us Rune Bottle
-merchants, found in towns across the land.
+Buy
+<item:00000012>
+from Rune Bottle merchants found
+throughout the world.
 -----------------------
 #レンズはモンスターと
 #戦えば拾うことができます
@@ -1095,8 +1101,9 @@ change it into <item:00000001>.
 -----------------------
 #また、装備品単体をリファインすることによって
 #<item:00000001>などのアイテムにも変化します
-You can also Refine individual pieces of equipment
-to transform them into items like <item:00000001>.
+Refining equipment alone can
+turn it into items such as
+<item:00000001>.
 -----------------------
 #ダンジョンなどでアイテムが尽きてしまった時などに
 #行うと、有効な場合もあります
@@ -1179,9 +1186,10 @@ These are among the most common.
 #スロットによって装備品の名前も変わります
 #<item:00000078>　＋　アタックで
 #アタックソードなどです
-Equipment names also change based on their slots.
-<item:00000078> + Attack
-becomes an Attack Sword, for example.
+Slots can change equipment names.
+Combine
+<item:00000078>
+with Attack to make an Attack Sword.
 -----------------------
 #また、スロットにはレベルがあり
 #レベルが高いと効果も上昇します

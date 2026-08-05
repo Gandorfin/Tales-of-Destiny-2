@@ -159,9 +159,9 @@ Dymlos
 #ところで、<Kyle>くん
 #申し訳ないが、この吉報を
 #司令に届けてもらえないだろうか？
-By the way, <Kyle>,
-I'm sorry to ask, but could you deliver
-this good news to the commander?
+By the way, <Kyle>, I'm sorry to ask,
+but could you deliver this good news
+to the commander?
 -----------------------
 #ディムロス
 Dymlos
@@ -252,7 +252,8 @@ Karell
 -----------------------
 #これには、<Harold>の人格が
 #入っている
-This one contains <Harold>'s personality.
+This one contains <Harold>'s
+personality.
 -----------------------
 #カーレル
 Karell
@@ -261,10 +262,10 @@ Karell
 #人格は<Harold>････
 #私と<Harold>は、いかなる時も共にある
 #それが私の力となるんだ
-I am the wielder...
-The personality is <Harold>...
-<Harold> and I are together, no matter what.
-That is what gives me strength.
+I am the wielder... The personality
+is <Harold>... <Harold> and I are
+together, no matter what. That is
+what gives me strength.
 -----------------------
 #クレメンテ
 Clemente
@@ -320,9 +321,9 @@ Researcher
 #<Harold>博士は天才だ････
 #しかし、私は
 #彼女の普段の行動が理解できない････
-Dr. <Harold> is a genius...
-But I...
-I just can't understand her usual behavior...
+Dr. <Harold> is a genius... But I...
+I just can't understand her usual
+behavior...
 -----------------------
 #研究員
 Researcher
@@ -359,10 +360,10 @@ Researcher
 #完成を目の当たりにして少し複雑な気分です････
 #研究者は結果ではなく研究のプロセスの中に
 #生きがいを求めているのです
-It could be called the goal of our research.
-Seeing it completed leaves me with mixed feelings...
-For researchers, fulfillment isn't found in the results,
-but in the process of the research itself.
+Reaching completion marks our goal,
+yet seeing it leaves me torn...
+Researchers find fulfillment not in
+results, but in the process itself.
 -----------------------
 #研究員
 Researcher
@@ -379,10 +380,9 @@ Researcher
 #正直、嫉妬の感情を抱くよ････
 #天才というものは
 #真に存在するものなのだね････
-I must admit, I feel a twinge of jealousy
-toward Dr. <Harold>...
-So a true genius
-really does exist...
+I must admit, I feel a twinge of
+jealousy toward Dr. <Harold>... So a
+true genius really does exist...
 -----------------------
 #研究員
 Researcher

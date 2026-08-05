@@ -225,8 +225,10 @@ To perform Refine, you'll need
 -----------------------
 #<item:00000012>は、各地にいる
 #私たちルーンボトル屋からお求めください
-<item:00000012>can be purchased from us Rune Bottle sellers,
-who you'll find in towns everywhere.
+Buy
+<item:00000012>
+from Rune Bottle merchants found
+throughout the world.
 -----------------------
 #レンズはモンスターと
 #戦えば拾うことができます
@@ -248,14 +250,17 @@ to change it into a different item.
 #<item:00000002>に変化し
 #逆に、<item:00000002>にリファインを行うと
 #<item:00000001>に変化します
-For example, refining <item:00000001>will turn it into
-<item:00000002>. Conversely, refining <item:00000002>will turn it
+Refine <item:00000001>
+into <item:00000002>.
+Reverse:
+Refine <item:00000002>
 into <item:00000001>.
 -----------------------
 #また、装備品単体をリファインすることによって
 #<item:00000001>などのアイテムにも変化します
-You can also refine individual pieces of equipment to turn them
-into items such as <item:00000001>.
+Refining equipment alone can
+turn it into items such as
+<item:00000001>.
 -----------------------
 #ダンジョンなどでアイテムが尽きてしまった時などに
 #行うと、有効な場合もあります
@@ -333,9 +338,10 @@ These are the most common examples.
 #スロットによって装備品の名前も変わります
 #<item:00000078>　＋　アタックで
 #アタックソードなどです
-Equipment names also change based on their slots.
-For example, <item:00000078>+ Attack becomes
-an Attack Sword.
+Slots can change equipment names.
+Combine
+<item:00000078>
+with Attack to make an Attack Sword.
 -----------------------
 #また、スロットにはレベルがあり
 #レベルが高いと効果も上昇します
@@ -571,8 +577,10 @@ Will take <0B:00000001>{14}{26}{04}{C0} min. {14}{26}{02}{C0}<0B:00000000> sec. 
 -----------------------
 #いくら援助してくれますか？
 #<size:00000100>現在の所持金<0B:00000001>{14}{34}{04}{C0}ガルド<0B:00000000> 
-How much would you like to contribute?
-<size:00000100>Current funds: <0B:00000001>{14}{34}{04}{C0} Gald<0B:00000000>
+How much will you contribute?
+<size:00000100>Current funds:
+<0B:00000001>{14}{34}{04}{C0}<0B:00000000>
+Gald
 -----------------------
 select
 -----------------------
@@ -689,34 +697,38 @@ notice
 #<03:00000000>鍛冶屋はプレイヤーが援助した
 #資金を使って修行に励みます
 #経験を積むと鍛冶屋はレベルアップします
-<03:00000000>The blacksmith uses funds you've provided
-to train and hone their craft.
-As they gain experience, the blacksmith will level up.
+<03:00000000>The blacksmith uses funds you've
+provided to train and hone their
+craft. As they gain experience, the
+blacksmith will level up.
 -----------------------
 notice
 -----------------------
 #<03:00000000>レベルアップすると高い能力の
 #装備品を作れるようになります
 #また製作速度も上がります
-<03:00000000>Leveling up lets them craft equipment
-with higher stats.
-Production speed will increase as well.
+<03:00000000>Leveling up lets them craft
+equipment with higher stats.
+Production speed will increase as
+well.
 -----------------------
 notice
 -----------------------
 #<03:00000000>開発援助で鍛冶屋に資金援助を行います
 #資金は開発費としてプールされます
-<03:00000000>Development Aid lets you donate funds to the blacksmith.
-These funds are pooled as development costs.
+<03:00000000>Development Aid lets you donate
+funds to the blacksmith. These funds
+are pooled as development costs.
 -----------------------
 notice
 -----------------------
 #<03:00000000>開発資金は時間とともに消費されます
 #また鍛冶屋に装備品の製作を
 #依頼したときにも消費されます
-<03:00000000>Development funds are consumed over time.
-They're also consumed when you place
-an equipment crafting order with the blacksmith.
+<03:00000000>Development funds are consumed over
+time. They're also consumed when you
+place an equipment crafting order
+with the blacksmith.
 -----------------------
 notice
 -----------------------
@@ -724,10 +736,9 @@ notice
 #一定の期間を要しますが、
 #その期間は高い能力の装備品ほど
 #長くなります
-<03:00000000>Commissioned equipment takes time to complete.
-A certain period is required,
-and the higher the stats of the gear,
-the longer that period becomes.
+<03:00000000>Commissioned equipment takes time
+to complete. The higher its stats,
+the longer it takes.
 -----------------------
 notice
 -----------------------
@@ -735,8 +746,8 @@ notice
 #とても時間が掛かりますので、
 #気長に援助していただければ幸いです
 <03:00000000>Finally, the blacksmith's training
-is quite time-consuming,
-so we'd appreciate your patient support.
+is quite time-consuming, so we'd
+appreciate your patient support.
 -----------------------
 #<03:00000000>鍛冶屋ランク：{18}{45}{E0}{C0}
 #開発資金残高：<0B:00000001>{14}{26}{20}{90}{64}{C7}{C0}<0B:00000000>ガルド

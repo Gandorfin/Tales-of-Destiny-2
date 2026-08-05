@@ -24,8 +24,10 @@ NOTICE
 -----------------------
 #<item:0000000A>を手に入れました
 #何だか、人として大切なものを失った気がしました
-<item:0000000A>I obtained .
-Somehow, I feel like I've lost something important to my humanity.
+Obtained:
+<item:0000000A>
+Somehow, I feel I've lost something
+important to my humanity.
 -----------------------
 NOTICE
 -----------------------

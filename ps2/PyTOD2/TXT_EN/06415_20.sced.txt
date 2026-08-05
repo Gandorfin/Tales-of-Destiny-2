@@ -319,7 +319,9 @@ No
 I need you to take orders from the customers.
 -----------------------
 #オーダーは<0B:00000001><num:0000000A><0B:00000000>秒以内で手早くね
-Keep each order under <0B:00000001><num:0000000A><0B:00000000> seconds, and make it snappy.
+Finish each order within
+<0B:00000001><num:0000000A><0B:00000000>
+seconds. Be quick.
 -----------------------
 #さぁ････客が来はじめたぞ
 All right... here come the customers.

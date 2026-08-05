@@ -49,10 +49,11 @@ A Letter from the Captain
 #ちっとも効きません（宝くじ当たらねーぞ！）
 #これを装備すると、本当に幸運が上がるんですか？
 #効き目が無いようなので返品します』
-'I bought <item:000001A9> from your mail-order catalog,
-but it's completely useless. (I didn't win the lottery!)
-Does equipping this really boost your luck?
-Since it doesn't seem to work, I'm returning it.'
+'I bought
+<item:000001A9>
+from your catalog, but it did
+nothing--no lottery win! Does it
+raise luck? I'm returning it.'
 -----------------------
 <Kyle>
 -----------------------
@@ -589,8 +590,9 @@ Hehe, c'mon...
 #浮かれるな、おまえひとりの力じゃない
 #それに、その奇跡の力のせいで
 #<Reala>は、まだ目覚めないんだぞ
-Don't get carried away. It wasn't your strength alone.
-Besides, because of that miraculous power,
+Don't get carried away. It wasn't
+your strength alone. Besides,
+because of that miraculous power,
 <Reala> still hasn't awakened.
 -----------------------
 <Kyle>
@@ -658,9 +660,10 @@ Neuestadt. ...Well, that's the plan.
 #だが、<Reala>はいつ回復するかわからん
 #ノイシュタットに着くのは遅れるかもしれんが
 #それでも、かまわないのか？
-But we don't know when <Reala> will recover.
-We may arrive in Neuestadt later than expected.
-Are you still alright with this?
+But we don't know when <Reala> will
+recover. We may arrive in Neuestadt
+later than expected. Are you still
+alright with this?
 -----------------------
 #船長
 Captain
