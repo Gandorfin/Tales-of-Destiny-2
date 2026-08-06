@@ -14,13 +14,15 @@ Acquired <item:00000003>.
 -----------------------
 #救急箱にはグミが入っている
 #怪我をしたら、とりあえずグミを食えという事だろうか
-The first aid kit contains gummies.
-I guess the idea is to eat some whenever you get hurt?
+The first aid kit contains
+gummies. I guess the idea is to
+eat some whenever you get hurt?
 -----------------------
 #医学書のようだ
 #････難しすぎてまったく理解できない
-These appear to be medical texts.
-...They're far too complex for me to understand.
+These appear to be medical
+texts. ...They're far too
+complex for me to understand.
 -----------------------
 <char:000003E8>
 -----------------------
@@ -47,15 +49,17 @@ but is there really any point?
 -----------------------
 #あっちにいる男のことなら
 #心配する必要はないぞ
-If you're talking about that guy over there,
-don't waste your energy worrying about him.
+If you're talking about that
+guy over there, don't waste
+your energy worrying about him.
 -----------------------
 #毎回、参加だけはするんだが
 #自分の出番が近くなると
 #いつも、医務室に駆けこんでくるんだ
-He always makes sure to show up,
-but whenever his turn draws near,
-he comes rushing straight to the infirmary.
+He always makes sure to show
+up, but whenever his turn
+draws near, he comes rushing
+straight to the infirmary.
 -----------------------
 #医務室は、あくまで
 #闘いの傷をいやすところだ
@@ -65,9 +69,9 @@ to treat wounds sustained in battle.
 #闘う前に
 #飛びこんでくるのは
 #そこに転がってるヤツだけだ
-The only ones who come rushing in
-before they've even fought
-are the ones already lying over there.
+The only ones who come rushing
+in before they've even fought are
+the ones already lying over there.
 -----------------------
 #剣士
 Swordsman
@@ -100,8 +104,9 @@ injuries...
 #不戦敗ばかりだったが
 #今度こそ、闘ってみせるぞ！
 Up until now, sudden illness
-has left me with nothing but forfeit defeats.
-But this time, I'll show them I can fight!
+has left me with nothing but
+forfeit defeats. But this time,
+I'll show them I can fight!
 -----------------------
 #････この腹痛が
 #おさまったらな････
@@ -116,7 +121,8 @@ You okay?
 <char:000003E8>
 -----------------------
 #恥ずかしいところ見せちゃったね
-I let you see something embarrassing.
+I let you see
+something embarrassing.
 -----------------------
 {15}{24}{6E}{C0}
 -----------------------
@@ -131,7 +137,7 @@ Yeah, somehow...
 {15}{24}{6E}{C0}
 -----------------------
 #がんばってその程度か
-That's all you've got after trying that hard?
+All that effort for so little?
 -----------------------
 <char:000003E8>
 -----------------------
@@ -211,7 +217,7 @@ You're right. I'm sorry.
 {15}{24}{6E}{C0}
 -----------------------
 #ムチャやってると母さんが心配するよ？
-If you keep pushing yourself like that, Mom's gonna worry, you know?
+Push too hard and Mom will worry.
 -----------------------
 <char:000003E8>
 -----------------------
@@ -226,7 +232,8 @@ You okay?
 <char:000003E8>
 -----------------------
 #頑丈なのが取柄でね
-Being tough is my one redeeming quality.
+Being tough is my one
+redeeming quality.
 -----------------------
 {15}{24}{6E}{C0}
 -----------------------
@@ -256,7 +263,8 @@ So weak~
 <char:000003E8>
 -----------------------
 #ハッキリ言われるとツラいぜ
-It stings when someone puts it that bluntly.
+It stings when someone
+puts it that bluntly.
 -----------------------
 {15}{24}{6E}{C0}
 -----------------------
@@ -276,12 +284,13 @@ Take better care of yourself...
 <char:000003E8>
 -----------------------
 #どこで倒れようとも悔いはない
-I have no regrets, no matter where I fall.
+I have no regrets, no
+matter where I fall.
 -----------------------
 {15}{24}{6E}{C0}
 -----------------------
 #そんなにムチャしてどうすんだよ？
-What's the point of pushing yourself that hard?
+Why push yourself so hard?
 -----------------------
 <char:000003E8>
 -----------------------
@@ -291,7 +300,7 @@ Everyone lives their own way.
 {15}{24}{6E}{C0}
 -----------------------
 #悲壮感ただよってるよ？
-You're practically radiating tragic hero vibes.
+You're radiating tragic-hero vibes.
 -----------------------
 <char:000003E8>
 -----------------------
@@ -408,7 +417,8 @@ You okay?
 <char:000003E8>
 -----------------------
 #この私がここまでボコられるなんて
-I can't believe *I* got beaten this badly.
+I can't believe *I*
+got beaten this badly.
 -----------------------
 #いってらっしゃいませ
 Have a good day.

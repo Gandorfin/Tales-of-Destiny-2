@@ -11,12 +11,13 @@ stored here.
 #鎖で封鎖された道がある
 #この奥は使われていないようだ
 A path is sealed off with chains.
-It looks like the area beyond hasn't been used in some time.
+It looks like the area beyond
+hasn't been used in some time.
 -----------------------
 #強烈なにおいを放つ酒瓶がある
 #密造酒だろうか････
-A bottle giving off a powerful stench.
-Could it be moonshine...?
+A bottle giving off a powerful
+stench. Could it be moonshine...?
 -----------------------
 #兵卒
 Soldier
@@ -33,10 +34,11 @@ feel come morning, though.
 #投降した天上軍兵士の処遇ですが
 #我々には敵兵を養う余力は残っていませんので
 #投降してきた敵兵はその場で････』
-'To all soldiers, from High Command:
-Regarding the treatment of surrendered Aeth'er troops:
-We no longer possess the means to sustain enemy soldiers.
-Surrendered enemy forces are to be dealt with on the spot...'
+'To all soldiers, from High
+Command: We cannot support
+surrendered Aeth'er troops.
+Any enemy who surrenders is to
+be dealt with on the spot...'
 -----------------------
 #兵卒
 Soldier

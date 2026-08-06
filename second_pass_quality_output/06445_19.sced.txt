@@ -15,8 +15,9 @@ foreign arms and ancient blades.
 -----------------------
 #いろいろな服が下がっている
 #デザインもなかなかのものだ
-All sorts of clothes hang from the racks.
-The designs are pretty impressive, too.
+All sorts of clothes hang
+from the racks. The designs
+are pretty impressive, too.
 -----------------------
 NOTICE
 -----------------------
@@ -25,8 +26,9 @@ NOTICE
 -----------------------
 #華麗に飾り付けられた武具が展示されている
 #どれもこれも年代物の高級品のようだ
-Ornate weapons and armor are on display.
-Every piece looks like a pricey antique.
+Ornate weapons and armor
+are on display. Every piece
+looks like a pricey antique.
 -----------------------
 #武器屋
 Weapon Shop
@@ -79,24 +81,24 @@ Welcome!
 We deal in armor here!
 -----------------------
 #商人
-#Businessman
+Businessman
 -----------------------
 #ワタシ、究極の剣を開発しました！
 #ソーディアンすら、その存在がかすむ
 #名づけて「十徳ソード」!!
-I've developed the ultimate sword!
-So powerful it dwarfs even Swordians!
-I call it the 'Ten Virtues Sword'!!
+I've made the ultimate sword!
+It even dwarfs the Swordians!
+The Ten Virtues Sword!!
 -----------------------
 #商人
-#Businessman
+Businessman
 -----------------------
 #従来の剣とは大ちがい！
 #なんと、刃の部分が三倍にのびる！
 #これで、高いところの敵も倒せるよ！
-It's nothing like ordinary swords!
-The blade extends to three times its length!
-Now you can strike enemies up high, too!
+Unlike any ordinary sword,
+its blade extends threefold!
+Now you can hit high enemies!
 -----------------------
 <Loni>
 -----------------------
@@ -106,24 +108,24 @@ Now you can strike enemies up high, too!
 The heck's that supposed to mean...?
 -----------------------
 #商人
-#Businessman
+Businessman
 -----------------------
 #刃の部分は、取りはずし可能
 #水で洗えて、簡単便利！
 #パーツを変えれば、缶切りにも変身だ
-The blade is fully detachable.
-Just rinse it with water. Easy!
-Swap the parts and it becomes a can opener.
+The blade is fully detachable. Just
+rinse it with water. Easy! Swap the
+parts and it becomes a can opener.
 -----------------------
 #商人
-#Businessman
+Businessman
 -----------------------
 #････便利だと思うんだけどなぁ
 #この店には、置けないって言うんだ
 #どうしてかなぁ････
-...I think it's pretty handy, though.
-But this shop says they won't stock it.
-I wonder why...
+...I think it's pretty handy,
+though. But this shop says they
+won't stock it. I wonder why...
 -----------------------
 #商人
 #Businessman
@@ -134,24 +136,24 @@ I wonder why...
 I really think it's handy, though...
 -----------------------
 #商人
-#Businessman
+Businessman
 -----------------------
 #お似合いですね、おふたりさん★
 #そんなあなたに、今日のイチ押し
 #「ラブラブソード」の登場です
 You two make such a lovely couple★
-For a pair like you, today's top pick is...
-The 'Love-Love Sword'!
+For a pair like you, today's top
+pick is... The 'Love-Love Sword'!
 -----------------------
 #商人
-#Businessman
+Businessman
 -----------------------
 #男性用の剣と、女性用のナイフを
 #赤いクサリでつないでみました
 #愛の力で、戦力アップ間違いなし！
-I took a man's sword and a woman's knife
-and linked 'em with a red chain!
-The power of love will boost your strength for sure!
+I linked a sword and knife
+with a red chain!
+Love's power boosts your strength!
 -----------------------
 <Kyle>
 -----------------------
@@ -169,32 +171,32 @@ to swing that thing...
 I really thought it'd sell...
 -----------------------
 #商人
-#Businessman
+Businessman
 -----------------------
 #たった今、キケンな音がしましたよ
 #そんな時には、便利な武器を
 #特別価格で提供します！
-Did you hear that dangerous sound just now?
-For times like these, I've got just the weapon
+Hear that dangerous sound?
+I have the perfect weapon
 at a special price!
 -----------------------
 #商人
-#Businessman
+Businessman
 -----------------------
 #通常の刀身の他に、ツカの部分に
 #刃をさした、究極の剣！
 #前後の敵を同時に倒せます！
-Not just a normal blade, but a sword
-with edges sticking out of the hilt, too!
-Take out enemies in front and behind at once!
+A blade sticks from the hilt too!
+Strike enemies ahead and behind
+at the same time!
 -----------------------
 #商人
-#Businessman
+Businessman
 -----------------------
 #名づけて、「諸刃の剣」！
 #どうです!?
-I call it... the 'Double-Edged Blade'!
-What do you think?!
+I call it... the 'Double-Edged
+Blade'! What do you think?!
 -----------------------
 <Loni>
 -----------------------
@@ -204,14 +206,14 @@ Who'd swing around
 something that dangerous?!
 -----------------------
 #商人
-#Businessman
+Businessman
 -----------------------
 #トホホ････
 #ダメか････
 #やっぱり、商才ないのかなぁ････
-*sigh*...
-No good, huh...
-Guess I really don't have a head for business...
+*sigh*... No good, huh...
+Guess I really don't have
+a head for business...
 -----------------------
 debug
 -----------------------

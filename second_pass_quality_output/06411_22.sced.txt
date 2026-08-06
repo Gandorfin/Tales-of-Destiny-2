@@ -11,7 +11,8 @@ A gaudy golden trophy is on display.
 Jewelry is displayed for all to see.
 -----------------------
 #高価そうな陶器が自慢げに展示されている
-Expensive-looking pottery sits proudly on display.
+Expensive-looking pottery
+sits proudly on display.
 -----------------------
 NOTICE
 -----------------------
@@ -19,15 +20,16 @@ NOTICE
 Acquired <item:00000189>.
 -----------------------
 #高そうな葉巻が机の上に置かれている
-An expensive-looking cigar sits on the desk.
+An expensive-looking
+cigar sits on the desk.
 -----------------------
 #商人
-#Businessman
+Businessman
 -----------------------
 #「オベロン社廃坑」は
 #この街の西にあります
-The "Oberon Company Abandoned Mine" is
-located to the west of this town.
+The "Oberon Company Abandoned Mine"
+is located to the west of this town.
 -----------------------
 #商人
 #Businessman
@@ -49,12 +51,12 @@ I'll definitely get that treasure
 and bring it back!
 -----------------------
 #商人
-#Businessman
+Businessman
 -----------------------
 #「オベロン社廃坑」は
 #この街の西にあります
-The "Oberon Company Abandoned Mine" is
-located to the west of this town.
+The "Oberon Company Abandoned Mine"
+is located to the west of this town.
 -----------------------
 #商人
 #Businessman
@@ -67,14 +69,13 @@ head through the White Cloud Ridge,
 and you should find it right away.
 -----------------------
 #商人
-#Businessman
+Businessman
 -----------------------
 #トホホホ････
 #あの巨大企業オベロン社の宝が
 #こんなガラクタだったなんて････
-*Sigh*...
-To think the treasure of that massive corporation, Oberon,
-would turn out to be nothing but junk...
+*Sigh*... Oberon's great treasure
+was just a pile of junk...
 -----------------------
 <Loni>
 -----------------------
@@ -84,24 +85,23 @@ Tough luck, old man. Well, good
 things'll come your way eventually.
 -----------------------
 #商人
-#Businessman
+Businessman
 -----------------------
 #くぅ～っ！
 #苦労して手に入れた
 #遺言状がぁっ！！
-Grrr!
-After all the trouble I went through to get it,
-my will...!!
+Grrr! After all the trouble I went
+through to get it, my will...!!
 -----------------------
 #商人
-#Businessman
+Businessman
 -----------------------
 #ホーホッホッホッ
 #こんなすばらしい武芸者に会えるとは
 #ついてますなぁ
-Hohoho!
-To think I'd meet such a magnificent martial artist.
-I'm a lucky man indeed.
+Hohoho! To think I'd meet
+such a magnificent martial
+artist. I'm a lucky man indeed.
 -----------------------
 #商人
 #Businessman
@@ -124,12 +124,12 @@ so I thought it was about his will
 and handed it over.
 -----------------------
 #商人
-#Businessman
+Businessman
 -----------------------
 #そしたら、それをひったくって
 #そのままトイレに駆けこむなんて････
-Then he snatched it from me
-and bolted straight for the bathroom...
+Then he snatched it from me and
+bolted straight for the bathroom...
 -----------------------
 #雑貨屋
 General Store
@@ -182,34 +182,33 @@ a hero's duty, after all!
 you want from us?
 -----------------------
 #商人
-#Businessman
+Businessman
 -----------------------
 #実はですな
 #以前、この街にオベロン社という
 #大企業の支部がありまして････
-The truth is...
-there used to be a branch office in this town
-belonging to a major corporation called Oberon...
+The truth is, this town once had
+a branch of the Oberon Corporation.
 -----------------------
 #商人
-#Businessman
+Businessman
 -----------------------
 #先の大乱でオベロン社が消滅したあと
 #そこの金庫に収められていた宝も
 #霧のように消え失せてしまいました
-After Oberon Corporation was wiped out in the Great War,
-the treasures stored in their vaults
+After Oberon fell in the Great War,
+the treasure in its vaults
 vanished like mist.
 -----------------------
 #商人
-#Businessman
+Businessman
 -----------------------
 #ところが、私が調べましたところ
 #その宝が街の近くの廃坑に
 #眠っていることがわかったのです
-However, upon investigation,
-I discovered that the treasure
-was sleeping in an abandoned mine near town.
+My research revealed the treasure
+lies in an abandoned mine
+near town.
 -----------------------
 <Loni>
 -----------------------
@@ -240,14 +239,14 @@ How do you know something
 recorded nowhere but in her will?
 -----------------------
 #商人
-#Businessman
+Businessman
 -----------------------
 #イ、イレーヌさまの遺言状など
 #私どもは、つゆと存じ上げません！
 #すべて、偶然に知ったことでして････
-W-we know nothing of Lady Irene's will!
-Nothing at all!
-It was all merely a coincidence...
+W-we know nothing of Lady Irene's
+will! Nothing at all! It was
+all merely a coincidence...
 -----------------------
 <Judas>
 -----------------------
@@ -283,14 +282,14 @@ He's panicking because
 I hit the nail on the head.
 -----------------------
 #商人
-#Businessman
+Businessman
 -----------------------
 #ず、図星などとは、いいがかりだ！
 #こんなことなら
 #この話、なかったことに････
-H-hit the nail on the head?! That's slander!
-If I'd known it would come to this,
-I'd have pretended this conversation never happened...
+Th-that's slander!
+If I'd known, I'd have acted like
+this talk never happened...
 -----------------------
 <Kyle>
 -----------------------
@@ -335,14 +334,14 @@ Still, those idiots...
 A little flattery and off they flew.
 -----------------------
 #商人
-#Businessman
+Businessman
 -----------------------
 #ヤツらが途中でのたれ死んだところで
 #こっちの被害は１ガルドもない
 #我ながら、うまくしてやったものだ
-Even if they drop dead halfway there,
+If they die on the way,
 we won't lose a single gald.
-I must say, I played that quite well.
+I played that well.
 -----------------------
 #商人
 #Businessman
@@ -355,14 +354,14 @@ I could stand to learn from you.
 Hohoho!
 -----------------------
 #商人
-#Businessman
+Businessman
 -----------------------
 #おお、お待ちしておりましたぞ！
 #ケガなどされていないかと
 #そればかり心配で････
 Oh, I've been waiting for you!
-I was so worried you might have been injured...
-That's all I could think about...
+I was worried you might be hurt.
+I could think of nothing else...
 -----------------------
 <Loni>
 -----------------------
@@ -370,12 +369,13 @@ That's all I could think about...
 Tch, like hell you were!
 -----------------------
 #商人
-#Businessman
+Businessman
 -----------------------
 #ところで、お約束の品は
 #持ち帰って、いただけましたかな？
-Now then, about the item we agreed upon...
-Were you able to bring it back?
+Now then, about the item
+we agreed upon... Were
+you able to bring it back?
 -----------------------
 <Kyle>
 -----------------------

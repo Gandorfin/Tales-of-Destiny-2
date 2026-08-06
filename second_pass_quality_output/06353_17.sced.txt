@@ -139,8 +139,9 @@ sometimes yield wonderful results.
 -----------------------
 #武器や鎧をリファインすると
 #付加能力が引継がれることがあるようです
-When you refine weapons or armor,
-added abilities may sometimes carry over.
+When you refine weapons
+or armor, added abilities
+may sometimes carry over.
 -----------------------
 #ひと瓶<0B:00000001>{14}{35}{CC}{C0}<0B:00000000>ガルドになりますが、
 #<item:00000012>を買いますか？
@@ -178,7 +179,8 @@ Thank you for your purchase.
 <item:00000012> is <0B:00000001>{14}{35}{CC}{C0}<0B:00000000> gald per bottle.
 -----------------------
 #リファイン講座を聞きたいですか？
-Would you like to hear the Refine lecture?
+Would you like to hear
+the Refine lecture?
 -----------------------
 select
 -----------------------
@@ -215,8 +217,9 @@ Next Page
 #リファインとは、選択したアイテムを
 #別なアイテムに変化させたり
 #武器や防具を合成することのできるコマンドです
-Refine is a command that lets you change selected items
-into different items, or combine weapons and armor.
+Refine is a command that lets you
+change selected items into different
+items, or combine weapons and armor.
 -----------------------
 #リファインを行うのに必要なのは
 #<item:00000012>とレンズです
@@ -243,8 +246,9 @@ refine to your heart's content!
 #アイテムの変化とは、アイテム単体に
 #リファインを行うことによって
 #別なアイテムに変化させることです
-Item transformation means using Refine on a single item
-to change it into a different item.
+Item transformation means using
+Refine on a single item to
+change it into a different item.
 -----------------------
 #例えば、<item:00000001>にリファインを行うと
 #<item:00000002>に変化し
@@ -266,30 +270,35 @@ turn it into items such as
 #行うと、有効な場合もあります
 #もちろん、最初からきちんと準備をしておくほうが
 #賢いといえますが････
-This can be useful when you run out of items in a dungeon, for instance.
-Of course, it's wiser to prepare properly from the start, but...
+This can be useful when you run out
+of items in a dungeon, for instance.
+Of course, it's wiser to prepare
+properly from the start, but...
 -----------------------
 #リファインの一番の特徴は
 #やはり、装備品の合成です
-The most distinctive feature of Refine is, without a doubt,
-equipment synthesis.
+The most distinctive feature
+of Refine is, without a
+doubt, equipment synthesis.
 -----------------------
 #装備品を合成すると
 #お気に入りの装備品に
 #お気に入りのスロットが付いた
 #装備品を作ることができます････
-By combining equipment, you can create gear with your favorite slots
+By combining equipment, you can
+create gear with your favorite slots
 attached to your favorite pieces...
 -----------------------
 #ああ、まずはスロットの説明を
 #しなければいけませんね
-Ah, but first I need to explain what slots are,
-don't I?
+Ah, but first I need to explain
+what slots are, don't I?
 -----------------------
 #スロットとは、装備品に
 #付けることができる
 #付加能力のようなものです
-Slots are bonus abilities that can be attached to equipment.
+Slots are bonus abilities that
+can be attached to equipment.
 -----------------------
 #スロットについては、また別に
 #詳しく説明させていただきます
@@ -299,27 +308,31 @@ in just a moment.
 #いちばん簡単な装備品のリファインは
 #スロットが一つついた装備品どうしの
 #リファインです
-The simplest form of equipment Refine is combining two pieces of equipment
-that each have one slot.
+The simplest form of equipment
+Refine is combining two pieces of
+equipment that each have one slot.
 -----------------------
 #これを行うと、何とステキなことに
 #スロットが二つ付いた装備品ができます
-When you do this, you'll create equipment with two slots.
-How wonderful is that?
+When you do this, you'll
+create equipment with two
+slots. How wonderful is that?
 -----------------------
 #注意しなければいけないのは
 #剣は剣、鎧は鎧といったように
 #同じ種類の装備品でしか
 #リファインできません
-One thing to keep in mind is that
-swords go with swords, armor with armor, and so on.
+One thing to keep in mind is
+that swords go with swords,
+armor with armor, and so on.
 You can only Refine equipment
 of the same type together.
 -----------------------
 #他にもいろいろな組み合わせがありますが
 #それはやってみてのお楽しみです
-There are many other combinations to discover,
-but I'll leave those for you to find out on your own.
+There are many other combinations
+to discover, but I'll leave those
+for you to find out on your own.
 -----------------------
 #スロットについて
 #詳しく説明いたします
@@ -346,91 +359,112 @@ with Attack to make an Attack Sword.
 #また、スロットにはレベルがあり
 #レベルが高いと効果も上昇します
 #最高はレベル８です
-Slots also have levels. Higher levels mean stronger effects,
+Slots also have levels. Higher
+levels mean stronger effects,
 with a maximum level of 8.
 -----------------------
 #スロット付きの装備品は
 #主にモンスターが落とします
-Equipment with slots is mainly dropped by monsters.
+Equipment with slots is
+mainly dropped by monsters.
 -----------------------
 #モンスターとたくさん戦って
 #スロット付き装備品を手に入れて
 #あなただけのスロット付き装備品を
 #作ってみてください
-Fight plenty of monsters to obtain slotted equipment,
-then try making your very own custom pieces!
+Fight plenty of monsters to obtain
+slotted equipment, then try making
+your very own custom pieces!
 -----------------------
 #ここだけの話ですが、装飾品も
 #リファインすることができます
 #でも、それは装飾品どうしではありません
-Just between you and me, accessories can also be refined.
-However, not with other accessories.
+Just between you and me, accessories
+can also be refined. However,
+not with other accessories.
 -----------------------
 #装飾品と、装備品のような
 #形でのみリファインが可能なのです
-Accessories can only be refined with equipment in this manner.
+Accessories can only be refined
+with equipment in this manner.
 -----------------------
 #この場合の利点は、リファインする
 #装備品の場所によってスロットが
 #変化するということです
 #武器、防具によって違います
-The advantage here is that the resulting slot changes depending on which
-equipment slot you refine into. It differs between weapons and armor.
+The advantage here is that
+the resulting slot changes
+depending on which equipment
+slot you refine into. It differs
+between weapons and armor.
 -----------------------
 #また、装飾品は一つしか装備できないので
 #いらない装飾品を、リファインに活用すれば
 #非常に有効です
-Since you can only equip one accessory at a time, putting
-unwanted accessories to use in Refining is extremely effective.
+Since you can only equip one
+accessory at a time, putting
+unwanted accessories to use in
+Refining is extremely effective.
 -----------------------
 #その他にも、外装つまり「マント」も
 #装飾品と同様に装備品とリファインできます
 #その場合はなんと、装備品に属性を
 #付加することができるのです
-Additionally, exterior parts, specifically cloaks, can also
-be Refined with equipment, just like accessories.
-In that case, you can actually add elemental attributes
-to your equipment.
+Cloaks can also be Refined with
+equipment, just like accessories.
+Doing so can even add elemental
+attributes to your equipment.
 -----------------------
 #装飾品とのリファインもうまく活用し
 #さらにステキなリファイン職人を
 #目指してみてください
-Make good use of refining with accessories and cloaks,
-and aim to become an even more wonderful Refine artisan!
+Make good use of refining with
+accessories and cloaks, and
+aim to become an even more
+wonderful Refine artisan!
 -----------------------
 #たまに、装備品の中に黄色い枠の
 #アイコンが付いたものがありますね
 #それは、ユニークアイテムと
 #呼ばれているものです
-Occasionally, you'll find equipment marked with a
-yellow border icon. These are known as unique items.
+Occasionally, you'll find equipment
+marked with a yellow border icon.
+These are known as unique items.
 -----------------------
 #ユニークアイテムは見た目にも
 #かっこよく、攻撃力も高く
 #スロットレベルも高いものが多いですが
 #スロットは一つしかありません
-Unique items look impressive and boast high attack power. They
-often have high slot levels too, but they only have one slot.
+Unique items look impressive and
+boast high attack power. They
+often have high slot levels too,
+but they only have one slot.
 -----------------------
 #しかし、その反面、装飾品以外のユニークアイテムは
 #リファインすることができません
 #これ以上強化することができないのです
-However, unique items other than accessories cannot be refined.
-This means they cannot be strengthened any further.
+However, unique items other
+than accessories cannot be
+refined. This means they cannot
+be strengthened any further.
 -----------------------
 #ですから、いらなくなったアイテムは
 #どんどん売ってしまうことをお勧めします
-So I recommend selling off any items you no longer need as soon as possible.
+So I recommend selling off
+any items you no longer
+need as soon as possible.
 -----------------------
 #なぜなら、アイテムをたくさん持っていると
 #モンスターがアイテムを
 #落としてくれなくなってしまうという
 #噂があるからです
-Because there's a rumor that if you carry too
-many items, monsters will stop dropping them.
+Because there's a rumor that
+if you carry too many items,
+monsters will stop dropping them.
 -----------------------
 #････アイテム整理も大切ですね
-...Keeping your inventory tidy is important too, isn't it?
+...Keeping your inventory tidy
+is important too, isn't it?
 -----------------------
 #鍛冶屋
 Blacksmith
@@ -454,21 +488,26 @@ I'm an aspiring blacksmith.
 -----------------------
 #よろしければ、装備品開発の資金を
 #援助してもらえないでしょうか？
-If you wouldn't mind, could you provide funds to aid our equipment development?
+If you wouldn't mind, could
+you provide funds to aid
+our equipment development?
 -----------------------
 #鍛冶屋の技術が低いうちは
 #ヘボイ装備品しか作れませんが････
-While my skills are still low, I can only craft lousy equipment, but...
+While my skills are still low, I can
+only craft lousy equipment, but...
 -----------------------
 #でも、いずれは立派な
 #鍛冶屋になってみせます
-But someday, I'll become a fine blacksmith.
+But someday, I'll become
+a fine blacksmith.
 -----------------------
 #おねがいします
 I'm counting on you.
 -----------------------
 #最近、技量が上がったような気がします
-I feel like my skills have improved lately.
+I feel like my skills
+have improved lately.
 -----------------------
 notice
 -----------------------

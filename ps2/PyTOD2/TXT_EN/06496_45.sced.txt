@@ -77,8 +77,8 @@ out.
 #みんなの事はみんなでやるという
 #決まりがあるんだ
 In this town, there's a rule:
-you handle your own business,
-and everyone handles things together.
+you handle your own business, and
+everyone handles things together.
 -----------------------
 #子供だからって遊んでばかりは
 #いられないんだよ
@@ -87,8 +87,9 @@ doesn't mean you can play all day.
 -----------------------
 #畑の水まき、やっと終わったよ
 #二十五回も井戸まで行ってきたんだよ
-I finally finished watering the fields.
-I made twenty-five trips to the well.
+I finally finished
+watering the fields. I made
+twenty-five trips to the well.
 -----------------------
 <Nanaly>
 -----------------------
@@ -123,7 +124,7 @@ I'll fetch water for cooking...
 debug
 -----------------------
 #このフラグでの会話、未設定
-This conversation at this flag is unset.
+No dialogue is set for this flag.
 -----------------------
 #やった～♪
 #怪物役が二人もふえたぜ～
@@ -253,7 +254,7 @@ how to pick up girls!
 debug
 -----------------------
 #このフラグでの会話、未設定
-This conversation at this flag is unset.
+No dialogue is set for this flag.
 -----------------------
 <Judas>
 #今度こそ、その仮面
@@ -285,9 +286,9 @@ N-no, that's not what I meant...
 #オレたちにとっちゃ
 #これも訓練のウチなんだからな
 #マジメにやらなきゃ晩飯ヌキだぞ！
-For us, this counts
-as part of our training.
-Slack off and you're skipping dinner!
+For us, this counts as part
+of our training. Slack off
+and you're skipping dinner!
 -----------------------
 #すばやい<Judas>の
 #仮面をうばうのは
@@ -1001,9 +1002,9 @@ Get serious for once!
 #怪物は、そんなに
 #ボソボソしゃべらないよ！
 #もっと「ぐわー！」とか言わないと！
-Monsters don't just
-mumble to themselves like that!
-You've gotta go "Graaargh!" or something!
+Monsters don't just mumble to
+themselves like that! You've
+gotta go "Graaargh!" or something!
 -----------------------
 <Judas>
 -----------------------
@@ -1029,7 +1030,8 @@ serious! If we miss out on food,
 that's gonna be a real problem!
 -----------------------
 #わかったら、もう一回最初から！
-If you mess up, start over from the beginning!
+If you mess up, start
+over from the beginning!
 -----------------------
 <Nanaly>
 -----------------------
@@ -2240,7 +2242,8 @@ There's so much I want to tell
 you...
 -----------------------
 #お墓だ････誰のお墓だろうか
-It's a grave... I wonder whose it is.
+It's a grave... I
+wonder whose it is.
 -----------------------
 <char:000003E8>
 -----------------------
@@ -2277,14 +2280,17 @@ they say ♪ Woah! Don't aim that bow
 at me, <Nanaly>!!
 -----------------------
 #カルバレイス地方独特の装飾が施された陶器だ
-It's pottery decorated with ornaments unique to the Calvalese region.
+It's pottery decorated
+with ornaments unique
+to the Calvalese region.
 -----------------------
 #枯れた土地に、わずかな野菜が実っている
 #カルバレイスの厳しい気候の下では
 #まともな農業は出来ないのだろう
-A few vegetables are growing in the parched land.
-Under Calvalese's harsh climate,
-proper farming probably isn't possible.
+A few vegetables are growing
+in the parched land. Under
+Calvalese's harsh climate, proper
+farming probably isn't possible.
 -----------------------
 #清らかな水をたたえた井戸だ
 It's a well filled with pure water.
@@ -2292,9 +2298,9 @@ It's a well filled with pure water.
 #雑貨が並んでいる
 #････さすがに貧しいホープタウンから
 #物を持っていくのは気が引ける
-Goods are lined up here.
-...I feel bad about taking things from Hope Town,
-poor as it is.
+Goods are lined up here. ...I
+feel bad about taking things
+from Hope Town, poor as it is.
 -----------------------
 #ツボの中にはヘビがいる
 There's a snake inside the jar.
@@ -2494,8 +2500,8 @@ may create something wonderful.
 -----------------------
 #武器や鎧をリファインすると
 #付加能力が引継がれることがあるようです
-Refine weapons and armor,
-and you may inherit their added abilities.
+Refine weapons and armor, and you
+may inherit their added abilities.
 -----------------------
 #ひと瓶<0B:00000001>{14}{37}{38}{C0}<0B:00000000>ガルドになりますが、
 #<item:00000012>を買いますか？
@@ -2533,7 +2539,8 @@ Thank you for your purchase.
 <item:00000012> is <0B:00000001>{14}{37}{38}{C0}<0B:00000000> gald per bottle.
 -----------------------
 #リファイン講座を聞きたいですか？
-Would you like to hear about Refining?
+Would you like to
+hear about Refining?
 -----------------------
 select
 -----------------------
@@ -2570,9 +2577,9 @@ Next Page
 #リファインとは、選択したアイテムを
 #別なアイテムに変化させたり
 #武器や防具を合成することのできるコマンドです
-Refining lets you transform selected items
-into different ones, or synthesize
-weapons and armor.
+Refining lets you transform
+selected items into different ones,
+or synthesize weapons and armor.
 -----------------------
 #リファインを行うのに必要なのは
 #<item:00000012>とレンズです
@@ -2588,7 +2595,8 @@ throughout the world.
 -----------------------
 #レンズはモンスターと
 #戦えば拾うことができます
-You can obtain Lens by fighting monsters.
+You can obtain Lens
+by fighting monsters.
 -----------------------
 #これを機会に、あなたも
 #どんどんリファインを行ってください
@@ -2598,9 +2606,9 @@ to your heart's content.
 #アイテムの変化とは、アイテム単体に
 #リファインを行うことによって
 #別なアイテムに変化させることです
-"Item transformation" means using Refine
-on a single item to change it
-into a different item.
+"Item transformation" means
+using Refine on a single item to
+change it into a different item.
 -----------------------
 #例えば、<item:00000001>にリファインを行うと
 #<item:00000002>に変化し
@@ -2621,23 +2629,24 @@ turn it into items such as
 #行うと、有効な場合もあります
 #もちろん、最初からきちんと準備をしておくほうが
 #賢いといえますが････
-This can be useful when you run out of items
-in dungeons or other areas.
-Of course, it's wiser to prepare properly
-from the start, but...
+This can be useful when you run out
+of items in dungeons or other areas.
+Of course, it's wiser to prepare
+properly from the start, but...
 -----------------------
 #リファインの一番の特徴は
 #やはり、装備品の合成です
-The defining feature of Refining, however,
-is equipment synthesis.
+The defining feature of Refining,
+however, is equipment synthesis.
 -----------------------
 #装備品を合成すると
 #お気に入りの装備品に
 #お気に入りのスロットが付いた
 #装備品を作ることができます････
 When you synthesize equipment,
-you can create gear with your preferred slot
-attached to your favorite equipment...
+you can create gear with your
+preferred slot attached to
+your favorite equipment...
 -----------------------
 #ああ、まずはスロットの説明を
 #しなければいけませんね
@@ -2647,8 +2656,9 @@ how slots work.
 #スロットとは、装備品に
 #付けることができる
 #付加能力のようなものです
-Slots are essentially additional abilities
-that can be attached to equipment.
+Slots are essentially
+additional abilities that
+can be attached to equipment.
 -----------------------
 #スロットについては、また別に
 #詳しく説明させていただきます
@@ -2658,28 +2668,29 @@ in a separate section.
 #いちばん簡単な装備品のリファインは
 #スロットが一つついた装備品どうしの
 #リファインです
-The simplest form of equipment Refining
-is between two pieces of equipment
-that each have one slot.
+The simplest form of equipment
+Refining is between two pieces of
+equipment that each have one slot.
 -----------------------
 #これを行うと、何とステキなことに
 #スロットが二つ付いた装備品ができます
-When you do this, you'll get wonderful
-equipment with two slots!
+When you do this, you'll get
+wonderful equipment with two slots!
 -----------------------
 #注意しなければいけないのは
 #剣は剣、鎧は鎧といったように
 #同じ種類の装備品でしか
 #リファインできません
 What you need to keep in mind is
-that swords go with swords, armor with armor, and so on.
-You can only
-Refine items of the same type.
+that swords go with swords, armor
+with armor, and so on. You can
+only Refine items of the same type.
 -----------------------
 #他にもいろいろな組み合わせがありますが
 #それはやってみてのお楽しみです
-There are many other combinations as well,
-but you'll have to discover those for yourself.
+There are many other combinations
+as well, but you'll have to
+discover those for yourself.
 -----------------------
 #スロットについて
 #詳しく説明いたします
@@ -2706,8 +2717,9 @@ with Attack to make an Attack Sword.
 #また、スロットにはレベルがあり
 #レベルが高いと効果も上昇します
 #最高はレベル８です
-Additionally, slots have levels.
-Higher levels increase their effectiveness.
+Additionally, slots have
+levels. Higher levels
+increase their effectiveness.
 The maximum level is 8.
 -----------------------
 #スロット付きの装備品は
@@ -2719,15 +2731,17 @@ is mainly dropped by monsters.
 #スロット付き装備品を手に入れて
 #あなただけのスロット付き装備品を
 #作ってみてください
-Fight plenty of monsters to obtain
-equipment with slots, and try creating
-your own unique slotted equipment.
+Fight plenty of monsters to
+obtain equipment with slots,
+and try creating your own
+unique slotted equipment.
 -----------------------
 #ここだけの話ですが、装飾品も
 #リファインすることができます
 #でも、それは装飾品どうしではありません
-Just between you and me, accessories can
-also be refined. But not with other accessories.
+Just between you and me,
+accessories can also be refined.
+But not with other accessories.
 -----------------------
 #装飾品と、装備品のような
 #形でのみリファインが可能なのです
@@ -2739,32 +2753,35 @@ with equipment in that manner.
 #変化するということです
 #武器、防具によって違います
 The advantage in this case is that
-the resulting slot changes depending on
-which equipment piece you refine.
+the resulting slot changes depending
+on which equipment piece you refine.
 It differs for weapons and armor.
 -----------------------
 #また、装飾品は一つしか装備できないので
 #いらない装飾品を、リファインに活用すれば
 #非常に有効です
-Since you can only equip one accessory at a time,
-making use of spare accessories for Refining
-is highly effective.
+Since you can only equip one
+accessory at a time, making
+use of spare accessories for
+Refining is highly effective.
 -----------------------
 #その他にも、外装つまり「マント」も
 #装飾品と同様に装備品とリファインできます
 #その場合はなんと、装備品に属性を
 #付加することができるのです
-Additionally, exterior components, specifically "cloaks",
-can also be refined just like accessories.
-In that case,
-you can even add attributes to your equipment.
+Additionally, exterior components,
+specifically "cloaks", can also
+be refined just like accessories.
+In that case, you can even add
+attributes to your equipment.
 -----------------------
 #装飾品とのリファインもうまく活用し
 #さらにステキなリファイン職人を
 #目指してみてください
-Make good use of refining with accessories,
-and aim to become an even more wonderful
-Refining artisan.
+Make good use of refining
+with accessories, and aim
+to become an even more
+wonderful Refining artisan.
 -----------------------
 #たまに、装備品の中に黄色い枠の
 #アイコンが付いたものがありますね
@@ -2778,30 +2795,33 @@ These are called unique items.
 #かっこよく、攻撃力も高く
 #スロットレベルも高いものが多いですが
 #スロットは一つしかありません
-Unique items look impressive, boast high attack power,
-and often have high slot levels,
+Unique items look impressive,
+boast high attack power, and
+often have high slot levels,
 but they only have one slot.
 -----------------------
 #しかし、その反面、装飾品以外のユニークアイテムは
 #リファインすることができません
 #これ以上強化することができないのです
-However, unique items other than accessories
-cannot be refined.
-This means they cannot be strengthened any further.
+However, unique items other
+than accessories cannot be
+refined. This means they cannot
+be strengthened any further.
 -----------------------
 #ですから、いらなくなったアイテムは
 #どんどん売ってしまうことをお勧めします
-So I recommend selling off items
-you no longer need as soon as possible.
+So I recommend selling off items you
+no longer need as soon as possible.
 -----------------------
 #なぜなら、アイテムをたくさん持っていると
 #モンスターがアイテムを
 #落としてくれなくなってしまうという
 #噂があるからです
-Because there's a rumor that if you carry too many items,
-monsters will stop dropping them.
-That's why.
+Because there's a rumor that if you
+carry too many items, monsters will
+stop dropping them. That's why.
 -----------------------
 #････アイテム整理も大切ですね
-...Keeping your inventory organized is important too.
+...Keeping your inventory
+organized is important too.
 -----------------------

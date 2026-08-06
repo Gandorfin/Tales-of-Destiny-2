@@ -458,9 +458,9 @@ Maid with a taste for shiny things
 #街の西の橋を渡り
 #海岸線を右手にしてくとつり橋が見える
 #そこがハーメンツヴァレー
-Cross the bridge west of town,
-keep the coastline on your right, and you'll spot a suspension bridge.
-That's Harmentz Valley.
+Cross the bridge west of town.
+Follow the coast until you see
+the bridge to Harmentz Valley.
 -----------------------
 #光り物好きなメイド
 Maid with a taste for shiny things
@@ -468,9 +468,9 @@ Maid with a taste for shiny things
 #ハーメンツヴァレーを渡ると
 #今度は東へ
 #川が見えたらそこがアイグレッテよ
-Once you're through Harmentz Valley,
-head east this time.
-When you see the river, that's Aigrette.
+Once you're through Harmentz
+Valley, head east this time. When
+you see the river, that's Aigrette.
 -----------------------
 #光り物好きなメイド
 Maid with a taste for shiny things
@@ -489,14 +489,16 @@ Not my problem.
 #『七将軍像』
 #ヒューゴの乱の時代、セインガルドを
 #統治していた７人の将軍を奉った像
-'Seven Generals Statue'
-A statue honoring the seven generals who
-ruled Seinegald during the era of Hugo's Rebellion.
+'Seven Generals Statue' A statue
+honoring the seven generals
+who ruled Seinegald during
+the era of Hugo's Rebellion.
 -----------------------
 #外殻崩壊時、ふりそそいだ破片を浴びて
 #セインガルド城と共に土中へ消える
-Struck by debris when the outer shell collapsed,
-it sank underground alongside Seinegald Castle.
+Struck by debris when the outer
+shell collapsed, it sank underground
+alongside Seinegald Castle.
 -----------------------
 #いってらっしゃいませ
 Have a good day.

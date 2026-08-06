@@ -24,7 +24,8 @@ We should eat at least once a day.
 A magnificent bonsai.
 -----------------------
 #戸棚です　何か隠せます
-It's a cabinet. You could hide something in it.
+It's a cabinet. You could
+hide something in it.
 -----------------------
 #おじじ
 Grandpa
@@ -94,7 +95,7 @@ No
 <item:00000C02>
 -----------------------
 #ご用の時は呼んでなのミャ
-Just call me if you need anything, meow.
+Call me if you need me, meow.
 -----------------------
 <item:00000C02>
 -----------------------
@@ -114,8 +115,8 @@ It's a little embarrassing, meow.
 -----------------------
 #これからはココで
 #「おじじ孝行」するミャ！
-From now on, I'll be right here.
-I'm gonna do my best to take care of Grandpa, meow!
+From now on, I'll stay here
+and take care of Grandpa, meow!
 -----------------------
 <item:00000C02>
 -----------------------
@@ -172,8 +173,8 @@ see, meow!
 -----------------------
 #お散歩楽しかったミャ
 #ご用の時は呼んでなのミャ
-That was a nice walk, meow.
-Just call me if you need anything, meow.
+That was a nice walk, meow. Just
+call me if you need anything, meow.
 -----------------------
 #いってらっしゃいませ
 Have a good day.

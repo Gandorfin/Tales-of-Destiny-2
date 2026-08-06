@@ -1,5 +1,5 @@
 #クレスタの街・雑貨屋＆装備屋
-Cresta - General Store & Equipment Shop
+Cresta - General & Equipment Shop
 -----------------------
 #クレスタの街
 Cresta
@@ -72,9 +72,9 @@ to grind flour.
 #クレスタの台所を支えている
 #大事な水車だ
 #触らないでおこう
-This water wheel supports Cresta's kitchens.
-It's vital to the town.
-Best not touch it.
+This water wheel supports
+Cresta's kitchens. It's vital
+to the town. Best not touch it.
 -----------------------
 #『アクアヴェイル産ミソ・一袋で２９８ガルド』
 #と書かれている
@@ -83,8 +83,9 @@ It says:
 -----------------------
 #ミソ・スープはアクアヴェイル地方の
 #代表的な家庭料理らしい
-Miso soup seems to be a typical
-homestyle dish in the Aquaveil region.
+Miso soup seems to be a
+typical homestyle dish
+in the Aquaveil region.
 -----------------------
 #いってらっしゃいませ
 Welcome.

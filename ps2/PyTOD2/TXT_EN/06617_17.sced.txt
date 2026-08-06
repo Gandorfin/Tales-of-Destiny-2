@@ -13,18 +13,23 @@ NOTICE
 Acquired <item:00000019>.
 -----------------------
 #ワラで編み込まれた靴？が入っている
-There's a pair of woven straw shoes inside.
+There's a pair of woven
+straw shoes inside.
 -----------------------
 #矛や槍や剣などが所狭しと並んでいる
-Polearms, swords, and other weapons are crammed together here.
+Polearms, swords, and other
+weapons are crammed together here.
 -----------------------
 #宗教的な道具のようだ
 #不思議な箱の上にパンのような物が乗っている
-It looks like some kind of religious artifact.
-There's something like bread sitting on top of that mysterious box.
+It looks like some kind of
+religious artifact. There's
+something like bread sitting
+on top of that mysterious box.
 -----------------------
 #どこかしら神聖な雰囲気を持った道具がある
-There's an item here that feels somehow sacred.
+There's an item here that
+feels somehow sacred.
 -----------------------
 NOTICE
 -----------------------
@@ -121,15 +126,16 @@ Stahn and Rutee's...
 #おふたりには夫も私も
 #とてもお世話になったのです
 #ぜひお礼をいわせてください
-Both my husband and I
-owe them a great deal.
-Please, let us express our gratitude.
+Both my husband and I owe
+them a great deal. Please,
+let us express our gratitude.
 -----------------------
 #これからもフェイトや娘のエミリやクレア
 #それに私のよき友人で
 #いてくださいましね
-I hope you'll remain close friends
-with Fate, my daughters Emily and Claire,
+I hope you'll remain close
+friends with Fate, my
+daughters Emily and Claire,
 and myself for years to come.
 -----------------------
 #エミリ
@@ -278,8 +284,8 @@ to what my husband has to say.
 #よくぞ参られたな
 #私がここの領主、フェイトだ
 Welcome, travelers, to Aquaveil.
-It is good of you to have come so far.
-I am Fate, lord of these lands.
+It is good of you to have come so
+far. I am Fate, lord of these lands.
 -----------------------
 <Kyle>
 -----------------------
@@ -295,8 +301,8 @@ Um, by the way, where's Johnny?
 -----------------------
 #あやつは今、ここにはおらんのだ
 #旅先で、やつに会ったのか？
-He is not here at present.
-Did you encounter him on your journey?
+He is not here at present. Did
+you encounter him on your journey?
 -----------------------
 <Kyle>
 -----------------------
@@ -309,8 +315,8 @@ so I was just wondering.
 -----------------------
 #父さん････？
 #もしや君は、スタン殿のご子息か!?
-Your father...?
-Could it be that you are the son of Lord Stahn!?
+Your father...? Could it be that
+you are the son of Lord Stahn!?
 -----------------------
 <Kyle>
 -----------------------
@@ -322,12 +328,14 @@ is my father.
 #なんと！あのスタン殿の息子が
 #遠路はるばる、やってきてくれるとは！
 #なるほど、面影が････
-Incredible! To think the son of Lord Stahn
-would come all this way to see us!
-I see now... You really do bear his likeness...
+Incredible! To think the son of
+Lord Stahn would come all this
+way to see us! I see now... You
+really do bear his likeness...
 -----------------------
 #････もしや、母上はルーティ殿か？
-...Then might your mother be Lady Rutee?
+...Then might your
+mother be Lady Rutee?
 -----------------------
 <Kyle>
 -----------------------
@@ -370,15 +378,17 @@ within the Aqua Labyrinth.
 -----------------------
 #君たちはそれを知らず、宝を手に入れ
 #封印を解いてしまったのだな
-You obtained the treasure without knowing,
-and in doing so broke the seal.
+You obtained the treasure
+without knowing, and in
+doing so broke the seal.
 -----------------------
 #その事を責めるつもりは無いが
 #この街と、中に入ったジョニーに
 #対しては責任を負ってもらわねばな
-I do not mean to blame you for this,
-but I must ask you to take responsibility
-for this town, and for Johnny, who entered within.
+I do not mean to blame you for
+this, but I must ask you to take
+responsibility for this town, and
+for Johnny, who entered within.
 -----------------------
 #君の両親は私たち夫婦にとって
 #本当に大切な友人なんだ
@@ -457,32 +467,36 @@ The barrier's come undone!
 #････この結界は異次元空間
 #『アクアラビリンス』を封じる
 #大変、危険なものなのだ
-...This barrier seals away
-the other-dimensional space known as the 'Aqua Labyrinth.'
-It is an exceedingly dangerous thing.
+...This barrier seals away the
+other-dimensional space known
+as the 'Aqua Labyrinth.' It is
+an exceedingly dangerous thing.
 -----------------------
 #十八年前の災厄の時、激しく暴走する
 #レンズの力によって
 #アクアヴェイルは崩壊の危機に瀕した
-Eighteen years ago, during the calamity,
-the rampaging power of the Lens
-brought Aquaveil to the brink of collapse.
+Eighteen years ago, during the
+calamity, the rampaging power
+of the Lens brought Aquaveil
+to the brink of collapse.
 -----------------------
 #異次元空間『アクアラビリンス』の
 #封印が弱まり、街を飲みこもうと
 #拡大したのだ
-The seal on the other-dimensional space 'Aqua Labyrinth'
-weakened, and it began to expand,
+The seal on the other-dimensional
+space 'Aqua Labyrinth' weakened,
+and it began to expand,
 threatening to swallow the town.
 -----------------------
 #『アクアラビリンス』の主である
 #古代の悪魔のしわざだろう
 #大方、その悪魔がレンズの力を利用して
 #封印を解こうとしたのだろうが････
-It was the work of the ancient demon
-who rules the 'Aqua Labyrinth.'
-No doubt that demon used the power of the Lens
-in an attempt to break the seal, but...
+It was the work of the ancient
+demon who rules the 'Aqua
+Labyrinth.' No doubt that demon
+used the power of the Lens in an
+attempt to break the seal, but...
 -----------------------
 <Loni>
 -----------------------
@@ -493,9 +507,9 @@ thing away, right?
 #ああ
 #十八年前はこの結界のおかげで
 #大事には至らなかったのだ
-Yes.
-Thanks to this barrier, eighteen years ago
-the situation never became truly dire.
+Yes. Thanks to this barrier,
+eighteen years ago the situation
+never became truly dire.
 -----------------------
 <Kyle>
 -----------------------
@@ -505,22 +519,26 @@ But then why
 did it suddenly break?
 -----------------------
 #このおとぎ話を聞いたことはないか？
-Have you never heard this fairy tale?
+Have you never heard
+this fairy tale?
 -----------------------
 #『石は悪を封じる　石は宝を封じる
 #　宝を得んとする者はまた悪をも得たり』
-'The stone seals evil; the stone seals treasure.
-Those who would gain treasure shall also gain evil.'
+'The stone seals evil; the stone
+seals treasure. Those who would
+gain treasure shall also gain evil.'
 -----------------------
 #実はこのおとぎ話は、アクアラビリンスに
 #封じられた悪魔の事を語っているのだ
-In truth, this fairy tale speaks of
-the demon sealed within the Aqua Labyrinth.
+In truth, this fairy tale
+speaks of the demon sealed
+within the Aqua Labyrinth.
 -----------------------
 #宝を得たものは、その代償として
 #悪魔の封印を解いてしまう、ということだ
 Those who obtain the treasure
-shall unwittingly break the demon's seal as their price.
+shall unwittingly break the
+demon's seal as their price.
 -----------------------
 <Kyle>
 -----------------------
@@ -551,8 +569,8 @@ fault...
 -----------------------
 #なんだって！悪魔を封じる宝石を
 #使ってしまったというのか!?
-What?! You mean to say you used the very gems
-that seal away the demon!?
+What?! You mean to say you used the
+very gems that seal away the demon!?
 -----------------------
 <Kyle>
 -----------------------
@@ -589,13 +607,14 @@ Then I'm counting on you.
 -----------------------
 #それに、だ････
 #ひとつ頼みたい事がある
-Also...
-There's one more thing I'd like to ask.
+Also... There's one more
+thing I'd like to ask.
 -----------------------
 #先刻、ジョニーが中へ入っていったのだ
 #だが、まったく帰ってくる気配が無い
-Johnny went inside a short while ago.
-But there's been no sign of him since.
+Johnny went inside a short
+while ago. But there's
+been no sign of him since.
 -----------------------
 #どこかで迷っているのかもしれん
 #奴を捜してもらいたいのだ
@@ -611,8 +630,8 @@ Understood.
 -----------------------
 #中では何が起こるかわからん
 #くれぐれも用心するんだぞ
-You never know what might happen inside.
-Be on your guard.
+You never know what might
+happen inside. Be on your guard.
 -----------------------
 #でばっぐ
 debug

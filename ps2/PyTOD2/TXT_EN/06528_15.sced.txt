@@ -26,10 +26,12 @@ top. Let's find an auxiliary power
 source.
 -----------------------
 #リフトの補助電源スイッチを入れました
-Turned on the lift's auxiliary power switch.
+Turned on the lift's
+auxiliary power switch.
 -----------------------
 #リフトの補助電源スイッチを切りました
-Turned off the lift's auxiliary power switch.
+Turned off the lift's
+auxiliary power switch.
 -----------------------
 notice
 -----------------------

@@ -37,13 +37,16 @@ A snowman shaped like a chef.
 -----------------------
 #『ここはハイデルベルグ旧市街
 #　天地戦争の終結後に造られた歴史ある街』
-"You are now in the Old Town of Heidelberg,
-a historic district built after the Aeth'er Wars."
+"You are now in the Old Town of
+Heidelberg, a historic district
+built after the Aeth'er Wars."
 -----------------------
 #『ハイデルベルグ記念公園へお越しの方は
 #　このまま城を左手に見ながら進んで下さい』
-"Those heading to Heidelberg Memorial Park,
-please continue forward with the castle on your left."
+"Those heading to Heidelberg
+Memorial Park, please
+continue forward with
+the castle on your left."
 -----------------------
 #おじさん
 Man
@@ -1167,7 +1170,8 @@ John
 ......
 -----------------------
 #返事が無い　ついでに意識も無いようだ
-No reply... and it looks like she's lost consciousness too.
+No reply... and it looks like
+she's lost consciousness too.
 -----------------------
 #ジニー
 Ginny

@@ -101,7 +101,8 @@ select
 #荷下ろし用の船着場だ
 #大量の荷物を移動した跡がある
 A dock for unloading cargo.
-There are signs that large loads were moved here.
+There are signs that large
+loads were moved here.
 -----------------------
 #いってらっしゃいませ
 Have a good day.

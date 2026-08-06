@@ -16,10 +16,11 @@ but no pianist.
 #『弓のご用命はチェルシー＝トーンまで
 #　ハイデルベルグの北西へお越しの際は
 #　ぜひお立ち寄り下さい』
-There's a flyer inside.
-'For all your archery needs, contact Chelsea Tone.'
-If you're ever heading northwest
-of Heidelberg, please stop by!'
+There's a flyer inside. 'For
+all your archery needs, contact
+Chelsea Tone.' If you're
+ever heading northwest of
+Heidelberg, please stop by!'
 -----------------------
 #アルバイト
 Part-Timer
@@ -88,9 +89,9 @@ she never got paid right~
 #だから、今のわたしは、幸せです～
 #お金いただいてるんですから
 #お仕事がキツくても、文句いえませんよ～
-So I'm happy now~
-'Cause I'm getting paid.
-Even when it's tough, I can't complain~
+So I'm happy now~ 'Cause I'm
+getting paid. Even when it's
+tough, I can't complain~
 -----------------------
 #マッハ中年
 Mach Middle-Ager
@@ -316,7 +317,8 @@ select
 No
 -----------------------
 #客にオーダーを聞いてきてほしい
-I need you to take orders from the customers.
+I need you to take orders
+from the customers.
 -----------------------
 #オーダーは<0B:00000001><num:0000000A><0B:00000000>秒以内で手早くね
 Finish each order within
@@ -324,7 +326,8 @@ Finish each order within
 seconds. Be quick.
 -----------------------
 #さぁ････客が来はじめたぞ
-All right... here come the customers.
+All right... here
+come the customers.
 -----------------------
 <03:00000000><size:00000200>level {14}{24}{6E}{C0}
 -----------------------
@@ -338,8 +341,8 @@ All right... here come the customers.
 -----------------------
 #ありがとう
 #キミのおかげでがっぽりともうけたよ
-Thanks!
-Thanks to you, I raked in a tidy profit.
+Thanks! Thanks to you, I
+raked in a tidy profit.
 -----------------------
 #キミの取り分だ、受け取ってくれ
 Here's your cut. Take it.
@@ -354,7 +357,8 @@ I'll be counting on you again.
 -----------------------
 #もうけを倍にすると言うからまかせてみれば
 #このザマだ！
-They said we'd double our profits, so I gave it a shot...
+They said we'd double our
+profits, so I gave it a shot...
 And this is what happens!
 -----------------------
 #<size:00000180>帰れ！

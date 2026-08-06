@@ -13,10 +13,10 @@ According to the map...
 #南西に『フィッツガルド大陸』
 #北東に『アクアヴェイル諸島』
 #そして世界の中心に『中央大陸』があるようだ
-To the northwest lies the continent of Calvalese.
-To the southwest lies the continent of Fitzgald.
-To the northeast lie the Aquaveil Islands.
-And at the center of the world lies the Central Continent.
+Calvalese lies northwest, Fitzgald
+southwest, and the Aquaveil Islands
+northeast. The Central Continent
+lies at the world's center.
 -----------------------
 #これは････砲弾のようだ
 #自衛のための装備だろうか
@@ -28,7 +28,8 @@ Better not touch it. It's dangerous.
 -----------------------
 #海図にはびっしりと矢印や専門用語が
 #書きこまれている
-The sea charts are covered in arrows and technical terms.
+The sea charts are covered in
+arrows and technical terms.
 -----------------------
 #ハンモックだ
 #船長が使っているのだろう

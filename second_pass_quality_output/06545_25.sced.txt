@@ -337,7 +337,8 @@ Thank you for your purchase.
 <item:00000012> is <0B:00000001>{14}{35}{CC}{C0}<0B:00000000> gald per bottle.
 -----------------------
 #リファイン講座を聞きたいですか？
-Would you like to hear the Refine tutorial?
+Would you like to hear
+the Refine tutorial?
 -----------------------
 select
 -----------------------
@@ -374,9 +375,10 @@ Next Page
 #リファインとは、選択したアイテムを
 #別なアイテムに変化させたり
 #武器や防具を合成することのできるコマンドです
-Refining is a command that lets you transform
-selected items into different items,
-or synthesize weapons and armor.
+Refining is a command that
+lets you transform selected
+items into different items, or
+synthesize weapons and armor.
 -----------------------
 #リファインを行うのに必要なのは
 #<item:00000012>とレンズです
@@ -403,9 +405,9 @@ to your heart's content.
 #アイテムの変化とは、アイテム単体に
 #リファインを行うことによって
 #別なアイテムに変化させることです
-Item transformation means using Refine
-on a single item to change it
-into a different item.
+Item transformation means using
+Refine on a single item to
+change it into a different item.
 -----------------------
 #例えば、<item:00000001>にリファインを行うと
 #<item:00000002>に変化し
@@ -426,23 +428,24 @@ turn it into items such as
 #行うと、有効な場合もあります
 #もちろん、最初からきちんと準備をしておくほうが
 #賢いといえますが････
-This can be useful when you run out of items
-in a dungeon or elsewhere.
-Of course, it's wiser to prepare
-properly from the start...
+This can be useful when you run
+out of items in a dungeon or
+elsewhere. Of course, it's wiser to
+prepare properly from the start...
 -----------------------
 #リファインの一番の特徴は
 #やはり、装備品の合成です
-The most distinctive feature of Refining
-is equipment synthesis.
+The most distinctive feature of
+Refining is equipment synthesis.
 -----------------------
 #装備品を合成すると
 #お気に入りの装備品に
 #お気に入りのスロットが付いた
 #装備品を作ることができます････
-By synthesizing equipment, you can create
-custom gear with your favorite slots
-on your favorite equipment...
+By synthesizing equipment,
+you can create custom gear
+with your favorite slots on
+your favorite equipment...
 -----------------------
 #ああ、まずはスロットの説明を
 #しなければいけませんね
@@ -457,34 +460,36 @@ that can be attached to equipment.
 -----------------------
 #スロットについては、また別に
 #詳しく説明させていただきます
-We'll explain slots in greater detail
-in a separate section.
+We'll explain slots in greater
+detail in a separate section.
 -----------------------
 #いちばん簡単な装備品のリファインは
 #スロットが一つついた装備品どうしの
 #リファインです
-The simplest form of equipment Refining
-is combining two pieces of equipment
-that each have one slot.
+The simplest form of equipment
+Refining is combining two pieces of
+equipment that each have one slot.
 -----------------------
 #これを行うと、何とステキなことに
 #スロットが二つ付いた装備品ができます
-Do this, and something wonderful happens:
-you'll get equipment with two slots.
+Do this, and something
+wonderful happens: you'll
+get equipment with two slots.
 -----------------------
 #注意しなければいけないのは
 #剣は剣、鎧は鎧といったように
 #同じ種類の装備品でしか
 #リファインできません
-One thing to keep in mind:
-you can only refine equipment
-of the same type,
-like with like... swords with swords, armor with armor.
+One thing to keep in mind: you can
+only refine equipment of the same
+type, like with like... swords
+with swords, armor with armor.
 -----------------------
 #他にもいろいろな組み合わせがありますが
 #それはやってみてのお楽しみです
-There are many other combinations as well.
-You'll just have to try them out and see.
+There are many other combinations
+as well. You'll just have
+to try them out and see.
 -----------------------
 #スロットについて
 #詳しく説明いたします
@@ -511,8 +516,8 @@ with Attack to make an Attack Sword.
 #また、スロットにはレベルがあり
 #レベルが高いと効果も上昇します
 #最高はレベル８です
-Slots also have levels.
-Higher levels increase their effectiveness.
+Slots also have levels. Higher
+levels increase their effectiveness.
 The maximum level is 8.
 -----------------------
 #スロット付きの装備品は
@@ -531,8 +536,9 @@ your very own custom gear.
 #ここだけの話ですが、装飾品も
 #リファインすることができます
 #でも、それは装飾品どうしではありません
-This is just between us, but accessories
-can also be refined. However, not by
+This is just between us,
+but accessories can also
+be refined. However, not by
 combining them with each other.
 -----------------------
 #装飾品と、装備品のような
@@ -544,42 +550,45 @@ with equipment, in the same way.
 #装備品の場所によってスロットが
 #変化するということです
 #武器、防具によって違います
-The advantage in this case is that the slot
-changes depending on which equipment piece
-you refine them with.
-It differs between weapons and armor.
+The advantage in this case is
+that the slot changes depending
+on which equipment piece you
+refine them with. It differs
+between weapons and armor.
 -----------------------
 #また、装飾品は一つしか装備できないので
 #いらない装飾品を、リファインに活用すれば
 #非常に有効です
-Also, since you can only equip one accessory,
-putting unwanted accessories to use in Refine
-is extremely effective.
+Also, since you can only
+equip one accessory, putting
+unwanted accessories to use in
+Refine is extremely effective.
 -----------------------
 #その他にも、外装つまり「マント」も
 #装飾品と同様に装備品とリファインできます
 #その場合はなんと、装備品に属性を
 #付加することができるのです
-You can also Refine exterior items, that is, "cloaks",
-together with equipment, just like accessories.
-And in that case, you can actually
-add elemental attributes to your equipment.
+Cloaks can also be Refined with
+equipment, just like accessories.
+Doing so can even add elemental
+attributes to your equipment.
 -----------------------
 #装飾品とのリファインもうまく活用し
 #さらにステキなリファイン職人を
 #目指してみてください
-Make good use of refining with accessories too,
-and aim to become an even more wonderful
-master of Refining.
+Make good use of refining
+with accessories too, and
+aim to become an even more
+wonderful master of Refining.
 -----------------------
 #たまに、装備品の中に黄色い枠の
 #アイコンが付いたものがありますね
 #それは、ユニークアイテムと
 #呼ばれているものです
-You'll occasionally find equipment
-with a yellow border around its icon.
-These are what's known as
-unique items.
+You'll occasionally find
+equipment with a yellow border
+around its icon. These are
+what's known as unique items.
 -----------------------
 #ユニークアイテムは見た目にも
 #かっこよく、攻撃力も高く
@@ -593,26 +602,29 @@ but they only have one slot.
 #しかし、その反面、装飾品以外のユニークアイテムは
 #リファインすることができません
 #これ以上強化することができないのです
-However, unique items other than accessories
-cannot be refined,
-meaning they cannot be strengthened any further.
+However, unique items other
+than accessories cannot be
+refined, meaning they cannot
+be strengthened any further.
 -----------------------
 #ですから、いらなくなったアイテムは
 #どんどん売ってしまうことをお勧めします
 So I recommend selling off
-items you no longer need as quickly as possible.
+items you no longer need
+as quickly as possible.
 -----------------------
 #なぜなら、アイテムをたくさん持っていると
 #モンスターがアイテムを
 #落としてくれなくなってしまうという
 #噂があるからです
-Because there's a rumor that if you carry too many items,
-monsters will stop
-dropping them for you.
-That's why.
+Because there's a rumor that
+if you carry too many items,
+monsters will stop dropping
+them for you. That's why.
 -----------------------
 #････アイテム整理も大切ですね
-...Keeping your items organized is important too.
+...Keeping your items
+organized is important too.
 -----------------------
 #ベテラン
 Veteran
@@ -631,7 +643,8 @@ Will you listen in?
 -----------------------
 #さて俺たちも冒険を始めるわけだが、
 #基本は身に付いたか？
-Well then, it's about time we started our adventure.
+Well then, it's about time
+we started our adventure.
 Have you got the basics down?
 -----------------------
 #もちろんさ、<button:00000045>で武器攻撃しまくりさ!!
@@ -648,11 +661,13 @@ different attacks!
 -----------------------
 #まずは実際に何度か繰り出してみて、
 #速度や射程を覚えていくといいな
-First, try using them a few times in practice,
-and get a feel for their speed and range.
+First, try using them a few
+times in practice, and get a
+feel for their speed and range.
 -----------------------
 #連続攻撃はどうやればいいのさ？
-How do I pull off consecutive attacks?
+How do I pull off
+consecutive attacks?
 -----------------------
 #攻撃中に再度<button:00000045>を押せばいい
 #もちろん方向キー<button:00000006>、<button:00000021>、<button:00000016>、<button:00000017>
@@ -679,9 +694,9 @@ Why? Just keep swinging.
 #かえって不利な状況になることもある
 #気をつけることだ
 If your Spirit Gauge is low,
-your attack accuracy and evasion will drop.
-You can even end up at a disadvantage.
-Be careful.
+your attack accuracy and evasion
+will drop. You can even end up
+at a disadvantage. Be careful.
 -----------------------
 #防御が成功するとＳＰが多く回復するから、
 #防御<button:00000047>も大切ということだな
@@ -700,8 +715,9 @@ Will you listen in?
 -----------------------
 #どうだ、特技を覚えて
 #戦略に幅が出たろう？
-How about it? Once you learn some base artes,
-your strategies will really open up, right?
+How about it? Once you learn
+some base artes, your strategies
+will really open up, right?
 -----------------------
 #特技<button:00000046>はつえーけどＴＰがすぐなくなるさ
 #戦闘中も自動的に回復するけど、
@@ -728,18 +744,19 @@ with <button:00000045>.
 #････ＴＰが余ってももったいないからな
 #術を使ってＳＰを回復させるなど、
 #うまく使っていくのが大切だ
-...It's a waste to let TP go unused.
-Using spells to recover SP, for instance...
-it's important to manage it wisely.
+...It's a waste to let TP go
+unused. Using spells to recover
+SP, for instance... it's
+important to manage it wisely.
 -----------------------
 #ＴＰは敵を倒したときも少量回復する
 #しかも、敵を連携中に
 #まとめて倒したりすると、
 #より多くのＴＰを回復できるのだ
-TP also recovers slightly when you defeat enemies.
-Moreover,
-if you take them out together during a combo,
-you can recover even more TP.
+TP also recovers slightly when you
+defeat enemies. Moreover, if you
+take them out together during a
+combo, you can recover even more TP.
 -----------------------
 notice
 -----------------------
@@ -759,15 +776,16 @@ I've learned Enchant too.
 #うむ　簡単に言えば
 #「覚えている特技、術を
 #　自分好みにカスタムできる能力」だな
-Indeed. Simply put,
-it's the ability to customize
-the base artes and spells you know to your liking.
+Indeed. Simply put, it's the ability
+to customize the base artes and
+spells you know to your liking.
 -----------------------
 #まずは使い続けて使用回数を上げること！
 #そうすれば様々なエンチャントが
 #装備できるようになるだろう
-First, keep using them to build up usage count!
-That way, you'll be able to equip
+First, keep using them to
+build up usage count! That
+way, you'll be able to equip
 various different enchantments.
 -----------------------
 #じゃあ、ひとつの特技を使いまくりさ
@@ -777,40 +795,45 @@ Then I'll just spam one base arte.
 #ただ、戦闘中はエンチャントは変更できない
 #多くの技に多彩なエンチャントを
 #つけておくのも悪くないぞ
-That's certainly one approach.
-However, you can't change enchantments during battle,
-so applying diverse enchantments to many techniques...
-isn't a bad idea at all.
+That is one option. But Enchants
+cannot be changed in battle,
+so spreading different Enchants
+across many artes is also useful.
 -----------------------
 #敵の能力を下げる術を使ってから
 #武器で切り込む････など、特技と術を
 #使いこなすことで戦略は拡がっていく
 #････仲間同士で補い合っていってもいいな
-Using a spell to lower enemy stats, then cutting in with weapons...
-Mastering both base artes and spells like that
-will really expand your strategic options.
-...You can cover for each other with allies too.
+Use a Magic Arte to lower enemy
+stats, then close in with your
+weapon. Mastering both types
+expands your options, and
+allies can cover each other.
 -----------------------
 #ちなみに、装備したエンチャントは外せば
 #使用回数は戻るから、いろいろと
 #試してみるのがいいだろう
-By the way, if you remove an equipped enchantment,
-its usage count is restored, so
-it's good to experiment with various combinations.
+By the way, if you remove
+an equipped enchantment,
+its usage count is restored,
+so it's good to experiment
+with various combinations.
 -----------------------
 #ボクのお気に入りの特技はあまり
 #当たらないから、欠点を補うために
 #命中のエンチャントをつけるさ
-My favorite base arte doesn't hit very often,
-so to make up for that weakness,
-I equip an accuracy enchantment.
+My favorite base arte doesn't
+hit very often, so to make
+up for that weakness, I equip
+an accuracy enchantment.
 -----------------------
 #････お前の場合は単に空振りしてるだけだな
 #空振りは、使用回数が増えないので
 #もったいないぞ！
-......In your case, you're just swinging at air.
-You don't build usage count on missed swings.
-What a waste!
+......In your case, you're
+just swinging at air. You
+don't build usage count on
+missed swings. What a waste!
 -----------------------
 #それと、回復晶術は
 #「対象のＨＰが５０％以下のときに
@@ -818,13 +841,14 @@ What a waste!
 #使用回数が増える　気をつけろ!!
 Also, for recovery magic artes,
 usage count only increases
-when used on a target whose HP is below 50%.
-Be careful!!
+when used on a target whose
+HP is below 50%. Be careful!!
 -----------------------
 #確かにかすり傷で使っても
 #経験にはならないさ
-It's true that using them for a scratch wound
-won't count as experience.
+It's true that using them
+for a scratch wound won't
+count as experience.
 -----------------------
 notice
 -----------------------
@@ -838,8 +862,10 @@ Will you listen in?
 #いろんな敵に遭っても対処できるように、
 #作戦を決めておこうではないか！
 #「防御がかたい敵」が現れたらどうする？
-Let's decide on our strategies now, so we can handle whatever enemies
-we encounter! What do we do when an enemy with high defense appears?
+Let's decide on our strategies now,
+so we can handle whatever enemies
+we encounter! What do we do when
+an enemy with high defense appears?
 -----------------------
 #みんなして術使いまくりさ
 Have everyone spam spells!
@@ -848,20 +874,21 @@ Have everyone spam spells!
 #全員が術を唱えてると、
 #いいようになぐられるので、
 #前衛を一人置くのがいいな
-Using spells isn't bad,
-but if everyone's casting,
-you'll end up getting pummeled.
-It's better to keep one front-line fighter.
+Using spells isn't bad, but if
+everyone's casting, you'll end
+up getting pummeled. It's better
+to keep one front-line fighter.
 -----------------------
 #「敵の後衛が強力な術を使う」場合は？
-What if the enemy's rear guard uses powerful magic artes?
+What if the enemy's rear guard
+uses powerful magic artes?
 -----------------------
 #昨日暗記して覚えたさ
 #「術を使わせるな」で
 #詠唱をジャマするのさ
-I memorized it yesterday.
-'Don't let them cast spells.'
-That's how you interrupt their incantations.
+I memorized it yesterday. 'Don't
+let them cast spells.' That's how
+you interrupt their incantations.
 -----------------------
 #まあそんな感じだ
 Well, that's the gist of it.
@@ -869,16 +896,19 @@ Well, that's the gist of it.
 #作戦は同時に３つまで登録できるから、
 #戦闘中に瞬時に切り替えながら闘うと、
 #見ていて気持ちがいいぞ
-You can register up to three strategies at once.
-Switching between them instantly in battle
-feels great to watch.
+You can register up to three
+strategies at once. Switching
+between them instantly in
+battle feels great to watch.
 -----------------------
 #攻撃頻度、回復割合もキャラクターの能力と
 #敵に合わせて変えていくと、
 #より効率的な戦いが望めるだろう
-Adjusting attack frequency and healing ratios
-to match each character's abilities and the enemy
-should let you fight more efficiently.
+Adjusting attack frequency
+and healing ratios to match
+each character's abilities
+and the enemy should let
+you fight more efficiently.
 -----------------------
 notice
 -----------------------
@@ -895,35 +925,39 @@ What's a Technical Smash?
 #うむ　戦いのプロも認める、
 #「華麗なとどめのさし方」を行うと、
 #テクニカルスマッシュと認定される
-Indeed. Even seasoned warriors acknowledge it.
-Perform a "brilliant finishing blow,"
-and it will be recognized as a Technical Smash.
+Indeed. Even seasoned warriors
+acknowledge it. Perform a "brilliant
+finishing blow," and it will be
+recognized as a Technical Smash.
 -----------------------
 #テクニカルスマッシュで敵を倒すと、
 #あまりにステキなのか、アイテムの
 #入手確率が跳ね上がるというもっぱらの噂だ
-Defeat an enemy with a Technical Smash,
-and word has it your item drop rate
-skyrockets from how spectacular it is.
+Defeat an enemy with a Technical
+Smash, and word has it your
+item drop rate skyrockets
+from how spectacular it is.
 -----------------------
 #きっと真実だろう
 There's got to be truth to it.
 -----------------------
 #連携とか、まとめて倒すとかで出まくりさ
-They happen all the time during combos
-or when you wipe out groups at once.
+They happen all the time
+during combos or when you
+wipe out groups at once.
 -----------------------
 #うむ　特に「とどめは連携でさす」のは
 #重要だ　とどめをさした時点で、その連携
 #に使っていたＳＰは全て回復するのだ
 #長い連携をしても態勢を立て直せる
-Indeed. Above all, "land the finishing blow with a combo"
-is crucial. The moment you do, all SP spent
-on that combo is fully restored.
-You can recover your stance even after a lengthy combo.
+Yes. Finishing an enemy with a combo
+is vital. When the blow lands, all
+SP spent on that combo returns, so
+even a long combo leaves you ready.
 -----------------------
 #じゃあ追加特技とかはとどめ用にとっとくさ
-So I'll save Base Arte Extensions and such for finishing blows.
+So I'll save Base Arte Extensions
+and such for finishing blows.
 -----------------------
 #ＳＰ不足に悩んでいる場合は、
 #それがいいだろう
@@ -933,8 +967,10 @@ that's a solid approach.
 #アクションエンチャントは
 #ＳＰを消費するのが悩みだが、
 #とどめをうまく利用するのが達人への道だ
-Action Enchant consumes SP, which can be worrisome,
-but mastering finishing blows is the path to expertise.
+Action Enchant consumes SP,
+which can be worrisome, but
+mastering finishing blows
+is the path to expertise.
 -----------------------
 notice
 -----------------------
@@ -946,23 +982,26 @@ They seem to be discussing it.
 Will you listen in?
 -----------------------
 #敵に攻撃しても防御されまくりさ
-We're attacking, but they're blocking everything.
+We're attacking, but
+they're blocking everything.
 -----------------------
 #回避が高い敵には困ったものだ
 #術を当てるのも作戦のひとつだが、敵に
 #よっては、一回の攻撃でスピリッツを
 #激減させる一発屋もいるぞ
-High-evasion enemies are a real pain.
-Using magic artes is one strategy, but some enemies
-can drastically deplete your Spirits
-with a single attack.
+High-evasion enemies are a
+real pain. Using magic artes is
+one strategy, but some enemies
+can drastically deplete your
+Spirits with a single attack.
 -----------------------
 #空振りなどを誘い、スピリッツを
 #減らすと回避の能力も落ちる････
 #そこを狙うのもいいだろう
-Bait them into missing to drain their Spirits,
-and their evasion will drop too...
-That's another good angle to exploit.
+Bait them into missing to
+drain their Spirits, and their
+evasion will drop too... That's
+another good angle to exploit.
 -----------------------
 #ボクは<button:00000047>と<button:0000001D>のプレスガードで
 #狙ってＳＰを減らすのさ
@@ -973,19 +1012,19 @@ to target them and reduce their SP.
 #プレスガードは敵の最後の攻撃で行うのが
 #いい　プレスガードではＳＰは２０も減る
 #敵の攻撃を見極めることだな
-You're a pain because you keep attacking in combos.
-It's best to Press Guard against the enemy's final attack.
-A Press Guard costs 20 SP.
-It's about reading their attacks.
+You use it during combos too, which
+is the problem. Save Press Guard
+for the enemy's final attack. It
+costs 20 SP, so read their moves.
 -----------------------
 #敵ターゲットをカスタムで表示させて
 #いる場合、カーソルの色が明るいほど
 #ＳＰが高いということが分かる
 #戦いながら敵のＳＰを見切れるぞ
-If you set enemy targets to display custom,
-the brighter the cursor color,
-the higher their SP.
-You can gauge an enemy's SP mid-fight.
+If you set enemy targets to display
+custom, the brighter the cursor
+color, the higher their SP. You
+can gauge an enemy's SP mid-fight.
 -----------------------
 notice
 -----------------------
@@ -1002,28 +1041,34 @@ What's a Consecutive Hit?
 #ダメージを与えた敵が戦闘態勢に
 #復帰する前に連続してダメージを与えると
 #ヒット数が加算されて表示されるのだ
-When you damage an enemy and knock them out of stance,
-dealing consecutive damage before they recover
-adds to and displays your hit count.
+When you damage an enemy and
+knock them out of stance,
+dealing consecutive damage
+before they recover adds to
+and displays your hit count.
 -----------------------
 #いっぱい当てるとどうなるのさ？
-What happens if I rack up a ton of hits?
+What happens if I
+rack up a ton of hits?
 -----------------------
 #うむ　最高のヒット数は取得経験値に
 #影響する　なぜなら、そんな素晴らしい
 #連続攻撃は何よりも勝る経験だからな
-Indeed, your highest hit count affects experience gained.
-After all, nothing surpasses the experience
-of pulling off such a magnificent combo.
+Indeed, your highest hit count
+affects experience gained.
+After all, nothing surpasses
+the experience of pulling
+off such a magnificent combo.
 -----------------------
 #より高いヒット数を求めるなら
 #仲間との連携が不可欠だ　ヒット数とは
 #関係ない「攻撃のひと種類」は
 #ＣＨＡＩＮとして加算される
 If you want higher hit counts,
-coordinating with allies is essential.
-Attack types that don't affect hit count directly
-are added as CHAINs.
+coordinating with allies
+is essential. Attack types
+that don't affect hit count
+directly are added as CHAINs.
 -----------------------
 #ＳＰをうまい具合に使っていかないと
 #大変さ
@@ -1034,10 +1079,11 @@ we're in for trouble.
 #参加しても足を引っ張ってしまうのが
 #オチだな　やはりここでも術と特技の
 #バランスが重要だな
-Right. Joining a combo attack with low SP
-just drags everyone down.
-As expected, the balance between magic artes and base artes
-matters here too.
+Right. Joining a combo attack
+with low SP just drags everyone
+down. As expected, the balance
+between magic artes and
+base artes matters here too.
 -----------------------
 notice
 -----------------------
@@ -1050,7 +1096,8 @@ Will you listen in?
 -----------------------
 #敵の裏側から攻撃したら有利だと思ったけど
 #なんだか疲れるさ
-I thought attacking from behind would be advantageous,
+I thought attacking from
+behind would be advantageous,
 but somehow it's exhausting.
 -----------------------
 #うむ　スピリッツも含め、
@@ -1083,7 +1130,8 @@ find a way around that penalty.
 Theory isn't always right.
 -----------------------
 #たまにはいいこと言うな
-You actually said something smart for once.
+You actually said
+something smart for once.
 -----------------------
 #ベテランすぎ
 Too experienced.
@@ -1103,23 +1151,24 @@ Will you listen in?
 #戦闘でステータス異常になってしもうた
 #パナシーアボトルもないのじゃ
 #もうダメかのう････
-I've come down with status ailments from battle.
-No Panacea Bottles either...
-Are we done for...?
+I've come down with status ailments
+from battle. No Panacea Bottles
+either... Are we done for...?
 -----------------------
 #あきらめちゃいけません父さん
 #戦闘中にステータス異常になっても
 #時間の経過で回復するようですよ
-You can't give up, Dad.
-Even if you get status ailments during battle,
+You can't give up, Dad. Even if you
+get status ailments during battle,
 they seem to recover over time.
 -----------------------
 #ステータス異常はレベルがあるので
 #防止の装備をしていても軽減しきれずに
 #喰らってしまう場合があるので
 #気をつけねばいけませんね
-Status effects have levels, so even with protective gear,
-you may not fully mitigate them
+Status effects have levels, so
+even with protective gear, you
+may not fully mitigate them
 and can still get afflicted.
 We must stay vigilant.
 -----------------------
@@ -1131,8 +1180,10 @@ How dreadful...
 #やはりステータス異常を回復できる
 #料理を用意しておくのがいいですよ父さん
 #防止できる料理やアイテムもあるみたいですし
-It's best to prepare food that can cure status effects, Dad.
-There seem to be foods and items that can prevent them too.
+It's best to prepare food that
+can cure status effects, Dad.
+There seem to be foods and
+items that can prevent them too.
 -----------------------
 #後の祭りじゃあ　毒<button:00000056>に麻痺<button:0000005F>に衰弱<button:0000005A>に凍結に
 #鈍足でもうへとへとじゃあ
@@ -1146,10 +1197,10 @@ drained.
 #ステータス異常は一人につき四つまでしか効果は
 #残らないのです　エンチャントで能力を
 #上げて毒が消えることもあるんです
-You mustn't lie, Dad.
-Status effects only last up to four per person.
-Also, raising your stats with Enchant
-can sometimes cure poison.
+You mustn't lie, Dad. Status effects
+only last up to four per person.
+Also, raising your stats with
+Enchant can sometimes cure poison.
 -----------------------
 #しかも凍結と鈍足は
 #戦闘終了で回復しますよ
@@ -1186,70 +1237,73 @@ Will you listen in?
 -----------------------
 #ピンチになっても、スピリッツブラスター
 #になれば逆転のチャンスができるわい
-Even when you're in a pinch, entering Spirit Blaster
-gives you a chance to turn the tide.
+Even when you're in a pinch,
+entering Spirit Blaster gives
+you a chance to turn the tide.
 -----------------------
 #スピリッツブラスターになりたいなら
 #攻撃を当てることと敵にガードされないこと
 #が有効ですね父さん、まあ攻撃を受けてても
 #なりますけど父さんには危険ですね
-To enter Spirit Blaster, landing your attacks
-and getting through the enemy's guard is effective, Father.
-Well, you can also enter it by taking hits,
-but that's dangerous for you, Father.
+To enter Spirit Blaster, land
+attacks without being guarded,
+Dad. Taking hits also works,
+but that is dangerous for you.
 -----------------------
 #体力が衰えたワシも、
 #スピリッツブラスターになれば
 #のけぞることなく攻撃できるしのう
-Even with my waning strength,
-if I enter Spirit Blaster,
-I can attack without getting knocked back.
+Even with my waning strength, if I
+enter Spirit Blaster, I can attack
+without getting knocked back.
 -----------------------
 #そうはいっても父さん、ＨＰがなくなれば
 #効果が切れてしまいますし、回復魔法などを
 #かけても効果が早く切れてしまいますよ
-Even so, Father, once your HP runs out,
-the effect wears off. And even if you
-use healing magic, the effect fades quickly.
+Even so, Father, once your HP
+runs out, the effect wears off.
+And even if you use healing
+magic, the effect fades quickly.
 -----------------------
 #そんな細かいことは気にせんわい
 #ワシの最高の秘奥義はスピリッツブラスター
 #にならんと見せれんでの
-I don't sweat the small stuff.
-My greatest Mystic Arte can't even be shown
-unless I enter Spirit Blaster!
+I don't sweat the small stuff. My
+greatest Mystic Arte can't even be
+shown unless I enter Spirit Blaster!
 -----------------------
 #いえ父さん　確かに秘奥義はＳＰを多く
 #消費しますが、敵を倒すことでＳＰが
 #回復することを利用すると秘奥義を
 #出せることもあるようです
-No, Father. Mystic Artes do consume a lot of SP,
-but by defeating enemies, you recover SP.
-If you make use of that,
-it seems you can sometimes unleash Mystic Artes.
+No, Father. Mystic Artes do consume
+a lot of SP, but by defeating
+enemies, you recover SP. If you
+make use of that, it seems you can
+sometimes unleash Mystic Artes.
 -----------------------
 #ただ、弓使いにはスピリッツブラスター
 #状態を利用して、追加晶術のかわりに
 #秘奥義を出せる人もいるらしいですよ
 #父さん
-Also, some archers can use Spirit Blaster
-to unleash a Mystic Arte in place of
-a Magic Arte Extension, or so I've heard,
-Father.
+Also, some archers can use Spirit
+Blaster to unleash a Mystic
+Arte in place of a Magic Arte
+Extension, or so I've heard, Father.
 -----------------------
 #まあ奥義がヒットしても敵がのけぞって
 #ないと秘奥義にはいけぬから、
 #浮かす奥義だと重い敵にはうまく
 #いかんこともあるがの
-Well, even if an Arcane Arte hits, you can't
-follow up with a Mystic Arte unless the enemy staggers.
-With launch-type Arcane Artes, it doesn't always work
-well on heavy enemies, though.
+Even if an Arcane Arte hits, a
+Mystic Arte will not trigger unless
+the enemy staggers. Launching
+heavy foes may not work well.
 -----------------------
 #そんなわけでさっそく二人で
 #秘奥義を出しにいこうではないか
-So then, shall the two of us
-go unleash our Mystic Artes right away?
+So then, shall the two of us go
+unleash our Mystic Artes right away?
 -----------------------
 #いえ父さん　私は晶術使いなんで
 #秘奥義なんて使わないんですよ
@@ -1260,16 +1314,18 @@ so I don't use Mystic Artes.
 #すごいジャマなんですよ父さん
 #とどめもさせないのに秘奥義
 #しないでください父さん
-Besides, after a Mystic Arte your SP drops to zero,
-which is a huge nuisance, Father.
-You can't even land the finishing blow, so please
+Besides, after a Mystic Arte your
+SP drops to zero, which is a huge
+nuisance, Father. You can't even
+land the finishing blow, so please
 don't use Mystic Artes, Father.
 -----------------------
 #ジャマなんで
 It's a nuisance.
 -----------------------
 #（一回言えば分かると思うが・・・）
-(You'd think he'd get it after one time...)
+(You'd think he'd get
+it after one time...)
 -----------------------
 #ベテランすぎ
 Too experienced for your own good.
@@ -1289,18 +1345,19 @@ Will you listen in?
 #この間の、敵が出す
 #「フィールドオブエフェクト」には
 #ほとほと手を焼いたわい
-That "Field of Effect" the enemy used
-the other day had me completely
-at my wit's end.
+That "Field of Effect" the
+enemy used the other day had
+me completely at my wit's end.
 -----------------------
 #略してＦＯＥ（フォエ）ですね父さん
 #あれには大きく二種類があって、
 #範囲内の敵たちに効果があるのと、
 #こちらの能力を下げるものがありますね
-We call it F.O.E. for short, right, Father?
-There are two main types:
-One that affects enemies within its range,
-and one that lowers our abilities.
+We call it F.O.E. for short,
+right, Father? There are two
+main types: One that affects
+enemies within its range, and
+one that lowers our abilities.
 -----------------------
 #あれが出たらお手上げかのう
 If that shows up, I'm helpless.
@@ -1310,33 +1367,38 @@ If that shows up, I'm helpless.
 #切れるものもあるんですもちろん、
 #とどめをさせば消えますしね
 It's too early to give up, Father.
-Some wear off over time, and some wear off
-from accumulating hits. Of course,
-they also disappear if you land the finishing blow.
+Some wear off over time, and some
+wear off from accumulating hits.
+Of course, they also disappear
+if you land the finishing blow.
 -----------------------
 #こちらに効果のあるものを出されたら、
 #前衛を一人だけにして術を使うのが
 #いいかのう
-If one that affects us appears,
-perhaps it's best to leave just one person
-in the vanguard and use magic.
+If one that affects us
+appears, perhaps it's best
+to leave just one person in
+the vanguard and use magic.
 -----------------------
 #そうですね父さん　でもやはり状態変化に
 #応じて作戦を変えるのがいいようですよ
 #敵に効果がある場合は、スペクタクルズを
 #使えば内容が分かりますし
-That's true, Father, but it's best to change your
-strategy according to the status effect.
-If it's one that affects enemies, using Spectacles
+That's true, Father, but it's best
+to change your strategy according to
+the status effect. If it's one that
+affects enemies, using Spectacles
 will let you see what it does.
 -----------------------
 #それはそうと最近の若者は
 #なんでもかんでも略したがって困るわい
-That reminds me, young people these days
-abbreviate everything under the sun. It's quite a bother.
+That reminds me, young people
+these days abbreviate everything
+under the sun. It's quite a bother.
 -----------------------
 #（言うのが遅いよ父さん････）
-(You're pretty late to say that, Father...)
+(You're pretty late to
+say that, Father...)
 -----------------------
 notice
 -----------------------
@@ -1354,37 +1416,41 @@ So what exactly is Battle Grade?
 #「戦闘のうまさ」を図るものでしたね先輩
 #ダメージの比率とか、空振りとか、
 #同じ技ばかりを使うことも審査されます
-It tallies up various actions during battle
-to measure your 'combat skill,' right, Senior?
-Things like damage ratio, missed attacks,
-and even using the same techniques repeatedly are evaluated.
+It totals your actions in
+battle to judge your skill,
+Senpai. Damage ratios, missed
+attacks, and overusing the
+same artes are all evaluated.
 -----------------------
 #高い得点を目指したい場合、
 #やはりテクニカルスマッシュを目指しつつ、
 #エンチャントを織り交ぜながら、
 #できるだけダメージをうけずにいきましょう
-If you're aiming for a high score,
-focus on landing Technical Smashes
-while weaving in Enchantments,
-and try to take as little damage as possible.
+If you're aiming for a high
+score, focus on landing Technical
+Smashes while weaving in
+Enchantments, and try to take
+as little damage as possible.
 -----------------------
 #戦闘中にアイテムを使ったり、
 #回復晶術をかけたり、装備を変えたり
 #するのは、すこぶるイケてないと
 #いうウワサですよ
-Using items during battle,
-casting healing Magic Artes, or changing equipment
-is rumored to be terribly uncool,
-or so they say.
+Using items during battle, casting
+healing Magic Artes, or changing
+equipment is rumored to be
+terribly uncool, or so they say.
 -----------------------
 #高いと、どんないいことがあるのさ？
-What's so great about a high score anyway?
+What's so great about
+a high score anyway?
 -----------------------
 #それについては調査中です先輩
 #現世では役に立たないなどと
 #いう不届きな輩もいますが････
-We're still investigating that, Senior.
-There are some ungrateful folks in this world
+We're still investigating
+that, Senior. There are some
+ungrateful folks in this world
 who say it's useless, but...
 -----------------------
 #まあ深く気にせずに自らの技術を
@@ -1393,7 +1459,8 @@ Well, just don't overthink it.
 Focus on honing your own skills.
 -----------------------
 #さすが先輩、勉強になります
-As expected of you, Senior. I learned something.
+As expected of you, Senior.
+I learned something.
 -----------------------
 notice
 -----------------------
@@ -1406,8 +1473,8 @@ Will you listen in?
 -----------------------
 #地面にたたきつけられると
 #倒れてしまうさ
-When you get slammed into the ground,
-you'll get knocked down.
+When you get slammed into the
+ground, you'll get knocked down.
 -----------------------
 #確かにつらいですね先輩
 #でも、地面に接地したまさに
@@ -1425,8 +1492,8 @@ O-o-o-of course I knew that.
 #減るし、なによりＳＰとＴＰが
 #回復するのがうれしいですよね
 Recovering reduces your downtime,
-and best of all, it restores SP and TP.
-That's pretty nice, isn't it?
+and best of all, it restores SP and
+TP. That's pretty nice, isn't it?
 -----------------------
 #もももももちろん知ってたさ
 O-o-o-o-of course I knew that.
@@ -1449,22 +1516,24 @@ raising the battle difficulty?
 #世界は平和にならないですね
 #でも、噂によると、敵が落とす武具が
 #よいものになるそうです
-Well, it's true that raising the battle difficulty
-won't bring peace to the world.
-But according to rumor, the equipment
-enemies drop is supposed to be better.
+Well, it's true that raising the
+battle difficulty won't bring
+peace to the world. But according
+to rumor, the equipment enemies
+drop is supposed to be better.
 -----------------------
 #それだったら上げまくるさ
-If that's the case, I'll crank it all the way up!
+If that's the case, I'll
+crank it all the way up!
 -----------------------
 #でも、知っての通り戦闘難易度を上げると、
 #敵の攻撃力や知性が上がるうえ、
 #普通の難易度では使ってこない壮絶な攻撃を
 #してきたりするので悩みどころですよね
-But as you know, raising the battle difficulty boosts
-enemy attack power and intelligence,
-and they'll pull out brutal attacks
-they wouldn't use on standard difficulty. It's quite a dilemma.
+But raising the difficulty boosts
+enemy attack and intelligence, and
+unlocks brutal attacks they do not
+use on Normal. It is a real dilemma.
 -----------------------
 #そういうことなら一回世界を平和にするまで
 #ＮＯＲＭＡＬでいいさ
@@ -1481,9 +1550,10 @@ but yes, that's exactly right.
 #ＳＥＣＯＮＤはほどよい難易度なので
 #ちょっと手ごたえがほしかったり
 #するならお勧めな気がします
-SECOND is a moderate difficulty level,
-so if you want a bit more challenge,
-I'd recommend giving it a try.
+SECOND is a moderate difficulty
+level, so if you want a
+bit more challenge, I'd
+recommend giving it a try.
 -----------------------
 notice
 -----------------------
@@ -1507,9 +1577,10 @@ You really don't get it, do you?
 #命中、ダメージが下がってしまうが、
 #同じ組み合わせの攻撃だと
 #より下がってしまうのだ
-Actually, on your second and third hits,
-accuracy and damage drop somewhat.
-And if you keep using the same attack combination,
+Actually, on your second and
+third hits, accuracy and damage
+drop somewhat. And if you keep
+using the same attack combination,
 they drop even further.
 -----------------------
 #なにー
@@ -1568,10 +1639,11 @@ I'll start with <button:00000017><button:00000045>.
 #まあ、変化量は微々たるものだから、
 #他のルールで手一杯だというなら
 #無理して覚えなくてもいいぞ
-That's the general idea.
-Well, the differences are negligible,
-so if you're already overwhelmed by other rules,
-don't force yourself to memorize this.
+That's the general idea. Well,
+the differences are negligible,
+so if you're already overwhelmed
+by other rules, don't force
+yourself to memorize this.
 -----------------------
 notice
 -----------------------
@@ -1584,8 +1656,9 @@ Will you listen in?
 -----------------------
 #ためになる話も十年くらい聞いてると
 #さすがにつかれるさ
-Even useful advice gets tiring
-when you've been hearing it for ten years.
+Even useful advice gets
+tiring when you've been
+hearing it for ten years.
 -----------------------
 #そういえば教えてなかったな
 #<button:0000002F>と<button:0000002E>を押しっぱなしにすると
@@ -1600,8 +1673,8 @@ repeated dialogue.
 #なにー
 #どうして十年もそれを教えて
 #くれなかったのさ
-What?!
-Why didn't you tell me that for ten years?!
+What?! Why didn't you tell
+me that for ten years?!
 -----------------------
 #バカモン！　ひよっこのお前が
 #私の話を読み飛ばすなどとは
@@ -1629,15 +1702,16 @@ Will you listen in?
 -----------------------
 #冒険者として生きるからには
 #敵からアイテムを拾いまくりたいさ
-If you're gonna live as an adventurer,
-you wanna rake in items from enemies.
+If you're gonna live as
+an adventurer, you wanna
+rake in items from enemies.
 -----------------------
 #うむ　確かにそうだな
 #しかし冒険者の間で、まことしやかな
 #噂が流れているぞ
-Indeed, that's true.
-But there's a persistent rumor circulating
-among adventurers.
+Indeed, that's true. But
+there's a persistent rumor
+circulating among adventurers.
 -----------------------
 #噂ってなにさ？
 What's the rumor?
@@ -1645,49 +1719,56 @@ What's the rumor?
 #「どうやら同じ種類のアイテムを多く持って
 #　いるほど敵がアイテムを落とす確率が
 #　減ってしまうようだ」というのだ
-"Apparently, the more items of the same type you carry,
-the lower the chance that enemies will drop items.
-That's what they're saying."
+"Apparently, the more items of
+the same type you carry, the lower
+the chance that enemies will drop
+items. That's what they're saying."
 -----------------------
 #そりゃ困るさ　全部売るさ
-That's bad news. I'll sell everything!
+That's bad news.
+I'll sell everything!
 -----------------------
 #それはどうかと思うが、いらない装備品
 #などはできるだけ売ったほうがいいのは
 #整理面でもおすすめだな
-I'm not sure I'd go that far, but selling off
-unnecessary equipment is definitely recommended
-from an organizational standpoint too.
+I'm not sure I'd go that far, but
+selling off unnecessary equipment
+is definitely recommended from
+an organizational standpoint too.
 -----------------------
 #もちろん
 #リファインをして量を減らして質を
 #上げるのが冒険者の知恵ともいえるがな
-Of course,
-Refining to reduce quantity while improving quality
-is what you might call an adventurer's wisdom.
+Of course, Refining to reduce
+quantity while improving
+quality is what you might
+call an adventurer's wisdom.
 -----------------------
 #他にも消費アイテムを使いながら進みたい
 #場合は、聞いた話では少な目の数をキープ
 #したほうがいいということだな
-Also, if you want to keep moving forward
-while using consumable items, I've heard
-it's better to keep modest stockpiles of each.
+Also, if you want to keep moving
+forward while using consumable
+items, I've heard it's better to
+keep modest stockpiles of each.
 -----------------------
 #消費アイテムの場合、全体の総数ではなく
 #それぞれの所持数が関係するというのが
 #冒険者筋での通説らしいぞ
-For consumables, it's not your total item count,
-but the quantity of each individual type that matters,
-or so the common wisdom among adventurers goes.
+For consumables, it's not
+your total item count, but the
+quantity of each individual type
+that matters, or so the common
+wisdom among adventurers goes.
 -----------------------
 #でも少ないと、つえー敵で困りがちさ
-But if you don't have enough, you'll be in trouble
-against tough enemies.
+But if you don't have enough, you'll
+be in trouble against tough enemies.
 -----------------------
 #それもある　それぞれの冒険スタイルに
 #あった冒険をするのが重要ということだな
-That's true too.
-The important thing is to pursue adventures
+That's true too. The important
+thing is to pursue adventures
 that match your own style.
 -----------------------
 select

@@ -17,8 +17,8 @@ just like Stahn, I wonder?
 -----------------------
 #やっぱりその金髪ツンツン頭の
 #せいかねぇ？
-Must be that spiky blond hair of yours,
-don't you think?
+Must be that spiky blond hair
+of yours, don't you think?
 -----------------------
 #ススス、スタン！
 #どどどどど、どうして････！
@@ -37,9 +37,9 @@ I'm his son, <Kyle>!
 #へ････？あぁ、ホントだよ
 #ビックリしたよぉ！
 #今、あんたがスタンに見えたんだ！
-Huh...? Oh, you're right.
-You gave me such a fright!
-For a moment there, you looked just like Stahn!
+Huh...? Oh, you're right. You gave
+me such a fright! For a moment
+there, you looked just like Stahn!
 -----------------------
 #ごめんごめん
 #コッチがスタンの息子だったのかい
@@ -102,13 +102,14 @@ No, they're not
 -----------------------
 #ちゃんと世話すれば
 #１０分くらいで芽が出るはずよ
-If you take good care of them,
-they should sprout in about ten minutes.
+If you take good care of them, they
+should sprout in about ten minutes.
 -----------------------
 #芽が出る前に最初の肥料をあげて、
 #芽が出たら追肥してね
-Give them the first fertilizer before they sprout,
-then apply more once they've sprouted.
+Give them the first fertilizer
+before they sprout, then apply
+more once they've sprouted.
 -----------------------
 #さらに１０分くらいたってから
 #最後の肥料をあげてね
@@ -117,13 +118,14 @@ give them the final fertilizer.
 -----------------------
 #枯らさないように適度に水をあげていれば
 #そのうちに実がなるはずよ
-If you water them regularly so they don't dry out,
-they should bear fruit before long.
+If you water them regularly
+so they don't dry out, they
+should bear fruit before long.
 -----------------------
 #芽が出てから３０分くらいは
 #かかるかしらね
-It'll probably take about thirty minutes
-after sprouting, I reckon.
+It'll probably take about thirty
+minutes after sprouting, I reckon.
 -----------------------
 #水をあげすぎても腐ってしまうから
 #気をつかってあげてね
@@ -137,8 +139,8 @@ about ten minutes to harvest.
 -----------------------
 #いつまでも収穫しないと
 #枯れてしまうわ
-If you leave them too long without harvesting,
-they'll wither away.
+If you leave them too long without
+harvesting, they'll wither away.
 -----------------------
 #ちゃんと世話すれば
 #収穫が得られるはずよ
@@ -152,7 +154,8 @@ Good luck.
 That's wonderful.
 -----------------------
 #種を育ててみないかい？
-Would you like to try growing some seeds?
+Would you like to try
+growing some seeds?
 -----------------------
 select
 -----------------------
@@ -172,11 +175,13 @@ Try planting
 -----------------------
 #種を育ててるとステキな収穫が
 #得られることもあるんだよ
-If you raise them well, you might just
-end up with a wonderful harvest.
+If you raise them well,
+you might just end up
+with a wonderful harvest.
 -----------------------
 #昔はスタンも種を育てていたんだよ
-Stahn used to grow seeds here too, back in the day.
+Stahn used to grow seeds
+here too, back in the day.
 -----------------------
 #ごめんごめん
 #アンタがスタンの息子だったのかい
@@ -191,16 +196,18 @@ did Stahn have again?
 #おや、あんたは････
 #もしかして、スタンの息子かい？
 #外でみんなが騒いでるから、知ってるよ
-Oh? You...
-Could you be Stahn's son?
-I heard the commotion outside, so I figured.
+Oh? You... Could you be Stahn's
+son? I heard the commotion
+outside, so I figured.
 -----------------------
 #にしても････似てないねぇ
 #なんかスタンとちがって
 #女で苦労しそうな顔してるし
-Still... you don't look much like him.
-Something's different from Stahn.
-You've got the face of someone who'll have a hard time with women.
+Still... you don't look
+much like him. Something's
+different from Stahn. You've
+got the face of someone who'll
+have a hard time with women.
 -----------------------
 <Loni>
 -----------------------
@@ -218,7 +225,8 @@ There's an album here.
 Grandma Maggie in her youth...?!
 -----------------------
 #人の過去を勝手に見るんじゃないよ！
-Don't go poking around in people's pasts without permission!
+Don't go poking around in
+people's pasts without permission!
 -----------------------
 #マギーおばあさん特製シチューだ
 #とっても美味しそう････
@@ -233,11 +241,13 @@ A clean, well-scrubbed bathroom!
 -----------------------
 #紙切れが入っている
 #『ノイシュタット闘技場・初代チャンピオン････』
-There's a slip of paper inside.
-"Neuestadt Colosseum - First Champion..."
+There's a slip of paper
+inside. "Neuestadt Colosseum
+- First Champion..."
 -----------------------
 #人の過去を勝手に見るんじゃないよ！
-Don't go poking around in people's pasts without permission!
+Don't go poking around in
+people's pasts without permission!
 -----------------------
 NOTICE
 -----------------------

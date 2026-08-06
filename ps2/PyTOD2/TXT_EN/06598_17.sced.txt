@@ -106,23 +106,24 @@ lay a single finger on <Harold>!
 #女だと思って甘く見てると
 #大ケガすることになるよ
 #痛い目にあう前にとっとと失せな！
-If you think she's just some girl and go easy on her,
-you're gonna get hurt bad.
-Beat it before you learn the hard way!
+If you think she's just some
+girl and go easy on her, you're
+gonna get hurt bad. Beat it
+before you learn the hard way!
 -----------------------
 #またぞろ来やがったな
 #あいにく取りこみ中なんでな
 #ちょっと手荒いあいさつになるぜ！
-Back again, are ya?
-Too bad, I'm in the middle of something here.
-Gonna have to give you a rough welcome!
+Back again, are ya? Too bad, I'm in
+the middle of something here. Gonna
+have to give you a rough welcome!
 -----------------------
 #最後まで力のかぎり戦ってみせる
 #それがいま、わたしにできる
 #すべてだから････！
-I'll fight with everything I have until the very end!
-That's all I can do now...
-It's everything I have!
+I'll fight with everything I have
+until the very end! That's all I can
+do now... It's everything I have!
 -----------------------
 <Loni>
 -----------------------
@@ -133,8 +134,9 @@ you know what 'learning' means?
 -----------------------
 #減らず口が叩ける間は安心だな
 #せいぜい、息巻いててくれよ
-As long as you can still run your mouth, I'm relieved.
-Keep that fire burning as long as you can.
+As long as you can still run your
+mouth, I'm relieved. Keep that
+fire burning as long as you can.
 -----------------------
 #<0B:00000001>あと{14}{34}{04}{A0}{10}{0E}{C8}{C0}分{14}{34}{04}{A0}{10}{0E}{C9}{90}{3C}{C8}{C0}秒かせいでね☆<0B:00000000>
 <0B:00000001>Time remaining:

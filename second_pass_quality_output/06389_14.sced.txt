@@ -22,8 +22,9 @@ changed drastically during the
 #････フィッツガルド大陸には『白雲の尾根』と
 #呼ばれる霧に閉ざされた尾根があると記述されている
 This shelf holds books on geography.
-...One mentions a mist-shrouded ridge on the
-Fitzgald continent known as 'White Cloud Ridge'.
+...One mentions a mist-shrouded
+ridge on the Fitzgald continent
+known as 'White Cloud Ridge'.
 -----------------------
 NOTICE
 -----------------------
@@ -33,32 +34,37 @@ Acquired <item:00000003>.
 #『カルバレイス大陸を歩く』
 #････過酷な気候のカルバレイス大陸を歩いて回った
 #冒険者の話だ
-'Walking the Calvalese Continent'
-...The tale of an adventurer who traveled
-the harsh lands of Calvalese on foot.
+'Walking the Calvalese
+Continent' ...The tale of an
+adventurer who traveled the
+harsh lands of Calvalese on foot.
 -----------------------
 #砂漠にうち捨てられた多くの宝を拾って
 #財を成した、とある
 #････カルバレイス地方には、まだ多くの宝が
 #眠っているのかもしれない
-It says he gathered treasures abandoned in the desert
-and made his fortune.
-...Perhaps many more treasures still lie
+It says he gathered treasures
+abandoned in the desert and
+made his fortune. ...Perhaps
+many more treasures still lie
 sleeping in the Calvalese region.
 -----------------------
 #『異文化の地・アクアヴェイル』
 #････特殊な文化と歴史を持つ
 #アクアヴェイル地方について説明した本だ
-'Aquaveil: A Land of Foreign Culture'
-...A book describing the Aquaveil region,
-with its unique culture and history.
+'Aquaveil: A Land of Foreign
+Culture' ...A book describing
+the Aquaveil region, with its
+unique culture and history.
 -----------------------
 #世界の北東に位置する多島海を総称して
 #アクアヴェイル地方と呼ぶ、とある
 #機会があったら行ってみるのも良いかもしれない
-It says the archipelago in the northeast
-of the world is collectively called Aquaveil.
-Might be worth visiting if you ever get the chance.
+It says the archipelago in
+the northeast of the world is
+collectively called Aquaveil.
+Might be worth visiting if
+you ever get the chance.
 -----------------------
 #いってらっしゃいませ
 Have a good day.

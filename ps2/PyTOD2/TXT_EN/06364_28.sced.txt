@@ -59,9 +59,10 @@ Just the two of you, right?
 #いやぁ、お客さんたちみたいな
 #神殿への参拝客が増えたおかげで
 #うちも大もうけだよ
-Well, thanks to all the pilgrims
-heading to the temple, folks like you
-have really helped my business boom.
+Well, thanks to all the
+pilgrims heading to the temple,
+folks like you have really
+helped my business boom.
 -----------------------
 <Kyle>
 -----------------------
@@ -72,8 +73,8 @@ Ah, no, we were just...
 #どんな願いもかなっちまう！
 #参拝したくなる気持ちも、わかるよ
 You just offer up a Lens and pray,
-and any wish comes true!
-I get why everyone wants to go worship.
+and any wish comes true! I get
+why everyone wants to go worship.
 -----------------------
 #男性
 Man
@@ -127,9 +128,9 @@ my own eyes at least once.
 #おお、こうしちゃおれん！
 #部屋には後で案内するから
 #ちょいと、待っててくれよぉ！
-Oh, I can't just sit here!
-I'll show you to your room later,
-so wait just a bit for me, would ya?!
+Oh, I can't just sit here! I'll
+show you to your room later, so
+wait just a bit for me, would ya?!
 -----------------------
 <Kyle>
 -----------------------
@@ -228,8 +229,9 @@ I'll show you to your room now.
 -----------------------
 #ところで、泊まりは二人でいいのか？
 #連れの子は、どうするんだい？
-By the way, it's just the two of you staying?
-What about the girl with you?
+By the way, it's just the
+two of you staying? What
+about the girl with you?
 -----------------------
 <Loni>
 -----------------------
@@ -240,8 +242,8 @@ mean?
 #だから、エルレインさまと
 #同じペンダントした子だよ
 #あんたたちの知り合いの
-You know, the girl wearing the same pendant
-as Lady Elrane.
+You know, the girl wearing the
+same pendant as Lady Elrane.
 A friend of yours, right?
 -----------------------
 #かわいい子だよねぇ
@@ -259,9 +261,10 @@ Mister, you've seen her!?
 #さっき、買い出しの途中で見かけたんだ
 #あのペンダント、変わった形だから
 #覚えてたんだよ
-I spotted her earlier while I was out shopping.
-That pendant of hers has such an unusual shape,
-it really stuck with me.
+I spotted her earlier while I
+was out shopping. That pendant
+of hers has such an unusual
+shape, it really stuck with me.
 -----------------------
 <Kyle>
 -----------------------
@@ -273,8 +276,8 @@ Do you know where she went?!
 #ストレイライズ大神殿に向かってたぜ
 #なんだい
 #待ち合わせしてないのかい？
-She was headed for the Straylize Grand Temple.
-What's the matter?
+She was headed for the Straylize
+Grand Temple. What's the matter?
 Didn't you arrange to meet up?
 -----------------------
 <Loni>
@@ -501,9 +504,11 @@ oh, a child's really coming.
 #時計の台座に記念碑がはめこまれている
 # 『アイグレッテの発展に
 # 　　　　　旧アルメイダ村 村長寄贈』
-A commemorative plaque is set into the clock pedestal.
-'For the prosperity of Aigrette...'
-...Donated by the Village Chief of Old Armeida Village.
+A commemorative plaque is set
+into the clock pedestal. 'For
+the prosperity of Aigrette...'
+...Donated by the Village
+Chief of Old Armeida Village.
 -----------------------
 #ここより先は
 #宿の関係者しか入れないようだ
@@ -576,12 +581,13 @@ select
 No
 -----------------------
 #客の注文する料理を届けてほしい
-I need you to deliver the dishes our customers order.
+I need you to deliver the
+dishes our customers order.
 -----------------------
 #料理は作りためているから
 #私に言ってくれればすぐに渡せるよ
-I've got the food ready to go.
-Just ask and I'll hand it right over.
+I've got the food ready to go. Just
+ask and I'll hand it right over.
 -----------------------
 #あまり客を待たせると
 #怒って帰ってしまうから
@@ -630,7 +636,8 @@ I'll be counting on you again.
 -----------------------
 #できるできる言うからまかせてみれば
 #このザマだ！
-You said you could handle it, so I gave you a shot...
+You said you could handle
+it, so I gave you a shot...
 And this is the result?!
 -----------------------
 #<size:00000180>帰れ！

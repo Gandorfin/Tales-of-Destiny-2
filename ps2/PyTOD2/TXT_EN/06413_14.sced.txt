@@ -47,8 +47,9 @@ you can no longer change equipment."
 -----------------------
 #記念品が展示されている
 #装備品のようだが････誰の物だろう？
-A commemorative item is on display.
-It looks like equipment... but whose?
+A commemorative item is
+on display. It looks like
+equipment... but whose?
 -----------------------
 #エントリー娘。
 Receptionist
@@ -57,7 +58,8 @@ Receptionist
 This is the coliseum.
 -----------------------
 #闘技場で戦いますか？
-Would you like to fight in the coliseum?
+Would you like to
+fight in the coliseum?
 -----------------------
 select
 -----------------------
@@ -295,52 +297,63 @@ About the hero of Neuestadt.
 #ここは、名誉と富をもとめる男
 #････って、女もたまにいるわね
 #そういう人が、やってくる戦いの場所よ
-This is where those who seek honor and fortune come to fight.
-...Well, women show up now and then too.
-It's a battlefield for that sort of person.
+This is where those who seek
+honor and fortune come to fight.
+...Well, women show up now and
+then too. It's a battlefield
+for that sort of person.
 -----------------------
 #戦いは、トーナメント形式で
 #三回勝ち抜くと次のクラスに
 #挑戦できるようになるわ
-Battles are held in a tournament format.
-Win three matches, and you'll be able to challenge the next class.
+Battles are held in a
+tournament format. Win three
+matches, and you'll be able
+to challenge the next class.
 -----------------------
 #シングルバトル初級を勝ち抜くと
 #タッグバトルに参加できるようになるの
-Clear the Single Battle beginner class, and you'll unlock Tag Battles.
+Clear the Single Battle
+beginner class, and
+you'll unlock Tag Battles.
 -----------------------
 #最高クラスで優勝すれば
 #チャンピオンの称号を得られるわ
-Win at the highest class, and you'll earn the title of Champion.
+Win at the highest class, and
+you'll earn the title of Champion.
 -----------------------
 #今はチャンピオン不在だから････
 #あなたたちにも
 #チャンスはあるかもね
-With the champion absent right now...
-you all might actually have a shot.
+With the champion absent
+right now... you all might
+actually have a shot.
 -----------------------
 #昔、ここには常勝の
 #チャンピオンがいたのよ
-Once upon a time, there was an undefeated champion here.
+Once upon a time, there was
+an undefeated champion here.
 -----------------------
 #その名も、マイティ＝コングマン！
 #どんな敵も素手で殴りたおす豪快さに
 #シビれたファンも多かったわ
 His name was Mighty Kongman!
-Fans went wild for his bold, bare-handed beatdowns of every enemy in his path.
+Fans went wild for his bold,
+bare-handed beatdowns of
+every enemy in his path.
 -----------------------
 #それに、なんと！
 #あの英雄スタンと協力して
 #世界に平和を取り戻したの！
-And would you believe it!
-He even joined forces with that hero, Stahn,
+And would you believe it! He even
+joined forces with that hero, Stahn,
 to bring peace back to the world!
 -----------------------
 #そう
 #じゃ、わかんないことがあったら
 #なんでも聞いてね
-Right.
-Well then, if there's anything you don't understand,
+Right. Well then, if there's
+anything you don't understand,
 feel free to ask me anything.
 -----------------------
 {15}{24}{82}{C0}
@@ -371,7 +384,8 @@ Not bad.
 <char:000003E8>
 -----------------------
 #がんばったのにそれだけ？
-I gave it my all, and that's all you have to say?
+I gave it my all, and
+that's all you have to say?
 -----------------------
 {15}{24}{82}{C0}
 -----------------------
@@ -421,7 +435,8 @@ So that's your power?
 <char:000003E8>
 -----------------------
 #こんな所で負けられないわ
-I can't afford to lose in a place like this.
+I can't afford to lose
+in a place like this.
 -----------------------
 {15}{24}{82}{C0}
 -----------------------
@@ -461,17 +476,19 @@ Impressive.
 <char:000003E8>
 -----------------------
 #俺にも英雄の資質ある？
-Think I've got what it takes to be a hero?
+Think I've got what
+it takes to be a hero?
 -----------------------
 {15}{24}{82}{C0}
 -----------------------
 #ただの女ったらしではないようだな
-She's not just some skirt-chaser, is she?
+He's not just a skirt-chaser.
 -----------------------
 <char:000003E8>
 -----------------------
 #そう、強い女ったらしなわけよ
-That's right. I'm a skirt-chaser with standards.
+That's right. I'm a
+skirt-chaser with standards.
 -----------------------
 {15}{24}{82}{C0}
 -----------------------
@@ -532,8 +549,8 @@ Who are you talking about?
 -----------------------
 #優勝したんだから
 #顔くらい見せればいいのに
-I won, you know.
-Least you could do is show your face.
+I won, you know. Least you
+could do is show your face.
 -----------------------
 <char:000003E8>
 -----------------------
@@ -578,7 +595,8 @@ Now that's what I call manly!
 <char:000003E8>
 -----------------------
 #あたしの弓で死にたいみたいだね
-You really want an arrow through the heart, don't you?
+You really want an arrow
+through the heart, don't you?
 -----------------------
 {15}{24}{82}{C0}
 -----------------------
@@ -608,7 +626,8 @@ You really are a genius.
 <char:000003E8>
 -----------------------
 #天才の辞書に不可能は無いわ！
-The word 'impossible' isn't in a genius's dictionary!
+The word 'impossible' isn't
+in a genius's dictionary!
 -----------------------
 {15}{24}{82}{C0}
 -----------------------
@@ -618,7 +637,8 @@ A gift from the heavens...
 <char:000003E8>
 -----------------------
 #まぁ、ぜんぜん騒ぐほどじゃないし････
-Well, it's not really worth all the fuss...
+Well, it's not really
+worth all the fuss...
 -----------------------
 {15}{24}{82}{C0}
 -----------------------

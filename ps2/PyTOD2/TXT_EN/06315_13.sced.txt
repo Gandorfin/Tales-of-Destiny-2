@@ -14,8 +14,8 @@ reads "Bear: Handmade by Marie."
 -----------------------
 #孤児院で飼っているハムスターだ
 #名前は････
-It's a hamster kept at the orphanage.
-Its name is...
+It's a hamster kept at the
+orphanage. Its name is...
 -----------------------
 notice
 -----------------------
@@ -38,7 +38,8 @@ Its name is
 <item:00000C01>.
 -----------------------
 #ここは孤児院二階です
-This is the second floor of the orphanage.
+This is the second
+floor of the orphanage.
 -----------------------
 #孤児院二階
 Orphanage - 2nd Floor

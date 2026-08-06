@@ -11,20 +11,23 @@ NOTICE
 -----------------------
 #トラッシュマウンテンから拾ってきたのだろうか
 #廃材が積まれている
-Maybe someone picked this up from Trash Mountain?
-Scrap materials are piled up here.
+Maybe someone picked this up
+from Trash Mountain? Scrap
+materials are piled up here.
 -----------------------
 #スパイシーな香りが立ち込めている
 #カルバレイス地方では濃い味付けの料理が
 #好まれているようだ
-A spicy aroma hangs in the air.
-In the Calvalese region,
-heavily seasoned dishes seem to be preferred.
+A spicy aroma hangs in
+the air. In the Calvalese
+region, heavily seasoned
+dishes seem to be preferred.
 -----------------------
 #タルには『クレスタ産小麦』と書かれている
 #はるばるクレスタから輸入された物のようだ
-The barrel says 'Cresta-grown wheat.'
-Looks like it was imported all the way from Cresta.
+The barrel says 'Cresta-grown
+wheat.' Looks like it was
+imported all the way from Cresta.
 -----------------------
 #イカ
 Squid
@@ -87,7 +90,8 @@ select
 No
 -----------------------
 #客の注文する料理を出してほしい
-I need you to serve the dishes customers order.
+I need you to serve the
+dishes customers order.
 -----------------------
 #早さが全てだ
 #メニューはできるだけ暗記してから
@@ -98,16 +102,17 @@ before you get out there.
 -----------------------
 #あと、ちゃんとお客の方を向いて
 #料理を出すように
-And make sure you actually face the customers
-when you serve their food.
+And make sure you actually face the
+customers when you serve their food.
 -----------------------
 #さぁ････客が来はじめたぞ
-Well... the customers are starting to arrive.
+Well... the customers
+are starting to arrive.
 -----------------------
 #次のメニューはこれだ
 #覚えたら行ってくれ
-Here's the next menu.
-Once you've got it down, get to work.
+Here's the next menu. Once
+you've got it down, get to work.
 -----------------------
 <03:00000000><size:00000200>level {14}{24}{74}{C0}
 -----------------------
@@ -117,8 +122,8 @@ Once you've got it down, get to work.
 -----------------------
 #遅い！もう待てん！
 #帰らせてもらう！
-You're too slow! I can't wait anymore!
-I'm leaving!
+You're too slow! I can't
+wait anymore! I'm leaving!
 -----------------------
 clear
 -----------------------
@@ -130,8 +135,8 @@ time over
 -----------------------
 #ありがとう
 #キミのおかげで掃いて捨てるほどもうけたよ
-Thanks.
-Thanks to you, I made more money than I know what to do with.
+Thanks. Thanks to you, I made more
+money than I know what to do with.
 -----------------------
 #キミの取り分だ、受け取ってくれ
 Here's your cut. Take it.
@@ -146,7 +151,8 @@ Come back anytime.
 -----------------------
 #天職だと言うからまかせてみれば
 #このザマだ！
-You said this was my calling, so I gave it a shot...
+You said this was my calling,
+so I gave it a shot...
 and look at this mess!
 -----------------------
 #<size:00000180>帰れ！

@@ -21,7 +21,8 @@ reside."
 -----------------------
 #『フォルトゥナ神のご降臨を祝して
 #　アイグレッテ有志一同』
-"Celebrating the descent of the Goddess Fortuna,
+"Celebrating the descent
+of the Goddess Fortuna,
 the volunteers of Aigrette"
 -----------------------
 #怪しい場所では<item:00000032>を
@@ -32,9 +33,10 @@ in suspicious places.
 #右上の宝箱が気になる････
 #『普段は眼に見えない物を
 #探知・知覚する道具』でもあれば････
-That chest in the upper right bothers me...
-If only I had a tool to detect and perceive
-things normally invisible to the eye...
+That chest in the upper right
+bothers me... If only I had a
+tool to detect and perceive things
+normally invisible to the eye...
 -----------------------
 NULL
 -----------------------
@@ -917,12 +919,14 @@ you'd like.
 -----------------------
 #そんなところに扉があったなんて
 #気が付きませんでした････
-I never noticed there was a door there...
+I never noticed there
+was a door there...
 -----------------------
 #あの宝箱はどうすれば････
 #きっと入口がどこかに････
-How do I get that treasure chest...?
-There must be an entrance somewhere...
+How do I get that treasure
+chest...? There must be
+an entrance somewhere...
 -----------------------
 #食材屋
 Grocery Store
@@ -1029,8 +1033,9 @@ may create something wonderful.
 -----------------------
 #武器や鎧をリファインすると
 #付加能力が引継がれることがあるようです
-When you refine weapons and armor,
-bonus abilities sometimes carry over.
+When you refine weapons
+and armor, bonus abilities
+sometimes carry over.
 -----------------------
 #ひと瓶<0B:00000001>{14}{35}{CC}{C0}<0B:00000000>ガルドになりますが、
 #<item:00000012>を買いますか？
@@ -1068,7 +1073,8 @@ Thank you for your purchase.
 <item:00000012> is <0B:00000001>{14}{35}{CC}{C0}<0B:00000000> Gald per bottle.
 -----------------------
 #リファイン講座を聞きたいですか？
-Would you like to hear the Refine lecture?
+Would you like to hear
+the Refine lecture?
 -----------------------
 select
 -----------------------
@@ -1105,9 +1111,10 @@ Next Page
 #リファインとは、選択したアイテムを
 #別なアイテムに変化させたり
 #武器や防具を合成することのできるコマンドです
-Refine is a command that lets you transform
-selected items into different items,
-or synthesize weapons and armor.
+Refine is a command that lets
+you transform selected items
+into different items, or
+synthesize weapons and armor.
 -----------------------
 #リファインを行うのに必要なのは
 #<item:00000012>とレンズです
@@ -1134,9 +1141,9 @@ refine to your heart's content!
 #アイテムの変化とは、アイテム単体に
 #リファインを行うことによって
 #別なアイテムに変化させることです
-Item transformation is when you refine
-a single item to change it
-into a different item.
+Item transformation is when
+you refine a single item to
+change it into a different item.
 -----------------------
 #例えば、<item:00000001>にリファインを行うと
 #<item:00000002>に変化し
@@ -1157,23 +1164,26 @@ turn it into items such as
 #行うと、有効な場合もあります
 #もちろん、最初からきちんと準備をしておくほうが
 #賢いといえますが････
-This can be effective when you run out of items
-in a dungeon or the like.
-Of course, it's wiser to prepare properly
-from the start, but...
+This can be effective when
+you run out of items in
+a dungeon or the like. Of
+course, it's wiser to prepare
+properly from the start, but...
 -----------------------
 #リファインの一番の特徴は
 #やはり、装備品の合成です
-The best feature of Refine is
-equipment synthesis, without a doubt.
+The best feature of
+Refine is equipment
+synthesis, without a doubt.
 -----------------------
 #装備品を合成すると
 #お気に入りの装備品に
 #お気に入りのスロットが付いた
 #装備品を作ることができます････
-Synthesizing equipment lets you create gear
-with your favorite slots added
-to your favorite equipment pieces...
+Synthesizing equipment lets
+you create gear with your
+favorite slots added to your
+favorite equipment pieces...
 -----------------------
 #ああ、まずはスロットの説明を
 #しなければいけませんね
@@ -1194,28 +1204,29 @@ in a separate section.
 #いちばん簡単な装備品のリファインは
 #スロットが一つついた装備品どうしの
 #リファインです
-The simplest type of equipment Refine is
-between two pieces of equipment
-that each have one slot.
+The simplest type of equipment
+Refine is between two pieces of
+equipment that each have one slot.
 -----------------------
 #これを行うと、何とステキなことに
 #スロットが二つ付いた装備品ができます
-Doing this creates wonderful equipment
-with two slots.
+Doing this creates wonderful
+equipment with two slots.
 -----------------------
 #注意しなければいけないのは
 #剣は剣、鎧は鎧といったように
 #同じ種類の装備品でしか
 #リファインできません
 What you must keep in mind is that,
-just as swords go with swords and armor with armor,
-you can only refine equipment
-of the same type.
+just as swords go with swords and
+armor with armor, you can only
+refine equipment of the same type.
 -----------------------
 #他にもいろいろな組み合わせがありますが
 #それはやってみてのお楽しみです
-There are many other combinations as well,
-but that's for you to discover.
+There are many other
+combinations as well, but
+that's for you to discover.
 -----------------------
 #スロットについて
 #詳しく説明いたします
@@ -1255,15 +1266,17 @@ mainly dropped by monsters.
 #スロット付き装備品を手に入れて
 #あなただけのスロット付き装備品を
 #作ってみてください
-Fight plenty of monsters to obtain
-slot-equipped gear, then try making
-your very own slot-equipped equipment.
+Fight plenty of monsters to
+obtain slot-equipped gear,
+then try making your very
+own slot-equipped equipment.
 -----------------------
 #ここだけの話ですが、装飾品も
 #リファインすることができます
 #でも、それは装飾品どうしではありません
-Just between you and me, accessories can
-also be refined. However, you can't refine
+Just between you and me,
+accessories can also be refined.
+However, you can't refine
 two accessories together.
 -----------------------
 #装飾品と、装備品のような
@@ -1275,72 +1288,78 @@ equipment in that manner.
 #装備品の場所によってスロットが
 #変化するということです
 #武器、防具によって違います
-The advantage in this case is that the resulting slots
-change depending on where the equipment is placed.
-This differs between weapons and armor.
+The advantage in this case
+is that the resulting slots
+change depending on where the
+equipment is placed. This differs
+between weapons and armor.
 -----------------------
 #また、装飾品は一つしか装備できないので
 #いらない装飾品を、リファインに活用すれば
 #非常に有効です
-Also, since you can only equip one accessory at a time,
-putting unwanted accessories to use in Refining
-is extremely effective.
+Also, since you can only equip
+one accessory at a time, putting
+unwanted accessories to use in
+Refining is extremely effective.
 -----------------------
 #その他にも、外装つまり「マント」も
 #装飾品と同様に装備品とリファインできます
 #その場合はなんと、装備品に属性を
 #付加することができるのです
-Furthermore, exterior parts, namely 'cloaks',
-can be refined with equipment, just like accessories.
-And in that case, believe it or not,
-you can even add elemental attributes to your equipment.
+Cloaks can also be Refined with
+equipment, just like accessories.
+Doing so can even add elemental
+attributes to your equipment.
 -----------------------
 #装飾品とのリファインもうまく活用し
 #さらにステキなリファイン職人を
 #目指してみてください
-Make good use of refining with accessories too,
-and aim to become an even greater
-Refining artisan.
+Make good use of refining with
+accessories too, and aim to become
+an even greater Refining artisan.
 -----------------------
 #たまに、装備品の中に黄色い枠の
 #アイコンが付いたものがありますね
 #それは、ユニークアイテムと
 #呼ばれているものです
-Every now and then, you'll find equipment
-marked with a yellow-bordered icon.
-These are what's called
-Unique Items.
+Every now and then, you'll
+find equipment marked with a
+yellow-bordered icon. These
+are what's called Unique Items.
 -----------------------
 #ユニークアイテムは見た目にも
 #かっこよく、攻撃力も高く
 #スロットレベルも高いものが多いですが
 #スロットは一つしかありません
-Unique Items look cool,
-hit hard,
-and often come with high slot levels,
-but they only ever have one slot.
+Unique Items look cool, hit
+hard, and often come with
+high slot levels, but they
+only ever have one slot.
 -----------------------
 #しかし、その反面、装飾品以外のユニークアイテムは
 #リファインすることができません
 #これ以上強化することができないのです
-However, Unique Items other than accessories
-cannot be refined.
-They can't be strengthened any further.
+However, Unique Items other than
+accessories cannot be refined. They
+can't be strengthened any further.
 -----------------------
 #ですから、いらなくなったアイテムは
 #どんどん売ってしまうことをお勧めします
-So I recommend selling off items you no longer need
+So I recommend selling off
+items you no longer need
 as quickly as possible.
 -----------------------
 #なぜなら、アイテムをたくさん持っていると
 #モンスターがアイテムを
 #落としてくれなくなってしまうという
 #噂があるからです
-Because there's a rumor that if you carry too many items,
+Because there's a rumor that
+if you carry too many items,
 monsters will stop dropping them.
 That's why I don't recommend
 hoarding everything you find.
 -----------------------
 #････アイテム整理も大切ですね
-...Keeping your items organized is important too.
+...Keeping your items
+organized is important too.
 -----------------------

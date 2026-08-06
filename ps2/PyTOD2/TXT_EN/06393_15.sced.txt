@@ -22,8 +22,9 @@ Straylize Grand Temple.
 -----------------------
 #神の眼を奪い、逃走したが
 #四英雄たちの前に敗れ去る
-He stole the Eye of Atamoni and fled,
-only to be defeated by the Four Heroes.
+He stole the Eye of Atamoni
+and fled, only to be
+defeated by the Four Heroes.
 -----------------------
 <char:000003E8>
 -----------------------
@@ -46,43 +47,51 @@ the quiz book.
 #『ヒューゴ＝ジルクリスト』
 #神の眼を巡る騒乱に荷担した
 #オベロン社の総帥
-Books about notable figures are kept here.
-Hugo=Gilchrist
-A conspirator in the turmoil surrounding the Eye of Atamoni.
+Books about notable figures
+are kept here. Hugo=Gilchrist
+A conspirator in the turmoil
+surrounding the Eye of Atamoni.
 Head of the Oberon Corporation.
 -----------------------
 #神の眼を手に入れたヒューゴは
 #古代兵器『ベルクラント』を復活させ
 #地上を壊滅寸前まで追いこむものの
 #四英雄たちの手によって倒された
-Having obtained the Eye of Atamoni, Hugo
-revived the ancient superweapon Belcrant
-and drove the world to the brink of ruin,
-only to be defeated by the Four Heroes.
+Having obtained the Eye of
+Atamoni, Hugo revived the ancient
+superweapon Belcrant and drove the
+world to the brink of ruin, only
+to be defeated by the Four Heroes.
 -----------------------
 #手の込んだ形の置物がある
 #普通に買ったら、さぞ高価なことだろう････
-There's an intricately shaped figurine here.
-If you bought this at a shop, it'd surely cost a fortune...
+There's an intricately
+shaped figurine here. If you
+bought this at a shop, it'd
+surely cost a fortune...
 -----------------------
 #『特殊部隊・漆黒の翼』
 #････天地戦争時代に活躍した特殊部隊
 #『漆黒の翼』に関する本のようだ
 'Special Unit: Wings of Darkness'
-...A book about the special-ops unit 'Wings of Darkness'
-that was active during the Aeth'er Wars.
+...A book about the special-ops
+unit 'Wings of Darkness' that was
+active during the Aeth'er Wars.
 -----------------------
 #地上軍の特殊部隊として潜入任務や
 #要人警護を行っていた、と書かれている
-It says they carried out infiltration missions
-and VIP protection as a special unit of the Er'ther forces.
+It says they carried out
+infiltration missions and
+VIP protection as a special
+unit of the Er'ther forces.
 -----------------------
 #『輸送艦・ラディスロウ』
 #････天地戦争時代、地上軍の旗艦として
 #使用されていた船についての記述がある
-'Transport Vessel: Radisrol'
-...A record of the ship that served as
-the flagship of the Er'ther forces during the Aeth'er Wars.
+'Transport Vessel: Radisrol' ...A
+record of the ship that served
+as the flagship of the Er'ther
+forces during the Aeth'er Wars.
 -----------------------
 #学者
 Scholar

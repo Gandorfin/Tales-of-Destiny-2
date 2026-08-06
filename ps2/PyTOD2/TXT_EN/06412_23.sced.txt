@@ -12,13 +12,14 @@ in from nearby.
 -----------------------
 #山のように積まれた建材だ
 #あて先はハイデルベルグとなっている
-Building materials piled up like a mountain.
-The destination is Heidelberg.
+Building materials piled
+up like a mountain. The
+destination is Heidelberg.
 -----------------------
 #船具が収められた箱だ
 #『アルジャーノン号、補修資材』と書かれている
-A box containing ship equipment.
-It reads 'Aljarnon, repair materials.'
+A box containing ship equipment. It
+reads 'Aljarnon, repair materials.'
 -----------------------
 <Loni>
 -----------------------
@@ -86,14 +87,14 @@ Hmm... Just waiting around is
 boring, though. What should we do?
 -----------------------
 #商人
-#Businessman
+Businessman
 -----------------------
 #すいません、よろしいですか？
 #いずれも腕の立つ
 #旅の武芸者とお見受けしますが････
 Excuse me, might I have a word?
-You both appear to be
-quite capable traveling martial artists...
+You both appear to be quite capable
+traveling martial artists...
 -----------------------
 <Kyle>
 -----------------------
@@ -116,14 +117,14 @@ of a born hero shining through, huh?
 A hero's dignity...?
 -----------------------
 #商人
-#Businessman
+Businessman
 -----------------------
 #おお、感じます、感じますとも！
 #いかにもといった
 #勇ましい顔つきをしていらっしゃる！
-Oh, I sense it! Yes, I sense it indeed!
-You have precisely the sort of
-bold, valiant bearing about you!
+Oh, I sense it! Yes, I sense it
+indeed! You have precisely the sort
+of bold, valiant bearing about you!
 -----------------------
 #商人
 #Businessman
@@ -145,13 +146,13 @@ and the great hero <Kyle>
 will take care of it in a jiffy!
 -----------------------
 #商人
-#Businessman
+Businessman
 -----------------------
 #まあ、ここではなんですので
 #気が向きましたら
 #私どものあばら家へ、お越しくださいませ
-Well, this is hardly the place for it.
-Whenever you're so inclined,
+Well, this is hardly the place for
+it. Whenever you're so inclined,
 please do stop by our humble home.
 -----------------------
 #商人
@@ -349,12 +350,12 @@ Good grief!
 What a nuisance.
 -----------------------
 #商人
-#Businessman
+Businessman
 -----------------------
 #やっと、船が直ったってさ
 #さあ、残りの積荷を積んじまおうかね
-They finally got the ship fixed.
-Well then, shall we load up the rest of the cargo?
+The ship's finally fixed.
+Let's load the rest of the cargo.
 -----------------------
 #商人
 #Businessman
