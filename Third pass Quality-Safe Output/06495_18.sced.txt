@@ -1,0 +1,193 @@
+#ヒートリバー
+Heat River
+-----------------------
+#ヒートリバー
+Heat River
+-----------------------
+<Kyle>
+-----------------------
+#ふう････これで進めるかな
+Phew... Guess we can keep going now.
+-----------------------
+<Nanaly>
+-----------------------
+#大丈夫かい？
+You okay?
+-----------------------
+<Reala>
+-----------------------
+#だ、大丈夫････
+#ただ、ちょっと疲れたかな････
+I-I'm fine...
+Just a little tired, I think...
+-----------------------
+<Nanaly>
+-----------------------
+#そうかい？
+#うちの子たちは、水をくみに
+#毎日こういう道を往復してるけど？
+Is that so?
+My kids go to fetch water
+down paths like this every day.
+-----------------------
+<Kyle>
+-----------------------
+#うちの子たちって････
+#<Nanaly>、子持ちだったの!?
+My kids...?
+<Nanaly>, you have a kid!?
+-----------------------
+<Nanaly>
+-----------------------
+#アッハハハハ！　違うって！
+#村の子たちのことだよ
+Ahahaha! No, no!
+I mean the village kids!
+-----------------------
+<Nanaly>
+-----------------------
+#ま、おしめが取れない頃から
+#ずっと面倒みてるから
+#本当の、子供みたいなもんだけどね
+I've been looking after 'em since
+they were in diapers, so they're
+basically my own children at this
+point.
+-----------------------
+<Kyle>
+-----------------------
+#あ、そっかぁ
+#いやさ、実はオレにも
+#弟と妹がたくさんいてさぁ････
+Ah, I get it. Actually, I've got
+plenty of little brothers and
+sisters myself...
+-----------------------
+<Nanaly>
+-----------------------
+#シッ！　静かに！
+#なにか妙な音が聞こえる！
+Shh! Quiet!
+I hear something strange!
+-----------------------
+<Reala>
+-----------------------
+#な、なにかいるわ！
+S-something's there!
+-----------------------
+<Nanaly>
+-----------------------
+#この声は････二人とも、気をつけな！
+That sound... Both of you, stay
+alert!
+-----------------------
+<Kyle>
+-----------------------
+#やれやれ････っと
+#ふぅ、息つくヒマもないなぁ
+Well, that's that. Sheesh, not even
+time to catch my breath.
+-----------------------
+<Nanaly>
+-----------------------
+#そうかい？
+#これでなんにも出なかったら
+#拍子抜けしちまうよ
+Really?
+I'd be disappointed if nothing
+popped out after all that.
+-----------------------
+<Nanaly>
+-----------------------
+#それにさ、これだけ動いたら
+#今日のメシはきっとうまいよぉ！
+Besides, after all that exercise,
+tonight's dinner's gonna taste
+amazing!
+-----------------------
+<Kyle>
+-----------------------
+#ハ、ハハ････
+H-Haha...
+-----------------------
+<Reala>
+-----------------------
+#はぁ、はぁ････
+#････わたし、もうダメ････
+Haa... haa...
+...I can't go on...
+-----------------------
+<Nanaly>
+-----------------------
+#ほら、がんばって！
+#村まで、あと少しだからさ
+Come on, hang in there!
+The village is just up ahead.
+-----------------------
+<Nanaly>
+-----------------------
+#ついたら、おいし～い
+#ゴハンが待ってるよ！
+#さ、行こう！
+Once we're there, a delicious
+meal is waiting for us!
+Let's go!
+-----------------------
+#いってらっしゃいませ
+Welcome.
+-----------------------
+#<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
+#お泊まりになりますか？
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald per night.
+Would you like to stay?
+-----------------------
+#お泊まりになりますか？
+Would you like to stay?
+-----------------------
+select
+-----------------------
+#<03:00000000>　はい　
+#　いいえ　
+<03:00000000> Yes
+No
+-----------------------
+#ごゆっくりお休みください
+Have a good night.
+-----------------------
+#おはようございます
+Good morning.
+-----------------------
+#お金が足りません
+Not enough money.
+-----------------------
+#またのおこしをお待ちしております
+We hope to see you again.
+-----------------------
+set_parameter( myself, C_PARTY, 0 );
+-----------------------
+wait_map_scroll();
+-----------------------
+exit-party_togather( short spd )
+-----------------------
+notice
+-----------------------
+#{16}{25}{D6}{C0}を手に入れました
+Acquired {16}{25}{D6}{C0}.
+-----------------------
+notice
+-----------------------
+#<item:FFFFFFFF>を手に入れました
+Acquired <item:FFFFFFFF>.
+-----------------------
+notice
+-----------------------
+#{16}{25}{DE}{C0}がありましたが
+#いっぱいで持てませんでした
+Found {16}{25}{DE}{C0}, but
+couldn't carry it: inventory full.
+-----------------------
+notice
+-----------------------
+#何もありません
+There's nothing here.
+-----------------------

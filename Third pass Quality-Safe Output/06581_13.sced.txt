@@ -1,0 +1,168 @@
+#ラディスロウ・<Harold>の私室兼ラボ
+Radisrol - <Harold>'s private room
+and lab
+-----------------------
+#ラディスロウ
+Radisrol
+-----------------------
+#<Harold>の私室兼ラボ
+<Harold>'s private room and lab
+-----------------------
+#あやしげなマシンに
+#あやしげなデータが表示されている
+#<Harold>のあやしげな研究かもしれない
+A suspicious machine. Suspicious
+data is displayed on it. Might be
+<Harold>'s suspicious research.
+-----------------------
+<Harold>
+-----------------------
+#あやしくないわよ
+It's not suspicious!
+-----------------------
+notice
+-----------------------
+#<Harold>は
+#称号「<item:00000833>」を得ました
+<Harold> has
+earned the title "<item:00000833>"!
+-----------------------
+#『ソーディアン・試作初号機』と
+#書いてある････
+It says "Swordian
+Prototype Unit 1"...
+-----------------------
+#<Harold>の日記のようだ････
+It's <Harold>'s diary...
+-----------------------
+#表紙の文字を見ると････
+#ジェニファー＝ベルセリオスとなっている････
+Looking at the cover...
+It reads "Jennifer Berselius"...
+-----------------------
+#<Harold>愛用の
+#小物がたくさん入っている････
+<Harold>'s favorite accessories
+are packed inside...
+-----------------------
+#手鏡に文字が彫ってある
+#『エスト＝ベルセリオス』
+#<Harold>の真の名前だろうか？
+There's writing engraved on the hand
+mirror. "Esther Berselius" Could
+that be <Harold>'s true name?
+-----------------------
+#『イクシフォスラー試作エンジン』と書かれた
+#巨大な機械だ
+#将来、このエンジンがイクシフォスラーに
+#取り付けられるのだろう
+A massive machine labeled
+"Ixiphosra Prototype Engine."
+Someday, this engine will be
+installed in the Ixiphosra.
+-----------------------
+#『レンズ人工知能搭載ドラゴン』
+#････<Harold>が作ったあやしい機械のようだ
+"Lens AI-Equipped Dragon" ...Looks
+like a suspicious machine <Harold>
+made.
+-----------------------
+#ソーディアンの設計図のようだ
+#コアクリスタルに人格を投影する方法を
+#事細かに記している
+These appear to be Swordian
+schematics. They meticulously
+detail the method for projecting
+a personality onto a Core Crystal.
+-----------------------
+#どこかで見たキャラクターの
+#ぬいぐるみだ････
+A stuffed doll of a character
+seen somewhere before...
+-----------------------
+#やたらと少女趣味な<Harold>のベッドだ
+#脱ぎ散らされた服が散らばっている････
+An absurdly girly bed belonging to
+<Harold>. Clothes are strewn about
+everywhere...
+-----------------------
+#服のししゅうを見ると････
+#カトリーヌ＝ベルセリオスとなっている････
+Looking at the embroidery
+on the clothes... It reads
+"Catherine Berselius"...
+-----------------------
+#別の服のししゅうを見ると････
+#カミーユ＝ベルセリオスとなっている････
+Looking at the embroidery on
+another set of clothes... It
+reads "Camille Berselius"...
+-----------------------
+#わけがわからなくなってしまった････
+This doesn't make
+any sense anymore...
+-----------------------
+#ファントマイルのアイドル的存在
+#長い耳とイカすマーク入りの帽子がステキ！
+The idol of Phantamile. Those
+long ears and that cool hat
+with the mark are amazing!
+-----------------------
+#いってらっしゃいませ
+Have a good day.
+-----------------------
+#<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
+#お泊まりになりますか？
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+Would you like to stay?
+-----------------------
+#お泊まりになりますか？
+Would you like to stay?
+-----------------------
+select
+-----------------------
+#<03:00000000>　はい　
+#　いいえ　
+<03:00000000> Yes
+No
+-----------------------
+#ごゆっくりお休みください
+Have a good night.
+-----------------------
+#おはようございます
+Good morning.
+-----------------------
+#お金が足りません
+Not enough money.
+-----------------------
+#またのおこしをお待ちしております
+We look forward to your next visit.
+-----------------------
+set_parameter( myself, C_PARTY, 0 );
+-----------------------
+wait_map_scroll();
+-----------------------
+exit-party_togather( short spd )
+-----------------------
+notice
+-----------------------
+#{16}{25}{BA}{C0}を手に入れました
+Acquired {16}{25}{BA}{C0}.
+-----------------------
+notice
+-----------------------
+#<item:FFFFFFFF>を手に入れました
+Acquired <item:FFFFFFFF>.
+-----------------------
+notice
+-----------------------
+#{16}{25}{C2}{C0}がありましたが
+#いっぱいで持てませんでした
+Found {16}{25}{C2}{C0}, but
+inventory is full already.
+-----------------------
+notice
+-----------------------
+#何もありません
+There's nothing here.
+-----------------------

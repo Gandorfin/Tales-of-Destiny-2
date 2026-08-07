@@ -1,0 +1,151 @@
+#アイグレッテ・装備品屋
+Aigrette - Equipment Shop
+-----------------------
+#アイグレッテ
+Aigrette
+-----------------------
+NOTICE
+-----------------------
+#<item:00000078>を手に入れました
+Acquired <item:00000078>.
+-----------------------
+#壊れた武具が入っている
+#下取りした中古品だろうか････
+It contains damaged arms and armor.
+Trade-ins, perhaps...?
+-----------------------
+#剣士
+Swordsman
+-----------------------
+#聖女エルレインか････
+#人々の前で奇跡を起こすというが
+#いったい何者なのだろうか？
+Elrane, the Holy Woman, huh... They
+say she performs miracles before the
+people. Just who is she, really?
+-----------------------
+#剣士
+Swordsman
+-----------------------
+#人心をまどわすペテン師であれば
+#私がこの手で捕らえてくれるぞ
+If she's a charlatan who deceives
+the masses, I'll catch her with my
+own two hands.
+-----------------------
+#剣士
+Swordsman
+-----------------------
+#私は簡単にはだまされんぞ
+#奇跡などというあやしいものを
+#そう簡単に信じられるか
+I'm not so easily fooled. Some
+dubious thing called a 'miracle'?
+You think I'd believe in that so
+readily?
+-----------------------
+#剣士
+Swordsman
+-----------------------
+#まさしく、あの方の奇跡は本物だ！
+#エルレインさまを悪く言うヤツがいれば
+#私がこの手で捕らえてくれるぞ
+Truly, her miracles are genuine! If
+anyone speaks ill of Lady Elrane,
+I'll catch them with my own two
+hands!
+-----------------------
+#剣士
+Swordsman
+-----------------------
+#エルレイン様とアタモニ神の
+#ためなら、命を捨てても
+#おしくはない
+For Lady Elrane and the goddess
+Atamoni, I would gladly lay down my
+life without a moment's regret.
+-----------------------
+#剣士
+Swordsman
+-----------------------
+#私は、神殿の門を守る
+#騎士になりたい
+#あのお方の愛に心うたれてな
+I wish to become a knight
+who guards the gates of the temple.
+My heart was moved by her love.
+-----------------------
+#剣士
+Swordsman
+-----------------------
+#あの方？
+#もちろんフィリアさまのことだ
+Her?
+Why, Lady Philia, of course.
+-----------------------
+#剣士
+Swordsman
+-----------------------
+#ああ････フィリアさま････
+#フィリアさま････フィリアさま････
+Ahh... Lady Philia...
+Lady Philia... Lady Philia...
+-----------------------
+#いってらっしゃいませ
+Come again soon.
+-----------------------
+#<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
+#お泊まりになりますか？
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+Would you like to stay?
+-----------------------
+#お泊まりになりますか？
+Would you like to stay?
+-----------------------
+select
+-----------------------
+#<03:00000000>　はい　
+#　いいえ　
+<03:00000000> Yes
+No
+-----------------------
+#ごゆっくりお休みください
+Have a good night.
+-----------------------
+#おはようございます
+Good morning.
+-----------------------
+#お金が足りません
+Not enough money.
+-----------------------
+#またのおこしをお待ちしております
+We hope to see you again soon.
+-----------------------
+set_parameter( myself, C_PARTY, 0 );
+-----------------------
+wait_map_scroll();
+-----------------------
+exit-party_togather( short spd )
+-----------------------
+notice
+-----------------------
+#{16}{25}{BA}{C0}を手に入れました
+Acquired {16}{25}{BA}{C0}.
+-----------------------
+notice
+-----------------------
+#<item:FFFFFFFF>を手に入れました
+Acquired <item:FFFFFFFF>.
+-----------------------
+notice
+-----------------------
+#{16}{25}{C2}{C0}がありましたが
+#いっぱいで持てませんでした
+Found {16}{25}{C2}{C0}, but
+your inventory is already full.
+-----------------------
+notice
+-----------------------
+#何もありません
+There's nothing here.
+-----------------------

@@ -1,0 +1,142 @@
+#光のほこら
+Shrine of Light
+-----------------------
+#光のほこら
+Shrine of Light
+-----------------------
+#光のほこら
+Shrine of Light
+-----------------------
+#光のほこら
+Shrine of Light
+-----------------------
+#兵士
+Soldier
+-----------------------
+#魔方陣はエルレインさまの
+#ご意志によって制御されている
+This magic circle is controlled
+by Lady Elrane's will.
+-----------------------
+<Kyle>
+-----------------------
+#これのことだな？
+#ダイクロフトへ行くための魔方陣って
+This is it, right? The magic circle
+that leads to Dycroft...
+-----------------------
+#兵士
+Soldier
+-----------------------
+#なんだ、おまえたちは？
+#ここに来ていいのは、エルレインさまに
+#登城を認められたものだけだぞ
+What do you want?
+Only those granted an audience
+with Lady Elrane may enter here.
+-----------------------
+#兵士
+Soldier
+-----------------------
+#すぐに引き返して････って、おい！
+Turn back at once... Hey!
+-----------------------
+<Kyle>
+-----------------------
+#聞こえているんだろう、エルレイン！
+#オレたちは、逃げも隠れもしない！
+#ダイクロフトまで連れていけ！
+I know you can hear me, Elrane!
+We're not running or hiding!
+Take us to Dycroft!
+-----------------------
+#エルレイン
+Elrane
+-----------------------
+#････やはり、来ましたね
+#いいでしょう、あなた方の
+#望みどおりに････
+...So you came after all.
+Very well.
+I shall grant your wish...
+-----------------------
+#兵士
+Soldier
+-----------------------
+#こ、これは････！
+#ダイクロフトへの道が････！
+Th-this is...!
+The path to Dycroft...!
+-----------------------
+#兵士
+Soldier
+-----------------------
+#ここに来ていいのは、エルレインさまに
+#登城を認められたものだけだ
+Only those granted an audience
+with Lady Elrane may enter here.
+-----------------------
+#兵士
+Soldier
+-----------------------
+#すみやかに立ち去られよ
+Make your exit swiftly.
+-----------------------
+#いってらっしゃいませ
+Have a good day.
+-----------------------
+#<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
+#お泊まりになりますか？
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+Would you like to stay?
+-----------------------
+#お泊まりになりますか？
+Would you like to stay?
+-----------------------
+select
+-----------------------
+#<03:00000000>　はい　
+#　いいえ　
+<03:00000000> Yes
+No
+-----------------------
+#ごゆっくりお休みください
+Have a good night.
+-----------------------
+#おはようございます
+Good morning.
+-----------------------
+#お金が足りません
+Not enough money.
+-----------------------
+#またのおこしをお待ちしております
+See you again soon.
+-----------------------
+set_parameter( myself, C_PARTY, 0 );
+-----------------------
+wait_map_scroll();
+-----------------------
+exit-party_togather( short spd )
+-----------------------
+notice
+-----------------------
+#{16}{25}{BA}{C0}を手に入れました
+Acquired {16}{25}{BA}{C0}.
+-----------------------
+notice
+-----------------------
+#<item:FFFFFFFF>を手に入れました
+Acquired <item:FFFFFFFF>.
+-----------------------
+notice
+-----------------------
+#{16}{25}{C2}{C0}がありましたが
+#いっぱいで持てませんでした
+Found {16}{25}{C2}{C0}, but
+inventory is full already.
+-----------------------
+notice
+-----------------------
+#何もありません
+There's nothing here.
+-----------------------

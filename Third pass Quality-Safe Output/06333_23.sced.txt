@@ -1,0 +1,317 @@
+#ラグナ遺跡
+Laguna Ruins
+-----------------------
+#ラグナ遺跡
+Laguna Ruins
+-----------------------
+NOTICE
+-----------------------
+#<item:000000B5>を手に入れました
+Acquired <item:000000B5>.
+-----------------------
+#ここはレンズ無し部屋です
+This room contains no Lens.
+-----------------------
+<Kyle>
+-----------------------
+#あっ、待ってよ、君！
+#ねえってば！
+Ah, wait! Hey, you!
+Hey, I'm talking to you!
+-----------------------
+<Loni>
+-----------------------
+#いったいなんなんだ？
+#いきなりレンズの中から出てくるわ
+#何事もなかったかのように立ち去るわ
+What the heck was that all about?
+She just pops out of a Lens out
+of nowhere, then walks off like
+nothing happened.
+-----------------------
+<Loni>
+-----------------------
+#おまけに
+#「英雄を探しているの」だぜ？
+And on top of that, she says she's
+"searching for a hero"? What gives?
+-----------------------
+<Kyle>
+-----------------------
+#追おう、<Loni>！
+Let's go after her, <Loni>!
+-----------------------
+<Loni>
+-----------------------
+#追うって････
+#あの子をか!?
+Go after her...
+You mean that girl!?
+-----------------------
+<Kyle>
+-----------------------
+#早く行こうよ！
+C'mon, let's hurry!
+-----------------------
+<Loni>
+-----------------------
+#うわっ！　ヤバ････
+Whoa! This is bad...
+-----------------------
+#隊長
+Captain
+-----------------------
+#なんだ、貴様らは!?
+#ここでなにをしている！
+Who are you rogues!?
+What are you doing here!
+-----------------------
+#隊員
+Trooper
+-----------------------
+#た、大変です！
+#レンズが、なくなってます！
+C-Captain, this is terrible!
+The Lens is gone!
+-----------------------
+#隊長
+Captain
+-----------------------
+#なにッ！　どういうことだ!?
+What! What do you mean!?
+-----------------------
+#隊員
+Trooper
+-----------------------
+#自分は以前、この部屋で
+#巨大なレンズを確かに見ました！
+#それが跡形もなく････
+I saw it myself on my last patrol.
+There was a gigantic Lens in this
+room! And now it's vanished without
+a trace...
+-----------------------
+#隊長
+Captain
+-----------------------
+#レンズをどこへやった!?
+#さあ、言えッ！
+What have you done with the Lens!?
+Speak up!
+-----------------------
+<Kyle>
+-----------------------
+#し、知るもんか！
+#オレたちだって、なにがなんだか
+#さっぱり、わからないんだ！
+H-Hell if I know!
+We don't have the foggiest idea
+what's going on either!
+-----------------------
+<Kyle>
+-----------------------
+#いきなり、女の子が出てきて
+#レンズが砕けて････
+This girl came out of nowhere,
+the Lens shattered, and then...
+-----------------------
+#隊長
+Captain
+-----------------------
+#なっ････！
+#貴重な巨大レンズを割るとは
+#バカなことを････！
+Wha...!
+What manner of fool would shatter
+a precious Lens of that size...!
+-----------------------
+#隊長
+Captain
+-----------------------
+#おい、こいつらを
+#ひっとらえろ！
+#そっちの男もだ!!
+You there! Seize these two!
+And that man over there as well!!
+-----------------------
+#隊員
+Trooper
+-----------------------
+#た、隊長！
+#こいつ、<Loni>＝デュナミスです!!
+C-Captain!
+This man is <Loni> Dunamis!!
+-----------------------
+<Loni>
+-----------------------
+#････あちゃ～
+...Ah, geez.
+-----------------------
+#隊長
+Captain
+-----------------------
+#貴様････護衛兵でありながら
+#盗っ人と共にいるとは
+#どういうことだ!?
+You... you're a military escort, yet
+you're in the company of a thief?
+Explain yourself!
+-----------------------
+<Kyle>
+-----------------------
+#盗っ人って、オレのこと!?
+Are you calling me a thief!?
+-----------------------
+#隊長
+Captain
+-----------------------
+#他に誰がいる！
+Who else would I be talking about!
+-----------------------
+<Kyle>
+-----------------------
+#オレは、盗っ人なんかじゃない！
+I'm not a thief!
+-----------------------
+#隊長
+Captain
+-----------------------
+#盗っ人は、みんなそう言うんだ！
+#さぁ、いっしょに来てもらおうか
+#貴様もだぞ、<Loni>！
+That's what every thief says!
+Now then, you'll both come with me.
+You too, <Loni>!
+-----------------------
+<Loni>
+-----------------------
+#････なりゃ････だ････！
+...If that's how it's gonna be...!
+-----------------------
+#隊長
+Captain
+-----------------------
+#聞いてるのか
+#<Loni>＝デュナミス！
+You listening?
+<Loni> Dunamis!
+-----------------------
+<Loni>
+-----------------------
+#････あぁもう、やぶれかぶれだ！
+...All right, I've had it!
+-----------------------
+<Loni>
+-----------------------
+#こうなりゃ強行突破だ！
+#ついてこい、<Kyle>！
+We're busting through!
+Stick with me, <Kyle>!
+-----------------------
+<Kyle>
+-----------------------
+#<Loni>っ！
+<Loni>!
+-----------------------
+#隊長
+Captain
+-----------------------
+#ダリルシェイドへ連行しろ！
+#レンズの行方を
+#かならず、はかせるんだ！
+Take them to Darilsheid! Make them
+reveal the whereabouts of that Lens
+by any means necessary!
+-----------------------
+#隊員
+Trooper
+-----------------------
+#はッ！
+Yes, sir!
+-----------------------
+<Kyle>
+-----------------------
+#なぜだろう？
+#ここへ来るのは
+#初めてじゃないような気がする････
+I wonder why?
+It feels like...
+I've been here before.
+-----------------------
+<Kyle>
+-----------------------
+#なんだろう？
+#この胸の痛みは････
+What is this?
+This pain in my chest...
+-----------------------
+<Kyle>
+-----------------------
+#････気のせいかな？
+...Is it just my imagination?
+-----------------------
+<Kyle>
+-----------------------
+#<Loni>が待ってるし
+#もう帰ろう････
+<Loni>'s waiting for me.
+Let's head home...
+-----------------------
+#いってらっしゃいませ
+Come again soon.
+-----------------------
+#<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
+#お泊まりになりますか？
+That'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald.
+Would you like to stay?
+-----------------------
+#お泊まりになりますか？
+Would you like to stay?
+-----------------------
+select
+-----------------------
+#<03:00000000>　はい　
+#　いいえ　
+<03:00000000> Yes
+No
+-----------------------
+#ごゆっくりお休みください
+Have a good night.
+-----------------------
+#おはようございます
+Good morning.
+-----------------------
+#お金が足りません
+Not enough money.
+-----------------------
+#またのおこしをお待ちしております
+We hope to see you again.
+-----------------------
+set_parameter( myself, C_PARTY, 0 );
+-----------------------
+wait_map_scroll();
+-----------------------
+exit-party_togather( short spd )
+-----------------------
+notice
+-----------------------
+##{16}{25}{C6}{C0}を手に入れました
+Acquired {16}{25}{C6}{C0}.
+-----------------------
+notice
+-----------------------
+#<item:FFFFFFFF>を手に入れました
+Acquired <item:FFFFFFFF>.
+-----------------------
+notice
+-----------------------
+#{16}{25}{CE}{C0}がありましたが
+#いっぱいで持てませんでした
+Found {16}{25}{CE}{C0}, but
+your inventory is full.
+-----------------------
+notice
+-----------------------
+#何もありません
+There's nothing here.
+-----------------------
