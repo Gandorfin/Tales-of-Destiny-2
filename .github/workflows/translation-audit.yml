@@ -1,0 +1,88 @@
+name: Translation audit
+
+# Runs the script-file quality audit (scripts/audit_translation.py).
+#
+# On pull requests it audits BOTH the PR branch and the base branch, then
+# fails only if the PR *increases* any critical finding count (control-code
+# mismatches, untranslated records, misplaced Japanese, interleaved English).
+# That way the check is useful even while known issues still exist on main:
+# a PR can never make things worse, and PRs that reduce the counts show the
+# improvement in the job summary.
+#
+# On pushes to main and manual runs it just reports the current state.
+
+on:
+  pull_request:
+    paths:
+      - 'Third pass Quality-Safe Output/**'
+      - 'third pass skits safe output/**'
+      - 'scripts/audit_translation.py'
+      - '.github/workflows/translation-audit.yml'
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out this branch
+        uses: actions/checkout@v4
+
+      - name: Audit this branch
+        run: python3 scripts/audit_translation.py --json head.json
+
+      - name: Check out base branch
+        if: github.event_name == 'pull_request'
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.base_ref }}
+          path: __base
+
+      - name: Audit base branch
+        if: github.event_name == 'pull_request'
+        run: python3 scripts/audit_translation.py --json base.json __base
+
+      - name: Compare against base
+        if: github.event_name == 'pull_request'
+        run: |
+          python3 - <<'EOF'
+          import json, os, sys
+          head = json.load(open('head.json'))
+          base = json.load(open('base.json'))
+          rows, worse = [], []
+          keys = list(head['critical']) + list(head['info'])
+          for k in keys:
+              h = head['critical'].get(k, head['info'].get(k, 0))
+              b = base['critical'].get(k, base['info'].get(k, 0))
+              mark = ''
+              if k in head['critical'] and h > b:
+                  mark = ':x: regression'
+                  worse.append(f'{k}: {b} -> {h}')
+              elif h < b:
+                  mark = ':white_check_mark: improved'
+              rows.append(f'| {k} | {b} | {h} | {mark} |')
+          summary = ['## Translation audit',
+                     '| check | base | this PR | |',
+                     '|---|---|---|---|'] + rows
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as fh:
+              fh.write('\n'.join(summary) + '\n')
+          if worse:
+              print('Critical findings increased:', '; '.join(worse))
+              sys.exit(1)
+          print('No critical regressions.')
+          EOF
+
+      - name: Report (push / manual run)
+        if: github.event_name != 'pull_request'
+        run: |
+          python3 - <<'EOF'
+          import json, os
+          head = json.load(open('head.json'))
+          rows = [f'| {k} | {v} |' for k, v in
+                  list(head['critical'].items()) + list(head['info'].items())]
+          summary = ['## Translation audit', '| check | findings |',
+                     '|---|---|'] + rows
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as fh:
+              fh.write('\n'.join(summary) + '\n')
+          EOF
