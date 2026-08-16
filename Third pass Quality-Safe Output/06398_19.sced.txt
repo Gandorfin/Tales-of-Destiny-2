@@ -12,7 +12,7 @@ What's this?!
 NOTICE
 -----------------------
 #ＴＯＥのクイズ問題を見つけました！
-Found a TOE quiz question!
+Found a Tales of Eternia quiz!
 -----------------------
 NOTICE
 -----------------------
@@ -131,7 +131,7 @@ like that!
 #お前が探してたって言っといてやるよ
 #んじゃな！
 If I see <Reala>,
-I'll tell 'em you were looking.
+I'll tell her you were looking.
 See ya!
 -----------------------
 notice
@@ -280,8 +280,8 @@ That's enough, <Loni>!
 #信じるって決めたし
 #<Loni>にもそうして欲しいんだ！
 I decided to trust <Judas>,
-and I want you to do the same
-for <Loni>!
+and <Loni>, I want you
+to trust him too!
 -----------------------
 <Kyle>
 -----------------------

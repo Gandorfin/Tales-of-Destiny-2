@@ -1,8 +1,8 @@
 #リーネの村・リリスの家
-Lienea Village - Lilith's House
+Lienea - Lilith's House
 -----------------------
 #リーネの村・リリスの家
-Lienea Village - Lilith's House
+Lienea - Lilith's House
 -----------------------
 #リリスの家
 Lilith's House
@@ -599,8 +599,8 @@ Lilith
 So finally I'd pull out a
 frying pan and start whaling
 on him with a ladle. "Secret
-Technique: Awakening of
-the Dead!!" and all that.
+Technique: Wake the Dead!!"
+and all that.
 -----------------------
 <Kyle>
 -----------------------
@@ -734,7 +734,7 @@ Lilith
 #がんばってね<Kyle>
 If my brother could do it, so can
 you. I'm sure you'll become a fine
-hero as well. Do your best!<Kyle>
+hero as well. Do your best, <Kyle>!
 -----------------------
 #リリス
 Lilith
@@ -793,7 +793,7 @@ One exception, it seems.
 -----------------------
 #こら～っ！　<Kyle>！
 #起きろ！　お・き・ろ!!
-Hey, you!<Kyle>!
+Hey! <Kyle>!
 Wake up! W-a-k-e u-p!!
 -----------------------
 #リリス
@@ -801,8 +801,8 @@ Lilith
 -----------------------
 #はぁ････こんなところまで
 #兄さんに似ちゃったのね
-*sigh*... Even all the way out here,
-I've ended up just like my brother.
+*sigh*... So he takes after
+my brother even in this...
 -----------------------
 #リリス
 Lilith
@@ -832,8 +832,8 @@ Lilith
 -----------------------
 #いくわよ････
 #秘技「死者の目覚め」！
-Here I go... Secret Technique:
-Awakening of the Dead!
+Here I go...
+Secret Technique: Wake the Dead!
 -----------------------
 <Kyle>
 -----------------------
@@ -1018,8 +1018,8 @@ notice
 #<item:00000012>は、街で買うことができるので
 #いろいろと試してみましょう
 Note that performing Refine consumes
-<item:00000012>and Lens.
-<item:00000012>can be purchased in town,
+<item:00000012> and Lens.
+<item:00000012> can be purchased in town,
 so try experimenting with it.
 -----------------------
 #いってらっしゃいませ
