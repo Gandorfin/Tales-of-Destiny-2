@@ -776,7 +776,7 @@ Young Man
 #ウッドロウ王がいなかったら
 #ぼくたちは十八年前に
 #死んでいたそうです
-If King Woodrow hadn't been there,
+If King Garr hadn't been there,
 we would have died eighteen years
 ago, or so they say.
 -----------------------
@@ -788,7 +788,7 @@ Young Man
 #ウッドロウ王をお守りしたいんです
 So this time,
 I want to become a knight
-and protect King Woodrow.
+and protect King Garr.
 -----------------------
 #若者
 Young Man
@@ -797,7 +797,7 @@ Young Man
 #ウッドロウ王と
 #この国の人たちを守りたいんです
 I want to become a knight
-and protect King Woodrow
+and protect King Garr
 and the people of this country.
 -----------------------
 #おじさん
@@ -1001,7 +1001,7 @@ Well then, let's get started.
 Eh, ahem!
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #こちらの門、名前を「英雄門」といい
 #先の騒乱の終了を祝って、作られました
@@ -1009,7 +1009,7 @@ This is known as Hero's Gate. It
 marks the end of the recent unrest.
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #この門を隔てて、城側が旧市街
 #街の外側が新市街と呼ばれています
@@ -1017,7 +1017,7 @@ Inside the gate lies the Old Town.
 Outside it lies the New Town.
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #旧市街は、以前からあった街並みです
 #古い建物が多く、また公園もあり
@@ -1027,7 +1027,7 @@ district. It has old buildings and
 parks, where people come to relax.
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #十八年前の騒乱後、崩壊してしまった
 #ジェノスとサイリルの住民を吸収し
@@ -1038,7 +1038,7 @@ settled here, forming what became
 the New Town.
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #これらふたつの街をつなぐ「英雄門」は
 #新たなハイデルベルグの街を象徴する
@@ -1058,7 +1058,7 @@ and a library holding many records
 of the unrest and the Aeth'er Wars.
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #････以上！
 #よかったぁ！　今日は一回も
@@ -1068,7 +1068,7 @@ Phew! I made no mistakes today!
 I got everything right!
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #ザンネン････
 #ヒマができたら、声かけてね！
@@ -1306,7 +1306,7 @@ Well then, let's get going.
 Eh, ahem!
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #こちらの門、名前を「英雄門」といい
 #先の騒乱の終了を祝って、作られました
@@ -1332,7 +1332,7 @@ district. It has old buildings and
 parks, where people come to relax.
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #十八年前の騒乱後、崩壊してしまった
 #ジェノスとサイリルの住民を吸収し
@@ -1343,7 +1343,7 @@ settled here, forming what became
 the New Town.
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #これらふたつの街をつなぐ「英雄門」は
 #新たなハイデルベルグの街を象徴する
@@ -1353,7 +1353,7 @@ It symbolizes the new Heidelberg
 and stands as a monument.
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #また、門の上には博物館兼図書館があり
 #先の騒乱や、天地戦争時代の資料が
@@ -1363,7 +1363,7 @@ and a library holding many records
 of the unrest and the Aeth'er Wars.
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #････以上！
 #よかったぁ！　今日は一回も
@@ -1373,7 +1373,7 @@ Phew! I made no mistakes today!
 I got everything right!
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #ザンネン････
 #ヒマができたら、声かけてね！
@@ -1412,7 +1412,7 @@ I can't quite explain it...
 #そんなことより、早く
 #ウッドロウ王に会いに行こうよ！
 Never mind that. Let's hurry
-and go meet King Woodrow!
+and go meet King Garr!
 -----------------------
 <Kyle>
 -----------------------
@@ -1466,7 +1466,7 @@ I thought I had finally grown up.
 #ウッドロウさんに
 #「英雄になれるかも」って言われて
 #認められたつもりでいた
-Mr. Woodrow told me
+Mr. Garr told me
 I might become a hero.
 I thought he'd acknowledged me.
 -----------------------
