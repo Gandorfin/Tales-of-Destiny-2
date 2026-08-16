@@ -74,11 +74,11 @@ that many Lens for!?
 -----------------------
 <Judas>
 -----------------------
-<Nanaly>
+#<Nanaly>
 #フォルトゥナ神が降臨したのは
 #十年前だと言っていたな
-Fortuna's descent was said to be ten
-years ago, wasn't it.
+<Nanaly>, Fortuna's descent was said
+to be ten years ago, wasn't it.
 -----------------------
 <Nanaly>
 -----------------------
@@ -128,7 +128,7 @@ Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -174,7 +174,7 @@ notice
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{C2}{C0}, but
-inventory is full already.
+your inventory is full.
 -----------------------
 notice
 -----------------------

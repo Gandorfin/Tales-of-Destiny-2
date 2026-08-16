@@ -171,11 +171,11 @@ I tested my moves on <Loni> and
 <Judas>... Think I'll go snag some
 prey?
 -----------------------
-<Loni>
+#<Loni>
 #こんど、ナンパのしかたの続き
 #教えてくれよな
-Next time, teach me more
-about picking up girls, okay?
+<Loni>, teach me more about
+picking up girls next time, okay?
 -----------------------
 <Loni>
 -----------------------
@@ -193,11 +193,11 @@ That guy...
 He's teaching my kids
 nothing but bad stuff!
 -----------------------
-<Loni>
+#<Loni>
 #こんど、ナンパのしかたの続き
 #教えてくれよな
-Next time, teach me more
-about picking up girls, okay?
+<Loni>, teach me more about
+picking up girls next time, okay?
 -----------------------
 <Loni>
 -----------------------
@@ -245,21 +245,21 @@ I'll teach that stuff too.
 Don't go filling my innocent kids'
 heads with a bunch of extra junk!
 -----------------------
-<Loni>
+#<Loni>
 #ナンパ教えてくれるって話
 #約束だからな！
-You promised you'd teach me
-how to pick up girls!
+<Loni>, you promised you'd teach
+me how to pick up girls!
 -----------------------
 debug
 -----------------------
 #このフラグでの会話、未設定
 No dialogue is set for this flag.
 -----------------------
-<Judas>
+#<Judas>
 #今度こそ、その仮面
 #うばってやるからな！
-This time, I'm taking
+<Judas>! This time, I'm taking
 that mask off you for good!
 -----------------------
 <Nanaly>
@@ -325,11 +325,11 @@ Really?
 Then next time,
 take me hunting with you!
 -----------------------
-<Nanaly>
+#<Nanaly>
 #今度、いっしょに
 #狩りにつれてってくれよな！
-Next time, take me
-hunting with you!
+<Nanaly>, take me hunting
+with you next time!
 -----------------------
 debug
 -----------------------
@@ -456,9 +456,9 @@ it never seems to go down.
 Uncle Birus
 -----------------------
 #どうしたんだ？
-<Nanaly>
+#<Nanaly>
 #そんな懐かしそうな顔して････
-What's wrong?
+What's wrong, <Nanaly>?
 You've got such a nostalgic look...
 -----------------------
 #バイラスおじさん
@@ -1529,15 +1529,15 @@ notice
 -----------------------
 #<Loni>は
 #称号「<item:00000831>」を得ました
-<Loni>
-earned the title "<item:00000831>"!
+<Loni> acquired the title
+"<item:00000831>".
 -----------------------
 notice
 -----------------------
 #<Judas>は
 #称号「<item:00000832>」を得ました
-<Judas>
-earned the title "<item:00000832>"!
+<Judas> acquired the title
+"<item:00000832>".
 -----------------------
 <Kyle>
 -----------------------
@@ -1601,11 +1601,11 @@ anything, right?
 -----------------------
 <Reala>
 -----------------------
-<Kyle>
+#<Kyle>
 #これは、<Nanaly>の
 #夢の中だから････
-This is <Nanaly>'s dream,
-so...
+<Kyle>, this is <Nanaly>'s
+dream, so...
 -----------------------
 <Kyle>
 -----------------------
@@ -2434,7 +2434,7 @@ Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -2507,7 +2507,7 @@ may inherit their added abilities.
 -----------------------
 #ひと瓶<0B:00000001>{14}{37}{38}{C0}<0B:00000000>ガルドになりますが、
 #<item:00000012>を買いますか？
-One bottle costs <0B:00000001>{14}{37}{38}{C0}<0B:00000000> gald.
+One bottle costs <0B:00000001>{14}{37}{38}{C0}<0B:00000000> Gald.
 Would you like to buy <item:00000012>?
 -----------------------
 select
@@ -2538,7 +2538,7 @@ Thank you for your purchase.
 -----------------------
 #<item:00000012>はひと瓶
 #<0B:00000001>{14}{37}{38}{C0}<0B:00000000>ガルドです
-<item:00000012> is <0B:00000001>{14}{37}{38}{C0}<0B:00000000> gald per bottle.
+<item:00000012> is <0B:00000001>{14}{37}{38}{C0}<0B:00000000> Gald per bottle.
 -----------------------
 #リファイン講座を聞きたいですか？
 Would you like to

@@ -734,8 +734,8 @@ notice
 -----------------------
 #<Reala>は
 #称号「<item:0000081B>」を得ました
-<Reala> earned
-the title "<item:0000081B>"!
+<Reala> acquired the title
+"<item:0000081B>".
 -----------------------
 effect off
 -----------------------
@@ -888,7 +888,7 @@ Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -911,7 +911,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-We hope to see you again.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -934,7 +934,7 @@ notice
 #{16}{27}{72}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{27}{72}{C0}, but
-your inventory is already full.
+your inventory is full.
 -----------------------
 notice
 -----------------------

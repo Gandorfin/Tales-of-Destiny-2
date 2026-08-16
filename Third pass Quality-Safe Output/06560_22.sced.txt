@@ -264,7 +264,7 @@ Leon Magnus!?
 #スタンたち四英雄を
 #裏切ったっていう、あの!?
 The one who betrayed Stahn
-and the other four heroes
+and the other Four Heroes
 during the Eye of Atamoni incident!?
 -----------------------
 #エルレイン
@@ -326,8 +326,8 @@ notice
 -----------------------
 #<Judas>は
 #称号「<item:00000830>」を得ました
-<Judas> received
-the title "<item:00000830>"!
+<Judas> acquired the title
+"<item:00000830>".
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -357,7 +357,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-Please come again.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------

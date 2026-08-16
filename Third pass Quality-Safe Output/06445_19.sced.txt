@@ -22,7 +22,7 @@ are pretty impressive, too.
 NOTICE
 -----------------------
 #<item:00000122>を手に入れました
-<item:00000122>You obtained .
+Acquired <item:00000122>.
 -----------------------
 #華麗に飾り付けられた武具が展示されている
 #どれもこれも年代物の高級品のようだ
@@ -674,7 +674,7 @@ Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -697,7 +697,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-We hope to see you again soon.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------

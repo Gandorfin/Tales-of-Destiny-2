@@ -327,8 +327,8 @@ notice
 -----------------------
 #<Nanaly>は
 #称号「<item:0000081D>」を得ました
-<Nanaly> is
-You've earned the title "<item:0000081D>."
+<Nanaly> acquired the title
+"<item:0000081D>".
 -----------------------
 #ふぅ～
 #水くみ大変だったぁ
@@ -377,11 +377,11 @@ Hey, hey!
 You guys too,
 stay and eat.
 -----------------------
-<Nanaly>
+#<Nanaly>
 #ほかのお料理のつくりかた
 #教えてほしいんだけど
-How to make other dishes
-I'd love to learn how
+<Nanaly>, I'd love to learn how
+to make some other dishes.
 -----------------------
 <Nanaly>
 -----------------------
@@ -435,9 +435,9 @@ protect Rue!!
 -----------------------
 <Nanaly>
 -----------------------
-<Loni>
+#<Loni>
 #ほんとに、ありがとう！
-I really mean it, thank you!
+<Loni>, really... thank you!
 -----------------------
 <Nanaly>
 -----------------------
@@ -848,7 +848,7 @@ Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？

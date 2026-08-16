@@ -422,7 +422,7 @@ Ticket Seller
 #おいおい、金が足りないじゃないか
 #カンベンしてくれよ、お客さん！
 Hey now, you haven't got enough
-gald. Have a heart, would you?
+Gald. Have a heart, would you?
 -----------------------
 #チケット売り
 Ticket Seller
@@ -468,7 +468,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-We hope to see you again soon.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------

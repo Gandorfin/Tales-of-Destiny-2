@@ -131,8 +131,8 @@ notice
 -----------------------
 #<Judas>は
 #称号「<item:00000826>」を得ました
-<Judas>
-gained the title "<item:00000826>"!
+<Judas> acquired the title
+"<item:00000826>".
 -----------------------
 #オベロン社の物らしき書類が保管されている
 #どうやら、神の眼の騒乱に関係した物のようだ
@@ -183,7 +183,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-We hope to see you again soon.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -206,7 +206,7 @@ notice
 #{16}{25}{C6}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{C6}{C0}, but
-your inventory is already full.
+your inventory is full.
 -----------------------
 notice
 -----------------------

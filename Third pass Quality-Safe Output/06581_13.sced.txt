@@ -24,8 +24,8 @@ notice
 -----------------------
 #<Harold>は
 #称号「<item:00000833>」を得ました
-<Harold> has
-earned the title "<item:00000833>"!
+<Harold> acquired the title
+"<item:00000833>".
 -----------------------
 #『ソーディアン・試作初号機』と
 #書いてある････
@@ -113,7 +113,7 @@ Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -136,7 +136,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-We look forward to your next visit.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -159,7 +159,7 @@ notice
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{C2}{C0}, but
-inventory is full already.
+your inventory is full.
 -----------------------
 notice
 -----------------------

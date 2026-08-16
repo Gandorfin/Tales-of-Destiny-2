@@ -629,11 +629,11 @@ I'll be fine.
 #ソルト
 Salt
 -----------------------
-<Kyle>
+#<Kyle>
 #あまり、危ないトコには
 #行かないでね
-Please don't go anywhere
-too dangerous, okay?
+<Kyle>, please don't go
+anywhere too dangerous, okay?
 -----------------------
 <Loni>
 -----------------------
@@ -661,7 +661,7 @@ Salt
 #ボク、最近ユニーといっしょに
 #畑の仕事をしてるんだよ
 Hey!
-I've been helping Uni
+I've been helping Yuni
 with the fieldwork lately.
 -----------------------
 <Kyle>
@@ -694,7 +694,7 @@ Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -740,7 +740,7 @@ notice
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{C2}{C0}, but
-inventory full already.
+your inventory is full.
 -----------------------
 notice
 -----------------------

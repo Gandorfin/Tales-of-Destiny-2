@@ -55,14 +55,14 @@ I won't help.
 Man
 -----------------------
 #途中でやり直したくなったり止めたくなったら
-SELECTボタンのメニューから選んでくれ
+#SELECTボタンのメニューから選んでくれ
 #再度挑戦するときは、クリアした倉庫なら
 #どこからでも始められるから、頑張ってくれ
-If you want to start over or
-quit partway through, you can
-pick up from any warehouse
-you've already cleared when
-you try again. Good luck!
+If you want to start over or quit
+partway, use the SELECT button
+menu. When you retry, you can
+start from any warehouse you've
+already cleared. Good luck!
 -----------------------
 #おじさん
 Man
@@ -110,7 +110,7 @@ Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-<0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+<0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？

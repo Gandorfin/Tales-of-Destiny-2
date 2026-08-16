@@ -450,7 +450,7 @@ years ago. It's pretty old now.
 #三百万ガルドのレンズがあれば
 #どこもかしこも、ピッカピカだぜ
 We could rebuild it ourselves! With
-three million gald worth of Lens,
+three million Gald worth of Lens,
 this place would be sparkling clean
 everywhere!
 -----------------------
@@ -693,10 +693,10 @@ Yeah. Let's give it our all.
 #ソルト
 Salt
 -----------------------
-<Kyle>
+#<Kyle>
 #早起きしてどこかに行くの？
 #危ないトコに、行かないでね
-Are you going somewhere early?
+Going somewhere early, <Kyle>?
 Don't go anywhere dangerous, okay?
 -----------------------
 <Kyle>
@@ -709,11 +709,11 @@ I'll be fine.
 #ソルト
 Salt
 -----------------------
-<Kyle>
+#<Kyle>
 #あまり、危ないトコには
 #行かないでね
-Please don't go anywhere
-too dangerous, okay?
+<Kyle>, please don't go
+anywhere too dangerous, okay?
 -----------------------
 <Loni>
 -----------------------
@@ -721,7 +721,7 @@ too dangerous, okay?
 #この<Loni>兄ちゃんが見てるから
 #安心しろよ！
 Don't worry,
-this <Loni> big brother's
+big bro <Loni> here's
 got his back!
 -----------------------
 #ソルト
@@ -741,7 +741,7 @@ Salt
 #ボク、最近ユニーといっしょに
 #畑の仕事をしてるんだよ
 Hey!
-I've been helping Uni out
+I've been helping Yuni out
 with the farm work lately!
 -----------------------
 <Kyle>
@@ -899,9 +899,9 @@ Rutee
 #当分、必要ないからね
 #心配しないで、しっかりやりなさい
 I won't be needing that money
-from Mr. Long-Legs for a while,
-so don't worry. Just focus on the
-task at hand.
+from our 'Daddy-Long-Legs'
+for a while, so don't worry.
+Just focus on the task at hand.
 -----------------------
 #ルーティ
 Rutee
@@ -1344,7 +1344,7 @@ Rutee
 #呼んできてくれる？
 Oh, it's about that time.
 We oughta get <Loni> up.
-Mind givin' 'em a shout?
+Mind going to call him?
 -----------------------
 <Kyle>
 -----------------------
@@ -1509,7 +1509,7 @@ Rutee
 notice
 -----------------------
 #<0B:00000001><num:000003E8><0B:00000000>ガルドを手に入れました
-<0B:00000001><num:000003E8><0B:00000000>Gald acquired.
+Acquired <0B:00000001><num:000003E8><0B:00000000> Gald.
 -----------------------
 #シナモン
 Cinnamon
@@ -1528,8 +1528,8 @@ notice
 -----------------------
 #<Kyle>は
 #称号「<item:00000888>」を得ました
-<Kyle> has earned
-the title "<item:00000888>"!
+<Kyle> acquired the title
+"<item:00000888>".
 -----------------------
 #ルーティ
 Rutee
@@ -1771,9 +1771,8 @@ Rutee
 #自分のことを
 #そこまで信じてくれる人は
 Someone who believes in you
-that deeply, even when
-you don't believe in yourself?
-They're hard to come by.
+that deeply? They're hard
+to come by, you know.
 -----------------------
 #ルーティ
 Rutee
@@ -1787,7 +1786,7 @@ Rutee
 #勇気を出して<Kyle>
 #あんたならだいじょうぶ
 #だって、あたしと父さんの子でしょ？
-Be brave, <Kyle> You'll be fine. After
+Be brave, <Kyle>. You'll be fine. After
 all, you're Stahn and my son, right?
 -----------------------
 <Kyle>
@@ -1858,7 +1857,7 @@ Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -1881,7 +1880,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-We hope to see you again soon.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -1892,7 +1891,7 @@ exit-party_togather( short spd )
 notice
 -----------------------
 #{16}{26}{12}{C0}を手に入れました
-{16}{26}{12}{C0}You obtained .
+Acquired {16}{26}{12}{C0}.
 -----------------------
 notice
 -----------------------
@@ -1903,8 +1902,8 @@ notice
 -----------------------
 #{16}{26}{1A}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{26}{1A}{C0}There was , but
-your inventory was full.
+Found {16}{26}{1A}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------

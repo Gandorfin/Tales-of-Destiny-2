@@ -458,8 +458,8 @@ notice
 -----------------------
 #{16}{27}{5A}{C0}がありましたが
 #いっぱいで持てませんでした
-Found {16}{27}{5A}{C0}, but inventory full already.
-Couldn't carry it.
+Found {16}{27}{5A}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------

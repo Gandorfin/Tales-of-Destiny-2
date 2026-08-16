@@ -81,11 +81,11 @@ here, we'll freeze solid.
 -----------------------
 <Reala>
 -----------------------
-<Judas>
+#<Judas>
 #ハイデルベルグは
 #どっちになるの？
-Which way is
-Heidelberg?
+<Judas>, which way
+is Heidelberg?
 -----------------------
 <Judas>
 -----------------------
@@ -718,7 +718,7 @@ the same. Don't fuss over the taste.
 NOTICE
 -----------------------
 #<item:0000007C>を手に入れました
-<item:0000007C>You obtained .
+Acquired <item:0000007C>.
 -----------------------
 #ブラザー
 Brother
@@ -938,7 +938,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-We look forward to your next visit.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -960,7 +960,7 @@ notice
 -----------------------
 #{16}{25}{D2}{C0}がありましたが
 #いっぱいで持てませんでした
-You found {16}{25}{D2}{C0}, but
+Found {16}{25}{D2}{C0}, but
 your inventory is full.
 -----------------------
 notice

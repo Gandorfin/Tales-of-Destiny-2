@@ -24,7 +24,7 @@ Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-<0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald per night.
+<0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald per night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -47,7 +47,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-We look forward to your next visit.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -69,8 +69,8 @@ notice
 -----------------------
 #{16}{25}{E2}{C0}がありましたが
 #いっぱいで持てませんでした
-Found {16}{25}{E2}{C0}, but inventory full already.
-There's nothing here.
+Found {16}{25}{E2}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------

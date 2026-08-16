@@ -142,7 +142,7 @@ Elderly Woman
 #スタンったら<Kyle>をおいて
 #旅に出ちまうなんてねえ
 #まあ無事でなによりだよ
-Fancy Stan going off on a journey
+Fancy Stahn going off on a journey
 and leaving <Kyle> behind. Well,
 nothing matters more than him coming
 back safe.
@@ -349,8 +349,8 @@ Librarian
 #はるばるハイデルベルグから
 #やって来ました
 I came all the way from Heidelberg
-to visit the hometown of the four
-heroes.
+to visit the hometown of the Four
+Heroes.
 -----------------------
 #司書
 Librarian
@@ -421,7 +421,7 @@ Librarian
 #取材に来ました
 I came all the way from Heidelberg
 to gather material for a book about
-the four heroes.
+the Four Heroes.
 -----------------------
 #司書
 Librarian
@@ -438,7 +438,7 @@ Librarian
 -----------------------
 #四英雄とはどんなに偉い人かと思いましたが
 #お二人とも素朴で優しい人でした
-I imagined the four heroes would be
+I imagined the Four Heroes would be
 terribly grand, but the two of them
 were so humble and kind.
 -----------------------
@@ -447,7 +447,7 @@ Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald per night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald per night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -470,7 +470,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-We look forward to your next visit.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------

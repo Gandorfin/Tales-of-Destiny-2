@@ -178,7 +178,7 @@ be exhausted after everything today.
 #なにしてんだ、<Kyle>？
 #ルーティさんに、話するんだろ？
 What are you doing, <Kyle>? You're
-gonna talk to Mrs. Rutee, right?
+gonna talk to Rutee, right?
 -----------------------
 #ルーティ
 Rutee
@@ -389,7 +389,6 @@ Something irreplaceable...
 Stahn
 -----------------------
 #それができるなら
-If I can
 #俺はだまって見送ろう
 If you can do that,
 I'll see you off without a word.
@@ -439,7 +438,7 @@ Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -462,7 +461,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-We hope to see you again soon.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -484,8 +483,8 @@ notice
 -----------------------
 #{16}{25}{DA}{C0}がありましたが
 #いっぱいで持てませんでした
-Found {16}{25}{DA}{C0}, but your inventory is full.
-You couldn't pick it up.
+Found {16}{25}{DA}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------

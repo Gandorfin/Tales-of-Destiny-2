@@ -340,7 +340,7 @@ Businessman
 #こっちの被害は１ガルドもない
 #我ながら、うまくしてやったものだ
 If they die on the way,
-we won't lose a single gald.
+we won't lose a single Gald.
 I played that well.
 -----------------------
 #商人
@@ -509,7 +509,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-We look forward to your next visit.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------

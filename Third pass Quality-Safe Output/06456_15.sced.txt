@@ -48,8 +48,8 @@ notice
 -----------------------
 #<Kyle>たちは
 #称号「<item:00000865>」を得ました
-<Kyle> and the others
-received the title "<item:00000865>".
+<Kyle> and party acquired the title
+"<item:00000865>".
 -----------------------
 #持っていないと
 #なおさら、お金の大切さや
@@ -78,8 +78,8 @@ notice
 -----------------------
 #<Kyle>たちは
 #称号「<item:00000864>」を得ました
-<Kyle> and the others
-received the title "<item:00000864>".
+<Kyle> and party acquired the title
+"<item:00000864>".
 -----------------------
 #あまりにもたくさんのお金を
 #持ちすぎると
@@ -146,7 +146,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-We hope to see you again.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -169,7 +169,7 @@ notice
 #{16}{25}{CA}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{CA}{C0}, but
-couldn't carry any more.
+your inventory is full.
 -----------------------
 notice
 -----------------------

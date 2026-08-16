@@ -82,7 +82,7 @@ Soldier
 #スタンさんのような男になるため
 #ぼく、がんばります！
 I'll do my best to become a man
-like Stan!
+like Stahn!
 -----------------------
 <Kyle>
 -----------------------
@@ -503,7 +503,7 @@ Soldier
 -----------------------
 #とにかく頼んだぞ、スタンの････
 #････いや、<Kyle>くん
-I'm counting on you, Stan's...
+I'm counting on you, Stahn's...
 ...No, <Kyle>.
 -----------------------
 #兵士
@@ -559,7 +559,7 @@ Soldier
 #あの英雄スタンの息子を
 #この眼で見られるとは････
 #生ける伝説と対面している気分だ
-To see the son of the hero Stan
+To see the son of the hero Stahn
 with my own eyes...
 is like meeting a living legend.
 -----------------------
@@ -1055,8 +1055,8 @@ notice
 -----------------------
 #<Kyle>は
 #称号「<item:0000082F>」を得ました
-<Kyle> earned
-the title "<item:0000082F>"!
+<Kyle> acquired the title
+"<item:0000082F>".
 -----------------------
 <char:000003E8>
 -----------------------
@@ -1068,7 +1068,7 @@ Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
