@@ -14,8 +14,8 @@ NOTICE
 -----------------------
 #<item:0000004C>、<item:0000005B>、<item:00000069>を
 #手に入れました
-Acquired <item:0000004C>, <item:0000005B>, and <item:00000069>.
-Congratulations.
+Acquired <item:0000004C>, <item:0000005B>,
+and <item:00000069>.
 -----------------------
 #ストレイライズ神殿が
 #配給している食糧だ
@@ -39,7 +39,7 @@ This building is currently
 managed by Straylize Temple.
 -----------------------
 #『万装備屋　武具の修理と売買』
-Yorozu Equipment Shop:
+All-Purpose Equipment Shop:
 Weapon Repair and Sales
 -----------------------
 NOTICE
@@ -56,7 +56,7 @@ select
 -----------------------
 #<03:00000000>　読んでもらう　
 #　興味無い　
-<03:00000000>Have her read it
+<03:00000000> Have her read it
 Not interested
 -----------------------
 NOTICE
@@ -116,9 +116,8 @@ Knight
 #見えるかもしれない
 #しかし、それが街のためになるのだ
 Our methods may sometimes seem
-heavy-handed. They may appear that
-way. But it is all for the good
-of this town.
+heavy-handed. But it is all for
+the good of this town.
 -----------------------
 #騎士
 Knight
@@ -782,7 +781,7 @@ John
 -----------------------
 #フンガー！
 #そのとおりでやんす！
-Hunger!
+Hnngah!
 That is correct, de gozaru!
 -----------------------
 #グリッド
@@ -1073,7 +1072,7 @@ There's nothing here.
 Veteran
 -----------------------
 #ひよっこ
-Newbie
+Rookie
 -----------------------
 notice
 -----------------------
@@ -1584,7 +1583,7 @@ something smart for once.
 Overly Veteran
 -----------------------
 #息子
-...Son.
+Son
 -----------------------
 notice
 -----------------------
@@ -1636,7 +1635,7 @@ that can prevent them as well.
 #後の祭りじゃあ　毒<button:00000056>に麻痺<button:0000005F>に衰弱<button:0000005A>に凍結に
 #鈍足でもうへとへとじゃあ
 It's too late for that now. Poison
-<button:00000056>, paralysis <button:0000005F>, debilitation
+<button:00000056>, paralysis <button:0000005F>, weakness
 <button:0000005A>, freezing... And Slow, too. I'm
 completely exhausted.
 -----------------------
@@ -1673,7 +1672,7 @@ a bit too hard...)
 Overly Veteran
 -----------------------
 #息子
-...Son.
+Son
 -----------------------
 notice
 -----------------------
@@ -1782,7 +1781,7 @@ after the first time...)
 Overly Veteran
 -----------------------
 #息子
-...Son.
+Son
 -----------------------
 notice
 -----------------------
@@ -1902,8 +1901,8 @@ high score do anyway?
 #いう不届きな輩もいますが････
 We're still investigating
 that, Senpai. Some ungrateful
-fools say it's useless in
-the mortal realm, but...
+fools say it's of no use
+in this world, but...
 -----------------------
 #まあ深く気にせずに自らの技術を
 #磨けばいいさ
@@ -1920,7 +1919,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Ukemi."
+"Breakfalls."
 Would you like to listen in?
 -----------------------
 #地面にたたきつけられると
@@ -1932,11 +1931,10 @@ ground, you end up knocked down.
 #でも、地面に接地したまさに
 #その瞬間に<button:00000047>を押すと、
 #受身がとれますよね
-It certainly is tough, Senpai. But
-right at the moment you hit the
-ground, if you press <button:00000047> at that
-instant, you can break your fall
-with a ukemi.
+It's rough, Senpai. But if you
+press <button:00000047> at the exact moment
+you hit the ground, you can
+break your fall.
 -----------------------
 #ももももちろん知ってたさ
 O-o-o-o-of course I knew that.

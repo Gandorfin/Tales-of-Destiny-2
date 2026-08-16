@@ -8,7 +8,7 @@ Blacksmith's Tent
 Blacksmith's Tent
 -----------------------
 #古都ダリルシェイド・装備品屋
-Ancient Capital Darilsheid -
+Old Darilsheid -
 Equipment Shop
 -----------------------
 #鍛冶屋のテント
@@ -224,7 +224,7 @@ items, or combine weapons and armor.
 #リファインを行うのに必要なのは
 #<item:00000012>とレンズです
 To perform Refine, you'll need
-<item:00000012>and Lens.
+<item:00000012> and Lens.
 -----------------------
 #<item:00000012>は、各地にいる
 #私たちルーンボトル屋からお求めください
@@ -619,9 +619,7 @@ Will take <0B:00000001>{14}{26}{04}{C0} min. {14}{26}{02}{C0}<0B:00000000> sec. 
 #いくら援助してくれますか？
 #<size:00000100>現在の所持金<0B:00000001>{14}{34}{04}{C0}ガルド<0B:00000000> 
 How much will you contribute?
-<size:00000100>Current funds:
-<0B:00000001>{14}{34}{04}{C0}<0B:00000000>
-Gald
+<size:00000100>Current funds: <0B:00000001>{14}{34}{04}{C0} Gald<0B:00000000>
 -----------------------
 select
 -----------------------
@@ -642,7 +640,7 @@ select
 #<03:00000000><0B:00000001>{14}{36}{08}{C0}<0B:00000000>ガルド援助してよろしいですか？
 #はいはい、ドーンといっちゃってください
 #いやいや、ちょっと待てよ
-<03:00000000><0B:00000001>{14}{36}{08}{C0}<0B:00000000>Provide Gald assistance?
+<03:00000000>Provide <0B:00000001>{14}{36}{08}{C0}<0B:00000000> Gald in aid?
 Sure, sure, go for it.
 No, no, hold on.
 -----------------------
