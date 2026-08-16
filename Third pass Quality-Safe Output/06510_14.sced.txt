@@ -78,7 +78,7 @@ notice
 #{16}{26}{AE}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{26}{AE}{C0}, but
-inventory is full.
+your inventory is full.
 -----------------------
 notice
 -----------------------

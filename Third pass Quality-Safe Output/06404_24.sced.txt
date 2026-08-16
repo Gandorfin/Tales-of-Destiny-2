@@ -96,8 +96,8 @@ notice
 -----------------------
 #<Kyle>は
 #称号「<item:00000870>」を得ました
-<Kyle> has earned
-the title "<item:00000870>"!
+<Kyle> acquired the title
+"<item:00000870>".
 -----------------------
 #子供服が入っている
 There are children's clothes inside.
@@ -853,10 +853,10 @@ It feels like Mom, but...
 Lilith
 -----------------------
 #はいはい、いいから起きて
-<Kyle>
+#<Kyle>
 #朝ごはんにしましょう
 Yes, yes, that's enough. Just get
-up. Let's have breakfast.
+up, <Kyle>. Let's have breakfast.
 -----------------------
 <Kyle>
 -----------------------
@@ -1050,7 +1050,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-We look forward to your next visit.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------

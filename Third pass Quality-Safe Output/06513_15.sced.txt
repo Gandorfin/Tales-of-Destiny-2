@@ -205,7 +205,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-We look forward to your next visit.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -216,7 +216,7 @@ exit-party_togather( short spd )
 notice
 -----------------------
 #{16}{25}{DE}{C0}を手に入れました
-{16}{25}{DE}{C0}Acquired .
+Acquired {16}{25}{DE}{C0}.
 -----------------------
 notice
 -----------------------

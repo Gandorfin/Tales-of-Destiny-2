@@ -18,16 +18,17 @@ Go back
 -----------------------
 NOTICE
 -----------------------
-<item:00000036>、<item:00000037>、<item:00000038>
+#<item:00000036>、<item:00000037>、<item:00000038>
 #三つのチップでプロテクトされたコンテナがあります
-Three chips seal this container.
+A container sealed by three chips:
+<item:00000036>, <item:00000037>, <item:00000038>.
 -----------------------
 NOTICE
 -----------------------
 #<item:00000036>、<item:00000037>、<item:00000038>を使い
 #<item:00000035>を手に入れました
-<item:00000036>Used <item:00000037> and <item:00000038>.
-<item:00000035>Obtained .
+Used <item:00000036>, <item:00000037>, <item:00000038>.
+Acquired <item:00000035>.
 -----------------------
 <Harold>
 -----------------------
@@ -67,26 +68,26 @@ the protection.'
 Memo
 -----------------------
 #『低レベルのプロテクト解除には
-　<item:00000036>、<item:00000037>、<item:00000038>
+#　<item:00000036>、<item:00000037>、<item:00000038>
 #　この三つのチップが必要だ
 #　低レベルプロテクトを解除して、<item:00000035>を入手しろ』
-'Three chips are needed to disable
-low-level protection. Disable it
-and obtain
-<item:00000035>.'
+'Disabling low-level protection
+requires these three chips:
+<item:00000036>, <item:00000037>, <item:00000038>.
+Disable it and obtain <item:00000035>.'
 -----------------------
 #メモ
 Memo
 -----------------------
 #『高レベルのプロテクト解除には
-　<item:00000035>、<item:00000033>、<item:00000034>
+#　<item:00000035>、<item:00000033>、<item:00000034>
 #　この三つのキーが必要だ　キーをそろえれば、
 #　保管所の奥にあるコンテナを開けられる』
-'To remove high-level protection,
-you'll need these three keys.
-Once you have them all, you
-can open the container deep
-inside the storage room.'
+'Removing high-level protection
+requires these three keys:
+<item:00000035>, <item:00000033>, <item:00000034>.
+With all three, you can open the
+container deep in the storage room.'
 -----------------------
 #メモ
 Memo
@@ -192,7 +193,7 @@ Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -226,7 +227,7 @@ exit-party_togather( short spd )
 notice
 -----------------------
 #{16}{25}{F6}{C0}を手に入れました
-{16}{25}{F6}{C0}Obtained .
+Acquired {16}{25}{F6}{C0}.
 -----------------------
 notice
 -----------------------

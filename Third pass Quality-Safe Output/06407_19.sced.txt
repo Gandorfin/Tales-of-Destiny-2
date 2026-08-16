@@ -610,7 +610,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-We hope to see you again.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------

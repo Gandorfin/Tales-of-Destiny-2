@@ -2019,9 +2019,9 @@ notice
 #「武器攻撃」について
 #話し合っているようです
 #耳を傾けますか？
-They seem to be discussing
+They appear to be discussing
 "Weapon Attacks."
-Listen in?
+Would you like to listen in?
 -----------------------
 #さて俺たちも冒険を始めるわけだが、
 #基本は身に付いたか？
@@ -2090,9 +2090,9 @@ notice
 #「特技」について
 #話し合っているようです
 #耳を傾けますか？
-Regarding "Base Artes"
-It seems they're discussing it.
-Will you listen in?
+They appear to be discussing
+"Base Artes."
+Would you like to listen in?
 -----------------------
 #どうだ、特技を覚えて
 #戦略に幅が出たろう？
@@ -2141,9 +2141,9 @@ notice
 #「エンチャント」について
 #話し合っているようです
 #耳を傾けますか？
-Regarding "Enchant"
-It seems they're discussing it.
-Will you listen in?
+They appear to be discussing
+"Enchant."
+Would you like to listen in?
 -----------------------
 #エンチャントも覚えたさ
 I've learned Enchant too.
@@ -2232,9 +2232,9 @@ notice
 #「戦闘の作戦」について
 #話し合っているようです
 #耳を傾けますか？
-Regarding "Battle Strategy"
-It seems they're discussing it.
-Will you listen in?
+They appear to be discussing
+"Battle Strategy."
+Would you like to listen in?
 -----------------------
 #いろんな敵に遭っても対処できるように、
 #作戦を決めておこうではないか！
@@ -2292,9 +2292,9 @@ notice
 #「テクニカルスマッシュ」
 #について話し合っているようです
 #耳を傾けますか？
-Regarding "Technical Smash"
-It seems they're discussing it.
-Will you listen in?
+They appear to be discussing
+"Technical Smash."
+Would you like to listen in?
 -----------------------
 #テクニカルスマッシュってなにさ？
 What's a Technical Smash?
@@ -2354,9 +2354,9 @@ notice
 #「スピリッツ」について
 #話し合っているようです
 #耳を傾けますか？
-Regarding "Spirits"
-It seems they're discussing it.
-Will you listen in?
+They appear to be discussing
+"Spirits."
+Would you like to listen in?
 -----------------------
 #敵に攻撃しても防御されまくりさ
 We're attacking, but
@@ -2410,9 +2410,9 @@ notice
 #「連続ヒット」について
 #話し合っているようです
 #耳を傾けますか？
-Regarding "Consecutive Hits"
-It seems they're discussing it.
-Will you listen in?
+They appear to be discussing
+"Consecutive Hits."
+Would you like to listen in?
 -----------------------
 #連続ヒットってなにさ？
 What's a consecutive hit?
@@ -2469,9 +2469,9 @@ notice
 #「影響エリア」について
 #話し合っているようです
 #耳を傾けますか？
-Regarding "Field of Effect"
-It seems they're discussing it.
-Will you listen in?
+They appear to be discussing
+"Field of Effect."
+Would you like to listen in?
 -----------------------
 #敵の裏側から攻撃したら有利だと思ったけど
 #なんだか疲れるさ
@@ -2514,7 +2514,7 @@ Not bad. You actually said
 something smart for once.
 -----------------------
 #ベテランすぎ
-Too experienced for your own good.
+Overly Veteran
 -----------------------
 #息子
 ...Son.
@@ -2524,9 +2524,9 @@ notice
 #「ステータス変化」について
 #話し合っているようです
 #耳を傾けますか？
-Regarding "Status Effects"
-It seems they're discussing it.
-Will you listen in?
+They appear to be discussing
+"Status Effects."
+Would you like to listen in?
 -----------------------
 #戦闘でステータス異常になってしもうた
 #パナシーアボトルもないのじゃ
@@ -2602,7 +2602,7 @@ Hahahahahahahahaha!
 laughing too hard...)
 -----------------------
 #ベテランすぎ
-Too experienced for your own good.
+Overly Veteran
 -----------------------
 #息子
 ...Son.
@@ -2612,9 +2612,9 @@ notice
 #「スピリッツブラスター」
 #について話し合っているようです
 #耳を傾けますか？
-Regarding "Spirit Blaster Mode"
-It seems they're discussing it.
-Will you listen in?
+They appear to be discussing
+"Spirit Blaster Mode."
+Would you like to listen in?
 -----------------------
 #ピンチになっても、スピリッツブラスター
 #になれば逆転のチャンスができるわい
@@ -2709,7 +2709,7 @@ I'm in the way...
 (I thought once would be enough...)
 -----------------------
 #ベテランすぎ
-Too experienced for your own good.
+Overly Veteran
 -----------------------
 #息子
 Son
@@ -2719,9 +2719,9 @@ notice
 #「フィールドオブエフェクト」
 #について話し合っているようです
 #耳を傾けますか？
-"Field of Effect"
-It seems they're discussing it.
-Will you lend an ear?
+They appear to be discussing
+"Field of Effect."
+Would you like to listen in?
 -----------------------
 #この間の、敵が出す
 #「フィールドオブエフェクト」には
@@ -2783,9 +2783,9 @@ notice
 #「バトルグレード」について
 #話し合っているようです
 #耳を傾けますか？
-"Battle Grade"
-It seems they're discussing it.
-Will you lend an ear?
+They appear to be discussing
+"Battle Grade."
+Would you like to listen in?
 -----------------------
 #バトルグレードって結局なにさ？
 So what exactly is Battle Grade?
@@ -2847,9 +2847,9 @@ notice
 #「受身」について
 #話し合っているようです
 #耳を傾けますか？
-"Recovery"
-It seems they're discussing it.
-Will you lend an ear?
+They appear to be discussing
+"Recovery."
+Would you like to listen in?
 -----------------------
 #地面にたたきつけられると
 #倒れてしまうさ
@@ -2884,9 +2884,9 @@ notice
 #「戦闘難易度」について
 #話し合っているようです
 #耳を傾けますか？
-"Battle Difficulty"
-It seems they're discussing it.
-Will you lend an ear?
+They appear to be discussing
+"Battle Difficulty."
+Would you like to listen in?
 -----------------------
 #戦闘難易度を高くするのに、
 #なんの意味があるのさ？
@@ -2941,9 +2941,9 @@ notice
 #「通常攻撃」について
 #深く話し合っているようです
 #耳を傾けますか？
-"Normal Attack" It seems they're
-having a deep discussion. Will you
-lend an ear?
+They appear to be discussing
+"Normal Attack."
+Would you like to listen in?
 -----------------------
 #慣れてきたから最近は通常攻撃は
 #<button:00000045>だけ叩きっぱなしさ
@@ -3031,9 +3031,9 @@ notice
 #「長い話」について
 #話し合っているようです
 #耳を傾けますか？
-"Long Stories"
-It seems they're discussing it.
-Will you lend an ear?
+They appear to be discussing
+"Long Stories."
+Would you like to listen in?
 -----------------------
 #ためになる話も十年くらい聞いてると
 #さすがにつかれるさ
@@ -3077,9 +3077,9 @@ notice
 #「アイテム拾得」について
 #話し合っているようです
 #耳を傾けますか？
-"Item Acquisition"
-They seem to be discussing it.
-Will you lend an ear?
+They appear to be discussing
+"Item Acquisition."
+Would you like to listen in?
 -----------------------
 #冒険者として生きるからには
 #敵からアイテムを拾いまくりたいさ
@@ -3168,7 +3168,7 @@ Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？

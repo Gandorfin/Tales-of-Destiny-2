@@ -534,11 +534,11 @@ Yes...
 <Nanaly>
 -----------------------
 #へぇ、意外と気が利くじゃない
-<Harold>
+#<Harold>
 #ふたりっきりにさせるなんてさ
 Huh, you're more considerate than
-I thought. Leaving those two alone
-together like that.
+I thought, <Harold>. Leaving those
+two alone together like that.
 -----------------------
 <Harold>
 -----------------------
@@ -608,7 +608,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-We hope to see you again.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------

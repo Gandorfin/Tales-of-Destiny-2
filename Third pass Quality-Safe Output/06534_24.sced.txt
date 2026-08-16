@@ -494,7 +494,7 @@ Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -517,7 +517,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-We hope to see you again soon.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -540,7 +540,7 @@ notice
 #{16}{25}{CA}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{CA}{C0}, but
-your inventory is already full.
+your inventory is full.
 -----------------------
 notice
 -----------------------
@@ -569,7 +569,7 @@ may sometimes carry over.
 -----------------------
 #ひと瓶<0B:00000001>{14}{35}{D4}{C0}<0B:00000000>ガルドになりますが、
 #<item:00000012>を買いますか？
-One bottle costs <0B:00000001>{14}{35}{D4}{C0}<0B:00000000> gald.
+One bottle costs <0B:00000001>{14}{35}{D4}{C0}<0B:00000000> Gald.
 Would you like to buy <item:00000012>?
 -----------------------
 select
@@ -600,7 +600,7 @@ Thank you for your purchase.
 -----------------------
 #<item:00000012>はひと瓶
 #<0B:00000001>{14}{35}{D4}{C0}<0B:00000000>ガルドです
-<item:00000012> costs <0B:00000001>{14}{35}{D4}{C0}<0B:00000000> gald per bottle.
+<item:00000012> costs <0B:00000001>{14}{35}{D4}{C0}<0B:00000000> Gald per bottle.
 -----------------------
 #リファイン講座を聞きたいですか？
 Would you like to hear

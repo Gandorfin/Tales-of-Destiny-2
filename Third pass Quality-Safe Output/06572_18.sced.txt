@@ -51,7 +51,7 @@ truly remarkable.
 NOTICE
 -----------------------
 #<item:00000012>を手に入れました
-<item:00000012>Acquired .
+Acquired <item:00000012>.
 -----------------------
 #航空力学に関する文献がある
 There are documents on aerodynamics.
@@ -305,14 +305,14 @@ Spewing fuel, light the fire~♪
 NOTICE
 -----------------------
 #<item:00000041>を手に入れました
-<item:00000041>Acquired .
+Acquired <item:00000041>.
 -----------------------
 #いってらっしゃいませ
 Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？

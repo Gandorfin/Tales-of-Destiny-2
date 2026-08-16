@@ -532,7 +532,7 @@ notice
 #{16}{26}{6E}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{26}{6E}{C0}, but
-couldn't carry it: inventory full.
+your inventory is full.
 -----------------------
 notice
 -----------------------

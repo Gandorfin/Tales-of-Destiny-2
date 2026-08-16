@@ -184,8 +184,8 @@ notice
 -----------------------
 #<Kyle>は
 #称号「<item:0000080D>」を得ました
-<Kyle> obtained the title
-"<item:0000080D>"!
+<Kyle> acquired the title
+"<item:0000080D>".
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -215,7 +215,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-We look forward to your next visit.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------

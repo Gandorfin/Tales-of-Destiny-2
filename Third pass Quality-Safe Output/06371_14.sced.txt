@@ -206,7 +206,7 @@ Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald for the night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald for the night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -229,7 +229,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-We hope to see you again soon.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -240,7 +240,7 @@ exit-party_togather( short spd )
 notice
 -----------------------
 #{16}{25}{DE}{C0}を手に入れました
-{16}{25}{DE}{C0}Acquired .
+Acquired {16}{25}{DE}{C0}.
 -----------------------
 notice
 -----------------------
@@ -251,7 +251,7 @@ notice
 -----------------------
 #{16}{25}{E6}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{25}{E6}{C0}Found , but
+Found {16}{25}{E6}{C0}, but
 your inventory is full.
 -----------------------
 notice

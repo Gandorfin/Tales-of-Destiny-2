@@ -593,22 +593,22 @@ notice
 -----------------------
 #<Kyle>は
 #称号「<item:0000086D>」を得ました
-<Kyle> obtained
-the title "<item:0000086D>"!
+<Kyle> acquired the title
+"<item:0000086D>".
 -----------------------
 notice
 -----------------------
 #{15}{24}{B2}{C0}は
 #称号「<item:0000086B>」を得ました
-{15}{24}{B2}{C0} obtained
-the title "<item:0000086B>"!
+{15}{24}{B2}{C0} acquired the title
+"<item:0000086B>".
 -----------------------
 notice
 -----------------------
 #{15}{24}{B2}{34}{00}{C6}{C0}は
 #称号「<item:0000086C>」を得ました
-{15}{24}{B2}{34}{00}{C6}{C0} obtained
-the title "<item:0000086C>"!
+{15}{24}{B2}{34}{00}{C6}{C0} acquired the title
+"<item:0000086C>".
 -----------------------
 #観客
 Spectator
@@ -1018,7 +1018,7 @@ Huh?
 #てめえ、もしかしてスタンの息子か!?
 #どおりで、気にくわねえツラを
 #してやがると思ったぜ！
-You... you're Stan's kid, ain'tcha!?
+You... you're Stahn's kid, huh!?
 No wonder I couldn't stand the
 look of ya! I had a feeling!
 -----------------------
@@ -1038,7 +1038,7 @@ and come back when you're ready!
 #まさか、ここでスタンの息子に
 #出会うとはな
 Can't believe I'd run into
-Stan's kid here of all places.
+Stahn's kid here of all places.
 -----------------------
 #俺様は、てめえが大っキライだ！
 #ベロベロベ～
@@ -1048,7 +1048,7 @@ Bleh bleh bleh~
 #おい、スタンの息子！
 #闘技大会に出場しろよ！
 #この闘技場の厳しさを思い知りやがれ！
-Hey, Stan's kid! Enter the
+Hey, Stahn's kid! Enter the
 tournament! I'll show you how
 brutal this arena really is!
 -----------------------
@@ -1074,8 +1074,8 @@ picking a fight with everyone?
 #おまえがスタンの息子だからだ！
 #俺様は、スタンが大っキライなんだ！
 Shut your trap!
-It's 'cause you're Stan's son!
-I hate Stan's guts!
+It's 'cause you're Stahn's son!
+I hate Stahn's guts!
 -----------------------
 #ケッ！　今のうちに、いい気になってろ！
 #だがな、勝利者ってやつは
@@ -1315,7 +1315,7 @@ Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？

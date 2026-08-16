@@ -617,16 +617,22 @@ A Man Who Loves Freedom
 #さあ、誰の自由称号を変えたいんだ？{02}
 Whose Freedom Title should I change?{02}
 -----------------------
+#<03:00000000><Judas>
+#<Nanaly>
+#<Harold>
+#前のページ
 <03:00000000><Judas>
 <Nanaly>
 <Harold>
-#前のページ
 Previous Page
 -----------------------
+#<03:00000000><Kyle>
+#<Reala>
+#<Loni>
+#次のページ
 <03:00000000><Kyle>
 <Reala>
 <Loni>
-#次のページ
 Next Page
 -----------------------
 select
@@ -734,37 +740,38 @@ notice
 -----------------------
 #<Kyle>たちは
 #称号「<item:00000866>」を得ました
-<Kyle> and the others
-received the title "<item:00000866>".
+<Kyle> and party acquired the title
+"<item:00000866>".
 -----------------------
 notice
 -----------------------
 #<Kyle>たちは
 #称号「<item:00000867>」を得ました
-<Kyle> and the others
-received the title "<item:00000867>".
+<Kyle> and party acquired the title
+"<item:00000867>".
 -----------------------
 notice
 -----------------------
 #<Kyle>たちは
 #称号「<item:00000868>」を得ました
-<Kyle> and the others
-received the title "<item:00000868>".
+<Kyle> and party acquired the title
+"<item:00000868>".
 -----------------------
 notice
 -----------------------
 #<Kyle>たちは
 #称号「<item:00000869>」を得ました
-<Kyle> and the others
-received the title "<item:00000869>".
+<Kyle> and party acquired the title
+"<item:00000869>".
 -----------------------
 #アクアヴェイル
 Aquaveil
 -----------------------
 notice
 -----------------------
-「{16}{A0}{00}{08}{24}{94}{CA}{C0}」
+#「{16}{A0}{00}{08}{24}{94}{CA}{C0}」
 #でよろしいですか？
+"{16}{A0}{00}{08}{24}{94}{CA}{C0}"
 Is that correct?
 -----------------------
 select
@@ -778,8 +785,8 @@ notice
 -----------------------
 #{15}{24}{90}{C0}は
 #称号「{16}{A0}{00}{08}{24}{94}{CA}{C0}」を得ました
-{15}{24}{90}{C0} received
-the title "{16}{A0}{00}{08}{24}{94}{CA}{C0}".
+{15}{24}{90}{C0} acquired the title
+"{16}{A0}{00}{08}{24}{94}{CA}{C0}".
 -----------------------
 #シェフ
 Chef
@@ -1008,7 +1015,7 @@ notice
 #{16}{26}{0E}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{26}{0E}{C0}, but
-inventory is full already.
+your inventory is full.
 -----------------------
 notice
 -----------------------

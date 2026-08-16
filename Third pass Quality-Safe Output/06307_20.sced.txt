@@ -84,7 +84,7 @@ Cinnamon
 #<Kyle>といっしょに戦うんだ！
 Hang in there, everybody!
 Work together and
-<Kyle>, let's fight 'em!
+fight alongside <Kyle>!
 -----------------------
 #バジル
 Basil
@@ -166,8 +166,8 @@ Ah, it's <Loni>!
 -----------------------
 #おう、おまえら
 #もうちょっと隠れてろよ
-Yo, you lot.
-Go hide somewhere for a bit.
+Yo, you guys.
+Stay hidden a little longer.
 -----------------------
 <Loni>
 -----------------------
@@ -216,7 +216,7 @@ you really had me on edge there!
 #<Loni>････
 #よかっ････た････
 <Loni>...
-I'm... glad you're... okay...
+Thank... goodness...
 -----------------------
 #<size:00000180>お、おい、だいじょうぶか!?
 #<Kyle>！　<Kyle>!!
@@ -251,7 +251,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-We hope to see you again soon.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -273,8 +273,8 @@ notice
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
-Found {16}{25}{C2}{C0}, but your
-inventory is full.
+Found {16}{25}{C2}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------

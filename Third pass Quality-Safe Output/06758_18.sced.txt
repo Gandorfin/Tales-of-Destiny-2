@@ -147,7 +147,7 @@ longer. For that thing called the
 NOTICE
 -----------------------
 #<item:0000004A>を手に入れました
-<item:0000004A>You obtained .
+Acquired <item:0000004A>.
 -----------------------
 #ジョニー
 Johnny
@@ -185,7 +185,7 @@ Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？

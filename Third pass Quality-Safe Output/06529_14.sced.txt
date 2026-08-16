@@ -37,7 +37,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-We hope to see you again soon.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -59,8 +59,8 @@ notice
 -----------------------
 #{16}{25}{D2}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{25}{D2}{C0}There was , but
-your inventory was full.
+Found {16}{25}{D2}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------

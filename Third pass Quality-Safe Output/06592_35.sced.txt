@@ -268,8 +268,9 @@ W-well, I guess that's about right.
 -----------------------
 <Kyle>
 -----------------------
-<Harold>!?
+#<Harold>!?
 #ど、どうかした!?
+<Harold>!?
 Wh-what's with you!?
 -----------------------
 <Harold>
@@ -313,8 +314,8 @@ notice
 -----------------------
 #<Kyle>は
 #称号「<item:0000082C>」を得ました
-<Kyle> received
-the title "<item:0000082C>".
+<Kyle> acquired the title
+"<item:0000082C>".
 -----------------------
 <Kyle>
 -----------------------
@@ -799,7 +800,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-We look forward to your next visit.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------

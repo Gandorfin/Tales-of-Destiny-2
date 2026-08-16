@@ -32,7 +32,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-Please come again.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -43,7 +43,7 @@ exit-party_togather( short spd )
 notice
 -----------------------
 #{16}{25}{EA}{C0}を手に入れました
-{16}{25}{EA}{C0}Acquired
+Acquired {16}{25}{EA}{C0}.
 -----------------------
 notice
 -----------------------
@@ -54,7 +54,7 @@ notice
 -----------------------
 #{16}{25}{F2}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{25}{F2}{C0}Found , but
+Found {16}{25}{F2}{C0}, but
 your inventory is full.
 -----------------------
 notice
