@@ -32,7 +32,7 @@ and dreaded Dycroft vanished
 forever with his death.
 -----------------------
 #リトラー
-Littra
+Raiker
 -----------------------
 #我々は決して忘れてはならない
 #カーレル＝ベルセリオスを始めとする
@@ -42,7 +42,7 @@ of Karell Berselius and all
 the heroes who gave their lives.
 -----------------------
 #リトラー
-Littra
+Raiker
 -----------------------
 #そして心に刻まねばならない
 #この勝利こそが新たな明日をひらく
@@ -315,7 +315,7 @@ Understood.
 ...Everyone, let's go!
 -----------------------
 #いってらっしゃいませ
-Please come again.
+Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
@@ -323,7 +323,7 @@ That'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald.
 Would you like to stay the night?
 -----------------------
 #お泊まりになりますか？
-Would you like to stay the night?
+Would you like to stay?
 -----------------------
 select
 -----------------------
@@ -333,7 +333,7 @@ select
 No
 -----------------------
 #ごゆっくりお休みください
-Please rest well.
+Have a good night.
 -----------------------
 #おはようございます
 Good morning.

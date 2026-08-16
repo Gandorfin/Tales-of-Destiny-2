@@ -111,7 +111,7 @@ Guess it's just the natural dignity
 of a born hero shining through, huh?
 -----------------------
 #商人
-#Businessman
+Businessman
 -----------------------
 #英雄のカンロク････？
 A hero's dignity...?
@@ -127,7 +127,7 @@ indeed! You have precisely the sort
 of bold, valiant bearing about you!
 -----------------------
 #商人
-#Businessman
+Businessman
 -----------------------
 #ところで、その英雄さま方に
 #折り入ってお願いがあるのですが････
@@ -156,7 +156,7 @@ it. Whenever you're so inclined,
 please do stop by our humble home.
 -----------------------
 #商人
-#Businessman
+Businessman
 -----------------------
 #市街地の、北の方にございます
 #いつでも、お好きな時に、いらしてください
@@ -342,7 +342,7 @@ I shouldn't be stationed here
 at the moment.
 -----------------------
 #商人
-#Businessman
+Businessman
 -----------------------
 #まったく！
 #困ったもんだねぇ
@@ -358,7 +358,7 @@ The ship's finally fixed.
 Let's load the rest of the cargo.
 -----------------------
 #商人
-#Businessman
+Businessman
 -----------------------
 #今は
 #私は配置されないはずです
@@ -441,7 +441,7 @@ repairing the ship...
 Many ships are docked here...
 -----------------------
 #いってらっしゃいませ
-Come again soon.
+Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
@@ -459,7 +459,7 @@ select
 No
 -----------------------
 #ごゆっくりお休みください
-Please rest well.
+Have a good night.
 -----------------------
 #おはようございます
 Good morning.

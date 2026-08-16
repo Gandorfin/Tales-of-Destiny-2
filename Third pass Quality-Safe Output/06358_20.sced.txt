@@ -5,7 +5,7 @@ Harmentz Valley
 Harmentz Valley
 -----------------------
 #商人
-#Businessman
+Businessman
 -----------------------
 #薬、買っていくかい？
 Buyin' some medicine?
@@ -27,7 +27,7 @@ No way... We gotta hurry,
 or we'll lose her!
 -----------------------
 #商人
-#Businessman
+Businessman
 -----------------------
 #あの子？
 #もしかして
@@ -42,7 +42,7 @@ You mean the one in pink?
 Huh? You saw her!?
 -----------------------
 #商人
-#Businessman
+Businessman
 -----------------------
 #いや、ビックリしたよ
 #橋が通れないってわかったら
@@ -59,7 +59,7 @@ Hey mister, where'd she
 climb down from?
 -----------------------
 #商人
-#Businessman
+Businessman
 -----------------------
 #あぁ、そこのでっぱりだよ
 #････って、もしかして
@@ -86,7 +86,7 @@ Need medicine? I'll sell you some.
 Just give me a shout.
 -----------------------
 #いってらっしゃいませ
-Take care now.
+Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？

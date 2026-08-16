@@ -454,7 +454,7 @@ It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
-Would you like to stay the night?
+Would you like to stay?
 -----------------------
 select
 -----------------------

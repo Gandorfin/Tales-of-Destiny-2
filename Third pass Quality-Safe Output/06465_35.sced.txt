@@ -1628,13 +1628,13 @@ We're going to save <Reala>!
 And take back the Lens from Elrane!
 -----------------------
 #ウッドロウ
-Woodrow
+Garr
 -----------------------
 #待ちたまえ、<Kyle>くん
 Hold on, <Kyle>.
 -----------------------
 #ウッドロウ
-Woodrow
+Garr
 -----------------------
 #これはハイデルベルグとアタモニ神団
 #間に起きた政治的な問題だ
@@ -1642,7 +1642,7 @@ This is a political matter between
 Heidelberg and the Order of Atamoni.
 -----------------------
 #ウッドロウ
-Woodrow
+Garr
 -----------------------
 #武力をもって事にあたれば衝突は避けられん
 #場合によっては戦争も起こる
@@ -1651,7 +1651,7 @@ be unavoidable. In the worst case,
 it could even lead to war.
 -----------------------
 #ウッドロウ
-Woodrow
+Garr
 -----------------------
 #<Kyle>くん
 #君はスタンのような英雄になりたいと言ったね
@@ -1659,7 +1659,7 @@ Woodrow
 become a hero like Stahn?
 -----------------------
 #ウッドロウ
-Woodrow
+Garr
 -----------------------
 #英雄とは、多くの人を救うものだ
 #君の取ろうとしている行動は、
@@ -1684,7 +1684,7 @@ What are we gonna do?
 -----------------------
 #････ウッドロウさん
 #それ、ちがうと思います
-...Mr. Woodrow.
+...Mr. Garr.
 I think that's wrong.
 -----------------------
 <Kyle>
@@ -1705,7 +1705,7 @@ That's why I'm going.
 I'm going to save <Reala>!
 -----------------------
 #ウッドロウ
-Woodrow
+Garr
 -----------------------
 #････どうしても、
 #行くというのか････
@@ -1713,7 +1713,7 @@ Woodrow
 no matter what?
 -----------------------
 #ウッドロウ
-Woodrow
+Garr
 -----------------------
 #すまない<Kyle>くん
 #君を試すようなマネをしてしまった
@@ -1723,10 +1723,10 @@ I should not have tested you so.
 <Kyle>
 -----------------------
 #ウッドロウさん････？
-Mr. Woodrow...?
+Mr. Garr...?
 -----------------------
 #ウッドロウ
-Woodrow
+Garr
 -----------------------
 #これを持っていきたまえ
 Take this with you.
@@ -1763,7 +1763,7 @@ lifted."
 edict!
 -----------------------
 #ウッドロウ
-Woodrow
+Garr
 -----------------------
 #君の思うようにしたまえ
 #あとのことは私がなんとかする
@@ -1774,11 +1774,11 @@ I'll handle what comes after.
 -----------------------
 #ウッドロウさん
 #それじゃ････！
-Woodrow...
+Garr...
 In that case...!
 -----------------------
 #ウッドロウ
-Woodrow
+Garr
 -----------------------
 #行きたまえ、<Kyle>くん
 #他のだれでもない、彼女の英雄となるために！
@@ -1791,7 +1791,7 @@ one else but you!
 Yes, sir!
 -----------------------
 #ウッドロウ
-Woodrow
+Garr
 -----------------------
 #････いったい彼に、何が起きたのだ？
 #昨日とは、まるで別人じゃないか
@@ -1800,7 +1800,7 @@ He's practically a different person
 from yesterday.
 -----------------------
 #ウッドロウ
-Woodrow
+Garr
 -----------------------
 #まるで旅をして、ひとまわり大きくなった
 #息子を見ているようだ････
@@ -1809,7 +1809,7 @@ return from a journey, grown a
 full measure...
 -----------------------
 #ウッドロウ
-Woodrow
+Garr
 -----------------------
 #息子････か
 #もう彼のことを「スタンの息子」とは呼べんな
@@ -1817,7 +1817,7 @@ My son...? I can't call him "Stahn's
 son" anymore.
 -----------------------
 #ウッドロウ
-Woodrow
+Garr
 -----------------------
 #彼は、すでに、<Kyle>＝デュナミスという
 #ひとりの男なのだから････
@@ -1832,7 +1832,7 @@ notice
 the title "<item:00000824>"!
 -----------------------
 #ウッドロウ
-Woodrow
+Garr
 -----------------------
 #先の災厄のあと、人々の間に、
 #レンズへの依存をひかえよう、
@@ -1842,7 +1842,7 @@ began to call for a reduction in
 our reliance on Lens.
 -----------------------
 #ウッドロウ
-Woodrow
+Garr
 -----------------------
 #そのこと自体は歓迎すべき
 #ことだったのだが････
@@ -1861,7 +1861,7 @@ willy-nilly, there's no guarantee
 someone else won't misuse 'em.
 -----------------------
 #ウッドロウ
-Woodrow
+Garr
 -----------------------
 #そこで私が管理を申し出たのだ
 #その結果が、あの大量のレンズだ
@@ -1870,7 +1870,7 @@ charge. The result is that massive
 stockpile of Lens.
 -----------------------
 #ウッドロウ
-Woodrow
+Garr
 -----------------------
 #レンズの集中を危惧していた私が、
 #こうして大量のレンズを抱えるハメになるとは････
@@ -1886,7 +1886,7 @@ massive supply of it... How ironic.
 #信頼している証拠だと思います
 But I believe that's proof the
 people of Phandaria trust you,
-Woodrow.
+Garr.
 -----------------------
 <Reala>
 -----------------------
@@ -1898,13 +1898,13 @@ you. That's precisely why everyone
 entrusted their Lens to you.
 -----------------------
 #ウッドロウ
-Woodrow
+Garr
 -----------------------
 #だと、いいのだがな
 I hope that is indeed the case.
 -----------------------
 #ウッドロウ
-Woodrow
+Garr
 -----------------------
 #ともかく、一度あずかった以上は、
 #責任をもって管理しなくてはいけない
@@ -1915,7 +1915,7 @@ responsibly. We must keep a close
 watch to prevent misuse.
 -----------------------
 #ウッドロウ
-Woodrow
+Garr
 -----------------------
 #おお、<Kyle>くん
 #それにみなも････
@@ -1932,7 +1932,7 @@ Yes. We managed to save <Reala>.
 But the Phandarian Lens...
 -----------------------
 #ウッドロウ
-Woodrow
+Garr
 -----------------------
 #報告は受けている
 #飛行竜と共に海底に沈んだ、と
@@ -1948,7 +1948,7 @@ I'm sorry.
 If only I'd been strong enough...
 -----------------------
 #ウッドロウ
-Woodrow
+Garr
 -----------------------
 #君があやまることはない
 #レンズの一極集中を防げただけで、
@@ -1959,7 +1959,7 @@ from concentrating in one place
 is enough.
 -----------------------
 #ウッドロウ
-Woodrow
+Garr
 -----------------------
 #ファンダリアの民を代表して、礼を言う
 #ありがとう、<Kyle>くん
@@ -1973,7 +1973,7 @@ Phandaria, I thank you. Thank you,
 No, the honor was mine.
 -----------------------
 #ウッドロウ
-Woodrow
+Garr
 -----------------------
 #なんとか、君たちの功績に報いたいが
 #いまの我々にできるのは
@@ -1983,7 +1983,7 @@ for your deeds, but all we can offer
 right now is lodging in the castle.
 -----------------------
 #ウッドロウ
-Woodrow
+Garr
 -----------------------
 #どうだろう<Kyle>くん
 How about it, <Kyle>?
@@ -1996,7 +1996,7 @@ Thank you so much!
 Please, let us stay!
 -----------------------
 #ウッドロウ
-Woodrow
+Garr
 -----------------------
 #ん、<Kyle>くんか
 #どうしたのかね？
@@ -2009,7 +2009,7 @@ You don't look well.
 -----------------------
 #ウッドロウさん
 #オレの話を聞いてください････！
-Woodrow...
+Garr...
 Please, hear me out...!
 -----------------------
 #ウッドロウ
@@ -2129,10 +2129,10 @@ it is a matter of life or death.
 #じゃあ、ウッドロウさんなら
 #どうするんですか？
 Then what would you do,
-Mr. Woodrow?
+Mr. Garr?
 -----------------------
 #ウッドロウ
-Woodrow
+Garr
 -----------------------
 #考える
 I would think.
@@ -2143,7 +2143,7 @@ I would think.
 Think?
 -----------------------
 #ウッドロウ
-Woodrow
+Garr
 -----------------------
 #そう、考えて、考えて、
 #ひたすら考え抜く
@@ -2156,13 +2156,13 @@ Think it through completely.
 And if you still find no answer?
 -----------------------
 #ウッドロウ
-Woodrow
+Garr
 -----------------------
 #もっと考える、答えが出るまでね
 Then think until the answer comes.
 -----------------------
 #ウッドロウ
-Woodrow
+Garr
 -----------------------
 #そして、出した答えは何があっても
 #最後まで貫きとおす
@@ -2170,7 +2170,7 @@ Whatever answer you reach,
 you must stand by it to the end.
 -----------------------
 #ウッドロウ
-Woodrow
+Garr
 -----------------------
 #それが決断をゆだねられた者の
 #負うべき責任だと私は思う
@@ -2184,7 +2184,7 @@ The duty of one entrusted to
 choose...
 -----------------------
 #ウッドロウ
-Woodrow
+Garr
 -----------------------
 #無責任な言い方に聞こえるかも
 #しれないが････悩み、考えたまえ
@@ -2192,7 +2192,7 @@ This may sound irresponsible,
 but you must think it through.
 -----------------------
 #ウッドロウ
-Woodrow
+Garr
 -----------------------
 #真剣に悩み、苦しみ、ギリギリまで
 #時間をかけて君自身が納得できる
@@ -2202,7 +2202,7 @@ and take all the time you need
 to find an answer you can accept.
 -----------------------
 #ウッドロウ
-Woodrow
+Garr
 -----------------------
 #つらいだろうが、誰にも君の代わりはできない
 #くじけないでくれ<Kyle>くん
@@ -2217,7 +2217,7 @@ I understand... I'll think it
 through to the very end.
 -----------------------
 #ウッドロウ
-Woodrow
+Garr
 -----------------------
 #そして<Reala>くん
 #君もつらいだろうが････
@@ -2237,7 +2237,7 @@ I believe in <Kyle>!
 <Reala>...
 -----------------------
 #ウッドロウ
-Woodrow
+Garr
 -----------------------
 #････そうか
 #私などが心配するまでもなかったな
@@ -2249,13 +2249,13 @@ Then I had no need to worry.
 #いいえ、お心づかい、本当に感謝します
 #ウッドロウさん････ありがとうございました
 No. I truly appreciate your concern.
-Thank you, Mr. Woodrow.
+Thank you, Mr. Garr.
 -----------------------
 <Kyle>
 -----------------------
 #ありがとうございました、ウッドロウさん
 #それじゃあ、オレたち行きます
-Thank you, Mr. Woodrow.
+Thank you, Mr. Garr.
 We'll be going now.
 -----------------------
 #安心してください、応急手当は
