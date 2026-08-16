@@ -752,7 +752,7 @@ Obtained {16}{26}{4E}{C0}.
 notice
 -----------------------
 #<item:FFFFFFFF>を手に入れました
-Obtained <item:FFFFFFFF>.
+Acquired <item:FFFFFFFF>.
 -----------------------
 notice
 -----------------------

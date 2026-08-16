@@ -9,7 +9,7 @@ notice
 The treasure chest was a cheap trick.
 -----------------------
 #いってらっしゃいませ
-Come again soon.
+Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
@@ -17,7 +17,7 @@ It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald.
 Care to stay the night?
 -----------------------
 #お泊まりになりますか？
-Care to stay the night?
+Would you like to stay?
 -----------------------
 select
 -----------------------
