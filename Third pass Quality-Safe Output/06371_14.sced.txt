@@ -194,7 +194,7 @@ you. A chef worthy of this.
 notice
 -----------------------
 #{16}{34}{7C}{C0}のレシピを拾いました
-{16}{34}{7C}{C0}Picked up 's recipe.
+Picked up the recipe for {16}{34}{7C}{C0}.
 -----------------------
 notice
 -----------------------

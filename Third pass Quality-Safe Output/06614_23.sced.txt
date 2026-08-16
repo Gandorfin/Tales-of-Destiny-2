@@ -957,7 +957,7 @@ you. A chef worthy of this.
 notice
 -----------------------
 #{16}{34}{A4}{C0}のレシピを拾いました
-{16}{34}{A4}{C0} recipe acquired.
+Picked up the recipe for {16}{34}{A4}{C0}.
 -----------------------
 notice
 -----------------------
