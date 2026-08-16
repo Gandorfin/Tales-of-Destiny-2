@@ -18,6 +18,21 @@ Spreadsheet with Info: https://docs.google.com/spreadsheets/d/1UVaEjK0o-V1-3atPH
 1. Translators!  Start by checking ps2/scenarios and add `#` before the Japanese line and type English translation underneath.
 
 
+## Checking script quality
+
+`scripts/audit_translation.py` audits the translated script files for
+crash-class problems (control codes that differ from the Japanese source,
+untranslated or structurally broken records) plus layout and terminology
+issues:
+
+```
+python3 scripts/audit_translation.py
+```
+
+A GitHub Actions workflow runs it automatically on every pull request and
+fails only if the PR increases a critical finding count, so contributions
+can never silently reintroduce a crash-class bug.
+
 ## FILE.FPB (PS2) INFO
 1. The pointer table is in the `SLPS_251.72` file starting at `0xDD320`
 1. Each entry of the table consists of (A) a 26-bit offset -> the file offset inside `SLPS_251.72`
