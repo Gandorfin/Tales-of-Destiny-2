@@ -1137,11 +1137,10 @@ either attack or accuracy.
 #<button:00000045>による攻撃は効果範囲が広く、
 #当たりやすいことが多いが、その反面、
 #連続攻撃時にはあまり有効ではない
-Commit all of that to memory! <button:00000045>
-attacks have a wide effective range
-and tend to connect easily, but
-on the flip side, they're not very
-effective in consecutive strings.
+Remember that! <button:00000045> attacks have
+a wide range and land easily, but
+they aren't very effective
+during combos.
 -----------------------
 #これは次の攻撃にも影響を与えるから、
 #「<button:00000017><button:00000045>、<button:00000017><button:00000045>、<button:00000045>」と
@@ -1190,11 +1189,10 @@ it for ten years straight.
 #<button:0000002F>と<button:0000002E>を押しっぱなしにすると
 #メッセージを早送りできる
 #同じ会話を読み飛ばすとき便利だ
-Oh, right, I never told you this.
-Hold down <button:0000002F> and <button:0000002E> together and you
-can fast-forward through messages.
-Handy for skipping conversations
-you've already seen.
+Come to think of it, I never
+told you: hold down <button:0000002F> and <button:0000002E>
+to fast-forward messages. Handy
+for skipping repeated dialogue.
 -----------------------
 #なにー
 #どうして十年もそれを教えて
