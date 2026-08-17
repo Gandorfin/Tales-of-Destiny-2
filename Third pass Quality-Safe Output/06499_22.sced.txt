@@ -710,8 +710,8 @@ items that can prevent them, too.
 #後の祭りじゃあ　毒<button:00000056>に麻痺<button:0000005F>に衰弱<button:0000005A>に凍結に
 #鈍足でもうへとへとじゃあ
 It's too late for that! Poison <button:00000056>,
-paralysis <button:0000005F>, weakness <button:0000005A>, freezing,
-and slow... I'm completely worn out!
+Paralysis <button:0000005F>, Weak <button:0000005A>, Freeze,
+and Slow... I'm completely worn out!
 -----------------------
 #うそはいけません父さん
 #ステータス異常は一人につき四つまでしか効果は
@@ -846,11 +846,11 @@ Please do not use one unless
 it can finish the enemy.
 -----------------------
 #ジャマなんで
-I'm a pain, am I...
+Because it gets in the way.
 -----------------------
 #（一回言えば分かると思うが・・・）
-(I thought he'd get it if
-I just said it once...)
+(I thought saying it
+once would be enough...)
 -----------------------
 #ベテランすぎ
 Overly Veteran
@@ -885,7 +885,7 @@ enemies within range, and
 ones that lower our abilities.
 -----------------------
 #あれが出たらお手上げかのう
-If that shows up, are we done for?
+If that shows up, we're done for...
 -----------------------
 #あきらめるのは早いです父さん
 #時間で切れるものや、ヒットを重ねることで
@@ -992,7 +992,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Recovery."
+"Fall Breaks."
 Would you like to listen in?
 -----------------------
 #地面にたたきつけられると
