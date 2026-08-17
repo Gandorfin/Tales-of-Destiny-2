@@ -55,7 +55,7 @@ we won't be able to act.
 #ほら、イクシフォスラーが置いてあった
 By the way... Isn't this an Er'ther
 base? Look, that's where they kept
-the Xiphos Lancer.
+the Ixifoslar.
 -----------------------
 <Judas>
 -----------------------
@@ -113,7 +113,7 @@ What the heck?
 <Nanaly>
 -----------------------
 #さぁ････
-Here we go...
+Beats me...
 -----------------------
 #？？？？
 ????
@@ -248,7 +248,7 @@ Is there something on my face?
 ????
 -----------------------
 #････････とうっ！
-......Hmph!
+......Hyah!
 -----------------------
 <Loni>
 -----------------------
@@ -422,7 +422,7 @@ machines, she might even be Dr.
 #オレたちが使ったイクシフォスラーを
 #作った人だよね？
 Dr. <Harold>, right?
-The one who made the Xiphos Lancer
+The one who made the Ixifoslar
 that we used?
 -----------------------
 <Judas>
@@ -430,20 +430,19 @@ that we used?
 #博士ならば、
 #エルレインの介入に関しても、
 #なにかつかんでいるかも知れない
-If she's a doctor,
-she may have some grasp
-of Elrane's involvement as well.
+The doctor may well have
+some grasp of Elrane's
+intervention, too.
 -----------------------
 <Judas>
 -----------------------
 #それに博士は、軍師カーレルの双子の弟だ
 #軍関係の情報も詳しいだろう
 #やはり、<Harold>博士に面会を････
-Besides, the doctor is the younger
-twin of Strategist Karell. She
-should have detailed knowledge
-of military affairs too. We
-must meet with Dr. <Harold>...
+Besides, the doctor is Strategist
+Karell's younger twin brother, so
+he'll know military affairs too.
+We must meet with Dr. <Harold>...
 -----------------------
 #？？？？
 ????
@@ -469,9 +468,9 @@ Is that person really a scholar?
 #泣く子もダマる天才科学者の
 #助手っていうには、ムリがねえか？
 That's exactly what's suspicious.
-The assistant to a genius scientist
-who could fool crying children?
-Doesn't add up.
+Assistant to a genius scientist
+so famous even crying kids go
+quiet? Doesn't add up, does it?
 -----------------------
 #？？？？
 ????
@@ -497,7 +496,7 @@ scientist.' That's me, isn't it?
 #････あんたじゃねえよ
 #あんたの上司････かどうかは知らねえが
 #<Harold>博士って、知ってるんだろ？
-...Not you. I don't know if she's
+...Not you. I don't know if he's
 your boss or what, but you know
 Dr. <Harold>, right?
 -----------------------
@@ -505,7 +504,7 @@ Dr. <Harold>, right?
 -----------------------
 #もしできるのなら、会わせてほしい
 #話がしたいんだ
-If possible, we'd like to meet her.
+If possible, we'd like to meet him.
 We have matters to discuss.
 -----------------------
 #？？？？
@@ -541,7 +540,7 @@ Now then, talk.
 H-Hold on, that's not what we
 agreed! We're here to see Dr.
 <Harold>, so we've got business with
-her...
+him...
 -----------------------
 #？？？？
 ????
@@ -586,7 +585,7 @@ I'm not anybody's assistant.
 -----------------------
 #ハァ････アホらし････
 #さ、行こうぜ
-*sigh* ...What a pain.
+*sigh* ...This is ridiculous.
 C'mon, let's go.
 -----------------------
 #？？？？
@@ -1032,9 +1031,9 @@ Supply Officer
 #貴重な物資をなんだと思っているのだ
 #犯人を必ず見つけて営倉に
 #叩きこんでくれる
-Stealing our supplies? The nerve!
-I'll find the culprit and jail them.
-Then I'll throw away the key!
+What do they take our precious
+supplies for? I'll find the
+culprit and throw them in the brig.
 -----------------------
 #補給将校
 Supply Officer
@@ -1128,7 +1127,7 @@ Ah, I get it. You must be militia
 conscripted for the emergency.
 -----------------------
 #兵卒
-soldier
+Soldier
 -----------------------
 #なげかわしいな
 #民間人に武器を持たせるなんて
@@ -1155,7 +1154,7 @@ same civilians? That's putting the
 cart before the horse.
 -----------------------
 #兵卒
-soldier
+Soldier
 -----------------------
 #いよいよダイクロフト突入作戦が
 #発動されるらしいな
@@ -1173,7 +1172,7 @@ enemy stronghold. Might not make
 it back alive.
 -----------------------
 #兵卒
-soldier
+Soldier
 -----------------------
 #だが、それでもやるしかないんだ
 #この世界の命運がかかってるんだからな
@@ -1198,7 +1197,7 @@ or something and live out my days
 in peace.
 -----------------------
 #地上軍兵士
-Ground Army Soldier
+Er'ther Soldier
 -----------------------
 #なあ、信じられるかい？
 #ベルクラントみたいな兵器にたいして
@@ -1208,7 +1207,7 @@ Against weapons like Belcrant,
 we're fighting with swords and bows.
 -----------------------
 #地上軍兵士
-Ground Army Soldier
+Er'ther Soldier
 -----------------------
 #イカれてるぜ
 #勝てっこねえよ
@@ -1236,7 +1235,7 @@ against Belcrant, there'd be nothing
 we could do...
 -----------------------
 #地上軍兵士
-Ground Army Soldier
+Er'ther Soldier
 -----------------------
 #ソーディアンねえ････
 #たかが剣一本が、戦局をくつがえすってのか？
@@ -1245,7 +1244,7 @@ sword is supposed to turn the tide
 of battle?
 -----------------------
 #地上軍兵士
-Ground Army Soldier
+Er'ther Soldier
 -----------------------
 #兵隊一人、武器一個で
 #戦争が終わるわけないだろうが
@@ -1262,7 +1261,7 @@ does end. That's the strange thing
 about history.
 -----------------------
 #地上軍兵士
-Ground Army Soldier
+Er'ther Soldier
 -----------------------
 #ソーディアンの性能が本当なら
 #俺だって使いたいさ
@@ -1270,7 +1269,7 @@ If a Swordian's really that
 powerful, I'd want to use one too.
 -----------------------
 #地上軍兵士
-Ground Army Soldier
+Er'ther Soldier
 -----------------------
 #こんなクソみたいな戦争は
 #とっとと終わらせなきゃいけない
@@ -1767,8 +1766,6 @@ need as quickly as possible.
 There's a rumor that if you
 carry too many items, monsters
 will stop dropping their loot.
-It's said that having a full
-inventory is what causes this.
 -----------------------
 #････アイテム整理も大切ですね
 ...Keeping your items
