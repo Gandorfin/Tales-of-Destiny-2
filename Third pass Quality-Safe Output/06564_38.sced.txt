@@ -1458,8 +1458,8 @@ select
 #　リファイン講座　
 #　いらない　
 <03:00000000> Buy
-<0B:00000001>{14}{25}{E6}{C0} Buy all at once ({14}{35}{E0}{C0} Gald)<0B:00000000>
-Refining Guide
+<0B:00000001>Buy {14}{25}{E6}{C0} in bulk ({14}{35}{E0}{C0} Gald)<0B:00000000>
+Refine Guide
 No thanks
 -----------------------
 select
@@ -1468,7 +1468,7 @@ select
 #　リファイン講座　
 #　いらない　
 <03:00000000> Buy
-Refining Guide
+Refine Guide
 No thanks
 -----------------------
 #お買い上げ、ありがとうございます
@@ -1482,8 +1482,8 @@ Thank you for your purchase.
 <item:00000012> is <0B:00000001>{14}{35}{DC}{C0}<0B:00000000> Gald per bottle.
 -----------------------
 #リファイン講座を聞きたいですか？
-Would you like to
-hear about Refining?
+Would you like to hear
+the Refine Guide?
 -----------------------
 select
 -----------------------

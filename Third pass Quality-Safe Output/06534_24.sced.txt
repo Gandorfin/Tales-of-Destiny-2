@@ -580,7 +580,7 @@ select
 #　リファイン講座　
 #　いらない　
 <03:00000000>Buy
-<0B:00000001>{14}{25}{DE}{C0}Buy all at once ({14}{35}{D8}{C0} Gald)<0B:00000000>
+<0B:00000001>Buy {14}{25}{DE}{C0} in bulk ({14}{35}{D8}{C0} Gald)<0B:00000000>
 Refine Guide
 No thanks
 -----------------------
@@ -605,7 +605,7 @@ Thank you for your purchase.
 -----------------------
 #リファイン講座を聞きたいですか？
 Would you like to hear
-the Refine lecture?
+the Refine Guide?
 -----------------------
 select
 -----------------------

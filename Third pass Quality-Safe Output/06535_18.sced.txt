@@ -11,7 +11,7 @@ Priest of Fortuna
 #私たちフォルトゥナ神団が
 #なんでも、お答えしますよ？
 Is something troubling you? The
-Sacred Order of Fortuna is here to
+Order of Fortuna is here to
 answer any questions you may have.
 -----------------------
 select
@@ -20,7 +20,7 @@ select
 #どこで休むの？
 #買い物がしたいんだけど？
 #もういきます
-What is the Sacred Order of Fortuna?
+What is the Order of Fortuna?
 Where should we rest?
 I want to go shopping.
 I'm heading out.
