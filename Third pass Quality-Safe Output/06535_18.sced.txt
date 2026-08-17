@@ -11,7 +11,7 @@ Priest of Fortuna
 #私たちフォルトゥナ神団が
 #なんでも、お答えしますよ？
 Is something troubling you? The
-Order of Fortuna is here to
+Sacred Order of Fortuna is here to
 answer any questions you may have.
 -----------------------
 select
@@ -20,7 +20,7 @@ select
 #どこで休むの？
 #買い物がしたいんだけど？
 #もういきます
-What is the Order of Fortuna?
+What's the Sacred Order of Fortuna?
 Where should we rest?
 I want to go shopping.
 I'm heading out.
@@ -162,7 +162,7 @@ Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -417,7 +417,8 @@ to cover that weakness.
 #もったいないぞ！
 ...In your case, you're just
 swinging at air. Misses don't count
-toward usage tally. What a waste!
+toward your usage count.
+What a waste!
 -----------------------
 #それと、回復晶術は
 #「対象のＨＰが５０％以下のときに
@@ -775,9 +776,8 @@ items that can prevent them.
 #鈍足でもうへとへとじゃあ
 It's too late now! Poison <button:00000056>,
 Paralysis <button:0000005F>, Weakness <button:0000005A>,
-and freezing, plus Slow... I'm
-completely worn out! Slow has me
-completely worn out.
+Freeze, and Slow... I'm
+completely worn out!
 -----------------------
 #うそはいけません父さん
 #ステータス異常は一人につき四つまでしか効果は
@@ -913,7 +913,7 @@ Please do not use one unless
 it can finish the enemy.
 -----------------------
 #ジャマなんで
-Because you're in my way.
+Because it gets in the way.
 -----------------------
 #（一回言えば分かると思うが・・・）
 (I thought saying it
@@ -1040,7 +1040,7 @@ having a high score anyway?
 #現世では役に立たないなどと
 #いう不届きな輩もいますが････
 We're still looking into
-that, Senior. Some ungrateful
+that, Senpai. Some ungrateful
 folks say it's useless in
 the present world, but...
 -----------------------
@@ -1052,7 +1052,7 @@ That's all there is to it.
 -----------------------
 #さすが先輩、勉強になります
 As expected of you,
-Senior. I'm learning a lot.
+Senpai. I'm learning a lot.
 -----------------------
 notice
 -----------------------
@@ -1060,7 +1060,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Ukemi."
+"Fall Breaks."
 Would you like to listen in?
 -----------------------
 #地面にたたきつけられると
@@ -1072,7 +1072,7 @@ you'll get knocked down.
 #でも、地面に接地したまさに
 #その瞬間に<button:00000047>を押すと、
 #受身がとれますよね
-It definitely hurts, Senior.
+It definitely hurts, Senpai.
 But press <button:00000047> the instant
 you touch the ground,
 and you can break your fall.

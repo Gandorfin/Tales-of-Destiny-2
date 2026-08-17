@@ -1197,10 +1197,8 @@ items that can prevent them too.
 #後の祭りじゃあ　毒<button:00000056>に麻痺<button:0000005F>に衰弱<button:0000005A>に凍結に
 #鈍足でもうへとへとじゃあ
 Too late for that now. Poison <button:00000056>,
-paralysis <button:0000005F>, weakness <button:0000005A>, freezing,
-and slow... I'm already beat.
-With slow movement, I'm completely
-drained.
+Paralysis <button:0000005F>, Weakness <button:0000005A>, Freeze,
+and Slow... I'm completely drained.
 -----------------------
 #うそはいけません父さん
 #ステータス異常は一人につき四つまでしか効果は
@@ -1219,8 +1217,8 @@ recover once combat ends.
 -----------------------
 #そうじゃった　しかも鈍足は
 #もとからじゃったの
-That's right. And that Slow...
-you've always been that way.
+That's right. And the Slow...
+that was there from the start.
 -----------------------
 #はっはっはっはっはっはっはっはっ
 #はっはっはっはっはっはっはっは
@@ -1459,7 +1457,7 @@ a high score anyway?
 #現世では役に立たないなどと
 #いう不届きな輩もいますが････
 We're still investigating
-that, Senior. There are some
+that, Senpai. There are some
 ungrateful folks in this world
 who say it's useless, but...
 -----------------------
@@ -1469,7 +1467,7 @@ Well, just don't overthink it.
 Focus on honing your own skills.
 -----------------------
 #さすが先輩、勉強になります
-As expected of you, Senior.
+As expected of you, Senpai.
 I learned something.
 -----------------------
 notice
@@ -1478,7 +1476,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Recovery."
+"Fall Breaks."
 Would you like to listen in?
 -----------------------
 #地面にたたきつけられると
@@ -1490,10 +1488,10 @@ ground, you'll get knocked down.
 #でも、地面に接地したまさに
 #その瞬間に<button:00000047>を押すと、
 #受身がとれますよね
-It certainly is tough, Senior. But
+It certainly is tough, Senpai. But
 right at the moment you hit the
 ground, if you press <button:00000047>, you can
-perform a recovery roll, right?
+break your fall, right?
 -----------------------
 #ももももちろん知ってたさ
 O-o-o-of course I knew that.
@@ -1501,7 +1499,7 @@ O-o-o-of course I knew that.
 #受身を取れるとダウンの時間が
 #減るし、なによりＳＰとＴＰが
 #回復するのがうれしいですよね
-Recovering reduces your downtime,
+Breaking your fall reduces downtime,
 and best of all, it restores SP and
 TP. That's pretty nice, isn't it?
 -----------------------

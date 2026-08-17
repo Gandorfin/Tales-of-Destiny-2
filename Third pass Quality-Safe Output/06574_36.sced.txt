@@ -13,7 +13,7 @@ Raiker
 #<Harold>くんが認めた君たちを
 #私も信用することにする
 #彼女をサポートしてやってほしい
-Since <Harold>-kun trusts you,
+Since <Harold> trusts you,
 I'll trust you as well.
 Please support her.
 -----------------------
@@ -102,7 +102,7 @@ Raiker
 #<Harold>くんの研究所に向かわせる
 #君たちも向かってくれたまえ
 Now then, the Swordian team will
-also head to <Harold>-kun's research
+also head to <Harold>'s research
 lab. You should go there as well.
 -----------------------
 #リトラー
@@ -228,7 +228,7 @@ I always believed in you.
 Dymlos
 -----------------------
 #･･･ありがとう、<Kyle>くん
-...Thank you, <Kyle>-kun.
+...Thank you, <Kyle>.
 -----------------------
 #ディムロス
 Dymlos
@@ -236,7 +236,7 @@ Dymlos
 #････ありがとう、<Kyle>くん
 #君は、アトワイトだけではない
 #私にとっても、恩人だ
-...Thank you, <Kyle>-kun.
+...Thank you, <Kyle>.
 You are not merely Atwight's savior.
 You are a benefactor to me as well.
 -----------------------
@@ -272,10 +272,10 @@ Igtenos
 #ディムロス中将が下された判断は
 #あの状況下において、もっとも的確で
 #もっとも合理的なものだった
-The judgment Vice Admiral Dymlos
-reached was the most accurate and
-the most reasonable possible under
-those circumstances.
+The judgment Lieutenant General
+Dymlos reached was the most
+accurate and reasonable possible
+under those circumstances.
 -----------------------
 #イクティノス
 Igtenos
@@ -291,10 +291,10 @@ Igtenos
 #今回のディムロス中将の行動は
 #我々がいかに組織にしばられているか
 #それを知らしめるものだった
-Vice Admiral Dymlos's actions this
-time made clear to us all just
-how bound we are to the chain of
-command.
+Lieutenant General Dymlos's
+actions made clear to us all
+just how bound we are to the
+chain of command.
 -----------------------
 #イクティノス
 Igtenos
@@ -517,9 +517,9 @@ Clemente
 #････たしかに
 #おまえさんの言うとおりじゃ
 #すまん、<Harold>
-...You're right.
-That's exactly what I was thinking.
-My apologies, <Harold>
+...Indeed.
+It's just as you say.
+My apologies, <Harold>.
 -----------------------
 #クレメンテ
 Clemente
@@ -559,7 +559,7 @@ Atwight
 #中将が処罰を受けるのなら
 #私も共にと思っていたけれど････
 #司令のご厚情、決して忘れはしないわ
-If the Vice Admiral was to be
+If the Lieutenant General was to be
 punished, I had intended to share
 his fate... I will never forget the
 Commander's kindness.
@@ -583,8 +583,8 @@ Looks like everyone's here.
 #いちばん偉そうなのがリトラー
 #あと順番にディムロス、シャルティエ
 #イクティノス、兄貴のカーレルよ
-The one who looks the most important
-is Marius. After him, in order:
+The one who looks the most
+important is Raiker. Then, in order:
 Dymlos, Chaltier, Igtenos, and my
 brother Karell.
 -----------------------
@@ -619,7 +619,7 @@ Igtenos
 -----------------------
 #しかも、一般人の子供を？
 #なにを考えているのです、<Harold>
-And commoner children, no less?
+And civilian children, no less?
 What are you thinking, <Harold>?
 -----------------------
 <Harold>
@@ -643,7 +643,7 @@ Dymlos
 #しかし、一般人は一般人
 #子供は子供だ
 #認めるわけにはいかないな
-But commoners are commoners.
+But civilians are civilians.
 Children are children.
 I cannot approve of this.
 -----------------------
@@ -684,7 +684,7 @@ Dymlos
 #中将の私がにぎっている
 I cannot allow it. Authority over
 all military personnel rests with
-me as Vice Admiral.
+me as Lieutenant General.
 -----------------------
 <Harold>
 -----------------------
@@ -711,13 +711,13 @@ Karell
 Hold on, <Harold>!
 -----------------------
 #リトラー
-Marius
+Raiker
 -----------------------
 #そこまでだ
 That's enough.
 -----------------------
 #リトラー
-Marius
+Raiker
 -----------------------
 #彼らを、地上軍の
 #正式な兵士として認める
@@ -736,7 +736,7 @@ Raiker
 #ディムロス中将
 #我が軍の最終決定権は
 #私にあるはずだが？
-Vice Admiral Dymlos.
+Lieutenant General Dymlos.
 The final decision on my forces
 should rest with me, should it not?
 -----------------------
@@ -770,7 +770,8 @@ to the Commander-in-Chief!
 Raiker
 -----------------------
 #まあまあ、カーレル中将
-There, there, Vice Admiral Karell.
+There, there,
+Lieutenant General Karell.
 -----------------------
 #リトラー
 Raiker
@@ -1051,7 +1052,7 @@ I know. But we don't have the
 luxury of time.
 -----------------------
 #リトラー
-Marius
+Raiker
 -----------------------
 #おお、君たちか
 #首尾はどうだったかね？
@@ -1068,7 +1069,7 @@ materials. <Harold> is starting on
 the assembly work now.
 -----------------------
 #リトラー
-Marius
+Raiker
 -----------------------
 #うむ、ご苦労だった
 #<Harold>のマシンが完成するまで
@@ -1142,7 +1143,7 @@ Karell
 Whew... what a relief.
 -----------------------
 #リトラー
-Marius
+Raiker
 -----------------------
 #気苦労をかけるな、カーレル君
 Sorry to cause you such trouble,
@@ -1251,7 +1252,7 @@ he should be back to his old self.
 Yes, sir!
 -----------------------
 #リトラー
-Marius
+Raiker
 -----------------------
 #ちょうどよかった
 #これから作戦の説明を行うところだ
@@ -1395,7 +1396,7 @@ Dymlos
 I'm counting on you all!
 -----------------------
 #リトラー
-Marius
+Raiker
 -----------------------
 #会議はこれまでだ
 #各員、格納庫にて集合せよ
@@ -1410,11 +1411,10 @@ best efforts.
 #さすがは、ディムロス
 #地上軍の総指揮官だけのことはある
 #作戦の前だというのに、平常心を忘れていない
-As expected of Dymlos. Just what
-one would expect from the supreme
-commander of the ground forces.
-He hasn't lost his composure,
-even on the eve of battle.
+As expected of Dymlos. That's the
+Er'ther Army's field commander for
+you. Even before the operation, he
+keeps his composure.
 -----------------------
 <Loni>
 -----------------------
@@ -1436,26 +1436,26 @@ leeway right now.
 -----------------------
 #え？　だってディムロスさん
 #すごく堂々としてたけど････
-Huh? But Mr. Dymlos... he seemed so
+Huh? But Dymlos... he seemed so
 confident and composed...
 -----------------------
 <Harold>
 -----------------------
 #いつもの言葉が出てないのよ
-She didn't say her usual line today.
+He didn't say his usual line today.
 -----------------------
 <Reala>
 -----------------------
 #いつもの言葉？
-"Her usual line?"
+"His usual line?"
 -----------------------
 <Harold>
 -----------------------
 #そ、あいつは作戦前に
 #必ず部下にこう言うのよ
 #「生きて、帰ってこい」って
-See, before every operation, she
-always tells her subordinates the
+See, before every operation, he
+always tells his subordinates the
 same thing: "Come back alive."
 -----------------------
 <Nanaly>
@@ -1465,16 +1465,16 @@ same thing: "Come back alive."
 #いい人じゃない
 Huh... Sounds like a good commander.
 Someone who really looks out for
-her troops.
+his troops.
 -----------------------
 <Harold>
 -----------------------
 #でも、今日は言わなかった
 #他人のことが目に入ってないなんて
 #らしくないわ
-But she didn't say it today. To not
+But he didn't say it today. To not
 even notice what's going on around
-her... That's not like her at all.
+him... That's not like him at all.
 -----------------------
 <Kyle>
 -----------------------
@@ -1499,7 +1499,7 @@ the results of this operation.
 Thank you.
 -----------------------
 #リトラー
-Marius
+Raiker
 -----------------------
 #開発チームを無事に救出できたことで
 #作戦は成功したと言っていいだろう
@@ -1510,7 +1510,7 @@ mission was a success. Well done,
 everyone.
 -----------------------
 #リトラー
-Marius
+Raiker
 -----------------------
 #なお、捕らわれたアトワイトについてだが
 #彼女の捜索を行うかどうかは
@@ -1702,7 +1702,7 @@ how heavy that burden is.
 ..........
 -----------------------
 #リトラー
-Marius
+Raiker
 -----------------------
 #では、会議はこれにて終了する
 #あとは各自、次の命令があるまで
@@ -1712,7 +1712,7 @@ All personnel are to stand by
 until further orders are given.
 -----------------------
 #リトラー
-Marius
+Raiker
 -----------------------
 #ディムロスの言うとおり
 #最終決戦の日は近い
@@ -1722,7 +1722,7 @@ battle draws near. Rest well and
 ready yourselves.
 -----------------------
 #リトラー
-Marius
+Raiker
 -----------------------
 #<Harold>君も来たことだし
 #始めるとしよう
@@ -1730,14 +1730,15 @@ Now that <Harold> is here too,
 let's get started.
 -----------------------
 #リトラー
-Marius
+Raiker
 -----------------------
 #ディムロス中将
 #君から先ほど申告があった話
 #再度確認するが、本当かね？
-Vice Admiral Dymlos Regarding the
-report you submitted earlier I must
-confirm once more: is it true?
+Lieutenant General Dymlos.
+Regarding the report you submitted
+earlier, I must confirm once more.
+Is it true?
 -----------------------
 #ディムロス
 Dymlos
@@ -1770,7 +1771,7 @@ They are utterly inexcusable.
 #待ってください、リトラーさん！
 #悪いのはディムロスさんじゃありません！
 #オレがそそのかしたから････！
-Wait, Mr. Marius!
+Wait, Commander Raiker!
 It's not Dymlos's fault!
 I was the one who egged him on...!
 -----------------------
@@ -1813,7 +1814,7 @@ Hey, <Harold>,
 say something!
 -----------------------
 #リトラー
-Marius
+Raiker
 -----------------------
 #<Harold>君
 #ディムロス君の証言に
@@ -1833,20 +1834,20 @@ None whatsoever.
 <Harold>!
 -----------------------
 #リトラー
-Marius
+Raiker
 -----------------------
 #････わかった
 ...Very well.
 -----------------------
 #リトラー
-Marius
+Raiker
 -----------------------
 #ディムロス中将、処分を言い渡す
-Vice Admiral Dymlos, I hereby
+Lieutenant General Dymlos, I hereby
 pronounce your sentence.
 -----------------------
 #リトラー
-Marius
+Raiker
 -----------------------
 #作戦行動中の独断専行
 #および、上層部の指示無視は
@@ -1857,14 +1858,15 @@ the high command warrant severe
 punishment.
 -----------------------
 #リトラー
-Marius
+Raiker
 -----------------------
 #よって、中将に
 #「ダイクロフト突入作戦」の
 #前線指揮官の任を命ずる
-Therefore, I hereby appoint the Vice
-Admiral as frontline commander of
-Operation Dycroft Infiltration.
+Therefore, I hereby appoint the
+Lieutenant General as frontline
+commander of Operation Dycroft
+Infiltration.
 -----------------------
 #ディムロス
 Dymlos
@@ -1875,7 +1877,7 @@ Dymlos
 W-what do you mean, Commander?!
 -----------------------
 #リトラー
-Marius
+Raiker
 -----------------------
 #前線指揮官といえば
 #もっとも死ぬ確率の高い役職だ
@@ -2109,7 +2111,7 @@ the Supplies Storage!
 -----------------------
 #リトラーさん
 #ソーディアンが完成しました！
-Mr. Raiker!
+Commander Raiker!
 The Swordians are complete!
 -----------------------
 #リトラー
@@ -2150,8 +2152,8 @@ two-shift rotations.
 Raiker
 -----------------------
 #少量ならば酒を出してもかまわん
-If it's only a small amount, I don't
-mind serving some sake.
+If it's only a small amount, I
+don't mind serving some liquor.
 -----------------------
 #兵士
 Soldier
@@ -2192,7 +2194,7 @@ Raiker
 #諸君、本日１３００をもって
 #我が軍は敵本拠地ダイクロフトに対して
 #総攻撃をかける
-Gentlemen, at 1300 hours today,
+Soldiers, at 1300 hours today,
 our forces will launch a full-scale
 assault on the enemy stronghold,
 Dycroft.
@@ -2220,7 +2222,7 @@ Raiker
 #この作戦においてカギとなるのは
 #もちろん、君たちソーディアンチームだ
 The key to this operation is, of
-course, you--the Swordian team.
+course, you: the Swordian team.
 -----------------------
 #リトラー
 Raiker
@@ -2249,8 +2251,9 @@ Dymlos
 -----------------------
 #君たちは、遊撃隊として
 #敵の攪乱に当たってくれ
-You two will serve as a strike team
-to disrupt and confuse the enemy.
+You will all serve as a raiding
+unit to disrupt and confuse the
+enemy.
 -----------------------
 #ディムロス
 Dymlos
@@ -2362,9 +2365,9 @@ Karell
 -----------------------
 #<Harold>をあきれさせた男か
 #ぞっとしませんな、司令
-A man who managed to baffle
-<Harold>, huh? You don't even flinch,
-Commander?
+The man who managed to appall even
+<Harold>, eh? Hardly a compliment,
+Commander.
 -----------------------
 #リトラー
 Raiker

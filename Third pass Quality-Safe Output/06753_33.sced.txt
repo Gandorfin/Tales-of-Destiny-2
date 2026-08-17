@@ -22,7 +22,7 @@ Passenger
 <Loni>
 -----------------------
 #<Judas>の野郎････
-That bastard from <Judas>...
+That bastard <Judas>...
 -----------------------
 <Reala>
 -----------------------
@@ -116,8 +116,8 @@ Sailor
 #オレさまの鋼鉄のモリで
 #海のモクズとなってくれるわ！！
 J-Just you wait!
-Once my steel mace is ready,
-I'll turn you into sea chum!!
+My steel harpoon's gonna
+turn you into sea chum!!
 -----------------------
 <Loni>
 -----------------------
@@ -134,7 +134,7 @@ Sailor
 #は、ハライタがなおったら
 #やっつけてやるからな！！
 Just wait, you monster!
-Once my seasickness clears up,
+Once this bellyache clears up,
 I'll take care of you!!
 -----------------------
 #船員
@@ -163,7 +163,7 @@ Sailor
 #ハライタにさえならなけりゃ
 #海の主の一匹や二匹
 #オレさまがヒネってやったのによぉ
-If it weren't for my seasickness,
+If it weren't for this bellyache,
 one or two Lords of the Sea?
 I'd have wrung their necks for ya!
 -----------------------
@@ -514,9 +514,9 @@ looking for a hero?
 #････わたしが
 #わたしが、英雄を
 #探している理由は････
-...The reason I am
-looking for a hero...
-is because I am the one who...
+...The reason...
+The reason I've been
+searching for a hero is...
 -----------------------
 <Kyle>
 -----------------------
@@ -687,7 +687,7 @@ Let's go check it out!
 #そろそろ、スノーフリアの港が、
 #見えてくるはずだぜ
 We should be able to see
-Snowfall Harbor soon.
+Snowfria's harbor soon.
 -----------------------
 <Loni>
 -----------------------
@@ -726,7 +726,7 @@ When we head back...
 #すぐにスノーフリアに着く
 #出発の準備をしておけ
 #グズグズしてると、置いていくぞ
-We'll reach Snowfall shortly.
+We'll reach Snowfria shortly.
 Prepare to disembark.
 Dawdle and we'll leave you behind.
 -----------------------
@@ -951,8 +951,8 @@ Oh, right...
 #あんた、もしかして
 #「二人の聖女」なのかい？
 By the way, <Reala>... you wouldn't
-happen to be one of the 'Two Holy
-Maidens,' would you?
+happen to be one of the 'two
+Saintesses,' would you?
 -----------------------
 <Nanaly>
 -----------------------
@@ -1013,9 +1013,9 @@ I don't want <Kyle> to find out.
 -----------------------
 #でも、きっといつか知ってしまう
 #そのとき、わたしは････
-But I'm sure I'll learn the truth
-someday. And when that day comes,
-I will...
+But he's bound to find out
+someday. And when that
+day comes, I...
 -----------------------
 notice
 -----------------------
@@ -1249,8 +1249,8 @@ effect off
 -----------------------
 #だからぁ、そういうつもりで
 #聞いてるんじゃねえんだってば！
-That's not what I meant, and you
-know I'm not listening like that!
+I keep telling you, that's not
+what I was asking about!
 -----------------------
 <Kyle>
 -----------------------
@@ -1291,9 +1291,9 @@ I believe in you!
 #<Judas>が、何歳だろうと
 #だれだろうと、関係ない
 #オレは、<Judas>を信じてる！
-Whether <Judas> is young or old...
-It doesn't matter who they are.
-I believe in <Judas>!
+However old <Judas> might be,
+whoever you really are, it doesn't
+matter. I believe in <Judas>!
 -----------------------
 <Kyle>
 -----------------------
@@ -1337,9 +1337,9 @@ I think it's because I like <Judas>.
 -----------------------
 #好きだから、いっしょにいたいって思うし
 #<Judas>のこと、信じられるんだよ
-I like them, so I want to stay
-together. That's why I can trust
-<Judas>.
+Because I like you, I want us
+to stick together. That's why
+I can believe in <Judas>.
 -----------------------
 <Judas>
 -----------------------
@@ -1386,9 +1386,9 @@ Even with secrets...
 #いや、ヒミツがあるところ
 #ぜ～んぶ含めて
 #<Judas>が好きなんだよ！
-No. It's because I love
-every last thing about <Judas>
-including the secrets!
+No. Secrets and all...
+I like every last thing
+about <Judas>!
 -----------------------
 <Judas>
 -----------------------

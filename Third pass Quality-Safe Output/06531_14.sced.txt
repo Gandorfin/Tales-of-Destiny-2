@@ -7,7 +7,7 @@ Flying Dragon
 notice
 -----------------------
 #宝箱はフェイクでした
-The chest was a fake.
+The treasure chest was a fake.
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -68,10 +68,10 @@ notice
 There's nothing here.
 -----------------------
 #タイムオーバー
-Time over.
+Time's up.
 -----------------------
 noitce
 -----------------------
 #制御装置を破壊しました
-Destroyed the control device.
+Control device destroyed.
 -----------------------

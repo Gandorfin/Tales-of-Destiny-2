@@ -5,8 +5,8 @@ Flying Dragon
 Flying Dragon
 -----------------------
 #部屋のあちこちから、何かの気配を感じます
-I sense something from various
-parts of the room.
+There's a strange presence
+all around the room.
 -----------------------
 NOTICE
 -----------------------
@@ -16,12 +16,12 @@ Organic tissue blocks the path.
 NOTICE
 -----------------------
 #ソーサラーリングではビクともしません！
-Sorcerer's Rings have no effect!
+The Sorcerer's Ring has no effect!
 -----------------------
 notice
 -----------------------
 #マザーセルを焼き殺しました
-We incinerated the Mother Cell.
+Incinerated the Mother Cell.
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -87,5 +87,5 @@ Time's up.
 noitce
 -----------------------
 #制御装置を破壊しました
-Destroyed the control device.
+Control device destroyed.
 -----------------------

@@ -14,7 +14,7 @@ Twilight City Realta
 Twilight City Realta
 -----------------------
 #男の人
-A man
+Man
 -----------------------
 #エルレインさまあるかぎり
 #わたしたちは、ありとあらゆる苦しみと
@@ -24,7 +24,7 @@ we need never know
 any suffering or hardship.
 -----------------------
 #男の人
-A man
+Man
 -----------------------
 #エルレインさまは、病を癒し
 #悩めしときにはお告げを
@@ -35,7 +35,7 @@ times, and above all, grants us the
 strength to live.
 -----------------------
 #男の人
-A man
+Man
 -----------------------
 #エルレインさまあるかぎり
 #わたしたちは、ありとあらゆる苦しみと
@@ -1201,9 +1201,9 @@ items that can prevent them, too.
 -----------------------
 #後の祭りじゃあ　毒<button:00000056>に麻痺<button:0000005F>に衰弱<button:0000005A>に凍結に
 #鈍足でもうへとへとじゃあ
-After the fact? Poison <button:00000056>, paralysis
-<button:0000005F>, weakness <button:0000005A>, freeze, and slow...
-I'm completely wiped out.
+Too late for that now! Poison <button:00000056>,
+Paralysis <button:0000005F>, Weakness <button:0000005A>, Freeze,
+and Slow... I'm completely beat.
 -----------------------
 #うそはいけません父さん
 #ステータス異常は一人につき四つまでしか効果は
@@ -1274,10 +1274,10 @@ attack without bein' knocked back.
 #そうはいっても父さん、ＨＰがなくなれば
 #効果が切れてしまいますし、回復魔法などを
 #かけても効果が早く切れてしまいますよ
-That may be, Father, but if yer
+That may be, Father, but if your
 HP hits zero, the effect wears
-off. And even if ye use healin'
-magic, it'll fade all the quicker.
+off. And even if you use healing
+magic, it fades faster.
 -----------------------
 #そんな細かいことは気にせんわい
 #ワシの最高の秘奥義はスピリッツブラスター
@@ -1292,8 +1292,8 @@ shown unless I enter Spirit Blaster!
 #出せることもあるようです
 No, Father. It's true that
 Mystic Artes consume much SP.
-But by defeatin' enemies and
-recoverin' SP, ye can sometimes
+But by defeating enemies and
+recovering SP, you can sometimes
 unleash Mystic Artes again.
 -----------------------
 #ただ、弓使いにはスピリッツブラスター
@@ -1329,14 +1329,13 @@ so I don't even have a Mystic Arte.
 #すごいジャマなんですよ父さん
 #とどめもさせないのに秘奥義
 #しないでください父さん
-Besides, a Mystic Arte drains yer SP
-to zero, makin' ye a nuisance.
-Let me land the finishin' blow
-before ye use one, Father.
-Please don't use one, Father.
+Besides, a Mystic Arte drains
+your SP to zero, which just gets
+in the way. Don't use one if it
+won't finish the enemy, Father.
 -----------------------
 #ジャマなんで
-Because ye're in the way.
+Because it gets in the way.
 -----------------------
 #（一回言えば分かると思うが・・・）
 (I thought once would be enough...)
@@ -1461,7 +1460,7 @@ What's so great about a high score?
 #現世では役に立たないなどと
 #いう不届きな輩もいますが････
 We're still investigating
-that, Senior. Some ungrateful
+that, Senpai. Some ungrateful
 fools claim it's useless in
 the present world, but...
 -----------------------
@@ -1471,7 +1470,7 @@ Well, just don't overthink it.
 Focus on honing your own skills.
 -----------------------
 #さすが先輩、勉強になります
-As expected of you, Senior.
+As expected of you, Senpai.
 I'm learning so much.
 -----------------------
 notice
@@ -1480,7 +1479,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Ukemi."
+"Fall Breaks."
 Would you like to listen in?
 -----------------------
 #地面にたたきつけられると
@@ -1492,7 +1491,7 @@ you get knocked down.
 #でも、地面に接地したまさに
 #その瞬間に<button:00000047>を押すと、
 #受身がとれますよね
-It certainly is rough, Senior.
+It certainly is rough, Senpai.
 But press <button:00000047> the very moment
 you hit the ground,
 and you can break your fall.
@@ -1582,7 +1581,7 @@ Would you like to listen in?
 #慣れてきたから最近は通常攻撃は
 #<button:00000045>だけ叩きっぱなしさ
 I've gotten used to it, so lately I
-just spam <button:00000045>and hammer away with it.
+just spam <button:00000045> and hammer away with it.
 -----------------------
 #まったくなっとらんな
 You really don't get it, do you?
@@ -1605,8 +1604,8 @@ Then what should I do?
 #うむ　「<button:00000017><button:00000045>、<button:00000045>、<button:00000016><button:00000045>」
 #と組み立てるなど、組み合わせを
 #変えるのがまず第一歩だ
-Indeed, "<button:00000017><button:00000045>, <button:00000045>, <button:00000016><button:00000045>" and so on
--- varying your combinations is the
+Indeed, "<button:00000017><button:00000045>, <button:00000045>, <button:00000016><button:00000045>" and so on.
+Varying your combinations is the
 first step to take.
 -----------------------
 #第二歩はなにさ？
@@ -1625,7 +1624,7 @@ What's the second step?
 #<button:00000045>による攻撃は効果範囲が広く、
 #当たりやすいことが多いが、その反面、
 #連続攻撃時にはあまり有効ではない
-Remember all that! <button:00000045>Attacks from
+Remember all that! Attacks with <button:00000045>
 have a wide range, making them easy
 to land, but on the flip side, they
 aren't very effective during combos.
@@ -1677,7 +1676,7 @@ after listening to it for ten years.
 #メッセージを早送りできる
 #同じ会話を読み飛ばすとき便利だ
 I forgot to mention this.
-<button:0000002F>Holding down <button:0000002E> and will let you
+Holding down <button:0000002F> and <button:0000002E> will let you
 fast-forward through messages. It's
 handy for skipping conversations
 you've already heard.
@@ -1691,7 +1690,7 @@ me that for ten years?!
 #バカモン！　ひよっこのお前が
 #私の話を読み飛ばすなどとは
 #十年早いわ
-Fool! A mere chick like you
+Fool! A mere fledgling like you
 skimming over my words?
 You're ten years too early for that!
 -----------------------

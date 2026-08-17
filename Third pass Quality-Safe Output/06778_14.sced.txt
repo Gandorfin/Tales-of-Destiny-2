@@ -12,7 +12,7 @@ This area is dark.
 notice
 -----------------------
 #このマップはダメージを受けます
-This area deals damage over time.
+This area deals damage.
 -----------------------
 notice
 -----------------------
@@ -22,7 +22,7 @@ Encounter rate is at maximum.
 notice
 -----------------------
 #このマップは視界が狭くなります
-This area has limited visibility.
+Visibility is limited in this area.
 -----------------------
 #いってらっしゃいませ
 Have a good day.

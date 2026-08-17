@@ -67,7 +67,7 @@ Veteran Officer
 #浮かばれないわー
 Still, your subordinates have it
 rough. If they die being led by
-some inexperienced chick, they'll
+some green rookie, they'll
 never rest in peace.
 -----------------------
 #新米将校
@@ -81,9 +81,9 @@ Veteran Officer
 -----------------------
 #新米、アンタ、ダイクロフト突入作戦では
 #地上待機だってね
-You're a rookie, so for the Dycroft
-infiltration operation... you'll be
-on standby down here, I hear.
+Hey, rookie. I hear you're staying
+behind on the ground for the
+Dycroft infiltration operation.
 -----------------------
 #新米将校
 Rookie Officer
@@ -140,7 +140,7 @@ Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？

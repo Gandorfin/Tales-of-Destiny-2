@@ -1,11 +1,11 @@
 #蒼天都市ヴァンジェロ
-The Azure City, Vangelo
+The Azure City of Vangelo
 -----------------------
 #蒼天都市ヴァンジェロ
-The Azure City, Vangelo
+The Azure City of Vangelo
 -----------------------
 #蒼天都市ヴァンジェロ
-The Azure City, Vangelo
+The Azure City of Vangelo
 -----------------------
 #若者
 Young Man
@@ -76,8 +76,8 @@ Girl
 -----------------------
 #････････
 #････････････
+...
 ......
-..........
 -----------------------
 #女の子
 Girl
@@ -93,16 +93,16 @@ Girl
 #お兄ちゃんたちの顔に
 #なんかついてる？
 Hi there! What's wrong?
-Is there something on our faces,
-big brothers?
+Is something stuck on your
+big brothers' faces?
 -----------------------
 #女の子
 Girl
 -----------------------
 #････････
 #････････････
+...
 ......
-..........
 -----------------------
 #おばさん
 Woman
@@ -266,11 +266,9 @@ out there.
 #なんらかの理由で
 #外界と遮断せざるをえない････
 #といったところだな
-They must have some compelling
-reason to be so thoroughly
-cut off from the outside
-world... That would be
-the long and short of it.
+Some reason must be forcing them
+to stay sealed off from the
+outside world... That's my guess.
 -----------------------
 #街の人
 Townsperson
@@ -354,8 +352,8 @@ tough, we help each other out.
 Townsperson
 -----------------------
 #ここは、蒼天都市ヴァンジェロって街さ
-This here's the city of Vangelo,
-the Azure Sky City.
+This here's the Azure City
+of Vangelo.
 -----------------------
 #街の人
 Townsperson
@@ -383,8 +381,8 @@ Townsperson
 #ドームの中でしか生きられなかった我々に
 #希望の光を与えてくださったんだ
 The merciful Lady Elrane granted
-light and hope to we who could only
-survive within the dome.
+the light of hope to us, who could
+only survive within the dome.
 -----------------------
 <Kyle>
 -----------------------
@@ -422,14 +420,14 @@ Townsperson
 #あんたたち、とりあえず
 #フォルトゥナ神団の方たちに
 #話をしてみなよ
-You folks should go talk to
-the people from the Order of Fortuna
+You folks should go talk to the
+Sacred Order of Fortuna's people
 for now.
 -----------------------
 <Judas>
 -----------------------
 #フォルトゥナ神団？
-The Order of Fortuna?
+The Sacred Order of Fortuna?
 -----------------------
 #街の人
 Townsperson
@@ -437,9 +435,9 @@ Townsperson
 #あぁ、フォルトゥナ神団ってのは
 #エルレインさまを支える人たちの
 #集まりのことさ
-Yeah, the Order of Fortuna is a
-group of people who support Lady
-Elrane.
+Yeah, the Sacred Order of Fortuna
+is a group of people who support
+Lady Elrane.
 -----------------------
 #街の人
 Townsperson

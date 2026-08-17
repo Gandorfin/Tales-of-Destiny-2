@@ -19,29 +19,29 @@ Escape
 notice
 -----------------------
 #このマップは暗くなります
-This map will become dark.
+This area is dark.
 -----------------------
 notice
 -----------------------
 #このマップはダメージを受けます
-This map inflicts damage.
+This area deals damage.
 -----------------------
 notice
 -----------------------
 #このマップはエンカウントマックスです
-This map has maximum encounter rate.
+Encounter rate is at maximum.
 -----------------------
 notice
 -----------------------
 #このマップは視界が狭くなります
-This map has limited visibility.
+Visibility is limited in this area.
 -----------------------
 #いってらっしゃいませ
 Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？

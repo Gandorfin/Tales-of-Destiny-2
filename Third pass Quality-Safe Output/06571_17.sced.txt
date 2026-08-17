@@ -20,8 +20,7 @@ I can't just hand it out for free.
 #まさか剣なんかを作る事になるとは
 #思わなかったぜ････
 Never thought I'd end up
-making swords... Can't
-say I saw that coming.
+making swords...
 -----------------------
 #じゃあ、またな
 See you around.
@@ -61,7 +60,7 @@ Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-<0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？

@@ -64,9 +64,9 @@ flow of time is being erased.
 -----------------------
 #エルレインがおこなった、神の降臨も
 #バルバトスが企んだ、英雄の殺害も
-The descent of the gods performed by
-Elrein as well The assassination of
-the heroes plotted by Barbatos too
+The descent of God that Elrane
+brought about, the murder of the
+heroes that Barbatos schemed...
 -----------------------
 <Judas>
 -----------------------
@@ -208,15 +208,15 @@ you?
 #みんなのお手本に
 #なれるように、がんばりなよ
 #だれかさんみたいにね
-To become an example for everyone
-so work hard
-just like someone
+Work hard, so you can be
+a role model for them all.
+Just like a certain someone.
 -----------------------
 <Loni>
 -----------------------
 #おい、<Nanaly>
 #それって、もしかして････
-Hold on, .<Nanaly>
+Hold on, <Nanaly>.
 You don't mean...?
 -----------------------
 <Nanaly>
@@ -442,8 +442,8 @@ I'm proud to call you my friend.
 #<Loni>は････
 #自慢の親友さ！
 ...Me too.
-<Loni> is...
-my dear friend as well!
+<Loni>, you're the best friend
+a guy could brag about!
 -----------------------
 <Loni>
 -----------------------
@@ -520,7 +520,7 @@ select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
-<03:00000000>Yes
+<03:00000000> Yes
 No
 -----------------------
 #ごゆっくりお休みください

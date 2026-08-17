@@ -26,9 +26,9 @@ Wanna try hacking through?
 #この、見るからに
 #毒を持っていそうな草をか？
 #僕はゴメンだ
-You want me to cut
-grass that looks poisonous
-just from looking at it? I'll pass.
+You want me to cut grass that's
+obviously poisonous at a glance?
+I'll pass.
 -----------------------
 <Kyle>
 -----------------------
@@ -111,7 +111,7 @@ notice
 NOTICE
 -----------------------
 #ガルムの牙に着火しました
-Ignited Garm's Fang.
+Ignited the Garm Fang.
 -----------------------
 #いってらっしゃいませ
 Have a good day.

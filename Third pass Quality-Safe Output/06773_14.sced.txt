@@ -17,7 +17,7 @@ This area deals damage.
 notice
 -----------------------
 #このマップはエンカウントマックスです
-Maximum encounter rate in this area.
+Encounter rate is at maximum.
 -----------------------
 notice
 -----------------------

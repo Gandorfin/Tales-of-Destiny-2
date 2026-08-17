@@ -11,8 +11,8 @@ Swordian Research Lab
 -----------------------
 #んじゃ、ちゃっちゃと
 #終わらせますか
-Well then, let's get this over with.
-and finish it up.
+Well then, let's get this
+over and done with.
 -----------------------
 <Harold>
 -----------------------
@@ -95,7 +95,7 @@ Greater power...?
 <Harold>
 -----------------------
 #ちょっと貸してみて、兄貴
-Lend me a hand, bro.
+Here, hand it over a sec, bro.
 -----------------------
 <Harold>
 -----------------------
@@ -120,14 +120,14 @@ W-What was that...!?
 #特殊な力が使えるのよ
 I'm sure Dymlos already knows, but
 those who wield these swords can use
-a special power called Lens Arte.
+a special power: Magic Artes.
 -----------------------
 <Harold>
 -----------------------
 #晶術はひとりひとり特性が違うから
 #六人もいれば、おたがいの弱点を
 #補いあえるってわけ
-Lens Arte differs from person to
+Magic Artes differ from person to
 person, so with six of us, we can
 cover for each other's weaknesses.
 -----------------------
@@ -170,8 +170,8 @@ Dymlos
 #晶術の操り方を
 #学ばねばならないんでね
 We must learn from <Harold>
-how to wield Lens Arte.
-That's simply how it is.
+how to wield Magic Artes,
+you see.
 -----------------------
 <Kyle>
 -----------------------
@@ -191,8 +191,8 @@ notice
 -----------------------
 #急いで、リトラーさんに
 #ソーディアン完成のことを知らせよう！
-Hurry, let's tell Marius
-about the Swordians being completed!
+Hurry, let's tell Commander Raiker
+the Swordians are complete!
 -----------------------
 #ディムロス
 Dymlos
@@ -210,8 +210,8 @@ Dymlos
 #晶術の操り方を
 #学ばねばならないんでね
 We must learn from <Harold>
-how to wield Lens Arte.
-That's simply how it is.
+how to wield Magic Artes,
+you see.
 -----------------------
 #イクティノス
 Igtenos
@@ -286,7 +286,7 @@ Magic Artes include spells for
 healing as well, don't they?
 -----------------------
 #ラディッツ
-Radisrol
+Raditz
 -----------------------
 #ベルクラントを開発してしまった罪を
 #このソーディアンによって
@@ -296,7 +296,7 @@ of developing Belcrant
 through this Swordian...
 -----------------------
 #ラディッツ
-Radisrol
+Raditz
 -----------------------
 #ベルクラントを開発してしまった罪を
 #このソーディアンによって

@@ -22,7 +22,7 @@ select
 -----------------------
 #<03:00000000>　<Nanaly>助けて　
 #　がんばる　
-<03:00000000> <Nanaly>Help me out
+<03:00000000> <Nanaly>, help me out
 I'll manage
 -----------------------
 <Nanaly>
@@ -45,7 +45,7 @@ You saved my hide!
 <Loni>
 -----------------------
 #さすがは男まさり！
-Now that's a woman among men!
+Now that's putting us men to shame!
 -----------------------
 <Nanaly>
 -----------------------
@@ -63,7 +63,7 @@ Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -117,7 +117,7 @@ notice
 There's nothing here.
 -----------------------
 #タイムオーバー
-Time Over
+Time's up.
 -----------------------
 noitce
 -----------------------
