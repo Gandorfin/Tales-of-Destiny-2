@@ -319,10 +319,10 @@ Atwight
 #あなたは、関係ない<Kyle>さんや
 #多くの部下を従える、自分の身を
 #危険にさらした
-You risked your own life to protect
-<Kyle>, who had nothing to do with
-this, and all those subordinates
-under your command.
+You endangered <Kyle> and his
+friends, who had no part in this,
+and yourself, a commander with
+so many subordinates.
 -----------------------
 #アトワイト
 Atwight
@@ -388,9 +388,9 @@ They both look so happy.
 #あたりまえよ
 #好きな人が、自分のことを
 #助けに来てくれたんですもの
-Of course they do. The person they
-love came to save them. How could
-they not be happy?
+Of course she does. The person
+she loves came all this way
+to save her.
 -----------------------
 <Reala>
 -----------------------
@@ -578,14 +578,14 @@ notice
 NOTICE
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}ガルドを手に入れました<0B:00000000>
-<0B:00000001>{14}{34}{08}{C0}Acquired <0B:00000000> Gald.
+<0B:00000001>Acquired {14}{34}{08}{C0} Gald.<0B:00000000>
 -----------------------
 #いってらっしゃいませ
 Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald per night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
