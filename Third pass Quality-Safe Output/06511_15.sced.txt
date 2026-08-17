@@ -16,8 +16,7 @@ NOTICE
 #扉には小さな文字で
 #『４』と書かれています
 The door is firmly shut.
-On the door, in small letters,
-'4' is written.
+In small letters, it reads '4'.
 -----------------------
 NOTICE
 -----------------------
@@ -25,8 +24,7 @@ NOTICE
 #扉には小さな文字で
 #『９』と書かれています
 The door is firmly shut.
-On the door, in small letters,
-'9' is written.
+In small letters, it reads '9'.
 -----------------------
 NOTICE
 -----------------------
@@ -34,8 +32,7 @@ NOTICE
 #扉には小さな文字で
 #『５』と書かれています
 The door is firmly shut.
-On the door, in small letters,
-'5' is written.
+In small letters, it reads '5'.
 -----------------------
 NOTICE
 -----------------------
@@ -43,8 +40,7 @@ NOTICE
 #扉には小さな文字で
 #『１』と書かれています
 The door is firmly shut.
-On the door, in small letters,
-'1' is written.
+In small letters, it reads '1'.
 -----------------------
 NOTICE
 -----------------------
@@ -52,8 +48,7 @@ NOTICE
 #扉には小さな文字で
 #『３』と書かれています
 The door is firmly shut.
-On the door, in small letters,
-'3' is written.
+In small letters, it reads '3'.
 -----------------------
 NOTICE
 -----------------------
@@ -61,8 +56,7 @@ NOTICE
 #扉には小さな文字で
 #『８』と書かれています
 The door is firmly shut.
-On the door, in small letters,
-'8' is written.
+In small letters, it reads '8'.
 -----------------------
 NOTICE
 -----------------------
@@ -70,8 +64,7 @@ NOTICE
 #扉には小さな文字で
 #『０』と書かれています
 The door is firmly shut.
-On the door, in small letters,
-'0' is written.
+In small letters, it reads '0'.
 -----------------------
 #シェフ
 Chef
@@ -253,7 +246,7 @@ Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
