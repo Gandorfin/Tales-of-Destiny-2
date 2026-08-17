@@ -2860,10 +2860,10 @@ you'll fall down.
 #でも、地面に接地したまさに
 #その瞬間に<button:00000047>を押すと、
 #受身がとれますよね
-It's definitely tough, Senior. But
-right at the moment you touch the
-ground, if you press <button:00000047> at that
-instant, you can break your fall.
+It's definitely tough, Senior.
+But press <button:00000047> right at the
+moment you touch the ground,
+and you can break your fall.
 -----------------------
 #ももももちろん知ってたさ
 O-o-o-of course I knew that.
@@ -2992,11 +2992,10 @@ What's the second step?
 #<button:00000045>による攻撃は効果範囲が広く、
 #当たりやすいことが多いが、その反面、
 #連続攻撃時にはあまり有効ではない
-Keep that in mind! <button:00000045> attacks have
-a wide effective range, making them
-likely to hit, but on the other
-hand, they aren't very effective
-during continuous attacks.
+Remember that! <button:00000045> attacks have
+a wide range and land easily, but
+they aren't very effective
+during combos.
 -----------------------
 #これは次の攻撃にも影響を与えるから、
 #「<button:00000017><button:00000045>、<button:00000017><button:00000045>、<button:00000045>」と
@@ -3045,11 +3044,10 @@ them for about ten years.
 #<button:0000002F>と<button:0000002E>を押しっぱなしにすると
 #メッセージを早送りできる
 #同じ会話を読み飛ばすとき便利だ
-I guess I never told you about that.
-Holding down <button:0000002F> and <button:0000002E> will let you
-fast-forward through messages. It's
-handy for skipping over repeated
-conversations.
+Come to think of it, I never
+told you: hold down <button:0000002F> and <button:0000002E>
+to fast-forward messages. Handy
+for skipping repeated dialogue.
 -----------------------
 #なにー
 #どうして十年もそれを教えて

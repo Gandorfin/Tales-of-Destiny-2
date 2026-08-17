@@ -1285,7 +1285,7 @@ Heh!
 Beat it before you get hurt.
 -----------------------
 #リムル
-Rimul
+Rhym
 -----------------------
 #････そうはいかないわね
 ...I'm afraid I can't do that.
@@ -1317,7 +1317,7 @@ Thug
 C'mon, say somethin', huh?!
 -----------------------
 #リムル
-Rimul
+Rhym
 -----------------------
 #ケガをしたくなければ
 #すぐに立ち去りなさい････
@@ -1333,7 +1333,7 @@ I've had enough...
 Hey, waste her!!
 -----------------------
 #リムル
-Rimul
+Rhym
 -----------------------
 #････安心しなさい
 #これ以上の手出しはしないわ････
@@ -1351,7 +1351,7 @@ S-so strong...
 Too... strong...
 -----------------------
 #リムル
-Rimul
+Rhym
 -----------------------
 #････とんだ寄り道をしてしまったわね
 #やはり、もっと強い敵とまみえてこその
@@ -1370,7 +1370,7 @@ Thank you so much!
 Please, let me give you something...
 -----------------------
 #リムル
-Rimul
+Rhym
 -----------------------
 #必要ないわ
 #当然のことを、したまでよ････
@@ -1412,7 +1412,7 @@ Girl
 Ahh... my lady...
 -----------------------
 #リムル
-Rimul
+Rhym
 -----------------------
 #キミは････
 You are...
@@ -1421,11 +1421,11 @@ You are...
 -----------------------
 #リムルさん、だよね？
 #ねぇ、なにしてたの？
-You're Rimul, right?
+You're Rhym, right?
 Hey, what were you doing?
 -----------------------
 #リムル
-Rimul
+Rhym
 -----------------------
 #････考えごとよ
 ...Thinking.
@@ -1438,7 +1438,7 @@ Thinking?
 What about?
 -----------------------
 #リムル
-Rimul
+Rhym
 -----------------------
 #強くなること････
 #今よりも強くなるには
@@ -1455,7 +1455,7 @@ You're already that strong,
 and you still wanna get stronger?
 -----------------------
 #リムル
-Rimul
+Rhym
 -----------------------
 #今が、どうあろうと関係ないの
 #わたしは、強くなりたい････
@@ -1465,7 +1465,7 @@ I wish to become stronger...
 That is all.
 -----------------------
 #リムル
-Rimul
+Rhym
 -----------------------
 #今のわたしには、切り札がないわ
 #どんな不利な状況をも、はね返せる
@@ -1476,7 +1476,7 @@ turn back any disadvantageous
 situation...
 -----------------------
 #リムル
-Rimul
+Rhym
 -----------------------
 #それがあれば、もっと高みに昇れる
 #そこまでは、考えいたったのよ
@@ -1497,7 +1497,7 @@ Hoo~♪
 She's really fired up!
 -----------------------
 #リムル
-Rimul
+Rhym
 -----------------------
 #ただ、速く走ることだけを
 #追い求める････
@@ -1505,7 +1505,7 @@ Simply pursuing nothing but running
 faster and faster...
 -----------------------
 #リムル
-Rimul
+Rhym
 -----------------------
 #同じところを、何度もまわり
 #ただ、速く走ることだけを考える
@@ -1517,7 +1517,7 @@ running as fast as possible...
 different...
 -----------------------
 #リムル
-Rimul
+Rhym
 -----------------------
 #････走る････
 #････････同じところを････
@@ -1525,7 +1525,7 @@ Rimul
 ......around the same place...
 -----------------------
 #リムル
-Rimul
+Rhym
 -----------------------
 #まわる････走る････
 #････できるだけ、速く････
@@ -1533,7 +1533,7 @@ Going around... running...
 ...as fast as I possibly can...
 -----------------------
 #リムル
-Rimul
+Rhym
 -----------------------
 #････！！！
 #そう！　そういうことね！
@@ -2548,11 +2548,10 @@ What's the second step?
 #<button:00000045>による攻撃は効果範囲が広く、
 #当たりやすいことが多いが、その反面、
 #連続攻撃時にはあまり有効ではない
-Remember all that! <button:00000045> attacks have
-a wide area of effect, so they're
-easy to land, but on the flip side,
-they're not very effective during
-combos.
+Remember that! <button:00000045> attacks have
+a wide range and land easily, but
+they aren't very effective
+during combos.
 -----------------------
 #これは次の攻撃にも影響を与えるから、
 #「<button:00000017><button:00000045>、<button:00000017><button:00000045>、<button:00000045>」と
@@ -2600,11 +2599,10 @@ hearing it for ten years straight.
 #<button:0000002F>と<button:0000002E>を押しっぱなしにすると
 #メッセージを早送りできる
 #同じ会話を読み飛ばすとき便利だ
-Come to think of it, I never told
-you. If you hold down <button:0000002F> and <button:0000002E>, you
-can fast-forward through messages.
-Handy for skipping conversations
-you've already seen.
+Come to think of it, I never
+told you: hold down <button:0000002F> and <button:0000002E>
+to fast-forward messages. Handy
+for skipping repeated dialogue.
 -----------------------
 #なにー
 #どうして十年もそれを教えて

@@ -65,9 +65,9 @@ NOTICE
 #白く険しき山の中腹
 #絶海に沈みし偶像の上
 #巨石文明の名残１
-Amid flames on the desert continent
+In flames on the desert continent
 On a stark white mountainside
-Above an idol sunk in the open sea
+Above an idol sunk at sea
 Megalithic Civilization Remnant 1
 -----------------------
 NOTICE
@@ -77,9 +77,9 @@ NOTICE
 #人の訪れぬ白い島、緑の園
 #異国の地、大地をえぐる円
 Megalithic Civilization Remnant 2
-By a lake shrouded in deep green
-A white isle, a green garden unseen
-Foreign land, a circle cut in earth
+By a lake veiled in deep green
+White isle, garden unvisited
+A circle carved in foreign earth
 -----------------------
 NOTICE
 -----------------------
@@ -2113,11 +2113,10 @@ it for ten years straight.
 #<button:0000002F>と<button:0000002E>を押しっぱなしにすると
 #メッセージを早送りできる
 #同じ会話を読み飛ばすとき便利だ
-Come to think of it, I never told
-you. If you hold down <button:0000002F> and <button:0000002E>, you
-can fast-forward through messages.
-Comes in handy when you're skipping
-repeat dialogue.
+Come to think of it, I never
+told you: hold down <button:0000002F> and <button:0000002E>
+to fast-forward messages. Handy
+for skipping repeated dialogue.
 -----------------------
 #なにー
 #どうして十年もそれを教えて
