@@ -5,6 +5,10 @@ on: [push]
 jobs:
   mirror_to_codecommit:
 
+    # Only the main repository has the CodeCommit secrets.
+    # Skip on forks so their pushes don't produce failed runs.
+    if: github.repository_owner == 'Gandorfin'
+
     runs-on: ubuntu-latest
 
     steps:
