@@ -12,8 +12,8 @@ Aquaveil
 #　万屋・モリュウはこちら！』
 'Three hundred years of history,
 A traditional shop dating back to
-the Moriau era. The general store
-Moriau is right here!'
+the Moreau era. The general store
+Moreau is right here!'
 -----------------------
 #奇妙な形の街灯だ
 #トーローと言う名前らしい
@@ -291,7 +291,8 @@ A Man Who Loves Freedom
 #････誰ともなく、そう呼んだ男････
 ...That's right, I am...
 ...'A Man Who Loves Freedom'...
-...A name no one ever called me...
+...or so folks somehow
+came to call me...
 -----------------------
 #自由を愛する男
 A Man Who Loves Freedom
@@ -664,7 +665,7 @@ now "{16}{A0}{00}{08}{24}{72}{CA}{C0}"!
 No one can bind you to that title...
 -----------------------
 #町大工のゲンさん
-Gentaro, the Town Carpenter
+Gen the Town Carpenter
 -----------------------
 #おう！
 #モノ作ってるか？
@@ -672,7 +673,7 @@ Yo!
 You guys making stuff?
 -----------------------
 #町大工のゲンさん
-Gentaro, the Town Carpenter
+Gen the Town Carpenter
 -----------------------
 #オレっちは家を建てるぜ！
 #建てまくってるぜ！
@@ -682,7 +683,7 @@ I'm building 'em left and right!
 You guys making stuff?
 -----------------------
 #町大工のゲンさん
-Gentaro, the Town Carpenter
+Gen the Town Carpenter
 -----------------------
 #お前らが、どれくらいモノ作りが好きか
 #オレっちの眼力で見抜いてやるぜ！
@@ -690,7 +691,7 @@ Love crafting? My sharp eyes
 will see right through you!
 -----------------------
 #町大工のゲンさん
-Gentaro, the Town Carpenter
+Gen the Town Carpenter
 -----------------------
 #一度も「リファイン」を
 #やったことねぇな？
@@ -700,7 +701,7 @@ You haven't even tried
 What the heck are you doing?!
 -----------------------
 #町大工のゲンさん
-Gentaro, the Town Carpenter
+Gen the Town Carpenter
 -----------------------
 #リファイン実行回数は
 #{14}{34}{78}{C0}回だな
@@ -709,7 +710,7 @@ You've Refined {14}{34}{78}{C0} times.
 You're still a total novice!
 -----------------------
 #町大工のゲンさん
-Gentaro, the Town Carpenter
+Gen the Town Carpenter
 -----------------------
 #リファイン実行回数は
 #{14}{34}{78}{C0}回だな
@@ -718,7 +719,7 @@ You've Refined {14}{34}{78}{C0} times.
 Not bad for a beginner!
 -----------------------
 #町大工のゲンさん
-Gentaro, the Town Carpenter
+Gen the Town Carpenter
 -----------------------
 #リファイン実行回数は
 #{14}{34}{78}{C0}回だな
@@ -727,7 +728,7 @@ You've Refined {14}{34}{78}{C0} times.
 Keep on crafting!
 -----------------------
 #町大工のゲンさん
-Gentaro, the Town Carpenter
+Gen the Town Carpenter
 -----------------------
 #こいつはすげえ！
 #百万回以上、リファインしてるぜ!
@@ -844,7 +845,7 @@ No
 Chef
 -----------------------
 #お金が足りないね
-We're short on cash.
+You're short on cash.
 -----------------------
 #シェフ
 Chef
@@ -1023,12 +1024,12 @@ notice
 There's nothing here.
 -----------------------
 #<item:00000012>屋
-<item:00000012>'s House
+<item:00000012> Shop
 -----------------------
 #こちらでは<item:00000012>の
 #販売を行っています
-We sell <item:00000012>'s
-products here.
+We sell <item:00000012>
+here.
 -----------------------
 #<item:00000012>を使ってリファインすると
 #ステキな物が作られることがあるようです
@@ -1044,7 +1045,7 @@ added abilities may carry over.
 #ひと瓶<0B:00000001>{14}{36}{18}{C0}<0B:00000000>ガルドになりますが、
 #<item:00000012>を買いますか？
 It'll cost you <0B:00000001>{14}{36}{18}{C0}<0B:00000000> Gald per bottle.
-<item:00000012>Would you like to buy ?
+Would you like to buy <item:00000012>?
 -----------------------
 select
 -----------------------
@@ -1123,7 +1124,7 @@ synthesize weapons and armor.
 #リファインを行うのに必要なのは
 #<item:00000012>とレンズです
 To perform Refining, you need
-<item:00000012>and Lens.
+<item:00000012> and Lens.
 -----------------------
 #<item:00000012>は、各地にいる
 #私たちルーンボトル屋からお求めください
@@ -1154,9 +1155,9 @@ change it into a different item.
 #逆に、<item:00000002>にリファインを行うと
 #<item:00000001>に変化します
 For example, if you Refine <item:00000001>,
-<item:00000002>it transforms into .
+it transforms into <item:00000002>.
 Conversely, if you Refine <item:00000002>,
-<item:00000001>it changes into .
+it changes into <item:00000001>.
 -----------------------
 #また、装備品単体をリファインすることによって
 #<item:00000001>などのアイテムにも変化します

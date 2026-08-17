@@ -1,11 +1,11 @@
 #アクアヴェイル・旅籠シデン
-Aquaveil - Inn Shiden
+Aquaveil - Inn Sheeden
 -----------------------
 #アクアヴェイル
 Aquaveil
 -----------------------
 #旅籠シデン
-Inn Shiden
+Inn Sheeden
 -----------------------
 #緑豊かな庭園が広がっている
 A lush garden stretches out before
@@ -22,7 +22,7 @@ Innkeeper
 #ようこそ、シデンへおこしやす
 #大したおもてなしはできまへんけど
 #ゆるりとしていっとくんなはれや
-Welcome to Shiden. I can't offer
+Welcome to Sheeden. I can't offer
 much in the way of hospitality, but
 please, make yourself at home.
 -----------------------
@@ -54,9 +54,9 @@ Townsperson
 #なにせ、うっかり耳にして
 #そのまま三日三晩目が覚めなかった人も
 #いるくらいなんだから
-Why, some folks have accidentally
-overheard them and gone three whole
-days and nights without sleep.
+Why, some folks caught a snatch
+of them and didn't wake up for
+three whole days and nights.
 -----------------------
 #いってらっしゃいませ
 Have a good day.
