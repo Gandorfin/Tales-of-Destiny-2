@@ -68,9 +68,9 @@ Garr
 #いきたまえ、<Kyle>くん
 #他のだれでもない
 #彼女の英雄となるために！
-Live on, <Kyle>.
-Not just anyone.
-To become her hero!
+Go forth, <Kyle>.
+Become her hero,
+no one else but you!
 -----------------------
 #ウッドロウ
 Garr
@@ -438,7 +438,7 @@ Garr
 #信仰心あつき大司祭から始まったこと、
 #あなたもご存じかと思うのだが
 Yet the previous unrest began with
-a High Priestess of deep devotion,
+a High Priest of deep devotion,
 as you must surely know.
 -----------------------
 #エルレイン
@@ -581,8 +581,7 @@ Garr
 #「陛下」というのも、固すぎるな
 #さん付けでかまわんよ？
 'Your Majesty' is a bit too stiff,
-isn't it? Feel free to use '-san'
-with me.
+isn't it? Just call me Garr.
 -----------------------
 #ウッドロウ
 Garr
@@ -591,7 +590,7 @@ Garr
 #<Kyle>くんと、呼ばせてもらうが
 #かまわんかね？
 And I'd like to call you
-<Kyle>-kun,
+<Kyle>,
 if that's all right?
 -----------------------
 <Kyle>
@@ -601,7 +600,7 @@ if that's all right?
 #ウッドロウさん！
 Of course!
 Your Majesty... no, I mean...
-Garr-san!
+Garr!
 -----------------------
 #ウッドロウ
 Garr
@@ -617,8 +616,8 @@ the way from Cresta for a reason...
 #それは、わたしからお話します
 #ウッドロウさんに会って
 #確かめたいことがあったんです
-I'll explain it. I came to see you,
-Garr-san, because I had something
+I'll explain it. I came to see
+you, Garr, because I had something
 I needed to confirm.
 -----------------------
 <Reala>
@@ -645,7 +644,7 @@ Garr
 -----------------------
 #<Kyle>くん
 #これは、いったい････？
-<Kyle>-kun...
+<Kyle>...
 What on earth is this...?
 -----------------------
 <Kyle>
@@ -653,7 +652,7 @@ What on earth is this...?
 #ウッドロウさん
 #<Reala>は、英雄を
 #探しているんです
-Garr-san...
+Garr...
 <Reala> is searching
 for a hero.
 -----------------------
@@ -676,7 +675,7 @@ but she wasn't the hero I sought.
 -----------------------
 #それで、ウッドロウさんなら、
 #もしかしてと････
-So when I heard of you, Garr-san,
+So when I heard of you, Garr,
 I wondered if perhaps...
 -----------------------
 #ウッドロウ
@@ -721,14 +720,14 @@ he always said the very same thing.
 <Kyle>
 -----------------------
 #父さんも････
-Father too...
+Dad too...
 -----------------------
 #ウッドロウ
 Garr
 -----------------------
 #<Reala>くん
 #ひとつ、私からアドバイスだ
-<Reala>-kun,
+<Reala>,
 let me offer you a piece of advice.
 -----------------------
 <Reala>
@@ -950,9 +949,9 @@ Nngh... ugh...
 -----------------------
 #傷は深いが、かろうじて急所は外れている
 #大丈夫だ、これなら助かる！
-The wound is deep, but it missed
-his vitals by a hair. He'll make
-it! This is survivable!
+The wound is deep, but it just
+missed his vitals. Don't worry.
+He's going to pull through!
 -----------------------
 <Loni>
 -----------------------
@@ -1051,7 +1050,7 @@ Why is Elrane here!?
 -----------------------
 #それに<Reala>
 #どうしてキミはエルレインのことを････
-And besides,<Reala>
+And besides, <Reala>,
 why do you know about Elrane...?
 -----------------------
 <Loni>
@@ -1081,13 +1080,13 @@ Gaap
 -----------------------
 #エルレインさまには
 #指一本触れさせん
-Lady Elrane shall not be touched
-by a single finger.
+I will not let you lay
+a finger on Lady Elrane.
 -----------------------
 <Judas>
 -----------------------
 #ならばッ！
-Then I shall!
+In that case...!
 -----------------------
 <Judas>
 -----------------------
@@ -1137,7 +1136,8 @@ No one at all.
 Elrane
 -----------------------
 #そう、たとえお前でもだ、<Reala>
-Yes, even you are no exception,<Reala>
+Yes, even you are
+no exception, <Reala>.
 -----------------------
 <Reala>
 -----------------------
@@ -1684,7 +1684,7 @@ What are we gonna do?
 -----------------------
 #････ウッドロウさん
 #それ、ちがうと思います
-...Mr. Garr.
+...Garr.
 I think that's wrong.
 -----------------------
 <Kyle>
@@ -1723,7 +1723,7 @@ I should not have tested you so.
 <Kyle>
 -----------------------
 #ウッドロウさん････？
-Mr. Garr...?
+Garr...?
 -----------------------
 #ウッドロウ
 Garr
@@ -2033,8 +2033,8 @@ upon you young ones...
 -----------------------
 #オレにはどうしたらいいのか
 #わかりません････
-I don't know what I should do...
-I haven't got a clue...
+I don't know what I should do
+anymore...
 -----------------------
 #ウッドロウ
 Garr
@@ -2086,7 +2086,7 @@ Garr
 -----------------------
 #<Kyle>くん
 #君なら、この状況をどうするかね？
-<Kyle>! If it were you, how would you
+<Kyle>, if it were you, how would you
 handle this situation?
 -----------------------
 <Kyle>
@@ -2129,7 +2129,7 @@ it is a matter of life or death.
 #じゃあ、ウッドロウさんなら
 #どうするんですか？
 Then what would you do,
-Mr. Garr?
+Garr?
 -----------------------
 #ウッドロウ
 Garr
@@ -2249,13 +2249,13 @@ Then I had no need to worry.
 #いいえ、お心づかい、本当に感謝します
 #ウッドロウさん････ありがとうございました
 No. I truly appreciate your concern.
-Thank you, Mr. Garr.
+Thank you, Garr.
 -----------------------
 <Kyle>
 -----------------------
 #ありがとうございました、ウッドロウさん
 #それじゃあ、オレたち行きます
-Thank you, Mr. Garr.
+Thank you, Garr.
 We'll be going now.
 -----------------------
 #安心してください、応急手当は

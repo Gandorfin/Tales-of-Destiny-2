@@ -5,7 +5,7 @@ Heidelberg Castle
 Heidelberg Castle
 -----------------------
 #包丁人
-Knife Wielder
+Knife Master
 -----------------------
 #料理しているか？
 #包丁は使っているか？
@@ -13,25 +13,25 @@ Are you cooking?
 Are you using a knife?
 -----------------------
 #包丁人
-Knife Wielder
+Knife Master
 -----------------------
 #<item:00000074>を持っているな
 You've got <item:00000074>.
 -----------------------
 #包丁人
-Knife Wielder
+Knife Master
 -----------------------
 #<item:00000075>を持っているな
 You have <item:00000075>.
 -----------------------
 #包丁人
-Knife Wielder
+Knife Master
 -----------------------
 #<item:00000076>を持っているな
 You have <item:00000076>.
 -----------------------
 #包丁人
-Knife Wielder
+Knife Master
 -----------------------
 #<item:00000077>を持っているな
 You've got <item:00000077>.
