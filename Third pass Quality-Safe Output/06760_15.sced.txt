@@ -7,7 +7,7 @@ Aqua Labyrinth
 notice
 -----------------------
 #次に進みますか？
-Move on to the next area?
+Proceed to the next area?
 -----------------------
 select
 -----------------------
@@ -31,22 +31,22 @@ No
 notice
 -----------------------
 #このマップは暗くなります
-This map will become dark.
+This area is dark.
 -----------------------
 notice
 -----------------------
 #このマップはダメージを受けます
-This map deals damage.
+This area deals damage.
 -----------------------
 notice
 -----------------------
 #このマップはエンカウントマックスです
-This map has maximum encounter rate.
+Encounter rate is at maximum.
 -----------------------
 notice
 -----------------------
 #このマップは視界が狭くなります
-This map has limited visibility.
+Visibility is limited in this area.
 -----------------------
 #いってらっしゃいませ
 Have a good day.

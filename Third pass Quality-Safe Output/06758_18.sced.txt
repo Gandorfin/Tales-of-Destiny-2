@@ -163,22 +163,22 @@ I can see your tomorrow...
 notice
 -----------------------
 #このマップは暗くなります
-This map is dark.
+This area is dark.
 -----------------------
 notice
 -----------------------
 #このマップはダメージを受けます
-This map inflicts damage.
+This area deals damage.
 -----------------------
 notice
 -----------------------
 #このマップはエンカウントマックスです
-This map has max encounter rate.
+Encounter rate is at maximum.
 -----------------------
 notice
 -----------------------
 #このマップは視界が狭くなります
-This map has limited visibility.
+Visibility is limited in this area.
 -----------------------
 #いってらっしゃいませ
 Have a good day.
