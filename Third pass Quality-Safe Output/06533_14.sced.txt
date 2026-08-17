@@ -15,7 +15,7 @@ Shiny-Things Maid
 #行き方を知りたくない？
 For <0B:00000001><num:00000005><0B:00000000> Lens,
 don't you want to know how to reach
-the Crimson City of Speranza?
+the Crimson Lotus City, Speranza?
 -----------------------
 select
 -----------------------
@@ -56,8 +56,8 @@ Shiny-Things Maid
 #その先の森をつっきれば
 #はれてスペランツァよ
 Cut straight through the forest
-beyond, and you'll reach sunny
-Speranza.
+beyond, and you're finally
+in Speranza.
 -----------------------
 #光り物好きなメイド
 Shiny-Things Maid
@@ -70,8 +70,8 @@ Shiny-Things Maid
 -----------------------
 #さまよい続けても
 #しらないからネ
-Wander all you want,
-I won't tell you a thing.
+If you wander around lost forever,
+don't blame me!
 -----------------------
 #いってらっしゃいませ
 Have a good day.

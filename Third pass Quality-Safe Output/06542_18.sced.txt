@@ -51,7 +51,7 @@ through here.
 #そうだね････五本もあれば、大丈夫だよ
 Hey, was that a Garm I just saw?
 Those fangs of his burn real good.
-That's right... Five of 'em ought
+Let's see... Five of 'em ought
 to do the trick.
 -----------------------
 <Kyle>
@@ -69,7 +69,7 @@ I'll catch 'em with sheer guts!
 You can't just chase 'em down,
 though. Find somewhere you can
 dig a pitfall. Use that Sorcerer's
-Ring thing!
+something-or-other!
 -----------------------
 <Nanaly>
 -----------------------
@@ -134,7 +134,7 @@ exit-party_togather( short spd )
 notice
 -----------------------
 #{16}{28}{56}{08}{C0}を手に入れました
-{16}{28}{56}{08}{C0}You obtained .
+Acquired {16}{28}{56}{08}{C0}.
 -----------------------
 notice
 -----------------------
