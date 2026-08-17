@@ -34,7 +34,7 @@ Gaap
 -----------------------
 #<Reala>さま････
 #本当に、よろしいのか？
-<Reala>-sama...
+Lady <Reala>...
 Is this truly what you wish?
 -----------------------
 #ガープ
@@ -45,7 +45,7 @@ Gaap
 #とても聖女のすることとは思えません
 To take action alongside those who
 reject salvation... I cannot believe
-such behavior befits a holy woman.
+such behavior befits a Saintess.
 -----------------------
 <Reala>
 -----------------------
@@ -75,7 +75,7 @@ Gaap
 #エルレインさまとは違いすぎる
 #そんなことでは、救いはもたらせはしない  
 ...You are
-far too different from Elrane-sama.
+far too different from Lady Elrane.
 Such methods cannot bring salvation.
 -----------------------
 <Loni>
@@ -111,8 +111,9 @@ Whoa, whoa, is that even allowed?!
 -----------------------
 #なんだい、腰が引けてるよ！
 #痛い目みせるんじゃなかったのかい？
-What's with the cold feet? Weren't
-you gonna show us what you've got?
+What's with the cold feet?
+Weren't you the one who was
+gonna make him hurt?
 -----------------------
 <Judas>
 -----------------------
@@ -126,7 +127,7 @@ Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-That will be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
