@@ -7,14 +7,15 @@ Flying Dragon
 notice
 -----------------------
 #隔壁が下りているため通れません
-The partition is down. Can't pass.
+The bulkhead is down.
+You can't get through.
 -----------------------
 notice
 -----------------------
 #近くにあるとおもわれる
 #緊急用の避難路を探しましょう
-There should be one nearby. Let's
-find the emergency evacuation route.
+There should be an emergency
+escape route nearby. Let's find it.
 -----------------------
 notice
 -----------------------
@@ -97,10 +98,10 @@ notice
 There's nothing here.
 -----------------------
 #タイムオーバー
-Time over.
+Time's up.
 -----------------------
 noitce
 -----------------------
 #制御装置を破壊しました
-Destroyed the control device.
+Control device destroyed.
 -----------------------

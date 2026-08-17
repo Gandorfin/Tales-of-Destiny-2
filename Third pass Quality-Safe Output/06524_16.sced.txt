@@ -1,5 +1,5 @@
 #飛行竜・制御室
-Flying Dragon Control Room
+Flying Dragon - Control Room
 -----------------------
 #飛行竜
 Flying Dragon
@@ -71,5 +71,5 @@ Time's up.
 noitce
 -----------------------
 #制御装置を破壊しました
-Destroyed the control device.
+Control device destroyed.
 -----------------------

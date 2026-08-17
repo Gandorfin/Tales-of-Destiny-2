@@ -1,5 +1,5 @@
 #飛行竜・中心部
-Flying Dragon: Central Area
+Flying Dragon - Central Area
 -----------------------
 #飛行竜
 Flying Dragon
@@ -16,9 +16,8 @@ Wh-what the heck!?
 -----------------------
 #レンズの力を失って
 #飛行竜が降下をはじめたんだ
-The Flying Dragon has begun its
-descent. It lost the power of its
-Lens.
+The Flying Dragon lost the Lens's
+power and has begun to descend.
 -----------------------
 <Loni>
 -----------------------
@@ -34,8 +33,8 @@ Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald.
-Would you like to stay the night?
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
+Would you like to stay?
 -----------------------
 #お泊まりになりますか？
 Would you like to stay?
@@ -88,7 +87,7 @@ notice
 There's nothing here.
 -----------------------
 #タイムオーバー
-Time Over
+Time's up.
 -----------------------
 noitce
 -----------------------
