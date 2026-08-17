@@ -17,19 +17,19 @@ Katz Village
 Katz
 -----------------------
 #はげるニャ！
-I'm gonna go bald, nya!
+I'm gonna go bald, meow!
 -----------------------
 #ねこにん
 Katz
 -----------------------
 #はげるニャ！
-I'm gonna go bald, nya!
+I'm gonna go bald, meow!
 -----------------------
 #ねこにん
 Katz
 -----------------------
 #はげるニャ！
-I'm gonna go bald, nya!
+I'm gonna go bald, meow!
 -----------------------
 #つめとぎ禁止
 No claw sharpening allowed.
@@ -41,7 +41,7 @@ No claw sharpening allowed.
 It's a cat daruma.
 -----------------------
 #のこ栽培中
-Catnip under cultivation.
+Noko cultivation in progress.
 -----------------------
 #ねこにん
 Katz
@@ -49,13 +49,13 @@ Katz
 #こういう「すとらくちゃ」のあるトコロが
 #ポイントニャ
 These "strucktures" are
-what make this place great, nya.
+what make this place great, meow.
 -----------------------
 #ねこにん
 Katz
 -----------------------
 #かからないニャ～････
-It won't hit, nya~...
+It won't hit, meow~...
 -----------------------
 NOTICE
 -----------------------
@@ -79,14 +79,14 @@ General Store
 -----------------------
 #いらっしゃいニャ！
 #なんか買っていってほしいニャ！
-Welcome, nya!
+Welcome, meow!
 Buy somethin', would ya?
 -----------------------
 #どうもありがとうニャ！
-Thanks a bunch, nya!
+Thanks a bunch, meow!
 -----------------------
 #残念ニャ････
-Too bad, nya...
+Too bad, meow...
 -----------------------
 #雑貨屋
 General Store
@@ -96,21 +96,21 @@ General Store
 -----------------------
 #お客さんなんて久しぶりニャ！
 We haven't had a customer in
-forever, nya!
+forever, meow!
 -----------------------
 #食材屋
 Grocery
 -----------------------
 #いらっしゃいニャ！
 #なんか買っていってほしいニャ！
-Welcome, nya!
+Welcome, meow!
 Buy somethin', would ya?
 -----------------------
 #どうもありがとうニャ！
-Thanks a bunch, nya!
+Thanks a bunch, meow!
 -----------------------
 #残念ニャ････
-Too bad, nya...
+Too bad, meow...
 -----------------------
 #食材屋
 Grocery
@@ -119,21 +119,21 @@ Grocery
 Grocery
 -----------------------
 #いらっしゃいニャ！
-Welcome, nya!
+Welcome, meow!
 -----------------------
 #武器屋
 Weapon Shop
 -----------------------
 #いらっしゃいニャ！
 #なんか買っていってほしいニャ！
-Welcome, nya!
+Welcome, meow!
 Buy somethin', would ya?
 -----------------------
 #どうもありがとうニャ！
-Thanks a bunch, nya!
+Thanks a bunch, meow!
 -----------------------
 #残念ニャ････
-Too bad, nya...
+Too bad, meow...
 -----------------------
 #雑貨屋
 General Store
@@ -143,14 +143,14 @@ Armor Shop
 -----------------------
 #いらっしゃいニャ！
 #なんか買っていってほしいニャ！
-Welcome, nya!
+Welcome, meow!
 Buy somethin', would ya?
 -----------------------
 #どうもありがとうニャ！
-Thanks a bunch, nya!
+Thanks a bunch, meow!
 -----------------------
 #残念ニャ････
-Too bad, nya...
+Too bad, meow...
 -----------------------
 #食材屋
 Grocery
@@ -202,7 +202,7 @@ Hey, are Katz... wearing costumes?
 Katz
 -----------------------
 #ニャニャ～！やめるニャ～～！
-Nyanya~! Stop that, nyaa~~!
+Meowow~! Stop that, meoww~~!
 -----------------------
 <Kyle>
 -----------------------
@@ -226,7 +226,7 @@ Mushroom shop
 -----------------------
 #のこのきのこ
 #食べるニャ？
-Knock-knock mushrooms.
+Noko mushrooms.
 Want a bite, meow?
 -----------------------
 SELECT
@@ -252,14 +252,14 @@ Just a moment, meow.
 Mushroom shop
 -----------------------
 #のこの耳がまた生えてからくるニャ
-Come back once my ears grow back,
-meow.
+Come back once Noko's ears grow
+back, meow.
 -----------------------
 #きのこや
 Mushroom shop
 -----------------------
 #のこのきのこはとってもおいしいのニャ
-Knock-knock mushrooms are super
+Noko mushrooms are super
 tasty, meow.
 -----------------------
 #チャイム
@@ -286,14 +286,14 @@ Chime
 a really cool name too, meow!
 -----------------------
 #シロフォン
-Sylph
+Xylophone
 -----------------------
 #おうちがないなんて、へんなのニャ～
 You don't have a home? That's
 weird, meow~
 -----------------------
 #シロフォン
-Sylph
+Xylophone
 -----------------------
 #「<item:00000C02>」は
 #おじじの家に住むことになったニャ
@@ -307,7 +307,7 @@ Chime
 Where did you come from, meow~?
 -----------------------
 #シロフォン
-Sylph
+Xylophone
 -----------------------
 #何ていう名前ニャ？
 What's your name, meow?
@@ -378,10 +378,10 @@ Thanks, myu~
 Think up a cool name, myu!
 -----------------------
 #こねこにん
-Neko-nin
+Katz Kitten
 -----------------------
 #名前きまったミュ？
-Have you decided on a name?
+Have you decided on a name, myu?
 -----------------------
 SELECT
 -----------------------
@@ -432,7 +432,7 @@ you with, call on me anytime, myu!
 I'm going for a walk, meow!
 -----------------------
 #きのこや
-Mushrooms.
+Mushroom shop
 -----------------------
 #どうぞニャ
 Here you go, meow.
@@ -447,7 +447,7 @@ Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald per night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
