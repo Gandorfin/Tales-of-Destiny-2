@@ -159,8 +159,8 @@ I couldn't call myself a sailor!
 #ずいぶんとカップクの良い
 #おじさんだね
 #キライじゃないよ、そういうの
-You're quite the stubborn
-old man.
+You're one big, burly
+fella, mister.
 I don't hate that type.
 -----------------------
 #おじさん
@@ -789,8 +789,7 @@ Cat Ninja
 #もうずいぶん前になるけれど
 #わちには一人の息子がいたのでミュ
 It was quite some time ago now...
-I had a son, you see. His name
-was Mieu.
+but I had a son, you see, myu.
 -----------------------
 #ねこにん
 Cat Ninja
@@ -1001,7 +1000,7 @@ select
 #　リファイン講座　
 #　いらない　
 <03:00000000>Buy
-<0B:00000001>{14}{25}{E6}{C0}Buy all at once ({14}{35}{E0}{C0} Gald)<0B:00000000>
+<0B:00000001>Buy {14}{25}{E6}{C0} in bulk ({14}{35}{E0}{C0} Gald)<0B:00000000>
 Refine Course
 No thanks
 -----------------------

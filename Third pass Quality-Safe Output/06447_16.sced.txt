@@ -5,7 +5,7 @@ Heidelberg Museum: Eye of Atamoni
 Heidelberg
 -----------------------
 #博物館『神の眼を巡る騒乱』
-Museum: 'The Unrest Surrounding the
+Museum: 'The Unrest Over the
 Eye of Atamoni'
 -----------------------
 NOTICE
@@ -137,9 +137,9 @@ NOTICE
 #ファンダリアの王子にして
 #ソーディアン・イクティノスのマスター
 #騒乱当時２３歳
-Prince of Phandaria and master of
-Swordian Igtenos. He was 23 years
-old during the unrest.
+Prince of Phandaria and master
+of Swordian Igtenos.
+Age at the time: 23
 -----------------------
 NOTICE
 -----------------------
@@ -213,9 +213,9 @@ NOTICE
 #英雄たちと苦難の旅を共にした拳闘士で
 #ノイシュタット闘技場の王者
 #騒乱当時３９歳
-A pugilist who traveled with heroes.
-Champion of Neuestadt's arena.
-Age during the unrest: 39.
+A pugilist who journeyed with the
+heroes. Champion of Neuestadt's
+arena. Age at the time: 39
 -----------------------
 NOTICE
 -----------------------
@@ -238,9 +238,9 @@ NOTICE
 #様々な局面で四英雄たちを支援した
 #騒乱当時２６歳
 Born to a noble Aquaveil family,
-A bard who supported the Four Heroes
-through many trials.
-Age during the conflict: 26
+a bard who supported the Four
+Heroes through many trials.
+Age at the time: 26
 -----------------------
 NOTICE
 -----------------------
@@ -258,8 +258,9 @@ NOTICE
 -----------------------
 #天地戦争時代、地上軍の旗艦として
 #運用されていた巨大な輸送艦
-Er'ther flagship of Aeth'er Wars,
-a massive transport ship.
+A massive transport ship used as
+the Er'ther forces' flagship
+during the Aeth'er Wars.
 -----------------------
 NOTICE
 -----------------------
