@@ -57,7 +57,8 @@ What's this?!
 NOTICE
 -----------------------
 #ＴＯＤ２の追加クイズ問題を見つけた！
-Found a bonus T.O.D.2 quiz!
+Found a Tales of Destiny 2
+bonus quiz!
 -----------------------
 NOTICE
 -----------------------
@@ -67,7 +68,7 @@ New category added to the quiz book!
 #広告が貼ってある
 #『コングマン自伝・俺と拳　大好評発売中！』
 There's an advertisement posted.
-'Kong Man's Autobiography: Me
+'Kongman's Autobiography: Me
 and My Fists - Now on Sale!'
 -----------------------
 #『万雑貨・新鮮な食材のお求めはこちらで！』
@@ -211,9 +212,9 @@ Man
 #それなりに平等に暮らしてるなんて
 #昔じゃ、信じられない話だよ
 The wealthy elite and us laborers
-living together in relative
-equality- would've been unbelievable
-back in the day.
+living together, more or less
+equal... Back in the day, nobody
+would've believed it.
 -----------------------
 #おじさん
 Man
@@ -378,7 +379,7 @@ Who's "her"?
 #イレーヌ＝レンブラントという女性だ
 #彼女は、貧富の差が激しい現状に
 #誰よりも心を痛めていたからな
-A woman named Irene Rembrandt. She
+A woman named Ilene Rembrandt. She
 took the gap between rich and poor
 more to heart than anyone.
 -----------------------
@@ -412,7 +413,7 @@ Wealthy Man
 #イレーヌさんは、なんていうかな････
 The gap between rich and poor is
 fading. Looking at Neuestadt now, I
-wonder what Irene would say...
+wonder what Ilene would say...
 -----------------------
 <Reala>
 -----------------------
@@ -430,7 +431,7 @@ Wealthy Man
 #すかしていると、とても悲しそうだった
 #だから、人一倍救いたいって気持ちが
 #強かったんだろうね
-Irene always looked so sad
+Ilene always looked so sad
 when she saw children going
 hungry. That's probably why she
 felt more strongly than anyone
@@ -442,7 +443,7 @@ Wealthy Man
 #今のノイシュタットを見て
 #イレーヌさんはどう思うのかな？
 #喜んでくれてるいるといいけど････
-I wonder what Irene would think
+I wonder what Ilene would think
 if she saw Neuestadt now. I hope
 she'd be happy...
 -----------------------
@@ -461,7 +462,7 @@ Wealthy Man
 -----------------------
 #今のノイシュタットを
 #イレーヌさんに見せたかったなぁ
-I wish I could show Irene
+I wish I could show Ilene
 the Neuestadt of today...
 -----------------------
 <Kyle>
@@ -469,7 +470,7 @@ the Neuestadt of today...
 #イレーヌ？
 #････なんだろう？
 #聞いたことが、あるような気が････
-Irene? ...Why does that sound
+Ilene? ...Why does that sound
 familiar? Like I've heard it
 somewhere before...
 -----------------------
@@ -479,7 +480,7 @@ Wealthy Man
 #イレーヌさんってのはさ
 #この街で、慈善事業をやっていた人さ
 #リッパな人だった････
-Irene was someone who did charity
+Ilene was someone who did charity
 work right here in town. She was a
 wonderful person...
 -----------------------
@@ -940,9 +941,9 @@ Mach Boy
 -----------------------
 #フッ　オレに勝つとはな
 #世の中にはまだまだ強者がいるものだ
-Hmph. So you think you can beat me?
-There are still plenty of strong
-fighters out there in this world.
+Hmph. So someone's actually beaten
+me... The world still has its share
+of fast runners, it seems.
 -----------------------
 #マッハ少年
 Mach Boy
@@ -1237,7 +1238,7 @@ he'd leave those brats in the dust
 without even trying!
 -----------------------
 #エントリー娘。
-Entry girl.
+Entry Girl.
 -----------------------
 #レースをやりますか？
 #<03:00000000>　はい　
@@ -1313,7 +1314,7 @@ Just watch.
 Thug
 -----------------------
 #なんとかいったらどうだよ、アン！
-C'mon, say somethin', Ann!
+C'mon, say somethin', huh?!
 -----------------------
 #リムル
 Rimul
@@ -1339,7 +1340,7 @@ Rimul
 #剣が泣くだけだもの････
 ...Rest easy.
 I won't lift a finger...
-It would only make your swords weep.
+It would only make my sword weep.
 -----------------------
 #悪漢
 Thug
@@ -2809,8 +2810,8 @@ select
 #　リファイン講座　
 #　いらない　
 <03:00000000>Buy
-<0B:00000001>{14}{26}{2A}{C0}Buy in bulk ({14}{36}{24}{C0} Gald)<0B:00000000>
-Refine Tutorial
+<0B:00000001>Buy {14}{26}{2A}{C0} in bulk ({14}{36}{24}{C0} Gald)<0B:00000000>
+Refine Guide
 No thanks
 -----------------------
 select
@@ -2819,7 +2820,7 @@ select
 #　リファイン講座　
 #　いらない　
 <03:00000000>Buy
-Refine Tutorial
+Refine Guide
 No thanks
 -----------------------
 #お買い上げ、ありがとうございます
@@ -2834,7 +2835,7 @@ Thank you for your purchase.
 -----------------------
 #リファイン講座を聞きたいですか？
 Would you like to hear
-the Refine tutorial?
+the Refine Guide?
 -----------------------
 select
 -----------------------

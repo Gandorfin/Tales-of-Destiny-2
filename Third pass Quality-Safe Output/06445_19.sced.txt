@@ -226,9 +226,9 @@ Neuestadt Merchant
 #ウィンターズくん
 #例の物、それぞれ１５着ずつ
 #よろしく頼まれてくれるかね？
-Winters, my boy Fifteen of each of
-those items, if you please. Can I
-count on you?
+Winters, my boy. Fifteen of each
+of those items, if you please.
+Can I count on you?
 -----------------------
 #ウィンターズ
 Winters
@@ -246,7 +246,7 @@ Neuestadt Merchant
 #ところでウィンターズくん
 #この前の話だが････
 Very well, it's a deal.
-By the way, Winters, my boy
+By the way, Winters, my boy,
 about our previous discussion...
 -----------------------
 #ウィンターズ
@@ -347,7 +347,7 @@ Winters
 ...Wait, it's the materials after
 all. To get both strength and
 flexibility, I've got no choice but
-to use Berserium...
+to use Berselium...
 -----------------------
 <Kyle>
 -----------------------
@@ -439,7 +439,7 @@ Winters
 #こいつはおそろしく希少価値があって
 #滅多に手に入らないんだ
 <Kyle>, I'm looking for an ore called
-'Berserium.' It's a legendary ore,
+'Berselium.' It's a legendary ore,
 absurdly rare, and nearly impossible
 to find.
 -----------------------
@@ -448,7 +448,7 @@ Winters
 -----------------------
 #もし、そのベルセリウムを持ってきたら
 #お前さんの頼みを聞いてやるよ
-If you bring me that Berserium,
+If you bring me that Berselium,
 I'll hear out your request.
 -----------------------
 <Kyle>
@@ -456,7 +456,7 @@ I'll hear out your request.
 #オーケー！
 #『ベルセリウム』と引き換えだね！
 #持ってくるから、スゴイ物を作ってね！
-Okay! In exchange for Berserium,
+Okay! In exchange for Berselium,
 right?! I'll bring it, so make
 something awesome!
 -----------------------
@@ -466,7 +466,7 @@ Winters
 #よぉ、<Kyle>
 #『ベルセリウム』は見付かったか？
 Hey, <Kyle>.
-Did you find the Berserium?
+Did you find the Berselium?
 -----------------------
 <Kyle>
 -----------------------

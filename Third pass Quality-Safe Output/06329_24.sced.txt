@@ -85,7 +85,7 @@ Looks like it's still running.
 #前に、神殿の本で見たことがある
 This is... a machine from the
 Aeth'er Wars. I saw one in a book
-at the shrine before.
+at the temple before.
 -----------------------
 <Loni>
 -----------------------
@@ -154,7 +154,7 @@ press the <button:00000025> button.
 #<button:00000025>ボタンを押しっぱなしにして
 #移動すれば、物を引きずれる
 #それを、この機械の中に入れるんだ
-<button:00000025>Hold down the button and move,
+Hold down the <button:00000025> button and move,
 and you can drag stuff around.
 Then put it inside this machine.
 -----------------------

@@ -18,8 +18,8 @@ NOTICE
 -----------------------
 #<item:00000069>と<item:0000004C>を
 #手に入れました
-Acquired <item:00000069> and <item:0000004C>.
-I got it.
+Acquired <item:00000069>
+and <item:0000004C>.
 -----------------------
 #美味しくなさそうな料理が並んでいる････
 Some unappetizing
@@ -50,8 +50,8 @@ she should wake up before long.
 #よくがんばったよな
 #<Reala>はよ！
 Man, for such a tiny body,
-you really pushed yourself.
-<Reala>, hurry up!
+she really pushed herself.
+That's our <Reala>!
 -----------------------
 <Loni>
 -----------------------
@@ -711,7 +711,7 @@ something smart for once.
 Overly Veteran
 -----------------------
 #息子
-...Son.
+Son
 -----------------------
 notice
 -----------------------
@@ -800,7 +800,7 @@ laughing too much...)
 Overly Veteran
 -----------------------
 #息子
-...Son.
+Son
 -----------------------
 notice
 -----------------------
@@ -910,7 +910,7 @@ if I said it once...)
 Overly Veteran
 -----------------------
 #息子
-...Son.
+Son
 -----------------------
 notice
 -----------------------

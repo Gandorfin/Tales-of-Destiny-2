@@ -455,7 +455,7 @@ Woman
 -----------------------
 #空に散らばってしまったレンズの回収････
 #手伝ってもらえませんか？
-I need help collecting the Lenses
+I need help collecting the Lens
 scattered across the sky... Could
 you give me a hand?
 -----------------------
@@ -472,7 +472,7 @@ Woman
 #空に散らばったレンズを１００枚集めてください
 #規定タイム以内ならば景品をあげます
 #ベストタイムを目指して頑張ってください
-Please collect 100 Lenses
+Please collect 100 Lens
 scattered across the sky.
 If you finish within the
 time limit, you'll receive a
@@ -1127,7 +1127,7 @@ something smart for once.
 Overly Veteran
 -----------------------
 #息子
-...Son.
+Son
 -----------------------
 notice
 -----------------------
@@ -1216,7 +1216,7 @@ a bit too hard...)
 Overly Veteran
 -----------------------
 #息子
-...Son.
+Son
 -----------------------
 notice
 -----------------------
@@ -1300,7 +1300,7 @@ unleash our Mystic Artes right away?
 -----------------------
 #いえ父さん　私は晶術使いなんで
 #秘奥義なんて使わないんですよ
-No, Father. I'm a magic user,
+No, Dad. I'm a magic user,
 so I don't even have a Mystic Arte.
 -----------------------
 #というか秘奥義の後はＳＰが０になるから
@@ -1314,7 +1314,7 @@ Please do not use one unless
 it can finish the enemy.
 -----------------------
 #ジャマなんで
-Because you're in my way.
+Because it gets in the way.
 -----------------------
 #（一回言えば分かると思うが・・・）
 (I thought saying it
@@ -1324,7 +1324,7 @@ once would be enough...)
 Overly Veteran
 -----------------------
 #息子
-...Son.
+Son
 -----------------------
 notice
 -----------------------
@@ -1376,7 +1376,7 @@ have the rest cast spells.
 #応じて作戦を変えるのがいいようですよ
 #敵に効果がある場合は、スペクタクルズを
 #使えば内容が分かりますし
-That's true, Father, but it seems
+That's true, Dad, but it seems
 best to change your strategy
 based on the status effect.
 If it affects enemies, using

@@ -456,9 +456,9 @@ Soldier
 #謁見･･の････間は････
 #････守りが、手薄････！
 #いそ････げ････！
-The audience... is... in progress...
-...Our defenses... are thin...!
-Hurry...!
+The audience... chamber...
+...Its defenses... are thin...!
+Hur...ry...!
 -----------------------
 #兵士
 Soldier
@@ -568,9 +568,9 @@ is like meeting a living legend.
 #そうなの？
 #ウッドロウさんのほうがずっと
 #生ける伝説って感じだと思うけど
-Is that so?
-Garr is way...
-more of a living legend.
+Is that so? I think Garr feels
+way more like a living legend,
+though.
 -----------------------
 #兵士
 Soldier
@@ -598,7 +598,7 @@ he hardly feels like a legend.
 #父さんはたしかに強いけど
 #英雄っていわれても、ピンと来ないよ
 Oh, I get it, totally! My dad
-is definitely strong, But 'hero'
+is definitely strong, but 'hero'
 doesn't really click for me.
 -----------------------
 #兵士
@@ -757,8 +757,8 @@ Soldier
 -----------------------
 #失礼いたしました！
 #すぐに、謁見したいとのことです！
-My apologies!
-He requests an audience immediately!
+My apologies! His Majesty will
+see you at once!
 -----------------------
 #兵士
 Soldier
@@ -910,7 +910,7 @@ Yes...
 #新しい手がかりも････
 #その顔を見るかぎり、なさそうだな
 A new lead, too...
-Judging by your faces, I doubt it.
+Judging by your face, I doubt it.
 -----------------------
 <Judas>
 -----------------------
@@ -1030,7 +1030,7 @@ It's a hero like Stahn.
 #そんな英雄だ
 No matter what happens, always
 thinking of his comrades first...
-That is the kind of hero.
+That's the kind of hero he means.
 -----------------------
 <Judas>
 -----------------------

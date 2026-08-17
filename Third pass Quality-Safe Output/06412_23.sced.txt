@@ -19,7 +19,7 @@ destination is Heidelberg.
 #船具が収められた箱だ
 #『アルジャーノン号、補修資材』と書かれている
 A box containing ship equipment. It
-reads 'Aljarnon, repair materials.'
+reads 'Algernon, repair materials.'
 -----------------------
 <Loni>
 -----------------------
@@ -224,7 +224,7 @@ Captain
 #我がアルジャーノン号は
 #まもなく出港する
 #準備はいいかな、若人たちよ！{02}
-The Aljarnon
+The Algernon
 will be departing shortly.
 Ready, youngsters?{02}
 -----------------------

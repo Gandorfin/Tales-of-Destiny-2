@@ -211,7 +211,7 @@ Let's get moving too, <Loni>!
 #････はぁ
 #こいつにマジな話をした
 #俺がバカだった････
-...Sigh. I actually tried to have
+...*sigh* I actually tried to have
 a serious talk with this guy. I'm
 such an idiot...
 -----------------------
@@ -531,7 +531,7 @@ Yakiniku Set Meal
 Pork Bun
 -----------------------
 #うまティー
-Uma Tea
+Tasty Tea
 -----------------------
 #焼き魚定食
 Grilled Fish Set Meal
@@ -629,7 +629,7 @@ Here's your cut. Take it.
 notice
 -----------------------
 #<0B:00000001>{14}{34}{88}{C0}ガルドを手に入れました<0B:00000000>
-<0B:00000001>{14}{34}{88}{C0}Acquired <0B:00000000> Gald.
+<0B:00000001>Acquired {14}{34}{88}{C0} Gald.<0B:00000000>
 -----------------------
 #また頼むよ
 I'll be counting on you again.

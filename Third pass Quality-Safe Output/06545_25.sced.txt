@@ -313,8 +313,8 @@ select
 #　リファイン講座　
 #　いらない　
 <03:00000000>Buy
-<0B:00000001>{14}{25}{D6}{C0}Buy all at once ({14}{35}{D0}{C0} Gald)<0B:00000000>
-Refine Tutorial
+<0B:00000001>Buy {14}{25}{D6}{C0} in bulk ({14}{35}{D0}{C0} Gald)<0B:00000000>
+Refine Guide
 No thanks
 -----------------------
 select
@@ -323,7 +323,7 @@ select
 #　リファイン講座　
 #　いらない　
 <03:00000000>Buy
-Refine Tutorial
+Refine Guide
 No thanks
 -----------------------
 #お買い上げ、ありがとうございます
@@ -338,7 +338,7 @@ Thank you for your purchase.
 -----------------------
 #リファイン講座を聞きたいですか？
 Would you like to hear
-the Refine tutorial?
+the Refine Guide?
 -----------------------
 select
 -----------------------
@@ -633,7 +633,7 @@ organized is important too.
 Veteran
 -----------------------
 #ひよっこ
-rookie
+Rookie
 -----------------------
 notice
 -----------------------
@@ -1146,7 +1146,7 @@ something smart for once.
 Overly Veteran
 -----------------------
 #息子
-son
+Son
 -----------------------
 notice
 -----------------------
@@ -1234,7 +1234,7 @@ Hahahahahaha!
 Overly Veteran
 -----------------------
 #息子
-...son.
+Son
 -----------------------
 notice
 -----------------------
@@ -1341,7 +1341,7 @@ it after one time...)
 Overly Veteran
 -----------------------
 #息子
-...son.
+Son
 -----------------------
 notice
 -----------------------

@@ -106,7 +106,7 @@ select
 #<03:00000000>　ベルセリウムのヒミツ　
 #　戦闘称号のヒミツ　
 #　ソーサラースコープのヒミツ　
-<03:00000000> The Secret of Berserium
+<03:00000000> The Secret of Berselium
 The Secret of Battle Titles
 The Secret of the Sorcerer's Scope
 -----------------------
@@ -116,7 +116,7 @@ Soldier
 #ベルセリウムってのは
 #強力な武具の原料になる
 #鉱石の事だ
-Berserium is a mineral
+Berselium is a mineral
 that serves as raw material
 for powerful equipment.
 -----------------------
@@ -135,7 +135,7 @@ Soldier
 -----------------------
 #ベルセリウムは、よく『スパイラルケイブ』で
 #見付かるらしいぜ
-They say Berserium is often found
+They say Berselium is often found
 in the Spiral Cave.
 -----------------------
 #兵卒

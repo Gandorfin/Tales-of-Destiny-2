@@ -500,8 +500,8 @@ hedgehog! Yep, yep!
 <Kyle>
 -----------------------
 #････いや、きっと、父さんのことだよ
-...No, it's definitely about my
-father.
+...No, you're thinking
+of my dad.
 -----------------------
 #おじさん
 Man
@@ -590,7 +590,7 @@ well-maintained farming tools.
 #木箱に何か書かれている
 #『出荷品・リーネ小麦：アイグレッテゆき』
 There's something written on the
-wooden crate. 'Shipment: Liene
+wooden crate. 'Shipment: Lienea
 Wheat - Bound for Aigrette'
 -----------------------
 <Kyle>
@@ -815,7 +815,7 @@ notice
 Veteran
 -----------------------
 #ひよっこ
-Newbie
+Rookie
 -----------------------
 notice
 -----------------------
@@ -2065,8 +2065,8 @@ select
 #　リファイン講座　
 #　いらない　
 <03:00000000>Buy
-<0B:00000001>{14}{26}{32}{C0}Buy in bulk ({14}{36}{2C}{C0} Gald)<0B:00000000>
-Refining Lecture
+<0B:00000001>Buy {14}{26}{32}{C0} in bulk ({14}{36}{2C}{C0} Gald)<0B:00000000>
+Refine Guide
 No thanks
 -----------------------
 select
@@ -2075,7 +2075,7 @@ select
 #　リファイン講座　
 #　いらない　
 <03:00000000>Buy
-Refining Lecture
+Refine Guide
 No thanks
 -----------------------
 #お買い上げ、ありがとうございます
@@ -2090,7 +2090,7 @@ Thank you for your purchase.
 -----------------------
 #リファイン講座を聞きたいですか？
 Would you like to hear
-the Refining Lecture?
+the Refine Guide?
 -----------------------
 select
 -----------------------

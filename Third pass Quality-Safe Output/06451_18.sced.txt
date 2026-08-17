@@ -391,8 +391,8 @@ Soldier
 -----------------------
 #････く、へ、陛下････！
 #いま、おそばに････！
-...Y-Your Majesty...!
-I'm right here...!
+...Ngh... Y-Your Majesty...!
+I'm coming... to your side...!
 -----------------------
 #兵士
 Soldier
@@ -901,8 +901,8 @@ But you were different...
 -----------------------
 #はははっ！
 #もっと緊張感を持てってよ
-Hahaha!
-He's saying you need more tension.
+Hahaha! She's saying you should
+be a little more nervous!
 -----------------------
 <Kyle>
 -----------------------
@@ -998,8 +998,8 @@ Th-that woman is...!
 -----------------------
 #姿が見えないと思ったら、
 #こんなところにいたんだね
-I couldn't find you anywhere,
-so you were hiding out here.
+I couldn't find you anywhere.
+So this is where you were.
 -----------------------
 <Reala>
 -----------------------
@@ -1086,9 +1086,9 @@ What do you mean?
 #だから、わたしと、<Kyle>
 #あんなに、ひどいこと、
 #いっちゃったんだもの、もう････
-Because I said such terrible things
-to <Kyle>...
-I went too far, so now...
+Me and <Kyle>.
+I said such terrible things to him,
+so now...
 -----------------------
 <Nanaly>
 -----------------------
@@ -1180,7 +1180,7 @@ truly understand each other.
 #ケンカって、痛いし、ツラいけどさ
 Fighting hurts. It's rough.
 -----------------------
-<Reala>
+<Nanaly>
 -----------------------
 #それをのりこえて、はじめて本当に
 #仲良くなれるし、幸せにもなれるんだ
@@ -1188,7 +1188,7 @@ But once you get through it, that's
 when you can really become close
 and find happiness.
 -----------------------
-<Reala>
+<Nanaly>
 -----------------------
 #あんたたちは、はじめて本音をぶつけあって、
 #はじめてケンカをした
@@ -1283,9 +1283,9 @@ You should get some rest too.
 #こっちじゃ昼前だけど、あたしたちは、
 #ホープタウンを出発してからずっと
 #起きてるんだからさ
-It's still morning here, but we've
-been up ever since we left Hope
-Town, so we're running on fumes.
+It's not even noon here, but we've
+been awake ever since we left
+Hope Town.
 -----------------------
 <Nanaly>
 -----------------------
@@ -1312,8 +1312,8 @@ convictions!
 -----------------------
 #<Kyle>！
 #急がないと、ウッドロウさんが！
-<Kyle>! We gotta hurry, or Garr's
-gonna--!
+<Kyle>!
+If we don't hurry, Garr will--!
 -----------------------
 <Kyle>
 -----------------------

@@ -29,8 +29,8 @@ NOTICE
 -----------------------
 #<item:00000003>を
 #手に入れました
-Acquired <item:00000003>.
-Got it.
+Acquired
+<item:00000003>.
 -----------------------
 #シェフをかたどった雪だるまだ
 A snowman shaped like a chef.
@@ -654,9 +654,9 @@ Kid
 #うちの父ちゃん
 #大きくなったら
 #ドラゴンになるのかなぁ？
-My old man...
-I wonder if I'll become
-a dragon when I grow up?
+I wonder if my old man's
+gonna turn into a dragon
+someday?
 -----------------------
 #子供
 Kid
@@ -1171,7 +1171,7 @@ John
 -----------------------
 #返事が無い　ついでに意識も無いようだ
 No reply... and it looks like
-she's lost consciousness too.
+he's lost consciousness too.
 -----------------------
 #ジニー
 Ginny
@@ -1207,7 +1207,7 @@ To our own time.
 -----------------------
 #ふぅ、やれやれだぜ
 #まったく、大変だったなぁ、<Kyle>
-Phew. Good riddance.
+Phew, what a relief.
 Man, that was rough, <Kyle>.
 -----------------------
 <Kyle>
@@ -1465,8 +1465,9 @@ Grid
 #漆黒の翼ともあろう者が････
 #ふ････不覚････････
 To think I can't even pay for
-lodging... One with wings of deepest
-black... How... humiliating...
+lodging... And I call myself one
+of the Jet-Black Wings...
+How... humiliating...
 -----------------------
 #グリッド
 Grid

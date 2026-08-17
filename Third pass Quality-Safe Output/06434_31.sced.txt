@@ -806,7 +806,7 @@ Man
 #ハァ～
 #ふところが寒すぎて
 #心の中までこごえそうだよ
-*Sigh*~ My pockets are so empty,
+*sigh*~ My pockets are so empty,
 I feel like my heart's freezing
 over too.
 -----------------------
@@ -2012,7 +2012,7 @@ We shouldn't leave town right now.
 Veteran
 -----------------------
 #ひよっこ
-rookie
+Rookie
 -----------------------
 notice
 -----------------------
@@ -2517,7 +2517,7 @@ something smart for once.
 Overly Veteran
 -----------------------
 #息子
-...Son.
+Son
 -----------------------
 notice
 -----------------------
@@ -2605,7 +2605,7 @@ laughing too hard...)
 Overly Veteran
 -----------------------
 #息子
-...Son.
+Son
 -----------------------
 notice
 -----------------------
@@ -3251,7 +3251,7 @@ select
 #　リファイン講座　
 #　いらない　
 <03:00000000> Buy
-<0B:00000001>{14}{25}{F2}{C0} Buy all at once ({14}{35}{EC}{C0} Gald)<0B:00000000>
+<0B:00000001>Buy {14}{25}{F2}{C0} in bulk ({14}{35}{EC}{C0} Gald)<0B:00000000>
 Refine Guide
 No thanks
 -----------------------
@@ -3276,7 +3276,7 @@ Thank you for your purchase.
 -----------------------
 #リファイン講座を聞きたいですか？
 Would you like to
-hear the Refine guide?
+hear the Refine Guide?
 -----------------------
 select
 -----------------------

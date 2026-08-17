@@ -348,10 +348,10 @@ Philia...!
 #大司祭さまが、「神の眼」を奪い
 #世界を支配する野望に荷担した
 #しかも、私も知らずに手伝っていた････
-The High Priestess stole the
+The High Priest stole the
 Eye of Atamoni and aided a mad
 ambition to rule the world.
-And I had been helping her,
+And I had been helping him,
 without even realizing it...
 -----------------------
 #そのことを知った私は
@@ -378,8 +378,8 @@ why the person I am today exists.
 -----------------------
 #残念ながら、英雄に会うための術は
 #私にもわかりません
-Unfortunately, I know of no
-way to meet the hero. Nor do I.
+Unfortunately, not even I know
+of a way to meet a hero.
 -----------------------
 #ですが、あなたに
 #必要なものなら、わかります
@@ -583,7 +583,7 @@ W-well then, Philia.
 I'll be going now...
 -----------------------
 #<Reala>さん
-<Reala>-san.
+<Reala>.
 -----------------------
 #聞こえますか、<Reala>さん
 #トクン、トクンといっている
@@ -1063,7 +1063,7 @@ to amplify the power of Lens...
 #あの天空都市ダイクロフトの兵器
 #ベルクラントの破壊力をうみだしたといわれる
 #とてもキケンな石････
-The weapon of that aerial city,
+The weapon of the aeropolis
 Dycroft... Belcrant, said to
 have unleashed its destructive
 power... A very dangerous stone...

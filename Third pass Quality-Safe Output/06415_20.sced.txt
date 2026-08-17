@@ -18,7 +18,7 @@ but no pianist.
 #　ぜひお立ち寄り下さい』
 There's a flyer inside. 'For
 all your archery needs, contact
-Chelsea Tone.' If you're
+Chelsea Torn.' If you're
 ever heading northwest of
 Heidelberg, please stop by!'
 -----------------------
@@ -166,8 +166,8 @@ Bartender
 -----------------------
 #それでは････
 #『リキュール哀羅武憂』などいかがでしょう？
-Well then...
-How about a 'Liqueur Airabu'u'?
+Well then... How about our
+'Liqueur Heartrend Amour'?
 -----------------------
 <Loni>
 -----------------------
@@ -350,7 +350,7 @@ Here's your cut. Take it.
 notice
 -----------------------
 #<0B:00000001>{14}{34}{80}{C0}ガルドを手に入れました<0B:00000000>
-<0B:00000001>{14}{34}{80}{C0}Acquired <0B:00000000> Gald.
+<0B:00000001>Acquired {14}{34}{80}{C0} Gald.<0B:00000000>
 -----------------------
 #また頼むよ
 I'll be counting on you again.
