@@ -61,7 +61,7 @@ Dymlos
 -----------------------
 #あとは君たちだけだ
 #準備ができたら、乗りこんでくれ
-The rest is up to you two.
+You're the last ones.
 Once you're ready, come aboard.
 -----------------------
 notice
@@ -98,7 +98,7 @@ Scientist
 -----------------------
 #まともな部品さえあれば
 #すぐにでも完成させられるんですけどね
-If I had even proper parts,
+If only I had proper parts,
 I could finish it right away.
 -----------------------
 #科学者
@@ -299,8 +299,8 @@ under the sun again.
 -----------------------
 #飛べ～、飛べ～、ロケット～♪
 #燃料吹き出し、火をあげて～♪
-Fly~, fly~, rocket~♪
-Spewing fuel, light the fire~♪
+Fly away~, fly away~, rocket~♪
+Fuel spraying out, light the fire~♪
 -----------------------
 NOTICE
 -----------------------
