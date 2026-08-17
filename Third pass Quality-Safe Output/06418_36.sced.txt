@@ -64,7 +64,7 @@ Here's your prize money.
 Announcer
 -----------------------
 #<0B:00000001>{14}{34}{78}{C0}<0B:00000000>ガルドを獲得しました
-<0B:00000001>{14}{34}{78}{C0}<0B:00000000>Gald acquired!
+Acquired <0B:00000001>{14}{34}{78}{C0}<0B:00000000> Gald!
 -----------------------
 #司会
 Announcer
@@ -77,13 +77,13 @@ reward.
 Announcer
 -----------------------
 #<0B:00000001>{14}{34}{78}{C0}<0B:00000000>ガルドを獲得しました
-<0B:00000001>{14}{34}{78}{C0}<0B:00000000>Gald acquired!
+Acquired <0B:00000001>{14}{34}{78}{C0}<0B:00000000> Gald!
 -----------------------
 #司会
 Announcer
 -----------------------
 #{16}{24}{80}{C0}を獲得しました
-{16}{24}{80}{C0}acquired!
+Acquired {16}{24}{80}{C0}!
 -----------------------
 #司会
 Announcer
@@ -433,8 +433,8 @@ Rimul
 -----------------------
 #････<Kyle>
 #待ち望んだわ！　この瞬間を！
-...<Kyle> I've been waiting for this
-moment! This very instant!
+...<Kyle>. I've been waiting for
+this moment! This very instant!
 -----------------------
 <Kyle>
 -----------------------
@@ -511,7 +511,7 @@ Your mother...?
 Rimul
 -----------------------
 #リリス母さん････
-Aunt Lilith...
+Mama Lilith...
 -----------------------
 <Kyle>
 -----------------------
@@ -633,17 +633,17 @@ for strong guys~
 #今のあたしは
 #リムルさまにメロメロよ～★
 Right now, I'm totally
-swooning over Rimul-sama~ ★
+swooning over Lady Rimul~ ★
 -----------------------
 #リムルさま、カッコイイ～！
 #もう、ステキステキステキッ★
-Rimul-sama, so cool~! Absolutely
+Lady Rimul, so cool~! Absolutely
 wonderful, wonderful, wonderful! ★
 -----------------------
 #リムルさまも、ステキだったけど････
 #やっぱりあたしは、強い男がスキ★
 #というわけで、<Kyle>～★
-Rimul-sama was wonderful too, but...
+Lady Rimul was wonderful too, but...
 I guess I just love strong guys
 ★ Which means it's all about <Kyle>
 from here on~ ★
@@ -1067,8 +1067,8 @@ It's a hard life!
 #どうして、そんなに
 #ケンカ腰なのさ？
 Hey, mister.
-Why are you so
-picking a fight with everyone?
+Why are you so quick to
+pick a fight with everyone?
 -----------------------
 #うるせー！
 #おまえがスタンの息子だからだ！

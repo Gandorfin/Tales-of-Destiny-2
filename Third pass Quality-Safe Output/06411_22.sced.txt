@@ -28,8 +28,8 @@ Businessman
 -----------------------
 #「オベロン社廃坑」は
 #この街の西にあります
-The "Oberon Company Abandoned Mine"
-is located to the west of this town.
+The "Oberon Abandoned Mine" is
+located to the west of this town.
 -----------------------
 #商人
 Businessman
@@ -55,8 +55,8 @@ Businessman
 -----------------------
 #「オベロン社廃坑」は
 #この街の西にあります
-The "Oberon Company Abandoned Mine"
-is located to the west of this town.
+The "Oberon Abandoned Mine" is
+located to the west of this town.
 -----------------------
 #商人
 Businessman
@@ -288,8 +288,8 @@ Businessman
 #こんなことなら
 #この話、なかったことに････
 Th-that's slander!
-If I'd known, I'd have acted like
-this talk never happened...
+If that's how it's going to be,
+let's call this whole thing off...
 -----------------------
 <Kyle>
 -----------------------
@@ -469,7 +469,7 @@ P-p-p-please, take this!
 notice
 -----------------------
 #<0B:00000001><num:00000BB8><0B:00000000>ガルドを手に入れました
-<0B:00000001><num:00000BB8><0B:00000000>Gald acquired.
+Acquired <0B:00000001><num:00000BB8><0B:00000000> Gald.
 -----------------------
 <Kyle>
 -----------------------
