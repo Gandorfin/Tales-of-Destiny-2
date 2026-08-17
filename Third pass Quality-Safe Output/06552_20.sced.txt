@@ -33,9 +33,9 @@ Old Man
 #さすがにこの歳になると
 #何度もカプセルに入らなくては
 #体がもたんのう
-At my age, I must enter the capsule
-time and again. My body can no
-longer endure it.
+At my age, my body won't hold up
+unless I enter the capsule
+time and again.
 -----------------------
 #おじいさん
 Old Man
@@ -85,7 +85,7 @@ that is when such thoughts arise...
 #予想してたことだが････
 #やっぱ、城なんてないよな
 I figured as much...
-Told you there was no castle.
+No castle here after all.
 -----------------------
 <Judas>
 -----------------------
@@ -153,7 +153,7 @@ Townsperson
 #フォルトゥナ神団の方に聞けば
 #教えてもらえますよ
 You did not know?
-Ask the Order of Atamoni,
+Ask the Sacred Order of Fortuna,
 and they will tell you.
 -----------------------
 <Judas>
@@ -467,7 +467,7 @@ Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
