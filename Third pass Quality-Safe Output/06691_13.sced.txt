@@ -25,12 +25,12 @@ select
 #<03:00000000>　持っていく　
 #　持っていかない　
 <03:00000000> Take it.
-Don't take it.
+Leave it.
 -----------------------
 NOTICE
 -----------------------
 #デリスエンブレムのかけらを手に入れました
-Obtained a Delis Emblem fragment.
+Acquired a Delis Emblem fragment.
 -----------------------
 #いってらっしゃいませ
 Have a good day.
