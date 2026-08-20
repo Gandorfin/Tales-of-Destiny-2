@@ -12,7 +12,7 @@ little-endian values holding (file offset + 0xFF000). The file size never
 changes. Every record is verified against the original Japanese before any
 byte is written, and nothing is written at all if any record fails.
 """
-import argparse, csv, os, shutil, struct, sys
+import argparse, csv, hashlib, os, shutil, struct, sys
 try:                                   # Windows consoles are often not UTF-8
     sys.stdout.reconfigure(errors="replace")
     sys.stderr.reconfigure(errors="replace")
@@ -24,8 +24,15 @@ BIAS=0xFF000
 POOL_START, POOL_END = 1026832, 1033520
 
 def pool_free_start(d):
+    """First free byte of the spare string pool.
+
+    The pool may be completely empty (nothing else has used it yet) or already
+    hold strings from the earlier Arte/Status/Enchant menu patch, in which case
+    we append after them rather than overwrite them.
+    """
     seg=d[POOL_START:POOL_END]
-    return POOL_START+max(i for i,b in enumerate(seg) if b!=0)+1
+    used=[i for i,b in enumerate(seg) if b!=0]
+    return POOL_START+(used[-1]+1 if used else 0)
 
 def main():
     ap=argparse.ArgumentParser()
@@ -67,7 +74,17 @@ def main():
         if prev+avail+1==off: cur.append(off)
         else: runs.append(cur); cur=[off]
     runs.append(cur)
-    data=bytearray(src); pool=pool_free_start(src); inplace=spill=0
+    pool=pool_free_start(src)
+    in_use=pool-POOL_START
+    print(f"SLPS {hashlib.sha256(src).hexdigest()[:8].upper()}, "
+          f"{len(src)} bytes; spare pool: {in_use} bytes already in use, "
+          f"{POOL_END-pool} free")
+    if in_use==0:
+        print("Note: the spare pool is empty, so the earlier Arte/Status/Enchant")
+        print("menu patch is not applied to this file. That is fine here, but if")
+        print("you apply that patch too, apply it BEFORE this one: both use the")
+        print("same pool, and running it afterwards would overwrite these titles.")
+    data=bytearray(src); inplace=spill=0
     for run in runs:
         last=run[-1]; lav=P.budget(src,last,info[last][3]-last)
         lo, hi = run[0], last+lav+1
