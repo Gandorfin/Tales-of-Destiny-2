@@ -51,6 +51,15 @@ nothing. The title patcher also accepts the folder containing `SLPS_251.72`.
 
 Then run Pack FPB in PyTOD2 as usual and rebuild the ISO.
 
+### If you also apply the earlier Arte, Status and Enchant menu patch
+
+Apply that one **first**, then the titles. Both use the same spare string
+area inside the executable. `patch_slps_titles.py` appends after whatever is
+already there, so running it second is safe, while running it first and that
+patch second would overwrite the titles. The script prints how much of that
+area is already in use, and says so when it looks untouched, so you can tell
+which state your executable is in.
+
 Order does not matter relative to the SLPS menu patch: every `md1` and `pak0`
 edit is made **in place at identical file size**, so the FPB pointer table is
 never touched and Pack FPB is unaffected.
