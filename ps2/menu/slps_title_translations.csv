@@ -1,0 +1,598 @@
+offset,pointers,japanese,english
+0x113FA2,0xD7404,おかえり！,Welcome Home!
+0x113F97,0xD7408,懐かしき街,Nostalgic Town
+0x113F88,0xD740C,あいさつまわり,Making the Rounds
+0x113F7F,0xD7410,準備良し,All Set
+0x113F76,0xD7414,遺跡探索,Ruin Explorer
+0x113F71,0xD7418,目印,Landmark
+0x113F5E,0xD741C,冒険ごっこの思い出,Playing Adventurer
+0x113F4C,0xD7420,ふられマン\予告編,Dumped Man\Teaser
+0x113F38,0xD7428,古代の秘宝,Ancient Treasure
+0x113F27,0xD742C,父の背中を追って,Following Father
+0x113F16,0xD7430,ゴージャス孤児院,Gorgeous Orphanage
+0x113F0D,0xD7434,トラップ,Trap
+0x113F02,0xD7438,備えあれば,Be Prepared
+0x113EF1,0xD743C,トンズラ一家物語,Runaway Family Tale
+0x113EEC,0xD7440,門限,Curfew
+0x113EDD,0xD7444,母の愛とビンタ,A Mother's Slap
+0x113ED4,0xD7448,絶対運命,Absolute Destiny
+0x113EC9,0xD744C,最初の冒険,First Adventure
+0x113EC0,0xD7450,仮面の男,Masked Man
+0x113EBB,0xD7454,自立,Independence
+0x113EAC,0xD7458,ときめきの旅路,Thrilling Journey
+0x113EA5,0xD745C,脱獄犯,Jailbreaker
+0x113E9A,0xD7460,マリーの噂,Rumors of Marie
+0x113E85,0xD7464,コインに願いを込めて,Wish Upon a Coin
+0x113E76,0xD7468,他人事のように,Someone Else's Problem
+0x113E61,0xD746C,ＬＯＶＥ！　眼鏡ッ子,LOVE! Glasses Girl
+0x113E54,0xD7470,ひそかな特技,Secret Talent
+0x113E4B,0xD7474,寝ぼすけ,Sleepyhead
+0x113E3C,0xD7478,寝る子は寝てる,Sleeping Child
+0x113E33,0xD747C,大あくび,Big Yawn
+0x113E28,0xD7480,急を要する,Urgent
+0x113E1B,0xD7488,謎の男と共に,With the Masked Man
+0x113E14,0xD748C,能天気,Carefree
+0x113E03,0xD7490,なぜ知っている!?,How Do You Know!?
+0x113DF4,0xD7494,地下水路大脱出,Sewer Escape
+0x113DEB,0xD7498,強い情熱,Burning Passion
+0x113DE6,0xD749C,決心,Resolve
+0x113DD9,0xD74A0,旅立ちの決意,Ready to Depart
+0x113DCC,0xD74A4,冒険の始まり,Adventure Begins
+0x113DBD,0xD74A8,心に焼きつけて,Burned Into Memory
+0x113DB4,0xD74AC,英雄志願,Hero Hopeful
+0x113DA9,0xD74B0,ふられマン,Dumped Man
+0x113D99,0xD74B8,大落下,Great Fall
+0x113D8A,0xD74BC,物を動かす方法,How to Move Things
+0x113D77,0xD74C0,あしながおにいさま,Long-Legged Big Bro
+0x113D72,0xD74C4,嫉妬,Jealousy
+0x113D67,0xD74C8,冒険の予感,Adventure Awaits
+0x113D4E,0xD74CC,ソーサラーリング使用方法,Using the Sorcerer's Ring
+0x113D43,0xD74D4,男のロマン,A Man's Dream
+0x113D38,0xD74D8,愛の治療法,Love's Remedy
+0x113D25,0xD74DC,彼女が落としたもの,What She Dropped
+0x113D18,0xD74E0,アイグレッテ,Aigrette
+0x113D0F,0xD74E4,野宿無宿,No Roof Tonight
+0x113D08,0xD74E8,迷子札,ID Tag
+0x113CFD,0xD74EC,美女と信仰,Beauty and Faith
+0x113CEA,0xD74F0,ふたつのペンダント,Two Pendants
+0x113CE1,0xD74F4,聖女遭遇,Meeting a Holy Woman
+0x113CDA,0xD74F8,大神殿,Grand Temple
+0x113CC9,0xD74FC,気まずい神団騎士,Awkward Order Knight
+0x113CC0,0xD7500,奇跡の女,Woman of Miracles
+0x113CB7,0xD7504,神団批判,Order Critic
+0x113CAE,0xD7508,潜入計画,Infiltration Plan
+0x113C9D,0xD750C,別ルートを探せ！,Find Another Route!
+0x113C94,0xD7510,潜入成功,Snuck In
+0x113C85,0xD7514,仮面ストーカー,Masked Stalker
+0x113C7A,0xD7518,英雄王の噂,Rumors of the Hero King
+0x113C6D,0xD751C,エルエレエロ,Elleelero
+0x113C66,0xD7520,カイロ,Cairo
+0x113C53,0xD7524,行け！　大海原を！,Go! Across the Sea!
+0x113C46,0xD7528,未来の大英雄,Future Great Hero
+0x113C3D,0xD752C,殺意の斧,Axe of Malice
+0x113C32,0xD7530,孤独な仮面,Lonely Mask
+0x113C1F,0xD7534,オヤッ？　オヤツ？,Huh? A Snack?
+0x113C14,0xD7538,奇跡の片鱗,Glimpse of a Miracle
+0x113C07,0xD753C,エンカウント,Encounter
+0x113C02,0xD7540,乗船,Aboard
+0x113BF9,0xD7544,まわり道,Detour
+0x113BF0,0xD7548,父の故郷,Father's Hometown
+0x113BE5,0xD754C,さまよい人,Wanderer
+0x113BD4,0xD7550,やすらぎとの別れ,Farewell to Peace
+0x113BC9,0xD7554,英雄の素顔,The Hero's True Face
+0x113BB2,0xD7558,あこがれの女性（ひと）,The Woman He Admires
+0x113BA4,0xD755C,続\ふられマン,Dumped Man\Part 2
+0x113B99,0xD7560,虫丘　虫引,Bug Hill
+0x113B8C,0xD7564,花の命は\\\\,A Flower's Life\\\\
+0x113B83,0xD7568,育ち盛り,Growing Boy
+0x113B74,0xD756C,ノイシュタット,Neuestadt
+0x113B6B,0xD7570,遠き旅路,Long Journey
+0x113B5E,0xD7574,商人の依頼１,Merchant's Request 1
+0x113B53,0xD7578,宝を探して,Seeking Treasure
+0x113B46,0xD757C,白き霧の中へ,Into the White Mist
+0x113B3D,0xD7580,廃坑の怪,Mine Mystery
+0x113B36,0xD7584,廃坑へ,To the Mine
+0x113B25,0xD7588,つきあいの良い男,Good Company
+0x113B1C,0xD758C,宝とは？,What Is Treasure?
+0x113B17,0xD7590,遺産,Legacy
+0x113B0C,0xD7594,想いを胸に,Heart's Resolve
+0x113B01,0xD7598,心の美しさ,Inner Beauty
+0x113AF4,0xD759C,企みを知って,Plot Uncovered
+0x113AEB,0xD75A0,成功報告,Success Report
+0x113AE2,0xD75A4,船内散策,Ship Stroll
+0x113AD3,0xD75A8,君は海風と共に,With the Sea Breeze
+0x113AC6,0xD75AC,海の主の襲撃,Sea Lord's Attack
+0x113AB7,0xD75B0,緊急事態ＳＯＳ,Emergency SOS
+0x113AAA,0xD75B4,奇跡のあとで,After the Miracle
+0x113A8E,0xD75BC,オバケなんて\\\\,Ghosts Aren't Real\\\\
+0x113A89,0xD75C0,疑念,Doubt
+0x113A82,0xD75C4,想像宝,Dream Treasure
+0x113A7D,0xD75C8,手玉,Played
+0x113A76,0xD75CC,再出航,Setting Sail Again
+0x113A71,0xD75D0,欠伸,Yawn
+0x113A6C,0xD75D4,輝き,Radiance
+0x113A61,0xD75D8,冒険を実感,Feels Like Adventure
+0x113A58,0xD75DC,霧の中で,In the Mist
+0x113A4B,0xD75E0,宝が欲しくば,If You Want Treasure
+0x113A34,0xD75E4,オベロン社の残したもの,What Oberon Left
+0x113A25,0xD75E8,船上のロマンス,Shipboard Romance
+0x113A14,0xD75EC,まばゆい白の中で,In Dazzling White
+0x113A09,0xD75F0,雪中の戦い,Battle in the Snow
+0x113A00,0xD75F4,クシャミ,Sneeze
+0x1139F5,0xD75F8,そんな\\\\,No Way\\\\
+0x1139EA,0xD75FC,英雄王謁見,Hero King's Audience
+0x1139DF,0xD7600,走って笑え,Run and Laugh
+0x1139C6,0xD7604,ハイデルベルグ城　襲撃１,Heidelberg Castle Raid 1
+0x1139AD,0xD7608,ハイデルベルグ城　襲撃２,Heidelberg Castle Raid 2
+0x113994,0xD760C,ハイデルベルグ城　襲撃３,Heidelberg Castle Raid 3
+0x113988,0xD7610,<Judas>の過去,<Judas>'s Past
+0x11397F,0xD7614,立ち聞き,Eavesdropping
+0x113968,0xD761C,あまりにも大量のレンズ,Far Too Many Lens
+0x11395F,0xD7620,危険な宝,Dangerous Treasure
+0x11394C,0xD7624,ハイデルベルグ賛美,Praising Heidelberg
+0x113943,0xD7628,そろそろ,About Time
+0x11392E,0xD762C,世界で一番「強い」国,World's Strongest Nation
+0x113917,0xD7630,走って笑って追いかけろ,"Run, Laugh, Chase"
+0x11390C,0xD7634,多忙な英雄,Busy Hero
+0x1138FB,0xD7638,管理のための番号,A Number for Control
+0x1138E8,0xD763C,ケンカするほど\\\\,The More They Fight\\\\
+0x1138DD,0xD7640,罪な男の罪,A Sinful Man's Sin
+0x1138D0,0xD7644,十年後のオレ,"Me, Ten Years On"
+0x1138C9,0xD7648,暑い国,Hot Country
+0x1138BE,0xD764C,敗者の歴史,History of the Defeated
+0x1138B3,0xD7650,おさいほう,Sewing
+0x1138A6,0xD7654,性に合う土地,A Land That Suits Me
+0x113893,0xD7658,おさいほうを教えて,Teach Me Sewing
+0x11387A,0xD765C,美白の天使　小麦色の女神,"Fair Angel, Tan Goddess"
+0x11386F,0xD7660,今のうちに,While We Can
+0x113864,0xD7664,感動の再会,Moving Reunion
+0x113857,0xD7668,あたしんちへ,To My Place
+0x113842,0xD766C,サブミッション使い１,Submission User 1
+0x113828,0xD7674,カルビオラへ,To Kalviola
+0x113813,0xD7678,サブミッション使い２,Submission User 2
+0x1137F5,0xD7680,カルビオラ潜入１,Kalviola Infiltration 1
+0x1137E8,0xD7684,さあ、現代へ,"Now, to the Present"
+0x1137CD,0xD7688,アイグレッテのはずなのに１,This Should Be Aigrette 1
+0x1137B8,0xD768C,二人の無事を願う二人,Two Praying for Two
+0x11379D,0xD7690,アイグレッテのはずなのに２,This Should Be Aigrette 2
+0x113794,0xD7694,出産式へ,To the Birth Rite
+0x113781,0xD7698,チェリク行き定期便,Ferry to Cherik
+0x11376C,0xD769C,ヒートリバーを越えて,Across the Heat River
+0x11375F,0xD76A0,心配される男,A Worried-Over Man
+0x113754,0xD76A8,男の中の男,A Man Among Men
+0x113743,0xD76AC,彼女の料理の準備,Prepping Her Cooking
+0x113730,0xD76B0,チビッコにボコボコ,Beaten by Kids
+0x113723,0xD76B4,あの女性は？,Who Is She?
+0x11371A,0xD76B8,燃える河,Burning River
+0x113711,0xD76BC,上流探索,Upstream Search
+0x113706,0xD76C0,人間らしく,Feeling Human
+0x1136FF,0xD76C4,ひと息,A Breather
+0x1136F4,0xD76C8,期待の食事,Anticipated Meal
+0x1136ED,0xD76CC,戸惑い,Confusion
+0x1136DC,0xD76D0,カルビオラ潜入２,Kalviola Infiltration 2
+0x1136CA,0xD76D4,カルビオラ潜入３ ,Kalviola Infiltration 3 
+0x1136B5,0xD76D8,トラッシュマウンテン,Trash Mountain
+0x1136AC,0xD76DC,毒ガス１,Poison Gas 1
+0x1136A3,0xD76E0,毒ガス２,Poison Gas 2
+0x113690,0xD76E4,未来から来た彼女２,She Came From the Future 2
+0x113687,0xD76E8,ひと休み,A Rest
+0x11367A,0xD76EC,消えた彼女２,She Vanished 2
+0x11366B,"0xD76F0,0xD7A70",気になるあいつ,That One on My Mind
+0x11365C,0xD76F4,後悔先に立たず,Too Late for Regrets
+0x11364B,0xD76F8,傷ついた英雄王２,Wounded Hero King 2
+0x11363A,0xD76FC,眠れない寝ぼすけ,Sleepless Sleepyhead
+0x11362F,0xD7700,十年後の俺,"Me, Ten Years Later"
+0x11361C,0xD7704,大神殿に乗り込め！,Storm the Grand Temple!
+0x11360B,0xD7708,地上軍拠点跡地へ,To the Er'ther Base Ruins
+0x1135FA,0xD770C,イクシフォスラー,Ixifoslar
+0x1135F5,0xD7710,突入,Charge
+0x1135E8,0xD7714,とらわれの姫,Captive Princess
+0x1135DD,0xD7718,レンズの力,Power of the Lens
+0x1135CE,0xD771C,飛行竜を追え！,Chase the Flying Dragon!
+0x1135C1,0xD7720,消えた彼女１,She Vanished 1
+0x1135B4,0xD7724,私だけの英雄,My Own Hero
+0x1135AD,0xD7728,次の手,Next Move
+0x1135A0,0xD772C,飛行竜の中で,Inside the Flying Dragon
+0x113593,0xD7730,レンズは!?１,The Lens!? 1
+0x113580,0xD7734,未来から来た彼女１,She Came From the Future 1
+0x11356F,0xD7738,傷ついた英雄王１,Wounded Hero King 1
+0x113562,0xD773C,レンズは!?２,The Lens!? 2
+0x11354D,0xD7740,彼は何でも知っている,He Knows Everything
+0x113548,0xD7744,番犬,Watchdog
+0x113537,0xD7748,制御装置を探せ１,Find the Control Device 1
+0x113524,0xD774C,飛行竜からの脱出１,Escape the Flying Dragon 1
+0x113511,0xD7750,飛行竜からの脱出２,Escape the Flying Dragon 2
+0x1134FC,0xD7754,地上軍拠点跡地にて１,At the Er'ther Base Ruins 1
+0x1134E7,0xD7758,地上軍拠点跡地にて２,At the Er'ther Base Ruins 2
+0x1134D6,0xD7760,制御装置を探せ２,Find the Control Device 2
+0x1134BB,0xD7764,ソーサラースコープ使用方法,Using the Sorcerer's Scope
+0x1134A8,0xD7768,飛行竜からの脱出３,Escape the Flying Dragon 3
+0x113495,0xD776C,飛行竜からの脱出４,Escape the Flying Dragon 4
+0x113484,0xD7770,改変された世界１,Altered World 1
+0x113473,0xD7774,改変された世界２,Altered World 2
+0x113468,0xD7778,天高き城１,Castle in the Sky 1
+0x113457,0xD777C,改変された世界３,Altered World 3
+0x11344C,0xD7780,天高き城２,Castle in the Sky 2
+0x113437,0xD7784,どうすれば元の世界に,How to Get Home
+0x113428,0xD7788,からっぽの世界,Empty World
+0x113417,0xD778C,改変された世界４,Altered World 4
+0x113406,0xD7790,改変された世界５,Altered World 5
+0x1133FD,0xD7794,焼きイモ,Roast Potato
+0x1133EA,0xD7798,ガラスの中のひな鳥,Chick in Glass
+0x1133DF,0xD779C,楽しい食事,A Fun Meal
+0x1133D2,0xD77A0,オトコオンナ,Manly Woman
+0x1133BB,0xD77A4,仮面戦隊レンズファイブ,Masked Squad Lens Five
+0x1133B1,0xD77A8,英雄<Kyle>,Hero <Kyle>
+0x1133A4,0xD77AC,太陽と空気と,Sun and Air
+0x113398,0xD77B0,<Reala>の苦悩,<Reala>'s Anguish
+0x113383,0xD77B4,サブミッション使い３,Submission User 3
+0x113371,0xD77B8,レアルタ（<Judas>）,Realta (<Judas>)
+0x113362,0xD77BC,英雄バルバトス,Hero Barbatos
+0x11334F,0xD77C0,図書館はいずこ？１,Where's the Library? 1
+0x11333C,0xD77C4,図書館はいずこ？２,Where's the Library? 2
+0x11332F,0xD77C8,男をみがけ！,Polish Your Manhood!
+0x113324,0xD77CC,敵本拠地へ,To the Enemy Base
+0x11331F,0xD77D0,先祖,Ancestor
+0x11330A,0xD77D4,考えるよりもまず行動,Act Before Thinking
+0x1132F7,0xD77D8,画一世界への疑問１,Doubting the World 1
+0x1132E8,0xD77DC,冒険のない世界,A World Without Adventure
+0x1132DC,0xD77E0,迷探偵<Loni>,Detective <Loni>
+0x1132C9,0xD77E4,画一世界への疑問２,Doubting the World 2
+0x1132B6,0xD77E8,風を知らない人たち,People Who Know No Wind
+0x1132A3,0xD77EC,世界をとりもどせ！,Take Back the World!
+0x113292,0xD77F0,黙っていれば\\\\,If You Stay Quiet\\\\
+0x11328D,0xD77F4,馬齢,Wasted Years
+0x11327E,0xD77F8,ダイクロフト１,Dycroft 1
+0x113265,0xD77FC,パーティのはじまりだぜ！,Let the Party Begin!
+0x113257,0xD7800,新\ふられマン,New\Dumped Man
+0x113248,0xD7804,修復される世界,A World Restored
+0x113239,0xD7808,ダイクロフト２,Dycroft 2
+0x11321E,0xD780C,世界をとりもどしてみせる！,I'll Take Back the World!
+0x113217,0xD7810,おとり,Decoy
+0x11320C,0xD7814,ゆがむ世界,Warping World
+0x1131FB,0xD7818,記憶リフレッシュ,Memory Refresh
+0x1131F0,0xD781C,ほかの街へ,To Another Town
+0x1131E1,0xD7820,箱庭の中の人形,Doll in a Garden
+0x1131D4,0xD7824,スペランツァ,Speranza
+0x1131CB,0xD7828,歴史改変,History Altered
+0x1131BE,0xD782C,造り物の世界,A Fabricated World
+0x1131AC,0xD7830,レアルタ（<Kyle>）,Realta (<Kyle>)
+0x1131A1,0xD7834,天からの声,Voice From Heaven
+0x113196,0xD7838,幸せの定義,Defining Happiness
+0x11318A,0xD783C,<Reala>の迷い,<Reala>'s Doubt
+0x11317F,0xD7840,天高き城３,Castle in the Sky 3
+0x113173,0xD7844,<Reala>の決心,<Reala>'s Resolve
+0x113168,0xD7848,未開の森１,Untamed Forest 1
+0x11315D,0xD784C,未開の森２,Untamed Forest 2
+0x113152,0xD7850,ガルムの牙,Garm's Fang
+0x113142,0xD7854,<Kyle>精神世界１,<Kyle>'s Mindscape 1
+0x113132,0xD7858,<Kyle>精神世界２,<Kyle>'s Mindscape 2
+0x113122,0xD785C,<Kyle>精神世界３,<Kyle>'s Mindscape 3
+0x113112,0xD7860,<Kyle>精神世界４,<Kyle>'s Mindscape 4
+0x113102,0xD7864,<Nanaly>精神世界１,<Nanaly>'s Mindscape 1
+0x1130F2,0xD7868,<Nanaly>精神世界２,<Nanaly>'s Mindscape 2
+0x1130E2,0xD786C,<Nanaly>精神世界３,<Nanaly>'s Mindscape 3
+0x1130D2,0xD7870,<Nanaly>精神世界５,<Nanaly>'s Mindscape 5
+0x1130C2,0xD7874,<Nanaly>精神世界６,<Nanaly>'s Mindscape 6
+0x1130B2,0xD7878,<Nanaly>精神世界７,<Nanaly>'s Mindscape 7
+0x11309D,0xD787C,天才科学者との出会い,Meeting a Genius
+0x11308C,0xD7880,天才科学者の真実,Truth of the Genius
+0x11306B,0xD7884,答えがわかってる問題を解いたって,Solving a Known Answer
+0x11305A,0xD7888,あなたに興味アリ,Interested in You
+0x11304F,0xD788C,ジェミニ１,Gemini 1
+0x113044,0xD7890,ジェミニ２,Gemini 2
+0x11302F,0xD7894,ソーディアンがほしい,I Want a Swordian
+0x11301E,0xD7898,ふられマンＮＥＯ,Dumped Man NEO
+0x113013,0xD789C,資材入手１,Materials 1
+0x113008,0xD78A0,資材入手２,Materials 2
+0x112FFD,0xD78A4,資材入手３,Materials 3
+0x112FF2,0xD78A8,資材入手４,Materials 4
+0x112FE7,0xD78AC,救出作戦１,Rescue Op 1
+0x112FDA,0xD78B0,テクノロジー,Technology
+0x112FCF,0xD78B4,彼女の料理,Her Cooking
+0x112FC4,0xD78B8,救出作戦２,Rescue Op 2
+0x112FB3,0xD78BC,歴史を越えた集団,A Group Beyond Time
+0x112FA8,0xD78C0,救出作戦３,Rescue Op 3
+0x112F91,0xD78C4,マッサージしてあ\げ\る,I'll Massage You
+0x112F83,0xD78C8,ワガママ<Harold>,Selfish <Harold>
+0x112F76,0xD78CC,起きている夢,Waking Dream
+0x112F54,0xD78D4,飛べ飛べ！　ロケット２,"Fly, Fly! Rocket 2"
+0x112F49,0xD78D8,いいコンビ,Good Team
+0x112F3C,0xD78DC,神にケンカを,Picking a Fight With God
+0x112F31,0xD78E0,制御室へ１,To the Control Room 1
+0x112F26,0xD78E4,制御室へ２,To the Control Room 2
+0x112F1D,0xD78EC,油断大敵,Beware
+0x112F0E,0xD78F0,脱出ポッドへ１,To the Escape Pod 1
+0x112EFB,0xD78F4,天地戦争時代到着１,Arrival: War Era 1
+0x112EE8,0xD78F8,天地戦争時代到着２,Arrival: War Era 2
+0x112ED9,0xD78FC,脱出ポッドへ２,To the Escape Pod 2
+0x112ECA,0xD7900,温度変化で崩壊,Collapse by Heat
+0x112EB9,0xD7904,マスターキー入手,Master Key Obtained
+0x112EB0,0xD7908,報告終了,Report Done
+0x112E99,0xD790C,飛べ飛べ！　ロケット１,"Fly, Fly! Rocket 1"
+0x112E8C,0xD7910,作戦続行よ！,Operation Continues!
+0x112E83,0xD7914,二律背反,Contradiction
+0x112E72,0xD7918,パラレルワールド,Parallel World
+0x112E5D,0xD791C,アトワイトを救え！２,Save Atwight! 2
+0x112E4A,0xD7920,ディムロスの苦悩１,Dymlos's Anguish 1
+0x112E3F,0xD7924,護衛任務１,Escort Duty 1
+0x112E34,0xD7928,護衛任務２,Escort Duty 2
+0x112E2F,0xD792C,触媒,Catalyst
+0x112E16,0xD7930,もし、あたしが捕まったら,If I Get Caught
+0x112E06,0xD7934,<Harold>秘密の投薬,<Harold>'s Secret Dose
+0x112DF3,0xD7938,ディムロスの苦悩２,Dymlos's Anguish 2
+0x112DEE,0xD793C,説得,Persuasion
+0x112DDF,0xD7940,課せられた選択,An Imposed Choice
+0x112DCC,0xD7944,バルバトスの挑戦状,Barbatos's Challenge
+0x112DC1,0xD7948,空想大爆発,Imagination Explosion
+0x112DAC,0xD794C,スパイラルケイブへ１,To Spiral Cave 1
+0x112D97,0xD7950,スパイラルケイブへ２,To Spiral Cave 2
+0x112D8A,0xD7954,ふたつの運命,Two Destinies
+0x112D79,0xD7958,男の風上にも\\\\,No Kind of Man\\\\
+0x112D64,0xD795C,スパイラルケイブへ３,To Spiral Cave 3
+0x112D4F,0xD7960,スパイラルケイブへ４,To Spiral Cave 4
+0x112D34,0xD7964,ソーディアンチーム全員集合,Swordian Team Assemble
+0x112D21,0xD7968,アトワイト救出成功,Atwight Rescued
+0x112D0C,0xD796C,すべては手のひらの上,All in the Palm
+0x112CF9,0xD7970,バルバトスの引き際,Barbatos Withdraws
+0x112CF0,0xD7974,弱肉強食,Survival
+0x112CD3,0xD7978,そういえば、ソーディアンは？,"By the Way, the Swordians?"
+0x112CBD,0xD797C,ゾーディアン\マズダー,Zoadian\Mazdah
+0x112CAA,0xD7980,ディムロスの処分１,Disposing of Dymlos 1
+0x112C97,0xD7984,ディムロスの処分２,Disposing of Dymlos 2
+0x112C84,0xD7988,ソーディアン完成１,Swordian Complete 1
+0x112C6B,0xD798C,リトラー総司令のはからい,Commander Littler's Favor
+0x112C5F,0xD7990,<Harold>の名前,<Harold>'s Name
+0x112C4C,0xD7994,ソーディアン完成２,Swordian Complete 2
+0x112C39,0xD7998,ソーディアン完成４,Swordian Complete 4
+0x112C26,0xD799C,ソーディアン完成５,Swordian Complete 5
+0x112C13,0xD79A0,ソーディアン完成６,Swordian Complete 6
+0x112C08,0xD79A4,決戦前夜１,Eve of Battle 1
+0x112BFD,0xD79A8,決戦前夜２,Eve of Battle 2
+0x112BEE,0xD79AC,天地戦争に参加,Joining the War
+0x112BD3,0xD79B0,ソーディアンチームに続け！,Follow the Swordian Team!
+0x112BC2,0xD79B4,カーレルの運命３,Karell's Fate 3
+0x112BAF,0xD79B8,ベルクラント制御１,Belcrant Control 1
+0x112B9C,0xD79BC,ベルクラント制御２,Belcrant Control 2
+0x112B8B,0xD79C0,カーレルの運命５,Karell's Fate 5
+0x112B80,0xD79C4,玉座の間へ,To the Throne Room
+0x112B6B,0xD79C8,アトワイトを救え！１,Save Atwight! 1
+0x112B5A,0xD79CC,カーレルの運命１,Karell's Fate 1
+0x112B49,0xD79D0,カーレルの運命２,Karell's Fate 2
+0x112B38,0xD79D4,カーレルの運命４,Karell's Fate 4
+0x112B21,0xD79D8,エレベーターが戻るまで,Until the Lift Returns
+0x112B0E,0xD79DC,ベルクラント制御３,Belcrant Control 3
+0x112AF9,0xD79E0,生まれないことになる,Never to Be Born
+0x112AE7,0xD79E4,<Judas>は知っていた,<Judas> Knew
+0x112AE2,0xD79E8,変装,Disguise
+0x112AC7,0xD79EC,過去を否定するつもりはない,I Won't Deny the Past
+0x112ABA,0xD79F0,若き日の父１,Father in His Youth 1
+0x112AAD,0xD79F4,若き日の父２,Father in His Youth 2
+0x112A9C,0xD79F8,生き長らえた意味,Why I Lived On
+0x112A93,0xD79FC,歴史修復,History Restored
+0x112A88,0xD7A00,雪の街にて,In the Snowy Town
+0x112A7F,0xD7A04,緊急事態,Emergency
+0x112A6C,0xD7A08,加護なくも人は強く,Strong Without Grace
+0x112A5B,0xD7A0C,全てを無に帰する,Return All to Nothing
+0x112A4E,0xD7A10,天才的記憶力,Genius Memory
+0x112A3C,0xD7A14,<Loni>、食\べ\て★,"<Loni>, Eat Up"
+0x112A2C,0xD7A18,<Loni>、食べなよ,"<Loni>, Eat Already"
+0x112A1D,0xD7A1C,孤独なつぶやき,Lonely Murmur
+0x112A12,"0xD7A20,0xD7AD8",世界の破滅,World's Ruin
+0x1129FD,0xD7A24,帰ってきたふられマン,Dumped Man Returns
+0x1129EA,0xD7A28,カルビオラ地下へ１,Beneath Kalviola 1
+0x1129DF,0xD7A2C,再び未来へ,To the Future Again
+0x1129CC,0xD7A30,カルビオラ地下へ２,Beneath Kalviola 2
+0x1129B9,0xD7A34,カルビオラ地下へ３,Beneath Kalviola 3
+0x1129AC,0xD7A38,楽しかったね,That Was Fun
+0x11299F,0xD7A3C,データ採集１,Data Collection 1
+0x11298C,0xD7A40,カルビオラ地下へ４,Beneath Kalviola 4
+0x11297F,0xD7A44,データ採集２,Data Collection 2
+0x11296C,0xD7A48,カルビオラ地下へ５,Beneath Kalviola 5
+0x112959,0xD7A4C,つきつけられた現実,Reality Thrust Upon Me
+0x112948,0xD7A50,英雄を訪ね歩く１,Seeking the Hero 1
+0x11293F,0xD7A54,二者択一,Either/Or
+0x11292E,0xD7A58,英雄を訪ね歩く２,Seeking the Hero 2
+0x112925,0xD7A60,虫マニア,Bug Maniac
+0x11291A,0xD7A64,心のままに,Follow Your Heart
+0x112909,0xD7A68,英雄を訪ね歩く３,Seeking the Hero 3
+0x112902,0xD7A6C,成長１,Growth 1
+0x1128F7,0xD7A74,積み木遊び,Building Blocks
+0x1128EC,0xD7A78,今を精一杯,Live for Now
+0x1128D7,0xD7A84,感動を演出,Staging Emotion
+0x1128C8,0xD7A88,出会いの場所１,Meeting Place 1
+0x1128B9,0xD7A8C,出会いの場所２,Meeting Place 2
+0x1128B2,0xD7A90,成長２,Growth 2
+0x11289A,0xD7A98,復活した心,A Revived Heart
+0x112885,0xD7A9C,出会いの場所へと\\\\,To the Meeting Place\\\\
+0x11287A,0xD7AA0,星に願いを,Wish Upon a Star
+0x11286D,0xD7AA4,星を落とす男,The Star-Feller
+0x112858,0xD7AA8,十年後のキミの十年前,Ten Years Before You
+0x112845,0xD7AAC,シャルティエよ\\\\,Chaltier\\\\
+0x112836,0xD7AB0,でももヘチマも,No Buts About It
+0x112825,0xD7AB4,わたしだけの英雄,My Own Hero
+0x11281C,0xD7AB8,最終決戦,Final Battle
+0x112813,0xD7ABC,隠し通路,Hidden Passage
+0x112808,0xD7AC0,カタコンベ,Catacombs
+0x1127FB,0xD7AC8,未来のために,For the Future
+0x1127EA,0xD7ACC,ウッドロウに報告,Report to Garr
+0x1127E1,0xD7AD0,デート１,Date 1
+0x1127D8,0xD7AD4,デート２,Date 2
+0x1127CD,0xD7ADC,愛の芽生え,Love Blossoms
+0x1127BC,0xD7AE0,出発前のあいさつ,Goodbyes Before Leaving
+0x1127B7,0xD7AE4,寝言,Sleep Talk
+0x11279F,0xD7AE8,ふられマン\フォーエバー,Dumped Man\Forever
+0x11278C,0xD7AEC,あの子が気になる！,I Care About Her!
+0x112777,0xD7AF0,きっと自分自身を\\\\,Surely Himself\\\\
+0x112760,0xD7AF4,飛んでくるはずなんだが,It Should Fly Here
+0x112757,0xD7AF8,夢の光景,Dreamscape
+0x112750,0xD7AFC,百万倍,A Millionfold
+0x112737,0xD7B00,風の向くまま気の向くまま,Wherever the Wind Blows
+0x112724,0xD7B04,またまたふられマン,Dumped Man Again
+0x112715,0xD7B08,いつか来た場所,A Place Once Visited
+0x112706,0xD7B0C,仮面を見て思う,Thoughts on the Mask
+0x1126EC,0xD7B10,ふられマン\伝説バージョン,Dumped Man\Legend Ver.
+0x1126DD,0xD7B14,世界を救うオレ,I'll Save the World
+0x1126CE,0xD7B18,受け継いだ奥義,Inherited Arcane Arte
+0x1126BC,0xD7B1C,ふられマン\純情派,Dumped Man\Pure Ver.
+0x1126AB,0xD7B20,オリジナル必殺技,Original Finisher
+0x1126A1,0xD7B24,<Kyle>王国,<Kyle> Kingdom
+0x112690,0xD7B28,伝説の天才科学者,Legendary Genius
+0x11267A,0xD7B2C,ふられマン\最後の決戦,Dumped Man\Last Battle
+0x11266B,0xD7B30,アクアヴェイル,Aquaveil
+0x112656,0xD7B34,ホープタウンで待つ人,Waiting in Hope Town
+0x112649,0xD7B38,運命の出会い,Fated Meeting
+0x112639,0xD7B40,白雲の尾根,White Cloud Ridge
+0x11262A,0xD7B44,山小屋がある！,A Mountain Hut!
+0x112625,0xD7B48,疑問,Question
+0x112616,0xD7B4C,飛ばされて\\\\,Blown Away\\\\
+0x112603,0xD7B50,ホープタウンで再会,Reunion in Hope Town
+0x1125E6,0xD7B54,トラッシュマウンテンを抜けて,Through Trash Mountain
+0x1125DB,0xD7B58,空を飛んで,Flying the Skies
+0x1125D6,0xD7B5C,墜落,Crash
+0x1125C9,0xD7B60,空を見上げて,Looking Up
+0x1125B8,0xD7B64,天に浮かびしもの,That Which Floats
+0x1125B3,0xD7B68,外殻,Outer Shell
+0x1125AE,0xD7B6C,発進,Launch
+0x1125A3,0xD7B70,危険な高さ,Dangerous Height
+0x112594,0xD7B74,ラグナ遺跡　橋,Laguna Ruins Bridge
+0x112581,0xD7B78,地下水路脱出後　街,After Sewer: Town
+0x11256E,0xD7B7C,地下水路脱出後　橋,After Sewer: Bridge
+0x112555,0xD7B80,地下水路脱出後　地下水路,After Sewer: Waterway
+0x112540,0xD7B84,地下水路脱出後　遺跡,After Sewer: Ruins
+0x112531,0xD7B88,洞窟を抜けろ！,Through the Cave!
+0x112520,0xD7B8C,明日はラグナ遺跡,Laguna Ruins Tomorrow
+0x11250F,0xD7B90,ラグナ遺跡最上部,Laguna Ruins Summit
+0x112502,0xD7B94,地下水路出口,Sewer Exit
+0x1124FD,0xD7B98,母へ,To Mother
+0x1124EC,0xD7B9C,宿屋で聞いたのに,The Inn Told Us
+0x1124D7,0xD7BA0,遺跡の入り口を探して,Find the Ruins Entrance
+0x1124C2,0xD7BA4,あの子を探して大神殿,Seeking Her: Grand Temple
+0x1124AB,0xD7BA8,アイグレッテ港は反対だ,Aigrette Port Is Opposite
+0x11249E,0xD7BAC,リーネの中で,Inside Lien
+0x112495,0xD7BB0,落ち着け,Calm Down
+0x11247E,0xD7BB4,デートはハイデルベルグ,A Date in Heidelberg
+0x112477,0xD7BB8,襲撃！,Attack!
+0x112462,0xD7BBC,ここはアイグレッテ？,Is This Aigrette?
+0x11244B,0xD7BC0,まだホープタウンで\\\\,Still in Hope Town\\\\
+0x11243E,0xD7BC4,レンズはまだ,"The Lens, Still"
+0x11242B,0xD7BC8,ウッドロウに真相を,The Truth for Garr
+0x112418,0xD7BCC,船じゃ追いつけない,A Ship Can't Catch Up
+0x112405,0xD7BD0,あのドームは何だ？,What's That Dome?
+0x1123EE,0xD7BD4,あの赤いドームは\\\\？,That Red Dome\\\\?
+0x1123DB,0xD7BD8,レアルタに行くぞ!!,To Realta!!
+0x1123D2,0xD7BDC,山道です,Mountain Path
+0x1123BB,0xD7BE0,ラディスロウへ行くわよ,We're Off to Radisrol
+0x1123AC,0xD7BE4,格納庫に行くよ,To the Hangar
+0x112399,0xD7BE8,ダイクロフト牢屋前,Dycroft Prison Gate
+0x112386,0xD7BEC,スパイラルケイブに,To Spiral Cave
+0x11237F,0xD7BF0,工兵隊,Engineers
+0x112370,0xD7BF4,こっちじゃない,Not This Way
+0x11235F,0xD7BF8,こっちじゃねぇよ,"Not This Way, Man"
+0x11234E,0xD7BFC,こっちじゃないぞ,"Not This Way, Kid"
+0x112339,0xD7C00,こっちじゃないわよ？,"Not This Way, Is It?"
+0x112328,0xD7C04,こっちじゃないよ,It's Not This Way
+0x112313,0xD7C08,こっちじゃないでしょ,Surely Not This Way
+0x1122FE,0xD7C0C,ラグナ遺跡ってどこ？,Where's Laguna Ruins?
+0x1122EB,0xD7C10,ダリルシェイド地下,Darilsheid Underground
+0x1122E2,0xD7C14,地下水路,Waterway
+0x1122D3,0xD7C18,脱出～クレスタ,Escape to Cresta
+0x1122BC,0xD7C1C,クレスタ～アイグレッテ,Cresta to Aigrette
+0x1122A5,0xD7C20,ソーサラーリングで撃て,Shoot the Sorcerer's Ring
+0x11228E,0xD7C24,あの子はアイグレッテに,She's in Aigrette
+0x112279,0xD7C28,アイグレッテ宿屋へ１,To Aigrette Inn 1
+0x112268,0xD7C2C,神のたまごは\\\\,God's Egg Is\\\\
+0x112253,0xD7C30,アイグレッテ宿屋へ２,To Aigrette Inn 2
+0x112246,0xD7C34,宿屋で聞いた,Heard at the Inn
+0x112231,0xD7C38,ストレイライズ遺跡へ,To Straylize Ruins
+0x11221E,0xD7C3C,アイグレッテ港へ１,To Aigrette Port 1
+0x112207,0xD7C40,とにかく甲板に行こう！,Just Get to the Deck!
+0x1121F2,0xD7C44,リリスの家で朝ゴハン,Breakfast at Lilith's
+0x1121DD,0xD7C48,ノイシュタットの港へ,To Neuestadt Port
+0x1121CE,0xD7C4C,港で何か\\\\？,Something at the Port?
+0x1121C1,0xD7C50,商人の依頼２,Merchant's Request 2
+0x1121B4,0xD7C54,廃坑に行くぞ,To the Abandoned Mine
+0x1121A5,0xD7C58,どこかにお宝が,Treasure Somewhere
+0x11218E,0xD7C5C,あとは商人に届けるだけ,Just Deliver It Now
+0x112173,0xD7C64,そろそろ船が出港できるか？,Can the Ship Sail Yet?
+0x112162,0xD7C68,準備して出航だ！,Get Ready and Sail!
+0x112149,0xD7C6C,ハイデルベルグを目指せ１,Head for Heidelberg 1
+0x112134,0xD7C70,ウッドロウ王はいずこ,Where Is King Garr?
+0x112120,0xD7C74,何を言ったの<Loni>？,"What Did You Say, <Loni>?"
+0x112113,0xD7C78,いよいよ謁見,The Audience at Last
+0x112100,0xD7C7C,あの子を追いかけろ,Chase After Her
+0x1120F5,0xD7C80,話を聞こう,Let's Hear It
+0x1120E4,0xD7C84,謁見後、熱冷めぬ,Still Fired Up
+0x1120D1,0xD7C88,公園に行きましょう,Let's Go to the Park
+0x1120BC,0xD7C8C,未来定期船\<Reala>は？,Future Ferry\Where's <Reala>?
+0x1120A3,0xD7C90,あたしの村への行きかた３,The Way to My Village 3
+0x112086,0xD7C94,トラッシュマウンテンをぬけて,Through Trash Mountain
+0x112075,0xD7C98,現代に戻ってきて,Back to the Present
+0x112066,0xD7C9C,レンズがない！,The Lens Is Gone!
+0x112057,0xD7CA0,城で一泊しよう,A Night at the Castle
+0x112042,0xD7CA4,地上軍拠点跡地にて３,At the Er'ther Base Ruins 3
+0x112037,0xD7CA8,封印を解け,Break the Seal
+0x11202C,0xD7CAC,海岸の洞窟,Coastal Cave
+0x11201F,0xD7CB0,光のほこらへ,To the Shrine of Light
+0x11200F,0xD7CB4,<Nanaly>精神世界４,<Nanaly>'s Mindscape 4
+0x111FFF,0xD7CB8,<Nanaly>精神世界８,<Nanaly>'s Mindscape 8
+0x111FE8,0xD7CBC,奥の建物で紹介するわよ,I'll Introduce You Inside
+0x111FDB,0xD7CC0,資材を取りに,Fetch Materials
+0x111FC4,0xD7CC4,地上軍拠点～物資保管所,Base to Storehouse
+0x111FB1,0xD7CC8,資材集めが今の目的,Gathering Materials
+0x111FA2,0xD7CCC,地下水路は確か,"The Waterway, Right"
+0x111F8F,0xD7CD0,マスターキー入手後,After the Master Key
+0x111F7E,0xD7CD4,ダリルシェイドへ,To Darilsheid
+0x111F73,0xD7CD8,資材入手５,Materials 5
+0x111F5E,0xD7CDC,ロケット作りの報告へ,Report on the Rocket
+0x111F47,0xD7CE0,飛べ飛べ！　ロケット３,"Fly, Fly! Rocket 3"
+0x111F32,0xD7CE4,スパイラルケイブへ５,To Spiral Cave 5
+0x111F1F,0xD7CE8,ソーディアン完成３,Swordian Complete 3
+0x111F14,0xD7CEC,決戦前夜３,Eve of Battle 3
+0x111EF0,0xD7CF4,「神の眼」まで急ごう！,Hurry to the Eye of God!
+0x111EE3,0xD7CF8,城でまた一泊,Another Castle Night
+0x111ED0,0xD7CFC,今、何かが見えた？,Did You See Something?
+0x111EBD,0xD7D00,再度未来に行くには,To the Future Again
+0x111EAC,0xD7D04,エルレインを追え,Chase Elrane
+0x111E95,0xD7D08,神殿の奥にエルレインが,Elrane Deep in the Temple
+0x111E86,0xD7D0C,神殿にいるはず,She's in the Temple
+0x111E6D,0xD7D10,アイグレッテに向かうには,How to Reach Aigrette
+0x111E56,0xD7D14,英雄に聞く（フィリア）,Ask a Hero (Philia)
+0x111E3F,0xD7D18,英雄に聞く（ルーティ）,Ask a Hero (Rutee)
+0x111E30,0xD7D1C,あの場所へ\\\\,To That Place\\\\
+0x111E21,0xD7D20,出現したって!?,It Appeared!?
+0x111E16,0xD7D24,崖の恐怖！,Terror of the Cliff!
+0x111E03,0xD7D28,神のたまご最深部へ,Depths of God's Egg
+0x111DFA,0xD7D2C,鏡の中へ,Into the Mirror
+0x111DE9,0xD7D44,エルレイン間近？,Elrane Is Close?
+0x111DDE,0xD7D48,下層部突入,Into the Lower Level
+0x111DD1,0xD7D4C,ラグナ遺跡に,To Laguna Ruins
+0x111DC0,0xD7D50,地上への出口へは,To the Surface Exit
+0x111DB2,0xD7D54,<Kyle>自己紹介,<Kyle> Introduces
+0x111DA4,0xD7D58,<Reala>自己紹介,<Reala> Introduces
+0x111D96,0xD7D5C,<Loni>自己紹介,<Loni> Introduces
+0x111D88,0xD7D60,<Judas>自己紹介,<Judas> Introduces
+0x111D7A,0xD7D64,<Nanaly>自己紹介,<Nanaly> Introduces
+0x111D6C,0xD7D68,<Harold>自己紹介,<Harold> Introduces
+0x111D57,0xD7D6C,崖をとびうつれば\\\\,If You Leap the Cliff\\\\
+0x111D42,0xD7D70,あれがアイグレッテか,So That's Aigrette
+0x111D39,0xD7D74,あの台座,That Pedestal
+0x111D26,0xD7D78,すんなり通りたいな,I'd Rather Slip By
+0x111D0F,0xD7D7C,衛兵に見つかったら\\\\,If the Guards See Us\\\\
+0x111CFC,0xD7D80,アイグレッテ港へ２,To Aigrette Port 2
+0x111CEF,0xD7D84,迷いやすいぞ,Easy to Get Lost
+0x111CD8,0xD7D88,ワールドマップ使用方法,Using the World Map
+0x111CC9,0xD7D8C,すごい霧ね\\\\,What a Fog\\\\
+0x111CB8,0xD7D90,コンテナの押し方,How to Push Containers
+0x111CA7,0xD7D94,オベロン社廃坑へ,To the Oberon Mine
+0x111C94,0xD7D98,設備は生きている？,Is the Gear Still Live?
+0x111C85,0xD7D9C,お宝探索の基本,Treasure Hunting 101
+0x111C6C,0xD7DA0,ハイデルベルグを目指せ２,Head for Heidelberg 2
+0x111C59,0xD7DA4,城下町を観光しよう,Tour the Castle Town
+0x111C40,0xD7DA8,あたしの村への行きかた１,The Way to My Village 1
+0x111C27,0xD7DAC,あたしの村への行きかた２,The Way to My Village 2
+0x111C0C,0xD7DB0,こんな暑い中にずっといたら,Out in This Heat All Day
+0x111BFF,0xD7DB4,バテてないで,Don't Wear Out
+0x111BE0,0xD7DB8,橋が通れるようになったはずだよ,The Bridge Should Be Open
+0x10F293,0xC7118,シナリオ名称入力予約３,Scenario Name Reserve 3
+0x10F28A,0xC711C,よやく３,Reserve 3

@@ -1,0 +1,1274 @@
+file,offset,japanese,english
+06167.md1,0x1E8F8,"クイズをやめますか？
+ 
+<button:00000035>やめる  <button:00000036>やめない","Quit the quiz?
+ 
+<button:00000035>Quit  <button:00000036>Don't"
+06798.md1,0x5948,術・技,Artes
+06798.md1,0x5980,マニュアル,Manual
+06798.md1,0x5990,セミオート,Semi-Auto
+06798.md1,0x59A0,オート,Auto
+06798.md1,0x59A8,"<button:00000035>使用
+<button:00000036>戻る
+<button:00000037>説明切替
+<button:00000038>使用切替","<button:00000035>Use
+<button:00000036>Back
+<button:00000037>Info
+<button:00000038>Toggle"
+06798.md1,0x59D8,<button:00000021><button:00000039><button:0000003A>キャラ切替,<button:00000021><button:00000039><button:0000003A>Switch Char
+06798.md1,0x5C60,<button:00000035><button:00000036>戻る,<button:00000035><button:00000036>Back
+06799.md1,0x6370,"たちは
+称号「","'s party got """
+06799.md1,0x6380,」を得ました,""" as a title!"
+06799.md1,0x64B8,アイテム,Items
+06799.md1,0x64C8,装身具,Trinket
+06799.md1,0x64D0,防具,Armor
+06799.md1,0x64D8,武器,Weapon
+06799.md1,0x64E0,道具,Items
+06799.md1,0x64E8,新規,New
+06799.md1,0x64F8,外装,Outfit
+06799.md1,0x6500,装飾品,Jewelry
+06799.md1,0x6508,腕輪,Bangle
+06799.md1,0x6510,短剣,Dagger
+06799.md1,0x6518,篭手,Glove
+06799.md1,0x6550,両手,2-Hand
+06799.md1,0x6560,貴重品,Special
+06799.md1,0x6568,食材,Food
+06799.md1,0x6570,調理器具,Cookware
+06799.md1,0x6580,"<button:00000035>決定
+<button:00000036>戻る","<button:00000035>Select
+<button:00000036>Back"
+06799.md1,0x6610,ふつう,Normal
+06799.md1,0x6618,"使いますか？
+ 
+<button:00000035>使う  <button:00000036>やめる","Use this?
+ 
+<button:00000035>Use  <button:00000036>Cancel"
+06799.md1,0x6640,"捨てますか？
+ 
+<button:00000035>捨てる  <button:00000036>やめる","Discard it?
+ 
+<button:00000035>Yes  <button:00000036>No"
+06799.md1,0x6680,"<button:00000035>使用
+<button:00000036>戻る
+<button:00000037>説明切替
+<button:00000038>捨てる","<button:00000035>Use
+<button:00000036>Back
+<button:00000037>Info
+<button:00000038>Drop"
+06799.md1,0x66B0,<button:00000036>戻る,<button:00000036>Back
+06799.md1,0x66C0,は捨てられません, can't be discarded.
+06799.md1,0x6718,みんなナイスガイになった,Everyone became a nice guy!
+06799.md1,0x6738,全身に聖気をまとったような気がする,You feel wrapped in holy energy.
+06799.md1,0x6760,全身に邪気をまとったような気がする,You feel wrapped in dark energy.
+06799.md1,0x6788,が飛び出した, popped out!
+06799.md1,0x67C8,は無くなりました, is all gone.
+06799.md1,0x67E0,しばし待たれい,One moment.
+06799.md1,0x6B84,しばし待たれい,One moment.
+06800.md1,0x43C0,装備,Equip
+06800.md1,0x43C8,装飾品,Jewelry
+06800.md1,0x43D8,外装,Outfit
+06800.md1,0x43F8,武器,Weapon
+06800.md1,0x4400,価格(低),Price (low)
+06800.md1,0x4410,価格(高),Price (high)
+06800.md1,0x4420,回避,Evade
+06800.md1,0x4428,能力,Stats
+06800.md1,0x4430,防御回数,Block Count
+06800.md1,0x4440,防御力,Defense
+06800.md1,0x4448,アイウエオ,Alphabetical
+06800.md1,0x4458,スロットレベル,Slot Level
+06800.md1,0x4468,攻撃力,Attack
+06800.md1,0x4470,"<button:00000035>変更
+<button:00000036>戻る
+<button:00000037>説明切替
+<button:00000038>はずす
+<button:00000039><button:0000003A>キャラ切替","<button:00000035>Change
+<button:00000036>Back
+<button:00000037>Info
+<button:00000038>Remove
+<button:00000039><button:0000003A>Switch"
+06800.md1,0x4500,"<button:00000035>決定
+<button:00000036>戻る
+<button:00000037>説明切替","<button:00000035>Select
+<button:00000036>Back
+<button:00000037>Info"
+06800.md1,0x4528,"<button:00000035>決定
+<button:00000036>戻る","<button:00000035>Select
+<button:00000036>Back"
+06800.md1,0x4578,武器は外せません,Can't remove weapon.
+06800.md1,0x4590,装備を外せません,Can't remove that.
+06800.md1,0x45A8,"<button:00000036>戻る
+<button:00000037>オート装備
+<button:00000038>全てはずす
+<button:00000021><button:00000039><button:0000003A>キャラ切替","<button:00000036>Back
+<button:00000037>Auto-Equip
+<button:00000038>Remove All
+<button:00000021><button:00000039><button:0000003A>Switch"
+06801.md1,0x2B98,作戦,Tactics
+06801.md1,0x2BA0,"<button:00000035>決定
+<button:00000036>戻る
+<button:00000037>説明切替
+<button:00000038>リスト表示
+","<button:00000035>Select
+<button:00000036>Back
+<button:00000037>Info
+<button:00000038>List View
+"
+06801.md1,0x2BF8,"<button:00000036>戻る
+<button:00000037>説明切替
+<button:00000038>リスト表示
+<button:00000021>変更","<button:00000036>Back
+<button:00000037>Info
+<button:00000038>List View
+<button:00000021>Change"
+06801.md1,0x2C30,"<button:00000035>決定
+<button:00000036>戻る
+<button:00000037>説明切替","<button:00000035>Select
+<button:00000036>Back
+<button:00000037>Info"
+06801.md1,0x2C98,"<button:00000035>決定
+<button:00000036>戻る","<button:00000035>Select
+<button:00000036>Back"
+06802.md1,0x5F80,"たちは
+称号「","'s party got """
+06802.md1,0x5F90,」を得ました,""" as a title!"
+06802.md1,0x62A8,リファイン,Refine
+06802.md1,0x62B8,装身具,Trinket
+06802.md1,0x62C0,防具,Armor
+06802.md1,0x62C8,武器,Weapon
+06802.md1,0x62D0,道具,Items
+06802.md1,0x62D8,外装,Outfit
+06802.md1,0x62E0,装飾品,Jewelry
+06802.md1,0x6318,両手,2-Hand
+06802.md1,0x6328,"<button:00000035>選択
+<button:00000036>戻る
+<button:00000037>説明切替
+<button:00000038>取消","<button:00000035>Select
+<button:00000036>Back
+<button:00000037>Info
+<button:00000038>Cancel"
+06802.md1,0x6390,レンズ,Lens
+06802.md1,0x63C0,"実行しますか？
+ 
+<button:00000035>実行  <button:00000036>やめる","Proceed?
+ 
+<button:00000035>Yes  <button:00000036>No"
+06802.md1,0x63E8,"<button:00000035>決定
+<button:00000036>戻る
+<button:00000037>説明切替
+<button:00000019>結果参照Ａ
+<button:0000001D>結果参照Ｂ","<button:00000035>Select
+<button:00000036>Back
+<button:00000037>Info
+<button:00000019>Result A
+<button:0000001D>Result B"
+06802.md1,0x6430,<button:00000036>戻る,<button:00000036>Back
+06802.md1,0x6440,"<button:00000035>使用
+<button:00000036>戻る
+<button:00000037>説明切替
+<button:00000038>捨てる","<button:00000035>Use
+<button:00000036>Back
+<button:00000037>Info
+<button:00000038>Drop"
+06802.md1,0x6470,"<button:00000035>決定
+<button:00000036>戻る","<button:00000035>Select
+<button:00000036>Back"
+06802.md1,0x64E8,個手に入れた, obtained.
+06802.md1,0x64F8,ルーンボトルの変更はできません,Rune Bottles can't change.
+06802.md1,0x6520,はこれ以上持てません, can't be carried anymore.
+06803.md1,0x8918,装身具,Trinket
+06803.md1,0x8920,防具,Armor
+06803.md1,0x8928,武器,Weapon
+06803.md1,0x8930,道具,Items
+06803.md1,0x8940,外装,Outfit
+06803.md1,0x8948,装飾品,Jewelry
+06803.md1,0x8950,腕輪,Bangle
+06803.md1,0x8958,短剣,Dagger
+06803.md1,0x8960,篭手,Glove
+06803.md1,0x8998,両手,2-Hand
+06803.md1,0x89A8,食材,Food
+06803.md1,0x89B0,調理器具,Cookware
+06803.md1,0x89C0,"<button:00000035>決定
+<button:00000036>戻る","<button:00000035>Select
+<button:00000036>Back"
+06803.md1,0x89E0,ガルド,Gald
+06803.md1,0x89E8,  購入,  Buy
+06803.md1,0x89F0,  売却,  Sell
+06803.md1,0x8A1C,"でいいですか？
+ 
+<button:00000035>売る  <button:00000036>やめる",", OK?
+ 
+<button:00000035>Sell  <button:00000036>Cancel"
+06803.md1,0x8A48,"これでいいですか？
+ 
+<button:00000035>買う  <button:00000036>やめる","Is this OK?
+ 
+<button:00000035>Buy  <button:00000036>Cancel"
+06803.md1,0x8A78,店を出る,Leave shop
+06803.md1,0x8A88,装備,Equip
+06803.md1,0x8A90,売る,Sell
+06803.md1,0x8A98,買う,Buy
+06803.md1,0x8AA8,"<button:00000035>決定
+<button:00000036>戻る
+<button:00000037>説明切替
+<button:00000038>キャラ切替
+<button:00000021><button:00000039><button:0000003A>個数増減","<button:00000035>Select
+<button:00000036>Back
+<button:00000037>Info
+<button:00000038>Switch Char
+<button:00000021><button:00000039><button:0000003A>Quantity"
+06804.md1,0x4C10,エンチャント,Enchant
+06804.md1,0x4C20,アクション,Action
+06804.md1,0x4C30,アームド,Armed
+06804.md1,0x4C40,"<button:00000035>決定
+<button:00000036>戻る
+<button:00000037>説明切替
+<button:00000019>アクティブレベル説明
+<button:00000039><button:0000003A>キャラ切替
+","<button:00000035>Select
+<button:00000036>Back
+<button:00000037>Info
+<button:00000019>Active Level
+<button:00000039><button:0000003A>Switch Char
+"
+06804.md1,0x4C98,<button:00000021><button:00000039><button:0000003A>キャラ切替,<button:00000021><button:00000039><button:0000003A>Switch Char
+06804.md1,0x4CE0,チェイン,Chain
+06804.md1,0x4CF0,マジック,Magic
+06804.md1,0x4D00,スキル,Skill
+06804.md1,0x4D08,アタック,Attack
+06804.md1,0x4DC8,"<button:00000035>変更
+<button:00000036>戻る
+<button:00000037>説明切替
+<button:00000038>はずす
+<button:00000039><button:0000003A>術技切替","<button:00000035>Change
+<button:00000036>Back
+<button:00000037>Info
+<button:00000038>Remove
+<button:00000039><button:0000003A>Switch Arte"
+06804.md1,0x4E88,"<button:00000035>決定
+<button:00000036>戻る
+<button:00000037>説明切替","<button:00000035>Select
+<button:00000036>Back
+<button:00000037>Info"
+06804.md1,0x4EF0,"<button:00000036><button:0000001D>戻る
+<button:00000039><button:0000003A>キャラ切替
+","<button:00000036><button:0000001D>Back
+<button:00000039><button:0000003A>Switch Char
+"
+06805.md1,0x4038,フォーマットが完了しました！,Format complete!
+06805.md1,0x4058,フォーマットに失敗しました,Format failed.
+06805.md1,0x4078,"のメモリーカード（ＰＳ２）に
+アクセス中です","'s Memory Card (PS2) is
+being accessed."
+06805.md1,0x40A8,このゲームのセーブデータがありません,No save data for this game.
+06805.md1,0x4138,"ゲームを中断しますか？
+ただし、再開後は中断データが
+なくなりますのでご注意ください
+","Suspend the game?
+Note: the suspend data is
+deleted once you resume.
+"
+06805.md1,0x4190,"<size:000000E0>（中断データは上書きされます）<size:00000100>
+","<size:000000E0>(Suspend data is overwritten)<size:00000100>
+"
+06805.md1,0x41C0," 
+よろしいですか？
+ 
+<button:00000035>はい  <button:00000036>いいえ"," 
+Is this OK?
+ 
+<button:00000035>Yes  <button:00000036>No"
+06805.md1,0x41F0,"データを新規作成します。よろしいですか？
+ 
+<button:00000035>はい  <button:00000036>いいえ","Create new data. Is this OK?
+ 
+<button:00000035>Yes  <button:00000036>No"
+06805.md1,0x4238,"選択中のデータに上書きセーブします。
+よろしいですか？
+ 
+<button:00000035>はい  <button:00000036>いいえ","Overwrite the selected data.
+Is this OK?
+ 
+<button:00000035>Yes  <button:00000036>No"
+06805.md1,0x4288,"選択中のデータをロードします。よろしいですか？
+ 
+<button:00000035>はい  <button:00000036>いいえ","Load the selected data. Is this OK?
+ 
+<button:00000035>Yes  <button:00000036>No"
+06805.md1,0x42E8,"のメモリーカード（ＰＳ２）は
+このゲームの中断データを新規作成するための空き容量が
+足りません。
+新規作成には ","'s Memory Card (PS2) does not
+have enough free space to create
+suspend data.
+Creating it needs "
+06805.md1,0x4358,KB 以上の空き容量が必要です,KB or more of free space.
+06805.md1,0x4378,"のメモリーカード（ＰＳ２）は
+このゲームのセーブデータを新規作成するための空き容量が
+足りません。
+新規作成には ","'s Memory Card (PS2) does not
+have enough free space to create
+save data.
+Creating it needs "
+06805.md1,0x43E8,セーブに失敗しました,Save failed.
+06805.md1,0x4400,ロードに失敗しました,Load failed.
+06805.md1,0x4418,"セーブ中です。メモリーカード（ＰＳ２）を
+抜いたり、電源を切ったりしないでください","Saving. Do not remove the Memory
+Card (PS2) or turn off the power."
+06805.md1,0x4470,セーブが完了しました！,Save complete!
+06805.md1,0x4488,"ロード中です。メモリーカード（ＰＳ２）を抜いたり、
+電源を切ったりしないでください","Loading. Do not remove the Memory
+Card (PS2) or turn off the power."
+06805.md1,0x44E0,ロードが完了しました！,Load complete!
+06805.md1,0x44F8,"<button:00000035>決定
+<button:00000036>戻る
+<button:00000037>グラフ切替
+","<button:00000035>Select
+<button:00000036>Back
+<button:00000037>Graph
+"
+06805.md1,0x4590,"のメモリーカード（ＰＳ２）に
+アクセスできません","'s Memory Card (PS2)
+cannot be accessed."
+06805.md1,0x45C0,"セーブを終了しますか？
+ 
+<button:00000035>終了する  <button:00000036>戻る","Exit the save menu?
+ 
+<button:00000035>Exit  <button:00000036>Back"
+06806.md1,0xF0F1,掛け合い,Banter
+06806.md1,0xF13C,ノック,Knock
+06806.md1,0xF148,女盗賊,Thief
+06806.md1,0xF150,魔女,Witch
+06806.md1,0xF158,女神官,Cleric
+06806.md1,0xF160,ヴァンパイア,Vampire
+06806.md1,0xF178,拳闘士,Boxer
+06806.md1,0xF180,男神官,Priest
+06806.md1,0xF188,戦士,Warrior
+06806.md1,0xF190,槍闘士,Lancer
+06806.md1,0xF198,掛け合い,Banter
+06806.md1,0xF1D8,イベント,Event
+06806.md1,0xF1E8,マップ,Map
+06806.md1,0xF1F0,戦闘,Battle
+06806.md1,0xF1F8,システム,System
+06806.md1,0xF48D,"ひとつ前へ
+<button:0000003A>ひとつ先へ
+","Previous
+<button:0000003A>Next
+"
+06806.md1,0xF4B0,"<button:00000021>変更
+<button:00000036>戻る","<button:00000021>Change
+<button:00000036>Back"
+06806.md1,0xF5D5,"前へ
+<button:0000003A>ひとつ先へ
+","Back
+<button:0000003A>Next
+"
+06807.md1,0x7448,料理,Cooking
+06807.md1,0x7450,すでに同じ内容のレシピを持っています,You already have that recipe.
+06807.md1,0x7478,削除,Delete
+06807.md1,0x7480,アレンジ,Arrange
+06807.md1,0x7490,名前変更,Rename
+06807.md1,0x74A0,オート重複時設定,Auto-Cook Overlap
+06807.md1,0x74B8,オート設定,Auto Set
+06807.md1,0x74C8,"レシピを削除しますか？
+ 
+<button:00000035>削除  <button:00000036>やめる","Delete this recipe?
+ 
+<button:00000035>Delete  <button:00000036>Cancel"
+06807.md1,0x74F8,"を料理しますか？
+ 
+<button:00000035>実行  <button:00000036>やめる",", cook it?
+ 
+<button:00000035>Cook  <button:00000036>Cancel"
+06807.md1,0x7528,の料理に失敗しました, was a failure.
+06807.md1,0x7540,を料理しました, is ready!
+06807.md1,0x7550,"これらの食材で料理してみますか？
+ 
+<button:00000035>実行  <button:00000036>やめる","Cook with these ingredients?
+ 
+<button:00000035>Cook  <button:00000036>Cancel"
+06807.md1,0x7590,"レシピ作成には２種類以上の食品を
+使用する必要があります
+ 
+レシピの作成をやめますか？
+ 
+<button:00000035>やめる  <button:00000036>続行","A recipe needs at least two
+different ingredients.
+ 
+Stop creating this recipe?
+ 
+<button:00000035>Stop  <button:00000036>Continue"
+06807.md1,0x7600,"新規にレシピを作成しますか？
+ 
+<button:00000035>作成  <button:00000036>やめる","Create a new recipe?
+ 
+<button:00000035>Create  <button:00000036>Cancel"
+06807.md1,0x7638,"<button:00000035>決定
+<button:00000036>戻る
+<button:00000037>説明切替
+<button:00000038>メニュー","<button:00000035>Select
+<button:00000036>Back
+<button:00000037>Info
+<button:00000038>Menu"
+06807.md1,0x7670,戦闘不能,K.O.
+06807.md1,0x7680,鈍足,Slow
+06807.md1,0x7688,凍結,Freeze
+06807.md1,0x7690,麻痺,Para
+06807.md1,0x7698,衰弱,Weak
+06807.md1,0x76A8,知性＋,Int +
+06807.md1,0x76B0,命中＋,Hit +
+06807.md1,0x76B8,防御＋,Def +
+06807.md1,0x76C0,攻撃＋,Atk +
+06807.md1,0x76C8,ＨＰ継続回復,HP Regen
+06807.md1,0x7708,チェイン,Chain
+06807.md1,0x7718,マジック,Magic
+06807.md1,0x7728,スキル,Skill
+06807.md1,0x7730,アタック,Attack
+06807.md1,0x7740,強化,Boost
+06807.md1,0x7748,耐性,Resist
+06807.md1,0x7750,ステータス,Status
+06807.md1,0x77C0,回復,Heal
+06807.md1,0x77C8,ダメージ,Damage
+06807.md1,0x7800,"<button:00000035>決定
+<button:00000036>戻る","<button:00000035>Select
+<button:00000036>Back"
+06807.md1,0x7818,みんな満腹です,Everyone is full.
+06807.md1,0x7930,"レシピ作成には２種類以上の食品を
+所持している必要があります","A recipe needs at least two
+different ingredients on hand."
+06807.md1,0x7970,<button:00000035>保存する  <button:00000036>保存しない,<button:00000035>Save  <button:00000036>Don't save
+06807.md1,0x7990,保存しました,Saved.
+06807.md1,0x7A18,"<button:00000035>決定
+<button:00000036>戻る
+<button:00000037>説明切替","<button:00000035>Select
+<button:00000036>Back
+<button:00000037>Info"
+06807.md1,0x7A78,新作,New
+06808.md1,0x4620,カスタム,Custom
+06808.md1,0x4630,デフォルト,Default
+06808.md1,0x4640,元に戻す,Undo
+06808.md1,0x4650,アクティブ,Active
+06808.md1,0x4660,オン,On
+06808.md1,0x4668,オフ,Off
+06808.md1,0x4688,フェイス,Face
+06808.md1,0x4698,キャラ,Char
+06808.md1,0x46A0,走り,Run
+06808.md1,0x46A8,歩き,Walk
+06808.md1,0x46E8,戦闘オートカメラ,Battle Auto Camera
+06808.md1,0x4700,敵ターゲットＳＰ常時表示,Always Show Target SP
+06808.md1,0x4720,コントローラ振動,Controller Vibration
+06808.md1,0x4738,スクリーンチャット字幕,Screen Chat Subtitles
+06808.md1,0x4750,ウィンドウカラー,Window Color
+06808.md1,0x4768,画面位置調整,Screen Adjust
+06808.md1,0x4778,メニュー背景,Menu BG
+06808.md1,0x4788,サウンド,Sound
+06808.md1,0x4798,フィールド,Field
+06808.md1,0x47A8,戦闘キーカスタマイズ,Battle Key Config
+06808.md1,0x47C0,戦闘ランク,Battle Rank
+06808.md1,0x47D0,パーティ表示,Party Display
+06808.md1,0x47E0,移動時基本速度,Move Speed
+06808.md1,0x47F0,メッセージスピード,Message Speed
+06808.md1,0x4868,タイプ,Type
+06808.md1,0x4870,サウンドテスト,Sound Test
+06808.md1,0x4880,ステレオ,Stereo
+06808.md1,0x4890,パン,Pan
+06808.md1,0x4898,イベントボイス,Event Voice
+06808.md1,0x48A8,戦闘ボイス,Battle Voice
+06808.md1,0x48B8,効果音,SFX
+06808.md1,0x48C8,飛行艇リバース,Airship Rev
+06808.md1,0x48D8,カメラＬＲ回転,Camera L/R
+06808.md1,0x48E8,特技ショートカット２,Skill Shortcut 2
+06808.md1,0x4900,特技ショートカット１,Skill Shortcut 1
+06808.md1,0x4918,ターゲット変更,Change Target
+06808.md1,0x4928,作戦変更,Change Tactics
+06808.md1,0x4938,メニュー,Menu
+06808.md1,0x4948,特技,Skill
+06808.md1,0x4950,防御,Guard
+06808.md1,0x4958,攻撃,Attack
+06808.md1,0x4960,"<button:00000021>変更
+<button:00000036>戻る","<button:00000021>Change
+<button:00000036>Back"
+06808.md1,0x4AB8,"<button:00000035><button:00000036><button:00000037><button:00000038><button:00000039><button:0000003A><button:0000003B><button:0000003C>変更
+<button:00000019>戻る","<button:00000035><button:00000036><button:00000037><button:00000038><button:00000039><button:0000003A><button:0000003B><button:0000003C>Edit
+<button:00000019>Back"
+06808.md1,0x4AF0,"<button:00000021>変更
+<button:00000036>戻る
+<button:00000039><button:0000003A>ウィンドウ消去","<button:00000021>Change
+<button:00000036>Back
+<button:00000039><button:0000003A>Hide Window"
+06808.md1,0x4B20,"<button:00000035>決定
+<button:00000036>キャンセル
+<button:00000037>元に戻す
+<button:00000038>デフォルト
+<button:00000024>調整","<button:00000035>OK
+<button:00000036>Cancel
+<button:00000037>Undo
+<button:00000038>Default
+<button:00000024>Adjust"
+06808.md1,0x4B68,"<button:00000035><button:0000001D>サブメニュー
+<button:00000036>戻る","<button:00000035><button:0000001D>Submenu
+<button:00000036>Back"
+06808.md1,0x4B90,"<button:00000035>決定
+<button:00000036>戻る","<button:00000035>Select
+<button:00000036>Back"
+06809.md1,0x2D40,ステータス,Status
+06809.md1,0x2D50,"<button:00000035>名前変更
+<button:00000036>戻る
+<button:00000038>イメージ切替
+<button:00000021><button:00000039><button:0000003A>キャラ切替","<button:00000035>Rename
+<button:00000036>Back
+<button:00000038>Image
+<button:00000021><button:00000039><button:0000003A>Switch Char"
+06809.md1,0x2DB0,詠唱速度,Cast Speed
+06809.md1,0x2DC0,ＴＰ軽減,TP Reduce
+06809.md1,0x2DD0,ＴＰ回復,TP Regen
+06809.md1,0x2DE0,ＳＰ軽減,SP Reduce
+06809.md1,0x2DF0,ＳＰ回復,SP Regen
+06809.md1,0x2E00,幸運,Luck
+06809.md1,0x2E08,回避,Evade
+06809.md1,0x2E10,命中,Hit
+06809.md1,0x2E18,知性,Int
+06809.md1,0x2E20,防御,Def
+06809.md1,0x2E28,攻撃,Atk
+06809.md1,0x2E40,装飾品,Jewelry
+06809.md1,0x2E50,外装,Outfit
+06809.md1,0x2E70,武器,Weapon
+06809.md1,0x2E78,闇属性,Dark
+06809.md1,0x2E80,光属性,Light
+06809.md1,0x2E88,風属性,Wind
+06809.md1,0x2E90,火属性,Fire
+06809.md1,0x2E98,水属性,Water
+06809.md1,0x2EA0,地属性,Earth
+06809.md1,0x2EA8,チェイン,Chain
+06809.md1,0x2EB8,マジック,Magic
+06809.md1,0x2EC8,スキル,Skill
+06809.md1,0x2ED0,アタック,Attack
+06809.md1,0x2F60,"<button:00000035>称号変更
+<button:00000036>戻る
+<button:00000037>説明切替
+<button:00000038>イメージ切替
+<button:00000021><button:00000039><button:0000003A>キャラ切替","<button:00000035>Change Title
+<button:00000036>Back
+<button:00000037>Info
+<button:00000038>Image
+<button:00000021><button:00000039><button:0000003A>Switch Char"
+06809.md1,0x2FB8,"<button:00000035>決定
+<button:00000036>戻る
+<button:00000037>説明切替","<button:00000035>Select
+<button:00000036>Back
+<button:00000037>Info"
+06810.md1,0x3440,"<button:00000035>入力
+<button:00000036>戻る
+<button:00000037>削除","<button:00000035>Enter
+<button:00000036>Back
+<button:00000037>Del"
+06810.md1,0x3460,"<button:00000035>決定
+<button:00000036>戻る
+<button:00000037>削除
+<button:00000039><button:0000003A>フォント切替
+<button:0000003B><button:0000003C>入力位置切替","<button:00000035>OK
+<button:00000036>Back
+<button:00000037>Del
+<button:00000039><button:0000003A>Font
+<button:0000003B><button:0000003C>Cursor"
+06810.md1,0x34F8,"<button:00000035>決定
+<button:00000036>戻る","<button:00000035>Select
+<button:00000036>Back"
+06810.md1,0x3560,"入力を取りやめますか？
+<size:000000E0>（入力の反映は「決定」上で<button:00000035>）<size:00000100>
+ 
+<button:00000035>やめる  <button:00000036>入力に戻る","Cancel this entry?
+<size:000000E0>(Confirm with <button:00000035> on ""OK"")<size:00000100>
+ 
+<button:00000035>Cancel  <button:00000036>Back to entry"
+06811.md1,0x2558,アイテム,Items
+06811.md1,0x2568,"<button:00000035>使用
+<button:00000036>戻る
+<button:00000037>説明切替","<button:00000035>Use
+<button:00000036>Back
+<button:00000037>Info"
+06811.md1,0x2590,<button:00000035><button:00000036>戻る,<button:00000035><button:00000036>Back
+06812.md1,0xB440,"<button:00000035>決定
+<button:00000036>戻る","<button:00000035>Select
+<button:00000036>Back"
+06812.md1,0xB470,<button:00000036>戻る,<button:00000036>Back
+06813.md1,0x7800,"<button:00000021><button:00000039><button:0000003A>モンスター切替
+<button:00000038>リスト表示
+<button:00000036>戻る","<button:00000021><button:00000039><button:0000003A>Switch
+<button:00000038>List View
+<button:00000036>Back"
+06813.md1,0x7838,防御回数,Block Count
+06813.md1,0x7848,ＴＰ軽減,TP Reduce
+06813.md1,0x7858,ＴＰ回復,TP Regen
+06813.md1,0x7868,ＳＰ軽減,SP Reduce
+06813.md1,0x7878,ＳＰ回復,SP Regen
+06813.md1,0x7888,幸運,Luck
+06813.md1,0x7890,回避,Evade
+06813.md1,0x7898,命中,Hit
+06813.md1,0x78A0,知性,Int
+06813.md1,0x78A8,防御,Def
+06813.md1,0x78B0,攻撃,Atk
+06813.md1,0x78C8,ガルド,Gald
+06813.md1,0x78D8,闇属性,Dark
+06813.md1,0x78E0,光属性,Light
+06813.md1,0x78E8,風属性,Wind
+06813.md1,0x78F0,火属性,Fire
+06813.md1,0x78F8,水属性,Water
+06813.md1,0x7900,地属性,Earth
+06813.md1,0x7908,落とすアイテム,Drop Item
+06813.md1,0x7918,盗めるアイテム,Steal Item
+06813.md1,0x7928,特殊抵抗,Special Res
+06813.md1,0x79B0,<button:00000035><button:00000036>戻る,<button:00000035><button:00000036>Back
+06814.md1,0x4278,アイテム,Items
+06814.md1,0x4288,装身具,Trinket
+06814.md1,0x4290,防具,Armor
+06814.md1,0x4298,武器,Weapon
+06814.md1,0x42A0,道具,Items
+06814.md1,0x42B0,外装,Outfit
+06814.md1,0x42B8,装飾品,Jewelry
+06814.md1,0x42C0,腕輪,Bangle
+06814.md1,0x42C8,短剣,Dagger
+06814.md1,0x42D0,篭手,Glove
+06814.md1,0x4308,両手,2-Hand
+06814.md1,0x4318,貴重品,Special
+06814.md1,0x4320,食材,Food
+06814.md1,0x4328,調理器具,Cookware
+06814.md1,0x4338,"<button:00000035>決定
+<button:00000036>戻る","<button:00000035>Select
+<button:00000036>Back"
+06814.md1,0x4370,"<button:00000037>説明切替
+<button:00000036>戻る","<button:00000037>Info
+<button:00000036>Back"
+06814.md1,0x4388,<button:00000036>戻る,<button:00000036>Back
+06814.md1,0x43D8,<button:00000035><button:00000036>戻る,<button:00000035><button:00000036>Back
+06815.md1,0x990,メモリーカード差込口４,Memory Card Slot 4
+06815.md1,0x9A8,メモリーカード差込口３,Memory Card Slot 3
+06815.md1,0x9C0,メモリーカード差込口２,Memory Card Slot 2
+06815.md1,0x9D8,メモリーカード差込口１,Memory Card Slot 1
+06815.md1,0xA50,"にメモリーカード（ＰＳ２）を
+差して下さい。",", please insert a
+Memory Card (PS2)."
+06815.md1,0xA88,"　　　　このままゲームを開始しますか？　　　　
+ 
+<button:00000035>はい  <button:00000036>いいえ","    Start the game anyway?    
+ 
+<button:00000035>Yes  <button:00000036>No"
+06815.md1,0xAD0,"のメモリーカード（ＰＳ２）に
+アクセスできません。","'s Memory Card (PS2)
+cannot be accessed."
+06815.md1,0xB08,"のメモリーカード（ＰＳ２）の
+空き容量が不足しています。
+ 
+このゲームのデータをセーブする為には最低
+以下の空き容量が必要です。
+ 
+・セーブデータ（新規作成）  ","'s Memory Card (PS2)
+does not have enough free space.
+ 
+To save this game you need at
+least the following free space:
+ 
+- Save data (new)  "
+06815.md1,0xBB0,"KB
+・中断データ（新規作成）    ","KB
+- Suspend data (new)    "
+06816.md1,0xFE8,"以上の設定で、ゲームを開始します。
+<button:00000025>ゲーム開始<button:00000026>戻る","Start the game with these settings.
+<button:00000025>Start<button:00000026>Back"
+06816.md1,0x1028,ゲーム開始,Start Game
+06816.md1,0x1038,"「クレイジーコメット」の追加晶術に
+さらに追加発動が可能になります","Crazy Comet's added spell can
+trigger an extra activation."
+06816.md1,0x1080,連鎖発動,Chain Trigger
+06816.md1,0x1090,"エンカウント数・最大ヒット数を引き継いで
+ゲーム開始できます","Carry over encounter count and
+max hits into the new game."
+06816.md1,0x10D0,戦闘情報引継ぎ,Carry Battle
+06816.md1,0x10E0,プレイ時間を引き継いでゲーム開始できます,Carry over your play time.
+06816.md1,0x1110,プレイ時間引継ぎ,Carry Play Time
+06816.md1,0x1128,"消費アイテムを１種類につき
+３０個まで持つことができます","Hold up to 30 of each
+consumable item."
+06816.md1,0x1160,アイテム数３０個,Item Cap 30
+06816.md1,0x1178,"消費アイテムを１種類につき
+２０個まで持つことができます","Hold up to 20 of each
+consumable item."
+06816.md1,0x11B0,アイテム数２０個,Item Cap 20
+06816.md1,0x11C8,"ワールドマップの情報を引き継いで
+ゲーム開始できます","Carry over your world map
+information."
+06816.md1,0x1200,ワールドマップ引継ぎ,Carry World Map
+06816.md1,0x1300,取得料理を引き継いでゲーム開始できます,Carry over learned recipes.
+06816.md1,0x1328,料理引継ぎ,Carry Recipes
+06816.md1,0x1338,"通常の取得経験値が１になる代わり、
+連続ヒットボーナス経験値が４倍になります","Normal EXP gain drops to 1, but
+combo bonus EXP becomes 4x."
+06816.md1,0x1388,コンボ命,Combo Life
+06816.md1,0x1398,"取得経験値が半分になります。
+低レベルでクリアしたい人にお勧め","EXP gained is halved. Good for
+a low-level playthrough."
+06816.md1,0x13D8,経験値半分,Half EXP
+06816.md1,0x13E8,敵が持つ取得経験値が２倍になります,Enemy EXP is doubled.
+06816.md1,0x1410,経験値２倍,Double EXP
+06816.md1,0x1420,"スカウトオーブ・ムーンセレクター
+マジカルポットを引き継いでゲーム開始できます","Carry over Scout Orb, Moon
+Selector and Magical Pot."
+06816.md1,0x1470,ステキアイテム引継ぎ,Carry Rare Items
+06816.md1,0x1488,"ランダムエンカウントをまったくしなくなります。
+ゲームクリアの保証はできません
+","Random encounters stop entirely.
+Clearing the game isn't guaranteed.
+"
+06816.md1,0x14D8,エンカウント無効,No Encounters
+06816.md1,0x14F0,"全キャラ最大HPが１６０でゲーム開始します。
+最初から冷や汗かきたい人にお勧め","All characters start with 160 max HP.
+For those who want a cold sweat."
+06816.md1,0x1540,最大HP160スタート,Max HP 160 Start
+06816.md1,0x1558,最大HPを全キャラ500加算してゲーム開始できます,Add 500 max HP to everyone.
+06816.md1,0x1588,最大HP増加,Max HP Up
+06816.md1,0x1598,"それぞれの特技・晶術を習得した時点で
+追加専用エンチャントを習得できます","Learn the added-only enchant as
+soon as you learn each arte."
+06816.md1,0x15E0,追加発動技即習得,Instant Add Artes
+06816.md1,0x15F8,"装備武具のスロットを初期装備武具に付加して
+ゲーム開始できます","Add your equipment slots to the
+starting gear."
+06816.md1,0x1638,スロット引継ぎ,Carry Slots
+06816.md1,0x1648,"追加発動技を除いたエンチャントを引き継いで
+ゲーム開始できます","Carry over enchants, except
+added-trigger artes."
+06816.md1,0x1688,エンチャント引継ぎ,Carry Enchants
+06816.md1,0x16A0,所持晶術を引き継いでゲーム開始できます,Carry over your spells.
+06816.md1,0x16C8,晶術引継ぎ,Carry Spells
+06816.md1,0x16D8,所持特技を引き継いでゲーム開始できます,Carry over your skills.
+06816.md1,0x1700,特技引継ぎ,Carry Skills
+06816.md1,0x1710,"特技・晶術の使用回数を引き継いで
+ゲーム開始できます","Carry over the use counts of
+skills and spells."
+06816.md1,0x1748,使用回数引継ぎ,Carry Counts
+06816.md1,0x1758,"選択可能な難易度と、称号を
+引き継いでゲーム開始できます","Carry over unlocked difficulty
+levels and titles."
+06816.md1,0x1790,難易度・称号引継ぎ,Carry Diff/Titles
+06816.md1,0x17A8,"余ったGRADEは持ち越されます。
+今回は何も使わずに、
+この次のゲーム開始時に使ってみるのもお勧めです","Leftover GRADE carries over.
+You can also spend nothing now
+and save it for the next game."
+06816.md1,0x1810,"ゲームクリア時の戦闘評点(GRADE)を使って、
+様々な条件でゲームを開始することができます","Use the battle rating (GRADE) you
+earned to start under various conditions."
+06816.md1,0x1868,ゲームクリアおめでとうございます！,Congratulations on clearing the game!
+06816.md1,0x19C8,"<button:00000035>購入切替
+<button:00000036>終了
+<button:00000037>説明切替
+<button:00000038>やり直し","<button:00000035>Buy Mode
+<button:00000036>Exit
+<button:00000037>Info
+<button:00000038>Redo"
+06816.md1,0x1A18,        購入  ,        Buy  
+06816.md1,0x2401,-秘奥義-,-Mystic-
+06822.md1,0x1CC1,装身具,Trinket
+08055.md1,0x52590,異常耐性,Ailment Res
+08055.md1,0x525A0,HP回復,HP Rec
+08055.md1,0x525A8,闇抵抗,Dark
+08055.md1,0x525B0,光抵抗,Light
+08055.md1,0x525B8,風抵抗,Wind
+08055.md1,0x525C0,火抵抗,Fire
+08055.md1,0x525C8,水抵抗,Water
+08055.md1,0x525D0,地抵抗,Earth
+08055.md1,0x525D8,詠唱,Cast
+08055.md1,0x525E0,TP回復,TP Rec
+08055.md1,0x525E8,SP回復,SP Rec
+08055.md1,0x525F0,幸運,Luck
+08055.md1,0x525F8,回避,Evade
+08055.md1,0x52600,命中,Hit
+08055.md1,0x52608,知性,Int
+08055.md1,0x52610,防御,Def
+08055.md1,0x52618,攻撃,Atk
+08055.md1,0x52620,停止,Stop
+08055.md1,0x52628,鈍足,Slow
+08055.md1,0x52630,凍結,Freeze
+08055.md1,0x52638,麻痺,Para
+08055.md1,0x52640,衰弱,Weak
+08055.md1,0x52648,毒,Poison
+08055.md1,0x52710,　特技と同様、奥義から繋がる<color:00000006>秘奥義<color:00000007>を習得しましたが、,"  You learned a <color:00000006>Mystic Arte<color:00000007> after an Arcane Arte,"
+08055.md1,0x526C8,条件として<color:00000005>SP100%<color:00000007>とあります。奥義中にSPは減少するので、,"but it requires <color:00000005>SP 100%<color:00000007>. SP drops during an Arcane Arte,"
+08055.md1,0x52690,普段は使用できませんが、一定時間SPが常にフルに保たれる,"so normally you cannot use it. But while SP stays full,"
+08055.md1,0x52650,状態、すなわち<color:00000006>スピリッツブラスター<color:00000007>時がチャンス！,"that is, during <color:00000006>Spirits Blaster<color:00000007>, is your chance!"
+08055.md1,0x52840,　<Kyle>は特技習得後、<color:00000006>追加特技<color:00000007>のエンチャントを習得します。,"  After learning a Skill, <Kyle> gets the <color:00000006>Added Skill<color:00000007> enchant."
+08055.md1,0x527F8,<color:00000006>蒼破追蓮<color:00000007>は蒼破刃専用の追加技で、使用回数が５０以上あれば、,"<color:00000006>Souha Tsuiren<color:00000007> is exclusive to Souhajin. At 50+ uses,"
+08055.md1,0x527B0,メニュー<color:00000005>エンチャント<color:00000007>から<color:00000004>アクション<color:00000007>に装備できます。,equip it to <color:00000004>Action<color:00000007> from the <color:00000005>Enchant<color:00000007> menu.
+08055.md1,0x52770,　蒼破刃を出した後、<button:0000003D><color:00000006>を押し続け<color:00000007>ると発動します。,"  After using Souhajin, <color:00000006>hold<color:00000007> <button:0000003D> to trigger it."
+08055.md1,0x52948,　<color:00000006>奥義<color:00000007>は「特技の上位技」と認識してください。同様に,"  Think of <color:00000006>Arcane Artes<color:00000007> as higher Skills. Likewise,"
+08055.md1,0x52910,メニュー<color:00000005>術・技<color:00000007>から<button:0000003E>にセットできます。,set them to <button:0000003E> from the <color:00000005>Artes<color:00000007> menu.
+08055.md1,0x528C0,　最大の相違点は、<color:00000006>特技の使用中に入力すること<color:00000007>で連続攻撃になる、,  The key difference: <color:00000006>input during a Skill<color:00000007> chains into a combo.
+08055.md1,0x528A8,ということです。,That is the point.
+08055.md1,0x52AB8,　<color:00000006>エンチャント<color:00000007>とは、特技、晶術に装備し能力を強化するものです。,  <color:00000006>Enchants<color:00000007> attach to Skills and Spells to strengthen them.
+08055.md1,0x52A68,装備にはそれぞれの特技、晶術の使用回数<color:00000006>（COUNT）<color:00000007>を必要とします。,Equipping one needs that Skill or Spell's use <color:00000006>COUNT<color:00000007>.
+08055.md1,0x52A20,メニュー<color:00000005>エンチャント<color:00000007>から４０回以上使用している特技を選択し、,"From the <color:00000005>Enchant<color:00000007> menu, pick a Skill used 40 or more times,"
+08055.md1,0x529D8,<color:00000006>攻撃力アップ<color:00000007>を装備すると、ダメージを増やす事ができます。,then equip <color:00000006>Attack Up<color:00000007> to increase the damage it deals.
+08055.md1,0x529A0,　エンチャントは<button:00000028>で装備を外すことも可能です。,  Enchants can also be removed with <button:00000028>.
+08055.md1,0x52C28,　晶術も特技と同様に、メニュー<color:00000005>術・技<color:00000007>から<button:0000003E>にセットできます。,"  Spells, like Skills, are set to <button:0000003E> from the <color:00000005>Artes<color:00000007> menu."
+08055.md1,0x52BE0,晶術は<color:00000006>TP<color:00000007>と詠唱時間を必要としますが、奥の敵を直接狙えるなどの,"Spells cost <color:00000006>TP<color:00000007> and cast time, but can strike distant foes"
+08055.md1,0x52BA0,利点があり、詠唱中、<button:0000003E>を押しながら<button:00000021>を押すことで、,"directly. While casting, hold <button:0000003E> and press <button:00000021> to"
+08055.md1,0x52B78,攻撃目標を変更することができます。,change the spell's target.
+08055.md1,0x52B28,　また、<color:00000005>SP<color:00000007>が切れた時に晶術を使いつつ回復を待つ作戦も有効です。,"  When <color:00000005>SP<color:00000007> runs dry, casting while it recovers is a fine tactic."
+08055.md1,0x52E40,　特技を習得すると、メニュー<color:00000005>術・技<color:00000007>から特技をセットできます。,  Learn a Skill and you can set it from the <color:00000005>Artes<color:00000007> menu.
+08055.md1,0x52E00,セットした特技は、方向キーと<button:0000003E>の組み合わせで使用できます。,A Skill you have set is used with a direction key plus <button:0000003E>.
+08055.md1,0x52DC0,特技は<color:00000006>TP<color:00000007>が必要になりますが、通常攻撃より高いダメージ,"Skills cost <color:00000006>TP<color:00000007>, but deal more damage than a normal"
+08055.md1,0x52D78,を与え、また、<color:00000006>通常攻撃中に入力を行うと<color:00000007>連続攻撃が可能です。,"attack, and <color:00000006>input during a normal attack<color:00000007> allows combos."
+08055.md1,0x52D20,　<color:00000006>オート操作<color:00000007>の<Loni>は、戦闘中にHP量に応じて,"  On <color:00000006>Auto<color:00000007>, <Loni> tracks your HP in battle and"
+08055.md1,0x52CE8,回復晶術をかけてくれます。どの状況で使用するかは,"casts healing spells. To choose when he does so,"
+08055.md1,0x52CC8,メニュー<color:00000005>作戦<color:00000007>で<Loni>の,open <color:00000005>Tactics<color:00000007> and set
+08055.md1,0x52C98,<color:00000004>防御<color:00000007>の設定を変更してください。,<Loni>'s <color:00000004>Defense<color:00000007> setting.
+08055.md1,0x52EE8,装備品が全滅した・・・,Equipment wiped out...
+08055.md1,0x52F38,スロット効果が発動し、,Slot effect activated:
+08055.md1,0x52F10,対スロットLV上昇,Anti-Slot LV up
+08055.md1,0x52F28,最大ＨＰが上昇,Max HP up
+08055.md1,0x52F00,しました,!
+08055.md1,0x52F50,弱:,Weak:
+08055.md1,0x52F58,耐:,Res:
+08055.md1,0x52F60,闇,Dark
+08055.md1,0x52F68,光,Light
+08055.md1,0x52F70,風,Wind
+08055.md1,0x52F78,火,Fire
+08055.md1,0x52F80,水,Water
+08055.md1,0x52F88,地,Earth
+08055.md1,0x52F90,具現結晶,Lens Crystal
+08055.md1,0x52FA0,追加晶術,Added Spell
+08055.md1,0x52FB8,追加特技,Added Skill
+08055.md1,0x53060,－秘奥義－,-Mystic Arte-
+08055.md1,0x52FE0,称号「<color:00000006>,"Title ""<color:00000006>"
+08055.md1,0x52FC8,<color:00000007>」を得ました,"<color:00000007>"" acquired!"
+08055.md1,0x53008,を料理しました, is ready!
+08055.md1,0x53018,の,'s 
+08055.md1,0x52FF0,が、なんか失敗・・, flopped somehow...
+08055.md1,0x53040,スペル,Spell
+08055.md1,0x53048,スキル,Skill
+08055.md1,0x53050,エンチャント,Enchant
+08055.md1,0x530B0,自爆した！,Self-destruct!
+08055.md1,0x530C0,逃走した・・・,Fled...
+08055.md1,0x530D0,全滅した・・・,Wiped out...
+08055.md1,0x52FB0,秘奥義,Mystic
+08055.md1,0x53038,を習得, gained
+08055.md1,0x53070,設定,Config
+08055.md1,0x53078,状態,Status
+08055.md1,0x53080,料理,Cooking
+08055.md1,0x53088,付加,Enchant
+08055.md1,0x53090,道具,Items
+08055.md1,0x53098,装備,Equip
+08055.md1,0x530A0,作戦,Tactics
+08055.md1,0x530A8,術技,Artes
+08996.md1,0x2B900,アイグレッテ・倉庫,Aigrette - Warehouse
+08996.md1,0x2B918,外殻,Shell
+08996.md1,0x2B920,大陸西部の坑道,Western Mine
+08996.md1,0x2B930,大陸南部の坑道,Southern Mine
+08996.md1,0x2B940,大陸北部の坑道,Northern Mine
+08996.md1,0x2B950,フィールド・スパイラルケイブ周辺,Field - Spiral Cave Area
+08996.md1,0x2B978,フィールド・地上軍拠点北部,Field - Er'ther Base North
+08996.md1,0x2B998,フィールド・地上軍拠点周辺,Field - Er'ther Base Area
+08996.md1,0x2B9B8,フィールド・レアルタ周辺,Field - Realta Area
+08996.md1,0x2B9D8,フィールド・スペランツァ周辺,Field - Speranza Area
+08996.md1,0x2B9F8,フィールド・ヴァンジェロ周辺,Field - Vangelo Area
+08996.md1,0x2BA18,フィールド・カルバレイス北部,Field - Calvalese North
+08996.md1,0x2BA38,フィールド・カルバレイス南部,Field - Calvalese South
+08996.md1,0x2BA58,フィールド・海上,Field - At Sea
+08996.md1,0x2BA70,フィールド・デビルズリーフ,Field - Devil's Reef
+08996.md1,0x2BA90,フィールド・カルバレイス地方,Field - Calvalese Region
+08996.md1,0x2BAB0,フィールド・フィッツガルド地方,Field - Fitzgald Region
+08996.md1,0x2BAD0,フィールド・アクアヴェイル地方,Field - Aquaveil Region
+08996.md1,0x2BAF0,フィールド・ファンダリア南東諸島,Field - Phandaria SE Isles
+08996.md1,0x2BB18,フィールド・ファンダリア地方,Field - Phandaria Region
+08996.md1,0x2BB38,フィールド・セインガルド地方,Field - Seinegald Region
+08996.md1,0x2C1C0,霧が濃いため着陸できません,The fog is too thick to land.
+08996.md1,0x2C1E0,着陸できない地形です,No place to land here.
+08996.md1,0x2C200,高度を下げてください,Please lower your altitude.
+09028.pak0,0xFFA47,いってらっしゃいませ,Have a good day.
+09028.pak0,0xFFA6A,"ガルドになりますが
+お泊まりになりますか？","Gald a night.
+Would you like to stay?"
+09028.pak0,0xFFA94,お泊まりになりますか？,Stay the night?
+09028.pak0,0xFFAB7,"　はい　
+　いいえ　"," Yes 
+ No "
+09028.pak0,0xFFACB,ごゆっくりお休みください,Have a good night.
+09028.pak0,0xFFAE4,おはようございます,Good morning.
+09028.pak0,0xFFAF7,お金が足りません,Not enough Gald.
+09028.pak0,0xFFB08,またのおこしをお待ちしております,See you again soon.
+09028.pak0,0xFFB89,{16}{25}{B6}{C0}を手に入れました,Acquired {16}{25}{B6}{C0}.
+09028.pak0,0xFFBA5,<item:FFFFFFFF>を手に入れました,Acquired <item:FFFFFFFF>.
+09028.pak0,0xFFBC2,"{16}{25}{BE}{C0}がありましたが
+いっぱいで持てませんでした","Found {16}{25}{BE}{C0}, but
+your inventory is full."
+09028.pak0,0xFFBF7,何もありません,Nothing here.
+09028.pak0,0xFFC6C,定期船イベントエントリー,Ferry Event Entry
+09028.pak0,0xFFC85,通常エントリー[現代],Normal [Present]
+09028.pak0,0xFFC9A,"西：大陸西部の坑道
+　　（ノイシュタット方面）
+北：リーネ","W: Western Mine
+   (toward Neuestadt)
+N: Lien"
+09028.pak0,0xFFCD3,"西：オベロン社廃坑
+南：ノイシュタット","W: Oberon Mine
+S: Neuestadt"
+09028.pak0,0xFFCF9,"西：ダリルシェイド
+東：ラグナ遺跡","W: Darilsheid
+E: Laguna Ruins"
+09028.pak0,0xFFD1B,クレスタ～ダリルシェイド街道,Cresta-Darilsheid Road
+09028.pak0,0xFFD38,ダリルシェイド,Darilsheid
+09028.pak0,0xFFD47,"北：ハーメンツヴァレー
+南：ダリルシェイド","N: Harmentz Valley
+S: Darilsheid"
+09028.pak0,0xFFD71,"北：ハイデルベルグ
+西：地上軍拠点跡地","N: Heidelberg
+W: Er'ther Ruins"
+09028.pak0,0xFFD97,"西：大陸西部の坑道
+　　（ノイシュタット方面）
+南：大陸北部の坑道","W: Western Mine
+   (toward Neuestadt)
+S: Northern Mine"
+09028.pak0,0xFFDD8,これより北、ダリルシェイド,North: Darilsheid
+09028.pak0,0xFFDF3,"北：坑道南西出入口
+西：ノイシュタット方面
+東：リーネ方面","N: Mine SW Exit
+W: toward Neuestadt
+E: toward Lien"
+09028.pak0,0xFFE2C,クレスタの街,Cresta
+09028.pak0,0xFFE39,デュナミス孤児院,Dunamis Home
+09028.pak0,0xFFE4A,クレスタの街,Cresta
+09028.pak0,0xFFE57,ラグナ遺跡,Laguna
+09028.pak0,0xFFE62,古都ダリルシェイド,Old Darilsheid
+09028.pak0,0xFFE75,古都ダリルシェイド,Old Darilsheid
+09028.pak0,0xFFE88,地上軍拠点跡地,Er'ther Ruins
+09028.pak0,0xFFE97,ハーメンツヴァレー,Harmentz Valley
+09028.pak0,0xFFEAA,ハーメンツヴァレー,Harmentz Valley
+09028.pak0,0xFFEBD,アイグレッテ・グランドバザール,Aigrette Grand Bazaar
+09028.pak0,0xFFEDC,アイグレッテ・門前町,Aigrette - Gate Town
+09028.pak0,0xFFEF1,アイグレッテ・門前町,Aigrette - Gate Town
+09028.pak0,0xFFF06,アイグレッテ港,Port Aigrette
+09028.pak0,0xFFF15,ハイデルベルグ,Heidelberg
+09028.pak0,0xFFF24,ハイデルベルグ,Heidelberg
+09028.pak0,0xFFF33,ハイデルベルグ,Heidelberg
+09028.pak0,0xFFF42,ハイデルベルグ,Heidelberg
+09028.pak0,0xFFF51,ハイデルベルグ,Heidelberg
+09028.pak0,0xFFF60,リーネの村,Lienea
+09028.pak0,0xFFF6B,リーネの村,Lienea
+09028.pak0,0xFFF76,大陸北部の坑道・北側出入口,Northern Mine - N Exit
+09028.pak0,0xFFF91,大陸北部の坑道・南側出入口,Northern Mine - S Exit
+09028.pak0,0xFFFAC,大陸西部の坑道・北東出入口,Western Mine - NE Exit
+09028.pak0,0xFFFC7,大陸西部の坑道・南東出入口,Western Mine - SE Exit
+09028.pak0,0xFFFE2,大陸西部の坑道・南西出入口,Western Mine - SW Exit
+09028.pak0,0xFFFFD,大陸西部の坑道・北西出入口,Western Mine - NW Exit
+09028.pak0,0x100018,大陸南部の坑道・北西出入口,Southern Mine - NW Exit
+09028.pak0,0x100033,大陸南部の坑道・南側出入口,Southern Mine - S Exit
+09028.pak0,0x10004E,大陸南部の坑道・北東出入口,Southern Mine - NE Exit
+09028.pak0,0x100069,山小屋,Cabin
+09028.pak0,0x100070,オベロン社廃坑,Oberon Mine
+09028.pak0,0x10007F,スノーフリア,Snowfria
+09028.pak0,0x10008C,ノイシュタット,Neuestadt
+09028.pak0,0x10009B,チェリク,Cherik
+09028.pak0,0x1000A4,チェリク,Cherik
+09028.pak0,0x1000AD,ホープタウン,Hope Town
+09028.pak0,0x1000BA,ホープタウン,Hope Town
+09028.pak0,0x1000C7,カルビオラ,Kalviola
+09028.pak0,0x1000D2,アクアヴェイル,Aquaveil
+09028.pak0,0x1000E1,チェルシーの小屋,Chelsea's Hut
+09028.pak0,0x1000F2,小さな家,House
+09028.pak0,0x1000FB,鍛冶屋のテント,Smith's Tent
+09028.pak0,0x10010A,ねこにんの村,Katz Village
+09028.pak0,0x100117,小屋,Hut
+09028.pak0,0x10019E,"ボタンで全ての箱を初期位置に戻すことができます。
+その際、自分も入口に戻されます","returns all boxes to their start positions.
+You return to the entrance too."
+09028.pak0,0x1001EE,大陸北部の坑道・北側出入口,Northern Mine - N Exit
+09028.pak0,0x100209,大陸北部の坑道・南側出入口,Northern Mine - S Exit
+09028.pak0,0x100224,大陸南部の坑道・北西出入口,Southern Mine - NW Exit
+09028.pak0,0x10023F,大陸南部の坑道・南側出入口,Southern Mine - S Exit
+09028.pak0,0x10025A,大陸南部の坑道・北東出入口,Southern Mine - NE Exit
+09028.pak0,0x100275,大陸西部の坑道・北東出入口,Western Mine - NE Exit
+09028.pak0,0x100290,大陸西部の坑道・北西出入口,Western Mine - NW Exit
+09028.pak0,0x1002AB,大陸西部の坑道・南東出入口,Western Mine - SE Exit
+09028.pak0,0x1002C6,大陸西部の坑道・南西出入口,Western Mine - SW Exit
+09028.pak0,0x1002EC,"クリア！！
+","Clear!!
+"
+09028.pak0,0x1002FF,"やり直しますか？<03:00000000>
+　はい
+　いいえ
+","Try again?<03:00000000>
+ Yes
+ No
+"
+09028.pak0,0x10032B,箱の位置がリセットされました。,Box positions reset.
+09028.pak0,0x100350,"飛行竜にアンカーを撃ち込む！
+背中から飛行竜に乗り移るんだ！
+用意はいいか！","Fire the anchor into the Flying Dragon!
+Jump across onto its back!
+Ready?"
+09028.pak0,0x1003A1,いつでもいける！,Ready anytime!
+09028.pak0,0x1003B8,よしっ！アンカー射出！,All right! Anchor away!
+09028.pak0,0x1003D5,"おい！俺たちも巻き込まれちまうぞ!?
+なにやってんだ、<Judas>！逃げろ！","Hey! We'll get caught in it too!?
+What are you doing, <Judas>!? Run!"
+09028.pak0,0x10041E,"くそっ！出力が上がらない！
+どうなっているんだ!?","Damn! The output won't rise!
+What's going on!?"
+09028.pak0,0x100454,ダメだっ！間に合わねぇ！,Damn! We won't make it!
+09028.pak0,0x100473,うわぁー！,Waaah!
+09028.pak0,0x100484,きゃぁー！,Kyaaah!
+09028.pak0,0x100495,うわぁー！,Waaah!
+09028.pak0,0x1004A6,きゃぁー！,Kyaaah!
+09028.pak0,0x1004B7,うわぁー！,Waaah!
+09028.pak0,0x1004E6,"全面クリア！！
+","All Clear!!
+"
+09028.pak0,0x1004FD,"終了しますか？<03:00000000>
+　はい
+　いいえ
+","Quit?<03:00000000>
+ Yes
+ No
+"
+09028.pak0,0x100549,"　やり直す
+　終了する
+　キャンセル
+"," Retry
+ Quit
+ Cancel
+"
+09029.pak0,0xFE019,いってらっしゃいませ,Have a good day.
+09029.pak0,0xFE03C,"ガルドになりますが
+お泊まりになりますか？","Gald a night.
+Would you like to stay?"
+09029.pak0,0xFE066,お泊まりになりますか？,Stay the night?
+09029.pak0,0xFE089,"　はい　
+　いいえ　"," Yes 
+ No "
+09029.pak0,0xFE09D,ごゆっくりお休みください,Have a good night.
+09029.pak0,0xFE0B6,おはようございます,Good morning.
+09029.pak0,0xFE0C9,お金が足りません,Not enough Gald.
+09029.pak0,0xFE0DA,またのおこしをお待ちしております,See you again soon.
+09029.pak0,0xFE15B,{16}{25}{B6}{C0}を手に入れました,Acquired {16}{25}{B6}{C0}.
+09029.pak0,0xFE177,<item:FFFFFFFF>を手に入れました,Acquired <item:FFFFFFFF>.
+09029.pak0,0xFE194,"{16}{25}{BE}{C0}がありましたが
+いっぱいで持てませんでした","Found {16}{25}{BE}{C0}, but
+your inventory is full."
+09029.pak0,0xFE1C9,何もありません,Nothing here.
+09029.pak0,0xFE21D,通常エントリー[未来],Normal [Future]
+09029.pak0,0xFE232,看板テスト！未来,Sign Test Future
+09029.pak0,0xFE243,アイグレッテ,Aigrette
+09029.pak0,0xFE250,アイグレッテ,Aigrette
+09029.pak0,0xFE25D,アイグレッテ,Aigrette
+09029.pak0,0xFE26A,アイグレッテ港,Port Aigrette
+09029.pak0,0xFE279,チェリク,Cherik
+09029.pak0,0xFE282,チェリク,Cherik
+09029.pak0,0xFE28B,ヒートリバー,Heat River
+09029.pak0,0xFE298,ヒートリバー,Heat River
+09029.pak0,0xFE2A5,ホープタウン,Hope Town
+09029.pak0,0xFE2B2,ホープタウン,Hope Town
+09029.pak0,0xFE2BF,トラッシュマウンテン,Trash Mountain
+09029.pak0,0xFE2D4,トラッシュマウンテン,Trash Mountain
+09029.pak0,0xFE2E9,聖地カルビオラ,Holy Kalviola
+09030.pak0,0x101222,いってらっしゃいませ,Have a good day.
+09030.pak0,0x101245,"ガルドになりますが
+お泊まりになりますか？","Gald a night.
+Would you like to stay?"
+09030.pak0,0x10126F,お泊まりになりますか？,Stay the night?
+09030.pak0,0x101292,"　はい　
+　いいえ　"," Yes 
+ No "
+09030.pak0,0x1012A6,ごゆっくりお休みください,Have a good night.
+09030.pak0,0x1012BF,おはようございます,Good morning.
+09030.pak0,0x1012D2,お金が足りません,Not enough Gald.
+09030.pak0,0x1012E3,またのおこしをお待ちしております,See you again soon.
+09030.pak0,0x101364,{16}{25}{B6}{C0}を手に入れました,Acquired {16}{25}{B6}{C0}.
+09030.pak0,0x101380,<item:FFFFFFFF>を手に入れました,Acquired <item:FFFFFFFF>.
+09030.pak0,0x10139D,"{16}{25}{BE}{C0}がありましたが
+いっぱいで持てませんでした","Found {16}{25}{BE}{C0}, but
+your inventory is full."
+09030.pak0,0x1013D2,何もありません,Nothing here.
+09030.pak0,0x1013E8,通常エントリー[改変現代],Normal [Altered Now]
+09030.pak0,0x101401,看板テスト！改変,Sign Test Alter
+09030.pak0,0x101412,蒼天都市ヴァンジェロ,Azure City Vangelo
+09030.pak0,0x101427,紅蓮都市スペランツァ,Crimson Speranza
+09030.pak0,0x10143C,黄昏都市レアルタ,Twilight Realta
+09030.pak0,0x10144D,光のほこら,Shrine
+09030.pak0,0x101458,未開の森,Wildwood
+09030.pak0,0x101461,未開の森,Wildwood
+09030.pak0,0x10146A,海岸の洞窟,Sea Cave
+09030.pak0,0x101475,空中都市の残骸,Aeropolis Ruin
+09031.pak0,0xD861F,いってらっしゃいませ,Have a good day.
+09031.pak0,0xD8642,"ガルドになりますが
+お泊まりになりますか？","Gald a night.
+Would you like to stay?"
+09031.pak0,0xD866C,お泊まりになりますか？,Stay the night?
+09031.pak0,0xD868F,"　はい　
+　いいえ　"," Yes 
+ No "
+09031.pak0,0xD86A3,ごゆっくりお休みください,Have a good night.
+09031.pak0,0xD86BC,おはようございます,Good morning.
+09031.pak0,0xD86CF,お金が足りません,Not enough Gald.
+09031.pak0,0xD86E0,またのおこしをお待ちしております,See you again soon.
+09031.pak0,0xD8761,{16}{25}{B6}{C0}を手に入れました,Acquired {16}{25}{B6}{C0}.
+09031.pak0,0xD877D,<item:FFFFFFFF>を手に入れました,Acquired <item:FFFFFFFF>.
+09031.pak0,0xD879A,"{16}{25}{BE}{C0}がありましたが
+いっぱいで持てませんでした","Found {16}{25}{BE}{C0}, but
+your inventory is full."
+09031.pak0,0xD87CF,何もありません,Nothing here.
+09031.pak0,0xD87E5,外殻ダンジョン,Shell Dungeon
+09031.pak0,0xD87F4,通常エントリー[天地戦争],Normal [Great War]
+09031.pak0,0xD880D,通常エントリー[天地戦争]デフォルト,Normal [Great War] Default
+09031.pak0,0xD8830,看板テスト！天地,Sign Test War
+09031.pak0,0xD8841,地上軍拠点,Er'ther
+09031.pak0,0xD884C,地上軍拠点,Er'ther
+09031.pak0,0xD8857,スパイラルケイブ,Spiral Cave
+09031.pak0,0xD8868,物資保管所,Storehouse
+09031.pak0,0xD8873,空中都市の残骸,Aeropolis Ruin
+09031.pak0,0xD8882,ダイクロフト入口,Dycroft Entrance
+09032.pak0,0xFFB1F,いってらっしゃいませ,Have a good day.
+09032.pak0,0xFFB42,"ガルドになりますが
+お泊まりになりますか？","Gald a night.
+Would you like to stay?"
+09032.pak0,0xFFB6C,お泊まりになりますか？,Stay the night?
+09032.pak0,0xFFB8F,"　はい　
+　いいえ　"," Yes 
+ No "
+09032.pak0,0xFFBA3,ごゆっくりお休みください,Have a good night.
+09032.pak0,0xFFBBC,おはようございます,Good morning.
+09032.pak0,0xFFBCF,お金が足りません,Not enough Gald.
+09032.pak0,0xFFBE0,またのおこしをお待ちしております,See you again soon.
+09032.pak0,0xFFC61,{16}{25}{B6}{C0}を手に入れました,Acquired {16}{25}{B6}{C0}.
+09032.pak0,0xFFC7D,<item:FFFFFFFF>を手に入れました,Acquired <item:FFFFFFFF>.
+09032.pak0,0xFFC9A,"{16}{25}{BE}{C0}がありましたが
+いっぱいで持てませんでした","Found {16}{25}{BE}{C0}, but
+your inventory is full."
+09032.pak0,0xFFCCF,何もありません,Nothing here.
+09032.pak0,0xFFD44,定期船イベントエントリー,Ferry Event Entry
+09032.pak0,0xFFD5D,通常エントリー[最終現代],Normal [Final Era]
+09032.pak0,0xFFD76,"西：大陸西部の坑道
+　　（ノイシュタット方面）
+北：リーネ","W: Western Mine
+   (toward Neuestadt)
+N: Lien"
+09032.pak0,0xFFDAF,"西：オベロン社廃坑
+南：ノイシュタット","W: Oberon Mine
+S: Neuestadt"
+09032.pak0,0xFFDD5,"西：ダリルシェイド
+東：ラグナ遺跡","W: Darilsheid
+E: Laguna Ruins"
+09032.pak0,0xFFDF7,クレスタ～ダリルシェイド街道,Cresta-Darilsheid Road
+09032.pak0,0xFFE14,ダリルシェイド,Darilsheid
+09032.pak0,0xFFE23,"北：ハーメンツヴァレー
+南：ダリルシェイド","N: Harmentz Valley
+S: Darilsheid"
+09032.pak0,0xFFE4D,"北：ハイデルベルグ
+西：地上軍拠点跡地","N: Heidelberg
+W: Er'ther Ruins"
+09032.pak0,0xFFE73,"西：大陸西部の坑道
+　　（ノイシュタット方面）
+南：大陸北部の坑道","W: Western Mine
+   (toward Neuestadt)
+S: Northern Mine"
+09032.pak0,0xFFEB4,これより北、ダリルシェイド,North: Darilsheid
+09032.pak0,0xFFECF,"北：坑道南西出入口
+西：ノイシュタット方面
+東：リーネ方面","N: Mine SW Exit
+W: toward Neuestadt
+E: toward Lien"
+09032.pak0,0xFFF08,クレスタの街,Cresta
+09032.pak0,0xFFF15,デュナミス孤児院,Dunamis Home
+09032.pak0,0xFFF26,クレスタの街,Cresta
+09032.pak0,0xFFF33,ラグナ遺跡,Laguna
+09032.pak0,0xFFF3E,古都ダリルシェイド,Old Darilsheid
+09032.pak0,0xFFF51,古都ダリルシェイド,Old Darilsheid
+09032.pak0,0xFFF64,地上軍拠点跡地,Er'ther Ruins
+09032.pak0,0xFFF73,ハーメンツヴァレー,Harmentz Valley
+09032.pak0,0xFFF86,ハーメンツヴァレー,Harmentz Valley
+09032.pak0,0xFFF99,アイグレッテ・グランドバザール,Aigrette Grand Bazaar
+09032.pak0,0xFFFB8,アイグレッテ・門前町,Aigrette - Gate Town
+09032.pak0,0xFFFCD,アイグレッテ・門前町,Aigrette - Gate Town
+09032.pak0,0xFFFE2,アイグレッテ港,Port Aigrette
+09032.pak0,0xFFFF1,ハイデルベルグ,Heidelberg
+09032.pak0,0x100000,ハイデルベルグ,Heidelberg
+09032.pak0,0x10000F,ハイデルベルグ,Heidelberg
+09032.pak0,0x10001E,ハイデルベルグ,Heidelberg
+09032.pak0,0x10002D,ハイデルベルグ,Heidelberg
+09032.pak0,0x10003C,リーネの村,Lienea
+09032.pak0,0x100047,リーネの村,Lienea
+09032.pak0,0x100052,大陸北部の坑道・北側出入口,Northern Mine - N Exit
+09032.pak0,0x10006D,大陸北部の坑道・南側出入口,Northern Mine - S Exit
+09032.pak0,0x100088,大陸西部の坑道・北東出入口,Western Mine - NE Exit
+09032.pak0,0x1000A3,大陸西部の坑道・南東出入口,Western Mine - SE Exit
+09032.pak0,0x1000BE,大陸西部の坑道・南西出入口,Western Mine - SW Exit
+09032.pak0,0x1000D9,大陸西部の坑道・北西出入口,Western Mine - NW Exit
+09032.pak0,0x1000F4,大陸南部の坑道・北西出入口,Southern Mine - NW Exit
+09032.pak0,0x10010F,大陸南部の坑道・南側出入口,Southern Mine - S Exit
+09032.pak0,0x10012A,大陸南部の坑道・北東出入口,Southern Mine - NE Exit
+09032.pak0,0x100145,山小屋,Cabin
+09032.pak0,0x10014C,オベロン社廃坑,Oberon Mine
+09032.pak0,0x10015B,スノーフリア,Snowfria
+09032.pak0,0x100168,ノイシュタット,Neuestadt
+09032.pak0,0x100177,チェリク,Cherik
+09032.pak0,0x100180,チェリク,Cherik
+09032.pak0,0x100189,ホープタウン,Hope Town
+09032.pak0,0x100196,ホープタウン,Hope Town
+09032.pak0,0x1001A3,カルビオラ,Kalviola
+09032.pak0,0x1001AE,アクアヴェイル,Aquaveil
+09032.pak0,0x1001BD,神のたまご,Egg of God
+09032.pak0,0x1001C8,チェルシーの小屋,Chelsea's Hut
+09032.pak0,0x1001D9,小さな家,House
+09032.pak0,0x1001E2,鍛冶屋のテント,Smith's Tent
+09032.pak0,0x1001F1,ねこにんの村,Katz Village
+09032.pak0,0x1001FE,小屋,Hut
+09032.pak0,0x100203,大陸北部の坑道・北側出入口,Northern Mine - N Exit
+09032.pak0,0x10021E,大陸北部の坑道・南側出入口,Northern Mine - S Exit
+09032.pak0,0x100239,大陸南部の坑道・北西出入口,Southern Mine - NW Exit
+09032.pak0,0x100254,大陸南部の坑道・南側出入口,Southern Mine - S Exit
+09032.pak0,0x10026F,大陸南部の坑道・北東出入口,Southern Mine - NE Exit
+09032.pak0,0x10028A,大陸西部の坑道・北東出入口,Western Mine - NE Exit
+09032.pak0,0x1002A5,大陸西部の坑道・北西出入口,Western Mine - NW Exit
+09032.pak0,0x1002C0,大陸西部の坑道・南東出入口,Western Mine - SE Exit
+09032.pak0,0x1002DB,大陸西部の坑道・南西出入口,Western Mine - SW Exit
+09032.pak0,0x100301,"クリア！！
+","Clear!!
+"
+09032.pak0,0x100314,"やり直しますか？<03:00000000>
+　はい
+　いいえ
+","Try again?<03:00000000>
+ Yes
+ No
+"
+09032.pak0,0x100340,箱の位置がリセットされました。,Box positions reset.
+09032.pak0,0x1003A3,"世界を救うのが英雄？
+みんなを助けるのが英雄？","A hero saves the world?
+Or helps everyone?"
+09032.pak0,0x1003D7,"十八年前、父さんたちは
+たしかに世界を救った","Eighteen years ago, Dad
+did save the world."
+09032.pak0,0x100464,その答えを、オレは、探しにいきたい,I want to go find that answer.
+09032.pak0,0x1004B7,オレを待っている,waiting for me.
+09032.pak0,0x10050B,"全面クリア！！
+","All Clear!!
+"
+09032.pak0,0x100520,"は
+称号「<item:0000086E>」を得ました
+"," got
+the title ""<item:0000086E>""
+"
+09032.pak0,0x100548,"　やり直す
+　終了する
+　キャンセル
+"," Retry
+ Quit
+ Cancel
+"
+09032.pak0,0x100571,箱の位置がリセットされました。,Box positions reset.
+09032.pak0,0x1005B7,"　やり直す
+　終了する
+　キャンセル
+"," Retry
+ Quit
+ Cancel
+"
