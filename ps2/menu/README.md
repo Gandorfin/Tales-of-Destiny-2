@@ -18,15 +18,38 @@ build are stored uncompressed.
 
 ## Applying it
 
-Extract `FILE.FPB` with PyTOD2 first, then:
+Extract `FILE.FPB` with PyTOD2 first (Extract Files). That creates an `FPB`
+folder full of `06799.md1`, `09028.pak0` and so on. The first argument is
+**that folder**, not `FILE.FPB` itself.
+
+The paths below are written from the **repository root**, so `cd` there first,
+not into this folder:
 
 ```
-python3 ps2/menu/patch_menu_text.py <folder PyTOD2 extracted FILE.FPB into>
-python3 ps2/menu/patch_slps_titles.py <path to SLPS_251.72>
+cd Tales-of-Destiny-2
+python ps2/menu/patch_menu_text.py ps2/PyTOD2/FPB
+python ps2/menu/patch_slps_titles.py ps2/PyTOD2/SLPS_251.72
 ```
 
-Both accept `--dry-run` to preview without writing. Then run Pack FPB in
-PyTOD2 as usual and rebuild the ISO.
+Windows and PowerShell work the same way; backslashes are fine:
+
+```
+cd C:\Users\you\Tales-of-Destiny-2
+python ps2\menu\patch_menu_text.py ps2\PyTOD2\FPB
+python ps2\menu\patch_slps_titles.py ps2\PyTOD2\SLPS_251.72
+```
+
+You can also run them from anywhere by giving the script an absolute path:
+
+```
+python C:\Users\you\Tales-of-Destiny-2\ps2\menu\patch_menu_text.py C:\Users\you\Tales-of-Destiny-2\ps2\PyTOD2\FPB
+```
+
+Both accept `--dry-run` to preview without writing. If you point them at the
+wrong thing (at `FILE.FPB`, or one folder too high) they say so and change
+nothing. The title patcher also accepts the folder containing `SLPS_251.72`.
+
+Then run Pack FPB in PyTOD2 as usual and rebuild the ISO.
 
 Order does not matter relative to the SLPS menu patch: every `md1` and `pak0`
 edit is made **in place at identical file size**, so the FPB pointer table is

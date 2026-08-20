@@ -13,6 +13,11 @@ changes. Every record is verified against the original Japanese before any
 byte is written, and nothing is written at all if any record fails.
 """
 import argparse, csv, os, shutil, struct, sys
+try:                                   # Windows consoles are often not UTF-8
+    sys.stdout.reconfigure(errors="replace")
+    sys.stderr.reconfigure(errors="replace")
+except Exception:
+    pass
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import md1text as M, md1patch as P
 BIAS=0xFF000
@@ -27,7 +32,16 @@ def main():
     ap.add_argument("slps"); ap.add_argument("--csv", default=os.path.join(os.path.dirname(os.path.abspath(__file__)),"slps_title_translations.csv"))
     ap.add_argument("--out"); ap.add_argument("--dry-run", action="store_true")
     a=ap.parse_args()
-    src=open(a.slps,"rb").read()
+    target=a.slps
+    if os.path.isdir(target):                       # they passed a folder
+        for name in ("SLPS_251.72","new_SLPS_251.72"):
+            cand=os.path.join(target,name)
+            if os.path.isfile(cand): target=cand; print(f"Using {cand}"); break
+        else:
+            print(f"No SLPS_251.72 in {target}"); return 2
+    if not os.path.isfile(target):
+        print(f"File not found: {target}"); return 2
+    src=open(target,"rb").read()
     recs=[]
     with open(a.csv, encoding="utf-8") as f:
         for r in csv.DictReader(f):
@@ -66,9 +80,9 @@ def main():
             for ph in info[off][0].split(','): struct.pack_into('<L',data,int(ph,16),new+BIAS)
         if cur<hi: data[cur:hi]=b'\x00'*(hi-cur)
     assert len(data)==len(src)
-    out=a.out or a.slps
+    out=a.out or target
     if not a.dry_run:
-        if out==a.slps and not os.path.exists(a.slps+".bak"): shutil.copy(a.slps,a.slps+".bak")
+        if out==target and not os.path.exists(target+".bak"): shutil.copy(target,target+".bak")
         open(out,"wb").write(bytes(data))
     print(f"{'would patch' if a.dry_run else 'patched'} {len(recs)} titles "
           f"({inplace} repacked in place, {spill} moved to the pool, "
