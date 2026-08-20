@@ -10,8 +10,39 @@ Files are patched in place at identical size, so the FPB pointer table is untouc
 Nothing is written unless every record for that file verifies.
 """
 import argparse, csv, os, sys, shutil
+try:                                   # Windows consoles are often not UTF-8
+    sys.stdout.reconfigure(errors="replace")
+    sys.stderr.reconfigure(errors="replace")
+except Exception:
+    pass
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import md1text as M, md1patch as P
+
+def resolve_folder(given):
+    """Accept the extracted FPB folder, or a folder containing one."""
+    if os.path.isfile(given):
+        print(f"'{given}' is a file, not a folder.")
+        if os.path.basename(given).upper().startswith("FILE"):
+            print("That looks like FILE.FPB itself. Extract it with PyTOD2 first")
+            print("(Extract Files), then point this script at the FPB folder it")
+            print("creates, for example ...\\ps2\\PyTOD2\\FPB")
+        return None
+    if not os.path.isdir(given):
+        print(f"Folder not found: {given}")
+        return None
+    def looks_right(p):
+        try: return any(f.endswith((".md1",".pak0")) for f in os.listdir(p))
+        except OSError: return False
+    if looks_right(given): return given
+    for sub in ("FPB","fpb"):                       # they pointed one level up
+        cand=os.path.join(given,sub)
+        if os.path.isdir(cand) and looks_right(cand):
+            print(f"Using {cand}")
+            return cand
+    print(f"No .md1 or .pak0 files in {given}")
+    print("Extract FILE.FPB with PyTOD2 first, then point this script at the")
+    print("FPB folder it creates, for example ...\\ps2\\PyTOD2\\FPB")
+    return None
 
 def main():
     ap=argparse.ArgumentParser()
@@ -20,21 +51,23 @@ def main():
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--no-backup", action="store_true")
     a=ap.parse_args()
+    folder=resolve_folder(a.folder)
+    if folder is None: return 2
     groups={}
     with open(a.csv, encoding="utf-8") as f:
         for r in csv.DictReader(f):
             groups.setdefault(r["file"],[]).append((int(r["offset"],16), r["japanese"], r["english"]))
     total=written=skipped=0
     for name, entries in sorted(groups.items()):
-        path=os.path.join(a.folder,name)
+        path=os.path.join(folder,name)
         if not os.path.exists(path):
-            print(f"  SKIP {name}: not found in {a.folder}"); skipped+=len(entries); continue
+            print(f"  SKIP {name}: not found in {folder}"); skipped+=len(entries); continue
         d=bytearray(open(path,"rb").read()); orig=bytes(d); errs=[]
         for off,jp,en in entries:
             r=M.decode_at(orig,off)
             if not r: errs.append(f"0x{off:X} decode failed"); continue
             got,end,_=r
-            if got!=jp: errs.append(f"0x{off:X} expected {jp[:16]!r} found {got[:16]!r}"); continue
+            if got!=jp: errs.append(f"0x{off:X} expected {ascii(jp[:16])} found {ascii(got[:16])}"); continue
             avail=P.budget(orig,off,end-off); enc=P.encode(en)
             if len(enc)>avail: errs.append(f"0x{off:X} {len(enc)} > {avail} bytes"); continue
             region=avail+1
