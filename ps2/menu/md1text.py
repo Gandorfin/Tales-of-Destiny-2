@@ -2,6 +2,9 @@
 import os, json, struct, string, os, sys
 R=os.path.join(os.path.dirname(os.path.abspath(__file__)),"..","..")
 TBL=json.load(open(R+"/ps2/PyTOD2/TBL.json"))
+# Three codes the game uses that TBL.json lacks (seen in the Battle Memo
+# headings and the cooking menu). Values inferred from context.
+TBL.setdefault("39549","＜"); TBL.setdefault("39550","＞"); TBL.setdefault("40405","熟")
 PRINT=set(string.digits+string.ascii_letters+string.punctuation+' ')
 TAGS={0x4:'color',0x5:'size',0x6:'num',0x7:'char',0x8:'item',0x9:'button'}
 NAMES={1:'Kyle',2:'Reala',3:'Loni',4:'Judas',5:'Nanaly',6:'Harold'}

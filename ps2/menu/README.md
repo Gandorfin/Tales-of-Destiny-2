@@ -8,13 +8,29 @@ tables reference offsets inside files you extract yourself.
 
 | Where | Strings | What |
 |---|---|---|
-| `*.md1` overlay modules in `FILE.FPB` | 499 | items, equipment, shop, refine, enchant, save, status, customize, cooking UI, grade shop, monster book, titles, artes and tactics menus, name entry, battle system and the Battle Memos, world map region labels |
+| `*.md1` overlay modules in `FILE.FPB` | 510 (+122 inside `00017.pak3`) | items, equipment, shop, refine, enchant, save, status, customize, cooking UI, grade shop, monster book, titles, artes and tactics menus, name entry, battle system and the Battle Memos, world map region labels |
 | `*.pak0` world map scripts in `FILE.FPB` | 256 | signposts, mine entrance labels, map location labels, ferry and minigame text, the flying dragon anchor scene, the ending monologue |
 | `SLPS_251.72` | 597 | character titles |
+
+The table has 766 FPB records. Eleven of them (the Battle Memo category
+headings such as ＜特技習得＞, and four cooking menu labels) use three
+character codes that `TBL.json` does not list; the decoder fills those in
+(`0x9A7D` ＜, `0x9A7E` ＞, `0x9DD5` 熟).
 
 Most menu text lives in the `md1` overlay modules inside `FILE.FPB`, not in
 the executable, which is why it was easy to miss. All `pak0` files in this
 build are stored uncompressed.
+
+**Three modules exist twice.** The battle module (`08055`), the world map
+module (`08996`) and `06304` are also stored LZSS-compressed inside
+`00017.pak3`, and that is the copy the game loads. Patching only the loose
+`08055.md1` changes nothing on screen. `patch_menu_text.py` therefore also
+opens `00017.pak3`, patches the modules inside, recompresses them and
+rebuilds the container (members 4-byte aligned, as in the original). The
+codec is a pure Python port of the game's compressor (`lzss.py`), so no
+`comptoe.exe` is needed; its output is byte-identical to comptoe's.
+`verify_menu_patch.py` reports those compressed copies separately, marked
+as the ones the game loads.
 
 ## Applying it
 
@@ -51,6 +67,36 @@ nothing. The title patcher also accepts the folder containing `SLPS_251.72`.
 
 Then run Pack FPB in PyTOD2 as usual and rebuild the ISO.
 
+### Getting the patched files into the ISO (this is where it goes wrong)
+
+Patching the `FPB` folder changes nothing in the game until the archive is
+rebuilt. The full sequence, with the PyTOD2 button names:
+
+1. **Unpack FPB** (creates the `FPB` folder).
+2. `python ps2\menu\patch_menu_text.py ps2\PyTOD2\FPB`
+3. Make sure `new_SLPS_251.72` exists next to `SLPS_251.72` (Pack FPB
+   writes the new pointer table into it), then
+   `python ps2\menu\patch_slps_titles.py ps2\PyTOD2` which patches **both**
+   copies it finds, so whichever one you ship is right.
+4. **Pack FPB**. This writes `new_FILE.FPB` and updates `new_SLPS_251.72`.
+5. Put `new_FILE.FPB` (as `FILE.FPB`) and `new_SLPS_251.72` (as
+   `SLPS_251.72`) into the ISO.
+
+If a screenshot still shows Japanese, check the build you are actually
+running before changing anything:
+
+```
+python ps2\menu\verify_menu_patch.py path\to\your.iso
+python ps2\menu\verify_menu_patch.py ps2\PyTOD2\new_FILE.FPB ps2\PyTOD2\new_SLPS_251.72
+python ps2\menu\verify_menu_patch.py ps2\PyTOD2\FPB
+```
+
+It reads only what it needs (an ISO is fine) and prints, per file, how
+many of the translated strings are English, Japanese or something else,
+so you can see exactly which step was skipped. `PATCHED` everywhere means
+the build is right and the remaining Japanese is text this patch does not
+cover yet.
+
 ### If you also apply the earlier Arte, Status and Enchant menu patch
 
 Apply that one **first**, then the titles. Both use the same spare string
@@ -66,12 +112,16 @@ never touched and Pack FPB is unaffected.
 
 ## Safety
 
-* Every record is checked against the original Japanese before anything is
-  written. If any record in a file fails, that whole file is left untouched
-  rather than half-patched.
+* Every record is checked before anything is written: it must hold either
+  the original Japanese or the final English. If any record in a file is
+  something else, that whole file is left untouched rather than half-patched.
+* Re-running is safe. Records that are already English are counted as
+  current and skipped, so running again after a new version of the table
+  only fills the gaps. The title patcher likewise reports an already patched
+  executable instead of failing, and repairs one known problem from an
+  earlier version of itself (a pooled title written over the previous
+  string's terminator) if it finds it.
 * A `.bak` is written on first run.
-* Re-running on an already-patched file is refused, because the Japanese no
-  longer matches, so it cannot corrupt a patched file.
 * File sizes never change.
 * For the titles, the patcher also verifies that each pointer really points at
   the record it claims before rewriting it.
