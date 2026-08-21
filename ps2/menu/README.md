@@ -51,6 +51,36 @@ nothing. The title patcher also accepts the folder containing `SLPS_251.72`.
 
 Then run Pack FPB in PyTOD2 as usual and rebuild the ISO.
 
+### Getting the patched files into the ISO (this is where it goes wrong)
+
+Patching the `FPB` folder changes nothing in the game until the archive is
+rebuilt. The full sequence, with the PyTOD2 button names:
+
+1. **Unpack FPB** (creates the `FPB` folder).
+2. `python ps2\menu\patch_menu_text.py ps2\PyTOD2\FPB`
+3. Make sure `new_SLPS_251.72` exists next to `SLPS_251.72` (Pack FPB
+   writes the new pointer table into it), then
+   `python ps2\menu\patch_slps_titles.py ps2\PyTOD2` which patches **both**
+   copies it finds, so whichever one you ship is right.
+4. **Pack FPB**. This writes `new_FILE.FPB` and updates `new_SLPS_251.72`.
+5. Put `new_FILE.FPB` (as `FILE.FPB`) and `new_SLPS_251.72` (as
+   `SLPS_251.72`) into the ISO.
+
+If a screenshot still shows Japanese, check the build you are actually
+running before changing anything:
+
+```
+python ps2\menu\verify_menu_patch.py path\to\your.iso
+python ps2\menu\verify_menu_patch.py ps2\PyTOD2\new_FILE.FPB ps2\PyTOD2\new_SLPS_251.72
+python ps2\menu\verify_menu_patch.py ps2\PyTOD2\FPB
+```
+
+It reads only what it needs (an ISO is fine) and prints, per file, how
+many of the translated strings are English, Japanese or something else,
+so you can see exactly which step was skipped. `PATCHED` everywhere means
+the build is right and the remaining Japanese is text this patch does not
+cover yet.
+
 ### If you also apply the earlier Arte, Status and Enchant menu patch
 
 Apply that one **first**, then the titles. Both use the same spare string

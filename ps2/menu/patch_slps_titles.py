@@ -39,15 +39,29 @@ def main():
     ap.add_argument("slps"); ap.add_argument("--csv", default=os.path.join(os.path.dirname(os.path.abspath(__file__)),"slps_title_translations.csv"))
     ap.add_argument("--out"); ap.add_argument("--dry-run", action="store_true")
     a=ap.parse_args()
-    target=a.slps
-    if os.path.isdir(target):                       # they passed a folder
+    targets=[]
+    if os.path.isdir(a.slps):                       # folder: patch every copy present
         for name in ("SLPS_251.72","new_SLPS_251.72"):
-            cand=os.path.join(target,name)
-            if os.path.isfile(cand): target=cand; print(f"Using {cand}"); break
-        else:
-            print(f"No SLPS_251.72 in {target}"); return 2
-    if not os.path.isfile(target):
-        print(f"File not found: {target}"); return 2
+            cand=os.path.join(a.slps,name)
+            if os.path.isfile(cand): targets.append(cand)
+        if not targets: print(f"No SLPS_251.72 in {a.slps}"); return 2
+    elif os.path.isfile(a.slps):
+        targets=[a.slps]
+        sib=os.path.join(os.path.dirname(os.path.abspath(a.slps)),
+                         "new_SLPS_251.72" if os.path.basename(a.slps)!="new_SLPS_251.72" else "SLPS_251.72")
+        if os.path.isfile(sib) and not a.out:
+            print(f"Note: {os.path.basename(sib)} also exists next to this file. PyTOD2's Pack FPB")
+            print("writes the ISO executable as new_SLPS_251.72, so make sure the copy that")
+            print("goes into the ISO is the patched one (pass the folder to patch both).")
+    else:
+        print(f"File not found: {a.slps}"); return 2
+    rc=0
+    for target in targets:
+        print(f"\n== {target} ==")
+        rc|=patch_one(target, a)
+    return rc
+
+def patch_one(target, a):
     src=open(target,"rb").read()
     recs=[]
     with open(a.csv, encoding="utf-8") as f:
