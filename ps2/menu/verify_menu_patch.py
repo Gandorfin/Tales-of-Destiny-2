@@ -14,7 +14,7 @@ Nothing is written. Exit code 0 if everything is English, 1 otherwise.
 """
 import csv, os, struct, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-import md1text as M
+import md1text as M, pak3, lzss
 try:
     sys.stdout.reconfigure(errors="replace")
 except Exception:
@@ -105,6 +105,22 @@ def main():
         for k in c: total[k]+=c[k]
         verdict="PATCHED" if c["en"]==len(recs) else ("NOT patched" if c["jp"]==len(recs) else "MIXED")
         print(f"{name:<12}{c['en']:>8}{c['jp']:>10}{c['other']:>7}  {verdict}")
+    # compressed module containers: these are the copies the game actually loads
+    groups={name:[(int(r["offset"],16),r["japanese"],r["english"]) for r in recs] for name,recs in rows.items()}
+    for name in ("00017.pak3","00021.pak3"):
+        data=member(name)
+        if data is None: continue
+        try: members=pak3.parse(data)
+        except Exception: print(f"{name:<12}  (unreadable)"); continue
+        for k,(off,blob) in enumerate(members):
+            if not lzss.is_packed(blob): continue
+            mod=lzss.unpack(blob); which=pak3.identify(mod,groups)
+            if which is None: continue
+            en,jp,other=pak3.classify(mod,groups[which])
+            for key,val in (("en",en),("jp",jp),("other",other)): total[key]+=val
+            n=en+jp+other
+            verdict="PATCHED" if en==n else ("NOT patched" if jp==n else "MIXED")
+            print(f"{name+' > '+which:<12}{en:>8}{jp:>10}{other:>7}  {verdict}   <- the copy the game loads")
     print(f"{'FPB total':<12}{total['en']:>8}{total['jp']:>10}{total['other']:>7}")
     ok = total["jp"]==0 and total["other"]==0
     if slps is not None:

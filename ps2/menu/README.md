@@ -8,7 +8,7 @@ tables reference offsets inside files you extract yourself.
 
 | Where | Strings | What |
 |---|---|---|
-| `*.md1` overlay modules in `FILE.FPB` | 510 | items, equipment, shop, refine, enchant, save, status, customize, cooking UI, grade shop, monster book, titles, artes and tactics menus, name entry, battle system and the Battle Memos, world map region labels |
+| `*.md1` overlay modules in `FILE.FPB` | 510 (+122 inside `00017.pak3`) | items, equipment, shop, refine, enchant, save, status, customize, cooking UI, grade shop, monster book, titles, artes and tactics menus, name entry, battle system and the Battle Memos, world map region labels |
 | `*.pak0` world map scripts in `FILE.FPB` | 256 | signposts, mine entrance labels, map location labels, ferry and minigame text, the flying dragon anchor scene, the ending monologue |
 | `SLPS_251.72` | 597 | character titles |
 
@@ -20,6 +20,17 @@ character codes that `TBL.json` does not list; the decoder fills those in
 Most menu text lives in the `md1` overlay modules inside `FILE.FPB`, not in
 the executable, which is why it was easy to miss. All `pak0` files in this
 build are stored uncompressed.
+
+**Three modules exist twice.** The battle module (`08055`), the world map
+module (`08996`) and `06304` are also stored LZSS-compressed inside
+`00017.pak3`, and that is the copy the game loads. Patching only the loose
+`08055.md1` changes nothing on screen. `patch_menu_text.py` therefore also
+opens `00017.pak3`, patches the modules inside, recompresses them and
+rebuilds the container (members 4-byte aligned, as in the original). The
+codec is a pure Python port of the game's compressor (`lzss.py`), so no
+`comptoe.exe` is needed; its output is byte-identical to comptoe's.
+`verify_menu_patch.py` reports those compressed copies separately, marked
+as the ones the game loads.
 
 ## Applying it
 

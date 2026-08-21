@@ -18,7 +18,7 @@ try:                                   # Windows consoles are often not UTF-8
 except Exception:
     pass
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-import md1text as M, md1patch as P
+import md1text as M, md1patch as P, pak3, lzss
 
 def resolve_folder(given):
     """Accept the extracted FPB folder, or a folder containing one."""
@@ -94,6 +94,50 @@ def main():
         total+=1
     print(f"\n{written} strings patched, {current} already current, {total} files"
           f"{' (dry run)' if a.dry_run else ''}" + (f", {skipped} skipped" if skipped else ""))
-    return 1 if skipped else 0
+    rc=patch_containers(folder, groups, a)
+    return 1 if (skipped or rc) else 0
+
+def patch_containers(folder, groups, a):
+    """The .pak3 files hold compressed copies of some modules (00017.pak3:
+    battle 08055, world map 08996, and 06304). The game loads THOSE, not the
+    loose .md1 files, so they are rebuilt here with the same records."""
+    names=sorted(f for f in os.listdir(folder) if f.lower().endswith(".pak3"))
+    if not names: return 0
+    print("\nCompressed module containers:")
+    bad=0
+    for name in names:
+        path=os.path.join(folder,name)
+        data=open(path,"rb").read()
+        try: members=pak3.parse(data)
+        except Exception as e: print(f"  SKIP {name}: cannot parse ({e})"); continue
+        blobs=[]; changed=False; report=[]
+        for k,(off,blob) in enumerate(members):
+            if not lzss.is_packed(blob): blobs.append(blob); continue
+            mod=lzss.unpack(blob)
+            which=pak3.identify(mod, groups)
+            if which is None: blobs.append(blob); continue
+            new,patched,done,errs=pak3.apply_records(mod, groups[which])
+            if errs:
+                print(f"  FAIL {name} member {k} ({which}): {len(errs)} problem(s), container left untouched")
+                for e in errs[:5]: print("        "+e)
+                bad+=1; blobs=None; break
+            if patched:
+                blobs.append(lzss.pack(new, blob[0])); changed=True
+                report.append(f"{which}: {patched} strings" + (f", {done} already done" if done else ""))
+            else:
+                blobs.append(blob); report.append(f"{which}: all {done} already translated")
+        if blobs is None: continue
+        if changed:
+            out=pak3.build(blobs)
+            # prove the rebuilt container still decodes to the patched modules
+            for (o1,b1),(o2,b2) in zip(pak3.parse(out), members):
+                if lzss.is_packed(b1): lzss.unpack(b1)
+            if not a.dry_run:
+                if not a.no_backup and not os.path.exists(path+".bak"): shutil.copy(path,path+".bak")
+                open(path,"wb").write(out)
+            print(f"  {'would rebuild' if a.dry_run else 'rebuilt'} {name} ({len(data)} -> {len(out)} bytes): " + "; ".join(report))
+        elif report:
+            print(f"  current {name}: " + "; ".join(report))
+    return bad
 
 if __name__=="__main__": raise SystemExit(main())
