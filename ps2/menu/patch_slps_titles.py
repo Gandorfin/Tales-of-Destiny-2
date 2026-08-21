@@ -19,7 +19,7 @@ try:                                   # Windows consoles are often not UTF-8
 except Exception:
     pass
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-import md1text as M, md1patch as P
+import md1text as M, md1patch as P, slps_menu
 BIAS=0xFF000
 POOL_START, POOL_END = 1026832, 1033520
 
@@ -91,6 +91,24 @@ def repair_glued(target, src, recs, a):
 
 def patch_one(target, a):
     src=open(target,"rb").read()
+    # Step 1: the earlier Arte/Status/Enchant/Cooking-help menu patch, so one
+    # command produces the complete executable. Idempotent.
+    try:
+        manifest=slps_menu.load()
+        if slps_menu.is_applied(src, manifest):
+            print("menu patch (artes, status, enchant, cooking help): already applied")
+        else:
+            src,n=slps_menu.apply(src, manifest)
+            print(f"menu patch (artes, status, enchant, cooking help): {n} operations applied")
+            if not a.dry_run:
+                out=a.out or target
+                if out==target and not os.path.exists(target+".bak"): shutil.copy(target,target+".bak")
+                open(out,"wb").write(src)
+    except slps_menu.GuardError as e:
+        print(f"menu patch: {e}. Nothing written."); return 1
+    except FileNotFoundError:
+        print("menu patch manifest not found next to this script, skipping that step")
+    # Step 2: the character titles.
     recs=[]
     with open(a.csv, encoding="utf-8") as f:
         for r in csv.DictReader(f):

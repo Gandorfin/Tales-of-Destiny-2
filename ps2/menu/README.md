@@ -10,7 +10,7 @@ tables reference offsets inside files you extract yourself.
 |---|---|---|
 | `*.md1` overlay modules in `FILE.FPB` | 510 (+122 inside `00017.pak3`) | items, equipment, shop, refine, enchant, save, status, customize, cooking UI, grade shop, monster book, titles, artes and tactics menus, name entry, battle system and the Battle Memos, world map region labels |
 | `*.pak0` world map scripts in `FILE.FPB` | 256 | signposts, mine entrance labels, map location labels, ferry and minigame text, the flying dragon anchor scene, the ending monologue |
-| `SLPS_251.72` | 597 | character titles |
+| `SLPS_251.72` | 597 + 277 ops | character titles, plus the earlier Arte / Status / Enchant / Cooking-help menu patch (`slps_menu_patch.json`), so the executable is complete from a clean English-menu base |
 
 The table has 766 FPB records. Eleven of them (the Battle Memo category
 headings such as ＜特技習得＞, and four cooking menu labels) use three
@@ -77,7 +77,12 @@ rebuilt. The full sequence, with the PyTOD2 button names:
 3. Make sure `new_SLPS_251.72` exists next to `SLPS_251.72` (Pack FPB
    writes the new pointer table into it), then
    `python ps2\menu\patch_slps_titles.py ps2\PyTOD2` which patches **both**
-   copies it finds, so whichever one you ship is right.
+   copies it finds, so whichever one you ship is right. This applies the
+   earlier Arte / Status / Enchant / Cooking-help menu patch first (all 277
+   operations, verified byte for byte against its original installer's
+   output) and the titles second, so a clean English-menu `SLPS_251.72`
+   comes out complete. An executable that already has the menu patch is
+   detected and only gets the titles.
 4. **Pack FPB**. This writes `new_FILE.FPB` and updates `new_SLPS_251.72`.
 5. Put `new_FILE.FPB` (as `FILE.FPB`) and `new_SLPS_251.72` (as
    `SLPS_251.72`) into the ISO.
@@ -140,6 +145,18 @@ Strings are NUL-terminated arrays of font indices:
 
 `md1text.py` decodes this, `md1patch.py` encodes it back and checks that a
 translation fits its slot.
+
+### Battle Memo lines: 33 units, no more
+
+The Battle Memo renderer draws at most 33 glyph slots per line, where every
+character and every tag counts as one slot (the longest Japanese line is
+exactly 33). Anything past that is simply not drawn. English is written
+half-width, so a full memo line only reaches mid-screen; that is the
+engine's limit, not a bug. Keep each memo line at 33 units or fewer.
+
+The battle command labels (Artes / Plan / Equip / Items) sit in fixed slots
+about five characters wide; "Tactics" overflowed into the next slot, hence
+"Plan" there while the main menu keeps "Tactics".
 
 ### Two things worth knowing if you extend this
 
