@@ -32,7 +32,10 @@ def pool_free_start(d):
     """
     seg=d[POOL_START:POOL_END]
     used=[i for i,b in enumerate(seg) if b!=0]
-    return POOL_START+(used[-1]+1 if used else 0)
+    # +2, not +1: the byte after the last character is that string's NUL
+    # terminator and must stay zero. Writing on it glues the next string
+    # onto the previous one ("...Claw SharpeningScenario Name Reserve 3").
+    return POOL_START+(used[-1]+2 if used else 0)
 
 def main():
     ap=argparse.ArgumentParser()
@@ -61,12 +64,51 @@ def main():
         rc|=patch_one(target, a)
     return rc
 
+def repair_glued(target, src, recs, a):
+    """Already patched. Check that no pooled title starts right after a
+    non-zero byte (that would mean it overwrote the previous string's
+    terminator) and relocate any that do. Otherwise report and leave alone."""
+    data=bytearray(src); fixed=0
+    for off,ptrs,jp,en in recs:
+        po=int(ptrs.split(',')[0],16); tgt=struct.unpack_from('<L',data,po)[0]-BIAS
+        if not (POOL_START<tgt<POOL_END) or data[tgt-1]==0: continue
+        enc=P.encode(en); need=len(enc)+1
+        new=pool_free_start(bytes(data))
+        if new+need>POOL_END: print(f"cannot relocate 0x{off:X}: pool full"); return 1
+        data[new:new+need]=enc+b'\x00'
+        data[tgt:tgt+len(enc)]=b'\x00'*len(enc)     # old copy; its own NUL stays as the previous string's terminator
+        for ph in ptrs.split(','): struct.pack_into('<L',data,int(ph,16),new+BIAS)
+        print(f"repaired: '{en}' was glued onto the previous string at 0x{tgt:X}, moved to 0x{new:X}")
+        fixed+=1
+    if fixed==0:
+        print(f"already patched: all {len(recs)} titles are English, nothing to do"); return 0
+    if not a.dry_run:
+        out=a.out or target
+        if out==target and not os.path.exists(target+".bak"): shutil.copy(target,target+".bak")
+        open(out,"wb").write(bytes(data))
+    print(f"{'would repair' if a.dry_run else 'repaired'} {fixed} glued title(s); everything else left as is")
+    return 0
+
 def patch_one(target, a):
     src=open(target,"rb").read()
     recs=[]
     with open(a.csv, encoding="utf-8") as f:
         for r in csv.DictReader(f):
             recs.append((int(r["offset"],16), r["pointers"], r["japanese"], r["english"]))
+    # Classify first: is this file untouched, already patched, or mixed?
+    jp_ok=en_ok=0
+    for off,ptrs,jp,en in recs:
+        d=M.decode_at(src,off)
+        if d and d[0]==jp: jp_ok+=1; continue
+        po=int(ptrs.split(',')[0],16); tgt=struct.unpack_from('<L',src,po)[0]-BIAS
+        d2=M.decode_at(src,tgt) if 0<=tgt<len(src) else None
+        if d2 and d2[0]==en: en_ok+=1
+    if en_ok==len(recs):
+        return repair_glued(target, src, recs, a)
+    if jp_ok!=len(recs):
+        print(f"{len(recs)-jp_ok-en_ok} record(s) are neither the original Japanese nor the"
+              f" final English ({en_ok} already English, {jp_ok} Japanese). Nothing written.")
+        return 1
     errs=[]
     for off,ptrs,jp,en in recs:
         d=M.decode_at(src,off)

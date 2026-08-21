@@ -8,9 +8,14 @@ tables reference offsets inside files you extract yourself.
 
 | Where | Strings | What |
 |---|---|---|
-| `*.md1` overlay modules in `FILE.FPB` | 499 | items, equipment, shop, refine, enchant, save, status, customize, cooking UI, grade shop, monster book, titles, artes and tactics menus, name entry, battle system and the Battle Memos, world map region labels |
+| `*.md1` overlay modules in `FILE.FPB` | 510 | items, equipment, shop, refine, enchant, save, status, customize, cooking UI, grade shop, monster book, titles, artes and tactics menus, name entry, battle system and the Battle Memos, world map region labels |
 | `*.pak0` world map scripts in `FILE.FPB` | 256 | signposts, mine entrance labels, map location labels, ferry and minigame text, the flying dragon anchor scene, the ending monologue |
 | `SLPS_251.72` | 597 | character titles |
+
+The table has 766 FPB records. Eleven of them (the Battle Memo category
+headings such as ＜特技習得＞, and four cooking menu labels) use three
+character codes that `TBL.json` does not list; the decoder fills those in
+(`0x9A7D` ＜, `0x9A7E` ＞, `0x9DD5` 熟).
 
 Most menu text lives in the `md1` overlay modules inside `FILE.FPB`, not in
 the executable, which is why it was easy to miss. All `pak0` files in this
@@ -96,12 +101,16 @@ never touched and Pack FPB is unaffected.
 
 ## Safety
 
-* Every record is checked against the original Japanese before anything is
-  written. If any record in a file fails, that whole file is left untouched
-  rather than half-patched.
+* Every record is checked before anything is written: it must hold either
+  the original Japanese or the final English. If any record in a file is
+  something else, that whole file is left untouched rather than half-patched.
+* Re-running is safe. Records that are already English are counted as
+  current and skipped, so running again after a new version of the table
+  only fills the gaps. The title patcher likewise reports an already patched
+  executable instead of failing, and repairs one known problem from an
+  earlier version of itself (a pooled title written over the previous
+  string's terminator) if it finds it.
 * A `.bak` is written on first run.
-* Re-running on an already-patched file is refused, because the Japanese no
-  longer matches, so it cannot corrupt a patched file.
 * File sizes never change.
 * For the titles, the patcher also verifies that each pointer really points at
   the record it claims before rewriting it.

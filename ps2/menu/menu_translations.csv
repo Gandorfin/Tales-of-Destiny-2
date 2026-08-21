@@ -363,6 +363,8 @@ cannot be accessed."
 ","Back
 <button:0000003A>Next
 "
+06807.md1,0x7428,適正熟練度,Adequate Level
+06807.md1,0x7438,総合熟練度,Skill Level
 06807.md1,0x7448,料理,Cooking
 06807.md1,0x7450,すでに同じ内容のレシピを持っています,You already have that recipe.
 06807.md1,0x7478,削除,Delete
@@ -433,6 +435,16 @@ Stop creating this recipe?
 <button:00000036>戻る","<button:00000035>Select
 <button:00000036>Back"
 06807.md1,0x7818,みんな満腹です,Everyone is full.
+06807.md1,0x7878,"<button:00000035>選択
+<button:00000036>料理
+<button:00000037>説明切替
+<button:00000038>取消","<button:00000035>Select
+<button:00000036>Cook
+<button:00000037>Info
+<button:00000038>Cancel"
+06807.md1,0x78E8,"レシピがいっぱいで新規に作成できません
+いずれかを削除する必要があります","The recipe list is full.
+Delete one before making a new one."
 06807.md1,0x7930,"レシピ作成には２種類以上の食品を
 所持している必要があります","A recipe needs at least two
 different ingredients on hand."
@@ -792,41 +804,48 @@ earned to start under various conditions."
 08055.md1,0x52638,麻痺,Para
 08055.md1,0x52640,衰弱,Weak
 08055.md1,0x52648,毒,Poison
-08055.md1,0x52710,　特技と同様、奥義から繋がる<color:00000006>秘奥義<color:00000007>を習得しましたが、,"  You learned a <color:00000006>Mystic Arte<color:00000007> after an Arcane Arte,"
-08055.md1,0x526C8,条件として<color:00000005>SP100%<color:00000007>とあります。奥義中にSPは減少するので、,"but it requires <color:00000005>SP 100%<color:00000007>. SP drops during an Arcane Arte,"
-08055.md1,0x52690,普段は使用できませんが、一定時間SPが常にフルに保たれる,"so normally you cannot use it. But while SP stays full,"
 08055.md1,0x52650,状態、すなわち<color:00000006>スピリッツブラスター<color:00000007>時がチャンス！,"that is, during <color:00000006>Spirits Blaster<color:00000007>, is your chance!"
-08055.md1,0x52840,　<Kyle>は特技習得後、<color:00000006>追加特技<color:00000007>のエンチャントを習得します。,"  After learning a Skill, <Kyle> gets the <color:00000006>Added Skill<color:00000007> enchant."
-08055.md1,0x527F8,<color:00000006>蒼破追蓮<color:00000007>は蒼破刃専用の追加技で、使用回数が５０以上あれば、,"<color:00000006>Souha Tsuiren<color:00000007> is exclusive to Souhajin. At 50+ uses,"
-08055.md1,0x527B0,メニュー<color:00000005>エンチャント<color:00000007>から<color:00000004>アクション<color:00000007>に装備できます。,equip it to <color:00000004>Action<color:00000007> from the <color:00000005>Enchant<color:00000007> menu.
+08055.md1,0x52690,普段は使用できませんが、一定時間SPが常にフルに保たれる,"so normally you cannot use it. But while SP stays full,"
+08055.md1,0x526C8,条件として<color:00000005>SP100%<color:00000007>とあります。奥義中にSPは減少するので、,"but it requires <color:00000005>SP 100%<color:00000007>. SP drops during an Arcane Arte,"
+08055.md1,0x52710,　特技と同様、奥義から繋がる<color:00000006>秘奥義<color:00000007>を習得しましたが、,"  You learned a <color:00000006>Mystic Arte<color:00000007> after an Arcane Arte,"
+08055.md1,0x52750,<color:00000006>＜秘奥義習得＞<color:00000007>,<color:00000006><New Mystic Arte><color:00000007>
 08055.md1,0x52770,　蒼破刃を出した後、<button:0000003D><color:00000006>を押し続け<color:00000007>ると発動します。,"  After using Souhajin, <color:00000006>hold<color:00000007> <button:0000003D> to trigger it."
-08055.md1,0x52948,　<color:00000006>奥義<color:00000007>は「特技の上位技」と認識してください。同様に,"  Think of <color:00000006>Arcane Artes<color:00000007> as higher Skills. Likewise,"
-08055.md1,0x52910,メニュー<color:00000005>術・技<color:00000007>から<button:0000003E>にセットできます。,set them to <button:0000003E> from the <color:00000005>Artes<color:00000007> menu.
-08055.md1,0x528C0,　最大の相違点は、<color:00000006>特技の使用中に入力すること<color:00000007>で連続攻撃になる、,  The key difference: <color:00000006>input during a Skill<color:00000007> chains into a combo.
+08055.md1,0x527B0,メニュー<color:00000005>エンチャント<color:00000007>から<color:00000004>アクション<color:00000007>に装備できます。,equip it to <color:00000004>Action<color:00000007> from the <color:00000005>Enchant<color:00000007> menu.
+08055.md1,0x527F8,<color:00000006>蒼破追蓮<color:00000007>は蒼破刃専用の追加技で、使用回数が５０以上あれば、,"<color:00000006>Souha Tsuiren<color:00000007> is exclusive to Souhajin. At 50+ uses,"
+08055.md1,0x52840,　<Kyle>は特技習得後、<color:00000006>追加特技<color:00000007>のエンチャントを習得します。,"  After learning a Skill, <Kyle> gets the <color:00000006>Added Skill<color:00000007> enchant."
+08055.md1,0x52888,<color:00000006>＜追加特技習得＞<color:00000007>,<color:00000006><New Added Skill><color:00000007>
 08055.md1,0x528A8,ということです。,That is the point.
-08055.md1,0x52AB8,　<color:00000006>エンチャント<color:00000007>とは、特技、晶術に装備し能力を強化するものです。,  <color:00000006>Enchants<color:00000007> attach to Skills and Spells to strengthen them.
-08055.md1,0x52A68,装備にはそれぞれの特技、晶術の使用回数<color:00000006>（COUNT）<color:00000007>を必要とします。,Equipping one needs that Skill or Spell's use <color:00000006>COUNT<color:00000007>.
-08055.md1,0x52A20,メニュー<color:00000005>エンチャント<color:00000007>から４０回以上使用している特技を選択し、,"From the <color:00000005>Enchant<color:00000007> menu, pick a Skill used 40 or more times,"
-08055.md1,0x529D8,<color:00000006>攻撃力アップ<color:00000007>を装備すると、ダメージを増やす事ができます。,then equip <color:00000006>Attack Up<color:00000007> to increase the damage it deals.
+08055.md1,0x528C0,　最大の相違点は、<color:00000006>特技の使用中に入力すること<color:00000007>で連続攻撃になる、,  The key difference: <color:00000006>input during a Skill<color:00000007> chains into a combo.
+08055.md1,0x52910,メニュー<color:00000005>術・技<color:00000007>から<button:0000003E>にセットできます。,set them to <button:0000003E> from the <color:00000005>Artes<color:00000007> menu.
+08055.md1,0x52948,　<color:00000006>奥義<color:00000007>は「特技の上位技」と認識してください。同様に,"  Think of <color:00000006>Arcane Artes<color:00000007> as higher Skills. Likewise,"
+08055.md1,0x52988,<color:00000006>＜奥義習得＞<color:00000007>,<color:00000006><Arcane Arte><color:00000007>
 08055.md1,0x529A0,　エンチャントは<button:00000028>で装備を外すことも可能です。,  Enchants can also be removed with <button:00000028>.
-08055.md1,0x52C28,　晶術も特技と同様に、メニュー<color:00000005>術・技<color:00000007>から<button:0000003E>にセットできます。,"  Spells, like Skills, are set to <button:0000003E> from the <color:00000005>Artes<color:00000007> menu."
-08055.md1,0x52BE0,晶術は<color:00000006>TP<color:00000007>と詠唱時間を必要としますが、奥の敵を直接狙えるなどの,"Spells cost <color:00000006>TP<color:00000007> and cast time, but can strike distant foes"
-08055.md1,0x52BA0,利点があり、詠唱中、<button:0000003E>を押しながら<button:00000021>を押すことで、,"directly. While casting, hold <button:0000003E> and press <button:00000021> to"
-08055.md1,0x52B78,攻撃目標を変更することができます。,change the spell's target.
+08055.md1,0x529D8,<color:00000006>攻撃力アップ<color:00000007>を装備すると、ダメージを増やす事ができます。,then equip <color:00000006>Attack Up<color:00000007> to increase the damage it deals.
+08055.md1,0x52A20,メニュー<color:00000005>エンチャント<color:00000007>から４０回以上使用している特技を選択し、,"From the <color:00000005>Enchant<color:00000007> menu, pick a Skill used 40 or more times,"
+08055.md1,0x52A68,装備にはそれぞれの特技、晶術の使用回数<color:00000006>（COUNT）<color:00000007>を必要とします。,Equipping one needs that Skill or Spell's use <color:00000006>COUNT<color:00000007>.
+08055.md1,0x52AB8,　<color:00000006>エンチャント<color:00000007>とは、特技、晶術に装備し能力を強化するものです。,  <color:00000006>Enchants<color:00000007> attach to Skills and Spells to strengthen them.
+08055.md1,0x52B08,<color:00000006>＜エンチャント習得＞<color:00000007>,<color:00000006><New Enchant><color:00000007>
 08055.md1,0x52B28,　また、<color:00000005>SP<color:00000007>が切れた時に晶術を使いつつ回復を待つ作戦も有効です。,"  When <color:00000005>SP<color:00000007> runs dry, casting while it recovers is a fine tactic."
-08055.md1,0x52E40,　特技を習得すると、メニュー<color:00000005>術・技<color:00000007>から特技をセットできます。,  Learn a Skill and you can set it from the <color:00000005>Artes<color:00000007> menu.
-08055.md1,0x52E00,セットした特技は、方向キーと<button:0000003E>の組み合わせで使用できます。,A Skill you have set is used with a direction key plus <button:0000003E>.
-08055.md1,0x52DC0,特技は<color:00000006>TP<color:00000007>が必要になりますが、通常攻撃より高いダメージ,"Skills cost <color:00000006>TP<color:00000007>, but deal more damage than a normal"
-08055.md1,0x52D78,を与え、また、<color:00000006>通常攻撃中に入力を行うと<color:00000007>連続攻撃が可能です。,"attack, and <color:00000006>input during a normal attack<color:00000007> allows combos."
-08055.md1,0x52D20,　<color:00000006>オート操作<color:00000007>の<Loni>は、戦闘中にHP量に応じて,"  On <color:00000006>Auto<color:00000007>, <Loni> tracks your HP in battle and"
-08055.md1,0x52CE8,回復晶術をかけてくれます。どの状況で使用するかは,"casts healing spells. To choose when he does so,"
-08055.md1,0x52CC8,メニュー<color:00000005>作戦<color:00000007>で<Loni>の,open <color:00000005>Tactics<color:00000007> and set
+08055.md1,0x52B78,攻撃目標を変更することができます。,change the spell's target.
+08055.md1,0x52BA0,利点があり、詠唱中、<button:0000003E>を押しながら<button:00000021>を押すことで、,"directly. While casting, hold <button:0000003E> and press <button:00000021> to"
+08055.md1,0x52BE0,晶術は<color:00000006>TP<color:00000007>と詠唱時間を必要としますが、奥の敵を直接狙えるなどの,"Spells cost <color:00000006>TP<color:00000007> and cast time, but can strike distant foes"
+08055.md1,0x52C28,　晶術も特技と同様に、メニュー<color:00000005>術・技<color:00000007>から<button:0000003E>にセットできます。,"  Spells, like Skills, are set to <button:0000003E> from the <color:00000005>Artes<color:00000007> menu."
+08055.md1,0x52C78,<color:00000006>＜攻撃晶術習得＞<color:00000007>,<color:00000006><New Attack Spell><color:00000007>
 08055.md1,0x52C98,<color:00000004>防御<color:00000007>の設定を変更してください。,<Loni>'s <color:00000004>Defense<color:00000007> setting.
+08055.md1,0x52CC8,メニュー<color:00000005>作戦<color:00000007>で<Loni>の,open <color:00000005>Tactics<color:00000007> and set
+08055.md1,0x52CE8,回復晶術をかけてくれます。どの状況で使用するかは,"casts healing spells. To choose when he does so,"
+08055.md1,0x52D20,　<color:00000006>オート操作<color:00000007>の<Loni>は、戦闘中にHP量に応じて,"  On <color:00000006>Auto<color:00000007>, <Loni> tracks your HP in battle and"
+08055.md1,0x52D58,<color:00000006>＜回復晶術習得＞<color:00000007>,<color:00000006><New Healing Spell><color:00000007>
+08055.md1,0x52D78,を与え、また、<color:00000006>通常攻撃中に入力を行うと<color:00000007>連続攻撃が可能です。,"attack, and <color:00000006>input during a normal attack<color:00000007> allows combos."
+08055.md1,0x52DC0,特技は<color:00000006>TP<color:00000007>が必要になりますが、通常攻撃より高いダメージ,"Skills cost <color:00000006>TP<color:00000007>, but deal more damage than a normal"
+08055.md1,0x52E00,セットした特技は、方向キーと<button:0000003E>の組み合わせで使用できます。,A Skill you have set is used with a direction key plus <button:0000003E>.
+08055.md1,0x52E40,　特技を習得すると、メニュー<color:00000005>術・技<color:00000007>から特技をセットできます。,  Learn a Skill and you can set it from the <color:00000005>Artes<color:00000007> menu.
+08055.md1,0x52E88,<color:00000006>＜特技習得＞<color:00000007>,<color:00000006><New Skill><color:00000007>
 08055.md1,0x52EE8,装備品が全滅した・・・,Equipment wiped out...
-08055.md1,0x52F38,スロット効果が発動し、,Slot effect activated:
+08055.md1,0x52F00,しました,!
 08055.md1,0x52F10,対スロットLV上昇,Anti-Slot LV up
 08055.md1,0x52F28,最大ＨＰが上昇,Max HP up
-08055.md1,0x52F00,しました,!
+08055.md1,0x52F38,スロット効果が発動し、,Slot effect activated:
 08055.md1,0x52F50,弱:,Weak:
 08055.md1,0x52F58,耐:,Res:
 08055.md1,0x52F60,闇,Dark
@@ -837,21 +856,18 @@ earned to start under various conditions."
 08055.md1,0x52F88,地,Earth
 08055.md1,0x52F90,具現結晶,Lens Crystal
 08055.md1,0x52FA0,追加晶術,Added Spell
+08055.md1,0x52FB0,秘奥義,Mystic
 08055.md1,0x52FB8,追加特技,Added Skill
-08055.md1,0x53060,－秘奥義－,-Mystic Arte-
-08055.md1,0x52FE0,称号「<color:00000006>,"Title ""<color:00000006>"
 08055.md1,0x52FC8,<color:00000007>」を得ました,"<color:00000007>"" acquired!"
+08055.md1,0x52FE0,称号「<color:00000006>,"Title ""<color:00000006>"
+08055.md1,0x52FF0,が、なんか失敗・・, flopped somehow...
 08055.md1,0x53008,を料理しました, is ready!
 08055.md1,0x53018,の,'s 
-08055.md1,0x52FF0,が、なんか失敗・・, flopped somehow...
+08055.md1,0x53038,を習得, gained
 08055.md1,0x53040,スペル,Spell
 08055.md1,0x53048,スキル,Skill
 08055.md1,0x53050,エンチャント,Enchant
-08055.md1,0x530B0,自爆した！,Self-destruct!
-08055.md1,0x530C0,逃走した・・・,Fled...
-08055.md1,0x530D0,全滅した・・・,Wiped out...
-08055.md1,0x52FB0,秘奥義,Mystic
-08055.md1,0x53038,を習得, gained
+08055.md1,0x53060,－秘奥義－,-Mystic Arte-
 08055.md1,0x53070,設定,Config
 08055.md1,0x53078,状態,Status
 08055.md1,0x53080,料理,Cooking
@@ -860,6 +876,9 @@ earned to start under various conditions."
 08055.md1,0x53098,装備,Equip
 08055.md1,0x530A0,作戦,Tactics
 08055.md1,0x530A8,術技,Artes
+08055.md1,0x530B0,自爆した！,Self-destruct!
+08055.md1,0x530C0,逃走した・・・,Fled...
+08055.md1,0x530D0,全滅した・・・,Wiped out...
 08996.md1,0x2B900,アイグレッテ・倉庫,Aigrette - Warehouse
 08996.md1,0x2B918,外殻,Shell
 08996.md1,0x2B920,大陸西部の坑道,Western Mine

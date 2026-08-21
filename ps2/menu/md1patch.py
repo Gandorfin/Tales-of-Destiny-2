@@ -2,6 +2,7 @@
 import os, json, struct, re, string
 R=os.path.join(os.path.dirname(os.path.abspath(__file__)),"..","..")
 TBL=json.load(open(R+"/ps2/PyTOD2/TBL.json"))
+TBL.setdefault("39549","＜"); TBL.setdefault("39550","＞"); TBL.setdefault("40405","熟")
 REV={v:int(k) for k,v in TBL.items()}
 PRINT=set(string.digits+string.ascii_letters+string.punctuation+' ')
 TAGCODE={'color':0x4,'size':0x5,'num':0x6,'char':0x7,'item':0x8,'button':0x9}
