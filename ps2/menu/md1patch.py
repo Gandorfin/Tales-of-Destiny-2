@@ -32,6 +32,7 @@ def encode(text):
         elif ch in PRINT: out.append(ord(ch))
         elif ch in REV:
             c=REV[ch]; out+=bytes([c>>8,c&0xFF])
+        elif 0xFF61<=ord(ch)<=0xFF9F: out.append(0xA1+ord(ch)-0xFF61)   # half-width kana
         else: raise ValueError(f"cannot encode {ch!r}")
         i+=1
     return bytes(out)

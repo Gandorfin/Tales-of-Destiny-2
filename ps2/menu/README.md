@@ -181,3 +181,23 @@ the pointers, spilling into the spare string pool only when an arena fills up.
 * Cooking recipe names. They are not text: two independent scans found them in
   no encoding anywhere in the executable or `FILE.FPB`, so they appear to be
   baked into TM2 graphics and need an image edit instead.
+
+## Quiz Book (`sfm_text.py`)
+
+The Quiz Book minigame keeps its text in FPB members 06171 to 06301 (type
+`sfm`, LZSS-compressed script modules). `sfm_text.py` extracts and rebuilds
+that text; `quiz_translations.csv` holds the records (file, section-relative
+offset, in-place byte budget, pinned flag, Japanese, English).
+
+```
+python ps2\menu\sfm_text.py build ps2\PyTOD2\FPB            # patch the sfm files in place (backups as .bak)
+python ps2\menu\sfm_text.py build ps2\PyTOD2\FPB --dry-run  # report only
+python ps2\menu\sfm_text.py extract ps2\PyTOD2\FPB          # regenerate the CSV (keeps existing English)
+```
+
+English that fits the Japanese slot is written in place; longer English is
+appended to the module's data section and every pointer to the old string is
+redirected. Strings marked `pinned` have references the tool cannot prove to
+be pointers, so their English must fit the budget (the build reports any
+overflow and leaves that string Japanese). Run `build` before `Pack FPB`, in
+the same folder as `patch_menu_text.py`.
