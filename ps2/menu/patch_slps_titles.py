@@ -17,6 +17,10 @@ Steps, in order, on one in-memory copy; the file is written once at the end:
   2. The character titles: packed into contiguous arenas, so each arena is
      repacked and its pointers rewritten, spilling into the spare pool only
      when an arena fills. Pointers are 32-bit LE values of (offset + 0xFF000).
+  3. The battle cut-in names of the party's artes (slps_artes.py): the banner
+     shows the string after an arte's reading; 27 of those were still the
+     kanji. Each gets "reading + menu name" in the pool or in a slot another
+     record freed, and its reading pointer is redirected.
 
 Re-running is safe. The file size never changes.
 """
@@ -27,7 +31,7 @@ try:                                   # Windows consoles are often not UTF-8
 except Exception:
     pass
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-import md1text as M, md1patch as P, slps_menu
+import md1text as M, md1patch as P, slps_menu, slps_artes
 BIAS = 0xFF000
 POOL_START, POOL_END = 1026832, 1033520
 
@@ -167,6 +171,17 @@ def patch_one(target, a):
         except RuntimeError as e:
             print(f"titles: {e}. Nothing written."); return 1
         print(f"patched {len(recs)} titles ({inplace} repacked in place, {spill} moved to the pool, {left} pool bytes left)")
+
+    # Step 3: the battle cut-in names of the party artes.
+    pend = slps_artes.pending(src)
+    if not pend:
+        print("arte cut-in names: all English")
+    else:
+        try:
+            src, slots, pooled, left = slps_artes.apply(src, pool_free_start(src), POOL_END)
+        except RuntimeError as e:
+            print(f"arte cut-in names: {e}. Nothing written."); return 1
+        print(f"arte cut-in names: {len(pend)} redirected ({slots} into freed slots, {pooled} into the pool, {left} pool bytes left)")
 
     assert len(src) == len(original)
     if src == original:
