@@ -101,3 +101,8 @@ def apply(d, pool_start, pool_end):
         data[home:home + len(blob)] = blob
         struct.pack_into('<L', data, o + 0x14, home + BIAS)
     return bytes(data), into_slots, into_pool, pool_end - pool
+
+
+if __name__ == '__main__':
+    print('slps_artes.py is not a command. It runs as step 3 of patch_slps_titles.py:\n'
+          '    python ps2\\menu\\patch_slps_titles.py ps2\\PyTOD2\\SLPS_251.72')

@@ -247,5 +247,16 @@ English after the reading for 14 artes and left the kanji for 27 (Loni's
 and Judas's, mostly), which is why "Soudashou" in the menu was 双打鐘 in
 battle. `patch_slps_titles.py` now fixes that as its third step: each of
 the 27 gets a new "reading + menu name" slot in the spare pool or in the
-room another record freed, and its reading pointer is redirected. No new
-command; the cut-in text is always the menu name, so the two agree.
+room another record freed, and its reading pointer is redirected. The
+cut-in text is always the menu name, so the two agree.
+
+**There is no new command and nothing to point at the FPB folder.**
+`slps_artes.py` is a module, not a script; it runs inside the existing
+executable step:
+
+```
+python ps2\menu\patch_slps_titles.py ps2\PyTOD2\SLPS_251.72
+```
+
+whose output gains a line `arte cut-in names: 27 redirected (...)`, or
+`all English` when the step was already done.
