@@ -10,6 +10,7 @@ tables reference offsets inside files you extract yourself.
 |---|---|---|
 | `*.md1` overlay modules in `FILE.FPB` | 516 (+122 inside `00017.pak3`) | items, equipment, shop, refine, enchant, save, status, customize, cooking UI, grade shop, monster book, titles, artes and tactics menus, name entry, battle system and the Battle Memos, world map region labels |
 | `*.pak0` world map scripts in `FILE.FPB` | 261 | signposts, mine entrance labels, map location labels, ferry and minigame text, the flying dragon anchor scene, the ending monologue |
+| `*.pak1` enemy packs in `FILE.FPB` | 159 (89 distinct) | enemy arte names shown in battle and the lines bosses shout (Barbatos, Elraine and others), via `enemy_text.py` |
 | `06306.scpk` | 1 | the opening caption "And so... eighteen years passed...", a scenario package that predates the proofread range (06307 onward) and has no text file of its own; patched in place inside the package |
 | `SLPS_251.72` | 597 + 277 ops | character titles, plus the earlier Arte / Status / Enchant / Cooking-help menu patch (`slps_menu_patch.json`), so the executable is complete from a clean English-menu base |
 
@@ -46,6 +47,7 @@ not into this folder:
 cd Tales-of-Destiny-2
 python ps2/menu/patch_menu_text.py ps2/PyTOD2/FPB
 python ps2/menu/sfm_text.py build ps2/PyTOD2/FPB
+python ps2/menu/enemy_text.py build ps2/PyTOD2/FPB
 python ps2/menu/patch_slps_titles.py ps2/PyTOD2/SLPS_251.72
 ```
 
@@ -55,12 +57,14 @@ Windows and PowerShell work the same way; backslashes are fine:
 cd C:\Users\you\Tales-of-Destiny-2
 python ps2\menu\patch_menu_text.py ps2\PyTOD2\FPB
 python ps2\menu\sfm_text.py build ps2\PyTOD2\FPB
+python ps2\menu\enemy_text.py build ps2\PyTOD2\FPB
 python ps2\menu\patch_slps_titles.py ps2\PyTOD2\SLPS_251.72
 ```
 
 `patch_menu_text.py` covers the menus, `sfm_text.py build` covers the Quiz
-Book (different files, see below), and both must run before Pack FPB.
-Skipping the second leaves the whole Quiz Book in Japanese.
+Book and `enemy_text.py build` covers the enemy arte names and boss lines
+in battle (different files, see below); all three must run before Pack
+FPB. Skipping one leaves that part of the game in Japanese.
 
 You can also run them from anywhere by giving the script an absolute path:
 
@@ -68,7 +72,7 @@ You can also run them from anywhere by giving the script an absolute path:
 python C:\Users\you\Tales-of-Destiny-2\ps2\menu\patch_menu_text.py C:\Users\you\Tales-of-Destiny-2\ps2\PyTOD2\FPB
 ```
 
-All three accept `--dry-run` to preview without writing. If you point them at the
+All four accept `--dry-run` to preview without writing. If you point them at the
 wrong thing (at `FILE.FPB`, or one folder too high) they say so and change
 nothing. The title patcher also accepts the folder containing `SLPS_251.72`.
 
@@ -81,7 +85,8 @@ rebuilt. The full sequence, with the PyTOD2 button names:
 
 1. **Unpack FPB** (creates the `FPB` folder).
 2. `python ps2\menu\patch_menu_text.py ps2\PyTOD2\FPB`
-   and `python ps2\menu\sfm_text.py build ps2\PyTOD2\FPB` (the Quiz Book).
+   and `python ps2\menu\sfm_text.py build ps2\PyTOD2\FPB` (the Quiz Book)
+   and `python ps2\menu\enemy_text.py build ps2\PyTOD2\FPB` (enemy artes).
 3. Make sure `new_SLPS_251.72` exists next to `SLPS_251.72` (Pack FPB
    writes the new pointer table into it), then
    `python ps2\menu\patch_slps_titles.py ps2\PyTOD2` which patches **both**
@@ -208,3 +213,26 @@ redirected. Strings marked `pinned` have references the tool cannot prove to
 be pointers, so their English must fit the budget (the build reports any
 overflow and leaves that string Japanese). Run `build` before `Pack FPB`, in
 the same folder as `patch_menu_text.py`.
+
+## Enemy artes and boss lines (`enemy_text.py`)
+
+Every enemy has a `pak1` pack (08063 onward): a `u32 count` plus
+(offset, size) pairs, members 16-byte aligned. Member 1 is a comptoe v3
+LZSS stream holding an `ENd` script, and the names that flash up when an
+enemy uses an arte, plus the lines bosses shout, are string literals
+inside that script: opcode `0A`, one argument byte, then the NUL-terminated
+text in the usual TBL encoding. Nothing points at them, so the English
+is written in place, padded with spaces to the Japanese byte count, and
+no offset in the script moves. `enemy_translations.csv` holds the 159
+strings (89 distinct) with their byte budgets.
+
+```
+python ps2\menu\enemy_text.py build ps2\PyTOD2\FPB            # patch the pak1 files in place (backups as .bak)
+python ps2\menu\enemy_text.py build ps2\PyTOD2\FPB --dry-run  # report only
+python ps2\menu\enemy_text.py extract ps2\PyTOD2\FPB          # regenerate the CSV (keeps existing English)
+python ps2\menu\enemy_text.py check                          # every English line fits its budget
+```
+
+The enemy name lists in 06813.md1 and 08063.pak1 and the category and
+immunity tables at 06813 0x7731 are dead Japanese copies; the 2008 patch
+relocated the English versions, which is what the Monster Book shows.
