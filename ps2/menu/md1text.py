@@ -5,6 +5,7 @@ TBL=json.load(open(R+"/ps2/PyTOD2/TBL.json"))
 # Three codes the game uses that TBL.json lacks (seen in the Battle Memo
 # headings and the cooking menu). Values inferred from context.
 TBL.setdefault("39549","＜"); TBL.setdefault("39550","＞"); TBL.setdefault("40405","熟")
+TBL.setdefault("40947","塗"); TBL.setdefault("40904","鑑"); TBL.setdefault("57978","挿")  # 0x9FF3, 0x9FC8, 0xE27A: missing from TBL.json, seen in 06167, 06816, 06815
 PRINT=set(string.digits+string.ascii_letters+string.punctuation+' ')
 TAGS={0x4:'color',0x5:'size',0x6:'num',0x7:'char',0x8:'item',0x9:'button'}
 NAMES={1:'Kyle',2:'Reala',3:'Loni',4:'Judas',5:'Nanaly',6:'Harold'}
