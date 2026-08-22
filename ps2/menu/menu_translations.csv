@@ -1304,3 +1304,28 @@ the title ""<item:0000086E>""
  Quit
  Cancel
 "
+06167.md1,0x1E715,"塗る
+<button:00000037>やり直し
+<button:00000038>完成！
+<button:00000039><button:0000003A>色の切替","Paint
+<button:00000037>Redo
+<button:00000038>Done!
+<button:00000039><button:0000003A>Switch Color"
+06803.md1,0x87D0,"たちは
+称号「","'s party got """
+06803.md1,0x87E0,」を得ました,""" as a title!"
+06806.md1,0xF343,"ひとつ前へ
+<button:0000003A>ひとつ先へ
+","Previous
+<button:0000003A>Next
+"
+06807.md1,0x6EA0,"たちは
+称号「","'s party got """
+06807.md1,0x6EB0,」を得ました,""" as a title!"
+09028.pak0,0x10011C,"箱を押して穴に落とし通れる場所を作り
+出口を目指してください。
+<button:00000035>ボタンで箱を押すことができます。
+逆に引くことはできません","Push the boxes into the holes to make
+a path and head for the exit.
+<button:00000035> pushes a box.
+You cannot pull them."

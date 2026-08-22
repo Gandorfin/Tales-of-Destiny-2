@@ -8,12 +8,12 @@ tables reference offsets inside files you extract yourself.
 
 | Where | Strings | What |
 |---|---|---|
-| `*.md1` overlay modules in `FILE.FPB` | 510 (+122 inside `00017.pak3`) | items, equipment, shop, refine, enchant, save, status, customize, cooking UI, grade shop, monster book, titles, artes and tactics menus, name entry, battle system and the Battle Memos, world map region labels |
-| `*.pak0` world map scripts in `FILE.FPB` | 256 | signposts, mine entrance labels, map location labels, ferry and minigame text, the flying dragon anchor scene, the ending monologue |
+| `*.md1` overlay modules in `FILE.FPB` | 516 (+122 inside `00017.pak3`) | items, equipment, shop, refine, enchant, save, status, customize, cooking UI, grade shop, monster book, titles, artes and tactics menus, name entry, battle system and the Battle Memos, world map region labels |
+| `*.pak0` world map scripts in `FILE.FPB` | 261 | signposts, mine entrance labels, map location labels, ferry and minigame text, the flying dragon anchor scene, the ending monologue |
 | `06306.scpk` | 1 | the opening caption "And so... eighteen years passed...", a scenario package that predates the proofread range (06307 onward) and has no text file of its own; patched in place inside the package |
 | `SLPS_251.72` | 597 + 277 ops | character titles, plus the earlier Arte / Status / Enchant / Cooking-help menu patch (`slps_menu_patch.json`), so the executable is complete from a clean English-menu base |
 
-The table has 766 FPB records. Eleven of them (the Battle Memo category
+The table has 778 FPB records. Eleven of them (the Battle Memo category
 headings such as ＜特技習得＞, and four cooking menu labels) use three
 character codes that `TBL.json` does not list; the decoder fills those in
 (`0x9A7D` ＜, `0x9A7E` ＞, `0x9DD5` 熟).
