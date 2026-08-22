@@ -45,6 +45,7 @@ not into this folder:
 ```
 cd Tales-of-Destiny-2
 python ps2/menu/patch_menu_text.py ps2/PyTOD2/FPB
+python ps2/menu/sfm_text.py build ps2/PyTOD2/FPB
 python ps2/menu/patch_slps_titles.py ps2/PyTOD2/SLPS_251.72
 ```
 
@@ -53,8 +54,13 @@ Windows and PowerShell work the same way; backslashes are fine:
 ```
 cd C:\Users\you\Tales-of-Destiny-2
 python ps2\menu\patch_menu_text.py ps2\PyTOD2\FPB
+python ps2\menu\sfm_text.py build ps2\PyTOD2\FPB
 python ps2\menu\patch_slps_titles.py ps2\PyTOD2\SLPS_251.72
 ```
+
+`patch_menu_text.py` covers the menus, `sfm_text.py build` covers the Quiz
+Book (different files, see below), and both must run before Pack FPB.
+Skipping the second leaves the whole Quiz Book in Japanese.
 
 You can also run them from anywhere by giving the script an absolute path:
 
@@ -62,7 +68,7 @@ You can also run them from anywhere by giving the script an absolute path:
 python C:\Users\you\Tales-of-Destiny-2\ps2\menu\patch_menu_text.py C:\Users\you\Tales-of-Destiny-2\ps2\PyTOD2\FPB
 ```
 
-Both accept `--dry-run` to preview without writing. If you point them at the
+All three accept `--dry-run` to preview without writing. If you point them at the
 wrong thing (at `FILE.FPB`, or one folder too high) they say so and change
 nothing. The title patcher also accepts the folder containing `SLPS_251.72`.
 
@@ -75,6 +81,7 @@ rebuilt. The full sequence, with the PyTOD2 button names:
 
 1. **Unpack FPB** (creates the `FPB` folder).
 2. `python ps2\menu\patch_menu_text.py ps2\PyTOD2\FPB`
+   and `python ps2\menu\sfm_text.py build ps2\PyTOD2\FPB` (the Quiz Book).
 3. Make sure `new_SLPS_251.72` exists next to `SLPS_251.72` (Pack FPB
    writes the new pointer table into it), then
    `python ps2\menu\patch_slps_titles.py ps2\PyTOD2` which patches **both**
