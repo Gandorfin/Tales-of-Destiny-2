@@ -12,7 +12,7 @@ tables reference offsets inside files you extract yourself.
 | `*.pak0` world map scripts in `FILE.FPB` | 261 | signposts, mine entrance labels, map location labels, ferry and minigame text, the flying dragon anchor scene, the ending monologue |
 | `*.pak1` enemy packs in `FILE.FPB` | 159 (89 distinct) | enemy arte names shown in battle and the lines bosses shout (Barbatos, Elraine and others), via `enemy_text.py` |
 | `06306.scpk` | 1 | the opening caption "And so... eighteen years passed...", a scenario package that predates the proofread range (06307 onward) and has no text file of its own; patched in place inside the package |
-| `SLPS_251.72` | 597 + 277 ops | character titles, plus the earlier Arte / Status / Enchant / Cooking-help menu patch (`slps_menu_patch.json`), so the executable is complete from a clean English-menu base |
+| `SLPS_251.72` | 597 + 277 ops + 27 cut-ins | character titles, plus the earlier Arte / Status / Enchant / Cooking-help menu patch (`slps_menu_patch.json`) and the battle cut-in names of the 27 party artes that still flashed up in kanji, so the executable is complete from a clean English-menu base |
 
 The table has 778 FPB records. Eleven of them (the Battle Memo category
 headings such as ＜特技習得＞, and four cooking menu labels) use three
@@ -236,3 +236,16 @@ python ps2\menu\enemy_text.py check                          # every English lin
 The enemy name lists in 06813.md1 and 08063.pak1 and the category and
 immunity tables at 06813 0x7731 are dead Japanese copies; the 2008 patch
 relocated the English versions, which is what the Monster Book shows.
+
+## Battle cut-in names of the party artes (`slps_artes.py`)
+
+The green banner that flashes up when a party member uses an arte does
+not use the arte's menu name pointer: it shows the string that follows
+the arte's *reading* in the executable (records of 28 bytes at 0xB7000,
+pointers to menu name, reading and description). The 2008 patch wrote
+English after the reading for 14 artes and left the kanji for 27 (Loni's
+and Judas's, mostly), which is why "Soudashou" in the menu was 双打鐘 in
+battle. `patch_slps_titles.py` now fixes that as its third step: each of
+the 27 gets a new "reading + menu name" slot in the spare pool or in the
+room another record freed, and its reading pointer is redirected. No new
+command; the cut-in text is always the menu name, so the two agree.
