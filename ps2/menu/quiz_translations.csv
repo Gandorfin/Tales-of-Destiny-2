@@ -383,8 +383,16 @@ wind spirits, is whose father?"
 06184.sfm,0x2E52,4,,すず,Suzu
 06184.sfm,0x2E57,33,,<Kyle>の父親はスタンさんでしょう？,"<Kyle>'s father is Stahn, isn't he?"
 06184.sfm,0x2E79,16,,残念、時間切れよ,"Too bad, time's up."
+06184.sfm,0x2E8A,121,,"遭遇したことのあるモンスターが
+１００体ちょうどのとき、
+アイテム「モンスター図鑑」は
+どんなタイトルになっているでしょう？","When you've encountered exactly
+100 monsters, what title does the
+""Monster Book"" item show?"
 06184.sfm,0x2F04,16,,モンスター大百科,Monster Encyclopedia
+06184.sfm,0x2F15,18,,モンスター特大図鑑,Giant Monster Book
 06184.sfm,0x2F28,18,,モンスター特大全集,Giant Monster Compendium
+06184.sfm,0x2F3B,14,,モンスター図鑑,Monster Book
 06184.sfm,0x2F4A,14,,モンスター百科,Monster Guide
 06184.sfm,0x2F59,16,,モンスターえほん,Monster Picture Book
 06184.sfm,0x2F6A,18,,たのしいモンスター,Fun with Monsters
@@ -1730,6 +1738,8 @@ that'd be in there, right?"
 06185.sfm,0x40DE,43,,"リリスさんがくれた物は
 次のうちどれだった？","Which of these did
 Lilith give us?"
+06185.sfm,0x410A,14,,コレクター図鑑,Collector's Book
+06185.sfm,0x4119,14,,モンスター図鑑,Monster Book
 06185.sfm,0x4128,14,,ワールドマップ,World Map
 06185.sfm,0x4137,16,,ソーサラーリング,Sorcerer's Ring
 06185.sfm,0x4148,14,,フリーズリング,Freeze Ring
@@ -2433,6 +2443,7 @@ gave us when we set out on our adventure?"
 <Judas>からもらったんだよな","We got the Sorcerer's Ring
 from <Judas>."
 06185.sfm,0x6669,20,,冒険には地図だよな！,Gotta have a map for an adventure!
+06185.sfm,0x667E,28,,モンスター図鑑完成を目指せ！,Complete that Monster Book!
 06185.sfm,0x669B,16,,覚えてないのか？,Don't remember?
 06185.sfm,0x66AC,87,,"アイグレッテで
 だまされてばかりの青年が
@@ -4181,6 +4192,9 @@ of Rasheans?"
 06187.sfm,0x2EAF,10,,たきぎむし,Firewood Bug
 06187.sfm,0x2EBA,8,,やまつの,Mountain Horn
 06187.sfm,0x2EC3,8,,ほしかわ,Dried Hide
+06187.sfm,0x2ECC,39,,"正解だね
+村長がそれを塗っても治らないよ","Correct.
+Rubbing it on won't cure the mayor."
 06187.sfm,0x2EF4,31,,"残念、違うよ
 むしも煎じるんだよ","Too bad, wrong.
 You boil the bug too."
@@ -6523,6 +6537,9 @@ Little Primula."
 それはないわ","Bzzt!
 'Muramura'...
 Certainly not."
+06188.sfm,0x4B1E,27,,"ハズレ！
+塗むらはいけないわ","Wrong!
+Streaky paint won't do."
 06188.sfm,0x4B3A,44,,"ブッブッブ～！
 柔らかそうだけど
 なにか違うわ","Bzz-bzzt!
@@ -7182,6 +7199,7 @@ to catch up with her?"
 06189.sfm,0x52C4,16,,イクシフォスラー,Ixifoslar
 06189.sfm,0x52D5,6,,飛行竜,Flying dragon
 06189.sfm,0x52DC,16,,瞬間物質輸送装置,Matter teleporter
+06189.sfm,0x52ED,10,,物質鑑定機,Matter analyzer
 06189.sfm,0x52F8,49,,"なんで<Judas>は
 この飛行艇のことを
 しっていたんだろ","How did <Judas> know
@@ -7541,6 +7559,7 @@ years older, but..."
 渡してくれたものは何か？","What did Garr
 give me?"
 06189.sfm,0x6620,6,,勅命状,A royal edict
+06189.sfm,0x6627,14,,コレクター図鑑,Collector's Book
 06189.sfm,0x6636,56,,"これっておれたちを
 信頼してくれている
 証拠だよな････へへ","It's proof that he
@@ -9529,25 +9548,29 @@ Want a piggyback?"
 06254.sfm,0x127,12,,時間切れだな,Time's up.
 06255.sfm,0xC9,12,,これでどう？,How's this?
 06255.sfm,0xD6,16,,え！もう終わり!?,Huh! Already over!?
+06255.sfm,0xE7,22,,ルーティの髪の色を塗れ,Paint Rutee's hair color.
 06255.sfm,0xFE,6,,正解だ,Correct.
 06255.sfm,0x105,26,,おまえの母親じゃないのか？,Isn't that your mother?
 06255.sfm,0x120,12,,正解はこうだ,This is the answer.
 06255.sfm,0x12D,12,,時間切れだな,Time's up.
 06256.sfm,0xC9,12,,これでどう？,How's this?
 06256.sfm,0xD6,16,,え！もう終わり!?,Huh! Already over!?
+06256.sfm,0xE7,30,,フィリアの髪と髪飾りの色を塗れ,"Paint Philia's hair and
+hair ornament colors."
 06256.sfm,0x106,6,,正解だ,Correct.
 06256.sfm,0x10D,6,,違うな,Wrong.
 06256.sfm,0x114,12,,正解はこうだ,This is the answer.
 06256.sfm,0x121,12,,時間切れだな,Time's up.
 06257.sfm,0xC9,12,,これでどう？,How's this?
 06257.sfm,0xD6,16,,え！もう終わり!?,Huh! Already over!?
+06257.sfm,0xE7,24,,チェルシーの髪の色を塗れ,Paint Chelsea's hair color.
 06257.sfm,0x100,6,,正解だ,Correct.
 06257.sfm,0x107,6,,違うな,Wrong.
 06257.sfm,0x10E,12,,正解はこうだ,This is the answer.
 06257.sfm,0x11B,12,,時間切れだな,Time's up.
 06258.sfm,0xC9,12,,これでどう？,How's this?
 06258.sfm,0xD6,16,,え！もう終わり!?,Huh! Already over!?
-06258.sfm,0xFF,10,,るんだよ！,you know!
+06258.sfm,0xE7,34,,バンエルティア号の色を塗るんだよ！,Paint the Van Eltia's colors!
 06258.sfm,0x10A,8,,正解だね,Correct.
 06258.sfm,0x113,12,,違うと思うよ,I think that's wrong.
 06258.sfm,0x120,14,,正解はこうだよ,This is the answer.
