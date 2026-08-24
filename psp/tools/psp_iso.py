@@ -3,6 +3,7 @@
 
     psp_iso.py replace IN.iso OUT.iso /PSP_GAME/USRDIR/file.fpb=new.fpb [/PSP_GAME/SYSDIR/EBOOT.BIN=boot.bin ...]
     psp_iso.py list IN.iso
+    psp_iso.py extract IN.iso /PSP_GAME/SYSDIR/BOOT.BIN OUTFILE
 
 A replacement that fits in the file's original sector span is written in
 place (rest of the span zeroed). A larger one is appended at the end of the
@@ -54,6 +55,21 @@ def listing(f):
     rs = struct.unpack_from('<I', root, 10)[0]
     return list(walk(f, rl, rs))
 
+def extract(src, path, outfile):
+    with open(src, 'rb') as f:
+        files = {p: (l, s) for p, l, s, r in listing(f)}
+        if path not in files:
+            raise SystemExit('not in image: ' + path)
+        lba, size = files[path]
+        f.seek(lba * SECTOR)
+        with open(outfile, 'wb') as o:
+            left = size
+            while left:
+                chunk = f.read(min(left, 1 << 24))
+                o.write(chunk)
+                left -= len(chunk)
+    print(path, '->', outfile, size, 'bytes')
+
 def both(v):
     return struct.pack('<I', v) + struct.pack('>I', v)
 
@@ -99,6 +115,8 @@ if __name__ == '__main__':
         with open(a[1], 'rb') as f:
             for p, l, s, r in listing(f):
                 print('%8d %12d %s' % (l, s, p))
+    elif a and a[0] == 'extract' and len(a) == 4:
+        extract(a[1], a[2], a[3])
     elif a and a[0] == 'replace' and len(a) >= 4:
         pairs = [x.split('=', 1) for x in a[3:]]
         replace(a[1], a[2], pairs)
