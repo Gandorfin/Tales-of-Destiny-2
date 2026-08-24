@@ -1,8 +1,8 @@
-# Tales of Destiny 2 English translation
+# Green Gel ToD2 patch
 
 ![logo](TOD2_logo.png)
 
-Open-source English fan translation of **Tales of Destiny 2** (テイルズ オブ
+The **Green Gel ToD2 patch** is an open-source English fan translation of **Tales of Destiny 2** (テイルズ オブ
 デスティニー 2, Namco, PlayStation 2, 2002) and, in progress, of its PSP port
 (2007). This is *not* Tales of Eternia (released as "Tales of Destiny II" in
 North America) and not the PS1 Tales of Destiny.
@@ -13,7 +13,7 @@ Website: https://gandorfin.github.io/Tales-of-Destiny-2/
 
 | Version | State |
 |---|---|
-| PS2 (SLPS-25172) | **Complete.** Latest patch: [QS v1.1.3](https://github.com/Gandorfin/Tales-of-Destiny-2/releases/latest), 2026-08-22 |
+| PS2 (SLPS-25172) | **Complete.** Latest release: [v1.1.3](https://github.com/Gandorfin/Tales-of-Destiny-2/releases/latest), 2026-08-22 |
 | PSP (ULJS-00097) | **Started 2026-08-24.** Archive tools done, text and menu work ahead |
 
 The PS2 patch covers the whole game:
@@ -36,7 +36,7 @@ cannot reach yet (see the open items in `ps2/menu/README.md`).
 ## Getting the PS2 patch
 
 1. Go to the [releases page](https://github.com/Gandorfin/Tales-of-Destiny-2/releases)
-   and download the latest `ToD2_Eng_patch_QS_*.7z`.
+   and download the latest Green Gel ToD2 patch for PS2.
 2. You need your own dump of the Japanese game (SLPS-25172). Follow the
    notes in the release.
 3. Play on PCSX2 or real hardware.
