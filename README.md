@@ -13,7 +13,7 @@ Website: https://gandorfin.github.io/Tales-of-Destiny-2/
 
 | Version | State |
 |---|---|
-| PS2 (SLPS-25172) | **Complete.** Latest release: [v1.1.3](https://github.com/Gandorfin/Tales-of-Destiny-2/releases/latest), 2026-08-22 |
+| PS2 (SLPS-25172) | **Complete.** Latest release: [v1.1.4](https://github.com/Gandorfin/Tales-of-Destiny-2/releases/latest), 2026-08-24 (terminology pass: Woodrow, Lion, Aethersphere, Oberon Corporation, Eye of Atamoni) |
 | PSP (ULJS-00097) | **Started 2026-08-24.** Archive tools done, text and menu work ahead |
 
 The PS2 patch covers the whole game:
