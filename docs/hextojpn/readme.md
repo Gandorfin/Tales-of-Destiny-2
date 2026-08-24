@@ -1,5 +1,5 @@
 # HEX to JPN Extension
-This can be used on the webpage https://lifebottle.github.io/Tales-of-Destiny-2/hextojpn or as a browser extension.
+This can be used on the webpage https://gandorfin.github.io/Tales-of-Destiny-2/hextojpn or as a browser extension.
 
 ## Instructions
 1. Download / clone repository.

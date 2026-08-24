@@ -1,155 +1,197 @@
-# Tales of Destiny 2 (PS2)
-This project is an attempt at an open-source translation for Tales of Destiny 2, both for PS2 and PSP.
+# Tales of Destiny 2 English translation
 
-![logo](https://raw.githubusercontent.com/pnvnd/Tales-of-Destiny-2/main/TOD2_logo.png)  
+![logo](TOD2_logo.png)
 
-To be clear, this is *not* for Tales of Eternia (PSP) or Tales of Destiny II (PS1).  
-After starting and handing off an open-source project for [Tales of Destiny Director's Cut](https://github.com/furiousg4m3r/Tales-of-Destiny-DC "Tales of Destiny DC") (PS2), the aim of this project is have tools and resources available to complete a patch for Tales of Destiny 2 (PS2), a "sequel" to the first game.  
+Open-source English fan translation of **Tales of Destiny 2** (テイルズ オブ
+デスティニー 2, Namco, PlayStation 2, 2002) and, in progress, of its PSP port
+(2007). This is *not* Tales of Eternia (released as "Tales of Destiny II" in
+North America) and not the PS1 Tales of Destiny.
 
+Website: https://gandorfin.github.io/Tales-of-Destiny-2/
 
-This repository aims to collect all known information about this game in order to create a patch.  
+## Status
 
-Join on Discord: https://discord.gg/HZ2NFjpedn  
+| Version | State |
+|---|---|
+| PS2 (SLPS-25172) | **Complete.** Latest patch: [QS v1.1.3](https://github.com/Gandorfin/Tales-of-Destiny-2/releases/latest), 2026-08-22 |
+| PSP (ULJS-00097) | **Started 2026-08-24.** Archive tools done, text and menu work ahead |
 
-Spreadsheet with Info: https://docs.google.com/spreadsheets/d/1UVaEjK0o-V1-3atPHfRRw2q9QQcCzPCpr4GXJ2MLvvg
+The PS2 patch covers the whole game:
 
-## Wanted Items
+* every story scene (459 scenario files) and all skits, proofread line by
+  line against the Japanese, with the layout limits of the game's text
+  boxes and skit timers respected
+* menus and UI: items, equipment, shops, refine, enchant, cooking,
+  customize, status, tactics, save, name entry, grade shop, Monster Book,
+  Battle Memos, battle command labels, memory card messages
+* character titles, party arte names and their battle cut-in banners,
+  enemy arte names and the lines bosses shout in battle
+* world map labels, signposts, ferry and minigame text, the ending
+  monologue, the Quiz Book
+* the in-game videos with dialogue, hard-subtitled
 
-1. Translators!  Start by checking ps2/scenarios and add `#` before the Japanese line and type English translation underneath.
+What is still Japanese in the PS2 build is the handful of strings the tools
+cannot reach yet (see the open items in `ps2/menu/README.md`).
 
+## Getting the PS2 patch
 
-## Checking script quality
+1. Go to the [releases page](https://github.com/Gandorfin/Tales-of-Destiny-2/releases)
+   and download the latest `ToD2_Eng_patch_QS_*.7z`.
+2. You need your own dump of the Japanese game (SLPS-25172). Follow the
+   notes in the release.
+3. Play on PCSX2 or real hardware.
 
-`scripts/audit_translation.py` audits the translated script files for
-crash-class problems (control codes that differ from the Japanese source,
-untranslated or structurally broken records) plus layout and terminology
-issues:
+Bug reports and screenshots of anything wrong or still Japanese are
+welcome as GitHub issues.
 
-```
-python3 scripts/audit_translation.py
-```
+## Repository map
 
-A GitHub Actions workflow runs it automatically on every pull request and
-fails only if the PR increases a critical finding count, so contributions
-can never silently reintroduce a crash-class bug.
+| Path | What |
+|---|---|
+| `ps2/scenarios/`, `ps2/skits/` | the translated script, one text file per scene or skit; Japanese lines are marked with `#`, English follows |
+| `ps2/menu/` | menu, title, Quiz Book, enemy arte and cut-in translation tables and the scripts that apply them (`README.md` there explains the full apply sequence) |
+| `ps2/PyTOD2/` | archive tool for `FILE.FPB`: unpack, insert text, repack (GUI and command line) |
+| `scripts/audit_translation.py` | checks the script for crash-class problems and layout issues; runs on every pull request |
+| `glossary.txt`, `character_voice_guide.txt` | terminology (locked terms) and how each character speaks |
+| `Dialogue and Script Layout Restrictions.md` | the text box limits every line must respect |
+| `psp/tools/` | PSP archive and ISO tools and the rendering test build (`README.md` there) |
+| `psp/` (rest) | older PSP extractors and Japanese scenario dumps |
+| `docs/` | the website (GitHub Pages) and the hex/Japanese converter tools |
+| `dictionary/`, `tm2_converter/`, `pakcomposer/` | helper data and tools |
 
-## FILE.FPB (PS2) INFO
-1. The pointer table is in the `SLPS_251.72` file starting at `0xDD320`
-1. Each entry of the table consists of (A) a 26-bit offset -> the file offset inside `SLPS_251.72`
+The `*_output` folders in the root are earlier passes of the translation
+pipeline, kept for reference; `ps2/scenarios` and `ps2/skits` are the
+current text.
 
+## Building the PS2 patch from source
 
-## SLPS_251.72
+Short version; the details are in `ps2/menu/README.md` ("Applying it") and
+`tod2_ps2_patch_guide.md`.
 
-Offset   | Description | Notes
----------|-------------|----------------------
-00000000 | ELF Start   | Beginning of file
-000CA328 | Font (.tm2) | Extract and use comptoe.exe
-000C9D41 | Font Map    | Map lowercase to font
+1. Extract `FILE.FPB` and `SLPS_251.72` from the Japanese ISO into
+   `ps2/PyTOD2/` and run PyTOD2: Unpack FPB, Organize FPB, Unpack SCPK,
+   Unpack SCED, Unpack PAK1, Move Skits OUT, Extract SKIT.
+2. Put the translated scenario files into `TXT_EN` and the skits into
+   `file/pak1/TXT_EN`, then Pack SCED, Pack SCPK, Insert SKIT, Move Skits IN,
+   Pack PAK1.
+3. Apply the menu tables (all four, in this order, from the repository root):
+   ```
+   python ps2/menu/patch_menu_text.py ps2/PyTOD2/FPB
+   python ps2/menu/sfm_text.py build ps2/PyTOD2/FPB
+   python ps2/menu/enemy_text.py build ps2/PyTOD2/FPB
+   python ps2/menu/patch_slps_titles.py ps2/PyTOD2/SLPS_251.72
+   ```
+4. Pack FPB, Insert FONT, and put `new_FILE.FPB` and `new_SLPS_251.72` into
+   the ISO.
+5. `python ps2/menu/verify_menu_patch.py your.iso` tells you which parts of
+   the build are English, so a Japanese screen can be traced to the step
+   that was skipped.
 
-### Mapping Lowercase Letters
-1. Edit `.tm2` from `0x0CA328` and replace some Hiragana
-2. Go to `0x0C9D41` in the SLPS_251.72 file
-3. It should have a `0x17`
-4. That's the glyph index for lowercase "a"
-5. Replace that with `0x31` which is "ぁ"
-6. And just follow the sequence up until `0x4B`
-7. Formula to find offset for low bytes: `0xC9D00` - `0x20` + `0xASCII`
-8. Example: For lowercase letter `a`: `0xC9D00` - `0x20` + `0x61` = `0x0C9D41`.  So at this offset, map `a` to `0x31`th letter in the font (originally `ぁ`, new font is `a`).
+## PSP port
 
-## FILE.FPB (PSP) INFO
-1. FILE.FPB has information to unpack the files inside `EBOOT.BIN`
-1. Decrypted `EBOOT.BIN` is also known as `ULJS00097.BIN`
-1. Each entry of the table consist of (A) a 21-bit offset -> the file offset inside `FILE.FBP` and (B) 11-bits for flags -> Compression, file type, etc...
-1. In order to extract the big file, one would calculate each file size based on the next file's offset. 
-1. That is enough to extract the whole FBP. Reversing the process, it would be easy to repack it.
-1. The pointer table starts at the `0x44`, which references the very first file in the package (the font).
-1. 21-bits are enough to reference any file in the package. That's because they represent not a byte offset, but a sector in the disc. 
-1. The ISO9660 standard uses `0x0800` bytes sectors. The way to work with them actually depends of the way you think it though:
-1. If you shift 11-bits from data, you'll get the file sector, so you can get the byte offset multiplying that value by `0x0800`.
-1. Since these 21-bits take the most significant part of the data, you can apply a `0xFFFFF800` mask to it, to directly get the byte offset to the file
+The PSP version has the same `file.fpb` structure and the same text
+encoding, so the translated text carries over. Differences: members are
+zlib-compressed, the archive table lives in the executable, the menus were
+compiled into the executable (no overlay modules), and the font has no
+lowercase letters and draws every character full width. Work so far:
 
-### Implementation
-```
-unsigned int fileSize = (nextSector - currentSector) * 0x0800 - remainder;
-```
-For example, to extract the font we would look at the following data:
+* `psp/tools/psp_fpb.py`: extract and repack the archive, byte-identical
+  when nothing changed
+* `psp/tools/psp_iso.py`: replace files inside the UMD image
+* `psp/tools/ascii_test.py`: builds a test image that shows how the engine
+  draws Latin text (first check before the real work)
 
-- First file -> Sector 0, remainer 0x044C
-- Second file -> Sector 92
+Next: scenario and skit insertion, the font and half-width rendering, then
+the menus inside the executable.
 
-- Offset = 0 * 0x0800 = 0
-- Size = (92 - 0) * 0x0800 - 0x044C = 48BB4
+## Contributing
 
-And that should cover extracting the FBP.
+* Work on a branch and open a pull request. The audit runs automatically
+  and fails only if a change adds a crash-class finding.
+* Text rules: 36 visible characters per line, 126 per four-row page, page
+  breaks with `{02}`, control codes must match the Japanese source exactly.
+  Skit lines reveal at 8 characters per second and have a fixed time window;
+  keep them short.
+* Use the terms marked `[LOCK]` in `glossary.txt` and the voices in
+  `character_voice_guide.txt`.
+* Never commit game files or images of the disc; the repository holds text
+  tables and scripts only.
 
+Reference spreadsheet with older research:
+https://docs.google.com/spreadsheets/d/1UVaEjK0o-V1-3atPHfRRw2q9QQcCzPCpr4GXJ2MLvvg
 
-## ULJS00097.BIN / EBOOT.BIN
+## Technical notes
 
-Offset   | Description | Notes
----------|-------------|----------------------
-00000000 | ELF Start   | Beginning of file
+### FILE.FPB (PS2)
 
+* The member table is in `SLPS_251.72` starting at `0xDD320`, one u32 per
+  member: high bits = start offset, low 6 bits = remainder.
+* Members use the game's own LZSS/RLE compressor (`comptoe`); a pure Python
+  port lives in `ps2/menu/lzss.py`.
+* Menu text lives in the `md1` overlay modules inside the archive, not in
+  the executable. Three modules (`08055`, `06304`, `08996`) are also stored
+  compressed inside `00017.pak3`, and that is the copy the game loads.
 
+### SLPS_251.72
+
+| Offset | Description |
+|---|---|
+| `0x000000` | ELF start |
+| `0x0CA328` | font (TM2) |
+| `0x0C9D00` | font map: byte per ASCII code, `0xC9D00 - 0x20 + ascii` gives the glyph index |
+| `0x0DD320` | FILE.FPB member table |
+
+The 2008 English menu base mapped lowercase letters onto redrawn hiragana
+glyphs through that map; the current patch builds on that executable.
+
+### FILE.FPB and the executable (PSP)
+
+* `PSP_GAME/SYSDIR/BOOT.BIN` on the UMD is already the decrypted
+  executable (a plain PRX), so no `deceboot` step is needed.
+* The member table is at `0x29531C..0x29E9AC` in it: high bits = start
+  (sector * 0x800), low 11 bits = remainder; a member ends `remainder`
+  bytes before the next member's start.
+* Compressed members start with byte `04`, u32 packed length, u32 unpacked
+  length, then a raw deflate stream. A raw container with four entries also
+  starts with `04 00 00 00`; tell them apart by the packed length.
+* The font is member 0: a PSP-swizzled 4-bit texture, 512 x 2200 pixels,
+  23-pixel cells, 22 per row. Member 1 lists the Shift-JIS code of every
+  glyph in order.
+* Text codes map to glyphs as `(lead - 0x99) * 187 + (second - 0x40)` with
+  two skipped second-byte values; single ASCII bytes go through a 256-entry
+  table that points `a..z` and `A..Z` at the full-width capitals.
+
+### Text encoding (both versions)
+
+Two-byte codes with lead bytes `0x99..0x9F` and `0xE0..0xE4`, listed in
+`ps2/PyTOD2/TBL.json`; `0x01` is a newline; `0x03..0x0B` introduce a tag
+with a u32 argument (colour, size, number, party member name, item,
+button); a NUL ends the string.
+
+### Older notes
+
+The scenario packages (`SCPK`) hold a background, sprites and animations,
+and last the `SCED` script with a code section and a text section. The
+PS2 font TM2 has ten 4-bit palettes of `0x40` bytes with `0x10`-byte
+subheaders, then a 128 x 512 4-bit pixel matrix, low nibble first.
 
 ## Resources
 
-- https://gamefaqs.gamespot.com/ps2/561922-tales-of-destiny-2/faqs/58741
-- https://gbatemp.net/threads/romhacking-in-tales-of-destiny-2.373960/
-- https://gbatemp.net/threads/romhacking-in-tales-of-destiny-2.373960/page-3
-- https://pastebin.com/fCVPLUP4
-- https://www.mediafire.com/file/e44c1ksxl7a17z8/ToD2_String_Extract_v1.7z/file
-- https://github.com/talestra/talestra/tree/master/compto
-
-
-## Hacker Note 1
-The main difference between PSP and PS2 versions is the compression system. While PS2 uses a mixture of LZSS and RLE, PSP uses zLib. The format of the inner files should be identical.
-
-Before compression, most interesting files are packed using a SCPK header. There is always one initial file (background), then a descriptor table (with one entry per additional file), and then the rest of the files (a set of sprite + amination files, and finishing, a script file).
-
-Background and sprite files use 8-bit indexed RGBA color, reaching a maximum of possible 256 color per palette. Note that the graphic format does support multiple palettes for a same pixel matrix.
-
-The script files use the SCED signature, and contain two main sections:
-
-- The code section, which governs the scripted logic.
-- The text section, which contains the strings coded in a custom format.
-
-The ideal way to parse the SCED is to decompile the code section, which contains pointers to the text section.
-
-The important bit about the text is that, once decoded, the string consists in an array of font indices.
-
-## Hacker Note 2
-The `TM2` font inside `SLPS_251.72` works the following way:
-- there are ten 4-bit palettes at the begining
-- the number of palette seems to be at byte 0x05
-- each palette is then `0x40` bytes
-- each palette comes with a `0x10` bytes sub-header, so `0x50` per palette
-- the file header is `0x10` bytes too
-- after the palette array, there is another `0x10` subheader for the pixel matrix
-- this one includes the resolution (128 x 512 in this case)
-- the matrix size is the rest of the data in the file
-- 128 x 512 / 2 (divided by 8 because the matrix is 4 bits)
-- on a PSP 4-bit graphic, the lower nibble corresponds to the first pixel out of both!
-And that accounts for the remaining 32768 bytes of the file
-
-## Hacker Note 3
-To extract font image from `0018.bin` (PS2) and `0000.bin` (PSP):
-- take every 4 bits and draw a pixel any level from black to white according to it
-- for example 0 -> black and 15 -> white
-- then give it a width (I don't remember exacly, but it was a power of 2)
-- That will effectively give you the font graphic file
-- edit it, and reverse everything
-- also update the font descriptor to keep it consistent with your editions
-- though the game (probably) doesn't actually use the font descriptor, it's only useful to decode the text by a romhacker
-
-## Screenshots
-
-![SLPS_251.72](https://raw.githubusercontent.com/pnvnd/Tales-of-Destiny-2/main/tod2_slps_base.png)
-![new_font](https://raw.githubusercontent.com/pnvnd/Tales-of-Destiny-2/main/current_font.png)
+* https://gamefaqs.gamespot.com/ps2/561922-tales-of-destiny-2/faqs/58741
+* https://gbatemp.net/threads/romhacking-in-tales-of-destiny-2.373960/
+* https://pastebin.com/fCVPLUP4 (text decoder routine)
+* https://github.com/talestra/talestra/tree/master/compto (comptoe)
 
 ## Credits
-- Thanks to `Amarant01` for graphics design work for the fonts, check out his work here: https://www.behance.net/deco-7105af
-- Thanks to `Lanyn` for allowing use of Tales of Destiny 2 English translation script, check out https://www.youtube.com/user/lanyn/videos
-- Thanks to the `Temple of Tales Translation`s team (http://temple-tales.ru/translations.html) for providing tools to extract the skits and scenarios
-- Thanks to `alizor` for creating the Python scripts to extract and repack both PS2 and PSP versions of the game
-- Thanks to `SkyBladeCloud` from GBATemp for tips on how the game / file works
-- Thanks to `flamethrower` / `flame1234` from GBATemp for having Python scripts available to extract the PSP version of the game
+
+* `Amarant01` for the font graphics: https://www.behance.net/deco-7105af
+* `Lanyn` for permission to use the Tales of Destiny 2 English translation
+  script: https://www.youtube.com/user/lanyn/videos
+* The `Temple of Tales Translations` team (http://temple-tales.ru/translations.html)
+  for the skit and scenario extraction tools
+* `alizor` for the Python scripts to extract and repack the PS2 and PSP archives
+* `SkyBladeCloud` (GBAtemp) for the file format research
+* `flamethrower` / `flame1234` (GBAtemp) for the PSP string extractor
+* `pnvnd` for starting the open-source project and its tooling
+* `Gandorfin` for maintaining the project, building and testing every release
+* `SirJazz` for the 2026 proofread, the menu, quiz, battle and title tooling, and the PSP work

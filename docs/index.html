@@ -1,43 +1,76 @@
 <!doctype html>
-
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tales of Destiny 2 English Patch</title>
+  <meta name="description" content="Open-source English fan translation of Tales of Destiny 2 (PS2), PSP port in progress.">
   <link rel="stylesheet" href="style.css">
-  <title>Tales of Destiny 2 Patch</title>
 </head>
-
 <body>
-    <h1>Tales of Destiny 2 (PS2) Patch</h1>
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/nbNCTR1ef_A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <iframe id="discord-widget" src="https://discord.com/widget?id=818214215365427320&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+  <header>
+    <img src="TOD2_logo.png" alt="Tales of Destiny 2">
+    <h1>Tales of Destiny 2 English Patch</h1>
+    <p class="tagline">Open-source fan translation of the PlayStation 2 game. PSP port in progress.</p>
+    <div class="buttons">
+      <a class="button primary" href="https://github.com/Gandorfin/Tales-of-Destiny-2/releases/latest">Download the latest PS2 patch</a>
+      <a class="button" href="https://github.com/Gandorfin/Tales-of-Destiny-2">GitHub repository</a>
+    </div>
+  </header>
 
-    <h2>Tools</h2>
-	<p>
-		<ul>
-			<li><a href="hextojpn">ToD2 Hex2Jpn</a></li>
-			<li><a href="jpntohex">ToD2 Jpn2Hex</a></li>
-		</ul>
-	</p>
+  <main>
+    <section>
+      <h2>Status</h2>
+      <div class="status">
+        <div class="card">
+          <h3>PS2 (SLPS-25172) <span class="badge done">complete</span></h3>
+          <p>Every story scene, all skits, menus, battle text, world map, titles, Quiz Book, enemy artes, boss lines and the videos with dialogue. Proofread line by line against the Japanese. Latest release: QS v1.1.3 (22 August 2026).</p>
+        </div>
+        <div class="card">
+          <h3>PSP (ULJS-00097) <span class="badge wip">in progress</span></h3>
+          <p>Started 24 August 2026. The archive tools are done and the PS2 text carries over; the font, the text renderer and the menus inside the executable are next.</p>
+        </div>
+      </div>
+    </section>
 
-	<h2>Links</h2>
-	<p>
-		<ul>
-			<li><a href="https://github.com/lifebottle/Tales-of-Destiny-2/releases/download/latest/TOD2_PS2_PATCH.zip"><strong>Download Latest Patch</strong></a>
-			<li><a href="https://github.com/lifebottle/Tales-of-Destiny-2">Github Repository</a></li>
-			<li><a href="https://www.youtube.com/channel/UCzgIX5rBxekRrTyYmSrDZsg/videos">YouTube Channel</a></li>
-			<li><a href="https://docs.google.com/spreadsheets/d/1UVaEjK0o-V1-3atPHfRRw2q9QQcCzPCpr4GXJ2MLvvg/edit#gid=972327831">Reference Spreadsheet</a></li>
-		</ul>
-	</p>
+    <section>
+      <h2>How to play the PS2 patch</h2>
+      <ol>
+        <li>Download the latest patch archive from the <a href="https://github.com/Gandorfin/Tales-of-Destiny-2/releases">releases page</a>.</li>
+        <li>You need your own dump of the Japanese game (SLPS-25172). The release notes explain how to apply the patch to it.</li>
+        <li>Play on PCSX2 or on real hardware.</li>
+      </ol>
+      <p>Found a mistake or a screen that is still Japanese? Open an <a href="https://github.com/Gandorfin/Tales-of-Destiny-2/issues">issue</a> with a screenshot.</p>
+    </section>
 
-	<h2>Currently Recruiting</h2>
-	<p>
-		<ul>
-			<li>Translators</li>
-			<li>Programmers</li>
-			<li>Project Manager</li>
-			<li>Release Manager</li>
-		</ul>
-	</p>
+    <section>
+      <h2>What the patch contains</h2>
+      <ul>
+        <li>459 scenario files and all skits, with the text box and skit timing limits of the game respected</li>
+        <li>Menus and UI: items, equipment, shops, refine, enchant, cooking, customize, status, tactics, save, name entry, grade shop, Monster Book, Battle Memos</li>
+        <li>Character titles, party arte names and cut-in banners, enemy arte names and boss lines</li>
+        <li>World map labels, signposts, ferry and minigame text, the ending, the Quiz Book</li>
+        <li>Hard-subtitled in-game videos</li>
+      </ul>
+    </section>
 
+    <section>
+      <h2>Tools</h2>
+      <ul>
+        <li><a href="hextojpn/">Hex to Japanese</a>: decode the game's text bytes</li>
+        <li><a href="jpntohex/">Japanese to Hex</a>: encode text for the game</li>
+        <li>Everything else (archive tools, menu patchers, audit script) lives in the <a href="https://github.com/Gandorfin/Tales-of-Destiny-2">repository</a>; the README explains how to build the patch from source</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Contributing</h2>
+      <p>Corrections to the script, testing on real hardware, and help with the PSP version are all welcome. Work on a branch and open a pull request; an automated check keeps crash-class mistakes out. The repository holds text and scripts only, never game files.</p>
+    </section>
+  </main>
+
+  <footer>
+    Tales of Destiny 2 is a trademark of Bandai Namco. This is a non-commercial fan project and contains no game data.
+  </footer>
 </body>
 </html>
