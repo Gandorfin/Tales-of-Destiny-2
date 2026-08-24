@@ -192,6 +192,3 @@ subheaders, then a 128 x 512 4-bit pixel matrix, low nibble first.
 * `alizor` for the Python scripts to extract and repack the PS2 and PSP archives
 * `SkyBladeCloud` (GBAtemp) for the file format research
 * `flamethrower` / `flame1234` (GBAtemp) for the PSP string extractor
-* `pnvnd` for starting the open-source project and its tooling
-* `Gandorfin` for maintaining the project, building and testing every release
-* `SirJazz` for the 2026 proofread, the menu, quiz, battle and title tooling, and the PSP work
