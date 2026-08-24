@@ -22,7 +22,7 @@ the jar. What in the world
 are they using this for...
 -----------------------
 #マリーさん特製ボルシチだ！
-It's Ms. Marie's special borscht!
+It's Ms. Mary's special borscht!
 -----------------------
 <Kyle>
 -----------------------
@@ -35,7 +35,7 @@ I-It's delicious!
 A commemorative plate is
 mounted here. 'Congratulations
 on your grand opening...'
-'From your friend, Garr.'
+'From your friend, Woodrow.'
 -----------------------
 #宿屋
 Inn
@@ -264,8 +264,8 @@ I do hope he'll be alright...
 -----------------------
 #ウッドロウの様子が気になる
 #急ぐぞ、<Kyle>
-I'm worried about Garr's condition.
-Let's hurry, <Kyle>.
+I'm worried about Woodrow's
+condition. Let's hurry, <Kyle>.
 -----------------------
 #おばあさん
 Grandma
@@ -452,7 +452,7 @@ beautiful...
 -----------------------
 #ここでは
 #ダリスとふたりで暮らしているよ
-I live here with Daris.
+I live here with Dalis.
 -----------------------
 #････もっとも
 #彼は、すでにこの世の人ではないがな
@@ -462,12 +462,12 @@ longer with us in this world.
 #ダリスは、雪が好きだった
 #だから、雪が降りつづくこの街で
 #根を下ろすことにしたんだ
-Daris loved the snow. So I decided
+Dalis loved the snow. So I decided
 to put down roots in this town
 where the snow never stops falling.
 -----------------------
 #宿屋のおかみ
-The innkeeper
+Innkeeper
 -----------------------
 #ふふっ、いい顔をしてるじゃないか
 #さすが、スタンとルーティの息子と
@@ -522,11 +522,11 @@ You enjoyed Mary's special cooking.
 Your body and soul feel warmed.
 -----------------------
 #いってらっしゃいませ
-Come again soon.
+Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -549,7 +549,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-We hope to see you again.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -571,8 +571,8 @@ notice
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
-Found {16}{25}{C2}{C0}, but your
-inventory is already full.
+Found {16}{25}{C2}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------

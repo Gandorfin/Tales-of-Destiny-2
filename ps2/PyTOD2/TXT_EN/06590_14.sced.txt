@@ -5,7 +5,7 @@ Supplies Storage
 Supplies Storage
 -----------------------
 #タイムオーバー
-Time over.
+Time's up.
 -----------------------
 <Harold>
 -----------------------
@@ -92,11 +92,11 @@ they'll be ruined in an instant!
 Nothing in particular.
 -----------------------
 #いってらっしゃいませ
-Come again.
+Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -110,16 +110,16 @@ select
 No
 -----------------------
 #ごゆっくりお休みください
-Please rest well.
+Have a good night.
 -----------------------
 #おはようございます
 Good morning.
 -----------------------
 #お金が足りません
-Not enough Gald.
+Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-We hope to see you again.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------

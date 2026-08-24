@@ -36,7 +36,7 @@ Woman
 #この前なんか、ウッドロウ王に
 #声をかけられたって
 #大はしゃぎだったんですよ、ふふっ！
-The other day, King Garr
+The other day, King Woodrow
 actually spoke to him.
 He was over the moon about it! Hehe!
 -----------------------
@@ -272,7 +272,7 @@ Woman
 #この前なんか、ウッドロウ王に
 #声をかけられたって
 #大はしゃぎだったんですよ、ふふっ！
-The other day, King Garr
+The other day, King Woodrow
 actually spoke to him.
 He was absolutely thrilled! Hehe!
 -----------------------
@@ -322,7 +322,7 @@ Woman
 #この前なんか、ウッドロウ王に
 #声をかけられたって
 #大はしゃぎだったんですよ、ふふっ！
-The other day, King Garr
+The other day, King Woodrow
 actually spoke to him.
 He was absolutely thrilled! Hehe!
 -----------------------
@@ -455,11 +455,11 @@ Prin-cess~
 Prin-cess~♪
 -----------------------
 #いってらっしゃいませ
-Come again soon.
+Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -505,7 +505,7 @@ notice
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{C2}{C0}, but
-inventory is full already.
+your inventory is full.
 -----------------------
 notice
 -----------------------

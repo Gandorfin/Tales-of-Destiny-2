@@ -29,7 +29,7 @@ Stahn
 Haaah!
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #急げ、スタン！
 #ここはじきに崩れるぞ！
@@ -87,7 +87,7 @@ Dymlos
 #千年ぶりか････
 #ひさしいな、<Kyle>くん
 It's been a thousand years...
-It's been a while, <Kyle>-kun.
+It's been a while, <Kyle>.
 -----------------------
 #ディムロス
 Dymlos
@@ -102,7 +102,7 @@ I suppose it hasn't been that long.
 #････････！
 #その声は････、ディムロスさん!?
 ...!
-That voice... Dymlos-san!?
+That voice... Dymlos!?
 -----------------------
 #ディムロス
 Dymlos
@@ -136,7 +136,7 @@ But it is impossible...
 #不可能だなんて、やってみなきゃわからない！
 #教えてくれ、ディムロスさん！
 I won't know it's impossible until
-I try! Tell us, Dymlos-san!
+I try! Tell us, Dymlos!
 -----------------------
 <Judas>
 -----------------------
@@ -173,10 +173,9 @@ Clemente
 -----------------------
 #ほ、こんな形で現われるとは
 #ひねくれ者のおまえさんらしいのぅ････
-H-here I thought I'd seen
-everything, but to appear in a
-form like this... How fitting for
-a cynic like you.
+Ho... To show yourself in a form
+like this... How fitting for a
+contrary fellow like you...
 -----------------------
 #アトワイト
 Atwight
@@ -313,15 +312,15 @@ under our control.
 #あとは、神の眼をオーバーロードさせて
 #外殻を破壊するって寸法ね
 After that, we overload the Eye of
-Atamoni to destroy the outer shell.
+Atamoni to destroy the Aethersphere.
 That's the plan.
 -----------------------
 <Loni>
 -----------------------
 #そっか！　リオンである<Judas>も
 #ソーディアンを持ってたってわけか！
-I see! So Leon being <Judas> means
-he had a Swordian too!
+I see! So since <Judas> is Lion,
+he had a Swordian of his own!
 -----------------------
 <Reala>
 -----------------------
@@ -334,7 +333,7 @@ Dymlos
 #････いいのか、リオン？
 #君は、シャルティエを
 #失うことになるんだぞ
-...Are you sure, Leon?
+...Are you sure, Lion?
 You'll lose Chaltier,
 you know.
 -----------------------
@@ -354,8 +353,8 @@ Igtenos
 #それを、マスターの手で
 #消さねばならんとは････
 ...A Swordian and its wielder
-are one in body and soul. For the
-Master to have to erase it with
+are one in body and soul. For its
+master to have to erase it with
 his own hand...
 -----------------------
 #クレメンテ
@@ -467,11 +466,11 @@ Yes!!
 Daaaahhh!!
 -----------------------
 #いってらっしゃいませ
-Go forth and return safely.
+Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -494,7 +493,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-We hope to see you again soon.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -516,8 +515,8 @@ notice
 -----------------------
 #{16}{26}{C6}{C0}がありましたが
 #いっぱいで持てませんでした
-Found {16}{26}{C6}{C0}, but inventory full already.
-It couldn't be picked up.
+Found {16}{26}{C6}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------

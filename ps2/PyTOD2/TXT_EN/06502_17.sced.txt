@@ -7,14 +7,15 @@ Trash Mountain
 notice
 -----------------------
 #毒ガスで箱の中身が変質しました！
-Poison gas changed the box contents!
+The poison gas corrupted
+the box's contents!
 -----------------------
 #いってらっしゃいませ
 Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -48,7 +49,7 @@ exit-party_togather( short spd )
 notice
 -----------------------
 #{16}{26}{9E}{C0}を手に入れました
-{16}{26}{9E}{C0}You obtained .
+Acquired {16}{26}{9E}{C0}.
 -----------------------
 notice
 -----------------------

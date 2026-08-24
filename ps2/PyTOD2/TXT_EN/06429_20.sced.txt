@@ -1,8 +1,8 @@
 #オベロン社廃坑
-Oberon Corporation Abandoned Mine
+Oberon Abandoned Mine
 -----------------------
 #オベロン社廃坑
-Oberon Corporation Abandoned Mine
+Oberon Abandoned Mine
 -----------------------
 <Kyle>
 -----------------------
@@ -52,7 +52,7 @@ You know of Belcrant, don't you?
 #天空都市ダイクロフトに
 #あったっていう、兵器のことだろ？
 Yeah, I know it. The weapon they
-say was in the aerial city of
+say was in the aeropolis
 Dycroft, right?
 -----------------------
 <Loni>
@@ -161,6 +161,7 @@ Ha ha ha ha!
 -----------------------
 <Kyle>
 -----------------------
+#<Judas>!?
 <Judas>!?
 -----------------------
 <Judas>
@@ -240,7 +241,7 @@ the people of Neuestadt."
 #　イレーヌ＝レンブラントより」
 "To whoever reads this in the
 future, Oberon Corporation Neuestadt
-Branch Manager, Irene Rembrandt"
+Branch Manager, Ilene Rembrandt"
 -----------------------
 <Loni>
 -----------------------
@@ -265,7 +266,7 @@ who built those weapons.
 #オベロン社も同じさ
 #そして････イレーヌもな････
 The Oberon Corporation was the same.
-And... so was Irene...
+And... so was Ilene...
 -----------------------
 <Judas>
 -----------------------
@@ -292,7 +293,7 @@ they...
 -----------------------
 #けれど････イレーヌさんの想いは
 #ウソじゃなかったと思う
-But... I don't think Irene's
+But... I don't think Ilene's
 feelings were a lie.
 -----------------------
 <Reala>
@@ -436,7 +437,7 @@ the people of Neuestadt."
 "To whoever reads this
 in the future, Oberon
 Corporation, Neuestadt Branch
-Manager Irene Rembrandt"
+Manager Ilene Rembrandt"
 -----------------------
 <Loni>
 -----------------------
@@ -475,7 +476,7 @@ Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -498,7 +499,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-We hope to see you again soon.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------

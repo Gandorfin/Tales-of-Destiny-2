@@ -215,7 +215,7 @@ or because you want to be one.
 <Kyle>
 -----------------------
 #そうだろ、父さん？
-Right, Father?
+Right, Dad?
 -----------------------
 #スタン
 Stahn
@@ -264,7 +264,7 @@ Basil
 Bread! Bread!
 -----------------------
 #リィム
-Lime
+Rimu
 -----------------------
 #お腹すいたぁ！
 I'm hungry~!
@@ -294,7 +294,7 @@ Meena
 This bread is so good~!
 -----------------------
 #トニア
-Tonia
+Tonya
 -----------------------
 #<Loni>、ありがとう！
 <Loni>, thanks!
@@ -387,7 +387,7 @@ Hey, you're late!
 Man, keeping it from your best
 friend... Going off on a journey
 all by yourself... You're one
-cold-hearted bastard.
+cold-hearted jerk.
 -----------------------
 <Kyle>
 -----------------------
@@ -482,11 +482,11 @@ As long as I've got <Loni> with me!
 
 -----------------------
 #いってらっしゃいませ
-Take care.
+Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -588,7 +588,7 @@ Beautiful flowers are blooming.
 #　院長：スタン＝エルロン
 #　　　　ルーティ＝カトレット』
 There's a sign.
-"Dunamis Orphanage"
-Director: Stahn Aileron
-Rutee Katrea"
+'Dunamis Orphanage.
+Directors: Stahn Aileron
+and Rutee Katrea.'
 -----------------------

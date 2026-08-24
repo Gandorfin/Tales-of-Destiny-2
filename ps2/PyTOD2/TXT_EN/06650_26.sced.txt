@@ -8,13 +8,13 @@ Er'ther Base Ruins
 -----------------------
 #飛行艇････
 #････マジかよ！
-A Flying Dragon...
+An airship...
 ...No way!
 -----------------------
 <Judas>
 -----------------------
 #これが、イクシフォスラーだ
-This is an Exisphoslar.
+This is the Ixifoslar.
 -----------------------
 <Judas>
 -----------------------
@@ -101,8 +101,8 @@ notice
 -----------------------
 #<Judas>は
 #称号「<item:00000825>」を得ました
-<Judas>
-earned the title "<item:00000825>"!
+<Judas> acquired the title
+"<item:00000825>".
 -----------------------
 <Kyle>
 -----------------------
@@ -307,8 +307,8 @@ A hero... That's right, I'm a hero!
 #フィリアさん、ウッドロウさん、
 #それに母さんも
 There are heroes all over this
-world. Miss Philia, King Garr, and
-Mother too.
+world. Philia, Woodrow...
+and Mom too.
 -----------------------
 <Kyle>
 -----------------------
@@ -392,7 +392,7 @@ Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？

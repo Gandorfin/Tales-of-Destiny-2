@@ -44,11 +44,11 @@ select
 No
 -----------------------
 #いってらっしゃいませ
-Please come again.
+Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -71,7 +71,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-We hope to see you again.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -82,7 +82,7 @@ exit-party_togather( short spd )
 notice
 -----------------------
 #{16}{26}{32}{C0}を手に入れました
-{16}{26}{32}{C0}Acquired .
+Acquired {16}{26}{32}{C0}.
 -----------------------
 notice
 -----------------------
@@ -93,8 +93,8 @@ notice
 -----------------------
 #{16}{26}{3A}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{26}{3A}{C0}Found , but
-couldn't carry it: inventory full.
+Found {16}{26}{3A}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------

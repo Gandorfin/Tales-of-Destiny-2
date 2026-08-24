@@ -14,7 +14,7 @@ This is Heidelberg Memorial
 Park. Established to
 commemorate Heidelberg's
 reconstruction, it was
-personally designed by King Garr.
+personally designed by King Woodrow.
 -----------------------
 #台座に碑文が彫られている
 #『過ちの記憶を留めるため、後世にこの場所を残す
@@ -38,7 +38,7 @@ build this memorial park.'
 To help maintain the park, please
 contribute to the Heidelberg
 Fund. The fund administrator is
-listed as 'The Pitch Black Wings'.
+listed as 'The Jet-Black Wings'.
 -----------------------
 #女の子
 Girl
@@ -315,7 +315,7 @@ Old Man
 #ウッドロウ陛下は！
 You lot headed for the castle
 earlier... Hold on! What's happening
-there?! What about King Garr?!
+there?! What about King Woodrow?!
 -----------------------
 <Loni>
 -----------------------
@@ -510,7 +510,7 @@ No, I haven't...
 What kind of cat?
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #ニャーニャは、仔猫でね
 #雪のように真っ白なの！
@@ -520,7 +520,7 @@ white as snow!
 ...That's why I can't find her...
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #ニャーニャは、仔猫でね
 #毛がすっごくフサフサでね
@@ -550,7 +550,7 @@ It's so white out...
 I can't tell!
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #ねえ、聞いてよ
 #飼ってた白い仔猫がいなくなったの
@@ -567,7 +567,7 @@ Wow... I'd love to see her.
 She must be really cute.
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #そりゃ、世界一カワイイわよ
 #特技は････すぐに
@@ -578,7 +578,7 @@ off to who-knows-where the moment
 you look away!
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #ねェ、白い仔猫を見かけたら伝えて････
 #アタシには、ニャーニャが
@@ -613,7 +613,7 @@ thing... and Nyanya... gets caught
 up in it...!
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #････どうしよう、あれにもし
 #ニャーニャが
@@ -623,7 +623,7 @@ thing... and Nyanya... gets caught
 up in it...!
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #ニャーニャが、見つからないんです････
 #ちょっと目を離したスキに
@@ -633,7 +633,7 @@ my eyes off her for a moment, and
 she disappeared...
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #そんなに遠くには、いってないと
 #思うんですけど････
@@ -643,7 +643,7 @@ but... if she got caught up in that
 explosion...!
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #････どうしよう、あれにもし
 #ニャーニャが
@@ -653,7 +653,7 @@ thing... and Nyanya... gets caught
 up in it...!
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #あら？　あなた････
 #昨日、ピンクの服着た女の子と
@@ -663,7 +663,7 @@ with that girl in the pink outfit
 yesterday, right?
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #どうしたの、彼女？
 #けさ、道ですれちがったんだけど
@@ -673,7 +673,7 @@ on the road this morning, and she
 looked really scary.
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #ニャーニャといっしょに
 #朝の散歩をしていた時に
@@ -682,7 +682,7 @@ I was taking Nyanya for her morning
 walk when I ran into her.
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #すごくコワい顔してたけど････
 #ケンカかなんかしたの？
@@ -691,7 +691,7 @@ face... Did you two have a fight
 or something?
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #けさ、道ですれちがったんだけど
 #あなたの彼女
@@ -701,7 +701,7 @@ morning. Your girlfriend... she had
 a really scary look on her face.
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #ここでニャーニャを見失った時は
 #ホント、もう見つからないって思ったわ
@@ -729,7 +729,7 @@ into the snow. I had no idea where
 she was!
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #まさか、ベンチの下に
 #ニャーニャが隠れてるとは
@@ -739,7 +739,7 @@ Nyanya was hiding under the bench.
 I didn't notice at all!
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #よ～くのぞきこんだつもりだったけど
 #雪にまぎれて
@@ -750,17 +750,17 @@ the snow. I couldn't figure it
 out at all!
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #ベンチの下に
 #ニャーニャが隠れてるとはね
 #真っ白だから、気づかなかったわ！
-Under the bench... Nya Nya was
+Under the bench... Nyanya was
 hiding there. She's so pure white,
 I didn't even notice!
 -----------------------
 #女性
-woman
+Woman
 -----------------------
 #ねぇ！　このへんで
 #ネコを見かけなかった!?
@@ -780,7 +780,7 @@ Woman
 #ニャーニャは、仔猫でね
 #雪のように真っ白なの！
 #････だから、見つけられないの････
-Nya Nya's a kitten.
+Nyanya's a kitten.
 White as snow!
 ...That's why I can't find her...
 -----------------------
@@ -790,7 +790,7 @@ Woman
 #ニャーニャは、仔猫でね
 #毛がすっごくフサフサでね
 #雪のように、真っ白なの！
-Nya Nya's a kitten.
+Nyanya's a kitten.
 Her fur's incredibly fluffy.
 And white as snow!
 -----------------------
@@ -802,7 +802,7 @@ Woman
 #どこにいるの、ニャーニャ!?
 ...That's why I can't find her. Ah,
 everything's white wherever I look!
-Where are you, Nya Nya!?
+Where are you, Nyanya!?
 -----------------------
 #女性
 Woman
@@ -810,7 +810,7 @@ Woman
 #ああ････ニャーニャはどこ!?
 #こんなに白くっちゃ
 #わからないわ！
-Oh... where is Nya Nya!?
+Oh... where is Nyanya!?
 It's all so white...
 I can't tell at all!
 -----------------------
@@ -1826,7 +1826,7 @@ Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？

@@ -18,7 +18,7 @@ but no pianist.
 #　ぜひお立ち寄り下さい』
 There's a flyer inside. 'For
 all your archery needs, contact
-Chelsea Tone.' If you're
+Chelsea Torn.' If you're
 ever heading northwest of
 Heidelberg, please stop by!'
 -----------------------
@@ -166,8 +166,8 @@ Bartender
 -----------------------
 #それでは････
 #『リキュール哀羅武憂』などいかがでしょう？
-Well then...
-How about a 'Liqueur Airabu'u'?
+Well then... How about our
+'Liqueur Heartrend Amour'?
 -----------------------
 <Loni>
 -----------------------
@@ -350,7 +350,7 @@ Here's your cut. Take it.
 notice
 -----------------------
 #<0B:00000001>{14}{34}{80}{C0}ガルドを手に入れました<0B:00000000>
-<0B:00000001>{14}{34}{80}{C0}Acquired <0B:00000000> Gald.
+<0B:00000001>Acquired {14}{34}{80}{C0} Gald.<0B:00000000>
 -----------------------
 #また頼むよ
 I'll be counting on you again.
@@ -422,15 +422,15 @@ notice
 -----------------------
 #{15}{34}{7C}{C0}は
 #称号「{16}{A0}{7B}{08}{34}{7C}{CA}{81}{CB}{C0}」を得ました
-{15}{34}{7C}{C0} earned
-the title "{16}{A0}{7B}{08}{34}{7C}{CA}{81}{CB}{C0}"!
+{15}{34}{7C}{C0} acquired the title
+"{16}{A0}{7B}{08}{34}{7C}{CA}{81}{CB}{C0}".
 -----------------------
 #いってらっしゃいませ
 Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-That'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald per night.
+That'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald per night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -444,7 +444,7 @@ select
 No
 -----------------------
 #ごゆっくりお休みください
-Please rest well.
+Have a good night.
 -----------------------
 #おはようございます
 Good morning.
@@ -453,7 +453,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-Please come again.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------

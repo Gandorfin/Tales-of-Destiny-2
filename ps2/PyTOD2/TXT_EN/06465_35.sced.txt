@@ -11,12 +11,12 @@ Heidelberg Castle - Audience Chamber
 The room behind the throne.
 -----------------------
 #ウッドロウと話す
-Talk to Garr
+Talk to Woodrow
 -----------------------
 <char:000003E8>
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #玉座のうしろにある部屋に
 #我が国のレンズが集められている
@@ -27,7 +27,7 @@ gathered. If you're interested, feel
 free to take a look.
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #レンズの力がひとつに集まることで
 #かつて大いなる災いが引き起こされた
@@ -36,7 +36,7 @@ into one, a great calamity was
 once unleashed.
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #あの過ちを二度とくり返してはならない
 #私は王として常に
@@ -46,7 +46,7 @@ As king, I constantly
 remind myself of that.
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #レンズは無事か････!?
 #は、はやく確認を････！
@@ -54,7 +54,7 @@ Are the Lens safe...?!
 Hurry, check them...!
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #善後策については我々で協議する････
 #明日まで待ってくれ、<Kyle>くん
@@ -63,17 +63,17 @@ among ourselves... Please wait until
 tomorrow, <Kyle>.
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #いきたまえ、<Kyle>くん
 #他のだれでもない
 #彼女の英雄となるために！
-Live on, <Kyle>.
-Not just anyone.
-To become her hero!
+Go forth, <Kyle>.
+Become her hero,
+no one else but you!
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #いまの我々にできるのは
 #城に泊まってもらうことぐらいだ
@@ -83,7 +83,7 @@ is let you stay at the castle.
 My apologies, <Kyle>.
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #これはあくまで私見だが
 #いまの平和は嵐の前の静けさ････
@@ -94,7 +94,7 @@ the calm before the storm... That's
 the feeling I get.
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #<Kyle>くん、何があったのだ？
 #<Harold>くんが探していたようだが････
@@ -102,7 +102,7 @@ Garr
 was looking for you, but...
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #この世の破滅を見たというのか････
 #一体、何が起ころうとしているというのだ
@@ -111,7 +111,7 @@ world...? What on earth is about
 to happen?
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #私の話したことが
 #参考になるといいのだがな
@@ -119,7 +119,7 @@ I hope what I told you
 proves useful.
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #つらいだろうが
 #誰にも君の代わりはできない
@@ -134,15 +134,15 @@ Don't give up, <Kyle>.
 #ウッドロウさん
 #それじゃ、オレたち、行きます
 Thank you very much,
-Garr.
+Woodrow.
 Well then, we'll be going.
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #わたしがウッドロウだ
 #我らが王国へ、ようこそ
-I am Garr.
+I am Woodrow.
 Welcome to our kingdom.
 -----------------------
 <Kyle>
@@ -150,10 +150,10 @@ Welcome to our kingdom.
 #はじめまして、ウッドロウ王
 #<Kyle>＝デュナミスです！
 It's an honor to meet you, King
-Garr! I'm <Kyle> Dunamis!
+Woodrow! I'm <Kyle> Dunamis!
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #<Kyle>＝デュナミス････？
 #もしかして、君は
@@ -168,7 +168,7 @@ Could it be that you're...
 Yes, I'm their son.
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #あのふたりの息子が
 #こんなに大きくなったのか！
@@ -177,7 +177,7 @@ Their son has grown so much! My,
 my... I suppose I'm getting old too.
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #うむ、たしかによく似ている
 #金色の髪、そして瞳の輝き････
@@ -186,7 +186,7 @@ Golden hair, and that sparkle in
 your eyes...
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #冒険をしていたころの、スタンと
 #同じ瞳をしているな
@@ -204,7 +204,7 @@ stared at by the Hero King makes
 me so nervous...
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #英雄王などとは、他人行儀な
 #あのふたりの息子ならば
@@ -215,7 +215,7 @@ son of those two, you're like a
 son to me as well.
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #普通に、さんづけで呼んでくれていい
 #私も、<Kyle>くんと
@@ -229,10 +229,10 @@ comfortable with. I'll call you
 #ありがとうございます
 #ウッドロウさん！
 Thank you very much,
-Garr!
+Woodrow!
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #見たところ、冒険をしているようだが････
 #やはりスタンと同じように
@@ -256,12 +256,12 @@ just because you want to.
 #父さんや、ウッドロウさんみたいに
 #なにかをした結果として
 #呼ばれるものだと、思うんです
-I think it's something people call
-you as a result of doing something
-remarkable, like my father or Garr.
+I think it's a name people earn
+by doing something great, like
+my father or Woodrow.
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #････うむ、たしかにその通りだ
 #しかし、その若さで
@@ -276,7 +276,7 @@ is truly admirable.
 I-I'm not...
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #では、<Kyle>くん
 #改めて聞きたいのだが
@@ -295,11 +295,11 @@ find something irreplaceable, even
 just one thing.
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #フフ、スタンらしいな
 #どうかね？　それは見つかりそうかね？
-Heh, very much like Stan. Tell me,
+Heh, very much like Stahn. Tell me,
 do you think you'll find it?
 -----------------------
 <Kyle>
@@ -310,7 +310,7 @@ I don't know...
 But I swear I'll find it!
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #････いい眼だ
 #君がその瞳の輝きを失わなければ
@@ -325,7 +325,7 @@ certain you will.
 Yes, I'll do my best!
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #<Kyle>くん
 #また、いつでも遊びに来たまえ
@@ -335,12 +335,12 @@ We will receive you warmly at any
 time.
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #むろん、スタンの息子ではなく
 #<Kyle>＝デュナミスという
 #ひとりの男としてな
-Not as Stan's son, of course,
+Not as Stahn's son, of course,
 but as <Kyle> Dunamis,
 a man in his own right.
 -----------------------
@@ -348,11 +348,11 @@ a man in his own right.
 -----------------------
 #ウッドロウさん････
 #ありがとうございます！
-Garr...
+Woodrow...
 Thank you so much!
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #君の探しているもの････
 #かけがえのないものが
@@ -362,7 +362,7 @@ That irreplaceable something.
 I hope you find it too.
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #このフラグのセリフが未設定
 This flag's dialogue is unset.
@@ -377,7 +377,7 @@ so that the people of this land may
 live in happiness.
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #大変ありがたい申し出、感謝します
 #しかし････年をとると、
@@ -394,7 +394,7 @@ Elrane
 #レンズの提供に関して慎重なのは
 #むろん、こちらも承知しております
 We are of course well aware
-that King Garr has been cautious
+that King Woodrow has been cautious
 about providing Lens.
 -----------------------
 #エルレイン
@@ -424,7 +424,7 @@ Elrane
 Will you not cooperate with us?
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #････････あなたがたの尊い信仰心を
 #疑いたくはない
@@ -432,13 +432,13 @@ Garr
 your admirable faith.
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #しかし、先の動乱が
 #信仰心あつき大司祭から始まったこと、
 #あなたもご存じかと思うのだが
 Yet the previous unrest began with
-a High Priestess of deep devotion,
+a High Priest of deep devotion,
 as you must surely know.
 -----------------------
 #エルレイン
@@ -486,18 +486,18 @@ I can't understand a word
 you're saying.
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #わたしが、ウッドロウだ、よろしく
 #さて････話に入る前に、
 #ひとつ、言っておきたいことがある
-I'm Garr. Pleased to meet you.
+I'm Woodrow. Pleased to meet you.
 Now then... before we get down to
 business, there's something I want
 to say first.
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #君たちは謁見の順番待ちを、
 #割りこんで入ったようだが････
@@ -507,7 +507,7 @@ for your audience...
 That's hardly praiseworthy.
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #みな、時間を作って順番を待っている
 #君だけではないのだよ？
@@ -525,12 +525,12 @@ I-I'm so sorry!
 #ちがうんです、ウッドロウ王！
 #割込ませてくれるよう頼んだのは
 #俺なんです、だから････
-That's not it, King Garr! I was the
-one who asked to cut in line, so
-it's my fault...
+That's not it, King Woodrow!
+I was the one who asked to cut
+in line, so it's my fault...
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #いや、わかってくれたのならいいんだ
 #君たちを罰するつもりなど、毛頭ない
@@ -540,7 +540,7 @@ slightest intention of punishing
 you.
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #それと、今後は謁見の申請はしなくていい
 #いつでも気軽に、来てくれ
@@ -554,7 +554,7 @@ come by anytime.
 ...Huh?
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #戦友であるスタンとルーティの息子なら、
 #私にとっても、息子のようなものだ
@@ -563,7 +563,7 @@ Rutee, my comrades-in-arms, you're
 like a son to me as well.
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #息子が親に会うのに
 #手続きをするなど、おかしいだろ？
@@ -576,22 +576,21 @@ to see his own father, should he?
 Your Majesty...
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #「陛下」というのも、固すぎるな
 #さん付けでかまわんよ？
 'Your Majesty' is a bit too stiff,
-isn't it? Feel free to use '-san'
-with me.
+isn't it? Just call me Woodrow.
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #私も
 #<Kyle>くんと、呼ばせてもらうが
 #かまわんかね？
 And I'd like to call you
-<Kyle>-kun,
+<Kyle>,
 if that's all right?
 -----------------------
 <Kyle>
@@ -601,10 +600,10 @@ if that's all right?
 #ウッドロウさん！
 Of course!
 Your Majesty... no, I mean...
-Garr-san!
+Woodrow!
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #ところで、わざわざ
 #クレスタから出向いてきたのには、
@@ -617,9 +616,9 @@ the way from Cresta for a reason...
 #それは、わたしからお話します
 #ウッドロウさんに会って
 #確かめたいことがあったんです
-I'll explain it. I came to see you,
-Garr-san, because I had something
-I needed to confirm.
+I'll explain it. I came to see
+you, Woodrow, because I had
+something I needed to confirm.
 -----------------------
 <Reala>
 -----------------------
@@ -641,11 +640,11 @@ H-hey, listen...
 Stay strong, <Reala>!
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #<Kyle>くん
 #これは、いったい････？
-<Kyle>-kun...
+<Kyle>...
 What on earth is this...?
 -----------------------
 <Kyle>
@@ -653,12 +652,12 @@ What on earth is this...?
 #ウッドロウさん
 #<Reala>は、英雄を
 #探しているんです
-Garr-san...
+Woodrow...
 <Reala> is searching
 for a hero.
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #英雄を探している？
 Searching for a hero?
@@ -676,11 +675,11 @@ but she wasn't the hero I sought.
 -----------------------
 #それで、ウッドロウさんなら、
 #もしかしてと････
-So when I heard of you, Garr-san,
+So when I heard of you, Woodrow,
 I wondered if perhaps...
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #だが････
 #わたしも、君のいうところの
@@ -690,7 +689,7 @@ I too was not
 the hero you seek.
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #つまり世間でいわれるような英雄が、
 #君の探す人物とは、かぎらないわけか
@@ -709,7 +708,7 @@ We've got your back, don't we?
 We'll figure something out!
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #ははっ！　さすがは親子だな
 #スタンも、困難にあうと、
@@ -721,14 +720,14 @@ he always said the very same thing.
 <Kyle>
 -----------------------
 #父さんも････
-Father too...
+Dad too...
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #<Reala>くん
 #ひとつ、私からアドバイスだ
-<Reala>-kun,
+<Reala>,
 let me offer you a piece of advice.
 -----------------------
 <Reala>
@@ -737,7 +736,7 @@ let me offer you a piece of advice.
 Yes...
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #「あきらめるな、なんとかしよう」
 #スタンのそんな言葉があったからこそ、
@@ -749,7 +748,7 @@ words that we were able to
 see it through to the end.
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #英雄とは、彼のような、
 #あきらめない心を持つ人間のことかもしれん
@@ -764,7 +763,7 @@ Keep that in mind.
 Yes, thank you very much.
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #もし、忘れそうになったら、となりにいる
 #<Kyle>くんを、見ればいい
@@ -773,7 +772,7 @@ forgetting, just look at <Kyle> here
 beside you.
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #彼は親から、英雄の素質を、
 #確実に受けついでいるようだからね
@@ -788,7 +787,7 @@ Huh?
 Does that mean...!
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #むろん、まだまだ
 #努力する必要がありそうだが････
@@ -829,7 +828,7 @@ was she doing here?
 from what I heard...
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #聞こえてしまったか････
 #できれば、知られたくはなかったのだがな
@@ -846,13 +845,13 @@ That's how those people operate
 everywhere.
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #まあ、そんなところだ
 Well, that's about the size of it.
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #正直、私の手にも余っているのだが
 #なにぶん量が量だ
@@ -869,7 +868,7 @@ it off to someone else.
 Is there really that much?
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #よかったら、見ていきたまえ
 #玉座の後ろの部屋に集めてある
@@ -884,7 +883,7 @@ Guard
 This is the audience chamber.
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #ぐああああぁぁぁっ!!
 Guuaaaahhh!!
@@ -892,7 +891,7 @@ Guuaaaahhh!!
 <Judas>
 -----------------------
 #ウ、ウッドロウ！
-G-Garr!
+G-Woodrow!
 -----------------------
 <Kyle>
 -----------------------
@@ -913,7 +912,7 @@ bind us together, you and I.
 -----------------------
 #おまえがウッドロウさんを････！
 #くそッ、許さないぞ、絶対！
-You... you did this to Garr!
+You... you did this to Woodrow!
 Damn you! I'll never forgive you!
 -----------------------
 #バルバトス
@@ -938,10 +937,10 @@ Who the hell is he talking about!?
 #大丈夫か!?
 #しっかりしろ、ウッドロウ!!
 Are you alright!?
-Stay with us, Garr!!
+Stay with us, Woodrow!!
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #うっ、うう････
 Nngh... ugh...
@@ -950,9 +949,9 @@ Nngh... ugh...
 -----------------------
 #傷は深いが、かろうじて急所は外れている
 #大丈夫だ、これなら助かる！
-The wound is deep, but it missed
-his vitals by a hair. He'll make
-it! This is survivable!
+The wound is deep, but it just
+missed his vitals. Don't worry.
+He's going to pull through!
 -----------------------
 <Loni>
 -----------------------
@@ -963,7 +962,7 @@ You! Fetch a doctor, now!
 -----------------------
 #フィリアさんに続いて
 #ウッドロウさんまで････
-First Philia, and now Garr...
+First Philia, and now Woodrow...
 -----------------------
 <Reala>
 -----------------------
@@ -1051,7 +1050,7 @@ Why is Elrane here!?
 -----------------------
 #それに<Reala>
 #どうしてキミはエルレインのことを････
-And besides,<Reala>
+And besides, <Reala>,
 why do you know about Elrane...?
 -----------------------
 <Loni>
@@ -1081,13 +1080,13 @@ Gaap
 -----------------------
 #エルレインさまには
 #指一本触れさせん
-Lady Elrane shall not be touched
-by a single finger.
+I will not let you lay
+a finger on Lady Elrane.
 -----------------------
 <Judas>
 -----------------------
 #ならばッ！
-Then I shall!
+In that case...!
 -----------------------
 <Judas>
 -----------------------
@@ -1137,7 +1136,8 @@ No one at all.
 Elrane
 -----------------------
 #そう、たとえお前でもだ、<Reala>
-Yes, even you are no exception,<Reala>
+Yes, even you are
+no exception, <Reala>.
 -----------------------
 <Reala>
 -----------------------
@@ -1184,7 +1184,7 @@ After them!
 #大丈夫ですか!?
 #ウッドロウさん！
 Are you okay!?
-Garr!
+Woodrow!
 -----------------------
 #衛兵
 Guard
@@ -1246,8 +1246,8 @@ perfect chance for that.
 #だが、それをしなかった････
 #なぜエルレインは、ウッドロウに
 #とどめを刺さなかったんだ？
-But she didn't do it...
-Why didn't Elrane finish off Garr?
+But she didn't do it. Why didn't
+Elrane finish off Woodrow?
 -----------------------
 <Reala>
 -----------------------
@@ -1265,7 +1265,7 @@ Your Majesty!
 <Kyle>
 -----------------------
 #ウッドロウさん！
-Garr!
+Woodrow!
 -----------------------
 #衛兵
 Guard
@@ -1274,7 +1274,7 @@ Guard
 Your Majesty! Please, you must rest!
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #レンズは････レンズは無事か････!?
 #あれを奪われることだけは････！
@@ -1300,7 +1300,7 @@ No one has been allowed near the
 Lens! Not a soul has approached it!
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #だが････！
 But still...!
@@ -1309,11 +1309,11 @@ But still...!
 -----------------------
 #ウッドロウさん
 #オレたちが、今すぐ見てきます！
-Garr!
+Woodrow!
 We'll go check on it right away!
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #････その様子では
 #やはり････
@@ -1326,7 +1326,7 @@ it seems...
 ...Yes.
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #なんて････ザマだ！
 #侵入を許し････あげくに
@@ -1339,11 +1339,11 @@ the Lens...!
 -----------------------
 #ウッドロウさん！
 #オレたちが、なんとか････！
-Garr!
+Woodrow!
 We'll do something about it...!
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #････君の申し出は････わかっている
 #すまんが････明日、話がしたい････
@@ -1366,7 +1366,7 @@ ease as well.
 All right...
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #すまないな、わざわざ来てもらって
 #例のレンズの件だが････
@@ -1381,7 +1381,7 @@ Um... before that...
 Have you seen <Reala>?
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #<Reala>くんを？
 #いや、私は見かけていないが････
@@ -1684,7 +1684,7 @@ What are we gonna do?
 -----------------------
 #････ウッドロウさん
 #それ、ちがうと思います
-...Mr. Woodrow.
+...Woodrow.
 I think that's wrong.
 -----------------------
 <Kyle>
@@ -1723,7 +1723,7 @@ I should not have tested you so.
 <Kyle>
 -----------------------
 #ウッドロウさん････？
-Mr. Woodrow...?
+Woodrow...?
 -----------------------
 #ウッドロウ
 Woodrow
@@ -1758,7 +1758,7 @@ lifted."
 -----------------------
 #「ファンダリア国王、ウッドロウ＝ケルヴィン」
 #････こりゃあ、勅命状じゃねえか！
-"Garr Kelvin, King of Phandaria"
+"Woodrow Kelvin, King of Phandaria"
 ...Well, I'll be! It's a royal
 edict!
 -----------------------
@@ -1828,8 +1828,8 @@ notice
 -----------------------
 #<Kyle>は
 #称号「<item:00000824>」を得ました
-<Kyle> has earned
-the title "<item:00000824>"!
+<Kyle> acquired the title
+"<item:00000824>".
 -----------------------
 #ウッドロウ
 Woodrow
@@ -2013,7 +2013,7 @@ Woodrow...
 Please, hear me out...!
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #なるほど････やはりエルレインは
 #ただの人間ではなかったか････
@@ -2021,7 +2021,7 @@ I see... So Elrane was indeed
 no ordinary human after all...
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #それにしても････運命とは残酷なものだ
 #若い君たちにこのような試練を課すとは
@@ -2033,11 +2033,11 @@ upon you young ones...
 -----------------------
 #オレにはどうしたらいいのか
 #わかりません････
-I don't know what I should do...
-I haven't got a clue...
+I don't know what I should do
+anymore...
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #････････････････
 #････････････････
@@ -2045,7 +2045,7 @@ Garr
 ......
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #たとえば、川沿いに小さな村と
 #大きな街があったとしよう
@@ -2054,7 +2054,7 @@ a small village and a large city
 along a river.
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #上流にある村では畑の作物を育てるのに
 #川の水を引き込んで利用していた
@@ -2063,7 +2063,7 @@ water to irrigate its fields and
 grow crops.
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #そのため、下流の街は
 #常に飲み水が不足していた
@@ -2071,7 +2071,7 @@ As a result, the city downstream was
 constantly short of drinking water.
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #両者の間に争いが起こったのは
 #自然の成り行きだった
@@ -2082,11 +2082,11 @@ Naturally, it centered on water
 rights.
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #<Kyle>くん
 #君なら、この状況をどうするかね？
-<Kyle>! If it were you, how would you
+<Kyle>, if it were you, how would you
 handle this situation?
 -----------------------
 <Kyle>
@@ -2100,14 +2100,14 @@ their reasons, so I couldn't give
 you an answer.
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #なるほど、もっともな意見だ
 I see. That is a most reasonable
 opinion.
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #だが、もし君が私の立場････
 #つまり王だったとしたら、
@@ -2117,7 +2117,7 @@ That is to say, if you were king,
 that answer would satisfy no one.
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #住民たちにとっては生きるか
 #死ぬかの問題なのだから
@@ -2129,7 +2129,7 @@ it is a matter of life or death.
 #じゃあ、ウッドロウさんなら
 #どうするんですか？
 Then what would you do,
-Mr. Woodrow?
+Woodrow?
 -----------------------
 #ウッドロウ
 Woodrow
@@ -2249,13 +2249,13 @@ Then I had no need to worry.
 #いいえ、お心づかい、本当に感謝します
 #ウッドロウさん････ありがとうございました
 No. I truly appreciate your concern.
-Thank you, Mr. Woodrow.
+Thank you, Woodrow.
 -----------------------
 <Kyle>
 -----------------------
 #ありがとうございました、ウッドロウさん
 #それじゃあ、オレたち行きます
-Thank you, Mr. Woodrow.
+Thank you, Woodrow.
 We'll be going now.
 -----------------------
 #安心してください、応急手当は
@@ -2281,7 +2281,7 @@ Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -2304,7 +2304,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-We look forward to your next visit.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -2327,7 +2327,7 @@ notice
 #{16}{26}{82}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{26}{82}{C0}, but
-your inventory is already full.
+your inventory is full.
 -----------------------
 notice
 -----------------------

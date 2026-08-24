@@ -23,12 +23,12 @@ anywhere!
 #どうやら俺たちの方が先に
 #着いたらしいな････って言ってるそば
 #から来やがった　<Kyle>、隠れろ！
-Looks like we got here first... or
-so I was just saying. They showed
-up after all. <Kyle>, hide!
+Looks like we beat 'em here... and
+speak of the devil, here they come.
+<Kyle>, hide!
 -----------------------
 #隊長
-Commander
+Captain
 -----------------------
 #ここか？
 #巨大レンズがあるという遺跡は
@@ -36,7 +36,7 @@ So this is it?
 The ruins with the gigantic Lens.
 -----------------------
 #隊員
-Church Member
+Trooper
 -----------------------
 #はっ！　自分は以前、確かにこの遺跡で
 #レンズを目撃しました！
@@ -45,16 +45,16 @@ the Lens in these ruins during a
 previous visit!
 -----------------------
 #隊員
-Church Member
+Trooper
 -----------------------
 #この遺跡はレンズが作られた時代の
 #都市であると考えられています
 These ruins are believed to be the
 remains of a city from the era when
-Lenses were made.
+Lens were made.
 -----------------------
 #隊長
-Commander
+Captain
 -----------------------
 #だから、レンズがあっても
 #不思議ではないと言うのか？
@@ -64,7 +64,7 @@ strange about a Lens being here?
 ...I have my doubts.
 -----------------------
 #隊員
-Church Member
+Trooper
 -----------------------
 #現物を見れば
 #信じていただけるでしょう
@@ -74,7 +74,7 @@ I'm sure you'll believe us.
 The Lens is inside.
 -----------------------
 #隊員
-Church Member
+Trooper
 -----------------------
 #おい、ソーサラースコープを
 Hey, bring out the Sorcerer's Scope.
@@ -125,9 +125,9 @@ The Laguna Ruins.
 #かつては空中都市とよばれていた遺跡だが
 #あらかた調べつくされて
 #考古学的な価値はゼロって話だ
-They used to call it an aerial
-city, but it's been picked
-clean. Supposedly it's got zero
+They used to call it an aeropolis,
+but it's been picked clean.
+Supposedly it's got zero
 archaeological value now.
 -----------------------
 <Kyle>
@@ -174,7 +174,7 @@ me. Someone I should know well...
 #なんてのはゴメンだぜ
 Hey, that's creepy.
 Some woman who died with a grudge...
-I don't wanna hear it.
+No thanks, count me out.
 -----------------------
 <Loni>
 -----------------------
@@ -215,7 +215,7 @@ Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -275,7 +275,7 @@ Acquired {16}{36}{44}{C0} x<0B:00000001>{14}{36}{40}{C0}<0B:00000000>.
 #{16}{36}{44}{C0}が<0B:00000001>{14}{36}{48}{C0}<0B:00000000>個ありましたが
 #これ以上もてません
 #宝箱に戻しました
-{16}{36}{44}{C0}There were <0B:00000001>{14}{36}{48}{C0}<0B:00000000>, but...
+Found {16}{36}{44}{C0} x<0B:00000001>{14}{36}{48}{C0}<0B:00000000>, but
 I can't carry any more.
 I put it back in the treasure chest.
 -----------------------

@@ -12,8 +12,9 @@ Grandpa
 -----------------------
 #よし！
 #まれに見るすばらしい落としっぷりだったニャ！
-Alright! That was a catch you rarely
-see! Meow!
+Alright! That was some of the
+finest snow-shaking I've ever
+seen, meow!
 -----------------------
 #「一日一膳」
 #一日に一回はごはんを食べましょう
@@ -76,8 +77,9 @@ meow.
 #おじじ
 Grandpa
 -----------------------
-<item:00000C02>
+#<item:00000C02>
 #とても良い名じゃニャ
+<item:00000C02>...
 It's a very good name, meow.
 -----------------------
 <item:00000C02>
@@ -166,8 +168,9 @@ Grandpa
 -----------------------
 #よし！
 #まれに見るすばらしい落としっぷりだったニャ！
-Alright! That was a catch you rarely
-see, meow!
+Alright! That was some of the
+finest snow-shaking I've ever
+seen, meow!
 -----------------------
 <item:00000C02>
 -----------------------
@@ -181,7 +184,7 @@ Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -204,7 +207,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-We hope to see you again soon.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------

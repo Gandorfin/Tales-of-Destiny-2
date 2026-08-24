@@ -37,14 +37,14 @@ Soldier
 #お守りせねば！
 I-I'm fine!
 But more importantly,
-I must protect Lord Garr!
+I must protect Lord Woodrow!
 -----------------------
 <Judas>
 -----------------------
 #この襲撃は、やはり
 #ウッドロウをねらったものなのか？
 So this attack
-was targeting Garr after all?
+was targeting Woodrow after all?
 -----------------------
 #兵士
 Soldier
@@ -54,7 +54,7 @@ Soldier
 #『ウッドロウ王の命をもらいうける』と････
 There's no doubt about it! The man
 leading the monsters said he's here
-to claim King Garr's life...
+to claim King Woodrow's life...
 -----------------------
 <Reala>
 -----------------------
@@ -72,7 +72,7 @@ Soldier
 #ウッドロウ陛下を
 #お守りせねば････！
 I must protect
-His Majesty Garr...!
+His Majesty Woodrow...!
 -----------------------
 #兵士
 Soldier
@@ -114,13 +114,13 @@ Soldier
 #戦況はどうなっているんだ！
 #ウッドロウ様はご無事なのか！
 What's the situation!?
-Is Lord Garr safe?
+Is Lord Woodrow safe?
 -----------------------
 <Kyle>
 -----------------------
 #ウッドロウさんはオレたちが見てくるから
 #おじさんは持ち場を守ってて！
-We'll go check on Garr,
+We'll go check on Woodrow,
 so you stay at your post!
 -----------------------
 #兵士

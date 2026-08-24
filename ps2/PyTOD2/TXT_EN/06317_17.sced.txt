@@ -156,7 +156,7 @@ What was that dream about...
 #････ふわぁ････むにゃむにゃ････
 #････とりあえず
 #<Loni>のところに行かなきゃ････
-...*yawn*... Mmmph mmmph...
+...*yawn*... *mumble, mumble*...
 ...Anyway...
 I gotta get to <Loni>...
 -----------------------
@@ -193,7 +193,7 @@ Hey <Kyle>, wake up!
 -----------------------
 #むにゃ････
 #････おはよ、<Loni>････
-Munyaa...
+Mmmnn...
 ...Morning, <Loni>...
 -----------------------
 <Loni>
@@ -203,7 +203,7 @@ Munyaa...
 #「神のたまご」が！
 This ain't the time to be
 half-asleep! It's finally shown up!
-The 'Egg of God'!
+The "Egg of God"!
 -----------------------
 <Kyle>
 -----------------------
@@ -215,7 +215,7 @@ Egg...?
 <Kyle>
 -----------------------
 #「神のたまご」が････!?
-The 'Egg of God' has...!?
+The "Egg of God" has...!?
 -----------------------
 <Loni>
 -----------------------
@@ -252,7 +252,7 @@ Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -297,7 +297,7 @@ notice
 -----------------------
 #{16}{25}{EA}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{25}{EA}{C0} was there, but
+Found {16}{25}{EA}{C0}, but
 your inventory is full.
 -----------------------
 notice

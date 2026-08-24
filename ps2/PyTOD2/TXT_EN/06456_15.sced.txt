@@ -32,7 +32,7 @@ for everyone to prosper.
 #君たちは
 #<0B:00000001>{14}{34}{70}{C0}<0B:00000000>ガルド持っているな
 You have
-<0B:00000001>{14}{34}{70}{C0}<0B:00000000>Gald, I see.
+<0B:00000001>{14}{34}{70}{C0}<0B:00000000> Gald, I see.
 -----------------------
 #君たちは無一文だな
 You're flat broke.
@@ -48,8 +48,8 @@ notice
 -----------------------
 #<Kyle>たちは
 #称号「<item:00000865>」を得ました
-<Kyle> and the others
-received the title "<item:00000865>".
+<Kyle> and party acquired the title
+"<item:00000865>".
 -----------------------
 #持っていないと
 #なおさら、お金の大切さや
@@ -66,7 +66,7 @@ allow me to give you a little Gald.
 notice
 -----------------------
 #<0B:00000001>{14}{24}{74}{C0}<0B:00000000>ガルド手に入れました
-<0B:00000001>{14}{24}{74}{C0}<0B:00000000>Acquired Gald.
+Acquired <0B:00000001>{14}{24}{74}{C0}<0B:00000000> Gald.
 -----------------------
 #金額は少ないが、今の君たちならば
 #その意味は理解できるはずだ
@@ -78,8 +78,8 @@ notice
 -----------------------
 #<Kyle>たちは
 #称号「<item:00000864>」を得ました
-<Kyle> and the others
-received the title "<item:00000864>".
+<Kyle> and party acquired the title
+"<item:00000864>".
 -----------------------
 #あまりにもたくさんのお金を
 #持ちすぎると
@@ -119,11 +119,11 @@ have grown extremely high...
 come see me.
 -----------------------
 #いってらっしゃいませ
-Take care.
+Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-<0B:00000001>{14}{34}{08}{C0}<0B:00000000>It'll be Gald per night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald per night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -146,7 +146,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-We hope to see you again.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -169,7 +169,7 @@ notice
 #{16}{25}{CA}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{CA}{C0}, but
-couldn't carry any more.
+your inventory is full.
 -----------------------
 notice
 -----------------------

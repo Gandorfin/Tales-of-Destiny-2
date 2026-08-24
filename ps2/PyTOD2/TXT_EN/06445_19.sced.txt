@@ -22,7 +22,7 @@ are pretty impressive, too.
 NOTICE
 -----------------------
 #<item:00000122>を手に入れました
-<item:00000122>You obtained .
+Acquired <item:00000122>.
 -----------------------
 #華麗に飾り付けられた武具が展示されている
 #どれもこれも年代物の高級品のようだ
@@ -128,7 +128,7 @@ though. But this shop says they
 won't stock it. I wonder why...
 -----------------------
 #商人
-#Businessman
+Businessman
 -----------------------
 #「十徳ソード」
 #便利だと思うんだけどなぁ････
@@ -163,7 +163,7 @@ Love's power boosts your strength!
 to swing that thing...
 -----------------------
 #商人
-#Businessman
+Businessman
 -----------------------
 #「ラブラブソード」
 #売れると思ったんだけどなぁ････
@@ -226,9 +226,9 @@ Neuestadt Merchant
 #ウィンターズくん
 #例の物、それぞれ１５着ずつ
 #よろしく頼まれてくれるかね？
-Winters, my boy Fifteen of each of
-those items, if you please. Can I
-count on you?
+Winters, my boy. Fifteen of each
+of those items, if you please.
+Can I count on you?
 -----------------------
 #ウィンターズ
 Winters
@@ -246,7 +246,7 @@ Neuestadt Merchant
 #ところでウィンターズくん
 #この前の話だが････
 Very well, it's a deal.
-By the way, Winters, my boy
+By the way, Winters, my boy,
 about our previous discussion...
 -----------------------
 #ウィンターズ
@@ -347,7 +347,7 @@ Winters
 ...Wait, it's the materials after
 all. To get both strength and
 flexibility, I've got no choice but
-to use Berserium...
+to use Berselium...
 -----------------------
 <Kyle>
 -----------------------
@@ -439,7 +439,7 @@ Winters
 #こいつはおそろしく希少価値があって
 #滅多に手に入らないんだ
 <Kyle>, I'm looking for an ore called
-'Berserium.' It's a legendary ore,
+'Berselium.' It's a legendary ore,
 absurdly rare, and nearly impossible
 to find.
 -----------------------
@@ -448,7 +448,7 @@ Winters
 -----------------------
 #もし、そのベルセリウムを持ってきたら
 #お前さんの頼みを聞いてやるよ
-If you bring me that Berserium,
+If you bring me that Berselium,
 I'll hear out your request.
 -----------------------
 <Kyle>
@@ -456,7 +456,7 @@ I'll hear out your request.
 #オーケー！
 #『ベルセリウム』と引き換えだね！
 #持ってくるから、スゴイ物を作ってね！
-Okay! In exchange for Berserium,
+Okay! In exchange for Berselium,
 right?! I'll bring it, so make
 something awesome!
 -----------------------
@@ -466,7 +466,7 @@ Winters
 #よぉ、<Kyle>
 #『ベルセリウム』は見付かったか？
 Hey, <Kyle>.
-Did you find the Berserium?
+Did you find the Berselium?
 -----------------------
 <Kyle>
 -----------------------
@@ -674,7 +674,7 @@ Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -697,7 +697,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-We hope to see you again soon.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------

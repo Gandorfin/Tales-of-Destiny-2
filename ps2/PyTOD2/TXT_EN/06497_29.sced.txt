@@ -327,8 +327,8 @@ notice
 -----------------------
 #<Nanaly>は
 #称号「<item:0000081D>」を得ました
-<Nanaly> is
-You've earned the title "<item:0000081D>."
+<Nanaly> acquired the title
+"<item:0000081D>".
 -----------------------
 #ふぅ～
 #水くみ大変だったぁ
@@ -367,8 +367,8 @@ Just eat what you like.
 #あたしのだいキライなトマト
 #食べてもらおうとおもったのに～
 Where did <Nanaly> go?
-I hate tomatoes so much.
-I was going to let you eat them~
+I was gonna have her eat my
+tomatoes... I hate them so much~
 -----------------------
 #ねえねえ
 #おにいちゃんたちも
@@ -377,20 +377,20 @@ Hey, hey!
 You guys too,
 stay and eat.
 -----------------------
-<Nanaly>
+#<Nanaly>
 #ほかのお料理のつくりかた
 #教えてほしいんだけど
-How to make other dishes
-I'd love to learn how
+<Nanaly>, I'd love to learn how
+to make some other dishes.
 -----------------------
 <Nanaly>
 -----------------------
 #ああ
 #今度帰ってきたときに
 #ゆっくり教えてあげるよ････
-Oh yeah When I come back next
-time I'll explain it to you slowly
-then...
+Sure. When I come back next
+time, I'll teach you properly,
+okay...?
 -----------------------
 #狩りとかはできないけど
 #料理は<Nanaly>みたいに
@@ -412,8 +412,8 @@ cook.
 #ルーをなおす方法
 #見つかったの!?
 Big brother!
-How to cure Rue
-You found it!?
+Did you find a way
+to cure Rue!?
 -----------------------
 <Loni>
 -----------------------
@@ -435,9 +435,9 @@ protect Rue!!
 -----------------------
 <Nanaly>
 -----------------------
-<Loni>
+#<Loni>
 #ほんとに、ありがとう！
-I really mean it, thank you!
+<Loni>, really... thank you!
 -----------------------
 <Nanaly>
 -----------------------
@@ -508,8 +508,8 @@ Just leave it to us!
 -----------------------
 #お兄ちゃんたち
 #お医者さんなの!?
-Big brothers
-You're doctors!?
+Big brothers...
+you're doctors!?
 -----------------------
 <Loni>
 -----------------------
@@ -590,8 +590,8 @@ great help.
 #ルーをなおす方法
 #見つかったの!?
 Big brother!
-How to cure Rue
-You found it!?
+Did you find a way
+to cure Rue!?
 -----------------------
 <Loni>
 -----------------------
@@ -661,9 +661,9 @@ just watch!!
 #薬は飲ませたよ！
 #あとは、あたしが
 #この子を守ってみせるから!!
-I've given her the medicine!
+I've given him the medicine!
 From here on out, I'll...
-protect this child no matter what!!
+protect him, no matter what!!
 -----------------------
 <Loni>
 -----------------------
@@ -688,7 +688,7 @@ It's incredibly high...
 -----------------------
 #ぬれタオルを頭にのせても
 #すぐ、かわいちゃうの････
-Even when I put a wet towel on her
+Even when I put a wet towel on his
 forehead, it dries up right away...
 -----------------------
 <Loni>
@@ -697,7 +697,7 @@ forehead, it dries up right away...
 #もうすぐ、よくなるって証拠だから
 #気にするな！
 It's okay...
-It means she's about to get better,
+It means he's about to get better,
 so don't worry!
 -----------------------
 <Nanaly>
@@ -731,7 +731,7 @@ You can do it! Just a little more!!
 #ルーの病気
 #ほんとになおったみたい！
 Thanks, you guys! Rue's illness...
-It really looks like she's
+It really looks like he's
 recovered!
 -----------------------
 <Loni>
@@ -848,7 +848,7 @@ Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？

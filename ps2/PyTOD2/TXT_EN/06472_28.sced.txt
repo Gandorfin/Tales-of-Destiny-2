@@ -64,7 +64,7 @@ Priest of Fortuna
 #フォルトゥナ神団が保証する
 There is no need for concern. Your
 life in Aigrette is guaranteed by
-the Sacred Order of Fortuna.
+the Order of Fortuna.
 -----------------------
 #フォルトゥナ司祭
 Priest of Fortuna
@@ -228,7 +228,7 @@ We don't have to do anything
 ourselves. It's so much fun.
 -----------------------
 #姉御
-Sister
+Young Woman
 -----------------------
 #もう････ウチのおばあちゃん
 #妹がアイグレッテに嫁いでからというもの
@@ -240,7 +240,7 @@ does nothing but complain
 whenever she has free time.
 -----------------------
 #姉御
-Sister
+Young Woman
 -----------------------
 #「天上人の子孫にふさわしいムコ」だの
 #「天地戦争に負けていなければ」だの
@@ -252,7 +252,7 @@ we hadn't lost the Aeth'er
 Wars'... It's driving me crazy.
 -----------------------
 #姉御
-Sister
+Young Woman
 -----------------------
 #カルバレイス人のご先祖様って
 #天地戦争の敗者の天上人なのよ
@@ -261,7 +261,7 @@ were the Aeth'er who lost the
 Aeth'er Wars.
 -----------------------
 #姉御
-Sister
+Young Woman
 -----------------------
 #戦争に負けて戦犯となった彼等は
 #カルバレイスに流刑させられたの
@@ -326,10 +326,9 @@ Old Man
 #そんなに神様に助けてもらうのが
 #ええんかのぅ
 #故郷を捨てるほどの事なのじゃろうか
-Is having the gods do everything
-for you really such a good thing?
-Is it really worth abandoning your
-homeland for?
+Is being saved by a god really
+such a fine thing? Is it worth
+abandoning your homeland for?
 -----------------------
 #おじいさん
 Old Man
@@ -427,8 +426,8 @@ Lumberjack
 #進むべき道を、示してもらおうと
 #思っているんです
 I intend to lay everything bare
-before God and have Him show me the
-path I should walk.
+before the goddess and have her
+show me the path I should walk.
 -----------------------
 #木こり
 Lumberjack
@@ -479,8 +478,8 @@ Auntie B
 #レンズを寄進しなければ
 #いけないんザマス！
 To join the Order of Atamoni,
-you have to donate Lens.
-That's the rule, zamasu!
+you simply must donate Lens.
+Those are the rules, I do declare!
 -----------------------
 #おばちゃんＡ
 Auntie A
@@ -500,9 +499,9 @@ Auntie B
 #アタモニ神団も
 #意外とケチくさい
 #ザマスねー
-The Order of Atamoni is
-surprisingly stingy too,
-zamasu, isn't it?
+My, the Order of Atamoni is
+surprisingly stingy after all,
+I do declare!
 -----------------------
 #船員
 Sailor
@@ -553,11 +552,11 @@ sunken on the seabed around here...
 along with the victims.
 -----------------------
 #いってらっしゃいませ
-Welcome.
+Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -571,7 +570,7 @@ select
 No
 -----------------------
 #ごゆっくりお休みください
-Please rest well.
+Have a good night.
 -----------------------
 #おはようございます
 Good morning.
@@ -580,7 +579,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-We look forward to your next visit.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------

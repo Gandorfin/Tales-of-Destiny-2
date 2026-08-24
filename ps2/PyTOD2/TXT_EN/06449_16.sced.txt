@@ -20,7 +20,7 @@ Found a TOP quiz question!
 NOTICE
 -----------------------
 #クイズ本に新しいジャンルが追加されました
-A new quiz genre was added.
+A new quiz book genre was added.
 -----------------------
 NOTICE
 -----------------------
@@ -38,8 +38,8 @@ NOTICE
 #『アイグレッテ・奇跡の街』
 #という本があります
 #読んでみますか？
-"Aigrette: The City of Miracles"
-There's a book like this.
+'Aigrette: The City of Miracles'
+There is a book with this title.
 Would you like to read it?
 -----------------------
 select
@@ -54,7 +54,7 @@ NOTICE
 #アイグレッテは神の眼を巡る騒乱の直後に
 #難民たちの手によって建設された街である
 Refugees built Aigrette soon after
-the Eye of Atamoni turmoil.
+the unrest over the Eye of Atamoni.
 -----------------------
 NOTICE
 -----------------------
@@ -75,7 +75,7 @@ NOTICE
 #これがアイグレッテの生い立ちである
 They were in need of salvation.
 Straylize Temple protected them,
-and they built a town at its feet.
+and a town grew at its feet.
 This is how Aigrette came to be.
 -----------------------
 NOTICE
@@ -87,7 +87,7 @@ NOTICE
 Aigrette was a northern trade hub.
 It grew at remarkable speed,
 expanding before anyone's eyes
-into a major city.
+into a world-renowned city.
 -----------------------
 NOTICE
 -----------------------
@@ -157,8 +157,8 @@ NOTICE
 #『天地戦争の歴史』
 #という本があります
 #読んでみますか？
-"The History of the Aeth'er Wars"
-There's a book like this.
+'The History of the Aeth'er Wars'
+There is a book with this title.
 Would you like to read it?
 -----------------------
 select
@@ -212,8 +212,8 @@ NOTICE
 #地上に残った人々を武力支配した････
 The people of the aerial cities
 called themselves the Aeth'er.
-With Belcrant in their capital,
-they wielded enormous power.
+With Belcrant in their capital
+Dycroft, they ruled the surface.
 -----------------------
 NOTICE
 -----------------------
@@ -238,14 +238,14 @@ NOTICE
 The Aeth'er Army was overwhelming.
 The Er'ther forces neared defeat,
 but the new Swordians turned
-the battle into a stunning victory.
+the tide to stunning victory.
 -----------------------
 NOTICE
 -----------------------
 #『神の眼を巡る騒乱』
 #という本があります
 #読んでみますか？
-'Turmoil over the Eye of Atamoni'
+'The Unrest Over the Eye of Atamoni'
 There is a book with this title.
 Would you like to read it?
 -----------------------
@@ -298,7 +298,7 @@ NOTICE
 #『神の眼を巡る騒乱』の犠牲は大きく
 #復興には長い時間が必要となった
 Many towns fell, and the surface
-was devastated by the Eye turmoil.
+was devastated by the unrest.
 Reconstruction took many years.
 -----------------------
 #若者
@@ -369,7 +369,7 @@ Young Man
 Well then, I read up to here
 yesterday. So today I'll start with
 this book. Let's see... 'Lens: Its
-Characteristics'?
+Characteristics.'
 -----------------------
 <Kyle>
 -----------------------
@@ -608,7 +608,7 @@ Young Man
 #<Harold>博士といえば
 #歴史に残るほどの、天才科学者だよ？
 #それを「ああいうの」だなんて！
-<Harold> Doctor is a genius scientist
+Dr. <Harold> is a genius scientist
 who'll go down in history, you
 know? And you call her 'someone
 like that'?!
@@ -645,8 +645,8 @@ Librarian
 #館内での騒音および
 #カップルのイチャつきは
 #かたく禁じられています
-Loud noises and couples acting
-affectionate are strictly prohibited
+Loud noise and public displays of
+affection are strictly prohibited
 within the library.
 -----------------------
 <Reala>
@@ -668,8 +668,8 @@ Librarian
 #館内での騒音および
 #カップルのイチャつきは
 #かたく禁じられています
-Loud noises and couples acting
-affectionate are strictly prohibited
+Loud noise and public displays of
+affection are strictly prohibited
 within the library.
 -----------------------
 #司書
@@ -705,8 +705,8 @@ children...
 -----------------------
 #そうじゃねえんだって！
 #今、城で････!!
-That's not what I mean! The castle
-is under attack right now...!!
+That's not what I mean!
+Right now, the castle's...!!
 -----------------------
 #司書
 Librarian
@@ -876,7 +876,7 @@ Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -922,7 +922,7 @@ notice
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{C2}{C0}, but
-inventory is full already.
+your inventory is full.
 -----------------------
 notice
 -----------------------

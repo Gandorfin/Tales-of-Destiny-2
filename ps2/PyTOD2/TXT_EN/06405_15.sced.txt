@@ -230,15 +230,15 @@ only 'Chi...to' is legible.
 -----------------------
 #ゴシップ誌がある
 #『ウッドロウ王・その愛の行方に迫る』
-There's a gossip magazine. 'King
-Garr: The Truth Behind His Romance'
+A gossip magazine: 'King Woodrow's
+Love Life Exposed'
 -----------------------
 #いってらっしゃいませ
 Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -284,7 +284,7 @@ notice
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{C2}{C0}, but
-inventory is full already.
+your inventory is full.
 -----------------------
 notice
 -----------------------

@@ -37,14 +37,14 @@ Soldier
 #お守りせねば！
 I-I'm fine!
 But more importantly,
-I must protect Lord Garr!
+I must protect Lord Woodrow!
 -----------------------
 <Judas>
 -----------------------
 #この襲撃は、やはり
 #ウッドロウをねらったものなのか？
 So this attack
-was targeting Garr after all?
+was targeting Woodrow after all?
 -----------------------
 #兵士
 Soldier
@@ -54,7 +54,7 @@ Soldier
 #『ウッドロウ王の命をもらいうける』と････
 There's no doubt about it! The man
 leading the monsters said he's here
-to claim King Garr's life...
+to claim King Woodrow's life...
 -----------------------
 <Reala>
 -----------------------
@@ -72,7 +72,7 @@ Soldier
 #ウッドロウ陛下を
 #お守りせねば････！
 I must protect
-His Majesty Garr...!
+His Majesty Woodrow...!
 -----------------------
 #兵士
 Soldier
@@ -114,13 +114,13 @@ Soldier
 #戦況はどうなっているんだ！
 #ウッドロウ様はご無事なのか！
 What's the situation!?
-Is Lord Garr safe?
+Is Lord Woodrow safe?
 -----------------------
 <Kyle>
 -----------------------
 #ウッドロウさんはオレたちが見てくるから
 #おじさんは持ち場を守ってて！
-We'll go check on Garr,
+We'll go check on Woodrow,
 so you stay at your post!
 -----------------------
 #兵士
@@ -316,7 +316,7 @@ Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -362,7 +362,7 @@ notice
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{C2}{C0}, but
-inventory is full already.
+your inventory is full.
 -----------------------
 notice
 -----------------------

@@ -56,14 +56,14 @@ a monster nest.
 NOTICE
 -----------------------
 #『青い文字』で『Ｄ』と表示されています
-It displays 'D' in blue text.
+It displays a 'D' in blue text.
 -----------------------
 #いってらっしゃいませ
-Welcome.
+Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？

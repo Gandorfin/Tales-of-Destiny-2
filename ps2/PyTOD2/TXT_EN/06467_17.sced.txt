@@ -27,14 +27,14 @@ A brilliant tactic, indeed.
 #とにかく、急ごう！
 #ウッドロウさんが、心配だ！
 Anyway, let's hurry!
-I'm worried about Garr!
+I'm worried about Woodrow!
 -----------------------
 #いってらっしゃいませ
 Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -57,7 +57,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-We look forward to your next visit.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -88,10 +88,10 @@ notice
 There's nothing here.
 -----------------------
 #補給部隊
-Supplies Storage
+Supply Corps
 -----------------------
 #こちらは補給部隊です
-This is the Supplies Storage.
+This is the Supply Corps.
 -----------------------
 #がんばれよ
 Give it your best.
@@ -100,7 +100,7 @@ Give it your best.
 Come by anytime.
 -----------------------
 #補給部隊
-Supplies Storage
+Supply Corps
 -----------------------
 #負傷兵の救護が我々の仕事だ
 #治療費はいただくが････

@@ -8,16 +8,16 @@ Neuestadt
 Equipment Shop
 -----------------------
 #リッチマン
-Richman
+Rich Man
 -----------------------
 #この店はハイデルベルグの装備品屋
 #『ソウル＆ソード』の直営店なのだ
-This shop is the Heidelberg
-equipment store. It's a direct
-branch of 'Soul & Sword'.
+This shop is a direct branch of
+'Soul & Sword', the equipment
+store in Heidelberg.
 -----------------------
 #リッチマン
-Richman
+Rich Man
 -----------------------
 #そこの店主であり鍛冶士でもある
 #『ウィンターズ』が手がけた
@@ -27,7 +27,7 @@ blacksmith. This piece was crafted
 by 'Winters'...
 -----------------------
 #リッチマン
-Richman
+Rich Man
 -----------------------
 #ううむ････素晴らしい出来だ
 #まったくウィンターズという鍛治士は
@@ -250,7 +250,6 @@ it says...
 #書かれている
 It's the latest Lens accessory.
 'Prototype, Not for Sale,' it says.
-That's what it reads.
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -280,7 +279,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-We look forward to your next visit.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------

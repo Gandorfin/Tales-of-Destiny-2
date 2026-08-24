@@ -348,10 +348,10 @@ Philia...!
 #大司祭さまが、「神の眼」を奪い
 #世界を支配する野望に荷担した
 #しかも、私も知らずに手伝っていた････
-The High Priestess stole the
+The High Priest stole the
 Eye of Atamoni and aided a mad
 ambition to rule the world.
-And I had been helping her,
+And I had been helping him,
 without even realizing it...
 -----------------------
 #そのことを知った私は
@@ -378,8 +378,8 @@ why the person I am today exists.
 -----------------------
 #残念ながら、英雄に会うための術は
 #私にもわかりません
-Unfortunately, I know of no
-way to meet the hero. Nor do I.
+Unfortunately, not even I know
+of a way to meet a hero.
 -----------------------
 #ですが、あなたに
 #必要なものなら、わかります
@@ -583,7 +583,7 @@ W-well then, Philia.
 I'll be going now...
 -----------------------
 #<Reala>さん
-<Reala>-san.
+<Reala>.
 -----------------------
 #聞こえますか、<Reala>さん
 #トクン、トクンといっている
@@ -624,10 +624,11 @@ Excuse me.
 Thank you very much!
 -----------------------
 #････不思議な子たちね
-<Reala>
+#<Reala>
 #そして、<Kyle>
 ...What strange children.
-And now, <Kyle>
+<Reala>...
+And <Kyle>...
 -----------------------
 #ふふっ！　髪も、顔も
 #おまけに言うことまで
@@ -786,7 +787,7 @@ who had once been our comrade.
 #その人の名はリオン＝マグナス
 #氷のような冷たい瞳の中に、
 #誰よりもあたたかな情を秘めた人でした
-His name was Leon Magnus. Behind
+His name was Lion Magnus. Behind
 those ice-cold eyes burned a
 warmth deeper than anyone's.
 -----------------------
@@ -844,7 +845,7 @@ the world was plunged into crisis.
 #それにリオンさんたちでした
 What saved me then
 were Stahn, Rutee,
-and Leon, among others.
+and Lion, among others.
 -----------------------
 <Kyle>
 -----------------------
@@ -864,7 +865,7 @@ how harsh that can be...
 #きっとリオンさんもあのときの決断を
 #後悔してはいないと思います
 All I can do now is imagine,
-but I believe Leon does not regret
+but I believe Lion does not regret
 the choice he made back then.
 -----------------------
 #愛する人を守るための、
@@ -892,7 +893,7 @@ Huh?
 #あなたの決断も、そのリオンという男の決断も、
 #決して間違ってはいなかった
 Your decision, and that of the man
-called Leon, were never wrong.
+called Lion, were never wrong.
 -----------------------
 <Judas>
 -----------------------
@@ -1062,7 +1063,7 @@ to amplify the power of Lens...
 #あの天空都市ダイクロフトの兵器
 #ベルクラントの破壊力をうみだしたといわれる
 #とてもキケンな石････
-The weapon of that aerial city,
+The weapon of the aeropolis
 Dycroft... Belcrant, said to
 have unleashed its destructive
 power... A very dangerous stone...
@@ -1209,11 +1210,11 @@ end... Well, whatever. Let's get
 this medicine to that girl.
 -----------------------
 #いってらっしゃいませ
-Please take care.
+Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -1227,7 +1228,7 @@ select
 No
 -----------------------
 #ごゆっくりお休みください
-Please rest well.
+Have a good night.
 -----------------------
 #おはようございます
 Good morning.
@@ -1236,7 +1237,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-We hope to see you again.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------

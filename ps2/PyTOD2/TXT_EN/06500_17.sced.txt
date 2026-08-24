@@ -7,7 +7,7 @@ Hope Town
 NOTICE
 -----------------------
 #<item:00000041>を手に入れました
-<item:00000041>Acquired.
+Acquired <item:00000041>.
 -----------------------
 #トラッシュマウンテンから拾ってきたのだろうか
 #廃材が積まれている
@@ -66,7 +66,7 @@ The Usual
 Dessert
 -----------------------
 #キングコック
-King Cock
+King Cook
 -----------------------
 #キミキミ、ちょっと寿司職人やらない？
 Hey, you! Wanna try being a sushi
@@ -144,15 +144,15 @@ Here's your cut. Take it.
 notice
 -----------------------
 #<0B:00000001>{14}{34}{A4}{C0}ガルドを手に入れました<0B:00000000>
-<0B:00000001>{14}{34}{A4}{C0}Gald acquired!<0B:00000000>
+<0B:00000001>Acquired {14}{34}{A4}{C0} Gald!<0B:00000000>
 -----------------------
 #また頼むよ
-Come back anytime.
+I'll be counting on you again.
 -----------------------
 #天職だと言うからまかせてみれば
 #このザマだ！
-You said this was my calling,
-so I gave it a shot...
+You said this was your calling,
+so I let you take over...
 and look at this mess!
 -----------------------
 #<size:00000180>帰れ！
@@ -189,15 +189,15 @@ notice
 -----------------------
 #{15}{24}{88}{C0}は
 #称号「{16}{A0}{81}{08}{24}{88}{CA}{81}{CB}{C0}」を得ました
-{15}{24}{88}{C0} earned the title
-"{16}{A0}{81}{08}{24}{88}{CA}{81}{CB}{C0}"!
+{15}{24}{88}{C0} acquired the title
+"{16}{A0}{81}{08}{24}{88}{CA}{81}{CB}{C0}".
 -----------------------
 #いってらっしゃいませ
 Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -231,7 +231,7 @@ exit-party_togather( short spd )
 notice
 -----------------------
 #{16}{26}{EA}{C0}を手に入れました
-{16}{26}{EA}{C0}Acquired.
+Acquired {16}{26}{EA}{C0}.
 -----------------------
 notice
 -----------------------

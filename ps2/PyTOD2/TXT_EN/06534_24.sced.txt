@@ -1,11 +1,11 @@
 #蒼天都市ヴァンジェロ
-The Azure City, Vangelo
+The Azure City of Vangelo
 -----------------------
 #蒼天都市ヴァンジェロ
-The Azure City, Vangelo
+The Azure City of Vangelo
 -----------------------
 #蒼天都市ヴァンジェロ
-The Azure City, Vangelo
+The Azure City of Vangelo
 -----------------------
 #若者
 Young Man
@@ -76,8 +76,8 @@ Girl
 -----------------------
 #････････
 #････････････
+...
 ......
-..........
 -----------------------
 #女の子
 Girl
@@ -93,16 +93,16 @@ Girl
 #お兄ちゃんたちの顔に
 #なんかついてる？
 Hi there! What's wrong?
-Is there something on our faces,
-big brothers?
+Is something stuck on your
+big brothers' faces?
 -----------------------
 #女の子
 Girl
 -----------------------
 #････････
 #････････････
+...
 ......
-..........
 -----------------------
 #おばさん
 Woman
@@ -266,11 +266,9 @@ out there.
 #なんらかの理由で
 #外界と遮断せざるをえない････
 #といったところだな
-They must have some compelling
-reason to be so thoroughly
-cut off from the outside
-world... That would be
-the long and short of it.
+Some reason must be forcing them
+to stay sealed off from the
+outside world... That's my guess.
 -----------------------
 #街の人
 Townsperson
@@ -323,6 +321,7 @@ I can't seem to remember anything.
 -----------------------
 <Kyle>
 -----------------------
+#<Judas>!?
 <Judas>!?
 -----------------------
 <Judas>
@@ -353,8 +352,8 @@ tough, we help each other out.
 Townsperson
 -----------------------
 #ここは、蒼天都市ヴァンジェロって街さ
-This here's the city of Vangelo,
-the Azure Sky City.
+This here's the Azure City
+of Vangelo.
 -----------------------
 #街の人
 Townsperson
@@ -382,8 +381,8 @@ Townsperson
 #ドームの中でしか生きられなかった我々に
 #希望の光を与えてくださったんだ
 The merciful Lady Elrane granted
-light and hope to we who could only
-survive within the dome.
+the light of hope to us, who could
+only survive within the dome.
 -----------------------
 <Kyle>
 -----------------------
@@ -421,14 +420,14 @@ Townsperson
 #あんたたち、とりあえず
 #フォルトゥナ神団の方たちに
 #話をしてみなよ
-You folks should go talk to
-the people from the Order of Fortuna
+You folks should go talk to the
+Sacred Order of Fortuna's people
 for now.
 -----------------------
 <Judas>
 -----------------------
 #フォルトゥナ神団？
-The Order of Fortuna?
+The Sacred Order of Fortuna?
 -----------------------
 #街の人
 Townsperson
@@ -436,9 +435,9 @@ Townsperson
 #あぁ、フォルトゥナ神団ってのは
 #エルレインさまを支える人たちの
 #集まりのことさ
-Yeah, the Order of Fortuna is a
-group of people who support Lady
-Elrane.
+Yeah, the Sacred Order of Fortuna
+is a group of people who support
+Lady Elrane.
 -----------------------
 #街の人
 Townsperson
@@ -490,11 +489,11 @@ on a massive scale.
 What on earth happened...?
 -----------------------
 #いってらっしゃいませ
-Welcome.
+Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -508,7 +507,7 @@ select
 No
 -----------------------
 #ごゆっくりお休みください
-Please rest well.
+Have a good night.
 -----------------------
 #おはようございます
 Good morning.
@@ -517,7 +516,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-We hope to see you again soon.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -540,7 +539,7 @@ notice
 #{16}{25}{CA}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{CA}{C0}, but
-your inventory is already full.
+your inventory is full.
 -----------------------
 notice
 -----------------------
@@ -569,7 +568,7 @@ may sometimes carry over.
 -----------------------
 #ひと瓶<0B:00000001>{14}{35}{D4}{C0}<0B:00000000>ガルドになりますが、
 #<item:00000012>を買いますか？
-One bottle costs <0B:00000001>{14}{35}{D4}{C0}<0B:00000000> gald.
+One bottle costs <0B:00000001>{14}{35}{D4}{C0}<0B:00000000> Gald.
 Would you like to buy <item:00000012>?
 -----------------------
 select
@@ -579,7 +578,7 @@ select
 #　リファイン講座　
 #　いらない　
 <03:00000000>Buy
-<0B:00000001>{14}{25}{DE}{C0}Buy all at once ({14}{35}{D8}{C0} Gald)<0B:00000000>
+<0B:00000001>Buy {14}{25}{DE}{C0} in bulk ({14}{35}{D8}{C0} Gald)<0B:00000000>
 Refine Guide
 No thanks
 -----------------------
@@ -600,11 +599,11 @@ Thank you for your purchase.
 -----------------------
 #<item:00000012>はひと瓶
 #<0B:00000001>{14}{35}{D4}{C0}<0B:00000000>ガルドです
-<item:00000012> costs <0B:00000001>{14}{35}{D4}{C0}<0B:00000000> gald per bottle.
+<item:00000012> costs <0B:00000001>{14}{35}{D4}{C0}<0B:00000000> Gald per bottle.
 -----------------------
 #リファイン講座を聞きたいですか？
 Would you like to hear
-the Refine lecture?
+the Refine Guide?
 -----------------------
 select
 -----------------------

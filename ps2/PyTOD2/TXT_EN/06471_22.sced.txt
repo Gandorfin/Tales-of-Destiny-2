@@ -42,9 +42,8 @@ Knight
 -----------------------
 #おまえら『ソーサラースコープ』って
 #道具の事を知ってるか？
-You lot ever heard of the Sorcerer's
-Scope? It's a tool, you know what
-I'm talking about?
+You lot ever heard of a tool
+called the Sorcerer's Scope?
 -----------------------
 #騎士
 Knight
@@ -139,7 +138,7 @@ feeling they'll linger in my memory
 as a rather bad one...
 -----------------------
 #暑い人
-Man in Heat
+Sweltering Man
 -----------------------
 #カルバレイス大陸には
 #無数の火山がある
@@ -147,7 +146,7 @@ The Calvalese continent is home
 to countless volcanoes.
 -----------------------
 #暑い人
-Man in Heat
+Sweltering Man
 -----------------------
 #ほとんどが活火山だからね
 #数年に一回は、どこかが
@@ -157,7 +156,7 @@ Every few years or so,
 one of 'em erupts somewhere.
 -----------------------
 #暑い人
-Man in Heat
+Sweltering Man
 -----------------------
 #おまけに地震もひんぱんに
 #起こるしね
@@ -168,7 +167,7 @@ on top of that. Hardly anyone wants
 to settle down here.
 -----------------------
 #暑い人
-Man in Heat
+Sweltering Man
 -----------------------
 #ここは天地戦争に敗れた
 #天上人が流刑された場所
@@ -177,7 +176,7 @@ the Aeth'er Wars were sent into
 exile.
 -----------------------
 #暑い人
-Man in Heat
+Sweltering Man
 -----------------------
 #一見、華やかそうだけどね
 #実は暗い歴史を背負ってるのさ
@@ -261,7 +260,7 @@ Wealthy Boy
 #ここには、ウッドロウ王のような
 #優れた統治者がいないせいですかね
 I suppose it's because they lack
-a fine ruler like King Garr.
+a fine ruler like King Woodrow.
 -----------------------
 #リッチ少年
 Wealthy Boy
@@ -302,7 +301,7 @@ Young Woman
 -----------------------
 #領主様は
 #宿屋で歌を披露したんだけどね････
-She performed a song at the inn,
+He performed a song at the inn,
 but...
 -----------------------
 #お姉さん
@@ -310,9 +309,9 @@ Young Woman
 -----------------------
 #これがまた、とんでもないオンチでね
 #歌を聞いて倒れる人が続出しちゃって
-She was utterly tone-deaf. People
+He was utterly tone-deaf. People
 kept fainting just from hearing
-her sing.
+him sing.
 -----------------------
 #お姉さん
 Young Woman
@@ -328,16 +327,16 @@ Young Woman
 #領主様がバカンスに来るくらいだから
 #アクアヴェイルってのは
 #ヒマな国なんでしょうね
-If she was vacationing here,
+If he was vacationing here,
 Aquaveil must be
 a dreadfully dull country indeed.
 -----------------------
 #いってらっしゃいませ
-Welcome.
+Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -351,7 +350,7 @@ select
 No
 -----------------------
 #ごゆっくりお休みください
-Please rest well.
+Have a good night.
 -----------------------
 #おはようございます
 Good morning.
@@ -360,7 +359,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-We hope to see you again.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -383,7 +382,7 @@ notice
 #{16}{25}{BE}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{BE}{C0}, but
-your inventory was full.
+your inventory is full.
 -----------------------
 notice
 -----------------------
@@ -410,7 +409,7 @@ may sometimes carry over.
 -----------------------
 #ひと瓶<0B:00000001>{14}{35}{C8}{C0}<0B:00000000>ガルドになりますが、
 #<item:00000012>を買いますか？
-One bottle costs <0B:00000001>{14}{35}{C8}{C0}<0B:00000000> gald.
+One bottle costs <0B:00000001>{14}{35}{C8}{C0}<0B:00000000> Gald.
 Would you like to buy <item:00000012>?
 -----------------------
 select
@@ -420,8 +419,8 @@ select
 #　リファイン講座　
 #　いらない　
 <03:00000000> Buy
-<0B:00000001>{14}{25}{D2}{C0} Buy all at once ({14}{35}{CC}{C0} Gald)<0B:00000000>
-Refining Tutorial
+<0B:00000001>Buy {14}{25}{D2}{C0} in bulk ({14}{35}{CC}{C0} Gald)<0B:00000000>
+Refine Guide
 No thanks
 -----------------------
 select
@@ -430,7 +429,7 @@ select
 #　リファイン講座　
 #　いらない　
 <03:00000000> Buy
-Refining Tutorial
+Refine Guide
 No thanks
 -----------------------
 #お買い上げ、ありがとうございます
@@ -441,11 +440,11 @@ Thank you for your purchase.
 -----------------------
 #<item:00000012>はひと瓶
 #<0B:00000001>{14}{35}{C8}{C0}<0B:00000000>ガルドです
-<item:00000012> is <0B:00000001>{14}{35}{C8}{C0}<0B:00000000> gald per bottle.
+<item:00000012> is <0B:00000001>{14}{35}{C8}{C0}<0B:00000000> Gald per bottle.
 -----------------------
 #リファイン講座を聞きたいですか？
 Would you like to hear
-the Refining tutorial?
+the Refine Guide?
 -----------------------
 select
 -----------------------

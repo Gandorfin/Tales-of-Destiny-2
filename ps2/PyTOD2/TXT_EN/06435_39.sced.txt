@@ -29,8 +29,8 @@ NOTICE
 -----------------------
 #<item:00000003>を
 #手に入れました
-Acquired <item:00000003>.
-Got it.
+Acquired
+<item:00000003>.
 -----------------------
 #シェフをかたどった雪だるまだ
 A snowman shaped like a chef.
@@ -162,7 +162,7 @@ Man
 #ウッドロウさまのため～っと！
 One scoop for everyone~♪
 Two scoops more
-for Lord Garr~!
+for Lord Woodrow~!
 -----------------------
 #おじさん
 Man
@@ -654,9 +654,9 @@ Kid
 #うちの父ちゃん
 #大きくなったら
 #ドラゴンになるのかなぁ？
-My old man...
-I wonder if I'll become
-a dragon when I grow up?
+I wonder if my old man's
+gonna turn into a dragon
+someday?
 -----------------------
 #子供
 Kid
@@ -803,7 +803,7 @@ Kid
 #ウッドロウさまの剣か
 #うちの母ちゃんのゲンコツぐらいさ！
 The only ones who could beat that
-dragon are Lord Garr's sword or
+dragon are Lord Woodrow's sword or
 my mom's fist!
 -----------------------
 #子供
@@ -857,7 +857,7 @@ Old Man
 #ウッドロウさまのおかげじゃ
 This town's recovery
 to this point is all
-thanks to Lord Garr.
+thanks to Lord Woodrow.
 -----------------------
 #おじいさん
 Old Man
@@ -867,7 +867,7 @@ Old Man
 #あのウッドロウさまだった
 In this town reduced to rubble,
 the first to start hauling timber
-was none other than Lord Garr.
+was none other than Lord Woodrow.
 -----------------------
 #おじいさん
 Old Man
@@ -892,7 +892,7 @@ Old Man
 #ウッドロウさまのためなら
 #このオイボレの命
 #いつ投げ出してもおしくないわい
-For Lord Garr's sake,
+For Lord Woodrow's sake,
 this old sack of bones
 would gladly lay down his life.
 -----------------------
@@ -904,7 +904,7 @@ Old Man
 #みなウッドロウさまのおかげじゃ
 The laughter never dying out
 in this town is all
-thanks to Lord Garr.
+thanks to Lord Woodrow.
 -----------------------
 #おじいさん
 Old Man
@@ -932,7 +932,7 @@ Old Man
 #まさかウッドロウさまの身に
 #なにかあったんじゃないだろうな！
 Surely nothing's happened
-to Lord Garr, has it?!
+to Lord Woodrow, has it?!
 -----------------------
 #おじいさん
 Old Man
@@ -942,7 +942,7 @@ Old Man
 #ウッドロウさまをお守りするしか････!!
 If it comes to that,
 I'll throw this old body of mine
-into protecting Lord Garr...!!
+into protecting Lord Woodrow...!!
 -----------------------
 <Loni>
 -----------------------
@@ -955,7 +955,7 @@ Old Man
 #ウッドロウさまは
 #ワシらの希望なんじゃ！
 #なんとしてもお守りせねばならん!!
-Lord Garr is
+Lord Woodrow is
 our hope!
 We must protect him at all costs!!
 -----------------------
@@ -967,7 +967,7 @@ Old Man
 #ウッドロウさまのおかげじゃ
 This town's
 recovery up to this point
-is all thanks to Lord Garr.
+is all thanks to Lord Woodrow.
 -----------------------
 #おじいさん
 Old Man
@@ -977,7 +977,7 @@ Old Man
 #あのウッドロウさまだった
 In this town reduced to rubble, the
 first to start hauling lumber was
-Lord Garr himself.
+Lord Woodrow himself.
 -----------------------
 #おじいさん
 Old Man
@@ -1002,7 +1002,7 @@ Old Man
 #ウッドロウさまのためなら
 #このオイボレの命
 #いつ投げ出してもおしくないわい
-For Lord Garr's sake,
+For Lord Woodrow's sake,
 this old body of mine
 I'd gladly lay down at any moment.
 -----------------------
@@ -1171,7 +1171,7 @@ John
 -----------------------
 #返事が無い　ついでに意識も無いようだ
 No reply... and it looks like
-she's lost consciousness too.
+he's lost consciousness too.
 -----------------------
 #ジニー
 Ginny
@@ -1207,7 +1207,7 @@ To our own time.
 -----------------------
 #ふぅ、やれやれだぜ
 #まったく、大変だったなぁ、<Kyle>
-Phew. Good riddance.
+Phew, what a relief.
 Man, that was rough, <Kyle>.
 -----------------------
 <Kyle>
@@ -1390,7 +1390,7 @@ Enough of this!
 #････まずは、ウッドロウに
 #会いに行くことにするぞ
 ...First,
-we'll go see Garr.
+we'll go see Woodrow.
 -----------------------
 <Judas>
 -----------------------
@@ -1465,8 +1465,9 @@ Grid
 #漆黒の翼ともあろう者が････
 #ふ････不覚････････
 To think I can't even pay for
-lodging... One with wings of deepest
-black... How... humiliating...
+lodging... And I call myself one
+of the Jet-Black Wings...
+How... humiliating...
 -----------------------
 #グリッド
 Grid
@@ -1615,7 +1616,7 @@ Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -1638,7 +1639,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-We look forward to seeing you again.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------

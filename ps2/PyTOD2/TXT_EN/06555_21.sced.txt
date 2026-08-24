@@ -106,10 +106,9 @@ Finally got the picture.
 #････けどね、「はい、そうですか」って
 #すべてを受け入れられるほど
 #あたしは人間ができていないんだよ！
-...But I'm not the kind of
-person who can just nod and
-accept everything! I'm not that
-'well-made'!
+...But I'm not saintly enough
+to just nod and say 'Oh, I see'
+and accept all of this!
 -----------------------
 <Kyle>
 -----------------------
@@ -172,9 +171,9 @@ be with <Kyle>, just the two of us...
 #どうしちゃったんだよ、<Reala>！
 #<Reala>は、このままで
 #いいっていうのか!?
-What's gotten into you, <Reala>?! Are
-you saying you're fine with <Reala>
-staying like this?!
+What's gotten into you, <Reala>?!
+<Reala>, are you saying you're fine
+with things staying like this?!
 -----------------------
 <Reala>
 -----------------------
@@ -196,7 +195,7 @@ No one I know!
 #フィリアさんもウッドロウさんも････
 #だれもいない！
 My dad, my mom...
-Philia, Garr...
+Philia, Woodrow...
 No one!
 -----------------------
 <Kyle>
@@ -326,8 +325,8 @@ Why?!
 #わたしには、ないの････
 #レンズがあれば、いいのだけど････
 I don't have the power to take
-everyone into the past. Not even
-with a Lens... If only I had one...
+everyone into the past on my own...
+If we had Lens, that would work...
 -----------------------
 <Kyle>
 -----------------------
@@ -353,11 +352,11 @@ That voice... It's Elrane!
 Let's go check it out!
 -----------------------
 #いってらっしゃいませ
-Please come again.
+Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -371,7 +370,7 @@ select
 No
 -----------------------
 #ごゆっくりお休みください
-Please rest well.
+Have a good night.
 -----------------------
 #おはようございます
 Good morning.
@@ -380,7 +379,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-We look forward to your next visit.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -403,7 +402,7 @@ notice
 #{16}{25}{D6}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{D6}{C0}, but
-couldn't carry any more.
+your inventory is full.
 -----------------------
 notice
 -----------------------

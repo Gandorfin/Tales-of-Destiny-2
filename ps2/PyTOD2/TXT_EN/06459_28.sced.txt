@@ -38,8 +38,8 @@ Please, take your time.
 #時間旅行から帰ってみりゃあ、レンズはなし
 #よくもまあ、こう難問ばかり続くもんだ
 We get back from time travel, and
-no Lens. Man, the hard questions
-just keep on coming.
+no Lens. Man, it's just one tough
+problem after another.
 -----------------------
 <Loni>
 -----------------------
@@ -182,7 +182,7 @@ It's not like that...
 #あぁもう、とにかく、
 #ウッドロウさんのところに行くよ！
 Ah, forget it! Anyway,
-we're heading to Garr's place!
+we're heading to Woodrow's place!
 -----------------------
 <Reala>
 -----------------------
@@ -214,8 +214,9 @@ Good night~......
 -----------------------
 #なに言ってるの！　もう朝でしょ、あさ！
 #ねぇ、起きてよ、<Kyle>
-What are you talking about! It's
-morning, morning! Hey, wake up, <Kyle>
+What are you talking about!
+It's morning, morning!
+Hey, wake up, <Kyle>.
 -----------------------
 <Kyle>
 -----------------------
@@ -495,17 +496,17 @@ we sank into the sea...
 #あんたたち、たしか
 #イクシフォスラー使ったのよね？
 You guys used
-an Exisphoslar, didn't you?
+the Ixifoslar, didn't you?
 -----------------------
 <Harold>
 -----------------------
 #なら、そのレンズを使えばいいじゃない
 #ソーディアンに使ったのと同じ
 #私の特別製だからエネルギーもバッチリよ
-Then just use that Lens. Same as
-what you used on the Swordian.
-It's my special creation, so the
-energy's perfect.
+Then just use that Lens. It's the
+same kind I put in the Swordians.
+My own special make, so it's got
+energy to spare.
 -----------------------
 <Judas>
 -----------------------
@@ -549,8 +550,8 @@ It should be back where it started.
 -----------------------
 #となると、目指すのは地上軍拠点跡地の
 #格納庫ってワケか
-Then it's the old ground army base.
-We're after the hangar.
+Then we're headed for the hangar
+at the Er'ther Base Ruins.
 -----------------------
 <Kyle>
 -----------------------
@@ -562,7 +563,7 @@ Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -608,7 +609,7 @@ notice
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{C2}{C0}, but
-inventory is full already.
+your inventory is full.
 -----------------------
 notice
 -----------------------

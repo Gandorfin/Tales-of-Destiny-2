@@ -222,8 +222,8 @@ notice
 -----------------------
 #<Loni>は
 #称号「<item:0000082E>」を得ました
-<Loni> obtained the title
-"<item:0000082E>"!
+<Loni> acquired the title
+"<item:0000082E>".
 -----------------------
 #宿屋
 Inn
@@ -257,15 +257,15 @@ Take your time.
 Chef
 -----------------------
 #{16}{34}{8C}{C0}作ってる？
-Are you making {16}{34}{8C}{C0}?
+Making {16}{34}{8C}{C0}, are you?
 -----------------------
 #シェフ
 Chef
 -----------------------
 #{16}{34}{8C}{C0}の作り方を
 #知りたいですか？
-Want to know how to make
-{16}{34}{8C}{C0}?
+Want to learn how
+to make {16}{34}{8C}{C0}?
 -----------------------
 select
 -----------------------
@@ -279,8 +279,8 @@ Chef
 -----------------------
 #{16}{34}{8C}{C0}の作り方を
 #教えてあげよう
-I'll show you how to make
-{16}{34}{8C}{C0}.
+I'll teach you how
+to make {16}{34}{8C}{C0}.
 -----------------------
 #シェフ
 Chef
@@ -368,8 +368,8 @@ Chef
 -----------------------
 #{16}{34}{8C}{C0}を作るのに必要な食材は
 #{18}{44}{88}{C0}です
-The ingredients you need to make {16}{34}{8C}{C0}
-are {18}{44}{88}{C0}.
+To make {16}{34}{8C}{C0}, you'll need
+{18}{44}{88}{C0}.
 -----------------------
 #シェフ
 Chef
@@ -382,8 +382,8 @@ Chef
 -----------------------
 #ゆずってくれれば{16}{34}{8C}{C0}を
 #作るがどうだい？
-If you hand them over, I'll make
-{16}{34}{8C}{C0} for you. How about it?
+Hand them over and I'll whip up
+some {16}{34}{8C}{C0}. How about it?
 -----------------------
 select
 -----------------------
@@ -397,8 +397,8 @@ Chef
 -----------------------
 #そうか、待ってな　
 #すぐに{16}{34}{8C}{C0}を作ってやるよ
-All right, just wait.
-I'll whip up some {16}{34}{8C}{C0} right away.
+All right, just a moment.
+I'll have {16}{34}{8C}{C0} ready in no time.
 -----------------------
 #シェフ
 Chef
@@ -438,7 +438,7 @@ off my hands.
 notice
 -----------------------
 #{16}{34}{8C}{C0}のレシピを拾いました
-Acquired recipe for {16}{34}{8C}{C0}.
+Picked up the recipe for {16}{34}{8C}{C0}.
 -----------------------
 notice
 -----------------------
@@ -450,11 +450,11 @@ Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
-Would you like to stay the night?
+Would you like to stay?
 -----------------------
 select
 -----------------------
@@ -473,7 +473,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-We look forward to your next visit.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -496,7 +496,7 @@ notice
 #{16}{25}{F6}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{F6}{C0}, but
-your inventory is already full.
+your inventory is full.
 -----------------------
 notice
 -----------------------

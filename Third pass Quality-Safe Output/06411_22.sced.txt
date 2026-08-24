@@ -322,7 +322,7 @@ Businessman
 #この屋敷を買い取ったら
 #金庫に遺言状が入っておってな
 When I bought this mansion
-on the old Oberon Company site,
+on the old Oberon Corporation site,
 there was a will in the safe.
 -----------------------
 #商人

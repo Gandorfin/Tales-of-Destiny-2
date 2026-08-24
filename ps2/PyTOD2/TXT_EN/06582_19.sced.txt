@@ -1,5 +1,5 @@
 #ラディスロウ・ディムロスの私室兼公務室
-Ladislaw - Dymlos's Office/Quarters
+Radisrol - Dymlos's Office/Quarters
 -----------------------
 #ラディスロウ
 Radisrol
@@ -10,8 +10,8 @@ Dymlos's Private Quarters and Office
 #巧妙に隠されたお酒を発見しました
 #<item:0000000C>と<item:0000000B>を
 #３つずつ手に入れました
-I found some cleverly hidden liquor.
-Obtained <item:0000000C> and <item:0000000B>,
+Found some cleverly hidden liquor.
+Acquired <item:0000000C> and <item:0000000B>,
 three of each.
 -----------------------
 #ディムロス
@@ -24,8 +24,8 @@ occasion...
 #他にも色々な私物が入っているが
 #これ以上持っていくのは勘弁してあげよう
 There are various other personal
-belongings in here, but I'll
-let you off with just that.
+belongings inside, but let's
+leave the rest alone.
 -----------------------
 #地図や軍事拠点を記した資料が集められている
 Documents detailing maps and
@@ -153,7 +153,7 @@ Dymlos
 Soldier
 -----------------------
 #ディムロス閣下！
-Lord Dymlos!
+General Dymlos!
 -----------------------
 #ディムロス
 Dymlos
@@ -165,7 +165,7 @@ What's all this commotion?
 Soldier
 -----------------------
 #こ、これを！
-T-take this!
+L-look at this!
 -----------------------
 #兵士
 Soldier
@@ -214,7 +214,7 @@ You may step back.
 Soldier
 -----------------------
 #閣下、あの････
-My lord, but...
+But, sir...
 -----------------------
 #ディムロス
 Dymlos
@@ -307,8 +307,8 @@ Dymlos
 #君たちにとって私はもとより
 #アトワイトも赤の他人のはずだ････
 #なのになぜ、そこまで？
-To you two, I should be a stranger,
-and Atwight even more so...
+To you, I should be a stranger,
+to say nothing of Atwight...
 So why would you go this far?
 -----------------------
 <Reala>
@@ -437,11 +437,11 @@ This conversation at this flag is
 unset.
 -----------------------
 #いってらっしゃいませ
-Welcome.
+Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -487,7 +487,7 @@ notice
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{C2}{C0}, but
-couldn't carry it--inventory full.
+your inventory is full.
 -----------------------
 notice
 -----------------------

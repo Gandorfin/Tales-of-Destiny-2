@@ -54,11 +54,11 @@ Dymlos
 #命により参上しました
 #我々はあなた方を歓迎します
 We come at the command of Marius
-Raiker, Supreme Commander of the
-Ground Forces. We welcome you.
+Raiker, Commander-in-Chief of the
+Er'ther Army. We welcome you.
 -----------------------
 #ラディッツ
-Radisrol
+Raditz
 -----------------------
 #ベルクラント開発陣を代表して礼を言う
 #ありがとう、ディムロスくん
@@ -149,8 +149,8 @@ I'll be waiting in the hangar!
 <Loni>
 -----------------------
 #ちっとは認められたってところかな？
-Guess I've earned a little respect,
-huh?
+Guess we've earned a little
+respect, huh?
 -----------------------
 <Kyle>
 -----------------------
@@ -165,11 +165,11 @@ All right, let's do this!
 Let's go, everyone!
 -----------------------
 #いってらっしゃいませ
-Please come again.
+Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald per night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -192,7 +192,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-We look forward to your next visit.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------

@@ -10,37 +10,42 @@ Egg of God - Middle Layer
 #『<Harold>＝ベルセリオス
 #　神をあざむく異端の知識にそまりし者
 #　故に断罪』
-<Harold> = Berselius One who wallows
-in heretical knowledge that deceives
-the gods Condemned.
+<Harold> Berselius:
+one steeped in heretical knowledge
+that deceives the gods.
+Thus condemned.
 -----------------------
 #『<Nanaly>＝フレッチ
 #　神の威光を否定する不信心者
 #　故に断罪』
-<Nanaly> = Flitch A faithless one
-who denies the glory of the gods
-Condemned.
+<Nanaly> Fletcher:
+a faithless one who denies
+the glory of the gods.
+Thus condemned.
 -----------------------
 #『リオン＝マグナス
 #　神の恩を忘れし裏切り者
 #　故に断罪』
-Leon Magnus A traitor who
-has forgotten the grace
-of the gods Condemned.
+Lion Magnus:
+a traitor who has forgotten
+the grace of the gods.
+Thus condemned.
 -----------------------
 #『<Loni>＝デュナミス
 #　神への信仰を忘れた愚か者
 #　故に断罪』
-<Loni> = Dunamis A fool who has
-forgotten faith in the gods
-Condemned.
+<Loni> Dunamis:
+a fool who has forgotten
+his faith in the gods.
+Thus condemned.
 -----------------------
 #『<Kyle>＝デュナミス
 #　神に仇なす危険なる者
 #　故に断罪』
-<Kyle> = Dunamis
-A dangerous foe who defies the gods
-Condemned.
+<Kyle> Dunamis:
+a dangerous one who
+defies the gods.
+Thus condemned.
 -----------------------
 <Loni>
 -----------------------
@@ -57,11 +62,11 @@ notice
 The treasure chest was a cheap trick.
 -----------------------
 #いってらっしゃいませ
-Come again soon.
+Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -75,7 +80,7 @@ select
 No
 -----------------------
 #ごゆっくりお休みください
-Please rest well.
+Have a good night.
 -----------------------
 #おはようございます
 Good morning.
@@ -84,7 +89,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-We look forward to your next visit.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -107,7 +112,7 @@ notice
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{C2}{C0}, but
-couldn't carry it--inventory full.
+your inventory is full.
 -----------------------
 notice
 -----------------------

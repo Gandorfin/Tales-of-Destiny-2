@@ -48,16 +48,18 @@ The door is closed.
 notice
 -----------------------
 #大きなコンテナがあります
-<item:00000033>、<item:00000034>、<item:00000035>
+#<item:00000033>、<item:00000034>、<item:00000035>
 #この三つの鍵でプロテクトされているようです
-There's a large container here.
-It seems protected by three keys.
+There's a large container here,
+protected by three keys:
+<item:00000033>, <item:00000034>, <item:00000035>.
 -----------------------
 notice
 -----------------------
-<item:00000033>、<item:00000034>、<item:00000035>
+#<item:00000033>、<item:00000034>、<item:00000035>
 #三つの鍵を使ってプロテクトを解除しました
-Three keys removed the protection.
+Used <item:00000033>, <item:00000034>, <item:00000035>.
+The protection has been removed.
 -----------------------
 <Harold>
 -----------------------
@@ -112,7 +114,7 @@ Well, I'm done here.
 Let's head back.
 -----------------------
 #タイムオーバー
-Time over.
+Time's up.
 -----------------------
 <Harold>
 -----------------------
@@ -198,11 +200,11 @@ they'll be ruined in an instant!
 There's nothing of note.
 -----------------------
 #いってらっしゃいませ
-Come again soon.
+Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -225,7 +227,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-We hope to see you again.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -236,7 +238,7 @@ exit-party_togather( short spd )
 notice
 -----------------------
 #{16}{25}{F6}{C0}を手に入れました
-{16}{25}{F6}{C0}You obtained .
+Acquired {16}{25}{F6}{C0}.
 -----------------------
 notice
 -----------------------

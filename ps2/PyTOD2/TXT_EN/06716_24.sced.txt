@@ -1,8 +1,8 @@
 #神のたまご・下層部
-Egg of God - Lower Level
+Egg of God - Lower Layer
 -----------------------
 #神のたまご・下層部
-Egg of God - Lower Level
+Egg of God - Lower Layer
 -----------------------
 <Kyle>
 -----------------------
@@ -211,14 +211,14 @@ Elrane
 -----------------------
 #神の････ち････から････だけが････
 #それを････可能にす････る････
-Only... from within... God...
-can that... be made... possible...
+Only... God's... pow...er...
+can make... it... possible...
 -----------------------
 #フォルトゥナ
 Fortuna
 -----------------------
 #<Reala>、我が聖女よ････
-<Reala>, my holy maiden...
+<Reala>, my Holy Woman...
 -----------------------
 <Kyle>
 -----------------------
@@ -457,7 +457,7 @@ That is...
 #核となるレンズ
 #そして････
 Yes. The Lens that forms
-the core of Fortuna the god.
+the core of the goddess Fortuna.
 And...
 -----------------------
 <Reala>
@@ -473,11 +473,11 @@ what you must shatter.
 ..............
 -----------------------
 #いってらっしゃいませ
-Welcome.
+Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -500,7 +500,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-We hope to see you again.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------

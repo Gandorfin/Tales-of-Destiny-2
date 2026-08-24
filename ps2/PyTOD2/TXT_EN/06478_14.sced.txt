@@ -25,7 +25,8 @@ NOTICE
 #<item:0000000A>を手に入れました
 #何だか、人として大切なものを失った気がしました
 Obtained <item:0000000A>.
-I feel I've lost some humanity...
+Somehow, I feel I've lost something
+vital to my humanity...
 -----------------------
 NOTICE
 -----------------------
@@ -43,10 +44,10 @@ Grid
 #なんだ、お前は？
 #この俺が『漆黒の翼』のリーダー
 #グリッド様と知った上で話しかけてるのか？
-What's with you? You mean to tell me
-you came up and spoke to me knowing
-full well that I am Grid, leader of
-the 'Black Wings'?!
+What's with you? You dare speak
+to me knowing full well that I am
+Grid, leader of the 'Jet-Black
+Wings'?!
 -----------------------
 select
 -----------------------
@@ -69,7 +70,7 @@ Grid
 #『漆黒の翼』の名は優れた才能を
 #持つ者にのみ与えられる栄誉！
 #それを知らない者が居るわけないのだ！
-The name 'Black Wings' is an
+The name 'Jet-Black Wings' is an
 honor granted only to those with
 exceptional talent! There's no way
 anyone wouldn't know that!
@@ -92,7 +93,7 @@ Grid
 #知らない者がいるとは！
 What! How ignorant! To think there
 are people in this world who don't
-know the name 'Black Wings'!
+know the name 'Jet-Black Wings'!
 -----------------------
 #グリッド
 Grid
@@ -103,9 +104,9 @@ Grid
 #このグリッド様のことだ！
 Listen up, and listen good!
 The invincible, proud righteous
-thief... ...leader of the
-'Black Wings'... ...is none
-other than Grid himself!
+thief, leader of the 'Jet-Black
+Wings', is none other than
+Grid himself!
 -----------------------
 #グリッド
 Grid
@@ -113,7 +114,7 @@ Grid
 #『漆黒の翼』は今、四英雄並に
 #有名なチームなんだぞ!?
 #しっかり頭に叩き込んでおけよ！
-The 'Black Wings' are as famous
+The 'Jet-Black Wings' are as famous
 as the Four Heroes now, you know!?
 Drill that into your thick skull!
 -----------------------
@@ -123,7 +124,7 @@ Grid
 #先代は、ヒューゴの野望を打ち砕くべく
 #かの四英雄と共に戦ったという
 The previous generation fought
-alongside those four heroes to crush
+alongside those Four Heroes to crush
 Hugo's ambitions, or so they say.
 -----------------------
 #グリッド
@@ -194,7 +195,7 @@ Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？

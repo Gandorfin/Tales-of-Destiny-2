@@ -54,9 +54,9 @@ NOTICE
 #白く険しき山の中腹
 #絶海に沈みし偶像の上
 #巨石文明の名残１
-Amid flames on the desert continent
+In flames on the desert continent
 On a stark white mountainside
-Above an idol sunk in the open sea
+Above an idol sunk at sea
 Megalithic Civilization Remnant 1
 -----------------------
 NOTICE
@@ -66,9 +66,9 @@ NOTICE
 #人の訪れぬ白い島、緑の園
 #異国の地、大地をえぐる円
 Megalithic Civilization Remnant 2
-By a lake shrouded in deep green
-A white isle, a green garden unseen
-Foreign land, a circle cut in earth
+By a lake veiled in deep green
+White isle, garden unvisited
+A circle carved in foreign earth
 -----------------------
 NOTICE
 -----------------------
@@ -99,7 +99,7 @@ Writing is carved on the monument,
 but it's too difficult to read.
 -----------------------
 #リアーナ
-Riana
+Leianna
 -----------------------
 #本来ならば、娘のクレアも
 #呼ぶところなのですが････
@@ -131,7 +131,7 @@ let us express our gratitude.
 #それに私のよき友人で
 #いてくださいましね
 I hope you'll remain close
-friends with Fate, my
+friends with Fayte, my
 daughters Emily and Claire,
 and myself for years to come.
 -----------------------
@@ -141,8 +141,8 @@ Emily
 #<Loni>さまってス・テ・キ！
 #エミリ、チューしちゃおっと！
 Lord <Loni>, you're so wonderful!
-Emily, I'm gonna give you a big
-kiss! Mwah!
+Emily's gonna give you
+a biiig smooch!
 -----------------------
 <Loni>
 -----------------------
@@ -151,7 +151,7 @@ kiss! Mwah!
 #手を出さない主義なんだぁ～！
 P-please, stop! I have a strict
 policy against getting involved
-with anyone under 14!
+with anyone 14 or under!
 -----------------------
 #あたし、エミリっていうの
 #あなたの名前は？
@@ -257,18 +257,18 @@ unless you fancy being dragged off
 to another world.
 -----------------------
 #フェイト
-Fate
+Fayte
 -----------------------
 #リアーナ
-Riana
+Leianna
 -----------------------
 #旅の方、よくぞおいでくださいました
 #私は、リアーナと申します
 Welcome, travelers.
-My name is Riana.
+My name is Leianna.
 -----------------------
 #リアーナ
-Riana
+Leianna
 -----------------------
 #まずは夫の話に
 #耳をかたむけてやって
@@ -281,8 +281,8 @@ to what my husband has to say.
 #よくぞ参られたな
 #私がここの領主、フェイトだ
 Welcome, travelers, to Aquaveil.
-It is good of you to have come so
-far. I am Fate, lord of these lands.
+Good of you to have come so far.
+I am Fayte, lord of these lands.
 -----------------------
 <Kyle>
 -----------------------
@@ -354,7 +354,7 @@ are a dear friend to us as well.
 Please, make yourself at home.
 -----------------------
 #フェイト
-Fate
+Fayte
 -----------------------
 #君の両親は私たち夫婦にとって
 #本当に大切な友人なんだ
@@ -400,17 +400,17 @@ are a dear friend to us as well.
 Please, make yourself at home.
 -----------------------
 #フェイト
-Fate
+Fayte
 -----------------------
 <Kyle>
 -----------------------
 #あれ？
 #フェイトさんは？
 Huh?
-Where did Fate go?
+Where did Fayte go?
 -----------------------
 #リアーナ
-Riana
+Leianna
 -----------------------
 #ああ、<Kyle>さん！
 #実は先程、大変なことが････
@@ -425,7 +425,7 @@ Something terrible?
 What happened!?
 -----------------------
 #リアーナ
-Riana
+Leianna
 -----------------------
 #結界が････
 #地下の結界が････！
@@ -448,7 +448,7 @@ It's no use...!
 -----------------------
 #フェイトさん！
 #何があったんですか！
-Fate!
+Fayte!
 What happened?!
 -----------------------
 #その声は<Kyle>くんか!?
@@ -560,7 +560,7 @@ I... I'm getting that feeling too...
 #ご、ごめんなさい　フェイトさん
 #封印が解けたのって、たぶんオレたちの
 #責任です････
-I-I'm sorry, Fate. The seal
+I-I'm sorry, Fayte. The seal
 breaking... that was probably our
 fault...
 -----------------------
@@ -693,12 +693,12 @@ No
 notice
 -----------------------
 #このマップは暗くなります
-This area will be dark.
+This area is dark.
 -----------------------
 notice
 -----------------------
 #このマップはダメージを受けます
-This area will inflict damage.
+This area deals damage.
 -----------------------
 notice
 -----------------------
@@ -708,14 +708,14 @@ Encounter rate is at maximum.
 notice
 -----------------------
 #このマップは視界が狭くなります
-This area has limited visibility.
+Visibility is limited in this area.
 -----------------------
 #いってらっしゃいませ
 Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -760,8 +760,8 @@ notice
 -----------------------
 #{16}{25}{E2}{C0}がありましたが
 #いっぱいで持てませんでした
-Found {16}{25}{E2}{C0}, but...
-Your inventory is full.
+Found {16}{25}{E2}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------

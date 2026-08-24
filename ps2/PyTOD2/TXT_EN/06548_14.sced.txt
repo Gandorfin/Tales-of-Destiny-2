@@ -14,8 +14,8 @@ Man
 #黄昏都市レアルタに
 #向かわれるのですか？
 Might you all be
-heading to the twilight city
-of Realta?
+heading to the
+Twilight City Realta?
 -----------------------
 <Kyle>
 -----------------------
@@ -72,7 +72,8 @@ We haven't time to waste.
 NOTICE
 -----------------------
 #黄昏都市レアルタまで、レンズを届けますか？
-Deliver the Lens to Twilight Realta?
+Deliver the Lens to
+Twilight City Realta?
 -----------------------
 select
 -----------------------
@@ -160,7 +161,7 @@ Shop Machine
 Thank you very much.
 -----------------------
 #いってらっしゃいませ
-Please come again.
+Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
@@ -187,7 +188,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-We look forward to your next visit.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------

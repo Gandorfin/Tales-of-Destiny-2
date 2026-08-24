@@ -14,7 +14,7 @@ Worn-out furniture lines the walls.
 Inn
 -----------------------
 #いってらっしゃいませ
-Come again soon!
+Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
@@ -22,7 +22,7 @@ It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald.
 Care to stay the night?
 -----------------------
 #お泊まりになりますか？
-Stay the night?
+Would you like to stay?
 -----------------------
 select
 -----------------------
@@ -32,7 +32,7 @@ select
 No
 -----------------------
 #ごゆっくりお休みください
-Enjoy your stay.
+Have a good night.
 -----------------------
 #おはようございます
 Good morning.
@@ -41,7 +41,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-We hope to see you again.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -239,7 +239,7 @@ you. A chef worthy of this recipe.
 notice
 -----------------------
 #{16}{35}{D8}{C0}のレシピを拾いました
-Acquired the recipe for {16}{35}{D8}{C0}.
+Picked up the recipe for {16}{35}{D8}{C0}.
 -----------------------
 notice
 -----------------------

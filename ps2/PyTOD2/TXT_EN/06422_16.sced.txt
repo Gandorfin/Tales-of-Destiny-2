@@ -21,7 +21,8 @@ The power must be down...
 #電源を入れるんだ
 All right. We need to go to the
 power room on the first floor and
-activate the Lens Startup Engine.
+activate the Lens Activation
+Engine.
 -----------------------
 notice
 -----------------------
@@ -103,7 +104,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-We hope to see you again.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------

@@ -23,14 +23,14 @@ Leave it
 NOTICE
 -----------------------
 #<item:0000002F>を手に入れました
-<item:0000002F>Acquired .
+Acquired <item:0000002F>.
 -----------------------
 #いってらっしゃいませ
-Come again.
+Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -53,7 +53,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-Please come again.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -64,12 +64,12 @@ exit-party_togather( short spd )
 notice
 -----------------------
 #{16}{25}{BA}{C0}を手に入れました
-{16}{25}{BA}{C0}Acquired .
+Acquired {16}{25}{BA}{C0}.
 -----------------------
 notice
 -----------------------
 #<item:FFFFFFFF>を手に入れました
-<item:FFFFFFFF>Acquired .
+Acquired <item:FFFFFFFF>.
 -----------------------
 notice
 -----------------------

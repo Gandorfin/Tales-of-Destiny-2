@@ -59,7 +59,7 @@ Kid
 #パパが、無事に帰ってくるように
 #ボク、いつもアタモニさまに
 #お祈りをしてるんだ
-I always pray to Lady Atamoni
+I always pray to Atamoni
 so that Papa will come back safe.
 -----------------------
 #子供
@@ -84,8 +84,8 @@ Kid
 #ボクが一番好きなのは
 #アタモニ神にお祈りを捧げる
 #ことだよ
-What I like most is
-offering prayers to the god Atamoni.
+What I like most is offering
+prayers to the goddess Atamoni.
 -----------------------
 #子供
 Kid
@@ -131,8 +131,8 @@ Elrane
 #偉大なる神アタモニの
 #祝福があらんことを････！
 May the blessings of the great
-god Atamoni be upon the people of
-this town...!
+goddess Atamoni be upon the
+people of this town...!
 -----------------------
 #男性
 Man
@@ -184,7 +184,7 @@ off even bigger miracles.
 -----------------------
 #････それより、<Kyle>
 #あのペンダント、気にならないか？
-...Anyway, <Kyle>
+...Anyway, <Kyle>,
 doesn't that pendant bother you?
 -----------------------
 <Kyle>
@@ -245,9 +245,8 @@ to watch his mouth. Hehehe...
 #あの子のモノと決まったわけじゃ
 #ねえだろうが!!
 You idiot! Just because it's the
-same pendant doesn't mean it belongs
-to that girl! How many times do I
-gotta say it?!
+same pendant doesn't mean it
+belongs to that girl!
 -----------------------
 #エルレイン
 Elrane
@@ -284,7 +283,7 @@ Elrane
 #････なるほど
 #そういうことですか
 ...I see.
-Is that the situation?
+So that is how it is.
 -----------------------
 #エルレイン
 Elrane
@@ -329,9 +328,9 @@ Elrane
 #だから、私がもし奪っていたとしたら
 #なにがなんでも、取り返そうと思った････
 #そういうことですか
-So if someone had taken it from her,
-you would stop at nothing to get it
-back... Is that what you're saying?
+So if I had taken it from her, you
+meant to take it back no matter
+what... Is that it?
 -----------------------
 <Loni>
 -----------------------
@@ -535,8 +534,8 @@ Grand Temple...
 #ねぇ<Loni>
 #他に、大神殿に行く道って
 #どっかにない？
-Hey, <Loni>
-Isn't there another way
+Hey, <Loni>,
+isn't there another way
 to get to the Grand Temple?
 -----------------------
 <Loni>
@@ -845,9 +844,9 @@ Woodcutter
 #知ってるか？
 #このアイグレッテがわずか十数年で
 #ここまで発展した理由を
-You know what?
-This town of Aigrette grew this much
-in just over ten years.
+Do you know why this town of
+Aigrette grew this much in
+just over ten years?
 -----------------------
 #きこり
 Woodcutter
@@ -917,9 +916,9 @@ Woodcutter
 #知ってるか？
 #このアイグレッテがわずか数年で
 #ここまで発展した理由を
-You know what?
-This town of Aigrette grew this much
-in just a few years.
+Do you know why this town of
+Aigrette grew this much in
+just a few years?
 -----------------------
 #きこり
 Woodcutter
@@ -937,8 +936,8 @@ Woodcutter
 #ファンダリア王ウッドロウと
 #フィリアさまの尽力があると聞く
 I hear the growth of Aigrette owes
-much to the efforts of King Garr of
-Phandaria and Lady Philia.
+much to the efforts of King Woodrow
+of Phandaria and Lady Philia.
 -----------------------
 #きこり
 Woodcutter
@@ -953,7 +952,7 @@ Traveler
 #アンタたち
 #レンズを寄進しにきたのかい？
 You folks here to donate
-some Lenses?
+some Lens?
 -----------------------
 select
 -----------------------
@@ -987,7 +986,7 @@ Traveler
 #オレも、はやいとこレンズ集めて
 #エルレインさまの奇跡を
 #体験してみたいもんだぜ
-I'm gonna gather up some Lenses
+I'm gonna gather up some Lens
 quick and experience Lady Elrane's
 miracle for myself too.
 -----------------------
@@ -997,7 +996,7 @@ Traveler
 #オレもはやいとこレンズ集めて
 #エルレインさまの奇跡を
 #体験してみたいもんだぜ
-I'm gonna gather up some Lenses
+I'm gonna gather up some Lens
 quick and experience Lady Elrane's
 miracle for myself too.
 -----------------------
@@ -1355,7 +1354,7 @@ Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？

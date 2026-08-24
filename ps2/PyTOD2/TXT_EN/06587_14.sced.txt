@@ -5,7 +5,7 @@ Supplies Storage
 Supplies Storage
 -----------------------
 #タイムオーバー
-Time Over
+Time's up.
 -----------------------
 <Harold>
 -----------------------
@@ -95,7 +95,7 @@ Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -118,7 +118,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-We look forward to seeing you again.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -129,7 +129,7 @@ exit-party_togather( short spd )
 notice
 -----------------------
 #{16}{25}{F6}{C0}を手に入れました
-{16}{25}{F6}{C0}You obtained .
+Acquired {16}{25}{F6}{C0}.
 -----------------------
 notice
 -----------------------

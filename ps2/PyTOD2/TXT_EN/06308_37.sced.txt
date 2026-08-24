@@ -96,8 +96,8 @@ Woman
 #これも、アタモニさまのお導きかね？
 Well, well, on such a beautiful day
 <Loni>, I never thought I'd get to
-see you, Is this also the divine
-guidance of Lord Atamoni?
+see you. Is this the divine
+guidance of Lady Atamoni?
 -----------------------
 <Loni>
 -----------------------
@@ -113,8 +113,8 @@ Woman
 -----------------------
 #<Loni>がクレスタにいてくれれば
 #ルーティも喜ぶだろうよ
-<Loni>
-If you stuck around in Cresta,
+<Loni>,
+if you stuck around in Cresta,
 Rutee would be happy too.
 -----------------------
 #おばさん
@@ -304,8 +304,8 @@ Old Man
 #家族と死に別れ、生きる気力もなかった
 #そんなオイボレに、おまえたちは
 #生きる気力をあたえてくれた････
-Separated from my family by death,
-I had no will to live. But you
+Death took my family, and I had
+no will left to live. But you
 boys gave this old wreck a reason
 to go on...
 -----------------------
@@ -343,14 +343,14 @@ Old Man
 #おお、シリの青いハナタレ坊主が
 #こんなべっぴんさんを
 #連れてくるとは！
-Well, well! The blue-haired runt
-from Siri bringing home such a
-beauty! Who'd have thought!
+Well, well! A snot-nosed brat still
+wet behind the ears, bringing home
+such a beauty! Who'd have thought!
 -----------------------
 <Reala>
 -----------------------
 #まあ、おじいさんったら！
-Oh my, Grandpa!
+Oh my, sir!
 -----------------------
 <Kyle>
 -----------------------
@@ -382,7 +382,7 @@ off together? Where are you going?
 #へっへ～！
 #冒険だよ、ぼ・う・け・ん！
 Heh heh~!
-It's an adventure! B-O-U-K-E-N!
+An adventure! Ad-ven-ture!
 -----------------------
 #おじいさん
 Old Man
@@ -392,7 +392,7 @@ Old Man
 #帰ってくるんじゃぞ
 Hmm, an adventure?
 Make sure you're back
-in time for supper.
+in time for dinner.
 -----------------------
 #おじいさん
 Old Man
@@ -418,8 +418,8 @@ Whirlwind <Loni>
 #ムッ！
 #その通り名を知っているおまえは････
 #『めくりのジョー』か！
-Mmm!
-You know my street name...
+Hm!
+You know my old moniker...
 Then you must be "Flippin' Joe"!
 -----------------------
 #めくりのジョー
@@ -706,8 +706,8 @@ Girl
 #<Kyle>の、あんなに
 #うれしそうな顔、久しぶりに見たわ
 #なんだか、私もうれしくなっちゃった
-<Kyle>, I haven't seen you
-smile that happily in so long.
+It's been so long since I've seen
+<Kyle> smile that happily.
 Somehow, it made me happy too.
 -----------------------
 #女の子
@@ -829,9 +829,9 @@ Bucket Man
 #ひとりで孤児院を支えてるんだ
 #苦しいことだってあるだろう
 #すぐに力を貸すからな
-You're running that orphanage all
-alone. Must be tough sometimes.
-I'm here to help.
+She runs that orphanage all
+alone. It must be tough sometimes.
+I'm ready to help anytime.
 -----------------------
 #バケツおじさん
 Bucket Man
@@ -961,7 +961,7 @@ Millionaire
 #私の娘がこの街に
 #嫁いだのだがな
 My daughter married
-into this city, you see.
+into this town, you see.
 -----------------------
 #富豪
 Millionaire
@@ -1146,8 +1146,8 @@ Woman
 #<Loni>は<Kyle>に
 #へんなあそびばかり教えちゃダメよ
 <Kyle>, don't push yourself too hard,
-okay? <Loni>, don't teach <Kyle> nothing
-but weird games.
+okay? <Loni>, don't go teaching <Kyle>
+any of your weird games.
 -----------------------
 <Loni>
 -----------------------
@@ -1430,7 +1430,7 @@ Woof!
 There's an old monument. "In
 commemoration of Cresta's
 restoration and world peace.
-Donated by Garr Kelvin."
+Donated by Woodrow Kelvin."
 -----------------------
 #警鐘だ
 #村に何かあった場合、鳴らされる事になっている
@@ -1519,7 +1519,7 @@ I wonder what kind they are?
 These are flowers planted by
 the children at the orphanage.
 A sign reads: "Crossbreeding
-experiment in progress - by Uny".
+experiment in progress - by Yuni".
 -----------------------
 #用水路が深くなっている
 #これ以上は進めそうもない
@@ -1535,7 +1535,7 @@ Mysterious Warrior
 #なんたるものかね？
 I have survived countless fierce
 battles. I am one destined
-to become a hero. Tell me -
+to become a hero. Tell me,
 what does battle mean to you?
 What manner of thing is it?
 -----------------------
@@ -1592,7 +1592,7 @@ Go and gain some experience.
 -----------------------
 notice
 -----------------------
-<Kyle> and party got the title
+<Kyle> and party acquired the title
 "<item:00000853>".
 -----------------------
 #戦いから逃げちゃいかんな！戦士なら
@@ -1603,7 +1603,7 @@ flee from battle!
 Give me your answer.
 -----------------------
 #いってらっしゃいませ
-Take care.
+Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
@@ -1630,7 +1630,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-We look forward to your next visit.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -1652,8 +1652,8 @@ notice
 -----------------------
 #{16}{26}{32}{C0}がありましたが
 #いっぱいで持てませんでした
-Found {16}{26}{32}{C0},
-but your inventory is full.
+Found {16}{26}{32}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------
@@ -1690,8 +1690,8 @@ select
 #　リファイン講座　
 #　いらない　
 <03:00000000> Buy
-<0B:00000001>{14}{26}{46}{C0} Buy all at once ({14}{36}{40}{C0} Gald)<0B:00000000>
-Refine Lecture
+<0B:00000001>Buy {14}{26}{46}{C0} in bulk ({14}{36}{40}{C0} Gald)<0B:00000000>
+Refine Guide
 No thanks
 -----------------------
 select
@@ -1700,7 +1700,7 @@ select
 #　リファイン講座　
 #　いらない　
 <03:00000000> Buy
-Refine Lecture
+Refine Guide
 No thanks
 -----------------------
 #お買い上げ、ありがとうございます
@@ -1716,7 +1716,7 @@ Thank you for your purchase.
 -----------------------
 #リファイン講座を聞きたいですか？
 Would you like to hear
-the Refine lecture?
+the Refine Guide?
 -----------------------
 select
 -----------------------
@@ -2011,7 +2011,7 @@ tidy is important too.
 Veteran
 -----------------------
 #ひよっこ
-Novice
+Rookie
 -----------------------
 notice
 -----------------------
@@ -2089,8 +2089,8 @@ notice
 #「特技」について
 #話し合っているようです
 #耳を傾けますか？
-About "Base Artes"
-They appear to be discussing it.
+They appear to be discussing
+"Base Artes."
 Would you like to listen in?
 -----------------------
 #どうだ、特技を覚えて
@@ -2142,8 +2142,8 @@ notice
 #「エンチャント」について
 #話し合っているようです
 #耳を傾けますか？
-About "Enchant"
-They appear to be discussing it.
+They appear to be discussing
+"Enchant."
 Would you like to listen in?
 -----------------------
 #エンチャントも覚えたさ
@@ -2235,8 +2235,8 @@ notice
 #「戦闘の作戦」について
 #話し合っているようです
 #耳を傾けますか？
-About "Battle Strategy"
-They appear to be discussing it.
+They appear to be discussing
+"Battle Strategy."
 Would you like to listen in?
 -----------------------
 #いろんな敵に遭っても対処できるように、
@@ -2296,8 +2296,8 @@ notice
 #「テクニカルスマッシュ」
 #について話し合っているようです
 #耳を傾けますか？
-"Technical Smash"
-They appear to be discussing it.
+They appear to be discussing
+"Technical Smash."
 Would you like to listen in?
 -----------------------
 #テクニカルスマッシュってなにさ？
@@ -2359,8 +2359,8 @@ notice
 #「スピリッツ」について
 #話し合っているようです
 #耳を傾けますか？
-About "Spirits"
-They appear to be discussing it.
+They appear to be discussing
+"Spirits."
 Would you like to listen in?
 -----------------------
 #敵に攻撃しても防御されまくりさ
@@ -2415,8 +2415,8 @@ notice
 #「連続ヒット」について
 #話し合っているようです
 #耳を傾けますか？
-About "Continuous Hits"
-They appear to be discussing it.
+They appear to be discussing
+"Continuous Hits."
 Would you like to listen in?
 -----------------------
 #連続ヒットってなにさ？
@@ -2470,8 +2470,8 @@ notice
 #「影響エリア」について
 #話し合っているようです
 #耳を傾けますか？
-About "Field of Effect"
-They appear to be discussing it.
+They appear to be discussing
+"Field of Effect."
 Would you like to listen in?
 -----------------------
 #敵の裏側から攻撃したら有利だと思ったけど
@@ -2515,18 +2515,18 @@ Not bad. You actually said
 something smart for once.
 -----------------------
 #ベテランすぎ
-Too much of a veteran.
+Overly Veteran
 -----------------------
 #息子
-Son.
+Son
 -----------------------
 notice
 -----------------------
 #「ステータス変化」について
 #話し合っているようです
 #耳を傾けますか？
-About "Status Effects"
-They appear to be discussing it.
+They appear to be discussing
+"Status Effects."
 Would you like to listen in?
 -----------------------
 #戦闘でステータス異常になってしもうた
@@ -2603,18 +2603,18 @@ Hahahahahahahaha!
 a touch too hard...)
 -----------------------
 #ベテランすぎ
-Too much of a veteran.
+Overly Veteran
 -----------------------
 #息子
-Son.
+Son
 -----------------------
 notice
 -----------------------
 #「スピリッツブラスター」
 #について話し合っているようです
 #耳を傾けますか？
-About "Spirit Blaster Mode"
-They appear to be discussing it.
+They appear to be discussing
+"Spirit Blaster Mode."
 Would you like to listen in?
 -----------------------
 #ピンチになっても、スピリッツブラスター
@@ -2710,19 +2710,19 @@ You're in the way.
 (I thought once would be enough...)
 -----------------------
 #ベテランすぎ
-Too experienced.
+Overly Veteran
 -----------------------
 #息子
-Son.
+Son
 -----------------------
 notice
 -----------------------
 #「フィールドオブエフェクト」
 #について話し合っているようです
 #耳を傾けますか？
-"Field of Effect"
-They seem to be discussing it.
-Will you listen in?
+They appear to be discussing
+"Field of Effect."
+Would you like to listen in?
 -----------------------
 #この間の、敵が出す
 #「フィールドオブエフェクト」には
@@ -2786,9 +2786,9 @@ notice
 #「バトルグレード」について
 #話し合っているようです
 #耳を傾けますか？
-"Battle Grade"
-They seem to be discussing it.
-Will you listen in?
+They appear to be discussing
+"Battle Grade."
+Would you like to listen in?
 -----------------------
 #バトルグレードって結局なにさ？
 So what exactly is Battle Grade?
@@ -2850,9 +2850,9 @@ notice
 #「受身」について
 #話し合っているようです
 #耳を傾けますか？
-"Ukemi"
-They seem to be discussing it.
-Will you listen in?
+They appear to be discussing
+"Fall Breaks."
+Would you like to listen in?
 -----------------------
 #地面にたたきつけられると
 #倒れてしまうさ
@@ -2887,9 +2887,9 @@ notice
 #「戦闘難易度」について
 #話し合っているようです
 #耳を傾けますか？
-"Battle Difficulty"
-They seem to be discussing it.
-Will you listen in?
+They appear to be discussing
+"Battle Difficulty."
+Would you like to listen in?
 -----------------------
 #戦闘難易度を高くするのに、
 #なんの意味があるのさ？
@@ -2945,9 +2945,9 @@ notice
 #「通常攻撃」について
 #深く話し合っているようです
 #耳を傾けますか？
-"Normal Attack" They seem to be
-having a deep discussion. Will you
-listen in?
+They appear to be discussing
+"Normal Attack."
+Would you like to listen in?
 -----------------------
 #慣れてきたから最近は通常攻撃は
 #<button:00000045>だけ叩きっぱなしさ
@@ -2997,10 +2997,10 @@ What's the second step?
 #<button:00000045>による攻撃は効果範囲が広く、
 #当たりやすいことが多いが、その反面、
 #連続攻撃時にはあまり有効ではない
-Keep that in mind! <button:00000045> attacks have
-a wide range, making them easy to
-land, but on the other hand, they
-aren't very effective during combos.
+Remember that! <button:00000045> attacks have
+a wide range and land easily, but
+they aren't very effective
+during combos.
 -----------------------
 #これは次の攻撃にも影響を与えるから、
 #「<button:00000017><button:00000045>、<button:00000017><button:00000045>、<button:00000045>」と
@@ -3035,9 +3035,9 @@ notice
 #「長い話」について
 #話し合っているようです
 #耳を傾けますか？
-They seem to be discussing
+They appear to be discussing
 "Long-Winded Explanations."
-Will you listen in?
+Would you like to listen in?
 -----------------------
 #ためになる話も十年くらい聞いてると
 #さすがにつかれるさ
@@ -3048,11 +3048,10 @@ after about ten years of hearing it.
 #<button:0000002F>と<button:0000002E>を押しっぱなしにすると
 #メッセージを早送りできる
 #同じ会話を読み飛ばすとき便利だ
-Come to think of it, I never told
-you. If you hold down <button:0000002F> and <button:0000002E>, you
-can fast-forward through messages.
-Handy for skipping dialogue you've
-already seen.
+Come to think of it, I never
+told you: hold down <button:0000002F> and <button:0000002E>
+to fast-forward messages. Handy
+for skipping repeated dialogue.
 -----------------------
 #なにー
 #どうして十年もそれを教えて
@@ -3081,9 +3080,9 @@ notice
 #「アイテム拾得」について
 #話し合っているようです
 #耳を傾けますか？
-They seem to be discussing
+They appear to be discussing
 "Item Drops."
-Will you listen in?
+Would you like to listen in?
 -----------------------
 #冒険者として生きるからには
 #敵からアイテムを拾いまくりたいさ

@@ -46,7 +46,7 @@ Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -69,7 +69,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-We look forward to seeing you again.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -103,16 +103,16 @@ There's nothing here.
 Veteran
 -----------------------
 #ひよっこ
-rookie
+Rookie
 -----------------------
 notice
 -----------------------
 #「武器攻撃」について
 #話し合っているようです
 #耳を傾けますか？
-They seem to be discussing
+They appear to be discussing
 "Weapon Attacks."
-Will you listen in?
+Would you like to listen in?
 -----------------------
 #さて俺たちも冒険を始めるわけだが、
 #基本は身に付いたか？
@@ -174,17 +174,17 @@ at a disadvantage. Be careful.
 #防御が成功するとＳＰが多く回復するから、
 #防御<button:00000047>も大切ということだな
 If your guard is successful, you'll
-recover a lot of SP, so <button:00000047>defense
-is important too.
+recover a lot of SP, so defending
+with <button:00000047> is important too.
 -----------------------
 notice
 -----------------------
 #「特技」について
 #話し合っているようです
 #耳を傾けますか？
-They seem to be discussing
+They appear to be discussing
 "Base Artes."
-Will you listen in?
+Would you like to listen in?
 -----------------------
 #どうだ、特技を覚えて
 #戦略に幅が出たろう？
@@ -218,7 +218,7 @@ with <button:00000045>.
 ...It's a waste to let TP go
 to waste, after all. Using
 spells to recover SP, for
-instance-- it's important
+instance... it's important
 to put it to good use.
 -----------------------
 #ＴＰは敵を倒したときも少量回復する
@@ -236,9 +236,9 @@ notice
 #「エンチャント」について
 #話し合っているようです
 #耳を傾けますか？
-They seem to be discussing
+They appear to be discussing
 "Enchant."
-Will you listen in?
+Would you like to listen in?
 -----------------------
 #エンチャントも覚えたさ
 I've learned Enchant too.
@@ -259,7 +259,7 @@ and Magic Artes however you like.
 First, keep using them to raise
 their usage count! Do that, and
 you'll be able to equip all kinds
-of different Skill Enchants.
+of different Enchants.
 -----------------------
 #じゃあ、ひとつの特技を使いまくりさ
 So I'll just spam one Base Arte.
@@ -268,11 +268,11 @@ So I'll just spam one Base Arte.
 #ただ、戦闘中はエンチャントは変更できない
 #多くの技に多彩なエンチャントを
 #つけておくのも悪くないぞ
-That's one way to do it, sure. But
-you can't change Skill Enchants
-mid-battle. It's not a bad idea
-to set up a variety of Skill
-Enchants on many different artes.
+That's one way to do it, sure.
+But you can't change Enchants
+mid-battle. Spreading a variety
+of them across your artes
+isn't a bad idea either.
 -----------------------
 #敵の能力を下げる術を使ってから
 #武器で切り込む････など、特技と術を
@@ -288,7 +288,7 @@ allies can cover each other.
 #使用回数は戻るから、いろいろと
 #試してみるのがいいだろう
 Oh, and if you remove an
-equipped Skill Enchant, its
+equipped Enchant, its
 usage count goes back to
 what it was, so feel free to
 experiment with different setups.
@@ -298,7 +298,7 @@ experiment with different setups.
 #命中のエンチャントをつけるさ
 My favorite Base Arte hardly
 ever hits, so I equip an
-accuracy Skill Enchant to
+accuracy Enchant to
 make up for that weakness.
 -----------------------
 #････お前の場合は単に空振りしてるだけだな
@@ -328,9 +328,9 @@ notice
 #「戦闘の作戦」について
 #話し合っているようです
 #耳を傾けますか？
-About "Strategy"
-They seem to be discussing it.
-Will you listen in?
+They appear to be discussing
+"Strategy."
+Would you like to listen in?
 -----------------------
 #いろんな敵に遭っても対処できるように、
 #作戦を決めておこうではないか！
@@ -390,9 +390,9 @@ notice
 #「テクニカルスマッシュ」
 #について話し合っているようです
 #耳を傾けますか？
-About "Technical Smash"
-They seem to be discussing it.
-Will you listen in?
+They appear to be discussing
+"Technical Smash."
+Would you like to listen in?
 -----------------------
 #テクニカルスマッシュってなにさ？
 What's a Technical Smash?
@@ -453,9 +453,9 @@ notice
 #「スピリッツ」について
 #話し合っているようです
 #耳を傾けますか？
-About "Spirits"
-They seem to be discussing it.
-Will you listen in?
+They appear to be discussing
+"Spirits."
+Would you like to listen in?
 -----------------------
 #敵に攻撃しても防御されまくりさ
 We're attacking, but
@@ -508,9 +508,9 @@ notice
 #「連続ヒット」について
 #話し合っているようです
 #耳を傾けますか？
-About "Hit Count"
-They seem to be discussing it.
-Will you listen in?
+They appear to be discussing
+"Hit Count."
+Would you like to listen in?
 -----------------------
 #連続ヒットってなにさ？
 What's a hit count?
@@ -565,9 +565,9 @@ notice
 #「影響エリア」について
 #話し合っているようです
 #耳を傾けますか？
-About "Field of Effect"
-They seem to be discussing it.
-Will you listen in?
+They appear to be discussing
+"Field of Effect."
+Would you like to listen in?
 -----------------------
 #敵の裏側から攻撃したら有利だと思ったけど
 #なんだか疲れるさ
@@ -611,19 +611,19 @@ Not bad. You actually said
 something smart for once.
 -----------------------
 #ベテランすぎ
-Too experienced.
+Overly Veteran
 -----------------------
 #息子
-Son.
+Son
 -----------------------
 notice
 -----------------------
 #「ステータス変化」について
 #話し合っているようです
 #耳を傾けますか？
-About "Status Effects"
-It seems they're discussing it.
-Will you listen in?
+They appear to be discussing
+"Status Effects."
+Would you like to listen in?
 -----------------------
 #戦闘でステータス異常になってしもうた
 #パナシーアボトルもないのじゃ
@@ -659,7 +659,7 @@ This is agony...
 #防止できる料理やアイテムもあるみたいですし
 You should prepare dishes
 that can cure status ailments,
-Father. There are also dishes
+Dad. There are also dishes
 and items that can prevent them.
 -----------------------
 #後の祭りじゃあ　毒<button:00000056>に麻痺<button:0000005F>に衰弱<button:0000005A>に凍結に
@@ -697,19 +697,19 @@ Hahahahahahahaha!
 (I think he's laughing too hard...)
 -----------------------
 #ベテランすぎ
-Too experienced.
+Overly Veteran
 -----------------------
 #息子
-Son.
+Son
 -----------------------
 notice
 -----------------------
 #「スピリッツブラスター」
 #について話し合っているようです
 #耳を傾けますか？
-"Spirit Blaster"
-It seems they're discussing it.
-Will you listen in?
+They appear to be discussing
+"Spirit Blaster."
+Would you like to listen in?
 -----------------------
 #ピンチになっても、スピリッツブラスター
 #になれば逆転のチャンスができるわい
@@ -752,7 +752,7 @@ shown once I enter Spirit Blaster.
 #消費しますが、敵を倒すことでＳＰが
 #回復することを利用すると秘奥義を
 #出せることもあるようです
-Yes, Dad. Mystic Artes use lots
+No, Dad. Mystic Artes use lots
 of SP, but defeating enemies
 restores SP. Using that recovery
 may let you unleash one.
@@ -764,7 +764,7 @@ may let you unleash one.
 Also, some archers can use Spirit
 Blaster to unleash a Mystic
 Arte in place of a Magic Arte
-Extension, it seems. Father.
+Extension, or so I've heard, Dad.
 -----------------------
 #まあ奥義がヒットしても敵がのけぞって
 #ないと秘奥義にはいけぬから、
@@ -783,7 +783,7 @@ unleash our Mystic Artes together.
 -----------------------
 #いえ父さん　私は晶術使いなんで
 #秘奥義なんて使わないんですよ
-No, Father. I'm a magic user,
+No, Dad. I'm a magic user,
 so I don't use Mystic Artes.
 -----------------------
 #というか秘奥義の後はＳＰが０になるから
@@ -792,30 +792,29 @@ so I don't use Mystic Artes.
 #しないでください父さん
 Besides, Mystic Artes drain
 your SP to zero. They're a huge
-nuisance, Dad. You didn't even let
-me land the finishing blow before
-using one. Please don't, Dad.
+nuisance, Dad. Please don't use
+one if it won't finish the enemy.
 -----------------------
 #ジャマなんで
-You're a nuisance.
+Because it gets in the way.
 -----------------------
 #（一回言えば分かると思うが・・・）
 (I thought once would be enough...)
 -----------------------
 #ベテランすぎ
-Too experienced.
+Overly Veteran
 -----------------------
 #息子
-Son.
+Son
 -----------------------
 notice
 -----------------------
 #「フィールドオブエフェクト」
 #について話し合っているようです
 #耳を傾けますか？
-"Field of Effect"
-It seems they're discussing it.
-Will you listen in?
+They appear to be discussing
+"Field of Effect."
+Would you like to listen in?
 -----------------------
 #この間の、敵が出す
 #「フィールドオブエフェクト」には
@@ -829,7 +828,7 @@ truly at my wit's end.
 #範囲内の敵たちに効果があるのと、
 #こちらの能力を下げるものがありますね
 We abbreviate it as FOE,
-right, Father? There are two
+right, Dad? There are two
 main types: ones that affect
 enemies within range, and
 ones that lower our abilities.
@@ -842,7 +841,7 @@ If that shows up, are we done for?
 #切れるものもあるんですもちろん、
 #とどめをさせば消えますしね
 It's too early to give up,
-Father. Some wear off over time,
+Dad. Some wear off over time,
 and others wear off after enough
 hits. Of course, they also vanish
 when you land the finishing blow.
@@ -859,7 +858,7 @@ fighter while casting spells.
 #応じて作戦を変えるのがいいようですよ
 #敵に効果がある場合は、スペクタクルズを
 #使えば内容が分かりますし
-That's right, Father. But
+That's right, Dad. But
 it's still best to change
 your strategy depending on
 the situation. If it affects
@@ -873,16 +872,16 @@ everything. It's quite troubling.
 -----------------------
 #（言うのが遅いよ父さん････）
 (You're late to the
-party, Father...)
+party, Dad...)
 -----------------------
 notice
 -----------------------
 #「バトルグレード」について
 #話し合っているようです
 #耳を傾けますか？
-About "Battle Grade"
-It seems they're discussing it.
-Will you listen in?
+They appear to be discussing
+"Battle Grade."
+Would you like to listen in?
 -----------------------
 #バトルグレードって結局なにさ？
 So what exactly is Battle Grade?
@@ -924,7 +923,7 @@ What's so great about a high score?
 #現世では役に立たないなどと
 #いう不届きな輩もいますが････
 We're still looking into
-that, Senior. Some ungrateful
+that, Senpai. Some ungrateful
 types claim it's useless
 in the present day, but...
 -----------------------
@@ -936,16 +935,16 @@ That's all there is to it.
 -----------------------
 #さすが先輩、勉強になります
 As expected of you,
-Senior. I'm learning a lot.
+Senpai. I'm learning a lot.
 -----------------------
 notice
 -----------------------
 #「受身」について
 #話し合っているようです
 #耳を傾けますか？
-About "Ukemi"
-They seem to be discussing it.
-Will you listen in?
+They appear to be discussing
+"Fall Breaks."
+Would you like to listen in?
 -----------------------
 #地面にたたきつけられると
 #倒れてしまうさ
@@ -956,7 +955,7 @@ you'll go down hard.
 #でも、地面に接地したまさに
 #その瞬間に<button:00000047>を押すと、
 #受身がとれますよね
-It definitely hurts, Senior.
+It definitely hurts, Senpai.
 But press <button:00000047> the instant
 you touch the ground,
 and you can break your fall.
@@ -980,9 +979,9 @@ notice
 #「戦闘難易度」について
 #話し合っているようです
 #耳を傾けますか？
-About "Battle Difficulty"
-They seem to be discussing it.
-Will you listen in?
+They appear to be discussing
+"Battle Difficulty."
+Would you like to listen in?
 -----------------------
 #戦闘難易度を高くするのに、
 #なんの意味があるのさ？
@@ -1034,9 +1033,9 @@ notice
 #「通常攻撃」について
 #深く話し合っているようです
 #耳を傾けますか？
-About "Normal Attacks" They seem to
-be having an in-depth discussion.
-Will you listen in?
+They appear to be discussing
+"Normal Attacks."
+Would you like to listen in?
 -----------------------
 #慣れてきたから最近は通常攻撃は
 #<button:00000045>だけ叩きっぱなしさ
@@ -1085,10 +1084,10 @@ What's the second step?
 #<button:00000045>による攻撃は効果範囲が広く、
 #当たりやすいことが多いが、その反面、
 #連続攻撃時にはあまり有効ではない
-Remember that! <button:00000045> attacks have a
-wide effect range and are easy to
-land, but on the flip side, they're
-not very effective during combos.
+Remember that! <button:00000045> attacks have
+a wide range and land easily, but
+they aren't very effective
+during combos.
 -----------------------
 #これは次の攻撃にも影響を与えるから、
 #「<button:00000017><button:00000045>、<button:00000017><button:00000045>、<button:00000045>」と
@@ -1123,9 +1122,9 @@ notice
 #「長い話」について
 #話し合っているようです
 #耳を傾けますか？
-About "Long Conversations"
-They seem to be discussing it.
-Will you listen in?
+They appear to be discussing
+"Long Conversations."
+Would you like to listen in?
 -----------------------
 #ためになる話も十年くらい聞いてると
 #さすがにつかれるさ
@@ -1150,7 +1149,7 @@ me that for ten years?!
 #バカモン！　ひよっこのお前が
 #私の話を読み飛ばすなどとは
 #十年早いわ
-Fool! A mere chick like you
+Fool! A mere fledgling like you
 thinking you could skip my words?
 You're ten years too early for that!
 -----------------------
@@ -1167,9 +1166,9 @@ notice
 #「アイテム拾得」について
 #話し合っているようです
 #耳を傾けますか？
-About "Item Drops"
-They seem to be discussing it.
-Will you listen in?
+They appear to be discussing
+"Item Drops."
+Would you like to listen in?
 -----------------------
 #冒険者として生きるからには
 #敵からアイテムを拾いまくりたいさ

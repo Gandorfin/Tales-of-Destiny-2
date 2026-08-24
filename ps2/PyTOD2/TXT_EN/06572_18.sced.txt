@@ -8,7 +8,7 @@ Er'ther Base
 -----------------------
 #これ、現代でオレたちが使った
 #イクシフォスラーかな？
-Is this the Ixiphoslar
+Is this the Ixifoslar
 we used in the present day?
 -----------------------
 <Reala>
@@ -30,7 +30,7 @@ Boy
 #わざわざ墜落した空中都市から引っ張り出して
 #来たんだ
 They say this is part of an
-aerial city's engine. They
+aeropolis engine. They
 went out of their way to
 drag it out from the crashed
 city and bring it here.
@@ -51,7 +51,7 @@ truly remarkable.
 NOTICE
 -----------------------
 #<item:00000012>を手に入れました
-<item:00000012>Acquired .
+Acquired <item:00000012>.
 -----------------------
 #航空力学に関する文献がある
 There are documents on aerodynamics.
@@ -61,7 +61,7 @@ Dymlos
 -----------------------
 #あとは君たちだけだ
 #準備ができたら、乗りこんでくれ
-The rest is up to you two.
+You're the last ones.
 Once you're ready, come aboard.
 -----------------------
 notice
@@ -98,7 +98,7 @@ Scientist
 -----------------------
 #まともな部品さえあれば
 #すぐにでも完成させられるんですけどね
-If I had even proper parts,
+If only I had proper parts,
 I could finish it right away.
 -----------------------
 #科学者
@@ -299,20 +299,20 @@ under the sun again.
 -----------------------
 #飛べ～、飛べ～、ロケット～♪
 #燃料吹き出し、火をあげて～♪
-Fly~, fly~, rocket~♪
-Spewing fuel, light the fire~♪
+Fly away~, fly away~, rocket~♪
+Fuel spraying out, light the fire~♪
 -----------------------
 NOTICE
 -----------------------
 #<item:00000041>を手に入れました
-<item:00000041>Acquired .
+Acquired <item:00000041>.
 -----------------------
 #いってらっしゃいませ
 Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？

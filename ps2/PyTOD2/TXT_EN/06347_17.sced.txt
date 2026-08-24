@@ -1,14 +1,14 @@
 #古都ダリルシェイド
-Old City of Darilsheid
+Old Darilsheid
 -----------------------
 #古都ダリルシェイド
-Old City of Darilsheid
+Old Darilsheid
 -----------------------
 #古都ダリルシェイド
-Old City of Darilsheid
+Old Darilsheid
 -----------------------
 #古都ダリルシェイド
-Old City of Darilsheid
+Old Darilsheid
 -----------------------
 #昔はこの先にダリルシェイド港があったようだ
 #ガレキに覆われてとても進めそうに無い････
@@ -41,7 +41,7 @@ even fetch enough for my next drink.
 #おじさん、像にやつあたりしても
 #しょうがないだろ
 #酒代がないなら、働けばいいじゃん
-C'mon, old timer, taking it out on
+C'mon, mister, taking it out on
 a statue won't help anything. If
 you're short on drinking money, why
 not just get a job?
@@ -459,9 +459,10 @@ Maid with a taste for shiny things
 #街の西の橋を渡り
 #海岸線を右手にしてくとつり橋が見える
 #そこがハーメンツヴァレー
-Cross the bridge west of town.
-Follow the coast until you see
-the bridge to Harmentz Valley.
+Cross the bridge west of town, keep
+the coast on your right, and you'll
+see a rope bridge. That's Harmentz
+Valley.
 -----------------------
 #光り物好きなメイド
 Maid with a taste for shiny things
@@ -506,7 +507,7 @@ Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -552,7 +553,7 @@ notice
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{C2}{C0}, but
-inventory is full already.
+your inventory is full.
 -----------------------
 notice
 -----------------------

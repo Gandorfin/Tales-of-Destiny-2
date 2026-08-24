@@ -155,11 +155,11 @@ Young Man
 #神様のいいなりになりたくないからって
 #病の弟を連れて、ホープタウンに
 #向かった姉弟がいたなあ
-There was a brother and
-sister who said they didn't
-want to take orders from
-some god, and took their sick
-younger brother to Hope Town.
+I remember an older sister who
+said she didn't want to take
+orders from some god. She took
+her sick little brother and
+headed for Hope Town.
 -----------------------
 #青年
 Young Man
@@ -170,7 +170,7 @@ Wonder what they're up to now?
 Hope the kid's doing okay.
 -----------------------
 #チェリクマッハ少年
-Cherik Macha Boy
+Cherik Mach Boy
 -----------------------
 #フッ
 #世界には、走りを極めんとする
@@ -233,7 +233,7 @@ Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -279,7 +279,7 @@ notice
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{C2}{C0}, but
-inventory is full already.
+your inventory is full.
 -----------------------
 notice
 -----------------------

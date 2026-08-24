@@ -1,15 +1,15 @@
 #ハイデルベルグ城・ウッドロウの部屋
-Heidelberg Castle - Garr's Room
+Heidelberg Castle - Woodrow's Room
 -----------------------
 #ハイデルベルグ城
 Heidelberg Castle
 -----------------------
 #ハイデルベルグ城・ウッドロウの部屋
-Heidelberg Castle - Garr's Room
+Heidelberg Castle - Woodrow's Room
 -----------------------
 #ウッドロウ王のベッドだ
 #とても豪華だ････！
-King Garr's bed.
+King Woodrow's bed.
 It's so luxurious...!
 -----------------------
 #いってらっしゃいませ
@@ -17,7 +17,7 @@ Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -63,7 +63,7 @@ notice
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{C2}{C0}, but
-inventory is full already.
+your inventory is full.
 -----------------------
 notice
 -----------------------

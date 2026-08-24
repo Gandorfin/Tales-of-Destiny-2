@@ -26,9 +26,9 @@ Wanna try hacking through?
 #この、見るからに
 #毒を持っていそうな草をか？
 #僕はゴメンだ
-You want me to cut
-grass that looks poisonous
-just from looking at it? I'll pass.
+You want me to cut grass that's
+obviously poisonous at a glance?
+I'll pass.
 -----------------------
 <Kyle>
 -----------------------
@@ -105,20 +105,20 @@ notice
 -----------------------
 #<Nanaly>は
 #称号「<item:00000828>」を得ました
-<Nanaly> obtained
-the title "<item:00000828>"!
+<Nanaly> acquired the title
+"<item:00000828>".
 -----------------------
 NOTICE
 -----------------------
 #ガルムの牙に着火しました
-Ignited Garm's Fang.
+Ignited the Garm Fang.
 -----------------------
 #いってらっしゃいませ
 Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -163,8 +163,8 @@ notice
 -----------------------
 #{16}{25}{D2}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{25}{D2}{C0} found,
-but your inventory is full.
+Found {16}{25}{D2}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------

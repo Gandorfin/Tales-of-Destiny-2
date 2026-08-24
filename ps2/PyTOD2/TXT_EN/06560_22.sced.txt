@@ -122,7 +122,7 @@ Elrane
 #完全なる世界もままならない
 If this continues, neither the
 perfect god nor the perfect world
-can be maintained.
+can ever come to be.
 -----------------------
 #エルレイン
 Elrane
@@ -193,8 +193,7 @@ offering a helping hand.
 #とんだ三文芝居だな
 The savior, claiming it as God's
 blessing, gathers all the people's
-faith unto himself... huh. What
-a farce.
+faith unto herself... What a farce.
 -----------------------
 #エルレイン
 Elrane
@@ -202,11 +201,9 @@ Elrane
 #せっかく舞台に上げたというのに
 #脚本どおりに動かない役者に
 #なにも言われたくはないな
-We went to the trouble of
-raising the stage, yet the
-actors refuse to follow
-the script. I have nothing
-to say to such performers.
+I put you on that stage myself.
+I will not be lectured by actors
+who refuse to follow the script.
 -----------------------
 <Judas>
 -----------------------
@@ -251,21 +248,21 @@ Elrane
 #いや、リオン＝マグナスのように
 For example, the one right there:
 <Judas>...
-No. Like Leon Magnus.
+No. Like Lion Magnus.
 -----------------------
 <Loni>
 -----------------------
 #リオン＝マグナス!?
-Leon Magnus!?
+Lion Magnus!?
 -----------------------
 <Nanaly>
 -----------------------
 #神の眼をめぐる騒乱で
 #スタンたち四英雄を
 #裏切ったっていう、あの!?
-The one who betrayed Stahn
-and the other four heroes
-during the Eye of Atamoni incident!?
+The one who betrayed Stahn and the
+rest of the Four Heroes during
+the Eye of Atamoni incident!?
 -----------------------
 #エルレイン
 Elrane
@@ -294,15 +291,15 @@ You need only ask him yourself.
 #僕はリオンなんかじゃないって
 #そう言ってやれよ、<Judas>！
 Why aren't you saying anything!?
-Tell her I'm not Leon!
+Tell her you're not Lion!
 Go on, <Judas>!
 -----------------------
 <Judas>
 -----------------------
 #そうだ、僕はリオン････
 #リオン＝マグナスだ
-That's right. I am Leon...
-I am Leon Magnus.
+That's right. I am Lion...
+I am Lion Magnus.
 -----------------------
 <Kyle>
 -----------------------
@@ -326,15 +323,15 @@ notice
 -----------------------
 #<Judas>は
 #称号「<item:00000830>」を得ました
-<Judas> received
-the title "<item:00000830>"!
+<Judas> acquired the title
+"<item:00000830>".
 -----------------------
 #いってらっしゃいませ
-Welcome.
+Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -348,16 +345,16 @@ select
 No
 -----------------------
 #ごゆっくりお休みください
-Please rest well.
+Have a good night.
 -----------------------
 #おはようございます
 Good morning.
 -----------------------
 #お金が足りません
-Not enough Gald.
+Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-Please come again.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------

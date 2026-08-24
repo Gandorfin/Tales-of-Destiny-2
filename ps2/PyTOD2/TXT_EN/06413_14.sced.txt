@@ -50,7 +50,7 @@ on display. It looks like
 equipment... but whose?
 -----------------------
 #エントリー娘。
-Receptionist
+Entry Girl.
 -----------------------
 #ここは闘技場です
 This is the coliseum.
@@ -132,10 +132,10 @@ Tag Battle
 <color:00000002>Tag Battle<color:00000007>
 -----------------------
 #リムルに再挑戦
-Rematch with Rimul
+Rematch with Rhym
 -----------------------
 #<color:00000002>リムル<color:00000007>
-<color:00000002>Rimul<color:00000007>
+<color:00000002>Rhym<color:00000007>
 -----------------------
 #シングルバトル初級
 Single Battle - Beginner
@@ -669,11 +669,11 @@ So this is what they call genius?
 You could say that.
 -----------------------
 #いってらっしゃいませ
-Take care.
+Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -696,7 +696,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-We hope to see you again.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -719,7 +719,7 @@ notice
 #{16}{25}{DE}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{DE}{C0}, but
-your inventory is already full.
+your inventory is full.
 -----------------------
 notice
 -----------------------

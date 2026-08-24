@@ -1,8 +1,8 @@
 #定期船
-Passenger Ship
+Ferry
 -----------------------
 #定期船
-Passenger Ship
+Ferry
 -----------------------
 #ずいぶんと大きな荷物だ
 #中身は････鉄鉱石のようだ
@@ -15,7 +15,7 @@ Looks like iron ore inside.
 There's a destination written
 on it. "Heidelberg Equipment
 Shop: Soul & Sword" "Delivery:
-Berserium Substitute"
+Berselium Substitute"
 -----------------------
 #船員
 Sailor
@@ -123,7 +123,7 @@ Sailor
 #英雄どのと聖女どのの
 #おかげだよ
 It's all thanks
-to the Hero and the Saintess.
+to the Hero and the Holy Woman.
 Seriously, we owe them everything.
 -----------------------
 #船員
@@ -243,11 +243,11 @@ I've gotta do something, fast!
 ......
 -----------------------
 #いってらっしゃいませ
-Welcome.
+Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -270,7 +270,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-We hope to see you again soon.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------

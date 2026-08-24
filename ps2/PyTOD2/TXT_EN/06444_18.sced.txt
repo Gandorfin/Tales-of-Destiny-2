@@ -354,12 +354,12 @@ She's such a good child.
 -----------------------
 #サーガちゃんもいい子なんだけど、
 #ジニーとは正反対なのよ
-Saga-chan is a good
+Little Saga is a good
 child too, but she's the
 complete opposite of Ginny.
 -----------------------
 #サーガちゃんはしっかりした子なの
-Saga-chan is a very
+Little Saga is a very
 grounded, dependable child.
 -----------------------
 #だけど、もう少し夢を持った方が
@@ -601,7 +601,7 @@ Ginny
 #いけない、そういえばサーガちゃんと
 #遊ぶ約束してたんだ
 Oh no, I just remembered...
-I promised to play with Saga-chan.
+I promised to play with Saga.
 -----------------------
 #ジニー
 Ginny
@@ -630,7 +630,7 @@ Ginny
 #サーガちゃんがサンタさんは
 #いないって････
 Well, you see...
-Saga-chan says Santa
+Saga says Santa
 isn't real...
 -----------------------
 #レギーナ
@@ -829,7 +829,7 @@ That's right. I'm sorry to ask.
 Ginny
 -----------------------
 #はぁ、どうしたらいいのかしら････
-*Sigh*... I wonder what I should
+*sigh*... I wonder what I should
 do...
 -----------------------
 #ジニー
@@ -1026,11 +1026,11 @@ thanks to her.
 Church
 -----------------------
 #いってらっしゃいませ
-Take care.
+Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -1053,7 +1053,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-We look forward to your next visit.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------

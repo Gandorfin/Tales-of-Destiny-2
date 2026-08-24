@@ -58,9 +58,9 @@ Rutee
 #今日ね、また、<Kyle>のこと
 #ぶっちゃったんだけど････
 #なんだか様子がちがったのよ、今回は
-I hit <Kyle> again today. I know, I
-messed up, but.... something about
-him seemed different this time.
+I hit <Kyle> again today, but....
+something about him seemed
+different this time.
 -----------------------
 #ルーティ
 Rutee
@@ -69,7 +69,7 @@ Rutee
 #あたしに歯向かおうとしたのよ
 #このあたしに！
 I mean, that kid actually
-tried to talk back to me.
+tried to stand up to me.
 To me, of all people!
 -----------------------
 #ルーティ
@@ -89,8 +89,8 @@ Rutee
 #あたしに似てくれたらなぁ
 #そんなバカなこと、言わないのに････
 *sigh* I just wish he'd taken after
-me a little more. Not that I should
-be saying such foolish things....
+me a little more. Then he wouldn't
+say such silly things....
 -----------------------
 #ルーティ
 Rutee
@@ -171,7 +171,7 @@ Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？

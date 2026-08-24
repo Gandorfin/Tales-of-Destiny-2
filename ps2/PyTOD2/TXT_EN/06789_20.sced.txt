@@ -1,8 +1,8 @@
 #定期船
-Passenger Airship
+Ferry
 -----------------------
 #定期船
-Passenger Airship
+Ferry
 -----------------------
 <Kyle>
 -----------------------
@@ -84,8 +84,9 @@ Heh... hehehe...
 #････でも、ホッとしたよ、オレ
 #<Reala>も、そんなふうに
 #笑うんだね
-...But I'm glad, Kyle.
-To see <Reala> laugh like that too.
+...But I'm relieved, honestly.
+So <Reala> really can
+laugh like that too.
 -----------------------
 <Reala>
 -----------------------
@@ -190,9 +191,9 @@ searching for a hero?
 #････わたしが
 #わたしが、英雄を
 #探している理由は････
-...The reason
-I, the one who searches for heroes,
-am searching...
+...The reason...
+The reason I've been
+searching for a hero is...
 -----------------------
 <Kyle>
 -----------------------
@@ -200,11 +201,11 @@ am searching...
 Wh-what was that?!
 -----------------------
 #いってらっしゃいませ
-Welcome.
+Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -218,7 +219,7 @@ select
 No
 -----------------------
 #ごゆっくりお休みください
-Please rest well.
+Have a good night.
 -----------------------
 #おはようございます
 Good morning.
@@ -227,7 +228,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-We hope to see you again.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------

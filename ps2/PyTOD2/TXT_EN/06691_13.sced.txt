@@ -25,19 +25,19 @@ select
 #<03:00000000>　持っていく　
 #　持っていかない　
 <03:00000000> Take it.
-Don't take it.
+Leave it.
 -----------------------
 NOTICE
 -----------------------
 #デリスエンブレムのかけらを手に入れました
-Obtained a Delis Emblem fragment.
+Acquired a Delis Emblem fragment.
 -----------------------
 #いってらっしゃいませ
-Come again.
+Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -51,7 +51,7 @@ select
 No
 -----------------------
 #ごゆっくりお休みください
-Please rest well.
+Have a good night.
 -----------------------
 #おはようございます
 Good morning.
@@ -60,7 +60,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-We await your next visit.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -83,7 +83,7 @@ notice
 #{16}{25}{CA}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{CA}{C0}, but
-your inventory is already full.
+your inventory is full.
 -----------------------
 notice
 -----------------------

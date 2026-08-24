@@ -20,7 +20,7 @@ Well, this was a bust.
 <Kyle>
 -----------------------
 #････ハァ、ムダ足かぁ
-...Haa. What a waste of time.
+...*sigh* What a waste of time.
 -----------------------
 <Loni>
 -----------------------
@@ -28,11 +28,11 @@ Well, this was a bust.
 <Kyle>, get back!
 -----------------------
 #いってらっしゃいませ
-Welcome.
+Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -78,7 +78,7 @@ notice
 #{16}{25}{DA}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{DA}{C0}, but
-inventory full already.
+your inventory is full.
 -----------------------
 notice
 -----------------------

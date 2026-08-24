@@ -268,8 +268,9 @@ W-well, I guess that's about right.
 -----------------------
 <Kyle>
 -----------------------
-<Harold>!?
+#<Harold>!?
 #ど、どうかした!?
+<Harold>!?
 Wh-what's with you!?
 -----------------------
 <Harold>
@@ -313,8 +314,8 @@ notice
 -----------------------
 #<Kyle>は
 #称号「<item:0000082C>」を得ました
-<Kyle> received
-the title "<item:0000082C>".
+<Kyle> acquired the title
+"<item:0000082C>".
 -----------------------
 <Kyle>
 -----------------------
@@ -612,7 +613,7 @@ Dymlos
 -----------------------
 #ディムロスさん！
 #大丈夫ですか!?
-Dymlos-san!
+Dymlos!
 Are you okay!?
 -----------------------
 #ディムロス
@@ -625,15 +626,15 @@ Dymlos
 -----------------------
 #････ディムロスさん、ここで待っててください
 #オレたち、アトワイトさんを探してきます！
-...Dymlos-san, please wait here.
-We'll go look for Atwight-san!
+...Dymlos, please wait here.
+We'll go look for Atwight!
 -----------------------
 <Reala>
 -----------------------
 #アトワイトさんを連れて
 #そんなに遠くには飛べないはずです
 #まだ、この近くに････
-He took Atwight-san with him. He
+He took Atwight with him. He
 shouldn't be able to fly that far.
 She must still be nearby...
 -----------------------
@@ -683,7 +684,7 @@ of that.
 #本気ですか、ディムロスさん!?
 #オレは、納得できません!!
 That...
-Are you serious, Dymlos-san?!
+Are you serious, Dymlos?!
 I can't accept this!!
 -----------------------
 <Kyle>
@@ -691,7 +692,7 @@ I can't accept this!!
 #それに、ディムロスさん
 #言ったじゃないですか！
 #みんなで無事に帰るって！
-Besides, Dymlos-san,
+Besides, Dymlos,
 you said it yourself!
 That we'd all make it back safely!
 -----------------------
@@ -772,7 +773,7 @@ A monster lies here.
 A monster lies here.
 -----------------------
 #いってらっしゃいませ
-Take care.
+Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
@@ -799,7 +800,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-We look forward to your next visit.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------

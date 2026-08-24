@@ -94,8 +94,8 @@ to pull it off!
 #鼻っ柱も折っていこうよ！
 #一発殴らないと、おさまりそうもないよ！
 Then while we're at it, let's knock
-Elrane down a peg too! She won't
-quit until someone clocks her one!
+Elrane down a peg too! I won't feel
+right till I've clocked her one!
 -----------------------
 <Kyle>
 -----------------------
@@ -117,9 +117,9 @@ Townsperson
 #あぁ、そうだよ
 #あの城から、いつも我々を
 #見守ってくださってるんだ
-Yeah, that's right. That castle's
-always watching over us, guiding
-us from above.
+Yeah, that's right. She's always
+watching over us from
+that castle.
 -----------------------
 <Kyle>
 -----------------------
@@ -339,18 +339,18 @@ Child
 -----------------------
 #ボク、フォルトゥナ神団に入団して
 #エルレインさまのおそばにいきたいんだ
-I joined the Sacred Order of
-Fortuna so I could stay close to
-Lady Elrane.
+I wanna join the Sacred Order
+of Fortuna and be at Lady
+Elrane's side someday.
 -----------------------
 #子供
 Child
 -----------------------
 #ボク、フォルトゥナ神団に入団して
 #エルレインさまのおそばにいきたいんだ
-I joined the Sacred Order of
-Fortuna so I could stay close to
-Lady Elrane.
+I wanna join the Sacred Order
+of Fortuna and be at Lady
+Elrane's side someday.
 -----------------------
 #子供
 Child
@@ -375,8 +375,8 @@ Child
 #わたしも、お兄ちゃんたちみたいに
 #エルレインさまの
 #お気に入りになりたいな！
-I wanna be a favorite of Lady Elrane
-just like my big brothers!
+I wanna be a favorite of Lady
+Elrane just like you, big brothers!
 -----------------------
 #子供
 Child
@@ -413,7 +413,7 @@ Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -458,8 +458,8 @@ notice
 -----------------------
 #{16}{27}{5A}{C0}がありましたが
 #いっぱいで持てませんでした
-Found {16}{27}{5A}{C0}, but inventory full already.
-Couldn't carry it.
+Found {16}{27}{5A}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------

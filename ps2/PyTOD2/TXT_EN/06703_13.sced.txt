@@ -8,9 +8,9 @@ Egg of God - Middle Layer
 -----------------------
 #ここは････オベロン社廃坑か
 #どうやら僕の記憶らしいな
-This is... the Oberon Corporation
-abandoned mine. It seems my memory
-was correct.
+This is... the Oberon Corporation's
+abandoned mine. So this one is
+my memory, it seems.
 -----------------------
 NOTICE
 -----------------------
@@ -23,20 +23,20 @@ select
 -----------------------
 #<03:00000000>　持っていく　
 #　持っていかない　
-<03:00000000> Take it
-Don't take it
+<03:00000000> Take it.
+Leave it.
 -----------------------
 NOTICE
 -----------------------
 #デリスエンブレムのかけらを手に入れました
-Obtained a Delis Emblem fragment.
+Acquired a Delis Emblem fragment.
 -----------------------
 #いってらっしゃいませ
 Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？

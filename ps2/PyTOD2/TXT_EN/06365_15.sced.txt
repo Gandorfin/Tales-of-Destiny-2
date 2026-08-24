@@ -170,7 +170,7 @@ Woman
 #ここでは、ずっとアタモニ神さまが
 #見守っていてくださる
 #生活は苦しいけど、幸せだよ
-Here, Lord Atamoni is always
+Here, Atamoni is always
 watching over us.
 Life is hard, but I'm happy.
 -----------------------
@@ -210,11 +210,11 @@ I wonder if they'd get mad if I took
 the toilet paper from the shelf...
 -----------------------
 #いってらっしゃいませ
-Welcome.
+Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -228,7 +228,7 @@ select
 No
 -----------------------
 #ごゆっくりお休みください
-Please rest well.
+Have a good night.
 -----------------------
 #おはようございます
 Good morning.
@@ -237,7 +237,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-We hope to see you again soon.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------

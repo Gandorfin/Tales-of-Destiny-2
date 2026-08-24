@@ -676,7 +676,7 @@ Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -722,7 +722,7 @@ notice
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{C2}{C0}, but
-your inventory is already full.
+your inventory is full.
 -----------------------
 notice
 -----------------------
@@ -759,8 +759,8 @@ select
 #　リファイン講座　
 #　いらない　
 <03:00000000>Buy
-<0B:00000001>{14}{25}{D6}{C0}Buy in bulk ({14}{35}{D0}{C0} Gald)<0B:00000000>
-Refine Tutorial
+<0B:00000001>Buy {14}{25}{D6}{C0} in bulk ({14}{35}{D0}{C0} Gald)<0B:00000000>
+Refine Guide
 No thanks
 -----------------------
 select
@@ -769,7 +769,7 @@ select
 #　リファイン講座　
 #　いらない　
 <03:00000000>Buy
-Refine Tutorial
+Refine Guide
 No thanks
 -----------------------
 #お買い上げ、ありがとうございます
@@ -784,7 +784,7 @@ Thank you for your purchase.
 -----------------------
 #リファイン講座を聞きたいですか？
 Would you like to hear
-the Refine tutorial?
+the Refine Guide?
 -----------------------
 select
 -----------------------

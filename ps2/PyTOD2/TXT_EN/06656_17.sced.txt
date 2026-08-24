@@ -1,8 +1,8 @@
 #神のたまご・上層部
-Egg of God - Upper Level
+Egg of God - Upper Layer
 -----------------------
 #神のたまご・上層部
-Egg of God - Upper Level
+Egg of God - Upper Layer
 -----------------------
 #<button:00000037>：やりなおし
 <button:00000037>: Retry
@@ -48,11 +48,11 @@ No
 Ouch...
 -----------------------
 #いってらっしゃいませ
-Come again.
+Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -75,7 +75,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-Please come again.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -86,7 +86,7 @@ exit-party_togather( short spd )
 notice
 -----------------------
 #{16}{26}{1E}{C0}を手に入れました
-{16}{26}{1E}{C0}Acquired .
+Acquired {16}{26}{1E}{C0}.
 -----------------------
 notice
 -----------------------

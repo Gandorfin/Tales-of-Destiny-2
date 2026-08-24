@@ -52,7 +52,7 @@ Barbatos
 #もはや、ディムロスも
 #英雄と呼ばれる連中も
 #どうでもよくなった
-Dimlos, heroes...
+Dymlos, heroes...
 I don't care about any of it
 anymore.
 -----------------------
@@ -118,8 +118,8 @@ Barbatos
 #貴様の兄はミクトランとの戦いで
 #刺しちがえて死ぬ
 #これが、今の段階での史実だ
-Your brother dies from a mortal
-wound in battle against Kronos.
+Your brother runs Kronos through
+and dies on his blade in turn.
 That is the historical fact as it
 stands now.
 -----------------------
@@ -261,9 +261,8 @@ That's right, <Harold>...!
 #また、ベルクラントを
 #起動されちゃたまんないから
 We'd better lock it up.
-We can't have Belcrant
-getting activated again.
-That'd be unbearable.
+Can't have anyone firing
+Belcrant up again.
 -----------------------
 <Kyle>
 -----------------------
@@ -316,7 +315,7 @@ Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？

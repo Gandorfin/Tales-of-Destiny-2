@@ -33,9 +33,9 @@ Old Man
 #さすがにこの歳になると
 #何度もカプセルに入らなくては
 #体がもたんのう
-At my age, I must enter the capsule
-time and again. My body can no
-longer endure it.
+At my age, my body won't hold up
+unless I enter the capsule
+time and again.
 -----------------------
 #おじいさん
 Old Man
@@ -85,7 +85,7 @@ that is when such thoughts arise...
 #予想してたことだが････
 #やっぱ、城なんてないよな
 I figured as much...
-Told you there was no castle.
+No castle here after all.
 -----------------------
 <Judas>
 -----------------------
@@ -94,7 +94,7 @@ Told you there was no castle.
 #存在しないということだ
 If this is not Heidelberg,
 then neither the castle
-nor Garr who dwells there exist.
+nor Woodrow who dwells there exist.
 -----------------------
 <Kyle>
 -----------------------
@@ -114,7 +114,7 @@ matters is living in the present.
 #あのさ、ウッドロウって人
 #この街にいる？
 #英雄王って、呼ばれてるはずなんだけど
-Hey, is there a man named Garr
+Hey, is there a man named Woodrow
 in this town? He's supposed to be
 called the Hero King.
 -----------------------
@@ -124,7 +124,7 @@ Townsperson
 #ウッドロウ････？
 #バルバトスさまの
 #間違いではないですか？
-Garr...?
+Woodrow...?
 Might you mean
 Lord Barbatos?
 -----------------------
@@ -153,7 +153,7 @@ Townsperson
 #フォルトゥナ神団の方に聞けば
 #教えてもらえますよ
 You did not know?
-Ask the Order of Atamoni,
+Ask the Sacred Order of Fortuna,
 and they will tell you.
 -----------------------
 <Judas>
@@ -289,14 +289,15 @@ unraveled there.
 Chef
 -----------------------
 #{16}{34}{7C}{C0}作ってる？
-{16}{34}{7C}{C0}Are you making it?
+Making {16}{34}{7C}{C0}, are you?
 -----------------------
 #シェフ
 Chef
 -----------------------
 #{16}{34}{7C}{C0}の作り方を
 #知りたいですか？
-Want to learn how to make {16}{34}{7C}{C0}?
+Want to learn how
+to make {16}{34}{7C}{C0}?
 -----------------------
 select
 -----------------------
@@ -310,7 +311,8 @@ Chef
 -----------------------
 #{16}{34}{7C}{C0}の作り方を
 #教えてあげよう
-I'll teach you how to make {16}{34}{7C}{C0}.
+I'll teach you how
+to make {16}{34}{7C}{C0}.
 -----------------------
 #シェフ
 Chef
@@ -346,7 +348,8 @@ Chef
 -----------------------
 #{16}{34}{7C}{C0}のレシピを
 #売ってあげよう
-I'll sell you the recipe for {16}{34}{7C}{C0}.
+I'll sell you the recipe
+for {16}{34}{7C}{C0}.
 -----------------------
 #シェフ
 Chef
@@ -382,10 +385,8 @@ Chef
 -----------------------
 #{16}{34}{7C}{C0}を作るのに必要な食材は
 #{18}{44}{78}{C0}です
-To make
-{16}{34}{7C}{C0}
-you need
-{18}{44}{78}{C0}
+To make {16}{34}{7C}{C0}, you'll need
+{18}{44}{78}{C0}.
 -----------------------
 #シェフ
 Chef
@@ -399,10 +400,8 @@ Chef
 -----------------------
 #ゆずってくれれば{16}{34}{7C}{C0}を
 #作るがどうだい？
-I'll make
-{16}{34}{7C}{C0}
-if you provide the ingredients.
-Interested?
+Hand them over and I'll whip up
+some {16}{34}{7C}{C0}. How about it?
 -----------------------
 select
 -----------------------
@@ -416,8 +415,8 @@ Chef
 -----------------------
 #そうか、待ってな　
 #すぐに{16}{34}{7C}{C0}を作ってやるよ
-All right, wait right there.
-I'll make {16}{34}{7C}{C0} for you in no time.
+All right, just a moment.
+I'll have {16}{34}{7C}{C0} ready in no time.
 -----------------------
 #シェフ
 Chef
@@ -468,7 +467,7 @@ Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？

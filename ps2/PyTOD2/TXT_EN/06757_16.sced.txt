@@ -11,19 +11,19 @@ Noko Cultivation Area
 Noko
 -----------------------
 #の～
-Nooo~
+Noh~
 -----------------------
 #のこ
 Noko
 -----------------------
 #の！
-No!
+Noh!
 -----------------------
 #のこ
 Noko
 -----------------------
 #の！
-No!
+Noh!
 -----------------------
 <item:00000C02>
 -----------------------
@@ -31,10 +31,10 @@ No!
 Nokonoko, meow~
 -----------------------
 #きのこや
-Mushrooms.
+Mushroom shop
 -----------------------
 #のこのきのこ食べるニャ？
-Wanna eat noko-noko mushrooms, meow?
+Wanna eat a Noko mushroom, meow?
 -----------------------
 #ねこにん
 Katz
@@ -43,11 +43,11 @@ Katz
 Eat up, meow.
 -----------------------
 #いってらっしゃいませ
-Come again!
+Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -70,7 +70,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-We look forward to your next visit.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -93,7 +93,7 @@ notice
 #{16}{25}{D6}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{D6}{C0}, but
-inventory is full already.
+your inventory is full.
 -----------------------
 notice
 -----------------------

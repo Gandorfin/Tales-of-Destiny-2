@@ -11,9 +11,8 @@ Soldier
 #地上軍のヤツらが妙なマシンで
 #乗りこんできたって話だ
 Hey, sounds like we've got
-intruders. The surface army's
-bringing in some weird machines...
-Rumor is they're already aboard.
+intruders. Word is the Er'ther lot
+flew in on some weird machine.
 -----------------------
 #兵士
 Soldier
@@ -122,8 +121,8 @@ have to give you a rough welcome!
 #それがいま、わたしにできる
 #すべてだから････！
 I'll fight with everything I have
-until the very end! That's all I can
-do now... It's everything I have!
+until the very end! Because that's
+all I can do right now...!
 -----------------------
 <Loni>
 -----------------------
@@ -199,8 +198,8 @@ notice
 -----------------------
 #<Harold>は
 #称号「<item:00000871>」を得ました
-<Harold> obtained
-the title "<item:00000871>"!
+<Harold> acquired the title
+"<item:00000871>".
 -----------------------
 {15}{24}{72}{C0}
 -----------------------
@@ -209,7 +208,7 @@ Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？

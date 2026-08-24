@@ -168,9 +168,9 @@ Well then, let's get moving too.
 #最後の最後で
 #バルバトスにジャマされちゃ
 #今までの苦労が、パーだ
-And at the very last moment,
-Barbatos had to interfere. All my
-hard work up till now, ruined.
+If Barbatos butts in at the very
+last second, all our hard work
+goes right down the drain.
 -----------------------
 <Harold>
 -----------------------
@@ -189,9 +189,9 @@ Wait, <Harold>!
 #<Harold>は
 #ディムロスさんたちを追いかけて
 #今なら、まだ間に合うから！
-<Harold> went after Dymlos and the
-others. If you hurry, you can still
-catch up!
+<Harold>, go after Dymlos and
+the others! If you hurry, you
+can still make it in time!
 -----------------------
 <Judas>
 -----------------------
@@ -244,9 +244,9 @@ upside down?
 #でも、<Harold>
 #きっと悲しむよ！
 #それでもいいの!?
-But <Harold>
-would be so sad!
-Is that really okay with you!?
+But <Harold>, you're
+going to grieve!
+Are you really okay with that!?
 -----------------------
 <Harold>
 -----------------------
@@ -360,7 +360,7 @@ Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？

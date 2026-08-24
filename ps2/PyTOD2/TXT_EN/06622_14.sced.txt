@@ -2,10 +2,10 @@
 Altar of Sin
 -----------------------
 #カタコンベ・罪の祭壇
-Catacomb - Altar of Sin
+Catacombs - Altar of Sin
 -----------------------
 #カタコンベ
-Catacomb
+Catacombs
 -----------------------
 NOTICE
 -----------------------
@@ -22,11 +22,11 @@ Be on your guard! 'Darkness' is
 Truth' upon the 'darkness'!
 -----------------------
 #いってらっしゃいませ
-Come again.
+Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -49,7 +49,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-We hope to see you again.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------

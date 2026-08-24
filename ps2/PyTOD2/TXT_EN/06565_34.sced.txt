@@ -8,7 +8,7 @@ Er'ther Base
 Er'ther Base
 -----------------------
 #門衛
-Gatekeeper
+Gate Guard
 -----------------------
 #外へ出るのか？
 Heading outside?
@@ -105,9 +105,9 @@ Specialist Sergeant
 -----------------------
 #ハハ、あの人は文句無く最年長ですね
 #いったい何年、軍人をやってるんでしょうね
-Haha, she's unquestionably the
+Haha, he's unquestionably the
 oldest among us. I wonder how many
-years she's been a soldier.
+years he's been a soldier.
 -----------------------
 #特技下士官
 Specialist Sergeant
@@ -241,7 +241,7 @@ Senior Officer
 #身命を地上軍に捧げるのだ！
 #さすれば勝利を得られよう！
 Dedicate your very lives to the
-Ground Forces! Only then shall we
+Er'ther Army! Only then shall we
 claim victory!
 -----------------------
 #上級士官
@@ -267,8 +267,8 @@ Senior Officer
 -----------------------
 #私の息子は地上軍のために
 #命を捧げ、死んだのだ
-My son gave his life for the Ground
-Forces. He died in service.
+My son gave his life for the
+Er'ther Army. He died in service.
 -----------------------
 #上級士官
 Senior Officer
@@ -359,7 +359,7 @@ protect my subordinates' lives, no
 matter what.
 -----------------------
 #ワン
-One
+Woof!
 -----------------------
 #兵卒Ａ
 Soldier A
@@ -450,7 +450,7 @@ falling for the 'Jet-Black Wings'!
 #なあ、<Harold>
 #そろそろ、どこへ行くのか
 #教えてくれてもいいだろ
-Hey, <Harold>
+Hey, <Harold>,
 it's about time you told us
 where we're going, don't you think?
 -----------------------
@@ -521,8 +521,8 @@ notice
 -----------------------
 #<Harold>は
 #称号「<item:00000829>」を得ました
-<Harold>
-obtained the title "<item:00000829>"!
+<Harold> acquired the title
+"<item:00000829>".
 -----------------------
 <Harold>
 -----------------------
@@ -570,8 +570,8 @@ notice
 -----------------------
 #<Harold>は
 #称号「<item:00000872>」を得ました
-<Harold>
-obtained the title "<item:00000872>"!
+<Harold> acquired the title
+"<item:00000872>".
 -----------------------
 <Loni>
 -----------------------
@@ -655,9 +655,9 @@ of all their lives.
 #････つまりディムロスは
 #アトワイトひとりの命と引きかえに
 #地上軍の全兵士のことを優先した、と？
-...So Dymlos prioritized the lives
-of the entire ground army over one
-person-- Atwight's life, you mean?
+...So Dymlos put the lives of the
+entire Er'ther Army ahead of one
+life... Atwight's. Is that it?
 -----------------------
 <Harold>
 -----------------------
@@ -713,7 +713,7 @@ Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -747,12 +747,12 @@ exit-party_togather( short spd )
 notice
 -----------------------
 #{16}{26}{4E}{C0}を手に入れました
-Obtained {16}{26}{4E}{C0}.
+Acquired {16}{26}{4E}{C0}.
 -----------------------
 notice
 -----------------------
 #<item:FFFFFFFF>を手に入れました
-Obtained <item:FFFFFFFF>.
+Acquired <item:FFFFFFFF>.
 -----------------------
 notice
 -----------------------

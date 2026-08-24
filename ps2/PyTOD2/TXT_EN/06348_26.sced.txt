@@ -14,8 +14,8 @@ NOTICE
 -----------------------
 #<item:0000004C>、<item:0000005B>、<item:00000069>を
 #手に入れました
-Acquired <item:0000004C>, <item:0000005B>, and <item:00000069>.
-Congratulations.
+Acquired <item:0000004C>, <item:0000005B>,
+and <item:00000069>.
 -----------------------
 #ストレイライズ神殿が
 #配給している食糧だ
@@ -39,7 +39,7 @@ This building is currently
 managed by Straylize Temple.
 -----------------------
 #『万装備屋　武具の修理と売買』
-Yorozu Equipment Shop:
+All-Purpose Equipment Shop:
 Weapon Repair and Sales
 -----------------------
 NOTICE
@@ -56,7 +56,7 @@ select
 -----------------------
 #<03:00000000>　読んでもらう　
 #　興味無い　
-<03:00000000>Have her read it
+<03:00000000> Have her read it
 Not interested
 -----------------------
 NOTICE
@@ -65,9 +65,9 @@ NOTICE
 #白く険しき山の中腹
 #絶海に沈みし偶像の上
 #巨石文明の名残１
-Amid flames on the desert continent
+In flames on the desert continent
 On a stark white mountainside
-Above an idol sunk in the open sea
+Above an idol sunk at sea
 Megalithic Civilization Remnant 1
 -----------------------
 NOTICE
@@ -77,9 +77,9 @@ NOTICE
 #人の訪れぬ白い島、緑の園
 #異国の地、大地をえぐる円
 Megalithic Civilization Remnant 2
-By a lake shrouded in deep green
-A white isle, a green garden unseen
-Foreign land, a circle cut in earth
+By a lake veiled in deep green
+White isle, garden unvisited
+A circle carved in foreign earth
 -----------------------
 NOTICE
 -----------------------
@@ -116,9 +116,8 @@ Knight
 #見えるかもしれない
 #しかし、それが街のためになるのだ
 Our methods may sometimes seem
-heavy-handed. They may appear that
-way. But it is all for the good
-of this town.
+heavy-handed. But it is all for
+the good of this town.
 -----------------------
 #騎士
 Knight
@@ -264,7 +263,7 @@ Sister
 #アタモニ神なら
 #きっと、われわれを幸福な世界に
 #みちびいてくれるはずです！
-Surely the God Atamoni
+Surely the goddess Atamoni
 will guide us all
 to a world of happiness!
 -----------------------
@@ -707,7 +706,7 @@ Grid
 #レンズハンター団『漆黒の翼』だぞ！
 ...Why!? We're the strongest in
 history, the absolutely undefeated
-Lens Hunter brigade, the 'Jet Black
+Lens Hunter brigade, the 'Jet-Black
 Wings'!
 -----------------------
 #グリッド
@@ -754,8 +753,8 @@ Grid
 #よく言った、ジョン！
 #それでこそ「漆黒の翼」の一員！
 Well said, John! That's what it
-means to be a member of the 'Jet
-Black Wings'!
+means to be a member of the
+'Jet-Black Wings'!
 -----------------------
 #グリッド
 Grid
@@ -782,7 +781,7 @@ John
 -----------------------
 #フンガー！
 #そのとおりでやんす！
-Hunger!
+Hnngah!
 That is correct, de gozaru!
 -----------------------
 #グリッド
@@ -1008,15 +1007,15 @@ notice
 -----------------------
 #<Kyle>は
 #称号「<item:00000889>」を得ました
-<Kyle>
-gained the title "<item:00000889>"!
+<Kyle> acquired the title
+"<item:00000889>".
 -----------------------
 #いってらっしゃいませ
-Come again soon.
+Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald per night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald per night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -1039,7 +1038,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-We hope to see you again soon.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -1073,14 +1072,14 @@ There's nothing here.
 Veteran
 -----------------------
 #ひよっこ
-Newbie
+Rookie
 -----------------------
 notice
 -----------------------
 #「武器攻撃」について
 #話し合っているようです
 #耳を傾けますか？
-They seem to be discussing
+They appear to be discussing
 "Weapon Attacks."
 Would you like to listen in?
 -----------------------
@@ -1150,7 +1149,7 @@ notice
 #「特技」について
 #話し合っているようです
 #耳を傾けますか？
-They seem to be discussing
+They appear to be discussing
 "Base Artes."
 Would you like to listen in?
 -----------------------
@@ -1205,7 +1204,7 @@ notice
 #「エンチャント」について
 #話し合っているようです
 #耳を傾けますか？
-They seem to be discussing
+They appear to be discussing
 "Enchant."
 Would you like to listen in?
 -----------------------
@@ -1295,9 +1294,9 @@ notice
 #「戦闘の作戦」について
 #話し合っているようです
 #耳を傾けますか？
-"Battle Strategy"
-They seem to be discussing it.
-Will you listen in?
+They appear to be discussing
+"Battle Strategy."
+Would you like to listen in?
 -----------------------
 #いろんな敵に遭っても対処できるように、
 #作戦を決めておこうではないか！
@@ -1357,9 +1356,9 @@ notice
 #「テクニカルスマッシュ」
 #について話し合っているようです
 #耳を傾けますか？
-"Technical Smash"
-They seem to be discussing it.
-Will you listen in?
+They appear to be discussing
+"Technical Smash."
+Would you like to listen in?
 -----------------------
 #テクニカルスマッシュってなにさ？
 What's a Technical Smash?
@@ -1420,9 +1419,9 @@ notice
 #「スピリッツ」について
 #話し合っているようです
 #耳を傾けますか？
-"Spirits"
-They seem to be discussing it.
-Will you listen in?
+They appear to be discussing
+"Spirits."
+Would you like to listen in?
 -----------------------
 #敵に攻撃しても防御されまくりさ
 Even when we attack,
@@ -1476,9 +1475,9 @@ notice
 #「連続ヒット」について
 #話し合っているようです
 #耳を傾けますか？
-"Continuous Hit"
-They seem to be discussing it.
-Will you listen in?
+They appear to be discussing
+"Continuous Hit."
+Would you like to listen in?
 -----------------------
 #連続ヒットってなにさ？
 What's a Continuous Hit?
@@ -1534,9 +1533,9 @@ notice
 #「影響エリア」について
 #話し合っているようです
 #耳を傾けますか？
-"Field of Effect"
-They seem to be discussing it.
-Will you listen in?
+They appear to be discussing
+"Field of Effect."
+Would you like to listen in?
 -----------------------
 #敵の裏側から攻撃したら有利だと思ったけど
 #なんだか疲れるさ
@@ -1581,19 +1580,19 @@ Not bad. You actually said
 something smart for once.
 -----------------------
 #ベテランすぎ
-Too veteran for his own good.
+Overly Veteran
 -----------------------
 #息子
-...Son.
+Son
 -----------------------
 notice
 -----------------------
 #「ステータス変化」について
 #話し合っているようです
 #耳を傾けますか？
-"Status Effects"
-They seem to be discussing it.
-Will you listen in?
+They appear to be discussing
+"Status Effects."
+Would you like to listen in?
 -----------------------
 #戦闘でステータス異常になってしもうた
 #パナシーアボトルもないのじゃ
@@ -1636,7 +1635,7 @@ that can prevent them as well.
 #後の祭りじゃあ　毒<button:00000056>に麻痺<button:0000005F>に衰弱<button:0000005A>に凍結に
 #鈍足でもうへとへとじゃあ
 It's too late for that now. Poison
-<button:00000056>, paralysis <button:0000005F>, debilitation
+<button:00000056>, paralysis <button:0000005F>, weakness
 <button:0000005A>, freezing... And Slow, too. I'm
 completely exhausted.
 -----------------------
@@ -1670,19 +1669,19 @@ Hahahahahahahaha!
 a bit too hard...)
 -----------------------
 #ベテランすぎ
-Too veteran for his own good.
+Overly Veteran
 -----------------------
 #息子
-...Son.
+Son
 -----------------------
 notice
 -----------------------
 #「スピリッツブラスター」
 #について話し合っているようです
 #耳を傾けますか？
-"Spirit Blaster"
-It seems they're discussing it.
-Will you listen in?
+They appear to be discussing
+"Spirit Blaster."
+Would you like to listen in?
 -----------------------
 #ピンチになっても、スピリッツブラスター
 #になれば逆転のチャンスができるわい
@@ -1779,19 +1778,19 @@ Because it's a nuisance.
 after the first time...)
 -----------------------
 #ベテランすぎ
-Too veteran for his own good.
+Overly Veteran
 -----------------------
 #息子
-...Son.
+Son
 -----------------------
 notice
 -----------------------
 #「フィールドオブエフェクト」
 #について話し合っているようです
 #耳を傾けますか？
-"Field of Effect"
-It seems they're discussing it.
-Will you listen in?
+They appear to be discussing
+"Field of Effect."
+Would you like to listen in?
 -----------------------
 #この間の、敵が出す
 #「フィールドオブエフェクト」には
@@ -1855,9 +1854,9 @@ notice
 #「バトルグレード」について
 #話し合っているようです
 #耳を傾けますか？
-About "Battle Grade"
-It seems they're discussing it.
-Will you listen in?
+They appear to be discussing
+"Battle Grade."
+Would you like to listen in?
 -----------------------
 #バトルグレードって結局なにさ？
 So what exactly is
@@ -1902,8 +1901,8 @@ high score do anyway?
 #いう不届きな輩もいますが････
 We're still investigating
 that, Senpai. Some ungrateful
-fools say it's useless in
-the mortal realm, but...
+fools say it's of no use
+in this world, but...
 -----------------------
 #まあ深く気にせずに自らの技術を
 #磨けばいいさ
@@ -1919,9 +1918,9 @@ notice
 #「受身」について
 #話し合っているようです
 #耳を傾けますか？
-About "Ukemi"
-It seems they're discussing it.
-Will you listen in?
+They appear to be discussing
+"Breakfalls."
+Would you like to listen in?
 -----------------------
 #地面にたたきつけられると
 #倒れてしまうさ
@@ -1932,11 +1931,10 @@ ground, you end up knocked down.
 #でも、地面に接地したまさに
 #その瞬間に<button:00000047>を押すと、
 #受身がとれますよね
-It certainly is tough, Senpai. But
-right at the moment you hit the
-ground, if you press <button:00000047> at that
-instant, you can break your fall
-with a ukemi.
+It's rough, Senpai. But if you
+press <button:00000047> at the exact moment
+you hit the ground, you can
+break your fall.
 -----------------------
 #ももももちろん知ってたさ
 O-o-o-o-of course I knew that.
@@ -1956,9 +1954,9 @@ notice
 #「戦闘難易度」について
 #話し合っているようです
 #耳を傾けますか？
-About "Battle Difficulty"
-They seem to be discussing it.
-Will you listen in?
+They appear to be discussing
+"Battle Difficulty."
+Would you like to listen in?
 -----------------------
 #戦闘難易度を高くするのに、
 #なんの意味があるのさ？
@@ -2011,9 +2009,9 @@ notice
 #「通常攻撃」について
 #深く話し合っているようです
 #耳を傾けますか？
-About "Normal Attacks" They seem to
-be having an in-depth discussion.
-Will you listen in?
+They appear to be discussing
+"Normal Attacks."
+Would you like to listen in?
 -----------------------
 #慣れてきたから最近は通常攻撃は
 #<button:00000045>だけ叩きっぱなしさ
@@ -2101,9 +2099,9 @@ notice
 #「長い話」について
 #話し合っているようです
 #耳を傾けますか？
-About "Long Conversations"
-They seem to be discussing it.
-Will you listen in?
+They appear to be discussing
+"Long Conversations."
+Would you like to listen in?
 -----------------------
 #ためになる話も十年くらい聞いてると
 #さすがにつかれるさ
@@ -2115,11 +2113,10 @@ it for ten years straight.
 #<button:0000002F>と<button:0000002E>を押しっぱなしにすると
 #メッセージを早送りできる
 #同じ会話を読み飛ばすとき便利だ
-Come to think of it, I never told
-you. If you hold down <button:0000002F> and <button:0000002E>, you
-can fast-forward through messages.
-Comes in handy when you're skipping
-repeat dialogue.
+Come to think of it, I never
+told you: hold down <button:0000002F> and <button:0000002E>
+to fast-forward messages. Handy
+for skipping repeated dialogue.
 -----------------------
 #なにー
 #どうして十年もそれを教えて
@@ -2147,9 +2144,9 @@ notice
 #「アイテム拾得」について
 #話し合っているようです
 #耳を傾けますか？
-About "Item Drops"
-They seem to be discussing it.
-Will you listen in?
+They appear to be discussing
+"Item Drops."
+Would you like to listen in?
 -----------------------
 #冒険者として生きるからには
 #敵からアイテムを拾いまくりたいさ

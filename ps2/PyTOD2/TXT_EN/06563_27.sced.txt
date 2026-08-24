@@ -10,8 +10,8 @@ The world within a dream
 #悪夢はいつも、ここからはじまるな
 #シャル
 ...Not again.
-My nightmare always begins here.
-Chal.
+The nightmare always begins
+here, doesn't it, Chal?
 -----------------------
 <Kyle>
 -----------------------
@@ -23,7 +23,7 @@ memories...
 -----------------------
 #正確には、リオン＝マグナスの記憶
 #ということになるがな
-To be precise, it's Leon Magnus's
+To be precise, it's Lion Magnus's
 memories. That's what this is.
 -----------------------
 <Nanaly>
@@ -36,10 +36,10 @@ Stahn
 -----------------------
 #なんのまねだ、リオン!?
 What do you think you're doing,
-Leon!?
+Lion!?
 -----------------------
 #リオン
-Leon
+Lion
 -----------------------
 #見てのとおりだ
 #ここから先へ進みたければ
@@ -58,25 +58,25 @@ What are you saying?! You know we're
 in a crisis right now, don't you?!
 -----------------------
 #リオン
-Leon
+Lion
 -----------------------
 #そんなことは関係ない
 #僕は与えられた役割を果たすだけだ
 #おまえたちを殺すというな
 That doesn't matter. I am simply
 fulfilling the role I was given.
-I must kill you.
+The role of killing you.
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #目を覚ますんだ、リオンくん！
 #君はヒューゴに利用されているだけだ！
-Open your eyes, Leon!
+Open your eyes, Lion!
 You're nothing but a tool for Hugo!
 -----------------------
 #リオン
-Leon
+Lion
 -----------------------
 #そのとおりだ
 #僕はヒューゴにとって
@@ -95,7 +95,7 @@ You understand all that,
 and yet...?
 -----------------------
 #リオン
-Leon
+Lion
 -----------------------
 #僕には守るべきものがある
 #それだけのことだ
@@ -103,7 +103,7 @@ I have something I must protect.
 That is all.
 -----------------------
 #リオン
-Leon
+Lion
 -----------------------
 #覚悟はいいか！
 #いくぞッ、スタン！
@@ -111,7 +111,7 @@ Are you ready?!
 Here I come, Stahn!
 -----------------------
 #リオン
-Leon
+Lion
 -----------------------
 #････かはっ！
 ...Kah!
@@ -120,10 +120,10 @@ Leon
 Stahn
 -----------------------
 #････リオン、なんで････
-...Leon, why...?
+...Lion, why...?
 -----------------------
 #リオン
-Leon
+Lion
 -----------------------
 #スタン････
 Stahn...
@@ -135,16 +135,16 @@ Stahn
 Wh-what the?!
 -----------------------
 #リオン
-Leon
+Lion
 -----------------------
 #････終末の時計は････動き････出した････
 #もう････誰にも････止められ････ない････
-...The clock of destruction... has
+...The doomsday clock... has
 begun... to tick... No one... can
 stop it... anymore...
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #この音は････!?
 #まさか、水が
@@ -154,7 +154,7 @@ Don't tell me water
 is flooding in?!
 -----------------------
 #ウッドロウ
-Garr
+Woodrow
 -----------------------
 #まずいぞ････早く逃げないと！
 This is bad... We have to get out
@@ -164,7 +164,7 @@ of here, fast!
 Philia
 -----------------------
 #でも、リオンさんが！
-But what about Leon?!
+But what about Lion?!
 -----------------------
 #ルーティ
 Rutee
@@ -215,7 +215,7 @@ Elrane
 #おまえの愛する者も
 #手に入れることができるのだぞ？
 You could even have
-the one you love?
+the one you love.
 -----------------------
 #エルレイン
 Elrane
@@ -288,7 +288,7 @@ Elrane
 #リオン＝マグナス
 ...You would have this nightmare
 repeat for all eternity?
-Leon Magnus.
+Lion Magnus.
 -----------------------
 <Judas>
 -----------------------
@@ -302,7 +302,7 @@ understand... anything...
 #････僕は････
 #････僕は、リオンでは････ない
 ...I am...
-...I am not Leon...
+...I am not Lion...
 -----------------------
 <Judas>
 -----------------------
@@ -351,7 +351,7 @@ Elrane
 #その男････リオンは
 #私利私欲のために
 #仲間を捨てた裏切り者なのだぞ？
-That man... Leon... abandoned
+That man... Lion... abandoned
 his comrades for his own selfish
 desires, did he not?
 -----------------------
@@ -360,7 +360,7 @@ desires, did he not?
 #リオン？
 #そんなヤツのことは
 #知らねえな
-Leon?
+Lion?
 Never heard of the guy.
 -----------------------
 <Nanaly>
@@ -434,11 +434,11 @@ our history...
 ...Yeah!
 -----------------------
 #いってらっしゃいませ
-Welcome.
+Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -461,7 +461,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-We look forward to your next visit.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -484,7 +484,7 @@ notice
 #{16}{26}{82}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{26}{82}{C0}, but
-inventory full already.
+your inventory is full.
 -----------------------
 notice
 -----------------------

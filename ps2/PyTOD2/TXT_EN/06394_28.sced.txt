@@ -92,7 +92,7 @@ hurry, the ship's gonna leave!
 -----------------------
 #ウッドロウ王ってさ
 #どんな人なんだろう!?
-So what's King Garr like?
+So what's King Woodrow like?
 What kind of person is he!?
 -----------------------
 <Loni>
@@ -251,8 +251,8 @@ goddess's blessing be with you...
 #粗暴って････もしかして
 #<Nanaly>たちのことか？
 #ずいぶん失礼だな、あいつ！
-"Rough"? Wait, don't tell me...
-Does he mean us <Nanaly>?
+"Rough"? Wait... does he mean
+<Nanaly> and her people?
 The nerve of that guy!
 -----------------------
 <Nanaly>
@@ -349,7 +349,7 @@ Sailor
 #それに、その甘～いマ・ス・ク････♪
 You two are born sailors, I tell ya.
 Young, plenty of stamina...
-And those sweet, sweet ma-a-sks... ♪
+And those sweet, sweet lo-o-oks... ♪
 -----------------------
 #若者
 Young Man
@@ -374,7 +374,7 @@ Young Man
 #それに、その甘～いマ・ス・ク････♪
 You two are born sailors, I tell ya.
 Young, plenty of stamina...
-And those sweet, sweet ma-a-sks... ♪
+And those sweet, sweet lo-o-oks... ♪
 -----------------------
 <Loni>
 -----------------------
@@ -564,7 +564,7 @@ Please watch over our ship...
 -----------------------
 #アルジャーノン号が行方不明に
 #なったらしいぞ
-They say the Aljarnon's
+They say the Algernon's
 gone missin'.
 -----------------------
 #あの船の船長はフォルトゥナ様の
@@ -594,14 +594,15 @@ boarding.
 Chef
 -----------------------
 #{16}{34}{84}{C0}作ってる？
-You makin' {16}{34}{84}{C0}?
+Making {16}{34}{84}{C0}, are you?
 -----------------------
 #シェフ
 Chef
 -----------------------
 #{16}{34}{84}{C0}の作り方を
 #知りたいですか？
-Want me to teach you how to make {16}{34}{84}{C0}?
+Want to learn how
+to make {16}{34}{84}{C0}?
 -----------------------
 select
 -----------------------
@@ -615,7 +616,8 @@ Chef
 -----------------------
 #{16}{34}{84}{C0}の作り方を
 #教えてあげよう
-Let me teach you how to make {16}{34}{84}{C0}.
+I'll teach you how
+to make {16}{34}{84}{C0}.
 -----------------------
 #シェフ
 Chef
@@ -630,8 +632,8 @@ Chef
 -----------------------
 #{16}{34}{84}{C0}のレシピがあるんだが、
 #<0B:00000001>{14}{34}{7C}{C0}<0B:00000000>ガルドで買わないか？
-I've got a recipe for {16}{34}{84}{C0},
-wanna buy it for <0B:00000001>{14}{34}{7C}{C0}<0B:00000000> Gald?
+I've got a recipe for {16}{34}{84}{C0}.
+Want to buy it for <0B:00000001>{14}{34}{7C}{C0}<0B:00000000> Gald?
 -----------------------
 select
 -----------------------
@@ -651,7 +653,8 @@ Chef
 -----------------------
 #{16}{34}{84}{C0}のレシピを
 #売ってあげよう
-I'll sell you the recipe for {16}{34}{84}{C0}.
+I'll sell you the recipe
+for {16}{34}{84}{C0}.
 -----------------------
 #シェフ
 Chef
@@ -687,10 +690,8 @@ Chef
 -----------------------
 #{16}{34}{84}{C0}を作るのに必要な食材は
 #{18}{44}{80}{C0}です
-To make
-{16}{34}{84}{C0}
-you need
-{18}{44}{80}{C0}
+To make {16}{34}{84}{C0}, you'll need
+{18}{44}{80}{C0}.
 -----------------------
 #シェフ
 Chef
@@ -704,10 +705,8 @@ Chef
 -----------------------
 #ゆずってくれれば{16}{34}{84}{C0}を
 #作るがどうだい？
-I'll make
-{16}{34}{84}{C0}
-if you provide the ingredients.
-Interested?
+Hand them over and I'll whip up
+some {16}{34}{84}{C0}. How about it?
 -----------------------
 select
 -----------------------
@@ -721,8 +720,8 @@ Chef
 -----------------------
 #そうか、待ってな　
 #すぐに{16}{34}{84}{C0}を作ってやるよ
-I see. Hold on.
-I'll whip up {16}{34}{84}{C0} right away.
+All right, just a moment.
+I'll have {16}{34}{84}{C0} ready in no time.
 -----------------------
 #シェフ
 Chef
@@ -760,7 +759,7 @@ you. A chef worthy of this.
 notice
 -----------------------
 #{16}{34}{84}{C0}のレシピを拾いました
-Picked up the {16}{34}{84}{C0} recipe.
+Picked up the recipe for {16}{34}{84}{C0}.
 -----------------------
 notice
 -----------------------
@@ -836,9 +835,9 @@ notice
 #「武器攻撃」について
 #話し合っているようです
 #耳を傾けますか？
-"Weapon Attacks"
-They seem to be discussing it.
-Will you listen in?
+They appear to be discussing
+"Weapon Attacks."
+Would you like to listen in?
 -----------------------
 #さて俺たちも冒険を始めるわけだが、
 #基本は身に付いたか？
@@ -906,9 +905,9 @@ notice
 #「特技」について
 #話し合っているようです
 #耳を傾けますか？
-"Base Artes"
-They seem to be discussing it.
-Will you listen in?
+They appear to be discussing
+"Base Artes."
+Would you like to listen in?
 -----------------------
 #どうだ、特技を覚えて
 #戦略に幅が出たろう？
@@ -962,9 +961,9 @@ notice
 #「エンチャント」について
 #話し合っているようです
 #耳を傾けますか？
-"Enchant"
-They seem to be discussing it.
-Will you listen in?
+They appear to be discussing
+"Enchant."
+Would you like to listen in?
 -----------------------
 #エンチャントも覚えたさ
 I've learned Enchant too.
@@ -1054,9 +1053,9 @@ notice
 #「戦闘の作戦」について
 #話し合っているようです
 #耳を傾けますか？
-"Battle Strategy"
-They seem to be discussing it.
-Will you listen in?
+They appear to be discussing
+"Battle Strategy."
+Would you like to listen in?
 -----------------------
 #いろんな敵に遭っても対処できるように、
 #作戦を決めておこうではないか！
@@ -1115,9 +1114,9 @@ notice
 #「テクニカルスマッシュ」
 #について話し合っているようです
 #耳を傾けますか？
-"Technical Smash"
-They seem to be discussing it.
-Will you listen in?
+They appear to be discussing
+"Technical Smash."
+Would you like to listen in?
 -----------------------
 #テクニカルスマッシュってなにさ？
 What's a Technical Smash?
@@ -1178,9 +1177,9 @@ notice
 #「スピリッツ」について
 #話し合っているようです
 #耳を傾けますか？
-"Spirits"
-They seem to be discussing it.
-Will you listen in?
+They appear to be discussing
+"Spirits."
+Would you like to listen in?
 -----------------------
 #敵に攻撃しても防御されまくりさ
 We keep attacking, but
@@ -1234,9 +1233,9 @@ notice
 #「連続ヒット」について
 #話し合っているようです
 #耳を傾けますか？
-"Combo Hits"
-They seem to be discussing it.
-Will you listen in?
+They appear to be discussing
+"Combo Hits."
+Would you like to listen in?
 -----------------------
 #連続ヒットってなにさ？
 What's a combo hit?
@@ -1291,9 +1290,9 @@ notice
 #「影響エリア」について
 #話し合っているようです
 #耳を傾けますか？
-"Field of Effect"
-They seem to be discussing it.
-Will you listen in?
+They appear to be discussing
+"Field of Effect."
+Would you like to listen in?
 -----------------------
 #敵の裏側から攻撃したら有利だと思ったけど
 #なんだか疲れるさ
@@ -1337,19 +1336,19 @@ You actually said
 something smart for once.
 -----------------------
 #ベテランすぎ
-Too much of a veteran.
+Overly Veteran
 -----------------------
 #息子
-Son.
+Son
 -----------------------
 notice
 -----------------------
 #「ステータス変化」について
 #話し合っているようです
 #耳を傾けますか？
-"Status Effects"
-They seem to be discussing it.
-Will you listen in?
+They appear to be discussing
+"Status Effects."
+Would you like to listen in?
 -----------------------
 #戦闘でステータス異常になってしもうた
 #パナシーアボトルもないのじゃ
@@ -1426,19 +1425,19 @@ Hahahahahahahahaha!
 laughing too hard...)
 -----------------------
 #ベテランすぎ
-Too much of a veteran.
+Overly Veteran
 -----------------------
 #息子
-Son.
+Son
 -----------------------
 notice
 -----------------------
 #「スピリッツブラスター」
 #について話し合っているようです
 #耳を傾けますか？
-"Spirit Blaster"
-They seem to be discussing it.
-Will you listen in?
+They appear to be discussing
+"Spirit Blaster."
+Would you like to listen in?
 -----------------------
 #ピンチになっても、スピリッツブラスター
 #になれば逆転のチャンスができるわい
@@ -1535,19 +1534,19 @@ It's disruptive.
 after one time...)
 -----------------------
 #ベテランすぎ
-Too much of a veteran.
+Overly Veteran
 -----------------------
 #息子
-Son.
+Son
 -----------------------
 notice
 -----------------------
 #「フィールドオブエフェクト」
 #について話し合っているようです
 #耳を傾けますか？
-"Field of Effect"
-They seem to be discussing it.
-Will you listen in?
+They appear to be discussing
+"Field of Effect."
+Would you like to listen in?
 -----------------------
 #この間の、敵が出す
 #「フィールドオブエフェクト」には
@@ -1612,9 +1611,9 @@ notice
 #「バトルグレード」について
 #話し合っているようです
 #耳を傾けますか？
-"Battle Grade"
-They seem to be discussing it.
-Will you listen in?
+They appear to be discussing
+"Battle Grade."
+Would you like to listen in?
 -----------------------
 #バトルグレードって結局なにさ？
 So what exactly is Battle Grade?
@@ -1674,9 +1673,9 @@ notice
 #「受身」について
 #話し合っているようです
 #耳を傾けますか？
-About "Ukemi"
-They seem to be discussing it.
-Will you listen in?
+They appear to be discussing
+"Fall Breaks."
+Would you like to listen in?
 -----------------------
 #地面にたたきつけられると
 #倒れてしまうさ
@@ -1711,9 +1710,9 @@ notice
 #「戦闘難易度」について
 #話し合っているようです
 #耳を傾けますか？
-About "Battle Difficulty"
-They seem to be discussing it.
-Will you listen in?
+They appear to be discussing
+"Battle Difficulty."
+Would you like to listen in?
 -----------------------
 #戦闘難易度を高くするのに、
 #なんの意味があるのさ？
@@ -1767,9 +1766,9 @@ notice
 #「通常攻撃」について
 #深く話し合っているようです
 #耳を傾けますか？
-About "Normal Attacks" They seem to
-be having an in-depth discussion.
-Will you listen in?
+They appear to be discussing
+"Normal Attacks."
+Would you like to listen in?
 -----------------------
 #慣れてきたから最近は通常攻撃は
 #<button:00000045>だけ叩きっぱなしさ
@@ -1857,9 +1856,9 @@ notice
 #「長い話」について
 #話し合っているようです
 #耳を傾けますか？
-About "Long Conversations"
-They seem to be discussing it.
-Will you listen in?
+They appear to be discussing
+"Long Conversations."
+Would you like to listen in?
 -----------------------
 #ためになる話も十年くらい聞いてると
 #さすがにつかれるさ
@@ -1871,11 +1870,10 @@ it for ten years straight.
 #<button:0000002F>と<button:0000002E>を押しっぱなしにすると
 #メッセージを早送りできる
 #同じ会話を読み飛ばすとき便利だ
-Come to think of it, I never told
-you. If you hold down <button:0000002F> and <button:0000002E>,
-you can fast-forward messages. Handy
-for skipping through conversations
-you've already seen.
+Come to think of it, I never
+told you: hold down <button:0000002F> and <button:0000002E>
+to fast-forward messages. Handy
+for skipping repeated dialogue.
 -----------------------
 #なにー
 #どうして十年もそれを教えて
@@ -1905,9 +1903,9 @@ notice
 #「アイテム拾得」について
 #話し合っているようです
 #耳を傾けますか？
-About "Item Drops"
-They seem to be discussing it.
-Will you listen in?
+They appear to be discussing
+"Item Drops."
+Would you like to listen in?
 -----------------------
 #冒険者として生きるからには
 #敵からアイテムを拾いまくりたいさ

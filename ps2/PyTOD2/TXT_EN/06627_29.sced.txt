@@ -1,8 +1,8 @@
 #カタコンベ・生誕への階段
-Catacomb: Stairs to Birth
+Catacombs - Stairs to Birth
 -----------------------
 #カタコンベ
-Catacomb
+Catacombs
 -----------------------
 #生誕への階段
 Stairs to Birth
@@ -99,8 +99,8 @@ Whoa, th-this is...
 -----------------------
 #あいつ、いったい、
 #何をするつもりなんだい!?
-What the heck
-is that guy planning!?
+What in the world
+is she planning!?
 -----------------------
 <Harold>
 -----------------------
@@ -242,9 +242,8 @@ the comet. Using Lens.
 -----------------------
 #だから、それとこのレンズと
 #どんな関係があるってんだよ!?
-So what's the connection between
-that and this Lens!? What kind of
-connection is there!?
+So what's the connection
+between that and this Lens!?
 -----------------------
 <Harold>
 -----------------------
@@ -384,9 +383,9 @@ Elrane
 #神によって救われるべき、はかなく、
 #あわれで、いとおしい存在
 #それ以上でもそれ以下でもない
-Fragile beings who should be saved
-by God, pitiful, precious creatures
-nothing more, nothing less
+Fragile beings to be saved by
+God; pitiful, precious creatures.
+Nothing more, nothing less.
 -----------------------
 <Kyle>
 -----------------------
@@ -612,15 +611,15 @@ Elrane
 <Kyle>
 -----------------------
 #<Reala>が････神!?
-<Reala>...is God!?
+<Reala> is... a god!?
 -----------------------
 #エルレイン
 Elrane
 -----------------------
 #だから、神を殺せば、私と共に････
 #<Reala>も死ぬ
-So if you kill God, I too will...
-and <Reala> will die.
+So if you kill God, then along
+with me... <Reala> will die too.
 -----------------------
 <Kyle>
 -----------------------
@@ -672,7 +671,7 @@ Please... tell me it's a lie.
 #いいえ････二人の聖女は
 #神より生み出されしもの
 #いうなれば神の化身････
-No... The two Saintesses were
+No... The two Holy Women were
 born from God. We are, in essence,
 incarnations of the divine...
 -----------------------
@@ -796,15 +795,15 @@ notice
 -----------------------
 #<Reala>は
 #称号「<item:0000082D>」を得ました
-<Reala>
-obtained the title "<item:0000082D>"!
+<Reala> acquired the title
+"<item:0000082D>".
 -----------------------
 #いってらっしゃいませ
 Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -849,7 +848,7 @@ notice
 -----------------------
 #{16}{28}{8E}{09}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{28}{8E}{09}{C0}Found , but your
+Found {16}{28}{8E}{09}{C0}, but your
 inventory is full.
 -----------------------
 notice

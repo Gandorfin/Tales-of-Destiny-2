@@ -5,7 +5,7 @@ Heidelberg Museum: Eye of Atamoni
 Heidelberg
 -----------------------
 #博物館『神の眼を巡る騒乱』
-Museum: 'The Unrest Surrounding the
+Museum: 'The Unrest Over the
 Eye of Atamoni'
 -----------------------
 NOTICE
@@ -54,7 +54,7 @@ NOTICE
 #風の属性を持つソーディアンで
 #ウッドロウ＝ケルヴィンが使用した
 A wind-attribute Swordian
-wielded by Garr Kelvin
+wielded by Woodrow Kelvin
 -----------------------
 NOTICE
 -----------------------
@@ -130,16 +130,16 @@ to High Priestess, guiding recovery.
 NOTICE
 -----------------------
 #『四英雄・ウッドロウ＝ケルヴィン』
-The Four Heroes: Garr Kelvin
+The Four Heroes: Woodrow Kelvin
 -----------------------
 NOTICE
 -----------------------
 #ファンダリアの王子にして
 #ソーディアン・イクティノスのマスター
 #騒乱当時２３歳
-Prince of Phandaria and master of
-Swordian Igtenos. He was 23 years
-old during the unrest.
+Prince of Phandaria and master
+of Swordian Igtenos.
+Age at the time: 23
 -----------------------
 NOTICE
 -----------------------
@@ -182,7 +182,7 @@ NOTICE
 -----------------------
 #若き日のウッドロウ王を支えた少女
 #騒乱当時１４歳
-A girl who supported King Garr in
+A girl who supported King Woodrow in
 his youth. Age at the time: 14
 -----------------------
 NOTICE
@@ -191,7 +191,7 @@ NOTICE
 #ウッドロウ王のもとから姿を消したため
 #その後の消息は不明
 Sometime after the unrest, she
-left King Garr's side and vanished.
+left King Woodrow, then vanished.
 Her whereabouts remain unknown.
 -----------------------
 NOTICE
@@ -213,9 +213,9 @@ NOTICE
 #英雄たちと苦難の旅を共にした拳闘士で
 #ノイシュタット闘技場の王者
 #騒乱当時３９歳
-A pugilist who traveled with heroes.
-Champion of Neuestadt's arena.
-Age during the unrest: 39.
+A pugilist who journeyed with the
+heroes. Champion of Neuestadt's
+arena. Age at the time: 39
 -----------------------
 NOTICE
 -----------------------
@@ -238,9 +238,9 @@ NOTICE
 #様々な局面で四英雄たちを支援した
 #騒乱当時２６歳
 Born to a noble Aquaveil family,
-A bard who supported the Four Heroes
-through many trials.
-Age during the conflict: 26
+a bard who supported the Four
+Heroes through many trials.
+Age at the time: 26
 -----------------------
 NOTICE
 -----------------------
@@ -258,8 +258,9 @@ NOTICE
 -----------------------
 #天地戦争時代、地上軍の旗艦として
 #運用されていた巨大な輸送艦
-Er'ther flagship of Aeth'er Wars,
-a massive transport ship.
+A massive transport ship used as
+the Er'ther forces' flagship
+during the Aeth'er Wars.
 -----------------------
 NOTICE
 -----------------------
@@ -340,7 +341,7 @@ Man
 #裏切り者のリオンが使ってたって
 #話だな
 And 'Chaltier' was used by
-that traitor Leon Magnus,
+that traitor Lion Magnus,
 or so the story goes.
 -----------------------
 #おじさん
@@ -370,7 +371,7 @@ Man
 #リオン＝マグナスが入ってないって
 #言いたいのか？
 Wait, are you trying to say
-that Leon Magnus isn't included?
+that Lion Magnus isn't included?
 Is that what you're getting at?
 -----------------------
 #おじさん
@@ -380,7 +381,7 @@ Man
 #リオンなんていう裏切り者を
 #英雄たちと一緒の場所にかざれるかい！
 Don't talk nonsense! You think
-I'd display a traitor like Leon
+I'd display a traitor like Lion
 alongside those heroes?!
 -----------------------
 #偶の十振、日々の一振にしかず････
@@ -433,7 +434,7 @@ Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -479,7 +480,7 @@ notice
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{C2}{C0}, but
-couldn't carry it--inventory full.
+your inventory is full.
 -----------------------
 notice
 -----------------------

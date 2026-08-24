@@ -10,7 +10,7 @@ Orphanage - 2nd Floor
 #ぬいぐるみだ
 #『くま：マリー作』と書かれている
 It's a stuffed animal. The label
-reads "Bear: Handmade by Marie."
+reads "Bear: Handmade by Mary."
 -----------------------
 #孤児院で飼っているハムスターだ
 #名前は････
@@ -33,8 +33,8 @@ No
 -----------------------
 #孤児院で飼っているハムスターだ
 #名前は『<item:00000C01>』
-The orphanage keeps this hamster.
-Its name is
+It's a hamster kept at the
+orphanage. Its name is
 <item:00000C01>.
 -----------------------
 #ここは孤児院二階です
@@ -49,7 +49,7 @@ Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？

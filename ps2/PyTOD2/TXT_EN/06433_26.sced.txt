@@ -1,14 +1,14 @@
 #スノーフリア
-Frostheim
+Snowfria
 -----------------------
 #スノーフリア
-Frostheim
+Snowfria
 -----------------------
 #スノーフリア
-Frostheim
+Snowfria
 -----------------------
 #スノーフリア
-Frostheim
+Snowfria
 -----------------------
 NOTICE
 -----------------------
@@ -81,11 +81,11 @@ here, we'll freeze solid.
 -----------------------
 <Reala>
 -----------------------
-<Judas>
+#<Judas>
 #ハイデルベルグは
 #どっちになるの？
-Which way is
-Heidelberg?
+<Judas>, which way
+is Heidelberg?
 -----------------------
 <Judas>
 -----------------------
@@ -159,8 +159,8 @@ I couldn't call myself a sailor!
 #ずいぶんとカップクの良い
 #おじさんだね
 #キライじゃないよ、そういうの
-You're quite the stubborn
-old man.
+You're one big, burly
+fella, mister.
 I don't hate that type.
 -----------------------
 #おじさん
@@ -181,7 +181,7 @@ Man
 #スノーフリア名物のシャケは
 #もう食ったか？
 Hey there, traveler. Have you tried
-Frostheim's famous salmon yet?
+Snowfria's famous salmon yet?
 -----------------------
 #おじさん
 Man
@@ -703,7 +703,7 @@ Oh, is that so?
 #スノーフリア名物の焼きシャケは
 #いらんかね
 You don't want our famous
-Frostheim grilled salmon?
+Snowfria grilled salmon?
 -----------------------
 <Loni>
 -----------------------
@@ -718,7 +718,7 @@ the same. Don't fuss over the taste.
 NOTICE
 -----------------------
 #<item:0000007C>を手に入れました
-<item:0000007C>You obtained .
+Acquired <item:0000007C>.
 -----------------------
 #ブラザー
 Brother
@@ -789,8 +789,7 @@ Cat Ninja
 #もうずいぶん前になるけれど
 #わちには一人の息子がいたのでミュ
 It was quite some time ago now...
-I had a son, you see. His name
-was Mieu.
+but I had a son, you see, myu.
 -----------------------
 #ねこにん
 Cat Ninja
@@ -929,7 +928,7 @@ select
 No
 -----------------------
 #ごゆっくりお休みください
-Please rest well.
+Have a good night.
 -----------------------
 #おはようございます
 Good morning.
@@ -938,7 +937,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-We look forward to your next visit.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -960,7 +959,7 @@ notice
 -----------------------
 #{16}{25}{D2}{C0}がありましたが
 #いっぱいで持てませんでした
-You found {16}{25}{D2}{C0}, but
+Found {16}{25}{D2}{C0}, but
 your inventory is full.
 -----------------------
 notice
@@ -1001,8 +1000,8 @@ select
 #　リファイン講座　
 #　いらない　
 <03:00000000>Buy
-<0B:00000001>{14}{25}{E6}{C0}Buy all at once ({14}{35}{E0}{C0} Gald)<0B:00000000>
-Refine Course
+<0B:00000001>Buy {14}{25}{E6}{C0} in bulk ({14}{35}{E0}{C0} Gald)<0B:00000000>
+Refine Guide
 No thanks
 -----------------------
 select
@@ -1011,7 +1010,7 @@ select
 #　リファイン講座　
 #　いらない　
 <03:00000000>Buy
-Refine Course
+Refine Guide
 No thanks
 -----------------------
 #お買い上げ、ありがとうございます
@@ -1026,7 +1025,7 @@ Thank you for your purchase.
 -----------------------
 #リファイン講座を聞きたいですか？
 Would you like to hear
-the Refine lecture?
+the Refine Guide?
 -----------------------
 select
 -----------------------

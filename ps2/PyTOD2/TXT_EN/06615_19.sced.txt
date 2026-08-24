@@ -1,11 +1,11 @@
 #アクアヴェイル・万屋モリュウ
-Aquaveil - Moryu's General Store
+Aquaveil - Moreau's General Store
 -----------------------
 #アクアヴェイル
 Aquaveil
 -----------------------
 #万屋モリュウ
-Moryu's General Store
+Moreau's General Store
 -----------------------
 #見たこともないような珍しい品が並んでいる
 Rare, exotic wares line the shelves.
@@ -18,12 +18,12 @@ shape is on display.
 Cushions are laid out on the floor.
 -----------------------
 #モリュウの主人
-Moryu's Owner
+Moreau's Owner
 -----------------------
 #万屋・モリュウへよくきたな！
 #ウチはそんじょそこらの店とは
 #ひと味もふた味もちがうぜ
-Welcome to Moryu's General Store!
+Welcome to Moreau's General Store!
 We're not your run-of-the-mill shop,
 We've got a little something extra.
 -----------------------
@@ -176,7 +176,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-We look forward to your next visit.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------

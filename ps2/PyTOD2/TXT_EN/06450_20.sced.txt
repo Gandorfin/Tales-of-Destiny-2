@@ -82,7 +82,7 @@ Soldier
 #スタンさんのような男になるため
 #ぼく、がんばります！
 I'll do my best to become a man
-like Stan!
+like Stahn!
 -----------------------
 <Kyle>
 -----------------------
@@ -395,7 +395,7 @@ Soldier
 #えらい、ビックリしたが････
 Eighteen years ago, when I heard
 the story about how His Majesty
-Garr saved the world, I was quite
+Woodrow saved the world, I was quite
 surprised...
 -----------------------
 #兵士
@@ -456,9 +456,9 @@ Soldier
 #謁見･･の････間は････
 #････守りが、手薄････！
 #いそ････げ････！
-The audience... is... in progress...
-...Our defenses... are thin...!
-Hurry...!
+The audience... chamber...
+...Its defenses... are thin...!
+Hur...ry...!
 -----------------------
 #兵士
 Soldier
@@ -499,15 +499,15 @@ You're nothing like you were
 yesterday.
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #とにかく頼んだぞ、スタンの････
 #････いや、<Kyle>くん
-I'm counting on you, Stan's...
+I'm counting on you, Stahn's...
 ...No, <Kyle>.
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #あー、それは別館のほうに運んでくれ！
 #重いなら、二回にわけていいから！
@@ -515,7 +515,7 @@ Take those over to the annex!
 If they're heavy, make two trips!
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #いやぁ、復旧作業の担当になってから
 #兵士らしいこと、全然してなくて
@@ -526,7 +526,7 @@ soldiering. But this work is fun
 in its own way.
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #剣とかヤリの扱いなら、得意なんだが
 #トンカチやノコギリ、おまけに
@@ -536,7 +536,7 @@ but now it's hammers and saws,
 and even dealing with girls.
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #だが、なんか楽しいんだよ
 #そう････なにかを作り直すってのが
@@ -546,7 +546,7 @@ There's something good about
 building things back up again.
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #あー、それは二階だ！
 #客間のほうに、持ってってくれ！
@@ -554,12 +554,12 @@ Take those to the second floor!
 Bring them to the guest room!
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #あの英雄スタンの息子を
 #この眼で見られるとは････
 #生ける伝説と対面している気分だ
-To see the son of the hero Stan
+To see the son of the hero Stahn
 with my own eyes...
 is like meeting a living legend.
 -----------------------
@@ -568,12 +568,12 @@ is like meeting a living legend.
 #そうなの？
 #ウッドロウさんのほうがずっと
 #生ける伝説って感じだと思うけど
-Is that so?
-Woodrow is way...
-more of a living legend.
+Is that so? I think Woodrow feels
+way more like a living legend,
+though.
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #まぁ、陛下もそうなんだがな
 #もう十八年も見てると
@@ -598,11 +598,11 @@ he hardly feels like a legend.
 #父さんはたしかに強いけど
 #英雄っていわれても、ピンと来ないよ
 Oh, I get it, totally! My dad
-is definitely strong, But 'hero'
+is definitely strong, but 'hero'
 doesn't really click for me.
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #ははっ！　おれもおまえも
 #英雄が近くにいすぎるっていう
@@ -612,7 +612,7 @@ the rare problem of having heroes
 too close to us.
 -----------------------
 #兵士
-soldier
+Soldier
 -----------------------
 #英雄が近くにいすぎるっていう
 #ゼイタクな悩みを抱えているわけだ
@@ -629,7 +629,7 @@ Soldier
 #ウッドロウ陛下に、謁見か？
 Hold it, you two!
 You look like travelers...
-Here to see King Garr?
+Here to see King Woodrow?
 -----------------------
 #兵士
 Soldier
@@ -698,9 +698,9 @@ work, we'll back off right away.
 #････とはいえ、ウッドロウ王が
 #旧知の友の息子を
 #むげに追いかえす方とは、思えないがな
-...Besides, I can't imagine King
-Garr would turn away the son of an
-old friend so coldly.
+...Besides, I can't imagine
+King Woodrow would turn away the
+son of an old friend so coldly.
 -----------------------
 #兵士
 Soldier
@@ -757,8 +757,8 @@ Soldier
 -----------------------
 #失礼いたしました！
 #すぐに、謁見したいとのことです！
-My apologies!
-He requests an audience immediately!
+My apologies! His Majesty will
+see you at once!
 -----------------------
 #兵士
 Soldier
@@ -810,7 +810,7 @@ Yeah, thanks!
 #ウッドロウさん
 #やっぱ、すっごい人だったよ！
 Hey, listen to this, <Judas>!
-Garr...
+Woodrow...
 He's incredible!
 -----------------------
 <Kyle>
@@ -860,7 +860,7 @@ said he's counting on me! Tahaha...
 #ウッドロウも、兵士たちも
 #おまえのことなど見てはいない
 Don't you realize?
-Garr and the soldiers...
+Woodrow and the soldiers...
 they aren't looking at you.
 -----------------------
 <Judas>
@@ -888,7 +888,7 @@ Ah...
 -----------------------
 #<Reala>、結局ウッドロウは
 #おまえの求める英雄だったのか？
-<Reala>, in the end, was Garr
+<Reala>, in the end, was Woodrow
 the hero you were looking for?
 -----------------------
 <Judas>
@@ -910,7 +910,7 @@ Yes...
 #新しい手がかりも････
 #その顔を見るかぎり、なさそうだな
 A new lead, too...
-Judging by your faces, I doubt it.
+Judging by your face, I doubt it.
 -----------------------
 <Judas>
 -----------------------
@@ -927,7 +927,7 @@ aren't you?
 #ウッドロウにおだてられ
 #城の兵士たちに、ちやほやされ
 #さぞ、気分がよかったことだろう
-Flattered by Garr, fawned over by
+Flattered by Woodrow, fawned over by
 the castle soldiers... I'm sure you
 were having the time of your life.
 -----------------------
@@ -965,7 +965,7 @@ way to say things!
 #おまえも、ウッドロウたちと
 #同じじゃないか
 You really have some nerve. You're
-no different from Garr and the
+no different from Woodrow and the
 others, are you?
 -----------------------
 <Loni>
@@ -1030,7 +1030,7 @@ It's a hero like Stahn.
 #そんな英雄だ
 No matter what happens, always
 thinking of his comrades first...
-That is the kind of hero.
+That's the kind of hero he means.
 -----------------------
 <Judas>
 -----------------------
@@ -1055,8 +1055,8 @@ notice
 -----------------------
 #<Kyle>は
 #称号「<item:0000082F>」を得ました
-<Kyle> earned
-the title "<item:0000082F>"!
+<Kyle> acquired the title
+"<item:0000082F>".
 -----------------------
 <char:000003E8>
 -----------------------
@@ -1068,7 +1068,7 @@ Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？

@@ -39,9 +39,9 @@ NOTICE
 #白く険しき山の中腹
 #絶海に沈みし偶像の上
 #巨石文明の名残１
-Amid flames on the desert continent
+In flames on the desert continent
 On a stark white mountainside
-Above an idol sunk in the open sea
+Above an idol sunk at sea
 Megalithic Civilization Remnant 1
 -----------------------
 NOTICE
@@ -51,9 +51,9 @@ NOTICE
 #人の訪れぬ白い島、緑の園
 #異国の地、大地をえぐる円
 Megalithic Civilization Remnant 2
-By a lake shrouded in deep green
-A white isle, a green garden unseen
-Foreign land, a circle cut in earth
+By a lake veiled in deep green
+White isle, garden unvisited
+A circle carved in foreign earth
 -----------------------
 NOTICE
 -----------------------
@@ -99,7 +99,7 @@ Priest
 #アタモニ神のご加護がありますように
 If you've come to donate Lens,
 please head to the inner grand
-temple. May Lord Atamoni's blessing
+temple. May Lady Atamoni's blessing
 be upon you.
 -----------------------
 #神官
@@ -129,7 +129,7 @@ Priest
 #アタモニ神のおかげですね
 It seems the bandits have scattered.
 This too is all...
-thanks to Lord Atamoni.
+thanks to Lady Atamoni.
 -----------------------
 <Kyle>
 -----------------------
@@ -144,7 +144,7 @@ Priest
 #きっと　神殿に侵入した賊には
 #アタモニ神の神罰がくだることでしょう
 Those who infiltrated the temple
-will surely face Lord Atamoni's
+will surely face Lady Atamoni's
 divine punishment.
 -----------------------
 #神官
@@ -196,7 +196,7 @@ Priest
 #アタモニ神のご加護がありますように
 If you've come to donate Lens,
 please head to the grand temple
-in the back. May Lord Atamoni's
+in the back. May Lady Atamoni's
 blessing be upon you.
 -----------------------
 #神官
@@ -234,7 +234,7 @@ Priest
 #アタモニ神のご加護がありますように
 If you've come to donate Lens,
 please head to the grand temple
-in the back. May Lord Atamoni's
+in the back. May Lady Atamoni's
 blessing be upon you.
 -----------------------
 #神官
@@ -358,7 +358,7 @@ Priest
 #アタモニ神は
 #いつでも我々のことを
 #お見守りくださってます
-Lord Atamoni
+Lady Atamoni
 is always watching over us,
 guiding our way.
 -----------------------
@@ -404,7 +404,7 @@ Priest
 I wasn't sleeping! I wasn't
 sleeping! I was just... deeply
 meditating for a moment! I swear to
-Lord Atamoni, I...
+Lady Atamoni, I...
 -----------------------
 #神官
 Priest
@@ -770,7 +770,7 @@ Worshipper
 #これも、アタモニ神さまのおかげさ
 Back home, we had a huge harvest
 of vegetables and fruit last year.
-It's all thanks to Lord Atamoni.
+It's all thanks to Lady Atamoni.
 -----------------------
 #参拝客
 Worshipper
@@ -787,7 +787,7 @@ Worshipper
 #アタモニ神さまのおかげで
 #あたしたちは、生きていることが
 #できるんだ
-Thanks to Lord Atamoni,
+Thanks to Lady Atamoni,
 we're able to live at all.
 -----------------------
 #参拝客
@@ -873,7 +873,7 @@ Worshipper
 #これも、アタモニ神さまのおかげさ
 Back home, we had a huge harvest
 of vegetables and fruit last year.
-It's all thanks to Lord Atamoni.
+It's all thanks to Lady Atamoni.
 -----------------------
 #参拝客
 Worshipper
@@ -890,7 +890,7 @@ Worshipper
 #アタモニさまが見守ってくださるから
 #安心して暮らすことができるのさ
 #ありがたいことだねぇ
-Lord Atamoni watches over us,
+Lady Atamoni watches over us,
 so we can live in peace.
 We're truly blessed.
 -----------------------
@@ -901,7 +901,7 @@ Worshipper
 #いったい、どのくらい
 #レンズを寄進したんだい？
 You look so happy.
-Just how many Lenses
+Just how many Lens
 did you donate?
 -----------------------
 <Loni>
@@ -911,7 +911,7 @@ did you donate?
 #レンズなんて関係ないの
 This guy's face? That's not
 happiness, he's just an airhead.
-Lenses got nothing to do with it.
+Lens got nothing to do with it.
 -----------------------
 #参拝客
 Worshipper
@@ -919,7 +919,7 @@ Worshipper
 #いったい、どのくらい
 #レンズを寄進したら
 #幸せになれるのかなぁ････
-I wonder how many Lenses I'd have
+I wonder how many Lens I'd have
 to donate to be happy...
 -----------------------
 #参拝客
@@ -928,7 +928,7 @@ Worshipper
 #あんた、何枚レンズを持ってきた？
 #おれは１５枚しかないんだが
 #これで幸せになれるのかなぁ？
-How many Lenses did you bring?
+How many Lens did you bring?
 I've only got fifteen.
 Think that'll make me happy?
 -----------------------
@@ -990,7 +990,7 @@ Philia
 <Kyle>
 -----------------------
 #フィリアさん！
-Philia!
+Miss Philia!
 -----------------------
 #フィリア
 Philia
@@ -1005,7 +1005,7 @@ anything about it!?
 <Judas>
 -----------------------
 #レンズが････ない？
-The Lenses... are gone?
+The Lens... are gone?
 -----------------------
 <Kyle>
 -----------------------
@@ -1021,7 +1021,7 @@ feet!
 <Judas>
 -----------------------
 #まさか、レンズは飛行竜に････！
-Don't tell me... the Lenses are on
+Don't tell me... the Lens are on
 the Flying Dragon!?
 -----------------------
 #フィリア
@@ -1039,7 +1039,7 @@ What on earth is going on...?
 #レンズを持って逃げたんです
 I think...
 Elrane
-took the Lenses and ran.
+took the Lens and ran.
 -----------------------
 #フィリア
 Philia
@@ -1052,7 +1052,7 @@ What!?
 #神を降臨させるため
 #レンズの力を使うつもりなんです
 She intends to use the power of the
-Lenses to summon a god.
+Lens to summon a god.
 -----------------------
 #フィリア
 Philia
@@ -1144,11 +1144,11 @@ Philia
 I believe in you.
 -----------------------
 #いってらっしゃいませ
-Please come back safely.
+Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -1171,7 +1171,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-We hope to see you again soon.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------

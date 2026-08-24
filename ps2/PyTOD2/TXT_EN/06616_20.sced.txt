@@ -1,11 +1,11 @@
 #アクアヴェイル・旅籠シデン
-Aquaveil - Inn Shiden
+Aquaveil - Inn Sheeden
 -----------------------
 #アクアヴェイル
 Aquaveil
 -----------------------
 #旅籠シデン
-Inn Shiden
+Inn Sheeden
 -----------------------
 #緑豊かな庭園が広がっている
 A lush garden stretches out before
@@ -22,7 +22,7 @@ Innkeeper
 #ようこそ、シデンへおこしやす
 #大したおもてなしはできまへんけど
 #ゆるりとしていっとくんなはれや
-Welcome to Shiden. I can't offer
+Welcome to Sheeden. I can't offer
 much in the way of hospitality, but
 please, make yourself at home.
 -----------------------
@@ -54,16 +54,16 @@ Townsperson
 #なにせ、うっかり耳にして
 #そのまま三日三晩目が覚めなかった人も
 #いるくらいなんだから
-Why, some folks have accidentally
-overheard them and gone three whole
-days and nights without sleep.
+Why, some folks caught a snatch
+of them and didn't wake up for
+three whole days and nights.
 -----------------------
 #いってらっしゃいませ
-Please come again.
+Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -77,7 +77,7 @@ select
 No
 -----------------------
 #ごゆっくりお休みください
-Please rest well.
+Have a good night.
 -----------------------
 #おはようございます
 Good morning.
@@ -86,7 +86,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-We hope to see you again.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------

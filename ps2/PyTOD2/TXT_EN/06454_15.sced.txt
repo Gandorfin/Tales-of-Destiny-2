@@ -112,7 +112,7 @@ Soldier
 #へっ、じょーだん！
 #こちとら、ファンダリアの兵士だ！
 #こんなときに休んでられっかよ！
-Hah, just kidding!
+Heh, you kidding me?
 I'm a soldier of Phandaria!
 How can I rest at a time like this?!
 -----------------------
@@ -281,7 +281,7 @@ and circle the whole castle.
 Shall we make him do it?
 -----------------------
 #いってらっしゃいませ
-Please come again.
+Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
@@ -299,7 +299,7 @@ select
 No
 -----------------------
 #ごゆっくりお休みください
-Please rest well.
+Have a good night.
 -----------------------
 #おはようございます
 Good morning.
@@ -308,7 +308,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-We look forward to your next visit.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -331,7 +331,7 @@ notice
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{C2}{C0}, but
-couldn't carry it--inventory full.
+your inventory is full.
 -----------------------
 notice
 -----------------------

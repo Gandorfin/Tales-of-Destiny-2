@@ -129,11 +129,11 @@ Soldier
 #ソーディアン適性に受かって
 #本部詰めになったはいいものの
 #訓練で殺されかけてるそうですよ
-There was a Chaltier in my
-unit. He passed the Swordian
-aptitude test, and got assigned
-to headquarters, but... I hear
-the training nearly killed him.
+You know Chaltier, from our unit?
+He passed the Swordian aptitude
+test and got assigned to
+headquarters, but... I hear the
+training nearly killed him.
 -----------------------
 #上級軍曹
 Sergeant First Class
@@ -159,7 +159,7 @@ Here's hoping he makes it through
 alive.
 -----------------------
 #いってらっしゃいませ
-Come again soon.
+Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
@@ -209,7 +209,7 @@ notice
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{C2}{C0}, but
-couldn't carry any more.
+your inventory is full.
 -----------------------
 notice
 -----------------------

@@ -1,8 +1,8 @@
 #古都ダリルシェイド
-Ancient Capital Darilsheid
+Old Darilsheid
 -----------------------
 #古都ダリルシェイド
-Ancient Capital Darilsheid
+Old Darilsheid
 -----------------------
 #ここは地下水路です
 This is the Darilsheid
@@ -58,7 +58,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-We look forward to your next visit.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -81,7 +81,7 @@ notice
 #{16}{25}{EE}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{EE}{C0}, but
-inventory is full.
+your inventory is full.
 -----------------------
 notice
 -----------------------

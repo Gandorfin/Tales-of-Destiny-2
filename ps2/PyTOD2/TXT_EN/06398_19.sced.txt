@@ -12,7 +12,7 @@ What's this?!
 NOTICE
 -----------------------
 #ＴＯＥのクイズ問題を見つけました！
-Found a TOE quiz question!
+Found a Tales of Eternia quiz!
 -----------------------
 NOTICE
 -----------------------
@@ -131,15 +131,15 @@ like that!
 #お前が探してたって言っといてやるよ
 #んじゃな！
 If I see <Reala>,
-I'll tell 'em you were looking.
+I'll tell her you were looking.
 See ya!
 -----------------------
 notice
 -----------------------
 #<Loni>は
 #称号「<item:0000081E>」を得ました
-<Loni> obtained
-the title "<item:0000081E>"!
+<Loni> acquired the title
+"<item:0000081E>".
 -----------------------
 <Judas>
 -----------------------
@@ -210,7 +210,7 @@ real detail, too.
 #次に引っかかったのは
 #イレーヌ＝レンブラントを
 #しかも　彼女の遺言を知っていたことだ
-Next thing that got me was Irene
+Next thing that got me was Ilene
 Rembrandt. The fact you knew her
 will, on top of everything.
 -----------------------
@@ -220,7 +220,7 @@ will, on top of everything.
 #オベロン社の幹部だったイレーヌは
 #その崩壊と共に　自ら命を絶ったはず････
 Stahn's a hero from the last great
-war, and Irene was an Oberon Corp.
+war, and Ilene was an Oberon Corp.
 exec who took her own life when the
 company collapsed...
 -----------------------
@@ -280,8 +280,8 @@ That's enough, <Loni>!
 #信じるって決めたし
 #<Loni>にもそうして欲しいんだ！
 I decided to trust <Judas>,
-and I want you to do the same
-for <Loni>!
+and <Loni>, I want you
+to trust him too!
 -----------------------
 <Kyle>
 -----------------------
@@ -326,11 +326,11 @@ out the other. Where do you think
 <Reala> is?
 -----------------------
 #いってらっしゃいませ
-Welcome.
+Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald per night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald per night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -344,7 +344,7 @@ select
 No
 -----------------------
 #ごゆっくりお休みください
-Please rest well.
+Have a good night.
 -----------------------
 #おはようございます
 Good morning.
@@ -353,7 +353,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-We look forward to your next visit.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------

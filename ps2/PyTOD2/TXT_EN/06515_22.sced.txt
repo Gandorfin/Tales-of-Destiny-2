@@ -25,8 +25,7 @@ PLY3 = %d
 #すげぇや、ラグナ遺跡で見たヤツと
 #同じくらい大きいや！
 Whoa, it's just as big as the one
-we saw at the Laguna Ruins! It's
-on the same scale!
+we saw at the Laguna Ruins!
 -----------------------
 <Nanaly>
 -----------------------
@@ -51,7 +50,7 @@ Fortuna
 #････よく来ましたね
 #我が聖女よ････
 ...You have come far,
-my Saintess...
+my Holy Woman...
 -----------------------
 <Kyle>
 -----------------------
@@ -147,7 +146,7 @@ Fortuna
 #二人の聖女、ふたつの道････
 #それは、あなたとエルレインに
 #私が与えた運命です
-Two Saintesses, two paths...
+Two Holy Women, two paths...
 That is the destiny I have given
 to you and Elrane.
 -----------------------
@@ -175,7 +174,7 @@ W-wait, <Reala>!
 -----------------------
 #二人の聖女だの、人々を導けだの････
 #いったい、なんのこと!?
-Two Saintesses, leading the
+Two Holy Women, leading the
 people... What the heck are you
 talking about!?
 -----------------------
@@ -189,7 +188,7 @@ Fortuna
 -----------------------
 #二人の聖女は、私の代理者
 #人々を救いへと導く存在です
-The two Saintesses are my proxies.
+The two Holy Women are my proxies.
 They are beings who guide people
 toward salvation.
 -----------------------
@@ -205,7 +204,7 @@ Fortuna
 #そして二人の聖女を生みだしたのです
 The desire for people's salvation
 gave birth to me, and to the two
-Saintesses.
+Holy Women.
 -----------------------
 #フォルトゥナ
 Fortuna
@@ -246,9 +245,9 @@ That's a lie!
 #だってあいつは、ウッドロウさんを、
 #バルバトスに襲わせたり
 #レンズを奪ったりしてたじゃないか！
-Because she had Garr attacked by
-Barbatos! She stole Lenses! How can
-you call that saving people!?
+I mean, she had Woodrow attacked by
+Barbatos, and she stole Lens,
+didn't she!?
 -----------------------
 #フォルトゥナ
 Fortuna
@@ -265,15 +264,15 @@ the people.
 #だって、現にウッドロウさんは
 #傷ついてるじゃないか！
 That's... wrong!
-Because Garr is hurt right now!
-How is that salvation!?
+I mean, look at Woodrow!
+He's actually hurt because of her!
 -----------------------
 #フォルトゥナ
 Fortuna
 -----------------------
 #間違っている？
 #････なぜ、そう思うのですか？
-Am I wrong?
+Wrong?
 ...Why do you think that?
 -----------------------
 #フォルトゥナ
@@ -395,8 +394,8 @@ irresponsible things!
 -----------------------
 #わからないって････
 #オレは！
-I don't get it...
-Me!?
+What do you mean I don't
+understand...? I...!
 -----------------------
 <Reala>
 -----------------------
@@ -420,12 +419,12 @@ You don't understand!
 <Reala>
 -----------------------
 #だって、<Kyle>は聖女でも････
-Because <Kyle> isn't a holy maiden...
+Because <Kyle> isn't a Holy Woman...
 -----------------------
 <Reala>
 -----------------------
 #英雄でもないじゃない！
-Or a hero, you know!
+Or even a hero!
 -----------------------
 <Kyle>
 -----------------------
@@ -445,7 +444,7 @@ Fortuna
 #いいでしょう
 #お行きなさい、私の聖女よ
 Very well.
-Go forth, my holy maiden.
+Go forth, my Holy Woman.
 -----------------------
 #フォルトゥナ
 Fortuna
@@ -461,8 +460,8 @@ notice
 -----------------------
 #<Reala>は
 #称号「<item:0000081C>」を得ました
-<Reala> received
-the title "<item:0000081C>"!
+<Reala> acquired the title
+"<item:0000081C>".
 -----------------------
 <Kyle>
 -----------------------
@@ -473,7 +472,7 @@ The Lens is gone...
 -----------------------
 #いかにもって感じだね
 #きっとこの中にいるんだろうね、エルレインは
-Sure looks that way.
+Figures, doesn't it?
 Elrane's gotta be in here somewhere.
 -----------------------
 <Kyle>
@@ -482,11 +481,11 @@ Elrane's gotta be in here somewhere.
 All right, let's go!
 -----------------------
 #いってらっしゃいませ
-Welcome.
+Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -509,7 +508,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-Please come again.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------

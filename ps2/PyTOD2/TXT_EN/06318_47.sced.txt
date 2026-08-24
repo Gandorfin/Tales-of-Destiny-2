@@ -142,9 +142,9 @@ know!?
 -----------------------
 #でも、<Loni>は探そうと思ってるんでしょ？
 #だから、護衛役を引き受けたんだよね？
-But you're planning to look for
-<Loni>, right? That's why you took
-the escort job?
+But you were planning to look for
+it, right, <Loni>? That's why you
+took the escort job?
 -----------------------
 <Loni>
 -----------------------
@@ -227,8 +227,8 @@ notice
 -----------------------
 #スタンにルーティだな
 #先の災厄を救った、四英雄の････
-Stahn and Rutee... The Four Heroes
-who saved us from that calamity...
+Stahn and Rutee... Two of the Four
+Heroes who ended the calamity...
 -----------------------
 #スタン
 Stahn
@@ -440,7 +440,7 @@ I was there, and you were too...
 #俺たちは、今を生きてるんだからよ
 But a dream's just a dream. There's
 no meaning in something like that.
-We have to live in the present.
+We're living in the now, after all.
 -----------------------
 <Kyle>
 -----------------------
@@ -549,13 +549,13 @@ Stahn
 #目的はなんだ？
 #金か、レンズか？
 What do you want?
-Gald? Lens?
+Money? Lens?
 -----------------------
 #バルバトス
 Barbatos
 -----------------------
 #貴様らの、命だ････！
-Your lives...!
+Your miserable lives...!
 -----------------------
 #スタン
 Stahn
@@ -707,9 +707,9 @@ I've gotta say "thank you."
 #父さん････生きてないの････
 #ちょっと････ほんとに、ちょっとだけ
 #さみしいけど････
-Dad... not being around... It
-hurts... just a little, really just
-a little... but it hurts...
+Dad... being gone... It makes me
+sad... just a little. Really, just
+a little... but still...
 -----------------------
 <Kyle>
 -----------------------
@@ -767,7 +767,7 @@ for a bit?
 #イクシフォスラーを改造するんだってさ
 #これから、どうするにせよ、
 #準備だけは整えておかないとね
-We're modifying the Ixphlosla,
+We're modifying the Ixifoslar,
 apparently. Whatever happens next,
 we need to be ready.
 -----------------------
@@ -822,7 +822,7 @@ I want to go...
 #行ってこいよ、<Kyle>
 #イクシフォスラーの改造が済んだら知らせてやるから
 Go on, <Kyle>. I'll let you know when
-the Ixphlosla's ready.
+the Ixifoslar's ready.
 -----------------------
 <Kyle>
 -----------------------
@@ -872,7 +872,7 @@ Do you have an answer, <Kyle>?
 #<Harold>
 #イクシフォスラーの準備は？
 <Harold>,
-how's the Ixion coming along?
+how's the Ixifoslar coming along?
 -----------------------
 <Harold>
 -----------------------
@@ -965,7 +965,7 @@ Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -1069,6 +1069,6 @@ Beautiful flowers are in bloom.
 #　　　　ルーティ＝カトレット』
 There's a sign.
 "Dunamis Orphanage"
-Director: Stahn Aileron
+Directors: Stahn Aileron
 Rutee Katrea
 -----------------------

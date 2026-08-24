@@ -498,7 +498,7 @@ But where should we go?
 #ハイデルベルグのウッドロウ王よ
 I have one.
 A hero I haven't met yet...
-King Garr of Heidelberg.
+King Woodrow of Heidelberg.
 -----------------------
 <Loni>
 -----------------------
@@ -506,7 +506,7 @@ King Garr of Heidelberg.
 #確かに、スタンさんと並んで
 #もっとも英雄と呼ぶに、ふさわしい人だな
 One of the Four Heroes, the Hero
-King Garr? Yeah, he and Stahn-san
+King Woodrow? Yeah, he and Stahn
 are definitely the most worthy of
 the title.
 -----------------------
@@ -516,7 +516,7 @@ the title.
 #スノーフリアで降りて
 #ハイデルベルグに向かうことになるな
 That means taking a ship from the
-port, disembarking at Frostheim, and
+port, disembarking at Snowfria, and
 making for Heidelberg.
 -----------------------
 <Kyle>
@@ -539,7 +539,7 @@ east of Aigrette, if I recall.
 #そこから、スノーフリアを目指そう！
 Alright, first stop: the harbor!
 From there, we set sail for
-Frostheim!
+Snowfria!
 -----------------------
 notice
 -----------------------
@@ -561,7 +561,7 @@ Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -584,7 +584,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-Please come again.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------

@@ -128,7 +128,7 @@ it should become <item:00000049>.
 I'll give you this <item:00000044>.
 -----------------------
 #<item:00000049>をお願いします
-<item:00000049>Please take care of .
+The <item:00000049>, please.
 -----------------------
 #そんなヒドイ････
 How could you be so cruel...
@@ -204,11 +204,11 @@ At least hear me out.
 That's a shame.
 -----------------------
 #いってらっしゃいませ
-Please come again.
+Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -231,7 +231,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-We hope to see you again soon.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -253,7 +253,7 @@ notice
 -----------------------
 #{16}{25}{D2}{C0}がありましたが
 #いっぱいで持てませんでした
-{16}{25}{D2}{C0}There was , but
+Found {16}{25}{D2}{C0}, but
 your inventory is full.
 -----------------------
 notice

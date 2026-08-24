@@ -101,7 +101,7 @@ Cat-Loving Old Man
 #わしはネコ好きのじいさんじゃ
 #う～ん　ネコちゃ～ん♪
 I'm the cat-loving old man.
-Mmm~ Kitty-chan ♪
+Mmm~ Kitty-cat~ ♪
 -----------------------
 #ネコ好きのじいさん
 Cat-Loving Old Man
@@ -130,7 +130,7 @@ Cat-Loving Old Man
 #わしはネコ好きのじいさんじゃ
 #う～ん　ネコちゃ～ん♪
 I'm the cat-loving old man.
-Mmm~ Kitty-chan ♪
+Mmm~ Kitty-cat~ ♪
 -----------------------
 #ネコ好きのじいさん
 Cat-Loving Old Man
@@ -163,7 +163,7 @@ Cat-Loving Old Man
 #おお！　本当かの！
 #う～ん　ネコちゃ～ん♪
 Oh! Is that really true?!
-Mmm~ Kitty-chan ♪
+Mmm~ Kitty-cat~ ♪
 -----------------------
 notice
 -----------------------
@@ -378,7 +378,7 @@ Cat-Loving Old Man
 #何が命名じじいよ
 #才能ないんじゃない!?　しょせん凡人よね････
 Ugh... you're completely hopeless!
-Some 'Naming Grandpa' you are!
+Some 'Naming Gramps' you are!
 You've got no talent at all! You're
 just a commoner...
 -----------------------
@@ -432,11 +432,11 @@ notice
 Meow.
 -----------------------
 #いってらっしゃいませ
-Come again soon.
+Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -459,7 +459,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-We hope to see you again soon.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------

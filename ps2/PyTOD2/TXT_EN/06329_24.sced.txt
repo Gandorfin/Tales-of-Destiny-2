@@ -85,7 +85,7 @@ Looks like it's still running.
 #前に、神殿の本で見たことがある
 This is... a machine from the
 Aeth'er Wars. I saw one in a book
-at the shrine before.
+at the temple before.
 -----------------------
 <Loni>
 -----------------------
@@ -154,7 +154,7 @@ press the <button:00000025> button.
 #<button:00000025>ボタンを押しっぱなしにして
 #移動すれば、物を引きずれる
 #それを、この機械の中に入れるんだ
-<button:00000025>Hold down the button and move,
+Hold down the <button:00000025> button and move,
 and you can drag stuff around.
 Then put it inside this machine.
 -----------------------
@@ -173,8 +173,9 @@ Paralyze
 #　戦闘不能
 Knocked Out
 -----------------------
-<0B:00000001>{18}{44}{B4}{C0}{18}{44}{B8}{C0}{18}{44}{BC}ﾀ{18}{44}{C0}ﾀ{18}{44}{C4}{C0}
+#<0B:00000001>{18}{44}{B4}{C0}{18}{44}{B8}{C0}{18}{44}{BC}ﾀ{18}{44}{C0}ﾀ{18}{44}{C4}{C0}
 #ＨＰ : {14}{24}{A8}{C0}／{14}{24}{AA}{C0}  ＴＰ : {14}{24}{AC}{C0}／{14}{24}{AE}{C0}<0B:00000000>
+<0B:00000001>{18}{44}{B4}{C0}{18}{44}{B8}{C0}{18}{44}{BC}ﾀ{18}{44}{C0}ﾀ{18}{44}{C4}{C0}
 HP: {14}{24}{A8}{C0}/{14}{24}{AA}{C0} TP: {14}{24}{AC}{C0}/{14}{24}{AE}{C0}<0B:00000000>
 -----------------------
 notice
@@ -184,7 +185,7 @@ Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？

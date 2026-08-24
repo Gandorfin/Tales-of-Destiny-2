@@ -112,11 +112,11 @@ Philia...!
 #大司祭さまが、「神の眼」を奪い
 #世界を支配する野望に荷担した
 #しかも、私も知らずに手伝っていた････
-The High Priestess stole
-the Eye of Atamoni and aided
-her ambition to dominate
-the world. And I was helping
-without even realizing it...
+The High Priest stole the Eye
+of Atamoni to serve his ambition
+of ruling the world. And I had
+been helping him without even
+realizing it...
 -----------------------
 #そのことを知った私は
 #それまでの自分を後悔し
@@ -141,8 +141,8 @@ That's why I am who I am today.
 -----------------------
 #残念ながら、英雄に会うための術は
 #私にもわかりません
-Unfortunately, I don't know any
-way to meet the hero. Nor do I.
+Unfortunately, even I don't
+know of a way to meet a hero.
 -----------------------
 #ですが、あなたに
 #必要なものなら、わかります
@@ -227,9 +227,9 @@ I...
 #答えは、もう出ているのでしょう？
 #なら、あとは何をすべきか
 #わかっているはずですよ
-The answer has already come
-out, hasn't it? Then you should
-know what you need to do next.
+You already have your answer,
+don't you? Then you should
+know what to do next.
 -----------------------
 #？？？
 ???
@@ -558,7 +558,7 @@ who had once been our comrade.
 #その人の名はリオン＝マグナス
 #氷のような冷たい瞳の中に、
 #誰よりもあたたかな情を秘めた人でした
-His name was Leon Magnus. Beneath
+His name was Lion Magnus. Beneath
 eyes as cold as ice, he hid a
 warmth greater than anyone's.
 -----------------------
@@ -617,7 +617,7 @@ the world was plunged into crisis.
 #スタンさんやルーティさん
 #それにリオンさんたちでした
 It was Stahn, Rutee,
-and Leon who saved me.
+and Lion who saved me.
 -----------------------
 <Kyle>
 -----------------------
@@ -637,7 +637,7 @@ how harsh that can be...
 #きっとリオンさんもあのときの決断を
 #後悔してはいないと思います
 I can only imagine it now,
-but I'm sure Leon doesn't regret
+but I'm sure Lion doesn't regret
 the choice he made back then.
 -----------------------
 #愛する人を守るための、
@@ -665,7 +665,7 @@ Your decision as well...
 #あなたの決断も、そのリオンという男の決断も、
 #決して間違ってはいなかった
 Your decision, and that of the man
-called Leon as well, were never
+called Lion as well, were never
 mistaken.
 -----------------------
 <Judas>
@@ -837,10 +837,11 @@ the power of the Lens...
 #あの天空都市ダイクロフトの兵器
 #ベルクラントの破壊力をうみだしたといわれる
 #とてもキケンな石････
-The weapon of that aerial city,
-Dycroft... Belcrant, whose
-destructive power it unleashed...
-A terribly dangerous stone...
+A terribly dangerous stone,
+said to be the source of the
+destructive power of Belcrant,
+the weapon of the aeropolis
+Dycroft...
 -----------------------
 <Loni>
 -----------------------
@@ -989,11 +990,11 @@ medicine to that girl.
 I'm counting on you, <Kyle>!
 -----------------------
 #いってらっしゃいませ
-Please come again.
+Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -1007,7 +1008,7 @@ select
 No
 -----------------------
 #ごゆっくりお休みください
-Please rest well.
+Have a good night.
 -----------------------
 #おはようございます
 Good morning.
@@ -1016,7 +1017,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-Please come again.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -1039,7 +1040,7 @@ notice
 #{16}{26}{3E}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{26}{3E}{C0}, but
-inventory is full.
+your inventory is full.
 -----------------------
 notice
 -----------------------

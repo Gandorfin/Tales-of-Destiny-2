@@ -125,7 +125,7 @@ Officer
 #ディムロス中将もリトラー司令も
 #問題を自分の内に抱え込むタイプの
 #人間でなぁ
-Both Vice Admiral Dymlos and
+Both Lieutenant General Dymlos and
 Commander Raiker are the type to
 keep their problems bottled up
 inside, you know.
@@ -265,7 +265,7 @@ Auntie A
 <size:00000138>My, you look lovely!
 You seem so young!
 Your husband serves
-under Colonel <Harold>.
+under Lt. Col. <Harold>.
 How enviable!
 -----------------------
 #おばちゃんＢ
@@ -276,10 +276,10 @@ Auntie B
 #ないザマスかうらやましいザマスわ最近は配給
 #少なくて困ってしまうザマスのよホホホホホホ
 <size:00000138>What are you saying?
-Your boy is Atwight's
-well-paid medic!
-I'm jealous. Rations
-are scarce! Ho ho ho!
+Your boy is Colonel
+Atwight's well-paid
+medic! I'm jealous.
+Rations are scarce!
 -----------------------
 #おばちゃんＣ
 Auntie C
@@ -385,7 +385,7 @@ but it was hardly worth it.
 Auntie A
 -----------------------
 #また色々と、みつぐザマスよ！
-Keep searching everywhere, okay!
+Keep the tributes coming, okay!
 -----------------------
 NOTICE
 -----------------------
@@ -398,7 +398,7 @@ but it was hardly worth it.
 Auntie A
 -----------------------
 #また色々と、みつぐザマスよ！
-Keep searching everywhere, okay!
+Keep the tributes coming, okay!
 -----------------------
 NOTICE
 -----------------------
@@ -409,10 +409,10 @@ Received a Mix Gummy.
 Auntie A
 -----------------------
 #また色々と、みつぐザマスよ！
-Keep searching everywhere, okay!
+Keep the tributes coming, okay!
 -----------------------
 #光り物好きなメイド
-Maid with a taste for shiny things
+Shiny-Things Maid
 -----------------------
 #レンズ<0B:00000001><num:00000005><0B:00000000>枚で
 #スパイラルケイブへの
@@ -428,13 +428,13 @@ I want to hear it.
 I'll go on my own.
 -----------------------
 #光り物好きなメイド
-Maid with a taste for shiny things
+Shiny-Things Maid
 -----------------------
 #へへ････まいど♪
-Hehe... thanks for your patronage. ♪
+Hehe... pleasure doin' business. ♪
 -----------------------
 #光り物好きなメイド
-Maid with a taste for shiny things
+Shiny-Things Maid
 -----------------------
 #スパイラルケイブへ行くには
 #裏のガケを南からぐるっと上った後
@@ -444,7 +444,7 @@ the back cliff from the south,
 then head further northwest...
 -----------------------
 #光り物好きなメイド
-Maid with a taste for shiny things
+Shiny-Things Maid
 -----------------------
 #海岸沿いに歩いて行くと
 #大きな山が見えてくるわ
@@ -454,18 +454,18 @@ a large mountain come into view.
 Spiral Cave is right at its foot.
 -----------------------
 #光り物好きなメイド
-Maid with a taste for shiny things
+Shiny-Things Maid
 -----------------------
 #････って、足りてないじゃない！
 ...Hey, that's not enough!
 -----------------------
 #光り物好きなメイド
-Maid with a taste for shiny things
+Shiny-Things Maid
 -----------------------
 #さまよい続けても
 #しらないからネ
-Even if you keep wandering around,
-I don't know you, okay?
+If you wander around lost forever,
+don't blame me!
 -----------------------
 <Kyle>
 -----------------------
@@ -488,7 +488,7 @@ Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -533,8 +533,8 @@ notice
 -----------------------
 #{16}{25}{D2}{C0}がありましたが
 #いっぱいで持てませんでした
-Found {16}{25}{D2}{C0}, but inventory full already.
-Could not obtain it.
+Found {16}{25}{D2}{C0}, but
+your inventory is full.
 -----------------------
 notice
 -----------------------

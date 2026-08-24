@@ -32,7 +32,7 @@ Leave at once!
 #勅命をたまわっている
 #これが、書状だ
 We come bearing a royal decree
-from King Garr.
+from King Woodrow.
 Here is the letter.
 -----------------------
 #兵士
@@ -59,7 +59,7 @@ Don't make a spectacle of yourself.
 -----------------------
 #ところで、イクシフォスラーは
 #まだ、ここにあるのか？
-By the way, is the Xiphos Lancer
+By the way, is the Ixifoslar
 still here?
 -----------------------
 #兵士
@@ -76,7 +76,7 @@ Soldier
 #我々はイクシフォスラーの警備が任務
 #封印の解除方法までは、知らされていないのです
 We are tasked with guarding the
-Xiphos Lancer. We have not been told
+Ixifoslar. We have not been told
 how to break the seal.
 -----------------------
 <Judas>
@@ -90,8 +90,8 @@ We'll handle the rest.
 -----------------------
 #ねぇ、<Judas>
 #イクシフォスラーって、なんなんだい？
-Hey, <Judas>
-what's a Xiphos Lancer?
+Hey, <Judas>,
+what's the Ixifoslar?
 -----------------------
 <Judas>
 -----------------------
@@ -179,7 +179,7 @@ Have a good day.
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが
 #お泊まりになりますか？
-It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> gald a night.
+It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald a night.
 Would you like to stay?
 -----------------------
 #お泊まりになりますか？
@@ -202,7 +202,7 @@ Good morning.
 Not enough money.
 -----------------------
 #またのおこしをお待ちしております
-We hope to see you again.
+See you again soon.
 -----------------------
 set_parameter( myself, C_PARTY, 0 );
 -----------------------
@@ -225,7 +225,7 @@ notice
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{C2}{C0}, but
-inventory is full already.
+your inventory is full.
 -----------------------
 notice
 -----------------------
