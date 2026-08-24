@@ -304,7 +304,7 @@ Chester's little sister?"
 at Euclid Castle?"
 06184.sfm,0x2A25,6,,リリス,Lilith
 06184.sfm,0x2A2C,6,,リッド,Reid
-06184.sfm,0x2A3B,6,,リオン,Leon
+06184.sfm,0x2A3B,6,,リオン,Lion
 06184.sfm,0x2A42,10,,コングマン,Kongman
 06184.sfm,0x2A4D,6,,ファラ,Farah
 06184.sfm,0x2A5C,35,,"正解！
@@ -1365,7 +1365,7 @@ at the Straylize
 Grand Temple?"
 06185.sfm,0x2BED,9,, フィリア,Philia
 06185.sfm,0x2BF7,7,, スタン,Stahn
-06185.sfm,0x2BFF,11,, ウッドロウ,Garr
+06185.sfm,0x2BFF,11,, ウッドロウ,Woodrow
 06185.sfm,0x2C0B,7,, リリス,Lilith
 06185.sfm,0x2C13,9,, グレバム,Lydon
 06185.sfm,0x2C1D,9,, アイルツ,Airts
@@ -1408,7 +1408,7 @@ Heidelberg's old town and new town?"
 06185.sfm,0x2EFF,6,,世界門,World Gate
 06185.sfm,0x2F06,6,,国王門,King's Gate
 06185.sfm,0x2F0D,6,,天地門,Heaven and Earth Gate
-06185.sfm,0x2F14,12,,ウッドロウ門,Garr's Gate
+06185.sfm,0x2F14,12,,ウッドロウ門,Woodrow's Gate
 06185.sfm,0x2F21,4,,違う,Wrong.
 06185.sfm,0x2F26,53,,"未来のアイグレッテ
 出産式で生まれてきた子供の名前は？","What was the name of the baby born at
@@ -1860,7 +1860,7 @@ meet <Judas>?"
 06185.sfm,0x46E8,18,,地下牢の中だったな,It was in the dungeon.
 06185.sfm,0x46FB,33,,"ハイデルベルグは
 ウッドロウ王だな","Heidelberg is
-King Garr."
+King Woodrow."
 06185.sfm,0x471D,16,,フィリアさんだな,That's Philia.
 06185.sfm,0x472E,19,,<Judas>なんていたか？,Was <Judas> even there?
 06185.sfm,0x4742,18,,思い出せないか？！,Can't remember?!
@@ -2647,10 +2647,10 @@ Too bad."
 06186.sfm,0x27FA,46,,"剣術と弓術の 
 両方が使えたキャラクターは誰だ？","Which character could use 
 both swords and bows?"
-06186.sfm,0x2829,10,,ウッドロウ,Garr
+06186.sfm,0x2829,10,,ウッドロウ,Woodrow
 06186.sfm,0x2834,6,,スタン,Stahn
 06186.sfm,0x283B,8,,ルーティ,Rutee
-06186.sfm,0x2844,6,,リオン,Leon
+06186.sfm,0x2844,6,,リオン,Lion
 06186.sfm,0x284B,6,,マリー,Mary
 06186.sfm,0x2852,10,,チェルシー,Chelsea
 06186.sfm,0x285D,99,,"さらに彼は
@@ -2692,8 +2692,8 @@ If he reads it, what
 happens to him?"
 06186.sfm,0x2A4C,20,,フィリアにたたかれる,Philia smacks him
 06186.sfm,0x2A61,20,,ルーティにしばかれる,Rutee beats him up
-06186.sfm,0x2A76,20,,リオンに電撃をくらう,Leon zaps him
-06186.sfm,0x2A8B,20,,ウッドロウに怒られる,Garr scolds him
+06186.sfm,0x2A76,20,,リオンに電撃をくらう,Lion zaps him
+06186.sfm,0x2A8B,20,,ウッドロウに怒られる,Woodrow scolds him
 06186.sfm,0x2AA0,20,,チェルシーに嫌われる,Chelsea starts hating him
 06186.sfm,0x2AB5,20,,マリーに見たがられる,Mary wants to see it
 06186.sfm,0x2ACA,18,,ジョニーに取られる,Johnny takes it
@@ -3011,7 +3011,7 @@ Dymlos's 'Fire Wall'."
 ハイデルベルグにて、
 スタンたちを助けたウッドロウの忠臣がいた
 その名は？","In Heidelberg, under enemy control,
-a loyal retainer of Garr's helped
+a loyal retainer of Woodrow's helped
 Stahn and the others.
 What was his name?"
 06186.sfm,0x3CE4,8,,ダーゼン,Darzen
@@ -3021,14 +3021,14 @@ What was his name?"
 06186.sfm,0x3D04,78,,"ダーゼン・ビーグラン
 ファンダリア王家二代に仕える
 ウッドロウの右腕だった人間だ","Darzen Bielgran. He served two
-generations of the Phandarian
-royal family as Garr's right hand."
+generations of Phandaria's royal
+family as Woodrow's right hand."
 06186.sfm,0x3D53,31,,"それは
 ウッドロウの父親の名前だ","That's the name of
-Garr's father."
+Woodrow's father."
 06186.sfm,0x3D73,31,,"それは
 ウッドロウの師匠の名前だ","That's the name of
-Garr's mentor."
+Woodrow's mentor."
 06186.sfm,0x3D93,46,,"それは
 ハイデルベルグを占拠した
 敵軍の将の名だ","That's the name of the
@@ -3266,7 +3266,7 @@ in Neuestadt?"
 06186.sfm,0x4A73,40,,"この中で
 リオンだけが
 使えた技はどれだ？","Which of these artes
-could only Leon
+could only Lion
 use?"
 06186.sfm,0x4A9C,6,,空襲剣,Kuushuuken
 06186.sfm,0x4AAE,6,,断空剣,Dankuuken
@@ -3276,15 +3276,15 @@ use?"
 高いリオンらしい剣技だな","A speedy arte: dash in to scatter
 the enemy pack, then thrust up at
 the ones sent airborne. Fitting for
-Leon, with his high agility."
+Lion, with his high agility."
 06186.sfm,0x4B2B,74,,"この技は、リオンの他に
 スタンも使うことができた。
 敵を連続で斬りつける技だ","Stahn could use that arte
-as well as Leon. It slashes
+as well as Lion. It slashes
 the enemy repeatedly."
 06186.sfm,0x4B76,66,,"この技は、
 スタンとウッドロウが使えた
-竜巻を起こして敵を浮かす技だ","Stahn and Garr could use that
+竜巻を起こして敵を浮かす技だ","Stahn and Woodrow could use that
 arte. It raises a tornado to
 lift enemies into the air."
 06186.sfm,0x4BB9,75,,"ダイクロフトを守っていた
@@ -4017,9 +4017,9 @@ in the orphanage?"
 06186.sfm,0x7841,95,,"ハイデルベルグ地下通路にて
 ウッドロウが聞かせた
 ここには幽霊がいるという噂に
-おびえたのは誰か？","In the Heidelberg underground passage,
-Garr told a rumor that ghosts haunt
-the place. Who was frightened
+おびえたのは誰か？","In Heidelberg's underground
+passage, Woodrow shared a rumor
+about ghosts. Who was frightened
 by it?"
 06186.sfm,0x78A1,78,,"神という、目に見えないものを
 信仰してはいても
@@ -5202,8 +5202,8 @@ That's the second-in-command."
 'Speed Eating Contest' minigame at the
 conveyor belt sushi bar in Tinnsia?"
 06187.sfm,0x676E,10,,コングマン,Kongman
-06187.sfm,0x6779,10,,ウッドロウ,Garr
-06187.sfm,0x6784,6,,リオン,Leon
+06187.sfm,0x6779,10,,ウッドロウ,Woodrow
+06187.sfm,0x6784,6,,リオン,Lion
 06187.sfm,0x678B,6,,スタン,Stahn
 06187.sfm,0x6792,29,,"正解です
 見るからに強そうだね","Correct.
@@ -5472,7 +5472,7 @@ pixel sprite?"
 フィリア・リオン・ウッドロウが
 プリントされたものだったわね","A set of five postcards, printed
 with Stahn, Rutee, Philia,
-Leon and Garr respectively,
+Lion and Woodrow respectively,
 as I recall."
 06188.sfm,0x1721,14,,クリアファイル,Clear file
 06188.sfm,0x1730,8,,バンダナ,Bandana
@@ -5570,14 +5570,14 @@ and three for the Aeth'er arc.
 A grand epic of
 tremendous volume."
 06188.sfm,0x1D96,10,,そう、正解,"Yes, correct."
-06188.sfm,0x1E07,6,,リオン,Leon
+06188.sfm,0x1E07,6,,リオン,Lion
 06188.sfm,0x1E0E,6,,スタン,Stahn
 06188.sfm,0x1E15,8,,ルーティ,Rutee
 06188.sfm,0x1E1E,8,,フィリア,Philia
-06188.sfm,0x1E27,10,,ウッドロウ,Garr
+06188.sfm,0x1E27,10,,ウッドロウ,Woodrow
 06188.sfm,0x1E32,50,,"リオンと
 ソーディアン・シャルティエの
-絵だったわね","It was a picture of Leon
+絵だったわね","It was a picture of Lion
 and Swordian Chaltier,
 as I recall."
 06188.sfm,0x1E65,90,,"テイルズオブエターニア The Animation
@@ -6231,7 +6231,7 @@ It's so easy, too."
 In height, I mean."
 06188.sfm,0x3E04,35,,"正解！！
 一番大きいのはウッドロウね","Correct!!
-The tallest is Garr."
+The tallest is Woodrow."
 06188.sfm,0x3E28,33,,"ブブ～！！
 クレスは下から２番目ね","Bzzt!!
 Cress is second from the bottom."
@@ -7136,7 +7136,7 @@ done it plenty."
 06189.sfm,0x4F56,12,,オレは････？,I am...?
 06189.sfm,0x4F63,8,,寝ぼすけ,A sleepyhead
 06189.sfm,0x4F6C,8,,神の化身,An avatar of a god
-06189.sfm,0x4F75,6,,リオン,Leon
+06189.sfm,0x4F75,6,,リオン,Lion
 06189.sfm,0x4F7C,18,,ソーディアン開発者,A Swordian developer
 06189.sfm,0x4F8F,47,,"そのうち、すぐに「英雄」
 と呼ばれるようになるさ","Before long, they'll be
@@ -7167,7 +7167,7 @@ the throne in Heidelberg Castle?"
 Phandaria made a huge
 pile of them."
 06189.sfm,0x5132,35,,"ウッドロウさんは
-そんな人じゃないよ","Garr isn't that
+そんな人じゃないよ","Woodrow isn't that
 kind of person."
 06189.sfm,0x5156,20,,ずいぶん汚いお城だね,What a filthy castle.
 06189.sfm,0x516B,33,,"これなら俺にも
@@ -7349,7 +7349,7 @@ alter history?"
 06189.sfm,0x5AEB,18,,ベルクラントの起動,Activated Belcrant
 06189.sfm,0x5AFE,8,,彗星落下,Dropped a comet
 06189.sfm,0x5B07,53,,"結果、バルバトスやリオンを
-復活させることになったんだ","As a result, Barbatos and Leon
+復活させることになったんだ","As a result, Barbatos and Lion
 were brought back."
 06189.sfm,0x5B3D,16,,これは海の主だよ,That was the sea lord.
 06189.sfm,0x5B4E,39,,"これは世界を始めから
@@ -7556,7 +7556,7 @@ calls <Judas>."
 千歳くらい年上だけど････","He IS about a thousand
 years older, but..."
 06189.sfm,0x65F0,47,,"ウッドロウさんがオレに
-渡してくれたものは何か？","What did Garr
+渡してくれたものは何か？","What did Woodrow
 give me?"
 06189.sfm,0x6620,6,,勅命状,A royal edict
 06189.sfm,0x6627,14,,コレクター図鑑,Collector's Book
@@ -8052,7 +8052,7 @@ unpleasant things?"
 amazing tool for detecting
 invisible things?"
 06189.sfm,0x8254,8,,フィリア,Philia
-06189.sfm,0x825D,10,,ウッドロウ,Garr
+06189.sfm,0x825D,10,,ウッドロウ,Woodrow
 06189.sfm,0x8268,52,,"そのとおり
 ホント、優しくてきれいな
 人だったなあ････","That's right.
@@ -8197,7 +8197,7 @@ chose for the final battle against us?"
 06189.sfm,0x8A24,10,,神のたまご,Egg of God
 06189.sfm,0x8A2F,6,,神の星,Star of God
 06189.sfm,0x8A36,10,,神のひとみ,Pupil of God
-06189.sfm,0x8A41,6,,神の目,Eye of God
+06189.sfm,0x8A41,6,,神の目,Eye of Atamoni
 06189.sfm,0x8A48,12,,神のてのひら,Palm of God
 06189.sfm,0x8A55,37,,"正解！
 空に浮かぶさまは圧巻だったなあ","Correct!
@@ -9830,7 +9830,7 @@ under the same conditions."
 フィリアが取る行動だ","That's what Philia does
 under the same conditions."
 06278.sfm,0x2C9,43,,"それは、同じ条件下で
-ウッドロウが取る行動だ","That's what Garr does
+ウッドロウが取る行動だ","That's what Woodrow does
 under the same conditions."
 06278.sfm,0x2F5,39,,"それは、同じ条件下で
 スタンが取る行動だ","That's what Stahn does
@@ -9922,8 +9922,8 @@ appear?"
 06285.sfm,0x214,235,,時間切れね,Time's up.
 06286.sfm,0x1B4,10,,コングマン,Kongman
 06286.sfm,0x1BF,6,,スタン,Stahn
-06286.sfm,0x1C6,6,,リオン,Leon
-06286.sfm,0x1CD,10,,ウッドロウ,Garr
+06286.sfm,0x1C6,6,,リオン,Lion
+06286.sfm,0x1CD,10,,ウッドロウ,Woodrow
 06286.sfm,0x1D8,8,,ジョニー,Johnny
 06286.sfm,0x1E1,12,,これは誰だ？,Who is this?
 06286.sfm,0x1EE,81,,"マイティ・コングマン
@@ -9937,8 +9937,8 @@ on their journey."
 06286.sfm,0x247,184,,時間切れだ,Time's up.
 06287.sfm,0x1B4,8,,ジョニー,Johnny
 06287.sfm,0x1BD,6,,スタン,Stahn
-06287.sfm,0x1C4,6,,リオン,Leon
-06287.sfm,0x1CB,10,,ウッドロウ,Garr
+06287.sfm,0x1C4,6,,リオン,Lion
+06287.sfm,0x1CB,10,,ウッドロウ,Woodrow
 06287.sfm,0x1D6,10,,コングマン,Kongman
 06287.sfm,0x1E1,12,,これは誰だ？,Who is this?
 06287.sfm,0x1EE,66,,"ジョニー・シデン
@@ -10029,8 +10029,8 @@ Atamoni' occupied Heidelberg Castle."
 06292.sfm,0x27D,6,yes,違う！,Wrong!
 06292.sfm,0x284,123,,時間切れだ,Time's up.
 06293.sfm,0x1B4,6,,スタン,Stahn
-06293.sfm,0x1BB,6,,リオン,Leon
-06293.sfm,0x1C2,10,,ウッドロウ,Garr
+06293.sfm,0x1BB,6,,リオン,Lion
+06293.sfm,0x1C2,10,,ウッドロウ,Woodrow
 06293.sfm,0x1CD,8,,ジョニー,Johnny
 06293.sfm,0x1D6,10,,コングマン,Kongman
 06293.sfm,0x1E1,12,,これは誰だ？,Who is this?
@@ -10059,7 +10059,7 @@ Atamoni' occupied Heidelberg Castle."
 06296.sfm,0x1FD,8,yes,違うって,Nope.
 06296.sfm,0x206,249,,時間切れだな,Time's up.
 06297.sfm,0x1C0,6,,スタン,Stahn
-06297.sfm,0x1C7,6,,リオン,Leon
+06297.sfm,0x1C7,6,,リオン,Lion
 06297.sfm,0x1CE,14,,これ、誰の瞳？,Whose eyes are these?
 06297.sfm,0x1DD,10,,そう、オレ,"Yep, mine."
 06297.sfm,0x1E8,8,,違うって,Nope.
@@ -10116,8 +10116,8 @@ different covers, you see."
 06299.sfm,0x33B,196,,時間切れー,Time's up~
 06300.sfm,0x1B4,8,,フィリア,Philia
 06300.sfm,0x1BD,6,,スタン,Stahn
-06300.sfm,0x1C4,6,,リオン,Leon
-06300.sfm,0x1CB,10,,ウッドロウ,Garr
+06300.sfm,0x1C4,6,,リオン,Lion
+06300.sfm,0x1CB,10,,ウッドロウ,Woodrow
 06300.sfm,0x1D6,8,,ルーティ,Rutee
 06300.sfm,0x1DF,35,,"このソーディアンの
 マスターは誰だ？","Who is the master

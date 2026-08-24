@@ -415,7 +415,7 @@ offset,pointers,japanese,english
 0x112813,0xD7ABC,隠し通路,Hidden Passage
 0x112808,0xD7AC0,カタコンベ,Catacombs
 0x1127FB,0xD7AC8,未来のために,For the Future
-0x1127EA,0xD7ACC,ウッドロウに報告,Report to Garr
+0x1127EA,0xD7ACC,ウッドロウに報告,Report to Woodrow
 0x1127E1,0xD7AD0,デート１,Date 1
 0x1127D8,0xD7AD4,デート２,Date 2
 0x1127CD,0xD7ADC,愛の芽生え,Love Blossoms
@@ -476,7 +476,7 @@ offset,pointers,japanese,english
 0x112462,0xD7BBC,ここはアイグレッテ？,Is This Aigrette?
 0x11244B,0xD7BC0,まだホープタウンで\\\\,Still in Hope Town\\\\
 0x11243E,0xD7BC4,レンズはまだ,"The Lens, Still"
-0x11242B,0xD7BC8,ウッドロウに真相を,The Truth for Garr
+0x11242B,0xD7BC8,ウッドロウに真相を,The Truth for Woodrow
 0x112418,0xD7BCC,船じゃ追いつけない,A Ship Can't Catch Up
 0x112405,0xD7BD0,あのドームは何だ？,What's That Dome?
 0x1123EE,0xD7BD4,あの赤いドームは\\\\？,That Red Dome\\\\?
@@ -517,7 +517,7 @@ offset,pointers,japanese,english
 0x112173,0xD7C64,そろそろ船が出港できるか？,Can the Ship Sail Yet?
 0x112162,0xD7C68,準備して出航だ！,Get Ready and Sail!
 0x112149,0xD7C6C,ハイデルベルグを目指せ１,Head for Heidelberg 1
-0x112134,0xD7C70,ウッドロウ王はいずこ,Where Is King Garr?
+0x112134,0xD7C70,ウッドロウ王はいずこ,Where Is King Woodrow?
 0x112120,0xD7C74,何を言ったの<Loni>？,"What Did You Say, <Loni>?"
 0x112113,0xD7C78,いよいよ謁見,The Audience at Last
 0x112100,0xD7C7C,あの子を追いかけろ,Chase After Her
@@ -549,7 +549,7 @@ offset,pointers,japanese,english
 0x111F32,0xD7CE4,スパイラルケイブへ５,To Spiral Cave 5
 0x111F1F,0xD7CE8,ソーディアン完成３,Swordian Complete 3
 0x111F14,0xD7CEC,決戦前夜３,Eve of Battle 3
-0x111EF0,0xD7CF4,「神の眼」まで急ごう！,Hurry to the Eye of God!
+0x111EF0,0xD7CF4,「神の眼」まで急ごう！,Hurry to the Eye of Atamoni!
 0x111EE3,0xD7CF8,城でまた一泊,Another Castle Night
 0x111ED0,0xD7CFC,今、何かが見えた？,Did You See Something?
 0x111EBD,0xD7D00,再度未来に行くには,To the Future Again
