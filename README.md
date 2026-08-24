@@ -36,13 +36,33 @@ cannot reach yet (see the open items in `ps2/menu/README.md`).
 ## Getting the PS2 patch
 
 1. Go to the [releases page](https://github.com/Gandorfin/Tales-of-Destiny-2/releases)
-   and download the latest Green Gel ToD2 patch for PS2.
-2. You need your own dump of the Japanese game (SLPS-25172). Follow the
-   notes in the release.
-3. Play on PCSX2 or real hardware.
+   and download the latest `[Green Gel] ToD2 patch vX.X.X (PS2).xdelta`.
+2. You need your own dump of the Japanese game (SLPS-25172). Apply the
+   patch to it with [Delta Patcher](https://github.com/marco-calautti/DeltaPatcher/releases)
+   (Windows, Linux, macOS): original ISO in, xdelta file in, click Apply.
+   Command line users: `xdelta3 -d -s original.iso patch.xdelta patched.iso`.
+3. Play the patched ISO on PCSX2 or real hardware.
+
+Earlier releases were shipped as an archive of patched game files; from
+v1.1.4 on the release is an xdelta patch, which contains no game data and
+is a fraction of the size.
 
 Bug reports and screenshots of anything wrong or still Japanese are
 welcome as GitHub issues.
+
+### Making a release (maintainers)
+
+After building the patched ISO as described below:
+
+```
+xdelta3 -e -9 -S none -s "Tales of Destiny 2 (Japan).iso" patched.iso "[Green Gel] ToD2 patch v1.1.4 (PS2).xdelta"
+```
+
+`-S none` turns off the secondary compression that some patchers cannot
+read. Test the result once by applying it to a clean copy of the original
+ISO before uploading. xdelta3 is available for Windows, Linux and macOS at
+https://github.com/jmacd/xdelta/releases (Windows users can also use Delta
+Patcher's "Create patch" tab).
 
 ## Repository map
 
