@@ -66,3 +66,53 @@ screenshot Cinnamon's first lines. What we want to know:
 The answers decide how the English text will be rendered (half-width
 glyphs need a small change in the executable, since the engine advances
 one full cell per character today).
+
+## build_psp.py: the English build in one command
+
+```
+python psp/tools/build_psp.py "Tales of Destiny 2 (Japan).iso" tod2_psp_en.iso
+python psp/tools/build_psp.py "Tales of Destiny 2 (Japan).iso" tod2_psp_test.iso --probe
+```
+
+Takes a clean ULJS-00097 UMD dump and writes a new image with every
+scenario and skit script carrying the English from the PS2 translation.
+About two minutes and 3 GB of temporary space. The output image is larger
+than the original (the archive grows and is appended at the end of the
+image). `--probe` also puts two width test lines into the opening scene
+(a row of `i` over a row of `M`, and a long pangram) so we can see how the
+engine spaces Latin letters. Menus, battle text and the font are not
+touched yet: text shows in full-width capitals until the font work lands.
+
+## psp_text.py: scenario and skit text
+
+```
+python psp/tools/psp_text.py extract BOOT.BIN file.fpb WORK
+python psp/tools/psp_text.py match WORK
+python psp/tools/psp_text.py build BOOT.BIN file.fpb WORK new.fpb new_BOOT.BIN
+python psp/tools/psp_text.py verify new_BOOT.BIN new.fpb WORK
+```
+
+The steps `build_psp.py` runs, for working on the text by hand. `extract`
+writes one text file per script in the same format as the PS2 files (one
+record per block, dashed separators, tags as `<Kyle>`, `<color:...>`,
+`{XX}`), plus `pointers.json` with the position of every text pointer.
+`match` looks each Japanese record up in the translated PS2 files ("Third
+pass Quality-Safe Output", "third pass skits safe output") and writes the
+English versions into `WORK/scenario_en` and `WORK/skit_en`, Japanese kept
+as `#` lines; whatever it could not match is listed in `WORK/unmatched.tsv`
+(mostly developer comments and debug menus). Edit those files, then
+`build`. `verify` decodes the built archive and compares every record.
+
+How insertion works: the original text block of a script stays in place,
+changed records are appended after it and only their pointers are
+redirected, so nothing the tool did not translate can be damaged. Text
+pointers are the `F8 xx xx` opcodes of the script's code section; a
+pointer that breaks the natural in-order layout on both sides, or points
+at an empty string, is treated as a false hit and left alone. Scripts
+whose text would exceed the 64 KB pointer range are rebuilt from scratch
+instead (one on this disc).
+
+`TBL_PSP.json` lists 522 text codes that `ps2/PyTOD2/TBL.json` never had.
+They were derived from the PSP font's glyph list (archive member 00001,
+Shift-JIS code per glyph) and the game's own decoder, and agree with all
+1,782 existing entries; they apply to the PS2 as well.
