@@ -1702,11 +1702,11 @@
   },
   {
    "group": "status_description",
-   "label": "Lion Magnus",
+   "label": "Leon Magnus",
    "offset": 1104749,
    "old_hex": "9F6A9C4B99BC9BC599A09EB39CA099C49C71998399919B555C5C5C5C019BB099A09CA099A19A5399CF9A5D9A599A4699D599EF99DE01998F998999989A8599CD9A479A5399CF9A5999D099ED9A5599E899ED00",
    "new_hex": "41206D616E206272616E64656420612074726169746F722E01486973206E616D653A204C656F6E204D61676E75732E01416C736F206B6E6F776E20617320456D696C696F204B61747265612E00000000000000",
-   "display": "A man branded a traitor.<line>His name: Lion Magnus.<line>Also known as Emilio Katrea."
+   "display": "A man branded a traitor.<line>His name: Leon Magnus.<line>Also known as Emilio Katrea."
   },
   {
    "group": "status_description",
