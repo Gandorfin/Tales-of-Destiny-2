@@ -1,28 +1,53 @@
 scenario	!?\nバ、バルバトス!?	?!\nB-Barbatos?!	translated
 scenario	<03:00000000><0B:00000001>{14}{36}{10}{C0}<0B:00000000>ガルド援助してよろしいですか？\nはいはい、ドーンといっちゃってください\nいやいや、ちょっと待てよ	<03:00000000>Provide <0B:00000001>{14}{36}{10}{C0}<0B:00000000> Gald in aid?\nSure, sure, go for it.\nNo, no, hold on.	recover
 scenario	<03:00000000><button:00000035>ボタンでジャンプ\n<button:00000036>ボタンでキャンセル	<03:00000000><button:00000035> to jump\n<button:00000036> to cancel	recover
+scenario	<03:00000000><num:00002710>ガルド増やす\n<num:00002710>ガルド減らす\n大金持になる\n無一文になる	<03:00000000><num:00002710>Add Gald\n<num:00002710>Subtract Gald\nBecome rich\nBecome penniless	translated
+scenario	<03:00000000>{14}{24}{F4}{C0}番目の店で買物\n<button:00000029> : -10  <button:0000002A> : +10\n<button:0000002B> : - 1  <button:0000002C> : + 1	<03:00000000>Shop at store #{14}{24}{F4}{C0}\n<button:00000029> : -10  <button:0000002A> : +10\n<button:0000002B> : - 1  <button:0000002C> : + 1	translated
 scenario	<03:00000000>　 次に進む\n　 脱出する\nちょっと待って	<03:00000000>　 Proceed\n　 Escape\nWait a moment	translated
 scenario	<03:00000000>　<item:00000031>をあげる\n　<item:00000031>をあげない	<03:00000000> Give him <item:00000031>.\nDon't give him <item:00000031>.	recover
 scenario	<03:00000000>　スクリーンチャット\n　ムービー	<03:00000000>　Screen Chat\n　Movie	translated
 scenario	<03:00000000>　入れてみる\n　やめる	<03:00000000>　Try putting it in\n　Stop	translated
+scenario	<03:00000000>　最終現代\n　第二現代\n　第二未来\n　前のページ	<03:00000000>　Final Present\n　Second Present\n　Second Future\n　Previous page	translated
+scenario	<03:00000000>　現代\n　未来\n　改変現代\n　天地戦争	<03:00000000>　Present\n　Future\n　Altered Present\n　Aeth'er Wars	translated
 scenario	<03:00000000>　買う\n　<0B:00000001>{14}{25}{DA}{C0}本まとめて買う（{14}{35}{D4}{C0}ガルド）<0B:00000000>\n　リファイン講座\n　いらない	<03:00000000> Buy\n<0B:00000001>Buy {14}{25}{DA}{C0} in bulk ({14}{35}{D4}{C0} Gald)<0B:00000000>\nRefine Guide\nNo thanks	recover
 scenario	<03:00000000>　買う\n　<0B:00000001>{14}{25}{EE}{C0}本まとめて買う（{14}{35}{E8}{C0}ガルド）<0B:00000000>\n　リファイン講座\n　いらない	<03:00000000>Buy\n<0B:00000001>Buy {14}{25}{EE}{C0} in bulk ({14}{35}{E8}{C0} Gald)<0B:00000000>\nRefine Guide\nNo thanks	recover
 scenario	<03:00000000>　買う\n　<0B:00000001>{14}{25}{FA}{C0}本まとめて買う（{14}{35}{F4}{C0}ガルド）<0B:00000000>\n　リファイン講座\n　いらない	<03:00000000> Buy\n<0B:00000001>Buy {14}{25}{FA}{C0} in bulk ({14}{35}{F4}{C0} Gald)<0B:00000000>\nRefine Guide\nNo thanks	recover
 scenario	<03:00000000>　買う\n　<0B:00000001>{14}{26}{3A}{C0}本まとめて買う（{14}{36}{34}{C0}ガルド）<0B:00000000>\n　リファイン講座\n　いらない	<03:00000000>Buy\n<0B:00000001>Buy {14}{26}{3A}{C0} in bulk ({14}{36}{34}{C0} Gald)<0B:00000000>\nRefine Guide\nNo thanks	recover
 scenario	<03:00000000>　買う\n　<0B:00000001>{14}{26}{4E}{C0}本まとめて買う（{14}{36}{48}{C0}ガルド）<0B:00000000>\n　リファイン講座\n　いらない	<03:00000000> Buy\n<0B:00000001>Buy {14}{26}{4E}{C0} in bulk ({14}{36}{48}{C0} Gald)<0B:00000000>\nRefine Guide\nNo thanks	recover
 scenario	<03:00000000>　買う\n　<0B:00000001>{14}{27}{4A}{C0}本まとめて買う（{14}{37}{44}{C0}ガルド）<0B:00000000>\n　リファイン講座\n　いらない	<03:00000000> Buy\n<0B:00000001>Buy {14}{27}{4A}{C0} in bulk ({14}{37}{44}{C0} Gald)<0B:00000000>\nRefine Guide\nNo thanks	recover
+scenario	<03:00000000>あまったのでラスダン中層部\nあまりのでラスダン深層部\nクレスタ\nデュナミス孤児院	<03:00000000>Leftover: Last Dgn Mid\nLeftover: Last Dgn Deep\nCresta\nDunamis Orphanage	translated
 scenario	<03:00000000>ここはエクストラダンジョン\n{14}{11}{70}{81}{CA}{C0}週目{14}{21}{26}{C0}階です	<03:00000000>This is the Extra Dungeon.\nLap {14}{11}{70}{81}{CA}{C0}, Floor {14}{21}{26}{C0}.	translated
 scenario	<03:00000000>どこへも行きませぬ	<03:00000000>I shall go nowhere.	translated
 scenario	<03:00000000>どちらに行きますか？{02}	<03:00000000>Where would you like to go?{02}	translated
+scenario	<03:00000000>アイグレッテ・グランバザール\nストレイライズ遺跡\nストレイライズ大神殿\nアイグレッテ港	<03:00000000>Aigrette Grand Bazaar\nStraylize Ruins\nStraylize Grand Temple\nAigrette Port	translated
+scenario	<03:00000000>アイグレッテ（未来）\nチェリク\nヒートリバー\nホープタウン	<03:00000000>Aigrette (Future)\nCherik\nHeat River\nHope Town	translated
+scenario	<03:00000000>アイテム操作／称号取得／時代変更{02}	<03:00000000>Item ops / Get titles / Change era{02}	translated
+scenario	<03:00000000>アクアヴェイル\nカルビオラ地下墓地\n地上軍拠点跡地\nラストダンジョン	<03:00000000>Aqua Veil\nKalviola Catacombs\nGround Base Ruins\nLast Dungeon	translated
+scenario	<03:00000000>オベロン社廃坑\nスノーフリア\nハイデルベルグ新市街\nハイデルベルグ城	<03:00000000>Oberon Mine\nSnowfria\nHeidelberg New City\nHeidelberg Castle	translated
+scenario	<03:00000000>ダイクロフト（天地戦争）\nスパイラルケイブ\nベルクラント\nダイクロフト（ＴＯＤ１）	<03:00000000>Dycroft (Aeth'er Wars)\nSpiral Cave\nBelcrant\nDycroft (ToD1)	translated
+scenario	<03:00000000>トラッシュマウンテン\nカルバレイス\n飛行竜\nヴァンジェロ	<03:00000000>Trash Mountain\nCalvalese\nFlying Dragon\nVangelo	translated
 scenario	<03:00000000>ミクトラン部屋方面(上)へ行きたい\n制御室(下)へ行きたい	<03:00000000>To the Mictlan room (up)\nTo the control room (down)	translated
+scenario	<03:00000000>ラグナ遺跡\n地下水路\nダリルシェイド\nハーメンツヴァレー	<03:00000000>Ragna Ruins\nUnderground Waterway\nDarilsheid\nHarmentz Valley	translated
+scenario	<03:00000000>ワールドマップ時代を変更しますか？	<03:00000000>Change the world map era?	translated
+scenario	<03:00000000>元にもどす\nモノクロ調\nセピア調\nランダム	<03:00000000>Revert\nMonochrome\nSepia\nRandom	translated
 scenario	<03:00000000>制御室方面へ\n格納庫方面へ	<03:00000000>Toward the control room\nToward the hangar	translated
+scenario	<03:00000000>定期船\nリーネの村\n白雲の尾根山小屋\nノイシュタット	<03:00000000>Ferry\nLienea Village\nHakuun Ridge Cabin\nNeuestadt	translated
 scenario	<03:00000000>戦闘準備\n<Kyle>で再戦設定\n<Reala>で再戦設定\n<Kyle>が娘と再戦設定	<03:00000000>Battle Prep\nRematch as <Kyle>\nRematch as <Reala>\n<Kyle> vs. daughter	translated
 scenario	<03:00000000>戦闘準備\n<Reala>と組んで再戦\n<Nanaly>と組んで再戦\n<Harold>と組んで再戦	<03:00000000>Battle Prep\nRematch with <Reala>\nRematch with <Nanaly>\nRematch with <Harold>	translated
 scenario	<03:00000000>戦闘準備\n再戦設定	<03:00000000>Battle Prep\nRematch Settings	translated
+scenario	<03:00000000>未開の森\nスペランツァ\nレアルタ\n光のほこら	<03:00000000>Untamed Forest\nSperanza\nRealta\nShrine of Light	translated
+scenario	<03:00000000>海岸の洞窟\n地上軍拠点\nラディスロウ\n物資貯蔵庫	<03:00000000>Coastal Cave\nGround Forces Base\nRadisrol\nSupply Depot	translated
+scenario	<03:00000000>現代　　　　　キャンセルで\n未来　　　　　最終現代が\n改変現代　　　セット\n天地戦争　　　されます	<03:00000000>Present　　　 Cancel\nFuture　　　　sets\nAltered Present　the Final\nAeth'er Wars　 Present	translated
 scenario	<03:00000000>現在、{18}{45}{E4}{C0}です\n完成まで<0B:00000001>{14}{26}{0C}{C0}分{14}{26}{0A}{C0}<0B:00000000>秒かかります	<03:00000000>Currently {18}{45}{E4}{C0}.\nWill take <0B:00000001>{14}{26}{0C}{C0} min. {14}{26}{0A}{C0}<0B:00000000> sec. to complete.	recover
+scenario	<03:00000000>称号全部取得\nアイテム没収\nアイテム入手\nフィールドの時代を変更する	<03:00000000>Get all titles\nConfiscate items\nObtain items\nChange the field's era	translated
+scenario	<03:00000000>通常サイズ\n大きい	<03:00000000>Normal size\nLarge	translated
 scenario	<03:00000000>鍛冶屋ランク：{18}{45}{E8}{C0}\n開発資金残高：<0B:00000001>{14}{26}{28}{90}{32}{C7}{C0}<0B:00000000>ガルド\n状況：{18}{45}{E4}{C0}	<03:00000000>Blacksmith Rank: {18}{45}{E8}{C0}\nDevelopment Fund Balance: <0B:00000001>{14}{26}{28}{90}{32}{C7}{C0}<0B:00000000> Gald\nStatus: {18}{45}{E4}{C0}	recover
+scenario	<03:00000000>１ページ\n２ページ\n３ページ\n次ページ	<03:00000000>Page 1\nPage 2\nPage 3\nNext page	translated
+scenario	<03:00000000>４ページ\n５ページ\n６ページ\n次ページ	<03:00000000>Page 4\nPage 5\nPage 6\nNext page	translated
+scenario	<03:00000000>７ページ\n８ページ\n９ページ\nやめる	<03:00000000>Page 7\nPage 8\nPage 9\nStop	translated
 scenario	<03:00000000>ＧＡＭＥをやめますか？\n\n<button:00000035>やめる　<button:00000036>やめない	　\n<03:00000000>Quit the game?\n<button:00000035>Yes <button:00000036>No	recover
 scenario	<0B:00000001>{14}{34}{8C}{C0}ガルドを手に入れました<0B:00000000>	<0B:00000001>Acquired {14}{34}{8C}{C0} Gald.<0B:00000000>	recover
+scenario	<0B:00000001>{14}{34}{98}{C0}<0B:00000000>ガルドになりますが\nお泊まりになりますか？\n<03:00000000>　はい\n　いいえ	It'll be <0B:00000001>{14}{34}{98}{C0}<0B:00000000> Gald.\nWould you like to stay?\n<03:00000000>　Yes\n　No	translated
 scenario	<0B:00000001>『爆弾製造機』\nレバーＡ：{18}{44}{A4}{C0}\nレバーＢ：{18}{44}{A8}{C0}<0B:00000000>	<0B:00000001>Bomb Manufacturing Machine\nLever A: {18}{44}{A4}{C0}\nLever B: {18}{44}{A8}{C0}<0B:00000000>	recover
 scenario	<0B:00000001>異常な数値を検出　{14}{24}{80}{C0}　{14}{24}{82}{C0}<0B:00000000>	<0B:00000001>Anomalous readings detected　{14}{24}{80}{C0}　{14}{24}{82}{C0}<0B:00000000>	translated
 scenario	<Harold>さん\n本当に、ありがとうございます	<Harold>,\nthank you so very much.	translated
@@ -101,8 +126,24 @@ scenario	<size:000000C8>オレ達を気にしてって\n本当かなあ～･･
 scenario	<size:000000C8>････さすがはスタンさんの妹････\nと言うか、<Kyle>の叔母さん････	<size:000000C8>...Stahn's sister, all right...\nor rather, <Kyle>'s aunt...	translated
 scenario	<size:00000180>そして････十八年の月日が流れた････	<size:00000180>And so... eighteen years passed...	translated
 scenario	<size:00000200>････本当です！	<size:00000200>...It's true!	translated
+scenario	FLD_EVENT_NUM_SP_01(定期船浮上)？<03:00000000>\n　みる！\n　みない！	FLD_EVENT_NUM_SP_01 (ferry up)?<03:00000000>\n　View!\n　Don't view!	translated
+scenario	FLD_EVENT_NUM_SP_02(リーネの村へ)？<03:00000000>\n　みる！\n　みない！	FLD_EVENT_NUM_SP_02 (to Lienea)?<03:00000000>\n　View!\n　Don't view!	translated
+scenario	FLD_EVENT_NUM_SP_03(飛空艇入手)？<03:00000000>\n　みる！\n　みない！	FLD_EVENT_NUM_SP_03 (get airship)?<03:00000000>\n　View!\n　Don't view!	translated
+scenario	FLD_EVENT_NUM_SP_04(飛行竜逃走)？<03:00000000>\n　みる！\n　みない！	FLD_EVENT_NUM_SP_04 (dragon flees)?<03:00000000>\n　View!\n　Don't view!	translated
+scenario	FLD_EVENT_NUM_SP_05(飛行竜追撃)？<03:00000000>\n　みる！\n　みない！	FLD_EVENT_NUM_SP_05 (dragon chase)?<03:00000000>\n　View!\n　Don't view!	translated
+scenario	FLD_EVENT_NUM_SP_06(歪みに巻き込まれる)？<03:00000000>\n　みる！\n　みない！	FLD_EVENT_NUM_SP_06 (warp caught)?<03:00000000>\n　View!\n　Don't view!	translated
+scenario	FLD_EVENT_NUM_SP_07(ダイクロフト出現)？<03:00000000>\n　みる！\n　みない！	FLD_EVENT_NUM_SP_07 (Dycroft)?<03:00000000>\n　View!\n　Don't view!	translated
+scenario	FLD_EVENT_NUM_SP_08(レンズの光)？<03:00000000>\n　みる！\n　みない！	FLD_EVENT_NUM_SP_08 (Lens light)?<03:00000000>\n　View!\n　Don't view!	translated
+scenario	FLD_EVENT_NUM_SP_09(光のほこら)？<03:00000000>\n　みる！\n　みない！	FLD_EVENT_NUM_SP_09 (Light Shrine)?<03:00000000>\n　View!\n　Don't view!	translated
+scenario	FLD_EVENT_NUM_SP_10(ロケット)？<03:00000000>\n　みる！\n　みない！	FLD_EVENT_NUM_SP_10 (rocket)?<03:00000000>\n　View!\n　Don't view!	translated
+scenario	FLD_EVENT_NUM_SP_11(神のたまご)？<03:00000000>\n　みる！\n　みない！	FLD_EVENT_NUM_SP_11 (God's Egg)?<03:00000000>\n　View!\n　Don't view!	translated
+scenario	FLD_EVENT_NUM_SP_12(ＥＸダンジョン出現)？<03:00000000>\n　みる！\n　みない！	FLD_EVENT_NUM_SP_12 (EX Dgn)?<03:00000000>\n　View!\n　Don't view!	translated
+scenario	FLD_EVENT_NUM_SP_13(ゲーム後ゲーム直前クレスタ)？<03:00000000>\n　みる！\n　みない！	FLD_EVENT_NUM_SP_13 (postgame)?<03:00000000>\n　View!\n　Don't view!	translated
+scenario	FLD_EVENT_NUM_SP_14(神のたまご突入)？<03:00000000>\n　みる！\n　みない！	FLD_EVENT_NUM_SP_14 (enter Egg)?<03:00000000>\n　View!\n　Don't view!	translated
+scenario	{14}{34}{08}{C0}ガルド{18}{44}{60}{C0}	{14}{34}{08}{C0} Gald{18}{44}{60}{C0}	translated
 scenario	{15}{14}{87}{C0}がバトルをおこないます	{15}{14}{87}{C0} will enter the battle.	recover
 scenario	{15}{14}{87}{C0}と{15}{24}{7E}{C0}でタッグバトルに参加します	{15}{14}{87}{C0} and {15}{24}{7E}{C0} will enter the tag battle.	recover
+scenario	{15}{22}{02}{C0}がパーティーから\n抜けます。	{15}{22}{02}{C0} leaves\nthe party.	translated
 scenario	{15}{34}{78}{C0}は\n称号「{16}{A0}{00}{08}{34}{7C}{CA}{C0}」を得ました	{15}{34}{78}{C0} earned\nthe title "{16}{A0}{00}{08}{34}{7C}{CA}{C0}"!	template
 scenario	{15}{34}{EC}{C0}は\n称号「{16}{A0}{00}{08}{34}{F0}{CA}{C0}」を得ました	{15}{34}{EC}{C0} earned\nthe title "{16}{A0}{00}{08}{34}{F0}{CA}{C0}"!	translated
 scenario	{15}{34}{F0}{C0}は\n称号「{16}{A0}{00}{08}{34}{F4}{CA}{C0}」を得ました	{15}{34}{F0}{C0} earned\nthe title "{16}{A0}{00}{08}{34}{F4}{CA}{C0}"!	template
@@ -225,6 +266,8 @@ scenario	{18}{44}{9C}{14}{D2}{25}{88}{C6}{C6}{C0}だよ、早くしてね	{18}{4
 scenario	「<Judas>」である僕は\n過去を悔いてはいない	As '<Judas>,' I do not\nrue the past.	translated
 scenario	「しばらくは」というのは\nじつは<item:0000004A>からは\n同じ種が取れないらしいのです	I say 'for a while' because,\nin fact, it seems you can't gather\nthe same kind from <item:0000004A>.	recover
 scenario	「また来ちゃいました」って\nホント楽しいお母さんだね	'Here I am again,' huh...\nWhat a fun mother.	translated
+scenario	「イベント発生」	'Event Triggered'	translated
+scenario	「トラップ発生」	'Trap Triggered'	translated
 scenario	「真の英雄になりたくば、\n　私を倒して行きなさい！\n　････とか、言ってみたりして～☆」	"If you want to become a true hero,\n defeat me and move on!\n ...or so I might say~ hee hee ☆"	translated
 scenario	『七将軍像』\nヒューゴの乱の時代、セインガルドを\n統治していた七人の将軍を奉った像	'Seven Generals Statue' A statue\nhonoring the seven generals\nwho ruled Seinegald during\nthe era of Hugo's Rebellion.	recover
 scenario	『低レベルのプロテクト解除には\n　<item:00000037>、<item:00000038>、<item:00000039>\n　この三つのチップが必要だ\n　低レベルプロテクトを解除して、<item:00000036>を入手しろ』	'Disabling low-level protection\nrequires these three chips:\n<item:00000037>, <item:00000038>, <item:00000039>.\nDisable it and obtain <item:00000036>.'	recover
@@ -244,6 +287,7 @@ scenario	あ、別に困らせたくて\n聞いたわけじゃないんですよ
 scenario	あきらめるのは早いです父さん\n時間で切れるものや、ヒットを重ねることで\n切れるものもあるんです\nもちろん、とどめをさせば消えますしね	It's too early to give up, Father.\nSome expire over time, while\nothers can be broken by landing\nenough hits. And of course, they\nvanish once you finish the foe off.	recover
 scenario	あたしがチョットくらい\n居なくたって、孤児院なら大丈夫よ\nあの子たち、意外と\nシッカリしてんだから	The orphanage will be fine\nwithout me for a little while.\nThose kids are tougher\nthan they look.	translated
 scenario	あたしもわかったよ\n<Loni>	I understand now too,\n<Loni>.	translated
+scenario	あついじゃないの\nバカ！	It's hot, you know!\nIdiot!	translated
 scenario	あと、闘技場では\n本当に楽しかったわ\n改めて、お礼を言わせてもらいますね	And the arena was\ntruly a lot of fun.\nLet me thank you again for it.	translated
 scenario	あとは、この年よりにまかせな\n････新しい「孫」を可愛がれる\n何よりの楽しみを、ありがとうよ	Leave the rest to this old-timer.\n...Thank you for the greatest joy:\nnew 'grandkids' to dote on.	translated
 scenario	あなたが呼び覚ましたいのは、\nどちらの思い出ですか？	Which memory\nwould you like to recall?	translated
@@ -304,6 +348,8 @@ scenario	おめでとうございます\n最高タイムを更新しました\n�
 scenario	おめでとうございます\n最高ラップタイムを更新しました\n　　　　<0B:00000001>{18}{46}{1C}{C0}<0B:00000000>	Congratulations!\nYou set a new best lap time!\n　　　　<0B:00000001>{18}{46}{1C}{C0}<0B:00000000>	translated
 scenario	おれさまは、グリッド！\n戦闘からの離脱の速さゆえについた\nあだ名が、「音速の貴公子」！	I am Grid! My nickname, earned for\nmy speed in retreating from battle,\nis the 'Prince of Sonic Speed'!	recover
 scenario	おれさまは、グリッド！\n戦闘からの離脱の速さゆえについた\nあだ名が「音速の貴公子」！	I am Grid! My nickname, earned for\nmy speed in retreating from battle,\nis the 'Prince of Sonic Speed'!	recover
+scenario	おんなのこ０	Girl 0	translated
+scenario	おんなのこ１	Girl 1	translated
 scenario	お久しぶりです、<Kyle>さま	It's been a while, Lord <Kyle>.	translated
 scenario	お二人とも\n本当にありがとうございます	Thank you, both of you,\ntruly.	translated
 scenario	お二人とも、ありがとうございます	Thank you, both of you.	translated
@@ -438,6 +484,7 @@ scenario	なんとッ！　たった今\n優勝を決めた、この若者に\n�
 scenario	なんとッ！　たった今\n優勝を決めた、この若者に\n挑戦者が現れました!!	What's this?! A challenger has\nappeared to face this young man\nwho just claimed victory!!	translated
 scenario	なんとッ！　たった今\n優勝を決めた、この若者に\n馴染み深いあのお二方が\n三度の参戦に名乗り出ました！	What's this?! These two familiar\nfaces have stepped forward to\njoin this young man's victory\nfor a third time!	translated
 scenario	なッ!?\nか、母さん！\nそ、そのカッコ････	Wha--?!\nM-Mom! Th-that getup...	translated
+scenario	になりました	Done.	translated
 scenario	ねっ！　<Harold>!!	Right, <Harold>?!	translated
 scenario	ねっ！　<Nanaly>!!	Right, <Nanaly>?!	translated
 scenario	ねっ！　<Reala>!!	Right, <Reala>?!	translated
@@ -467,6 +514,7 @@ scenario	また、何でここに？	Why are you here again?	translated
 scenario	またいつでも\n遊びに来てくださいね	Do come and visit\nanytime, all right?	translated
 scenario	まだ、貴様らを\n葬るチャンスはある！\nそう思った俺は、歓喜した	There's still a chance\nto bury you all! That thought\nfilled me with joy.	translated
 scenario	まだだ！\nまだまだ、俺を楽しませてくれっ！\n<Kyle>＝デュナミスっ!!	Not yet! Keep on entertaining\nme, more and more!\n<Kyle> Dunamis!!	translated
+scenario	まーくん	Ma-kun	translated
 scenario	みなさん、ご唱和ください！\n我らが誇る四英雄のォ～	Everyone, chant along!\nOur proud Four Heroes~	translated
 scenario	みなさんの無事を祈って、\n<item:000001B7>を差しあげますわ	I pray for your safe journey,\nand offer you this <item:000001B7>.	recover
 scenario	みなさんも、ご一緒に！\n我らが誇る四英雄のォ～	Everyone, together now!\nOur proud Four Heroes~	translated
@@ -509,26 +557,44 @@ scenario	ウフフ\nまた来ちゃいました☆	Ufufu.\nHere I am again ☆	t
 scenario	エヘヘ～\nまたまた来ちゃった☆	Ehehe~\nBack yet again ☆	translated
 scenario	エヘヘ～\nまた来ちゃった☆	Ehehe~\nHere I am again ☆	translated
 scenario	エルレインさまの理想を\n実現させるためでしたら、\n何度、我が身を打たれようとも\n皆さまに挑みましょうぞ	To realize Lady Elrane's ideal,\nno matter how many times\nI am struck down, I will\nchallenge you all!	translated
+scenario	エンカウント？<03:00000000>\n・エンカウント！\n・キャンセル	Encounter?<03:00000000>\n・Encounter!\n・Cancel	translated
 scenario	ガルムの牙を二本手に入れました	Obtained two Garm Fangs.	translated
 scenario	キャンセルしました	Cancelled.	translated
 scenario	クックック････\nこんなところで、奇遇だな\n<Kyle>＝デュナミス	Kukukku... What a coincidence,\nmeeting in a place like this,\n<Kyle> Dunamis.	translated
 scenario	クックック････\nまた会えて、うれしいぞ\n<Kyle>＝デュナミス!!	Kukukku...\nGood to see you again,\n<Kyle> Dunamis!!	translated
 scenario	クックック････、人気者だな？\n<Kyle>＝デュナミス	Kukukku... Quite popular,\naren't you? <Kyle> Dunamis.	translated
+scenario	グラデ変更？{02}	Change gradation?{02}	translated
 scenario	コンテナを開ける直前の状態まで\nゲームを進めますか？	Advance the game to just before\nopening the container?	translated
 scenario	サクラバがピアノを演奏中です\n\n\n　　　　<button:00000036>で演奏中断	　\n　\nSakuraba is playing the piano.\nPress <button:00000036> to stop.	recover
 scenario	スクリーンチャット再生メニューでは\n再生したいスクリーンチャットの\n番号を選んで<button:00000025>ボタンを押して下さい\n再生中止は<button:00000026>ボタンです	In the screen chat replay menu,\npick the number of the chat you\nwant and press <button:00000025>.\nPress <button:00000026> to stop.	translated
 scenario	スロットによって装備品の名前も変わります\n<item:00000079>　＋　アタックで\nアタックソードなどです	Slots can change equipment names.\nCombine\n<item:00000079>\nwith Attack to make an Attack Sword.	recover
 scenario	ソーサラーリングを連射せよ！	Fire the Sorcerer Ring\nin rapid succession!	translated
+scenario	ダンジョン(外殻)に行く？<03:00000000>\n・行く！\n・行かない！	Go to the Dungeon (Aethersphere)?<03:00000000>\n・Go!\n・Don't go!	translated
+scenario	ダンジョン１に行く？<03:00000000>\n・行く！\n・行かない！	Go to Dungeon 1?<03:00000000>\n・Go!\n・Don't go!	translated
+scenario	ダンジョン２に行く？<03:00000000>\n・行く！\n・行かない！	Go to Dungeon 2?<03:00000000>\n・Go!\n・Don't go!	translated
+scenario	ダンジョン３に行く？<03:00000000>\n・行く！\n・行かない！	Go to Dungeon 3?<03:00000000>\n・Go!\n・Don't go!	translated
+scenario	デバッグメイド	Debug Maid	translated
+scenario	トラップでエンカウント	Encounter via trap	translated
 scenario	ハシゴが壊れています\nこのハシゴを直すのは無理そうです	The ladder's broken.\nRepairing it looks impossible.	translated
 scenario	ハハハッ\nおまえも気をつけろよ\n<Kyle>	Hahaha.\nYou be careful too,\n<Kyle>.	translated
 scenario	ハンマーもトンカチも見当たらない\nやはり凍った<item:00000061>でクギを打っていたのだろう	No hammers or mallets are here.\nThey must have used frozen\n<item:00000061>\nto drive the nails.	recover
 scenario	バルバトス！	Barbatos!	translated
 scenario	バンド計算から得られる\n電荷密度の高さも異常だし\n磁場の乱れも、尋常じゃな････	The charge density from the band\ncalculations is abnormally high,\nand the magnetic disturbance\nis anything but ordi--	translated
+scenario	パーティーに入ります	Joins the party	translated
 scenario	フィ、フィリアくん!?\nそれは、ズルイではないか!?	Ph-Philia?!\nIsn't that playing dirty?!	translated
 scenario	フィリアくん\nき、君の方こそ、大丈夫かね････？	Philia, a-are you the one\nwho's all right...?	translated
 scenario	フィリアさーーーーーーーん！！\nスタンの息子なんぞ、\nぶっ飛ばしてくださーーーい！！	Phiiiliaaaa!!\nGo ahead and knock\nStahn's son flat!!	translated
+scenario	フィールドマップ関係を\n天地戦争にしました	Set the field maps\nto the Aeth'er Wars.	translated
+scenario	フィールドマップ関係を\n改変現代にしました	Set the field maps\nto the Altered Present.	translated
+scenario	フィールドマップ関係を\n最終現代にしました	Set the field maps\nto the Final Present.	translated
+scenario	フィールドマップ関係を\n未来にしました	Set the field maps\nto the Future.	translated
+scenario	フィールドマップ関係を\n現代にしました	Set the field maps\nto the Present.	translated
+scenario	フィールドマップ関係を\n第二未来にしました	Set the field maps\nto the Second Future.	translated
+scenario	フィールドマップ関係を\n第二現代にしました	Set the field maps\nto the Second Present.	translated
 scenario	フフフ････\nその様子でしたら、大丈夫ですね	Hehehe... From that look,\nyou'll be fine.	translated
 scenario	フフフ････なんとでも言え！	Hah hah... Say what you like!	translated
+scenario	フリーメッセージオフ！	Free Message Off!	translated
+scenario	フリーメッセージオン！	Free Message On!	translated
 scenario	プレートに<item:0000002F>をはめ込めそうです\n持っている<item:0000002F>をはめ込みますか？	The <item:0000002F> seems to fit the plate.\nInsert the <item:0000002F>?	recover
 scenario	ヘヘ、よおブラザー\nその<item:0000007D>よぉ、俺のなのよ\n欲しけりゃ売ってやるぜ	Heh, hey there, brother.\nThat <item:0000007D> there? It's mine.\nI'll sell it to ya if you want it.	recover
 scenario	ホント、しつこいわねぇ\nそんなんじゃ、何度やっても一緒よ\nさっさと、あきらめなさい	You really don't quit, do you.\nLike that, it'll end the same\nno matter how often you try.\nJust give up already.	translated
@@ -555,6 +621,7 @@ scenario	リーネで待ってても\nあれやこれやと気をもむばかり
 scenario	ルーティぃ～\nカトレットぉ～～!!	Ruteeeee~\nKatreaaa~~!!	translated
 scenario	ルーティに再挑戦	Rechallenge Rutee	translated
 scenario	ワァオォっ！\n悪いわねぇ～、こんな物まで\nもらっちゃって	Whoaa! I feel bad~,\ntaking even something\nlike this off you.	translated
+scenario	ーーーーーわたしです	-----It's me	translated
 scenario	三つのキーを入手し、コンテナの前まで移動する\nキャンセル	Get the three keys and move\nto the front of the container\nCancel	translated
 scenario	不思議な切りかぶの上に<item:00000032>があります\nこの<item:00000032>を持っていきますか？	There's <item:00000032> on the strange stump.\nTake the <item:00000032>?	recover
 scenario	二人とも、ありがとう	Thank you, both of you.	translated
@@ -570,11 +637,14 @@ scenario	何も起きませんでした	Nothing happened.	translated
 scenario	使うときは、<button:00000039>ボタンだ\nだが、ソーサラーリング以上に\nレンズを消費する、気をつけろよ	When you use it, press the <button:00000039>\nbutton. But be warned: it consumes\neven more Lens than the Sorcerer's\nRing.	recover
 scenario	俺たちの信念が、\nこいつら以上だってことを\n何度だって教えてやるだけだぜ！	We'll just teach 'em, as many\ntimes as it takes, that our\nconviction beats theirs!	translated
 scenario	俺は絶望の中、この無限の回廊を\n彷徨い続けた････\n貴様らへの憎しみを、\nより高めながらな････	In despair I wandered this\ninfinite corridor on and on...\nstoking my hatred for you all\never higher...	translated
+scenario	俺様と本気でやるには\nＭＡＮＩＡ以上が楽しいぜ････	To fight me for real,\nMANIA or above is more fun...	translated
+scenario	倉庫番ミニゲームで遊ぶ？<03:00000000>\n・遊ぶ！\n・遊ばない！	Play the warehouse minigame?<03:00000000>\n・Play!\n・Don't play!	translated
 scenario	働き次第では、報酬もはずみたいから\nできれば、手荷物の装備品を\n少し減らしてから、また来ておくれよ	Depending on your work, I'd like to\nreward you better, so if you can,\ncome back after trimming a little\nof the gear in your pack.	translated
 scenario	僕････？\n････何を言ってるんだ？	Me...?\n...What are you talking about?	translated
 scenario	優勝おめでとうございます	Congratulations on your victory!	translated
 scenario	優勝されますと、賞金に加え\n副賞が授与される場合がございます	Upon winning, a bonus prize\nmay be awarded in addition\nto the prize money.	translated
 scenario	先日まで、当闘技場で\n「最強」の名を欲しいままにしていた\n武芸者リムルを生み育て、	The one who raised the martial\nartist Rhym, who until recently\nheld the name of 'strongest'\nright here in this arena,	translated
+scenario	六人パーティにするよ！	Make it a 6-person party!	translated
 scenario	再戦	Rematch	translated
 scenario	凍った<item:00000061>････\nまさか、これでクギを打ってたわけじゃ\nないよな････？	Frozen\n<item:00000061>...\nSurely they didn't use this to\nhammer in nails...?	recover
 scenario	出ちゃダメ	Don't come out!	translated
@@ -586,9 +656,23 @@ scenario	問答無用っ!!\nさ！　行くわよぉッ～!!	No arguments!!\nCom
 scenario	四英雄がひとりィ～	One of the Four Heroes~	translated
 scenario	売るなり、リファインするなりして\n持ち物を減らしてから、\nまた来てください\nお待ちしてますから☆	Sell some or Refine some\nto make room, then\nplease come again.\nI'll be waiting ☆	translated
 scenario	売るなり、リファインするなりして\n持ち物を減らしてから、\nまた来てちょうだい\nおばさん、待ってるから☆	Sell some or Refine some\nto make room, then\ncome back again, all right?\nI'll be waiting ☆	translated
+scenario	変更しませんでした	Not changed.	translated
 scenario	大きなコンテナがあります\n<item:00000034>、<item:00000035>、<item:00000036>\nこの三つの鍵でプロテクトされているようです	There's a large container here,\nprotected by three keys:\n<item:00000034>, <item:00000035>, <item:00000036>.	recover
 scenario	大丈夫かい？\n<Reala>	You okay?\n<Reala>	translated
+scenario	大当たり	Jackpot	translated
 scenario	娘と････	With my daughter...	translated
+scenario	定期船アイグレッテ～チェリク(後半部分)<03:00000000>\n　乗る！\n　乗らない！	Ferry: Aigrette~Cherik (2nd half)<03:00000000>\n　Board!\n　Don't board!	translated
+scenario	定期船アイグレッテ～チェリク<03:00000000>\n　乗る！\n　乗らない！	Ferry: Aigrette~Cherik<03:00000000>\n　Board!\n　Don't board!	translated
+scenario	定期船スノーフリア～ノイシュタット(後半部分)<03:00000000>\n　乗る！\n　乗らない！	Ferry: Snowfria~Neuestadt (2nd half)<03:00000000>\n　Board!\n　Don't board!	translated
+scenario	定期船スノーフリア～ノイシュタット<03:00000000>\n　乗る！\n　乗らない！	Ferry: Snowfria~Neuestadt<03:00000000>\n　Board!\n　Don't board!	translated
+scenario	定期船チェリク～アイグレッテ(後半部分)<03:00000000>\n　乗る！\n　乗らない！	Ferry: Cherik~Aigrette (2nd half)<03:00000000>\n　Board!\n　Don't board!	translated
+scenario	定期船チェリク～アイグレッテ<03:00000000>\n　乗る！\n　乗らない！	Ferry: Cherik~Aigrette<03:00000000>\n　Board!\n　Don't board!	translated
+scenario	定期船チェリク～ノイシュタット(後半部分)<03:00000000>\n　乗る！\n　乗らない！	Ferry: Cherik~Neuestadt (2nd half)<03:00000000>\n　Board!\n　Don't board!	translated
+scenario	定期船チェリク～ノイシュタット<03:00000000>\n　乗る！\n　乗らない！	Ferry: Cherik~Neuestadt<03:00000000>\n　Board!\n　Don't board!	translated
+scenario	定期船ノイシュタット～スノーフリア(後半部分)<03:00000000>\n　乗る！\n　乗らない！	Ferry: Neuestadt~Snowfria (2nd half)<03:00000000>\n　Board!\n　Don't board!	translated
+scenario	定期船ノイシュタット～スノーフリア<03:00000000>\n　乗る！\n　乗らない！	Ferry: Neuestadt~Snowfria<03:00000000>\n　Board!\n　Don't board!	translated
+scenario	定期船ノイシュタット～チェリク(後半部分)<03:00000000>\n　乗る！\n　乗らない！	Ferry: Neuestadt~Cherik (2nd half)<03:00000000>\n　Board!\n　Don't board!	translated
+scenario	定期船ノイシュタット～チェリク<03:00000000>\n　乗る！\n　乗らない！	Ferry: Neuestadt~Cherik<03:00000000>\n　Board!\n　Don't board!	translated
 scenario	実は<item:0000004C>を集めてて････	Actually, I've been collecting\n<item:0000004C>...	recover
 scenario	実兄である英雄スタンでさえも、\n手玉に取ったという\nある意味「真の最強」と呼ぶに相応しい\nそのお方！	and who is said to have run\neven her own brother, Hero Stahn,\nround her finger. In a sense,\nworthy of the name 'true strongest'!	translated
 scenario	小屋を作るための道具\n<item:0000003C>を<0B:00000001>{14}{11}{5B}{C0}<0B:00000000>個\nお願いするわね	I need tools for building a hut.\nCould you get me <item:0000003C> x<0B:00000001>{14}{11}{5B}{C0}<0B:00000000>?\nI'd be ever so grateful.	recover
@@ -608,21 +692,31 @@ scenario	我らが誇る四英雄のォ～	Our proud Four Heroes~	translated
 scenario	戦う主婦リリスと再度激突です！	A rematch against\nthe fighting housewife Lilith!	translated
 scenario	戦闘準備	Battle Prep	translated
 scenario	戦闘準備ね	Battle Prep, then.	translated
+scenario	戻すのや～めた!!	Changed my mind about\nreverting it!!	translated
+scenario	所持ガルドを操作しますか？{02}	Manipulate held Gald?{02}	translated
 scenario	手がかりになるものは、特注であつらえた\n金色のねこにん毛皮のみ････	The only clue I have is his\ncustom-made fur... golden cat-nin\npelts...	recover
+scenario	持っています	You have it	translated
 scenario	挑戦者からのコメントを読み上げます！	I'll read the challenger's comment!	translated
+scenario	新規アイテム	New Item	translated
 scenario	暖炉に炭を入れました	Put charcoal in the fireplace.	translated
 scenario	最後まで目一杯、暴れてらっしゃい\n兄さんに負けないくらいにね☆	Go wild right to the very end,\nno less than my brother would ☆	translated
+scenario	最新屋	Latest Shop	translated
 scenario	有料です	There's a charge.	translated
+scenario	本・・・・・	Book.....	translated
+scenario	本屋	Bookshop	translated
 scenario	本来は、仕掛けを攻略しないと先へ進めません	Normally, you can't proceed\nwithout solving the mechanism.	translated
 scenario	枯れた草が道を塞いでいます	Withered grass\nblocks the path.	translated
 scenario	次に、井戸を掘るための道具\n<item:0000003B>を<0B:00000001>{14}{11}{5B}{C0}<0B:00000000>個\n買ってきてちょうだい	Please buy:\n<item:0000003B>\nQuantity:\n<0B:00000001>{14}{11}{5B}{C0}<0B:00000000>\nFor digging a well.	recover
 scenario	武芸者リムルの母にして、\n英雄スタンの妹！\n「人妻」、「妹」の二つの萌え属性を\n兼ね備えたその人の名はぁ～～	Mother of the martial artist Rhym,\nand Hero Stahn's little sister!\nBearing the charms of both 'wife'\nand 'little sister'--her name is~~	translated
 scenario	母さん、大丈夫!?	Mom, are you okay?!	translated
+scenario	毒<button:00000056>\n麻痺<button:0000005F>\n衰弱<button:0000005A>	Poison<button:00000056>\nParalysis<button:0000005F>\nWeaken<button:0000005A>	translated
 scenario	水をあげすぎです	You're overwatering it.	translated
 scenario	港から定期船に乗らないと正常に動きません	It won't work properly unless you\nboard the ferry from the port.	translated
+scenario	無一文ですね	You're penniless.	translated
 scenario	無敵のおたまをたずさえて、\n今日も来た来た、やって来た！\n料理がうまくて、戦いもこなす\nスーパーエクセレント主婦!!!!!!	Invincible ladle in hand,\nhere she comes again today!\nGreat at cooking, great at fighting,\na super excellent housewife!!!!!!	translated
 scenario	無料です	It's free.	translated
 scenario	無理して来なくても、\nオレから出向いたのに････	You didn't have to push\nyourselves to come.\nI'd have gone to you...	translated
+scenario	熊です。\nよろしく	I'm a bear.\nNice to meet you.	translated
 scenario	父さんと････？	With Dad...?	translated
 scenario	物資保管所の仕掛けはダミー状態なので\n簡単に仕掛けの説明をしておきます	The mechanism in the storage\ndepot is a dummy, so let me\ngive you a quick rundown of it.	translated
 scenario	珍しく笑顔を見せてたから\n話を聞いてみたら、ここで\n<Kyle>と剣を交えて楽しかった\nなんて言い出しちゃって	She was smiling, which is rare,\nso I asked her about it, and she\nsaid crossing swords with <Kyle>\nhere was fun.	translated
@@ -639,10 +733,12 @@ scenario	私たちは、全力で\n君たちを応援しよう	We will cheer you
 scenario	私の解析君二号改によれば\nこの空間は、\n非常に強力な負の電荷を帯びた\nエーテル体が充満してるみたい	According to my Analysis-kun\nNo. 2 Custom, this space is\npacked with a strongly negative-\ncharged aether body.	translated
 scenario	私もウッドロウさんも\n<Kyle>さんにお伝えしたいことがあって\nここなら、お会いできるとお聞きして\n参りましたの	Both Woodrow and I\nhad something to tell you, <Kyle>.\nWe heard we could meet you here,\nso we came.	translated
 scenario	移動します\n移動後、目の前に居るメイドに\n話しかけて下さい	You'll be moved.\nAfter moving, talk to the maid\nstanding in front of you.	translated
+scenario	突っ込み多い男	Man Full of Retorts	translated
 scenario	答えが出なきゃ、悩めばいいじゃない！\n悩んで、悩んで\nそれでも答えが出なかったら\nあんたの隣を見なさい	If no answer comes, then agonize\nover it! Struggle and struggle,\nand if it still won't come,\nlook to the one beside you.	translated
 scenario	細身の曲刀で、刃渡り６７.３センチ\n柄も含めた全長は８１.７センチ\n重さは２.６４キログラム	Slim curved blade, 67.3 cm long.\nWith the hilt, 81.7 cm overall.\nWeighs 2.64 kilograms.	translated
 scenario	紹介しよう\n････おい、出て来い	Let me introduce him.\n...Oi, come on out.	translated
 scenario	終わっていないんだぁーーーっ!!	I'm not finished yeeet!!	translated
+scenario	結果：{14}{30}{00}{C0}	Result: {14}{30}{00}{C0}	translated
 scenario	聞いた話では<item:0000004A>という\n乾燥に強くて収量の多い作物が\nあるそうなのです	I heard of a crop called\n<item:0000004A>.\nIt resists drought and produces\nlarge yields.	recover
 scenario	肥料はあげたばかりなので\n今はあげる必要はありません	You just fertilized it,\nso there's no need\nto add more right now.	translated
 scenario	脱出用に転送機能が起動しました\n転送機能を使って\n格納庫に戻りますか？	An escape transport has activated.\nUse it to return\nto the hangar?	translated
@@ -668,10 +764,16 @@ scenario	闘技場バトル\n惜しくもリリスに敗れました	Arena Battl
 scenario	闘技場バトル\n惜しくもルーティに敗れました	Arena Battle\nNarrowly lost to Rutee.	translated
 scenario	霧深き大地で最も高き所にある草原\n霧深き山の懐\n\n　　　そこで不吉の証を手に入れよ	　\nHighest meadow in the misty land\nWithin the mist-shrouded mountains\nThere, obtain the token of ill omen	recover
 scenario	頼れる仲間が、あなたの背を\nしっかりと守ってくださってるのですから	For friends you can rely on\nare guarding your back so surely.	translated
+scenario	飛空艇ほしい？<03:00000000>\n・ほしい！\n・いらない！\n・座標セット(-120 -1 50)！	Want the airship?<03:00000000>\n・Want it!\n・Don't need it!\n・Set coords (-120 -1 50)!	translated
+scenario	飛空艇ミニゲームで遊ぶ？<03:00000000>\n・遊ぶ！\n・遊ばない！	Play the airship minigame?<03:00000000>\n・Play!\n・Don't play!	translated
 scenario	魔法陣はエルレインさまの\nご意志によって制御されている	This magic circle is controlled\nby Lady Elrane's will.	recover
+scenario	＋＋＋＋＋わたしです	+++++It's me	translated
 scenario	１つの『ベルセリウム』から、\n何が何個できるか、俺にも想像つかねえんだよ	Even I can't guess how much of\nwhat you can make from a single\n'Belserium.'	translated
 scenario	１：『バイオチップ』『セルチップ』『ジーンチップ』を探す\n２：三つのチップを使って『マスターキー』を入手する\n各チップを持ったまま外に出ると、チップは崩壊して\nしまいます	1: Find Bio, Cell and Gene Chips.\n2: Combine them for the Master Key.\nCarrying a chip outside\ndestroys it.	translated
 scenario	３：マスターキーは外に出ても崩壊しません\n　　いったん、外に出てリミットを１０分に戻して下さい	3: The Master Key survives outside.\nStep out once and reset\nthe limit to 10 minutes.	translated
+scenario	３Ｄフィールドは\n夜になりました。	The 3D field\nis now night.	translated
+scenario	３Ｄフィールドは\n昼になりました。	The 3D field\nis now day.	translated
+scenario	３ＤＦＩＥＬＤへＧＯ？<03:00000000>\n・ＧＯ！\n・キャンセル	GO to 3DFIELD?<03:00000000>\n・GO!\n・Cancel	translated
 scenario	４：マスターキーを使って『バイオキー』と\n　　『セルキー』を入手する\n５：マスターキー、バイオキー、セルキーの三つの\n　　カギを使って、コンテナを開ける	4: Use the Master Key to get the\nBio Key and Cell Key.\n5: Use the Master, Bio and Cell Keys\nto open the container.	translated
 scenario	････<Kyle>くん\nこのことで、君の悩みが解決するとは\n私たちも思ってはいない････\nだが、前を向いて突き進んでほしい	...<Kyle>, we don't imagine\nthis will solve your troubles...\nbut we want you to face forward\nand press on.	translated
 scenario	････<Kyle>＝デュナミス\n俺と同じように、貴様らに\nただならぬ思いを抱いた者を\nこの回廊で見つけたぞ････	...<Kyle> Dunamis. I found\nanother in this corridor who,\nlike me, harbors no ordinary\nfeelings toward you all...	translated
