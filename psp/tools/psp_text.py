@@ -377,9 +377,22 @@ def norm_key(lines):
         ls.pop()
     return '\n'.join(ls)
 
+def load_supplement(path):
+    """Extra JP-key -> English lines, consulted after the PS2 corpus.
+    Rows: kind \t jp_key(\\n escaped) \t english(\\n escaped) \t source."""
+    sup = {'scenario': {}, 'skit': {}}
+    if os.path.exists(path):
+        for line in open(path, encoding='utf-8'):
+            p = line.rstrip('\n').split('\t')
+            if len(p) >= 3 and p[0] in sup:
+                sup[p[0]][p[1].replace('\\n', '\n')] = p[2].split('\\n')
+    return sup
+
+
 def match(work, ps2root=ROOT):
     corpus = load_ps2_corpus(ps2root)
     corpus = {k: {norm_key(jp.split('\n')): en for jp, en in v.items()} for k, v in corpus.items()}
+    supplement = load_supplement(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'psp_supplement.tsv'))
     pointers = json.load(open(os.path.join(work, 'pointers.json')))
     unmatched = open(os.path.join(work, 'unmatched.tsv'), 'w', encoding='utf-8')
     tot = collections.Counter()
@@ -392,6 +405,10 @@ def match(work, ps2root=ROOT):
         for lines in records:
             key = norm_key(lines)
             hit = corpus[kind].get(key)
+            if hit is None:
+                hit = supplement[kind].get(key)
+                if hit is not None:
+                    tot['supplement'] += 1
             if hit is not None:
                 out.append(['#' + l for l in lines] + hit)
                 tot['matched'] += 1
