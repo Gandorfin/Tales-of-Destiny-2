@@ -425,7 +425,7 @@ def match(work, ps2root=ROOT):
     unmatched.close()
     print('records:', dict(tot))
 
-def build(boot_path, fpb_path, work, new_fpb, new_boot):
+def build(boot_path, fpb_path, work, new_fpb, new_boot, extra=None):
     pointers = json.load(open(os.path.join(work, 'pointers.json')))
     boot = open(boot_path, 'rb').read()
     ranges = psp_fpb.member_ranges(psp_fpb.read_table(boot))
@@ -433,6 +433,8 @@ def build(boot_path, fpb_path, work, new_fpb, new_boot):
     stats = collections.Counter()
 
     def get_new(i, kind_stored):
+        if extra and i in extra:
+            return extra[i]
         name = '%05d' % i
         if name not in pointers:
             return None

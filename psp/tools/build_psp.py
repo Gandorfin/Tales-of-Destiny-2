@@ -21,7 +21,7 @@ import sys, os, re, tempfile, shutil
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
-import psp_iso, psp_text, psp_names, psp_menu
+import psp_iso, psp_text, psp_names, psp_menu, psp_lowercase, psp_fpb
 
 def add_probes(work):
     p = os.path.join(work, 'scenario_en', '06470.txt')
@@ -50,11 +50,15 @@ def main(iso, out_iso, probe=False, keep=None):
     _menu, _mst = psp_menu.patch_menu(open(boot, 'rb').read())
     open(boot, 'wb').write(_menu)
     print('menu patch:', dict(_mst))
+    _lc, _codes = psp_lowercase.patch_ascii_map(open(boot, 'rb').read())
+    open(boot, 'wb').write(_lc)
+    print('lowercase: remapped', len(_codes), 'a-z glyphs')
     psp_text.extract(boot, fpb, text)
     psp_text.match(text)
     if probe:
         add_probes(text)
-    psp_text.build(boot, fpb, text, new_fpb, new_boot)
+    _font = psp_lowercase.build_font(psp_fpb.read_member(fpb, open(boot, 'rb').read(), 0)[0])
+    psp_text.build(boot, fpb, text, new_fpb, new_boot, extra={0: _font})
     if not psp_text.verify(new_boot, new_fpb, text):
         raise SystemExit('verification failed, image not written')
     psp_iso.replace(iso, out_iso, [
