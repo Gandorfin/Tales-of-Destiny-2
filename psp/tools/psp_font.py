@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """PSP font texture (FPB member 00000) codec + lowercase groundwork.
 
-The texture is 4bpp, PSP-swizzled in 16-byte x 8-row blocks, 512x2200 px
-(256 bytes/row). Verified round-trip: reswizzle(deswizzle(m)) == m.
+The texture is 4bpp, PSP-swizzled in 16-byte x 8-row blocks, 256x4400 px
+(128 bytes/row). Verified round-trip: reswizzle(deswizzle(m)) == m.
 
 deswizzle -> 8bpp gray (nibble value * 17, low nibble first, 512x2200).
 Glyph order and codes are in member 00001 (big-endian SJIS per glyph);
@@ -12,8 +12,8 @@ t y z), so a full lowercase pass needs the other 15 drawn to match, then:
 those cells codes in member 00001, (3) remap bytes 0x61..0x7A in the u16
 ASCII map (BOOT.BIN, near vaddr 0x27DA40) to the new lowercase glyph codes.
 """
-W_BYTES = 256
-H = 2200
+W_BYTES = 128
+H = 4400
 
 
 def _swizzle(lin):
