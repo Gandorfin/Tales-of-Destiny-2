@@ -2077,3 +2077,135 @@ TP軽減力とTP回復力が上昇する	Increases TP Reduction and TP Regen	28	
 ＴＰ回復力が上昇する	Increases TP Regen	20	18	reuse
 ＴＰ軽減	TP Reduce	8	9	reuse
 ＴＰ軽減力が上昇する	Increases TP Reduction	20	22	reuse
+?高度を下げてください	Please lower your altitude.	21	27	reuse-norm
+ 売却	Sell	5	4	reuse-norm
+ 購入	Buy	5	3	reuse-norm
+クリア	Clear!!	6	7	reuse-norm
+最大ＨＰ増加	Max HP Up	12	9	reuse-norm
+最大ＨＰを全キャラ５００加算してゲーム開始できます	Add 500 max HP to everyone.	50	27	reuse-norm
+最大ＨＰ１６０スタート	Max HP 160 Start	22	16	reuse-norm
+        購入  	Buy	14	3	reuse-norm
+商人の依頼（１）	Merchant's Request 1	16	20	reuse-norm
+ハイデルベルグ城　襲撃（１）	Heidelberg Castle Raid 1	28	24	reuse-norm
+ハイデルベルグ城　襲撃（２）	Heidelberg Castle Raid 2	28	24	reuse-norm
+ハイデルベルグ城　襲撃（３）	Heidelberg Castle Raid 3	28	24	reuse-norm
+サブミッション使い（１）	Submission User 1	24	17	reuse-norm
+サブミッション使い（２）	Submission User 2	24	17	reuse-norm
+カルビオラ潜入（１）	Kalviola Infiltration 1	20	23	reuse-norm
+アイグレッテのはずなのに（１）	This Should Be Aigrette 1	30	25	reuse-norm
+アイグレッテのはずなのに（２）	This Should Be Aigrette 2	30	25	reuse-norm
+カルビオラ潜入（２）	Kalviola Infiltration 2	20	23	reuse-norm
+カルビオラ潜入（３）	Kalviola Infiltration 3	20	23	reuse-norm
+毒ガス（１）	Poison Gas 1	12	12	reuse-norm
+毒ガス（２）	Poison Gas 2	12	12	reuse-norm
+未来から来た彼女（２）	She Came From the Future 2	22	26	reuse-norm
+消えた彼女（２）	She Vanished 2	16	14	reuse-norm
+傷ついた英雄王（２）	Wounded Hero King 2	20	19	reuse-norm
+消えた彼女（１）	She Vanished 1	16	14	reuse-norm
+レンズは!?（１）	The Lens!? 1	16	12	reuse-norm
+未来から来た彼女（１）	She Came From the Future 1	22	26	reuse-norm
+傷ついた英雄王（１）	Wounded Hero King 1	20	19	reuse-norm
+レンズは!?（２）	The Lens!? 2	16	12	reuse-norm
+制御装置を探せ（１）	Find the Control Device 1	20	25	reuse-norm
+飛行竜からの脱出（３）	Escape the Flying Dragon 3	22	26	reuse-norm
+飛行竜からの脱出（４）	Escape the Flying Dragon 4	22	26	reuse-norm
+地上軍拠点跡地にて（１）	At the Er'ther Base Ruins 1	24	27	reuse-norm
+地上軍拠点跡地にて（２）	At the Er'ther Base Ruins 2	24	27	reuse-norm
+制御装置を探せ（２）	Find the Control Device 2	20	25	reuse-norm
+飛行竜からの脱出（１）	Escape the Flying Dragon 1	22	26	reuse-norm
+飛行竜からの脱出（２）	Escape the Flying Dragon 2	22	26	reuse-norm
+改変された世界（１）	Altered World 1	20	15	reuse-norm
+改変された世界（２）	Altered World 2	20	15	reuse-norm
+天高き城（１）	Castle in the Sky 1	14	19	reuse-norm
+改変された世界（３）	Altered World 3	20	15	reuse-norm
+天高き城（２）	Castle in the Sky 2	14	19	reuse-norm
+改変された世界（４）	Altered World 4	20	15	reuse-norm
+改変された世界（５）	Altered World 5	20	15	reuse-norm
+サブミッション使い（３）	Submission User 3	24	17	reuse-norm
+図書館はいずこ？（１）	Where's the Library? 1	22	22	reuse-norm
+図書館はいずこ？（２）	Where's the Library? 2	22	22	reuse-norm
+画一世界への疑問（１）	Doubting the World 1	22	20	reuse-norm
+画一世界への疑問（２）	Doubting the World 2	22	20	reuse-norm
+ダイクロフト（２）	Dycroft 2	18	9	reuse-norm
+ダイクロフト（１）	Dycroft 1	18	9	reuse-norm
+天高き城（３）	Castle in the Sky 3	14	19	reuse-norm
+未開の森（１）	Untamed Forest 1	14	16	reuse-norm
+未開の森（２）	Untamed Forest 2	14	16	reuse-norm
+ジェミニ（１）	Gemini 1	14	8	reuse-norm
+ジェミニ（２）	Gemini 2	14	8	reuse-norm
+資材入手（３）	Materials 3	14	11	reuse-norm
+資材入手（１）	Materials 1	14	11	reuse-norm
+資材入手（２）	Materials 2	14	11	reuse-norm
+資材入手（４）	Materials 4	14	11	reuse-norm
+救出作戦（１）	Rescue Op 1	14	11	reuse-norm
+救出作戦（２）	Rescue Op 2	14	11	reuse-norm
+救出作戦（３）	Rescue Op 3	14	11	reuse-norm
+飛べ飛べ！　ロケット（２）	Fly, Fly! Rocket 2	26	18	reuse-norm
+制御室へ（１）	To the Control Room 1	14	21	reuse-norm
+制御室へ（２）	To the Control Room 2	14	21	reuse-norm
+脱出ポッドへ（１）	To the Escape Pod 1	18	19	reuse-norm
+天地戦争時代到着（１）	Arrival: War Era 1	22	18	reuse-norm
+天地戦争時代到着（２）	Arrival: War Era 2	22	18	reuse-norm
+脱出ポッドへ（２）	To the Escape Pod 2	18	19	reuse-norm
+飛べ飛べ！　ロケット（１）	Fly, Fly! Rocket 1	26	18	reuse-norm
+アトワイトを救え！（２）	Save Atwight! 2	24	15	reuse-norm
+ディムロスの苦悩（１）	Dymlos's Anguish 1	22	18	reuse-norm
+護衛任務（１）	Escort Duty 1	14	13	reuse-norm
+護衛任務（２）	Escort Duty 2	14	13	reuse-norm
+ディムロスの苦悩（２）	Dymlos's Anguish 2	22	18	reuse-norm
+スパイラルケイブへ（４）	To Spiral Cave 4	24	16	reuse-norm
+スパイラルケイブへ（２）	To Spiral Cave 2	24	16	reuse-norm
+スパイラルケイブへ（５）	To Spiral Cave 5	24	16	reuse-norm
+スパイラルケイブへ（１）	To Spiral Cave 1	24	16	reuse-norm
+ディムロスの処分（１）	Disposing of Dymlos 1	22	21	reuse-norm
+ディムロスの処分（２）	Disposing of Dymlos 2	22	21	reuse-norm
+ソーディアン完成（２）	Swordian Complete 2	22	19	reuse-norm
+ソーディアン完成（１）	Swordian Complete 1	22	19	reuse-norm
+ソーディアン完成（４）	Swordian Complete 4	22	19	reuse-norm
+ソーディアン完成（５）	Swordian Complete 5	22	19	reuse-norm
+ソーディアン完成（６）	Swordian Complete 6	22	19	reuse-norm
+決戦前夜（１）	Eve of Battle 1	14	15	reuse-norm
+決戦前夜（２）	Eve of Battle 2	14	15	reuse-norm
+カーレルの運命（４）	Karell's Fate 4	20	15	reuse-norm
+ベルクラント制御（１）	Belcrant Control 1	22	18	reuse-norm
+ベルクラント制御（２）	Belcrant Control 2	22	18	reuse-norm
+カーレルの運命（５）	Karell's Fate 5	20	15	reuse-norm
+アトワイトを救え！（１）	Save Atwight! 1	24	15	reuse-norm
+カーレルの運命（１）	Karell's Fate 1	20	15	reuse-norm
+カーレルの運命（２）	Karell's Fate 2	20	15	reuse-norm
+カーレルの運命（３）	Karell's Fate 3	20	15	reuse-norm
+ベルクラント制御（３）	Belcrant Control 3	22	18	reuse-norm
+若き日の父（２）	Father in His Youth 2	16	21	reuse-norm
+若き日の父（１）	Father in His Youth 1	16	21	reuse-norm
+カルビオラ地下へ（１）	Beneath Kalviola 1	22	18	reuse-norm
+カルビオラ地下へ（３）	Beneath Kalviola 3	22	18	reuse-norm
+カルビオラ地下へ（５）	Beneath Kalviola 5	22	18	reuse-norm
+データ採集（１）	Data Collection 1	16	17	reuse-norm
+カルビオラ地下へ（４）	Beneath Kalviola 4	22	18	reuse-norm
+データ採集（２）	Data Collection 2	16	17	reuse-norm
+カルビオラ地下へ（２）	Beneath Kalviola 2	22	18	reuse-norm
+英雄を訪ね歩く（１）	Seeking the Hero 1	20	18	reuse-norm
+英雄を訪ね歩く（２）	Seeking the Hero 2	20	18	reuse-norm
+英雄を訪ね歩く（３）	Seeking the Hero 3	20	18	reuse-norm
+成長（１）	Growth 1	10	8	reuse-norm
+出会いの場所（１）	Meeting Place 1	18	15	reuse-norm
+出会いの場所（２）	Meeting Place 2	18	15	reuse-norm
+成長（２）	Growth 2	10	8	reuse-norm
+デート（１）	Date 1	12	6	reuse-norm
+デート（２）	Date 2	12	6	reuse-norm
+アイグレッテ宿屋へ（１）	To Aigrette Inn 1	24	17	reuse-norm
+アイグレッテ宿屋へ（２）	To Aigrette Inn 2	24	17	reuse-norm
+アイグレッテ港へ（１）	To Aigrette Port 1	22	18	reuse-norm
+商人の依頼（２）	Merchant's Request 2	16	20	reuse-norm
+ハイデルベルグを目指せ（１）	Head for Heidelberg 1	28	21	reuse-norm
+あたしの村への行きかた（３）	The Way to My Village 3	28	23	reuse-norm
+地上軍拠点跡地にて（３）	At the Er'ther Base Ruins 3	24	27	reuse-norm
+資材入手（５）	Materials 5	14	11	reuse-norm
+飛べ飛べ！　ロケット（３）	Fly, Fly! Rocket 3	26	18	reuse-norm
+スパイラルケイブへ（３）	To Spiral Cave 3	24	16	reuse-norm
+ソーディアン完成（３）	Swordian Complete 3	22	19	reuse-norm
+決戦前夜（３）	Eve of Battle 3	14	15	reuse-norm
+アイグレッテ港へ（２）	To Aigrette Port 2	22	18	reuse-norm
+ハイデルベルグを目指せ（２）	Head for Heidelberg 2	28	21	reuse-norm
+あたしの村への行きかた（１）	The Way to My Village 1	28	23	reuse-norm
+あたしの村への行きかた（２）	The Way to My Village 2	28	23	reuse-norm
