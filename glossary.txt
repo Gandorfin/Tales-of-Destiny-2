@@ -47,7 +47,7 @@ PLAYABLE CHARACTERS
   Weapon category: Polearm. His usual weapon is described as a poleaxe.
 
 [LOCK] ジューダス (Juudasu) -> Judas
-  Masked swordsman; true identity is Lion Magnus.
+  Masked swordsman; true identity is Leon Magnus.
   Do not write "Judah" or "Judas Magnus".
 
 [LOCK] ナナリー・フレッチ (Nanarii Furetchi) -> Nanaly Fletcher
@@ -71,6 +71,11 @@ MAJOR ANTAGONISTS AND DEITIES
   Holy Woman and head of the Order of Atamoni; worshiped as a living manifestation
   of Fortuna.
   Do not alternate with "Elraine" in translated text.
+
+[LOCK] 聖女 -> Holy Woman
+  Title shared by Elrane and Reala (the "two Holy Women").
+  Decision by Gandorff (2026-08-17): use Holy Woman, not "Saintess",
+  in translated text. Game text uses Holy Woman (23 lines).
 
 [LOCK] フォルトゥナ (Forutuna) -> Fortuna
   Final antagonist and deity worshiped in the altered/future era.
@@ -96,7 +101,7 @@ RETURNING AND SUPPORTING CHARACTERS
 [LOCK] ルーティ・カトレット (Ruuti Katoretto) -> Rutee Katrea
   Kyle's mother; runs the Dunamis Orphanage in Cresta.
 
-[LOCK] リオン・マグナス (Rion Magunasu) -> Lion Magnus
+[LOCK] リオン・マグナス (Rion Magunasu) -> Leon Magnus
   Judas's true identity.
 
 [LOCK] フィリア・フィリス (Firia Firisu) -> Philia Felice
@@ -106,14 +111,16 @@ RETURNING AND SUPPORTING CHARACTERS
   King of Phandaria in Tales of Destiny 2.
   Use Woodrow Kelvin throughout; do not substitute Garr Kelvin.
 
-[LOCK] リムル・エルロン (Rimuru Eruron) -> Rimul Aileron
+[LOCK] リムル・エルロン (Rimuru Eruron) -> Rhym Aileron
   Daughter of Lilith Aileron and Bacchus; optional arena opponent.
+  "Rhym" is the Aselia wiki spelling (decision by Gandorff, 2026-08-17);
+  do not use the older literal "Rimul". Game text uses Rhym (69 lines).
 
 [LOCK] リリス・エルロン -> Lilith Aileron
-  Stahn's younger sister; Rimul's mother.
+  Stahn's younger sister; Rhym's mother.
 
 [LOCK] バッカス -> Bacchus
-  Lilith's husband; Rimul's father.
+  Lilith's husband; Rhym's father.
 
 [ASELIA STANDARD] メルクリウス・リトラー
   (Merukuriusu Ritoraa; literal "Mercurius Littler") -> Marius Raiker
@@ -175,7 +182,7 @@ for the corresponding Swordian weapon/personality.
 [LOCK] ピエール・ド・シャルティエ -> Pierre de Chaltier
   Squadron leader in the 2nd Er'ther Army.
 [LOCK] ソーディアン・シャルティエ / シャルティエ -> Swordian Chaltier / Chaltier
-  Earth Swordian associated with Lion Magnus and Judas.
+  Earth Swordian associated with Leon Magnus and Judas.
 [LOCK] シャル -> Chal
   Familiar nickname for Chaltier when the script uses it.
 
