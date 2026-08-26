@@ -2209,3 +2209,860 @@ TP軽減力とTP回復力が上昇する	Increases TP Reduction and TP Regen	28	
 ハイデルベルグを目指せ（２）	Head for Heidelberg 2	28	21	reuse-norm
 あたしの村への行きかた（１）	The Way to My Village 1	28	23	reuse-norm
 あたしの村への行きかた（２）	The Way to My Village 2	28	23	reuse-norm
+地下水道	Underground Waterway	8	20	translated
+ハーメンツヴァレイ	Harmentz Valley	18	15	translated
+ストレイライズ遺跡	Straylize Ruins	18	15	translated
+船・廊下	Ship - Corridor	8	15	translated
+船・船室	Ship - Cabin	8	12	translated
+オベロン社洞窟	Oberon Cave	14	11	translated
+ハイデルベルグ城	Heidelberg Castle	16	17	translated
+飛行竜	Flying Dragon	6	13	translated
+改変現代（砂漠）	Altered Present (Desert)	16	24	translated
+改変現代（荒野）	Altered Present (Wasteland)	16	27	translated
+海辺の洞窟	Seaside Cave	10	12	translated
+物資貯蔵庫	Supply Depot	10	12	translated
+ダイクロフト（ＴＯＤ）	Dycroft (ToD)	22	13	translated
+未来（砂漠）	Future (Desert)	12	15	translated
+セインガルド（砂漠）	Seinegald (Desert)	20	18	translated
+フィッツガルド（霧）	Fitzgald (Fog)	20	14	translated
+カルバレイス（砂漠）	Calvalese (Desert)	20	18	translated
+ラスト（中層）	Last (Mid Layer)	14	16	translated
+ラスト（中層・ロニ）	Last (Mid Layer - Loni)	20	23	translated
+ラスト（中層・ジューダス）	Last (Mid Layer - Judas)	26	24	translated
+ラスト（中層・ナナリー）	Last (Mid Layer - Nanaly)	24	25	translated
+次元の狭間	Rift	10	4	translated
+終了	End	4	3	translated
+消費	Consume	4	7	translated
+目標の敵の足元から爆炎が起こる特技	An arte that erupts flames from beneath the target's feet	34	57	translated
+「奥義」は通常技と特技から連携可能	'Mystic Artes' chain from base and special attacks	34	50	translated
+敵を吹き飛ばす効果を持つ奥義	A Mystic Arte that blows the enemy away	28	39	translated
+真空の刃で叩き落す奥義	A Mystic Arte that slams the enemy down with a vacuum blade	22	59	translated
+同時に近距離の仲間の体力を微回復させる特技	An arte that also lightly heals nearby allies at the same time	42	62	translated
+力を解放する特技	An arte that unleashes power	16	28	translated
+奥の敵に斬りかかる性質を持つ特技	An arte that strikes at enemies in the back	32	43	translated
+打ち上げた敵を神速突きで捕らえる奥義	A Mystic Arte that catches a launched enemy with a godspeed thrust	36	66	translated
+爆発させる奥義	A Mystic Arte that makes it explode	14	35	translated
+衝撃は背後の敵にも及ぶ	The shockwave reaches enemies behind as well	22	44	translated
+魂に通ずるという「影」を貫く特技	An arte that pierces the 'shadow' said to connect to the soul	32	61	translated
+範囲内の味方の体力を回復させる晶術	An arcane spell that heals allies within range	34	46	translated
+下級晶術	Base Spell	8	10	translated
+下級昇華晶術	Base Sublime Spell	12	18	translated
+次々と貫く下級昇華晶術	A base sublime spell that pierces one after another	22	51	translated
+敵を切り刻む下級昇華晶術	A base sublime spell that shreds the enemy	24	42	translated
+大地もろとも破砕する中級晶術	A mid spell that shatters the very earth	28	40	translated
+中級晶術	Mid Spell	8	9	translated
+中級昇華晶術	Mid Sublime Spell	12	17	translated
+上級晶術	High Spell	8	10	translated
+固有の思考で敵を狙います	Targets enemies with their own judgment	24	39	translated
+可能な限り武器攻撃で近くの敵を狙います	Targets nearby enemies with weapon attacks where possible	38	57	translated
+攻撃中に攻撃・晶術を行います	Attacks and casts spells while attacking	28	40	translated
+武器攻撃を行います	Performs weapon attacks	18	23	translated
+５０％未満の時は攻撃を行います	Attacks when HP is below 50%	30	28	translated
+攻撃中の敵を狙って晶術を行います	Casts spells targeting the enemy being attacked	32	47	translated
+HPの低い敵を狙って晶術と攻撃を行います	Casts spells and attacks targeting low-HP enemies	38	49	translated
+空中にいる敵を優先して攻撃、晶術を行います	Prioritizes attacking and casting on airborne enemies	42	53	translated
+主に晶術で回避力の高い敵を狙います	Mainly targets high-evasion enemies with spells	34	47	translated
+詠唱開始する敵に攻撃を行います	Attacks enemies that begin casting	30	34	translated
+　　攻撃・晶術を行います	　　Attacks and casts spells	24	28	translated
+　　HPが２５％以下の味方に回復晶術を使います	　　Uses healing spells on allies at 25% HP or less	44	51	translated
+　　HPが５０％以下の味方に回復晶術を使います	　　Uses healing spells on allies at 50% HP or less	44	51	translated
+　　HPが７５％以下の味方に回復晶術を使います	　　Uses healing spells on allies at 75% HP or less	44	51	translated
+　HPが１００％未満の味方に回復晶術を使います	　Uses healing spells on allies below 100% HP	44	45	translated
+一興程度にとどめておきなさい。	Keep it to a bit of fun.	30	24	translated
+一人のときでもまあオッケー。	Even solo it's, well, okay.	28	27	translated
+みんな頼むぞ	I'm counting on you all.	12	24	translated
+仲間を信頼しての一言。友情っていいねえ。	A word of trust in your comrades. Friendship is nice.	40	53	translated
+だけど、捨て身じゃ困ります。	But reckless abandon won't do.	28	30	translated
+態勢を立て直してから倍返し。	Regroup, then pay it back double.	28	33	translated
+戦いのあとにはデザートでも用意しよう。	Let's have dessert ready after the battle.	38	42	translated
+信じて従うのもまた仲間であります。	Trusting and obeying is being a comrade too.	34	44	translated
+気分はナイスミドルか。	Feeling like a fine gentleman?	22	30	translated
+な発言をするのもいいけどほどほどに。	Bold words are fine, but in moderation.	36	39	translated
+アイテム強奪	Item Plunder	12	12	translated
+瞬間完全回避	Instant Perfect Evade	12	21	translated
+全ての攻撃を回避する	Evades all attacks	20	18	translated
+反撃発動	Counter Trigger	8	15	translated
+ガード発動	Guard Trigger	10	13	translated
+空中発動	Aerial Trigger	8	14	translated
+ガードブレイク	Guard Break	14	11	translated
+ふっ飛ばし	Knockdown	10	9	translated
+通常技連携	Base Attack Combo	10	17	translated
+背面取り	Back Take	8	9	translated
+敵の背後を取る。	Takes the enemy's back.	16	23	translated
+HP吸収	HP Drain	6	8	translated
+HPを吸収できる。	Can drain HP.	16	13	translated
+引き寄せ	Pull In	8	7	translated
+一定完全回避	Fixed Perfect Evade	12	19	translated
+硬直解除	Stagger Cancel	8	14	translated
+即座に行動できる。	Can act immediately.	18	20	translated
+気絶攻撃	Stun Attack	8	11	translated
+幸運が上昇する	Luck rises	14	10	translated
+攻撃時にＨＰ吸収	HP drain on attack	16	18	translated
+攻撃時にＴＰ吸収	TP drain on attack	16	18	translated
+敵撃破時にＨＰを回復する	Restores HP when defeating an enemy	24	35	translated
+撃破時のＴＰ回復量が増加	TP recovery on defeat increases	24	31	translated
+幸運・回避が上昇	Luck and evasion rise	16	21	translated
+名称未設定	Unnamed	10	7	translated
+色の切替	Change Color	8	12	translated
+やめない	Don't Quit	8	10	translated
+熟練度 	Mastery 	7	8	translated
+ダメージ軽減	Damage Reduction	12	16	translated
+移動速度	Movement Speed	8	14	translated
+収集品	Collectibles	6	12	translated
+斧槍	Halberd	4	7	translated
+帽子	Hat	4	3	translated
+頭飾り	Headgear	6	8	translated
+手袋	Gloves	4	6	translated
+腕飾り	Armlet	6	6	translated
+指輪	Ring	4	4	translated
+紋章	Emblem	4	6	translated
+人形	Doll	4	4	translated
+宝石	Gem	4	3	translated
+習得まであと	Until learned: 	12	15	translated
+レベルアップボーナス	Level-Up Bonus	20	14	translated
+戻る	Back	4	4	translated
+ライブラリ	Library	10	7	translated
+キャラ切替	Switch Character	10	16	translated
+説明切替	Toggle Description	8	18	translated
+変更	Change	4	6	translated
+取消	Cancel	4	6	translated
+捨てる	Discard	6	7	translated
+やめる	Stop	6	4	translated
+個数増減	Adjust Quantity	8	15	translated
+術技切替	Switch Artes	8	12	translated
+チャット一章	Chat Ch. 1	12	10	translated
+チャット二章	Chat Ch. 2	12	10	translated
+チャット三章	Chat Ch. 3	12	10	translated
+チャット四章	Chat Ch. 4	12	10	translated
+チャット五章	Chat Ch. 5	12	10	translated
+チャット六章	Chat Ch. 6	12	10	translated
+チャット七章	Chat Ch. 7	12	10	translated
+チャット八章	Chat Ch. 8	12	10	translated
+チャット九章	Chat Ch. 9	12	10	translated
+チャット十章	Chat Ch. 10	12	11	translated
+チャット十一章	Chat Ch. 11	14	11	translated
+チャット十二章	Chat Ch. 12	14	11	translated
+チャット十三章	Chat Ch. 13	14	11	translated
+チャット十四章	Chat Ch. 14	14	11	translated
+チャットその他	Chat: Other	14	11	translated
+サブノック	Sabnock	10	7	translated
+ダンタリオン	Dantarian	12	9	translated
+ガープ	Gaap	6	4	translated
+バルバトス	Barbatos	10	8	translated
+エルレイン	Elrane	10	6	translated
+フォルトゥナ	Fortuna	12	7	translated
+リムル	Rhym	6	4	translated
+マグナディウエス	Magnadeus	16	9	translated
+ルーティ	Rutee	8	5	translated
+フィリア	Philia	8	6	translated
+ウッドロウ	Woodrow	10	7	translated
+リオン	Leon	6	4	translated
+タイトル	Title	8	5	translated
+ダンジョン	Dungeon	10	7	translated
+ミニゲーム	Minigame	10	8	translated
+ジングル	Jingle	8	6	translated
+デバッグ	Debug	8	5	translated
+続行	Continue	4	8	translated
+保存しない	Don't Save	10	10	translated
+いずれかを削除する必要があります	You need to delete one of them	32	30	translated
+所持している必要があります	You need to have it	26	19	translated
+視点位置調整	Adjust Viewpoint	12	16	translated
+ヘルプ表示	Show Help	10	9	translated
+基本	Basic	4	5	translated
+ロング	Long	6	4	translated
+見下ろし	Overhead	8	8	translated
+ウィンドウ消去	Clear Window	14	12	translated
+ひらがな	Hiragana	8	8	translated
+カタカナ	Katakana	8	8	translated
+決定	Confirm	4	7	translated
+入力に戻る	Back to Input	10	13	translated
+飛翼	Winged	4	6	translated
+甲殻類	Crustacean	6	10	translated
+植物	Plant	4	5	translated
+悪魔	Demon	4	5	translated
+不死者	Undead	6	6	translated
+機械	Machine	4	7	translated
+竜族	Dragon	4	6	translated
+精神体	Spirit Body	6	11	translated
+合成生物	Chimera	8	7	translated
+無機物	Inorganic	6	9	translated
+不定形・その他	Amorphous / Other	14	17	translated
+使用切替	Toggle Use	8	10	translated
+あまり出現しない	Rarely appears	16	14	translated
+よく出現する	Appears often	12	13	translated
+様々な条件でゲームを開始することができます	You can start the game under various conditions	42	47	translated
+この次のゲーム開始時に使ってみるのもお勧めです	It's also recommended to use it at the start of the next game	46	61	translated
+引き継いでゲーム開始できます	Carry it over and start the game	28	32	translated
+ゲーム開始できます	Start the game	18	14	translated
+マジカルポットを引き継いでゲーム開始できます	Carry over the Magical Pot and start the game	44	45	translated
+追加専用エンチャントを習得できます	You can learn add-on-only enchants	34	34	translated
+最初から冷や汗かきたい人にお勧め	Recommended for those who want to sweat from the start	32	54	translated
+ゲームクリアの保証はできません	Clearing the game cannot be guaranteed	30	38	translated
+取得ＧＲＡＤＥを上げる	Raises the GRADE you earn	22	25	translated
+マイナス倍にはならないのでご安心を	Rest assured it won't go negative	34	33	translated
+経験値１０倍	10x EXP	12	7	translated
+敵が持つ取得経験値が１０倍になります	Enemies' EXP yield becomes 10x	36	30	translated
+低レベルでクリアしたい人にお勧め	Recommended for low-level clears	32	32	translated
+連続ヒットボーナス経験値が４倍になります	Continuous-hit bonus EXP becomes 4x	40	35	translated
+獲得ガルド２倍	2x Gald Earned	14	14	translated
+戦闘で取得するガルドが２倍になります	Gald earned in battle becomes 2x	36	32	translated
+ガルド引継ぎ	Carry Over Gald	12	15	translated
+前回までのガルドをそのまま引き継ぎます	Carries over your Gald from last time as is	38	43	translated
+料理熟練度引継ぎ	Carry Over Cooking Mastery	16	26	translated
+モンスター図鑑引継ぎ	Carry Over Monster Book	20	23	translated
+コレクター図鑑引継ぎ	Carry Over Collector's Book	20	27	translated
+２０個まで持つことができます	Can hold up to 20	28	17	translated
+３０個まで持つことができます	Can hold up to 30	28	17	translated
+さらに追加発動が可能になります	Further add-on activation becomes possible	30	42	translated
+オリジナル版カットイン	Original Cutscene	22	17	translated
+"プレイステーション ２"版のもので表示されます	Shown as the PlayStation 2 version's	45	36	translated
+やり直し	Redo	8	4	translated
+オープニング	Opening	12	7	translated
+プロローグ	Prologue	10	8	translated
+謎の少女登場	The Mysterious Girl Appears	12	27	translated
+飛行竜襲撃	Flying Dragon Attack	10	20	translated
+私の英雄	My Hero	8	7	translated
+歪められた歴史	Distorted History	14	17	translated
+ラディスロウ突撃	Radisrol Assault	16	16	translated
+ダイクロフト崩壊	Dycroft Collapse	16	16	translated
+初めて出会った場所で	At the Place We First Met	20	25	translated
+別れ	Parting	4	7	translated
+エンディング	Ending	12	6	translated
+歪められた歴史（２）	Distorted History (2)	20	21	translated
+広報ムービ１	Promo Movie 1	12	13	translated
+広報ムービ２	Promo Movie 2	12	13	translated
+広報ムービ３	Promo Movie 3	12	13	translated
+ムービー・シアター	Movie Theater	18	13	translated
+?テイルズ オブ デスティニー２	Tales of Destiny 2	29	18	translated
+カイル（１）	Kyle (1)	12	8	translated
+リアラ（１）	Reala (1)	12	9	translated
+ロニ（１）	Loni (1)	10	8	translated
+ジューダス（１）	Judas (1)	16	9	translated
+ナナリー（１）	Nanaly (1)	14	10	translated
+ハロルド（１）	Harold (1)	14	10	translated
+英雄ルーティ	Hero Rutee	12	10	translated
+英雄ウッドロウ	Hero Woodrow	14	12	translated
+英雄フィリア	Hero Philia	12	11	translated
+ディムロス	Dymlos	10	6	translated
+アトワイト	Atwight	10	7	translated
+カイル（２）	Kyle (2)	12	8	translated
+リアラ（２）	Reala (2)	12	9	translated
+ロニ（２）	Loni (2)	10	8	translated
+ジューダス（２）	Judas (2)	16	9	translated
+ナナリー（２）	Nanaly (2)	14	10	translated
+ハロルド（２）	Harold (2)	14	10	translated
+カイル（３）	Kyle (3)	12	8	translated
+リアラ（３）	Reala (3)	12	9	translated
+ロニ（３）	Loni (3)	10	8	translated
+ジューダス（３）	Judas (3)	16	9	translated
+ナナリー（３）	Nanaly (3)	14	10	translated
+ハロルド（３）	Harold (3)	14	10	translated
+カイル（４）	Kyle (4)	12	8	translated
+リアラ（４）	Reala (4)	12	9	translated
+ＳＤカイル	SD Kyle	10	7	translated
+ＳＤリアラ	SD Reala	10	8	translated
+ＳＤロニ	SD Loni	8	7	translated
+ＳＤジューダス	SD Judas	14	8	translated
+ＳＤナナリー	SD Nanaly	12	9	translated
+ＳＤハロルド	SD Harold	12	9	translated
+ＳＤキャラ勢ぞろい！	SD Cast All Together!	20	21	translated
+オリジナルパッケージ	Original Package	20	16	translated
+オリジナルＰＲイラスト	Original PR Art	22	15	translated
+コンテンツ背景	Content Background	14	18	translated
+セーブ背景（０１）	Save Background (01)	18	20	translated
+セーブ背景（０２）	Save Background (02)	18	20	translated
+セーブ背景（０３）	Save Background (03)	18	20	translated
+セーブ背景（０４）	Save Background (04)	18	20	translated
+セーブ背景（０５）	Save Background (05)	18	20	translated
+セーブ背景（０６）	Save Background (06)	18	20	translated
+セーブ背景（０７）	Save Background (07)	18	20	translated
+セーブ背景（０８）	Save Background (08)	18	20	translated
+セーブ背景（０９）	Save Background (09)	18	20	translated
+セーブ背景（１０）	Save Background (10)	18	20	translated
+クリア背景（１）	Clear Background (1)	16	20	translated
+クリア背景（２）	Clear Background (2)	16	20	translated
+クリア背景（３）	Clear Background (3)	16	20	translated
+テイルズ オブ デスティニー	Tales of Destiny	26	16	translated
+スタン＝エルロン	Stahn Aileron	16	13	translated
+ルーティ＝カトレット	Rutee Katrea	20	12	translated
+フィリア＝フィリス	Philia Felice	18	13	translated
+ウッドロウ＝ケルヴィン	Woodrow Kelvin	22	14	translated
+リオン＝マグナス	Leon Magnus	16	11	translated
+マリー＝エージェント	Mary Agent	20	10	translated
+チェルシー＝トーン	Chelsea Torn	18	12	translated
+ジョニー＝シデン	Johnny Shiden	16	13	translated
+マイティ＝コングマン	Mighty Kongman	20	14	translated
+イラスト・ギャラリー	Illustration Gallery	20	20	translated
+最大ＨＰの３０％回復	Restores 30% of max HP	20	22	translated
+最大ＴＰの３０％回復	Restores 30% of max TP	20	22	translated
+ＨＰとＴＰが最大値の３０％回復	Restores 30% of max HP and TP	30	29	translated
+最大ＨＰの６０％回復	Restores 60% of max HP	20	22	translated
+最大ＴＰの６０％回復	Restores 60% of max TP	20	22	translated
+ＨＰとＴＰが最大値の６０％回復	Restores 60% of max HP and TP	30	29	translated
+戦闘不能を回復	Revives from KO	14	15	translated
+ステータス異常を回復	Cures status ailments	20	21	translated
+ＨＰとＴＰが全快、戦闘不能も回復する	Fully restores HP and TP and revives from KO	36	44	translated
+ＳＰ回復力が低下する薬	A drug that lowers SP recovery	22	30	translated
+効果中は攻撃力と知性が低下	Lowers attack and intelligence while in effect	26	46	translated
+敵のＨＰ、弱点属性等を知ることができる	Lets you know the enemy's HP, weaknesses, etc.	38	46	translated
+戦闘中一定時間、敵の動きを停止させる	Stops the enemy's movement for a time in battle	36	47	translated
+半分になる。使いどころが肝要	Halved. Timing of use is key	28	28	translated
+お店で品物が三割引になる	30% off goods at shops	24	22	translated
+お店で品物が半額になる	Half price on goods at shops	22	28	translated
+アイテムを変化させる効果がある	Has the effect of transforming items	30	36	translated
+ＴＰ回復力が２上昇	TP recovery +2	18	14	translated
+最大ＨＰが３％上昇	Max HP +3%	18	10	translated
+攻撃力が１上昇	Attack +1	14	9	translated
+防御力が１上昇	Defense +1	14	10	translated
+ＴＰ軽減力が２上昇	TP reduction +2	18	15	translated
+命中率が１上昇	Accuracy +1	14	11	translated
+回避率が１上昇	Evasion +1	14	10	translated
+ＴＰ回復力が３上昇	TP recovery +3	18	14	translated
+最大ＨＰが６％上昇	Max HP +6%	18	10	translated
+攻撃力が２上昇	Attack +2	14	9	translated
+防御力が２上昇	Defense +2	14	10	translated
+ＴＰ軽減力が３上昇	TP reduction +3	18	15	translated
+命中率が２上昇	Accuracy +2	14	11	translated
+回避率が２上昇	Evasion +2	14	10	translated
+エンカウント率を下げる	Lowers the encounter rate	22	25	translated
+エンカウント率を上げる	Raises the encounter rate	22	25	translated
+全てのステータス異常とＨＰ、ＴＰ完全回復	Fully restores HP/TP and cures all ailments	40	43	translated
+わからない博打アイテム	A gambling item of unknown effect	22	33	translated
+お店で品物が？割引になる	? % off goods at shops	24	22	translated
+完成を目指そう！	Aim for completion!	16	19	translated
+取り忘れはないかな？	Did you forget to grab anything?	20	32	translated
+世界各地の情報を知ることができる	Lets you learn information from around the world	32	48	translated
+すべて答えられるかな？	Can you answer them all?	22	24	translated
+イラスト本	Illustration Book	10	17	translated
+すべてのイラストを見られるかな？	Can you see all the illustrations?	32	34	translated
+使うたびにレンズを一枚消費する	Consumes one Lens each use	30	26	translated
+全部そろえると賞品がもらえる	Collect them all for a prize	28	28	translated
+切れそうで、ちょっと怖い	Looks about to snap, a bit scary	24	32	translated
+福を招くと言われる	Said to invite good fortune	18	27	translated
+使うたびにレンズを三枚消費する	Consumes three Lens each use	30	28	translated
+急激な温度変化で崩壊する	Collapses under rapid temperature change	24	40	translated
+様々なロックを解除できる	Can unlock various locks	24	24	translated
+三種のチップを集めなければならない	You must gather three kinds of chips	34	36	translated
+クギを打つのに欠かせません	Essential for driving nails	26	27	translated
+材木を切るのに欠かせません	Essential for cutting timber	26	28	translated
+材木を削るのに欠かせません	Essential for shaving timber	26	28	translated
+ある場所で使うと････？	Used in a certain place...?	22	27	translated
+武具の材料となるが、扱いが難しい	A material for weapons, but hard to handle	32	42	translated
+広く栽培されている	Widely cultivated	18	17	translated
+更に品種改良するとラナケアルの種になる	Further breeding makes it a Lanakeal seed	38	41	translated
+更に品種改良するとドルゲニアの種になる	Further breeding makes it a Dolgenia seed	38	41	translated
+更に品種改良するとペンペンの種になる	Further breeding makes it a Penpen seed	36	39	translated
+更に品種改良するとオリオラの種になる	Further breeding makes it an Oriola seed	36	40	translated
+更に品種改良するとチャラックの種になる	Further breeding makes it a Charak seed	38	39	translated
+更に品種改良すると････	Further breeding makes it...	22	28	translated
+黄金の種	Golden Seed	8	11	translated
+どこかでスロットアイテムと交換	Trade for a slot item somewhere	30	31	translated
+まずいというワケではない	It's not that it tastes bad	24	27	translated
+最高級のしもふり肉	The finest marbled meat	18	23	translated
+干してスルメにしたりする	Dried into cuttlefish jerky and such	24	36	translated
+まれに井戸の底で人を襲う	Rarely attacks people at the bottom of a well	24	45	translated
+干してメザシにしたりする	Dried into little sardines and such	24	35	translated
+クマの大好物らしい	Apparently a bear's favorite	18	28	translated
+デンプン質が豊富	Rich in starch	16	14	translated
+異国の言葉で言うとキャロット	'Carrot' in a foreign tongue	28	28	translated
+切ると思わず涙が････	Cutting it brings tears...	20	26	translated
+千切りにして生でどうぞ	Julienne it and eat it raw	22	26	translated
+煮込んで食べると美味	Delicious stewed	20	16	translated
+リコピンが豊富	Rich in lycopene	14	16	translated
+シャキシャキした食感が心地良い	Its crisp texture feels great	30	29	translated
+鳥の名前が元と言われている	Said to be named after a bird	26	29	translated
+煮込んでジャムにしても美味	Delicious stewed into jam too	26	29	translated
+ビタミンＣがいっぱい	Full of vitamin C	20	17	translated
+黄色い皮をむいて食べる	Peel the yellow skin and eat	22	28	translated
+アップルパイにしたり？	Into an apple pie, perhaps?	22	27	translated
+白くて栄養価の高い飲み物	A white, nutritious drink	24	25	translated
+農家の八十八の苦労がしのばれます	You can sense a farmer's endless toil	32	37	translated
+ニワトリの子孫	Descendant of the chicken	14	25	translated
+様々な形がある	Comes in various shapes	14	23	translated
+なぜかいつでも焼きたて	Somehow always freshly baked	22	28	translated
+スープにして食すのが一般的	Commonly eaten as soup	26	22	translated
+ブレッドに塗りたくって食べます	Slather it on bread and eat	30	27	translated
+使用時のみ総合熟練度＋１	Total mastery +1 only when used	24	31	translated
+使用時のみ総合熟練度＋３	Total mastery +3 only when used	24	31	translated
+使用時のみ総合熟練度＋４	Total mastery +4 only when used	24	31	translated
+使用時のみ総合熟練度＋７	Total mastery +7 only when used	24	31	translated
+使用時のみ総合熟練度＋５	Total mastery +5 only when used	24	31	translated
+自在に使えれば一人前です	Master its free use and you're a pro	24	36	translated
+改良が重ねられ洗練されている	Refined through repeated improvement	28	36	translated
+バランスが良い	Well balanced	14	13	translated
+攻撃力が高い	High attack power	12	17	translated
+騎兵隊の基本武器として知られる	Known as the cavalry's basic weapon	30	35	translated
+船乗り達に好まれる	Favored by sailors	18	18	translated
+異国情緒を味わえる	You can savor an exotic flavor	18	30	translated
+見た目は小さいが威力は高い	Small in look but high in power	26	31	translated
+どことなくエスニックな雰囲気	Somehow an ethnic vibe	28	22	translated
+美術的な価値も高い	High artistic value too	18	23	translated
+きわめて高い殺傷力を持つ	Has extremely high lethality	24	28	translated
+考案した者の名が与えられた	Named after the one who devised it	26	34	translated
+ライオンの尾という意味を持つ	Means 'lion's tail'	28	19	translated
+高地民族の間で使われている	Used among highland peoples	26	27	translated
+口伝を書物にまとめた兄弟の名を冠する	Bears the name of the brothers who wrote down the oral lore	36	59	translated
+高名な剣匠が鍛えた剣	A sword forged by a renowned swordsmith	20	39	translated
+許されたという名誉の剣	An honored sword meaning 'forgiven'	22	35	translated
+火炎の魔剣	Demonic sword of flame	10	22	translated
+氷雪の魔剣	Demonic sword of ice and snow	10	29	translated
+希望を意味する剣	A sword meaning hope	16	20	translated
+大地の力が付与されている	Imbued with the power of earth	24	30	translated
+ベムブルのオーガーを退治した	Slew the ogre of Bemburg	28	24	translated
+いかなる鎧も貫くと言われる	Said to pierce any armor	26	24	translated
+刀身は水晶から切出された	Its blade was cut from crystal	24	30	translated
+門を守る神が宿っているらしい	A god that guards gates seems to dwell in it	28	44	translated
+音も無く敵を倒す	Fells enemies without a sound	16	29	translated
+鋼よりも硬い竜の鱗を易々と切裂く	Easily cuts dragon scales harder than steel	32	43	translated
+剣が操者を選ぶと言われる	Said the sword chooses its wielder	24	34	translated
+日出国で鍛えられた銘刀	A famed blade forged in the Land of the Rising Sun	22	50	translated
+天使の紋章が刻まれている	An angel's emblem is engraved on it	24	35	translated
+愛用した忠義の聖剣	A holy sword of loyalty, dearly used	18	36	translated
+と言われる名剣	A famed sword, so they say	14	26	translated
+得られるモノとは？	What will you gain?	18	19	translated
+与えられる王者の剣	A king's sword bestowed upon you	18	32	translated
+三種の神器のひとつ	One of the three sacred treasures	18	33	translated
+選ばれた英雄の剣	The chosen hero's sword	16	23	translated
+神々の戦いで失われたと伝わるが････	Said lost in the war of the gods, but...	34	40	translated
+乙女の紋章が刻まれている	A maiden's emblem is engraved on it	24	35	translated
+シャルティエミラージュ	Chaltier Mirage	22	15	translated
+その力は本体にも劣らないようだ	Its power seems no less than the original	30	41	translated
+万能包丁	All-Purpose Knife	8	17	translated
+でも刃先は他人に向けないでネ☆	But don't point the blade at others, 'kay ☆	30	44	translated
+でもチョットだけ魔法使い気分です	But you feel a little like a mage	32	33	translated
+殴られるとけっこう痛い	Getting hit with it hurts quite a bit	22	37	translated
+長旅のお供にいかが？	How about it as a travel companion?	20	35	translated
+集中力が高まるような気が････	You feel your focus sharpening...	28	33	translated
+振ると士気が高揚する	Waving it raises morale	20	23	translated
+殴られるとかなり痛い	Getting hit with it hurts a lot	20	31	translated
+四英雄の一人も使ってた？	Did one of the Four Heroes use it too?	24	38	translated
+神聖な力が秘められている	A holy power is sealed within	24	29	translated
+不思議な力が秘められている	A mysterious power is sealed within	26	35	translated
+良い香りが心を安らかにします	Its pleasant scent calms the heart	28	34	translated
+シチューなどをかきまぜます	For stirring stew and such	26	26	translated
+なんとかなるでしょ♪	It'll work out somehow ♪	20	25	translated
+殴るとピヨリます♪	A hit leaves them dizzy ♪	18	26	translated
+殴られるとメチャクチャ痛い	Getting hit with it hurts like crazy	26	36	translated
+金のフライパン	Golden Frying Pan	14	17	translated
+ハンバーグとかを焼きます	For grilling hamburg steak and such	24	35	translated
+なんだか悲しくなってきます	It somehow makes you feel sad	26	29	translated
+敵に引導を渡します	Sends the enemy to their rest	18	29	translated
+殴られるとすごく痛い	Getting hit with it hurts terribly	20	34	translated
+持つが、命中率がすこぶる悪い	has it, but its accuracy is dreadful	28	36	translated
+ＨＰ回復効果があります	Has an HP recovery effect	22	25	translated
+ダークエルフ族の遺産	A relic of the Dark Elves	20	25	translated
+国を守りし神風伝説は有名	Its divine-wind legend that guarded the nation is famous	24	56	translated
+毒効果が有ります	Has a poison effect	16	19	translated
+の杖	's Staff	4	8	translated
+犠牲の代償に得られる力とは？	What power is gained at the cost of sacrifice?	28	46	translated
+ドルアーガ伝説の遺品	A relic of the Druaga legend	20	28	translated
+使用者の意志で自在に操ることが可能	Freely wielded by the user's will	34	33	translated
+名は体を表わす	The name says it all	14	20	translated
+普及品だが品質は良い	A common item but good quality	20	30	translated
+そのまんまですね	Just as it says	16	15	translated
+近衛騎士の主武装	The royal guards' main weapon	16	29	translated
+海神が持つことで有名	Famous as the sea god's possession	20	34	translated
+殴られると激しく痛い	Getting hit with it hurts fiercely	20	34	translated
+厚い装甲でも斬り裂きそうです	Looks able to cleave even thick armor	28	37	translated
+肉切りの大包丁が由来	Derived from a butcher's cleaver	20	32	translated
+すでに人のあつかえる重さでは････	Already a weight no human can handle...	32	39	translated
+かつての英雄も使ったとか	A hero of old used it too, they say	24	35	translated
+敵を爆砕する	Blasts enemies apart	12	20	translated
+殴られたら････死ねるわ！	Get hit by it and... you could die!	24	35	translated
+その大きさは見る者を圧倒する	Its size overwhelms all who see it	28	34	translated
+灰色熊の名を冠する戦斧	A battle-axe bearing the name of the gray bear	22	46	translated
+神速の突きを誇る	Boasts a godspeed thrust	16	24	translated
+ある婦人の名を冠している	Bears a certain lady's name	24	27	translated
+科学力は世界一！	Number one in the world for science!	16	36	translated
+熱く燃ゆる矛先を持つ	Has a fiercely burning tip	20	26	translated
+古代竜の涙といわれる	Said to be an ancient dragon's tears	20	36	translated
+神の敵対者のみ保持を許される	Only foes of god are permitted to hold it	28	41	translated
+不思議な力を帯びる魔槍	A magic spear cloaked in strange power	22	38	translated
+かなり怪しいヤツです	A rather suspicious thing	20	25	translated
+とても有名だが････	Very famous, but...	18	19	translated
+必ず命中すると言われる	Said to always hit its mark	22	27	translated
+ヒビ割れた斧	A cracked axe	12	13	translated
+伝説のおたま	The legendary ladle	12	19	translated
+これ無くして語れない	Can't talk about it without this	20	32	translated
+安価の割にそこそこ強い	Fairly strong for the price	22	27	translated
+飛距離が伸びている	Its range is extended	18	21	translated
+鎧の分厚い装甲をも貫く	Pierces even thick armor plating	22	32	translated
+遊撃隊の一般的な装備品	The raider squad's standard gear	22	32	translated
+精密な射的が可能	Allows precise shooting	16	23	translated
+主として王城の守備兵が使っている	Mainly used by the royal castle guards	32	38	translated
+使用者をグレネーダーと呼称する	Its users are called Grenadiers	30	31	translated
+城門の厚い扉をも貫通する	Pierces even the castle gate's thick doors	24	42	translated
+早撃ちにはコレ！	This one's for quick-draws!	16	27	translated
+矢の消費が････	The arrow consumption is...	14	27	translated
+実戦で洗練された美しい弓	A beautiful bow refined in real combat	24	38	translated
+戦船も沈めそうな破壊力	Destructive power that could sink a warship	22	43	translated
+鋼の鎧が簡単にとけます	Steel armor melts easily	22	24	translated
+名手Ｇ・ウルフが愛用したといわれる	Said to be the favorite of the master G. Wolf	34	45	translated
+即死した戦士が大勢いるらしい	Many warriors have died instantly, apparently	28	45	translated
+雨上がりにしか使えないわけではない	Not only usable after rain	34	26	translated
+超音速の矢を放つ	Fires supersonic arrows	16	23	translated
+きわめて高い攻撃力を誇る	Boasts extremely high attack power	24	34	translated
+神速の矢を放つ	Fires godspeed arrows	14	21	translated
+誘導する不思議な矢を放つ	Fires strange homing arrows	24	27	translated
+ようにすさまじい	as fierce as	16	12	translated
+破魔の弓	A demon-slaying bow	8	19	translated
+使ったとされる退魔の弓	A demon-warding bow said to have been used	22	42	translated
+焼尽の荒野と化す	Turns the land into a scorched wasteland	16	40	translated
+敵からＴＰを奪う	Drains TP from the enemy	16	24	translated
+つーか、のようなものにしちゃう弓	Or rather, a bow that turns them into something like that	32	57	translated
+速射性に優れる	Excellent rapid-fire	14	20	translated
+初級冒険者のたしなみ？	A beginner adventurer's pursuit?	22	32	translated
+コストパフォーマンスが良い	Good cost performance	26	21	translated
+戦闘するならこれくらいは欲しい	You'd want at least this much for battle	30	40	translated
+割と本格的な鎧です	Fairly proper armor	18	19	translated
+多くの戦士に愛用される	Favored by many warriors	22	24	translated
+かなりの防御力があります	Has considerable defense	24	24	translated
+軽鎧の中では最高級品です	The finest among light armor	24	28	translated
+プレートの中では安価な方です	On the cheaper side among plate	28	31	translated
+プレートの中では軽い方です	On the lighter side among plate	26	31	translated
+一般的に鎧と言えばコレ！	Say 'armor' and this is it!	24	27	translated
+英雄王に似合いそうですね	Would suit a Hero King	24	22	translated
+重厚な守りって感じです	Gives a feeling of heavy, solid defense	22	39	translated
+硬いです、頑丈です、重いけど････	Hard, sturdy, and heavy, but...	32	31	translated
+まさに鉄壁の守りって感じです	A truly ironclad defense	28	24	translated
+ドワーフ族の手による作品とも言われる	Said to be the work of the Dwarves	36	34	translated
+必ず生還する鎧と賞賛される	Praised as armor that always brings you back alive	26	50	translated
+実は誰かさんの試作品？	Actually someone's prototype?	22	29	translated
+雷神の持ち物とされる	Said to be the thunder god's belonging	20	38	translated
+聖なるオーラに包まれる	Wrapped in a holy aura	22	22	translated
+無意識に攻撃を回避する	Evades attacks unconsciously	22	28	translated
+勇者ギルガメスの所持品	The hero Gilgamesh's belonging	22	30	translated
+信仰の力で守護される	Guarded by the power of faith	20	29	translated
+残念ながら戦闘向きではありません	Sadly, not suited for battle	32	28	translated
+気持ちが大事なんですよ	It's the feeling that counts	22	28	translated
+見た目より動きやすく作られています	Made easier to move in than it looks	34	36	translated
+高い耐久性を持つ	Has high durability	16	19	translated
+戦闘にも耐える作りになっています	Built to withstand battle too	32	29	translated
+見た目重視ですね！	Looks-focused!	18	14	translated
+動きやすさ重視です！	Mobility-focused!	20	17	translated
+戦う女性を強力にサポートします！	Strongly supports fighting women!	32	33	translated
+信じられないけど戦闘用です	Hard to believe, but it's for battle	26	36	translated
+ほんわかして暖かいです	Soft and warm	22	13	translated
+南洋諸島の民族衣装	A folk costume of the southern isles	18	36	translated
+女性の美しさを引き立てます	Brings out a woman's beauty	26	27	translated
+異国情緒にひたれます	Lets you steep in an exotic mood	20	32	translated
+魔法使い気分にひたれます	Lets you feel like a mage	24	25	translated
+花嫁気分にひたれます	Lets you feel like a bride	20	26	translated
+四千年の歴史にひたれます	Lets you steep in four thousand years of history	24	48	translated
+要するにセーラー服です	In short, a sailor uniform	22	26	translated
+炎耐性があります	Has fire resistance	16	19	translated
+風耐性があります	Has wind resistance	16	19	translated
+水耐性があります	Has water resistance	16	20	translated
+地耐性がある	Has earth resistance	12	20	translated
+縫い目が無いってホントなの？	Is it really seamless?	28	22	translated
+冒険と伝説もよろしくね	Adventure and legend too, please	22	32	translated
+リリス印のエプロンドレス	A Lilith-brand apron dress	24	26	translated
+とっても安上りです	Very cheap	18	10	translated
+少し頭が固くなります	Makes your head a little stiff	20	30	translated
+戦う冒険者にぜひ！	For the fighting adventurer!	18	28	translated
+まぶしくても平気です	Fine even when it's dazzling	20	28	translated
+顔を隠したい人向け？	For those who want to hide their face?	20	38	translated
+いっぱしの戦士のための一品	An item for a full-fledged warrior	26	34	translated
+メレーとは乱戦の意	Melee means a chaotic brawl	18	27	translated
+角付きでカッコイイです	Cool with horns	22	15	translated
+かぶると士気が高揚する？	Does wearing it raise morale?	24	29	translated
+騎士道を志すあなたに捧ぐ	Dedicated to you who aspire to chivalry	24	39	translated
+古の老将軍が愛用したそうな	An old veteran general favored it, they say	26	43	translated
+工芸品の極み	The pinnacle of craftsmanship	12	29	translated
+使用される頑強な兜	A sturdy helm that's used	18	25	translated
+誉れ高い戦士の証！	Proof of an honored warrior!	18	28	translated
+敵を圧倒する威圧感があります	Has an intimidating presence that overwhelms enemies	28	52	translated
+荒ぶる漢の名を冠する兜	A helm bearing a wild man's name	22	32	translated
+暗い奴だと思われちゃうかも？	You might be seen as a gloomy sort?	28	35	translated
+黒髪には赤が映えますね	Red looks striking on black hair	22	32	translated
+絵描き気分にひたれます	Lets you feel like a painter	22	28	translated
+美しさ重視です！	Beauty-focused!	16	15	translated
+高貴な者の証です	Proof of the noble	16	18	translated
+異国の貴婦人気分にひたれます	Lets you feel like a foreign noblewoman	28	39	translated
+かつて赤毛の女戦士も愛用しました	A red-haired warrior woman once favored it too	32	46	translated
+タカビー女王さま気分にひたれます	Lets you feel like a haughty queen	32	34	translated
+わがまま王女さま気分にひたれます	Lets you feel like a selfish princess	32	37	translated
+ピュアな心になります	You'll have a pure heart	20	24	translated
+要するにかんざし	In short, a hairpin	16	19	translated
+視界が狭くなるのが難点かな？	Its downside is a narrowed field of view?	28	41	translated
+いつも笑顔をたやさずに	Always keep a smile	22	19	translated
+地獄の業火でもとけません	Won't melt even in hellfire	24	27	translated
+ヘヴンリーガーブとセットでどうぞ	Pair it with the Heavenly Garb	32	30	translated
+キラキラしてます！	It sparkles!	18	12	translated
+短剣は主に防御用として使用	Daggers are mainly for defense	26	30	translated
+扱いには高い熟練度を要する	Requires high mastery to handle	26	31	translated
+素手でチャンバラはキケンです	Bare-handed swordplay is dangerous	28	34	translated
+軽くてすべりにくい作りです	Light and made non-slip	26	23	translated
+けどチョト重いかも････	But maybe a bit heavy...	22	24	translated
+剣術専用に作られました	Made specially for swordsmanship	22	32	translated
+ドワーフ族の芸術品	A work of Dwarven art	18	21	translated
+歴史ある鍛冶屋の業物です	A masterwork of a historic smithy	24	33	translated
+闇夜を照らす灯となれ	Be a light that shines in the dark night	20	40	translated
+きわめて希少価値が高い	Extremely rare and valuable	22	27	translated
+けどチョト冷たいかも････	But maybe a bit cold...	24	23	translated
+神木の加護がある	Has the protection of the sacred tree	16	37	translated
+イシュタル伝説の勇者ギルガメスの所持品	The hero Gilgamesh of the Ishtar legend's belonging	38	51	translated
+接近戦用に特化している	Specialized for close combat	22	28	translated
+熱いナベでも平気です	Fine even with a hot pot	20	24	translated
+ゴージャスマントとセットでどうぞ	Pair it with the Gorgeous Mantle	32	32	translated
+悪い事件を事前に知らせると言われる	Said to warn of bad events in advance	34	37	translated
+ちょっとゼイタクな高級品です。	A somewhat luxurious high-end item.	30	35	translated
+ウェディングドレスとセットでどうぞ	Pair it with the Wedding Dress	34	30	translated
+魔導の指先と呼ばれる	Called the fingertips of sorcery	20	32	translated
+心がつながります！	Hearts connect!	18	15	translated
+いつも心に太陽を！	Always a sun in your heart!	18	27	translated
+敵を倒すとＨＰが回復	Restores HP when you defeat an enemy	20	36	translated
+敵を倒すとＴＰが回復	Restores TP when you defeat an enemy	20	36	translated
+ＴＰ回復力が増加	TP recovery increases	16	21	translated
+全ダメージを少し軽減する	Slightly reduces all damage	24	27	translated
+受けたダメージを反射することがある	May reflect the damage you take	34	31	translated
+のけぞり時間を軽減する	Reduces flinch time	22	19	translated
+命中率が上がる	Accuracy rises	14	14	translated
+アイテム入手確率を上げる効果がある	Has the effect of raising item drop rate	34	40	translated
+ガード時に敵に毒を与えることも	May also poison the enemy on guard	30	34	translated
+ガード時に敵に麻痺を与えることも	May also paralyze the enemy on guard	32	36	translated
+ガード時にその効果を与えることも	May also inflict that effect on guard	32	37	translated
+ガード時に敵を凍結させることも	May also freeze the enemy on guard	30	34	translated
+力が上昇する	Strength rises	12	14	translated
+詠唱時間を短縮する	Shortens casting time	18	21	translated
+防御力が上昇する	Defense rises	16	13	translated
+取得ガルドが増える	Gald earned increases	18	21	translated
+ＨＰの最大値が上昇する	Max HP rises	22	12	translated
+変更できるようになる上級者向け装備品	An advanced item that lets you change it	36	40	translated
+取得経験値が増える	EXP earned increases	18	20	translated
+戦闘不能時に砕け散り、体力が回復	Shatters on KO and restores your health	32	39	translated
+気絶やダウンを軽減する	Reduces stun and knockdown	22	26	translated
+ガード時に敵に衰弱を与えることも	May also weaken the enemy on guard	32	34	translated
+雨の日も安心	Safe even on rainy days	12	23	translated
+身を隠すのに便利	Handy for hiding yourself	16	25	translated
+野宿する時に毛布の代わりになる	Serves as a blanket when camping out	30	36	translated
+炎耐性が上昇する	Fire resistance rises	16	21	translated
+水耐性が上昇する	Water resistance rises	16	22	translated
+風耐性が上昇する	Wind resistance rises	16	21	translated
+地耐性が上昇する	Earth resistance rises	16	22	translated
+シブイッス！！	Stylish!!	14	9	translated
+森の散策時にどーぞ	For strolling in the forest	18	27	translated
+雪国で外出する時の必携です	A must-have for going out in snow country	26	41	translated
+アナタは注目の的ですね！	You're the center of attention!	24	31	translated
+攻撃が当りにくくなります	Attacks become harder to land	24	29	translated
+魔法耐性が高まります	Magic resistance increases	20	26	translated
+銀には魔を退ける力があるそうです	Silver has the power to ward off evil, they say	32	47	translated
+偉くなった気分になれます	You can feel important	24	22	translated
+小石を踏んでも平気です	Fine even stepping on pebbles	22	29	translated
+チェインメイルとセットでどうぞ	Pair it with the Chain Mail	30	27	translated
+象に踏まれても平気です	Fine even trampled by an elephant	22	33	translated
+軽快でステキ	Light and lovely	12	16	translated
+移動に苦労しそうです	Movement looks like a struggle	20	30	translated
+実用性第一主義です	Practicality first	18	18	translated
+スネを蹴られても平気です	Fine even kicked in the shin	24	28	translated
+耐久性に優れます	Excellent durability	16	20	translated
+カッコイイー！！	So cool!!	16	9	translated
+心もウキウキ	Your heart flutters too	12	23	translated
+仲間がついて来れないかも？	Your allies might not keep up?	26	30	translated
+森の中でも転ばずに走れます	Run without tripping even in the forest	26	39	translated
+すべるような移動が可能に！	Gliding movement becomes possible!	26	34	translated
+衝撃の大部分を吸収してくれます	Absorbs most of the impact	30	26	translated
+カンナギの装束とセットでどうぞ	Pair it with the Diviner's Garb	30	31	translated
+ブラウス	Blouse	8	6	translated
+神団護衛兵	Order Guard	10	11	translated
+弓使い	Archer	6	6	translated
+科学者	Scientist	6	9	translated
+デュナミスファミリー	Dunamis Family	20	14	translated
+データ収集マニア	Data Collection Maniac	16	22	translated
+いい兄貴	Good Big Brother	8	16	translated
+さすらい戦士	Wandering Warrior	12	17	translated
+天才	Genius	4	6	translated
+姉御	Big Sister	4	10	translated
+ニヒリスト	Nihilist	10	8	translated
+英雄探求者	Hero Seeker	10	11	translated
+奇跡の少女	Miracle Girl	10	12	translated
+聖女	Holy Woman	4	10	translated
+料理上手	Cooking Expert	8	14	translated
+恋愛探求者	Romance Seeker	10	14	translated
+英雄に違いない！	Surely a Hero!	16	14	translated
+英雄以外ありえない！	None Other Than a Hero!	20	23	translated
+英雄と呼ばせてくれ！	Let Me Call You a Hero!	20	23	translated
+聖女さまだ！	It's the Holy Woman!	12	20	translated
+タイムトラベラー	Time Traveler	16	13	translated
+レンズ奪還任務者	Lens Recovery Agent	16	19	translated
+パイロット	Pilot	10	5	translated
+Ｓリング解説者	S-Ring Explainer	14	16	translated
+Ｓスコープ解説者	S-Scope Explainer	16	17	translated
+ワイルドレディ	Wild Lady	14	9	translated
+工兵隊隊長	Engineer Corps Captain	10	22	translated
+ソーディアン設計者	Swordian Designer	18	17	translated
+乙女！	Maiden!	6	7	translated
+神にケンカを売った奴	The One Who Picked a Fight with God	20	35	translated
+神の化身	God's Incarnation	8	17	translated
+スタンの息子	Stahn's Son	12	11	translated
+美白の天使	Fair-Skinned Angel	10	18	translated
+小麦色の女神	Tanned Goddess	12	14	translated
+男女	Androgyne	4	9	translated
+迷探偵	Bumbling Detective	6	18	translated
+変わり者	Oddball	8	7	translated
+サブミッション使い	Submission User	18	15	translated
+ひと味違いすぎシェフ	A Chef Too Different by a Mile	20	30	translated
+ゼロの戦士	Warrior of Zero	10	15	translated
+おさみしなみだ	Lonesome Tears	14	14	translated
+アイテムがかり	Item Manager	14	12	translated
+清貧一直線	Straight to Honest Poverty	10	26	translated
+リファイン大好きッ子	Refine-Loving Kid	20	17	translated
+加工職人	Processing Artisan	8	18	translated
+才色兼備独特音感様	Talented, Beautiful, Uniquely Tone-Deaf	18	39	translated
+必殺天才配膳人様	Deadly Genius Server	16	20	translated
+超絶天才配膳人様	Transcendent Genius Server	16	26	translated
+天職寿司ボーイ	Born Sushi Boy	14	14	translated
+天職寿司ガール	Born Sushi Girl	14	15	translated
+天職寿司職人	Born Sushi Chef	12	15	translated
+天職寿司仮面	Born Sushi Mask	12	15	translated
+天職寿司ねえちゃん	Born Sushi Sis	18	14	translated
+激烈超天才寿司職人様	Fierce Super-Genius Sushi Chef	20	30	translated
+の英雄	Hero of	6	7	translated
+鬼王	Demon King	4	10	translated
+神経衰弱王	Concentration King	10	18	translated
+母を超えた息子	Son Who Surpassed His Mother	14	28	translated
+英雄を超えたタッグ	Tag Team That Surpassed the Heroes	18	34	translated
+装備品屋　ガンビット	Equipment Shop: Gambit	20	22	translated
+茶店　一服一福	Teahouse: Ippuku Ippuku	14	23	translated
+装飾品屋　メリーウィドウ	Accessory Shop: Merry Widow	24	27	translated
+屋台　ポムドテール	Stall: Pomme de Terre	18	21	translated
+屋台　食い倒れ天国	Stall: Glutton's Paradise	18	25	translated
+屋台　あまあま	Stall: Sweet Sweet	14	18	translated
+食料倉庫	Food Storehouse	8	15	translated
+装飾品屋　キラークイーン	Accessory Shop: Killer Queen	24	28	translated
+横流し品	Black-Market Goods	8	18	translated
+装飾品屋　コモナ	Accessory Shop: Comona	16	22	translated
+ 入る	 Enter	5	6	translated
+ やめる	 Cancel	7	7	translated
+ 出る	 Exit	5	5	translated
+ もどる	 Back	7	5	translated
+を出る	Leave the	6	9	translated
+ボーナスでグレードを１０００加算します	Adds 1000 to your grade as a bonus	38	34	translated
+のでご注意下さい	so please take note	16	19	translated
+まさに、バランス・オブ・パワー！	Truly, a balance of power!	32	26	translated
+言わざるをえない････	I have to say...	20	16	translated
+これは、食という名の魔術か!?	Is this magic by the name of cuisine?!	28	38	translated
+もう少し考えてみよう	Let's think a bit more	20	22	translated
+しあわせいっぱいお楽しみ！	Enjoy, full of happiness!	26	25	translated
+かきまぜるのが似合いそう････	Stirring would suit it...	28	25	translated
+そんなイメージ？　････あれ？？？	That kind of image? ...Huh???	32	29	translated
+くずしてしまうのがもったいないくらい	Almost a shame to break it apart	36	32	translated
+料理の道は、遠く果てしない････	The path of cooking is long and endless...	30	42	translated
+キュウリ抜きとるべからず	Thou shalt not remove the cucumber	24	34	translated
+････何もはさまないと何になる？	...What is it with nothing inside?	30	34	translated
+ファイヤー！！！	Fire!!!	16	7	translated
+見ているだけで夢色気分！	Just looking gives a dreamy mood!	24	33	translated
+みんな置き去り！	Everyone left behind!	16	21	translated
+絵画を描くように、色と形を構成しましょう	Compose color and shape as if painting	40	38	translated
+十人のうち三人くらいは食べてくれるかな？	Maybe three out of ten will eat it?	40	35	translated
+波間に漂う幻想に酔う瞬間････	A moment of intoxication in a vision drifting on the waves...	28	61	translated
+よけいな雑味が感じられる････	An unwelcome off-flavor comes through...	28	40	translated
+ピリ辛あんとのアクセントが絶妙！	The spicy-sauce accent is exquisite!	32	36	translated
+こいつは、まさに食材のケンカ料理だ！	This is truly a dish of clashing ingredients!	36	45	translated
+叫んでから食すべし（しかも、腹式呼吸で）	Eat only after shouting (and with belly breathing)	40	50	translated
+何か間違った？	Did I get something wrong?	14	26	translated
+ひとときのノスタルジーを演出する食べ物	A food that stages a fleeting nostalgia	38	39	translated
+口の中にジュワッと広がる味！アチチチチ！	The flavor bursts in your mouth! Hot hot hot!	40	45	translated
+はたまた、失敗と呼ぶべきか････	Or perhaps it should be called a failure...	30	43	translated
+ハンバーグより、少しリッチな気分	A slightly richer mood than hamburg steak	32	41	translated
+おい、未完は良くないだろ！	Hey, leaving it unfinished is no good!	26	38	translated
+しみこむうまみ	A soaking umami	14	15	translated
+何か、仕上げに問題があるのか？	Is there a problem with the finish?	30	35	translated
+もちろん、栄養も豊富な煮込みです	A stew rich in nutrition, of course	32	35	translated
+味の深みが違います････これホント！	The depth of flavor is different... really!	34	43	translated
+うーん、あったまるよ････	Mmm, it warms you up...	24	23	translated
+何が良くなかったの？	What wasn't good about it?	20	26	translated
+生に近い焼き加減でご賞味下さい	Savor it cooked nearly rare	30	27	translated
+新鮮な魚をすばやく切るべし	Cut fresh fish swiftly	26	22	translated
+和の世界は奥深きものなり！	The world of Japanese cuisine is profound!	26	42	translated
+ベストパートナーと称えたい	I'd praise it as the best partner	26	33	translated
+ホイルを奥歯でかみしめながら考える････	Pondering while chewing foil with your back teeth...	38	52	translated
+深みとコクのあるダシを味わうべし	Savor the deep, rich broth	32	26	translated
+魂の込め方が足りないのか？	Not enough soul put into it?	26	28	translated
+デザートという名のファンタジー	A fantasy by the name of dessert	30	32	translated
+見た目がちょっとイケてない････	Its looks are a bit off...	30	26	translated
+ズルッとひとくち。もちもちのプチプチ	One slurpy bite. Chewy and popping	36	34	translated
+チリリとからいよ！	It's tingly spicy!	18	18	translated
+ＯＨ！　ロール・ミー！	OH! Roll me!	22	12	translated
+それぞれにある、それぞれのチーズケーキ	To each their own cheesecake	38	28	translated
+ドーンと豪快にいこうぜ！	Let's go big and bold!	24	22	translated
+もうひと工夫必要かも････	Maybe one more touch is needed...	24	33	translated
+しぼりたてを冷やしてどうぞ	Chill it fresh-squeezed and enjoy	26	33	translated
+まさに、トウバンジャンとスパイスの奇跡！	Truly a miracle of chili bean sauce and spice!	40	46	translated
+すなわち、命の料理	In other words, a dish of life	18	30	translated
+いろどり豊かなサンドイッチ	A colorful sandwich	26	19	translated
+サンドの世界は奥深きものなり！	The world of sandwiches is profound!	30	36	translated
+全身にしみわたるエナジー！	Energy that soaks through your whole body!	26	42	translated
+本当にこれでいいのか？	Is this really okay?	22	20	translated
+当然ながら、みそは必須	Naturally, miso is a must	22	25	translated
+どんなメロディを奏でますか？	What melody will you play?	28	26	translated
+ふられマン・予告編	Dumped Man - Trailer	18	20	translated
+母に････	To Mother...	8	12	translated
+続・ふられマン	Dumped Man 2	14	12	translated
+花の命は････	A flower's life is...	12	21	translated
+オバケなんて････	Ghosts are...	16	13	translated
+そんな････	That's just...	10	14	translated
+の過去	's Past	6	7	translated
+ケンカするほど････	The More You Fight...	18	21	translated
+気になるあいつ（１）	That One I Care About (1)	20	25	translated
+だけの英雄	Hero of Only	10	12	translated
+の苦悩	's Anguish	6	10	translated
+黙っていれば････	If You Stay Silent...	16	21	translated
+新・ふられマン	Dumped Man: New	14	15	translated
+の迷い	's Confusion	6	12	translated
+の決心	's Resolve	6	10	translated
+精神世界（１）	Inner World (1)	14	15	translated
+精神世界（２）	Inner World (2)	14	15	translated
+精神世界（３）	Inner World (3)	14	15	translated
+精神世界（４）	Inner World (4)	14	15	translated
+精神世界（５）	Inner World (5)	14	15	translated
+精神世界（６）	Inner World (6)	14	15	translated
+精神世界（７）	Inner World (7)	14	15	translated
+マッサージしてあ・げ・る	I'll Give You a Ma-ssage	24	24	translated
+秘密の投薬	Secret Dosing	10	13	translated
+男の風上にも････	Not Even Fit to Be a Man...	16	27	translated
+の名前	's Name	6	7	translated
+は知っていた	Knew It	12	7	translated
+、食・べ・て★	Ea-t It ★	14	10	translated
+、食べなよ	Go on, Eat	10	10	translated
+世界の破滅（２）	World's Ruin (2)	16	16	translated
+気になるあいつ（２）	That One I Care About (2)	20	25	translated
+出会いの場所へと････	To the Place We Met...	20	22	translated
+シャルティエよ････	O Chaltier...	18	13	translated
+世界の破滅（１）	World's Ruin (1)	16	16	translated
+ふられマン・フォーエバー	Dumped Man Forever	24	18	translated
+きっと自分自身を････	Surely Himself...	20	17	translated
+ふられマン・伝説バージョン	Dumped Man: Legend Version	26	26	translated
+ふられマン・純情派	Dumped Man: Pure-Hearted	18	24	translated
+王国	Kingdom	4	7	translated
+ふられマン・最後の決戦	Dumped Man: Final Showdown	22	26	translated
+飛ばされて････	Blown Away...	14	13	translated
+トラッシュマウンテンを抜ければ	If You Get Through Trash Mountain	30	33	translated
+まだホープタウンで････	Still in Hope Town...	22	21	translated
+あの赤いドームは････？	That Red Dome Is...?	22	20	translated
+神のたまごは････	The Egg of God Is...	16	20	translated
+港で何か････？	Something at the Port...?	14	25	translated
+は？	Huh?	4	4	translated
+精神世界（８）	Inner World (8)	14	15	translated
+外殻を抜けろ	Get Through the Aethersphere	12	28	translated
+あの場所へ････	To That Place...	14	16	translated
+自己紹介	Introduction	8	12	translated
+崖をとびうつれば････	If You Leap Across the Cliff...	20	31	translated
+衛兵に見つかったら････	If the Guards Spot You...	22	25	translated
+すごい霧ね････	What a Fog...	14	13	translated
+片露	Single Dew	4	10	translated
+蒼破追蓮	Azure Pursuit Lotus	8	19	translated
+散葉枯葉	Scattering Withered Leaves	8	26	translated
+爆炎連焼	Blazing Chain Burn	8	18	translated
+爆灰猛追	Ashen Fierce Pursuit	8	20	translated
+放墜砲墜	Cannon Drop	8	11	translated
+双打連蹴	Twin Strike Kick	8	16	translated
+幻影回帰	Phantom Return	8	14	translated
+双連衝破	Twin Chain Break	8	16	translated
+ゲームクリアデータ	Game Clear Data	18	15	translated
+手にいれました	Obtained	14	8	translated
+いっぱいでこれ以上持てません	You can't carry any more	28	24	translated
+からっぽだ････	It's empty...	14	13	translated
+手に入れました	Obtained	14	8	translated
+枚のレンズを手に入れました	Obtained Lens	26	13	translated
+　宝箱に戻す　	　Return to chest　	14	19	translated
