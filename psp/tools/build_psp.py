@@ -21,7 +21,7 @@ import sys, os, re, tempfile, shutil
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
-import psp_iso, psp_text, psp_names, psp_menu, psp_lowercase, psp_fpb
+import psp_iso, psp_text, psp_names, psp_menu, psp_lowercase, psp_fpb, psp_pool
 
 def add_probes(work):
     p = os.path.join(work, 'scenario_en', '06470.txt')
@@ -53,6 +53,9 @@ def main(iso, out_iso, probe=False, keep=None):
     _lc, _codes = psp_lowercase.patch_ascii_map(open(boot, 'rb').read())
     open(boot, 'wb').write(_lc)
     print('lowercase: remapped', len(_codes), 'a-z glyphs')
+    _pool, _pst = psp_pool.relocate_menu(open(boot, 'rb').read())
+    open(boot, 'wb').write(_pool)
+    print('menu pool:', dict(_pst))
     psp_text.extract(boot, fpb, text)
     psp_text.match(text)
     if probe:
