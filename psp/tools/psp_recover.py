@@ -21,6 +21,16 @@ def codes(s): return CODE.findall(s)
 def trig(s):
     z = re.sub(r'[\x00]', '', strip_codes(s)); return {z[i:i+3] for i in range(len(z)-2)} or {z}
 
+CODES = r'(?:<[^>]*>|\{[0-9A-F]{2}\}|[\uff66-\uff9f])+'
+FIXED_TEMPLATES = [
+    (r'^(%s)\u3092\u53d7\u3051\u53d6\u308a\u307e\u3057\u305f\n\u3044\u3063\u3071\u3044\u3067\u6301\u3066\u307e\u305b\u3093\u3067\u3057\u305f$', 'Received {0}, but\nyour inventory is full.'),
+    (r'^(%s)\u3092\u53d7\u3051\u53d6\u308a\u307e\u3057\u305f\n\u3044\u3063\u3071\u3044\u3067\u3053\u308c\u4ee5\u4e0a\u6301\u3066\u307e\u305b\u3093$', 'Received {0}, but\nyou can\'t carry any more.'),
+    (r'^(%s)\u304c\u3042\u308a\u307e\u3057\u305f\u304c\n\u3044\u3063\u3071\u3044\u3067\u6301\u3066\u307e\u305b\u3093\u3067\u3057\u305f$', 'Found {0}, but\nyour inventory is full.'),
+    (r'^(%s)\u304c\u3042\u308a\u307e\u3057\u305f\u304c\n\u3044\u3063\u3071\u3044\u3067\u3053\u308c\u4ee5\u4e0a\u6301\u3066\u307e\u305b\u3093$', 'Found {0}, but\nyou can\'t carry any more.'),
+]
+TITLE_RX = None  # set in recover()
+
+
 def recover(work, ps2root=ROOT):
     corpus = psp_text.load_ps2_corpus(ps2root)
     corpus = {k: {psp_text.norm_key(jp.split('\n')): en for jp, en in v.items()} for k, v in corpus.items()}
@@ -32,10 +42,19 @@ def recover(work, ps2root=ROOT):
     JP = re.compile(r'[぀-ヿ一-鿿]')
     rows = list(csv.reader(open(os.path.join(work, 'unmatched.tsv'), encoding='utf-8'), delimiter='\t'))
     out = []; stats = collections.Counter(); samples = collections.defaultdict(list)
+    import re as _re
+    fixed = [(_re.compile(p % CODES), e) for p, e in FIXED_TEMPLATES]
+    title_rx = _re.compile(r'^(' + CODES + r')\u306f\n\u79f0\u53f7\u300c(' + CODES + r')\u300d\u3092\u5f97\u307e\u3057\u305f$')
     for r in rows:
         if len(r) < 3: continue
         kind, fid, raw = r[0], r[1], r[2]; psp = raw.replace('\\n', '\n')
         if not JP.search(psp): continue
+        _m = next((e.format(rx.match(psp).group(1)) for rx, e in fixed if rx.match(psp)), None)
+        if _m is None:
+            _t = title_rx.match(psp)
+            if _t: _m = '%s earned\nthe title "%s"!' % (_t.group(1), _t.group(2))
+        if _m is not None:
+            out.append((kind, psp, _m)); stats['fixed_template'] += 1; continue
         tg = trig(psp); cand = collections.Counter()
         for t in tg:
             for i in idx[kind].get(t, ()): cand[i] += 1
