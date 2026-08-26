@@ -21,7 +21,7 @@ import sys, os, re, tempfile, shutil
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
-import psp_iso, psp_text
+import psp_iso, psp_text, psp_names
 
 def add_probes(work):
     p = os.path.join(work, 'scenario_en', '06470.txt')
@@ -45,6 +45,8 @@ def main(iso, out_iso, probe=False, keep=None):
     text = os.path.join(work, 'text')
     psp_iso.extract(iso, '/PSP_GAME/SYSDIR/BOOT.BIN', boot)
     psp_iso.extract(iso, '/PSP_GAME/USRDIR/file.fpb', fpb)
+    _named = psp_names.patch_names(open(boot, 'rb').read())[0]
+    open(boot, 'wb').write(_named)
     psp_text.extract(boot, fpb, text)
     psp_text.match(text)
     if probe:
