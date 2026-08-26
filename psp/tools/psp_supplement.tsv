@@ -1,0 +1,479 @@
+scenario	<03:00000000><0B:00000001>{14}{36}{10}{C0}<0B:00000000>ガルド援助してよろしいですか？\nはいはい、ドーンといっちゃってください\nいやいや、ちょっと待てよ	<03:00000000>Provide <0B:00000001>{14}{36}{10}{C0}<0B:00000000> Gald in aid?\nSure, sure, go for it.\nNo, no, hold on.	recover
+scenario	<03:00000000><button:00000035>ボタンでジャンプ\n<button:00000036>ボタンでキャンセル	<03:00000000><button:00000035> to jump\n<button:00000036> to cancel	recover
+scenario	<03:00000000>　<item:00000031>をあげる\n　<item:00000031>をあげない	<03:00000000> Give him <item:00000031>.\nDon't give him <item:00000031>.	recover
+scenario	<03:00000000>　買う\n　<0B:00000001>{14}{25}{DA}{C0}本まとめて買う（{14}{35}{D4}{C0}ガルド）<0B:00000000>\n　リファイン講座\n　いらない	<03:00000000> Buy\n<0B:00000001>Buy {14}{25}{DA}{C0} in bulk ({14}{35}{D4}{C0} Gald)<0B:00000000>\nRefine Guide\nNo thanks	recover
+scenario	<03:00000000>　買う\n　<0B:00000001>{14}{25}{EE}{C0}本まとめて買う（{14}{35}{E8}{C0}ガルド）<0B:00000000>\n　リファイン講座\n　いらない	<03:00000000>Buy\n<0B:00000001>Buy {14}{25}{EE}{C0} in bulk ({14}{35}{E8}{C0} Gald)<0B:00000000>\nRefine Guide\nNo thanks	recover
+scenario	<03:00000000>　買う\n　<0B:00000001>{14}{25}{FA}{C0}本まとめて買う（{14}{35}{F4}{C0}ガルド）<0B:00000000>\n　リファイン講座\n　いらない	<03:00000000> Buy\n<0B:00000001>Buy {14}{25}{FA}{C0} in bulk ({14}{35}{F4}{C0} Gald)<0B:00000000>\nRefine Guide\nNo thanks	recover
+scenario	<03:00000000>　買う\n　<0B:00000001>{14}{26}{3A}{C0}本まとめて買う（{14}{36}{34}{C0}ガルド）<0B:00000000>\n　リファイン講座\n　いらない	<03:00000000>Buy\n<0B:00000001>Buy {14}{26}{3A}{C0} in bulk ({14}{36}{34}{C0} Gald)<0B:00000000>\nRefine Guide\nNo thanks	recover
+scenario	<03:00000000>　買う\n　<0B:00000001>{14}{26}{4E}{C0}本まとめて買う（{14}{36}{48}{C0}ガルド）<0B:00000000>\n　リファイン講座\n　いらない	<03:00000000> Buy\n<0B:00000001>Buy {14}{26}{4E}{C0} in bulk ({14}{36}{48}{C0} Gald)<0B:00000000>\nRefine Guide\nNo thanks	recover
+scenario	<03:00000000>　買う\n　<0B:00000001>{14}{27}{4A}{C0}本まとめて買う（{14}{37}{44}{C0}ガルド）<0B:00000000>\n　リファイン講座\n　いらない	<03:00000000> Buy\n<0B:00000001>Buy {14}{27}{4A}{C0} in bulk ({14}{37}{44}{C0} Gald)<0B:00000000>\nRefine Guide\nNo thanks	recover
+scenario	<03:00000000>現在、{18}{45}{E4}{C0}です\n完成まで<0B:00000001>{14}{26}{0C}{C0}分{14}{26}{0A}{C0}<0B:00000000>秒かかります	<03:00000000>Currently {18}{45}{E4}{C0}.\nWill take <0B:00000001>{14}{26}{0C}{C0} min. {14}{26}{0A}{C0}<0B:00000000> sec. to complete.	recover
+scenario	<03:00000000>鍛冶屋ランク：{18}{45}{E8}{C0}\n開発資金残高：<0B:00000001>{14}{26}{28}{90}{32}{C7}{C0}<0B:00000000>ガルド\n状況：{18}{45}{E4}{C0}	<03:00000000>Blacksmith Rank: {18}{45}{E8}{C0}\nDevelopment Fund Balance: <0B:00000001>{14}{26}{28}{90}{32}{C7}{C0}<0B:00000000> Gald\nStatus: {18}{45}{E4}{C0}	recover
+scenario	<03:00000000>ＧＡＭＥをやめますか？\n\n<button:00000035>やめる　<button:00000036>やめない	　\n<03:00000000>Quit the game?\n<button:00000035>Yes <button:00000036>No	recover
+scenario	<0B:00000001>{14}{34}{8C}{C0}ガルドを手に入れました<0B:00000000>	<0B:00000001>Acquired {14}{34}{8C}{C0} Gald.<0B:00000000>	recover
+scenario	<0B:00000001>『爆弾製造機』\nレバーＡ：{18}{44}{A4}{C0}\nレバーＢ：{18}{44}{A8}{C0}<0B:00000000>	<0B:00000001>Bomb Manufacturing Machine\nLever A: {18}{44}{A4}{C0}\nLever B: {18}{44}{A8}{C0}<0B:00000000>	recover
+scenario	<Harold>さん\n本当に、ありがとうございます	<Harold>,\nthank you so very much.	translated
+scenario	<Judas>さん\n本当に、ありがとうございます	<Judas>,\nthank you so very much.	translated
+scenario	<Kyle>\n答えは、あんたの中にしかないわ	<Kyle>,\nthe answer is only inside you.	translated
+scenario	<Kyle>、聞こえてますよ････	<Kyle>, I can hear you...	translated
+scenario	<Kyle>くん\n前にも話したが、私たちにとって\n君は息子のようなものだ	<Kyle>, as I told you before,\nto us,\nyou are like a son.	translated
+scenario	<Kyle>たちは\n称号「<item:00000853>」を得ました	<Kyle> and party acquired the title\n"<item:00000853>".	recover
+scenario	<Kyle>！　あの子のためにも、\nあたしくらい、超えてみせなさい!!\nさ！　行くわよぉッ～!!	<Kyle>! For that girl's sake too,\nat least get past me!!\nCome on, here I go~!!	translated
+scenario	<Loni>さん\n本当に、ありがとうございます	<Loni>,\nthank you so very much.	translated
+scenario	<Loni>さん、聞こえてますよ････	<Loni>, I can hear you...	translated
+scenario	<Nanaly>さん\n本当に、ありがとうございます	<Nanaly>,\nthank you so very much.	translated
+scenario	<Reala>さん\n本当に、ありがとうございます	<Reala>,\nthank you so very much.	translated
+scenario	<button:0000003A>ボタンで熱線を発射できるが、\n一発毎にレンズを一枚消費する\nムダ撃ちはするなよ	You can fire a heat ray with the <button:0000003A>\nbutton, but each shot consumes one\nLens. Don't waste your shots.	recover
+scenario	<item:00000012>はひと瓶\n<0B:00000001>{14}{35}{D0}{C0}<0B:00000000>ガルドです	<item:00000012> is <0B:00000001>{14}{35}{D0}{C0}<0B:00000000> Gald per bottle.	recover
+scenario	<item:00000012>はひと瓶\n<0B:00000001>{14}{35}{E4}{C0}<0B:00000000>ガルドです	<item:00000012> is <0B:00000001>{14}{35}{E4}{C0}<0B:00000000> Gald per bottle.	recover
+scenario	<item:00000012>はひと瓶\n<0B:00000001>{14}{35}{F0}{C0}<0B:00000000>ガルドです	<item:00000012> is <0B:00000001>{14}{35}{F0}{C0}<0B:00000000> Gald per bottle.	recover
+scenario	<item:00000012>はひと瓶\n<0B:00000001>{14}{36}{30}{C0}<0B:00000000>ガルドです	<item:00000012> is one bottle.\n<0B:00000001>{14}{36}{30}{C0}<0B:00000000> Gald.	recover
+scenario	<item:00000012>はひと瓶\n<0B:00000001>{14}{36}{44}{C0}<0B:00000000>ガルドです	<item:00000012> is one bottle.\n<0B:00000001>{14}{36}{44}{C0}<0B:00000000> Gald.	recover
+scenario	<item:00000012>はひと瓶\n<0B:00000001>{14}{37}{40}{C0}<0B:00000000>ガルドです	<item:00000012> is <0B:00000001>{14}{37}{40}{C0}<0B:00000000> Gald per bottle.	recover
+scenario	<item:0000002C>をもらいました	Acquired <item:0000002C>.	recover
+scenario	<item:0000002C>を使えば\n手の届かない場所にあるスイッチを押せる	Using the <item:0000002C>, you can press switches\nin places beyond your reach.	recover
+scenario	<item:0000002E>を手にいれました	Acquired <item:0000002E>.	recover
+scenario	<item:0000002F>をはめ込みました	Inserted <item:0000002F>.	recover
+scenario	<item:00000030>を手に入れました	Acquired <item:00000030>.	recover
+scenario	<item:00000031>は\nアクアヴェイルのおみやげ屋で\n売っているそうじゃのぉ････	They say <item:00000031> is sold\nat the souvenir shop in Aquaveil...	recover
+scenario	<item:00000031>をあげました	Gave <item:00000031>.	recover
+scenario	<item:00000031>を返してくれました	<item:00000031> was returned.	recover
+scenario	<item:00000032>を手に入れました	Acquired <item:00000032>.	recover
+scenario	<item:00000037>、<item:00000038>、<item:00000039>\n三つのチップでプロテクトされたコンテナがあります	A container sealed by three chips:\n<item:00000037>, <item:00000038>, <item:00000039>.	recover
+scenario	<item:00000037>、<item:00000038>、<item:00000039>を使い\n<item:00000036>を手に入れました	Used <item:00000037>, <item:00000038>, <item:00000039>.\nAcquired <item:00000036>.	recover
+scenario	<item:00000042>を手に入れました	Acquired <item:00000042>.	recover
+scenario	<item:0000004A>は見つかりましたか？	Have you found <item:0000004A>?	recover
+scenario	<item:0000004A>をお願いします	The <item:0000004A>, please.	recover
+scenario	<item:0000004A>をみつけたら\nわたしに譲っていただけませんか？	If you find <item:0000004A>,\nwould you mind letting me have it?	recover
+scenario	<item:0000004B>を手に入れました	Acquired <item:0000004B>.	recover
+scenario	<item:0000004D>、<item:0000005C>、<item:0000006A>を\n手に入れました	Acquired <item:0000004D>, <item:0000005C>,\nand <item:0000006A>.	recover
+scenario	<item:00000053>を手に入れました	Acquired <item:00000053>.	recover
+scenario	<item:0000005C>を３個、手に入れました	Acquired 3 <item:0000005C>.	recover
+scenario	<item:00000061>を手に入れました	Acquired <item:00000061>.	recover
+scenario	<item:00000069>を手に入れました	Acquired <item:00000069>.	recover
+scenario	<item:0000006A>と<item:0000004D>を\n手に入れました	Acquired <item:0000006A>\nand <item:0000004D>.	recover
+scenario	<item:0000006A>を手に入れました	Acquired <item:0000006A>.	recover
+scenario	<item:0000006A>を２個手に入れました	Acquired 2 <item:0000006A>.	recover
+scenario	<item:00000078>を持っているな	You've got <item:00000078>.	recover
+scenario	<item:00000079>を手に入れました	Acquired <item:00000079>.	recover
+scenario	<item:0000007D>を手に入れました	Acquired <item:0000007D>.	recover
+scenario	<item:0000007D>を返しました	Returned <item:0000007D>.	recover
+scenario	<item:000000B8>を手に入れました	Acquired <item:000000B8>.	recover
+scenario	<item:000000C2>を手に入れました	Acquired <item:000000C2>.	recover
+scenario	<item:000000F0>を手に入れました	Acquired <item:000000F0>.	recover
+scenario	<item:00000121>を手に入れました	Acquired <item:00000121>.	recover
+scenario	<item:00000127>を手に入れました	Acquired <item:00000127>.	recover
+scenario	<item:00000134>を元に戻しました	Returned <item:00000134>.	recover
+scenario	<item:00000134>を手に入れました	Acquired <item:00000134>.	recover
+scenario	<item:0000018F>を手に入れました	Acquired <item:0000018F>.	recover
+scenario	<item:000001AF>を手に入れました	Acquired <item:000001AF>.	recover
+scenario	<item:000001B8>を手に入れました	Acquired <item:000001B8>.	recover
+scenario	<item:000001BD>を手に入れました	Acquired <item:000001BD>.	recover
+scenario	<size:000000C8>オレ達を気にしてって\n本当かなあ～････？	<size:000000C8>You really worry about us?\nIs that true~...?	translated
+scenario	<size:000000C8>････さすがはスタンさんの妹････\nと言うか、<Kyle>の叔母さん････	<size:000000C8>...Stahn's sister, all right...\nor rather, <Kyle>'s aunt...	translated
+scenario	<size:00000200>････本当です！	<size:00000200>...It's true!	translated
+scenario	{15}{14}{87}{C0}がバトルをおこないます	{15}{14}{87}{C0} will enter the battle.	recover
+scenario	{15}{14}{87}{C0}と{15}{24}{7E}{C0}でタッグバトルに参加します	{15}{14}{87}{C0} and {15}{24}{7E}{C0} will enter the tag battle.	recover
+scenario	{15}{34}{EC}{C0}は\n称号「{16}{A0}{00}{08}{34}{F0}{CA}{C0}」を得ました	{15}{34}{EC}{C0} earned\nthe title "{16}{A0}{00}{08}{34}{F0}{CA}{C0}"!	translated
+scenario	{16}{24}{A4}{C0}を<0B:00000001>{14}{34}{A0}{C0}<0B:00000000>ガルドで\n売ってあげましょうか？	I can sell you {16}{24}{A4}{C0} for <0B:00000001>{14}{34}{A0}{C0}<0B:00000000> Gald.\nWould you like to buy it?	recover
+scenario	{16}{26}{1A}{C0}を手に入れました	Acquired {16}{26}{1A}{C0}.	recover
+scenario	{16}{26}{22}{C0}がありましたが\nいっぱいで持てませんでした	Found {16}{26}{22}{C0}, but\nyour inventory is full.	recover
+scenario	{16}{26}{2E}{C0}を手に入れました	Acquired {16}{26}{2E}{C0}.	recover
+scenario	{16}{26}{36}{C0}がありましたが\nいっぱいで持てませんでした	Found {16}{26}{36}{C0}, but\nyour inventory is full.	recover
+scenario	{16}{26}{7E}{C0}を手に入れました	Acquired {16}{26}{7E}{C0}.	recover
+scenario	{16}{26}{86}{C0}がありましたが\nいっぱいで持てませんでした	Found {16}{26}{86}{C0}, but\nyour inventory is full.	recover
+scenario	{16}{26}{8E}{C0}を手に入れました	Acquired {16}{26}{8E}{C0}.	recover
+scenario	{16}{26}{96}{C0}がありましたが\nいっぱいで持てませんでした	Found {16}{26}{96}{C0}, but\nyour inventory is full.	recover
+scenario	{16}{26}{AE}{C0}を手に入れました	Acquired {16}{26}{AE}{C0}.	recover
+scenario	{16}{26}{B2}{C0}を受け取りましたが\nいっぱいで持てませんでした	Received {16}{26}{B2}{C0}, but\nyour inventory is full.	translated
+scenario	{16}{26}{B6}{C0}がありましたが\nいっぱいで持てませんでした	Found {16}{26}{B6}{C0}, but\nyour inventory is full.	recover
+scenario	{16}{26}{DE}{C0}を手に入れました	Acquired {16}{26}{DE}{C0}.	recover
+scenario	{16}{26}{E6}{C0}がありましたが\nいっぱいで持てませんでした	Found {16}{26}{E6}{C0}, but\nyour inventory is full.	recover
+scenario	{16}{26}{FA}{C0}を手に入れました	Acquired {16}{26}{FA}{C0}.	recover
+scenario	{16}{27}{02}{C0}がありましたが\nいっぱいで持てませんでした	Found {16}{27}{02}{C0}, but\nyour inventory is full.	recover
+scenario	{16}{27}{56}{C0}を手に入れました	Acquired {16}{27}{56}{C0}.	recover
+scenario	{16}{27}{5E}{C0}がありましたが\nいっぱいで持てませんでした	Found {16}{27}{5E}{C0}, but\nyour inventory is full.	recover
+scenario	{16}{27}{6E}{C0}を手に入れました	Acquired {16}{27}{6E}{C0}.	recover
+scenario	{16}{27}{76}{C0}がありましたが\nいっぱいで持てませんでした	Found {16}{27}{76}{C0}, but\nyour inventory is full.	recover
+scenario	{16}{27}{B6}{C0}を手に入れました	Acquired {16}{27}{B6}{C0}.	recover
+scenario	{16}{27}{BE}{C0}がありましたが\nいっぱいで持てませんでした	Found {16}{27}{BE}{C0}, but\nyour inventory is full.	recover
+scenario	{16}{27}{D6}{C0}を手に入れました	Acquired {16}{27}{D6}{C0}.	recover
+scenario	{16}{27}{DE}{C0}がありましたが\nいっぱいで持てませんでした	Found {16}{27}{DE}{C0}, but\nyour inventory is full.	recover
+scenario	{16}{27}{FA}{C0}を手に入れました	Acquired {16}{27}{FA}{C0}.	recover
+scenario	{16}{34}{88}{C0}を手に入れました	Acquired {16}{34}{88}{C0}.	recover
+scenario	{16}{35}{E0}{C0}のレシピがあるんだが、\n<0B:00000001>{14}{35}{D8}{C0}<0B:00000000>ガルドで買わないか？	I've got a recipe for {16}{35}{E0}{C0}.\nWant to buy it for <0B:00000001>{14}{35}{D8}{C0}<0B:00000000> Gald?	recover
+scenario	{16}{35}{E0}{C0}のレシピを\n売ってあげよう	I'll sell you the recipe\nfor {16}{35}{E0}{C0}.	recover
+scenario	{16}{35}{E0}{C0}のレシピを拾いました	Picked up the recipe for {16}{35}{E0}{C0}.	recover
+scenario	{16}{35}{E0}{C0}の作り方を\n教えてあげよう	I'll teach you how\nto make {16}{35}{E0}{C0}.	recover
+scenario	{16}{35}{E0}{C0}の作り方を\n知りたいですか？	Want to learn how\nto make {16}{35}{E0}{C0}?	recover
+scenario	{16}{35}{E0}{C0}を作るのに必要な食材は\n{18}{45}{DC}{C0}です	To make {16}{35}{E0}{C0}, you'll need\n{18}{45}{DC}{C0}.	recover
+scenario	{16}{35}{E0}{C0}作ってる？	Making {16}{35}{E0}{C0}, are you?	recover
+scenario	{16}{35}{F4}{C0}の作り方を覚えました	Learned how to make {16}{35}{F4}{C0}.	recover
+scenario	{16}{35}{F8}{C0}が<0B:00000001>{14}{35}{FC}{C0}<0B:00000000>個ありましたが\nこれ以上もてません\n宝箱に戻しました	Found {16}{35}{F8}{C0} ×<0B:00000001>{14}{35}{FC}{C0}<0B:00000000>, but\nyou can't carry any more.\nReturned it to the treasure chest.	recover
+scenario	{16}{35}{F8}{C0}が<0B:00000001>{14}{35}{FC}{C0}個ありましたが\n全部は持つことはできません\n・{14}{35}{F4}{C0}個取り、{14}{36}{00}{C0}<0B:00000000>個捨てる\n・宝箱に戻す	{16}{36}{F8}{C0}\nFound: <0B:00000001>{14}{36}{FC}{C0}\nTake: {14}{36}{F4}{C0}\nDiscard: {14}{36}{00}{C0}<0B:00000000>\nOr return everything to the chest.	recover
+scenario	{16}{35}{F8}{C0}を\n<0B:00000001>{14}{35}{F4}{C0}<0B:00000000>個手に入れました	Acquired {16}{35}{F8}{C0}.\n(<0B:00000001>{14}{35}{F4}{C0}<0B:00000000> units)	recover
+scenario	{16}{36}{10}{C0}が<0B:00000001>{14}{36}{14}{C0}<0B:00000000>個ありましたが\nこれ以上もてません\n宝箱に戻しました	Found {16}{36}{10}{C0} x<0B:00000001>{14}{36}{14}{C0}<0B:00000000>, but\nI can't carry any more.\nI put it back in the treasure chest.	recover
+scenario	{16}{36}{10}{C0}が<0B:00000001>{14}{36}{14}{C0}個ありましたが\n全部は持つことはできません\n・{14}{36}{0C}{C0}個取り、{14}{36}{18}{C0}<0B:00000000>個捨てる\n・宝箱に戻す	{16}{36}{10}{C0}\nFound: <0B:00000001>{14}{36}{14}{C0}\nTake: {14}{36}{0C}{C0}\nDiscard: {14}{36}{18}{C0}<0B:00000000>\nOr return everything to the chest.	recover
+scenario	{16}{36}{10}{C0}を\n<0B:00000001>{14}{36}{0C}{C0}<0B:00000000>個手に入れました	Acquired {16}{36}{10}{C0} x<0B:00000001>{14}{36}{0C}{C0}<0B:00000000>.	recover
+scenario	{16}{36}{4C}{C0}が<0B:00000001>{14}{36}{50}{C0}<0B:00000000>個ありましたが\nこれ以上もてません\n宝箱に戻しました	Found {16}{36}{4C}{C0} x<0B:00000001>{14}{36}{50}{C0}<0B:00000000>, but\nI can't carry any more.\nI put it back in the treasure chest.	recover
+scenario	{16}{36}{4C}{C0}が<0B:00000001>{14}{36}{50}{C0}個ありましたが\n全部は持つことはできません\n・{14}{36}{48}{C0}個取り、{14}{36}{54}{C0}<0B:00000000>個捨てる\n・宝箱に戻す	{16}{36}{4C}{C0}\nFound: <0B:00000001>{14}{36}{50}{C0}\nTake: {14}{36}{48}{C0}\nDiscard: {14}{36}{54}{C0}<0B:00000000>\nOr return everything to the chest.	recover
+scenario	{16}{36}{4C}{C0}を\n<0B:00000001>{14}{36}{48}{C0}<0B:00000000>個手に入れました	Acquired {16}{36}{4C}{C0} x<0B:00000001>{14}{36}{48}{C0}<0B:00000000>.	recover
+scenario	{18}{44}{9C}{14}{D2}{25}{88}{C6}{C6}{C0}だよ、早くしてね	{18}{44}{9C}{14}{D2}{25}{88}{C6}{C6}{C0}, so hurry it up.	recover
+scenario	「しばらくは」というのは\nじつは<item:0000004A>からは\n同じ種が取れないらしいのです	I say 'for a while' because,\nin fact, it seems you can't gather\nthe same kind from <item:0000004A>.	recover
+scenario	「また来ちゃいました」って\nホント楽しいお母さんだね	'Here I am again,' huh...\nWhat a fun mother.	translated
+scenario	「真の英雄になりたくば、\n　私を倒して行きなさい！\n　････とか、言ってみたりして～☆」	"If you want to become a true hero,\n defeat me and move on!\n ...or so I might say~ hee hee ☆"	translated
+scenario	『七将軍像』\nヒューゴの乱の時代、セインガルドを\n統治していた七人の将軍を奉った像	'Seven Generals Statue' A statue\nhonoring the seven generals\nwho ruled Seinegald during\nthe era of Hugo's Rebellion.	recover
+scenario	『低レベルのプロテクト解除には\n　<item:00000037>、<item:00000038>、<item:00000039>\n　この三つのチップが必要だ\n　低レベルプロテクトを解除して、<item:00000036>を入手しろ』	'Disabling low-level protection\nrequires these three chips:\n<item:00000037>, <item:00000038>, <item:00000039>.\nDisable it and obtain <item:00000036>.'	recover
+scenario	『御社の通販で買った<item:000001AF>ですが\nちっとも効きません（宝くじ当たらねーぞ！）\nこれを装備すると、本当に幸運が上がるんですか？\n効き目が無いようなので返品します』	'I bought\n<item:000001AF>\nfrom your catalog, but it did\nnothing--no lottery win! Does it\nraise luck? I'm returning it.'	recover
+scenario	『高レベルのプロテクト解除には\n　<item:00000036>、<item:00000034>、<item:00000035>\n　この三つのキーが必要だ　キーをそろえれば、\n　保管所の奥にあるコンテナを開けられる』	'Removing high-level protection\nrequires these three keys:\n<item:00000036>, <item:00000034>, <item:00000035>.\nWith all three, you can open the\ncontainer deep in the storage room.'	recover
+scenario	あ、あなたは!?	Y-you're...?!	translated
+scenario	あ、そうそう\n気が向いて、時間があったら\n家までいらっしゃい	Oh, and one more thing.\nIf you feel like it and have time,\ncome by the house.	translated
+scenario	あ、そうそう\n気が向いて、時間があったら\n家まで来てください	Oh, and one more thing.\nIf you feel like it and have time,\ncome by the house.	translated
+scenario	あ、でも、\n別に困ってるわけじゃ････\n<Loni>なんかより、よっぽど\n頼りになってる感じだし････	Oh, but it's not that he's\na handful... he's honestly more\ndependable than the likes\nof <Loni>...	translated
+scenario	あ、でも、困ってるわけじゃ････\n最近だと、スタンさんみたいに\n俺たちを引っ張っていってる\nくらいですし････	Oh, but it's not that he's\na handful... lately he's been\nleading us along, like Stahn\nused to...	translated
+scenario	あ、はい！	Ah, yes!	translated
+scenario	あ、もちろん\nあなた達のことも気にしてるのよ	Oh, and of course\nI worry about you all too.	translated
+scenario	あ、もちろん\n私がどんなにホンキで向かっていっても\n兄さんは軽く流すか、ワザと攻撃を受けて\n終わりだったけどね	Oh, of course, no matter how\nseriously I came at him, my\nbrother would just brush me off,\nor take a hit on purpose, and done.	translated
+scenario	あ、やっぱりそうでしたか	Ah, so I was right after all.	translated
+scenario	あ、会ってなどいない！\n････････････････････\n････他人の空似だ････	No, we've never met!\n..................\n...You've mistaken me for\nsomeone else...	translated
+scenario	あ、別に困らせたくて\n聞いたわけじゃないんですよ☆	Oh, I'm not asking to\nput you on the spot ☆	translated
+scenario	あきらめるのは早いです父さん\n時間で切れるものや、ヒットを重ねることで\n切れるものもあるんです\nもちろん、とどめをさせば消えますしね	It's too early to give up, Father.\nSome expire over time, while\nothers can be broken by landing\nenough hits. And of course, they\nvanish once you finish the foe off.	recover
+scenario	あたしがチョットくらい\n居なくたって、孤児院なら大丈夫よ\nあの子たち、意外と\nシッカリしてんだから	The orphanage will be fine\nwithout me for a little while.\nThose kids are tougher\nthan they look.	translated
+scenario	あなたの<item:0000004C>、<0B:00000001>{14}{24}{72}{C0}<0B:00000000>枚と\nわたしの<item:FFFFFFFF>を\n交換していただけませんか？	Trade:\n<item:0000004C>\n<0B:00000001>{14}{24}{72}{C0}<0B:00000000>\nFor:\n<item:FFFFFFFF>	recover
+scenario	あなた達との手合わせが、\n楽しくて楽しくて♪	Our bouts are\nso much fun ♪	translated
+scenario	あの子の、お母さん？	That girl's... mother?	translated
+scenario	あら、ごちそうさま♪	Oh my, how sweet ♪	translated
+scenario	あら、そうなんですか？	Oh, is that so?	translated
+scenario	あら、それはなおさら\nお礼を言っておかないと♪	Oh my, then all the more reason\nI must thank you ♪	translated
+scenario	あら、大丈夫よ\n兄さんを起こしてた時の方が\nよっぽどか骨身に　えてたわ	Oh, I'm fine.\nWaking my brother up used to\nrattle my bones far worse.	translated
+scenario	あら、頼もしいこと♪	Oh my, how dependable ♪	translated
+scenario	あらら、加減し損ねちゃったかしら\nねえ、大丈夫？	Oh dear, did I fail to hold back?\nHey, are you all right?	translated
+scenario	あら？\nそれで、ご期待にはそえられてます？	Oh?\nAnd is it living up to your hopes?	translated
+scenario	あら？\n兄さんをご存知ですか？	Oh?\nYou know my brother?	translated
+scenario	ありがとう、<Kyle>	Thank you, <Kyle>.	translated
+scenario	あんたにはもったいない仲間が\nあんなに居るんだもの\n････それに、あたしも居るし\n父さんだって見守ってくれてるわ	You've got such wonderful friends,\nfar more than you deserve.\n...And you've got me,\nand your father watching over you.	translated
+scenario	あんなにエラい人なのに\nあたしの悩みを\n一所懸命聞いてくれるんだ	She's such an important person,\nyet she listens to my worries\nwith all her heart.	recover
+scenario	あ！\n私にだって、そりゃ\nストレスの一つや二つは\nあるんですからね	Ah! Even I have\na stress or two,\nyou know.	translated
+scenario	あ～、確かに････	Ah~, that's for sure...	translated
+scenario	あ～、私も魅了されたいっ！\nさぁ、皆さんに紹介します！\n戦うキュートな人妻ぁ～	Ah~, I want to be enchanted too!\nNow, let me introduce her!\nThe fighting, cutie wife~	translated
+scenario	あ～あ、またまた負けちゃった････\n････前は、もっと\n動けてたはずなのに････	Aw~, I lost yet again...\n...I'm sure I used to\nmove better than this...	translated
+scenario	あ～あ、また負けちゃった････\n････私、弱くなったのかしら？	Aw~, I lost again...\n...Am I getting weaker?	translated
+scenario	あ～あ、負けちゃった････\n････甘く見てたかしら？	Aw~, I lost...\n...Did I underestimate you?	translated
+scenario	い、いいえ\nそんな････	N-no,\nnot at all...	translated
+scenario	い、いえ\nそんな････	N-no,\nnot at all...	translated
+scenario	い、いえ、いいんです！	N-no, it's quite all right!	translated
+scenario	いいえ！\nオレも、すごく嬉しいです!!	No! I'm really happy too!!	translated
+scenario	いいのよぉ、お礼なんて\n面白そうだから、一緒に居るだけだし	No need to thank me~.\nI'm just along because it looks fun.	translated
+scenario	いや！　やめてッ！\nわたしにはまだ\nここで果たすべき使命が････	No! Stop it!\nI still have\na mission to fulfill here...!	recover
+scenario	う、うんっ！	Y-yeah!	translated
+scenario	ううむ････素晴らしい出来だ\nまったくウィンターズという鍛冶士は\n大したものだな	Hmm... splendid work.\nThat blacksmith Winters truly\nis something else.	recover
+scenario	うむ	Mm.	translated
+scenario	うむ、流石だ	Mm, as expected.	translated
+scenario	うんっ！	Mm-hm!	translated
+scenario	え!?\nそ、それは、その････	Eh?!\nTh-that's, um...	translated
+scenario	え!?\nちょっ、まっ、\nまだ、心の準備が!?	Eh?! W-wait, hold on,\nI'm not mentally ready yet?!	translated
+scenario	え!?\nは、はい!!	Eh?!\nY-yes!!	translated
+scenario	え、ええ\nもちろんですわ	Y-yes,\nof course I am.	translated
+scenario	お、おばさん、ゴメン････\nオレ、手加減できなくって････	A-Auntie, I'm sorry...\nI couldn't hold back...	translated
+scenario	お、お二人とも\nありがとうございます！	Th-thank you both\nso much!	translated
+scenario	おれさまは、グリッド！\n戦闘からの離脱の速さゆえについた\nあだ名が、「音速の貴公子」！	I am Grid! My nickname, earned for\nmy speed in retreating from battle,\nis the 'Prince of Sonic Speed'!	recover
+scenario	おれさまは、グリッド！\n戦闘からの離脱の速さゆえについた\nあだ名が「音速の貴公子」！	I am Grid! My nickname, earned for\nmy speed in retreating from battle,\nis the 'Prince of Sonic Speed'!	recover
+scenario	お二人とも\n本当にありがとうございます	Thank you, both of you,\ntruly.	translated
+scenario	お二人とも、ありがとうございます	Thank you, both of you.	translated
+scenario	お二人とも、ありがとうございます！	Thank you both so much!	translated
+scenario	お二人とも、素晴らしかったですわ	You were both wonderful.	translated
+scenario	お二人の思い\n確かに、受け取りました！	Your feelings,\nI've received them, truly!	translated
+scenario	お手合わせのお礼を用意して\n待ってますから	I'll have a thank-you for our bout\nready and waiting.	translated
+scenario	お手合わせのお礼を用意して\n待ってるから	I'll have a thank-you for our bout\nready and waiting.	translated
+scenario	お節介だとは、わかっていますが\n言葉だけでは伝えられない思いを\nあなた方にお伝えしたくて････	I know it's meddling, but there\nare feelings words alone can't\nconvey, and I wanted to show\nthem to you all...	translated
+scenario	か、母さんッ!?	M-Mom?!	translated
+scenario	かつての英雄も\nあんがい、ヒマなのね	So even the heroes of old\nhave time on their hands.	translated
+scenario	かつての英雄を倒せないようじゃ\n神を倒すなんて、どだいムリだし\nチカラ試しには、もってこいの相手ね\n････グフッ、グフフフフフ････	If we can't beat the heroes of old,\nbeating a god's out of the question.\nThey're the perfect measure of\nour strength. ...Gufu, gufufufu...	translated
+scenario	き、「来ちゃいました☆」\nと言われても････	'H-here I am again ☆'...\nEven if you say that...	translated
+scenario	きっと、まだ答えを探して\n悩んでいらっしゃるかと思いまして････	I thought you must still be\nsearching for your answer,\ntroubled by it...	translated
+scenario	くぅ～～、シビレル～～～～っ!!!!	Oooh~~, I'm getting chills~~~~!!!!	translated
+scenario	こうして、あなたと手を合わせてたら\nまるで兄さんと手合わせしてたみたいな\n気持ちになったわ	Facing off with you like this\nfelt just like I was\ncrossing swords with my brother.	translated
+scenario	こちらが賞き････	And here is your prize m--	translated
+scenario	この<item:00000045>は差しあげます	I'll give you this <item:00000045>.	recover
+scenario	このカードが観れるみなさんは\n幸せ者だ～～っ!!	Everyone who gets to see this\nmatchup is a lucky one~~!!	translated
+scenario	このコンテナは<item:00000036>で\nプロテクトされています	This container is protected\nby <item:00000036>.	recover
+scenario	この前、ここで手合わせしたら\nミョーに落ち着いたって言うか････\n････ストレス発散ってヤツ？\nそんな感じだったの	When I had a bout here last time,\nit strangely calmed me down...\n...a bit of stress relief?\nSomething like that.	translated
+scenario	これが<item:000001B4>だ！	This is <item:000001B4>!	recover
+scenario	これのことだな？\nダイクロフトへ行くための魔法陣って	This is it, right? The magic circle\nthat leads to Dycroft...	recover
+scenario	こんな所に<item:00000030>があります\nまだ使えそうですが\n<item:00000030>を持っていきますか？	There's a <item:00000030> here.\nIt looks like it still works.\nTake the <item:00000030>?	recover
+scenario	さあ、行きたまえ！\n我らが愛する息子\n<Kyle>＝デュナミス!!	Now, go!\nOur beloved son,\n<Kyle> Dunamis!!	translated
+scenario	さあ皆さん、ご一緒にぃ～～！	Now everyone, all together~~!	translated
+scenario	さすがは親族！\n兄の子ともなると、\n容易に想像が付くのねぇ	Kin indeed! When it's your\nbrother's child, it's easy\nto imagine, isn't it.	translated
+scenario	さて\nあなたの冒険は、\nまだ終わっていないんでしょ？	Now then,\nyour journey isn't over yet,\nis it?	translated
+scenario	さて！\nそれじゃ、早速、始めますか！	Now then!\nShall we get started right away?!	translated
+scenario	さて！\nそれじゃあ、始めますか！	Now then!\nShall we begin?!	translated
+scenario	さらに\nリーネで採れた新鮮な野菜を\nドッサリもらいました	Furthermore, you received plenty\nof fresh vegetables harvested right\nhere in Lienea.	recover
+scenario	さ！\n最後まで目一杯、暴れてらっしゃい！\nあたしたちの英雄、\n<Kyle>＝デュナミス!!	Now! Go wild right to the end!\nOur hero,\n<Kyle> Dunamis!!	translated
+scenario	す、すみません\n<Kyle>さん････	I-I'm sorry,\n<Kyle>...	translated
+scenario	すまない	Forgive me.	translated
+scenario	せめて気持ちだけでも\n若いつもりになって、\nテンション上げて、行っくわよぉ～！	At least in spirit, I'll pretend\nI'm young, pump myself up,\nand here I gooo~!	translated
+scenario	ぜひ、お手合わせをお願いします!!	Please, do us the honor of a bout!!	translated
+scenario	そ、そうそう、ウッドロウさんが\n<Kyle>さんと手合わせすると、\nスタンさんとの旅を思い出す、と\nお年も考えずにおっしゃって無理やり	O-oh yes, Woodrow said a bout\nwith you reminds him of his\njourney with Stahn, and insisted,\nheedless of his age...	translated
+scenario	そ、そうだね\nそれに、ほら\nあたしは、まだお相手してないしさ\nめ、迷惑だなんて思ってないさ！	Y-yeah. And besides, look,\nI haven't faced you yet.\nI-I don't think it's a nuisance!	translated
+scenario	そ、それに、ほら\n私は、まだお二人の思いを\n受けていないし････\nめ、迷惑だなんて、そんな････	A-and besides, look,\nI still haven't received\nyour feelings yet...\nA nuisance? Never...	translated
+scenario	そ、そんな、お礼なんか････\nあたしの好きで一緒に居るだけだし、\nそれに、結構楽しんでるし････	N-no, no need to thank me...\nI'm with him because I want to be,\nand I'm having fun, too...	translated
+scenario	そ、そんなことはありません！\n････いえ、ないわけでは\nないのですが････	Th-that's not true!\n...Well, it's not that\nit isn't true, but...	translated
+scenario	そう、英雄スタン\nあなたのお父さん	Yes, Hero Stahn.\nYour father.	translated
+scenario	そうか、待ってな\nすぐに{16}{35}{E0}{C0}を作ってやるよ	All right, just a moment.\nI'll have {16}{35}{E0}{C0} ready in no time.	recover
+scenario	そうだね\nこんな心強いこたぁないよ	You said it.\nNothing's more reassuring.	translated
+scenario	そうだね！\nこんな心強いこたぁないね!!	You bet!\nThere's nothing more reassuring!!	translated
+scenario	そうねぇ\n<Kyle>\nあんたにとっては、サイコーの\nはなむけなんじゃない？	Indeed.\n<Kyle>,\nfor you this is the finest\nparting gift, wouldn't you say?	translated
+scenario	そうねぇ････	Indeed...	translated
+scenario	そうはいっても父さん、ＨＰがなくなれば\n効果が切れてしまいますし、回復晶術などを\nかけても効果が早く切れてしまいますよ	Even so, Dad, if your HP runs\nout, the effect wears off. And\neven if you cast healing magic,\nthe effect will expire quickly.	recover
+scenario	そう来なくっちゃ♪\n天才の実力、教えてあげるわ！	That's the spirit ♪\nI'll show you a genius's skill!	translated
+scenario	そのことが、私たちは\nこの上なく嬉しかったのだよ\n<Kyle>くん	That made us happier\nthan anything, <Kyle>.	translated
+scenario	その勇敢な挑戦者は、みなさんも\nご存知のあのお方！	And this brave challenger is\nsomeone you all know well!	translated
+scenario	その勇敢な挑戦者は、みなさんも\nご存知のあの方々！	And these brave challengers are\npeople you all know well!	translated
+scenario	その息子が、親である私たちに\n相談してきてくれた	And that son came to us,\nhis parents, for advice.	translated
+scenario	それでは、<Kyle>さん\nこれからも頑張ってくださいね	Well then, <Kyle>,\nkeep up the good work.	translated
+scenario	それでは、始めよう	Well then, let's begin.	translated
+scenario	それと、回復晶術は\n「対象のＨＰが７５％以下のときに\n　使用したとき」のみ\n使用回数が増える　気をつけろ!!	Also, for recovery Magic Artes,\nusage count only goes up\nwhen used on a target below 50% HP.\nWatch out for that!!	recover
+scenario	それに、ほら\nあたしは、まだ手合わせしてないしさ\n自分の力を、試してみたいって\n思ったりしてたんだよ	And besides, look, I haven't\nhad a bout with you yet.\nI was kind of hoping to\ntest my own strength.	translated
+scenario	それに、ほら\n私は、まだお二人の思いを\n受けていないし････	And besides, look,\nI still haven't received\nyour feelings yet...	translated
+scenario	それはそれとして！\nそれじゃあ、始めますか！	That aside!\nShall we begin?!	translated
+scenario	それはともあれ、あんな子ですけど、\nどうか、これからも\nよろしくお願いしますね	In any case, he's a handful,\nbut please, do keep looking\nafter him from here on.	translated
+scenario	それを聞いたら、\n昔を思い出したって言うか\n血が騒いだっていうか\nウズウズしちゃってね	When I heard that, it took me back,\nyou could say, or got my blood\npumping, or... well, I just\ncouldn't sit still.	translated
+scenario	そんなワケで、\nアレやコレや言い訳をするつもりは\nもうありません！\nさっさと、始めちゃいましょ☆	So anyway, I've no intention of\nmaking any more excuses about\nthis or that! Let's just hurry up\nand begin ☆	translated
+scenario	だ、大丈夫かい!?	A-are you okay?!	translated
+scenario	ってことは、こりゃあ････！	Then this is...!	recover
+scenario	で、ここならリーネで待つより\n会える可能性が高いと思ったし、\nそれに手合わせすれば、\n体調とかも把握できるって言うか	And here I'm more likely to meet\nyou than by waiting in Lienea,\nand a bout lets me check how\nyou're all keeping, too.	translated
+scenario	で、どうする？　<Kyle>！\nソイツと引き換えに、なにか作ってみるか？\n俺が好きなように作るから\nどんなものに仕上がるかはお楽しみだがな！	So, what'll it be, <Kyle>?! Wanna\nhave me make something in exchange\nfor that? I'll craft it however\nI like, so you'll just have to\nwait and see how it turns out!	recover
+scenario	で、どう？　<Kyle>\nあんたが探してた答えは\n見つかったかしら？	So? <Kyle>,\ndid you find the answer\nyou were looking for?	translated
+scenario	で、またここに来た理由は？\nまあ、だいたい想像つくけど\n聞かせてくれない？	So, the reason you came back?\nWell, I can pretty much guess,\nbut won't you tell me?	translated
+scenario	で、思い切って出場しちゃったの☆	So I took the plunge and entered ☆	translated
+scenario	では、さっそく始めよう	Well then, let's begin at once.	translated
+scenario	では、始めよう	Well then, let's begin.	translated
+scenario	では、改めて\nお手合わせ、お願いします!!	So then, once more,\nplease do us the honor of a bout!!	translated
+scenario	でも、<Kyle>は\nホントに幸せ者よね～\nこんな素敵な仲間と出会えて	But <Kyle>, you really are\na lucky one~, meeting\nsuch wonderful friends.	translated
+scenario	でも、おなかが大きくなってくると\nああ、子供が生まれるんだなってのが\n実感できるわ	But once your belly starts to grow,\nyou really start to feel like...\noh, a child's really coming.	recover
+scenario	でも、なんで\nまた、ここに来たんだい？	But why did you\ncome here again?	translated
+scenario	でも、やっぱり、\nお礼くらい言わせてください\n<Kyle>の叔母としての\n素直な気持ちなんですから	But still, do let me thank you.\nIt's the honest feeling\nof <Kyle>'s aunt, after all.	translated
+scenario	でも、不思議ね～	But it's strange~	translated
+scenario	どうして、ここに!?	Why are you here?!	translated
+scenario	どうして、ここに？\n孤児院は、どうしたの!?	Why are you here?\nWhat about the orphanage?!	translated
+scenario	なるほどね\nうんうん、私の想像通りの人だわ♪	I see, I see.\nJust the person I imagined ♪	translated
+scenario	なんとッ！\nたった今、優勝を決めたこの英雄に\n戦いを挑む者が現れました!!	What's this?! A challenger has\nappeared to face the hero who\njust claimed victory!!	translated
+scenario	なんとッ！　たった今\n優勝を決めた、この名タッグに\n戦いを挑むコンビが現れました!!	What's this?! A duo has appeared\nto challenge the famous tag team\nthat just claimed victory!!	translated
+scenario	なんとッ！　たった今\n優勝を決めた、この若者と\n以前、剣を交えたあの名コンビが\n再び参戦を名乗り出てくださいました！	What's this?! The famous duo who\nonce crossed swords with this\nyoung man has stepped forward\nto join the fray again!	translated
+scenario	なんとッ！　たった今\n優勝を決めた、この若者に\n戦いを挑む者が現れました!!	What's this?! A challenger has\nappeared to face this young man\nwho just claimed victory!!	translated
+scenario	なんとッ！　たった今\n優勝を決めた、この若者に\n挑戦者が現れました!!	What's this?! A challenger has\nappeared to face this young man\nwho just claimed victory!!	translated
+scenario	なんとッ！　たった今\n優勝を決めた、この若者に\n馴染み深いあのお二方が\n三度の参戦に名乗り出ました！	What's this?! These two familiar\nfaces have stepped forward to\njoin this young man's victory\nfor a third time!	translated
+scenario	なッ!?\nか、母さん！\nそ、そのカッコ････	Wha--?!\nM-Mom! Th-that getup...	translated
+scenario	ねっ！　<Harold>!!	Right, <Harold>?!	translated
+scenario	ねっ！　<Nanaly>!!	Right, <Nanaly>?!	translated
+scenario	ねっ！　<Reala>!!	Right, <Reala>?!	translated
+scenario	は、はあ････	S-sigh...	translated
+scenario	はあ････	Sigh...	translated
+scenario	はい！\nありがとうございました!!	Yes!\nThank you so much!!	translated
+scenario	はい！\n本当にありがとうございました!!	Yes!\nThank you so much!!	translated
+scenario	はっ!?\nそれとも、年のせい!?\nやだわぁ～	Hah?!\nOr is it my age?!\nHow awful~	translated
+scenario	はっ!?\nやっぱり、年のせい!?\nやだわぁ～	Hah?!\nSo it is my age after all?!\nHow awful~	translated
+scenario	はっ!?\n確実に、年のせい!?\nやだわぁ～	Hah?!\nDefinitely my age?!\nHow awful~	translated
+scenario	ひと瓶<0B:00000001>{14}{35}{D0}{C0}<0B:00000000>ガルドになりますが、\n<item:00000012>を買いますか？	One bottle costs <0B:00000001>{14}{35}{D0}{C0}<0B:00000000> Gald.\nWould you like to buy <item:00000012>?	recover
+scenario	ひと瓶<0B:00000001>{14}{35}{E4}{C0}<0B:00000000>ガルドになりますが、\n<item:00000012>を買いますか？	That'll be <0B:00000001>{14}{35}{E4}{C0}<0B:00000000> Gald per bottle.\nWould you like to buy <item:00000012>?	recover
+scenario	ひと瓶<0B:00000001>{14}{35}{F0}{C0}<0B:00000000>ガルドになりますが、\n<item:00000012>を買いますか？	One bottle costs <0B:00000001>{14}{35}{F0}{C0}<0B:00000000> Gald.\nWould you like to buy <item:00000012>?	recover
+scenario	ひと瓶<0B:00000001>{14}{36}{30}{C0}<0B:00000000>ガルドになりますが、\n<item:00000012>を買いますか？	One bottle costs <0B:00000001>{14}{36}{30}{C0}<0B:00000000> Gald.\nWill you buy <item:00000012>?	recover
+scenario	ひと瓶<0B:00000001>{14}{36}{44}{C0}<0B:00000000>ガルドになりますが、\n<item:00000012>を買いますか？	One bottle costs <0B:00000001>{14}{36}{44}{C0}<0B:00000000> Gald.\nWill you buy <item:00000012>?	recover
+scenario	ひと瓶<0B:00000001>{14}{37}{40}{C0}<0B:00000000>ガルドになりますが、\n<item:00000012>を買いますか？	One bottle costs <0B:00000001>{14}{37}{40}{C0}<0B:00000000> Gald.\nWould you like to buy <item:00000012>?	recover
+scenario	ふ～ん、そうなんだ	Hmm, is that so.	translated
+scenario	ま、「また来ちゃった☆」って････	'H-here I am again ☆,' she says...	translated
+scenario	まぁ、あたしと父さんの子だもの\nそんなに心配もしてなかったけどね	Well, you are mine and your\nfather's kid. I wasn't all\nthat worried anyway.	translated
+scenario	まあ、そんな感じで\nまた出場したの	So, that's about the size of it,\nand I entered again.	translated
+scenario	まず、雪かきのための道具\n<item:0000003A>を<0B:00000001>{14}{11}{5B}{C0}<0B:00000000>個\n買ってきてほしいの	Please buy:\n<item:0000003A>\nQuantity:\n<0B:00000001>{14}{11}{5B}{C0}<0B:00000000>\nFor snow shoveling.	recover
+scenario	また<item:0000004A>が手に入りましたか？	You found another <item:0000004A>, have you?	recover
+scenario	また<item:0000004C>が手に入ったら、\nよろしくお願いしますね	If you get your hands on <item:0000004C> again,\nbe sure to come see me.	recover
+scenario	また、何でここに？	Why are you here again?	translated
+scenario	みなさん、ご唱和ください！\n我らが誇る四英雄のォ～	Everyone, chant along!\nOur proud Four Heroes~	translated
+scenario	みなさんの無事を祈って、\n<item:000001B7>を差しあげますわ	I pray for your safe journey,\nand offer you this <item:000001B7>.	recover
+scenario	みなさんも、ご一緒に！\n我らが誇る四英雄のォ～	Everyone, together now!\nOur proud Four Heroes~	translated
+scenario	もぅ、サイコーっ♪\n<Kyle>達以外で\n私を飽きさせないなんて\n貴重な人材だわ♪	Ohh, this is the best ♪\nApart from <Kyle> and the others,\nno one keeps me from getting bored.\nYou're a precious find ♪	translated
+scenario	もう<item:0000006A>は無い････	No more <item:0000006A> left...	recover
+scenario	もし<item:0000004C>を見つけたら\nわたしに譲っていただけませんか？	If you find any <item:0000004C>,\nwould you mind letting me have them?	recover
+scenario	もしもっと<item:0000004A>が取れたら\n譲っていただきたいです	If you find more\n<item:0000004A>,\nplease let me have some.	recover
+scenario	もちろんよ\n一緒に居て飽きないし、\nそれに、まだまだ\n楽しめそうだしぃ～	Of course. I never tire of\nhis company, and it seems\nthere's plenty more\nfun to be had~.	translated
+scenario	や、やあ、<Kyle>くん	H-hello there, <Kyle>.	translated
+scenario	やあ、<Kyle>くん	Hello there, <Kyle>.	translated
+scenario	ゆきだるまの中に\n<item:000001AF>がありました	Inside the snowman\nwas <item:000001AF>.	recover
+scenario	ゆずってくれれば{16}{35}{E0}{C0}を\n作るがどうだい？	Hand them over and I'll whip up\nsome {16}{35}{E0}{C0}. How about it?	recover
+scenario	わかったよ\nリリスおばさん、いくよ！	All right,\nAuntie Lilith, here I come!	translated
+scenario	わかったよ\nリリスおばさん！	All right,\nAuntie Lilith!	translated
+scenario	わかったよ\n相手になってやろうじゃないか！	All right,\nI'll take you on!	translated
+scenario	わかったわ\n必ず行くわ	Understood.\nI'll be sure to come.	translated
+scenario	わかった！\n必ず行くよ!!	Got it!\nI'll be sure to come!!	translated
+scenario	わかりました\nおばさま、\n本当にありがとうございました！	Understood.\nAuntie,\nthank you so very much!	translated
+scenario	わかりました\nでは、いきます!!	Understood.\nThen, here I go!!	translated
+scenario	わかりました\nリリスさん、\n本当にありがとうございました！	Understood.\nLilith,\nthank you so very much!	translated
+scenario	わしは、ネコの小物を集めておるんじゃ！\nアクアヴェイル名物の\n「<item:00000031>」が欲しいのぉ････	I'm collecting cat accessories!\nThere's a famous Aquaveil specialty\ncalled "<item:00000031>" that I want...	recover
+scenario	わたしは<item:0000004C>を集めています	I'm collecting <item:0000004C>.	recover
+scenario	ん？<item:000001AF>が落ちてる\nあと、手紙が････	Huh? <item:000001AF>'s lying here.\nAnd there's a letter...	recover
+scenario	ん？　だれか来てるみたいだ････	Sounds like someone's coming...	recover
+scenario	アクアラビリンスに行きますか？\n<03:00000000>　　　　<size:000000C0><color:00000002>セーブはしましたか？	Go to the Aqua Labyrinth?\n<03:00000000> <size:000000C0><color:00000002>Have you saved?	recover
+scenario	ウ、ウッドロウさん!?\nそれに、フィリアさんまで!?\nお城や神殿は\nどうしたんですか!?	W-Woodrow?!\nAnd Philia too?!\nWhat about the castle\nand the temple?!	translated
+scenario	ウ、ウッドロウさん！\nフィリアさんも！\nまた、どうかしたんですか!?	W-Woodrow!\nAnd Philia!\nSomething the matter again?!	translated
+scenario	ウッドロウさん？\nお伝えし損ねたことは、\nございませんか？	Woodrow?\nIs there nothing\nyou've forgotten to say?	translated
+scenario	ウッドロウさん？\nもう、よろしいですね？	Woodrow?\nWe're done now, yes?	translated
+scenario	ウフフ\nまたまた来ちゃいました☆	Ufufu.\nBack yet again ☆	translated
+scenario	ウフフ\nまた来ちゃいました☆	Ufufu.\nHere I am again ☆	translated
+scenario	エヘヘ～\nまたまた来ちゃった☆	Ehehe~\nBack yet again ☆	translated
+scenario	エヘヘ～\nまた来ちゃった☆	Ehehe~\nHere I am again ☆	translated
+scenario	サクラバがピアノを演奏中です\n\n\n　　　　<button:00000036>で演奏中断	　\n　\nSakuraba is playing the piano.\nPress <button:00000036> to stop.	recover
+scenario	スロットによって装備品の名前も変わります\n<item:00000079>　＋　アタックで\nアタックソードなどです	Slots can change equipment names.\nCombine\n<item:00000079>\nwith Attack to make an Attack Sword.	recover
+scenario	ハンマーもトンカチも見当たらない\nやはり凍った<item:00000061>でクギを打っていたのだろう	No hammers or mallets are here.\nThey must have used frozen\n<item:00000061>\nto drive the nails.	recover
+scenario	フィ、フィリアくん!?\nそれは、ズルイではないか!?	Ph-Philia?!\nIsn't that playing dirty?!	translated
+scenario	フィリアくん\nき、君の方こそ、大丈夫かね････？	Philia, a-are you the one\nwho's all right...?	translated
+scenario	フィリアさーーーーーーーん！！\nスタンの息子なんぞ、\nぶっ飛ばしてくださーーーい！！	Phiiiliaaaa!!\nGo ahead and knock\nStahn's son flat!!	translated
+scenario	フフフ････\nその様子でしたら、大丈夫ですね	Hehehe... From that look,\nyou'll be fine.	translated
+scenario	プレートに<item:0000002F>をはめ込めそうです\n持っている<item:0000002F>をはめ込みますか？	The <item:0000002F> seems to fit the plate.\nInsert the <item:0000002F>?	recover
+scenario	ヘヘ、よおブラザー\nその<item:0000007D>よぉ、俺のなのよ\n欲しけりゃ売ってやるぜ	Heh, hey there, brother.\nThat <item:0000007D> there? It's mine.\nI'll sell it to ya if you want it.	recover
+scenario	ホント楽しいお母さんね\nさっすが、<Kyle>の叔母さん！\n私の思った通りの人だわ♪	What a fun mother. That's <Kyle>'s\naunt for you! Just the person\nI imagined ♪	translated
+scenario	リ、リリスおばさま!?	A-Auntie Lilith?!	translated
+scenario	リ、リリスおばさん!?	L-Lilith?!	translated
+scenario	リ、リリスさん!?	L-Lilith?!	translated
+scenario	リ、リリスさん････\nその････俺････････	L-Lilith...\nUm... I......	translated
+scenario	リ、リリス････さん？	L-Lilith...?	translated
+scenario	リムルが久しぶりに家に帰ってきたのよ	Rhym came home for the first\ntime in a while.	translated
+scenario	リリスぅ～～!!	Lilithhh~~!!	translated
+scenario	リリスぅ～～!!!!	Lilithhh~~!!!!	translated
+scenario	リリスおばさん････	Auntie Lilith...	translated
+scenario	リーネで待ってても\nあれやこれやと気をもむばかりだし\nそれなら直接、顔を見た方が\n安心するでしょ？	Waiting back in Lienea,\nI just fret over this and that.\nSo seeing your faces in person\nputs me at ease, right?	translated
+scenario	ルーティぃ～\nカトレットぉ～～!!	Ruteeeee~\nKatreaaa~~!!	translated
+scenario	不思議な切りかぶの上に<item:00000032>があります\nこの<item:00000032>を持っていきますか？	There's <item:00000032> on the strange stump.\nTake the <item:00000032>?	recover
+scenario	二人とも、ありがとう	Thank you, both of you.	translated
+scenario	今しがた優勝を決めた、この若者に\n挑戦者が現れました!!	A challenger has appeared to face\nthis young man who just won!!	translated
+scenario	今回で二回目のご乱入！\n前回の乱入で、固定ファンも\nすでに多く出ているようだっ!!\nかく言う私も、その一人だぁ～～ッ!!!!	Her second crashing entrance!\nAfter the last one, she's already\ngot plenty of devoted fans!!\nMyself included, of courseee!!!!	translated
+scenario	今度は、小屋を作るための道具\n<item:0000003D>を<0B:00000001>{14}{11}{5B}{C0}<0B:00000000>個\n買ってきてほしいの	Please buy:\n<item:0000003D>\nQuantity:\n<0B:00000001>{14}{11}{5B}{C0}<0B:00000000>\nFor building a hut.	recover
+scenario	今日はもう疲れたでしょう？\nひと晩、ここで泊まっていけば？	You must be tired after today.\nWhy not stay here for the night?	recover
+scenario	伝えたいこと････ですか？\nで、でも二人ともバルバトスに\n襲われたキズがまだ････	Something to tell me...?\nB-but you were both wounded\nin Barbatos's attack...	translated
+scenario	何で、ここに？	Why here?	translated
+scenario	使うときは、<button:00000039>ボタンだ\nだが、ソーサラーリング以上に\nレンズを消費する、気をつけろよ	When you use it, press the <button:00000039>\nbutton. But be warned: it consumes\neven more Lens than the Sorcerer's\nRing.	recover
+scenario	優勝おめでとうございます	Congratulations on your victory!	translated
+scenario	先日まで、当闘技場で\n「最強」の名を欲しいままにしていた\n武芸者リムルを生み育て、	The one who raised the martial\nartist Rhym, who until recently\nheld the name of 'strongest'\nright here in this arena,	translated
+scenario	凍った<item:00000061>････\nまさか、これでクギを打ってたわけじゃ\nないよな････？	Frozen\n<item:00000061>...\nSurely they didn't use this to\nhammer in nails...?	recover
+scenario	前に進みたまえ！\n我らが誇れる息子\n<Kyle>＝デュナミス!!	Press forward!\nOur son to be proud of,\n<Kyle> Dunamis!!	translated
+scenario	前を向いて突き進みたまえ！\n我らが息子、そして我らが英雄\n<Kyle>＝デュナミス!!	Face forward and press on!\nOur son, and our hero,\n<Kyle> Dunamis!!	translated
+scenario	君こそ、<Kyle>くんには、\nまだまだ、私たちの力が必要だ\nと言って、無理やり	You're the one who insisted <Kyle>\nstill has great need of our\nstrength, and forced the issue!	translated
+scenario	君と同じように、私たちにも\n頼れる仲間が居るからね	Just like you, we too\nhave friends we can rely on.	translated
+scenario	問答無用っ!!\nさ！　行くわよぉッ～!!	No arguments!!\nCome on, let's go~!!	translated
+scenario	四英雄がひとりィ～	One of the Four Heroes~	translated
+scenario	大きなコンテナがあります\n<item:00000034>、<item:00000035>、<item:00000036>\nこの三つの鍵でプロテクトされているようです	There's a large container here,\nprotected by three keys:\n<item:00000034>, <item:00000035>, <item:00000036>.	recover
+scenario	実は<item:0000004C>を集めてて････	Actually, I've been collecting\n<item:0000004C>...	recover
+scenario	実兄である英雄スタンでさえも、\n手玉に取ったという\nある意味「真の最強」と呼ぶに相応しい\nそのお方！	and who is said to have run\neven her own brother, Hero Stahn,\nround her finger. In a sense,\nworthy of the name 'true strongest'!	translated
+scenario	小屋を作るための道具\n<item:0000003C>を<0B:00000001>{14}{11}{5B}{C0}<0B:00000000>個\nお願いするわね	I need tools for building a hut.\nCould you get me <item:0000003C> x<0B:00000001>{14}{11}{5B}{C0}<0B:00000000>?\nI'd be ever so grateful.	recover
+scenario	小屋を作るための道具\n<item:0000003E>を<0B:00000001>{14}{11}{5B}{C0}<0B:00000000>個\n運んできてほしいの	I need tools for building a hut.\nCould you bring me <item:0000003E> x<0B:00000001>{14}{11}{5B}{C0}<0B:00000000>?	recover
+scenario	建材の中から凍った<item:00000061>が出てきた	Among the building materials was\na frozen\n<item:00000061>.	recover
+scenario	彼らが居てくれるから\n私たちも安心して、城や神殿を離れ\nこうして、ここに来れるのだよ	Because they're there for us,\nwe can leave the castle and\ntemple with peace of mind\nand come here like this.	translated
+scenario	待ってました!!!!	We've been waiting!!!!	translated
+scenario	怪しい場所では<item:00000033>を\n使ってみよう	Try using <item:00000033>\nin suspicious places.	recover
+scenario	息子のことを思えば、\nこのくらいのキズなど、\nケガのうちに入らないものだよ	When it's about our son,\na scratch like this\nhardly counts as a wound.	translated
+scenario	息子････	Son...	translated
+scenario	惜しくも英雄コンビに敗れました	Narrowly lost to the hero duo.	translated
+scenario	我らが誇る四英雄のォ～	Our proud Four Heroes~	translated
+scenario	戦う主婦リリスと再度激突です！	A rematch against\nthe fighting housewife Lilith!	translated
+scenario	手がかりになるものは、特注であつらえた\n金色のねこにん毛皮のみ････	The only clue I have is his\ncustom-made fur... golden cat-nin\npelts...	recover
+scenario	挑戦者からのコメントを読み上げます！	I'll read the challenger's comment!	translated
+scenario	最後まで目一杯、暴れてらっしゃい\n兄さんに負けないくらいにね☆	Go wild right to the very end,\nno less than my brother would ☆	translated
+scenario	次に、井戸を掘るための道具\n<item:0000003B>を<0B:00000001>{14}{11}{5B}{C0}<0B:00000000>個\n買ってきてちょうだい	Please buy:\n<item:0000003B>\nQuantity:\n<0B:00000001>{14}{11}{5B}{C0}<0B:00000000>\nFor digging a well.	recover
+scenario	武芸者リムルの母にして、\n英雄スタンの妹！\n「人妻」、「妹」の二つの萌え属性を\n兼ね備えたその人の名はぁ～～	Mother of the martial artist Rhym,\nand Hero Stahn's little sister!\nBearing the charms of both 'wife'\nand 'little sister'--her name is~~	translated
+scenario	母さん、大丈夫!?	Mom, are you okay?!	translated
+scenario	無敵のおたまをたずさえて、\n今日も来た来た、やって来た！\n料理がうまくて、戦いもこなす\nスーパーエクセレント主婦!!!!!!	Invincible ladle in hand,\nhere she comes again today!\nGreat at cooking, great at fighting,\na super excellent housewife!!!!!!	translated
+scenario	無理して来なくても、\nオレから出向いたのに････	You didn't have to push\nyourselves to come.\nI'd have gone to you...	translated
+scenario	父さんと････？	With Dad...?	translated
+scenario	珍しく笑顔を見せてたから\n話を聞いてみたら、ここで\n<Kyle>と剣を交えて楽しかった\nなんて言い出しちゃって	She was smiling, which is rare,\nso I asked her about it, and she\nsaid crossing swords with <Kyle>\nhere was fun.	translated
+scenario	現在、{18}{45}{E4}{C0}ですが、\nなにか御用でしょうか？	Currently at {18}{45}{E4}{C0}.\nWas there something you needed?	recover
+scenario	白い肌に光る汗！\nなびく髪と揺れるエプロン！\n繰り出す奥義はサンダーソード！\nああ、「のぞき英雄」よ永遠なれ！	Sweat glistening on fair skin!\nFlowing hair and a swaying apron!\nHer secret art: Thunder Sword!\nAh, long live the 'peeping hero'!	translated
+scenario	皆さん、ご一緒にぃ～～！\n戦う可愛い奥さまぁ～	Everyone, all together~~!\nThe fighting, adorable missus~	translated
+scenario	確かに、簡単に出るような\n答えじゃないと思う\nでも、あんたが出すしかないのよ	It won't be an easy one to find,\nI'm sure. But you're the only\none who can find it.	translated
+scenario	私が調べたところによると\n<item:00000045>を品種改良していくと\n<item:0000004A>になるそうです	According to my research,\nif you keep improving <item:00000045>,\nit should become <item:0000004A>.	recover
+scenario	私たちの公務のことなら、大丈夫だよ\n安心したまえ	Don't worry about our duties.\nSet your mind at ease.	translated
+scenario	私たちの思いは\n感じてくれただろうか？	Did our feelings\nreach you?	translated
+scenario	私たちは、全力で\n君たちを応援しよう	We will cheer you on\nwith all our hearts.	translated
+scenario	私もウッドロウさんも\n<Kyle>さんにお伝えしたいことがあって\nここなら、お会いできるとお聞きして\n参りましたの	Both Woodrow and I\nhad something to tell you, <Kyle>.\nWe heard we could meet you here,\nso we came.	translated
+scenario	答えが出なきゃ、悩めばいいじゃない！\n悩んで、悩んで\nそれでも答えが出なかったら\nあんたの隣を見なさい	If no answer comes, then agonize\nover it! Struggle and struggle,\nand if it still won't come,\nlook to the one beside you.	translated
+scenario	聞いた話では<item:0000004A>という\n乾燥に強くて収量の多い作物が\nあるそうなのです	I heard of a crop called\n<item:0000004A>.\nIt resists drought and produces\nlarge yields.	recover
+scenario	芽が出てから１０分くらいは\nかかるかしらね	It'll probably take about thirty\nminutes after sprouting, I reckon.	recover
+scenario	若い頃に戻った気になって、\nテンション上げて、行っくわよぉ～！	Feeling like I'm young again,\nlet's pump it up and gooo~!	translated
+scenario	若者の前にそびえる高き壁！\n若き戦士の登竜門！\nしかし、優しい母の愛情すら\n漂わせる、そのヒトミ！	A high wall before the young man!\nThe gateway every young warrior\nmust pass! And yet those eyes,\nbrimming with a mother's love!	translated
+scenario	英雄タッグとの再度の激突です！	A rematch against the hero tag team!	translated
+scenario	英雄ルーティと再度激突です！	A rematch against Hero Rutee!	translated
+scenario	英雄王ウッドロウ、ケルヴィぃ～～ン!!\nそして！\nアタモニ神団司祭、慈愛の英雄ぅ～\nフィリアぁ～、フィリスぅ～～!!	Hero King Woodrow Kelviiin!!\nAnd! The priestess of the Order\nof Atamoni, the hero of mercy~\nPhiliaaa Feliiice~~!!	translated
+scenario	行きますわよ	Here I come.	translated
+scenario	見事だ	Splendid.	translated
+scenario	見事だ、<Kyle>くん	Splendid, <Kyle>.	translated
+scenario	過去に数々の闘技大会で名を轟かせ、\nまた多くの料理大会でも、\nその腕前を存分に発揮し、人々の舌を\n魅了したと音に聞く伝説の人！	A legend said to have made her\nname in countless arena tourneys,\nand in many a cooking contest too,\nenchanting the palates of all!	translated
+scenario	鍛冶屋は{18}{45}{E8}{C0}になりました	The blacksmith has become {18}{45}{E8}{C0}.	recover
+scenario	闘技場バトル\n惜しくもリリスに敗れました	Arena Battle\nNarrowly lost to Lilith.	translated
+scenario	闘技場バトル\n惜しくもルーティに敗れました	Arena Battle\nNarrowly lost to Rutee.	translated
+scenario	霧深き大地で最も高き所にある草原\n霧深き山の懐\n\n　　　そこで不吉の証を手に入れよ	　\nHighest meadow in the misty land\nWithin the mist-shrouded mountains\nThere, obtain the token of ill omen	recover
+scenario	頼れる仲間が、あなたの背を\nしっかりと守ってくださってるのですから	For friends you can rely on\nare guarding your back so surely.	translated
+scenario	魔法陣はエルレインさまの\nご意志によって制御されている	This magic circle is controlled\nby Lady Elrane's will.	recover
+scenario	････<Kyle>くん\nこのことで、君の悩みが解決するとは\n私たちも思ってはいない････\nだが、前を向いて突き進んでほしい	...<Kyle>, we don't imagine\nthis will solve your troubles...\nbut we want you to face forward\nand press on.	translated
+scenario	････あ、あのですね････\nそ、その････････	...Ah, you see...\nth-that is......	translated
+scenario	････あ、いえ\nい、いいんですよ！	...Oh, no,\ni-it's fine, really!	translated
+scenario	････あの～、その～････	...Um, well, that is...	translated
+scenario	････あの～････\nそれで、戦われるのです････よね？	...Um...\nSo, you will be fighting...\nwon't you?	translated
+scenario	････あんたに心配されてちゃ\n立場が逆じゃないの････	...Being worried about by you\nis backwards, you know...	translated
+scenario	････あんな子ですけど、\nどうか、これからも\nよろしくお願いしますね	...He's a handful, but please,\ndo keep looking after him\nfrom here on.	translated
+scenario	････あ～、そう考えると\nリムルは、確かに私の子ね	...Ah~, come to think of it,\nRhym really is my child.	translated
+scenario	････うん！\nありがとう、母さん!!	...Yeah!\nThanks, Mom!!	translated
+scenario	････お言葉ながら、陛下\nファンダリアでのご公務は、\nホントーに大丈夫なのですか？\n････それに、フィリアさまも････	...With respect, Your Majesty,\nare your duties in Phandaria\ntruly all right?\n...And Lady Philia as well...	translated
+scenario	････かつての英雄と手合わせして、\n自分の力を、試してみたい････\nなんて、ちょっと思ったりしてたんだよ	...I was kind of hoping to face\nthe heroes of old and test\nmy own strength, that's all.	translated
+scenario	････こほん････\n失礼しました	...Ahem...\nMy apologies.	translated
+scenario	････こんにちは	...Hello.	translated
+scenario	････しかし、なぜ\nまた、ここへ････？	...But why\nare you here again...?	translated
+scenario	････しゅ、「出場しちゃったの☆」\n････って････	...'T-took the plunge and\nentered ☆'... she says...	translated
+scenario	････そ、その････\nおばさま、すみませんでした！\n････おばさまが強かったから、\nわたし････････	...U-um...\nAuntie, I'm so sorry!\n...You were so strong,\nI just......	translated
+scenario	････そう言えば、ずっと前にも\nお会いしたことが有るような\n無いような････	...Come to think of it, I feel like\nwe may have met long ago,\nor maybe not...	translated
+scenario	････その、ウッドロウさんが\nまだ、<Kyle>さんたちに\n全てをお伝えしていない\nとおっしゃるもので････	...Well, Woodrow said he hadn't\nyet told you and the others\neverything...	translated
+scenario	････それに、<Kyle>に出会えて\n幸せなのは、わたしの方です	...Besides, meeting <Kyle>,\nI'm the lucky one.	translated
+scenario	････それに、<Kyle>は\n俺が守るって、そう決めてますから････	...Besides, I've decided\nI'll be the one to protect <Kyle>...	translated
+scenario	････それに、ほら\nこちらですと、また違った意味で\n目立ってしまいますし････	...And besides, look,\nover here we'd stand out\nin a different sense...	translated
+scenario	････それにね、<Kyle>\n我が子のことを思えば、\nいつだって、どこにだって\n駆けつける････	...Besides, <Kyle>,\nwhen it's about my own child,\nI'll come running anytime,\nanywhere...	translated
+scenario	････そんなモンよ\n親っていうヤツはね	...That's just how it is.\nThat's what a parent is.	translated
+scenario	････だって、<Kyle>は\nわたしの英雄ですから	...Because <Kyle>\nis my hero.	translated
+scenario	････でも、その調子なら大丈夫ね\n安心したわ	...But if you can fight like that,\nyou'll be fine. I'm relieved.	translated
+scenario	････でも、どうして\nまた、ここに？	...But why\nare you here again?	translated
+scenario	････でも、兄さんに似てるようだから\n根拠の無い自信で、ミョーにポジティブに\nドンドン突き進んじゃう\n困った子だと思うけど、どうです？	...But since he takes after my\nbrother, he charges ahead with\ngroundless confidence, oddly\npositive. A handful, no? How is he?	translated
+scenario	････でも、本当に\n久しぶりに兄さんを感じることが\n出来て、楽しかったわ	...But truly, it was fun\nto feel my brother again\nafter so long.	translated
+scenario	････なぜ、こんな所に？	...Why are you in a place like this?	translated
+scenario	････なんだか、私もコールし慣れた\n感がありますが、気にせず進めます！	...I'm starting to feel like\nan old hand at this call now,\nbut let's press on regardless!	translated
+scenario	････は、はぁ････	...I-I see...	translated
+scenario	････は、はあ････	...I-I see...	translated
+scenario	････は、はい････	...Y-yes...	translated
+scenario	････はい！\nありがとうございました!!	...Yes!\nThank you so much!!	translated
+scenario	････はい？\n････しょ、少々お待ちを････	...Yes?\n...J-just a moment, please...	translated
+scenario	････はい？\n････しょ、少々お待ちを････\n････えっ!?	...Yes?\n...J-just a moment, please...\n...Huh?!	translated
+scenario	････はい？\n････しょ、少々お待ちを････\n････････!!!!	...Yes?\n...J-just a moment, please...\n......!!!!	translated
+scenario	････ふ～ん\nなかなか楽しいお母さんじゃない？	...Hmm.\nQuite a fun mother, isn't she?	translated
+scenario	････ふ～ん････	...Hmm...	translated
+scenario	････まぁ、そうだろうと思ってね\nあんたに、発破をかけにきたのよ	...Well, I figured you hadn't.\nSo I came to light a fire\nunder you.	translated
+scenario	････む、無論だ････	...O-of course.	translated
+scenario	････もし、悩んだときには\n後ろを見ても良いのですよ	...When you're troubled,\nit's all right to look back too.	translated
+scenario	････やっぱり、わかっちゃいます？\nさすがは親族と言うか\n血が通った叔母と言うか････	...So you can tell after all?\nAunt through and through, I guess,\nor rather, kin by blood...	translated
+scenario	････やはり、\n迷惑だっただろうか････？	...Was it, after all,\na nuisance...?	translated
+scenario	････わかった\nお相手しよう････	...Understood.\nI'll be your opponent...	translated
+scenario	････アクアヴェイル名物の\n<item:00000031>が\n欲しいのぉ････	...I want Aquaveil's famous\n<item:00000031>...	recover
+scenario	････ス････\n････す････	......\n......	recover
+scenario	････フィリアさん････	...Philia...	translated
+scenario	････リリスおばさま････	...Auntie Lilith...	translated
+scenario	････リリスさん････	...Lilith...	translated
+scenario	････僕は僕の意思で\n一緒に居るだけだ････\n礼には及ばん････	...I'm only here\nby my own will...\nNo thanks are needed...	translated
+scenario	････善処しよう････	...I'll do what I can...	translated
+scenario	････大丈夫よ	...I'm fine.	translated
+scenario	････時間があって、\n気が向いたらな････	...If I have the time,\nand feel like it...	translated
+scenario	････母さん････	...Mom...	translated
+scenario	････確かにスタンにそっくりだな････\n妙に前向きなところから、\nよく眠るところまで････	...He is the spitting image of\nStahn, indeed... from the oddly\nforward attitude to how much\nhe sleeps...	translated
+scenario	････････\nまたですか!?	......\nAgain?!	translated
+scenario	････････大丈夫か？	......Are you all right?	translated
+skit	‥‥けど、まあ、そのやっかいごとは全部解決してきたわけだし、今じゃ、俺たちを引っ張っていってるぐらいだ。ちゃんと成長してるよ、おまえは‥‥。	You've fixed every mess and now lead us. You've truly grown.	recover
+skit	う～ん、ウッドロウさんも確かにすごいけど、ここの街の人みんながすごいっていうのも、あるんじゃないかな？　なんていうかさ『雪、どんと来ーい！』って感じじゃん。これが<Loni>だったら、一日中家の中で『寒い～っ！』って言って、ふとんで丸まってると思うよ。	Woodrow's great, sure, but everyone here's got that 'Bring on the snow!' spirit. <Loni> would just hide in a futon all day.	recover
+skit	お、おいおい。脅かすなよ‥‥どうする、<Kyle>？　ここは、下手にウロウロしない方がいいかもしんねえぞ。	D-don't scare me... <Kyle>, maybe we shouldn't wander around.	recover
+skit	しかも、「空から落とせばそれでおしまい」って思ってやがるから、ホイホイ捨てるってワケか。おい、なんとかしろよ<Nanaly>。お前のご先祖さまたちなんだろ？　これ捨てたの。	Aeth'er dumped it from the sky. Fix your ancestors' mess, <Nanaly>.	recover
+skit	だってよ、ほっといたらお前、そいつをギッタギタにしちまうだろ？　殺される前に助けてやらねえと寝覚めが悪いじゃねえか。	Left alone, you'd pound the guy to a pulp. Gotta save him before you kill him.	recover
+skit	やっぱり、ダメかしら‥‥でも、一所懸命、誠意をもって話せばきっと‥‥！	But if we speak sincerely, from the heart, surely...!	recover
+skit	わたしも、もっと特別な存在だと思ってた‥‥でも、実際はちがったの。普通に笑ったり、怒ったり、泣いたり、ただ元気で、一所懸命さだけがとりえみたいな、ごく普通の男の子だった。	He was an ordinary boy who laughed, cried, and always tried hard.	recover
+skit	俺たちがアトワイトさんを助けるとする。そうすっと、アトワイトさんは、当然ながらこのカッコいい俺にホレてしまうだろう。ってことは、俺たちが元の世界に戻ることになったとき、彼女もいっしょについてきてしまうんじゃないか？　その結果、ソーディアンチームは一人欠けてしまい、バルバトスの歴史改変の企みを手助けしてしまう形になる‥‥‥‥‥‥くそっ！　なんてこった。イヤ、敵ながらアッパレな計画‥‥‥‥‥‥‥‥‥‥‥‥ぐふが‥‥げっ‥‥うげっ！	Save Atwight, she loves me and leaves, helping Barbatos. Brilliant!	recover
