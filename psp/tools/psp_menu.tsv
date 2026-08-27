@@ -3525,3 +3525,87 @@ HPを吸収できる。	Can drain HP.	16	13	translated
 なめらかなクリームにレモンの香り{01}甘酸っぱく、そして、清らかな味わい	Smooth cream with a lemon fragrance.{01}Pure flavor of sweet and sour.	67	67	reuse
 カラフルなフルーツジュース{01}しぼりたてを冷やしてどうぞ	Colorful Fruit Juice, fresh squeezed{01}and chilled to perfection. Drink up!	53	73	reuse
 新鮮なフルーツを{01}ふんわりブレッドで、はさみました{01}いろどり豊かなサンドイッチ	Fresh fruit places between soft{01}bread, Good and good for you.	76	61	reuse
+捨てますか？{01} {01}<button:00000035>捨てる  <button:00000036>やめる	Discard it?{01} {01}<button:00000035>Discard  <button:00000036>Cancel	39	39	translated
+使いますか？{01} {01}<button:00000035>使う  <button:00000036>やめる	Use it?{01} {01}<button:00000035>Use  <button:00000036>Cancel	37	31	translated
+斬撃と、生じる真空波による飛び道具を放つ{01}特技。「特技」は通常技から連携可能	Base: Fires a projectile of vacuum waves.{01}Chains from base attacks.	75	67	translated
+舞う木の葉を切り刻む程の高速の剣を繰り出す{01}特技	Base: A high-speed blade that shreds{01}like falling leaves.	47	57	translated
+気を纏った連続攻撃から真空波を放つ奥義。{01}「奥義」は通常技と特技から連携可能	Arcane: Fires vacuum waves from a{01}charged combo. Chains from base and artes.	75	76	translated
+抗う敵を捕らえ、「滅殺する闇」を開く{01}暗黒奥義	Arcane: Seizes the enemy and opens{01}an annihilating darkness.	45	60	translated
+影に閃く神速の投剣を放つ特技。{01}衝撃は背後の敵にも及ぶ	Base: Hurls a godspeed blade of shadow.{01}The shock reaches enemies behind it too.	53	80	translated
+高速で接近した真空のかまいたちが両側から{01}敵を切り刻む下級昇華晶術	Low-Ext: Swift vacuum blades close in{01}and shred the enemy from both sides.	65	74	translated
+重力場を発生させて押しつぶし、{01}大地もろとも破砕する中級晶術	Mid: Generates a gravity field that{01}crushes the enemy and the ground.	59	69	translated
+水圧を利用して巨大な鉱石を落下させる{01}中級昇華晶術	Mid-Ext: Uses water pressure to drop{01}a massive ore onto the enemy.	49	66	translated
+氷の棺に敵を閉じ込め、「終焉」を与える{01}上級晶術	High: Seals the enemy in an icy coffin{01}and delivers their end.	47	62	translated
+壊滅的な威力の嵐を巻き起こす{01}上級晶術	High: Stirs up a storm of{01}devastating power.	37	44	translated
+異空間から荒れ狂う彗星を召喚する禁呪晶術。{01}消費TPと詠唱時間は尋常ではない	Forbidden: Summons a raging comet from{01}another dimension. Huge TP and cast time.	73	80	translated
+プレイヤーキャラに追随して、プレイヤーの{01}攻撃中に攻撃・晶術を行います	Follows the player character and acts{01}or casts while the player attacks.	69	72	translated
+常に中衛に位置し、近くの敵を武器攻撃しつつ、{01}攻撃中の敵を狙って晶術を行います	Stays in the mid guard, attacking nearby{01}foes while casting on attacking enemies.	77	81	translated
+無口な男を演出するのもまた一興。{01}一興程度にとどめておきなさい。	Playing the silent type has its charm.{01}Keep it to just a bit of charm, though.	63	78	translated
+戦闘開始時には中央の作戦が設定されます。{01}また、カスタムした作戦にはお好みの号令名を{01}つけることができます	The center strategy is set at battle{01}start. You can also name custom strategies.	104	80	translated
+＜確率・継続効果＞ヒット時に敵の知性能力を{01}一定時間減少させる	(Chance-Cont.) On hit, lowers the{01}enemy's Intelligence for a time.	61	66	translated
+＜確率・継続効果＞ヒット時に敵の地耐性を{01}一定時間減少させる	(Chance-Cont.) On hit, lowers the{01}enemy's Earth resistance for a time.	59	70	translated
+＜確率・継続効果＞ヒット時に敵の水耐性を{01}一定時間減少させる	(Chance-Cont.) On hit, lowers the{01}enemy's Water resistance for a time.	59	70	translated
+＜確率・継続効果＞ヒット時に敵の火耐性を{01}一定時間減少させる	(Chance-Cont.) On hit, lowers the{01}enemy's Fire resistance for a time.	59	69	translated
+＜確率・継続効果＞ヒット時に敵の風耐性を{01}一定時間減少させる	(Chance-Cont.) On hit, lowers the{01}enemy's Wind resistance for a time.	59	69	translated
+＜確率・継続効果＞ヒット時に敵の光耐性を{01}一定時間減少させる	(Chance-Cont.) On hit, lowers the{01}enemy's Light resistance for a time.	59	70	translated
+＜確率・継続効果＞ヒット時に敵の闇耐性を{01}一定時間減少させる	(Chance-Cont.) On hit, lowers the{01}enemy's Dark resistance for a time.	59	69	translated
+自分の最も耐性のある属性のみ、特技中{01}レベル数だけ属性攻撃に耐えられる	During artes, resist elemental attacks of{01}your strongest element, up to your level.	69	83	translated
+自分の最も耐性のある属性のみ、特技中{01}レベル数だけ属性晶術に耐えられる	During artes, resist elemental spells of{01}your strongest element, up to your level.	69	82	translated
+スピリッツブラスター状態になるための{01}カウントが加算される	Adds to the count needed to enter{01}Spirits Blaster state.	57	56	translated
+＜確率効果＞ヒット時にアイテムを盗むことが{01}できる	(Chance) On hit, lets you{01}steal an item.	49	40	translated
+特技発動開始のごく僅かな時間{01}全ての攻撃を回避する	For a brief moment as an arte begins,{01}evade all attacks.	49	56	translated
+敵ヒット時「<button:0000003D>押し続け」で特技の{01}連携技を発動。	On enemy hit, Hold <button:0000003D> to{01}trigger an arte's chain move.	50	57	translated
+敵のけぞり中「<button:0000003D>押し続け」で、秘奥義が{01}発動。	While the enemy staggers, Hold{01}<button:0000003D> to trigger a Mystic Arte.	48	62	translated
+地上でダメージを受けた瞬間に「特技入力」で{01}特技を発動できる。	Enter an arte the moment you take damage{01}on the ground to trigger it.	61	69	translated
+地上で攻撃をガードした瞬間に「特技入力」で{01}特技を発動できる。	Enter an arte the moment you guard an{01}attack on the ground to trigger it.	61	73	translated
+空中にいる時に「特技入力」で特技を発動できる{01}	Enter an arte while airborne to trigger it.	45	43	translated
+敵ガード時に「<button:0000003D>押し続け」でガード耐久値を{01}一気に８減らす。	When the enemy guards, Hold <button:0000003D>{01}to cut their guard gauge by 8 at once.	62	72	translated
+ヒット時に「<button:0000003D>押し続け」で敵を奥へふっ飛ばす{01}	On hit, Hold <button:0000003D> to knock the{01}enemy farther back.	48	51	translated
+特技から開始して「<button:0000003D>押し続け」で{01}通常技に連携できる。	Starting from an arte, Hold <button:0000003D>{01}to chain into a base attack.	56	62	translated
+「<button:0000003D>押し続け」で特技後の硬直時に前進ダッシュ{01}を行う。	Hold <button:0000003D> to dash forward during{01}the recovery after an arte.	56	61	translated
+「<button:0000003D>押し続け」で特技後の硬直時に後退ダッシュ{01}を行う。	Hold <button:0000003D> to dash backward during{01}the recovery after an arte.	56	62	translated
+「<button:0000003D>押し続け」で特技後、一定距離内にいる{01}敵の背後を取る。	Hold <button:0000003D> after an arte to get{01}behind an enemy within a set range.	60	67	translated
+特技後「晶術入力」で下級攻撃晶術を{01}高速発動できる。	After an arte, enter a spell to quickly{01}cast a low-tier attack spell.	51	69	translated
+特技中に「他特技入力」で一回だけ特技{01}で連携可能。	During an arte, enter another arte to{01}chain into an arte once.	49	62	translated
+LVに応じて(毒/衰弱/麻痺/鈍足/凍結)を解除する{01}非戦闘時はセットしなくても解除可能	Cures (poison/weak/paralysis/slow/freeze) by{01}level. Out of battle, cures unset too.	79	83	translated
+「<button:0000003D>押し続け」で昇華晶術を追加発動できる。{01}	Hold <button:0000003D> to add a{01}sublimation spell.	46	38	translated
+「<button:0000003D>押し続け」で精霊結晶を具現化。スピリッツ{01}ブラスター時のみ。	Hold <button:0000003D> to manifest a spirit{01}crystal. Spirits Blaster state only.	66	68	translated
+晶術チャージ後に<button:0000003E>を離さず<button:0000003D>で晶術セット、{01}次の攻撃連携後に高速発動。	After charging, keep <button:0000003E> held and{01}press <button:0000003D> to set the spell.	75	65	translated
+詠唱開始直後に「<button:0000003D>押し」で詠唱時間を{01}四分の一にする。	Right after casting begins, press{01}<button:0000003D> to quarter the cast time.	56	65	translated
+「<button:0000003D>を押し続け」で与えたダメージに比例した{01}HPを吸収できる。	Hold <button:0000003D> to absorb HP{01}in proportion to damage dealt.	62	54	translated
+「<button:0000003D>押し続け」でSPを30%回復。{01}	Hold <button:0000003D> to restore 30% SP.	33	29	translated
+「<button:0000003D>押し続け」でTPを10%回復する。{01}	Hold <button:0000003D> to restore 10% TP.	37	29	translated
+「<button:0000003D>押し続け」で自分以外の味方のSPを{01}15%回復。	Hold <button:0000003D> to restore 15% SP{01}for allies other than yourself.	49	60	translated
+「<button:0000003D>押し続け」で発動硬直中に約一秒間敵の攻撃{01}を全て回避する。	Hold <button:0000003D> to evade all enemy{01}attacks for about one second during recovery.	64	75	translated
+「<button:0000003D>押し続け」で晶術発動後、{01}即座に行動できる。	Hold <button:0000003D> to act immediately{01}after casting a spell.	50	52	translated
+「<button:0000003D>押し続け」後のヒットで敵を気絶{01}させやすくする。	A hit after Hold <button:0000003D>{01}makes the enemy easier to stun.	54	54	translated
+これでいいですか？{01} {01}<button:00000035>買う  <button:00000036>やめる	Is this okay?{01} {01}<button:00000035>Buy  <button:00000036>Cancel	43	37	translated
+これでいいですか？{01} {01}<button:00000035>売る  <button:00000036>やめる	Is this okay?{01} {01}<button:00000035>Sell  <button:00000036>Cancel	43	38	translated
+新規にレシピを作成しますか？{01} {01}<button:00000035>作成  <button:00000036>やめる	Create a new recipe?{01} {01}<button:00000035>Create  <button:00000036>Cancel	53	47	translated
+レシピ作成には２種類以上の食品を{01}使用する必要があります{01} {01}レシピの作成をやめますか？{01} {01}<button:00000035>やめる  <button:00000036>続行	You need two or more foods to create a{01}recipe.{01} {01}Stop creating a recipe?{01} {01}<button:00000035>Stop  <button:00000036>Continue	109	99	translated
+これらの食材で料理してみますか？{01} {01}<button:00000035>実行  <button:00000036>やめる	Cook with these ingredients?{01} {01}<button:00000035>Cook  <button:00000036>Cancel	57	53	translated
+を料理しますか？{01} {01}<button:00000035>実行  <button:00000036>やめる	Cook it?{01} {01}<button:00000035>Cook  <button:00000036>Cancel	41	33	translated
+レシピを削除しますか？{01} {01}<button:00000035>削除  <button:00000036>やめる	Delete this recipe?{01} {01}<button:00000035>Delete  <button:00000036>Cancel	47	46	translated
+ゲームクリア時の戦闘評点（ＧＲＡＤＥ）を使って、{01}様々な条件でゲームを開始することができます	Use your battle GRADE from clearing the{01}game to start under various conditions.	91	79	translated
+余ったＧＲＡＤＥは持ち越されます。{01}今回は何も使わずに、{01}この次のゲーム開始時に使ってみるのもお勧めです	Leftover GRADE carries over. Saving it for{01}your next playthrough is recommended too.	102	84	translated
+以上の設定で、ゲームを開始します。{01}<button:00000025>ゲーム開始<button:00000026>戻る	Start the game with these settings.{01}<button:00000025>Start<button:00000026>Back	59	55	translated
+選択可能な難易度と、称号を{01}引き継いでゲーム開始できます	Start with your chosen difficulty{01}and titles carried over.	55	58	translated
+特技・晶術の使用回数を引き継いで{01}ゲーム開始できます	Start with your artes' and spells'{01}use counts carried over.	51	59	translated
+追加発動技を除いたエンチャントを引き継いで{01}ゲーム開始できます	Start with enchants carried over,{01}except added-trigger arts.	61	60	translated
+装備武具のスロットを初期装備武具に付加して{01}ゲーム開始できます	Start with your equipment's slots added{01}to your initial equipment.	61	66	translated
+スカウトオーブ・ムーンセレクター{01}マジカルポットを引き継いでゲーム開始できます	Start with the Scout Orb, Moon Selector,{01}and Magical Pot carried over.	77	70	translated
+それぞれの特技・晶術を習得した時点で{01}追加専用エンチャントを習得できます	Learn add-on-only enchants once you learn{01}each arte or spell.	71	61	translated
+全キャラ最大ＨＰが１６０でゲーム開始します。{01}最初から冷や汗かきたい人にお勧め	Start with all characters' Max HP at 160.{01}For those who want to sweat from the start.	77	85	translated
+ランダムエンカウントをまったくしなくなります。{01}ゲームクリアの保証はできません	Random encounters stop entirely.{01}Clearing the game is not guaranteed.	77	69	translated
+取得ＧＲＡＤＥポイントが約２倍になります。{01}マイナス倍にはならないのでご安心を	GRADE points earned roughly double.{01}Rest assured, it won't go negative.	77	71	translated
+敵が持つ取得経験値が半分になります。{01}低レベルでクリアしたい人にお勧め	Enemy EXP yield is halved.{01}For those who want a low-level clear.	69	64	translated
+通常の取得経験値が１になる代わり、{01}連続ヒットボーナス経験値が４倍になります	Normal EXP earned becomes 1, but{01}combo-hit bonus EXP becomes 4x.	75	64	translated
+基本料理の熟練度を引き継いで{01}ゲーム開始できます	Start with your basic cooking{01}proficiency carried over.	47	55	translated
+モンスター図鑑の情報を引き継いで{01}ゲーム開始できます	Start with your Monster Book{01}data carried over.	51	47	translated
+コレクター図鑑の情報を引き継いで{01}ゲーム開始できます	Start with your Collector's Book{01}data carried over.	51	51	translated
+ワールドマップの情報を引き継いで{01}ゲーム開始できます	Start with your World Map{01}data carried over.	51	44	translated
+消費アイテムを１種類につき{01}２０個まで持つことができます	You can hold up to 20 of{01}each consumable item.	55	46	translated
+消費アイテムを１種類につき{01}３０個まで持つことができます	You can hold up to 30 of{01}each consumable item.	55	46	translated
+エンカウント数・最大ヒット数を引き継いで{01}ゲーム開始できます	Start with your encounter and max hit{01}counts carried over.	59	58	translated
+「クレイジーコメット」の追加晶術に{01}さらに追加発動が可能になります	Crazy Comet's added spell gains{01}a further added trigger.	65	56	translated
+味方キャラの秘奥義・具現結晶カットインが{01}"プレイステーション ２"版のもので表示されます	Allies' Mystic Arte and crystal cut-ins{01}display as the PlayStation 2 version's.	86	79	translated
