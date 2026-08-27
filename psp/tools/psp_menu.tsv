@@ -3234,3 +3234,33 @@ HPを吸収できる。	Can drain HP.	16	13	translated
 ＜継続効果＞使用晶術の属性の耐性が一定時間{01}上昇する	(Continuous) Raises resistance to the{01}equipped spell's element for a time.	51	74	translated
 ＜確率効果＞この晶術で倒した時のアイテム{01}入手確率が上昇する	(Random) Ups the chance to get an{01}item from a foe felled by this spell.	59	71	translated
 地面に突き立てた剣撃がヒットすると、{01}目標の敵の足元から爆炎が起こる特技	Base: Stab your sword into the ground,{01}creating a burst of flame below.	71	71	translated
+今まさに練りまくった作戦を披露するなら。{01}気分はナイスミドルか。	It's about time we put our training to{01}work. Let's show 'em how it's done!	63	74	reuse
+戦闘中一定時間攻撃力が上昇し、{01}ＳＰ回復力が低下する薬	Medicine that raises Attack,{01}but decreases SP Regen.	53	52	reuse
+聖気封入の瓶{01}エンカウント率を下げる	A bottle sealed with light.{01}Temporarily reduces encounter rate.	35	63	reuse
+邪気封入の瓶{01}エンカウント率を上げる	A bottle sealed with darkness.{01}Temporarily increases encounter rate.	35	68	reuse
+偉大な創始者の意{01}高名な剣匠が鍛えた剣	A sword forged by a famous artisan.{01}The will of the great creator.	37	66	reuse
+単なる普通のどこにでもある杖{01}でもチョットだけ魔法使い気分です	A basic rod. It contains{01}a small amount of magic.	61	49	reuse
+料理名人の左手{01}シチューなどをかきまぜます	A necessity for the culinary{01}expert. Let's make a stew!	41	55	reuse
+料理名人の右手{01}ハンバーグとかを焼きます	A necessity for the culinary{01}expert. Let's make a hamburger!	39	60	reuse
+聖獣の角{01}ＨＰ回復効果があります	The horn of a very sacred animal.{01}It has HP healing properties.	31	63	reuse
+速射に優れる短弓{01}早撃ちにはコレ！	A short bow used for rapid{01}firing. It is extremely fast!	33	56	reuse
+鋼板であつらえた鎧{01}プレートの中では軽い方です	Custom made armor from steel sheets.{01}It's a light variant of plate armor.	45	73	reuse
+特殊な毛糸を編んでつくった服{01}ほんわかして暖かいです	Clothes made with special wool.{01}It's soft, warm, and comfortable.	51	65	reuse
+黒い服{01}魔法使い気分にひたれます	A pretty black dress. It feels{01}like it has magical properties.	31	62	reuse
+威厳の兜{01}古の老将軍が愛用したそうな	A helmet of dignity. It was{01}often worn by ancient generals.	35	59	reuse
+孔雀石製のサレット{01}不思議な力が秘められている	A helmet made of malachite. It{01}hides a mysterious power within.	45	63	reuse
+一国の主がかぶる王冠{01}高貴な者の証です	A crown worn by the ruler of a{01}country. It is proof of nobility.	37	64	reuse
+祝福を受けた羽飾り{01}神聖な力が秘められている	A plume that has been blessed.{01}There is a holy power hidden within.	43	67	reuse
+伝説に登場する幻想の力を秘めた羽飾り{01}口伝を書物にまとめた兄弟の名を冠する	A plume of legend with hidden power.{01}Named after storytelling brothers.	73	71	reuse
+上腕まで保護する篭手{01}	Gauntlets that protect{01}the upper arms.	21	38	reuse
+戦神から授けられた篭手{01}接近戦用に特化している	Gauntlets from a holy war. They're{01}great for close quarters combat.	45	67	reuse
+悪魔を封印したお守り{01}取得経験値が増える	An amulet that contains a demon's{01}soul. Experience is doubled.	39	62	reuse
+ヒヨコのお守り{01}気絶やダウンを軽減する	An amulet of a baby bird. Reduces{01}stagger and knockdown time.	37	61	reuse
+月閃光	Moon Glare	6	10	reuse
+崩龍斬光剣	Dragon Glare	10	12	reuse
+烈火閃	Flare Shot	6	10	reuse
+牙連閃	Storm Glare	6	11	reuse
+扇氷閃	Frigid Glare	6	12	reuse
+墜陽閃	Glimmer Shot	6	12	reuse
+虚空閃	Void Shot	6	9	reuse
+龍炎閃	Wyrm Shot	6	9	reuse
