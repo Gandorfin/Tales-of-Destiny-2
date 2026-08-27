@@ -3957,3 +3957,21 @@ LVに応じて(毒/衰弱/麻痺/鈍足/凍結)を解除する{01}非戦闘時�
 称号の説明{01}２行目{01}３行目{01}	Title description{01}Line 2{01}Line 3{01}	25	32	translated
 {99}{40}ＣＯＮＧＲＡＴＵＬＡＴＩＯＮＳ！{01}{99}{40}{99}{40}{99}{40}{99}{40}{99}{40}{99}{40}{99}{40}{99}{40}{99}{40}{99}{40}{99}{40}{99}{40}{99}{40}{99}{40}{99}{40}{99}{40}{99}{40}{01}{99}{40}ゲームクリアおめでとうございます{01}ボーナスでグレードを１０００加算します	{99}{40}CONGRATULATIONS!{01}{99}{40}{99}{40}{99}{40}{99}{40}{99}{40}{99}{40}{99}{40}{99}{40}{01}{99}{40}Congratulations on clearing the game!{01}A bonus adds 1000 to your grade.	143	108	translated
 ゲームクリアデータを保存します{01}セーブしたデータはストーリーの{01}最初から始まるデータになります{01}のでご注意下さい	Saving game-clear data.{01}Note that the saved data will start{01}from the very beginning of the story.{01}Please be careful.	109	116	translated
+中衛以降に位置し、{01}HPの低い敵を狙って晶術と攻撃を行います	Maintain the mid guard and attack{01}enemies low on HP with attacks and{01}artes.	57	75	reuse
+中衛以降に位置し、{01}空中にいる敵を優先して攻撃、晶術を行います	Maintain the mid guard and{01}prioritize attacks on flying{01}enemies, using attacks and spells.	61	90	reuse
+常に後衛に位置し、{01}主に晶術で回避力の高い敵を狙います	Always remain in the rear guard{01}and focus your attacks on enemies{01}with high evasion.	53	84	reuse
+みんなで武器とかで突撃したいときにはこれ。{01}だけど、捨て身じゃ困ります。	This is it, prepare yourselves.{01}Cast off your worries and lay your{01}life on the line.	71	84	reuse
+いっせいに遠隔攻撃をさせたいならこの一言。{01}戦いのあとにはデザートでも用意しよう。	At the signal, let 'em have it,{01}all at once. When it's all over,{01}dessert's on me!	81	81	reuse
+＜確率・継続効果＞敵の回避力を一定時間{01}減少させる	(Random-Continuous) Decreases the{01}enemy's Evasion for a certain{01}amount of time.	49	79	reuse
+マグロの煮汁から作るおいしいグミ{01}戦闘中は後味が効いて徐々にＨＰ回復	A tasty gel made from a tuna{01}broth. In battle, the aftertaste{01}will slowly restore HP.	67	85	reuse
+珍獣バジリスクの鱗。戦闘不能を除いた{01}全てのステータス異常とＨＰ、ＴＰ完全回復	Scale from the legendary basilisk.{01}Fully restores HP, TP, and status,{01}but cannot be used in battle.	77	99	reuse
+セルキーと対の鍵{01}急激な温度変化で崩壊する	Pairs with the Cell Key to break{01}down obstacles with a rapid{01}temperature change.	41	80	reuse
+バイオキーと対の鍵{01}急激な温度変化で崩壊する	Pairs with the Bio Key to break{01}down obstacles with a rapid{01}temperature change.	43	79	reuse
+コンテナを開けるための暗証装置{01}三種のチップを集めなければならない	Encoded chip needed to open the{01}container. You'll need to collect{01}three different chips.	65	88	reuse
+八本足の海の生物だが{01}まれに井戸の底で人を襲う	Eight-legged creature of the sea.{01}Sometimes they've managed to show{01}up at the bottom of wells.	45	94	reuse
+浄火の矢を放つ聖弓{01}速射性に優れる	A saintly bow with unsurpassed{01}rapid-firing arrows imbued with{01}sacred fire.	33	75	reuse
+力が倍増する魔力を秘めている帯{01}雷神の持ち物とされる	An article belonging to the{01}thunder god that is said to{01}enhance magical power.	51	78	reuse
+寒い夜、ボルシチで体をあたためませんか？{01}もちろん、栄養も豊富な煮込みです	Why not warm up with some hot{01}borscht on a cold night? It's{01}delicious and nutritious!	73	85	reuse
+カレーにしてマーボー！{01}そして、マーボーにしてカレー！{01}まさに、トウバンジャンとスパイスの奇跡！	It's curry made with mabo! And{01}it's mabo made with curry! Oh, the{01}wonder of Chinese spices!	94	91	reuse
+気力のための飲み物！{01}体力のための飲み物！{01}全身にしみわたるエナジー！	A drink of vitality! A drink of{01}pure strength! Energy spreads{01}through your body!	68	80	reuse
+肉、シーフード、野菜の織り成す交響曲{01}今日のあなたは、{01}どんなメロディを奏でますか？	A symphony of meat, seafood, and{01}vegetables. What sort of melody{01}will you play today?	82	85	reuse
