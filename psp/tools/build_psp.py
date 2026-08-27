@@ -21,7 +21,7 @@ import sys, os, re, tempfile, shutil
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
-import psp_iso, psp_text, psp_names, psp_menu, psp_lowercase, psp_fpb, psp_pool, psp_halfwidth
+import psp_iso, psp_text, psp_names, psp_menu, psp_lowercase, psp_fpb, psp_pool
 
 def add_probes(work):
     p = os.path.join(work, 'scenario_en', '06470.txt')
@@ -53,9 +53,6 @@ def main(iso, out_iso, probe=False, keep=None):
     _lc, _codes = psp_lowercase.patch_ascii_map(open(boot, 'rb').read())
     open(boot, 'wb').write(_lc)
     print('lowercase: remapped', len(_codes), 'a-z glyphs')
-    _hw, _hwok = psp_halfwidth.patch_advance(open(boot, 'rb').read())
-    open(boot, 'wb').write(_hw)
-    print('half-width: advance halved' if _hwok else 'half-width: advance NOT patched (unexpected build)')
     _pool, _pst = psp_pool.relocate_menu(open(boot, 'rb').read())
     open(boot, 'wb').write(_pool)
     print('menu pool:', dict(_pst))
@@ -64,8 +61,6 @@ def main(iso, out_iso, probe=False, keep=None):
     if probe:
         add_probes(text)
     _font = psp_lowercase.build_font(psp_fpb.read_member(fpb, open(boot, 'rb').read(), 0)[0])
-    _font, _ncells = psp_halfwidth.compress_font(_font, open(boot, 'rb').read())
-    print('half-width: compressed', _ncells, 'Latin cells')
     psp_text.build(boot, fpb, text, new_fpb, new_boot, extra={0: _font})
     if not psp_text.verify(new_boot, new_fpb, text):
         raise SystemExit('verification failed, image not written')
