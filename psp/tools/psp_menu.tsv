@@ -3975,3 +3975,83 @@ LVに応じて(毒/衰弱/麻痺/鈍足/凍結)を解除する{01}非戦闘時�
 カレーにしてマーボー！{01}そして、マーボーにしてカレー！{01}まさに、トウバンジャンとスパイスの奇跡！	It's curry made with mabo! And{01}it's mabo made with curry! Oh, the{01}wonder of Chinese spices!	94	91	reuse
 気力のための飲み物！{01}体力のための飲み物！{01}全身にしみわたるエナジー！	A drink of vitality! A drink of{01}pure strength! Energy spreads{01}through your body!	68	80	reuse
 肉、シーフード、野菜の織り成す交響曲{01}今日のあなたは、{01}どんなメロディを奏でますか？	A symphony of meat, seafood, and{01}vegetables. What sort of melody{01}will you play today?	82	85	reuse
+耐:	Res:	3	4	translated
+弱:	Weak:	3	5	translated
+{99}{40}特技を習得すると、メニュー<color:00000005>術・技<color:00000007>から特技をセット	　Learn an Arte, then set it from the <color:00000005>Artes<color:00000007>	60	53	translated
+できます。	menu.	10	5	translated
+セットした特技は、方向キーと<button:0000003E>の組み合わせで使用	Use a set Arte with the D-Pad + <button:0000003E>.	51	38	translated
+特技は<color:00000006>TP<color:00000007>が必要になりますが、通常攻撃より高い	Artes cost <color:00000006>TP<color:00000007> but deal higher	54	39	translated
+ダメージを与え、また、<color:00000006>通常攻撃中に入力を行うと	damage than normal, and <color:00000006>if input mid-attack,	51	49	translated
+<color:00000007>連続攻撃が可能です。	<color:00000007>a combo is possible.	25	25	translated
+{99}{40}<color:00000006>オート操作<color:00000007>の<Loni>は、戦闘中にHP量に応じて	　For <color:00000006>Auto<color:00000007> <Loni>, based on battle HP,	53	47	translated
+メニュー<color:00000005>作戦<color:00000007>で<Loni>の	adjust <Loni>'s in the <color:00000005>Strategy<color:00000007> menu:	31	46	translated
+<color:00000004>防御<color:00000007>の設定を変更してください。	the <color:00000004>Defense<color:00000007> setting.	40	30	translated
+{99}{40}晶術も特技と同様に、メニュー<color:00000005>術・技<color:00000007>から<button:0000003E>に	　Spells, like Artes, go to <button:0000003E> from the <color:00000005>Artes<color:00000007>	57	58	translated
+セットできます。	menu.	16	5	translated
+晶術は<color:00000006>TP<color:00000007>と詠唱時間を必要としますが、奥の敵を	Spells need <color:00000006>TP<color:00000007> and cast time, but reach	54	49	translated
+直接狙えるなどの利点があり、詠唱中、<button:0000003E>を押しながら	distant foes directly. While casting, hold <button:0000003E>	53	48	translated
+<button:00000021>を押すことで、攻撃目標を変更することができます。	and press <button:00000021> to change your target.	53	38	translated
+また、<color:00000005>SP<color:00000007>が切れた時に晶術を使いつつ回復を	Also, when <color:00000005>SP<color:00000007> runs out, cast while awaiting	50	53	translated
+待つ作戦も有効です。	recovery: a valid tactic too.	20	29	translated
+<color:00000006>＜エンチャント習得＞<color:00000007>	<color:00000006>＜Enchant Learned＞<color:00000007>	30	29	translated
+{99}{40}<color:00000006>エンチャント<color:00000007>とは、特技、晶術に装備し能力を	　<color:00000006>Enchants<color:00000007> equip to Artes and spells to	54	49	translated
+強化するものです。	strengthen their abilities.	18	27	translated
+装備にはそれぞれの特技、晶術の使用回数<color:00000006>（COUNT）<color:00000007>を	Equipping needs each Arte/spell's <color:00000006>(COUNT)<color:00000007> of	59	54	translated
+必要とします。	uses.	14	5	translated
+メニュー<color:00000005>エンチャント<color:00000007>から４０回以上使用している	From the <color:00000005>Enchant<color:00000007> menu, pick an Arte used 40+	56	54	translated
+特技を選択し、<color:00000006>攻撃力アップ<color:00000007>を装備すると、ダメージを	times, equip <color:00000006>Attack Up<color:00000007>, and your damage	60	49	translated
+増やす事ができます。	will increase.	20	14	translated
+エンチャントは<button:00000028>で装備を外すことも可能です。	You can also remove enchants with <button:00000028>.	47	40	translated
+{99}{40}<color:00000006>奥義<color:00000007>は「特技の上位技」と認識してください。	　See <color:00000006>Mystic Artes<color:00000007> as upgraded Artes.	54	47	translated
+同様にメニュー<color:00000005>術・技<color:00000007>から<button:0000003E>にセットできます。	Set them to <button:0000003E> from the <color:00000005>Artes<color:00000007> menu too.	57	52	translated
+最大の相違点は、<color:00000006>特技の使用中に入力すること<color:00000007>で	The key difference: <color:00000006>input during an Arte<color:00000007>	54	50	translated
+連続攻撃になる、ということです。	creates a combo.	32	16	translated
+{99}{40}<Kyle>は特技習得後、<color:00000006>追加特技<color:00000007>の	　After learning an Arte, <Kyle> gains <color:00000006>Added Arte<color:00000007>	41	58	translated
+エンチャントを習得します。	enchants.	26	9	translated
+<color:00000006>蒼破追蓮<color:00000007>は蒼破刃専用の追加技で、使用回数が５０以上	<color:00000006>Azure Pursuit<color:00000007> is an Added Arte for Azure Edge; with 50+	60	65	translated
+あれば、メニュー<color:00000005>エンチャント<color:00000007>から<color:00000004>アクション<color:00000007>に	uses, go from the <color:00000005>Enchant<color:00000007> menu to <color:00000004>Action<color:00000007>	64	60	translated
+装備できます。	to equip it.	14	12	translated
+蒼破刃を出した後、<button:0000003D><color:00000006>を押し続け<color:00000007>ると発動します。	After Azure Edge, <color:00000006>hold<color:00000007> <button:0000003D> to trigger it.	59	53	translated
+{99}{40}特技と同様、奥義から繋がる<color:00000006>秘奥義<color:00000007>を	　Like Artes, a <color:00000006>Hi-Ougi<color:00000007> chains from Mystic Artes;	46	59	translated
+習得しましたが、条件として<color:00000005>SP100%<color:00000007>とあります。	you learned one, but it needs <color:00000005>SP 100%<color:00000007>.	54	48	translated
+奥義中にSPは減少するので、普段は使用できませんが、	SP drops during Mystic Artes, so usually you can't use it,	50	58	translated
+一定時間SPが常にフルに保たれる状態、すなわち	but when SP stays full for a time, that is,	44	43	translated
+<color:00000006>スピリッツブラスター<color:00000007>時がチャンス！	<color:00000006>Spirits Blaster<color:00000007>: your chance!	44	39	translated
+複数の石片を弧を描いて敵にぶつける下級晶術	Low: Hurls several stone shards at foes in an arc.	42	50	translated
+三連の光弾から滅殺の稲妻を放つ下級昇華晶術	Low-Sub: Fires deadly lightning from three light bolts.	42	55	translated
+血塗られた呪いの波動が交わる下級昇華晶術	Low-Sub: Bloodstained waves of a curse converge.	40	48	translated
+<size:000000C0>あやしい<size:00000100>	<size:000000C0>Suspicious<size:00000100>	18	20	translated
+レアルタ（<Judas>）	Realta (<Judas>)	17	14	translated
+レアルタ（<Kyle>）	Realta (<Kyle>)	17	14	translated
+<Kyle>精神世界（１）	<Kyle> Inner World (1)	19	21	translated
+<Kyle>精神世界（２）	<Kyle> Inner World (2)	19	21	translated
+<Kyle>精神世界（３）	<Kyle> Inner World (3)	19	21	translated
+<Kyle>精神世界（４）	<Kyle> Inner World (4)	19	21	translated
+<Nanaly>精神世界（１）	<Nanaly> Inner World (1)	19	21	translated
+<Nanaly>精神世界（２）	<Nanaly> Inner World (2)	19	21	translated
+<Nanaly>精神世界（３）	<Nanaly> Inner World (3)	19	21	translated
+<Nanaly>精神世界（４）	<Nanaly> Inner World (4)	19	21	translated
+<Nanaly>精神世界（５）	<Nanaly> Inner World (5)	19	21	translated
+<Nanaly>精神世界（６）	<Nanaly> Inner World (6)	19	21	translated
+<Nanaly>精神世界（７）	<Nanaly> Inner World (7)	19	21	translated
+<Nanaly>精神世界（８）	<Nanaly> Inner World (8)	19	21	translated
+<Loni>、食・べ・て★	<Loni>, e-a-t★	19	14	translated
+神の住まう天空から割砕するは人。{01}すなわち俺奥義	From the heavens where gods dwell,{01}man descends to cleave: my Mystic Arte.	47	74	translated
+常に中衛で、敵のSPが５０％以上の時は晶術、{01}５０％未満の時は攻撃を行います	Always mid-guard: cast when enemy SP is{01}50% or more, attack when under 50%.	73	75	translated
+常に後衛に位置し、晶術を溜めつつ{01}詠唱開始する敵に攻撃を行います	Always rear-guard: charge spells and{01}attack enemies that begin casting.	63	71	translated
+２：SP、TPが７５％以下になるまで{01}{99}{40}{99}{40}攻撃・晶術を行います	2: Attack and cast until{01}{99}{40}{99}{40}SP/TP drop below 75%.	57	50	translated
+３：SP、TPが５０％以下になるまで{01}{99}{40}{99}{40}攻撃・晶術を行います	3: Attack and cast until{01}{99}{40}{99}{40}SP/TP drop below 50%.	57	50	translated
+４：SP、TPが２５％以下になるまで{01}{99}{40}{99}{40}攻撃・晶術を行います	4: Attack and cast until{01}{99}{40}{99}{40}SP/TP drop below 25%.	57	50	translated
+２：HPが２５％以下になると攻撃を控え、{01}{99}{40}{99}{40}HPが２５％以下の味方に回復晶術を使います	2: Hold back attacking below 25% HP;{01}{99}{40}{99}{40}heal allies under 25% HP.	83	66	translated
+３：HPが５０％以下になると攻撃を控え、{01}{99}{40}{99}{40}HPが５０％以下の味方に回復晶術を使います	3: Hold back attacking below 50% HP;{01}{99}{40}{99}{40}heal allies under 50% HP.	83	66	translated
+４：HPが７５％以下になると攻撃を控え、{01}{99}{40}{99}{40}HPが７５％以下の味方に回復晶術を使います	4: Hold back attacking below 75% HP;{01}{99}{40}{99}{40}heal allies under 75% HP.	83	66	translated
+５：常に防御し、{01}{99}{40}HPが１００％未満の味方に回復晶術を使います	5: Always defend;{01}{99}{40}heal allies below 100% HP.	61	46	translated
+毒、衰弱、麻痺、鈍足、凍結を防止する{01}効果中は攻撃力と知性が低下	Prevents poison, weak, paralysis, slow,{01}and freeze; lowers Attack and Intellect.	63	80	translated
+<size:00000140><button:0000002A><size:00000080> <size:00000100>ボタンで熱線を発射{01}使うたびにレンズを一枚消費する	<size:00000140><button:0000002A><size:00000080> <size:00000100>fires a heat ray.{01}Each use costs one Lens.	70	63	translated
+強力な力を秘めた未知の鉱石{01}武具の材料となるが、扱いが難しい	An unknown ore of mighty power. A{01}weapon material, but hard to handle.	59	70	translated
+カロチンが豊富でウサギの好物{01}異国の言葉で言うとキャロット	Rich in carotene, a rabbit favorite.{01}In a foreign tongue: a carrot.	57	67	translated
+左手用短剣{01}	An off-hand dagger.	11	19	translated
+慈悲の短剣{01}	A dagger of mercy.	11	18	translated
+英雄王を補佐した賢者の手袋{01}魔導の指先と呼ばれる	Gloves of the sage who aided the hero{01}king. Called the fingertips of magic.	47	75	translated
+やわらかく甘いキャベツで{01}ひき肉を巻いてジューシーに仕上げました{01}ＯＨ！{99}{40}ロール・ミー！	Soft sweet cabbage wrapped around{01}ground meat, finished juicy.{01}OH! Roll me!	86	75	translated
+ニガイ！{99}{40}からい！{99}{40}しょっぱい！{01}栄養はあるかどうかはわからないが、{01}本当にこれでいいのか？	Bitter! Spicy! Salty!{01}No telling if it's even nutritious,{01}but is this really okay?	90	82	translated
