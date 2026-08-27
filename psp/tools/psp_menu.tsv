@@ -3799,3 +3799,80 @@ LVに応じて(毒/衰弱/麻痺/鈍足/凍結)を解除する{01}非戦闘時�
 プリップリのエビを{01}ピリッピリの味に仕上げた料理{01}チリリとからいよ！	A dish of plump shrimp finished with a{01}fiery, spicy flavor. Zingy and hot!	66	74	translated
 煮えたぎるなべ！{01}ほとばしる肉のうまみ！{01}ドーンと豪快にいこうぜ！	A boiling pot! Bursting meaty flavor!{01}Let's go bold and hearty!	64	63	translated
 さまざまな具を、じっくり煮込んで{01}うまさを熟成！{01}当然ながら、みそは必須	Simmer various ingredients slowly to bring{01}the flavor to full maturity! Naturally,{01}miso is a must.	70	98	translated
+クレス～ダリル（草原）	Cres-Daryl (Plains)	22	19	translated
+クレス～ダリル（森）	Cres-Daryl (Forest)	20	19	translated
+クレス～ダリル（海岸）	Cres-Daryl (Coast)	22	18	translated
+クレス～ダリル（橋・木）	Cres-Daryl (Wood Bridge)	24	24	translated
+クレス～ダリル（橋・石）	Cres-Daryl (Stone Bridge)	24	25	translated
+クレス～ダリル（街道）	Cres-Daryl (Road)	22	17	translated
+クレス～ダリル（草原夜）	Cres-Daryl (Plains Night)	24	25	translated
+クレス～ダリル（森夜）	Cres-Daryl (Forest Night)	22	25	translated
+クレス～ダリル（海岸夜）	Cres-Daryl (Coast Night)	24	24	translated
+クレス～ダリル（橋夜・木）	Cres-Daryl (Wood Bridge Night)	26	30	translated
+クレス～ダリル（橋夜・石）	Cres-Daryl (Stone Bridge Night)	26	31	translated
+クレス～ダリル（街道夜）	Cres-Daryl (Road Night)	24	23	translated
+ダリル～アイグ（草原）	Daryl-Aigrette (Plains)	22	23	translated
+ダリル～アイグ（森）	Daryl-Aigrette (Forest)	20	23	translated
+ダリル～アイグ（海岸）	Daryl-Aigrette (Coast)	22	22	translated
+ダリル～アイグ（砂漠）	Daryl-Aigrette (Desert)	22	23	translated
+ダリル～アイグ（橋・木）	Daryl-Aigrette (Wood Bridge)	24	28	translated
+ダリル～アイグ（橋・石）	Daryl-Aigrette (Stone Bridge)	24	29	translated
+ダリル～アイグ（街道）	Daryl-Aigrette (Road)	22	21	translated
+リーネ～ノイシュ（草原）	Lienea-Neustadt (Plains)	24	24	translated
+リーネ～ノイシュ（森）	Lienea-Neustadt (Forest)	22	24	translated
+リーネ～ノイシュ（海岸）	Lienea-Neustadt (Coast)	24	23	translated
+リーネ～ノイシュ（霧）	Lienea-Neustadt (Fog)	22	21	translated
+リーネ～ノイシュ（街道）	Lienea-Neustadt (Road)	24	22	translated
+スノフリ～ハイデル（草原）	Snowfleer-Heidelberg (Plains)	26	29	translated
+スノフリ～ハイデル（雪原）	Snowfleer-Heidelberg (Snowfield)	26	32	translated
+スノフリ～ハイデル（森）	Snowfleer-Heidelberg (Forest)	24	29	translated
+スノフリ～ハイデル（雪原・森）	Snowfleer-Heidelberg (Snowfield & Forest)	30	41	translated
+チェリク～ホープ（草原）	Cherik-Hope (Plains)	24	20	translated
+チェリク～ホープ（森）	Cherik-Hope (Forest)	22	20	translated
+チェリク～ホープ（海岸）	Cherik-Hope (Coast)	24	19	translated
+チェリク～ホープ（砂漠）	Cherik-Hope (Desert)	24	20	translated
+ホープ～カルビ（草原）	Hope-Calvalese (Plains)	22	23	translated
+ホープ～カルビ（森）	Hope-Calvalese (Forest)	20	23	translated
+ホープ～カルビ（海岸）	Hope-Calvalese (Coast)	22	22	translated
+ホープ～カルビ（砂漠）	Hope-Calvalese (Desert)	22	23	translated
+トラッシュマウンテン（地上）	Trash Mountain (Surface)	28	24	translated
+トラッシュマウンテン（地下）	Trash Mountain (Underground)	28	28	translated
+トラッシュマウンテン（パズル）	Trash Mountain (Puzzle)	30	23	translated
+改変現代（草原）	Altered Present (Plains)	16	24	translated
+改変現代（森）	Altered Present (Forest)	14	24	translated
+改変現代（海岸）	Altered Present (Coast)	16	23	translated
+改変現代（雪原）	Altered Present (Snowfield)	16	27	translated
+改変現代（雪原・森）	Altered Present (Snowfield & Forest)	20	36	translated
+改変現代（雪原・山道）	Altered Present (Snowfield & Mtn.)	22	34	translated
+天地戦争（森）	Aeth-Er War (Forest)	14	20	translated
+天地戦争（海岸）	Aeth-Er War (Coast)	16	19	translated
+天地戦争（雪原）	Aeth-Er War (Snowfield)	16	23	translated
+ダイクロフト（天地）	Dycroft (Aeth-Er)	20	17	translated
+未来（草原）	Future (Plains)	12	15	translated
+未来（森）	Future (Forest)	10	15	translated
+未来（海岸）	Future (Coast)	12	14	translated
+セインガルド（草原）	Seingald (Plains)	20	17	translated
+セインガルド（森）	Seingald (Forest)	18	17	translated
+セインガルド（海岸）	Seingald (Coast)	20	16	translated
+セインガルド（雪原）	Seingald (Snowfield)	20	20	translated
+セインガルド（橋・木）	Seingald (Wood Bridge)	22	22	translated
+セインガルド（橋・石）	Seingald (Stone Bridge)	22	23	translated
+セインガルド（街道）	Seingald (Road)	20	15	translated
+セインガルド（雪原・森）	Seingald (Snowfield & Forest)	24	29	translated
+フィッツガルド（草原）	Fitzgald (Plains)	22	17	translated
+フィッツガルド（森）	Fitzgald (Forest)	20	17	translated
+フィッツガルド（海岸）	Fitzgald (Coast)	22	16	translated
+カルバレイス（草原）	Calvalese (Plains)	20	18	translated
+カルバレイス（森）	Calvalese (Forest)	18	18	translated
+カルバレイス（海岸）	Calvalese (Coast)	20	17	translated
+ファンダリア（草原）	Phandaria (Plains)	20	18	translated
+ファンダリア（雪原）	Phandaria (Snowfield)	20	21	translated
+ファンダリア（森）	Phandaria (Forest)	18	18	translated
+ファンダリア（雪原・森）	Phandaria (Snowfield & Forest)	24	30	translated
+アクアヴェイル（草原）	Aquaveil (Plains)	22	17	translated
+アクアヴェイル（森）	Aquaveil (Forest)	20	17	translated
+アクアヴェイル（海岸）	Aquaveil (Coast)	22	16	translated
+ラスト（上層）	Last (Upper)	14	12	translated
+ラスト（中層・カイル）	Last (Middle Kyle)	22	18	translated
+ラスト（中層・ハロルド）	Last (Middle Harold)	24	20	translated
+ラスト（下層）	Last (Lower)	14	12	translated
