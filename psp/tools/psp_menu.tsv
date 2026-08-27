@@ -3100,3 +3100,106 @@ HPを吸収できる。	Can drain HP.	16	13	translated
 絆（１）	Bond (1)	8	8	translated
 絆（２）	Bond (2)	8	8	translated
 指針	Guide	4	5	translated
+連続攻撃で空中に打ち上げ、そして{01}真空の刃で叩き落す奥義	Arcane: An aerial chain attack that{01}strikes the enemy with a blade of wind.	55	75	reuse
+＜確率・継続効果＞ヒット時に敵の詠唱時間を{01}一定時間減少させる	(Random-Continuous) Increases an enemy's{01}casting time for a period of time.	61	75	reuse
+＜確率・継続効果＞敵の攻撃力を一定時間{01}減少させる	(Random-Continuous) Decreases the{01}enemy's Attack for a period of time.	49	70	reuse
+＜確率・継続効果＞敵の命中力を一定時間{01}減少させる	(Random-Continuous) Decreases the{01}enemy's Accuracy for a period of time.	49	72	reuse
+＜確率・継続効果＞敵の防御力を一定時間{01}減少させる	(Random-Continuous) Decreases the{01}enemy's Defense for a period of time.	49	71	reuse
+生命の水{01}戦闘不能を回復	The water of life.{01}Revives a fallen ally.	23	41	reuse
+奇跡の水薬{01}ＨＰとＴＰが全快、戦闘不能も回復する	A mysterious potion. Restores{01}100% of Max HP and TP.	47	52	reuse
+薬草の一種{01}ＴＰ回復力が２上昇	A variety of herb.{01}Increases TP Regen by 2.	29	43	reuse
+薬草の一種{01}最大ＨＰが３％上昇	A variety of herb.{01}Increases HP by 3%.	29	38	reuse
+薬草の一種{01}攻撃力が１上昇	A variety of herb.{01}Increases attack power by 1.	25	47	reuse
+薬草の一種{01}防御力が１上昇	A variety of herb.{01}Increases defense by 1.	25	42	reuse
+薬草の一種{01}ＴＰ軽減力が２上昇	A variety of herb.{01}Increases TP reduction by 2.	29	47	reuse
+薬草の一種{01}命中率が１上昇	A variety of herb.{01}Increases accuracy by 1.	25	43	reuse
+薬草の一種{01}回避率が１上昇	A variety of herb.{01}Increases evasion by 1.	25	42	reuse
+薬草の一種{01}ＴＰ回復力が３上昇	A variety of herb.{01}Increases TP Regen by 3.	29	43	reuse
+薬草の一種{01}最大ＨＰが６％上昇	A variety of herb.{01}Increases maximum HP by 6%.	29	46	reuse
+薬草の一種{01}攻撃力が２上昇	A variety of herb.{01}Increases attack power by 2.	25	47	reuse
+薬草の一種{01}防御力が２上昇	A variety of herb.{01}Increases defense by 2.	25	42	reuse
+薬草の一種{01}ＴＰ軽減力が３上昇	A variety of herb.{01}Increases TP reduction by 3.	29	47	reuse
+薬草の一種{01}命中率が２上昇	A variety of herb.{01}Increases accuracy by 2.	25	43	reuse
+薬草の一種{01}回避率が２上昇	A variety of herb.{01}Increases evasion by 2.	25	42	reuse
+蓋を開けると何が飛び出すか{01}わからない博打アイテム	What could be inside? Pop it{01}open! It could be your lucky day!	49	62	reuse
+不思議な世界地図{01}世界各地の情報を知ることができる	A mysterious world map. You{01}can learn much about the world.	49	59	reuse
+五つに分かたれた紋章のかけら{01}	Fragment of a crest.{01}There are five in total.	29	45	reuse
+別名ラッキーキャット{01}福を招くと言われる	Known as the Lucky Cat. It's{01}said to bring good fortune.	39	56	reuse
+雪かきのための道具{01}	A snow shovel.	19	14	reuse
+大工道具の一つ{01}材木を切るのに欠かせません	A carpenter's best friend. You{01}can't cut timber without it.	41	59	reuse
+生で食べたり漬物にしたりする{01}瓜臭いのでキライな人も多い？	Pickled vegetables are good for you.{01}Is it true many can't stand the smell?	57	75	reuse
+小さな実が赤く熟したら食べ頃{01}煮込んでジャムにしても美味	A small red fruit that's easy to eat.{01}Can be made into a delicious jam.	55	71	reuse
+長くて太くて曲っている{01}黄色い皮をむいて食べる	Long, thick, and yellow. Peel{01}back the skin and eat up.	45	55	reuse
+切れ味鋭い長剣{01}バランスが良い	A sword with a very sharp edge.{01}It's a well-balanced weapon.	29	60	reuse
+簡素で典雅な造りの長剣{01}美術的な価値も高い	A simple, yet elegantly made sword.{01}It's a highly artistic piece.	41	65	reuse
+伝説に登場する幻想の力を秘めた長剣{01}口伝を書物にまとめた兄弟の名を冠する	A legendary sword with a hidden power.{01}Named after storytelling brothers.	71	73	reuse
+凍結する刃を持つ直刀{01}氷雪の魔剣	A sword imbued with a demon's frost.{01}The blade appears to be frozen.	31	68	reuse
+竜の牙から生まれた鋭い剣{01}いかなる鎧も貫くと言われる	A sword made from a dragon's tooth.{01}Known to be able to penetrate any armor.	51	76	reuse
+勇者が邪竜を退治した時に用いた剣{01}鋼よりも硬い竜の鱗を易々と切裂く	A sword used for slaying dragons. It{01}can easily cut their powerful scales.	65	74	reuse
+職杖{01}殴られるとけっこう痛い	A basic mace. It's{01}effective for striking.	27	42	reuse
+王笏{01}典礼用の装飾が施されています	A basic scepter. It's primarily{01}a ceremonial decoration.	33	56	reuse
+簡素で典雅な造りの職杖{01}殴られるとかなり痛い	A simple, yet elegantly made mace.{01}It's very effective for striking.	43	68	reuse
+祝福を受けた杖{01}神聖な力が秘められている	A staff that has been blessed. A{01}holy power is concealed within.	39	64	reuse
+伝説に登場する幻想の力を秘めた権標{01}口伝を書物にまとめた兄弟の名を冠する	A legendary wand with a hidden power.{01}Named after storytelling brothers.	71	72	reuse
+東風の名を冠する王笏{01}国を守りし神風伝説は有名	A scepter named after the East Wind{01}which was said to protect its country.	45	74	reuse
+軽量で扱いやすい戦斧{01}	An easy to use,{01}lightweight battle axe.	21	39	reuse
+幅広い斧頭が特徴的な斧{01}	An axe with a wide head.	23	24	reuse
+戦斧{01}そのまんまですね	A basic battle axe.{01}Take it as it is.	21	37	reuse
+ウェイトを増量して威力を増した鉄槌{01}殴られると激しく痛い	An iron hammer, heavy but powerful.{01}It's an in ten se striking weapon.	55	70	reuse
+簡素で典雅な造りの戦斧{01}厚い装甲でも斬り裂きそうです	A simple, yet elegantly made battle axe.{01}Seems effective against thick armor.	51	77	reuse
+伝説に登場する幻想の力を秘めた戦斧{01}口伝を書物にまとめた兄弟の名を冠する	Battle axe of legend with hidden power.{01}Named after storytelling brothers.	71	74	reuse
+緑の怪しいヤツ{01}かなり怪しいヤツです	A suspicious green thing... A really,{01}REALLY suspicious green thing.	35	68	reuse
+トールの鉄槌{01}必ず命中すると言われる	The Hammer of Thor. Said{01}to always hit its mark.	35	48	reuse
+狩猟用の弓{01}安価の割にそこそこ強い	A simple hunting bow.{01}You get what you pay for.	33	47	reuse
+高質量の矢を発射するための合成弓{01}鎧の分厚い装甲をも貫く	A composite bow that fires heavy{01}arrows that can pierce strong armor.	55	69	reuse
+簡素で典雅な造りの長弓{01}実戦で洗練された美しい弓	A simple, yet elegantly made long bow.{01}Its beauty is refined through combat.	47	76	reuse
+伝説に登場する幻想の力を秘めた弓{01}口伝を書物にまとめた兄弟の名を冠する	A bow of legend with hidden power.{01}Named after storytelling brothers.	69	69	reuse
+Ｈ・フォッケ作の名弓で{01}名手Ｇ・ウルフが愛用したといわれる	A bow named after H. Focke and{01}said to be used by G. Wulf.	57	58	reuse
+革の鎧{01}初級冒険者のたしなみ？	Armor made of leather. Perfect{01}for the start of an adventure.	29	61	reuse
+鋼糸で縫製された鎧{01}多くの戦士に愛用される	Armor sewn together from steel{01}thread. Popular armor for solider.	41	65	reuse
+威厳の鎧{01}英雄王に似合いそうですね	Armor of dignity. A{01}suitable plate for a king.	33	46	reuse
+簡素で典雅な造りの鎧{01}重厚な守りって感じです	Simple, yet elegantly made armor. It{01}gives off a feeling of protection.	43	71	reuse
+要塞と呼ばれる堅固な鎧{01}まさに鉄壁の守りって感じです	Armor named after a fortress. It{01}feels like wearing an iron wall.	51	65	reuse
+伝説に登場する幻想の力を秘めた鎧{01}口伝を書物にまとめた兄弟の名を冠する	Armor of legend with hidden power.{01}Named after storytelling brothers.	69	69	reuse
+攻撃を反射する鎧{01}天地戦争時代の科学力の賜物	Armor that can reflect attacks. A{01}relic from the Aeth'er War period.	43	68	reuse
+聖戦に赴く騎士が愛用したといわれる鎧{01}信仰の力で守護される	Armor that belonged to a holy{01}knight. Its power comes from faith.	57	65	reuse
+網目の防護服{01}戦う女性を強力にサポートします！	Protective mesh clothing. It's{01}perfect for a strong woman.	45	58	reuse
+赤が基本？{01}四千年の歴史にひたれます	A dress in scarlet red. The{01}design has 4000 years of history.	35	61	reuse
+伝説に登場する幻想の力を秘めた兜{01}口伝を書物にまとめた兄弟の名を冠する	A helmet of legend with hidden power.{01}Named after storytelling brothers.	69	72	reuse
+赤ひげ王の名を冠する兜{01}	A helmet named after a king.	23	28	reuse
+儀式用甲冑の頭部{01}	A ceremonial helmet.	17	20	reuse
+純白の羽毛で作った羽飾り{01}美しさ重視です！	A white feather hat.{01}It's very beautiful.	41	41	reuse
+威厳の王冠{01}タカビー女王さま気分にひたれます	A crown of dignity. Wearing it{01}makes one feel like a queen.	43	59	reuse
+孔雀石製の王冠{01}不思議な力が秘められている	A crown made of malachite. There{01}is a concealed mysterious power.	41	65	reuse
+天使の輪{01}ヘヴンリーガーブとセットでどうぞ	A halo that belonged to an angel.{01}Please wear it with Heavenly Garb.	41	68	reuse
+ハンティングナイフの一種{01}	A unique hunting knife.	25	23	reuse
+細身の鋭い短剣{01}	A thin but very sharp dagger.	15	29	reuse
+受流し用の短剣{01}	A dagger useful for parrying.	15	29	reuse
+鋼板を貫通する短剣{01}	A dagger that can{01}penetrate steel.	19	34	reuse
+人喰い鮫の牙のように鋭い短剣{01}	A tusk that can be{01}used as a dagger.	29	36	reuse
+特殊鋼を鍛えた短剣{01}	A dagger forged{01}from special steel.	19	35	reuse
+なめし革で強化された篭手{01}	Gloves reinforced with leather.	25	31	reuse
+手首を柔かい布で保護します{01}軽くてすべりにくい作りです	Soft gloves that provides protection.{01}They're lightweight and easy to use.	53	74	reuse
+戦闘用の篭手{01}剣術専用に作られました	Standard combat gauntlets. They're{01}perfect for sword fighting.	35	62	reuse
+星々のきらめきに祝福された篭手{01}闇夜を照らす灯となれ	Mystic gloves imbued with stardust.{01}They can illuminate dark areas.	51	67	reuse
+伝説に登場する幻想の力を秘めた篭手{01}口伝を書物にまとめた兄弟の名を冠する	Gloves of legend that hold hidden power.{01}Named after storytelling brothers.	71	75	reuse
+きれいな手袋{01}	A beautiful set of gloves.	13	26	reuse
+清き乙女の証{01}ウェディングドレスとセットでどうぞ	The proof of a maiden pure.{01}Goes with a Wedding Dress.	47	54	reuse
+星々のきらめきに祝福された腕飾り{01}闇夜を照らす灯となれ	A mystic bracelet imbued with{01}stardust. It can illuminate dark areas.	53	69	reuse
+治癒の腕輪{01}敵を倒すとＨＰが回復	A bracelet of healing. Restores{01}HP upon slaying an enemy.	31	57	reuse
+精神の腕輪{01}敵を倒すとＴＰが回復	A bracelet of the mind. Restores{01}TP upon slaying an enemy.	31	58	reuse
+妖精の手によって作られた指輪{01}ＴＰ軽減力が上昇する	A ring that was made by{01}faeries. Increases TP Reduction	49	55	reuse
+理力の指輪{01}ガード時にＳＰが回復	A ring of strength.{01}Restores SP while guarding	31	46	reuse
+耐性の指輪{01}全ダメージを少し軽減する	A ring of resistance. Slightly{01}reduces damage taken.	35	52	reuse
+ウサギの足{01}幸運が上昇する	A charm said to bring good{01}luck. Increases Luck.	25	48	reuse
+戦神の紋章{01}ＳＰ回復力が上昇する	A crest from a holy war.{01}Increases SP Regen.	31	44	reuse
+一般的なお守り{01}防御力が上昇する	A simple charm.{01}Increases Defense.	31	34	reuse
+炎の紋章をあしらえたマント{01}炎耐性が上昇する	A cape marked with the crest of fire.{01}Provides protection from fire damage.	43	75	reuse
+水の紋章をあしらえたマント{01}水耐性が上昇する	A cape marked with the crest of water.{01}Provides protection from water damage.	43	77	reuse
+風の紋章をあしらえたマント{01}風耐性が上昇する	A cape marked with the crest of wind.{01}Provides protection from wind damage.	43	75	reuse
+地の紋章をあしらえたマント{01}地耐性が上昇する	A cape marked with the crest of earth.{01}Provides protection from earth damage.	43	77	reuse
+簡素で典雅な造りのマント{01}シブイッス！！	A simple, yet elegantly made cape.{01}The design was popular centuries ago.	39	72	reuse
+鋼糸で縫製されたブーツ{01}チェインメイルとセットでどうぞ	Boots sewn together from steel thread.{01}They look great with a Chain Mail.	53	73	reuse
+文字通りメチャクチャ重いブーツ{01}移動に苦労しそうです	Boots of great mass.{01}Difficult to walk in.	51	42	reuse
+簡素で典雅な造りのブーツ{01}カッコイイー！！	Simple, yet elegantly made boots.{01}The design was popular centuries ago.	41	71	reuse
+伝説に登場する幻想の力を秘めたブーツ{01}口伝を書物にまとめた兄弟の名を冠する	Boots of legend that hold hidden power.{01}Named after storytelling brothers.	73	74	reuse
