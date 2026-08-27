@@ -4036,3 +4036,22 @@ LVに応じて(毒/衰弱/麻痺/鈍足/凍結)を解除する{01}非戦闘時�
 <Nanaly>精神世界（７）	<Nanaly> Inner World (7)	19	21	translated
 <Nanaly>精神世界（８）	<Nanaly> Inner World (8)	19	21	translated
 <Loni>、食・べ・て★	<Loni>, e-a-t★	19	14	translated
+神の住まう天空から割砕するは人。{01}すなわち俺奥義	From the heavens where gods dwell,{01}man descends to cleave: my Mystic Arte.	47	74	translated
+常に中衛で、敵のSPが５０％以上の時は晶術、{01}５０％未満の時は攻撃を行います	Always mid-guard: cast when enemy SP is{01}50% or more, attack when under 50%.	73	75	translated
+常に後衛に位置し、晶術を溜めつつ{01}詠唱開始する敵に攻撃を行います	Always rear-guard: charge spells and{01}attack enemies that begin casting.	63	71	translated
+２：SP、TPが７５％以下になるまで{01}{99}{40}{99}{40}攻撃・晶術を行います	2: Attack and cast until{01}{99}{40}{99}{40}SP/TP drop below 75%.	57	50	translated
+３：SP、TPが５０％以下になるまで{01}{99}{40}{99}{40}攻撃・晶術を行います	3: Attack and cast until{01}{99}{40}{99}{40}SP/TP drop below 50%.	57	50	translated
+４：SP、TPが２５％以下になるまで{01}{99}{40}{99}{40}攻撃・晶術を行います	4: Attack and cast until{01}{99}{40}{99}{40}SP/TP drop below 25%.	57	50	translated
+２：HPが２５％以下になると攻撃を控え、{01}{99}{40}{99}{40}HPが２５％以下の味方に回復晶術を使います	2: Hold back attacking below 25% HP;{01}{99}{40}{99}{40}heal allies under 25% HP.	83	66	translated
+３：HPが５０％以下になると攻撃を控え、{01}{99}{40}{99}{40}HPが５０％以下の味方に回復晶術を使います	3: Hold back attacking below 50% HP;{01}{99}{40}{99}{40}heal allies under 50% HP.	83	66	translated
+４：HPが７５％以下になると攻撃を控え、{01}{99}{40}{99}{40}HPが７５％以下の味方に回復晶術を使います	4: Hold back attacking below 75% HP;{01}{99}{40}{99}{40}heal allies under 75% HP.	83	66	translated
+５：常に防御し、{01}{99}{40}HPが１００％未満の味方に回復晶術を使います	5: Always defend;{01}{99}{40}heal allies below 100% HP.	61	46	translated
+毒、衰弱、麻痺、鈍足、凍結を防止する{01}効果中は攻撃力と知性が低下	Prevents poison, weak, paralysis, slow,{01}and freeze; lowers Attack and Intellect.	63	80	translated
+<size:00000140><button:0000002A><size:00000080> <size:00000100>ボタンで熱線を発射{01}使うたびにレンズを一枚消費する	<size:00000140><button:0000002A><size:00000080> <size:00000100>fires a heat ray.{01}Each use costs one Lens.	70	63	translated
+強力な力を秘めた未知の鉱石{01}武具の材料となるが、扱いが難しい	An unknown ore of mighty power. A{01}weapon material, but hard to handle.	59	70	translated
+カロチンが豊富でウサギの好物{01}異国の言葉で言うとキャロット	Rich in carotene, a rabbit favorite.{01}In a foreign tongue: a carrot.	57	67	translated
+左手用短剣{01}	An off-hand dagger.	11	19	translated
+慈悲の短剣{01}	A dagger of mercy.	11	18	translated
+英雄王を補佐した賢者の手袋{01}魔導の指先と呼ばれる	Gloves of the sage who aided the hero{01}king. Called the fingertips of magic.	47	75	translated
+やわらかく甘いキャベツで{01}ひき肉を巻いてジューシーに仕上げました{01}ＯＨ！{99}{40}ロール・ミー！	Soft sweet cabbage wrapped around{01}ground meat, finished juicy.{01}OH! Roll me!	86	75	translated
+ニガイ！{99}{40}からい！{99}{40}しょっぱい！{01}栄養はあるかどうかはわからないが、{01}本当にこれでいいのか？	Bitter! Spicy! Salty!{01}No telling if it's even nutritious,{01}but is this really okay?	90	82	translated
