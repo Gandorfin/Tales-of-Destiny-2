@@ -3755,3 +3755,47 @@ LVに応じて(毒/衰弱/麻痺/鈍足/凍結)を解除する{01}非戦闘時�
 様々な壁を乗り越え１００ヒット以上で{01}勝負を決めた者に与えられる称号{01}まさに連携が生んだ奇跡祭り{01}	A title for those who overcome many walls{01}and settle a fight with 100+ hits.{01}A miracle festival born of chaining.	95	113	translated
 戦闘ランク「イージー」を選べますが、{01}このランクではよいアイテムが落ちなくなり{01}ます。戦闘に慣れたらノーマルをおすすめ{01}	You can pick battle rank 'Easy,' but good{01}items won't drop at this rank. Once used{01}to battle, Normal is recommended.	117	116	translated
 総計GRADEが６００に達し、熟達の戦術者と{01}認められた方々には戦闘ランク「ハード」{01}を選ぶことで、武器防具のレア度アップ？{01}	Those with a total GRADE of 600, deemed{01}skilled tacticians, can pick battle rank{01}'Hard' for higher weapon/armor rarity?	118	119	translated
+総計GRADEが１６００に達し、達人の戦術者{01}と認められた方々には戦闘ランク「マニア」{01}を選ぶことで、武器防具のレア度さらに！{01}	Those with a total GRADE of 1600, deemed{01}master tacticians, can pick battle rank{01}'Mania' for even higher weapon/armor rarity!	120	125	translated
+総計GRADEが６４００を超え最強の戦術者を{01}自負しかねない方々には最終戦闘ランク{01}「アンノウン」を選べますがやめときなさい{01}	Those over a total GRADE of 6400 who fancy{01}themselves the strongest tactician can pick{01}the final rank 'Unknown'... but don't.	118	125	translated
+エンカウント回数が４００回を超えた{01}パーティに贈る称号。勝利の数だけ{01}敗者も存在するということをお忘れなく{01}	A title for a party past 400 encounters.{01}Don't forget that for every victory,{01}there's a loser too.	105	98	translated
+エンカウント回数が１２００回をも超えた{01}パーティに贈る称号。戦いのために戦って{01}いないことを街の人達は願うばかり{01}	A title for a party past even 1200{01}encounters. The townsfolk can only hope{01}you aren't fighting just for the sake of it.	111	119	translated
+幻というか超絶に手に入りにくいことこの上{01}なさが連携する程のLV８最上位スロット{01}を勝ち取ったあなたにお世辞無き敬意を！{01}	Honest respect to you for winning a LV8 top{01}slot so rare it beggars belief, one that{01}chains together no less!	117	109	translated
+二十連携以上で勝負を決めた者に{01}贈られる称号。ヒット数とともに、{01}何よりも仲間に感謝したい{01}	A title for those who settle a fight with{01}20+ chains. Along with the hit count,{01}be grateful to your allies above all.	89	117	translated
+四十連携以上で勝負を決めた者に{01}贈られる称号。ここまでくると{01}敵のほうに同情の称号を贈りたい{01}	A title for those who settle a fight with{01}40+ chains. At this point, I'd rather give{01}the enemy a title of sympathy.	91	115	translated
+<Kyle>に付けられた自由称号{01}「かっこいいのをヨロシク！」{01}{01}	A free title given to <Kyle>.{01}'Make it a cool one, okay!'	56	56	translated
+<Loni>に付けられた自由称号{01}「俺に似合うやつにしてくれよな！」{01}{01}	A free title given to <Loni>.{01}'Make it one that suits me, got it!'	62	65	translated
+<Harold>に付けられた自由称号{01}「ふ～ん。アナタの発想ってこの程度？」{01}{01}	A free title given to <Harold>.{01}'Hmm. That's the best you can come up with?'	66	73	translated
+持ちきれないほどのお金をお持ちのあなた{01}使ってこその、お金ですよ{01}バァーンといっちゃいましょう！{01}	You who hold more money than you can carry.{01}Money's meant to be spent.{01}Go on, splurge big!	95	90	translated
+たくさんのリファイン経験をつみましたね{01}すでに、職人の域に達しています{01}{01}	You've piled up plenty of refining{01}experience. You've reached the{01}level of a craftsman already.	71	95	translated
+グレート・ゴールデン・ビクトリー{01}スーパー・スペシャル・リファイナー！{01}リファインこそ、あなたの生きがい！{01}	Great Golden Victory. Super Special{01}Refiner! Refining is your reason to live!	105	77	translated
+闘技場で優勝しました！{01}あなたさまこそ、チャンピオンよ！{01}{01}	You won the arena tournament!{01}You truly are the champion!	57	57	translated
+オレとあいつの、友情パワー！{01}力と力を合わせて、パワー百倍！{01}（不思議な計算）{01}	The power of friendship between me and him!{01}Combining strength with strength, power{01}times a hundred! (a curious calculation)	77	124	translated
+チャンピオンの中のチャンピオン{01}チャンプ・オブ・チャンプス{01}{01}	A champion among champions.{01}Champ of champs.	59	44	translated
+たくさんふられたということは、それだけ{01}チャレンジを繰り返したという証さ。{01}ポジティブにいこうぜ！{01}	Getting turned down a lot just means you{01}kept trying that many times.{01}Let's stay positive!	97	90	translated
+すごいＨＡＣＫＥＲ！{01}「黄色の敵の黒」は関係なし{01}{01}	Amazing HACKER!{01}The 'black of the yellow enemy' is unrelated.	49	61	translated
+記憶力バツグン！{01}すばやい対応で、お客さんもニッコニコ！{01}{01}	An amazing memory! Quick to respond,{01}the customers smile too!	57	61	translated
+天才的記憶力で必殺配膳！{01}おい、必殺はまずいだろ！{01}{01}	Serving with a genius memory! Hey,{01}'deadly' serving sounds bad!	51	63	translated
+天才的記憶力で超絶配膳！{01}天才ならば、この難易度は当然ですね{01}{01}	Superb serving with a genius memory!{01}For a genius, this difficulty is only natural.	61	83	translated
+まさに天職！{01}戦いよりも、この道を極めてみては？{01}{01}	Truly a calling! Rather than fighting,{01}why not master this path?	49	64	translated
+はさまるパティの味だけではない！{01}はさむバンズの味が大切なのだ！{01}まさに、バランス・オブ・パワー！	It's not just the taste of the patty!{01}The taste of the bun matters! Truly,{01}a balance of power!	96	94	translated
+野菜そのままとは全く異なる風味と味わい{01}さらに、その変化を一夜にして完成！{01}これは、食という名の魔術か!?	A flavor and taste utterly unlike raw{01}vegetables, and that change is completed{01}overnight! Is this magic by the name of food?	102	124	translated
+しっとりとなめらか、トローリとクリーミィ{01}たくさんの野菜をコトコト煮込みましょう{01}しあわせいっぱいお楽しみ！	Moist and smooth, thick and creamy.{01}Simmer plenty of vegetables slowly.{01}Enjoy it, full of happiness!	106	100	translated
+たまねぎ風味で炒めたライスを{01}トロリとクリーミィな卵焼きで包んだ料理。{01}くずしてしまうのがもったいないくらい	Rice fried with onion flavor, wrapped in a{01}soft, creamy omelet. Almost a shame to{01}break it open.	106	96	translated
+外側はパサパサでもビタビタでもダメ{01}あくまで、しっとり！{01}キュウリ抜きとるべからず	The outside mustn't be dry or soggy.{01}Moist all the way! And never{01}pull out the cucumber.	80	88	translated
+あなたは、料理の海を開拓する冒険家{01}スピリッツがフロンティアすぎて{01}みんな置き去り！	You're an explorer opening up the sea of{01}cooking. The spirits are too much of a{01}frontier, leaving everyone behind!	82	114	translated
+みずみずしい野菜を{01}オリジナルの盛り付けでどうぞ{01}絵画を描くように、色と形を構成しましょう	Serve fresh, juicy vegetables with your{01}own plating. Compose the colors and{01}shapes as if painting a picture.	88	108	translated
+やわやわアチアチのなめらか豆腐。{01}ピリ辛あんとのアクセントが絶妙！	Soft, hot, smooth tofu. The accent of the{01}spicy-sweet sauce is superb!	65	70	translated
+魚介類を具に使用したパスタ{01}これをいただく時は、”ペスカトーレ！”と{01}叫んでから食すべし（しかも、腹式呼吸で）	Pasta with seafood. When you eat it, cry{01}'Pescatore!' before digging in (with{01}belly breathing, no less).	108	104	translated
+新鮮な材料をカラッと揚げて、{01}レモンをしぼってガブッと食うべし{01}口の中にジュワッと広がる味！アチチチチ！	Fry fresh ingredients crisp, squeeze on{01}lemon, and chomp! The flavor spreads in{01}your mouth! Hot hot hot hot!	102	108	translated
+ひき肉をねりかためて焼いた料理{01}自身の肉汁でおいしさアップ！{01}ハンバーグより、少しリッチな気分	A dish of ground meat kneaded and grilled.{01}Its own juices boost the flavor!{01}A bit richer in mood than a hamburger.	92	114	translated
+野趣あふれるダイナミックな味わい！{01}まさに、未完の大器！{01}おい、未完は良くないだろ！	A wild, dynamic flavor! Truly, an{01}unfinished masterpiece! Hey,{01}'unfinished' isn't good!	82	87	translated
+野菜を炒めましょう。あふれるうまみ！{01}そして、米と一緒に煮込みましょう{01}しみこむうまみ	Stir-fry the vegetables. Overflowing{01}flavor! Then simmer them with rice.{01}Flavor that soaks right in.	84	100	translated
+選び抜いたお肉を、伝統の方法で{01}焼き上げました。{01}生に近い焼き加減でご賞味下さい	Choice meat grilled by traditional method.{01}Please savor it cooked close to rare.	78	80	translated
+刺すがごとく切れ！{01}それ、刺身の極意なり！{01}新鮮な魚をすばやく切るべし	Cut as if stabbing! That's the secret of{01}sashimi! Cut fresh fish swiftly.	68	73	translated
+シャケに染み込むバターの風味が最高！{01}互いの味わいを高める味と味{01}ベストパートナーと称えたい	The butter flavor soaking into the salmon{01}is superb! Taste and taste that raise each{01}other up. I'd call them best partners.	90	123	translated
+魚を煮込んで得られるうまさは{01}二重にも三重にも折り重なる味の織物{01}深みとコクのあるダシを味わうべし	The flavor from simmering fish is a woven{01}cloth of taste layered twice, thrice over.{01}Savor the deep, rich broth.	96	112	translated
+とろける味わい{01}なめらかでまろやかな甘味{01}デザートという名のファンタジー	A melting flavor. Smooth, mellow sweetness.{01}A fantasy by the name of dessert.	70	77	translated
+太目のパスタにトマトベースのソースを{01}たっぷりからめて作りましょう{01}ズルッとひとくち。もちもちのプチプチ	Coat thick pasta generously with a{01}tomato-based sauce. Slurp a mouthful.{01}Chewy and springy.	102	91	translated
+プリップリのエビを{01}ピリッピリの味に仕上げた料理{01}チリリとからいよ！	A dish of plump shrimp finished with a{01}fiery, spicy flavor. Zingy and hot!	66	74	translated
+煮えたぎるなべ！{01}ほとばしる肉のうまみ！{01}ドーンと豪快にいこうぜ！	A boiling pot! Bursting meaty flavor!{01}Let's go bold and hearty!	64	63	translated
+さまざまな具を、じっくり煮込んで{01}うまさを熟成！{01}当然ながら、みそは必須	Simmer various ingredients slowly to bring{01}the flavor to full maturity! Naturally,{01}miso is a must.	70	98	translated
