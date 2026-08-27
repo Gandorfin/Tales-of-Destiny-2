@@ -3930,3 +3930,26 @@ LVに応じて(毒/衰弱/麻痺/鈍足/凍結)を解除する{01}非戦闘時�
 <button:00000036> やめる	<button:00000036> Cancel	12	12	translated
 <button:00000035> 出る	<button:00000035> Leave	10	11	translated
 <button:00000036> もどる	<button:00000036> Back	12	10	translated
+調理に戦いに大活躍！{99}{40}まさに万能！{01}でも刃先は他人に向けないでネ☆	A star in cooking and combat! Truly all-{01}purpose! But don't point the edge at others.	65	85	translated
+さる匠の手による迷作{99}{40}凶悪な破壊力を{01}持つが、命中率がすこぶる悪い	A master's odd work. It has vicious{01}destructive power, but terrible accuracy.	65	77	translated
+初めから才能や実力に恵まれた人間{01}「もし、天才が努力したら{01}{99}{40}超天才になってしまうわね♪」{01}	A person gifted with talent and skill from{01}the start. 'If a genius put in the effort,{01}she'd become a super-genius.'	89	115	translated
+<Loni>談{01}「人間、誰にでもひとつぐらいは{01}{99}{40}とりえがあるもんだ」{01}	<Loni> says: 'Everyone, anyone,{01}has at least one thing{01}they're good at.'	62	71	translated
+「この書状を持つ者、我の勅命により、{01}{99}{40}レンズ奪還の任にあたる者なり」{01}<color:00000001>ファンダリア国王・ウッドロウ＝ケルヴィン{01}	'The bearer of this writ acts by my royal{01}command to reclaim the Lens.'{01}<color:00000001>King Woodrow Kelvin of Phandaria	116	109	translated
+突撃！{99}{40}いざ進め、工兵隊！{01}「私は隊長！{01}{99}{40}みんなは、部下よ！」{01}	Charge! Onward, engineer corps!{01}'I'm the captain!{01}You're all my subordinates!'	63	78	translated
+不思議！{99}{40}ソーディアンを知り尽くす女！{01}「詳細データを把握していて当然よ{01}{99}{40}設計者なんだから」{01}	Amazing! The woman who knows all about{01}Swordians! 'Of course I know the details,{01}I'm the designer.'	93	99	translated
+衝撃！{99}{40}天才科学者は、実は女性だった！{01}「男の名前にしとけば、み～んなカン違い{01}{99}{40}すると思ったのよねぇ」{01}	Shocking! The genius scientist was a woman!{01}'I figured a man's name would fool{01}everybody, you know.'	103	100	translated
+神の力と戦う<Kyle>{01}神とは!?{99}{40}真実とは!?{01}とにかく、売ったケンカはカタをつけるさ！{01}	<Kyle> fights against the power of a god.{01}What is a god!? What is truth!? Either way,{01}he'll settle the fight he picked.	80	118	translated
+「あたしはいつも走ってるからね{01}{99}{40}日々の積み重ねってのが大切ってことさ」{01}{01}	'I'm always running, you know.{01}Piling up the days is what matters.'	73	67	translated
+「運動する物体の速さを音速との比で{01}{99}{40}あらわしたのがマッハね{01}{99}{40}マッハ３は音速の三倍ということ」{01}	'Mach expresses the speed of a moving{01}object relative to sound. Mach 3 is{01}three times the speed of sound.'	95	106	translated
+全てのレシピを習得してしまうほどの{01}料理大好きなあなたこそ偉大なる料理人！{01}ワンダフル！{99}{40}ベジタブル！{01}	You who love cooking enough to master{01}every recipe are a great chef!{01}Wonderful! Vegetable!	101	90	translated
+１０００もの戦いをくぐりぬけた戦士{01}「まだまだ、いくぜぇ！{01}{99}{40}おりゃああああああああああ！！！！」{01}	A warrior who survived a thousand battles.{01}'Not done yet, come on!{01}Ryaaaaaaaah!!!!'	97	83	translated
+うふっ★{01}リファインが、だ・い・す・き{99}{40}なのね★{01}{01}	Hehe. You just love refining,{01}don't you.	49	40	translated
+箱大好き♪{99}{40}ハコスキー♪{01}{01}{01}	Loves boxes. Boxkey.	27	20	translated
+「飛べぇ～飛べぇ～☆{99}{40}ロケットぉぉ～♪」{01}独特の音感と独特の歌唱！{01}さすが、天才はひと味違う！{01}	'Fly, fly, rocket!' A unique sense of{01}rhythm and singing! As expected, a{01}genius is a cut above.	93	95	translated
+知力・反射神経・時の運！{01}まさに、クイズ王{99}{40}<Kyle>！{01}{01}	Wit, reflexes, and the luck of the moment!{01}Truly, the Quiz King, <Kyle>!	52	71	translated
+おにごっこキング、すなわち鬼王！{01}<Kyle>は、逃げた側だが、鬼王！{01}それにしても、いかつい名前だ！{99}{40}鬼王！{01}	King of tag, that is, the Demon King!{01}<Kyle> was the one who fled, but Demon King!{01}Still, what a fierce name! Demon King!	102	120	translated
+神経が衰弱しそうな遊びを、なぜやるのか？{01}遊びなのに神経を衰弱させてどうするのか？{01}それにしても、イヤな名前だ。{99}{40}神経衰弱王{01}	Why play a game that wears out your nerves?{01}Wearing nerves for a game, for what?{01}Still, a nasty name. Concentration King.	123	121	translated
+クールでＣＯＯＬなパイロット！{01}ＣＯＯＬ{99}{40}ＦＬＹＩＮＧ！{01}ひゃっほう！{99}{40}ボブスレー！{99}{40}（？）{01}	A cool, COOL pilot! COOL FLYING!{01}Yahoo! Bobsled! (?)	91	52	translated
+息子を思う母{99}{40}そして、それに応えた息子{01}「目一杯、暴れてらっしゃい！」{01}そして、息子は強くなる{01}	A mother who cares for her son, and a son{01}who answered her. 'Go wild all you want!'{01}And so, the son grows stronger.	93	115	translated
+「かつての英雄をも超えた二人に対し{01}{99}{40}我々は、最大限の敬意を表する!!」{01}{99}{40}{99}{40}{99}{40}{99}{40}{99}{40}{99}{40}{99}{40}{99}{40}ノイシュタット闘技場本部{01}	'To the two who surpassed even the heroes{01}of old, we express our utmost respect!!'{01}Neustadt Arena Headquarters	111	110	translated
+米が主役だ！{99}{40}炒めろ！{99}{40}炒めろ！{01}トマトソースは情熱の赤！{01}ファイヤー！！！	Rice is the star! Fry it! Fry it!{01}Tomato sauce is the red of passion!{01}Fire!!!	74	77	translated
