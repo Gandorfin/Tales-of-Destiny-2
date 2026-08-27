@@ -3203,3 +3203,775 @@ HPを吸収できる。	Can drain HP.	16	13	translated
 文字通りメチャクチャ重いブーツ{01}移動に苦労しそうです	Boots of great mass.{01}Difficult to walk in.	51	42	reuse
 簡素で典雅な造りのブーツ{01}カッコイイー！！	Simple, yet elegantly made boots.{01}The design was popular centuries ago.	41	71	reuse
 伝説に登場する幻想の力を秘めたブーツ{01}口伝を書物にまとめた兄弟の名を冠する	Boots of legend that hold hidden power.{01}Named after storytelling brothers.	73	74	reuse
+高速の斬撃による真空波が渦を巻き、{01}閃光となって敵を打ち上げる特技	Base: A high-speed slash that makes{01}a whirlwind, launching the enemy.	65	69	translated
+神速の連続突きにより、突風が巻き起こり、{01}敵を吹き飛ばす効果を持つ奥義	Arcane: A chain of quick thrusts forms{01}a gust of wind, blowing foes away.	69	73	translated
+前方に敵を吹き飛ばす障壁を展開、{01}同時に近距離の仲間の体力を微回復させる特技	Base: Raises a barrier to push back{01}front foes and heal nearby allies.	75	70	translated
+修行の成果で雷を呼び起こし、{01}力を解放する特技	Base: Releases the power of thunder{01}as a result of training.	45	60	translated
+貫いた敵を豪腕で振り上げる特技。命中率が低い{01}のがなんだが敵の隊列を入れ替えるにはナイス	Base: Flings the enemy skyward. Low{01}hit rate, but breaks up their ranks.	87	72	translated
+空中から冷気の槍で敵を貫く特技{01}敵の攻撃をかわしながら出すとステキ	Base: Strikes with an icy spear.{01}Great when dodging an attack.	65	62	translated
+それはもう強力な振り下ろしで、大地を{01}震撼させる特技	Base: Shakes the ground with{01}a powerful downward slash.	51	55	translated
+振り下ろしから引き込み、突進で追いつめる{01}前向き奥義	Arcane: Starts with a downward slash,{01}then rushes the enemy.	51	60	translated
+低空回転体当たりでところかまわず{01}吹き飛ばす迷惑奥義	Arcane: Sweeps foes away with a body{01}slam, regardless of position.	51	66	translated
+あふれる気合を露骨に叩きつける{01}爆烈奥義	Arcane: Pummels the enemy{01}with overflowing zeal.	39	48	translated
+突きがヒットすると、目前の敵をすり抜けて{01}奥の敵に斬りかかる性質を持つ特技	Base: Slips past the front enemy{01}and hits the next one.	73	55	translated
+土煙を巻き起こし、双剣によって火花を起こして{01}爆発させる奥義	Arcane: Ignites a dust cloud with{01}twin blades to cause an explosion.	59	68	translated
+常人の目には見切れぬ瞬間移動を伴った{01}斬撃奥義	Arcane: Lets you move{01}undetected by the naked eye.	45	50	translated
+数多の敵を貫通する炎の閃光を生み出す{01}特技	Base: Creates blasts of fire{01}that hit several enemies at once.	41	62	translated
+移動中は全員、戦闘中は{01}範囲内の味方の体力を回復させる晶術	Restores HP to all allies out of{01}battle, or those in range in battle.	57	69	translated
+相手との距離に関係なく真空の刃を発生させる{01}下級晶術	Low: Blades of wind spring forth,{01}striking those within range.	51	62	translated
+とがった岩を連続に突き出し、敵を貫く{01}下級昇華晶術	Low-Ext: Pointed rocks protrude{01}in sequence, piercing the enemy.	49	64	translated
+鋭利な氷の槍を、ターゲットに照準を当てて{01}次々と貫く下級昇華晶術	Low-Ext: Sharp ice spears pierce{01}the enemy one after another.	63	61	translated
+局所的に高熱を発生させ、狙った敵を屠る{01}下級昇華晶術	Low-Ext: A small area is set ablaze,{01}slaughtering the enemy within.	51	67	translated
+地面で強力な爆発を起こす火炎弾を降らせる{01}中級晶術	Mid: Blazing shots from the sky{01}make a powerful blast on impact.	49	64	translated
+敵の動きを封じ込める魔空間を引き出す{01}中級晶術	Mid: A demonic void is called forth,{01}stopping enemies in their tracks.	45	70	translated
+熱を大地に集中させ、局地的な噴火を起こす{01}中級昇華晶術	Mid-Ext: Concentrated heat within{01}the earth creates an eruption.	53	64	translated
+輝きの槍を突き刺し、更に追撃を加える{01}中級昇華晶術	Mid-Ext: Radiant spears impale{01}the enemy multiple times.	49	56	translated
+大地の力を圧縮し、そして解放させる{01}上級晶術	High: Concentrates and unleashes{01}the power of the Earth.	43	56	translated
+古代より伝えられし浄化の炎を呼び起こす{01}上級晶術	High: A purifying flame is called{01}forth from ages long past.	47	60	translated
+神聖なる裁きの雷を撃ち放つ{01}上級晶術	High: The thunder of Holy Judgment{01}delivers a crushing blow.	35	60	translated
+漆黒の闇の淵へ引きずり込む{01}上級晶術	High: Draws the enemy{01}into a dark abyss.	35	40	translated
+攻撃晶術はダメージが、{01}回復晶術は回復量が上昇	Boosts attack spell damage and{01}healing spell HP recovery.	45	57	translated
+＜継続効果＞使用晶術の属性の耐性が一定時間{01}上昇する	(Continuous) Raises resistance to the{01}equipped spell's element for a time.	51	74	translated
+＜確率効果＞この晶術で倒した時のアイテム{01}入手確率が上昇する	(Random) Ups the chance to get an{01}item from a foe felled by this spell.	59	71	translated
+地面に突き立てた剣撃がヒットすると、{01}目標の敵の足元から爆炎が起こる特技	Base: Stab your sword into the ground,{01}creating a burst of flame below.	71	71	translated
+今まさに練りまくった作戦を披露するなら。{01}気分はナイスミドルか。	It's about time we put our training to{01}work. Let's show 'em how it's done!	63	74	reuse
+戦闘中一定時間攻撃力が上昇し、{01}ＳＰ回復力が低下する薬	Medicine that raises Attack,{01}but decreases SP Regen.	53	52	reuse
+聖気封入の瓶{01}エンカウント率を下げる	A bottle sealed with light.{01}Temporarily reduces encounter rate.	35	63	reuse
+邪気封入の瓶{01}エンカウント率を上げる	A bottle sealed with darkness.{01}Temporarily increases encounter rate.	35	68	reuse
+偉大な創始者の意{01}高名な剣匠が鍛えた剣	A sword forged by a famous artisan.{01}The will of the great creator.	37	66	reuse
+単なる普通のどこにでもある杖{01}でもチョットだけ魔法使い気分です	A basic rod. It contains{01}a small amount of magic.	61	49	reuse
+料理名人の左手{01}シチューなどをかきまぜます	A necessity for the culinary{01}expert. Let's make a stew!	41	55	reuse
+料理名人の右手{01}ハンバーグとかを焼きます	A necessity for the culinary{01}expert. Let's make a hamburger!	39	60	reuse
+聖獣の角{01}ＨＰ回復効果があります	The horn of a very sacred animal.{01}It has HP healing properties.	31	63	reuse
+速射に優れる短弓{01}早撃ちにはコレ！	A short bow used for rapid{01}firing. It is extremely fast!	33	56	reuse
+鋼板であつらえた鎧{01}プレートの中では軽い方です	Custom made armor from steel sheets.{01}It's a light variant of plate armor.	45	73	reuse
+特殊な毛糸を編んでつくった服{01}ほんわかして暖かいです	Clothes made with special wool.{01}It's soft, warm, and comfortable.	51	65	reuse
+黒い服{01}魔法使い気分にひたれます	A pretty black dress. It feels{01}like it has magical properties.	31	62	reuse
+威厳の兜{01}古の老将軍が愛用したそうな	A helmet of dignity. It was{01}often worn by ancient generals.	35	59	reuse
+孔雀石製のサレット{01}不思議な力が秘められている	A helmet made of malachite. It{01}hides a mysterious power within.	45	63	reuse
+一国の主がかぶる王冠{01}高貴な者の証です	A crown worn by the ruler of a{01}country. It is proof of nobility.	37	64	reuse
+祝福を受けた羽飾り{01}神聖な力が秘められている	A plume that has been blessed.{01}There is a holy power hidden within.	43	67	reuse
+伝説に登場する幻想の力を秘めた羽飾り{01}口伝を書物にまとめた兄弟の名を冠する	A plume of legend with hidden power.{01}Named after storytelling brothers.	73	71	reuse
+上腕まで保護する篭手{01}	Gauntlets that protect{01}the upper arms.	21	38	reuse
+戦神から授けられた篭手{01}接近戦用に特化している	Gauntlets from a holy war. They're{01}great for close quarters combat.	45	67	reuse
+悪魔を封印したお守り{01}取得経験値が増える	An amulet that contains a demon's{01}soul. Experience is doubled.	39	62	reuse
+ヒヨコのお守り{01}気絶やダウンを軽減する	An amulet of a baby bird. Reduces{01}stagger and knockdown time.	37	61	reuse
+月閃光	Moon Glare	6	10	reuse
+崩龍斬光剣	Dragon Glare	10	12	reuse
+烈火閃	Flare Shot	6	10	reuse
+牙連閃	Storm Glare	6	11	reuse
+扇氷閃	Frigid Glare	6	12	reuse
+墜陽閃	Glimmer Shot	6	12	reuse
+虚空閃	Void Shot	6	9	reuse
+龍炎閃	Wyrm Shot	6	9	reuse
+蒼破刃	Azure Edge	6	10	translated
+散葉塵	Falling Leaves	6	14	translated
+空翔斬	Sky Slash	6	9	translated
+閃光衝	Flash Impact	6	12	translated
+牙連蒼破刃	Fang Azure Edge	10	15	translated
+空破絶風撃	Void Tempest	10	12	translated
+屠龍連撃破	Dragon Slayer	10	13	translated
+疾空連殺剣	Rapid Sky Blade	10	15	translated
+岩斬滅砕陣	Rock Crusher	10	12	translated
+天翔弾	Soaring Shot	6	12	translated
+風神招	Wind Caller	6	11	translated
+護法蓮	Guardian Lotus	6	14	translated
+流蓮弾	Lotus Shot	6	10	translated
+双打鐘	Twin Strike	6	11	translated
+雷神招	Thunder Caller	6	14	translated
+放墜鐘	Crashing Bell	6	13	translated
+霧氷翔	Frost Soar	6	10	translated
+爆灰鐘	Ash Bell	6	8	translated
+割破爆走撃	Blast Charge	10	12	translated
+空破特攻弾	Void Charge	10	11	translated
+戦吼爆ッ破	Roaring Blast	10	13	translated
+神空割砕人	Heaven Cleaver	10	14	translated
+飛連斬	Flying Slash	6	12	translated
+双連撃	Twin Slash	6	10	translated
+千裂虚光閃	Thousand Blades	10	15	translated
+粉塵裂破衝	Dust Cyclone	10	12	translated
+魔人滅殺闇	Demonic Void	10	12	translated
+雷牙衝	Thunder Fang	6	12	translated
+華連撃	Petal Barrage	6	13	translated
+影閃剣	Shadow Flash	6	12	translated
+鏡影槍	Mirror Lance	6	12	translated
+魔人煉獄刹	Demonic Inferno	10	15	translated
+裂衝蒼破塵	Azure Devastation	10	17	translated
+キャラ特性に応じた隊列位置で、{01}固有の思考で敵を狙います	Make decisions based the{01}character's personality.	55	49	reuse
+前衛、中衛から{01}可能な限り武器攻撃で近くの敵を狙います	From the front lines and mid guard,{01}defend your position whenever possible.	53	75	reuse
+常に前衛で敵の攻撃を防御後に{01}武器攻撃を行います	Defend yourself at the front lines{01}and counter after the being attacked.	47	72	reuse
+気持ちをふるい立たせる一言。{01}一人のときでもまあオッケー。	On my mark, stand up and let loose. If{01}you're alone, well that's fine too.	57	74	reuse
+みんなには防御してもらいましょう。{01}態勢を立て直してから倍返し。	Put your guard up for now. We'll{01}reorganize and pay them back twofold.	63	70	reuse
+ほんとかよ！嘘ついたらただじゃおかんぞ。{01}信じて従うのもまた仲間であります。	Trust me, I'll be fine!{01}Just step back and relax.	75	49	reuse
+あなただけのシークレットな作戦ならこれ。{01}秘密は漏らすな。	Use your own secret strategy.{01}Reveal your hidden plan.	57	54	reuse
+とっととかたをつける作戦ならこういう失礼{01}な発言をするのもいいけどほどほどに。	Forget about tactics! Just{01}rush in and crush 'em!	77	49	reuse
+万能薬。毒、衰弱、麻痺、鈍足、凍結の{01}ステータス異常を回復	A panacea. Removes{01}all status ailments.	57	39	reuse
+不思議なレンズ{01}敵のＨＰ、弱点属性等を知ることができる	Mysterious lens that can scan{01}an enemy's HP and attributes.	53	59	reuse
+不思議な砂時計{01}戦闘中一定時間、敵の動きを停止させる	Mysterious hourglass that stops enemy{01}movement for a fixed amount of time.	51	74	reuse
+戦闘中、敵味方を含めた全てのダメージが{01}半分になる。使いどころが肝要	Reduces all damage inflicted on allies{01}and enemies during battle by 50%.	67	72	reuse
+敵の姿やデータを見ることができる図鑑{01}完成を目指そう！	A collection of information{01}about enemies. Know thy enemy!	53	58	reuse
+クイズ愛好家には欠かせない本{01}すべて答えられるかな？	A must-read for quiz lovers. Think you{01}know it all? (WARNING: Not translated.)	51	78	reuse
+千年前の古びたロープ{01}切れそうで、ちょっと怖い	An antiquated thousand-year{01}old rope. Is it safe?	45	49	reuse
+暖炉にくべて火をともす事ができる{01}	Put some in a stove and you{01}can start a fire easily.	33	52	reuse
+土に植えれば育ちそうだ{01}	Plant it in some soil{01}and it will grow.	23	39	reuse
+周囲をスキャニングする{01}使うたびにレンズを三枚消費する	Scan the nearby area. Using it on{01}your journey costs 3 Lens per use.	53	68	reuse
+物資保管所の鍵{01}様々なロックを解除できる	The key to the Storage Warehouse.{01}Opens various types of locks.	39	63	reuse
+井戸を掘るための道具{01}	A pick for digging a well.	21	26	reuse
+大工道具の一つ{01}クギを打つのに欠かせません	A carpenter's best friend. You{01}can't pound nails without it.	41	60	reuse
+大工道具の一つ{01}材木を削るのに欠かせません	A carpenter's best friend. You{01}can't smoothen wood without it.	41	62	reuse
+一般的な作物の種{01}広く栽培されている	Seed of a popular crop. It's{01}already in wide cultivation.	35	57	reuse
+ジョニーの楽器{01}	Instruments belonging to Johnny.	15	32	reuse
+トレーディングカード{01}どこかでスロットアイテムと交換	A trading card. Can be{01}exchanged for slotted items.	51	51	reuse
+安い肉{01}まずいというワケではない	Mediocre meat.{01}Obviously not the best.	31	38	reuse
+しもふり{01}最高級のしもふり肉	Quality meat. The highest{01}grade of seasoned meats.	27	50	reuse
+十本足の海の生物{01}干してスルメにしたりする	Ten-legged creature of the sea.{01}It's been dried so it keeps longer.	41	67	reuse
+フライにして食べたりする海産物{01}タイを釣ったりもする？	A marine animal best eaten fried.{01}How do they catch so many?	53	60	reuse
+安価な食用魚{01}干してメザシにしたりする	The cheapest fish you can get.{01}Dried and ready for consumption.	37	63	reuse
+おめでたい時に食べる赤い魚{01}洒落にあらず！	A red fish often eaten at formal{01}occasions. Don't forget to dress up!	41	69	reuse
+煮たり焼いたり揚げたりして食べる{01}デンプン質が豊富	Boil it, bake it, stuff it as you{01}please. Your daily dose of starch.	49	68	reuse
+葉が球形に巻く不思議な野菜{01}千切りにして生でどうぞ	A wonderful leafy, green vegetable.{01}Dice it up and it's ready to go.	49	68	reuse
+白くて長くて太い根菜{01}煮込んで食べると美味	A white vegetable, long and{01}thick. A delicacy when boiled.	41	58	reuse
+生で食べたりジュースにしたりする{01}リコピンが豊富	Can be eaten or made into a juice.{01}An excellent source of lycopene.	47	67	reuse
+サラダの王道{01}シャキシャキした食感が心地良い	The undisputed king of salad.{01}Has a wonderful crisp texture.	43	60	reuse
+茶色で毛が生えている不思議な果実{01}鳥の名前が元と言われている	A unique furry brown fruit. Named{01}after the bird that loves it.	59	63	reuse
+酸味、芳香が豊かな黄色い果実{01}ビタミンＣがいっぱい	A sour yellow fruit with a nice{01}aroma. It's got Vitamin C in spades.	49	68	reuse
+赤くて丸くて甘酸っぱい果実{01}アップルパイにしたり？	A round, red, bittersweet fruit.{01}Surely you've had apple pie?	49	61	reuse
+牛のお乳{01}白くて栄養価の高い飲み物	Comes from cows. A white drink used{01}in many meals. It does a body good.	33	71	reuse
+炊いて食べる穀物{01}農家の八十八の苦労がしのばれます	A granular food served cooked. Farmers{01}endure great hardship to grow it.	49	72	reuse
+白くて柔かい大豆から作る食べ物{01}腐った豆と記す	A white food made from soybeans.{01}Rotten soybeans, that is.	45	58	reuse
+乳脂肪の塊{01}ブレッドに塗りたくって食べます	A lump of butterfat.{01}Often spread on bread.	41	43	reuse
+長くて威力のある剣{01}自在に使えれば一人前です	An entry-level sword. Skilled{01}use of it is a mark of manhood.	43	61	reuse
+細身の長剣{01}外見は優雅だが扱いは難しい	A sword with a thin blade. A{01}difficult but elegant sword to master.	37	67	reuse
+集団戦闘に用いられる剣{01}改良が重ねられ洗練されている	A sword best suited for group combat.{01}Mastery of it requires repeated use.	51	74	reuse
+軍事用に造られた幅広の長剣{01}攻撃力が高い	A wide sword for military use.{01}Its attack power is excellent.	39	61	reuse
+斬撃に適した直刀{01}騎兵隊の基本武器として知られる	A straight sword suitable for dueling.{01}It's the basic armament for cavalrymen.	47	78	reuse
+反り身の長剣{01}船乗り達に好まれる	A long sword with a curved blade.{01}It's a popular weapon among pirates.	31	70	reuse
+三日月刀として有名な曲刀{01}異国情緒を味わえる	A sword shaped after a crescent moon.{01}It's an exotic piece of weaponry.	43	71	reuse
+突撃剣として優れる{01}見た目は小さいが威力は高い	A superb sword for an assault. It{01}looks small, but is quite powerful.	45	69	reuse
+偃月刀と呼ばれ肉厚の刃を持つ{01}どことなくエスニックな雰囲気	A sword with an ethnic flair.{01}Similar to a scimitar, but wider.	57	63	reuse
+湾曲した鎌のような刃を持つ剣{01}きわめて高い殺傷力を持つ	A sword with sickle-like blade. Very{01}efficient at wounding or killing.	53	70	reuse
+威力を強化したサーベル{01}考案した者の名が与えられた	A greatly reinforced saber. It{01}was named after its creator.	49	59	reuse
+反り身の大剣{01}ライオンの尾という意味を持つ	A sword with a massive curve. Said{01}to be named after a lion's tail.	41	67	reuse
+重厚な刀身を持つ直刀{01}高地民族の間で使われている	A straight sword with a thick blade.{01}It's popular with mountain tribes.	47	71	reuse
+風斬りの刃{01}その斬撃は旋風を巻き起こす	A blade that can cut through wind.{01}Its attacks can create whirlwinds.	37	69	reuse
+かつてパラディンにのみ{01}許されたという名誉の剣	A sword of prestige that was previously{01}only available for paladins.	45	68	reuse
+波打つ刃を持つ長剣{01}火炎の魔剣	A sword imbued with a demon's flame.{01}The blade appears to flicker like fire.	29	76	reuse
+古代伝承で勇者が倒した{01}竜の爪から切り出された剣	A sword fashioned from the nail of{01}adragon slain by a ancient hero.	47	67	reuse
+西風の名を冠する名剣{01}隼の紋章が刻まれている	A sword named after the West Wind.{01}There is a falcon crest carved into it.	43	74	reuse
+古い西方の王国の言葉で{01}希望を意味する剣	A sword named after hope.{01}Originates from a western kingdom.	39	60	reuse
+天地創造の時代に鍛えられた伝説の剣{01}大地の力が付与されている	A sword forged during the creation.{01}The power of Earth flows through it.	59	72	reuse
+最後の一撃を放つ長剣{01}ベムブルのオーガーを退治した	A sword capable of a finishing blow.{01}It was used to defeat the Bembul Ogre.	49	75	reuse
+氷の柩に副葬されていた剣{01}永久氷塊の刃	A sword that was buried in ice.{01}Now the blade is forever frozen.	37	64	reuse
+勝利のルーンが刀身に刻まれた剣{01}	A sword carved from{01}the Rune of Victory.	31	40	reuse
+闇の牙と恐れられた忍の刃{01}音も無く敵を倒す	A dark blade, feared by many. It{01}destroys its foes without sound.	41	65	reuse
+妖精の手によって鍛えられた魔剣{01}剣が操者を選ぶと言われる	A sword of evil forged by faeries.{01}The sword chooses those of virtue.	55	69	reuse
+稲妻のような残光を放つ{01}日出国で鍛えられた銘刀	A sword with a strange inscription.{01}It can release a flash of lightning.	45	72	reuse
+慈悲の名を冠する名剣{01}天使の紋章が刻まれている	A sword named after compassion. An{01}angel's crest is carved within it.	45	69	reuse
+英雄王に仕えた騎士が{01}愛用した忠義の聖剣	A holy sword belonging to a knight{01}who loyally served his king.	39	63	reuse
+円卓の騎士が帯びた{01}と言われる名剣	A great sword that belonged to{01}aknight of the round table.	33	58	reuse
+剣の道を極めた果てに{01}得られるモノとは？	A sword that only those who have reached{01}the limits of swordsmanship can use.	39	77	reuse
+湖の妖精に認められた英雄に{01}与えられる王者の剣	A royal sword administered a hero{01}recognized by the faerie of the lake.	45	71	reuse
+嵐を呼ぶ力を秘めた魔剣{01}選ばれた英雄の剣	An evil sword that can summon{01}storms. A weapon for a chosen hero.	39	65	reuse
+けがれなき光を放つ長剣{01}乙女の紋章が刻まれている	A sword that radiates with pure light.{01}A maiden's crest is carved within it.	47	76	reuse
+長い杖{01}長旅のお供にいかが？	A basic staff. Is it{01}sufficient for a long journey?	27	51	reuse
+熱狂の杖{01}振ると士気が高揚する	A staff of crazed abandon. It can{01}lift morale simply by waving it.	29	66	reuse
+節くれの長い杖{01}羊飼い気分になれます	A staff made for a long journey.{01}It's a popular item with shepherds.	35	68	reuse
+支配者の権標{01}	A verge of authority.	13	21	reuse
+威厳の王笏{01}四英雄の一人も使ってた？	A dignified royal scepter. Was it{01}used by one of the four heroes?	35	65	reuse
+孔雀石製の職杖{01}不思議な力が秘められている	A mace made from a vivid green mineral.{01}A mysterious power is concealed within.	41	79	reuse
+香木から切出した癒し系の杖{01}良い香りが心を安らかにします	A staff of soothing cut from an aromatic{01}tree. The scent puts one at ease.	55	74	reuse
+豊かな心を養う効果がある王笏{01}妖精の力が宿っている	A scepter that raises one's spirit.{01}The power of faeries reside within it.	49	74	reuse
+要するにペロペロキャンディ{01}とっても甘～い♪	Um, it's a lollipop.{01}It's a very sweet treat.	43	45	reuse
+御気楽極楽美少女ステッキ{01}なんとかなるでしょ♪	A baton belonging to a cute girl from{01}another world. Pretty Heart Boomerang!	45	76	reuse
+チアガールのバトン{01}クルクルクル～♪	A cheerleader's baton.{01}Fight! Fight! Fight!	35	43	reuse
+夢紡ぎの王笏{01}殴るとピヨリます♪	A royal scepter for dream weaving.{01}It dizzies those hit with it.	31	64	reuse
+蛮族の長が持つ錫杖{01}殴られるとメチャクチャ痛い	A staff of a savage tribe.{01}It's fraught with chaos.	45	51	reuse
+慟哭の権標{01}なんだか悲しくなってきます	A verge of lament. The feeling{01}of sorrow is passed from it.	37	59	reuse
+大審院の最高判事が持つ権標{01}敵に引導を渡します	A verge of the high court. It{01}passes judgment to one's foes.	45	60	reuse
+大君主の職杖{01}殴られるとすごく痛い	The staff of a high monarch. It's{01}extremely effective for striking.	33	67	reuse
+操者に闇の伝承の知識を与える{01}ダークエルフ族の遺産	The knowledge of darkness is handed{01}tothose of honor. A relic of dark elves.	49	76	reuse
+天才のみが使える杖よん{01}<Harold>談	A staff that only a genius could{01}use. (According to Harold, that is.)	30	69	reuse
+如意棒とも呼ばれる{01}使用者の意志で自在に操ることが可能	The staff of a legendary priest. It{01}syncs with the will of its user.	53	68	reuse
+長柄の斧{01}名は体を表わす	An axe with a long handle. It's{01}named after its appearance.	23	59	reuse
+斧の特徴をあわせ持つ槍{01}	A spear with axe characteristics.	23	33	reuse
+槍と戦斧の機能を合わせ持つ万能武器{01}近衛騎士の主武装	A balanced weapon, both spear and axe.{01}The primary armament of imperial guards.	51	79	reuse
+三叉矛{01}海神が持つことで有名	A three-pronged halberd. The famous{01}possession of the water god.	27	64	reuse
+半月形状の斧頭が付いた戦斧{01}	A battle axe with a{01}crescent-shaped head.	27	41	reuse
+ゴシゴシこするとキレイになる{01}かつての英雄も使ったとか	Scrub 'til it's nice and clean.{01}This was used by an ancient hero.	53	65	reuse
+神話に登場する狂暴な{01}灰色熊の名を冠する戦斧	A battle axe named after a{01}furious legendary grizzly bear.	43	58	reuse
+風神の矛槍{01}神速の突きを誇る	A lance used by the god of wind. He{01}would boast of its swift thrusts.	27	69	reuse
+悲しみという名の騎士が愛用した斧槍{01}ある婦人の名を冠している	A poleaxe used by a knight whose name{01}meant sad. Named for the woman he loved.	59	78	reuse
+火山のマグマから生まれた炎の長槍{01}熱く燃ゆる矛先を持つ	A long spear with a burning point.{01}It was born from volcanic magma.	53	67	reuse
+悪魔の牙と恐れられる長柄武器{01}神の敵対者のみ保持を許される	A polearm with a fearful name. Exudes{01}the anger of one who stood against God.	57	77	reuse
+災いの一撃を放つと伝わる伝説の槍{01}	A demonic spear of legend. Said to call{01}forth calamity with a single blow.	33	74	reuse
+海の獣の死骸から魔女が作った{01}不思議な力を帯びる魔槍	Crafted from the bones of a sea monster.{01}A demonic lance of great power.	51	72	reuse
+南風の名を冠する戦斧{01}	A war axe bearing the{01}name of the south wind.	21	45	reuse
+弾性を強化した弓{01}飛距離が伸びている	A bow with strengthened elasticity{01}that improves distance.	35	58	reuse
+スコープ付きの長弓{01}精密な射的が可能	A long bow with a scope attachment.{01}Ideal for added precision.	35	62	reuse
+戦のために作られた強弓{01}主として王城の守備兵が使っている	A tightly strung bow made for wars.{01}Primarily used to defend castles.	55	69	reuse
+ファンダリア王国近衛連隊の標準装備{01}使用者をグレネーダーと呼称する	Standard equipment for Phandaria{01}guards. Users are called "Grenadiers."	65	71	reuse
+戦用の攻城弓{01}城門の厚い扉をも貫通する	An assault bow used in wars{01}thatcan penetrate castle doors.	37	59	reuse
+毒矢で敵を絶命させる弓{01}即死した戦士が大勢いるらしい	A bow that uses poison-tipped arrows.{01}Said to have killed many instantly.	51	73	reuse
+放たれた矢は七色の軌跡で飛ぶ{01}雨上がりにしか使えないわけではない	Fires arrows that leave colored trails.{01}It does not have to be used after rain.	63	79	reuse
+衝撃波の異名を持ち、{01}超音速の矢を放つ	Named after a sonic boom, it fires{01}arrows that break the sound barrier.	37	71	reuse
+伝説の大ワシの名を冠する長弓{01}きわめて高い攻撃力を誇る	A long bow named after a legendary bird.{01}It boasts impressive offensive ability.	53	80	reuse
+北風の名を冠する強弓{01}神速の矢を放つ	A strong bow named after the North{01}Wind. Its arrows fly with godly speed.	35	73	reuse
+空飛ぶ聖獣の爪から作られた聖弓{01}誘導する不思議な矢を放つ	Made from the claw of a sacred beast. It{01}fires arrows with marvelous guidance.	55	78	reuse
+東方の英雄が魔獣退治に{01}使ったとされる退魔の弓	A bow said to be used by an Eastern{01}heroto eradicate demonic beasts.	45	68	reuse
+この弓が火を噴けば大地は{01}焼尽の荒野と化す	When this bow emits its flames, the{01}surrounding grounds are laid to waste.	41	74	reuse
+暗黒の力を秘めた魔弓{01}敵からＴＰを奪う	A demonic bow with hidden dark{01}power. It steals TP from enemies.	37	64	reuse
+人の一生は星のきらめきのようなもの{01}つーか、のようなものにしちゃう弓	A bow that sparkles like a star, unlike{01}anything you'll see in your entire life.	67	80	reuse
+鱗のような鋼板を縫い合わせた鎧{01}戦闘するならこれくらいは欲しい	Armor made of stitched together{01}scales. Good armor for early battles.	61	69	reuse
+鋼板で強化した革の鎧{01}割と本格的な鎧です	Leather armor reinforced with steel.{01}Comparable to full body armor.	39	67	reuse
+鋼板を増して防御力を高めたラメラー{01}かなりの防御力があります	Lamellar with increased steel sheeting.{01}It has considerable defense power.	59	74	reuse
+上半身を鋼板で装甲した鎧{01}プレートの中では安価な方です	A steel plate for the upper body. It's{01}relatively cheap for plate armor.	53	72	reuse
+全身を鋼板で保護する鎧{01}一般的に鎧と言えばコレ！	Armor that protects the entire body.{01}Speaking frankly, it's great armor.	47	72	reuse
+戦場を駆ける兵士達の守護神の名を持つ{01}必ず生還する鎧と賞賛される	Armor named after a holy battlefield.{01}It was a gift to those who survived.	63	74	reuse
+大地母神マーテルの守護を授かった鎧{01}聖なるオーラに包まれる	Armor with protection of Mother Earth,{01}Martel. A sacred aura emanates from it.	57	78	reuse
+異国の神の魂が込められている鎧{01}無意識に攻撃を回避する	Armor concealing the spirit of a foreign{01}god. It can effortlessly evade attacks.	53	80	reuse
+要するにメイド服{01}見た目より動きやすく作られています	Clothes for a maid. Movement is{01}easy despite its appearance.	51	60	reuse
+刺子の防護服{01}戦闘にも耐える作りになっています	Quilted, protective clothing. It{01}was made to withstand many battles.	45	68	reuse
+装飾された礼装です{01}見た目重視ですね！	A decorative, formal dress.{01}You'll look important wearing it.	37	61	reuse
+ズボン式の婦人用スカート{01}動きやすさ重視です！	A trousers-like skirt for the{01}ladies. They allow great mobility.	45	64	reuse
+ほっそりした礼装{01}信じられないけど戦闘用です	A slender formal dress. It's{01}surprisingly good for battle.	43	58	reuse
+夜会用の礼装{01}淑女気分にひたれます	A formal dress for evening parties.{01}Wearing it makes you feel classy.	33	69	reuse
+上下ひと続きの肌に密着したファッション{01}女性の美しさを引き立てます	A skin-tight suit that covers the topand{01}bottom. It accents a woman's curves.	65	77	reuse
+花布の防護服{01}異国情緒にひたれます	Protective clothing made from a flowery{01}material. It evokes an exotic mood.	33	75	reuse
+白が基本？{01}花嫁気分にひたれます	A dress in classic white. It{01}makes you feel bridal (obviously).	31	63	reuse
+元は船乗りの服だったらしいです{01}要するにセーラー服です	The design is based on a sailor uniform.{01}It's basically a blouse and skirt.	53	75	reuse
+燃え上がる炎をデザインしたスカート{01}炎耐性があります	A skirt designed with burning flames.{01}It provides protection from fire.	51	71	reuse
+防風、防寒のためのジャケット{01}風耐性があります	A good jacket for when there's a breeze.{01}It provides protection from wind.	45	74	reuse
+水をかぶっても保温力が落ちません{01}水耐性があります	A thermal insulation suit for swimming.{01}It provides protection from water.	49	74	reuse
+東の国の女性神官の服らしいです{01}要するに巫女服です	The clothes of a Shinto priestess.{01}They are suited for a shrine maiden.	49	71	reuse
+戦乙女に祝福された草色の軽鎧{01}冒険と伝説もよろしくね	Light armor blessed by a battle maiden.{01}It's perfect for adventures and legends.	51	80	reuse
+革で作った軽い兜{01}とっても安上りです	A light helmet made of leather.{01}It's an economical first purchase.	35	66	reuse
+頭部全体を保護する{01}少し頭が固くなります	A helmet that protects the whole{01}head. It might not fit a smaller head.	39	71	reuse
+鋼の兜{01}戦う冒険者にぜひ！	A helmet of steel. It's{01}popular for adventurers.	25	48	reuse
+アイシェード付きなので{01}まぶしくても平気です	A helmet that offers eye protection.{01}The added security is comforting.	43	70	reuse
+面頬で顔を保護する{01}顔を隠したい人向け？	A helmet that covers your face.{01}It's good for hiding your identity.	39	67	reuse
+乱戦時のために視界の悪さが改善された{01}メレーとは乱戦の意	A helmet that helps focus your field of{01}vision for helping in large battles.	55	76	reuse
+その名の通りグレートな兜{01}角付きでカッコイイです	A helmet that is true to its name.{01}The angular look is very cool.	47	65	reuse
+熱狂のカスク{01}かぶると士気が高揚する？	A helmet of wild excitement. Wearing{01}it increases your fighting spirit.	37	71	reuse
+高貴なるサレット{01}騎士道を志すあなたに捧ぐ	A helmet of a nobleman. Worn{01}by those aiming for chivalry.	41	58	reuse
+祝福儀礼が施してあるアーメットヘルム{01}邪悪を祓う効用があるらしい	A helmet that has been blessed. It{01}is said that it can dispel evil.	63	67	reuse
+支配者のカスク{01}王者の貫禄で圧倒されます	A helmet of a ruler. It gives{01}off the presence of a king.	39	57	reuse
+敵地に陣地を築く特殊部隊で{01}使用される頑強な兜	An obstinate helmet used by special{01}forces that infiltrate enemy country.	45	73	reuse
+古代国家で勇者に与えられたといわれる冠{01}誉れ高い戦士の証！	A crown given to an ancient hero.{01}Proof of a solider having high honor!	57	71	reuse
+野心ある勇将の用いた兜{01}敵を圧倒する威圧感があります	The helmet of an ambitious soldier.{01}It gives a feeling of great power.	51	70	reuse
+八首の大蛇を退治した東国の{01}荒ぶる漢の名を冠する兜	A helmet named after an Eastern godwho{01}defeated an eight-headed serpent.	49	72	reuse
+暗黒騎士の兜{01}暗い奴だと思われちゃうかも？	The helmet of a dark knight. Wearing{01}it may make one appear gloomy.	41	67	reuse
+赤いリボン{01}黒髪には赤が映えますね	A cute red ribbon. The red{01}shines against black hair.	33	53	reuse
+緑の帽子{01}絵描き気分にひたれます	A little green hat. It's very{01}popular amongst artists.	31	54	reuse
+顔を保護する薄い絹布{01}	A silk cloth that{01}protects the face.	21	36	reuse
+宝冠{01}典礼用の装飾が施されています	A jeweled crown. It's given{01}as a ceremonial decoration.	33	55	reuse
+高貴なるヴェール{01}異国の貴婦人気分にひたれます	A veil of nobility that makes one feel{01}like a lady from a foreign country.	45	74	reuse
+祝福儀礼が施してあるリボン{01}闇を照らし、魔を祓う	A ribbon that was given a blessing. It{01}is said to expel darkness and demons.	47	76	reuse
+簡素で典雅な造りのサークレット{01}かつて赤毛の女戦士も愛用しました	A simple, yet elegantly made circlet.{01}Once worn by red-haired female soldiers.	63	78	reuse
+支配者のティアラ{01}わがまま王女さま気分にひたれます	A tiara of a ruler. Wearing it makes{01}one feel like a spoiled princess.	49	70	reuse
+豊かな心を養う効果がある帽子{01}妖精の力が宿っている	A hat that enhances wealthy desires.{01}The power of faeries dwell within it.	49	74	reuse
+きれいなお花の冠です{01}ピュアな心になります	A beautiful chaplet. It{01}makes one pure of heart.	41	48	reuse
+東国の女性が身に着ける髪飾り{01}要するにかんざし	A hairpin from an Eastern{01}country. It is quite ornamental.	45	58	reuse
+愉快な仮面{01}いつも笑顔をたやさずに	A joyful mask. It always{01}wears a big smile.	33	43	reuse
+乙女の髪飾り{01}童心に返ることができます	The hairpin of a young girl. Returns{01}one to the days of innocence.	37	66	reuse
+星々のきらめきに祝福されたリボン{01}キラキラしてます！	A ribbon blessed with stardust.{01}It makes you sparkle brilliantly!	51	65	reuse
+傷を意味する短剣{01}短剣は主に防御用として使用	A dagger used for shanking. It's{01}actually useful for self-defense.	43	66	reuse
+鮮やかな装飾が施された短剣{01}	An ornately decorated dagger.	27	29	reuse
+鉈のような厚い刃を持つ短剣{01}	A thick knife that{01}resembles a hatchet.	27	39	reuse
+致命の一撃を放つ短剣{01}	A dagger capable{01}of a fatal attack.	21	35	reuse
+手首を少々保護する{01}素手でチャンバラはキケンです	Offers a little hand protection.{01}Barehanded swordplay is dangerous!	47	67	reuse
+名工ギースの魂のこもった無二の傑作{01}きわめて希少価値が高い	The work of Geese, a famous artisan.{01}It's an extremely precious item.	57	69	reuse
+東方の異国から伝わった篭手{01}神木の加護がある	Gauntlets from the far east. They{01}carry a blessing from a sacred tree.	43	70	reuse
+瑠璃の腕飾り{01}悪い事件を事前に知らせると言われる	A bracelet made of lapis lazuli. Said{01}to give premonition of bad fortune.	47	73	reuse
+愛らしい手袋{01}	A charming set of gloves.	13	25	reuse
+かわいい手袋{01}	A set of adorable gloves.	13	25	reuse
+天使の祝福を受けた腕飾り{01}み～んな幸せにするッス！	A bracelet blessed by an angel.{01}It grants happiness to everyone!	49	64	reuse
+希望の腕飾り{01}いつも心に太陽を！	A highly sought-after bracelet.{01}The sun will shine upon you!	31	60	reuse
+心を静め、精神を安定させる指輪{01}ＴＰ回復力が増加	A ring that calms the heart{01}and mind. Increases TP Regen.	47	57	reuse
+反射の指輪{01}受けたダメージを反射することがある	A ring of reverberation. Damage{01}is occasionally reflected.	45	58	reuse
+保護の指輪{01}のけぞり時間を軽減する	A ring of protection.{01}Reduces duration of kickback.	33	51	reuse
+奇抜な動きで敵を撹乱する指輪{01}命中率が上がる	A ring that disrupts enemy{01}movement. Increases accuracy.	43	56	reuse
+技巧の指輪{01}アイテム入手確率を上げる効果がある	A ring of technique. Increases{01}chance of item drops.	45	52	reuse
+毒効果を防止・軽減するお守り{01}ガード時に敵に毒を与えることも	A charm that prevents Poison.{01}Poisons enemies while guarding.	59	61	reuse
+麻痺を防止・軽減するお守り{01}ガード時に敵に麻痺を与えることも	A charm that prevents Paralyze.{01}Paralyzes enemies while guarding.	59	65	reuse
+移動速度減少状態を軽減・防止するお守り{01}ガード時にその効果を与えることも	A charm that prevents Slow.{01}Slows enemies while guarding.	71	57	reuse
+凍結を軽減・防止するお守り{01}ガード時に敵を凍結させることも	A charm that prevents Freeze.{01}Freezes enemies while guarding.	57	61	reuse
+聖なる紋章{01}徐々にＨＰが回復	A crest that invokes spirituality.{01}Restores HP gradually.	27	57	reuse
+戦士の紋章{01}力が上昇する	A crest that invokes{01}bravery. Increases Attack.	23	47	reuse
+神秘的な紋章{01}詠唱時間を短縮する	A crest that invokes mystery.{01}Reduces Casting time.	31	51	reuse
+女神の彫像{01}取得ガルドが増える	A statue of a goddess.{01}Increases Gald earned in battle.	29	55	reuse
+黒縞瑪瑙のお守り{01}ＨＰの最大値が上昇する	A lucky black agate.{01}Increases Max HP.	39	38	reuse
+身代りの彫像。事前に装備しておくと{01}戦闘不能時に砕け散り、体力が回復	If equipped before battle, it will{01}shatter and revive a character upon KO.	67	74	reuse
+衰弱を軽減・防止するお守り{01}ガード時に敵に衰弱を与えることも	A charm that prevents weakening.{01}Weakens enemies while guarding.	59	64	reuse
+革製のマント{01}雨の日も安心	A cape made of leather. It's{01}quite reliable on a rainy day.	25	59	reuse
+暗い色で目立ちません{01}身を隠すのに便利	The dark color is inconspicuous.{01}A useful item for hiding.	37	58	reuse
+狩人が好んで使うマント{01}野宿する時に毛布の代わりになる	A thick cape popular with hunters. Can{01}be used as a blanket while camping.	53	74	reuse
+エルフ族が使う軽快な若草色のマント{01}森の散策時にどーぞ	A light colored cape of elven decent.{01}Ideal for a stroll through the forest.	53	76	reuse
+毛皮で作った高級なマント{01}雪国で外出する時の必携です	A ritzy cape made of animal fur.{01}It's highly valuable in snowy areas.	51	69	reuse
+高貴な者が用いる豪華なマント{01}アナタは注目の的ですね！	A luxurious cape used by noblemen.{01}You'll be the center of attention!	53	69	reuse
+幻を作り出すマント{01}攻撃が当りにくくなります	A cape that creates illusions. It{01}makes it difficult to be attacked.	43	68	reuse
+天空のマント{01}魔法耐性が高まります	A cape from the heavens.{01}Increases magic tolerance.	33	51	reuse
+王女がお忍びで外出する時に使ったそうな{01}姫様のお転婆にも困ったものです	A disguise worn by a tomboy princess{01}when she sneaked out of the castle.	69	72	reuse
+銀糸を編みこんだケープ{01}銀には魔を退ける力があるそうです	A cape knitted with silver thread.{01}The silver is said to repel demons.	55	70	reuse
+東国の将軍が戦場で愛用した羽織{01}偉くなった気分になれます	A haori used by generals of an Eastern{01}country. It's quite comfortable.	55	71	reuse
+網目のブーツ{01}軽快でステキ	Boots made with a mesh pattern.{01}They're lightweight and cute.	25	61	reuse
+いわゆる軍靴ってやつですな{01}実用性第一主義です	Standard issue army boots.{01}A priority for practicality.	45	55	reuse
+膝まで保護するブーツ{01}スネを蹴られても平気です	Boots that go up to the knee. They{01}protect against kicks to the shin.	45	69	reuse
+接近戦に優れた堅いブーツ{01}耐久性に優れます	Tough boots for close quarters combat.{01}Their durability is incredible.	41	70	reuse
+羽根がついてるブーツ{01}心もウキウキ	Boots with stylish wings attached.{01}They'll give you a feeling of floating.	33	74	reuse
+すごい加速です{01}仲間がついて来れないかも？	Boots that provide awesome speed.{01}Just don't leave your friends behind!	41	71	reuse
+エルフ族が使う軽快な若草色のブーツ{01}森の中でも転ばずに走れます	Light green boots of elven decent.{01}Perfect for running through the forest.	61	74	reuse
+夢魔の飾りを施したブーツ{01}すべるような移動が可能に！	Boots decorated with nightmares.{01}They make movement quite slippery!	51	67	reuse
+音もなく歩けます{01}カンナギの装束とセットでどうぞ	Socks that allow silent movement. A{01}matching set with a Kannagi Costume.	47	72	reuse
+なめらかなクリームにレモンの香り{01}甘酸っぱく、そして、清らかな味わい	Smooth cream with a lemon fragrance.{01}Pure flavor of sweet and sour.	67	67	reuse
+カラフルなフルーツジュース{01}しぼりたてを冷やしてどうぞ	Colorful Fruit Juice, fresh squeezed{01}and chilled to perfection. Drink up!	53	73	reuse
+新鮮なフルーツを{01}ふんわりブレッドで、はさみました{01}いろどり豊かなサンドイッチ	Fresh fruit places between soft{01}bread, Good and good for you.	76	61	reuse
+捨てますか？{01} {01}<button:00000035>捨てる  <button:00000036>やめる	Discard it?{01} {01}<button:00000035>Discard  <button:00000036>Cancel	39	39	translated
+使いますか？{01} {01}<button:00000035>使う  <button:00000036>やめる	Use it?{01} {01}<button:00000035>Use  <button:00000036>Cancel	37	31	translated
+斬撃と、生じる真空波による飛び道具を放つ{01}特技。「特技」は通常技から連携可能	Base: Fires a projectile of vacuum waves.{01}Chains from base attacks.	75	67	translated
+舞う木の葉を切り刻む程の高速の剣を繰り出す{01}特技	Base: A high-speed blade that shreds{01}like falling leaves.	47	57	translated
+気を纏った連続攻撃から真空波を放つ奥義。{01}「奥義」は通常技と特技から連携可能	Arcane: Fires vacuum waves from a{01}charged combo. Chains from base and artes.	75	76	translated
+抗う敵を捕らえ、「滅殺する闇」を開く{01}暗黒奥義	Arcane: Seizes the enemy and opens{01}an annihilating darkness.	45	60	translated
+影に閃く神速の投剣を放つ特技。{01}衝撃は背後の敵にも及ぶ	Base: Hurls a godspeed blade of shadow.{01}The shock reaches enemies behind it too.	53	80	translated
+高速で接近した真空のかまいたちが両側から{01}敵を切り刻む下級昇華晶術	Low-Ext: Swift vacuum blades close in{01}and shred the enemy from both sides.	65	74	translated
+重力場を発生させて押しつぶし、{01}大地もろとも破砕する中級晶術	Mid: Generates a gravity field that{01}crushes the enemy and the ground.	59	69	translated
+水圧を利用して巨大な鉱石を落下させる{01}中級昇華晶術	Mid-Ext: Uses water pressure to drop{01}a massive ore onto the enemy.	49	66	translated
+氷の棺に敵を閉じ込め、「終焉」を与える{01}上級晶術	High: Seals the enemy in an icy coffin{01}and delivers their end.	47	62	translated
+壊滅的な威力の嵐を巻き起こす{01}上級晶術	High: Stirs up a storm of{01}devastating power.	37	44	translated
+異空間から荒れ狂う彗星を召喚する禁呪晶術。{01}消費TPと詠唱時間は尋常ではない	Forbidden: Summons a raging comet from{01}another dimension. Huge TP and cast time.	73	80	translated
+プレイヤーキャラに追随して、プレイヤーの{01}攻撃中に攻撃・晶術を行います	Follows the player character and acts{01}or casts while the player attacks.	69	72	translated
+常に中衛に位置し、近くの敵を武器攻撃しつつ、{01}攻撃中の敵を狙って晶術を行います	Stays in the mid guard, attacking nearby{01}foes while casting on attacking enemies.	77	81	translated
+無口な男を演出するのもまた一興。{01}一興程度にとどめておきなさい。	Playing the silent type has its charm.{01}Keep it to just a bit of charm, though.	63	78	translated
+戦闘開始時には中央の作戦が設定されます。{01}また、カスタムした作戦にはお好みの号令名を{01}つけることができます	The center strategy is set at battle{01}start. You can also name custom strategies.	104	80	translated
+＜確率・継続効果＞ヒット時に敵の知性能力を{01}一定時間減少させる	(Chance-Cont.) On hit, lowers the{01}enemy's Intelligence for a time.	61	66	translated
+＜確率・継続効果＞ヒット時に敵の地耐性を{01}一定時間減少させる	(Chance-Cont.) On hit, lowers the{01}enemy's Earth resistance for a time.	59	70	translated
+＜確率・継続効果＞ヒット時に敵の水耐性を{01}一定時間減少させる	(Chance-Cont.) On hit, lowers the{01}enemy's Water resistance for a time.	59	70	translated
+＜確率・継続効果＞ヒット時に敵の火耐性を{01}一定時間減少させる	(Chance-Cont.) On hit, lowers the{01}enemy's Fire resistance for a time.	59	69	translated
+＜確率・継続効果＞ヒット時に敵の風耐性を{01}一定時間減少させる	(Chance-Cont.) On hit, lowers the{01}enemy's Wind resistance for a time.	59	69	translated
+＜確率・継続効果＞ヒット時に敵の光耐性を{01}一定時間減少させる	(Chance-Cont.) On hit, lowers the{01}enemy's Light resistance for a time.	59	70	translated
+＜確率・継続効果＞ヒット時に敵の闇耐性を{01}一定時間減少させる	(Chance-Cont.) On hit, lowers the{01}enemy's Dark resistance for a time.	59	69	translated
+自分の最も耐性のある属性のみ、特技中{01}レベル数だけ属性攻撃に耐えられる	During artes, resist elemental attacks of{01}your strongest element, up to your level.	69	83	translated
+自分の最も耐性のある属性のみ、特技中{01}レベル数だけ属性晶術に耐えられる	During artes, resist elemental spells of{01}your strongest element, up to your level.	69	82	translated
+スピリッツブラスター状態になるための{01}カウントが加算される	Adds to the count needed to enter{01}Spirits Blaster state.	57	56	translated
+＜確率効果＞ヒット時にアイテムを盗むことが{01}できる	(Chance) On hit, lets you{01}steal an item.	49	40	translated
+特技発動開始のごく僅かな時間{01}全ての攻撃を回避する	For a brief moment as an arte begins,{01}evade all attacks.	49	56	translated
+敵ヒット時「<button:0000003D>押し続け」で特技の{01}連携技を発動。	On enemy hit, Hold <button:0000003D> to{01}trigger an arte's chain move.	50	57	translated
+敵のけぞり中「<button:0000003D>押し続け」で、秘奥義が{01}発動。	While the enemy staggers, Hold{01}<button:0000003D> to trigger a Mystic Arte.	48	62	translated
+地上でダメージを受けた瞬間に「特技入力」で{01}特技を発動できる。	Enter an arte the moment you take damage{01}on the ground to trigger it.	61	69	translated
+地上で攻撃をガードした瞬間に「特技入力」で{01}特技を発動できる。	Enter an arte the moment you guard an{01}attack on the ground to trigger it.	61	73	translated
+空中にいる時に「特技入力」で特技を発動できる{01}	Enter an arte while airborne to trigger it.	45	43	translated
+敵ガード時に「<button:0000003D>押し続け」でガード耐久値を{01}一気に８減らす。	When the enemy guards, Hold <button:0000003D>{01}to cut their guard gauge by 8 at once.	62	72	translated
+ヒット時に「<button:0000003D>押し続け」で敵を奥へふっ飛ばす{01}	On hit, Hold <button:0000003D> to knock the{01}enemy farther back.	48	51	translated
+特技から開始して「<button:0000003D>押し続け」で{01}通常技に連携できる。	Starting from an arte, Hold <button:0000003D>{01}to chain into a base attack.	56	62	translated
+「<button:0000003D>押し続け」で特技後の硬直時に前進ダッシュ{01}を行う。	Hold <button:0000003D> to dash forward during{01}the recovery after an arte.	56	61	translated
+「<button:0000003D>押し続け」で特技後の硬直時に後退ダッシュ{01}を行う。	Hold <button:0000003D> to dash backward during{01}the recovery after an arte.	56	62	translated
+「<button:0000003D>押し続け」で特技後、一定距離内にいる{01}敵の背後を取る。	Hold <button:0000003D> after an arte to get{01}behind an enemy within a set range.	60	67	translated
+特技後「晶術入力」で下級攻撃晶術を{01}高速発動できる。	After an arte, enter a spell to quickly{01}cast a low-tier attack spell.	51	69	translated
+特技中に「他特技入力」で一回だけ特技{01}で連携可能。	During an arte, enter another arte to{01}chain into an arte once.	49	62	translated
+LVに応じて(毒/衰弱/麻痺/鈍足/凍結)を解除する{01}非戦闘時はセットしなくても解除可能	Cures (poison/weak/paralysis/slow/freeze) by{01}level. Out of battle, cures unset too.	79	83	translated
+「<button:0000003D>押し続け」で昇華晶術を追加発動できる。{01}	Hold <button:0000003D> to add a{01}sublimation spell.	46	38	translated
+「<button:0000003D>押し続け」で精霊結晶を具現化。スピリッツ{01}ブラスター時のみ。	Hold <button:0000003D> to manifest a spirit{01}crystal. Spirits Blaster state only.	66	68	translated
+晶術チャージ後に<button:0000003E>を離さず<button:0000003D>で晶術セット、{01}次の攻撃連携後に高速発動。	After charging, keep <button:0000003E> held and{01}press <button:0000003D> to set the spell.	75	65	translated
+詠唱開始直後に「<button:0000003D>押し」で詠唱時間を{01}四分の一にする。	Right after casting begins, press{01}<button:0000003D> to quarter the cast time.	56	65	translated
+「<button:0000003D>を押し続け」で与えたダメージに比例した{01}HPを吸収できる。	Hold <button:0000003D> to absorb HP{01}in proportion to damage dealt.	62	54	translated
+「<button:0000003D>押し続け」でSPを30%回復。{01}	Hold <button:0000003D> to restore 30% SP.	33	29	translated
+「<button:0000003D>押し続け」でTPを10%回復する。{01}	Hold <button:0000003D> to restore 10% TP.	37	29	translated
+「<button:0000003D>押し続け」で自分以外の味方のSPを{01}15%回復。	Hold <button:0000003D> to restore 15% SP{01}for allies other than yourself.	49	60	translated
+「<button:0000003D>押し続け」で発動硬直中に約一秒間敵の攻撃{01}を全て回避する。	Hold <button:0000003D> to evade all enemy{01}attacks for about one second during recovery.	64	75	translated
+「<button:0000003D>押し続け」で晶術発動後、{01}即座に行動できる。	Hold <button:0000003D> to act immediately{01}after casting a spell.	50	52	translated
+「<button:0000003D>押し続け」後のヒットで敵を気絶{01}させやすくする。	A hit after Hold <button:0000003D>{01}makes the enemy easier to stun.	54	54	translated
+これでいいですか？{01} {01}<button:00000035>買う  <button:00000036>やめる	Is this okay?{01} {01}<button:00000035>Buy  <button:00000036>Cancel	43	37	translated
+これでいいですか？{01} {01}<button:00000035>売る  <button:00000036>やめる	Is this okay?{01} {01}<button:00000035>Sell  <button:00000036>Cancel	43	38	translated
+新規にレシピを作成しますか？{01} {01}<button:00000035>作成  <button:00000036>やめる	Create a new recipe?{01} {01}<button:00000035>Create  <button:00000036>Cancel	53	47	translated
+レシピ作成には２種類以上の食品を{01}使用する必要があります{01} {01}レシピの作成をやめますか？{01} {01}<button:00000035>やめる  <button:00000036>続行	You need two or more foods to create a{01}recipe.{01} {01}Stop creating a recipe?{01} {01}<button:00000035>Stop  <button:00000036>Continue	109	99	translated
+これらの食材で料理してみますか？{01} {01}<button:00000035>実行  <button:00000036>やめる	Cook with these ingredients?{01} {01}<button:00000035>Cook  <button:00000036>Cancel	57	53	translated
+を料理しますか？{01} {01}<button:00000035>実行  <button:00000036>やめる	Cook it?{01} {01}<button:00000035>Cook  <button:00000036>Cancel	41	33	translated
+レシピを削除しますか？{01} {01}<button:00000035>削除  <button:00000036>やめる	Delete this recipe?{01} {01}<button:00000035>Delete  <button:00000036>Cancel	47	46	translated
+ゲームクリア時の戦闘評点（ＧＲＡＤＥ）を使って、{01}様々な条件でゲームを開始することができます	Use your battle GRADE from clearing the{01}game to start under various conditions.	91	79	translated
+余ったＧＲＡＤＥは持ち越されます。{01}今回は何も使わずに、{01}この次のゲーム開始時に使ってみるのもお勧めです	Leftover GRADE carries over. Saving it for{01}your next playthrough is recommended too.	102	84	translated
+以上の設定で、ゲームを開始します。{01}<button:00000025>ゲーム開始<button:00000026>戻る	Start the game with these settings.{01}<button:00000025>Start<button:00000026>Back	59	55	translated
+選択可能な難易度と、称号を{01}引き継いでゲーム開始できます	Start with your chosen difficulty{01}and titles carried over.	55	58	translated
+特技・晶術の使用回数を引き継いで{01}ゲーム開始できます	Start with your artes' and spells'{01}use counts carried over.	51	59	translated
+追加発動技を除いたエンチャントを引き継いで{01}ゲーム開始できます	Start with enchants carried over,{01}except added-trigger arts.	61	60	translated
+装備武具のスロットを初期装備武具に付加して{01}ゲーム開始できます	Start with your equipment's slots added{01}to your initial equipment.	61	66	translated
+スカウトオーブ・ムーンセレクター{01}マジカルポットを引き継いでゲーム開始できます	Start with the Scout Orb, Moon Selector,{01}and Magical Pot carried over.	77	70	translated
+それぞれの特技・晶術を習得した時点で{01}追加専用エンチャントを習得できます	Learn add-on-only enchants once you learn{01}each arte or spell.	71	61	translated
+全キャラ最大ＨＰが１６０でゲーム開始します。{01}最初から冷や汗かきたい人にお勧め	Start with all characters' Max HP at 160.{01}For those who want to sweat from the start.	77	85	translated
+ランダムエンカウントをまったくしなくなります。{01}ゲームクリアの保証はできません	Random encounters stop entirely.{01}Clearing the game is not guaranteed.	77	69	translated
+取得ＧＲＡＤＥポイントが約２倍になります。{01}マイナス倍にはならないのでご安心を	GRADE points earned roughly double.{01}Rest assured, it won't go negative.	77	71	translated
+敵が持つ取得経験値が半分になります。{01}低レベルでクリアしたい人にお勧め	Enemy EXP yield is halved.{01}For those who want a low-level clear.	69	64	translated
+通常の取得経験値が１になる代わり、{01}連続ヒットボーナス経験値が４倍になります	Normal EXP earned becomes 1, but{01}combo-hit bonus EXP becomes 4x.	75	64	translated
+基本料理の熟練度を引き継いで{01}ゲーム開始できます	Start with your basic cooking{01}proficiency carried over.	47	55	translated
+モンスター図鑑の情報を引き継いで{01}ゲーム開始できます	Start with your Monster Book{01}data carried over.	51	47	translated
+コレクター図鑑の情報を引き継いで{01}ゲーム開始できます	Start with your Collector's Book{01}data carried over.	51	51	translated
+ワールドマップの情報を引き継いで{01}ゲーム開始できます	Start with your World Map{01}data carried over.	51	44	translated
+消費アイテムを１種類につき{01}２０個まで持つことができます	You can hold up to 20 of{01}each consumable item.	55	46	translated
+消費アイテムを１種類につき{01}３０個まで持つことができます	You can hold up to 30 of{01}each consumable item.	55	46	translated
+エンカウント数・最大ヒット数を引き継いで{01}ゲーム開始できます	Start with your encounter and max hit{01}counts carried over.	59	58	translated
+「クレイジーコメット」の追加晶術に{01}さらに追加発動が可能になります	Crazy Comet's added spell gains{01}a further added trigger.	65	56	translated
+味方キャラの秘奥義・具現結晶カットインが{01}"プレイステーション ２"版のもので表示されます	Allies' Mystic Arte and crystal cut-ins{01}display as the PlayStation 2 version's.	86	79	translated
+ゼリー状薬品{01}最大ＨＰの３０％回復	Jelly medicine.{01}Restores 30% of Max HP.	33	39	translated
+ゼリー状薬品{01}最大ＴＰの３０％回復	Jelly medicine.{01}Restores 30% of Max TP.	33	39	translated
+ゼリー状薬品{01}ＨＰとＴＰが最大値の３０％回復	Jelly medicine.{01}Restores 30% of Max HP and TP.	43	46	translated
+ゼリー状薬品{01}最大ＨＰの６０％回復	Jelly medicine.{01}Restores 60% of Max HP.	33	39	translated
+ゼリー状薬品{01}最大ＴＰの６０％回復	Jelly medicine.{01}Restores 60% of Max TP.	33	39	translated
+ゼリー状薬品{01}ＨＰとＴＰが最大値の６０％回復	Jelly medicine.{01}Restores 60% of Max HP and TP.	43	46	translated
+ステキ度が上がる不思議な薬{01}お店で品物が三割引になる	A curious drug that raises your Charm.{01}Goods in shops become 30% off.	51	69	translated
+ステキ度ＭＡＸになる不思議な薬{01}お店で品物が半額になる	A curious drug that maxes your Charm.{01}Goods in shops become half price.	53	71	translated
+あやしげな薬品{01}アイテムを変化させる効果がある	A suspicious medicine that has the{01}effect of transforming items.	45	64	translated
+エンカウント率を調整できる{01}魔法の宝珠	A magical orb that can adjust{01}the encounter rate.	37	49	translated
+何度でも使える不思議な口紅{01}お店で品物が？割引になる	A curious lipstick, reusable any time.{01}Goods in shops become ?% off.	51	68	translated
+アイテム収集家には欠かせないカタログ{01}取り忘れはないかな？	A catalog no item collector can do without.{01}Did you forget to grab anything?	57	76	translated
+各航路でスタンプを集めよう{01}全部そろえると賞品がもらえる	Collect stamps on each sea route.{01}Complete the set to win a prize.	55	66	translated
+品種改良で作られた種{01}更に品種改良するとラナケアルの種になる	A selectively bred seed. Breed it further{01}to get a Lanakear seed.	59	65	translated
+品種改良で作られた種{01}更に品種改良するとドルゲニアの種になる	A selectively bred seed. Breed it further{01}to get a Dolgenia seed.	59	65	translated
+品種改良で作られた種{01}更に品種改良するとペンペンの種になる	A selectively bred seed. Breed it further{01}to get a Phen seed.	57	61	translated
+品種改良で作られた種{01}更に品種改良するとオリオラの種になる	A selectively bred seed. Breed it further{01}to get an Oriola seed.	57	64	translated
+品種改良で作られた種{01}更に品種改良するとチャラックの種になる	A selectively bred seed. Breed it further{01}to get a Charak seed.	59	63	translated
+これが黄金の種だ！{01}一滴の水で育ち、百人の腹を満たす	This is the Golden Seed! It grows on a{01}drop of water and feeds a hundred.	51	73	translated
+秋に海から川へ帰ってくる不思議な魚{01}クマの大好物らしい	A curious fish that returns from sea to{01}river in autumn. Bears seem to love it.	53	79	translated
+とてもおいしい高級魚{01}	A very tasty, high-grade fish.	21	30	translated
+牛乳を熟成させた食品{01}栄養価が高くて健康的です	A food made from aged milk.{01}Nutritious and healthy.	45	51	translated
+牛乳を発酵させた食品{01}胃腸をきれいにします	A food made from fermented milk.{01}It cleans out your stomach.	41	60	translated
+様々な料理に使われる高たん白食品{01}ニワトリの子孫	A high-protein food used in many dishes.{01}The offspring of chickens.	47	67	translated
+小麦粉を水や卵で練った食品{01}様々な形がある	A food of flour kneaded with water and{01}egg. It comes in various shapes.	41	71	translated
+小麦粉をこねて焼き上げた食品{01}なぜかいつでも焼きたて	A food of kneaded, baked flour.{01}Somehow it's always fresh from the oven.	51	72	translated
+大豆から作る保存食品{01}スープにして食すのが一般的	A preserved food made from soybeans.{01}Usually eaten in soup.	47	59	translated
+保温力が高く安価なお鍋{01}使用時のみ総合熟練度＋１	A cheap pot with good heat retention.{01}Overall proficiency +1 when used.	47	71	translated
+丈夫で保温力のあるお鍋{01}使用時のみ総合熟練度＋３	A sturdy pot with good heat retention.{01}Overall proficiency +3 when used.	47	72	translated
+鍋料理には欠かせないお鍋{01}使用時のみ総合熟練度＋４	A pot essential for hot-pot dishes.{01}Overall proficiency +4 when used.	49	69	translated
+熱伝導の高いお鍋{01}使用時のみ総合熟練度＋７	A pot with high heat conduction.{01}Overall proficiency +7 when used.	41	66	translated
+丈夫で保温力のあるフライパン{01}使用時のみ総合熟練度＋３	A sturdy pan with good heat retention.{01}Overall proficiency +3 when used.	53	72	translated
+熱まわりにムラのあるフライパン{01}使用時のみ総合熟練度＋１	A pan that heats unevenly.{01}Overall proficiency +1 when used.	55	60	translated
+熱伝導に優れた高価なフライパン{01}使用時のみ総合熟練度＋４	A costly pan with fine heat conduction.{01}Overall proficiency +4 when used.	55	73	translated
+熱伝導の高いフライパン{01}使用時のみ総合熟練度＋７	A pan with high heat conduction.{01}Overall proficiency +7 when used.	47	66	translated
+魚系食材を扱うのに適した包丁{01}使用時のみ総合熟練度＋５	A knife suited for handling fish.{01}Overall proficiency +5 when used.	53	67	translated
+全ての食材を扱うのに適した包丁{01}使用時のみ総合熟練度＋７	A knife suited for handling any food.{01}Overall proficiency +7 when used.	55	71	translated
+野菜系食材を扱うのに適した包丁{01}使用時のみ総合熟練度＋５	A knife suited for handling vegetables.{01}Overall proficiency +5 when used.	55	73	translated
+肉系食材を扱うのに適した包丁{01}使用時のみ総合熟練度＋５	A knife suited for handling meat.{01}Overall proficiency +5 when used.	53	67	translated
+岩をも両断する力を秘めた剣{01}刀身は水晶から切出された	A sword with the power to cleave rock.{01}Its blade was cut from crystal.	51	70	translated
+金剛石から切出された剣{01}門を守る神が宿っているらしい	A sword cut from diamond. A god who{01}guards the gate is said to dwell in it.	51	75	translated
+天地戦争時代の科学力で作られた{01}破壊の魔剣{01}	A demonic sword of destruction, forged{01}with the science of the Aeth-Er War.	42	75	translated
+巨大氷山両断伝説と共に伝わる{01}北方の英雄が愛用した名剣{01}	A famed blade favored by a northern hero,{01}told of alongside a legend of split ice.	54	82	translated
+帝王の証といわれる剣{01}三種の神器のひとつ	A sword said to be proof of an emperor.{01}One of the Three Sacred Treasures.	39	74	translated
+ソーディアン・シャルティエの幻体{01}その力は本体にも劣らないようだ	A phantom of the Swordian Chaltier.{01}Its power seems no less than the original.	63	78	translated
+二匹の蛇が巻きついている杖{01}毒効果が有ります	A staff with two snakes coiled around it.{01}It has a poison effect.	43	65	translated
+自らを呑み込む大蛇の杖{01}犠牲の代償に得られる力とは？	A staff of a serpent devouring itself.{01}What power is gained for the sacrifice?	51	78	translated
+青水晶の杖{01}ドルアーガ伝説の遺品	A staff of blue crystal.{01}A relic of the Druaga legend.	31	54	translated
+ウイング付き長槍{01}普及品だが品質は良い	A winged long spear. A common item,{01}but of good quality.	37	56	translated
+攻城戦用の巨大な金槌{01}	A giant hammer for siege warfare.	21	33	translated
+巨大な半月の刃を持つ戦斧{01}	A war axe with a huge half-moon blade.	25	38	translated
+巨大な刃の戦斧{01}肉切りの大包丁が由来	A war axe with a huge blade.{01}Its origin is the great butcher's cleaver.	35	71	translated
+目標を精密に捕える戦斧{01}敵を爆砕する	A war axe that catches its target{01}precisely. It blasts the enemy apart.	35	71	translated
+刃の交換が可能な両刃の戦斧{01}	A double-edged war axe with{01}interchangeable blades.	27	51	translated
+半牛半人の怪物が使用した巨大な戦斧{01}その大きさは見る者を圧倒する	A giant war axe used by a half-bull,{01}half-man beast. Its size overwhelms all.	63	77	translated
+第三帝国の鍛冶工房で鍛えられた戦斧{01}科学力は世界一！	A war axe forged in the Third Reich's{01}smithy. World's finest science!	51	69	translated
+駆逐者の戦斧{01}かつて蛮族の進撃を撃退した時の逸品	A destroyer's war axe. A masterpiece from{01}when it once repelled a barbarian charge.	47	83	translated
+巨大な戦斧{01}古代竜の涙といわれる	A giant war axe.{01}Said to be the tears of an ancient dragon.	31	59	translated
+かの妙技「死者の目覚め」は{01}これ無くして語れない	The famed feat 'Awakening of the Dead'{01}cannot be told without this.	47	67	translated
+使い勝手が良い戦闘用の短弓{01}遊撃隊の一般的な装備品	A handy short bow for battle. A common{01}piece of gear for skirmisher units.	49	74	translated
+鎧通しの長弓{01}戦船も沈めそうな破壊力	An armor-piercing long bow.{01}Powerful enough to sink a warship.	35	62	translated
+地獄の業火を放つ魔弓{01}鋼の鎧が簡単にとけます	A demon bow that fires hellfire.{01}It melts steel armor with ease.	43	64	translated
+神風の異名を持つ伝説の弓{01}天地戦争時代の逸品	A legendary bow known as the Divine Wind.{01}A gem of the Aeth-Er War era.	43	71	translated
+その破壊力は火竜の吐息の{01}ようにすさまじい	Its destructive power is as terrible{01}as a fire dragon's breath.	41	63	translated
+金属の環を縫い合わせた鎧{01}コストパフォーマンスが良い	Armor of stitched-together metal rings.{01}Good cost performance.	51	62	translated
+チェインメイルを鋼板で強化した鎧{01}軽鎧の中では最高級品です	Chain mail reinforced with steel plate.{01}The finest of the light armors.	57	71	translated
+特殊な金属糸であつらえたチェインメイル{01}某ホビットも愛用してたそうな	Chain mail made from special metal thread.{01}A certain hobbit is said to have loved it.	67	85	translated
+名も無き鍛冶屋の無二の傑作{01}ドワーフ族の手による作品とも言われる	A nameless smith's peerless masterpiece.{01}Said to be the work of the dwarves.	63	76	translated
+強固な装甲を持つ戦闘服{01}実は誰かさんの試作品？	A combat suit with sturdy armor.{01}Actually someone's prototype?	45	62	translated
+イシュタル伝説に名を残す{01}勇者ギルガメスの所持品	An item that lives on in the Ishtar{01}legend. The hero Gilgamesh's possession.	47	76	translated
+一般に広く普及している衣類です{01}残念ながら戦闘向きではありません	A widely common piece of clothing.{01}Sadly, not suited for battle.	63	64	translated
+聖職にある者が身につける法衣{01}気持ちが大事なんですよ	A robe worn by those in holy orders.{01}It's the feeling that counts.	51	66	translated
+上質な生地でしつらえた衣服{01}高い耐久性を持つ	Clothing made of fine fabric.{01}It has high durability.	43	53	translated
+腰や体に巻き付けてスカート状にして着る{01}南洋諸島の民族衣装	Worn wrapped around the waist like a{01}skirt. Folk dress of the southern isles.	57	77	translated
+農作業などに着用する軽装{01}地耐性がある	Light clothing worn for farm work.{01}It has Earth resistance.	37	59	translated
+天国の名を冠する神秘の衣{01}縫い目が無いってホントなの？	A mystic garment named after heaven.{01}Is it really seamless?	53	59	translated
+お湯ハネ、油ハネ何のその！{01}戦闘にも耐えるアクティブな作業着{01}	Splashing broth and oil, no problem! An{01}active work outfit that endures battle too.	60	83	translated
+頭部を完全に保護する{01}いっぱしの戦士のための一品	Fully protects the head. A piece for a{01}proper warrior.	47	54	translated
+簡素で典雅な造りの兜{01}工芸品の極み	A simple, elegant helm.{01}The height of craftsmanship.	33	52	translated
+濃霧のヴェール{01}視界が狭くなるのが難点かな？	A veil of dense fog.{01}The narrowed view is its drawback.	43	55	translated
+耐熱ガラスの頭飾り{01}地獄の業火でもとけません	A head ornament of heat-resistant glass.{01}Even hellfire can't melt it.	43	69	translated
+相手の武器を破砕するのが目的の短剣{01}	A dagger meant to shatter the foe's weapon.	35	43	translated
+柄の両端に刃のついた短剣{01}扱いには高い熟練度を要する	A dagger with blades on both ends of the{01}grip. It demands great skill to wield.	51	79	translated
+神秘的な金属を鍛えて作られた短剣{01}	A dagger forged from a mystical metal.	33	38	translated
+無骨な外見の短剣{01}一切の無駄がなく機能的「質実剛健」	A rugged-looking dagger. Functional with no{01}waste at all: 'simple and sturdy.'	51	78	translated
+鋼よりも固く軽いミスリル銀の篭手{01}ドワーフ族の芸術品	Gauntlets of mithril, harder and lighter{01}than steel. A dwarven work of art.	51	75	translated
+簡素で典雅な造りの篭手{01}歴史ある鍛冶屋の業物です	Simple, elegant gauntlets.{01}The work of a historic smithy.	47	57	translated
+命中率が上昇するといわれる篭手{01}イシュタル伝説の勇者ギルガメスの所持品	Gauntlets said to raise accuracy. The hero{01}Gilgamesh's possession from the Ishtar tale.	69	87	translated
+台所用手袋{01}熱いナベでも平気です	Kitchen gloves.{01}Fine even with a hot pot.	31	41	translated
+黄金の腕飾り{01}ゴージャスマントとセットでどうぞ	Golden arm ornaments.{01}Wear them with the Gorgeous Cape.	45	55	translated
+ダイヤモンドの腕飾り{01}ちょっとゼイタクな高級品です。	Diamond arm ornaments.{01}A bit of an extravagant luxury.	51	54	translated
+鋼よりも固く軽いミスリル銀の腕飾り{01}ドワーフ族の芸術品	Mithril arm ornaments, harder and lighter{01}than steel. A dwarven work of art.	53	76	translated
+神々の信頼を得た証の手袋{01}心がつながります！	Gloves that prove the gods' trust.{01}Hearts connect!	43	50	translated
+帝王の証といわれる{01}三種の神器のひとつ	Said to be proof of an emperor.{01}One of the Three Sacred Treasures.	37	66	translated
+翠玉の指輪{01}ＴＰ軽減力が上昇する	A ring of emerald.{01}It raises TP reduction.	31	42	translated
+ＳＥＬＥＣＴボタンで操作キャラを即座に{01}変更できるようになる上級者向け装備品	Advanced gear that lets you instantly{01}switch characters with the SELECT button.	75	79	translated
+特技をコマンド入力で発動できる。{01}装備欄を一個犠牲にする価値はあると主張	Lets you trigger artes by command input.{01}Worth sacrificing one equip slot, it claims.	71	85	translated
+帝王の証といわれる装身具{01}三種の神器のひとつ	An accessory said to be proof of an{01}emperor. One of the Three Sacred Treasures.	43	79	translated
+革のブーツ{01}小石を踏んでも平気です	Leather boots.{01}Fine even stepping on pebbles.	33	45	translated
+鋼板製のブーツ{01}象に踏まれても平気です	Steel-plated boots.{01}Fine even if an elephant steps on you.	37	58	translated
+肉球がキュートな猫足型のブーツ{01}衝撃の大部分を吸収してくれます	Cat-paw boots with cute paw pads.{01}They absorb most of the impact.	61	65	translated
+まだまだ見習いなれど、立派な剣士{01}日々の訓練を忘れずに{01}{01}	Still a trainee, but a fine swordsman.{01}Don't neglect your daily training.	55	73	translated
+アタモニ神団の護衛兵{01}人々をモンスターから守るべく、{01}日々務めている{01}	A guard of the Atamoni Order. Serving day{01}by day to protect people from monsters.	67	81	translated
+弓は彼女の武器であり、友でもある{01}彼女が、弓を扱うその姿は、{01}美しさすら感じさせるほど{01}	The bow is her weapon and her friend.{01}The way she wields it feels almost beautiful.	85	83	translated
+科学者。しかし、彼女が、科学者という{01}枠だけで収まるはずもない{01}いわゆる、マッドなサイエンティスト{01}	A scientist. But she was never one to fit{01}in that box alone. A so-called mad scientist.	97	87	translated
+母親の営む孤児院を手伝う<Kyle>{01}彼自身は孤児ではないが、{01}絆の名である「デュナミス」を名乗っている{01}	<Kyle> helps at the orphanage his mother{01}runs. Not an orphan, he took the bond{01}name 'Dynamis' as his own.	96	104	translated
+デュナミス孤児院にひきとられた子供は{01}デュナミスという名を名乗る{01}生まれは違っていても、家族なのだ{01}	Children taken in by the Dynamis orphanage{01}take the name Dynamis. Born apart,{01}but family all the same.	97	102	translated
+父をこえる、オレはこえる！{01}偉大な父を、オレはこえる！{01}いつか、なってやるぜ！英雄に！{01}	Surpass my father, I will surpass him!{01}My great father, I'll surpass him!{01}Someday I'll do it! Become a hero!	85	108	translated
+「データを取らせてちょうだい」{01}いったい、何のデータなのか？{01}どのように調べるのか？謎は深まるばかり{01}	'Let me take some data.'{01}Data on what, exactly? How does she{01}study it? The mystery only deepens.	99	96	translated
+時に厳しく、時に優しく、時に面白く！{01}理想の兄貴、ここにあり{01}{01}	Strict at times, kind at times, fun at{01}times! The ideal big brother, right here.	61	80	translated
+神団を離れ、さすらう戦士{01}振るう武器に魂込めて、{01}迷いを断ちきり、今日も行く{01}	A wandering warrior who left the Order.{01}Pouring his soul into the weapon he swings,{01}he cuts away doubt and journeys on.	75	119	translated
+剣士に必要なものは剣の腕だけにあらず{01}同時に、心の修行が必要である{01}なまくらな心では、剣もなまくらなり{01}	A swordsman needs more than skill with a{01}blade. Training of the heart is needed too.{01}A dull heart makes for a dull sword.	101	121	translated
+ソーディアン・オリジナル{01}人格を持つ剣ソーディアンに、その人格を{01}投影した人間の一人{01}	A Swordian Original. One of the humans{01}whose personality was projected onto the{01}sentient sword, the Swordian.	83	109	translated
+<Kyle>が剣を持ち走る時{01}それは、一陣の風のごとし{01}{01}	When <Kyle> runs, sword in hand,{01}it is like a single gust of wind.	48	65	translated
+太陽と月、一対の光{01}あたたかき陽光。全てをはぐくむ光{01}{01}	Sun and moon, a paired light.{01}A warm sunlight. The light that{01}nurtures all things.	53	82	translated
+これは、血脈か!?{01}勇者の血のなせる所業なのか!?{01}遺伝子に刻まれた刻印なのか!?{01}	Is this the bloodline!? The work of a{01}hero's blood!? A mark carved{01}into the genes!?	75	83	translated
+さめた瞳と、辛口の意見{01}ニヒル・ニヒラー・ニヒリスト{01}{01}	A cool gaze and sharp opinions.{01}Nihil, nihiler, nihilist.	53	57	translated
+フォルトゥナ神に仕えるふたりの聖女{01}それが、エルレインと<Reala>{01}{01}	Two holy women serving the goddess{01}Fortuna. That is Elraine and <Reala>.	62	70	translated
+恐怖の象徴フォルネウスを倒し、船を沈没の{01}危機から救ったキミたちをこう呼ばずに{01}なんと呼べと!?<color:00000002>（興奮ぎみの船長・談）{01}	You defeated the fearsome Forneus and{01}saved the ship from sinking. What else{01}should I call you!? (an excited captain)	120	117	translated
+時の旅人{01}時をこえる少女{01}{01}	A traveler of time.{01}A girl who transcends time.	25	47	translated
+飛行艇イクシフォスラーの操縦者{01}{01}{01}	The pilot of the airship Ixifoslar.	33	35	translated
+彼はいろいろな事を知っている。{01}「ソーサラーリングは<button:0000002A>だ！」{01}<color:00000008>（一回発射毎レンズ一枚消費）{01}	He knows all sorts of things.{01}'The Sorcerer's Ring is <button:0000002A>!'{01}<color:00000008>(one Lens per shot)	97	86	translated
+彼は本当にいろいろな事を教えてくれる。{01}「ソーサラースコープは<button:00000029>だ」{01}<color:00000008>（一回使用毎レンズ三枚消費）{01}	He truly teaches you all sorts of things.{01}'The Sorcerer's Scope is <button:00000029>.'{01}<color:00000008>(three Lens per use)	105	100	translated
+野生の知恵を身につけた者{01}自然の中に答えをみつけ、{01}自然の力によって解決できる者{01}	One who has gained the wisdom of the wild.{01}One who finds answers in nature and{01}solves things by nature's power.	79	111	translated
+エルレインと共に神から生み出された化身{01}{01}{01}	An avatar born from a god alongside Elraine.	41	44	translated
+めくりのジョーの最大のライバル！{01}つむじ風のごとく、アレをナニする{01}めくりの達人！{01}	Flipping Joe's greatest rival! Like a{01}whirlwind, a master of flipping{01}that whatsit!	81	83	translated
+むっつりしているらしい{01}クールとむっつり紙一重{01}<color:00000003>命名・<Nanaly>さん{01}	Apparently the sullen type.{01}Cool and sullen, a fine line.{01}<color:00000003>Named by <Nanaly>.	67	78	translated
+陶器のような白い肌{01}きめ細かい美しい肌{01}まさに、美白の天使{01}	Skin white as porcelain. Fine, beautiful{01}skin. Truly an angel of fair skin.	57	75	translated
+小麦色の肌は、若さと健康の証{01}太陽と海風が似合うキミ{01}さながら、小麦色の女神{01}	Tanned skin is proof of youth and health.{01}Sun and sea breeze suit you.{01}Truly a tanned goddess.	75	94	translated
+”だんじょ”ではなく”おとこおんな”{01}男性さながらの勇ましい女性{01}ほめ言葉ではないですね。<color:00000006>命名・<Loni>{01}	Not a 'gal,' but a 'manly woman.' A brave{01}woman just like a man. Not a compliment,{01}is it. <color:00000006>Named by <Loni>.	105	110	translated
+謎は全てとけたような気がする！{01}そうに違いないとも必ずしも言えなくもない{01}ズバリ、そんな気がしないでもなくもない！{01}	Feels like every mystery is solved! Can't{01}quite say that's certainly so, but{01}I don't not feel that way either!	113	110	translated
+関節技の達人{01}しかし、<Nanaly>はあくまで弓使い{01}関節技を発揮するのは、対<Loni>のみ{01}	A master of joint locks. But <Nanaly> is,{01}above all, an archer. She only shows off{01}her joint locks against <Loni>.	77	110	translated
+ノイシュタットのマッハ少年に大勝利！{01}それ、すなわち、ビクトリー！{01}イダテン・マッハ・ビクトリー・足はやい{01}	A total victory over Neustadt's Mach Boy!{01}That is, victory! Idaten Mach{01}Victory, Fast Feet.	105	91	translated
+「がんばって走りました！」{01}{01}{01}	'I ran my hardest!'	29	19	translated
+スタンプラリーをやりとげた証{01}各地を巡って、ペッタンペッタン押しまくり{01}努力の証でございます！{01}	Proof of finishing the stamp rally. Going{01}around stamping everywhere. It is{01}proof of your effort!	93	97	translated
+全てのアイテムを入手し、{01}コレクター図鑑が完成しました！{01}おめでとうございます！{01}	You obtained every item and completed the{01}Collector's Book! Congratulations!	79	76	translated
+全ての敵と遭遇しました{01}モンスター図鑑が完成です！{01}すばらしい！{01}	You encountered every enemy and completed{01}the Monster Book! Splendid!	63	69	translated
+たくさんのレシピを操るあなたは{01}まさに料理の魔術師！{01}トレビアーン！{01}	You who command so many recipes are truly{01}a wizard of cooking! Tres bien!	67	73	translated
+全種類の包丁を集めました。包丁マスター！{01}もしや、あなたは水に浮かべたキュウリを{01}波紋を立てずに切る技を持つのでは？{01}	You collected every kind of knife. Knife{01}Master! Do you perhaps have the skill to{01}slice a floating cucumber without a ripple?	115	125	translated
+おのれの限界を超えた者だけが{01}踏み込む事のできる「無心の領域」{01}全ては無であり、全てはそこにある{01}	The 'realm of no mind' that only those who{01}surpass their limits can step into.{01}All is nothing, and all is there.	95	112	translated
+夢の純正個人八連携決着に成功した証{01}どのくらい夢かというと{01}ドリームくらい{01}	Proof of the dream: a pure solo 8-chain{01}finish. How much of a dream?{01}About a Dream's worth.	73	91	translated
+一人なのにみんなに呼びかける号令を{01}発した孤独なあなたに贈る称号{01}みんながいるときにしましょう{01}	A title for you, lonely one, who gave a{01}rallying call to everyone while all alone.{01}Do it when everyone's around.	93	112	translated
+５０ヒット以上で勝負を決めた者に{01}与えられる称号。これに満足するか{01}より高みを目指すのか{01}	A title for those who settle a fight with{01}50+ hits. Will you be satisfied with this,{01}or aim for greater heights?	87	112	translated
+様々な壁を乗り越え１００ヒット以上で{01}勝負を決めた者に与えられる称号{01}まさに連携が生んだ奇跡祭り{01}	A title for those who overcome many walls{01}and settle a fight with 100+ hits.{01}A miracle festival born of chaining.	95	113	translated
+戦闘ランク「イージー」を選べますが、{01}このランクではよいアイテムが落ちなくなり{01}ます。戦闘に慣れたらノーマルをおすすめ{01}	You can pick battle rank 'Easy,' but good{01}items won't drop at this rank. Once used{01}to battle, Normal is recommended.	117	116	translated
+総計GRADEが６００に達し、熟達の戦術者と{01}認められた方々には戦闘ランク「ハード」{01}を選ぶことで、武器防具のレア度アップ？{01}	Those with a total GRADE of 600, deemed{01}skilled tacticians, can pick battle rank{01}'Hard' for higher weapon/armor rarity?	118	119	translated
+総計GRADEが１６００に達し、達人の戦術者{01}と認められた方々には戦闘ランク「マニア」{01}を選ぶことで、武器防具のレア度さらに！{01}	Those with a total GRADE of 1600, deemed{01}master tacticians, can pick battle rank{01}'Mania' for even higher weapon/armor rarity!	120	125	translated
+総計GRADEが６４００を超え最強の戦術者を{01}自負しかねない方々には最終戦闘ランク{01}「アンノウン」を選べますがやめときなさい{01}	Those over a total GRADE of 6400 who fancy{01}themselves the strongest tactician can pick{01}the final rank 'Unknown'... but don't.	118	125	translated
+エンカウント回数が４００回を超えた{01}パーティに贈る称号。勝利の数だけ{01}敗者も存在するということをお忘れなく{01}	A title for a party past 400 encounters.{01}Don't forget that for every victory,{01}there's a loser too.	105	98	translated
+エンカウント回数が１２００回をも超えた{01}パーティに贈る称号。戦いのために戦って{01}いないことを街の人達は願うばかり{01}	A title for a party past even 1200{01}encounters. The townsfolk can only hope{01}you aren't fighting just for the sake of it.	111	119	translated
+幻というか超絶に手に入りにくいことこの上{01}なさが連携する程のLV８最上位スロット{01}を勝ち取ったあなたにお世辞無き敬意を！{01}	Honest respect to you for winning a LV8 top{01}slot so rare it beggars belief, one that{01}chains together no less!	117	109	translated
+二十連携以上で勝負を決めた者に{01}贈られる称号。ヒット数とともに、{01}何よりも仲間に感謝したい{01}	A title for those who settle a fight with{01}20+ chains. Along with the hit count,{01}be grateful to your allies above all.	89	117	translated
+四十連携以上で勝負を決めた者に{01}贈られる称号。ここまでくると{01}敵のほうに同情の称号を贈りたい{01}	A title for those who settle a fight with{01}40+ chains. At this point, I'd rather give{01}the enemy a title of sympathy.	91	115	translated
+<Kyle>に付けられた自由称号{01}「かっこいいのをヨロシク！」{01}{01}	A free title given to <Kyle>.{01}'Make it a cool one, okay!'	56	56	translated
+<Loni>に付けられた自由称号{01}「俺に似合うやつにしてくれよな！」{01}{01}	A free title given to <Loni>.{01}'Make it one that suits me, got it!'	62	65	translated
+<Harold>に付けられた自由称号{01}「ふ～ん。アナタの発想ってこの程度？」{01}{01}	A free title given to <Harold>.{01}'Hmm. That's the best you can come up with?'	66	73	translated
+持ちきれないほどのお金をお持ちのあなた{01}使ってこその、お金ですよ{01}バァーンといっちゃいましょう！{01}	You who hold more money than you can carry.{01}Money's meant to be spent.{01}Go on, splurge big!	95	90	translated
+たくさんのリファイン経験をつみましたね{01}すでに、職人の域に達しています{01}{01}	You've piled up plenty of refining{01}experience. You've reached the{01}level of a craftsman already.	71	95	translated
+グレート・ゴールデン・ビクトリー{01}スーパー・スペシャル・リファイナー！{01}リファインこそ、あなたの生きがい！{01}	Great Golden Victory. Super Special{01}Refiner! Refining is your reason to live!	105	77	translated
+闘技場で優勝しました！{01}あなたさまこそ、チャンピオンよ！{01}{01}	You won the arena tournament!{01}You truly are the champion!	57	57	translated
+オレとあいつの、友情パワー！{01}力と力を合わせて、パワー百倍！{01}（不思議な計算）{01}	The power of friendship between me and him!{01}Combining strength with strength, power{01}times a hundred! (a curious calculation)	77	124	translated
+チャンピオンの中のチャンピオン{01}チャンプ・オブ・チャンプス{01}{01}	A champion among champions.{01}Champ of champs.	59	44	translated
+たくさんふられたということは、それだけ{01}チャレンジを繰り返したという証さ。{01}ポジティブにいこうぜ！{01}	Getting turned down a lot just means you{01}kept trying that many times.{01}Let's stay positive!	97	90	translated
+すごいＨＡＣＫＥＲ！{01}「黄色の敵の黒」は関係なし{01}{01}	Amazing HACKER!{01}The 'black of the yellow enemy' is unrelated.	49	61	translated
+記憶力バツグン！{01}すばやい対応で、お客さんもニッコニコ！{01}{01}	An amazing memory! Quick to respond,{01}the customers smile too!	57	61	translated
+天才的記憶力で必殺配膳！{01}おい、必殺はまずいだろ！{01}{01}	Serving with a genius memory! Hey,{01}'deadly' serving sounds bad!	51	63	translated
+天才的記憶力で超絶配膳！{01}天才ならば、この難易度は当然ですね{01}{01}	Superb serving with a genius memory!{01}For a genius, this difficulty is only natural.	61	83	translated
+まさに天職！{01}戦いよりも、この道を極めてみては？{01}{01}	Truly a calling! Rather than fighting,{01}why not master this path?	49	64	translated
+はさまるパティの味だけではない！{01}はさむバンズの味が大切なのだ！{01}まさに、バランス・オブ・パワー！	It's not just the taste of the patty!{01}The taste of the bun matters! Truly,{01}a balance of power!	96	94	translated
+野菜そのままとは全く異なる風味と味わい{01}さらに、その変化を一夜にして完成！{01}これは、食という名の魔術か!?	A flavor and taste utterly unlike raw{01}vegetables, and that change is completed{01}overnight! Is this magic by the name of food?	102	124	translated
+しっとりとなめらか、トローリとクリーミィ{01}たくさんの野菜をコトコト煮込みましょう{01}しあわせいっぱいお楽しみ！	Moist and smooth, thick and creamy.{01}Simmer plenty of vegetables slowly.{01}Enjoy it, full of happiness!	106	100	translated
+たまねぎ風味で炒めたライスを{01}トロリとクリーミィな卵焼きで包んだ料理。{01}くずしてしまうのがもったいないくらい	Rice fried with onion flavor, wrapped in a{01}soft, creamy omelet. Almost a shame to{01}break it open.	106	96	translated
+外側はパサパサでもビタビタでもダメ{01}あくまで、しっとり！{01}キュウリ抜きとるべからず	The outside mustn't be dry or soggy.{01}Moist all the way! And never{01}pull out the cucumber.	80	88	translated
+あなたは、料理の海を開拓する冒険家{01}スピリッツがフロンティアすぎて{01}みんな置き去り！	You're an explorer opening up the sea of{01}cooking. The spirits are too much of a{01}frontier, leaving everyone behind!	82	114	translated
+みずみずしい野菜を{01}オリジナルの盛り付けでどうぞ{01}絵画を描くように、色と形を構成しましょう	Serve fresh, juicy vegetables with your{01}own plating. Compose the colors and{01}shapes as if painting a picture.	88	108	translated
+やわやわアチアチのなめらか豆腐。{01}ピリ辛あんとのアクセントが絶妙！	Soft, hot, smooth tofu. The accent of the{01}spicy-sweet sauce is superb!	65	70	translated
+魚介類を具に使用したパスタ{01}これをいただく時は、”ペスカトーレ！”と{01}叫んでから食すべし（しかも、腹式呼吸で）	Pasta with seafood. When you eat it, cry{01}'Pescatore!' before digging in (with{01}belly breathing, no less).	108	104	translated
+新鮮な材料をカラッと揚げて、{01}レモンをしぼってガブッと食うべし{01}口の中にジュワッと広がる味！アチチチチ！	Fry fresh ingredients crisp, squeeze on{01}lemon, and chomp! The flavor spreads in{01}your mouth! Hot hot hot hot!	102	108	translated
+ひき肉をねりかためて焼いた料理{01}自身の肉汁でおいしさアップ！{01}ハンバーグより、少しリッチな気分	A dish of ground meat kneaded and grilled.{01}Its own juices boost the flavor!{01}A bit richer in mood than a hamburger.	92	114	translated
+野趣あふれるダイナミックな味わい！{01}まさに、未完の大器！{01}おい、未完は良くないだろ！	A wild, dynamic flavor! Truly, an{01}unfinished masterpiece! Hey,{01}'unfinished' isn't good!	82	87	translated
+野菜を炒めましょう。あふれるうまみ！{01}そして、米と一緒に煮込みましょう{01}しみこむうまみ	Stir-fry the vegetables. Overflowing{01}flavor! Then simmer them with rice.{01}Flavor that soaks right in.	84	100	translated
+選び抜いたお肉を、伝統の方法で{01}焼き上げました。{01}生に近い焼き加減でご賞味下さい	Choice meat grilled by traditional method.{01}Please savor it cooked close to rare.	78	80	translated
+刺すがごとく切れ！{01}それ、刺身の極意なり！{01}新鮮な魚をすばやく切るべし	Cut as if stabbing! That's the secret of{01}sashimi! Cut fresh fish swiftly.	68	73	translated
+シャケに染み込むバターの風味が最高！{01}互いの味わいを高める味と味{01}ベストパートナーと称えたい	The butter flavor soaking into the salmon{01}is superb! Taste and taste that raise each{01}other up. I'd call them best partners.	90	123	translated
+魚を煮込んで得られるうまさは{01}二重にも三重にも折り重なる味の織物{01}深みとコクのあるダシを味わうべし	The flavor from simmering fish is a woven{01}cloth of taste layered twice, thrice over.{01}Savor the deep, rich broth.	96	112	translated
+とろける味わい{01}なめらかでまろやかな甘味{01}デザートという名のファンタジー	A melting flavor. Smooth, mellow sweetness.{01}A fantasy by the name of dessert.	70	77	translated
+太目のパスタにトマトベースのソースを{01}たっぷりからめて作りましょう{01}ズルッとひとくち。もちもちのプチプチ	Coat thick pasta generously with a{01}tomato-based sauce. Slurp a mouthful.{01}Chewy and springy.	102	91	translated
+プリップリのエビを{01}ピリッピリの味に仕上げた料理{01}チリリとからいよ！	A dish of plump shrimp finished with a{01}fiery, spicy flavor. Zingy and hot!	66	74	translated
+煮えたぎるなべ！{01}ほとばしる肉のうまみ！{01}ドーンと豪快にいこうぜ！	A boiling pot! Bursting meaty flavor!{01}Let's go bold and hearty!	64	63	translated
+さまざまな具を、じっくり煮込んで{01}うまさを熟成！{01}当然ながら、みそは必須	Simmer various ingredients slowly to bring{01}the flavor to full maturity! Naturally,{01}miso is a must.	70	98	translated
+クレス～ダリル（草原）	Cres-Daryl (Plains)	22	19	translated
+クレス～ダリル（森）	Cres-Daryl (Forest)	20	19	translated
+クレス～ダリル（海岸）	Cres-Daryl (Coast)	22	18	translated
+クレス～ダリル（橋・木）	Cres-Daryl (Wood Bridge)	24	24	translated
+クレス～ダリル（橋・石）	Cres-Daryl (Stone Bridge)	24	25	translated
+クレス～ダリル（街道）	Cres-Daryl (Road)	22	17	translated
+クレス～ダリル（草原夜）	Cres-Daryl (Plains Night)	24	25	translated
+クレス～ダリル（森夜）	Cres-Daryl (Forest Night)	22	25	translated
+クレス～ダリル（海岸夜）	Cres-Daryl (Coast Night)	24	24	translated
+クレス～ダリル（橋夜・木）	Cres-Daryl (Wood Bridge Night)	26	30	translated
+クレス～ダリル（橋夜・石）	Cres-Daryl (Stone Bridge Night)	26	31	translated
+クレス～ダリル（街道夜）	Cres-Daryl (Road Night)	24	23	translated
+ダリル～アイグ（草原）	Daryl-Aigrette (Plains)	22	23	translated
+ダリル～アイグ（森）	Daryl-Aigrette (Forest)	20	23	translated
+ダリル～アイグ（海岸）	Daryl-Aigrette (Coast)	22	22	translated
+ダリル～アイグ（砂漠）	Daryl-Aigrette (Desert)	22	23	translated
+ダリル～アイグ（橋・木）	Daryl-Aigrette (Wood Bridge)	24	28	translated
+ダリル～アイグ（橋・石）	Daryl-Aigrette (Stone Bridge)	24	29	translated
+ダリル～アイグ（街道）	Daryl-Aigrette (Road)	22	21	translated
+リーネ～ノイシュ（草原）	Lienea-Neustadt (Plains)	24	24	translated
+リーネ～ノイシュ（森）	Lienea-Neustadt (Forest)	22	24	translated
+リーネ～ノイシュ（海岸）	Lienea-Neustadt (Coast)	24	23	translated
+リーネ～ノイシュ（霧）	Lienea-Neustadt (Fog)	22	21	translated
+リーネ～ノイシュ（街道）	Lienea-Neustadt (Road)	24	22	translated
+スノフリ～ハイデル（草原）	Snowfleer-Heidelberg (Plains)	26	29	translated
+スノフリ～ハイデル（雪原）	Snowfleer-Heidelberg (Snowfield)	26	32	translated
+スノフリ～ハイデル（森）	Snowfleer-Heidelberg (Forest)	24	29	translated
+スノフリ～ハイデル（雪原・森）	Snowfleer-Heidelberg (Snowfield & Forest)	30	41	translated
+チェリク～ホープ（草原）	Cherik-Hope (Plains)	24	20	translated
+チェリク～ホープ（森）	Cherik-Hope (Forest)	22	20	translated
+チェリク～ホープ（海岸）	Cherik-Hope (Coast)	24	19	translated
+チェリク～ホープ（砂漠）	Cherik-Hope (Desert)	24	20	translated
+ホープ～カルビ（草原）	Hope-Calvalese (Plains)	22	23	translated
+ホープ～カルビ（森）	Hope-Calvalese (Forest)	20	23	translated
+ホープ～カルビ（海岸）	Hope-Calvalese (Coast)	22	22	translated
+ホープ～カルビ（砂漠）	Hope-Calvalese (Desert)	22	23	translated
+トラッシュマウンテン（地上）	Trash Mountain (Surface)	28	24	translated
+トラッシュマウンテン（地下）	Trash Mountain (Underground)	28	28	translated
+トラッシュマウンテン（パズル）	Trash Mountain (Puzzle)	30	23	translated
+改変現代（草原）	Altered Present (Plains)	16	24	translated
+改変現代（森）	Altered Present (Forest)	14	24	translated
+改変現代（海岸）	Altered Present (Coast)	16	23	translated
+改変現代（雪原）	Altered Present (Snowfield)	16	27	translated
+改変現代（雪原・森）	Altered Present (Snowfield & Forest)	20	36	translated
+改変現代（雪原・山道）	Altered Present (Snowfield & Mtn.)	22	34	translated
+天地戦争（森）	Aeth-Er War (Forest)	14	20	translated
+天地戦争（海岸）	Aeth-Er War (Coast)	16	19	translated
+天地戦争（雪原）	Aeth-Er War (Snowfield)	16	23	translated
+ダイクロフト（天地）	Dycroft (Aeth-Er)	20	17	translated
+未来（草原）	Future (Plains)	12	15	translated
+未来（森）	Future (Forest)	10	15	translated
+未来（海岸）	Future (Coast)	12	14	translated
+セインガルド（草原）	Seingald (Plains)	20	17	translated
+セインガルド（森）	Seingald (Forest)	18	17	translated
+セインガルド（海岸）	Seingald (Coast)	20	16	translated
+セインガルド（雪原）	Seingald (Snowfield)	20	20	translated
+セインガルド（橋・木）	Seingald (Wood Bridge)	22	22	translated
+セインガルド（橋・石）	Seingald (Stone Bridge)	22	23	translated
+セインガルド（街道）	Seingald (Road)	20	15	translated
+セインガルド（雪原・森）	Seingald (Snowfield & Forest)	24	29	translated
+フィッツガルド（草原）	Fitzgald (Plains)	22	17	translated
+フィッツガルド（森）	Fitzgald (Forest)	20	17	translated
+フィッツガルド（海岸）	Fitzgald (Coast)	22	16	translated
+カルバレイス（草原）	Calvalese (Plains)	20	18	translated
+カルバレイス（森）	Calvalese (Forest)	18	18	translated
+カルバレイス（海岸）	Calvalese (Coast)	20	17	translated
+ファンダリア（草原）	Phandaria (Plains)	20	18	translated
+ファンダリア（雪原）	Phandaria (Snowfield)	20	21	translated
+ファンダリア（森）	Phandaria (Forest)	18	18	translated
+ファンダリア（雪原・森）	Phandaria (Snowfield & Forest)	24	30	translated
+アクアヴェイル（草原）	Aquaveil (Plains)	22	17	translated
+アクアヴェイル（森）	Aquaveil (Forest)	20	17	translated
+アクアヴェイル（海岸）	Aquaveil (Coast)	22	16	translated
+ラスト（上層）	Last (Upper)	14	12	translated
+ラスト（中層・カイル）	Last (Middle Kyle)	22	18	translated
+ラスト（中層・ハロルド）	Last (Middle Harold)	24	20	translated
+ラスト（下層）	Last (Lower)	14	12	translated
+称号「<color:00000006>	Title 「<color:00000006>	11	13	translated
+<color:00000007>」を得ました	<color:00000007>」 obtained	17	16	translated
+勝手にスペクタクルズ	Spectacles on a Whim	20	20	translated
+<color:00000006>＜特技習得＞<color:00000007>	<color:00000006>＜Arte Learned＞<color:00000007>	22	26	translated
+<color:00000006>＜回復晶術習得＞<color:00000007>	<color:00000006>＜Healing Spell Learned＞<color:00000007>	26	35	translated
+<color:00000006>＜攻撃晶術習得＞<color:00000007>	<color:00000006>＜Attack Spell Learned＞<color:00000007>	26	34	translated
+<color:00000006>＜奥義習得＞<color:00000007>	<color:00000006>＜Mystic Arte Learned＞<color:00000007>	22	33	translated
+<color:00000006>＜追加特技習得＞<color:00000007>	<color:00000006>＜Added Arte Learned＞<color:00000007>	26	32	translated
+<color:00000006>＜秘奥義習得＞<color:00000007>	<color:00000006>＜Hi-Ougi Learned＞<color:00000007>	24	29	translated
+フィールド・セインガルド地方	Field: Seingald Region	28	22	translated
+禁呪・リザーブナンバー	Forbidden: Reserve Number	22	25	translated
+＜継続効果＞詠唱速度が一定時間上昇する	(Continuous) Raises cast speed for a time	38	41	translated
+瓶・壺	Bottles & Jars	6	14	translated
+鎚矛	Mace	4	4	translated
+天才<Harold>の杖	Genius <Harold>'s Staff	13	20	translated
+疾風の<Kyle>	<Kyle> of the Gale	11	17	translated
+陽光の<Reala>	<Reala> of the Sunlight	11	21	translated
+雷鳴の<Loni>	<Loni> of the Thunder	11	20	translated
+黒衣の<Judas>	<Judas> in Black	11	14	translated
+流星の<Nanaly>	<Nanaly> of the Meteor	11	19	translated
+ねぐせ<Harold>	Bedhead <Harold>	11	13	translated
+つむじ風の<Loni>	<Loni> of the Whirlwind	15	22	translated
+すけべ<Loni>	Perverted <Loni>	11	15	translated
+むっつり<Judas>	Sullen <Judas>	13	12	translated
+童顔ちゃん	Baby Face	10	9	translated
+才色兼備俊足様	Beauty, Brains & Speed	14	22	translated
+<Reala>の英雄	Hero of <Reala>	11	13	translated
+注意散漫	Distracted	8	10	translated
+逃走心旺盛	Eager to Flee	10	13	translated
+<Judas>の過去	<Judas>'s Past	11	12	translated
+<Reala>だけの英雄	Hero for <Reala> Alone	15	20	translated
+英雄<Kyle>	Hero <Kyle>	9	10	translated
+<Reala>の苦悩	<Reala>'s Anguish	11	15	translated
+迷探偵<Loni>	Bumbling Detective <Loni>	11	24	translated
+<Reala>の迷い	<Reala>'s Doubt	11	13	translated
+<Reala>の決心	<Reala>'s Resolve	11	15	translated
+ワガママ<Harold>	Selfish <Harold>	13	13	translated
+<Harold>秘密の投薬	<Harold>'s Secret Dosing	15	21	translated
+<Harold>の名前	<Harold>'s Name	11	12	translated
+<Judas>は知っていた	<Judas> Knew	17	10	translated
+<Loni>、食べなよ	Eat Up, <Loni>	15	13	translated
+<Kyle>王国	<Kyle> Kingdom	9	13	translated
+何を言ったの<Loni>？	What Did You Say, <Loni>?	19	24	translated
+未来定期船・<Reala>は？	Future Liner: Where's <Reala>?	21	28	translated
+<Kyle>自己紹介	<Kyle> Self-Intro	13	16	translated
+<Reala>自己紹介	<Reala> Self-Intro	13	16	translated
+<Loni>自己紹介	<Loni> Self-Intro	13	16	translated
+<Judas>自己紹介	<Judas> Self-Intro	13	16	translated
+<Nanaly>自己紹介	<Nanaly> Self-Intro	13	16	translated
+<Harold>自己紹介	<Harold> Self-Intro	13	16	translated
+<button:00000035> 入る	<button:00000035> Enter	10	11	translated
+<button:00000036> やめる	<button:00000036> Cancel	12	12	translated
+<button:00000035> 出る	<button:00000035> Leave	10	11	translated
+<button:00000036> もどる	<button:00000036> Back	12	10	translated
+調理に戦いに大活躍！{99}{40}まさに万能！{01}でも刃先は他人に向けないでネ☆	A star in cooking and combat! Truly all-{01}purpose! But don't point the edge at others.	65	85	translated
+さる匠の手による迷作{99}{40}凶悪な破壊力を{01}持つが、命中率がすこぶる悪い	A master's odd work. It has vicious{01}destructive power, but terrible accuracy.	65	77	translated
+初めから才能や実力に恵まれた人間{01}「もし、天才が努力したら{01}{99}{40}超天才になってしまうわね♪」{01}	A person gifted with talent and skill from{01}the start. 'If a genius put in the effort,{01}she'd become a super-genius.'	89	115	translated
+<Loni>談{01}「人間、誰にでもひとつぐらいは{01}{99}{40}とりえがあるもんだ」{01}	<Loni> says: 'Everyone, anyone,{01}has at least one thing{01}they're good at.'	62	71	translated
+「この書状を持つ者、我の勅命により、{01}{99}{40}レンズ奪還の任にあたる者なり」{01}<color:00000001>ファンダリア国王・ウッドロウ＝ケルヴィン{01}	'The bearer of this writ acts by my royal{01}command to reclaim the Lens.'{01}<color:00000001>King Woodrow Kelvin of Phandaria	116	109	translated
+突撃！{99}{40}いざ進め、工兵隊！{01}「私は隊長！{01}{99}{40}みんなは、部下よ！」{01}	Charge! Onward, engineer corps!{01}'I'm the captain!{01}You're all my subordinates!'	63	78	translated
+不思議！{99}{40}ソーディアンを知り尽くす女！{01}「詳細データを把握していて当然よ{01}{99}{40}設計者なんだから」{01}	Amazing! The woman who knows all about{01}Swordians! 'Of course I know the details,{01}I'm the designer.'	93	99	translated
+衝撃！{99}{40}天才科学者は、実は女性だった！{01}「男の名前にしとけば、み～んなカン違い{01}{99}{40}すると思ったのよねぇ」{01}	Shocking! The genius scientist was a woman!{01}'I figured a man's name would fool{01}everybody, you know.'	103	100	translated
+神の力と戦う<Kyle>{01}神とは!?{99}{40}真実とは!?{01}とにかく、売ったケンカはカタをつけるさ！{01}	<Kyle> fights against the power of a god.{01}What is a god!? What is truth!? Either way,{01}he'll settle the fight he picked.	80	118	translated
+「あたしはいつも走ってるからね{01}{99}{40}日々の積み重ねってのが大切ってことさ」{01}{01}	'I'm always running, you know.{01}Piling up the days is what matters.'	73	67	translated
+「運動する物体の速さを音速との比で{01}{99}{40}あらわしたのがマッハね{01}{99}{40}マッハ３は音速の三倍ということ」{01}	'Mach expresses the speed of a moving{01}object relative to sound. Mach 3 is{01}three times the speed of sound.'	95	106	translated
+全てのレシピを習得してしまうほどの{01}料理大好きなあなたこそ偉大なる料理人！{01}ワンダフル！{99}{40}ベジタブル！{01}	You who love cooking enough to master{01}every recipe are a great chef!{01}Wonderful! Vegetable!	101	90	translated
+１０００もの戦いをくぐりぬけた戦士{01}「まだまだ、いくぜぇ！{01}{99}{40}おりゃああああああああああ！！！！」{01}	A warrior who survived a thousand battles.{01}'Not done yet, come on!{01}Ryaaaaaaaah!!!!'	97	83	translated
+うふっ★{01}リファインが、だ・い・す・き{99}{40}なのね★{01}{01}	Hehe. You just love refining,{01}don't you.	49	40	translated
+箱大好き♪{99}{40}ハコスキー♪{01}{01}{01}	Loves boxes. Boxkey.	27	20	translated
+「飛べぇ～飛べぇ～☆{99}{40}ロケットぉぉ～♪」{01}独特の音感と独特の歌唱！{01}さすが、天才はひと味違う！{01}	'Fly, fly, rocket!' A unique sense of{01}rhythm and singing! As expected, a{01}genius is a cut above.	93	95	translated
+知力・反射神経・時の運！{01}まさに、クイズ王{99}{40}<Kyle>！{01}{01}	Wit, reflexes, and the luck of the moment!{01}Truly, the Quiz King, <Kyle>!	52	71	translated
+おにごっこキング、すなわち鬼王！{01}<Kyle>は、逃げた側だが、鬼王！{01}それにしても、いかつい名前だ！{99}{40}鬼王！{01}	King of tag, that is, the Demon King!{01}<Kyle> was the one who fled, but Demon King!{01}Still, what a fierce name! Demon King!	102	120	translated
+神経が衰弱しそうな遊びを、なぜやるのか？{01}遊びなのに神経を衰弱させてどうするのか？{01}それにしても、イヤな名前だ。{99}{40}神経衰弱王{01}	Why play a game that wears out your nerves?{01}Wearing nerves for a game, for what?{01}Still, a nasty name. Concentration King.	123	121	translated
+クールでＣＯＯＬなパイロット！{01}ＣＯＯＬ{99}{40}ＦＬＹＩＮＧ！{01}ひゃっほう！{99}{40}ボブスレー！{99}{40}（？）{01}	A cool, COOL pilot! COOL FLYING!{01}Yahoo! Bobsled! (?)	91	52	translated
+息子を思う母{99}{40}そして、それに応えた息子{01}「目一杯、暴れてらっしゃい！」{01}そして、息子は強くなる{01}	A mother who cares for her son, and a son{01}who answered her. 'Go wild all you want!'{01}And so, the son grows stronger.	93	115	translated
+「かつての英雄をも超えた二人に対し{01}{99}{40}我々は、最大限の敬意を表する!!」{01}{99}{40}{99}{40}{99}{40}{99}{40}{99}{40}{99}{40}{99}{40}{99}{40}ノイシュタット闘技場本部{01}	'To the two who surpassed even the heroes{01}of old, we express our utmost respect!!'{01}Neustadt Arena Headquarters	111	110	translated
+米が主役だ！{99}{40}炒めろ！{99}{40}炒めろ！{01}トマトソースは情熱の赤！{01}ファイヤー！！！	Rice is the star! Fry it! Fry it!{01}Tomato sauce is the red of passion!{01}Fire!!!	74	77	translated
+<button:00000035>塗る{01}<button:00000037>やり直し{01}<button:00000038>完成！{01}<button:00000039><button:0000003A>色の切替	<button:00000035>Paint{01}<button:00000037>Redo{01}<button:00000038>Done!{01}<button:00000039><button:0000003A>Color	54	47	translated
+称号の説明{01}２行目{01}３行目{01}	Title description{01}Line 2{01}Line 3{01}	25	32	translated
+{99}{40}ＣＯＮＧＲＡＴＵＬＡＴＩＯＮＳ！{01}{99}{40}{99}{40}{99}{40}{99}{40}{99}{40}{99}{40}{99}{40}{99}{40}{99}{40}{99}{40}{99}{40}{99}{40}{99}{40}{99}{40}{99}{40}{99}{40}{99}{40}{01}{99}{40}ゲームクリアおめでとうございます{01}ボーナスでグレードを１０００加算します	{99}{40}CONGRATULATIONS!{01}{99}{40}{99}{40}{99}{40}{99}{40}{99}{40}{99}{40}{99}{40}{99}{40}{01}{99}{40}Congratulations on clearing the game!{01}A bonus adds 1000 to your grade.	143	108	translated
+ゲームクリアデータを保存します{01}セーブしたデータはストーリーの{01}最初から始まるデータになります{01}のでご注意下さい	Saving game-clear data.{01}Note that the saved data will start{01}from the very beginning of the story.{01}Please be careful.	109	116	translated
+中衛以降に位置し、{01}HPの低い敵を狙って晶術と攻撃を行います	Maintain the mid guard and attack{01}enemies low on HP with attacks and{01}artes.	57	75	reuse
+中衛以降に位置し、{01}空中にいる敵を優先して攻撃、晶術を行います	Maintain the mid guard and{01}prioritize attacks on flying{01}enemies, using attacks and spells.	61	90	reuse
+常に後衛に位置し、{01}主に晶術で回避力の高い敵を狙います	Always remain in the rear guard{01}and focus your attacks on enemies{01}with high evasion.	53	84	reuse
+みんなで武器とかで突撃したいときにはこれ。{01}だけど、捨て身じゃ困ります。	This is it, prepare yourselves.{01}Cast off your worries and lay your{01}life on the line.	71	84	reuse
+いっせいに遠隔攻撃をさせたいならこの一言。{01}戦いのあとにはデザートでも用意しよう。	At the signal, let 'em have it,{01}all at once. When it's all over,{01}dessert's on me!	81	81	reuse
+＜確率・継続効果＞敵の回避力を一定時間{01}減少させる	(Random-Continuous) Decreases the{01}enemy's Evasion for a certain{01}amount of time.	49	79	reuse
+マグロの煮汁から作るおいしいグミ{01}戦闘中は後味が効いて徐々にＨＰ回復	A tasty gel made from a tuna{01}broth. In battle, the aftertaste{01}will slowly restore HP.	67	85	reuse
+珍獣バジリスクの鱗。戦闘不能を除いた{01}全てのステータス異常とＨＰ、ＴＰ完全回復	Scale from the legendary basilisk.{01}Fully restores HP, TP, and status,{01}but cannot be used in battle.	77	99	reuse
+セルキーと対の鍵{01}急激な温度変化で崩壊する	Pairs with the Cell Key to break{01}down obstacles with a rapid{01}temperature change.	41	80	reuse
+バイオキーと対の鍵{01}急激な温度変化で崩壊する	Pairs with the Bio Key to break{01}down obstacles with a rapid{01}temperature change.	43	79	reuse
+コンテナを開けるための暗証装置{01}三種のチップを集めなければならない	Encoded chip needed to open the{01}container. You'll need to collect{01}three different chips.	65	88	reuse
+八本足の海の生物だが{01}まれに井戸の底で人を襲う	Eight-legged creature of the sea.{01}Sometimes they've managed to show{01}up at the bottom of wells.	45	94	reuse
+浄火の矢を放つ聖弓{01}速射性に優れる	A saintly bow with unsurpassed{01}rapid-firing arrows imbued with{01}sacred fire.	33	75	reuse
+力が倍増する魔力を秘めている帯{01}雷神の持ち物とされる	An article belonging to the{01}thunder god that is said to{01}enhance magical power.	51	78	reuse
+寒い夜、ボルシチで体をあたためませんか？{01}もちろん、栄養も豊富な煮込みです	Why not warm up with some hot{01}borscht on a cold night? It's{01}delicious and nutritious!	73	85	reuse
+カレーにしてマーボー！{01}そして、マーボーにしてカレー！{01}まさに、トウバンジャンとスパイスの奇跡！	It's curry made with mabo! And{01}it's mabo made with curry! Oh, the{01}wonder of Chinese spices!	94	91	reuse
+気力のための飲み物！{01}体力のための飲み物！{01}全身にしみわたるエナジー！	A drink of vitality! A drink of{01}pure strength! Energy spreads{01}through your body!	68	80	reuse
+肉、シーフード、野菜の織り成す交響曲{01}今日のあなたは、{01}どんなメロディを奏でますか？	A symphony of meat, seafood, and{01}vegetables. What sort of melody{01}will you play today?	82	85	reuse
