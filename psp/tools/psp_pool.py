@@ -55,24 +55,31 @@ def add_pool_and_relocate(boot, items):
         pool.append(0)
     pool_file = len(b)
     for jp, en in place:
-        idx = -1; i = 0
+        # find EVERY standalone (NUL-bounded) occurrence, not just the first:
+        # single-kanji labels (elements, slots, tabs) and repeated stat labels
+        # have 2-11 copies each, and every copy needs its data pointer(s)
+        # repointed to the one pooled English string or that copy stays JP.
+        newp = struct.pack('<I', POOL_VADDR + en_off[en])
+        i = 0; occ = 0; rewritten = 0
         while True:
             j = b.find(jp + b'\x00', i)
             if j < 0:
                 break
             i = j + 1
-            if j == 0 or b[j - 1] == 0:
-                idx = j; break
-        if idx < 0:
-            st['not_found'] += 1; continue
-        svaddr = idx - (0x100 if idx >= 0x1dcd00 else 0xc0)
-        hits = ptr_map.get(svaddr, [])
-        if not hits:
-            st['no_reloc_pointer'] += 1; continue
-        newp = struct.pack('<I', POOL_VADDR + en_off[en])
-        for fo in hits:
-            b[fo:fo + 4] = newp
-        st['relocated'] += 1; st['pointers_rewritten'] += len(hits)
+            if not (j == 0 or b[j - 1] == 0):
+                continue
+            occ += 1
+            svaddr = j - (0x100 if j >= 0x1dcd00 else 0xc0)
+            hits = ptr_map.get(svaddr, [])
+            for fo in hits:
+                b[fo:fo + 4] = newp
+            rewritten += len(hits)
+        if occ == 0:
+            st['not_found'] += 1
+        elif rewritten == 0:
+            st['no_reloc_pointer'] += 1
+        else:
+            st['relocated'] += 1; st['pointers_rewritten'] += rewritten
     b += pool
     struct.pack_into('<8I', b, 0x34 + 3 * 32,
                      1, pool_file, POOL_VADDR, POOL_VADDR, len(pool), len(pool), 4, 0x40)
