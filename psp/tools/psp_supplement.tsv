@@ -872,3 +872,23 @@ skit	だってよ、ほっといたらお前、そいつをギッタギタにし
 skit	やっぱり、ダメかしら‥‥でも、一所懸命、誠意をもって話せばきっと‥‥！	But if we speak sincerely, from the heart, surely...!	recover
 skit	わたしも、もっと特別な存在だと思ってた‥‥でも、実際はちがったの。普通に笑ったり、怒ったり、泣いたり、ただ元気で、一所懸命さだけがとりえみたいな、ごく普通の男の子だった。	He was an ordinary boy who laughed, cried, and always tried hard.	recover
 skit	俺たちがアトワイトさんを助けるとする。そうすっと、アトワイトさんは、当然ながらこのカッコいい俺にホレてしまうだろう。ってことは、俺たちが元の世界に戻ることになったとき、彼女もいっしょについてきてしまうんじゃないか？　その結果、ソーディアンチームは一人欠けてしまい、バルバトスの歴史改変の企みを手助けしてしまう形になる‥‥‥‥‥‥くそっ！　なんてこった。イヤ、敵ながらアッパレな計画‥‥‥‥‥‥‥‥‥‥‥‥ぐふが‥‥げっ‥‥うげっ！	Save Atwight, she loves me and leaves, helping Barbatos. Brilliant!	recover
+scenario	鍛冶屋はレベル<0B:00000001>{14}{21}{4A}{C0}<0B:00000000>に上がりました	The blacksmith rose to Level <0B:00000001>{14}{21}{4A}{C0}<0B:00000000>.	translated
+scenario	老人	Old Man	translated
+scenario	お墓だ････	It's a grave...	translated
+scenario	<03:00000000>かけらゲット！	<03:00000000>Got a fragment!	translated
+scenario	<03:00000000>強奪！	<03:00000000>Plunder!	translated
+scenario	経過時間：{14}{34}{0C}{C0}	Elapsed time: {14}{34}{0C}{C0}	translated
+scenario	ナビむすめ	Guide Girl	translated
+scenario	ナビねこ	Guide Cat	translated
+scenario	エレベーター嬢	Elevator Lady	translated
+scenario	氷のメイド	Ice Maid	translated
+scenario	木のメイド	Wood Maid	translated
+scenario	火のメイド	Fire Maid	translated
+scenario	宝箱はチープトリックでした	The chest was a Cheap Trick.	translated
+scenario	START：やりなおし	START: Retry	translated
+scenario	<03:00000000>仕掛けスイッチ{02}	<03:00000000>Trap Switch{02}	translated
+scenario	<03:00000000>レアルタ	<03:00000000>Realta	translated
+scenario	誰も割り込んで来ません	No one interrupts.	translated
+scenario	はい、金無し	Yes, no money.	translated
+scenario	<03:00000000>はい、たくさん	<03:00000000>Yes, plenty.	translated
+scenario	<03:00000000>はい、どうぞ	<03:00000000>Yes, here you go.	translated
