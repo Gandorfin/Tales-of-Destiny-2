@@ -3710,3 +3710,48 @@ LVに応じて(毒/衰弱/麻痺/鈍足/凍結)を解除する{01}非戦闘時�
 革のブーツ{01}小石を踏んでも平気です	Leather boots.{01}Fine even stepping on pebbles.	33	45	translated
 鋼板製のブーツ{01}象に踏まれても平気です	Steel-plated boots.{01}Fine even if an elephant steps on you.	37	58	translated
 肉球がキュートな猫足型のブーツ{01}衝撃の大部分を吸収してくれます	Cat-paw boots with cute paw pads.{01}They absorb most of the impact.	61	65	translated
+まだまだ見習いなれど、立派な剣士{01}日々の訓練を忘れずに{01}{01}	Still a trainee, but a fine swordsman.{01}Don't neglect your daily training.	55	73	translated
+アタモニ神団の護衛兵{01}人々をモンスターから守るべく、{01}日々務めている{01}	A guard of the Atamoni Order. Serving day{01}by day to protect people from monsters.	67	81	translated
+弓は彼女の武器であり、友でもある{01}彼女が、弓を扱うその姿は、{01}美しさすら感じさせるほど{01}	The bow is her weapon and her friend.{01}The way she wields it feels almost beautiful.	85	83	translated
+科学者。しかし、彼女が、科学者という{01}枠だけで収まるはずもない{01}いわゆる、マッドなサイエンティスト{01}	A scientist. But she was never one to fit{01}in that box alone. A so-called mad scientist.	97	87	translated
+母親の営む孤児院を手伝う<Kyle>{01}彼自身は孤児ではないが、{01}絆の名である「デュナミス」を名乗っている{01}	<Kyle> helps at the orphanage his mother{01}runs. Not an orphan, he took the bond{01}name 'Dynamis' as his own.	96	104	translated
+デュナミス孤児院にひきとられた子供は{01}デュナミスという名を名乗る{01}生まれは違っていても、家族なのだ{01}	Children taken in by the Dynamis orphanage{01}take the name Dynamis. Born apart,{01}but family all the same.	97	102	translated
+父をこえる、オレはこえる！{01}偉大な父を、オレはこえる！{01}いつか、なってやるぜ！英雄に！{01}	Surpass my father, I will surpass him!{01}My great father, I'll surpass him!{01}Someday I'll do it! Become a hero!	85	108	translated
+「データを取らせてちょうだい」{01}いったい、何のデータなのか？{01}どのように調べるのか？謎は深まるばかり{01}	'Let me take some data.'{01}Data on what, exactly? How does she{01}study it? The mystery only deepens.	99	96	translated
+時に厳しく、時に優しく、時に面白く！{01}理想の兄貴、ここにあり{01}{01}	Strict at times, kind at times, fun at{01}times! The ideal big brother, right here.	61	80	translated
+神団を離れ、さすらう戦士{01}振るう武器に魂込めて、{01}迷いを断ちきり、今日も行く{01}	A wandering warrior who left the Order.{01}Pouring his soul into the weapon he swings,{01}he cuts away doubt and journeys on.	75	119	translated
+剣士に必要なものは剣の腕だけにあらず{01}同時に、心の修行が必要である{01}なまくらな心では、剣もなまくらなり{01}	A swordsman needs more than skill with a{01}blade. Training of the heart is needed too.{01}A dull heart makes for a dull sword.	101	121	translated
+ソーディアン・オリジナル{01}人格を持つ剣ソーディアンに、その人格を{01}投影した人間の一人{01}	A Swordian Original. One of the humans{01}whose personality was projected onto the{01}sentient sword, the Swordian.	83	109	translated
+<Kyle>が剣を持ち走る時{01}それは、一陣の風のごとし{01}{01}	When <Kyle> runs, sword in hand,{01}it is like a single gust of wind.	48	65	translated
+太陽と月、一対の光{01}あたたかき陽光。全てをはぐくむ光{01}{01}	Sun and moon, a paired light.{01}A warm sunlight. The light that{01}nurtures all things.	53	82	translated
+これは、血脈か!?{01}勇者の血のなせる所業なのか!?{01}遺伝子に刻まれた刻印なのか!?{01}	Is this the bloodline!? The work of a{01}hero's blood!? A mark carved{01}into the genes!?	75	83	translated
+さめた瞳と、辛口の意見{01}ニヒル・ニヒラー・ニヒリスト{01}{01}	A cool gaze and sharp opinions.{01}Nihil, nihiler, nihilist.	53	57	translated
+フォルトゥナ神に仕えるふたりの聖女{01}それが、エルレインと<Reala>{01}{01}	Two holy women serving the goddess{01}Fortuna. That is Elraine and <Reala>.	62	70	translated
+恐怖の象徴フォルネウスを倒し、船を沈没の{01}危機から救ったキミたちをこう呼ばずに{01}なんと呼べと!?<color:00000002>（興奮ぎみの船長・談）{01}	You defeated the fearsome Forneus and{01}saved the ship from sinking. What else{01}should I call you!? (an excited captain)	120	117	translated
+時の旅人{01}時をこえる少女{01}{01}	A traveler of time.{01}A girl who transcends time.	25	47	translated
+飛行艇イクシフォスラーの操縦者{01}{01}{01}	The pilot of the airship Ixifoslar.	33	35	translated
+彼はいろいろな事を知っている。{01}「ソーサラーリングは<button:0000002A>だ！」{01}<color:00000008>（一回発射毎レンズ一枚消費）{01}	He knows all sorts of things.{01}'The Sorcerer's Ring is <button:0000002A>!'{01}<color:00000008>(one Lens per shot)	97	86	translated
+彼は本当にいろいろな事を教えてくれる。{01}「ソーサラースコープは<button:00000029>だ」{01}<color:00000008>（一回使用毎レンズ三枚消費）{01}	He truly teaches you all sorts of things.{01}'The Sorcerer's Scope is <button:00000029>.'{01}<color:00000008>(three Lens per use)	105	100	translated
+野生の知恵を身につけた者{01}自然の中に答えをみつけ、{01}自然の力によって解決できる者{01}	One who has gained the wisdom of the wild.{01}One who finds answers in nature and{01}solves things by nature's power.	79	111	translated
+エルレインと共に神から生み出された化身{01}{01}{01}	An avatar born from a god alongside Elraine.	41	44	translated
+めくりのジョーの最大のライバル！{01}つむじ風のごとく、アレをナニする{01}めくりの達人！{01}	Flipping Joe's greatest rival! Like a{01}whirlwind, a master of flipping{01}that whatsit!	81	83	translated
+むっつりしているらしい{01}クールとむっつり紙一重{01}<color:00000003>命名・<Nanaly>さん{01}	Apparently the sullen type.{01}Cool and sullen, a fine line.{01}<color:00000003>Named by <Nanaly>.	67	78	translated
+陶器のような白い肌{01}きめ細かい美しい肌{01}まさに、美白の天使{01}	Skin white as porcelain. Fine, beautiful{01}skin. Truly an angel of fair skin.	57	75	translated
+小麦色の肌は、若さと健康の証{01}太陽と海風が似合うキミ{01}さながら、小麦色の女神{01}	Tanned skin is proof of youth and health.{01}Sun and sea breeze suit you.{01}Truly a tanned goddess.	75	94	translated
+”だんじょ”ではなく”おとこおんな”{01}男性さながらの勇ましい女性{01}ほめ言葉ではないですね。<color:00000006>命名・<Loni>{01}	Not a 'gal,' but a 'manly woman.' A brave{01}woman just like a man. Not a compliment,{01}is it. <color:00000006>Named by <Loni>.	105	110	translated
+謎は全てとけたような気がする！{01}そうに違いないとも必ずしも言えなくもない{01}ズバリ、そんな気がしないでもなくもない！{01}	Feels like every mystery is solved! Can't{01}quite say that's certainly so, but{01}I don't not feel that way either!	113	110	translated
+関節技の達人{01}しかし、<Nanaly>はあくまで弓使い{01}関節技を発揮するのは、対<Loni>のみ{01}	A master of joint locks. But <Nanaly> is,{01}above all, an archer. She only shows off{01}her joint locks against <Loni>.	77	110	translated
+ノイシュタットのマッハ少年に大勝利！{01}それ、すなわち、ビクトリー！{01}イダテン・マッハ・ビクトリー・足はやい{01}	A total victory over Neustadt's Mach Boy!{01}That is, victory! Idaten Mach{01}Victory, Fast Feet.	105	91	translated
+「がんばって走りました！」{01}{01}{01}	'I ran my hardest!'	29	19	translated
+スタンプラリーをやりとげた証{01}各地を巡って、ペッタンペッタン押しまくり{01}努力の証でございます！{01}	Proof of finishing the stamp rally. Going{01}around stamping everywhere. It is{01}proof of your effort!	93	97	translated
+全てのアイテムを入手し、{01}コレクター図鑑が完成しました！{01}おめでとうございます！{01}	You obtained every item and completed the{01}Collector's Book! Congratulations!	79	76	translated
+全ての敵と遭遇しました{01}モンスター図鑑が完成です！{01}すばらしい！{01}	You encountered every enemy and completed{01}the Monster Book! Splendid!	63	69	translated
+たくさんのレシピを操るあなたは{01}まさに料理の魔術師！{01}トレビアーン！{01}	You who command so many recipes are truly{01}a wizard of cooking! Tres bien!	67	73	translated
+全種類の包丁を集めました。包丁マスター！{01}もしや、あなたは水に浮かべたキュウリを{01}波紋を立てずに切る技を持つのでは？{01}	You collected every kind of knife. Knife{01}Master! Do you perhaps have the skill to{01}slice a floating cucumber without a ripple?	115	125	translated
+おのれの限界を超えた者だけが{01}踏み込む事のできる「無心の領域」{01}全ては無であり、全てはそこにある{01}	The 'realm of no mind' that only those who{01}surpass their limits can step into.{01}All is nothing, and all is there.	95	112	translated
+夢の純正個人八連携決着に成功した証{01}どのくらい夢かというと{01}ドリームくらい{01}	Proof of the dream: a pure solo 8-chain{01}finish. How much of a dream?{01}About a Dream's worth.	73	91	translated
+一人なのにみんなに呼びかける号令を{01}発した孤独なあなたに贈る称号{01}みんながいるときにしましょう{01}	A title for you, lonely one, who gave a{01}rallying call to everyone while all alone.{01}Do it when everyone's around.	93	112	translated
+５０ヒット以上で勝負を決めた者に{01}与えられる称号。これに満足するか{01}より高みを目指すのか{01}	A title for those who settle a fight with{01}50+ hits. Will you be satisfied with this,{01}or aim for greater heights?	87	112	translated
+様々な壁を乗り越え１００ヒット以上で{01}勝負を決めた者に与えられる称号{01}まさに連携が生んだ奇跡祭り{01}	A title for those who overcome many walls{01}and settle a fight with 100+ hits.{01}A miracle festival born of chaining.	95	113	translated
+戦闘ランク「イージー」を選べますが、{01}このランクではよいアイテムが落ちなくなり{01}ます。戦闘に慣れたらノーマルをおすすめ{01}	You can pick battle rank 'Easy,' but good{01}items won't drop at this rank. Once used{01}to battle, Normal is recommended.	117	116	translated
+総計GRADEが６００に達し、熟達の戦術者と{01}認められた方々には戦闘ランク「ハード」{01}を選ぶことで、武器防具のレア度アップ？{01}	Those with a total GRADE of 600, deemed{01}skilled tacticians, can pick battle rank{01}'Hard' for higher weapon/armor rarity?	118	119	translated
