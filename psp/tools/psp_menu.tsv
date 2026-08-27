@@ -3203,3 +3203,34 @@ HPを吸収できる。	Can drain HP.	16	13	translated
 文字通りメチャクチャ重いブーツ{01}移動に苦労しそうです	Boots of great mass.{01}Difficult to walk in.	51	42	reuse
 簡素で典雅な造りのブーツ{01}カッコイイー！！	Simple, yet elegantly made boots.{01}The design was popular centuries ago.	41	71	reuse
 伝説に登場する幻想の力を秘めたブーツ{01}口伝を書物にまとめた兄弟の名を冠する	Boots of legend that hold hidden power.{01}Named after storytelling brothers.	73	74	reuse
+高速の斬撃による真空波が渦を巻き、{01}閃光となって敵を打ち上げる特技	Base: A high-speed slash that makes{01}a whirlwind, launching the enemy.	65	69	translated
+神速の連続突きにより、突風が巻き起こり、{01}敵を吹き飛ばす効果を持つ奥義	Arcane: A chain of quick thrusts forms{01}a gust of wind, blowing foes away.	69	73	translated
+前方に敵を吹き飛ばす障壁を展開、{01}同時に近距離の仲間の体力を微回復させる特技	Base: Raises a barrier to push back{01}front foes and heal nearby allies.	75	70	translated
+修行の成果で雷を呼び起こし、{01}力を解放する特技	Base: Releases the power of thunder{01}as a result of training.	45	60	translated
+貫いた敵を豪腕で振り上げる特技。命中率が低い{01}のがなんだが敵の隊列を入れ替えるにはナイス	Base: Flings the enemy skyward. Low{01}hit rate, but breaks up their ranks.	87	72	translated
+空中から冷気の槍で敵を貫く特技{01}敵の攻撃をかわしながら出すとステキ	Base: Strikes with an icy spear.{01}Great when dodging an attack.	65	62	translated
+それはもう強力な振り下ろしで、大地を{01}震撼させる特技	Base: Shakes the ground with{01}a powerful downward slash.	51	55	translated
+振り下ろしから引き込み、突進で追いつめる{01}前向き奥義	Arcane: Starts with a downward slash,{01}then rushes the enemy.	51	60	translated
+低空回転体当たりでところかまわず{01}吹き飛ばす迷惑奥義	Arcane: Sweeps foes away with a body{01}slam, regardless of position.	51	66	translated
+あふれる気合を露骨に叩きつける{01}爆烈奥義	Arcane: Pummels the enemy{01}with overflowing zeal.	39	48	translated
+突きがヒットすると、目前の敵をすり抜けて{01}奥の敵に斬りかかる性質を持つ特技	Base: Slips past the front enemy{01}and hits the next one.	73	55	translated
+土煙を巻き起こし、双剣によって火花を起こして{01}爆発させる奥義	Arcane: Ignites a dust cloud with{01}twin blades to cause an explosion.	59	68	translated
+常人の目には見切れぬ瞬間移動を伴った{01}斬撃奥義	Arcane: Lets you move{01}undetected by the naked eye.	45	50	translated
+数多の敵を貫通する炎の閃光を生み出す{01}特技	Base: Creates blasts of fire{01}that hit several enemies at once.	41	62	translated
+移動中は全員、戦闘中は{01}範囲内の味方の体力を回復させる晶術	Restores HP to all allies out of{01}battle, or those in range in battle.	57	69	translated
+相手との距離に関係なく真空の刃を発生させる{01}下級晶術	Low: Blades of wind spring forth,{01}striking those within range.	51	62	translated
+とがった岩を連続に突き出し、敵を貫く{01}下級昇華晶術	Low-Ext: Pointed rocks protrude{01}in sequence, piercing the enemy.	49	64	translated
+鋭利な氷の槍を、ターゲットに照準を当てて{01}次々と貫く下級昇華晶術	Low-Ext: Sharp ice spears pierce{01}the enemy one after another.	63	61	translated
+局所的に高熱を発生させ、狙った敵を屠る{01}下級昇華晶術	Low-Ext: A small area is set ablaze,{01}slaughtering the enemy within.	51	67	translated
+地面で強力な爆発を起こす火炎弾を降らせる{01}中級晶術	Mid: Blazing shots from the sky{01}make a powerful blast on impact.	49	64	translated
+敵の動きを封じ込める魔空間を引き出す{01}中級晶術	Mid: A demonic void is called forth,{01}stopping enemies in their tracks.	45	70	translated
+熱を大地に集中させ、局地的な噴火を起こす{01}中級昇華晶術	Mid-Ext: Concentrated heat within{01}the earth creates an eruption.	53	64	translated
+輝きの槍を突き刺し、更に追撃を加える{01}中級昇華晶術	Mid-Ext: Radiant spears impale{01}the enemy multiple times.	49	56	translated
+大地の力を圧縮し、そして解放させる{01}上級晶術	High: Concentrates and unleashes{01}the power of the Earth.	43	56	translated
+古代より伝えられし浄化の炎を呼び起こす{01}上級晶術	High: A purifying flame is called{01}forth from ages long past.	47	60	translated
+神聖なる裁きの雷を撃ち放つ{01}上級晶術	High: The thunder of Holy Judgment{01}delivers a crushing blow.	35	60	translated
+漆黒の闇の淵へ引きずり込む{01}上級晶術	High: Draws the enemy{01}into a dark abyss.	35	40	translated
+攻撃晶術はダメージが、{01}回復晶術は回復量が上昇	Boosts attack spell damage and{01}healing spell HP recovery.	45	57	translated
+＜継続効果＞使用晶術の属性の耐性が一定時間{01}上昇する	(Continuous) Raises resistance to the{01}equipped spell's element for a time.	51	74	translated
+＜確率効果＞この晶術で倒した時のアイテム{01}入手確率が上昇する	(Random) Ups the chance to get an{01}item from a foe felled by this spell.	59	71	translated
+地面に突き立てた剣撃がヒットすると、{01}目標の敵の足元から爆炎が起こる特技	Base: Stab your sword into the ground,{01}creating a burst of flame below.	71	71	translated
