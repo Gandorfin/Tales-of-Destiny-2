@@ -564,7 +564,7 @@ TP軽減力とTP回復力が上昇する	Increases TP Reduction and TP Regen	28	
 ジャックフロスト	Jack Frost	16	10	reuse
 ジャムトースト	Toast with Jam	14	14	reuse
 ジューダス	Judas	10	5	reuse
-ジョニーの楽器	Instruments belonging to Johnny.	14	32	reuse
+ジョニーの楽器	Johnny's Instrument	14	19	reuse
 ジーラス	Zealous	8	7	reuse
 ジーンチップ	Gene Chip	12	9	reuse
 スイートパフェ	Sweet Parfait	14	13	reuse
@@ -1396,7 +1396,7 @@ TP軽減力とTP回復力が上昇する	Increases TP Reduction and TP Regen	28	
 世界をとりもどせ！	Take Back the World!	18	20	reuse
 世界を救うオレ	I'll Save the World	14	19	reuse
 両手	2-Hand	4	6	reuse
-並び変更	Row Change	8	10	reuse
+並び変更	Reorder	8	7	reuse
 乗船	Aboard	4	6	reuse
 二人の無事を願う二人	Two Praying for Two	20	19	reuse
 二人以上、ＨＰが４０％以下なら料理を行います	2+ allies have 40% or less HP	44	29	reuse
@@ -2323,10 +2323,10 @@ HPを吸収できる。	Can drain HP.	16	13	translated
 戻る	Back	4	4	translated
 ライブラリ	Library	10	7	translated
 キャラ切替	Switch Character	10	16	translated
-説明切替	Toggle Description	8	18	translated
+説明切替	Desc	8	4	translated
 変更	Change	4	6	translated
 取消	Cancel	4	6	translated
-捨てる	Discard	6	7	translated
+捨てる	Drop	6	4	translated
 やめる	Stop	6	4	translated
 個数増減	Adjust Quantity	8	15	translated
 術技切替	Switch Artes	8	12	translated
@@ -2387,7 +2387,7 @@ HPを吸収できる。	Can drain HP.	16	13	translated
 合成生物	Chimera	8	7	translated
 無機物	Inorganic	6	9	translated
 不定形・その他	Amorphous / Other	14	17	translated
-使用切替	Toggle Use	8	10	translated
+使用切替	Swap Use	8	8	translated
 あまり出現しない	Rarely appears	16	14	translated
 よく出現する	Appears often	12	13	translated
 様々な条件でゲームを開始することができます	You can start the game under various conditions	42	47	translated
@@ -3066,3 +3066,37 @@ HPを吸収できる。	Can drain HP.	16	13	translated
 手に入れました	Obtained	14	8	translated
 枚のレンズを手に入れました	Obtained Lens	26	13	translated
 　宝箱に戻す　	　Return to chest　	14	19	translated
+熟練度	Proficiency	6	11	translated
+名前入力	Name Entry	8	10	translated
+任意番号	Any Number	8	10	translated
+亜人	Demi-human	4	10	translated
+水棲生物	Aquatic	8	7	translated
+爬虫類	Reptile	6	7	translated
+地系召喚	Earth Summon	8	12	translated
+水系召喚	Water Summon	8	12	translated
+炎系召喚	Fire Summon	8	11	translated
+風系召喚	Wind Summon	8	11	translated
+光系召喚	Light Summon	8	12	translated
+闇系召喚	Dark Summon	8	11	translated
+属性攻撃貫通	Pierce Elem. Def (Atk)	12	22	translated
+属性晶術貫通	Pierce Elem. Def (Arte)	12	23	translated
+攻撃後前進	Advance After Attack	10	20	translated
+攻撃後後退	Retreat After Attack	10	20	translated
+アタックレベルの成長促進	Boosts Attack Level growth	24	26	translated
+スキルレベルの成長促進	Boosts Skill Level growth	22	25	translated
+マジックレベル成長促進	Boosts Magic Level growth	22	25	translated
+チェインレベルの成長促進	Boosts Chain Level growth	24	25	translated
+銅鍋	Copper Pot	4	10	translated
+銅のフライパン	Copper Frying Pan	14	17	translated
+柳刃包丁	Sashimi Knife	8	13	translated
+牛刀包丁	Chef's Knife	8	13	translated
+陣羽織	Surcoat	6	7	translated
+麻婆豆腐	Mapo Tofu	8	9	translated
+テイルズ オブ デスティニー２	Tales of Destiny 2	28	18	translated
+”プレイステーション”版	"PlayStation" Version	24	23	translated
+”プレイステーション ２”版	"PlayStation 2" Version	27	25	translated
+召喚士	Summoner	6	8	translated
+遥かなる現代	Distant Present	12	15	translated
+絆（１）	Bond (1)	8	8	translated
+絆（２）	Bond (2)	8	8	translated
+指針	Guide	4	5	translated
