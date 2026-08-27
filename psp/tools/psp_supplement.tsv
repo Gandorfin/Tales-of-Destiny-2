@@ -893,3 +893,262 @@ scenario	はい、金無し	Yes, no money.	translated
 scenario	<03:00000000>はい、たくさん	<03:00000000>Yes, plenty.	translated
 scenario	<03:00000000>はい、どうぞ	<03:00000000>Yes, here you go.	translated
 scenario	（一回言えば分かると思うが････）	(You'd get it if I said it once, but...)	translated
+scenario	デバッグマップ・ＤＥＢＵＧＭＡＰ・でばっぐまっぷ！	DEBUG MAP - DEBUGMAP - debug map!	debug
+scenario	・・デバッグ　マップ・・	..DEBUG MAP..	debug
+scenario	デバッグマップ	DEBUG MAP	debug
+scenario	さよなら DEAD COUNTER	Goodbye, DEAD COUNTER	debug
+scenario	「ＣＨＡＮＧＥ　マップ」	"CHANGE MAP"	debug
+scenario	12345 の 平方根は {14}{B0}{A8}{5E}{BC}	The square root of 12345 is {14}{B0}{A8}{5E}{BC}	debug
+scenario	ソーサラースコープなのか	Is it the Sorcerer's Scope?	debug
+scenario	時系列に対応するメッセージはありません	No message for this timeline.	debug
+scenario	この時系列では参拝客は神殿内に配置しないので\n話しかけることはできない	Worshippers aren't placed in the temple in{02}this timeline, so you can't talk to them.	debug
+scenario	ＴＯＤ２フラグを変えますか？{02}	Change the TOD2 flag?{02}	debug
+scenario	時代を変更しました	Era changed.	debug
+scenario	（一回言えば分かると思うが･･･）	(You'd get it if I said it once, but...)	debug
+scenario	バグってる	It's bugged.	debug
+scenario	<03:00000000>ＴＯＤ２フラグを変えますか？{02}	<03:00000000>Change the TOD2 flag?{02}	debug
+scenario	<03:00000000>時代を変更しました	<03:00000000>Era changed.	debug
+scenario	<03:00000000>変更しませんでした	<03:00000000>Not changed.	debug
+scenario	おにごっこOFF	Tag Game OFF	debug
+scenario	おにごっこON	Tag Game ON	debug
+scenario	異常な数値を検出	Abnormal value detected.	debug
+scenario	<item:0000005A>がある	<item:0000005A> is here.	debug
+scenario	仕掛けが稼動していないので\n攻略したつもりでマップを\n切り換えます	The device isn't running, so the map{02}switches as if you'd cleared it.	debug
+scenario	Ｌ２を押して抜けるとパラメータ変更	Press L2 to exit and change parameters.	debug
+scenario	<03:00000000><0B:00000001>slot1:{14}{21}{50}{91}{00}{C9}{C0}　　Lv:{14}{21}{50}{91}{00}{C8}{C0}\nslot2:{14}{21}{52}{91}{00}{C9}{C0}　　Lv:{14}{21}{52}{91}{00}{C8}{C0}\nベースアイテム：{16}{21}{4E}{C0}\n<item:FFFFFFFF>を製作します<0B:00000000>	<03:00000000><0B:00000001>slot1:{14}{21}{50}{91}{00}{C9}{C0}　　Lv:{14}{21}{50}{91}{00}{C8}{C0}\nslot2:{14}{21}{52}{91}{00}{C9}{C0}　　Lv:{14}{21}{52}{91}{00}{C8}{C0}\nBase Item: {16}{21}{4E}{C0}\nCrafting <item:FFFFFFFF><0B:00000000>	debug
+scenario	スロットタイプの異常な数値を検出 : {14}{26}{1C}{C0}	Abnormal slot-type value detected: {14}{26}{1C}{C0}	debug
+scenario	スロットレベルの異常な数値を検出 : {14}{26}{1E}{C0}	Abnormal slot-level value detected: {14}{26}{1E}{C0}	debug
+scenario	<03:00000000>レベル({14}{21}{4A}{C0}) 変更\n経験値({14}{21}{4C}{C0}exp) 変更\n資金({14}{21}{48}{85}{C7}{C0}0g) 変更	<03:00000000>Level ({14}{21}{4A}{C0}) change\nEXP ({14}{21}{4C}{C0}exp) change\nGald ({14}{21}{48}{85}{C7}{C0}0g) change	debug
+scenario	<03:00000000>１増やす\n１減らす\n１０増やす\n１０減らす	<03:00000000>+1\n-1\n+10\n-10	debug
+scenario	<03:00000000>１０増やす\n１０減らす\n二倍にする\n半分にする	<03:00000000>+10\n-10\nDouble\nHalve	debug
+scenario	<03:00000000>１０００ガルド増やす\n１０００ガルド減らす\n二倍にする\n半分にする	<03:00000000>+1000 Gald\n-1000 Gald\nDouble\nHalve	debug
+scenario	エルレインに対する賞賛の言葉その１	Words of praise for Elraine, 1	debug
+scenario	エルレインに対する賞賛の言葉その２	Words of praise for Elraine, 2	debug
+scenario	エルレインに対する賞賛の言葉その３	Words of praise for Elraine, 3	debug
+scenario	<03:00000000>通常\nテスト（どの料理でも正解）	<03:00000000>Normal\nTest (any dish is correct)	debug
+scenario	バグ発生？	Bug occurred?	debug
+scenario	バグです	It's a bug.	debug
+scenario	リムルが乱入する設定	Setting for Rimul's intrusion.	debug
+scenario	<0B:00000001>異常な数値を検出　{14}{24}{6C}{C0}　{14}{24}{6E}{C0}<0B:00000000>	<0B:00000001>Abnormal value detected　{14}{24}{6C}{C0}　{14}{24}{6E}{C0}<0B:00000000>	debug
+scenario	未実装です！	Not implemented!	debug
+scenario	仕掛けが未稼動です\n攻略したつもりでマップを\n切り替えます	The device isn't running, so the map{02}switches as if you'd cleared it.	debug
+scenario	パレット・テスト停止チェック開始！	Palette test stop check: start!	debug
+scenario	パレット・テスト停止チェック終了！	Palette test stop check: end!	debug
+scenario	バグってルので報告汁！	It's bugging out, so report it!	debug
+scenario	この時系列、私は城にいるはずです	In this timeline, I should be at the castle.	debug
+scenario	p(reala)\n「これでも」って････	p(reala)\n"Even so"...	debug
+scenario	バグを検出！	Bug detected!	debug
+scenario	バグ発生！	Bug occurred!	debug
+scenario	バグ発見！	Bug found!	debug
+scenario	<03:00000000>はい、没収	<03:00000000>Yes, confiscate.	debug
+scenario	<03:00000000>リセット！	<03:00000000>Reset!	debug
+scenario	<03:00000000>通常\nテスト（どのボタンでも正解）	<03:00000000>Normal\nTest (any button is correct)	debug
+scenario	バグバグなので通報しる	It's buggy, so report it.	debug
+scenario	バグってる？	Bugged?	debug
+scenario	<03:00000000>キャンセル\n次はバルバトス\n次はリオン\n次はマグナディウエス	<03:00000000>Cancel\nNext: Barbatos\nNext: Leon\nNext: Magnadeus	debug
+scenario	<03:00000000>階層を変更しました	<03:00000000>Floor changed.	debug
+scenario	(w)闇の祭壇のスイッチＯＮ\n闇の祭壇のスイッチＯＦＦ\n罰の祭壇のスイッチＯＦＦ\n第４章	(w)Dark altar switch ON\nDark altar switch OFF\nPunishment altar switch OFF\nChapter 4	debug
+scenario	全てのロウソクを消す\n全てのロウソクを灯す\n鐘を撃っていない\nもももももももも	Snuff all candles\nLight all candles\nBell not struck\nmomomomomomomo	debug
+scenario	<03:00000000>炭ゲットしてない\n炭ゲットした\n炭をくべていない\n炭をくべた	<03:00000000>No charcoal\nGot charcoal\nCharcoal not added\nCharcoal added	debug
+scenario	氷の封印OFF\n氷の封印ON\n氷の解除要請ON\n全封印OFF	Ice seal OFF\nIce seal ON\nIce release request ON\nAll seals OFF	debug
+scenario	木の封印OFF\n木の封印ON\n木の解除要請ON\n翼の封印以外解除	Wood seal OFF\nWood seal ON\nWood release request ON\nAll but wing seal off	debug
+scenario	バグ	Bug	debug
+scenario	あしふきフラグ変更？\nＯＮ\nＯＦＦ	Change foot-wiping flag?\nON\nOFF	debug
+scenario	壁壊れフラグ変更？\nＯＮ\nＯＦＦ	Change wall-broken flag?\nON\nOFF	debug
+scenario	<03:00000000>初期化\n過去リオンと戦闘\n通常ボスと戦闘\nバルバトスと戦闘	<03:00000000>Initialize\nBattle past Leon\nBattle normal boss\nBattle Barbatos	debug
+scenario	次のイベントは宿屋で発生します\n宿屋への誘導メッセージ	The next event occurs at Inn.\nGuide message to Inn.	debug
+scenario	次のイベントも宿屋で発生します\n宿屋への誘導メッセージ	The next event also occurs at Inn.\nGuide message to Inn.	debug
+scenario	次のイベントは神殿の門で発生します\n神殿への誘導メッセージ	The next event occurs at Temple Gate.\nGuide message to Temple.	debug
+scenario	次のイベントは遺跡の入口で発生します\n遺跡への誘導メッセージ	The next event occurs at Ruins Entrance.\nGuide message to Ruins.	debug
+scenario	次のイベントは村の中で発生します\n村の中への誘導メッセージ	The next event occurs at the Village.\nGuide message to the Village.	debug
+scenario	次のイベントは公園付近で発生します\n公園付近への誘導メッセージ	The next event occurs at Near the Park.\nGuide message to Near the Park.	debug
+scenario	次のイベントは記念公園で発生します\n記念公園への誘導メッセージ	The next event occurs at Memorial Park.\nGuide message to Memorial Park.	debug
+scenario	次のイベントは城の客室で発生します\n客室への誘導メッセージ	The next event occurs at Castle Guest Room.\nGuide message to Guest Room.	debug
+scenario	次のイベントは噴水広場で発生します\n噴水広場への誘導メッセージ	The next event occurs at Fountain Plaza.\nGuide message to Fountain Plaza.	debug
+scenario	次のイベントは世界地図部屋で発生します\n世界地図部屋への誘導メッセージ	The next event occurs at World Map Room.\nGuide message to World Map Room.	debug
+scenario	次のイベントはレアルタ資料室で発生します\nレアルタ資料室への誘導メッセージ	The next event occurs at Realta Archives.\nGuide message to Realta Archives.	debug
+scenario	次のイベントは作戦室で発生します\n作戦室への誘導メッセージ	The next event occurs at Strategy Room.\nGuide message to Strategy Room.	debug
+scenario	ここはクレスタの森です	This is Cresta Forest.	debug
+scenario	ここはクレスタの街外観です	This is Cresta Town Exterior.	debug
+scenario	ここは孤児院一階です	This is Orphanage 1F.	debug
+scenario	ここは夜の孤児院一階です	This is Night Orphanage 1F.	debug
+scenario	ここはルーティの部屋です	This is Rutee Room.	debug
+scenario	ここは<Kyle>の部屋です	This is <Kyle> Room.	debug
+scenario	<03:00000000>ここは孤児院外観です	<03:00000000>This is Orphanage Exterior.	debug
+scenario	<03:00000000>ここは孤児院です	<03:00000000>This is Orphanage.	debug
+scenario	<03:00000000>ここは古代遺跡です	<03:00000000>This is Ancient Ruins.	debug
+scenario	<03:00000000>ここはラグナ遺跡です	<03:00000000>This is Laguna Ruins.	debug
+scenario	ここはラグナ遺跡です	This is Laguna Ruins.	debug
+scenario	ここはレンズ部屋です。	This is Lens Room.	debug
+scenario	ここは地下牢です	This is Dungeon.	debug
+scenario	ここはダリルシェイド地下水路です	This is Darilsheid Sewers.	debug
+scenario	ここはダリルシェイドです	This is Darilsheid.	debug
+scenario	<03:00000000>ここはダリルシェイドです	<03:00000000>This is Darilsheid.	debug
+scenario	<03:00000000>ここは鍛冶屋のテントです	<03:00000000>This is Smith's Tent.	debug
+scenario	ここはアイグレッテ・グランバザールです	This is Aigrette Grand Bazaar.	debug
+scenario	<03:00000000>ここは現代アイグレッテ外観です。{14}{34}{00}{C0}	<03:00000000>This is Present Aigrette Exterior.	debug
+scenario	ここは町外れです	This is Outskirts.	debug
+scenario	ここは参道です	This is Approach.	debug
+scenario	ここはアイグレッテの宿屋です	This is Aigrette Inn.	debug
+scenario	ここはアイグレッテ室内です	This is Aigrette Interior.	debug
+scenario	ここはアイグレッテ食材屋です	This is Aigrette Food Shop.	debug
+scenario	ここは時計部屋です	This is Clock Room.	debug
+scenario	<03:00000000>ここはストレイライズ遺跡小部屋です	<03:00000000>This is Straylize Ruins Small Room.	debug
+scenario	<03:00000000>ここはストレイライズ遺跡小部屋(I)です	<03:00000000>This is Straylize Ruins Small Room (I).	debug
+scenario	<03:00000000>ここはストレイライズ遺跡小部屋(N)です	<03:00000000>This is Straylize Ruins Small Room (N).	debug
+scenario	<03:00000000>ここはストレイライズ遺跡小部屋(Y)です	<03:00000000>This is Straylize Ruins Small Room (Y).	debug
+scenario	<03:00000000>ここはストレイライズ遺跡隠し部屋です	<03:00000000>This is Straylize Ruins Hidden Room.	debug
+scenario	<03:00000000>ここはフィリアの部屋です	<03:00000000>This is Philia Room.	debug
+scenario	<03:00000000>ここはストレイライズ神殿です	<03:00000000>This is Straylize Temple.	debug
+scenario	ここはアイグレッテの港です	This is Aigrette Port.	debug
+scenario	ここは定期船です	This is Liner.	debug
+scenario	ここは一等船室です	This is First-Class Cabin.	debug
+scenario	ここは定期船の廊下です	This is Liner Hall.	debug
+scenario	ここは二等船室１です	This is Second-Class Cabin １.	debug
+scenario	ここは二等船室２です	This is Second-Class Cabin ２.	debug
+scenario	ここは操舵室です。\n<0B:00000001>クリア{14}{05}{36}{C0}　初回{14}{07}{37}{C0}\nスタンプ{14}{06}{36}{C0}　{14}{07}{36}{C0}　{14}{00}{37}{C0}　{14}{01}{37}{C0}　{14}{02}{37}{C0}　{14}{03}{37}{C0}<0B:00000000>	This is Bridge.	debug
+scenario	ここは船倉です。\nボス戦のＴＯＤ２フラグを立てました	This is Hold.	debug
+scenario	<03:00000000>ここは船室です	<03:00000000>This is Cabin.	debug
+scenario	ここはリーネです\n種イベントセット！	This is Lienea.	debug
+scenario	ここは山小屋室内です	This is Cabin Interior.	debug
+scenario	ここはノイシュタットの街です。{02}1ガルド\n１ガルド\n1000年前\n千年前	This is Neustadt Town.	debug
+scenario	ここは商人の家です	This is Merchant's House.	debug
+scenario	ここはノイシュタットの港です	This is Neustadt Port.	debug
+scenario	ここはノイシュタットです	This is Neustadt.	debug
+scenario	ここはノイシュタットの宿屋です	This is Neustadt Inn.	debug
+scenario	ここはノイシュタットです\nriml : {14}{11}{69}{C0}	This is Neustadt.	debug
+scenario	ここはノイシュタットです。\nレコード初期化	This is Neustadt.	debug
+scenario	<03:00000000>ここはスノーフリアです	<03:00000000>This is Snowfreer.	debug
+scenario	ここはスノーフリアの街です	This is Snowfreer Town.	debug
+scenario	ここはハイデルベルグの街です	This is Heidelberg Town.	debug
+scenario	ここはハイデルベルグ旧市街です	This is Heidelberg Old Town.	debug
+scenario	ここはハイデルベルグ広場です	This is Heidelberg Plaza.	debug
+scenario	ここはハイデルベルグ宿です	This is Heidelberg Inn.	debug
+scenario	ここはハイデルベルグ宿二階廊下です	This is Heidelberg Inn 2F Hall.	debug
+scenario	ここはハイデルベルグ宿客室です	This is Heidelberg Inn Guest Room.	debug
+scenario	ここはハイデルベルグ食材屋です	This is Heidelberg Food Shop.	debug
+scenario	ここはハイデルベルグ道具屋です	This is Heidelberg Item Shop.	debug
+scenario	ここはハイデルベルグ教会です。\nsanta:{14}{11}{31}{C0}	This is Heidelberg Church.	debug
+scenario	ここはハイデルベルグ武器屋です	This is Heidelberg Weapon Shop.	debug
+scenario	ここはハイデルベルグです	This is Heidelberg.	debug
+scenario	ここはハイデルベルグ城入口です	This is Heidelberg Castle Entrance.	debug
+scenario	ここはハイデルベルグ城二階です	This is Heidelberg Castle 2F.	debug
+scenario	ここはハイデルベルグ城回廊です	This is Heidelberg Castle Cloister.	debug
+scenario	ここはハイデルベルグ城一階廊下Ａです	This is Heidelberg Castle 1F Hall Ａ.	debug
+scenario	ここはハイデルベルグ城一階廊下Ｂです	This is Heidelberg Castle 1F Hall Ｂ.	debug
+scenario	ここはハイデルベルグ城兵舎です	This is Heidelberg Castle Barracks.	debug
+scenario	ここはハイデルベルグ城です	This is Heidelberg Castle.	debug
+scenario	ここはハイデルベルグ城二階廊下Ａです	This is Heidelberg Castle 2F Hall Ａ.	debug
+scenario	ここはハイデルベルグ城二階廊下Ｂです	This is Heidelberg Castle 2F Hall Ｂ.	debug
+scenario	ここはハイデルベルグ城客室です	This is Heidelberg Castle Guest Room.	debug
+scenario	ここはハイデルベルグ城ウッドロウ部屋です	This is Heidelberg Castle Woodrow Room.	debug
+scenario	ここはハイデルベルグ城別館一階です	This is Heidelberg Castle Annex 1F.	debug
+scenario	ここはハイデルベルグ城鐘ろうです	This is Heidelberg Castle Bell Tower.	debug
+scenario	ここはハイデルベルグ城別館裏門・崩壊前です	This is Heidelberg Castle Annex Back Gate Pre-Collapse.	debug
+scenario	ここはハイデルベルグ城謁見の間です	This is Heidelberg Castle Audience Chamber.	debug
+scenario	ここはハイデルベルグ城レンズ部屋です	This is Heidelberg Castle Lens Room.	debug
+scenario	<03:00000000>ここはハイデルベルグ城です	<03:00000000>This is Heidelberg Castle.	debug
+scenario	ここは未来アイグレッテ外観です。	This is Future Aigrette Exterior.	debug
+scenario	ここは未来アイグレッテ参道です。{14}{34}{00}{C0}	This is Future Aigrette Approach.	debug
+scenario	ここはチェリクです	This is Cherik.	debug
+scenario	<03:00000000>ここはチェリクの市場です	<03:00000000>This is Cherik Market.	debug
+scenario	<03:00000000>ここはチェリク港です	<03:00000000>This is Cherik Port.	debug
+scenario	ここはヒートリバー入口です	This is Heat River Entrance.	debug
+scenario	ここはヒートリバー橋水没です	This is Heat River Bridge Flooded.	debug
+scenario	ここはヒートリバーです	This is Heat River.	debug
+scenario	<03:00000000>ここはヒートリバーです	<03:00000000>This is Heat River.	debug
+scenario	ここはヒートリバー穴の底です	This is Heat River Pit Bottom.	debug
+scenario	ここはヒートリバーボス部屋です	This is Heat River Boss Room.	debug
+scenario	ここはヒートリバー橋です	This is Heat River Bridge.	debug
+scenario	ここはヒートリバー水なしです	This is Heat River Dry.	debug
+scenario	ここはヒートリバーボス部屋水なしです	This is Heat River Boss Room Dry.	debug
+scenario	ここはホープタウン外観です	This is Hope Town Exterior.	debug
+scenario	<03:00000000>ここはホープタウン室内１です。\n<Nanaly>看護イベントフラグ：{14}{11}{68}{C0}	<03:00000000>This is Hope Town Interior １.	debug
+scenario	ここはホープタウン室内２です	This is Hope Town Interior ２.	debug
+scenario	ここはホープタウン室内３です	This is Hope Town Interior ３.	debug
+scenario	<03:00000000>ここはホープタウンです	<03:00000000>This is Hope Town.	debug
+scenario	<03:00000000>ここはトラッシュマウンテンです	<03:00000000>This is Trash Mountain.	debug
+scenario	ここはカルビオラ外観１です	This is Calvalese Exterior １.	debug
+scenario	ここはカルビオラ外観２です	This is Calvalese Exterior ２.	debug
+scenario	ここはカルビオラ仕掛け部屋です	This is Calvalese Puzzle Room.	debug
+scenario	<03:00000000>ここは飛行竜です	<03:00000000>This is Wyvern.	debug
+scenario	ここはヴァンジェロ外観です	This is Vangelo Exterior.	debug
+scenario	ここはヴァンジェロです	This is Vangelo.	debug
+scenario	ここはヴァンジェロ室内です	This is Vangelo Interior.	debug
+scenario	<03:00000000>ここはジャングルです	<03:00000000>This is Jungle.	debug
+scenario	<03:00000000>ここは紅蓮都市スペランツァです	<03:00000000>This is Crimson City Speranza.	debug
+scenario	<03:00000000>ここはスペランツァです	<03:00000000>This is Speranza.	debug
+scenario	<03:00000000>ここはレアルタです	<03:00000000>This is Realta.	debug
+scenario	ここはダイクロフト（フォルトゥナ大神殿）です	This is Dycroft （ Fortuna Grand Temple ）.	debug
+scenario	<03:00000000>ここはフォルトゥナ神殿です	<03:00000000>This is Fortuna Temple.	debug
+scenario	<03:00000000>ここは海底洞窟です	<03:00000000>This is Sea-Floor Cave.	debug
+scenario	<03:00000000>ここは海岸です	<03:00000000>This is Coast.	debug
+scenario	<03:00000000>ここは<Judas>の夢です	<03:00000000>This is <Judas> Dream.	debug
+scenario	<03:00000000>ここは地上軍拠点です	<03:00000000>This is Ground Force Base.	debug
+scenario	<03:00000000>ここは地上軍拠点メインドックです	<03:00000000>This is Ground Force Base Main Dock.	debug
+scenario	<03:00000000>ここはラディスロウです	<03:00000000>This is Radisrol.	debug
+scenario	ここはラディスロウです	This is Radisrol.	debug
+scenario	ここはラディスロウ士官室１です	This is Radisrol Officers Room １.	debug
+scenario	ここはラディスロウ士官室２です	This is Radisrol Officers Room ２.	debug
+scenario	ここはラディスロウ<Harold>私室です	This is Radisrol <Harold> Private Room.	debug
+scenario	<03:00000000>ここはラディスロウ・ディムロス私室です	<03:00000000>This is Radisrol Dymlos Private Room.	debug
+scenario	<03:00000000>ここは倉庫です	<03:00000000>This is Warehouse.	debug
+scenario	<03:00000000>ここは資材置き場です	<03:00000000>This is Storage Yard.	debug
+scenario	<03:00000000>ここはダイクロフト・外観です	<03:00000000>This is Dycroft Exterior.	debug
+scenario	<03:00000000>ここはダイクロフトです	<03:00000000>This is Dycroft.	debug
+scenario	<03:00000000>ここはダイクロフト・牢屋前です	<03:00000000>This is Dycroft Prison Front.	debug
+scenario	<03:00000000>ここはダイクロフト・牢屋です	<03:00000000>This is Dycroft Prison.	debug
+scenario	<03:00000000>ここはダイクロフト・エレベーターホールです	<03:00000000>This is Dycroft Elevator Hall.	debug
+scenario	<03:00000000>ここはダイクロフト・制御室です	<03:00000000>This is Dycroft Control Room.	debug
+scenario	<03:00000000>ここはベルクラント分岐路です	<03:00000000>This is Belcrant Fork.	debug
+scenario	<03:00000000>ここはベルクラント・偉そうな通路です	<03:00000000>This is Belcrant Grand Corridor.	debug
+scenario	<03:00000000>ここはベルクラント警備室です	<03:00000000>This is Belcrant Guard Room.	debug
+scenario	<03:00000000>ここはベルクラント・エレベーターホールです	<03:00000000>This is Belcrant Elevator Hall.	debug
+scenario	<03:00000000>ここはベルクラント・制御室です	<03:00000000>This is Belcrant Control Room.	debug
+scenario	<03:00000000>ここはベルクラント・ミクトラン部屋です	<03:00000000>This is Belcrant Miktran Room.	debug
+scenario	<03:00000000>ここはＴＯＤダイクロフトです	<03:00000000>This is ＴＯＤ Dycroft.	debug
+scenario	ここはアクアヴェイルです	This is Aquaveil.	debug
+scenario	<03:00000000>ここはカタコンベです	<03:00000000>This is Catacombs.	debug
+scenario	ここは地上軍拠点跡地入口です	This is Ground Force Base Ruins Entrance.	debug
+scenario	ここは地上軍拠点跡地外観です	This is Ground Force Base Ruins Exterior.	debug
+scenario	ここは地上軍拠点跡地外観２です	This is Ground Force Base Ruins Exterior ２.	debug
+scenario	ここは地上軍拠点跡地木の鍵です	This is Ground Force Base Ruins Wood Key.	debug
+scenario	ここは地上軍拠点跡地火の仕掛けです	This is Ground Force Base Ruins Fire Device.	debug
+scenario	ここは地上軍拠点跡地通路です	This is Ground Force Base Ruins Passage.	debug
+scenario	ここは地上軍拠点跡地ハシゴです	This is Ground Force Base Ruins Ladder.	debug
+scenario	ここは地上軍拠点跡地氷の仕掛けです	This is Ground Force Base Ruins Ice Device.	debug
+scenario	ここは地上軍拠点跡地火の鍵です	This is Ground Force Base Ruins Fire Key.	debug
+scenario	ここは地上軍拠点跡地片翼の女神像です	This is Ground Force Base Ruins One-Winged Goddess Statue.	debug
+scenario	ここは地上軍拠点跡地飛空艇です	This is Ground Force Base Ruins Airship.	debug
+scenario	ここは地上軍拠点跡地です	This is Ground Force Base Ruins.	debug
+scenario	<03:00000000>ここはマユです	<03:00000000>This is Mayu.	debug
+scenario	<03:00000000>ここはラストダンジョン１です	<03:00000000>This is Last Dungeon １.	debug
+scenario	<03:00000000>ここは神のたまご・中層部です	<03:00000000>This is Egg of God Middle Level.	debug
+scenario	<03:00000000>ここは神のたまご中層部です	<03:00000000>This is Egg of God Middle Level.	debug
+scenario	<03:00000000>ここはラストダンジョン３です	<03:00000000>This is Last Dungeon ３.	debug
+scenario	<03:00000000>ここは神のたまご・下層部です	<03:00000000>This is Egg of God Lower Level.	debug
+scenario	<03:00000000>ここは神のたまご下層部です	<03:00000000>This is Egg of God Lower Level.	debug
+scenario	<03:00000000>ここは夕暮れのラグナ遺跡です	<03:00000000>This is Dusk Laguna Ruins.	debug
+scenario	<03:00000000>ここはハーメンツヴァレーです	<03:00000000>This is Harmenz Valley.	debug
+scenario	<03:00000000>ここは孤児院外観　分離マップです	<03:00000000>This is Orphanage Exterior Split Map.	debug
+scenario	<03:00000000>ここは未来アイグレッテです	<03:00000000>This is Future Aigrette.	debug
+scenario	<03:00000000>ここは未来アイグレッテ武器防具屋です	<03:00000000>This is Future Aigrette Arms Shop.	debug
+scenario	<03:00000000>ここは未来アイグレッテ雑貨屋です	<03:00000000>This is Future Aigrette General Store.	debug
+scenario	<03:00000000>宗教　配膳　ここは未来アイグレッテです	<03:00000000>宗教　配膳　This is Future Aigrette.	debug
+scenario	<03:00000000>ここはneko_r02です	<03:00000000>This is neko_r02.	debug
+scenario	<03:00000000>ここはneko_r03です	<03:00000000>This is neko_r03.	debug
+scenario	<03:00000000>ここは空中都市の残骸です	<03:00000000>This is Sky City Ruins.	debug
+scenario	<03:00000000>ここはリーネの村です	<03:00000000>This is Lienea Village.	debug
+scenario	<03:00000000>ここはイベントマップ１です	<03:00000000>This is Event Map １.	debug
+scenario	<03:00000000>ここはイベント専用大聖堂です	<03:00000000>This is Event-Only Cathedral.	debug
+scenario	<03:00000000>ここはイベント専用フィリアの部屋です	<03:00000000>This is Event-Only Philia Room.	debug
+scenario	<03:00000000>ここはイベントマップ４です	<03:00000000>This is Event Map ４.	debug
+scenario	<03:00000000>ここはイベントマップ５です	<03:00000000>This is Event Map ５.	debug
+scenario	<03:00000000>ここはイベントマップ６です	<03:00000000>This is Event Map ６.	debug
+scenario	<03:00000000>ここはイベントマップ７です	<03:00000000>This is Event Map ７.	debug
+scenario	ここはスタンの家です	This is Stahn House.	debug
+scenario	ここは夜のスタンの家です	This is Night Stahn House.	debug
+scenario	<03:00000000>ここはＴＯＤ神の眼です	<03:00000000>This is ＴＯＤ God's Eye.	debug
+scenario	<03:00000000>ここはチェルシーの小屋です	<03:00000000>This is Chelsea Hut.	debug
+scenario	次のイベントは池付近で発生します\n池への誘導メッセージ	The next event occurs at Near the Pond.\nGuide message to Pond.	debug
+scenario	次のイベントはスタンの家で発生します\nスタンの家への誘導メッセージ	The next event occurs at Stahn House.\nGuide message to Stahn House.	debug
