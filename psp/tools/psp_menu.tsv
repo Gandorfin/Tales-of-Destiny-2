@@ -4055,3 +4055,106 @@ LVに応じて(毒/衰弱/麻痺/鈍足/凍結)を解除する{01}非戦闘時�
 英雄王を補佐した賢者の手袋{01}魔導の指先と呼ばれる	Gloves of the sage who aided the hero{01}king. Called the fingertips of magic.	47	75	translated
 やわらかく甘いキャベツで{01}ひき肉を巻いてジューシーに仕上げました{01}ＯＨ！{99}{40}ロール・ミー！	Soft sweet cabbage wrapped around{01}ground meat, finished juicy.{01}OH! Roll me!	86	75	translated
 ニガイ！{99}{40}からい！{99}{40}しょっぱい！{01}栄養はあるかどうかはわからないが、{01}本当にこれでいいのか？	Bitter! Spicy! Salty!{01}No telling if it's even nutritious,{01}but is this really okay?	90	82	translated
+マジンレンゴクサツ	Majin Rengokusatsu	18	18	translated
+レッショウソウハジン	Resshou Souhajin	20	16	translated
+リバースクルセイダー	Reverse Crusader	20	16	translated
+デモンズランス	Demon's Lance	14	13	translated
+キンジュ	Kinju	8	5	translated
+テンポ	Tempo	6	5	translated
+Ｌ右	L-Right	4	7	translated
+Ｒ右	R-Right	4	7	translated
+不幸を呼ぶとされる不吉な宝石{01}ある場所で使うと････？	An ill-omened gem said to bring misfortune.{01}Used in a certain place...?	51	71	translated
+世界を破滅させるといわれる剣{01}神々の戦いで失われたと伝わるが････	A sword said to doom the world.{01}Lost in the war of the gods, they say...	63	72	translated
+エクストラプレッシャーの略{01}すでに人のあつかえる重さでは････	Short for Extra Pressure.{01}Already too heavy for a person to wield...	59	68	translated
+狂気に満ちた斧{01}本来の主は依然、無限回廊を彷徨う････	An axe full of madness.{01}Its true master still roams the endless corridor...	51	75	translated
+鋼板の継目も保護されている鎧{01}硬いです、頑丈です、重いけど････	Armor with protected plate seams.{01}Hard, sturdy, heavy though it is...	61	69	translated
+巨大レンズから現れた不思議な少女{01}彼女は、いったい何者なのか････{01}{01}	A strange girl who emerged from a giant lens.{01}Just who could she be...?{01}{01}	65	73	translated
+仮面の下の、どことなく悲しげな瞳{01}何故、彼は素顔を隠すのか････{01}{01}	The faintly sad eyes beneath the mask.{01}Why does he hide his true face...?{01}{01}	63	75	translated
+「僕には何も無い。称号もいらない{01}{99}{40}僕は全て捨てた人間だから････」{01}あいつは、そうつぶやいた{01}	"I have nothing. I need no title,{01}　for I threw everything away..."{01}So he murmured.{01}	91	84	translated
+<Loni>がハルバードを振るう時････{01}それは、大地に雷鳴響き渡る時{01}{01}	When <Loni> swings his halberd...{01}thunder rolls across the earth.{01}{01}	62	66	translated
+その衣の色は、彼の心の色か{01}黒衣はためく時、彼は何を思うのか････{01}{01}	Is the color of his garb the color of his heart?{01}What does he think when the black robe flutters...?{01}{01}	65	102	translated
+<Nanaly>の放つ矢････{01}それは、銀河をかける星{01}青き流星のごとし{01}	The arrows <Nanaly> looses...{01}they are stars that streak the galaxy,{01}like a blue meteor.{01}	58	86	translated
+<Harold>の髪形････{01}それは、ねぐせのごとし{01}「なによ！{99}{40}これは！」{01}	<Harold>'s hairstyle...{01}it is like a bad case of bedhead.{01}"What! Is! This!"{01}	62	73	translated
+英雄を探す少女。その目的は不明{01}もしも「私だけの英雄になって････」なら{01}プロボーズ？{99}{40}求婚？{99}{40}ラブ＆ピース？{01}	A girl seeking a hero. Her aim unknown.{01}If it's "be a hero for me alone..." then{01}a proposal? A marriage? Love and peace?{01}	107	121	translated
+裏切り者の汚名を受けた男････{01}彼の名はリオン＝マグナス{01}そして、エミリオ＝カトレット{01}	A man who bore the disgrace of traitor...{01}His name is Leon Magnus,{01}and also Emilio Katrea.{01}	83	91	translated
+みもふたもないというか････直球というか{01}<Loni>のステキなニックネーム{01}<color:00000003>命名・<Nanaly>さん{01}	Blunt, or rather, dead straight...{01}<Loni>'s lovely nickname.{01}<color:00000003>Named by <Nanaly>.{01}	88	81	translated
+多くの天才と呼ばれる人々は{01}変わり者という評判をともなっていました。{01}では、超天才ならば、超変わり者････{01}	Many of those called geniuses{01}came with a reputation as oddballs.{01}So a super-genius is a super-oddball...{01}	103	106	translated
+カーレルの双子の妹ということは････{01}おっとストップだ、ベイビー！{01}彼女の事を探る者は、あやしい薬で････{01}	If she's Karyl's twin sister, then...{01}whoa, stop right there, baby!{01}Anyone digging into her gets a strange drug...{01}	101	115	translated
+マルグラーナ＝ナナホシカマキリとか{01}チャクラタン＝ミドリクワガタに夢中！{01}リブキゴン＝オオアブラムシとか････{01}	Into Marguerana the seven-spot mantis,{01}Chakratan the green stag beetle!{01}And Libkygon the giant aphid...{01}	107	104	translated
+「自己の速さの限界を越えた者だけが{01}{99}{40}踏み込める領域ってのがある････{01}{99}{40}だけどな、それは危険な領域だぜ････」{01}	"Only those who surpass their own speed{01}　can step into that realm...{01}　but it's a dangerous realm, you know."{01}	107	111	translated
+「人間が音速並みで走れるわけがない････{01}{99}{40}マッハというのは非常に速いという{01}{99}{40}ことを表現する例えだ････」{01}	"No way a human can run at the speed of sound...{01}　Mach is just a figure of speech for{01}　something very, very fast..."{01}	103	119	translated
+あなただけのオリジナル料理！{01}料理は、工夫も大切ですが{01}食べる人の事を考えましょうね････{01}	Your very own original dish!{01}Cooking is about creativity, sure,{01}but think of the one who eats it...{01}	87	100	translated
+？がつきまとう、独特の料理！{01}ひと味違う！{99}{40}いや、違いすぎ！{01}もしや････あなたは「？料理」のとりこ？{01}	A one-of-a-kind dish that begs a "?"!{01}A different flavor! No, too different!{01}Could you be hooked on "? cuisine"?{01}	99	113	translated
+純正個人四連携で勝負を決めた者に贈る称号{01}すなわち通常攻撃三段から、特技の連携{01}それ以外にもいろいろ････{01}	A title for those who settle a fight with a{01}pure solo four-chain: three base hits into{01}an arte chain, and plenty more besides...{01}	103	129	translated
+よくここまで戦闘中にグミを使うことなく{01}数多の試練を乗り越えてきましたね{01}まあ戦闘中に食べるのもなんですが････{01}	You've come all this way without using gels{01}in battle, overcoming countless trials.{01}Well, eating mid-battle is a bit much anyway...{01}	109	132	translated
+とても重要な役割だとはわかっていても、{01}自分にその役目が回って欲しいとは限らぬ{01}ああ、使うと決まれば何故にいつも････{01}	Even knowing it's a vital role,{01}you don't always want it to fall to you.{01}Ah, once it's decided, why is it always...{01}	115	116	translated
+<Reala>に付けられた自由称号{01}「はい。わかりました････」{01}{01}	A free title given to <Reala>.{01}"Yes. Understood..."{01}{01}	54	51	translated
+<Judas>に付けられた自由称号{01}「何とでも呼ぶがいい････」{01}{01}	A free title given to <Judas>.{01}"Call me whatever you like..."{01}{01}	54	61	translated
+<Nanaly>に付けられた自由称号{01}「あたし、かわいい呼び名がいいな････」{01}{01}	A free title given to <Nanaly>.{01}"I'd like a cute nickname..."{01}{01}	66	60	translated
+世の中必ずしもお金じゃないよね････{01}心の豊かさが大切さ！{01}{01}	Money isn't everything in this world...{01}A rich heart is what matters!{01}{01}	57	71	translated
+いったい何を生み出そうというのか････{01}リファインにあけくれるあなたに{01}錬金術師の称号を贈ります{01}	Just what are you trying to create...?{01}To you who devote yourself to refining,{01}we award the title of Alchemist.{01}	93	112	translated
+カレーが語りかけます････{01}う、うまい！{99}{40}うますぎる！{01}{01}	The curry speaks to you...{01}D-delicious! Too delicious!{01}{01}	53	56	translated
+記憶力と軽やかなフットワーク！{01}<Kyle>が、お店を飛び回る姿に{01}お客さんも思わずほれぼれ････{01}	A sharp memory and light footwork!{01}The sight of <Kyle> darting around the shop{01}leaves the customers charmed...{01}	88	110	translated
+記憶力と軽やかなフットワーク！{01}<Reala>が、お店を飛び回る姿に{01}お客さんも思わずほれぼれ････{01}	A sharp memory and light footwork!{01}The sight of <Reala> darting around the shop{01}leaves the customers charmed...{01}	88	110	translated
+記憶力と軽やかなフットワーク！{01}<Loni>が、お店を飛び回る姿に{01}お客さんも思わずほれぼれ････{01}	A sharp memory and light footwork!{01}The sight of <Loni> darting around the shop{01}leaves the customers charmed...{01}	88	110	translated
+記憶力と軽やかなフットワーク！{01}<Judas>が、お店を飛び回る姿に{01}お客さんも思わずほれぼれ････{01}	A sharp memory and light footwork!{01}The sight of <Judas> darting around the shop{01}leaves the customers charmed...{01}	88	110	translated
+記憶力と軽やかなフットワーク！{01}<Nanaly>が、お店を飛び回る姿に{01}お客さんも思わずほれぼれ････{01}	A sharp memory and light footwork!{01}The sight of <Nanaly> darting around the shop{01}leaves the customers charmed...{01}	88	110	translated
+シンプルがゆえに奥が深い････{01}工夫や精進はやりすぎという事はない{01}もう少し考えてみよう	Simple, yet deep...{01}You can never over-refine your craft.{01}Give it a little more thought.	84	88	translated
+可愛らしい女の子が、髪型はちょんまげで{01}ヒラヒラのドレスを着て踊っている････{01}そんなイメージ？{99}{40}････あれ？？？	A cute girl with a topknot hairdo,{01}dancing in a frilly dress...{01}That kind of image? ...huh?	108	91	translated
+料理において、より高みを目指すならば{01}もう一度レシピを検討するべきである{01}料理の道は、遠く果てしない････	If you aim higher in cooking,{01}you should rethink the recipe once more.{01}The path of cooking is long and endless...	102	113	translated
+シロップは宇宙････{01}きらめく星たちのように輝くフルーツ{01}見ているだけで夢色気分！	The syrup is a cosmos...{01}Fruit that shines like glittering stars.{01}Just looking at it feels dreamy!	78	98	translated
+ドサドサと盛り付けた微妙なルックス････{01}十人のうち三人くらいは食べてくれるかな？	A dubious look, heaped on carelessly...{01}Maybe three in ten would eat it?	79	72	translated
+スパイスの刺激と、シーフードの持ち味。{01}強烈な夏の日差しを浴びながら{01}波間に漂う幻想に酔う瞬間････	The kick of spice and the flavor of seafood.{01}Basking in the fierce summer sun,{01}a moment drunk on illusions on the waves...	96	122	translated
+これを食する時、誰もが{01}ふと、幼い頃に想いをはせる････{01}ひとときのノスタルジーを演出する食べ物	When eating this, everyone{01}suddenly thinks back to childhood...{01}A food that stages a moment of nostalgia.	92	105	translated
+ビチャビチャしている････{01}何か、仕上げに問題があるのか？	It's all soggy...{01}Is there a problem with the finish?	55	53	translated
+愛情を込めてにぎりましょう{01}心を込めてにぎりましょう{01}味の深みが違います････これホント！	Shape it with love.{01}Shape it with heart.{01}The depth of flavor differs... it's true!	86	82	translated
+見た目も香りも食欲をそそる赤いスープ{01}うーん、あったまるよ････	A red soup that looks and smells appetizing.{01}Mmm, it warms you right up...	61	74	translated
+ふぬう････そなたの料理には、{01}もてなしの心が欠けておる！{01}和の世界は奥深きものなり！	Hmph... your cooking{01}lacks the spirit of hospitality!{01}The way of harmony runs deep!	82	83	translated
+ちょっと生ぐさいぞ････{01}魂の込め方が足りないのか？	A little fishy...{01}Not enough soul put into it?	49	46	translated
+味がひらべったく、単調で、深みがない{01}もうひと工夫必要かも････	Flat, monotone, and lacking depth in flavor.{01}Maybe one more touch is needed...	61	78	translated
+命は、海から生まれたのです････{01}海の幸を豊富に使った料理{01}すなわち、命の料理	Life was born from the sea...{01}A dish rich with the bounty of the sea,{01}that is, a dish of life.	74	94	translated
+品種改良で作られた種{01}更に品種改良すると････	A selectively bred seed.{01}Breed it further and...	43	48	translated
+独特の匂いがたまらない{01}切ると思わず涙が････	Its unique smell is irresistible.{01}Cut it and the tears just come...	43	67	translated
+権標{01}集中力が高まるような気が････	A verge of authority.{01}Feels like it sharpens your focus...	33	58	translated
+杭打ちハンマー{01}殴られたら････死ねるわ！	A pile-driving hammer.{01}Get hit by it and... you're a goner!	39	59	translated
+北方神話に登場する主神の槍{01}とても有名だが････	The spear of the chief god of northern myth.{01}Very famous, but...	45	64	translated
+フルオート連射の短弓{01}矢の消費が････	A full-auto rapid-fire short bow.{01}Its arrow consumption is...	35	61	translated
+円形の頭飾り{01}集中力が高まるような気が････	A circular head ornament.{01}Feels like it sharpens your focus...	41	62	translated
+鋼の篭手{01}けどチョト重いかも････	Steel gauntlets.{01}Though maybe a touch heavy...	31	46	translated
+炎耐性を持つ篭手{01}けどチョト冷たいかも････	Gauntlets with fire resistance.{01}Though maybe a touch cold...	41	60	translated
+姉御<Nanaly>････{01}<Nanaly>あねご････{01}「あたしに任せておきな！」{01}	Big Sis <Nanaly>...{01}<Nanaly> the big sister...{01}"Leave it to me!"{01}	57	59	translated
+ペンダントから放たれた光････{01}それは奇跡の光なのか････{01}彼女は、どのような力を持つのか････{01}	The light released from the pendant...{01}Is it the light of a miracle...?{01}What kind of power does she hold...?{01}	89	109	translated
+旅は人を開放的な気分にさせる････{01}旅する船と安らぎの港････{01}花とみつばち････男と女････{01}	Travel puts people in an open mood...{01}A sailing ship and a restful port...{01}Flowers and bees... men and women...{01}	85	112	translated
+いつか････いつか････{01}「英雄スタンの息子」じゃなくて{01}「英雄<Kyle>」として認めさせるぜ！{01}	Someday... someday...{01}Not "son of the hero Stahn," but{01}I'll make them acknowledge "the hero <Kyle>"!{01}	86	100	translated
+あやしげなデータをもとにあやしげな機械で{01}あやしく研究している････かもしれない････{01}<size:000000A0>あやしい････あやしい････<size:00000100>{01}	Doing shady research with shady machines{01}on shady data... maybe...{01}<size:000000A0>Shady... shady...<size:00000100>{01}	117	95	translated
+乙女のピンチにかけつけるぞ！{01}その名も「仮面ストーカー！」やったあ！{01}････だめじゃん････<color:00000006>命名・<Loni>{01}	I'll rush to a maiden in a pinch!{01}The name? "Masked Stalker!" Yeah!{01}...no good... <color:00000006>Named by <Loni>{01}	103	102	translated
+ソーディアン・マスター<Kyle>！{01}全ては夢よ････うたかたの夢よ････{01}<color:00000006><Loni>談「寝ぼけんな！<Kyle>」{01}	Swordian Master <Kyle>!{01}It's all a dream... a fleeting dream...{01}<color:00000006><Loni> says "Wake up, <Kyle>!"{01}	97	97	translated
+知力・反射神経・時の運！{01}まさに、クイズ<size:000000D0>ナ<size:000000C0>ガ<size:000000B0>シ<size:000000A0>マ････{01}<size:00000100>もとい････ミスタークイズ{99}{40}<Kyle>！{01}	Wit, reflexes, and the luck of the moment!{01}Truly, the Quiz <size:000000D0>K<size:000000C0>i<size:000000B0>n<size:000000A0>g...<size:00000100>{01}	111	92	translated
+ちょっと普通じゃないよね････{01}{01}{01}	A bit out of the ordinary, isn't it...{01}{01}{01}	31	41	translated
+あなただったのね････{01}わたしが探し求めていた、あなた････{01}わたしの英雄････{01}	So it was you...{01}You, the one I sought...{01}My hero...{01}	73	53	translated
+何かがダラーンとはみだしている････{01}これにかじりつくのはチャレンジャーと{01}言わざるをえない････	Something's dangling out of it...{01}Biting into this can only be called{01}a challenge...	92	84	translated
+何か色合いが違うようだ････{01}魔女の格好をして「ヒヒヒ」と言いながら{01}かきまぜるのが似合いそう････	The color seems a little off...{01}It'd suit someone in witch's garb{01}stirring it with a "heh heh heh"...	94	101	translated
+何をはさんでもサンドイッチ{01}確かに････何をはさんでもサンドイッチ{01}････何もはさまないと何になる？	Anything between bread is a sandwich.{01}True... anything between it is a sandwich.{01}...but what if nothing's inside?	94	113	translated
+コクが足りない････{01}よけいな雑味が感じられる････	Lacks richness...{01}An unwanted off-taste comes through...	47	56	translated
+何か････危険なニオイがするぜ････{01}こいつは、まさに食材のケンカ料理だ！	Something... smells dangerous...{01}This is truly a brawl of ingredients!	69	70	translated
+盛り付けをしたらザリザリと音がした････{01}こ････この音の正体って何？{01}何か間違った？	Plating it made a gritty sound...{01}Wh... what is that sound?{01}Did something go wrong?	80	83	translated
+どことなく味わいが違う････{01}それを個性と呼ぶべきか、{01}はたまた、失敗と呼ぶべきか････	The flavor is somehow off...{01}Should it be called character,{01}or should it be called a failure...?	82	96	translated
+すっぱい匂いがする････{01}スープもまっかっかになっちゃったぞ････{01}	It smells sour...{01}The soup's gone all bright red...{01}	62	52	translated
+すっぱい匂いがする････{01}スープもまっかっかになっちゃったぞ････{01}何が良くなかったの？	It smells sour...{01}The soup's gone all bright red...{01}What went wrong?	82	68	translated
+あれ？{01}こんな味だったなぁ････？{01}ホイルを奥歯でかみしめながら考える････	Huh?{01}Did it taste like this...?{01}You ponder, chewing foil in your back teeth...	70	78	translated
+何か、ドロドロしている････{01}見た目がちょっとイケてない････	Something's all gloopy...{01}It doesn't look too great...	57	54	translated
+色と形。香りとやわらかさ････{01}あなたと私と彼と彼女････{01}それぞれにある、それぞれのチーズケーキ	Color and shape. Aroma and softness...{01}You and I, him and her...{01}Each has its own cheesecake.	92	93	translated
+太陽のまわりを、エプロンを着けた牛が{01}回転しながら踊っている････{01}そんなイメージ？{99}{40}････あれ？？？	An apron-wearing cow circling the sun,{01}spinning as it dances...{01}That kind of image? ...huh?	96	91	translated
+ふぬう････何かが欠けておる････{01}サンドの世界は奥深きものなり！	Hmph... something is missing...{01}The way of the sandwich runs deep!	61	66	translated
+おしい････何かが違う････{01}それが何であるかは、料理の神の味噌汁	So close... something's off...{01}What it is, only the cooking god's miso soup knows.	61	82	translated
+剣	Sword	2	5	translated
+杖	Staff	2	5	translated
+弓	Bow	2	3	translated
+鎧	Armor	2	5	translated
+服	Clothes	2	7	translated
+兜	Helm	2	4	translated
+冠	Crown	2	5	translated
+靴	Boots	2	5	translated
+体	Body	2	4	translated
+頭	Head	2	4	translated
+腕	Arm	2	3	translated
