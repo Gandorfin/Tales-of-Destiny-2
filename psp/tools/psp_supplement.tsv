@@ -1152,3 +1152,12 @@ scenario	<03:00000000>ここはＴＯＤ神の眼です	<03:00000000>This is Ｔ
 scenario	<03:00000000>ここはチェルシーの小屋です	<03:00000000>This is Chelsea Hut.	debug
 scenario	次のイベントは池付近で発生します\n池への誘導メッセージ	The next event occurs at Near the Pond.\nGuide message to Pond.	debug
 scenario	次のイベントはスタンの家で発生します\nスタンの家への誘導メッセージ	The next event occurs at Stahn House.\nGuide message to Stahn House.	debug
+scenario	<03:00000000>ここは孤児院ベランダです	<03:00000000>This is Orphanage Veranda.	debug
+scenario	ここはダリルシェイド地下です	This is Darilsheid Underground.	debug
+scenario	ここはオベロン社廃坑です	This is Oberon Corp Abandoned Mine.	debug
+scenario	ここはオベロン社廃坑です。\n電源 : {18}{44}{60}{C0}	This is Oberon Corp Abandoned Mine.。\n電源 : {18}{44}{60}{C0}	debug
+scenario	ここはヴァンジェロ噴水です	This is Vangelo Fountain.	debug
+scenario	<03:00000000>ここは光のほこら（フォルトゥナ大神殿）です	<03:00000000>This is Light Shrine.	debug
+scenario	<03:00000000>ここはソーディアン研究所です	<03:00000000>This is Swordian Lab.	debug
+scenario	<03:00000000>ここはバルバトスの根城です	<03:00000000>This is Barbatos Stronghold.	debug
+scenario	<03:00000000>ここはオベロン社廃坑です	<03:00000000>This is Oberon Corp Abandoned Mine.	debug
