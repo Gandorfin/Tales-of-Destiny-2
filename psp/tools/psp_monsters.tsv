@@ -1,0 +1,245 @@
+# Monster Book / enemy names, artes and boss lines for the PSP battle-resource FPB members.
+# jp<TAB>en<TAB>source. Located by pnvnd's env8 scanner (FPB 8378..9565, PAK->deflate->tod2-custom).
+# sources: termbase=Lifebottle canonical; ps2=reused ToD2 PS2 enemy_translations; hand=transliteration.
+-アイス・レクイエム-	-Ice Requiem-	ps2
+-アジリティ・クロース-	-Agility Cloth-	ps2
+-ウィズダムロッド-	-Wisdom Rod-	ps2
+-ウィズダム・クラウン-	-Wisdom Crown-	ps2
+-カルドロン-	-Cauldron-	ps2
+-ショックスパイク-	-Shock Spike-	ps2
+-シールドブレイク-	-Shield Break-	ps2
+-スナイプ・リング-	-Snipe Ring-	ps2
+-デスジャケット-	-Death Jacket-	ps2
+-トム・ティット・トット-	-Tom Tit Tot-	ps2
+-バリアチェンジ-	-Barrier Change-	ps2
+-バーニング・サークル-	-Burning Circle-	ps2
+-ファウル・ウェザー-	-Foul Weather-	ps2
+-フォルトゥナ-	-Fortuna-	hand
+-ベルセルク・ソード-	-Berserk Sword-	ps2
+-ポイゾニック・フィールド-	-Poisonic Field-	ps2
+-ラスティ・ネイル-	-Rusty Nail-	ps2
+-リアファイル-	-Rear File-	ps2
+-ルーン・アルギズ-	-Rune Algiz-	ps2
+-ルーン・ウルズ-	-Rune Uruz-	ps2
+-ロスト・セラフィ-	-Lost Seraph-	ps2
+-ヴェノムバイト-	-Venom Bite-	ps2
+-不断のパストラル-	-Endless Pastoral-	ps2
+-必中のフーガ-	-Sure Fugue-	ps2
+-竜脈-	-Vein-	ps2
+-賢者の石-	-Sage Gem-	ps2
+「いつまで術に頼るか！！」	Still leaning on artes?!	ps2
+「アイテムなぞ使ってんじゃねえ！」	Don't you dare use items!	ps2
+「リザレクション・・？退屈な奴らだ」	Resurrection...? How tiresome.	ps2
+「俺の背後に立つんじゃねえ！」	Don't stand behind me!	ps2
+「回復晶術だと？貧弱過ぎるわ！」	Healing artes? How feeble!	ps2
+「情けをかけてやろう」	I shall show mercy.	ps2
+「男に後退の二文字はねえ！」	Real men never retreat!	ps2
+「縮こまってんじゃねえ！」	Quit cowering!	ps2
+「苦しむヒマを与えぬも慈悲か」	No time to suffer. A mercy.	ps2
+「術に頼るかザコどもが！」	Relying on artes, trash?	ps2
+「貴様の＜時＞を頂く」	Your time is mine.	ps2
+「軟弱者は消えうせろ！」	Weaklings, begone!	ps2
+これぞ我が奥義・三連殺	My secret: Triple Kill	ps2
+アイスエレメンタル	Ice Elemental	hand
+アエロー	Aello	hand
+アクアブレス	Aqua Breath	ps2
+アクアンズ	Aquans	hand
+アクババ	Akbaba	hand
+アダマントータス	Adamantoise	hand
+アディショナルレーザー	Additional Laser	ps2
+アフターカーニバル	After Carnival	ps2
+アルケニー	Arachne	hand
+アルジャーノン	Algernon	hand
+アルラウネ	Alraune	termbase
+アンドラス	Andras	hand
+アヴェンジャー	Avenger	hand
+アーシーズ	Earthys	hand
+インプ	Imp	hand
+インペイラー	Impaler	hand
+ウィザード	Wizard	hand
+ウィッチ	Witch	termbase
+ウィルオウィスプ	Will-o-Wisp	hand
+ウェアウルフ	Werewolf	hand
+ウェアラット	Wererat	hand
+ウェンディゴ	Wendigo	hand
+エティン	Ettin	hand
+エニグマ	Enigma	hand
+エマージェンシー	Emergency	ps2
+エリアルナイト	Aerial Knight	hand
+エルレイン	Elraine	hand
+エレメントムース	Element Moose	hand
+エンジェルナイト	Angel Knight	hand
+エンチャント・ダメージ	Enchant Damage	ps2
+オウドゴッギー	Oud Goggy	hand
+オウルベア	Owlbear	hand
+オキュペテー	Ocypete	hand
+オンルッカー	Onlooker	hand
+オーガ	Ogre	termbase
+オークロット	Oakrot	termbase
+カウンタ・マジック	Counter Magic	ps2
+カーカー	Cawker	termbase
+ガリアンソード	Galleon Sword	termbase
+ガルガンチュア	Gargantua	hand
+ガルム	Garm	hand
+ガーゴイル	Gargoyle	termbase
+ガープ	Gaap	hand
+キャンサーシザー	Cancer Scissor	hand
+ギガスクリーム	Giga Scream	ps2
+ギガントード	Gigantoad	hand
+ギャザー	Gazer	hand
+ギーク	Geek	hand
+クラムボン	Clambon	hand
+クラーケン	Kraken	termbase
+クレリック	Cleric	hand
+グラシャラボラス	Glasya-Labolas	hand
+グレムリン	Gremlin	hand
+グレンデル	Grendel	hand
+グレートオーク	Great Oak	hand
+ケライノー	Celaeno	hand
+ケンタウロス	Centaur	hand
+コカドリーユ	Cocadrille	termbase
+コボルト	Kobold	hand
+コープスリバイバー	Corpse Reviver	hand
+コーラルクラブ	Coral Crab	hand
+ゴッドハンド	God Hand	hand
+ゴーム	Gorm	hand
+サブノック	Sabnock	hand
+サンドウォーム	Sand Worm	hand
+サーヴァント	Servant	hand
+ザグナル	Zagnal	hand
+ショヴスリ	Shovsri	hand
+シースラッグ	Sea Slug	termbase
+シーチキンプレッシャー	Sea Chicken Pressure	ps2
+シーモンク	Sea Monk	hand
+ジェノサイドブレイバー	Genocide Braver	ps2
+ジェントルマン	Gentleman	hand
+ジャンヴァバン	Jean Vaban	hand
+ジュエルビースト	Jewel Beast	hand
+ジョープレッシャー	Jaw Pressure	ps2
+スクリューアイ	Screw Eye	ps2
+スケルトン	Skeleton	termbase
+スティージ	Stirge	hand
+ストラグネイト	Stagnate	ps2
+ストーアウォーム	Stoa Worm	hand
+ストームブリンガー	Stormbringer	ps2
+ストームライダー	Stormrider	termbase
+スナイパーストーム	Sniper Storm	ps2
+スネークバイト	Snake Bite	ps2
+スノウ	Snow	hand
+スパークヴォルト	Spark Volt	ps2
+スピリッツリバース	Spirits Reverse	ps2
+スピリッツローブロー	Spirits Low Blow	ps2
+スピリット	Spirit	hand
+スフィアスパーク	Sphere Spark	ps2
+スライム	Slime	termbase
+セカンド・サン	Second Sun	ps2
+センチュリオン	Centurion	hand
+セージ	Sage	hand
+タイラントメイス	Tyrant Mace	ps2
+ダンタリオン	Dantalion	hand
+ダークスフィア	Dark Sphere	ps2
+チュンチュン	Chirpee	termbase
+ティアマット	Tiamat	hand
+ディアボロス	Diabolos	hand
+ディバインドラゴン	Divine Dragon	hand
+デカラビア	Decarabia	hand
+デザートフライ	Desert Fly	termbase
+デザートベリー	Desert Berry	hand
+デスクラッチ	Death Clutch	ps2
+デストロイヤー	Destroyer	hand
+デッドジェネラル	Dead General	hand
+デュラハン	Dullahan	hand
+ドゥームトード	Doom Toad	termbase
+ドラゴニュート	Dragonewt	termbase
+ドラゴンキャノン	Dragon Cannon	ps2
+ドレッドリーチ	Dread Leech	hand
+ドーマウス	Dormouse	hand
+ナイチンゲール	Nightingale	hand
+ナイトメア	Nightmare	termbase
+ナッハツェラー	Nachzehrer	hand
+ニブルヘイム	Niflheim	ps2
+ニャルラトホテプ	Nyarlathotep	hand
+ネレウス	Nereus	hand
+ノール	Gnoll	hand
+ハイドロブレス	Hydro Breath	ps2
+ハスター	Hastur	hand
+ハルファス	Halphas	hand
+バシュカー	Bashkar	hand
+バジリスク	Basilisk	termbase
+バジリスクキング	Basilisk King	termbase
+バブルブラスト	Bubble Blast	ps2
+バルバトス	Barbatos	hand
+バンシー	Banshee	termbase
+バンダースナッチ	Bandersnatch	hand
+パイクマン	Pikeman	hand
+パンタグリュエル	Pantagruel	hand
+ビショップ	Bishop	termbase
+ビッグフット	Bigfoot	termbase
+ビヤーキー	Byakhee	hand
+ビーストロアー	Beast Roar	ps2
+ピコハン	Pikohan	ps2
+ピヨピヨ	Peepit	termbase
+ファイアエレメンタル	Fire Elemental	hand
+フィールド・オブ・エフェクト	Field of Effect	ps2
+フェイク	Fake	hand
+フェニックス	Phoenix	termbase
+フェンリル	Fenrir	hand
+フォカロル	Focalor	hand
+フォルネウス	Forneus	hand
+フラッガー	Flagger	hand
+フルフラット	Full Flat	ps2
+フレスヴェルグ	Hraesvelg	hand
+フローズヴィニトル	Hrodvitnir	hand
+ブルートリップ	Blue Trip	hand
+ブロッブ	Blob	hand
+プリエステス	Priestess	hand
+プリースト	Priest	hand
+ヘラルド	Herald	hand
+ヘルタスケルター	Helter Skelter	hand
+ヘルマスター	Hellmaster	termbase
+ベリアル	Belial	hand
+ベルゼブル	Beelzebul	hand
+ボガート	Boggart	termbase
+ポイズンテイル	Poison Tail	hand
+マグナディウエス	Magnadius	hand
+マリガン	Mulligan	hand
+マンティコア	Manticore	termbase
+マンドレイク	Mandrake	termbase
+ミルメコレオ	Myrmecoleon	hand
+メイガス	Magus	hand
+メギドフレイム	Megiddo Flame	ps2
+メデューサ	Medusa	hand
+メルトダウン	Meltdown	ps2
+メルドウォーム	Meld Worm	hand
+モンク	Monk	hand
+ラクシャサ	Rakshasa	hand
+ラミア	Lamia	hand
+ランドタートル	Land Turtle	hand
+リパーシックル	Reaper Sickle	hand
+ルーンビートル	Rune Beetle	hand
+レーザーアイ	Laser Eye	ps2
+ロストソウル	Lost Soul	hand
+ロック	Roc	hand
+ロックバブーン	Rock Baboon	hand
+ローグ	Rogue	hand
+ローレライ	Lorelei	hand
+ヴァルチャー	Vulture	termbase
+ヴァンパイア	Vampire	hand
+ヴァンパイアロード	Vampire Lord	hand
+三の太刀	3rd Cut	ps2
+二の太刀	2nd Cut	ps2
+五輪斬	5 Ring	ps2
+四の太刀	4th Cut	ps2
+心眼・無の太刀	Mind's Eye Cut	ps2
+心眼・無の太刀・連	Mind's Eye Chain	ps2
+抜刀・裂衝牙	Rending Fang	ps2
+斬空断	Aircut	ps2
+止水	Calm	ps2
+流水	Flow	ps2
+瞬雷刃	Flash	ps2
+私の背後に立つな・・・	Never stand behind me.	ps2
+裂砕断	Crush	ps2
+雷破斬	Bolt	ps2
+－アイスバーン－	-Ice Burn-	ps2
+－マインドウィルス－	-Mind Virus-	ps2
+－マッドプール－	-Mud Pool-	ps2

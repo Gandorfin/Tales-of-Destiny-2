@@ -21,7 +21,7 @@ import sys, os, re, tempfile, shutil
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
-import psp_iso, psp_text, psp_names, psp_menu, psp_lowercase, psp_fpb, psp_pool
+import psp_iso, psp_text, psp_names, psp_menu, psp_lowercase, psp_fpb, psp_pool, psp_monsters
 
 def add_probes(work):
     p = os.path.join(work, 'scenario_en', '06470.txt')
@@ -61,7 +61,11 @@ def main(iso, out_iso, probe=False, keep=None):
     if probe:
         add_probes(text)
     _font = psp_lowercase.build_font(psp_fpb.read_member(fpb, open(boot, 'rb').read(), 0)[0])
-    psp_text.build(boot, fpb, text, new_fpb, new_boot, extra={0: _font})
+    _mons, _monst = psp_monsters.build_changed_members(boot, fpb)
+    print('monster book:', dict(_monst))
+    _extra = {0: _font}
+    _extra.update(_mons)
+    psp_text.build(boot, fpb, text, new_fpb, new_boot, extra=_extra)
     if not psp_text.verify(new_boot, new_fpb, text):
         raise SystemExit('verification failed, image not written')
     psp_iso.replace(iso, out_iso, [
