@@ -39,7 +39,7 @@ def patch_menu(boot, table=None):
     for jp, en in table:
         try:
             jb = psp_text.encode_line(jp)
-            eb = psp_text.encode_line(en)
+            eb = psp_text.encode_line(en, dte=True)
         except Exception:
             st['encode_error'] += 1
             continue

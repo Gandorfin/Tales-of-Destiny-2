@@ -109,7 +109,36 @@ def decode_string(d, p):
             p += 1
     return ''.join(out)
 
-def encode_line(line):
+def _emit_plain(c, dte):
+    """Encode one plain-text run. With dte, upper-case and greedily replace
+    common letter-pairs with their two-byte DTE tile code (half width); other
+    characters keep the normal single-glyph path."""
+    txt = bytearray()
+    table = None
+    if dte:
+        try:
+            import psp_dte
+            table = psp_dte._TABLE
+        except Exception:
+            table = None
+    if not table:
+        for ch in c:
+            txt += ITBL[ch] if ch in ITBL else ch.encode('cp932')
+        return txt
+    t = c.upper()
+    i = 0
+    while i < len(t):
+        if i + 1 < len(t) and (t[i], t[i + 1]) in table:
+            txt += struct.pack('>H', table[(t[i], t[i + 1])])
+            i += 2
+        else:
+            ch = t[i]
+            txt += ITBL[ch] if ch in ITBL else ch.encode('cp932')
+            i += 1
+    return txt
+
+
+def encode_line(line, dte=False):
     txt = bytearray()
     for s in filter(None, re.split(HEX_TAG, line)):
         if re.match(HEX_TAG, s):
@@ -130,8 +159,7 @@ def encode_line(line):
                     txt.append(0x7)
                     txt += struct.pack('<I', INAMES[name])
             else:
-                for ch in c:
-                    txt += ITBL[ch] if ch in ITBL else ch.encode('cp932')
+                txt += _emit_plain(c, dte)
     return bytes(txt)
 
 def encode_record(lines):
