@@ -90,9 +90,14 @@ def _donor_cells(pt):
             continue
         if any('一' <= x <= '鿿' for x in ch) and not any(x in KEEP_KANJI for x in ch):
             donors.append(cell)
-    # Highest cells first = rarest JIS level-2 kanji, least likely to appear in
-    # any still-Japanese text, so a repurposed cell almost never mis-renders.
-    donors.sort(reverse=True)
+    # The MENU/battle renderer only decodes lead bytes 0x99..0x9f as two-byte
+    # glyph codes (that is the range the element kanji use); it mis-parses
+    # 0xe0..0xe4 codes as two single bytes -> kana+Latin garbage. So a DTE tile
+    # is only safe in a cell whose code has a 0x99..0x9f lead.
+    donors = [c for c in donors if (c2c[c] >> 8) < 0xe0]
+    # Several TBL codes decode to the same cell, so dedupe or two pairs would be
+    # bound to one cell and one would overwrite the other ("SHADOW" -> "SHADLI").
+    donors = sorted(set(donors), reverse=True)
     return donors, c2c
 
 
