@@ -8,7 +8,11 @@ CRITICAL (these can crash the game or hide text, and should never grow):
   code-mismatch        Runtime/control codes in the English do not match the
                        Japanese source (missing, extra, or duplicated codes).
                        Per "Dialogue and Script Layout Restrictions.md" the
-                       source code sequence is authoritative.
+                       source code sequence is authoritative. A halfwidth
+                       kana in the source (other than the "･" ellipsis dot)
+                       is an undecoded raw byte and counts as the code
+                       {XX} of its cp932 value; the English may write it
+                       either way ("ﾀ" or "{C0}").
   untranslated         A record has Japanese source lines but no English
                        lines. Includes English lines accidentally prefixed
                        with '#', which the format treats as reference data.
@@ -49,6 +53,14 @@ SKIT_DIR = 'third pass skits safe output'
 
 DIVIDER = re.compile(r'^-{5,}\s*$')
 CODE = re.compile(r'<[^<>\n]+>|\{[0-9A-Fa-f]{2}\}')
+# Halfwidth katakana never occur as real text in this game. When the
+# extractor meets a single byte 0xA1..0xDF it cannot decode (typically the
+# second payload byte of a {16}/{18} variable tag when that byte happens to
+# be 0xBC or 0xC0), it prints the byte as its cp932 halfwidth kana, e.g.
+# 0xC0 -> "ﾀ". The build encodes such a kana back to that single byte, so it
+# is a control byte and must be preserved. The halfwidth middle dot U+FF65
+# is excluded: the corpus uses it as an ellipsis, and it is real text.
+RAW_KANA = re.compile('[｡-､ｦ-ﾟ]')
 PAGE_BREAK = '{02}'
 CJK = re.compile(r'[぀-ヿ一-鿿]')
 
@@ -61,12 +73,18 @@ CRITICAL = ('code-mismatch', 'untranslated', 'misplaced-japanese',
 INFO = ('layout-width', 'layout-lines', 'layout-page', 'term-drift')
 
 
+def raw_bytes_as_codes(text):
+    """Rewrite undecoded raw bytes (see RAW_KANA) as {XX} codes."""
+    return RAW_KANA.sub(
+        lambda m: '{%02X}' % m.group(0).encode('cp932')[0], text)
+
+
 def visible_len(text):
-    return len(CODE.sub('', text))
+    return len(CODE.sub('', raw_bytes_as_codes(text)))
 
 
 def codes_of(text):
-    return Counter(CODE.findall(text))
+    return Counter(CODE.findall(raw_bytes_as_codes(text)))
 
 
 def parse_blocks(path):
