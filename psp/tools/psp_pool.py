@@ -93,8 +93,6 @@ def relocate_menu(boot, table_path=None):
     here = os.path.dirname(os.path.abspath(__file__))
     spec = importlib.util.spec_from_file_location('psp_text', os.path.join(here, 'psp_text.py'))
     pt = importlib.util.module_from_spec(spec); spec.loader.exec_module(pt)
-    spec2 = importlib.util.spec_from_file_location('psp_scale', os.path.join(here, 'psp_scale.py'))
-    ps = importlib.util.module_from_spec(spec2); spec2.loader.exec_module(ps)
     items = []
     for line in open(table_path or os.path.join(here, 'psp_menu.tsv'), encoding='utf-8'):
         if line.startswith('#'):
@@ -102,9 +100,8 @@ def relocate_menu(boot, table_path=None):
         p = line.rstrip('\n').split('\t')
         if len(p) < 2:
             continue
-        jp = p[0].replace('\\n', '\n')
         try:
-            jb = pt.encode_line(jp); eb = pt.encode_line(ps.scale_english(jp, p[1].replace('\\n', '\n')))
+            jb = pt.encode_line(p[0].replace('\\n', '\n')); eb = pt.encode_line(p[1].replace('\\n', '\n'))
         except Exception:
             continue
         if len(eb) > len(jb):
