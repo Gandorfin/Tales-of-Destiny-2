@@ -193,7 +193,7 @@ TP軽減力とTP回復力が上昇する	Increases TP Reduction and TP Regen	28	
 インスペクト	Inspect	12	7	reuse
 インディグネイト・ジャッジメント	Indignate Judgment	32	18	reuse
 インビジブル	Invisible	12	9	reuse
-インブレイスエンド	Final Embrace	18	13	reuse
+インブレイスエンド	Finl Embrc	18	10	reuse
 インプレス	Impress	10	7	reuse
 インヴァリド	Invalid	12	7	reuse
 イーサー	Aether	8	6	reuse
@@ -230,7 +230,7 @@ TP軽減力とTP回復力が上昇する	Increases TP Reduction and TP Regen	28	
 ウロボロス	Uroboros	10	8	reuse
 ウンディーネ	Undine	12	6	reuse
 ウーリー	Wool	8	4	reuse
-エアプレッシャー	Air Pressure	16	12	reuse
+エアプレッシャー	Air Press.	16	10	reuse
 エアリアル	Aerial	10	6	reuse
 エイセンケン	Eisenken	12	8	reuse
 エイミング	Aiming	10	6	reuse
@@ -267,7 +267,7 @@ TP軽減力とTP回復力が上昇する	Increases TP Reduction and TP Regen	28	
 エンカウント不能	Cannot battle.	16	14	reuse
 エンカウント無効	No Encounters	16	13	reuse
 エンシェント	Ancient	12	7	reuse
-エンシェントノヴァ	Ancient Nova	18	12	reuse
+エンシェントノヴァ	Anc. Nova	18	9	reuse
 エンジェル	Angel	10	5	reuse
 エンジェルブレスレット	Angel Bracelet	22	14	reuse
 エンジェルリング	Angel Ring	16	10	reuse
@@ -395,7 +395,7 @@ TP軽減力とTP回復力が上昇する	Increases TP Reduction and TP Regen	28	
 クリームシチュー	Cream Stew	16	10	reuse
 クリーヴァ	Cleaver	10	7	reuse
 クルセイダー	Crusader	12	8	reuse
-クレイジーコメット	Crazy Comet	18	11	reuse
+クレイジーコメット	CrazyComet	18	10	reuse
 クレイモア	Claymore	10	8	reuse
 クレスタの街	Cresta	12	6	reuse
 クレスタ～アイグレッテ	Cresta to Aigrette	22	18	reuse
@@ -422,7 +422,7 @@ TP軽減力とTP回復力が上昇する	Increases TP Reduction and TP Regen	28	
 グランドファーザー	Grandfather	18	11	reuse
 グランドプレート	Grand Plate	16	11	reuse
 グランドヘルム	Grand Helm	14	10	reuse
-グランヴァニッシュ	Ground Vanish	18	13	reuse
+グランヴァニッシュ	Grnd Vansh	18	10	reuse
 グリズリー	Grizzly	10	7	reuse
 グリフィン	Griffin	10	7	reuse
 グリフィンズタロン	Griffin's Talon	18	15	reuse
@@ -529,7 +529,7 @@ TP軽減力とTP回復力が上昇する	Increases TP Reduction and TP Regen	28	
 シャイニングスピア	Shining Spear	18	13	reuse
 シャケ	Salmon	6	6	reuse
 シャドウ	Shadow	8	6	reuse
-シャドウエッジ	Shadow Edge	14	11	reuse
+シャドウエッジ	ShadowEdge	14	10	reuse
 シャドウファング	Shadowfang	16	10	reuse
 シャムシール	Shamshir	12	8	reuse
 シャークトゥース	Shark Tooth	16	11	reuse
@@ -614,7 +614,7 @@ TP軽減力とTP回復力が上昇する	Increases TP Reduction and TP Regen	28	
 ストロング	Strong	10	6	reuse
 ストーム	Storm	8	5	reuse
 ストームブリンガー	Stormbringer	18	12	reuse
-ストーンザッパー	Stone Zapper	16	12	reuse
+ストーンザッパー	Stn Zapper	16	10	reuse
 スナッチャー	Snatcher	12	8	reuse
 スノーフリア	Snowfria	12	8	reuse
 スパイカー	Spiker	10	6	reuse
@@ -636,7 +636,7 @@ TP軽減力とTP回復力が上昇する	Increases TP Reduction and TP Regen	28	
 スペル	Spell	6	5	reuse
 スマイルウェイトレス	Smiling Waitress	20	16	reuse
 スライト	Sleight	8	7	reuse
-スラストファング	Thrust Fang	16	11	reuse
+スラストファング	ThrustFang	16	10	reuse
 スリヴァー	Sliver	10	6	reuse
 スレイヤー	Slayer	10	6	reuse
 スロットレベル	Slot Level	14	10	reuse
@@ -763,7 +763,7 @@ TP軽減力とTP回復力が上昇する	Increases TP Reduction and TP Regen	28	
 ディアボリックファング	Diabolic Fang	22	13	reuse
 ディザスター	Disaster	12	8	reuse
 ディジーズ	Diseased	10	8	reuse
-ディバインセイバー	Divine Saber	18	12	reuse
+ディバインセイバー	Div. Saber	18	10	reuse
 ディフェンス	Defense	12	7	reuse
 ディヴァインクレスト	Divine Crest	20	12	reuse
 ディヴァインロッド	Divine Rod	18	10	reuse
@@ -841,7 +841,7 @@ TP軽減力とTP回復力が上昇する	Increases TP Reduction and TP Regen	28	
 ニットウェア	Knitwear	12	8	reuse
 ニンジン	Carrot	8	6	reuse
 ニンブル	Nimble	8	6	reuse
-ネガティブゲイト	Negative Gate	16	13	reuse
+ネガティブゲイト	Neg. Gate	16	9	reuse
 ネビュラ	Nebula	8	6	reuse
 ノイシュタット	Neuestadt	14	9	reuse
 ノイシュタットの港へ	To Neuestadt Port	20	17	reuse
@@ -909,7 +909,7 @@ TP軽減力とTP回復力が上昇する	Increases TP Reduction and TP Regen	28	
 バルビュータ	Barbuta	12	7	reuse
 バルムンク	Balmung	10	7	reuse
 バーミリオン	Vermilion	12	9	reuse
-バーンストライク	Burn Strike	16	11	reuse
+バーンストライク	BurnStrike	16	10	reuse
 パイルドライバー	Piledriver	16	10	reuse
 パイレックス	Pyrex	12	5	reuse
 パイングミ	Pineapple Gel	10	13	reuse
@@ -964,7 +964,7 @@ TP軽減力とTP回復力が上昇する	Increases TP Reduction and TP Regen	28	
 ファンタジー	Fantasy	12	7	reuse
 ファントム	Phantom	10	7	reuse
 ファーヴァー	Fervor	12	6	reuse
-フィアフルストーム	Fearful Storm	18	13	reuse
+フィアフルストーム	Fear Storm	18	10	reuse
 フィート	Feat	8	4	reuse
 フィートシンボル	Warrior Symbol	16	14	reuse
 フィールド	Field	10	5	reuse
@@ -1016,7 +1016,7 @@ TP軽減力とTP回復力が上昇する	Increases TP Reduction and TP Regen	28	
 フレアスカート	Flare Skirt	14	11	reuse
 フレアボトル	Flare Bottle	12	12	reuse
 フレアマント	Flare Cape	12	10	reuse
-フレイムドライブ	Flame Drive	16	11	reuse
+フレイムドライブ	FlameDrive	16	10	reuse
 フレグランス	Fragrance	12	9	reuse
 フレッチ	Fletch	8	6	reuse
 フレンジーカスク	Frenzy Casque	16	13	reuse
@@ -1056,7 +1056,7 @@ TP軽減力とTP回復力が上昇する	Increases TP Reduction and TP Regen	28	
 プラネット	Planet	10	6	reuse
 プリシジョン	Precision	12	9	reuse
 プリズム	Prism	8	5	reuse
-プリズムフラッシャ	Prismatic Flasher	18	17	reuse
+プリズムフラッシャ	Prism Flsh	18	10	reuse
 プリティ	Pretty	8	6	reuse
 プリティミトン	Pretty Mittens	14	14	reuse
 プリティーウェイトレス	Pretty Waitress	22	15	reuse
@@ -1305,7 +1305,7 @@ TP軽減力とTP回復力が上昇する	Increases TP Reduction and TP Regen	28	
 レアガントレット	Rare Gauntlets	16	14	reuse
 レアメタル	Rare Metal	10	10	reuse
 レアルタに行くぞ!!	To Realta!!	18	11	reuse
-レイズデッド	Resurrection	12	12	reuse
+レイズデッド	Resurrect	12	9	reuse
 レイピア	Rapier	8	6	reuse
 レインボウ	Rain Bow	10	8	reuse
 レガシー	Legacy	8	6	reuse
@@ -1377,7 +1377,7 @@ TP軽減力とTP回復力が上昇する	Increases TP Reduction and TP Regen	28	
 ヴェール	Veil	8	4	reuse
 ヴォイド	Void	8	4	reuse
 ヴォルカニックレイ	Volcanic Ray	18	12	reuse
-ヴォルテックヒート	Heat Vortex	18	11	reuse
+ヴォルテックヒート	HeatVortex	18	10	reuse
 ヴォーパルウェポン	Vorpal Weapon	18	13	reuse
 ・・・・・	.....	10	5	reuse
 一人でも、ＨＰが２０％以下なら料理を行います	An ally has 20% or less HP	44	26	reuse
@@ -3273,28 +3273,28 @@ HPを吸収できる。	Can drain HP.	16	13	translated
 屠龍連撃破	Dragon Slayer	10	13	translated
 疾空連殺剣	Rapid Sky Blade	10	15	translated
 岩斬滅砕陣	Rock Crusher	10	12	translated
-天翔弾	Soaring Shot	6	12	translated
-風神招	Wind Caller	6	11	translated
-護法蓮	Guardian Lotus	6	14	translated
+天翔弾	Soar Shot	6	9	translated
+風神招	WindCaller	6	10	translated
+護法蓮	Grd Lotus	6	9	translated
 流蓮弾	Lotus Shot	6	10	translated
-双打鐘	Twin Strike	6	11	translated
-雷神招	Thunder Caller	6	14	translated
-放墜鐘	Crashing Bell	6	13	translated
+双打鐘	TwinStrike	6	10	translated
+雷神招	Thdr Callr	6	10	translated
+放墜鐘	Crash Bell	6	10	translated
 霧氷翔	Frost Soar	6	10	translated
 爆灰鐘	Ash Bell	6	8	translated
-割破爆走撃	Blast Charge	10	12	translated
+割破爆走撃	Blast Chrg	10	10	translated
 空破特攻弾	Void Charge	10	11	translated
-戦吼爆ッ破	Roaring Blast	10	13	translated
-神空割砕人	Heaven Cleaver	10	14	translated
+戦吼爆ッ破	Roar Blast	10	10	translated
+神空割砕人	Heavn Clvr	10	10	translated
 飛連斬	Flying Slash	6	12	translated
 双連撃	Twin Slash	6	10	translated
 千裂虚光閃	Thousand Blades	10	15	translated
 粉塵裂破衝	Dust Cyclone	10	12	translated
 魔人滅殺闇	Demonic Void	10	12	translated
-雷牙衝	Thunder Fang	6	12	translated
-華連撃	Petal Barrage	6	13	translated
-影閃剣	Shadow Flash	6	12	translated
-鏡影槍	Mirror Lance	6	12	translated
+雷牙衝	Thndr Fang	6	10	translated
+華連撃	Petal Barr	6	10	translated
+影閃剣	Shdw Flash	6	10	translated
+鏡影槍	Mirr Lance	6	10	translated
 魔人煉獄刹	Demonic Inferno	10	15	translated
 裂衝蒼破塵	Azure Devastation	10	17	translated
 キャラ特性に応じた隊列位置で、{01}固有の思考で敵を狙います	Make decisions based the{01}character's personality.	55	49	reuse
