@@ -4,16 +4,16 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Green Gel ToD2 Patch</title>
-  <meta name="description" content="Green Gel ToD2 patch: open-source English fan translation of Tales of Destiny 2 (PS2), PSP port in progress.">
+  <meta name="description" content="Green Gel ToD2 patch: open-source English fan translation of Tales of Destiny 2 for PlayStation 2 and PSP.">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
     <img src="TOD2_logo.png" alt="Tales of Destiny 2">
     <h1>Green Gel ToD2 Patch</h1>
-    <p class="tagline">Open-source English fan translation of Tales of Destiny 2 (PlayStation 2). PSP port in progress.</p>
+    <p class="tagline">Open-source English fan translation of Tales of Destiny 2 for PlayStation 2 and PSP.</p>
     <div class="buttons">
-      <a class="button primary" href="https://github.com/Gandorfin/Tales-of-Destiny-2/releases/latest">Download the latest PS2 patch</a>
+      <a class="button primary" href="https://github.com/Gandorfin/Tales-of-Destiny-2/releases/latest">Download the latest patch</a>
       <a class="button" href="https://github.com/Gandorfin/Tales-of-Destiny-2">GitHub repository</a>
     </div>
   </header>
@@ -24,21 +24,21 @@
       <div class="status">
         <div class="card">
           <h3>PS2 (SLPS-25172) <span class="badge done">complete</span></h3>
-          <p>Every story scene, all skits, menus, battle text, world map, titles, Quiz Book, enemy artes, boss lines and the videos with dialogue. Proofread line by line against the Japanese. Latest release: v1.1.4 (24 August 2026).</p>
+          <p>Every story scene, all skits, menus, battle text, world map, titles, Quiz Book, enemy artes, boss lines and the videos with dialogue. Proofread line by line against the Japanese. Latest release: QS v1.1.6F.</p>
         </div>
         <div class="card">
-          <h3>PSP (ULJS-00097) <span class="badge wip">in progress</span></h3>
-          <p>Started 24 August 2026. The archive tools are done and the PS2 text carries over; the font, the text renderer and the menus inside the executable are next.</p>
+          <h3>PSP (ULJS-00097) <span class="badge done">v0.1.0 released</span></h3>
+          <p>First PSP release. The full script and skits, all menus, items, artes, titles, descriptions and the Monster Book are English, and story dialogue now renders in mixed case. A few menu corners are still Japanese and are being worked on.</p>
         </div>
       </div>
     </section>
 
     <section>
-      <h2>How to play the PS2 patch</h2>
+      <h2>How to play</h2>
       <ol>
-        <li>Download the latest patch archive from the <a href="https://github.com/Gandorfin/Tales-of-Destiny-2/releases">releases page</a>.</li>
-        <li>You need your own dump of the Japanese game (SLPS-25172). The release notes explain how to apply the patch to it.</li>
-        <li>Play on PCSX2 or on real hardware.</li>
+        <li>Download the latest patch archive from the <a href="https://github.com/Gandorfin/Tales-of-Destiny-2/releases">releases page</a> (PS2 and PSP are separate patches).</li>
+        <li>You need your own dump of the Japanese game &mdash; SLPS-25172 for PS2, ULJS-00097 for PSP. The release notes explain how to apply the xdelta patch to your ISO.</li>
+        <li>Play the PS2 patch on PCSX2 or real hardware, or the PSP patch on PPSSPP or a real PSP.</li>
       </ol>
       <p>Found a mistake or a screen that is still Japanese? Open an <a href="https://github.com/Gandorfin/Tales-of-Destiny-2/issues">issue</a> with a screenshot.</p>
     </section>
@@ -66,6 +66,18 @@
     <section>
       <h2>Contributing</h2>
       <p>Corrections to the script, testing on real hardware, and help with the PSP version are all welcome. Work on a branch and open a pull request; an automated check keeps crash-class mistakes out.</p>
+      <p>The PSP port still has a few engine-level problems open to anyone who knows PSP reverse engineering: extending lowercase from the dialogue to the menus, a proper half-width fix for the arte grid, and the Monster Book display names. The technical notes are in the repository <a href="https://github.com/Gandorfin/Tales-of-Destiny-2#help-wanted-open-psp-problems">README</a>.</p>
+    </section>
+
+    <section>
+      <h2>Credits</h2>
+      <ul>
+        <li><strong>Gandorff</strong> &mdash; project lead, translation and tooling</li>
+        <li><strong>casino3346</strong> &mdash; PS2 and PSP ports and translation</li>
+        <li><strong>pnvnd</strong> &mdash; terminology, style reference, PSP string scanner</li>
+        <li><strong>SkyBladeCloud</strong> &mdash; file-format research and the PSP font/lowercase reverse engineering</li>
+        <li>plus Amarant01, Lanyn, the Temple of Tales Translations team, alizor and flame1234 (see the repository README)</li>
+      </ul>
     </section>
   </main>
 
