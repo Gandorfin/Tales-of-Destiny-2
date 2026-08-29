@@ -45,8 +45,24 @@ runtime = vaddr + base):
 
 Each walker's 2-byte (kanji) path already hard-codes font 0x01, and the retail
 table maps every single-byte code to the same slot for both fonts, so font 0x01
-has every glyph these paths can address. The fourth table user (0x1442C4) only
-measures string width and stores no font byte.
+has every glyph these paths can address.
+
+The FOURTH table user is not a walker: 0x144248 (wrapper 0x1464BC, called from
+nine menu subsystems) draws an ASCII string straight to a vertex list. It reads
+the slot table at vaddr 0x144318/0x14431C (file 0x1443D8/0x1443DC), then
+computes the glyph rectangle with the icon font's geometry hard-coded (10 cells
+per row, 12x16 pixels) on texture slot 0, which the wrapper binds to the icon
+font. There is no font byte and no font-0x01 branch, so this path can only ever
+draw font 0x02. It is the "bold" menu text: party names in the menu, the Artes
+tabs, the arte shortcut grid, the Battle Rank value, HP/TP/LV labels. Retail
+got capitals here from the table's a->A fold; with a..z remapped it drew icon
+fragments (Gandorff's v0.1.0/v15 boot tests). Fix: patch_bold_table() gives
+this one routine its own untouched copy of the retail table (appended to the
+menu pool segment, lui/addiu re-pointed; the HI16/LO16 relocations stay and
+just add segment 1's base to the new immediates), so those contexts render
+capitals exactly like retail while everything else keeps lowercase. Lowercase
+there would need glyphs drawn into the icon font or a rewrite of 0x144248's
+geometry.
 """
 import os, sys, struct, base64, zlib
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -62,6 +78,12 @@ assert len(LOWER_SLOTS) == 26
 # file offsets of the single-byte font-select immediates (see module docstring)
 FONT_SELECT = (0x13EEC4, 0x143444, 0x14A084)
 FONT_SELECT_FROM, FONT_SELECT_TO = 0x02, 0x01
+# the bold direct-draw routine's table address pair (file offsets of the
+# `lui $t7,0xa` / `addiu $t6,$t7,0x1040` words at vaddr 0x144318 / 0x14431C)
+BOLD_LUI, BOLD_ADDIU = 0x1443D8, 0x1443DC
+BOLD_LUI_WORD, BOLD_ADDIU_WORD = 0x3C0F000A, 0x25EE1040
+DATA_SEG_VADDR = 0x1DCC00       # segment 1 (HI16/LO16 addr_base of that pair)
+POOL_VADDR = 0x881000           # psp_pool's 4th PT_LOAD segment
 
 # 26 lowercase glyphs (a..z), one 23x23 cell each, 4bpp nibbles, two per byte,
 # zlib+base64. Baked from SkyBladeCloud's edited font (slots 0xD9..0xF2).
@@ -164,6 +186,50 @@ def patch_boot(boot):
             b[fo] = FONT_SELECT_TO
             patched += 1
     return bytes(b), {'slot_remap': 26, 'font_select_patched': patched}
+
+
+def retail_table(table):
+    """The retail 8-bit slot table, reconstructed from a (possibly remapped)
+    copy: retail maps a..z to the same slots as A..Z."""
+    t = bytearray(table)
+    for i in range(26):
+        t[0x61 + i] = t[0x41 + i]
+    return bytes(t)
+
+
+def patch_bold_table(boot):
+    """Give the bold direct-draw routine (0x144248) an untouched copy of the
+    retail slot table so its icon-font-only contexts render capitals like
+    retail instead of icon fragments. Run AFTER psp_pool (the copy is appended
+    to the pool segment; a pool segment is created if there is none).
+    Returns (bytes, info)."""
+    b = bytearray(boot)
+    assert struct.unpack_from('<I', b, BOLD_LUI)[0] == BOLD_LUI_WORD, 'bold lui not found'
+    assert struct.unpack_from('<I', b, BOLD_ADDIU)[0] == BOLD_ADDIU_WORD, 'bold addiu not found'
+    assert b[U8_TABLE + 0x41] == 0x17 and b[U8_TABLE + 0x27] == APOSTROPHE_SLOT, 'unexpected slot table'
+    copy = retail_table(b[U8_TABLE:U8_TABLE + 0x100])
+    phnum = struct.unpack_from('<H', b, 0x2c)[0]
+    if phnum == 4:
+        p = list(struct.unpack_from('<8I', b, 0x34 + 3 * 32))
+        assert p[2] == POOL_VADDR and p[1] + p[4] == len(b), 'pool segment must sit at EOF'
+        off = p[4]                       # copy goes right after the pool bytes
+        b += copy
+        p[4] = p[5] = off + len(copy)
+        struct.pack_into('<8I', b, 0x34 + 3 * 32, *p)
+    else:
+        assert phnum == 3, 'unexpected program header count'
+        off = 0
+        pool_file = len(b)
+        b += copy
+        struct.pack_into('<8I', b, 0x34 + 3 * 32,
+                         1, pool_file, POOL_VADDR, POOL_VADDR, len(copy), len(copy), 4, 0x40)
+        struct.pack_into('<H', b, 0x2c, 4)
+    # re-point the pair: immediates are relative to segment 1 (reloc addr_base)
+    rel = POOL_VADDR + off - DATA_SEG_VADDR
+    hi, lo = ((rel + 0x8000) >> 16) & 0xffff, rel & 0xffff
+    struct.pack_into('<I', b, BOLD_LUI, (BOLD_LUI_WORD & 0xffff0000) | hi)
+    struct.pack_into('<I', b, BOLD_ADDIU, (BOLD_ADDIU_WORD & 0xffff0000) | lo)
+    return bytes(b), {'bold_table_vaddr': hex(POOL_VADDR + off), 'hi': hex(hi), 'lo': hex(lo)}
 
 
 # Backwards-compat shim: build_psp used to call patch_ascii_map(boot).
