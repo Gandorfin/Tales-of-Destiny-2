@@ -11,7 +11,7 @@ Japanese. Overflow relocation (pool + data-pointer rewrite) is a later pass;
 import os, sys, collections
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
-import psp_text
+import psp_text, psp_scale
 
 TABLE = os.path.join(HERE, 'psp_menu.tsv')
 
@@ -39,7 +39,7 @@ def patch_menu(boot, table=None):
     for jp, en in table:
         try:
             jb = psp_text.encode_line(jp)
-            eb = psp_text.encode_line(en)
+            eb = psp_text.encode_line(psp_scale.scale_english(jp, en))
         except Exception:
             st['encode_error'] += 1
             continue
