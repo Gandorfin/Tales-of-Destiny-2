@@ -138,8 +138,8 @@ The whole pipeline is one command, `python3 psp/tools/build_psp.py`, which:
   deep and then inside a raw-deflate blob in the battle-resource archive
   members (`psp_monsters.py`)
 * rebuilds the font member with lowercase glyphs and applies SkyBladeCloud's
-  font-selection patch so story dialogue renders in mixed case
-  (`psp_lowercase.py`)
+  font-selection patch to every ASCII text path so dialogue, names and menus
+  render in mixed case (`psp_lowercase.py`)
 * repacks the archive, verifies every rebuilt file, and writes the English ISO
 
 ### Help wanted (open PSP problems)
@@ -154,19 +154,20 @@ issue or a PR). What we have worked out so far:
   code selected. **Font 0x01** is archive member 0 (the big editable font, has
   everything); **font 0x02** is a smaller icon/ASCII font with no free space
   that most of the UI uses.
-* **Lowercase is done** for the dialogue text and speaker names by (1) drawing
-  `a..z` into font 0x01's free slots `0xD9..0xF2`, (2) remapping `a..z` in the
-  slot table to those slots, and (3) forcing the dialogue renderers to font
-  0x01 with two `li reg, 0x02` -> `0x01` code patches (file `0x13EEC4` for the
-  text, `0x143444` for the name; module load base `0x08804000`, so runtime
-  `0x08942E04` / `0x08947384`). Thanks to SkyBladeCloud, who reverse engineered
-  this and shared his edited font.
-* **Lowercase in the menus** needs the same treatment, but font selection is
-  done at many sites and we have not located the menu/battle ones. Finding and
-  flipping those `li reg, fontindex` instructions would give lowercase menus
-  too. (SkyBladeCloud's simpler no-ASM alternative: draw lowercase into font
-  0x02 and update the slot table, at the cost of overwriting its unused kana
-  slots.)
+* **Lowercase is done** by (1) drawing `a..z` into font 0x01's 26 free slots
+  below `0x100` (`0xD9`, `0xDA`, `0xDC..0xF3`; slot `0xDB` is the retail
+  apostrophe and must stay), (2) remapping `a..z` in the slot table to those
+  slots, and (3) forcing the single-byte text paths to font 0x01 with one-byte
+  `0x02` -> `0x01` code patches. Exactly three text walkers resolve ASCII
+  through the slot table (found by taking every `lui 0xa / addiu ..,0x1040`
+  reference to it in the disassembly): the dialogue text walker (file
+  `0x13EEC4`), the speaker-name walker (`0x143444`) and the menu/battle walker
+  (`0x14A084`, an `ori` whose low nibble is the font). Module load base is
+  `0x08804000`, so runtime `0x08942E04` / `0x08947384` / `0x08949FC4`. Each
+  walker's two-byte (kanji) path already hard-codes font 0x01, and the retail
+  table maps every single-byte code to the same slot in both fonts, so font
+  0x01 has every glyph these paths can address. Thanks to SkyBladeCloud, who
+  reverse engineered the font system and shared his edited font.
 * **The arte grid uses a fixed-width renderer** that only handles single-byte
   ASCII: it mangles any multi-byte sequence, so neither a dual-tile encoding
   (two half-width letters in one glyph code) nor the game's own `<size>` scale
