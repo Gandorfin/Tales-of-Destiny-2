@@ -101,7 +101,9 @@ def relocate_menu(boot, table_path=None):
         if len(p) < 2:
             continue
         try:
-            jb = pt.encode_line(p[0].replace('\\n', '\n')); eb = pt.encode_line(p[1].replace('\\n', '\n'))
+            jb = pt.encode_line(p[0].replace('\\n', '\n'))
+            # U+3000 -> retail code 0x9940, same rule as psp_menu.encode_en
+            eb = pt.encode_line(p[1].replace('\\n', '\n').replace('　', '{99}{40}'))
         except Exception:
             continue
         if len(eb) > len(jb):

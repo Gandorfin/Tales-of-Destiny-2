@@ -138,8 +138,9 @@ The whole pipeline is one command, `python3 psp/tools/build_psp.py`, which:
   deep and then inside a raw-deflate blob in the battle-resource archive
   members (`psp_monsters.py`)
 * rebuilds the font member with lowercase glyphs and applies SkyBladeCloud's
-  font-selection patch to every ASCII text path so dialogue, names and menus
-  render in mixed case (`psp_lowercase.py`)
+  font-selection patch to every ASCII text walker so dialogue, names and menus
+  render in mixed case; the bold icon-font menu text (party names in the menu,
+  tabs, arte grid, Battle Rank) keeps retail capitals (`psp_lowercase.py`)
 * repacks the archive, verifies every rebuilt file, and writes the English ISO
 
 ### Help wanted (open PSP problems)
@@ -168,6 +169,20 @@ issue or a PR). What we have worked out so far:
   table maps every single-byte code to the same slot in both fonts, so font
   0x01 has every glyph these paths can address. Thanks to SkyBladeCloud, who
   reverse engineered the font system and shared his edited font.
+* **The "bold" menu text stays in capitals.** A fourth routine reads the slot
+  table but is not a walker: `0x144248` (wrapper `0x1464BC`, runtime
+  `0x08948248`, called from nine menu subsystems) draws an ASCII string straight
+  to a vertex list with the icon font's cell geometry hard-coded (10 cells per
+  row, 12 x 16 pixels) on texture slot 0, which the wrapper binds to font 0x02.
+  It has no font byte and no font 0x01 branch, so it can only ever draw the
+  icon font: party names in the menu, the Artes tabs, the arte shortcut grid,
+  the Battle Rank value, the HP/TP/LV labels. With `a..z` remapped it drew icon
+  fragments, so the build gives this one routine its own untouched copy of the
+  retail table (appended to the menu pool segment; the `lui`/`addiu` pair at
+  `0x1443D8`/`0x1443DC` is re-pointed, its HI16/LO16 relocations stay valid)
+  and those contexts render capitals exactly like retail. Lowercase there needs
+  either lowercase glyphs drawn into the icon font (it has no free cells) or a
+  rewrite of that routine's geometry to draw from font 0x01.
 * **The arte grid uses a fixed-width renderer** that only handles single-byte
   ASCII: it mangles any multi-byte sequence, so neither a dual-tile encoding
   (two half-width letters in one glyph code) nor the game's own `<size>` scale

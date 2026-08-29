@@ -56,6 +56,11 @@ def main(iso, out_iso, probe=False, keep=None):
     _pool, _pst = psp_pool.relocate_menu(open(boot, 'rb').read())
     open(boot, 'wb').write(_pool)
     print('menu pool:', dict(_pst))
+    # after the pool: the bold menu text routine gets a retail copy of the
+    # slot table (it can only draw the icon font, so it keeps capitals)
+    _bold, _binfo = psp_lowercase.patch_bold_table(open(boot, 'rb').read())
+    open(boot, 'wb').write(_bold)
+    print('bold table:', _binfo)
     psp_text.extract(boot, fpb, text)
     psp_text.match(text)
     if probe:

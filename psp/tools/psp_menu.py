@@ -29,6 +29,14 @@ def load_table(path=TABLE):
     return out
 
 
+def encode_en(en):
+    """Encode an English menu string. The full-width space U+3000 must be the
+    BOOT code 0x9940 (what every retail menu string uses, a blank cell in both
+    fonts); the TBL's own entry for it is a filler code (0xE499) that the menu
+    renderers draw as a garbage tile (Battle Memo indent, tactics lines)."""
+    return psp_text.encode_line(en.replace('　', '{99}{40}'))
+
+
 def patch_menu(boot, table=None):
     """boot bytes -> patched bytes; returns (bytes, stats)."""
     if table is None:
@@ -39,7 +47,7 @@ def patch_menu(boot, table=None):
     for jp, en in table:
         try:
             jb = psp_text.encode_line(jp)
-            eb = psp_text.encode_line(en)
+            eb = encode_en(en)
         except Exception:
             st['encode_error'] += 1
             continue
