@@ -3,7 +3,7 @@
 ![logo](TOD2_logo.png)
 
 The **Green Gel ToD2 patch** is an open-source English fan translation of **Tales of Destiny 2** (テイルズ オブ
-デスティニー 2, Namco, PlayStation 2, 2002) and, in progress, of its PSP port
+デスティニー 2, Namco, PlayStation 2, 2002) and its PSP port
 (2007). This is *not* Tales of Eternia (released as "Tales of Destiny II" in
 North America) and not the PS1 Tales of Destiny.
 
@@ -13,8 +13,8 @@ Website: https://gandorfin.github.io/Tales-of-Destiny-2/
 
 | Version | State |
 |---|---|
-| PS2 (SLPS-25172) | **Complete.** Latest release: [v1.1.4](https://github.com/Gandorfin/Tales-of-Destiny-2/releases/latest), 2026-08-24 (terminology pass: Woodrow, Lion, Aethersphere, Oberon Corporation, Eye of Atamoni) |
-| PSP (ULJS-00097) | **Started 2026-08-24.** Archive tools done, text and menu work ahead |
+| PS2 (SLPS-25172) | **Complete.** Latest release: **QS v1.1.6F** ([releases](https://github.com/Gandorfin/Tales-of-Destiny-2/releases/latest)) |
+| PSP (ULJS-00097) | **First release: PSP patch v0.1.0.** Full script, skits, menus, items, artes, titles, descriptions and the Monster Book are English; story dialogue now renders in mixed case. A few menu/UI corners are still Japanese (see PSP port below) |
 
 The PS2 patch covers the whole game:
 
@@ -46,12 +46,25 @@ cannot reach yet (see the open items in `ps2/menu/README.md`).
 Bug reports and screenshots of anything wrong or still Japanese are
 welcome as GitHub issues.
 
+## Getting the PSP patch
+
+1. Download the latest **PSP patch** from the [releases page](https://github.com/Gandorfin/Tales-of-Destiny-2/releases)
+   (a `.7z` holding an `.xdelta` patch).
+2. You need your own dump of the Japanese UMD (ULJS-00097). Apply the patch to
+   the ISO with [Delta Patcher](https://github.com/marco-calautti/DeltaPatcher/releases)
+   or `xdelta3 -d -s "Tales of Destiny 2 (Japan).iso" patch.xdelta patched.iso`.
+3. Play the patched ISO on PPSSPP or a real PSP (CFW).
+
+The one-command build from source is `python3 psp/tools/build_psp.py <JP.iso>
+<out.iso>` (extracts, patches BOOT.BIN and the archive, verifies, writes the
+English ISO).
+
 ### Making a release (maintainers)
 
 After building the patched ISO as described below:
 
 ```
-xdelta3 -e -9 -S none -s "Tales of Destiny 2 (Japan).iso" patched.iso "[Green Gel] ToD2 patch v1.1.4 (PS2).xdelta"
+xdelta3 -e -9 -S none -s "Tales of Destiny 2 (Japan).iso" patched.iso "[Green Gel] ToD2 patch v1.1.6F (PS2).xdelta"
 ```
 
 `-S none` turns off the secondary compression that some patchers cannot
@@ -104,20 +117,69 @@ Short version; the details are in `ps2/menu/README.md` ("Applying it") and
 
 ## PSP port
 
-The PSP version has the same `file.fpb` structure and the same text
-encoding, so the translated text carries over. Differences: members are
-zlib-compressed, the archive table lives in the executable, the menus were
-compiled into the executable (no overlay modules), and the font has no
-lowercase letters and draws every character full width. Work so far:
+The PSP version (ULJS-00097) shares the `file.fpb` structure and the text
+encoding with the PS2 game, so most of the translated text carries over.
+Differences: archive members are zlib-compressed, the member table lives in
+the executable, the menus are compiled into the executable (no overlay
+modules), the font is a swizzled 4-bit texture, and the UI renderer draws
+ASCII full width and in capitals.
 
-* `psp/tools/psp_fpb.py`: extract and repack the archive, byte-identical
-  when nothing changed
-* `psp/tools/psp_iso.py`: replace files inside the UMD image
-* `psp/tools/ascii_test.py`: builds a test image that shows how the engine
-  draws Latin text (first check before the real work)
+The whole pipeline is one command, `python3 psp/tools/build_psp.py`, which:
 
-Next: scenario and skit insertion, the font and half-width rendering, then
-the menus inside the executable.
+* pulls `BOOT.BIN` and `file.fpb` out of the ISO (`psp_iso.py`, `psp_fpb.py`)
+* patches the party names in `BOOT.BIN` (`psp_names.py`)
+* applies the ~3,900 menu/UI strings, overwriting the ones that fit in place
+  and relocating the longer ones into a new load segment with a
+  pointer-rewrite pool (`psp_menu.py`, `psp_pool.py`)
+* matches every scenario and skit record against the PS2 English script and a
+  hand-translated supplement for the PSP-exclusive scenes, then inserts them
+  (`psp_text.py`, `psp_supplement.tsv`)
+* translates the Monster Book / bestiary enemy names, which live one PAK level
+  deep and then inside a raw-deflate blob in the battle-resource archive
+  members (`psp_monsters.py`)
+* rebuilds the font member with lowercase glyphs and applies SkyBladeCloud's
+  font-selection patch so story dialogue renders in mixed case
+  (`psp_lowercase.py`)
+* repacks the archive, verifies every rebuilt file, and writes the English ISO
+
+### Help wanted (open PSP problems)
+
+These are the remaining engineering problems, not translation. If you know PSP
+reverse engineering, `armips`, or this engine, help is very welcome (open an
+issue or a PR). What we have worked out so far:
+
+* **The engine has two fonts.** 8-bit ASCII resolves through an 8-bit slot
+  table (file `0x27DD40`), where `a` (`0x61`) and `A` both point to slot `0x17`
+  (that is the uppercasing). The slot is then drawn from whichever font the
+  code selected. **Font 0x01** is archive member 0 (the big editable font, has
+  everything); **font 0x02** is a smaller icon/ASCII font with no free space
+  that most of the UI uses.
+* **Lowercase is done** for the dialogue text and speaker names by (1) drawing
+  `a..z` into font 0x01's free slots `0xD9..0xF2`, (2) remapping `a..z` in the
+  slot table to those slots, and (3) forcing the dialogue renderers to font
+  0x01 with two `li reg, 0x02` -> `0x01` code patches (file `0x13EEC4` for the
+  text, `0x143444` for the name; module load base `0x08804000`, so runtime
+  `0x08942E04` / `0x08947384`). Thanks to SkyBladeCloud, who reverse engineered
+  this and shared his edited font.
+* **Lowercase in the menus** needs the same treatment, but font selection is
+  done at many sites and we have not located the menu/battle ones. Finding and
+  flipping those `li reg, fontindex` instructions would give lowercase menus
+  too. (SkyBladeCloud's simpler no-ASM alternative: draw lowercase into font
+  0x02 and update the slot table, at the cost of overwriting its unused kana
+  slots.)
+* **The arte grid uses a fixed-width renderer** that only handles single-byte
+  ASCII: it mangles any multi-byte sequence, so neither a dual-tile encoding
+  (two half-width letters in one glyph code) nor the game's own `<size>` scale
+  control fixes the overflow there. For v0.1.0 the overflowing arte names are
+  shortened to fit; the proper fix is an `armips` patch to that renderer's
+  glyph advance (halve the ASCII step, keep two-byte and control codes).
+* **Monster Book display names** still show Japanese even though the battle
+  enemy names are translated, so the book UI reads names from a second, not-yet
+  located source.
+
+A format-aware Japanese-string scanner for the PSP ISO (walks every FPB member,
+nested SCPK/PAK/deflate containers, and the game's glyph encoding) is described
+in the help thread linked under Resources.
 
 ## Contributing
 
@@ -169,12 +231,18 @@ glyphs through that map; the current patch builds on that executable.
 * Compressed members start with byte `04`, u32 packed length, u32 unpacked
   length, then a raw deflate stream. A raw container with four entries also
   starts with `04 00 00 00`; tell them apart by the packed length.
-* The font is member 0: a PSP-swizzled 4-bit texture, 512 x 2200 pixels,
-  23-pixel cells, 22 per row. Member 1 lists the Shift-JIS code of every
-  glyph in order.
-* Text codes map to glyphs as `(lead - 0x99) * 187 + (second - 0x40)` with
-  two skipped second-byte values; single ASCII bytes go through a 256-entry
-  table that points `a..z` and `A..Z` at the full-width capitals.
+* The font is member 0 (font 0x01): a PSP-swizzled 4-bit texture, 256 x 4400
+  pixels, 23-pixel cells, 11 per row (`slot = row * 11 + col`, `A` = slot
+  `0x17`). Member 1 lists the Shift-JIS code of every glyph in order. There is
+  also a second, smaller icon/ASCII font (font 0x02) that most of the UI draws
+  from; the code selects between them per context with `li reg, fontindex`.
+* Two-byte text codes map to glyphs as `(lead - 0x99) * 187 + (second - 0x40)`
+  with two skipped second-byte values (the u16 code map is at file `0x27DB40`).
+  Single ASCII bytes instead go through an 8-bit slot table at file `0x27DD40`
+  that points `a..z` at the same slots as `A..Z` (the uppercasing).
+* The executable's module load base at runtime is `0x08804000` (runtime address
+  = segment vaddr + base), which is how in-game debugger addresses map back to
+  file offsets (data file = vaddr + 0x100, text/rodata file = vaddr + 0xC0).
 
 ### Text encoding (both versions)
 
@@ -199,11 +267,17 @@ subheaders, then a 128 x 512 4-bit pixel matrix, low nibble first.
 
 ## Credits
 
+* `Gandorff` for leading and maintaining the project, the translation, and the
+  tooling
+* `casino3346` for the PS2 and PSP ports and translation work
+* `pnvnd` for terminology, the Lifebottle style reference, and the
+  format-aware PSP Japanese-string scanner
+* `SkyBladeCloud` (GBAtemp) for the original file-format research and for
+  reverse engineering the PSP font system and lowercase font-selection hack
 * `Amarant01` for the font graphics: https://www.behance.net/deco-7105af
 * `Lanyn` for permission to use the Tales of Destiny 2 English translation
   script: https://www.youtube.com/user/lanyn/videos
 * The `Temple of Tales Translations` team (http://temple-tales.ru/translations.html)
   for the skit and scenario extraction tools
 * `alizor` for the Python scripts to extract and repack the PS2 and PSP archives
-* `SkyBladeCloud` (GBAtemp) for the file format research
 * `flamethrower` / `flame1234` (GBAtemp) for the PSP string extractor
