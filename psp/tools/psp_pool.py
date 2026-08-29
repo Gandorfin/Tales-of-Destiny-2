@@ -101,7 +101,7 @@ def relocate_menu(boot, table_path=None):
         if len(p) < 2:
             continue
         try:
-            jb = pt.encode_line(p[0].replace('\\n', '\n')); eb = pt.encode_line(p[1].replace('\\n', '\n'), dte=True)
+            jb = pt.encode_line(p[0].replace('\\n', '\n')); eb = pt.encode_line(p[1].replace('\\n', '\n'))
         except Exception:
             continue
         if len(eb) > len(jb):

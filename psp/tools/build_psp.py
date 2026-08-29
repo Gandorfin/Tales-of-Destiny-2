@@ -21,7 +21,7 @@ import sys, os, re, tempfile, shutil
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
-import psp_iso, psp_text, psp_names, psp_menu, psp_lowercase, psp_fpb, psp_pool, psp_monsters, psp_dte
+import psp_iso, psp_text, psp_names, psp_menu, psp_lowercase, psp_fpb, psp_pool, psp_monsters
 
 def add_probes(work):
     p = os.path.join(work, 'scenario_en', '06470.txt')
@@ -45,8 +45,6 @@ def main(iso, out_iso, probe=False, keep=None):
     text = os.path.join(work, 'text')
     psp_iso.extract(iso, '/PSP_GAME/SYSDIR/BOOT.BIN', boot)
     psp_iso.extract(iso, '/PSP_GAME/USRDIR/file.fpb', fpb)
-    _dte_tab, _dte_assign = psp_dte.build_table(psp_text, open(boot, 'rb').read())
-    print('DTE: bound', len(_dte_tab), 'letter-pair tiles (half-width menus)')
     _named = psp_names.patch_names(open(boot, 'rb').read())[0]
     open(boot, 'wb').write(_named)
     _menu, _mst = psp_menu.patch_menu(open(boot, 'rb').read())
@@ -63,8 +61,6 @@ def main(iso, out_iso, probe=False, keep=None):
     if probe:
         add_probes(text)
     _font = psp_lowercase.build_font(psp_fpb.read_member(fpb, open(boot, 'rb').read(), 0)[0])
-    _font = psp_dte.draw_tiles(_font, open(boot, 'rb').read(), _dte_assign)
-    print('DTE: painted', len(_dte_assign), 'tiles into donor cells')
     _mons, _monst = psp_monsters.build_changed_members(boot, fpb)
     print('monster book:', dict(_monst))
     _extra = {0: _font}
