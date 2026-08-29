@@ -13,18 +13,40 @@ SkyBladeCloud's fix (he verified it in PPSSPP, screenshots), reproduced here
 with every address/byte confirmed against our BOOT.BIN:
 
   1. Font 0x01 is member 00000 (the big font we can edit). Draw the 26 lowercase
-     glyphs into its free slots 0xD9..0xF2 (retail-blank). The glyphs below are
-     baked from SkyBladeCloud's edited font.
-  2. Remap a..z (0x61..0x7A) in the 8-bit slot table (0x27DD40) to slots
-     0xD9..0xF2, so 'a' resolves to the new lowercase glyph, not the 'A' slot.
-  3. Force the dialogue renderers to use font 0x01 instead of 0x02, by changing
-     two `li reg, 0x02` immediates to `0x01` (one byte each), verified as:
-       - dialog TEXT font: vaddr 0x13EE04 / file 0x13EEC4  (addiu $s3,$zero,2)
-       - dialog NAME font: vaddr 0x143384 / file 0x143444  (addiu $s0,$zero,2)
-     (module load base 0x08804000: runtime = vaddr + base.)
+     glyphs into its free slots (retail-blank). The glyphs below are baked from
+     SkyBladeCloud's edited font.
+  2. Remap a..z (0x61..0x7A) in the 8-bit slot table (0x27DD40) to those slots,
+     so 'a' resolves to the new lowercase glyph, not the 'A' slot.
+  3. Force the ASCII text paths to use font 0x01 instead of 0x02, by changing
+     the font-select immediates to `0x01` (one byte each).
 
-This covers the SCED dialogue text + speaker names. Menus/battle use other
-font-select sites (not yet located) and are unaffected.
+Fixes after Gandorff's first boot test of v0.1.0 (2026-08-29):
+
+  * Retail slot 0xDB is the APOSTROPHE (the 8-bit table maps 0x27 -> 0xDB, the
+    only retail entry inside 0xD9..0xF3). The first version stamped 'c' over it,
+    so every ' rendered as "c" ("Donct worry, wecre"). The letters now use the
+    26 retail-blank slots 0xD9, 0xDA, 0xDC..0xF3 and leave 0xDB alone.
+  * SkyBladeCloud's 'i' and 'j' cells have no dot (they rendered as a dotless
+    stroke). A dot is drawn above the x-height at load time.
+  * A THIRD ASCII walker selects font 0x02 for single-byte text: party names in
+    menus, Battle Rank, the arte shortcut grid, the Artes-screen tabs. With a..z
+    remapped, those drew font 0x02's icon fragments. Its select is flipped too.
+
+The text walkers that resolve 8-bit ASCII through the slot table (found by
+disassembling BOOT.BIN and taking every `lui 0xa / addiu ..,0x1040` user; the
+table sits at vaddr 0x27DC40 = data base 0x1DCC00 + 0xA1040) and their
+single-byte font-select immediates (file offsets; module load base 0x08804000,
+runtime = vaddr + base):
+
+  - dialogue TEXT walker 0x13EC24: vaddr 0x13EE04 / file 0x13EEC4 (addiu $s3,$zero,2)
+  - dialogue NAME walker 0x14304C: vaddr 0x143384 / file 0x143444 (addiu $s0,$zero,2)
+  - menu/battle walker   0x149E74: vaddr 0x149FC4 / file 0x14A084 (ori $a2,$a3,2;
+    low nibble = font, high nibble = flags)
+
+Each walker's 2-byte (kanji) path already hard-codes font 0x01, and the retail
+table maps every single-byte code to the same slot for both fonts, so font 0x01
+has every glyph these paths can address. The fourth table user (0x1442C4) only
+measures string width and stores no font byte.
 """
 import os, sys, struct, base64, zlib
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -33,8 +55,12 @@ import psp_font
 
 W, COLS, CELL = 256, 11, 23
 U8_TABLE = 0x27DD40                 # file offset of the 8-bit slot table (index 0)
-LOWER_SLOT_START = 0xD9            # a -> 0xD9, b -> 0xDA, ... z -> 0xF2
-FONT_SELECT = (0x13EEC4, 0x143444)  # file offsets of the two `li reg,2` immediates
+APOSTROPHE_SLOT = 0xDB              # retail: table[0x27] -> 0xDB, must stay untouched
+# a..z -> the 26 retail-blank slots below 0x100 (0xD9, 0xDA, 0xDC..0xF3)
+LOWER_SLOTS = [s for s in range(0xD9, 0xF4) if s != APOSTROPHE_SLOT]
+assert len(LOWER_SLOTS) == 26
+# file offsets of the single-byte font-select immediates (see module docstring)
+FONT_SELECT = (0x13EEC4, 0x143444, 0x14A084)
 FONT_SELECT_FROM, FONT_SELECT_TO = 0x02, 0x01
 
 # 26 lowercase glyphs (a..z), one 23x23 cell each, 4bpp nibbles, two per byte,
@@ -86,15 +112,33 @@ def _glyphs():
     for b in raw:
         nib.append(b & 0xF); nib.append(b >> 4)
     per = CELL * CELL
-    return [nib[i * per:(i + 1) * per] for i in range(26)]
+    glyphs = [nib[i * per:(i + 1) * per] for i in range(26)]
+    _dot(glyphs[ord('i') - 0x61])
+    _dot(glyphs[ord('j') - 0x61])
+    return glyphs
+
+
+# Cell geometry of the baked glyphs: cap top row 3, x-height row 7, baseline
+# row 21. The i/j stems sit in columns 9..13 (core 10..12). Both cells came
+# without a dot; this draws one above the x-height and, for 'j', cuts the stem
+# back to x-height (it was drawn ascender-high).
+def _dot(cell):
+    for r in range(0, 7):                      # clear rows 0..6 (row 6 = gap)
+        for c in range(CELL):
+            cell[r * CELL + c] = 0
+    for r in (3, 4, 5):                        # 3x3 dot, same weight as the stem
+        for c in range(9, 14):
+            cell[r * CELL + c] = 0xF if 10 <= c <= 12 else 0x5
+    cell[7 * CELL + 10:7 * CELL + 13] = bytes([0x5, 0x5, 0x5])   # stem cap row
+    cell[8 * CELL + 9:8 * CELL + 14] = bytes([0x5, 0x5, 0xF, 0x5, 0x5])
 
 
 def build_font(member00000):
-    """Stamp a..z into slots 0xD9..0xF2 of member 0 (font 0x01)."""
+    """Stamp a..z into LOWER_SLOTS of member 0 (font 0x01)."""
     gray = bytearray(psp_font.deswizzle(member00000))
     glyphs = _glyphs()
     for i, cell in enumerate(glyphs):
-        slot = LOWER_SLOT_START + i
+        slot = LOWER_SLOTS[i]
         col, row = slot % COLS, slot // COLS
         x0, y0 = col * CELL, row * CELL
         for r in range(CELL):
@@ -106,12 +150,13 @@ def build_font(member00000):
 
 
 def patch_boot(boot):
-    """Remap a..z in the 8-bit slot table and force font 0x01 for dialogue.
-    Returns (bytes, info)."""
+    """Remap a..z in the 8-bit slot table and force font 0x01 on the ASCII
+    text paths. Returns (bytes, info)."""
     b = bytearray(boot)
-    # 1) 8-bit slot table: a..z -> 0xD9..0xF2
+    assert b[U8_TABLE + 0x27] == APOSTROPHE_SLOT, 'unexpected slot table'
+    # 1) 8-bit slot table: a..z -> LOWER_SLOTS (0xDB = apostrophe stays)
     for i in range(26):
-        b[U8_TABLE + 0x61 + i] = LOWER_SLOT_START + i
+        b[U8_TABLE + 0x61 + i] = LOWER_SLOTS[i]
     # 2) font-select immediates 0x02 -> 0x01
     patched = 0
     for fo in FONT_SELECT:
