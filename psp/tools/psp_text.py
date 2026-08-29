@@ -461,6 +461,12 @@ def build(boot_path, fpb_path, work, new_fpb, new_boot, extra=None):
     src.close()
     print('rebuilt', dict(stats))
 
+def _canon(lines):
+    """decode_string prints a raw byte 0xA1..0xDF as its cp932 halfwidth kana
+    while the English may spell the same byte as {XX} (a tag payload such as
+    {16}{34}{C0}{C0}). Both mean the same byte, so compare them as {XX}."""
+    return [re.sub(r'[｡-ﾟ]', lambda m: '{%02X}' % m.group()[0:1].encode('cp932')[0], l) for l in lines]
+
 def verify(boot_path, fpb_path, work):
     pointers = json.load(open(os.path.join(work, 'pointers.json')))
     boot = open(boot_path, 'rb').read()
@@ -472,9 +478,9 @@ def verify(boot_path, fpb_path, work):
         data, _ = inflate(psp_fpb.read_member(fpb_path, boot, int(name))[0])
         members = scpk_members(data) if info['kind'] == 'scenario' else pak_members(data)
         idx, sced, packed = find_sced(members)
-        got = [r.split('\n') for r in extract_sced(sced, info['addrs'])[0]]
-        want = read_txt(path)
-        orig = read_txt(os.path.join(work, info['kind'], name + '.txt'))
+        got = [_canon(r.split('\n')) for r in extract_sced(sced, info['addrs'])[0]]
+        want = [_canon(r) for r in read_txt(path)]
+        orig = [_canon(r) for r in read_txt(os.path.join(work, info['kind'], name + '.txt'))]
         susp = suspicious_pointers(sced, info['addrs'])
         n += 1
         ok = len(got) == len(want) and all(g == w or (i in susp and g == o) for i, (g, w, o) in enumerate(zip(got, want, orig)))
