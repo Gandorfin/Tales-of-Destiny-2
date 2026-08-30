@@ -73,9 +73,9 @@ I'll keep watch.
 #いいの？
 #<Judas>だって
 #疲れているんじゃ････
-Are you sure?
-Even <Judas> must be
-tired...
+Are you sure, <Judas>?
+You must be tired
+too...
 -----------------------
 <Judas>
 -----------------------
@@ -253,7 +253,7 @@ Th-that's not...
 #<Loni>が、そこまで怒るのって
 #<Kyle>のことだけだもの
 It's about <Kyle>, right?
-<Loni> only ever gets that angry
+<Loni>, you only get that angry
 when it's about <Kyle>.
 -----------------------
 <Reala>
