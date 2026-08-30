@@ -1,0 +1,24 @@
+# Local game images and extracted/built game data (never source-release files).
+*.[iI][sS][oO]
+*.[cC][sS][oO]
+*.[bB][iI][nN]
+*.[fF][pP][bB]
+*.[sS][cC][eE][dD]
+*.[pP][pP][sS][tT]
+*.dmp
+*.log
+__pycache__/
+*.py[cod]
+work/
+build/
+dist/
+PSP/
+FPB/
+SCED/
+SCED_NEW/
+SCPK/
+SCPK_PACKED/
+text/
+pointers.json
+*.zip
+*.7z

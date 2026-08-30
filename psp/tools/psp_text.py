@@ -20,17 +20,17 @@ PS2 translation, insert, rebuild the archive.
         inserts WORK/*_en/*.txt into the SCEDs, rebuilds the SCPK and skit
         packs, repacks the archive (psp_fpb.repack)
 
-Insertion keeps the original text block and appends the changed records
-after it, redirecting only their pointers (append mode). Pointers whose
-target is out of order relative to the others are treated as possible false
-F8 hits and never rewritten. Files where that would exceed the 64 KB pointer
-range are rebuilt from scratch instead, the way the PS2 tools do it.
+Insertion keeps the original text block and appends changed records, redirecting
+only instruction-validated text pointers. Files where that would exceed the
+64 KB pointer range rebuild the text block. Legacy pointer lists containing
+operand-byte false positives are rejected: re-extract them before building.
 """
 import sys, os, re, json, struct, zlib, string, collections
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 import psp_fpb
+import psp_sced
 
 ROOT = os.path.normpath(os.path.join(HERE, '..', '..'))
 TBL = json.load(open(os.path.join(ROOT, 'ps2', 'PyTOD2', 'TBL.json'), encoding='utf-8'))
@@ -53,22 +53,35 @@ JP = re.compile(r'[぀-ヿ一-鿿]')
 # ---------------------------------------------------------------- SCED
 
 def sced_pointers(d):
-    """(address of u16 pointer, text offset) for every F8 pointer whose
-    target sits right after a NUL, in code order."""
-    pb = struct.unpack_from('<I', d, 4)[0]
-    tb = struct.unpack_from('<I', d, 8)[0]
+    """Real F8 instructions whose text targets sit right after a NUL.
+
+    An F8 inside a branch, constant, or variable operand is not an opcode.
+    Scene 06524's old scan rewrote F3 F8 33 24 into F3 F8 B3 5D, damaging
+    a branch and the following instruction and freezing the scene.
+    """
+    _, tb = psp_sced.regions(d)
     n = len(d)
     out = []
-    p = pb
-    while p < tb:
-        if d[p] == 0xF8 and p + 3 <= n:
+    for p, op, _ in psp_sced.instructions(d):
+        if op == 0xF8:
             addr = struct.unpack_from('<H', d, p + 1)[0]
             if 0 < addr < n - tb and d[tb + addr - 1] == 0:
                 out.append((p + 1, addr))
-            p += 3
-        else:
-            p += 1
     return tb, out
+
+
+def validate_pointer_addrs(d, addrs):
+    """Reject old/corrupt metadata before reading or writing its operands."""
+    valid = psp_sced.text_operands(d)
+    invalid = [a for a in addrs if a not in valid]
+    if invalid or len(addrs) != len(set(addrs)):
+        raise ValueError('invalid SCED text-pointer metadata; re-extract before building: '
+                         + ', '.join(hex(a) for a in invalid[:12]))
+    _, tb = psp_sced.regions(d)
+    for at in addrs:
+        target = tb + struct.unpack_from('<H', d, at)[0]
+        if target >= len(d) or d.find(b'\0', target) < 0:
+            raise ValueError(f'invalid SCED text target at operand 0x{at:X}')
 
 def decode_string(d, p):
     out = []
@@ -167,24 +180,23 @@ def read_txt_pairs(path):
 
 def extract_sced(d, addrs=None):
     """Records in pointer order. `addrs` (from a previous extraction) pins the
-    pointer list, so a rebuilt file is read with exactly the pointers that
-    were written; without it the F8 scan decides."""
+    pointer list, after validating instruction boundaries. Without it,
+    instruction decoding determines the genuine F8 text references."""
     tb = struct.unpack_from('<I', d, 8)[0]
     if addrs is None:
         ptrs = sced_pointers(d)[1]
     else:
+        validate_pointer_addrs(d, addrs)
         ptrs = [(at, struct.unpack_from('<H', d, at)[0]) for at in addrs]
     return [decode_string(d, tb + addr) for at, addr in ptrs], [at for at, addr in ptrs]
 
 def suspicious_pointers(d, addrs):
-    """Indices of pointers that look like false F8 hits (an F8 byte inside
-    another instruction's operand whose following bytes happen to point at a
-    string start). Real string pushes follow the text block in order, so a
-    pointer is trusted when the next pointer continues in order from it, or
-    when it continues the order itself. Flagged: a target that is an empty
-    string (a NUL right after a NUL, i.e. padding), and a pointer that
-    breaks the order both against its predecessor and its successor. On this
-    disc that is 5 empties and a handful of others out of 56,048."""
+    """Legacy translation-selection policy, NOT instruction validation.
+
+    Retain the previous handling of empty/out-of-order strings to avoid
+    unrelated translation changes. False opcode hits are rejected separately
+    by validate_pointer_addrs; this ordering heuristic alone is not safe.
+    """
     tb = struct.unpack_from('<I', d, 8)[0]
     seq = [struct.unpack_from('<H', d, at)[0] for at in addrs]
     out = set()
@@ -209,6 +221,7 @@ def insert_sced(d, records, addrs):
     text block is rewritten from scratch, as the PS2 tools do.
     Returns (bytes, mode, skipped)."""
     tb = struct.unpack_from('<I', d, 8)[0]
+    validate_pointer_addrs(d, addrs)
     assert len(records) == len(addrs), 'record count %d != pointer count %d' % (len(records), len(addrs))
     susp = suspicious_pointers(d, addrs)
     enc = [encode_record(r) for r in records]
@@ -230,6 +243,7 @@ def insert_sced(d, records, addrs):
             struct.pack_into('<H', out, addrs[i], pos)
             out += enc[i]
             pos += len(enc[i])
+        psp_sced.validate_code_changes(d, out)
         return bytes(out), 'append', skipped
     out = bytearray(d[:tb]) + b'\x00'
     pos = 1
@@ -238,6 +252,7 @@ def insert_sced(d, records, addrs):
         struct.pack_into('<H', out, at, pos)
         out += b
         pos += len(b)
+    psp_sced.validate_code_changes(d, out)
     return bytes(out), 'rebuild', len(susp)
 
 # ------------------------------------------------------------ containers

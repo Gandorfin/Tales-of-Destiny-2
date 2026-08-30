@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 """One-shot PSP build: Japanese UMD image in, English image out.
 
-    python psp/tools/build_psp.py "Tales of Destiny 2 (Japan).iso" tod2_psp_en.iso [--probe] [--keep WORKDIR]
+    python "psp/jazz tools/build_psp.py" "Tales of Destiny 2 (Japan).iso" tod2_psp_en.iso [--probe] [--keep WORKDIR]
 
 Steps (all from this repository, no other tools):
 1. pull BOOT.BIN and file.fpb out of the image (psp_iso.py)
-2. extract every scenario and skit script (psp_text.py extract)
+2. extract every scenario and skit script using instruction-validated pointers
 3. match each Japanese record against the translated PS2 script and write
    the English versions (psp_text.py match)
-4. insert, rebuild the packages, repack the archive (psp_text.py build)
+4. insert with bytecode-preservation checks, rebuild packages and the archive
 5. decode the new archive and compare with what was inserted (verify)
 6. write the new archive and the executable (as BOOT.BIN and EBOOT.BIN)
    into a copy of the image (psp_iso.py replace)
