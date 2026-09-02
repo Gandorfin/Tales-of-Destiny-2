@@ -865,9 +865,9 @@ earned to start under various conditions."
 08055.md1,0x53008,を料理しました, is ready!
 08055.md1,0x53018,の,'s 
 08055.md1,0x53038,を習得, gained
-08055.md1,0x53040,スペル,Spell
-08055.md1,0x53048,スキル,Skill
-08055.md1,0x53050,エンチャント,Enchant
+08055.md1,0x53040,スペル,"Spell "
+08055.md1,0x53048,スキル,"Skill "
+08055.md1,0x53050,エンチャント,"Enchant "
 08055.md1,0x53060,－秘奥義－,-Mystic Arte-
 08055.md1,0x53070,設定,Config
 08055.md1,0x53078,状態,Status

@@ -1,0 +1,219 @@
+slot,japanese,english
+0,オウルベア,Owlbear
+1,マンドレイク,Mandrake
+2,パイクマン,Pikeman
+3,ヘルマスター,Hellmaster
+4,コボルト,Kobold
+5,バジリスクキング,Basilisk King
+6,エリアルナイト,Aerial Knight
+7,グレムリン,Gremlin
+8,ウェアウルフ,Werewolf
+9,パラサイトウィード,Parasite Weed
+10,ルーンビートル,Rune Beetle
+11,リザードマン,Lizard Man
+12,ウィザード,Wizard
+13,スケルトン,Skeleton
+14,センチュリオン,Centurion
+15,オーガ,Ogre
+16,スライム,Slime
+17,ナイチンゲール,Nightingale
+18,アスプ,Asp
+19,ギガントード,Gigantoad
+20,ザグナル,Zagnal
+21,ガーゴイル,Gargoyle
+22,フォカロル,Focalor
+23,エルダードラゴン,Elder Dragon
+24,プリエステス,Priestess
+25,プリースト,Priest
+26,クラムボン,Clambon
+27,ジェントルマン',Gentleman'
+28,ポイズンテイル,Poison Tail
+29,リビングアーマー,Living Armor
+30,デュラハン,Dullahan
+31,チュンチュン,Chirpee
+32,バウンサー,Bouncer
+33,スペクター,Specter
+34,ネクロノミコン,Necronomicon
+35,ウィッチ,Witch
+36,ロックバブーン,Rock Baboon
+37,リビングデッド,Living Dead
+38,ランドタートル,Land Turtle
+39,スノウ,Snow
+40,スターフィッシュ,Starfish
+41,サンドウォーム,Sand Worm
+42,フェイク,Fake
+43,ワイバーン,Wyvern
+44,リーパー,Reaper
+45,ケンタウロス,Centaur
+46,ハスター,Hastur
+47,グレートオーク,Great Oak
+48,ローレライ,Lorelei
+49,ヴァンパイア,Vampire
+50,ドラゴンフライ,Dragonfly
+51,オキュペテー,Ocypete
+52,ラミア,Lamia
+53,ブラックウィドウ,Black Widow
+54,マンティコア,Manticore
+55,ハルファス,Halphas
+56,インクイジター,Inquisitor
+57,スピリット,Spirit
+58,デストロイヤー,Destroyer
+59,ブエル,Buer
+60,リムル,Limule
+61,アーシーズ,Earthys
+62,アルジャーノン,Algernon
+63,キャリオンクロウラ,Carrion Crawler
+64,アクババ,Akbaba
+65,ハウゼルエッグ,Hausel Egg
+66,ビヤーキー,Byakhee
+67,シーモンク,Sea Monk
+68,バンダースナッチ,Bandersnatch
+69,サマナー,Summoner
+70,フェニックス,Phoenix
+71,アクアンズ,Aquans
+72,ドレッドリーチ,Dread Leech
+73,ノクターナルフライ,Nocturnal Fly
+74,ショヴスリ,Shovsri
+75,サブノック,Sabnock
+76,オセ,Ose
+77,ヘルタスケルター,Helter Skelter
+78,ヘラルド,Herald
+79,ヴァサーゴ,Vassago
+80,オウドゴッギー,Oud Goggy
+81,ビッグフット,Bigfoot
+82,フェンリル,Fenrir
+83,タロス,Talos
+84,フォルネウス,Forneus
+85,フォルネウス,Forneus
+86,ギャザー,Gazer
+87,バンデット,Bandit
+88,リビングソード,Living Sword
+89,エアロス,Aeros
+90,グラシャラボラス,Glasya-Labolas
+91,ウィルオウィスプ,Will-o-Wisp
+92,スナーク,Snark
+93,ブルートリップ,Blue Trip
+94,フレイミーズ,Flamies
+95,パーセキューター,Persecutor
+96,バルバトス,Barbatos
+97,バルバトス,Barbatos
+98,バルバトス,Barbatos
+99,エルレイン,Elraine
+100,オークロット,Oakrot
+101,ウェアラット,Wererat
+102,ヴァルチャー,Vulture
+103,クレリック,Cleric
+104,モンク,Monk
+105,ストーアウォーム,Stoa Worm
+106,バジリスク,Basilisk
+107,シースラッグ,Sea Slug
+108,ピヨピヨ,Peepit
+109,ゲイズハウンド,Gazehound
+110,デザートフライ,Desert Fly
+111,コカドリーユ,Cocadrille
+112,イグニスファッツァス,Ignis Fatuus
+113,メルドウォーム,Meld Worm
+114,ストームライダー,Stormrider
+115,アルケニー,Arachne
+116,カワンチャ,Kawancha
+117,インプ,Imp
+118,フラッガー,Flagger
+119,バシュカー,Bashkar
+120,ティアマット,Tiamat
+121,ゴーレム,Golem
+122,シュリーカー,Shrieker
+123,ヴェパール,Vepar
+124,ダンタリオン,Dantalion
+125,ガープ,Gaap
+126,パンタグリュエル,Pantagruel
+127,ガルガンチュア,Gargantua
+128,アンドラス,Andras
+129,ロック,Roc
+130,ナイトメア,Nightmare
+131,ドラゴニュート,Dragonewt
+132,ジャンヴァバン,Jean Vaban
+133,ケライノー,Celaeno
+134,ラクシャサ,Rakshasa
+135,ボガート,Boggart
+136,ガルム,Garm
+137,ブロッブ,Blob
+138,コーラルクラブ,Coral Crab
+139,ドゥームトード,Doom Toad
+140,アルラウネ,Alraune
+141,エティン,Ettin
+142,リザードロード,Lizard Lord
+143,メイガス,Magus
+144,アヴェンジャー,Avenger
+145,プロトタイプ,Prototype
+146,スティージ,Stirge
+147,ケイブファンガー,Cave Fanger
+148,ギーク,Geek
+149,オンルッカー,Onlooker
+150,ジルコンシェル,Zircon Shell
+151,イースター,Easter
+152,リパーシックル,Reaper Sickle
+153,グレンデル,Grendel
+154,セントエルモ,Saint Elmo
+155,フレスヴェルグ,Hraesvelg
+156,ゴーム,Gorm
+157,ヴァルパイン,Vulpine
+158,ミルメコレオ,Myrmecoleon
+159,コープスリバイバー,Corpse Reviver
+160,リントブルム,Lindwurm
+161,ワイト,Wight
+162,バンシー,Banshee
+163,ラルヴァ,Larva
+164,デス,Death
+165,ベリアル,Belial
+166,トゥルーマジック,True Magic
+167,アエロー,Aello
+168,メデューサ,Medusa
+169,ネレウス,Nereus
+170,ノール,Gnoll
+171,カーカー,Cawker
+172,ラーバウォーム,Lava Worm
+173,トレント,Treant
+174,アルケミスト,Alchemist
+175,サーヴァント,Servant
+176,グラディエーター,Gladiator
+177,ジュエルビースト,Jewel Beast
+178,ナッハツェラー,Nachzehrer
+179,デザートベリー,Desert Berry
+180,アダマントータス,Adamantoise
+181,ラーバモス,Lava Moth
+182,ドラゴントゥース,Dragon's Tooth
+183,ウェンディゴ,Wendigo
+184,ジャバウォック,Jabberwock
+185,クラーケン,Kraken
+186,ベルゼブル,Beelzebul
+187,サイレントキラー,Silent Killer
+188,ローグ,Rogue
+189,ドーマウス,Dormouse
+190,ロストソウル,Lost Soul
+191,ＨＲＸ－２,HRX-2
+192,エニグマ,Enigma
+193,デカラビア,Decarabia
+194,ニャルラトホテプ,Nyarlathotep
+195,セージ,Sage
+196,ビショップ,Bishop
+197,ゴッドハンド,God Hand
+198,マリガン,Mulligan
+199,インペイラー,Impaler
+200,-フォルトゥナ-,-Fortuna-
+201,ファイアエレメンタル,Fire Elemental
+202,アイスエレメンタル,Ice Elemental
+203,アースエレメンタル,Earth Elemental
+204,ウインドエレメンタル,Wind Elemental
+205,エレメントムース,Element Moose
+206,ガリアンソード,Galleon Sword
+207,タナトスナイト,Thanatos Knight
+208,エンジェルナイト,Angel Knight
+209,デッドジェネラル,Dead General
+210,チープトリック,Cheap Trick
+211,ディアボロス,Diabolos
+212,ディバインドラゴン,Divine Dragon
+213,ヴァンパイアロード,Vampire Lord
+214,マグナディウエス,Magnadius
+215,スケアクロウ,Scarecrow
+216,フローズヴィニトル,Hrodvitnir
+217,アラストル,Alastor
