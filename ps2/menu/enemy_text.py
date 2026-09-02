@@ -24,6 +24,13 @@ Usage:
 The CSV columns are file, offset (hex, inside the unpacked member 1),
 bytes (the budget), japanese, english.  Rows with an empty english
 column are left alone.
+
+`build` also patches the battle enemy-name list (the banner shown when an
+encounter starts): 08063.pak1 holds one LZSS member starting with `TEKI`,
+then 256 slots of 0x1C bytes each: a 24-byte name padded with ASCII
+spaces, then four NUL bytes.  It is the only copy on the disc.  The
+English names live in enemy_names.csv (columns slot, japanese, english)
+and are written into the 24-byte field in place.
 """
 import argparse
 import csv
@@ -38,8 +45,13 @@ import md1text as M    # noqa: E402
 import md1patch as P   # noqa: E402
 
 DEFAULT_CSV = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'enemy_translations.csv')
+NAMES_CSV = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'enemy_names.csv')
 LITERAL = re.compile(rb'\x0a[\x00-\x0f]')
 JP = re.compile(r'[぀-ヿ一-鿿]')
+
+TEKI_FILE = '08063.pak1'
+TEKI_STRIDE = 0x1C
+TEKI_NAME_BYTES = 24
 
 
 # ---------------------------------------------------------------- pak1
@@ -133,6 +145,109 @@ def find_literals(data):
         yield p, end - p, text
 
 
+# ---------------------------------------------------- enemy-name list
+
+def teki_member(members):
+    """Return (index, unpacked TEKI name list) or None."""
+    for i, m in enumerate(members):
+        if not lzss.is_packed(m):
+            continue
+        try:
+            d = lzss.unpack(m)
+        except Exception:
+            continue
+        if d[:4] == b'TEKI':
+            return i, d
+    return None
+
+
+def teki_name(data, slot):
+    """Decode the name of one slot (space padding stripped), or None."""
+    off = 4 + slot * TEKI_STRIDE
+    b = data[off:off + TEKI_NAME_BYTES]
+    out = []
+    p = 0
+    while p < len(b) and b[p]:
+        c = b[p]
+        if M.LEAD(c):
+            if p + 1 >= len(b):
+                return None
+            k = str((c << 8) | b[p + 1])
+            if k not in M.TBL:
+                return None
+            out.append(M.TBL[k])
+            p += 2
+        elif 0x20 <= c < 0x7F:
+            out.append(chr(c))
+            p += 1
+        else:
+            return None
+    return ''.join(out).rstrip()
+
+
+def build_teki(args):
+    """Patch the enemy names in the TEKI list of 08063.pak1. Returns error count."""
+    rows = [r for r in load_csv(NAMES_CSV) if r['english']]
+    if not rows:
+        return 0
+    path = os.path.join(args.folder, TEKI_FILE)
+    if not os.path.exists(path):
+        print('  missing %s (enemy-name list)' % TEKI_FILE)
+        return 1
+    raw = open(path, 'rb').read()
+    members = parse_pak1(raw)
+    found = teki_member(members) if members else None
+    if found is None:
+        print('  %s: no TEKI name list found' % TEKI_FILE)
+        return 1
+    idx, data = found
+    data = bytearray(data)
+    changed = skipped = errors = 0
+    for r in rows:
+        slot = int(r['slot'])
+        cur = teki_name(data, slot)
+        if cur is None:
+            print('  %s slot %d: cannot decode' % (TEKI_FILE, slot))
+            errors += 1
+            continue
+        if cur == r['english']:
+            skipped += 1
+            continue
+        if cur != r['japanese']:
+            print('  %s slot %d: file has %r, table expects %r' % (TEKI_FILE, slot, cur, r['japanese']))
+            errors += 1
+            continue
+        try:
+            enc = P.encode(r['english'])
+        except ValueError as e:
+            print('  %s slot %d: %s' % (TEKI_FILE, slot, e))
+            errors += 1
+            continue
+        if len(enc) > TEKI_NAME_BYTES:
+            print('  %s slot %d: %r is %d bytes, field is %d' % (TEKI_FILE, slot, r['english'], len(enc), TEKI_NAME_BYTES))
+            errors += 1
+            continue
+        off = 4 + slot * TEKI_STRIDE
+        data[off:off + TEKI_NAME_BYTES] = enc + b' ' * (TEKI_NAME_BYTES - len(enc))
+        changed += 1
+    if changed and not errors:
+        members = list(members)
+        members[idx] = lzss.pack(bytes(data), 3)
+        out = build_pak1(members)
+        if args.dry_run:
+            print('  would patch %s: %d enemy names (%d -> %d bytes)' % (TEKI_FILE, changed, len(raw), len(out)))
+        else:
+            if not args.no_backup and not os.path.exists(path + '.bak'):
+                os.replace(path, path + '.bak')
+            open(path, 'wb').write(out)
+            print('  patched %s: %d enemy names' % (TEKI_FILE, changed))
+    elif errors:
+        print('  %s left untouched (%d problems)' % (TEKI_FILE, errors))
+    else:
+        print('  %s: all %d enemy names already current' % (TEKI_FILE, skipped))
+    return errors
+
+
 # ----------------------------------------------------------------- CSV
 
 def load_csv(path):
@@ -194,7 +309,21 @@ def cmd_check(args):
             bad += 1
             print('  OVER  %s %s: %d > %s  %r' % (r['file'], r['offset'], len(P.encode(r['english'])), r['bytes'], r['english']))
     print('%d rows, %d with English, %d over budget' % (len(rows), sum(1 for r in rows if r['english']), bad))
-    return bad
+    names = load_csv(NAMES_CSV)
+    nbad = 0
+    for r in names:
+        if not r['english']:
+            continue
+        try:
+            enc = P.encode(r['english'])
+        except ValueError:
+            enc = None
+        if enc is None or len(enc) > TEKI_NAME_BYTES:
+            nbad += 1
+            print('  OVER  %s slot %s: %r' % (TEKI_FILE, r['slot'], r['english']))
+    print('%d enemy names, %d with English, %d over the %d-byte field'
+          % (len(names), sum(1 for r in names if r['english']), nbad, TEKI_NAME_BYTES))
+    return bad + nbad
 
 
 def cmd_build(args):
@@ -261,6 +390,7 @@ def cmd_build(args):
             os.replace(path, path + '.bak')
         open(path, 'wb').write(out)
         print('  patched %s: %d strings' % (name, changed))
+    errors += build_teki(args)
     print('%d strings patched in %d files, %d already current, %d errors' % (patched, files, skipped, errors))
     return errors
 
