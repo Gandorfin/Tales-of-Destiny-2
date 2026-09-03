@@ -25,12 +25,19 @@ The CSV columns are file, offset (hex, inside the unpacked member 1),
 bytes (the budget), japanese, english.  Rows with an empty english
 column are left alone.
 
-`build` also patches the battle enemy-name list (the banner shown when an
-encounter starts): 08063.pak1 holds one LZSS member starting with `TEKI`,
-then 256 slots of 0x1C bytes each: a 24-byte name padded with ASCII
-spaces, then four NUL bytes.  It is the only copy on the disc.  The
-English names live in enemy_names.csv (columns slot, japanese, english)
-and are written into the 24-byte field in place.
+`build` also translates the enemy names themselves, from enemy_names.csv
+(columns slot, japanese, english).  They live in two places:
+
+* the name banner at the start of a battle reads the enemy's own pack:
+  every `ENd` member of a .pak1 (members 1, 4, 5 or 7) carries a parameter
+  block with a 24-byte name field, the TBL name padded with NULs and one
+  data byte last (951 fields in 550 packs on the retail disc).  The English
+  name is written into that field, the data byte and the rest of the block
+  untouched, longest Japanese name first so デス never matches inside
+  デスナイト.
+* 08063.pak1 holds one LZSS member starting with `TEKI`, 256 slots of 0x1C
+  bytes: a 24-byte name padded with ASCII spaces plus four data bytes.
+  It is patched too so both lists agree.
 """
 import argparse
 import csv
@@ -52,6 +59,7 @@ JP = re.compile(r'[぀-ヿ一-鿿]')
 TEKI_FILE = '08063.pak1'
 TEKI_STRIDE = 0x1C
 TEKI_NAME_BYTES = 24
+NAME_FIELD = 24          # enemy-pack name field: name, NUL padding, one data byte
 
 
 # ---------------------------------------------------------------- pak1
@@ -143,6 +151,98 @@ def find_literals(data):
         if end - p < 4 or not JP.search(text):
             continue
         yield p, end - p, text
+
+
+# ------------------------------------------- enemy-name fields in packs
+
+def find_name_fields(data, names):
+    """Offsets of whole name fields in an unpacked ENd member.
+
+    `names` maps Japanese name -> English.  A hit is the encoded Japanese
+    name followed by NULs up to byte NAME_FIELD-1 (the last byte of the
+    field is data).  Longer names are claimed first, so a shorter name that
+    is only the tail or head of a longer one inside the same field is not
+    reported.  Returns [(offset, japanese)] in file order.
+    """
+    pad_end = NAME_FIELD - 1
+    claimed = []
+    hits = []
+    for jp in sorted(names, key=lambda s: -len(P.encode(s))):
+        enc = P.encode(jp)
+        if len(enc) >= pad_end:
+            continue
+        p = data.find(enc)
+        while p >= 0:
+            end = p + pad_end
+            if end < len(data) and data[p + len(enc):end] == b'\0' * (pad_end - len(enc)) \
+                    and not any(a <= p < b or a < end <= b for a, b in claimed):
+                claimed.append((p, end))
+                hits.append((p, jp))
+            p = data.find(enc, p + 1)
+    return sorted(hits)
+
+
+def patch_name_fields(raw, names):
+    """Translate the name fields in every ENd member of one .pak1.
+    Returns (new pack bytes, fields changed); the pack is returned unchanged
+    when nothing matched.  Raises ValueError for an English name that does
+    not leave room for the terminating NUL."""
+    members = parse_pak1(raw)
+    if not members:
+        return raw, 0
+    members = list(members)
+    changed = 0
+    for i, blob in enumerate(members):
+        if not lzss.is_packed(blob):
+            continue
+        try:
+            data = lzss.unpack(blob)
+        except Exception:
+            continue
+        if data[:3] != b'ENd':
+            continue
+        hits = find_name_fields(data, names)
+        if not hits:
+            continue
+        data = bytearray(data)
+        for off, jp in hits:
+            enc = P.encode(names[jp])
+            if len(enc) > NAME_FIELD - 2:
+                raise ValueError('%r is %d bytes, the name field holds %d' % (names[jp], len(enc), NAME_FIELD - 2))
+            data[off:off + NAME_FIELD - 1] = enc + b'\0' * (NAME_FIELD - 1 - len(enc))
+            changed += 1
+        members[i] = lzss.pack(bytes(data), blob[0])
+    if not changed:
+        return raw, 0
+    return build_pak1(members), changed
+
+
+def build_names(args, names=None):
+    """Patch the name fields in every .pak1 of the folder.
+    Returns (files patched, fields changed, errors)."""
+    if names is None:
+        names = {r['japanese']: r['english'] for r in load_csv(NAMES_CSV) if r['english']}
+    files = fields = errors = 0
+    for name in pak1_files(args.folder):
+        path = os.path.join(args.folder, name)
+        raw = open(path, 'rb').read()
+        try:
+            out, changed = patch_name_fields(raw, names)
+        except ValueError as e:
+            print('  %s: %s' % (name, e))
+            errors += 1
+            continue
+        if not changed:
+            continue
+        files += 1
+        fields += changed
+        if args.dry_run:
+            continue
+        if not args.no_backup and not os.path.exists(path + '.bak'):
+            os.replace(path, path + '.bak')
+        open(path, 'wb').write(out)
+    print('  %s%d enemy names in %d packs' % ('would patch ' if args.dry_run else 'patched ', fields, files))
+    return files, fields, errors
 
 
 # ---------------------------------------------------- enemy-name list
@@ -390,6 +490,7 @@ def cmd_build(args):
             os.replace(path, path + '.bak')
         open(path, 'wb').write(out)
         print('  patched %s: %d strings' % (name, changed))
+    errors += build_names(args)[2]
     errors += build_teki(args)
     print('%d strings patched in %d files, %d already current, %d errors' % (patched, files, skipped, errors))
     return errors
