@@ -10,7 +10,7 @@ tables reference offsets inside files you extract yourself.
 |---|---|---|
 | `*.md1` overlay modules in `FILE.FPB` | 516 (+122 inside `00017.pak3`) | items, equipment, shop, refine, enchant, save, status, customize, cooking UI, grade shop, monster book, titles, artes and tactics menus, name entry, battle system and the Battle Memos, world map region labels |
 | `*.pak0` world map scripts in `FILE.FPB` | 261 | signposts, mine entrance labels, map location labels, ferry and minigame text, the flying dragon anchor scene, the ending monologue |
-| `*.pak1` enemy packs in `FILE.FPB` | 159 (89 distinct) + 218 enemy names | enemy arte names shown in battle, the lines bosses shout (Barbatos, Elraine and others) and the enemy-name banner at the start of an encounter (the `TEKI` list in 08063.pak1), via `enemy_text.py` |
+| `*.pak1` enemy packs in `FILE.FPB` | 159 (89 distinct) + 218 enemy names | enemy arte names shown in battle, the lines bosses shout (Barbatos, Elraine and others) and the enemy-name banner at the start of an encounter (the name field in every enemy pack, plus the `TEKI` list in 08063.pak1), via `enemy_text.py` |
 | `06306.scpk` | 1 | the opening caption "And so... eighteen years passed...", a scenario package that predates the proofread range (06307 onward) and has no text file of its own; patched in place inside the package |
 | `SLPS_251.72` | 597 + 277 ops + 27 cut-ins | character titles, plus the earlier Arte / Status / Enchant / Cooking-help menu patch (`slps_menu_patch.json`) and the battle cut-in names of the 27 party artes that still flashed up in kanji, so the executable is complete from a clean English-menu base |
 
@@ -247,17 +247,22 @@ python ps2\menu\enemy_text.py extract ps2\PyTOD2\FPB          # regenerate the C
 python ps2\menu\enemy_text.py check                          # every English line fits its budget
 ```
 
-`build` also patches the enemy-name banner shown when an encounter
-starts. Its source is the `TEKI` list in 08063.pak1 (the only copy on
-the disc): one LZSS member starting with `TEKI`, then 256 slots of 0x1C
-bytes, each a 24-byte name padded with ASCII spaces plus four bytes of
-per-slot data that are left untouched. `enemy_names.csv` (columns slot,
-japanese, english) holds the 218 names; English is written into the
-24-byte field in place. A 2026-09 player screenshot proved this list is
-live (the banner showed Japanese), so the earlier note that 08063 was a
-dead copy was wrong; the name list in 06813.md1 and the category and
-immunity tables at 06813 0x7731 still look dead (the 2008 patch
-relocated the English versions the Monster Book shows).
+`build` also translates the enemy names from `enemy_names.csv` (columns
+slot, japanese, english, 218 names). The name banner at the start of an
+encounter reads the enemy's own pack, not a central list: every `ENd`
+member of a `.pak1` (members 1, 4, 5 or 7) carries a parameter block
+with a 24-byte name field, the TBL name padded with NULs and one data byte
+last. The retail disc has 951 such fields in 550 packs (215 distinct
+names); English is written into the field, the data byte and the stats
+after it untouched, longest Japanese name first so デス is never matched
+inside デスナイト. The `TEKI` list in 08063.pak1 (one LZSS member starting
+with `TEKI`, 256 slots of 0x1C bytes: a 24-byte space-padded name plus
+four data bytes) is patched as well so both lists agree. Gandorff's
+2026-09-03 test showed the banner still Japanese with only the `TEKI`
+list translated, which is how the pack copies were found. The name list
+in 06813.md1 and the category and immunity tables at 06813 0x7731 still
+look dead (the 2008 patch relocated the English versions the Monster
+Book shows).
 
 ## Battle cut-in names of the party artes (`slps_artes.py`)
 
