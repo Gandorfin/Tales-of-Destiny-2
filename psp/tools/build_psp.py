@@ -1,7 +1,11 @@
 #!/usr/bin/env python3
 """One-shot PSP build: Japanese UMD image in, English image out.
 
-    python "psp/jazz tools/build_psp.py" "Tales of Destiny 2 (Japan).iso" tod2_psp_en.iso [--probe] [--keep WORKDIR]
+    python psp/tools/build_psp.py "Tales of Destiny 2 (Japan).iso" tod2_psp_en.iso --version 0.1.1 [--probe] [--keep WORKDIR]
+
+--version X.Y.Z draws "Green Gel Patch vX.Y.Z" on the title screen in place
+of the Japanese designer credit (psp_title.py). Without it the title screen
+keeps the original two lines, so pass it for every release build.
 
 Steps (all from this repository, no other tools):
 1. pull BOOT.BIN and file.fpb out of the image (psp_iso.py)
@@ -21,7 +25,7 @@ import sys, os, re, tempfile, shutil
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
-import psp_iso, psp_text, psp_names, psp_menu, psp_lowercase, psp_fpb, psp_pool, psp_monsters
+import psp_iso, psp_text, psp_names, psp_menu, psp_lowercase, psp_fpb, psp_pool, psp_monsters, psp_title
 
 def add_probes(work):
     p = os.path.join(work, 'scenario_en', '06470.txt')
@@ -35,7 +39,7 @@ def add_probes(work):
     open(p, 'w', encoding='utf-8').write(s)
     print('probes placed in 06470')
 
-def main(iso, out_iso, probe=False, keep=None):
+def main(iso, out_iso, probe=False, keep=None, version=None):
     work = keep or tempfile.mkdtemp(prefix='tod2psp_')
     os.makedirs(work, exist_ok=True)
     boot = os.path.join(work, 'BOOT.BIN')
@@ -70,6 +74,10 @@ def main(iso, out_iso, probe=False, keep=None):
     print('monster book:', dict(_monst))
     _extra = {0: _font}
     _extra.update(_mons)
+    if version:
+        _extra[psp_title.PAK_INDEX] = psp_title.build_member(boot, fpb, psp_title.label_for(version))[0]
+    else:
+        print('title credit: unchanged (pass --version X.Y.Z to draw the patch name on the title screen)')
     psp_text.build(boot, fpb, text, new_fpb, new_boot, extra=_extra)
     if not psp_text.verify(new_boot, new_fpb, text):
         raise SystemExit('verification failed, image not written')
@@ -89,8 +97,12 @@ if __name__ == '__main__':
     if '--keep' in a:
         keep = a[a.index('--keep') + 1]
         a.remove('--keep'); a.remove(keep)
+    version = None
+    if '--version' in a:
+        version = a[a.index('--version') + 1]
+        a.remove('--version'); a.remove(version)
     a = [x for x in a if x != '--probe']
     if len(a) != 2:
         print(__doc__)
         sys.exit(1)
-    main(a[0], a[1], probe, keep)
+    main(a[0], a[1], probe, keep, version)
