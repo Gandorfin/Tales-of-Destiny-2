@@ -48,6 +48,7 @@ cd Tales-of-Destiny-2
 python ps2/menu/patch_menu_text.py ps2/PyTOD2/FPB
 python ps2/menu/sfm_text.py build ps2/PyTOD2/FPB
 python ps2/menu/enemy_text.py build ps2/PyTOD2/FPB
+python ps2/menu/title_credit.py ps2/PyTOD2/FPB --version 1.1.8
 python ps2/menu/patch_slps_titles.py ps2/PyTOD2/SLPS_251.72
 ```
 
@@ -58,6 +59,7 @@ cd C:\Users\you\Tales-of-Destiny-2
 python ps2\menu\patch_menu_text.py ps2\PyTOD2\FPB
 python ps2\menu\sfm_text.py build ps2\PyTOD2\FPB
 python ps2\menu\enemy_text.py build ps2\PyTOD2\FPB
+python ps2\menu\title_credit.py ps2\PyTOD2\FPB --version 1.1.8
 python ps2\menu\patch_slps_titles.py ps2\PyTOD2\SLPS_251.72
 ```
 
@@ -65,6 +67,16 @@ python ps2\menu\patch_slps_titles.py ps2\PyTOD2\SLPS_251.72
 Book and `enemy_text.py build` covers the enemy arte names and boss lines
 in battle (different files, see below); all three must run before Pack
 FPB. Skipping one leaves that part of the game in Japanese.
+
+`title_credit.py` is the title screen: the two copyright lines under the
+menu are a 384x32 texture in `00021.pak3`, not text. The tool redraws the
+first line (the Japanese designer credit) as "Green Gel Patch v1.1.8" and
+keeps the Namco line; give it the version you are releasing. It only touches
+pixels (same texture size and palette), recompresses the member, rebuilds the
+pack and checks its own work, so it can be run again with a new version any
+time before Pack FPB. `--label "text"` draws an exact string instead,
+`--preview strip.png` writes the result as an image for a quick look. No extra
+Python packages are needed (the letters are baked into `title_glyphs.py`).
 
 You can also run them from anywhere by giving the script an absolute path:
 
@@ -86,7 +98,9 @@ rebuilt. The full sequence, with the PyTOD2 button names:
 1. **Unpack FPB** (creates the `FPB` folder).
 2. `python ps2\menu\patch_menu_text.py ps2\PyTOD2\FPB`
    and `python ps2\menu\sfm_text.py build ps2\PyTOD2\FPB` (the Quiz Book)
-   and `python ps2\menu\enemy_text.py build ps2\PyTOD2\FPB` (enemy artes).
+   and `python ps2\menu\enemy_text.py build ps2\PyTOD2\FPB` (enemy artes)
+   and `python ps2\menu\title_credit.py ps2\PyTOD2\FPB --version 1.1.8`
+   (the patch name on the title screen, with the version being released).
 3. Make sure `new_SLPS_251.72` exists next to `SLPS_251.72` (Pack FPB
    writes the new pointer table into it), then
    `python ps2\menu\patch_slps_titles.py ps2\PyTOD2` which patches **both**
