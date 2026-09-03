@@ -56,8 +56,10 @@ welcome as GitHub issues.
 3. Play the patched ISO on PPSSPP or a real PSP (CFW).
 
 The one-command build from source is `python3 psp/tools/build_psp.py <JP.iso>
-<out.iso>` (extracts, patches BOOT.BIN and the archive, verifies, writes the
-English ISO).
+<out.iso> --version 0.1.1` (extracts, patches BOOT.BIN and the archive,
+verifies, writes the English ISO). `--version` is the number that appears as
+"Green Gel Patch v0.1.1" on the title screen, so pass the one you are
+releasing.
 
 ### Making a release (maintainers)
 
@@ -102,13 +104,17 @@ Short version; the details are in `ps2/menu/README.md` ("Applying it") and
 2. Put the translated scenario files into `TXT_EN` and the skits into
    `file/pak1/TXT_EN`, then Pack SCED, Pack SCPK, Insert SKIT, Move Skits IN,
    Pack PAK1.
-3. Apply the menu tables (all four, in this order, from the repository root):
+3. Apply the menu tables (all five, in this order, from the repository root;
+   put the version you are about to release in the last FPB step):
    ```
    python ps2/menu/patch_menu_text.py ps2/PyTOD2/FPB
    python ps2/menu/sfm_text.py build ps2/PyTOD2/FPB
    python ps2/menu/enemy_text.py build ps2/PyTOD2/FPB
+   python ps2/menu/title_credit.py ps2/PyTOD2/FPB --version 1.1.8
    python ps2/menu/patch_slps_titles.py ps2/PyTOD2/SLPS_251.72
    ```
+   `title_credit.py` redraws the Japanese designer credit under the title
+   menu as "Green Gel Patch v1.1.8" (the Namco line below it is kept).
 4. Pack FPB, Insert FONT, and put `new_FILE.FPB` and `new_SLPS_251.72` into
    the ISO.
 5. `python ps2/menu/verify_menu_patch.py your.iso` tells you which parts of
@@ -137,6 +143,8 @@ The whole pipeline is one command, `python3 psp/tools/build_psp.py`, which:
 * translates the Monster Book / bestiary enemy names, which live one PAK level
   deep and then inside a raw-deflate blob in the battle-resource archive
   members (`psp_monsters.py`)
+* redraws the title-screen copyright texture so the Japanese designer credit
+  reads "Green Gel Patch vX.Y.Z" (`psp_title.py`, with `--version`)
 * rebuilds the font member with lowercase glyphs and applies SkyBladeCloud's
   font-selection patch to every ASCII text walker so dialogue, names and menus
   render in mixed case; the bold icon-font menu text (party names in the menu,
