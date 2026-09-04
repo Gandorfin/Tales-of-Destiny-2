@@ -6,6 +6,7 @@ import struct
 import subprocess
 import shutil
 import string
+import importlib.util
 
 low_bits = 0x3F
 high_bits = 0xFFFFFFC0
@@ -124,6 +125,35 @@ def extract_fpb():
     f.close()
 
 def pack_fpb():
+    script = os.path.join(
+        os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+        'menu',
+        'enemy_text.py'
+    )
+    if not os.path.isfile(script):
+        raise RuntimeError(
+            'Enemy text patcher not found; new_FILE.FPB was not built.'
+        )
+
+    print('Applying enemy names and battle text before packing FPB...')
+    spec = importlib.util.spec_from_file_location(
+        'tod2_enemy_text',
+        script
+    )
+    enemy_text = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(enemy_text)
+
+    class Args:
+        folder = 'FPB'
+        csv = enemy_text.DEFAULT_CSV
+        dry_run = False
+        no_backup = True
+
+    if enemy_text.cmd_build(Args):
+        raise RuntimeError(
+            'Enemy text patch failed; new_FILE.FPB was not built.'
+        )
+
     sectors = [0]
     remainders = []
     buffer = 0

@@ -9,12 +9,18 @@ Every enemy has a `pak1` pack in FILE.FPB (08063 onward).  A pak1 is
 
 and member 1 is a comptoe v3 LZSS stream holding an `ENd` script: a
 header with a table of (u32 count, u32 offset) sections, then bytecode.
-The script shows text with the opcode `0A`: one argument byte, then a
+The scripts show text with the opcode `0A`: one argument byte, then a
 NUL-terminated string in the usual TBL encoding, inline in the code.
 Nothing points at these strings, so moving or growing them would shift
 the bytecode that follows.  English is therefore written in place: it
 must fit in the Japanese byte count and is padded with spaces to exactly
 that length, which leaves every offset in the script untouched.
+
+The CSV records the canonical occurrences in member 1.  The same enemy
+scripts are reused in alternate ENd members (usually member 4 or 5), so
+`build` also finds and patches every duplicate of a known Japanese string
+in every ENd member of every pak1.  This is required for battle variants
+such as Rune Uruz that do not load the canonical member.
 
 Usage:
     python enemy_text.py extract <FPB folder> [--csv enemy_translations.csv]
@@ -60,6 +66,18 @@ TEKI_FILE = '08063.pak1'
 TEKI_STRIDE = 0x1C
 TEKI_NAME_BYTES = 24
 NAME_FIELD = 24          # enemy-pack name field: name, NUL padding, one data byte
+
+# Battle literals found only in alternate ENd members, so they have no
+# canonical member-1 row in enemy_translations.csv.  English is constrained
+# to the encoded Japanese byte length at each occurrence.
+EXTRA_TRANSLATIONS = {
+    'サンドシュート': 'Sand Shoot',
+    '-ルミナス・フィールド-': '-Luminous Field-',
+    '-ゲーニウス-': '-Genius-',
+    '-英知のロンド-': '-Wisdom Rondo-',
+    '-リジェネレーション-': '-Regeneration-',
+    '-スパイダーネット-': '-Spider Net-',
+}
 
 
 # ---------------------------------------------------------------- pak1
@@ -151,6 +169,79 @@ def find_literals(data):
         if end - p < 4 or not JP.search(text):
             continue
         yield p, end - p, text
+
+
+def patch_known_literals(raw, translations):
+    """Patch known Japanese literals in every ENd member of one pak1.
+
+    Returns (new pack bytes, strings changed, errors).  The original pack is
+    returned when no known Japanese literal occurs.  Each replacement keeps
+    the original byte budget so script offsets remain unchanged.
+    """
+    members = parse_pak1(raw)
+    if not members:
+        return raw, 0, 0
+    members = list(members)
+    changed = errors = 0
+    for index, blob in enumerate(members):
+        if not lzss.is_packed(blob):
+            continue
+        try:
+            unpacked = lzss.unpack(blob)
+        except Exception:
+            continue
+        if unpacked[:3] != b'ENd':
+            continue
+        data = bytearray(unpacked)
+        member_changed = 0
+        for off, budget, japanese in find_literals(unpacked):
+            english = translations.get(japanese)
+            if not english:
+                continue
+            enc = fit(english, budget)
+            if enc is None:
+                print('  member %d 0x%X: %r does not fit in %d bytes'
+                      % (index, off, english, budget))
+                errors += 1
+                continue
+            data[off:off + budget] = enc
+            member_changed += 1
+        if member_changed:
+            members[index] = lzss.pack(bytes(data), blob[0])
+            changed += member_changed
+    if not changed or errors:
+        return raw, changed, errors
+    return build_pak1(members), changed, 0
+
+
+def build_duplicate_literals(args):
+    """Patch known battle strings in all ENd members and pak1 variants."""
+    translations = {
+        r['japanese']: r['english']
+        for r in load_csv(args.csv)
+        if r['english']
+    }
+    translations.update(EXTRA_TRANSLATIONS)
+    files = strings = errors = 0
+    for name in pak1_files(args.folder):
+        path = os.path.join(args.folder, name)
+        raw = open(path, 'rb').read()
+        out, changed, problems = patch_known_literals(raw, translations)
+        errors += problems
+        if not changed or problems:
+            continue
+        files += 1
+        strings += changed
+        if args.dry_run:
+            print('  would patch %s: %d duplicate strings' % (name, changed))
+            continue
+        if not args.no_backup and not os.path.exists(path + '.bak'):
+            os.replace(path, path + '.bak')
+        open(path, 'wb').write(out)
+        print('  patched %s: %d duplicate strings' % (name, changed))
+    print('  %s%d duplicate battle strings in %d packs'
+          % ('would patch ' if args.dry_run else 'patched ', strings, files))
+    return errors
 
 
 # ------------------------------------------- enemy-name fields in packs
@@ -490,6 +581,7 @@ def cmd_build(args):
             os.replace(path, path + '.bak')
         open(path, 'wb').write(out)
         print('  patched %s: %d strings' % (name, changed))
+    errors += build_duplicate_literals(args)
     errors += build_names(args)[2]
     errors += build_teki(args)
     print('%d strings patched in %d files, %d already current, %d errors' % (patched, files, skipped, errors))

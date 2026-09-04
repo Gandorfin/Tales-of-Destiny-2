@@ -14,7 +14,7 @@ Nothing is written. Exit code 0 if everything is English, 1 otherwise.
 """
 import csv, os, struct, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-import md1text as M, pak3, lzss
+import md1text as M, pak3, lzss, enemy_text
 try:
     sys.stdout.reconfigure(errors="replace")
 except Exception:
@@ -88,6 +88,57 @@ def classify(data, off, jp, en):
     if r[0]==jp: return "jp"
     return "other"
 
+def verify_enemy_text(member):
+    """Verify battle resources separately from ordinary menu records."""
+    rows={}
+    with open(os.path.join(HERE,"enemy_translations.csv"),encoding="utf-8") as fh:
+        for r in csv.DictReader(fh):
+            if r["english"]: rows.setdefault(r["file"],[]).append(r)
+
+    total={"en":0,"jp":0,"other":0}
+    for name,recs in sorted(rows.items()):
+        raw=member(name); members=enemy_text.parse_pak1(raw) if raw else None
+        data=enemy_text.script_of(members) if members else None
+        for r in recs:
+            state="other"
+            if data is not None:
+                decoded=enemy_text.decode_literal(data,int(r["offset"],16))
+                if decoded:
+                    text=decoded[0].rstrip()
+                    if text==r["english"]: state="en"
+                    elif text==r["japanese"]: state="jp"
+            total[state]+=1
+
+    names={"en":0,"jp":0,"other":0}
+    raw=member(enemy_text.TEKI_FILE)
+    members=enemy_text.parse_pak1(raw) if raw else None
+    found=enemy_text.teki_member(members) if members else None
+    teki=found[1] if found else None
+    with open(os.path.join(HERE,"enemy_names.csv"),encoding="utf-8") as fh:
+        for r in csv.DictReader(fh):
+            if not r["english"]: continue
+            text=enemy_text.teki_name(teki,int(r["slot"])) if teki is not None else None
+            if text==r["english"]: names["en"]+=1
+            elif text==r["japanese"]: names["jp"]+=1
+            else: names["other"]+=1
+
+    duplicate_jp=0
+    for index in range(8063,8932):
+        raw=member(f"{index:05d}.pak1")
+        members=enemy_text.parse_pak1(raw) if raw else None
+        if not members: continue
+        for blob in members:
+            if not lzss.is_packed(blob): continue
+            try: data=lzss.unpack(blob)
+            except Exception: continue
+            if data[:3]!=b"ENd": continue
+            duplicate_jp += sum(1 for _off,_size,_text in enemy_text.find_literals(data))
+
+    print(f"{'Enemy text':<12}{total['en']:>8}{total['jp']:>10}{total['other']:>7}")
+    print(f"{'Enemy extras':<12}{'':>8}{duplicate_jp:>10}{'':>7}")
+    print(f"{'Enemy names':<12}{names['en']:>8}{names['jp']:>10}{names['other']:>7}")
+    return duplicate_jp==0 and all(x["jp"]==0 and x["other"]==0 for x in (total,names))
+
 def main():
     args=sys.argv[1:]
     if not args: print(__doc__); return 2
@@ -123,6 +174,7 @@ def main():
             print(f"{name+' > '+which:<12}{en:>8}{jp:>10}{other:>7}  {verdict}   <- the copy the game loads")
     print(f"{'FPB total':<12}{total['en']:>8}{total['jp']:>10}{total['other']:>7}")
     ok = total["jp"]==0 and total["other"]==0
+    ok = verify_enemy_text(member) and ok
     if slps is not None:
         t={"en":0,"jp":0,"other":0}
         with open(os.path.join(HERE,"slps_title_translations.csv"),encoding="utf-8") as fh:

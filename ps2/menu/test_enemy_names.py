@@ -19,6 +19,11 @@ def end_member(*fields):
         body += b'\x11\x00\x00\x00' + f + struct.pack('<I', 782)
     return lzss.pack(body, 3)
 
+def literal_member(text):
+    body = b'ENd\0' + struct.pack('<IIII', 100, 2, 252, 1)
+    body += b'\x0a\x05' + P.encode(text) + b'\0' + b'\x11' * 20
+    return lzss.pack(body, 3)
+
 def pack(*members):
     return E.build_pak1(list(members))
 
@@ -63,6 +68,18 @@ class NameFields(unittest.TestCase):
             E.patch_name_fields(raw, {'オウルベア': 'A' * (E.NAME_FIELD - 1)})
 
 class BuildCommand(unittest.TestCase):
+    def test_patch_known_literals_covers_alternate_end_members(self):
+        raw = pack(b'HEAD', literal_member('-ルーン・ウルズ-'), b'model',
+                   b'anim', literal_member('-ルーン・ウルズ-'))
+        out, changed, errors = E.patch_known_literals(
+            raw, {'-ルーン・ウルズ-': '-Rune Uruz-'})
+        self.assertEqual((changed, errors), (2, 0))
+        members = E.parse_pak1(out)
+        for index in (1, 4):
+            data = lzss.unpack(members[index])
+            self.assertNotIn(P.encode('-ルーン・ウルズ-'), data)
+            self.assertIn(b'-Rune Uruz-', data)
+
     def test_build_names_patches_folder(self):
         with tempfile.TemporaryDirectory() as d:
             open(os.path.join(d, '08670.pak1'), 'wb').write(pack(b'x', end_member(param_block('オウルベア'))))

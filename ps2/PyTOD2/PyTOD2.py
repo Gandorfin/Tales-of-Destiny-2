@@ -13,6 +13,7 @@ import struct
 import subprocess
 import shutil
 import string
+import importlib.util
 
 #Prevents PC becoming hostage
 from subprocess import CREATE_NO_WINDOW
@@ -800,6 +801,46 @@ def move_pak1_packed():
     for f in os.listdir('PAK1_PACKED'):
         shutil.copy(os.path.join('PAK1_PACKED', f), 'FPB/' + f)
 
+
+def apply_enemy_text_patch():
+    """Apply battle text after staged pak1 files have replaced FPB entries.
+
+    The menu workflow edits FPB/*.pak1 directly. Pack FPB historically
+    copied PAK1_PACKED over those files immediately before assembling the
+    archive, silently restoring the Japanese enemy-name tables. Keep this
+    as the final staging step so the bytes verified below are the translated
+    bytes that actually enter FILE_NEW.FPB.
+    """
+    script = os.path.join(
+        os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+        'menu',
+        'enemy_text.py'
+    )
+
+    if not os.path.isfile(script):
+        raise RuntimeError(
+            'Enemy text patcher not found; FILE_NEW.FPB was not built.'
+        )
+
+    print('Applying enemy names and battle text after pak1 staging...')
+    spec = importlib.util.spec_from_file_location(
+        'tod2_enemy_text',
+        script
+    )
+    enemy_text = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(enemy_text)
+
+    class Args:
+        folder = 'FPB'
+        csv = enemy_text.DEFAULT_CSV
+        dry_run = False
+        no_backup = True
+
+    if enemy_text.cmd_build(Args):
+        raise RuntimeError(
+            'Enemy text patch failed; FILE_NEW.FPB was not built.'
+        )
+
 def verify_packed_fpb(
     fpb_path,
     packed_sources,
@@ -860,6 +901,8 @@ def pack_fpb():
 
     if os.path.isdir('PAK1_PACKED'):
         move_pak1_packed()
+
+    apply_enemy_text_patch()
 
     with open('FPB.json', 'r', encoding='utf-8') as json_file:
         json_data = json.load(json_file)
@@ -1480,7 +1523,5 @@ btn.pack(padx = 150, pady = 50)
 #btn_end.pack(anchor="se")
     #padx = 150, pady = 20
 '''
-
-
 
 

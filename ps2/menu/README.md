@@ -10,7 +10,7 @@ tables reference offsets inside files you extract yourself.
 |---|---|---|
 | `*.md1` overlay modules in `FILE.FPB` | 516 (+122 inside `00017.pak3`) | items, equipment, shop, refine, enchant, save, status, customize, cooking UI, grade shop, monster book, titles, artes and tactics menus, name entry, battle system and the Battle Memos, world map region labels |
 | `*.pak0` world map scripts in `FILE.FPB` | 261 | signposts, mine entrance labels, map location labels, ferry and minigame text, the flying dragon anchor scene, the ending monologue |
-| `*.pak1` enemy packs in `FILE.FPB` | 159 (89 distinct) + 218 enemy names | enemy arte names shown in battle, the lines bosses shout (Barbatos, Elraine and others) and the enemy-name banner at the start of an encounter (the name field in every enemy pack, plus the `TEKI` list in 08063.pak1), via `enemy_text.py` |
+| `*.pak1` enemy packs in `FILE.FPB` | 251 occurrences (95 distinct) + 218 enemy names | enemy arte names shown in battle, the lines bosses shout (Barbatos, Elraine and others) and the enemy-name banner at the start of an encounter (the name field in every enemy pack, plus the `TEKI` list in 08063.pak1), via `enemy_text.py` |
 | `06306.scpk` | 1 | the opening caption "And so... eighteen years passed...", a scenario package that predates the proofread range (06307 onward) and has no text file of its own; patched in place inside the package |
 | `SLPS_251.72` | 597 + 277 ops + 27 cut-ins | character titles, plus the earlier Arte / Status / Enchant / Cooking-help menu patch (`slps_menu_patch.json`) and the battle cut-in names of the 27 party artes that still flashed up in kanji, so the executable is complete from a clean English-menu base |
 
@@ -111,6 +111,9 @@ rebuilt. The full sequence, with the PyTOD2 button names:
    comes out complete. An executable that already has the menu patch is
    detected and only gets the titles.
 4. **Pack FPB**. This writes `new_FILE.FPB` and updates `new_SLPS_251.72`.
+   Pack FPB reapplies `enemy_text.py` after copying `PAK1_PACKED` into
+   `FPB`, so staged enemy packs cannot restore the Japanese encounter-name
+   table immediately before the archive is assembled.
 5. Put `new_FILE.FPB` (as `FILE.FPB`) and `new_SLPS_251.72` (as
    `SLPS_251.72`) into the ISO.
 
@@ -238,7 +241,14 @@ inside that script: opcode `0A`, one argument byte, then the NUL-terminated
 text in the usual TBL encoding. Nothing points at them, so the English
 is written in place, padded with spaces to the Japanese byte count, and
 no offset in the script moves. `enemy_translations.csv` holds the 159
-strings (89 distinct) with their byte budgets.
+canonical strings (89 distinct) with their byte budgets. The same scripts
+also occur 61 times in alternate ENd members (usually member 4 or 5) across
+48 packs. `build` patches those reused copies by matching their Japanese
+text, including Rune Uruz and Rune Algiz variants that do not load member 1.
+Six more strings exist only in alternate members, for 31 additional
+occurrences: Sand Shoot, Luminous Field, Genius, Wisdom Rondo,
+Regeneration and Spider Net. They are listed in `EXTRA_TRANSLATIONS` in
+`enemy_text.py` and receive the same in-place, fixed-budget treatment.
 
 ```
 python ps2\menu\enemy_text.py build ps2\PyTOD2\FPB            # patch the pak1 files in place (backups as .bak)
