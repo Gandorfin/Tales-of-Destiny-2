@@ -484,7 +484,7 @@ get equipment with two slots.
 One thing to keep in mind:
 you can only refine equipment
 of the same type, like
-with like... swords with
+with like...swords with
 swords, armor with armor.
 -----------------------
 #他にもいろいろな組み合わせがありますが
@@ -749,7 +749,7 @@ with <button:00000045>.
 #うまく使っていくのが大切だ
 ...It's a waste to let TP go
 unused. Using spells to recover
-SP, for instance... it's
+SP, for instance...it's
 important to manage it wisely.
 -----------------------
 #ＴＰは敵を倒したときも少量回復する
@@ -1183,7 +1183,7 @@ We must stay vigilant.
 -----------------------
 #むう････また戦いにいかねばならんのか
 #つらいのう････
-Mmm... must I go into battle again?
+Mmm...must I go into battle again?
 How dreadful...
 -----------------------
 #やはりステータス異常を回復できる

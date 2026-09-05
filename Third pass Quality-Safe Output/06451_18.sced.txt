@@ -11,7 +11,7 @@ Soldier
 #････あ～あ、毎日毎日
 #謁見者の相手ばっかりかぁ
 Yes, the audience chamber's up
-the stairs ahead. ...Ahh, man. Day
+the stairs ahead. Ahh, man. Day
 after day... Nothing but dealing
 with visitors.
 -----------------------
@@ -22,7 +22,7 @@ Soldier
 #････って、こんな
 #平和な世の中じゃムリか
 I wonder if something huge'll
-happen. ...But in times this
+happen. But in times this
 peaceful? Probably impossible.
 -----------------------
 #兵士
@@ -80,7 +80,7 @@ something?
 Soldier
 -----------------------
 #････う、うぅ････････
-...Ugh... uhh...
+...Ugh...uhh...
 -----------------------
 #兵士
 Soldier
@@ -90,7 +90,7 @@ Soldier
 #あんたたちでも････勝てねえ！
 S-Something insanely strong...!
 ...R-Run...!
-You guys... can't win either!
+You guys...can't win either!
 -----------------------
 #兵士
 Soldier
@@ -133,7 +133,7 @@ Soldier
 #こんなときでも、強い････
 ...So you're going. As expected, a
 hero's son really is different. Even
-at a time like this... he's strong.
+at a time like this...he's strong.
 -----------------------
 <Kyle>
 -----------------------
@@ -219,7 +219,7 @@ Soldier
 #････あ～あ、毎日毎日
 #謁見者の相手ばっかりかぁ
 Yes, the audience chamber's up
-the stairs ahead. ...Ahh, man. Day
+the stairs ahead. Ahh, man. Day
 after day... Nothing but dealing
 with visitors.
 -----------------------
@@ -230,7 +230,7 @@ Soldier
 #････って、こんな
 #平和な世の中じゃムリか
 I wonder if something huge'll
-happen. ...But in times this
+happen. But in times this
 peaceful? Probably impossible.
 -----------------------
 #兵士
@@ -383,8 +383,8 @@ Soldier
 -----------------------
 #はやく、陛下の････もとへ････！
 #････あやつは、とても････強い！
-Hurry... to His Majesty's side...!
-...He's incredibly... strong!
+Hurry...to His Majesty's side...!
+...He's incredibly...strong!
 -----------------------
 #兵士
 Soldier
@@ -392,7 +392,7 @@ Soldier
 #････く、へ、陛下････！
 #いま、おそばに････！
 ...Ngh... Y-Your Majesty...!
-I'm coming... to your side...!
+I'm coming...to your side...!
 -----------------------
 #兵士
 Soldier
@@ -429,7 +429,7 @@ Soldier
 #陛下が、謁見の間でお待ちです
 #････どうか、お話を聞いてください
 <Kyle>! His Majesty is waiting in
-the audience chamber. ...Please,
+the audience chamber. Please,
 hear him out.
 -----------------------
 #兵士
@@ -469,7 +469,7 @@ Soldier
 #あなたは････<Kyle>さんですか!?
 #いや、失礼････まるで
 #別人のように見えたので
-You... are <Kyle>, right!? No, my
+You...are <Kyle>, right!? No, my
 apologies... You looked like a
 completely different person.
 -----------------------
@@ -674,7 +674,7 @@ stairs... ...Is something wrong?
 -----------------------
 #い、いや、なんか目の前に来たら
 #すごく緊張しちゃって････
-N-no, it's just... when you're
+N-no, it's just...when you're
 right there in front of me, I get
 really nervous...
 -----------------------
@@ -775,7 +775,7 @@ Listen up, don't move from here!
 Maid
 -----------------------
 #兵士のみなさんが････ケガを････
-The soldiers... they're hurt...
+The soldiers...they're hurt...
 -----------------------
 #メイド
 Maid
@@ -793,7 +793,7 @@ Maid
 #でも････今は、それをする元気も
 #ないみたいで････
 #なんだか、見てて痛々しいぐらい････
-But... now they don't even have
+But...now they don't even have
 the energy for that anymore... It's
 almost painful just to watch.
 -----------------------
@@ -811,7 +811,7 @@ Maid
 #勝手なお願いだとは、わかっています
 #でも････いわせてください
 I know it's a selfish request.
-But... please let me say it.
+But...please let me say it.
 -----------------------
 #メイド
 Maid
@@ -858,7 +858,7 @@ Maid
 #あのウッドロウさまの笑顔････
 #見てて、胸がいっぱいになっちゃいました
 When the townsfolk offered their
-help... the smile on King Woodrow's
+help...the smile on King Woodrow's
 face... It just filled my heart
 to bursting.
 -----------------------
@@ -910,7 +910,7 @@ be a little more nervous!
 #だけど････どっちかっていうと
 #ワクワクしてるほうが、強いかも！
 I'm a little nervous too, you know!
-But... if anything,
+But...if anything,
 I think I'm more excited!
 -----------------------
 #メイド
@@ -1030,7 +1030,7 @@ a goddess descend.
 -----------------------
 #もうひとつは････<Kyle>のこと
 #すっごく傷つけたなって、思ってる
-And the other... is <Kyle>.
+And the other...is <Kyle>.
 I think you really hurt him.
 -----------------------
 <Nanaly>
@@ -1071,7 +1071,7 @@ I think... I do.
 #これで、終わっちゃったんだと思うと、
 #ちょっと････ううん、すごく、つらい
 When I think about how it's all over
-now, it's just... no, it's really,
+now, it's just...no, it's really,
 really painful.
 -----------------------
 <Nanaly>
