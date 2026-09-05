@@ -1785,7 +1785,7 @@ Then what am I supposed to do?
 #と組み立てるなど、組み合わせを
 #変えるのがまず第一歩だ
 Indeed. "<button:00000017><button:00000045>, <button:00000045>, <button:00000016><button:00000045>" and similar
-combinations -- changing up your
+combinations, changing up your
 strings is the first step.
 -----------------------
 #第二歩はなにさ？

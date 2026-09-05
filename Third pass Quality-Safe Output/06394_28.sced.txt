@@ -100,7 +100,7 @@ What kind of person is he!?
 #ま、英雄王と呼ばれるほどの方だ
 #ただ者じゃないのは、確かだな
 Well, he's called the Hero King for
-a reason. No doubt about it--he's
+a reason. No doubt about it, he's
 no ordinary man.
 -----------------------
 <Reala>
@@ -276,7 +276,7 @@ them how.
 -----------------------
 #そんなことより、船が出港しちまうよ
 #さ、早くいこう
-Forget that--the ship's about to
+Forget that, the ship's about to
 leave! C'mon, let's get going.
 -----------------------
 #船員
@@ -312,7 +312,7 @@ Sailor
 -----------------------
 #おっと、船に乗りたいなら
 #チケットを買ってくんな！
-Whoa there--if you wanna board,
+Whoa there, if you wanna board,
 you'd better buy a ticket!
 -----------------------
 #船員
@@ -1393,7 +1393,7 @@ can prevent them as well.
 #鈍足でもうへとへとじゃあ
 After the fact? Poison <button:00000056>, paralysis
 <button:0000005F>, weakness <button:0000005A>, freezing, and Slow
-to boot--I'm completely worn out.
+to boot. I'm completely worn out.
 -----------------------
 #うそはいけません父さん
 #ステータス異常は一人につき四つまでしか効果は

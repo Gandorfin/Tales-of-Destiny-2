@@ -2041,7 +2041,7 @@ Then what am I supposed to do?!
 #と組み立てるなど、組み合わせを
 #変えるのがまず第一歩だ
 Indeed, "<button:00000017><button:00000045>, <button:00000045>, <button:00000016><button:00000045>" and the
-like -- varying your combinations
+like, varying your combinations
 is the first step.
 -----------------------
 #第二歩はなにさ？
@@ -2206,7 +2206,7 @@ modest stock of each on hand.
 For consumable items, it's not
 the total overall count, but
 how many each person carries
-that matters -- or so the common
+that matters, or so the common
 wisdom among adventurers goes.
 -----------------------
 #でも少ないと、つえー敵で困りがちさ
