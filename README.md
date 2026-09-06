@@ -13,8 +13,8 @@ Website: https://gandorfin.github.io/Tales-of-Destiny-2/
 
 | Version | State |
 |---|---|
-| PS2 (SLPS-25172) | **Complete.** Latest release: **QS v1.1.6F** ([releases](https://github.com/Gandorfin/Tales-of-Destiny-2/releases/latest)) |
-| PSP (ULJS-00097) | **First release: PSP patch v0.1.0.** Full script, skits, menus, items, artes, titles, descriptions and the Monster Book are English; story dialogue now renders in mixed case. A few menu/UI corners are still Japanese (see PSP port below) |
+| PS2 (SLPS-25172) | **Complete.** Latest release: **QS v1.1.9f** ([releases](https://github.com/Gandorfin/Tales-of-Destiny-2/releases/latest)) |
+| PSP (ULJS-00097) | **Playable. Latest release: PSP patch v0.2.0.** Full script, skits, menus, items, artes, titles, descriptions and the Monster Book are English; dialogue, names and menus render in mixed case (SkyBladeCloud's font-selection hack). A few menu/UI corners are still Japanese (see PSP port below) |
 
 The PS2 patch covers the whole game:
 
@@ -25,7 +25,8 @@ The PS2 patch covers the whole game:
   customize, status, tactics, save, name entry, grade shop, Monster Book,
   Battle Memos, battle command labels, memory card messages
 * character titles, party arte names and their battle cut-in banners,
-  enemy arte names and the lines bosses shout in battle
+  mystic arte banners, enemy encounter names, enemy arte names and the
+  lines bosses shout in battle
 * world map labels, signposts, ferry and minigame text, the ending
   monologue, the Quiz Book
 * the in-game videos with dialogue, hard-subtitled
@@ -58,9 +59,9 @@ welcome as GitHub issues.
 3. Play the patched ISO on PPSSPP or a real PSP (CFW).
 
 The one-command build from source is `python3 psp/tools/build_psp.py <JP.iso>
-<out.iso> --version 0.1.1` (extracts, patches BOOT.BIN and the archive,
+<out.iso> --version 0.2.0` (extracts, patches BOOT.BIN and the archive,
 verifies, writes the English ISO). `--version` is the number that appears as
-"Green Gel Patch v0.1.1" on the title screen, so pass the one you are
+"Green Gel Patch v0.2.0" on the title screen, so pass the one you are
 releasing.
 
 ### Making a release (maintainers)
@@ -68,7 +69,7 @@ releasing.
 After building the patched ISO as described below:
 
 ```
-xdelta3 -e -9 -S none -s "Tales of Destiny 2 (Japan).iso" patched.iso "[Green Gel] ToD2 patch v1.1.6F (PS2).xdelta"
+xdelta3 -e -9 -S none -s "Tales of Destiny 2 (Japan).iso" patched.iso "[Green Gel] ToD2 patch v1.1.9f (PS2).xdelta"
 ```
 
 `-S none` turns off the secondary compression that some patchers cannot
@@ -112,11 +113,11 @@ Short version; the details are in `ps2/menu/README.md` ("Applying it") and
    python ps2/menu/patch_menu_text.py ps2/PyTOD2/FPB
    python ps2/menu/sfm_text.py build ps2/PyTOD2/FPB
    python ps2/menu/enemy_text.py build ps2/PyTOD2/FPB
-   python ps2/menu/title_credit.py ps2/PyTOD2/FPB --version 1.1.8
+   python ps2/menu/title_credit.py ps2/PyTOD2/FPB --version 1.1.9f
    python ps2/menu/patch_slps_titles.py ps2/PyTOD2/SLPS_251.72
    ```
    `title_credit.py` redraws the Japanese designer credit under the title
-   menu as "Green Gel Patch v1.1.8" (the Namco line below it is kept).
+   menu as "Green Gel Patch v1.1.9f" (the Namco line below it is kept).
 4. Pack FPB, Insert FONT, and put `new_FILE.FPB` and `new_SLPS_251.72` into
    the ISO.
 5. `python ps2/menu/verify_menu_patch.py your.iso` tells you which parts of
@@ -196,7 +197,7 @@ issue or a PR). What we have worked out so far:
 * **The arte grid uses a fixed-width renderer** that only handles single-byte
   ASCII: it mangles any multi-byte sequence, so neither a dual-tile encoding
   (two half-width letters in one glyph code) nor the game's own `<size>` scale
-  control fixes the overflow there. For v0.1.0 the overflowing arte names are
+  control fixes the overflow there. Since v0.1.0 the overflowing arte names are
   shortened to fit; the proper fix is an `armips` patch to that renderer's
   glyph advance (halve the ASCII step, keep two-byte and control codes).
 * **Monster Book display names** still show Japanese even though the battle
