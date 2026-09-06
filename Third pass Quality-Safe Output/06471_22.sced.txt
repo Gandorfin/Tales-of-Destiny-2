@@ -588,7 +588,7 @@ results: equipment with two slots!
 #同じ種類の装備品でしか
 #リファインできません
 One thing to keep in mind:
-like goes with like...swords
+like goes with like... swords
 with swords, armor with
 armor. You can only Refine
 equipment of the same type.
@@ -645,7 +645,7 @@ your own unique slotted gear!
 #リファインすることができます
 #でも、それは装飾品どうしではありません
 Just between us, accessories
-can also be Refined...but
+can also be Refined... but
 not with other accessories.
 -----------------------
 #装飾品と、装備品のような
@@ -660,7 +660,7 @@ together with equipment.
 The advantage here is that the
 slot you get changes depending
 on what equipment you Refine
-it with...weapon or armor.
+it with... weapon or armor.
 -----------------------
 #また、装飾品は一つしか装備できないので
 #いらない装飾品を、リファインに活用すれば

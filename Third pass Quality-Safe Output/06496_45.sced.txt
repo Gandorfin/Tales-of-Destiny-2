@@ -128,8 +128,8 @@ No dialogue is set for this flag.
 -----------------------
 #やった～♪
 #怪物役が二人もふえたぜ～
-We did it～♪
-Now we've got two more monsters～
+We did it~♪
+Now we've got two more monsters~
 -----------------------
 <Nanaly>
 -----------------------
@@ -149,7 +149,7 @@ My stomach's acting up a bit...
 -----------------------
 #やった～♪
 #怪物役が二人もふえたぜ
-We did it～♪
+We did it~♪
 Now we've got two more monsters.
 -----------------------
 <Kyle>
@@ -300,7 +300,7 @@ is practice for catching prey.
 #これだけ食いもんがあれば
 #もう、はたらかなくていいよな～♪
 With this much grub around,
-I don't gotta work anymore～♪
+I don't gotta work anymore~♪
 -----------------------
 #<Nanaly>が出かけてる間に
 #また新しい武器を作ったんだぜ
@@ -557,7 +557,7 @@ how Hope Town came to be.
 #悪夢の中で見いだした
 #希望の地････
 #それでホープタウンってわけか
-A land of hope...found in the
+A land of hope... found in the
 middle of a nightmare. So that's why
 they call it Hope Town.
 -----------------------
@@ -587,7 +587,7 @@ gonna eat my fill!
 #あっ！
 #そっちのもおいしそう～♪
 Ah!
-That one looks tasty too～♪
+That one looks tasty too~♪
 -----------------------
 <Loni>
 -----------------------
@@ -727,7 +727,7 @@ Old Lady Kurton
 -----------------------
 #ムキィ～ッ！
 #人を勝手に殺すんじゃないよ!!
-Grrr～! Don't go killin' people off
+Grrr~! Don't go killin' people off
 on your own!!
 -----------------------
 <Loni>
@@ -759,7 +759,7 @@ Old Lady Kurton
 -----------------------
 #ふぅ～
 #頭までいたくなってきたよ････
-Whew～
+Whew~
 Even my head's startin' to hurt...
 -----------------------
 #クルトンばあさん
@@ -933,7 +933,7 @@ And... I have somewhere to stop by.
 #あっ、<Nanaly>姉ちゃん！
 #おかえりぃ～！
 Ah, <Nanaly>!
-You're back～!
+You're back~!
 -----------------------
 <Nanaly>
 -----------------------
@@ -975,7 +975,7 @@ Those two? Well, y'see...
 #待てこらっ！
 #こんの悪ガキが～っ！
 Hold it right there!
-You little brats～!
+You little brats~!
 -----------------------
 <Nanaly>
 -----------------------
@@ -1046,7 +1046,7 @@ Hey, <Loni>!
 -----------------------
 #<Nanaly>～
 #こいつらに、なんか言って････
-<Nanaly>～
+<Nanaly>~
 Say something to these guys...
 -----------------------
 <Loni>
@@ -1309,7 +1309,7 @@ been good friends.
 <Reala>
 -----------------------
 #あのお墓って、もしかして････
-That grave over there...could it
+That grave over there... could it
 be...
 -----------------------
 <Judas>
@@ -1345,7 +1345,7 @@ I tend to go on a bit.
 <Reala>
 -----------------------
 #弟さんの････お墓だって聞いたけど
-I heard...that it's your brother's
+I heard... that it's your brother's
 grave.
 -----------------------
 <Nanaly>
@@ -1413,7 +1413,7 @@ and never leave.
 -----------------------
 #安全で清潔だけど････
 #生きてるって実感が、わかない場所でね
-It's safe and clean, but...it's
+It's safe and clean, but... it's
 a place where you never really
 feel alive.
 -----------------------
@@ -1435,7 +1435,7 @@ here, together with Rue.
 #あの子はいつも笑顔だった
 #村のみんなも、ホントによくしてくれた
 It was a short time until he
-died...but he was always smiling.
+died... but he was always smiling.
 And everyone in the village was
 so good to us.
 -----------------------
@@ -1452,7 +1452,7 @@ I'm proud of this village.
 #なぁ、メシの前に
 #雑貨屋でなんか飲んでいかねえか？
 Man, I'm parched. Hey, before we
-eat...wanna grab something to drink
+eat... wanna grab something to drink
 at the general store?
 -----------------------
 <Loni>
@@ -1501,7 +1501,7 @@ you! I'll have a great meal with
 #もう、<Loni>ったら
 #ワガママなんだから～
 Honestly, <Loni>...
-You're so selfish～
+You're so selfish~
 -----------------------
 <Judas>
 -----------------------
@@ -1662,7 +1662,7 @@ Rue is...
 Rue
 -----------------------
 #<Nanaly>姉ちゃ～ん！
-Big Sis <Nanaly>～!
+Big Sis <Nanaly>~!
 -----------------------
 <Kyle>
 -----------------------
@@ -1816,7 +1816,7 @@ reason for us to be here...
 #････いいか、よく聞け
 #そこにいるルーは････ニセモノだ！
 ...Listen up, and listen well.
-The Rue over there...is a fake!
+The Rue over there... is a fake!
 -----------------------
 <Nanaly>
 -----------------------
@@ -1855,7 +1855,7 @@ so full of life...
 -----------------------
 #頭････痛い････
 #････なんで････くっ！
-My head...hurts...
+My head... hurts...
 ...Why... Ngh!
 -----------------------
 <Loni>
@@ -1927,7 +1927,7 @@ you wanted to die.
 -----------------------
 #けどな････それが、現実なんだ
 #ルーは死んだんだ！
-But...that's reality.
+But... that's reality.
 Rue is dead!
 -----------------------
 #ルー
@@ -1946,8 +1946,8 @@ I haven't died, okay!?
 #････････そうだ････よ････
 #ルーは、死んで････なんか････
 ...Rue......
-......That's right...yes...
-Rue is...dead...there's no...
+......That's right... yes...
+Rue is... dead... there's no...
 -----------------------
 <Loni>
 -----------------------
@@ -2069,7 +2069,7 @@ and I've regretted it ever since...
 #ルーが、生きてればとか
 #そんなことばっか、考えてた････
 Deep in the back of my mind, I
-was always...wondering if Rue was
+was always... wondering if Rue was
 still alive... That's all I ever
 thought about...
 -----------------------
@@ -2086,7 +2086,7 @@ satisfied...
 -----------------------
 #あんたと････生きてた時間････
 #全部、忘れちまってた････
-The time I spent...living with
+The time I spent... living with
 you... I forgot all of it...
 -----------------------
 #ルー
@@ -2100,9 +2100,9 @@ Sis, I...
 #でも、それも････おしまい
 #････････姉ちゃん、やっと
 #全部、思い出せたから････だから････
-But that's...over now too...
+But that's... over now too...
 ......Your big sis finally...
-remembered everything...so...
+remembered everything... so...
 -----------------------
 <Nanaly>
 -----------------------
@@ -2154,13 +2154,13 @@ Ngh... Nngh...!
 -----------------------
 #でも、これで････よかったんだ
 #そうだろ？
-But this is...for the best.
+But this is... for the best.
 Right?
 -----------------------
 <Nanaly>
 -----------------------
 #うん････うん････！
-Yeah...yeah...!
+Yeah... yeah...!
 -----------------------
 <Kyle>
 -----------------------
@@ -2301,7 +2301,7 @@ It's a well filled with pure water.
 #雑貨が並んでいる
 #････さすがに貧しいホープタウンから
 #物を持っていくのは気が引ける
-Goods are lined up here. I
+Goods are lined up here. ...I
 feel bad about taking things
 from Hope Town, poor as it is.
 -----------------------
@@ -2314,7 +2314,7 @@ Girl
 #今日も暑いね････
 #あの････そこの仮面をかぶった人
 #････暑くないですか？
-It's hot again today... Um...that
+It's hot again today... Um... that
 person wearing a mask over there...
 ...Isn't it hot?
 -----------------------
