@@ -195,7 +195,7 @@ Businessman
 -----------------------
 #名づけて、「諸刃の剣」！
 #どうです!?
-I call it... the 'Double-Edged
+I call it...the 'Double-Edged
 Blade'! What do you think?!
 -----------------------
 <Loni>
@@ -267,7 +267,7 @@ Neuestadt Merchant
 #さすがは天才といったところか
 So you won't take a job unless the
 materials and the client meet your
-standards... huh? That's the mark
+standards...huh? That's the mark
 of a true genius.
 -----------------------
 #ノイシュタットの商人
@@ -318,7 +318,7 @@ Winters
 #ウィンターズだ
 Hey, welcome.
 I'm Winters, owner of this shop
-Soul & Sword.
+Soul ＆ Sword.
 -----------------------
 #ウィンターズ
 Winters
@@ -370,14 +370,14 @@ Winters
 #伝統だけは長い、古ぼけた店だが
 #よかったら、いろいろ見てってくれ
 I'm Winters, the shopkeeper. Welcome
-to Soul & Sword. It's a worn-down
+to Soul ＆ Sword. It's a worn-down
 old shop, but we've got history.
 Feel free to look around.
 -----------------------
 <Kyle>
 -----------------------
 #伝統が長いって････どれぐらいなの？
-A long history... how long are we
+A long history...how long are we
 talking?
 -----------------------
 #ウィンターズ
@@ -388,7 +388,7 @@ Winters
 My great-grandfather used to
 say... 'A shop with true pedigree,
 stretching back to the Aeth'er
-Wars.'
+Wars'.
 -----------------------
 <Kyle>
 -----------------------
@@ -427,7 +427,7 @@ Winters
 -----------------------
 #そうか、冒険者か
 #ふむ　ならば例の件、頼めるかもしれんな
-I see, adventurers. Hmm... in that
+I see, adventurers. Hmm...in that
 case, I might just be able to ask
 you about that matter.
 -----------------------
@@ -439,7 +439,7 @@ Winters
 #こいつはおそろしく希少価値があって
 #滅多に手に入らないんだ
 <Kyle>, I'm looking for an ore called
-'Berselium.' It's a legendary ore,
+'Berselium'. It's a legendary ore,
 absurdly rare, and nearly impossible
 to find.
 -----------------------
@@ -572,7 +572,7 @@ Acquired <item:000000BF>.
 -----------------------
 #うわあ････すごい！
 #ありがとう、ウィンターズさん！
-Whoa... amazing!
+Whoa...amazing!
 Thanks, Mr. Winters!
 -----------------------
 #ウィンターズ
@@ -644,7 +644,7 @@ Acquired <item:0000011C>.
 -----------------------
 #うわあ････すごい！
 #ありがとう、ウィンターズさん！
-Whoa... amazing!
+Whoa...amazing!
 Thanks, Mr. Winters!
 -----------------------
 #ウィンターズ

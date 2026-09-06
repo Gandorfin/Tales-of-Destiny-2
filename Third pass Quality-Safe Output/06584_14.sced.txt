@@ -62,7 +62,7 @@ Memo
 We must abandon the supplies,
 and evacuate. If both survive,
 I'll leave instructions to disable
-the protection.'
+the protection'.
 -----------------------
 #メモ
 Memo
@@ -74,7 +74,7 @@ Memo
 'Disabling low-level protection
 requires these three chips:
 <item:00000036>, <item:00000037>, <item:00000038>.
-Disable it and obtain <item:00000035>.'
+Disable it and obtain <item:00000035>'.
 -----------------------
 #メモ
 Memo
@@ -87,7 +87,7 @@ Memo
 requires these three keys:
 <item:00000035>, <item:00000033>, <item:00000034>.
 With all three, you can open the
-container deep in the storage room.'
+container deep in the storage room'.
 -----------------------
 #メモ
 Memo
@@ -168,7 +168,7 @@ protection removal key.
 #「マスターキー」「セルキー」「バイオキー」
 #この３つのキーを資材コンテナに使えば
 #プロテクトを解除できるわ
-'Master Key,' 'Cell Key,' 'Bio Key'
+'Master Key', 'Cell Key', 'Bio Key'
 Use these three keys on the supply
 container, and you can remove the
 protection.

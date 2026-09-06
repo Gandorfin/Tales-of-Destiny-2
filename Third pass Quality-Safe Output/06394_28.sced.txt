@@ -100,7 +100,7 @@ What kind of person is he!?
 #ま、英雄王と呼ばれるほどの方だ
 #ただ者じゃないのは、確かだな
 Well, he's called the Hero King for
-a reason. No doubt about it--he's
+a reason. No doubt about it, he's
 no ordinary man.
 -----------------------
 <Reala>
@@ -134,7 +134,7 @@ Ticket Seller
 #おじさん、スノーフリア行きの
 #定期船のチケットちょうだい
 #全部で四枚ね！
-Mister, I need tickets to Snowfria.
+Mister, I need tickets to Frostheim.
 Regular ferry, please!
 Four in total!
 -----------------------
@@ -251,7 +251,7 @@ goddess's blessing be with you...
 #粗暴って････もしかして
 #<Nanaly>たちのことか？
 #ずいぶん失礼だな、あいつ！
-"Rough"? Wait... does he mean
+"Rough"? Wait...does he mean
 <Nanaly> and her people?
 The nerve of that guy!
 -----------------------
@@ -276,7 +276,7 @@ them how.
 -----------------------
 #そんなことより、船が出港しちまうよ
 #さ、早くいこう
-Forget that--the ship's about to
+Forget that, the ship's about to
 leave! C'mon, let's get going.
 -----------------------
 #船員
@@ -312,7 +312,7 @@ Sailor
 -----------------------
 #おっと、船に乗りたいなら
 #チケットを買ってくんな！
-Whoa there--if you wanna board,
+Whoa there, if you wanna board,
 you'd better buy a ticket!
 -----------------------
 #船員
@@ -359,7 +359,7 @@ Young Man
 #キミたち、いいじゃな～い♪
 Those rock-solid physiques!
 And those handsome faces!
-You two are just my type~ ♪
+You two are just my type～ ♪
 -----------------------
 <Kyle>
 -----------------------
@@ -444,7 +444,7 @@ Young Man
 #それじゃあ、僕と同じだネ★
 #僕も、理想の恋人を探すために
 #船乗りになったんだよ
-Then we're the same~ ★
+Then we're the same～ ★
 I became a sailor to search
 for my ideal lover, too.
 -----------------------
@@ -549,7 +549,7 @@ always say.
 -----------------------
 #そっか････失恋したんだな
 #そっとしといてやろうぜ、<Kyle>
-Oh... so he got his heart broken.
+Oh...so he got his heart broken.
 Let's just leave him be, <Kyle>.
 -----------------------
 #船員
@@ -836,7 +836,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Weapon Attacks."
+"Weapon Attacks".
 Would you like to listen in?
 -----------------------
 #さて俺たちも冒険を始めるわけだが、
@@ -906,7 +906,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Base Artes."
+"Base Artes".
 Would you like to listen in?
 -----------------------
 #どうだ、特技を覚えて
@@ -962,7 +962,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Enchant."
+"Enchant".
 Would you like to listen in?
 -----------------------
 #エンチャントも覚えたさ
@@ -1041,7 +1041,7 @@ so quit wasting your time!
 Also, for recovery Magic Artes,
 usage count only increases
 "when used on a target below
-50% HP." Keep that in mind!!
+50% HP". Keep that in mind!!
 -----------------------
 #確かにかすり傷で使っても
 #経験にはならないさ
@@ -1054,7 +1054,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Battle Strategy."
+"Battle Strategy".
 Would you like to listen in?
 -----------------------
 #いろんな敵に遭っても対処できるように、
@@ -1115,7 +1115,7 @@ notice
 #について話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Technical Smash."
+"Technical Smash".
 Would you like to listen in?
 -----------------------
 #テクニカルスマッシュってなにさ？
@@ -1126,7 +1126,7 @@ What's a Technical Smash?
 #テクニカルスマッシュと認定される
 Indeed. Even seasoned warriors
 acknowledge it. Perform a
-"brilliant finishing blow,"
+"brilliant finishing blow",
 and it will be recognized
 as a Technical Smash.
 -----------------------
@@ -1178,7 +1178,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Spirits."
+"Spirits".
 Would you like to listen in?
 -----------------------
 #敵に攻撃しても防御されまくりさ
@@ -1234,7 +1234,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Combo Hits."
+"Combo Hits".
 Would you like to listen in?
 -----------------------
 #連続ヒットってなにさ？
@@ -1291,7 +1291,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Field of Effect."
+"Field of Effect".
 Would you like to listen in?
 -----------------------
 #敵の裏側から攻撃したら有利だと思ったけど
@@ -1347,7 +1347,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Status Effects."
+"Status Effects".
 Would you like to listen in?
 -----------------------
 #戦闘でステータス異常になってしもうた
@@ -1393,7 +1393,7 @@ can prevent them as well.
 #鈍足でもうへとへとじゃあ
 After the fact? Poison <button:00000056>, paralysis
 <button:0000005F>, weakness <button:0000005A>, freezing, and Slow
-to boot--I'm completely worn out.
+to boot. I'm completely worn out.
 -----------------------
 #うそはいけません父さん
 #ステータス異常は一人につき四つまでしか効果は
@@ -1436,7 +1436,7 @@ notice
 #について話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Spirit Blaster."
+"Spirit Blaster".
 Would you like to listen in?
 -----------------------
 #ピンチになっても、スピリッツブラスター
@@ -1545,7 +1545,7 @@ notice
 #について話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Field of Effect."
+"Field of Effect".
 Would you like to listen in?
 -----------------------
 #この間の、敵が出す
@@ -1612,7 +1612,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Battle Grade."
+"Battle Grade".
 Would you like to listen in?
 -----------------------
 #バトルグレードって結局なにさ？
@@ -1623,7 +1623,7 @@ So what exactly is Battle Grade?
 #ダメージの比率とか、空振りとか、
 #同じ技ばかりを使うことも審査されます
 It tallies battle actions to gauge
-your "combat skill," Senpai. Damage
+your "combat skill", Senpai. Damage
 ratios, missed attacks, and
 overusing the same artes
 are all evaluated.
@@ -1674,7 +1674,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Fall Breaks."
+"Fall Breaks".
 Would you like to listen in?
 -----------------------
 #地面にたたきつけられると
@@ -1711,7 +1711,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Battle Difficulty."
+"Battle Difficulty".
 Would you like to listen in?
 -----------------------
 #戦闘難易度を高くするのに、
@@ -1767,7 +1767,7 @@ notice
 #深く話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Normal Attacks."
+"Normal Attacks".
 Would you like to listen in?
 -----------------------
 #慣れてきたから最近は通常攻撃は
@@ -1808,10 +1808,10 @@ What's the second step?
 #<button:00000017><button:00000045>では攻撃力が上がり命中が下がる、
 #<button:00000019><button:00000045>では攻撃力が下がり命中が上がる、
 #<button:00000016><button:00000045>は攻撃力、命中の減少量が少ない、
-<button:00000045>: Attack/accuracy drop greatly.
-<button:00000017><button:00000045>: Attack rises; accuracy falls.
-<button:00000019><button:00000045>: Attack falls; accuracy rises.
-<button:00000016><button:00000045>: Attack/accuracy drop slightly.
+<button:00000045>: Attack/accuracy drop a lot.
+<button:00000017><button:00000045>: Attack up, accuracy down.
+<button:00000019><button:00000045>: Attack down, accuracy up.
+<button:00000016><button:00000045>: Both drop only a little.
 -----------------------
 #以上を覚えておけ！
 #<button:00000045>による攻撃は効果範囲が広く、
@@ -1857,7 +1857,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Long Conversations."
+"Long Conversations".
 Would you like to listen in?
 -----------------------
 #ためになる話も十年くらい聞いてると
@@ -1904,7 +1904,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Item Drops."
+"Item Drops".
 Would you like to listen in?
 -----------------------
 #冒険者として生きるからには
@@ -1930,7 +1930,7 @@ What's the rumor?
 "Apparently, the more items of
 the same type you carry, the lower
 the chance that enemies will drop
-items." That's what they say.
+items". That's what they say.
 -----------------------
 #そりゃ困るさ　全部売るさ
 Well, that's a problem.

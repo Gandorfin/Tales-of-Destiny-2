@@ -47,7 +47,7 @@ Soldier
 -----------------------
 #い、いえっ！
 #なんでもありません！
-N-No!
+N-no!
 It's nothing!
 -----------------------
 #兵士
@@ -232,7 +232,7 @@ Soldier
 #十八年前みたいだって、上官とかは
 #なつかしそうに、言ってました
 I don't really remember it myself,
-but... my superiors said it's just
+but...my superiors said it's just
 like eighteen years ago. They talked
 about it so fondly.
 -----------------------
@@ -301,7 +301,7 @@ just like Stahn!
 #う、う～ん････
 #夢をこわすみたいで、悪いけど
 #そんなに、カッコイイもんじゃないよ
-Uhh... hmm... Sorry, I feel like
+Uhh...hmm... Sorry, I feel like
 I'm crushing your dream here, but
 he's not *that* cool.
 -----------------------
@@ -374,7 +374,7 @@ legend.
 -----------------------
 #「生ける伝説」だってさ！
 #いや～、なんかすごいよね！
-"Living legend," they said!
+"Living legend", they said!
 Wow, that's amazing!
 -----------------------
 #兵士
@@ -446,8 +446,8 @@ Soldier
 -----------------------
 #おれの･･ことは、いい！
 #････陛下を････たのむ････！
-Don't... worry about me!
-...Please... protect... His
+Don't...worry about me!
+...Please...protect... His
 Majesty...!
 -----------------------
 #兵士
@@ -456,8 +456,8 @@ Soldier
 #謁見･･の････間は････
 #････守りが、手薄････！
 #いそ････げ････！
-The audience... chamber...
-...Its defenses... are thin...!
+The audience...chamber...
+...Its defenses...are thin...!
 Hur...ry...!
 -----------------------
 #兵士
@@ -478,7 +478,7 @@ Soldier
 #そして、レンズを････！
 I'm counting on you, son of the hero
 Stahn. Show them what you're made
-of! And... the Lens...!
+of! And...the Lens...!
 -----------------------
 <Kyle>
 -----------------------
@@ -494,7 +494,7 @@ Soldier
 -----------------------
 #････おまえさん、本当にあの子か？
 #昨日とは、まるで別人だ････
-Wait... are you really that girl?
+Wait...are you really that girl?
 You're nothing like you were
 yesterday.
 -----------------------
@@ -818,7 +818,7 @@ He's incredible!
 #そこにいるだけで、なんかこう
 #「英雄～っ！」って感じなんだよ！
 Just standing there, you can feel
-it... like 'Now that's a hero!'
+it...like 'Now that's a hero!'
 -----------------------
 <Kyle>
 -----------------------
@@ -834,7 +834,7 @@ his own kid! And get this!
 #「彼は親から英雄の素質を確実に
 #　受け継いでいるようだからね」
 "He has undoubtedly inherited the
-makings of a hero from his parents."
+makings of a hero from his parents".
 -----------------------
 <Kyle>
 -----------------------
@@ -938,7 +938,7 @@ were having the time of your life.
 #････決してな
 But someone who can't even think
 about their comrades will never
-become a hero. ...Never.
+become a hero. Never.
 -----------------------
 <Kyle>
 -----------------------
@@ -989,7 +989,7 @@ Stahn's son. Don't deny it.
 #「スタンの息子」として見だしたんだ
 From that moment on, they stopped
 seeing <Kyle> as <Kyle>. They only saw
-him as "Stahn's son."
+him as "Stahn's son".
 -----------------------
 <Loni>
 -----------------------
@@ -1038,7 +1038,7 @@ That's the kind of hero he means.
 #言ってやらなくてはいけないんだ
 #････たとえ、あいつが傷つこうと
 If that's so, then someone has to
-tell him plainly. ...Even if it
+tell him plainly. Even if it
 wounds him.
 -----------------------
 <Loni>

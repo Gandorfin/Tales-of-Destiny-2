@@ -16,6 +16,8 @@ on:
     paths:
       - 'Third pass Quality-Safe Output/**'
       - 'third pass skits safe output/**'
+      - 'ps2/PyTOD2/TXT_EN/**'
+      - 'ps2/PyTOD2/FILE/pak1/TXT_EN/**'
       - 'scripts/audit_translation.py'
       - '.github/workflows/translation-audit.yml'
   push:

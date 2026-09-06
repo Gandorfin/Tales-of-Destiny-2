@@ -237,8 +237,8 @@ Woman
 #振るなんて
 #もったいないわよねー！
 To reject someone as wonderful
-as that... what a waste,
-don't you think~!
+as that...what a waste,
+don't you think～!
 -----------------------
 #女性
 Woman
@@ -361,8 +361,8 @@ Woman
 #振るなんて
 #もったいないわよねー！
 To reject someone as wonderful
-as that... what a waste,
-don't you think~!
+as that...what a waste,
+don't you think～!
 -----------------------
 #女性
 Woman
@@ -558,7 +558,7 @@ Young Man
 #ぼく
 #ハイデルベルグ城の騎士に
 #志願しようと思うんです
-I... want to volunteer to become a
+I...want to volunteer to become a
 knight of Heidelberg Castle.
 -----------------------
 #若者
@@ -624,7 +624,7 @@ knight in this peaceful world...
 #一番なんだけど････
 That's true enough.
 Having nothing happen at all
-would be for the best... but...
+would be for the best...but...
 -----------------------
 #若者
 Young Man
@@ -664,7 +664,7 @@ Young Man
 #そう････ですよね････
 #くそっ････騎士になっていれば
 #ぼくだって････
-So... that's how it is... Damn
+So...that's how it is... Damn
 it... If only I were a knight...
 then I could've...
 -----------------------
@@ -736,7 +736,7 @@ Young Man
 To me, who had wanted to become a
 knight, Father said, "Even if you
 don't become a knight, you can still
-protect something."
+protect something".
 -----------------------
 #若者
 Young Man
@@ -806,7 +806,7 @@ Man
 #ハァ～
 #ふところが寒すぎて
 #心の中までこごえそうだよ
-*sigh*~ My pockets are so empty,
+*sigh*～ My pockets are so empty,
 I feel like my heart's freezing
 over too.
 -----------------------
@@ -955,8 +955,8 @@ Man
 #金がないよう････もうけたいよう････
 #寒いよう････もうけたいよう････
 #もうけ太陽！
-No money... wanna make some...
-It's cold... wanna make some...
+No money...wanna make some...
+It's cold...wanna make some...
 Profit Sun!
 -----------------------
 #おじさん
@@ -1081,7 +1081,7 @@ Woman
 #なに、なに今の!?
 #お城のほう････よね？
 What was that!?
-From the castle... right?
+From the castle...right?
 -----------------------
 #女性
 Woman
@@ -1138,7 +1138,7 @@ Woman
 #そっか････そうよね
 #十八年前だって、立ち直れたんだもの
 #今度だって！
-You're right... of course.
+You're right...of course.
 We bounced back eighteen years ago.
 We can do it again!
 -----------------------
@@ -1424,7 +1424,7 @@ This is so exciting!
 <Reala>
 -----------------------
 #<Kyle>ーっ!!
-<Kyle>--!!
+<Kyle>!!
 -----------------------
 <Kyle>
 -----------------------
@@ -1436,7 +1436,7 @@ This is so exciting!
 #はぁ、はぁ････
 #もう！　<Kyle>ったら
 #すごい勢いで走るんだもの！
-Haa... haa...
+Haa...haa...
 Geez, <Kyle>! You ran off
 at full speed!
 -----------------------
@@ -1544,7 +1544,7 @@ Let's go, <Kyle>!
 #中身は････建材のようだ
 A massive barrel, as
 tall as a person. Inside
-are... building materials.
+are...building materials.
 -----------------------
 #店の軒先にたくさんの木箱が積まれている
 Many wooden crates are stacked
@@ -1617,12 +1617,12 @@ for fuel is piled up here.
 #『１本１ガルド　１０本９ガルド』
 Price tags were stuck to
 the firewood. 'One stick: 1
-Gald. Ten sticks: 9 Gald.'
+Gald. Ten sticks: 9 Gald'.
 -----------------------
 #装備品屋の看板だ
 #『ソウル＆ソード』
 It's a sign for an equipment shop.
-'Soul & Sword'
+'Soul ＆ Sword'
 -----------------------
 #ドラム缶の中で火が燃えている
 A fire is burning inside a drum can.
@@ -2020,7 +2020,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Weapon Attacks."
+"Weapon Attacks".
 Would you like to listen in?
 -----------------------
 #さて俺たちも冒険を始めるわけだが、
@@ -2091,7 +2091,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Base Artes."
+"Base Artes".
 Would you like to listen in?
 -----------------------
 #どうだ、特技を覚えて
@@ -2123,7 +2123,7 @@ Then I'll just spam normal attacks <button:00000045>.
 #うまく使っていくのが大切だ
 ...It's a waste to let TP go to
 waste. Using spells to recover
-SP, for example... making the
+SP, for example...making the
 most of it is what matters.
 -----------------------
 #ＴＰは敵を倒したときも少量回復する
@@ -2142,7 +2142,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Enchant."
+"Enchant".
 Would you like to listen in?
 -----------------------
 #エンチャントも覚えたさ
@@ -2157,7 +2157,7 @@ I've learned Enchant too.
 Indeed. Simply put, it's "the
 ability to customize learned
 Base Artes and Magic Artes to
-suit your own preferences."
+suit your own preferences".
 -----------------------
 #まずは使い続けて使用回数を上げること！
 #そうすれば様々なエンチャントが
@@ -2233,7 +2233,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Battle Strategy."
+"Battle Strategy".
 Would you like to listen in?
 -----------------------
 #いろんな敵に遭っても対処できるように、
@@ -2264,7 +2264,7 @@ guard uses powerful spells?
 #「術を使わせるな」で
 #詠唱をジャマするのさ
 I memorized this yesterday.
-"Don't let them cast."
+"Don't let them cast".
 Interrupt their incantations.
 -----------------------
 #まあそんな感じだ
@@ -2293,7 +2293,7 @@ notice
 #について話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Technical Smash."
+"Technical Smash".
 Would you like to listen in?
 -----------------------
 #テクニカルスマッシュってなにさ？
@@ -2304,7 +2304,7 @@ What's a Technical Smash?
 #テクニカルスマッシュと認定される
 Indeed. Even battle professionals
 acknowledge it: perform a
-"brilliant finishing blow," and
+"brilliant finishing blow", and
 it's certified as a Technical Smash.
 -----------------------
 #テクニカルスマッシュで敵を倒すと、
@@ -2355,7 +2355,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Spirits."
+"Spirits".
 Would you like to listen in?
 -----------------------
 #敵に攻撃しても防御されまくりさ
@@ -2376,7 +2376,7 @@ your Spirits in a single attack.
 #減らすと回避の能力も落ちる････
 #そこを狙うのもいいだろう
 Bait them into missing, reducing
-their Spirits... and their
+their Spirits...and their
 evasion drops too. Targeting
 that opening is a sound tactic.
 -----------------------
@@ -2411,7 +2411,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Consecutive Hits."
+"Consecutive Hits".
 Would you like to listen in?
 -----------------------
 #連続ヒットってなにさ？
@@ -2470,7 +2470,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Field of Effect."
+"Field of Effect".
 Would you like to listen in?
 -----------------------
 #敵の裏側から攻撃したら有利だと思ったけど
@@ -2525,7 +2525,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Status Effects."
+"Status Effects".
 Would you like to listen in?
 -----------------------
 #戦闘でステータス異常になってしもうた
@@ -2555,7 +2555,7 @@ We must stay vigilant.
 -----------------------
 #むう････また戦いにいかねばならんのか
 #つらいのう････
-Ugh... must I go into battle again?
+Ugh...must I go into battle again?
 This is agony...
 -----------------------
 #やはりステータス異常を回復できる
@@ -2613,7 +2613,7 @@ notice
 #について話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Spirit Blaster Mode."
+"Spirit Blaster Mode".
 Would you like to listen in?
 -----------------------
 #ピンチになっても、スピリッツブラスター
@@ -2720,7 +2720,7 @@ notice
 #について話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Field of Effect."
+"Field of Effect".
 Would you like to listen in?
 -----------------------
 #この間の、敵が出す
@@ -2784,7 +2784,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Battle Grade."
+"Battle Grade".
 Would you like to listen in?
 -----------------------
 #バトルグレードって結局なにさ？
@@ -2848,7 +2848,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Recovery."
+"Recovery".
 Would you like to listen in?
 -----------------------
 #地面にたたきつけられると
@@ -2885,7 +2885,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Battle Difficulty."
+"Battle Difficulty".
 Would you like to listen in?
 -----------------------
 #戦闘難易度を高くするのに、
@@ -2942,7 +2942,7 @@ notice
 #深く話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Normal Attack."
+"Normal Attack".
 Would you like to listen in?
 -----------------------
 #慣れてきたから最近は通常攻撃は
@@ -2983,10 +2983,10 @@ What's the second step?
 #<button:00000017><button:00000045>では攻撃力が上がり命中が下がる、
 #<button:00000019><button:00000045>では攻撃力が下がり命中が上がる、
 #<button:00000016><button:00000045>は攻撃力、命中の減少量が少ない、
-<button:00000045>: Attack/accuracy drop greatly.
-<button:00000017><button:00000045>: Attack rises; accuracy falls.
-<button:00000019><button:00000045>: Attack falls; accuracy rises.
-<button:00000016><button:00000045>: Attack/accuracy drop slightly.
+<button:00000045>: Attack/accuracy drop a lot.
+<button:00000017><button:00000045>: Attack up, accuracy down.
+<button:00000019><button:00000045>: Attack down, accuracy up.
+<button:00000016><button:00000045>: Both drop only a little.
 -----------------------
 #以上を覚えておけ！
 #<button:00000045>による攻撃は効果範囲が広く、
@@ -3031,7 +3031,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Long Stories."
+"Long Stories".
 Would you like to listen in?
 -----------------------
 #ためになる話も十年くらい聞いてると
@@ -3076,7 +3076,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Item Acquisition."
+"Item Acquisition".
 Would you like to listen in?
 -----------------------
 #冒険者として生きるからには
@@ -3101,7 +3101,7 @@ What's the rumor?
 "It seems the more items of the
 same type you carry, the lower
 the chance enemies will drop
-items." That's what they're saying.
+items". That's what they're saying.
 -----------------------
 #そりゃ困るさ　全部売るさ
 Well, that's a pain.

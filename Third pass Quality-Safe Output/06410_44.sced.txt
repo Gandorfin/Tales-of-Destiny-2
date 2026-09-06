@@ -44,7 +44,7 @@ you feel like a very small person.
 #････<Kyle>がガルドをいただいてしまったため
 #噴水には１ガルドも入っていない････
 'Toss some Gald into the
-Fountain of Fortune.'
+Fountain of Fortune'.
 ......Since <Kyle> took the Gald,
 there isn't a single Gald
 left in the fountain......
@@ -293,7 +293,7 @@ Young Man
 #ありきたりだが、コングマンと
 #伝説のチャンプ・英雄スタンだな
 My heroes are pretty standard, I
-guess-- Kongman and the legendary
+guess: Kongman and the legendary
 champ, the hero Stahn.
 -----------------------
 #青年
@@ -776,7 +776,7 @@ Sailor
 #「さすらい」と言ってるにもかかわらず
 #もう三年もこの街でくらしてるのさ････
 I'm Joe, the wandering sailor. Even
-though I call myself 'wandering,'
+though I call myself 'wandering',
 I've been living in this town for
 three years now...
 -----------------------
@@ -833,8 +833,8 @@ Woman
 -----------------------
 #キャ～！スッテキィィ～ッ!!
 #応援するから、がんばってねぇっ♪
-Kyaa~! You're so cool~!! I'll cheer
-for you, so do your best~! ♪
+Kyaa! You're so cool!! I'll cheer
+for you, so do your best～! ♪
 -----------------------
 <Loni>
 -----------------------
@@ -848,8 +848,8 @@ Woman
 -----------------------
 #キャ～！スッテキィィ～ッ!!
 #応援するから、がんばってねぇっ♪
-Kyaa~! You're so cool~!! I'll cheer
-for you, so do your best~! ♪
+Kyaa! You're so cool!! I'll cheer
+for you, so do your best～! ♪
 -----------------------
 #女性
 Woman
@@ -880,7 +880,7 @@ Woman
 #ステキな人があらわれないかしら★
 Oh, I wonder if someone wonderful
 will appear who can surpass
-the legendary champion~ ★
+the legendary champion～ ★
 -----------------------
 #女の子
 Girl
@@ -907,7 +907,7 @@ Girl
 #はやてのように
 #かけぬけるんだから♪
 He dashes from corner to corner
-like a gale~! ♪
+like a gale～! ♪
 -----------------------
 #女の子
 Girl
@@ -925,7 +925,7 @@ Girl
 #「すかたん＝えろりん」とかゆ～
 #ヘンな、なまえだったの
 I think his name was
-'Skatan Erolin' or something~
+'Skatan Erolin' or something～
 What a weird name!
 -----------------------
 <Kyle>
@@ -1348,7 +1348,7 @@ Thug
 #つ、強ぇ････
 #････つよ、すぎ････る････
 S-so strong...
-Too... strong...
+Too...strong...
 -----------------------
 #リムル
 Rhym
@@ -1409,7 +1409,7 @@ Well...
 Girl
 -----------------------
 #ああ････おねえさま････
-Ahh... my lady...
+Ahh...my lady...
 -----------------------
 #リムル
 Rhym
@@ -1493,7 +1493,7 @@ Hmm...
 -----------------------
 #ヒュ～♪
 #かっ飛ばしてんなぁ！
-Hoo~♪
+Hoo～♪
 She's really fired up!
 -----------------------
 #リムル
@@ -1529,7 +1529,7 @@ Rhym
 -----------------------
 #まわる････走る････
 #････できるだけ、速く････
-Going around... running...
+Going around...running...
 ...as fast as I possibly can...
 -----------------------
 #リムル
@@ -1566,7 +1566,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Weapon Attacks."
+"Weapon Attacks".
 Would you like to listen in?
 -----------------------
 #さて俺たちも冒険を始めるわけだが、
@@ -1639,7 +1639,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Base Artes."
+"Base Artes".
 Would you like to listen in?
 -----------------------
 #どうだ、特技を覚えて
@@ -1694,7 +1694,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Enchant."
+"Enchant".
 Would you like to listen in?
 -----------------------
 #エンチャントも覚えたさ
@@ -1709,7 +1709,7 @@ I've learned Enchant too.
 Indeed. Simply put, it's
 "the ability to customize
 your learned Base Artes and
-Magic Artes to your liking."
+Magic Artes to your liking".
 -----------------------
 #まずは使い続けて使用回数を上げること！
 #そうすれば様々なエンチャントが
@@ -1774,7 +1774,7 @@ count, so it's a waste!
 Also, for recovery Magic Artes,
 your usage count only increases
 "when used on a target whose
-HP is below 50%." Be careful!!
+HP is below 50%". Be careful!!
 -----------------------
 #確かにかすり傷で使っても
 #経験にはならないさ
@@ -1787,7 +1787,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Battle Strategy."
+"Battle Strategy".
 Would you like to listen in?
 -----------------------
 #いろんな敵に遭っても対処できるように、
@@ -1819,7 +1819,7 @@ uses powerful Magic Artes?
 #「術を使わせるな」で
 #詠唱をジャマするのさ
 I memorized it yesterday.
-"Don't let them cast."
+"Don't let them cast".
 You interrupt their incantations.
 -----------------------
 #まあそんな感じだ
@@ -1848,7 +1848,7 @@ notice
 #について話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Technical Smash."
+"Technical Smash".
 Would you like to listen in?
 -----------------------
 #テクニカルスマッシュってなにさ？
@@ -1859,7 +1859,7 @@ What's a Technical Smash?
 #テクニカルスマッシュと認定される
 Indeed. Even seasoned warriors
 acknowledge it. Execute a 'brilliant
-finishing blow,' and it is
+finishing blow', and it is
 certified as a Technical Smash.
 -----------------------
 #テクニカルスマッシュで敵を倒すと、
@@ -1911,7 +1911,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Spirits."
+"Spirits".
 Would you like to listen in?
 -----------------------
 #敵に攻撃しても防御されまくりさ
@@ -1966,7 +1966,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Continuous Hit."
+"Continuous Hit".
 Would you like to listen in?
 -----------------------
 #連続ヒットってなにさ？
@@ -2025,7 +2025,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Field of Effect."
+"Field of Effect".
 Would you like to listen in?
 -----------------------
 #敵の裏側から攻撃したら有利だと思ったけど
@@ -2080,7 +2080,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Status Effects."
+"Status Effects".
 Would you like to listen in?
 -----------------------
 #戦闘でステータス異常になってしもうた
@@ -2167,7 +2167,7 @@ notice
 #について話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Spirit Blaster."
+"Spirit Blaster".
 Would you like to listen in?
 -----------------------
 #ピンチになっても、スピリッツブラスター
@@ -2277,7 +2277,7 @@ notice
 #について話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Field of Effect."
+"Field of Effect".
 Would you like to listen in?
 -----------------------
 #この間の、敵が出す
@@ -2342,7 +2342,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Battle Grade."
+"Battle Grade".
 Would you like to listen in?
 -----------------------
 #バトルグレードって結局なにさ？
@@ -2405,7 +2405,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Recovery."
+"Recovery".
 Would you like to listen in?
 -----------------------
 #地面にたたきつけられると
@@ -2441,7 +2441,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Battle Difficulty."
+"Battle Difficulty".
 Would you like to listen in?
 -----------------------
 #戦闘難易度を高くするのに、
@@ -2497,7 +2497,7 @@ notice
 #深く話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Normal Attacks."
+"Normal Attacks".
 Would you like to listen in?
 -----------------------
 #慣れてきたから最近は通常攻撃は
@@ -2539,10 +2539,10 @@ What's the second step?
 #<button:00000017><button:00000045>では攻撃力が上がり命中が下がる、
 #<button:00000019><button:00000045>では攻撃力が下がり命中が上がる、
 #<button:00000016><button:00000045>は攻撃力、命中の減少量が少ない、
-<button:00000045>: Attack/accuracy drop greatly.
-<button:00000017><button:00000045>: Attack rises; accuracy falls.
-<button:00000019><button:00000045>: Attack falls; accuracy rises.
-<button:00000016><button:00000045>: Attack/accuracy drop slightly.
+<button:00000045>: Attack/accuracy drop a lot.
+<button:00000017><button:00000045>: Attack up, accuracy down.
+<button:00000019><button:00000045>: Attack down, accuracy up.
+<button:00000016><button:00000045>: Both drop only a little.
 -----------------------
 #以上を覚えておけ！
 #<button:00000045>による攻撃は効果範囲が広く、
@@ -2587,7 +2587,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Long Conversations."
+"Long Conversations".
 Would you like to listen in?
 -----------------------
 #ためになる話も十年くらい聞いてると
@@ -2631,7 +2631,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Item Drops."
+"Item Drops".
 Would you like to listen in?
 -----------------------
 #冒険者として生きるからには
@@ -2657,7 +2657,7 @@ What's the rumor?
 "Apparently, the more items of
 the same type you carry, the lower
 the chance of enemies dropping
-items." That's what they say.
+items". That's what they say.
 -----------------------
 #そりゃ困るさ　全部売るさ
 Well, that's a problem.

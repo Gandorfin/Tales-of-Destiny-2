@@ -81,11 +81,15 @@ EXTRA_TRANSLATIONS = {
     '-スパイダーネット-': '-Spider Net-',
 }
 
-# Player Mystic Arte banners embedded in efD battle-effect scripts.  These
-# fields are inline bytecode and cannot grow safely.  The familiar full names
-# (for example, "Azure Devastation" and "Annihilating Crash") exceed the
-# original 8-12 byte slots, so compact localized banner forms are used.
+# Mystic Arte banners embedded in efD battle-effect scripts.  The katakana
+# names are Shift-JIS and have room for their normal English names.  The kanji
+# names use the game's table encoding in shorter slots, so compact localized
+# banner forms are used where the familiar full names do not fit.
 MYSTIC_ARTE_TRANSLATIONS = {
+    'クリティカルブレード': 'Critical Blade',
+    'スパイラルドライバー': 'Spiral Driver',
+    'ファイナルプレイヤー': 'Final Prayer',
+    'ワイルド・ギース': 'Wild Geese',
     '裂衝蒼破塵': 'Azure Dust',
     '絶破滅焼撃': 'Annihilate',
     '魔人千裂衝': 'Demon Rend',
@@ -148,7 +152,28 @@ def script_of(members):
 # ------------------------------------------------------------- strings
 
 def decode_literal(data, p):
-    """Decode the NUL-terminated literal at p. Returns (text, end) or None."""
+    """Decode the NUL-terminated literal at p. Returns (text, end) or None.
+
+    Literals use the game's table encoding; the katakana mystic arte names in
+    the efD effect scripts are plain Shift-JIS instead, so a literal that is
+    not table text is tried as Shift-JIS before giving up."""
+    r = _decode_table_literal(data, p)
+    if r is not None:
+        return r
+    end = data.find(b'\0', p)
+    if end < 0 or end == p:
+        return None
+    raw = data[p:end]
+    try:
+        text = raw.decode('shift_jis')
+    except UnicodeDecodeError:
+        return None
+    if text.encode('shift_jis') != raw or not JP.search(text):
+        return None
+    return text, end
+
+
+def _decode_table_literal(data, p):
     out = []
     n = len(data)
     while p < n and data[p] != 0:
@@ -188,7 +213,11 @@ def find_literals(data):
 
 
 def patch_known_literals(raw, translations):
-    """Patch known Japanese literals in every ENd/efD member of one pak1.
+    """Patch known Japanese literals in every supported script member.
+
+    This includes enemy ``ENd`` members and the ``efD`` effect scripts used
+    by party and enemy Mystic-Arte cut-in banners.  Replacements stay within
+    the original literal's byte budget so script offsets remain unchanged.
 
     Returns (new pack bytes, strings changed, errors).  The original pack is
     returned when no known Japanese literal occurs.  Each replacement keeps

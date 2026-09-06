@@ -8,13 +8,13 @@ tables reference offsets inside files you extract yourself.
 
 | Where | Strings | What |
 |---|---|---|
-| `*.md1` overlay modules in `FILE.FPB` | 516 (+122 inside `00017.pak3`) | items, equipment, shop, refine, enchant, save, status, customize, cooking UI, grade shop, monster book, titles, artes and tactics menus, name entry, battle system and the Battle Memos, world map region labels |
+| `*.md1` overlay modules in `FILE.FPB` | 525 (+122 inside `00017.pak3`) | items, equipment, shop, refine, enchant, save, status, customize, cooking UI, grade shop, monster book, titles, artes and tactics menus, name entry, battle system and the Battle Memos, world map region labels |
 | `*.pak0` world map scripts in `FILE.FPB` | 261 | signposts, mine entrance labels, map location labels, ferry and minigame text, the flying dragon anchor scene, the ending monologue |
 | `*.pak1` enemy packs in `FILE.FPB` | 256 occurrences (100 distinct) + 218 enemy names | enemy arte and Mystic Arte names shown in battle, the lines bosses shout (Barbatos, Elraine and others) and the enemy-name banner at the start of an encounter (the name field in every enemy pack, plus the `TEKI` list in 08063.pak1), via `enemy_text.py` |
 | `06306.scpk` | 1 | the opening caption "And so... eighteen years passed...", a scenario package that predates the proofread range (06307 onward) and has no text file of its own; patched in place inside the package |
 | `SLPS_251.72` | 597 + 277 ops + 27 cut-ins | character titles, plus the earlier Arte / Status / Enchant / Cooking-help menu patch (`slps_menu_patch.json`) and the battle cut-in names of the 27 party artes that still flashed up in kanji, so the executable is complete from a clean English-menu base |
 
-The table has 778 FPB records. Eleven of them (the Battle Memo category
+The table has 787 FPB records. Eleven of them (the Battle Memo category
 headings such as ＜特技習得＞, and four cooking menu labels) use three
 character codes that `TBL.json` does not list; the decoder fills those in
 (`0x9A7D` ＜, `0x9A7E` ＞, `0x9DD5` 熟).
@@ -70,8 +70,11 @@ FPB. Skipping one leaves that part of the game in Japanese.
 
 `title_credit.py` is the title screen: the two copyright lines under the
 menu are a 384x32 texture in `00021.pak3`, not text. The tool redraws the
-first line (the Japanese designer credit) as "Green Gel Patch v1.1.8" and
-keeps the Namco line; give it the version you are releasing. It only touches
+first line (the Japanese designer credit) as "Green Gel v1.1.8" and keeps
+the Namco line; give it the version you are releasing. The title screen
+draws that first line as a sprite about 96 pixels wide (the width of the
+Japanese credit), which is why the label is short and condensed and why the
+tool refuses a wider one. It only touches
 pixels (same texture size and palette), recompresses the member, rebuilds the
 pack and checks its own work, so it can be run again with a new version any
 time before Pack FPB. `--label "text"` draws an exact string instead,

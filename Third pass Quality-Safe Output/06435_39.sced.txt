@@ -39,14 +39,14 @@ A snowman shaped like a chef.
 #　天地戦争の終結後に造られた歴史ある街』
 "You are now in the Old Town of
 Heidelberg, a historic district
-built after the Aeth'er Wars."
+built after the Aeth'er Wars".
 -----------------------
 #『ハイデルベルグ記念公園へお越しの方は
 #　このまま城を左手に見ながら進んで下さい』
 "Those heading to Heidelberg
 Memorial Park, please
 continue forward with
-the castle on your left."
+the castle on your left".
 -----------------------
 #おじさん
 Man
@@ -160,9 +160,9 @@ Man
 #ひとつ掘っては、みなのため～♪
 #ふたつ掘っては
 #ウッドロウさまのため～っと！
-One scoop for everyone~♪
+One scoop for everyone～♪
 Two scoops more
-for Lord Woodrow~!
+for Lord Woodrow～!
 -----------------------
 #おじさん
 Man
@@ -201,7 +201,7 @@ Young Man
 #足下がおぼつかないですからね
 #････うわあっ！
 After all, just like me, you're not
-quite steady on your feet. ...Whoa!
+quite steady on your feet. Whoa!
 -----------------------
 #若者
 Young Man
@@ -219,7 +219,7 @@ Young Man
 #フ、あなたがたは
 #デート中ですね
 #顔を見ればわかります
-Heh, you two... are on a date,
+Heh, you two...are on a date,
 aren't you? I can tell just by
 looking at your faces.
 -----------------------
@@ -388,7 +388,7 @@ Young Man
 #フ、あなたがたは
 #デート中ですね
 #顔を見ればわかります
-Heh, you two... are on a date,
+Heh, you two...are on a date,
 aren't you? I can tell just by
 looking at your faces.
 -----------------------
@@ -474,7 +474,7 @@ Young Man
 #世界を、ほろぼすのを、止める････？
 #････あの、ボク
 #冗談でいったんだけど････
-Stop the world... from being
+Stop the world...from being
 destroyed...? ...Um, I... I was
 only joking...
 -----------------------
@@ -664,7 +664,7 @@ Kid
 #ドラゴンだ！　本物のドラゴンだ！
 #すっげぇ～～～～っ！
 It's a dragon! A real dragon!
-Wooaaahhhh~!
+Wooaaahhhh～!
 -----------------------
 #子供
 Kid
@@ -672,7 +672,7 @@ Kid
 #ドラゴンだ！　本物のドラゴンだ！
 #すっげぇ～～～～っ！
 It's a dragon! A real dragon!
-Wooaaahhhh~!
+Wooaaahhhh～!
 -----------------------
 <Loni>
 -----------------------
@@ -687,8 +687,8 @@ Kid
 -----------------------
 #え～、つまんない～！
 #本物のドラゴン、おれも見る～！
-Aww, that's no fun~!
-I wanna see a real dragon too~!
+Aww, that's no fun～!
+I wanna see a real dragon too～!
 -----------------------
 #子供
 Kid
@@ -706,7 +706,7 @@ Kid
 #ドラゴン、飛んでっちゃった････
 #つまんねえの～！
 The dragon flew away...
-Booooring~!
+Booooring～!
 -----------------------
 <Nanaly>
 -----------------------
@@ -812,7 +812,7 @@ Kid
 #ガォ～!!
 #息が白いから
 #ドラゴンみたいでしょ
-Gao~!!
+Gao～!!
 My breath's all white,
 so it's like I'm a dragon, right?
 -----------------------
@@ -846,7 +846,7 @@ Kid
 -----------------------
 #ガォ～!!
 #お口くさい攻撃だぁ
-Gao~!!
+Gao～!!
 It's a stinky breath attack!
 -----------------------
 #おじいさん
@@ -883,7 +883,7 @@ that's all there was to it.
 -----------------------
 #へえ～
 #なんかいい話だな
-Huh~
+Huh～
 That's a nice story.
 -----------------------
 #おじいさん
@@ -993,7 +993,7 @@ That's all there was to it.
 -----------------------
 #へえ～
 #なんかいい話だな
-Well, well~
+Well, well～
 Sounds like a nice story.
 -----------------------
 #おじいさん
@@ -1147,7 +1147,7 @@ Grid
 #････あぁ･･･････真っ白な････花畑････
 #もうすぐ････そこへ････
 ...Ah...... A field of pure
-white...... flowers...... Soon......
+white......flowers...... Soon......
 I'll be there......
 -----------------------
 #ミリー
@@ -1170,7 +1170,7 @@ John
 ......
 -----------------------
 #返事が無い　ついでに意識も無いようだ
-No reply... and it looks like
+No reply...and it looks like
 he's lost consciousness too.
 -----------------------
 #ジニー
@@ -1467,15 +1467,15 @@ Grid
 To think I can't even pay for
 lodging... And I call myself one
 of the Jet-Black Wings...
-How... humiliating...
+How...humiliating...
 -----------------------
 #グリッド
 Grid
 -----------------------
 #････････だが････だんだん････
 #････気持ち････よく････？
-......But... gradually...
-...doesn't it feel... good...?
+......But...gradually...
+...doesn't it feel...good...?
 -----------------------
 #グリッド
 Grid
@@ -1493,7 +1493,7 @@ John
 #おやびん、寝ちゃダメでやんす！
 #寝たら････寝たら････
 Boss, you can't fall asleep!
-If you sleep... if you sleep...
+If you sleep...if you sleep...
 -----------------------
 #ジョン
 John

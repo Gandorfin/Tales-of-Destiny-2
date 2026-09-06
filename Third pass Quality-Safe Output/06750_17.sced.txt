@@ -47,7 +47,7 @@ Acquired <item:000000EB>.
 #青年を描いた絵が入っている
 #････若き日のウッドロウ王のようだ
 It contains a painting of
-a young man. ...It looks
+a young man. It looks
 like King Woodrow in his youth.
 -----------------------
 #戸棚の中には本が入っていた
@@ -116,7 +116,7 @@ Woman
 #「おねえさん」じゃなくて
 #チェルシーよ
 #チェルシー＝トーン
-Not "miss."
+Not "miss".
 It's Chelsea.
 Chelsea Torn.
 -----------------------
@@ -169,7 +169,7 @@ Eighteen years ago.
 #そっか････先の騒乱のときに
 #ベルクラントで壊されたのか････
 I see... So during that earlier
-disturbance... it was destroyed
+disturbance...it was destroyed
 by Belcrant...
 -----------------------
 #チェルシー
@@ -180,7 +180,7 @@ Chelsea
 #その街の名前は「ジェノス」
 Yes. It was struck directly by
 Belcrant and lost. The name of that
-town was 'Janos.'
+town was 'Janos'.
 -----------------------
 #チェルシー
 Chelsea
@@ -214,7 +214,7 @@ Chelsea
 #でも････それでも
 #ここに住んでた人たちにとっては
 #故郷であることに、変わりないわ
-But... even so,
+But...even so,
 to the people who lived here,
 this is still their homeland.
 -----------------------
@@ -270,7 +270,7 @@ Chelsea
 -----------------------
 #そっか････きみも
 #とり戻そうとしてるんだ
-I see... so you're
+I see...so you're
 trying to get it back too.
 -----------------------
 <Kyle>
@@ -444,7 +444,7 @@ Woman
 #でも････それでも
 #ここに住んでた人たちにとっては
 #故郷であることに、変わりないわ
-But... even so,
+But...even so,
 to the people who lived here,
 this is still their homeland.
 -----------------------
@@ -796,7 +796,7 @@ Acquired <item:FFFFFFFF>.
 <Kyle>
 -----------------------
 #この弓････ずいぶん使いこんでるね
-This bow... it's seen a lot of use.
+This bow...it's seen a lot of use.
 -----------------------
 #チェルシー
 Chelsea
@@ -824,7 +824,7 @@ Chelsea
 #狩りにも、冒険にも････
 The two of us took that bow
 and went everywhere together.
-Hunting, adventuring... you name it.
+Hunting, adventuring...you name it.
 -----------------------
 <Kyle>
 -----------------------

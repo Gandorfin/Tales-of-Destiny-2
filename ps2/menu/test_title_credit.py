@@ -76,7 +76,7 @@ class Ps2Pack(unittest.TestCase):
         others = [lzss.pack(bytes([k]) * 300) for k in range(8)]
         others[1] = lzss.pack(strip)
         container = pak3.build(others)
-        out, new_strip, info = T.patch_pak3(container, 'Green Gel Patch v1.1.8')
+        out, new_strip, info = T.patch_pak3(container, 'Green Gel v1.1.8')
         members = pak3.parse(out)
         self.assertEqual(len(members), 8)
         for k, (_, b) in enumerate(members):
@@ -84,6 +84,14 @@ class Ps2Pack(unittest.TestCase):
                 self.assertEqual(b, others[k])
         self.assertEqual(lzss.unpack(members[1][1]), new_strip)
         self.assertEqual(T.rows_below_band(new_strip), T.rows_below_band(strip))
+
+    def test_label_wider_than_the_visible_sprite_rejected(self):
+        strip = make_strip(w=384, fill_rows=(4, 24))
+        others = [lzss.pack(bytes([k]) * 300) for k in range(8)]
+        others[1] = lzss.pack(strip)
+        container = pak3.build(others)
+        with self.assertRaises(T.TitleError):
+            T.patch_pak3(container, 'Green Gel Patch v1.1.8')   # 117 px, only 96 are drawn
 
     def test_wrong_size_rejected(self):
         container = pak3.build([lzss.pack(b'x' * 64), lzss.pack(make_strip(w=128))])

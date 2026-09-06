@@ -19,9 +19,10 @@ def end_member(*fields):
         body += b'\x11\x00\x00\x00' + f + struct.pack('<I', 782)
     return lzss.pack(body, 3)
 
-def literal_member(text, signature=b'ENd'):
+def literal_member(text, signature=b'ENd', encoding='table'):
     body = signature + b'\0' + struct.pack('<IIII', 100, 2, 252, 1)
-    body += b'\x0a\x05' + P.encode(text) + b'\0' + b'\x11' * 20
+    encoded = text.encode('shift_jis') if encoding == 'shift_jis' else P.encode(text)
+    body += b'\x0a\x05' + encoded + b'\0' + b'\x11' * 20
     return lzss.pack(body, 3)
 
 def pack(*members):
@@ -81,12 +82,17 @@ class BuildCommand(unittest.TestCase):
             self.assertIn(b'-Rune Uruz-', data)
 
     def test_patch_known_literals_covers_mystic_arte_efd_members(self):
-        raw = pack(literal_member('裂衝蒼破塵', b'efD'), b'model')
+        raw = pack(literal_member('裂衝蒼破塵', b'efD'),
+                   literal_member('クリティカルブレード', b'efD', 'shift_jis'),
+                   b'model')
         out, changed, errors = E.patch_known_literals(raw, E.MYSTIC_ARTE_TRANSLATIONS)
-        self.assertEqual((changed, errors), (1, 0))
-        data = lzss.unpack(E.parse_pak1(out)[0])
-        self.assertNotIn(P.encode('裂衝蒼破塵'), data)
-        self.assertIn(b'Azure Dust', data)
+        self.assertEqual((changed, errors), (2, 0))
+        table_data = lzss.unpack(E.parse_pak1(out)[0])
+        shift_jis_data = lzss.unpack(E.parse_pak1(out)[1])
+        self.assertNotIn(P.encode('裂衝蒼破塵'), table_data)
+        self.assertIn(b'Azure Dust', table_data)
+        self.assertNotIn('クリティカルブレード'.encode('shift_jis'), shift_jis_data)
+        self.assertIn(b'Critical Blade', shift_jis_data)
 
     def test_build_names_patches_folder(self):
         with tempfile.TemporaryDirectory() as d:

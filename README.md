@@ -79,7 +79,8 @@ only the changed sectors end up in the diff.
 
 | Path | What |
 |---|---|
-| `ps2/scenarios/`, `ps2/skits/` | the translated script, one text file per scene or skit; Japanese lines are marked with `#`, English follows |
+| `Third pass Quality-Safe Output/`, `third pass skits safe output/` | the maintained scenario and skit source trees; Japanese lines are marked with `#`, English follows |
+| `ps2/PyTOD2/TXT_EN/`, `ps2/PyTOD2/FILE/pak1/TXT_EN/` | synchronized build-ready copies of the scenario and skit sources |
 | `ps2/menu/` | menu, title, Quiz Book, enemy arte and cut-in translation tables and the scripts that apply them (`README.md` there explains the full apply sequence) |
 | `ps2/PyTOD2/` | archive tool for `FILE.FPB`: unpack, insert text, repack (GUI and command line) |
 | `scripts/audit_translation.py` | checks the script for crash-class problems and layout issues; runs on every pull request |
@@ -90,9 +91,9 @@ only the changed sectors end up in the diff.
 | `docs/` | the website (GitHub Pages) and the hex/Japanese converter tools |
 | `dictionary/`, `tm2_converter/`, `pakcomposer/` | helper data and tools |
 
-The `*_output` folders in the root are earlier passes of the translation
-pipeline, kept for reference; `ps2/scenarios` and `ps2/skits` are the
-current text.
+The `ps2/scenarios` and `ps2/skits` folders are older extracts kept for
+reference. The two Third pass folders remain maintained sources and must
+stay byte-for-byte synchronized with their `TXT_EN` release copies.
 
 ## Building the PS2 patch from source
 
@@ -102,9 +103,10 @@ Short version; the details are in `ps2/menu/README.md` ("Applying it") and
 1. Extract `FILE.FPB` and `SLPS_251.72` from the Japanese ISO into
    `ps2/PyTOD2/` and run PyTOD2: Unpack FPB, Organize FPB, Unpack SCPK,
    Unpack SCED, Unpack PAK1, Move Skits OUT, Extract SKIT.
-2. Put the translated scenario files into `TXT_EN` and the skits into
-   `file/pak1/TXT_EN`, then Pack SCED, Pack SCPK, Insert SKIT, Move Skits IN,
-   Pack PAK1.
+2. The maintained Third pass sources are mirrored in
+   `ps2/PyTOD2/TXT_EN` and `ps2/PyTOD2/FILE/pak1/TXT_EN`; the audit requires
+   each pair to be byte-for-byte identical. Build from the `TXT_EN` copies,
+   then Pack SCED, Pack SCPK, Insert SKIT, Move Skits IN, and Pack PAK1.
 3. Apply the menu tables (all five, in this order, from the repository root;
    put the version you are about to release in the last FPB step):
    ```
@@ -115,7 +117,9 @@ Short version; the details are in `ps2/menu/README.md` ("Applying it") and
    python ps2/menu/patch_slps_titles.py ps2/PyTOD2/SLPS_251.72
    ```
    `title_credit.py` redraws the Japanese designer credit under the title
-   menu as "Green Gel Patch v1.1.9f" (the Namco line below it is kept).
+   menu as "Green Gel v1.1.9f" (the Namco line below it is kept). The game
+   draws only the first 96 pixels of that line, so the label is short and
+   condensed; the tool refuses anything wider.
 4. Pack FPB, Insert FONT, and put `new_FILE.FPB` and `new_SLPS_251.72` into
    the ISO.
 5. `python ps2/menu/verify_menu_patch.py your.iso` tells you which parts of

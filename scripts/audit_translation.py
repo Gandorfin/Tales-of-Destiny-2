@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """Automated quality audit for the translated .sced.txt script files.
 
-Scans the third-pass output folders and reports problems in two severity
-groups:
+Scans the build-ready ``ps2/PyTOD2`` translation folders and reports
+problems in two severity groups.  It also requires the maintained Third pass
+source trees to be byte-for-byte identical to those release inputs.
 
 CRITICAL (these can crash the game or hide text, and should never grow):
   code-mismatch        Runtime/control codes in the English do not match the
@@ -22,6 +23,8 @@ CRITICAL (these can crash the game or hide text, and should never grow):
   interleaved-english  An English line sits between two Japanese source
                        lines inside one record (usually a leftover draft
                        fragment).
+  source-drift         A maintained Third pass source file differs from its
+                       build-ready TXT_EN copy, or is missing on either side.
 
 INFO (quality signals, reported but not build-breaking):
   layout-width         A rendered segment exceeds 36 visible characters
@@ -48,8 +51,10 @@ import re
 import sys
 from collections import Counter, defaultdict
 
-SCENARIO_DIR = 'Third pass Quality-Safe Output'
-SKIT_DIR = 'third pass skits safe output'
+SCENARIO_DIR = os.path.join('ps2', 'PyTOD2', 'TXT_EN')
+SKIT_DIR = os.path.join('ps2', 'PyTOD2', 'FILE', 'pak1', 'TXT_EN')
+SOURCE_SCENARIO_DIR = 'Third pass Quality-Safe Output'
+SOURCE_SKIT_DIR = 'third pass skits safe output'
 
 DIVIDER = re.compile(r'^-{5,}\s*$')
 CODE = re.compile(r'<[^<>\n]+>|\{[0-9A-Fa-f]{2}\}')
@@ -69,7 +74,7 @@ MAX_LINES = 5
 MAX_PAGE = 126
 
 CRITICAL = ('code-mismatch', 'untranslated', 'misplaced-japanese',
-            'interleaved-english')
+            'interleaved-english', 'source-drift')
 INFO = ('layout-width', 'layout-lines', 'layout-page', 'term-drift')
 
 
@@ -178,6 +183,37 @@ def run_audit(root):
         counts[folder] = len(names)
         for name in names:
             audit_file(os.path.join(fdir, name), is_scen, findings, term_map)
+
+    for source_folder, build_folder in (
+            (SOURCE_SCENARIO_DIR, SCENARIO_DIR),
+            (SOURCE_SKIT_DIR, SKIT_DIR)):
+        source_dir = os.path.join(root, source_folder)
+        build_dir = os.path.join(root, build_folder)
+        if not os.path.isdir(source_dir) or not os.path.isdir(build_dir):
+            findings['source-drift'].append({
+                'source': source_folder,
+                'build': build_folder,
+                'problem': 'missing directory',
+            })
+            continue
+        source_names = {n for n in os.listdir(source_dir) if n.endswith('.txt')}
+        build_names = {n for n in os.listdir(build_dir) if n.endswith('.txt')}
+        for name in sorted(source_names | build_names):
+            source_path = os.path.join(source_dir, name)
+            build_path = os.path.join(build_dir, name)
+            if name not in source_names or name not in build_names:
+                problem = 'missing from source' if name not in source_names else 'missing from build'
+            else:
+                with open(source_path, 'rb') as source_file, open(build_path, 'rb') as build_file:
+                    if source_file.read() == build_file.read():
+                        continue
+                problem = 'content differs'
+            findings['source-drift'].append({
+                'file': name,
+                'source': source_folder,
+                'build': build_folder,
+                'problem': problem,
+            })
 
     drift = {jp: dict(ens) for jp, ens in term_map.items()
              if len(ens) > 1 and sum(ens.values()) >= 3}

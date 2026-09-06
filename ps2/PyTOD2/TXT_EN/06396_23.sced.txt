@@ -67,7 +67,7 @@ Mother
 #救ってくれた
 #あの不思議な力はいったい････？
 That mysterious power
-which saved us--
+which saved us...
 what on earth was it...?
 -----------------------
 <Loni>
@@ -86,7 +86,7 @@ Mother
 #救ってくれた
 #あの不思議な力はいったい････？
 That mysterious power
-which saved us--
+which saved us...
 what on earth was it...?
 -----------------------
 #母親
@@ -103,7 +103,7 @@ daughter made it through safely.
 -----------------------
 #いえ、わたしは、その････
 #ただ夢中だっただけで････
-No, I... I was simply... caught up
+No, I... I was simply...caught up
 in the moment...
 -----------------------
 #母親
@@ -324,7 +324,7 @@ Passenger
 #ハァ～
 #まさか、こんなことになるなんて
 #さんざんザマス
-*sigh*~ Who'd have thought things
+*sigh*～ Who'd have thought things
 would turn out like this? What an
 ordeal, zamas.
 -----------------------
@@ -620,7 +620,7 @@ Girl
 #たのしみだな～♪
 And she said she'd buy me souvenirs
 on the way back!
-I can't wait~♪
+I can't wait～♪
 -----------------------
 #女の子
 Girl
@@ -629,7 +629,7 @@ Girl
 #おみやげ買ってもらうの
 #楽しみだよ～
 Aww, won't we get there soon?
-I can't wait to get my souvenirs~
+I can't wait to get my souvenirs～
 -----------------------
 #女の子
 Girl
@@ -638,7 +638,7 @@ Girl
 #おみやげ買ってもらうの
 #楽しみだよ～
 Aww, won't we get there soon?
-I can't wait to get my souvenirs~
+I can't wait to get my souvenirs～
 -----------------------
 #男の子
 Boy
@@ -661,7 +661,7 @@ Boy
 #いいなぁー
 #ボク、まだ見たことないんだ
 #一度でいいから、見てみたいな～
-Lucky~
+Lucky～
 I've never seen one.
 I wish I could, just once...
 -----------------------
@@ -707,9 +707,9 @@ Passenger
 #うおお～、フォルトゥナ神さまぁ！
 #このワシの、たける想いを
 #見届けてくだされ～い！
-Whoa~! Goddess Fortuna!
+Whoa～! Goddess Fortuna!
 Please witness
-these fervent feelings of mine~!
+these fervent feelings of mine～!
 -----------------------
 #乗客
 Passenger
@@ -717,9 +717,9 @@ Passenger
 #うおお～、フォルトゥナ神さまぁ！
 #このワシの、たける想いを
 #見届けてくだされ～い！
-Whoa~! Goddess Fortuna!
+Whoa～! Goddess Fortuna!
 Please witness
-these fervent feelings of ours~!
+these fervent feelings of ours～!
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -791,7 +791,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Weapon Attacks."
+"Weapon Attacks".
 Would you like to listen in?
 -----------------------
 #さて俺たちも冒険を始めるわけだが、
@@ -862,7 +862,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Base Artes."
+"Base Artes".
 Would you like to listen in?
 -----------------------
 #どうだ、特技を覚えて
@@ -915,7 +915,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Enchant."
+"Enchant".
 Would you like to listen in?
 -----------------------
 #エンチャントも覚えたさ
@@ -1007,7 +1007,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Battle Strategy."
+"Battle Strategy".
 Would you like to listen in?
 -----------------------
 #いろんな敵に遭っても対処できるように、
@@ -1068,7 +1068,7 @@ notice
 #について話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Technical Smash."
+"Technical Smash".
 Would you like to listen in?
 -----------------------
 #テクニカルスマッシュってなにさ？
@@ -1079,7 +1079,7 @@ What's a Technical Smash?
 #テクニカルスマッシュと認定される
 Indeed. Even seasoned warriors
 recognize it: perform a "brilliant
-finishing blow," and it's
+finishing blow", and it's
 certified as a Technical Smash.
 -----------------------
 #テクニカルスマッシュで敵を倒すと、
@@ -1131,7 +1131,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Spirits."
+"Spirits".
 Would you like to listen in?
 -----------------------
 #敵に攻撃しても防御されまくりさ
@@ -1187,7 +1187,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Consecutive Hits."
+"Consecutive Hits".
 Would you like to listen in?
 -----------------------
 #連続ヒットってなにさ？
@@ -1245,7 +1245,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Field of Effect."
+"Field of Effect".
 Would you like to listen in?
 -----------------------
 #敵の裏側から攻撃したら有利だと思ったけど
@@ -1299,7 +1299,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Status Effects."
+"Status Effects".
 Would you like to listen in?
 -----------------------
 #戦闘でステータス異常になってしもうた
@@ -1388,7 +1388,7 @@ notice
 #について話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Spirit Blaster."
+"Spirit Blaster".
 Would you like to listen in?
 -----------------------
 #ピンチになっても、スピリッツブラスター
@@ -1496,7 +1496,7 @@ notice
 #について話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Field of Effect."
+"Field of Effect".
 Would you like to listen in?
 -----------------------
 #この間の、敵が出す
@@ -1563,7 +1563,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Battle Grade."
+"Battle Grade".
 Would you like to listen in?
 -----------------------
 #バトルグレードって結局なにさ？
@@ -1627,7 +1627,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Recovery."
+"Recovery".
 Would you like to listen in?
 -----------------------
 #地面にたたきつけられると
@@ -1663,7 +1663,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Battle Difficulty."
+"Battle Difficulty".
 Would you like to listen in?
 -----------------------
 #戦闘難易度を高くするのに、
@@ -1722,7 +1722,7 @@ notice
 #深く話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Normal Attacks."
+"Normal Attacks".
 Would you like to listen in?
 -----------------------
 #慣れてきたから最近は通常攻撃は
@@ -1763,10 +1763,10 @@ What's the second step?
 #<button:00000017><button:00000045>では攻撃力が上がり命中が下がる、
 #<button:00000019><button:00000045>では攻撃力が下がり命中が上がる、
 #<button:00000016><button:00000045>は攻撃力、命中の減少量が少ない、
-<button:00000045>: Attack/accuracy drop greatly.
-<button:00000017><button:00000045>: Attack rises; accuracy falls.
-<button:00000019><button:00000045>: Attack falls; accuracy rises.
-<button:00000016><button:00000045>: Attack/accuracy drop slightly.
+<button:00000045>: Attack/accuracy drop a lot.
+<button:00000017><button:00000045>: Attack up, accuracy down.
+<button:00000019><button:00000045>: Attack down, accuracy up.
+<button:00000016><button:00000045>: Both drop only a little.
 -----------------------
 #以上を覚えておけ！
 #<button:00000045>による攻撃は効果範囲が広く、
@@ -1812,7 +1812,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Long Conversations."
+"Long Conversations".
 Would you like to listen in?
 -----------------------
 #ためになる話も十年くらい聞いてると
@@ -1857,7 +1857,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Item Drops."
+"Item Drops".
 Would you like to listen in?
 -----------------------
 #冒険者として生きるからには
@@ -1882,7 +1882,7 @@ What's the rumor?
 "Apparently, the more
 items of the same type you
 carry, the lower the chance
-enemies will drop items."
+enemies will drop items".
 That's what they're saying.
 -----------------------
 #そりゃ困るさ　全部売るさ
