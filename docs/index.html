@@ -24,11 +24,11 @@
       <div class="status">
         <div class="card">
           <h3>PS2 (SLPS-25172) <span class="badge done">complete</span></h3>
-          <p>Every story scene, all skits, menus, battle text, world map, titles, Quiz Book, enemy artes, boss lines and the videos with dialogue. Proofread line by line against the Japanese. Latest release: QS v1.1.6F.</p>
+          <p>Every story scene, all skits, menus, battle text, world map, titles, Quiz Book, enemy artes, boss lines and the videos with dialogue. Proofread line by line against the Japanese. Latest release: QS v1.1.9f.</p>
         </div>
         <div class="card">
-          <h3>PSP (ULJS-00097) <span class="badge done">v0.1.0 released</span></h3>
-          <p>First PSP release. The full script and skits, all menus, items, artes, titles, descriptions and the Monster Book are English, and story dialogue now renders in mixed case. A few menu corners are still Japanese and are being worked on.</p>
+          <h3>PSP (ULJS-00097) <span class="badge done">v0.2.0 released</span></h3>
+          <p>The full script and skits, all menus, items, artes, titles, descriptions and the Monster Book are English, and dialogue, names and menus render in mixed case. A few menu corners are still Japanese and are being worked on. Latest release: PSP patch v0.2.0.</p>
         </div>
       </div>
     </section>
@@ -48,7 +48,7 @@
       <ul>
         <li>459 scenario files and all skits, with the text box and skit timing limits of the game respected</li>
         <li>Menus and UI: items, equipment, shops, refine, enchant, cooking, customize, status, tactics, save, name entry, grade shop, Monster Book, Battle Memos</li>
-        <li>Character titles, party arte names and cut-in banners, enemy arte names and boss lines</li>
+        <li>Character titles, party arte names and cut-in banners, mystic arte banners, enemy encounter names, enemy arte names and boss lines</li>
         <li>World map labels, signposts, ferry and minigame text, the ending, the Quiz Book</li>
         <li>Hard-subtitled in-game videos</li>
       </ul>
@@ -66,17 +66,21 @@
     <section>
       <h2>Contributing</h2>
       <p>Corrections to the script, testing on real hardware, and help with the PSP version are all welcome. Work on a branch and open a pull request; an automated check keeps crash-class mistakes out.</p>
-      <p>The PSP port still has a few engine-level problems open to anyone who knows PSP reverse engineering: a proper half-width fix for the arte grid, and the Monster Book display names. The technical notes are in the repository <a href="https://github.com/Gandorfin/Tales-of-Destiny-2#help-wanted-open-psp-problems">README</a>.</p>
+      <p>The PSP port still has a few engine-level problems open to anyone who knows PSP reverse engineering: lowercase for the bold menu text (names, tabs, arte grid, Battle Rank), a proper half-width fix for the arte grid, and the Monster Book display names. The technical notes are in the repository <a href="https://github.com/Gandorfin/Tales-of-Destiny-2#help-wanted-open-psp-problems">README</a>.</p>
     </section>
 
     <section>
       <h2>Credits</h2>
       <ul>
-        <li><strong>Gandorff</strong> &mdash; project lead, translation and tooling</li>
-        <li><strong>casino3346</strong> &mdash; PS2 and PSP ports and translation</li>
-        <li><strong>pnvnd</strong> &mdash; terminology, style reference, PSP string scanner</li>
-        <li><strong>SkyBladeCloud</strong> &mdash; file-format research and the PSP font/lowercase reverse engineering</li>
-        <li>plus Amarant01, Lanyn, the Temple of Tales Translations team, alizor and flame1234 (see the repository README)</li>
+        <li><strong>Gandorff</strong> for leading and maintaining the project, the translation, and the tooling</li>
+        <li><strong>casino3346</strong> for the PS2 and PSP ports and translation work</li>
+        <li><strong>pnvnd</strong> for terminology, the Lifebottle style reference, and the format-aware PSP Japanese-string scanner</li>
+        <li><strong>SkyBladeCloud</strong> (GBAtemp) for the original file-format research and for reverse engineering the PSP font system and lowercase font-selection hack</li>
+        <li><strong>Amarant01</strong> for the font graphics: <a href="https://www.behance.net/deco-7105af">behance.net/deco-7105af</a></li>
+        <li><strong>Lanyn</strong> for permission to use the Tales of Destiny 2 English translation script: <a href="https://www.youtube.com/user/lanyn/videos">youtube.com/user/lanyn</a></li>
+        <li>The <strong>Temple of Tales Translations</strong> team (<a href="http://temple-tales.ru/translations.html">temple-tales.ru</a>) for the skit and scenario extraction tools</li>
+        <li><strong>alizor</strong> for the Python scripts to extract and repack the PS2 and PSP archives</li>
+        <li><strong>flamethrower</strong> / <strong>flame1234</strong> (GBAtemp) for the PSP string extractor</li>
       </ul>
     </section>
   </main>
