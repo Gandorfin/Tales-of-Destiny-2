@@ -14,16 +14,16 @@ NOTICE
 #『闘技場で何よりも大切なのは持久力です
 #　ＨＰを上げて戦いに望みましょう』
 "In the coliseum, stamina is vital.
-Raise your HP before you fight".
+Raise your HP before you fight."
 -----------------------
 NOTICE
 -----------------------
 #『リバースドールは必携です
 #　所持最大数まで確保して
 #　常に装備して戦いましょう』
-"The Reverse Doll is essential".
+"The Reverse Doll is essential."
 "Stock up to your carry limit"
-"and keep it equipped at all times".
+"and keep it equipped at all times."
 -----------------------
 NOTICE
 -----------------------
@@ -32,7 +32,7 @@ NOTICE
 #　敵を毒状態にして逃げ回るのも立派な戦法です』
 "At low levels, make good use of
 slot gear's support effects.
-Poison and flee; that's valid too".
+Poison and flee; that's valid too."
 -----------------------
 NOTICE
 -----------------------
@@ -41,7 +41,7 @@ NOTICE
 #　装備変更ができなくなります』
 "Items are banned in the coliseum.
 About ten seconds into battle,
-you can no longer change equipment".
+you can no longer change equipment."
 -----------------------
 #記念品が展示されている
 #装備品のようだが････誰の物だろう？

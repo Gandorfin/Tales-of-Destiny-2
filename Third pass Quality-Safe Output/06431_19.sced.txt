@@ -1,8 +1,8 @@
 #スノーフリア・寄り合い所
-Frostheim - Gathering Place
+Snowfria - Gathering Place
 -----------------------
 #スノーフリア
-Frostheim
+Snowfria
 -----------------------
 #寄り合い所
 Gathering Place
@@ -118,7 +118,7 @@ Clerk
 #『ソウル＆ソード』の
 #営業員だ
 I'm a clerk from the equipment shop
-'Soul ＆ Sword'
+'Soul & Sword'
 in Heidelberg.
 -----------------------
 #営業員
@@ -129,7 +129,7 @@ Clerk
 #探してるんだよ
 On orders from the shopkeeper,
 Winters, I'm out searching for the
-legendary metal 'Berselium'.
+legendary metal 'Berselium.'
 -----------------------
 #営業員
 Clerk
@@ -208,7 +208,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Weapon Attacks".
+"Weapon Attacks."
 Would you like to listen in?
 -----------------------
 #さて俺たちも冒険を始めるわけだが、
@@ -280,7 +280,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Base Artes".
+"Base Artes."
 Would you like to listen in?
 -----------------------
 #どうだ、特技を覚えて
@@ -333,7 +333,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Enchant".
+"Enchant."
 Would you like to listen in?
 -----------------------
 #エンチャントも覚えたさ
@@ -423,7 +423,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Battle Strategy".
+"Battle Strategy."
 Would you like to listen in?
 -----------------------
 #いろんな敵に遭っても対処できるように、
@@ -456,7 +456,7 @@ is casting powerful spells?
 #「術を使わせるな」で
 #詠唱をジャマするのさ
 I memorized this one yesterday.
-Strategy: "Don't let them cast".
+Strategy: "Don't let them cast."
 Interrupt their chanting.
 -----------------------
 #まあそんな感じだ
@@ -485,7 +485,7 @@ notice
 #について話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Technical Smash".
+"Technical Smash."
 Would you like to listen in?
 -----------------------
 #テクニカルスマッシュってなにさ？
@@ -496,7 +496,7 @@ What's a Technical Smash?
 #テクニカルスマッシュと認定される
 Indeed. Even seasoned warriors
 acknowledge it. Perform a
-"brilliant finishing blow", and it's
+"brilliant finishing blow," and it's
 recognized as a Technical Smash.
 -----------------------
 #テクニカルスマッシュで敵を倒すと、
@@ -547,7 +547,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Spirits".
+"Spirits."
 Would you like to listen in?
 -----------------------
 #敵に攻撃しても防御されまくりさ
@@ -604,7 +604,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Consecutive Hits".
+"Consecutive Hits."
 Would you like to listen in?
 -----------------------
 #連続ヒットってなにさ？
@@ -663,7 +663,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Field of Effect".
+"Field of Effect."
 Would you like to listen in?
 -----------------------
 #敵の裏側から攻撃したら有利だと思ったけど
@@ -718,7 +718,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Status Effects".
+"Status Effects."
 Would you like to listen in?
 -----------------------
 #戦闘でステータス異常になってしもうた
@@ -807,7 +807,7 @@ notice
 #について話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Spirit Blaster".
+"Spirit Blaster."
 Would you like to listen in?
 -----------------------
 #ピンチになっても、スピリッツブラスター
@@ -915,7 +915,7 @@ notice
 #について話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Field of Effect".
+"Field of Effect."
 Would you like to listen in?
 -----------------------
 #この間の、敵が出す
@@ -982,7 +982,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Battle Grade".
+"Battle Grade."
 Would you like to listen in?
 -----------------------
 #バトルグレードって結局なにさ？
@@ -1044,7 +1044,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Recovery".
+"Recovery."
 Would you like to listen in?
 -----------------------
 #地面にたたきつけられると
@@ -1079,7 +1079,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Battle Difficulty".
+"Battle Difficulty."
 Would you like to listen in?
 -----------------------
 #戦闘難易度を高くするのに、
@@ -1137,7 +1137,7 @@ notice
 #深く話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Normal Attacks".
+"Normal Attacks."
 Would you like to listen in?
 -----------------------
 #慣れてきたから最近は通常攻撃は
@@ -1227,7 +1227,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"A Long Story".
+"A Long Story."
 Would you like to listen in?
 -----------------------
 #ためになる話も十年くらい聞いてると
@@ -1272,7 +1272,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Item Drops".
+"Item Drops."
 Would you like to listen in?
 -----------------------
 #冒険者として生きるからには
@@ -1297,7 +1297,7 @@ What's the rumor?
 "Apparently, the more of the
 same type of item you carry, the
 less likely enemies are to drop
-items". That's what they say.
+items." That's what they say.
 -----------------------
 #そりゃ困るさ　全部売るさ
 Well, that's a pain. Guess
