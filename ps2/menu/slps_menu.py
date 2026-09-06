@@ -52,12 +52,6 @@ def apply(src, manifest):
             raise GuardError('previous-patch text guard failed for "%s"' % e["english"])
         if _at(d, e["pointer_offset"], new_p) and _at(d, e["pool_offset"], pool):
             continue
-        prev = e.get("previous_pool_hex")
-        if prev and _at(d, e["pointer_offset"], new_p) and _at(d, e["pool_offset"], _h(prev)):
-            # already redirected by an earlier manifest; only the text changed
-            d[e["pool_offset"]:e["pool_offset"] + len(pool)] = pool
-            changes += 1
-            continue
         if not _at(d, e["pointer_offset"], old_p):
             raise GuardError('previous-patch pointer guard failed for "%s"' % e["english"])
         if not _zero(d, e["pool_offset"], len(pool)) and not _at(d, e["pool_offset"], pool):

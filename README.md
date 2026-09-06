@@ -117,9 +117,7 @@ Short version; the details are in `ps2/menu/README.md` ("Applying it") and
    python ps2/menu/patch_slps_titles.py ps2/PyTOD2/SLPS_251.72
    ```
    `title_credit.py` redraws the Japanese designer credit under the title
-   menu as "Green Gel v1.1.9f" (the Namco line below it is kept). The game
-   draws only the first 96 pixels of that line, so the label is short and
-   condensed; the tool refuses anything wider.
+   menu as "Green Gel Patch v1.1.9f" (the Namco line below it is kept).
 4. Pack FPB, Insert FONT, and put `new_FILE.FPB` and `new_SLPS_251.72` into
    the ISO.
 5. `python ps2/menu/verify_menu_patch.py your.iso` tells you which parts of

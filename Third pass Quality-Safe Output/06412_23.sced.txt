@@ -19,7 +19,7 @@ destination is Heidelberg.
 #船具が収められた箱だ
 #『アルジャーノン号、補修資材』と書かれている
 A box containing ship equipment. It
-reads 'Algernon, repair materials'.
+reads 'Algernon, repair materials.'
 -----------------------
 <Loni>
 -----------------------
@@ -216,7 +216,7 @@ into the dazzling world of the sea!
 <Kyle>
 -----------------------
 #よ、よろしく････
-S-sure thing...
+S-Sure thing...
 -----------------------
 #船長
 Captain
@@ -242,7 +242,7 @@ Captain
 #スノーフリアまで飛ばしていくからな
 #振り落とされんよう気をつけろ！
 Aye aye! We're making straight for
-Frostheim, so mind you don't get
+Snowfria, so mind you don't get
 thrown overboard!
 -----------------------
 #船長
@@ -370,14 +370,14 @@ Ticket Seller
 -----------------------
 #ここからはスノーフリアに行けます
 #船に乗りますか？
-We sail to Frostheim from here.
+We sail to Snowfria from here.
 Will you be boarding?
 -----------------------
 select
 -----------------------
 #<03:00000000>　スノーフリアに行く（{14}{24}{74}{C0}<0B:00000000>ガルド）　
 #　船には乗らない　
-<03:00000000> Go to Frostheim ({14}{24}{74}{C0}<0B:00000000> Gald)
+<03:00000000> Go to Snowfria ({14}{24}{74}{C0}<0B:00000000> Gald)
 Do not board
 -----------------------
 #チケット売り
@@ -386,7 +386,7 @@ Ticket Seller
 #ここからはチェリクと
 #スノーフリアに行けます
 #船に乗りますか？
-We sail to Cherik and Frostheim from
+We sail to Cherik and Snowfria from
 here. Will you be boarding?
 -----------------------
 select
@@ -395,7 +395,7 @@ select
 #　スノーフリアに行く（{14}{24}{74}{C0}<0B:00000000>ガルド）　
 #　船には乗らない　
 <03:00000000> Go to Cherik (<0B:00000001>{14}{24}{72}{C0} Gald)
-Go to Frostheim ({14}{24}{74}{C0}<0B:00000000> Gald)
+Go to Snowfria ({14}{24}{74}{C0}<0B:00000000> Gald)
 Do not board
 -----------------------
 #チケット売り
@@ -404,7 +404,7 @@ Ticket Seller
 #ここからはチェリクと
 #スノーフリアに行けます
 #船に乗りますか？
-We sail to Cherik and Frostheim from
+We sail to Cherik and Snowfria from
 here. Will you be boarding?
 -----------------------
 select
@@ -413,7 +413,7 @@ select
 #　スノーフリアに行く　
 #　船には乗らない　
 <03:00000000> Go to Cherik
-Go to Frostheim
+Go to Snowfria
 Do not board
 -----------------------
 #チケット売り

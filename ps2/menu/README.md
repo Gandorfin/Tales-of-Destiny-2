@@ -70,11 +70,8 @@ FPB. Skipping one leaves that part of the game in Japanese.
 
 `title_credit.py` is the title screen: the two copyright lines under the
 menu are a 384x32 texture in `00021.pak3`, not text. The tool redraws the
-first line (the Japanese designer credit) as "Green Gel v1.1.8" and keeps
-the Namco line; give it the version you are releasing. The title screen
-draws that first line as a sprite about 96 pixels wide (the width of the
-Japanese credit), which is why the label is short and condensed and why the
-tool refuses a wider one. It only touches
+first line (the Japanese designer credit) as "Green Gel Patch v1.1.8" and
+keeps the Namco line; give it the version you are releasing. It only touches
 pixels (same texture size and palette), recompresses the member, rebuilds the
 pack and checks its own work, so it can be run again with a new version any
 time before Pack FPB. `--label "text"` draws an exact string instead,

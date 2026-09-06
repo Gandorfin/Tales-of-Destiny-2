@@ -1435,7 +1435,7 @@ called the 'Stone of...' what?"
 06185.sfm,0x3073,8,,復活の石,Stone of Revival
 06185.sfm,0x307C,55,,"アイグレッテとスノーフリア間を
 航海する定期船の名前は？","What's the name of the ferry that
-sails between Aigrette and Frostheim?"
+sails between Aigrette and Snowfria?"
 06185.sfm,0x30B4,16,,アルジャーノン号,The Algernon
 06185.sfm,0x30C5,16,,ノイシュタット号,The Neuestadt
 06185.sfm,0x30D6,14,,エンチャント号,The Enchant
@@ -2019,7 +2019,7 @@ in Heat River?"
 06185.sfm,0x4FC9,12,,アイグレッテ,Aigrette
 06185.sfm,0x4FD6,6,,リーネ,Lienea
 06185.sfm,0x4FDD,14,,ノイシュタット,Neuestadt
-06185.sfm,0x4FEC,12,,スノーフリア,Frostheim
+06185.sfm,0x4FEC,12,,スノーフリア,Snowfria
 06185.sfm,0x4FF9,42,,"そういや<Judas>は
 何であそこにいたんだろうな","Come to think of it, why
 was <Judas> even down there?"
@@ -2580,7 +2580,7 @@ gonna turn up..."
 06185.sfm,0x6DF6,30,,おいおい、忘れちまったのかよ！,"Hey, hey, you forgot!?"
 06185.sfm,0x6E15,63,,"スノーフリアの寄り合い所にある
 「今月の収支表」赤字なのは何か？","On the 'Monthly Income Statement' at the
-Frostheim meeting hall, what's in the red?"
+Snowfria meeting hall, what's in the red?"
 06185.sfm,0x6E55,6,,シャケ,Salmon
 06185.sfm,0x6E5C,6,,マグロ,Tuna
 06185.sfm,0x6E63,4,,タイ,Sea Bream
@@ -2971,7 +2971,7 @@ come when called!"
 チェリク港、スノーフリア港
 ノイシュタット港で運ちんを支払うと乗ることができたな","You could board the ferry by paying
 the fare at the harbors of Darilsheid,
-Cherik, Frostheim and Neuestadt."
+Cherik, Snowfria and Neuestadt."
 06186.sfm,0x3A72,99,,"特技と晶術の複合技「奥義」
 スタンの「断空剣」と
 ディムロスの「エクスプロード」
@@ -3361,7 +3361,7 @@ part right, at least."
 restores a whole 60% of HP.
 Where can you
 buy it?"
-06186.sfm,0x4FB9,12,,スノーフリア,Frostheim
+06186.sfm,0x4FB9,12,,スノーフリア,Snowfria
 06186.sfm,0x4FC6,14,,ノイシュタット,Neuestadt
 06186.sfm,0x4FD5,8,,チェリク,Cherik
 06186.sfm,0x4FDE,6,,シデン,Sheeden
@@ -9222,7 +9222,7 @@ name?"
 忘れちまったのか？","Did you forget because I was
 too busy stealing the show?"
 06234.sfm,0x1B4,14,,ハイデルベルグ,Heidelberg
-06234.sfm,0x1C3,12,,スノーフリア,Frostheim
+06234.sfm,0x1C3,12,,スノーフリア,Snowfria
 06234.sfm,0x1D0,10,,ペイルティ,Peruti
 06234.sfm,0x1DB,12,,アイグレッテ,Aigrette
 06234.sfm,0x1E8,8,,クレスタ,Cresta
@@ -9271,7 +9271,7 @@ remembered properly!"
 06236.sfm,0x1C3,14,,ハイデルベルグ,Heidelberg
 06236.sfm,0x1D2,14,,ダリルシェイド,Darilsheid
 06236.sfm,0x1E1,12,,アイグレッテ,Aigrette
-06236.sfm,0x1EE,12,,スノーフリア,Frostheim
+06236.sfm,0x1EE,12,,スノーフリア,Snowfria
 06236.sfm,0x1FB,6,,リーネ,Lienea
 06236.sfm,0x202,57,,"クレスタの雑貨屋・装備品屋にある
 このミソの産地はどこだ？","Where does the miso sold at the

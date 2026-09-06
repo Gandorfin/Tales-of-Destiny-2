@@ -155,7 +155,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Weapon Attacks".
+"Weapon Attacks."
 Would you like to listen in?
 -----------------------
 #さて俺たちも冒険を始めるわけだが、
@@ -225,7 +225,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Base Artes".
+"Base Artes."
 Would you like to listen in?
 -----------------------
 #どうだ、特技を覚えて
@@ -279,7 +279,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Enchant".
+"Enchant."
 Would you like to listen in?
 -----------------------
 #エンチャントも覚えたさ
@@ -371,7 +371,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Battle Strategy".
+"Battle Strategy."
 Would you like to listen in?
 -----------------------
 #いろんな敵に遭っても対処できるように、
@@ -433,7 +433,7 @@ notice
 #について話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Technical Smash".
+"Technical Smash."
 Would you like to listen in?
 -----------------------
 #テクニカルスマッシュってなにさ？
@@ -444,7 +444,7 @@ What's a Technical Smash?
 #テクニカルスマッシュと認定される
 Mm. Even seasoned pros
 acknowledge it. Land a "glorious
-finishing blow", and that's
+finishing blow," and that's
 certified as a Technical Smash.
 -----------------------
 #テクニカルスマッシュで敵を倒すと、
@@ -496,7 +496,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Spirits".
+"Spirits."
 Would you like to listen in?
 -----------------------
 #敵に攻撃しても防御されまくりさ
@@ -552,7 +552,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Consecutive Hits".
+"Consecutive Hits."
 Would you like to listen in?
 -----------------------
 #連続ヒットってなにさ？
@@ -609,7 +609,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Field of Effect".
+"Field of Effect."
 Would you like to listen in?
 -----------------------
 #敵の裏側から攻撃したら有利だと思ったけど
@@ -665,7 +665,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Status Effects".
+"Status Effects."
 Would you like to listen in?
 -----------------------
 #戦闘でステータス異常になってしもうた
@@ -754,7 +754,7 @@ notice
 #について話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Spirit Blaster".
+"Spirit Blaster."
 Would you like to listen in?
 -----------------------
 #ピンチになっても、スピリッツブラスター
@@ -865,7 +865,7 @@ notice
 #について話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Field of Effect".
+"Field of Effect."
 Would you like to listen in?
 -----------------------
 #この間の、敵が出す
@@ -932,7 +932,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Battle Grade".
+"Battle Grade."
 Would you like to listen in?
 -----------------------
 #バトルグレードって結局なにさ？
@@ -994,7 +994,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Recovery".
+"Recovery."
 Would you like to listen in?
 -----------------------
 #地面にたたきつけられると
@@ -1030,7 +1030,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Battle Difficulty".
+"Battle Difficulty."
 Would you like to listen in?
 -----------------------
 #戦闘難易度を高くするのに、
@@ -1086,7 +1086,7 @@ notice
 #深く話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Normal Attacks".
+"Normal Attacks."
 Would you like to listen in?
 -----------------------
 #慣れてきたから最近は通常攻撃は
@@ -1176,7 +1176,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Long Stories".
+"Long Stories."
 Would you like to listen in?
 -----------------------
 #ためになる話も十年くらい聞いてると
@@ -1222,7 +1222,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Item Drops".
+"Item Drops."
 Would you like to listen in?
 -----------------------
 #冒険者として生きるからには
@@ -1247,7 +1247,7 @@ What's the rumor?
 "Apparently, the more
 items of the same type you
 carry, the lower the chance
-enemies will drop items".
+enemies will drop items."
 That's what they're saying.
 -----------------------
 #そりゃ困るさ　全部売るさ

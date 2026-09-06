@@ -41,7 +41,7 @@ Cat-Loving Old Man
 #「ネコ好きの」じいさんのように
 #ステキな称号をつけてしんぜよう
 Ah, you there! Just like "the
-cat-loving old man", I shall bestow
+cat-loving old man," I shall bestow
 upon you a splendid title!
 -----------------------
 select
@@ -76,7 +76,7 @@ Cat-Loving Old Man
 #ステキな称号をつけてしんぜよう
 Now then, I shall bestow upon you
 all a title as splendid as "the
-cat-loving old man".
+cat-loving old man."
 -----------------------
 select
 -----------------------

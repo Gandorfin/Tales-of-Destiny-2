@@ -70,8 +70,8 @@ protection release key.
 #「マスターキー」「セルキー」「バイオキー」
 #この３つのキーを資材コンテナに使えば
 #プロテクトを解除できるわ
-"Master Key", "Cell Key", and "Bio
-Key". Use all three on the supply
+"Master Key," "Cell Key," and "Bio
+Key." Use all three on the supply
 container to disable the protection
 lock.
 -----------------------
