@@ -47,7 +47,7 @@ Soldier
 -----------------------
 #い、いえっ！
 #なんでもありません！
-N-No!
+N-no!
 It's nothing!
 -----------------------
 #兵士
@@ -374,7 +374,7 @@ legend.
 -----------------------
 #「生ける伝説」だってさ！
 #いや～、なんかすごいよね！
-"Living legend," they said!
+"Living legend", they said!
 Wow, that's amazing!
 -----------------------
 #兵士
@@ -834,7 +834,7 @@ his own kid! And get this!
 #「彼は親から英雄の素質を確実に
 #　受け継いでいるようだからね」
 "He has undoubtedly inherited the
-makings of a hero from his parents."
+makings of a hero from his parents".
 -----------------------
 <Kyle>
 -----------------------
@@ -989,7 +989,7 @@ Stahn's son. Don't deny it.
 #「スタンの息子」として見だしたんだ
 From that moment on, they stopped
 seeing <Kyle> as <Kyle>. They only saw
-him as "Stahn's son."
+him as "Stahn's son".
 -----------------------
 <Loni>
 -----------------------

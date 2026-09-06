@@ -1,11 +1,11 @@
 #クレスタの街・雑貨屋＆装備屋
-Cresta - General & Equipment Shop
+Cresta - General ＆ Equipment Shop
 -----------------------
 #クレスタの街
 Cresta
 -----------------------
 #雑貨屋＆装備屋
-General Store & Equipment Shop
+General Store ＆ Equipment Shop
 -----------------------
 #雑貨屋
 Shopkeeper
@@ -79,7 +79,7 @@ to the town. Best not touch it.
 #『アクアヴェイル産ミソ・一袋で２９８ガルド』
 #と書かれている
 It says:
-"Aquaveil Miso: 298 Gald per bag."
+"Aquaveil Miso: 298 Gald per bag".
 -----------------------
 #ミソ・スープはアクアヴェイル地方の
 #代表的な家庭料理らしい

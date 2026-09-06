@@ -14,7 +14,7 @@ Ferry
 What should I do...?
 -----------------------
 #助けて････
-H-Help me...
+H-help me...
 -----------------------
 #････････
 ......
@@ -108,8 +108,8 @@ Sailor
 #う、海の主が現れたくらいで
 #おおお、オタオタしてたら
 #海の男なんて、つとまらないぜぃ！！
-J-Just because the Sea Lord showed
-up... I-I-If you go panicking
+J-just because the Sea Lord showed
+up... I-I-if you go panicking
 like that...you ain't fit to call
 yourself a man of the sea!!
 -----------------------
@@ -128,7 +128,7 @@ Sailor
 #お、オレさまが乗ってる船を
 #おそうなんて
 #不幸なヤツもいたもんだ
-T-To attack a ship that I'm
+T-to attack a ship that I'm
 aboard... There are some mighty
 unlucky fools out there.
 -----------------------
@@ -138,7 +138,7 @@ Sailor
 #い、今に見てろよ！
 #オレさまの鋼鉄のモリで
 #海のモクズとなってくれるわ！！
-Y-You'll see!
+Y-you'll see!
 My steel harpoon'll
 turn you into sea scum!!
 -----------------------
@@ -157,7 +157,7 @@ Sailor
 #は、ハライタがなおったら
 #やっつけてやるからな！！
 Just you wait, monster!
-S-Soon as my seasickness clears up,
+S-soon as my seasickness clears up,
 I'll beat the tar outta you!!
 -----------------------
 #船員
@@ -575,7 +575,7 @@ for everyone to survive.
 <Kyle>
 -----------------------
 #えっ!?　ほ、ホントに!?
-Huh!? R-Really!?
+Huh!? R-really!?
 -----------------------
 <Judas>
 -----------------------
@@ -758,7 +758,7 @@ What's going on?
 -----------------------
 #そろそろ、スノーフリアの港が、
 #見えてくるはずだぜ
-Snowfria Harbor oughta be
+Frostheim Harbor oughta be
 coming into view any minute now.
 -----------------------
 <Loni>
@@ -799,7 +799,7 @@ On the way back home...
 #すぐにスノーフリアに着く
 #出発の準備をしておけ
 #グズグズしてると、置いていくぞ
-We'll be reaching Snowfria shortly.
+We'll be reaching Frostheim shortly.
 Make ready to disembark.
 Dawdle and we'll leave you behind.
 -----------------------

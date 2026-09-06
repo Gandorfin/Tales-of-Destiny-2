@@ -14,31 +14,31 @@ card...?
 #『このカードを引く確率は
 #５１２／１０２４』
 Blue Card 'The probability of
-drawing this card is 512/1024.'
+drawing this card is 512/1024'.
 -----------------------
 #黄色のカード
 #『このカードを引く確率は
 #２５６／１０２４』
 Yellow Card 'The probability of
-drawing this card is 256/1024.'
+drawing this card is 256/1024'.
 -----------------------
 #赤のカード
 #『このカードを引く確率は
 #１２８／１０２４』
 Red Card 'The probability of
-drawing this card is 128/1024.'
+drawing this card is 128/1024'.
 -----------------------
 #黒入りカード
 #『このカードを引く確率は
 #６４／１０２４』
 Black-bordered Card 'The probability
-of drawing this card is 64/1024.'
+of drawing this card is 64/1024'.
 -----------------------
 #３色カード
 #『このカードを引く確率は
 #６４／１０２４』
 Three-color Card 'The probability
-of drawing this card is 64/1024.'
+of drawing this card is 64/1024'.
 -----------------------
 #洗濯物のカゴだ
 #汚れた服が押し込められている
@@ -49,7 +49,7 @@ Dirty clothes are stuffed inside.
 #『地上軍美人コンテストはこちらまで』
 It looks like a ballot box.
 "The Ground Forces Beauty
-Contest is over here."
+Contest is over here".
 -----------------------
 #兵卒
 Soldier
@@ -218,7 +218,7 @@ Child
 #『パパは天国に行った』って
 #言うんだけど、そこドコかな？
 The other soldiers say
-'Daddy went to heaven,'
+'Daddy went to heaven',
 but where is that?
 -----------------------
 #子供
@@ -234,7 +234,7 @@ Child
 #『君のパパは天国に行った』って
 #言うんだ
 The soldiers here say,
-'Your daddy went to heaven.'
+'Your daddy went to heaven'.
 -----------------------
 #子供
 Child

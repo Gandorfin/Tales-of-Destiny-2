@@ -66,6 +66,9 @@ file,offset,japanese,english
 06799.md1,0x67C8,は無くなりました, is all gone.
 06799.md1,0x67E0,しばし待たれい,One moment.
 06799.md1,0x6B84,しばし待たれい,One moment.
+06799.md1,0x695A,Tools,Item
+06799.md1,0x69E2,Utensils,Cookware
+06799.md1,0x69D6,Ingredients,Food
 06800.md1,0x43C0,装備,Equip
 06800.md1,0x43C8,装飾品,Jewelry
 06800.md1,0x43D8,外装,Outfit
@@ -654,6 +657,9 @@ different ingredients on hand."
 <button:00000036>Back"
 06814.md1,0x4388,<button:00000036>戻る,<button:00000036>Back
 06814.md1,0x43D8,<button:00000035><button:00000036>戻る,<button:00000035><button:00000036>Back
+06814.md1,0x44BE,Tools,Item
+06814.md1,0x4542,Utensils,Cookware
+06814.md1,0x4536,Ingredients,Food
 06815.md1,0x990,メモリーカード差込口４,Memory Card Slot 4
 06815.md1,0x9A8,メモリーカード差込口３,Memory Card Slot 3
 06815.md1,0x9C0,メモリーカード差込口２,Memory Card Slot 2
@@ -856,15 +862,15 @@ earned to start under various conditions."
 08055.md1,0x52F80,水,Water
 08055.md1,0x52F88,地,Earth
 08055.md1,0x52F90,具現結晶,Lens Crystal
-08055.md1,0x52FA0,追加晶術,Added Spell
+08055.md1,0x52FA0,追加晶術,Add Spell
 08055.md1,0x52FB0,秘奥義,Mystic
-08055.md1,0x52FB8,追加特技,Added Skill
-08055.md1,0x52FC8,<color:00000007>」を得ました,"<color:00000007>"" acquired!"
-08055.md1,0x52FE0,称号「<color:00000006>,"Title ""<color:00000006>"
+08055.md1,0x52FB8,追加特技,Add Skill
+08055.md1,0x52FC8,<color:00000007>」を得ました,<color:00000007>
+08055.md1,0x52FE0,称号「<color:00000006>,Title: <color:00000006>
 08055.md1,0x52FF0,が、なんか失敗・・, flopped somehow...
 08055.md1,0x53008,を料理しました, is ready!
-08055.md1,0x53018,の,'s 
-08055.md1,0x53038,を習得, gained
+08055.md1,0x53018,の,: 
+08055.md1,0x53038,を習得,
 08055.md1,0x53040,スペル,
 08055.md1,0x53048,スキル,
 08055.md1,0x53050,エンチャント,
@@ -928,7 +934,7 @@ your inventory is full."
 　　（ノイシュタット方面）
 北：リーネ","W: Western Mine
    (toward Neuestadt)
-N: Lien"
+N: Lienea"
 09028.pak0,0xFFCD3,"西：オベロン社廃坑
 南：ノイシュタット","W: Oberon Mine
 S: Neuestadt"
@@ -953,7 +959,7 @@ S: Northern Mine"
 西：ノイシュタット方面
 東：リーネ方面","N: Mine SW Exit
 W: toward Neuestadt
-E: toward Lien"
+E: toward Lienea"
 09028.pak0,0xFFE2C,クレスタの街,Cresta
 09028.pak0,0xFFE39,デュナミス孤児院,Dunamis Home
 09028.pak0,0xFFE4A,クレスタの街,Cresta
@@ -985,7 +991,7 @@ E: toward Lien"
 09028.pak0,0x10004E,大陸南部の坑道・北東出入口,Southern Mine - NE Exit
 09028.pak0,0x100069,山小屋,Cabin
 09028.pak0,0x100070,オベロン社廃坑,Oberon Mine
-09028.pak0,0x10007F,スノーフリア,Snowfria
+09028.pak0,0x10007F,スノーフリア,Frostheim
 09028.pak0,0x10008C,ノイシュタット,Neuestadt
 09028.pak0,0x10009B,チェリク,Cherik
 09028.pak0,0x1000A4,チェリク,Cherik
@@ -1227,7 +1233,7 @@ E: toward Lien"
 09032.pak0,0x10012A,大陸南部の坑道・北東出入口,Southern Mine - NE Exit
 09032.pak0,0x100145,山小屋,Cabin
 09032.pak0,0x10014C,オベロン社廃坑,Oberon Mine
-09032.pak0,0x10015B,スノーフリア,Snowfria
+09032.pak0,0x10015B,スノーフリア,Frostheim
 09032.pak0,0x100168,ノイシュタット,Neuestadt
 09032.pak0,0x100177,チェリク,Cherik
 09032.pak0,0x100180,チェリク,Cherik
@@ -1314,6 +1320,9 @@ the title ""<item:0000086E>""
 06803.md1,0x87D0,"たちは
 称号「","'s party got """
 06803.md1,0x87E0,」を得ました,""" as a title!"
+06803.md1,0x8CA7,Tools,Item
+06803.md1,0x8D21,Utensils,Cookware
+06803.md1,0x8D15,Ingredients,Food
 06806.md1,0xF343,"ひとつ前へ
 <button:0000003A>ひとつ先へ
 ","Previous

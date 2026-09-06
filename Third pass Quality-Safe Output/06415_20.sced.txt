@@ -16,11 +16,10 @@ but no pianist.
 #『弓のご用命はチェルシー＝トーンまで
 #　ハイデルベルグの北西へお越しの際は
 #　ぜひお立ち寄り下さい』
-There's a flyer inside. 'For
-all your archery needs, contact
-Chelsea Torn.' If you're
-ever heading northwest of
-Heidelberg, please stop by!'
+There's a flyer inside: 'For all
+your archery needs, contact Chelsea
+Torn. If you're ever heading
+northwest of Heidelberg, stop by!'
 -----------------------
 #アルバイト
 Part-Timer
@@ -44,7 +43,7 @@ It's just awful, awful～
 #な、なんか
 #暗い話のはずなのに
 #みょ～に明るく聞こえるな････
-I-It should be a sad story,
+I-it should be a sad story,
 but it sounds weirdly cheerful...
 -----------------------
 #ふぅ～！
@@ -365,7 +364,7 @@ And this is what happens!
 <size:00000180>Get out!
 -----------------------
 #お、おい！キミ？！
-H-Hey! You?!
+H-hey! You?!
 -----------------------
 #<03:00000000><0B:00000001>給料{12}{35}{38}{C0}{14}{34}{84}{C0}<color:00000007>ガルド
 <03:00000000><0B:00000001>Pay: {12}{35}{38}{C0}{14}{34}{84}{C0}<color:00000007> Gald
@@ -399,7 +398,13 @@ to finish taking orders.
 <03:00000000>{18}{44}{8C}{81}{35}{60}{CA}{C6}{C0}
 -----------------------
 #<03:00000000>次へ
+#{18}{44}{8C}{81}{35}{60}{CA}{C6}{C0}
+#{18}{44}{8C}{82}{35}{60}{CA}{C6}{C0}
+#{18}{44}{8C}{83}{35}{60}{CA}{C6}{C0}
 <03:00000000>Next
+{18}{44}{8C}{81}{35}{60}{CA}{C6}{C0}
+{18}{44}{8C}{82}{35}{60}{CA}{C6}{C0}
+{18}{44}{8C}{83}{35}{60}{CA}{C6}{C0}
 -----------------------
 <char:000003E8>
 -----------------------

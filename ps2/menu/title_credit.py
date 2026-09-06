@@ -1,17 +1,23 @@
 """Put the patch name and version on the title screen (PS2).
 
     python3 ps2/menu/title_credit.py ps2/PyTOD2/FPB --version 1.1.8
-    python3 ps2/menu/title_credit.py ps2/PyTOD2/FPB --label "Green Gel Patch v1.1.8"
+    python3 ps2/menu/title_credit.py ps2/PyTOD2/FPB --label "Green Gel v1.1.8"
     options: --dry-run (change nothing)  --preview out.png (write the strip as PNG)
 
 The two copyright lines under the title menu are not text: they are one
 384x32 4-bit texture, member 1 of 00021.pak3 (the title-screen pack, eight
 TM2 textures compressed back to back). Line one is the character designer's
 credit in Japanese, line two is the Namco copyright in English. This tool
-redraws line one as "Green Gel Patch vX.Y.Z" and leaves line two untouched,
-then recompresses the member and rebuilds the pack in the FPB folder. Run
-it before Pack FPB, like the other menu tools; running it twice is harmless
+redraws line one as "Green Gel vX.Y.Z" and leaves line two untouched, then
+recompresses the member and rebuilds the pack in the FPB folder. Run it
+before Pack FPB, like the other menu tools; running it twice is harmless
 (the line is cleared and redrawn every time).
+
+The game does not show the whole strip: line one is drawn as its own
+sprite about 96 pixels wide (the width of the Japanese credit), so a longer
+label is cut off on screen ("Green Gel Patc" in the 1.1.9f playtest). The
+label is therefore drawn in the condensed style and must end before
+LINE_ONE_VISIBLE; the tool refuses anything wider.
 
 Nothing but the pixel data changes: same texture size, same palette, same
 member count, so the game code that draws the strip is unaffected. The
@@ -30,6 +36,8 @@ MAGIC = b"TM2@"
 PS2_PAK = "00021.pak3"
 PS2_MEMBER = 1
 PS2_SIZE = (384, 32)
+PS2_STYLE = "psp"        # the condensed glyph set; the wide one does not fit the sprite
+LINE_ONE_VISIBLE = 96    # pixels of line one the title screen actually draws
 LEFT_MARGIN = 2          # pen x of the first glyph, like the original (c) mark
 RIGHT_MARGIN = 2         # pixels that must stay clear on the right
 
@@ -209,7 +217,10 @@ def patch_pak3(container, label):
     if (w, h) != PS2_SIZE:
         raise TitleError("member %d is %dx%d, not the %dx%d copyright strip"
                          % (PS2_MEMBER, w, h, PS2_SIZE[0], PS2_SIZE[1]))
-    new_strip, info = draw_label(strip, label, "ps2")
+    new_strip, info = draw_label(strip, label, PS2_STYLE)
+    if info["right"] > LINE_ONE_VISIBLE:
+        raise TitleError("%r is %d px wide, the title screen shows only %d px of "
+                         "line one" % (label, info["right"], LINE_ONE_VISIBLE))
     new_blob = lzss.pack(new_strip, version=blob[0])
     if lzss.unpack(new_blob) != new_strip:
         raise TitleError("compression round trip failed")
@@ -233,14 +244,14 @@ def resolve_folder(given):
 def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__.split("\n\n")[1])
     ap.add_argument("folder", help="the extracted FPB folder (holds 00021.pak3)")
-    ap.add_argument("--version", help="patch version, drawn as 'Green Gel Patch v<version>'")
+    ap.add_argument("--version", help="patch version, drawn as 'Green Gel v<version>'")
     ap.add_argument("--label", help="exact text to draw instead of the default")
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--preview", metavar="PNG", help="also write the new strip as a PNG (3x)")
     a = ap.parse_args(argv)
     if not a.label and not a.version:
         ap.error("give --version X.Y.Z or --label TEXT")
-    label = a.label or "Green Gel Patch v%s" % a.version.lstrip("vV")
+    label = a.label or "Green Gel v%s" % a.version.lstrip("vV")
     folder = resolve_folder(a.folder)
     if folder is None:
         return 1

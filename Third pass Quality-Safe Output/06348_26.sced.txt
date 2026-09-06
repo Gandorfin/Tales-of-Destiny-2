@@ -608,7 +608,7 @@ for free too～
 #「タダより高いものはない」とは
 #よくいったものだな････
 "Nothing is more expensive than
-free." Well said...
+free". Well said...
 -----------------------
 #男性
 Man
@@ -1080,7 +1080,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Weapon Attacks."
+"Weapon Attacks".
 Would you like to listen in?
 -----------------------
 #さて俺たちも冒険を始めるわけだが、
@@ -1150,7 +1150,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Base Artes."
+"Base Artes".
 Would you like to listen in?
 -----------------------
 #どうだ、特技を覚えて
@@ -1205,7 +1205,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Enchant."
+"Enchant".
 Would you like to listen in?
 -----------------------
 #エンチャントも覚えたさ
@@ -1295,7 +1295,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Battle Strategy."
+"Battle Strategy".
 Would you like to listen in?
 -----------------------
 #いろんな敵に遭っても対処できるように、
@@ -1327,7 +1327,7 @@ guard uses powerful spells?
 #「術を使わせるな」で
 #詠唱をジャマするのさ
 I memorized this one yesterday.
-"Don't let them cast."
+"Don't let them cast".
 You interrupt their incantations.
 -----------------------
 #まあそんな感じだ
@@ -1357,7 +1357,7 @@ notice
 #について話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Technical Smash."
+"Technical Smash".
 Would you like to listen in?
 -----------------------
 #テクニカルスマッシュってなにさ？
@@ -1368,7 +1368,7 @@ What's a Technical Smash?
 #テクニカルスマッシュと認定される
 Indeed. Even seasoned warriors
 acknowledge it: land a "graceful
-finishing blow," and it's
+finishing blow", and it's
 certified as a Technical Smash.
 -----------------------
 #テクニカルスマッシュで敵を倒すと、
@@ -1420,7 +1420,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Spirits."
+"Spirits".
 Would you like to listen in?
 -----------------------
 #敵に攻撃しても防御されまくりさ
@@ -1476,7 +1476,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Continuous Hit."
+"Continuous Hit".
 Would you like to listen in?
 -----------------------
 #連続ヒットってなにさ？
@@ -1534,7 +1534,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Field of Effect."
+"Field of Effect".
 Would you like to listen in?
 -----------------------
 #敵の裏側から攻撃したら有利だと思ったけど
@@ -1591,7 +1591,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Status Effects."
+"Status Effects".
 Would you like to listen in?
 -----------------------
 #戦闘でステータス異常になってしもうた
@@ -1680,7 +1680,7 @@ notice
 #について話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Spirit Blaster."
+"Spirit Blaster".
 Would you like to listen in?
 -----------------------
 #ピンチになっても、スピリッツブラスター
@@ -1789,7 +1789,7 @@ notice
 #について話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Field of Effect."
+"Field of Effect".
 Would you like to listen in?
 -----------------------
 #この間の、敵が出す
@@ -1855,7 +1855,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Battle Grade."
+"Battle Grade".
 Would you like to listen in?
 -----------------------
 #バトルグレードって結局なにさ？
@@ -1919,7 +1919,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Breakfalls."
+"Breakfalls".
 Would you like to listen in?
 -----------------------
 #地面にたたきつけられると
@@ -1955,7 +1955,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Battle Difficulty."
+"Battle Difficulty".
 Would you like to listen in?
 -----------------------
 #戦闘難易度を高くするのに、
@@ -2010,7 +2010,7 @@ notice
 #深く話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Normal Attacks."
+"Normal Attacks".
 Would you like to listen in?
 -----------------------
 #慣れてきたから最近は通常攻撃は
@@ -2051,10 +2051,10 @@ What's the second step?
 #<button:00000017><button:00000045>では攻撃力が上がり命中が下がる、
 #<button:00000019><button:00000045>では攻撃力が下がり命中が上がる、
 #<button:00000016><button:00000045>は攻撃力、命中の減少量が少ない、
-<button:00000045>: Attack/accuracy drop greatly.
-<button:00000017><button:00000045>: Attack rises; accuracy falls.
-<button:00000019><button:00000045>: Attack falls; accuracy rises.
-<button:00000016><button:00000045>: Attack/accuracy drop slightly.
+<button:00000045>: Attack/accuracy drop a lot.
+<button:00000017><button:00000045>: Attack up, accuracy down.
+<button:00000019><button:00000045>: Attack down, accuracy up.
+<button:00000016><button:00000045>: Both drop only a little.
 -----------------------
 #以上を覚えておけ！
 #<button:00000045>による攻撃は効果範囲が広く、
@@ -2100,7 +2100,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Long Conversations."
+"Long Conversations".
 Would you like to listen in?
 -----------------------
 #ためになる話も十年くらい聞いてると
@@ -2145,7 +2145,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Item Drops."
+"Item Drops".
 Would you like to listen in?
 -----------------------
 #冒険者として生きるからには
@@ -2169,7 +2169,7 @@ What's the rumor?
 #　減ってしまうようだ」というのだ
 "Apparently, the more items of
 the same type you carry, the less
-likely enemies are to drop items."
+likely enemies are to drop items".
 -----------------------
 #そりゃ困るさ　全部売るさ
 That's bad news.
