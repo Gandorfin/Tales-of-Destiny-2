@@ -82,6 +82,7 @@ only the changed sectors end up in the diff.
 | `Third pass Quality-Safe Output/`, `third pass skits safe output/` | the maintained scenario and skit source trees; Japanese lines are marked with `#`, English follows |
 | `ps2/PyTOD2/TXT_EN/`, `ps2/PyTOD2/FILE/pak1/TXT_EN/` | synchronized build-ready copies of the scenario and skit sources |
 | `ps2/menu/` | menu, title, Quiz Book, enemy arte and cut-in translation tables and the scripts that apply them (`README.md` there explains the full apply sequence) |
+| `ps2/movies/` | ending-credit translation table and generated ASS overlay; its README records the release remux constraints |
 | `ps2/PyTOD2/` | archive tool for `FILE.FPB`: unpack, insert text, repack (GUI and command line) |
 | `scripts/audit_translation.py` | checks the script for crash-class problems and layout issues; runs on every pull request |
 | `glossary.txt`, `character_voice_guide.txt` | terminology (locked terms) and how each character speaks |
