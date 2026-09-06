@@ -19,8 +19,8 @@ def end_member(*fields):
         body += b'\x11\x00\x00\x00' + f + struct.pack('<I', 782)
     return lzss.pack(body, 3)
 
-def literal_member(text):
-    body = b'ENd\0' + struct.pack('<IIII', 100, 2, 252, 1)
+def literal_member(text, signature=b'ENd'):
+    body = signature + b'\0' + struct.pack('<IIII', 100, 2, 252, 1)
     body += b'\x0a\x05' + P.encode(text) + b'\0' + b'\x11' * 20
     return lzss.pack(body, 3)
 
@@ -79,6 +79,14 @@ class BuildCommand(unittest.TestCase):
             data = lzss.unpack(members[index])
             self.assertNotIn(P.encode('-ルーン・ウルズ-'), data)
             self.assertIn(b'-Rune Uruz-', data)
+
+    def test_patch_known_literals_covers_mystic_arte_efd_members(self):
+        raw = pack(literal_member('裂衝蒼破塵', b'efD'), b'model')
+        out, changed, errors = E.patch_known_literals(raw, E.MYSTIC_ARTE_TRANSLATIONS)
+        self.assertEqual((changed, errors), (1, 0))
+        data = lzss.unpack(E.parse_pak1(out)[0])
+        self.assertNotIn(P.encode('裂衝蒼破塵'), data)
+        self.assertIn(b'Azure Dust', data)
 
     def test_build_names_patches_folder(self):
         with tempfile.TemporaryDirectory() as d:

@@ -46,6 +46,13 @@ import md1patch as P   # noqa: E402
 SFM_FILES = ['%05d.sfm' % i for i in range(6171, 6302)]
 HDR = struct.Struct('<4s7L')
 DEFAULT_CSV = os.path.join(HERE, 'quiz_translations.csv')
+# Previous English values accepted for terminology migrations.  This lets a
+# newer table update an already-patched resource without weakening the normal
+# Japanese-source validation used for clean builds.
+FORMER_TRANSLATIONS = {
+    ('06189.sfm', 0x4E91): 'Kronos',
+    ('06235.sfm', 0x1C6): 'Kronos',
+}
 # bytecode words that precede the overwhelming majority of string pushes
 SAFE_PREV = {b'\x02\x0c', b'\x01\x00', b'\x10\x04'}
 STRAY_KANA = re.compile(r'[\uff61-\uff64\uff66-\uff6f\uff71-\uff9f]')
@@ -276,18 +283,32 @@ def cmd_build(args):
         raw, packed, data = read_module(path)
         mod = SFM(data)
         log = []
+        migrated = 0
+        for rel, jp, en in recs:
+            former = FORMER_TRANSLATIONS.get((name, rel))
+            if not former:
+                continue
+            current = mod.strings().get(rel)
+            if current is not None and current['text'] == former:
+                n, moved, overflow = mod.apply([(rel, former, en)], log)
+                if overflow:
+                    raise RuntimeError('%s 0x%X: terminology migration overflow' % (name, rel))
+                migrated += n
         try:
             n, moved, overflow = mod.apply(recs, log)
         except ValueError as e:
-            strs = mod.strings()
-            if any(strs.get(rel) is None or strs[rel]['text'] != jp for rel, jp, en in recs) and \
-               all(strs.get(rel) is None or strs[rel]['text'] != jp for rel, jp, en in recs):
-                print('  SKIP %s: already patched' % name)
+            if migrated:
+                n, moved, overflow = migrated, 0, []
+            else:
+                strs = mod.strings()
+                if any(strs.get(rel) is None or strs[rel]['text'] != jp for rel, jp, en in recs) and \
+                   all(strs.get(rel) is None or strs[rel]['text'] != jp for rel, jp, en in recs):
+                    print('  SKIP %s: already patched' % name)
+                    skipped += 1
+                    continue
+                print('  REFUSE %s: %s' % (name, e))
                 skipped += 1
                 continue
-            print('  REFUSE %s: %s' % (name, e))
-            skipped += 1
-            continue
         out = mod.bytes()
         if packed:
             out = lzss.pack(out, 3)

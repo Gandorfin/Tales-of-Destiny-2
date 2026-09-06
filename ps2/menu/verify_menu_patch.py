@@ -123,6 +123,7 @@ def verify_enemy_text(member):
             else: names["other"]+=1
 
     duplicate_jp=0
+    mystic_blobs=[]
     for index in range(8063,8932):
         raw=member(f"{index:05d}.pak1")
         members=enemy_text.parse_pak1(raw) if raw else None
@@ -131,13 +132,28 @@ def verify_enemy_text(member):
             if not lzss.is_packed(blob): continue
             try: data=lzss.unpack(blob)
             except Exception: continue
-            if data[:3]!=b"ENd": continue
+            if data[:3] not in enemy_text.TEXT_SCRIPT_SIGNATURES: continue
             duplicate_jp += sum(1 for _off,_size,_text in enemy_text.find_literals(data))
+            if data[:3]==b"efD": mystic_blobs.append(data)
+
+    mystic_literals=[]
+    for data in mystic_blobs:
+        for match in enemy_text.LITERAL.finditer(data):
+            decoded=enemy_text.decode_literal(data,match.end())
+            if decoded: mystic_literals.append(decoded[0].rstrip())
+    mystic={"en":0,"jp":0,"other":0}
+    for japanese,english in enemy_text.MYSTIC_ARTE_TRANSLATIONS.items():
+        jp=mystic_literals.count(japanese)
+        en=mystic_literals.count(english)
+        if en==1 and jp==0: mystic["en"]+=1
+        elif jp==1 and en==0: mystic["jp"]+=1
+        else: mystic["other"]+=1
 
     print(f"{'Enemy text':<12}{total['en']:>8}{total['jp']:>10}{total['other']:>7}")
     print(f"{'Enemy extras':<12}{'':>8}{duplicate_jp:>10}{'':>7}")
+    print(f"{'Mystic artes':<12}{mystic['en']:>8}{mystic['jp']:>10}{mystic['other']:>7}")
     print(f"{'Enemy names':<12}{names['en']:>8}{names['jp']:>10}{names['other']:>7}")
-    return duplicate_jp==0 and all(x["jp"]==0 and x["other"]==0 for x in (total,names))
+    return duplicate_jp==0 and all(x["jp"]==0 and x["other"]==0 for x in (total,mystic,names))
 
 def main():
     args=sys.argv[1:]

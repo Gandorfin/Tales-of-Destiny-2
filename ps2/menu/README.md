@@ -10,7 +10,7 @@ tables reference offsets inside files you extract yourself.
 |---|---|---|
 | `*.md1` overlay modules in `FILE.FPB` | 516 (+122 inside `00017.pak3`) | items, equipment, shop, refine, enchant, save, status, customize, cooking UI, grade shop, monster book, titles, artes and tactics menus, name entry, battle system and the Battle Memos, world map region labels |
 | `*.pak0` world map scripts in `FILE.FPB` | 261 | signposts, mine entrance labels, map location labels, ferry and minigame text, the flying dragon anchor scene, the ending monologue |
-| `*.pak1` enemy packs in `FILE.FPB` | 251 occurrences (95 distinct) + 218 enemy names | enemy arte names shown in battle, the lines bosses shout (Barbatos, Elraine and others) and the enemy-name banner at the start of an encounter (the name field in every enemy pack, plus the `TEKI` list in 08063.pak1), via `enemy_text.py` |
+| `*.pak1` enemy packs in `FILE.FPB` | 256 occurrences (100 distinct) + 218 enemy names | enemy arte and Mystic Arte names shown in battle, the lines bosses shout (Barbatos, Elraine and others) and the enemy-name banner at the start of an encounter (the name field in every enemy pack, plus the `TEKI` list in 08063.pak1), via `enemy_text.py` |
 | `06306.scpk` | 1 | the opening caption "And so... eighteen years passed...", a scenario package that predates the proofread range (06307 onward) and has no text file of its own; patched in place inside the package |
 | `SLPS_251.72` | 597 + 277 ops + 27 cut-ins | character titles, plus the earlier Arte / Status / Enchant / Cooking-help menu patch (`slps_menu_patch.json`) and the battle cut-in names of the 27 party artes that still flashed up in kanji, so the executable is complete from a clean English-menu base |
 
@@ -64,8 +64,8 @@ python ps2\menu\patch_slps_titles.py ps2\PyTOD2\SLPS_251.72
 ```
 
 `patch_menu_text.py` covers the menus, `sfm_text.py build` covers the Quiz
-Book and `enemy_text.py build` covers the enemy arte names and boss lines
-in battle (different files, see below); all three must run before Pack
+Book and `enemy_text.py build` covers enemy arte names, Mystic Arte banners
+and boss lines in battle (different files, see below); all three must run before Pack
 FPB. Skipping one leaves that part of the game in Japanese.
 
 `title_credit.py` is the title screen: the two copyright lines under the

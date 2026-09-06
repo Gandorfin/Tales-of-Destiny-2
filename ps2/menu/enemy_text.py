@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-"""Extract and rebuild the text of the enemy script packs (enemy arte names
-and the lines bosses shout in battle).
+"""Extract and rebuild the text of the enemy script packs (enemy arte names,
+Mystic Arte cut-in banners and the lines bosses shout in battle).
 
 Every enemy has a `pak1` pack in FILE.FPB (08063 onward).  A pak1 is
 
@@ -20,7 +20,9 @@ The CSV records the canonical occurrences in member 1.  The same enemy
 scripts are reused in alternate ENd members (usually member 4 or 5), so
 `build` also finds and patches every duplicate of a known Japanese string
 in every ENd member of every pak1.  This is required for battle variants
-such as Rune Uruz that do not load the canonical member.
+such as Rune Uruz that do not load the canonical member.  Mystic Arte
+banners use the same inline text opcode in compressed efD effect scripts;
+those are scanned and patched too.
 
 Usage:
     python enemy_text.py extract <FPB folder> [--csv enemy_translations.csv]
@@ -78,6 +80,20 @@ EXTRA_TRANSLATIONS = {
     '-リジェネレーション-': '-Regeneration-',
     '-スパイダーネット-': '-Spider Net-',
 }
+
+# Player Mystic Arte banners embedded in efD battle-effect scripts.  These
+# fields are inline bytecode and cannot grow safely.  The familiar full names
+# (for example, "Azure Devastation" and "Annihilating Crash") exceed the
+# original 8-12 byte slots, so compact localized banner forms are used.
+MYSTIC_ARTE_TRANSLATIONS = {
+    '裂衝蒼破塵': 'Azure Dust',
+    '絶破滅焼撃': 'Annihilate',
+    '魔人千裂衝': 'Demon Rend',
+    '震天裂空': 'Sky Rend',
+    '震天裂空斬光': 'Sky Rend Ray',
+}
+
+TEXT_SCRIPT_SIGNATURES = (b'ENd', b'efD')
 
 
 # ---------------------------------------------------------------- pak1
@@ -172,7 +188,7 @@ def find_literals(data):
 
 
 def patch_known_literals(raw, translations):
-    """Patch known Japanese literals in every ENd member of one pak1.
+    """Patch known Japanese literals in every ENd/efD member of one pak1.
 
     Returns (new pack bytes, strings changed, errors).  The original pack is
     returned when no known Japanese literal occurs.  Each replacement keeps
@@ -190,7 +206,7 @@ def patch_known_literals(raw, translations):
             unpacked = lzss.unpack(blob)
         except Exception:
             continue
-        if unpacked[:3] != b'ENd':
+        if unpacked[:3] not in TEXT_SCRIPT_SIGNATURES:
             continue
         data = bytearray(unpacked)
         member_changed = 0
@@ -215,13 +231,14 @@ def patch_known_literals(raw, translations):
 
 
 def build_duplicate_literals(args):
-    """Patch known battle strings in all ENd members and pak1 variants."""
+    """Patch known battle strings in all ENd/efD members and pak1 variants."""
     translations = {
         r['japanese']: r['english']
         for r in load_csv(args.csv)
         if r['english']
     }
     translations.update(EXTRA_TRANSLATIONS)
+    translations.update(MYSTIC_ARTE_TRANSLATIONS)
     files = strings = errors = 0
     for name in pak1_files(args.folder):
         path = os.path.join(args.folder, name)
