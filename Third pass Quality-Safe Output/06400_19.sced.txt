@@ -21,7 +21,7 @@ at the world's center.
 -----------------------
 #これは････砲弾のようだ
 #自衛のための装備だろうか
-This looks like...a cannonball.
+This looks like... a cannonball.
 Probably equipment for self-defense.
 -----------------------
 #危険なので触るのは止めておこう
@@ -54,7 +54,7 @@ A Letter from the Captain
 'I bought
 <item:000001A9>
 from your catalog, but it did
-nothing, no lottery win! Does it
+nothing--no lottery win! Does it
 raise luck? I'm returning it.'
 -----------------------
 <Kyle>
@@ -77,7 +77,7 @@ Sailor
 #ああ････どうすれば････
 Down below is the ship's hold!
 But right now, we're at war with
-the Lord of the Sea! Ahh...what
+the Lord of the Sea! Ahh... what
 do I do...?
 -----------------------
 #船員
@@ -95,7 +95,7 @@ Sailor
 -----------------------
 #ああ････どんどん水が････
 #もうおしまいなのか？
-Ahh...the water keeps rising...
+Ahh... the water keeps rising...
 Is this the end?
 -----------------------
 #船員
@@ -145,7 +145,7 @@ a sailor in the first place?
 Sailor
 -----------------------
 #海が大好きだから････かな
-I guess...because I love the sea.
+I guess... because I love the sea.
 -----------------------
 #船員
 Sailor
@@ -182,7 +182,7 @@ Sailor
 #甲板にあがってくださ～い
 P-please remain calm!
 Follow the crew's instructions
-and head up to the deck～!
+and head up to the deck~!
 -----------------------
 #船員
 Sailor
@@ -217,7 +217,7 @@ Sailor
 #甲板にあがってくださ～い
 P-please remain calm!
 Follow the crew's instructions
-and head up to the deck～!
+and head up to the deck~!
 -----------------------
 #船員
 Sailor
@@ -495,7 +495,7 @@ Captain
 #面舵いっぱ～い！
 Now then, let's get fired up
 and head for Calvalese!
-Hard to starboard～!
+Hard to starboard~!
 -----------------------
 #船長
 Captain
@@ -503,7 +503,7 @@ Captain
 #と、見せかけて取り舵～！
 #どうだ、だまされただろ？
 ...Or so it seems, then hard to
-port～! How's that? Fooled you,
+port~! How's that? Fooled you,
 didn't I?
 -----------------------
 #船長
@@ -655,7 +655,7 @@ Captain
 #････とまあ、こういう寸法だ
 We shall repair the ship in the
 meantime and await you all in
-Neuestadt. Well, that's the plan.
+Neuestadt. ...Well, that's the plan.
 -----------------------
 <Judas>
 -----------------------
@@ -792,7 +792,7 @@ Captain
 #だから、全部で六つのスタンプがあるんだ
 #それを全部集めると、なんと････
 So there are six stamps in all.
-Collect every last one, and...why,
+Collect every last one, and... why,
 you'd get...
 -----------------------
 <Kyle>

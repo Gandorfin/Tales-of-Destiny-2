@@ -32,9 +32,7 @@ The PS2 patch covers the whole game:
 * the in-game videos with dialogue, hard-subtitled
 
 What is still Japanese in the PS2 build is the handful of strings the tools
-cannot reach yet (see the open items in `ps2/menu/README.md`) and the
-ending staff roll, which is baked into the ending video. A translated
-overlay for it, ready to burn, is in `ps2/movies/`.
+cannot reach yet (see the open items in `ps2/menu/README.md`).
 
 ## Getting the PS2 patch
 

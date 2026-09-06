@@ -22,7 +22,7 @@ Tonya
 #ゾンビみたいで、こわいでしょ！
 Come on, <Kyle>, don't fall asleep
 while you're walking! You look like
-a zombie. It's creepy!
+a zombie--it's creepy!
 -----------------------
 #トニア
 Tonya
@@ -67,7 +67,7 @@ Yuni
 #街の外で冒険したこと
 #ルーティには言ってないよ！
 Oh, <Kyle>, <Loni>!
-Welcome back～!!
+Welcome back~!!
 We went adventuring outside town,
 but I haven't told Rutee yet!
 -----------------------
@@ -86,7 +86,7 @@ Yuni
 #いっけな～い････
 #街の外で冒険したこと
 #ルーティには、ナイショだったっけ････
-Uh-oh～... We went adventuring
+Uh-oh~... We went adventuring
 outside town, and I was supposed to
 keep it a secret from Rutee...
 -----------------------
@@ -141,7 +141,7 @@ Yuni
 #いってらっしゃ～い････
 #ふわぁ････
 You two both...
-Have a safe trip～...
+Have a safe trip~...
 *yawn*...
 -----------------------
 #ユニー
@@ -169,7 +169,7 @@ Yuni
 #えへへ～★
 #みんなの服、あたしが作ってるんだよ
 #<Loni>にも、なにか作ったげようか？
-Ehehe★ I make clothes for everyone!
+Ehehe~★ I make clothes for everyone!
 Want me to make something for <Loni>
 too?
 -----------------------
@@ -212,7 +212,7 @@ Cinnamon
 #へっへ～！
 #おれ、さっきの冒険で
 #レンズ拾っちゃった～！
-Heh-heh～!
+Heh-heh~!
 I found a Lens
 on our adventure just now!
 -----------------------
@@ -318,7 +318,7 @@ Cinnamon
 #そっか、そうだよな････
 #<Kyle>も<Loni>もいないんだ
 #おれが、ここを守らなきゃ････
-Oh yeah...that's right...
+Oh yeah... that's right...
 <Kyle> and <Loni> aren't here,
 so I've gotta protect this place...
 -----------------------
@@ -681,7 +681,7 @@ Salt
 #そうだよね････
 #<Kyle>の言うとおりだ
 #ボク、がんばってみるよ････
-Yeah...you're right.
+Yeah... you're right.
 Just like <Kyle> said.
 I'll try my best...
 -----------------------
@@ -1002,8 +1002,9 @@ you'll find something out there.
 #しかたねえな････
 #やっぱ、遺跡に連れて行く話は
 #なかったってことで････
-Oh well... I guess your trip to the
-ruins isn't happening after all...
+Well, can't be helped...
+Guess that means there's no way
+I'm taking them to the ruins...
 -----------------------
 <Loni>
 -----------------------
@@ -1070,8 +1071,9 @@ Rutee
 #ねえ、<Loni>
 #そんなことより
 #あの話、していいだろ？
-Hey, <Loni>, can we talk about
-that other thing instead?
+Hey, <Loni>.
+Forget about that for now.
+Can we talk about it?
 -----------------------
 #ルーティ
 Rutee
@@ -1289,7 +1291,7 @@ Rutee
 #おはようさん････って
 #あんたが、ひとりで起きてくるなんて
 #どういう風の吹きまわし!?
-Mornin'...wait.
+Mornin'... wait.
 You got up on your own?
 What in the world got into you!?
 -----------------------
@@ -1547,7 +1549,7 @@ Rutee
 -----------------------
 #はは～ん
 #あんた、珍しく何か悩んでるでしょ？
-Hmm～? Something's bothering you.
+Hmm~? Something's bothering you.
 That's rare.
 -----------------------
 <Kyle>
@@ -1693,7 +1695,7 @@ Rutee
 -----------------------
 #<Kyle>････
 #つらいよね････苦しいよね････
-<Kyle>... It hurts...doesn't it?
+<Kyle>... It hurts... doesn't it?
 It's so hard...
 -----------------------
 #ルーティ
@@ -1760,7 +1762,7 @@ girl will always believe in you.
 <Kyle>
 -----------------------
 #うん、うん････！
-Yeah...yeah...!
+Yeah... yeah...!
 -----------------------
 #ルーティ
 Rutee
@@ -1776,7 +1778,7 @@ to come by, you know.
 Rutee
 -----------------------
 #だから････大事にしてあげなさい
-So...cherish her.
+So... cherish her.
 -----------------------
 #ルーティ
 Rutee
