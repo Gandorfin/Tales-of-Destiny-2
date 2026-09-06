@@ -70,6 +70,17 @@ NAME_FIELD = 24          # enemy-pack name field: name, NUL padding, one data by
 # Battle literals found only in alternate ENd members, so they have no
 # canonical member-1 row in enemy_translations.csv.  English is constrained
 # to the encoded Japanese byte length at each occurrence.
+# Cut-in banner names of the party's mystic artes: 0A literals in the efD
+# effect scripts (08751 onward, member 0).  The kanji names are table text
+# in a 10-byte slot, too short for any English, so they stay Japanese; the
+# katakana names are Shift-JIS with room for the English name.
+MYSTIC_ARTE_TRANSLATIONS = {
+    'クリティカルブレード': 'Critical Blade',
+    'スパイラルドライバー': 'Spiral Driver',
+    'ファイナルプレイヤー': 'Final Prayer',
+    'ワイルド・ギース': 'Wild Geese',
+}
+
 EXTRA_TRANSLATIONS = {
     'サンドシュート': 'Sand Shoot',
     '-ルミナス・フィールド-': '-Luminous Field-',
@@ -132,7 +143,28 @@ def script_of(members):
 # ------------------------------------------------------------- strings
 
 def decode_literal(data, p):
-    """Decode the NUL-terminated literal at p. Returns (text, end) or None."""
+    """Decode the NUL-terminated literal at p. Returns (text, end) or None.
+
+    Literals use the game's table encoding; the katakana mystic arte names in
+    the efD effect scripts are plain Shift-JIS instead, so a literal that is
+    not table text is tried as Shift-JIS before giving up."""
+    r = _decode_table_literal(data, p)
+    if r is not None:
+        return r
+    end = data.find(b'\0', p)
+    if end < 0 or end == p:
+        return None
+    raw = data[p:end]
+    try:
+        text = raw.decode('shift_jis')
+    except UnicodeDecodeError:
+        return None
+    if text.encode('shift_jis') != raw or not JP.search(text):
+        return None
+    return text, end
+
+
+def _decode_table_literal(data, p):
     out = []
     n = len(data)
     while p < n and data[p] != 0:
@@ -172,7 +204,11 @@ def find_literals(data):
 
 
 def patch_known_literals(raw, translations):
-    """Patch known Japanese literals in every ENd member of one pak1.
+    """Patch known Japanese literals in every ENd or efD member of one pak1.
+
+    `efD` members are the effect scripts of the party's mystic artes (08751
+    onward); the name on the cut-in banner is an 0A literal there, pinned
+    to its byte budget exactly like the enemy lines.
 
     Returns (new pack bytes, strings changed, errors).  The original pack is
     returned when no known Japanese literal occurs.  Each replacement keeps
@@ -190,7 +226,7 @@ def patch_known_literals(raw, translations):
             unpacked = lzss.unpack(blob)
         except Exception:
             continue
-        if unpacked[:3] != b'ENd':
+        if unpacked[:3] not in (b'ENd', b'efD'):
             continue
         data = bytearray(unpacked)
         member_changed = 0
@@ -222,6 +258,7 @@ def build_duplicate_literals(args):
         if r['english']
     }
     translations.update(EXTRA_TRANSLATIONS)
+    translations.update(MYSTIC_ARTE_TRANSLATIONS)
     files = strings = errors = 0
     for name in pak1_files(args.folder):
         path = os.path.join(args.folder, name)
