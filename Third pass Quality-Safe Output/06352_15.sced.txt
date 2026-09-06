@@ -11,7 +11,7 @@ Church
 #『ストレイライズ神殿フィリア＝フィリス』
 #と記帳されている
 There's a guestbook.
-'Straylize Temple -- Philia Felice'
+'Straylize Temple, Philia Felice'
 is written inside.
 -----------------------
 #記帳がある
@@ -48,11 +48,10 @@ Cancel
 #『今月の帳簿外出費は２５０００ガルド
 #　配給品の横流しで穴埋めしておくように』
 #と書かれている
-There's paperwork. 'Off-book
-expenses this month: 25,000 Gald.
-Cover the shortfall by diverting
-rations as usual.' That's what's
-written.
+There's paperwork. It reads:
+'Off-book expenses this month:
+25,000 Gald. Cover the shortfall
+by diverting rations as usual.'
 -----------------------
 #女の子
 Girl
@@ -125,7 +124,7 @@ Girl
 #うれしいな～♪
 La, la-la, la♪
 I get to live with my big brother
-I'm so happy~♪
+I'm so happy～♪
 -----------------------
 #女の子
 Girl

@@ -293,7 +293,7 @@ Young Man
 #ありきたりだが、コングマンと
 #伝説のチャンプ・英雄スタンだな
 My heroes are pretty standard, I
-guess-- Kongman and the legendary
+guess: Kongman and the legendary
 champ, the hero Stahn.
 -----------------------
 #青年
@@ -833,8 +833,8 @@ Woman
 -----------------------
 #キャ～！スッテキィィ～ッ!!
 #応援するから、がんばってねぇっ♪
-Kyaa~! You're so cool~!! I'll cheer
-for you, so do your best~! ♪
+Kyaa! You're so cool!! I'll cheer
+for you, so do your best～! ♪
 -----------------------
 <Loni>
 -----------------------
@@ -848,8 +848,8 @@ Woman
 -----------------------
 #キャ～！スッテキィィ～ッ!!
 #応援するから、がんばってねぇっ♪
-Kyaa~! You're so cool~!! I'll cheer
-for you, so do your best~! ♪
+Kyaa! You're so cool!! I'll cheer
+for you, so do your best～! ♪
 -----------------------
 #女性
 Woman
@@ -880,7 +880,7 @@ Woman
 #ステキな人があらわれないかしら★
 Oh, I wonder if someone wonderful
 will appear who can surpass
-the legendary champion~ ★
+the legendary champion～ ★
 -----------------------
 #女の子
 Girl
@@ -907,7 +907,7 @@ Girl
 #はやてのように
 #かけぬけるんだから♪
 He dashes from corner to corner
-like a gale~! ♪
+like a gale～! ♪
 -----------------------
 #女の子
 Girl
@@ -925,7 +925,7 @@ Girl
 #「すかたん＝えろりん」とかゆ～
 #ヘンな、なまえだったの
 I think his name was
-'Skatan Erolin' or something~
+'Skatan Erolin' or something～
 What a weird name!
 -----------------------
 <Kyle>
@@ -1348,7 +1348,7 @@ Thug
 #つ、強ぇ････
 #････つよ、すぎ････る････
 S-so strong...
-Too... strong...
+Too...strong...
 -----------------------
 #リムル
 Rhym
@@ -1409,7 +1409,7 @@ Well...
 Girl
 -----------------------
 #ああ････おねえさま････
-Ahh... my lady...
+Ahh...my lady...
 -----------------------
 #リムル
 Rhym
@@ -1493,7 +1493,7 @@ Hmm...
 -----------------------
 #ヒュ～♪
 #かっ飛ばしてんなぁ！
-Hoo~♪
+Hoo～♪
 She's really fired up!
 -----------------------
 #リムル
@@ -1529,7 +1529,7 @@ Rhym
 -----------------------
 #まわる････走る････
 #････できるだけ、速く････
-Going around... running...
+Going around...running...
 ...as fast as I possibly can...
 -----------------------
 #リムル

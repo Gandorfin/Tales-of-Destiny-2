@@ -213,7 +213,7 @@ pretend adventure? It's dangerous!
 #ごっこじゃなくて、本物の冒険だよ
 #冒険には、ある程度の危険は
 #つきものさ！
-It's not pretend--it's a real
+It's not pretend, it's a real
 adventure! A certain amount of
 danger comes with the territory!
 -----------------------
@@ -275,7 +275,7 @@ Old Man
 #どうやら、イタズラをするつもりでは
 #なさそうじゃのう
 You've made your travel
-preparations... and it seems you're
+preparations...and it seems you're
 not planning any pranks this time.
 -----------------------
 #おじいさん
@@ -381,7 +381,7 @@ off together? Where are you going?
 -----------------------
 #へっへ～！
 #冒険だよ、ぼ・う・け・ん！
-Heh heh~!
+Heh heh～!
 An adventure! Ad-ven-ture!
 -----------------------
 #おじいさん
@@ -810,8 +810,8 @@ Good grief, she's really something.
 #スゴい人なんだよなぁ
 #････普段は、ただの怒りんぼだけど
 When you think about it, Mom's an
-amazing person. ...Even if she is
-just a grump most days.
+amazing person...even if she's just
+a grump on most days.
 -----------------------
 #バケツおじさん
 Bucket Man
@@ -1279,7 +1279,7 @@ Man
 #森の中はねらわれやすいから
 #なるべく避けて歩いた方がいいよなぁ
 That's right! The woods are
-dangerous--you're easy prey in
+dangerous. You're easy prey in
 there. Best to steer clear of the
 forest as much as you can.
 -----------------------
@@ -1342,7 +1342,7 @@ Man
 #ちょっと変わった雰囲気の街らしいぜ
 You ever heard of Aquaveil?
 Apparently it's a town with
-a real unique vibe-- the
+a real unique vibe: the
 buildings, the clothes the
 locals wear, everything.
 -----------------------
@@ -1387,7 +1387,7 @@ I'll find my own way
 Maid Who Likes Shiny Things
 -----------------------
 #へへ････まいど♪
-Heheh... thanks for your patronage♪
+Heheh...thanks for your patronage♪
 -----------------------
 #光り物好きなメイド
 Maid Who Likes Shiny Things
@@ -1860,7 +1860,7 @@ produces equipment with two slots!
 #リファインできません
 One important thing to remember
 is that swords go with swords,
-armor with armor... in other
+armor with armor...in other
 words, you can only Refine
 items of the same type.
 -----------------------

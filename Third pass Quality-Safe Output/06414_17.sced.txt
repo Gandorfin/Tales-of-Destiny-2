@@ -21,7 +21,7 @@ eat some whenever you get hurt?
 #医学書のようだ
 #････難しすぎてまったく理解できない
 These appear to be medical
-texts. ...They're far too
+texts. They're far too
 complex for me to understand.
 -----------------------
 <char:000003E8>
@@ -78,12 +78,12 @@ Swordsman
 -----------------------
 #ぐぉ～っ！
 #し、死ぬぅ～!!
-Guhoooh~!
-I-I'm gonna die~!!
+Guhoooh～!
+I-I'm gonna die～!!
 -----------------------
 #ふぐぉわ～～っ!!
 #モ、モウレツに腹がいてえっ!!
-Fuguwaah~~!!
+Fuguwaah～!!
 M-My stomach hurts like crazy!!
 -----------------------
 <Kyle>
@@ -258,7 +258,7 @@ Don't laugh!
 {15}{24}{6E}{C0}
 -----------------------
 #弱すぎー
-So weak~
+So weak～
 -----------------------
 <char:000003E8>
 -----------------------
