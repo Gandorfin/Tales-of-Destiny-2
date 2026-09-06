@@ -213,30 +213,30 @@ anything.
 #豪華な装飾を施された槍斧だ
 #『非売品』と書かれている
 An ornate poleaxe.
-It says 'Not for sale.'
+It says 'Not for sale'.
 -----------------------
 #美しい曲面で構成された板金鎧だ
 #『作者・ウィンターズ』と書かれている
 Plate armor built from
 beautifully curved sheets.
-It reads 'Creator: Winters.'
+It reads 'Creator: Winters'.
 -----------------------
 #篭手と具足が展示されている
 #『非売品』と書かれている
 Gauntlets and greaves are on
-display. It says 'Not for sale.'
+display. It says 'Not for sale'.
 -----------------------
 #一山いくらのクズ武器だ
 #『１０本で９８０ガルド』と書かれている
 A whole pile of junk weapons.
-'980 Gald for 10,' it says.
+'980 Gald for 10', it says.
 -----------------------
 #一山いくらのクズ鎧だ
 #『兜と胸当てセットで１９８０ガルドから』と
 #書かれている
 A whole pile of junk armor.
 'Helm and breastplate set,
-from 1980 Gald,' it says.
+from 1980 Gald', it says.
 -----------------------
 #女性用の布鎧だ
 #『男性の試着厳禁！』と
@@ -249,7 +249,7 @@ it says...
 #『試作品につき非売品』と
 #書かれている
 It's the latest Lens accessory.
-'Prototype, Not for Sale,' it says.
+'Prototype, Not for Sale', it says.
 -----------------------
 #いってらっしゃいませ
 Have a good day.

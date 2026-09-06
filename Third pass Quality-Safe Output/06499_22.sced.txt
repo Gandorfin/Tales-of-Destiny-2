@@ -79,9 +79,9 @@ be from the Aeth'er Wars era?
 #貴重な品なので持ち出さぬこと』
 There's a warning note on the
 wreckage. 'This appears to be
-"bio-metal," a building material
+"bio-metal", a building material
 used in aerial cities. Do not remove
-it, as it is a valuable item.'
+it, as it is a valuable item'.
 -----------------------
 notice
 -----------------------
@@ -155,7 +155,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Weapon Attacks."
+"Weapon Attacks".
 Would you like to listen in?
 -----------------------
 #さて俺たちも冒険を始めるわけだが、
@@ -225,7 +225,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Base Artes."
+"Base Artes".
 Would you like to listen in?
 -----------------------
 #どうだ、特技を覚えて
@@ -278,7 +278,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Enchant."
+"Enchant".
 Would you like to listen in?
 -----------------------
 #エンチャントも覚えたさ
@@ -293,7 +293,7 @@ I've learned Enchant too.
 Indeed. Simply put, it's
 "the ability to customize
 your learned Base Artes and
-Magic Artes to your liking."
+Magic Artes to your liking".
 -----------------------
 #まずは使い続けて使用回数を上げること！
 #そうすれば様々なエンチャントが
@@ -356,7 +356,7 @@ count, so it's a waste!
 Also, for recovery Magic Artes,
 usage count only increases
 "when used while the target's
-HP is below 50%." Be careful!!
+HP is below 50%". Be careful!!
 -----------------------
 #確かにかすり傷で使っても
 #経験にはならないさ
@@ -369,7 +369,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Battle Strategy."
+"Battle Strategy".
 Would you like to listen in?
 -----------------------
 #いろんな敵に遭っても対処できるように、
@@ -403,7 +403,7 @@ uses powerful Magic Artes"?
 #「術を使わせるな」で
 #詠唱をジャマするのさ
 I memorized it yesterday.
-"Don't let them cast spells."
+"Don't let them cast spells".
 You interrupt their incantations.
 -----------------------
 #まあそんな感じだ
@@ -432,7 +432,7 @@ notice
 #について話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Technical Smash."
+"Technical Smash".
 Would you like to listen in?
 -----------------------
 #テクニカルスマッシュってなにさ？
@@ -442,7 +442,7 @@ What's a Technical Smash?
 #「華麗なとどめのさし方」を行うと、
 #テクニカルスマッシュと認定される
 Indeed. When you perform a
-"gorgeous finishing blow," even
+"gorgeous finishing blow", even
 battle professionals acknowledge
 it as a Technical Smash.
 -----------------------
@@ -496,7 +496,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Spirits."
+"Spirits".
 Would you like to listen in?
 -----------------------
 #敵に攻撃しても防御されまくりさ
@@ -551,7 +551,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Consecutive Hits."
+"Consecutive Hits".
 Would you like to listen in?
 -----------------------
 #連続ヒットってなにさ？
@@ -610,7 +610,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Field of Effect."
+"Field of Effect".
 Would you like to listen in?
 -----------------------
 #敵の裏側から攻撃したら有利だと思ったけど
@@ -666,7 +666,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Status Effects."
+"Status Effects".
 Would you like to listen in?
 -----------------------
 #戦闘でステータス異常になってしもうた
@@ -754,7 +754,7 @@ notice
 #について話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Spirit Blaster."
+"Spirit Blaster".
 Would you like to listen in?
 -----------------------
 #ピンチになっても、スピリッツブラスター
@@ -864,7 +864,7 @@ notice
 #について話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Field of Effect."
+"Field of Effect".
 Would you like to listen in?
 -----------------------
 #この間の、敵が出す
@@ -932,7 +932,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Battle Grade."
+"Battle Grade".
 Would you like to listen in?
 -----------------------
 #バトルグレードって結局なにさ？
@@ -992,7 +992,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Fall Breaks."
+"Fall Breaks".
 Would you like to listen in?
 -----------------------
 #地面にたたきつけられると
@@ -1029,7 +1029,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Battle Difficulty."
+"Battle Difficulty".
 Would you like to listen in?
 -----------------------
 #戦闘難易度を高くするのに、
@@ -1084,7 +1084,7 @@ notice
 #深く話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Normal Attacks."
+"Normal Attacks".
 Would you like to listen in?
 -----------------------
 #慣れてきたから最近は通常攻撃は
@@ -1174,7 +1174,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Long Conversations."
+"Long Conversations".
 Would you like to listen in?
 -----------------------
 #ためになる話も十年くらい聞いてると
@@ -1219,7 +1219,7 @@ notice
 #話し合っているようです
 #耳を傾けますか？
 They appear to be discussing
-"Item Drops."
+"Item Drops".
 Would you like to listen in?
 -----------------------
 #冒険者として生きるからには
@@ -1245,7 +1245,7 @@ What's the rumor?
 "Apparently, the more items of
 the same type you carry, the
 less likely enemies are to drop
-items." That's what they're saying.
+items". That's what they're saying.
 -----------------------
 #そりゃ困るさ　全部売るさ
 Well, that's a pain. Guess
