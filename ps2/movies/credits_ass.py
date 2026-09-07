@@ -1,41 +1,29 @@
 #!/usr/bin/env python3
-"""Build the English overlay for the ending staff roll as an ASS subtitle file.
+"""Build and validate the English ending-credit ASS overlay."""
+from __future__ import annotations
 
-The PS2 ending movie (the fifth stream in MOVIE.FPB, 7 min 17 s, 640x448)
-has the credits baked into the video: white Japanese text scrolling up the
-left side at about 48 pixels per second over the illustrations.  This script
-turns `ending_credits.tsv` (one row per credit line, with the moment its top
-edge enters the screen, its scroll speed, its height and the x extents of
-its text) into an overlay that
-
-  * paints a black box over every Japanese line for exactly as long as it is
-    on screen, moving with the scroll, and
-  * draws the English translation on top at the same position, and
-  * shows a Green Gel card while the Namco logo is on screen at the end.
-
-Burn it into the movie with ffmpeg (libass) before remuxing the PSS:
-
-    python3 ps2/movies/credits_ass.py            # writes ending_credits.ass
-    ffmpeg -i ending.pss -vf "ass=ps2/movies/ending_credits.ass" ...
-
-Rows whose English is KEEP are already Latin text or a logo and are left
-untouched.  Two-column rows are "left / right" and get one box and one text
-per column.  A trailing "?" marks a name reading that could not be verified
-and is not printed.
-"""
+import argparse
 import csv
-import os
+import hashlib
+import math
+import struct
+from pathlib import Path
 
-HERE = os.path.dirname(os.path.abspath(__file__))
-TSV = os.path.join(HERE, 'ending_credits.tsv')
-OUT = os.path.join(HERE, 'ending_credits.ass')
-
+HERE = Path(__file__).resolve().parent
+TSV = HERE / "ending_credits.tsv"
+OUT = HERE / "ending_credits.ass"
+FONT_FILE = HERE / "fonts" / "Ubuntu-Bold.ttf"
+FONT_SHA256 = "679b5c1e09cab3156bb8ef529735f9382bf31ca7ac737382ab959297f8d82ad4"
 W, H = 640, 448
-FONT = 'Ubuntu'          # rounded sans close to the original; libass falls back if absent
-PAD_X, PAD_Y = 4, 5      # black box margin around the Japanese text
-TEXT_DY = -4             # top of the English glyph box relative to the Japanese line top
-LEAD = 0.2               # seconds of event before the line enters / after it leaves
-TIME_SHIFT = 0.46        # the 1 fps sampling that built the table lags the true timestamps by 22 px (measured)
+FONT = "Ubuntu"
+PAD_X, PAD_Y = 4, 5
+TEXT_DY = -4
+LEAD = 0.2
+TIME_SHIFT = 0.46
+CREDIT_RIGHT = 368
+COLUMN_GAP = 8
+MIN_SCALE_X = 55
+EXPECTED_ROWS = 323
 
 HEADER = f"""[Script Info]
 ; Tales of Destiny 2 (PS2) ending staff roll, English overlay
@@ -57,55 +45,219 @@ Style: Card,{FONT},24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,1
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 """
 
+def u16(data: bytes, at: int) -> int:
+    return struct.unpack_from(">H", data, at)[0]
 
-def ts(sec):
-    sec = max(0.0, sec)
-    h = int(sec // 3600)
-    m = int(sec % 3600 // 60)
-    s = sec % 60
-    return f'{h}:{m:02d}:{s:05.2f}'
+def u32(data: bytes, at: int) -> int:
+    return struct.unpack_from(">I", data, at)[0]
 
+class TrueTypeMetrics:
+    """Dependency-free TrueType advance-width reader for the pinned font."""
+    def __init__(self, path: Path) -> None:
+        data = path.read_bytes()
+        digest = hashlib.sha256(data).hexdigest()
+        if digest != FONT_SHA256:
+            raise ValueError(f"{path} has SHA-256 {digest}; expected {FONT_SHA256}")
+        if data[:4] != b"\x00\x01\x00\x00":
+            raise ValueError(f"{path} is not a TrueType font")
+        tables = {}
+        for index in range(u16(data, 4)):
+            at = 12 + 16 * index
+            tag = data[at:at + 4].decode("latin-1")
+            offset, length = u32(data, at + 8), u32(data, at + 12)
+            if offset + length > len(data):
+                raise ValueError(f"invalid {tag!r} font table")
+            tables[tag] = (offset, length)
+        for required in ("head", "hhea", "maxp", "hmtx", "cmap"):
+            if required not in tables:
+                raise ValueError(f"font is missing {required!r}")
+        self.data = data
+        self.units = u16(data, tables["head"][0] + 18)
+        glyph_count = u16(data, tables["maxp"][0] + 4)
+        metric_count = u16(data, tables["hhea"][0] + 34)
+        hmtx_at, hmtx_len = tables["hmtx"]
+        if not 0 < metric_count <= glyph_count or metric_count * 4 > hmtx_len:
+            raise ValueError("invalid horizontal font metrics")
+        advances = [u16(data, hmtx_at + 4 * i) for i in range(metric_count)]
+        self.advances = advances + [advances[-1]] * (glyph_count - metric_count)
+        cmap_at, cmap_len = tables["cmap"]
+        cmaps = []
+        for i in range(u16(data, cmap_at + 2)):
+            record = cmap_at + 4 + 8 * i
+            platform, encoding = u16(data, record), u16(data, record + 2)
+            at = cmap_at + u32(data, record + 4)
+            if not cmap_at <= at < cmap_at + cmap_len:
+                continue
+            fmt = u16(data, at)
+            priority = (0 if (platform, encoding, fmt) == (3, 10, 12)
+                        else 1 if platform == 0 and fmt == 12
+                        else 2 if platform == 0 and fmt == 4
+                        else 3 if (platform, encoding, fmt) in ((3, 1, 4), (3, 0, 4))
+                        else 99)
+            if priority < 99:
+                cmaps.append((priority, at, fmt))
+        if not cmaps:
+            raise ValueError("font has no supported Unicode cmap")
+        self.cmaps = [(at, fmt) for _, at, fmt in sorted(cmaps)]
 
-def events():
-    out = []
-    for r in csv.DictReader(open(TSV, encoding='utf-8'), delimiter='\t'):
-        en = r['english']
-        if en == 'KEEP':
+    def glyph(self, character: str) -> int:
+        codepoint = ord(character)
+        for at, fmt in self.cmaps:
+            if fmt == 12:
+                low, high = 0, u32(self.data, at + 12)
+                while low < high:
+                    mid = (low + high) // 2
+                    group = at + 16 + 12 * mid
+                    start, end = u32(self.data, group), u32(self.data, group + 4)
+                    if codepoint < start:
+                        high = mid
+                    elif codepoint > end:
+                        low = mid + 1
+                    else:
+                        return u32(self.data, group + 8) + codepoint - start
+            elif codepoint <= 0xFFFF:
+                seg_count = u16(self.data, at + 6) // 2
+                ends = at + 14
+                starts = ends + 2 * seg_count + 2
+                deltas = starts + 2 * seg_count
+                ranges = deltas + 2 * seg_count
+                for i in range(seg_count):
+                    end = u16(self.data, ends + 2 * i)
+                    if codepoint > end:
+                        continue
+                    start = u16(self.data, starts + 2 * i)
+                    if codepoint < start:
+                        break
+                    delta = u16(self.data, deltas + 2 * i)
+                    range_at = ranges + 2 * i
+                    offset = u16(self.data, range_at)
+                    if not offset:
+                        return (codepoint + delta) & 0xFFFF
+                    glyph_at = range_at + offset + 2 * (codepoint - start)
+                    glyph = u16(self.data, glyph_at)
+                    if glyph:
+                        return (glyph + delta) & 0xFFFF
+                    break
+        raise ValueError(f"Ubuntu Bold lacks {character!r} (U+{codepoint:04X})")
+
+    def text_width(self, text: str, size: int) -> float:
+        return sum(self.advances[self.glyph(c)] for c in text) * size / self.units
+
+def ts(seconds: float) -> str:
+    seconds = max(0.0, seconds)
+    return f"{int(seconds // 3600)}:{int(seconds % 3600 // 60):02d}:{seconds % 60:05.2f}"
+
+def read_rows() -> list[dict[str, str]]:
+    with TSV.open(encoding="utf-8", newline="") as handle:
+        rows = list(csv.DictReader(handle, delimiter="\t"))
+    if len(rows) != EXPECTED_ROWS:
+        raise ValueError(f"expected {EXPECTED_ROWS} credit rows, found {len(rows)}")
+    previous_t0 = -1.0
+    for index, row in enumerate(rows):
+        if int(row["id"]) != index:
+            raise ValueError(f"credit row {index + 2} has unexpected id {row['id']!r}")
+        t0, speed, height = float(row["t0"]), float(row["speed"]), int(row["height"])
+        logo_overlap = row["id"] == "283" and row["english"] == "KEEP"
+        if (t0 < previous_t0 and not logo_overlap) or speed <= 0 or height <= 0:
+            raise ValueError(f"invalid timing or dimensions at credit id {index}")
+        previous_t0 = t0
+        segments = [tuple(int(v) for v in item.split("-")) for item in row["segments"].split(";")]
+        if any(not (0 <= left <= right < W) for left, right in segments):
+            raise ValueError(f"out-of-frame segment at credit id {index}")
+        if any(a[1] >= b[0] for a, b in zip(segments, segments[1:])):
+            raise ValueError(f"overlapping segments at credit id {index}")
+    return rows
+
+def row_parts(row: dict[str, str]) -> tuple[list[tuple[int, int]], list[str]]:
+    segments = [tuple(int(v) for v in item.split("-")) for item in row["segments"].split(";")]
+    texts = [text.strip().rstrip("?").strip() for text in row["english"].split(" / ")]
+    if len(texts) != len(segments):
+        # This source line has a Japanese company name plus its Latin rendering.
+        if row["id"] == "162" and row["english"] == "Ginga Inc.":
+            texts = [row["english"]]
+            segments = [(segments[0][0], segments[-1][1])]
+        else:
+            raise ValueError(
+                f"credit id {row['id']} has {len(segments)} segments "
+                f"but {len(texts)} translations"
+            )
+    if any(not text for text in texts):
+        raise ValueError(f"credit id {row['id']} contains an empty translation")
+    if any(any(mark in text for mark in ("{", "}", "\\")) for text in texts):
+        raise ValueError(f"credit id {row['id']} contains an unsafe ASS character")
+    return segments, texts
+
+def events(metrics: TrueTypeMetrics) -> list[tuple[int, float, float, str, str]]:
+    result = []
+    for row in read_rows():
+        if row["english"] == "KEEP":
             continue
-        t0, v, h = float(r['t0']) + TIME_SHIFT, float(r['speed']), int(r['height'])
-        segs = [tuple(int(x) for x in s.split('-')) for s in r['segments'].split(';')]
-        texts = [t.strip().rstrip('?').strip() for t in en.split(' / ')]
-        if len(texts) != len(segs):
-            texts = [' '.join(texts)]
-            segs = [(segs[0][0], segs[-1][1])]
+        t0 = float(row["t0"]) + TIME_SHIFT
+        speed, height = float(row["speed"]), int(row["height"])
+        segments, texts = row_parts(row)
         start = t0 - LEAD
-        end = t0 + (H + h + 2 * PAD_Y) / v + LEAD
-        y_start = H - v * (start - t0)        # line top at event start (below the screen)
-        y_end = H - v * (end - t0)            # line top at event end (above the screen)
-        two = len(segs) == 2
-        for (xa, xb), text in zip(segs, texts):
-            bw, bh = xb - xa + 2 * PAD_X, h + 2 * PAD_Y
-            box = (f'{{\\an7\\move({xa - PAD_X},{y_start - PAD_Y:.1f},{xa - PAD_X},{y_end - PAD_Y:.1f})'
-                   f'\\p1\\bord0\\shad0\\1c&H000000&}}m 0 0 l {bw} 0 l {bw} {bh} l 0 {bh}{{\\p0}}')
-            out.append((0, start, end, 'Box', box))
-            size = h + 3
-            scale = '\\fscx90' if two else ''
-            txt = (f'{{\\an7\\move({xa},{y_start + TEXT_DY:.1f},{xa},{y_end + TEXT_DY:.1f})'
-                   f'\\fs{size}{scale}}}{text}')
-            out.append((1, start, end, 'Credit', txt))
-    # Green Gel card while the Namco logo is on screen (black gap + logo).
-    out.append((1, 426.2, 436.6, 'Card',
-                '{\\an2\\pos(320,420)\\fad(600,600)}English translation patch\\NGreen Gel'))
-    return out
+        end = t0 + (H + height + 2 * PAD_Y) / speed + LEAD
+        y_start = H - speed * (start - t0)
+        y_end = H - speed * (end - t0)
+        two_columns = len(segments) == 2
+        for index, ((left, right), text) in enumerate(zip(segments, texts)):
+            box_width, box_height = right - left + 2 * PAD_X, height + 2 * PAD_Y
+            box = (
+                f"{{\\an7\\move({left - PAD_X},{y_start - PAD_Y:.1f},"
+                f"{left - PAD_X},{y_end - PAD_Y:.1f})"
+                f"\\p1\\bord0\\shad0\\1c&H000000&}}m 0 0 l {box_width} 0 "
+                f"l {box_width} {box_height} l 0 {box_height}{{\\p0}}"
+            )
+            result.append((0, start, end, "Box", box))
+            size = height + 3
+            boundary = (segments[index + 1][0] - COLUMN_GAP
+                        if index + 1 < len(segments) else CREDIT_RIGHT)
+            available = boundary - left - 3
+            natural_width = metrics.text_width(text, size)
+            maximum_scale = 90 if two_columns else 100
+            scale = min(maximum_scale, math.floor(100 * available / natural_width))
+            if scale < MIN_SCALE_X:
+                raise ValueError(
+                    f"credit id {row['id']} text {text!r} needs ScaleX={scale}, "
+                    f"below {MIN_SCALE_X}"
+                )
+            scale_tag = f"\\fscx{scale}" if scale != 100 else ""
+            translated = (
+                f"{{\\an7\\move({left},{y_start + TEXT_DY:.1f},"
+                f"{left},{y_end + TEXT_DY:.1f})\\fs{size}{scale_tag}}}{text}"
+            )
+            result.append((1, start, end, "Credit", translated))
+    result.append((
+        1, 426.2, 436.6, "Card",
+        "{\\an2\\pos(320,420)\\fad(600,600)}English translation patch\\NGreen Gel",
+    ))
+    return result
 
+def render_ass() -> tuple[str, int]:
+    rendered_events = events(TrueTypeMetrics(FONT_FILE))
+    generated = [HEADER]
+    for layer, start, end, style, text in rendered_events:
+        generated.append(
+            f"Dialogue: {layer},{ts(start)},{ts(end)},{style},,0,0,0,,{text}\n"
+        )
+    return "".join(generated), len(rendered_events)
 
-def main():
-    lines = [HEADER]
-    for layer, start, end, style, text in events():
-        lines.append(f'Dialogue: {layer},{ts(start)},{ts(end)},{style},,0,0,0,,{text}\n')
-    open(OUT, 'w', encoding='utf-8').write(''.join(lines))
-    print(f'wrote {OUT}: {len(lines) - 1} events')
+def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--check", action="store_true",
+        help="fail if ending_credits.ass is not the exact generated output",
+    )
+    args = parser.parse_args()
+    rendered, event_count = render_ass()
+    if args.check:
+        if not OUT.exists() or OUT.read_text(encoding="utf-8") != rendered:
+            raise SystemExit(f"{OUT} is stale; regenerate it with {Path(__file__).name}")
+        print(f"verified {OUT}: {event_count} events; pinned font and fitting OK")
+        return
+    with OUT.open("w", encoding="utf-8", newline="\n") as handle:
+        handle.write(rendered)
+    print(f"wrote {OUT}: {event_count} events; pinned font and fitting OK")
 
-
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

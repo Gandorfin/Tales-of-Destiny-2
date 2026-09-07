@@ -183,7 +183,7 @@ Dialogue: 1,0:03:51.12,0:04:01.36,Credit,,0,0,0,,{\an7\move(46,453.7,46,-40.7)\f
 Dialogue: 0,0:03:51.70,0:04:01.98,Box,,0,0,0,,{\an7\move(61,452.7,61,-43.7)\p1\bord0\shad0\1c&H000000&}m 0 0 l 117 0 l 117 29 l 0 29{\p0}
 Dialogue: 1,0:03:51.70,0:04:01.98,Credit,,0,0,0,,{\an7\move(65,453.7,65,-42.7)\fs22\fscx90}Masahiro Abe
 Dialogue: 0,0:03:51.70,0:04:01.98,Box,,0,0,0,,{\an7\move(212,452.7,212,-43.7)\p1\bord0\shad0\1c&H000000&}m 0 0 l 115 0 l 115 29 l 0 29{\p0}
-Dialogue: 1,0:03:51.70,0:04:01.98,Credit,,0,0,0,,{\an7\move(216,453.7,216,-42.7)\fs22\fscx90}Narimasa Tanaka
+Dialogue: 1,0:03:51.70,0:04:01.98,Credit,,0,0,0,,{\an7\move(216,453.7,216,-42.7)\fs22\fscx83}Narimasa Tanaka
 Dialogue: 0,0:03:52.58,0:04:02.84,Box,,0,0,0,,{\an7\move(42,452.6,42,-41.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 182 0 l 182 27 l 0 27{\p0}
 Dialogue: 1,0:03:52.58,0:04:02.84,Credit,,0,0,0,,{\an7\move(46,453.6,46,-40.6)\fs20}2D Map Program
 Dialogue: 0,0:03:53.17,0:04:03.49,Box,,0,0,0,,{\an7\move(61,452.6,61,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 117 0 l 117 29 l 0 29{\p0}
@@ -207,13 +207,13 @@ Dialogue: 1,0:03:59.11,0:04:09.42,Credit,,0,0,0,,{\an7\move(66,453.6,66,-42.6)\f
 Dialogue: 0,0:04:00.01,0:04:10.28,Box,,0,0,0,,{\an7\move(43,452.6,43,-41.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 236 0 l 236 27 l 0 27{\p0}
 Dialogue: 1,0:04:00.01,0:04:10.28,Credit,,0,0,0,,{\an7\move(47,453.6,47,-40.6)\fs20}Scenario Script Support
 Dialogue: 0,0:04:00.60,0:04:10.91,Box,,0,0,0,,{\an7\move(61,452.6,61,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 117 0 l 117 29 l 0 29{\p0}
-Dialogue: 1,0:04:00.60,0:04:10.91,Credit,,0,0,0,,{\an7\move(65,453.6,65,-42.6)\fs22\fscx90}Toyokazu Endo
+Dialogue: 1,0:04:00.60,0:04:10.91,Credit,,0,0,0,,{\an7\move(65,453.6,65,-42.6)\fs22\fscx87}Toyokazu Endo
 Dialogue: 0,0:04:00.60,0:04:10.91,Box,,0,0,0,,{\an7\move(212,452.6,212,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 89 0 l 89 29 l 0 29{\p0}
 Dialogue: 1,0:04:00.60,0:04:10.91,Credit,,0,0,0,,{\an7\move(216,453.6,216,-42.6)\fs22\fscx90}Ryo Tanaka
 Dialogue: 0,0:04:01.20,0:04:11.54,Box,,0,0,0,,{\an7\move(62,452.6,62,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 117 0 l 117 29 l 0 29{\p0}
 Dialogue: 1,0:04:01.20,0:04:11.54,Credit,,0,0,0,,{\an7\move(66,453.6,66,-42.6)\fs22\fscx90}Kazuo Takami
 Dialogue: 0,0:04:01.20,0:04:11.54,Box,,0,0,0,,{\an7\move(211,452.6,211,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 117 0 l 117 29 l 0 29{\p0}
-Dialogue: 1,0:04:01.20,0:04:11.54,Credit,,0,0,0,,{\an7\move(215,453.6,215,-42.6)\fs22\fscx90}Nobuyuki Sawada
+Dialogue: 1,0:04:01.20,0:04:11.54,Credit,,0,0,0,,{\an7\move(215,453.6,215,-42.6)\fs22\fscx80}Nobuyuki Sawada
 Dialogue: 0,0:04:02.10,0:04:12.40,Box,,0,0,0,,{\an7\move(42,452.6,42,-41.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 221 0 l 221 27 l 0 27{\p0}
 Dialogue: 1,0:04:02.10,0:04:12.40,Credit,,0,0,0,,{\an7\move(46,453.6,46,-40.6)\fs20}Map Concept Design
 Dialogue: 0,0:04:02.71,0:04:13.02,Box,,0,0,0,,{\an7\move(62,452.6,62,-42.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 89 0 l 89 28 l 0 28{\p0}
@@ -221,17 +221,17 @@ Dialogue: 1,0:04:02.71,0:04:13.02,Credit,,0,0,0,,{\an7\move(66,453.6,66,-41.6)\f
 Dialogue: 0,0:04:03.59,0:04:13.91,Box,,0,0,0,,{\an7\move(42,452.6,42,-41.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 211 0 l 211 27 l 0 27{\p0}
 Dialogue: 1,0:04:03.59,0:04:13.91,Credit,,0,0,0,,{\an7\move(46,453.6,46,-40.6)\fs20}2D Map Direction
 Dialogue: 0,0:04:04.17,0:04:14.54,Box,,0,0,0,,{\an7\move(61,452.6,61,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 143 0 l 143 29 l 0 29{\p0}
-Dialogue: 1,0:04:04.17,0:04:14.54,Credit,,0,0,0,,{\an7\move(65,453.6,65,-42.6)\fs22\fscx90}Yasuyuki Sawadaishi
+Dialogue: 1,0:04:04.17,0:04:14.54,Credit,,0,0,0,,{\an7\move(65,453.6,65,-42.6)\fs22\fscx76}Yasuyuki Sawadaishi
 Dialogue: 0,0:04:04.17,0:04:14.54,Box,,0,0,0,,{\an7\move(238,452.6,238,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 90 0 l 90 29 l 0 29{\p0}
-Dialogue: 1,0:04:04.17,0:04:14.54,Credit,,0,0,0,,{\an7\move(242,453.6,242,-42.6)\fs22\fscx90}Tsuyoshi Terao
+Dialogue: 1,0:04:04.17,0:04:14.54,Credit,,0,0,0,,{\an7\move(242,453.6,242,-42.6)\fs22\fscx77}Tsuyoshi Terao
 Dialogue: 0,0:04:04.78,0:04:15.18,Box,,0,0,0,,{\an7\move(62,452.5,62,-42.5)\p1\bord0\shad0\1c&H000000&}m 0 0 l 143 0 l 143 28 l 0 28{\p0}
 Dialogue: 1,0:04:04.78,0:04:15.18,Credit,,0,0,0,,{\an7\move(66,453.5,66,-41.5)\fs21}Aki Sawadaishi
 Dialogue: 0,0:04:05.69,0:04:16.00,Box,,0,0,0,,{\an7\move(42,452.6,42,-41.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 189 0 l 189 27 l 0 27{\p0}
 Dialogue: 1,0:04:05.69,0:04:16.00,Credit,,0,0,0,,{\an7\move(46,453.6,46,-40.6)\fs20}2D Map Graphics
 Dialogue: 0,0:04:06.28,0:04:16.64,Box,,0,0,0,,{\an7\move(61,452.6,61,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 143 0 l 143 29 l 0 29{\p0}
-Dialogue: 1,0:04:06.28,0:04:16.64,Credit,,0,0,0,,{\an7\move(65,453.6,65,-42.6)\fs22\fscx90}Yasuyuki Sawadaishi
+Dialogue: 1,0:04:06.28,0:04:16.64,Credit,,0,0,0,,{\an7\move(65,453.6,65,-42.6)\fs22\fscx76}Yasuyuki Sawadaishi
 Dialogue: 0,0:04:06.28,0:04:16.64,Box,,0,0,0,,{\an7\move(237,452.6,237,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 91 0 l 91 29 l 0 29{\p0}
-Dialogue: 1,0:04:06.28,0:04:16.64,Credit,,0,0,0,,{\an7\move(241,453.6,241,-42.6)\fs22\fscx90}Tsuyoshi Terao
+Dialogue: 1,0:04:06.28,0:04:16.64,Credit,,0,0,0,,{\an7\move(241,453.6,241,-42.6)\fs22\fscx78}Tsuyoshi Terao
 Dialogue: 0,0:04:06.90,0:04:17.26,Box,,0,0,0,,{\an7\move(62,452.6,62,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 143 0 l 143 29 l 0 29{\p0}
 Dialogue: 1,0:04:06.90,0:04:17.26,Credit,,0,0,0,,{\an7\move(66,453.6,66,-42.6)\fs22\fscx90}Aki Sawadaishi
 Dialogue: 0,0:04:06.90,0:04:17.26,Box,,0,0,0,,{\an7\move(237,452.6,237,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 117 0 l 117 29 l 0 29{\p0}
@@ -239,19 +239,19 @@ Dialogue: 1,0:04:06.90,0:04:17.26,Credit,,0,0,0,,{\an7\move(241,453.6,241,-42.6)
 Dialogue: 0,0:04:07.52,0:04:17.87,Box,,0,0,0,,{\an7\move(61,452.6,61,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 118 0 l 118 29 l 0 29{\p0}
 Dialogue: 1,0:04:07.52,0:04:17.87,Credit,,0,0,0,,{\an7\move(65,453.6,65,-42.6)\fs22\fscx90}Nayu Yuzawa
 Dialogue: 0,0:04:07.52,0:04:17.87,Box,,0,0,0,,{\an7\move(236,452.6,236,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 117 0 l 117 29 l 0 29{\p0}
-Dialogue: 1,0:04:07.52,0:04:17.87,Credit,,0,0,0,,{\an7\move(240,453.6,240,-42.6)\fs22\fscx90}Masato Hotta
+Dialogue: 1,0:04:07.52,0:04:17.87,Credit,,0,0,0,,{\an7\move(240,453.6,240,-42.6)\fs22\fscx86}Masato Hotta
 Dialogue: 0,0:04:08.14,0:04:18.48,Box,,0,0,0,,{\an7\move(61,452.6,61,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 143 0 l 143 29 l 0 29{\p0}
-Dialogue: 1,0:04:08.14,0:04:18.48,Credit,,0,0,0,,{\an7\move(65,453.6,65,-42.6)\fs22\fscx90}Kentaro Kawamoto
+Dialogue: 1,0:04:08.14,0:04:18.48,Credit,,0,0,0,,{\an7\move(65,453.6,65,-42.6)\fs22\fscx81}Kentaro Kawamoto
 Dialogue: 0,0:04:08.14,0:04:18.48,Box,,0,0,0,,{\an7\move(237,452.6,237,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 117 0 l 117 29 l 0 29{\p0}
-Dialogue: 1,0:04:08.14,0:04:18.48,Credit,,0,0,0,,{\an7\move(241,453.6,241,-42.6)\fs22\fscx90}Masashi Takagi
+Dialogue: 1,0:04:08.14,0:04:18.48,Credit,,0,0,0,,{\an7\move(241,453.6,241,-42.6)\fs22\fscx77}Masashi Takagi
 Dialogue: 0,0:04:08.76,0:04:19.10,Box,,0,0,0,,{\an7\move(62,452.6,62,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 143 0 l 143 29 l 0 29{\p0}
 Dialogue: 1,0:04:08.76,0:04:19.10,Credit,,0,0,0,,{\an7\move(66,453.6,66,-42.6)\fs22\fscx90}Orie Kubota
 Dialogue: 0,0:04:08.76,0:04:19.10,Box,,0,0,0,,{\an7\move(237,452.6,237,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 117 0 l 117 29 l 0 29{\p0}
-Dialogue: 1,0:04:08.76,0:04:19.10,Credit,,0,0,0,,{\an7\move(241,453.6,241,-42.6)\fs22\fscx90}Harumi Tokita
+Dialogue: 1,0:04:08.76,0:04:19.10,Credit,,0,0,0,,{\an7\move(241,453.6,241,-42.6)\fs22\fscx83}Harumi Tokita
 Dialogue: 0,0:04:09.39,0:04:19.69,Box,,0,0,0,,{\an7\move(61,452.6,61,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 144 0 l 144 29 l 0 29{\p0}
 Dialogue: 1,0:04:09.39,0:04:19.69,Credit,,0,0,0,,{\an7\move(65,453.6,65,-42.6)\fs22\fscx90}Mayumi Sato
 Dialogue: 0,0:04:09.39,0:04:19.69,Box,,0,0,0,,{\an7\move(236,452.6,236,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 92 0 l 92 29 l 0 29{\p0}
-Dialogue: 1,0:04:09.39,0:04:19.69,Credit,,0,0,0,,{\an7\move(240,453.6,240,-42.6)\fs22\fscx90}Shizuka Makino
+Dialogue: 1,0:04:09.39,0:04:19.69,Credit,,0,0,0,,{\an7\move(240,453.6,240,-42.6)\fs22\fscx76}Shizuka Makino
 Dialogue: 0,0:04:10.00,0:04:20.31,Box,,0,0,0,,{\an7\move(61,452.6,61,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 144 0 l 144 29 l 0 29{\p0}
 Dialogue: 1,0:04:10.00,0:04:20.31,Credit,,0,0,0,,{\an7\move(65,453.6,65,-42.6)\fs22\fscx90}Fumie Zennyoji
 Dialogue: 0,0:04:10.00,0:04:20.31,Box,,0,0,0,,{\an7\move(238,452.6,238,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 115 0 l 115 29 l 0 29{\p0}
@@ -259,25 +259,25 @@ Dialogue: 1,0:04:10.00,0:04:20.31,Credit,,0,0,0,,{\an7\move(242,453.6,242,-42.6)
 Dialogue: 0,0:04:10.62,0:04:20.92,Box,,0,0,0,,{\an7\move(62,452.6,62,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 117 0 l 117 29 l 0 29{\p0}
 Dialogue: 1,0:04:10.62,0:04:20.92,Credit,,0,0,0,,{\an7\move(66,453.6,66,-42.6)\fs22\fscx90}Hisamitsu Baba
 Dialogue: 0,0:04:10.62,0:04:20.92,Box,,0,0,0,,{\an7\move(236,452.6,236,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 118 0 l 118 29 l 0 29{\p0}
-Dialogue: 1,0:04:10.62,0:04:20.92,Credit,,0,0,0,,{\an7\move(240,453.6,240,-42.6)\fs22\fscx90}Sadatetsu Imai
+Dialogue: 1,0:04:10.62,0:04:20.92,Credit,,0,0,0,,{\an7\move(240,453.6,240,-42.6)\fs22\fscx80}Sadatetsu Imai
 Dialogue: 0,0:04:11.23,0:04:21.54,Box,,0,0,0,,{\an7\move(61,452.6,61,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 91 0 l 91 29 l 0 29{\p0}
 Dialogue: 1,0:04:11.23,0:04:21.54,Credit,,0,0,0,,{\an7\move(65,453.6,65,-42.6)\fs22\fscx90}Kozue Otsuka
 Dialogue: 0,0:04:11.23,0:04:21.54,Box,,0,0,0,,{\an7\move(236,452.6,236,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 116 0 l 116 29 l 0 29{\p0}
-Dialogue: 1,0:04:11.23,0:04:21.54,Credit,,0,0,0,,{\an7\move(240,453.6,240,-42.6)\fs22\fscx90}Nobuchika Miyazaki
+Dialogue: 1,0:04:11.23,0:04:21.54,Credit,,0,0,0,,{\an7\move(240,453.6,240,-42.6)\fs22\fscx59}Nobuchika Miyazaki
 Dialogue: 0,0:04:11.83,0:04:22.19,Box,,0,0,0,,{\an7\move(61,452.6,61,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 143 0 l 143 29 l 0 29{\p0}
 Dialogue: 1,0:04:11.83,0:04:22.19,Credit,,0,0,0,,{\an7\move(65,453.6,65,-42.6)\fs22\fscx90}Rieko Matsuda
 Dialogue: 0,0:04:11.83,0:04:22.19,Box,,0,0,0,,{\an7\move(237,452.6,237,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 117 0 l 117 29 l 0 29{\p0}
-Dialogue: 1,0:04:11.83,0:04:22.19,Credit,,0,0,0,,{\an7\move(241,453.6,241,-42.6)\fs22\fscx90}Koji Kawashima
+Dialogue: 1,0:04:11.83,0:04:22.19,Credit,,0,0,0,,{\an7\move(241,453.6,241,-42.6)\fs22\fscx75}Koji Kawashima
 Dialogue: 0,0:04:12.48,0:04:22.79,Box,,0,0,0,,{\an7\move(61,452.6,61,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 118 0 l 118 29 l 0 29{\p0}
 Dialogue: 1,0:04:12.48,0:04:22.79,Credit,,0,0,0,,{\an7\move(65,453.6,65,-42.6)\fs22\fscx90}Kenji Arakawa
 Dialogue: 0,0:04:12.48,0:04:22.79,Box,,0,0,0,,{\an7\move(240,452.6,240,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 117 0 l 117 29 l 0 29{\p0}
-Dialogue: 1,0:04:12.48,0:04:22.79,Credit,,0,0,0,,{\an7\move(244,453.6,244,-42.6)\fs22\fscx90}Kazuyuki Ono
+Dialogue: 1,0:04:12.48,0:04:22.79,Credit,,0,0,0,,{\an7\move(244,453.6,244,-42.6)\fs22\fscx83}Kazuyuki Ono
 Dialogue: 0,0:04:13.37,0:04:23.64,Box,,0,0,0,,{\an7\move(42,452.6,42,-41.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 246 0 l 246 27 l 0 27{\p0}
 Dialogue: 1,0:04:13.37,0:04:23.64,Credit,,0,0,0,,{\an7\move(46,453.6,46,-40.6)\fs20}Battle Field Graphics
 Dialogue: 0,0:04:13.96,0:04:24.27,Box,,0,0,0,,{\an7\move(61,452.6,61,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 117 0 l 117 29 l 0 29{\p0}
 Dialogue: 1,0:04:13.96,0:04:24.27,Credit,,0,0,0,,{\an7\move(65,453.6,65,-42.6)\fs22\fscx90}Nobuo Kanuma
 Dialogue: 0,0:04:13.96,0:04:24.27,Box,,0,0,0,,{\an7\move(240,452.6,240,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 91 0 l 91 29 l 0 29{\p0}
-Dialogue: 1,0:04:13.96,0:04:24.27,Credit,,0,0,0,,{\an7\move(244,453.6,244,-42.6)\fs22\fscx90}Aya Nakamura
+Dialogue: 1,0:04:13.96,0:04:24.27,Credit,,0,0,0,,{\an7\move(244,453.6,244,-42.6)\fs22\fscx79}Aya Nakamura
 Dialogue: 0,0:04:14.58,0:04:24.89,Box,,0,0,0,,{\an7\move(61,452.6,61,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 143 0 l 143 29 l 0 29{\p0}
 Dialogue: 1,0:04:14.58,0:04:24.89,Credit,,0,0,0,,{\an7\move(65,453.6,65,-42.6)\fs22}Ayumi Otsuki
 Dialogue: 0,0:04:15.47,0:04:25.73,Box,,0,0,0,,{\an7\move(42,452.6,42,-41.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 323 0 l 323 27 l 0 27{\p0}
@@ -297,7 +297,7 @@ Dialogue: 1,0:04:19.07,0:04:29.30,Credit,,0,0,0,,{\an7\move(46,453.7,46,-40.7)\f
 Dialogue: 0,0:04:19.66,0:04:29.93,Box,,0,0,0,,{\an7\move(61,452.7,61,-43.7)\p1\bord0\shad0\1c&H000000&}m 0 0 l 117 0 l 117 29 l 0 29{\p0}
 Dialogue: 1,0:04:19.66,0:04:29.93,Credit,,0,0,0,,{\an7\move(65,453.7,65,-42.7)\fs22\fscx90}Hiroshi Matsuo
 Dialogue: 0,0:04:19.66,0:04:29.93,Box,,0,0,0,,{\an7\move(230,452.7,230,-43.7)\p1\bord0\shad0\1c&H000000&}m 0 0 l 117 0 l 117 29 l 0 29{\p0}
-Dialogue: 1,0:04:19.66,0:04:29.93,Credit,,0,0,0,,{\an7\move(234,453.7,234,-42.7)\fs22\fscx90}Tomoko Watanabe
+Dialogue: 1,0:04:19.66,0:04:29.93,Credit,,0,0,0,,{\an7\move(234,453.7,234,-42.7)\fs22\fscx66}Tomoko Watanabe
 Dialogue: 0,0:04:20.28,0:04:30.53,Box,,0,0,0,,{\an7\move(61,452.7,61,-42.7)\p1\bord0\shad0\1c&H000000&}m 0 0 l 91 0 l 91 28 l 0 28{\p0}
 Dialogue: 1,0:04:20.28,0:04:30.53,Credit,,0,0,0,,{\an7\move(65,453.7,65,-41.7)\fs21}Manabu Sugimoto
 Dialogue: 0,0:04:21.18,0:04:31.38,Box,,0,0,0,,{\an7\move(41,452.7,41,-41.7)\p1\bord0\shad0\1c&H000000&}m 0 0 l 297 0 l 297 27 l 0 27{\p0}
@@ -319,7 +319,7 @@ Dialogue: 1,0:04:24.46,0:04:34.72,Credit,,0,0,0,,{\an7\move(65,453.7,65,-42.7)\f
 Dialogue: 0,0:04:25.34,0:04:35.60,Box,,0,0,0,,{\an7\move(42,452.6,42,-41.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 254 0 l 254 27 l 0 27{\p0}
 Dialogue: 1,0:04:25.34,0:04:35.60,Credit,,0,0,0,,{\an7\move(46,453.6,46,-40.6)\fs20}3D Field Map Design
 Dialogue: 0,0:04:25.92,0:04:36.24,Box,,0,0,0,,{\an7\move(61,452.6,61,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 143 0 l 143 29 l 0 29{\p0}
-Dialogue: 1,0:04:25.92,0:04:36.24,Credit,,0,0,0,,{\an7\move(65,453.6,65,-42.6)\fs22\fscx90}Susumu Omameuda
+Dialogue: 1,0:04:25.92,0:04:36.24,Credit,,0,0,0,,{\an7\move(65,453.6,65,-42.6)\fs22\fscx80}Susumu Omameuda
 Dialogue: 0,0:04:25.92,0:04:36.24,Box,,0,0,0,,{\an7\move(237,452.6,237,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 118 0 l 118 29 l 0 29{\p0}
 Dialogue: 1,0:04:25.92,0:04:36.24,Credit,,0,0,0,,{\an7\move(241,453.6,241,-42.6)\fs22\fscx90}Miho Terada
 Dialogue: 0,0:04:26.53,0:04:36.84,Box,,0,0,0,,{\an7\move(61,452.6,61,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 117 0 l 117 29 l 0 29{\p0}
@@ -335,7 +335,7 @@ Dialogue: 1,0:04:29.50,0:04:39.82,Credit,,0,0,0,,{\an7\move(66,453.6,66,-42.6)\f
 Dialogue: 0,0:04:30.40,0:04:40.65,Box,,0,0,0,,{\an7\move(42,452.6,42,-40.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 221 0 l 221 26 l 0 26{\p0}
 Dialogue: 1,0:04:30.40,0:04:40.65,Credit,,0,0,0,,{\an7\move(46,453.6,46,-39.6)\fs19}Music Composers
 Dialogue: 0,0:04:30.99,0:04:41.30,Box,,0,0,0,,{\an7\move(61,452.6,61,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 92 0 l 92 29 l 0 29{\p0}
-Dialogue: 1,0:04:30.99,0:04:41.30,Credit,,0,0,0,,{\an7\move(65,453.6,65,-42.6)\fs22\fscx90}Motoi Sakuraba
+Dialogue: 1,0:04:30.99,0:04:41.30,Credit,,0,0,0,,{\an7\move(65,453.6,65,-42.6)\fs22\fscx80}Motoi Sakuraba
 Dialogue: 0,0:04:30.99,0:04:41.30,Box,,0,0,0,,{\an7\move(205,452.6,205,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 116 0 l 116 29 l 0 29{\p0}
 Dialogue: 1,0:04:30.99,0:04:41.30,Credit,,0,0,0,,{\an7\move(209,453.6,209,-42.6)\fs22\fscx90}Shinji Tamura
 Dialogue: 0,0:04:31.90,0:04:42.17,Box,,0,0,0,,{\an7\move(42,452.6,42,-40.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 161 0 l 161 26 l 0 26{\p0}
@@ -345,7 +345,7 @@ Dialogue: 1,0:04:32.47,0:04:42.79,Credit,,0,0,0,,{\an7\move(65,453.6,65,-42.6)\f
 Dialogue: 0,0:04:33.39,0:04:43.64,Box,,0,0,0,,{\an7\move(41,452.6,41,-40.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 171 0 l 171 26 l 0 26{\p0}
 Dialogue: 1,0:04:33.39,0:04:43.64,Credit,,0,0,0,,{\an7\move(45,453.6,45,-39.6)\fs19}Special Thanks
 Dialogue: 0,0:04:33.96,0:04:44.27,Box,,0,0,0,,{\an7\move(61,452.6,61,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 91 0 l 91 29 l 0 29{\p0}
-Dialogue: 1,0:04:33.96,0:04:44.27,Credit,,0,0,0,,{\an7\move(65,453.6,65,-42.6)\fs22\fscx90}Takeshi Arai
+Dialogue: 1,0:04:33.96,0:04:44.27,Credit,,0,0,0,,{\an7\move(65,453.6,65,-42.6)\fs22\fscx87}Takeshi Arai
 Dialogue: 0,0:04:33.96,0:04:44.27,Box,,0,0,0,,{\an7\move(186,452.6,186,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 117 0 l 117 29 l 0 29{\p0}
 Dialogue: 1,0:04:33.96,0:04:44.27,Credit,,0,0,0,,{\an7\move(190,453.6,190,-42.6)\fs22\fscx90}Tatsuya Ona
 Dialogue: 0,0:04:34.58,0:04:44.89,Box,,0,0,0,,{\an7\move(62,452.6,62,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 90 0 l 90 29 l 0 29{\p0}
@@ -365,15 +365,15 @@ Dialogue: 1,0:04:41.47,0:04:51.76,Credit,,0,0,0,,{\an7\move(46,453.6,46,-39.6)\f
 Dialogue: 0,0:04:42.06,0:04:52.39,Box,,0,0,0,,{\an7\move(61,452.6,61,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 118 0 l 118 29 l 0 29{\p0}
 Dialogue: 1,0:04:42.06,0:04:52.39,Credit,,0,0,0,,{\an7\move(65,453.6,65,-42.6)\fs22\fscx90}Kenji Arakawa
 Dialogue: 0,0:04:42.06,0:04:52.39,Box,,0,0,0,,{\an7\move(229,452.6,229,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 118 0 l 118 29 l 0 29{\p0}
-Dialogue: 1,0:04:42.06,0:04:52.39,Credit,,0,0,0,,{\an7\move(233,453.6,233,-42.6)\fs22\fscx90}Koji Kawashima
+Dialogue: 1,0:04:42.06,0:04:52.39,Credit,,0,0,0,,{\an7\move(233,453.6,233,-42.6)\fs22\fscx80}Koji Kawashima
 Dialogue: 0,0:04:42.68,0:04:53.02,Box,,0,0,0,,{\an7\move(62,452.6,62,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 116 0 l 116 29 l 0 29{\p0}
 Dialogue: 1,0:04:42.68,0:04:53.02,Credit,,0,0,0,,{\an7\move(66,453.6,66,-42.6)\fs22\fscx90}Kazuyuki Ono
 Dialogue: 0,0:04:42.68,0:04:53.02,Box,,0,0,0,,{\an7\move(230,452.6,230,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 117 0 l 117 29 l 0 29{\p0}
-Dialogue: 1,0:04:42.68,0:04:53.02,Credit,,0,0,0,,{\an7\move(234,453.6,234,-42.6)\fs22\fscx90}Nobutaka Kitahara
+Dialogue: 1,0:04:42.68,0:04:53.02,Credit,,0,0,0,,{\an7\move(234,453.6,234,-42.6)\fs22\fscx66}Nobutaka Kitahara
 Dialogue: 0,0:04:43.31,0:04:53.61,Box,,0,0,0,,{\an7\move(61,452.6,61,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 118 0 l 118 29 l 0 29{\p0}
-Dialogue: 1,0:04:43.31,0:04:53.61,Credit,,0,0,0,,{\an7\move(65,453.6,65,-42.6)\fs22\fscx90}Tetsuya Koremura
+Dialogue: 1,0:04:43.31,0:04:53.61,Credit,,0,0,0,,{\an7\move(65,453.6,65,-42.6)\fs22\fscx81}Tetsuya Koremura
 Dialogue: 0,0:04:43.31,0:04:53.61,Box,,0,0,0,,{\an7\move(230,452.6,230,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 117 0 l 117 29 l 0 29{\p0}
-Dialogue: 1,0:04:43.31,0:04:53.61,Credit,,0,0,0,,{\an7\move(234,453.6,234,-42.6)\fs22\fscx90}Atsushi Nomura
+Dialogue: 1,0:04:43.31,0:04:53.61,Credit,,0,0,0,,{\an7\move(234,453.6,234,-42.6)\fs22\fscx78}Atsushi Nomura
 Dialogue: 0,0:04:44.22,0:04:54.47,Box,,0,0,0,,{\an7\move(41,452.6,41,-40.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 163 0 l 163 26 l 0 26{\p0}
 Dialogue: 1,0:04:44.22,0:04:54.47,Credit,,0,0,0,,{\an7\move(45,453.6,45,-39.6)\fs19}CG Movie Production
 Dialogue: 0,0:04:45.06,0:04:55.38,Box,,0,0,0,,{\an7\move(61,452.6,61,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 307 0 l 307 29 l 0 29{\p0}
@@ -397,21 +397,21 @@ Dialogue: 1,0:04:53.46,0:05:03.68,Credit,,0,0,0,,{\an7\move(49,453.7,49,-40.7)\f
 Dialogue: 0,0:04:54.05,0:05:04.32,Box,,0,0,0,,{\an7\move(62,452.7,62,-43.7)\p1\bord0\shad0\1c&H000000&}m 0 0 l 116 0 l 116 29 l 0 29{\p0}
 Dialogue: 1,0:04:54.05,0:05:04.32,Credit,,0,0,0,,{\an7\move(66,453.7,66,-42.7)\fs22\fscx90}Daisuke Tazawa
 Dialogue: 0,0:04:54.05,0:05:04.32,Box,,0,0,0,,{\an7\move(230,452.7,230,-43.7)\p1\bord0\shad0\1c&H000000&}m 0 0 l 118 0 l 118 29 l 0 29{\p0}
-Dialogue: 1,0:04:54.05,0:05:04.32,Credit,,0,0,0,,{\an7\move(234,453.7,234,-42.7)\fs22\fscx90}Takuya Okumura
+Dialogue: 1,0:04:54.05,0:05:04.32,Credit,,0,0,0,,{\an7\move(234,453.7,234,-42.7)\fs22\fscx73}Takuya Okumura
 Dialogue: 0,0:04:54.67,0:05:04.93,Box,,0,0,0,,{\an7\move(61,452.7,61,-43.7)\p1\bord0\shad0\1c&H000000&}m 0 0 l 117 0 l 117 29 l 0 29{\p0}
 Dialogue: 1,0:04:54.67,0:05:04.93,Credit,,0,0,0,,{\an7\move(65,453.7,65,-42.7)\fs22}Katsuyuki Kuriyama
 Dialogue: 0,0:04:55.58,0:05:05.78,Box,,0,0,0,,{\an7\move(43,452.7,43,-41.7)\p1\bord0\shad0\1c&H000000&}m 0 0 l 170 0 l 170 27 l 0 27{\p0}
-Dialogue: 1,0:04:55.58,0:05:05.78,Credit,,0,0,0,,{\an7\move(47,453.7,47,-40.7)\fs20}Scenario Production Management
+Dialogue: 1,0:04:55.58,0:05:05.78,Credit,,0,0,0,,{\an7\move(47,453.7,47,-40.7)\fs20\fscx98}Scenario Production Management
 Dialogue: 0,0:04:56.14,0:05:06.41,Box,,0,0,0,,{\an7\move(61,452.7,61,-43.7)\p1\bord0\shad0\1c&H000000&}m 0 0 l 117 0 l 117 29 l 0 29{\p0}
 Dialogue: 1,0:04:56.14,0:05:06.41,Credit,,0,0,0,,{\an7\move(65,453.7,65,-42.7)\fs22\fscx90}Tamon Yazaki
 Dialogue: 0,0:04:56.14,0:05:06.41,Box,,0,0,0,,{\an7\move(230,452.7,230,-43.7)\p1\bord0\shad0\1c&H000000&}m 0 0 l 117 0 l 117 29 l 0 29{\p0}
-Dialogue: 1,0:04:56.14,0:05:06.41,Credit,,0,0,0,,{\an7\move(234,453.7,234,-42.7)\fs22\fscx90}Hirohisa Suzuki
+Dialogue: 1,0:04:56.14,0:05:06.41,Credit,,0,0,0,,{\an7\move(234,453.7,234,-42.7)\fs22\fscx81}Hirohisa Suzuki
 Dialogue: 0,0:04:57.05,0:05:07.26,Box,,0,0,0,,{\an7\move(42,452.7,42,-40.7)\p1\bord0\shad0\1c&H000000&}m 0 0 l 138 0 l 138 26 l 0 26{\p0}
 Dialogue: 1,0:04:57.05,0:05:07.26,Credit,,0,0,0,,{\an7\move(46,453.7,46,-39.7)\fs19}Story Cooperation
 Dialogue: 0,0:04:57.63,0:05:07.89,Box,,0,0,0,,{\an7\move(62,452.7,62,-43.7)\p1\bord0\shad0\1c&H000000&}m 0 0 l 116 0 l 116 29 l 0 29{\p0}
 Dialogue: 1,0:04:57.63,0:05:07.89,Credit,,0,0,0,,{\an7\move(66,453.7,66,-42.7)\fs22\fscx90}Takashi Hino
 Dialogue: 0,0:04:57.63,0:05:07.89,Box,,0,0,0,,{\an7\move(230,452.7,230,-43.7)\p1\bord0\shad0\1c&H000000&}m 0 0 l 117 0 l 117 29 l 0 29{\p0}
-Dialogue: 1,0:04:57.63,0:05:07.89,Credit,,0,0,0,,{\an7\move(234,453.7,234,-42.7)\fs22\fscx90}Takumi Miyajima
+Dialogue: 1,0:04:57.63,0:05:07.89,Credit,,0,0,0,,{\an7\move(234,453.7,234,-42.7)\fs22\fscx74}Takumi Miyajima
 Dialogue: 0,0:04:58.52,0:05:08.77,Box,,0,0,0,,{\an7\move(43,452.6,43,-41.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 121 0 l 121 27 l 0 27{\p0}
 Dialogue: 1,0:04:58.52,0:05:08.77,Credit,,0,0,0,,{\an7\move(47,453.6,47,-40.6)\fs20}Scenario Production
 Dialogue: 0,0:04:59.08,0:05:09.39,Box,,0,0,0,,{\an7\move(63,452.6,63,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 219 0 l 219 29 l 0 29{\p0}
@@ -429,7 +429,7 @@ Dialogue: 1,0:05:04.96,0:05:15.23,Credit,,0,0,0,,{\an7\move(45,453.6,45,-40.6)\f
 Dialogue: 0,0:05:05.54,0:05:15.85,Box,,0,0,0,,{\an7\move(61,452.6,61,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 117 0 l 117 29 l 0 29{\p0}
 Dialogue: 1,0:05:05.54,0:05:15.85,Credit,,0,0,0,,{\an7\move(65,453.6,65,-42.6)\fs22\fscx90}Kazumi Kato
 Dialogue: 0,0:05:05.54,0:05:15.85,Box,,0,0,0,,{\an7\move(204,452.6,204,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 142 0 l 142 29 l 0 29{\p0}
-Dialogue: 1,0:05:05.54,0:05:15.85,Credit,,0,0,0,,{\an7\move(208,453.6,208,-42.6)\fs22\fscx90}Sayaka Yamaguchi
+Dialogue: 1,0:05:05.54,0:05:15.85,Credit,,0,0,0,,{\an7\move(208,453.6,208,-42.6)\fs22\fscx81}Sayaka Yamaguchi
 Dialogue: 0,0:05:06.45,0:05:16.71,Box,,0,0,0,,{\an7\move(41,452.6,41,-41.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 127 0 l 127 27 l 0 27{\p0}
 Dialogue: 1,0:05:06.45,0:05:16.71,Credit,,0,0,0,,{\an7\move(45,453.6,45,-40.6)\fs20}Recording Studio
 Dialogue: 0,0:05:07.02,0:05:17.32,Box,,0,0,0,,{\an7\move(62,452.6,62,-42.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 184 0 l 184 28 l 0 28{\p0}
@@ -463,7 +463,7 @@ Dialogue: 1,0:05:19.29,0:05:29.53,Credit,,0,0,0,,{\an7\move(45,453.6,45,-39.6)\f
 Dialogue: 0,0:05:19.84,0:05:30.21,Box,,0,0,0,,{\an7\move(61,452.6,61,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 137 0 l 137 29 l 0 29{\p0}
 Dialogue: 1,0:05:19.84,0:05:30.21,Credit,,0,0,0,,{\an7\move(65,453.6,65,-42.6)\fs22\fscx90}Mitsuru Hongo
 Dialogue: 0,0:05:19.84,0:05:30.21,Box,,0,0,0,,{\an7\move(232,452.6,232,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 116 0 l 116 29 l 0 29{\p0}
-Dialogue: 1,0:05:19.84,0:05:30.21,Credit,,0,0,0,,{\an7\move(236,453.6,236,-42.6)\fs22\fscx90}Hiroyuki Nishimura
+Dialogue: 1,0:05:19.84,0:05:30.21,Credit,,0,0,0,,{\an7\move(236,453.6,236,-42.6)\fs22\fscx64}Hiroyuki Nishimura
 Dialogue: 0,0:05:20.77,0:05:31.01,Box,,0,0,0,,{\an7\move(41,452.6,41,-40.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 311 0 l 311 26 l 0 26{\p0}
 Dialogue: 1,0:05:20.77,0:05:31.01,Credit,,0,0,0,,{\an7\move(45,453.6,45,-39.6)\fs19}Animation Character Design
 Dialogue: 0,0:05:21.17,0:05:31.41,Box,,0,0,0,,{\an7\move(42,452.6,42,-41.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 97 0 l 97 27 l 0 27{\p0}
@@ -481,37 +481,37 @@ Dialogue: 1,0:05:24.72,0:05:35.01,Credit,,0,0,0,,{\an7\move(65,453.6,65,-42.7)\f
 Dialogue: 0,0:05:24.72,0:05:35.01,Box,,0,0,0,,{\an7\move(230,452.6,230,-43.7)\p1\bord0\shad0\1c&H000000&}m 0 0 l 118 0 l 118 29 l 0 29{\p0}
 Dialogue: 1,0:05:24.72,0:05:35.01,Credit,,0,0,0,,{\an7\move(234,453.6,234,-42.7)\fs22\fscx90}Takuya Saito
 Dialogue: 0,0:05:25.34,0:05:35.61,Box,,0,0,0,,{\an7\move(61,452.7,61,-43.7)\p1\bord0\shad0\1c&H000000&}m 0 0 l 118 0 l 118 29 l 0 29{\p0}
-Dialogue: 1,0:05:25.34,0:05:35.61,Credit,,0,0,0,,{\an7\move(65,453.7,65,-42.7)\fs22\fscx90}Yasunori Miyazawa
+Dialogue: 1,0:05:25.34,0:05:35.61,Credit,,0,0,0,,{\an7\move(65,453.7,65,-42.7)\fs22\fscx78}Yasunori Miyazawa
 Dialogue: 0,0:05:25.34,0:05:35.61,Box,,0,0,0,,{\an7\move(229,452.7,229,-43.7)\p1\bord0\shad0\1c&H000000&}m 0 0 l 92 0 l 92 29 l 0 29{\p0}
-Dialogue: 1,0:05:25.34,0:05:35.61,Credit,,0,0,0,,{\an7\move(233,453.7,233,-42.7)\fs22\fscx90}Hideki Tachibana
+Dialogue: 1,0:05:25.34,0:05:35.61,Credit,,0,0,0,,{\an7\move(233,453.7,233,-42.7)\fs22\fscx73}Hideki Tachibana
 Dialogue: 0,0:05:25.94,0:05:36.24,Box,,0,0,0,,{\an7\move(62,452.6,62,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 117 0 l 117 29 l 0 29{\p0}
-Dialogue: 1,0:05:25.94,0:05:36.24,Credit,,0,0,0,,{\an7\move(66,453.6,66,-42.6)\fs22\fscx90}Atsuko Nakajima
+Dialogue: 1,0:05:25.94,0:05:36.24,Credit,,0,0,0,,{\an7\move(66,453.6,66,-42.6)\fs22\fscx88}Atsuko Nakajima
 Dialogue: 0,0:05:25.94,0:05:36.24,Box,,0,0,0,,{\an7\move(230,452.6,230,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 117 0 l 117 29 l 0 29{\p0}
-Dialogue: 1,0:05:25.94,0:05:36.24,Credit,,0,0,0,,{\an7\move(234,453.6,234,-42.6)\fs22\fscx90}Toshio Kawaguchi
+Dialogue: 1,0:05:25.94,0:05:36.24,Credit,,0,0,0,,{\an7\move(234,453.6,234,-42.6)\fs22\fscx69}Toshio Kawaguchi
 Dialogue: 0,0:05:26.57,0:05:36.82,Box,,0,0,0,,{\an7\move(61,452.7,61,-43.7)\p1\bord0\shad0\1c&H000000&}m 0 0 l 117 0 l 117 29 l 0 29{\p0}
 Dialogue: 1,0:05:26.57,0:05:36.82,Credit,,0,0,0,,{\an7\move(65,453.7,65,-42.7)\fs22\fscx90}Koichi Arai
 Dialogue: 0,0:05:26.57,0:05:36.82,Box,,0,0,0,,{\an7\move(230,452.7,230,-43.7)\p1\bord0\shad0\1c&H000000&}m 0 0 l 91 0 l 91 29 l 0 29{\p0}
-Dialogue: 1,0:05:26.57,0:05:36.82,Credit,,0,0,0,,{\an7\move(234,453.7,234,-42.7)\fs22\fscx90}Akira Matsushima
+Dialogue: 1,0:05:26.57,0:05:36.82,Credit,,0,0,0,,{\an7\move(234,453.7,234,-42.7)\fs22\fscx69}Akira Matsushima
 Dialogue: 0,0:05:27.18,0:05:37.44,Box,,0,0,0,,{\an7\move(63,452.7,63,-43.7)\p1\bord0\shad0\1c&H000000&}m 0 0 l 116 0 l 116 29 l 0 29{\p0}
 Dialogue: 1,0:05:27.18,0:05:37.44,Credit,,0,0,0,,{\an7\move(67,453.7,67,-42.7)\fs22\fscx90}Yoshiyuki Ito
 Dialogue: 0,0:05:27.18,0:05:37.44,Box,,0,0,0,,{\an7\move(232,452.7,232,-43.7)\p1\bord0\shad0\1c&H000000&}m 0 0 l 116 0 l 116 29 l 0 29{\p0}
-Dialogue: 1,0:05:27.18,0:05:37.44,Credit,,0,0,0,,{\an7\move(236,453.7,236,-42.7)\fs22\fscx90}Masahiro Sekino
+Dialogue: 1,0:05:27.18,0:05:37.44,Credit,,0,0,0,,{\an7\move(236,453.7,236,-42.7)\fs22\fscx74}Masahiro Sekino
 Dialogue: 0,0:05:27.79,0:05:38.05,Box,,0,0,0,,{\an7\move(62,452.7,62,-43.7)\p1\bord0\shad0\1c&H000000&}m 0 0 l 116 0 l 116 29 l 0 29{\p0}
 Dialogue: 1,0:05:27.79,0:05:38.05,Credit,,0,0,0,,{\an7\move(66,453.7,66,-42.7)\fs22\fscx90}Yuichi Tanaka
 Dialogue: 0,0:05:27.79,0:05:38.05,Box,,0,0,0,,{\an7\move(230,452.7,230,-43.7)\p1\bord0\shad0\1c&H000000&}m 0 0 l 117 0 l 117 29 l 0 29{\p0}
-Dialogue: 1,0:05:27.79,0:05:38.05,Credit,,0,0,0,,{\an7\move(234,453.7,234,-42.7)\fs22\fscx90}Hirofumi Suzuki
+Dialogue: 1,0:05:27.79,0:05:38.05,Credit,,0,0,0,,{\an7\move(234,453.7,234,-42.7)\fs22\fscx78}Hirofumi Suzuki
 Dialogue: 0,0:05:28.40,0:05:38.67,Box,,0,0,0,,{\an7\move(62,452.7,62,-43.7)\p1\bord0\shad0\1c&H000000&}m 0 0 l 142 0 l 142 29 l 0 29{\p0}
 Dialogue: 1,0:05:28.40,0:05:38.67,Credit,,0,0,0,,{\an7\move(66,453.7,66,-42.7)\fs22\fscx90}Asako Nishida
 Dialogue: 0,0:05:28.40,0:05:38.67,Box,,0,0,0,,{\an7\move(229,452.7,229,-43.7)\p1\bord0\shad0\1c&H000000&}m 0 0 l 117 0 l 117 29 l 0 29{\p0}
-Dialogue: 1,0:05:28.40,0:05:38.67,Credit,,0,0,0,,{\an7\move(233,453.7,233,-42.7)\fs22\fscx90}Hideki Takahashi
+Dialogue: 1,0:05:28.40,0:05:38.67,Credit,,0,0,0,,{\an7\move(233,453.7,233,-42.7)\fs22\fscx73}Hideki Takahashi
 Dialogue: 0,0:05:29.02,0:05:39.27,Box,,0,0,0,,{\an7\move(62,452.7,62,-43.7)\p1\bord0\shad0\1c&H000000&}m 0 0 l 116 0 l 116 29 l 0 29{\p0}
 Dialogue: 1,0:05:29.02,0:05:39.27,Credit,,0,0,0,,{\an7\move(66,453.7,66,-42.7)\fs22\fscx90}Chikashi Kubota
 Dialogue: 0,0:05:29.02,0:05:39.27,Box,,0,0,0,,{\an7\move(231,452.7,231,-43.7)\p1\bord0\shad0\1c&H000000&}m 0 0 l 90 0 l 90 29 l 0 29{\p0}
-Dialogue: 1,0:05:29.02,0:05:39.27,Credit,,0,0,0,,{\an7\move(235,453.7,235,-42.7)\fs22\fscx90}Makoto Yamada
+Dialogue: 1,0:05:29.02,0:05:39.27,Credit,,0,0,0,,{\an7\move(235,453.7,235,-42.7)\fs22\fscx76}Makoto Yamada
 Dialogue: 0,0:05:29.62,0:05:39.89,Box,,0,0,0,,{\an7\move(62,452.7,62,-43.7)\p1\bord0\shad0\1c&H000000&}m 0 0 l 116 0 l 116 29 l 0 29{\p0}
 Dialogue: 1,0:05:29.62,0:05:39.89,Credit,,0,0,0,,{\an7\move(66,453.7,66,-42.7)\fs22\fscx90}Akiko Nakamura
 Dialogue: 0,0:05:29.62,0:05:39.89,Box,,0,0,0,,{\an7\move(230,452.7,230,-43.7)\p1\bord0\shad0\1c&H000000&}m 0 0 l 117 0 l 117 29 l 0 29{\p0}
-Dialogue: 1,0:05:29.62,0:05:39.89,Credit,,0,0,0,,{\an7\move(234,453.7,234,-42.7)\fs22\fscx90}Hiroyuki Nishimura
+Dialogue: 1,0:05:29.62,0:05:39.89,Credit,,0,0,0,,{\an7\move(234,453.7,234,-42.7)\fs22\fscx65}Hiroyuki Nishimura
 Dialogue: 0,0:05:30.53,0:05:40.75,Box,,0,0,0,,{\an7\move(42,452.7,42,-41.7)\p1\bord0\shad0\1c&H000000&}m 0 0 l 98 0 l 98 27 l 0 27{\p0}
 Dialogue: 1,0:05:30.53,0:05:40.75,Credit,,0,0,0,,{\an7\move(46,453.7,46,-40.7)\fs20}Art Director
 Dialogue: 0,0:05:31.10,0:05:41.38,Box,,0,0,0,,{\an7\move(62,452.7,62,-43.7)\p1\bord0\shad0\1c&H000000&}m 0 0 l 91 0 l 91 29 l 0 29{\p0}
@@ -519,9 +519,9 @@ Dialogue: 1,0:05:31.10,0:05:41.38,Credit,,0,0,0,,{\an7\move(66,453.7,66,-42.7)\f
 Dialogue: 0,0:05:32.00,0:05:42.25,Box,,0,0,0,,{\an7\move(42,452.6,42,-41.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 50 0 l 50 27 l 0 27{\p0}
 Dialogue: 1,0:05:32.00,0:05:42.25,Credit,,0,0,0,,{\an7\move(46,453.6,46,-40.6)\fs20}Backgrounds
 Dialogue: 0,0:05:32.55,0:05:42.88,Box,,0,0,0,,{\an7\move(62,452.6,62,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 91 0 l 91 29 l 0 29{\p0}
-Dialogue: 1,0:05:32.55,0:05:42.88,Credit,,0,0,0,,{\an7\move(66,453.6,66,-42.6)\fs22\fscx90}Satoshi Matsuoka
+Dialogue: 1,0:05:32.55,0:05:42.88,Credit,,0,0,0,,{\an7\move(66,453.6,66,-42.6)\fs22\fscx70}Satoshi Matsuoka
 Dialogue: 0,0:05:32.55,0:05:42.88,Box,,0,0,0,,{\an7\move(204,452.6,204,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 117 0 l 117 29 l 0 29{\p0}
-Dialogue: 1,0:05:32.55,0:05:42.88,Credit,,0,0,0,,{\an7\move(208,453.6,208,-42.6)\fs22\fscx90}Masaki Yoshizaki
+Dialogue: 1,0:05:32.55,0:05:42.88,Credit,,0,0,0,,{\an7\move(208,453.6,208,-42.6)\fs22\fscx87}Masaki Yoshizaki
 Dialogue: 0,0:05:33.47,0:05:43.73,Box,,0,0,0,,{\an7\move(42,452.6,42,-41.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 98 0 l 98 27 l 0 27{\p0}
 Dialogue: 1,0:05:33.47,0:05:43.73,Credit,,0,0,0,,{\an7\move(46,453.6,46,-40.6)\fs20}In-between Check
 Dialogue: 0,0:05:34.05,0:05:44.34,Box,,0,0,0,,{\an7\move(61,452.6,61,-42.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 143 0 l 143 28 l 0 28{\p0}
@@ -531,11 +531,11 @@ Dialogue: 1,0:05:34.97,0:05:45.22,Credit,,0,0,0,,{\an7\move(46,453.6,46,-39.6)\f
 Dialogue: 0,0:05:36.11,0:05:46.42,Box,,0,0,0,,{\an7\move(61,452.6,61,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 143 0 l 143 29 l 0 29{\p0}
 Dialogue: 1,0:05:36.11,0:05:46.42,Credit,,0,0,0,,{\an7\move(65,453.6,65,-42.6)\fs22\fscx90}Yukiko Mita
 Dialogue: 0,0:05:36.11,0:05:46.42,Box,,0,0,0,,{\an7\move(229,452.6,229,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 116 0 l 116 29 l 0 29{\p0}
-Dialogue: 1,0:05:36.11,0:05:46.42,Credit,,0,0,0,,{\an7\move(233,453.6,233,-42.6)\fs22\fscx90}Kazunori Akiyama
+Dialogue: 1,0:05:36.11,0:05:46.42,Credit,,0,0,0,,{\an7\move(233,453.6,233,-42.6)\fs22\fscx69}Kazunori Akiyama
 Dialogue: 0,0:05:36.73,0:05:47.03,Box,,0,0,0,,{\an7\move(62,452.6,62,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 142 0 l 142 29 l 0 29{\p0}
-Dialogue: 1,0:05:36.73,0:05:47.03,Credit,,0,0,0,,{\an7\move(66,453.6,66,-42.6)\fs22\fscx90}Mariko Yamamoto
+Dialogue: 1,0:05:36.73,0:05:47.03,Credit,,0,0,0,,{\an7\move(66,453.6,66,-42.6)\fs22\fscx81}Mariko Yamamoto
 Dialogue: 0,0:05:36.73,0:05:47.03,Box,,0,0,0,,{\an7\move(229,452.6,229,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 117 0 l 117 29 l 0 29{\p0}
-Dialogue: 1,0:05:36.73,0:05:47.03,Credit,,0,0,0,,{\an7\move(233,453.6,233,-42.6)\fs22\fscx90}Fumiaki Sahara
+Dialogue: 1,0:05:36.73,0:05:47.03,Credit,,0,0,0,,{\an7\move(233,453.6,233,-42.6)\fs22\fscx83}Fumiaki Sahara
 Dialogue: 0,0:05:37.34,0:05:47.65,Box,,0,0,0,,{\an7\move(61,452.6,61,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 118 0 l 118 29 l 0 29{\p0}
 Dialogue: 1,0:05:37.34,0:05:47.65,Credit,,0,0,0,,{\an7\move(65,453.6,65,-42.6)\fs22\fscx90}Yukie Funahashi
 Dialogue: 0,0:05:37.34,0:05:47.65,Box,,0,0,0,,{\an7\move(230,452.6,230,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 118 0 l 118 29 l 0 29{\p0}
@@ -543,7 +543,7 @@ Dialogue: 1,0:05:37.34,0:05:47.65,Credit,,0,0,0,,{\an7\move(234,453.6,234,-42.6)
 Dialogue: 0,0:05:37.95,0:05:48.26,Box,,0,0,0,,{\an7\move(61,452.6,61,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 143 0 l 143 29 l 0 29{\p0}
 Dialogue: 1,0:05:37.95,0:05:48.26,Credit,,0,0,0,,{\an7\move(65,453.6,65,-42.6)\fs22\fscx90}Yukio Shinke
 Dialogue: 0,0:05:37.95,0:05:48.26,Box,,0,0,0,,{\an7\move(229,452.6,229,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 117 0 l 117 29 l 0 29{\p0}
-Dialogue: 1,0:05:37.95,0:05:48.26,Credit,,0,0,0,,{\an7\move(233,453.6,233,-42.6)\fs22\fscx90}Hiromi Kuroiwa
+Dialogue: 1,0:05:37.95,0:05:48.26,Credit,,0,0,0,,{\an7\move(233,453.6,233,-42.6)\fs22\fscx81}Hiromi Kuroiwa
 Dialogue: 0,0:05:38.56,0:05:48.89,Box,,0,0,0,,{\an7\move(61,452.6,61,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 118 0 l 118 29 l 0 29{\p0}
 Dialogue: 1,0:05:38.56,0:05:48.89,Credit,,0,0,0,,{\an7\move(65,453.6,65,-42.6)\fs22\fscx90}Katsuya Kikuchi
 Dialogue: 0,0:05:38.56,0:05:48.89,Box,,0,0,0,,{\an7\move(230,452.6,230,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 117 0 l 117 29 l 0 29{\p0}
@@ -551,23 +551,23 @@ Dialogue: 1,0:05:38.56,0:05:48.89,Credit,,0,0,0,,{\an7\move(234,453.6,234,-42.6)
 Dialogue: 0,0:05:39.19,0:05:49.49,Box,,0,0,0,,{\an7\move(62,452.6,62,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 116 0 l 116 29 l 0 29{\p0}
 Dialogue: 1,0:05:39.19,0:05:49.49,Credit,,0,0,0,,{\an7\move(66,453.6,66,-42.6)\fs22\fscx90}Yumi Nakagawa
 Dialogue: 0,0:05:39.19,0:05:49.49,Box,,0,0,0,,{\an7\move(230,452.6,230,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 117 0 l 117 29 l 0 29{\p0}
-Dialogue: 1,0:05:39.19,0:05:49.49,Credit,,0,0,0,,{\an7\move(234,453.6,234,-42.6)\fs22\fscx90}Keita Matsumoto
+Dialogue: 1,0:05:39.19,0:05:49.49,Credit,,0,0,0,,{\an7\move(234,453.6,234,-42.6)\fs22\fscx71}Keita Matsumoto
 Dialogue: 0,0:05:39.79,0:05:50.11,Box,,0,0,0,,{\an7\move(61,452.6,61,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 118 0 l 118 29 l 0 29{\p0}
-Dialogue: 1,0:05:39.79,0:05:50.11,Credit,,0,0,0,,{\an7\move(65,453.6,65,-42.6)\fs22\fscx90}Naoyoshi Shiotani
+Dialogue: 1,0:05:39.79,0:05:50.11,Credit,,0,0,0,,{\an7\move(65,453.6,65,-42.6)\fs22\fscx83}Naoyoshi Shiotani
 Dialogue: 0,0:05:39.79,0:05:50.11,Box,,0,0,0,,{\an7\move(230,452.6,230,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 117 0 l 117 29 l 0 29{\p0}
-Dialogue: 1,0:05:39.79,0:05:50.11,Credit,,0,0,0,,{\an7\move(234,453.6,234,-42.6)\fs22\fscx90}Tomoko Sugata
+Dialogue: 1,0:05:39.79,0:05:50.11,Credit,,0,0,0,,{\an7\move(234,453.6,234,-42.6)\fs22\fscx80}Tomoko Sugata
 Dialogue: 0,0:05:40.41,0:05:50.71,Box,,0,0,0,,{\an7\move(61,452.6,61,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 143 0 l 143 29 l 0 29{\p0}
-Dialogue: 1,0:05:40.41,0:05:50.71,Credit,,0,0,0,,{\an7\move(65,453.6,65,-42.6)\fs22\fscx90}Kazuyo Hasegawa
+Dialogue: 1,0:05:40.41,0:05:50.71,Credit,,0,0,0,,{\an7\move(65,453.6,65,-42.6)\fs22\fscx82}Kazuyo Hasegawa
 Dialogue: 0,0:05:40.41,0:05:50.71,Box,,0,0,0,,{\an7\move(228,452.6,228,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 117 0 l 117 29 l 0 29{\p0}
-Dialogue: 1,0:05:40.41,0:05:50.71,Credit,,0,0,0,,{\an7\move(232,453.6,232,-42.6)\fs22\fscx90}Shinichi Yokota
+Dialogue: 1,0:05:40.41,0:05:50.71,Credit,,0,0,0,,{\an7\move(232,453.6,232,-42.6)\fs22\fscx81}Shinichi Yokota
 Dialogue: 0,0:05:41.02,0:05:51.35,Box,,0,0,0,,{\an7\move(62,452.6,62,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 116 0 l 116 29 l 0 29{\p0}
 Dialogue: 1,0:05:41.02,0:05:51.35,Credit,,0,0,0,,{\an7\move(66,453.6,66,-42.6)\fs22\fscx90}Eri Baba
 Dialogue: 0,0:05:41.02,0:05:51.35,Box,,0,0,0,,{\an7\move(230,452.6,230,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 117 0 l 117 29 l 0 29{\p0}
 Dialogue: 1,0:05:41.02,0:05:51.35,Credit,,0,0,0,,{\an7\move(234,453.6,234,-42.6)\fs22\fscx90}Daiki Ono
 Dialogue: 0,0:05:41.63,0:05:51.96,Box,,0,0,0,,{\an7\move(61,452.6,61,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 117 0 l 117 29 l 0 29{\p0}
-Dialogue: 1,0:05:41.63,0:05:51.96,Credit,,0,0,0,,{\an7\move(65,453.6,65,-42.6)\fs22\fscx90}Mizuka Takahashi
+Dialogue: 1,0:05:41.63,0:05:51.96,Credit,,0,0,0,,{\an7\move(65,453.6,65,-42.6)\fs22\fscx85}Mizuka Takahashi
 Dialogue: 0,0:05:41.63,0:05:51.96,Box,,0,0,0,,{\an7\move(231,452.6,231,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 116 0 l 116 29 l 0 29{\p0}
-Dialogue: 1,0:05:41.63,0:05:51.96,Credit,,0,0,0,,{\an7\move(235,453.6,235,-42.6)\fs22\fscx90}Tomoko Utsumi
+Dialogue: 1,0:05:41.63,0:05:51.96,Credit,,0,0,0,,{\an7\move(235,453.6,235,-42.6)\fs22\fscx78}Tomoko Utsumi
 Dialogue: 0,0:05:42.24,0:05:52.58,Box,,0,0,0,,{\an7\move(62,452.6,62,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 142 0 l 142 29 l 0 29{\p0}
 Dialogue: 1,0:05:42.24,0:05:52.58,Credit,,0,0,0,,{\an7\move(66,453.6,66,-42.6)\fs22}Daizen Komatsuda
 Dialogue: 0,0:05:43.15,0:05:53.47,Box,,0,0,0,,{\an7\move(49,452.6,49,-41.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 83 0 l 83 27 l 0 27{\p0}
@@ -587,7 +587,7 @@ Dialogue: 1,0:05:44.95,0:05:55.31,Credit,,0,0,0,,{\an7\move(235,453.6,235,-42.6)
 Dialogue: 0,0:05:45.57,0:05:55.94,Box,,0,0,0,,{\an7\move(61,452.6,61,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 117 0 l 117 29 l 0 29{\p0}
 Dialogue: 1,0:05:45.57,0:05:55.94,Credit,,0,0,0,,{\an7\move(65,453.6,65,-42.6)\fs22\fscx90}Takashi Isosue
 Dialogue: 0,0:05:45.57,0:05:55.94,Box,,0,0,0,,{\an7\move(230,452.6,230,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 117 0 l 117 29 l 0 29{\p0}
-Dialogue: 1,0:05:45.57,0:05:55.94,Credit,,0,0,0,,{\an7\move(234,453.6,234,-42.6)\fs22\fscx90}Hisami Harazumi
+Dialogue: 1,0:05:45.57,0:05:55.94,Credit,,0,0,0,,{\an7\move(234,453.6,234,-42.6)\fs22\fscx74}Hisami Harazumi
 Dialogue: 0,0:05:46.20,0:05:56.54,Box,,0,0,0,,{\an7\move(61,452.6,61,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 143 0 l 143 29 l 0 29{\p0}
 Dialogue: 1,0:05:46.20,0:05:56.54,Credit,,0,0,0,,{\an7\move(65,453.6,65,-42.6)\fs22}Yukari Umebayashi
 Dialogue: 0,0:05:46.78,0:05:57.21,Box,,0,0,0,,{\an7\move(62,452.5,62,-43.5)\p1\bord0\shad0\1c&H000000&}m 0 0 l 168 0 l 168 29 l 0 29{\p0}
@@ -619,9 +619,9 @@ Dialogue: 1,0:05:55.52,0:06:05.83,Credit,,0,0,0,,{\an7\move(65,453.6,65,-42.6)\f
 Dialogue: 0,0:05:56.42,0:06:06.68,Box,,0,0,0,,{\an7\move(41,452.6,41,-40.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 72 0 l 72 26 l 0 26{\p0}
 Dialogue: 1,0:05:56.42,0:06:06.68,Credit,,0,0,0,,{\an7\move(45,453.6,45,-39.6)\fs19}Finishing
 Dialogue: 0,0:05:57.62,0:06:07.93,Box,,0,0,0,,{\an7\move(62,452.6,62,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 142 0 l 142 29 l 0 29{\p0}
-Dialogue: 1,0:05:57.62,0:06:07.93,Credit,,0,0,0,,{\an7\move(66,453.6,66,-42.6)\fs22\fscx90}Mariko Shimokawa
+Dialogue: 1,0:05:57.62,0:06:07.93,Credit,,0,0,0,,{\an7\move(66,453.6,66,-42.6)\fs22\fscx78}Mariko Shimokawa
 Dialogue: 0,0:05:57.62,0:06:07.93,Box,,0,0,0,,{\an7\move(229,452.6,229,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 117 0 l 117 29 l 0 29{\p0}
-Dialogue: 1,0:05:57.62,0:06:07.93,Credit,,0,0,0,,{\an7\move(233,453.6,233,-42.6)\fs22\fscx90}Takayoshi Ishikawa
+Dialogue: 1,0:05:57.62,0:06:07.93,Credit,,0,0,0,,{\an7\move(233,453.6,233,-42.6)\fs22\fscx65}Takayoshi Ishikawa
 Dialogue: 0,0:05:58.24,0:06:08.53,Box,,0,0,0,,{\an7\move(61,452.6,61,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 118 0 l 118 29 l 0 29{\p0}
 Dialogue: 1,0:05:58.24,0:06:08.53,Credit,,0,0,0,,{\an7\move(65,453.6,65,-42.6)\fs22\fscx90}Junko Mizuno
 Dialogue: 0,0:05:58.24,0:06:08.53,Box,,0,0,0,,{\an7\move(230,452.6,230,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 136 0 l 136 29 l 0 29{\p0}
@@ -633,11 +633,11 @@ Dialogue: 1,0:05:58.83,0:06:09.19,Credit,,0,0,0,,{\an7\move(234,453.6,234,-42.6)
 Dialogue: 0,0:05:59.46,0:06:09.75,Box,,0,0,0,,{\an7\move(62,452.6,62,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 114 0 l 114 29 l 0 29{\p0}
 Dialogue: 1,0:05:59.46,0:06:09.75,Credit,,0,0,0,,{\an7\move(66,453.6,66,-42.6)\fs22\fscx90}Yuri Okada
 Dialogue: 0,0:05:59.46,0:06:09.75,Box,,0,0,0,,{\an7\move(230,452.6,230,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 117 0 l 117 29 l 0 29{\p0}
-Dialogue: 1,0:05:59.46,0:06:09.75,Credit,,0,0,0,,{\an7\move(234,453.6,234,-42.6)\fs22\fscx90}Eiko Matsushima
+Dialogue: 1,0:05:59.46,0:06:09.75,Credit,,0,0,0,,{\an7\move(234,453.6,234,-42.6)\fs22\fscx73}Eiko Matsushima
 Dialogue: 0,0:06:00.09,0:06:10.34,Box,,0,0,0,,{\an7\move(61,452.7,61,-43.7)\p1\bord0\shad0\1c&H000000&}m 0 0 l 144 0 l 144 29 l 0 29{\p0}
 Dialogue: 1,0:06:00.09,0:06:10.34,Credit,,0,0,0,,{\an7\move(65,453.7,65,-42.7)\fs22\fscx90}Izumi Hirose
 Dialogue: 0,0:06:00.09,0:06:10.34,Box,,0,0,0,,{\an7\move(230,452.7,230,-43.7)\p1\bord0\shad0\1c&H000000&}m 0 0 l 117 0 l 117 29 l 0 29{\p0}
-Dialogue: 1,0:06:00.09,0:06:10.34,Credit,,0,0,0,,{\an7\move(234,453.7,234,-42.7)\fs22\fscx90}Mika Sugawara
+Dialogue: 1,0:06:00.09,0:06:10.34,Credit,,0,0,0,,{\an7\move(234,453.7,234,-42.7)\fs22\fscx82}Mika Sugawara
 Dialogue: 0,0:06:00.69,0:06:10.97,Box,,0,0,0,,{\an7\move(61,452.7,61,-43.7)\p1\bord0\shad0\1c&H000000&}m 0 0 l 144 0 l 144 29 l 0 29{\p0}
 Dialogue: 1,0:06:00.69,0:06:10.97,Credit,,0,0,0,,{\an7\move(65,453.7,65,-42.7)\fs22\fscx90}Sayaka Tsuda
 Dialogue: 0,0:06:00.69,0:06:10.97,Box,,0,0,0,,{\an7\move(230,452.7,230,-43.7)\p1\bord0\shad0\1c&H000000&}m 0 0 l 117 0 l 117 29 l 0 29{\p0}
@@ -659,7 +659,7 @@ Dialogue: 1,0:06:04.93,0:06:15.14,Credit,,0,0,0,,{\an7\move(46,453.6,46,-38.6)\f
 Dialogue: 0,0:06:05.49,0:06:15.75,Box,,0,0,0,,{\an7\move(62,452.7,62,-42.7)\p1\bord0\shad0\1c&H000000&}m 0 0 l 143 0 l 143 28 l 0 28{\p0}
 Dialogue: 1,0:06:05.49,0:06:15.75,Credit,,0,0,0,,{\an7\move(66,453.7,66,-41.7)\fs21}Akiko Nakayama
 Dialogue: 0,0:06:06.95,0:06:17.26,Box,,0,0,0,,{\an7\move(61,452.6,61,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 117 0 l 117 29 l 0 29{\p0}
-Dialogue: 1,0:06:06.95,0:06:17.26,Credit,,0,0,0,,{\an7\move(65,453.6,65,-42.6)\fs22\fscx90}Toshio Kawaguchi
+Dialogue: 1,0:06:06.95,0:06:17.26,Credit,,0,0,0,,{\an7\move(65,453.6,65,-42.6)\fs22\fscx73}Toshio Kawaguchi
 Dialogue: 0,0:06:06.95,0:06:17.26,Box,,0,0,0,,{\an7\move(211,452.6,211,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 117 0 l 117 29 l 0 29{\p0}
 Dialogue: 1,0:06:06.95,0:06:17.26,Credit,,0,0,0,,{\an7\move(215,453.6,215,-42.6)\fs22\fscx90}Eiji Mizutani
 Dialogue: 0,0:06:07.84,0:06:18.16,Box,,0,0,0,,{\an7\move(42,452.6,42,-41.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 97 0 l 97 27 l 0 27{\p0}
@@ -689,9 +689,9 @@ Dialogue: 1,0:06:21.60,0:06:31.96,Credit,,0,0,0,,{\an7\move(66,453.6,66,-42.6)\f
 Dialogue: 0,0:06:21.60,0:06:31.96,Box,,0,0,0,,{\an7\move(226,452.6,226,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 92 0 l 92 29 l 0 29{\p0}
 Dialogue: 1,0:06:21.60,0:06:31.96,Credit,,0,0,0,,{\an7\move(230,453.6,230,-42.6)\fs22\fscx90}Ken Takeda
 Dialogue: 0,0:06:22.24,0:06:32.55,Box,,0,0,0,,{\an7\move(61,452.6,61,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 143 0 l 143 29 l 0 29{\p0}
-Dialogue: 1,0:06:22.24,0:06:32.55,Credit,,0,0,0,,{\an7\move(65,453.6,65,-42.6)\fs22\fscx90}Kazuhito Ushitsu
+Dialogue: 1,0:06:22.24,0:06:32.55,Credit,,0,0,0,,{\an7\move(65,453.6,65,-42.6)\fs22\fscx87}Kazuhito Ushitsu
 Dialogue: 0,0:06:22.24,0:06:32.55,Box,,0,0,0,,{\an7\move(227,452.6,227,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 116 0 l 116 29 l 0 29{\p0}
-Dialogue: 1,0:06:22.24,0:06:32.55,Credit,,0,0,0,,{\an7\move(231,453.6,231,-42.6)\fs22\fscx90}Yunami Takasaki
+Dialogue: 1,0:06:22.24,0:06:32.55,Credit,,0,0,0,,{\an7\move(231,453.6,231,-42.6)\fs22\fscx76}Yunami Takasaki
 Dialogue: 0,0:06:23.18,0:06:33.40,Box,,0,0,0,,{\an7\move(42,452.6,42,-39.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 81 0 l 81 25 l 0 25{\p0}
 Dialogue: 1,0:06:23.18,0:06:33.40,Credit,,0,0,0,,{\an7\move(46,453.6,46,-38.6)\fs18}Sales
 Dialogue: 0,0:06:23.72,0:06:34.05,Box,,0,0,0,,{\an7\move(61,452.6,61,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 117 0 l 117 29 l 0 29{\p0}
@@ -707,7 +707,7 @@ Dialogue: 1,0:06:26.12,0:06:36.40,Credit,,0,0,0,,{\an7\move(46,453.6,46,-40.6)\f
 Dialogue: 0,0:06:26.70,0:06:37.01,Box,,0,0,0,,{\an7\move(61,452.6,61,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 117 0 l 117 29 l 0 29{\p0}
 Dialogue: 1,0:06:26.70,0:06:37.01,Credit,,0,0,0,,{\an7\move(65,453.6,65,-42.6)\fs22\fscx90}Yuichi Sato
 Dialogue: 0,0:06:26.70,0:06:37.01,Box,,0,0,0,,{\an7\move(230,452.6,230,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 117 0 l 117 29 l 0 29{\p0}
-Dialogue: 1,0:06:26.70,0:06:37.01,Credit,,0,0,0,,{\an7\move(234,453.6,234,-42.6)\fs22\fscx90}Yasuhiro Fukaya
+Dialogue: 1,0:06:26.70,0:06:37.01,Credit,,0,0,0,,{\an7\move(234,453.6,234,-42.6)\fs22\fscx76}Yasuhiro Fukaya
 Dialogue: 0,0:06:27.31,0:06:37.63,Box,,0,0,0,,{\an7\move(61,452.6,61,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 118 0 l 118 29 l 0 29{\p0}
 Dialogue: 1,0:06:27.31,0:06:37.63,Credit,,0,0,0,,{\an7\move(65,453.6,65,-42.6)\fs22\fscx90}Takuya Marufuji
 Dialogue: 0,0:06:27.31,0:06:37.63,Box,,0,0,0,,{\an7\move(230,452.6,230,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 118 0 l 118 29 l 0 29{\p0}
@@ -715,19 +715,19 @@ Dialogue: 1,0:06:27.31,0:06:37.63,Credit,,0,0,0,,{\an7\move(234,453.6,234,-42.6)
 Dialogue: 0,0:06:27.93,0:06:38.25,Box,,0,0,0,,{\an7\move(61,452.6,61,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 117 0 l 117 29 l 0 29{\p0}
 Dialogue: 1,0:06:27.93,0:06:38.25,Credit,,0,0,0,,{\an7\move(65,453.6,65,-42.6)\fs22\fscx90}Yuko Shikanai
 Dialogue: 0,0:06:27.93,0:06:38.25,Box,,0,0,0,,{\an7\move(230,452.6,230,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 117 0 l 117 29 l 0 29{\p0}
-Dialogue: 1,0:06:27.93,0:06:38.25,Credit,,0,0,0,,{\an7\move(234,453.6,234,-42.6)\fs22\fscx90}Yasuhiro Shinohara
+Dialogue: 1,0:06:27.93,0:06:38.25,Credit,,0,0,0,,{\an7\move(234,453.6,234,-42.6)\fs22\fscx64}Yasuhiro Shinohara
 Dialogue: 0,0:06:28.53,0:06:38.86,Box,,0,0,0,,{\an7\move(61,452.6,61,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 117 0 l 117 29 l 0 29{\p0}
-Dialogue: 1,0:06:28.53,0:06:38.86,Credit,,0,0,0,,{\an7\move(65,453.6,65,-42.6)\fs22\fscx90}Kazuhiro Sumitomo
+Dialogue: 1,0:06:28.53,0:06:38.86,Credit,,0,0,0,,{\an7\move(65,453.6,65,-42.6)\fs22\fscx77}Kazuhiro Sumitomo
 Dialogue: 0,0:06:28.53,0:06:38.86,Box,,0,0,0,,{\an7\move(230,452.6,230,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 118 0 l 118 29 l 0 29{\p0}
-Dialogue: 1,0:06:28.53,0:06:38.86,Credit,,0,0,0,,{\an7\move(234,453.6,234,-42.6)\fs22\fscx90}Tomoki Takahashi
+Dialogue: 1,0:06:28.53,0:06:38.86,Credit,,0,0,0,,{\an7\move(234,453.6,234,-42.6)\fs22\fscx69}Tomoki Takahashi
 Dialogue: 0,0:06:29.16,0:06:39.47,Box,,0,0,0,,{\an7\move(61,452.6,61,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 117 0 l 117 29 l 0 29{\p0}
-Dialogue: 1,0:06:29.16,0:06:39.47,Credit,,0,0,0,,{\an7\move(65,453.6,65,-42.6)\fs22\fscx90}Yoshisuke Hirabayashi
+Dialogue: 1,0:06:29.16,0:06:39.47,Credit,,0,0,0,,{\an7\move(65,453.6,65,-42.6)\fs22\fscx66}Yoshisuke Hirabayashi
 Dialogue: 0,0:06:29.16,0:06:39.47,Box,,0,0,0,,{\an7\move(230,452.6,230,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 117 0 l 117 29 l 0 29{\p0}
 Dialogue: 1,0:06:29.16,0:06:39.47,Credit,,0,0,0,,{\an7\move(234,453.6,234,-42.6)\fs22\fscx90}Keita Matsui
 Dialogue: 0,0:06:29.78,0:06:40.08,Box,,0,0,0,,{\an7\move(61,452.6,61,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 118 0 l 118 29 l 0 29{\p0}
-Dialogue: 1,0:06:29.78,0:06:40.08,Credit,,0,0,0,,{\an7\move(65,453.6,65,-42.6)\fs22\fscx90}Narihito Nanbara
+Dialogue: 1,0:06:29.78,0:06:40.08,Credit,,0,0,0,,{\an7\move(65,453.6,65,-42.6)\fs22\fscx87}Narihito Nanbara
 Dialogue: 0,0:06:29.78,0:06:40.08,Box,,0,0,0,,{\an7\move(230,452.6,230,-43.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 117 0 l 117 29 l 0 29{\p0}
-Dialogue: 1,0:06:29.78,0:06:40.08,Credit,,0,0,0,,{\an7\move(234,453.6,234,-42.6)\fs22\fscx90}Naoto Watanabe
+Dialogue: 1,0:06:29.78,0:06:40.08,Credit,,0,0,0,,{\an7\move(234,453.6,234,-42.6)\fs22\fscx74}Naoto Watanabe
 Dialogue: 0,0:06:30.68,0:06:40.92,Box,,0,0,0,,{\an7\move(42,452.6,42,-40.6)\p1\bord0\shad0\1c&H000000&}m 0 0 l 127 0 l 127 26 l 0 26{\p0}
 Dialogue: 1,0:06:30.68,0:06:40.92,Credit,,0,0,0,,{\an7\move(46,453.6,46,-39.6)\fs19}Battle Check
 Dialogue: 0,0:06:31.27,0:06:41.55,Box,,0,0,0,,{\an7\move(62,452.7,62,-43.7)\p1\bord0\shad0\1c&H000000&}m 0 0 l 116 0 l 116 29 l 0 29{\p0}
@@ -739,17 +739,17 @@ Dialogue: 1,0:06:32.75,0:06:43.03,Credit,,0,0,0,,{\an7\move(65,453.7,65,-42.7)\f
 Dialogue: 0,0:06:32.75,0:06:43.03,Box,,0,0,0,,{\an7\move(230,452.7,230,-43.7)\p1\bord0\shad0\1c&H000000&}m 0 0 l 91 0 l 91 29 l 0 29{\p0}
 Dialogue: 1,0:06:32.75,0:06:43.03,Credit,,0,0,0,,{\an7\move(234,453.7,234,-42.7)\fs22\fscx90}Kiyoshi Nagai
 Dialogue: 0,0:06:33.37,0:06:43.63,Box,,0,0,0,,{\an7\move(61,452.7,61,-43.7)\p1\bord0\shad0\1c&H000000&}m 0 0 l 117 0 l 117 29 l 0 29{\p0}
-Dialogue: 1,0:06:33.37,0:06:43.63,Credit,,0,0,0,,{\an7\move(65,453.7,65,-42.7)\fs22\fscx90}Kazuhisa Akakura
+Dialogue: 1,0:06:33.37,0:06:43.63,Credit,,0,0,0,,{\an7\move(65,453.7,65,-42.7)\fs22\fscx84}Kazuhisa Akakura
 Dialogue: 0,0:06:33.37,0:06:43.63,Box,,0,0,0,,{\an7\move(229,452.7,229,-43.7)\p1\bord0\shad0\1c&H000000&}m 0 0 l 93 0 l 93 29 l 0 29{\p0}
 Dialogue: 1,0:06:33.37,0:06:43.63,Credit,,0,0,0,,{\an7\move(233,453.7,233,-42.7)\fs22\fscx90}Jun Toyoda
 Dialogue: 0,0:06:33.98,0:06:44.25,Box,,0,0,0,,{\an7\move(62,452.7,62,-43.7)\p1\bord0\shad0\1c&H000000&}m 0 0 l 117 0 l 117 29 l 0 29{\p0}
-Dialogue: 1,0:06:33.98,0:06:44.25,Credit,,0,0,0,,{\an7\move(66,453.7,66,-42.7)\fs22\fscx90}Masahiro Shimamoto
+Dialogue: 1,0:06:33.98,0:06:44.25,Credit,,0,0,0,,{\an7\move(66,453.7,66,-42.7)\fs22\fscx71}Masahiro Shimamoto
 Dialogue: 0,0:06:33.98,0:06:44.25,Box,,0,0,0,,{\an7\move(230,452.7,230,-43.7)\p1\bord0\shad0\1c&H000000&}m 0 0 l 117 0 l 117 29 l 0 29{\p0}
-Dialogue: 1,0:06:33.98,0:06:44.25,Credit,,0,0,0,,{\an7\move(234,453.7,234,-42.7)\fs22\fscx90}Takaharu Suzuki
+Dialogue: 1,0:06:33.98,0:06:44.25,Credit,,0,0,0,,{\an7\move(234,453.7,234,-42.7)\fs22\fscx76}Takaharu Suzuki
 Dialogue: 0,0:06:34.59,0:06:44.86,Box,,0,0,0,,{\an7\move(61,452.7,61,-43.7)\p1\bord0\shad0\1c&H000000&}m 0 0 l 117 0 l 117 29 l 0 29{\p0}
 Dialogue: 1,0:06:34.59,0:06:44.86,Credit,,0,0,0,,{\an7\move(65,453.7,65,-42.7)\fs22\fscx90}Hideki Hattori
 Dialogue: 0,0:06:34.59,0:06:44.86,Box,,0,0,0,,{\an7\move(231,452.7,231,-43.7)\p1\bord0\shad0\1c&H000000&}m 0 0 l 116 0 l 116 29 l 0 29{\p0}
-Dialogue: 1,0:06:34.59,0:06:44.86,Credit,,0,0,0,,{\an7\move(235,453.7,235,-42.7)\fs22\fscx90}Hiroyuki Yamamura
+Dialogue: 1,0:06:34.59,0:06:44.86,Credit,,0,0,0,,{\an7\move(235,453.7,235,-42.7)\fs22\fscx63}Hiroyuki Yamamura
 Dialogue: 0,0:06:35.21,0:06:45.48,Box,,0,0,0,,{\an7\move(62,452.7,62,-43.7)\p1\bord0\shad0\1c&H000000&}m 0 0 l 90 0 l 90 29 l 0 29{\p0}
 Dialogue: 1,0:06:35.21,0:06:45.48,Credit,,0,0,0,,{\an7\move(66,453.7,66,-42.7)\fs22}Hiroshi Yoshimura
 Dialogue: 0,0:06:35.83,0:06:46.08,Box,,0,0,0,,{\an7\move(62,452.7,62,-42.7)\p1\bord0\shad0\1c&H000000&}m 0 0 l 288 0 l 288 28 l 0 28{\p0}
