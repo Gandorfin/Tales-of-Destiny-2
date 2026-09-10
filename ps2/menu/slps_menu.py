@@ -8,7 +8,10 @@ semantics follow the original installer exactly:
 * legacy entries: a pointer is redirected to a string written into a spare
   pool, guarded by the old string, the old pointer and an empty pool slot
 * one legacy in-place fix (the Enchant description)
-* in-place entries: old bytes replaced by new bytes of the same length
+* in-place entries: old bytes replaced by new bytes of the same length (an
+  entry may rewrite the text of a previous in-place entry at the same
+  offset; the previous one is applied first, so both a clean base and an
+  executable carrying the earlier wording end up with the new text)
 * redirect entries: like legacy entries, for the later additions
 
 Every operation is verified before anything is written, already-applied
@@ -74,11 +77,14 @@ def apply(src, manifest):
     elif not _at(d, ench["offset"], new):
         raise GuardError("previous Enchant guard failed")
 
+    later = {e["offset"]: _h(e["new_hex"]) for e in manifest["in_place_entries"]}
     for section in ("previous_in_place_entries", "in_place_entries"):
         for e in manifest[section]:
             old, new = _h(e["old_hex"]), _h(e["new_hex"])
             if _at(d, e["offset"], new):
                 continue
+            if section == "previous_in_place_entries" and e["offset"] in later and _at(d, e["offset"], later[e["offset"]]):
+                continue        # already rewritten by the later entry at this offset
             if not _at(d, e["offset"], old):
                 raise GuardError('translation guard failed for "%s"' % e["label"])
             d[e["offset"]:e["offset"] + len(new)] = new
@@ -103,6 +109,9 @@ def apply(src, manifest):
 
 
 def assert_applied(d, manifest):
+    # a previous in-place entry that a later in-place entry rewrites at the
+    # same offset is verified through the later one
+    superseded = {e["offset"] for e in manifest["in_place_entries"]}
     for e in manifest["legacy"]["entries"]:
         if not (_at(d, e["pointer_offset"], _h(e["new_pointer_hex"])) and _at(d, e["pool_offset"], _h(e["pool_hex"]))):
             raise GuardError("verification failed for %s" % e["english"])
@@ -111,6 +120,8 @@ def assert_applied(d, manifest):
         raise GuardError("Enchant verification failed")
     for section in ("previous_in_place_entries", "in_place_entries"):
         for e in manifest[section]:
+            if section == "previous_in_place_entries" and e["offset"] in superseded:
+                continue
             if not _at(d, e["offset"], _h(e["new_hex"])):
                 raise GuardError("verification failed for %s" % e["label"])
     for e in manifest["redirect_entries"]:

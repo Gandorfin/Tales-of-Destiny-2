@@ -1543,17 +1543,89 @@
    "old_hex": "485020726567656E65726174657320617420666978656420696E74657276616C7300",
    "new_hex": "485020726567656E65726174657320706572696F646963616C6C7900000000000000",
    "display": "HP regenerates periodically"
+  },
+  {
+   "group": "enchant_name",
+   "label": "Activate Counter",
+   "offset": 1053998,
+   "old_text": "Activate Counterattack\u0000",
+   "display": "Activate Counter",
+   "old_hex": "416374697661746520436F756E74657261747461636B00",
+   "new_hex": "416374697661746520436F756E74657200000000000000"
+  },
+  {
+   "group": "enchant_name",
+   "label": "Perfect Evasion",
+   "offset": 1054199,
+   "old_text": "Instantaneous Perfect Evasion\u0000",
+   "display": "Perfect Evasion",
+   "old_hex": "496E7374616E74616E656F757320506572666563742045766173696F6E00",
+   "new_hex": "506572666563742045766173696F6E000000000000000000000000000000"
+  },
+  {
+   "group": "enchant_name",
+   "label": "Arte Extension",
+   "offset": 1054133,
+   "old_text": "Skill Extension\u0000",
+   "display": "Arte Extension",
+   "old_hex": "536B696C6C20457874656E73696F6E00",
+   "new_hex": "4172746520457874656E73696F6E0000"
+  },
+  {
+   "group": "misc_menu_description",
+   "label": "Quiz Book description",
+   "offset": 1093687,
+   "old_text": "\u0001(WARNING: Not translated.)\u0000",
+   "display": "A must-read for quiz lovers.<line>Think you know it all?",
+   "old_hex": "01285741524E494E473A204E6F74207472616E736C617465642E2900",
+   "new_hex": "00000000000000000000000000000000000000000000000000000000"
+  },
+  {
+   "group": "misc_menu_description",
+   "label": "Weapon Shop GRINDER",
+   "offset": 1109010,
+   "old_text": "999699b3999a9980",
+   "display": "Weapon Shop GRINDER",
+   "old_hex": "999699B3999A9980",
+   "new_hex": "4752494E44455200"
+  },
+  {
+   "group": "misc_menu_description",
+   "label": " Stall SWEETS",
+   "offset": 1109235,
+   "old_text": "997399b0997399b0",
+   "display": " Stall SWEETS",
+   "old_hex": "997399B0997399B0",
+   "new_hex": "5357454554530000"
+  },
+  {
+   "group": "misc_menu_description",
+   "label": "Armor Shop EASY WIN",
+   "offset": 1109466,
+   "old_text": "e096e3509a87e187",
+   "display": "Armor Shop EASY WIN",
+   "old_hex": "E096E3509A87E187",
+   "new_hex": "454153592057494E"
+  },
+  {
+   "group": "enchant_description",
+   "label": "Arte Extension",
+   "offset": 1054082,
+   "old_text": "Hold <09:0000003D> on hit to use the<line>skill's extension.",
+   "display": "Hold <09:0000003D> on hit to use the<line>arte's extension.",
+   "old_hex": "486F6C6420093D000000206F6E2068697420746F207573652074686501736B696C6C277320657874656E73696F6E2E00000000",
+   "new_hex": "486F6C6420093D000000206F6E2068697420746F20757365207468650161727465277320657874656E73696F6E2E0000000000"
   }
  ],
  "counts": {
   "legacy_redirects": 68,
   "status_descriptions": 72,
   "enchant_descriptions": 20,
-  "enchant_names": 1,
+  "enchant_names": 4,
   "remaining_status_names": 17,
   "remaining_status_descriptions": 48,
   "cooking_description_slots": 49,
-  "misc_menu_descriptions": 5,
+  "misc_menu_descriptions": 9,
   "new_unique_in_place_records": 59,
   "new_redirect_records": 56,
   "enchant_description_width": 20
