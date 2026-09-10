@@ -196,7 +196,7 @@ file,offset,japanese,english
 <button:00000036>戻る","<button:00000035>Select
 <button:00000036>Back"
 06803.md1,0x89E0,ガルド,Gald
-06803.md1,0x89E8,  購入,  Buy
+06803.md1,0x89E8,  購入,"  Buy "
 06803.md1,0x89F0,  売却,  Sell
 06803.md1,0x8A1C,"でいいですか？
  
@@ -1338,3 +1338,17 @@ the title ""<item:0000086E>""
 a path and head for the exit.
 <button:00000035> pushes a box.
 You cannot pull them."
+08055.md1,0x4A7BE,蒼破追蓮,"Pursuit "
+08055.md1,0x4A827,雷神光燐,"Kourin  "
+08055.md1,0x4A89B,散葉枯葉,"Wither  "
+08055.md1,0x4A955,空翔裂風,"Windrend"
+08055.md1,0x4AA7E,閃光翔墜,"Skyfall "
+08055.md1,0x4AB28,爆炎連焼,"Hellfire"
+08055.md1,0x4ACE1,爆灰猛追,"Stampede"
+08055.md1,0x4ADD1,放墜砲槍,"Housou  "
+08055.md1,0x4AE46,双打連蹴,"Renshuu "
+08055.md1,0x4AEC8,霧氷槍閃,"Frostray"
+08055.md1,0x4B03B,幻影回帰,"Recall  "
+08055.md1,0x4B0D7,双連衝破,"Impact  "
+08055.md1,0x4B135,飛連双閃,"Twin Ray"
+08055.md1,0x4B187,月閃虚崩,"Moonfall"
