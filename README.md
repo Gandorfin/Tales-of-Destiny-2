@@ -121,8 +121,10 @@ Short version; the details are in `ps2/menu/README.md` ("Applying it") and
    menu as "Green Gel v1.1.9f" (the Namco line below it is kept). The game
    draws only the first 96 pixels of that line, so the label is short and
    condensed; the tool refuses anything wider.
-4. Pack FPB, Insert FONT, and put `new_FILE.FPB` and `new_SLPS_251.72` into
-   the ISO.
+4. Pack FPB and put `new_FILE.FPB` and `new_SLPS_251.72` into the ISO. Do
+   not run "Insert FONT": it would replace the game's Latin font with the
+   2008 alternative font and drop the `&`, `~` and `*` glyphs that
+   `patch_slps_titles.py` adds to the retail font.
 5. `python ps2/menu/verify_menu_patch.py your.iso` tells you which parts of
    the build are English, so a Japanese screen can be traced to the step
    that was skipped.
