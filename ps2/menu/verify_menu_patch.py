@@ -14,7 +14,7 @@ Nothing is written. Exit code 0 if everything is English, 1 otherwise.
 """
 import csv, os, struct, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-import md1text as M, pak3, lzss, enemy_text
+import md1text as M, pak3, lzss, enemy_text, slps_font
 try:
     sys.stdout.reconfigure(errors="replace")
 except Exception:
@@ -201,6 +201,13 @@ def main():
         verdict="PATCHED" if t["jp"]==0 and t["other"]==0 else ("NOT patched" if t["en"]==0 else "MIXED")
         print(f"{'SLPS titles':<12}{t['en']:>8}{t['jp']:>10}{t['other']:>7}  {verdict}")
         ok = ok and t["jp"]==0 and t["other"]==0
+        try:
+            glyphs, table = slps_font.state(slps)
+        except slps_font.FontError as e:
+            glyphs = table = False
+        fv = "PATCHED" if glyphs and table else ("NOT patched" if not (glyphs or table) else "MIXED")
+        print(f"{'SLPS font':<12}{'&~*' if glyphs else '':>8}{'':>10}{'':>7}  {fv} (ampersand, tilde, asterisk glyphs)")
+        ok = ok and glyphs and table
     else:
         print("(no SLPS given, titles not checked)")
     print("\nEverything English." if ok else "\nSome strings are NOT English in this build.")

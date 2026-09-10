@@ -92,9 +92,9 @@ is Heidelberg?
 #ここから、北西の方角だ
 #まず、海岸線にそって北に進み、
 #山脈にぶつかったら今度は西だ
-Northwest from here. First, head
-north along the coastline, then turn
-west once you reach the mountains.
+It's northwest from here. Go north
+along the coast until you reach the
+mountains, then head west.
 -----------------------
 <Judas>
 -----------------------
@@ -692,7 +692,7 @@ I paid my last <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald...
 I'll give you a discount.
 -----------------------
 #<0B:00000001><num:00000014><0B:00000000>ガルド払った････
-<0B:00000001><num:00000014><0B:00000000>Paid the Gald...
+Paid <0B:00000001><num:00000014><0B:00000000> Gald...
 -----------------------
 #まいど
 Thanks for your patronage.

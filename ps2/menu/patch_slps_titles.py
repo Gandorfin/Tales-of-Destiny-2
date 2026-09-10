@@ -21,6 +21,9 @@ Steps, in order, on one in-memory copy; the file is written once at the end:
      shows the string after an arte's reading; 27 of those were still the
      kanji. Each gets "reading + menu name" in the pool or in a slot another
      record freed, and its reading pointer is redirected.
+  4. The Latin font (slps_font.py): '&' and '~' had no glyph and '*' was a
+     star, so an ampersand, a tilde and an asterisk are drawn into the font
+     texture and the two ASCII table entries are pointed at them.
 
 Re-running is safe. The file size never changes.
 """
@@ -31,7 +34,7 @@ try:                                   # Windows consoles are often not UTF-8
 except Exception:
     pass
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-import md1text as M, md1patch as P, slps_menu, slps_artes
+import md1text as M, md1patch as P, slps_menu, slps_artes, slps_font
 BIAS = 0xFF000
 POOL_START, POOL_END = 1026832, 1033520
 
@@ -182,6 +185,13 @@ def patch_one(target, a):
         except RuntimeError as e:
             print(f"arte cut-in names: {e}. Nothing written."); return 1
         print(f"arte cut-in names: {len(pend)} redirected ({slots} into freed slots, {pooled} into the pool, {left} pool bytes left)")
+
+    # Step 4: '&', '~' and '*' glyphs in the Latin font.
+    try:
+        src, changes = slps_font.apply(src)
+    except slps_font.FontError as e:
+        print(f"font: {e}. Nothing written."); return 1
+    print("font: " + (", ".join(changes) if changes else "'&', '~' and '*' glyphs already in place"))
 
     assert len(src) == len(original)
     if src == original:

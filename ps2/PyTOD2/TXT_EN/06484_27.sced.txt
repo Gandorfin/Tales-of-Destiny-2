@@ -36,7 +36,7 @@ SELECT
 #<03:00000000>　アイグレッテ港に行く（<0B:00000001>{14}{24}{72}{C0}<0B:00000000>ガルド）　
 #　船には乗らない　
 <03:00000000>To Aigrette Port (<0B:00000001>{14}{24}{72}{C0}<0B:00000000> Gald)
-Not boarding the ship.
+Don't board the ship.
 -----------------------
 #チケット売り
 Ticket Seller
@@ -55,7 +55,7 @@ select
 #　船には乗らない　
 <03:00000000>To Aigrette Port (<0B:00000001>{14}{24}{72}{C0}<0B:00000000> Gald)
 To Neuestadt (<0B:00000001>{14}{24}{74}{C0}<0B:00000000> Gald)
-Not boarding the ship.
+Don't board the ship.
 -----------------------
 #チケット売り
 Ticket Seller
@@ -74,7 +74,7 @@ select
 #　船には乗らない　
 <03:00000000>To Aigrette Port
 To Neuestadt
-Not boarding the ship.
+Don't board the ship.
 -----------------------
 #チケット売り
 Ticket Seller

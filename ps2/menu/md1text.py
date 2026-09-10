@@ -6,6 +6,13 @@ TBL=json.load(open(R+"/ps2/PyTOD2/TBL.json"))
 # headings and the cooking menu). Values inferred from context.
 TBL.setdefault("39549","＜"); TBL.setdefault("39550","＞"); TBL.setdefault("40405","熟")
 TBL.setdefault("40947","塗"); TBL.setdefault("40904","鑑"); TBL.setdefault("57978","挿")  # 0x9FF3, 0x9FC8, 0xE27A: missing from TBL.json, seen in 06167, 06816, 06815
+# Kanji of the arte and arte-extension names in the SLPS arte table and the
+# 08055 battle module (0xE0D8.. is the battle font's own cluster around 雷
+# 0xE0E5). 翔 閃 龍 燐 鼓 are missing from TBL.json; 0xE0DD and 0xE157 read as
+# 闘 and 槍 from the arte names 闘龍連撃破 / 放墜砲槍 / 霧氷槍閃 (the main font
+# has its own 闘 0x9A9D and 槍 0xE07C; these are the battle font's copies).
+for _c, _k in ((57560, "翔"), (57561, "閃"), (57565, "闘"), (57566, "龍"), (57687, "槍"), (57726, "燐"), (57778, "鼓")):
+    TBL.setdefault(str(_c), _k)
 PRINT=set(string.digits+string.ascii_letters+string.punctuation+' ')
 TAGS={0x4:'color',0x5:'size',0x6:'num',0x7:'char',0x8:'item',0x9:'button'}
 NAMES={1:'Kyle',2:'Reala',3:'Loni',4:'Judas',5:'Nanaly',6:'Harold'}

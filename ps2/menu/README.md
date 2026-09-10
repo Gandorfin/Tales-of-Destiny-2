@@ -68,6 +68,38 @@ Book and `enemy_text.py build` covers enemy arte names, Mystic Arte banners
 and boss lines in battle (different files, see below); all three must run before Pack
 FPB. Skipping one leaves that part of the game in Japanese.
 
+Do not run PyTOD2's optional "Insert FONT" afterwards: it replaces the
+game's Latin font with the 2008 alternative font (`font.bin`), which no
+Green Gel release has used, and it would undo the `&`, `~` and `*` glyphs
+that `patch_slps_titles.py` draws into the retail font (see "The Latin
+font" below).
+
+### Arte extension banners (`08055.md1`)
+
+The green banner of a Base Arte Extension (the follow-up arte an Arte
+Extension enchant adds, 飛連双閃 for Dreadfall and so on) is an inline
+literal in the battle module's effect script: opcode `0A`, one argument
+byte, then the name as a NUL-terminated string. The script is position
+dependent, so the English must keep the eight bytes of the four kanji: the
+fourteen entries in `menu_translations.csv` (offsets `0x4A7BE`..`0x4B187`)
+are padded with spaces to exactly eight characters, and that limit is
+hard. The Japanese column needs the battle font's own kanji codes, which
+`md1text.py` adds on top of `TBL.json` (翔 閃 龍 燐 鼓, and the battle
+font's copies of 闘 and 槍). Nanaly's, Reala's and Harold's extensions have
+no banner literal anywhere in `FILE.FPB`, so there is nothing to translate
+for them.
+
+### The shop's sell prompt ("iH☆")
+
+Selling an item showed `iH☆` instead of the confirmation. The shop module
+`06803.md1` reaches that prompt by walking the NUL-separated strings of its
+record from `0x89E8` (`  購入`, `  売却`, a format string, a stray `iH*`,
+then the prompt). English `  Buy` is one byte shorter than `  購入`, which
+adds one empty string to the walk, so the game stopped one string early on
+the stray `iH*`. The fix is the trailing space in `"  Buy "`; every string
+in that record must keep the Japanese byte length. `test_shop_prompt.py`
+guards it.
+
 `title_credit.py` is the title screen: the two copyright lines under the
 menu are a 384x32 texture in `00021.pak3`, not text. The tool redraws the
 first line (the Japanese designer credit) as "Green Gel v1.1.8" and keeps
@@ -205,10 +237,6 @@ the pointers, spilling into the spare string pool only when an arena fills up.
 
 ## Not translated
 
-* Six added-arte names in `08055.md1`. They sit in dense records with what
-  looks like a length prefix and no padding, unlike ordinary text which is
-  zero-padded, so editing them risked breaking the record format. The arte
-  names are already translated in `SLPS_251.72`.
 * A handful of fragments whose first character is absent from `TBL.json`.
 * Cooking recipe names. They are not text: two independent scans found them in
   no encoding anywhere in the executable or `FILE.FPB`, so they appear to be
@@ -276,6 +304,28 @@ list translated, which is how the pack copies were found. The name list
 in 06813.md1 and the category and immunity tables at 06813 0x7731 still
 look dead (the 2008 patch relocated the English versions the Monster
 Book shows).
+
+## The Latin font (`slps_font.py`)
+
+The Latin glyphs the game draws come from one compressed TM2 texture inside
+`SLPS_251.72` (file offset `0xCA238`, 128x512 pixels, 4 bits per pixel,
+cells of 12x16 in rows of ten). Single-byte text goes through a 96-entry
+table at `0xC9D00` (glyph cell per ASCII code `0x20`..`0x7F`). The retail
+table sends `&` and `~` to empty cells, so both showed as gaps, and `*`
+to a star. `patch_slps_titles.py` runs `slps_font.py` as its fourth step:
+it draws an ampersand and a tilde over the two curly-quote cells that only
+`#` and `$` reach (no text of the patch uses those), redraws the star cell
+as an asterisk, packs the texture back into the room it came from and
+points `&` and `~` at the new cells. The script text can therefore use the
+plain ASCII `&`; `~` will follow once the glyph has been seen in a build
+(the scripts still carry the full-width `～` from the kanji font).
+
+```
+python ps2/menu/slps_font.py ps2/PyTOD2/SLPS_251.72 --export font.png --grid
+```
+
+writes the texture as a PNG with cell indices (Pillow needed) for checking
+or redrawing glyphs; the glyph art itself is ASCII art in `slps_font.py`.
 
 ## Battle cut-in names of the party artes (`slps_artes.py`)
 
