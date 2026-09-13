@@ -52,6 +52,38 @@ DEFAULT_CSV = os.path.join(HERE, 'quiz_translations.csv')
 FORMER_TRANSLATIONS = {
     ('06189.sfm', 0x4E91): 'Kronos',
     ('06235.sfm', 0x1C6): 'Kronos',
+    ('06185.sfm', 0x53B3): 'Radiant Holy Woman',
+    ('06185.sfm', 0x53BE): 'Glittering Holy Woman',
+    ('06185.sfm', 0x53CD): 'Twinkling Holy Woman',
+    ('06185.sfm', 0x53D8): 'Holy Womaaan',
+    ('06185.sfm', 0x579C): 'A flying dragon',
+    ('06185.sfm', 0x5CBB): 'Aspiring Holy Woman',
+    ('06185.sfm', 0x60FA): 'A girl like a Holy Woman',
+    ('06186.sfm', 0x3933): 'A flying dragon',
+    ('06186.sfm', 0x565F): ('What was the name of the living metal\n'
+                            'needed to repair the flying dragon?'),
+    ('06186.sfm', 0x57A1): ("In the flying dragon's storeroom, what\n"
+                            'do you get by revisiting the spot\n'
+                            'where Swordian Dymlos\nwas kept?'),
+    ('06189.sfm', 0x3C23): ("What's the name of the monster\n"
+                            'Gaap left behind on the flying dragon?'),
+    ('06189.sfm', 0x3C8F): ('How many control devices were\n'
+                            'there on the flying dragon again?'),
+    ('06189.sfm', 0x52D5): 'Flying dragon',
+    ('06189.sfm', 0x53B6): ('The flying dragon or the Ixifoslar,\n'
+                            'which is faster?'),
+    ('06189.sfm', 0x583E): 'Twilight City Realta',
+    ('06189.sfm', 0x5405): ('What item did we use to destroy the\n'
+                            "flying dragon's control devices?"),
+    ('06189.sfm', 0x5469): ('The inside of the flying dragon\n'
+                            'was full of contraptions, huh.'),
+    ('06189.sfm', 0x583E): 'Twilight City Realta',
+    ('06189.sfm', 0x6DE3): ('There was a room on the flying dragon\n'
+                            'with tiny monsters you could only see\n'
+                            "with the Sorcerer's Scope.\n"
+                            'What was the master of that room?'),
+    ('06189.sfm', 0x72F0): ('Close! That\'s the monster Gaap\n'
+                            'sicced on us on the flying dragon.'),
 }
 # bytecode words that precede the overwhelming majority of string pushes
 SAFE_PREV = {b'\x02\x0c', b'\x01\x00', b'\x10\x04'}
@@ -283,32 +315,65 @@ def cmd_build(args):
         raw, packed, data = read_module(path)
         mod = SFM(data)
         log = []
-        migrated = 0
+        migrated = moved_migrations = 0
         for rel, jp, en in recs:
             former = FORMER_TRANSLATIONS.get((name, rel))
             if not former:
                 continue
-            current = mod.strings().get(rel)
-            if current is not None and current['text'] == former:
-                n, moved, overflow = mod.apply([(rel, former, en)], log)
+            strings = mod.strings()
+            matches = [current_rel for current_rel, current in strings.items()
+                       if current['text'] == former]
+            if len(matches) > 1:
+                raise RuntimeError(
+                    '%s 0x%X: terminology migration is ambiguous at %s' %
+                    (name, rel, ', '.join('0x%X' % hit for hit in matches)))
+            if matches:
+                current_rel = matches[0]
+                n, moved, overflow = mod.apply(
+                    [(current_rel, former, en)], log)
                 if overflow:
                     raise RuntimeError('%s 0x%X: terminology migration overflow' % (name, rel))
                 migrated += n
-        try:
-            n, moved, overflow = mod.apply(recs, log)
-        except ValueError as e:
-            if migrated:
-                n, moved, overflow = migrated, 0, []
-            else:
-                strs = mod.strings()
-                if any(strs.get(rel) is None or strs[rel]['text'] != jp for rel, jp, en in recs) and \
-                   all(strs.get(rel) is None or strs[rel]['text'] != jp for rel, jp, en in recs):
-                    print('  SKIP %s: already patched' % name)
-                    skipped += 1
-                    continue
-                print('  REFUSE %s: %s' % (name, e))
-                skipped += 1
+                moved_migrations += moved
+
+        # A previous build can relocate translated strings. Apply any clean
+        # Japanese records still at their canonical offsets, then verify every
+        # other row by value instead of assuming that it was already patched.
+        strings = mod.strings()
+        translated = {current['text'] for current in strings.values()}
+        pending = []
+        unresolved = []
+        for rel, jp, en in recs:
+            current = strings.get(rel)
+            if current is not None and current['text'] == jp:
+                pending.append((rel, jp, en))
+            elif current is not None and current['text'] == en:
                 continue
+            elif current is None:
+                # Already-translated strings are commonly relocated, leaving
+                # no live string at the source offset. Former terminology was
+                # handled explicitly above by matching its current value.
+                continue
+            elif en in translated:
+                continue
+            else:
+                unresolved.append((rel, current['text'] if current else None))
+        if unresolved:
+            details = ', '.join(
+                '0x%X=%r' % (rel, text) for rel, text in unresolved[:5])
+            print('  REFUSE %s: unresolved source rows (%s)' % (name, details))
+            skipped += 1
+            continue
+        n = moved = 0
+        overflow = []
+        if pending:
+            n, moved, overflow = mod.apply(pending, log)
+        n += migrated
+        moved += moved_migrations
+        if not n:
+            print('  SKIP %s: already patched' % name)
+            skipped += 1
+            continue
         out = mod.bytes()
         if packed:
             out = lzss.pack(out, 3)

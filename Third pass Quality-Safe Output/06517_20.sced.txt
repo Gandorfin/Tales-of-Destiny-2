@@ -1,10 +1,10 @@
 #飛行竜・中心部
-Flying Dragon - Central Area
+Draconis - Central Area
 -----------------------
 #飛行竜
-Flying Dragon
+Draconis
 -----------------------
-noitce
+Info
 -----------------------
 #制御装置を破壊しないと通れません
 Destroy the control device to pass.
@@ -25,7 +25,7 @@ This stupid thing!
 #飛行竜は、限りなく生き物に近い機械だ
 #これを壊してもすぐに再生する
 No, it's probably futile. The
-Flying Dragon is a machine that's
+Draconis is a machine that's
 as close to a living creature as
 it gets. Destroy this part and
 it'll regenerate almost immediately.
@@ -40,7 +40,7 @@ Then what are we supposed to do?!
 #飛行竜の体内にある
 #制御装置を破壊するんだ
 There's a control device inside the
-Flying Dragon. Destroy it.
+Draconis. Destroy it.
 -----------------------
 <Judas>
 -----------------------
@@ -77,8 +77,8 @@ Got it!
 -----------------------
 #それと、おそらくだが････
 #この飛行竜は、カルビオラに向かっている
-Also, I suspect...this Flying
-Dragon is heading toward Kalviola.
+Also, I suspect...Draconis is
+heading toward Kalviola.
 -----------------------
 <Nanaly>
 -----------------------
@@ -105,14 +105,14 @@ We don't have much time left.
 Got it!
 Let's hurry and search!
 -----------------------
-notice
+Info
 -----------------------
 #<Judas>は
 #称号「<item:00000827>」を得ました
 <Judas> acquired the title
 "<item:00000827>".
 -----------------------
-notice
+Info
 -----------------------
 #宝箱はフェイクでした
 The treasure chest was a fake.
@@ -128,7 +128,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -153,24 +153,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{BE}{C0}を手に入れました
 Acquired {16}{25}{BE}{C0}.
 -----------------------
-notice
+Info
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{D2}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{D2}{C0}, but
 your inventory is full.
 -----------------------
-notice
+Info
 -----------------------
 #何もありません
 There's nothing here.
@@ -178,7 +178,7 @@ There's nothing here.
 #タイムオーバー
 Time's up.
 -----------------------
-noitce
+Info
 -----------------------
 #制御装置を破壊しました
 Control device destroyed.

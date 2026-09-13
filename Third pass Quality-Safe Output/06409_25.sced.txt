@@ -10,7 +10,7 @@ Mountain Cabin
 #山小屋
 Mountain Cabin
 -----------------------
-NOTICE
+Info
 -----------------------
 #<item:00000021>を手に入れました
 Acquired <item:00000021>.
@@ -22,7 +22,7 @@ bearing the Kongman seal are stocked
 here. They seem to be provided
 free of charge for travelers.
 -----------------------
-NOTICE
+Info
 -----------------------
 #<item:00000007>を手に入れました
 Acquired <item:00000007>.
@@ -470,12 +470,12 @@ Neuestadt's still quite a ways off.
 #な、なんなんだよ～っ！
 Wh-What'd I do～!?
 -----------------------
-select
+Option
 -----------------------
 #休みますか？
 Would you like to rest?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -496,7 +496,7 @@ Chef
 Want to learn how
 to make {16}{34}{88}{C0}?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -527,7 +527,7 @@ Chef
 I've got a recipe for {16}{34}{88}{C0}.
 Want to buy it for <0B:00000001>{14}{34}{80}{C0}<0B:00000000> Gald?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -599,7 +599,7 @@ Chef
 Hand them over and I'll whip up
 some {16}{34}{88}{C0}. How about it?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい
 #　いいえ
@@ -648,12 +648,12 @@ I've been waiting for someone like
 you. A chef worthy of receiving
 this.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{34}{88}{C0}のレシピを拾いました
 Picked up the recipe for {16}{34}{88}{C0}.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{34}{9C}{C0}の作り方を覚えました
 Learned how to make {16}{34}{9C}{C0}.
@@ -669,7 +669,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -694,24 +694,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{EA}{C0}を手に入れました
 Acquired {16}{25}{EA}{C0}.
 -----------------------
-notice
+Info
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{F2}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{F2}{C0}, but
 your inventory is full.
 -----------------------
-notice
+Info
 -----------------------
 #何もありません
 There's nothing here.

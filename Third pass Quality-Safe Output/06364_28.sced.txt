@@ -122,7 +122,7 @@ Man
 #聖女の不思議な力とやら
 #一度、目の前で見てみたいものだ
 That mysterious power of the
-Holy Woman... I'd love to see
+Saintess... I'd love to see
 it with my own eyes just once.
 -----------------------
 #おお、こうしちゃおれん！
@@ -160,7 +160,7 @@ Elrane? Who's that?
 She's the current head of the Order
 of Atamoni. They say she can work
 miracles, so they call her the
-'Holy Woman of Radiance'.
+'Saintess of Radiance'.
 -----------------------
 <Loni>
 -----------------------
@@ -563,7 +563,7 @@ Waitress
 #キミキミ、ちょっと{18}{45}{00}{C0}やらない？
 Hey! Want to work as a {18}{45}{00}{C0}?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -573,7 +573,7 @@ No
 #説明は必要かい？
 Need me to explain?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -626,7 +626,7 @@ Thanks to you, I made a killing!
 #キミの取り分だ、受け取ってくれ
 Here's your cut. Take it.
 -----------------------
-notice
+Info
 -----------------------
 #<0B:00000001>{14}{34}{88}{C0}ガルドを手に入れました<0B:00000000>
 <0B:00000001>Acquired {14}{34}{88}{C0} Gald.<0B:00000000>
@@ -707,7 +707,7 @@ H-hey! You?!
 #食べてるときに話しかけないで！
 Don't talk to me while I'm eating!
 -----------------------
-notice
+Info
 -----------------------
 #{15}{24}{86}{C0}は
 #称号「{16}{A0}{75}{08}{24}{86}{CA}{81}{CB}{C0}」を得ました
@@ -725,7 +725,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -750,24 +750,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-notice
+Info
 -----------------------
 #{16}{26}{D2}{C0}を手に入れました
 Acquired {16}{26}{D2}{C0}.
 -----------------------
-notice
+Info
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{26}{DA}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{26}{DA}{C0}, but
 your inventory is full.
 -----------------------
-notice
+Info
 -----------------------
 #何もありません
 There's nothing here.

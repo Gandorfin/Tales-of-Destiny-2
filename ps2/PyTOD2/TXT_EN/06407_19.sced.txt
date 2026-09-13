@@ -76,7 +76,7 @@ I'll pass.
 Here, take these <0B:00000001>{14}{24}{72}{C0}<0B:00000000> Gald.
 Spend it wisely, now.
 -----------------------
-NOTICE
+Info
 -----------------------
 #<0B:00000001>{14}{24}{72}{C0}<0B:00000000>ガルド手に入れました
 Acquired <0B:00000001>{14}{24}{72}{C0}<0B:00000000> Gald.
@@ -86,7 +86,7 @@ Acquired <0B:00000001>{14}{24}{72}{C0}<0B:00000000> Gald.
 Hmph. I'll give you <0B:00000001>{14}{24}{74}{C0}<0B:00000000> Gald.
 Young people have no restraint.
 -----------------------
-NOTICE
+Info
 -----------------------
 #<0B:00000001>{14}{24}{74}{C0}<0B:00000000>ガルド手に入れました
 Acquired <0B:00000001>{14}{24}{74}{C0}<0B:00000000> Gald.
@@ -137,7 +137,7 @@ I can't accept that.
 Here, take these {14}{24}{72}{C0} Gald.
 Spend it wisely, now.
 -----------------------
-NOTICE
+Info
 -----------------------
 #{14}{24}{72}{C0}ガルド手に入れました
 Acquired {14}{24}{72}{C0} Gald.
@@ -147,7 +147,7 @@ Acquired {14}{24}{72}{C0} Gald.
 Hmph. I'll give you <0B:00000001>{14}{24}{74}{C0}<0B:00000000> Gald.
 Young people have no restraint.
 -----------------------
-NOTICE
+Info
 -----------------------
 #<0B:00000001>{14}{24}{74}{C0}<0B:00000000>ガルド手に入れました
 Acquired <0B:00000001>{14}{24}{74}{C0}<0B:00000000> Gald.
@@ -417,7 +417,7 @@ Chef
 Want to learn how
 to make {16}{34}{84}{C0}?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -448,7 +448,7 @@ Chef
 I've got a recipe for {16}{34}{84}{C0}.
 Want to buy it for <0B:00000001>{14}{34}{7C}{C0}<0B:00000000> Gald?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -521,7 +521,7 @@ Chef
 Hand them over and I'll whip up
 some {16}{34}{84}{C0}. How about it?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい
 #　いいえ
@@ -570,12 +570,12 @@ I've been waiting for someone like
 you. A chef worthy of inheriting
 this.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{34}{84}{C0}のレシピを拾いました
 Picked up the recipe for {16}{34}{84}{C0}.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{34}{98}{C0}の作り方を覚えました
 Learned how to make {16}{34}{98}{C0}.
@@ -591,7 +591,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -616,24 +616,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{E6}{C0}を手に入れました
 Acquired {16}{25}{E6}{C0}.
 -----------------------
-notice
+Info
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{EE}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{EE}{C0}, but
 your inventory is full.
 -----------------------
-notice
+Info
 -----------------------
 #何もありません
 There's nothing here.

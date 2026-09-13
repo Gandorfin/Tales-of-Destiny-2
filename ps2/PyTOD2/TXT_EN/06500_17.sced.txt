@@ -4,7 +4,7 @@ Hope Town
 #ホープタウン
 Hope Town
 -----------------------
-NOTICE
+Info
 -----------------------
 #<item:00000041>を手に入れました
 Acquired <item:00000041>.
@@ -72,7 +72,7 @@ King Cook
 Hey, you! Wanna try being a sushi
 chef?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -82,7 +82,7 @@ No
 #説明は必要かい？
 Need me to explain the rules?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -141,7 +141,7 @@ money than I know what to do with.
 #キミの取り分だ、受け取ってくれ
 Here's your cut. Take it.
 -----------------------
-notice
+Info
 -----------------------
 #<0B:00000001>{14}{34}{A4}{C0}ガルドを手に入れました<0B:00000000>
 <0B:00000001>Acquired {14}{34}{A4}{C0} Gald!<0B:00000000>
@@ -197,7 +197,7 @@ and look at this mess!
 <button:0000003A><color:00000008>{18}{45}{98}{C0}
 <0B:00000000>{18}{45}{7C}{C0}
 -----------------------
-notice
+Info
 -----------------------
 #{15}{24}{88}{C0}は
 #称号「{16}{A0}{81}{08}{24}{88}{CA}{81}{CB}{C0}」を得ました
@@ -215,7 +215,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -240,24 +240,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-notice
+Info
 -----------------------
 #{16}{26}{EA}{C0}を手に入れました
 Acquired {16}{26}{EA}{C0}.
 -----------------------
-notice
+Info
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{26}{F2}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{26}{F2}{C0}, but
 your inventory is full.
 -----------------------
-notice
+Info
 -----------------------
 #何もありません
 There's nothing here.

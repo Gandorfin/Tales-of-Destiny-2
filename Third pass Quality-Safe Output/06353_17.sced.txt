@@ -77,7 +77,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -102,24 +102,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{BA}{C0}を手に入れました
 Acquired {16}{25}{BA}{C0}.
 -----------------------
-notice
+Info
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{C2}{C0}, but
 your inventory is full.
 -----------------------
-notice
+Info
 -----------------------
 #何もありません
 There's nothing here.
@@ -148,7 +148,7 @@ may sometimes carry over.
 One bottle costs <0B:00000001>{14}{35}{CC}{C0}<0B:00000000> Gald.
 Would you like to buy <item:00000012>?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　買う　
 #　<0B:00000001>{14}{25}{D6}{C0}本まとめて買う（{14}{35}{D0}{C0}ガルド）<0B:00000000>　
@@ -159,7 +159,7 @@ Buy in bulk: <0B:00000001>{14}{25}{D6}{C0} ({14}{35}{D0}{C0}<0B:00000000> Gald)
 Refine Guide
 No thanks
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　買う　
 #　リファイン講座　
@@ -182,7 +182,7 @@ Thank you for your purchase.
 Would you like to hear
 the Refine Guide?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　聞きたい　
 #　聞きたくない　
@@ -192,7 +192,7 @@ No
 #何について知りたいですか？
 What would you like to know?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　４、スロットについて　
 #　５、装飾品のリファイン　
@@ -203,7 +203,7 @@ select
 6. Equipment That Cannot Be Refined
 Previous Page
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　１、リファインとは
 #　２、アイテムの変化　　　　　　　　　　
@@ -474,7 +474,7 @@ Blacksmith
 #私は鍛冶屋です
 I'm a blacksmith.
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>どうしますか？
 #　開発援助　
@@ -511,7 +511,7 @@ I'm counting on you.
 I feel like my skills
 have improved lately.
 -----------------------
-notice
+Info
 -----------------------
 #鍛冶屋は{18}{45}{E0}{C0}になりました
 The blacksmith has become {18}{45}{E0}{C0}.
@@ -609,7 +609,7 @@ Acquired <item:FFFFFFFF>.
 #アイテムがいっぱいで持てません
 Can't carry any more items.
 -----------------------
-notice
+Info
 -----------------------
 #<03:00000000>現在、{18}{45}{DC}{C0}です
 #完成まで<0B:00000001>{14}{26}{04}{C0}分{14}{26}{02}{C0}<0B:00000000>秒かかります
@@ -621,7 +621,7 @@ Will take <0B:00000001>{14}{26}{04}{C0} min. {14}{26}{02}{C0}<0B:00000000> sec. 
 How much will you contribute?
 <size:00000100>Current funds: <0B:00000001>{14}{34}{04}{C0} Gald<0B:00000000>
 -----------------------
-select
+Option
 -----------------------
 #<0B:00000001><03:00000000>　　　1000ガルド
 #　　10000ガルド
@@ -635,7 +635,7 @@ select
 #お金が足りません
 Not enough money.
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000><0B:00000001>{14}{36}{08}{C0}<0B:00000000>ガルド援助してよろしいですか？
 #はいはい、ドーンといっちゃってください
@@ -658,7 +658,7 @@ We have sufficient funds.
 Currently at {18}{45}{DC}{C0}.
 Was there something you needed?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　変更する　
 #　製作をやめる　
@@ -670,14 +670,14 @@ Never mind
 #何を製作しますか？{02}
 What would you like to craft?{02}
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　武器　
 #　防具　
 <03:00000000> Weapons
 Armor
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　剣（<Kyle>、<Judas>用）　
 #　両手（<Loni>用）　
@@ -688,7 +688,7 @@ Two-handed (for <Loni>)
 Staff (for <Reala>, <Harold>)
 Bow (for <Nanaly>)
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　鎧（<Kyle>、<Loni>、<Judas>用）　
 #　服（<Reala>、<Nanaly>、<Harold>用）　
@@ -699,7 +699,7 @@ Clothing (for <Reala>, <Nanaly>, <Harold>)
 Helmet (for <Kyle>, <Loni>, <Judas>)
 Crown (for <Reala>, <Nanaly>, <Harold>)
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>製作してよろしいですか？
 #　はい　
@@ -714,7 +714,7 @@ Starting equipment production.
 #製作資金が足りません
 Insufficient production funds.
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>現在の製作をやめます
 #　はい　
@@ -729,9 +729,9 @@ No
 #<03:00000000>現在の製作を続行します
 <03:00000000>Continue current production?
 -----------------------
-notice
+Info
 -----------------------
-notice
+Info
 -----------------------
 #<03:00000000>鍛冶屋はプレイヤーが援助した
 #資金を使って修行に励みます
@@ -740,7 +740,7 @@ notice
 the funds you provide, gaining
 levels through experience.
 -----------------------
-notice
+Info
 -----------------------
 #<03:00000000>レベルアップすると高い能力の
 #装備品を作れるようになります
@@ -749,14 +749,14 @@ notice
 gear with higher stats and also
 increases production speed.
 -----------------------
-notice
+Info
 -----------------------
 #<03:00000000>開発援助で鍛冶屋に資金援助を行います
 #資金は開発費としてプールされます
 <03:00000000>Development Aid provides funds.
 Funds go to the development pool.
 -----------------------
-notice
+Info
 -----------------------
 #<03:00000000>開発資金は時間とともに消費されます
 #また鍛冶屋に装備品の製作を
@@ -765,7 +765,7 @@ notice
 over time and when you commission
 equipment from the blacksmith.
 -----------------------
-notice
+Info
 -----------------------
 #<03:00000000>製作依頼した装備品は完成までに
 #一定の期間を要しますが、
@@ -776,7 +776,7 @@ takes time to complete.
 Higher-stat gear takes
 longer to finish.
 -----------------------
-notice
+Info
 -----------------------
 #<03:00000000>最後に鍛冶屋の修行は
 #とても時間が掛かりますので、

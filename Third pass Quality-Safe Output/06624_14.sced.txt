@@ -7,21 +7,21 @@ Catacombs - Altar of Death
 #カタコンベ
 Catacombs
 -----------------------
-NOTICE
+Info
 -----------------------
 #石碑の文字が削り取られており
 #読む事が出来ません
 The monument's text was scraped off.
 It cannot be read.
 -----------------------
-NOTICE
+Info
 -----------------------
 #白骨のわきに
 #メモが落ちています
 Beside the skeleton
 lies a memo.
 -----------------------
-NOTICE
+Info
 -----------------------
 #『ロウソク････火を撃ち込め････』
 #『ただし順番････』
@@ -30,7 +30,7 @@ NOTICE
 "But the order..."
 "That inscription...is wrong..."
 -----------------------
-NOTICE
+Info
 -----------------------
 #どこかから
 #鐘が落ちる音が聞こえました
@@ -48,7 +48,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -73,24 +73,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-notice
+Info
 -----------------------
 #{16}{27}{4A}{C0}を手に入れました
 Acquired {16}{27}{4A}{C0}.
 -----------------------
-notice
+Info
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{27}{52}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{27}{52}{C0}, but
 your inventory is full.
 -----------------------
-notice
+Info
 -----------------------
 #何もありません
 There's nothing here.

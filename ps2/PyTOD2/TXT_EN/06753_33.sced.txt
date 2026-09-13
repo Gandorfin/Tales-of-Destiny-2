@@ -952,7 +952,7 @@ Oh, right...
 #「二人の聖女」なのかい？
 By the way, <Reala>...you wouldn't
 happen to be one of the 'two
-Holy Women', would you?
+Saintesses', would you?
 -----------------------
 <Nanaly>
 -----------------------
@@ -1017,7 +1017,7 @@ But he's bound to find out
 someday. And when that
 day comes, I...
 -----------------------
-notice
+Info
 -----------------------
 #<Reala>は
 #称号「<item:00000823>」を得ました
@@ -1438,7 +1438,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -1463,24 +1463,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-notice
+Info
 -----------------------
 #{16}{26}{E6}{C0}を手に入れました
 Acquired {16}{26}{E6}{C0}.
 -----------------------
-notice
+Info
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{26}{EE}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{26}{EE}{C0}, but
 your inventory is full.
 -----------------------
-notice
+Info
 -----------------------
 #何もありません
 There's nothing here.

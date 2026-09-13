@@ -57,19 +57,19 @@ Katz
 #かからないニャ～････
 It won't hit, meow～...
 -----------------------
-NOTICE
+Info
 -----------------------
 #おさいせんをいれますか？
 Will you make an offering?
 -----------------------
-SELECT
+Option
 -----------------------
 #<03:00000000>　いれます　
 #　いれません　
 <03:00000000> Yes
 No
 -----------------------
-NOTICE
+Info
 -----------------------
 #お金が足りません
 Not enough money.
@@ -229,7 +229,7 @@ Mushroom shop
 Noko mushrooms.
 Want a bite, meow?
 -----------------------
-SELECT
+Option
 -----------------------
 #<03:00000000>　食べるニャ　
 #　食べないニャ　
@@ -345,12 +345,12 @@ have you give me a name, myu～
 ...Please, myu.
 I want you to give me a name, myu.
 -----------------------
-NOTICE
+Info
 -----------------------
 #名前をつけてあげますか？
 Would you like to give it a name?
 -----------------------
-SELECT
+Option
 -----------------------
 #<03:00000000>　つける　
 #　つけない　
@@ -362,7 +362,7 @@ Don't name it
 Thanks, myu～
 Think up a cool name, myu!
 -----------------------
-notice
+Info
 -----------------------
 #どんな名前がいいか
 #しばらく考えることにしました
@@ -383,21 +383,21 @@ Katz Kitten
 #名前きまったミュ？
 Have you decided on a name, myu?
 -----------------------
-SELECT
+Option
 -----------------------
 #<03:00000000>　きまった　
 #　きまってない　
 <03:00000000> I've decided
 Not yet
 -----------------------
-notice
+Info
 -----------------------
 #名前は『<item:00000C02>』
 #でよろしいですか？
 The name will be '<item:00000C02>'.
 Is that acceptable?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -437,7 +437,7 @@ Mushroom shop
 #どうぞニャ
 Here you go, meow.
 -----------------------
-notice
+Info
 -----------------------
 #回復しました
 Recovered.
@@ -453,7 +453,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -478,24 +478,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{E2}{C0}を手に入れました
 Acquired {16}{25}{E2}{C0}.
 -----------------------
-notice
+Info
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{EA}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{EA}{C0}, but
 your inventory is full.
 -----------------------
-notice
+Info
 -----------------------
 #何もありません
 There's nothing here.

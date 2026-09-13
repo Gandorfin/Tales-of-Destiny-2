@@ -7,12 +7,12 @@ Catacombs - Altar of Darkness
 #カタコンベ
 Catacombs
 -----------------------
-NOTICE
+Info
 -----------------------
 #石碑に文字が書かれています
 There is writing on the monument.
 -----------------------
-NOTICE
+Info
 -----------------------
 #１：『罪』に苦しみ
 #２：『罰』を受け
@@ -23,14 +23,14 @@ NOTICE
 3: Face 'Death'
 4: Fall into 'Darkness'
 -----------------------
-NOTICE
+Info
 -----------------------
 #ソーサラースコープを使って
 #隠された文字を見つけ出しました
 Using the Sorcerer's Scope,
 I found hidden writing.
 -----------------------
-NOTICE
+Info
 -----------------------
 #１：『闇』に堕ち
 #２：『罰』を受け
@@ -41,14 +41,14 @@ NOTICE
 3: Atonement for 'Sin'
 4: Welcome 'Death'
 -----------------------
-NOTICE
+Info
 -----------------------
 #ソーサラースコープを使って
 #隠された文字を見つけ出しました
 Using the Sorcerer's Scope,
 I found hidden writing.
 -----------------------
-NOTICE
+Info
 -----------------------
 #１：『闇』に堕ち
 #２：『罰』を受け
@@ -70,7 +70,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -95,24 +95,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-notice
+Info
 -----------------------
 #{16}{27}{4A}{C0}を手に入れました
 Acquired {16}{27}{4A}{C0}.
 -----------------------
-notice
+Info
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{27}{52}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{27}{52}{C0}, but
 your inventory is full.
 -----------------------
-notice
+Info
 -----------------------
 #何もありません
 There's nothing here.

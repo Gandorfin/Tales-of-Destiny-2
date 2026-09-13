@@ -671,7 +671,7 @@ Please...tell me it's a lie.
 #いいえ････二人の聖女は
 #神より生み出されしもの
 #いうなれば神の化身････
-No... The two Holy Women were
+No... The two Saintesses were
 born from God. We are, in essence,
 incarnations of the divine...
 -----------------------
@@ -791,7 +791,7 @@ Let's head back for now...
 ......
 ......
 -----------------------
-notice
+Info
 -----------------------
 #<Reala>は
 #称号「<item:0000082D>」を得ました
@@ -809,7 +809,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -834,24 +834,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-notice
+Info
 -----------------------
 #{16}{28}{86}{09}{C0}を手に入れました
 Acquired {16}{28}{86}{09}{C0}.
 -----------------------
-notice
+Info
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{28}{8E}{09}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{28}{8E}{09}{C0}, but your
 inventory is full.
 -----------------------
-notice
+Info
 -----------------------
 #何もありません
 There's nothing here.

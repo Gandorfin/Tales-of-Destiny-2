@@ -4,19 +4,19 @@ Neuestadt Coliseum
 #ノイシュタット
 Neuestadt
 -----------------------
-NOTICE
+Info
 -----------------------
 #『闘技場・必勝方法』
 "Coliseum: How to Win"
 -----------------------
-NOTICE
+Info
 -----------------------
 #『闘技場で何よりも大切なのは持久力です
 #　ＨＰを上げて戦いに望みましょう』
 "In the coliseum, stamina is vital.
 Raise your HP before you fight".
 -----------------------
-NOTICE
+Info
 -----------------------
 #『リバースドールは必携です
 #　所持最大数まで確保して
@@ -25,7 +25,7 @@ NOTICE
 Stock up to your carry limit
 and keep it equipped at all times."
 -----------------------
-NOTICE
+Info
 -----------------------
 #『レベルが低いうちは、スロット装備の補助効果を
 #　有効に活用しましょう
@@ -34,7 +34,7 @@ NOTICE
 slot gear's support effects.
 Poison and flee; that's valid too".
 -----------------------
-NOTICE
+Info
 -----------------------
 #『闘技場ではアイテムの使用が不可な他、
 #　戦闘開始後約１０秒が経過すると
@@ -59,13 +59,13 @@ This is the coliseum.
 Would you like to
 fight in the coliseum?
 -----------------------
-select
+Option
 -----------------------
 <03:00000000>{18}{44}{6C}{C0}
 {18}{44}{70}{C0}
 {18}{44}{74}{C0}
 -----------------------
-select
+Option
 -----------------------
 <03:00000000>{18}{44}{6C}{C0}
 {18}{44}{70}{C0}
@@ -76,7 +76,7 @@ select
 #難易度を選んで下さい
 Please select a difficulty.
 -----------------------
-select
+Option
 -----------------------
 <03:00000000>{18}{44}{6C}{C0}
 {18}{44}{70}{C0}
@@ -86,7 +86,7 @@ select
 #誰と誰が参加しますか？
 Who will be participating?
 -----------------------
-select
+Option
 -----------------------
 <03:00000000>{18}{44}{6C}{C0}
 {18}{44}{70}{C0}
@@ -95,7 +95,7 @@ select
 #誰と誰が参加しますか？
 Who will be participating?
 -----------------------
-select
+Option
 -----------------------
 <03:00000000>{18}{44}{6C}{C0}
 {18}{44}{70}{C0}
@@ -107,7 +107,7 @@ select
 #誰が参加しますか？
 Who will be participating?
 -----------------------
-select
+Option
 -----------------------
 <03:00000000>{18}{44}{6C}{C0}
 {18}{44}{70}{C0}
@@ -283,7 +283,7 @@ Guide Maid
 Welcome to the arena. Is there
 anything you'd like to know?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　特に聞きたいことはない　
 #　闘技場について　
@@ -679,7 +679,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -704,24 +704,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{D6}{C0}を手に入れました
 Acquired {16}{25}{D6}{C0}.
 -----------------------
-notice
+Info
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{DE}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{DE}{C0}, but
 your inventory is full.
 -----------------------
-notice
+Info
 -----------------------
 #何もありません
 There's nothing here.

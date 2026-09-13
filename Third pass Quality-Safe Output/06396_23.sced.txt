@@ -648,7 +648,7 @@ Boy
 Hey, mister...
 Have you ever seen a god before?
 -----------------------
-select
+Option
 -----------------------
 #　あるよ　
 #　ないよ　
@@ -732,7 +732,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -757,24 +757,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{BA}{C0}を手に入れました
 Acquired {16}{25}{BA}{C0}.
 -----------------------
-notice
+Info
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{C2}{C0}, but
 your inventory is full.
 -----------------------
-notice
+Info
 -----------------------
 #何もありません
 There's nothing here.
@@ -785,7 +785,7 @@ Veteran
 #ひよっこ
 Rookie
 -----------------------
-notice
+Info
 -----------------------
 #「武器攻撃」について
 #話し合っているようです
@@ -856,7 +856,7 @@ Successful guarding recovers a
 lot of SP, so guarding with <button:00000047> is
 important too.
 -----------------------
-notice
+Info
 -----------------------
 #「特技」について
 #話し合っているようです
@@ -909,7 +909,7 @@ Plus, if you take out multiple
 enemies together during a combo,
 you'll recover even more TP.
 -----------------------
-notice
+Info
 -----------------------
 #「エンチャント」について
 #話し合っているようです
@@ -1001,7 +1001,7 @@ HP is below 50%. Be careful!!
 Sure, you can use it on a scratch,
 but it won't count as experience.
 -----------------------
-notice
+Info
 -----------------------
 #「戦闘の作戦」について
 #話し合っているようです
@@ -1062,7 +1062,7 @@ character's strengths and the
 enemy you're facing should
 lead to more efficient fights.
 -----------------------
-notice
+Info
 -----------------------
 #「テクニカルスマッシュ」
 #について話し合っているようです
@@ -1125,7 +1125,7 @@ SP, which is a concern, but
 mastering finishing blows is
 the path to true expertise.
 -----------------------
-notice
+Info
 -----------------------
 #「スピリッツ」について
 #話し合っているようです
@@ -1181,7 +1181,7 @@ colors mean higher SP. You can
 gauge an enemy's SP mid-fight
 just by watching the cursor.
 -----------------------
-notice
+Info
 -----------------------
 #「連続ヒット」について
 #話し合っているようです
@@ -1239,7 +1239,7 @@ everyone down. Once again,
 balancing Magic Artes and
 Base Artes is what matters.
 -----------------------
-notice
+Info
 -----------------------
 #「影響エリア」について
 #話し合っているようです
@@ -1293,7 +1293,7 @@ Overly Veteran
 #息子
 Son
 -----------------------
-notice
+Info
 -----------------------
 #「ステータス変化」について
 #話し合っているようです
@@ -1382,7 +1382,7 @@ Overly Veteran
 #息子
 Son
 -----------------------
-notice
+Info
 -----------------------
 #「スピリッツブラスター」
 #について話し合っているようです
@@ -1490,7 +1490,7 @@ Overly Veteran
 #息子
 Son
 -----------------------
-notice
+Info
 -----------------------
 #「フィールドオブエフェクト」
 #について話し合っているようです
@@ -1557,7 +1557,7 @@ the sun. It's quite troubling.
 (A little late to
 mention that, Dad...)
 -----------------------
-notice
+Info
 -----------------------
 #「バトルグレード」について
 #話し合っているようです
@@ -1621,7 +1621,7 @@ That's all there is to it.
 As expected of you,
 Senior. I've learned a lot.
 -----------------------
-notice
+Info
 -----------------------
 #「受身」について
 #話し合っているようです
@@ -1657,7 +1657,7 @@ recover too. Isn't that great?
 #もももももちろん知ってたさ
 O-o-o-of course I knew that.
 -----------------------
-notice
+Info
 -----------------------
 #「戦闘難易度」について
 #話し合っているようです
@@ -1716,7 +1716,7 @@ difficulty, so if you want
 a bit more challenge, I'd
 recommend giving it a try.
 -----------------------
-notice
+Info
 -----------------------
 #「通常攻撃」について
 #深く話し合っているようです
@@ -1806,7 +1806,7 @@ so if you've already got your
 hands full with other rules, don't
 force yourself to memorize all this.
 -----------------------
-notice
+Info
 -----------------------
 #「長い話」について
 #話し合っているようです
@@ -1851,7 +1851,7 @@ I'm telling you now.
 #納得さ
 Makes sense to me.
 -----------------------
-notice
+Info
 -----------------------
 #「アイテム拾得」について
 #話し合っているようです
@@ -1935,7 +1935,7 @@ That happens too. The important
 thing is to go on adventures that
 match your own adventuring style.
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　

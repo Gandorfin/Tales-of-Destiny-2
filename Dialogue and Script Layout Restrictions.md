@@ -175,6 +175,14 @@ When revising a record, use the following priorities:
 
 Do not shorten text simply to satisfy an obsolete line-count restriction when the current renderer limits allow a fuller and more natural translation.
 
+### Preferred Dialogue Shape
+
+Within the limits above, balance consecutive lines so the text box narrows
+toward the bottom. Prefer an upper line that is at least as wide as the line
+below it, and avoid conspicuous alternating long/short/long “E-shaped” blocks.
+This is a presentation preference, not permission to change exact-structure
+records, control codes, meaning, or safe runtime structure.
+
 ### Current Safe-Layout Summary
 
 ```text

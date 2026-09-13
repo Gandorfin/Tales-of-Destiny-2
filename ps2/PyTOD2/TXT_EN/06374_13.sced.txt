@@ -4,7 +4,7 @@ Straylize Ruins
 #ストレイライズ遺跡
 Straylize Ruins
 -----------------------
-NOTICE
+Info
 -----------------------
 #この壁は何かで衝撃を加えれば壊せそうです
 This wall looks breakable if struck.
@@ -31,37 +31,37 @@ it...
 Doesn't this mean 'something yellow
 comes fourth'?
 -----------------------
-NOTICE
+Info
 -----------------------
 #『１』の数字の先に『青色の宝玉』が置かれている
 A blue gem lies beyond the '1'.
 -----------------------
-NOTICE
+Info
 -----------------------
 #『２』の数字の先に『白い色の宝玉』が置かれている
 A white gem lies beyond the '2'.
 -----------------------
-NOTICE
+Info
 -----------------------
 #『３』の数字の先に『緑色の宝玉』が置かれている
 A green gem lies beyond the '3'.
 -----------------------
-NOTICE
+Info
 -----------------------
 #『４』の数字の先に『黄色の宝玉』が置かれている
 A yellow gem lies beyond the '4'.
 -----------------------
-NOTICE
+Info
 -----------------------
 #『５』の数字の先に『赤色の宝玉』が置かれている
 A red gem lies beyond the '5'.
 -----------------------
-NOTICE
+Info
 -----------------------
 #『６』の数字の先に『灰色の宝玉』が置かれている
 A gray gem lies beyond the '6'.
 -----------------------
-NOTICE
+Info
 -----------------------
 #『７』の数字の先に『紫色の宝玉』が置かれている
 A purple gem lies beyond the '7'.
@@ -77,7 +77,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -102,24 +102,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{BA}{C0}を手に入れました
 Acquired {16}{25}{BA}{C0}.
 -----------------------
-notice
+Info
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{C2}{C0}, but
 your inventory is full.
 -----------------------
-notice
+Info
 -----------------------
 #何もありません
 There's nothing here.

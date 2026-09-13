@@ -1139,7 +1139,7 @@
   },
   {
    "group": "status_description_remaining",
-   "label": "Heroine Reala",
+   "label": "Reala's Hero",
    "pointer_offset": 806244,
    "offset": 1097082,
    "old_text": "あなただったのね\\\\\\\\<line>わたしが探し求めていた、あなた\\\\\\\\<line>わたしの英雄\\\\\\\\",
@@ -2038,7 +2038,7 @@
    "offset": 1106389,
    "old_hex": "99FA99CE9A5499ED99CA99EF9AAA999D9C41997999BD99A7999199BC99A09E649B5A01998F99BE997D9A8599CD9A549A5599C99A5D999A070200000000",
    "new_hex": "54776F20686F6C79206D616964656E7320736572766520466F7274756E613A01456C7261696E6520616E64205265616C612E0000000000000000000000",
-   "display": "Two holy maidens serve Fortuna:<line>Elraine and Reala."
+   "display": "Two saintesses serve Fortuna:<line>Elraine and Reala."
   },
   {
    "group": "status_description",

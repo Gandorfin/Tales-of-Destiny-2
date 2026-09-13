@@ -10,7 +10,7 @@ Old Darilsheid
 #古都ダリルシェイド
 Old Darilsheid
 -----------------------
-NOTICE
+Info
 -----------------------
 #<item:0000004C>、<item:0000005B>、<item:00000069>を
 #手に入れました
@@ -42,7 +42,7 @@ managed by Straylize Temple.
 All-Purpose Equipment Shop:
 Weapon Repair and Sales
 -----------------------
-NOTICE
+Info
 -----------------------
 #石碑に文字が彫られています
 Writing is carved on the monument.
@@ -52,14 +52,14 @@ Writing is carved on the monument.
 #読んだげよっか？
 Want me to read it for you?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　読んでもらう　
 #　興味無い　
 <03:00000000> Have her read it
 Not interested
 -----------------------
-NOTICE
+Info
 -----------------------
 #砂漠の大陸、燃え盛る火の中
 #白く険しき山の中腹
@@ -70,7 +70,7 @@ On a stark white mountainside
 Above an idol sunk at sea
 Megalithic Civilization Remnant 1
 -----------------------
-NOTICE
+Info
 -----------------------
 #巨石文明の名残２
 #深き緑に覆われし湖のほとり
@@ -81,7 +81,7 @@ By a lake veiled in deep green
 White isle, garden unvisited
 A circle carved in foreign earth
 -----------------------
-NOTICE
+Info
 -----------------------
 #霧の混じる島
 #地図に載らぬ島
@@ -92,7 +92,7 @@ An island uncharted on maps
 Behind a small hut
 Islands beyond the reach of man
 -----------------------
-NOTICE
+Info
 -----------------------
 #霧深き大地で最も高き所にある草原
 #霧深き山の懐
@@ -102,7 +102,7 @@ Highest meadow in the misty land
 Within the mist-shrouded mountains
 There, obtain the token of ill omen
 -----------------------
-NOTICE
+Info
 -----------------------
 #石碑に文字が彫られていますが
 #難しくて読めません
@@ -684,14 +684,14 @@ If there's still something
 you can do...
 I don't think you should run away.
 -----------------------
-NOTICE
+Info
 -----------------------
 #王城はガレキに押しつぶされています
 #これ以上、進むことは出来ません････
 The castle lies crushed by rubble.
 You cannot go any farther...
 -----------------------
-NOTICE
+Info
 -----------------------
 #王城はガレキに押しつぶされています
 #これ以上、進むことは出来ません････
@@ -885,7 +885,7 @@ Card Man
 Care to challenge me to a game of
 Concentration?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　勝負する　
 #　しない　
@@ -898,7 +898,7 @@ Card Man
 #ルールを聞くかね？
 Care to hear the rules?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　聞く　
 #　聞かない　
@@ -1003,7 +1003,7 @@ Card Man
 #また、やろうな！
 Let's do this again sometime!
 -----------------------
-notice
+Info
 -----------------------
 #<Kyle>は
 #称号「<item:00000889>」を得ました
@@ -1021,7 +1021,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -1046,24 +1046,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{BA}{C0}を手に入れました
 Acquired {16}{25}{BA}{C0}.
 -----------------------
-notice
+Info
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{C2}{C0}, but
 your inventory is full.
 -----------------------
-notice
+Info
 -----------------------
 #何もありません
 There's nothing here.
@@ -1074,7 +1074,7 @@ Veteran
 #ひよっこ
 Rookie
 -----------------------
-notice
+Info
 -----------------------
 #「武器攻撃」について
 #話し合っているようです
@@ -1144,7 +1144,7 @@ You'll recover a lot of SP when you
 guard successfully, so guarding with
 <button:00000047> is important too.
 -----------------------
-notice
+Info
 -----------------------
 #「特技」について
 #話し合っているようです
@@ -1199,7 +1199,7 @@ Plus, if you finish them off
 while they're linked together,
 you'll recover even more TP.
 -----------------------
-notice
+Info
 -----------------------
 #「エンチャント」について
 #話し合っているようです
@@ -1289,7 +1289,7 @@ below 50%. Keep that in mind!!
 Yeah, using them on a scratch
 won't teach you a thing.
 -----------------------
-notice
+Info
 -----------------------
 #「戦闘の作戦」について
 #話し合っているようです
@@ -1351,7 +1351,7 @@ strengths and the enemy you're
 facing, and you'll be able to
 fight much more efficiently.
 -----------------------
-notice
+Info
 -----------------------
 #「テクニカルスマッシュ」
 #について話し合っているようです
@@ -1414,7 +1414,7 @@ they burn SP, but mastering
 finishers is what separates
 the pros from the amateurs.
 -----------------------
-notice
+Info
 -----------------------
 #「スピリッツ」について
 #話し合っているようです
@@ -1470,7 +1470,7 @@ the cursor color, the higher
 their SP. You can gauge an
 enemy's SP mid-fight that way.
 -----------------------
-notice
+Info
 -----------------------
 #「連続ヒット」について
 #話し合っているようです
@@ -1528,7 +1528,7 @@ everyone down. Here too, the
 balance between Magic Artes and
 Base Artes is what matters most.
 -----------------------
-notice
+Info
 -----------------------
 #「影響エリア」について
 #話し合っているようです
@@ -1585,7 +1585,7 @@ Overly Veteran
 #息子
 Son
 -----------------------
-notice
+Info
 -----------------------
 #「ステータス変化」について
 #話し合っているようです
@@ -1674,7 +1674,7 @@ Overly Veteran
 #息子
 Son
 -----------------------
-notice
+Info
 -----------------------
 #「スピリッツブラスター」
 #について話し合っているようです
@@ -1783,7 +1783,7 @@ Overly Veteran
 #息子
 Son
 -----------------------
-notice
+Info
 -----------------------
 #「フィールドオブエフェクト」
 #について話し合っているようです
@@ -1849,7 +1849,7 @@ everything. It's quite troubling.
 (You're a little late
 to say that, Dad...)
 -----------------------
-notice
+Info
 -----------------------
 #「バトルグレード」について
 #話し合っているようです
@@ -1913,7 +1913,7 @@ Focus on honing your own skills.
 As expected of you, Senpai.
 I'm learning so much.
 -----------------------
-notice
+Info
 -----------------------
 #「受身」について
 #話し合っているようです
@@ -1949,7 +1949,7 @@ and TP. Feels great, doesn't it?
 #もももももちろん知ってたさ
 O-o-o-o-o-of course I knew that.
 -----------------------
-notice
+Info
 -----------------------
 #「戦闘難易度」について
 #話し合っているようです
@@ -2004,7 +2004,7 @@ SECOND is a nice middle ground,
 so if you want a bit more challenge,
 I'd say it's worth a shot.
 -----------------------
-notice
+Info
 -----------------------
 #「通常攻撃」について
 #深く話し合っているようです
@@ -2094,7 +2094,7 @@ so if other rules have you
 swamped, don't force yourself
 to memorize all this.
 -----------------------
-notice
+Info
 -----------------------
 #「長い話」について
 #話し合っているようです
@@ -2139,7 +2139,7 @@ which is why I'm telling you now.
 #納得さ
 Makes sense to me.
 -----------------------
-notice
+Info
 -----------------------
 #「アイテム拾得」について
 #話し合っているようです
@@ -2219,7 +2219,7 @@ That's also true. The
 important thing is to find an
 adventure style that suits you.
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　

@@ -55,7 +55,7 @@ offset,pointers,japanese,english
 0x113D08,0xD74E8,迷子札,ID Tag
 0x113CFD,0xD74EC,美女と信仰,Beauty and Faith
 0x113CEA,0xD74F0,ふたつのペンダント,Two Pendants
-0x113CE1,0xD74F4,聖女遭遇,Meeting a Holy Woman
+0x113CE1,0xD74F4,聖女遭遇,Meeting a Saintess
 0x113CDA,0xD74F8,大神殿,Grand Temple
 0x113CC9,0xD74FC,気まずい神団騎士,Awkward Order Knight
 0x113CC0,0xD7500,奇跡の女,Woman of Miracles
@@ -188,11 +188,11 @@ offset,pointers,japanese,english
 0x1135F5,0xD7710,突入,Charge
 0x1135E8,0xD7714,とらわれの姫,Captive Princess
 0x1135DD,0xD7718,レンズの力,Power of the Lens
-0x1135CE,0xD771C,飛行竜を追え！,Chase the Flying Dragon!
+0x1135CE,0xD771C,飛行竜を追え！,Chase the Draconis!
 0x1135C1,0xD7720,消えた彼女１,She Vanished 1
 0x1135B4,0xD7724,私だけの英雄,My Own Hero
 0x1135AD,0xD7728,次の手,Next Move
-0x1135A0,0xD772C,飛行竜の中で,Inside the Flying Dragon
+0x1135A0,0xD772C,飛行竜の中で,Inside the Draconis
 0x113593,0xD7730,レンズは!?１,The Lens!? 1
 0x113580,0xD7734,未来から来た彼女１,She Came From the Future 1
 0x11356F,0xD7738,傷ついた英雄王１,Wounded Hero King 1
@@ -200,14 +200,14 @@ offset,pointers,japanese,english
 0x11354D,0xD7740,彼は何でも知っている,He Knows Everything
 0x113548,0xD7744,番犬,Watchdog
 0x113537,0xD7748,制御装置を探せ１,Find the Control Device 1
-0x113524,0xD774C,飛行竜からの脱出１,Escape the Flying Dragon 1
-0x113511,0xD7750,飛行竜からの脱出２,Escape the Flying Dragon 2
+0x113524,0xD774C,飛行竜からの脱出１,Escape the Draconis 1
+0x113511,0xD7750,飛行竜からの脱出２,Escape the Draconis 2
 0x1134FC,0xD7754,地上軍拠点跡地にて１,At the Er'ther Base Ruins 1
 0x1134E7,0xD7758,地上軍拠点跡地にて２,At the Er'ther Base Ruins 2
 0x1134D6,0xD7760,制御装置を探せ２,Find the Control Device 2
 0x1134BB,0xD7764,ソーサラースコープ使用方法,Using the Sorcerer's Scope
-0x1134A8,0xD7768,飛行竜からの脱出３,Escape the Flying Dragon 3
-0x113495,0xD776C,飛行竜からの脱出４,Escape the Flying Dragon 4
+0x1134A8,0xD7768,飛行竜からの脱出３,Escape the Draconis 3
+0x113495,0xD776C,飛行竜からの脱出４,Escape the Draconis 4
 0x113484,0xD7770,改変された世界１,Altered World 1
 0x113473,0xD7774,改変された世界２,Altered World 2
 0x113468,0xD7778,天高き城１,Castle in the Sky 1
@@ -262,8 +262,8 @@ offset,pointers,japanese,english
 0x11318A,0xD783C,<Reala>の迷い,<Reala>'s Doubt
 0x11317F,0xD7840,天高き城３,Castle in the Sky 3
 0x113173,0xD7844,<Reala>の決心,<Reala>'s Resolve
-0x113168,0xD7848,未開の森１,Untamed Forest 1
-0x11315D,0xD784C,未開の森２,Untamed Forest 2
+0x113168,0xD7848,未開の森１,Wildwood 1
+0x11315D,0xD784C,未開の森２,Wildwood 2
 0x113152,0xD7850,ガルムの牙,Garm's Fang
 0x113142,0xD7854,<Kyle>精神世界１,<Kyle>'s Mindscape 1
 0x113132,0xD7858,<Kyle>精神世界２,<Kyle>'s Mindscape 2

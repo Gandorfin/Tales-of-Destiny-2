@@ -20,6 +20,15 @@ except Exception:
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import md1text as M, md1patch as P, pak3, lzss
 
+FORMER_TRANSLATIONS = {
+    ('06807.md1', 0x7670): 'K.O.',
+    ('09028.pak0', 0x100350): ('Fire the anchor into the Flying Dragon!\n'
+                               'Jump across onto its back!\nReady?'),
+    ('09030.pak0', 0x101427): 'Crimson Speranza',
+    ('09030.pak0', 0x10143C): 'Twilight Realta',
+    ('09030.pak0', 0x10146A): 'Sea Cave',
+}
+
 def resolve_folder(given):
     """Accept the extracted FPB folder, or a folder containing one."""
     if os.path.isfile(given):
@@ -70,7 +79,10 @@ def main():
             if not r: errs.append(f"0x{off:X} decode failed"); continue
             got,end,_=r
             if got==en: done+=1; continue                       # already translated
-            if got!=jp: errs.append(f"0x{off:X} expected {ascii(jp[:16])} found {ascii(got[:16])}"); continue
+            former = FORMER_TRANSLATIONS.get((name, off))
+            if got != jp and got != former:
+                errs.append(f"0x{off:X} expected {ascii(jp[:16])} found {ascii(got[:16])}")
+                continue
             avail=P.budget(orig,off,end-off); enc=P.encode(en)
             if len(enc)>avail: errs.append(f"0x{off:X} {len(enc)} > {avail} bytes"); continue
             pending.append((off,avail,enc))

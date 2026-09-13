@@ -44,7 +44,7 @@ Ah, you there! Just like "the
 cat-loving old man", I shall bestow
 upon you a splendid title!
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　お願いします　
 #　遠慮します　
@@ -78,7 +78,7 @@ Now then, I shall bestow upon you
 all a title as splendid as "the
 cat-loving old man".
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　お願いします　
 #　遠慮します　
@@ -150,7 +150,7 @@ I'm collecting cat accessories!
 There's a famous Aquaveil specialty
 called "<item:00000030>" that I want...
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　<item:00000030>をあげる　
 #　<item:00000030>をあげない　
@@ -165,7 +165,7 @@ Cat-Loving Old Man
 Oh! Is that really true?!
 Mmm～ Kitty-cat～ ♪
 -----------------------
-notice
+Info
 -----------------------
 #<item:00000030>をあげました
 Gave <item:00000030>.
@@ -178,7 +178,7 @@ Cat-Loving Old Man
 Oh! The lucky kitty says
 we need six people!
 -----------------------
-notice
+Info
 -----------------------
 #<item:00000030>を返してくれました
 <item:00000030> was returned.
@@ -423,7 +423,7 @@ Cat-Loving Old Man
 #<size:00000200>これで、決定！！！！
 <size:00000200>With this, it's decided!!!!
 -----------------------
-notice
+Info
 -----------------------
 #<Kyle>たちは称号を得ました
 <Kyle> earned a title!
@@ -442,7 +442,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -467,24 +467,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{BA}{C0}を手に入れました
 Acquired {16}{25}{BA}{C0}.
 -----------------------
-notice
+Info
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{C2}{C0}, but
 your inventory is full.
 -----------------------
-notice
+Info
 -----------------------
 #何もありません
 There's nothing here.

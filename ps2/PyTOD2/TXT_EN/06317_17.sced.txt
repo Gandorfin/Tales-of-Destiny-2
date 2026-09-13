@@ -12,7 +12,7 @@ Dunamis Orphanage
 #さあ、どうしようかな？
 Now, what should I do?
 -----------------------
-select
+Option
 -----------------------
 #　もう寝る　
 #　まだ眠くない　
@@ -160,7 +160,7 @@ What was that dream about...
 ...Anyway...
 I gotta get to <Loni>...
 -----------------------
-notice
+Info
 -----------------------
 #<Kyle>は
 #称号「<item:00000817>」を得ました
@@ -224,7 +224,7 @@ The "Egg of God" has...!?
 Just hurry up and come!
 Everyone's waiting!
 -----------------------
-select
+Option
 -----------------------
 #　休む　
 #　休まない　
@@ -258,7 +258,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -283,24 +283,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{E2}{C0}を手に入れました
 Acquired {16}{25}{E2}{C0}.
 -----------------------
-notice
+Info
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{EA}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{EA}{C0}, but
 your inventory is full.
 -----------------------
-notice
+Info
 -----------------------
 #何もありません
 There's nothing here.

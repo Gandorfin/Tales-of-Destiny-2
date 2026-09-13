@@ -58,7 +58,7 @@ Oh, it was nothing...
 #「彼女は、聖女にちがいない！」
 #とか、コーフンしちゃってさ！
 The captain was all like,
-"She must be a Holy Woman!"
+"She must be a Saintess!"
 He was totally fired up about it!
 -----------------------
 <Reala>
@@ -71,7 +71,7 @@ He was totally fired up about it!
 #だから、聖女だよ
 #奇跡を起こせる女の人のこと
 #エルレインってのが、そうなんだけどさ
-That's what a Holy Woman is.
+That's what a Saintess is.
 A woman who can perform miracles.
 Elrane is one, for example.
 -----------------------
@@ -284,7 +284,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -309,24 +309,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{C6}{C0}を手に入れました
 Acquired {16}{25}{C6}{C0}.
 -----------------------
-notice
+Info
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{CE}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{CE}{C0}, but
 your inventory is full.
 -----------------------
-notice
+Info
 -----------------------
 #何もありません
 There's nothing here.

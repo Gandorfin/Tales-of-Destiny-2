@@ -2092,10 +2092,10 @@ top floor of the ruins."
 06185.sfm,0x538D,37,,"エルレインは、皆に
 何と敬われている？","What does everyone revere
 Elrane as?"
-06185.sfm,0x53B3,10,,輝きの聖女,Radiant Holy Woman
-06185.sfm,0x53BE,14,,きらめきの聖女,Glittering Holy Woman
-06185.sfm,0x53CD,10,,瞬きの聖女,Twinkling Holy Woman
-06185.sfm,0x53D8,12,,セイジョサマ,Holy Womaaan
+06185.sfm,0x53B3,10,,輝きの聖女,Radiant Saintess
+06185.sfm,0x53BE,14,,きらめきの聖女,Glittering Saintess
+06185.sfm,0x53CD,10,,瞬きの聖女,Twinkling Saintess
+06185.sfm,0x53D8,12,,セイジョサマ,Sainteeeess
 06185.sfm,0x53E5,32,,アイグレッテにある神殿の名前は？,What's the name of the temple in Aigrette?
 06185.sfm,0x5406,18,,アイグレッテ大神殿,Aigrette Grand Temple
 06185.sfm,0x5419,20,,スティングレイ大神殿,Stingray Grand Temple
@@ -2169,7 +2169,7 @@ who runs the weapon shop in Heidelberg?"
 06185.sfm,0x5776,37,,"ハイデルベルグ城に突っ込んだ
 ものは？","What crashed into
 Heidelberg Castle?"
-06185.sfm,0x579C,6,,飛行竜,A flying dragon
+06185.sfm,0x579C,6,,飛行竜,Draconis
 06185.sfm,0x57A3,6,,飛行獣,A flying beast
 06185.sfm,0x57AA,6,,飛行魚,A flying fish
 06185.sfm,0x57B1,6,,飛空挺,An airship
@@ -2276,7 +2276,7 @@ she made the ferry float?"
 06185.sfm,0x5C93,15,,つむじ風の<Reala>,Whirlwind <Reala>
 06185.sfm,0x5CA3,12,,不思議な少女,Mysterious Girl
 06185.sfm,0x5CB0,10,,仮面の少女,Masked Girl
-06185.sfm,0x5CBB,8,,聖女志願,Aspiring Holy Woman
+06185.sfm,0x5CBB,8,,聖女志願,Aspiring Saintess
 06185.sfm,0x5CC4,26,,まさにあれは奇跡だったよな,That really was a miracle.
 06185.sfm,0x5CDF,23,,そりゃ<Kyle>のことだよな,"That's <Kyle>, isn't it?"
 06185.sfm,0x5CF7,22,,つむじ風は俺だよ、俺！,Whirlwind is me! ME!
@@ -2356,7 +2356,7 @@ cut it, you know!?"
 Valley who saw <Reala>
 describe her?"
 06185.sfm,0x60E5,20,,ピンクの服着た女の子,A girl in pink clothes
-06185.sfm,0x60FA,18,,聖女のような女の子,A girl like a Holy Woman
+06185.sfm,0x60FA,18,,聖女のような女の子,A girl like a Saintess
 06185.sfm,0x610D,16,,スカートの女の子,A girl in a skirt
 06185.sfm,0x611E,14,,カワイイ女の子,A cute girl
 06185.sfm,0x612D,20,,好みのタイプの女の子,A girl who's just his type
@@ -2952,7 +2952,7 @@ They don't hatch from eggs."
 With it, what can you
 call?"
 06186.sfm,0x392E,4,,海竜,A sea dragon
-06186.sfm,0x3933,6,,飛行竜,A flying dragon
+06186.sfm,0x3933,6,,飛行竜,Draconis
 06186.sfm,0x393A,12,,ラディスロウ,The Radisrol
 06186.sfm,0x3947,14,,浮遊クルーザー,A hover cruiser
 06186.sfm,0x3956,14,,レベルの高い敵,High-level enemies
@@ -3489,7 +3489,7 @@ that's the correct answer.
 Honestly..."
 06186.sfm,0x565F,45,,"飛行竜を直すために
 必要だった生体金属の名は？","What was the name of the living metal
-needed to repair the flying dragon?"
+needed to repair the Draconis?"
 06186.sfm,0x568D,12,,ベルセリウム,Berselium
 06186.sfm,0x569A,12,,オリハルコン,Orichalcum
 06186.sfm,0x56A7,8,,バリウム,Barium
@@ -3515,7 +3515,7 @@ room?"
 06186.sfm,0x57A1,93,,"飛行竜の倉庫内
 ソーディアン・ディムロスが
 収められていた場所を
-再度訪れると、何が手に入るか？","In the flying dragon's storeroom, what
+再度訪れると、何が手に入るか？","In the Draconis's storeroom, what
 do you get by revisiting the spot
 where Swordian Dymlos
 was kept?"
@@ -6811,14 +6811,14 @@ correct catchphrase?"
 06189.sfm,0x3C0C,22,,んん！　ハマりすぎ！？,Hmm! Too hooked!?
 06189.sfm,0x3C23,49,,"飛行竜でガープが置いていった
 モンスターの名前は？","What's the name of the monster
-Gaap left behind on the flying dragon?"
+Gaap left behind on the Draconis?"
 06189.sfm,0x3C55,16,,グラシャラボラス,Glasya-Labolas
 06189.sfm,0x3C66,14,,グラシャラボス,Glasya-Labos
 06189.sfm,0x3C75,10,,グリフォン,Griffon
 06189.sfm,0x3C80,14,,スカルドラゴン,Skull Dragon
 06189.sfm,0x3C8F,47,,"飛行竜にあった制御装置の数は
 いくつだったっけ？","How many control devices were
-there on the flying dragon again?"
+there on the Draconis again?"
 06189.sfm,0x3CBF,4,,四基,Four
 06189.sfm,0x3CC4,4,,五基,Five
 06189.sfm,0x3CC9,4,,三基,Three
@@ -7197,7 +7197,7 @@ the Aeth'ers' 'what'?"
 what vehicle did we use to try
 to catch up with her?"
 06189.sfm,0x52C4,16,,イクシフォスラー,Ixifoslar
-06189.sfm,0x52D5,6,,飛行竜,Flying dragon
+06189.sfm,0x52D5,6,,飛行竜,Draconis
 06189.sfm,0x52DC,16,,瞬間物質輸送装置,Matter teleporter
 06189.sfm,0x52ED,10,,物質鑑定機,Matter analyzer
 06189.sfm,0x52F8,49,,"なんで<Judas>は
@@ -7214,20 +7214,20 @@ about that airship, anyway?"
 まもられていたんだよね","It was protected by
 layer upon layer of seals."
 06189.sfm,0x53B6,41,,"飛行竜とイクシフォスラー
-早いのはどっち？","The flying dragon or the Ixifoslar,
+早いのはどっち？","The Draconis or the Ixifoslar,
 which is faster?"
 06189.sfm,0x53E0,4,,同じ,The same
 06189.sfm,0x53E5,8,,ロケット,A rocket
 06189.sfm,0x53EE,22,,問題ちゃんと読んでた？,Did you even read the question?
 06189.sfm,0x5405,47,,"飛行竜の制御装置を壊すために
 使ったアイテムは？","What item did we use to destroy the
-flying dragon's control devices?"
+Draconis's control devices?"
 06189.sfm,0x5435,18,,ソーサラースコープ,Sorcerer's Scope
 06189.sfm,0x5448,16,,ソーサラーリング,Sorcerer's Ring
 06189.sfm,0x5459,6,,ロープ,Rope
 06189.sfm,0x5460,8,,石切り機,Stone cutter
 06189.sfm,0x5469,43,,"飛行竜の中はいろいろな
-仕掛けがあったよなぁ","The inside of the flying dragon
+仕掛けがあったよなぁ","The inside of the Draconis
 was full of contraptions, huh."
 06189.sfm,0x5495,47,,"地上軍拠点跡地は
 いつの時代に建てられた建物か？","The Er'ther Army base ruins were
@@ -7298,7 +7298,7 @@ restores HP and TP."
 06189.sfm,0x5804,57,,"改変された現代で、ハイデルベルグの
 場所にある街の名前は？","In the altered present, what's the name
 of the city where Heidelberg used to be?"
-06189.sfm,0x583E,16,,黄昏都市レアルタ,Twilight City Realta
+06189.sfm,0x583E,16,,黄昏都市レアルタ,Dusk City Realta
 06189.sfm,0x584F,20,,蒼天都市ヴァンジェロ,Azure City Vangelo
 06189.sfm,0x5864,20,,紅蓮都市スペランツァ,Crimson Lotus City Speranza
 06189.sfm,0x5879,20,,緑葉都市シンウーチャ,Green Leaf City Shinwucha
@@ -7699,7 +7699,7 @@ That was one convoluted puzzle, huh."
 06189.sfm,0x6DE3,107,,"飛行竜にソーサラースコープでしか
 見えない小さなモンスターがいる部屋が
 あったけど
-あの部屋の主って何だっけ？","There was a room on the flying dragon
+あの部屋の主って何だっけ？","There was a room on the Draconis
 with tiny monsters you could only see
 with the Sorcerer's Scope.
 What was the master of that room?"
@@ -7787,7 +7787,7 @@ and you've forgotten already?"
 06189.sfm,0x72C1,46,,････それはオレが１番最初に戦ったやつじゃない？,...Isn't that the very first thing I ever fought?
 06189.sfm,0x72F0,59,,"惜しい！それは飛行竜で
 ガープがオレ達を襲わせたモンスターだ","Close! That's the monster Gaap
-sicced on us on the flying dragon."
+sicced on us on the Draconis."
 06189.sfm,0x732C,68,,"ハイデルベルグで<Harold>が
 時空間のゆがみをキャッチした発明品の名前は？","What's the name of the invention <Harold>
 used to detect the space-time

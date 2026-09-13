@@ -87,7 +87,7 @@ It's a very good name, meow.
 #ニャにかご用あるかミャ？
 Did you need something, meow?
 -----------------------
-SELECT
+Option
 -----------------------
 #　ある　
 #　ない　
@@ -151,12 +151,12 @@ Use that foot-wiping scratchy mat
 over there to clean the snow off
 your feet before you come in, meow!
 -----------------------
-NOTICE
+Info
 -----------------------
 #入りますか？
 Would you like to enter?
 -----------------------
-SELECT
+Option
 -----------------------
 #　入ります　
 #　入りません　
@@ -190,7 +190,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -215,24 +215,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{D6}{C0}を手に入れました
 Acquired {16}{25}{D6}{C0}.
 -----------------------
-notice
+Info
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{DE}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{DE}{C0}, but
 your inventory is full.
 -----------------------
-notice
+Info
 -----------------------
 #何もありません
 There's nothing here.

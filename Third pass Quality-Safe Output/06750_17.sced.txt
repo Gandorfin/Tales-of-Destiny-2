@@ -39,7 +39,7 @@ Chelsea's Hut
 #小さな家
 A small house
 -----------------------
-NOTICE
+Info
 -----------------------
 #<item:000000EB>を手に入れました
 Acquired <item:000000EB>.
@@ -672,7 +672,7 @@ Could you bring me <item:0000003D> x<0B:00000001>{14}{11}{5B}{C0}<0B:00000000>?
 #チェルシー
 Chelsea
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -788,7 +788,7 @@ Chelsea
 Here, this bow is my thanks to you.
 Please accept it!
 -----------------------
-notice
+Info
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
@@ -924,7 +924,7 @@ from the bottom of my heart.
 ...Yeah!
 Thank you so much, Chelsea!
 -----------------------
-notice
+Info
 -----------------------
 #<item:FFFFFFFF>がもらえますが
 #いっぱいで持てませんでした
@@ -942,7 +942,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -967,24 +967,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{DE}{C0}を手に入れました
 Acquired {16}{25}{DE}{C0}.
 -----------------------
-notice
+Info
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{E6}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{E6}{C0}, but
 your inventory is full.
 -----------------------
-notice
+Info
 -----------------------
 #何もありません
 There's nothing here.

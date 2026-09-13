@@ -218,7 +218,7 @@ blink of an eye. While you've still
 got the chance, go ahead and be as
 stupid as you can.
 -----------------------
-notice
+Info
 -----------------------
 #<Loni>は
 #称号「<item:0000082E>」を得ました
@@ -267,7 +267,7 @@ Chef
 Want to learn how
 to make {16}{34}{8C}{C0}?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -298,7 +298,7 @@ Chef
 I've got a recipe for {16}{34}{8C}{C0}.
 Want to buy it for <0B:00000001>{14}{34}{84}{C0}<0B:00000000> Gald?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -385,7 +385,7 @@ Chef
 Hand them over and I'll whip up
 some {16}{34}{8C}{C0}. How about it?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -435,12 +435,12 @@ I've been waiting for someone like
 you. A cook worthy of taking this
 off my hands.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{34}{8C}{C0}のレシピを拾いました
 Picked up the recipe for {16}{34}{8C}{C0}.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{34}{A0}{C0}の作り方を覚えました
 Learned how to make {16}{34}{A0}{C0}.
@@ -456,7 +456,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -481,24 +481,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{EE}{C0}を手に入れました
 Acquired {16}{25}{EE}{C0}.
 -----------------------
-notice
+Info
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{F6}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{F6}{C0}, but
 your inventory is full.
 -----------------------
-notice
+Info
 -----------------------
 #何もありません
 There's nothing here.

@@ -1,8 +1,8 @@
 #飛行竜・中心部
-Flying Dragon - Central Area
+Draconis - Central Area
 -----------------------
 #飛行竜
-Flying Dragon
+Draconis
 -----------------------
 #中心部
 Central Area
@@ -16,7 +16,7 @@ Wh-what the heck!?
 -----------------------
 #レンズの力を失って
 #飛行竜が降下をはじめたんだ
-The Flying Dragon lost the Lens's
+The Draconis lost the Lens's
 power and has begun to descend.
 -----------------------
 <Loni>
@@ -39,7 +39,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -64,24 +64,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{CA}{C0}を手に入れました
 Acquired {16}{25}{CA}{C0}.
 -----------------------
-notice
+Info
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{D2}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{D2}{C0}, but
 your inventory is full.
 -----------------------
-notice
+Info
 -----------------------
 #何もありません
 There's nothing here.
@@ -89,7 +89,7 @@ There's nothing here.
 #タイムオーバー
 Time's up.
 -----------------------
-noitce
+Info
 -----------------------
 #制御装置を破壊しました
 Control device destroyed.

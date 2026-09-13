@@ -4,7 +4,7 @@ Cherik Inn
 #チェリク
 Cherik
 -----------------------
-NOTICE
+Info
 -----------------------
 #何の意味があるのか分かりませんが
 #<item:0000000A>が置いてあります
@@ -13,14 +13,14 @@ I don't know what the point is, but
 <item:0000000A> is sitting here.
 Will you take it?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　もちろん持っていく　
 #　絶対に持っていかない　
 <03:00000000> Of course I'll take it.
 No way I'm taking that.
 -----------------------
-NOTICE
+Info
 -----------------------
 #<item:0000000A>を手に入れました
 #何だか、人として大切なものを失った気がしました
@@ -28,7 +28,7 @@ Obtained <item:0000000A>.
 Somehow, I feel I've lost something
 vital to my humanity...
 -----------------------
-NOTICE
+Info
 -----------------------
 #人として大切なものを
 #失わずにすんだ気がしました
@@ -49,7 +49,7 @@ to me knowing full well that I am
 Grid, leader of the 'Jet-Black
 Wings'?!
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　知っている　
 #　聞いたことがない　
@@ -201,7 +201,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -226,24 +226,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{BA}{C0}を手に入れました
 Acquired {16}{25}{BA}{C0}.
 -----------------------
-notice
+Info
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{C2}{C0}, but
 your inventory is full.
 -----------------------
-notice
+Info
 -----------------------
 #何もありません
 There's nothing here.

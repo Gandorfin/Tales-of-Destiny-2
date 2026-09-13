@@ -144,7 +144,7 @@ the shop. Winters can forge it into
 some fine gear. He'd probably do
 it for you.
 -----------------------
-NOTICE
+Info
 -----------------------
 #マグロを手に入れました
 Acquired tuna.
@@ -202,7 +202,7 @@ Veteran
 #ひよっこ
 Rookie
 -----------------------
-notice
+Info
 -----------------------
 #「武器攻撃」について
 #話し合っているようです
@@ -274,7 +274,7 @@ You'll recover plenty of SP when you
 defend successfully, so defending
 <button:00000047> is important too.
 -----------------------
-notice
+Info
 -----------------------
 #「特技」について
 #話し合っているようです
@@ -327,7 +327,7 @@ if you finish off multiple
 enemies at once during a combo,
 you'll recover even more TP.
 -----------------------
-notice
+Info
 -----------------------
 #「エンチャント」について
 #話し合っているようです
@@ -417,7 +417,7 @@ Watch out for that!!
 True, using it on a scratch
 won't teach you anything.
 -----------------------
-notice
+Info
 -----------------------
 #「戦闘の作戦」について
 #話し合っているようです
@@ -479,7 +479,7 @@ each character's abilities
 and your enemies should let
 you fight more efficiently.
 -----------------------
-notice
+Info
 -----------------------
 #「テクニカルスマッシュ」
 #について話し合っているようです
@@ -541,7 +541,7 @@ since they consume SP, but
 mastering how to land finishers
 is the path to expertise.
 -----------------------
-notice
+Info
 -----------------------
 #「スピリッツ」について
 #話し合っているようです
@@ -598,7 +598,7 @@ brighter the cursor, the
 higher their SP. You can
 gauge an enemy's SP mid-fight.
 -----------------------
-notice
+Info
 -----------------------
 #「連続ヒット」について
 #話し合っているようです
@@ -657,7 +657,7 @@ everyone down. Here too, the
 balance between Magic Artes
 and Base Artes is what matters.
 -----------------------
-notice
+Info
 -----------------------
 #「影響エリア」について
 #話し合っているようです
@@ -712,7 +712,7 @@ Overly Veteran
 #息子
 Son
 -----------------------
-notice
+Info
 -----------------------
 #「ステータス変化」について
 #話し合っているようです
@@ -801,7 +801,7 @@ Overly Veteran
 #息子
 Son
 -----------------------
-notice
+Info
 -----------------------
 #「スピリッツブラスター」
 #について話し合っているようです
@@ -909,7 +909,7 @@ Overly Veteran
 #息子
 Son
 -----------------------
-notice
+Info
 -----------------------
 #「フィールドオブエフェクト」
 #について話し合っているようです
@@ -976,7 +976,7 @@ the sun. It's a real nuisance.
 #（言うのが遅いよ父さん････）
 (You're one to talk, Dad...)
 -----------------------
-notice
+Info
 -----------------------
 #「バトルグレード」について
 #話し合っているようです
@@ -1038,7 +1038,7 @@ Focus on honing your own skills.
 As expected of you,
 Senpai. I'm learning a lot.
 -----------------------
-notice
+Info
 -----------------------
 #「受身」について
 #話し合っているようです
@@ -1073,7 +1073,7 @@ that SP and TP recover from it.
 #もももももちろん知ってたさ
 O-o-o-o-of course I knew that.
 -----------------------
-notice
+Info
 -----------------------
 #「戦闘難易度」について
 #話し合っているようです
@@ -1131,7 +1131,7 @@ SECOND is a moderate difficulty,
 so if you're looking for a bit
 more challenge, I'd recommend it.
 -----------------------
-notice
+Info
 -----------------------
 #「通常攻撃」について
 #深く話し合っているようです
@@ -1221,7 +1221,7 @@ so if you're already overwhelmed
 by other rules, don't force
 yourself to memorize this.
 -----------------------
-notice
+Info
 -----------------------
 #「長い話」について
 #話し合っているようです
@@ -1266,7 +1266,7 @@ is why I'm telling you now.
 #納得さ
 Makes sense to me.
 -----------------------
-notice
+Info
 -----------------------
 #「アイテム拾得」について
 #話し合っているようです
@@ -1346,7 +1346,7 @@ That too. The important thing
 is to adventure in a way
 that matches your own style.
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -1369,7 +1369,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -1394,24 +1394,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{C6}{C0}を手に入れました
 Acquired {16}{25}{C6}{C0}.
 -----------------------
-notice
+Info
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{CE}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{CE}{C0}, but
 your inventory is full.
 -----------------------
-notice
+Info
 -----------------------
 #何もありません
 There's nothing here.

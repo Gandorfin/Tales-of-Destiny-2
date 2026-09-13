@@ -44,13 +44,15 @@ TARGET_BITRATES = {
     "00008": 2_700_000,
     "00010": 7_750_000,
 }
-SUBTITLE_SIZE = 20
+SUBTITLE_SIZE = 13
 SUBTITLE_MARGIN = 24
+SUBTITLE_BOTTOM_MARGIN = 6
 MAX_SUBTITLE_WIDTH = WIDTH - 2 * SUBTITLE_MARGIN
 STYLE = (
-    "FontName=Ubuntu,FontSize=20,Bold=1,PrimaryColour=&H00FFFFFF,"
+    f"FontName=Ubuntu,FontSize={SUBTITLE_SIZE},Bold=1,PrimaryColour=&H00FFFFFF,"
     "OutlineColour=&H00000000,BorderStyle=1,Outline=2,Shadow=0,"
-    "Alignment=2,MarginL=24,MarginR=24,MarginV=24"
+    f"Alignment=2,MarginL={SUBTITLE_MARGIN},MarginR={SUBTITLE_MARGIN},"
+    f"MarginV={SUBTITLE_BOTTOM_MARGIN}"
 )
 TIMESTAMP = re.compile(
     r"^(\d{2}):(\d{2}):(\d{2}),(\d{3}) --> "
@@ -101,15 +103,27 @@ def validate_subtitle(path: Path) -> int:
     cues = parse_srt(path)
     metrics = credits_ass.TrueTypeMetrics(credits_ass.FONT_FILE)
     for cue_index, lines in enumerate(cues, 1):
-        for line in lines:
-            plain = re.sub(r"<[^>]+>", "", line)
-            width = metrics.text_width(plain, SUBTITLE_SIZE)
-            if width > MAX_SUBTITLE_WIDTH:
-                raise ValueError(
-                    f"{path.name}: cue {cue_index} line is {width:.1f}px wide; "
-                    f"limit is {MAX_SUBTITLE_WIDTH}px"
-                )
+        line = " ".join(part.strip() for part in lines)
+        plain = re.sub(r"<[^>]+>", "", line)
+        width = metrics.text_width(plain, SUBTITLE_SIZE)
+        if width > MAX_SUBTITLE_WIDTH:
+            raise ValueError(
+                f"{path.name}: cue {cue_index} is {width:.1f}px wide after "
+                f"one-line normalization; limit is {MAX_SUBTITLE_WIDTH}px"
+            )
     return len(cues)
+
+
+def write_single_line_subtitle(source: Path, target: Path) -> None:
+    """Write a validated SRT copy with each cue rendered on one line."""
+    blocks = re.split(r"\r?\n\r?\n", source.read_text(encoding="utf-8-sig").strip())
+    normalized = []
+    for block in blocks:
+        lines = block.splitlines()
+        normalized.append("\n".join((
+            lines[0], lines[1], " ".join(part.strip() for part in lines[2:])))
+        )
+    target.write_text("\n\n".join(normalized) + "\n", encoding="utf-8", newline="\n")
 
 def validate_source(root: Path, name: str) -> Movie:
     original = root / "MOVIE" / f"{name}.mpeg"
@@ -144,9 +158,9 @@ def validate_source(root: Path, name: str) -> Movie:
         hashlib.sha256(data).hexdigest(), cues, info["aspect_code"],
     )
 
-def subtitle_filter(movie: Movie) -> str:
+def subtitle_filter(movie: Movie, subtitle: Path) -> str:
     font_dir = lavfi_path(credits_ass.FONT_FILE.parent)
-    srt = lavfi_path(movie.subtitle)
+    srt = lavfi_path(subtitle)
     filters = [
         f"subtitles=filename='{srt}':original_size={WIDTH}x{HEIGHT}:"
         f"fontsdir='{font_dir}':force_style='{STYLE}'"
@@ -158,7 +172,8 @@ def subtitle_filter(movie: Movie) -> str:
     return ",".join(filters)
 
 def encode(
-    ffmpeg: str, movie: Movie, output: Path, setting: int, log_path: Path
+    ffmpeg: str, movie: Movie, subtitle: Path, output: Path, setting: int,
+    log_path: Path,
 ) -> None:
     keyframe_times = ",".join(
         f"{max(0, frame - 0.5) * 1001 / 30000:.6f}" for frame in movie.keyframes
@@ -173,7 +188,7 @@ def encode(
     command = [
         ffmpeg, "-hide_banner", "-y", "-loglevel", "verbose",
         "-i", str(movie.original), "-map", "0:v:0", "-an", "-sn", "-dn",
-        "-vf", subtitle_filter(movie),
+        "-vf", subtitle_filter(movie, subtitle),
         "-c:v", "mpeg2video", "-profile:v", "main", "-level:v", "main",
         "-pix_fmt", "yuv420p", "-r", FPS, "-fps_mode", "cfr",
         "-frames:v", str(movie.frames),
@@ -281,6 +296,8 @@ def build_movie(
     patched_path = movie_work / f"{movie.name}.ps2.m2v"
     candidate = movie_work / f"{movie.name}.mpeg"
     log_path = movie_work / f"{movie.name}.ffmpeg.log"
+    subtitle = movie_work / f"{movie.name}.single-line.srt"
+    write_single_line_subtitle(movie.subtitle, subtitle)
 
     last_error = None
     settings = range(TARGET_BITRATES[movie.name], 999_999, -bitrate_step)
@@ -288,7 +305,7 @@ def build_movie(
         for path in (raw_path, patched_path, candidate):
             if path.exists():
                 path.unlink()
-        encode(ffmpeg, movie, raw_path, setting, log_path)
+        encode(ffmpeg, movie, subtitle, raw_path, setting, log_path)
         if raw_path.stat().st_size > movie.capacity:
             last_error = ValueError(
                 f"encoded payload {raw_path.stat().st_size:,} exceeds "
@@ -341,6 +358,7 @@ def build_movie(
             "output_sha256": sha256(output),
             "size": movie.size,
             "subtitle_cues": movie.subtitle_cues,
+            "subtitle_lines_per_cue": 1,
             "credits_overlay": movie.name == "00005",
             "rate_control": "constant_bitrate" if movie.name == "00010" else "average_bitrate",
             "rate_setting": setting,

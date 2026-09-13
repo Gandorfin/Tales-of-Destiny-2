@@ -21,12 +21,12 @@ History, 28 points.
 #これは！
 What's this?!
 -----------------------
-NOTICE
+Info
 -----------------------
 #いろいろのクイズ問題を見つけた！
 Found all kinds of quiz questions!
 -----------------------
-NOTICE
+Info
 -----------------------
 #クイズ本に新しいジャンルが追加されました
 New category added to the quiz book!
@@ -700,7 +700,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -725,24 +725,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{BA}{C0}を手に入れました
 Acquired {16}{25}{BA}{C0}.
 -----------------------
-notice
+Info
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{C2}{C0}, but
 your inventory is full.
 -----------------------
-notice
+Info
 -----------------------
 #何もありません
 There's nothing here.

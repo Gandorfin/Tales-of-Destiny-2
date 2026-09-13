@@ -645,7 +645,7 @@ hands are covered in soot...
 #今はリーネから出ない方がいい
 We shouldn't leave Lienea now.
 -----------------------
-notice
+Info
 -----------------------
 #畑に{16}{24}{9C}{C0}をまきました
 Scattered {16}{24}{9C}{C0} on the field.
@@ -655,7 +655,7 @@ Scattered {16}{24}{9C}{C0} on the field.
 #早く芽がでないかな
 I wonder if it'll sprout soon.
 -----------------------
-notice
+Info
 -----------------------
 #枯れてしまいました
 It has withered away.
@@ -665,7 +665,7 @@ It has withered away.
 #水をあげなかったからかな？
 Maybe I forgot to water it?
 -----------------------
-notice
+Info
 -----------------------
 #腐ってしまいました
 It has rotted away.
@@ -675,7 +675,7 @@ It has rotted away.
 #水をあげすぎたかな？
 Maybe I gave it too much water?
 -----------------------
-notice
+Info
 -----------------------
 #実がなりました
 It has borne fruit.
@@ -685,27 +685,27 @@ It has borne fruit.
 #やったぜ！
 All right!
 -----------------------
-notice
+Info
 -----------------------
 #まだ芽が出ないようです
 It hasn't sprouted yet.
 -----------------------
-notice
+Info
 -----------------------
 #芽が出ました
 It has sprouted.
 -----------------------
-notice
+Info
 -----------------------
 #順調に成長しているようです
 It seems to be growing steadily.
 -----------------------
-notice
+Info
 -----------------------
 #手入れをしますか？
 Tend to it?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　水をあげる　
 #　肥料をやる　
@@ -714,12 +714,12 @@ select
 Fertilize it
 Leave it alone
 -----------------------
-notice
+Info
 -----------------------
 #どのくらいあげますか？
 How much will you give it?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　たくさんあげる　
 #　ふつうにあげる　
@@ -728,17 +728,17 @@ select
 Give it a normal amount
 Give it a small amount
 -----------------------
-notice
+Info
 -----------------------
 #はい、たくさん
 Yes, plenty.
 -----------------------
-notice
+Info
 -----------------------
 #水をあげました
 You gave it some water.
 -----------------------
-notice
+Info
 -----------------------
 #はい、少なめ
 Yes, a small amount.
@@ -767,12 +767,12 @@ Yellow-Label Gorgeous Fertilizer
 #白印エクセレント肥料
 White-Label Excellent Fertilizer
 -----------------------
-notice
+Info
 -----------------------
 #どの肥料をあげますか？
 Which fertilizer will you use?
 -----------------------
-select
+Option
 -----------------------
 <03:00000000>　{18}{44}{84}{C0}　
 　{18}{44}{88}{C0}　
@@ -809,7 +809,7 @@ The soil seems sufficiently moist.
 #これ以上水は必要ないと思われます
 It seems no more water is needed.
 -----------------------
-notice
+Info
 -----------------------
 #ベテラン
 Veteran
@@ -817,7 +817,7 @@ Veteran
 #ひよっこ
 Rookie
 -----------------------
-notice
+Info
 -----------------------
 #「武器攻撃」について
 #話し合っているようです
@@ -888,7 +888,7 @@ You'll recover a lot of SP when you
 successfully defend, so defending
 with <button:00000047> is important too.
 -----------------------
-notice
+Info
 -----------------------
 #「特技」について
 #話し合っているようです
@@ -943,7 +943,7 @@ Moreover, if you finish them
 off together during a combo,
 you can recover even more TP.
 -----------------------
-notice
+Info
 -----------------------
 #「エンチャント」について
 #話し合っているようです
@@ -1034,7 +1034,7 @@ Be careful!!
 True, using it on a scratch
 won't teach you anything.
 -----------------------
-notice
+Info
 -----------------------
 #「戦闘の作戦」について
 #話し合っているようです
@@ -1098,7 +1098,7 @@ character's strengths and the
 enemy you're facing, and you'll be
 fighting a lot more efficiently.
 -----------------------
-notice
+Info
 -----------------------
 #「テクニカルスマッシュ」
 #について話し合っているようです
@@ -1161,7 +1161,7 @@ can be a pain, but mastering the
 finishing blow is what separates
 the pros from the rookies.
 -----------------------
-notice
+Info
 -----------------------
 #「スピリッツ」について
 #話し合っているようです
@@ -1216,7 +1216,7 @@ the cursor color, the higher
 their SP. You can gauge an
 enemy's SP mid-fight that way.
 -----------------------
-notice
+Info
 -----------------------
 #「連続ヒット」について
 #話し合っているようです
@@ -1272,7 +1272,7 @@ everyone down. Once again,
 it's all about balancing your
 magic and your Base Artes.
 -----------------------
-notice
+Info
 -----------------------
 #「影響エリア」について
 #話し合っているようです
@@ -1328,7 +1328,7 @@ Overly Veteran
 #息子
 Son
 -----------------------
-notice
+Info
 -----------------------
 #「ステータス変化」について
 #話し合っているようです
@@ -1417,7 +1417,7 @@ Overly Veteran
 #息子
 Son
 -----------------------
-notice
+Info
 -----------------------
 #「スピリッツブラスター」
 #について話し合っているようです
@@ -1526,7 +1526,7 @@ Overly Veteran
 #息子
 Son
 -----------------------
-notice
+Info
 -----------------------
 #「フィールドオブエフェクト」
 #について話し合っているようです
@@ -1591,7 +1591,7 @@ under the sun. It's a real problem.
 #（言うのが遅いよ父さん････）
 (A little late to say that, Dad...)
 -----------------------
-notice
+Info
 -----------------------
 #「バトルグレード」について
 #話し合っているようです
@@ -1653,7 +1653,7 @@ on honing your skills.
 As expected of you,
 Senpai. I'm learning a lot.
 -----------------------
-notice
+Info
 -----------------------
 #「受身」について
 #話し合っているようです
@@ -1690,7 +1690,7 @@ That's the nice part, right?
 #もももももちろん知ってたさ
 O-o-o-o-of course I knew that.
 -----------------------
-notice
+Info
 -----------------------
 #「戦闘難易度」について
 #話し合っているようです
@@ -1748,7 +1748,7 @@ difficulty. If you want a
 bit more of a challenge, I'd
 say it's worth recommending.
 -----------------------
-notice
+Info
 -----------------------
 #「通常攻撃」について
 #深く話し合っているようです
@@ -1837,7 +1837,7 @@ so if you're already overwhelmed
 by other rules, don't force
 yourself to memorize these.
 -----------------------
-notice
+Info
 -----------------------
 #「長い話」について
 #話し合っているようです
@@ -1881,7 +1881,7 @@ is why I'm telling you now.
 #納得さ
 Makes sense to me.
 -----------------------
-notice
+Info
 -----------------------
 #「アイテム拾得」について
 #話し合っているようです
@@ -1963,7 +1963,7 @@ That too. The important
 thing is to pursue adventures
 that match your own style.
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -1986,7 +1986,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -2011,24 +2011,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-notice
+Info
 -----------------------
 #{16}{26}{16}{C0}を手に入れました
 Acquired {16}{26}{16}{C0}.
 -----------------------
-notice
+Info
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{26}{1E}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{26}{1E}{C0}, but
 your inventory is full.
 -----------------------
-notice
+Info
 -----------------------
 #何もありません
 There's nothing here.
@@ -2056,7 +2056,7 @@ may sometimes carry over.
 One bottle costs <0B:00000001>{14}{36}{28}{C0}<0B:00000000> Gald.
 Would you like to buy <item:00000012>?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　買う　
 #　<0B:00000001>{14}{26}{32}{C0}本まとめて買う（{14}{36}{2C}{C0}ガルド）<0B:00000000>　
@@ -2067,7 +2067,7 @@ select
 Refine Guide
 No thanks
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　買う　
 #　リファイン講座　
@@ -2090,7 +2090,7 @@ Thank you for your purchase.
 Would you like to hear
 the Refine Guide?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　聞きたい　
 #　聞きたくない　
@@ -2100,7 +2100,7 @@ No thanks
 #何について知りたいですか？
 What would you like to know?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　４、スロットについて　
 #　５、装飾品のリファイン　
@@ -2111,7 +2111,7 @@ select
 6. Equipment That Cannot Be Refined
 Previous Page
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　１、リファインとは
 #　２、アイテムの変化　　　　　　　　　　

@@ -38,6 +38,18 @@ import md1text as M, md1patch as P, slps_menu, slps_artes, slps_font
 BIAS = 0xFF000
 POOL_START, POOL_END = 1026832, 1033520
 
+FORMER_TITLE_TRANSLATIONS = {
+    0x113CE1: 'Meeting a Holy Woman',
+    0x1135CE: 'Chase the Flying Dragon!',
+    0x1135A0: 'Inside the Flying Dragon',
+    0x113524: 'Escape the Flying Dragon 1',
+    0x113511: 'Escape the Flying Dragon 2',
+    0x1134A8: 'Escape the Flying Dragon 3',
+    0x113495: 'Escape the Flying Dragon 4',
+    0x113168: 'Untamed Forest 1',
+    0x11315D: 'Untamed Forest 2',
+}
+
 
 def pool_free_start(d):
     """First free byte of the spare string pool: one past the terminator of
@@ -68,6 +80,31 @@ def classify(src, recs):
         if d2 and d2[0] == en:
             en_ok += 1
     return jp_ok, en_ok
+
+
+def migrate_former_titles(src, recs):
+    """Update older English title strings through their existing pointers."""
+    data = bytearray(src)
+    changed = 0
+    for off, ptrs, _jp, en in recs:
+        former = FORMER_TITLE_TRANSLATIONS.get(off)
+        if not former:
+            continue
+        po = int(ptrs.split(',')[0], 16)
+        target = struct.unpack_from('<L', data, po)[0] - BIAS
+        current = M.decode_at(data, target) if 0 <= target < len(data) else None
+        if not current or current[0] != former:
+            continue
+        available = P.budget(data, target, current[1] - target)
+        encoded = P.encode(en)
+        if len(encoded) > available:
+            raise RuntimeError(
+                "former title 0x%X needs %d bytes; only %d available"
+                % (off, len(encoded), available))
+        region = available + 1
+        data[target:target + region] = encoded + b'\0' * (region - len(encoded))
+        changed += 1
+    return bytes(data), changed
 
 
 def repair_glued(src, recs):
@@ -138,6 +175,13 @@ def patch_one(target, a):
     original = open(target, "rb").read()
     src = original
     recs = load_records(a.csv)
+    try:
+        src, migrated = migrate_former_titles(src, recs)
+    except RuntimeError as e:
+        print(f"titles: {e}. Nothing written.")
+        return 1
+    if migrated:
+        print(f"titles: migrated {migrated} former English name(s)")
     jp_ok, en_ok = classify(src, recs)
     titles_done = en_ok == len(recs)
 

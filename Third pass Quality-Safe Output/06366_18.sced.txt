@@ -68,7 +68,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -93,24 +93,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{BA}{C0}を手に入れました
 Acquired {16}{25}{BA}{C0}.
 -----------------------
-notice
+Info
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{C2}{C0}, but
 your inventory is full.
 -----------------------
-notice
+Info
 -----------------------
 #何もありません
 There's nothing here.
@@ -121,7 +121,7 @@ Veteran
 #ひよっこ
 Rookie
 -----------------------
-notice
+Info
 -----------------------
 #「武器攻撃」について
 #話し合っているようです
@@ -191,7 +191,7 @@ Successful guarding recovers a
 lot of SP, so guarding with <button:00000047> is
 important too.
 -----------------------
-notice
+Info
 -----------------------
 #「特技」について
 #話し合っているようです
@@ -246,7 +246,7 @@ if you finish off multiple
 enemies together during a combo,
 you'll recover even more TP.
 -----------------------
-notice
+Info
 -----------------------
 #「エンチャント」について
 #話し合っているようです
@@ -336,7 +336,7 @@ Watch out for that!!
 True, using it on a scratch wound
 won't teach you anything.
 -----------------------
-notice
+Info
 -----------------------
 #「戦闘の作戦」について
 #話し合っているようです
@@ -398,7 +398,7 @@ character's abilities and
 your enemies should lead to
 much more efficient fighting.
 -----------------------
-notice
+Info
 -----------------------
 #「テクニカルスマッシュ」
 #について話し合っているようです
@@ -460,7 +460,7 @@ Action Enchants consuming SP is a
 concern, but mastering the finishing
 blow is the path to expertise.
 -----------------------
-notice
+Info
 -----------------------
 #「スピリッツ」について
 #話し合っているようです
@@ -517,7 +517,7 @@ the cursor color, the higher
 their SP. You can gauge an
 enemy's SP mid-fight that way.
 -----------------------
-notice
+Info
 -----------------------
 #「連続ヒット」について
 #話し合っているようです
@@ -576,7 +576,7 @@ dragging everyone down. Here too,
 the balance between Magic Artes
 and Base Artes is what matters most.
 -----------------------
-notice
+Info
 -----------------------
 #「影響エリア」について
 #話し合っているようです
@@ -631,7 +631,7 @@ Overly Veteran
 #息子
 Son
 -----------------------
-notice
+Info
 -----------------------
 #「ステータス変化」について
 #話し合っているようです
@@ -720,7 +720,7 @@ Overly Veteran
 #息子
 Son
 -----------------------
-notice
+Info
 -----------------------
 #「スピリッツブラスター」
 #について話し合っているようです
@@ -829,7 +829,7 @@ Overly Veteran
 #息子
 Son
 -----------------------
-notice
+Info
 -----------------------
 #「フィールドオブエフェクト」
 #について話し合っているようです
@@ -896,7 +896,7 @@ the sun. It's quite troubling.
 (A bit late to be
 saying that, Dad...)
 -----------------------
-notice
+Info
 -----------------------
 #「バトルグレード」について
 #話し合っているようです
@@ -960,7 +960,7 @@ skills. That's all there is to it.
 As expected of you,
 Senpai. I'm learning a lot.
 -----------------------
-notice
+Info
 -----------------------
 #「受身」について
 #話し合っているようです
@@ -997,7 +997,7 @@ That's the best part, right?
 #もももももちろん知ってたさ
 O-o-o-o-of course I knew that.
 -----------------------
-notice
+Info
 -----------------------
 #「戦闘難易度」について
 #話し合っているようです
@@ -1056,7 +1056,7 @@ difficulty, so if you want a
 bit more of a challenge, I'd
 recommend giving it a try.
 -----------------------
-notice
+Info
 -----------------------
 #「通常攻撃」について
 #深く話し合っているようです
@@ -1145,7 +1145,7 @@ so if you're already swamped
 by other rules, don't force
 yourself to memorize this.
 -----------------------
-notice
+Info
 -----------------------
 #「長い話」について
 #話し合っているようです
@@ -1192,7 +1192,7 @@ which is why I'm telling you now.
 #納得さ
 Makes perfect sense.
 -----------------------
-notice
+Info
 -----------------------
 #「アイテム拾得」について
 #話し合っているようです
@@ -1273,7 +1273,7 @@ That's the other side of it. The
 important thing is to find an
 adventure style that works for you.
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　

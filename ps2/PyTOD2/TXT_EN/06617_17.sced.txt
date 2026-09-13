@@ -7,7 +7,7 @@ Aquaveil
 #領主館
 Lord's Manor
 -----------------------
-NOTICE
+Info
 -----------------------
 #<item:00000019>を手に入れました
 Acquired <item:00000019>.
@@ -31,7 +31,7 @@ on top of that mysterious box.
 There's an item here that
 feels somehow sacred.
 -----------------------
-NOTICE
+Info
 -----------------------
 #石碑に文字が彫られています
 Writing is carved on the monument.
@@ -41,14 +41,14 @@ Writing is carved on the monument.
 #読んだげよっか？
 Want me to read it for you?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　読んでもらう　
 #　興味無い　
 <03:00000000>Have her read it.
 Not interested.
 -----------------------
-NOTICE
+Info
 -----------------------
 #砂漠の大陸、燃え盛る火の中
 #白く険しき山の中腹
@@ -59,7 +59,7 @@ On a stark white mountainside
 Above an idol sunk at sea
 Megalithic Civilization Remnant 1
 -----------------------
-NOTICE
+Info
 -----------------------
 #巨石文明の名残２
 #深き緑に覆われし湖のほとり
@@ -70,7 +70,7 @@ By a lake veiled in deep green
 White isle, garden unvisited
 A circle carved in foreign earth
 -----------------------
-NOTICE
+Info
 -----------------------
 #霧の混じる島
 #地図に載らぬ島
@@ -81,7 +81,7 @@ An island not found on any map
 Behind the small hut
 Islands untouched by human hands
 -----------------------
-NOTICE
+Info
 -----------------------
 #霧深き大地で最も高き所にある草原
 #霧深き山の懐
@@ -91,7 +91,7 @@ Highest meadow in the misty land
 Within the mist-shrouded mountains
 There, obtain the token of ill omen
 -----------------------
-NOTICE
+Info
 -----------------------
 #石碑に文字が彫られていますが
 #難しくて読めません
@@ -648,21 +648,21 @@ OFF
 -----------------------
 OFF
 -----------------------
-notice
+Info
 -----------------------
 #アクアラビリンスに行きますか？
 #<03:00000000>　　　　　<size:000000C0><color:00000002>セーブはしましたか？
 Go to the Aqua Labyrinth?
 <03:00000000> <size:000000C0><color:00000002>Have you saved?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
 <03:00000000> Yes
 No
 -----------------------
-notice
+Info
 -----------------------
 #不気味な光を放つ入口があります
 #強力な力で封印されているのか
@@ -671,41 +671,41 @@ An entrance glows with eerie light.
 It seems sealed by a powerful force.
 You cannot enter.
 -----------------------
-notice
+Info
 -----------------------
 #手持ちの宝石があやしく輝いています
 Your gems are glowing ominously.
 -----------------------
-notice
+Info
 -----------------------
 #十五個の宝石が激しく輝いています
 #宝石を中に入れますか？
 The fifteen gems are shining
 intensely. Insert the gems?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
 <03:00000000> Yes
 No
 -----------------------
-notice
+Info
 -----------------------
 #このマップは暗くなります
 This area is dark.
 -----------------------
-notice
+Info
 -----------------------
 #このマップはダメージを受けます
 This area deals damage.
 -----------------------
-notice
+Info
 -----------------------
 #このマップはエンカウントマックスです
 Encounter rate is at maximum.
 -----------------------
-notice
+Info
 -----------------------
 #このマップは視界が狭くなります
 Visibility is limited in this area.
@@ -721,7 +721,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -746,24 +746,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{DA}{C0}を手に入れました
 Acquired {16}{25}{DA}{C0}.
 -----------------------
-notice
+Info
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{E2}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{E2}{C0}, but
 your inventory is full.
 -----------------------
-notice
+Info
 -----------------------
 #何もありません
 There's nothing here.

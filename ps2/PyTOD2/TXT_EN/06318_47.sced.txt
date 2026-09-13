@@ -215,7 +215,7 @@ But! Only if Rutee says it's okay.
 I know, I know! Then I gotta go talk
 to Mom right away. Let's go, <Loni>!
 -----------------------
-notice
+Info
 -----------------------
 #<Kyle>と<Loni>は
 #称号「<item:00000807>」を得ました
@@ -257,12 +257,12 @@ You two, run!!
 #<Kyle>････？
 #<Kyle>なのね！
 <Kyle>...?
-It's <Kyle>, isn't it!
+Is that you, <Kyle>?
 -----------------------
 <Kyle>
 -----------------------
 #････おねえちゃん、だれ？
-...Big Sis, who are you?
+Who are you, lady?
 -----------------------
 <Reala>
 -----------------------
@@ -305,8 +305,7 @@ wake up!
 -----------------------
 #お、おねえちゃん
 #痛いよ････
-Ow, Big Sis...
-that hurts...
+Oww, that hurts, lady...
 -----------------------
 <Reala>
 -----------------------
@@ -341,7 +340,7 @@ Nnngh!
 #痛い！
 #頭が痛いよ、おねえちゃん！
 It hurts!
-My head hurts, Big Sis!
+My head hurts, lady!
 -----------------------
 <Reala>
 -----------------------
@@ -509,7 +508,7 @@ Stahn
 #スタンさん････！
 #来ちゃダメだ！　逃げろ！
 Stahn...!
-Don't come! Run!
+Get outta here, run!
 -----------------------
 <Reala>
 -----------------------
@@ -633,8 +632,8 @@ It's like I killed him myself.
 #知らないほうがいい、そのほうが
 #<Kyle>のためだって････
 And I hid it from you the whole
-time. Better you didn't know. For
-<Kyle>'s sake...
+time, <Kyle>. Better you didn't know,
+for your sake.
 -----------------------
 <Loni>
 -----------------------
@@ -942,14 +941,14 @@ Yes...!
 #あそこだ、<Kyle>！
 Over there, <Kyle>!
 -----------------------
-notice
+Info
 -----------------------
 #子供たちとにわとりから<num:00000014>秒逃げて下さい
 #マップの外に出たら無条件で負けになります
 Avoid kids and chickens for <num:00000014> sec.
 Leave the map and you lose.
 -----------------------
-NOTICE
+Info
 -----------------------
 #逃げ切った！
 We got away!
@@ -971,7 +970,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -996,24 +995,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-notice
+Info
 -----------------------
 #{16}{26}{96}{C0}を手に入れました
 Acquired {16}{26}{96}{C0}.
 -----------------------
-notice
+Info
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{26}{9E}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{26}{9E}{C0}, but
 your inventory is full.
 -----------------------
-notice
+Info
 -----------------------
 #何もありません
 There's nothing here.
@@ -1021,12 +1020,12 @@ There's nothing here.
 #デュナミス孤児院
 Dunamis Orphanage
 -----------------------
-NOTICE
+Info
 -----------------------
 #すべり台で遊びますか？
 Do you want to play on the slide?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　遊ぶ　
 #　遊ばない　

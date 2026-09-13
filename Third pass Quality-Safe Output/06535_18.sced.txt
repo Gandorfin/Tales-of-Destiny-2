@@ -14,7 +14,7 @@ Is something troubling you? The
 Sacred Order of Fortuna is here to
 answer any questions you may have.
 -----------------------
-select
+Option
 -----------------------
 #フォルトゥナ神団ってなに？
 #どこで休むの？
@@ -168,7 +168,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -193,24 +193,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{BA}{C0}を手に入れました
 Acquired {16}{25}{BA}{C0}.
 -----------------------
-notice
+Info
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{C2}{C0}, but
 your inventory is full.
 -----------------------
-notice
+Info
 -----------------------
 #何もありません
 There's nothing here.
@@ -221,7 +221,7 @@ Veteran
 #ひよっこ
 Rookie
 -----------------------
-notice
+Info
 -----------------------
 #「武器攻撃」について
 #話し合っているようです
@@ -291,7 +291,7 @@ Successful defense recovers a lot
 of SP, so defending with <button:00000047> is
 important too.
 -----------------------
-notice
+Info
 -----------------------
 #「特技」について
 #話し合っているようです
@@ -344,7 +344,7 @@ if you take out multiple
 enemies together during combos,
 you'll recover even more TP.
 -----------------------
-notice
+Info
 -----------------------
 #「エンチャント」について
 #話し合っているようです
@@ -434,7 +434,7 @@ Watch out for that!!
 Sure enough, using it on a scratch
 won't get you any experience.
 -----------------------
-notice
+Info
 -----------------------
 #「戦闘の作戦」について
 #話し合っているようです
@@ -495,7 +495,7 @@ each character's abilities
 and the enemy should let
 you fight more efficiently.
 -----------------------
-notice
+Info
 -----------------------
 #「テクニカルスマッシュ」
 #について話し合っているようです
@@ -556,7 +556,7 @@ Action Enchants burn through SP,
 but mastering finishing blows
 is the path to true mastery.
 -----------------------
-notice
+Info
 -----------------------
 #「スピリッツ」について
 #話し合っているようです
@@ -611,7 +611,7 @@ brighter the cursor color,
 the higher their SP. You can
 gauge an enemy's SP mid-fight.
 -----------------------
-notice
+Info
 -----------------------
 #「連続ヒット」について
 #話し合っているようです
@@ -670,7 +670,7 @@ drags everyone down. So even
 here, balancing Magic Artes
 and Base Artes is crucial.
 -----------------------
-notice
+Info
 -----------------------
 #「影響エリア」について
 #話し合っているようです
@@ -726,7 +726,7 @@ Overly Veteran
 #息子
 Son
 -----------------------
-notice
+Info
 -----------------------
 #「ステータス変化」について
 #話し合っているようです
@@ -814,7 +814,7 @@ Overly Veteran
 #息子
 Son
 -----------------------
-notice
+Info
 -----------------------
 #「スピリッツブラスター」
 #について話し合っているようです
@@ -925,7 +925,7 @@ Overly Veteran
 #息子
 Son
 -----------------------
-notice
+Info
 -----------------------
 #「フィールドオブエフェクト」
 #について話し合っているようです
@@ -992,7 +992,7 @@ the sun. It's a nuisance.
 #（言うのが遅いよ父さん････）
 (A little late to say that, Dad...)
 -----------------------
-notice
+Info
 -----------------------
 #「バトルグレード」について
 #話し合っているようです
@@ -1054,7 +1054,7 @@ That's all there is to it.
 As expected of you,
 Senpai. I'm learning a lot.
 -----------------------
-notice
+Info
 -----------------------
 #「受身」について
 #話し合っているようです
@@ -1090,7 +1090,7 @@ SP and TP. Pretty great, right?
 #もももももちろん知ってたさ
 O-o-o-o-o-of course I knew that.
 -----------------------
-notice
+Info
 -----------------------
 #「戦闘難易度」について
 #話し合っているようです
@@ -1146,7 +1146,7 @@ SECOND is a moderate difficulty,
 so if you want a bit more of
 a challenge, I'd recommend it.
 -----------------------
-notice
+Info
 -----------------------
 #「通常攻撃」について
 #深く話し合っているようです
@@ -1237,7 +1237,7 @@ negligible, so if you're already
 overwhelmed by other rules, don't
 force yourself to memorize it.
 -----------------------
-notice
+Info
 -----------------------
 #「長い話」について
 #話し合っているようです
@@ -1282,7 +1282,7 @@ I'm telling you now.
 #納得さ
 ...Makes sense, I guess.
 -----------------------
-notice
+Info
 -----------------------
 #「アイテム拾得」について
 #話し合っているようです
@@ -1361,7 +1361,7 @@ That too. The important thing
 is to adventure in a way
 that suits your own style.
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　

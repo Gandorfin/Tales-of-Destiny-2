@@ -15,14 +15,14 @@ Mysterious Woman
 This is a place
 that awakens your memories...
 -----------------------
-notice
+Info
 -----------------------
 #ここでは、発生済みのスクリーンチャットを
 #再生することができます
 You can replay Screen Chats
 that have already occurred here.
 -----------------------
-notice
+Info
 -----------------------
 #再生したいスクリーンチャットの
 #番号を選んで<button:00000025>ボタンを押して下さい
@@ -31,7 +31,7 @@ Select a Screen Chat number and
 press <button:00000025> to play it.
 Press <button:00000026> to stop playback.
 -----------------------
-notice
+Info
 -----------------------
 #なお、見たことのないスクリーンチャットは
 #再生することができません
@@ -69,7 +69,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -94,24 +94,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-notice
+Info
 -----------------------
 ##{16}{25}{C6}{C0}を手に入れました
 You obtained {16}{25}{C6}{C0}.
 -----------------------
-notice
+Info
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{CE}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{CE}{C0}, but
 your inventory is full.
 -----------------------
-notice
+Info
 -----------------------
 #何もありません
 There's nothing here.

@@ -19,7 +19,7 @@ All sorts of clothes hang
 from the racks. The designs
 are pretty impressive, too.
 -----------------------
-NOTICE
+Info
 -----------------------
 #<item:00000122>を手に入れました
 Acquired <item:00000122>.
@@ -498,7 +498,7 @@ for that? I'll craft it however
 I like, so you'll just have to
 wait and see how it turns out!
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　お願いします　
 #　遠慮します　　
@@ -563,7 +563,7 @@ Winters
 Here, take it! A Winters
 masterpiece, through and through!
 -----------------------
-NOTICE
+Info
 -----------------------
 #<item:000000BF>を手に入れました
 Acquired <item:000000BF>.
@@ -592,7 +592,7 @@ Winters
 Heh heh... Even I'm impressed by
 what I've made. Go on, take a look!
 -----------------------
-NOTICE
+Info
 -----------------------
 #{18}{44}{6C}{C0}を手に入れました
 Acquired {18}{44}{6C}{C0}.
@@ -635,7 +635,7 @@ Winters
 Here, take it! A Winters
 masterpiece, through and through!
 -----------------------
-NOTICE
+Info
 -----------------------
 #<item:0000011C>を手に入れました
 Acquired <item:0000011C>.
@@ -664,7 +664,7 @@ Winters
 Heh heh... Even I'm impressed by
 what I've made. Go on, take a look!
 -----------------------
-NOTICE
+Info
 -----------------------
 #{18}{44}{6C}{C0}を手に入れました
 Acquired {18}{44}{6C}{C0}.
@@ -680,7 +680,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -705,24 +705,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{C6}{C0}を手に入れました
 Acquired {16}{25}{C6}{C0}.
 -----------------------
-notice
+Info
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{CE}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{CE}{C0}, but
 your inventory is full.
 -----------------------
-notice
+Info
 -----------------------
 #何もありません
 There's nothing here.

@@ -4,19 +4,19 @@ Darilsheid Underground Waterway
 #ダリルシェイド地下水路
 Darilsheid Underground Waterway
 -----------------------
-Notice
+Info
 -----------------------
 #鉄格子を壊しました
 The iron bars have been broken.
 -----------------------
-NOTICE
+Info
 -----------------------
 #持っていった道具を
 #元に戻しました
 The items you took have been
 returned to their original places.
 -----------------------
-NOTICE
+Info
 -----------------------
 #工具箱があります
 #中にいろいろな道具が入っていますが
@@ -64,7 +64,7 @@ You take the water pipe.
 #クギを持っていきます
 You take the nails.
 -----------------------
-NOTICE
+Info
 -----------------------
 <Judas>
 -----------------------
@@ -84,7 +84,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -109,24 +109,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{C2}{C0}を手に入れました
 Acquired {16}{25}{C2}{C0}.
 -----------------------
-notice
+Info
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{CA}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{CA}{C0}, but
 your inventory is full.
 -----------------------
-notice
+Info
 -----------------------
 #何もありません
 There's nothing here.

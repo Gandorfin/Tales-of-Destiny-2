@@ -1,8 +1,8 @@
 #黄昏都市レアルタ
-Twilight City Realta
+Dusk City Realta
 -----------------------
 #黄昏都市レアルタ
-Twilight City Realta
+Dusk City Realta
 -----------------------
 <Kyle>
 -----------------------
@@ -258,7 +258,7 @@ Man
 #生きる役目を終えたんだから
 #死ぬのがあたりまえじゃないか
 Sad? Why?
-I've fulfilled my purpose in life.
+He fulfilled his purpose in life.
 Isn't it only natural to die?
 -----------------------
 #女性
@@ -376,7 +376,7 @@ Child
 #エルレインさまの
 #お気に入りになりたいな！
 I wanna be a favorite of Lady
-Elrane just like you, big brothers!
+Elrane, just like you guys!
 -----------------------
 #子供
 Child
@@ -419,7 +419,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -444,24 +444,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-notice
+Info
 -----------------------
 #{16}{27}{52}{C0}を手に入れました
 Acquired {16}{27}{52}{C0}.
 -----------------------
-notice
+Info
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{27}{5A}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{27}{5A}{C0}, but
 your inventory is full.
 -----------------------
-notice
+Info
 -----------------------
 #何もありません
 There's nothing here.

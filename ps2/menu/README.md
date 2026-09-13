@@ -10,7 +10,7 @@ tables reference offsets inside files you extract yourself.
 |---|---|---|
 | `*.md1` overlay modules in `FILE.FPB` | 525 (+122 inside `00017.pak3`) | items, equipment, shop, refine, enchant, save, status, customize, cooking UI, grade shop, monster book, titles, artes and tactics menus, name entry, battle system and the Battle Memos, world map region labels |
 | `*.pak0` world map scripts in `FILE.FPB` | 261 | signposts, mine entrance labels, map location labels, ferry and minigame text, the flying dragon anchor scene, the ending monologue |
-| `*.pak1` enemy packs in `FILE.FPB` | 256 occurrences (100 distinct) + 218 enemy names | enemy arte and Mystic Arte names shown in battle, the lines bosses shout (Barbatos, Elraine and others) and the enemy-name banner at the start of an encounter (the name field in every enemy pack, plus the `TEKI` list in 08063.pak1), via `enemy_text.py` |
+| `*.pak1` enemy packs in `FILE.FPB` | 159 table entries, alternate/cut-in literals + 218 enemy names | enemy arte and Mystic Arte names shown in battle, the lines bosses shout (Barbatos, Elraine and others) and the enemy-name banner at the start of an encounter (the name field in every enemy pack, plus the `TEKI` list in 08063.pak1), via `enemy_text.py` |
 | `06306.scpk` | 1 | the opening caption "And so... eighteen years passed...", a scenario package that predates the proofread range (06307 onward) and has no text file of its own; patched in place inside the package |
 | `SLPS_251.72` | 597 + 277 ops + 27 cut-ins | character titles, plus the earlier Arte / Status / Enchant / Cooking-help menu patch (`slps_menu_patch.json`) and the battle cut-in names of the 27 party artes that still flashed up in kanji, so the executable is complete from a clean English-menu base |
 
@@ -48,7 +48,7 @@ cd Tales-of-Destiny-2
 python ps2/menu/patch_menu_text.py ps2/PyTOD2/FPB
 python ps2/menu/sfm_text.py build ps2/PyTOD2/FPB
 python ps2/menu/enemy_text.py build ps2/PyTOD2/FPB
-python ps2/menu/title_credit.py ps2/PyTOD2/FPB --version 1.1.8
+python ps2/menu/title_credit.py ps2/PyTOD2/FPB --version 1.2.2
 python ps2/menu/patch_slps_titles.py ps2/PyTOD2/SLPS_251.72
 ```
 
@@ -59,7 +59,7 @@ cd C:\Users\you\Tales-of-Destiny-2
 python ps2\menu\patch_menu_text.py ps2\PyTOD2\FPB
 python ps2\menu\sfm_text.py build ps2\PyTOD2\FPB
 python ps2\menu\enemy_text.py build ps2\PyTOD2\FPB
-python ps2\menu\title_credit.py ps2\PyTOD2\FPB --version 1.1.8
+python ps2\menu\title_credit.py ps2\PyTOD2\FPB --version 1.2.2
 python ps2\menu\patch_slps_titles.py ps2\PyTOD2\SLPS_251.72
 ```
 
@@ -102,7 +102,7 @@ guards it.
 
 `title_credit.py` is the title screen: the two copyright lines under the
 menu are a 384x32 texture in `00021.pak3`, not text. The tool redraws the
-first line (the Japanese designer credit) as "Green Gel v1.1.8" and keeps
+first line (the Japanese designer credit) as "Green Gel v1.2.2" and keeps
 the Namco line; give it the version you are releasing. The title screen
 draws that first line as a sprite about 96 pixels wide (the width of the
 Japanese credit), which is why the label is short and condensed and why the
@@ -134,7 +134,7 @@ rebuilt. The full sequence, with the PyTOD2 button names:
 2. `python ps2\menu\patch_menu_text.py ps2\PyTOD2\FPB`
    and `python ps2\menu\sfm_text.py build ps2\PyTOD2\FPB` (the Quiz Book)
    and `python ps2\menu\enemy_text.py build ps2\PyTOD2\FPB` (enemy artes)
-   and `python ps2\menu\title_credit.py ps2\PyTOD2\FPB --version 1.1.8`
+   and `python ps2\menu\title_credit.py ps2\PyTOD2\FPB --version 1.2.2`
    (the patch name on the title screen, with the version being released).
 3. Make sure `new_SLPS_251.72` exists next to `SLPS_251.72` (Pack FPB
    writes the new pointer table into it), then
@@ -191,6 +191,10 @@ never touched and Pack FPB is unaffected.
   executable instead of failing, and repairs one known problem from an
   earlier version of itself (a pooled title written over the previous
   string's terminator) if it finds it.
+* Known terminology from earlier English builds is migrated in place. This
+  includes menu strings, titles reached through their current pointers, and
+  Quiz Book strings that an earlier build relocated to the end of an SFM
+  module. Ambiguous matches are refused rather than guessed.
 * A `.bak` is written on first run.
 * File sizes never change.
 * For the titles, the patcher also verifies that each pointer really points at
@@ -262,6 +266,11 @@ be pointers, so their English must fit the budget (the build reports any
 overflow and leaves that string Japanese). Run `build` before `Pack FPB`, in
 the same folder as `patch_menu_text.py`.
 
+When terminology changes in a later release, `build` can also find a known
+former English value at its relocated offset and replace it without requiring
+a clean Japanese module. It still validates live source strings and refuses
+multiple matches, so this migration path does not weaken clean-build checks.
+
 ## Enemy artes and boss lines (`enemy_text.py`)
 
 Every enemy has a `pak1` pack (08063 onward): a `u32 count` plus
@@ -276,10 +285,18 @@ canonical strings (89 distinct) with their byte budgets. The same scripts
 also occur 61 times in alternate ENd members (usually member 4 or 5) across
 48 packs. `build` patches those reused copies by matching their Japanese
 text, including Rune Uruz and Rune Algiz variants that do not load member 1.
-Six more strings exist only in alternate members, for 31 additional
-occurrences: Sand Shoot, Luminous Field, Genius, Wisdom Rondo,
-Regeneration and Spider Net. They are listed in `EXTRA_TRANSLATIONS` in
-`enemy_text.py` and receive the same in-place, fixed-budget treatment.
+Additional strings exist only in alternate members: Sand Shoot, Luminous
+Field, Genius, Wisdom Rondo, Regeneration, Spider Net and Might Oratorio.
+They are listed in `EXTRA_TRANSLATIONS` in `enemy_text.py` and receive the
+same in-place, fixed-budget treatment.
+
+Mystic Arte cut-ins are literals in `efD` effect scripts. Most decode through
+the normal table, but Judas's kanji banner uses a cut-in-specific glyph page;
+`enemy_text.py` identifies its exact raw byte sequence before decoding so it
+cannot fall back to Japanese. Compact English names are used where the full
+localized name cannot fit the fixed byte slot. Mystic Arte and hyphen-wrapped
+enemy banners are padded on both sides so they render centered instead of
+left-aligned; ordinary battle lines keep their original alignment.
 
 ```
 python ps2\menu\enemy_text.py build ps2\PyTOD2\FPB            # patch the pak1 files in place (backups as .bak)

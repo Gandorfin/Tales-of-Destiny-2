@@ -10,14 +10,14 @@ Frostheim
 #スノーフリア
 Frostheim
 -----------------------
-NOTICE
+Info
 -----------------------
 #ソーサラースコープを使って、カギを
 #取り外しました
 Used the Sorcerer's Scope to
 remove the key.
 -----------------------
-NOTICE
+Info
 -----------------------
 #扉に複雑なカギと紙切れがついています
 #『ある道具を使えば、普段は出来ない事が
@@ -43,7 +43,7 @@ written as the destination.
 #からっぽだ････
 It's empty...
 -----------------------
-NOTICE
+Info
 -----------------------
 #ゆきだるまの中に
 #<item:000001A9>がありました
@@ -491,14 +491,14 @@ Ticket Seller
 You can head to Neuestadt from here.
 Will you board the ship?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　ノイシュタットに行く（<0B:00000001>{14}{24}{7C}{C0}<0B:00000000>ガルド）　
 #　船には乗らない　
 <03:00000000>Go to Neuestadt (<0B:00000001>{14}{24}{7C}{C0}<0B:00000000> Gald)
 Don't board the ship
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　ノイシュタットに行く　
 #　船には乗らない　
@@ -659,7 +659,7 @@ Old Man Salmon
 #焼きシャケ食う？
 Want some grilled salmon?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　食べる　
 #　食べない　
@@ -715,7 +715,7 @@ Hey...isn't something burning?
 Once it's in your stomach, it's all
 the same. Don't fuss over the taste.
 -----------------------
-NOTICE
+Info
 -----------------------
 #<item:0000007C>を手に入れました
 Acquired <item:0000007C>.
@@ -740,7 +740,7 @@ Brother
 Tch. Then I've got no use for you.
 Hand over that sword!
 -----------------------
-NOTICE
+Info
 -----------------------
 #<item:0000007C>を返しました
 Returned <item:0000007C>.
@@ -755,7 +755,7 @@ We're friends, so your price is
 <0B:00000001><num:00000FA0><0B:00000000>
 Gald. Today only.
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　それは安い！買った！　
 #　遠慮しておくよ、ブラザー　
@@ -770,7 +770,7 @@ Brother
 Heh, that's what I like to hear.
 You got yourself a deal, brother.
 -----------------------
-NOTICE
+Info
 -----------------------
 #<0B:00000001><num:00000FA0><0B:00000000>ガルド払いました
 Paid <0B:00000001><num:00000FA0><0B:00000000> Gald.
@@ -852,7 +852,7 @@ Trade:
 For:
 <item:FFFFFFFF>
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　了承　
 #　却下　
@@ -920,7 +920,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -945,24 +945,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{CA}{C0}を手に入れました
 Acquired {16}{25}{CA}{C0}.
 -----------------------
-notice
+Info
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{D2}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{D2}{C0}, but
 your inventory is full.
 -----------------------
-notice
+Info
 -----------------------
 #何もありません
 There's nothing here.
@@ -993,7 +993,7 @@ may sometimes carry over.
 One bottle costs <0B:00000001>{14}{35}{DC}{C0}<0B:00000000> Gald.
 Would you like to buy <item:00000012>?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　買う　
 #　<0B:00000001>{14}{25}{E6}{C0}本まとめて買う（{14}{35}{E0}{C0}ガルド）<0B:00000000>　
@@ -1004,7 +1004,7 @@ select
 Refine Guide
 No thanks
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　買う　
 #　リファイン講座　
@@ -1027,7 +1027,7 @@ Thank you for your purchase.
 Would you like to hear
 the Refine Guide?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　聞きたい　
 #　聞きたくない　
@@ -1037,7 +1037,7 @@ No thanks
 #何について知りたいですか？
 What would you like to know?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　４、スロットについて　
 #　５、装飾品のリファイン　
@@ -1048,7 +1048,7 @@ select
 6. Equipment That Cannot Be Refined
 Previous Page
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　１、リファインとは
 #　２、アイテムの変化　　　　　　　　　　

@@ -166,7 +166,7 @@ Bard
 #飛行竜の幻覚まで見るし････
 #カゼだな、こりゃ････
 ...And just now, I was even
-hallucinating a Flying Dragon...
+hallucinating a Draconis...
 This is definitely a cold...
 -----------------------
 #吟遊詩人
@@ -175,7 +175,7 @@ Bard
 #城に、飛行竜がバーンって････
 #やっぱ、幻覚だよな････
 #････ハ、ハーックション！
-A Flying Dragon went BA-BOOM at
+A Draconis went BA-BOOM at
 the castle... It's gotta be a
 hallucination... ...H-hachoo!
 -----------------------
@@ -185,7 +185,7 @@ Bard
 #ハイデルベルグ城に、飛行竜が来襲！
 #こんな劇的な瞬間に居合わせるなんて！
 #吟遊詩人としては、黙ってられません！
-Flying Dragons are attacking
+Draconis are attacking
 Heidelberg Castle! To bear witness
 to such a dramatic moment! As a
 bard, I cannot remain silent!
@@ -261,7 +261,7 @@ Bard
 #飛行竜がおそってきたときに
 #これで、ウッドロウ王を題材にした
 #歌が作れるかもって、思ったんです
-When the Flying Dragon attacked,
+When the Draconis attacked,
 I thought I might be able to write
 a song about King Woodrow.
 -----------------------
@@ -347,7 +347,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -372,24 +372,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{BA}{C0}を手に入れました
 Acquired {16}{25}{BA}{C0}.
 -----------------------
-notice
+Info
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{C2}{C0}, but
 your inventory is full.
 -----------------------
-notice
+Info
 -----------------------
 #何もありません
 There's nothing here.

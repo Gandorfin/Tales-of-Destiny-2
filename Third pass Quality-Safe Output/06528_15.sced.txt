@@ -1,23 +1,23 @@
 #飛行竜
-Flying Dragon
+Draconis
 -----------------------
 #飛行竜
-Flying Dragon
+Draconis
 -----------------------
-notice
+Info
 -----------------------
 #隔壁が下りているため通れません
 The bulkhead is down.
 You can't get through.
 -----------------------
-notice
+Info
 -----------------------
 #近くにあるとおもわれる
 #緊急用の避難路を探しましょう
 There should be an emergency
 escape route nearby. Let's find it.
 -----------------------
-notice
+Info
 -----------------------
 #パワー不足で上まで到達しません
 #補助電源を探しましょう
@@ -32,9 +32,9 @@ auxiliary power switch.
 Turned off the lift's
 auxiliary power switch.
 -----------------------
-notice
+Info
 -----------------------
-notice
+Info
 -----------------------
 #宝箱はフェイクでした
 The treasure chest was a fake.
@@ -50,7 +50,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -75,24 +75,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{BE}{C0}を手に入れました
 Acquired {16}{25}{BE}{C0}.
 -----------------------
-notice
+Info
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{D2}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{D2}{C0}, but
 your inventory is full.
 -----------------------
-notice
+Info
 -----------------------
 #何もありません
 There's nothing here.
@@ -100,7 +100,7 @@ There's nothing here.
 #タイムオーバー
 Time's up.
 -----------------------
-noitce
+Info
 -----------------------
 #制御装置を破壊しました
 Control device destroyed.

@@ -4,51 +4,51 @@ Er'ther Base Ruins
 #地上軍拠点跡地
 Er'ther Base Ruins
 -----------------------
-NOTICE
+Info
 -----------------------
 #あるべき場所にあるべき物を戻せ
 Return each thing where it belongs.
 -----------------------
-NOTICE
+Info
 -----------------------
 #木の封印
 Wood Seal
 -----------------------
-NOTICE
+Info
 -----------------------
 #水の封印
 Water Seal
 -----------------------
-NOTICE
+Info
 -----------------------
 #火の封印
 Fire Seal
 -----------------------
-NOTICE
+Info
 -----------------------
 #翼の封印
 Wing Seal
 -----------------------
-NOTICE
+Info
 -----------------------
 #さすれば力を得られよう
 Only then shall you gain power.
 -----------------------
-NOTICE
+Info
 -----------------------
 #強力な封印に阻まれて
 #先へ進めません
 A powerful seal blocks the way.
 You cannot proceed.
 -----------------------
-NOTICE
+Info
 -----------------------
 #強力な封印に阻まれて
 #先へ進めません
 A powerful seal blocks the way.
 You cannot proceed.
 -----------------------
-NOTICE
+Info
 -----------------------
 #強力な封印に阻まれて
 #先へ進めません
@@ -66,7 +66,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -91,24 +91,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-notice
+Info
 -----------------------
 #{16}{27}{02}{C0}を手に入れました
 Acquired {16}{27}{02}{C0}.
 -----------------------
-notice
+Info
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{27}{0A}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{27}{0A}{C0}, but
 your inventory is full.
 -----------------------
-notice
+Info
 -----------------------
 #何もありません
 There's nothing here.

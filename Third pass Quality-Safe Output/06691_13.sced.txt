@@ -13,21 +13,21 @@ Oh my?
 Is this the Er'ther base?
 ...It's awfully run-down, though.
 -----------------------
-NOTICE
+Info
 -----------------------
 #不気味に光る何かの『かけら』があります
 #不吉な予感がしますが、これを持っていきますか？
 A strange fragment glows ominously.
 You sense a bad omen. Take it?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　持っていく　
 #　持っていかない　
 <03:00000000> Take it.
 Leave it.
 -----------------------
-NOTICE
+Info
 -----------------------
 #デリスエンブレムのかけらを手に入れました
 Acquired a Delis Emblem fragment.
@@ -43,7 +43,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -68,24 +68,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{C2}{C0}を手に入れました
 Acquired {16}{25}{C2}{C0}.
 -----------------------
-notice
+Info
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{CA}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{CA}{C0}, but
 your inventory is full.
 -----------------------
-notice
+Info
 -----------------------
 #何もありません
 There's nothing here.

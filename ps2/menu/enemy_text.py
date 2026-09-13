@@ -79,6 +79,7 @@ EXTRA_TRANSLATIONS = {
     '-英知のロンド-': '-Wisdom Rondo-',
     '-リジェネレーション-': '-Regeneration-',
     '-スパイダーネット-': '-Spider Net-',
+    '-剛力のオラトリオ-': '-Might Oratorio-',
 }
 
 # Mystic Arte banners embedded in efD battle-effect scripts.  The katakana
@@ -93,8 +94,18 @@ MYSTIC_ARTE_TRANSLATIONS = {
     '裂衝蒼破塵': 'Azure Dust',
     '絶破滅焼撃': 'Annihilate',
     '魔人千裂衝': 'Demon Rend',
+    '浄破滅焼闇': 'Cleansing',
+    '蒼龍滅牙斬': 'Azure Fang',
     '震天裂空': 'Sky Rend',
     '震天裂空斬光': 'Sky Rend Ray',
+}
+
+# A few efD effect scripts use a cut-in-specific glyph page rather than the
+# normal text table. Name those raw literals explicitly so the replacement
+# remains deterministic where a two-byte code has a different normal-font
+# meaning.
+EFD_LITERAL_NAMES = {
+    bytes.fromhex('e0d89ae99cd4e26c9f83'): '浄破滅焼闇',
 }
 
 TEXT_SCRIPT_SIGNATURES = (b'ENd', b'efD')
@@ -157,13 +168,15 @@ def decode_literal(data, p):
     Literals use the game's table encoding; the katakana mystic arte names in
     the efD effect scripts are plain Shift-JIS instead, so a literal that is
     not table text is tried as Shift-JIS before giving up."""
-    r = _decode_table_literal(data, p)
-    if r is not None:
-        return r
     end = data.find(b'\0', p)
     if end < 0 or end == p:
         return None
     raw = data[p:end]
+    if data[:3] == b'efD' and raw in EFD_LITERAL_NAMES:
+        return EFD_LITERAL_NAMES[raw], end
+    r = _decode_table_literal(data, p)
+    if r is not None:
+        return r
     try:
         text = raw.decode('shift_jis')
     except UnicodeDecodeError:
@@ -243,7 +256,9 @@ def patch_known_literals(raw, translations):
             english = translations.get(japanese)
             if not english:
                 continue
-            enc = fit(english, budget)
+            enc = fit(
+                english, budget,
+                centered=is_centered_banner(japanese, english))
             if enc is None:
                 print('  member %d 0x%X: %r does not fit in %d bytes'
                       % (index, off, english, budget))
@@ -529,11 +544,21 @@ def cmd_extract(args):
     print('%d strings in %d files -> %s' % (len(rows), files, args.csv))
 
 
-def fit(english, budget):
+def is_centered_banner(japanese, english):
+    """Return whether a fixed-width battle banner should be centered."""
+    return japanese in MYSTIC_ARTE_TRANSLATIONS or (
+        english.startswith('-') and english.endswith('-'))
+
+
+def fit(english, budget, centered=False):
     enc = P.encode(english)
     if len(enc) > budget:
         return None
-    return enc + b' ' * (budget - len(enc))
+    padding = budget - len(enc)
+    if not centered:
+        return enc + b' ' * padding
+    left = padding // 2
+    return b' ' * left + enc + b' ' * (padding - left)
 
 
 def cmd_check(args):
@@ -595,7 +620,7 @@ def cmd_build(args):
                 continue
             if cur[0] == r['japanese']:
                 pass
-            elif cur[0].rstrip() == r['english']:
+            elif cur[0].strip() == r['english']:
                 skipped += 1
                 continue
             else:
@@ -606,7 +631,9 @@ def cmd_build(args):
                 print('  %s %s: budget %d but string is %d bytes' % (name, r['offset'], budget, cur[1] - off))
                 errors += 1
                 continue
-            enc = fit(r['english'], budget)
+            enc = fit(
+                r['english'], budget,
+                centered=is_centered_banner(r['japanese'], r['english']))
             if enc is None:
                 print('  %s %s: %r does not fit in %d bytes' % (name, r['offset'], r['english'], budget))
                 errors += 1

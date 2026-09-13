@@ -237,7 +237,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -262,24 +262,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{BA}{C0}を手に入れました
 Acquired {16}{25}{BA}{C0}.
 -----------------------
-notice
+Info
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{C2}{C0}, but
 your inventory is full.
 -----------------------
-notice
+Info
 -----------------------
 #何もありません
 There's nothing here.
@@ -306,7 +306,7 @@ bonus abilities may carry over.
 One bottle costs <0B:00000001>{14}{35}{CC}{C0}<0B:00000000> Gald.
 Would you like to buy <item:00000012>?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　買う　
 #　<0B:00000001>{14}{25}{D6}{C0}本まとめて買う（{14}{35}{D0}{C0}ガルド）<0B:00000000>　
@@ -317,7 +317,7 @@ select
 Refine Guide
 No thanks
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　買う　
 #　リファイン講座　
@@ -340,7 +340,7 @@ Thank you for your purchase.
 Would you like to hear
 the Refine Guide?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　聞きたい　
 #　聞きたくない　
@@ -350,7 +350,7 @@ No thanks
 #何について知りたいですか？
 What would you like to know?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　４、スロットについて　
 #　５、装飾品のリファイン　
@@ -361,7 +361,7 @@ select
 6. Equipment That Cannot Be Refined
 Previous Page
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　１、リファインとは
 #　２、アイテムの変化　　　　　　　　　　
@@ -635,7 +635,7 @@ Veteran
 #ひよっこ
 Rookie
 -----------------------
-notice
+Info
 -----------------------
 #「武器攻撃」について
 #話し合っているようです
@@ -707,7 +707,7 @@ When you defend successfully, you'll
 recover a lot of SP, so defending
 with <button:00000047> is important too.
 -----------------------
-notice
+Info
 -----------------------
 #「特技」について
 #話し合っているようです
@@ -762,7 +762,7 @@ Moreover, if you take them
 out together during a combo,
 you can recover even more TP.
 -----------------------
-notice
+Info
 -----------------------
 #「エンチャント」について
 #話し合っているようです
@@ -854,7 +854,7 @@ It's true that using them
 for a scratch wound won't
 count as experience.
 -----------------------
-notice
+Info
 -----------------------
 #「戦闘の作戦」について
 #話し合っているようです
@@ -915,7 +915,7 @@ each character's abilities
 and the enemy should let
 you fight more efficiently.
 -----------------------
-notice
+Info
 -----------------------
 #「テクニカルスマッシュ」
 #について話し合っているようです
@@ -979,7 +979,7 @@ which can be worrisome, but
 mastering finishing blows
 is the path to expertise.
 -----------------------
-notice
+Info
 -----------------------
 #「スピリッツ」について
 #話し合っているようです
@@ -1035,7 +1035,7 @@ the cursor color, the higher
 their SP. You can gauge
 an enemy's SP mid-fight.
 -----------------------
-notice
+Info
 -----------------------
 #「連続ヒット」について
 #話し合っているようです
@@ -1094,7 +1094,7 @@ down. As expected, the balance
 between magic artes and
 base artes matters here too.
 -----------------------
-notice
+Info
 -----------------------
 #「影響エリア」について
 #話し合っているようです
@@ -1148,7 +1148,7 @@ Overly Veteran
 #息子
 Son
 -----------------------
-notice
+Info
 -----------------------
 #「ステータス変化」について
 #話し合っているようです
@@ -1234,7 +1234,7 @@ Overly Veteran
 #息子
 Son
 -----------------------
-notice
+Info
 -----------------------
 #「スピリッツブラスター」
 #について話し合っているようです
@@ -1341,7 +1341,7 @@ Overly Veteran
 #息子
 Son
 -----------------------
-notice
+Info
 -----------------------
 #「フィールドオブエフェクト」
 #について話し合っているようです
@@ -1408,7 +1408,7 @@ under the sun. It's quite a bother.
 (You're pretty late to
 say that, Father...)
 -----------------------
-notice
+Info
 -----------------------
 #「バトルグレード」について
 #話し合っているようです
@@ -1470,7 +1470,7 @@ Focus on honing your own skills.
 As expected of you, Senpai.
 I learned something.
 -----------------------
-notice
+Info
 -----------------------
 #「受身」について
 #話し合っているようです
@@ -1506,7 +1506,7 @@ TP. That's pretty nice, isn't it?
 #もももももちろん知ってたさ
 O-o-o-o-of course I knew that.
 -----------------------
-notice
+Info
 -----------------------
 #「戦闘難易度」について
 #話し合っているようです
@@ -1564,7 +1564,7 @@ level, so if you want a
 bit more challenge, I'd
 recommend giving it a try.
 -----------------------
-notice
+Info
 -----------------------
 #「通常攻撃」について
 #深く話し合っているようです
@@ -1653,7 +1653,7 @@ so if you're already overwhelmed
 by other rules, don't force
 yourself to memorize this.
 -----------------------
-notice
+Info
 -----------------------
 #「長い話」について
 #話し合っているようです
@@ -1698,7 +1698,7 @@ which is why I'm telling you now.
 #納得さ
 Makes sense to me.
 -----------------------
-notice
+Info
 -----------------------
 #「アイテム拾得」について
 #話し合っているようです
@@ -1780,7 +1780,7 @@ That's true too. The important
 thing is to pursue adventures
 that match your own style.
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　

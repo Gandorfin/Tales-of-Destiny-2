@@ -323,7 +323,7 @@ Hey...is following another's ROUTE
 really fun? Break your chains with
 courage, pride, and a burning SOUL!
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　何を言っているかわからない　
 #　そうは思わない　
@@ -636,7 +636,7 @@ Previous Page
 <Loni>
 Next Page
 -----------------------
-select
+Option
 -----------------------
 #自由を愛する男
 A Man Who Loves Freedom
@@ -737,28 +737,28 @@ This guy's incredible!
 He's Refined over a million times!
 Now that's something else!
 -----------------------
-notice
+Info
 -----------------------
 #<Kyle>たちは
 #称号「<item:00000866>」を得ました
 <Kyle> and party acquired the title
 "<item:00000866>".
 -----------------------
-notice
+Info
 -----------------------
 #<Kyle>たちは
 #称号「<item:00000867>」を得ました
 <Kyle> and party acquired the title
 "<item:00000867>".
 -----------------------
-notice
+Info
 -----------------------
 #<Kyle>たちは
 #称号「<item:00000868>」を得ました
 <Kyle> and party acquired the title
 "<item:00000868>".
 -----------------------
-notice
+Info
 -----------------------
 #<Kyle>たちは
 #称号「<item:00000869>」を得ました
@@ -768,21 +768,21 @@ notice
 #アクアヴェイル
 Aquaveil
 -----------------------
-notice
+Info
 -----------------------
 #「{16}{A0}{00}{08}{24}{94}{CA}{C0}」
 #でよろしいですか？
 "{16}{A0}{00}{08}{24}{94}{CA}{C0}"
 Is that correct?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
 <03:00000000> Yes
 No
 -----------------------
-notice
+Info
 -----------------------
 #{15}{24}{90}{C0}は
 #称号「{16}{A0}{00}{08}{24}{94}{CA}{C0}」を得ました
@@ -803,7 +803,7 @@ Chef
 Want to learn how
 to make {16}{34}{A4}{C0}?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -834,7 +834,7 @@ Chef
 I've got a recipe for {16}{34}{A4}{C0}.
 Want to buy it for <0B:00000001>{14}{34}{9C}{C0}<0B:00000000> Gald?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -907,7 +907,7 @@ Chef
 Hand them over and I'll whip up
 some {16}{34}{A4}{C0}. How about it?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい
 #　いいえ
@@ -955,12 +955,12 @@ Chef
 I've been waiting for someone like
 you. A chef worthy of this.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{34}{A4}{C0}のレシピを拾いました
 Picked up the recipe for {16}{34}{A4}{C0}.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{34}{B8}{C0}の作り方を覚えました
 Learned how to make {16}{34}{B8}{C0}.
@@ -976,7 +976,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -1001,24 +1001,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-notice
+Info
 -----------------------
 #{16}{26}{06}{C0}を手に入れました
 Acquired {16}{26}{06}{C0}.
 -----------------------
-notice
+Info
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{26}{0E}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{26}{0E}{C0}, but
 your inventory is full.
 -----------------------
-notice
+Info
 -----------------------
 #何もありません
 There's nothing here.
@@ -1047,7 +1047,7 @@ added abilities may carry over.
 It'll cost you <0B:00000001>{14}{36}{18}{C0}<0B:00000000> Gald per bottle.
 Would you like to buy <item:00000012>?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　買う　
 #　<0B:00000001>{14}{26}{22}{C0}本まとめて買う（{14}{36}{1C}{C0}ガルド）<0B:00000000>　
@@ -1058,7 +1058,7 @@ Buy in bulk: <0B:00000001>{14}{26}{22}{C0} ({14}{36}{1C}{C0}<0B:00000000> Gald)
 Refine Guide
 No thanks
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　買う　
 #　リファイン講座　
@@ -1081,7 +1081,7 @@ Thank you for your purchase.
 Would you like to hear
 the Refine Guide?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　聞きたい　
 #　聞きたくない　
@@ -1091,7 +1091,7 @@ No thanks
 #何について知りたいですか？
 What would you like to know?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　４、スロットについて　
 #　５、装飾品のリファイン　
@@ -1102,7 +1102,7 @@ select
 6. Equipment That Cannot Be Refined
 Previous Page
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　１、リファインとは
 #　２、アイテムの変化　　　　　　　　　　

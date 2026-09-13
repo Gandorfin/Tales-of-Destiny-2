@@ -92,7 +92,28 @@ class BuildCommand(unittest.TestCase):
         self.assertNotIn(P.encode('裂衝蒼破塵'), table_data)
         self.assertIn(b'Azure Dust', table_data)
         self.assertNotIn('クリティカルブレード'.encode('shift_jis'), shift_jis_data)
-        self.assertIn(b'Critical Blade', shift_jis_data)
+        self.assertIn(b'   Critical Blade   ', shift_jis_data)
+
+    def test_mystic_arte_override_decodes_cut_in_specific_glyph_page(self):
+        raw_name = bytes.fromhex('e0d89ae99cd4e26c9f83')
+        body = b'efD\0' + struct.pack('<IIII', 100, 2, 252, 1)
+        member = lzss.pack(
+            body + b'\x0a\x05' + raw_name + b'\0' + b'\x11' * 20, 3)
+        raw = pack(member)
+        out, changed, errors = E.patch_known_literals(
+            raw, E.MYSTIC_ARTE_TRANSLATIONS)
+        self.assertEqual((changed, errors), (1, 0))
+        data = lzss.unpack(E.parse_pak1(out)[0])
+        self.assertNotIn(raw_name, data)
+        self.assertIn(b'Cleansing ', data)
+
+    def test_hyphenated_enemy_banner_is_centered_in_its_slot(self):
+        raw = pack(literal_member('-ルーン・ウルズ-'))
+        out, changed, errors = E.patch_known_literals(
+            raw, {'-ルーン・ウルズ-': '-Rune Uruz-'})
+        self.assertEqual((changed, errors), (1, 0))
+        data = lzss.unpack(E.parse_pak1(out)[0])
+        self.assertIn(b'  -Rune Uruz-   ', data)
 
     def test_build_names_patches_folder(self):
         with tempfile.TemporaryDirectory() as d:

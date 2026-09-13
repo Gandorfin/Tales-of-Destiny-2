@@ -50,7 +50,7 @@ Ticket Seller
 You can get to Cherik from here.
 Will you board the ship?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　チェリクに行く（<0B:00000001>{14}{24}{6C}{C0}<0B:00000000>ガルド）　
 #　船には乗らない　
@@ -73,7 +73,7 @@ Ticket Seller
 You can get to Cherik from here.
 Will you board the ship?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　チェリクに行く　
 #　船には乗らない　
@@ -145,7 +145,7 @@ That's four passengers!
 It'll be 400 Gald.
 That okay?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　船に乗る　
 #　乗らない　
@@ -195,7 +195,7 @@ If you do, I'd like three.
 To Cherik, right?
 That'll be <0B:00000001>{14}{24}{6C}{C0}<0B:00000000> Gald for three.
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　船に乗る　
 #　乗らない　
@@ -604,7 +604,7 @@ Chef
 Want to learn how
 to make {16}{34}{84}{C0}?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -635,7 +635,7 @@ Chef
 I've got a recipe for {16}{34}{84}{C0}.
 Want to buy it for <0B:00000001>{14}{34}{7C}{C0}<0B:00000000> Gald?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -708,7 +708,7 @@ Chef
 Hand them over and I'll whip up
 some {16}{34}{84}{C0}. How about it?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい
 #　いいえ
@@ -756,12 +756,12 @@ Chef
 I've been waiting for someone like
 you. A chef worthy of this.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{34}{84}{C0}のレシピを拾いました
 Picked up the recipe for {16}{34}{84}{C0}.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{34}{98}{C0}の作り方を覚えました
 Learned how to make {16}{34}{98}{C0}.
@@ -777,7 +777,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -802,24 +802,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{E6}{C0}を手に入れました
 Acquired {16}{25}{E6}{C0}.
 -----------------------
-notice
+Info
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{EE}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{EE}{C0}, but
 your inventory is full.
 -----------------------
-notice
+Info
 -----------------------
 #何もありません
 There's nothing here.
@@ -830,7 +830,7 @@ Veteran
 #ひよっこ
 Rookie
 -----------------------
-notice
+Info
 -----------------------
 #「武器攻撃」について
 #話し合っているようです
@@ -900,7 +900,7 @@ You'll recover plenty of SP when you
 defend successfully, so defending
 with <button:00000047> is important too.
 -----------------------
-notice
+Info
 -----------------------
 #「特技」について
 #話し合っているようです
@@ -956,7 +956,7 @@ you take out multiple enemies
 while they're linked together,
 you'll recover even more TP.
 -----------------------
-notice
+Info
 -----------------------
 #「エンチャント」について
 #話し合っているようです
@@ -1048,7 +1048,7 @@ usage count only increases
 True. Using it on a scratch
 won't teach you anything.
 -----------------------
-notice
+Info
 -----------------------
 #「戦闘の作戦」について
 #話し合っているようです
@@ -1109,7 +1109,7 @@ character's abilities and
 the enemy. That should lead
 to more efficient battles.
 -----------------------
-notice
+Info
 -----------------------
 #「テクニカルスマッシュ」
 #について話し合っているようです
@@ -1172,7 +1172,7 @@ which can be worrisome, but
 mastering the finishing blow
 is the path to true expertise.
 -----------------------
-notice
+Info
 -----------------------
 #「スピリッツ」について
 #話し合っているようです
@@ -1228,7 +1228,7 @@ the cursor color, the higher
 their SP. You can gauge an
 enemy's SP even mid-battle.
 -----------------------
-notice
+Info
 -----------------------
 #「連続ヒット」について
 #話し合っているようです
@@ -1285,7 +1285,7 @@ everyone down. Here too, the
 balance between Magic Artes
 and Base Artes is crucial.
 -----------------------
-notice
+Info
 -----------------------
 #「影響エリア」について
 #話し合っているようです
@@ -1341,7 +1341,7 @@ Overly Veteran
 #息子
 Son
 -----------------------
-notice
+Info
 -----------------------
 #「ステータス変化」について
 #話し合っているようです
@@ -1430,7 +1430,7 @@ Overly Veteran
 #息子
 Son
 -----------------------
-notice
+Info
 -----------------------
 #「スピリッツブラスター」
 #について話し合っているようです
@@ -1539,7 +1539,7 @@ Overly Veteran
 #息子
 Son
 -----------------------
-notice
+Info
 -----------------------
 #「フィールドオブエフェクト」
 #について話し合っているようです
@@ -1606,7 +1606,7 @@ the sun. Most troublesome.
 #（言うのが遅いよ父さん････）
 (You're late to say that, Dad...)
 -----------------------
-notice
+Info
 -----------------------
 #「バトルグレード」について
 #話し合っているようです
@@ -1668,7 +1668,7 @@ focus on honing your own skills.
 As expected of you,
 Senpai. I've learned a lot.
 -----------------------
-notice
+Info
 -----------------------
 #「受身」について
 #話し合っているようです
@@ -1705,7 +1705,7 @@ That's the best part, right?
 #もももももちろん知ってたさ
 O-o-o-o-of course I knew that.
 -----------------------
-notice
+Info
 -----------------------
 #「戦闘難易度」について
 #話し合っているようです
@@ -1761,7 +1761,7 @@ SECOND is a moderate difficulty,
 so if you want a bit more of
 a challenge, I'd recommend it.
 -----------------------
-notice
+Info
 -----------------------
 #「通常攻撃」について
 #深く話し合っているようです
@@ -1851,7 +1851,7 @@ so if you're already overwhelmed
 by other rules, you don't need to
 force yourself to memorize these.
 -----------------------
-notice
+Info
 -----------------------
 #「長い話」について
 #話し合っているようです
@@ -1898,7 +1898,7 @@ which is why I'm telling you now.
 #納得さ
 I can accept that.
 -----------------------
-notice
+Info
 -----------------------
 #「アイテム拾得」について
 #話し合っているようです
@@ -1980,7 +1980,7 @@ That's true too. Ultimately,
 it's important to adventure in
 a way that suits your own style.
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　

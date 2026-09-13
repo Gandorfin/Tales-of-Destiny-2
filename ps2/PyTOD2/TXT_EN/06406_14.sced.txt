@@ -93,7 +93,7 @@ in front of the house.
 #種は育っている？
 Are the seeds growing?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　育ってる　
 #　育ってない　
@@ -157,7 +157,7 @@ That's wonderful.
 Would you like to try
 growing some seeds?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　育ててみる　
 #　育てない　
@@ -249,14 +249,14 @@ inside. "Neuestadt Coliseum
 Don't go poking around in
 people's pasts without permission!
 -----------------------
-NOTICE
+Info
 -----------------------
 #あやしげな扉がありますが、開け方が分かりません
 #道具が手に入ったら調べてみましょう
 This strange door won't open.
 Check again with the right tool.
 -----------------------
-select
+Option
 -----------------------
 #１番目の種
 #２番目の種
@@ -277,7 +277,7 @@ Seed 4
 -----------------------
 ERROE
 -----------------------
-select
+Option
 -----------------------
 #１番目の水
 #２番目の水
@@ -298,7 +298,7 @@ Water 4
 -----------------------
 ERROE
 -----------------------
-select
+Option
 -----------------------
 #１番目の肥料
 #２番目の肥料
@@ -332,7 +332,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -357,24 +357,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{CE}{C0}を手に入れました
 Acquired {16}{25}{CE}{C0}.
 -----------------------
-notice
+Info
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{D6}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{D6}{C0}, but
 your inventory is full.
 -----------------------
-notice
+Info
 -----------------------
 #何もありません
 There's nothing here.

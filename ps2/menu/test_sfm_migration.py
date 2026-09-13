@@ -10,7 +10,9 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import sfm_text as S
 
 
-def sfm_with_string(rel, text):
+def sfm_with_string(rel, text, pointer_rel=None):
+    if pointer_rel is None:
+        pointer_rel = rel
     code_start = 0x20
     code_end = 0x26
     data_start = 0x28
@@ -21,7 +23,7 @@ def sfm_with_string(rel, text):
         data, 0, b'SFM_', 0x3FC, total, code_end,
         data_len, code_start, data_start, 0
     )
-    data[code_start:code_end] = b'\x03\x00' + struct.pack('<L', rel)
+    data[code_start:code_end] = b'\x03\x00' + struct.pack('<L', pointer_rel)
     encoded = text.encode('ascii') + b'\0'
     data[data_start + rel:data_start + rel + len(encoded)] = encoded
     return bytes(data)
@@ -63,6 +65,74 @@ class FormerTranslationMigration(unittest.TestCase):
             S.cmd_build(Args)
             _raw, _packed, second = S.read_module(module)
             self.assertEqual(first, second)
+
+    def test_holy_woman_is_migrated_to_saintess(self):
+        with tempfile.TemporaryDirectory() as folder:
+            module = os.path.join(folder, '06185.sfm')
+            with open(module, 'wb') as fh:
+                fh.write(sfm_with_string(0x53B3, 'Radiant Holy Woman'))
+            table = os.path.join(folder, 'translations.csv')
+            with open(table, 'w', encoding='utf-8', newline='') as fh:
+                writer = csv.DictWriter(
+                    fh,
+                    fieldnames=['file', 'offset', 'budget', 'pinned',
+                                'japanese', 'english']
+                )
+                writer.writeheader()
+                writer.writerow({
+                    'file': '06185.sfm',
+                    'offset': '0x53B3',
+                    'budget': '10',
+                    'pinned': '',
+                    'japanese': '輝きの聖女',
+                    'english': 'Radiant Saintess',
+                })
+
+            class Args:
+                csv = table
+                dry_run = False
+                no_backup = True
+
+            Args.folder = folder
+            S.cmd_build(Args)
+            _raw, _packed, data = S.read_module(module)
+            self.assertEqual(
+                S.SFM(data).strings()[0x53B3]['text'], 'Radiant Saintess')
+
+    def test_relocated_holy_woman_is_migrated_to_saintess(self):
+        with tempfile.TemporaryDirectory() as folder:
+            module = os.path.join(folder, '06185.sfm')
+            relocated = 0x63B3
+            with open(module, 'wb') as fh:
+                fh.write(sfm_with_string(
+                    relocated, 'Radiant Holy Woman', pointer_rel=relocated))
+            table = os.path.join(folder, 'translations.csv')
+            with open(table, 'w', encoding='utf-8', newline='') as fh:
+                writer = csv.DictWriter(
+                    fh,
+                    fieldnames=['file', 'offset', 'budget', 'pinned',
+                                'japanese', 'english']
+                )
+                writer.writeheader()
+                writer.writerow({
+                    'file': '06185.sfm',
+                    'offset': '0x53B3',
+                    'budget': '10',
+                    'pinned': '',
+                    'japanese': '輝きの聖女',
+                    'english': 'Radiant Saintess',
+                })
+
+            class Args:
+                csv = table
+                dry_run = False
+                no_backup = True
+
+            Args.folder = folder
+            S.cmd_build(Args)
+            _raw, _packed, data = S.read_module(module)
+            strings = S.SFM(data).strings()
+            self.assertEqual(strings[relocated]['text'], 'Radiant Saintess')
 
 
 if __name__ == '__main__':

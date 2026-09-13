@@ -63,7 +63,7 @@ Modest furnishings.
 #つつましやかな家具がある
 Modest furnishings.
 -----------------------
-NOTICE
+Info
 -----------------------
 #<item:00000005>を手に入れました
 Acquired <item:00000005>.
@@ -323,7 +323,7 @@ best to head toward Kalviola.
 Alright, anyway, let's head to
 Kalviola! To return to our own time!
 -----------------------
-notice
+Info
 -----------------------
 #<Nanaly>は
 #称号「<item:0000081D>」を得ました
@@ -633,7 +633,7 @@ You big brothers
 have been doing your best for us,
 so now it's my turn!
 -----------------------
-notice
+Info
 -----------------------
 #ベルセリアの秘薬を
 #<Nanaly>に渡しました
@@ -820,7 +820,7 @@ Rue
 Thanks, big brother.
 I feel all better now～
 -----------------------
-notice
+Info
 -----------------------
 #パーティーが五人になりました
 #戦闘にはトップメニューの
@@ -829,14 +829,14 @@ The party has grown to five members.
 In battle, the top four characters
 in the menu will participate.
 -----------------------
-notice
+Info
 -----------------------
 #キャラクターにカーソルを合わせて
 #<button:00000038>ボタンで並び変更が行えます
 Move the cursor over a character
 and press <button:00000038> to change the order.
 -----------------------
-notice
+Info
 -----------------------
 #五人目以降は控えメンバーとなりますが、
 #経験値は他のメンバーと同様に入ります
@@ -854,7 +854,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -879,24 +879,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{DA}{C0}を手に入れました
 Acquired {16}{25}{DA}{C0}.
 -----------------------
-notice
+Info
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{E2}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{E2}{C0}, but
 your inventory is full.
 -----------------------
-notice
+Info
 -----------------------
 #何もありません
 There's nothing here.

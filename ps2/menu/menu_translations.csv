@@ -416,7 +416,7 @@ Stop creating this recipe?
 <button:00000036>Back
 <button:00000037>Info
 <button:00000038>Menu"
-06807.md1,0x7670,戦闘不能,K.O.
+06807.md1,0x7670,戦闘不能,KO
 06807.md1,0x7680,鈍足,Slow
 06807.md1,0x7688,凍結,Freeze
 06807.md1,0x7690,麻痺,Para
@@ -886,6 +886,7 @@ earned to start under various conditions."
 08055.md1,0x530B0,自爆した！,Self-destruct!
 08055.md1,0x530C0,逃走した・・・,Fled...
 08055.md1,0x530D0,全滅した・・・,Wiped out...
+08055.md1,0x53208,ESCAPE GAGE,ESCAPE GAUGE
 08996.md1,0x2B900,アイグレッテ・倉庫,Aigrette - Warehouse
 08996.md1,0x2B918,外殻,Shell
 08996.md1,0x2B920,大陸西部の坑道,Western Mine
@@ -1029,7 +1030,7 @@ You return to the entrance too."
 09028.pak0,0x10032B,箱の位置がリセットされました。,Box positions reset.
 09028.pak0,0x100350,"飛行竜にアンカーを撃ち込む！
 背中から飛行竜に乗り移るんだ！
-用意はいいか！","Fire the anchor into the Flying Dragon!
+用意はいいか！","Fire the anchor into the Draconis!
 Jump across onto its back!
 Ready?"
 09028.pak0,0x1003A1,いつでもいける！,Ready anytime!
@@ -1117,12 +1118,12 @@ your inventory is full."
 09030.pak0,0x1013E8,通常エントリー[改変現代],Normal [Altered Now]
 09030.pak0,0x101401,看板テスト！改変,Sign Test Alter
 09030.pak0,0x101412,蒼天都市ヴァンジェロ,Azure City Vangelo
-09030.pak0,0x101427,紅蓮都市スペランツァ,Crimson Speranza
-09030.pak0,0x10143C,黄昏都市レアルタ,Twilight Realta
+09030.pak0,0x101427,紅蓮都市スペランツァ,Crimson C. Speranza
+09030.pak0,0x10143C,黄昏都市レアルタ,Dusk City Realta
 09030.pak0,0x10144D,光のほこら,Shrine
 09030.pak0,0x101458,未開の森,Wildwood
 09030.pak0,0x101461,未開の森,Wildwood
-09030.pak0,0x10146A,海岸の洞窟,Sea Cave
+09030.pak0,0x10146A,海岸の洞窟,Coast Cave
 09030.pak0,0x101475,空中都市の残骸,Aeropolis Ruin
 09031.pak0,0xD861F,いってらっしゃいませ,Have a good day.
 09031.pak0,0xD8642,"ガルドになりますが

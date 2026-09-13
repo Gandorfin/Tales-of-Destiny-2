@@ -589,21 +589,21 @@ will you fight me again?
 #････もちろん！
 ...Of course!
 -----------------------
-notice
+Info
 -----------------------
 #<Kyle>は
 #称号「<item:0000086D>」を得ました
 <Kyle> acquired the title
 "<item:0000086D>".
 -----------------------
-notice
+Info
 -----------------------
 #{15}{24}{B2}{C0}は
 #称号「<item:0000086B>」を得ました
 {15}{24}{B2}{C0} acquired the title
 "<item:0000086B>".
 -----------------------
-notice
+Info
 -----------------------
 #{15}{24}{B2}{34}{00}{C6}{C0}は
 #称号「<item:0000086C>」を得ました
@@ -986,7 +986,7 @@ The one who makes crying children
 flee! The invincible former
 champion! Mighty Kongman himself!!
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　知ってる　
 #　知らない　
@@ -1321,7 +1321,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -1346,24 +1346,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-notice
+Info
 -----------------------
 #{16}{26}{12}{C0}を手に入れました
 Acquired {16}{26}{12}{C0}.
 -----------------------
-notice
+Info
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{26}{1A}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{26}{1A}{C0}, but
 your inventory is full.
 -----------------------
-notice
+Info
 -----------------------
 #何もありません
 There's nothing here.

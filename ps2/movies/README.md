@@ -11,6 +11,8 @@ translated ending-credit overlay without losing its five dialogue subtitles.
 
 * `ps2/PyTOD2/MOVIE/NNNNN.en.srt` is the authoritative subtitle track used by
   the builder. All 120 cues are syntax-, ordering-, duration-, and width-checked.
+  During the build, every cue is normalized to a single rendered line without
+  changing its text or timing.
 * `ending_credits.tsv` contains 323 measured credit rows. `KEEP` rows are
   already Latin text or logos. Two-column translations use `left / right`.
   A trailing `?` marks an unverified name reading and is not rendered.
@@ -62,10 +64,11 @@ It also stops unless FFmpeg confirms that libass loaded every subtitle layer
 and selected the bundled Ubuntu Bold font, with no reported filter or encode
 errors. Movie `00005` must confirm two independent libass layers.
 
-The standard dialogue style is Ubuntu Bold 20 px, white with a two-pixel black
-outline, centered 24 px above the lower and side edges of the 640x448 frame.
-Each SRT line is measured against the bundled TrueType metrics and must fit the
-592 px safe width.
+The standard dialogue style is Ubuntu Bold 13 px, white with a two-pixel black
+outline, centered 6 px above the lower edge and 24 px inside the side edges of
+the 640x448 frame. This keeps the one-line subtitles in the lower black bar on
+4:3 playback. Each joined cue is measured against the bundled TrueType metrics
+and must fit the 592 px safe width.
 
 ## Encoding limits
 
