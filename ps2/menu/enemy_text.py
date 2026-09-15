@@ -98,6 +98,10 @@ MYSTIC_ARTE_TRANSLATIONS = {
     '蒼龍滅牙斬': 'Azure Fang',
     '震天裂空': 'Sky Rend',
     '震天裂空斬光': 'Sky Rend Ray',
+    # Zankuu Tenshouken / Soaring Guillotine.  The efD literal has a hard
+    # 10-byte slot, so use the recognizable second half of the localized
+    # name in battle; the full menu name lives elsewhere in the executable.
+    '斬空天翔剣': 'Guillotine',
 }
 
 # A few efD effect scripts use a cut-in-specific glyph page rather than the

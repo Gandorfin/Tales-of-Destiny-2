@@ -84,15 +84,19 @@ class BuildCommand(unittest.TestCase):
     def test_patch_known_literals_covers_mystic_arte_efd_members(self):
         raw = pack(literal_member('裂衝蒼破塵', b'efD'),
                    literal_member('クリティカルブレード', b'efD', 'shift_jis'),
+                   literal_member('斬空天翔剣', b'efD', 'shift_jis'),
                    b'model')
         out, changed, errors = E.patch_known_literals(raw, E.MYSTIC_ARTE_TRANSLATIONS)
-        self.assertEqual((changed, errors), (2, 0))
+        self.assertEqual((changed, errors), (3, 0))
         table_data = lzss.unpack(E.parse_pak1(out)[0])
         shift_jis_data = lzss.unpack(E.parse_pak1(out)[1])
+        guillotine_data = lzss.unpack(E.parse_pak1(out)[2])
         self.assertNotIn(P.encode('裂衝蒼破塵'), table_data)
         self.assertIn(b'Azure Dust', table_data)
         self.assertNotIn('クリティカルブレード'.encode('shift_jis'), shift_jis_data)
         self.assertIn(b'   Critical Blade   ', shift_jis_data)
+        self.assertNotIn('斬空天翔剣'.encode('shift_jis'), guillotine_data)
+        self.assertIn(b'Guillotine', guillotine_data)
 
     def test_mystic_arte_override_decodes_cut_in_specific_glyph_page(self):
         raw_name = bytes.fromhex('e0d89ae99cd4e26c9f83')
