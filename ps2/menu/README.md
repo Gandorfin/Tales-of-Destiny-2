@@ -324,6 +324,11 @@ Book shows).
 
 ## The Latin font (`slps_font.py`)
 
+For custom font artwork, [FONT_CUSTOMIZATION.md](FONT_CUSTOMIZATION.md)
+explains how to use the standalone `patch_font_iso.py` tool. It exports an
+editable PNG from an ISO, validates a single edited PNG, converts it back to
+the game's TM2@ format and writes a verified ISO copy.
+
 The Latin glyphs the game draws come from one compressed TM2 texture inside
 `SLPS_251.72` (file offset `0xCA238`, 128x512 pixels, 4 bits per pixel,
 cells of 12x16 in rows of ten). Single-byte text goes through a 96-entry
