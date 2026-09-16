@@ -5,6 +5,7 @@ Requires Python 3.10+ and Pillow + pycdlib:
     python -m pip install Pillow pycdlib
 
     python patch_font_iso.py export game.iso font.png
+    python patch_font_iso.py prepare game.iso edited.png font-ready.png
     python patch_font_iso.py check game.iso font.png
     python patch_font_iso.py patch game.iso font.png -o game-font.iso
 
@@ -12,7 +13,7 @@ This file is standalone: no repository modules or copyrighted font assets
 are bundled. The user's ISO supplies the TM2@ headers and all ten palettes.
 """
 import argparse
-from collections import defaultdict, deque
+from collections import Counter, defaultdict, deque
 import hashlib
 import io
 import os
@@ -298,7 +299,8 @@ def png_indices(path, palette):
             for index in used:
                 point = indices.index(index)
                 require(tuple(actual[point * 4:point * 4 + 4]) == palette[index],
-                        "Palette index %d differs from the ISO template. Export a fresh template." % index)
+                        "Palette index %d differs from the ISO template (RGB or transparency). "
+                        "Run the prepare command to normalize this PNG." % index)
             return indices
         lookup = {rgba: index for index, rgba in enumerate(palette)}
         require(len(lookup) == 16, "Palette has duplicate RGBA entries; use an indexed template.")
@@ -306,9 +308,139 @@ def png_indices(path, palette):
         for point, rgba in enumerate(struct.iter_unpack("4B", image.tobytes())):
             require(rgba in lookup,
                     "Pixel (%d,%d) has unsupported RGBA %s. Preserve the exported palette; "
-                    "do not resize, antialias or change opacity." % (point % WIDTH, point // WIDTH, rgba))
+                    "do not resize, antialias or change opacity, or run the prepare command." %
+                    (point % WIDTH, point // WIDTH, rgba))
             indices.append(lookup[rgba])
         return bytes(indices)
+
+
+def png_rgba(path):
+    """Read an ordinary still PNG for explicit palette preparation."""
+    Image, _ = dependencies()
+    require(path.is_file(), "PNG file not found: %s" % path)
+    require(path.stat().st_size <= 4 * 1024 * 1024, "Font PNG exceeds 4 MiB.")
+    with Image.open(path) as image:
+        require(image.format == "PNG", "Input must be a PNG file.")
+        require(image.size == (WIDTH, HEIGHT),
+                "Font PNG must be exactly 128x512 pixels; found %dx%d." % image.size)
+        require(getattr(image, "n_frames", 1) == 1, "Animated PNGs are unsupported.")
+        require(image.mode in ("P", "RGB", "RGBA"),
+                "Prepare accepts indexed, RGB or RGBA PNG files.")
+        image.load()
+        rgba = image.convert("RGBA")
+        return list(struct.iter_unpack("4B", rgba.tobytes()))
+
+
+def quantize_rgba(pixels, palette, allowed, alpha_threshold):
+    """Map RGBA pixels onto selected ISO palette entries and return error."""
+    transparent = min(range(16), key=lambda i: palette[i][3])
+    require(palette[transparent][3] == 0, "ISO font palette has no transparent entry.")
+    allowed = tuple(sorted(i for i in allowed if i != transparent))
+    require(allowed, "At least one visible palette colour is required.")
+    counts = Counter(pixels)
+    mapping = {}
+    error = 0
+    for rgba, count in counts.items():
+        red, green, blue, alpha = rgba
+        if alpha < alpha_threshold:
+            mapping[rgba] = transparent
+            continue
+        index = min(
+            allowed,
+            key=lambda i: ((red - palette[i][0]) ** 2
+                           + (green - palette[i][1]) ** 2
+                           + (blue - palette[i][2]) ** 2))
+        mapping[rgba] = index
+        distance = ((red - palette[index][0]) ** 2
+                    + (green - palette[index][1]) ** 2
+                    + (blue - palette[index][2]) ** 2)
+        error += count * alpha * distance
+    return bytes(mapping[pixel] for pixel in pixels), error
+
+
+def texture_with_indices(texture, base, indices):
+    require(len(indices) == WIDTH * HEIGHT, "Unexpected font pixel count.")
+    pixels = bytes(indices[i] | (indices[i + 1] << 4)
+                   for i in range(0, len(indices), 2))
+    return texture[:base] + pixels
+
+
+def fitted_indices(pixels, texture, base, palette, room, alpha_threshold):
+    """Use the most faithful palette subset whose comptoe stream fits."""
+    transparent = min(range(16), key=lambda i: palette[i][3])
+    allowed = set(range(16)) - {transparent}
+    indices, error = quantize_rgba(pixels, palette, allowed, alpha_threshold)
+    blob = compress(texture_with_indices(texture, base, indices))
+    needed_reduction = len(blob) > room
+    while len(blob) > room and len(allowed) > 1:
+        candidates = []
+        for removed in allowed:
+            subset = allowed - {removed}
+            _indices, candidate_error = quantize_rgba(
+                pixels, palette, subset, alpha_threshold)
+            candidates.append((candidate_error, removed))
+        _error, removed = min(candidates)
+        allowed.remove(removed)
+        indices, error = quantize_rgba(pixels, palette, allowed, alpha_threshold)
+        blob = compress(texture_with_indices(texture, base, indices))
+    # The game's first font palette is arranged as blue shadow, neutral
+    # midtone and white highlight ramps.  Pure error-driven elimination can
+    # sometimes retain only two visible colours even though this useful
+    # three-colour ramp fits. Prefer it when that preserves another level.
+    used_visible = set(indices) - {transparent}
+    preferred = {index for index in (2, 11, 15) if index != transparent}
+    if needed_reduction and len(used_visible) < len(preferred):
+        preferred_indices, preferred_error = quantize_rgba(
+            pixels, palette, preferred, alpha_threshold)
+        preferred_blob = compress(texture_with_indices(
+            texture, base, preferred_indices))
+        if len(preferred_blob) <= room:
+            indices, error, blob = preferred_indices, preferred_error, preferred_blob
+    require(len(blob) <= room,
+            "Even a two-colour conversion compresses to %d bytes; the limit is %d. "
+            "Simplify the image itself." % (len(blob), room))
+    return indices, len(blob), len(set(indices) - {transparent}), error
+
+
+def save_indexed_png(path, indices, palette):
+    Image, _ = dependencies()
+    require(not path.exists(), "Output PNG already exists; choose a new filename.")
+    require(path.parent.is_dir(), "Output directory does not exist.")
+    image = Image.frombytes("P", (WIDTH, HEIGHT), indices)
+    image.putpalette([channel for rgba in palette for channel in rgba[:3]])
+    image.info["transparency"] = bytes(rgba[3] for rgba in palette)
+    fd, temp_name = tempfile.mkstemp(prefix=path.name + ".", suffix=".partial",
+                                     dir=path.parent)
+    temp_path = Path(temp_name)
+    try:
+        with os.fdopen(fd, "w+b") as fp:
+            image.save(fp, format="PNG", bits=4)
+            fp.flush()
+            os.fsync(fp.fileno())
+        publish(temp_path, path)
+    finally:
+        if temp_path.exists():
+            temp_path.unlink()
+
+
+def prepare_png(iso_path, input_path, output_path, alpha_threshold=16):
+    """Normalize a PNG to the ISO palette and reduce colours until it fits."""
+    require(input_path.resolve() != output_path.resolve(),
+            "Input and output PNG must be different files.")
+    require(1 <= alpha_threshold <= 255, "Alpha threshold must be between 1 and 255.")
+    _, executable, _ = read_iso(iso_path)
+    _, texture, base, palette, room = font_from_executable(executable)
+    pixels = png_rgba(input_path)
+    indices, packed_size, visible_colours, _error = fitted_indices(
+        pixels, texture, base, palette, room, alpha_threshold)
+    save_indexed_png(output_path, indices, palette)
+    require(png_indices(output_path, palette) == indices,
+            "Prepared PNG failed palette verification.")
+    print("Prepared exact 4bpp ISO palette: %s" % output_path)
+    print("Uses %d visible palette colours; compressed %d / %d bytes."
+          % (visible_colours, packed_size, room))
+    if visible_colours < 15:
+        print("Colour use was reduced only as far as required by the executable slot.")
 
 
 def export_png(iso_path, png_path):
@@ -330,13 +462,14 @@ def export_png(iso_path, png_path):
 def build_font(executable, png_path):
     original_blob, texture, base, palette, room = font_from_executable(executable)
     indices = png_indices(png_path, palette)
-    pixels = bytes(indices[i] | (indices[i + 1] << 4) for i in range(0, len(indices), 2))
-    replacement = texture[:base] + pixels
+    replacement = texture_with_indices(texture, base, indices)
     # Keep an unedited template byte-identical, including its compressor output.
     blob = original_blob if replacement == texture else compress(replacement)
     require(len(blob) <= room,
-            "Edited font compresses to %d bytes; the limit is %d. Simplify glyph detail "
-            "or restore unused cells. No ISO was written." % (len(blob), room))
+            "Edited font compresses to %d bytes; the limit is %d. PNG bit depth does not "
+            "change this in-game limit: the script already builds a 4bpp texture. Run the "
+            "prepare command to normalize/reduce the image, simplify glyph detail, or "
+            "restore unused cells. No ISO was written." % (len(blob), room))
     require(decompress(blob) == replacement, "Compressed font failed round-trip verification.")
     result = (executable[:FONT_OFF] + blob + bytes(room - len(blob))
               + executable[FONT_OFF + room:])
@@ -435,11 +568,21 @@ def main(argv=None):
         cmd.add_argument("png", type=Path, help="128x512 font PNG")
         if name == "patch":
             cmd.add_argument("-o", "--output", type=Path, help="New ISO filename (must not exist)")
+    prepare = sub.add_parser(
+        "prepare", help="Normalize an ordinary PNG to the exact 4bpp ISO palette and size limit")
+    prepare.add_argument("iso", type=Path, help="Tales of Destiny 2 PS2 ISO (SLPS-25172)")
+    prepare.add_argument("input", type=Path, help="128x512 indexed, RGB or RGBA PNG")
+    prepare.add_argument("output", type=Path, help="New normalized 4bpp PNG (must not exist)")
+    prepare.add_argument(
+        "--alpha-threshold", type=int, default=16, metavar="1..255",
+        help="alpha values below this become transparent (default: 16)")
     args = parser.parse_args(argv)
     try:
         dependencies()
         if args.command == "export":
             export_png(args.iso, args.png)
+        elif args.command == "prepare":
+            prepare_png(args.iso, args.input, args.output, args.alpha_threshold)
         else:
             output = getattr(args, "output", None) or args.iso.with_name(args.iso.stem + "-custom-font.iso")
             patch_iso(args.iso, args.png, output, dry_run=args.command == "check")

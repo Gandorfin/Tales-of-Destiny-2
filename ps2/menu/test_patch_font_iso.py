@@ -128,11 +128,49 @@ class Workflow(unittest.TestCase):
         self.save_variant(lambda im: im.convert("RGBA"))
         self.assertEqual(F.build_font(self.exe, self.png)[0], self.exe)
 
+    def test_prepare_repairs_wrong_transparency_index(self):
+        source = self.root / "wrong-transparency.png"
+        ready = self.root / "ready.png"
+        with Image.open(self.png) as template:
+            image = Image.new("P", template.size, 4)
+            image.putpalette(template.getpalette())
+        image.putpixel((1, 0), 1)
+        image.save(source, format="PNG", bits=4, transparency=4)
+        with contextlib.redirect_stdout(io.StringIO()):
+            F.prepare_png(self.iso, source, ready)
+        with Image.open(ready) as prepared:
+            self.assertEqual(prepared.mode, "P")
+            self.assertEqual(prepared.getpixel((0, 0)), 0)
+            self.assertEqual(prepared.getpixel((1, 0)), 1)
+            self.assertEqual(prepared.info["transparency"],
+                             bytes([0] + [128] * 15))
+        self.assertLessEqual(F.build_font(self.exe, ready)[2], F.FONT_ROOM)
+        with self.assertRaisesRegex(F.FontError, "already exists"):
+            F.prepare_png(self.iso, source, ready)
+
+    def test_prepare_reduces_noisy_rgba_until_it_fits(self):
+        source = self.root / "noisy.png"
+        ready = self.root / "ready.png"
+        rng = random.Random(91)
+        palette = [(i * 17, i * 17, i * 17, 255) for i in range(16)]
+        pixels = [(0, 0, 0, 0) if rng.randrange(8) == 0
+                  else palette[rng.randrange(1, 16)]
+                  for _ in range(F.WIDTH * F.HEIGHT)]
+        image = Image.new("RGBA", (F.WIDTH, F.HEIGHT))
+        image.putdata(pixels)
+        image.save(source, format="PNG")
+        with contextlib.redirect_stdout(io.StringIO()):
+            F.prepare_png(self.iso, source, ready)
+        with Image.open(ready) as prepared:
+            used = set(prepared.tobytes())
+            self.assertLess(len(used), 16)
+        self.assertLessEqual(F.build_font(self.exe, ready)[2], F.FONT_ROOM)
+
     def test_invalid_dimensions_palette_index_colour_and_animation(self):
         original = self.png.read_bytes()
         variants = [
             lambda im: im.resize((256, 1024)),
-            lambda im: im.convert("RGB"),
+            lambda im: im.convert("RGBA").convert("RGB"),
             lambda im: self.edit_pixel(im, 16),
             lambda im: self.edit_pixel(im.convert("RGBA"), (1, 2, 3, 4)),
         ]
