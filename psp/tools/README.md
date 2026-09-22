@@ -1,11 +1,21 @@
 # PSP tools (ULJS-00097)
 
-Scripts for the PSP version. Python 3, standard library only. Supply your own
+Scripts for the PSP version. The build tools use Python 3's standard library;
+the standalone PNG font tool additionally requires Pillow. Supply your own
 clean UMD image; no game binaries are part of the source release.
 
 This directory is the collaborator build, including the confirmed Elrane
 scene-freeze repair. See [CHANGELOG.md](CHANGELOG.md) for the changes and
 [GITHUB_UPLOAD.md](GITHUB_UPLOAD.md) for source-only upload instructions.
+
+## Standalone PNG font customization
+
+Use [patch_font_iso.py](patch_font_iso.py) to export, prepare, validate and
+reinsert the PSP dialogue font from a single 256x4400 PNG. It supports the
+clean Japanese and collaborator translation ISOs, preserves glyph mappings,
+and writes a verified ISO copy. Only that script and Pillow are needed.
+See [FONT_CUSTOMIZATION.md](FONT_CUSTOMIZATION.md) for commands, compression
+limits, the separate bold-menu-font limitation and retail startup handling.
 
 ## Repository layout and prerequisites
 
