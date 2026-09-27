@@ -348,3 +348,5 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+ps2/menu/font script.7z
+ps2/menu/font patch.txt
