@@ -13,7 +13,7 @@ Website: https://gandorfin.github.io/Tales-of-Destiny-2/
 
 | Version | State |
 |---|---|
-| PS2 (SLPS-25172) | **Complete.** Latest release: **QS v1.1.9f** ([releases](https://github.com/Gandorfin/Tales-of-Destiny-2/releases/latest)) |
+| PS2 (SLPS-25172) | **Complete.** Latest release: **QS v1.2.3** ([releases](https://github.com/Gandorfin/Tales-of-Destiny-2/releases/latest)) |
 | PSP (ULJS-00097) | **Playable. Latest release: PSP patch v0.2.0.** Full script, skits, menus, items, artes, titles, descriptions and the Monster Book are English; dialogue, names and menus render in mixed case (SkyBladeCloud's font-selection hack). A few menu/UI corners are still Japanese (see PSP port below) |
 
 The PS2 patch covers the whole game:
@@ -25,11 +25,13 @@ The PS2 patch covers the whole game:
   customize, status, tactics, save, name entry, grade shop, Monster Book,
   Battle Memos, battle command labels, memory card messages
 * character titles, party arte names and their battle cut-in banners,
-  mystic arte banners, enemy encounter names, enemy arte names and the
-  lines bosses shout in battle
+  the arte extension banners, mystic arte banners, enemy encounter names,
+  enemy arte names and the lines bosses shout in battle
 * world map labels, signposts, ferry and minigame text, the ending
   monologue, the Quiz Book
-* the in-game videos with dialogue, hard-subtitled
+* the in-game videos with dialogue, hard-subtitled, and an English
+  ending staff roll
+* a redrawn Latin font (since v1.2.3, drawn by Dreck)
 
 What is still Japanese in the PS2 build is the handful of strings the tools
 cannot reach yet (see the open items in `ps2/menu/README.md`).
@@ -67,7 +69,7 @@ releasing.
 After building the patched ISO as described below:
 
 ```
-xdelta3 -e -9 -S none -s "Tales of Destiny 2 (Japan).iso" patched.iso "[Green Gel] ToD2 patch v1.1.9f (PS2).xdelta"
+xdelta3 -e -9 -S none -s "Tales of Destiny 2 (Japan).iso" patched.iso "[Green Gel] ToD2 patch v1.2.3 (PS2).xdelta"
 ```
 
 `-S none` turns off the secondary compression that some patchers cannot
@@ -114,11 +116,11 @@ Short version; the details are in `ps2/menu/README.md` ("Applying it") and
    python ps2/menu/patch_menu_text.py ps2/PyTOD2/FPB
    python ps2/menu/sfm_text.py build ps2/PyTOD2/FPB
    python ps2/menu/enemy_text.py build ps2/PyTOD2/FPB
-   python ps2/menu/title_credit.py ps2/PyTOD2/FPB --version 1.1.9f
+   python ps2/menu/title_credit.py ps2/PyTOD2/FPB --version 1.2.3
    python ps2/menu/patch_slps_titles.py ps2/PyTOD2/SLPS_251.72
    ```
    `title_credit.py` redraws the Japanese designer credit under the title
-   menu as "Green Gel v1.1.9f" (the Namco line below it is kept). The game
+   menu as "Green Gel v1.2.3" (the Namco line below it is kept). The game
    draws only the first 96 pixels of that line, so the label is short and
    condensed; the tool refuses anything wider.
 4. Pack FPB and put `new_FILE.FPB` and `new_SLPS_251.72` into the ISO. Do
@@ -128,6 +130,9 @@ Short version; the details are in `ps2/menu/README.md` ("Applying it") and
 5. `python ps2/menu/verify_menu_patch.py your.iso` tells you which parts of
    the build are English, so a Japanese screen can be traced to the step
    that was skipped.
+6. A custom Latin font goes in last, on the finished ISO:
+   `python ps2/menu/patch_font_iso.py patch your.iso font.png` (export,
+   edit and check steps in `ps2/menu/FONT_CUSTOMIZATION.md`).
 
 ## PSP port
 
