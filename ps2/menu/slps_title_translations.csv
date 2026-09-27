@@ -501,7 +501,7 @@ offset,pointers,japanese,english
 0x1122A5,0xD7C20,ソーサラーリングで撃て,Shoot the Sorcerer's Ring
 0x11228E,0xD7C24,あの子はアイグレッテに,She's in Aigrette
 0x112279,0xD7C28,アイグレッテ宿屋へ１,To Aigrette Inn 1
-0x112268,0xD7C2C,神のたまごは\\\\,God's Egg Is\\\\
+0x112268,0xD7C2C,神のたまごは\\\\,Atamoni Ovum Is\\\\
 0x112253,0xD7C30,アイグレッテ宿屋へ２,To Aigrette Inn 2
 0x112246,0xD7C34,宿屋で聞いた,Heard at the Inn
 0x112231,0xD7C38,ストレイライズ遺跡へ,To Straylize Ruins
@@ -562,7 +562,7 @@ offset,pointers,japanese,english
 0x111E30,0xD7D1C,あの場所へ\\\\,To That Place\\\\
 0x111E21,0xD7D20,出現したって!?,It Appeared!?
 0x111E16,0xD7D24,崖の恐怖！,Terror of the Cliff!
-0x111E03,0xD7D28,神のたまご最深部へ,Depths of God's Egg
+0x111E03,0xD7D28,神のたまご最深部へ,Depths of Atamoni Ovum
 0x111DFA,0xD7D2C,鏡の中へ,Into the Mirror
 0x111DE9,0xD7D44,エルレイン間近？,Elrane Is Close?
 0x111DDE,0xD7D48,下層部突入,Into the Lower Level

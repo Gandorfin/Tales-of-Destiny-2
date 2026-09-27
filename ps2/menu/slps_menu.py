@@ -51,8 +51,9 @@ def apply(src, manifest):
 
     for e in manifest["legacy"]["entries"]:
         old_s, old_p, new_p, pool = _h(e["old_string_hex"]), _h(e["old_pointer_hex"]), _h(e["new_pointer_hex"]), _h(e["pool_hex"])
-        if not _at(d, e["old_string_offset"], old_s):
-            raise GuardError('previous-patch text guard failed for "%s"' % e["english"])
+        # an entry that is already applied is accepted before the old-string
+        # guard: on a fully patched executable the later steps (the arte
+        # cut-ins) may reuse the dead Japanese slot the guard looks at
         if _at(d, e["pointer_offset"], new_p) and _at(d, e["pool_offset"], pool):
             continue
         prev = e.get("previous_pool_hex")
@@ -61,6 +62,8 @@ def apply(src, manifest):
             d[e["pool_offset"]:e["pool_offset"] + len(pool)] = pool
             changes += 1
             continue
+        if not _at(d, e["old_string_offset"], old_s):
+            raise GuardError('previous-patch text guard failed for "%s"' % e["english"])
         if not _at(d, e["pointer_offset"], old_p):
             raise GuardError('previous-patch pointer guard failed for "%s"' % e["english"])
         if not _zero(d, e["pool_offset"], len(pool)) and not _at(d, e["pool_offset"], pool):

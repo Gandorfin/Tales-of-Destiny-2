@@ -3,7 +3,7 @@ file,offset,japanese,english
  
 <button:00000035>やめる  <button:00000036>やめない","Quit the quiz?
  
-<button:00000035>Quit  <button:00000036>Don't"
+<button:00000035>Quit  <button:00000036>Go back"
 06306.scpk,0x2742D,そして････十八年の月日が流れた････,And so... eighteen years passed...
 06798.md1,0x5948,術・技,Artes
 06798.md1,0x5980,マニュアル,Manual
@@ -69,6 +69,7 @@ file,offset,japanese,english
 06799.md1,0x695A,Tools,Item
 06799.md1,0x69E2,Utensils,Cookware
 06799.md1,0x69D6,Ingredients,Food
+06799.md1,0x69CC,Valuables,Valuable
 06800.md1,0x43C0,装備,Equip
 06800.md1,0x43C8,装飾品,Jewelry
 06800.md1,0x43D8,外装,Outfit
@@ -660,6 +661,7 @@ different ingredients on hand."
 06814.md1,0x44BE,Tools,Item
 06814.md1,0x4542,Utensils,Cookware
 06814.md1,0x4536,Ingredients,Food
+06814.md1,0x452C,Valuables,Valuable
 06815.md1,0x990,メモリーカード差込口４,Memory Card Slot 4
 06815.md1,0x9A8,メモリーカード差込口３,Memory Card Slot 3
 06815.md1,0x9C0,メモリーカード差込口２,Memory Card Slot 2
@@ -1147,8 +1149,8 @@ your inventory is full."
 09031.pak0,0xD87F4,通常エントリー[天地戦争],Normal [Great War]
 09031.pak0,0xD880D,通常エントリー[天地戦争]デフォルト,Normal [Great War] Default
 09031.pak0,0xD8830,看板テスト！天地,Sign Test War
-09031.pak0,0xD8841,地上軍拠点,Er'ther
-09031.pak0,0xD884C,地上軍拠点,Er'ther
+09031.pak0,0xD8841,地上軍拠点,Er'ther HQ
+09031.pak0,0xD884C,地上軍拠点,Er'ther HQ
 09031.pak0,0xD8857,スパイラルケイブ,Spiral Cave
 09031.pak0,0xD8868,物資保管所,Storehouse
 09031.pak0,0xD8873,空中都市の残骸,Aeropolis Ruin

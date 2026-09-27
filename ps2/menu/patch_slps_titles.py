@@ -36,7 +36,11 @@ except Exception:
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import md1text as M, md1patch as P, slps_menu, slps_artes, slps_font
 BIAS = 0xFF000
-POOL_START, POOL_END = 1026832, 1033520
+# The spare string pool. Its last 16 bytes (1033504..1033520) are reserved
+# for the two pooled menu labels of slps_menu_patch.json ("Normal+",
+# "Pickaxe"), which sit at the tail so an executable whose titles and
+# cut-ins were already pooled by an earlier version still has room for them.
+POOL_START, POOL_END = 1026832, 1033504
 
 FORMER_TITLE_TRANSLATIONS = {
     0x113CE1: 'Meeting a Holy Woman',
@@ -48,6 +52,8 @@ FORMER_TITLE_TRANSLATIONS = {
     0x113495: 'Escape the Flying Dragon 4',
     0x113168: 'Untamed Forest 1',
     0x11315D: 'Untamed Forest 2',
+    0x112268: "God's Egg Is\\\\\\\\",
+    0x111E03: "Depths of God's Egg",
 }
 
 
@@ -98,9 +104,20 @@ def migrate_former_titles(src, recs):
         available = P.budget(data, target, current[1] - target)
         encoded = P.encode(en)
         if len(encoded) > available:
-            raise RuntimeError(
-                "former title 0x%X needs %d bytes; only %d available"
-                % (off, len(encoded), available))
+            # no room where the old wording sits: move it to the pool and
+            # clear the old bytes (its own NUL keeps the previous string)
+            need = len(encoded) + 1
+            new = pool_free_start(bytes(data))
+            if new + need > POOL_END:
+                raise RuntimeError(
+                    "former title 0x%X needs %d bytes; only %d available "
+                    "in place and the pool is full" % (off, len(encoded), available))
+            data[new:new + need] = encoded + b'\0'
+            data[target:target + available] = b'\0' * available
+            for ph in ptrs.split(','):
+                struct.pack_into('<L', data, int(ph, 16), new + BIAS)
+            changed += 1
+            continue
         region = available + 1
         data[target:target + region] = encoded + b'\0' * (region - len(encoded))
         changed += 1

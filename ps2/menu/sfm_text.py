@@ -50,6 +50,9 @@ DEFAULT_CSV = os.path.join(HERE, 'quiz_translations.csv')
 # newer table update an already-patched resource without weakening the normal
 # Japanese-source validation used for clean builds.
 FORMER_TRANSLATIONS = {
+    ('06189.sfm', 0x8A24): 'Egg of God',
+    ('06189.sfm', 0x5A5C): ('<Harold> said something like that\n'
+                            "at the time of the 'Egg of God'."),
     ('06189.sfm', 0x4E91): 'Kronos',
     ('06235.sfm', 0x1C6): 'Kronos',
     ('06185.sfm', 0x53B3): 'Radiant Holy Woman',

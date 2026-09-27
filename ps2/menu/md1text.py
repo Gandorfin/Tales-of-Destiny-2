@@ -11,7 +11,8 @@ TBL.setdefault("40947","塗"); TBL.setdefault("40904","鑑"); TBL.setdefault("57
 # 0xE0E5). 翔 閃 龍 燐 鼓 are missing from TBL.json; 0xE0DD and 0xE157 read as
 # 闘 and 槍 from the arte names 闘龍連撃破 / 放墜砲槍 / 霧氷槍閃 (the main font
 # has its own 闘 0x9A9D and 槍 0xE07C; these are the battle font's copies).
-for _c, _k in ((57560, "翔"), (57561, "閃"), (57565, "闘"), (57566, "龍"), (57687, "槍"), (57726, "燐"), (57778, "鼓")):
+# 0xE28E 轟 is Barbatos's 轟炎斬 banner in 08193.pak1 (enemy_text.py).
+for _c, _k in ((57560, "翔"), (57561, "閃"), (57565, "闘"), (57566, "龍"), (57687, "槍"), (57726, "燐"), (57778, "鼓"), (0xE28E, "轟")):
     TBL.setdefault(str(_c), _k)
 PRINT=set(string.digits+string.ascii_letters+string.punctuation+' ')
 TAGS={0x4:'color',0x5:'size',0x6:'num',0x7:'char',0x8:'item',0x9:'button'}

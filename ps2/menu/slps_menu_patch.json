@@ -606,14 +606,15 @@
    },
    {
     "group": "title_descriptions",
-    "english": "Challenges the power of a god. What is truth?<line>Either way, this fight will be settled!",
+    "english": "Challenges a deity's power. What is truth?<line>Either way, this fight will be settled!",
     "old_string_offset": 1105101,
     "old_string_hex": "9AAA99A09BF6999A9A9C99770701",
     "pointer_offset": 804788,
     "old_pointer_hex": "CDCC2000",
     "pool_offset": 1028162,
-    "pool_hex": "4368616C6C656E6765732074686520706F776572206F66206120676F642E20576861742069732074727574683F01456974686572207761792C20746869732066696768742077696C6C20626520736574746C65642100",
-    "new_pointer_hex": "42A01F00"
+    "pool_hex": "4368616C6C656E6765732061206465697479277320706F7765722E20576861742069732074727574683F01456974686572207761792C20746869732066696768742077696C6C20626520736574746C65642100000000",
+    "new_pointer_hex": "42A01F00",
+    "previous_pool_hex": "4368616C6C656E6765732074686520706F776572206F66206120676F642E20576861742069732074727574683F01456974686572207761792C20746869732066696768742077696C6C20626520736574746C65642100"
    },
    {
     "group": "title_descriptions",
@@ -1615,6 +1616,53 @@
    "display": "Hold <09:0000003D> on hit to use the<line>arte's extension.",
    "old_hex": "486F6C6420093D000000206F6E2068697420746F207573652074686501736B696C6C277320657874656E73696F6E2E00000000",
    "new_hex": "486F6C6420093D000000206F6E2068697420746F20757365207468650161727465277320657874656E73696F6E2E0000000000"
+  },
+  {
+   "group": "customize_menu",
+   "label": "Auto-cook off",
+   "pointer_offset": 822984,
+   "offset": 1137019,
+   "old_text": "Do not auto-cook.",
+   "display": "Do not auto-cook",
+   "old_hex": "446F206E6F74206175746F2D636F6F6B2E00",
+   "new_hex": "446F206E6F74206175746F2D636F6F6B0000"
+  },
+  {
+   "group": "notice_label",
+   "label": "Info label",
+   "offset": 1120672,
+   "old_text": "NOTICE",
+   "display": "Info",
+   "old_hex": "4E4F5449434500",
+   "new_hex": "496E666F000000"
+  },
+  {
+   "group": "status_name",
+   "label": "Reala's Hero",
+   "pointer_offset": 806232,
+   "offset": 1097155,
+   "old_text": "Heroine Reala",
+   "display": "Reala's Hero",
+   "old_hex": "4865726F696E65205265616C6100",
+   "new_hex": "5265616C612773204865726F0000"
+  },
+  {
+   "group": "status_description",
+   "label": "Incarnation of God",
+   "offset": 1105043,
+   "old_text": "A divine avatar born with Elraine.",
+   "display": "A divine avatar born with Elrane.",
+   "old_hex": "4120646976696E652061766174617220626F726E207769746820456C7261696E652E0000000000",
+   "new_hex": "4120646976696E652061766174617220626F726E207769746820456C72616E652E000000000000"
+  },
+  {
+   "group": "status_description",
+   "label": "Holy Girl",
+   "offset": 1106389,
+   "old_text": "Two saintesses serve Fortuna:<line>Elraine and Reala.",
+   "display": "Two Holy Women serve Fortuna:<line>Elrane and Reala.",
+   "old_hex": "54776F20686F6C79206D616964656E7320736572766520466F7274756E613A01456C7261696E6520616E64205265616C612E0000000000000000000000",
+   "new_hex": "54776F20486F6C7920576F6D656E20736572766520466F7274756E613A01456C72616E6520616E64205265616C612E0000000000000000000000000000"
   }
  ],
  "counts": {
@@ -1626,8 +1674,8 @@
   "remaining_status_descriptions": 48,
   "cooking_description_slots": 49,
   "misc_menu_descriptions": 9,
-  "new_unique_in_place_records": 59,
-  "new_redirect_records": 56,
+  "new_unique_in_place_records": 95,
+  "new_redirect_records": 59,
   "enchant_description_width": 20
  },
  "previous_patched_sha256": "3A2A78B0AD419FC3A6F56C7916F4030D38658B5F7A2FEDEDBABCCAE32FEF23CE",
@@ -3008,6 +3056,40 @@
    "pool_hex": "576561706F6E2053686F703A20436C6177205368617270656E696E6700",
    "old_text": "Weapon Shop つめとぎ",
    "display": "Weapon Shop: Claw Sharpening"
+  },
+  {
+   "group": "menu_label",
+   "label": "Battle Rank Normal+",
+   "pointer_offset": 786336,
+   "old_pointer_hex": "03232000",
+   "new_pointer_hex": "20B51F00",
+   "pool_offset": 1033504,
+   "pool_hex": "4E6F726D616C2B00",
+   "old_text": "Second",
+   "display": "Normal+"
+  },
+  {
+   "group": "menu_label",
+   "label": "Pickaxe",
+   "pointer_offset": 788584,
+   "old_pointer_hex": "409C2000",
+   "new_pointer_hex": "28B51F00",
+   "pool_offset": 1033512,
+   "pool_hex": "5069636B61786500",
+   "old_text": "Pick",
+   "display": "Pickaxe"
+  },
+  {
+   "group": "menu_label",
+   "label": "Atamoni Ovum (destination list)",
+   "pointer_offset": 825072,
+   "old_pointer_hex": "C34D2100",
+   "new_pointer_hex": "474E2100",
+   "pool_offset": 1138247,
+   "pool_hex": "4174616D6F6E69204F76756D00",
+   "old_text": "God's Egg",
+   "display": "Atamoni Ovum",
+   "note": "written into the zero tail after the unreferenced second copy of the destination list at 0x115E3D"
   }
  ],
  "pool_used_end": 1031799

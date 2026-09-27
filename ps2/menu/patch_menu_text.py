@@ -27,6 +27,10 @@ FORMER_TRANSLATIONS = {
     ('09030.pak0', 0x101427): 'Crimson Speranza',
     ('09030.pak0', 0x10143C): 'Twilight Realta',
     ('09030.pak0', 0x10146A): 'Sea Cave',
+    ('06167.md1', 0x1E8F8): ('Quit the quiz?\n \n'
+                             "<button:00000035>Quit  <button:00000036>Don't"),
+    ('09031.pak0', 0xD8841): "Er'ther",
+    ('09031.pak0', 0xD884C): "Er'ther",
 }
 
 def resolve_folder(given):
