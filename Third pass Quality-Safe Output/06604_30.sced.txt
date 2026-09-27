@@ -134,9 +134,8 @@ Dymlos
 #貴様の相手は
 #私ではなかったのか
 #バルバトス!!
-Your opponent
-was not me,
-Barbatos!!
+Aren't I the one you're supposed
+to be fighting, Barbatos?!
 -----------------------
 #アトワイト
 Atwight
@@ -408,8 +407,8 @@ brings. I understand it perfectly.
 -----------------------
 #････ねえ、<Kyle>
 #もしも････もしもよ
-...Hey, <Kyle>.
-What if...what if, okay?
+...Hey, <Kyle>,
+what if...what if, you know...
 -----------------------
 <Reala>
 -----------------------
@@ -578,7 +577,7 @@ Info
 Info
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}ガルドを手に入れました<0B:00000000>
-<0B:00000001>Acquired {14}{34}{08}{C0} Gald.<0B:00000000>
+Acquired <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald.
 -----------------------
 #いってらっしゃいませ
 Have a good day.
