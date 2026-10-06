@@ -7,7 +7,7 @@ Aquaveil
 #領主館
 Lord's Manor
 -----------------------
-Info
+NOTICE
 -----------------------
 #<item:00000019>を手に入れました
 Acquired <item:00000019>.
@@ -31,7 +31,7 @@ on top of that mysterious box.
 There's an item here that
 feels somehow sacred.
 -----------------------
-Info
+NOTICE
 -----------------------
 #石碑に文字が彫られています
 Writing is carved on the monument.
@@ -41,36 +41,36 @@ Writing is carved on the monument.
 #読んだげよっか？
 Want me to read it for you?
 -----------------------
-Option
+select
 -----------------------
 #<03:00000000>　読んでもらう　
 #　興味無い　
 <03:00000000>Have her read it.
 Not interested.
 -----------------------
-Info
+NOTICE
 -----------------------
 #砂漠の大陸、燃え盛る火の中
 #白く険しき山の中腹
 #絶海に沈みし偶像の上
 #巨石文明の名残１
-In flames on the desert continent
-On a stark white mountainside
-Above an idol sunk at sea
-Megalithic Civilization Remnant 1
+In blazing fire on a desert land
+On a steep, white mountainside
+Atop an idol sunk in the open sea
+Megalithic ruins, first site
 -----------------------
-Info
+NOTICE
 -----------------------
 #巨石文明の名残２
 #深き緑に覆われし湖のほとり
 #人の訪れぬ白い島、緑の園
 #異国の地、大地をえぐる円
-Megalithic Civilization Remnant 2
-By a lake veiled in deep green
-White isle, garden unvisited
-A circle carved in foreign earth
+Megalithic ruins, site two
+By a lake amid deep green woods
+Deserted white isle, green grove
+A circle carved in foreign soil
 -----------------------
-Info
+NOTICE
 -----------------------
 #霧の混じる島
 #地図に載らぬ島
@@ -81,17 +81,17 @@ An island not found on any map
 Behind the small hut
 Islands untouched by human hands
 -----------------------
-Info
+NOTICE
 -----------------------
 #霧深き大地で最も高き所にある草原
 #霧深き山の懐
-　
 #　　　そこで不吉の証を手に入れよ
-Highest meadow in the misty land
-Within the mist-shrouded mountains
-There, obtain the token of ill omen
+The highest meadow in a misty land
+Deep in the mist-shrouded mountains
+ 
+There, claim the ill-omened tokens.
 -----------------------
-Info
+NOTICE
 -----------------------
 #石碑に文字が彫られていますが
 #難しくて読めません
@@ -151,7 +151,7 @@ a biiig smooch!
 #手を出さない主義なんだぁ～！
 P-please, stop! I have a strict
 policy against getting involved
-with anyone 14 or under!
+with anyone under 18!
 -----------------------
 #あたし、エミリっていうの
 #あなたの名前は？
@@ -648,21 +648,21 @@ OFF
 -----------------------
 OFF
 -----------------------
-Info
+notice
 -----------------------
 #アクアラビリンスに行きますか？
 #<03:00000000>　　　　　<size:000000C0><color:00000002>セーブはしましたか？
 Go to the Aqua Labyrinth?
 <03:00000000> <size:000000C0><color:00000002>Have you saved?
 -----------------------
-Option
+select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
 <03:00000000> Yes
 No
 -----------------------
-Info
+notice
 -----------------------
 #不気味な光を放つ入口があります
 #強力な力で封印されているのか
@@ -671,41 +671,41 @@ An entrance glows with eerie light.
 It seems sealed by a powerful force.
 You cannot enter.
 -----------------------
-Info
+notice
 -----------------------
 #手持ちの宝石があやしく輝いています
 Your gems are glowing ominously.
 -----------------------
-Info
+notice
 -----------------------
 #十五個の宝石が激しく輝いています
 #宝石を中に入れますか？
 The fifteen gems are shining
 intensely. Insert the gems?
 -----------------------
-Option
+select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
 <03:00000000> Yes
 No
 -----------------------
-Info
+notice
 -----------------------
 #このマップは暗くなります
 This area is dark.
 -----------------------
-Info
+notice
 -----------------------
 #このマップはダメージを受けます
 This area deals damage.
 -----------------------
-Info
+notice
 -----------------------
 #このマップはエンカウントマックスです
 Encounter rate is at maximum.
 -----------------------
-Info
+notice
 -----------------------
 #このマップは視界が狭くなります
 Visibility is limited in this area.
@@ -721,7 +721,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-Option
+select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -746,24 +746,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-Info
+notice
 -----------------------
 #{16}{25}{DA}{C0}を手に入れました
 Acquired {16}{25}{DA}{C0}.
 -----------------------
-Info
+notice
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-Info
+notice
 -----------------------
 #{16}{25}{E2}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{E2}{C0}, but
 your inventory is full.
 -----------------------
-Info
+notice
 -----------------------
 #何もありません
 There's nothing here.

@@ -1,29 +1,29 @@
 #飛行竜
-Draconis
+Flying Dragon
 -----------------------
 #飛行竜
-Draconis
+Flying Dragon
 -----------------------
-Option
+select
 -----------------------
 #<03:00000000>　梯子移動　
 #　梯子回収　
-<03:00000000> Get on ladder
+<03:00000000> Move Ladder
 Retrieve Ladder
 -----------------------
-Option
+select
 -----------------------
 #<03:00000000>　設置する　
 #　設置しない　
 <03:00000000> Place
 Don't Place
 -----------------------
-Info
+notice
 -----------------------
 #梯子設置可能ポイント
 Ladder placement point.
 -----------------------
-Info
+notice
 -----------------------
 #<button:00000035>ボタンで縄梯子を回収、設置できます
 #（注意：ただし上からのみです）
@@ -41,7 +41,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-Option
+select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -66,24 +66,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-Info
+notice
 -----------------------
 #{16}{25}{CE}{C0}を手に入れました
 Acquired {16}{25}{CE}{C0}.
 -----------------------
-Info
+notice
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-Info
+notice
 -----------------------
 #{16}{25}{D6}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{D6}{C0}, but
 your inventory is full.
 -----------------------
-Info
+notice
 -----------------------
 #何もありません
 There's nothing here.
@@ -91,7 +91,7 @@ There's nothing here.
 #タイムオーバー
 Time's up.
 -----------------------
-Info
+noitce
 -----------------------
 #制御装置を破壊しました
 Control device destroyed.

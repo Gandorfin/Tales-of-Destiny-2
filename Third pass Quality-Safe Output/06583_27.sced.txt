@@ -167,8 +167,8 @@ around here.
 -----------------------
 #あちゃあ、マズった！
 #化学物質がもれちゃってる
-Yikes!
-The chemicals are leaking!
+Oh no, this is bad!
+The chemicals are leaking.
 -----------------------
 <Judas>
 -----------------------
@@ -413,7 +413,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-Option
+select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -438,24 +438,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-Info
+notice
 -----------------------
 #{16}{25}{E2}{C0}を手に入れました
 Acquired {16}{25}{E2}{C0}.
 -----------------------
-Info
+notice
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-Info
+notice
 -----------------------
 #{16}{25}{EA}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{EA}{C0}, but
 your inventory is full.
 -----------------------
-Info
+notice
 -----------------------
 #何もありません
 There's nothing here.

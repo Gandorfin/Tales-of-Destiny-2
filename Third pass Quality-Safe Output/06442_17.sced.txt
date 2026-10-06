@@ -215,7 +215,7 @@ Chef
 Want to learn how
 to make {16}{34}{7C}{C0}?
 -----------------------
-Option
+select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -246,7 +246,7 @@ Chef
 I've got a recipe for {16}{34}{7C}{C0}.
 Want to buy it for <0B:00000001>{14}{34}{74}{C0}<0B:00000000> Gald?
 -----------------------
-Option
+select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -318,7 +318,7 @@ Chef
 Hand them over and I'll whip up
 some {16}{34}{7C}{C0}. How about it?
 -----------------------
-Option
+select
 -----------------------
 #<03:00000000>　はい
 #　いいえ
@@ -367,12 +367,12 @@ I've been waiting for someone like
 you. A chef worthy of inheriting
 this.
 -----------------------
-Info
+notice
 -----------------------
 #{16}{34}{7C}{C0}のレシピを拾いました
 Picked up the recipe for {16}{34}{7C}{C0}.
 -----------------------
-Info
+notice
 -----------------------
 #{16}{34}{90}{C0}の作り方を覚えました
 Learned how to make {16}{34}{90}{C0}.
@@ -388,7 +388,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-Option
+select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -413,24 +413,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-Info
+notice
 -----------------------
 #{16}{25}{DE}{C0}を手に入れました
 Acquired {16}{25}{DE}{C0}.
 -----------------------
-Info
+notice
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-Info
+notice
 -----------------------
 #{16}{25}{E6}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{E6}{C0}, but
 your inventory is full.
 -----------------------
-Info
+notice
 -----------------------
 #何もありません
 There's nothing here.

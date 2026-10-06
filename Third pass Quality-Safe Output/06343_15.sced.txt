@@ -13,7 +13,7 @@ Darilsheid Underground Waterway
 - Separated the stone statue
 - Stone statue not yet separated
 -----------------------
-Info
+NOTICE
 -----------------------
 #張り紙がされています
 #『ドロボウがここから逃げたようなので
@@ -50,14 +50,14 @@ sticky stuff?!
 Clearing this away by hand
 would be impossible...
 -----------------------
-Info
+NOTICE
 -----------------------
 #石切り機を使って
 #石像と土台を切り離しました
 Used the stone cutter. Separated the
 stone statue from its base.
 -----------------------
-Info
+NOTICE
 -----------------------
 #石像があります
 #石の土台にしっかりと固定されていますが
@@ -84,7 +84,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-Option
+select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -109,24 +109,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-Info
+notice
 -----------------------
 #{16}{25}{CA}{C0}を手に入れました
 Acquired {16}{25}{CA}{C0}.
 -----------------------
-Info
+notice
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-Info
+notice
 -----------------------
 #{16}{25}{D2}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{D2}{C0}, but
 your inventory is full.
 -----------------------
-Info
+notice
 -----------------------
 #何もありません
 There's nothing here.

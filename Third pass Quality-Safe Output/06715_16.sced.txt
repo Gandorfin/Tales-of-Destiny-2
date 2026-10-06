@@ -1,24 +1,24 @@
 #神のたまご・下層部
-Atamoni Ovum - Lower Layer
+Egg of God - Lower Layer
 -----------------------
 #神のたまご・下層部
-Atamoni Ovum - Lower Layer
+Egg of God - Lower Layer
 -----------------------
-Info
+notice
 -----------------------
 #「神のたまご」入り口まで
 #ワープしますか？
 Warp to the entrance
-of the Atamoni Ovum?
+of the Egg of God?
 -----------------------
-Option
+select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
 <03:00000000> Yes
 No
 -----------------------
-Info
+notice
 -----------------------
 #入り口と
 #このセーブポイントがつながり
@@ -35,7 +35,7 @@ The Final Merchant
 I can sell you {16}{25}{74}{C0} for <0B:00000001>{14}{35}{70}{C0}<0B:00000000> Gald.
 Would you like to buy it?
 -----------------------
-Option
+select
 -----------------------
 #<03:00000000>　買う　
 #　別のアイテム　
@@ -75,7 +75,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-Option
+select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -100,24 +100,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-Info
+notice
 -----------------------
 #{16}{27}{06}{C0}を手に入れました
 Acquired {16}{27}{06}{C0}.
 -----------------------
-Info
+notice
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-Info
+notice
 -----------------------
 #{16}{27}{0E}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{27}{0E}{C0}, but
 your inventory is full.
 -----------------------
-Info
+notice
 -----------------------
 #何もありません
 There's nothing here.

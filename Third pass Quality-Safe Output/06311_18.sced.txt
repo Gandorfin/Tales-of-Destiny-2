@@ -1,13 +1,13 @@
 #クレスタの街・長屋
-Cresta - Townhouse
+Cresta - Townhouses
 -----------------------
 #クレスタの街
 Cresta
 -----------------------
 #長屋
-Townhouse
+Townhouses
 -----------------------
-Info
+NOTICE
 -----------------------
 #<item:00000069>を２個手に入れました
 Acquired 2 <item:00000069>.
@@ -453,7 +453,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-Option
+select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -478,24 +478,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-Info
+notice
 -----------------------
 #{16}{25}{CA}{C0}を手に入れました
 Acquired {16}{25}{CA}{C0}.
 -----------------------
-Info
+notice
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-Info
+notice
 -----------------------
 #{16}{25}{D2}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{D2}{C0}, but
 your inventory is full.
 -----------------------
-Info
+notice
 -----------------------
 #何もありません
 There's nothing here.

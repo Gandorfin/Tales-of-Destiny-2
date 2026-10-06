@@ -50,7 +50,7 @@ Fortuna
 #････よく来ましたね
 #我が聖女よ････
 ...You have come far,
-my Saintess...
+my Holy Woman...
 -----------------------
 <Kyle>
 -----------------------
@@ -80,7 +80,8 @@ A god who still exists...
 -----------------------
 #本物････なのか････
 #本物の神さま････！
-Is that...real? A real god?!
+Is it...real...?
+The real God...!
 -----------------------
 #フォルトゥナ
 Fortuna
@@ -145,7 +146,7 @@ Fortuna
 #二人の聖女、ふたつの道････
 #それは、あなたとエルレインに
 #私が与えた運命です
-Two Saintesses, two paths...
+Two Holy Women, two paths...
 That is the destiny I have given
 to you and Elrane.
 -----------------------
@@ -173,7 +174,7 @@ W-wait, <Reala>!
 -----------------------
 #二人の聖女だの、人々を導けだの････
 #いったい、なんのこと!?
-Two Saintesses, leading the
+Two Holy Women, leading the
 people... What the heck are you
 talking about!?
 -----------------------
@@ -187,7 +188,7 @@ Fortuna
 -----------------------
 #二人の聖女は、私の代理者
 #人々を救いへと導く存在です
-The two Saintesses are my proxies.
+The two Holy Women are my proxies.
 They are beings who guide people
 toward salvation.
 -----------------------
@@ -203,7 +204,7 @@ Fortuna
 #そして二人の聖女を生みだしたのです
 The desire for people's salvation
 gave birth to me, and to the two
-Saintesses.
+Holy Women.
 -----------------------
 #フォルトゥナ
 Fortuna
@@ -417,7 +418,7 @@ You don't understand!
 <Reala>
 -----------------------
 #だって、<Kyle>は聖女でも････
-Because <Kyle> isn't a Saintess...
+Because <Kyle> isn't a Holy Woman...
 -----------------------
 <Reala>
 -----------------------
@@ -442,7 +443,7 @@ Fortuna
 #いいでしょう
 #お行きなさい、私の聖女よ
 Very well.
-Go forth, my Saintess.
+Go forth, my Holy Woman.
 -----------------------
 #フォルトゥナ
 Fortuna
@@ -454,7 +455,7 @@ May fortune be with you...
 After everything is over,
 we shall meet again, <Reala>.
 -----------------------
-Info
+notice
 -----------------------
 #<Reala>は
 #称号「<item:0000081C>」を得ました
@@ -489,7 +490,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-Option
+select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -514,24 +515,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-Info
+notice
 -----------------------
 #{16}{27}{CE}{C0}を手に入れました
 Acquired {16}{27}{CE}{C0}.
 -----------------------
-Info
+notice
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-Info
+notice
 -----------------------
 #{16}{27}{D6}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{27}{D6}{C0}, but
 your inventory is full.
 -----------------------
-Info
+notice
 -----------------------
 #何もありません
 There's nothing here.

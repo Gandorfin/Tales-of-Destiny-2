@@ -1,23 +1,23 @@
 #神のたまご・上層部
-Atamoni Ovum - Upper Layer
+Egg of God - Upper Layer
 -----------------------
 #神のたまご・上層部
-Atamoni Ovum - Upper Layer
+Egg of God - Upper Layer
 -----------------------
 #神のたまご・上層部
-Atamoni Ovum - Upper Layer
+Egg of God - Upper Layer
 -----------------------
 #神のたまご
-Atamoni Ovum
+Egg of God
 -----------------------
-Info
+notice
 -----------------------
 #「神のたまご」下層部まで
 #ワープしますか？
 Warp to the lower levels
-of the "Atamoni Ovum"?
+of the "Egg of God"?
 -----------------------
-Option
+select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -28,7 +28,7 @@ No
 -----------------------
 #ここが「神のたまご」か････
 #････薄気味悪い所だぜ
-So this is the "Atamoni Ovum"...
+So this is the "Egg of God"...
 ...Gives me the creeps.
 -----------------------
 <Judas>
@@ -38,7 +38,7 @@ So this is the "Atamoni Ovum"...
 #････まさしく「神のたまご」だな
 Hatching a god inside the shell
 of a comet... I see.
-...Truly an "Atamoni Ovum".
+...Truly an "Egg of God".
 -----------------------
 <Harold>
 -----------------------
@@ -90,7 +90,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-Option
+select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -115,24 +115,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-Info
+notice
 -----------------------
 #{16}{27}{0A}{C0}を手に入れました
 Acquired {16}{27}{0A}{C0}.
 -----------------------
-Info
+notice
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-Info
+notice
 -----------------------
 #{16}{27}{12}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{27}{12}{C0}, but
 your inventory is full.
 -----------------------
-Info
+notice
 -----------------------
 #何もありません
 There's nothing here.

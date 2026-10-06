@@ -5,62 +5,63 @@ Heidelberg Museum: Eye of Atamoni
 Heidelberg
 -----------------------
 #博物館『神の眼を巡る騒乱』
-Museum: Eye of Atamoni Unrest
+Museum: 'The Unrest Over the
+Eye of Atamoni'
 -----------------------
-Info
+NOTICE
 -----------------------
 #『ソーディアン・ディムロス』
 Swordian Dymlos
 -----------------------
-Info
+NOTICE
 -----------------------
 #火の属性を持つソーディアンで
 #スタン＝エルロンが使用した
 A fire-attribute Swordian
 wielded by Stahn Aileron
 -----------------------
-Info
+NOTICE
 -----------------------
 #『ソーディアン・アトワイト』
 Swordian Atwight
 -----------------------
-Info
+NOTICE
 -----------------------
 #水の属性を持つソーディアンで
 #ルーティ＝カトレットが使用した
 A water-attribute Swordian
 wielded by Rutee Katrea
 -----------------------
-Info
+NOTICE
 -----------------------
 #『ソーディアン・クレメンテ』
 Swordian Clemente
 -----------------------
-Info
+NOTICE
 -----------------------
 #雷の属性を持つソーディアンで
 #フィリア＝フィリスが使用した
 A lightning-attribute Swordian
 wielded by Philia Felice
 -----------------------
-Info
+NOTICE
 -----------------------
 #『ソーディアン・イクティノス』
 Swordian Igtenos
 -----------------------
-Info
+NOTICE
 -----------------------
 #風の属性を持つソーディアンで
 #ウッドロウ＝ケルヴィンが使用した
 A wind-attribute Swordian
 wielded by Woodrow Kelvin
 -----------------------
-Info
+NOTICE
 -----------------------
 #『四英雄・スタン＝エルロン』
 The Four Heroes: Stahn Aileron
 -----------------------
-Info
+NOTICE
 -----------------------
 #ソーディアン・ディムロスを手に
 #騒乱を鎮めた、農村出身の青年
@@ -69,7 +70,7 @@ A youth from a rural village who
 quelled the unrest with Swordian
 Dymlos in hand. Age at the time: 19
 -----------------------
-Info
+NOTICE
 -----------------------
 #四英雄のリーダーであり
 #先陣をきって戦い
@@ -78,12 +79,12 @@ Leader of the Four Heroes.
 He fought on the front lines
 and brought peace to the world.
 -----------------------
-Info
+NOTICE
 -----------------------
 #『四英雄・ルーティ＝カトレット』
 The Four Heroes: Rutee Katrea
 -----------------------
-Info
+NOTICE
 -----------------------
 #ソーディアン・アトワイトのマスター
 #レンズハンターから一転して
@@ -94,7 +95,7 @@ Once a Lens Hunter, she became
 a hero who saved the world.
 Age at the time: 18
 -----------------------
-Info
+NOTICE
 -----------------------
 #騒乱後は故郷のクレスタにもどり
 #孤児院の経営を継ぎ
@@ -103,12 +104,12 @@ After the unrest, she returned to
 Cresta, took over the orphanage,
 and contributed greatly to society.
 -----------------------
-Info
+NOTICE
 -----------------------
 #『四英雄・フィリア＝フィリス』
 The Four Heroes: Philia Felice
 -----------------------
-Info
+NOTICE
 -----------------------
 #ストレイライズ神殿の司祭
 #騒乱に巻き込まれ
@@ -119,19 +120,19 @@ who was caught up in the unrest
 and became the master of Swordian
 Clemente. Age at the time: 19
 -----------------------
-Info
+NOTICE
 -----------------------
 #騒乱後はストレイライズ大神殿の
 #高司祭となり、人々に復興の道筋を示した
 At Straylize Grand Temple, she rose
 to High Priestess, guiding recovery.
 -----------------------
-Info
+NOTICE
 -----------------------
 #『四英雄・ウッドロウ＝ケルヴィン』
 The Four Heroes: Woodrow Kelvin
 -----------------------
-Info
+NOTICE
 -----------------------
 #ファンダリアの王子にして
 #ソーディアン・イクティノスのマスター
@@ -140,7 +141,7 @@ Prince of Phandaria and master
 of Swordian Igtenos.
 Age at the time: 23
 -----------------------
-Info
+NOTICE
 -----------------------
 #絶対的なカリスマの持ち主で
 #多くの民を率い、騒乱で傷ついた
@@ -149,14 +150,14 @@ A wise king of absolute charisma
 who led many people and restored
 the world wounded by the unrest.
 -----------------------
-Info
+NOTICE
 -----------------------
 #『マリー＝エージェント
 #　本名・マリー＝ビンセント』
 Mary Argent
 Real name: Mary Vincent
 -----------------------
-Info
+NOTICE
 -----------------------
 #四英雄たちと共に戦った
 #勇猛な女戦士
@@ -165,26 +166,26 @@ A valiant female warrior who fought
 alongside the Four Heroes. Age at
 the time: 24
 -----------------------
-Info
+NOTICE
 -----------------------
 #騒乱後は剣を捨て
 #おだやかに暮らしているという
 After the unrest, she laid down
 her sword and now lives peacefully.
 -----------------------
-Info
+NOTICE
 -----------------------
 #『チェルシー＝トーン』
 Chelsea Torn
 -----------------------
-Info
+NOTICE
 -----------------------
 #若き日のウッドロウ王を支えた少女
 #騒乱当時１４歳
 A girl who supported King Woodrow in
 his youth. Age at the time: 14
 -----------------------
-Info
+NOTICE
 -----------------------
 #騒乱後、しばらくして
 #ウッドロウ王のもとから姿を消したため
@@ -193,12 +194,12 @@ Sometime after the unrest, she
 left King Woodrow, then vanished.
 Her whereabouts remain unknown.
 -----------------------
-Info
+NOTICE
 -----------------------
 #『マイティ＝コングマン』
 Mighty Kongman
 -----------------------
-Info
+NOTICE
 -----------------------
 #『････ただし、これは
 #　自称しているリングネームで
@@ -207,7 +208,7 @@ Info
 claims to use, and his real name
 remains undisclosed.
 -----------------------
-Info
+NOTICE
 -----------------------
 #英雄たちと苦難の旅を共にした拳闘士で
 #ノイシュタット闘技場の王者
@@ -216,7 +217,7 @@ A pugilist who journeyed with the
 heroes. Champion of Neuestadt's
 arena. Age at the time: 39
 -----------------------
-Info
+NOTICE
 -----------------------
 #騒乱後はノイシュタットの復興に貢献し
 #フィッツガルド国を代表する
@@ -225,12 +226,12 @@ Afterward, he rebuilt Neuestadt
 and became a renowned figure
 representing Fitzgald.
 -----------------------
-Info
+NOTICE
 -----------------------
 #『ジョニー＝シデン』
 Johnny Shiden
 -----------------------
-Info
+NOTICE
 -----------------------
 #アクアヴェイル地方の名家の
 #出身にして吟遊詩人
@@ -241,19 +242,19 @@ a bard who supported the Four
 Heroes through many trials.
 Age at the time: 26
 -----------------------
-Info
+NOTICE
 -----------------------
 #騒乱後、アクアヴェイル地方の
 #諸国を統合し、平和な国を築いた
 Afterward, he united Aquaveil's
 nations and built a peaceful land.
 -----------------------
-Info
+NOTICE
 -----------------------
 #『ラディスロウ』
 Radisrol
 -----------------------
-Info
+NOTICE
 -----------------------
 #天地戦争時代、地上軍の旗艦として
 #運用されていた巨大な輸送艦
@@ -261,12 +262,12 @@ A massive transport ship used as
 the Er'ther forces' flagship
 during the Aeth'er Wars.
 -----------------------
-Info
+NOTICE
 -----------------------
 #『神の眼』
 Eye of Atamoni
 -----------------------
-Info
+NOTICE
 -----------------------
 #歴史の隅々に登場する伝説的なレンズ
 #直径は６メートルとも１０メートルとも
@@ -275,7 +276,7 @@ A legendary Lens known through time.
 Its diameter is said to be six
 or even ten meters.
 -----------------------
-Info
+NOTICE
 -----------------------
 #強力過ぎる力のために
 #ストレイライズ神殿に封印されていたが
@@ -284,7 +285,7 @@ Too powerful to leave unsealed,
 it was kept in Straylize Temple,
 but stolen during the unrest.
 -----------------------
-Info
+NOTICE
 -----------------------
 #世界を破滅させるために使われようとしたが
 #四英雄とソーディアンの活躍により
@@ -293,12 +294,12 @@ Intended to destroy the world, but
 the Four Heroes and Swordians
 destroyed it.
 -----------------------
-Info
+NOTICE
 -----------------------
 #『ソーディアンとは』
 What Is a Swordian?
 -----------------------
-Info
+NOTICE
 -----------------------
 #ソーディアンとは
 #天地戦争において
@@ -307,7 +308,7 @@ Swordians are weapons
 developed by the Er'ther forces
 during the Aeth'er Wars.
 -----------------------
-Info
+NOTICE
 -----------------------
 #それぞれのソーディアンには
 #レンズが埋め込まれており
@@ -439,7 +440,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-Option
+select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -464,24 +465,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-Info
+notice
 -----------------------
 #{16}{25}{BA}{C0}を手に入れました
 Acquired {16}{25}{BA}{C0}.
 -----------------------
-Info
+notice
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-Info
+notice
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{C2}{C0}, but
 your inventory is full.
 -----------------------
-Info
+notice
 -----------------------
 #何もありません
 There's nothing here.

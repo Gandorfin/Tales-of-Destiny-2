@@ -17,7 +17,7 @@ Neuestadt
 There's a splendid fountain in the
 center of the plaza.
 -----------------------
-Info
+NOTICE
 -----------------------
 #『幸運の噴水にガルドを投げ入れましょう』
 #噴水の中に小銭が沈んでいます
@@ -26,14 +26,14 @@ Put Gald in the Fountain of Fortune.
 Coins lie at the bottom.
 Take them?
 -----------------------
-Option
+select
 -----------------------
 #<03:00000000>　ありがたく頂きます　
 #　そんなみみっちいマネはしない　
 <03:00000000> I'll gladly take it.
 I won't do something so petty.
 -----------------------
-Info
+NOTICE
 -----------------------
 #１００ガルド、いただいてしまいました
 #なんだか自分がとても小さな人間のように思えました
@@ -54,13 +54,13 @@ left in the fountain......
 #これは！
 What's this?!
 -----------------------
-Info
+NOTICE
 -----------------------
 #ＴＯＤ２の追加クイズ問題を見つけた！
 Found a Tales of Destiny 2
 bonus quiz!
 -----------------------
-Info
+NOTICE
 -----------------------
 #クイズ本に新しいジャンルが追加されました
 New category added to the quiz book!
@@ -75,7 +75,7 @@ and My Fists - Now on Sale!'
 'For all your general goods and
 fresh ingredients, come right here!'
 -----------------------
-Info
+NOTICE
 -----------------------
 #<item:0000000A>を手に入れました
 Acquired <item:0000000A>.
@@ -973,7 +973,7 @@ Mach Boy
 Hmph. You've got some pretty fast
 legs. Care to test them against me?
 -----------------------
-Option
+SELECT
 -----------------------
 #<03:00000000>　勝負する！　
 #　興味無い　
@@ -1260,7 +1260,7 @@ a Neuestadt specialty.
 {15}{14}{B4}{C0} acquired the title
 "{16}{A0}{00}{08}{24}{B2}{CA}{C0}".
 -----------------------
-Info
+notice
 -----------------------
 <Kyle>
 -----------------------
@@ -1285,7 +1285,7 @@ Heh!
 Beat it before you get hurt.
 -----------------------
 #リムル
-Rhym
+Rimul
 -----------------------
 #････そうはいかないわね
 ...I'm afraid I can't do that.
@@ -1317,7 +1317,7 @@ Thug
 C'mon, say somethin', huh?!
 -----------------------
 #リムル
-Rhym
+Rimul
 -----------------------
 #ケガをしたくなければ
 #すぐに立ち去りなさい････
@@ -1333,7 +1333,7 @@ I've had enough...
 Hey, waste her!!
 -----------------------
 #リムル
-Rhym
+Rimul
 -----------------------
 #････安心しなさい
 #これ以上の手出しはしないわ････
@@ -1351,7 +1351,7 @@ S-so strong...
 Too...strong...
 -----------------------
 #リムル
-Rhym
+Rimul
 -----------------------
 #････とんだ寄り道をしてしまったわね
 #やはり、もっと強い敵とまみえてこその
@@ -1370,7 +1370,7 @@ Thank you so much!
 Please, let me give you something...
 -----------------------
 #リムル
-Rhym
+Rimul
 -----------------------
 #必要ないわ
 #当然のことを、したまでよ････
@@ -1412,7 +1412,7 @@ Girl
 Ahh...my lady...
 -----------------------
 #リムル
-Rhym
+Rimul
 -----------------------
 #キミは････
 You are...
@@ -1421,11 +1421,11 @@ You are...
 -----------------------
 #リムルさん、だよね？
 #ねぇ、なにしてたの？
-You're Rhym, right?
+You're Rimul, right?
 Hey, what were you doing?
 -----------------------
 #リムル
-Rhym
+Rimul
 -----------------------
 #････考えごとよ
 ...Thinking.
@@ -1438,7 +1438,7 @@ Thinking?
 What about?
 -----------------------
 #リムル
-Rhym
+Rimul
 -----------------------
 #強くなること････
 #今よりも強くなるには
@@ -1455,7 +1455,7 @@ You're already that strong,
 and you still wanna get stronger?
 -----------------------
 #リムル
-Rhym
+Rimul
 -----------------------
 #今が、どうあろうと関係ないの
 #わたしは、強くなりたい････
@@ -1465,7 +1465,7 @@ I wish to become stronger...
 That is all.
 -----------------------
 #リムル
-Rhym
+Rimul
 -----------------------
 #今のわたしには、切り札がないわ
 #どんな不利な状況をも、はね返せる
@@ -1476,13 +1476,13 @@ turn back any disadvantageous
 situation...
 -----------------------
 #リムル
-Rhym
+Rimul
 -----------------------
 #それがあれば、もっと高みに昇れる
 #そこまでは、考えいたったのよ
-With a trump card, I could rise
-even higher. That's as far as my
-thoughts had taken me.
+With an ace up my sleeve, I could
+rise even higher. That's as far
+as my thoughts had taken me.
 -----------------------
 <Kyle>
 -----------------------
@@ -1497,7 +1497,7 @@ Hoo～♪
 She's really fired up!
 -----------------------
 #リムル
-Rhym
+Rimul
 -----------------------
 #ただ、速く走ることだけを
 #追い求める････
@@ -1505,7 +1505,7 @@ Simply pursuing nothing but running
 faster and faster...
 -----------------------
 #リムル
-Rhym
+Rimul
 -----------------------
 #同じところを、何度もまわり
 #ただ、速く走ることだけを考える
@@ -1517,7 +1517,7 @@ running as fast as possible...
 different...
 -----------------------
 #リムル
-Rhym
+Rimul
 -----------------------
 #････走る････
 #････････同じところを････
@@ -1525,7 +1525,7 @@ Rhym
 ......around the same place...
 -----------------------
 #リムル
-Rhym
+Rimul
 -----------------------
 #まわる････走る････
 #････できるだけ、速く････
@@ -1533,7 +1533,7 @@ Going around...running...
 ...as fast as I possibly can...
 -----------------------
 #リムル
-Rhym
+Rimul
 -----------------------
 #････！！！
 #そう！　そういうことね！
@@ -1560,7 +1560,7 @@ Veteran
 #ひよっこ
 Rookie
 -----------------------
-Info
+notice
 -----------------------
 #「武器攻撃」について
 #話し合っているようです
@@ -1633,7 +1633,7 @@ You'll recover a lot of SP when you
 guard successfully, so guarding with
 <button:00000047> is important too.
 -----------------------
-Info
+notice
 -----------------------
 #「特技」について
 #話し合っているようです
@@ -1688,7 +1688,7 @@ Moreover, if you take out a
 group of them during a combo,
 you'll recover even more TP.
 -----------------------
-Info
+notice
 -----------------------
 #「エンチャント」について
 #話し合っているようです
@@ -1781,7 +1781,7 @@ HP is below 50%". Be careful!!
 Sure, you can use it on a scratch,
 but it won't count as experience.
 -----------------------
-Info
+notice
 -----------------------
 #「戦闘の作戦」について
 #話し合っているようです
@@ -1842,7 +1842,7 @@ each character's abilities
 and the enemy should let
 you fight more efficiently.
 -----------------------
-Info
+notice
 -----------------------
 #「テクニカルスマッシュ」
 #について話し合っているようです
@@ -1905,7 +1905,7 @@ since they eat SP, but
 mastering the finishing blow
 is the path to true mastery.
 -----------------------
-Info
+notice
 -----------------------
 #「スピリッツ」について
 #話し合っているようです
@@ -1960,7 +1960,7 @@ brighter the cursor color,
 the higher their SP. You can
 read an enemy's SP mid-fight.
 -----------------------
-Info
+notice
 -----------------------
 #「連続ヒット」について
 #話し合っているようです
@@ -2019,7 +2019,7 @@ everyone down. That's the catch.
 Even here, balancing Magic Artes
 and Base Artes is what matters most.
 -----------------------
-Info
+notice
 -----------------------
 #「影響エリア」について
 #話し合っているようです
@@ -2074,7 +2074,7 @@ Overly Veteran
 #息子
 Son
 -----------------------
-Info
+notice
 -----------------------
 #「ステータス変化」について
 #話し合っているようです
@@ -2161,7 +2161,7 @@ Overly Veteran
 #息子
 Son
 -----------------------
-Info
+notice
 -----------------------
 #「スピリッツブラスター」
 #について話し合っているようです
@@ -2271,7 +2271,7 @@ Overly Veteran
 #息子
 Son
 -----------------------
-Info
+notice
 -----------------------
 #「フィールドオブエフェクト」
 #について話し合っているようです
@@ -2336,7 +2336,7 @@ everything. It's quite a bother.
 #（言うのが遅いよ父さん････）
 (You're one to talk, Dad...)
 -----------------------
-Info
+notice
 -----------------------
 #「バトルグレード」について
 #話し合っているようです
@@ -2399,7 +2399,7 @@ That's all there is to it.
 As expected of you,
 Senior. I'm learning a lot.
 -----------------------
-Info
+notice
 -----------------------
 #「受身」について
 #話し合っているようです
@@ -2435,7 +2435,7 @@ recover too. Pretty nice, right?
 #もももももちろん知ってたさ
 I-I-I-I-I knew that all along.
 -----------------------
-Info
+notice
 -----------------------
 #「戦闘難易度」について
 #話し合っているようです
@@ -2491,7 +2491,7 @@ SECOND offers a balanced difficulty,
 so if you're looking for a bit more
 of a challenge, I'd recommend it.
 -----------------------
-Info
+notice
 -----------------------
 #「通常攻撃」について
 #深く話し合っているようです
@@ -2581,7 +2581,7 @@ so if you're already overwhelmed
 by other rules, don't force
 yourself to memorize these.
 -----------------------
-Info
+notice
 -----------------------
 #「長い話」について
 #話し合っているようです
@@ -2625,7 +2625,7 @@ is why I'm telling you now.
 #納得さ
 Fair enough.
 -----------------------
-Info
+notice
 -----------------------
 #「アイテム拾得」について
 #話し合っているようです
@@ -2707,7 +2707,7 @@ That too. The important thing
 is to adventure in a way
 that suits your own style.
 -----------------------
-Option
+select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -2730,7 +2730,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-Option
+select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -2755,24 +2755,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-Info
+notice
 -----------------------
 #{16}{26}{0E}{C0}を手に入れました
 Acquired {16}{26}{0E}{C0}.
 -----------------------
-Info
+notice
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-Info
+notice
 -----------------------
 #{16}{26}{16}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{26}{16}{C0}, but
 your inventory is full.
 -----------------------
-Info
+notice
 -----------------------
 #何もありません
 There's nothing here.
@@ -2801,18 +2801,18 @@ may sometimes carry over.
 One bottle costs <0B:00000001>{14}{36}{20}{C0}<0B:00000000> Gald.
 Would you like to buy <item:00000012>?
 -----------------------
-Option
+select
 -----------------------
 #<03:00000000>　買う　
 #　<0B:00000001>{14}{26}{2A}{C0}本まとめて買う（{14}{36}{24}{C0}ガルド）<0B:00000000>　
 #　リファイン講座　
 #　いらない　
 <03:00000000>Buy
-Buy in bulk: <0B:00000001>{14}{26}{2A}{C0} ({14}{36}{24}{C0}<0B:00000000> Gald)
+<0B:00000001>Buy {14}{26}{2A}{C0} in bulk ({14}{36}{24}{C0} Gald)<0B:00000000>
 Refine Guide
 No thanks
 -----------------------
-Option
+select
 -----------------------
 #<03:00000000>　買う　
 #　リファイン講座　
@@ -2835,7 +2835,7 @@ Thank you for your purchase.
 Would you like to hear
 the Refine Guide?
 -----------------------
-Option
+select
 -----------------------
 #<03:00000000>　聞きたい　
 #　聞きたくない　
@@ -2845,7 +2845,7 @@ No thanks
 #何について知りたいですか？
 What would you like to know?
 -----------------------
-Option
+select
 -----------------------
 #<03:00000000>　４、スロットについて　
 #　５、装飾品のリファイン　
@@ -2856,7 +2856,7 @@ Option
 6. Equipment That Cannot Be Refined
 Previous Page
 -----------------------
-Option
+select
 -----------------------
 #<03:00000000>　１、リファインとは
 #　２、アイテムの変化　　　　　　　　　　

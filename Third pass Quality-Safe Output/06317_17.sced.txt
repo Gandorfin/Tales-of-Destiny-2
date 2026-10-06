@@ -12,7 +12,7 @@ Dunamis Orphanage
 #さあ、どうしようかな？
 Now, what should I do?
 -----------------------
-Option
+select
 -----------------------
 #　もう寝る　
 #　まだ眠くない　
@@ -160,7 +160,7 @@ What was that dream about...
 ...Anyway...
 I gotta get to <Loni>...
 -----------------------
-Info
+notice
 -----------------------
 #<Kyle>は
 #称号「<item:00000817>」を得ました
@@ -203,7 +203,7 @@ Mmmnn...
 #「神のたまご」が！
 This ain't the time to be
 half-asleep! It's finally shown up!
-The "Atamoni Ovum"!
+The "Egg of God"!
 -----------------------
 <Kyle>
 -----------------------
@@ -215,7 +215,7 @@ Egg...?
 <Kyle>
 -----------------------
 #「神のたまご」が････!?
-The "Atamoni Ovum" has...!?
+The "Egg of God" has...!?
 -----------------------
 <Loni>
 -----------------------
@@ -224,7 +224,7 @@ The "Atamoni Ovum" has...!?
 Just hurry up and come!
 Everyone's waiting!
 -----------------------
-Option
+select
 -----------------------
 #　休む　
 #　休まない　
@@ -258,7 +258,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-Option
+select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -283,24 +283,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-Info
+notice
 -----------------------
 #{16}{25}{E2}{C0}を手に入れました
 Acquired {16}{25}{E2}{C0}.
 -----------------------
-Info
+notice
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-Info
+notice
 -----------------------
 #{16}{25}{EA}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{EA}{C0}, but
 your inventory is full.
 -----------------------
-Info
+notice
 -----------------------
 #何もありません
 There's nothing here.

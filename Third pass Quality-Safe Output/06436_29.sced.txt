@@ -1415,8 +1415,8 @@ Huh?
 -----------------------
 #<Reala>がいなくなっちゃうなんて、
 #オレは、イヤだ！
-<Reala>, I don't want
-you to disappear!
+I don't want <Reala> to disappear!
+I don't want that!
 -----------------------
 <Kyle>
 -----------------------
@@ -1547,7 +1547,9 @@ I think you really hurt him.
 -----------------------
 #で、ふたつ同時に考えてるから、頭ん中、
 #ゴチャゴチャになっちゃってる････違う？
-Let me guess what's on your mind.
+You've got both those things on your
+mind, so your head's all jumbled
+up... Am I right?
 -----------------------
 <Reala>
 -----------------------
@@ -1830,7 +1832,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-Option
+select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -1855,24 +1857,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-Info
+notice
 -----------------------
 #{16}{26}{6A}{C0}を手に入れました
 Acquired {16}{26}{6A}{C0}.
 -----------------------
-Info
+notice
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-Info
+notice
 -----------------------
 #{16}{26}{72}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{26}{72}{C0}, but
 your inventory is full.
 -----------------------
-Info
+notice
 -----------------------
 #何もありません
 There's nothing here.

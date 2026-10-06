@@ -16,7 +16,7 @@ Straylize Grand Temple
 #ストレイライズ神殿
 Straylize Temple
 -----------------------
-Info
+NOTICE
 -----------------------
 #石碑に文字が彫られています
 Writing is carved on the monument.
@@ -26,14 +26,14 @@ Writing is carved on the monument.
 #読んだげよっか？
 Want me to read it for you?
 -----------------------
-Option
+select
 -----------------------
 #<03:00000000>　読んでもらう　
 #　興味無い　
 <03:00000000>Have her read it.
 Not interested.
 -----------------------
-Info
+NOTICE
 -----------------------
 #砂漠の大陸、燃え盛る火の中
 #白く険しき山の中腹
@@ -44,7 +44,7 @@ On a stark white mountainside
 Above an idol sunk at sea
 Megalithic Civilization Remnant 1
 -----------------------
-Info
+NOTICE
 -----------------------
 #巨石文明の名残２
 #深き緑に覆われし湖のほとり
@@ -55,7 +55,7 @@ By a lake veiled in deep green
 White isle, garden unvisited
 A circle carved in foreign earth
 -----------------------
-Info
+NOTICE
 -----------------------
 #霧の混じる島
 #地図に載らぬ島
@@ -66,7 +66,7 @@ An island uncharted on maps
 Behind a small hut
 Islands beyond human reach
 -----------------------
-Info
+NOTICE
 -----------------------
 #霧深き大地で最も高き所にある草原
 #霧深き山の懐
@@ -75,7 +75,7 @@ Highest meadow in the misty land
 Within the mist-shrouded mountains
 There, obtain the token of ill omen
 -----------------------
-Info
+NOTICE
 -----------------------
 #石碑に文字が彫られていますが
 #難しくて読めません
@@ -1015,13 +1015,14 @@ Wh-what the heck!?
 <Loni>
 -----------------------
 #くそっ！　逃げ足のはやいヤツだ！
-Damn it! They're fast on their feet!
+Damn it! That guy's fast on his
+feet!
 -----------------------
 <Judas>
 -----------------------
 #まさか、レンズは飛行竜に････！
 Don't tell me...the Lens are on
-the Draconis!?
+the Flying Dragon!?
 -----------------------
 #フィリア
 Philia
@@ -1153,7 +1154,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-Option
+select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -1178,24 +1179,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-Info
+notice
 -----------------------
 #{16}{25}{EE}{C0}を手に入れました
 Acquired {16}{25}{EE}{C0}.
 -----------------------
-Info
+notice
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-Info
+notice
 -----------------------
 #{16}{25}{F6}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{F6}{C0}, but
 your inventory is full.
 -----------------------
-Info
+notice
 -----------------------
 #何もありません
 There's nothing here.

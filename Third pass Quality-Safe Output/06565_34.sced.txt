@@ -517,7 +517,7 @@ I figured you'd say that.
 Here, a map!
 That should clear things up, right?
 -----------------------
-Info
+notice
 -----------------------
 #<Harold>は
 #称号「<item:00000829>」を得ました
@@ -566,7 +566,7 @@ Well...
 A-anyway,
 let's go see Commander Raiker.
 -----------------------
-Info
+notice
 -----------------------
 #<Harold>は
 #称号「<item:00000872>」を得ました
@@ -633,7 +633,7 @@ Why didn't he go save her?
 #ねぇ、人の命の重さって
 #どれくらいだと思う？
 Hey, how much do you think
-a human life is worth?
+a human life weighs?
 -----------------------
 <Loni>
 -----------------------
@@ -719,7 +719,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-Option
+select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -744,24 +744,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-Info
+notice
 -----------------------
 #{16}{26}{4E}{C0}を手に入れました
 Acquired {16}{26}{4E}{C0}.
 -----------------------
-Info
+notice
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-Info
+notice
 -----------------------
 #{16}{26}{56}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{26}{56}{C0}, but
 your inventory is full.
 -----------------------
-Info
+notice
 -----------------------
 #何もありません
 There's nothing here.

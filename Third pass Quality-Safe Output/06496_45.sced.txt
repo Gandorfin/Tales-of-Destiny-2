@@ -33,7 +33,7 @@ Brave
 -----------------------
 #<Nanaly>姉ちゃん
 #今度、弓のうちかた教えてね
-<Nanaly>, teach me how to
+Big Sis <Nanaly>, teach me how to
 shoot that bow next time, okay?
 -----------------------
 #重たい剣はふりまわせないけど
@@ -56,7 +56,7 @@ with some small prey.
 #<Nanaly>姉ちゃんみたいに
 #強くなりたいなぁ
 I wanna get
-strong like <Nanaly>
+strong like Big Sis <Nanaly>
 too.
 -----------------------
 <Loni>
@@ -70,7 +70,7 @@ go copying her personality too.
 #<Nanaly>姉ちゃんを
 #助けてあげたいなぁ
 I wanna grow up soon too
-so I can help <Nanaly>
+so I can help Big Sis <Nanaly>
 out.
 -----------------------
 #この町では、自分の事は自分で、
@@ -964,7 +964,7 @@ But first...
 #どこだい？
 #姉ちゃん、話があるんだけど
 Where are <Loni> and <Judas>?
-Your sister has something
+Your big sis has something
 to talk to them about.
 -----------------------
 #あのふたりならねぇ････
@@ -1525,14 +1525,14 @@ Of <Reala> and <Nanaly>.
 #あ････
 Ah...
 -----------------------
-Info
+notice
 -----------------------
 #<Loni>は
 #称号「<item:00000831>」を得ました
 <Loni> acquired the title
 "<item:00000831>".
 -----------------------
-Info
+notice
 -----------------------
 #<Judas>は
 #称号「<item:00000832>」を得ました
@@ -1662,7 +1662,7 @@ Rue is...
 Rue
 -----------------------
 #<Nanaly>姉ちゃ～ん！
-<Nanaly>～!
+Big Sis <Nanaly>～!
 -----------------------
 <Kyle>
 -----------------------
@@ -1695,7 +1695,7 @@ Rue
 -----------------------
 #ねぇ、<Nanaly>姉ちゃん
 #ゴハン、ゴハン！
-Hey, <Nanaly>!
+Hey, Big Sis <Nanaly>!
 Dinner's ready! Dinner's ready!
 -----------------------
 <Nanaly>
@@ -1882,7 +1882,7 @@ Rue
 -----------------------
 #････<Nanaly>姉ちゃん
 #この人････なに言ってるの？
-...<Nanaly>.
+...Big Sis <Nanaly>.
 What is he saying?
 -----------------------
 <Nanaly>
@@ -1936,7 +1936,7 @@ Rue
 #<Nanaly>姉ちゃん！
 #ボク、生きてるよ!?
 #死んでなんかないよ!?
-<Nanaly>!
+Big Sis <Nanaly>!
 I'm alive, okay!?
 I haven't died, okay!?
 -----------------------
@@ -1978,7 +1978,7 @@ Rue
 -----------------------
 #<Nanaly>姉ちゃん！
 #ボク、死んでなんかないよ!!
-<Nanaly>!
+Big Sis <Nanaly>!
 I'm not dead, okay!!
 -----------------------
 <Loni>
@@ -2005,7 +2005,7 @@ Rue
 -----------------------
 #<Nanaly>姉ちゃん、ボクを見て！
 #ボクは、ここにいるよ!!
-<Nanaly>, look at me!
+Big Sis <Nanaly>, look at me!
 I'm right here!!
 -----------------------
 <Loni>
@@ -2041,19 +2041,20 @@ Rue
 -----------------------
 #<Nanaly>姉ちゃん････
 #ボク、生きて････
-<Nanaly>...
+Big Sis <Nanaly>...
 I'm alive...
 -----------------------
 #ルー
 Rue
 -----------------------
 #<Nanaly>姉ちゃん････？
-<Nanaly>...?
+Big Sis <Nanaly>...?
 -----------------------
 <Nanaly>
 -----------------------
 #････姉ちゃん、バカだった････
-...I was such an idiot...
+...Your big sis was
+such an idiot...
 -----------------------
 <Nanaly>
 -----------------------
@@ -2100,7 +2101,7 @@ Sis, I...
 #････････姉ちゃん、やっと
 #全部、思い出せたから････だから････
 But that's...over now too...
-......I finally...
+......Your big sis finally...
 remembered everything...so...
 -----------------------
 <Nanaly>
@@ -2440,7 +2441,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-Option
+select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -2465,24 +2466,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-Info
+notice
 -----------------------
 #{16}{27}{26}{C0}を手に入れました
 Acquired {16}{27}{26}{C0}.
 -----------------------
-Info
+notice
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-Info
+notice
 -----------------------
 #{16}{27}{2E}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{27}{2E}{C0}, but
 your inventory is full.
 -----------------------
-Info
+notice
 -----------------------
 #何もありません
 There's nothing here.
@@ -2510,18 +2511,18 @@ may inherit their added abilities.
 One bottle costs <0B:00000001>{14}{37}{38}{C0}<0B:00000000> Gald.
 Would you like to buy <item:00000012>?
 -----------------------
-Option
+select
 -----------------------
 #<03:00000000>　買う　
 #　<0B:00000001>{14}{27}{42}{C0}本まとめて買う（{14}{37}{3C}{C0}ガルド）<0B:00000000>　
 #　リファイン講座　
 #　いらない　
 <03:00000000> Buy
-Buy in bulk: <0B:00000001>{14}{27}{42}{C0} ({14}{37}{3C}{C0}<0B:00000000> Gald)
+<0B:00000001>Buy {14}{27}{42}{C0} in bulk ({14}{37}{3C}{C0} Gald)<0B:00000000>
 Refine Guide
 No thanks
 -----------------------
-Option
+select
 -----------------------
 #<03:00000000>　買う　
 #　リファイン講座　
@@ -2544,7 +2545,7 @@ Thank you for your purchase.
 Would you like to hear
 the Refine Guide?
 -----------------------
-Option
+select
 -----------------------
 #<03:00000000>　聞きたい　
 #　聞きたくない　
@@ -2554,7 +2555,7 @@ No thanks
 #何について知りたいですか？
 What would you like to know?
 -----------------------
-Option
+select
 -----------------------
 #<03:00000000>　４、スロットについて　
 #　５、装飾品のリファイン　
@@ -2565,7 +2566,7 @@ Option
 6. Equipment That Cannot Be Refined
 Previous Page
 -----------------------
-Option
+select
 -----------------------
 #<03:00000000>　１、リファインとは
 #　２、アイテムの変化　　　　　　　　　　

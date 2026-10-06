@@ -1,8 +1,8 @@
 #神のたまご・下層部
-Atamoni Ovum - Lower Layer
+Egg of God - Lower Layer
 -----------------------
 #神のたまご・下層部
-Atamoni Ovum - Lower Layer
+Egg of God - Lower Layer
 -----------------------
 <Kyle>
 -----------------------
@@ -218,7 +218,7 @@ can make...it...possible...
 Fortuna
 -----------------------
 #<Reala>、我が聖女よ････
-<Reala>, my Saintess...
+<Reala>, my Holy Woman...
 -----------------------
 <Kyle>
 -----------------------
@@ -483,7 +483,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-Option
+select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -508,24 +508,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-Info
+notice
 -----------------------
 #{16}{27}{26}{C0}を手に入れました
 Acquired {16}{27}{26}{C0}.
 -----------------------
-Info
+notice
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-Info
+notice
 -----------------------
 #{16}{27}{2E}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{27}{2E}{C0}, but
 your inventory is full.
 -----------------------
-Info
+notice
 -----------------------
 #何もありません
 There's nothing here.

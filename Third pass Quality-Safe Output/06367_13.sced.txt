@@ -4,7 +4,7 @@ Aigrette - Equipment Shop
 #アイグレッテ
 Aigrette
 -----------------------
-Info
+NOTICE
 -----------------------
 #<item:00000078>を手に入れました
 Acquired <item:00000078>.
@@ -20,7 +20,7 @@ Swordsman
 #聖女エルレインか････
 #人々の前で奇跡を起こすというが
 #いったい何者なのだろうか？
-Elrane, the Saintess, huh... They
+Elrane, the Holy Woman, huh... They
 say she performs miracles before the
 people. Just who is she, really?
 -----------------------
@@ -102,7 +102,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-Option
+select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -127,24 +127,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-Info
+notice
 -----------------------
 #{16}{25}{BA}{C0}を手に入れました
 Acquired {16}{25}{BA}{C0}.
 -----------------------
-Info
+notice
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-Info
+notice
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{C2}{C0}, but
 your inventory is full.
 -----------------------
-Info
+notice
 -----------------------
 #何もありません
 There's nothing here.

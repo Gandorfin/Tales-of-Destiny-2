@@ -310,7 +310,7 @@ dawdling in a place like this!
 Operation continues!
 Let's go, everyone!
 -----------------------
-Info
+notice
 -----------------------
 #<Kyle>は
 #称号「<item:0000082C>」を得ました
@@ -743,7 +743,7 @@ Paid Support Robot
 #ご希望のメニューを選択してください
 Please select your desired menu.
 -----------------------
-Option
+select
 -----------------------
 #<03:00000000>　補給　
 #　治療（<0B:00000001><num:000002FD><0B:00000000>ガルド）　
@@ -782,7 +782,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-Option
+select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -807,24 +807,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-Info
+notice
 -----------------------
 #{16}{25}{CE}{C0}を手に入れました
 Acquired {16}{25}{CE}{C0}.
 -----------------------
-Info
+notice
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-Info
+notice
 -----------------------
 #{16}{25}{D6}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{D6}{C0}, but
 your inventory is full.
 -----------------------
-Info
+notice
 -----------------------
 #何もありません
 There's nothing here.

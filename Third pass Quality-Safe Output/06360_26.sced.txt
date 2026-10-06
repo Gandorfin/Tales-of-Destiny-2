@@ -523,7 +523,7 @@ Young Man
 #しょせん、聖女の奇跡なんて
 #トリックなんだ
 #僕には、すぐにわかったね
-The Saintess's miracles are
+The Holy Woman's miracles are
 nothing but tricks, when you get
 down to it. I saw through it right
 away.
@@ -682,7 +682,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-Option
+select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -707,24 +707,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-Info
+notice
 -----------------------
 #{16}{25}{BA}{C0}を手に入れました
 Acquired {16}{25}{BA}{C0}.
 -----------------------
-Info
+notice
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-Info
+notice
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{C2}{C0}, but
 your inventory is full.
 -----------------------
-Info
+notice
 -----------------------
 #何もありません
 There's nothing here.
@@ -752,18 +752,18 @@ additional abilities.
 One bottle costs <0B:00000001>{14}{35}{CC}{C0}<0B:00000000> Gald.
 Would you like to buy <item:00000012>?
 -----------------------
-Option
+select
 -----------------------
 #<03:00000000>　買う　
 #　<0B:00000001>{14}{25}{D6}{C0}本まとめて買う（{14}{35}{D0}{C0}ガルド）<0B:00000000>　
 #　リファイン講座　
 #　いらない　
 <03:00000000>Buy
-Buy in bulk: <0B:00000001>{14}{25}{D6}{C0} ({14}{35}{D0}{C0}<0B:00000000> Gald)
+<0B:00000001>Buy {14}{25}{D6}{C0} in bulk ({14}{35}{D0}{C0} Gald)<0B:00000000>
 Refine Guide
 No thanks
 -----------------------
-Option
+select
 -----------------------
 #<03:00000000>　買う　
 #　リファイン講座　
@@ -786,7 +786,7 @@ Thank you for your purchase.
 Would you like to hear
 the Refine Guide?
 -----------------------
-Option
+select
 -----------------------
 #<03:00000000>　聞きたい　
 #　聞きたくない　
@@ -796,7 +796,7 @@ No thanks
 #何について知りたいですか？
 What would you like to know?
 -----------------------
-Option
+select
 -----------------------
 #<03:00000000>　４、スロットについて　
 #　５、装飾品のリファイン　
@@ -807,7 +807,7 @@ Option
 6. Equipment That Cannot Be Refined
 Previous Page
 -----------------------
-Option
+select
 -----------------------
 #<03:00000000>　１、リファインとは
 #　２、アイテムの変化　　　　　　　　　　

@@ -64,7 +64,7 @@ raise luck? I'm returning it'.
 ...Well, figures. If he doesn't want
 it, I'll hang onto it...
 -----------------------
-Info
+NOTICE
 -----------------------
 #<item:000001A9>を手に入れました
 Acquired <item:000001A9>.
@@ -548,7 +548,7 @@ Maiden!
 -----------------------
 #聖女？　英雄？
 #どういうこと!?
-Saintess? Heroes?
+Holy Maiden? Heroes?
 What're you talking about!?
 -----------------------
 #船長
@@ -579,7 +579,7 @@ Captain
 #そして聖女と呼ばずして
 #なんと呼べと？
 If you're not heroes,
-and she's not a Saintess,
+and she's not a Holy Woman,
 what else should I call you?
 -----------------------
 <Kyle>
@@ -611,7 +611,7 @@ Captain
 Of course, I've heard of that as
 well. There's a village called
 Lienea up ahead. Why not let the
-Saintess rest there?
+Holy Maiden rest there?
 -----------------------
 <Kyle>
 -----------------------
@@ -643,7 +643,7 @@ Captain
 #そこでだ、聖女さまにはリーネで
 #休んでいただき、回復を待って
 #陸路でノイシュタットへ向かっていただく
-Therefore, the Saintess shall
+Therefore, the Holy Maiden shall
 rest in Lienea while she recovers,
 then proceed overland to Neuestadt.
 -----------------------
@@ -706,7 +706,7 @@ be a lucky break.
 #････？
 ...?
 -----------------------
-Info
+notice
 -----------------------
 #<Kyle>たちは
 #称号を得ました
@@ -723,7 +723,7 @@ So, what will it be?
 Get off the ship right now?
 Or wait a while longer?{02}
 -----------------------
-Option
+select
 -----------------------
 #<03:00000000>　すぐに船を降りる　
 #　あとにする　
@@ -746,7 +746,7 @@ Captain
 #目的地に行くか？
 Shall we head to your destination?
 -----------------------
-Option
+select
 -----------------------
 #<03:00000000>　行く　
 #　まだ　
@@ -829,7 +829,7 @@ Captain
 Back for another stamp, are you?
 Here you go!
 -----------------------
-Info
+notice
 -----------------------
 #{18}{44}{6C}{C0}個めのスタンプを押してもらった！
 Got stamp number {18}{44}{6C}{C0}!
@@ -911,7 +911,7 @@ Captain
 Now then, here's your special
 present! Please, take it!
 -----------------------
-Info
+notice
 -----------------------
 #<Kyle>は
 #称号「<item:00000844>」を得ました
@@ -1012,7 +1012,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-Option
+select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -1037,24 +1037,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-Info
+notice
 -----------------------
 #{16}{25}{C2}{C0}を手に入れました
 Acquired {16}{25}{C2}{C0}.
 -----------------------
-Info
+notice
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-Info
+notice
 -----------------------
 #{16}{25}{CA}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{CA}{C0}, but
 your inventory is full.
 -----------------------
-Info
+notice
 -----------------------
 #何もありません
 There's nothing here.

@@ -4,7 +4,7 @@ Spiral Cave
 #スパイラルケイブ
 Spiral Cave
 -----------------------
-Info
+NOTICE
 -----------------------
 #<item:00000041>を手に入れました
 Acquired <item:00000041>.
@@ -134,8 +134,9 @@ Dymlos
 #貴様の相手は
 #私ではなかったのか
 #バルバトス!!
-Aren't I the one you're supposed
-to be fighting, Barbatos?!
+Your opponent
+was not me,
+Barbatos!!
 -----------------------
 #アトワイト
 Atwight
@@ -407,8 +408,8 @@ brings. I understand it perfectly.
 -----------------------
 #････ねえ、<Kyle>
 #もしも････もしもよ
-...Hey, <Kyle>,
-what if...what if, you know...
+...Hey, <Kyle>.
+What if...what if, okay?
 -----------------------
 <Reala>
 -----------------------
@@ -569,15 +570,15 @@ I see...
 Now then,
 shall we head back as well?
 -----------------------
-Info
+notice
 -----------------------
 #<Harold>が仲間になりました
 <Harold> has joined the party.
 -----------------------
-Info
+NOTICE
 -----------------------
 #<0B:00000001>{14}{34}{08}{C0}ガルドを手に入れました<0B:00000000>
-Acquired <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald.
+<0B:00000001>Acquired {14}{34}{08}{C0} Gald.<0B:00000000>
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -590,7 +591,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-Option
+select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -615,24 +616,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-Info
+notice
 -----------------------
 #{16}{26}{86}{C0}を手に入れました
 Acquired {16}{26}{86}{C0}.
 -----------------------
-Info
+notice
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-Info
+notice
 -----------------------
 #{16}{26}{8E}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{26}{8E}{C0}, but
 your inventory is full.
 -----------------------
-Info
+notice
 -----------------------
 #何もありません
 There's nothing here.

@@ -540,17 +540,17 @@ Alright, first stop: the harbor!
 From there, we set sail for
 Frostheim!
 -----------------------
-Info
+notice
 -----------------------
 #<Reala>が仲間になりました
 <Reala> has joined the party.
 -----------------------
-Info
+notice
 -----------------------
 #<Judas>が仲間になりました
 <Judas> has joined the party.
 -----------------------
-Info
+NOTICE
 -----------------------
 #<item:00000041>を手に入れました
 Acquired <item:00000041>.
@@ -566,7 +566,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-Option
+select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -594,24 +594,24 @@ exit-party_togather( short spd )
 #衛兵
 Guard
 -----------------------
-Info
+notice
 -----------------------
 #{16}{26}{22}{C0}を手に入れました
 Acquired {16}{26}{22}{C0}.
 -----------------------
-Info
+notice
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-Info
+notice
 -----------------------
 #{16}{26}{2A}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{26}{2A}{C0}, but
 your inventory is full.
 -----------------------
-Info
+notice
 -----------------------
 #何もありません
 There's nothing here.

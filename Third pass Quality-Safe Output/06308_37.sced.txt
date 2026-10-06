@@ -13,21 +13,21 @@ Cresta
 #クレスタの街
 Cresta
 -----------------------
-Info
+notice
 -----------------------
 #<Loni>は
 #称号「<item:0000080B>」を得ました
 <Loni> acquired the title
 "<item:0000080B>".
 -----------------------
-Info
+notice
 -----------------------
 #マップ画面でSELECTボタンを押すことによって
 #「スクリーンチャット」が起動します
 Press SELECT on the map screen
 to activate Screen Chats.
 -----------------------
-Info
+notice
 -----------------------
 #「スクリーンチャット」では
 #これから目指すべき場所などのヒントや
@@ -38,7 +38,7 @@ hints on where to go next, fun
 chatter between characters, and
 all kinds of other conversations.
 -----------------------
-Info
+notice
 -----------------------
 #いろいろな場面で
 #SELECTボタンを押してみましょう
@@ -66,7 +66,7 @@ Yes
 No
 Don't ask again
 -----------------------
-Info
+notice
 -----------------------
 #メニュー画面でSELECTボタンを押すと
 #ヘルプが表示されます{02}メニューのキャラにカーソルを合わせて
@@ -83,7 +83,7 @@ have many foes; avoid them.{02}Equip gear to use it.{02}Tip:
 Use <button:00000029>/<button:00000029> to turn without moving.
 {02}Save often.{02}
 -----------------------
-Info
+notice
 -----------------------
 #そうですか････
 I see...
@@ -583,7 +583,7 @@ Flippin' Joe
 Lost in thoughts of days gone by,
 I flip skirts still today.
 -----------------------
-Info
+notice
 -----------------------
 #<Loni>は
 #称号「<item:0000082E>」を得ました
@@ -696,8 +696,9 @@ Girl
 #<Kyle>が、うれしそうに
 #話してくれたの
 #もうすぐ、お父さんが帰ってくるって
-<Kyle> was so happy when he told
-me that his dad's coming home soon.
+<Kyle> was so happy
+when he told me.
+He said his dad's coming home soon.
 -----------------------
 #女の子
 Girl
@@ -1237,7 +1238,7 @@ I wonder if I'll understand how
 mothers feel a little better once
 I'm a parent myself?
 -----------------------
-Info
+NOTICE
 -----------------------
 #<item:0000012F>を手に入れました
 Acquired <item:0000012F>.
@@ -1250,7 +1251,7 @@ Woman
 Hey, you!
 Don't touch that without asking!
 -----------------------
-Info
+NOTICE
 -----------------------
 #<item:0000012F>を元に戻しました
 Returned <item:0000012F>.
@@ -1375,7 +1376,7 @@ For <0B:00000001><num:00000005><0B:00000000> Lens,
 don't you wanna know how to get
 to Darilsheid?
 -----------------------
-Option
+select
 -----------------------
 #　聞きたい　
 #　自力でいきます　
@@ -1437,12 +1438,12 @@ It's a warning bell. It's
 meant to be rung if anything
 happens to the village.
 -----------------------
-Info
+notice
 -----------------------
 #鳴らしてみますか？
 Do you want to ring it?
 -----------------------
-Option
+select
 -----------------------
 #<03:00000000>　鳴らしてみる　
 #　興味無い　
@@ -1463,7 +1464,7 @@ Delicious-looking vegetables
 are growing here. Looks
 like it's harvest time.
 -----------------------
-Info
+NOTICE
 -----------------------
 #<item:0000005B>を３個、手に入れました
 Acquired 3 <item:0000005B>.
@@ -1538,7 +1539,7 @@ to become a hero. Tell me,
 what does battle mean to you?
 What manner of thing is it?
 -----------------------
-Option
+select
 -----------------------
 #<03:00000000>　楽勝　
 #　普通　
@@ -1562,7 +1563,7 @@ Well, take care of yourself.
 What?
 So you're a complete beginner, then?
 -----------------------
-Option
+select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -1575,7 +1576,7 @@ In other words, you
 wouldn't mind being called a
 beginner-beginner by everyone?
 -----------------------
-Option
+select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -1589,7 +1590,7 @@ Mmm.
 Well, everyone is afraid at first.
 Go and gain some experience.
 -----------------------
-Info
+notice
 -----------------------
 <Kyle> and party acquired the title
 "<item:00000853>".
@@ -1612,7 +1613,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-Option
+select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -1637,24 +1638,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-Info
+notice
 -----------------------
 #{16}{26}{2A}{C0}を手に入れました
 Acquired {16}{26}{2A}{C0}.
 -----------------------
-Info
+notice
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-Info
+notice
 -----------------------
 #{16}{26}{32}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{26}{32}{C0}, but
 your inventory is full.
 -----------------------
-Info
+notice
 -----------------------
 #何もありません
 There's nothing here.
@@ -1682,18 +1683,18 @@ may sometimes carry over.
 One bottle costs <0B:00000001>{14}{36}{3C}{C0}<0B:00000000> Gald.
 Will you buy <item:00000012>?
 -----------------------
-Option
+select
 -----------------------
 #<03:00000000>　買う　
 #　<0B:00000001>{14}{26}{46}{C0}本まとめて買う（{14}{36}{40}{C0}ガルド）<0B:00000000>　
 #　リファイン講座　
 #　いらない　
 <03:00000000> Buy
-Buy in bulk: <0B:00000001>{14}{26}{46}{C0} ({14}{36}{40}{C0}<0B:00000000> Gald)
+<0B:00000001>Buy {14}{26}{46}{C0} in bulk ({14}{36}{40}{C0} Gald)<0B:00000000>
 Refine Guide
 No thanks
 -----------------------
-Option
+select
 -----------------------
 #<03:00000000>　買う　
 #　リファイン講座　
@@ -1717,7 +1718,7 @@ Thank you for your purchase.
 Would you like to hear
 the Refine Guide?
 -----------------------
-Option
+select
 -----------------------
 #<03:00000000>　聞きたい　
 #　聞きたくない　
@@ -1727,7 +1728,7 @@ No thanks
 #何について知りたいですか？
 What would you like to know about?
 -----------------------
-Option
+select
 -----------------------
 #<03:00000000>　４、スロットについて　
 #　５、装飾品のリファイン　
@@ -1738,7 +1739,7 @@ Option
 6. Equipment That Can't Be Refined
 Previous Page
 -----------------------
-Option
+select
 -----------------------
 #<03:00000000>　１、リファインとは
 #　２、アイテムの変化　　　　　　　　　　
@@ -2012,7 +2013,7 @@ Veteran
 #ひよっこ
 Rookie
 -----------------------
-Info
+notice
 -----------------------
 #「武器攻撃」について
 #話し合っているようです
@@ -2083,7 +2084,7 @@ A successful guard restores a
 lot of SP, so guarding with <button:00000047> is
 important too.
 -----------------------
-Info
+notice
 -----------------------
 #「特技」について
 #話し合っているようです
@@ -2136,7 +2137,7 @@ Plus, if you take them out
 in groups during a combo,
 you'll recover even more TP.
 -----------------------
-Info
+notice
 -----------------------
 #「エンチャント」について
 #話し合っているようです
@@ -2229,7 +2230,7 @@ Watch out for that!!
 True, using it on a scratch
 won't teach you anything.
 -----------------------
-Info
+notice
 -----------------------
 #「戦闘の作戦」について
 #話し合っているようです
@@ -2290,7 +2291,7 @@ each character's abilities
 and the enemy should let
 you fight more efficiently.
 -----------------------
-Info
+notice
 -----------------------
 #「テクニカルスマッシュ」
 #について話し合っているようです
@@ -2353,7 +2354,7 @@ Action Enchants are tricky since
 they consume SP, but mastering
 finishers is the path to expertise.
 -----------------------
-Info
+notice
 -----------------------
 #「スピリッツ」について
 #話し合っているようです
@@ -2409,7 +2410,7 @@ the cursor color, the higher
 their SP. You can gauge
 an enemy's SP mid-fight.
 -----------------------
-Info
+notice
 -----------------------
 #「連続ヒット」について
 #話し合っているようです
@@ -2464,7 +2465,7 @@ just drags everyone down in the end.
 Here too, balancing magic and artes
 is what matters.
 -----------------------
-Info
+notice
 -----------------------
 #「影響エリア」について
 #話し合っているようです
@@ -2519,7 +2520,7 @@ Overly Veteran
 #息子
 Son
 -----------------------
-Info
+notice
 -----------------------
 #「ステータス変化」について
 #話し合っているようです
@@ -2607,7 +2608,7 @@ Overly Veteran
 #息子
 Son
 -----------------------
-Info
+notice
 -----------------------
 #「スピリッツブラスター」
 #について話し合っているようです
@@ -2714,7 +2715,7 @@ Overly Veteran
 #息子
 Son
 -----------------------
-Info
+notice
 -----------------------
 #「フィールドオブエフェクト」
 #について話し合っているようです
@@ -2780,7 +2781,7 @@ anything. It's quite a bother.
 (A little late to
 mention that, Father...)
 -----------------------
-Info
+notice
 -----------------------
 #「バトルグレード」について
 #話し合っているようです
@@ -2844,7 +2845,7 @@ on honing your own skills.
 As expected of you, Senpai.
 I'm learning so much.
 -----------------------
-Info
+notice
 -----------------------
 #「受身」について
 #話し合っているようです
@@ -2881,7 +2882,7 @@ That's the nice part, isn't it?
 #もももももちろん知ってたさ
 O-o-o-o-of course I knew that.
 -----------------------
-Info
+notice
 -----------------------
 #「戦闘難易度」について
 #話し合っているようです
@@ -2939,7 +2940,7 @@ so if you're looking for a
 bit more challenge, I'd say
 it's worth recommending.
 -----------------------
-Info
+notice
 -----------------------
 #「通常攻撃」について
 #深く話し合っているようです
@@ -3029,7 +3030,7 @@ if you're already overwhelmed
 by other rules, you don't need
 to force yourself to memorize these.
 -----------------------
-Info
+notice
 -----------------------
 #「長い話」について
 #話し合っているようです
@@ -3074,7 +3075,7 @@ to tell you now.
 #納得さ
 Fair enough.
 -----------------------
-Info
+notice
 -----------------------
 #「アイテム拾得」について
 #話し合っているようです
@@ -3154,7 +3155,7 @@ That too. Ultimately, what
 matters most is choosing an
 adventure style that suits you.
 -----------------------
-Option
+select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　

@@ -55,8 +55,8 @@ Ughaaaaah!!!!
 -----------------------
 #兄さんっ！
 #しっかりして、兄さんっ！
-Karell!
-Hang in there, Karell!
+Brother!
+Hang in there, brother!
 -----------------------
 #カーレル
 Karell
@@ -96,8 +96,8 @@ Karell
 #････あんし････ん････しろ････
 #････にいちゃん････が････まも････て････
 Did...did someone...bully you
-again? ...D-don't...worry...
-...I...will...protect...you...
+again? ...D-don't...worry... ...Big
+brother...will...protect...you...
 -----------------------
 <Harold>
 -----------------------
@@ -110,7 +110,7 @@ Karell
 #････にいちゃ････････は････
 #････････いつ････も････
 #････おま････え････････
-...I...will...
+...Big bro...ther...will...
 ...al...ways...be...
 ...with...you...
 -----------------------
@@ -127,14 +127,14 @@ Karell
 <Harold>
 -----------------------
 #兄さん････？
-Karell...?
+Brother...?
 -----------------------
 <Harold>
 -----------------------
 #兄さん！
 #目を覚まして、兄さんッ!!
-Karell!
-Open your eyes, Karell!!
+Brother!
+Open your eyes, brother!!
 -----------------------
 #ディムロス
 Dymlos
@@ -147,12 +147,12 @@ Dymlos
 <Harold>
 -----------------------
 #････にい････さ････
-...Ka...rell...
+...Bro...ther...
 -----------------------
 <Harold>
 -----------------------
 #兄さぁぁぁーーーんッ!!!!
-Kareeeeell!!!!
+Brotheeeeer!!!!
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -165,7 +165,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-Option
+select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -190,24 +190,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-Info
+notice
 -----------------------
 #{16}{25}{C2}{C0}を手に入れました
 Acquired {16}{25}{C2}{C0}.
 -----------------------
-Info
+notice
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-Info
+notice
 -----------------------
 #{16}{25}{CA}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{CA}{C0}, but
 your inventory is full.
 -----------------------
-Info
+notice
 -----------------------
 #何もありません
 There's nothing here.

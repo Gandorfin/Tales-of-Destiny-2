@@ -1,10 +1,10 @@
 #神のたまご・中層部
-Atamoni Ovum - Middle Layer
+Egg of God - Middle Layer
 -----------------------
 #神のたまご・中層部
-Atamoni Ovum - Middle Layer
+Egg of God - Middle Layer
 -----------------------
-Info
+NOTICE
 -----------------------
 #床にはデリスエンブレムが描かれています
 A Delis Emblem marks the floor.
@@ -24,26 +24,26 @@ rectifies distorted time and space'.
 true form, it appears in
 all worlds, in all places'.
 -----------------------
-Info
+NOTICE
 -----------------------
 #プレートに<item:0000002E>をはめ込めそうです
 #持っている<item:0000002E>をはめ込みますか？
 The <item:0000002E> seems to fit the plate.
 Insert the <item:0000002E>?
 -----------------------
-Option
+select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
 <03:00000000> Yes
 No
 -----------------------
-Info
+NOTICE
 -----------------------
 #<item:0000002E>をはめ込みました
 Inserted <item:0000002E>.
 -----------------------
-Info
+NOTICE
 -----------------------
 #プレートがあります
 #このプレートには何かをはめ込めそうです
@@ -57,7 +57,7 @@ something can be inserted into it.
 Open, door!
 The path to truth...!
 -----------------------
-Info
+notice
 -----------------------
 The treasure chest was a cheap trick.
 -----------------------
@@ -72,7 +72,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-Option
+select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -97,24 +97,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-Info
+notice
 -----------------------
 #{16}{25}{CE}{C0}を手に入れました
 Acquired {16}{25}{CE}{C0}.
 -----------------------
-Info
+notice
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-Info
+notice
 -----------------------
 #{16}{25}{D6}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{D6}{C0}, but
 your inventory is full.
 -----------------------
-Info
+notice
 -----------------------
 #何もありません
 There's nothing here.

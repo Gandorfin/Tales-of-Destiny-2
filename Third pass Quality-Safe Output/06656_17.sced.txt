@@ -1,8 +1,8 @@
 #神のたまご・上層部
-Atamoni Ovum - Upper Layer
+Egg of God - Upper Layer
 -----------------------
 #神のたまご・上層部
-Atamoni Ovum - Upper Layer
+Egg of God - Upper Layer
 -----------------------
 #<button:00000037>：やりなおし
 <button:00000037>: Retry
@@ -13,31 +13,31 @@ Your body has shrunk.
 #体が大きくなりました
 Your body has grown.
 -----------------------
-Info
+notice
 -----------------------
-Info
+notice
 -----------------------
 #体が小さいので飛越えられませんでした
 You were too small to jump across.
 -----------------------
-Info
+notice
 -----------------------
 #<03:00000000>やりなおしますか？
 <03:00000000>Retry?
 -----------------------
-Option
+select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
 <03:00000000> Yes
 No
 -----------------------
-Info
+notice
 -----------------------
 #飛び降りますか？
 Jump down?
 -----------------------
-Option
+select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -58,7 +58,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-Option
+select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -83,24 +83,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-Info
+notice
 -----------------------
 #{16}{26}{1E}{C0}を手に入れました
 Acquired {16}{26}{1E}{C0}.
 -----------------------
-Info
+notice
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-Info
+notice
 -----------------------
 #{16}{26}{26}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{26}{26}{C0}, but
 your inventory is full.
 -----------------------
-Info
+notice
 -----------------------
 #何もありません
 There's nothing here.

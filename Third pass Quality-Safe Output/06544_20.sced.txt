@@ -1,11 +1,11 @@
 #未開の森
-Wildwood
+Untamed Forest
 -----------------------
 #未開の森
-Wildwood
+Untamed Forest
 -----------------------
 #未開の森
-Wildwood
+Untamed Forest
 -----------------------
 <Kyle>
 -----------------------
@@ -101,14 +101,14 @@ Right on the money.
 makes your thinking pretty wild
 too...
 -----------------------
-Info
+notice
 -----------------------
 #<Nanaly>は
 #称号「<item:00000828>」を得ました
 <Nanaly> acquired the title
 "<item:00000828>".
 -----------------------
-Info
+NOTICE
 -----------------------
 #ガルムの牙に着火しました
 Ignited the Garm Fang.
@@ -124,7 +124,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-Option
+select
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -149,24 +149,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-Info
+notice
 -----------------------
 #{16}{25}{BE}{C0}を手に入れました
 Acquired {16}{25}{BE}{C0}.
 -----------------------
-Info
+notice
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-Info
+notice
 -----------------------
 #{16}{25}{D2}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{D2}{C0}, but
 your inventory is full.
 -----------------------
-Info
+notice
 -----------------------
 #何もありません
 There's nothing here.
