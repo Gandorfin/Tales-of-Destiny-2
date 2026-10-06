@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-10-06 — Optional lowercase font hack
+
+- Add `--lowercase-font on|off` to the PSP ISO builder. Default `on` preserves
+  existing builds; `off` retains the retail font member, ASCII slot mapping,
+  font selection and bold-menu table for uppercase rendering.
+- Both modes keep the English translation, menu/name and Monster Book patches,
+  optional version credit, SCED freeze fix and pre-write text verification.
+- Cover both modes and the default in synthetic regression tests, including
+  CLI validation and refusal to write an ISO when verification fails.
+
 ## 2026-08-30 — SCED instruction-boundary / Elrane freeze fix
 
 ### Fixed

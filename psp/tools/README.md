@@ -19,7 +19,7 @@ limits, the separate bold-menu-font limitation and retail startup handling.
 
 ## Repository layout and prerequisites
 
-Keep this folder at `psp/jazz tools` inside the Tales-of-Destiny-2 repository.
+Keep this folder at `psp/tools` inside the Tales-of-Destiny-2 repository.
 Commands below run from that repository's root. The tools also use:
 
 - `ps2/PyTOD2/TBL.json` for the shared text encoding table;
@@ -33,8 +33,8 @@ patcher. Tests need the shared encoding table but do not need a game image.
 ## psp_iso.py: files in the ISO
 
 ```
-python "psp/jazz tools/psp_iso.py" list game.iso
-python "psp/jazz tools/psp_iso.py" replace game.iso out.iso /PSP_GAME/USRDIR/file.fpb=new.fpb /PSP_GAME/SYSDIR/EBOOT.BIN=BOOT.BIN
+python "psp/tools/psp_iso.py" list game.iso
+python "psp/tools/psp_iso.py" replace game.iso out.iso /PSP_GAME/USRDIR/file.fpb=new.fpb /PSP_GAME/SYSDIR/EBOOT.BIN=BOOT.BIN
 ```
 
 Plain ISO9660 reader/writer: a replacement that fits in the original sector
@@ -50,8 +50,8 @@ BOOT.BIN to both `BOOT.BIN` and `EBOOT.BIN`.
 ## psp_fpb.py: the archive
 
 ```
-python "psp/jazz tools/psp_fpb.py" extract BOOT.BIN file.fpb FPB
-python "psp/jazz tools/psp_fpb.py" pack BOOT.BIN file.fpb FPB new_file.fpb new_BOOT.BIN
+python "psp/tools/psp_fpb.py" extract BOOT.BIN file.fpb FPB
+python "psp/tools/psp_fpb.py" pack BOOT.BIN file.fpb FPB new_file.fpb new_BOOT.BIN
 ```
 
 The member table (9,636 u32 entries) sits in BOOT.BIN at
@@ -71,7 +71,7 @@ the tools tell them apart by the packed length matching the stored size.
 ## ascii_test.py: how does the PSP draw Latin text?
 
 ```
-python "psp/jazz tools/ascii_test.py" "Tales of Destiny 2 (Japan).iso" test_ascii.iso
+python "psp/tools/ascii_test.py" "Tales of Destiny 2 (Japan).iso" test_ascii.iso
 ```
 
 Builds a test image from your own dump (ULJS-00097, UMD, CRC-32 9DE4F587).
@@ -96,8 +96,8 @@ one full cell per character today).
 ## build_psp.py: the English build in one command
 
 ```
-python "psp/jazz tools/build_psp.py" "Tales of Destiny 2 (Japan).iso" tod2_psp_en.iso
-python "psp/jazz tools/build_psp.py" "Tales of Destiny 2 (Japan).iso" tod2_psp_test.iso --probe
+python "psp/tools/build_psp.py" "Tales of Destiny 2 (Japan).iso" tod2_psp_en.iso
+python "psp/tools/build_psp.py" "Tales of Destiny 2 (Japan).iso" tod2_psp_test.iso --probe
 ```
 
 Takes a clean ULJS-00097 UMD dump and writes a new image with every
@@ -111,16 +111,44 @@ monster-name replacements, lowercase glyphs, the apostrophe-preserving glyph
 allocation, and the isolated bold-font table. No separate freeze-repair helper
 or post-build memory patch is required: the normal build uses the fixed scanner.
 
+### Choosing the lowercase font hack
+
+`--lowercase-font on` applies the collaborator's lowercase hack and is the
+default, preserving existing build commands. `--lowercase-font off` builds
+the same English translation with the original uppercase ASCII rendering:
+
+```
+python psp/tools/build_psp.py "Tales of Destiny 2 (Japan) PSP.iso" tod2_psp_lowercase.iso --version 0.2.0 --lowercase-font on
+python psp/tools/build_psp.py "Tales of Destiny 2 (Japan) PSP.iso" tod2_psp_uppercase.iso --version 0.2.0 --lowercase-font off
+```
+
+The `off` choice skips the lowercase glyph artwork, a..z slot remapping,
+ASCII font-selection patches and private bold-menu table. The original font
+member is copied unchanged. English text still contains its original case,
+but the retail engine displays lowercase ASCII letters as capitals. Menu/name
+and monster translations, the title credit (`--version`), text verification
+and scene-freeze fix run in both modes. Character widths are unchanged.
+
+Start from a clean Japanese PSP ISO; this switch is not a font-hack removal
+tool for an already patched image. Use different output filenames for the
+two variants. `--probe` and `--keep WORKDIR` work with either choice.
+
+Font-choice regression tests (synthetic assets, no ISO required):
+
+```
+python -B -m unittest discover -s psp/tools -p test_build_psp.py -v
+```
+
 Use a new output filename and, if using `--keep`, a new work directory. Do not
 point the build at your only copy of an earlier image or edited extraction.
 
 ## psp_text.py: scenario and skit text
 
 ```
-python "psp/jazz tools/psp_text.py" extract BOOT.BIN file.fpb WORK
-python "psp/jazz tools/psp_text.py" match WORK
-python "psp/jazz tools/psp_text.py" build BOOT.BIN file.fpb WORK new.fpb new_BOOT.BIN
-python "psp/jazz tools/psp_text.py" verify new_BOOT.BIN new.fpb WORK
+python "psp/tools/psp_text.py" extract BOOT.BIN file.fpb WORK
+python "psp/tools/psp_text.py" match WORK
+python "psp/tools/psp_text.py" build BOOT.BIN file.fpb WORK new.fpb new_BOOT.BIN
+python "psp/tools/psp_text.py" verify new_BOOT.BIN new.fpb WORK
 ```
 
 The steps `build_psp.py` runs, for working on the text by hand. `extract`
@@ -159,7 +187,7 @@ selection policy for compatibility. It is no longer the bytecode safeguard.
 Regression tests, from the repository root:
 
 ```
-python -B -m unittest discover -s "psp/jazz tools" -p test_psp_sced.py -v
+python -B -m unittest discover -s "psp/tools" -p test_psp_sced.py -v
 ```
 
 Test a corrected ISO with a fresh boot and an ordinary in-game save from before

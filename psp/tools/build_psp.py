@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """One-shot PSP build: Japanese UMD image in, English image out.
 
-    python psp/tools/build_psp.py "Tales of Destiny 2 (Japan).iso" tod2_psp_en.iso --version 0.1.1 [--probe] [--keep WORKDIR]
+    python psp/tools/build_psp.py "Tales of Destiny 2 (Japan).iso" tod2_psp_en.iso --version 0.1.1 [--lowercase-font on|off] [--probe] [--keep WORKDIR]
 
 --version X.Y.Z draws "Green Gel Patch vX.Y.Z" on the title screen in place
 of the Japanese designer credit (psp_title.py). Without it the title screen
@@ -20,8 +20,10 @@ Steps (all from this repository, no other tools):
 --probe additionally replaces two lines of the opening scene with width
 test patterns (a line of i's over a line of M's, and a long pangram), for
 checking how the engine draws Latin text. --keep leaves the work folder.
+--lowercase-font on (the default) applies SkyBladeCloud's lowercase font hack.
+--lowercase-font off keeps the retail fonts and uppercase ASCII rendering.
 """
-import sys, os, re, tempfile, shutil
+import sys, os, re, tempfile, shutil, argparse
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
@@ -39,7 +41,7 @@ def add_probes(work):
     open(p, 'w', encoding='utf-8').write(s)
     print('probes placed in 06470')
 
-def main(iso, out_iso, probe=False, keep=None, version=None):
+def main(iso, out_iso, probe=False, keep=None, version=None, lowercase_font=True):
     work = keep or tempfile.mkdtemp(prefix='tod2psp_')
     os.makedirs(work, exist_ok=True)
     boot = os.path.join(work, 'BOOT.BIN')
@@ -54,25 +56,30 @@ def main(iso, out_iso, probe=False, keep=None, version=None):
     _menu, _mst = psp_menu.patch_menu(open(boot, 'rb').read())
     open(boot, 'wb').write(_menu)
     print('menu patch:', dict(_mst))
-    _lc, _lcinfo = psp_lowercase.patch_boot(open(boot, 'rb').read())
-    open(boot, 'wb').write(_lc)
-    print('lowercase:', _lcinfo)
+    if lowercase_font:
+        _lc, _lcinfo = psp_lowercase.patch_boot(open(boot, 'rb').read())
+        open(boot, 'wb').write(_lc)
+        print('lowercase:', _lcinfo)
+    else:
+        print('lowercase font hack: off (retail uppercase rendering)')
     _pool, _pst = psp_pool.relocate_menu(open(boot, 'rb').read())
     open(boot, 'wb').write(_pool)
     print('menu pool:', dict(_pst))
     # after the pool: the bold menu text routine gets a retail copy of the
     # slot table (it can only draw the icon font, so it keeps capitals)
-    _bold, _binfo = psp_lowercase.patch_bold_table(open(boot, 'rb').read())
-    open(boot, 'wb').write(_bold)
-    print('bold table:', _binfo)
+    if lowercase_font:
+        _bold, _binfo = psp_lowercase.patch_bold_table(open(boot, 'rb').read())
+        open(boot, 'wb').write(_bold)
+        print('bold table:', _binfo)
     psp_text.extract(boot, fpb, text)
     psp_text.match(text)
     if probe:
         add_probes(text)
-    _font = psp_lowercase.build_font(psp_fpb.read_member(fpb, open(boot, 'rb').read(), 0)[0])
+    _extra = {}
+    if lowercase_font:
+        _extra[0] = psp_lowercase.build_font(psp_fpb.read_member(fpb, open(boot, 'rb').read(), 0)[0])
     _mons, _monst = psp_monsters.build_changed_members(boot, fpb)
     print('monster book:', dict(_monst))
-    _extra = {0: _font}
     _extra.update(_mons)
     if version:
         _extra[psp_title.PAK_INDEX] = psp_title.build_member(boot, fpb, psp_title.label_for(version))[0]
@@ -90,19 +97,20 @@ def main(iso, out_iso, probe=False, keep=None, version=None):
         shutil.rmtree(work)
     print('wrote', out_iso)
 
+def parse_args(argv=None):
+    parser = argparse.ArgumentParser(description=__doc__,
+                                     formatter_class=argparse.RawDescriptionHelpFormatter)
+    parser.add_argument('iso', help='clean Japanese ULJS-00097 ISO')
+    parser.add_argument('out_iso', help='English output ISO')
+    parser.add_argument('--probe', action='store_true', help='insert opening-scene width probes')
+    parser.add_argument('--keep', metavar='WORKDIR', help='keep extracted build files here')
+    parser.add_argument('--version', help='patch version to draw on the title screen')
+    parser.add_argument('--lowercase-font', choices=('on', 'off'), default='on',
+                        help="apply the collaborator's lowercase font hack (default: on); off uses retail uppercase rendering")
+    return parser.parse_args(argv)
+
+
 if __name__ == '__main__':
-    a = sys.argv[1:]
-    probe = '--probe' in a
-    keep = None
-    if '--keep' in a:
-        keep = a[a.index('--keep') + 1]
-        a.remove('--keep'); a.remove(keep)
-    version = None
-    if '--version' in a:
-        version = a[a.index('--version') + 1]
-        a.remove('--version'); a.remove(version)
-    a = [x for x in a if x != '--probe']
-    if len(a) != 2:
-        print(__doc__)
-        sys.exit(1)
-    main(a[0], a[1], probe, keep, version)
+    args = parse_args()
+    main(args.iso, args.out_iso, args.probe, args.keep, args.version,
+         lowercase_font=args.lowercase_font == 'on')
