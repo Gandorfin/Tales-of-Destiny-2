@@ -122,8 +122,8 @@ Well then, bottoms up～!
 #････うげぇ～～～！
 #にがーーーーい！
 #お水、お水ちょうだい！
-......Huuuuck!
-It's so bittter!
+......Yuuuck!
+It's so bitter!
 Water, gimme water!
 -----------------------
 #お客
@@ -172,9 +172,9 @@ Fishmonger
 #どうでぇ、このイキのよさ！
 #みんな近海でとれた
 #ピッチピチの天然モノよ！
-How's that for vitality! Caught
-fresh in the nearby waters. Prime,
-natural-born beauties, every one!
+Look how fresh they are! All caught
+in the waters nearby. Wild fish,
+lively as can be!
 -----------------------
 #またよろしくたのむぜ
 I'll be counting on you again.
@@ -226,15 +226,15 @@ Kid
 #フシギな目をした男の子
 #また今度、いっしょに遊んでね
 Kon, kon, kon♪
-A boy with strange eyes
-Let's play together next time, okay?
+Hey, boy with the unusual eyes!
+Let's play next time, okay?
 -----------------------
 #子供
 Kid
 -----------------------
 #フシギな目をした男の子
 #よかったら、いっしょに遊ばない？
-A boy with strange eyes
+Hey, boy with the unusual eyes!
 Wanna play together?
 -----------------------
 #子供
@@ -270,8 +270,8 @@ A Man Who Loves Freedom
 #俺は気ままに生きる････
 #さしずめＲＯＰＥのキレたＫＩＴＥさ
 I live as I please...
-Nothing more than a K.I.T.E.
-with a snapped R.O.P.E.
+Like a KITE whose string
+has snapped clean off.
 -----------------------
 #自由を愛する男
 A Man Who Loves Freedom
@@ -328,7 +328,7 @@ Option
 #<03:00000000>　何を言っているかわからない　
 #　そうは思わない　
 #　そう思う　
-<03:00000000> I have no idea what you're saying.
+<03:00000000> I don't understand you.
 I don't think so.
 I think so.
 -----------------------
@@ -439,8 +439,8 @@ A Man Who Loves Freedom
 #身体は束縛できても、ＳＯＵＬは縛れない
 #････永遠にな！
 <Kyle>, unleash your SOUL! You can
-bind the body, but you can't bind
-the SOUL. Forever!
+bind the body, but never the SOUL.
+Not now, not ever!
 -----------------------
 <Kyle>
 -----------------------
@@ -598,9 +598,9 @@ A Man Who Loves Freedom
 #自由は無限じゃない･･･無秩序も自由と違う････
 #自分が一度思った「自由」だって、疑ってみることさ････
 #「本当の自由」とは違うってな････
-Freedom isn't endless, and chaos
-isn't freedom. Question the freedom
-you believe in; it may not be true.
+Freedom isn't endless; chaos isn't
+freedom. Question your own freedom.
+It may not be true freedom at all.
 -----------------------
 #自由を愛する男
 A Man Who Loves Freedom
@@ -1185,9 +1185,9 @@ Refining is equipment synthesis.
 #お気に入りのスロットが付いた
 #装備品を作ることができます････
 When you synthesize equipment,
-you can create gear with
-your favorite items and your
-preferred slots added...
+you can add your favorite slots
+to your favorite gear,
+creating just what you want...
 -----------------------
 #ああ、まずはスロットの説明を
 #しなければいけませんね

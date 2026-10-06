@@ -111,16 +111,16 @@ RETURNING AND SUPPORTING CHARACTERS
   King of Phandaria in Tales of Destiny 2.
   Use Woodrow Kelvin throughout; do not substitute Garr Kelvin.
 
-[LOCK] リムル・エルロン (Rimuru Eruron) -> Rhym Aileron
+[LOCK] リムル・エルロン (Rimuru Eruron) -> Rimul Aileron
   Daughter of Lilith Aileron and Bacchus; optional arena opponent.
-  "Rhym" is the Aselia wiki spelling (decision by Gandorff, 2026-08-17);
-  do not use the older literal "Rimul". Game text uses Rhym (69 lines).
+  Use Rimul in PS2 dialogue, arena announcements and enemy names.
+  This supersedes Rhym for the PS2 patch (user decision, 2026-10-06).
 
 [LOCK] リリス・エルロン -> Lilith Aileron
-  Stahn's younger sister; Rhym's mother.
+  Stahn's younger sister; Rimul's mother.
 
 [LOCK] バッカス -> Bacchus
-  Lilith's husband; Rhym's father.
+  Lilith's husband; Rimul's father.
 
 [ASELIA STANDARD] メルクリウス・リトラー
   (Merukuriusu Ritoraa; literal "Mercurius Littler") -> Marius Raiker
@@ -339,7 +339,7 @@ CALVALESE
   [LOCK] Trash Mountain
   [LOCK] Heat River
   [LOCK] Devil's Reef
-  [LOCK] 神のたまご -> Atamoni Ovum (not Egg of God or God's Egg)
+  [LOCK] Egg of God
   [LOCK] Shrine of Light
 
 FITZGALD

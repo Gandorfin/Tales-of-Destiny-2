@@ -966,7 +966,7 @@ E: toward Lienea"
 09028.pak0,0xFFE2C,クレスタの街,Cresta
 09028.pak0,0xFFE39,デュナミス孤児院,Dunamis Home
 09028.pak0,0xFFE4A,クレスタの街,Cresta
-09028.pak0,0xFFE57,ラグナ遺跡,Laguna
+09028.pak0,0xFFE57,ラグナ遺跡,Laguna Ruins
 09028.pak0,0xFFE62,古都ダリルシェイド,Old Darilsheid
 09028.pak0,0xFFE75,古都ダリルシェイド,Old Darilsheid
 09028.pak0,0xFFE88,地上軍拠点跡地,Er'ther Ruins
@@ -1208,7 +1208,7 @@ E: toward Lien"
 09032.pak0,0xFFF08,クレスタの街,Cresta
 09032.pak0,0xFFF15,デュナミス孤児院,Dunamis Home
 09032.pak0,0xFFF26,クレスタの街,Cresta
-09032.pak0,0xFFF33,ラグナ遺跡,Laguna
+09032.pak0,0xFFF33,ラグナ遺跡,Laguna Ruins
 09032.pak0,0xFFF3E,古都ダリルシェイド,Old Darilsheid
 09032.pak0,0xFFF51,古都ダリルシェイド,Old Darilsheid
 09032.pak0,0xFFF64,地上軍拠点跡地,Er'ther Ruins
@@ -1355,3 +1355,4 @@ You cannot pull them."
 08055.md1,0x4B0D7,双連衝破,"Impact  "
 08055.md1,0x4B135,飛連双閃,"Twin Ray"
 08055.md1,0x4B187,月閃虚崩,"Moonfall"
+08055.md1,0x52EB0,勝手にスペクタクルズ,Auto Magic Lens

@@ -69,6 +69,20 @@ TEKI_STRIDE = 0x1C
 TEKI_NAME_BYTES = 24
 NAME_FIELD = 24          # enemy-pack name field: name, NUL padding, one data byte
 
+# Approved spellings shipped before the PS2 tab-9 consistency correction.
+FORMER_ENEMY_NAMES = {
+    'リムル': ('Limule', 'Limura', 'Rhym', 'Rimuru'),
+}
+
+
+def name_translations():
+    names = {r['japanese']: r['english'] for r in load_csv(NAMES_CSV) if r['english']}
+    for japanese, former in FORMER_ENEMY_NAMES.items():
+        if japanese in names:
+            for name in former:
+                names[name] = names[japanese]
+    return names
+
 # Battle literals found only in alternate ENd members, so they have no
 # canonical member-1 row in enemy_translations.csv.  English is constrained
 # to the encoded Japanese byte length at each occurrence.
@@ -377,7 +391,7 @@ def build_names(args, names=None):
     """Patch the name fields in every .pak1 of the folder.
     Returns (files patched, fields changed, errors)."""
     if names is None:
-        names = {r['japanese']: r['english'] for r in load_csv(NAMES_CSV) if r['english']}
+        names = name_translations()
     files = fields = errors = 0
     for name in pak1_files(args.folder):
         path = os.path.join(args.folder, name)
@@ -469,7 +483,7 @@ def build_teki(args):
         if cur == r['english']:
             skipped += 1
             continue
-        if cur != r['japanese']:
+        if cur != r['japanese'] and cur not in FORMER_ENEMY_NAMES.get(r['japanese'], ()):
             print('  %s slot %d: file has %r, table expects %r' % (TEKI_FILE, slot, cur, r['japanese']))
             errors += 1
             continue

@@ -7,6 +7,7 @@ file,offset,bytes,japanese,english
 08180.pak1,0x9A2,16,エマージェンシー,Emergency
 08182.pak1,0x8CF,6,雷破斬,Bolt
 08182.pak1,0x8F8,6,瞬雷刃,Flash
+08182.pak1,0x940,10,雷斬轟天撃,Sky Blade
 08183.pak1,0x382,8,二の太刀,2nd Cut
 08183.pak1,0x3AB,8,三の太刀,3rd Cut
 08183.pak1,0x3CD,8,四の太刀,4th Cut

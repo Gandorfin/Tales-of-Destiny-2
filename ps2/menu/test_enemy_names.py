@@ -68,6 +68,17 @@ class NameFields(unittest.TestCase):
         with self.assertRaises(ValueError):
             E.patch_name_fields(raw, {'オウルベア': 'A' * (E.NAME_FIELD - 1)})
 
+    def test_rimul_migration_keeps_adjacent_battle_parameters(self):
+        for previous in ('リムル', 'Limule', 'Limura', 'Rhym', 'Rimuru'):
+            raw = pack(b'HEAD', end_member(param_block(previous, 0x63)))
+            out, changed = E.patch_name_fields(raw, E.name_translations())
+            self.assertEqual(changed, 1, previous)
+            data = lzss.unpack(E.parse_pak1(out)[1])
+            at = data.index(b'Rimul')
+            self.assertEqual(data[at:at + E.NAME_FIELD], b'Rimul' + b'\0' * 18 + b'\x63')
+            self.assertEqual(struct.unpack_from('<I', data, at + E.NAME_FIELD)[0], 782)
+            self.assertEqual(E.patch_name_fields(out, E.name_translations()), (out, 0))
+
 class BuildCommand(unittest.TestCase):
     def test_patch_known_literals_covers_alternate_end_members(self):
         raw = pack(b'HEAD', literal_member('-ルーン・ウルズ-'), b'model',

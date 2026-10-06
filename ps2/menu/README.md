@@ -48,7 +48,7 @@ cd Tales-of-Destiny-2
 python ps2/menu/patch_menu_text.py ps2/PyTOD2/FPB
 python ps2/menu/sfm_text.py build ps2/PyTOD2/FPB
 python ps2/menu/enemy_text.py build ps2/PyTOD2/FPB
-python ps2/menu/title_credit.py ps2/PyTOD2/FPB --version 1.2.3
+python ps2/menu/title_credit.py ps2/PyTOD2/FPB --version 1.2.4
 python ps2/menu/patch_slps_titles.py ps2/PyTOD2/SLPS_251.72
 ```
 

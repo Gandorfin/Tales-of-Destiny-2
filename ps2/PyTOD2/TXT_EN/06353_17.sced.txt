@@ -514,7 +514,7 @@ have improved lately.
 Info
 -----------------------
 #鍛冶屋は{18}{45}{E0}{C0}になりました
-The blacksmith has become {18}{45}{E0}{C0}.
+New rank: {18}{45}{E0}{C0}.
 -----------------------
 #初心者鍛冶屋
 Novice Blacksmith
@@ -694,10 +694,10 @@ Option
 #　服（<Reala>、<Nanaly>、<Harold>用）　
 #　兜（<Kyle>、<Loni>、<Judas>用）　
 #　冠（<Reala>、<Nanaly>、<Harold>用）　
-<03:00000000> Armor (for <Kyle>, <Loni>, <Judas>)
-Clothing (for <Reala>, <Nanaly>, <Harold>)
-Helmet (for <Kyle>, <Loni>, <Judas>)
-Crown (for <Reala>, <Nanaly>, <Harold>)
+<03:00000000> Armor (<Kyle>, <Loni>, <Judas>)
+Clothes (<Reala>, <Nanaly>, <Harold>)
+Helmet (<Kyle>, <Loni>, <Judas>)
+Crown (<Reala>, <Nanaly>, <Harold>)
 -----------------------
 Option
 -----------------------
@@ -788,11 +788,11 @@ appreciate your patient support.
 #<03:00000000>鍛冶屋ランク：{18}{45}{E0}{C0}
 #開発資金残高：<0B:00000001>{14}{26}{20}{90}{64}{C7}{C0}<0B:00000000>ガルド
 #状況：{18}{45}{DC}{C0}
-<03:00000000>Blacksmith Rank: {18}{45}{E0}{C0}
-Development Fund Balance: <0B:00000001>{14}{26}{20}{90}{64}{C7}{C0}<0B:00000000> Gald
+<03:00000000>Rank: {18}{45}{E0}{C0}
+Funds: <0B:00000001>{14}{26}{20}{90}{64}{C7}{C0}<0B:00000000> Gald
 Status: {18}{45}{DC}{C0}
 -----------------------
-infomation
+Info
 -----------------------
 #刀剣を製作中
 Crafting swords

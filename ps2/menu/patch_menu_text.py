@@ -9,7 +9,9 @@ Every record is verified before anything is written: it must hold either the
 original Japanese or the final English (so re-running on a patched or partly
 patched build is safe and only fills the gaps). Files are patched in place at
 identical size, so the FPB pointer table is untouched. Nothing is written to a
-file unless every one of its records verifies.
+file unless every one of its records verifies. The two Laguna Ruins map labels
+use verified unused SCED padding and update their text references, also without
+changing file sizes.
 """
 import argparse, csv, os, sys, shutil
 try:                                   # Windows consoles are often not UTF-8
@@ -18,9 +20,11 @@ try:                                   # Windows consoles are often not UTF-8
 except Exception:
     pass
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-import md1text as M, md1patch as P, pak3, lzss
+import md1text as M, md1patch as P, pak3, lzss, world_map_labels
 
 FORMER_TRANSLATIONS = {
+    ('09028.pak0', 0xFFE57): 'Laguna',
+    ('09032.pak0', 0xFFF33): 'Laguna',
     ('06807.md1', 0x7670): 'K.O.',
     ('09028.pak0', 0x100350): ('Fire the anchor into the Flying Dragon!\n'
                                'Jump across onto its back!\nReady?'),
@@ -78,7 +82,13 @@ def main():
         if not os.path.exists(path):
             print(f"  SKIP {name}: not found in {folder}"); skipped+=len(entries); continue
         d=bytearray(open(path,"rb").read()); orig=bytes(d); errs=[]; pending=[]; done=0
+        world_requested = False
         for off,jp,en in entries:
+            if name in world_map_labels.LABELS and off == world_map_labels.LABELS[name][0]:
+                world_requested = True
+                if jp != 'ラグナ遺跡' or en != world_map_labels.TEXT:
+                    errs.append('world-map relocation translation changed')
+                continue
             r=M.decode_at(orig,off)
             if not r: errs.append(f"0x{off:X} decode failed"); continue
             got,end,_=r
@@ -93,20 +103,28 @@ def main():
         for off,avail,enc in pending:
             region=avail+1
             d[off:off+region]=enc+b"\x00"*(region-len(enc))
+        relocated = 0
+        if world_requested and not errs:
+            try:
+                relocated, already = world_map_labels.apply(d, name)
+                done += already
+            except ValueError as error:
+                errs.append(str(error))
         if errs:
             print(f"  FAIL {name}: {len(errs)} problem(s), file left untouched")
             for e in errs[:5]: print(f"        {e}")
             skipped+=len(entries); continue
         assert len(d)==len(orig)
-        if pending and not a.dry_run:
+        changed_count = len(pending) + relocated
+        if changed_count and not a.dry_run:
             if not a.no_backup and not os.path.exists(path+".bak"): shutil.copy(path,path+".bak")
             open(path,"wb").write(d)
-        if pending:
+        if changed_count:
             extra=f", {done} already done" if done else ""
-            print(f"  {'would patch' if a.dry_run else 'patched'} {name}: {len(pending)} strings{extra}")
+            print(f"  {'would patch' if a.dry_run else 'patched'} {name}: {changed_count} strings{extra}")
         else:
             print(f"  current {name}: all {done} strings already translated")
-        written+=len(pending); current+=done
+        written+=changed_count; current+=done
         total+=1
     print(f"\n{written} strings patched, {current} already current, {total} files"
           f"{' (dry run)' if a.dry_run else ''}" + (f", {skipped} skipped" if skipped else ""))
