@@ -1,4 +1,4 @@
-# Custom PSP dialogue font from one PNG
+# Custom PSP fonts from PNG sheets
 
 Send the font designer **this folder's `patch_font_iso.py`**. It is standalone:
 no other repository files or game assets are bundled or required. It is the
@@ -12,9 +12,44 @@ python -m pip install Pillow
 
 Supply an uncompressed Tales of Destiny 2 PSP ISO, disc ID **ULJS-00097**.
 Use the translated ISO when designing a font for the English patch, so the
-export includes its custom lowercase glyphs and existing character layout.
+export matches its existing character layout. Use the same ISO for export,
+prepare, check and patch.
 
-## Export, edit, prepare, check, patch
+## Choose font 1 or font 2
+
+All four commands accept `--font 1` or `--font 2`. Font 1 is the default,
+so existing commands continue to work.
+
+| Choice | PNG size | Cell layout | Used for |
+|---|---|---|---|
+| `--font 1` | 256 x 4400 | 23 x 23, 11 per row | Japanese/two-byte text; mixed-case English with the lowercase hack |
+| `--font 2` | 128 x 512 | 12 x 16, 10 per row | Ordinary ASCII English without the hack; bold menu text and UI icons in both builds |
+
+Font 2 is embedded in both executables, separate from archive member 00000.
+It contains letters, kana, buttons, arrows, status symbols and other icons.
+Keep all glyphs in their existing cells and preserve icons you are not editing.
+An artwork replacement preserves the current character mapping and does not
+enable lowercase or change character widths. With the lowercase hack enabled,
+font 2 edits affect its remaining menu/icon contexts; edit font 1 for ordinary
+English dialogue. You may edit both fonts in sequence, using the first patched
+ISO as the input to the second patch.
+
+Font 2 workflow, including an English ISO built without the lowercase hack:
+
+```powershell
+python patch_font_iso.py export "tod2_psp_uppercase.iso" "font2.png" --font 2
+# Edit font2.png at its original 128 x 512 size.
+python patch_font_iso.py prepare "tod2_psp_uppercase.iso" "font2-edited.png" "font2-ready.png" --font 2
+python patch_font_iso.py check "tod2_psp_uppercase.iso" "font2-ready.png" --font 2
+python patch_font_iso.py patch "tod2_psp_uppercase.iso" "font2-ready.png" --font 2 -o "tod2-psp-custom-font2.iso"
+```
+
+Font 2 exports as indexed 4bpp grayscale for editing, with grayscale steps
+representing palette indices 0..15. Insertion preserves all ten original game
+palettes, including icon colours. `prepare` accepts RGB/RGBA edits and maps
+them back to these 16 steps, compositing transparency onto black.
+
+## Font 1: export, edit, prepare, check, patch
 
 Place the script beside the ISO, or use full paths:
 
@@ -59,6 +94,17 @@ every ISO byte, including the original compressed stream.
 
 ## Compression and supported images
 
+Both fonts support the clean Japanese PSP ISO and translated ISOs built with
+the lowercase hack either enabled or disabled.
+
+Font 2 has a fixed **19,107-byte** compressed allocation in each executable.
+The tool tries multiple standard compression settings and checks that the
+entire texture fits before publishing a prepared PNG or edited ISO. If an edit
+overflows, simplify the edited cells or use `prepare ... --font 2 --levels 8`
+(2, 4 and 16 are also supported). It never overwrites the adjacent data or
+moves executable sections. An unchanged sheet retains the original compressed
+stream exactly. Font 2 is linear on disc; the game swizzles it during startup.
+
 The tool reads the font allocation from the selected ISO. Both supplied images
 reserve **299,008 bytes** for archive member 00000:
 
@@ -84,20 +130,26 @@ actual 256 x 4400 cell layout. PS2 128 x 512 fonts and resized sheets are reject
 
 ## What changes
 
-For the translated image, the output changes only:
+For font 1 in a translated image, the output changes only:
 
 - archive member 00000 and its existing sector padding;
 - its four-byte size/remainder entry in each of `BOOT.BIN` and `EBOOT.BIN`.
 
 All other archive members stay byte-identical at their original positions.
 Character mappings, lowercase routing, code, text, movies and other fonts
-are preserved. The bold menu/icon font uses a separate resource and is not
-edited by this tool. Replacing glyph artwork does not add new characters,
+are preserved. The bold menu/icon font is edited separately with `--font 2`.
+Replacing glyph artwork does not add new characters,
 change advance widths, or redirect characters to different cells.
+
+For font 2 in a translated image, only its existing compressed allocation
+at executable offset `0x27E1EC` is updated in `BOOT.BIN` and `EBOOT.BIN`.
+All palettes, texture headers, character mappings, renderer instructions,
+font 1 and every archive byte are preserved. The two executable textures must
+agree, and unknown texture layouts or nonzero allocation padding are rejected.
 
 For the supported clean Japanese image, an edited font additionally requires
 replacing the encrypted `EBOOT.BIN` with the decrypted `BOOT.BIN` already
-present on that disc, with the new font-size entry applied. The executable
+present on that disc, with the selected font edit applied. The executable
 stays in its existing ISO extent; its directory size is updated in both
 ISO9660 byte orders. This follows the existing PSP build tools and requires
 PPSSPP or a PSP able to run unsigned images. The tool identifies the known
@@ -118,9 +170,13 @@ tables, decompressed size, palette values and texture round-trip. It refuses
 overlapping extents, unsupported ISO layouts, CSO/PBP input and overwrites.
 Only after verification does it publish the new ISO and print its SHA-256.
 
-Thirteen synthetic tests cover swizzle coordinates, exact reimport, legal
+Twenty-one synthetic tests cover swizzle coordinates, exact reimport, legal
 deflate padding, overflow, palette reordering, alpha conversion, malformed
 input, retail startup conversion, output preservation and failure cleanup.
+Font 2 tests additionally cover linear nibble order, both PNG sizes, all four
+commands, palette preservation, compression overflow, malformed textures,
+disagreeing executable copies, unchanged retail reimport, retail startup
+conversion and successive edits to both fonts.
 Tests use Pillow and pycdlib; the standalone tool itself only needs Pillow:
 
 ```powershell
@@ -131,6 +187,11 @@ python -m unittest discover -s psp/tools -p test_patch_font_iso.py
 Export/check and one-pixel-edit patching passed on both named real ISOs.
 The entire outputs passed byte verification and independent ISO-directory
 readback with pycdlib. Temporary test outputs were removed.
+
+Font 2 export, preparation, checking and edited-font insertion also passed
+on the clean Japanese ISO and the English builds with the lowercase hack
+on and off. Every output byte was verified against the planned edits; font 1,
+palettes and executable font routing were preserved.
 
 PPSSPP/hardware boot and visual font checks have not been performed for this
 tool. Test the resulting ISO with a fresh boot; a save state may retain the

@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
-"""Customize the Tales of Destiny 2 PSP dialogue font (ULJS-00097).
+"""Customize the Tales of Destiny 2 PSP fonts (ULJS-00097).
 
 Standalone; Python 3.10+ and Pillow. Supply your own uncompressed .iso.
   python patch_font_iso.py export game.iso font.png
   python patch_font_iso.py prepare game.iso edited.png font-ready.png
   python patch_font_iso.py check game.iso font-ready.png
   python patch_font_iso.py patch game.iso font-ready.png -o game-font.iso
+Add --font 2 to each command for the 128x512 ASCII/menu/icon font.
+The default is --font 1, the 256x4400 dialogue/Japanese font.
 """
 import argparse
 from dataclasses import dataclass
@@ -20,6 +22,11 @@ import zlib
 SECTOR = 2048
 WIDTH, HEIGHT = 256, 4400
 FONT_SIZE = WIDTH * HEIGHT // 2
+FONT2_OFFSET = 0x27E1EC
+FONT2_CAPACITY = 19107
+FONT2_WIDTH, FONT2_HEIGHT = 128, 512
+FONT2_PIXEL_OFFSET = 0x340
+FONT2_TEXTURE_SIZE = 33600
 TABLE_START, TABLE_END = 0x29531C, 0x29E9AC
 BOOT = "/PSP_GAME/SYSDIR/BOOT.BIN"
 EBOOT = "/PSP_GAME/SYSDIR/EBOOT.BIN"
@@ -34,6 +41,11 @@ class FontError(ValueError):
 def require(ok, message):
     if not ok:
         raise FontError(message)
+
+
+def dimensions(font_id):
+    require(font_id in (1, 2), "Choose font 1 or 2.")
+    return (WIDTH, HEIGHT) if font_id == 1 else (FONT2_WIDTH, FONT2_HEIGHT)
 
 
 def pillow():
@@ -194,16 +206,59 @@ def swizzle(linear, reverse=False):
     return bytes(out)
 
 
-def font_indices(data):
-    return bytes(v for packed in swizzle(data, reverse=True)
+def font_indices(data, font_id=1):
+    width, height = dimensions(font_id)
+    require(len(data) == width * height // 2, "Unexpected PSP font pixel length.")
+    linear = swizzle(data, reverse=True) if font_id == 1 else data
+    return bytes(v for packed in linear
                  for v in (packed & 15, packed >> 4))
 
 
-def indices_font(indices):
-    require(len(indices) == WIDTH * HEIGHT and max(indices) <= 15,
-            "Expected one 4-bit intensity per font pixel.")
-    return swizzle(bytes(indices[i] | indices[i + 1] << 4
-                         for i in range(0, len(indices), 2)))
+def indices_font(indices, font_id=1):
+    width, height = dimensions(font_id)
+    require(len(indices) == width * height and max(indices) <= 15,
+            "Expected %dx%d pixels with one 4-bit intensity per pixel." % (width, height))
+    linear = bytes(indices[i] | indices[i + 1] << 4 for i in range(0, len(indices), 2))
+    return swizzle(linear) if font_id == 1 else linear
+
+
+def font2_texture(blob):
+    """Validate the executable's deflated TM2@ font, retaining all ten palettes.
+
+    Pixel data is linear on disc; the renderer swizzles it during startup.
+    Source: font initialization at vaddr 0x144730, which decompresses the
+    stream at data-segment-relative 0xA14EC (file FONT2_OFFSET).
+    """
+    require(len(blob) >= 9, "Truncated font 2 stream.")
+    kind, packed, unpacked = struct.unpack_from('<BII', blob)
+    require(kind == 4 and packed == len(blob) - 9 and unpacked == FONT2_TEXTURE_SIZE,
+            "Expected embedded font 2: raw-deflate 128x512 TM2@ texture.")
+    decoder = zlib.decompressobj(-15)
+    texture = decoder.decompress(blob[9:], FONT2_TEXTURE_SIZE + 1)
+    require(len(texture) == FONT2_TEXTURE_SIZE and decoder.eof
+            and not decoder.unused_data and not decoder.unconsumed_tail,
+            "Invalid or overlong font 2 deflate stream.")
+    require(texture[:16] == b'TM2@' + bytes((1, 10, 1, 0)) + bytes(8),
+            "Unsupported font 2 TM2@ header.")
+    for i, pos in enumerate((0, 8, 0x80000, 0x80008, 16, 24,
+                             0x80010, 0x80018, 0x100000, 0x100008)):
+        require(struct.unpack_from('<IIIHH', texture, 16 + i * 80) == (80, 0, pos, 8, 2),
+                "Unsupported font 2 palette layout.")
+    require(struct.unpack_from('<IIIHH', texture, 0x330)
+            == (32784, 0x14, 0xA00, FONT2_WIDTH, FONT2_HEIGHT),
+            "Unsupported font 2 image block.")
+    return texture
+
+
+def embedded_font2(boot):
+    require(len(boot) >= FONT2_OFFSET + FONT2_CAPACITY, "Truncated font 2 allocation.")
+    stored = 9 + struct.unpack_from('<I', boot, FONT2_OFFSET + 1)[0]
+    require(9 <= stored <= FONT2_CAPACITY, "Invalid font 2 compressed length.")
+    blob = boot[FONT2_OFFSET:FONT2_OFFSET + stored]
+    texture = font2_texture(blob)
+    require(not any(boot[FONT2_OFFSET + stored:FONT2_OFFSET + FONT2_CAPACITY]),
+            "Font 2 allocation padding contains unexpected data.")
+    return blob, texture
 
 
 @dataclass
@@ -215,9 +270,12 @@ class Context:
     font: bytes
     capacity: int
     encrypted: bool
+    font_id: int = 1
+    texture: bytes = b''
 
 
-def read_iso(path):
+def read_iso(path, font_id=1):
+    dimensions(font_id)
     require(path.is_file(), "ISO not found: %s" % path)
     with path.open("rb") as fp:
         files = iso_files(fp, path.stat().st_size)
@@ -239,6 +297,13 @@ def read_iso(path):
         else:
             require(boot_table(eboot, files[ARCHIVE].size) == table,
                     "BOOT.BIN and EBOOT.BIN archive tables disagree.")
+        if font_id == 2:
+            blob, texture = embedded_font2(boot)
+            if not encrypted:
+                require(embedded_font2(eboot)[0] == blob,
+                        "BOOT.BIN and EBOOT.BIN font 2 textures disagree.")
+            return Context(files, boot, eboot, blob, texture[FONT2_PIXEL_OFFSET:],
+                           FONT2_CAPACITY, encrypted, font_id, texture)
         capacity = table[1] & ~2047
         require(0 < capacity <= FONT_SIZE + SECTOR, "Unexpected font sector allocation.")
         stored = capacity - (table[0] & 2047)
@@ -282,14 +347,16 @@ def pack_font(data, capacity):
     return blob, compressed_size
 
 
-def png_indices(path, prepare=False, levels=16):
+def png_indices(path, prepare=False, levels=16, font_id=1):
+    width, height = dimensions(font_id)
     require(levels in (2, 4, 8, 16), "Use 2, 4, 8 or 16 intensity levels.")
     Image = pillow()
     require(path.is_file() and path.stat().st_size <= 16 * 1024 * 1024,
             "PNG not found or larger than 16 MiB.")
     with Image.open(path) as image:
-        require(image.format == "PNG" and image.size == (WIDTH, HEIGHT),
-                "PSP font PNG must be exactly 256x4400 pixels. Export from the PSP ISO first.")
+        require(image.format == "PNG" and image.size == (width, height),
+                "PSP font %d PNG must be exactly %dx%d pixels. Export from the PSP ISO first."
+                % (font_id, width, height))
         require(getattr(image, "n_frames", 1) == 1, "Animated PNGs are unsupported.")
         require(image.mode in ("P", "L", "LA", "RGB", "RGBA"), "Unsupported PNG colour mode.")
         rgba = image.convert("RGBA").tobytes()
@@ -305,7 +372,7 @@ def png_indices(path, prepare=False, levels=16):
             else:
                 require(red == green == blue and red % 17 == 0 and alpha == 255,
                         "Pixel (%d,%d) is not opaque 16-level grayscale. Run prepare first."
-                        % (point % WIDTH, point // WIDTH))
+                        % (point % width, point // width))
                 mapping[colour] = red // 17
         indices.append(mapping[colour])
     return bytes(indices)
@@ -325,17 +392,18 @@ def output_guard(output, *inputs):
     require(output.parent.is_dir(), "Output directory does not exist.")
 
 
-def write_png(path, indices):
+def write_png(path, indices, font_id=1):
+    width, height = dimensions(font_id)
     Image = pillow()
     output_guard(path)
-    image = Image.frombytes("P", (WIDTH, HEIGHT), indices)
+    image = Image.frombytes("P", (width, height), indices)
     image.putpalette([value * 17 for value in range(16) for _ in range(3)])
     fd, name = tempfile.mkstemp(prefix=path.name + ".", suffix=".partial", dir=path.parent)
     temp = Path(name)
     try:
         with os.fdopen(fd, "wb") as fp:
             image.save(fp, format="PNG", bits=4)
-        require(png_indices(temp) == indices, "Saved font PNG failed verification.")
+        require(png_indices(temp, font_id=font_id) == indices, "Saved font PNG failed verification.")
         publish(temp, path)
     finally:
         if temp.exists():
@@ -343,10 +411,37 @@ def write_png(path, indices):
 
 
 def font_plan(context, indices):
-    font = indices_font(indices)
-    require(font_indices(font) == indices, "PSP swizzle round-trip failed.")
+    font = indices_font(indices, context.font_id)
+    require(font_indices(font, context.font_id) == indices, "PSP texture round-trip failed.")
     if font == context.font:
         return [], font, len(context.blob), len(context.blob)
+    if context.font_id == 2:
+        texture = context.texture[:FONT2_PIXEL_OFFSET] + font
+        candidates = []
+        # A smaller match-table memory setting beats zlib's default on the
+        # retail icon font. Try all standard settings within its tight slot.
+        for memory in range(1, 10):
+            for strategy in (zlib.Z_DEFAULT_STRATEGY, zlib.Z_FILTERED):
+                encoder = zlib.compressobj(9, zlib.DEFLATED, -15, memory, strategy)
+                candidates.append(encoder.compress(texture) + encoder.flush())
+        packed = min(candidates, key=len)
+        blob = struct.pack('<BII', 4, len(packed), len(texture)) + packed
+        require(len(blob) <= context.capacity,
+                "Edited font 2 compresses to %d bytes; this ISO has %d bytes available. "
+                "Simplify glyph detail or use prepare --levels 8. No ISO was written."
+                % (len(blob), context.capacity))
+        require(font2_texture(blob) == texture, "Font 2 compression round-trip failed.")
+        replacement = blob + bytes(context.capacity - len(blob))
+        patches = [(context.files[BOOT].offset + FONT2_OFFSET, replacement)]
+        if context.encrypted:
+            boot = bytearray(context.boot)
+            boot[FONT2_OFFSET:FONT2_OFFSET + context.capacity] = replacement
+            rec = context.files[EBOOT]
+            patches += [(rec.offset, bytes(boot) + bytes(rec.size - len(boot))),
+                        (rec.record_offset + 10, struct.pack('<I', len(boot)) + struct.pack('>I', len(boot)))]
+        else:
+            patches.append((context.files[EBOOT].offset + FONT2_OFFSET, replacement))
+        return sorted(patches), font, len(blob), len(blob)
     blob, compressed_size = pack_font(font, context.capacity)
     word = struct.pack("<I", context.capacity - len(blob))
     patches = [(context.files[ARCHIVE].offset, blob + bytes(context.capacity - len(blob)))]
@@ -389,14 +484,16 @@ def verify_copy(source, output, patches):
     return digest.hexdigest()
 
 
-def patch_iso(source, png, output=None, check=False):
+def patch_iso(source, png, output=None, check=False, font_id=1):
     if not check:
         output_guard(output, source, png)
     stamp = source.stat()
-    context = read_iso(source)
-    indices = png_indices(png)
+    context = read_iso(source, font_id)
+    indices = png_indices(png, font_id=font_id)
     patches, font, stored, compressed = font_plan(context, indices)
-    print("PNG valid: 256x4400, 16-level grayscale; swizzle round-trip verified.")
+    width, height = dimensions(font_id)
+    print("Font %d PNG valid: %dx%d, 16-level grayscale; texture round-trip verified."
+          % (font_id, width, height))
     print("Compressed font: %d / %d bytes; stored stream: %d bytes."
           % (compressed, context.capacity, stored))
     if context.encrypted and patches:
@@ -422,7 +519,7 @@ def patch_iso(source, png, output=None, check=False):
             os.fsync(dst.fileno())
         print("Verifying all output bytes...", flush=True)
         digest = verify_copy(source, temp, patches)
-        result = read_iso(temp)
+        result = read_iso(temp, font_id)
         require(result.font == font, "Output font does not match the input PNG.")
         require((source.stat().st_size, source.stat().st_mtime_ns)
                 == (stamp.st_size, stamp.st_mtime_ns), "Source ISO changed while patching.")
@@ -439,6 +536,8 @@ def main(argv=None):
     commands = parser.add_subparsers(dest="command", required=True)
     for name in ("export", "prepare", "check", "patch"):
         sub = commands.add_parser(name)
+        sub.add_argument('--font', type=int, choices=(1, 2), default=1,
+                         help='1: dialogue/Japanese 256x4400 (default); 2: ASCII/menu/icons 128x512')
         sub.add_argument("iso", type=Path)
         sub.add_argument("png", type=Path)
         if name == "prepare":
@@ -451,21 +550,23 @@ def main(argv=None):
     try:
         if args.command == "export":
             output_guard(args.png, args.iso)
-            context = read_iso(args.iso)
-            write_png(args.png, font_indices(context.font))
-            print("Exported PSP dialogue font: %s (256x4400; 23x23 cells, 11 per row)." % args.png)
+            context = read_iso(args.iso, args.font)
+            write_png(args.png, font_indices(context.font, args.font), args.font)
+            width, height = dimensions(args.font)
+            cells = '23x23 cells, 11 per row' if args.font == 1 else '12x16 cells, 10 per row; preserve icons'
+            print("Exported PSP font %d: %s (%dx%d; %s)." % (args.font, args.png, width, height, cells))
         elif args.command == "prepare":
             output_guard(args.output, args.iso, args.png)
-            context = read_iso(args.iso)
-            indices = png_indices(args.png, prepare=True, levels=args.levels)
+            context = read_iso(args.iso, args.font)
+            indices = png_indices(args.png, prepare=True, levels=args.levels, font_id=args.font)
             _, _, stored, compressed = font_plan(context, indices)
-            write_png(args.output, indices)
+            write_png(args.output, indices, args.font)
             print("Prepared 4bpp grayscale PNG: %s" % args.output)
             print("Compressed %d / %d bytes; stored %d bytes."
                   % (compressed, context.capacity, stored))
         else:
             output = getattr(args, "output", None) or args.iso.with_name(args.iso.stem + "-custom-font.iso")
-            patch_iso(args.iso, args.png, output, check=args.command == "check")
+            patch_iso(args.iso, args.png, output, check=args.command == "check", font_id=args.font)
     except (FontError, OSError, ValueError, struct.error, zlib.error) as exc:
         print("Error: %s" % exc, file=sys.stderr)
         return 1
