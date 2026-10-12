@@ -42,9 +42,9 @@ file,offset,japanese,english
 06799.md1,0x6610,ふつう,Normal
 06799.md1,0x6618,"使いますか？
  
-<button:00000035>使う  <button:00000036>やめる","Use this?
+<button:00000035>使う  <button:00000036>やめる","Want to use it?
  
-<button:00000035>Use  <button:00000036>Cancel"
+<button:00000035>Yes  <button:00000036>No"
 06799.md1,0x6640,"捨てますか？
  
 <button:00000035>捨てる  <button:00000036>やめる","Discard it?
@@ -64,8 +64,8 @@ file,offset,japanese,english
 06799.md1,0x6760,全身に邪気をまとったような気がする,You feel wrapped in dark energy.
 06799.md1,0x6788,が飛び出した, popped out!
 06799.md1,0x67C8,は無くなりました, is all gone.
-06799.md1,0x67E0,しばし待たれい,One moment.
-06799.md1,0x6B84,しばし待たれい,One moment.
+06799.md1,0x67E0,しばし待たれい,Please wait.
+06799.md1,0x6B84,しばし待たれい,Please wait.
 06799.md1,0x695A,Tools,Item
 06799.md1,0x69E2,Utensils,Cookware
 06799.md1,0x69D6,Ingredients,Food
@@ -983,15 +983,15 @@ E: toward Lienea"
 09028.pak0,0xFFF51,ハイデルベルグ,Heidelberg
 09028.pak0,0xFFF60,リーネの村,Lienea
 09028.pak0,0xFFF6B,リーネの村,Lienea
-09028.pak0,0xFFF76,大陸北部の坑道・北側出入口,Northern Mine - N Exit
-09028.pak0,0xFFF91,大陸北部の坑道・南側出入口,Northern Mine - S Exit
-09028.pak0,0xFFFAC,大陸西部の坑道・北東出入口,Western Mine - NE Exit
-09028.pak0,0xFFFC7,大陸西部の坑道・南東出入口,Western Mine - SE Exit
-09028.pak0,0xFFFE2,大陸西部の坑道・南西出入口,Western Mine - SW Exit
-09028.pak0,0xFFFFD,大陸西部の坑道・北西出入口,Western Mine - NW Exit
-09028.pak0,0x100018,大陸南部の坑道・北西出入口,Southern Mine - NW Exit
-09028.pak0,0x100033,大陸南部の坑道・南側出入口,Southern Mine - S Exit
-09028.pak0,0x10004E,大陸南部の坑道・北東出入口,Southern Mine - NE Exit
+09028.pak0,0xFFF76,大陸北部の坑道・北側出入口,Northern Mine: N Entrance
+09028.pak0,0xFFF91,大陸北部の坑道・南側出入口,Northern Mine: S Entrance
+09028.pak0,0xFFFAC,大陸西部の坑道・北東出入口,Western Mine: NE Entrance
+09028.pak0,0xFFFC7,大陸西部の坑道・南東出入口,Western Mine: SE Entrance
+09028.pak0,0xFFFE2,大陸西部の坑道・南西出入口,Western Mine: SW Entrance
+09028.pak0,0xFFFFD,大陸西部の坑道・北西出入口,Western Mine: NW Entrance
+09028.pak0,0x100018,大陸南部の坑道・北西出入口,Southern Mine: NW Entrance
+09028.pak0,0x100033,大陸南部の坑道・南側出入口,Southern Mine: S Entrance
+09028.pak0,0x10004E,大陸南部の坑道・北東出入口,Southern Mine: NE Entrance
 09028.pak0,0x100069,山小屋,Cabin
 09028.pak0,0x100070,オベロン社廃坑,Oberon Mine
 09028.pak0,0x10007F,スノーフリア,Frostheim
@@ -1010,15 +1010,15 @@ E: toward Lienea"
 09028.pak0,0x10019E,"ボタンで全ての箱を初期位置に戻すことができます。
 その際、自分も入口に戻されます","returns all boxes to their start positions.
 You return to the entrance too."
-09028.pak0,0x1001EE,大陸北部の坑道・北側出入口,Northern Mine - N Exit
-09028.pak0,0x100209,大陸北部の坑道・南側出入口,Northern Mine - S Exit
-09028.pak0,0x100224,大陸南部の坑道・北西出入口,Southern Mine - NW Exit
-09028.pak0,0x10023F,大陸南部の坑道・南側出入口,Southern Mine - S Exit
-09028.pak0,0x10025A,大陸南部の坑道・北東出入口,Southern Mine - NE Exit
-09028.pak0,0x100275,大陸西部の坑道・北東出入口,Western Mine - NE Exit
-09028.pak0,0x100290,大陸西部の坑道・北西出入口,Western Mine - NW Exit
-09028.pak0,0x1002AB,大陸西部の坑道・南東出入口,Western Mine - SE Exit
-09028.pak0,0x1002C6,大陸西部の坑道・南西出入口,Western Mine - SW Exit
+09028.pak0,0x1001EE,大陸北部の坑道・北側出入口,Northern Mine: N Entrance
+09028.pak0,0x100209,大陸北部の坑道・南側出入口,Northern Mine: S Entrance
+09028.pak0,0x100224,大陸南部の坑道・北西出入口,Southern Mine: NW Entrance
+09028.pak0,0x10023F,大陸南部の坑道・南側出入口,Southern Mine: S Entrance
+09028.pak0,0x10025A,大陸南部の坑道・北東出入口,Southern Mine: NE Entrance
+09028.pak0,0x100275,大陸西部の坑道・北東出入口,Western Mine: NE Entrance
+09028.pak0,0x100290,大陸西部の坑道・北西出入口,Western Mine: NW Entrance
+09028.pak0,0x1002AB,大陸西部の坑道・南東出入口,Western Mine: SE Entrance
+09028.pak0,0x1002C6,大陸西部の坑道・南西出入口,Western Mine: SW Entrance
 09028.pak0,0x1002EC,"クリア！！
 ","Clear!!
 "
@@ -1204,7 +1204,7 @@ S: Northern Mine"
 西：ノイシュタット方面
 東：リーネ方面","N: Mine SW Exit
 W: toward Neuestadt
-E: toward Lien"
+E: toward Lienea"
 09032.pak0,0xFFF08,クレスタの街,Cresta
 09032.pak0,0xFFF15,デュナミス孤児院,Dunamis Home
 09032.pak0,0xFFF26,クレスタの街,Cresta
@@ -1225,15 +1225,15 @@ E: toward Lien"
 09032.pak0,0x10002D,ハイデルベルグ,Heidelberg
 09032.pak0,0x10003C,リーネの村,Lienea
 09032.pak0,0x100047,リーネの村,Lienea
-09032.pak0,0x100052,大陸北部の坑道・北側出入口,Northern Mine - N Exit
-09032.pak0,0x10006D,大陸北部の坑道・南側出入口,Northern Mine - S Exit
-09032.pak0,0x100088,大陸西部の坑道・北東出入口,Western Mine - NE Exit
-09032.pak0,0x1000A3,大陸西部の坑道・南東出入口,Western Mine - SE Exit
-09032.pak0,0x1000BE,大陸西部の坑道・南西出入口,Western Mine - SW Exit
-09032.pak0,0x1000D9,大陸西部の坑道・北西出入口,Western Mine - NW Exit
-09032.pak0,0x1000F4,大陸南部の坑道・北西出入口,Southern Mine - NW Exit
-09032.pak0,0x10010F,大陸南部の坑道・南側出入口,Southern Mine - S Exit
-09032.pak0,0x10012A,大陸南部の坑道・北東出入口,Southern Mine - NE Exit
+09032.pak0,0x100052,大陸北部の坑道・北側出入口,Northern Mine: N Entrance
+09032.pak0,0x10006D,大陸北部の坑道・南側出入口,Northern Mine: S Entrance
+09032.pak0,0x100088,大陸西部の坑道・北東出入口,Western Mine: NE Entrance
+09032.pak0,0x1000A3,大陸西部の坑道・南東出入口,Western Mine: SE Entrance
+09032.pak0,0x1000BE,大陸西部の坑道・南西出入口,Western Mine: SW Entrance
+09032.pak0,0x1000D9,大陸西部の坑道・北西出入口,Western Mine: NW Entrance
+09032.pak0,0x1000F4,大陸南部の坑道・北西出入口,Southern Mine: NW Entrance
+09032.pak0,0x10010F,大陸南部の坑道・南側出入口,Southern Mine: S Entrance
+09032.pak0,0x10012A,大陸南部の坑道・北東出入口,Southern Mine: NE Entrance
 09032.pak0,0x100145,山小屋,Cabin
 09032.pak0,0x10014C,オベロン社廃坑,Oberon Mine
 09032.pak0,0x10015B,スノーフリア,Frostheim
@@ -1244,21 +1244,21 @@ E: toward Lien"
 09032.pak0,0x100196,ホープタウン,Hope Town
 09032.pak0,0x1001A3,カルビオラ,Kalviola
 09032.pak0,0x1001AE,アクアヴェイル,Aquaveil
-09032.pak0,0x1001BD,神のたまご,Egg of God
+09032.pak0,0x1001BD,神のたまご,Atamoni Ovum
 09032.pak0,0x1001C8,チェルシーの小屋,Chelsea's Hut
 09032.pak0,0x1001D9,小さな家,House
 09032.pak0,0x1001E2,鍛冶屋のテント,Smith's Tent
 09032.pak0,0x1001F1,ねこにんの村,Katz Village
 09032.pak0,0x1001FE,小屋,Hut
-09032.pak0,0x100203,大陸北部の坑道・北側出入口,Northern Mine - N Exit
-09032.pak0,0x10021E,大陸北部の坑道・南側出入口,Northern Mine - S Exit
-09032.pak0,0x100239,大陸南部の坑道・北西出入口,Southern Mine - NW Exit
-09032.pak0,0x100254,大陸南部の坑道・南側出入口,Southern Mine - S Exit
-09032.pak0,0x10026F,大陸南部の坑道・北東出入口,Southern Mine - NE Exit
-09032.pak0,0x10028A,大陸西部の坑道・北東出入口,Western Mine - NE Exit
-09032.pak0,0x1002A5,大陸西部の坑道・北西出入口,Western Mine - NW Exit
-09032.pak0,0x1002C0,大陸西部の坑道・南東出入口,Western Mine - SE Exit
-09032.pak0,0x1002DB,大陸西部の坑道・南西出入口,Western Mine - SW Exit
+09032.pak0,0x100203,大陸北部の坑道・北側出入口,Northern Mine: N Entrance
+09032.pak0,0x10021E,大陸北部の坑道・南側出入口,Northern Mine: S Entrance
+09032.pak0,0x100239,大陸南部の坑道・北西出入口,Southern Mine: NW Entrance
+09032.pak0,0x100254,大陸南部の坑道・南側出入口,Southern Mine: S Entrance
+09032.pak0,0x10026F,大陸南部の坑道・北東出入口,Southern Mine: NE Entrance
+09032.pak0,0x10028A,大陸西部の坑道・北東出入口,Western Mine: NE Entrance
+09032.pak0,0x1002A5,大陸西部の坑道・北西出入口,Western Mine: NW Entrance
+09032.pak0,0x1002C0,大陸西部の坑道・南東出入口,Western Mine: SE Entrance
+09032.pak0,0x1002DB,大陸西部の坑道・南西出入口,Western Mine: SW Entrance
 09032.pak0,0x100301,"クリア！！
 ","Clear!!
 "

@@ -5,13 +5,16 @@ Usage:
     python3 patch_menu_text.py <FPB_folder> [--csv menu_translations.csv] [--dry-run]
 
 <FPB_folder> is the folder PyTOD2 extracts FILE.FPB into (contains 06799.md1 etc).
-Every record is verified before anything is written: it must hold either the
-original Japanese or the final English (so re-running on a patched or partly
-patched build is safe and only fills the gaps). Files are patched in place at
+Every record is verified before anything is written: it must hold the original
+Japanese, the final English, or an English wording an earlier release wrote
+there (menu_former_translations.csv), so re-running on a patched or partly
+patched build is safe and a folder patched by any older release is brought up
+to date. Files are patched in place at
 identical size, so the FPB pointer table is untouched. Nothing is written to a
-file unless every one of its records verifies. The two Laguna Ruins map labels
-use verified unused SCED padding and update their text references, also without
-changing file sizes.
+file unless every one of its records verifies. The world map labels that do not
+fit their slot (Laguna Ruins, Atamoni Ovum) use verified unused SCED padding and
+update their text references, also without changing file sizes. The shop module
+also gets the pointer of its sell confirmation repaired (shop_prompt.py).
 """
 import argparse, csv, os, sys, shutil
 try:                                   # Windows consoles are often not UTF-8
@@ -20,7 +23,10 @@ try:                                   # Windows consoles are often not UTF-8
 except Exception:
     pass
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-import md1text as M, md1patch as P, pak3, lzss, world_map_labels
+import md1text as M, md1patch as P, pak3, lzss, world_map_labels, shop_prompt
+
+# the shop module: its sell confirmation needs a pointer repaired (shop_prompt.py)
+SHOP_MODULE = '06803.md1'
 
 FORMER_TRANSLATIONS = {
     ('09028.pak0', 0xFFE57): 'Laguna',
@@ -76,25 +82,28 @@ def main():
     with open(a.csv, encoding="utf-8") as f:
         for r in csv.DictReader(f):
             groups.setdefault(r["file"],[]).append((int(r["offset"],16), r["japanese"], r["english"]))
-    total=written=current=skipped=0
+    formers=pak3.load_formers()
+    for key, text in FORMER_TRANSLATIONS.items():
+        formers.setdefault(key, set()).add(text)
+    total=written=current=skipped=0; failed=[]
     for name, entries in sorted(groups.items()):
         path=os.path.join(folder,name)
         if not os.path.exists(path):
             print(f"  SKIP {name}: not found in {folder}"); skipped+=len(entries); continue
         d=bytearray(open(path,"rb").read()); orig=bytes(d); errs=[]; pending=[]; done=0
-        world_requested = False
+        world_requested = 0
         for off,jp,en in entries:
-            if name in world_map_labels.LABELS and off == world_map_labels.LABELS[name][0]:
-                world_requested = True
-                if jp != 'ラグナ遺跡' or en != world_map_labels.TEXT:
+            label = world_map_labels.find(name, off)
+            if label:
+                world_requested += 1
+                if jp != label.japanese or en != label.text:
                     errs.append('world-map relocation translation changed')
                 continue
             r=M.decode_at(orig,off)
             if not r: errs.append(f"0x{off:X} decode failed"); continue
             got,end,_=r
             if got==en: done+=1; continue                       # already translated
-            former = FORMER_TRANSLATIONS.get((name, off))
-            if got != jp and got != former:
+            if got != jp and got not in formers.get((name, off), ()):
                 errs.append(f"0x{off:X} expected {ascii(jp[:16])} found {ascii(got[:16])}")
                 continue
             avail=P.budget(orig,off,end-off); enc=P.encode(en)
@@ -104,16 +113,24 @@ def main():
             region=avail+1
             d[off:off+region]=enc+b"\x00"*(region-len(enc))
         relocated = 0
+        if world_requested and world_requested != len(world_map_labels.LABELS[name]):
+            errs.append('world-map relocation rows are missing from the table')
         if world_requested and not errs:
             try:
                 relocated, already = world_map_labels.apply(d, name)
                 done += already
             except ValueError as error:
                 errs.append(str(error))
+        if name == SHOP_MODULE and not errs:
+            try:
+                fixed, _ = shop_prompt.apply(d)
+                relocated += fixed
+            except ValueError as error:
+                errs.append(str(error))
         if errs:
             print(f"  FAIL {name}: {len(errs)} problem(s), file left untouched")
             for e in errs[:5]: print(f"        {e}")
-            skipped+=len(entries); continue
+            skipped+=len(entries); failed.append(name); continue
         assert len(d)==len(orig)
         changed_count = len(pending) + relocated
         if changed_count and not a.dry_run:
@@ -128,10 +145,17 @@ def main():
         total+=1
     print(f"\n{written} strings patched, {current} already current, {total} files"
           f"{' (dry run)' if a.dry_run else ''}" + (f", {skipped} skipped" if skipped else ""))
-    rc=patch_containers(folder, groups, a)
+    rc=patch_containers(folder, groups, a, formers, failed)
+    if failed:
+        print("\n" + "!"*72)
+        print(f"NOT PATCHED ({len(failed)}): " + ", ".join(failed))
+        print("These files were left exactly as they were, so the game will show their")
+        print("OLD text. Restore them from a fresh Unpack FPB (or their .bak) and run")
+        print("this script again; if a file still fails, report the lines above.")
+        print("!"*72)
     return 1 if (skipped or rc) else 0
 
-def patch_containers(folder, groups, a):
+def patch_containers(folder, groups, a, formers=None, failed=None):
     """The .pak3 files hold compressed copies of some modules (00017.pak3:
     battle 08055, world map 08996, and 06304). The game loads THOSE, not the
     loose .md1 files, so they are rebuilt here with the same records."""
@@ -148,13 +172,16 @@ def patch_containers(folder, groups, a):
         for k,(off,blob) in enumerate(members):
             if not lzss.is_packed(blob): blobs.append(blob); continue
             mod=lzss.unpack(blob)
-            which=pak3.identify(mod, groups)
+            which=pak3.identify(mod, groups, formers)
             if which is None: blobs.append(blob); continue
-            new,patched,done,errs=pak3.apply_records(mod, groups[which])
+            former={off: texts for (fname, off), texts in (formers or {}).items() if fname==which}
+            new,patched,done,errs=pak3.apply_records(mod, groups[which], former)
             if errs:
                 print(f"  FAIL {name} member {k} ({which}): {len(errs)} problem(s), container left untouched")
                 for e in errs[:5]: print("        "+e)
-                bad+=1; blobs=None; break
+                bad+=1; blobs=None
+                if failed is not None: failed.append(f"{name} ({which})")
+                break
             if patched:
                 blobs.append(lzss.pack(new, blob[0])); changed=True
                 report.append(f"{which}: {patched} strings" + (f", {done} already done" if done else ""))
