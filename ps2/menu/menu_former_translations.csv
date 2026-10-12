@@ -1,0 +1,535 @@
+file,offset,english
+06167.md1,0x1E715,"Paint
+<button:00000037>Redo
+<button:00000038>Done!
+<button:00000039><button:0000003A>Switch Color"
+06167.md1,0x1E8F8,"Quit the quiz?
+ 
+<button:00000035>Quit  <button:00000036>Don't"
+06167.md1,0x1E8F8,"Quit the quiz?
+ 
+<button:00000035>Quit  <button:00000036>Don't"
+06798.md1,0x59A8,"<button:00000035>Use
+<button:00000036>Back
+<button:00000037>Info
+<button:00000038>Toggle"
+06799.md1,0x6580,"<button:00000035>Select
+<button:00000036>Back"
+06799.md1,0x6618,"Use this?
+ 
+<button:00000035>Use  <button:00000036>Cancel"
+06799.md1,0x6618,"Use this?
+ 
+<button:00000035>Use  <button:00000036>Cancel"
+06799.md1,0x6640,"Discard it?
+ 
+<button:00000035>Yes  <button:00000036>No"
+06799.md1,0x6680,"<button:00000035>Use
+<button:00000036>Back
+<button:00000037>Info
+<button:00000038>Drop"
+06799.md1,0x67E0,One moment.
+06799.md1,0x6B84,One moment.
+06800.md1,0x4470,"<button:00000035>Change
+<button:00000036>Back
+<button:00000037>Info
+<button:00000038>Remove
+<button:00000039><button:0000003A>Switch"
+06800.md1,0x4500,"<button:00000035>Select
+<button:00000036>Back
+<button:00000037>Info"
+06800.md1,0x4528,"<button:00000035>Select
+<button:00000036>Back"
+06800.md1,0x45A8,"<button:00000036>Back
+<button:00000037>Auto-Equip
+<button:00000038>Remove All
+<button:00000021><button:00000039><button:0000003A>Switch"
+06801.md1,0x2BA0,"<button:00000035>Select
+<button:00000036>Back
+<button:00000037>Info
+<button:00000038>List View
+"
+06801.md1,0x2BF8,"<button:00000036>Back
+<button:00000037>Info
+<button:00000038>List View
+<button:00000021>Change"
+06801.md1,0x2C30,"<button:00000035>Select
+<button:00000036>Back
+<button:00000037>Info"
+06801.md1,0x2C98,"<button:00000035>Select
+<button:00000036>Back"
+06802.md1,0x6328,"<button:00000035>Select
+<button:00000036>Back
+<button:00000037>Info
+<button:00000038>Cancel"
+06802.md1,0x63C0,"Proceed?
+ 
+<button:00000035>Yes  <button:00000036>No"
+06802.md1,0x63E8,"<button:00000035>Select
+<button:00000036>Back
+<button:00000037>Info
+<button:00000019>Result A
+<button:0000001D>Result B"
+06802.md1,0x6440,"<button:00000035>Use
+<button:00000036>Back
+<button:00000037>Info
+<button:00000038>Drop"
+06802.md1,0x6470,"<button:00000035>Select
+<button:00000036>Back"
+06803.md1,0x89C0,"<button:00000035>Select
+<button:00000036>Back"
+06803.md1,0x89E8,  Buy
+06803.md1,0x8A1C,", OK?
+ 
+<button:00000035>Sell  <button:00000036>Cancel"
+06803.md1,0x8A48,"Is this OK?
+ 
+<button:00000035>Buy  <button:00000036>Cancel"
+06803.md1,0x8AA8,"<button:00000035>Select
+<button:00000036>Back
+<button:00000037>Info
+<button:00000038>Switch Char
+<button:00000021><button:00000039><button:0000003A>Quantity"
+06804.md1,0x4C40,"<button:00000035>Select
+<button:00000036>Back
+<button:00000037>Info
+<button:00000019>Active Level
+<button:00000039><button:0000003A>Switch Char
+"
+06804.md1,0x4DC8,"<button:00000035>Change
+<button:00000036>Back
+<button:00000037>Info
+<button:00000038>Remove
+<button:00000039><button:0000003A>Switch Arte"
+06804.md1,0x4E88,"<button:00000035>Select
+<button:00000036>Back
+<button:00000037>Info"
+06804.md1,0x4EF0,"<button:00000036><button:0000001D>Back
+<button:00000039><button:0000003A>Switch Char
+"
+06805.md1,0x4078,"'s Memory Card (PS2) is
+being accessed."
+06805.md1,0x4138,"Suspend the game?
+Note: the suspend data is
+deleted once you resume.
+"
+06805.md1,0x4190,"<size:000000E0>(Suspend data is overwritten)<size:00000100>
+"
+06805.md1,0x41C0," 
+Is this OK?
+ 
+<button:00000035>Yes  <button:00000036>No"
+06805.md1,0x41F0,"Create new data. Is this OK?
+ 
+<button:00000035>Yes  <button:00000036>No"
+06805.md1,0x4238,"Overwrite the selected data.
+Is this OK?
+ 
+<button:00000035>Yes  <button:00000036>No"
+06805.md1,0x4288,"Load the selected data. Is this OK?
+ 
+<button:00000035>Yes  <button:00000036>No"
+06805.md1,0x42E8,"'s Memory Card (PS2) does not
+have enough free space to create
+suspend data.
+Creating it needs "
+06805.md1,0x4378,"'s Memory Card (PS2) does not
+have enough free space to create
+save data.
+Creating it needs "
+06805.md1,0x4418,"Saving. Do not remove the Memory
+Card (PS2) or turn off the power."
+06805.md1,0x4488,"Loading. Do not remove the Memory
+Card (PS2) or turn off the power."
+06805.md1,0x44F8,"<button:00000035>Select
+<button:00000036>Back
+<button:00000037>Graph
+"
+06805.md1,0x4590,"'s Memory Card (PS2)
+cannot be accessed."
+06805.md1,0x45C0,"Exit the save menu?
+ 
+<button:00000035>Exit  <button:00000036>Back"
+06806.md1,0xF343,"Previous
+<button:0000003A>Next
+"
+06806.md1,0xF48D,"Previous
+<button:0000003A>Next
+"
+06806.md1,0xF4B0,"<button:00000021>Change
+<button:00000036>Back"
+06806.md1,0xF5D5,"Back
+<button:0000003A>Next
+"
+06807.md1,0x74C8,"Delete this recipe?
+ 
+<button:00000035>Delete  <button:00000036>Cancel"
+06807.md1,0x74F8,", cook it?
+ 
+<button:00000035>Cook  <button:00000036>Cancel"
+06807.md1,0x7550,"Cook with these ingredients?
+ 
+<button:00000035>Cook  <button:00000036>Cancel"
+06807.md1,0x7590,"A recipe needs at least two
+different ingredients.
+ 
+Stop creating this recipe?
+ 
+<button:00000035>Stop  <button:00000036>Continue"
+06807.md1,0x7600,"Create a new recipe?
+ 
+<button:00000035>Create  <button:00000036>Cancel"
+06807.md1,0x7638,"<button:00000035>Select
+<button:00000036>Back
+<button:00000037>Info
+<button:00000038>Menu"
+06807.md1,0x7670,K.O.
+06807.md1,0x7800,"<button:00000035>Select
+<button:00000036>Back"
+06807.md1,0x7878,"<button:00000035>Select
+<button:00000036>Cook
+<button:00000037>Info
+<button:00000038>Cancel"
+06807.md1,0x78E8,"The recipe list is full.
+Delete one before making a new one."
+06807.md1,0x7930,"A recipe needs at least two
+different ingredients on hand."
+06807.md1,0x7A18,"<button:00000035>Select
+<button:00000036>Back
+<button:00000037>Info"
+06808.md1,0x4960,"<button:00000021>Change
+<button:00000036>Back"
+06808.md1,0x4AB8,"<button:00000035><button:00000036><button:00000037><button:00000038><button:00000039><button:0000003A><button:0000003B><button:0000003C>Edit
+<button:00000019>Back"
+06808.md1,0x4AF0,"<button:00000021>Change
+<button:00000036>Back
+<button:00000039><button:0000003A>Hide Window"
+06808.md1,0x4B20,"<button:00000035>OK
+<button:00000036>Cancel
+<button:00000037>Undo
+<button:00000038>Default
+<button:00000024>Adjust"
+06808.md1,0x4B68,"<button:00000035><button:0000001D>Submenu
+<button:00000036>Back"
+06808.md1,0x4B90,"<button:00000035>Select
+<button:00000036>Back"
+06809.md1,0x2D50,"<button:00000035>Rename
+<button:00000036>Back
+<button:00000038>Image
+<button:00000021><button:00000039><button:0000003A>Switch Char"
+06809.md1,0x2F60,"<button:00000035>Change Title
+<button:00000036>Back
+<button:00000037>Info
+<button:00000038>Image
+<button:00000021><button:00000039><button:0000003A>Switch Char"
+06809.md1,0x2FB8,"<button:00000035>Select
+<button:00000036>Back
+<button:00000037>Info"
+06810.md1,0x3440,"<button:00000035>Enter
+<button:00000036>Back
+<button:00000037>Del"
+06810.md1,0x3460,"<button:00000035>OK
+<button:00000036>Back
+<button:00000037>Del
+<button:00000039><button:0000003A>Font
+<button:0000003B><button:0000003C>Cursor"
+06810.md1,0x34F8,"<button:00000035>Select
+<button:00000036>Back"
+06810.md1,0x3560,"Cancel this entry?
+<size:000000E0>(Confirm with <button:00000035> on ""OK"")<size:00000100>
+ 
+<button:00000035>Cancel  <button:00000036>Back to entry"
+06811.md1,0x2568,"<button:00000035>Use
+<button:00000036>Back
+<button:00000037>Info"
+06812.md1,0xB440,"<button:00000035>Select
+<button:00000036>Back"
+06813.md1,0x7800,"<button:00000021><button:00000039><button:0000003A>Switch
+<button:00000038>List View
+<button:00000036>Back"
+06814.md1,0x4338,"<button:00000035>Select
+<button:00000036>Back"
+06814.md1,0x4370,"<button:00000037>Info
+<button:00000036>Back"
+06815.md1,0xA50,", please insert a
+Memory Card (PS2)."
+06815.md1,0xA88,"    Start the game anyway?    
+ 
+<button:00000035>Yes  <button:00000036>No"
+06815.md1,0xAD0,"'s Memory Card (PS2)
+cannot be accessed."
+06815.md1,0xB08,"'s Memory Card (PS2)
+does not have enough free space.
+ 
+To save this game you need at
+least the following free space:
+ 
+- Save data (new)  "
+06815.md1,0xBB0,"KB
+- Suspend data (new)    "
+06816.md1,0xFE8,"Start the game with these settings.
+<button:00000025>Start<button:00000026>Back"
+06816.md1,0x1038,"Crazy Comet's added spell can
+trigger an extra activation."
+06816.md1,0x1090,"Carry over encounter count and
+max hits into the new game."
+06816.md1,0x1128,"Hold up to 30 of each
+consumable item."
+06816.md1,0x1178,"Hold up to 20 of each
+consumable item."
+06816.md1,0x11C8,"Carry over your world map
+information."
+06816.md1,0x1338,"Normal EXP gain drops to 1, but
+combo bonus EXP becomes 4x."
+06816.md1,0x1398,"EXP gained is halved. Good for
+a low-level playthrough."
+06816.md1,0x1420,"Carry over Scout Orb, Moon
+Selector and Magical Pot."
+06816.md1,0x1488,"Random encounters stop entirely.
+Clearing the game isn't guaranteed.
+"
+06816.md1,0x14F0,"All characters start with 160 max HP.
+For those who want a cold sweat."
+06816.md1,0x1598,"Learn the added-only enchant as
+soon as you learn each arte."
+06816.md1,0x15F8,"Add your equipment slots to the
+starting gear."
+06816.md1,0x1648,"Carry over enchants, except
+added-trigger artes."
+06816.md1,0x1710,"Carry over the use counts of
+skills and spells."
+06816.md1,0x1758,"Carry over unlocked difficulty
+levels and titles."
+06816.md1,0x17A8,"Leftover GRADE carries over.
+You can also spend nothing now
+and save it for the next game."
+06816.md1,0x1810,"Use the battle rating (GRADE) you
+earned to start under various conditions."
+06816.md1,0x19C8,"<button:00000035>Buy Mode
+<button:00000036>Exit
+<button:00000037>Info
+<button:00000038>Redo"
+08055.md1,0x52650,"that is, during <color:00000006>Spirits Blaster<color:00000007>, is your chance!"
+08055.md1,0x52690,"so normally you cannot use it. But while SP stays full,"
+08055.md1,0x526C8,"but it requires <color:00000005>SP 100%<color:00000007>. SP drops during an Arcane Arte,"
+08055.md1,0x52710,"  You learned a <color:00000006>Mystic Arte<color:00000007> after an Arcane Arte,"
+08055.md1,0x52770,"  After using Souhajin, <color:00000006>hold<color:00000007> <button:0000003D> to trigger it."
+08055.md1,0x527B0,equip it to <color:00000004>Action<color:00000007> from the <color:00000005>Enchant<color:00000007> menu.
+08055.md1,0x527F8,"<color:00000006>Souha Tsuiren<color:00000007> is exclusive to Souhajin. At 50+ uses,"
+08055.md1,0x52840,"  After learning a Skill, <Kyle> gets the <color:00000006>Added Skill<color:00000007> enchant."
+08055.md1,0x528A8,That is the point.
+08055.md1,0x528C0,  The key difference: <color:00000006>input during a Skill<color:00000007> chains into a combo.
+08055.md1,0x52910,set them to <button:0000003E> from the <color:00000005>Artes<color:00000007> menu.
+08055.md1,0x52948,"  Think of <color:00000006>Arcane Artes<color:00000007> as higher Skills. Likewise,"
+08055.md1,0x529A0,  Enchants can also be removed with <button:00000028>.
+08055.md1,0x529D8,then equip <color:00000006>Attack Up<color:00000007> to increase the damage it deals.
+08055.md1,0x52A20,"From the <color:00000005>Enchant<color:00000007> menu, pick a Skill used 40 or more times,"
+08055.md1,0x52A68,Equipping one needs that Skill or Spell's use <color:00000006>COUNT<color:00000007>.
+08055.md1,0x52AB8,  <color:00000006>Enchants<color:00000007> attach to Skills and Spells to strengthen them.
+08055.md1,0x52B28,"  When <color:00000005>SP<color:00000007> runs dry, casting while it recovers is a fine tactic."
+08055.md1,0x52B78,change the spell's target.
+08055.md1,0x52BA0,"directly. While casting, hold <button:0000003E> and press <button:00000021> to"
+08055.md1,0x52BE0,"Spells cost <color:00000006>TP<color:00000007> and cast time, but can strike distant foes"
+08055.md1,0x52C28,"  Spells, like Skills, are set to <button:0000003E> from the <color:00000005>Artes<color:00000007> menu."
+08055.md1,0x52C98,<Loni>'s <color:00000004>Defense<color:00000007> setting.
+08055.md1,0x52CC8,open <color:00000005>Tactics<color:00000007> and set
+08055.md1,0x52CE8,"casts healing spells. To choose when he does so,"
+08055.md1,0x52D20,"  On <color:00000006>Auto<color:00000007>, <Loni> tracks your HP in battle and"
+08055.md1,0x52D78,"attack, and <color:00000006>input during a normal attack<color:00000007> allows combos."
+08055.md1,0x52DC0,"Skills cost <color:00000006>TP<color:00000007>, but deal more damage than a normal"
+08055.md1,0x52E00,A Skill you have set is used with a direction key plus <button:0000003E>.
+08055.md1,0x52E40,  Learn a Skill and you can set it from the <color:00000005>Artes<color:00000007> menu.
+08055.md1,0x52FA0,Added Spell
+08055.md1,0x52FB8,Added Skill
+08055.md1,0x52FC8,"<color:00000007>"" acquired!"
+08055.md1,0x52FE0,"Title ""<color:00000006>"
+08055.md1,0x53018,'s 
+08055.md1,0x53038, gained
+08055.md1,0x53040,Spell
+08055.md1,0x53040,Spell 
+08055.md1,0x53048,Skill
+08055.md1,0x53048,Skill 
+08055.md1,0x53050,Enchant
+08055.md1,0x53050,Enchant 
+08055.md1,0x530A0,Tactics
+09028.pak0,0xFFA6A,"Gald a night.
+Would you like to stay?"
+09028.pak0,0xFFAB7," Yes 
+ No "
+09028.pak0,0xFFBC2,"Found {16}{25}{BE}{C0}, but
+your inventory is full."
+09028.pak0,0xFFC9A,"W: Western Mine
+   (toward Neuestadt)
+N: Lien"
+09028.pak0,0xFFC9A,"W: Western Mine
+   (toward Neuestadt)
+N: Lienea"
+09028.pak0,0xFFCD3,"W: Oberon Mine
+S: Neuestadt"
+09028.pak0,0xFFCF9,"W: Darilsheid
+E: Laguna Ruins"
+09028.pak0,0xFFD47,"N: Harmentz Valley
+S: Darilsheid"
+09028.pak0,0xFFD71,"N: Heidelberg
+W: Er'ther Ruins"
+09028.pak0,0xFFD97,"W: Western Mine
+   (toward Neuestadt)
+S: Northern Mine"
+09028.pak0,0xFFDF3,"N: Mine SW Exit
+W: toward Neuestadt
+E: toward Lien"
+09028.pak0,0xFFDF3,"N: Mine SW Exit
+W: toward Neuestadt
+E: toward Lienea"
+09028.pak0,0xFFE57,Laguna
+09028.pak0,0xFFF76,Northern Mine - N Exit
+09028.pak0,0xFFF91,Northern Mine - S Exit
+09028.pak0,0xFFFAC,Western Mine - NE Exit
+09028.pak0,0xFFFC7,Western Mine - SE Exit
+09028.pak0,0xFFFE2,Western Mine - SW Exit
+09028.pak0,0xFFFFD,Western Mine - NW Exit
+09028.pak0,0x100018,Southern Mine - NW Exit
+09028.pak0,0x100033,Southern Mine - S Exit
+09028.pak0,0x10004E,Southern Mine - NE Exit
+09028.pak0,0x10007F,Snowfria
+09028.pak0,0x10011C,"Push the boxes into the holes to make
+a path and head for the exit.
+<button:00000035> pushes a box.
+You cannot pull them."
+09028.pak0,0x10019E,"returns all boxes to their start positions.
+You return to the entrance too."
+09028.pak0,0x1001EE,Northern Mine - N Exit
+09028.pak0,0x100209,Northern Mine - S Exit
+09028.pak0,0x100224,Southern Mine - NW Exit
+09028.pak0,0x10023F,Southern Mine - S Exit
+09028.pak0,0x10025A,Southern Mine - NE Exit
+09028.pak0,0x100275,Western Mine - NE Exit
+09028.pak0,0x100290,Western Mine - NW Exit
+09028.pak0,0x1002AB,Western Mine - SE Exit
+09028.pak0,0x1002C6,Western Mine - SW Exit
+09028.pak0,0x1002EC,"Clear!!
+"
+09028.pak0,0x1002FF,"Try again?<03:00000000>
+ Yes
+ No
+"
+09028.pak0,0x100350,"Fire the anchor into the Flying Dragon!
+Jump across onto its back!
+Ready?"
+09028.pak0,0x100350,"Fire the anchor into the Flying Dragon!
+Jump across onto its back!
+Ready?"
+09028.pak0,0x1003D5,"Hey! We'll get caught in it too!?
+What are you doing, <Judas>!? Run!"
+09028.pak0,0x10041E,"Damn! The output won't rise!
+What's going on!?"
+09028.pak0,0x1004E6,"All Clear!!
+"
+09028.pak0,0x1004FD,"Quit?<03:00000000>
+ Yes
+ No
+"
+09028.pak0,0x100549," Retry
+ Quit
+ Cancel
+"
+09029.pak0,0xFE03C,"Gald a night.
+Would you like to stay?"
+09029.pak0,0xFE089," Yes 
+ No "
+09029.pak0,0xFE194,"Found {16}{25}{BE}{C0}, but
+your inventory is full."
+09030.pak0,0x101245,"Gald a night.
+Would you like to stay?"
+09030.pak0,0x101292," Yes 
+ No "
+09030.pak0,0x10139D,"Found {16}{25}{BE}{C0}, but
+your inventory is full."
+09030.pak0,0x101427,Crimson Speranza
+09030.pak0,0x10143C,Twilight Realta
+09030.pak0,0x10146A,Sea Cave
+09031.pak0,0xD8642,"Gald a night.
+Would you like to stay?"
+09031.pak0,0xD868F," Yes 
+ No "
+09031.pak0,0xD879A,"Found {16}{25}{BE}{C0}, but
+your inventory is full."
+09031.pak0,0xD8841,Er'ther
+09031.pak0,0xD884C,Er'ther
+09032.pak0,0xFFB42,"Gald a night.
+Would you like to stay?"
+09032.pak0,0xFFB8F," Yes 
+ No "
+09032.pak0,0xFFC9A,"Found {16}{25}{BE}{C0}, but
+your inventory is full."
+09032.pak0,0xFFD76,"W: Western Mine
+   (toward Neuestadt)
+N: Lien"
+09032.pak0,0xFFDAF,"W: Oberon Mine
+S: Neuestadt"
+09032.pak0,0xFFDD5,"W: Darilsheid
+E: Laguna Ruins"
+09032.pak0,0xFFE23,"N: Harmentz Valley
+S: Darilsheid"
+09032.pak0,0xFFE4D,"N: Heidelberg
+W: Er'ther Ruins"
+09032.pak0,0xFFE73,"W: Western Mine
+   (toward Neuestadt)
+S: Northern Mine"
+09032.pak0,0xFFECF,"N: Mine SW Exit
+W: toward Neuestadt
+E: toward Lien"
+09032.pak0,0xFFECF,"N: Mine SW Exit
+W: toward Neuestadt
+E: toward Lien"
+09032.pak0,0xFFF33,Laguna
+09032.pak0,0x100052,Northern Mine - N Exit
+09032.pak0,0x10006D,Northern Mine - S Exit
+09032.pak0,0x100088,Western Mine - NE Exit
+09032.pak0,0x1000A3,Western Mine - SE Exit
+09032.pak0,0x1000BE,Western Mine - SW Exit
+09032.pak0,0x1000D9,Western Mine - NW Exit
+09032.pak0,0x1000F4,Southern Mine - NW Exit
+09032.pak0,0x10010F,Southern Mine - S Exit
+09032.pak0,0x10012A,Southern Mine - NE Exit
+09032.pak0,0x10015B,Snowfria
+09032.pak0,0x1001BD,Egg of God
+09032.pak0,0x100203,Northern Mine - N Exit
+09032.pak0,0x10021E,Northern Mine - S Exit
+09032.pak0,0x100239,Southern Mine - NW Exit
+09032.pak0,0x100254,Southern Mine - S Exit
+09032.pak0,0x10026F,Southern Mine - NE Exit
+09032.pak0,0x10028A,Western Mine - NE Exit
+09032.pak0,0x1002A5,Western Mine - NW Exit
+09032.pak0,0x1002C0,Western Mine - SE Exit
+09032.pak0,0x1002DB,Western Mine - SW Exit
+09032.pak0,0x100301,"Clear!!
+"
+09032.pak0,0x100314,"Try again?<03:00000000>
+ Yes
+ No
+"
+09032.pak0,0x100365,"...What is a hero, anyway?
+I think about that a lot now."
+09032.pak0,0x1003A3,"A hero saves the world?
+Or helps everyone?"
+09032.pak0,0x1003D7,"Eighteen years ago, Dad
+did save the world."
+09032.pak0,0x100409,"...But I'm sure the world isn't
+peaceful and beautiful now
+just because of heroes."
+09032.pak0,0x10048D,"Somewhere, something...
+Someone..."
+09032.pak0,0x10050B,"All Clear!!
+"
+09032.pak0,0x100520," got
+the title ""<item:0000086E>""
+"
+09032.pak0,0x100548," Retry
+ Quit
+ Cancel
+"
+09032.pak0,0x1005B7," Retry
+ Quit
+ Cancel
+"

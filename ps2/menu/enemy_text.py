@@ -83,6 +83,13 @@ def name_translations():
                 names[name] = names[japanese]
     return names
 
+# Earlier English of enemy_translations.csv rows.  A pack patched by an
+# older release holds one of these in the slot, and the build replaces it
+# like the Japanese.
+FORMER_TRANSLATIONS = {
+    '「リザレクション・・？退屈な奴らだ」': ('Resurrection...? How tiresome.',),
+}
+
 # Battle literals found only in alternate ENd members, so they have no
 # canonical member-1 row in enemy_translations.csv.  English is constrained
 # to the encoded Japanese byte length at each occurrence.
@@ -641,6 +648,8 @@ def cmd_build(args):
             elif cur[0].strip() == r['english']:
                 skipped += 1
                 continue
+            elif cur[0].strip() in FORMER_TRANSLATIONS.get(r['japanese'], ()):
+                pass
             else:
                 print('  %s %s: file has %r, table expects %r' % (name, r['offset'], cur[0], r['japanese']))
                 errors += 1

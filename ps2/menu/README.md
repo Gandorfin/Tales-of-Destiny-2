@@ -91,14 +91,31 @@ for them.
 
 ### The shop's sell prompt ("iH☆")
 
-Selling an item showed `iH☆` instead of the confirmation. The shop module
-`06803.md1` reaches that prompt by walking the NUL-separated strings of its
-record from `0x89E8` (`  購入`, `  売却`, a format string, a stray `iH*`,
-then the prompt). English `  Buy` is one byte shorter than `  購入`, which
-adds one empty string to the walk, so the game stopped one string early on
-the stray `iH*`. The fix is the trailing space in `"  Buy "`; every string
-in that record must keep the Japanese byte length. `test_shop_prompt.py`
-guards it.
+Selling an item showed `iH☆` instead of the confirmation. The cause is a
+mistake in the 2008 menu patch, which appended an English string table to
+the shop module `06803.md1` and pointed the module's string pointers at it.
+For the sell confirmation it wrote the new address (`0x2A4869`, the appended
+`Sell?` prompt) to the wrong place: over the first four bytes of the Japanese
+prompt at `0x8A18` instead of into the pointer at `0x87A8`. That pointer
+still leads to `0x8A18`, and the bytes `69 48 2A 00` of the stray address
+read as the text `iH*` plus a terminator. `shop_prompt.py`, which
+`patch_menu_text.py` runs on the shop module, writes the address into the
+pointer, so selling asks `Sell?` the way buying asks `Buy?`. The records at
+`0x89E8`, `0x89F0`, `0x8A1C` and `0x8A48` of the table are not reached by
+the game in this module (their pointers lead to the appended table); an
+earlier note here blamed the byte length of `  Buy` for the prompt, which
+was wrong. `test_shop_prompt.py` guards the pointer repair.
+
+### World map labels that do not fit their slot
+
+A map label is one string in the map script's string storage, referenced by
+an `F8` instruction with a 16-bit offset. Two English names are longer than
+the Japanese slot: `Laguna Ruins` (both map files) and `Atamoni Ovum`
+(`09032.pak0`, a ten-byte slot). `world_map_labels.py` writes each into zero
+padding that follows another string of the same script and points the
+instruction at it; the file size does not change. The padding only exists
+once the string in front of it is English, which `patch_menu_text.py` sees
+to before it relocates anything.
 
 `title_credit.py` is the title screen: the two copyright lines under the
 menu are a 384x32 texture in `00021.pak3`, not text. The tool redraws the
@@ -182,9 +199,20 @@ never touched and Pack FPB is unaffected.
 
 ## Safety
 
-* Every record is checked before anything is written: it must hold either
-  the original Japanese or the final English. If any record in a file is
-  something else, that whole file is left untouched rather than half-patched.
+* Every record is checked before anything is written: it must hold the
+  original Japanese, the final English, or an English wording an earlier
+  release wrote there. If any record in a file is something else, that whole
+  file is left untouched rather than half-patched, and the run ends with a
+  `NOT PATCHED` block that names it. **A file in that block keeps its old
+  text in the game**, so do not build an ISO until the block is gone.
+* The earlier wordings are in `menu_former_translations.csv`. They matter
+  for a working `FPB` folder that is kept from one release to the next: its
+  files hold the English of the older release, and without that table a
+  single reworded record froze the whole file (the shop, the battle module
+  and both world maps stayed at their 1.1.9 text that way). **After changing
+  the English column of `menu_translations.csv`, run
+  `python ps2/menu/update_former_translations.py` and commit the result**; it
+  rebuilds the table from the history of the file.
 * Re-running is safe. Records that are already English are counted as
   current and skipped, so running again after a new version of the table
   only fills the gaps. The title patcher likewise reports an already patched
@@ -238,6 +266,45 @@ for the terminator.** Japanese costs 2 bytes per character and English 1, so
 most translations fit in place. Titles are the exception: they are packed into
 contiguous arenas, so `patch_slps_titles.py` repacks a whole arena and rewrites
 the pointers, spilling into the spare string pool only when an arena fills up.
+
+## The executable's spare string pool is not spare
+
+Text that does not fit where the Japanese was goes into a run of zeros in
+`SLPS_251.72`, `0xFAB10..0xFC530`. Those zeros are the work area of the
+game's CD/DVD library (the bytes between the `PsIIlibcdvd` and
+`PsIIlibkernl` markers). The game calls two functions of that library,
+`sceCdInit` and `sceCdMmode`, both while it boots, and they write here:
+
+| File offset | Bytes | Written by |
+|---|---|---|
+| `0xFAB10` | 4 | init counter, incremented by every `sceCdInit` |
+| `0xFBCC0` | 16 | reply buffer of the init and media mode commands |
+| `0xFC100` | 4 | parameter buffer of the media mode command |
+| `0xFC508` | 40 | RPC client record of the command channel |
+
+A string on one of these ranges is fine in the file and damaged in memory.
+That is why Kyle's arte Kyoueisou could read "Lyoueisou", why the Battle
+Rank after Normal and the item Pickaxe drew as nothing, and why the title
+Ferry to Cherik and one cooking message were cut short. The rest of the
+area is only touched by library functions the game never calls, which is
+why pooled text works at all.
+
+`patch_slps_titles.py` keeps the list (`LIVE`), places nothing at or above
+`0xFC508`, and as its fourth step moves any pooled string that touches a
+range, with its pointers, and zeroes the bytes it leaves. The manifest
+strings that sat on a range have a `former_pool_offset` and now live in a
+second pool: the zero run `0x115E54..0x115F60` after the destination list
+in `.rodata`, which the game cannot write to. The only references into that
+run come from a debug list of battle backgrounds that the 2008 patch already
+broke. `test_slps_pool.py` checks that no manifest string is on a live
+range. Before adding text to the executable, check the table above.
+
+The manifest also restores the game's own file name. The 2008 patch wiped
+`SLPS_251.72` out of the string `cdrom0:\SLPS_251.72` at `0xFE698` (its arte
+text starts eight bytes too early). The game hands that string to
+`VENUS.ELF`, the Venus & Braves preview on the title menu, as the program to
+start when the preview ends; with only `cdrom0:\` left the console fell
+back to its browser screen.
 
 ## Not translated
 

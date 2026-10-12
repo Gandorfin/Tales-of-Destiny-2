@@ -1,11 +1,13 @@
 """Run: python3 -B -m unittest discover -s ps2/menu -p 'test_shop_prompt.py'
 
-Byte-length rules in menu_translations.csv that the game depends on."""
-import csv, os, sys, unittest
+The shop's sell confirmation, and the byte-length rule of the arte
+extension banners in menu_translations.csv."""
+import csv, os, struct, sys, unittest
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 import md1patch as P
+import shop_prompt as S
 
 CSV = os.path.join(HERE, "menu_translations.csv")
 
@@ -16,17 +18,39 @@ def rows(file_name):
 
 
 class ShopSellPrompt(unittest.TestCase):
-    """06803.md1 reaches the sell confirmation by walking the NUL-separated
-    strings of the record at 0x89E8, so every string before the prompt must
-    keep the byte length of the Japanese (a shorter one adds an empty string
-    to the walk and the game lands on the stray "iH*" instead)."""
+    """The sell confirmation of 06803.md1 showed "iH*": the 2008 patch wrote
+    the address of its English prompt over the start of the Japanese prompt
+    instead of into the pointer. shop_prompt.apply makes the pointer follow."""
 
-    def test_record_strings_keep_their_length(self):
-        r = rows("06803.md1")
-        for off in (0x89E8, 0x89F0):
-            self.assertIn(off, r)
-            jp, en = P.encode(r[off]["japanese"]), P.encode(r[off]["english"])
-            self.assertEqual(len(en), len(jp), "0x%X %r" % (off, r[off]["english"]))
+    def module(self):
+        d = bytearray(S.PROMPT + len(S.TEXT) + 16)
+        struct.pack_into("<L", d, S.POINTER, S.BASE + S.STRAY)
+        struct.pack_into("<L", d, S.STRAY, S.BASE + S.PROMPT)
+        d[S.PROMPT:S.PROMPT + len(S.TEXT)] = S.TEXT
+        return d
+
+    def test_the_stray_address_reads_as_the_text_the_game_showed(self):
+        self.assertEqual(bytes(self.module()[S.STRAY:S.STRAY + 4]), b"iH*\0")
+
+    def test_pointer_is_repaired_once(self):
+        d = self.module()
+        before = bytes(d)
+        self.assertEqual(S.apply(d), (1, 0))
+        self.assertEqual(struct.unpack_from("<L", d, S.POINTER)[0], S.BASE + S.PROMPT)
+        self.assertEqual([i for i in range(len(d)) if d[i] != before[i]],
+                         list(range(S.POINTER, S.POINTER + 2)))     # 0x4518 -> 0x4869
+        after = bytes(d)
+        self.assertEqual(S.apply(d), (0, 1))
+        self.assertEqual(bytes(d), after)
+
+    def test_unknown_layouts_are_refused_untouched(self):
+        for at in (S.POINTER, S.STRAY, S.PROMPT + 2):
+            d = self.module()
+            d[at] ^= 0x40
+            before = bytes(d)
+            with self.assertRaises(ValueError):
+                S.apply(d)
+            self.assertEqual(bytes(d), before)
 
 
 class ArteExtensionBanners(unittest.TestCase):

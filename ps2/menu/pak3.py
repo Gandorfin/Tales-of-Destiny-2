@@ -47,16 +47,35 @@ def load_table(csv_path):
     return groups
 
 
-def identify(module_bytes, groups):
+def load_formers(csv_path=None):
+    """menu_former_translations.csv -> {(file, offset): {earlier English, ...}}
+
+    The earlier wordings of the records (update_former_translations.py
+    collects them from the history of the table). A file patched by an
+    older release holds one of these, and it is as valid a starting point
+    as the Japanese."""
+    csv_path = csv_path or os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                                        "menu_former_translations.csv")
+    formers = {}
+    if os.path.exists(csv_path):
+        with open(csv_path, encoding="utf-8", newline="") as f:
+            for r in csv.DictReader(f):
+                formers.setdefault((r["file"], int(r["offset"], 16)), set()).add(r["english"])
+    return formers
+
+
+def identify(module_bytes, groups, formers=None):
     """Which translation table file does this decompressed member belong to?
-    A module matches when every record reads as its Japanese or its English."""
+    A module matches when every record reads as its Japanese, its English
+    or an earlier English wording."""
+    formers = formers or {}
     for name, recs in groups.items():
         if not recs:
             continue
         ok = 0
         for off, jp, en in recs:
             r = M.decode_at(module_bytes, off)
-            if r and r[0] in (jp, en):
+            if r and (r[0] in (jp, en) or r[0] in formers.get((name, off), ())):
                 ok += 1
             else:
                 break
@@ -79,8 +98,10 @@ def classify(module_bytes, recs):
     return tuple(c)
 
 
-def apply_records(module_bytes, recs):
-    """Patch in place. -> (new_bytes, patched, already, errors)"""
+def apply_records(module_bytes, recs, former=None):
+    """Patch in place. -> (new_bytes, patched, already, errors)
+    former: {offset: {earlier English, ...}} accepted like the Japanese."""
+    former = former or {}
     d = bytearray(module_bytes)
     pending = []
     done = 0
@@ -92,7 +113,7 @@ def apply_records(module_bytes, recs):
         got, end, _ = r
         if got == en:
             done += 1; continue
-        if got != jp:
+        if got != jp and got not in former.get(off, ()):
             errs.append("0x%X expected %s found %s" % (off, ascii(jp[:16]), ascii(got[:16]))); continue
         avail = P.budget(module_bytes, off, end - off)
         enc = P.encode(en)
