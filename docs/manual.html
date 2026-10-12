@@ -1,0 +1,1211 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tales of Destiny 2 Manual in English | Green Gel ToD2 Patch</title>
+  <meta name="description" content="English translation of the Tales of Destiny 2 (PS2) instruction manual, using the terminology of the Green Gel ToD2 patch.">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .toc { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 1rem 1.2rem; }
+    .toc ol { margin: 0; padding-left: 1.3rem; columns: 2; column-gap: 2rem; }
+    .toc li { break-inside: avoid; }
+    h3 { font-size: 1.1rem; margin: 1.6rem 0 0.4rem; color: var(--accent); }
+    h4 { font-size: 1rem; margin: 1.1rem 0 0.3rem; }
+    .pages { color: var(--muted); font-size: 0.85rem; font-weight: 400; margin-left: 0.5rem; }
+    figure { margin: 0.8rem 0; }
+    figure img, .shot { max-width: 100%; height: auto; border: 1px solid var(--line); border-radius: 4px; display: block; }
+    figcaption { color: var(--muted); font-size: 0.88rem; margin-top: 0.3rem; }
+    .row { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 0.8rem; align-items: start; }
+    .side { display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: 1.2rem; align-items: start; }
+    .side figure { margin: 0.2rem 0; }
+    table { width: 100%; border-collapse: collapse; margin: 0.6rem 0 1rem; font-size: 0.95rem; }
+    th, td { border: 1px solid var(--line); padding: 0.4rem 0.6rem; text-align: left; vertical-align: top; }
+    th { background: var(--panel); white-space: nowrap; }
+    td.k { white-space: nowrap; font-weight: 600; }
+    td.ic { width: 56px; padding: 0.2rem; }
+    td.ic img { width: 48px; height: auto; display: block; border: 0; }
+    .note { background: var(--panel); border-left: 3px solid var(--accent); border-radius: 4px; padding: 0.7rem 1rem; margin: 1rem 0; }
+    .note h4 { margin-top: 0; }
+    .chars { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1rem; }
+    .char { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 1rem; display: grid; grid-template-columns: 130px minmax(0, 1fr); gap: 1rem; }
+    .char img { width: 130px; height: auto; border: 0; border-radius: 4px; background: #fff; }
+    .char h3 { margin: 0 0 0.2rem; }
+    .char .stats { color: var(--muted); font-size: 0.9rem; margin: 0 0 0.5rem; }
+    .cover { text-align: center; }
+    .cover img { max-width: 360px; width: 100%; margin: 0 auto; }
+    .btn { white-space: nowrap; }
+    @media (max-width: 720px) {
+      .side { grid-template-columns: 1fr; }
+      .toc ol { columns: 1; }
+      .char { grid-template-columns: 100px minmax(0, 1fr); }
+      .char img { width: 100px; }
+    }
+    @media print {
+      body { background: #fff; color: #000; font-size: 11pt; }
+      header .buttons, .toc, footer { display: none; }
+      header { background: #fff; border-color: #999; padding: 1rem 0; }
+      header img { width: 260px; }
+      header p.tagline { color: #444; margin-bottom: 0; }
+      .cover img { max-width: 300px; }
+      .side { grid-template-columns: minmax(0, 1fr) 240px; }
+      a { color: #000; text-decoration: none; }
+      h2 { break-after: avoid; border-color: #999; }
+      h3 { color: #000; break-after: avoid; }
+      figure, table, .note, .char { break-inside: avoid; }
+      th, .note, .char, .toc { background: #f2f2f2; border-color: #999; }
+      td, th, figure img { border-color: #999; }
+      figcaption, .pages, .char .stats { color: #444; }
+      main { max-width: none; padding: 0; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="TOD2_logo.png" alt="Tales of Destiny 2">
+    <h1>Instruction Manual (English)</h1>
+    <p class="tagline">Fan translation of the Japanese PlayStation 2 manual, worded to match the Green Gel ToD2 patch.</p>
+    <div class="buttons">
+      <a class="button" href="index.html">Back to the patch page</a>
+      <a class="button primary" href="https://github.com/Gandorfin/Tales-of-Destiny-2/releases">Download the latest patch</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="cover">
+      <figure><img src="manual/cover.jpg" alt="Front cover of the Tales of Destiny 2 manual" width="720"></figure>
+    </section>
+
+    <section>
+      <div class="note">
+        <h4>About this translation</h4>
+        <p>This page follows the printed manual section by section. The numbers next to each heading are the page numbers of the original booklet. Menu names, item names and tactics names are written the way the English patch shows them in game.</p>
+        <p>The game uses the Japanese button layout: <span class="btn">○ (Circle)</span> confirms and <span class="btn">× (Cross)</span> cancels.</p>
+      </div>
+      <div class="toc">
+        <ol>
+          <li><a href="#setup">Before you play</a></li>
+          <li><a href="#story">The world of Tales of Destiny 2: Story</a></li>
+          <li><a href="#system">The world of Tales of Destiny 2: System</a></li>
+          <li><a href="#start">Starting the game</a></li>
+          <li><a href="#screens">The game screens</a></li>
+          <li><a href="#controls">Basic controls</a></li>
+          <li><a href="#field">3D field map</a></li>
+          <li><a href="#map">Normal map: towns and dungeons</a></li>
+          <li><a href="#menu">Menu screen and Active Level Graph</a></li>
+          <li><a href="#artes">Artes</a></li>
+          <li><a href="#enchant">Enchant</a></li>
+          <li><a href="#tactics">Tactics</a></li>
+          <li><a href="#cooking">Cooking</a></li>
+          <li><a href="#custom">Custom</a></li>
+          <li><a href="#items">Items</a></li>
+          <li><a href="#equip">Equip</a></li>
+          <li><a href="#refine">Refine, Save, Status</a></li>
+          <li><a href="#battle">Battle screen</a></li>
+          <li><a href="#inbattle">Controls in battle</a></li>
+          <li><a href="#characters">Characters</a></li>
+          <li><a href="#handling">Handling notes</a></li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="setup">
+      <h2>Before you play</h2>
+      <p>Up to four people can play at the same time, but only during battles. Playing with others needs the following setup.</p>
+      <div class="row">
+        <figure><img src="manual/setup-2p.jpg" alt="Two controllers connected to the console"><figcaption>Two players</figcaption></figure>
+        <figure><img src="manual/setup-multitap.jpg" alt="Controllers connected through a multitap"><figcaption>Three or four players</figcaption></figure>
+      </div>
+      <h3>Two players</h3>
+      <p>You need two controllers. Connect one to each controller port.</p>
+      <h3>Three or more players</h3>
+      <p>You need a PlayStation 2 multitap (sold separately) and one controller per player. Always connect the multitap to controller port 2 of the console and plug the extra controllers into the multitap. Use multitap ports A, B and C in that order, according to the number of players. Port D cannot be used, and the multitap cannot be connected to controller port 1.</p>
+      <figure><img src="manual/worldmap.jpg" alt="Map of the world with the Tales of Destiny 2 logo"></figure>
+    </section>
+
+    <section id="story">
+      <h2>The world of Tales of Destiny 2: Story <span class="pages">pages 2 and 3</span></h2>
+      <h3>History of the planet</h3>
+      <p>More than a thousand years ago, a comet with a strange energy signature struck the planet and brought on an age of long winter.</p>
+      <p>Longing for sunlight, people developed an energy source called the Lens from the matter the comet left behind, and used it to build Dycroft, a city in the sky. What came of it was the rule of the Aeth'er, who lived in Dycroft, over the Er'ther on the ground. The Aeth'er tightened their grip with Belcrant, a weapon that struck the surface from above, but the Er'ther rose up as one and the Aeth'er Wars began.</p>
+      <p>The team that built Belcrant rejected the Aeth'er way of thinking and defected to the surface. There they created the Swordians, the ultimate weapon and the sum of all Lens technology, to stand against the cities in the sky. Thanks to the Swordians, swords with minds of their own, and the people who wielded them, every aerial city fell and sank to the bottom of the sea.</p>
+      <p>With the long passing of time all of this became ancient history. But the Swordians, who had put themselves into a long sleep after the war, were steadily drawing closer to the hour of their awakening.</p>
+      <h3>New heroes</h3>
+      <p>Stahn Aileron, a boy who ran away from home in search of thrilling adventure and fame, met Dymlos, a Swordian, a sword with a mind. In that moment fate began to move.</p>
+      <p>A struggle broke out over a giant Lens called the Eye of Atamoni. Kronos, risen again from the distant past, meant to conquer the world with ancient technology. As one crisis after another struck the world, Stahn met Rutee, Philia, Woodrow, Leon and the other Swordian wielders, fought alongside them, and saved the world.</p>
+      <h3>And eighteen years later</h3>
+      <p><strong>A journey to become a hero. A journey to find a hero.</strong></p>
+      <p>Before anyone noticed, the memory of those heroes had begun to fade from people's hearts. The one everybody is devoted to now is Elraine, the Holy Woman, who promises to bring happiness to all people right away.</p>
+      <p>In such times, in the small town of Cresta in the Kingdom of Seinegald, lived a boy named Kyle. With the hero Stahn for a father, he admired heroes more than anyone and spent his days longing for adventure.</p>
+      <p>Then a girl named Reala appears before him without warning, and meeting her leads Kyle into the adventure of his destiny.</p>
+      <p>Past, present and future. A grand tale that crosses time and draws in even the heroes of old is about to begin.</p>
+    </section>
+
+    <section id="system">
+      <h2>The world of Tales of Destiny 2: System <span class="pages">pages 4 and 5</span></h2>
+      <figure><img src="manual/system-banner.jpg" alt="Kyle standing in a cave full of lights"></figure>
+      <p>The Tales series are role playing games that tell a grand story through systems all their own. This time those systems are freer, easier to use and more fun. Here are the main points.</p>
+      <h3>Customize everything</h3>
+      <h4>1. Enchants add extra effects that upgrade your Skills and Spells</h4>
+      <p>Enchant lets you attach additional effects to Skills and Spells. They trigger all kinds of effects when you use that Skill or Spell in battle, and you are the one who picks them. Tune your Skills and Spells to your own taste.</p>
+      <h4>2. Refine combines items, from tools to weapons and armor</h4>
+      <p>The Rune Bottle, the item familiar from the Tales series for transforming items, is now the catalyst for fusing two items into one. Some valuable equipment can only be obtained this way, so try all sorts of combinations.</p>
+      <h4>3. Cooking recipes are now unlimited?!</h4>
+      <p>Cooking has become a fixture of the series. Besides cooking from recipes you are taught, you can now choose the ingredients yourself and create original dishes.</p>
+      <h3>A battle system with real strategy</h3>
+      <h4>1. The new TT-LMB (Trust and Tactical Linear Motion Battle) allows finer battle orders</h4>
+      <p>The system rests on trust and tactics. Give each character a role such as attacking or healing when you set the tactics, and battles go your way. Trust your companions' strength and build a careful strategy.</p>
+      <h4>2. Spirits, a character's mental strength, largely decide victory and defeat</h4>
+      <p>The Spirits gauge shows a character's mental strength and concentration. When it drops, accuracy and evasion fall with it. Keeping your own Spirits up while wearing down the enemy's is what settles a fight.</p>
+      <h4>3. Chains are more fun and easier</h4>
+      <p>The combo system, one of the pleasures of the series, has evolved. Attacks come in four broad kinds: normal attacks, Skills, Arcane Artes and Spells. Attack in that order and they link together easily, and Enchants make even longer chains possible.</p>
+      <h4>4. Four player battles are recommended</h4>
+      <p>With a PlayStation 2 multitap, up to four people can fight at once. The camera moves to keep both the controlled characters and the targeted enemy on screen, so you never lose sight of your own character.</p>
+    </section>
+
+    <section id="start">
+      <h2>Starting the game <span class="pages">pages 6 and 7</span></h2>
+      <h3>Title screen</h3>
+      <div class="side">
+        <div>
+          <p>After the opening animation, the title appears with the options NEW GAME, CONTINUE, CUSTOM and PREVIEW. Choose with the directional buttons or the left stick and confirm with ○. Press START to skip the opening animation.</p>
+          <table>
+            <tr><td class="k">NEW GAME</td><td>Start the game from the beginning.</td></tr>
+            <tr><td class="k">CONTINUE</td><td>If a memory card (8MB) for PlayStation 2 holds save data, you can pick up where you left off. Choose CONTINUE, then the save you want to load. To start from suspend data, choose Resume. The game only uses MEMORY CARD slot 1.</td></tr>
+            <tr><td class="k">CUSTOM</td><td>Settings such as message speed and battle difficulty. The same settings are under Custom in the in game menu (see <a href="#custom">Custom</a>).</td></tr>
+            <tr><td class="k">PREVIEW</td><td>Movies of upcoming Namco games.</td></tr>
+          </table>
+        </div>
+        <div>
+          <figure><img src="manual/title-screen.jpg" alt="Title screen"></figure>
+          <figure><img src="manual/continue.jpg" alt="Load screen"><figcaption>CONTINUE</figcaption></figure>
+          <figure><img src="manual/custom-title.jpg" alt="Custom screen opened from the title screen"><figcaption>CUSTOM</figcaption></figure>
+        </div>
+      </div>
+      <h3>Naming characters</h3>
+      <div class="side">
+        <p>You can rename the heroes at any time from Status in the menu. Put the cursor on a character's name and confirm to open the name entry screen. Hiragana, katakana and ABC (alphabet) are available. Switch between them on screen or with L1 and R1. Enter a character with ○ and delete one with □. When you are done, choose the confirm option and press ○. Default restores the original name and Clear erases what you typed.</p>
+        <figure><img src="manual/name-entry.jpg" alt="Name entry screen"></figure>
+      </div>
+      <h3>Saving</h3>
+      <div class="side">
+        <div>
+          <p>Save your progress from Save in the menu. On the 3D field map you can save anywhere. On normal maps (towns and dungeons) you can only save while standing on a memory circle.</p>
+          <p>Saving needs a PlayStation 2 memory card (8MB) with at least 61KB free, inserted in MEMORY CARD slot 1. Pick the file to save to. You can keep up to 99 files. Overwriting a file erases the data that was there.</p>
+          <p>Where saving is not possible, the Suspend option inside Save lets you interrupt the game. Suspending needs 287KB of free space and returns you to the title screen. To carry on, choose CONTINUE on the title screen and then Resume. Suspend data is deleted as soon as it has been loaded once.</p>
+        </div>
+        <figure><img src="manual/save.jpg" alt="Save screen"></figure>
+      </div>
+      <div class="note">
+        <div class="side">
+          <div>
+            <h4>Memory circles</h4>
+            <p>You cannot save just anywhere. Saving is basically limited to the 3D field map, but in dungeons and other normal maps you can save while standing on a memory circle.</p>
+          </div>
+          <figure><img src="manual/memory-circle.jpg" alt="Kyle standing on a memory circle"></figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="screens">
+      <h2>The game screens <span class="pages">pages 8 and 9</span></h2>
+      <p>The game has four kinds of screen.</p>
+      <div class="row">
+        <figure><img src="manual/screen-field.jpg" alt="3D field map"><figcaption>3D field map</figcaption></figure>
+        <figure><img src="manual/screen-town.jpg" alt="Town"><figcaption>Normal map: town</figcaption></figure>
+        <figure><img src="manual/screen-dungeon.jpg" alt="Dungeon"><figcaption>Normal map: dungeon</figcaption></figure>
+        <figure><img src="manual/screen-menu.jpg" alt="Menu screen"><figcaption>Menu screen</figcaption></figure>
+        <figure><img src="manual/screen-battle.jpg" alt="Battle screen"><figcaption>Battle screen</figcaption></figure>
+      </div>
+      <h3>3D field map</h3>
+      <p>Here you move your character from town to town and search for the next destination. Vehicles you obtain during the adventure are also controlled on this screen. Monsters live here, so battles can break out while you travel.</p>
+      <h3>Normal map</h3>
+      <p>Entering one of the towns or dungeons dotted around the 3D field map brings up this screen. Most of the story unfolds here, with all kinds of events along the way. Talk to people in town to gather information, take on a new dungeon, and return to town to rest when the fighting has worn you out.</p>
+      <p><strong>Towns</strong> have shops that sell items, inns and more. Press ○ to talk to people or to examine things. Try it in all sorts of places.</p>
+      <p><strong>Dungeons</strong> are full of contraptions. Look for hints, try whatever actions are possible, and use special items to solve the puzzles and press on.</p>
+      <h3>Menu screen</h3>
+      <p>Press △ on the 3D field map or a normal map to open it. Check your characters' condition, use tools and Spells, and change settings here.</p>
+      <h3>Battle screen</h3>
+      <p>Shown when you run into enemies on the 3D field map or in a dungeon, or when an event pits you against one. Defeating enemies earns experience, and the heroes level up and grow stronger.</p>
+      <h3>How the screens connect</h3>
+      <p>The game moves back and forth between these screens. The menu can be opened anywhere except during battle, and battles take place on the 3D field map and inside dungeons.</p>
+      <div class="note">
+        <div class="side">
+          <div>
+            <h4>Key help</h4>
+            <p>If you leave the menu screen idle for a moment, key help appears. Put the cursor on an entry and it shows the controls that apply there. Press SELECT to show or hide it.</p>
+          </div>
+          <figure><img src="manual/key-help.jpg" alt="Key help window"></figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="controls">
+      <h2>Basic controls <span class="pages">pages 10 and 11</span></h2>
+      <div class="side">
+        <div>
+          <p>The controls differ from screen to screen. On the menu screen, the key help is a useful reference too. The buttons used in battle can be changed under Custom.</p>
+          <p>The ANALOG mode switch is always on (LED lit red) and cannot be turned off. Vibration can be switched on or off under Custom. The R3 button is pressed by pushing the right stick in. The game requires an analog controller. A DUALSHOCK works the same way as a DUALSHOCK 2.</p>
+        </div>
+        <figure><img src="manual/controller.jpg" alt="DUALSHOCK 2 analog controller"><figcaption>Analog controller (DUALSHOCK 2)</figcaption></figure>
+      </div>
+      <h3>3D field map</h3>
+      <table>
+        <tr><td class="k">Directional buttons / left stick</td><td>Move the character, select entries</td></tr>
+        <tr><td class="k">○</td><td>Confirm</td></tr>
+        <tr><td class="k">×</td><td>Cancel</td></tr>
+        <tr><td class="k">△</td><td>Open the menu screen</td></tr>
+        <tr><td class="k">L1 / R1</td><td>Rotate the camera left and right</td></tr>
+        <tr><td class="k">L2</td><td>Use the Sorcerer's Scope (once you have it)</td></tr>
+        <tr><td class="k">R3 (press the right stick)</td><td>Show the World Map (once you have it)</td></tr>
+        <tr><td class="k">Right stick</td><td>Analog camera control: rotate left and right, tilt up and down</td></tr>
+        <tr><td class="k">START</td><td>Show or hide the navigation map and compass</td></tr>
+        <tr><td class="k">SELECT</td><td>Start a Screen Chat</td></tr>
+      </table>
+      <h3>Normal map</h3>
+      <table>
+        <tr><td class="k">Directional buttons / left stick</td><td>Move the character, move the cursor, select entries</td></tr>
+        <tr><td class="k">○</td><td>Confirm, talk, examine</td></tr>
+        <tr><td class="k">×</td><td>Cancel. Held with a direction: walk or run</td></tr>
+        <tr><td class="k">△</td><td>Open the menu screen</td></tr>
+        <tr><td class="k">L1 / R1</td><td>Turn on the spot</td></tr>
+        <tr><td class="k">L2</td><td>Use the Sorcerer's Scope (once you have it)</td></tr>
+        <tr><td class="k">R2</td><td>Use the Sorcerer's Ring (once you have it)</td></tr>
+        <tr><td class="k">R3 (press the right stick)</td><td>Show the World Map (once you have it)</td></tr>
+        <tr><td class="k">SELECT</td><td>Start a Screen Chat</td></tr>
+      </table>
+      <h3>Menu screen</h3>
+      <table>
+        <tr><td class="k">Directional buttons / left stick</td><td>Move the cursor, select entries</td></tr>
+        <tr><td class="k">○</td><td>Confirm</td></tr>
+        <tr><td class="k">×</td><td>Cancel</td></tr>
+        <tr><td class="k">△</td><td>Rearrange menu entries, rearrange characters</td></tr>
+        <tr><td class="k">□</td><td>Switch the Active Level Graph</td></tr>
+        <tr><td class="k">SELECT</td><td>Show or hide key help</td></tr>
+      </table>
+      <h3>Battle screen</h3>
+      <table>
+        <tr><td class="k">Directional buttons / left stick</td><td>Move the character, move the cursor, select commands</td></tr>
+        <tr><td class="k">○</td><td>Normal attack (alone or with a direction)</td></tr>
+        <tr><td class="k">×</td><td>Use a Skill or Spell (alone or with a direction)</td></tr>
+        <tr><td class="k">△</td><td>Open the battle menu</td></tr>
+        <tr><td class="k">□</td><td>Guard</td></tr>
+        <tr><td class="k">L1</td><td>Switch TACTICS (three orders)</td></tr>
+        <tr><td class="k">R1</td><td>Change the enemy target (also shows the enemy's status)</td></tr>
+        <tr><td class="k">L2 / R2</td><td>Skill and Spell shortcuts (when set under Artes in the menu)</td></tr>
+        <tr><td class="k">START</td><td>Pause</td></tr>
+        <tr><td class="k">SELECT</td><td>Switch battle mode (Auto / Semi-Auto / Manual)</td></tr>
+      </table>
+      <div class="note"><p><strong>Note:</strong> with a PlayStation 2 multitap, up to four people can each control a character in battle. This manual explains the controls for a single player.</p></div>
+    </section>
+
+    <section id="field">
+      <h2>3D field map <span class="pages">pages 12 and 13</span></h2>
+      <p>You travel between towns and dungeons on the 3D field map.</p>
+      <h3>Reading the screen</h3>
+      <div class="side">
+        <div>
+          <p>Move with the directional buttons or the left stick. L1, R1 and the right stick let you move the camera freely. R3 shows the World Map, and START shows or hides the compass and the navigation map.</p>
+          <table>
+            <tr><td class="k">Compass</td><td>Shows east, west, south and north (E W S N). The red arrow points toward your current destination.</td></tr>
+            <tr><td class="k">Navigation map</td><td>A map of the surroundings with your position and the direction the character and camera are facing. White dots are towns, red dots are dungeons, and the yellow circle is your current destination.</td></tr>
+            <tr><td class="k">Altitude meter</td><td>Shows how high the party is. The meter turns red as altitude increases.</td></tr>
+          </table>
+        </div>
+        <figure><img src="manual/field-hud.jpg" alt="3D field map with compass, navigation map and altitude meter"></figure>
+      </div>
+      <h3>World Map</h3>
+      <div class="side">
+        <div>
+          <p>Once you obtain the World Map item you can view a map of the whole world. Besides your position it lists the towns and dungeons you have visited, and lets you check the shops there and what they sell. Press R3 to open it and × to return to the 3D field map. It can be opened on normal maps too.</p>
+          <p>Press ○ on an entry in the list of towns and dungeons to see the goods carried by the shops at that location. Only shops you have visited show their stock.</p>
+        </div>
+        <figure><img src="manual/worldmap-screen.jpg" alt="World Map screen with the list of places and shops"></figure>
+      </div>
+      <h3>Towns and dungeons</h3>
+      <div class="side">
+        <p>There are many towns and dungeons on the 3D field map. Go near one and its name appears together with ○ Enter and × Cancel. Press ○ to go in. When you try to leave a town or dungeon, a prompt to leave appears. Press ○ again to step out onto the 3D field map.</p>
+        <figure><img src="manual/town-enter.jpg" alt="Prompt for entering a town"></figure>
+      </div>
+      <h3>Screen Chat</h3>
+      <div class="side">
+        <p>On the 3D field map and on normal maps you can listen to the characters talk among themselves. Press SELECT to start a Screen Chat. They range from idle chatter to conversations with important hints. Subtitles can be switched on or off under Custom.</p>
+        <figure><img src="manual/screen-chat.jpg" alt="Screen Chat with Kyle"></figure>
+      </div>
+      <div class="note">
+        <div class="side">
+          <div>
+            <h4>The airship Ixifoslar</h4>
+            <p>As the adventure moves on, an airship called the Ixifoslar appears, and getting it widens the area you can reach. The airship flies over the 3D field map. It cannot land on special terrain such as sea or mountains, or when it is flying too high.</p>
+          </div>
+          <figure><img src="manual/airship.jpg" alt="The airship flying over the field"></figure>
+        </div>
+        <table>
+          <tr><th colspan="2">Boarding and leaving</th></tr>
+          <tr><td class="k">Board</td><td>Go up to the airship and press ○</td></tr>
+          <tr><td class="k">Get off</td><td>Descend a little, then press ×</td></tr>
+          <tr><th colspan="2">In flight</th></tr>
+          <tr><td class="k">Directional buttons / left stick</td><td>Up and down: climb and descend. Left and right: turn</td></tr>
+          <tr><td class="k">○</td><td>Forward</td></tr>
+          <tr><td class="k">□</td><td>Backward</td></tr>
+          <tr><td class="k">L1 / R1</td><td>Turn (same as the directional buttons and left stick)</td></tr>
+          <tr><td class="k">Right stick</td><td>Analog turning and camera tilt</td></tr>
+        </table>
+      </div>
+    </section>
+
+    <section id="map">
+      <h2>Normal map: towns and dungeons <span class="pages">pages 14 to 17</span></h2>
+      <p>Entering a town or dungeon from the 3D field map switches to this screen. You move the adventure forward by using the facilities in town and taking all kinds of actions.</p>
+      <h3>Reading the screen</h3>
+      <div class="row">
+        <figure><img src="manual/map-town.jpg" alt="A town"><figcaption>Town</figcaption></figure>
+        <figure><img src="manual/map-chest.jpg" alt="A dungeon with a treasure chest"><figcaption>Dungeon</figcaption></figure>
+      </div>
+      <p><strong>Character:</strong> Move Speed under Custom sets whether the directional buttons walk or run by default.</p>
+      <p><strong>Treasure chests:</strong> press ○ to take the item inside.</p>
+      <h3>Talking and examining</h3>
+      <div class="side">
+        <p>Face a person or an object and press ○ to talk or to examine it. Chests are opened the same way. Towns and dungeons hold information you need to progress. Talk to people often, examine anything that looks suspicious, and collect as much information as you can.</p>
+        <figure><img src="manual/map-talk.jpg" alt="Talking to a townsperson"></figure>
+      </div>
+      <h3>Moving objects</h3>
+      <div class="side">
+        <p>Some objects in towns and dungeons can be moved. Face one, hold ○ and press the directional buttons or the left stick. You can pull as well as push. If you get stuck in a dungeon, look around for something movable and try this.</p>
+        <figure><img src="manual/map-push.jpg" alt="Pushing an object in a dungeon"></figure>
+      </div>
+      <h3>Sorcerer's Ring</h3>
+      <div class="side">
+        <p>Once you have the Sorcerer's Ring, R2 fires a heat ray that strikes with force. It works without being equipped and has many uses, such as lighting things or hitting distant switches. Each shot uses up one Lens, so fire only when you need to.</p>
+        <figure><img src="manual/map-ring.jpg" alt="Firing the Sorcerer's Ring"></figure>
+      </div>
+      <h3>Sorcerer's Scope</h3>
+      <div class="side">
+        <p>The Sorcerer's Scope has a detection function that finds things you cannot normally see. Once you have it, press L2 (no need to equip it) to scan the area around the character for a few seconds. Each use consumes Lens, so scan only when you need to.</p>
+        <figure><img src="manual/map-scope.jpg" alt="Scanning with the Sorcerer's Scope"></figure>
+      </div>
+      <div class="note">
+        <h4>Getting and using Lens</h4>
+        <p>You get Lens by defeating enemies. Lens is used up by special items such as the Sorcerer's Ring and when combining items with Refine in the menu.</p>
+      </div>
+      <h3>Facilities in town</h3>
+      <p>Towns have inns, item shops, weapon shops and other facilities that help your adventure.</p>
+      <div class="row">
+        <figure><img src="manual/inn.jpg" alt="Inn"><figcaption>Inn</figcaption></figure>
+        <figure><img src="manual/shop.jpg" alt="Item shop"><figcaption>Item shop, food shop</figcaption></figure>
+        <figure><img src="manual/weapon-shop.jpg" alt="Weapon shop"><figcaption>Weapon shop, armor shop</figcaption></figure>
+      </div>
+      <table>
+        <tr><td class="k">Inn</td><td>Pay the fee in Gald to stay the night. It restores the whole party's HP (Hit Points) and TP (Technical Points) to maximum and cures status ailments, KO included. Where you are allowed to rest in a bed in a private house, the effect is the same as staying at an inn.</td></tr>
+        <tr><td class="k">Item shop, food shop</td><td>Buy tools and ingredients, and sell items you own. Some are general stores that sell both tools and equipment. The ingredients on offer differ from shop to shop and region to region.</td></tr>
+        <tr><td class="k">Weapon shop, armor shop</td><td>Buy weapons and armor, and sell items you own. Some equipment shops carry both.</td></tr>
+      </table>
+      <h3>Shopping</h3>
+      <div class="side">
+        <div>
+          <p>Talk to the shopkeeper and four options appear: Buy, Sell, Equip and Leave shop.</p>
+          <h4>Buy</h4>
+          <p>Pay for items with Gald. You can hold up to 15 of each kind of item, so you can buy up to 15 including the ones you already own.</p>
+          <ol>
+            <li>Choose Buy with the directional buttons or left stick and confirm with ○.</li>
+            <li>Choose the item you want from the list. While equipment is selected, the characters who can equip it are shown at the top left and the change in stats at the bottom left. With several characters, switch between them with △. To buy several kinds at once, pick the kind with up and down and set each quantity with left and right before confirming.</li>
+            <li>When asked "Is this OK?", press ○ to complete the purchase or × to cancel.</li>
+          </ol>
+          <h4>Sell</h4>
+          <p>Sell anything you own except valuables. Selling several kinds at once works the same way as buying.</p>
+          <h4>Equip</h4>
+          <p>Opens the same screen as Equip in the menu, so you can equip on the spot.</p>
+          <h4>Leave shop</h4>
+          <p>Stop shopping and leave. Cancelling with × also ends the shopping.</p>
+        </div>
+        <div>
+          <figure><img src="manual/shop-menu.jpg" alt="Shop menu"></figure>
+          <figure><img src="manual/shop-buy.jpg" alt="Buying equipment"></figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="menu">
+      <h2>Menu screen and Active Level Graph <span class="pages">pages 18 and 19</span></h2>
+      <p>Press △ on the 3D field map or a normal map to open the menu, where you use items, change equipment and adjust settings.</p>
+      <h3>Reading the menu screen</h3>
+      <p>The top four characters on the screen take part in battle. Use △ to change who fights. The character shown at the very top is the player character you control on the maps and in battle.</p>
+      <figure><img src="manual/menu-main.jpg" alt="Main menu screen"></figure>
+      <table>
+        <tr><td class="k">Menu entries</td><td>Artes, Enchant, Tactics, Cooking, Custom in the top row and Items, Equip, Refine, Status, Save in the bottom row. Press △ to swap the positions of the entries.</td></tr>
+        <tr><td class="k">Gald</td><td>The money you carry. Gald is the currency.</td></tr>
+        <tr><td class="k">Lens</td><td>You can carry at most 100 Lens at a time.</td></tr>
+        <tr><td class="k">Encounter</td><td>The number of times you have met enemies so far.</td></tr>
+        <tr><td class="k">Max Hit</td><td>Your highest hit count in any battle so far.</td></tr>
+        <tr><td class="k">Battle Rank</td><td>The battle rank currently selected (see <a href="#custom">Custom</a>).</td></tr>
+        <tr><td class="k">Play time</td><td>Top: play time since the data was loaded. Bottom: total play time.</td></tr>
+        <tr><td class="k">Location</td><td>The name of the place you are in.</td></tr>
+        <tr><td class="k">Character window</td><td>A short summary of each character. See the table below.</td></tr>
+      </table>
+      <table>
+        <tr><th colspan="2">Character window</th></tr>
+        <tr><td class="k">LV</td><td>Current level.</td></tr>
+        <tr><td class="k">HP</td><td>Hit Points, the character's stamina. Current value / maximum.</td></tr>
+        <tr><td class="k">TP</td><td>Technical Points, needed to use Skills and Spells. Current value / maximum.</td></tr>
+        <tr><td class="k">NEXT</td><td>Experience needed to reach the next level.</td></tr>
+        <tr><td class="k">Graph</td><td>The Active Level Graph. Press □ to switch between the Skill graph and the Spell graph.</td></tr>
+      </table>
+      <h3>Active Level Graph</h3>
+      <p>Active Levels are the values you need in order to learn Skills and Spells. There is a Skill family and a Spell family, and the Active Level Graph plots the value of each level. Your current levels and the levels each Skill or Spell requires can be checked under <a href="#enchant">Enchant</a>. Using and setting what you have learned is covered under <a href="#artes">Artes</a>.</p>
+      <div class="row">
+        <figure><img src="manual/graph-skill.jpg" alt="Skill Active Level graph"><figcaption>Skill Active Levels</figcaption></figure>
+        <figure><img src="manual/graph-spell.jpg" alt="Spell Active Level graph"><figcaption>Spell Active Levels</figcaption></figure>
+      </div>
+      <h4>Skill Active Levels</h4>
+      <p>The values needed to learn Skills. There are four: Attack, Skill, Magic and Chain. Each Skill has a required value for each of them, and you learn the Skill once all are met.</p>
+      <table>
+        <tr><th>Level</th><th>How it rises</th></tr>
+        <tr><td class="k">Attack (A)</td><td>Rises when you use normal attacks.</td></tr>
+        <tr><td class="k">Skill (S)</td><td>Rises when you use Skills and Arcane Artes.</td></tr>
+        <tr><td class="k">Magic (M)</td><td>Rises when you use Spells.</td></tr>
+        <tr><td class="k">Chain (C)</td><td>Rises when you perform chain attacks.</td></tr>
+      </table>
+      <h4>Spell Active Levels</h4>
+      <p>The values needed to learn Spells. Each Spell requires levels in four elements, and you learn it once all are met. The elements differ by character: each has four of the six (Earth, Wind, Water, Fire, Light, Dark) from the start, and this cannot be changed.</p>
+      <table>
+        <tr><th>Level</th><th>How it rises</th></tr>
+        <tr><td class="k">Earth / Wind / Water / Fire / Light / Dark</td><td>Each rises when you use Spells or Skills of that element.</td></tr>
+      </table>
+    </section>
+
+    <section id="artes">
+      <h2>Artes <span class="pages">pages 20 and 21</span></h2>
+      <p>Each character learns their own Skills and Spells. To use them in battle you have to set them up on this screen.</p>
+      <div class="side">
+        <p>Use and set Skills and Spells here. This is also where you choose how each character is controlled in battle and pick the battle mode. Press L1 or R1 to switch between characters.</p>
+        <figure><img src="manual/artes.jpg" alt="Artes screen"></figure>
+      </div>
+      <h3>Choosing the battle mode</h3>
+      <p>First choose a battle mode: Auto, Semi-Auto or Manual. When playing alone, set every ally other than the player character to Auto. With several players, set each character to suit its player. During battle, SELECT switches the player character's battle mode.</p>
+      <table>
+        <tr><td class="k">Auto</td><td>Acts on its own according to the tactics you have set (see <a href="#tactics">Tactics</a>).</td></tr>
+        <tr><td class="k">Semi-Auto</td><td>You control the character directly. Jumps and dashes happen automatically when attacking.</td></tr>
+        <tr><td class="k">Manual</td><td>You control the character directly. Jumps and dashes are done by hand.</td></tr>
+      </table>
+      <p>The player character is the one you control directly on the maps and in battle: the character shown at the top of the menu screen.</p>
+      <h3>Auto characters</h3>
+      <div class="side">
+        <div>
+          <p>A character in Auto mode shows the screen on the right. Select a Spell shown in white to use it right there. Skills and Spells you dim with △ will not be used in battle.</p>
+          <p>Selecting a Skill or Spell brings up a help panel. TP is the TP it costs, ARMD and ACTION show the Enchants currently set as Armed and Action (see <a href="#enchant">Enchant</a>), and COUNT is the number of times it has been used so far.</p>
+        </div>
+        <figure><img src="manual/artes-auto.jpg" alt="Artes screen for an Auto character"></figure>
+      </div>
+      <h3>Semi-Auto and Manual characters</h3>
+      <div class="side">
+        <div>
+          <p>A character in Semi-Auto or Manual mode shows the screen on the right. Skills and Spells registered here are triggered in battle with a combination of the directional buttons or left stick and ×. There are four slots, one per direction input. L2 and R2 each hold a shortcut.</p>
+          <p>Below the character's name, move the cursor to the right to reach the use screen, where Spells shown in white can be cast. How to use them in battle is covered under <a href="#skills">Skill and Spell attacks</a>.</p>
+        </div>
+        <figure><img src="manual/artes-semi.jpg" alt="Artes screen for a Semi-Auto character"></figure>
+      </div>
+      <h3>Skill and Spell shortcuts</h3>
+      <p>On the Artes screen of a Semi-Auto or Manual character you can set shortcuts. L2 and R2 take one Skill or Spell each and trigger it at a single press during battle. A shortcut can hold any Skill or Spell of any character taking part in the battle.</p>
+      <div class="note">
+        <h4>Elements</h4>
+        <p>There are six elements: Earth, Wind, Water, Fire, Light and Dark. As a rule they oppose each other in pairs: Earth and Wind, Water and Fire, Light and Dark. Hit a Fire enemy with a Water Spell and you deal heavy damage, while a Fire Spell on a Fire enemy does very little. Enemies differ in nature though, so the element that works best changes from case to case. Each character you control has four elements from the start and learns Spells of those elements.</p>
+      </div>
+    </section>
+
+    <section id="enchant">
+      <h2>Enchant <span class="pages">pages 22 and 23</span></h2>
+      <p>An Enchant is an additional effect attached to a Skill or Spell you have learned. Set one and it takes effect in battle.</p>
+      <div class="side">
+        <p>Every Skill and Spell has two kinds of Enchant: Armed Enchants, whose effect appears automatically during battle, and Action Enchants, extra effects you trigger by hand.</p>
+        <figure><img src="manual/enchant.jpg" alt="Enchant screen"></figure>
+      </div>
+      <h3>Reading the screen</h3>
+      <p>The Enchant screen changes depending on whether you are looking at a Skill or a Spell, and on whether it is learned or not.</p>
+      <div class="row">
+        <figure><img src="manual/enchant-unlearned.jpg" alt="Selecting an unlearned Skill"><figcaption>An unlearned Skill selected</figcaption></figure>
+        <figure><img src="manual/enchant-learned.jpg" alt="Selecting a learned Spell"><figcaption>A learned Spell selected</figcaption></figure>
+        <figure><img src="manual/enchant-levels.jpg" alt="Active Level explanations"><figcaption>Active Level details</figcaption></figure>
+      </div>
+      <table>
+        <tr><td class="k">Active Level Graph</td><td>Your current Skill Active Levels, or Spell Active Levels when a Spell is selected.</td></tr>
+        <tr><td class="k">Skills and Spells</td><td>Skills are in the upper rows, Spells in the lower rows. White text means learned, blue means not yet learned.</td></tr>
+        <tr><td class="k">Help (unlearned)</td><td>Shows the Active Levels you still need in order to learn it.</td></tr>
+        <tr><td class="k">Help (learned)</td><td>Shows the element, the TP needed, a description, the Armed and Action Enchants that are set, and the number of times it has been used (which equals its Enchant points when no Enchant is set).</td></tr>
+        <tr><td class="k">Help (levels)</td><td>Move the cursor left from the Skills to see an explanation of the Skill Active Levels, or left from the Spells for the Spell Active Levels.</td></tr>
+      </table>
+      <h3>Learning Enchants</h3>
+      <p>Learning an Enchant requires specific Active Level values: Skill Active Levels for a Skill, Spell Active Levels for a Spell. They come in four stages, and the levels are raised the same way as for learning. An Enchant only works once it is set, and setting one requires having used that Skill or Spell many times. The help panel shows the Active Levels and the count (number of uses) each one needs.</p>
+      <h3>Setting Enchants</h3>
+      <div class="side">
+        <div>
+          <p>Select the Skill or Spell, then choose Armed or Action. From the list on the right, pick a level from 1 to 4 for the Enchant you want and register it. The higher the level, the stronger the effect.</p>
+          <p>White text means learned and ready to set. Red means learned, but you lack the Enchant points to set it. Blue means not yet learned.</p>
+          <p>The number in parentheses next to the name of the Skill or Spell is its Enchant points.</p>
+        </div>
+        <figure><img src="manual/enchant-set.jpg" alt="Setting an Enchant"></figure>
+      </div>
+      <h3>Armed Enchants</h3>
+      <p>Effects such as stat boosts that apply automatically whenever you use the Skill or Spell in battle. The kinds available differ for every Skill and Spell.</p>
+      <table>
+        <tr><th>Example</th><th>Effect</th></tr>
+        <tr><td class="k">Attack Up</td><td>Raises the attack power of the Skill.</td></tr>
+        <tr><td class="k">Conserve SP</td><td>Reduces the SP the Skill consumes.</td></tr>
+        <tr><td class="k">Boost</td><td>Attack Spells deal more damage and healing Spells restore more.</td></tr>
+        <tr><td class="k">Speed Cast</td><td>The Spell is cast faster.</td></tr>
+      </table>
+      <h3>Action Enchants</h3>
+      <p>While using a Skill or Spell in battle, an input such as holding ○ triggers the extra effect you set beforehand, at a cost in SP or TP. Kinds and effects differ for every Skill and Spell, and some, such as healing Spells, have no Action Enchants at all.</p>
+      <table>
+        <tr><th>Example</th><th>Effect</th></tr>
+        <tr><td class="k">Blow Away</td><td>Hold ○ on hit to send the enemy flying far back.</td></tr>
+        <tr><td class="k">Counter Trigger</td><td>Enter the Skill input when you take damage on the ground to answer with that Skill.</td></tr>
+        <tr><td class="k">HP Drain</td><td>Hold ○ to absorb HP in proportion to the damage dealt.</td></tr>
+        <tr><td class="k">Stagger Cancel</td><td>Hold ○ to stay able to act even while the Spell is going off.</td></tr>
+      </table>
+    </section>
+
+    <section id="tactics">
+      <h2>Tactics <span class="pages">pages 24 and 25</span></h2>
+      <p>Here you tell characters in Auto mode how to behave in battle. Four things can be set: orders, tactics, attack and defense.</p>
+      <h3>Reading the screen</h3>
+      <div class="side">
+        <div>
+          <table>
+            <tr><td class="k">MEMBER'S POSITION</td><td>Shows where each character stands in battle under the tactics you chose: rear, middle or front. Allies basically advance toward the right side of the screen.</td></tr>
+            <tr><td class="k">Orders</td><td>Each of the three orders stores a complete way of fighting. Press △ to show the list.</td></tr>
+            <tr><td class="k">Character status and tactics</td><td>Use left and right on the directional buttons or left stick to set tactics, attack and defense for each character. Press △ to show the list.</td></tr>
+          </table>
+        </div>
+        <div>
+          <figure><img src="manual/tactics.jpg" alt="Tactics screen"></figure>
+          <figure><img src="manual/tactics-position.jpg" alt="Member's position bar"><figcaption>Rear, middle, front</figcaption></figure>
+        </div>
+      </div>
+      <h3>Orders</h3>
+      <p>Choose three orders you like, and for each one set every character's tactics, attack and defense. Select an order during battle and the Auto characters act on the instructions stored in it. A battle always starts with the middle of the three orders selected. Change it with L1.</p>
+      <table>
+        <tr><th colspan="2">Order names</th></tr>
+        <tr><td>.....</td><td>Let's go!</td></tr>
+        <tr><td>I'm counting on you all.</td><td>Charge!</td></tr>
+        <tr><td>Stay strong</td><td>Use spells</td></tr>
+        <tr><td>Leave it to me!</td><td>Custom strategy</td></tr>
+        <tr><td>Now's our chance!</td><td>Steamroller</td></tr>
+      </table>
+      <h3>Tactics</h3>
+      <p>Sets a character's overall behavior in battle, including their place in the formation.</p>
+      <table>
+        <tr><th>Tactics</th><th>Behavior</th></tr>
+        <tr><td class="k">Attack Freely</td><td>Takes the position that suits the character and picks targets by their own judgment.</td></tr>
+        <tr><td class="k">Attack Close</td><td>From the front or middle, attacks nearby enemies with weapons as much as possible.</td></tr>
+        <tr><td class="k">Follow Leader</td><td>Follows the player's character and attacks while the player is attacking.</td></tr>
+        <tr><td class="k">Counter</td><td>In the front line, guards against the enemy's attack and then strikes with weapons.</td></tr>
+        <tr><td class="k">Find Opening</td><td>In the middle, casts Spells while the enemy's SP is 50% or more and attacks when it is below 50%.</td></tr>
+        <tr><td class="k">Protect Rear</td><td>In the middle, attacks nearby enemies with weapons while aiming Spells at enemies that are attacking.</td></tr>
+        <tr><td class="k">Crush Weak</td><td>Behind the middle, goes after enemies with low HP using Spells and attacks.</td></tr>
+        <tr><td class="k">Aim High</td><td>Behind the middle, gives priority to airborne enemies with attacks and Spells.</td></tr>
+        <tr><td class="k">Defeat Fast Foes</td><td>In the rear, mainly uses Spells against enemies with high evasion.</td></tr>
+        <tr><td class="k">Block Magic</td><td>In the rear, charges Spells while attacking enemies that begin casting.</td></tr>
+      </table>
+      <h3>Attack</h3>
+      <p>Sets the conditions under which a character attacks physically or with Spells.</p>
+      <table>
+        <tr><th>No.</th><th>Behavior</th></tr>
+        <tr><td class="k">1</td><td>Does not attack or cast on their own initiative.</td></tr>
+        <tr><td class="k">2</td><td>Attacks and casts until SP and TP fall to 75%.</td></tr>
+        <tr><td class="k">3</td><td>Attacks and casts until SP and TP fall to 50%.</td></tr>
+        <tr><td class="k">4</td><td>Attacks and casts until SP and TP fall to 25%.</td></tr>
+        <tr><td class="k">5</td><td>Attacks until SP and TP run out.</td></tr>
+      </table>
+      <h3>Defense</h3>
+      <p>Sets the conditions under which a character guards or casts healing Spells.</p>
+      <table>
+        <tr><th>No.</th><th>Behavior</th></tr>
+        <tr><td class="k">1</td><td>Fights on the offensive until their strength gives out.</td></tr>
+        <tr><td class="k">2</td><td>Holds back from attacking at 25% HP or less, and heals allies who are at 25% HP or less.</td></tr>
+        <tr><td class="k">3</td><td>Holds back from attacking at 50% HP or less, and heals allies who are at 50% HP or less.</td></tr>
+        <tr><td class="k">4</td><td>Holds back from attacking at 75% HP or less, and heals allies who are at 75% HP or less.</td></tr>
+        <tr><td class="k">5</td><td>Always guards, and heals any ally below 100% HP.</td></tr>
+      </table>
+    </section>
+
+    <section id="cooking">
+      <h2>Cooking <span class="pages">pages 26 and 27</span></h2>
+      <p>Combine the ingredients you have gathered into dishes, and fine tune cooking, for example which dish is made automatically after a battle.</p>
+      <div class="side">
+        <p>Cook with the ingredients you carry. Effects range from HP recovery to TP recovery, and some dishes even raise the Active Levels needed to learn Skills and Spells. You can only make one dish at a time. Depending on the mix of ingredients the effect may be weaker than the proper dish, and you cannot cook while the party is full (right after a meal).</p>
+        <figure><img src="manual/cooking.jpg" alt="Cooking screen"></figure>
+      </div>
+      <h3>Reading the screen</h3>
+      <div class="side">
+        <div>
+          <p>A dish with an "A" in front of its name has an auto setting.</p>
+          <table>
+            <tr><td class="k">Skill Level</td><td>Your overall cooking proficiency.</td></tr>
+            <tr><td class="k">Adequate Level</td><td>The proficiency this dish calls for.</td></tr>
+            <tr><td class="k">Ingredients</td><td>Shown as ingredient name, amount used / amount you have.</td></tr>
+            <tr><td class="k">Auto Set</td><td>The current auto cooking setting. Press △ on a dish name to open its settings menu.</td></tr>
+            <tr><td class="k">Effect</td><td>What the dish does.</td></tr>
+            <tr><td class="k">Dishes learned</td><td>White: recipes you were taught. Dark text: not enough ingredients. Dishes of your own are shown in yellow (good result) or purple (bad result).</td></tr>
+          </table>
+        </div>
+        <figure><img src="manual/cooking-detail.jpg" alt="Details of a dish"></figure>
+      </div>
+      <h3>New recipes (original dishes)</h3>
+      <div class="side">
+        <p>Pick between two and six kinds of ingredients from what you carry and cook them. When the dish is done you are offered ○ to save it or × not to. Press ○ to keep the recipe. You can give the dish a name as well. An original dish can also fail. In that case nothing is made and the recipe cannot be saved.</p>
+        <figure><img src="manual/cooking-original.jpg" alt="Naming an original dish"></figure>
+      </div>
+      <h3>Auto Set (settings menu)</h3>
+      <p>Have a dish cooked automatically when a battle ends.</p>
+      <table>
+        <tr><th colspan="2">Conditions for auto cooking</th></tr>
+        <tr><td>Never cook automatically.</td><td>Cook after every battle.</td></tr>
+        <tr><td>Cook every 5 battles.</td><td>Cook every 10 battles.</td></tr>
+        <tr><td>Cook if 3 or more members are at 80% HP or less.</td><td>Cook if 3 or more members are at 80% TP or less.</td></tr>
+        <tr><td>Cook if 2 or more members are at 60% HP or less.</td><td>Cook if 2 or more members are at 60% TP or less.</td></tr>
+        <tr><td>Cook if 2 or more members are at 40% HP or less.</td><td>Cook if 2 or more members are at 40% TP or less.</td></tr>
+        <tr><td>Cook if even 1 member is at 20% HP or less.</td><td>Cook if even 1 member is at 20% TP or less.</td></tr>
+        <tr><td>Cook when someone has a status ailment.</td><td></td></tr>
+      </table>
+      <h3>Auto-Cook Overlap (settings menu)</h3>
+      <p>When the auto conditions of two or more dishes are met at once, the dish is picked by the method chosen here.</p>
+      <table>
+        <tr><th>Method</th><th>Short name</th></tr>
+        <tr><td>Cook a dish at random.</td><td class="k">Up to you</td></tr>
+        <tr><td>Cook the dish you are least practiced at.</td><td class="k">Recipe proficiency</td></tr>
+        <tr><td>Cook the dish you can make the most times.</td><td class="k">Times cookable</td></tr>
+        <tr><td>Cook the dish with the cheapest ingredients.</td><td class="k">Ingredient cost</td></tr>
+      </table>
+      <table>
+        <tr><td class="k">Rename (settings menu)</td><td>Change the name of a dish you created or arranged.</td></tr>
+        <tr><td class="k">Arrange (settings menu)</td><td>Rework the ingredients of a dish you have learned to create a new one.</td></tr>
+        <tr><td class="k">Delete (settings menu)</td><td>Delete the recipe of a dish you created or arranged.</td></tr>
+      </table>
+      <div class="note">
+        <h4>Proficiency</h4>
+        <p>Cooking a lot raises your Skill Level. The Adequate Level set for each dish is the Skill Level at which that dish tends to succeed.</p>
+      </div>
+    </section>
+
+    <section id="custom">
+      <h2>Custom <span class="pages">pages 28 and 29</span></h2>
+      <p>Adjust the game to your liking, from message speed to sound.</p>
+      <div class="side">
+        <p>Undo restores the settings as they were before your changes and Default returns everything to the initial settings. Change each entry with the directional buttons or left stick, and press × at the end to finish.</p>
+        <figure><img src="manual/custom.jpg" alt="Custom screen"></figure>
+      </div>
+      <table>
+        <tr><td class="k">Message Speed</td><td>How fast messages are displayed, in steps from 0 to 6. The lower the number, the faster the text.</td></tr>
+        <tr><td class="k">Move Speed</td><td>Sets the directional buttons to Walk or Run on normal maps. With the left stick, the speed follows how far you tilt it.</td></tr>
+        <tr><td class="k">Party Display</td><td>Switches how characters are shown on the menu screen.</td></tr>
+        <tr><td class="k">Battle Rank</td><td>The battle difficulty. It affects enemy strength and much more. NORMAL and SECOND (somewhat hard) are available, and other ranks appear once certain conditions are met.</td></tr>
+        <tr><td class="k">Battle Key Config</td><td>Freely reassign the buttons used in battle.</td></tr>
+        <tr><td class="k">Field: Camera L/R</td><td>Chooses which of L1 and R1 turns the view to the right.</td></tr>
+        <tr><td class="k">Field: Airship Rev</td><td>Changes the airship controls. Off: up descends and down climbs. On: up climbs and down descends.</td></tr>
+        <tr><td class="k">Sound: BGM</td><td>Volume of the music.</td></tr>
+        <tr><td class="k">Sound: SFX</td><td>Volume of the sound effects.</td></tr>
+        <tr><td class="k">Sound: Battle Voice (volume)</td><td>Volume of voices in battle.</td></tr>
+        <tr><td class="k">Sound: Event Voice (volume)</td><td>Volume of voices in events.</td></tr>
+        <tr><td class="k">Sound: Pan</td><td>Left and right balance in stereo.</td></tr>
+        <tr><td class="k">Sound: Stereo</td><td>Choose Off to switch to mono.</td></tr>
+        <tr><td class="k">Sound: Battle Voice</td><td>Voices in battle on or off.</td></tr>
+        <tr><td class="k">Sound: Event Voice</td><td>Voices in events on or off.</td></tr>
+        <tr><td class="k">Sound: Sound Test</td><td>Listen to music and sound effects (see below).</td></tr>
+        <tr><td class="k">Menu BG</td><td>Change the menu background freely. Choose from five types and mix the color of each corner of the screen from R (red), G (green) and B (blue).</td></tr>
+        <tr><td class="k">Screen Adjust</td><td>Shift the position of the picture with the directional buttons or left stick. Press ○ when done.</td></tr>
+        <tr><td class="k">Window Color</td><td>Choose the window color from six kinds.</td></tr>
+        <tr><td class="k">Screen Chat Subtitles</td><td>Screen Chat subtitles on or off.</td></tr>
+        <tr><td class="k">Controller Vibration</td><td>Controller vibration on or off.</td></tr>
+        <tr><td class="k">Always Show Target SP</td><td>Display of the targeted enemy's SP on or off.</td></tr>
+        <tr><td class="k">Battle Auto Camera</td><td>How the camera moves in battle. Off zooms on the player character alone. On also keeps the targeted enemy in frame. Active also brings in allies who are casting and enemies about to attack.</td></tr>
+      </table>
+      <h3>Sound Test</h3>
+      <p>Sound Test, inside Sound, plays the music, sound effects and voices of the game. Select with the directional buttons or left stick and confirm with ○.</p>
+      <div class="side">
+        <div>
+          <table>
+            <tr><td class="k">Type</td><td>Listen to BGM (music), SE (sound effects), VOICE (shouts) and more.</td></tr>
+            <tr><td class="k">Play time / track number</td><td>Press ○ on the time to open the control panel. Press it on the track number to list the tracks.</td></tr>
+            <tr><td class="k">× icon</td><td>Hides the controls. Press ○ or × to bring them back.</td></tr>
+            <tr><td class="k">Speaker icon</td><td>Adjusts the sound on this screen. Raising the tempo number speeds up the pitch of the track.</td></tr>
+            <tr><td class="k">Bars icon</td><td>Switches the analyzer.</td></tr>
+            <tr><td class="k">Note icon</td><td>Shows what each instrument is playing.</td></tr>
+          </table>
+        </div>
+        <div>
+          <figure><img src="manual/sound-test.jpg" alt="Sound Test screen"></figure>
+          <figure><img src="manual/sound-panel.jpg" alt="Sound Test control panel"><figcaption>Control panel</figcaption></figure>
+        </div>
+      </div>
+      <table>
+        <tr><th colspan="2">Control panel</th></tr>
+        <tr><td class="k">1</td><td>Play / pause (△)</td></tr>
+        <tr><td class="k">2</td><td>Stop (□)</td></tr>
+        <tr><td class="k">3</td><td>Previous (L1)</td></tr>
+        <tr><td class="k">4</td><td>Next (R1)</td></tr>
+        <tr><td class="k">5</td><td>Repeat / advance automatically. Repeat plays the same track or sound again. Advance plays them in order of track number.</td></tr>
+      </table>
+    </section>
+
+    <section id="items">
+      <h2>Items <span class="pages">pages 30 and 31</span></h2>
+      <p>You get items by winning battles and by buying them at facilities in town.</p>
+      <div class="side">
+        <p>Check and use the items you carry. Select a weapon, armor or other piece of equipment and you can quick equip it right here. Items are sorted into New, Item, Weapon, Armor and Trinket, and everything except New is divided further.</p>
+        <figure><img src="manual/items.jpg" alt="Items screen"></figure>
+      </div>
+      <h3>Using items and quick equip</h3>
+      <div class="side">
+        <p>Move the cursor to one of the categories and confirm, then choose an item. Next choose who will use or equip it and confirm with ○. If using or equipping it changes any stats, the change is shown beforehand as in the picture.</p>
+        <figure><img src="manual/items-use.jpg" alt="Stat preview when equipping from the Items screen"></figure>
+      </div>
+      <h3>Item categories</h3>
+      <p>Equipment that is currently equipped does not appear on the Items screen, unless you own more than one of it.</p>
+      <table>
+        <tr><td class="k">New</td><td>Items you have just obtained.</td></tr>
+        <tr><td class="k">Item<br>(Item / Cookware / Food / Valuable)</td><td>Recovery items of every kind, cooking related items, items vital to the story, and so on.</td></tr>
+        <tr><td class="k">Weapon<br>(Sword / 2-Hand / Staff / Bow)</td><td>Affects attack power. Each character can equip different kinds.</td></tr>
+        <tr><td class="k">Armor<br>(Armor / Clothes / Helmet / Crown)</td><td>Affects defense. Each character can equip different kinds.</td></tr>
+        <tr><td class="k">Trinket<br>(Glove / Dagger / Bangle / Jewelry / Outfit / Boots)</td><td>Equipment other than weapons and armor, with all sorts of effects depending on the kind.</td></tr>
+      </table>
+      <h3>Item icons</h3>
+      <p>Every item has an icon, and the design depends on the kind of item. Consumables that can be used at any time, such as Apple Gel and Life Bottle, show a gel. Consumables that can only be used in battle, such as the Magic Lens, show a bottle. Equipment icons take the shape of the thing itself: a sword for swords, armor for armor. Some icons have a frame around them. See <a href="#frames">When an item icon has a frame</a>.</p>
+      <table>
+        <tr><th colspan="3">Examples of item icons</th></tr>
+        <tr><td class="ic"><img src="manual/icon-01.jpg" alt=""></td><td>Consumable that can be used at any time.</td><td>Apple Gel, Life Bottle</td></tr>
+        <tr><td class="ic"><img src="manual/icon-02.jpg" alt=""></td><td>Consumable that can only be used in battle.</td><td>Magic Lens</td></tr>
+        <tr><td class="ic"><img src="manual/icon-03.jpg" alt=""></td><td>Consumable that cannot be used in battle.</td><td>Sage</td></tr>
+        <tr><td class="ic"><img src="manual/icon-04.jpg" alt=""></td><td>Valuable. Cannot be discarded.</td><td>World Map</td></tr>
+        <tr><td class="ic"><img src="manual/icon-05.jpg" alt=""></td><td>Cooking tool.</td><td>Vegetable Knife</td></tr>
+        <tr><td class="ic"><img src="manual/icon-06.jpg" alt=""></td><td>Ingredient for cooking.</td><td>Cheap Meat, Apple</td></tr>
+        <tr><td class="ic"><img src="manual/icon-07.jpg" alt=""></td><td>Sword type weapon.</td><td>Short Sword</td></tr>
+        <tr><td class="ic"><img src="manual/icon-08.jpg" alt=""></td><td>Two handed weapon.</td><td>Poleaxe</td></tr>
+        <tr><td class="ic"><img src="manual/icon-09.jpg" alt=""></td><td>Body armor.</td><td>Leather Armor</td></tr>
+        <tr><td class="ic"><img src="manual/icon-10.jpg" alt=""></td><td>Helmet.</td><td>Leather Helm</td></tr>
+        <tr><td class="ic"><img src="manual/icon-11.jpg" alt=""></td><td>Jewelry.</td><td>Poison Charm</td></tr>
+        <tr><td class="ic"><img src="manual/icon-12.jpg" alt=""></td><td>Outfit.</td><td>Leather Cape</td></tr>
+        <tr><td class="ic"><img src="manual/icon-13.jpg" alt=""></td><td>Boots.</td><td>Leather Boots</td></tr>
+      </table>
+    </section>
+
+    <section id="equip">
+      <h2>Equip <span class="pages">pages 32 and 33</span></h2>
+      <p>How to equip weapons and armor, and how the slot effects attached to equipment work. Equip can also be opened while shopping.</p>
+      <p>Equip the gear you carry. First select the part you want to change, then pick a sort order and the item list appears. The change in stats that the selected item would bring is shown on the left. If you are happy with it, confirm with ○. Press △ to take off the item currently equipped, and L1 or R1 to switch characters. Put the cursor on a character's name and press □ to equip the strongest items automatically. Quick equipping is also possible from <a href="#items">Items</a>.</p>
+      <h3>Reading the screen</h3>
+      <div class="side">
+        <table>
+          <tr><td class="k">Sort</td><td>The sort options depend on the kind of item. Attack, Defense, Slot Level, Block Count, Stats and Evade sort from the highest value down. Alphabetical sorts by name. Price (high) and Price (low) sort by price.</td></tr>
+          <tr><td class="k">Equipment list</td><td>Shows only the items the selected character can equip.</td></tr>
+          <tr><td class="k">Help</td><td>Press □ to see the stats of a piece of equipment.</td></tr>
+          <tr><td class="k">Current equipment</td><td>Shows the items equipped and where they are worn.</td></tr>
+          <tr><td class="k">Slot effects</td><td>If the item currently equipped has slot effects, they are listed here.</td></tr>
+        </table>
+        <figure><img src="manual/equip.jpg" alt="Equip screen"></figure>
+      </div>
+      <h3>Slot Level</h3>
+      <div class="side">
+        <div>
+          <p>Some equipment carries special effects called slots. While you wear a piece with a slot effect, certain stats of that character go up or a special effect is active.</p>
+          <p>There are many kinds of slot, each with a level from 1 to 8. The higher the number, the stronger or more advanced the effect. By combining items with <a href="#refine">Refine</a>, a single piece of equipment can carry up to two slot effects. The icon of an item with slot effects has a blue or green frame.</p>
+        </div>
+        <figure><img src="manual/equip-slot.jpg" alt="Equipment with a slot effect"></figure>
+      </div>
+      <table>
+        <tr><th>Example slot</th><th>Effect</th></tr>
+        <tr><td class="k">Feat</td><td>Raises accuracy.</td></tr>
+        <tr><td class="k">Healing</td><td>Restores HP at regular intervals.</td></tr>
+        <tr><td class="k">Awesome</td><td>Increases the experience you earn.</td></tr>
+        <tr><td class="k">Attack</td><td>Raises attack power.</td></tr>
+        <tr><td class="k">Magical</td><td>Speeds up growth of the Magic level (Skill Active Level).</td></tr>
+        <tr><td class="k">Trample</td><td>Speeds up growth of the Attack level (Skill Active Level).</td></tr>
+      </table>
+      <p>The name of a slot changes as its level rises.</p>
+      <div class="note" id="frames">
+        <h4>When an item icon has a frame</h4>
+        <p>Item icons can have a yellow, blue or green frame. These mark special conditions such as slot effects.</p>
+        <table>
+          <tr><td class="ic"><img src="manual/frame-yellow.jpg" alt="Yellow frame"></td><td>Shown on special items, such as ones that cannot be discarded.</td></tr>
+          <tr><td class="ic"><img src="manual/frame-blue.jpg" alt="Blue frame"></td><td>Shown on equipment with one slot.</td></tr>
+          <tr><td class="ic"><img src="manual/frame-green.jpg" alt="Green frame"></td><td>Shown on equipment with two slots.</td></tr>
+        </table>
+      </div>
+    </section>
+
+    <section id="refine">
+      <h2>Refine, Save, Status <span class="pages">pages 34 and 35</span></h2>
+      <h3>Refine</h3>
+      <p>Combine items you carry. Refining needs the item Rune Bottle and uses up a set number of Lens. If you combine items that have slot effects, those effects carry over into the result.</p>
+      <div class="side">
+        <div>
+          <table>
+            <tr><td class="k">Sort</td><td>Tabs for Items, Weapon, Armor and Trinket.</td></tr>
+            <tr><td class="k">Item list</td><td>Choose the items to combine from here.</td></tr>
+            <tr><td class="k">Materials and results</td><td>The numbers next to an item are the amount used for refining / the amount you have. While choosing the second material from the list, press left to preview RESULT A and right to preview RESULT B.</td></tr>
+          </table>
+          <h4>MATERIAL</h4>
+          <ul>
+            <li>The two items used as materials. Press △ to remove the selected one.</li>
+            <li>Rune Bottles: the number needed for this refine / the number you have.</li>
+            <li>Lens: the number this refine consumes / the number you have. The cost depends on the combination.</li>
+          </ul>
+          <h4>RESULT</h4>
+          <p>Put the cursor here and press ○ to carry out the refine. Some combinations of materials offer a choice of two results, in which case one is shown under A and one under B.</p>
+        </div>
+        <figure><img src="manual/refine.jpg" alt="Refine screen"></figure>
+      </div>
+      <h3>Save</h3>
+      <p>Save the game or suspend it (see <a href="#start">Saving</a>).</p>
+      <h3>Status</h3>
+      <p>Check each character's status. Names and titles are changed here as well.</p>
+      <div class="side">
+        <table>
+          <tr><td class="k">Name</td><td>Can be changed at any time (see <a href="#start">Naming characters</a>).</td></tr>
+          <tr><td class="k">Title</td><td>Shows the current title. Titles are earned by meeting certain conditions in events and battles, and some of them change the character's parameters. To change it, put the cursor on it, confirm, and pick the one you like from the list.</td></tr>
+          <tr><td class="k">Parameters</td><td>See the table below. TP and the experience needed for the next level are shown in the character window of the menu screen.</td></tr>
+          <tr><td class="k">Equipment</td><td>The items currently equipped as Weapon, Body, Head, Arm, Outfit, Boots and Jewelry.</td></tr>
+          <tr><td class="k">Elements</td><td>The character's current elemental values.</td></tr>
+          <tr><td class="k">Active Level Graph</td><td>The current Active Levels.</td></tr>
+        </table>
+        <figure><img src="manual/status.jpg" alt="Status screen"></figure>
+      </div>
+      <table>
+        <tr><th colspan="2">Parameters</th></tr>
+        <tr><td class="k">LV</td><td>Current level. It goes up when experience reaches a set amount, and every stat rises with it.</td></tr>
+        <tr><td class="k">HP</td><td>Hit Points (stamina). The maximum is shown.</td></tr>
+        <tr><td class="k">Atk</td><td>Attack power: the character's own strength plus that of the equipment.</td></tr>
+        <tr><td class="k">Def</td><td>Defense: the character's own strength plus that of the equipment.</td></tr>
+        <tr><td class="k">Int</td><td>Affects things such as the power of Skills and Spells.</td></tr>
+        <tr><td class="k">Hit</td><td>The ability to land attacks.</td></tr>
+        <tr><td class="k">Evade</td><td>The ability to avoid enemy attacks.</td></tr>
+        <tr><td class="k">Luck</td><td>Affects many things, battles included.</td></tr>
+        <tr><td class="k">SP Regen</td><td>The ability to recover SP (Spirits Points), which attacking and guarding require.</td></tr>
+        <tr><td class="k">SP Reduce</td><td>The ability to use less SP.</td></tr>
+        <tr><td class="k">TP Regen</td><td>The ability to recover TP (Technical Points), which Skills and Spells require.</td></tr>
+        <tr><td class="k">TP Reduce</td><td>The ability to use less TP.</td></tr>
+        <tr><td class="k">Cast Speed</td><td>How fast Spells are cast.</td></tr>
+      </table>
+    </section>
+
+    <section id="battle">
+      <h2>Battle screen <span class="pages">pages 36 to 39</span></h2>
+      <p>Meeting an enemy on the 3D field map or in a dungeon switches to the battle screen.</p>
+      <h3>Reading the battle screen</h3>
+      <p>Press R1 during battle to see the whole battlefield and change your target. The enemy's status is shown at the same time.</p>
+      <div class="row">
+        <figure><img src="manual/battle-normal.jpg" alt="Battle screen in normal view"><figcaption>Normal view</figcaption></figure>
+        <figure><img src="manual/battle-target.jpg" alt="Battle screen while changing target"><figcaption>While changing target</figcaption></figure>
+      </div>
+      <table>
+        <tr><td class="k">HITS / CHAIN</td><td>The hit count of the current string of attacks, and the chain count including your allies' attacks.</td></tr>
+        <tr><td class="k">Battle menu</td><td>Opened with △. Use items, change equipment and more.</td></tr>
+        <tr><td class="k">Battle mode</td><td>Switched with SELECT.</td></tr>
+        <tr><td class="k">Ally status</td><td>From the top: current HP, SP gauge, TP gauge.</td></tr>
+        <tr><td class="k">ENEMY DATA</td><td>The enemy's status, shown while R1 is held. Using the item Magic Lens also reveals things such as its weak points.</td></tr>
+        <tr><td class="k">Enemy target</td><td>Marks what the player character is aiming at.</td></tr>
+        <tr><td class="k">TACTICS</td><td>Press L1 to show the orders.</td></tr>
+        <tr><td class="k">Positions</td><td>The circles on the red bar are enemies and the numbers on the blue bar are your characters, numbered 1 to 4 in the order of the ally status display from the left. When an ally gets behind an enemy, that number appears on the red bar and a special state applies (see <a href="#behind">On the enemy's right side</a>).</td></tr>
+      </table>
+      <h3>SP (Spirits Points) gauge</h3>
+      <p>SP stands for each character's mental strength and concentration, and enemies have it too. Basically it goes down when you attack, and when it is low your accuracy and evasion drop. It recovers while you are not attacking, and guarding and Spells restore it as well. SP always starts a battle at 100%. When there is not enough of it, "SP××" is shown next to the character.</p>
+      <h3>Spirits Blaster</h3>
+      <div class="side">
+        <div>
+          <p>Keep repeating actions such as attacking the enemy, taking hits and guarding against attacks, and the character begins to glow and enters a state called Spirits Blaster for a while. In this state SP is locked at 100% and attacking does not lower the gauge. Enemy attacks still land, though, and the damage you take shortens the effect.</p>
+          <p>Your attacks are not interrupted when you are hit and carry straight on. Spirits Blaster ends when a certain time has passed, when your side uses a healing Spell or healing item, or when HP reaches 0. If HP reaches 0 during Spirits Blaster, the character is left at 1 HP instead of being KO'd.</p>
+          <p>When a character turns red, Spirits Blaster is close.</p>
+        </div>
+        <div class="row">
+          <figure><img src="manual/blaster-1.jpg" alt="Kyle turning red"></figure>
+          <figure><img src="manual/blaster-2.jpg" alt="Kyle in Spirits Blaster"></figure>
+        </div>
+      </div>
+      <h3>TP (Technical Points) gauge</h3>
+      <p>TP is what Skills and Spells run on. Each use spends a set amount, and it comes back as time passes. It also recovers when normal attacks hit, among other things. Unlike SP, TP is not restored automatically when the battle ends.</p>
+      <div class="note">
+        <h4>Messages on screen</h4>
+        <p>Some of the messages that appear at the top left when you hit or defeat enemies. For the ones shown next to a character, see <a href="#techniques">Techniques in battle</a>.</p>
+        <table>
+          <tr><td class="k">TECHNICAL SMASH!</td><td>A bonus for defeating an enemy under specific conditions. It affects your battle grade and the item drop rate.</td></tr>
+          <tr><td class="k">○○ BUSTER</td><td>Shown when two or more enemies are defeated within a single chain of attacks. The number is how many were defeated.</td></tr>
+          <tr><td class="k">○○ CHAIN</td><td>Shown with the chain count when one character defeats an enemy with a chain of four or more.</td></tr>
+          <tr><td class="k">NO DAMAGE</td><td>Shown when you win a battle without any ally taking damage.</td></tr>
+          <tr><td class="k">TRIANGLE</td><td>Shown when a three hit normal attack is done with three different inputs.</td></tr>
+          <tr><td class="k">AERIAL</td><td>Shown when a flying enemy is defeated in the air.</td></tr>
+        </table>
+      </div>
+      <h3>Battle rules</h3>
+      <p>The battle is decided when every enemy is wiped out, or when every ally taking part is KO'd (at 0 HP).</p>
+      <table>
+        <tr><td class="k">Victory</td><td>Defeat every enemy on screen to win. Winning earns experience and Gald, and sometimes items.</td></tr>
+        <tr><td class="k">Game over</td><td>If the HP of every ally in the battle reaches 0, the party is wiped out and the game is over. Choose to load data and you are taken to the save data screen to start again from where you saved.</td></tr>
+      </table>
+      <h3>Battle menu</h3>
+      <div class="side">
+        <div>
+          <p>Press △ during battle to open the battle menu, where you can change settings and use Skills and Spells. It works basically the same way as the normal menu screen.</p>
+          <table>
+            <tr><td class="k">Artes</td><td>Besides the settings, you can have any character use a Skill or Spell on the spot.</td></tr>
+            <tr><td class="k">Tactics</td><td>Change the tactics.</td></tr>
+            <tr><td class="k">Equip</td><td>Change equipment on the spot.</td></tr>
+            <tr><td class="k">Items</td><td>Use items that work in battle. Right after using one, this command cannot be selected. The seconds left until it can be are shown at the top of the menu.</td></tr>
+          </table>
+        </div>
+        <figure><img src="manual/battle-menu.jpg" alt="Battle menu"></figure>
+      </div>
+      <h3>Battle results</h3>
+      <div class="side">
+        <div>
+          <p>Win a battle and the results screen appears. Items gained, level ups and any Skills or Spells learned on levelling up are shown here. If auto cooking is set, the dish is made at this point.</p>
+          <p>While "PRESS BUTTON TO STAY" is shown at the bottom right, holding any button keeps the results on screen so you can take a good look.</p>
+        </div>
+        <figure><img src="manual/battle-result.jpg" alt="Battle results screen"></figure>
+      </div>
+      <table>
+        <tr><td class="k">MAX HIT</td><td>The highest hit count you reached in this battle.</td></tr>
+        <tr><td class="k">BONUS</td><td>Extra experience awarded according to the max hit count.</td></tr>
+        <tr><td class="k">EXP</td><td>Experience earned.</td></tr>
+        <tr><td class="k">GALD</td><td>Gald (money) earned.</td></tr>
+        <tr><td class="k">LENS</td><td>Number of Lens earned.</td></tr>
+        <tr><td class="k">TIME</td><td>How long the battle took.</td></tr>
+        <tr><td class="k">GRADE</td><td>Your rating for this battle. The player's actions during the battle are scored, and saving up grade brings various rewards. Attacks that take technique, such as chains, raise the rating.</td></tr>
+      </table>
+      <p>The total of your GRADE points is not shown during the game.</p>
+      <h3>Status ailments</h3>
+      <p>Some kinds of attack can afflict a character's status.</p>
+      <table>
+        <tr><td class="ic"><img src="manual/ailment-poison.jpg" alt=""></td><td class="k">Poison</td><td>HP keeps draining little by little. The effect remains after the battle, and HP drops as you move.</td></tr>
+        <tr><td class="ic"><img src="manual/ailment-weak.jpg" alt=""></td><td class="k">Weak</td><td>TP keeps draining little by little. The effect remains after the battle, and TP drops as you move.</td></tr>
+        <tr><td class="ic"><img src="manual/ailment-paralysis.jpg" alt=""></td><td class="k">Para</td><td>The body goes numb and cannot move freely, which can restrict all kinds of actions. The effect remains after the battle.</td></tr>
+        <tr><td class="ic"><img src="manual/ailment-slow.jpg" alt=""></td><td class="k">Slow</td><td>Movement speed and SP recovery drop. The effect ends with the battle.</td></tr>
+        <tr><td class="ic"><img src="manual/ailment-freeze.jpg" alt=""></td><td class="k">Freeze</td><td>The character cannot act until a certain time passes or an enemy hits them. The effect ends with the battle.</td></tr>
+        <tr><td class="ic"><img src="manual/ailment-ko.jpg" alt=""></td><td class="k">KO</td><td>HP is 0 and the character cannot fight. It does not wear off when the battle ends.</td></tr>
+      </table>
+    </section>
+
+    <section id="inbattle">
+      <h2>Controls in battle <span class="pages">pages 40 to 47</span></h2>
+      <p>In battle you control the player character. The controls below are described for a character facing right in Semi-Auto mode. Allies other than the player character fight on their own according to the tactics you set.</p>
+      <p>In these explanations ↑ ↓ ← → mean holding up, down, left or right on the directional buttons or left stick. When the character is facing left, left and right are reversed.</p>
+      <h3>Basic actions</h3>
+      <table>
+        <tr><td class="k">Move</td><td>Press left or right. The character walks in that direction. Tap the same direction twice in a row to dash. Press the opposite direction during a dash to stop on the spot.</td></tr>
+        <tr><td class="k">Change Tactics</td><td>L1 changes the tactics (orders). Press L1 to show the three registered orders, then choose one with left or right while they are shown. The tactics take effect in the battle at once.</td></tr>
+        <tr><td class="k">Change Target</td><td>R1 lets you change the targeted enemy. Hold R1 and press left or right to switch targets.</td></tr>
+      </table>
+      <h4>Escape</h4>
+      <div class="side">
+        <p>To run away, move the player character to the left edge of the screen and keep holding left. An ESCAPE GAGE appears at the top of the screen, and once it is full you get away. This works in Auto mode too.</p>
+        <figure><img src="manual/escape.jpg" alt="Escaping from battle"></figure>
+      </div>
+      <div class="note" id="behind">
+        <div class="side">
+          <div>
+            <h4>On the enemy's right side</h4>
+            <p>During battle an ally can end up behind the enemy, on the right side of the screen. Be careful: while there, the maximum SP and TP and the rate at which each recovers are halved, and HP recovery is halved too. Return to the original position on the left side of the screen and the state is lifted.</p>
+            <p>The current SP and TP values are not cut in half the moment you cross to the enemy's right side.</p>
+          </div>
+          <figure><img src="manual/behind-enemy.jpg" alt="Kyle behind an enemy"></figure>
+        </div>
+      </div>
+      <h3>Defense</h3>
+      <p>These are the ways to defend in battle. Some guards work against particular attacks and some cost SP. The jump here is not the same thing as a <a href="#jump">jump attack</a>.</p>
+      <div class="row">
+        <figure><img src="manual/guard-physical.jpg" alt="Physical guard"><figcaption><strong>Physical guard:</strong> □. Blocks physical attacks such as slashes and blows.</figcaption></figure>
+        <figure><img src="manual/guard-spell.jpg" alt="Spell guard"><figcaption><strong>Spell guard:</strong> □ + ↓ (uses SP). Blocks Spell attacks.</figcaption></figure>
+        <figure><img src="manual/guard-jump.jpg" alt="Jump"><figcaption><strong>Jump:</strong> □ + ↑. Jump straight up to dodge an attack.</figcaption></figure>
+        <figure><img src="manual/guard-advance.jpg" alt="Advancing guard"><figcaption><strong>Advancing guard:</strong> □ + → (uses SP). Guard while moving forward. When facing left, this input becomes a backstep.</figcaption></figure>
+        <figure><img src="manual/guard-backstep.jpg" alt="Backstep"><figcaption><strong>Backstep:</strong> □ + ← (uses SP). Hop backward to dodge an attack. When facing left, this input lets you slip past the enemy.</figcaption></figure>
+      </div>
+      <h3>Normal attacks</h3>
+      <p>Attack the enemy directly with the weapon the character has equipped. In Semi-Auto mode the character dashes in to attack when the enemy is far away. There are three kinds of weapon attack: normal attacks, three hit normal attacks and jump attacks. The motions differ a little from character to character even with the same input.</p>
+      <div class="row">
+        <figure><img src="manual/attack-slash.jpg" alt="Slash"><figcaption><strong>Slash:</strong> ○. Swing the weapon down from above. The basic attack.</figcaption></figure>
+        <figure><img src="manual/attack-thrust.jpg" alt="Thrust"><figcaption><strong>Thrust:</strong> ↓ + ○. Stab straight ahead with the weapon.</figcaption></figure>
+        <figure><img src="manual/attack-upward.jpg" alt="Upward attack"><figcaption><strong>Upward attack:</strong> ↑ + ○. Swing the weapon upward. Effective against enemies in the air.</figcaption></figure>
+        <figure><img src="manual/attack-sweep.jpg" alt="Sweep"><figcaption><strong>Sweep:</strong> ← + ○. Mow sideways across the enemy.</figcaption></figure>
+      </div>
+      <h4>Three hit normal attack</h4>
+      <p>Keep entering normal attacks and you can link up to three of them. Any combination works. The example shows three slashes: ○, ○, ○.</p>
+      <figure><img src="manual/attack-triple.jpg" alt="Three slashes in a row"></figure>
+      <h4 id="jump">Jump attacks</h4>
+      <p>While dashing after pressing ○ (when the enemy is some distance away), these inputs make the character jump and attack.</p>
+      <div class="row">
+        <figure><img src="manual/jump-slash.jpg" alt="Jump slash"><figcaption><strong>Jump slash:</strong> ○ ... ○. Jump and swing the weapon down from above.</figcaption></figure>
+        <figure><img src="manual/jump-thrust.jpg" alt="Jump thrust"><figcaption><strong>Jump thrust:</strong> ○ ... ↓ + ○. Jump and stab from above.</figcaption></figure>
+        <figure><img src="manual/jump-upward.jpg" alt="Jump upward attack"><figcaption><strong>Jump upward attack:</strong> ○ ... ↑ + ○. Jump and thrust the weapon into the air.</figcaption></figure>
+      </div>
+      <h3 id="skills">Skill and Spell attacks</h3>
+      <p>Skills and Spells are special attacks unique to each character, learned by raising Active Levels (see <a href="#menu">Active Level Graph</a>). They are essential to fighting well. Skills also have a higher tier called Arcane Artes, learned the same way. A Skill can be chained from normal attacks, and an Arcane Arte from normal attacks and Skills.</p>
+      <h4>Using Skills and Spells</h4>
+      <div class="side">
+        <div>
+          <p>Hold a direction on the directional buttons or left stick and press × to use the Skill or Spell registered for that input. L2 and R2 can also hold, and fire, Skills and Spells of characters other than the player character (see <a href="#artes">Artes</a>).</p>
+          <table>
+            <tr><td class="k">(no direction) + ×</td></tr>
+            <tr><td class="k">↑ + ×</td></tr>
+            <tr><td class="k">← / → + ×</td></tr>
+            <tr><td class="k">↓ + ×</td></tr>
+          </table>
+        </div>
+        <figure><img src="manual/arte-use.jpg" alt="Kyle using Wind Slash"></figure>
+      </div>
+      <h4>While casting a Spell</h4>
+      <div class="side">
+        <table>
+          <tr><td class="k">Shorten the cast</td><td>Press the directional buttons or left stick in the direction shown. During the cast a directional button mark appears by the SP and TP gauges. Keep entering what it shows and the casting time gets shorter.</td></tr>
+          <tr><td class="k">Cancel the cast</td><td>Hold □ and press ↑ to stop casting partway.</td></tr>
+          <tr><td class="k">Fine movement</td><td>Hold □ and press ← or → to shift position little by little while casting.</td></tr>
+          <tr><td class="k">Change the enemy (or ally) target</td><td>Hold × and press ← or → to change who the Spell is aimed at, even while casting.</td></tr>
+        </table>
+        <div>
+          <figure><img src="manual/casting.jpg" alt="A character casting"></figure>
+          <figure><img src="manual/casting-zoom.jpg" alt="The direction mark that appears while casting"><figcaption>The direction mark</figcaption></figure>
+        </div>
+      </div>
+      <table>
+        <tr><th colspan="4">Examples of Skills and Spells</th></tr>
+        <tr><th>Character</th><th></th><th>Skill or Spell</th><th>Description</th></tr>
+        <tr><td class="k" rowspan="5">Kyle</td><td class="ic" rowspan="5"><img src="manual/face-kyle.jpg" alt="Kyle"></td><td class="k">Souhajin</td><td>Skill. A slash whose shock wave flies at the enemy.</td></tr>
+        <tr><td class="k">Sanyoujin</td><td>Skill. Sword strokes fast enough to shred falling leaves.</td></tr>
+        <tr><td class="k">Garen Souhajin</td><td>Arcane Arte. A flurry of charged blows that ends in a shock wave.</td></tr>
+        <tr><td class="k">Kuuha Zeppuugeki</td><td>Arcane Arte. Lightning fast thrusts whose gust blows the enemy away.</td></tr>
+        <tr><td class="k">Wind Slash</td><td>Low level Spell. Summons blades of vacuum at any distance from the target.</td></tr>
+        <tr><td class="k" rowspan="5">Reala</td><td class="ic" rowspan="5"><img src="manual/face-reala.jpg" alt="Reala"></td><td class="k">Tenshoudan</td><td>Skill. Leaps and fires a spirit shot downward.</td></tr>
+        <tr><td class="k">Revitalize</td><td>Spell. Restores HP to everyone on the map, or to allies within range in battle.</td></tr>
+        <tr><td class="k">Aqua Spike</td><td>Low level Spell. Launches a fast spinning jet of water.</td></tr>
+        <tr><td class="k">Splash</td><td>Mid level Spell. Pounds the ground with one torrent after another.</td></tr>
+        <tr><td class="k">Final Embrace</td><td>High level Spell. Seals the enemy in a coffin of ice and brings the end.</td></tr>
+        <tr><td class="k" rowspan="5">Loni</td><td class="ic" rowspan="5"><img src="manual/face-loni.jpg" alt="Loni"></td><td class="k">Soudashou</td><td>Skill. A two part attack with a manly punch mixed in.</td></tr>
+        <tr><td class="k">Raijinshou</td><td>Skill. Calls down lightning, the fruit of his training, and unleashes its force.</td></tr>
+        <tr><td class="k">Kappa Bakusougeki</td><td>Arcane Arte. Swings down, hauls the enemy in and drives them back with a charge.</td></tr>
+        <tr><td class="k">Heal</td><td>Spell. Restores one ally's HP.</td></tr>
+        <tr><td class="k">Delta Ray</td><td>Low level Spell. Fires three bolts of light at once.</td></tr>
+        <tr><td class="k" rowspan="5">Judas</td><td class="ic" rowspan="5"><img src="manual/face-judas.jpg" alt="Judas"></td><td class="k">Hirenzan</td><td>Skill. A double slash that can strike airborne enemies.</td></tr>
+        <tr><td class="k">Sourengeki</td><td>Skill. Four strikes with alternating blades.</td></tr>
+        <tr><td class="k">Senretsu Kokousen</td><td>Arcane Arte. Launches the enemy and catches them with thrusts at blinding speed.</td></tr>
+        <tr><td class="k">Stone Zapper</td><td>Low level Spell. Hurls several stones at the enemy in an arc.</td></tr>
+        <tr><td class="k">Air Pressure</td><td>Mid level Spell. Crushes with a gravity field that shatters the very ground.</td></tr>
+        <tr><td class="k" rowspan="5">Nanaly</td><td class="ic" rowspan="5"><img src="manual/face-nanaly.jpg" alt="Nanaly"></td><td class="k">Flare Shot</td><td>Skill. An arrow that explodes on impact.</td></tr>
+        <tr><td class="k">Storm Glare</td><td>Skill. Three arrows loosed in a row with a practiced hand.</td></tr>
+        <tr><td class="k">Flame Drive</td><td>Low level Spell. Several fireballs seek out the enemy.</td></tr>
+        <tr><td class="k">Photon Blaze</td><td>Low level Spell. Creates intense heat in one spot and slays the targeted enemy.</td></tr>
+        <tr><td class="k">Burn Strike</td><td>Mid level Spell. Rains fire bombs that set off powerful blasts on the ground.</td></tr>
+      </table>
+      <h3>Chain attacks</h3>
+      <p>Chaining means attacking without a break: no pause after a blow and no opening for the enemy to hit back. To chain, you have to link the different attacks in a set order. Enchants make longer chains possible. Combine three hit normal attacks with Skills to chain, and use the special situations that come up in the exchange of blows to sharpen your technique.</p>
+      <h4>The basic chain</h4>
+      <p>Normal attacks (three hits), then a Skill, then an Arcane Arte.</p>
+      <figure><img src="manual/chain-basic.jpg" alt="Three hit normal attack, Skill, Arcane Arte"></figure>
+      <h4>Using Action Enchants</h4>
+      <div class="side">
+        <div>
+          <p>Use an Action Enchant (AE, see <a href="#enchant">Enchant</a>) during a Skill or Spell and you can link attacks even more freely. Going from a Skill back into normal attacks, impossible by ordinary means, becomes possible with an Action Enchant. An Action Enchant triggers the extra effect you set through an input such as holding ○.</p>
+          <p>For example: Skill, AE during the Skill, normal attacks (three hits), Skill, Arcane Arte, AE, Spell, and so on.</p>
+        </div>
+        <figure><img src="manual/chain-enchant.jpg" alt="A chain extended with an Action Enchant"></figure>
+      </div>
+      <h3 id="techniques">Techniques in battle</h3>
+      <div class="side">
+        <p>In the give and take of battle, the situations below arise for enemies and allies alike. Some depend on fine conditions such as the amount of SP (Spirits Points) or the number of guards, and using them well makes for a battle with real strategy. Several more situations exist besides these, so experiment and look for them.</p>
+        <figure><img src="manual/techniques.jpg" alt="A Weapon Spark in battle"></figure>
+      </div>
+      <table>
+        <tr><td class="k">Critical Hit</td><td>The attack deals twice the normal damage. SP and TP recover a little, and the enemy is left unable to act for longer than usual.</td></tr>
+        <tr><td class="k">Parry</td><td>Happens when you attack while your SP is low and the opponent evades. The opponent turns aside part of the damage and takes the rest. If the opponent was attacking or otherwise acting at the time, that action is not interrupted.</td></tr>
+        <tr><td class="k">Guard Strike</td><td>Happens when you attack with almost no SP left and the opponent evades. The damage bounces straight back to you and the opponent takes reduced damage. Both the opponent's action and your own attack are interrupted.</td></tr>
+        <tr><td class="k">Guard Break</td><td>Guarding again and again without a pause, past a certain number of guards, breaks the guard stance. The character cannot act for a while.</td></tr>
+        <tr><td class="k">Press Guard</td><td>Block the opponent's attack during an advancing guard to lower the opponent's SP.</td></tr>
+        <tr><td class="k">Break Attack</td><td>With SP at 50% or more, backstep and enter a normal attack the moment you land. It lowers the durability of the opponent's guard.</td></tr>
+        <tr><td class="k">Weapon Spark</td><td>When your weapon and the opponent's strike each other, both are knocked back and cannot act for a while.</td></tr>
+      </table>
+      <p>Parry, Press Guard and Break Attack are not announced by text on screen.</p>
+    </section>
+
+    <section id="characters">
+      <h2>Characters <span class="pages">pages 48 to 52</span></h2>
+      <div class="chars">
+        <div class="char">
+          <img src="manual/char-kyle.jpg" alt="Kyle Dunamis">
+          <div>
+            <h3>Kyle Dunamis</h3>
+            <p class="stats">Age 15 · 160 cm · 55 kg</p>
+            <p>A boy born to two heroes, his father Stahn and his mother Rutee. Stahn set off on another journey when Kyle was small, and Kyle grew up with Loni and the others at the Dunamis Orphanage that Rutee runs. He looks up to the father whose face he does not even know, and never doubts that he will become a hero himself. His straight as an arrow nature and his trouble getting out of bed both come from his father.</p>
+          </div>
+        </div>
+        <div class="char">
+          <img src="manual/char-reala.jpg" alt="Reala">
+          <div>
+            <h3>Reala</h3>
+            <p class="stats">Age 16? · 155 cm · 41 kg</p>
+            <p>A mysterious girl who suddenly appeared from inside a giant Lens. Her presence is what spurs Kyle on to adventure. She is bright and full of curiosity, but also earnest, with a sense of responsibility that runs too strong. She tends to try to settle everything herself and to carry her burdens alone.</p>
+          </div>
+        </div>
+        <div class="char">
+          <img src="manual/char-loni.jpg" alt="Loni Dunamis">
+          <div>
+            <h3>Loni Dunamis</h3>
+            <p class="stats">Age 23 · 180 cm · 75 kg</p>
+            <p>Raised at the Dunamis Orphanage. To Kyle, his childhood friend, he is like an older brother. His flippant words and manner make him seem unreliable, but he is in fact a steady man with a strong sense of justice. He is forever putting the brakes on the reckless Kyle.</p>
+          </div>
+        </div>
+        <div class="char">
+          <img src="manual/char-judas.jpg" alt="Judas">
+          <div>
+            <h3>Judas</h3>
+            <p class="stats">Age 16 · 159 cm · 48 kg</p>
+            <p>A mysterious swordsman who appears whenever Kyle is in a tight spot. He always hides his face behind a mask, so nobody knows who he is. Why he helps Kyle is unknown as well.</p>
+          </div>
+        </div>
+        <div class="char">
+          <img src="manual/char-elraine.jpg" alt="Elraine">
+          <div>
+            <h3>Elraine</h3>
+            <p class="stats">Age 27? · 160 cm · 43 kg</p>
+            <p>The Holy Woman of the Order of Atamoni, revered as a living god. Bringing people happiness is her joy, and she draws on the power of the Lens at will to work miracles. Because of this, there is no end to the people who come to offer up Lens in the hope of receiving her blessing.</p>
+          </div>
+        </div>
+        <div class="char">
+          <img src="manual/char-nanaly.jpg" alt="Nanaly Fletcher">
+          <div>
+            <h3>Nanaly Fletcher</h3>
+            <p class="stats">Age 19 · 162 cm · 49 kg</p>
+            <p>A beautiful woman warrior. Her skill with the bow is strong enough to put men to shame. She holds firmly to her own values and her strength of will stands out, yet she is easily moved and in truth very delicate. With cooking and sewing for hobbies, she has a feminine side too.</p>
+          </div>
+        </div>
+        <div class="char">
+          <img src="manual/char-harold.jpg" alt="Harold Berselius">
+          <div>
+            <h3>Harold Berselius</h3>
+            <p class="stats">Age 23 · 149 cm · 35 kg</p>
+            <p>A famous genius scientist. People tend to assume from the name and the achievements that Harold is a man, which does not bother her in the slightest. Outside of science she is hopeless, no better than a child. She gets so wrapped up in research that she has some alarming catchphrases, like "Be my sample!" and "Collecting data!"</p>
+          </div>
+        </div>
+        <div class="char">
+          <img src="manual/char-barbatos.jpg" alt="Barbatos Goetia">
+          <div>
+            <h3>Barbatos Goetia</h3>
+            <p class="stats">Age 32 · 187 cm · 82 kg</p>
+            <p>A warrior who made his name in the days of the Aeth'er Wars. His strength was a match for Dymlos, one of the Swordians, but he did exactly as he pleased and was erased from history for it. Brought back to life by someone's hand, his reason for fighting may be to seize proof that he ever lived.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="handling">
+      <h2>Handling notes <span class="pages">back pages</span></h2>
+      <p>The last page of the booklet carries the standard PlayStation 2 notices. In short:</p>
+      <ul>
+        <li><strong>Disc case:</strong> press the PUSH button in the middle of the case and lift the disc out once it has popped up. To put it back, press just outside the centre hole until it clicks. Forcing the disc can crack or scratch it.</li>
+        <li><strong>Memory card holder:</strong> with the arrow mark facing up, slide the connector end under the hook on the left at an angle, then press the right end down. To take it out, lift it from the right end.</li>
+        <li><strong>Use:</strong> the disc is for Japanese (NTSC J) PlayStation 2 consoles. Keep it away from direct sunlight, heat and humidity, hold it without touching either surface, do not stick anything on it or write on it, and wipe it gently from the centre outward with a soft cloth. Do not use a cracked, warped or repaired disc.</li>
+        <li><strong>Health:</strong> take a break of about 15 minutes every hour, and about every 30 minutes when playing with vibration. Play in a well lit room, away from the screen, and not when tired or short of sleep. Stop at once and see a doctor if you feel dizzy, sick or unwell while playing.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    Tales of Destiny 2 is a trademark of Bandai Namco. The manual and its artwork belong to their owners. This is a non-commercial fan translation.
+  </footer>
+</body>
+</html>

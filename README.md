@@ -9,6 +9,10 @@ North America) and not the PS1 Tales of Destiny.
 
 Website: https://gandorfin.github.io/Tales-of-Destiny-2/
 
+Manual in English: https://gandorfin.github.io/Tales-of-Destiny-2/manual.html
+(the original PS2 instruction manual, translated with the patch terminology; also as a
+[PDF](https://gandorfin.github.io/Tales-of-Destiny-2/manual/Tales-of-Destiny-2-Manual-EN.pdf))
+
 ## Status
 
 | Version | State |
