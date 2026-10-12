@@ -21,7 +21,9 @@ Steps, in order, on one in-memory copy; the file is written once at the end:
      shows the string after an arte's reading; 27 of those were still the
      kanji. Each gets "reading + menu name" in the pool or in a slot another
      record freed, and its reading pointer is redirected.
-  4. The Latin font (slps_font.py): '&' and '~' had no glyph and '*' was a
+  4. Every pooled string that sits on bytes the game overwrites while it
+     runs (LIVE below) is moved to free pool space, with its pointers.
+  5. The Latin font (slps_font.py): '&' and '~' had no glyph and '*' was a
      star, so an ampersand, a tilde and an asterisk are drawn into the font
      texture and the two ASCII table entries are pointed at them.
 
@@ -36,11 +38,22 @@ except Exception:
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import md1text as M, md1patch as P, slps_menu, slps_artes, slps_font
 BIAS = 0xFF000
-# The spare string pool. Its last 16 bytes (1033504..1033520) are reserved
-# for the two pooled menu labels of slps_menu_patch.json ("Normal+",
-# "Pickaxe"), which sit at the tail so an executable whose titles and
-# cut-ins were already pooled by an earlier version still has room for them.
-POOL_START, POOL_END = 1026832, 1033504
+# The spare string pool, 0xFAB10..0xFC508. It is not unused memory: the
+# zeros are the work area of the game's CD/DVD library (the "PsIIlibcdvd"
+# data, just before "PsIIlibkernl"). The game calls two functions of that
+# library, sceCdInit and sceCdMmode, both while it boots, and they write to
+# the ranges in LIVE. A string stored there is damaged in memory: Kyle's
+# arte Kyoueisou read "Lyoueisou", the Battle Rank "Normal+" and the item
+# "Pickaxe" drew as nothing. The rest of the area belongs to library
+# functions the game never calls, which is why pooled text works at all.
+#   0xFAB10  4 bytes   init counter, incremented by every sceCdInit
+#   0xFBCC0  16 bytes  reply buffer of the init and media mode commands
+#   0xFC100  4 bytes   parameter buffer of the media mode command
+#   0xFC508  40 bytes  RPC client record of the command channel
+# New strings are placed below 0xFC508 and never on a LIVE range.
+POOL_START, POOL_END = 0xFAB10, 0xFC508
+LIVE = ((0xFAB10, 0xFAB14), (0xFBCC0, 0xFBCD0), (0xFC100, 0xFC104), (0xFC508, 0xFC530))
+DATA_START, DATA_END = 0xB7580, 0x135328      # .data and .rodata: where pointers live
 
 FORMER_TITLE_TRANSLATIONS = {
     0x113CE1: 'Meeting a Holy Woman',
@@ -63,6 +76,61 @@ def pool_free_start(d):
     seg = d[POOL_START:POOL_END]
     used = [i for i, b in enumerate(seg) if b != 0]
     return POOL_START + (used[-1] + 2 if used else 0)
+
+
+def _on_live(start, end):
+    return any(start < hi and end > lo for lo, hi in LIVE)
+
+
+def evacuate_live(src):
+    """-> (bytes, [moved texts]). Move every pooled string that touches a
+    LIVE range to free pool space and zero the bytes it leaves.
+
+    A pooled string without a pointer of its own belongs to the string in
+    front of it (a cut-in name follows its reading), so the two move as one
+    unit. The strings of slps_menu_patch.json have fixed places outside
+    LIVE; this pass is for the titles and cut-in names, whose places depend
+    on how much text went into the pool before them."""
+    data = bytearray(src)
+    pointers = {}
+    for at in range(DATA_START, DATA_END - 3, 4):
+        value = struct.unpack_from("<L", data, at)[0] - BIAS
+        if POOL_START <= value < LIVE[-1][1]:
+            pointers.setdefault(value, []).append(at)
+    units = []                              # [start, end) with every NUL but the last
+    p = POOL_START
+    while p < LIVE[-1][1]:
+        if data[p] == 0:
+            p += 1
+            continue
+        e = data.index(b"\0", p)
+        if p in pointers or not units or units[-1][1] + 1 != p:
+            units.append([p, e])
+        else:
+            units[-1][1] = e
+        p = e + 1
+    moved = []
+    for start, end in units:
+        if not _on_live(start, end):
+            continue
+        if not any(start <= t < end for t in pointers):
+            data[start:end] = bytes(end - start)        # nothing points at it
+            continue
+        need = end - start + 1
+        new = pool_free_start(bytes(data))
+        for lo, hi in LIVE:
+            if new < hi and new + need > lo:
+                new = hi
+        if new + need > POOL_END:
+            raise RuntimeError("no pool space left to move the string at 0x%X" % start)
+        block = bytes(data[start:end])
+        data[start:end] = bytes(end - start)
+        data[new:new + need] = block + b"\0"
+        for target in [t for t in pointers if start <= t < end]:
+            for at in pointers[target]:
+                struct.pack_into("<L", data, at, target - start + new + BIAS)
+        moved.append(block.split(b"\0")[0].decode("ascii", "replace"))
+    return bytes(data), moved
 
 
 def load_records(path):
@@ -247,7 +315,15 @@ def patch_one(target, a):
             print(f"arte cut-in names: {e}. Nothing written."); return 1
         print(f"arte cut-in names: {len(pend)} redirected ({slots} into freed slots, {pooled} into the pool, {left} pool bytes left)")
 
-    # Step 4: '&', '~' and '*' glyphs in the Latin font.
+    # Step 4: nothing may stay on the bytes the game overwrites.
+    try:
+        src, moved = evacuate_live(src)
+    except RuntimeError as e:
+        print(f"pool: {e}. Nothing written."); return 1
+    if moved:
+        print("pool: moved off the bytes the game overwrites: " + ", ".join(moved))
+
+    # Step 5: '&', '~' and '*' glyphs in the Latin font.
     try:
         src, changes = slps_font.apply(src)
     except slps_font.FontError as e:

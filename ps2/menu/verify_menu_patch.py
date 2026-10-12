@@ -14,7 +14,8 @@ Nothing is written. Exit code 0 if everything is English, 1 otherwise.
 """
 import csv, os, struct, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-import md1text as M, pak3, lzss, enemy_text, slps_font
+import md1text as M, pak3, lzss, enemy_text, slps_font, slps_menu, world_map_labels, shop_prompt
+import patch_slps_titles
 try:
     sys.stdout.reconfigure(errors="replace")
 except Exception:
@@ -81,7 +82,14 @@ def open_source(args):
         return src.member(int(name.split(".")[0]))
     return slps, member_by_name
 
-def classify(data, off, jp, en):
+def classify(data, off, jp, en, name=None):
+    label=world_map_labels.find(name,off) if name else None
+    if label:
+        # a relocated label: what counts is the copy the script points at
+        text_start=label.member+struct.unpack_from("<I",data,label.member+8)[0]
+        if struct.unpack_from("<H",data,label.instruction+1)[0]!=label.target-text_start:
+            return "jp"
+        off=label.target
     r=M.decode_at(data,off)
     if not r: return "other"
     if r[0]==en: return "en"
@@ -104,7 +112,7 @@ def verify_enemy_text(member):
             if data is not None:
                 decoded=enemy_text.decode_literal(data,int(r["offset"],16))
                 if decoded:
-                    text=decoded[0].rstrip()
+                    text=decoded[0].strip()          # banners are centered with spaces
                     if text==r["english"]: state="en"
                     elif text==r["japanese"]: state="jp"
             total[state]+=1
@@ -140,7 +148,7 @@ def verify_enemy_text(member):
     for data in mystic_blobs:
         for match in enemy_text.LITERAL.finditer(data):
             decoded=enemy_text.decode_literal(data,match.end())
-            if decoded: mystic_literals.append(decoded[0].rstrip())
+            if decoded: mystic_literals.append(decoded[0].strip())
     mystic={"en":0,"jp":0,"other":0}
     for japanese,english in enemy_text.MYSTIC_ARTE_TRANSLATIONS.items():
         jp=mystic_literals.count(japanese)
@@ -168,10 +176,16 @@ def main():
         data=member(name)
         if data is None: print(f"{name:<12}  (missing)"); continue
         c={"en":0,"jp":0,"other":0}
-        for r in recs: c[classify(data,int(r["offset"],16),r["japanese"],r["english"])]+=1
+        for r in recs: c[classify(data,int(r["offset"],16),r["japanese"],r["english"],name)]+=1
         for k in c: total[k]+=c[k]
         verdict="PATCHED" if c["en"]==len(recs) else ("NOT patched" if c["jp"]==len(recs) else "MIXED")
-        print(f"{name:<12}{c['en']:>8}{c['jp']:>10}{c['other']:>7}  {verdict}")
+        note=""
+        if name=="06803.md1":
+            try: sell=shop_prompt.apply(bytearray(data))==(0,1)
+            except ValueError: sell=False
+            if not sell: total["other"]+=1
+            note="   sell prompt: " + ("repaired" if sell else "still shows iH*")
+        print(f"{name:<12}{c['en']:>8}{c['jp']:>10}{c['other']:>7}  {verdict}{note}")
     # compressed module containers: these are the copies the game actually loads
     groups={name:[(int(r["offset"],16),r["japanese"],r["english"]) for r in recs] for name,recs in rows.items()}
     for name in ("00017.pak3","00021.pak3"):
@@ -181,7 +195,7 @@ def main():
         except Exception: print(f"{name:<12}  (unreadable)"); continue
         for k,(off,blob) in enumerate(members):
             if not lzss.is_packed(blob): continue
-            mod=lzss.unpack(blob); which=pak3.identify(mod,groups)
+            mod=lzss.unpack(blob); which=pak3.identify(mod,groups,pak3.load_formers())
             if which is None: continue
             en,jp,other=pak3.classify(mod,groups[which])
             for key,val in (("en",en),("jp",jp),("other",other)): total[key]+=val
@@ -208,6 +222,12 @@ def main():
         fv = "PATCHED" if glyphs and table else ("NOT patched" if not (glyphs or table) else "MIXED")
         print(f"{'SLPS font':<12}{'&~*' if glyphs else '':>8}{'':>10}{'':>7}  {fv} (ampersand, tilde, asterisk glyphs)")
         ok = ok and glyphs and table
+        manifest = slps_menu.is_applied(slps, slps_menu.load())
+        print(f"{'SLPS menu':<12}{'':>8}{'':>10}{'':>7}  {'PATCHED' if manifest else 'NOT current'} (slps_menu_patch.json)")
+        live = [f"0x{lo:X}" for lo, hi in patch_slps_titles.LIVE if any(slps[lo:hi])]
+        print(f"{'SLPS pool':<12}{'':>8}{'':>10}{'':>7}  " + ("clean" if not live else
+              "TEXT ON BYTES THE GAME OVERWRITES at " + ", ".join(live) + " (run patch_slps_titles.py)"))
+        ok = ok and manifest and not live
     else:
         print("(no SLPS given, titles not checked)")
     print("\nEverything English." if ok else "\nSome strings are NOT English in this build.")

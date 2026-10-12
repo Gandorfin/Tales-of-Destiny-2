@@ -21,6 +21,10 @@ import struct
 BIAS = 0xFF000
 TABLE = (0xB7000, 0xBA000)
 STRIDE = 0x1C
+# Where a record's three pointers may lead: the string area the 2008 patch
+# and the spare pool share, or the second pool of slps_menu_patch.json (the
+# zero run after the destination list, where Kyoueisou's menu name lives).
+TEXT_AREAS = ((0x1F0000, 0x200000), (0x115E54 + BIAS, 0x115F60 + BIAS))
 
 
 def _lead(b):
@@ -40,7 +44,7 @@ def records(d):
     o = TABLE[0]
     while o + STRIDE <= TABLE[1]:
         w = struct.unpack_from('<7L', d, o)
-        if all(0x1F0000 <= v < 0x200000 for v in w[4:7]):
+        if all(any(lo <= v < hi for lo, hi in TEXT_AREAS) for v in w[4:7]):
             out.append(o)
             o += STRIDE
         else:

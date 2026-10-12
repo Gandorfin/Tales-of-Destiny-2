@@ -16,9 +16,10 @@
     "old_string_hex": "E2C19E91E07C",
     "pointer_offset": 752140,
     "old_pointer_hex": "7BE11F00",
-    "pool_offset": 1026832,
+    "pool_offset": 1138260,
     "pool_hex": "4B796F756569736F7500",
-    "new_pointer_hex": "109B1F00"
+    "new_pointer_hex": "544E2100",
+    "former_pool_offset": 1026832
    },
    {
     "group": "artes",
@@ -1663,6 +1664,42 @@
    "display": "Two Holy Women serve Fortuna:<line>Elrane and Reala.",
    "old_hex": "54776F20686F6C79206D616964656E7320736572766520466F7274756E613A01456C7261696E6520616E64205265616C612E0000000000000000000000",
    "new_hex": "54776F20486F6C7920576F6D656E20736572766520466F7274756E613A01456C72616E6520616E64205265616C612E0000000000000000000000000000"
+  },
+  {
+   "group": "boot",
+   "label": "Return path of the Preview",
+   "offset": 1042072,
+   "old_text": "cdrom0:\\",
+   "display": "cdrom0:\\SLPS_251.72",
+   "old_hex": "6364726F6D303A5C000000000000000000000000",
+   "new_hex": "6364726F6D303A5C534C50535F3235312E373200"
+  },
+  {
+   "group": "arte_description",
+   "label": "Shinkuu Kassaijin",
+   "offset": 1046162,
+   "old_text": "Arcane: <O\"I descend from the Heavens<line>to deliver death unto thee.\"C>",
+   "display": "Arcane: \"I descend from the heavens<line>to deliver death unto thee.\"",
+   "old_hex": "417263616E653A203C4F22492064657363656E642066726F6D207468652048656176656E7301746F2064656C6976657220646561746820756E746F20746865652E22433E",
+   "new_hex": "417263616E653A2022492064657363656E642066726F6D207468652068656176656E7301746F2064656C6976657220646561746820756E746F20746865652E2220202020"
+  },
+  {
+   "group": "item_description",
+   "label": "Demon's Finger gloves",
+   "offset": 1066666,
+   "old_text": "The gloves of a royal sage.<line>Also known as <O\"The Demon's Finger.\"C>",
+   "display": "The gloves of a royal sage.<line>Also known as \"The Demon's Finger.\"",
+   "old_hex": "54686520676C6F766573206F66206120726F79616C20736167652E01416C736F206B6E6F776E206173203C4F225468652044656D6F6E27732046696E6765722E22433E",
+   "new_hex": "54686520676C6F766573206F66206120726F79616C20736167652E01416C736F206B6E6F776E20617320225468652044656D6F6E27732046696E6765722E2220202020"
+  },
+  {
+   "group": "item_description",
+   "label": "Carrot",
+   "offset": 1090508,
+   "old_text": "A great source of carotene and loved<line>by rabbits.<line>The Japanese call them <O\"Ninjin.\"C>",
+   "display": "A great source of carotene and loved<line>by rabbits.<line>The Japanese call them \"Ninjin.\"",
+   "old_hex": "4120677265617420736F75726365206F66206361726F74656E6520616E64206C6F76656401627920726162626974732E01546865204A6170616E6573652063616C6C207468656D203C4F224E696E6A696E2E22433E",
+   "new_hex": "4120677265617420736F75726365206F66206361726F74656E6520616E64206C6F76656401627920726162626974732E01546865204A6170616E6573652063616C6C207468656D20224E696E6A696E2E2220202020"
   }
  ],
  "counts": {
@@ -1674,8 +1711,8 @@
   "remaining_status_descriptions": 48,
   "cooking_description_slots": 49,
   "misc_menu_descriptions": 9,
-  "new_unique_in_place_records": 95,
-  "new_redirect_records": 59,
+  "new_unique_in_place_records": 99,
+  "new_redirect_records": 61,
   "enchant_description_width": 20
  },
  "previous_patched_sha256": "3A2A78B0AD419FC3A6F56C7916F4030D38658B5F7A2FEDEDBABCCAE32FEF23CE",
@@ -2914,11 +2951,12 @@
    "label": "Foil Grill failure",
    "pointer_offset": 819180,
    "old_pointer_hex": "78EA2000",
-   "new_pointer_hex": "9EAC1F00",
-   "pool_offset": 1031326,
+   "new_pointer_hex": "804E2100",
+   "pool_offset": 1138304,
    "pool_hex": "4875683F2044696420697420616C77617973207461737465206C696B6520746869732E2E2E3F01596F7520776F6E646572207768696C652063686577696E6720646F776E016F6E2061206D6F75746866756C206F6620666F696C2E2E2E00",
    "old_text": "あれ？<line>こんな味だったなぁ\\\\\\\\？<line>ホイルを奥歯でかみしめながら考える\\\\\\\\",
-   "display": "Huh? Did it always taste like this...?<line>You wonder while chewing down<line>on a mouthful of foil..."
+   "display": "Huh? Did it always taste like this...?<line>You wonder while chewing down<line>on a mouthful of foil...",
+   "former_pool_offset": 1031326
   },
   {
    "group": "cooking_description",
@@ -3062,22 +3100,24 @@
    "label": "Battle Rank Normal+",
    "pointer_offset": 786336,
    "old_pointer_hex": "03232000",
-   "new_pointer_hex": "20B51F00",
-   "pool_offset": 1033504,
+   "new_pointer_hex": "5E4E2100",
+   "pool_offset": 1138270,
    "pool_hex": "4E6F726D616C2B00",
    "old_text": "Second",
-   "display": "Normal+"
+   "display": "Normal+",
+   "former_pool_offset": 1033504
   },
   {
    "group": "menu_label",
    "label": "Pickaxe",
    "pointer_offset": 788584,
    "old_pointer_hex": "409C2000",
-   "new_pointer_hex": "28B51F00",
-   "pool_offset": 1033512,
+   "new_pointer_hex": "664E2100",
+   "pool_offset": 1138278,
    "pool_hex": "5069636B61786500",
    "old_text": "Pick",
-   "display": "Pickaxe"
+   "display": "Pickaxe",
+   "former_pool_offset": 1033512
   },
   {
    "group": "menu_label",
@@ -3090,6 +3130,28 @@
    "old_text": "God's Egg",
    "display": "Atamoni Ovum",
    "note": "written into the zero tail after the unreferenced second copy of the destination list at 0x115E3D"
+  },
+  {
+   "group": "item_name",
+   "label": "Ochre prefix (trailing space)",
+   "pointer_offset": 757776,
+   "old_pointer_hex": "DE112000",
+   "new_pointer_hex": "6E4E2100",
+   "pool_offset": 1138286,
+   "pool_hex": "4F636872652000",
+   "old_text": "Ochre",
+   "display": "Ochre "
+  },
+  {
+   "group": "item_name",
+   "label": "Laevateinn",
+   "pointer_offset": 791552,
+   "old_pointer_hex": "6D7C2000",
+   "new_pointer_hex": "754E2100",
+   "pool_offset": 1138293,
+   "pool_hex": "4C616576617465696E6E00",
+   "old_text": "Levantine",
+   "display": "Laevateinn"
   }
  ],
  "pool_used_end": 1031799

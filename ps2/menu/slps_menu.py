@@ -13,13 +13,18 @@ semantics follow the original installer exactly:
   offset; the previous one is applied first, so both a clean base and an
   executable carrying the earlier wording end up with the new text)
 * redirect entries: like legacy entries, for the later additions
+* a legacy or redirect entry may carry "former_pool_offset": an earlier
+  manifest kept its text there, in bytes the game turned out to overwrite
+  (see LIVE in patch_slps_titles.py). An executable in that state gets the
+  text at the new place, the pointer follows and the old bytes are zeroed
 
 Every operation is verified before anything is written, already-applied
 operations are skipped, and the result is asserted afterwards. The
 untouched Japanese retail executable is rejected, as in the original.
 """
-import hashlib, json, os
+import hashlib, json, os, struct
 
+BIAS = 0xFF000                  # pointer value = file offset + BIAS
 RAW_JAPANESE = "1E6F9FB325B6E35B34C2FAB46D3ABCB611B1BCB513BF09555CC8766944160367"
 
 
@@ -39,6 +44,23 @@ class GuardError(Exception):
     pass
 
 
+def _moved(d, e, pool, new_p, name):
+    """Move an entry an earlier manifest pooled at former_pool_offset.
+    -> True when the executable was in that state and has been updated."""
+    former = e.get("former_pool_offset")
+    if former is None or not _at(d, e["pointer_offset"], struct.pack("<L", former + BIAS)):
+        return False
+    if not _zero(d, e["pool_offset"], len(pool)) and not _at(d, e["pool_offset"], pool):
+        raise GuardError('reserved text area occupied for "%s"' % name)
+    end = former
+    while end < len(d) and d[end]:
+        end += 1
+    d[former:end] = bytes(end - former)         # its terminator stays
+    d[e["pool_offset"]:e["pool_offset"] + len(pool)] = pool
+    d[e["pointer_offset"]:e["pointer_offset"] + 4] = new_p
+    return True
+
+
 def apply(src, manifest):
     """-> (new_bytes, number_of_changes). Raises GuardError if any guard fails."""
     if len(src) != manifest["source_size"]:
@@ -55,6 +77,9 @@ def apply(src, manifest):
         # guard: on a fully patched executable the later steps (the arte
         # cut-ins) may reuse the dead Japanese slot the guard looks at
         if _at(d, e["pointer_offset"], new_p) and _at(d, e["pool_offset"], pool):
+            continue
+        if _moved(d, e, pool, new_p, e["english"]):
+            changes += 1
             continue
         prev = e.get("previous_pool_hex")
         if prev and _at(d, e["pointer_offset"], new_p) and _at(d, e["pool_offset"], _h(prev)):
@@ -96,6 +121,9 @@ def apply(src, manifest):
     for e in manifest["redirect_entries"]:
         old_p, new_p, pool = _h(e["old_pointer_hex"]), _h(e["new_pointer_hex"]), _h(e["pool_hex"])
         if _at(d, e["pointer_offset"], new_p) and _at(d, e["pool_offset"], pool):
+            continue
+        if _moved(d, e, pool, new_p, e["label"]):
+            changes += 1
             continue
         if not _at(d, e["pointer_offset"], old_p):
             raise GuardError('pointer guard failed for "%s"' % e["label"])
