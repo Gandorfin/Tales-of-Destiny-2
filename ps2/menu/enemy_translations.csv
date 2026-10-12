@@ -63,7 +63,7 @@ file,offset,bytes,japanese,english
 08196.pak1,0x642,22,「貴様の＜時＞を頂く」,Your time is mine.
 08196.pak1,0x667,30,「苦しむヒマを与えぬも慈悲か」,No time to suffer. A mercy.
 08196.pak1,0x69D,22,エンチャント・ダメージ,Enchant Damage
-08196.pak1,0x6FD,36,「リザレクション・・？退屈な奴らだ」,Resurrection...? How tiresome.
+08196.pak1,0x6FD,36,「リザレクション・・？退屈な奴らだ」,Revitalize...? How boring...
 08196.pak1,0x77E,22,私の背後に立つな・・・,Never stand behind me.
 08198.pak1,0x5F1,14,メギドフレイム,Megiddo Flame
 08198.pak1,0x638,24,-トム・ティット・トット-,-Tom Tit Tot-
@@ -158,5 +158,5 @@ file,offset,bytes,japanese,english
 08727.pak1,0x642,22,「貴様の＜時＞を頂く」,Your time is mine.
 08727.pak1,0x667,30,「苦しむヒマを与えぬも慈悲か」,No time to suffer. A mercy.
 08727.pak1,0x69D,22,エンチャント・ダメージ,Enchant Damage
-08727.pak1,0x6FD,36,「リザレクション・・？退屈な奴らだ」,Resurrection...? How tiresome.
+08727.pak1,0x6FD,36,「リザレクション・・？退屈な奴らだ」,Revitalize...? How boring...
 08727.pak1,0x77E,22,私の背後に立つな・・・,Never stand behind me.

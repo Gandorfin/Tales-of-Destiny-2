@@ -15,10 +15,12 @@ translated ending-credit overlay without losing its five dialogue subtitles.
   changing its text or timing.
 * `ending_credits.tsv` contains 323 measured credit rows. `KEEP` rows are
   already Latin text or logos. Two-column translations use `left / right`.
+  The studio the original roll spells `J.C.STUFF` (twice) is covered and
+  written `J.C.STAFF`, the company's name.
   A trailing `?` marks an unverified name reading and is not rendered.
 * `credits_ass.py` validates the table and pinned font, fits every translated
   line to the measured credit region, and generates `ending_credits.ass`.
-  The generated file contains 765 events.
+  The generated file contains 769 events.
 * `fonts/Ubuntu-Bold.ttf` is the pinned render font. Its required SHA-256 is
   `679b5c1e09cab3156bb8ef529735f9382bf31ca7ac737382ab959297f8d82ad4`.
   Its licence is `LICENSES/Ubuntu-UFL.txt`.

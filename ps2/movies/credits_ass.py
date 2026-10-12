@@ -229,7 +229,7 @@ def events(metrics: TrueTypeMetrics) -> list[tuple[int, float, float, str, str]]
             result.append((1, start, end, "Credit", translated))
     result.append((
         1, 426.2, 436.6, "Card",
-        "{\\an2\\pos(320,420)\\fad(600,600)}English translation patch\\NGreen Gel",
+        "{\\an2\\pos(320,420)\\fad(600,600)}Green Gel Group\\NEnglish Patch",
     ))
     return result
 
