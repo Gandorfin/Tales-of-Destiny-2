@@ -111,7 +111,8 @@ def evacuate_live(src):
         p = e + 1
     moved = []
     for start, end in units:
-        if not _on_live(start, end):
+        # end is the final NUL; that byte must survive library writes too.
+        if not _on_live(start, end + 1):
             continue
         if not any(start <= t < end for t in pointers):
             data[start:end] = bytes(end - start)        # nothing points at it

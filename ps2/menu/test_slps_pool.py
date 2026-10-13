@@ -144,6 +144,32 @@ class Evacuation(unittest.TestCase):
         self.assertEqual(out[0xFBCB0:0xFBCC4], bytes(20))
         self.assertEqual(T.evacuate_live(out), (out, []))
 
+    def test_strings_with_their_terminator_on_live_memory_are_moved(self):
+        for boundary in (0xFBCC0, 0xFC100):
+            with self.subTest(boundary=hex(boundary)):
+                d = self.image()
+                old = boundary - 8
+                pointer = self.put(d, old, b"12345678")
+                self.put(d, 0xFC200, b"Tail")
+                out, moved = T.evacuate_live(bytes(d))
+                self.assertEqual(moved, ["12345678"])
+                target = struct.unpack_from("<L", out, pointer)[0] - BIAS
+                self.assertFalse(T._on_live(target, target + 9))
+                self.assertEqual(out[target:target + 9], b"12345678\0")
+                self.assertEqual(out[old:boundary + 1], bytes(9))
+                self.assertEqual(len(out), len(d))
+                self.assertEqual(T.evacuate_live(out), (out, []))
+                runtime = bytearray(out)
+                for lo, hi in T.LIVE:
+                    runtime[lo:hi] = b"X" * (hi - lo)
+                self.assertEqual(runtime[target:target + 9], b"12345678\0")
+
+    def test_terminator_on_the_final_live_range_reports_a_full_pool(self):
+        d = self.image()
+        self.put(d, T.POOL_END - 8, b"12345678")
+        with self.assertRaises(RuntimeError):
+            T.evacuate_live(bytes(d))
+
     def test_unreferenced_bytes_are_cleared_not_moved(self):
         d = self.image()
         self.put(d, 0xFC520, b"Orphan", pointer=False)

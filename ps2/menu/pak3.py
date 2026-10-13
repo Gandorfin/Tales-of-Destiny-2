@@ -58,7 +58,8 @@ def load_formers(csv_path=None):
                                         "menu_former_translations.csv")
     formers = {}
     if os.path.exists(csv_path):
-        with open(csv_path, encoding="utf-8", newline="") as f:
+        # Decoded game strings use LF regardless of the CSV checkout style.
+        with open(csv_path, encoding="utf-8", newline=None) as f:
             for r in csv.DictReader(f):
                 formers.setdefault((r["file"], int(r["offset"], 16)), set()).add(r["english"])
     return formers

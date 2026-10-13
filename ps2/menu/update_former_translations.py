@@ -27,7 +27,9 @@ def git(*args):
 
 
 def rows(text):
-    return list(csv.DictReader(io.StringIO(text, newline="")))
+    # Game text uses LF. Normalize both history and working-copy fields
+    # before comparing them, including newlines inside quoted CSV values.
+    return list(csv.DictReader(io.StringIO(text, newline=None)))
 
 
 def main():
