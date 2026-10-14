@@ -68,14 +68,15 @@ MAJOR ANTAGONISTS AND DEITIES
   Weapon: battleaxe.
 
 [LOCK] エルレイン (Erurein) -> Elrane
-  Holy Woman and head of the Order of Atamoni; worshiped as a living manifestation
+  Saintess and head of the Order of Atamoni; worshiped as a living manifestation
   of Fortuna.
   Do not alternate with "Elraine" in translated text.
 
-[LOCK] 聖女 -> Holy Woman
-  Title shared by Elrane and Reala (the "two Holy Women").
-  Decision by Gandorff (2026-08-17): use Holy Woman, not "Saintess",
-  in translated text. Game text uses Holy Woman (23 lines).
+[LOCK] 聖女 -> Saintess
+  Title shared by Elrane and Reala (the "two Saintesses").
+  The 2026-08-17 decision for "Holy Woman" was reversed: since v1.2.2 the
+  game text is standardized on Saintess (35 scenario lines, 9 skit lines,
+  no Holy Woman left). Do not use "Holy Woman".
 
 [LOCK] フォルトゥナ (Forutuna) -> Fortuna
   Final antagonist and deity worshiped in the altered/future era.
@@ -255,8 +256,10 @@ RACES, HISTORY, TECHNOLOGY, AND CORE LORE
 [LOCK] ラディスロウ / source spelling variants -> Radisrol
   Er'ther command vessel/base associated with the Aeth'er Wars.
 
-[LOCK] 飛行竜 / flying craft context -> Flying Dragon
-  Use only where the Japanese identifies this vehicle.
+[LOCK] 飛行竜 / flying craft context -> Draconis
+  Use only where the Japanese identifies this vehicle; usually "the
+  Draconis" ("a Draconis" for one of several). Standardized in v1.2.2: the
+  game text has 72 Draconis lines and no "Flying Dragon".
 
 [LOCK] ルミナ・ドラコニス -> Lumina Draconis
   Airship name used in established English Tales terminology.
@@ -339,7 +342,8 @@ CALVALESE
   [LOCK] Trash Mountain
   [LOCK] Heat River
   [LOCK] Devil's Reef
-  [LOCK] Egg of God
+  [LOCK] Atamoni Ovum (神の卵; formerly "Egg of God", renamed everywhere
+         including the world map label since v1.2.7)
   [LOCK] Shrine of Light
 
 FITZGALD
