@@ -12,8 +12,9 @@ timing and every navigation unit's packs. A unit that does not fit its
 original packs lowers the bitrate and encodes again. Each result is checked:
 same picture count, decoder buffer within the P-STD size, positive margin.
 
-The ending movie (006) gets its five dialogue lines only: the PSP staff roll
-differs from the PS2 one, so the PS2 credits overlay does not apply.
+The ending movie (006) also gets the English staff roll: the PSP roll
+differs from the PS2 one, so it has its own table and overlay
+(psp_credits.py, psp_credits.tsv, psp_credits.ass).
 
     python psp_movies.py <Japanese ISO> <work dir> [--ffmpeg PATH] [--only 011 ...]
 
@@ -45,6 +46,8 @@ MOVIES = {
     '012': '00007',
 }
 ISO_PATH = '/PSP_GAME/USRDIR/movie/%s.pmf'
+# extra overlays: the PSP's own staff roll in the ending (psp_credits.py)
+OVERLAYS = {'006': (os.path.join(HERE, 'psp_credits.ass'),)}
 FIRST_RATE = 0.92  # first attempt: 92 % of each unit's capacity
 FRAME_BYTES = 480 * 272 * 3 // 2
 RETRIES = 8
@@ -113,10 +116,11 @@ def write_ass(cues, path):
             f.write('Dialogue: 0,%s,%s,Default,,0,0,0,,%s\n' % (ts(start), ts(end), text))
 
 
-def render(ffmpeg, src, ass, frames, out):
-    """Decode the PSP video and burn the subtitles into raw 4:2:0 frames."""
+def render(ffmpeg, src, ass, frames, out, overlays=()):
+    """Decode the PSP video and burn the subtitles (and any extra ASS
+    overlays, e.g. the staff roll) into raw 4:2:0 frames."""
     esc = lambda p: p.replace('\\', '/').replace(':', '\\:').replace("'", "\\'")
-    vf = "subtitles=filename='%s':fontsdir='%s'" % (esc(ass), esc(FONTS))
+    vf = ','.join("subtitles=filename='%s':fontsdir='%s'" % (esc(a), esc(FONTS)) for a in (ass,) + tuple(overlays))
     subprocess.run([ffmpeg, '-y', '-loglevel', 'error', '-i', src, '-an', '-vf', vf, '-fps_mode', 'passthrough',
                     '-pix_fmt', 'yuv420p', '-f', 'rawvideo', out], check=True)
     if os.path.getsize(out) != frames * FRAME_BYTES:
@@ -166,7 +170,7 @@ def strip_user_data(pic):
     return bytes(out)
 
 
-def build_movie(ffmpeg, src_pmf, srt, out_pmf, work, log=print):
+def build_movie(ffmpeg, src_pmf, srt, out_pmf, work, log=print, overlays=()):
     os.makedirs(work, exist_ok=True)
     original = open(src_pmf, 'rb').read()
     movie = psp_pmf.parse(original)
@@ -180,7 +184,7 @@ def build_movie(ffmpeg, src_pmf, srt, out_pmf, work, log=print):
     ass = os.path.join(work, 'subtitles.ass')
     write_ass(cues, ass)
     raw = os.path.join(work, 'frames.yuv')
-    render(ffmpeg, src_pmf, ass, len(pics), raw)
+    render(ffmpeg, src_pmf, ass, len(pics), raw, overlays)
     factor = [FIRST_RATE] * len(units)
     key_q = [None] * len(units)
     new = [None] * len(pics)
@@ -246,7 +250,7 @@ def build(iso, work, ffmpeg=None, only=None, log=print):
         dst = os.path.join(work, psp + '.pmf')
         log('movie %s (PS2 %s):' % (psp, ps2))
         build_movie(ffmpeg, src, os.path.join(SUBTITLES, ps2 + '.en.srt'), dst,
-                    os.path.join(work, psp + '.work'), log)
+                    os.path.join(work, psp + '.work'), log, OVERLAYS.get(psp, ()))
         out.append((ISO_PATH % psp, dst))
     return out
 

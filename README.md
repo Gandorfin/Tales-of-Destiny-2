@@ -184,7 +184,8 @@ The whole pipeline is one command, `python3 psp/tools/build_psp.py`, which:
   put back by `psp_pmf.py`, which keeps the audio, the pack timing and the
   decoder buffer limits of the original file. Needs an FFmpeg with libass and
   libx264 (`--ffmpeg`, or `pip install imageio-ffmpeg`). The PSP ending has its
-  own staff roll, so its credits are not translated yet
+  own staff roll (porting staff added, names reordered), so it gets its own
+  measured table and English overlay (`psp_credits.py`, `psp_credits.tsv`)
 * rebuilds the font member with lowercase glyphs and applies SkyBladeCloud's
   font-selection patch to every ASCII text walker so dialogue, names and menus
   render in mixed case; the bold icon-font menu text (party names in the menu,
