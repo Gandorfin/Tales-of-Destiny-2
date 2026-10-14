@@ -17,8 +17,8 @@ Manual in English: https://gandorfin.github.io/Tales-of-Destiny-2/manual.html
 
 | Version | State |
 |---|---|
-| PS2 (SLPS-25172) | **Complete.** Latest release: **QS v1.2.3** ([releases](https://github.com/Gandorfin/Tales-of-Destiny-2/releases/latest)) |
-| PSP (ULJS-00097) | **Playable. Latest release: PSP patch v0.2.0.** Full script, skits, menus, items, artes, titles, descriptions and the Monster Book are English; dialogue, names and menus render in mixed case (SkyBladeCloud's font-selection hack). A few menu/UI corners are still Japanese (see PSP port below) |
+| PS2 (SLPS-25172) | **Complete.** Latest release: **QS v1.2.7** ([releases](https://github.com/Gandorfin/Tales-of-Destiny-2/releases/latest)) |
+| PSP (ULJS-00097) | **Playable. Latest release: PSP patch v0.2.0.** Full script, skits, menus, items, artes, titles, descriptions and the Monster Book are English; dialogue, names and menus render in mixed case (SkyBladeCloud's font-selection hack). The v0.2.1 pre-release is the same build without that font hack (capitals only) for devices and real hardware where v0.2.0 has problems. A few menu/UI corners are still Japanese (see PSP port below) |
 
 The PS2 patch covers the whole game:
 
@@ -35,10 +35,16 @@ The PS2 patch covers the whole game:
   monologue, the Quiz Book
 * the in-game videos with dialogue, hard-subtitled, and an English
   ending staff roll
-* a redrawn Latin font (since v1.2.3, drawn by Dreck)
+* a redrawn Latin font (since v1.2.3, drawn by dreck)
 
-What is still Japanese in the PS2 build is the handful of strings the tools
-cannot reach yet (see the open items in `ps2/menu/README.md`).
+The only Japanese players still report in the PS2 build is the Magical Pot
+prompt (under investigation) and text that is part of a texture, such as a
+poster in the Katz Village. Known open issues: the Refine screen does not show
+the required Lens, the enchant level up message is cut off at about 32
+characters (so it is shortened), and skit lines are shortened to fit the voice
+timing; a per line skit speed fix based on SkyBladeCloud's finding is being
+tested so full length skit lines can return. Details are in the open items of
+`ps2/menu/README.md`.
 
 ## Getting the PS2 patch
 
@@ -66,14 +72,15 @@ The one-command build from source is `python3 psp/tools/build_psp.py <JP.iso>
 <out.iso> --version 0.2.0` (extracts, patches BOOT.BIN and the archive,
 verifies, writes the English ISO). `--version` is the number that appears as
 "Green Gel Patch v0.2.0" on the title screen, so pass the one you are
-releasing.
+releasing. `--lowercase-font off` leaves out the lowercase font hack (that is
+how v0.2.1 was built).
 
 ### Making a release (maintainers)
 
 After building the patched ISO as described below:
 
 ```
-xdelta3 -e -9 -S none -s "Tales of Destiny 2 (Japan).iso" patched.iso "[Green Gel] ToD2 patch v1.2.3 (PS2).xdelta"
+xdelta3 -e -9 -S none -s "Tales of Destiny 2 (Japan).iso" patched.iso "[Green Gel] ToD2 patch v1.2.7 (PS2).xdelta"
 ```
 
 `-S none` turns off the secondary compression that some patchers cannot
@@ -120,11 +127,11 @@ Short version; the details are in `ps2/menu/README.md` ("Applying it") and
    python ps2/menu/patch_menu_text.py ps2/PyTOD2/FPB
    python ps2/menu/sfm_text.py build ps2/PyTOD2/FPB
    python ps2/menu/enemy_text.py build ps2/PyTOD2/FPB
-   python ps2/menu/title_credit.py ps2/PyTOD2/FPB --version 1.2.3
+   python ps2/menu/title_credit.py ps2/PyTOD2/FPB --version 1.2.7
    python ps2/menu/patch_slps_titles.py ps2/PyTOD2/SLPS_251.72
    ```
    `title_credit.py` redraws the Japanese designer credit under the title
-   menu as "Green Gel v1.2.3" (the Namco line below it is kept). The game
+   menu as "Green Gel v1.2.7" (the Namco line below it is kept). The game
    draws only the first 96 pixels of that line, so the label is short and
    condensed; the tool refuses anything wider.
 4. Pack FPB and put `new_FILE.FPB` and `new_SLPS_251.72` into the ISO. Do
@@ -217,6 +224,9 @@ issue or a PR). What we have worked out so far:
 * **Monster Book display names** still show Japanese even though the battle
   enemy names are translated, so the book UI reads names from a second, not-yet
   located source.
+* **Real hardware compatibility.** The lowercase font hack of v0.2.0 does not
+  work on every device and can crash now and then; v0.2.1 is built without it
+  and renders capitals. A new PSP font that works everywhere is in progress.
 
 A format-aware Japanese-string scanner for the PSP ISO (walks every FPB member,
 nested SCPK/PAK/deflate containers, and the game's glyph encoding) is described
@@ -310,11 +320,15 @@ subheaders, then a 128 x 512 4-bit pixel matrix, low nibble first.
 
 * `Gandorff` for leading and maintaining the project, the translation, and the
   tooling
-* `casino3346` for the PS2 and PSP ports and translation work
-* `pnvnd` for terminology, the Lifebottle style reference, and the
-  format-aware PSP Japanese-string scanner
-* `SkyBladeCloud` (GBAtemp) for the original file-format research and for
-  reverse engineering the PSP font system and lowercase font-selection hack
+* `casino3346` for the PS2 and PSP ports, translation work, and the English
+  manual
+* `pnvnd` for terminology, the Lifebottle style reference, the format-aware
+  PSP Japanese-string scanner, and full PS2 playtests with the feedback sheets
+* `SkyBladeCloud` (GBAtemp) for the original file-format research, for
+  reverse engineering the PSP font system and lowercase font-selection hack,
+  and for finding the PS2 and PSP skit text speed control
+* `dreck` for the redrawn PS2 Latin font, the PSP font work, and the skit
+  timing analysis
 * `Amarant01` for the font graphics: https://www.behance.net/deco-7105af
 * `Lanyn` for permission to use the Tales of Destiny 2 English translation
   script: https://www.youtube.com/user/lanyn/videos
@@ -322,3 +336,6 @@ subheaders, then a 128 x 512 4-bit pixel matrix, low nibble first.
   for the skit and scenario extraction tools
 * `alizor` for the Python scripts to extract and repack the PS2 and PSP archives
 * `flamethrower` / `flame1234` (GBAtemp) for the PSP string extractor
+* `Asvel124`, `Randomggjc` and everyone in the RetroGameTalk thread
+  (https://retrogametalk.com/threads/release-tales-of-destiny-2-ps2-psp-english-ai-translation.26456/)
+  for testing and bug reports
