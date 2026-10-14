@@ -10,7 +10,7 @@ Trash Mountain
 #トラッシュマウンテン
 Trash Mountain
 -----------------------
-NOTICE
+Info
 -----------------------
 #扉は固く閉ざされています
 #扉には小さな文字で
@@ -18,7 +18,7 @@ NOTICE
 The door is firmly shut.
 In small letters, it reads '4'.
 -----------------------
-NOTICE
+Info
 -----------------------
 #扉は固く閉ざされています
 #扉には小さな文字で
@@ -26,7 +26,7 @@ NOTICE
 The door is firmly shut.
 In small letters, it reads '9'.
 -----------------------
-NOTICE
+Info
 -----------------------
 #扉は固く閉ざされています
 #扉には小さな文字で
@@ -34,7 +34,7 @@ NOTICE
 The door is firmly shut.
 In small letters, it reads '5'.
 -----------------------
-NOTICE
+Info
 -----------------------
 #扉は固く閉ざされています
 #扉には小さな文字で
@@ -42,7 +42,7 @@ NOTICE
 The door is firmly shut.
 In small letters, it reads '1'.
 -----------------------
-NOTICE
+Info
 -----------------------
 #扉は固く閉ざされています
 #扉には小さな文字で
@@ -50,7 +50,7 @@ NOTICE
 The door is firmly shut.
 In small letters, it reads '3'.
 -----------------------
-NOTICE
+Info
 -----------------------
 #扉は固く閉ざされています
 #扉には小さな文字で
@@ -58,7 +58,7 @@ NOTICE
 The door is firmly shut.
 In small letters, it reads '8'.
 -----------------------
-NOTICE
+Info
 -----------------------
 #扉は固く閉ざされています
 #扉には小さな文字で
@@ -80,7 +80,7 @@ Chef
 Want to learn how
 to make {16}{34}{7C}{C0}?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -111,7 +111,7 @@ Chef
 I've got a recipe for {16}{34}{7C}{C0}.
 Want to buy it for <0B:00000001>{14}{34}{74}{C0}<0B:00000000> Gald?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -183,7 +183,7 @@ Chef
 Hand them over and I'll whip up
 some {16}{34}{7C}{C0}. How about it?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい
 #　いいえ
@@ -231,12 +231,12 @@ I've been waiting for someone like
 you. A chef worthy of inheriting
 this.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{34}{7C}{C0}のレシピを拾いました
 Picked up the recipe for {16}{34}{7C}{C0}.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{34}{90}{C0}の作り方を覚えました
 Learned how to make {16}{34}{90}{C0}.
@@ -252,7 +252,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -277,24 +277,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{DE}{C0}を手に入れました
 Acquired {16}{25}{DE}{C0}.
 -----------------------
-notice
+Info
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{E6}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{E6}{C0}, but
 your inventory is full.
 -----------------------
-notice
+Info
 -----------------------
 #何もありません
 There's nothing here.

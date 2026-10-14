@@ -262,7 +262,7 @@ touch anything without permission.
 Doesn't look like
 there's anything inside.
 -----------------------
-NOTICE
+Info
 -----------------------
 #奥に何かありそうですが････？
 Something seems to be back there...?
@@ -272,7 +272,7 @@ Something seems to be back there...?
 #何かあるな････
 There's something here...
 -----------------------
-NOTICE
+Info
 -----------------------
 #<item:00000122>を手に入れました
 Acquired <item:00000122>.
@@ -295,7 +295,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -320,24 +320,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{CA}{C0}を手に入れました
 Acquired {16}{25}{CA}{C0}.
 -----------------------
-notice
+Info
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{D2}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{D2}{C0}, but
 your inventory is full.
 -----------------------
-notice
+Info
 -----------------------
 #何もありません
 There's nothing here.

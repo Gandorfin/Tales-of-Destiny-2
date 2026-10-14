@@ -735,7 +735,7 @@ Old Woman
 #アタモニ神団の長であられる
 #聖女エルレインさまは
 #なんでも神通力をお持ちだとか
-They say the Holy Woman Elrane,
+They say the Saintess Elrane,
 who leads the Order of Atamoni,
 possesses miraculous powers of
 all kinds.
@@ -954,7 +954,7 @@ Traveler
 You folks here to donate
 some Lens?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -1360,7 +1360,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -1385,24 +1385,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-notice
+Info
 -----------------------
 #{16}{27}{42}{C0}を手に入れました
 Acquired {16}{27}{42}{C0}.
 -----------------------
-notice
+Info
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{27}{4A}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{27}{4A}{C0}, but
 your inventory is full.
 -----------------------
-notice
+Info
 -----------------------
 #何もありません
 There's nothing here.

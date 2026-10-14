@@ -2,7 +2,7 @@
 Realta - Distribution Center
 -----------------------
 #黄昏都市レアルタ
-Twilight City Realta
+Dusk City Realta
 -----------------------
 #配給所
 Distribution Center
@@ -152,7 +152,7 @@ Townsperson
 This is just a small token of my
 gratitude. Please, take it.
 -----------------------
-NOTICE
+Info
 -----------------------
 #<item:00000009>を手に入れました
 Acquired <item:00000009>.
@@ -209,7 +209,7 @@ Shop Machine
 Welcome!
 What can I help you find?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　道具　
 #　食材　
@@ -233,7 +233,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -258,24 +258,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{BA}{C0}を手に入れました
 Acquired {16}{25}{BA}{C0}.
 -----------------------
-notice
+Info
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{C2}{C0}, but
 your inventory is full.
 -----------------------
-notice
+Info
 -----------------------
 #何もありません
 There's nothing here.

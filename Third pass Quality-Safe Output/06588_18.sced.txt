@@ -45,7 +45,7 @@ a Swordian research facility.
 #扉は閉ざされています
 The door is closed.
 -----------------------
-notice
+Info
 -----------------------
 #大きなコンテナがあります
 #<item:00000033>、<item:00000034>、<item:00000035>
@@ -54,7 +54,7 @@ There's a large container here,
 protected by three keys:
 <item:00000033>, <item:00000034>, <item:00000035>.
 -----------------------
-notice
+Info
 -----------------------
 #<item:00000033>、<item:00000034>、<item:00000035>
 #三つの鍵を使ってプロテクトを解除しました
@@ -210,7 +210,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -235,24 +235,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{F6}{C0}を手に入れました
 Acquired {16}{25}{F6}{C0}.
 -----------------------
-notice
+Info
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{FE}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{FE}{C0}, but
 your inventory is full.
 -----------------------
-notice
+Info
 -----------------------
 #何もありません
 There's nothing here.

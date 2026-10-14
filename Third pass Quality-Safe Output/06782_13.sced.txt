@@ -1,19 +1,19 @@
 #空中都市の残骸
-Remnants of an Aeropolis
+Aeropolis Ruins
 -----------------------
 #空中都市の残骸
-Remnants of an Aeropolis
+Aeropolis Ruins
 -----------------------
 #空中都市の残骸
-Remnants of an Aeropolis
+Aeropolis Ruins
 -----------------------
 #空中都市の残骸
-Remnants of an Aeropolis
+Aeropolis Ruins
 -----------------------
 #空中都市の残骸
-Remnants of an Aeropolis
+Aeropolis Ruins
 -----------------------
-select
+Option
 -----------------------
 #ここで休んでいきますか？
 #<03:00000000>　はい
@@ -33,7 +33,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -58,24 +58,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{BA}{C0}を手に入れました
 Acquired {16}{25}{BA}{C0}.
 -----------------------
-notice
+Info
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{C2}{C0}, but
 your inventory is full.
 -----------------------
-notice
+Info
 -----------------------
 #何もありません
 There's nothing here.

@@ -25,7 +25,7 @@ scenario	<03:00000000>アイテム操作／称号取得／時代変更{02}	<03:0
 scenario	<03:00000000>アクアヴェイル\nカルビオラ地下墓地\n地上軍拠点跡地\nラストダンジョン	<03:00000000>Aqua Veil\nKalviola Catacombs\nGround Base Ruins\nLast Dungeon	translated
 scenario	<03:00000000>オベロン社廃坑\nスノーフリア\nハイデルベルグ新市街\nハイデルベルグ城	<03:00000000>Oberon Mine\nSnowfria\nHeidelberg New City\nHeidelberg Castle	translated
 scenario	<03:00000000>ダイクロフト（天地戦争）\nスパイラルケイブ\nベルクラント\nダイクロフト（ＴＯＤ１）	<03:00000000>Dycroft (Aeth'er Wars)\nSpiral Cave\nBelcrant\nDycroft (ToD1)	translated
-scenario	<03:00000000>トラッシュマウンテン\nカルバレイス\n飛行竜\nヴァンジェロ	<03:00000000>Trash Mountain\nCalvalese\nFlying Dragon\nVangelo	translated
+scenario	<03:00000000>トラッシュマウンテン\nカルバレイス\n飛行竜\nヴァンジェロ	<03:00000000>Trash Mountain\nCalvalese\nDraconis\nVangelo	translated
 scenario	<03:00000000>ミクトラン部屋方面(上)へ行きたい\n制御室(下)へ行きたい	<03:00000000>To the Mictlan room (up)\nTo the control room (down)	translated
 scenario	<03:00000000>ラグナ遺跡\n地下水路\nダリルシェイド\nハーメンツヴァレー	<03:00000000>Ragna Ruins\nUnderground Waterway\nDarilsheid\nHarmentz Valley	translated
 scenario	<03:00000000>ワールドマップ時代を変更しますか？	<03:00000000>Change the world map era?	translated
@@ -922,9 +922,9 @@ scenario	<03:00000000>レベル({14}{21}{4A}{C0}) 変更\n経験値({14}{21}{4C}
 scenario	<03:00000000>１増やす\n１減らす\n１０増やす\n１０減らす	<03:00000000>+1\n-1\n+10\n-10	debug
 scenario	<03:00000000>１０増やす\n１０減らす\n二倍にする\n半分にする	<03:00000000>+10\n-10\nDouble\nHalve	debug
 scenario	<03:00000000>１０００ガルド増やす\n１０００ガルド減らす\n二倍にする\n半分にする	<03:00000000>+1000 Gald\n-1000 Gald\nDouble\nHalve	debug
-scenario	エルレインに対する賞賛の言葉その１	Words of praise for Elraine, 1	debug
-scenario	エルレインに対する賞賛の言葉その２	Words of praise for Elraine, 2	debug
-scenario	エルレインに対する賞賛の言葉その３	Words of praise for Elraine, 3	debug
+scenario	エルレインに対する賞賛の言葉その１	Words of praise for Elrane, 1	debug
+scenario	エルレインに対する賞賛の言葉その２	Words of praise for Elrane, 2	debug
+scenario	エルレインに対する賞賛の言葉その３	Words of praise for Elrane, 3	debug
 scenario	<03:00000000>通常\nテスト（どの料理でも正解）	<03:00000000>Normal\nTest (any dish is correct)	debug
 scenario	バグ発生？	Bug occurred?	debug
 scenario	バグです	It's a bug.	debug
@@ -1018,8 +1018,8 @@ scenario	ここはノイシュタットです	This is Neustadt.	debug
 scenario	ここはノイシュタットの宿屋です	This is Neustadt Inn.	debug
 scenario	ここはノイシュタットです\nriml : {14}{11}{69}{C0}	This is Neustadt.	debug
 scenario	ここはノイシュタットです。\nレコード初期化	This is Neustadt.	debug
-scenario	<03:00000000>ここはスノーフリアです	<03:00000000>This is Snowfreer.	debug
-scenario	ここはスノーフリアの街です	This is Snowfreer Town.	debug
+scenario	<03:00000000>ここはスノーフリアです	<03:00000000>This is Frostheim.	debug
+scenario	ここはスノーフリアの街です	This is Frostheim Town.	debug
 scenario	ここはハイデルベルグの街です	This is Heidelberg Town.	debug
 scenario	ここはハイデルベルグ旧市街です	This is Heidelberg Old Town.	debug
 scenario	ここはハイデルベルグ広場です	This is Heidelberg Plaza.	debug
@@ -1123,11 +1123,11 @@ scenario	ここは地上軍拠点跡地飛空艇です	This is Ground Force Base
 scenario	ここは地上軍拠点跡地です	This is Ground Force Base Ruins.	debug
 scenario	<03:00000000>ここはマユです	<03:00000000>This is Mayu.	debug
 scenario	<03:00000000>ここはラストダンジョン１です	<03:00000000>This is Last Dungeon １.	debug
-scenario	<03:00000000>ここは神のたまご・中層部です	<03:00000000>This is Egg of God Middle Level.	debug
-scenario	<03:00000000>ここは神のたまご中層部です	<03:00000000>This is Egg of God Middle Level.	debug
+scenario	<03:00000000>ここは神のたまご・中層部です	<03:00000000>This is Atamoni Ovum Middle Level.	debug
+scenario	<03:00000000>ここは神のたまご中層部です	<03:00000000>This is Atamoni Ovum Middle Level.	debug
 scenario	<03:00000000>ここはラストダンジョン３です	<03:00000000>This is Last Dungeon ３.	debug
-scenario	<03:00000000>ここは神のたまご・下層部です	<03:00000000>This is Egg of God Lower Level.	debug
-scenario	<03:00000000>ここは神のたまご下層部です	<03:00000000>This is Egg of God Lower Level.	debug
+scenario	<03:00000000>ここは神のたまご・下層部です	<03:00000000>This is Atamoni Ovum Lower Level.	debug
+scenario	<03:00000000>ここは神のたまご下層部です	<03:00000000>This is Atamoni Ovum Lower Level.	debug
 scenario	<03:00000000>ここは夕暮れのラグナ遺跡です	<03:00000000>This is Dusk Laguna Ruins.	debug
 scenario	<03:00000000>ここはハーメンツヴァレーです	<03:00000000>This is Harmenz Valley.	debug
 scenario	<03:00000000>ここは孤児院外観　分離マップです	<03:00000000>This is Orphanage Exterior Split Map.	debug
@@ -1168,21 +1168,21 @@ scenario	<03:00000000><num:000028A0> : <Kyle>のつぶやき\n<num:000028B4> : �
 scenario	<03:00000000><num:000027D8> : <Loni>と帰院\n<num:00013A74> : 封印された記憶\n<num:0001DA38> : 出会いの場所へ\n<num:0001DBC8> : おにごっこフラグON/OFF	<03:00000000><num:000027D8> : Return home with <Loni>\n<num:00013A74> : Sealed memory\n<num:0001DA38> : To the meeting place\n<num:0001DBC8> : Tag Game flag ON/OFF	debug
 scenario	<03:00000000><num:00002710> : 第１章\n<num:00004E20> : 第２章\n<num:00007530> : 第３章\n<num:00009C40> : 第４章	<03:00000000><num:00002710> : Chapter 1\n<num:00004E20> : Chapter 2\n<num:00007530> : Chapter 3\n<num:00009C40> : Chapter 4	debug
 scenario	<03:00000000><num:0000283C> : ルーティ登場\n<num:00004E20> : 第２章\n<num:00007530> : 第３章\n<num:00009C40> : 第４章	<03:00000000><num:0000283C> : Rutee appears\n<num:00004E20> : Chapter 2\n<num:00007530> : Chapter 3\n<num:00009C40> : Chapter 4	debug
-scenario	<03:00000000><num:0000290E> : ここが古代遺跡だ\n<num:0001DA9C> : 神のたまご\n<num:00007530> : 第３章\n<num:00009C40> : 第４章	<03:00000000><num:0000290E> : Here are the Ancient Ruins\n<num:0001DA9C> : Egg of God\n<num:00007530> : Chapter 3\n<num:00009C40> : Chapter 4	debug
+scenario	<03:00000000><num:0000290E> : ここが古代遺跡だ\n<num:0001DA9C> : 神のたまご\n<num:00007530> : 第３章\n<num:00009C40> : 第４章	<03:00000000><num:0000290E> : Here are the Ancient Ruins\n<num:0001DA9C> : Atamoni Ovum\n<num:00007530> : Chapter 3\n<num:00009C40> : Chapter 4	debug
 scenario	<03:00000000><num:000029CC> : 第１章\n<num:00004E20> : 第２章\n<num:00007530> : 第３章\n<num:00009C40> : 床崩落切替え	<03:00000000><num:000029CC> : Chapter 1\n<num:00004E20> : Chapter 2\n<num:00007530> : Chapter 3\n<num:00009C40> : Floor collapse toggle	debug
 scenario	<03:00000000><num:00002710> : 第１章ボス戦終了\n<num:00004E20> : 第１章ボス戦未終了\n<num:00007530> : 第３章\n<num:00009C40> : 第４章	<03:00000000><num:00002710> : Ch.1 boss done\n<num:00004E20> : Ch.1 boss not done\n<num:00007530> : Chapter 3\n<num:00009C40> : Chapter 4	debug
 scenario	<03:00000000><num:00002710> : 鉄格子戻す\n<num:00004E20> : 第２章\n<num:00007530> : 第３章\n<num:00009C40> : 第４章	<03:00000000><num:00002710> : Restore the bars\n<num:00004E20> : Chapter 2\n<num:00007530> : Chapter 3\n<num:00009C40> : Chapter 4	debug
 scenario	<03:00000000><num:00002710> : 現代～改変まで\n<num:00011170> : 改変以降～最終現代まで\n<num:000222E0> : ゲーム後ゲーム\n<num:00000000> : 雨ON、OFF切り替え	<03:00000000><num:00002710> : Present to alteration\n<num:00011170> : From alteration to final present\n<num:000222E0> : Post-game game\n<num:00000000> : Rain ON/OFF toggle	debug
 scenario	<03:00000000><num:0001D4C0> : 最終現代\n<num:00004E20> : 第２章\n<num:00007530> : 第３章\n<num:00009C40> : きりかえ	<03:00000000><num:0001D4C0> : Final present\n<num:00004E20> : Chapter 2\n<num:00007530> : Chapter 3\n<num:00009C40> : Switch	debug
 scenario	<03:00000000><num:00004EB6> : 聖都アイグレッテ\n<num:00004E20> : 第２章\n<num:00007530> : 第３章\n<num:00009C40> : 第４章	<03:00000000><num:00004EB6> : Holy City Aigrette\n<num:00004E20> : Chapter 2\n<num:00007530> : Chapter 3\n<num:00009C40> : Chapter 4	debug
-scenario	<03:00000000><num:00004F4C> : エルレインとの出会い\n<num:00004FB0> : 大神殿前にて\n<num:00007530> : 第３章\n<num:00009C40> : 第４章	<03:00000000><num:00004F4C> : Meeting Elraine\n<num:00004FB0> : Before the Grand Temple\n<num:00007530> : Chapter 3\n<num:00009C40> : Chapter 4	debug
-scenario	<03:00000000><num:00004EE8> : エルレインのうわさ\n<num:00004F7E> : 大神殿へ\n<num:00005208> : 配膳ゲーム\n<num:0001D524> : 配膳ゲーム	<03:00000000><num:00004EE8> : Rumors of Elraine\n<num:00004F7E> : To the Grand Temple\n<num:00005208> : Serving game\n<num:0001D524> : Serving game	debug
+scenario	<03:00000000><num:00004F4C> : エルレインとの出会い\n<num:00004FB0> : 大神殿前にて\n<num:00007530> : 第３章\n<num:00009C40> : 第４章	<03:00000000><num:00004F4C> : Meeting Elrane\n<num:00004FB0> : Before the Grand Temple\n<num:00007530> : Chapter 3\n<num:00009C40> : Chapter 4	debug
+scenario	<03:00000000><num:00004EE8> : エルレインのうわさ\n<num:00004F7E> : 大神殿へ\n<num:00005208> : 配膳ゲーム\n<num:0001D524> : 配膳ゲーム	<03:00000000><num:00004EE8> : Rumors of Elrane\n<num:00004F7E> : To the Grand Temple\n<num:00005208> : Serving game\n<num:0001D524> : Serving game	debug
 scenario	<03:00000000><num:00005016> : 初回イベント\n<num:00005017> : のぞき見\n<num:00005028> : 突入\n<num:0000EEAC> : 英雄登場	<03:00000000><num:00005016> : First event\n<num:00005017> : Peeking\n<num:00005028> : Storming in\n<num:0000EEAC> : A hero appears	debug
 scenario	<03:00000000><num:0000501E> : フィリアと<Reala>\n<num:00005078> : 強敵バルバトス\n<num:0000C44A> : <Nanaly>との出会い\n<num:00009C40> : 第４章	<03:00000000><num:0000501E> : Philia and <Reala>\n<num:00005078> : Foe Barbatos\n<num:0000C44A> : <Nanaly>Meeting with\n<num:00009C40> : Chapter 4	debug
 scenario	<03:00000000><num:00005140> : もうだいじょうぶ\n<num:0001D90C> : フィリアに相談\n<num:00007530> : 第３章\n<num:00009C40> : コンボコマンドフラグオフ	<03:00000000><num:00005140> : It's okay now\n<num:0001D90C> : Consult Philia\n<num:00007530> : Chapter 3\n<num:00009C40> : Combo command flag off	debug
 scenario	<03:00000000><num:0000EDE4> : 大神殿突入\n<num:0000EF74> : 飛行竜追撃作戦\n<num:00007530> : 第３章\n<num:00009C40> : 第４章	<03:00000000><num:0000EDE4> : Storm the Grand Temple\n<num:0000EF74> : Wyvern pursuit operation\n<num:00007530> : Chapter 3\n<num:00009C40> : Chapter 4	debug
-scenario	<03:00000000><num:00005208> : スノーフリアへ\n<num:00007594> : 第２章\n<num:0000C47C> : チェリクへ（未来）\n<num:00009C40> : 第４章	<03:00000000><num:00005208> : To Snowfreer\n<num:00007594> : Chapter 2\n<num:0000C47C> : To Cherik (future)\n<num:00009C40> : Chapter 4	debug
-scenario	<03:00000000><num:0000765C> : <Reala>の素顔\n<num:000077BA> : デビルズ・リーフの主\n<num:00009CA4> : スノーフリア到着\n<num:0000C512> : ふたりの聖女	<03:00000000><num:0000765C> : <Reala>'s true face\n<num:000077BA> : Master of Devil's Reef\n<num:00009CA4> : Arrive at Snowfreer\n<num:0000C512> : The Two Holy Women	debug
+scenario	<03:00000000><num:00005208> : スノーフリアへ\n<num:00007594> : 第２章\n<num:0000C47C> : チェリクへ（未来）\n<num:00009C40> : 第４章	<03:00000000><num:00005208> : To Frostheim\n<num:00007594> : Chapter 2\n<num:0000C47C> : To Cherik (future)\n<num:00009C40> : Chapter 4	debug
+scenario	<03:00000000><num:0000765C> : <Reala>の素顔\n<num:000077BA> : デビルズ・リーフの主\n<num:00009CA4> : スノーフリア到着\n<num:0000C512> : ふたりの聖女	<03:00000000><num:0000765C> : <Reala>'s true face\n<num:000077BA> : Master of Devil's Reef\n<num:00009CA4> : Arrive at Frostheim\n<num:0000C512> : The Two Saintesses	debug
 scenario	<03:00000000><num:0000765C> : <Reala>の素顔\n<03:00000000><num:00007724> : フォルネウス襲撃中\n<num:00007788> : 船倉に穴が！\n<num:000077D8> : 奇跡の後	<03:00000000><num:0000765C> : <Reala>'s true face\n<03:00000000><num:00007724> : Forneus attacking\n<num:00007788> : A hole in the hold!\n<num:000077D8> : After the miracle	debug
 scenario	<03:00000000><num:0000765C> : 三章\n<03:00000000><num:000077D8> : 奇跡の後\n<num:00009C40> : 四章\n<num:0000EDE4> : スタンプラリー	<03:00000000><num:0000765C> : Chapter 3\n<03:00000000><num:000077D8> : After the miracle\n<num:00009C40> : Chapter 4\n<num:0000EDE4> : Stamp Rally	debug
 scenario	<03:00000000><num:000077EC> : リーネ到着\n<num:0000786E> : ねぼすけカイル\n<num:00007918> : リーネ出発\n<num:00009C40> : 第４章	<03:00000000><num:000077EC> : Arrive at Lienea\n<num:0000786E> : Sleepyhead Kyle\n<num:00007918> : Depart Lienea\n<num:00009C40> : Chapter 4	debug
@@ -1191,7 +1191,7 @@ scenario	<03:00000000><num:00002710> :\n<num:00022344> : ゲーム後ゲーム\n
 scenario	<03:00000000><num:00002710> : 第１章\n<num:00004E20> : 第２章\n<num:0001D524> : 配膳ゲーム\n<num:0001D90C> : サクラバ	<03:00000000><num:00002710> : Chapter 1\n<num:00004E20> : Chapter 2\n<num:0001D524> : Serving game\n<num:0001D90C> : Sakuraba	debug
 scenario	<03:00000000><num:00002710> : 第１章\n<num:00004E20> : 第２章\n<num:0001D524> : riml = 10\n<num:00022344> : ゲーム後	<03:00000000><num:00002710> : Chapter 1\n<num:00004E20> : Chapter 2\n<num:0001D524> : riml = 10\n<num:00022344> : Post-game	debug
 scenario	<03:00000000><num:0001D524> : 武芸者リムルその１ riml = 0\n<num:00004E20> : 第２章\n<num:00007530> : 第３章\n<num:00009C40> : 第４章	<03:00000000><num:0001D524> : Martial artist Rimul 1 (riml = 0)\n<num:00004E20> : Chapter 2\n<num:00007530> : Chapter 3\n<num:00009C40> : Chapter 4	debug
-scenario	<03:00000000><num:00009D08> : スノーフリア到着\n<num:00004E20> : 第２章\n<num:0001FBE4> : <item:0000004C>たくさんもらう\n<num:0001FBE4> : <item:0000004C>をもらう	<03:00000000><num:00009D08> : Arrive at Snowfreer\n<num:00004E20> : Chapter 2\n<num:0001FBE4> : <item:0000004C>Receive a lot\n<num:0001FBE4> : <item:0000004C>Receive	debug
+scenario	<03:00000000><num:00009D08> : スノーフリア到着\n<num:00004E20> : 第２章\n<num:0001FBE4> : <item:0000004C>たくさんもらう\n<num:0001FBE4> : <item:0000004C>をもらう	<03:00000000><num:00009D08> : Arrive at Frostheim\n<num:00004E20> : Chapter 2\n<num:0001FBE4> : <item:0000004C>Receive a lot\n<num:0001FBE4> : <item:0000004C>Receive	debug
 scenario	<03:00000000><num:00009D3A> : ハイデルベルグ到着\n<num:00009EFC> : <Reala>の誘い\n<num:0001AFA4> : 戦いを終えて\n<num:00009C40> : 第４章	<03:00000000><num:00009D3A> : Arrive at Heidelberg\n<num:00009EFC> : <Reala>'s Invitation\n<num:0001AFA4> : After the battle\n<num:00009C40> : Chapter 4	debug
 scenario	<03:00000000><num:00002710> : 第１章\n<num:00004E20> : 第２章\n<num:00007530> : 第３章\n<num:0001DBC8> : サンタ	<03:00000000><num:00002710> : Chapter 1\n<num:00004E20> : Chapter 2\n<num:00007530> : Chapter 3\n<num:0001DBC8> : Santa	debug
 scenario	<03:00000000><num:00009D6C> : ハイデルベルグ城\n<num:00009E98> : からっぽの英雄\n<num:00009FC4> : 襲撃・ハイデルベルグ城\n<num:00009C40> : 第４章	<03:00000000><num:00009D6C> : Heidelberg Castle\n<num:00009E98> : The Empty Hero\n<num:00009FC4> : Assault: Heidelberg Castle\n<num:00009C40> : Chapter 4	debug
@@ -1235,7 +1235,7 @@ scenario	<03:00000000><num:00011300> : 画一化された街\n<num:00011364> : �
 scenario	<03:00000000><num:000113C8> : レアルタ到着\n<num:0001142C> : 英雄バルバトス\n<num:00011490> : 歪められた歴史\n<num:000114C2> : 空からの声	<03:00000000><num:000113C8> : Arrive at Realta\n<num:0001142C> : Hero Barbatos\n<num:00011490> : Distorted history\n<num:000114C2> : A voice from the sky	debug
 scenario	<03:00000000><num:000114C2> : 光のほこら\n<num:00004E20> : 第２章\n<num:00007530> : 第３章\n<num:00009C40> : 第４章	<03:00000000><num:000114C2> : Shrine of Light\n<num:00004E20> : Chapter 2\n<num:00007530> : Chapter 3\n<num:00009C40> : Chapter 4	debug
 scenario	<03:00000000><num:000114F4> : ダイクロフトへ\n<num:00004E20> : 第２章\n<num:00007530> : 第３章\n<num:00009C40> : 第４章	<03:00000000><num:000114F4> : To Dycroft\n<num:00004E20> : Chapter 2\n<num:00007530> : Chapter 3\n<num:00009C40> : Chapter 4	debug
-scenario	<03:00000000><num:00011558> : 天空の都市\n<num:000115BC> : エルレインのもとへ\n<num:00007530> : 第３章\n<num:00009C40> : 第４章	<03:00000000><num:00011558> : Sky City\n<num:000115BC> : To Elraine\n<num:00007530> : Chapter 3\n<num:00009C40> : Chapter 4	debug
+scenario	<03:00000000><num:00011558> : 天空の都市\n<num:000115BC> : エルレインのもとへ\n<num:00007530> : 第３章\n<num:00009C40> : 第４章	<03:00000000><num:00011558> : Sky City\n<num:000115BC> : To Elrane\n<num:00007530> : Chapter 3\n<num:00009C40> : Chapter 4	debug
 scenario	<03:00000000><num:000138E4> : 仮面の下の素顔\n<num:00004E20> : 第２章\n<num:00007530> : 第３章\n<num:00009C40> : 第４章	<03:00000000><num:000138E4> : The face beneath the mask\n<num:00004E20> : Chapter 2\n<num:00007530> : Chapter 3\n<num:00009C40> : Chapter 4	debug
 scenario	<03:00000000><num:00011170> : 海の底にて\n<num:00004E20> : 第２章\n<num:00007530> : 第３章\n<num:00009C40> : 第４章	<03:00000000><num:00011170> : At the sea floor\n<num:00004E20> : Chapter 2\n<num:00007530> : Chapter 3\n<num:00009C40> : Chapter 4	debug
 scenario	<03:00000000><num:000111D4> : 新鮮な空気\n<num:00004E20> : 第２章\n<num:00007530> : 第３章\n<num:00009C40> : 第４章	<03:00000000><num:000111D4> : Fresh air\n<num:00004E20> : Chapter 2\n<num:00007530> : Chapter 3\n<num:00009C40> : Chapter 4	debug
@@ -1274,20 +1274,20 @@ scenario	<03:00000000>炭を取っていない\n<num:00004E20> : 第２章\n<num
 scenario	火の封印OFF\n火の封印ON\n火の解除要請ON\n<num:00009C40> : 第４章	火の封印OFF\n火の封印ON\n火の解除要請ON\n<num:00009C40> : Chapter 4	debug
 scenario	<03:00000000><num:0000ED1C> : オベロン社の機密\n<num:0001D6B4> : 再び未来へ\n<num:0001D8A8> : 答えを求めて\n<num:00022344> : イクシフォスラー発見	<03:00000000><num:0000ED1C> : Oberon Corp secrets\n<num:0001D6B4> : To the future again\n<num:0001D8A8> : Seeking the answer\n<num:00022344> : Ixifoslar found	debug
 scenario	<03:00000000><num:00013948> : ゆがんだ理想郷\n<num:00013B3C> : 過去と未来と\n<num:00007530> : 第３章\n<num:00009C40> : 第４章	<03:00000000><num:00013948> : A warped utopia\n<num:00013B3C> : Past and future\n<num:00007530> : Chapter 3\n<num:00009C40> : Chapter 4	debug
-scenario	<03:00000000><num:0001DBC8> : 神のたまご・上層部\n３Ｄフィールドへ出る	<03:00000000><num:0001DBC8> : Egg of God Upper Level\n３Ｄフィールドへ出る	debug
+scenario	<03:00000000><num:0001DBC8> : 神のたまご・上層部\n３Ｄフィールドへ出る	<03:00000000><num:0001DBC8> : Atamoni Ovum Upper Level\n３Ｄフィールドへ出る	debug
 scenario	<03:00000000><num:00002710> : 第１章\n<num:00004E20> : 第２章\n<num:00007530> : 第３章\n<num:00009C40> : スイッチをリセット	<03:00000000><num:00002710> : Chapter 1\n<num:00004E20> : Chapter 2\n<num:00007530> : Chapter 3\n<num:00009C40> : Reset switch	debug
 scenario	<03:00000000><num:00002710> : 第１章\n<num:00004E20> : 第２章\n<num:00007530> : 第３章\n<num:00009C40> : すべてのスイッチをリセット	<03:00000000><num:00002710> : Chapter 1\n<num:00004E20> : Chapter 2\n<num:00007530> : Chapter 3\n<num:00009C40> : Reset all switches	debug
-scenario	<03:00000000><num:0001FBE4> : 神のたまご・中層部\n<num:00004E20> : 第２章\n<num:00007530> : 第３章\n<num:00009C40> : 第４章	<03:00000000><num:0001FBE4> : Egg of God Middle Level\n<num:00004E20> : Chapter 2\n<num:00007530> : Chapter 3\n<num:00009C40> : Chapter 4	debug
+scenario	<03:00000000><num:0001FBE4> : 神のたまご・中層部\n<num:00004E20> : 第２章\n<num:00007530> : 第３章\n<num:00009C40> : 第４章	<03:00000000><num:0001FBE4> : Atamoni Ovum Middle Level\n<num:00004E20> : Chapter 2\n<num:00007530> : Chapter 3\n<num:00009C40> : Chapter 4	debug
 scenario	<03:00000000><num:00002710> : 第１章\n<num:00004E20> : 第２章\n<num:00007530> : 第３章\n<num:00009C40> : <Harold>の記憶	<03:00000000><num:00002710> : Chapter 1\n<num:00004E20> : Chapter 2\n<num:00007530> : Chapter 3\n<num:00009C40> : <Harold>'s Memory	debug
 scenario	<03:00000000>かけらを入手\n全部スイッチOFF\nかけらを捨てる\n<num:00009C40> : 第４章	<03:00000000>かけらを入手\n全部スイッチOFF\nかけらを捨てる\n<num:00009C40> : Chapter 4	debug
 scenario	<03:00000000><num:00002710> : 第１章\n<num:00004E20> : 第２章\n<num:00007530> : 第３章\n<num:00009C40> : <Judas>の記憶	<03:00000000><num:00002710> : Chapter 1\n<num:00004E20> : Chapter 2\n<num:00007530> : Chapter 3\n<num:00009C40> : <Judas>'s Memory	debug
 scenario	<03:00000000><num:00002710> : 第１章\n<num:00004E20> : 第２章\n<num:00007530> : 第３章\n<num:00009C40> : <Nanaly>の記憶	<03:00000000><num:00002710> : Chapter 1\n<num:00004E20> : Chapter 2\n<num:00007530> : Chapter 3\n<num:00009C40> : <Nanaly>'s Memory	debug
 scenario	<03:00000000><num:00002710> : 第１章\n<num:00004E20> : 第２章\n<num:00007530> : 第３章\n<num:00009C40> : <Loni>の記憶	<03:00000000><num:00002710> : Chapter 1\n<num:00004E20> : Chapter 2\n<num:00007530> : Chapter 3\n<num:00009C40> : <Loni>'s Memory	debug
 scenario	<03:00000000><num:00002710> : 第１章\n<num:00004E20> : 第２章\n<num:00007530> : 第３章\n<num:00009C40> : <Kyle>の記憶	<03:00000000><num:00002710> : Chapter 1\n<num:00004E20> : Chapter 2\n<num:00007530> : Chapter 3\n<num:00009C40> : <Kyle>'s Memory	debug
-scenario	<03:00000000><num:0001FC02> : 神のたまご・下層部\n<num:00004E20> : 第２章\n<num:00007530> : 第３章\n<num:00009C40> : 第４章	<03:00000000><num:0001FC02> : Egg of God Lower Level\n<num:00004E20> : Chapter 2\n<num:00007530> : Chapter 3\n<num:00009C40> : Chapter 4	debug
+scenario	<03:00000000><num:0001FC02> : 神のたまご・下層部\n<num:00004E20> : 第２章\n<num:00007530> : 第３章\n<num:00009C40> : 第４章	<03:00000000><num:0001FC02> : Atamoni Ovum Lower Level\n<num:00004E20> : Chapter 2\n<num:00007530> : Chapter 3\n<num:00009C40> : Chapter 4	debug
 scenario	<03:00000000><num:00002710> : 第１章\n<num:00004E20> : 第２章\n<num:00007530> : 第３章\n<num:00009C40> : タマゴリセット	<03:00000000><num:00002710> : Chapter 1\n<num:00004E20> : Chapter 2\n<num:00007530> : Chapter 3\n<num:00009C40> : Egg reset	debug
 scenario	<03:00000000><num:00002710> : 第１章\n<num:00004E20> : 第２章\n<num:00007530> : 第３章\n<num:00009C40> : 大金持ち	<03:00000000><num:00002710> : Chapter 1\n<num:00004E20> : Chapter 2\n<num:00007530> : Chapter 3\n<num:00009C40> : Filthy rich	debug
-scenario	<03:00000000><num:0001FC2A> : エルレインとの決闘\n<num:00004E20> : 第２章\n<num:00007530> : 第３章\n<num:00009C40> : 第４章	<03:00000000><num:0001FC2A> : Duel with Elraine\n<num:00004E20> : Chapter 2\n<num:00007530> : Chapter 3\n<num:00009C40> : Chapter 4	debug
+scenario	<03:00000000><num:0001FC2A> : エルレインとの決闘\n<num:00004E20> : 第２章\n<num:00007530> : 第３章\n<num:00009C40> : 第４章	<03:00000000><num:0001FC2A> : Duel with Elrane\n<num:00004E20> : Chapter 2\n<num:00007530> : Chapter 3\n<num:00009C40> : Chapter 4	debug
 scenario	<03:00000000><num:0001FC98> : 別れ\n<num:00004E20> : 第２章\n<num:00007530> : 第３章\n<num:00009C40> : 第４章	<03:00000000><num:0001FC98> : Parting\n<num:00004E20> : Chapter 2\n<num:00007530> : Chapter 3\n<num:00009C40> : Chapter 4	debug
 scenario	<03:00000000><num:0001DA6A> : もう、たくさんだ！\n<num:00004E20> : 第２章\n<num:00007530> : 第３章\n<num:00009C40> : 第４章	<03:00000000><num:0001DA6A> : Enough already!\n<num:00004E20> : Chapter 2\n<num:00007530> : Chapter 3\n<num:00009C40> : Chapter 4	debug
 scenario	<03:00000000><num:000003E8> : 英雄ごっこ\n<num:00004E20> : 第二章\n<num:000222E0> : 新たな旅立ち（スタン復活）\n<num:000222EA> : 新たな旅立ち（ロニと）	<03:00000000><num:000003E8> : Playing hero\n<num:00004E20> : Chapter 2\n<num:000222E0> : New journey (Stahn revived)\n<num:000222EA> : New journey (with Loni)	debug
@@ -1297,7 +1297,7 @@ scenario	<03:00000000><num:00005140> : もうだいじょうぶ\n<num:0001D90C> 
 scenario	<03:00000000><num:000078B4> : ここでのイベント\n<num:00004E20> : 第２章\n<num:00007530> : 第３章\n<num:00009C40> : 第４章	<03:00000000><num:000078B4> : Event here\n<num:00004E20> : Chapter 2\n<num:00007530> : Chapter 3\n<num:00009C40> : Chapter 4	debug
 scenario	<03:00000000><num:00009F60> : このマップのイベント\n<num:00004E20> : 第２章\n<num:00007530> : 第３章\n<num:00009C40> : 第４章	<03:00000000><num:00009F60> : Event on this map\n<num:00004E20> : Chapter 2\n<num:00007530> : Chapter 3\n<num:00009C40> : Chapter 4	debug
 scenario	<03:00000000><num:000076C0> : ここでのイベント\n<num:00004E20> : 第２章\n<num:00007530> : 第３章\n<num:00009C40> : 第４章	<03:00000000><num:000076C0> : Event here\n<num:00004E20> : Chapter 2\n<num:00007530> : Chapter 3\n<num:00009C40> : Chapter 4	debug
-scenario	<03:00000000><num:00009C72> : ここでのイベント　リオン\n<num:0000C512> : ここでのイベント　二人の聖女\n<num:00007530> : 第３章\n<num:00009C40> : 第４章	<03:00000000><num:00009C72> : Event here: Leon\n<num:0000C512> : Event here: The Two Holy Women\n<num:00007530> : Chapter 3\n<num:00009C40> : Chapter 4	debug
+scenario	<03:00000000><num:00009C72> : ここでのイベント　リオン\n<num:0000C512> : ここでのイベント　二人の聖女\n<num:00007530> : 第３章\n<num:00009C40> : 第４章	<03:00000000><num:00009C72> : Event here: Leon\n<num:0000C512> : Event here: The Two Saintesses\n<num:00007530> : Chapter 3\n<num:00009C40> : Chapter 4	debug
 scenario	ここは地下水路出口です	This is the Sewer Exit.	debug
 scenario	<03:00000000>ここはです	<03:00000000>This is .	debug
 scenario	<03:00000000>ここはカルビオライベントマップです	<03:00000000>This is the Calvalese Event Map.	debug

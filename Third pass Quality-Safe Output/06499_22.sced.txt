@@ -57,14 +57,14 @@ Please come again.
 #雑貨屋
 General Store
 -----------------------
-NOTICE
+Info
 -----------------------
 #<item:0000000E>を手に入れました
 Acquired <item:0000000E>.
 -----------------------
 #これは････飛行竜のパーツだ
 #天地戦争終結後に廃棄された物だろう
-This is...a Flying Dragon
+This is...a Draconis
 part. Probably discarded
 after the Aeth'er Wars ended.
 -----------------------
@@ -83,7 +83,7 @@ wreckage. 'This appears to be
 used in aerial cities. Do not remove
 it, as it is a valuable item'.
 -----------------------
-notice
+Info
 -----------------------
 #いってらっしゃいませ
 Have a good day.
@@ -96,7 +96,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -121,24 +121,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{CA}{C0}を手に入れました
 Acquired {16}{25}{CA}{C0}.
 -----------------------
-notice
+Info
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{D2}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{D2}{C0}, but
 your inventory is full.
 -----------------------
-notice
+Info
 -----------------------
 #何もありません
 There's nothing here.
@@ -149,7 +149,7 @@ Veteran
 #ひよっこ
 Rookie
 -----------------------
-notice
+Info
 -----------------------
 #「武器攻撃」について
 #話し合っているようです
@@ -219,7 +219,7 @@ Successful defense recovers a lot
 of SP, so defending with <button:00000047> is
 important too.
 -----------------------
-notice
+Info
 -----------------------
 #「特技」について
 #話し合っているようです
@@ -272,7 +272,7 @@ Moreover, if you defeat them
 all at once during a combo,
 you can recover even more TP.
 -----------------------
-notice
+Info
 -----------------------
 #「エンチャント」について
 #話し合っているようです
@@ -363,7 +363,7 @@ HP is below 50%". Be careful!!
 Sure enough, using it on a scratch
 wound won't give you any experience.
 -----------------------
-notice
+Info
 -----------------------
 #「戦闘の作戦」について
 #話し合っているようです
@@ -426,7 +426,7 @@ each character's abilities
 and your enemies should allow
 for more efficient combat.
 -----------------------
-notice
+Info
 -----------------------
 #「テクニカルスマッシュ」
 #について話し合っているようです
@@ -490,7 +490,7 @@ which can be a concern, but
 making good use of finishing
 blows is the path to mastery.
 -----------------------
-notice
+Info
 -----------------------
 #「スピリッツ」について
 #話し合っているようです
@@ -545,7 +545,7 @@ brighter the cursor color, the
 higher their SP. You can gauge
 an enemy's SP while fighting.
 -----------------------
-notice
+Info
 -----------------------
 #「連続ヒット」について
 #話し合っているようです
@@ -604,7 +604,7 @@ low SP just drags everyone down.
 Here too, the balance between
 magic and Base Artes is crucial.
 -----------------------
-notice
+Info
 -----------------------
 #「影響エリア」について
 #話し合っているようです
@@ -660,7 +660,7 @@ Overly Veteran
 #息子
 Son
 -----------------------
-notice
+Info
 -----------------------
 #「ステータス変化」について
 #話し合っているようです
@@ -748,7 +748,7 @@ Overly Veteran
 #息子
 Son
 -----------------------
-notice
+Info
 -----------------------
 #「スピリッツブラスター」
 #について話し合っているようです
@@ -858,7 +858,7 @@ Overly Veteran
 #息子
 Son
 -----------------------
-notice
+Info
 -----------------------
 #「フィールドオブエフェクト」
 #について話し合っているようです
@@ -926,7 +926,7 @@ It's quite troublesome.
 (You're a little late to
 complain about that, Dad...)
 -----------------------
-notice
+Info
 -----------------------
 #「バトルグレード」について
 #話し合っているようです
@@ -986,7 +986,7 @@ Focus on honing your own skills.
 As expected of you, Senpai.
 I'm learning so much.
 -----------------------
-notice
+Info
 -----------------------
 #「受身」について
 #話し合っているようです
@@ -1023,7 +1023,7 @@ and TP. Pretty great, right?
 #もももももちろん知ってたさ
 O-o-o-o-of course I knew that.
 -----------------------
-notice
+Info
 -----------------------
 #「戦闘難易度」について
 #話し合っているようです
@@ -1078,7 +1078,7 @@ SECOND is a nice middle ground,
 so if you want a bit more of
 a challenge, I'd recommend it.
 -----------------------
-notice
+Info
 -----------------------
 #「通常攻撃」について
 #深く話し合っているようです
@@ -1168,7 +1168,7 @@ you're already swamped with other
 rules to remember, don't force
 yourself to memorize this too.
 -----------------------
-notice
+Info
 -----------------------
 #「長い話」について
 #話し合っているようです
@@ -1213,7 +1213,7 @@ decided to tell you now.
 #納得さ
 I can't argue with that.
 -----------------------
-notice
+Info
 -----------------------
 #「アイテム拾得」について
 #話し合っているようです
@@ -1296,7 +1296,7 @@ That too. The important thing
 is to adventure in a way
 that fits your own style.
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　

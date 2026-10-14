@@ -4,26 +4,26 @@ Supplies Storage
 #物資保管所
 Supplies Storage
 -----------------------
-NOTICE
+Info
 -----------------------
 #下のフロアに飛び降りますか？
 Jump down to the floor below?
 -----------------------
-select
+Option
 -----------------------
 #飛び降りる
 #もどる
 Jump down
 Go back
 -----------------------
-NOTICE
+Info
 -----------------------
 #<item:00000036>、<item:00000037>、<item:00000038>
 #三つのチップでプロテクトされたコンテナがあります
 A container sealed by three chips:
 <item:00000036>, <item:00000037>, <item:00000038>.
 -----------------------
-NOTICE
+Info
 -----------------------
 #<item:00000036>、<item:00000037>、<item:00000038>を使い
 #<item:00000035>を手に入れました
@@ -46,7 +46,7 @@ The master key won't break from
 temperature changes, so let's go
 outside for a break.
 -----------------------
-NOTICE
+Info
 -----------------------
 #壁にメモが残されています
 A note has been left on the wall.
@@ -199,7 +199,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -224,24 +224,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{F6}{C0}を手に入れました
 Acquired {16}{25}{F6}{C0}.
 -----------------------
-notice
+Info
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{FE}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{FE}{C0}, but
 your inventory is full.
 -----------------------
-notice
+Info
 -----------------------
 #何もありません
 There's nothing here.

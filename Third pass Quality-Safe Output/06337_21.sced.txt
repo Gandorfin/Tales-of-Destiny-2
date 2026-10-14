@@ -11,7 +11,7 @@ That guy's obviously suspicious.
 -----------------------
 <Loni>
 -----------------------
-notice
+Info
 -----------------------
 #<03:00000000>休みますか？
 #　はい　
@@ -511,21 +511,21 @@ Whoa...!
 What are you gaping at?
 Move.
 -----------------------
-notice
+Info
 -----------------------
 #<Kyle>は
 #称号「<item:00000809>」を得ました
 <Kyle> acquired the title
 "<item:00000809>".
 -----------------------
-notice
+Info
 -----------------------
 #<Loni>は
 #称号「<item:0000080C>」を得ました
 <Loni> acquired the title
 "<item:0000080C>".
 -----------------------
-notice
+Info
 -----------------------
 #<Judas>が仲間になりました
 <Judas> joined your party.
@@ -546,7 +546,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -571,24 +571,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{CA}{C0}を手に入れました
 Acquired {16}{25}{CA}{C0}.
 -----------------------
-notice
+Info
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{D2}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{D2}{C0}, but
 your inventory is full.
 -----------------------
-notice
+Info
 -----------------------
 #何もありません
 There's nothing here.

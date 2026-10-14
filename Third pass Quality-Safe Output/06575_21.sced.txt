@@ -179,7 +179,7 @@ Officer
 #敵の長、ミクトランを討つのが
 #ソーディアンチームの役割だ
 Taking down the enemy leader,
-Miktran, is the Swordian team's role.
+Miktran is the Swordian team's role.
 -----------------------
 #将校
 Officer
@@ -348,7 +348,7 @@ My, how enviable!
 You'll share your ingredients
 equally with everyone, won't you!
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　怖いから逆らわない　
 #　逃走　
@@ -363,7 +363,7 @@ Auntie C
 Good attitude!
 We'll be taking all sorts of things!
 -----------------------
-NOTICE
+Info
 -----------------------
 #食材を色々と持っていかれました････
 They took various ingredients...
@@ -374,7 +374,7 @@ Auntie C
 #これはお礼ザマス！
 This is our thanks!
 -----------------------
-NOTICE
+Info
 -----------------------
 #アップルグミをもらいましたが
 #まったく割に合っていません
@@ -387,7 +387,7 @@ Auntie A
 #また色々と、みつぐザマスよ！
 Keep the tributes coming, okay!
 -----------------------
-NOTICE
+Info
 -----------------------
 #オレンジグミをもらいましたが
 #まったく割に合っていません
@@ -400,7 +400,7 @@ Auntie A
 #また色々と、みつぐザマスよ！
 Keep the tributes coming, okay!
 -----------------------
-NOTICE
+Info
 -----------------------
 #ミックスグミをもらいました
 Received a Mix Gummy.
@@ -420,7 +420,7 @@ Shiny-Things Maid
 Don't you want to know how to get
 to Spiral Cave for <0B:00000001><num:00000005><0B:00000000> Lens?
 -----------------------
-select
+Option
 -----------------------
 #　聞きたい　
 #　自力で行きます　
@@ -494,7 +494,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -519,24 +519,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{BE}{C0}を手に入れました
 Acquired {16}{25}{BE}{C0}.
 -----------------------
-notice
+Info
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{D2}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{D2}{C0}, but
 your inventory is full.
 -----------------------
-notice
+Info
 -----------------------
 #何もありません
 There's nothing here.
