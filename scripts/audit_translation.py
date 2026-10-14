@@ -25,6 +25,10 @@ CRITICAL (these can crash the game or hide text, and should never grow):
                        fragment).
   source-drift         A maintained Third pass source file differs from its
                        build-ready TXT_EN copy, or is missing on either side.
+  skit-budget          A skit line is longer than its budget (it would need
+                       a text speed below 3 frames per glyph, or more than
+                       384 glyphs), or has more than one English line. See
+                       ps2/PyTOD2/skit_speed.py.
 
 INFO (quality signals, reported but not build-breaking):
   layout-width         A rendered segment exceeds 36 visible characters
@@ -45,6 +49,7 @@ Layout limits only apply to the scenario corpus; skits use a different
 renderer with its own timing constraints.
 """
 import argparse
+import importlib.util
 import json
 import os
 import re
@@ -74,7 +79,7 @@ MAX_LINES = 5
 MAX_PAGE = 126
 
 CRITICAL = ('code-mismatch', 'untranslated', 'misplaced-japanese',
-            'interleaved-english', 'source-drift')
+            'interleaved-english', 'source-drift', 'skit-budget')
 INFO = ('layout-width', 'layout-lines', 'layout-page', 'term-drift')
 
 
@@ -171,6 +176,31 @@ def audit_file(path, is_scenario, findings, term_map):
             term_map[jp_flat][' '.join(en).strip()] += 1
 
 
+def load_skit_speed():
+    path = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                        '..', 'ps2', 'PyTOD2', 'skit_speed.py')
+    spec = importlib.util.spec_from_file_location('skit_speed', path)
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    return module
+
+
+def check_skit_budget(root, findings):
+    table_path = os.path.join(root, 'ps2', 'PyTOD2', 'skit_speeds.json')
+    skit_dir = os.path.join(root, SKIT_DIR)
+    if not os.path.exists(table_path) or not os.path.isdir(skit_dir):
+        return
+    K = load_skit_speed()
+    table = K.load_table(table_path)
+    for name, rows in sorted(table.items()):
+        path = os.path.join(skit_dir, name + '.txt')
+        if not os.path.exists(path):
+            continue
+        for line, message in K.problems(name, rows, K.records(path)):
+            findings['skit-budget'].append(
+                {'file': name + '.txt', 'record': line, 'problem': message})
+
+
 def run_audit(root):
     findings = defaultdict(list)
     term_map = defaultdict(Counter)
@@ -214,6 +244,8 @@ def run_audit(root):
                 'build': build_folder,
                 'problem': problem,
             })
+
+    check_skit_budget(root, findings)
 
     drift = {jp: dict(ens) for jp, ens in term_map.items()
              if len(ens) > 1 and sum(ens.values()) >= 3}

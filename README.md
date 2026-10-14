@@ -41,10 +41,13 @@ The only Japanese players still report in the PS2 build is the Magical Pot
 prompt (under investigation) and text that is part of a texture, such as a
 poster in the Katz Village. Known open issues: the Refine screen does not show
 the required Lens, the enchant level up message is cut off at about 32
-characters (so it is shortened), and skit lines are shortened to fit the voice
-timing; a per line skit speed fix based on SkyBladeCloud's finding is being
-tested so full length skit lines can return. Details are in the open items of
+characters (so it is shortened). Details are in the open items of
 `ps2/menu/README.md`.
+
+From the next release after v1.2.7 the skits are retranslated at full length:
+the build sets each skit line's text speed so it fits that line's voice
+(SkyBladeCloud found the speed value), so lines no longer have to be cut
+short.
 
 ## Getting the PS2 patch
 
@@ -121,9 +124,9 @@ Short version; the details are in `ps2/menu/README.md` ("Applying it") and
    `ps2/PyTOD2/TXT_EN` and `ps2/PyTOD2/FILE/pak1/TXT_EN`; the audit requires
    each pair to be byte-for-byte identical. Build from the `TXT_EN` copies,
    then Pack SCED, Pack SCPK, Insert SKIT, Move Skits IN, and Pack PAK1.
-   Insert SKIT also retimes every skit line: the English reveals in the
-   time the Japanese line took (`ps2/PyTOD2/skit_speed.py`, original
-   speeds in `skit_speeds.json`; speed byte found by SkyBladeCloud).
+   Insert SKIT also retimes every skit line so the English appears inside
+   that line's time window (`ps2/PyTOD2/skit_speed.py`, original speeds and
+   windows in `skit_speeds.json`; speed byte found by SkyBladeCloud).
 3. Apply the menu tables (all five, in this order, from the repository root;
    put the version you are about to release in the last FPB step):
    ```
@@ -241,8 +244,10 @@ in the help thread linked under Resources.
   and fails only if a change adds a crash-class finding.
 * Text rules: 36 visible characters per line, 126 per four-row page, page
   breaks with `{02}`, control codes must match the Japanese source exactly.
-  Skit lines reveal at 8 characters per second and have a fixed time window;
-  keep them short.
+  A skit line is one line of any length up to its budget: it may not need a
+  text speed faster than 20 characters per second (and never more than 384
+  characters). `python ps2/PyTOD2/skit_speed.py report <skit folder>` and the
+  audit check it.
 * Use the terms marked `[LOCK]` in `glossary.txt` and the voices in
   `character_voice_guide.txt`.
 * Never commit game files or images of the disc; the repository holds text

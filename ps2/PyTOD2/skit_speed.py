@@ -12,16 +12,19 @@ frames before it spawns the next glyph. Smaller is faster; 8 is about 7.5
 glyphs per second.
 
 English lines are longer than the Japanese ones, so each line gets
-    original speed * Japanese glyphs // English glyphs
-which reveals the English in the time the Japanese took (never slower than
-the original, never below MIN_SPEED). The value only ever shrinks, so it is
-rewritten in place and the code section keeps its length.
+    window // English glyphs
+which reveals the English inside the line's time window (never slower than
+the original, never below MIN_SPEED). The window in frames is the larger of
+the time the Japanese took (original speed * Japanese glyphs) and the time
+the PR 18 text needed at 8 glyphs per second (commit 60bc9aaf, every line
+checked against the measured voice window then). The value only ever
+shrinks, so it is rewritten in place and the code section keeps its length.
 
-The original speeds and Japanese glyph counts come from skit_speeds.json,
-generated from the retail ISO, because a reused FILE/pak1 folder holds
-SCEDs that an earlier build already retimed.
+skit_speeds.json holds [pointer field, original speed, Japanese glyphs,
+window] per line, generated from the retail ISO, because a reused
+FILE/pak1 folder holds SCEDs that an earlier build already retimed.
 
-    python skit_speed.py table <Japanese ISO> skit_speeds.json
+    python skit_speed.py table <Japanese ISO> skit_speeds.json [<PR 18 skit TXT_EN folder>]
     python skit_speed.py report <skit TXT_EN folder>
 """
 import json
@@ -35,6 +38,13 @@ TABLE = os.path.join(HERE, 'skit_speeds.json')
 
 MIN_SPEED = 1
 MAX_GLYPHS = 384  # glyph slots per skit line (record+0x1BC .. +0xDBC)
+
+# Translation budget: a line may not need a speed below READABLE_SPEED
+# (20 glyphs per second). A row shows about 60 glyphs; longer lines scroll
+# sideways and their start leaves the screen, so for them the reveal speed
+# is the reading speed. 00054_02 is the untimed opening diary.
+READABLE_SPEED = 3
+EXEMPT = {'00054_02.sced'}
 
 # Names as the game draws them: Japanese in the retail table, English in
 # the patched executable. Unknown character ids count as 5 glyphs.
@@ -123,10 +133,39 @@ def en_glyphs(text):
     return n + len(text) - pos
 
 
-def new_speed(original, japanese, english):
+def window(row):
+    """Frames a line may take; rows without a window use the Japanese time."""
+    return row[3] if len(row) > 3 else row[1] * row[2]
+
+
+def new_speed(original, japanese, english, frames=None):
     if english <= 0:
         return original
-    return max(MIN_SPEED, min(original, original * japanese // english))
+    frames = original * japanese if frames is None else frames
+    return max(MIN_SPEED, min(original, frames // english))
+
+
+def budget(row):
+    """Most English glyphs a line may have."""
+    return min(MAX_GLYPHS, max(row[2], window(row) // READABLE_SPEED))
+
+
+def problems(name, rows, texts):
+    """Lines of one skit that break the translation budget, as
+    (line, message). rows from skit_speeds.json, texts from records()."""
+    if name in EXEMPT:
+        return []
+    if len(rows) != len(texts):
+        return [(None, f'{len(texts)} records, skit_speeds.json has {len(rows)}')]
+    out = []
+    for i, (row, text) in enumerate(zip(rows, texts)):
+        if '\n' in text.strip('\n'):
+            out.append((i, 'more than one English line (a skit shows one)'))
+        english = en_glyphs(text.strip('\n'))
+        limit = budget(row)
+        if english > limit:
+            out.append((i, f'{english} glyphs, budget {limit}'))
+    return out
 
 
 def load_table(path=TABLE):
@@ -146,8 +185,8 @@ def retime(name, code, pointer_fields, texts, table):
             f'{name}: skit_speeds.json has {len(rows)} lines, the SCED '
             f'{len(pointer_fields)} pointers, TXT_EN {len(texts)} records')
     out = []
-    for i, ((field, original, japanese), actual, text) in enumerate(
-            zip(rows, pointer_fields, texts)):
+    for i, (row, actual, text) in enumerate(zip(rows, pointer_fields, texts)):
+        field, original = row[0], row[1]
         if field != actual:
             raise RuntimeError(
                 f'{name} line {i}: pointer at 0x{actual:X}, '
@@ -155,7 +194,7 @@ def retime(name, code, pointer_fields, texts, table):
         if speed_site(code, field) is None:
             raise RuntimeError(f'{name} line {i}: no speed push before F8')
         english = en_glyphs(text)
-        value = new_speed(original, japanese, english)
+        value = new_speed(original, row[2], english, window(row))
         write_speed(code, field, value)
         out.append((i, original, value, english))
     return out
@@ -265,13 +304,22 @@ def retail_skits(iso):
 
 
 def main(argv):
-    if len(argv) == 3 and argv[0] == 'table':
+    if len(argv) in (3, 4) and argv[0] == 'table':
         skits = retail_skits(argv[1])
         table = {}
         for name, sced in sorted(skits.items()):
             rows = table_from_sced(sced)
-            if rows:
-                table[name] = rows
+            if not rows:
+                continue
+            validated = os.path.join(argv[3], name + '.txt') if len(argv) == 4 else None
+            if validated and os.path.exists(validated) and name not in EXEMPT:
+                texts = records(validated)
+                if len(texts) != len(rows):
+                    raise RuntimeError(f'{name}: {len(texts)} validated records, {len(rows)} lines')
+                for row, text in zip(rows, texts):
+                    # 8 glyphs per second = 7.5 frames per glyph
+                    row.append(max(row[1] * row[2], (en_glyphs(text.strip('\n')) * 15 + 1) // 2))
+            table[name] = rows
         with open(argv[2], 'w', encoding='utf-8', newline='\n') as f:
             f.write('{\n')
             f.write(',\n'.join(f'"{k}": {json.dumps(v)}' for k, v in table.items()))
@@ -282,6 +330,7 @@ def main(argv):
         table = load_table()
         hist = {}
         long_lines = []
+        over = []
         for name, rows in sorted(table.items()):
             path = os.path.join(argv[1], name + '.txt')
             if not os.path.exists(path):
@@ -290,16 +339,20 @@ def main(argv):
             if len(texts) != len(rows):
                 print(f'{name}: {len(texts)} records, table has {len(rows)}')
                 continue
-            for i, ((_, original, japanese), text) in enumerate(zip(rows, texts)):
+            for i, (row, text) in enumerate(zip(rows, texts)):
                 english = en_glyphs(text)
-                value = new_speed(original, japanese, english)
+                value = new_speed(row[1], row[2], english, window(row))
                 hist[value] = hist.get(value, 0) + 1
                 if english > MAX_GLYPHS:
                     long_lines.append(f'{name} line {i}: {english} glyphs')
+            over += [f'{name} line {i}: {msg}' for i, msg in problems(name, rows, texts)]
         for value in sorted(hist):
             print(f'speed {value:2d} ({60 / value:5.1f} glyphs/s): {hist[value]} lines')
         for line in long_lines:
             print(f'over {MAX_GLYPHS} glyphs: {line}')
+        print(f'{len(over)} lines over budget (speed below {READABLE_SPEED}):')
+        for line in over:
+            print('  ' + line)
         return 0
     print(__doc__)
     return 1
