@@ -90,5 +90,56 @@ class ScedSafetyTests(unittest.TestCase):
                 list(sc.instructions(script(bytes.fromhex(code))))
 
 
+class SkitSpeedTests(unittest.TestCase):
+    # push character 3, line 0, 0, SPEED, F8 -> "Old" (3 glyphs each)
+    def skit(self, push):
+        return script(bytes.fromhex('83 80 80') + push + bytes.fromhex('f8 01 00 c0 f1'))
+
+    def test_speed_operands_both_forms(self):
+        self.assertEqual(sc.speed_operands(self.skit(b'\x87')), {17: (15, 7)})
+        self.assertEqual(sc.speed_operands(self.skit(b'\x90\x08')), {18: (16, 8)})
+
+    def test_f8_after_other_instruction_has_no_speed(self):
+        self.assertEqual(sc.speed_operands(script(bytes.fromhex('c0 f8 01 00 c0 f1'))), {})
+
+    def test_short_speed_push_may_change(self):
+        d = self.skit(b'\x87')
+        sped = bytearray(d)
+        sped[15] = 0x83
+        sc.validate_code_changes(d, bytes(sped), speeds=True)
+        with self.assertRaises(ValueError):
+            sc.validate_code_changes(d, bytes(sped))
+        wide = bytearray(d)
+        wide[15] = 0x90  # a different instruction width is never allowed
+        with self.assertRaises(ValueError):
+            sc.validate_code_changes(d, bytes(wide), speeds=True)
+
+    def test_speed_byte_may_change_other_code_may_not(self):
+        d = self.skit(b'\x90\x08')
+        sped = bytearray(d)
+        sped[16] = 3
+        sc.validate_code_changes(d, bytes(sped), speeds=True)
+        with self.assertRaises(ValueError):
+            sc.validate_code_changes(d, bytes(sped))
+        bad = bytearray(d)
+        bad[12] = 0x81
+        with self.assertRaises(ValueError):
+            sc.validate_code_changes(d, bytes(bad), speeds=True)
+
+    def test_retime_uses_the_ps2_window(self):
+        d = self.skit(b'\x90\x08')
+        at = 18
+        table = {'%05d_02.sced' % (213 - pt.PS2_SKIT_OFFSET): [[0, 8, 3, 120]]}
+        out, speeds = pt.retime_skit('00213', d, d, [at], [['a' * 40]], table)
+        self.assertEqual(speeds, [3])  # 120 frames // 40 glyphs
+        self.assertEqual(sc.speed_operands(out)[at], (16, 3))
+        out, speeds = pt.retime_skit('00213', d, d, [at], [['abc']], table)
+        self.assertEqual(speeds, [8])  # never slower than the original
+
+    def test_skit_without_ps2_twin_is_left_alone(self):
+        d = self.skit(b'\x87')
+        self.assertEqual(pt.retime_skit('00213', d, d, [17], [['x']], {}), (d, None))
+
+
 if __name__ == '__main__':
     unittest.main()
