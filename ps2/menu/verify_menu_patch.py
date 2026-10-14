@@ -216,10 +216,15 @@ def main():
         print(f"{'SLPS titles':<12}{t['en']:>8}{t['jp']:>10}{t['other']:>7}  {verdict}")
         ok = ok and t["jp"]==0 and t["other"]==0
         try:
-            glyphs, table = slps_font.state(slps)
+            cells = slps_font.glyph_state(slps)
+            table = slps_font.state(slps)[1]
         except slps_font.FontError as e:
-            glyphs = table = False
-        fv = "PATCHED" if glyphs and table else ("NOT patched" if not (glyphs or table) else "MIXED")
+            cells, table = 'base', False
+        glyphs = cells != 'base'
+        if glyphs and table:
+            fv = "PATCHED" if cells == 'drawn' else "PATCHED (custom font draws them)"
+        else:
+            fv = "NOT patched" if not (glyphs or table) else "MIXED"
         print(f"{'SLPS font':<12}{'&~*' if glyphs else '':>8}{'':>10}{'':>7}  {fv} (ampersand, tilde, asterisk glyphs)")
         ok = ok and glyphs and table
         manifest = slps_menu.is_applied(slps, slps_menu.load())

@@ -173,6 +173,28 @@ def write_cell(tex, base, w, cell, px):
 
 # ---------------------------------------------------------------- patch
 
+# SHA-1 (first 16 hex digits) of the 12x16 palette indices of each cell in
+# the 2008 English base executable: curly quotes and a star, which the
+# ASCII map would show for '&', '~' and '*' if nothing redrew them.
+BASE_CELLS = {0x4B: '39658f82357d3cc5', 0x4C: 'ab95ee54f8c981f9', 0x4E: '8e84d666d2516144'}
+
+
+def glyph_state(d):
+    """'drawn' (this tool's glyphs), 'custom' (redrawn by a custom font such
+    as the one patch_font_iso.py inserts) or 'base' (a cell still holds the
+    2008 quote or star) for cells 4B, 4C and 4E."""
+    import hashlib
+    tex = lzss.unpack(packed_blob(d))
+    base, w, h = image_block(tex)
+    cells = {c: read_cell(tex, base, w, c) for c in GLYPHS}
+    if all(cells[c] == rendered(art) for c, (_, art) in GLYPHS.items()):
+        return 'drawn'
+    digest = lambda px: hashlib.sha1(bytes(v for row in px for v in row)).hexdigest()[:16]
+    if any(digest(cells[c]) == BASE_CELLS[c] for c in GLYPHS):
+        return 'base'
+    return 'custom'
+
+
 def state(d):
     """-> (font_done, map_done) for an executable."""
     tex = lzss.unpack(packed_blob(d))

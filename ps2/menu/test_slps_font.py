@@ -85,6 +85,26 @@ class Patch(unittest.TestCase):
         for cell in (0x4A, 0x4D, 0x4F):
             self.assertEqual(F.read_cell(tex, base, w, cell), F.read_cell(before, base, w, cell))
 
+    def test_glyph_state_tells_drawn_custom_and_base_apart(self):
+        new, _ = F.apply(make_slps())
+        self.assertEqual(F.glyph_state(new), 'drawn')
+        # a custom font (e.g. inserted with patch_font_iso.py) redraws the cells
+        self.assertEqual(F.glyph_state(make_slps()), 'custom')
+        # the 2008 quote/star cells are recognised by their fingerprints:
+        # pretend this synthetic font's cell 4C is the 2008 glyph
+        import hashlib
+        src = make_slps()
+        tex = lzss.unpack(F.packed_blob(src))
+        base, w, h = F.image_block(tex)
+        cell = bytes(v for row in F.read_cell(tex, base, w, 0x4C) for v in row)
+        saved = dict(F.BASE_CELLS)
+        try:
+            F.BASE_CELLS[0x4C] = hashlib.sha1(cell).hexdigest()[:16]
+            self.assertEqual(F.glyph_state(src), 'base')
+        finally:
+            F.BASE_CELLS.clear()
+            F.BASE_CELLS.update(saved)
+
     def test_idempotent(self):
         new, _ = F.apply(make_slps())
         again, changes = F.apply(new)
