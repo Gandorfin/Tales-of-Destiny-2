@@ -31,8 +31,11 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 import psp_fpb
 import psp_sced
+sys.path.insert(0, os.path.join(HERE, '..', '..', 'ps2', 'PyTOD2'))
+import skit_speed
 
 ROOT = os.path.normpath(os.path.join(HERE, '..', '..'))
+PS2_SKIT_OFFSET = 159  # PSP skit member 00213 is PS2 skit 00054
 TBL = json.load(open(os.path.join(ROOT, 'ps2', 'PyTOD2', 'TBL.json'), encoding='utf-8'))
 ITBL = {v: struct.pack('>H', int(k)) for k, v in TBL.items()}   # last code wins, as in PyTOD2
 # codes the PS2 table never listed, derived from the PSP glyph list (member
@@ -255,6 +258,31 @@ def insert_sced(d, records, addrs):
     psp_sced.validate_code_changes(d, out)
     return bytes(out), 'rebuild', len(susp)
 
+def retime_skit(name, original, rebuilt, addrs, records, table):
+    """Set the text speed of every line of one skit (see ps2/PyTOD2/
+    skit_speed.py). PSP skit member n plays the same lines as PS2 skit
+    n - PS2_SKIT_OFFSET, so the PS2 time window of each line applies; the
+    original speed and Japanese glyph count come from the retail SCED.
+    Returns (bytes, speeds) or (rebuilt, None) when the skit has no PS2 twin."""
+    rows = table.get('%05d_02.sced' % (int(name) - PS2_SKIT_OFFSET))
+    if rows is None or len(rows) != len(addrs):
+        return rebuilt, None
+    _, tb = psp_sced.regions(original)
+    sites = psp_sced.speed_operands(original)
+    out = bytearray(rebuilt)
+    speeds = []
+    for row, at, lines in zip(rows, addrs, records):
+        if at not in sites:
+            raise ValueError('%s: no speed push before the F8 at 0x%X' % (name, at - 1))
+        speed = sites[at][1]
+        japanese = skit_speed.jp_glyphs(original, tb + struct.unpack_from('<H', original, at)[0])
+        frames = max(speed * japanese, skit_speed.window(row))
+        value = skit_speed.new_speed(speed, japanese, skit_speed.en_glyphs('\n'.join(lines)), frames)
+        skit_speed.write_speed(out, at, value)
+        speeds.append(value)
+    psp_sced.validate_code_changes(original, out, speeds=True)
+    return bytes(out), speeds
+
 # ------------------------------------------------------------ containers
 
 def scpk_members(d):
@@ -446,6 +474,8 @@ def build(boot_path, fpb_path, work, new_fpb, new_boot, extra=None):
     ranges = psp_fpb.member_ranges(psp_fpb.read_table(boot))
     src = open(fpb_path, 'rb')
     stats = collections.Counter()
+    speed_table = skit_speed.load_table()
+    speed_hist = collections.Counter()
 
     def get_new(i, kind_stored):
         if extra and i in extra:
@@ -464,6 +494,13 @@ def build(boot_path, fpb_path, work, new_fpb, new_boot, extra=None):
         members = scpk_members(data) if info['kind'] == 'scenario' else pak_members(data)
         idx, sced, packed = find_sced(members)
         new_sced, mode, skipped = insert_sced(sced, records, info['addrs'])
+        if info['kind'] == 'skit':
+            new_sced, speeds = retime_skit(name, sced, new_sced, info['addrs'], records, speed_table)
+            if speeds is None:
+                stats['skits without PS2 timing (speed kept)'] += 1
+            else:
+                for value in speeds:
+                    speed_hist[value] += 1
         members[idx] = deflate(new_sced) if packed else new_sced
         stats[info['kind']] += 1
         stats[mode] += 1
@@ -475,6 +512,7 @@ def build(boot_path, fpb_path, work, new_fpb, new_boot, extra=None):
     psp_fpb.repack(boot_path, fpb_path, new_fpb, new_boot, get_new)
     src.close()
     print('rebuilt', dict(stats))
+    print('skit text speed (frames per glyph):', dict(sorted(speed_hist.items())))
 
 def _canon(lines):
     """decode_string prints a raw byte 0xA1..0xDF as its cp932 halfwidth kana

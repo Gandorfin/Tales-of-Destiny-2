@@ -63,15 +63,39 @@ def text_operands(data):
     return {p + 1 for p, op, _ in instructions(data) if op == 0xF8}
 
 
-def validate_code_changes(original, rebuilt):
-    """Only real text-reference operands may change in the code region."""
+def speed_operands(data):
+    """{F8 operand address: (speed byte address, value)} for the skit text speed.
+
+    A skit line is push character, push line, push 0, push SPEED, F8; SPEED
+    is a 4-bit push (0x80+N, the byte is the opcode) or a byte push (0x90 NN,
+    the byte is NN). Only F8 instructions right after such a push appear."""
+    out = {}
+    prev = None
+    for p, op, size in instructions(data):
+        if op == 0xF8 and prev is not None:
+            q, pop, psize = prev
+            if 0x80 <= pop <= 0x87 and psize == 1:
+                out[p + 1] = (q, pop - 0x80)
+            elif pop == 0x90 and psize == 2:
+                out[p + 1] = (q + 1, data[q + 1])
+        prev = (p, op, size)
+    return out
+
+
+def validate_code_changes(original, rebuilt, speeds=False):
+    """Only real text-reference operands (and, with speeds, the skit speed
+    bytes) may change in the code region."""
     code, text = regions(original)
     if regions(rebuilt) != (code, text) or original[:code] != rebuilt[:code]:
         raise ValueError('SCED header/code boundaries changed')
     allowed = {p + k for p in text_operands(original) for k in (0, 1)}
+    if speeds:
+        allowed |= {at for at, _ in speed_operands(original).values()}
     changed = [p for p in range(code, text)
                if original[p] != rebuilt[p] and p not in allowed]
     if changed:
         raise ValueError('non-text bytecode changed: ' + ', '.join(hex(p) for p in changed[:12]))
-    if list(instructions(original)) != list(instructions(rebuilt)):
+    before, after = list(instructions(original)), list(instructions(rebuilt))
+    if [(p, size) for p, _, size in before] != [(p, size) for p, _, size in after] or any(
+            a[1] != b[1] and a[0] not in allowed for a, b in zip(before, after)):
         raise ValueError('SCED instruction boundaries changed')

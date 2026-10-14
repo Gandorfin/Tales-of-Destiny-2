@@ -44,10 +44,10 @@ the required Lens, the enchant level up message is cut off at about 32
 characters (so it is shortened). Details are in the open items of
 `ps2/menu/README.md`.
 
-From the next release after v1.2.7 the skits are retranslated at full length:
-the build sets each skit line's text speed so it fits that line's voice
-(SkyBladeCloud found the speed value), so lines no longer have to be cut
-short.
+From the next release after v1.2.7 (and the next PSP release) the skits are
+retranslated at full length: the build sets each skit line's text speed so it
+fits that line's voice (SkyBladeCloud found the speed value), so lines no
+longer have to be cut short.
 
 ## Getting the PS2 patch
 
@@ -169,7 +169,9 @@ The whole pipeline is one command, `python3 psp/tools/build_psp.py`, which:
   pointer-rewrite pool (`psp_menu.py`, `psp_pool.py`)
 * matches every scenario and skit record against the PS2 English script and a
   hand-translated supplement for the PSP-exclusive scenes, then inserts them
-  (`psp_text.py`, `psp_supplement.tsv`)
+  (`psp_text.py`, `psp_supplement.tsv`); every skit line also gets its text
+  speed from the PS2 time window of the same line (PSP skit member n is PS2
+  skit n - 159), so the full length English fits the voice
 * translates the Monster Book / bestiary enemy names, which live one PAK level
   deep and then inside a raw-deflate blob in the battle-resource archive
   members (`psp_monsters.py`)
