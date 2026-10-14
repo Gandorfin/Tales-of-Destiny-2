@@ -101,6 +101,15 @@ EXTRA_TRANSLATIONS = {
     '-リジェネレーション-': '-Regeneration-',
     '-スパイダーネット-': '-Spider Net-',
     '-剛力のオラトリオ-': '-Might Oratorio-',
+    # spoken lines of the Mystic Arte cut-in in 08778.pak1 (efD script),
+    # katakana in the original; each keeps its slot's byte budget
+    '-チガ\u3000チヲコバム-': '-Kin rejects kin-',
+    '-ココロガ\u3000ココロヲクダク-': '-Heart shatters heart-',
+    '-ユメナド・・・-': '-Dreams...-',
+    '-ソコニハソンザイシナイノダカラ-': '-It does not exist there-',
+    '-アラガウカ！-': '-You resist!?-',
+    '-ムダダ！-': '-Futile!-',
+    '-サカラエヌ、サダメガアル・・・-': '-A fate none can defy...-',
 }
 
 # Mystic Arte banners embedded in efD battle-effect scripts.  The katakana
@@ -123,6 +132,9 @@ MYSTIC_ARTE_TRANSLATIONS = {
     # 10-byte slot, so use the recognizable second half of the localized
     # name in battle; the full menu name lives elsewhere in the executable.
     '斬空天翔剣': 'Guillotine',
+    # Judas's Shouha Rekkousen, "Light Blast" in the glossary; the efD
+    # literal in 08777.pak1 has a 10-byte slot.
+    '翔破裂光閃': 'Lightblast',
 }
 
 # A few efD effect scripts use a cut-in-specific glyph page rather than the
