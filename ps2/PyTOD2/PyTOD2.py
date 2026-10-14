@@ -24,6 +24,8 @@ from shutil import copyfile
 #For Hyperlinks in the GUI
 import webbrowser
 
+import skit_speed
+
 def callback(url):
     webbrowser.open_new(url)
 
@@ -439,7 +441,7 @@ def extract_sced_skit():
     #json.dump(json_data, json_file2, indent=4)
     json.dump(sced_data, sced_file, indent=4)
 
-def insert_sced():
+def insert_sced(skit=False):
     json_file = open('TBL.json', 'r')
     sced_json = open('SCED.json', 'r')
     table = json.load(json_file)
@@ -453,6 +455,9 @@ def insert_sced():
     
     mkdir('SCED_NEW/')
 
+    speed_table = skit_speed.load_table() if skit else None
+    speed_report = []
+
     for name in os.listdir('txt_en'):
         f = open('txt_en/' + name, 'r', encoding='utf8')
         name = name[:-4]
@@ -461,6 +466,8 @@ def insert_sced():
 
         txts = []
         sizes = []
+        texts = []
+        lines = []
         txt = bytearray()
 
         for line in f:
@@ -471,8 +478,11 @@ def insert_sced():
             if '-----------------------' in line:
                 txts.append(txt[:-1] + b'\x00')
                 sizes.append(len(txt))
+                texts.append('\n'.join(lines))
+                lines = []
                 txt = bytearray()
             else:
+                lines.append(line)
                 string_hex = re.split(hex_tag, line)
                 string_hex = [sh for sh in string_hex if sh]
                 for s in string_hex:
@@ -536,6 +546,14 @@ def insert_sced():
         pointer_block = struct.unpack('<L', sced.read(4))[0]
         sced.seek(0, 0)
         header = sced.read(pointer_block)
+
+        if skit:
+            header = bytearray(header)
+            retimed = skit_speed.retime(
+                name, header, sced_data[name], texts, speed_table
+            )
+            speed_report.extend((name,) + row for row in retimed)
+
         o.write(header + b'\x00')
         sced.close()
 
@@ -561,6 +579,17 @@ def insert_sced():
             )
 
         o.close()
+
+    if skit:
+        speeds = {}
+        for row in speed_report:
+            speeds[row[3]] = speeds.get(row[3], 0) + 1
+        print(
+            f'Skit text speed (frames per glyph) for {len(speed_report)} '
+            f'lines: ' + ', '.join(
+                f'{value}: {speeds[value]}' for value in sorted(speeds)
+            )
+        )
 
 def pack_scpk():
     mkdir('SCPK_PACKED')
@@ -1208,7 +1237,7 @@ def extract_skit():
     
 def insert_skit():
     os.chdir('FILE/pak1')
-    insert_sced()
+    insert_sced(skit=True)
     os.chdir('../..')
     
 def move_skits_in():

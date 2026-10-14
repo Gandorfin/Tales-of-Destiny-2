@@ -114,6 +114,9 @@ Short version; the details are in `ps2/menu/README.md` ("Applying it") and
    `ps2/PyTOD2/TXT_EN` and `ps2/PyTOD2/FILE/pak1/TXT_EN`; the audit requires
    each pair to be byte-for-byte identical. Build from the `TXT_EN` copies,
    then Pack SCED, Pack SCPK, Insert SKIT, Move Skits IN, and Pack PAK1.
+   Insert SKIT also retimes every skit line: the English reveals in the
+   time the Japanese line took (`ps2/PyTOD2/skit_speed.py`, original
+   speeds in `skit_speeds.json`; speed byte found by SkyBladeCloud).
 3. Apply the menu tables (all five, in this order, from the repository root;
    put the version you are about to release in the last FPB step):
    ```
