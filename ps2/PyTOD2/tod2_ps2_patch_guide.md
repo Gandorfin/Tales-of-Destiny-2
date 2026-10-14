@@ -16,7 +16,7 @@ fill TXT_EN folder with scenario translated files and one  at "file/pak1/TXT_EN"
 
 8 Pack SCED
 9 Pack SCPK
-10 Insert SKIT
+10 Insert SKIT (also sets each skit line's text speed from skit_speeds.json, see skit_speed.py; the console prints how many lines got which speed)
 11 Move Skits IN
 12 Pack PAK1
 13 Pack FPB
