@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """One-shot PSP build: Japanese UMD image in, English image out.
 
-    python psp/tools/build_psp.py "Tales of Destiny 2 (Japan).iso" tod2_psp_en.iso --version 0.1.1 [--lowercase-font on|off] [--probe] [--keep WORKDIR]
+    python psp/tools/build_psp.py "Tales of Destiny 2 (Japan).iso" tod2_psp_en.iso --version 0.1.1 [--lowercase-font on|off] [--movies [--ffmpeg PATH]] [--probe] [--keep WORKDIR]
 
 --version X.Y.Z draws "Green Gel Patch vX.Y.Z" on the title screen in place
 of the Japanese designer credit (psp_title.py). Without it the title screen
@@ -22,6 +22,9 @@ test patterns (a line of i's over a line of M's, and a long pangram), for
 checking how the engine draws Latin text. --keep leaves the work folder.
 --lowercase-font on (the default) applies SkyBladeCloud's lowercase font hack.
 --lowercase-font off keeps the retail fonts and uppercase ASCII rendering.
+--movies also burns the English subtitles into the nine movies with dialogue
+(psp_movies.py; needs an FFmpeg with libass and libx264, or the
+imageio-ffmpeg package; --ffmpeg names the executable).
 """
 import sys, os, re, tempfile, shutil, argparse
 
@@ -41,7 +44,7 @@ def add_probes(work):
     open(p, 'w', encoding='utf-8').write(s)
     print('probes placed in 06470')
 
-def main(iso, out_iso, probe=False, keep=None, version=None, lowercase_font=True):
+def main(iso, out_iso, probe=False, keep=None, version=None, lowercase_font=True, movies=False, ffmpeg=None):
     work = keep or tempfile.mkdtemp(prefix='tod2psp_')
     os.makedirs(work, exist_ok=True)
     boot = os.path.join(work, 'BOOT.BIN')
@@ -88,11 +91,15 @@ def main(iso, out_iso, probe=False, keep=None, version=None, lowercase_font=True
     psp_text.build(boot, fpb, text, new_fpb, new_boot, extra=_extra)
     if not psp_text.verify(new_boot, new_fpb, text):
         raise SystemExit('verification failed, image not written')
-    psp_iso.replace(iso, out_iso, [
+    replaced = [
         ('/PSP_GAME/USRDIR/file.fpb', new_fpb),
         ('/PSP_GAME/SYSDIR/BOOT.BIN', new_boot),
         ('/PSP_GAME/SYSDIR/EBOOT.BIN', new_boot),
-    ])
+    ]
+    if movies:
+        import psp_movies
+        replaced += psp_movies.build(iso, os.path.join(work, 'movies'), ffmpeg)
+    psp_iso.replace(iso, out_iso, replaced)
     if keep is None:
         shutil.rmtree(work)
     print('wrote', out_iso)
@@ -107,10 +114,12 @@ def parse_args(argv=None):
     parser.add_argument('--version', help='patch version to draw on the title screen')
     parser.add_argument('--lowercase-font', choices=('on', 'off'), default='on',
                         help="apply the collaborator's lowercase font hack (default: on); off uses retail uppercase rendering")
+    parser.add_argument('--movies', action='store_true', help='burn the English subtitles into the movies')
+    parser.add_argument('--ffmpeg', help='FFmpeg executable for --movies (needs libass and libx264)')
     return parser.parse_args(argv)
 
 
 if __name__ == '__main__':
     args = parse_args()
     main(args.iso, args.out_iso, args.probe, args.keep, args.version,
-         lowercase_font=args.lowercase_font == 'on')
+         lowercase_font=args.lowercase_font == 'on', movies=args.movies, ffmpeg=args.ffmpeg)
