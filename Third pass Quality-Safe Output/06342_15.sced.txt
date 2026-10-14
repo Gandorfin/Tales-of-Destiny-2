@@ -7,28 +7,28 @@ Darilsheid Underground Waterway
 #ここは地下水路です
 This is the underground waterway.
 -----------------------
-NOTICE
+Info
 -----------------------
 #古びたロープが垂れ下がっています
 #このロープは焼き切れそうです
 An old rope hangs down. It looks
 like this rope could burn through.
 -----------------------
-NOTICE
+Info
 -----------------------
 #古びたロープが垂れ下がっています
 #このロープは焼き切れそうです
 An old rope hangs down. It looks
 like this rope could burn through.
 -----------------------
-NOTICE
+Info
 -----------------------
 #古びたロープが垂れ下がっています
 #このロープは焼き切れそうです
 An old rope hangs down. It looks
 like this rope could burn through.
 -----------------------
-NOTICE
+Info
 -----------------------
 #<item:00000041>を手に入れました
 Acquired <item:00000041>.
@@ -44,7 +44,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -69,24 +69,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{BE}{C0}を手に入れました
 Acquired {16}{25}{BE}{C0}.
 -----------------------
-notice
+Info
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{D2}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{D2}{C0}, but
 your inventory is full.
 -----------------------
-notice
+Info
 -----------------------
 #何もありません
 There's nothing here.

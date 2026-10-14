@@ -458,7 +458,7 @@ Here is my reply.
 Please make sure to deliver it
 to little Ginny.
 -----------------------
-notice
+Info
 -----------------------
 #フィリアの返事を受取りました
 Received Philia's reply.
@@ -910,7 +910,7 @@ I have to save her!!
 If you can make the flower bloom,
 please bring it to me...
 -----------------------
-notice
+Info
 -----------------------
 #ベルセリアの種を手に入れた
 Acquired Bellseria seed.
@@ -946,7 +946,7 @@ all that's left is to brew it...
 It's done! This is the
 Bellseria secret remedy!!
 -----------------------
-notice
+Info
 -----------------------
 #ベルセリアの秘薬を手に入れました
 Acquired Bellseria secret remedy.
@@ -999,7 +999,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -1024,24 +1024,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-notice
+Info
 -----------------------
 #{16}{26}{36}{C0}を手に入れました
 Acquired {16}{26}{36}{C0}.
 -----------------------
-notice
+Info
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{26}{3E}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{26}{3E}{C0}, but
 your inventory is full.
 -----------------------
-notice
+Info
 -----------------------
 #何もありません
 There's nothing here.

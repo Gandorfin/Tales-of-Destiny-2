@@ -842,7 +842,7 @@ take care of me on the way, yeah?
 #こっちこそ、よろしく、<Nanaly>！
 Likewise, <Nanaly>!
 -----------------------
-notice
+Info
 -----------------------
 #<Nanaly>が仲間になりました
 <Nanaly> has joined your party.
@@ -934,7 +934,7 @@ Elrane
 #神と、その、み使いたる聖女が････
 That is precisely why we are
 needed. The goddess, and the
-Holy Woman who is her messenger...
+Saintess who is her messenger...
 -----------------------
 #エルレイン
 Elrane
@@ -1233,7 +1233,7 @@ We've got to chase down Elrane!
 #ええ、<Kyle>！
 Yes, <Kyle>!
 -----------------------
-notice
+Info
 -----------------------
 #<Kyle>は
 #称号「<item:00000887>」を得ました
@@ -1543,7 +1543,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -1568,24 +1568,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-notice
+Info
 -----------------------
 #{16}{28}{F2}{09}{C0}を手に入れました
 Acquired {16}{28}{F2}{09}{C0}.
 -----------------------
-notice
+Info
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{28}{FA}{09}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{28}{FA}{09}{C0}, but
 your inventory is full.
 -----------------------
-notice
+Info
 -----------------------
 #何もありません
 There's nothing here.

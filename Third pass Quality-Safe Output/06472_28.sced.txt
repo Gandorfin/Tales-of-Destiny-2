@@ -10,7 +10,7 @@ Cherik
 #チェリク
 Cherik
 -----------------------
-NOTICE
+Info
 -----------------------
 #<item:0000000F>を手に入れました
 Acquired <item:0000000F>.
@@ -351,7 +351,7 @@ tomorrow on? Did they want to get
 to Aigrette so badly that they'd
 abandon their own parents?
 -----------------------
-NOTICE
+Info
 -----------------------
 #扉にはカギがかかっています
 #中には誰も居ないようです
@@ -562,7 +562,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -587,24 +587,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{BE}{C0}を手に入れました
 Acquired {16}{25}{BE}{C0}.
 -----------------------
-notice
+Info
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{D2}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{D2}{C0}, but
 your inventory is full.
 -----------------------
-notice
+Info
 -----------------------
 #何もありません
 There's nothing here.

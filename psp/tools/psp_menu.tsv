@@ -1853,7 +1853,7 @@ TP軽減力とTP回復力が上昇する	Increases TP Reduction and TP Regen	28	
 考えるよりもまず行動	Act Before Thinking	20	19	reuse
 耐性	Resist	4	6	reuse
 聖地カルビオラ	Holy Kalviola	14	13	reuse
-聖女遭遇	Meeting a Holy Woman	8	20	reuse
+聖女遭遇	Meeting a Saintess	8	20	reuse
 肉鍋	Meat Stew	4	9	reuse
 育ち盛り	Growing Boy	8	11	reuse
 能力	Stats	4	5	reuse
@@ -2018,8 +2018,8 @@ TP軽減力とTP回復力が上昇する	Increases TP Reduction and TP Regen	28	
 風耐性を得る	Adds Wind Resistance	12	20	reuse
 風耐性－	Damage Wind Res	8	15	reuse
 飛んでくるはずなんだが	It Should Fly Here	22	18	reuse
-飛行竜の中で	Inside the Flying Dragon	12	24	reuse
-飛行竜を追え！	Chase the Flying Dragon!	14	24	reuse
+飛行竜の中で	Inside the Draconis	12	24	reuse
+飛行竜を追え！	Chase the Draconis!	14	24	reuse
 飛行艇リバース	Airship Rev	14	11	reuse
 食材	Food	4	4	reuse
 食材のコストが一番低い料理を行います	Use dish with lowest ingredient requirement	36	43	reuse
@@ -2107,13 +2107,13 @@ TP軽減力とTP回復力が上昇する	Increases TP Reduction and TP Regen	28	
 傷ついた英雄王（１）	Wounded Hero King 1	20	19	reuse-norm
 レンズは!?（２）	The Lens!? 2	16	12	reuse-norm
 制御装置を探せ（１）	Find the Control Device 1	20	25	reuse-norm
-飛行竜からの脱出（３）	Escape the Flying Dragon 3	22	26	reuse-norm
-飛行竜からの脱出（４）	Escape the Flying Dragon 4	22	26	reuse-norm
+飛行竜からの脱出（３）	Escape the Draconis 3	22	26	reuse-norm
+飛行竜からの脱出（４）	Escape the Draconis 4	22	26	reuse-norm
 地上軍拠点跡地にて（１）	At the Er'ther Base Ruins 1	24	27	reuse-norm
 地上軍拠点跡地にて（２）	At the Er'ther Base Ruins 2	24	27	reuse-norm
 制御装置を探せ（２）	Find the Control Device 2	20	25	reuse-norm
-飛行竜からの脱出（１）	Escape the Flying Dragon 1	22	26	reuse-norm
-飛行竜からの脱出（２）	Escape the Flying Dragon 2	22	26	reuse-norm
+飛行竜からの脱出（１）	Escape the Draconis 1	22	26	reuse-norm
+飛行竜からの脱出（２）	Escape the Draconis 2	22	26	reuse-norm
 改変された世界（１）	Altered World 1	20	15	reuse-norm
 改変された世界（２）	Altered World 2	20	15	reuse-norm
 天高き城（１）	Castle in the Sky 1	14	19	reuse-norm
@@ -2216,7 +2216,7 @@ TP軽減力とTP回復力が上昇する	Increases TP Reduction and TP Regen	28	
 船・船室	Ship - Cabin	8	12	translated
 オベロン社洞窟	Oberon Cave	14	11	translated
 ハイデルベルグ城	Heidelberg Castle	16	17	translated
-飛行竜	Flying Dragon	6	13	translated
+飛行竜	Draconis	6	13	translated
 改変現代（砂漠）	Altered Present (Desert)	16	24	translated
 改変現代（荒野）	Altered Present (Wasteland)	16	27	translated
 海辺の洞窟	Seaside Cave	10	12	translated
@@ -2420,7 +2420,7 @@ HPを吸収できる。	Can drain HP.	16	13	translated
 オープニング	Opening	12	7	translated
 プロローグ	Prologue	10	8	translated
 謎の少女登場	The Mysterious Girl Appears	12	27	translated
-飛行竜襲撃	Flying Dragon Attack	10	20	translated
+飛行竜襲撃	Draconis Attack	10	20	translated
 私の英雄	My Hero	8	7	translated
 歪められた歴史	Distorted History	14	17	translated
 ラディスロウ突撃	Radisrol Assault	16	16	translated
@@ -2876,13 +2876,13 @@ HPを吸収できる。	Can drain HP.	16	13	translated
 ニヒリスト	Nihilist	10	8	translated
 英雄探求者	Hero Seeker	10	11	translated
 奇跡の少女	Miracle Girl	10	12	translated
-聖女	Holy Woman	4	10	translated
+聖女	Saintess	4	10	translated
 料理上手	Cooking Expert	8	14	translated
 恋愛探求者	Romance Seeker	10	14	translated
 英雄に違いない！	Surely a Hero!	16	14	translated
 英雄以外ありえない！	None Other Than a Hero!	20	23	translated
 英雄と呼ばせてくれ！	Let Me Call You a Hero!	20	23	translated
-聖女さまだ！	It's the Holy Woman!	12	20	translated
+聖女さまだ！	It's the Saintess!	12	20	translated
 タイムトラベラー	Time Traveler	16	13	translated
 レンズ奪還任務者	Lens Recovery Agent	16	19	translated
 パイロット	Pilot	10	5	translated
@@ -3040,7 +3040,7 @@ HPを吸収できる。	Can drain HP.	16	13	translated
 トラッシュマウンテンを抜ければ	If You Get Through Trash Mountain	30	33	translated
 まだホープタウンで････	Still in Hope Town...	22	21	translated
 あの赤いドームは････？	That Red Dome Is...?	22	20	translated
-神のたまごは････	The Egg of God Is...	16	20	translated
+神のたまごは････	The Atamoni Ovum Is...	16	20	translated
 港で何か････？	Something at the Port...?	14	25	translated
 は？	Huh?	4	4	translated
 精神世界（８）	Inner World (8)	14	15	translated
@@ -3726,14 +3726,14 @@ LVに応じて(毒/衰弱/麻痺/鈍足/凍結)を解除する{01}非戦闘時�
 太陽と月、一対の光{01}あたたかき陽光。全てをはぐくむ光{01}{01}	Sun and moon, a paired light.{01}A warm sunlight. The light that{01}nurtures all things.	53	82	translated
 これは、血脈か!?{01}勇者の血のなせる所業なのか!?{01}遺伝子に刻まれた刻印なのか!?{01}	Is this the bloodline!? The work of a{01}hero's blood!? A mark carved{01}into the genes!?	75	83	translated
 さめた瞳と、辛口の意見{01}ニヒル・ニヒラー・ニヒリスト{01}{01}	A cool gaze and sharp opinions.{01}Nihil, nihiler, nihilist.	53	57	translated
-フォルトゥナ神に仕えるふたりの聖女{01}それが、エルレインと<Reala>{01}{01}	Two holy women serving the goddess{01}Fortuna. That is Elraine and <Reala>.	62	70	translated
+フォルトゥナ神に仕えるふたりの聖女{01}それが、エルレインと<Reala>{01}{01}	Two Saintesses serving the goddess{01}Fortuna. That is Elrane and <Reala>.	62	70	translated
 恐怖の象徴フォルネウスを倒し、船を沈没の{01}危機から救ったキミたちをこう呼ばずに{01}なんと呼べと!?<color:00000002>（興奮ぎみの船長・談）{01}	You defeated the fearsome Forneus and{01}saved the ship from sinking. What else{01}should I call you!? (an excited captain)	120	117	translated
 時の旅人{01}時をこえる少女{01}{01}	A traveler of time.{01}A girl who transcends time.	25	47	translated
 飛行艇イクシフォスラーの操縦者{01}{01}{01}	The pilot of the airship Ixifoslar.	33	35	translated
 彼はいろいろな事を知っている。{01}「ソーサラーリングは<button:0000002A>だ！」{01}<color:00000008>（一回発射毎レンズ一枚消費）{01}	He knows all sorts of things.{01}'The Sorcerer's Ring is <button:0000002A>!'{01}<color:00000008>(one Lens per shot)	97	86	translated
 彼は本当にいろいろな事を教えてくれる。{01}「ソーサラースコープは<button:00000029>だ」{01}<color:00000008>（一回使用毎レンズ三枚消費）{01}	He truly teaches you all sorts of things.{01}'The Sorcerer's Scope is <button:00000029>.'{01}<color:00000008>(three Lens per use)	105	100	translated
 野生の知恵を身につけた者{01}自然の中に答えをみつけ、{01}自然の力によって解決できる者{01}	One who has gained the wisdom of the wild.{01}One who finds answers in nature and{01}solves things by nature's power.	79	111	translated
-エルレインと共に神から生み出された化身{01}{01}{01}	An avatar born from a god alongside Elraine.	41	44	translated
+エルレインと共に神から生み出された化身{01}{01}{01}	An avatar born from a god alongside Elrane.	41	44	translated
 めくりのジョーの最大のライバル！{01}つむじ風のごとく、アレをナニする{01}めくりの達人！{01}	Flipping Joe's greatest rival! Like a{01}whirlwind, a master of flipping{01}that whatsit!	81	83	translated
 むっつりしているらしい{01}クールとむっつり紙一重{01}<color:00000003>命名・<Nanaly>さん{01}	Apparently the sullen type.{01}Cool and sullen, a fine line.{01}<color:00000003>Named by <Nanaly>.	67	78	translated
 陶器のような白い肌{01}きめ細かい美しい肌{01}まさに、美白の天使{01}	Skin white as porcelain. Fine, beautiful{01}skin. Truly an angel of fair skin.	57	75	translated

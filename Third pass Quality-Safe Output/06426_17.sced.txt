@@ -4,7 +4,7 @@ Oberon Abandoned Mine
 #オベロン社廃坑
 Oberon Abandoned Mine
 -----------------------
-NOTICE
+Info
 -----------------------
 #この壁は壊せそうです
 This wall looks breakable.
@@ -12,14 +12,14 @@ This wall looks breakable.
 #爆弾は爆発しました！
 The bomb exploded!
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　爆弾を降ろす　
 #　ボートを流す　
 <03:00000000> Grab the bomb
 Release the boat
 -----------------------
-select
+Option
 -----------------------
 #ボートを流しますか？
 #<03:00000000>　はい　
@@ -54,7 +54,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -79,24 +79,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{DE}{C0}を手に入れました
 Acquired {16}{25}{DE}{C0}.
 -----------------------
-notice
+Info
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{E6}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{E6}{C0}, but
 your inventory is full.
 -----------------------
-notice
+Info
 -----------------------
 #何もありません
 There's nothing here.

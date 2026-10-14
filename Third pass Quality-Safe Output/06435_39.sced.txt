@@ -18,14 +18,14 @@ Heidelberg
 The ingredient shop is just around
 this corner. "Look Delicious!"
 -----------------------
-NOTICE
+Info
 -----------------------
 #雪だるまの中から<item:00000003>が
 #出てきました
 <item:00000003> emerges
 from inside the snowman.
 -----------------------
-NOTICE
+Info
 -----------------------
 #<item:00000003>を
 #手に入れました
@@ -718,7 +718,7 @@ Dragon?
 #あぁ、飛行竜のことだよ
 #そいつがおそってきて
 #城を、あんなにしちまったんだ
-Yeah, the Flying Dragon.
+Yeah, the Draconis.
 It attacked us and
 made a real mess of the castle.
 -----------------------
@@ -782,7 +782,7 @@ I wonder where it went?
 #あぁ、飛行竜のことか
 #それなら、兄ちゃんたちが
 #海のもくずにしてやったぜ！
-Yeah, the Flying Dragon. In that
+Yeah, the Draconis. In that
 case, your big brothers sent it
 straight to the bottom of the sea!
 -----------------------
@@ -975,9 +975,9 @@ Old Man
 #ガレキとなったこの街で
 #まっ先に材木をはこびはじめたのは
 #あのウッドロウさまだった
-In this town reduced to rubble, the
-first to start hauling lumber was
-Lord Woodrow himself.
+When this town was reduced to ruins,
+the first to haul lumber was
+King Woodrow himself.
 -----------------------
 #おじいさん
 Old Man
@@ -1622,7 +1622,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -1647,24 +1647,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{CA}{C0}を手に入れました
 Acquired {16}{25}{CA}{C0}.
 -----------------------
-notice
+Info
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{D2}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{D2}{C0}, but
 your inventory is full.
 -----------------------
-notice
+Info
 -----------------------
 #何もありません
 There's nothing here.

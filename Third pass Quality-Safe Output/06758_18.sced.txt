@@ -4,24 +4,24 @@ Aqua Labyrinth
 #アクアラビリンス
 Aqua Labyrinth
 -----------------------
-notice
+Info
 -----------------------
 #次に進みますか？
 Proceed to the next area?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　次に進む　
 #　脱出する　
 <03:00000000> Proceed onward
 Escape
 -----------------------
-notice
+Info
 -----------------------
 #脱出しますか？
 Escape?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -144,7 +144,7 @@ searching around here a while
 longer. For that thing called the
 'Answer'.
 -----------------------
-NOTICE
+Info
 -----------------------
 #<item:0000004A>を手に入れました
 Acquired <item:0000004A>.
@@ -160,22 +160,22 @@ My eyes see the present. And the eye
 of my heart sees the future... Baby!
 I can see your tomorrow...
 -----------------------
-notice
+Info
 -----------------------
 #このマップは暗くなります
 This area is dark.
 -----------------------
-notice
+Info
 -----------------------
 #このマップはダメージを受けます
 This area deals damage.
 -----------------------
-notice
+Info
 -----------------------
 #このマップはエンカウントマックスです
 Encounter rate is at maximum.
 -----------------------
-notice
+Info
 -----------------------
 #このマップは視界が狭くなります
 Visibility is limited in this area.
@@ -191,7 +191,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -216,24 +216,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{C2}{C0}を手に入れました
 Acquired {16}{25}{C2}{C0}.
 -----------------------
-notice
+Info
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{CA}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{CA}{C0}, but
 your inventory is full.
 -----------------------
-notice
+Info
 -----------------------
 #何もありません
 There's nothing here.

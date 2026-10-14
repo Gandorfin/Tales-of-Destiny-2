@@ -31,14 +31,14 @@ What's wrong, <Judas>...
 It's nothing...
 Let's keep moving.
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　爆弾を降ろす　
 #　ボートを流す　
 <03:00000000> Grab the bomb
 Release the boat
 -----------------------
-select
+Option
 -----------------------
 #ボートを流しますか？
 #<03:00000000>　はい　
@@ -85,7 +85,7 @@ around, we should find some. As
 for ignition...yes, that's it.
 We can use a Sorcerer's Ring.
 -----------------------
-NOTICE
+Info
 -----------------------
 #階段は岩と土砂で埋まっています
 #この岩は爆破できそうです
@@ -103,7 +103,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -128,24 +128,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{C2}{C0}を手に入れました
 Acquired {16}{25}{C2}{C0}.
 -----------------------
-notice
+Info
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{CA}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{CA}{C0}, but
 your inventory is full.
 -----------------------
-notice
+Info
 -----------------------
 #何もありません
 There's nothing here.

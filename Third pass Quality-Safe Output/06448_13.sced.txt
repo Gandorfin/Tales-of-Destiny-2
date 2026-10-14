@@ -5,15 +5,14 @@ Heidelberg Museum: Aeth'er Wars
 Heidelberg
 -----------------------
 #博物館『天地戦争の記憶』
-Museum 'Memories of the Aeth'er
-Wars'
+Museum: Memories of the Aeth'er Wars
 -----------------------
-NOTICE
+Info
 -----------------------
 #『空中都市』
 'Aerial Cities'
 -----------------------
-NOTICE
+Info
 -----------------------
 #巨大彗星の衝突で巻き上がった
 #粉塵から逃れるため
@@ -22,7 +21,7 @@ To escape the dust thrown up by
 the giant comet's impact, people
 built cities in the sky.
 -----------------------
-NOTICE
+Info
 -----------------------
 #それら空中都市群は
 #天地戦争終結後に
@@ -33,19 +32,19 @@ Aeth'er Wars ended, were sunk
 beneath the sea by the Er'ther
 forces, or so it is said.
 -----------------------
-NOTICE
+Info
 -----------------------
 #『地上軍兵士』
 'Er'ther Soldier'
 -----------------------
-NOTICE
+Info
 -----------------------
 #天上側の武力支配に耐えかねた
 #地上の人々が立ち上がって結成された
 Er'thers, oppressed by Aeth'er rule,
 rose up and formed the Er'ther army.
 -----------------------
-NOTICE
+Info
 -----------------------
 #敗北寸前まで追いつめられた
 #地上軍であったが
@@ -55,19 +54,19 @@ Driven to the brink of defeat,
 the Er'ther forces seized victory
 through the power of the Swordians.
 -----------------------
-NOTICE
+Info
 -----------------------
 #『対空三脚架付機関銃』
 'Anti-Aircraft Tripod Machine Gun'
 -----------------------
-NOTICE
+Info
 -----------------------
 #廃材を利用して作られた
 #固定式の擬似機関銃
 A fixed-position pseudo-machine gun
 built from scrap materials.
 -----------------------
-NOTICE
+Info
 -----------------------
 #戦争末期には弾薬が尽きていたため
 #金属製のボルトを弾薬代わりとし
@@ -76,19 +75,19 @@ By the war's end ammunition had run
 dry, so they fired metal bolts using
 explosives as propellant.
 -----------------------
-NOTICE
+Info
 -----------------------
 #『雪上船』
 'Snowship'
 -----------------------
-NOTICE
+Info
 -----------------------
 #地上軍の輸送艇とされているが
 #不明な点が多い
 Called an Er'ther transport vessel,
 but much about it remains unknown.
 -----------------------
-NOTICE
+Info
 -----------------------
 #地上軍の兵士たちは
 #この輸送艇を
@@ -118,7 +117,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -143,24 +142,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{BA}{C0}を手に入れました
 Acquired {16}{25}{BA}{C0}.
 -----------------------
-notice
+Info
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{C2}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{C2}{C0}, but
 your inventory is full.
 -----------------------
-notice
+Info
 -----------------------
 #何もありません
 There's nothing here.

@@ -7,12 +7,12 @@ Catacombs - Altar of Sin
 #カタコンベ
 Catacombs
 -----------------------
-NOTICE
+Info
 -----------------------
 #石碑に文字が書かれています
 There is writing on the monument.
 -----------------------
-NOTICE
+Info
 -----------------------
 #気をつけるがいい！
 #『闇』とは『偽り』である！
@@ -32,7 +32,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -57,24 +57,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-notice
+Info
 -----------------------
 #{16}{27}{4A}{C0}を手に入れました
 Acquired {16}{27}{4A}{C0}.
 -----------------------
-notice
+Info
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{27}{52}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{27}{52}{C0}, but
 your inventory is full.
 -----------------------
-notice
+Info
 -----------------------
 #何もありません
 There's nothing here.

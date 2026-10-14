@@ -782,7 +782,7 @@ Ginny
 Could it be that you know
 Lady Philia?{02}
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　配達してあげる　
 #　今はいそがしい　
@@ -807,7 +807,7 @@ In that case, could you deliver
 this letter to Lady Philia at the
 Straylize Grand Temple?
 -----------------------
-notice
+Info
 -----------------------
 #ジニーの手紙を受取りました
 Received Ginny's letter.
@@ -1036,7 +1036,7 @@ Would you like to stay?
 #お泊まりになりますか？
 Would you like to stay?
 -----------------------
-select
+Option
 -----------------------
 #<03:00000000>　はい　
 #　いいえ　
@@ -1061,24 +1061,24 @@ wait_map_scroll();
 -----------------------
 exit-party_togather( short spd )
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{CA}{C0}を手に入れました
 Acquired {16}{25}{CA}{C0}.
 -----------------------
-notice
+Info
 -----------------------
 #<item:FFFFFFFF>を手に入れました
 Acquired <item:FFFFFFFF>.
 -----------------------
-notice
+Info
 -----------------------
 #{16}{25}{D2}{C0}がありましたが
 #いっぱいで持てませんでした
 Found {16}{25}{D2}{C0}, but
 your inventory is full.
 -----------------------
-notice
+Info
 -----------------------
 #何もありません
 There's nothing here.
