@@ -2,372 +2,308 @@
 
 ![logo](TOD2_logo.png)
 
-The **Green Gel ToD2 patch** is an open-source English fan translation of **Tales of Destiny 2** (テイルズ オブ
-デスティニー 2, Namco, PlayStation 2, 2002) and its PSP port
-(2007). This is *not* Tales of Eternia (released as "Tales of Destiny II" in
-North America) and not the PS1 Tales of Destiny.
+The **Green Gel ToD2 patch** is an open-source English fan translation of
+**Tales of Destiny 2** (テイルズ オブ デスティニー 2, Namco, PlayStation 2, 2002)
+and its PSP port (2007). This is *not* Tales of Eternia (released as "Tales of
+Destiny II" in North America) and not the PS1 Tales of Destiny.
 
-Website: https://gandorfin.github.io/Tales-of-Destiny-2/
-
-Manual in English: https://gandorfin.github.io/Tales-of-Destiny-2/manual.html
-(the original PS2 instruction manual, translated with the patch terminology; also as a
-[PDF](https://gandorfin.github.io/Tales-of-Destiny-2/manual/Tales-of-Destiny-2-Manual-EN.pdf))
+* Website: https://gandorfin.github.io/Tales-of-Destiny-2/
+* Downloads: https://github.com/Gandorfin/Tales-of-Destiny-2/releases
+* English manual: https://gandorfin.github.io/Tales-of-Destiny-2/manual.html
+  (the original PS2 manual translated with the patch's terms, also as a
+  [PDF](https://gandorfin.github.io/Tales-of-Destiny-2/manual/Tales-of-Destiny-2-Manual-EN.pdf))
+* Forum thread: https://retrogametalk.com/threads/release-tales-of-destiny-2-ps2-psp-english-ai-translation.26456/
 
 ## Status
 
-| Version | State |
-|---|---|
-| PS2 (SLPS-25172) | **Complete.** Latest release: **QS v1.2.7** ([releases](https://github.com/Gandorfin/Tales-of-Destiny-2/releases/latest)) |
-| PSP (ULJS-00097) | **Playable. Latest release: PSP patch v0.2.0.** Full script, skits, menus, items, artes, titles, descriptions and the Monster Book are English; dialogue, names and menus render in mixed case (SkyBladeCloud's font-selection hack). The v0.2.1 pre-release is the same build without that font hack (capitals only) for devices and real hardware where v0.2.0 has problems. A few menu/UI corners are still Japanese (see PSP port below) |
+| Version | Latest release | State |
+|---|---|---|
+| PS2 (SLPS-25172) | **QS v1.3.0** | **Complete.** The whole game is English. |
+| PSP (ULJS-00097) | **v0.2.0**, plus the v0.2.1 pre-release | **Playable.** Story, skits and almost every menu are English; a few areas are still Japanese (listed below). |
 
-The PS2 patch covers the whole game:
+### PS2
 
-* every story scene (459 scenario files) and all skits, proofread line by
-  line against the Japanese, with the layout limits of the game's text
-  boxes and skit timers respected
-* menus and UI: items, equipment, shops, refine, enchant, cooking,
-  customize, status, tactics, save, name entry, grade shop, Monster Book,
-  Battle Memos, battle command labels, memory card messages
-* character titles, party arte names and their battle cut-in banners,
-  the arte extension banners, mystic arte banners, enemy encounter names,
-  enemy arte names and the lines bosses shout in battle
-* world map labels, signposts, ferry and minigame text, the ending
-  monologue, the Quiz Book
-* the in-game videos with dialogue, hard-subtitled, and an English
-  ending staff roll
-* a redrawn Latin font (since v1.2.3, drawn by dreck)
+Everything a player reads is English:
 
-The only Japanese players still report in the PS2 build is the Magical Pot
-prompt (under investigation) and text that is part of a texture, such as a
-poster in the Katz Village. Known open issues: the Refine screen does not show
-the required Lens, the enchant level up message is cut off at about 32
-characters (so it is shortened). Details are in the open items of
-`ps2/menu/README.md`.
+* every story scene (459 scenario files), proofread line by line against the
+  Japanese within the limits of the game's text boxes
+* all 608 timed skits, retranslated at full length in v1.3.0: the build sets
+  each skit line's text speed so the whole line fits its voice
+* menus and UI: items, equipment, shops, Refine (with the required Lens),
+  enchant, cooking, customize, status, tactics, save, name entry, grade shop,
+  Monster Book, Battle Memos, battle commands, memory card messages, the Skit Hut
+* character titles, party arte names and their battle cut-in banners, arte
+  extension and mystic arte banners, enemy encounter names, enemy arte names
+  and the lines bosses shout in battle
+* world map labels, signposts, ferry and minigame text, the Quiz Book, the
+  ending monologue
+* the movies with dialogue, hard-subtitled, and an English ending staff roll
+* a redrawn Latin font (by dreck, since v1.2.3)
 
-From the next release after v1.2.7 (and the next PSP release) the skits are
-retranslated at full length: the build sets each skit line's text speed so it
-fits that line's voice (SkyBladeCloud found the speed value), so lines no
-longer have to be cut short.
+Known limits:
 
-## Getting the PS2 patch
+* Text drawn into pictures stays Japanese: cooking recipe names, a poster in
+  the Katz Village and similar textures.
+* The enchant level up message is cut off by the game at about 32
+  characters, so it is shortened.
+* About 766 dialogue records have a fifth line that the game shows alone on
+  a second page. Fixing that means shortening text; not decided yet.
+* PS3 playback: the disc layout fix (last build step) is in place, a test on
+  a PS3 is still owed.
 
-1. Go to the [releases page](https://github.com/Gandorfin/Tales-of-Destiny-2/releases)
-   and download the latest release (a `.7z` holding the `.xdelta` patch).
-2. You need your own dump of the Japanese game (SLPS-25172). Apply the
-   patch to it with [Delta Patcher](https://github.com/marco-calautti/DeltaPatcher/releases)
-   (Windows, Linux, macOS): original ISO in, xdelta file in, click Apply.
-   Command line users: `xdelta3 -d -s original.iso patch.xdelta patched.iso`.
-3. Play the patched ISO on PCSX2 or real hardware.
+### PSP
 
-Bug reports and screenshots of anything wrong or still Japanese are
-welcome as GitHub issues.
+v0.2.0 (August 2026) has the full story and skit script, menus, items,
+artes, titles, descriptions and the battle enemy names in English, with
+mixed case dialogue, names and menus thanks to SkyBladeCloud's font
+selection hack. **v0.2.1** is the same build without that hack (capitals
+only), for devices and real hardware where v0.2.0 has problems.
 
-## Getting the PSP patch
+Already in the source and coming with the next PSP release:
 
-1. Download the latest **PSP patch** from the [releases page](https://github.com/Gandorfin/Tales-of-Destiny-2/releases)
-   (a `.7z` holding an `.xdelta` patch).
-2. You need your own dump of the Japanese UMD (ULJS-00097). Apply the patch to
-   the ISO with [Delta Patcher](https://github.com/marco-calautti/DeltaPatcher/releases)
-   or `xdelta3 -d -s "Tales of Destiny 2 (Japan).iso" patch.xdelta patched.iso`.
-3. Play the patched ISO on PPSSPP or a real PSP (CFW).
+* the full-length skit retranslation with per line text speed (same as PS2
+  v1.3.0)
+* English subtitles burned into the nine movies with dialogue, and the PSP's
+  own ending staff roll in English
+* the latest scenario text (the PSP build had been reading a copy that was
+  451 files behind)
 
-The one-command build from source is `python3 psp/tools/build_psp.py <JP.iso>
-<out.iso> --version 0.2.0` (extracts, patches BOOT.BIN and the archive,
-verifies, writes the English ISO). `--version` is the number that appears as
-"Green Gel Patch v0.2.0" on the title screen, so pass the one you are
-releasing. `--lowercase-font off` leaves out the lowercase font hack (that is
-how v0.2.1 was built).
+Still Japanese on PSP (found by scanning the current build):
 
-### Making a release (maintainers)
+* **the Quiz Book** (the PS2 translation exists, it is not applied to the
+  PSP files yet)
+* some menu labels and messages that the game reaches through an address
+  built in code, which the patch does not redirect yet: a few status labels
+  (for example Block Count, Damage Reduction, Movement Speed on some
+  screens), button legends, the airship landing messages, the "obtained the
+  title" message
+* the single-kanji element and status labels (地 水 火 風 光 闇 毒)
+* some enemy arte names and boss lines, the Monster Book's own name list,
+  the debug room's event guide lines
+* the bold menu text (party names in the menu, Artes tabs, arte grid,
+  Battle Rank) stays in capitals
 
-After building the patched ISO as described below (including the last
-step, `fix_disc_layout.py fix`):
+See [Help wanted](#help-wanted-open-psp-problems) for the engineering side.
 
-```
-xdelta3 -e -9 -S none -s "Tales of Destiny 2 (Japan).iso" patched.iso "[Green Gel] ToD2 patch v1.2.7 (PS2).xdelta"
-```
+## Playing it
 
-`-S none` turns off the secondary compression that some patchers cannot
-read. The patch only stays small if the patched ISO keeps the original
-file layout (files replaced in place, not a re-authored image), so that
-only the changed sectors end up in the diff.
+### PS2
 
-## Repository map
+1. Download the latest PS2 patch from the
+   [releases page](https://github.com/Gandorfin/Tales-of-Destiny-2/releases)
+   (a `.7z` holding `[Green Gel] ToD2 patch vX.Y.Z (PS2).xdelta`).
+2. You need your own dump of the Japanese game (SLPS-25172). Apply the patch
+   with [Delta Patcher](https://github.com/marco-calautti/DeltaPatcher/releases)
+   (Windows, Linux, macOS): original ISO in, xdelta file in, Apply. Command
+   line: `xdelta3 -d -s original.iso patch.xdelta patched.iso`.
+3. Play on PCSX2 or a real PS2.
 
-| Path | What |
-|---|---|
-| `Third pass Quality-Safe Output/`, `third pass skits safe output/` | the maintained scenario and skit source trees; Japanese lines are marked with `#`, English follows |
-| `ps2/PyTOD2/TXT_EN/`, `ps2/PyTOD2/FILE/pak1/TXT_EN/` | synchronized build-ready copies of the scenario and skit sources |
-| `ps2/menu/` | menu, title, Quiz Book, enemy arte and cut-in translation tables and the scripts that apply them (`README.md` there explains the full apply sequence) |
-| `ps2/movies/` | ending-credit translation table and generated ASS overlay; its README records the release remux constraints |
-| `ps2/PyTOD2/` | archive tool for `FILE.FPB`: unpack, insert text, repack (GUI and command line) |
-| `scripts/audit_translation.py` | checks the script for crash-class problems and layout issues; runs on every pull request |
-| `glossary.txt`, `character_voice_guide.txt` | terminology (locked terms) and how each character speaks |
-| `Dialogue and Script Layout Restrictions.md` | the text box limits every line must respect |
-| `psp/tools/` | PSP archive and ISO tools and the rendering test build (`README.md` there) |
-| `audio/` | index of every voice, music and sound file on both discs, PS2/PSP voice pairs, WAV export for transcription (`README.md` there) |
-| `psp/` (rest) | older PSP extractors and Japanese scenario dumps |
-| `docs/` | the website (GitHub Pages) and the hex/Japanese converter tools |
-| `dictionary/`, `tm2_converter/`, `pakcomposer/` | helper data and tools |
+### PSP
 
-The `ps2/scenarios` and `ps2/skits` folders are older extracts kept for
-reference. The two Third pass folders remain maintained sources and must
-stay byte-for-byte synchronized with their `TXT_EN` release copies.
+1. Download the PSP patch from the
+   [releases page](https://github.com/Gandorfin/Tales-of-Destiny-2/releases)
+   (tags `PSP_X.Y.Z`). Take v0.2.0 for mixed case text; take v0.2.1 if v0.2.0
+   crashes or shows broken letters on your device.
+2. You need your own dump of the Japanese UMD (ULJS-00097). Apply the patch
+   with Delta Patcher or `xdelta3 -d -s original.iso patch.xdelta patched.iso`.
+3. Play on PPSSPP or a PSP with custom firmware.
 
-## Building the PS2 patch from source
+The title screen shows the patch version ("Green Gel vX.Y.Z" on PS2,
+"Green Gel Patch vX.Y.Z" on PSP). Please include it in bug reports.
 
-Short version; the details are in `ps2/menu/README.md` ("Applying it") and
-`tod2_ps2_patch_guide.md`.
+## How to help
+
+Help of every kind is welcome, coding or not.
+
+* **Report what is wrong.** Open a
+  [GitHub issue](https://github.com/Gandorfin/Tales-of-Destiny-2/issues) or
+  post in the forum thread with: PS2 or PSP, the patch version from the title
+  screen, emulator or hardware, a screenshot, and where it happens (place,
+  story point, menu). Japanese text, cut-off lines, wrong names, freezes and
+  typos all count. A save state near the spot helps a lot.
+* **Playtest.** A full playthrough with a sheet of screenshots and suggested
+  fixes (as pnvnd did for PS2) finds what scans cannot. The PSP version needs
+  this most right now.
+* **Improve the text.** Corrections go into the scenario and skit sources
+  (see [Contributing](#contributing)): mistranslations, wrong speaker,
+  character voice (`character_voice_guide.txt`), terminology
+  (`glossary.txt`).
+* **Draw.** Latin fonts for both versions (PS2:
+  `ps2/menu/FONT_CUSTOMIZATION.md`, PSP: `psp/tools/FONT_CUSTOMIZATION.md`;
+  both tools take a PNG sheet), and English versions of the textures that
+  still show Japanese.
+* **Reverse engineering.** The open PSP problems are below; the formats are
+  in [TECHNICAL.md](TECHNICAL.md).
+
+### Help wanted: open PSP problems
+
+These are engineering problems, not translation. If you know PSP reverse
+engineering, `armips` or this engine, open an issue or a pull request.
+
+* **Code-built string addresses.** Long menu strings are moved to a new
+  segment and their 32-bit data pointers rewritten (`psp/tools/psp_pool.py`).
+  Some screens build the same address in code with a `lui`/`addiu` pair
+  (HI16/LO16 relocations) and still show the Japanese. Rewriting those pairs
+  is only safe when every LO16 that shares the HI16 points at a moved
+  string; otherwise the English has to fit in place.
+* **Bold menu text in capitals.** Routine `0x144248` (runtime `0x08948248`)
+  draws party names in the menu, Artes tabs, the arte grid and Battle Rank
+  with the icon font's geometry hard-coded (12 x 16 cells, 10 per row) and
+  has no font selection. Lowercase there needs lowercase glyphs in the icon
+  font (no free cells) or that routine rewritten to draw from font 0x01.
+* **Arte grid width.** The grid's renderer draws single-byte ASCII at full
+  cell width and mangles multi-byte tricks, so long arte names are
+  shortened. The proper fix is an `armips` patch that halves its ASCII
+  advance.
+* **Monster Book display names.** Battle enemy names are English, but the
+  book screen reads its names from a second source that is not located yet.
+* **Real hardware.** The lowercase hack of v0.2.0 does not work on every
+  device and can crash now and then (v0.2.1 leaves it out). A new PSP font
+  is in progress (dreck).
+
+## Contributing
+
+* Work on a branch and open a pull request. An automated audit
+  (`scripts/audit_translation.py`) runs on every pull request and fails on
+  crash-class problems.
+* Scenario text lives in `Third pass Quality-Safe Output/` and skits in
+  `third pass skits safe output/` (Japanese lines start with `#`, English
+  follows). Each folder has a build copy (`ps2/PyTOD2/TXT_EN`,
+  `ps2/PyTOD2/FILE/pak1/TXT_EN`) that must stay identical; edit both. The
+  PSP build reads the same files.
+* Text rules (`Dialogue and Script Layout Restrictions.md`): 36 visible
+  characters per line, 126 per four-row page, `{02}` starts a page, control
+  codes must match the Japanese exactly. A skit line is one line up to its
+  budget: no text speed faster than 20 characters per second and never more
+  than 384 characters (`python ps2/PyTOD2/skit_speed.py report <skit folder>`
+  and the audit check it).
+* Use the `[LOCK]` terms in `glossary.txt` and the voices in
+  `character_voice_guide.txt`.
+* Write pull request descriptions so someone with no context (or another AI
+  model) can follow them years later: the problem as it was seen, the root
+  cause with files and offsets, what changed in each file and why, how to
+  use it (commands, any new build step), how it was verified and what still
+  needs an in-game check.
+* Never commit game files, disc images or extracted game data. The
+  repository holds text, tables and scripts only.
+
+## Building the patch from source
+
+The commands are written for Windows 11; on Linux or macOS use `python3`.
+Python 3.10 or newer.
+
+### PS2
+
+Details for every step are in `ps2/menu/README.md` ("Applying it") and
+`ps2/movies/README.md`.
 
 1. Extract `FILE.FPB` and `SLPS_251.72` from the Japanese ISO into
    `ps2/PyTOD2/` and run PyTOD2: Unpack FPB, Organize FPB, Unpack SCPK,
    Unpack SCED, Unpack PAK1, Move Skits OUT, Extract SKIT.
-2. The maintained Third pass sources are mirrored in
-   `ps2/PyTOD2/TXT_EN` and `ps2/PyTOD2/FILE/pak1/TXT_EN`; the audit requires
-   each pair to be byte-for-byte identical. Build from the `TXT_EN` copies,
-   then Pack SCED, Pack SCPK, Insert SKIT, Move Skits IN, and Pack PAK1.
-   Insert SKIT also retimes every skit line so the English appears inside
-   that line's time window (`ps2/PyTOD2/skit_speed.py`, original speeds and
-   windows in `skit_speeds.json`; speed byte found by SkyBladeCloud).
-3. Apply the menu tables (all five, in this order, from the repository root;
-   put the version you are about to release in the last FPB step):
+2. Build the text from the `TXT_EN` copies: Pack SCED, Pack SCPK, Insert
+   SKIT, Move Skits IN, Pack PAK1. Insert SKIT also sets each skit line's
+   text speed (`ps2/PyTOD2/skit_speed.py`, stored originals in
+   `skit_speeds.json`).
+3. Apply the menu tables, in this order, from the repository root (put the
+   version you are releasing in the fourth line):
    ```
    python ps2/menu/patch_menu_text.py ps2/PyTOD2/FPB
    python ps2/menu/sfm_text.py build ps2/PyTOD2/FPB
    python ps2/menu/enemy_text.py build ps2/PyTOD2/FPB
-   python ps2/menu/title_credit.py ps2/PyTOD2/FPB --version 1.2.7
+   python ps2/menu/title_credit.py ps2/PyTOD2/FPB --version 1.3.0
    python ps2/menu/patch_slps_titles.py ps2/PyTOD2/SLPS_251.72
    ```
-   `title_credit.py` redraws the Japanese designer credit under the title
-   menu as "Green Gel v1.2.7" (the Namco line below it is kept). The game
-   draws only the first 96 pixels of that line, so the label is short and
-   condensed; the tool refuses anything wider.
+   `title_credit.py` draws "Green Gel v1.3.0" under the title menu; the game
+   shows only 96 pixels of that line, so the tool refuses wider labels.
 4. Pack FPB and put `new_FILE.FPB` and `new_SLPS_251.72` into the ISO. Do
-   not run "Insert FONT": it would replace the game's Latin font with the
-   2008 alternative font and drop the `&`, `~` and `*` glyphs that
-   `patch_slps_titles.py` adds to the retail font.
-   The movies are a separate archive, `MOVIE.FPB`, which none of the steps
-   above touch: build the hard-subbed movies with
+   **not** run "Insert FONT": it replaces the game's Latin font with an
+   unused 2008 font and drops the `&`, `~` and `*` glyphs.
+5. Movies: they are in `MOVIE.FPB`, which none of the steps above touch.
+   Build them with
    `python ps2/movies/build_hardsubbed_movies.py --ffmpeg C:\path\to\ffmpeg.exe`
-   (FFmpeg with libass; it writes `ps2/PyTOD2/hardsubbed_movies.rebuilt`),
+   (FFmpeg with libass; output in `ps2/PyTOD2/hardsubbed_movies.rebuilt`),
    replace `ps2/PyTOD2/hardsubbed_movies` with that folder, run
    `ps2/PyTOD2/Install-HardsubbedMovies.ps1` (writes the eight movies into
-   `ps2/PyTOD2/MOVIE.FPB`) and put that `MOVIE.FPB` into the ISO too. Full
-   procedure and checks: `ps2/movies/README.md`.
-5. `python ps2/menu/verify_menu_patch.py your.iso` tells you which parts of
-   the build are English, so a Japanese screen can be traced to the step
-   that was skipped.
-6. A custom Latin font goes in last, on the finished ISO:
-   `python ps2/menu/patch_font_iso.py patch your.iso font.png` (export,
-   edit and check steps in `ps2/menu/FONT_CUSTOMIZATION.md`).
-7. Last, give the finished ISO the retail disc layout:
-   `python ps2/menu/fix_disc_layout.py fix your.iso`. The ISO writer leaves
-   the UDF side of the disc unlike retail (files marked "unspecified", the
-   partition over the closing anchor, an odd sector count), which readers
-   other than the PS2, such as a PS3, look at first. Only descriptors
-   change and up to 15 empty sectors are appended; `check` instead of
-   `fix` only reports.
+   `ps2/PyTOD2/MOVIE.FPB`) and put that `MOVIE.FPB` into the ISO.
+6. `python ps2/menu/verify_menu_patch.py your.iso` shows which parts of the
+   build are English, so a Japanese screen can be traced to a skipped step.
+7. A custom Latin font goes in on the finished ISO:
+   `python ps2/menu/patch_font_iso.py patch your.iso font.png`
+   (see `ps2/menu/FONT_CUSTOMIZATION.md`).
+8. Last: `python ps2/menu/fix_disc_layout.py fix your.iso` gives the ISO the
+   retail disc layout (the ISO writer leaves the UDF side unlike retail,
+   which readers such as a PS3 look at first). `check` instead of `fix` only
+   reports.
 
-## PSP port
+### PSP
 
-The PSP version (ULJS-00097) shares the `file.fpb` structure and the text
-encoding with the PS2 game, so most of the translated text carries over.
-Differences: archive members are zlib-compressed, the member table lives in
-the executable, the menus are compiled into the executable (no overlay
-modules), the font is a swizzled 4-bit texture, and the UI renderer draws
-ASCII full width and in capitals.
-
-The whole pipeline is one command, `python3 psp/tools/build_psp.py`, which:
-
-* pulls `BOOT.BIN` and `file.fpb` out of the ISO (`psp_iso.py`, `psp_fpb.py`)
-* patches the party names in `BOOT.BIN` (`psp_names.py`)
-* applies the ~3,900 menu/UI strings, overwriting the ones that fit in place
-  and relocating the longer ones into a new load segment with a
-  pointer-rewrite pool (`psp_menu.py`, `psp_pool.py`)
-* matches every scenario and skit record against the PS2 English script and a
-  hand-translated supplement for the PSP-exclusive scenes, then inserts them
-  (`psp_text.py`, `psp_supplement.tsv`); every skit line also gets its text
-  speed from the PS2 time window of the same line (PSP skit member n is PS2
-  skit n - 159), so the full length English fits the voice
-* translates the Monster Book / bestiary enemy names, which live one PAK level
-  deep and then inside a raw-deflate blob in the battle-resource archive
-  members (`psp_monsters.py`)
-* redraws the title-screen copyright texture so the Japanese designer credit
-  reads "Green Gel Patch vX.Y.Z" (`psp_title.py`, with `--version`)
-* with `--movies`, burns the English subtitles into the nine movies with
-  dialogue (`psp_movies.py`): the PSP movies are the PS2 movies frame for frame,
-  so the PS2 subtitle tracks in `ps2/movies/subtitles` apply unchanged; the
-  video is re-encoded per navigation unit with the original H.264 settings and
-  put back by `psp_pmf.py`, which keeps the audio, the pack timing and the
-  decoder buffer limits of the original file. Needs an FFmpeg with libass and
-  libx264 (`--ffmpeg`, or `pip install imageio-ffmpeg`). The PSP ending has its
-  own staff roll (porting staff added, names reordered), so it gets its own
-  measured table and English overlay (`psp_credits.py`, `psp_credits.tsv`)
-* rebuilds the font member with lowercase glyphs and applies SkyBladeCloud's
-  font-selection patch to every ASCII text walker so dialogue, names and menus
-  render in mixed case; the bold icon-font menu text (party names in the menu,
-  tabs, arte grid, Battle Rank) keeps retail capitals (`psp_lowercase.py`)
-* repacks the archive, verifies every rebuilt file, and writes the English ISO
-
-The movie subtitles are **off unless you pass `--movies`**; without it the
-ISO keeps the Japanese movies. A release build is:
+One command builds the whole English ISO from a clean Japanese one:
 
 ```
 python -m pip install imageio-ffmpeg
 python psp/tools/build_psp.py "Tales of Destiny 2 (Japan) PSP.iso" tod2_psp_en.iso --version 0.2.1 --movies
 ```
 
-Commands are for Windows 11 (on Linux or macOS use `python3`).
-`imageio-ffmpeg` brings an FFmpeg with libass and libx264; to use your own
-FFmpeg instead, add `--ffmpeg C:\path\to\ffmpeg.exe` (it must have both). The
-nine movies take a while to encode. The log prints a `movie 002 (PS2 00001):`
-block per movie and the final replace list must name the nine
-`/PSP_GAME/USRDIR/movie/0NN.pmf` files (002 to 006, 008, 009, 011, 012); if
-no `movie` line appears, the switch was missing. Check a subtitled
-movie (for example 002) and the ending staff roll (006) in the emulator.
+* `--version` is the number drawn on the title screen as
+  "Green Gel Patch vX.Y.Z"; pass the one you are releasing.
+* `--movies` burns the English subtitles into the movies. **Without it the
+  movies stay Japanese.** It needs an FFmpeg with libass and libx264:
+  `imageio-ffmpeg` brings one, or pass `--ffmpeg C:\path\to\ffmpeg.exe`.
+  The log shows a `movie 0NN (PS2 000NN):` block for each of the nine movies.
+* `--lowercase-font off` leaves out the lowercase font hack (the v0.2.1
+  build).
+* `--keep WORKDIR` keeps the extracted and rebuilt files.
 
-### Help wanted (open PSP problems)
+The build extracts BOOT.BIN and file.fpb, applies the party names, menus
+(in place or through the string pool), lowercase font, scenario and skit
+text with skit speeds, enemy names, the title credit and the movies, then
+repacks, verifies every rebuilt file and writes the ISO. Each step is
+explained in `psp/tools/README.md`. A custom font goes in on the finished
+ISO with `psp/tools/patch_font_iso.py` (`psp/tools/FONT_CUSTOMIZATION.md`).
 
-These are the remaining engineering problems, not translation. If you know PSP
-reverse engineering, `armips`, or this engine, help is very welcome (open an
-issue or a PR). What we have worked out so far:
+### Making a release
 
-* **The engine has two fonts.** 8-bit ASCII resolves through an 8-bit slot
-  table (file `0x27DD40`), where `a` (`0x61`) and `A` both point to slot `0x17`
-  (that is the uppercasing). The slot is then drawn from whichever font the
-  code selected. **Font 0x01** is archive member 0 (the big editable font, has
-  everything); **font 0x02** is a smaller icon/ASCII font with no free space
-  that most of the UI uses.
-* **Lowercase is done** by (1) drawing `a..z` into font 0x01's 26 free slots
-  below `0x100` (`0xD9`, `0xDA`, `0xDC..0xF3`; slot `0xDB` is the retail
-  apostrophe and must stay), (2) remapping `a..z` in the slot table to those
-  slots, and (3) forcing the single-byte text paths to font 0x01 with one-byte
-  `0x02` -> `0x01` code patches. Exactly three text walkers resolve ASCII
-  through the slot table (found by taking every `lui 0xa / addiu ..,0x1040`
-  reference to it in the disassembly): the dialogue text walker (file
-  `0x13EEC4`), the speaker-name walker (`0x143444`) and the menu/battle walker
-  (`0x14A084`, an `ori` whose low nibble is the font). Module load base is
-  `0x08804000`, so runtime `0x08942E04` / `0x08947384` / `0x08949FC4`. Each
-  walker's two-byte (kanji) path already hard-codes font 0x01, and the retail
-  table maps every single-byte code to the same slot in both fonts, so font
-  0x01 has every glyph these paths can address. Thanks to SkyBladeCloud, who
-  reverse engineered the font system and shared his edited font.
-* **The "bold" menu text stays in capitals.** A fourth routine reads the slot
-  table but is not a walker: `0x144248` (wrapper `0x1464BC`, runtime
-  `0x08948248`, called from nine menu subsystems) draws an ASCII string straight
-  to a vertex list with the icon font's cell geometry hard-coded (10 cells per
-  row, 12 x 16 pixels) on texture slot 0, which the wrapper binds to font 0x02.
-  It has no font byte and no font 0x01 branch, so it can only ever draw the
-  icon font: party names in the menu, the Artes tabs, the arte shortcut grid,
-  the Battle Rank value, the HP/TP/LV labels. With `a..z` remapped it drew icon
-  fragments, so the build gives this one routine its own untouched copy of the
-  retail table (appended to the menu pool segment; the `lui`/`addiu` pair at
-  `0x1443D8`/`0x1443DC` is re-pointed, its HI16/LO16 relocations stay valid)
-  and those contexts render capitals exactly like retail. Lowercase there needs
-  either lowercase glyphs drawn into the icon font (it has no free cells) or a
-  rewrite of that routine's geometry to draw from font 0x01.
-* **The arte grid uses a fixed-width renderer** that only handles single-byte
-  ASCII: it mangles any multi-byte sequence, so neither a dual-tile encoding
-  (two half-width letters in one glyph code) nor the game's own `<size>` scale
-  control fixes the overflow there. Since v0.1.0 the overflowing arte names are
-  shortened to fit; the proper fix is an `armips` patch to that renderer's
-  glyph advance (halve the ASCII step, keep two-byte and control codes).
-* **Monster Book display names** still show Japanese even though the battle
-  enemy names are translated, so the book UI reads names from a second, not-yet
-  located source.
-* **Real hardware compatibility.** The lowercase font hack of v0.2.0 does not
-  work on every device and can crash now and then; v0.2.1 is built without it
-  and renders capitals. A new PSP font that works everywhere is in progress.
+PS2, after the last build step:
 
-A format-aware Japanese-string scanner for the PSP ISO (walks every FPB member,
-nested SCPK/PAK/deflate containers, and the game's glyph encoding) is described
-in the help thread linked under Resources.
+```
+xdelta3 -e -9 -S none -s "Tales of Destiny 2 (Japan).iso" patched.iso "[Green Gel] ToD2 patch v1.3.0 (PS2).xdelta"
+```
 
-## Contributing
+`-S none` turns off the secondary compression some patchers cannot read.
+The patch stays small only if the ISO keeps the original file layout (files
+replaced in place). The PS2 xdelta is still around 800 MB (about 415 MB as
+a 7z) because the movies with dialogue are re-encoded. The PSP patch is made
+the same way from the `build_psp.py` output.
 
-* Work on a branch and open a pull request. The audit runs automatically
-  and fails only if a change adds a crash-class finding.
-* Text rules: 36 visible characters per line, 126 per four-row page, page
-  breaks with `{02}`, control codes must match the Japanese source exactly.
-  A skit line is one line of any length up to its budget: it may not need a
-  text speed faster than 20 characters per second (and never more than 384
-  characters). `python ps2/PyTOD2/skit_speed.py report <skit folder>` and the
-  audit check it.
-* Use the terms marked `[LOCK]` in `glossary.txt` and the voices in
-  `character_voice_guide.txt`.
-* Never commit game files or images of the disc; the repository holds text
-  tables and scripts only.
+## Repository map
 
-Reference spreadsheet with older research:
-https://docs.google.com/spreadsheets/d/1UVaEjK0o-V1-3atPHfRRw2q9QQcCzPCpr4GXJ2MLvvg
-
-## Technical notes
-
-### FILE.FPB (PS2)
-
-* The member table is in `SLPS_251.72` starting at `0xDD320`, one u32 per
-  member: high bits = start offset, low 6 bits = remainder.
-* Members use the game's own LZSS/RLE compressor (`comptoe`); a pure Python
-  port lives in `ps2/menu/lzss.py`.
-* Menu text lives in the `md1` overlay modules inside the archive, not in
-  the executable. Three modules (`08055`, `06304`, `08996`) are also stored
-  compressed inside `00017.pak3`, and that is the copy the game loads.
-
-### SLPS_251.72
-
-| Offset | Description |
+| Path | What |
 |---|---|
-| `0x000000` | ELF start |
-| `0x0CA328` | font (TM2) |
-| `0x0C9D00` | font map: byte per ASCII code, `0xC9D00 - 0x20 + ascii` gives the glyph index |
-| `0x0DD320` | FILE.FPB member table |
-
-The 2008 English menu base mapped lowercase letters onto redrawn hiragana
-glyphs through that map; the current patch builds on that executable.
-
-### FILE.FPB and the executable (PSP)
-
-* `PSP_GAME/SYSDIR/BOOT.BIN` on the UMD is already the decrypted
-  executable (a plain PRX), so no `deceboot` step is needed.
-* The member table is at `0x29531C..0x29E9AC` in it: high bits = start
-  (sector * 0x800), low 11 bits = remainder; a member ends `remainder`
-  bytes before the next member's start.
-* Compressed members start with byte `04`, u32 packed length, u32 unpacked
-  length, then a raw deflate stream. A raw container with four entries also
-  starts with `04 00 00 00`; tell them apart by the packed length.
-* The font is member 0 (font 0x01): a PSP-swizzled 4-bit texture, 256 x 4400
-  pixels, 23-pixel cells, 11 per row (`slot = row * 11 + col`, `A` = slot
-  `0x17`). Member 1 lists the Shift-JIS code of every glyph in order. There is
-  also a second, smaller icon/ASCII font (font 0x02) that most of the UI draws
-  from; the code selects between them per context with `li reg, fontindex`.
-* Two-byte text codes map to glyphs as `(lead - 0x99) * 187 + (second - 0x40)`
-  with two skipped second-byte values (the u16 code map is at file `0x27DB40`).
-  Single ASCII bytes instead go through an 8-bit slot table at file `0x27DD40`
-  that points `a..z` at the same slots as `A..Z` (the uppercasing).
-* The executable's module load base at runtime is `0x08804000` (runtime address
-  = segment vaddr + base), which is how in-game debugger addresses map back to
-  file offsets (data file = vaddr + 0x100, text/rodata file = vaddr + 0xC0).
-
-### Text encoding (both versions)
-
-Two-byte codes with lead bytes `0x99..0x9F` and `0xE0..0xE4`, listed in
-`ps2/PyTOD2/TBL.json`; `0x01` is a newline; `0x03..0x0B` introduce a tag
-with a u32 argument (colour, size, number, party member name, item,
-button); a NUL ends the string.
-
-### Older notes
-
-The scenario packages (`SCPK`) hold a background, sprites and animations,
-and last the `SCED` script with a code section and a text section. The
-PS2 font TM2 has ten 4-bit palettes of `0x40` bytes with `0x10`-byte
-subheaders, then a 128 x 512 4-bit pixel matrix, low nibble first.
+| `Third pass Quality-Safe Output/`, `third pass skits safe output/` | the maintained scenario and skit text (Japanese lines start with `#`) |
+| `ps2/PyTOD2/` | PS2 archive tool (unpack, insert text, repack; GUI and command line), the build copies of the text (`TXT_EN`), skit speeds, movie installer |
+| `ps2/menu/` | PS2 menus, executable, Quiz Book, enemy text, title credit, font and disc layout tools with their tables (`README.md` there) |
+| `ps2/movies/` | PS2 movie subtitles, ending credits overlay, movie rebuild and remux tools (`README.md` there) |
+| `psp/tools/` | the PSP build (`build_psp.py`) and every tool and table it uses (`README.md` there) |
+| `psp/` (rest) | older PSP extractors and Japanese scenario dumps |
+| `audio/` | index of every voice, music and sound file on both discs, PS2/PSP voice pairs, WAV export (`README.md` there) |
+| `scripts/` | the translation audit, text dump and hex/Japanese converters |
+| `docs/` | the website (GitHub Pages), the English manual, the converter pages |
+| `glossary.txt`, `character_voice_guide.txt`, `code_glossary.txt` | terminology, character voices, control codes |
+| `Dialogue and Script Layout Restrictions.md` | the text box limits |
+| `TECHNICAL.md` | formats, offsets and rules of both versions |
+| `dictionary/`, `tm2_converter/`, `pakcomposer/` | helper data and tools (`pakcomposer` is a submodule from Lifebottle) |
+| `second_pass_quality_output/`, `second_pass_quality_skits_output/`, `translated_output/`, `ps2/scenarios/`, `ps2/skits/`, `TOD2_Kimi_two_stage_pipeline_v5_1.py`, `translate_*.py` | history: earlier machine translation passes and the pipeline that produced the first draft; not used by the build |
 
 ## Resources
 
-* https://gamefaqs.gamespot.com/ps2/561922-tales-of-destiny-2/faqs/58741
-* https://gbatemp.net/threads/romhacking-in-tales-of-destiny-2.373960/
+* [TECHNICAL.md](TECHNICAL.md): formats and offsets of both versions
+* https://gbatemp.net/threads/romhacking-in-tales-of-destiny-2.373960/ (the
+  original research thread)
 * https://pastebin.com/fCVPLUP4 (text decoder routine)
 * https://github.com/talestra/talestra/tree/master/compto (comptoe)
+* https://gamefaqs.gamespot.com/ps2/561922-tales-of-destiny-2/faqs/58741
+* Older research spreadsheet:
+  https://docs.google.com/spreadsheets/d/1UVaEjK0o-V1-3atPHfRRw2q9QQcCzPCpr4GXJ2MLvvg
 
 ## Credits
 
@@ -392,3 +328,6 @@ subheaders, then a 128 x 512 4-bit pixel matrix, low nibble first.
 * `Asvel124`, `Randomggjc` and everyone in the RetroGameTalk thread
   (https://retrogametalk.com/threads/release-tales-of-destiny-2-ps2-psp-english-ai-translation.26456/)
   for testing and bug reports
+
+Tales of Destiny 2 is a trademark of Bandai Namco. This is a non-commercial
+fan project. See `LICENSE`.
