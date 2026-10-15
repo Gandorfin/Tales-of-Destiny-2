@@ -5,18 +5,32 @@ Menu strings whose English is longer than the Japanese slot can't be
 overwritten in place. This appends a new PT_LOAD segment (pool) at end of
 file (a 4th program header fits the zero gap 0x94..0xC0 before .text), at a
 fresh vaddr above bss, writes the English there, and repoints the string's
-data pointer(s) to it.
+references to it.
 
-The pointers are R_MIPS_32 relocations (base delta is added at load), so we
-ONLY rewrite words that carry such a relocation and currently equal the
-string's vaddr -- storing the pool vaddr, which the loader then relocates
-onto the pool. Nothing existing is shifted (pool is purely appended).
+The references are relocations (base delta is added at load), so we ONLY
+rewrite words that carry one:
+
+* R_MIPS_32 data pointers that currently equal the string's vaddr: they
+  get the pool vaddr, which the loader then relocates onto the pool;
+* HI16/LO16 code pairs (lui + addiu) that build the string's address in a
+  register. A run of HI16 relocations and the LO16 run after it form one
+  group: they share the upper half, so a group is rewritten only when every
+  LO16 in it is an addiu that builds the address of a relocated string and
+  all the new addresses have the same upper half. Other groups that reach a
+  relocated string are left on the Japanese and reported.
+
+A string is normally found as a NUL-bounded run; a run that starts right
+after other bytes (the tail of a binary record, e.g. 名前入力 at file
+0x1C79F8) counts only when a relocation points exactly at it.
+Nothing existing is shifted (pool is purely appended).
 """
 import struct, collections
 
 POOL_VADDR = 0x881000          # page-aligned, above PH1 bss end (0x880848)
 RELOC_OFF = 0x29fb80
 RELOC_SIZE = 0xae0b0
+R_MIPS_32, R_MIPS_HI16, R_MIPS_LO16 = 2, 5, 6
+ADDIU = 0x09
 
 
 def _phdr(d, i):
@@ -27,25 +41,92 @@ def _vaddr_to_file(v):
     return v + (0x100 if v >= 0x1dcc00 else 0xc0)
 
 
-def _reloc_pointer_map(d):
-    """{stored_value: [file_offsets]} for every R_MIPS_32 (type 2) pointer word."""
+def _file_to_vaddr(f):
+    return f - (0x100 if f >= 0x1dcd00 else 0xc0)
+
+
+def _relocs(d):
+    """(type, file offset of the relocated word, address segment) per entry."""
     ph = [_phdr(d, i) for i in range(3)]
-    m = collections.defaultdict(list)
     for p in range(RELOC_OFF, RELOC_OFF + RELOC_SIZE, 8):
         off, info = struct.unpack_from('<II', d, p)
-        if info & 0xff != 2:
+        typ, ofsb, adrb = info & 0xff, (info >> 8) & 0xff, (info >> 16) & 0xff
+        if ofsb > 2:
             continue
-        vaddr = ph[(info >> 8) & 0xff][2] + off
-        fo = _vaddr_to_file(vaddr)
+        fo = _vaddr_to_file(ph[ofsb][2] + off)
         if 0 <= fo + 4 <= len(d):
+            yield typ, fo, adrb
+
+
+def _reloc_pointer_map(d):
+    """{stored_value: [file_offsets]} for every R_MIPS_32 (type 2) pointer word."""
+    m = collections.defaultdict(list)
+    for typ, fo, adrb in _relocs(d):
+        if typ == R_MIPS_32:
             m[struct.unpack_from('<I', d, fo)[0]].append(fo)
     return m
 
 
-def add_pool_and_relocate(boot, items):
+def _code_pair_groups(d):
+    """[(hi file offsets, [(lo file offset, target vaddr, opcode)])] for every
+    run of HI16 relocations and the LO16 run that completes it, addresses in
+    segment 0 only (the pool is addressed the same way)."""
+    groups, his, los, seg0 = [], [], [], True
+
+    def close():
+        if his and los and seg0:
+            groups.append((list(his), list(los)))
+
+    for typ, fo, adrb in _relocs(d):
+        if typ == R_MIPS_HI16:
+            if los:
+                close()
+                his.clear(); los.clear(); seg0 = True
+            his.append(fo)
+            seg0 = seg0 and adrb == 0
+        elif typ == R_MIPS_LO16 and his:
+            hi = struct.unpack_from('<I', d, his[-1])[0] & 0xffff
+            word = struct.unpack_from('<I', d, fo)[0]
+            lo = word & 0xffff
+            target = ((hi << 16) + (lo - 0x10000 if lo & 0x8000 else lo)) & 0xffffffff
+            los.append((fo, target, word >> 26))
+            seg0 = seg0 and adrb == 0
+    close()
+    return groups
+
+
+def _rewrite_code_pairs(b, groups, moved, st, log):
+    """Point every code pair group that builds only relocated strings at the
+    pool; report groups that also build something else."""
+    for his, los in groups:
+        if not any(t in moved for _, t, _ in los):
+            continue
+        new = [moved.get(t) for _, t, _ in los]
+        highs = {(n + 0x8000) >> 16 for n in new if n is not None}
+        same_lui = len({struct.unpack_from('<I', b, fo)[0] & 0xffff for fo in his}) == 1
+        if None in new or any(op != ADDIU for _, _, op in los) or len(highs) != 1 or not same_lui:
+            st['code_pairs_left'] += 1
+            if log:
+                log('menu pool: lui at 0x%X left on the Japanese (its group also builds %s)' % (
+                    his[0], ', '.join('0x%X' % _vaddr_to_file(t) for (_, t, _), n in zip(los, new) if n is None)
+                    or 'a non-addiu address'))
+            continue
+        high = highs.pop()
+        for fo in his:
+            w = struct.unpack_from('<I', b, fo)[0]
+            struct.pack_into('<I', b, fo, (w & 0xffff0000) | high)
+        for (fo, _, _), n in zip(los, new):
+            w = struct.unpack_from('<I', b, fo)[0]
+            struct.pack_into('<I', b, fo, (w & 0xffff0000) | (n & 0xffff))
+        st['code_pairs_rewritten'] += len(los)
+
+
+def add_pool_and_relocate(boot, items, log=print):
     b = bytearray(boot)
     st = collections.Counter()
     ptr_map = _reloc_pointer_map(b)
+    groups = _code_pair_groups(b)
+    code_targets = {t for _, los in groups for _, t, _ in los}
     place = [(jp, en) for jp, en in items if len(en) > len(jp)]
     pool = bytearray(); en_off = {}
     for jp, en in place:
@@ -54,32 +135,38 @@ def add_pool_and_relocate(boot, items):
     while len(pool) % 4:
         pool.append(0)
     pool_file = len(b)
+    moved = {}                     # string vaddr -> pool vaddr, for the code pairs
     for jp, en in place:
-        # find EVERY standalone (NUL-bounded) occurrence, not just the first:
-        # single-kanji labels (elements, slots, tabs) and repeated stat labels
-        # have 2-11 copies each, and every copy needs its data pointer(s)
-        # repointed to the one pooled English string or that copy stays JP.
-        newp = struct.pack('<I', POOL_VADDR + en_off[en])
-        i = 0; occ = 0; rewritten = 0
+        # find EVERY standalone occurrence, not just the first: single-kanji
+        # labels (elements, slots, tabs) and repeated stat labels have 2-11
+        # copies each, and every copy needs its references repointed to the
+        # one pooled English string or that copy stays JP.
+        newv = POOL_VADDR + en_off[en]
+        newp = struct.pack('<I', newv)
+        i = 0; occ = 0; rewritten = 0; in_code = 0
         while True:
             j = b.find(jp + b'\x00', i)
             if j < 0:
                 break
             i = j + 1
-            if not (j == 0 or b[j - 1] == 0):
-                continue
-            occ += 1
-            svaddr = j - (0x100 if j >= 0x1dcd00 else 0xc0)
+            svaddr = _file_to_vaddr(j)
             hits = ptr_map.get(svaddr, [])
+            if not (j == 0 or b[j - 1] == 0) and not hits and svaddr not in code_targets:
+                continue           # inside another string, and nothing points here
+            occ += 1
             for fo in hits:
                 b[fo:fo + 4] = newp
             rewritten += len(hits)
+            if svaddr in code_targets:
+                moved[svaddr] = newv
+                in_code += 1
         if occ == 0:
             st['not_found'] += 1
-        elif rewritten == 0:
+        elif rewritten == 0 and in_code == 0:
             st['no_reloc_pointer'] += 1
         else:
             st['relocated'] += 1; st['pointers_rewritten'] += rewritten
+    _rewrite_code_pairs(b, groups, moved, st, log)
     b += pool
     struct.pack_into('<8I', b, 0x34 + 3 * 32,
                      1, pool_file, POOL_VADDR, POOL_VADDR, len(pool), len(pool), 4, 0x40)
