@@ -1,6 +1,6 @@
 # Monster Book / enemy names, artes and boss lines for the PSP battle-resource FPB members.
 # jp<TAB>en<TAB>source. Located by pnvnd's env8 scanner (FPB 8378..9565, PAK->deflate->tod2-custom).
-# sources: termbase=Lifebottle canonical; ps2=reused ToD2 PS2 enemy_translations; hand=transliteration.
+# sources: termbase=Lifebottle canonical; ps2=reused ToD2 PS2 enemy_translations; hand=transliteration; ps2names=ps2/menu/enemy_names.csv (battle banner names).
 -アイス・レクイエム-	-Ice Requiem-	ps2
 -アジリティ・クロース-	-Agility Cloth-	ps2
 -ウィズダムロッド-	-Wisdom Rod-	ps2
@@ -243,3 +243,64 @@
 －アイスバーン－	-Ice Burn-	ps2
 －マインドウィルス－	-Mind Virus-	ps2
 －マッドプール－	-Mud Pool-	ps2
+パラサイトウィード	Parasite Weed	ps2names
+リザードマン	Lizard Man	ps2names
+アスプ	Asp	ps2names
+エルダードラゴン	Elder Dragon	ps2names
+ジェントルマン'	Gentleman'	ps2names
+リビングアーマー	Living Armor	ps2names
+バウンサー	Bouncer	ps2names
+スペクター	Specter	ps2names
+ネクロノミコン	Necronomicon	ps2names
+リビングデッド	Living Dead	ps2names
+スターフィッシュ	Starfish	ps2names
+ワイバーン	Wyvern	ps2names
+リーパー	Reaper	ps2names
+ドラゴンフライ	Dragonfly	ps2names
+ブラックウィドウ	Black Widow	ps2names
+インクイジター	Inquisitor	ps2names
+ブエル	Buer	ps2names
+キャリオンクロウラ	Carrion Crawler	ps2names
+ハウゼルエッグ	Hausel Egg	ps2names
+サマナー	Summoner	ps2names
+ノクターナルフライ	Nocturnal Fly	ps2names
+オセ	Ose	ps2names
+ヴァサーゴ	Vassago	ps2names
+タロス	Talos	ps2names
+バンデット	Bandit	ps2names
+リビングソード	Living Sword	ps2names
+エアロス	Aeros	ps2names
+スナーク	Snark	ps2names
+フレイミーズ	Flamies	ps2names
+パーセキューター	Persecutor	ps2names
+ゲイズハウンド	Gazehound	ps2names
+イグニスファッツァス	Ignis Fatuus	ps2names
+カワンチャ	Kawancha	ps2names
+ゴーレム	Golem	ps2names
+シュリーカー	Shrieker	ps2names
+ヴェパール	Vepar	ps2names
+リザードロード	Lizard Lord	ps2names
+プロトタイプ	Prototype	ps2names
+ケイブファンガー	Cave Fanger	ps2names
+ジルコンシェル	Zircon Shell	ps2names
+イースター	Easter	ps2names
+セントエルモ	Saint Elmo	ps2names
+ヴァルパイン	Vulpine	ps2names
+リントブルム	Lindwurm	ps2names
+ワイト	Wight	ps2names
+ラルヴァ	Larva	ps2names
+トゥルーマジック	True Magic	ps2names
+ラーバウォーム	Lava Worm	ps2names
+トレント	Treant	ps2names
+アルケミスト	Alchemist	ps2names
+グラディエーター	Gladiator	ps2names
+ラーバモス	Lava Moth	ps2names
+ドラゴントゥース	Dragon's Tooth	ps2names
+ジャバウォック	Jabberwock	ps2names
+サイレントキラー	Silent Killer	ps2names
+ＨＲＸ－２	HRX-2	ps2names
+アースエレメンタル	Earth Elemental	ps2names
+ウインドエレメンタル	Wind Elemental	ps2names
+チープトリック	Cheap Trick	ps2names
+スケアクロウ	Scarecrow	ps2names
+アラストル	Alastor	ps2names

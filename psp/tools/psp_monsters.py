@@ -61,11 +61,20 @@ def _decode(b, p):
     return ''.join(out), i
 
 
+def _is_literal(b, i):
+    """True when the string at i is inline ENd text: opcode 0A, one argument
+    byte, then the NUL-terminated string (enemy arte names, Mystic Arte
+    banners, boss lines; the PS2 enemy_text.py format)."""
+    return i >= 2 and b[i - 2] == 0x0A and b[i - 1] <= 0x0F
+
+
 def _patch_leaf(data, names, stats):
     """Overwrite any target name in a decoded leaf, in place. Returns new bytes
-    or None if unchanged. Grows are handled by the caller's container rebuild
-    only when the slot is too small (here we NUL-pad within the original slot;
-    longer English is reported and skipped to stay in-place-safe)."""
+    or None if unchanged. English must fit the Japanese bytes (longer English
+    is reported and skipped to stay in-place-safe). Name fields are padded
+    with NULs. Inline ENd text is padded with spaces, as the PS2 enemy_text.py
+    does: the script continues right after that string's own terminator, so
+    the slot keeps exactly one NUL, where the Japanese had it."""
     b = bytearray(data)
     changed = False
     i = 0
@@ -78,9 +87,11 @@ def _patch_leaf(data, names, stats):
             en = names[text].encode('cp932', 'replace')
             slot = end - i
             if len(en) <= slot:
-                b[i:end] = en + b'\x00' * (slot - len(en))
+                literal = _is_literal(b, i)
+                b[i:end] = en + (b' ' if literal else b'\x00') * (slot - len(en))
                 changed = True
                 stats['patched'] += 1
+                stats['inline_text'] += literal
             else:
                 stats['too_long'] += 1
         i = end + 1 if end >= i else i + 1
@@ -170,7 +181,7 @@ def build_changed_members(boot_path, fpb_path, names=None, log=print):
     psp_fpb = importlib.util.module_from_spec(_s); _s.loader.exec_module(psp_fpb)
     names = names or load_names()
     boot = open(boot_path, 'rb').read()
-    stats = {'patched': 0, 'too_long': 0, 'members': 0}
+    stats = {'patched': 0, 'too_long': 0, 'members': 0, 'inline_text': 0}
     changed = {}
     for idx in range(MEMBER_LO, MEMBER_HI + 1):
         try:
@@ -184,8 +195,9 @@ def build_changed_members(boot_path, fpb_path, names=None, log=print):
             changed[idx] = new
             stats['members'] += 1
     if log:
-        log('monster names: %d strings patched across %d members (%d too long, skipped)'
-            % (stats['patched'], stats['members'], stats['too_long']))
+        log('monster names: %d strings patched across %d members (%d of them inline ENd text, '
+            'space padded; %d too long, skipped)'
+            % (stats['patched'], stats['members'], stats['inline_text'], stats['too_long']))
     return changed, stats
 
 
