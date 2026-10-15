@@ -100,6 +100,43 @@ class ReferenceTests(unittest.TestCase):
         self.assertEqual([(o.status, o.patched) for o in occs], [('translated', 'Hello')])
 
 
+def sfm(strings, target=None):
+    """SFM module: one `02 0c 03 00 <u32>` push per string; target overrides
+    the pushed offset of the first string (a moved string)."""
+    data = bytearray(0x20)
+    rels = []
+    for text in strings:
+        rels.append(len(data))
+        data += text + b'\0'
+    while len(data) % 4:
+        data.append(0)
+    if target is not None:
+        rels[0] = target
+    code = b''.join(b'\x02\x0c\x03\x00' + struct.pack('<I', r) for r in rels) + b'\0\0'
+    head = struct.pack('<4s7L', b'SFM_', 0x3FC, 0x20 + len(code) + len(data), 0x20 + len(code),
+                       len(data), 0x20, 0x20 + len(code), 0)
+    return head + code + bytes(data)
+
+
+class SfmTests(unittest.TestCase):
+    def compare(self, retail, patched):
+        occs, info = [], []
+        js.compare_leaf('06348/z', retail, patched, plaus(), 2, occs, info, 'other')
+        return [(o.status, o.text, o.patched) for o in occs]
+
+    def test_untouched_quiz_string_is_live(self):
+        r = sfm([enc(WORD), enc(OTHER)])
+        self.assertEqual(sorted(self.compare(r, r)), [('live_jp', OTHER, ''), ('live_jp', WORD, '')])
+
+    def test_moved_quiz_string_is_translated(self):
+        strings = [enc(WORD), enc(OTHER)]
+        r = sfm(strings)
+        moved = 0x20 + len(strings[0]) + len(strings[1]) + 2     # English stored after them
+        p = sfm(strings + [b'Hello'], target=moved)
+        self.assertIn(('translated', WORD, 'Hello'), self.compare(r, p))
+        self.assertIn(('live_jp', OTHER, ''), self.compare(r, p))
+
+
 class GroupingTests(unittest.TestCase):
     def test_missed_copy_and_duplicates(self):
         occs = [js.Occ('BOOT', 'boot', 0x100, 'tbl', WORD, 'translated', '0x10:ptr0', 'Hello'),

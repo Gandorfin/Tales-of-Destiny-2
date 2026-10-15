@@ -28,9 +28,11 @@ How it works:
 3. Strings are tied to what references them. BOOT.BIN: every R_MIPS_32
    data pointer and every HI16/LO16 address pair, with the segment base
    each relocation names (data segment relative pointers included).
-   SCED scripts: every validated F8 text operand. A reference site whose
-   retail target is Japanese is compared with the same site in the patched
-   image: same text means the game still shows Japanese there.
+   SCED scripts: every validated F8 text operand. SFM modules (Quiz Book):
+   every data table word and bytecode push that ps2/menu/sfm_text.py
+   proves to point at a string. A reference site whose retail target is
+   Japanese is compared with the same site in the patched image: same
+   text means the game still shows Japanese there.
 4. Strings nothing points at are compared by bytes (same offset, then
    anywhere in the patched leaf).
 5. All occurrences are grouped by their text. A group where one copy was
@@ -55,8 +57,9 @@ Duplicates (Gandorff's main question: which copies did the patch miss):
 
 Other outputs: summary.md (duplicates section first), groups.tsv (one row
 per text), occurrences.tsv (one row per location), graphics.tsv. Reference
-kinds in ref_sites: f8 = SCED text operand, ptr0/ptr1 = R_MIPS_32 word
-relative to segment 0/1, code0/code1 = HI16/LO16 address pair. Only
+kinds in ref_sites: f8 = SCED text operand, sfm = SFM string reference,
+ptr0/ptr1 = R_MIPS_32 word relative to segment 0/1, code0/code1 = HI16/LO16
+address pair. Only
 reading; nothing is written into either image. A full disc takes about 10
 minutes with one worker per CPU (--jobs).
 """
@@ -69,7 +72,10 @@ with contextlib.redirect_stdout(io.StringIO()):
 ROOT = psp_text.ROOT
 sys.path.insert(0, os.path.join(ROOT, 'ps2', 'menu'))
 import lzss     # noqa: E402  comptoe LZSS codec shared with the PS2 tools
+import md1text, sfm_text    # noqa: E402  SFM (Quiz Book) module reader of the PS2 tools
 TBL = psp_text.TBL
+for _k, _v in TBL.items():          # the PSP only codes, so no SFM string hides
+    md1text.TBL.setdefault(_k, _v)
 
 # ----------------------------------------------------------------- images
 
@@ -441,6 +447,24 @@ def sced_sites(d):
         return {}
     return {at: (tb + addr, 'f8') for at, addr in ptrs}
 
+
+def sfm_sites(r, p):
+    """Reference sites of an SFM module (Quiz Book): every data table word
+    and every `03 00 <u32>` bytecode push that sfm_text proves to point at a
+    string, as {site: (target, 'sfm')} for the Japanese module r and for the
+    same sites in the patched module p (whose strings may have moved)."""
+    try:
+        mod = sfm_text.SFM(r)
+        strings = mod.strings()
+    except Exception:
+        return {}, {}
+    rs = {pos: (mod.data_start + rel, 'sfm') for rel, s in strings.items() for pos, _k, _p in s['refs']}
+    ps = {}
+    if p is not None and p[:4] == b'SFM_' and len(p) >= mod.data_start:
+        base = struct.unpack_from('<I', p, 0x18)[0]
+        ps = {pos: (base + struct.unpack_from('<I', p, pos)[0], 'sfm') for pos in rs if pos + 4 <= len(p)}
+    return rs, ps
+
 # ----------------------------------------------------------------- tables
 
 def known_translations():
@@ -534,6 +558,8 @@ def compare_leaf(path, r, p, plaus, min_jp, out, leafinfo, role='other'):
         return
     if kind == 'sced':
         rs, ps = sced_sites(r), (sced_sites(p) if p is not None else {})
+    elif kind == 'sfm':
+        rs, ps = sfm_sites(r, p)
     elif path == 'BOOT':
         rs, ps = boot_sites(r), boot_sites(p)
     else:
@@ -544,7 +570,7 @@ def compare_leaf(path, r, p, plaus, min_jp, out, leafinfo, role='other'):
     done, spans = set(), []
     # 1. reference sites: what the game actually draws
     for t, sites in referenced.items():
-        if t >= len(r) or r[t] == 0 or (t and r[t - 1] != 0 and path != 'BOOT' and kind != 'sced'):
+        if t >= len(r) or r[t] == 0 or (t and r[t - 1] != 0 and path != 'BOOT' and kind not in ('sced', 'sfm')):
             continue
         text = decode(r, t)
         if jp_count(text) == 0 or '{' in text.replace('{99}{40}', '').replace('{C0}', '').replace('{BC}', ''):

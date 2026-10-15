@@ -206,11 +206,11 @@ through deflate, SCPK, PAK, offsets pack, sizes pack and comptoe LZSS
 levels, each validated so plain data is not taken for a container) and
 every Japanese string of the Japanese image is followed into the English
 one; data embedded at an offset inside a leaf is covered because every
-offset of every leaf is searched. Strings are tied to what
-points at them (BOOT.BIN relocations, both data pointers and lui/addiu
-code pairs, and the SCED text operands), so it can tell "the game still
-draws this Japanese" from "the old bytes are still there but nothing reads
-them". `--members A-B` limits the FPB part to a member range (BOOT.BIN is
+offset of every leaf is searched. Strings are tied to what points at them
+(BOOT.BIN relocations, both data pointers and lui/addiu code pairs, the
+SCED text operands and the SFM string references of the Quiz Book), so it
+can tell "the game still draws this Japanese" from "the old bytes are
+still there but nothing reads them". `--members A-B` limits the FPB part to a member range (BOOT.BIN is
 always scanned), `--jobs N` sets the worker count. A full disc takes about
 10 minutes with one worker per CPU.
 
@@ -252,8 +252,9 @@ Categories in `groups.tsv`:
 Confidence: `high` = a reference site provably points at the text,
 `medium` = real looking text (4+ Japanese characters, or 2+ stored twice)
 in a leaf without a reference model, `low` = short fragments. Reference
-kinds in `ref_sites`: `f8` = SCED text operand, `ptr0`/`ptr1` = 32 bit
-pointer relative to segment 0/1, `code0`/`code1` = lui/addiu pair.
+kinds in `ref_sites`: `f8` = SCED text operand, `sfm` = SFM string
+reference, `ptr0`/`ptr1` = 32 bit pointer relative to segment 0/1,
+`code0`/`code1` = lui/addiu pair.
 
 Tests (synthetic data, no ISO needed):
 
