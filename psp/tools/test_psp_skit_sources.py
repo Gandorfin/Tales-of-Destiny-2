@@ -15,6 +15,8 @@ import psp_text
 import sync_text_from_ps2 as sync
 
 DIV = psp_text.DIVIDER + '\n'
+QUIZ_HEAD = 'file,offset,budget,pinned,japanese,english\n'
+QUIZ_ROW = '06178.sfm,0x20,6,,はい,%s\n'
 
 
 def write(path, text, newline='\n'):
@@ -94,6 +96,7 @@ class SyncTests(unittest.TestCase):
         write(os.path.join(tmp, 'ps2', 'movies', 'subtitles', '00001.en.srt'), '1\n')
         write(os.path.join(tmp, 'ps2', 'PyTOD2', 'TBL.json'), '{}')
         write(os.path.join(tmp, 'ps2', 'PyTOD2', 'skit_speeds.json'), '{}')
+        write(os.path.join(tmp, 'ps2', 'menu', 'quiz_translations.csv'), QUIZ_HEAD + QUIZ_ROW % 'Hi')
 
     def snapshot(self, tmp):
         out = {}
@@ -109,7 +112,8 @@ class SyncTests(unittest.TestCase):
             first = sync.differences(tmp)
             self.assertEqual({(n, s) for _, n, s, _, _ in first},
                              {('06470_10.sced.txt', 'new'), ('00056_02.sced.txt', 'new'), ('00001.en.srt', 'new'),
-                              ('TBL.json', 'new'), ('skit_speeds.json', 'new')})
+                              ('TBL.json', 'new'), ('skit_speeds.json', 'new'),
+                              ('quiz_translations.csv', 'new')})
             before = self.snapshot(tmp)
             sync.apply(first, tmp)
             after = self.snapshot(tmp)
@@ -154,6 +158,15 @@ class SyncTests(unittest.TestCase):
                 sync.report(diffs)
             self.assertIn('CHECK: scenario 06781_14.sced.txt changes 1 choice record', out.getvalue())
 
+    def test_quiz_table_rows_are_counted(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            self.make_repo(tmp)
+            sync.apply(sync.differences(tmp), tmp)
+            quiz = os.path.join(tmp, 'ps2', 'menu', 'quiz_translations.csv')
+            write(quiz, QUIZ_HEAD + QUIZ_ROW % 'Hello' + '06179.sfm,0x10,4,,いいえ,No\n', newline='\r\n')
+            self.assertEqual([d[1:] for d in sync.differences(tmp)],
+                             [('quiz_translations.csv', 'changed', 2, 0)])   # one changed, one added
+
     def test_sync_never_touches_the_overrides(self):
         with tempfile.TemporaryDirectory() as tmp:
             self.make_repo(tmp)
@@ -183,7 +196,7 @@ class AuditLagTests(unittest.TestCase):
             shutil.copyfile(sync.__file__, os.path.join(tmp, 'psp', 'tools', 'sync_text_from_ps2.py'))
             findings = collections.defaultdict(list)
             audit.check_psp_text_lag(tmp, findings)
-            self.assertEqual(len(findings['psp-text-lag']), 5)  # nothing synced yet
+            self.assertEqual(len(findings['psp-text-lag']), 6)  # nothing synced yet
             sync.apply(sync.differences(tmp), tmp)
             findings = collections.defaultdict(list)
             audit.check_psp_text_lag(tmp, findings)
@@ -208,11 +221,12 @@ class SourceCheckTests(unittest.TestCase):
 
     def test_no_text_is_read_from_outside_psp(self):
         for what, rel, pattern, least, when in build_psp.SOURCES:
-            if rel.endswith(('.txt', '.tsv', '.json', '.srt')) or pattern:
+            if rel.endswith(('.txt', '.tsv', '.json', '.srt', '.csv')) or pattern:
                 self.assertTrue(rel.startswith('psp/'), rel)
-        import psp_movies
+        import psp_movies, psp_quiz
         text = os.path.join(build_psp.ROOT, 'psp', 'text')
-        for path in (psp_text.TEXT, psp_text.OVERRIDES, psp_text.SKIT_SPEEDS, psp_movies.SUBTITLES):
+        for path in (psp_text.TEXT, psp_text.OVERRIDES, psp_text.SKIT_SPEEDS, psp_movies.SUBTITLES,
+                     psp_quiz.QUIZ_CSV):
             self.assertTrue(os.path.normpath(path).startswith(text), path)
 
     def test_old_speed_table_is_refused(self):

@@ -43,9 +43,13 @@ SOURCES = [
     ('PSP overrides', 'psp/text/overrides.tsv', None, 1, 'always'),
     ('text encoding table', 'psp/text/TBL.json', None, 1, 'always'),
     ('skit time windows', 'psp/text/skit_speeds.json', None, 1, 'always'),
+    ('Quiz Book English', 'psp/text/quiz_translations.csv', None, 1, 'always'),
     ('skit speed rules', 'ps2/PyTOD2/skit_speed.py', None, 1, 'always'),
     ('title credit drawing', 'ps2/menu/title_credit.py', None, 1, 'always'),
     ('title credit glyphs', 'ps2/menu/title_glyphs.py', None, 1, 'always'),
+    ('Quiz Book modules', 'ps2/menu/sfm_text.py', None, 1, 'always'),
+    ('Quiz Book text codec', 'ps2/menu/md1text.py', None, 1, 'always'),
+    ('Quiz Book text encoder', 'ps2/menu/md1patch.py', None, 1, 'always'),
     ('movie subtitles', 'psp/text/subtitles', r'\d{5}\.en\.srt$', 8, 'movies'),
     ('movie subtitle font', 'ps2/movies/fonts/Ubuntu-Bold.ttf', None, 1, 'movies'),
 ]

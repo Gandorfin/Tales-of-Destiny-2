@@ -34,6 +34,7 @@ the PS2 translation:
 | `subtitles/` | `ps2/movies/subtitles/` | movie subtitles (`--movies`) |
 | `TBL.json` | `ps2/PyTOD2/TBL.json` | text encoding table |
 | `skit_speeds.json` | `ps2/PyTOD2/skit_speeds.json` | time window of every skit line |
+| `quiz_translations.csv` | `ps2/menu/quiz_translations.csv` | Quiz Book English (`psp_quiz.py`) |
 | `overrides.tsv` | (PSP only) | PSP only fixes, they win over everything else |
 
 The copies change only when the sync runs, so an edit of the PS2 text never
@@ -350,17 +351,19 @@ Japanese:
 * `psp_quiz.tsv` (this folder) first: the 201 Japanese strings the PSP
   release rewrote or added (no PS2 row has them), plus the one PS2 line
   that does not fit its PSP slot (shortened there);
-* otherwise `ps2/menu/quiz_translations.csv`, rows of the matching PS2
-  member.
+* otherwise `psp/text/quiz_translations.csv` (the PSP copy of
+  `ps2/menu/quiz_translations.csv`, refreshed by `sync_text_from_ps2.py`
+  like the rest of `psp/text`), rows of the matching PS2 member.
 
 Writing is `sfm_text.SFM.apply`, the PS2 tool's own logic: English that
 fits the Japanese slot goes in place, longer English is appended to the
 module's data section and every reference to the old string redirected.
 A string whose references cannot be proven to be pointers ("pinned") must
 fit its slot or stays Japanese and is reported as overflow (none at the
-moment). The decoder and encoder also know the codes in `TBL_PSP.json`
-(the blank `○` of the fill in puzzles, `α`, `β`), so no string is hidden
-from the pass by an unknown code. ASCII `~` is written as the full width
+moment). The module code is the PS2 tool's, but the glyph table is the
+PSP one (`psp/text/TBL.json` plus `TBL_PSP.json`, with the blank `○` of
+the fill in puzzles, `α`, `β`), so no string is hidden from the pass by
+an unknown code. ASCII `~` is written as the full width
 `～`, because the PSP's ASCII table draws `~` as a dash.
 
 `report` prints the counts for a Japanese archive and writes every string

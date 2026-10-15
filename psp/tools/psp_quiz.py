@@ -35,23 +35,26 @@ which copy the game loads is not known, so all of them are translated:
 * 06467: a sizes pack of the modules 06367..06466.
 
 PSP module N (loose numbering) holds PS2 member N - 164 up to 06365 and
-N - 165 from 06367 on. The PSP text uses the PS2 glyph codes plus a few the
-PS2 table never listed (TBL_PSP.json), so those are added to the decoder
-before parsing: on the PS2, strings with unknown codes were invisible to
-the extractor (the "hidden strings").
+N - 165 from 06367 on. The module reader and writer are the PS2 tool's
+(ps2/menu/sfm_text.py with md1text/md1patch), but their glyph table is
+replaced by the PSP one (psp/text/TBL.json plus TBL_PSP.json, as in
+psp_text): with the codes the PS2 table never listed, no string hides from
+the pass (on the PS2, strings with unknown codes were invisible to the
+extractor, the "hidden strings").
 
 English comes from psp_quiz.tsv next to this script (the text the PSP
 release rewrote or added, plus the rare PS2 line that does not fit its PSP
 slot; matched by the exact Japanese, it wins) and otherwise from
-ps2/menu/quiz_translations.csv (rows of the matching PS2 member, matched
-by the exact Japanese). The writing is sfm_text.SFM.apply: English that
+psp/text/quiz_translations.csv, the PSP snapshot of the PS2 quiz table
+(refreshed by sync_text_from_ps2.py; rows of the matching PS2 member,
+matched by the exact Japanese). The writing is sfm_text.SFM.apply: English that
 fits the Japanese slot is written in place, longer English is appended to
 the data section and every reference redirected; strings whose references
 are not provably pointers ("pinned") must fit in place or stay Japanese
 (reported as overflow). ASCII `~` is written as the full-width `～` (the
 PSP's ASCII table draws `~` as a dash).
 """
-import csv, os, sys, json, struct, collections
+import csv, os, sys, struct, collections
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.normpath(os.path.join(HERE, '..', '..'))
@@ -64,7 +67,7 @@ import md1patch                     # noqa: E402
 import sfm_text                     # noqa: E402
 
 MEMBER_LO, MEMBER_HI = 6335, 6466
-PS2_CSV = os.path.join(ROOT, 'ps2', 'menu', 'quiz_translations.csv')
+QUIZ_CSV = os.path.join(psp_text.TEXT, 'quiz_translations.csv')
 PSP_TSV = os.path.join(HERE, 'psp_quiz.tsv')
 LONG_LINE = 40          # longest English line check (the PS2 table stays under it bar a few)
 MAX_LINES = 4           # the quiz box shows four rows (the PS2 English adds a row to
@@ -85,15 +88,12 @@ PACKS = {
     6467: lambda n: 6367 + n,
 }
 
-# The PSP glyph codes the PS2 table never listed (TBL_PSP.json): added to the
-# decoder so strings holding them are seen at all, and to the encoder for the
-# few symbols the English uses from them (the blank ○, α, β). Existing codes
-# are never changed.
-with open(os.path.join(HERE, 'TBL_PSP.json'), encoding='utf-8') as _f:
-    _PSP_CODES = json.load(_f)
-for _k, _v in _PSP_CODES.items():
-    md1text.TBL.setdefault(_k, _v)
-    md1patch.REV.setdefault(_v, int(_k))
+# The glyph table is the PSP one (psp/text/TBL.json plus TBL_PSP.json, read
+# by psp_text): the decoder sees the codes the PS2 table never listed, the
+# encoder has the few symbols the English uses from them (the blank ○, α,
+# β). md1text and md1patch keep only their own extra codes on top.
+md1text.TBL.update(psp_text.TBL)
+md1patch.REV.update({ch: struct.unpack('>H', code)[0] for ch, code in psp_text.ITBL.items()})
 
 
 def ps2_file(index):
@@ -109,10 +109,10 @@ def unesc(text):
     return text.replace('\\n', '\n')
 
 
-def load_tables(ps2_csv=PS2_CSV, psp_tsv=PSP_TSV):
+def load_tables(quiz_csv=QUIZ_CSV, psp_tsv=PSP_TSV):
     """({ps2 file: {japanese: english}}, {japanese: english})."""
     ps2 = collections.defaultdict(dict)
-    with open(ps2_csv, encoding='utf-8', newline='') as f:
+    with open(quiz_csv, encoding='utf-8', newline='') as f:
         for r in csv.DictReader(f):
             if r['english']:
                 ps2[r['file']].setdefault(r['japanese'], r['english'])

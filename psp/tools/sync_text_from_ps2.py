@@ -7,7 +7,8 @@
 The PSP build reads its text only from psp/text (and its own fixes from
 psp/text/overrides.tsv), so an edit of the PS2 text reaches the PSP when
 this tool runs, not before. Copied: the scenario and skit English, the
-movie subtitles, the text encoding table and the skit time windows. Files
+movie subtitles, the text encoding table, the skit time windows and the
+PS2 Quiz Book table (ps2/menu/quiz_translations.csv, read by psp_quiz.py). Files
 are copied byte for byte; contents are compared with line endings
 normalised, so a Windows checkout (CRLF) never counts as a change.
 
@@ -17,6 +18,8 @@ Writes nothing outside psp/text. --check exits with 1 when psp/text lags
 behind the PS2 sources, 0 when it is up to date.
 """
 import argparse
+import csv
+import io
 import os
 import re
 import shutil
@@ -36,6 +39,7 @@ PAIRS = [
     ('subtitles', 'ps2/movies/subtitles', 'subtitles', r'.*\.srt$'),
     ('encoding table', 'ps2/PyTOD2/TBL.json', 'TBL.json', None),
     ('skit time windows', 'ps2/PyTOD2/skit_speeds.json', 'skit_speeds.json', None),
+    ('quiz table', 'ps2/menu/quiz_translations.csv', 'quiz_translations.csv', None),
 ]
 
 
@@ -73,6 +77,27 @@ def changed_records(old, new):
     return sum(1 for x, y in zip(a, b) if x != y) + abs(len(a) - len(b))
 
 
+def rows(data):
+    """{(file, offset): row} of a quiz table (CSV with file and offset columns)."""
+    reader = csv.DictReader(io.StringIO(data.decode('utf-8', errors='replace')))
+    return {(r.get('file'), r.get('offset')): tuple(r.items()) for r in reader}
+
+
+def changed_rows(old, new):
+    """Quiz table rows added, removed or changed (matched by file and offset)."""
+    a, b = rows(old), rows(new)
+    return sum(1 for k in set(a) | set(b) if a.get(k) != b.get(k))
+
+
+def count(name, data, old=None):
+    """Records (TXT) or rows (CSV) of a file, or those changed against old."""
+    if name.endswith('.txt'):
+        return len(records(data)) if old is None else changed_records(old, data)
+    if name.endswith('.csv'):
+        return len(rows(data)) if old is None else changed_rows(old, data)
+    return 0
+
+
 def changed_choices(old, new):
     """Changed records that hold a choice code <03:...>. A choice record must
     keep the Japanese line and code structure exactly, or its menu can stick
@@ -104,13 +129,12 @@ def differences(root=None, text=None):
             gone = names(dst, pattern) - have
         for n, (s, d) in sorted(pairs.items()):
             if not os.path.isfile(d):
-                out.append((name, n, 'new', len(records(content(s))) if n.endswith('.txt') else 0, 0))
+                out.append((name, n, 'new', count(n, content(s)), 0))
             else:
                 old, new = content(d), content(s)
                 if old != new:
-                    txt = n.endswith('.txt')
-                    out.append((name, n, 'changed', changed_records(old, new) if txt else 0,
-                                changed_choices(old, new) if txt else 0))
+                    out.append((name, n, 'changed', count(n, new, old),
+                                changed_choices(old, new) if n.endswith('.txt') else 0))
         for n in sorted(gone):
             out.append((name, n, 'removed', 0, 0))
     return out
