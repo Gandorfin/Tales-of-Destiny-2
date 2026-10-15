@@ -26,9 +26,85 @@ checking how the engine draws Latin text. --keep leaves the work folder.
 (psp_movies.py; needs an FFmpeg with libass and libx264, or the
 imageio-ffmpeg package; --ffmpeg names the executable).
 """
-import sys, os, re, tempfile, shutil, argparse
+import sys, os, re, json, hashlib, subprocess, tempfile, shutil, argparse
 
 HERE = os.path.dirname(os.path.abspath(__file__))
+ROOT = os.path.normpath(os.path.join(HERE, '..', '..'))
+
+# What the build reads from the rest of the repository (outside psp/tools):
+# (what it is, path relative to the repository root, file pattern for a
+# folder or None for a file, minimum file count, when it is needed)
+SOURCES = [
+    ('scenario English', 'Third pass Quality-Safe Output', r'.*\.txt$', 400, 'always'),
+    ('skit English', 'third pass skits safe output', r'.*\.txt$', 600, 'always'),
+    ('text encoding table', 'ps2/PyTOD2/TBL.json', None, 1, 'always'),
+    ('skit speed rules', 'ps2/PyTOD2/skit_speed.py', None, 1, 'always'),
+    ('skit time windows', 'ps2/PyTOD2/skit_speeds.json', None, 1, 'always'),
+    ('title credit drawing', 'ps2/menu/title_credit.py', None, 1, 'always'),
+    ('title credit glyphs', 'ps2/menu/title_glyphs.py', None, 1, 'always'),
+    ('movie subtitles', 'ps2/movies/subtitles', r'\d{5}\.en\.srt$', 8, 'movies'),
+    ('movie subtitle font', 'ps2/movies/fonts/Ubuntu-Bold.ttf', None, 1, 'movies'),
+]
+
+
+def source_files(path, pattern):
+    if pattern is None:
+        return [path] if os.path.isfile(path) else []
+    if not os.path.isdir(path):
+        return []
+    return sorted(os.path.join(path, n) for n in os.listdir(path) if re.match(pattern, n))
+
+
+def fingerprint(files):
+    """Short hash of the file names and contents, line endings normalised,
+    so a Windows checkout (CRLF) and a Linux one give the same value."""
+    h = hashlib.sha256()
+    for f in files:
+        h.update(os.path.basename(f).encode('utf-8') + b'\0')
+        with open(f, 'rb') as o:
+            h.update(o.read().replace(b'\r\n', b'\n'))
+        h.update(b'\0')
+    return h.hexdigest()[:12]
+
+
+def check_sources(movies=False, report=True):
+    """Stop with the missing path when the rest of the repository is not
+    there; otherwise print what the build reads, so two builds can be
+    compared (same fingerprints = same text and timing)."""
+    missing, lines = [], []
+    for what, rel, pattern, least, when in SOURCES:
+        if when == 'movies' and not movies:
+            continue
+        path = os.path.join(ROOT, *rel.split('/'))
+        files = source_files(path, pattern)
+        if len(files) < least:
+            missing.append('%s: %s (%d file(s) found, %d needed)' % (what, path, len(files), least))
+            continue
+        lines.append('  %-21s %s  [%d file(s), fingerprint %s]' % (what, path, len(files), fingerprint(files)))
+    if not missing:
+        table = json.load(open(os.path.join(ROOT, 'ps2', 'PyTOD2', 'skit_speeds.json'), encoding='utf-8'))
+        # every timed line has [pointer, speed, Japanese glyphs, window]; the
+        # untimed opening diary 00054_02 has no window
+        if not all(len(row) > 3 for name, rows in table.items() if name != '00054_02.sced' for row in rows):
+            missing.append('skit time windows: ps2/PyTOD2/skit_speeds.json has no window column '
+                           '(older than the full length skit retranslation)')
+    if missing:
+        raise SystemExit('The PSP build reads these from the rest of the repository and they are missing or outdated:\n  '
+                         + '\n  '.join(missing)
+                         + '\nBuild from a full, up to date clone of Tales-of-Destiny-2 (git pull), '
+                           'not from a copy of psp/tools alone.')
+    if report:
+        try:
+            commit = subprocess.run(['git', '-C', ROOT, 'log', '-1', '--format=%h %cd', '--date=short'],
+                                    capture_output=True, text=True, timeout=10).stdout.strip()
+        except (OSError, subprocess.SubprocessError):
+            commit = ''
+        print('repository:', ROOT, '(commit %s)' % commit if commit else '(no git commit found)')
+        print('sources:')
+        print('\n'.join(lines))
+
+
+check_sources(report=False)
 sys.path.insert(0, HERE)
 import psp_iso, psp_text, psp_names, psp_menu, psp_lowercase, psp_fpb, psp_pool, psp_monsters, psp_title
 
@@ -45,6 +121,7 @@ def add_probes(work):
     print('probes placed in 06470')
 
 def main(iso, out_iso, probe=False, keep=None, version=None, lowercase_font=True, movies=False, ffmpeg=None):
+    check_sources(movies)
     work = keep or tempfile.mkdtemp(prefix='tod2psp_')
     os.makedirs(work, exist_ok=True)
     boot = os.path.join(work, 'BOOT.BIN')
