@@ -161,6 +161,28 @@ Compressed members: byte `04`, u32 packed length, u32 unpacked length, raw
 deflate. A raw container with four entries also starts with `04 00 00 00`;
 the tools tell them apart by the packed length matching the stored size.
 
+## psp_pool.py: menu strings longer than their slot
+
+`build_psp.py` runs it after the in place menu patch. English that is
+longer than its Japanese slot in BOOT.BIN goes into a new string pool (a
+fourth program segment appended at the end of the file), and every
+relocated reference to the Japanese string is pointed at the pool:
+
+* 32 bit data pointers (R_MIPS_32);
+* code that builds the address in a register (`lui` + `addiu`, relocated
+  as an HI16/LO16 pair). The pair is rewritten only when every `addiu`
+  sharing that `lui` builds the address of a pooled string; otherwise it
+  stays on the Japanese and the build log names it (`menu pool: lui at
+  ... left on the Japanese`).
+
+A string that directly follows other bytes instead of a NUL (for example
+名前入力 after a binary record at file 0x1C79F8) is taken only when a
+relocation points exactly at it. Tests (synthetic images, no ISO needed):
+
+```
+python -B -m unittest discover -s psp/tools -p test_psp_pool.py -v
+```
+
 ## ascii_test.py: how does the PSP draw Latin text?
 
 ```
