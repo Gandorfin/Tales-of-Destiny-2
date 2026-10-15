@@ -22,29 +22,92 @@ limits, the separate bold-menu-font limitation and retail startup handling.
 Keep this folder at `psp/tools` inside the Tales-of-Destiny-2 repository.
 Commands below run from that repository's root.
 
-### What the build needs from the rest of the repository
+### Where the PSP text lives: psp/text
 
-`build_psp.py` reads these files outside `psp/tools`. Copying or updating
-`psp/tools` alone is not enough: with an old copy of these the build puts
-the OLD skit text and the retail skit speed into the ISO.
+The PSP build reads its text only from `psp/text`, the PSP's own copy of
+the PS2 translation:
 
-* `third pass skits safe output/` (609 files): the skit English
-* `Third pass Quality-Safe Output/` (459 files): the scenario English
-* `ps2/PyTOD2/TBL.json`: the text encoding table
-* `ps2/PyTOD2/skit_speed.py` and `ps2/PyTOD2/skit_speeds.json`: the skit
-  text speed rules and the time window of every skit line
-* `ps2/menu/title_credit.py` and `ps2/menu/title_glyphs.py`: the title
-  screen patch name (`--version`)
-* `ps2/movies/subtitles/*.en.srt` and `ps2/movies/fonts/Ubuntu-Bold.ttf`:
-  only with `--movies`
-* the `.tsv`, `.ass` and `TBL_PSP.json` files in this folder
+| `psp/text/...` | copy of | what |
+|---|---|---|
+| `scenario/` | `Third pass Quality-Safe Output/` | scenario English (459 files) |
+| `skits/` | `third pass skits safe output/` | skit English (609 files) |
+| `subtitles/` | `ps2/movies/subtitles/` | movie subtitles (`--movies`) |
+| `TBL.json` | `ps2/PyTOD2/TBL.json` | text encoding table |
+| `skit_speeds.json` | `ps2/PyTOD2/skit_speeds.json` | time window of every skit line |
+| `overrides.tsv` | (PSP only) | PSP only fixes, they win over everything else |
 
-Build from a full, up to date clone. On Windows 11 (PowerShell or Command
-Prompt, inside the cloned `Tales-of-Destiny-2` folder):
+The copies change only when the sync runs, so an edit of the PS2 text never
+changes a PSP build by surprise, and the PSP build does not depend on what
+the PS2 folders look like on the build machine. Never edit the copies in
+`psp/text` by hand: the next sync overwrites them.
+
+All commands below are for Windows 11 (PowerShell or Command Prompt),
+run inside the cloned `Tales-of-Destiny-2` folder.
+
+**A text fix that both versions need** (the usual case): edit the PS2 text
+as before, in `Third pass Quality-Safe Output` or `third pass skits safe
+output` and in its PS2 build copy (`ps2/PyTOD2/...`, the audit's
+`source-drift` check makes sure both agree). Then, in the same branch:
+
+```
+python psp\tools\sync_text_from_ps2.py --check
+python psp\tools\sync_text_from_ps2.py
+python scripts\audit_translation.py
+```
+
+`--check` lists what differs (files, records changed, new and removed
+files) without copying and exits with 1 when `psp/text` lags behind; the
+second command copies exactly those files. The sync writes nothing outside
+`psp/text`. Commit `psp/text` together with the PS2 change, so one pull
+request carries both. When a changed record holds a choice code (`<03:...>`,
+a menu such as the Skit Hut selector) the sync prints a `CHECK:` line: a
+choice record must keep the Japanese line and code structure, or its menu
+can stick (PR 107), so look at that record before you commit.
+
+**A fix only the PSP needs** (the PSP Japanese differs, a PSP screen is
+narrower, a PSP only line): add a row to `psp/text/overrides.tsv`: kind
+(`scenario` or `skit`), the PSP script number as in the build's text
+folder (`--keep WORKDIR`, then `WORKDIR/text/scenario/06944.txt`) or `*`,
+the Japanese exactly as extracted (line breaks as `\n`), the English, and
+a note why. The format is at the top of the file. A row there wins over
+everything else and the sync never touches the file, so a later sync can
+never undo it. The PSP's own Skit Hut "unavailable" record (06944) is
+pinned there for that reason.
+
+**Before a PSP build or release**: `git pull`, then
+`python psp\tools\sync_text_from_ps2.py --check`. If it lists files,
+somebody changed the PS2 text without syncing: run the sync, check the
+`CHECK:` lines, commit `psp/text` in a small pull request, then build.
+
+**What the audit shows**: `python scripts\audit_translation.py` prints the
+INFO line `psp-text-lag` with the number of `psp/text` files that differ
+from their PS2 source (0 when in step). It never fails the audit; the PSP
+build simply does not have those PS2 changes yet. The build log says the
+same in its first lines.
+
+**Two branches that both synced**: `psp/text` conflicts exactly where the
+PS2 files conflict. Resolve the PS2 files, then run the sync again instead
+of resolving `psp/text` by hand.
+
+`psp_supplement.tsv` (this folder) keeps its old job: English for PSP
+Japanese that has no PS2 twin, used only when nothing else matches (it is
+partly written by `psp_recover.py`, so it is not the place for hand fixes).
+
+Priority for each record: `psp/text/overrides.tsv`, then the same line of
+the PS2 twin skit, then any PS2 record with the same Japanese, then
+`psp_supplement.tsv`; otherwise the record stays Japanese.
+
+Still read from `ps2/` (code and one binary that change only with the
+tools, so a copy would just be a second place to keep in step):
+`ps2/PyTOD2/skit_speed.py` (the skit speed rules),
+`ps2/menu/title_credit.py` and `ps2/menu/title_glyphs.py` (the title
+screen patch name) and `ps2/movies/fonts/Ubuntu-Bold.ttf` (the subtitle
+font, with its licence there, only with `--movies`). So build from a full,
+up to date clone, not from a copy of `psp` alone:
 
 ```
 git pull
-python psp/tools/build_psp.py "Tales of Destiny 2 (Japan) PSP.iso" tod2_psp_en.iso
+python psp\tools\build_psp.py "Tales of Destiny 2 (Japan) PSP.iso" tod2_psp_en.iso
 ```
 
 The build first prints the repository folder, its commit and a fingerprint
@@ -53,7 +116,8 @@ Windows and a Linux clone of the same commit print the same values). Two
 builds with the same fingerprints carry the same text and skit timing. When
 a source is missing, or `skit_speeds.json` predates the full length skit
 retranslation, the build stops before it touches the ISO and names the
-path.
+path. It also says whether `psp/text` is up to date with the PS2 folders
+(information only: the build always uses `psp/text` as it is).
 
 The source release is an overlay for that repository, not a standalone ISO
 patcher. Tests need the shared encoding table but do not need a game image.
@@ -204,8 +268,8 @@ The steps `build_psp.py` runs, for working on the text by hand. `extract`
 writes one text file per script in the same format as the PS2 files (one
 record per block, dashed separators, tags as `<Kyle>`, `<color:...>`,
 `{XX}`), plus `pointers.json` with the position of every text pointer.
-`match` looks each Japanese record up in the translated PS2 files ("Third
-pass Quality-Safe Output", "third pass skits safe output") and writes the
+`match` looks each Japanese record up in the PSP text (`psp/text/scenario`,
+`psp/text/skits`, `psp/text/overrides.tsv`) and writes the
 English versions into `WORK/scenario_en` and `WORK/skit_en`, Japanese kept
 as `#` lines; whatever it could not match is listed in `WORK/unmatched.tsv`
 (mostly developer comments and debug menus). A skit line first takes the
