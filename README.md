@@ -80,7 +80,8 @@ how v0.2.1 was built).
 
 ### Making a release (maintainers)
 
-After building the patched ISO as described below:
+After building the patched ISO as described below (including the last
+step, `fix_disc_layout.py fix`):
 
 ```
 xdelta3 -e -9 -S none -s "Tales of Destiny 2 (Japan).iso" patched.iso "[Green Gel] ToD2 patch v1.2.7 (PS2).xdelta"
@@ -150,6 +151,13 @@ Short version; the details are in `ps2/menu/README.md` ("Applying it") and
 6. A custom Latin font goes in last, on the finished ISO:
    `python ps2/menu/patch_font_iso.py patch your.iso font.png` (export,
    edit and check steps in `ps2/menu/FONT_CUSTOMIZATION.md`).
+7. Last, give the finished ISO the retail disc layout:
+   `python ps2/menu/fix_disc_layout.py fix your.iso`. The ISO writer leaves
+   the UDF side of the disc unlike retail (files marked "unspecified", the
+   partition over the closing anchor, an odd sector count), which readers
+   other than the PS2, such as a PS3, look at first. Only descriptors
+   change and up to 15 empty sectors are appended; `check` instead of
+   `fix` only reports.
 
 ## PSP port
 
