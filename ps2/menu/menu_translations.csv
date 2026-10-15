@@ -153,6 +153,7 @@ file,offset,japanese,english
 <button:00000037>Info
 <button:00000038>Cancel"
 06802.md1,0x6390,レンズ,Lens
+06802.md1,0x63A0,"A%d,B%d/%3d","A:%d B:%d/%3d"
 06802.md1,0x63C0,"実行しますか？
  
 <button:00000035>実行  <button:00000036>やめる","Proceed?
