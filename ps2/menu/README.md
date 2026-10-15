@@ -168,6 +168,11 @@ rebuilt. The full sequence, with the PyTOD2 button names:
    table immediately before the archive is assembled.
 5. Put `new_FILE.FPB` (as `FILE.FPB`) and `new_SLPS_251.72` (as
    `SLPS_251.72`) into the ISO.
+6. After any font step, finish the ISO with
+   `python ps2\menu\fix_disc_layout.py fix path\to\your.iso`: it gives the
+   rebuilt image the retail UDF layout (file types, read only partition,
+   closing anchor, whole 16-sector blocks) that a PS3 reads first. It
+   changes descriptors only; `check` reports without writing.
 
 If a screenshot still shows Japanese, check the build you are actually
 running before changing anything:
