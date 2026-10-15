@@ -179,6 +179,123 @@ def boot_table(data, archive_size):
     return table
 
 
+def validate_psp_deflate(stream, expected_size):
+    """Check DEFLATE block compatibility with the game's own decoder.
+
+    Its stored-block copy at vaddr 0x1AFFC executes before testing LEN.
+    LEN=0 therefore copies indefinitely instead of skipping the block.
+    Python/zlib accepts these legal streams, so round-trip alone is insufficient.
+    """
+    class Bits:
+        def __init__(self):
+            self.at = self.value = self.available = self.used = 0
+
+        def read(self, count):
+            while self.available < count:
+                require(self.at < len(stream), "Truncated DEFLATE block.")
+                self.value |= stream[self.at] << self.available
+                self.at += 1
+                self.available += 8
+            result = self.value & ((1 << count) - 1)
+            self.value >>= count
+            self.available -= count
+            self.used += count
+            return result
+
+    bits = Bits()
+
+    def tree(lengths):
+        counts = [lengths.count(n) for n in range(16)]
+        counts[0] = 0
+        codes, code = {}, 0
+        for size in range(1, 16):
+            code = (code + counts[size - 1]) << 1
+            require(code + counts[size] <= 1 << size, "Invalid DEFLATE Huffman tree.")
+            next_code = code
+            for symbol, length in enumerate(lengths):
+                if length == size:
+                    codes[size, next_code] = symbol
+                    next_code += 1
+        return codes
+
+    def symbol(codes):
+        code = 0
+        for size in range(1, 16):
+            code = (code << 1) | bits.read(1)
+            value = codes.get((size, code))
+            if value is not None:
+                return value
+        raise FontError("Invalid DEFLATE Huffman symbol.")
+
+    fixed_lit = tree([8] * 144 + [9] * 112 + [7] * 24 + [8] * 8)
+    fixed_dist = tree([5] * 32)
+    length_base = (3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 15, 17, 19, 23, 27,
+                   31, 35, 43, 51, 59, 67, 83, 99, 115, 131, 163, 195, 227, 258)
+    length_extra = (0,) * 8 + (1,) * 4 + (2,) * 4 + (3,) * 4 + (4,) * 4 + (5,) * 4 + (0,)
+    distance_extra = (0,) * 4 + tuple(n for n in range(1, 14) for _ in range(2))
+    distance_base = (1, 2, 3, 4, 5, 7, 9, 13, 17, 25, 33, 49, 65, 97, 129,
+                     193, 257, 385, 513, 769, 1025, 1537, 2049, 3073, 4097,
+                     6145, 8193, 12289, 16385, 24577)
+    order = (16, 17, 18, 0, 8, 7, 9, 6, 10, 5, 11, 4, 12, 3, 13, 2, 14, 1, 15)
+    produced = blocks = 0
+    while True:
+        final, kind = bits.read(1), bits.read(2)
+        blocks += 1
+        require(kind != 3, "Reserved DEFLATE block type.")
+        if kind == 0:
+            bits.read((-bits.used) % 8)
+            length, complement = bits.read(16), bits.read(16)
+            require(length ^ complement == 0xffff, "Invalid stored DEFLATE block length.")
+            require(length > 0,
+                    "PSP-incompatible empty stored DEFLATE block: the game freezes loading this font. "
+                    "Repatch a known-working ISO with the updated tool.")
+            produced += length
+            require(produced <= expected_size, "DEFLATE output exceeds the font size.")
+            for _ in range(length):
+                bits.read(8)
+        else:
+            lit, dist = fixed_lit, fixed_dist
+            if kind == 2:
+                nlit, ndist, ncode = bits.read(5) + 257, bits.read(5) + 1, bits.read(4) + 4
+                require(nlit <= 286, "Invalid DEFLATE literal count.")
+                lengths = [0] * 19
+                for index in order[:ncode]:
+                    lengths[index] = bits.read(3)
+                code_tree = tree(lengths)
+                lengths = []
+                while len(lengths) < nlit + ndist:
+                    value = symbol(code_tree)
+                    if value < 16:
+                        lengths.append(value)
+                    else:
+                        require(value != 16 or lengths, "Invalid DEFLATE repeat.")
+                        repeat = bits.read({16: 2, 17: 3, 18: 7}[value]) + {16: 3, 17: 3, 18: 11}[value]
+                        lengths.extend([lengths[-1] if value == 16 else 0] * repeat)
+                        require(len(lengths) <= nlit + ndist, "Excess DEFLATE code lengths.")
+                require(lengths[256] > 0, "Missing DEFLATE end-of-block code.")
+                lit, dist = tree(lengths[:nlit]), tree(lengths[nlit:])
+            while True:
+                value = symbol(lit)
+                if value == 256:
+                    break
+                if value < 256:
+                    produced += 1
+                else:
+                    require(257 <= value <= 285, "Invalid DEFLATE length code.")
+                    length = length_base[value - 257] + bits.read(length_extra[value - 257])
+                    distance = symbol(dist)
+                    require(distance < 30, "Invalid DEFLATE distance code.")
+                    distance = distance_base[distance] + bits.read(distance_extra[distance])
+                    require(distance <= produced, "DEFLATE distance exceeds output history.")
+                    produced += length
+                require(produced <= expected_size, "DEFLATE output exceeds the font size.")
+        if final:
+            break
+    require(produced == expected_size and (bits.used + 7) // 8 == len(stream),
+            "DEFLATE output size or trailing bytes are invalid.")
+    return blocks
+
+
 def unpack_font(blob):
     require(len(blob) >= 9, "Truncated compressed font.")
     kind, packed, unpacked = struct.unpack_from("<BII", blob)
@@ -188,6 +305,7 @@ def unpack_font(blob):
     data = decoder.decompress(blob[9:], FONT_SIZE + 1)
     require(len(data) == FONT_SIZE and decoder.eof and not decoder.unused_data
             and not decoder.unconsumed_tail, "Invalid or overlong font deflate stream.")
+    validate_psp_deflate(blob[9:], FONT_SIZE)
     return data
 
 
@@ -238,6 +356,7 @@ def font2_texture(blob):
     require(len(texture) == FONT2_TEXTURE_SIZE and decoder.eof
             and not decoder.unused_data and not decoder.unconsumed_tail,
             "Invalid or overlong font 2 deflate stream.")
+    validate_psp_deflate(blob[9:], FONT2_TEXTURE_SIZE)
     require(texture[:16] == b'TM2@' + bytes((1, 10, 1, 0)) + bytes(8),
             "Unsupported font 2 TM2@ header.")
     for i, pos in enumerate((0, 8, 0x80000, 0x80008, 16, 24,
@@ -319,28 +438,30 @@ def read_iso(path, font_id=1):
 
 
 def pack_font(data, capacity):
-    """Deflate plus legal empty blocks; keep the next archive member fixed.
+    """Deflate plus PSP-compatible fixed-Huffman blocks; keep archive positions.
 
     The archive table's remainder is only 11 bits. A much smaller font must
-    therefore keep all but its final sector allocated. Empty nonfinal stored
-    blocks pad the deflate stream itself, never trailing junk after EOF.
+    therefore keep all but its final sector allocated. Eight nonfinal empty
+    fixed-Huffman blocks occupy exactly ten bytes, keeping the original stream
+    byte-aligned. Do not use empty stored blocks or Z_SYNC_FLUSH: the game's
+    decoder cannot skip a stored block with LEN=0.
     """
     candidates = []
     for strategy in (zlib.Z_DEFAULT_STRATEGY, zlib.Z_FILTERED):
         encoder = zlib.compressobj(9, zlib.DEFLATED, -15, 9, strategy)
         normal = encoder.compress(data) + encoder.flush()
         candidates.append((normal, strategy))
-    packed, strategy = min(candidates, key=lambda item: len(item[0]))
+    packed, _strategy = min(candidates, key=lambda item: len(item[0]))
     compressed_size = 9 + len(packed)
     require(compressed_size <= capacity,
             "Edited font compresses to %d bytes; this ISO has %d bytes available. "
             "Simplify glyph detail or restore untouched cells. PNG bit depth does not "
             "change this limit. No ISO was written." % (compressed_size, capacity))
     if compressed_size < capacity - 2047:
-        encoder = zlib.compressobj(9, zlib.DEFLATED, -15, 9, strategy)
-        prefix = encoder.compress(data) + encoder.flush(zlib.Z_SYNC_FLUSH)
-        count = max(0, (capacity - 2047 - (9 + len(prefix) + 5) + 4) // 5)
-        packed = prefix + b"\0\0\0\xff\xff" * count + b"\1\0\0\xff\xff"
+        # Each block is BFINAL=0, BTYPE=01, then fixed symbol 256 (seven zeros).
+        prefix = sum(2 << (10 * i) for i in range(8)).to_bytes(10, 'little')
+        count = (capacity - 2047 - compressed_size + 9) // 10
+        packed = prefix * count + packed
     blob = struct.pack("<BII", 4, len(packed), FONT_SIZE) + packed
     require(0 <= capacity - len(blob) <= 2047, "Font cannot fit the archive remainder field.")
     require(unpack_font(blob) == data, "Compressed font round-trip failed.")

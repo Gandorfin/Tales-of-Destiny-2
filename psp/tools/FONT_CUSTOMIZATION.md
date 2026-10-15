@@ -156,10 +156,28 @@ PPSSPP or a PSP able to run unsigned images. The tool identifies the known
 retail encrypted executable by SHA-256 and rejects unknown encrypted builds.
 An unchanged font does not trigger this conversion.
 
-When a replacement compresses much smaller, the tool inserts valid empty
-DEFLATE blocks before the end of the stream so the archive's 11-bit remainder
-still describes the original sector span. These are part of a complete,
-validated deflate stream, not junk appended after its terminator.
+When a font 1 replacement compresses much smaller, the tool prefixes empty
+fixed-Huffman DEFLATE blocks so the archive's 11-bit remainder still describes
+the original sector span. These blocks are part of the complete stream and
+produce no pixels; the original compressed image follows unchanged.
+
+### Startup freeze fixed on 2026-10-13
+
+Earlier font-tool versions padded smaller font 1 streams with empty **stored**
+DEFLATE blocks (type 0, LEN=0). These are legal DEFLATE and passed Python's
+decompression checks, but this game's decoder executes the stored-block copy
+loop at least once even when LEN is zero. It then overruns instead of finishing,
+which explains a freeze at the Bandai Namco startup screen.
+
+The corrected tool uses empty **fixed-Huffman** blocks (type 1, end-of-block
+symbol only). It also parses the compressed block structure for both fonts
+and rejects any zero-length stored block before preparing a PNG or writing
+an ISO. Exact pixel round-trip and full ISO byte verification remain in place.
+
+Use the corrected tool to patch a known-working ISO again, using the same
+edited PNG. Do not reuse an ISO produced by the affected tool. A prepared PNG
+can be reused if it passes the updated check. Start PPSSPP with a fresh boot;
+a save state can retain data from an earlier image.
 
 ## Verification
 
@@ -170,13 +188,15 @@ tables, decompressed size, palette values and texture round-trip. It refuses
 overlapping extents, unsupported ISO layouts, CSO/PBP input and overwrites.
 Only after verification does it publish the new ISO and print its SHA-256.
 
-Twenty-one synthetic tests cover swizzle coordinates, exact reimport, legal
+Twenty-three synthetic tests cover swizzle coordinates, exact reimport, compatible
 deflate padding, overflow, palette reordering, alpha conversion, malformed
 input, retail startup conversion, output preservation and failure cleanup.
 Font 2 tests additionally cover linear nibble order, both PNG sizes, all four
 commands, palette preservation, compression overflow, malformed textures,
 disagreeing executable copies, unchanged retail reimport, retail startup
 conversion and successive edits to both fonts.
+Compression regression tests distinguish legal-but-incompatible empty stored
+blocks from compatible fixed-Huffman padding and ordinary nonempty blocks.
 Tests use Pillow and pycdlib; the standalone tool itself only needs Pillow:
 
 ```powershell
@@ -196,3 +216,9 @@ palettes and executable font routing were preserved.
 PPSSPP/hardware boot and visual font checks have not been performed for this
 tool. Test the resulting ISO with a fresh boot; a save state may retain the
 previous font in memory.
+
+The reported 256x4400 test font was rebuilt on 2026-10-13 against the clean
+Japanese image and a source-built English v0.2.0 image. Both outputs passed
+PSP block-compatibility, exact pixel and full ISO byte verification. The old
+padding defect was confirmed by examining the game's decompressor; emulator
+startup testing of these rebuilt images remains unconfirmed.

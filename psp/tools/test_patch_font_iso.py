@@ -85,6 +85,28 @@ class Codec(unittest.TestCase):
         self.assertTrue(decoder.eof)
         self.assertFalse(decoder.unused_data)
 
+    def test_padding_is_compatible_with_the_game_decoder(self):
+        # the game cannot skip an empty stored block, so padding must not use one
+        blob, _ = F.pack_font(bytes(F.FONT_SIZE), 299008)
+        F.validate_psp_deflate(blob[9:], F.FONT_SIZE)
+        self.assertNotIn(b"\x00\x00\xff\xff", blob[9:])
+
+    def test_empty_stored_block_is_rejected(self):
+        data = bytes(range(256)) * 64
+        encoder = zlib.compressobj(9, zlib.DEFLATED, -15)
+        synced = encoder.compress(data) + encoder.flush(zlib.Z_SYNC_FLUSH) + encoder.flush()
+        self.assertEqual(zlib.decompress(synced, -15), data)  # legal DEFLATE
+        with self.assertRaisesRegex(F.FontError, "empty stored"):
+            F.validate_psp_deflate(synced, len(data))
+
+    def test_ordinary_and_stored_blocks_pass(self):
+        rng = random.Random(7)
+        for data in (bytes(5000), rng.randbytes(3000)):  # fixed/dynamic and stored blocks
+            encoder = zlib.compressobj(9, zlib.DEFLATED, -15)
+            stream = encoder.compress(data) + encoder.flush()
+            with self.subTest(size=len(data)):
+                F.validate_psp_deflate(stream, len(data))
+
     def test_corrupt_stream_and_overflow_rejected(self):
         blob, _ = F.pack_font(bytes(F.FONT_SIZE), 8192)
         for data in (blob[:-1], blob + b"x", b"\0" + blob[1:]):
