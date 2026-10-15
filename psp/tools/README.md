@@ -174,14 +174,17 @@ Read only: it writes nothing into either image. The second argument is the
 English ISO or a `build_psp.py --keep WORK` folder (it reads `new_BOOT.BIN`
 and `new.fpb` there); a `BOOT.BIN,file.fpb` pair also works for either side.
 Both images are unpacked in lockstep (BOOT.BIN, every FILE.FPB member, down
-through deflate, SCPK and PAK levels) and every Japanese string of the
-Japanese image is followed into the English one. Strings are tied to what
+through deflate, SCPK, PAK, offsets pack, sizes pack and comptoe LZSS
+levels, each validated so plain data is not taken for a container) and
+every Japanese string of the Japanese image is followed into the English
+one; data embedded at an offset inside a leaf is covered because every
+offset of every leaf is searched. Strings are tied to what
 points at them (BOOT.BIN relocations, both data pointers and lui/addiu
 code pairs, and the SCED text operands), so it can tell "the game still
 draws this Japanese" from "the old bytes are still there but nothing reads
 them". `--members A-B` limits the FPB part to a member range (BOOT.BIN is
 always scanned), `--jobs N` sets the worker count. A full disc takes about
-9 minutes with one worker per CPU.
+10 minutes with one worker per CPU.
 
 Output files in OUTDIR:
 
@@ -192,7 +195,11 @@ Output files in OUTDIR:
   project table (and which table), and where it is still Japanese.
 * `occurrences.tsv`: one row per location (leaf path such as
   `06470/z/s2/z`, offset, status, reference sites). Paths: `z` = deflate
-  wrapper, `sN` = SCPK entry, `pN` = PAK entry.
+  wrapper, `l` = LZSS stream, `sN` = SCPK entry, `pN` = PAK entry, `oN` =
+  offsets pack entry (u32 count, then offsets; the title pack 00002),
+  `nN` = sizes pack entry (u32 count, then sizes; the Quiz Book packs
+  06333, 06334, 06366, 06467, 07310, 09272..09276 and most of
+  09347..09565).
 * `duplicates.tsv`: every text stored at two or more locations, with the
   state of every copy (translated, live, unreferenced, no reference model).
 * `leaf_duplicates.tsv`: byte identical leaves or members stored more than

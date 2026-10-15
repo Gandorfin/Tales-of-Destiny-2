@@ -11,10 +11,17 @@ How it works:
 
 1. Both images are unpacked in lockstep: BOOT.BIN, then every FILE.FPB
    member, recursively through the deflate wrapper (0x04 + raw deflate,
-   with 4..16 byte alignment padding), SCPK and every validated PAK level.
-   Each leaf gets a stable path such as 06470/z/s2/z (s = SCPK entry,
-   p = PAK entry, z = deflate). Media leaves (RIFF, VAG, MIDI, TIM2, GIM,
-   PNG) are listed in graphics.tsv instead of being read as text.
+   with 4..16 byte alignment padding), SCPK, every validated PAK level,
+   offsets packs (u32 n, n offsets, deflate children: the title pack
+   00002), sizes packs (u32 n, n sizes, children back to back: the Quiz
+   Book packs 06333, 06334, 06366, 06467, also 07310, 09272..09276 and most
+   of 09347..09565) and comptoe LZSS v1/v3 streams (202 members, 08331
+   onward). Each leaf gets a stable path such as 06470/z/s2/z (s = SCPK
+   entry, p = PAK entry, o = offsets pack entry, n = sizes pack entry,
+   z = deflate, l = LZSS). Media leaves (RIFF, VAG, MIDI, TIM2, GIM, PNG)
+   are listed in graphics.tsv instead of being read as text. Data embedded
+   at an offset inside a leaf (map chunks, models, SFM modules) needs no
+   unpacking: the string search below reads every offset of every leaf.
 2. Every other retail leaf is searched for NUL terminated strings in three
    encodings: the game's glyph table (TBL.json + TBL_PSP.json, with the
    inline control codes), Shift JIS (kana required) and UTF-8.
@@ -50,7 +57,7 @@ Other outputs: summary.md (duplicates section first), groups.tsv (one row
 per text), occurrences.tsv (one row per location), graphics.tsv. Reference
 kinds in ref_sites: f8 = SCED text operand, ptr0/ptr1 = R_MIPS_32 word
 relative to segment 0/1, code0/code1 = HI16/LO16 address pair. Only
-reading; nothing is written into either image. A full disc takes about 9
+reading; nothing is written into either image. A full disc takes about 10
 minutes with one worker per CPU (--jobs).
 """
 import sys, os, re, io, csv, json, struct, zlib, bisect, hashlib, argparse, collections, contextlib, multiprocessing
@@ -60,6 +67,8 @@ sys.path.insert(0, HERE)
 with contextlib.redirect_stdout(io.StringIO()):
     import psp_fpb, psp_iso, psp_sced, psp_text
 ROOT = psp_text.ROOT
+sys.path.insert(0, os.path.join(ROOT, 'ps2', 'menu'))
+import lzss     # noqa: E402  comptoe LZSS codec shared with the PS2 tools
 TBL = psp_text.TBL
 
 # ----------------------------------------------------------------- images
@@ -159,18 +168,86 @@ def scpk(d):
     return out
 
 
+def _packed(k):
+    """True for a deflate wrapper or a comptoe LZSS header that fits k."""
+    if inflate(k) is not None:
+        return True
+    if k[:1] in (b'\x01', b'\x03') and len(k) > 9:
+        inl = struct.unpack_from('<I', k, 1)[0]
+        return 9 + inl <= len(k) <= 25 + inl
+    return False
+
+
+def offpack(d):
+    """Offsets pack: u32 n, n u32 child offsets (the first right after the
+    table, ascending), children up to the next offset. Accepted only when a
+    child is deflate wrapped (the title pack 00002)."""
+    if len(d) < 12:
+        return None
+    n = struct.unpack_from('<I', d, 0)[0]
+    if not 1 <= n <= 1024 or 4 + 4 * n > len(d):
+        return None
+    offs = list(struct.unpack_from('<%dI' % n, d, 4))
+    if not 4 + 4 * n <= offs[0] <= 4 + 4 * n + 16:
+        return None
+    offs.append(len(d))
+    if any(offs[i] > offs[i + 1] for i in range(n)):
+        return None
+    kids = [d[offs[i]:offs[i + 1]] for i in range(n)]
+    return kids if any(inflate(k) is not None for k in kids) else None
+
+
+def sizepack(d):
+    """Sizes pack: u32 n, n u32 child sizes, children back to back (up to 16
+    bytes of padding at the end). Accepted only when a child is compressed."""
+    if len(d) < 12:
+        return None
+    n = struct.unpack_from('<I', d, 0)[0]
+    if not 1 <= n <= 1024 or 4 + 4 * n > len(d):
+        return None
+    sizes = struct.unpack_from('<%dI' % n, d, 4)
+    total = 4 + 4 * n + sum(sizes)
+    if not total <= len(d) <= total + 16:
+        return None
+    kids, p = [], 4 + 4 * n
+    for size in sizes:
+        kids.append(d[p:p + size])
+        p += size
+    return kids if any(_packed(k) for k in kids) else None
+
+
+def unlzss(d):
+    """Decoded comptoe LZSS v1/v3 stream (9 byte header), or None. The header
+    lengths must fit the leaf and the decoder must produce exactly the
+    stated length."""
+    if len(d) > 9 and d[0] in (1, 3):
+        inl, outl = struct.unpack_from('<II', d, 1)
+        if inl > 8 and 9 + inl <= len(d) <= 9 + inl + 16 and 16 <= outl <= 16 << 20:
+            try:
+                out = lzss.decode(d[9:9 + inl], d[0], outl)
+            except Exception:
+                return None
+            if len(out) == outl:
+                return out
+    return None
+
+
 def leaves(d, path):
     """Yield (path, bytes) for every leaf below one member."""
     x = inflate(d)
     if x is not None:
         yield from leaves(x, path + '/z')
         return
-    for tag, fn in (('s', scpk), ('p', pak)):
+    for tag, fn in (('s', scpk), ('p', pak), ('o', offpack), ('n', sizepack)):
         m = fn(d)
         if m:
             for i, c in enumerate(m):
                 yield from leaves(c, '%s/%s%d' % (path, tag, i))
             return
+    x = unlzss(d)
+    if x is not None:
+        yield from leaves(x, path + '/l')
+        return
     yield path, d
 
 
@@ -426,10 +503,10 @@ def member_role(index, paths, kinds):
         return 'font'
     if any('/s' in p for p in paths):
         return 'scenario'           # SCPK: one map or event (script + resources)
+    if index in BATTLE_MEMBERS:
+        return 'battle'             # 09225..09276 also hold map scripts in sizes packs
     if 'sced' in kinds:
         return 'skit'               # PAK holding a skit script and its pictures
-    if index in BATTLE_MEMBERS:
-        return 'battle'
     return 'other'
 
 
@@ -877,7 +954,8 @@ def write_summary(rows, occs, graphics, outdir, rlabel, plabel, dups):
                 lines.append('* `%s` -> %s  (%s; still JP at %s)' % (
                     r['japanese'][:60], (r['english_in_build'] or r['known_translation'])[:60] or '?',
                     r['areas'], r['still_jp_at'][:120]))
-    open(os.path.join(outdir, 'summary.md'), 'w', encoding='utf-8').write('\n'.join(lines) + '\n')
+    with open(os.path.join(outdir, 'summary.md'), 'w', encoding='utf-8') as f:
+        f.write('\n'.join(lines) + '\n')
 
 
 def main(argv=None):

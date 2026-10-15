@@ -52,6 +52,33 @@ class ContainerTests(unittest.TestCase):
         self.assertEqual(sorted(paths), ['00001/z/p0', '00001/z/p1/z'])
         self.assertTrue(paths['00001/z/p1/z'].startswith(b'LEAF'))
 
+    def test_sizes_pack_with_lzss_child(self):
+        text = b'LEAF' + enc(WORD) + b'\0' + b'padding text ' * 4
+        kids = [js.lzss.pack(text, 3), b'RAW1' * 5]
+        blob = struct.pack('<I', len(kids)) + b''.join(struct.pack('<I', len(k)) for k in kids) + b''.join(kids)
+        paths = dict(js.leaves(blob, '06333'))
+        self.assertEqual(sorted(paths), ['06333/n0/l', '06333/n1'])
+        self.assertEqual(paths['06333/n0/l'], text)
+
+    def test_offsets_pack_with_deflate_child(self):
+        kids = [pt.deflate(b'LEAF' + enc(WORD) + b'\0'), b'RAW1' * 4]
+        head = 4 + 4 * len(kids)
+        blob = struct.pack('<III', 2, head, head + len(kids[0])) + b''.join(kids)
+        paths = dict(js.leaves(blob, '00002'))
+        self.assertEqual(sorted(paths), ['00002/o0/z', '00002/o1'])
+
+    def test_lzss_stream_alone(self):
+        text = b'SFM_' + enc(OTHER) * 6 + b'\0'
+        self.assertEqual(dict(js.leaves(js.lzss.pack(text, 1), 'x')), {'x/l': text})
+
+    def test_plain_tables_are_not_packs(self):
+        # a size table whose children are all uncompressed is plain data
+        blob = struct.pack('<III', 2, 8, 8) + b'A' * 16
+        self.assertEqual(list(js.leaves(blob, 'x')), [('x', blob)])
+        # a fake LZSS header whose lengths do not fit the leaf
+        fake = b'\x03' + struct.pack('<II', 500, 1000) + b'\x00' * 40
+        self.assertEqual(list(js.leaves(fake, 'y')), [('y', fake)])
+
 
 class ReferenceTests(unittest.TestCase):
     def compare(self, retail, patched):
