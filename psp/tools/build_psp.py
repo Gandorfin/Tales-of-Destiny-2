@@ -106,7 +106,7 @@ def check_sources(movies=False, report=True):
 
 check_sources(report=False)
 sys.path.insert(0, HERE)
-import psp_iso, psp_text, psp_names, psp_menu, psp_lowercase, psp_fpb, psp_pool, psp_monsters, psp_title
+import psp_iso, psp_text, psp_names, psp_menu, psp_lowercase, psp_fpb, psp_pool, psp_monsters, psp_title, psp_quiz
 
 def add_probes(work):
     p = os.path.join(work, 'scenario_en', '06470.txt')
@@ -161,6 +161,8 @@ def main(iso, out_iso, probe=False, keep=None, version=None, lowercase_font=True
     _mons, _monst = psp_monsters.build_changed_members(boot, fpb)
     print('monster book:', dict(_monst))
     _extra.update(_mons)
+    _quiz, _ = psp_quiz.build_changed_members(boot, fpb)
+    _extra.update(_quiz)
     if version:
         _extra[psp_title.PAK_INDEX] = psp_title.build_member(boot, fpb, psp_title.label_for(version))[0]
     else:
@@ -168,6 +170,11 @@ def main(iso, out_iso, probe=False, keep=None, version=None, lowercase_font=True
     psp_text.build(boot, fpb, text, new_fpb, new_boot, extra=_extra)
     if not psp_text.verify(new_boot, new_fpb, text):
         raise SystemExit('verification failed, image not written')
+    _qrefs, _qbad = psp_quiz.verify(boot, fpb, new_boot, new_fpb)
+    print('quiz book verify: %d references checked, %d problems' % (_qrefs, len(_qbad)))
+    if _qbad:
+        print('\n'.join(_qbad[:20]))
+        raise SystemExit('quiz book verification failed, image not written')
     replaced = [
         ('/PSP_GAME/USRDIR/file.fpb', new_fpb),
         ('/PSP_GAME/SYSDIR/BOOT.BIN', new_boot),

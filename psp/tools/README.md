@@ -255,3 +255,60 @@ scene in the game.
 They were derived from the PSP font's glyph list (archive member 00001,
 Shift-JIS code per glyph) and the game's own decoder, and agree with all
 1,782 existing entries; they apply to the PS2 as well.
+
+## psp_quiz.py: the Quiz Book
+
+```
+python psp/tools/psp_quiz.py report BOOT.BIN file.fpb quiz.tsv
+python psp/tools/psp_quiz.py verify BOOT.BIN file.fpb new_BOOT.BIN new.fpb
+python psp/tools/psp_quiz.py check
+```
+
+`build_psp.py` runs this pass and its check on its own; the commands are
+for looking at it by hand. Every quiz is one `SFM_` script module, the same
+format as the PS2 members 06171..06301 that `ps2/menu/sfm_text.py`
+translates (see the PS2 menu README, "Quiz Book"); the PSP modules are
+deflate wrapped instead of LZSS packed. The disc holds every module five
+times, and which copy the game loads is not known, so all are translated:
+
+* the loose members 06335..06466 (06366 is not a module);
+* 06333: a sizes pack (u32 count, u32 sizes, children back to back) with
+  the three quiz pictures and all 131 modules, identical to the loose ones;
+* 06334: the same pack built from the debug variant of the modules (longer
+  bytecode, and developer sample quizzes in the slots that are empty stubs
+  elsewhere; those 165 sample strings have no English and stay Japanese);
+* 06366 (modules 06335..06365) and 06467 (modules 06367..06466).
+
+PSP module N holds PS2 member N - 164 up to 06365 and N - 165 from 06367
+on. Where the English comes from, per string, matched by the exact
+Japanese:
+
+* `psp_quiz.tsv` (this folder) first: the 201 Japanese strings the PSP
+  release rewrote or added (no PS2 row has them), plus the one PS2 line
+  that does not fit its PSP slot (shortened there);
+* otherwise `ps2/menu/quiz_translations.csv`, rows of the matching PS2
+  member.
+
+Writing is `sfm_text.SFM.apply`, the PS2 tool's own logic: English that
+fits the Japanese slot goes in place, longer English is appended to the
+module's data section and every reference to the old string redirected.
+A string whose references cannot be proven to be pointers ("pinned") must
+fit its slot or stays Japanese and is reported as overflow (none at the
+moment). The decoder and encoder also know the codes in `TBL_PSP.json`
+(the blank `○` of the fill in puzzles, `α`, `β`), so no string is hidden
+from the pass by an unknown code. ASCII `~` is written as the full width
+`～`, because the PSP's ASCII table draws `~` as a dash.
+
+`report` prints the counts for a Japanese archive and writes every string
+of every copy with its source (`ps2`, `psp` or `none`) to the tsv.
+`verify` compares a built archive with the Japanese one: every reference
+to a translated string must lead to its English, the bytecode must be
+unchanged apart from those references and the pack pictures untouched.
+`check` encodes every English line of both tables and flags lines of the
+PSP table over 40 characters or over four rows.
+
+Tests (synthetic modules, no ISO needed):
+
+```
+python -B -m unittest discover -s psp/tools -p test_psp_quiz.py -v
+```

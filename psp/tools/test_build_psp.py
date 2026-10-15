@@ -84,6 +84,10 @@ class BuildFontChoiceTests(unittest.TestCase):
             mock(f'{builder.__name__}.psp_fpb.read_member', return_value=(font, 'compressed'))
             monsters = mock(f'{builder.__name__}.psp_monsters.build_changed_members',
                             return_value=({8331: b'English monster names'}, {}))
+            if hasattr(builder, 'psp_quiz'):
+                mock(f'{builder.__name__}.psp_quiz.build_changed_members',
+                     return_value=({6348: b'English quiz'}, {'overflow': 0}))
+                mock(f'{builder.__name__}.psp_quiz.verify', return_value=(1, []))
             mock(f'{builder.__name__}.psp_text.build', side_effect=build)
             mock(f'{builder.__name__}.psp_text.verify', return_value=verify)
             replace = mock(f'{builder.__name__}.psp_iso.replace')
