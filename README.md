@@ -104,6 +104,7 @@ only the changed sectors end up in the diff.
 | `glossary.txt`, `character_voice_guide.txt` | terminology (locked terms) and how each character speaks |
 | `Dialogue and Script Layout Restrictions.md` | the text box limits every line must respect |
 | `psp/tools/` | PSP archive and ISO tools and the rendering test build (`README.md` there) |
+| `audio/` | index of every voice, music and sound file on both discs, PS2/PSP voice pairs, WAV export for transcription (`README.md` there) |
 | `psp/` (rest) | older PSP extractors and Japanese scenario dumps |
 | `docs/` | the website (GitHub Pages) and the hex/Japanese converter tools |
 | `dictionary/`, `tm2_converter/`, `pakcomposer/` | helper data and tools |
