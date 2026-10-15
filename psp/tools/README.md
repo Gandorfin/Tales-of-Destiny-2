@@ -38,33 +38,63 @@ the PS2 translation:
 
 The copies change only when the sync runs, so an edit of the PS2 text never
 changes a PSP build by surprise, and the PSP build does not depend on what
-the PS2 folders look like on the build machine. Rules:
+the PS2 folders look like on the build machine. Never edit the copies in
+`psp/text` by hand: the next sync overwrites them.
 
-* Edit the text in the PS2 folders (as before, both PS2 copies), then copy
-  it over and commit `psp/text` in the same pull request. On Windows 11
-  (PowerShell or Command Prompt, inside the cloned `Tales-of-Destiny-2`
-  folder):
+All commands below are for Windows 11 (PowerShell or Command Prompt),
+run inside the cloned `Tales-of-Destiny-2` folder.
 
-  ```
-  python psp\tools\sync_text_from_ps2.py --check
-  python psp\tools\sync_text_from_ps2.py
-  ```
+**A text fix that both versions need** (the usual case): edit the PS2 text
+as before, in `Third pass Quality-Safe Output` or `third pass skits safe
+output` and in its PS2 build copy (`ps2/PyTOD2/...`, the audit's
+`source-drift` check makes sure both agree). Then, in the same branch:
 
-  `--check` only lists what differs (files and records changed, new,
-  removed) and exits with 1 when `psp/text` lags behind; without it the
-  tool copies those files. It writes nothing outside `psp/text`. The audit
-  (`scripts/audit_translation.py`) shows the lag as the INFO line
-  `psp-text-lag`, and the build prints it too.
-* Never edit the copies in `psp/text` by hand: the next sync overwrites
-  them. A line that must read differently on the PSP goes into
-  `psp/text/overrides.tsv` (kind, PSP script number or `*`, the Japanese as
-  the build extracts it, the English, a note; the format is described at
-  the top of the file). The sync never touches that file.
-* `psp_supplement.tsv` (this folder) stays what it was: English for PSP
-  Japanese that has no PS2 twin, used only when nothing else matches.
+```
+python psp\tools\sync_text_from_ps2.py --check
+python psp\tools\sync_text_from_ps2.py
+python scripts\audit_translation.py
+```
 
-Priority for each record: `overrides.tsv`, then the same line of the PS2
-twin skit, then any PS2 record with the same Japanese, then
+`--check` lists what differs (files, records changed, new and removed
+files) without copying and exits with 1 when `psp/text` lags behind; the
+second command copies exactly those files. The sync writes nothing outside
+`psp/text`. Commit `psp/text` together with the PS2 change, so one pull
+request carries both. When a changed record holds a choice code (`<03:...>`,
+a menu such as the Skit Hut selector) the sync prints a `CHECK:` line: a
+choice record must keep the Japanese line and code structure, or its menu
+can stick (PR 107), so look at that record before you commit.
+
+**A fix only the PSP needs** (the PSP Japanese differs, a PSP screen is
+narrower, a PSP only line): add a row to `psp/text/overrides.tsv`: kind
+(`scenario` or `skit`), the PSP script number as in the build's text
+folder (`--keep WORKDIR`, then `WORKDIR/text/scenario/06944.txt`) or `*`,
+the Japanese exactly as extracted (line breaks as `\n`), the English, and
+a note why. The format is at the top of the file. A row there wins over
+everything else and the sync never touches the file, so a later sync can
+never undo it. The PSP's own Skit Hut "unavailable" record (06944) is
+pinned there for that reason.
+
+**Before a PSP build or release**: `git pull`, then
+`python psp\tools\sync_text_from_ps2.py --check`. If it lists files,
+somebody changed the PS2 text without syncing: run the sync, check the
+`CHECK:` lines, commit `psp/text` in a small pull request, then build.
+
+**What the audit shows**: `python scripts\audit_translation.py` prints the
+INFO line `psp-text-lag` with the number of `psp/text` files that differ
+from their PS2 source (0 when in step). It never fails the audit; the PSP
+build simply does not have those PS2 changes yet. The build log says the
+same in its first lines.
+
+**Two branches that both synced**: `psp/text` conflicts exactly where the
+PS2 files conflict. Resolve the PS2 files, then run the sync again instead
+of resolving `psp/text` by hand.
+
+`psp_supplement.tsv` (this folder) keeps its old job: English for PSP
+Japanese that has no PS2 twin, used only when nothing else matches (it is
+partly written by `psp_recover.py`, so it is not the place for hand fixes).
+
+Priority for each record: `psp/text/overrides.tsv`, then the same line of
+the PS2 twin skit, then any PS2 record with the same Japanese, then
 `psp_supplement.tsv`; otherwise the record stays Japanese.
 
 Still read from `ps2/` (code and one binary that change only with the

@@ -6,7 +6,9 @@
   subtitles, TBL.json, skit_speeds.json), a copy of the PS2 sources that
   `sync_text_from_ps2.py` refreshes on request (`--check` only reports).
 * `psp/text/overrides.tsv` holds PSP only fixes; they win over the synced
-  text and the sync never touches them.
+  text and the sync never touches them. The PSP Skit Hut "unavailable"
+  choice record (06944) moved there from `psp_supplement.tsv`.
+* The sync prints a `CHECK:` line for every changed choice record (`<03:`).
 * `build_psp.py` lists `psp/text` and the four files still read from `ps2/`
   (skit_speed.py, title_credit.py, title_glyphs.py, Ubuntu-Bold.ttf) and
   says when `psp/text` lags behind; the audit reports it as `psp-text-lag`.

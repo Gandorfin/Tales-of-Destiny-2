@@ -450,17 +450,26 @@ def load_overrides(path=OVERRIDES):
     (06470, 01433) or * for every script. Lines starting with # are notes.
     Returns {(kind, file): {japanese key: english lines}}."""
     out = collections.defaultdict(dict)
-    if os.path.exists(path):
-        for n, line in enumerate(open(path, encoding='utf-8'), 1):
+    if not os.path.exists(path):
+        return out
+    with open(path, encoding='utf-8') as f:
+        for n, line in enumerate(f, 1):
             line = line.rstrip('\r\n')
             if not line.strip() or line.startswith('#'):
                 continue
             p = line.split('\t')
-            if len(p) < 4 or p[0] not in ('scenario', 'skit'):
-                raise ValueError('%s line %d: need kind, file, japanese, english' % (path, n))
+            if len(p) < 4 or p[0] not in ('scenario', 'skit') or not p[1] or not p[2]:
+                raise ValueError('%s line %d: need kind (scenario or skit), file, japanese, english'
+                                 % (path, n))
             key = norm_key(p[2].replace('\\n', '\n').split('\n'))
             out[(p[0], p[1])][key] = p[3].split('\\n')
     return out
+
+
+def override_english(fixes, kind, name, key):
+    """English from overrides.tsv: a row for this script first, then a * row."""
+    hit = fixes.get((kind, name), {}).get(key)
+    return hit if hit is not None else fixes.get((kind, '*'), {}).get(key)
 
 
 def load_ps2_skit_twins(textroot=TEXT):
@@ -505,7 +514,7 @@ def match(work, textroot=TEXT, overrides=OVERRIDES):
         out = []
         for index, lines in enumerate(records):
             key = norm_key(lines)
-            hit = fixes.get((kind, name), {}).get(key) or fixes.get((kind, '*'), {}).get(key)
+            hit = override_english(fixes, kind, name, key)
             if hit is not None:
                 tot['overrides'] += 1
             elif kind == 'skit':

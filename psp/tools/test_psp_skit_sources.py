@@ -1,9 +1,11 @@
 """The PSP text: skit lines from the PS2 twin, PSP overrides that always
 win, the sync from the PS2 folders, and the build's source check."""
+import collections
 import contextlib
 import io
 import json
 import os
+import shutil
 import tempfile
 import unittest
 from unittest.mock import patch
@@ -65,7 +67,8 @@ class MatchTests(unittest.TestCase):
         got = self.run_match(
             {'00215': ['ただいま！', 'うん。'], '00217': ['うん。']},
             dict(skits, **{'00058_02.sced.txt': [('うん。', 'Yeah.')]}),
-            '# note\nskit\t00215\tただいま！\tBack home!\tPSP wording\n'
+            '# note\nskit\t*\tただいま！\tHello!\teverywhere\n'
+            'skit\t00215\tただいま！\tBack home!\tthis skit only, wins over *\n'
             'skit\t*\tうん。\tMm-hm.\teverywhere\n')
         self.assertEqual(got['00215'], [['Back home!'], ['Mm-hm.']])
         self.assertEqual(got['00217'], [['Mm-hm.']])
@@ -104,7 +107,7 @@ class SyncTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmp:
             self.make_repo(tmp)
             first = sync.differences(tmp)
-            self.assertEqual({(n, s) for _, n, s, _ in first},
+            self.assertEqual({(n, s) for _, n, s, _, _ in first},
                              {('06470_10.sced.txt', 'new'), ('00056_02.sced.txt', 'new'), ('00001.en.srt', 'new'),
                               ('TBL.json', 'new'), ('skit_speeds.json', 'new')})
             before = self.snapshot(tmp)
@@ -116,7 +119,7 @@ class SyncTests(unittest.TestCase):
             write(os.path.join(tmp, 'third pass skits safe output', '00056_02.sced.txt'),
                   txt([('い', 'I'), ('う', 'You')]))
             os.remove(os.path.join(tmp, 'Third pass Quality-Safe Output', '06470_10.sced.txt'))
-            self.assertEqual(sorted((n, s, r) for _, n, s, r in sync.differences(tmp)),
+            self.assertEqual(sorted((n, s, r) for _, n, s, r, _ in sync.differences(tmp)),
                              [('00056_02.sced.txt', 'changed', 1), ('06470_10.sced.txt', 'removed', 0)])
 
     def test_line_endings_are_not_a_change(self):
@@ -136,6 +139,55 @@ class SyncTests(unittest.TestCase):
                 self.assertFalse(os.path.exists(os.path.join(tmp, 'psp')))
                 self.assertEqual(sync.main([]), 0)
                 self.assertEqual(sync.main(['--check']), 0)
+
+
+    def test_changed_choice_record_is_named(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            self.make_repo(tmp)
+            menu = os.path.join(tmp, 'Third pass Quality-Safe Output', '06781_14.sced.txt')
+            write(menu, txt([('<03:00000000>はい', '<03:00000000>Yes'), ('ただいま', 'Back')]))
+            sync.apply(sync.differences(tmp), tmp)
+            write(menu, txt([('<03:00000000>はい', '<03:00000000>Yes\nextra line'), ('ただいま', 'Home')]))
+            diffs = sync.differences(tmp)
+            self.assertEqual([d[1:] for d in diffs], [('06781_14.sced.txt', 'changed', 2, 1)])
+            with contextlib.redirect_stdout(io.StringIO()) as out:
+                sync.report(diffs)
+            self.assertIn('CHECK: scenario 06781_14.sced.txt changes 1 choice record', out.getvalue())
+
+    def test_sync_never_touches_the_overrides(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            self.make_repo(tmp)
+            overrides = os.path.join(tmp, 'psp', 'text', 'overrides.tsv')
+            write(overrides, 'skit\t00215\tただいま！\tBack home!\tPSP wording\n')
+            # even a PS2 file with the same name next to the sources is not copied over it
+            write(os.path.join(tmp, 'third pass skits safe output', 'overrides.tsv'), 'x')
+            sync.apply(sync.differences(tmp), tmp)
+            self.assertEqual(open(overrides, encoding='utf-8').read(),
+                             'skit\t00215\tただいま！\tBack home!\tPSP wording\n')
+            self.assertEqual(sync.differences(tmp), [])
+
+
+class AuditLagTests(unittest.TestCase):
+    def test_audit_reports_the_lag_as_info(self):
+        import importlib.util
+        tools = os.path.dirname(os.path.abspath(sync.__file__))
+        spec = importlib.util.spec_from_file_location(
+            'audit_translation', os.path.join(tools, '..', '..', 'scripts', 'audit_translation.py'))
+        audit = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(audit)
+        self.assertIn('psp-text-lag', audit.INFO)
+        self.assertNotIn('psp-text-lag', audit.CRITICAL)
+        with tempfile.TemporaryDirectory() as tmp:
+            SyncTests.make_repo(None, tmp)
+            os.makedirs(os.path.join(tmp, 'psp', 'tools'))
+            shutil.copyfile(sync.__file__, os.path.join(tmp, 'psp', 'tools', 'sync_text_from_ps2.py'))
+            findings = collections.defaultdict(list)
+            audit.check_psp_text_lag(tmp, findings)
+            self.assertEqual(len(findings['psp-text-lag']), 5)  # nothing synced yet
+            sync.apply(sync.differences(tmp), tmp)
+            findings = collections.defaultdict(list)
+            audit.check_psp_text_lag(tmp, findings)
+            self.assertEqual(findings['psp-text-lag'], [])
 
 
 class SourceCheckTests(unittest.TestCase):
@@ -158,6 +210,10 @@ class SourceCheckTests(unittest.TestCase):
         for what, rel, pattern, least, when in build_psp.SOURCES:
             if rel.endswith(('.txt', '.tsv', '.json', '.srt')) or pattern:
                 self.assertTrue(rel.startswith('psp/'), rel)
+        import psp_movies
+        text = os.path.join(build_psp.ROOT, 'psp', 'text')
+        for path in (psp_text.TEXT, psp_text.OVERRIDES, psp_text.SKIT_SPEEDS, psp_movies.SUBTITLES):
+            self.assertTrue(os.path.normpath(path).startswith(text), path)
 
     def test_old_speed_table_is_refused(self):
         with tempfile.TemporaryDirectory() as tmp, patch.object(build_psp, 'ROOT', tmp):

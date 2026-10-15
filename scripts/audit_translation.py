@@ -216,9 +216,10 @@ def check_psp_text_lag(root, findings):
         lag = module.differences(os.path.abspath(root))
     except FileNotFoundError:
         return
-    for name, file, state, records in lag:
+    for name, file, state, records, choices in lag:
         findings['psp-text-lag'].append(
-            {'folder': name, 'file': file, 'problem': state, 'records': records})
+            {'folder': name, 'file': file, 'problem': state, 'records': records,
+             'choice_records': choices})
 
 
 def run_audit(root):
@@ -300,6 +301,9 @@ def main():
     print('Info findings:')
     for k in INFO:
         print(f'  {k:22s} {result["info"][k]}')
+    if result['info']['psp-text-lag']:
+        print('  psp/text lags behind the PS2 text; the list: '
+              'python psp/tools/sync_text_from_ps2.py --check')
 
     shown = 0
     for k in CRITICAL:

@@ -2,8 +2,8 @@
 
 The PSP movies are the PS2 movies re-encoded for the PSP (frame for frame,
 same timing), so the PS2 subtitle tracks (ps2/movies/subtitles, copied to
-psp/text/subtitles by sync_text_from_ps2.py) apply unchanged: PSP movie N plays PS2 movie N - 1, and PSP 012 is a second copy
-of PSP 008. For every subtitled movie this script decodes the PSP video,
+psp/text/subtitles by sync_text_from_ps2.py) apply unchanged: PSP movie N
+plays PS2 movie N - 1, and PSP 012 is a second copy of PSP 008. For every subtitled movie this script decodes the PSP video,
 burns the subtitles (libass, the pinned Ubuntu Bold), encodes H.264 with the
 original's settings (Main profile, level 2.1, one reference frame, no B
 frames, HRD timing, key frames at exactly the original key frames) and puts

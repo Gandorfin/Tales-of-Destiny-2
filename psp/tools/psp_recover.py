@@ -32,8 +32,8 @@ FIXED_TEMPLATES = [
 TITLE_RX = None  # set in recover()
 
 
-def recover(work, ps2root=TEXT):
-    corpus = psp_text.load_ps2_corpus(ps2root)
+def recover(work, textroot=TEXT):
+    corpus = psp_text.load_ps2_corpus(textroot)
     corpus = {k: {psp_text.norm_key(jp.split('\n')): en for jp, en in v.items()} for k, v in corpus.items()}
     keys = {k: list(v) for k, v in corpus.items()}
     idx = {k: collections.defaultdict(list) for k in keys}

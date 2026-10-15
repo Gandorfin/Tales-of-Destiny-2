@@ -26,6 +26,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.normpath(os.path.join(HERE, '..', '..'))
 TEXT = os.path.join(ROOT, 'psp', 'text')
 DIVIDER = '-----------------------'
+CHOICE = '<03:'  # a choice record (menu), see changed_choices
 
 # (name, PS2 source relative to the repository, copy relative to psp/text,
 #  file pattern for a folder or None for a single file)
@@ -56,7 +57,7 @@ def content(path):
 def records(data):
     """Records of a TXT file (blocks between dashed lines)."""
     out, cur = [], []
-    for line in data.decode('utf-8').split('\n'):
+    for line in data.decode('utf-8', errors='replace').split('\n'):
         if DIVIDER in line:
             out.append('\n'.join(cur))
             cur = []
@@ -66,14 +67,25 @@ def records(data):
 
 
 def changed_records(old, new):
+    """Records that differ position by position (a record added or removed
+    in the middle counts every record after it)."""
     a, b = records(old), records(new)
     return sum(1 for x, y in zip(a, b) if x != y) + abs(len(a) - len(b))
 
 
+def changed_choices(old, new):
+    """Changed records that hold a choice code <03:...>. A choice record must
+    keep the Japanese line and code structure exactly, or its menu can stick
+    (the Skit Hut, PR 107), so the sync names them for a second look."""
+    a, b = records(old), records(new)
+    return sum(1 for x, y in zip(a, b) if x != y and CHOICE in x + y)
+
+
 def differences(root=None, text=None):
-    """[(pair name, file name, state, records changed)] where state is
-    'changed', 'new' (only in the PS2 source) or 'removed' (only in psp/text).
-    Raises FileNotFoundError when a PS2 source is missing."""
+    """[(pair name, file name, state, records changed, choice records
+    changed)] where state is 'changed', 'new' (only in the PS2 source) or
+    'removed' (only in psp/text). Raises FileNotFoundError when a PS2 source
+    is missing."""
     root = root or ROOT
     text = text or os.path.join(root, 'psp', 'text')
     out = []
@@ -92,13 +104,15 @@ def differences(root=None, text=None):
             gone = names(dst, pattern) - have
         for n, (s, d) in sorted(pairs.items()):
             if not os.path.isfile(d):
-                out.append((name, n, 'new', len(records(content(s))) if n.endswith('.txt') else 0))
+                out.append((name, n, 'new', len(records(content(s))) if n.endswith('.txt') else 0, 0))
             else:
                 old, new = content(d), content(s)
                 if old != new:
-                    out.append((name, n, 'changed', changed_records(old, new) if n.endswith('.txt') else 0))
+                    txt = n.endswith('.txt')
+                    out.append((name, n, 'changed', changed_records(old, new) if txt else 0,
+                                changed_choices(old, new) if txt else 0))
         for n in sorted(gone):
-            out.append((name, n, 'removed', 0))
+            out.append((name, n, 'removed', 0, 0))
     return out
 
 
@@ -106,7 +120,7 @@ def apply(diffs, root=None, text=None):
     root = root or ROOT
     text = text or os.path.join(root, 'psp', 'text')
     spec = {name: (src_rel, dst_rel, pattern) for name, src_rel, dst_rel, pattern in PAIRS}
-    for name, n, state, _ in diffs:
+    for name, n, state, _, _ in diffs:
         src_rel, dst_rel, pattern = spec[name]
         if pattern is None:
             src, dst = path_of(root, src_rel), path_of(text, dst_rel)
@@ -124,17 +138,21 @@ def report(diffs):
         print('psp/text is up to date with the PS2 sources')
         return
     by = {}
-    for name, n, state, recs in diffs:
-        by.setdefault(name, []).append((n, state, recs))
+    for name, n, state, recs, choices in diffs:
+        by.setdefault(name, []).append((n, state, recs, choices))
     for name, rows in by.items():
-        count = {s: sum(1 for _, st, _ in rows if st == s) for s in ('changed', 'new', 'removed')}
-        recs = sum(r for _, st, r in rows if st == 'changed')
+        count = {s: sum(1 for _, st, _, _ in rows if st == s) for s in ('changed', 'new', 'removed')}
+        recs = sum(r for _, st, r, _ in rows if st == 'changed')
         print('%s: %d changed (%d records), %d new, %d removed'
               % (name, count['changed'], recs, count['new'], count['removed']))
-        for n, state, r in rows[:20]:
+        for n, state, r, _ in rows[:20]:
             print('  %-8s %s%s' % (state, n, ' (%d records)' % r if state == 'changed' and r else ''))
         if len(rows) > 20:
             print('  ... %d more' % (len(rows) - 20))
+    for name, n, state, _, choices in diffs:
+        if choices:
+            print('CHECK: %s %s changes %d choice record(s) (<03:...>); the English must keep the '
+                  'Japanese line and code structure, or the menu can stick' % (name, n, choices))
 
 
 def main(argv=None):
@@ -151,7 +169,7 @@ def main(argv=None):
         return 1 if diffs else 0
     if diffs:
         apply(diffs, ROOT, TEXT)
-        print('copied into', TEXT, '(%d files)' % len(diffs))
+        print('updated %d file(s) in %s' % (len(diffs), TEXT))
     return 0
 
 
