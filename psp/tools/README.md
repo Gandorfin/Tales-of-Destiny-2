@@ -308,8 +308,8 @@ Categories in `groups.tsv`:
 * `missed_copy`: translated in one place, still Japanese in another. The
   English exists; only that copy was never patched.
 * `known_unapplied`: never translated in the build, but a project table
-  (PSP tsv files or the PS2 menu, enemy, title, quiz tables and scenario
-  corpus) has a translation.
+  (the PSP tsv files, the PS2 menu, enemy, title and quiz tables, or the
+  scenario and skit text in `psp/text`) has a translation.
 * `untranslated`: Japanese with no translation anywhere.
 * `residue`: every copy translated, redirected or no longer referenced.
 

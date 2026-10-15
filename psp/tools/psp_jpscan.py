@@ -480,8 +480,9 @@ def known_translations():
         add(jp.replace('{99}{40}', '\u3000'), en, 'psp_menu.tsv')
     for row in _tsv(os.path.join(HERE, 'psp_supplement.tsv'), 3):
         add(row[1], row[2], 'psp_supplement.tsv')
-    for jp, en in _tsv(os.path.join(HERE, 'psp_monsters.tsv')):
-        add(jp, en, 'psp_monsters.tsv')
+    for name in ('psp_monsters.tsv', 'psp_quiz.tsv'):
+        for jp, en in _tsv(os.path.join(HERE, name)):
+            add(jp, en, name)
     menu = os.path.join(ROOT, 'ps2', 'menu')
     for fn, jcol, ecol in (('menu_translations.csv', 'japanese', 'english'),
                            ('enemy_translations.csv', 'japanese', 'english'),
@@ -490,13 +491,14 @@ def known_translations():
                            ('quiz_translations.csv', 'japanese', 'english')):
         path = os.path.join(menu, fn)
         if os.path.exists(path):
-            for row in csv.DictReader(open(path, encoding='utf-8')):
-                add(row[jcol], row[ecol], 'ps2/menu/' + fn)
+            with open(path, encoding='utf-8') as f:
+                for row in csv.DictReader(f):
+                    add(row[jcol], row[ecol], 'ps2/menu/' + fn)
     with contextlib.redirect_stdout(io.StringIO()):
-        corpus = psp_text.load_ps2_corpus(ROOT)
+        corpus = psp_text.load_ps2_corpus()     # the PSP text snapshot, psp/text
     for kind, table in corpus.items():
         for jp, en in table.items():
-            add(jp, '\n'.join(en), 'ps2 ' + kind)
+            add(jp, '\n'.join(en), 'psp/text ' + kind)
     return known, corpus
 
 
