@@ -255,6 +255,77 @@ python -B -m unittest discover -s psp/tools -p test_build_psp.py -v
 Use a new output filename and, if using `--keep`, a new work directory. Do not
 point the build at your only copy of an earlier image or edited extraction.
 
+## psp_jpscan.py: which Japanese is still in a build
+
+```
+python psp/tools/psp_jpscan.py "Tales of Destiny 2 (Japan).iso" tod2_psp_en.iso OUTDIR
+python psp/tools/psp_jpscan.py "Tales of Destiny 2 (Japan).iso" WORK OUTDIR --members 6335-6466
+```
+
+Read only: it writes nothing into either image. The second argument is the
+English ISO or a `build_psp.py --keep WORK` folder (it reads `new_BOOT.BIN`
+and `new.fpb` there); a `BOOT.BIN,file.fpb` pair also works for either side.
+Both images are unpacked in lockstep (BOOT.BIN, every FILE.FPB member, down
+through deflate, SCPK, PAK, offsets pack, sizes pack and comptoe LZSS
+levels, each validated so plain data is not taken for a container) and
+every Japanese string of the Japanese image is followed into the English
+one; data embedded at an offset inside a leaf is covered because every
+offset of every leaf is searched. Strings are tied to what points at them
+(BOOT.BIN relocations, both data pointers and lui/addiu code pairs, the
+SCED text operands and the SFM string references of the Quiz Book), so it
+can tell "the game still draws this Japanese" from "the old bytes are
+still there but nothing reads them". `--members A-B` limits the FPB part to a member range (BOOT.BIN is
+always scanned), `--jobs N` sets the worker count. A full disc takes about
+10 minutes with one worker per CPU.
+
+Output files in OUTDIR:
+
+* `summary.md`: overview, start here. Duplicates first, then the counts per
+  category and area, then the top high confidence groups.
+* `groups.tsv`: one row per distinct Japanese text, with its category,
+  confidence, number of copies, the English found in the build or in a
+  project table (and which table), and where it is still Japanese.
+* `occurrences.tsv`: one row per location (leaf path such as
+  `06470/z/s2/z`, offset, status, reference sites). Paths: `z` = deflate
+  wrapper, `l` = LZSS stream, `sN` = SCPK entry, `pN` = PAK entry, `oN` =
+  offsets pack entry (u32 count, then offsets; the title pack 00002),
+  `nN` = sizes pack entry (u32 count, then sizes; the Quiz Book packs
+  06333, 06334, 06366, 06467, 07310, 09272..09276 and most of
+  09347..09565).
+* `duplicates.tsv`: every text stored at two or more locations, with the
+  state of every copy (translated, live, unreferenced, no reference model).
+* `leaf_duplicates.tsv`: byte identical leaves or members stored more than
+  once, partially patched clusters first.
+* `table_duplicates.tsv`: the same run of 3+ strings in two places, the
+  usual sign of a second table the game reads.
+* `boot_partial.tsv`: BOOT.BIN strings where some pointers were redirected
+  to the English and others still reach the Japanese.
+* `graphics.tsv`: picture, sound and movie leaves (Japanese drawn into
+  pixels is not text; check those by eye).
+
+Categories in `groups.tsv`:
+
+* `missed_copy`: translated in one place, still Japanese in another. The
+  English exists; only that copy was never patched.
+* `known_unapplied`: never translated in the build, but a project table
+  (the PSP tsv files, the PS2 menu, enemy, title and quiz tables, or the
+  scenario and skit text in `psp/text`) has a translation.
+* `untranslated`: Japanese with no translation anywhere.
+* `residue`: every copy translated, redirected or no longer referenced.
+
+Confidence: `high` = a reference site provably points at the text,
+`medium` = real looking text (4+ Japanese characters, or 2+ stored twice)
+in a leaf without a reference model, `low` = short fragments. Reference
+kinds in `ref_sites`: `f8` = SCED text operand, `sfm` = SFM string
+reference, `ptr0`/`ptr1` = 32 bit pointer relative to segment 0/1,
+`code0`/`code1` = lui/addiu pair.
+
+Tests (synthetic data, no ISO needed):
+
+```
+python -B -m unittest discover -s psp/tools -p test_psp_jpscan.py -v
+```
+
 ## psp_text.py: scenario and skit text
 
 ```
