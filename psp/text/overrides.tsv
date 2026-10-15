@@ -1,0 +1,16 @@
+# PSP only text fixes. A row here wins over the synced PS2 text and over
+# psp/tools/psp_supplement.tsv, and sync_text_from_ps2.py never touches this
+# file, so a sync can never undo a PSP fix.
+#
+# One row per fix, five columns separated by TABs:
+#   kind      scenario or skit
+#   file      the PSP script number (as in the build's text folder, for
+#             example 06470 or 01433), or * for every script
+#   japanese  the Japanese record exactly as the PSP build extracts it
+#             (a line break written as \n)
+#   english   the English, one line per \n (a skit shows one line)
+#   note      why the PSP needs its own wording
+#
+# Fix PS2 text in the PS2 folders and run the sync instead; this table is
+# only for text that must differ on the PSP.
+scenario	06944	<03:00000000><0B:00000001>NO.{14}{14}{76}{C0}{14}{14}{75}{C0}{14}{14}{74}{C0}　このＣＨＡＴは再生できません\n　　　　　<button:00000039>:-100　　　<button:0000003A>:+100\n　　　<button:00000037>+<button:00000019>:- 10　<button:00000037>+<button:0000001D>:+ 10\n　　　　　<button:00000019>:-  1　　　<button:0000001D>:+  1　　　　<0B:00000000>	<03:00000000><0B:00000001>NO.{14}{14}{76}{C0}{14}{14}{75}{C0}{14}{14}{74}{C0}　This CHAT can't be played\n　　　　　<button:00000039>:-100　　　<button:0000003A>:+100\n　　　<button:00000037>+<button:00000019>:- 10　<button:00000037>+<button:0000001D>:+ 10\n　　　　　<button:00000019>:-  1　　　<button:0000001D>:+  1　　　　<0B:00000000>	Skit Hut "skit unavailable" choice record (PSP retail has 4 lines with the button legend). Pinned here so the PS2 record 06781_14 can never replace it: a choice record must keep the Japanese line and code structure or the menu can stick (PR 107)

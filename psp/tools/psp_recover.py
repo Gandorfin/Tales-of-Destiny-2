@@ -10,10 +10,11 @@ derivable from one, and append them to the supplement table (no translation):
      (small JP typos: 一所/一生, ぐらい/くらい, アトワイト/アトワト). English copied
      verbatim.
 
-Usage: psp_recover.py WORK [ps2root]  ->  writes/updates psp/tools/psp_supplement.tsv
+Usage: psp_recover.py WORK [textroot, default psp/text]  ->  writes/updates psp/tools/psp_supplement.tsv
 """
 import os, re, sys, csv, collections, difflib, json
 HERE = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.join(HERE, '..', '..')
+TEXT = os.path.join(ROOT, 'psp', 'text')  # the PSP snapshot of the PS2 text
 sys.path.insert(0, HERE); import psp_text
 CODE = re.compile(r'<[^>]*>|\{[0-9A-F]{2}\}')
 def strip_codes(s): return CODE.sub('\x00', s)      # placeholder keeps token positions
@@ -31,8 +32,8 @@ FIXED_TEMPLATES = [
 TITLE_RX = None  # set in recover()
 
 
-def recover(work, ps2root=ROOT):
-    corpus = psp_text.load_ps2_corpus(ps2root)
+def recover(work, textroot=TEXT):
+    corpus = psp_text.load_ps2_corpus(textroot)
     corpus = {k: {psp_text.norm_key(jp.split('\n')): en for jp, en in v.items()} for k, v in corpus.items()}
     keys = {k: list(v) for k, v in corpus.items()}
     idx = {k: collections.defaultdict(list) for k in keys}
@@ -95,4 +96,4 @@ def recover(work, ps2root=ROOT):
         print('--', cat); [print('   ', a, '->', b) for a, b in ex]
 
 if __name__ == '__main__':
-    recover(sys.argv[1], sys.argv[2] if len(sys.argv) > 2 else ROOT)
+    recover(sys.argv[1], sys.argv[2] if len(sys.argv) > 2 else TEXT)

@@ -170,7 +170,10 @@ engineering, `armips` or this engine, open an issue or a pull request.
   `third pass skits safe output/` (Japanese lines start with `#`, English
   follows). Each folder has a build copy (`ps2/PyTOD2/TXT_EN`,
   `ps2/PyTOD2/FILE/pak1/TXT_EN`) that must stay identical; edit both. The
-  PSP build reads the same files.
+  PSP build reads its own copy in `psp/text/`: after a PS2 text change run
+  `python psp/tools/sync_text_from_ps2.py` and commit `psp/text/` with it.
+  Never edit the copies in `psp/text/` by hand; a fix that only the PSP
+  needs goes into `psp/text/overrides.tsv`, which wins over the synced text.
 * Text rules (`Dialogue and Script Layout Restrictions.md`): 36 visible
   characters per line, 126 per four-row page, `{02}` starts a page, control
   codes must match the Japanese exactly. A skit line is one line up to its
@@ -283,7 +286,7 @@ the same way from the `build_psp.py` output.
 | `ps2/PyTOD2/` | PS2 archive tool (unpack, insert text, repack; GUI and command line), the build copies of the text (`TXT_EN`), skit speeds, movie installer |
 | `ps2/menu/` | PS2 menus, executable, Quiz Book, enemy text, title credit, font and disc layout tools with their tables (`README.md` there) |
 | `ps2/movies/` | PS2 movie subtitles, ending credits overlay, movie rebuild and remux tools (`README.md` there) |
-| `psp/tools/` | the PSP build (`build_psp.py`) and every tool and table it uses (`README.md` there) |
+| `psp/tools/`, `psp/text/` | the PSP build (`build_psp.py`) and every tool and table it uses (`README.md` there); `psp/text/` is the PSP's own copy of the text, refreshed from the PS2 folders by `sync_text_from_ps2.py`, plus the PSP only fixes in `overrides.tsv` |
 | `psp/` (rest) | older PSP extractors and Japanese scenario dumps |
 | `audio/` | index of every voice, music and sound file on both discs, PS2/PSP voice pairs, WAV export (`README.md` there) |
 | `scripts/` | the translation audit, text dump and hex/Japanese converters |
