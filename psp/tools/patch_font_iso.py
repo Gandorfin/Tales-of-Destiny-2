@@ -468,7 +468,13 @@ def pack_font(data, capacity):
     return blob, compressed_size
 
 
-def png_indices(path, prepare=False, levels=16, font_id=1):
+def png_indices(path, prepare=False, levels=16, font_id=1, keep=None):
+    """PNG pixels -> palette indices. With prepare, `keep` (the ISO's current
+    indices) makes every pixel still showing its exported gray keep its exact
+    index, so --levels only reduces the pixels that were edited. Without it,
+    fewer levels would remap untouched icons too: font 2's button glyphs use
+    indices 7..14, which only some palettes colour, and 8 levels folds them
+    onto other entries (blue and green buttons turned gray)."""
     width, height = dimensions(font_id)
     require(levels in (2, 4, 8, 16), "Use 2, 4, 8 or 16 intensity levels.")
     Image = pillow()
@@ -496,6 +502,12 @@ def png_indices(path, prepare=False, levels=16, font_id=1):
                         % (point % width, point // width))
                 mapping[colour] = red // 17
         indices.append(mapping[colour])
+    if prepare and keep is not None and levels != 16:
+        require(len(keep) == len(indices), "Original font size mismatch.")
+        for point, colour in enumerate(struct.iter_unpack("4B", rgba)):
+            original = keep[point]
+            if colour == (original * 17, original * 17, original * 17, 255):
+                indices[point] = original
     return bytes(indices)
 
 
@@ -679,7 +691,13 @@ def main(argv=None):
         elif args.command == "prepare":
             output_guard(args.output, args.iso, args.png)
             context = read_iso(args.iso, args.font)
-            indices = png_indices(args.png, prepare=True, levels=args.levels, font_id=args.font)
+            original = font_indices(context.font, args.font)
+            indices = png_indices(args.png, prepare=True, levels=args.levels, font_id=args.font,
+                                  keep=original)
+            if args.levels != 16:
+                edited = sum(a != b for a, b in zip(indices, original))
+                print("--levels %d applied to edited pixels only; %d pixels differ from the ISO's font."
+                      % (args.levels, edited))
             _, _, stored, compressed = font_plan(context, indices)
             write_png(args.output, indices, args.font)
             print("Prepared 4bpp grayscale PNG: %s" % args.output)

@@ -123,6 +123,14 @@ Allowed values are 2, 4, 8 and 16; fewer levels lose shading and may improve
 compression, but fitting is always checked. Saving a PNG as 4bpp by itself
 does not bypass the compressed-font limit.
 
+`--levels` only reduces pixels you edited. Every pixel that still shows the
+gray it was exported with keeps its exact index. This matters for font 2: its
+button glyphs (circle, cross, square, triangle, L, R, START) use indices 7 to
+14, which some of the ten palettes draw in colour. Older versions of this
+tool reduced the whole sheet, which folded those indices onto other entries,
+so the buttons came out gray in game. If your buttons are gray, prepare the
+PNG again with this version from your edited sheet and patch a clean ISO.
+
 The physical texture is PSP-swizzled 4bpp, 563,200 bytes before raw-deflate
 compression. The tool handles swizzling, nibble order and compression.
 Some old helper comments mention a 512 x 2200 preview; this tool exports the
