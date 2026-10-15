@@ -213,17 +213,18 @@ The movie subtitles are **off unless you pass `--movies`**; without it the
 ISO keeps the Japanese movies. A release build is:
 
 ```
-pip install imageio-ffmpeg
-python3 psp/tools/build_psp.py "Tales of Destiny 2 (Japan) PSP.iso" tod2_psp_en.iso --version 0.2.1 --movies
+python -m pip install imageio-ffmpeg
+python psp/tools/build_psp.py "Tales of Destiny 2 (Japan) PSP.iso" tod2_psp_en.iso --version 0.2.1 --movies
 ```
 
+Commands are for Windows 11 (on Linux or macOS use `python3`).
 `imageio-ffmpeg` brings an FFmpeg with libass and libx264; to use your own
 FFmpeg instead, add `--ffmpeg C:\path\to\ffmpeg.exe` (it must have both). The
 nine movies take a while to encode. The log prints a `movie 002 (PS2 00001):`
 block per movie and the final replace list must name the nine
 `/PSP_GAME/USRDIR/movie/0NN.pmf` files (002 to 006, 008, 009, 011, 012); if
-no `movie` line appears, the switch was missing. Check the opening movie
-(002) and the ending staff roll (006) in the emulator.
+no `movie` line appears, the switch was missing. Check a subtitled
+movie (for example 002) and the ending staff roll (006) in the emulator.
 
 ### Help wanted (open PSP problems)
 

@@ -117,11 +117,11 @@ The English movie subtitles are only burned in when you pass `--movies`.
 The commands above leave the Japanese movies untouched. Release build:
 
 ```
-pip install imageio-ffmpeg
+python -m pip install imageio-ffmpeg
 python psp/tools/build_psp.py "Tales of Destiny 2 (Japan) PSP.iso" tod2_psp_en.iso --version 0.2.1 --movies
 ```
 
-`--movies` needs an FFmpeg with libass and libx264. `pip install
+`--movies` needs an FFmpeg with libass and libx264. `python -m pip install
 imageio-ffmpeg` provides one; `--ffmpeg C:\path\to\ffmpeg.exe` uses your own
 (the build stops with "no FFmpeg with libass and libx264 found" if neither
 works). It burns `ps2/movies/subtitles/*.en.srt` (PSP movie N = PS2 movie
