@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026-10-15: skit lines from the PS2 twin, source check
+
+* A skit line takes the English of the same line in its PS2 twin skit when
+  the Japanese is the same (5 short lines had the wording of another skit).
+* The 9 `skit` rows of `psp_supplement.tsv` (PSP Japanese differs slightly)
+  now carry the full length retranslation, one line each (they had the old
+  condensed text, 01433 even had three lines of which a skit shows one).
+* `build_psp.py` prints the repository, commit and a fingerprint of every
+  source it reads outside `psp/tools`, and stops with the path when one is
+  missing or `skit_speeds.json` is older than the skit retranslation.
+
 ## 2026-10-06 — Optional lowercase font hack
 
 - Add `--lowercase-font on|off` to the PSP ISO builder. Default `on` preserves

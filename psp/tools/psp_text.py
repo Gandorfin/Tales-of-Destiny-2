@@ -14,7 +14,8 @@ PS2 translation, insert, rebuild the archive.
         writes WORK/scenario_en/*.txt and WORK/skit_en/*.txt: every record
         whose Japanese exists in the translated PS2 files ("Third pass
         Quality-Safe Output", "third pass skits safe output") gets the English
-        from there (Japanese kept as '#' lines), the rest stays Japanese;
+        from there (Japanese kept as '#' lines; a skit line first takes the
+        same line of its PS2 twin skit), the rest stays Japanese;
         prints coverage and writes WORK/unmatched.tsv
     psp_text.py build BOOT.BIN file.fpb WORK NEW.fpb NEW_BOOT.BIN
         inserts WORK/*_en/*.txt into the SCEDs, rebuilds the SCPK and skit
@@ -432,9 +433,35 @@ def load_supplement(path):
     return sup
 
 
+def load_ps2_skit_twins(ps2root):
+    """{PSP skit name: [(matching key, english lines)]} from the PS2 skit
+    files, PSP skit n = PS2 skit n - PS2_SKIT_OFFSET. A short line such as
+    うん。 occurs in many skits with different English; the twin gives each
+    PSP line the English of the same line in the same PS2 skit."""
+    d = os.path.join(ps2root, 'third pass skits safe output')
+    twins = {}
+    for fn in os.listdir(d):
+        m = re.match(r'(\d{5})_02\.sced\.txt$', fn)
+        if m:
+            twins['%05d' % (int(m.group(1)) + PS2_SKIT_OFFSET)] = [
+                (norm_key(jp), en) for jp, en in read_txt_pairs(os.path.join(d, fn))]
+    return twins
+
+
+def twin_english(twins, name, index, key):
+    """English of the same line in the PS2 twin skit, when its Japanese is
+    the same; None otherwise."""
+    rows = twins.get(name)
+    if rows is None or index >= len(rows):
+        return None
+    jp, en = rows[index]
+    return en if jp == key and en else None
+
+
 def match(work, ps2root=ROOT):
     corpus = load_ps2_corpus(ps2root)
     corpus = {k: {norm_key(jp.split('\n')): en for jp, en in v.items()} for k, v in corpus.items()}
+    twins = load_ps2_skit_twins(ps2root)
     supplement = load_supplement(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'psp_supplement.tsv'))
     pointers = json.load(open(os.path.join(work, 'pointers.json')))
     unmatched = open(os.path.join(work, 'unmatched.tsv'), 'w', encoding='utf-8')
@@ -445,9 +472,13 @@ def match(work, ps2root=ROOT):
         dst_dir = os.path.join(work, kind + '_en')
         os.makedirs(dst_dir, exist_ok=True)
         out = []
-        for lines in records:
+        for index, lines in enumerate(records):
             key = norm_key(lines)
-            hit = corpus[kind].get(key)
+            hit = twin_english(twins, name, index, key) if kind == 'skit' else None
+            if hit is not None:
+                tot['skit lines from the PS2 twin'] += 1
+            else:
+                hit = corpus[kind].get(key)
             if hit is None:
                 hit = supplement[kind].get(key)
                 if hit is not None:
