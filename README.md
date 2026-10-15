@@ -177,6 +177,15 @@ The whole pipeline is one command, `python3 psp/tools/build_psp.py`, which:
   members (`psp_monsters.py`)
 * redraws the title-screen copyright texture so the Japanese designer credit
   reads "Green Gel Patch vX.Y.Z" (`psp_title.py`, with `--version`)
+* with `--movies`, burns the English subtitles into the nine movies with
+  dialogue (`psp_movies.py`): the PSP movies are the PS2 movies frame for frame,
+  so the PS2 subtitle tracks in `ps2/movies/subtitles` apply unchanged; the
+  video is re-encoded per navigation unit with the original H.264 settings and
+  put back by `psp_pmf.py`, which keeps the audio, the pack timing and the
+  decoder buffer limits of the original file. Needs an FFmpeg with libass and
+  libx264 (`--ffmpeg`, or `pip install imageio-ffmpeg`). The PSP ending has its
+  own staff roll (porting staff added, names reordered), so it gets its own
+  measured table and English overlay (`psp_credits.py`, `psp_credits.tsv`)
 * rebuilds the font member with lowercase glyphs and applies SkyBladeCloud's
   font-selection patch to every ASCII text walker so dialogue, names and menus
   render in mixed case; the bold icon-font menu text (party names in the menu,

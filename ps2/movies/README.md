@@ -9,8 +9,13 @@ translated ending-credit overlay without losing its five dialogue subtitles.
 
 ## Translation inputs
 
-* `ps2/PyTOD2/MOVIE/NNNNN.en.srt` is the authoritative subtitle track used by
-  the builder. All 120 cues are syntax-, ordering-, duration-, and width-checked.
+* `ps2/movies/subtitles/NNNNN.en.srt` holds the maintained subtitle tracks
+  (the eight files from `ps2/PyTOD2/MOVIE`, 2026-10-14, with the terms updated:
+  Elrane, `!?`). The PSP build reads them from there. The PS2 builder reads
+  `ps2/PyTOD2/MOVIE/NNNNN.en.srt`, so copy the repository files there before
+  a PS2 movie build.
+* `ps2/PyTOD2/MOVIE/NNNNN.en.srt` is the subtitle track used by the PS2
+  builder. All 120 cues are syntax-, ordering-, duration-, and width-checked.
   During the build, every cue is normalized to a single rendered line without
   changing its text or timing.
 * `ending_credits.tsv` contains 323 measured credit rows. `KEEP` rows are
