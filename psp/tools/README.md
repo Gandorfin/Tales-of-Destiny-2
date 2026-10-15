@@ -20,12 +20,40 @@ limits, the separate bold-menu-font limitation and retail startup handling.
 ## Repository layout and prerequisites
 
 Keep this folder at `psp/tools` inside the Tales-of-Destiny-2 repository.
-Commands below run from that repository's root. The tools also use:
+Commands below run from that repository's root.
 
-- `ps2/PyTOD2/TBL.json` for the shared text encoding table;
-- `Third pass Quality-Safe Output` for the scenario translation corpus;
-- `third pass skits safe output` for the skit translation corpus;
-- the `.tsv` and `TBL_PSP.json` files included alongside these scripts.
+### What the build needs from the rest of the repository
+
+`build_psp.py` reads these files outside `psp/tools`. Copying or updating
+`psp/tools` alone is not enough: with an old copy of these the build puts
+the OLD skit text and the retail skit speed into the ISO.
+
+* `third pass skits safe output/` (609 files): the skit English
+* `Third pass Quality-Safe Output/` (459 files): the scenario English
+* `ps2/PyTOD2/TBL.json`: the text encoding table
+* `ps2/PyTOD2/skit_speed.py` and `ps2/PyTOD2/skit_speeds.json`: the skit
+  text speed rules and the time window of every skit line
+* `ps2/menu/title_credit.py` and `ps2/menu/title_glyphs.py`: the title
+  screen patch name (`--version`)
+* `ps2/movies/subtitles/*.en.srt` and `ps2/movies/fonts/Ubuntu-Bold.ttf`:
+  only with `--movies`
+* the `.tsv`, `.ass` and `TBL_PSP.json` files in this folder
+
+Build from a full, up to date clone. On Windows 11 (PowerShell or Command
+Prompt, inside the cloned `Tales-of-Destiny-2` folder):
+
+```
+git pull
+python psp/tools/build_psp.py "Tales of Destiny 2 (Japan) PSP.iso" tod2_psp_en.iso
+```
+
+The build first prints the repository folder, its commit and a fingerprint
+of every source it reads (line endings do not change the fingerprint, so a
+Windows and a Linux clone of the same commit print the same values). Two
+builds with the same fingerprints carry the same text and skit timing. When
+a source is missing, or `skit_speeds.json` predates the full length skit
+retranslation, the build stops before it touches the ISO and names the
+path.
 
 The source release is an overlay for that repository, not a standalone ISO
 patcher. Tests need the shared encoding table but do not need a game image.
@@ -139,8 +167,8 @@ default, preserving existing build commands. `--lowercase-font off` builds
 the same English translation with the original uppercase ASCII rendering:
 
 ```
-python psp/tools/build_psp.py "Tales of Destiny 2 (Japan) PSP.iso" tod2_psp_lowercase.iso --version 0.2.0 --lowercase-font on
-python psp/tools/build_psp.py "Tales of Destiny 2 (Japan) PSP.iso" tod2_psp_uppercase.iso --version 0.2.0 --lowercase-font off
+python psp/tools/build_psp.py "Tales of Destiny 2 (Japan) PSP.iso" tod2_psp_lowercase_hack_v0.2.5.iso --version 0.2.5 --movies  --lowercase-font on
+python psp/tools/build_psp.py "Tales of Destiny 2 (Japan) PSP.iso" tod2_psp_uppercase_v0.2.5.iso --version 0.2.5 --movies  --lowercase-font off
 ```
 
 The `off` choice skips the lowercase glyph artwork, a..z slot remapping,
@@ -250,7 +278,11 @@ record per block, dashed separators, tags as `<Kyle>`, `<color:...>`,
 pass Quality-Safe Output", "third pass skits safe output") and writes the
 English versions into `WORK/scenario_en` and `WORK/skit_en`, Japanese kept
 as `#` lines; whatever it could not match is listed in `WORK/unmatched.tsv`
-(mostly developer comments and debug menus). Edit those files, then
+(mostly developer comments and debug menus). A skit line first takes the
+English of the same line in its PS2 twin (PSP skit n = PS2 skit n - 159)
+when the Japanese is the same, so a short line such as うん。 keeps the
+wording of its own skit; the `skit` rows of `psp_supplement.tsv` cover the
+few lines whose Japanese differs on the PSP. Edit those files, then
 `build`. `verify` decodes the built archive and compares every record.
 
 How insertion works: the original text block stays in place, changed records

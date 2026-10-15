@@ -863,15 +863,15 @@ scenario	････確かにスタンにそっくりだな････\n妙に
 scenario	････確かに俺は、\nあのとき死んだ････\nおまえ達への強い憎しみを\n抱いたままな････	...True, I did die back then...\nstill clutching\nmy deep hatred\nfor you all...	translated
 scenario	････････\nまたですか!?	......\nAgain?!	translated
 scenario	････････大丈夫か？	......Are you all right?	translated
-skit	<Kyle>、ちゃんと地図を見ているか？　僕は道に迷って、のたれ死になんていう最期はゴメンだからな。	<Kyle>, are you watching the map?\nI'd hate to end up lost and\ndying in some ditch.	translated
-skit	‥‥けど、まあ、そのやっかいごとは全部解決してきたわけだし、今じゃ、俺たちを引っ張っていってるぐらいだ。ちゃんと成長してるよ、おまえは‥‥。	You've fixed every mess and now lead us. You've truly grown.	recover
-skit	う～ん、ウッドロウさんも確かにすごいけど、ここの街の人みんながすごいっていうのも、あるんじゃないかな？　なんていうかさ『雪、どんと来ーい！』って感じじゃん。これが<Loni>だったら、一日中家の中で『寒い～っ！』って言って、ふとんで丸まってると思うよ。	Woodrow's great, sure, but everyone here's got that 'Bring on the snow!' spirit. <Loni> would just hide in a futon all day.	recover
-skit	お、おいおい。脅かすなよ‥‥どうする、<Kyle>？　ここは、下手にウロウロしない方がいいかもしんねえぞ。	D-don't scare me... <Kyle>, maybe we shouldn't wander around.	recover
-skit	しかも、「空から落とせばそれでおしまい」って思ってやがるから、ホイホイ捨てるってワケか。おい、なんとかしろよ<Nanaly>。お前のご先祖さまたちなんだろ？　これ捨てたの。	Aeth'er dumped it from the sky. Fix your ancestors' mess, <Nanaly>.	recover
-skit	だってよ、ほっといたらお前、そいつをギッタギタにしちまうだろ？　殺される前に助けてやらねえと寝覚めが悪いじゃねえか。	Left alone, you'd pound the guy to a pulp. Gotta save him before you kill him.	recover
-skit	やっぱり、ダメかしら‥‥でも、一所懸命、誠意をもって話せばきっと‥‥！	But if we speak sincerely, from the heart, surely...!	recover
-skit	わたしも、もっと特別な存在だと思ってた‥‥でも、実際はちがったの。普通に笑ったり、怒ったり、泣いたり、ただ元気で、一所懸命さだけがとりえみたいな、ごく普通の男の子だった。	He was an ordinary boy who laughed, cried, and always tried hard.	recover
-skit	俺たちがアトワイトさんを助けるとする。そうすっと、アトワイトさんは、当然ながらこのカッコいい俺にホレてしまうだろう。ってことは、俺たちが元の世界に戻ることになったとき、彼女もいっしょについてきてしまうんじゃないか？　その結果、ソーディアンチームは一人欠けてしまい、バルバトスの歴史改変の企みを手助けしてしまう形になる‥‥‥‥‥‥くそっ！　なんてこった。イヤ、敵ながらアッパレな計画‥‥‥‥‥‥‥‥‥‥‥‥ぐふが‥‥げっ‥‥うげっ！	Save Atwight, she loves me and leaves, helping Barbatos. Brilliant!	recover
+skit	<Kyle>、ちゃんと地図を見ているか？　僕は道に迷って、のたれ死になんていう最期はゴメンだからな。	<Kyle>, are you actually looking at the map? Getting lost and dying in a ditch is not how I plan to go.	translated
+skit	‥‥けど、まあ、そのやっかいごとは全部解決してきたわけだし、今じゃ、俺たちを引っ張っていってるぐらいだ。ちゃんと成長してるよ、おまえは‥‥。	...But hey, you've solved every one of those troubles, and now you're practically the one leading us. You've grown up just fine...	recover
+skit	う～ん、ウッドロウさんも確かにすごいけど、ここの街の人みんながすごいっていうのも、あるんじゃないかな？　なんていうかさ『雪、どんと来ーい！』って感じじゃん。これが<Loni>だったら、一日中家の中で『寒い～っ！』って言って、ふとんで丸まってると思うよ。	Hmm, Woodrow's definitely amazing, but isn't it also that everyone in this town is amazing? It's like they're saying "Bring on the snow!" If it were <Loni>, I bet he'd stay indoors all day, curled up in his blankets going "It's so cold～!"	recover
+skit	お、おいおい。脅かすなよ‥‥どうする、<Kyle>？　ここは、下手にウロウロしない方がいいかもしんねえぞ。	H-Hey now. Don't scare me like that... What do we do, <Kyle>? Maybe we'd better not wander around carelessly.	recover
+skit	しかも、「空から落とせばそれでおしまい」って思ってやがるから、ホイホイ捨てるってワケか。おい、なんとかしろよ<Nanaly>。お前のご先祖さまたちなんだろ？　これ捨てたの。	Plus they figured "drop it from the sky and that's that," so they tossed stuff without a care. Hey, do something, <Nanaly>. They're your ancestors, right? The ones who dumped this.	recover
+skit	だってよ、ほっといたらお前、そいつをギッタギタにしちまうだろ？　殺される前に助けてやらねえと寝覚めが悪いじゃねえか。	I mean, if we left you alone, you'd beat the guy to a pulp, right? If we don't rescue him before he gets killed, I'd never sleep easy.	recover
+skit	やっぱり、ダメかしら‥‥でも、一所懸命、誠意をもって話せばきっと‥‥！	So it's no good after all... But if we speak sincerely, with all our hearts, then surely...!	recover
+skit	わたしも、もっと特別な存在だと思ってた‥‥でも、実際はちがったの。普通に笑ったり、怒ったり、泣いたり、ただ元気で、一所懸命さだけがとりえみたいな、ごく普通の男の子だった。	I thought a hero would be someone more special too... But the real one was different. Just an ordinary boy who laughs, gets angry, cries, and whose only strengths are his energy and how hard he tries.	recover
+skit	俺たちがアトワイトさんを助けるとする。そうすっと、アトワイトさんは、当然ながらこのカッコいい俺にホレてしまうだろう。ってことは、俺たちが元の世界に戻ることになったとき、彼女もいっしょについてきてしまうんじゃないか？　その結果、ソーディアンチームは一人欠けてしまい、バルバトスの歴史改変の企みを手助けしてしまう形になる‥‥‥‥‥‥くそっ！　なんてこった。イヤ、敵ながらアッパレな計画‥‥‥‥‥‥‥‥‥‥‥‥ぐふが‥‥げっ‥‥うげっ！	Say we rescue Atwight. Naturally, she'll fall head over heels for handsome me. Which means when we head back to our own world, she'll follow us, right? Then the Swordian team is one short, and we end up helping Barbatos's plot to change history... Damn! How could this happen? No, for an enemy plan, it's brilliant... Gufgah... Geh... Ugeh!	recover
 scenario	鍛冶屋はレベル<0B:00000001>{14}{21}{4A}{C0}<0B:00000000>に上がりました	The blacksmith rose to Level <0B:00000001>{14}{21}{4A}{C0}<0B:00000000>.	translated
 scenario	老人	Old Man	translated
 scenario	お墓だ････	It's a grave...	translated
