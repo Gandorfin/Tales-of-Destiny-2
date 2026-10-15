@@ -201,8 +201,8 @@ default, preserving existing build commands. `--lowercase-font off` builds
 the same English translation with the original uppercase ASCII rendering:
 
 ```
-python psp/tools/build_psp.py "Tales of Destiny 2 (Japan) PSP.iso" tod2_psp_lowercase.iso --version 0.2.0 --lowercase-font on
-python psp/tools/build_psp.py "Tales of Destiny 2 (Japan) PSP.iso" tod2_psp_uppercase.iso --version 0.2.0 --lowercase-font off
+python psp/tools/build_psp.py "Tales of Destiny 2 (Japan) PSP.iso" tod2_psp_lowercase_hack_v0.2.5.iso --version 0.2.5 --movies  --lowercase-font on
+python psp/tools/build_psp.py "Tales of Destiny 2 (Japan) PSP.iso" tod2_psp_uppercase_v0.2.5.iso --version 0.2.5 --movies  --lowercase-font off
 ```
 
 The `off` choice skips the lowercase glyph artwork, a..z slot remapping,
