@@ -1,5 +1,19 @@
 # Changelog
 
+## 2026-10-15: the PSP's own text in psp/text
+
+* The PSP build reads its text only from `psp/text` (scenario, skits,
+  subtitles, TBL.json, skit_speeds.json), a copy of the PS2 sources that
+  `sync_text_from_ps2.py` refreshes on request (`--check` only reports).
+* `psp/text/overrides.tsv` holds PSP only fixes; they win over the synced
+  text and the sync never touches them. The PSP Skit Hut "unavailable"
+  choice record (06944) moved there from `psp_supplement.tsv`.
+* The sync prints a `CHECK:` line for every changed choice record (`<03:`).
+* `build_psp.py` lists `psp/text` and the four files still read from `ps2/`
+  (skit_speed.py, title_credit.py, title_glyphs.py, Ubuntu-Bold.ttf) and
+  says when `psp/text` lags behind; the audit reports it as `psp-text-lag`.
+* Same build output as before the move (byte identical ISO).
+
 ## 2026-10-15: skit lines from the PS2 twin, source check
 
 * A skit line takes the English of the same line in its PS2 twin skit when
