@@ -146,6 +146,14 @@ Short version; the details are in `ps2/menu/README.md` ("Applying it") and
    not run "Insert FONT": it would replace the game's Latin font with the
    2008 alternative font and drop the `&`, `~` and `*` glyphs that
    `patch_slps_titles.py` adds to the retail font.
+   The movies are a separate archive, `MOVIE.FPB`, which none of the steps
+   above touch: build the hard-subbed movies with
+   `python ps2/movies/build_hardsubbed_movies.py --ffmpeg C:\path\to\ffmpeg.exe`
+   (FFmpeg with libass; it writes `ps2/PyTOD2/hardsubbed_movies.rebuilt`),
+   replace `ps2/PyTOD2/hardsubbed_movies` with that folder, run
+   `ps2/PyTOD2/Install-HardsubbedMovies.ps1` (writes the eight movies into
+   `ps2/PyTOD2/MOVIE.FPB`) and put that `MOVIE.FPB` into the ISO too. Full
+   procedure and checks: `ps2/movies/README.md`.
 5. `python ps2/menu/verify_menu_patch.py your.iso` tells you which parts of
    the build are English, so a Japanese screen can be traced to the step
    that was skipped.
@@ -200,6 +208,22 @@ The whole pipeline is one command, `python3 psp/tools/build_psp.py`, which:
   render in mixed case; the bold icon-font menu text (party names in the menu,
   tabs, arte grid, Battle Rank) keeps retail capitals (`psp_lowercase.py`)
 * repacks the archive, verifies every rebuilt file, and writes the English ISO
+
+The movie subtitles are **off unless you pass `--movies`**; without it the
+ISO keeps the Japanese movies. A release build is:
+
+```
+pip install imageio-ffmpeg
+python3 psp/tools/build_psp.py "Tales of Destiny 2 (Japan) PSP.iso" tod2_psp_en.iso --version 0.2.1 --movies
+```
+
+`imageio-ffmpeg` brings an FFmpeg with libass and libx264; to use your own
+FFmpeg instead, add `--ffmpeg C:\path\to\ffmpeg.exe` (it must have both). The
+nine movies take a while to encode. The log prints a `movie 002 (PS2 00001):`
+block per movie and the final replace list must name the nine
+`/PSP_GAME/USRDIR/movie/0NN.pmf` files (002 to 006, 008, 009, 011, 012); if
+no `movie` line appears, the switch was missing. Check the opening movie
+(002) and the ending staff roll (006) in the emulator.
 
 ### Help wanted (open PSP problems)
 

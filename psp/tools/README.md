@@ -111,6 +111,27 @@ monster-name replacements, lowercase glyphs, the apostrophe-preserving glyph
 allocation, and the isolated bold-font table. No separate freeze-repair helper
 or post-build memory patch is required: the normal build uses the fixed scanner.
 
+### Movie subtitles (`--movies`)
+
+The English movie subtitles are only burned in when you pass `--movies`.
+The commands above leave the Japanese movies untouched. Release build:
+
+```
+pip install imageio-ffmpeg
+python psp/tools/build_psp.py "Tales of Destiny 2 (Japan) PSP.iso" tod2_psp_en.iso --version 0.2.1 --movies
+```
+
+`--movies` needs an FFmpeg with libass and libx264. `pip install
+imageio-ffmpeg` provides one; `--ffmpeg C:\path\to\ffmpeg.exe` uses your own
+(the build stops with "no FFmpeg with libass and libx264 found" if neither
+works). It burns `ps2/movies/subtitles/*.en.srt` (PSP movie N = PS2 movie
+N - 1, PSP 012 repeats 008) plus the PSP staff roll (`psp_credits.ass`) into
+movie 006, re-encodes with the original H.264 settings and swaps the nine
+`/PSP_GAME/USRDIR/movie/0NN.pmf` files in the output ISO. The log shows one
+`movie 0NN (PS2 000NN):` block per movie; no such lines means the switch was
+missing. To redo only the movies into a work folder:
+`python psp/tools/psp_movies.py "Tales of Destiny 2 (Japan) PSP.iso" WORK`.
+
 ### Choosing the lowercase font hack
 
 `--lowercase-font on` applies the collaborator's lowercase hack and is the
