@@ -10,12 +10,14 @@ PS2 translation, insert, rebuild the archive.
     psp_text.py verify BOOT.BIN file.fpb WORK
         decodes a built archive with the saved pointers and compares every
         record with WORK/*_en/*.txt
-    psp_text.py match WORK [ps2root]
+    psp_text.py match WORK [textroot]
         writes WORK/scenario_en/*.txt and WORK/skit_en/*.txt: every record
-        whose Japanese exists in the translated PS2 files ("Third pass
-        Quality-Safe Output", "third pass skits safe output") gets the English
-        from there (Japanese kept as '#' lines; a skit line first takes the
-        same line of its PS2 twin skit), the rest stays Japanese;
+        whose Japanese exists in the PSP text snapshot (psp/text/scenario and
+        psp/text/skits, copies of the PS2 translation made by
+        sync_text_from_ps2.py) gets the English from there (Japanese kept as
+        '#' lines; a skit line first takes the same line of its PS2 twin
+        skit), the rest stays Japanese; psp/text/overrides.tsv wins over all
+        of it, psp_supplement.tsv fills in what has no PS2 twin;
         prints coverage and writes WORK/unmatched.tsv
     psp_text.py build BOOT.BIN file.fpb WORK NEW.fpb NEW_BOOT.BIN
         inserts WORK/*_en/*.txt into the SCEDs, rebuilds the SCPK and skit
@@ -33,11 +35,18 @@ sys.path.insert(0, HERE)
 import psp_fpb
 import psp_sced
 sys.path.insert(0, os.path.join(HERE, '..', '..', 'ps2', 'PyTOD2'))
-import skit_speed
+import skit_speed  # the speed rules (code); the data comes from psp/text
 
 ROOT = os.path.normpath(os.path.join(HERE, '..', '..'))
+# the PSP's own text: a snapshot of the PS2 sources, refreshed only by
+# psp/tools/sync_text_from_ps2.py, plus the PSP only overrides
+TEXT = os.path.join(ROOT, 'psp', 'text')
+SCENARIO_DIR = 'scenario'
+SKIT_DIR = 'skits'
+OVERRIDES = os.path.join(TEXT, 'overrides.tsv')
+SKIT_SPEEDS = os.path.join(TEXT, 'skit_speeds.json')
 PS2_SKIT_OFFSET = 159  # PSP skit member 00213 is PS2 skit 00054
-TBL = json.load(open(os.path.join(ROOT, 'ps2', 'PyTOD2', 'TBL.json'), encoding='utf-8'))
+TBL = json.load(open(os.path.join(TEXT, 'TBL.json'), encoding='utf-8'))
 ITBL = {v: struct.pack('>H', int(k)) for k, v in TBL.items()}   # last code wins, as in PyTOD2
 # codes the PS2 table never listed, derived from the PSP glyph list (member
 # 00001) and the game's decoder; decode only, so encoding stays PS2-identical
@@ -394,12 +403,13 @@ def extract(boot_path, fpb_path, work):
     json.dump(pointers, open(os.path.join(work, 'pointers.json'), 'w'), indent=0)
     print('extracted', dict(counts))
 
-def load_ps2_corpus(ps2root):
-    """{kind: {japanese record text: english lines}} from ps2/scenarios and ps2/skits."""
+def load_ps2_corpus(textroot=TEXT):
+    """{kind: {japanese record text: english lines}} from the PSP snapshot
+    of the PS2 translation (psp/text/scenario and psp/text/skits)."""
     corpus = {'scenario': {}, 'skit': {}}
     dup = 0
-    for kind, folder in (('scenario', 'Third pass Quality-Safe Output'), ('skit', 'third pass skits safe output')):
-        d = os.path.join(ps2root, folder)
+    for kind, folder in (('scenario', SCENARIO_DIR), ('skit', SKIT_DIR)):
+        d = os.path.join(textroot, folder)
         for fn in sorted(os.listdir(d)):
             if not fn.endswith('.txt'):
                 continue
@@ -433,12 +443,32 @@ def load_supplement(path):
     return sup
 
 
-def load_ps2_skit_twins(ps2root):
+def load_overrides(path=OVERRIDES):
+    """PSP only fixes that win over everything else, so a sync of the PS2
+    text can never undo them. Rows: kind \t file \t japanese \t english
+    \t note, newlines written as \\n; file is the PSP script number
+    (06470, 01433) or * for every script. Lines starting with # are notes.
+    Returns {(kind, file): {japanese key: english lines}}."""
+    out = collections.defaultdict(dict)
+    if os.path.exists(path):
+        for n, line in enumerate(open(path, encoding='utf-8'), 1):
+            line = line.rstrip('\r\n')
+            if not line.strip() or line.startswith('#'):
+                continue
+            p = line.split('\t')
+            if len(p) < 4 or p[0] not in ('scenario', 'skit'):
+                raise ValueError('%s line %d: need kind, file, japanese, english' % (path, n))
+            key = norm_key(p[2].replace('\\n', '\n').split('\n'))
+            out[(p[0], p[1])][key] = p[3].split('\\n')
+    return out
+
+
+def load_ps2_skit_twins(textroot=TEXT):
     """{PSP skit name: [(matching key, english lines)]} from the PS2 skit
     files, PSP skit n = PS2 skit n - PS2_SKIT_OFFSET. A short line such as
     うん。 occurs in many skits with different English; the twin gives each
     PSP line the English of the same line in the same PS2 skit."""
-    d = os.path.join(ps2root, 'third pass skits safe output')
+    d = os.path.join(textroot, SKIT_DIR)
     twins = {}
     for fn in os.listdir(d):
         m = re.match(r'(\d{5})_02\.sced\.txt$', fn)
@@ -458,10 +488,11 @@ def twin_english(twins, name, index, key):
     return en if jp == key and en else None
 
 
-def match(work, ps2root=ROOT):
-    corpus = load_ps2_corpus(ps2root)
+def match(work, textroot=TEXT, overrides=OVERRIDES):
+    corpus = load_ps2_corpus(textroot)
     corpus = {k: {norm_key(jp.split('\n')): en for jp, en in v.items()} for k, v in corpus.items()}
-    twins = load_ps2_skit_twins(ps2root)
+    twins = load_ps2_skit_twins(textroot)
+    fixes = load_overrides(overrides)
     supplement = load_supplement(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'psp_supplement.tsv'))
     pointers = json.load(open(os.path.join(work, 'pointers.json')))
     unmatched = open(os.path.join(work, 'unmatched.tsv'), 'w', encoding='utf-8')
@@ -474,10 +505,14 @@ def match(work, ps2root=ROOT):
         out = []
         for index, lines in enumerate(records):
             key = norm_key(lines)
-            hit = twin_english(twins, name, index, key) if kind == 'skit' else None
+            hit = fixes.get((kind, name), {}).get(key) or fixes.get((kind, '*'), {}).get(key)
             if hit is not None:
-                tot['skit lines from the PS2 twin'] += 1
-            else:
+                tot['overrides'] += 1
+            elif kind == 'skit':
+                hit = twin_english(twins, name, index, key)
+                if hit is not None:
+                    tot['skit lines from the PS2 twin'] += 1
+            if hit is None:
                 hit = corpus[kind].get(key)
             if hit is None:
                 hit = supplement[kind].get(key)
@@ -505,7 +540,7 @@ def build(boot_path, fpb_path, work, new_fpb, new_boot, extra=None):
     ranges = psp_fpb.member_ranges(psp_fpb.read_table(boot))
     src = open(fpb_path, 'rb')
     stats = collections.Counter()
-    speed_table = skit_speed.load_table()
+    speed_table = skit_speed.load_table(SKIT_SPEEDS)
     speed_hist = collections.Counter()
 
     def get_new(i, kind_stored):
@@ -581,7 +616,7 @@ if __name__ == '__main__':
     elif a and a[0] == 'extract' and len(a) == 4:
         extract(a[1], a[2], a[3])
     elif a and a[0] == 'match' and len(a) in (2, 3):
-        match(a[1], a[2] if len(a) == 3 else ROOT)
+        match(a[1], a[2] if len(a) == 3 else TEXT)
     elif a and a[0] == 'build' and len(a) == 6:
         build(a[1], a[2], a[3], a[4], a[5])
     else:

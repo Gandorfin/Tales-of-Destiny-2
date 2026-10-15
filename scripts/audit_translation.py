@@ -38,6 +38,10 @@ INFO (quality signals, reported but not build-breaking):
                        character budget.
   term-drift           The same short Japanese source line is translated in
                        more than one way across the corpus.
+  psp-text-lag         A file of the PSP text snapshot (psp/text) differs
+                       from its PS2 source, is missing or is left over: the
+                       PSP build does not have that PS2 change yet. Run
+                       python psp/tools/sync_text_from_ps2.py to copy it.
 
 Usage:
   python3 scripts/audit_translation.py [ROOT]           # human summary
@@ -80,7 +84,7 @@ MAX_PAGE = 126
 
 CRITICAL = ('code-mismatch', 'untranslated', 'misplaced-japanese',
             'interleaved-english', 'source-drift', 'skit-budget')
-INFO = ('layout-width', 'layout-lines', 'layout-page', 'term-drift')
+INFO = ('layout-width', 'layout-lines', 'layout-page', 'term-drift', 'psp-text-lag')
 
 
 def raw_bytes_as_codes(text):
@@ -201,6 +205,22 @@ def check_skit_budget(root, findings):
                 {'file': name + '.txt', 'record': line, 'problem': message})
 
 
+def check_psp_text_lag(root, findings):
+    path = os.path.join(root, 'psp', 'tools', 'sync_text_from_ps2.py')
+    if not os.path.exists(path):
+        return
+    spec = importlib.util.spec_from_file_location('sync_text_from_ps2', path)
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    try:
+        lag = module.differences(os.path.abspath(root))
+    except FileNotFoundError:
+        return
+    for name, file, state, records in lag:
+        findings['psp-text-lag'].append(
+            {'folder': name, 'file': file, 'problem': state, 'records': records})
+
+
 def run_audit(root):
     findings = defaultdict(list)
     term_map = defaultdict(Counter)
@@ -246,6 +266,7 @@ def run_audit(root):
             })
 
     check_skit_budget(root, findings)
+    check_psp_text_lag(root, findings)
 
     drift = {jp: dict(ens) for jp, ens in term_map.items()
              if len(ens) > 1 and sum(ens.values()) >= 3}

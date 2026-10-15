@@ -1,8 +1,8 @@
 """Burn the English subtitles into the PSP movies.
 
 The PSP movies are the PS2 movies re-encoded for the PSP (frame for frame,
-same timing), so the PS2 subtitle tracks in ps2/movies/subtitles apply
-unchanged: PSP movie N plays PS2 movie N - 1, and PSP 012 is a second copy
+same timing), so the PS2 subtitle tracks (ps2/movies/subtitles, copied to
+psp/text/subtitles by sync_text_from_ps2.py) apply unchanged: PSP movie N plays PS2 movie N - 1, and PSP 012 is a second copy
 of PSP 008. For every subtitled movie this script decodes the PSP video,
 burns the subtitles (libass, the pinned Ubuntu Bold), encodes H.264 with the
 original's settings (Main profile, level 2.1, one reference frame, no B
@@ -35,7 +35,9 @@ import psp_iso
 import psp_pmf
 
 ROOT = os.path.normpath(os.path.join(HERE, '..', '..'))
-SUBTITLES = os.path.join(ROOT, 'ps2', 'movies', 'subtitles')
+# the PSP copy of ps2/movies/subtitles (sync_text_from_ps2.py); the font
+# is a fixed binary with its licence in ps2/movies, read from there
+SUBTITLES = os.path.join(ROOT, 'psp', 'text', 'subtitles')
 FONTS = os.path.join(ROOT, 'ps2', 'movies', 'fonts')
 FONT_SHA256 = '679b5c1e09cab3156bb8ef529735f9382bf31ca7ac737382ab959297f8d82ad4'
 
