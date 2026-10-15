@@ -197,6 +197,24 @@ class Workflow(unittest.TestCase):
             self.assertEqual(F.main(["prepare", str(self.iso), str(self.png), str(ready)]), 0)
         self.assertEqual(F.png_indices(ready), indices)
 
+    def test_levels_keep_unedited_pixels(self):
+        original = F.png_indices(self.png)
+        with Image.open(self.png) as image:
+            image.load()
+            image.putpixel((0, 0), 7 if original[0] != 7 else 8)
+            image.save(self.png, bits=4)
+        reduced = F.png_indices(self.png, prepare=True, levels=8)
+        kept = F.png_indices(self.png, prepare=True, levels=8, keep=original)
+        # without keep, untouched odd middle indices (button colours) fold away
+        self.assertNotEqual(reduced[1:], original[1:])
+        self.assertEqual(kept[1:], original[1:])
+        self.assertIn(kept[0], {0, 2, 4, 6, 9, 11, 13, 15})
+        ready = self.root / "ready.png"
+        with contextlib.redirect_stdout(io.StringIO()):
+            self.assertEqual(F.main(["prepare", str(self.iso), str(self.png), str(ready),
+                                     "--levels", "8"]), 0)
+        self.assertEqual(F.png_indices(ready), kept)
+
     def test_wrong_dimensions_and_animation_rejected(self):
         Image.new("L", (128, 512)).save(self.png)
         with self.assertRaisesRegex(F.FontError, "256x4400"):
