@@ -43,9 +43,13 @@ SOURCES = [
     ('PSP overrides', 'psp/text/overrides.tsv', None, 1, 'always'),
     ('text encoding table', 'psp/text/TBL.json', None, 1, 'always'),
     ('skit time windows', 'psp/text/skit_speeds.json', None, 1, 'always'),
+    ('Quiz Book English', 'psp/text/quiz_translations.csv', None, 1, 'always'),
     ('skit speed rules', 'ps2/PyTOD2/skit_speed.py', None, 1, 'always'),
     ('title credit drawing', 'ps2/menu/title_credit.py', None, 1, 'always'),
     ('title credit glyphs', 'ps2/menu/title_glyphs.py', None, 1, 'always'),
+    ('Quiz Book modules', 'ps2/menu/sfm_text.py', None, 1, 'always'),
+    ('Quiz Book text codec', 'ps2/menu/md1text.py', None, 1, 'always'),
+    ('Quiz Book text encoder', 'ps2/menu/md1patch.py', None, 1, 'always'),
     ('movie subtitles', 'psp/text/subtitles', r'\d{5}\.en\.srt$', 8, 'movies'),
     ('movie subtitle font', 'ps2/movies/fonts/Ubuntu-Bold.ttf', None, 1, 'movies'),
 ]
@@ -121,7 +125,7 @@ def check_sources(movies=False, report=True):
 
 sys.path.insert(0, HERE)
 check_sources(report=False)
-import psp_iso, psp_text, psp_names, psp_menu, psp_lowercase, psp_fpb, psp_pool, psp_monsters, psp_title
+import psp_iso, psp_text, psp_names, psp_menu, psp_lowercase, psp_fpb, psp_pool, psp_monsters, psp_title, psp_quiz
 
 def add_probes(work):
     p = os.path.join(work, 'scenario_en', '06470.txt')
@@ -176,6 +180,8 @@ def main(iso, out_iso, probe=False, keep=None, version=None, lowercase_font=True
     _mons, _monst = psp_monsters.build_changed_members(boot, fpb)
     print('monster book:', dict(_monst))
     _extra.update(_mons)
+    _quiz, _ = psp_quiz.build_changed_members(boot, fpb)
+    _extra.update(_quiz)
     if version:
         _extra[psp_title.PAK_INDEX] = psp_title.build_member(boot, fpb, psp_title.label_for(version))[0]
     else:
@@ -183,6 +189,11 @@ def main(iso, out_iso, probe=False, keep=None, version=None, lowercase_font=True
     psp_text.build(boot, fpb, text, new_fpb, new_boot, extra=_extra)
     if not psp_text.verify(new_boot, new_fpb, text):
         raise SystemExit('verification failed, image not written')
+    _qrefs, _qbad = psp_quiz.verify(boot, fpb, new_boot, new_fpb)
+    print('quiz book verify: %d references checked, %d problems' % (_qrefs, len(_qbad)))
+    if _qbad:
+        print('\n'.join(_qbad[:20]))
+        raise SystemExit('quiz book verification failed, image not written')
     replaced = [
         ('/PSP_GAME/USRDIR/file.fpb', new_fpb),
         ('/PSP_GAME/SYSDIR/BOOT.BIN', new_boot),
