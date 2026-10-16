@@ -1,5 +1,22 @@
 # Changelog
 
+## 2026-10-16: about 100 more menu strings, Frostheim, scan lessons
+
+* Menu table keys with a full-width space never matched BOOT.BIN: the
+  game stores U+3000 as 0x9940, the key encoder wrote the TBL's 0xE499.
+  The English was in `psp_menu.tsv` all along but never applied: every
+  shop name ("Weapon Shop SOUL & SWORD", "Food Shop CRESTA'S KITCHEN"),
+  the scene titles of the debug scene list and some labels.
+  `psp_menu.encode_keys` and `psp_pool.relocate_menu` now try the retail
+  form first (the TBL form stays as a second key). Full build: 31 more
+  strings in place, 50 more pooled; `known_unapplied` in the scan 151 to 74.
+* スノーフリア is Frostheim everywhere (it was Snowfria in `psp_menu.tsv`
+  and in the ferry and debug rows of `psp_supplement.tsv`).
+* Three debug guide lines stored in about 1,800 places in the town
+  scripts now come from `psp_supplement.tsv`.
+* `psp_jpscan.py` labels SCED scripts inside sizes packs `map` instead of
+  `battle`; the tools README says how to read a scan.
+
 ## 2026-10-16: world map location names and scripts in English
 
 * Gandorff (PSP 0.3.0): the location name over a town or dungeon on the

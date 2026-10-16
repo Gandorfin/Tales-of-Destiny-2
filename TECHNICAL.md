@@ -260,7 +260,10 @@ Quiz Book, enemy text, font), `ps2/movies/README.md` (PS2 movies),
 
 * Menus are compiled into BOOT.BIN. `psp/tools/psp_menu.py` writes English
   that fits the Japanese slot in place (`psp_menu.tsv`). The full-width space
-  must be encoded as `0x9940` (`{99}{40}`), the code retail menus use.
+  must be encoded as `0x9940` (`{99}{40}`), the code retail menus use, on
+  BOTH sides: the TBL encodes U+3000 as the filler `0xE499`, so until
+  October 2026 every table key with a space (all shop names, scene titles)
+  silently never matched (`psp_menu.encode_keys`).
 * Longer strings go to a new load segment appended at the end of the file
   (`psp/tools/psp_pool.py`, vaddr `0x881000`, the program header fits the
   zero gap before `.text`); every standalone copy of the string has its

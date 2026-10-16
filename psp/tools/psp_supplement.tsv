@@ -23,7 +23,7 @@ scenario	<03:00000000>アイグレッテ・グランバザール\nストレイ�
 scenario	<03:00000000>アイグレッテ（未来）\nチェリク\nヒートリバー\nホープタウン	<03:00000000>Aigrette (Future)\nCherik\nHeat River\nHope Town	translated
 scenario	<03:00000000>アイテム操作／称号取得／時代変更{02}	<03:00000000>Item ops / Get titles / Change era{02}	translated
 scenario	<03:00000000>アクアヴェイル\nカルビオラ地下墓地\n地上軍拠点跡地\nラストダンジョン	<03:00000000>Aqua Veil\nKalviola Catacombs\nGround Base Ruins\nLast Dungeon	translated
-scenario	<03:00000000>オベロン社廃坑\nスノーフリア\nハイデルベルグ新市街\nハイデルベルグ城	<03:00000000>Oberon Mine\nSnowfria\nHeidelberg New City\nHeidelberg Castle	translated
+scenario	<03:00000000>オベロン社廃坑\nスノーフリア\nハイデルベルグ新市街\nハイデルベルグ城	<03:00000000>Oberon Mine\nFrostheim\nHeidelberg New City\nHeidelberg Castle	translated
 scenario	<03:00000000>ダイクロフト（天地戦争）\nスパイラルケイブ\nベルクラント\nダイクロフト（ＴＯＤ１）	<03:00000000>Dycroft (Aeth'er Wars)\nSpiral Cave\nBelcrant\nDycroft (ToD1)	translated
 scenario	<03:00000000>トラッシュマウンテン\nカルバレイス\n飛行竜\nヴァンジェロ	<03:00000000>Trash Mountain\nCalvalese\nDraconis\nVangelo	translated
 scenario	<03:00000000>ミクトラン部屋方面(上)へ行きたい\n制御室(下)へ行きたい	<03:00000000>To the Mictlan room (up)\nTo the control room (down)	translated
@@ -663,14 +663,14 @@ scenario	大当たり	Jackpot	translated
 scenario	娘と････	With my daughter...	translated
 scenario	定期船アイグレッテ～チェリク(後半部分)<03:00000000>\n　乗る！\n　乗らない！	Ferry: Aigrette~Cherik (2nd half)<03:00000000>\n　Board!\n　Don't board!	translated
 scenario	定期船アイグレッテ～チェリク<03:00000000>\n　乗る！\n　乗らない！	Ferry: Aigrette~Cherik<03:00000000>\n　Board!\n　Don't board!	translated
-scenario	定期船スノーフリア～ノイシュタット(後半部分)<03:00000000>\n　乗る！\n　乗らない！	Ferry: Snowfria~Neuestadt (2nd half)<03:00000000>\n　Board!\n　Don't board!	translated
-scenario	定期船スノーフリア～ノイシュタット<03:00000000>\n　乗る！\n　乗らない！	Ferry: Snowfria~Neuestadt<03:00000000>\n　Board!\n　Don't board!	translated
+scenario	定期船スノーフリア～ノイシュタット(後半部分)<03:00000000>\n　乗る！\n　乗らない！	Ferry: Frostheim~Neuestadt (2nd half)<03:00000000>\n　Board!\n　Don't board!	translated
+scenario	定期船スノーフリア～ノイシュタット<03:00000000>\n　乗る！\n　乗らない！	Ferry: Frostheim~Neuestadt<03:00000000>\n　Board!\n　Don't board!	translated
 scenario	定期船チェリク～アイグレッテ(後半部分)<03:00000000>\n　乗る！\n　乗らない！	Ferry: Cherik~Aigrette (2nd half)<03:00000000>\n　Board!\n　Don't board!	translated
 scenario	定期船チェリク～アイグレッテ<03:00000000>\n　乗る！\n　乗らない！	Ferry: Cherik~Aigrette<03:00000000>\n　Board!\n　Don't board!	translated
 scenario	定期船チェリク～ノイシュタット(後半部分)<03:00000000>\n　乗る！\n　乗らない！	Ferry: Cherik~Neuestadt (2nd half)<03:00000000>\n　Board!\n　Don't board!	translated
 scenario	定期船チェリク～ノイシュタット<03:00000000>\n　乗る！\n　乗らない！	Ferry: Cherik~Neuestadt<03:00000000>\n　Board!\n　Don't board!	translated
-scenario	定期船ノイシュタット～スノーフリア(後半部分)<03:00000000>\n　乗る！\n　乗らない！	Ferry: Neuestadt~Snowfria (2nd half)<03:00000000>\n　Board!\n　Don't board!	translated
-scenario	定期船ノイシュタット～スノーフリア<03:00000000>\n　乗る！\n　乗らない！	Ferry: Neuestadt~Snowfria<03:00000000>\n　Board!\n　Don't board!	translated
+scenario	定期船ノイシュタット～スノーフリア(後半部分)<03:00000000>\n　乗る！\n　乗らない！	Ferry: Neuestadt~Frostheim (2nd half)<03:00000000>\n　Board!\n　Don't board!	translated
+scenario	定期船ノイシュタット～スノーフリア<03:00000000>\n　乗る！\n　乗らない！	Ferry: Neuestadt~Frostheim<03:00000000>\n　Board!\n　Don't board!	translated
 scenario	定期船ノイシュタット～チェリク(後半部分)<03:00000000>\n　乗る！\n　乗らない！	Ferry: Neuestadt~Cherik (2nd half)<03:00000000>\n　Board!\n　Don't board!	translated
 scenario	定期船ノイシュタット～チェリク<03:00000000>\n　乗る！\n　乗らない！	Ferry: Neuestadt~Cherik<03:00000000>\n　Board!\n　Don't board!	translated
 scenario	実は<item:0000004C>を集めてて････	Actually, I've been collecting\n<item:0000004C>...	recover
@@ -968,6 +968,9 @@ scenario	次のイベントは噴水広場で発生します\n噴水広場への
 scenario	次のイベントは世界地図部屋で発生します\n世界地図部屋への誘導メッセージ	The next event occurs at World Map Room.\nGuide message to World Map Room.	debug
 scenario	次のイベントはレアルタ資料室で発生します\nレアルタ資料室への誘導メッセージ	The next event occurs at Realta Archives.\nGuide message to Realta Archives.	debug
 scenario	次のイベントは作戦室で発生します\n作戦室への誘導メッセージ	The next event occurs at Strategy Room.\nGuide message to Strategy Room.	debug
+scenario	次のイベントはハイデルベルグ広間で発生します\nハイデルベルグ城広間への誘導メッセージ	The next event occurs at Heidelberg Hall.\nGuide message to Heidelberg Castle Hall.	debug
+scenario	次のイベントはハイデルベルグ城謁見の間で発生します\nハイデルベルグ城謁見の間への誘導メッセージ	The next event occurs at Heidelberg Castle Audience Chamber.\nGuide message to Heidelberg Castle Audience Chamber.	debug
+scenario	この時系列のシナリオは、十年後のストレイライズ大神殿町キャラシナリオテキスト\n「1500X_??.STX」に記載しています	This timeline's scenario is in the town text\nof Straylize Grand Temple ten years later,\n"1500X_??.STX".	debug
 scenario	ここはクレスタの森です	This is Cresta Forest.	debug
 scenario	ここはクレスタの街外観です	This is Cresta Town Exterior.	debug
 scenario	ここは孤児院一階です	This is Orphanage 1F.	debug

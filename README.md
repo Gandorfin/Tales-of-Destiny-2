@@ -19,7 +19,7 @@ Destiny II" in North America) and not the PS1 Tales of Destiny.
 | Version | Latest release | State |
 |---|---|---|
 | PS2 (SLPS-25172) | **QS v1.3.0** | **Complete.** The whole game is English. |
-| PSP (ULJS-00097) | **v0.2.0**, plus the v0.2.1 pre-release | **Playable.** Story, skits and almost every menu are English; a few areas are still Japanese (listed below). |
+| PSP (ULJS-00097) | **v0.3.1** (two downloads: with and without the lowercase font hack) | **Playable.** Story, skits, movies and almost every menu are English; a few areas are still Japanese (listed below). |
 
 ### PS2
 
@@ -53,33 +53,37 @@ Known limits:
 
 ### PSP
 
-v0.2.0 (August 2026) has the full story and skit script, menus, items,
-artes, titles, descriptions and the battle enemy names in English, with
-mixed case dialogue, names and menus thanks to SkyBladeCloud's font
-selection hack. **v0.2.1** is the same build without that hack (capitals
-only), for devices and real hardware where v0.2.0 has problems.
+v0.3.1 (October 2026) has the full story script, all 608 timed skits at
+full length with per line text speed (as PS2 v1.3.0), menus, items, artes,
+titles, descriptions, the Quiz Book, battle enemy names, English subtitles
+in the nine movies with dialogue and the PSP's own ending staff roll in
+English. Each release comes in two builds: with SkyBladeCloud's font
+selection hack (mixed case dialogue, names and menus) and without it
+(capitals only). v0.3.1 also fixes how the PSP and the PS Vita load the
+patch's extra strings (the cause of missing menu labels, random characters
+and freezes on real hardware with v0.3.0 and older); a confirmation on a
+real PSP and a Vita is still owed.
 
 Already in the source and coming with the next PSP release:
 
-* the full-length skit retranslation with per line text speed (same as PS2
-  v1.3.0)
-* English subtitles burned into the nine movies with dialogue, and the PSP's
-  own ending staff roll in English
-* the latest scenario text (the PSP build had been reading a copy that was
-  451 files behind)
+* the world map in English: the location name over a town or dungeon,
+  signposts and mine labels, the box puzzle, the Draconis anchor scene and
+  the ending monologue
+* about 100 menu strings whose Japanese contains a full-width space and
+  that had English in the table but were never applied: all shop names,
+  scene titles and some labels
+* Frostheim (not Snowfria) in the PSP only menus and debug lines
 
-Still Japanese on PSP (found by scanning the current build):
+Still Japanese on PSP (full scan of the current source, October 2026):
 
-* **the Quiz Book** (the PS2 translation exists, it is not applied to the
-  PSP files yet)
-* some menu labels and messages that the game reaches through an address
-  built in code, which the patch does not redirect yet: a few status labels
-  (for example Block Count, Damage Reduction, Movement Speed on some
-  screens), button legends, the airship landing messages, the "obtained the
-  title" message
+* menu messages that the game reaches through an address built in code,
+  which the patch does not redirect yet: the button legends at the bottom
+  of several menus, the airship landing message, two cooking recipe
+  messages, the "obtained the title" message
 * the single-kanji element and status labels (地 水 火 風 光 闇 毒)
-* some enemy arte names and boss lines, the Monster Book's own name list,
-  the debug room's event guide lines
+* the Monster Book's own name list, the Mystic Arte banners of some
+  enemies, and about 50 enemy arte names and boss lines that have no table
+  yet
 * the bold menu text (party names in the menu, Artes tabs, arte grid,
   Battle Rank) stays in capitals
 
@@ -102,8 +106,9 @@ See [Help wanted](#help-wanted-open-psp-problems) for the engineering side.
 
 1. Download the PSP patch from the
    [releases page](https://github.com/Gandorfin/Tales-of-Destiny-2/releases)
-   (tags `PSP_X.Y.Z`). Take v0.2.0 for mixed case text; take v0.2.1 if v0.2.0
-   crashes or shows broken letters on your device.
+   (tags `PSP_X.Y.Z`). Each release has two files: `Font_Hack` for mixed
+   case text, `No_Font_Hack` (capitals only) if the first one crashes or
+   shows broken letters on your device.
 2. You need your own dump of the Japanese UMD (ULJS-00097). Apply the patch
    with Delta Patcher or `xdelta3 -d -s original.iso patch.xdelta patched.iso`.
 3. Play on PPSSPP or a PSP with custom firmware.
@@ -157,9 +162,12 @@ engineering, `armips` or this engine, open an issue or a pull request.
   advance.
 * **Monster Book display names.** Battle enemy names are English, but the
   book screen reads its names from a second source that is not located yet.
-* **Real hardware.** The lowercase hack of v0.2.0 does not work on every
-  device and can crash now and then (v0.2.1 leaves it out). A new PSP font
-  is in progress (dreck).
+* **Real hardware.** Up to v0.3.0 the PSP kernel never loaded the patch's
+  string pool (it loads only consecutive program headers), which explains
+  the missing labels, random characters and freezes on a PSP or a Vita.
+  v0.3.1 orders the headers so the kernel loads it; reports from real
+  hardware are still needed. Android PPSSPP shows flickering menu items
+  with v0.3.0; not yet known whether v0.3.1 fixes that.
 
 ## Contributing
 
@@ -246,7 +254,7 @@ One command builds the whole English ISO from a clean Japanese one:
 
 ```
 python -m pip install imageio-ffmpeg
-python psp/tools/build_psp.py "Tales of Destiny 2 (Japan) PSP.iso" tod2_psp_en.iso --version 0.2.1 --movies
+python psp/tools/build_psp.py "Tales of Destiny 2 (Japan) PSP.iso" tod2_psp_en.iso --version 0.3.1 --movies
 ```
 
 * `--version` is the number drawn on the title screen as
@@ -255,13 +263,14 @@ python psp/tools/build_psp.py "Tales of Destiny 2 (Japan) PSP.iso" tod2_psp_en.i
   movies stay Japanese.** It needs an FFmpeg with libass and libx264:
   `imageio-ffmpeg` brings one, or pass `--ffmpeg C:\path\to\ffmpeg.exe`.
   The log shows a `movie 0NN (PS2 000NN):` block for each of the nine movies.
-* `--lowercase-font off` leaves out the lowercase font hack (the v0.2.1
-  build).
+* `--lowercase-font off` leaves out the lowercase font hack (the
+  `No_Font_Hack` download of a release).
 * `--keep WORKDIR` keeps the extracted and rebuilt files.
 
 The build extracts BOOT.BIN and file.fpb, applies the party names, menus
 (in place or through the string pool), lowercase font, scenario and skit
-text with skit speeds, enemy names, the title credit and the movies, then
+text with skit speeds, enemy names, the Quiz Book, the world map scripts,
+the title credit and the movies, then
 repacks, verifies every rebuilt file and writes the ISO. Each step is
 explained in `psp/tools/README.md`. A custom font goes in on the finished
 ISO with `psp/tools/patch_font_iso.py` (`psp/tools/FONT_CUSTOMIZATION.md`).

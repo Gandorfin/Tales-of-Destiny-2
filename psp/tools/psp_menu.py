@@ -37,6 +37,17 @@ def encode_en(en):
     return psp_text.encode_line(en.replace('　', '{99}{40}'))
 
 
+def encode_keys(jp):
+    """Byte forms a Japanese key can have in BOOT.BIN. Retail menu strings
+    write the full-width space U+3000 as 0x9940, the TBL encodes it as the
+    filler 0xE499; a key with a space was never found before this rule
+    (the shop names, scene titles and others stayed Japanese until 0.3.2)."""
+    out = [psp_text.encode_line(jp.replace('　', '{99}{40}'))]
+    if '　' in jp:
+        out.append(psp_text.encode_line(jp))
+    return out
+
+
 def patch_menu(boot, table=None):
     """boot bytes -> patched bytes; returns (bytes, stats)."""
     if table is None:
@@ -46,26 +57,28 @@ def patch_menu(boot, table=None):
     # de-dup by jp, longest english first is irrelevant; each jp overwrites its slots
     for jp, en in table:
         try:
-            jb = psp_text.encode_line(jp)
+            keys = encode_keys(jp)
             eb = encode_en(en)
         except Exception:
             st['encode_error'] += 1
             continue
+        jb = keys[0]
         if not jb or len(eb) > len(jb):
             st['overflow_skipped'] += 1
             continue
-        pad = jb + b'\x00'  # the stored string is NUL-terminated
-        rep = eb + b'\x00' * (len(jb) - len(eb)) + b'\x00'
-        i = 0
         hit = 0
-        while True:
-            idx = b.find(pad, i)
-            if idx < 0:
-                break
-            i = idx + 1
-            if idx == 0 or b[idx - 1] == 0:      # standalone (NUL before)
-                b[idx:idx + len(pad)] = rep
-                hit += 1
+        for jb in keys:
+            pad = jb + b'\x00'  # the stored string is NUL-terminated
+            rep = eb + b'\x00' * (len(jb) - len(eb)) + b'\x00'
+            i = 0
+            while True:
+                idx = b.find(pad, i)
+                if idx < 0:
+                    break
+                i = idx + 1
+                if idx == 0 or b[idx - 1] == 0:      # standalone (NUL before)
+                    b[idx:idx + len(pad)] = rep
+                    hit += 1
         if hit:
             st['patched'] += 1
             st['occurrences'] += hit

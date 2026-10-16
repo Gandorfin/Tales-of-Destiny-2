@@ -363,6 +363,21 @@ kinds in `ref_sites`: `f8` = SCED text operand, `sfm` = SFM string
 reference, `ptr0`/`ptr1` = 32 bit pointer relative to segment 0/1,
 `code0`/`code1` = lui/addiu pair.
 
+How to read a scan (lessons from October 2026, when two scans already
+listed the world map labels and about 100 shop names and both were missed):
+
+* Run it again after every change to the scanner and before every PSP
+  release. An old scan does not see what the scanner learned later (the
+  15 October scan predates sizes pack support, so the world map scripts
+  in 09272..09276 had no reference sites).
+* Check every `known_unapplied` and `missed_copy` row on its own. Look at
+  `ref_sites` in `occurrences.tsv`: `ptr` means a plain data pointer, so
+  the menu tools should reach it, and a miss is a tooling bug (that is how
+  the full-width space key bug showed up); only `code` rows are the known
+  "address built in code" problem.
+* The area column says where a member sits, not whether the player sees
+  it. World map scripts are `map:sced` (live text).
+
 Tests (synthetic data, no ISO needed):
 
 ```
