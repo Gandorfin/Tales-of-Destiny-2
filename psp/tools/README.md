@@ -299,6 +299,24 @@ python -B -m unittest discover -s psp/tools -p test_build_psp.py -v
 Use a new output filename and, if using `--keep`, a new work directory. Do not
 point the build at your only copy of an earlier image or edited extraction.
 
+## psp_latin_font.py: one typeface for all English text
+
+Draws every printable ASCII character from Fira Sans SemiBold
+(`psp/fonts/FiraSans-SemiBold-ASCII.ttf`, SIL Open Font License, see
+`psp/fonts/OFL.txt`) into font 1 and the bold menu font copy: one baseline,
+one cap height and x-height, retail glyph style. The build reads the
+committed table `psp/fonts/latin_glyphs.json` and needs no Pillow. To change
+the look (another font, sizes, spacing), edit `FONT`, `FONT1`, `FONT2` in
+the script and run
+
+```
+python psp\tools\psp_latin_font.py render
+```
+
+then rebuild and look at a text box, a skit and the menus.
+`test_psp_latin_font.py` checks the table (one baseline, real descenders,
+tabular digits).
+
 ## psp_vwf.py, psp_bold_lowercase.py: letter widths and bold lowercase
 
 Both run inside `build_psp.py` with the lowercase font and `--vwf on`
@@ -313,12 +331,12 @@ Both run inside `build_psp.py` with the lowercase font and `--vwf on`
   its kana). Result: "Kyle", "Normal", "Message Speed" instead of KYLE,
   NORMAL, MESSAGE SPEED.
 * `psp_vwf.py` gives every single-byte character its own width (variable
-  width font). It measures the glyphs of the built fonts and patches the
+  width font). It patches the
   six places that lay out or draw single-byte text: the text box layout,
   the text box glyph loop, the text printer (labels, choices, menus), the
-  box measurer, the bold menu routine and the skit/battle ticker. Digits
-  keep one shared width so number columns stay aligned. `g p q y j` are
-  drawn lower (descenders), the single-byte `-` is drawn as a short hyphen.
+  box measurer, the bold menu routine and the skit/battle ticker. The
+  widths come from `psp/fonts/latin_glyphs.json`; digits share one width
+  so number columns stay aligned.
   The code goes into the string pool segment; no new relocation entries.
 * `mips_asm.py` is the small assembler the hooks are written in, so the
   build needs no armips. `test_psp_vwf.py` checks its output against

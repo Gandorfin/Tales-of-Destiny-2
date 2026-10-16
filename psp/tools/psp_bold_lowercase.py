@@ -9,14 +9,12 @@ lowercase build gives this routine a private copy of the retail slot table
 (psp_lowercase.patch_bold_table) and it draws capitals: KYLE, LONI, NORMAL.
 
 What this module provides (psp_vwf.py puts it into the executable):
-1. bold_texture(): a copy of font 2 with 26 lowercase letters drawn over
-   the hiragana cells BOLD_CELLS, swizzled the way the game swizzles font 2
-   at startup. The letters are generated from the lowercase of the dialogue
-   font (font 1, as the build writes it): each glyph is cropped to its ink
-   and box-filtered into font 2's 12x16 cell and cap height, so both fonts
-   share one design.
-2. map_table(): maps a..z in the bold routine's private slot table to those
-   cells.
+1. map_table(): maps a..z in the bold routine's private slot table to
+   the hiragana cells BOLD_CELLS.
+2. bold_texture(): a copy of font 2 with the Latin glyphs of psp_latin_font
+   (the same typeface as the dialogue) drawn into every cell that table
+   reaches, a..z included, swizzled the way the game swizzles font 2 at
+   startup.
 psp_vwf's start hook binds the copy for every bold string except one that
 contains kana drawn from those cells. That keeps the name entry keyboard
 right: its kana are two-byte codes drawn by this same routine from font 2.
@@ -30,67 +28,13 @@ import sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 import patch_font_iso as F  # noqa: E402
-import psp_font  # noqa: E402
 
 SLOTTAB_FILE = 0x27DD40
 BOLD_LUI, BOLD_ADDIU = 0x1443D8, 0x1443DC          # file offsets of the table pair
 DATA_SEG_VADDR = 0x1DCC00
 POOL_VADDR = 0x881000
 BOLD_CELLS = list(range(49, 75))                    # ぁ .. ず in font 2 (10 cells per row)
-CELL1, COLS1 = 23, 11                               # font 1 cell / columns
 CELL2_W, CELL2_H, COLS2 = 12, 16, 10                # font 2
-X_SCALE = 0.62                                      # font 1 ink width -> font 2 (caps: 18 px -> 12)
-TOP_ROW, BOTTOM_ROW = 4, 22                         # font 1 rows mapped onto font 2 rows 1..15
-BRIGHT = 1.15                                       # small boost: box filtering thins strokes
-
-
-def _font1_cell(gray, slot):
-    r, c = divmod(slot, COLS1)
-    return [[gray[(r * CELL1 + y) * 256 + c * CELL1 + x] // 17 for x in range(CELL1)]
-            for y in range(CELL1)]
-
-
-def _box(g, x0, x1, tw, y0=TOP_ROW, y1=BOTTOM_ROW, th=15):
-    out = [[0] * tw for _ in range(th)]
-    sx, sy = (x1 - x0) / tw, (y1 - y0) / th
-    for ty in range(th):
-        for tx in range(tw):
-            acc = wsum = 0.0
-            fy0, fx0 = y0 + ty * sy, x0 + tx * sx
-            fy1, fx1 = fy0 + sy, fx0 + sx
-            y = int(fy0)
-            while y < fy1 and y < CELL1:
-                wy = min(fy1, y + 1) - max(fy0, y)
-                x = int(fx0)
-                while x < fx1 and x < CELL1:
-                    wx = min(fx1, x + 1) - max(fx0, x)
-                    acc += g[y][x] * wx * wy
-                    wsum += wx * wy
-                    x += 1
-                y += 1
-            out[ty][tx] = min(15, int(round(acc / wsum * BRIGHT))) if wsum else 0
-    return out
-
-
-def lowercase_cells(font1_member, slot_table):
-    """{letter: 16 rows of 12 indices} drawn from the font-1 lowercase."""
-    gray = psp_font.deswizzle(font1_member)
-    cells = {}
-    for ch in 'abcdefghijklmnopqrstuvwxyz':
-        g = _font1_cell(gray, slot_table[ord(ch)])
-        xs = [x for y in range(CELL1) for x in range(CELL1) if g[y][x] >= 3]
-        if not xs:
-            raise ValueError('font 1 has no glyph for %r' % ch)
-        left, right = min(xs), max(xs)
-        tw = max(3, min(CELL2_W, round((right - left + 1) * X_SCALE)))
-        pad = (CELL2_W - tw) // 2
-        body = _box(g, left, right + 1, tw)
-        cell = [[0] * CELL2_W for _ in range(CELL2_H)]
-        for y in range(15):
-            for x in range(tw):
-                cell[1 + y][pad + x] = body[y][x]
-        cells[ch] = cell
-    return cells
 
 
 def bold_table_offset(b):
@@ -131,14 +75,18 @@ def swizzle2(linear):
     return bytes(out)
 
 
-def bold_texture(boot, font1_member):
-    """(swizzled 128x512 texture with lowercase, its pixel indices)."""
+def bold_texture(boot):
+    """(swizzled 128x512 texture, its pixel indices): font 2 with the Latin
+    glyphs of psp_latin_font drawn into every cell the bold routine's
+    private table reaches (capitals, digits, punctuation and a..z in
+    BOLD_CELLS). Run map_table() first."""
+    import psp_latin_font
     _, texture = F.embedded_font2(bytes(boot))
     pixels = bytearray(F.font_indices(texture[F.FONT2_PIXEL_OFFSET:], 2))
-    cells = lowercase_cells(font1_member, boot[SLOTTAB_FILE:SLOTTAB_FILE + 256])
-    for i, ch in enumerate('abcdefghijklmnopqrstuvwxyz'):
-        r, c = divmod(BOLD_CELLS[i], COLS2)
+    tab_at = bold_table_offset(boot)
+    for cell, (rows, _, _) in psp_latin_font.font2_cells(boot[tab_at:tab_at + 256]).items():
+        r, c = divmod(cell, COLS2)
         for y in range(CELL2_H):
             for x in range(CELL2_W):
-                pixels[(r * CELL2_H + y) * F.FONT2_WIDTH + c * CELL2_W + x] = cells[ch][y][x]
+                pixels[(r * CELL2_H + y) * F.FONT2_WIDTH + c * CELL2_W + x] = int(rows[y][x], 16)
     return swizzle2(F.indices_font(bytes(pixels), 2)), bytes(pixels)

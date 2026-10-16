@@ -73,10 +73,11 @@ Already in the source and coming with the next PSP release:
   that had English in the table but were never applied: all shop names,
   scene titles and some labels
 * Frostheim (not Snowfria) in the PSP only menus and debug lines
-* a variable width font: every Latin letter has its own width in text
-  boxes, skits, menus, labels and the bold menu text (no more
-  typewriter look), boxes fit the text, `g p q y` hang below the line and
-  `-` is a real hyphen
+* a new English font: all Latin text (dialogue, skits, menus, labels) is
+  drawn in one typeface, Fira Sans SemiBold (SIL Open Font License), on one
+  baseline with real descenders, and every letter has its own width (no
+  more typewriter look); text boxes fit the text, and full-width labels
+  such as NEW GAME or HP use the same font
 * lowercase in the bold menu text: party names, menu tabs, Battle Rank and
   the Custom menu values read "Kyle", "Normal" instead of KYLE, NORMAL
 * the enemy name banner at the start of a battle ("Owlbear 1") in English

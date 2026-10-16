@@ -84,7 +84,61 @@ def patch_menu(boot, table=None):
             st['occurrences'] += hit
         else:
             st['not_found'] += 1
-    return bytes(b), st
+    b, st['fullwidth_to_ascii'] = fullwidth_to_ascii(bytes(b))
+    return b, st
+
+
+FULLWIDTH = ('ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺａｂｃｄｅｆｇｈｉｊｋｌｍｎｏｐｑｒｓｔｕｖｗｘｙｚ'
+             '０１２３４５６７８９－．／：！？（）＆＋％＝，')
+
+
+def _fullwidth_codes():
+    """{2-byte code: ASCII byte} for the full-width Latin characters, plus
+    the menu full-width space 0x9940."""
+    out = {b'\x99\x40': b' '}
+    for k, v in psp_text.TBL.items():
+        if len(v) == 1 and v in FULLWIDTH:
+            out[int(k).to_bytes(2, 'big')] = bytes([ord(v) - 0xFEE0])
+    return out
+
+
+STRING_AREAS = ((0x194840, 0x1DCCB0), (0x1DCD00, 0x29FB7C))   # .rodata, .data (file offsets)
+MAX_LABEL = 16
+
+
+def fullwidth_to_ascii(boot, areas=STRING_AREAS):
+    """Rewrite every standalone string (NUL before and after) that consists
+    only of full-width Latin letters, digits, punctuation and spaces as
+    ASCII, in place (ASCII is half the bytes, so it always fits).
+
+    Why: the variable width font gives ASCII proportional Latin glyphs, and
+    full-width codes share those glyph cells but keep a full cell advance,
+    so labels such as ＮＥＷ　ＧＡＭＥ, ＨＰ, ＧＲＡＤＥ would show narrow
+    letters with wide gaps. As ASCII they take the proportional path.
+    Returns (bytes, number of strings)."""
+    codes = _fullwidth_codes()
+    b = bytearray(boot)
+    n = 0
+    for start, end in areas:
+        end = min(end, len(b))
+        i = max(start, 1)
+        while i < end - 2:
+            if b[i - 1] != 0:
+                i += 1
+                continue
+            j, out = i, bytearray()
+            while j + 1 < end and bytes(b[j:j + 2]) in codes:
+                out += codes[bytes(b[j:j + 2])]
+                j += 2
+            alnum = sum(1 for c in out if 48 <= c <= 57 or 65 <= c <= 90 or 97 <= c <= 122)
+            # longer runs are data (the name entry keyboard's alphabet), not labels
+            if j < end and b[j] == 0 and 2 <= alnum and len(out) <= MAX_LABEL:
+                b[i:j] = bytes(out) + bytes(j - i - len(out))
+                n += 1
+                i = j
+            else:
+                i += 1
+    return bytes(b), n
 
 
 if __name__ == '__main__':

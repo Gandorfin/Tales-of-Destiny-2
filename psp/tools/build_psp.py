@@ -131,7 +131,7 @@ def check_sources(movies=False, report=True):
 
 sys.path.insert(0, HERE)
 check_sources(report=False)
-import psp_iso, psp_text, psp_names, psp_menu, psp_lowercase, psp_fpb, psp_pool, psp_monsters, psp_title, psp_quiz, psp_worldmap, psp_vwf
+import psp_iso, psp_text, psp_names, psp_menu, psp_lowercase, psp_fpb, psp_pool, psp_monsters, psp_title, psp_quiz, psp_worldmap, psp_vwf, psp_latin_font
 
 def add_probes(work):
     p = os.path.join(work, 'scenario_en', '06470.txt')
@@ -179,6 +179,11 @@ def main(iso, out_iso, probe=False, keep=None, version=None, lowercase_font=True
     _font0 = None
     if lowercase_font:
         _font0 = psp_lowercase.build_font(psp_fpb.read_member(fpb, open(boot, 'rb').read(), 0)[0])
+    if vwf and lowercase_font:
+        # one Latin typeface on one baseline (psp/fonts/latin_glyphs.json)
+        _b = open(boot, 'rb').read()
+        _font0, _lat = psp_latin_font.build_font1(_font0, _b[psp_vwf.SLOTTAB_FILE:psp_vwf.SLOTTAB_FILE + 256])
+        print('latin font: %d glyphs from %s' % (len(_lat), psp_latin_font.load()['source']))
     # variable width font + lowercase for the bold menu text: after the pool
     # (hooks, tables and the bold font copy are appended to it), measured on
     # the fonts the build writes; needs font 1 (lowercase on)
