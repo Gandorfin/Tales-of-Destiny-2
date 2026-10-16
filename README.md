@@ -79,6 +79,10 @@ Already in the source and coming with the next PSP release:
   `-` is a real hyphen
 * lowercase in the bold menu text: party names, menu tabs, Battle Rank and
   the Custom menu values read "Kyle", "Normal" instead of KYLE, NORMAL
+* the enemy name banner at the start of a battle ("Owlbear 1") in English
+  (the TEKI list; most likely also the Monster Book's name list), the first
+  time menu tip about the key help, and short "Hira" / "Kata" labels on the
+  name entry screen (the full words overlapped)
 
 Still Japanese on PSP (full scan of the current source, October 2026):
 
@@ -87,9 +91,8 @@ Still Japanese on PSP (full scan of the current source, October 2026):
   of several menus, the airship landing message, two cooking recipe
   messages, the "obtained the title" message
 * the single-kanji element and status labels (地 水 火 風 光 闇 毒)
-* the Monster Book's own name list, the Mystic Arte banners of some
-  enemies, and about 50 enemy arte names and boss lines that have no table
-  yet
+* the Mystic Arte banners of some enemies, and about 50 enemy arte names
+  and boss lines that have no table yet
 
 See [Help wanted](#help-wanted-open-psp-problems) for the engineering side.
 
@@ -159,8 +162,10 @@ engineering, `armips` or this engine, open an issue or a pull request.
   every letter was a full cell wide. The grid now uses the variable width
   font (next release); someone with a save that has many artes should check
   which full names fit again (`psp/tools/psp_menu.tsv`).
-* **Monster Book display names.** Battle enemy names are English, but the
-  book screen reads its names from a second source that is not located yet.
+* **Monster Book display names.** The next release writes English into the
+  TEKI list (member 08331), which the encounter banner reads; the Monster
+  Book most likely reads it too. Someone with a save that has the Library
+  should check the book screen.
 * **Real hardware.** Up to v0.3.0 the PSP kernel never loaded the patch's
   string pool (it loads only consecutive program headers), which explains
   the missing labels, random characters and freezes on a PSP or a Vita.

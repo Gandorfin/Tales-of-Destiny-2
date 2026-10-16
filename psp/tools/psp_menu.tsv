@@ -2372,8 +2372,8 @@ HPを吸収できる。	Can drain HP.	16	13	translated
 ロング	Long	6	4	translated
 見下ろし	Overhead	8	8	translated
 ウィンドウ消去	Clear Window	14	12	translated
-ひらがな	Hiragana	8	8	translated
-カタカナ	Katakana	8	8	translated
+ひらがな	Hira	8	4	translated
+カタカナ	Kata	8	4	translated
 決定	Confirm	4	7	translated
 入力に戻る	Back to Input	10	13	translated
 飛翼	Winged	4	6	translated
@@ -4158,3 +4158,4 @@ LVに応じて(毒/衰弱/麻痺/鈍足/凍結)を解除する{01}非戦闘時�
 体	Body	2	4	translated
 頭	Head	2	4	translated
 腕	Arm	2	3	translated
+しばらくキー操作がないと表示される<color:00000005>キーヘルプ<color:00000007>は{01}<color:00000005>SELECTボタン<color:00000007>を押すことにより表示と非表示を{01}切り替えられます	<color:00000005>Key help<color:00000007> appears after a while with no{01}input. Press <color:00000005>SELECT<color:00000007> to show or{01}hide it.	126	98	translated

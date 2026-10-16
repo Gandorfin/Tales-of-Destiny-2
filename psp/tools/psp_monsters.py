@@ -16,6 +16,13 @@ plain count-prefixed, ascending, tightly-packed table). Re-deflating a changed
 entry changes its size, so the PAK is rebuilt whenever any child changed.
 
 Only the members that actually change are returned, for psp_fpb.replace.
+
+The encounter banner at the start of a battle ("Owlbear  1") and, most likely,
+the Monster Book's own name list read a different source: the TEKI list in
+member 08331 (PAK child 2, comptoe LZSS): "TEKI", then 256 records of 28
+bytes, a 24 byte name field (game encoding, space padded) and 4 bytes of
+data. Slot n is the same enemy as row n of ps2/menu/enemy_names.csv.
+patch_teki() writes the English names into it (2026-10-16).
 """
 import os, struct, zlib, importlib.util
 
@@ -26,6 +33,8 @@ TBL = psp_text.TBL
 
 # Enemy-resource member window (inclusive), from the scan's findings.
 MEMBER_LO, MEMBER_HI = 8378, 9565
+TEKI_MEMBER, TEKI_CHILD = 8331, 2
+TEKI_COUNT, TEKI_RECORD, TEKI_NAME = 256, 28, 24
 
 
 def load_names(path=None):
@@ -174,6 +183,59 @@ def patch_member(member_bytes, names, stats):
     return _walk(member_bytes, names, stats)
 
 
+def _lzss():
+    import sys
+    path = os.path.join(HERE, '..', '..', 'ps2', 'menu')
+    if path not in sys.path:
+        sys.path.insert(0, path)
+    import lzss
+    return lzss
+
+
+def patch_teki(member_bytes, names, stats):
+    """English names in the TEKI list of member 08331. Returns new member
+    bytes, or None when nothing changed. Names longer than the 24 byte field
+    are left Japanese and counted."""
+    lzss = _lzss()
+    ents = _pak_entries(member_bytes)
+    if ents is None or len(ents) <= TEKI_CHILD:
+        raise ValueError('member %d is not the expected PAK' % TEKI_MEMBER)
+    blobs = [member_bytes[o:o + n] for o, n in ents]
+    packed = blobs[TEKI_CHILD]
+    version = packed[0]
+    inl, outl = struct.unpack_from('<II', packed, 1)
+    if version not in (1, 3):
+        raise ValueError('TEKI list is not LZSS packed')
+    raw = bytearray(lzss.decode(packed[9:9 + inl], version, outl))
+    if raw[:4] != b'TEKI' or len(raw) != 4 + TEKI_COUNT * TEKI_RECORD:
+        raise ValueError('unexpected TEKI list layout')
+    changed = False
+    for i in range(TEKI_COUNT):
+        at = 4 + i * TEKI_RECORD
+        field = bytes(raw[at:at + TEKI_NAME])
+        jp, _ = _decode(field.rstrip(b' ') + b'\x00', 0)
+        en = names.get(jp) if jp else None
+        if not en:
+            if jp and any(ord(ch) > 0x7F for ch in jp):
+                stats['teki_untranslated'] = stats.get('teki_untranslated', 0) + 1
+            continue
+        eb = psp_text.encode_line(en)
+        if len(eb) > TEKI_NAME:
+            stats['teki_too_long'] = stats.get('teki_too_long', 0) + 1
+            continue
+        raw[at:at + TEKI_NAME] = eb + b' ' * (TEKI_NAME - len(eb))
+        stats['teki_patched'] = stats.get('teki_patched', 0) + 1
+        changed = True
+    if not changed:
+        return None
+    new = lzss.pack(bytes(raw), version)
+    new += b'\x00' * ((-len(new)) % 4)
+    if lzss.decode(new[9:9 + struct.unpack_from('<I', new, 1)[0]], version, len(raw)) != bytes(raw):
+        raise ValueError('TEKI list LZSS round trip failed')
+    blobs[TEKI_CHILD] = new
+    return _rebuild_pak(blobs)
+
+
 def build_changed_members(boot_path, fpb_path, names=None, log=print):
     """Return {index: new_decompressed_bytes} for every enemy member that
     changed. Read straight from the archive via psp_fpb.read_member."""
@@ -194,10 +256,16 @@ def build_changed_members(boot_path, fpb_path, names=None, log=print):
         if new is not None:
             changed[idx] = new
             stats['members'] += 1
+    data, _kind = psp_fpb.read_member(fpb_path, boot, TEKI_MEMBER)
+    new = patch_teki(data, names, stats)
+    if new is not None:
+        changed[TEKI_MEMBER] = new
     if log:
         log('monster names: %d strings patched across %d members (%d of them inline ENd text, '
             'space padded; %d too long, skipped)'
             % (stats['patched'], stats['members'], stats['inline_text'], stats['too_long']))
+        log('TEKI list (encounter banner, member %d): %d names English, %d without a translation'
+            % (TEKI_MEMBER, stats.get('teki_patched', 0), stats.get('teki_untranslated', 0)))
     return changed, stats
 
 
