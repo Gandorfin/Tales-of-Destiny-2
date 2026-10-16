@@ -177,9 +177,11 @@ engineering, `armips` or this engine, open an issue or a pull request.
 * Text rules (`Dialogue and Script Layout Restrictions.md`): 36 visible
   characters per line, 126 per four-row page, `{02}` starts a page, control
   codes must match the Japanese exactly. A skit line is one line up to its
-  budget: no text speed faster than 20 characters per second and never more
-  than 384 characters (`python ps2/PyTOD2/skit_speed.py report <skit folder>`
-  and the audit check it).
+  budget: it has to finish revealing before the next line starts, at no
+  more than 30 characters per second if it fits one 60 character row and
+  no more than 20 per second if it is longer, never more than 384
+  characters (`python ps2/PyTOD2/skit_speed.py report <skit folder>` and
+  the audit check it).
 * Use the `[LOCK]` terms in `glossary.txt` and the voices in
   `character_voice_guide.txt`.
 * Write pull request descriptions so someone with no context (or another AI
