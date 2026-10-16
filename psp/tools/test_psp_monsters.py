@@ -54,3 +54,40 @@ class TableTests(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+
+class TekiListTests(unittest.TestCase):
+    """The encounter banner list in member 08331 (PAK child 2, LZSS)."""
+
+    def build_member(self):
+        lzss = pm._lzss()
+        raw = bytearray(b'TEKI' + bytes(pm.TEKI_COUNT * pm.TEKI_RECORD))
+        for i in range(pm.TEKI_COUNT):
+            at = 4 + i * pm.TEKI_RECORD
+            raw[at:at + pm.TEKI_NAME] = b' ' * pm.TEKI_NAME
+        name = enc(NAME)
+        raw[4:4 + len(name)] = name
+        raw[4 + pm.TEKI_NAME:4 + pm.TEKI_RECORD] = b'\0\x06\0\0'
+        long_jp = enc('ゴーレムゴーレムゴーレム')
+        raw[4 + pm.TEKI_RECORD:4 + pm.TEKI_RECORD + len(long_jp)] = long_jp
+        packed = lzss.pack(bytes(raw), 3)
+        packed += b'\0' * ((-len(packed)) % 4)
+        return pm._rebuild_pak([b'child0', b'child1', packed]), bytes(raw)
+
+    def test_names_written_space_padded_and_data_kept(self):
+        member, raw = self.build_member()
+        names = dict(NAMES, **{'ゴーレムゴーレムゴーレム': 'G' * 25})
+        st = {}
+        new = pm.patch_teki(member, names, st)
+        ents = pm._pak_entries(new)
+        self.assertEqual(new[ents[0][0]:ents[0][0] + ents[0][1]], b'child0')
+        blob = new[ents[2][0]:ents[2][0] + ents[2][1]]
+        inl, outl = __import__('struct').unpack_from('<II', blob, 1)
+        out = pm._lzss().decode(blob[9:9 + inl], blob[0], outl)
+        self.assertEqual(out[4:4 + pm.TEKI_RECORD], b'Golem' + b' ' * 19 + b'\0\x06\0\0')
+        self.assertEqual(out[4 + pm.TEKI_RECORD:], raw[4 + pm.TEKI_RECORD:])   # too long: untouched
+        self.assertEqual((st['teki_patched'], st['teki_too_long']), (1, 1))
+
+    def test_nothing_to_change_returns_none(self):
+        member, _ = self.build_member()
+        self.assertIsNone(pm.patch_teki(member, {}, {}))

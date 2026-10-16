@@ -362,8 +362,13 @@ The variable width font (`psp/tools/psp_vwf.py`) hooks all of these:
 * Enemy and Monster Book names live in the battle-resource members around
   `08378..09565`, one PAK level deep and then inside a raw deflate blob, in
   the game encoding (`psp/tools/psp_monsters.py`, `psp_monsters.tsv`). The
-  Monster Book screen itself still shows Japanese names from a source not
-  yet located.
+  encounter banner at the start of a battle ("Owlbear  1") reads the TEKI
+  list in member `08331` (PAK child 2, comptoe LZSS, codec
+  `ps2/menu/lzss.py`): "TEKI" then 256 records of 28 bytes, a 24 byte name
+  (game encoding, space padded) and 4 bytes of data; slot n = row n of
+  `ps2/menu/enemy_names.csv`. `psp_monsters.patch_teki` writes English
+  there (October 2026). The Monster Book screen most likely reads the same
+  list; not yet seen in game.
 * Movies: `/PSP_GAME/USRDIR/movie/0NN.pmf` (PSMF, H.264 + ATRAC3plus). PSP
   movie N is PS2 movie N - 1 frame for frame; PSP 012 repeats 008.
   `psp/tools/psp_movies.py` burns the PS2 subtitle tracks, `psp_pmf.py`

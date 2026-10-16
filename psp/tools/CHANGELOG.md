@@ -1,5 +1,27 @@
 # Changelog
 
+## 2026-10-16: encounter banner, menu tip, name entry labels
+
+Three leftovers seen while testing the variable width font (PR 124):
+
+* The enemy name banner at the start of a battle showed オウルベア. It reads
+  the TEKI list in member 08331 (PAK child 2, comptoe LZSS): "TEKI", 256
+  records of 28 bytes (24 byte name, 4 bytes data). No step touched it.
+  `psp_monsters.patch_teki` decodes it, writes the English from
+  `psp_monsters.tsv` (space padded), packs it again and rebuilds the PAK;
+  the other two children stay byte identical. 229 names, 27 empty slots.
+  Nine names were missing from the table and are added (Rimul, Death,
+  Thanatos Knight, Leon, Rutee, Woodrow, Philia, Lilith, ???), spelled as in
+  `ps2/menu/enemy_names.csv` and `glossary.txt`.
+* The first time menu tip (しばらくキー操作がないと...) had no table row.
+  BOOT.BIN file 0x1C3144, 126 bytes; the English (98 bytes) fits in place
+  and keeps the two colour codes.
+* The name entry mode labels "Hiragana" and "Katakana" ran into each other
+  (the labels sit in fixed slots); now "Hira" and "Kata".
+* Seen in PPSSPP (strict loader): "Owlbear  1" banner, the tip in English,
+  "Hira  Kata  ABC" without overlap. The Monster Book screen was not
+  reachable with the test save (Library not yet open).
+
 ## 2026-10-16: variable width font, lowercase bold menu text
 
 * English on the PSP looked like a typewriter: every single-byte letter
