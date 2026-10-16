@@ -299,6 +299,15 @@ Quiz Book, enemy text, font), `ps2/movies/README.md` (PS2 movies),
   differs from the PS2 one and has its own table (`psp_credits.tsv`).
 * Title credit: 4-bit TIM2 in member `00002` entry 1 (128 x 32),
   `psp/tools/psp_title.py`.
+* World map text: members `09272..09276` are sizes packs (u32 count, u32
+  sizes, children back to back, every size a multiple of 4), one per era
+  (present, future, altered present, Great War, final present). Child 19 is
+  the world map field script, an uncompressed `SCED`; the location name
+  that appears over a town or dungeon, signposts, mine labels, the inn on
+  the map, the box puzzle, the Draconis anchor scene and the ending
+  monologue are its F8 strings. PSP twin of the PS2 `09028..09032.pak0`.
+  The `クレスタの街` / `ラグナ遺跡` list in BOOT.BIN is a different list
+  these labels never read. `psp/tools/psp_worldmap.py`, `psp_worldmap.tsv`.
 
 ## Rules learned the hard way
 

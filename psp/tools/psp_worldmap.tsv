@@ -1,0 +1,140 @@
+# World map English for psp_worldmap.py: Japanese<TAB>English<TAB>source, \n = line break.
+# Keys are the decoded records of the field scripts in members 09272..09276
+# (child 19), control codes included. Sources: ps2-menu = the PS2 world map
+# row (ps2/menu/menu_translations.csv, 09028..09032.pak0) with PS2 slot cuts
+# undone; ps2-scenario / psp-supplement = the same Japanese in the scenario
+# text; translated = PSP only text.
+いってらっしゃいませ	Have a good day.	ps2-menu
+<0B:00000001>{14}{34}{08}{C0}<0B:00000000>ガルドになりますが\nお泊まりになりますか？	It'll be <0B:00000001>{14}{34}{08}{C0}<0B:00000000> Gald.\nWould you like to stay?	ps2-scenario
+お泊まりになりますか？	Would you like to stay?	ps2-scenario
+<03:00000000>　はい　\n　いいえ　	<03:00000000> Yes \n No 	ps2-menu
+ごゆっくりお休みください	Have a good night.	ps2-menu
+おはようございます	Good morning.	ps2-menu
+お金が足りません	Not enough Gald.	ps2-menu
+またのおこしをお待ちしております	See you again soon.	ps2-menu
+次のイベントは宿屋で発生します\n宿屋への誘導メッセージ	The next event occurs at Inn.\nGuide message to Inn.	psp-supplement
+次のイベントも宿屋で発生します\n宿屋への誘導メッセージ	The next event also occurs at Inn.\nGuide message to Inn.	psp-supplement
+次のイベントは神殿の門で発生します\n神殿への誘導メッセージ	The next event occurs at Temple Gate.\nGuide message to Temple.	psp-supplement
+次のイベントは遺跡の入口で発生します\n遺跡への誘導メッセージ	The next event occurs at Ruins Entrance.\nGuide message to Ruins.	psp-supplement
+次のイベントは村の中で発生します\n村の中への誘導メッセージ	The next event occurs at the Village.\nGuide message to the Village.	psp-supplement
+次のイベントは池付近で発生します\n池への誘導メッセージ	The next event occurs at Near the Pond.\nGuide message to Pond.	psp-supplement
+次のイベントはスタンの家で発生します\nスタンの家への誘導メッセージ	The next event occurs at Stahn House.\nGuide message to Stahn House.	psp-supplement
+次のイベントはハイデルベルグ広間で発生します\nハイデルベルグ城広間への誘導メッセージ	The next event occurs at Heidelberg Hall.\nGuide message to Heidelberg Castle Hall.	translated
+次のイベントは公園付近で発生します\n公園付近への誘導メッセージ	The next event occurs at Near the Park.\nGuide message to Near the Park.	psp-supplement
+次のイベントは記念公園で発生します\n記念公園への誘導メッセージ	The next event occurs at Memorial Park.\nGuide message to Memorial Park.	psp-supplement
+次のイベントはハイデルベルグ城謁見の間で発生します\nハイデルベルグ城謁見の間への誘導メッセージ	The next event occurs at Heidelberg Castle Audience Chamber.\nGuide message to Heidelberg Castle Audience Chamber.	translated
+次のイベントは城の客室で発生します\n客室への誘導メッセージ	The next event occurs at Castle Guest Room.\nGuide message to Guest Room.	psp-supplement
+次のイベントは噴水広場で発生します\n噴水広場への誘導メッセージ	The next event occurs at Fountain Plaza.\nGuide message to Fountain Plaza.	psp-supplement
+次のイベントは世界地図部屋で発生します\n世界地図部屋への誘導メッセージ	The next event occurs at World Map Room.\nGuide message to World Map Room.	psp-supplement
+次のイベントはレアルタ資料室で発生します\nレアルタ資料室への誘導メッセージ	The next event occurs at Realta Archives.\nGuide message to Realta Archives.	psp-supplement
+次のイベントは作戦室で発生します\n作戦室への誘導メッセージ	The next event occurs at Strategy Room.\nGuide message to Strategy Room.	psp-supplement
+時系列に対応するメッセージはありません	No message for this timeline.	psp-supplement
+この時系列のシナリオは、十年後のストレイライズ大神殿町キャラシナリオテキスト\n「1500X_??.STX」に記載しています	This timeline's scenario is in the town text\nof Straylize Grand Temple ten years later,\n"1500X_??.STX".	translated
+この時系列では参拝客は神殿内に配置しないので\n話しかけることはできない	Worshippers aren't placed in the temple in{02}this timeline, so you can't talk to them.	psp-supplement
+{16}{25}{B6}{C0}を手に入れました	Acquired {16}{25}{B6}{C0}.	ps2-menu
+<item:FFFFFFFF>を手に入れました	Acquired <item:FFFFFFFF>.	ps2-menu
+{16}{25}{BE}{C0}がありましたが\nいっぱいで持てませんでした	Found {16}{25}{BE}{C0}, but\nyour inventory is full.	ps2-menu
+{16}{25}{C2}{C0}を受け取りましたが\nいっぱいで持てませんでした	Received {16}{25}{C2}{C0}, but\nyour inventory is full.	psp-supplement
+何もありません	Nothing here.	ps2-menu
+定期船イベントエントリー	Ferry Event Entry	ps2-menu
+通常エントリー[現代]	Normal [Present]	ps2-menu
+西：大陸西部の坑道\n　　（ノイシュタット方面）\n北：リーネ	W: Western Mine\n   (toward Neuestadt)\nN: Lienea	ps2-menu
+西：オベロン社廃坑\n南：ノイシュタット	W: Oberon Mine\nS: Neuestadt	ps2-menu
+西：ダリルシェイド\n東：ラグナ遺跡	W: Darilsheid\nE: Laguna Ruins	ps2-menu
+クレスタ～ダリルシェイド街道	Cresta-Darilsheid Road	ps2-menu
+ダリルシェイド	Darilsheid	ps2-menu
+北：ハーメンツヴァレー\n南：ダリルシェイド	N: Harmentz Valley\nS: Darilsheid	ps2-menu
+北：ハイデルベルグ\n西：地上軍拠点跡地	N: Heidelberg\nW: Er'ther Ruins	ps2-menu
+西：大陸西部の坑道\n　　（ノイシュタット方面）\n南：大陸北部の坑道	W: Western Mine\n   (toward Neuestadt)\nS: Northern Mine	ps2-menu
+これより北、ダリルシェイド	North: Darilsheid	ps2-menu
+北：坑道南西出入口\n西：ノイシュタット方面\n東：リーネ方面	N: Mine SW Exit\nW: toward Neuestadt\nE: toward Lienea	ps2-menu
+クレスタの街	Cresta	ps2-menu
+デュナミス孤児院	Dunamis Orphanage	ps2-scenario
+ラグナ遺跡	Laguna Ruins	ps2-menu
+古都ダリルシェイド	Old Darilsheid	ps2-menu
+地上軍拠点跡地	Er'ther Ruins	ps2-menu
+ハーメンツヴァレー	Harmentz Valley	ps2-menu
+アイグレッテ・グランドバザール	Aigrette Grand Bazaar	ps2-menu
+アイグレッテ・門前町	Aigrette - Gate Town	ps2-menu
+アイグレッテ港	Port Aigrette	ps2-menu
+ハイデルベルグ	Heidelberg	ps2-menu
+リーネの村	Lienea	ps2-menu
+大陸北部の坑道・北側出入口	Northern Mine: N Entrance	ps2-menu
+大陸北部の坑道・南側出入口	Northern Mine: S Entrance	ps2-menu
+大陸西部の坑道・北東出入口	Western Mine: NE Entrance	ps2-menu
+大陸西部の坑道・南東出入口	Western Mine: SE Entrance	ps2-menu
+大陸西部の坑道・南西出入口	Western Mine: SW Entrance	ps2-menu
+大陸西部の坑道・北西出入口	Western Mine: NW Entrance	ps2-menu
+大陸南部の坑道・北西出入口	Southern Mine: NW Entrance	ps2-menu
+大陸南部の坑道・南側出入口	Southern Mine: S Entrance	ps2-menu
+大陸南部の坑道・北東出入口	Southern Mine: NE Entrance	ps2-menu
+山小屋	Cabin	ps2-menu
+オベロン社廃坑	Oberon Mine	ps2-menu
+スノーフリア	Frostheim	ps2-menu
+ノイシュタット	Neuestadt	ps2-menu
+チェリク	Cherik	ps2-menu
+ホープタウン	Hope Town	ps2-menu
+カルビオラ	Kalviola	ps2-menu
+アクアヴェイル	Aquaveil	ps2-menu
+チェルシーの小屋	Chelsea's Hut	ps2-menu
+小さな家	Small House	ps2-scenario
+鍛冶屋のテント	Smith's Tent	ps2-menu
+ねこにんの村	Katz Village	ps2-menu
+小屋	Hut	ps2-menu
+箱を押して穴に落とし通れる場所を作り\n出口を目指してください。\n<button:00000025>ボタンで箱を押すことができます。\n逆に引くことはできません	Push the boxes into the holes to make\na path and head for the exit.\n<button:00000025> pushes a box.\nYou cannot pull them.	translated
+途中でやり直したくなったら\nSELECTボタンのメニューから「やり直す」を選べば\n全ての箱を初期位置に戻すことができます。\nその際、自分も入口に戻されます	To start over, choose "Retry" in\nthe SELECT button menu. All boxes go\nback to where they started, and you\nreturn to the entrance.	translated
+ちなみに、この部屋の中では\n<button:00000028>ボタンによるシステムメニューは\n利用できません	By the way, you cannot open the\n<button:00000028> system menu in this room.	translated
+<03:00000000><size:00000200>クリア！！\n	<03:00000000><size:00000200>Clear!!\n	ps2-menu
+<03:00000000>　やり直し\n　戻る\n	<03:00000000> Retry\n Back\n	translated
+<03:00000000>箱の位置がリセットされました。	<03:00000000>Box positions reset.	ps2-menu
+<03:00000002>飛行竜にアンカーを撃ち込む！\n背中から飛行竜に乗り移るんだ！\n用意はいいか！	<03:00000002>Fire the anchor into the Draconis!\nJump across onto its back!\nReady?	ps2-menu
+<03:00000002>いつでもいける！	<03:00000002>Ready anytime!	ps2-menu
+<03:00000002>よしっ！アンカー射出！	<03:00000002>All right! Anchor away!	ps2-menu
+<03:00000002>おい！俺たちも巻き込まれちまうぞ!?\nなにやってんだ、<Judas>！逃げろ！	<03:00000002>Hey! We'll get caught in it too!?\nWhat are you doing, <Judas>!? Run!	ps2-menu
+<03:00000002>くそっ！出力が上がらない！\nどうなっているんだ!?	<03:00000002>Damn! The output won't rise!\nWhat's going on!?	ps2-menu
+<03:00000002>ダメだっ！間に合わねぇ！	<03:00000002>Damn! We won't make it!	ps2-menu
+<03:00000002>うわぁー！	<03:00000002>Waaah!	ps2-menu
+<03:00000002>きゃぁー！	<03:00000002>Kyaaah!	ps2-menu
+<03:00000000><size:00000320>全面クリア！！\n	<03:00000000><size:00000320>All Clear!!\n	ps2-menu
+終了しますか？<03:00000000>\n　はい\n　いいえ\n	Quit?<03:00000000>\n Yes\n No\n	ps2-menu
+<03:00000000>　やり直す\n　終了する\n　キャンセル\n	<03:00000000> Retry\n Quit\n Cancel\n	ps2-menu
+未来フィールド（実際は地域名）	Future Field (region name in game)	translated
+通常エントリー[未来]	Normal [Future]	ps2-menu
+看板テスト！未来	Sign Test Future	ps2-menu
+アイグレッテ	Aigrette	ps2-menu
+ヒートリバー	Heat River	ps2-menu
+トラッシュマウンテン	Trash Mountain	ps2-menu
+聖地カルビオラ	Holy Kalviola	ps2-menu
+通常エントリー[改変現代]	Normal [Altered Now]	ps2-menu
+光のほこらは、\n本山道を抜けた山頂にございます\nご用のある方のみ、お通り下さい\n　　　　　光のほこら管理事務局	The Shrine of Light stands on the\npeak beyond the main mountain path.\nOnly those with business may pass.\n   Shrine of Light Admin Office	translated
+蒼天都市ヴァンジェロ	Azure City Vangelo	ps2-menu
+紅蓮都市スペランツァ	Crimson City Speranza	ps2-menu
+黄昏都市レアルタ	Dusk City Realta	ps2-menu
+光のほこら	Shrine of Light	ps2-scenario
+未開の森	Wildwood	ps2-menu
+海岸の洞窟	Coast Cave	ps2-menu
+空中都市の残骸	Aeropolis Ruins	ps2-scenario
+外殻ダンジョン	Shell Dungeon	ps2-menu
+通常エントリー[天地戦争]	Normal [Great War]	ps2-menu
+通常エントリー[天地戦争]デフォルト	Normal [Great War] Default	ps2-menu
+看板テスト！天地	Sign Test War	ps2-menu
+地上軍拠点	Er'ther HQ	ps2-menu
+スパイラルケイブ	Spiral Cave	ps2-menu
+物資保管所	Storehouse	ps2-menu
+ダイクロフト入口	Dycroft Entrance	ps2-menu
+通常エントリー[最終現代]	Normal [Final Era]	ps2-menu
+神のたまご	Atamoni Ovum	ps2-menu
+やり直しますか？<03:00000000>\n　はい\n　いいえ\n	Try again?<03:00000000>\n Yes\n No\n	ps2-menu
+<03:00000002>････英雄ってなんだろう？\nオレは、最近よくそう考えるんだ	<03:00000002>...What is a hero, anyway?\nI think about that a lot now.	ps2-menu
+<03:00000002>世界を救うのが英雄？\nみんなを助けるのが英雄？	<03:00000002>A hero saves the world?\nOr helps everyone?	ps2-menu
+<03:00000002>十八年前、父さんたちは\nたしかに世界を救った	<03:00000002>Eighteen years ago, Dad\ndid save the world.	ps2-menu
+<03:00000002>････けど、いま\nこの世界が平和でうつくしいのは\n英雄がいたからだけじゃあ、きっと、ない	<03:00000002>...But I'm sure the world isn't\npeaceful and beautiful now\njust because of heroes.	ps2-menu
+<03:00000002>その答えを、オレは、探しにいきたい	<03:00000002>I want to go find that answer.	ps2-menu
+<03:00000002>どこかで、なにかが････\nだれかが････	<03:00000002>Somewhere, something...\nSomeone...	ps2-menu
+<03:00000002>オレを待っている	<03:00000002>waiting for me.	ps2-menu
+<03:00000002>そんな予感がするから････	<03:00000002>I've got a feeling...	ps2-menu
+<Kyle>は\n称号「<item:0000086E>」を得ました\n	<Kyle> acquired the title\n"<item:0000086E>".\n	translated
+<03:00000000>イクシフォスラー搭乗時は、\n通常のフィールドと操作が異なります	<03:00000000>Aboard the Ixifoslar, the controls\ndiffer from the normal field.	translated
+<03:00000000><size:000000F8>　　<button:00000007>　：　下降　　　　　\n　　<button:00000008>　：　上昇　　　　　\n　　<button:00000012>　：　左右旋回　　　\n　　<button:00000025>　：　前進　　　　　	<03:00000000><size:000000F8>  <button:00000007> : Descend       \n  <button:00000008> : Ascend        \n  <button:00000012> : Turn          \n  <button:00000025> : Forward       	translated
+<03:00000000><size:000000F8>　　<button:00000027>　：　後退　　　　　\n　　<button:00000026>　：　着陸　　　　　\n　　<button:0000002A>　：　ワールドマップ\n<button:00000029>＋<button:00000009>　：　カメラ視点上下	<03:00000000><size:000000F8>  <button:00000027> : Back          \n  <button:00000026> : Land          \n  <button:0000002A> : World Map     \n<button:00000029>+<button:00000009> : Camera Up/Down	translated
+<03:00000000><size:000000E6>★上記操作は、「カスタム」の\n　「フィールド操作」が\n　デフォルトの場合です	<03:00000000><size:000000E6>★These controls apply when\n "Field Controls" in "Custom"\n is set to Default.	translated

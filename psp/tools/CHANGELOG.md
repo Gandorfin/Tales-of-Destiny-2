@@ -1,5 +1,18 @@
 # Changelog
 
+## 2026-10-16: world map location names and scripts in English
+
+* Gandorff (PSP 0.3.0): the location name over a town or dungeon on the
+  world map was Japanese ("ラグナ遺跡", "クレスタの街"). The labels live in
+  the world map field scripts (child 19, an SCED, of the sizes packs
+  09272..09276), which no build step touched; the English "Cresta" in
+  BOOT.BIN is a different list. The same scripts also held the signposts,
+  mine labels, the inn on the map, the box puzzle, the Draconis anchor
+  scene and the ending monologue, all Japanese until now.
+* New `psp_worldmap.py` + `psp_worldmap.tsv` (373 strings in 5 scripts, 134
+  distinct; 120 reuse the PS2 world map English, 14 PSP only strings newly
+  translated), wired into `build_psp.py` with its own verify step.
+
 ## 2026-10-16: the string pool now loads on a real PSP and on a PS Vita
 
 * Cause of the random characters and freezes on a PS Vita (Adrenaline) and
