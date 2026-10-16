@@ -271,8 +271,10 @@ def insert_sced(d, records, addrs):
 def retime_skit(name, original, rebuilt, addrs, records, table):
     """Set the text speed of every line of one skit (see ps2/PyTOD2/
     skit_speed.py). PSP skit member n plays the same lines as PS2 skit
-    n - PS2_SKIT_OFFSET, so the PS2 time window of each line applies; the
-    original speed and Japanese glyph count come from the retail SCED.
+    n - PS2_SKIT_OFFSET, with the same cue times (all 608 timed skits
+    checked on the retail images, 2026-10-16), so the PS2 time window of
+    each line applies; the original speed and Japanese glyph count come
+    from the retail SCED.
     Returns (bytes, speeds) or (rebuilt, None) when the skit has no PS2 twin."""
     rows = table.get('%05d_02.sced' % (int(name) - PS2_SKIT_OFFSET))
     if rows is None or len(rows) != len(addrs):

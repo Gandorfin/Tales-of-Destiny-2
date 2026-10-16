@@ -25,10 +25,14 @@ CRITICAL (these can crash the game or hide text, and should never grow):
                        fragment).
   source-drift         A maintained Third pass source file differs from its
                        build-ready TXT_EN copy, or is missing on either side.
-  skit-budget          A skit line is longer than its budget (it would need
-                       a text speed below 3 frames per glyph, or more than
-                       384 glyphs), or has more than one English line. See
-                       ps2/PyTOD2/skit_speed.py.
+  skit-budget          A skit line is longer than its budget, or has more
+                       than one English line. The speed a line needs to
+                       finish revealing before the next line starts (its
+                       window, from the script's cue times) may not be
+                       below 2 frames per glyph for a line that fits one
+                       60 glyph row, or below 3 for a longer line (it
+                       scrolls, so its reveal is the reading speed); never
+                       more than 384 glyphs. See ps2/PyTOD2/skit_speed.py.
 
 INFO (quality signals, reported but not build-breaking):
   layout-width         A rendered segment exceeds 36 visible characters

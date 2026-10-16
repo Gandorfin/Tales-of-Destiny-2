@@ -1,5 +1,17 @@
 # Changelog
 
+## 2026-10-16: skit lines finish before the next speaker
+
+* `psp/text/skit_speeds.json` (synced from the PS2 table) now holds each
+  line's window from the skit script's cue times: the frames from the
+  line's first glyph until the next line starts (or the skit closes),
+  never less than the Japanese took. The old window let 1,073 of 2,412
+  lines keep revealing after the next line had started (dreck's report on
+  PS2 1.3.0; the PSP uses the same table).
+* The PSP skits have the same cue times as their PS2 twins (all 608 timed
+  skits checked), so no PSP code change was needed; `retime_skit` is the
+  same rule as before with the new windows.
+
 ## 2026-10-15: the PSP's own text in psp/text
 
 * The PSP build reads its text only from `psp/text` (scenario, skits,

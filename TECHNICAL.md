@@ -82,14 +82,36 @@ Quiz Book, enemy text, font), `ps2/movies/README.md` (PS2 movies),
   `0xF8` text instruction (found by SkyBladeCloud). A skit line renders as
   one ticker line; two rows show, a line leaves when the line after next
   starts, and about 60 glyphs fit before the start scrolls away.
-* `ps2/PyTOD2/skit_speed.py` sets each line's speed from its window:
-  `window = max(original speed * Japanese glyphs, glyphs of the earlier
-  English (PR 18, validated against recorded voice windows) * 7.5 frames)`,
-  `speed = window // English glyphs`. Budget: never faster
-  than 20 glyphs per second (speed at least 3), never more than 384
-  characters. Original speeds and windows are stored in
-  `ps2/PyTOD2/skit_speeds.json` so repeated builds do not keep speeding up.
-  `00054_02` (the opening diary) is untimed and exempt.
+* A line starts at a fixed time, not when the previous text is done. Each
+  skit plays one voice track (the FILE.FPB member right after the skit,
+  `00066` plays `00067`), and before each line the script waits twice,
+  `FE <push T> CE C0 F3 ..` and `FE <push T+3> CF C0 F3 ..`, T in frames
+  (59.94 per second) since the skit started. T+3 is the line's cue. All
+  2412 timed lines have one, in rising order. Measured on dreck's 1.3.0
+  and Japanese recordings (2026-10-16): line changes in both languages land
+  on the cues within 3 frames; the next line's box starts moving at its
+  first wait (cue - 3), a line's first glyph appears about 13 frames after
+  its cue, and the skit closes 4 frames after its voice track ends. Text
+  still revealing when the next line starts keeps revealing in the upper
+  row while the next speaker talks (seen in the 1.3.0 recording); the last
+  line has until the skit closes.
+* `ps2/PyTOD2/skit_speed.py` sets each line's speed from its window, the
+  frames from its first glyph to the next line's box:
+  `window = max(next cue - 3 - (cue + 13), original speed * Japanese glyphs)`
+  (last line: `voice track frames + 4 - (cue + 13)`), then
+  `speed = window // English glyphs`, at most the original, at least 1.
+  So the English ends revealing before the next line starts, or no later
+  than the Japanese where the Japanese itself runs past the cue. Budget
+  (audit `skit-budget`): a line that fits one 60 glyph row may need a
+  speed of 2 (30 glyphs per second, the fastest the Japanese game uses,
+  in `00856_02`), a longer line scrolls and needs at least 3 (20 per
+  second), never more than 384 characters. Original speeds and windows are
+  stored in `ps2/PyTOD2/skit_speeds.json` (`skit_speed.py table <ISO>`
+  rebuilds it from the retail ISO) so repeated builds do not keep speeding
+  up. `00054_02` (the opening diary) is untimed and exempt. Until
+  2026-10-16 the window was `max(original speed * Japanese glyphs, PR 18
+  English glyphs * 7.5 frames)`; with it 1073 of 2412 lines were still
+  revealing when the next line started (802 by more than half a second).
 * Glyph counting for budgets: spaces count, a name tag counts as the name's
   letters, `<button:..>` is 1, `<char:..>` is 5, other codes 0.
 

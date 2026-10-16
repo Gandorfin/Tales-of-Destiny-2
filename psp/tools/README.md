@@ -37,6 +37,14 @@ the PS2 translation:
 | `quiz_translations.csv` | `ps2/menu/quiz_translations.csv` | Quiz Book English (`psp_quiz.py`) |
 | `overrides.tsv` | (PSP only) | PSP only fixes, they win over everything else |
 
+Skit text speed: PSP skit member n is PS2 skit n - 159, with the same line
+cue times (checked for all 608 timed skits). Each line gets the PS2 window
+from `skit_speeds.json` (the frames from its first glyph until the next line
+starts, never less than the Japanese took) and the speed window // English
+glyphs, so the English finishes revealing before the next speaker; rules
+in `ps2/PyTOD2/skit_speed.py` and `TECHNICAL.md`. The build prints how many
+lines got which speed.
+
 The copies change only when the sync runs, so an edit of the PS2 text never
 changes a PSP build by surprise, and the PSP build does not depend on what
 the PS2 folders look like on the build machine. Never edit the copies in
