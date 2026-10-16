@@ -23,6 +23,12 @@ A string is normally found as a NUL-bounded run; a run that starts right
 after other bytes (the tail of a binary record, e.g. 名前入力 at file
 0x1C79F8) counts only when a relocation points exactly at it.
 Nothing existing is shifted (pool is purely appended).
+
+The pool header is appended as header 3, after the relocation header. That
+order only works in PPSSPP: the PSP kernel stops loading at the relocation
+header. make_hardware_loadable() reorders the headers for real hardware; the
+build runs it last, after every tool that reads the relocation table with
+the fixed header indices used here.
 """
 import struct, collections
 
@@ -123,6 +129,8 @@ def _rewrite_code_pairs(b, groups, moved, st, log):
 
 def add_pool_and_relocate(boot, items, log=print):
     b = bytearray(boot)
+    if struct.unpack_from('<H', b, 0x2c)[0] != 3:
+        raise ValueError('add_pool_and_relocate expects the retail three program headers')
     st = collections.Counter()
     ptr_map = _reloc_pointer_map(b)
     groups = _code_pair_groups(b)
@@ -173,6 +181,108 @@ def add_pool_and_relocate(boot, items, log=print):
     struct.pack_into('<H', b, 0x2c, 4)   # e_phnum = 4
     st['pool_bytes'] = len(pool)
     return bytes(b), st
+
+
+PT_LOAD, PT_PSP_REL = 1, 0x700000A0
+HW_ORDER = (0, 3, 1, 2)        # new header i comes from old header HW_ORDER[i]
+
+
+def _headers(b):
+    n = struct.unpack_from('<H', b, 0x2c)[0]
+    return [list(struct.unpack_from('<8I', b, 0x34 + 32 * i)) for i in range(n)]
+
+
+def hardware_segments(b):
+    """The segments the PSP kernel itself loads, following loadcore's
+    sceKernelLoadExecutableObject: starting at the first PT_LOAD header it
+    takes PT_LOAD headers while they are CONSECUTIVE and stops at the first
+    other header, which must be the relocation header. PPSSPP instead loads
+    every PT_LOAD header wherever it sits, so a layout can work in PPSSPP and
+    fail on a PSP or a PS Vita (Adrenaline runs the real PSP kernel).
+    Returns (list of loaded header indices, index of the relocation header)."""
+    ph = _headers(b)
+    i = 0
+    while i < len(ph) and ph[i][0] != PT_LOAD:
+        i += 1
+    loaded = []
+    while i < len(ph) and ph[i][0] == PT_LOAD:
+        loaded.append(i)
+        i += 1
+    return loaded, (i if i < len(ph) else None)
+
+
+def check_hardware_layout(boot):
+    """Raise ValueError unless the PSP kernel would load every PT_LOAD
+    segment (the pool included) and apply every relocation. Returns a short
+    summary dict."""
+    b = boot
+    ph = _headers(b)
+    loaded, rel = hardware_segments(b)
+    all_loads = [i for i, p in enumerate(ph) if p[0] == PT_LOAD]
+    if loaded != all_loads:
+        raise ValueError('PT_LOAD headers %s are not consecutive: the PSP kernel only loads %s'
+                         % (all_loads, loaded))
+    if len(loaded) > 3:
+        raise ValueError('%d PT_LOAD segments: loadcore refuses 4 or more' % len(loaded))
+    if rel is None or ph[rel][0] != PT_PSP_REL:
+        raise ValueError('the header after the last PT_LOAD must be the relocation header')
+    off, size = ph[rel][1], ph[rel][4]
+    used = set()
+    for p in range(off, off + size, 8):
+        info = struct.unpack_from('<I', b, p + 4)[0]
+        used.add((info >> 8) & 0xff)
+        used.add((info >> 16) & 0xff)
+    bad = sorted(x for x in used if x >= len(loaded))
+    if bad:
+        raise ValueError('relocations name segment(s) %s; the kernel loads only %d' % (bad, len(loaded)))
+    pool = [i for i in loaded if ph[i][2] == POOL_VADDR]
+    return {'loaded_segments': len(loaded), 'pool_header': pool[0] if pool else None,
+            'relocations': size // 8}
+
+
+def make_hardware_loadable(boot):
+    """Reorder the program headers from the build's [text, data, relocation,
+    pool] to [text, pool, data, relocation] so the PSP kernel loads the pool.
+
+    Why: psp_pool appends the pool as header 3, after the relocation header.
+    The kernel stops at the relocation header, so on a PSP or a Vita the pool
+    was never copied into memory and every pooled string (about 1,800 menu,
+    item and arte strings, plus the bold routine's slot table) read whatever
+    the game had in that memory: blank labels, random characters, freezes.
+    PPSSPP loads every PT_LOAD header and never showed it.
+
+    Why this order: the kernel zero-fills the bss of the LAST loaded segment
+    only (loadcore memsets p_memsz - p_filesz for i >= numSegments - 1), so
+    the data segment with its 6 MB bss has to stay last; the pool, which has
+    no bss, goes between text and data.
+
+    Relocation entries name segments by header index (offset base and
+    address base), so every index is remapped with the headers: data 1 -> 2,
+    pool 3 -> 1, relocation 2 -> 3. Segment addresses do not change, so the
+    loaded image is byte for byte what PPSSPP loaded before. File offsets do
+    not move either. Idempotent: an image already in this order is returned
+    unchanged. Returns (bytes, info)."""
+    b = bytearray(boot)
+    ph = _headers(b)
+    types = [p[0] for p in ph]
+    if types == [PT_LOAD, PT_LOAD, PT_LOAD, PT_PSP_REL] and ph[1][2] == POOL_VADDR:
+        return bytes(b), {'reordered': False}
+    if types != [PT_LOAD, PT_LOAD, PT_PSP_REL, PT_LOAD] or ph[3][2] != POOL_VADDR:
+        raise ValueError('unexpected program headers %s' % ['0x%X' % t for t in types])
+    new_index = {old: new for new, old in enumerate(HW_ORDER)}
+    for i, old in enumerate(HW_ORDER):
+        struct.pack_into('<8I', b, 0x34 + 32 * i, *ph[old])
+    off, size = ph[2][1], ph[2][4]
+    remapped = 0
+    for p in range(off, off + size, 8):
+        info = struct.unpack_from('<I', b, p + 4)[0]
+        ofsb, adrb = (info >> 8) & 0xff, (info >> 16) & 0xff
+        n_ofsb, n_adrb = new_index.get(ofsb, ofsb), new_index.get(adrb, adrb)
+        if (n_ofsb, n_adrb) != (ofsb, adrb):
+            info = (info & 0xff0000ff) | (n_ofsb << 8) | (n_adrb << 16)
+            struct.pack_into('<I', b, p + 4, info)
+            remapped += 1
+    return bytes(b), {'reordered': True, 'relocations_remapped': remapped}
 
 
 def relocate_menu(boot, table_path=None):

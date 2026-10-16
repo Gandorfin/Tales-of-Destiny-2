@@ -115,5 +115,108 @@ class PoolTests(unittest.TestCase):
         self.assertEqual(st['code_pairs_rewritten'], 0)
 
 
+BASE = 0x08804000
+
+
+def load_module(b, kernel):
+    """Tiny model of the two loaders. kernel=True follows the PSP kernel
+    (loadcore sceKernelLoadExecutableObject): PT_LOAD headers are taken from
+    the first one while they are consecutive, the next header must be the
+    relocation header, relocation indices count loaded segments, and only the
+    last loaded segment gets its bss zeroed. kernel=False follows PPSSPP
+    (ElfReader::LoadInto): every PT_LOAD header is loaded, indices are header
+    indices. Memory that nothing wrote reads as 0xEE (stale RAM).
+    Returns read(vaddr, n) over the loaded image."""
+    ph = pool._headers(b)
+    if kernel:
+        loaded, rel = pool.hardware_segments(b)
+    else:
+        loaded = [i for i, p in enumerate(ph) if p[0] == pool.PT_LOAD]
+        rel = [i for i, p in enumerate(ph) if p[0] == pool.PT_PSP_REL][0]
+    mem = {}
+    seg_addr = {}
+    for n, i in enumerate(loaded):
+        _, off, va, _, filesz, memsz, _, _ = ph[i]
+        seg_addr[n if kernel else i] = va
+        for k in range(filesz):
+            mem[va + k] = b[off + k]
+        if (not kernel or n == len(loaded) - 1) and memsz > filesz:
+            for k in range(filesz, memsz):
+                mem[va + k] = 0
+    _, off, _, _, size, _, _, _ = ph[rel]
+    for p in range(off, off + size, 8):
+        r_off, info = struct.unpack_from('<II', b, p)
+        typ, ofsb, adrb = info & 0xff, (info >> 8) & 0xff, (info >> 16) & 0xff
+        if typ != pool.R_MIPS_32:
+            continue
+        at = seg_addr[ofsb] + r_off
+        word = int.from_bytes(bytes(mem[at + k] for k in range(4)), 'little')
+        word = (word + seg_addr[adrb] + BASE) & 0xffffffff
+        for k in range(4):
+            mem[at + k] = (word >> (8 * k)) & 0xff
+
+    def read(vaddr, n):
+        return bytes(mem.get(vaddr + k, 0xEE) for k in range(n))
+    return read
+
+
+class HardwareLayoutTests(unittest.TestCase):
+    """The pool must be loaded by the PSP kernel, not only by PPSSPP."""
+
+    def built(self):
+        img = Image()
+        # a data segment with bss, like the retail one (file 0xC3000, memory 0x6A3C48)
+        struct.pack_into('<8I', img.b, 0x54, 1, 0x1DCD00, 0x1DCC00, 0x1DCC00, 0x100, 0x6A3C48, 6, 0x40)
+        img.text(0x1AB014, JP)
+        img.word(0x1DCC10, 0x1AB014)               # data pointer (offset base 1) to the string
+        img.reloc(pool.R_MIPS_32, 0x1DCC10)
+        img.word(0x1DCC20, 0x30)                    # pointer into the data segment (address base 1)
+        img.reloc(pool.R_MIPS_32, 0x1DCC20, seg=1)
+        out, _ = pool.add_pool_and_relocate(bytes(img.b), [(JP, EN)], log=None)
+        return out
+
+    def follow(self, read, at):
+        ptr = int.from_bytes(read(at, 4), 'little') - BASE
+        return read(ptr, len(EN) + 1)
+
+    def test_old_layout_loses_the_pool_on_hardware(self):
+        out = self.built()
+        self.assertEqual(self.follow(load_module(out, kernel=False), 0x1DCC10), EN + b'\0')
+        self.assertNotEqual(self.follow(load_module(out, kernel=True), 0x1DCC10), EN + b'\0')
+        with self.assertRaisesRegex(ValueError, 'not consecutive'):
+            pool.check_hardware_layout(out)
+
+    def test_reordered_layout_loads_the_pool_everywhere(self):
+        out, info = pool.make_hardware_loadable(self.built())
+        self.assertTrue(info['reordered'])
+        self.assertEqual([p[0] for p in pool._headers(out)], [1, 1, 1, pool.PT_PSP_REL])
+        self.assertEqual([p[2] for p in pool._headers(out)[:3]], [0, pool.POOL_VADDR, 0x1DCC00])
+        self.assertEqual(pool.check_hardware_layout(out)['pool_header'], 1)
+        for kernel in (False, True):
+            read = load_module(out, kernel)
+            self.assertEqual(self.follow(read, 0x1DCC10), EN + b'\0')
+            # the data-relative pointer still lands in the data segment
+            self.assertEqual(int.from_bytes(read(0x1DCC20, 4), 'little'), BASE + 0x1DCC00 + 0x30)
+            # the data segment keeps its zeroed bss (it is the last loaded segment)
+            self.assertEqual(read(0x1DCC00 + 0x200, 4), b'\0' * 4)
+
+    def test_reorder_is_idempotent_and_keeps_file_bytes(self):
+        before = self.built()
+        once, _ = pool.make_hardware_loadable(before)
+        twice, info = pool.make_hardware_loadable(once)
+        self.assertFalse(info['reordered'])
+        self.assertEqual(once, twice)
+        self.assertEqual(len(once), len(before))
+        # only the header table and the relocation info words change
+        rel = pool._headers(before)[2]
+        diff = [i for i in range(len(before)) if before[i] != once[i]]
+        self.assertTrue(all(0x34 <= i < 0xB4 or rel[1] <= i < rel[1] + rel[4] for i in diff))
+
+    def test_pool_step_refuses_a_reordered_image(self):
+        out, _ = pool.make_hardware_loadable(self.built())
+        with self.assertRaises(ValueError):
+            pool.add_pool_and_relocate(out, [(JP, EN)], log=None)
+
+
 if __name__ == '__main__':
     unittest.main()

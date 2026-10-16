@@ -177,7 +177,19 @@ relocated reference to the Japanese string is pointed at the pool:
 
 A string that directly follows other bytes instead of a NUL (for example
 名前入力 after a binary record at file 0x1C79F8) is taken only when a
-relocation points exactly at it. Tests (synthetic images, no ISO needed):
+relocation points exactly at it.
+
+The pool header is first appended after the relocation header (header 3).
+As the very last BOOT.BIN step, `build_psp.py` calls
+`psp_pool.make_hardware_loadable`, which moves it between text and data
+(text, pool, data, relocation) and renumbers the segment indices of every
+relocation entry. Without that the PSP kernel (real PSP, PS Vita
+Adrenaline) never loads the pool, because it only loads PT_LOAD headers that
+follow each other and stops at the relocation header; PPSSPP loads it
+either way. The build prints `hardware load layout: {...}` and stops if
+`check_hardware_layout` finds a layout the kernel would load differently.
+
+Tests (synthetic images, no ISO needed; they model both loaders):
 
 ```
 python -B -m unittest discover -s psp/tools -p test_psp_pool.py -v
