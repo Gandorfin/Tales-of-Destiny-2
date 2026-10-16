@@ -1,5 +1,34 @@
 # Changelog
 
+## 2026-10-16: one English typeface (Fira Sans) for all PSP text
+
+* Problem (seen by the user on PR 124's build): the letters bounced up and
+  down and some were hard to read ("orphanage" looked like "or hanage").
+  The Latin glyphs came from three sources: retail full-width capitals and
+  digits, eleven retail lowercase letters and fifteen hand-made ones, with
+  different x-heights, baselines and weights; PR 124 then pushed g p q y j
+  down by hand, which made it worse.
+* New `psp_latin_font.py`: draws all printable ASCII from Fira Sans
+  SemiBold (SIL Open Font License; `psp/fonts/FiraSans-SemiBold-ASCII.ttf`,
+  subset to ASCII, license in `psp/fonts/OFL.txt`) into font 1 and the bold
+  menu font copy: one baseline, cap height and x-height, real descenders,
+  the font's own advances plus tracking, retail white-with-outline style.
+  `render` (needs Pillow) writes `psp/fonts/latin_glyphs.json`; the build
+  only reads that table.
+* `psp_vwf.py`: widths from that table (no glyph measuring, no descender or
+  hyphen hacks), sprites a full cell wide so letters keep their real
+  proportions. `psp_bold_lowercase.py`: the bold font copy gets all Latin
+  cells from the table.
+* `psp_menu.fullwidth_to_ascii`: 30 labels written in full-width Latin
+  (title menu, HP, TP, LV, GRADE SHOP, BGM names) become ASCII, so they use
+  the new font with normal spacing instead of narrow letters in wide cells.
+* `psp_menu.tsv`: "On" becomes "On " so the third option of Battle Auto
+  Camera (Active) no longer touches it.
+* Checked in PPSSPP (strict loader) with a fresh new game: title, opening,
+  first battle, Cresta dialogue, skit, main menu, Items, Custom, Status,
+  name entry. Known: long skit lines still scroll (as in the original), the
+  name being edited on the name entry screen shows full-width letters.
+
 ## 2026-10-16: encounter banner, menu tip, name entry labels
 
 Three leftovers seen while testing the variable width font (PR 124):

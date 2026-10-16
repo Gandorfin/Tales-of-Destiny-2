@@ -45,3 +45,24 @@ class FullWidthSpaceTests(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+
+class FullWidthToAsciiTests(unittest.TestCase):
+    def enc(self, text):
+        import psp_text
+        return psp_text.encode_line(text)
+
+    def test_label_becomes_ascii_in_place(self):
+        label = self.enc('ＮＥＷ') + b'\x99\x40' + self.enc('ＧＡＭＥ')
+        mixed = self.enc('ＨＰ回復')
+        boot = b'\0' + label + b'\0' + mixed + b'\0'
+        out, n = psp_menu.fullwidth_to_ascii(boot, areas=((0, len(boot)),))
+        self.assertEqual(n, 1)
+        self.assertEqual(out[1:1 + len(label)], b'NEW GAME' + bytes(len(label) - 8))
+        self.assertEqual(out[2 + len(label):], mixed + b'\0')       # mixed text untouched
+        self.assertEqual(len(out), len(boot))
+
+    def test_long_runs_are_left_alone(self):
+        alphabet = self.enc('ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺ')
+        boot = b'\0' + alphabet + b'\0'
+        self.assertEqual(psp_menu.fullwidth_to_ascii(boot, areas=((0, len(boot)),)), (boot, 0))

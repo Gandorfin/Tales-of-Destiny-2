@@ -294,17 +294,40 @@ Runtime address = vaddr + `0x08804000`.
 * Font 1 cells are 23 px but single-byte text draws them half a cell wide
   (about 9 x 11 px on screen, 22 % narrower than tall).
 
+The Latin letters themselves (`psp/tools/psp_latin_font.py`, since PR 126):
+every printable ASCII character is drawn from one font, Fira Sans SemiBold
+(SIL Open Font License, `psp/fonts/`, subset to ASCII), into font 1 and into
+the bold menu font copy, on one baseline with one cap height and x-height,
+in the retail style (white fill, soft dark outline). Before that the PSP
+mixed retail full-width capitals with two different sets of lowercase
+letters, so lines bounced up and down. `python psp/tools/psp_latin_font.py
+render` (Pillow) writes `psp/fonts/latin_glyphs.json`; the build reads only
+that table. Sizes (cell pixels): font 1 cap height 13, baseline row 18;
+font 2 cap height 10.6, baseline 12.6; descenders are squeezed just enough
+to fit the cell. On screen a font 1 cell is about 16.5 px (0.72 of the
+cell) in both directions when drawn a full cell wide, so the hooks draw
+single-byte sprites a full cell wide (square, like kanji; SX = 512).
+* Characters that share a slot (`-~_`, `(<{`, `)>}`, `:;`, `` "` ``) get the
+  first one. Slots are shared with the full-width (two-byte) Latin codes, so
+  full-width Latin text would show the narrow letters in wide full cells:
+  `psp_menu.fullwidth_to_ascii` turns every standalone string of only
+  full-width Latin, digits and punctuation in `.rodata`/`.data` (30 labels:
+  ＮＥＷ　ＧＡＭＥ, ＨＰ, ＧＲＡＤＥ　ＳＨＯＰ...) into ASCII; runs longer than 16
+  characters are data (the name entry alphabet) and stay.
+* Font 1 has no room for separate Latin cells: it is 256 x 4400 = 191 rows
+  of 11 cells (2101 glyphs), all used except a handful.
+
 The variable width font (`psp/tools/psp_vwf.py`) hooks all of these:
 
-* The build measures every ASCII glyph of the built font 1 (ink = palette
-  index 4 and up) and every letter cell of font 0x02, and stores (left
-  bearing, advance) per slot, a y offset per slot (descenders `g p q y j`)
-  and a horizontal squeeze per slot (single-byte `-`, `~`, `_` share the
-  long dash cell; drawn at 45 % it is a hyphen). Digits keep one width.
+* The width tables come from `latin_glyphs.json`: (pen position in the
+  cell, advance) per slot, the font's own advances plus a little tracking;
+  digits share one advance. The hooks also support a y offset and a
+  horizontal squeeze per slot (all 0 now; the first version used them for
+  descenders and the hyphen before the glyphs were redrawn).
 * Layout hooks store the glyph's advance (line width, box size and ticker
   scrolling follow it); draw hooks draw the full sprite shifted left by the
-  bearing and move the pen by the advance. Single-byte sprites are drawn
-  1.25 times wider than retail (undoes the narrow look).
+  bearing and move the pen by the advance. Single-byte sprites are drawn a
+  full cell wide (twice the retail half cell, square proportions).
 * Records are told apart without new fields: the text box layout marks
   single-byte records with `[3] = 1` (the two-byte and tag paths now clear
   it), the ticker compares width and height (half-width cells are 0.8 times

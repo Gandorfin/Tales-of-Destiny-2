@@ -147,16 +147,19 @@ def fake_boot():
 
 
 class PatchTests(unittest.TestCase):
-    def test_widths_from_font(self):
-        gray = psp_font.deswizzle(fake_font({0x17: (2, 21), 0xE2: (9, 14)}))
+    def test_widths_from_glyph_table(self):
+        import psp_latin_font
+        data = psp_latin_font.load()
         table = bytearray(256)
-        table[ord('A')], table[ord('i')], table[ord('0')] = 0x17, 0xE2, 0x0D
-        w = psp_vwf.build_widths(gray, table, gap=2)
-        self.assertEqual((w[2 * 0x17], w[2 * 0x17 + 1]), (2, 22))
-        self.assertEqual((w[2 * 0xE2], w[2 * 0xE2 + 1]), (9, 8))
-        self.assertEqual((w[2 * 0x0D], w[2 * 0x0D + 1]), (psp_vwf.DIGIT_LEFT, psp_vwf.DIGIT_ADVANCE + 2))
-        self.assertEqual(w[1], psp_vwf.SPACE_ADVANCE)       # space = slot 0
-        self.assertEqual(w[512:], bytes(512))               # no descenders/squeeze for absent letters
+        table[ord('A')], table[ord('i')], table[ord('0')], table[ord('1')] = 0x17, 0xE2, 0x0D, 0x0E
+        w = psp_vwf.build_widths(table, data)
+        a, i = data['glyphs1']['A'], data['glyphs1']['i']
+        self.assertEqual((w[2 * 0x17], w[2 * 0x17 + 1]), (a['left'], a['adv']))
+        self.assertEqual((w[2 * 0xE2], w[2 * 0xE2 + 1]), (i['left'], i['adv']))
+        self.assertLess(i['adv'], a['adv'])                  # proportional
+        self.assertEqual(w[2 * 0x0D + 1], w[2 * 0x0E + 1])   # tabular digits
+        self.assertEqual(w[1], data['glyphs1'][' ']['adv'])  # space = slot 0
+        self.assertEqual(w[512:], bytes(512))                # no offsets or squeeze needed
 
     def test_patch_appends_to_pool_and_is_not_applied_twice(self):
         boot = fake_boot()

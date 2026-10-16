@@ -7,10 +7,12 @@ like a typewriter ("L o n i  a c q u i r e d"), lines are long and boxes are
 wide. The lowercase font hack (psp_lowercase) also draws the 23 px font-1
 cells about 22 % narrower than they are tall.
 
-What this step does: it measures every Latin glyph in the built font 1 and
-gives each one its own advance, in all four places that lay out or draw
-single-byte text. Kanji (two-byte) text, icons and control codes keep the
-retail behaviour.
+What this step does: it gives every single-byte character its own advance,
+taken from the Latin glyph table that psp_latin_font draws into the fonts
+(one typeface, one baseline), in every place that lays out or draws
+single-byte text (the four below plus the bold routine and the skit
+ticker). Kanji (two-byte) text, icons and control codes keep the retail
+behaviour.
 
 Where (vaddr; file offset = vaddr + 0xC0; runtime = vaddr + 0x08804000):
 
@@ -40,10 +42,10 @@ the width table are appended to the string pool segment (psp_pool), which
 the PSP kernel loads since PR 120 (psp_pool.make_hardware_loadable).
 
 Width table: 256 entries of (left, advance) in font pixels, indexed by glyph
-slot, built from the font-1 member the build writes. advance 0 = retail
-behaviour for that slot. Digits share one advance (tabular numbers). The
-sprite is scaled by SX/256 (default 320 = 1.25, which undoes the condensed
-look); the advance is measured at that scale.
+slot, from psp/fonts/latin_glyphs.json. advance 0 = retail behaviour for
+that slot. Digits share one advance (tabular numbers). The sprite is scaled
+by SX/256 of the retail half cell (default 512: a full cell, the same square
+proportions as kanji; the glyph table is drawn for that).
 
 Run after psp_lowercase.patch_bold_table (the pool must exist and end the
 file) and only with the lowercase font (the hooks draw font 1).
@@ -63,19 +65,8 @@ DATA_DE0 = 0x27D9E0             # data segment + 0xA0DE0
 POOL_VADDR = 0x881000
 CELL, COLS, FONT_W = 23, 11, 256
 RECIP23 = 2849                  # 65536 / 23
-DEFAULT_SX = 320
-DEFAULT_GAP = 2
-SPACE_ADVANCE = 7
-DIGIT_LEFT, DIGIT_ADVANCE = 4, 15
-HALO = 4
-# The lowercase glyphs squeeze descenders into the cell (bowls end on the
-# baseline row 20 only for letters without a descender). Draw these lower,
-# in font pixels, so g p q y j hang below the line like real descenders.
-DESCENDERS = {'g': 3, 'p': 3, 'q': 3, 'y': 3, 'j': 2}
-# '-', '~' and '_' share the slot of the long Japanese dash (18 px of ink).
-# Single-byte text draws it squeezed to a hyphen (sprite width x n/256);
-# the kanji path (Japanese long vowel marks) is not affected.
-SQUEEZE = {'-': 115}
+DEFAULT_SX = 512               # sprites as wide as a full cell: square, like kanji
+DEFAULT_GAP = 0                # tracking is part of the advances in latin_glyphs.json
 
 # Retail words at every site the call-site patches overwrite (vaddr: word).
 # 0x143384 is the font select (2 in retail, 1 after psp_lowercase).
@@ -124,69 +115,37 @@ HALF_PER_HEIGHT = 205           # half cell width = height * 0x9A / 0xC0 (n/256)
 CELL2_W, CELL2_H, COLS2, CELLS2 = 12, 16, 10, 320
 RECIP12 = 5462                  # 65536 / 12 (font 2 cell width)
 BOLD_CELLS_RANGE = (49, 74)     # psp_bold_lowercase.BOLD_CELLS
-BOLD_GAP = 1
-BOLD_SPACE = 5
 
 
-def glyph_extents(gray, slot):
-    """(left, right) columns of the non-background pixels of a font-1 cell, or None."""
-    r, c = divmod(slot, COLS)
-    xs = []
-    for y in range(CELL):
-        row = (r * CELL + y) * FONT_W + c * CELL
-        for x in range(CELL):
-            # palette index >= 4: indices 1..3 are the faint outer halo
-            if gray[row + x] // 17 >= HALO:
-                xs.append(x)
-    return (min(xs), max(xs)) if xs else None
-
-
-def build_widths(gray, slot_table, gap=DEFAULT_GAP):
-    """1024-byte table for the ASCII characters, in font pixels: (left,
-    advance) per slot, then (signed y offset, horizontal squeeze n/256 or 0)
-    per slot. left and advance are measured on the unsqueezed glyph and
-    scaled with it."""
+def build_widths(slot_table, data=None, gap=DEFAULT_GAP):
+    """1024-byte table, font 1 pixels: (left, advance) per slot, then (y
+    offset, horizontal squeeze n/256) per slot. left is the pen position
+    inside the cell; all values come from psp/fonts/latin_glyphs.json
+    (psp_latin_font), whose glyphs the build draws into those slots. The
+    y offsets and squeezes are 0: the glyphs already sit on one baseline
+    (the hooks keep the mechanism for later fonts)."""
+    import psp_latin_font
+    data = data or psp_latin_font.load()
     w = bytearray(1024)
-    for ch in range(0x21, 0x7F):
-        s = slot_table[ch]
-        e = glyph_extents(gray, s)
-        if e:
-            w[2 * s] = e[0]
-            w[2 * s + 1] = e[1] - e[0] + 1 + gap
-    for d in b'0123456789':
-        s = slot_table[d]
-        w[2 * s], w[2 * s + 1] = DIGIT_LEFT, DIGIT_ADVANCE + gap
+    for slot, ch in psp_latin_font.slot_chars(slot_table).items():
+        g = data['glyphs1'][ch]
+        w[2 * slot], w[2 * slot + 1] = g['left'], min(255, g['adv'] + gap)
     s = slot_table[0x20]
-    w[2 * s], w[2 * s + 1] = 0, SPACE_ADVANCE
-    for ch, dy in DESCENDERS.items():
-        s = slot_table[ord(ch)]
-        if s != slot_table[0x20] and glyph_extents(gray, s):
-            w[512 + 2 * s] = dy & 0xFF
-    for ch, n in SQUEEZE.items():
-        s = slot_table[ord(ch)]
-        if s == slot_table[0x20] or not glyph_extents(gray, s):
-            continue
-        w[512 + 2 * s + 1] = n
-        w[2 * s + 1] = min(255, w[2 * s + 1] + (gap * 256 // n - gap))   # keep the gap unsqueezed
+    w[2 * s], w[2 * s + 1] = 0, data['glyphs1'][' ']['adv'] + gap
     return bytes(w)
 
 
-def build_bold_widths(font2_pixels, slot_table, gap=BOLD_GAP, lower_cells=()):
+def build_bold_widths(slot_table, data=None):
     """640-byte table (left, advance) per font-2 cell, font-2 pixels, for
-    the bold routine: letters and punctuation reached through the slot
-    table plus the lowercase cells; digits keep the full cell (tabular)."""
+    the bold routine, from the same glyph table (psp_latin_font)."""
+    import psp_latin_font
+    data = data or psp_latin_font.load()
     w = bytearray(2 * CELLS2)
-    cells = {slot_table[ch] for ch in range(0x21, 0x7F)} | set(lower_cells)
-    cells -= {slot_table[d] for d in b'0123456789'}
-    for cell in cells:
-        r, c = divmod(cell, COLS2)
-        xs = [x for y in range(CELL2_H) for x in range(CELL2_W)
-              if font2_pixels[(r * CELL2_H + y) * 128 + c * CELL2_W + x] >= 3]
-        if xs:
-            w[2 * cell] = min(xs)
-            w[2 * cell + 1] = min(CELL2_W, max(xs) - min(xs) + 1 + gap)
+    for cell, (_, left, adv) in psp_latin_font.font2_cells(slot_table, data).items():
+        if cell < CELLS2:
+            w[2 * cell], w[2 * cell + 1] = left, adv
     s = slot_table[0x20]
-    w[2 * s], w[2 * s + 1] = 0, BOLD_SPACE
+    w[2 * s], w[2 * s + 1] = 0, data['glyphs2'][' ']['adv']
     return bytes(w)
 
 
@@ -755,8 +714,8 @@ def _pool_header(b):
 def patch_boot(boot, font_member, sx=DEFAULT_SX, gap=DEFAULT_GAP, bold=False, ticker=False):
     """Append the hooks + width table to the pool and patch the call sites.
     boot: BOOT.BIN after psp_pool / patch_bold_table; font_member: the built
-    font-1 member (psp_lowercase.build_font). Returns (bytes, info)."""
-    import psp_font
+    font-1 member with the Latin glyphs (psp_latin_font.build_font1); the
+    widths come from the same glyph table. Returns (bytes, info)."""
     b = bytearray(boot)
     checks = {**RETAIL, **(RETAIL_BOLD if bold else {}), **(RETAIL_TICKER if ticker else {})}
     for va, want in checks.items():
@@ -766,17 +725,15 @@ def patch_boot(boot, font_member, sx=DEFAULT_SX, gap=DEFAULT_GAP, bold=False, ti
     off, p = _pool_header(b)
     if p[1] + p[4] != len(b) or p[4] != p[5]:
         raise ValueError('the pool segment must end the file')
-    gray = psp_font.deswizzle(font_member)
-    widths = build_widths(gray, b[SLOTTAB_FILE:SLOTTAB_FILE + 256], gap)
+    widths = build_widths(b[SLOTTAB_FILE:SLOTTAB_FILE + 256], gap=gap)
     pad = (-p[4]) % 16
     base = POOL_VADDR + p[4] + pad
     bold_widths = texture = None
     if bold:
         import psp_bold_lowercase
         tab_at = psp_bold_lowercase.map_table(b)
-        texture, pixels = psp_bold_lowercase.bold_texture(b, font_member)
-        bold_widths = build_bold_widths(pixels, b[tab_at:tab_at + 256],
-                                        lower_cells=psp_bold_lowercase.BOLD_CELLS)
+        texture, _ = psp_bold_lowercase.bold_texture(b)
+        bold_widths = build_bold_widths(b[tab_at:tab_at + 256])
     code, labels = hooks(base, widths, sx, bold_widths=bold_widths, ticker=ticker,
                          bold_texture=texture)
     b += bytes(pad) + code
