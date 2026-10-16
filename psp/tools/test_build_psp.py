@@ -88,6 +88,10 @@ class BuildFontChoiceTests(unittest.TestCase):
                 mock(f'{builder.__name__}.psp_quiz.build_changed_members',
                      return_value=({6348: b'English quiz'}, {'overflow': 0}))
                 mock(f'{builder.__name__}.psp_quiz.verify', return_value=(1, []))
+            if hasattr(builder.psp_pool, 'make_hardware_loadable'):
+                mock(f'{builder.__name__}.psp_pool.make_hardware_loadable',
+                     side_effect=lambda b: (b, {'reordered': True}))
+                mock(f'{builder.__name__}.psp_pool.check_hardware_layout', return_value={})
             mock(f'{builder.__name__}.psp_text.build', side_effect=build)
             mock(f'{builder.__name__}.psp_text.verify', return_value=verify)
             replace = mock(f'{builder.__name__}.psp_iso.replace')
