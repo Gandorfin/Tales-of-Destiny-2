@@ -73,6 +73,12 @@ Already in the source and coming with the next PSP release:
   that had English in the table but were never applied: all shop names,
   scene titles and some labels
 * Frostheim (not Snowfria) in the PSP only menus and debug lines
+* a variable width font: every Latin letter has its own width in text
+  boxes, skits, menus, labels and the bold menu text (no more
+  typewriter look), boxes fit the text, `g p q y` hang below the line and
+  `-` is a real hyphen
+* lowercase in the bold menu text: party names, menu tabs, Battle Rank and
+  the Custom menu values read "Kyle", "Normal" instead of KYLE, NORMAL
 
 Still Japanese on PSP (full scan of the current source, October 2026):
 
@@ -84,8 +90,6 @@ Still Japanese on PSP (full scan of the current source, October 2026):
 * the Monster Book's own name list, the Mystic Arte banners of some
   enemies, and about 50 enemy arte names and boss lines that have no table
   yet
-* the bold menu text (party names in the menu, Artes tabs, arte grid,
-  Battle Rank) stays in capitals
 
 See [Help wanted](#help-wanted-open-psp-problems) for the engineering side.
 
@@ -151,15 +155,10 @@ engineering, `armips` or this engine, open an issue or a pull request.
   (HI16/LO16 relocations) and still show the Japanese. Rewriting those pairs
   is only safe when every LO16 that shares the HI16 points at a moved
   string; otherwise the English has to fit in place.
-* **Bold menu text in capitals.** Routine `0x144248` (runtime `0x08948248`)
-  draws party names in the menu, Artes tabs, the arte grid and Battle Rank
-  with the icon font's geometry hard-coded (12 x 16 cells, 10 per row) and
-  has no font selection. Lowercase there needs lowercase glyphs in the icon
-  font (no free cells) or that routine rewritten to draw from font 0x01.
-* **Arte grid width.** The grid's renderer draws single-byte ASCII at full
-  cell width and mangles multi-byte tricks, so long arte names are
-  shortened. The proper fix is an `armips` patch that halves its ASCII
-  advance.
+* **Arte grid names.** 29 arte names were shortened to fit the grid when
+  every letter was a full cell wide. The grid now uses the variable width
+  font (next release); someone with a save that has many artes should check
+  which full names fit again (`psp/tools/psp_menu.tsv`).
 * **Monster Book display names.** Battle enemy names are English, but the
   book screen reads its names from a second source that is not located yet.
 * **Real hardware.** Up to v0.3.0 the PSP kernel never loaded the patch's

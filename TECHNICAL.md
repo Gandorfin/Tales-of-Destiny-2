@@ -249,10 +249,77 @@ Quiz Book, enemy text, font), `ps2/movies/README.md` (PS2 movies),
   three ASCII text walkers to font 0x01: dialogue `0x13EEC4`, speaker names
   `0x143444`, menu/battle `0x14A084` (an `ori` whose low nibble is the
   font). A fourth routine, `0x144248` (wrapper `0x1464BC`), draws "bold"
-  menu text (party names, Artes tabs, arte grid, Battle Rank) with the icon
-  font's geometry hard-coded; it gets its own copy of the retail table and
-  stays in capitals.
+  menu text (party names, menu tabs, Custom menu values, arte grid, Battle
+  Rank, HP/TP/LV) with the icon font's geometry hard-coded; it gets its own
+  copy of the retail table. Its two-byte path (the kana of the name entry
+  keyboard) maps codes to font 0x02 cells through `0x144604` (low 8 bits).
+  Since October 2026 the variable width font step gives it lowercase: a copy
+  of font 0x02 with `a..z` drawn over hiragana cells 49..74 lives in the
+  string pool (32 KB, pre-swizzled), `a..z` in the private table point at
+  those cells, and a hook at the routine's start binds the copy
+  (`sceGuTexImage` at `0x59E4`) unless the string has a two-byte code that
+  `0x144604` maps to cells 49..74, so the keyboard keeps its kana. Font
+  0x02 itself stays retail: it has no free cells (the bottom left block is
+  the stone texture of the round "next" indicator).
 * `--lowercase-font off` builds without all of this (the v0.2.1 build).
+
+## PSP: text renderers and the variable width font
+
+Verified in PPSSPP (debugger breakpoints and memory checks), October 2026.
+Runtime address = vaddr + `0x08804000`.
+
+* **Text boxes.** `0x13EADC` lays out one line into 10-byte glyph records at
+  window + `0x2CC`: `[0]` font type, `[1]` reveal alpha, `[2]` colour, `[3]`
+  unused in retail, `[4]` glyph slot, `[6]` width, `[8]` height (1/16 px).
+  Single-byte path `0x13EE00..0x13EE44`, two-byte path `0x13EC94..0x13ECD8`,
+  tags `0x13EFD8`. The glyph loop `0x140C7C` (font-1 sprite `0x140CE4`)
+  draws each sprite from x to x + width and moves x by the same width.
+  Before a box opens, `0x13E340` sizes it with the measuring walker
+  `0x1426B4` (single-byte width `0x14283C..0x142868`).
+* **Text printer.** Walker `0x142F0C` calls put-char `0x1432C0` (labels such
+  as "notice", choices, item names, side panels). Single-byte path
+  `0x143380..0x1433BC`; the font select at `0x143384` is the one the notes
+  used to call the speaker name walker.
+* **Ticker walker** `0x149E74` (skit lines, some battle and menu text): 8-byte
+  records at object + `0x1BC`, `[0]` colour index << 4 | font, `[1]` reveal
+  alpha, `[2]` glyph, `[4]` width = advance, `[6]` height. Draw loop
+  `0x14A238`, font-1 sprite `0x14A380..0x14A4C8`.
+* **Bold routine** `0x144248` (called only by the wrapper `0x1464BC` and
+  by itself for inserted names): font 0x02 sprites, cell = slot (10 per
+  row, 12 x 16), fixed advance `ctx[4]` at `0x144438..0x144448`. The
+  wrapper binds font 0x02 with `sceGuTexImage(0, 128, 512, 128, ptr)`; the
+  texture lives in bss at vaddr `0x54C7D0` (swizzled at startup).
+* The menu tabs and other widgets (`0xF16C0`, `0xF5940`, `0xF5C8C`) draw
+  through the bold routine or the text printer.
+* Font 1 cells are 23 px but single-byte text draws them half a cell wide
+  (about 9 x 11 px on screen, 22 % narrower than tall).
+
+The variable width font (`psp/tools/psp_vwf.py`) hooks all of these:
+
+* The build measures every ASCII glyph of the built font 1 (ink = palette
+  index 4 and up) and every letter cell of font 0x02, and stores (left
+  bearing, advance) per slot, a y offset per slot (descenders `g p q y j`)
+  and a horizontal squeeze per slot (single-byte `-`, `~`, `_` share the
+  long dash cell; drawn at 45 % it is a hyphen). Digits keep one width.
+* Layout hooks store the glyph's advance (line width, box size and ticker
+  scrolling follow it); draw hooks draw the full sprite shifted left by the
+  bearing and move the pen by the advance. Single-byte sprites are drawn
+  1.25 times wider than retail (undoes the narrow look).
+* Records are told apart without new fields: the text box layout marks
+  single-byte records with `[3] = 1` (the two-byte and tag paths now clear
+  it), the ticker compares width and height (half-width cells are 0.8 times
+  the height, kanji 1.6 times), the bold routine derives the cell from the
+  texture coordinates it wrote.
+* **Rules for code patches** (learned here): never overwrite a word the
+  loader relocates (`lui`/LO16 users, `j`, `jal`: check
+  `psp_pool._relocs`); keep them in place and patch around them. Reach new
+  code without new relocation entries: build its address from a register
+  that already holds a relocated address (the slot table in `v1`/`t7`/`a0`,
+  data + `0xA0DE0` in `s2`) or from `ra` after a `bal`. New code lives in
+  the string pool segment (the kernel ignores segment flags; Allegrex has no
+  execute protection; loadcore flushes the caches after loading).
+* Memory reads of code in PPSSPP show JIT markers (`0x68......`) instead of
+  the real word; compare files, not RAM, when checking a patch.
 * `psp/tools/patch_font_iso.py` exports, prepares, checks and patches PNG
   font sheets for both fonts (`psp/tools/FONT_CUSTOMIZATION.md`).
 
@@ -285,8 +352,10 @@ Quiz Book, enemy text, font), `ps2/movies/README.md` (PS2 movies),
   relocations with fixed header indices must run before that step.
 * Item and arte descriptions are two-line records `line1 0x01 line2` stored
   as one string; key them with `{01}` in the tables.
-* The arte grid draws single-byte ASCII at a fixed full-cell width and
-  mangles any multi-byte trick, so long arte names are shortened.
+* The arte grid is drawn by the bold routine; it mangles any multi-byte
+  trick, so long arte names were shortened. With the variable width font
+  (October 2026) the names are narrower; whether the shortened names can get
+  their full form back still needs a look at the grid in game.
 
 ## PSP: enemy names, movies, title
 

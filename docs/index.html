@@ -32,8 +32,8 @@
         <div class="card">
           <h3>PSP (ULJS-00097) <span class="badge wip">playable</span></h3>
           <p><strong>Latest release: PSP patch v0.3.1</strong>, in two builds: with the lowercase font hack (mixed case) and without it (capitals only, for devices where the hack has problems). Story, all 608 timed skits at full length with per line text speed, almost all menus, items, artes, titles, descriptions, the Quiz Book, battle enemy names, the movies with dialogue and the PSP staff roll are English. v0.3.1 also fixes how a real PSP or PS Vita loads the patch's extra strings; confirmation on real hardware is still owed.</p>
-          <p>Coming with the next PSP release: the world map in English (location names over towns and dungeons, signposts, the box puzzle, the Draconis anchor scene, the ending monologue), about 100 more menu strings in English (all shop names, scene titles) and Frostheim in the PSP only menus.</p>
-          <p>Still Japanese: menu messages the game reaches through code addresses (button legends, the airship landing message, two recipe messages, the title message), the element and status kanji, the Monster Book's own name list, some enemy Mystic Arte banners and about 50 enemy arte names and boss lines. Bold menu text stays in capitals.</p>
+          <p>Coming with the next PSP release: the world map in English (location names over towns and dungeons, signposts, the box puzzle, the Draconis anchor scene, the ending monologue), about 100 more menu strings in English (all shop names, scene titles), Frostheim in the PSP only menus, a variable width font (every Latin letter its own width in text boxes, skits and menus, boxes that fit the text) and lowercase in the bold menu text ("Kyle", "Normal" instead of KYLE, NORMAL).</p>
+          <p>Still Japanese: menu messages the game reaches through code addresses (button legends, the airship landing message, two recipe messages, the title message), the element and status kanji, the Monster Book's own name list, some enemy Mystic Arte banners and about 50 enemy arte names and boss lines.</p>
         </div>
       </div>
     </section>
@@ -55,7 +55,7 @@
         <li><strong>Playtest.</strong> A full playthrough with screenshots and suggested fixes finds what scans cannot. The PSP version needs this most.</li>
         <li><strong>Improve the text.</strong> Corrections to the script are pull requests on the repository; the README explains the text rules.</li>
         <li><strong>Draw.</strong> Latin fonts for both versions (both font tools take a PNG sheet), and English versions of textures that still show Japanese.</li>
-        <li><strong>Reverse engineering.</strong> Open PSP problems: menu strings whose address the game builds in code (the patch only redirects data pointers so far), lowercase for the bold menu text, a proper width fix for the arte grid, the Monster Book display names, and confirmation that v0.3.1 runs right on a real PSP, a PS Vita and Android PPSSPP. Details in the <a href="https://github.com/Gandorfin/Tales-of-Destiny-2#help-wanted-open-psp-problems">README</a>; formats and offsets in <a href="https://github.com/Gandorfin/Tales-of-Destiny-2/blob/main/TECHNICAL.md">TECHNICAL.md</a>.</li>
+        <li><strong>Reverse engineering.</strong> Open PSP problems: menu strings whose address the game builds in code (the patch only redirects data pointers so far), which shortened arte names fit the grid again with the variable width font, the Monster Book display names, and confirmation that v0.3.1 runs right on a real PSP, a PS Vita and Android PPSSPP. Details in the <a href="https://github.com/Gandorfin/Tales-of-Destiny-2#help-wanted-open-psp-problems">README</a>; formats and offsets in <a href="https://github.com/Gandorfin/Tales-of-Destiny-2/blob/main/TECHNICAL.md">TECHNICAL.md</a>.</li>
       </ul>
     </section>
 
