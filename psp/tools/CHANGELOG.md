@@ -1,5 +1,20 @@
 # Changelog
 
+## 2026-10-16: the string pool now loads on a real PSP and on a PS Vita
+
+* Cause of the random characters and freezes on a PS Vita (Adrenaline) and
+  of the old "lowercase build crashes on some PSPs" reports: the PSP kernel
+  loads only the PT_LOAD program headers that come right after each other,
+  and our pool header came after the relocation header, so the pool (about
+  1,800 pooled menu, item and arte strings plus the bold menu text's slot
+  table) was never loaded. PPSSPP loads it anyway, so the bug never showed
+  there.
+* `psp_pool.make_hardware_loadable` (last BOOT.BIN step of `build_psp.py`)
+  orders the headers text, pool, data, relocation and renumbers the segment
+  indices of all relocation entries. Same memory image as before; no file
+  data moves. `check_hardware_layout` stops the build if the kernel would
+  load the image differently. Tests model both loaders.
+
 ## 2026-10-16: skit lines finish before the next speaker
 
 * `psp/text/skit_speeds.json` (synced from the PS2 table) now holds each

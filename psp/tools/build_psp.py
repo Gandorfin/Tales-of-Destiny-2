@@ -194,6 +194,13 @@ def main(iso, out_iso, probe=False, keep=None, version=None, lowercase_font=True
     if _qbad:
         print('\n'.join(_qbad[:20]))
         raise SystemExit('quiz book verification failed, image not written')
+    # last BOOT.BIN step: put the pool header between text and data so the
+    # PSP kernel (real PSP, PS Vita Adrenaline) loads it; PPSSPP loads it
+    # either way. Must come after every tool that reads the relocation table.
+    _hw, _hwinfo = psp_pool.make_hardware_loadable(open(new_boot, 'rb').read())
+    _hwinfo.update(psp_pool.check_hardware_layout(_hw))
+    open(new_boot, 'wb').write(_hw)
+    print('hardware load layout:', _hwinfo)
     replaced = [
         ('/PSP_GAME/USRDIR/file.fpb', new_fpb),
         ('/PSP_GAME/SYSDIR/BOOT.BIN', new_boot),

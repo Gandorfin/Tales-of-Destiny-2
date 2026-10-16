@@ -261,11 +261,25 @@ Quiz Book, enemy text, font), `ps2/movies/README.md` (PS2 movies),
 * Menus are compiled into BOOT.BIN. `psp/tools/psp_menu.py` writes English
   that fits the Japanese slot in place (`psp_menu.tsv`). The full-width space
   must be encoded as `0x9940` (`{99}{40}`), the code retail menus use.
-* Longer strings go to a new fourth load segment appended at the end of the
-  file (`psp/tools/psp_pool.py`, vaddr `0x881000`, the program header fits
-  the zero gap before `.text`); every standalone copy of the string has its
-  32-bit data pointers rewritten. Code address pairs (types 5/6) are not
-  rewritten yet, see the example above.
+* Longer strings go to a new load segment appended at the end of the file
+  (`psp/tools/psp_pool.py`, vaddr `0x881000`, the program header fits the
+  zero gap before `.text`); every standalone copy of the string has its
+  32-bit data pointers and code address pairs rewritten.
+* **The pool's program header must sit between text and data.** The PSP
+  kernel (loadcore `sceKernelLoadExecutableObject`; a PS Vita in Adrenaline
+  runs the same kernel) loads PT_LOAD headers only while they are
+  consecutive from the first one, stops at the first other header (which
+  must be the relocation header), counts at most 3 loaded segments, and
+  zero-fills the bss of the last loaded segment only. PPSSPP loads every
+  PT_LOAD header wherever it is. With the pool as header 3 after the
+  relocation header (builds up to PSP 0.3.0) the pool was never loaded on
+  hardware: blank or random pooled labels, a blank bold menu font table,
+  and freezes when the game's own data reached that memory. The build's
+  last step (`psp_pool.make_hardware_loadable`) reorders the headers to
+  text, pool, data, relocation and renumbers the segment indices in every
+  relocation entry (data 1 to 2, pool 3 to 1); `check_hardware_layout`
+  refuses an image the kernel would load differently. Tools that parse
+  relocations with fixed header indices must run before that step.
 * Item and arte descriptions are two-line records `line1 0x01 line2` stored
   as one string; key them with `{01}` in the tables.
 * The arte grid draws single-byte ASCII at a fixed full-cell width and
