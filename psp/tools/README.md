@@ -492,3 +492,39 @@ Tests (synthetic modules, no ISO needed):
 ```
 python -B -m unittest discover -s psp/tools -p test_psp_quiz.py -v
 ```
+
+## psp_worldmap.py: world map labels and scripts
+
+```
+python psp/tools/psp_worldmap.py report BOOT.BIN file.fpb
+python psp/tools/psp_worldmap.py verify BOOT.BIN file.fpb new_BOOT.BIN new.fpb
+python psp/tools/psp_worldmap.py check
+```
+
+`build_psp.py` runs this pass and its check on its own. Members
+09272..09276 are sizes packs, one per era of the world map; child 19 of
+each is the world map field script, an uncompressed SCED. Its strings are
+the big location name shown when the party walks up to a town or dungeon
+("Laguna Ruins", "Cresta"), signposts and mine entrance labels, the inn on
+the map, treasure messages, the box puzzle, the Draconis anchor scene, the
+Ixifoslar controls and the ending monologue. These are the PSP twins of
+the PS2 world map scripts `09028..09032.pak0`.
+
+English comes from `psp_worldmap.tsv` (this folder; Japanese, English,
+source), matched by the exact decoded record with its control codes. Most
+rows reuse the PS2 world map English (`ps2/menu/menu_translations.csv`),
+with the PS2 slot cuts undone because the PSP script can grow ("Laguna
+Ruins", "Lienea", "Crimson City Speranza"); 14 PSP only strings are
+translated there (the box puzzle help names the SELECT menu, the
+Ixifoslar controls, a Shrine of Light sign, debug lines). Writing is the
+scenario writer `psp_text.insert_sced` in append mode: the English goes
+after the text block and each F8 operand is redirected, the bytecode keeps
+its length, every other child of the pack is copied byte for byte. The
+scripts grow by about 2 to 3.5 KB each.
+
+`verify` decodes every F8 reference of a built archive and compares it
+with the table. Tests (synthetic scripts plus the real table):
+
+```
+python -B -m unittest discover -s psp/tools -p test_psp_worldmap.py -v
+```

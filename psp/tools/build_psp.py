@@ -14,6 +14,7 @@ Steps (all from this repository, no other tools):
    of the PS2 translation plus psp/text/overrides.tsv) and write the English
    versions (psp_text.py match)
 4. insert with bytecode-preservation checks, rebuild packages and the archive
+   (together with the members of psp_monsters, psp_quiz and psp_worldmap)
 5. decode the new archive and compare with what was inserted (verify)
 6. write the new archive and the executable (as BOOT.BIN and EBOOT.BIN)
    into a copy of the image (psp_iso.py replace)
@@ -125,7 +126,7 @@ def check_sources(movies=False, report=True):
 
 sys.path.insert(0, HERE)
 check_sources(report=False)
-import psp_iso, psp_text, psp_names, psp_menu, psp_lowercase, psp_fpb, psp_pool, psp_monsters, psp_title, psp_quiz
+import psp_iso, psp_text, psp_names, psp_menu, psp_lowercase, psp_fpb, psp_pool, psp_monsters, psp_title, psp_quiz, psp_worldmap
 
 def add_probes(work):
     p = os.path.join(work, 'scenario_en', '06470.txt')
@@ -182,6 +183,10 @@ def main(iso, out_iso, probe=False, keep=None, version=None, lowercase_font=True
     _extra.update(_mons)
     _quiz, _ = psp_quiz.build_changed_members(boot, fpb)
     _extra.update(_quiz)
+    _wmap, _ = psp_worldmap.build_changed_members(boot, fpb)
+    if set(_wmap) & set(_extra):
+        raise SystemExit('world map members also changed by another step: %s' % sorted(set(_wmap) & set(_extra)))
+    _extra.update(_wmap)
     if version:
         _extra[psp_title.PAK_INDEX] = psp_title.build_member(boot, fpb, psp_title.label_for(version))[0]
     else:
@@ -194,6 +199,11 @@ def main(iso, out_iso, probe=False, keep=None, version=None, lowercase_font=True
     if _qbad:
         print('\n'.join(_qbad[:20]))
         raise SystemExit('quiz book verification failed, image not written')
+    _wrefs, _wbad = psp_worldmap.verify(boot, fpb, new_boot, new_fpb)
+    print('world map verify: %d references checked, %d problems' % (_wrefs, len(_wbad)))
+    if _wbad:
+        print('\n'.join(_wbad[:20]))
+        raise SystemExit('world map verification failed, image not written')
     # last BOOT.BIN step: put the pool header between text and data so the
     # PSP kernel (real PSP, PS Vita Adrenaline) loads it; PPSSPP loads it
     # either way. Must come after every tool that reads the relocation table.
