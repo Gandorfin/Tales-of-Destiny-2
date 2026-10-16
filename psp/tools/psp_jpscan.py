@@ -529,8 +529,11 @@ def member_role(index, paths, kinds):
         return 'font'
     if any('/s' in p for p in paths):
         return 'scenario'           # SCPK: one map or event (script + resources)
+    if 'sced' in kinds and any('/n' in p for p in paths):
+        return 'map'                # world map field scripts (09272..09276): a SCED
+                                    # inside a sizes pack; their labels are live text
     if index in BATTLE_MEMBERS:
-        return 'battle'             # 09225..09276 also hold map scripts in sizes packs
+        return 'battle'
     if 'sced' in kinds:
         return 'skit'               # PAK holding a skit script and its pictures
     return 'other'

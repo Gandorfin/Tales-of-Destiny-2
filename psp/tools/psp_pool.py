@@ -297,14 +297,20 @@ def relocate_menu(boot, table_path=None):
         p = line.rstrip('\n').split('\t')
         if len(p) < 2:
             continue
+        jp = p[0].replace('\\n', '\n')
         try:
-            jb = pt.encode_line(p[0].replace('\\n', '\n'))
-            # U+3000 -> retail code 0x9940, same rule as psp_menu.encode_en
+            # U+3000 -> retail code 0x9940 on both sides, same rule as
+            # psp_menu.encode_keys / encode_en (the TBL form 0xE499 is kept
+            # as a second key)
+            keys = [pt.encode_line(jp.replace('　', '{99}{40}'))]
+            if '　' in jp:
+                keys.append(pt.encode_line(jp))
             eb = pt.encode_line(p[1].replace('\\n', '\n').replace('　', '{99}{40}'))
         except Exception:
             continue
-        if len(eb) > len(jb):
-            items.append((jb, eb))
+        for jb in keys:
+            if len(eb) > len(jb):
+                items.append((jb, eb))
     return add_pool_and_relocate(boot, items)
 
 
