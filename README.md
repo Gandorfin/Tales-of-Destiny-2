@@ -316,7 +316,7 @@ the same way from the `build_psp.py` output.
   manual
 * `pnvnd` for terminology, the Lifebottle style reference, the format-aware
   PSP Japanese-string scanner, and full PS2 playtests with the feedback sheets
-* `SkyBladeCloud` (GBAtemp) for the original file-format research, for
+* `SkyBladeCloud` for the original file-format research, for
   reverse engineering the PSP font system and lowercase font-selection hack,
   and for finding the PS2 and PSP skit text speed control
 * `dreck` for the redrawn PS2 Latin font, the PSP font work, and the skit
