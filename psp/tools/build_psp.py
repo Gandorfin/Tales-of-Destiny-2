@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """One-shot PSP build: Japanese UMD image in, English image out.
 
-    python psp/tools/build_psp.py "Tales of Destiny 2 (Japan).iso" tod2_psp_en.iso --version 0.1.1 [--lowercase-font on|off] [--movies [--ffmpeg PATH]] [--probe] [--keep WORKDIR]
+    python psp/tools/build_psp.py "Tales of Destiny 2 (Japan).iso" tod2_psp_en.iso --version 0.1.1 [--lowercase-font on|off] [--vwf on|off] [--movies [--ffmpeg PATH]] [--probe] [--keep WORKDIR]
 
 --version X.Y.Z draws "Green Gel Patch vX.Y.Z" on the title screen in place
 of the Japanese designer credit (psp_title.py). Without it the title screen
@@ -24,6 +24,11 @@ test patterns (a line of i's over a line of M's, and a long pangram), for
 checking how the engine draws Latin text. --keep leaves the work folder.
 --lowercase-font on (the default) applies SkyBladeCloud's lowercase font hack.
 --lowercase-font off keeps the retail fonts and uppercase ASCII rendering.
+--vwf on (the default, needs the lowercase font) gives every Latin letter its
+own width in text boxes, skits, labels, menus and the box measurer, and
+lowercase plus widths to the "bold" menu text (party names, Battle Rank,
+menu tabs) (psp_vwf.py, psp_bold_lowercase.py); --vwf off keeps the retail
+fixed advance and capitals in the bold menu text.
 --movies also burns the English subtitles into the nine movies with dialogue
 (psp_movies.py; needs an FFmpeg with libass and libx264, or the
 imageio-ffmpeg package; --ffmpeg names the executable).
@@ -126,7 +131,7 @@ def check_sources(movies=False, report=True):
 
 sys.path.insert(0, HERE)
 check_sources(report=False)
-import psp_iso, psp_text, psp_names, psp_menu, psp_lowercase, psp_fpb, psp_pool, psp_monsters, psp_title, psp_quiz, psp_worldmap
+import psp_iso, psp_text, psp_names, psp_menu, psp_lowercase, psp_fpb, psp_pool, psp_monsters, psp_title, psp_quiz, psp_worldmap, psp_vwf
 
 def add_probes(work):
     p = os.path.join(work, 'scenario_en', '06470.txt')
@@ -140,7 +145,7 @@ def add_probes(work):
     open(p, 'w', encoding='utf-8').write(s)
     print('probes placed in 06470')
 
-def main(iso, out_iso, probe=False, keep=None, version=None, lowercase_font=True, movies=False, ffmpeg=None):
+def main(iso, out_iso, probe=False, keep=None, version=None, lowercase_font=True, movies=False, ffmpeg=None, vwf=True):
     check_sources(movies)
     work = keep or tempfile.mkdtemp(prefix='tod2psp_')
     os.makedirs(work, exist_ok=True)
@@ -171,13 +176,27 @@ def main(iso, out_iso, probe=False, keep=None, version=None, lowercase_font=True
         _bold, _binfo = psp_lowercase.patch_bold_table(open(boot, 'rb').read())
         open(boot, 'wb').write(_bold)
         print('bold table:', _binfo)
+    _font0 = None
+    if lowercase_font:
+        _font0 = psp_lowercase.build_font(psp_fpb.read_member(fpb, open(boot, 'rb').read(), 0)[0])
+    # variable width font + lowercase for the bold menu text: after the pool
+    # (hooks, tables and the bold font copy are appended to it), measured on
+    # the fonts the build writes; needs font 1 (lowercase on)
+    if vwf and lowercase_font:
+        _vwf, _vinfo = psp_vwf.patch_boot(open(boot, 'rb').read(), _font0, bold=True, ticker=True)
+        open(boot, 'wb').write(_vwf)
+        print('variable width font:', _vinfo)
+    elif vwf:
+        print('variable width font: off (needs --lowercase-font on)')
+    else:
+        print('variable width font: off')
     psp_text.extract(boot, fpb, text)
     psp_text.match(text)
     if probe:
         add_probes(text)
     _extra = {}
     if lowercase_font:
-        _extra[0] = psp_lowercase.build_font(psp_fpb.read_member(fpb, open(boot, 'rb').read(), 0)[0])
+        _extra[0] = _font0
     _mons, _monst = psp_monsters.build_changed_members(boot, fpb)
     print('monster book:', dict(_monst))
     _extra.update(_mons)
@@ -234,6 +253,8 @@ def parse_args(argv=None):
     parser.add_argument('--version', help='patch version to draw on the title screen')
     parser.add_argument('--lowercase-font', choices=('on', 'off'), default='on',
                         help="apply the collaborator's lowercase font hack (default: on); off uses retail uppercase rendering")
+    parser.add_argument('--vwf', choices=('on', 'off'), default='on',
+                        help='variable width font for English text (default: on; needs --lowercase-font on)')
     parser.add_argument('--movies', action='store_true', help='burn the English subtitles into the movies')
     parser.add_argument('--ffmpeg', help='FFmpeg executable for --movies (needs libass and libx264)')
     return parser.parse_args(argv)
@@ -242,4 +263,4 @@ def parse_args(argv=None):
 if __name__ == '__main__':
     args = parse_args()
     main(args.iso, args.out_iso, args.probe, args.keep, args.version,
-         lowercase_font=args.lowercase_font == 'on', movies=args.movies, ffmpeg=args.ffmpeg)
+         lowercase_font=args.lowercase_font == 'on', movies=args.movies, ffmpeg=args.ffmpeg, vwf=args.vwf == 'on')

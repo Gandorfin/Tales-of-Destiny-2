@@ -1,5 +1,36 @@
 # Changelog
 
+## 2026-10-16: variable width font, lowercase bold menu text
+
+* English on the PSP looked like a typewriter: every single-byte letter
+  took half a font cell ("L o n i  a c q u i r e d"), boxes were wide, and
+  the bold menu text (party names, tabs, Battle Rank, Custom menu values)
+  could only show capitals.
+* New `psp_vwf.py`: per letter widths measured from the built fonts, hooked
+  into the text box layout (`0x13EE24`), the text box glyph loop
+  (`0x140E78`), the text printer put-char (`0x143380`), the box measurer
+  (`0x14283C`), the bold routine (`0x144438`) and the skit/battle ticker
+  (`0x149FD0`, `0x14A4A0`). Digits keep one width; `g p q y j` get
+  descenders; single-byte `-` is drawn as a hyphen; letters are drawn 1.25
+  times wider than retail. The hooks and tables (about 3 KB, plus the 32 KB
+  font copy) are appended to the string pool; no relocated word is touched and no relocation entry
+  is added (`test_psp_vwf.py` checks both).
+* New `psp_bold_lowercase.py`: a copy of font 2 with `a..z` drawn over
+  hiragana cells 49..74 (from the dialogue font's lowercase), stored in the
+  pool (32 KB) and bound by a hook at the start of the bold routine
+  (`0x144250`) for every string without kana from those cells; `a..z` in
+  the bold routine's private table point at them. The name entry keyboard
+  draws its kana through the same routine, so it keeps the retail font 2
+  (a first version that painted font 2 itself broke the keyboard; caught in
+  PPSSPP before any push).
+* New `mips_asm.py`: the small assembler the hooks are written in (output
+  identical to armips v0.11.0).
+* `build_psp.py --vwf on|off` (default on, needs the lowercase font).
+* Tested in PPSSPP 1.20.4 with the real kernel load rule: fresh boot,
+  opening, first battle, Cresta, a skit, main menu, Items, Custom, Status,
+  name entry. Still owed: a real PSP / PS Vita, the arte grid with a save
+  that has artes.
+
 ## 2026-10-16: about 100 more menu strings, Frostheim, scan lessons
 
 * Menu table keys with a full-width space never matched BOOT.BIN: the

@@ -283,7 +283,8 @@ ASCII font-selection patches and private bold-menu table. The original font
 member is copied unchanged. English text still contains its original case,
 but the retail engine displays lowercase ASCII letters as capitals. Menu/name
 and monster translations, the title credit (`--version`), text verification
-and scene-freeze fix run in both modes. Character widths are unchanged.
+and scene-freeze fix run in both modes. With `off` character widths are
+the retail fixed widths (the variable width font needs the lowercase font).
 
 Start from a clean Japanese PSP ISO; this switch is not a font-hack removal
 tool for an already patched image. Use different output filenames for the
@@ -297,6 +298,41 @@ python -B -m unittest discover -s psp/tools -p test_build_psp.py -v
 
 Use a new output filename and, if using `--keep`, a new work directory. Do not
 point the build at your only copy of an earlier image or edited extraction.
+
+## psp_vwf.py, psp_bold_lowercase.py: letter widths and bold lowercase
+
+Both run inside `build_psp.py` with the lowercase font and `--vwf on`
+(the defaults):
+
+* `psp_bold_lowercase.py` builds a copy of font 2 (the small menu font in
+  BOOT.BIN) with 26 lowercase letters drawn over hiragana cells 49..74 and
+  maps `a..z` in the bold routine's private slot table to them. The letters
+  are made from the dialogue font's lowercase, so both fonts match.
+  `psp_vwf.py` stores the copy in the string pool and binds it for bold
+  text that has no kana from those cells (the name entry keyboard keeps
+  its kana). Result: "Kyle", "Normal", "Message Speed" instead of KYLE,
+  NORMAL, MESSAGE SPEED.
+* `psp_vwf.py` gives every single-byte character its own width (variable
+  width font). It measures the glyphs of the built fonts and patches the
+  six places that lay out or draw single-byte text: the text box layout,
+  the text box glyph loop, the text printer (labels, choices, menus), the
+  box measurer, the bold menu routine and the skit/battle ticker. Digits
+  keep one shared width so number columns stay aligned. `g p q y j` are
+  drawn lower (descenders), the single-byte `-` is drawn as a short hyphen.
+  The code goes into the string pool segment; no new relocation entries.
+* `mips_asm.py` is the small assembler the hooks are written in, so the
+  build needs no armips. `test_psp_vwf.py` checks its output against
+  armips v0.11.0 and that no patched word is one the loader relocates.
+
+`--vwf off` builds without the width hooks and without the bold lowercase
+(fixed width and bold capitals as before). Text boxes keep the line breaks
+of the translation; they are just narrower now.
+
+Testing a renderer change: build, start a NEW game (save states bring back
+the old executable), check a text box, a skit, the main menu, Status and a
+battle. Stock PPSSPP loads every program header, a real PSP does not
+(TECHNICAL.md, "The pool's program header must sit between text and
+data"); a code change still needs a test on hardware.
 
 ## psp_jpscan.py: which Japanese is still in a build
 

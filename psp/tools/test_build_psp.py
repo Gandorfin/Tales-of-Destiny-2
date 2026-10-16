@@ -96,6 +96,9 @@ class BuildFontChoiceTests(unittest.TestCase):
                 mock(f'{builder.__name__}.psp_pool.make_hardware_loadable',
                      side_effect=lambda b: (b, {'reordered': True}))
                 mock(f'{builder.__name__}.psp_pool.check_hardware_layout', return_value={})
+            if hasattr(builder, 'psp_vwf'):
+                captured['vwf'] = mock(f'{builder.__name__}.psp_vwf.patch_boot',
+                                       side_effect=lambda b, font, bold=False, ticker=False: (b, {}))
             mock(f'{builder.__name__}.psp_text.build', side_effect=build)
             mock(f'{builder.__name__}.psp_text.verify', return_value=verify)
             replace = mock(f'{builder.__name__}.psp_iso.replace')
@@ -140,6 +143,8 @@ class BuildFontChoiceTests(unittest.TestCase):
                 self.assertEqual(boot[lc.BOLD_LUI:lc.BOLD_ADDIU + 4],
                                  original[lc.BOLD_LUI:lc.BOLD_ADDIU + 4])
                 self.assertEqual(len(boot), len(original) + 4)
+                if 'vwf' in built:
+                    built['vwf'].assert_not_called()
 
     def test_on_installs_glyphs_and_keeps_bold_menu_capitals(self):
         for builder in BUILDERS:
@@ -154,11 +159,18 @@ class BuildFontChoiceTests(unittest.TestCase):
                 self.assertEqual(boot[-0x100:], original[lc.U8_TABLE:lc.U8_TABLE + 0x100])
                 self.assertNotEqual(boot[lc.BOLD_LUI:lc.BOLD_ADDIU + 4],
                                     original[lc.BOLD_LUI:lc.BOLD_ADDIU + 4])
+                if 'vwf' in built:
+                    built['vwf'].assert_called_once()
+                    self.assertTrue(built['vwf'].call_args.kwargs.get('bold'))
+                    self.assertEqual(built['vwf'].call_args.args[1], built['extra'][0])
+                    self.assertTrue(built['vwf'].call_args.kwargs.get('ticker'))
 
     def test_default_is_identical_to_explicit_on(self):
         for builder in BUILDERS:
             with self.subTest(builder=builder.__name__):
-                self.assertEqual(self.run_build(builder)[2], self.run_build(builder, True)[2])
+                default, explicit = self.run_build(builder)[2], self.run_build(builder, True)[2]
+                for key in ('boot', 'extra'):
+                    self.assertEqual(default[key], explicit[key])
 
     def test_failed_verification_never_writes_iso_in_either_mode(self):
         for builder in BUILDERS:
