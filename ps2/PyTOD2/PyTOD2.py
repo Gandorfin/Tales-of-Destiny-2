@@ -458,11 +458,11 @@ def insert_sced(skit=False):
     speed_table = skit_speed.load_table() if skit else None
     speed_report = []
 
-    for name in os.listdir('txt_en'):
-        f = open('txt_en/' + name, 'r', encoding='utf8')
+    for name in os.listdir('TXT_EN'):
+        f = open('TXT_EN/' + name, 'r', encoding='utf8')
         name = name[:-4]
-        sced = open('sced/' + name, 'rb')
-        o = open('sced_new/' + name, 'wb')
+        sced = open('SCED/' + name, 'rb')
+        o = open('SCED_NEW/' + name, 'wb')
 
         txts = []
         sizes = []
@@ -1196,7 +1196,7 @@ def extract_pak1():
                     ext = 'sced'
                 else:
                     pass
-            o = open('PAK1/' + name[:5] + '/' + '%s_%02d.%s' % (name[:5], i, ext), 'wb')
+            o = open('pak1/' + name[:5] + '/' + '%s_%02d.%s' % (name[:5], i, ext), 'wb')
             o.write(data)
             o.close()
         f.close()

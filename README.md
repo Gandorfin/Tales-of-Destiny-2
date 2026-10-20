@@ -238,10 +238,37 @@ Python 3.10 or newer.
 
 ### PS2
 
-Details for every step are in `ps2/menu/README.md` ("Applying it") and
-`ps2/movies/README.md`.
+One command runs every step below in order, with no GUI, on Windows,
+Linux or macOS:
 
-1. Extract `FILE.FPB` and `SLPS_251.72` from the Japanese ISO into
+```
+python ps2/build_ps2.py --japanese-iso "Tales of Destiny 2 (Japan).iso" --cless-iso "Tales of Destiny 2 (Eng-cless patch).iso" --movie-fpb MOVIE.FPB --version 1.3.1 --out tod2_ps2_en.iso
+```
+
+* `--cless-iso` is the build base: the ISO with the old (2008) Cless
+  English menu patch. Its FILE.FPB and SLPS_251.72 hold the menus the
+  menu tools patch. It differs from the Japanese ISO in those two files
+  only. `--base-fpb` and `--base-slps` take the two files instead.
+* `--movie-fpb` is the MOVIE.FPB with the subtitled movies (take it from
+  the latest release; step 5 explains how to rebuild it).
+* `--japanese-iso` is the clean Japanese ISO. The three rebuilt files
+  (FILE.FPB, SLPS_251.72, MOVIE.FPB) are written into a copy of it in
+  place (`ps2/menu/replace_iso_files.py`), so every other file stays
+  byte for byte retail and the image has the retail disc layout.
+* `--font` is the Latin font PNG (default: dreck's
+  `ps2/menu/font-ready_final.png`, the one the releases carry).
+* The build runs the PyTOD2 steps through the same functions as its
+  buttons, then the menu tools, Pack FPB, the ISO, the font,
+  `verify_menu_patch.py` and the disc layout check, and stops at the
+  first failure. `--work FOLDER` keeps all intermediate files there.
+  Outside Windows, `ps2/menu/lzss.py` does the compressing that
+  comptoe.exe does on Windows.
+
+The manual steps (details in `ps2/menu/README.md`, "Applying it", and
+`ps2/movies/README.md`):
+
+1. Extract `FILE.FPB` and `SLPS_251.72` from the Cless ISO (old English
+   menu patch, not the Japanese ISO) into
    `ps2/PyTOD2/` and run PyTOD2: Unpack FPB, Organize FPB, Unpack SCPK,
    Unpack SCED, Unpack PAK1, Move Skits OUT, Extract SKIT.
 2. Build the text from the `TXT_EN` copies: Pack SCED, Pack SCPK, Insert
@@ -259,7 +286,8 @@ Details for every step are in `ps2/menu/README.md` ("Applying it") and
    ```
    `title_credit.py` draws "Green Gel v1.3.0" under the title menu; the game
    shows only 96 pixels of that line, so the tool refuses wider labels.
-4. Pack FPB and put `new_FILE.FPB` and `new_SLPS_251.72` into the ISO. Do
+4. Pack FPB. It writes `FILE_NEW.FPB` and `new_SLPS_251.72`; those two
+   (renamed to `FILE.FPB` and `SLPS_251.72`) go into the ISO. Do
    **not** run "Insert FONT": it replaces the game's Latin font with an
    unused 2008 font and drops the `&`, `~` and `*` glyphs.
 5. Movies: they are in `MOVIE.FPB`, which none of the steps above touch.
@@ -309,18 +337,33 @@ ISO with `psp/tools/patch_font_iso.py` (`psp/tools/FONT_CUSTOMIZATION.md`).
 
 ### Making a release
 
-PS2, after the last build step (step 8, `fix_disc_layout.py fix`; v1.3.0
-was released without it, which is why a PS3 shows that disc in blue):
+One command per platform builds, checks and packs a release:
 
 ```
-xdelta3 -e -9 -S none -s "Tales of Destiny 2 (Japan).iso" patched.iso "[Green Gel] ToD2 patch v1.3.0 (PS2).xdelta"
+python -m pip install py7zr
+python scripts/make_release.py ps2 --version 1.3.1
+python scripts/make_release.py psp --version 0.3.3
 ```
 
-`-S none` turns off the secondary compression some patchers cannot read.
-The patch stays small only if the ISO keeps the original file layout (files
-replaced in place). The PS2 xdelta is still around 800 MB (about 415 MB as
-a 7z) because the movies with dialogue are re-encoded. The PSP patch is made
-the same way from the `build_psp.py` output.
+It checks out upstream/main (or `--commit`) into a clean folder, runs the
+translation audit and the unit tests, builds with `ps2/build_ps2.py` or
+`psp/tools/build_psp.py --movies`, makes the xdelta (`xdelta3 -e -9 -S none`,
+no secondary compression, which some patchers cannot read), applies it to
+the clean Japanese ISO again and checks the result is the built ISO byte for
+byte, runs the release checks (PS2: menus and disc layout; PSP: BOOT.BIN load
+order), packs the 7z with the usual names (`ToD2_Eng_patch_QS_vX.7z`,
+`PSP_Patch_VWF_vX.7z`) and drafts the notes from the merged PRs. For the
+PS2 it takes MOVIE.FPB from the latest PS2 release unless `--movie-fpb` is
+given. With `--upload` it creates a draft GitHub release and uploads the
+7z; the draft goes public when someone clicks Publish on its page.
+
+Local paths go in `release.local.json` in the repository root (not
+committed): `japanese_iso_ps2`, `cless_iso`, `japanese_iso_psp`, `xdelta3`
+(path of the xdelta3 program) and `token_file` (a file with a classic
+GitHub token, scope public_repo, only needed for `--upload`).
+
+The PS2 xdelta is around 465 MB (about 415 MB as a 7z) because the movies
+with dialogue are re-encoded; the PSP one around 795 MB.
 
 ## Repository map
 
