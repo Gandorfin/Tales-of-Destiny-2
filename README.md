@@ -139,7 +139,7 @@ See [Help wanted](#help-wanted-open-psp-problems) for the engineering side.
    v0.3.2 yet (see Status).
 
 The title screen shows the patch version ("Green Gel vX.Y.Z" on PS2,
-"Green Gel Patch vX.Y.Z" on PSP). Please include it in bug reports.
+"Green Gel vX.Y.Z" on PSP since 0.3.3). Please include it in bug reports.
 
 ## How to help
 
@@ -289,7 +289,7 @@ python psp/tools/build_psp.py "Tales of Destiny 2 (Japan) PSP.iso" tod2_psp_en.i
 ```
 
 * `--version` is the number drawn on the title screen as
-  "Green Gel Patch vX.Y.Z"; pass the one you are releasing.
+  "Green Gel vX.Y.Z"; pass the one you are releasing.
 * `--movies` burns the English subtitles into the movies. **Without it the
   movies stay Japanese.** It needs an FFmpeg with libass and libx264:
   `imageio-ffmpeg` brings one, or pass `--ffmpeg C:\path\to\ffmpeg.exe`.

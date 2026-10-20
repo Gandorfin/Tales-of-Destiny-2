@@ -24,7 +24,7 @@ class PatchPak(unittest.TestCase):
         blobs = [psp_fpb.compress(bytes([k]) * 300) for k in range(8)]
         blobs[1] = psp_fpb.compress(strip)
         pak = P.build_pak(blobs)
-        out, new_strip, info = P.patch_pak(pak, 'Green Gel Patch v0.1.0')
+        out, new_strip, info = P.patch_pak(pak, 'Green Gel v0.1.0')
         members = P.parse_pak(out)
         self.assertEqual(len(members), 8)
         for k, (_, b) in enumerate(members):
@@ -34,8 +34,16 @@ class PatchPak(unittest.TestCase):
         self.assertEqual(T.rows_below_band(new_strip), T.rows_below_band(strip))
         self.assertLessEqual(info['right'], 128 - T.RIGHT_MARGIN)
 
+    def test_label_wider_than_the_visible_line_is_refused(self):
+        # the game draws 96 px of line one: 0.3.2 showed "Green Gel Patch v0"
+        strip = make_strip(fill_rows=(6, 22))
+        blobs = [psp_fpb.compress(bytes([k]) * 300) for k in range(8)]
+        blobs[1] = psp_fpb.compress(strip)
+        with self.assertRaises(T.TitleError):
+            P.patch_pak(P.build_pak(blobs), 'Green Gel Patch v0.3.2')
+
     def test_label_for(self):
-        self.assertEqual(P.label_for('v0.1.1'), 'Green Gel Patch v0.1.1')
+        self.assertEqual(P.label_for('v0.1.1'), 'Green Gel v0.1.1')
         self.assertEqual(P.label_for(None, 'Custom'), 'Custom')
         with self.assertRaises(T.TitleError):
             P.label_for(None, None)

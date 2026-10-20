@@ -3,9 +3,11 @@
 
     python psp/tools/build_psp.py "Tales of Destiny 2 (Japan).iso" tod2_psp_en.iso --version 0.1.1 [--lowercase-font on|off] [--vwf on|off] [--movies [--ffmpeg PATH]] [--probe] [--keep WORKDIR]
 
---version X.Y.Z draws "Green Gel Patch vX.Y.Z" on the title screen in place
-of the Japanese designer credit (psp_title.py). Without it the title screen
-keeps the original two lines, so pass it for every release build.
+--version X.Y.Z draws "Green Gel vX.Y.Z" on the title screen in place
+of the Japanese designer credit (psp_title.py) and, with Pillow installed,
+gives the PSP menu background PIC1.PNG English taglines and the line "Green
+Gel Group English Patch vX.Y.Z" (psp_pic1.py). Without it the title screen
+and PIC1.PNG keep the Japanese, so pass it for every release build.
 
 Steps (all from this repository, no other tools):
 1. pull BOOT.BIN and file.fpb out of the image (psp_iso.py)
@@ -131,7 +133,7 @@ def check_sources(movies=False, report=True):
 
 sys.path.insert(0, HERE)
 check_sources(report=False)
-import psp_iso, psp_text, psp_names, psp_menu, psp_lowercase, psp_fpb, psp_pool, psp_monsters, psp_title, psp_quiz, psp_worldmap, psp_vwf, psp_latin_font
+import psp_iso, psp_text, psp_names, psp_menu, psp_lowercase, psp_fpb, psp_pool, psp_monsters, psp_title, psp_quiz, psp_worldmap, psp_vwf, psp_latin_font, psp_boot_script, psp_pic1
 
 def add_probes(work):
     p = os.path.join(work, 'scenario_en', '06470.txt')
@@ -158,6 +160,12 @@ def main(iso, out_iso, probe=False, keep=None, version=None, lowercase_font=True
     psp_iso.extract(iso, '/PSP_GAME/USRDIR/file.fpb', fpb)
     _named = psp_names.patch_names(open(boot, 'rb').read())[0]
     open(boot, 'wb').write(_named)
+    # the chest and pickup event script inside BOOT.BIN (psp_boot_script.tsv);
+    # before the menu table, which would otherwise patch some of its strings
+    # in place first (the empty chest line is in both tables)
+    _evt, _est = psp_boot_script.patch(open(boot, 'rb').read())
+    open(boot, 'wb').write(_evt)
+    print('boot event script:', _est)
     _menu, _mst = psp_menu.patch_menu(open(boot, 'rb').read())
     open(boot, 'wb').write(_menu)
     print('menu patch:', dict(_mst))
@@ -240,6 +248,17 @@ def main(iso, out_iso, probe=False, keep=None, version=None, lowercase_font=True
         ('/PSP_GAME/SYSDIR/BOOT.BIN', new_boot),
         ('/PSP_GAME/SYSDIR/EBOOT.BIN', new_boot),
     ]
+    if version:
+        # the XMB background with English taglines and the patch version
+        if psp_pic1.available():
+            pic1 = os.path.join(work, 'PIC1.PNG')
+            psp_iso.extract(iso, '/PSP_GAME/PIC1.PNG', pic1)
+            _png = psp_pic1.build(open(pic1, 'rb').read(), version.lstrip('vV'))
+            open(pic1, 'wb').write(_png)
+            replaced.append(('/PSP_GAME/PIC1.PNG', pic1))
+            print('XMB picture: English taglines, "%s"' % (psp_pic1.LABEL % version.lstrip('vV')))
+        else:
+            print('XMB picture: unchanged (needs Pillow: python -m pip install pillow)')
     if movies:
         import psp_movies
         replaced += psp_movies.build(iso, os.path.join(work, 'movies'), ffmpeg)

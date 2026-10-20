@@ -77,7 +77,7 @@ def _code_pair_groups(d):
     """[(hi file offsets, [(lo file offset, target vaddr, opcode)])] for every
     run of HI16 relocations and the LO16 run that completes it, addresses in
     segment 0 only (the pool is addressed the same way)."""
-    groups, his, los, seg0 = [], [], [], True
+    groups, his, los, seg0, run_seg = [], [], [], True, None
 
     def close():
         if his and los and seg0:
@@ -88,9 +88,17 @@ def _code_pair_groups(d):
             if los:
                 close()
                 his.clear(); los.clear(); seg0 = True
+            if not his:
+                run_seg = adrb
             his.append(fo)
             seg0 = seg0 and adrb == 0
         elif typ == R_MIPS_LO16 and his:
+            if adrb != run_seg:
+                # an address in another segment, built from its own lui
+                # elsewhere: not part of this run. Counting it here dropped
+                # the whole group (the Artes legend at 0x1C910C, built at
+                # 0x128C24/0x128C28, comes right before such an entry)
+                continue
             hi = struct.unpack_from('<I', d, his[-1])[0] & 0xffff
             word = struct.unpack_from('<I', d, fo)[0]
             lo = word & 0xffff
