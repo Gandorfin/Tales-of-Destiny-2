@@ -373,6 +373,33 @@ The variable width font (`psp/tools/psp_vwf.py`) hooks all of these:
   relocation entry (data 1 to 2, pool 3 to 1); `check_hardware_layout`
   refuses an image the kernel would load differently. Tools that parse
   relocations with fixed header indices must run before that step.
+* Where a string starts (`psp_menu.string_start`, October 2026): after a NUL,
+  unless that NUL is the end of a control code's 4-byte argument
+  (`<button:00000036>` = `09 36 00 00 00`), or at any address the executable
+  points at (`referenced_offsets`: data pointers and `lui`/`addiu` pairs),
+  because some strings follow binary data with no NUL in front (リファイン
+  after a float at `0x1C3A8C`). The menu table is applied longest key first.
+  Before this, fragments inside button legends and confirmation dialogs were
+  patched in place (決定 / Back), after which the whole record never matched.
+* Code-built addresses (`psp_pool._code_pair_groups`): a run of HI16
+  relocations and the LO16 entries after it. LO16 entries of another
+  segment can sit between them (a data address finished with its own
+  `lui` elsewhere); until October 2026 such an entry marked the whole run
+  as mixed and dropped it, so 302 code-built string addresses (the Artes
+  legend at `0x1C910C`, built at `0x128C24`/`0x128C28`, among them) were
+  neither seen as string starts nor redirected to the pool. They are now
+  skipped instead.
+* `psp_menu.ADDRESSED` patches a few strings at one address only, where the
+  same text needs other English elsewhere: the battle result fragments at
+  `0x1F2390` (の, エンチャント, スキル, スペル, を習得), emptied like on the PS2
+  so the enchant line reads "Loni: Increase Accuracy".
+* BOOT.BIN contains one SCED script of its own at file `0x282F40`: the
+  shared event for treasure chests and pickups (item obtained, inventory
+  full, empty chest, Gald and Lens found, the Lens "take / put back" choice,
+  game over epilogue, title earned). Its strings are reached only through
+  its F8 operands, so menu tools never saw them.
+  `psp/tools/psp_boot_script.py` and `psp_boot_script.tsv` rebuild its text
+  area in place (588 bytes of room).
 * Item and arte descriptions are two-line records `line1 0x01 line2` stored
   as one string; key them with `{01}` in the tables.
 * The arte grid is drawn by the bold routine; it mangles any multi-byte
@@ -399,6 +426,14 @@ The variable width font (`psp/tools/psp_vwf.py`) hooks all of these:
   differs from the PS2 one and has its own table (`psp_credits.tsv`).
 * Title credit: 4-bit TIM2 in member `00002` entry 1 (128 x 32),
   `psp/tools/psp_title.py`.
+  The game draws only the first 96 pixels of line one (as on the PS2), so
+  the label is "Green Gel vX.Y.Z" and `psp_title.py` refuses wider ones;
+  "Green Gel Patch v0.3.2" (117 px) showed as "Green Gel Patch v0".
+* XMB background `PSP_GAME/PIC1.PNG` (480 x 272): Japanese taglines on the
+  band at the bottom right and the designer credit at the bottom left.
+  `psp/tools/psp_pic1.py` (Pillow) fills them from the background and draws
+  English plus "Green Gel Group English Patch vX.Y.Z"; build_psp runs it
+  with `--version`.
 * World map text: members `09272..09276` are sizes packs (u32 count, u32
   sizes, children back to back, every size a multiple of 4), one per era
   (present, future, altered present, Great War, final present). Child 19 is

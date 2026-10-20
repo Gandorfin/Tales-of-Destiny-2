@@ -1,0 +1,12 @@
+# japanese (decoded, line breaks as {01})	english	(psp_boot_script.py: the event script inside BOOT.BIN, chests and pickups)
+<item:FFFFFFFF>を{01}手にいれました	Acquired <item:FFFFFFFF>.
+<item:FFFFFFFF>がありましたが{01}いっぱいでこれ以上持てません	Found <item:FFFFFFFF>,{01}but you can't carry any more.
+からっぽだ････	It's empty...
+<0B:00000001>{14}{30}{1C}{C0}<0B:00000000>ガルドを{01}手に入れました	Acquired <0B:00000001>{14}{30}{1C}{C0}<0B:00000000> Gald.
+<0B:00000001>{14}{30}{1C}{C0}<0B:00000000>枚のレンズを手に入れました	Acquired <0B:00000001>{14}{30}{1C}{C0}<0B:00000000> Lens.
+<0B:00000001>{14}{30}{1C}{C0}<0B:00000000>枚のレンズがありましたが{01}いっぱいでこれ以上持てません	Found <0B:00000001>{14}{30}{1C}{C0}<0B:00000000> Lens,{01}but you can't carry any more.
+<0B:00000001>{14}{30}{1C}{C0}<0B:00000000>枚のレンズがありましたが{01}全部は持てません{01}<03:00000000>　<0B:00000001>{14}{30}{18}{C0}枚取り、{14}{30}{14}{C0}枚は捨てる<0B:00000000>　{01}　宝箱に戻す　	Found <0B:00000001>{14}{30}{1C}{C0}<0B:00000000> Lens,{01}but you can't carry them all.{01}<03:00000000>　<0B:00000001>Take {14}{30}{18}{C0}, discard {14}{30}{14}{C0}<0B:00000000>　{01}　Put them back　
+その後、{15}{30}{1C}{C0}の行方を知る者は{01}誰もいなかった････{02}	No one ever learned what{01}became of {15}{30}{1C}{C0} after that...{02}
+その後、{15}{30}{1C}{C0}たちの行方を知る者は{01}誰もいなかった････{02}	No one ever learned what became{01}of {15}{30}{1C}{C0} and the others...{02}
+{15}{30}{1C}{C0}は{01}称号「{16}{A0}{00}{08}{30}{18}{CA}{C0}」を得ました	{15}{30}{1C}{C0} acquired the title{01}"{16}{A0}{00}{08}{30}{18}{CA}{C0}".
+{15}{30}{1C}{C0}たちは称号を得ました	{15}{30}{1C}{C0} and the others{01}earned a title!

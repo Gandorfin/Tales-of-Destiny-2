@@ -6,9 +6,12 @@ build_psp.py calls this when given --version. The copyright strip under the
 title menu is a 128x32 4-bit TM2 texture, member 1 of archive member 00002
 (the title pack: u32 count, u32 offsets, then deflate-wrapped members, the
 same eight textures as the PS2 00021.pak3). The Japanese designer credit on
-line one is redrawn as "Green Gel Patch vX.Y.Z" with the condensed style of
+line one is redrawn as "Green Gel vX.Y.Z" with the condensed style of
 ps2/menu/title_credit.py; the NBGI line stays as it is. Only pixel data
-changes, the texture keeps its size and palette.
+changes, the texture keeps its size and palette. As on the PS2 the game
+draws only the first 96 pixels of line one (the width of the Japanese
+credit), so a wider label is refused: "Green Gel Patch v0.3.2" (117 px)
+showed as "Green Gel Patch v0" in PSP 0.3.2.
 """
 import os, sys, struct, zlib, argparse
 
@@ -22,7 +25,7 @@ import title_credit as T
 PAK_INDEX = 2        # file.fpb member holding the title pack
 STRIP_MEMBER = 1     # pack member with the copyright strip
 STRIP_SIZE = (128, 32)
-DEFAULT_LABEL = 'Green Gel Patch v%s'
+DEFAULT_LABEL = 'Green Gel v%s'
 
 def parse_pak(data):
     """[(offset, exact member bytes)] of an offsets-only pack."""
@@ -68,6 +71,9 @@ def patch_pak(pak, label):
         raise T.TitleError('member %d is %dx%d, not the %dx%d copyright strip'
                            % (STRIP_MEMBER, w, h, STRIP_SIZE[0], STRIP_SIZE[1]))
     new_strip, info = T.draw_label(strip, label, 'psp')
+    if info['right'] > T.LINE_ONE_VISIBLE:
+        raise T.TitleError('label %r is %d px wide; the title screen shows only %d px of line one'
+                           % (label, info['right'], T.LINE_ONE_VISIBLE))
     new_blob = psp_fpb.compress(new_strip)
     if psp_fpb.decompress(new_blob) != new_strip:
         raise T.TitleError('compression round trip failed')
