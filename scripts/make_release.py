@@ -24,7 +24,8 @@ What it does, in order; any failure stops it:
 5. Packs the xdelta into a 7z with the names the releases use
    (ToD2_Eng_patch_QS_vX.7z, PSP_Patch_VWF_vX.7z).
 6. Writes release_notes.md: the PRs merged since the previous release of
-   that platform, to edit before publishing.
+   that platform, to edit before publishing (or the file given with
+   --notes).
 7. With --upload: creates a DRAFT GitHub release (tag created on publish,
    pointing at the exact commit built) and uploads the 7z. Nobody but the
    maintainers sees a draft; publishing it is a click on its page.
@@ -257,11 +258,16 @@ def main(argv=None):
     ap.add_argument('--commit', help='commit to release (default: upstream/main)')
     ap.add_argument('--movie-fpb', help='PS2: MOVIE.FPB to use instead of the latest release one')
     ap.add_argument('--work', help='work folder (default: release-work/<platform>-<version>)')
+    ap.add_argument('--notes', help='release notes file to use instead of the generated draft')
     ap.add_argument('--upload', action='store_true', help='create a draft GitHub release and upload')
     ap.add_argument('--skip-tests', action='store_true', help='only for trying the script itself')
     args = ap.parse_args(argv)
     if not re.match(r'^\d+\.\d+\.\d+[a-z]?$', args.version):
         ap.error('version must look like 1.3.1')
+    if args.notes and not os.path.isfile(args.notes):
+        ap.error('notes file %s not found' % args.notes)
+    if args.notes:
+        args.notes = os.path.abspath(args.notes)
     cfg = json.load(open(CONFIG, encoding='utf-8'))
     cfg.setdefault('xdelta3', 'xdelta3')
     spec = PLATFORMS[args.platform]
@@ -301,6 +307,7 @@ def main(argv=None):
                 z.write(patch, os.path.basename(patch))
             notes_path = os.path.join(work, 'release_notes.md')
             open(notes_path, 'w', encoding='utf-8').write(
+                open(args.notes, encoding='utf-8').read() if args.notes else
                 notes(args.platform, args.version, sha, previous_release(args.platform)))
             stamp = {'platform': args.platform, 'version': args.version, 'commit': sha,
                      'built': datetime.datetime.now(datetime.timezone.utc).isoformat(timespec='seconds'),
