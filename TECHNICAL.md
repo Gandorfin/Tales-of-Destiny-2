@@ -20,6 +20,7 @@ Quiz Book, enemy text, font), `ps2/movies/README.md` (PS2 movies),
 * [PS2: FILE.FPB](#ps2-filefpb)
 * [PS2: the executable SLPS_251.72](#ps2-the-executable-slps_25172)
 * [PS2: menus, Quiz Book, enemy text](#ps2-menus-quiz-book-enemy-text)
+* [PS2: battle voices and battle subtitles](#ps2-battle-voices-and-battle-subtitles)
 * [PS2: movies](#ps2-movies)
 * [PS2: building the image, releases](#ps2-building-the-image-releases)
 * [PSP: the executable BOOT.BIN](#psp-the-executable-bootbin)
@@ -181,6 +182,45 @@ Quiz Book, enemy text, font), `ps2/movies/README.md` (PS2 movies),
   384 x 32); `ps2/menu/title_credit.py` draws "Green Gel vX.Y.Z" (the game
   shows only the first 96 pixels).
 * Cooking recipe names and a few posters are drawn into textures, not text.
+
+## PS2: battle voices and battle subtitles
+
+Found with PCSX2 (memory reads over PINE, call loggers) on the 1.3.1 image;
+addresses are EE RAM while a battle runs.
+
+* The battle module is `08055`, member 0 of `00017.pak3` (LZSS). The game
+  loads the whole container once at boot into a heap block of its file size
+  (pointer at `0x234600`) and unpacks member 0, 1 or 2 into the overlay
+  buffer at `0x2AEA80` by index. The buffer ends where the heap starts,
+  `0x303100` (crt0 end of bss); `08055` is the largest overlay and ends at
+  `0x30210C`, so 4 KB stay free behind it. The caches are flushed after the
+  unpack.
+* Battle actors: 0x2A8 byte records, array pointer at `0x2FA160`, party size
+  byte at `0x2FA195` (globals block `0x2FA000`). The halfword at actor
+  `+0x13E` is the id of the voice the actor is speaking, 0 when silent;
+  `+0x140` is a queued voice. `+0x149` is the character (0 Kyle, 1 Reala,
+  2 Loni, 3 Judas, 4 Nanaly, 5 Harold), `+0x14C` is 1 for enemies.
+* Voice routines in `08055`: `0x2ED158` (looks the id up in the character's
+  VCD bank, `"VCD@"`, count, (id, offset) pairs), `0x2ED248` (loads it from
+  the disc through `0x2ED448`), both end in `0x2ED7B0` (a0 actor, a1 id,
+  a3 type: 0 victory, 1 hit taken, 2 arte, 3 grunt, 4 other).
+* Voice id to FILE.FPB member (SLPS `0x133F30`): ids 4..515 are the party
+  (member 7253 + id), 516..587 member 6669 + id (long lines: special
+  victory and leader lines), 588..632 member 7181 + id (enemy grunts),
+  633..864 member 7190 + id (bosses).
+* Victory quote: chosen around `0x2E9100` and stored at `0x2FA0B8`: the u16
+  base of the character at `0x300A00` (Kyle 77, Reala 169, Loni 252, Judas
+  337, Nanaly 411, Harold 505) plus 1..4 at random, or 5, 6, 7, 9 by
+  condition; ids 516..523 and 557 replace it in special cases.
+* Text in battle: helper `0x2E6DA0` (a0 x, a1 y, a2 ASCII string, a3 colour,
+  t0 x scale, t1 y scale, 0x100 = 1.0); colour 7 is white with the font's
+  dark outline. No line breaks; the font has no `[ ] _ @ ^`. One character
+  is 16 x scale / 256 pixels wide (11 at 0xB0).
+* The battle frame function is called once per frame from `0x2AEC18`
+  (`jal 0x2B40B8`). `ps2/menu/battle_subs.py` appends a hook to `08055`
+  that calls it and then draws the subtitle of every speaking party actor
+  from `battle_subtitles.csv`; the text is a fourth, uncompressed member of
+  `00017.pak3` (comptoe header type 0, `BSUB` table at member offset + 12).
 
 ## PS2: movies
 
