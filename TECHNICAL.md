@@ -397,6 +397,13 @@ The variable width font (`psp/tools/psp_vwf.py`) hooks all of these:
   `psp/tools/psp_movies.py` burns the PS2 subtitle tracks, `psp_pmf.py`
   rebuilds each navigation unit keeping audio and timing. The PSP staff roll
   differs from the PS2 one and has its own table (`psp_credits.tsv`).
+  Retail video: H.264 Main profile, level 2.1, CABAC, one reference frame,
+  no B frames and no weighted prediction (PPS weighted_pred_flag 0). x264
+  enables weighted P frames by default; PSP 0.3.2 (checked) shipped movies
+  with it (flag 1 in every PPS of 002 to 006, 008, 009, 011, 012). The
+  encoder now passes `weightp=0` and refuses a unit whose PPS has the flag
+  (October 2026), because the PSP decodes video in hardware and software
+  decoders (PPSSPP) accept both.
 * Title credit: 4-bit TIM2 in member `00002` entry 1 (128 x 32),
   `psp/tools/psp_title.py`.
 * World map text: members `09272..09276` are sizes packs (u32 count, u32
