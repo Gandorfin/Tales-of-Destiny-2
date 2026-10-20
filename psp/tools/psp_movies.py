@@ -133,7 +133,11 @@ def encode_unit(ffmpeg, raw, first, count, keys, kbps, out, work, key_q=None):
     """Encode pictures first .. first+count-1 of the rendered video on their
     own (a unit starts with an IDR and nothing refers across it). key_q
     forces a quantizer on the unit's first picture, to make it smaller."""
-    params = ['ref=1', 'bframes=0', 'cabac=1', 'aud=1', 'repeat-headers=1', 'nal-hrd=vbr',
+    # weightp=0: the retail movies use no weighted prediction, and x264's
+    # default (weighted P frames, weighted_pred_flag 1 in the PPS) is the
+    # first thing a strict hardware decoder may refuse; software decoders
+    # (PPSSPP's FFmpeg) play either
+    params = ['ref=1', 'bframes=0', 'weightp=0', 'cabac=1', 'aud=1', 'repeat-headers=1', 'nal-hrd=vbr',
               'pic-struct=1', 'vbv-maxrate=3000', 'vbv-bufsize=3000', 'keyint=infinite',
               'scenecut=0', 'sar=1/1', 'force-cfr=1']
     if key_q:
@@ -153,7 +157,41 @@ def encode_unit(ffmpeg, raw, first, count, keys, kbps, out, work, key_q=None):
     pics = [strip_user_data(p) for p in psp_pmf.pictures(open(out, 'rb').read())]
     if len(pics) != count or not psp_pmf.is_idr(pics[0]):
         raise ValueError('unit at picture %d: encoded %d pictures' % (first, len(pics)))
+    if any(weighted_prediction(p) for p in pics):
+        raise ValueError('unit at picture %d: the encoder wrote weighted prediction' % first)
     return pics
+
+
+def _ue(bits, pos):
+    zeros = 0
+    while bits[pos] == '0':
+        zeros += 1; pos += 1
+    pos += 1
+    return (1 << zeros) - 1 + (int(bits[pos:pos + zeros], 2) if zeros else 0), pos + zeros
+
+
+def weighted_prediction(pic):
+    """True if a picture parameter set in pic enables weighted prediction
+    (weighted_pred_flag or weighted_bipred_idc). The retail movies have
+    neither."""
+    p = pic.find(b'\x00\x00\x01')
+    while p != -1:
+        if pic[p + 3] & 31 == 8:
+            raw = pic[p + 4:p + 40].replace(b'\x00\x00\x03', b'\x00\x00')
+            bits = ''.join('{:08b}'.format(c) for c in raw)
+            pos = 0
+            for _ in range(2):                   # pps id, sps id
+                _, pos = _ue(bits, pos)
+            pos += 2                             # entropy coding, pic order present
+            groups, pos = _ue(bits, pos)
+            if groups:
+                raise ValueError('PPS with slice groups')
+            for _ in range(2):                   # active reference counts
+                _, pos = _ue(bits, pos)
+            if bits[pos:pos + 3] != '000':        # weighted_pred_flag, weighted_bipred_idc
+                return True
+        p = pic.find(b'\x00\x00\x01', p + 3)
+    return False
 
 
 def strip_user_data(pic):
