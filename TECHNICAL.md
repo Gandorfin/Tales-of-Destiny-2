@@ -492,6 +492,12 @@ The variable width font (`psp/tools/psp_vwf.py`) hooks all of these:
 * Control codes in a translated record must match the Japanese record
   exactly. Choice records (`<03>`) must also keep the Japanese line
   structure; an extra line once made the Skit Hut replay menu stick.
+* A selector box (Skit Hut, 06781 file 14) measures its width once, when
+  it opens, from its widest line (trailing spaces count), and keeps it
+  while the inserted value changes. A later value that is wider wraps
+  into a fifth line, which goes to a second page: the box stops
+  redrawing and looks stuck. The D-pad legend row therefore carries 25
+  trailing spaces, enough for the widest skit title (PS2 test 2026-10-20).
 * Scenario edits go into both `Third pass Quality-Safe Output` and
   `ps2/PyTOD2/TXT_EN` (skits: `third pass skits safe output` and
   `ps2/PyTOD2/FILE/pak1/TXT_EN`); the audit fails on any difference. The PSP
