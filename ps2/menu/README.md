@@ -36,7 +36,13 @@ as the ones the game loads.
 
 ## Applying it
 
-Extract `FILE.FPB` with PyTOD2 first (Extract Files). That creates an `FPB`
+`python ps2/build_ps2.py` runs this whole sequence (the PyTOD2 steps, these
+five tools, Pack FPB, the ISO, the font, the checks) in one command; see
+"Building the patch from source" in the main README. Releases are made with
+`scripts/make_release.py`. The manual steps:
+
+Extract `FILE.FPB` (and `SLPS_251.72`) from the ISO with the old Cless
+English menu patch, not the Japanese ISO, with PyTOD2 first (Extract Files). That creates an `FPB`
 folder full of `06799.md1`, `09028.pak0` and so on. The first argument is
 **that folder**, not `FILE.FPB` itself.
 
@@ -48,7 +54,7 @@ cd Tales-of-Destiny-2
 python ps2/menu/patch_menu_text.py ps2/PyTOD2/FPB
 python ps2/menu/sfm_text.py build ps2/PyTOD2/FPB
 python ps2/menu/enemy_text.py build ps2/PyTOD2/FPB
-python ps2/menu/title_credit.py ps2/PyTOD2/FPB --version 1.3.0
+python ps2/menu/title_credit.py ps2/PyTOD2/FPB --version 1.3.1
 python ps2/menu/patch_slps_titles.py ps2/PyTOD2/SLPS_251.72
 ```
 
@@ -59,7 +65,7 @@ cd C:\Users\you\Tales-of-Destiny-2
 python ps2\menu\patch_menu_text.py ps2\PyTOD2\FPB
 python ps2\menu\sfm_text.py build ps2\PyTOD2\FPB
 python ps2\menu\enemy_text.py build ps2\PyTOD2\FPB
-python ps2\menu\title_credit.py ps2\PyTOD2\FPB --version 1.3.0
+python ps2\menu\title_credit.py ps2\PyTOD2\FPB --version 1.3.1
 python ps2\menu\patch_slps_titles.py ps2\PyTOD2\SLPS_251.72
 ```
 
@@ -119,7 +125,7 @@ to before it relocates anything.
 
 `title_credit.py` is the title screen: the two copyright lines under the
 menu are a 384x32 texture in `00021.pak3`, not text. The tool redraws the
-first line (the Japanese designer credit) as "Green Gel v1.3.0" and keeps
+first line (the Japanese designer credit) as "Green Gel v1.3.1" and keeps
 the Namco line; give it the version you are releasing. The title screen
 draws that first line as a sprite about 96 pixels wide (the width of the
 Japanese credit), which is why the label is short and condensed and why the
@@ -151,7 +157,7 @@ rebuilt. The full sequence, with the PyTOD2 button names:
 2. `python ps2\menu\patch_menu_text.py ps2\PyTOD2\FPB`
    and `python ps2\menu\sfm_text.py build ps2\PyTOD2\FPB` (the Quiz Book)
    and `python ps2\menu\enemy_text.py build ps2\PyTOD2\FPB` (enemy artes)
-   and `python ps2\menu\title_credit.py ps2\PyTOD2\FPB --version 1.3.0`
+   and `python ps2\menu\title_credit.py ps2\PyTOD2\FPB --version 1.3.1`
    (the patch name on the title screen, with the version being released).
 3. Make sure `new_SLPS_251.72` exists next to `SLPS_251.72` (Pack FPB
    writes the new pointer table into it), then
