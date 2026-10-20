@@ -21,6 +21,7 @@ Quiz Book, enemy text, font), `ps2/movies/README.md` (PS2 movies),
 * [PS2: the executable SLPS_251.72](#ps2-the-executable-slps_25172)
 * [PS2: menus, Quiz Book, enemy text](#ps2-menus-quiz-book-enemy-text)
 * [PS2: movies](#ps2-movies)
+* [PS2: building the image, releases](#ps2-building-the-image-releases)
 * [PSP: the executable BOOT.BIN](#psp-the-executable-bootbin)
 * [PSP: file.fpb](#psp-filefpb)
 * [PSP: fonts and lowercase](#psp-fonts-and-lowercase)
@@ -190,6 +191,41 @@ Quiz Book, enemy text, font), `ps2/movies/README.md` (PS2 movies),
   the video back into the original packs (audio byte for byte, original
   timing), `ps2/PyTOD2/Install-HardsubbedMovies.ps1` writes them into
   `MOVIE.FPB`. Details and limits: `ps2/movies/README.md`.
+* Releases take `MOVIE.FPB` from the previous release, not from a rebuild:
+  movies were edited after the subtitle files were last written, so a
+  rebuild from `ps2/movies/subtitles` can lose changes. Compare with the
+  released movies before replacing them.
+
+## PS2: building the image, releases
+
+* Build base: FILE.FPB and SLPS_251.72 of the ISO with the old (2008) Cless
+  English menu patch (SLPS SHA-256 prefix 4833A2A0), not the Japanese ISO.
+  Its FILE.FPB differs from retail in 38 md1 menu modules (06798..06835)
+  and 551 battle pak1 packs; the menu tools expect those modules. Every
+  other file of the Cless ISO is identical to the Japanese one, at the same
+  sectors.
+* `ps2/build_ps2.py` runs the whole build headless. It loads the part of
+  `ps2/PyTOD2/PyTOD2.py` above the line `Graphical Interface Start` (the
+  button functions) without a window; outside Windows the comptoe.exe calls
+  go to `ps2/menu/lzss.py` (same stream format, not always byte identical,
+  the game reads both).
+* `ps2/menu/replace_iso_files.py` writes FILE.FPB, SLPS_251.72 and MOVIE.FPB
+  into a copy of the Japanese ISO in place. Retail order on the disc:
+  SLPS_251.72 at sector 289, MOVIE.FPB at 87440, FILE.FPB at 838649 and
+  last, so only FILE.FPB may grow (into the area after it; the closing UDF
+  anchor moves). Each file has one UDF short allocation descriptor whose
+  length field holds the plain byte count even above 1 GB (retail does the
+  same for file.FPB); the UDF names are lowercase on retail (file.FPB,
+  movie.FPB). fix_disc_layout.fix then rounds the image to whole 16-sector
+  blocks.
+* Reproduction check (2026-10-20): the 1.3.0 commit built this way matches
+  the released v1.3.0 image in 9,091 of 9,095 FILE.FPB members; the other
+  four are merged fixes the release lacked.
+* `verify_menu_patch.py` counts "Enemy extras" (Japanese literals in battle
+  scripts with no table row): 34 in v1.3.0, 26 in v1.3.1. The release gate
+  allows up to 26 and is strict on everything else.
+* Release font: `ps2/menu/font-ready_final.png` (dreck), applied with
+  `patch_font_iso.py` on the finished image.
 
 ## PSP: the executable BOOT.BIN
 

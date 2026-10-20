@@ -18,8 +18,8 @@ Destiny II" in North America) and not the PS1 Tales of Destiny.
 
 | Version | Latest release | State |
 |---|---|---|
-| PS2 (SLPS-25172) | **QS v1.3.0** | **Complete.** The whole game is English. |
-| PSP (ULJS-00097) | **v0.3.2** (one download, variable width font; v0.3.1 also came without the lowercase font hack) | **Playable in emulators and on a PS Vita.** Story, skits, movies, world map and almost every menu are English; a few areas are still Japanese (listed below). A real PSP does not run it yet. |
+| PS2 (SLPS-25172) | **QS v1.3.1** | **Complete.** The whole game is English. |
+| PSP (ULJS-00097) | **v0.3.3** (one download, variable width font; v0.3.1 also came without the lowercase font hack) | **Playable in emulators and on a PS Vita.** Story, skits, movies, world map and almost every menu are English; a few areas are still Japanese (listed below). A real PSP did not run v0.3.2; v0.3.3 is not tested on one yet. |
 
 ### PS2
 
@@ -48,23 +48,40 @@ Known limits:
   characters, so it is shortened.
 * About 766 dialogue records have a fifth line that the game shows alone on
   a second page. Fixing that means shortening text; not decided yet.
-* PS3 playback: the v1.3.0 download was built without the disc layout fix
-  (last build step), so a PS3 shows it as a blue disc (pnvnd; it works after
-  burning with ImgBurn). Run the fix on your patched ISO yourself, see
-  [Playing it](#ps2-1). Releases have to run it as step 8 of the build.
+* PS3 playback: v1.3.0 was built without the disc layout fix, so a PS3
+  showed it as a blue disc (pnvnd; it worked after burning with ImgBurn).
+  Since v1.3.1 the patched disc has the retail disc structure; a PS3 test
+  is still owed.
 
-In the source for the next PS2 release: every skit line now finishes
-before the next speaker starts (dreck's report on v1.3.0: the next voice
-began while the text was still scrolling), and the 30 lines that needed
-more than 20 characters per second were shortened.
+New in v1.3.1 (20 October 2026): every skit line finishes before the next
+speaker starts (dreck's report on v1.3.0: the next voice began while the
+text was still scrolling), with 30 lines shortened for that; the Skit Hut
+replay menu no longer sticks on the "unavailable skit" entry; the Refine
+screen shows the Lens counts as "A:1 B:0/ 99"; the last party cut-in lines
+and Mystic Arte banner are English; and only the changed game files differ
+from the original disc. v1.3.1 is the first release built with
+`scripts/make_release.py` (see [Making a release](#making-a-release)).
 
 ### PSP
 
-v0.3.2 (16 October 2026) has the full story script, all 608 timed skits at
+v0.3.3 (20 October 2026) has the full story script, all 608 timed skits at
 full length with per line text speed (as PS2 v1.3.0), menus, items, artes,
 titles, descriptions, the Quiz Book, English subtitles in the nine movies
 with dialogue and the PSP's own ending staff roll in English. New in
-v0.3.2:
+v0.3.3 (the playtest sheet, tab 12):
+
+* the button legends of all menus, chest and pickup messages, the shop
+  confirmation, the town exit prompt ("Leave Cresta"), cooking and recipe
+  dialogs, and the save screen and Memory Stick dialogs (new saves get the
+  English title)
+* element labels (Earth, Water, Fire, Wind, Light, Dark), weapon and monster
+  classes, portion sizes; Battle Memo lines rewrapped to fit the box
+* the XMB background picture (PIC1.PNG) in English with the patch version,
+  and the full title screen label "Green Gel v0.3.3"
+* the subtitled movies encoded like the original movies (no weighted
+  prediction), for the PSP's hardware video decoder
+
+New in v0.3.2:
 
 * a new English font: all Latin text (dialogue, skits, menus, labels) is
   drawn in one typeface, Fira Sans SemiBold (SIL Open Font License), on one
@@ -85,25 +102,24 @@ v0.3.2:
 
 Where it runs (reports from the forum, October 2026): PPSSPP on PC, on
 Android (a development build, v1.20.4 or newer, ran best) and on the
-Switch, and the PSP emulator of a PS3 run v0.3.2. A PS Vita with
+Switch, and the PSP emulator of a PS3 run v0.3.2 and v0.3.3. A PS Vita with
 Adrenaline plays it with infrequent crashes (for example when selecting
 some items). **A real PSP does not run it yet:** a PSP-3000 stops on a
 white screen after the logos with v0.3.2, a PSP-2000 crashed often with
 v0.3.1. This is being investigated; see
 [Help wanted](#help-wanted-open-psp-problems).
 
-Still Japanese on PSP (full scan of the current source, October 2026):
+Still Japanese on PSP (full scan of v0.3.3, October 2026):
 
-* menu messages the patch does not apply yet: the button legends of most
-  menus, some shop and cooking confirmations and cooking results, the field
-  exit prompt ("Leave Cresta"), the airship landing message, the "obtained
-  the title" message
-* the single-kanji element and status labels (地 水 火 風 光 闇 毒)
-* the save screen (the game title and the Gald / Lens / Clear line), the
-  texts of the PSP only Illustration Book, and the PSP_GAME picture
-  PIC1.PNG shown in the system menu
+* the status ailment icons in the Monster Book (衰 痺 凍 鈍 時, small icon
+  slots) and two single labels with no context yet (Ｓ・Ｏ, 彼)
+* the cooking auto setting label (オート設定（重複時：…）), which mixes game
+  codes with placeholder spaces the choice is drawn over
 * the Mystic Arte banners of some enemies, and about 50 enemy arte names
   and boss lines that have no table yet
+* saves made before v0.3.3 keep their Japanese save title (it is written
+  into the save)
+* the kana keyboard of the name entry (on purpose)
 
 See [Help wanted](#help-wanted-open-psp-problems) for the engineering side.
 
@@ -113,14 +129,14 @@ See [Help wanted](#help-wanted-open-psp-problems) for the engineering side.
 
 1. Download the latest PS2 patch from the
    [releases page](https://github.com/Gandorfin/Tales-of-Destiny-2/releases)
-   (a `.7z` holding `[Green Gel] ToD2 patch vX.Y.Z (PS2).xdelta`).
+   (`ToD2_Eng_patch_QS_vX.Y.Z.7z`, holding the `.xdelta`).
 2. You need your own dump of the Japanese game (SLPS-25172). Apply the patch
    with [Delta Patcher](https://github.com/marco-calautti/DeltaPatcher/releases)
    (Windows, Linux, macOS): original ISO in, xdelta file in, Apply. Command
    line: `xdelta3 -d -s original.iso patch.xdelta patched.iso`.
 3. Play on PCSX2 or a real PS2.
-4. PS3: if the console shows the disc as a blue disc instead of an orange
-   PS2 disc (v1.3.0 was released without the disc layout fix), install
+4. PS3: since v1.3.1 the patched disc has the retail disc structure. With
+   v1.3.0 (shown as a blue disc instead of an orange PS2 disc) install
    Python, download this repository and run
    `python ps2\menu\fix_disc_layout.py fix "your patched.iso"` from its
    folder before burning. It changes only file system descriptors.
@@ -129,14 +145,14 @@ See [Help wanted](#help-wanted-open-psp-problems) for the engineering side.
 
 1. Download the PSP patch from the
    [releases page](https://github.com/Gandorfin/Tales-of-Destiny-2/releases)
-   (tags `PSP_X.Y.Z`). Since v0.3.2 there is one file (`VWF`, the variable
-   width font). v0.3.1 and older came as `Font_Hack` (mixed case) and
+   (tags `PSP_X.Y.Z`, file `PSP_Patch_VWF_vX.Y.Z.7z`). Since v0.3.2 there is
+   one file (`VWF`, the variable width font). v0.3.1 and older came as `Font_Hack` (mixed case) and
    `No_Font_Hack` (capitals only, for devices where the first one crashed).
 2. You need your own dump of the Japanese UMD (ULJS-00097). Apply the patch
    with Delta Patcher or `xdelta3 -d -s original.iso patch.xdelta patched.iso`.
 3. Play on PPSSPP (on Android a development build, v1.20.4 or newer) or a
-   PS Vita with Adrenaline. A real PSP with custom firmware does not run
-   v0.3.2 yet (see Status).
+   PS Vita with Adrenaline. A real PSP with custom firmware did not run
+   v0.3.2 (see Status); v0.3.3 is not tested on one yet.
 
 The title screen shows the patch version ("Green Gel vX.Y.Z" on PS2,
 "Green Gel vX.Y.Z" on PSP since 0.3.3). Please include it in bug reports.
@@ -173,15 +189,16 @@ engineering, `armips` or this engine, open an issue or a pull request.
 * **Code-built string addresses.** Long menu strings are moved to a new
   segment and their 32-bit data pointers rewritten (`psp/tools/psp_pool.py`).
   Some screens build the same address in code with a `lui`/`addiu` pair
-  (HI16/LO16 relocations) and still show the Japanese. Rewriting those pairs
-  is only safe when every LO16 that shares the HI16 points at a moved
-  string; otherwise the English has to fit in place.
+  (HI16/LO16 relocations). Since v0.3.3 runs of such pairs are no longer
+  dropped when a LO16 of another segment sits between them (302 more
+  addresses). Rewriting a pair is only safe when every LO16 that shares the
+  HI16 points at a moved string; otherwise the English has to fit in place.
 * **Arte grid names.** 29 arte names were shortened to fit the grid when
-  every letter was a full cell wide. The grid now uses the variable width
-  font (next release); someone with a save that has many artes should check
+  every letter was a full cell wide. The grid uses the variable width
+  font since v0.3.2; someone with a save that has many artes should check
   which full names fit again (`psp/tools/psp_menu.tsv`).
-* **Monster Book display names.** The next release writes English into the
-  TEKI list (member 08331), which the encounter banner reads; the Monster
+* **Monster Book display names.** Since v0.3.2 the patch writes English into
+  the TEKI list (member 08331), which the encounter banner reads; the Monster
   Book most likely reads it too. Someone with a save that has the Library
   should check the book screen.
 * **Real hardware.** Up to v0.3.0 the PSP kernel never loaded the patch's
@@ -190,7 +207,10 @@ engineering, `armips` or this engine, open an issue or a pull request.
   Since v0.3.1 the kernel loads it, and the PS Vita (Adrenaline) plays the
   game with infrequent crashes. A real PSP still fails: a PSP-3000 stops on
   a white screen after the logos with v0.3.2, a PSP-2000 crashed often
-  with v0.3.1. Not the cause, checked in an emulator with the release and
+  with v0.3.1. v0.3.3 encodes the movies like the original ones (the
+  re-encoded movies used x264 weighted prediction, which the retail movies
+  never do and the PSP decodes in hardware); that cannot explain the white
+  screen at boot. Not the cause, checked in an emulator with the release and
   a build of the same source:
   the kernel load and relocation rules, misaligned memory access (none in
   boot, title, story, battle, town and menus), the larger executable (the
@@ -281,10 +301,10 @@ The manual steps (details in `ps2/menu/README.md`, "Applying it", and
    python ps2/menu/patch_menu_text.py ps2/PyTOD2/FPB
    python ps2/menu/sfm_text.py build ps2/PyTOD2/FPB
    python ps2/menu/enemy_text.py build ps2/PyTOD2/FPB
-   python ps2/menu/title_credit.py ps2/PyTOD2/FPB --version 1.3.0
+   python ps2/menu/title_credit.py ps2/PyTOD2/FPB --version 1.3.1
    python ps2/menu/patch_slps_titles.py ps2/PyTOD2/SLPS_251.72
    ```
-   `title_credit.py` draws "Green Gel v1.3.0" under the title menu; the game
+   `title_credit.py` draws "Green Gel v1.3.1" under the title menu; the game
    shows only 96 pixels of that line, so the tool refuses wider labels.
 4. Pack FPB. It writes `FILE_NEW.FPB` and `new_SLPS_251.72`; those two
    (renamed to `FILE.FPB` and `SLPS_251.72`) go into the ISO. Do
@@ -313,7 +333,7 @@ One command builds the whole English ISO from a clean Japanese one:
 
 ```
 python -m pip install imageio-ffmpeg
-python psp/tools/build_psp.py "Tales of Destiny 2 (Japan) PSP.iso" tod2_psp_en.iso --version 0.3.2 --movies
+python psp/tools/build_psp.py "Tales of Destiny 2 (Japan) PSP.iso" tod2_psp_en.iso --version 0.3.3 --movies
 ```
 
 * `--version` is the number drawn on the title screen as
