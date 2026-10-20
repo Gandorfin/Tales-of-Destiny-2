@@ -55,6 +55,7 @@ GITHUB = 'Gandorfin/Tales-of-Destiny-2'
 API = 'https://api.github.com/repos/' + GITHUB
 UPLOADS = 'https://uploads.github.com/repos/' + GITHUB
 ACCEPTED_CRITICAL = {'code-mismatch': 4}
+MAX_ENEMY_EXTRAS = 26      # battle script lines with no table row yet (build_ps2.py --max-enemy-extras)
 TEST_DIRS = ('ps2/menu', 'ps2/PyTOD2', 'psp/tools', 'audio')
 
 PLATFORMS = {
@@ -195,7 +196,9 @@ def check_image(platform, version, image, src):
     if platform == 'ps2':
         say('Release checks: disc layout, menu patch')
         run([sys.executable, 'ps2/menu/fix_disc_layout.py', 'check', image], cwd=src)
-        run([sys.executable, 'ps2/menu/verify_menu_patch.py', image], cwd=src)
+        # the same gate as the build: strict except the known enemy extras
+        run([sys.executable, '-c', 'import sys; sys.path.insert(0, "ps2"); import build_ps2; '
+             'build_ps2.verify(sys.argv[1], int(sys.argv[2]))', image, str(MAX_ENEMY_EXTRAS)], cwd=src)
         return
     say('Release checks: BOOT.BIN load order')
     code = ('import sys; sys.path.insert(0, "psp/tools"); import psp_iso, psp_pool, tempfile, os\n'
