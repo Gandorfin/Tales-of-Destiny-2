@@ -66,3 +66,49 @@ class FullWidthToAsciiTests(unittest.TestCase):
         alphabet = self.enc('ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺ')
         boot = b'\0' + alphabet + b'\0'
         self.assertEqual(psp_menu.fullwidth_to_ascii(boot, areas=((0, len(boot)),)), (boot, 0))
+
+
+class StringStartTests(unittest.TestCase):
+    """The NUL bytes of a control code argument are not string ends: the
+    fragment やめる after <button:00000036> used to be patched in place,
+    after which the whole shop confirmation never matched."""
+
+    def test_fragment_after_a_button_code_is_not_a_string(self):
+        rec = psp_menu.encode_keys('これでいいですか？<button:00000036>やめる')[0]
+        boot = b'\0' * 4 + rec + b'\0' * 4
+        out, st = psp_menu.patch_menu(boot, [('やめる', 'Stop')])
+        self.assertEqual(out, boot)
+        self.assertEqual(st['not_found'], 1)
+
+    def test_whole_record_first(self):
+        rec_jp = 'これでいいですか？<button:00000036>やめる'
+        boot = b'\0' * 4 + psp_menu.encode_keys(rec_jp)[0] + b'\0' * 4
+        out, st = psp_menu.patch_menu(boot, [('やめる', 'Stop'), (rec_jp, 'Okay?<button:00000036>No')])
+        self.assertIn(psp_menu.encode_en('Okay?<button:00000036>No') + b'\0', out)
+        self.assertEqual(st['patched'], 1)
+
+    def test_code_at_the_end_of_the_previous_string(self):
+        prev = psp_menu.encode_keys('<button:00000005>')[0]      # argument low byte 05 is a code value
+        boot = b'\0' + prev + b'\0' + psp_menu.encode_keys('戻る')[0] + b'\0'
+        out, st = psp_menu.patch_menu(boot, [('戻る', 'Back')])
+        self.assertEqual(st['patched'], 1)
+
+
+class AddressedTests(unittest.TestCase):
+    def test_entries_fit_and_keep_formats(self):
+        import re
+        for fo, jp, en in psp_menu.SJIS_ADDRESSED:
+            self.assertLessEqual(len(en.encode('ascii')), len(jp.encode('cp932')), hex(fo))
+            self.assertEqual(re.findall(r'%[0-9]*[sdux]', jp), re.findall(r'%[0-9]*[sdux]', en), hex(fo))
+        for fo, jp, en in psp_menu.ADDRESSED:
+            self.assertLessEqual(len(psp_menu.encode_en(en)), len(psp_menu.encode_keys(jp)[0]), hex(fo))
+
+    def test_patch_in_place_only_when_the_retail_bytes_match(self):
+        import collections
+        fo, jp, en = psp_menu.SJIS_ADDRESSED[0]
+        b = bytearray(fo + 64)
+        b[fo:fo + len(jp.encode('cp932'))] = jp.encode('cp932')
+        st = collections.Counter()
+        psp_menu.patch_addressed(b, st)
+        self.assertEqual(bytes(b[fo:fo + len(en)]), en.encode('ascii'))
+        self.assertEqual(st['addressed'], 1)

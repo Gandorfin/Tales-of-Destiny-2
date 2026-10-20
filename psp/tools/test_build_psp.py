@@ -104,6 +104,10 @@ class BuildFontChoiceTests(unittest.TestCase):
             replace = mock(f'{builder.__name__}.psp_iso.replace')
             if hasattr(builder, 'psp_title'):
                 mock(f'{builder.__name__}.psp_title.build_member', return_value=(b'title credit', None))
+            if hasattr(builder, 'psp_boot_script'):
+                mock(f'{builder.__name__}.psp_boot_script.patch', side_effect=lambda b: (b, {}))
+            if hasattr(builder, 'psp_pic1'):
+                mock(f'{builder.__name__}.psp_pic1.available', return_value=False)
             kwargs = {'keep': work}
             if enabled is not None:
                 kwargs['lowercase_font'] = enabled

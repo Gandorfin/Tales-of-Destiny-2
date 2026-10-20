@@ -48,14 +48,115 @@ def encode_keys(jp):
     return out
 
 
+ARG_CODES = range(0x03, 0x11)   # control codes followed by a 4-byte argument
+
+
+def string_start(b, idx):
+    """True if a string can start at idx: at the file start, or after a NUL
+    that terminates the previous string. The NUL bytes at the end of a
+    control code's 4-byte argument (<button:00000036> = 09 36 00 00 00) are
+    not terminators: the text after them is the middle of a record. Taking
+    them for one patched the fragment やめる inside the shop confirmation in
+    place, after which the full record never matched (the button legends
+    showed 決定 / Back the same way)."""
+    if idx == 0:
+        return True
+    if b[idx - 1] != 0:
+        return False
+    if idx >= 5 and b[idx - 5] in ARG_CODES and not (idx >= 6 and b[idx - 6] in ARG_CODES):
+        return False
+    return True
+
+
+def referenced_offsets(boot):
+    """File offsets the executable points at: targets of 32-bit data pointers
+    and of lui/addiu address pairs. A string placed right after binary data
+    (リファイン after a float at 0x1C3A8C) has no NUL in front of it but is
+    still a string start."""
+    import psp_pool
+    if boot[:4] != b'\x7fELF':
+        return set()               # synthetic test data, no relocation table
+    targets = set(psp_pool._reloc_pointer_map(boot))
+    targets.update(t for _, los in psp_pool._code_pair_groups(boot) for _, t, _ in los)
+    return {psp_pool._vaddr_to_file(v) for v in targets}
+
+
+# Strings patched at one address only, because the same text elsewhere needs
+# another English. The battle result table at 0x1F2390 builds the enchant
+# line from fragments ("<name>" の エンチャント スキル|スペル <enchant> を習得);
+# with every fragment in English it read "Loni:EnchantSkillIncrease Accu"
+# and clipped. Like the PS2 (08055.md1) the fragments go empty and の becomes
+# ": ", so the line reads "Loni: Increase Accuracy".
+ADDRESSED = [
+    (0x199F98, 'エンチャント', ''),
+    (0x199FA8, 'スキル', ''),
+    (0x199FB0, 'スペル', ''),
+    (0x199FB8, 'を習得', ''),
+    (0x199FD8, 'の', ': '),
+]
+
+
+# Shift-JIS strings (not the game's TBL encoding): the save title, the save
+# detail line and the Memory Stick dialogs, which the game hands to the
+# system save and message dialogs. In place only; the format specifiers keep
+# their order.
+SJIS_ADDRESSED = [
+    (0x19865C, 'ロードを中止しますか？', 'Cancel loading?'),
+    (0x198674, 'セーブを中止しますか？', 'Cancel saving?'),
+    (0x19868C, '削除を中止しますか？', 'Cancel deleting?'),
+    (0x1986CC, '中断データ', 'Suspend'),
+    (0x1986D8, 'セーブデータ', 'Save data'),
+    (0x19874C, '中断:', 'Susp:'),
+    (0x198758, 'ガルド %s／レンズ %3d／クリア %2d', 'Gald %s / Lens %3d / Clears %2d'),
+    (0x1DFAC8, 'テイルズ オブ デスティニー２', 'Tales of Destiny 2'),
+    (0x1DFAE8, '新規データ', 'New Data'),
+    (0x1DFAF4, 'ゲームを中断しますか？\n（中断データは、\n　１つのメモリースティックTMに\n　１つしか作成できません）\n　\n'
+               '中断セーブが完了したら、\nタイトル画面に戻ります',
+     'Suspend the game?\n(Only one suspend save fits\n on a Memory Stick.)\n\nAfter suspending, you return\nto the title screen.'),
+    (0x1DFB8C, 'メモリースティックTMが見つかりません', 'No Memory Stick found.'),
+    (0x1DFBB4, 'メモリースティックTMのアクセスに失敗しました', 'Could not access the Memory Stick.'),
+    (0x1DFBE4, 'メモリースティックTMの空き容量が不足しています', 'Not enough free space on the Memory Stick.'),
+    (0x1DFC14, '本タイトルには\n・セーブデータ　%uKB\n・中断データ　　%uKB\nの空き容量(合計　%uKB以上)が必要です',
+     'This game needs free space:\n save data %uKB\n suspend data %uKB\n(%uKB or more in total)'),
+    (0x1DFC74, 'このままゲームを開始しますか？', 'Start the game anyway?'),
+    (0x1DFC94, 'メモリースティックTMの空き容量が不足しています\n\n%s作成には\n%uKB以上の空き容量が必要です\n\n不要なセーブデータを削除しますか？',
+     'Not enough space on the\nMemory Stick.\n\n%s needs %uKB or more\nof free space.\n\nDelete unneeded save data?'),
+    (0x1DFD1C, '%s\n\n%s作成に必要な\n%uKB以上の空き容量のある\nメモリースティックTMを差して下さい',
+     '%s\n\nFor %s, insert a Memory\nStick with %uKB or more free.'),
+    (0x1DFD6C, 'ロード画面に移りますか？\n（ロードを実行すると、\n　現在のゲーム進行は失われます）',
+     'Go to the load screen?\n(Loading loses your\n current game progress.)'),
+]
+
+
+def patch_addressed(b, st):
+    for fo, jp, en in SJIS_ADDRESSED:
+        jb, eb = jp.encode('cp932'), en.encode('ascii')
+        if bytes(b[fo:fo + len(jb) + 1]) != jb + b'\x00' or len(eb) > len(jb):
+            st['addressed_skipped'] += 1
+            continue
+        b[fo:fo + len(jb)] = eb + b'\x00' * (len(jb) - len(eb))
+        st['addressed'] += 1
+    for fo, jp, en in ADDRESSED:
+        jb, eb = encode_keys(jp)[0], encode_en(en)
+        if bytes(b[fo:fo + len(jb) + 1]) != jb + b'\x00' or len(eb) > len(jb):
+            st['addressed_skipped'] += 1
+            continue
+        b[fo:fo + len(jb)] = eb + b'\x00' * (len(jb) - len(eb))
+        st['addressed'] += 1
+
+
 def patch_menu(boot, table=None):
     """boot bytes -> patched bytes; returns (bytes, stats)."""
     if table is None:
         table = load_table()
+    refs = referenced_offsets(boot)
     b = bytearray(boot)
     st = collections.Counter()
-    # de-dup by jp, longest english first is irrelevant; each jp overwrites its slots
-    for jp, en in table:
+    if boot[:4] == b'\x7fELF':
+        patch_addressed(b, st)
+    # longest keys first: a whole record is patched before any shorter key
+    # that also occurs inside it
+    for jp, en in sorted(table, key=lambda t: -len(t[0])):
         try:
             keys = encode_keys(jp)
             eb = encode_en(en)
@@ -76,7 +177,7 @@ def patch_menu(boot, table=None):
                 if idx < 0:
                     break
                 i = idx + 1
-                if idx == 0 or b[idx - 1] == 0:      # standalone (NUL before)
+                if string_start(b, idx) or idx in refs:
                     b[idx:idx + len(pad)] = rep
                     hit += 1
         if hit:

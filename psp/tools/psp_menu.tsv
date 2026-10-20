@@ -80,7 +80,7 @@ TP軽減力とTP回復力が上昇する	Increases TP Reduction and TP Regen	28	
 どこかにお宝が	Treasure Somewhere	14	18	reuse
 なぜ知っている!?	How Do You Know!?	16	17	reuse
 ねこにんの村	Katz Village	12	12	reuse
-の料理に失敗しました	was a failure.	20	14	reuse
+の料理に失敗しました	 was a failure.	20	15	translated
 はこれ以上持てません	can't be carried anymore.	20	25	reuse
 は捨てられません	can't be discarded.	16	19	reuse
 は無くなりました	is all gone.	16	12	reuse
@@ -106,7 +106,7 @@ TP軽減力とTP回復力が上昇する	Increases TP Reduction and TP Regen	28	
 よし、いくぜ！	Let's go!	14	9	reuse
 よやく３	Reserve 3	8	9	reuse
 わたしだけの英雄	My Own Hero	16	11	reuse
-を料理しました	is ready!	14	9	reuse
+を料理しました	 is ready!	14	10	translated
 を習得	gained	6	6	reuse
 アイアングローブ	Iron Gloves	16	11	reuse
 アイウエオ	Alphabetical	10	12	reuse
@@ -1257,7 +1257,7 @@ TP軽減力とTP回復力が上昇する	Increases TP Reduction and TP Regen	28	
 ラプター	Raptor	8	6	reuse
 ラベンダー	Lavender	10	8	reuse
 ラメラー	Lamellar	8	8	reuse
-ランダムで料理を行います	Dish will be ﾂ鎤ⅱed at random	24	30	reuse
+ランダムで料理を行います	Use a random dish	24	17	translated
 ランパート	Rampart	10	7	reuse
 ランページ	Rampage	10	7	reuse
 ラーヴァ	Lava	8	4	reuse
@@ -1500,7 +1500,7 @@ TP軽減力とTP回復力が上昇する	Increases TP Reduction and TP Regen	28	
 命中＋	Hit +	6	5	reuse
 命中－	Damage Accuracy	6	15	reuse
 回復	Heal	4	4	reuse
-回復晶術をかけてくれます。どの状況で使用するかは	To choose when, open <color:00000005>Tactics<color:00000007>	48	38	reuse
+回復晶術をかけてくれます。どの状況で使用するかは	spells by HP in battle. To set	48	30	translated
 回復者のSPが回復する	The healed person's SP is recovered.	20	36	reuse
 回復者のTPが回復する	The healed person's TP is recovered.	20	36	reuse
 回避	Evade	4	5	reuse
@@ -1952,7 +1952,7 @@ TP軽減力とTP回復力が上昇する	Increases TP Reduction and TP Regen	28	
 道具屋　ムーンリバー	Pawn Shop MOON RIVER	20	20	reuse
 道具屋　家内安全	Pawn Shop FAMILY WELL-BEING	16	27	reuse
 遠き旅路	Long Journey	8	12	reuse
-適正熟練度	Adequate Level	10	14	reuse
+適正熟練度	Ideal Lv	10	8	translated
 遺産	Legacy	4	6	reuse
 遺跡の入り口を探して	Find the Ruins Entrance	20	23	reuse
 遺跡探索	Ruin Explorer	8	13	reuse
@@ -3071,7 +3071,7 @@ HPを吸収できる。	Can drain HP.	16	13	translated
 任意番号	Any Number	8	10	translated
 亜人	Demi-human	4	10	translated
 水棲生物	Aquatic	8	7	translated
-爬虫類	Reptile	6	7	translated
+{E1}{5D}虫類	Reptile	6	7	translated
 地系召喚	Earth Summon	8	12	translated
 水系召喚	Water Summon	8	12	translated
 炎系召喚	Fire Summon	8	11	translated
@@ -3882,9 +3882,9 @@ LVに応じて(毒/衰弱/麻痺/鈍足/凍結)を解除する{01}非戦闘時�
 <color:00000006>＜特技習得＞<color:00000007>	<color:00000006>＜Arte Learned＞<color:00000007>	22	26	translated
 <color:00000006>＜回復晶術習得＞<color:00000007>	<color:00000006>＜Healing Spell Learned＞<color:00000007>	26	35	translated
 <color:00000006>＜攻撃晶術習得＞<color:00000007>	<color:00000006>＜Attack Spell Learned＞<color:00000007>	26	34	translated
-<color:00000006>＜奥義習得＞<color:00000007>	<color:00000006>＜Mystic Arte Learned＞<color:00000007>	22	33	translated
+<color:00000006>＜奥義習得＞<color:00000007>	<color:00000006>＜Arcane Arte Learned＞<color:00000007>	22	33	translated
 <color:00000006>＜追加特技習得＞<color:00000007>	<color:00000006>＜Added Arte Learned＞<color:00000007>	26	32	translated
-<color:00000006>＜秘奥義習得＞<color:00000007>	<color:00000006>＜Hi-Ougi Learned＞<color:00000007>	24	29	translated
+<color:00000006>＜秘奥義習得＞<color:00000007>	<color:00000006>＜Mystic Arte Learned＞<color:00000007>	24	33	translated
 フィールド・セインガルド地方	Field: Seingald Region	28	22	translated
 禁呪・リザーブナンバー	Forbidden: Reserve Number	22	25	translated
 ＜継続効果＞詠唱速度が一定時間上昇する	(Continuous) Raises cast speed for a time	38	41	translated
@@ -3977,46 +3977,46 @@ LVに応じて(毒/衰弱/麻痺/鈍足/凍結)を解除する{01}非戦闘時�
 肉、シーフード、野菜の織り成す交響曲{01}今日のあなたは、{01}どんなメロディを奏でますか？	A symphony of meat, seafood, and{01}vegetables. What sort of melody{01}will you play today?	82	85	reuse
 耐:	Res:	3	4	translated
 弱:	Weak:	3	5	translated
-{99}{40}特技を習得すると、メニュー<color:00000005>術・技<color:00000007>から特技をセット	　Learn an Arte, then set it from the <color:00000005>Artes<color:00000007>	60	53	translated
+{99}{40}特技を習得すると、メニュー<color:00000005>術・技<color:00000007>から特技をセット	　Set new Artes in the <color:00000005>Artes<color:00000007>	60	38	translated
 できます。	menu.	10	5	translated
-セットした特技は、方向キーと<button:0000003E>の組み合わせで使用	Use a set Arte with the D-Pad + <button:0000003E>.	51	38	translated
-特技は<color:00000006>TP<color:00000007>が必要になりますが、通常攻撃より高い	Artes cost <color:00000006>TP<color:00000007> but deal higher	54	39	translated
-ダメージを与え、また、<color:00000006>通常攻撃中に入力を行うと	damage than normal, and <color:00000006>if input mid-attack,	51	49	translated
-<color:00000007>連続攻撃が可能です。	<color:00000007>a combo is possible.	25	25	translated
-{99}{40}<color:00000006>オート操作<color:00000007>の<Loni>は、戦闘中にHP量に応じて	　For <color:00000006>Auto<color:00000007> <Loni>, based on battle HP,	53	47	translated
-メニュー<color:00000005>作戦<color:00000007>で<Loni>の	adjust <Loni>'s in the <color:00000005>Strategy<color:00000007> menu:	31	46	translated
-<color:00000004>防御<color:00000007>の設定を変更してください。	the <color:00000004>Defense<color:00000007> setting.	40	30	translated
-{99}{40}晶術も特技と同様に、メニュー<color:00000005>術・技<color:00000007>から<button:0000003E>に	　Spells, like Artes, go to <button:0000003E> from the <color:00000005>Artes<color:00000007>	57	58	translated
-セットできます。	menu.	16	5	translated
-晶術は<color:00000006>TP<color:00000007>と詠唱時間を必要としますが、奥の敵を	Spells need <color:00000006>TP<color:00000007> and cast time, but reach	54	49	translated
-直接狙えるなどの利点があり、詠唱中、<button:0000003E>を押しながら	distant foes directly. While casting, hold <button:0000003E>	53	48	translated
-<button:00000021>を押すことで、攻撃目標を変更することができます。	and press <button:00000021> to change your target.	53	38	translated
-また、<color:00000005>SP<color:00000007>が切れた時に晶術を使いつつ回復を	Also, when <color:00000005>SP<color:00000007> runs out, cast while awaiting	50	53	translated
-待つ作戦も有効です。	recovery: a valid tactic too.	20	29	translated
+セットした特技は、方向キーと<button:0000003E>の組み合わせで使用	Use them with the D-Pad + <button:0000003E>.	51	32	translated
+特技は<color:00000006>TP<color:00000007>が必要になりますが、通常攻撃より高い	Artes cost <color:00000006>TP<color:00000007> but hit harder	54	38	translated
+ダメージを与え、また、<color:00000006>通常攻撃中に入力を行うと	than attacks. <color:00000006>Input one during	51	35	translated
+<color:00000007>連続攻撃が可能です。	<color:00000007>an attack to chain a combo.	25	32	translated
+{99}{40}<color:00000006>オート操作<color:00000007>の<Loni>は、戦闘中にHP量に応じて	　On <color:00000006>Auto<color:00000007>, <Loni> casts healing	53	40	translated
+メニュー<color:00000005>作戦<color:00000007>で<Loni>の	when, open <color:00000005>Tactics<color:00000007> and adjust	31	39	translated
+<color:00000004>防御<color:00000007>の設定を変更してください。	<Loni>'s <color:00000004>Defense<color:00000007> setting.	40	34	translated
+{99}{40}晶術も特技と同様に、メニュー<color:00000005>術・技<color:00000007>から<button:0000003E>に	　Like Artes, spells go on <button:0000003E>	57	32	translated
+セットできます。	from the <color:00000005>Artes<color:00000007> menu.	16	30	translated
+晶術は<color:00000006>TP<color:00000007>と詠唱時間を必要としますが、奥の敵を	Spells need <color:00000006>TP<color:00000007> and cast time,	54	39	translated
+直接狙えるなどの利点があり、詠唱中、<button:0000003E>を押しながら	but hit distant foes. Hold <button:0000003E>	53	32	translated
+<button:00000021>を押すことで、攻撃目標を変更することができます。	and press <button:00000021> to change target.	53	33	translated
+また、<color:00000005>SP<color:00000007>が切れた時に晶術を使いつつ回復を	When <color:00000005>SP<color:00000007> is out, casting while	50	39	translated
+待つ作戦も有効です。	you recover is a good tactic.	20	29	translated
 <color:00000006>＜エンチャント習得＞<color:00000007>	<color:00000006>＜Enchant Learned＞<color:00000007>	30	29	translated
-{99}{40}<color:00000006>エンチャント<color:00000007>とは、特技、晶術に装備し能力を	　<color:00000006>Enchants<color:00000007> equip to Artes and spells to	54	49	translated
-強化するものです。	strengthen their abilities.	18	27	translated
-装備にはそれぞれの特技、晶術の使用回数<color:00000006>（COUNT）<color:00000007>を	Equipping needs each Arte/spell's <color:00000006>(COUNT)<color:00000007> of	59	54	translated
-必要とします。	uses.	14	5	translated
-メニュー<color:00000005>エンチャント<color:00000007>から４０回以上使用している	From the <color:00000005>Enchant<color:00000007> menu, pick an Arte used 40+	56	54	translated
-特技を選択し、<color:00000006>攻撃力アップ<color:00000007>を装備すると、ダメージを	times, equip <color:00000006>Attack Up<color:00000007>, and your damage	60	49	translated
-増やす事ができます。	will increase.	20	14	translated
-エンチャントは<button:00000028>で装備を外すことも可能です。	You can also remove enchants with <button:00000028>.	47	40	translated
-{99}{40}<color:00000006>奥義<color:00000007>は「特技の上位技」と認識してください。	　See <color:00000006>Mystic Artes<color:00000007> as upgraded Artes.	54	47	translated
-同様にメニュー<color:00000005>術・技<color:00000007>から<button:0000003E>にセットできます。	Set them to <button:0000003E> from the <color:00000005>Artes<color:00000007> menu too.	57	52	translated
-最大の相違点は、<color:00000006>特技の使用中に入力すること<color:00000007>で	The key difference: <color:00000006>input during an Arte<color:00000007>	54	50	translated
-連続攻撃になる、ということです。	creates a combo.	32	16	translated
-{99}{40}<Kyle>は特技習得後、<color:00000006>追加特技<color:00000007>の	　After learning an Arte, <Kyle> gains <color:00000006>Added Arte<color:00000007>	41	58	translated
-エンチャントを習得します。	enchants.	26	9	translated
-<color:00000006>蒼破追蓮<color:00000007>は蒼破刃専用の追加技で、使用回数が５０以上	<color:00000006>Azure Pursuit<color:00000007> is an Added Arte for Azure Edge; with 50+	60	65	translated
-あれば、メニュー<color:00000005>エンチャント<color:00000007>から<color:00000004>アクション<color:00000007>に	uses, go from the <color:00000005>Enchant<color:00000007> menu to <color:00000004>Action<color:00000007>	64	60	translated
-装備できます。	to equip it.	14	12	translated
-蒼破刃を出した後、<button:0000003D><color:00000006>を押し続け<color:00000007>ると発動します。	After Azure Edge, <color:00000006>hold<color:00000007> <button:0000003D> to trigger it.	59	53	translated
-{99}{40}特技と同様、奥義から繋がる<color:00000006>秘奥義<color:00000007>を	　Like Artes, a <color:00000006>Hi-Ougi<color:00000007> chains from Mystic Artes;	46	59	translated
-習得しましたが、条件として<color:00000005>SP100%<color:00000007>とあります。	you learned one, but it needs <color:00000005>SP 100%<color:00000007>.	54	48	translated
-奥義中にSPは減少するので、普段は使用できませんが、	SP drops during Mystic Artes, so usually you can't use it,	50	58	translated
-一定時間SPが常にフルに保たれる状態、すなわち	but when SP stays full for a time, that is,	44	43	translated
-<color:00000006>スピリッツブラスター<color:00000007>時がチャンス！	<color:00000006>Spirits Blaster<color:00000007>: your chance!	44	39	translated
+{99}{40}<color:00000006>エンチャント<color:00000007>とは、特技、晶術に装備し能力を	　<color:00000006>Enchants<color:00000007> equip to Artes and	54	39	translated
+強化するものです。	spells to make them stronger.	18	29	translated
+装備にはそれぞれの特技、晶術の使用回数<color:00000006>（COUNT）<color:00000007>を	Equipping needs uses <color:00000006>(COUNT)<color:00000007>	59	38	translated
+必要とします。	of that Arte or spell.	14	22	translated
+メニュー<color:00000005>エンチャント<color:00000007>から４０回以上使用している	In <color:00000005>Enchant<color:00000007>, pick an Arte used	56	39	translated
+特技を選択し、<color:00000006>攻撃力アップ<color:00000007>を装備すると、ダメージを	40+ times; equip <color:00000006>Attack Up<color:00000007> to	60	39	translated
+増やす事ができます。	deal more damage.	20	17	translated
+エンチャントは<button:00000028>で装備を外すことも可能です。	Press <button:00000028> to remove an enchant.	47	33	translated
+{99}{40}<color:00000006>奥義<color:00000007>は「特技の上位技」と認識してください。	　<color:00000006>Arcane Artes<color:00000007> are stronger	54	37	translated
+同様にメニュー<color:00000005>術・技<color:00000007>から<button:0000003E>にセットできます。	Artes. Set on <button:0000003E> in <color:00000005>Artes<color:00000007>.	57	39	translated
+最大の相違点は、<color:00000006>特技の使用中に入力すること<color:00000007>で	Key point: <color:00000006>use one mid-Arte<color:00000007>	54	37	translated
+連続攻撃になる、ということです。	to chain it into a combo.	32	25	translated
+{99}{40}<Kyle>は特技習得後、<color:00000006>追加特技<color:00000007>の	　<Kyle> learns <color:00000006>Added Arte<color:00000007>	41	35	translated
+エンチャントを習得します。	enchants after learning Artes.	26	30	translated
+<color:00000006>蒼破追蓮<color:00000007>は蒼破刃専用の追加技で、使用回数が５０以上	<color:00000006>Azure Pursuit<color:00000007>, for Azure Edge	60	39	translated
+あれば、メニュー<color:00000005>エンチャント<color:00000007>から<color:00000004>アクション<color:00000007>に	only: at 50+ uses, set it in	64	28	translated
+装備できます。	<color:00000005>Enchant<color:00000007> under <color:00000004>Action<color:00000007>.	14	41	translated
+蒼破刃を出した後、<button:0000003D><color:00000006>を押し続け<color:00000007>ると発動します。	<color:00000006>Hold<color:00000007> <button:0000003D> after Azure Edge.	59	38	translated
+{99}{40}特技と同様、奥義から繋がる<color:00000006>秘奥義<color:00000007>を	　Like Artes, a <color:00000006>Mystic Arte<color:00000007>	46	37	translated
+習得しましたが、条件として<color:00000005>SP100%<color:00000007>とあります。	chains from Arcane Artes, but	54	29	translated
+奥義中にSPは減少するので、普段は使用できませんが、	it needs <color:00000005>SP 100%<color:00000007>. SP drops in	50	39	translated
+一定時間SPが常にフルに保たれる状態、すなわち	Arcane Artes, so wait until SP	44	30	translated
+<color:00000006>スピリッツブラスター<color:00000007>時がチャンス！	stays full: <color:00000006>Spirits Blaster<color:00000007>!	44	38	translated
 複数の石片を弧を描いて敵にぶつける下級晶術	Low: Hurls several stone shards at foes in an arc.	42	50	translated
 三連の光弾から滅殺の稲妻を放つ下級昇華晶術	Low-Sub: Fires deadly lightning from three light bolts.	42	55	translated
 血塗られた呪いの波動が交わる下級昇華晶術	Low-Sub: Bloodstained waves of a curse converge.	40	48	translated
@@ -4159,3 +4159,91 @@ LVに応じて(毒/衰弱/麻痺/鈍足/凍結)を解除する{01}非戦闘時�
 頭	Head	2	4	translated
 腕	Arm	2	3	translated
 しばらくキー操作がないと表示される<color:00000005>キーヘルプ<color:00000007>は{01}<color:00000005>SELECTボタン<color:00000007>を押すことにより表示と非表示を{01}切り替えられます	<color:00000005>Key help<color:00000007> appears after a while with no{01}input. Press <color:00000005>SELECT<color:00000007> to show or{01}hide it.	126	98	translated
+地	Earth	2	5	translated
+水	Water	2	5	translated
+火	Fire	2	4	translated
+風	Wind	2	4	translated
+光	Light	2	5	translated
+闇	Dark	2	4	translated
+毒	Poison	2	6	translated
+高度を下げてください	Lower your altitude.	20	20	translated
+ＨＰが	HP 	6	3	translated
+ＴＰが	TP 	6	3	translated
+が増加{01}	 up{01}	7	4	translated
+が減少{01}	 down{01}	7	6	translated
+耐性{01}	 resist{01}	5	8	translated
+が回復{01}	 recovered{01}	7	11	translated
+％回復{01}	% recovered{01}	7	12	translated
+{01}熟練度 	{01}Skill Level 	8	13	translated
+を使用	 used	6	5	translated
+薬	Medicine	2	8	translated
+刀	Katana	2	6	translated
+槍	Spear	2	5	translated
+斧	Axe	2	3	translated
+術	Spell	2	5	translated
+属性の晶術、特技を使うと上昇	-element artes and spells raise it	28	34	translated
+メニューを終了しますか？{01} {01}<button:00000035>終了する  <button:00000036>戻る	Close the menu?{01} {01}<button:00000035>Close  <button:00000036>Back	51	39	translated
+<button:00000035>決定{01}<button:00000036>戻る{01}<button:00000038>並び変更	<button:00000035>Confirm{01}<button:00000036>Back{01}<button:00000038>Reorder	33	35	translated
+<button:0000003A>セーブデータ削除{01}<button:00000035>決定{01}<button:00000036>戻る{01}<button:00000038>並び変更	<button:0000003A>Delete Save{01}<button:00000035>Confirm{01}<button:00000036>Back{01}<button:00000038>Reorder	55	52	translated
+<button:00000035>変更{01}<button:00000036>戻る{01}<button:00000037>説明切替{01}<button:00000038>はずす{01}<button:00000039><button:0000003A>キャラ切替	<button:00000035>Change{01}<button:00000036>Back{01}<button:00000037>Desc{01}<button:00000038>Remove{01}<button:00000039><button:0000003A>Character	66	63	translated
+<button:00000035>決定{01}<button:00000036>戻る{01}<button:00000037>説明切替	<button:00000035>Confirm{01}<button:00000036>Back{01}<button:00000037>Desc	33	32	translated
+<button:00000035>決定{01}<button:00000036>戻る	<button:00000035>Confirm{01}<button:00000036>Back	19	22	translated
+<button:00000036>戻る{01}<button:00000037>オート装備{01}<button:00000038>全てはずす{01}<button:00000021><button:00000039><button:0000003A>キャラ切替	<button:00000036>Back{01}<button:00000037>Auto Equip{01}<button:00000038>Remove All{01}<button:00000021><button:00000039><button:0000003A>Character	67	66	translated
+<button:00000036>戻る{01}<button:00000037>説明切替{01}<button:00000038>リスト表示{01}<button:00000021>変更	<button:00000036>Back{01}<button:00000037>Desc{01}<button:00000038>List{01}<button:00000021>Change	49	41	translated
+<button:00000035>決定{01}<button:00000036>戻る{01}<button:00000037>説明切替{01}<button:00000038>リスト表示{01}	<button:00000035>Confirm{01}<button:00000036>Back{01}<button:00000037>Desc{01}<button:00000038>List{01}	50	43	translated
+<button:00000035>選択{01}<button:00000036>戻る{01}<button:00000037>説明切替{01}<button:00000038>取消	<button:00000035>Select{01}<button:00000036>Back{01}<button:00000037>Desc{01}<button:00000038>Cancel	43	43	translated
+<button:00000035>決定{01}<button:00000036>戻る{01}<button:00000037>説明切替{01}<button:00000019>結果参照Ａ{01}<button:0000001D>結果参照Ｂ	<button:00000035>Confirm{01}<button:00000036>Back{01}<button:00000037>Desc{01}<button:00000019>Results A{01}<button:0000001D>Results B	65	62	translated
+<button:00000036>戻る	<button:00000036>Back	9	9	translated
+<button:00000035>使用{01}<button:00000036>戻る{01}<button:00000037>説明切替{01}<button:00000038>捨てる	<button:00000035>Use{01}<button:00000036>Back{01}<button:00000037>Desc{01}<button:00000038>Drop	45	38	translated
+実行しますか？{01} {01}<button:00000035>実行  <button:00000036>やめる	Proceed?{01} {01}<button:00000035>Yes  <button:00000036>Cancel	39	32	translated
+店	Shop	2	4	translated
+<button:00000035>決定{01}<button:00000036>戻る{01}<button:00000037>説明切替{01}<button:00000038>キャラ切替{01}<button:00000021><button:00000039><button:0000003A>個数増減	<button:00000035>Confirm{01}<button:00000036>Back{01}<button:00000037>Desc{01}<button:00000038>Character{01}<button:00000021><button:00000039><button:0000003A>Quantity	73	71	translated
+<button:00000035>決定{01}<button:00000036>戻る{01}<button:00000037>説明切替{01}<button:00000019>アクティブレベル説明{01}<button:00000039><button:0000003A>キャラ切替{01}	<button:00000035>Confirm{01}<button:00000036>Back{01}<button:00000037>Desc{01}<button:00000019>Active Level Info{01}<button:00000039><button:0000003A>Character{01}	81	76	translated
+<button:00000021><button:00000039><button:0000003A>キャラ切替	<button:00000021><button:00000039><button:0000003A>Character	25	24	translated
+<button:00000035>変更{01}<button:00000036>戻る{01}<button:00000037>説明切替{01}<button:00000038>はずす{01}<button:00000039><button:0000003A>術技切替	<button:00000035>Change{01}<button:00000036>Back{01}<button:00000037>Desc{01}<button:00000038>Remove{01}<button:00000039><button:0000003A>Artes	64	59	translated
+<button:00000036><button:0000001D>戻る{01}<button:00000039><button:0000003A>キャラ切替{01}	<button:00000036><button:0000001D>Back{01}<button:00000039><button:0000003A>Character{01}	36	35	translated
+曲	Track	2	5	translated
+街	Town	2	4	translated
+<button:00000035>ミュート{01}<button:00000036>戻る{01}<button:00000038>再生／一時停止{01}<button:00000037>停止{01}<button:00000039>ひとつ前へ{01}<button:0000003A>ひとつ先へ{01}	<button:00000035>Mute{01}<button:00000036>Back{01}<button:00000038>Play/Pause{01}<button:00000037>Stop{01}<button:00000039>Previous{01}<button:0000003A>Next{01}	86	70	translated
+<button:00000035>コントロールパネル{01}<button:00000036>戻る{01}<button:00000038>再生／一時停止{01}<button:00000037>停止{01}<button:00000039>ひとつ前へ{01}<button:0000003A>ひとつ先へ{01}	<button:00000035>Control Panel{01}<button:00000036>Back{01}<button:00000038>Play/Pause{01}<button:00000037>Stop{01}<button:00000039>Previous{01}<button:0000003A>Next{01}	96	79	translated
+<button:00000035>リスト表示{01}<button:00000036>戻る{01}<button:00000038>再生／一時停止{01}<button:00000037>停止{01}<button:00000039>ひとつ前へ{01}<button:0000003A>ひとつ先へ{01}	<button:00000035>List{01}<button:00000036>Back{01}<button:00000038>Play/Pause{01}<button:00000037>Stop{01}<button:00000039>Previous{01}<button:0000003A>Next{01}	88	70	translated
+<button:00000021>変更{01}<button:00000036>戻る	<button:00000021>Change{01}<button:00000036>Back	19	21	translated
+<button:00000035>決定{01}<button:00000036>戻る{01}<button:00000038>再生／一時停止{01}<button:00000037>停止	<button:00000035>Confirm{01}<button:00000036>Back{01}<button:00000038>Play/Pause{01}<button:00000037>Stop	49	48	translated
+<button:00000035>決定{01}<button:00000036>戻る{01}<button:00000038>再生／一時停止{01}<button:00000037>停止{01}<button:00000039>ひとつ前へ{01}<button:0000003A>ひとつ先へ{01}	<button:00000035>Confirm{01}<button:00000036>Back{01}<button:00000038>Play/Pause{01}<button:00000037>Stop{01}<button:00000039>Previous{01}<button:0000003A>Next{01}	82	73	translated
+超	XL	2	2	translated
+大	L	2	1	translated
+中	M	2	1	translated
+小	S	2	1	translated
+<button:00000035>選択{01}<button:00000036>料理{01}<button:00000037>説明切替{01}<button:00000038>取消	<button:00000035>Select{01}<button:00000036>Cook{01}<button:00000037>Desc{01}<button:00000038>Cancel	43	43	translated
+<button:00000035>決定{01}<button:00000036>戻る{01}<button:00000037>説明切替{01}<button:00000038>メニュー	<button:00000035>Confirm{01}<button:00000036>Back{01}<button:00000037>Desc{01}<button:00000038>Menu	47	42	translated
+レシピ作成には２種類以上の食品を{01}所持している必要があります	To create a recipe you need{01}at least two kinds of food.	59	55	translated
+<button:00000019>戻る	<button:00000019>Back	9	9	translated
+<button:00000021>変更{01}<button:00000036>戻る{01}<button:00000039><button:0000003A>ウィンドウ消去	<button:00000021>Change{01}<button:00000036>Back{01}<button:00000039><button:0000003A>Clear Window	44	44	translated
+<button:00000035><button:0000001D>サブメニュー{01}<button:00000036>戻る	<button:00000035><button:0000001D>Submenu{01}<button:00000036>Back	32	27	translated
+<button:00000035>称号変更{01}<button:00000036>戻る{01}<button:00000037>説明切替{01}<button:00000038>イメージ切替{01}<button:00000021><button:00000039><button:0000003A>キャラ切替	<button:00000035>Change Title{01}<button:00000036>Back{01}<button:00000037>Desc{01}<button:00000038>Portrait{01}<button:00000021><button:00000039><button:0000003A>Character	81	76	translated
+<button:00000035>名前変更{01}<button:00000036>戻る{01}<button:00000038>イメージ切替{01}<button:00000021><button:00000039><button:0000003A>キャラ切替	<button:00000035>Rename{01}<button:00000036>Back{01}<button:00000038>Portrait{01}<button:00000021><button:00000039><button:0000003A>Character	67	60	translated
+<button:00000035>決定{01}<button:00000036>戻る{01}<button:00000037>削除{01}<button:00000039><button:0000003A>フォント切替{01}	<button:00000035>Confirm{01}<button:00000036>Back{01}<button:00000037>Delete{01}<button:00000039><button:0000003A>Letters{01}	53	53	translated
+<button:00000035>入力{01}<button:00000036>戻る{01}<button:00000037>削除	<button:00000035>Enter{01}<button:00000036>Back{01}<button:00000037>Delete	29	32	translated
+<button:00000035>使用{01}<button:00000036>戻る{01}<button:00000037>説明切替	<button:00000035>Use{01}<button:00000036>Back{01}<button:00000037>Desc	33	28	translated
+<button:00000035><button:00000036>戻る	<button:00000035><button:00000036>Back	14	14	translated
+人	Human	2	5	translated
+獣	Beast	2	5	translated
+神	Divine	2	6	translated
+<button:00000021><button:00000039><button:0000003A>モンスター切替{01}<button:00000038>リスト表示{01}<button:00000036>戻る	<button:00000021><button:00000039><button:0000003A>Monster{01}<button:00000038>List{01}<button:00000036>Back	55	42	translated
+<button:00000037>説明切替{01}<button:00000036>戻る	<button:00000037>Desc{01}<button:00000036>Back	23	19	translated
+<button:00000035>使用{01}<button:00000036>戻る{01}<button:00000037>説明切替{01}<button:00000038>使用切替	<button:00000035>Use{01}<button:00000036>Back{01}<button:00000037>Desc{01}<button:00000038>Swap Use	47	42	translated
+が飛び出した{01}……が、これ以上は持てません	 popped out!{01}...but you can't carry any more.	41	45	translated
+<button:00000035>購入切替{01}<button:00000036>終了{01}<button:00000037>説明切替{01}<button:00000038>やり直し	<button:00000035>Toggle{01}<button:00000036>Exit{01}<button:00000037>Desc{01}<button:00000038>Redo	51	41	translated
+<button:00000035>再生{01}<button:00000036>戻る{01}	<button:00000035>Play{01}<button:00000036>Back{01}	20	20	translated
+<button:00000036>戻る{01}	<button:00000036>Back{01}	10	10	translated
+<button:00000035>表示切替{01}<button:00000036>戻る{01}<button:00000039>ひとつ前へ{01}<button:0000003A>ひとつ先へ{01}	<button:00000035>Display{01}<button:00000036>Back{01}<button:00000039>Previous{01}<button:0000003A>Next{01}	56	47	translated
+<button:00000036>戻る{01}<button:00000039>ひとつ前へ{01}<button:0000003A>ひとつ先へ{01}	<button:00000036>Back{01}<button:00000039>Previous{01}<button:0000003A>Next{01}	42	34	translated
+イラスト好きには{E4}{6A}らない一冊{01}すべてのイラストを見られるかな？	A must for illustration fans.{01}Can you see every illustration?	61	61	translated
+炭	Charcoal	2	8	translated
+クイズをやめますか？{01} {01}<button:00000035>やめる  <button:00000036>やめない	Quit the quiz?{01} {01}<button:00000035>Quit  <button:00000036>Keep going	49	43	translated
+たちは{01}称号「	 and the others{01}earned "	13	24	translated
+<button:00000035>保存する  <button:00000036>保存しない	<button:00000035>Save  <button:00000036>Don't save	30	26	translated
+レシピがいっぱいで新規に作成できません{01}いずれかを削除する必要があります	The recipe list is full.{01}Delete a recipe to make a new one.	71	59	translated
+<button:00000019><button:00000036>戻る{01}	<button:00000019><button:00000036>Back{01}	15	15	translated
+<button:00000035>変更{01}<button:00000036>戻る{01}<button:00000037>説明切替{01}<button:00000038>はずす{01}<button:0000001D>使用{01}<button:00000039><button:0000003A>キャラ切替	<button:00000035>Change{01}<button:00000036>Back{01}<button:00000037>Desc{01}<button:00000038>Remove{01}<button:0000001D>Use{01}<button:00000039><button:0000003A>Character	76	72	translated
+<button:00000035> <0A:00000000>を出る	<button:00000035> Leave <0A:00000000>	17	17	translated
