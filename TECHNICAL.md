@@ -425,6 +425,14 @@ The variable width font (`psp/tools/psp_vwf.py`) hooks all of these:
   data + `0xA0DE0` in `s2`) or from `ra` after a `bal`. New code lives in
   the string pool segment (the kernel ignores segment flags; Allegrex has no
   execute protection; loadcore flushes the caches after loading).
+* A call sequence must not cover a word that other code jumps to (a
+  branch or jump target, or a code address in a jump table): code entering
+  there runs the middle of the sequence. PSP 0.3.1 to 0.3.3 had the bold
+  routine's tail `0x14444C`/`0x144450` overwritten; its control code paths
+  and jump table (`0x1D7A28`) enter there, and a bold string with a control
+  code (the item and arte target window) jumped into the hook with a bad
+  pointer: the "use from the menu" crash. `psp_vwf.check_entries` now
+  refuses such a site at build time; `KEEP_RETAIL` lists the words kept.
 * Memory reads of code in PPSSPP show JIT markers (`0x68......`) instead of
   the real word; compare files, not RAM, when checking a patch.
 * `psp/tools/patch_font_iso.py` exports, prepares, checks and patches PNG
