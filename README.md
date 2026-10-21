@@ -18,8 +18,8 @@ Destiny II" in North America) and not the PS1 Tales of Destiny.
 
 | Version | Latest release | State |
 |---|---|---|
-| PS2 (SLPS-25172) | **QS v1.3.1** | **Complete.** The whole game is English. |
-| PSP (ULJS-00097) | **v0.3.3** (one download, variable width font; v0.3.1 also came without the lowercase font hack) | **Playable in emulators and on a PS Vita.** Story, skits, movies, world map and almost every menu are English; a few areas are still Japanese (listed below). A real PSP did not run v0.3.2; v0.3.3 is not tested on one yet. |
+| PS2 (SLPS-25172) | **QS v1.3.2** | **Complete.** The whole game is English, including subtitles for the spoken battle lines. |
+| PSP (ULJS-00097) | **v0.3.4** (one download, variable width font; v0.3.1 also came without the lowercase font hack) | **Playable in emulators and on a PS Vita.** Story, skits, movies, battle subtitles, world map and almost every menu are English; a few areas are still Japanese (listed below). A real PSP did not run v0.3.2; v0.3.4 is not tested on one yet. |
 
 ### PS2
 
@@ -37,6 +37,10 @@ Everything a player reads is English:
   and the lines bosses shout in battle
 * world map labels, signposts, ferry and minigame text, the Quiz Book, the
   ending monologue
+* the spoken lines in battle as subtitles above the HP bars, with the
+  speaker's name: victory quotes, incantations, special arte and Mystic Arte
+  phrases, the leader's orders, scripted fight hints and boss lines (since
+  v1.3.2)
 * the movies with dialogue, hard-subtitled, and an English ending staff roll
 * a redrawn Latin font (by dreck, since v1.2.3)
 
@@ -53,6 +57,16 @@ Known limits:
   Since v1.3.1 the patched disc has the retail disc structure; a PS3 test
   is still owed.
 
+New in v1.3.2 (21 October 2026): English subtitles for the spoken battle
+lines (asked for by nks in the forum thread: "the only thing missing"). The
+line appears above the HP bars while it is spoken, with the speaker's name
+in front ("Harold: Data collection complete!"); two speakers at once stack.
+Grunts, short battle cries and shouts that only name the arte have none.
+The subtitles come from a transcript of all 870 battle voice files; the boss
+and scripted fights were not checked in game yet, so reports are welcome.
+Also: the Skit Hut replay menu no longer gets stuck when a skit title is
+long (the selector box is now wide enough for every title).
+
 New in v1.3.1 (20 October 2026): every skit line finishes before the next
 speaker starts (dreck's report on v1.3.0: the next voice began while the
 text was still scrolling), with 30 lines shortened for that; the Skit Hut
@@ -64,11 +78,20 @@ from the original disc. v1.3.1 is the first release built with
 
 ### PSP
 
-v0.3.3 (20 October 2026) has the full story script, all 608 timed skits at
+v0.3.4 (21 October 2026) has the full story script, all 608 timed skits at
 full length with per line text speed (as PS2 v1.3.0), menus, items, artes,
-titles, descriptions, the Quiz Book, English subtitles in the nine movies
-with dialogue and the PSP's own ending staff roll in English. New in
-v0.3.3 (the playtest sheet, tab 12):
+titles, descriptions, the Quiz Book, battle subtitles, English subtitles in
+the nine movies with dialogue and the PSP's own ending staff roll in
+English. New in v0.3.4:
+
+* fixed the crash when an item or an arte is used from the menu (pnvnd's
+  report: Loni's Heal cast outside of battle; most likely also the "item
+  selection" hang on the PS Vita). The font patch had overwritten code that
+  the game's bold text routine jumps to for control codes; the window that
+  picks the character draws such a string.
+* English subtitles for the spoken battle lines, as on PS2 v1.3.2
+
+New in v0.3.3 (the playtest sheet, tab 12):
 
 * the button legends of all menus, chest and pickup messages, the shop
   confirmation, the town exit prompt ("Leave Cresta"), cooking and recipe
@@ -103,8 +126,9 @@ New in v0.3.2:
 Where it runs (reports from the forum, October 2026): PPSSPP on PC, on
 Android (a development build, v1.20.4 or newer, ran best) and on the
 Switch, and the PSP emulator of a PS3 run v0.3.2 and v0.3.3. A PS Vita with
-Adrenaline plays it with infrequent crashes (for example when selecting
-some items). **A real PSP does not run it yet:** a PSP-3000 stops on a
+Adrenaline 8.0.2 played v0.3.3 without crashes in menus, battles, towns and
+on the world map (DrandalZ); the crash when using an item or arte from the
+menu is fixed in v0.3.4. **A real PSP does not run it yet:** a PSP-3000 stops on a
 white screen after the logos with v0.3.2, a PSP-2000 crashed often with
 v0.3.1. This is being investigated; see
 [Help wanted](#help-wanted-open-psp-problems).
@@ -152,7 +176,7 @@ See [Help wanted](#help-wanted-open-psp-problems) for the engineering side.
    with Delta Patcher or `xdelta3 -d -s original.iso patch.xdelta patched.iso`.
 3. Play on PPSSPP (on Android a development build, v1.20.4 or newer) or a
    PS Vita with Adrenaline. A real PSP with custom firmware did not run
-   v0.3.2 (see Status); v0.3.3 is not tested on one yet.
+   v0.3.2 (see Status); v0.3.4 is not tested on one yet.
 
 The title screen shows the patch version ("Green Gel vX.Y.Z" on PS2,
 "Green Gel vX.Y.Z" on PSP since 0.3.3). Please include it in bug reports.
@@ -210,7 +234,9 @@ engineering, `armips` or this engine, open an issue or a pull request.
   with v0.3.1. v0.3.3 encodes the movies like the original ones (the
   re-encoded movies used x264 weighted prediction, which the retail movies
   never do and the PSP decodes in hardware); that cannot explain the white
-  screen at boot. Not the cause, checked in an emulator with the release and
+  screen at boot. v0.3.4 removes a wild jump from the bold text routine
+  (any bold string with a control code jumped through a stale register);
+  whether that also caused the white screen is not known. Not the cause, checked in an emulator with the release and
   a build of the same source:
   the kernel load and relocation rules, misaligned memory access (none in
   boot, title, story, battle, town and menus), the larger executable (the
@@ -262,7 +288,7 @@ One command runs every step below in order, with no GUI, on Windows,
 Linux or macOS:
 
 ```
-python ps2/build_ps2.py --japanese-iso "Tales of Destiny 2 (Japan).iso" --cless-iso "Tales of Destiny 2 (Eng-cless patch).iso" --movie-fpb MOVIE.FPB --version 1.3.1 --out tod2_ps2_en.iso
+python ps2/build_ps2.py --japanese-iso "Tales of Destiny 2 (Japan).iso" --cless-iso "Tales of Destiny 2 (Eng-cless patch).iso" --movie-fpb MOVIE.FPB --version 1.3.2 --out tod2_ps2_en.iso
 ```
 
 * `--cless-iso` is the build base: the ISO with the old (2008) Cless
@@ -302,10 +328,10 @@ The manual steps (details in `ps2/menu/README.md`, "Applying it", and
    python ps2/menu/sfm_text.py build ps2/PyTOD2/FPB
    python ps2/menu/enemy_text.py build ps2/PyTOD2/FPB
    python ps2/menu/battle_subs.py build ps2/PyTOD2/FPB
-   python ps2/menu/title_credit.py ps2/PyTOD2/FPB --version 1.3.1
+   python ps2/menu/title_credit.py ps2/PyTOD2/FPB --version 1.3.2
    python ps2/menu/patch_slps_titles.py ps2/PyTOD2/SLPS_251.72
    ```
-   `title_credit.py` draws "Green Gel v1.3.1" under the title menu; the game
+   `title_credit.py` draws "Green Gel v1.3.2" under the title menu; the game
    shows only 96 pixels of that line, so the tool refuses wider labels.
 4. Pack FPB. It writes `FILE_NEW.FPB` and `new_SLPS_251.72`; those two
    (renamed to `FILE.FPB` and `SLPS_251.72`) go into the ISO. Do
@@ -334,7 +360,7 @@ One command builds the whole English ISO from a clean Japanese one:
 
 ```
 python -m pip install imageio-ffmpeg
-python psp/tools/build_psp.py "Tales of Destiny 2 (Japan) PSP.iso" tod2_psp_en.iso --version 0.3.3 --movies
+python psp/tools/build_psp.py "Tales of Destiny 2 (Japan) PSP.iso" tod2_psp_en.iso --version 0.3.4 --movies
 ```
 
 * `--version` is the number drawn on the title screen as
@@ -362,8 +388,8 @@ One command per platform builds, checks and packs a release:
 
 ```
 python -m pip install py7zr
-python scripts/make_release.py ps2 --version 1.3.1
-python scripts/make_release.py psp --version 0.3.3
+python scripts/make_release.py ps2 --version 1.3.2
+python scripts/make_release.py psp --version 0.3.4
 ```
 
 It checks out upstream/main (or `--commit`) into a clean folder, runs the
