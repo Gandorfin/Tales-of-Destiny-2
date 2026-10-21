@@ -97,7 +97,12 @@ RETAIL_BOLD = {
     0x144444: 0x00854821, 0x144448: 0xA5090000, 0x14444C: 0x92500000,
     0x144450: 0x1600FFA8, 0x144454: 0x2E060020,
 }
-BOLD_RET = 0x144454
+BOLD_RET = 0x144450
+# Words inside the patched ranges that other code jumps to (branches and the
+# bold routine's control code jump table at 0x1D7A28): the call sites keep
+# their retail words, so every way in still finds the retail instruction.
+KEEP_RETAIL = {0x14444C: 0x92500000, 0x144450: 0x1600FFA8, 0x144454: 0x2E060020,
+               0x14A4BC: 0x00745821, 0x14A4C0: 0x25726C00}
 BOLD_START_RET = 0x144270
 GU_TEX_IMAGE = 0x0059E4          # the game's sceGuTexImage(mip, w, h, tbw, tbp)
 CODE_TO_CELL = 0x144604          # two-byte code -> font 2 cell (low 8 bits)
@@ -151,10 +156,13 @@ def build_bold_widths(slot_table, data=None):
 
 def _bold_hook(a):
     """5: bold routine loop tail. in: t0 ctx, t4 second vertex, a0 v of this
-    glyph, s0 next char, ra = runtime of BOLD_RET. out: a2 = (s0 < 0x20),
-    vertices shifted by the left bearing, ctx x advanced by the glyph width."""
+    glyph, s3 colour, ra = runtime of BOLD_RET. out: colour stored in the
+    second vertex, vertices shifted by the left bearing, ctx x advanced by
+    the glyph width. s0 (the next character, loaded in the call's delay
+    slot) and a2 (set by the retail delay slot after the return) are not
+    touched."""
     a.label('bold')
-    a.op('sltiu', 'a2', 's0', 0x20)
+    a.op('sw', 's3', 4, 't4')
     a.op('lhu', 't1', 0, 't0')
     a.op('lhu', 'a1', 4, 't0')
     a.op('lui', 't8', ('hi', 'bold_flag', BOLD_RET))  # copy bound for this string?
@@ -376,6 +384,7 @@ def _ticker_hooks(a, sx):
     a.op('subu', 't2', 't2', 't6')                    # x0 - left
     a.op('addu', 's2', 't2', 't7')                    # x1 = x0 + sprite width
     a.label('ticker_plain')
+    a.op('addiu', 'ra', 'ra', 8)                      # past the two retail words
     a.op('jr', 'ra')
     a.op('sh', 't2', 0x43C, 'a0')
 
@@ -652,13 +661,15 @@ def call_sites(labels):
 
     def bold(s):                                      # 0x144438..0x144454
         s.op('bal', 0x144440)
-        s.op('sw', 's3', 4, 't4')
         s.op('lui', 'at', ('hi', labels['bold'] - 0x144440))
         s.op('addiu', 'at', 'at', ('lo', labels['bold'] - 0x144440))
         s.op('addu', 'at', 'at', 'ra')
         s.op('jalr', 'at')
-        s.op('lbu', 's0', 0, 's2')
-        s.op('bnez', 's0', 0x1442F4)
+        # 0x14444C and 0x144450 are jump targets of the control code paths
+        # (the delay slot load of the next character comes first, as before)
+        s.op('lbu', 's0', 0, 's2')                    # retail
+        s.op('bnez', 's0', 0x1442F4)                  # retail
+        s.op('sltiu', 'a2', 's0', 0x20)               # retail
     def bold_start(s):                                # 0x144250..0x14426C
         s.op('sw', 'ra', 0x34, 'sp')
         s.op('bal', 0x14425C)
@@ -692,12 +703,53 @@ def call_sites(labels):
         s.op('addu', 'at', 'at', 'ra')
         s.op('jalr', 'at')
         s.op('nop')
-        s.op('nop')
-        s.op('nop')
+        # 0x14A4BC is the jump target of the ticker's second glyph path; the
+        # hook returns past these two retail words
+        s.op('addu', 't3', 'v1', 's4')                # retail
+        s.op('addiu', 's2', 't3', 0x6C00)             # retail
     if 'ticker_layout' in labels:
         site(0x149FD0, ticker_layout)
         site(0x14A4A0, ticker_draw)
     return words
+
+
+TEXT_END = 0x194278              # end of the text segment (vaddr)
+
+
+def entry_points(boot):
+    """Every code address other code can jump to without falling through:
+    branch and jump targets decoded from the text segment, plus code
+    addresses held by relocated data pointers (jump tables, callbacks)."""
+    import psp_pool
+    targets = set()
+    for va in range(0, TEXT_END, 4):
+        w = struct.unpack_from('<I', boot, va + TEXT_BIAS)[0]
+        op = w >> 26
+        rel = va + 4 + (((w & 0xFFFF) ^ 0x8000) - 0x8000) * 4
+        if op in (4, 5, 6, 7, 20, 21, 22, 23) or (op == 1 and (w >> 16) & 0x1F in (0, 1, 2, 3, 16, 17, 18, 19)):
+            targets.add(rel)
+        elif op in (2, 3):
+            targets.add((w & 0x3FFFFFF) << 2)
+    phnum = struct.unpack_from('<H', boot, 0x2C)[0]
+    has_relocs = phnum >= 3 and len(boot) >= psp_pool.RELOC_OFF + psp_pool.RELOC_SIZE
+    for typ, fo, adrb in (psp_pool._relocs(boot) if has_relocs else ()):
+        if typ == 2 and adrb == 0:
+            v = struct.unpack_from('<I', boot, fo)[0]
+            if v < TEXT_END:
+                targets.add(v)
+    return targets
+
+
+def check_entries(boot, words):
+    """Raise ValueError when a changed word that is not the first word of
+    its call site is an entry point: code reaching it from elsewhere would
+    run the middle of the call sequence (PSP 0.3.3 jumped into the bold hook
+    that way, see KEEP_RETAIL)."""
+    targets = entry_points(boot)
+    addrs = {va for va, _ in words}
+    for va, word in words:
+        if va - 4 in addrs and va in targets and word != struct.unpack_from('<I', boot, va + TEXT_BIAS)[0]:
+            raise ValueError('call site word at %#x is a jump target and would change' % va)
 
 
 def _pool_header(b):
@@ -739,7 +791,9 @@ def patch_boot(boot, font_member, sx=DEFAULT_SX, gap=DEFAULT_GAP, bold=False, ti
     b += bytes(pad) + code
     p[4] = p[5] = p[4] + pad + len(code)
     struct.pack_into('<8I', b, off, *p)
-    for va, word in call_sites(labels):
+    sites = call_sites(labels)
+    check_entries(b, sites)
+    for va, word in sites:
         struct.pack_into('<I', b, va + TEXT_BIAS, word)
     return bytes(b), {'hooks_vaddr': hex(base), 'bytes': len(code), 'scale': sx, 'gap': gap, 'bold': bold, 'ticker': ticker,
                       'glyphs': sum(1 for i in range(256) if widths[2 * i + 1])}

@@ -94,7 +94,7 @@ class HookTests(unittest.TestCase):
         widths = bytes((i * 7 + 3) & 0x1F for i in range(1024))
         bold = bytes((i * 5 + 1) & 0xF for i in range(640))
         code, _ = psp_vwf.hooks(0x894B00, widths, 320, bold_widths=bold, ticker=True)
-        self.assertEqual(hashlib.sha1(code).hexdigest(), 'ca2bdb9441bc101469d39dcbf6df832c5bb756ae')
+        self.assertEqual(hashlib.sha1(code).hexdigest(), 'f7e94356e7b6d1a410e33c4259298ce3142ec9d4')
 
     def test_call_site_jumps_reach_the_hooks(self):
         _, labels = psp_vwf.hooks(0x894B00, bytes(1024))
@@ -111,9 +111,39 @@ class HookTests(unittest.TestCase):
         self.assertEqual(target(0x142844, 0x142848, 0x142844), labels['measure'])
         _, labels = psp_vwf.hooks(0x894B00, bytes(1024), bold_widths=bytes(640), ticker=True)
         w = dict(psp_vwf.call_sites(labels))
-        self.assertEqual(target(0x144440, 0x144444, 0x144440), labels['bold'])
+        self.assertEqual(target(0x14443C, 0x144440, 0x144440), labels['bold'])
         self.assertEqual(target(0x149FD0, 0x149FD4, psp_vwf.SLOTTAB), labels['ticker_layout'])
         self.assertEqual(target(0x14A4A8, 0x14A4AC, 0x14A4A8), labels['ticker_draw'])
+
+    def test_jump_targets_keep_their_retail_words(self):
+        # other code enters these words directly (the bold routine's control
+        # code paths and jump table, the ticker's second glyph path); a call
+        # sequence written over them made PSP 0.3.3 jump into the bold hook
+        # with a coordinate for a pointer whenever a menu string with a
+        # control code was drawn in bold (the item and arte target window)
+        _, labels = psp_vwf.hooks(0x894B00, bytes(1024), bold_widths=bytes(640), ticker=True)
+        w = dict(psp_vwf.call_sites(labels))
+        for va, word in psp_vwf.KEEP_RETAIL.items():
+            self.assertEqual(w[va], word, hex(va))
+            retail = {**psp_vwf.RETAIL_BOLD, **psp_vwf.RETAIL_TICKER}[va]
+            self.assertEqual(word, retail)
+        # the bold hook returns to 0x144450 (jalr at 0x144448), the ticker
+        # draw hook to 0x14A4C4 (ra + 8 after the jalr at 0x14A4B4)
+        self.assertEqual(w[0x144448], 0x0020F809)
+        self.assertEqual(psp_vwf.BOLD_RET, 0x144448 + 8)
+        self.assertEqual(w[0x14A4B4], 0x0020F809)
+
+    def test_changed_jump_target_is_refused(self):
+        boot = bytearray(0x1A0000)
+        struct.pack_into('<H', boot, 0x2C, 2)
+        # j 0x14444C at vaddr 0x1000, as the bold routine's control code paths
+        struct.pack_into('<I', boot, 0x1000 + psp_vwf.TEXT_BIAS, 0x08000000 | (0x14444C >> 2))
+        self.assertIn(0x14444C, psp_vwf.entry_points(bytes(boot)))
+        old = [(0x144448, 0x003F0821), (0x14444C, 0x0020F809)]      # 0.3.3: jalr at over it
+        with self.assertRaises(ValueError):
+            psp_vwf.check_entries(bytes(boot), old)
+        psp_vwf.check_entries(bytes(boot), [(0x144448, 0x0020F809), (0x14444C, 0)])  # unchanged word: fine
+        psp_vwf.check_entries(bytes(boot), [(0x14444C, 0x0020F809)])                   # a site may start there
 
 
 def fake_font(cells):
