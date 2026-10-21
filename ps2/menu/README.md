@@ -11,6 +11,7 @@ tables reference offsets inside files you extract yourself.
 | `*.md1` overlay modules in `FILE.FPB` | 525 (+122 inside `00017.pak3`) | items, equipment, shop, refine, enchant, save, status, customize, cooking UI, grade shop, monster book, titles, artes and tactics menus, name entry, battle system and the Battle Memos, world map region labels |
 | `*.pak0` world map scripts in `FILE.FPB` | 261 | signposts, mine entrance labels, map location labels, ferry and minigame text, the flying dragon anchor scene, the ending monologue |
 | `*.pak1` enemy packs in `FILE.FPB` | 159 table entries, alternate/cut-in literals + 218 enemy names | enemy arte and Mystic Arte names shown in battle, the lines bosses shout (Barbatos, Elrane and others) and the enemy-name banner at the start of an encounter (the name field in every enemy pack, plus the `TEKI` list in 08063.pak1), via `enemy_text.py` |
+| `00017.pak3` member 4 (new) | 356 battle subtitles | spoken battle lines, drawn while the voice plays, via `battle_subs.py` (861 voice files listed in `battle_subtitles.csv`) |
 | `06306.scpk` | 1 | the opening caption "And so... eighteen years passed...", a scenario package that predates the proofread range (06307 onward) and has no text file of its own; patched in place inside the package |
 | `SLPS_251.72` | 597 + 277 ops + 27 cut-ins | character titles, plus the earlier Arte / Status / Enchant / Cooking-help menu patch (`slps_menu_patch.json`) and the battle cut-in names of the 27 party artes that still flashed up in kanji, so the executable is complete from a clean English-menu base |
 
@@ -54,6 +55,7 @@ cd Tales-of-Destiny-2
 python ps2/menu/patch_menu_text.py ps2/PyTOD2/FPB
 python ps2/menu/sfm_text.py build ps2/PyTOD2/FPB
 python ps2/menu/enemy_text.py build ps2/PyTOD2/FPB
+python ps2/menu/battle_subs.py build ps2/PyTOD2/FPB
 python ps2/menu/title_credit.py ps2/PyTOD2/FPB --version 1.3.1
 python ps2/menu/patch_slps_titles.py ps2/PyTOD2/SLPS_251.72
 ```
@@ -65,6 +67,7 @@ cd C:\Users\you\Tales-of-Destiny-2
 python ps2\menu\patch_menu_text.py ps2\PyTOD2\FPB
 python ps2\menu\sfm_text.py build ps2\PyTOD2\FPB
 python ps2\menu\enemy_text.py build ps2\PyTOD2\FPB
+python ps2\menu\battle_subs.py build ps2\PyTOD2\FPB
 python ps2\menu\title_credit.py ps2\PyTOD2\FPB --version 1.3.1
 python ps2\menu\patch_slps_titles.py ps2\PyTOD2\SLPS_251.72
 ```
@@ -72,7 +75,10 @@ python ps2\menu\patch_slps_titles.py ps2\PyTOD2\SLPS_251.72
 `patch_menu_text.py` covers the menus, `sfm_text.py build` covers the Quiz
 Book and `enemy_text.py build` covers enemy arte names, Mystic Arte banners
 and boss lines in battle (different files, see below); all three must run before Pack
-FPB. Skipping one leaves that part of the game in Japanese.
+FPB. Skipping one leaves that part of the game in Japanese. `battle_subs.py
+build` adds English subtitles for the spoken battle lines (victory quotes
+and the like, "Battle subtitles" below); it must run after
+`patch_menu_text.py`, which rebuilds the same container.
 
 Do not run PyTOD2's optional "Insert FONT" afterwards: it replaces the
 game's Latin font with the 2008 alternative font (`font.bin`), which no
@@ -157,6 +163,7 @@ rebuilt. The full sequence, with the PyTOD2 button names:
 2. `python ps2\menu\patch_menu_text.py ps2\PyTOD2\FPB`
    and `python ps2\menu\sfm_text.py build ps2\PyTOD2\FPB` (the Quiz Book)
    and `python ps2\menu\enemy_text.py build ps2\PyTOD2\FPB` (enemy artes)
+   and `python ps2\menu\battle_subs.py build ps2\PyTOD2\FPB` (battle subtitles)
    and `python ps2\menu\title_credit.py ps2\PyTOD2\FPB --version 1.3.1`
    (the patch name on the title screen, with the version being released).
 3. Make sure `new_SLPS_251.72` exists next to `SLPS_251.72` (Pack FPB
@@ -399,6 +406,55 @@ list translated, which is how the pack copies were found. The name list
 in 06813.md1 and the category and immunity tables at 06813 0x7731 still
 look dead (the 2008 patch relocated the English versions the Monster
 Book shows).
+
+## Battle subtitles (`battle_subs.py`)
+
+The voices in battle (victory quotes, spell incantations, the lines a
+character shouts with a special arte, the banter and hints in scripted
+fights, boss lines) had no text at all. `battle_subs.py build` adds English
+subtitles for them. They appear centred just above the HP bars while the
+line plays, in the battle font, white; when two characters talk at once
+the second line goes above the first.
+
+```
+python ps2\menu\battle_subs.py build ps2\PyTOD2\FPB            # patch 00017.pak3 in place
+python ps2\menu\battle_subs.py build ps2\PyTOD2\FPB --dry-run  # report only
+python ps2\menu\battle_subs.py check                          # check the table
+```
+
+Run it after `patch_menu_text.py` (both rebuild `00017.pak3`) and before
+Pack FPB. Running it again on the same folder replaces the earlier
+subtitles, so the table can be edited and the step repeated.
+
+The text is `battle_subtitles.csv`: voice_id, member, owner, speaker,
+seconds, japanese, english. One row per battle voice file, 861 rows (the
+member column is the FILE.FPB member, `audio/ps2_audio.csv` lists them;
+party voice N is member 7253 + N); 356 of them have English: victory
+quotes, incantations, the phrases of special artes, the leader's orders,
+the hints and banter of scripted fights and the boss lines. Speaker `*` means the game supplies the name: the hook writes
+the name of the character who plays the voice, so scripted lines whose
+speaker is not known from the file name still get the right one. Speaker
+empty means no name (lines with several speakers carry the names in the
+text, boss lines whose boss is not certain). Rows without English draw
+nothing: grunts, and arte shouts that only say the arte name (the arte
+banner shows it already).
+
+Limits: one line holds 54 characters (46 when the game adds the name),
+longer text wraps at spaces into up to three lines. The battle font has no
+glyphs for `[ ] _ @ ^`, and its comma sits a little high.
+
+How it works (details in TECHNICAL.md, "PS2: battle voices and battle
+subtitles"): a 472 byte hook appended to the battle module (member 0 of
+`00017.pak3`, in the 4 KB the overlay buffer has left) replaces the call of
+the battle frame function; after the frame it looks at every actor, and
+the halfword at actor + 0x13E is the id of the voice that actor is
+speaking. The table is a fourth, uncompressed member of `00017.pak3`; the
+game loads the whole container at boot and never reads that member, the
+hook finds it through the container's offset table.
+
+The Japanese column comes from Whisper (large-v3-turbo) on the PS2 voice
+files and was corrected by hand where the wording was clear from context
+(incantations, arte names); it has not been checked by ear line by line.
 
 ## The Latin font (`slps_font.py`)
 

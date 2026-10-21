@@ -301,6 +301,7 @@ The manual steps (details in `ps2/menu/README.md`, "Applying it", and
    python ps2/menu/patch_menu_text.py ps2/PyTOD2/FPB
    python ps2/menu/sfm_text.py build ps2/PyTOD2/FPB
    python ps2/menu/enemy_text.py build ps2/PyTOD2/FPB
+   python ps2/menu/battle_subs.py build ps2/PyTOD2/FPB
    python ps2/menu/title_credit.py ps2/PyTOD2/FPB --version 1.3.1
    python ps2/menu/patch_slps_titles.py ps2/PyTOD2/SLPS_251.72
    ```
