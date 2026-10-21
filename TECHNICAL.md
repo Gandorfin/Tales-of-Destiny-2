@@ -195,8 +195,10 @@ addresses are EE RAM while a battle runs.
   `0x303100` (crt0 end of bss); `08055` is the largest overlay and ends at
   `0x30210C`, so 4 KB stay free behind it. The caches are flushed after the
   unpack.
-* Battle actors: 0x2A8 byte records, array pointer at `0x2FA160`, party size
-  byte at `0x2FA195` (globals block `0x2FA000`). The halfword at actor
+* Battle actors: 0x2A8 byte records in one array: four party slots (used or
+  not), then the enemies. Pointer to the party at `0x2FA160`, to the first
+  enemy at `0x2FA164` (party + 4 x 0x2A8), party size byte at `0x2FA195`,
+  enemy count at `0x2FA196` (globals block `0x2FA000`). The halfword at actor
   `+0x13E` is the id of the voice the actor is speaking, 0 when silent;
   `+0x140` is a queued voice. `+0x149` is the character (0 Kyle, 1 Reala,
   2 Loni, 3 Judas, 4 Nanaly, 5 Harold), `+0x14C` is 1 for enemies.
@@ -218,8 +220,8 @@ addresses are EE RAM while a battle runs.
   is 16 x scale / 256 pixels wide (11 at 0xB0).
 * The battle frame function is called once per frame from `0x2AEC18`
   (`jal 0x2B40B8`). `ps2/menu/battle_subs.py` appends a hook to `08055`
-  that calls it and then draws the subtitle of every speaking party actor
-  from `battle_subtitles.csv`; the text is a fourth, uncompressed member of
+  that calls it and then draws the subtitle of every speaking actor (party,
+  then enemies) from `battle_subtitles.csv`; the text is a fourth, uncompressed member of
   `00017.pak3` (comptoe header type 0, `BSUB` table at member offset + 12).
 
 ## PS2: movies
