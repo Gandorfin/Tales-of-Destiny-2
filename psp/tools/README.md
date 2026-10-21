@@ -35,6 +35,7 @@ the PS2 translation:
 | `TBL.json` | `ps2/PyTOD2/TBL.json` | text encoding table |
 | `skit_speeds.json` | `ps2/PyTOD2/skit_speeds.json` | time window of every skit line |
 | `quiz_translations.csv` | `ps2/menu/quiz_translations.csv` | Quiz Book English (`psp_quiz.py`) |
+| `battle_subtitles.csv` | `ps2/menu/battle_subtitles.csv` | battle subtitles (`psp_battle_subs.py`) |
 | `overrides.tsv` | (PSP only) | PSP only fixes, they win over everything else |
 
 Skit text speed: PSP skit member n is PS2 skit n - 159, with the same line
@@ -351,6 +352,35 @@ the old executable), check a text box, a skit, the main menu, Status and a
 battle. Stock PPSSPP loads every program header, a real PSP does not
 (TECHNICAL.md, "The pool's program header must sit between text and
 data"); a code change still needs a test on hardware.
+
+## psp_battle_subs.py: subtitles for the spoken battle lines
+
+```
+python psp/tools/psp_battle_subs.py check
+```
+
+`build_psp.py` runs this step on BOOT.BIN after the variable width font.
+The PSP runs the PS2 battle engine, so it works like
+`ps2/menu/battle_subs.py`: while a battle actor speaks, its record holds
+the voice id (actor `+0x14A`); a hook called once per frame looks every
+party actor and every enemy up in the table and draws the English, white,
+centred, above the HP bars, with the speaking character's name in front
+for rows whose speaker is `*`. A second speaker stacks above the first.
+The hook and the table go to the end of the string pool; the frame call
+at `0x1B27C` (a `jal`) gets the hook as its target. Addresses, record
+layout and the reason this needs no new relocation: TECHNICAL.md, "PSP:
+battle voices and battle subtitles".
+
+The table is `psp/text/battle_subtitles.csv`, the PSP snapshot of
+`ps2/menu/battle_subtitles.csv`: edit the PS2 table, run
+`python psp/tools/sync_text_from_ps2.py`, commit both. The voice ids are
+the same on both consoles. Lines are wrapped again by pixel width with the
+letter widths of `psp/fonts/latin_glyphs.json` (at most three lines);
+`check` reports a row that does not fit.
+
+```
+python -B -m unittest discover -s psp/tools -p test_psp_battle_subs.py -v
+```
 
 ## psp_jpscan.py: which Japanese is still in a build
 

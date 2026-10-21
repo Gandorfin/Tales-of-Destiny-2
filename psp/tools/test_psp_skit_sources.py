@@ -97,6 +97,7 @@ class SyncTests(unittest.TestCase):
         write(os.path.join(tmp, 'ps2', 'PyTOD2', 'TBL.json'), '{}')
         write(os.path.join(tmp, 'ps2', 'PyTOD2', 'skit_speeds.json'), '{}')
         write(os.path.join(tmp, 'ps2', 'menu', 'quiz_translations.csv'), QUIZ_HEAD + QUIZ_ROW % 'Hi')
+        write(os.path.join(tmp, 'ps2', 'menu', 'battle_subtitles.csv'), 'voice_id,member,owner,speaker,seconds,japanese,english\n82,7335,Kyle,*,1.1,,We did it!\n')
 
     def snapshot(self, tmp):
         out = {}
@@ -113,7 +114,7 @@ class SyncTests(unittest.TestCase):
             self.assertEqual({(n, s) for _, n, s, _, _ in first},
                              {('06470_10.sced.txt', 'new'), ('00056_02.sced.txt', 'new'), ('00001.en.srt', 'new'),
                               ('TBL.json', 'new'), ('skit_speeds.json', 'new'),
-                              ('quiz_translations.csv', 'new')})
+                              ('quiz_translations.csv', 'new'), ('battle_subtitles.csv', 'new')})
             before = self.snapshot(tmp)
             sync.apply(first, tmp)
             after = self.snapshot(tmp)
@@ -196,7 +197,7 @@ class AuditLagTests(unittest.TestCase):
             shutil.copyfile(sync.__file__, os.path.join(tmp, 'psp', 'tools', 'sync_text_from_ps2.py'))
             findings = collections.defaultdict(list)
             audit.check_psp_text_lag(tmp, findings)
-            self.assertEqual(len(findings['psp-text-lag']), 6)  # nothing synced yet
+            self.assertEqual(len(findings['psp-text-lag']), 7)  # nothing synced yet
             sync.apply(sync.differences(tmp), tmp)
             findings = collections.defaultdict(list)
             audit.check_psp_text_lag(tmp, findings)
@@ -223,10 +224,10 @@ class SourceCheckTests(unittest.TestCase):
         for what, rel, pattern, least, when in build_psp.SOURCES:
             if rel.endswith(('.txt', '.tsv', '.json', '.srt', '.csv')) or pattern:
                 self.assertTrue(rel.startswith('psp/'), rel)
-        import psp_movies, psp_quiz
+        import psp_movies, psp_quiz, psp_battle_subs
         text = os.path.join(build_psp.ROOT, 'psp', 'text')
         for path in (psp_text.TEXT, psp_text.OVERRIDES, psp_text.SKIT_SPEEDS, psp_movies.SUBTITLES,
-                     psp_quiz.QUIZ_CSV):
+                     psp_quiz.QUIZ_CSV, psp_battle_subs.TABLE):
             self.assertTrue(os.path.normpath(path).startswith(text), path)
 
     def test_old_speed_table_is_refused(self):
