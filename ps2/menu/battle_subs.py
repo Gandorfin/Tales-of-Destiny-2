@@ -6,9 +6,10 @@
     python ps2/menu/battle_subs.py check                         # table only
 
 How the game plays a battle voice: every battle actor is a 0x2A8 byte
-record (array pointer at 0x2FA160, the party first, then the enemies;
-party size byte at 0x2FA195, enemy count at 0x2FA196, all in the battle
-module 08055). While an actor speaks, the halfword at +0x13E
+record in one array, four party slots first (used or not), then the
+enemies (pointer to the party at 0x2FA160, to the first enemy at
+0x2FA164 = party + 4 x 0x2A8; party size byte at 0x2FA195, enemy count
+at 0x2FA196, all in the battle module 08055). While an actor speaks, the halfword at +0x13E
 holds the voice id and drops back to 0 when the line ends; the voice
 routines 0x2ED158 / 0x2ED248 / 0x2ED7B0 put it there for arte shouts,
 spells, victory quotes and the leader lines alike. Voice id N is FILE.FPB
@@ -26,8 +27,9 @@ What this step adds:
   that code instead. It calls the frame function, then looks at each party
   actor: if +0x13E holds an id that has lines in the table, it draws them
   with the module's own text helper 0x2E6DA0 (the one that draws "ENEMY
-  DATA"), white, centred, just above the HP bars. Enemies are checked
-  the same way after the party (boss lines). Two speakers at once stack
+  DATA"), white, centred, just above the HP bars. The enemies are
+  checked the same way after the party, from their own pointer (boss
+  lines). Two speakers at once stack
   upwards.
 * the text: a fourth member of 00017.pak3, stored uncompressed (comptoe
   header type 0). The game loads the whole container at boot into a heap
@@ -72,7 +74,7 @@ TEXT = 0x2E6DA0             # text helper (x, y, string, colour, xscale, yscale)
 PAK_POINTER = 0x234600      # SLPS: address of the resident 00017.pak3
 GLOBALS = 0x2FA000          # battle globals (actors at +0x160, party size at +0x195)
 ACTOR_SIZE = 0x2A8
-MAX_ACTORS = 16             # party size (+0x195) plus enemy count (+0x196), capped
+MAX_ACTORS = 16             # per group (party size +0x195, enemy count +0x196), capped
 VOICE = 0x13E               # actor: id of the voice being played, 0 when silent
 CHARACTER = 0x149          # actor: 0 Kyle, 1 Reala, 2 Loni, 3 Judas, 4 Nanaly, 5 Harold
 ENEMY = 0x14C              # actor: 1 for enemies
@@ -87,7 +89,7 @@ COLOUR = 7                  # white with the font's dark outline
 XSCALE, YSCALE = 0xB0, 0x100
 ADVANCE = 11                # pixels per character at XSCALE 0xB0
 SCREEN_W = 640
-BOTTOM = 356                # y of the lowest line, just above the HP bars
+BOTTOM = 330                # y of the lowest line: above the HP bars and the item banner
 LINE_H = 18
 GAP = 4
 LINE_CHARS = 54
@@ -166,7 +168,7 @@ def hook_code(origin):
     m_hi, m_lo = hi_lo(struct.unpack('<I', MAGIC)[0])
     draw = [addiu('a3', 'zero', COLOUR), addiu('t0', 'zero', XSCALE), jal(TEXT), addiu('t1', 'zero', YSCALE)]
     return assemble([
-        addiu('sp', 'sp', -0x80),
+        addiu('sp', 'sp', -0x90),
         sd('ra', 0x00, 'sp'), sd('s0', 0x10, 'sp'), sd('s1', 0x18, 'sp'),
         sd('s2', 0x20, 'sp'), sd('s3', 0x28, 'sp'), sd('s4', 0x30, 'sp'),
         jal(FRAME), NOP,
@@ -179,16 +181,22 @@ def hook_code(origin):
         lw('t1', 0x10, 's3'), addu('s3', 's3', 't1'), addiu('s3', 's3', 12),
         lw('t1', 0, 's3'), lui('t2', m_hi), addiu('t2', 't2', m_lo),
         bne('t1', 't2', 'done'), NOP,
-        # party first, then the enemies
+        # party first (+0x160, +0x195), then the enemies (+0x164, +0x196):
+        # the enemies start at party slot 4 whatever the party size
         lui('t0', g_hi), addiu('t0', 't0', g_lo),
-        lw('s0', 0x160, 't0'), lbu('t1', 0x195, 't0'), lbu('t2', 0x196, 't0'),
-        addu('s1', 't1', 't2'), sltiu('t3', 's1', MAX_ACTORS + 1),
+        lw('s0', 0x160, 't0'), lbu('s1', 0x195, 't0'),
+        lw('t1', 0x164, 't0'), lbu('t2', 0x196, 't0'),
+        sd('t1', 0x78, 'sp'), sd('t2', 0x80, 'sp'),
+        addiu('t1', 'zero', 1), sd('t1', 0x88, 'sp'),
+        addiu('s2', 'zero', BOTTOM),
+        'group',
+        sltiu('t3', 's1', MAX_ACTORS + 1),
         bne('t3', 'zero', 'counted'), NOP,
         addiu('s1', 'zero', MAX_ACTORS),
         'counted',
-        beq('s0', 'zero', 'done'), addiu('s2', 'zero', BOTTOM),
+        beq('s0', 'zero', 'group_end'), NOP,
         'actor',
-        blez('s1', 'done'), NOP,
+        blez('s1', 'group_end'), NOP,
         lh('t2', VOICE, 's0'),
         beq('t2', 'zero', 'next'), move('s4', 'zero'),
         lw('t3', 4, 's3'), addiu('t4', 's3', ENTRIES),
@@ -228,11 +236,16 @@ def hook_code(origin):
         'next',
         addiu('s1', 's1', -1),
         beq('zero', 'zero', 'actor'), addiu('s0', 's0', ACTOR_SIZE),
+        'group_end',
+        ld('t1', 0x88, 'sp'),
+        beq('t1', 'zero', 'done'), NOP,
+        sd('zero', 0x88, 'sp'), ld('s0', 0x78, 'sp'), ld('s1', 0x80, 'sp'),
+        beq('zero', 'zero', 'group'), NOP,
         'done',
         ld('v0', 0x38, 'sp'),
         ld('ra', 0x00, 'sp'), ld('s0', 0x10, 'sp'), ld('s1', 0x18, 'sp'),
         ld('s2', 0x20, 'sp'), ld('s3', 0x28, 'sp'), ld('s4', 0x30, 'sp'),
-        JR_RA, addiu('sp', 'sp', 0x80),
+        JR_RA, addiu('sp', 'sp', 0x90),
     ], origin)
 
 

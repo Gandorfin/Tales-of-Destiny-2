@@ -24,6 +24,113 @@ def row(vid, speaker, english):
             'seconds': '1.0', 'japanese': '', 'english': english}
 
 
+class Machine:
+    """Just enough of a MIPS CPU to run the hook: the instructions it uses,
+    delay slots, and stubs for the functions it calls."""
+    RETURN = 0xFFFFFFF0
+
+    def __init__(self, stubs):
+        self.mem, self.stubs = {}, stubs
+        self.r = [0] * 32
+
+    def read(self, a, n, signed=False):
+        return int.from_bytes(bytes(self.mem.get(a + i, 0) for i in range(n)), 'little', signed=signed)
+
+    def write(self, a, n, v):
+        for i, x in enumerate((v & ((1 << 8 * n) - 1)).to_bytes(n, 'little')):
+            self.mem[a + i] = x
+
+    def string(self, a):
+        out = bytearray()
+        while self.mem.get(a, 0):
+            out.append(self.mem[a])
+            a += 1
+        return out.decode()
+
+    def load(self, a, blob):
+        for i, x in enumerate(blob):
+            self.mem[a + i] = x
+
+    def step(self, pc):
+        """Execute one instruction; returns (branch target or None, link register or None)."""
+        r, w = self.r, self.read(pc, 4)
+        op, rs, rt, rd, sa, fn = w >> 26, (w >> 21) & 31, (w >> 16) & 31, (w >> 11) & 31, (w >> 6) & 31, w & 63
+        imm = (w & 0xFFFF) - 0x10000 if w & 0x8000 else w & 0xFFFF
+        rel = (pc + 4 + (imm << 2)) & 0xFFFFFFFF
+        out = (None, None)
+        if op == 0:
+            if fn == 0x21: r[rd] = (r[rs] + r[rt]) & 0xFFFFFFFF
+            elif fn == 0x23: r[rd] = (r[rs] - r[rt]) & 0xFFFFFFFF
+            elif fn == 0x00: r[rd] = (r[rt] << sa) & 0xFFFFFFFF
+            elif fn == 0x02: r[rd] = r[rt] >> sa
+            elif fn == 0x08: out = (r[rs], None)
+            elif fn == 0x09: out = (r[rs], rd)
+            else: raise ValueError('function %#x at %#x' % (fn, pc))
+        elif op == 3: out = ((pc & 0xF0000000) | ((w & 0x3FFFFFF) << 2), 31)
+        elif op == 1 and rt == 0x11: out = (rel, 31) if r[rs] < 0x80000000 else (None, 31)
+        elif op == 4: out = (rel if r[rs] == r[rt] else None, None)
+        elif op == 5: out = (rel if r[rs] != r[rt] else None, None)
+        elif op == 6: out = (rel if r[rs] == 0 or r[rs] >= 0x80000000 else None, None)
+        elif op == 9: r[rt] = (r[rs] + imm) & 0xFFFFFFFF
+        elif op == 11: r[rt] = int(r[rs] < (imm & 0xFFFFFFFF))
+        elif op == 12: r[rt] = r[rs] & (w & 0xFFFF)
+        elif op == 13: r[rt] = r[rs] | (w & 0xFFFF)
+        elif op == 15: r[rt] = (w & 0xFFFF) << 16
+        elif op in (32, 33, 35, 36, 37, 55):
+            n, signed = {32: (1, 1), 33: (2, 1), 35: (4, 0), 36: (1, 0), 37: (2, 0), 55: (8, 0)}[op]
+            r[rt] = self.read((r[rs] + imm) & 0xFFFFFFFF, n, bool(signed)) & 0xFFFFFFFF
+        elif op in (40, 41, 43, 63):
+            self.write((r[rs] + imm) & 0xFFFFFFFF, {40: 1, 41: 2, 43: 4, 63: 8}[op], r[rt])
+        else:
+            raise ValueError('opcode %#x at %#x' % (op, pc))
+        r[0] = 0
+        return out
+
+    def call(self, pc, limit=50000):
+        """Run from pc until the code returns to the caller."""
+        self.r[31] = self.RETURN
+        for _ in range(limit):
+            if pc == self.RETURN:
+                return
+            if pc in self.stubs:
+                self.stubs[pc](self.r)
+                pc = self.r[31]
+                continue
+            target, link = self.step(pc)
+            if link is None and target is None and not self._is_branch(pc):
+                pc += 4
+                continue
+            ret = pc + 8
+            self.step(pc + 4)                      # delay slot
+            if link is not None:
+                self.r[link] = ret
+            pc = target if target is not None else ret
+        raise RuntimeError('the code did not return')
+
+    def _is_branch(self, pc):
+        w = self.read(pc, 4)
+        op, rt, fn = w >> 26, (w >> 16) & 31, w & 63
+        return op in (1, 3, 4, 5, 6) or (op == 0 and fn in (8, 9))
+
+
+def battle(machine, party, enemies, voices):
+    """Globals and actors: `party` and `enemies` are lists of character
+    indexes (None for an enemy); the enemies start at party slot 4.
+    voices: {slot: voice id}."""
+    actors = 0x2FD280
+    g = B.GLOBALS
+    machine.write(g + 0x160, 4, actors)
+    machine.write(g + 0x164, 4, actors + 4 * B.ACTOR_SIZE)
+    machine.write(g + 0x195, 1, len(party))
+    machine.write(g + 0x196, 1, len(enemies))
+    for slot, who in list(enumerate(party)) + [(4 + i, None) for i in range(len(enemies))]:
+        a = actors + slot * B.ACTOR_SIZE
+        machine.write(a + B.CHARACTER, 1, who or 0)
+        machine.write(a + B.ENEMY, 1, 1 if who is None else 0)
+    for slot, vid in voices.items():
+        machine.write(actors + slot * B.ACTOR_SIZE + B.VOICE, 2, vid)
+
+
 class Container(unittest.TestCase):
     def test_patch_and_repeat(self):
         data, others = fake_container()
@@ -102,7 +209,35 @@ class Hook(unittest.TestCase):
         self.assertIn(B.jal(B.FRAME), words)
         self.assertIn(B.jal(B.TEXT), words)
         self.assertEqual(words[-2], B.JR_RA)
-        self.assertLess(len(code), 0x200)
+        self.assertLess(len(code), 0x280)
+
+    def run_hook(self, party, enemies, voices, rows):
+        """Run the hook on a fake battle; returns the strings drawn, in order."""
+        drawn, frames = [], []
+        m = Machine({B.FRAME: lambda r: frames.append(1),
+                     B.TEXT: lambda r: drawn.append((m.string(r[6]), r[4], r[5]))})
+        blob, _ = B.build_data(rows)
+        pak = 0x1000000
+        container = pak3.build([b'a', b'b', b'c', blob])
+        m.load(pak, container)
+        m.write(B.PAK_POINTER, 4, pak)
+        battle(m, party, enemies, voices)
+        origin = 0x302110
+        m.load(origin, B.hook_code(origin))
+        m.r[29] = 0x1F00000
+        m.call(origin)
+        self.assertEqual(frames, [1])
+        return drawn
+
+    def test_hook_party_and_enemies(self):
+        rows = [row(82, '*', 'We did it!'), row(700, '', 'Boss line.'), row(5, '*', '')]
+        # party of two: the enemy sits in slot 4, not slot 2
+        drawn = self.run_hook([0, 2], [None], {0: 82, 4: 700}, rows)
+        self.assertEqual([d[0] for d in drawn], ['Kyle: ', 'We did it!', 'Boss line.'])
+        # the enemy block stacks above the party block
+        self.assertLess(drawn[2][2], drawn[1][2])
+        # silent actors and lines without English draw nothing
+        self.assertEqual(self.run_hook([0, 2, 1], [None, None], {1: 5}, rows), [])
 
     def test_hi_lo(self):
         for v in (0x2FA000, 0x234600, 0x42555342):
