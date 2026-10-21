@@ -254,7 +254,7 @@ The commands above leave the Japanese movies untouched. Release build:
 
 ```
 python -m pip install imageio-ffmpeg
-python psp/tools/build_psp.py "Tales of Destiny 2 (Japan) PSP.iso" tod2_psp_en.iso --version 0.3.3 --movies
+python psp/tools/build_psp.py "Tales of Destiny 2 (Japan) PSP.iso" tod2_psp_en.iso --version 0.3.4 --movies
 ```
 
 `--movies` needs an FFmpeg with libass and libx264. `python -m pip install
@@ -275,8 +275,8 @@ default, preserving existing build commands. `--lowercase-font off` builds
 the same English translation with the original uppercase ASCII rendering:
 
 ```
-python psp/tools/build_psp.py "Tales of Destiny 2 (Japan) PSP.iso" tod2_psp_lowercase_hack_v0.3.3.iso --version 0.3.3 --movies --lowercase-font on
-python psp/tools/build_psp.py "Tales of Destiny 2 (Japan) PSP.iso" tod2_psp_uppercase_v0.3.3.iso --version 0.3.3 --movies --lowercase-font off
+python psp/tools/build_psp.py "Tales of Destiny 2 (Japan) PSP.iso" tod2_psp_lowercase_hack_v0.3.4.iso --version 0.3.4 --movies --lowercase-font on
+python psp/tools/build_psp.py "Tales of Destiny 2 (Japan) PSP.iso" tod2_psp_uppercase_v0.3.4.iso --version 0.3.4 --movies --lowercase-font off
 ```
 
 The `off` choice skips the lowercase glyph artwork, a..z slot remapping,
