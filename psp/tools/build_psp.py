@@ -52,6 +52,7 @@ SOURCES = [
     ('text encoding table', 'psp/text/TBL.json', None, 1, 'always'),
     ('skit time windows', 'psp/text/skit_speeds.json', None, 1, 'always'),
     ('Quiz Book English', 'psp/text/quiz_translations.csv', None, 1, 'always'),
+    ('battle subtitles', 'psp/text/battle_subtitles.csv', None, 1, 'always'),
     ('skit speed rules', 'ps2/PyTOD2/skit_speed.py', None, 1, 'always'),
     ('title credit drawing', 'ps2/menu/title_credit.py', None, 1, 'always'),
     ('title credit glyphs', 'ps2/menu/title_glyphs.py', None, 1, 'always'),
@@ -133,7 +134,7 @@ def check_sources(movies=False, report=True):
 
 sys.path.insert(0, HERE)
 check_sources(report=False)
-import psp_iso, psp_text, psp_names, psp_menu, psp_lowercase, psp_fpb, psp_pool, psp_monsters, psp_title, psp_quiz, psp_worldmap, psp_vwf, psp_latin_font, psp_boot_script, psp_pic1
+import psp_iso, psp_text, psp_names, psp_menu, psp_lowercase, psp_fpb, psp_pool, psp_monsters, psp_title, psp_quiz, psp_worldmap, psp_vwf, psp_latin_font, psp_boot_script, psp_pic1, psp_battle_subs
 
 def add_probes(work):
     p = os.path.join(work, 'scenario_en', '06470.txt')
@@ -203,6 +204,11 @@ def main(iso, out_iso, probe=False, keep=None, version=None, lowercase_font=True
         print('variable width font: off (needs --lowercase-font on)')
     else:
         print('variable width font: off')
+    # spoken battle lines: hook + table appended to the pool, after the VWF
+    # (its widths decide the line breaks)
+    _bs, _bsinfo = psp_battle_subs.patch_boot(open(boot, 'rb').read(), vwf=vwf and lowercase_font)
+    open(boot, 'wb').write(_bs)
+    print('battle subtitles:', _bsinfo)
     psp_text.extract(boot, fpb, text)
     psp_text.match(text)
     if probe:

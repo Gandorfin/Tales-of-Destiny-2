@@ -456,6 +456,10 @@ The Japanese column comes from Whisper (large-v3-turbo) on the PS2 voice
 files and was corrected by hand where the wording was clear from context
 (incantations, arte names); it has not been checked by ear line by line.
 
+The PSP build reads a copy of this table (`psp/text/battle_subtitles.csv`,
+`psp/tools/psp_battle_subs.py`; the voice ids are the same): after an
+edit run `python psp/tools/sync_text_from_ps2.py` and commit both files.
+
 ## The Latin font (`slps_font.py`)
 
 For custom font artwork, [FONT_CUSTOMIZATION.md](FONT_CUSTOMIZATION.md)

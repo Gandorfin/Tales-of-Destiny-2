@@ -1,0 +1,862 @@
+voice_id,member,owner,speaker,seconds,japanese,english
+4,7257,Kyle,,0.65,ハッ!,
+5,7258,Kyle,,0.65,TAP,
+6,7259,Kyle,,0.65,どうだ!,
+7,7260,Kyle,,0.65,ダメヤッ!,
+8,7261,Kyle,,0.65,行くぞ!,
+9,7262,Kyle,,0.65,まだだ!,
+10,7263,Kyle,,0.65,キュッ,
+11,7264,Kyle,,0.65,ガーッ!,
+12,7265,Kyle,,0.65,ヤバい!,
+13,7266,Kyle,,0.65,しまった!,
+14,7267,Kyle,,0.65,ダァァァァァァッ,
+15,7268,Kyle,,0.65,任せろ,
+16,7269,Kyle,,0.65,下がれ!,
+17,7270,Kyle,,0.65,頼む!,
+18,7271,Kyle,,0.65,させるか!,
+19,7272,Kyle,,0.65,それ!,
+20,7273,Kyle,,0.65,見切った!,
+21,7274,Kyle,,0.65,助かる!,
+22,7275,Kyle,*,0.81,よし、行くぜ！,"All right, let's go!"
+23,7276,Kyle,*,0.81,みんな頼むぞ！,"I'm counting on you, everyone!"
+24,7277,Kyle,*,0.81,突撃しろ,Charge!
+25,7278,Kyle,*,0.81,今は耐えろ！,Hold out for now!
+26,7279,Kyle,*,0.81,術で攻めろ！,Attack with Magic Artes!
+27,7280,Kyle,*,0.89,俺に任せろ！,Leave it to me!
+28,7281,Kyle,*,0.81,例の作戦だ！,The usual plan!
+29,7282,Kyle,*,0.81,今が好機だ,Now's our chance!
+30,7283,Kyle,*,0.98,雑魚を蹴散らせ！,Scatter the small fry!
+31,7284,Kyle,*,0.73,ここは逃げろ！,Run for it!
+32,7285,Kyle,*,0.65,やるな！,Not bad!
+33,7286,Kyle,*,0.89,ガードが硬い！,Its guard is tough!
+34,7287,Kyle,*,2.28,俺は英雄にはなれないのか,Can't I ever become a hero...?
+35,7288,Kyle,*,1.38,お前が言ってどうする,Look who's talking!
+36,7289,Kyle,,0.65,わかった,
+37,7290,Kyle,,0.73,ソーハジン!,
+38,7291,Kyle,,0.81,チリハジン!,
+39,7292,Kyle,,0.73,フルショーザン!,
+40,7293,Kyle,,0.81,爆炎剣!,
+41,7294,Kyle,,0.89,先行賞!,
+42,7295,Kyle,,0.65,逃げつか!,
+43,7296,Kyle,,0.65,見切った!,
+44,7297,Kyle,,0.65,くらえ!,
+45,7298,Kyle,,0.65,燃えろ!,
+46,7299,Kyle,,0.65,そこだ!,
+47,7300,Kyle,,1.46,ガレンソーハジン!,
+48,7301,Kyle,,1.38,空派絶風劇,
+49,7302,Kyle,,1.30,トリュウ連撃派!,
+50,7303,Kyle,,1.22,漆空連殺剣,
+51,7304,Kyle,,1.38,ガンザンメッサイ人,
+52,7305,Kyle,*,1.30,それで済むかよ,You think that's the end of it?!
+53,7306,Kyle,,1.63,熱唱!総破陣!,
+54,7307,Kyle,,0.81,空を断つ,
+55,7308,Kyle,*,2.93,くらえ!ゼッパ!目衝撃!,Take this!
+56,7309,Kyle,,0.73,見切った!,
+57,7310,Kyle,,0.65,とどめだ!,
+58,7311,Kyle,,1.95,双龍滅火山,
+59,7312,Kyle,*,1.79,疾風の刃にて貫かん,I'll pierce you with a blade of wind!
+60,7313,Kyle,,2.52,ショー絶連勝!,
+61,7314,Kyle,*,1.71,意思送電の技を見よ,Behold my technique!
+62,7315,Kyle,,0.65,奥義!,
+63,7316,Kyle,*,1.79,見せてやる！貫け！,I'll show you! Pierce through!
+64,7317,Kyle,,1.06,残空,
+65,7318,Kyle,,2.03,天聖剣!!,
+66,7319,Kyle,,1.95,残空天聖剣!,
+67,7320,Kyle,*,2.03,飛翔せよ！蒼空の刃！,"Take flight, blade of the blue sky!"
+68,7321,Kyle,,1.06,ウィンドスラッシュ!,
+69,7322,Kyle,,1.14,スラストファング!,
+70,7323,Kyle,,1.22,ボルテックヒート!,
+71,7324,Kyle,,0.73,デルタレイ!,
+72,7325,Kyle,,1.22,ボルカニックレイ!,
+73,7326,Kyle,,1.30,ストーンザッパー!,
+74,7327,Kyle,,1.14,フレイムドライブ!,
+75,7328,Kyle,,0.98,バーンストライク!,
+76,7329,Kyle,*,0.81,許さねえ！,I won't forgive you!
+77,7330,Kyle,*,0.73,やったぜ！,We did it!
+78,7331,Kyle,*,0.65,見たか！,How'd you like that?!
+79,7332,Kyle,*,0.89,まあまあだな,Not bad.
+80,7333,Kyle,*,0.98,俺は負けない！,I won't lose!
+81,7334,Kyle,*,0.81,こんなもんだぜ,That's how it's done!
+82,7335,Kyle,*,1.06,手こずらせやがって,You gave us a lot of trouble.
+83,7336,Kyle,*,1.79,なんとかなったか,Guess we made it somehow.
+84,7337,Kyle,*,1.63,これが英雄の力だ！,This is the power of a hero!
+85,7338,Kyle,*,0.81,よっしゃー！,All right!
+86,7339,Kyle,*,1.46,まだまだこれからだ,We're only getting started!
+87,7340,Reala,,0.65,タック!,
+88,7341,Reala,,0.65,えい!,
+89,7342,Reala,,0.65,終わり!,
+90,7343,Reala,,1.22,はーーーっ!,
+91,7344,Reala,,0.65,行きます!,
+92,7345,Reala,,0.73,逃がさない!,
+93,7346,Reala,,0.65,え?,
+94,7347,Reala,,0.65,ああああ,
+95,7348,Reala,,0.65,えぇっ!?,
+96,7349,Reala,,0.89,そんな…,
+97,7350,Reala,,1.06,ああああああ,
+98,7351,Reala,,0.65,了解!,
+99,7352,Reala,,0.65,頑張る!,
+100,7353,Reala,,0.65,お願い!,
+101,7354,Reala,,0.65,させない!,
+102,7355,Reala,,0.65,頑張って!,
+103,7356,Reala,,0.65,わーっと!,
+104,7357,Reala,,0.65,ありがとう!,
+105,7358,Reala,*,0.81,頑張りましょう！,Let's do our best!
+106,7359,Reala,*,0.98,みんな頑張れ！,"Hang in there, everyone!"
+107,7360,Reala,*,0.73,行くわよ,Here we go!
+108,7361,Reala,*,0.89,今は耐えて！,Hold out for now!
+109,7362,Reala,*,1.06,術で攻めるわ！,I'll attack with Magic Artes!
+110,7363,Reala,*,1.14,私に任せて！,Leave it to me!
+111,7364,Reala,*,0.98,いつものやつで！,The usual plan!
+112,7365,Reala,*,0.98,今がチャンスよ！,Now's our chance!
+113,7366,Reala,*,0.98,一気に行きましょ！,Let's finish this in one go!
+114,7367,Reala,*,0.98,退散退散！,"Retreat, retreat!"
+115,7368,Reala,*,0.98,効かないみたいよ,That doesn't seem to work.
+116,7369,Reala,*,0.89,弱点みたいね,Looks like that's its weak spot.
+117,7370,Reala,*,2.44,一人で回復してもしょうがないんだけど,Healing only myself won't help much...
+118,7371,Reala,,0.65,ファイト!,
+119,7372,Reala,,0.65,頑張れ!,
+120,7373,Reala,,0.89,天賞団,
+121,7374,Reala,,0.89,フージーション,
+122,7375,Reala,,0.73,カホーデン!,
+123,7376,Reala,,0.81,竜連弾!,
+124,7377,Reala,,1.30,ストーンジャッパー!,
+125,7378,Reala,,1.14,エアプレッシャー!,
+126,7379,Reala,,0.98,アクラスパイク!,
+127,7380,Reala,,0.73,スプラッシュ!,
+128,7381,Reala,,1.30,インブレイスエンド!,
+129,7382,Reala,,1.06,ウィンドスラッシュ!,
+130,7383,Reala,,1.06,スラストファング,
+131,7384,Reala,,1.30,フィアンフルストーム!,
+132,7385,Reala,,1.14,フレームドライブ!,
+133,7386,Reala,,1.14,バーンストライク!,
+134,7387,Reala,,1.14,エンシェントノヴァ!,
+135,7388,Reala,,1.14,グランバリッシュ!,
+136,7389,Reala,*,2.93,氷結は終焉、せめて刹那にて砕けよ！,Ice is your end. Shatter in a single instant!
+137,7390,Reala,*,2.52,大地に秘められし、破壊の力よ！,O power of destruction sealed within the earth!
+138,7391,Reala,*,2.84,古より伝わりし浄化の炎、落ちよ！,"Purifying flame of ancient lore, fall!"
+139,7392,Reala,*,3.41,恐怖と共に消えよ！薙げ！極限の嵐！,"Vanish with your fear! Sweep them away, ultimate storm!"
+140,7393,Reala,*,1.71,我が力、解放せよ！,"My power, be unleashed!"
+141,7394,Reala,*,1.63,我が呼びかけに答えよ！,Answer my call!
+142,7395,Reala,*,1.71,荘厳なる意志は今ここに！,"A majestic will, here and now!"
+143,7396,Reala,*,1.71,来たれ！大地のきらめき！,"Come forth, radiance of the earth!"
+144,7397,Reala,*,1.54,唸れ！大地の咆哮！,"Roar, howl of the earth!"
+145,7398,Reala,*,2.84,静かなる意志、粛清の力に変えて！,Turn this quiet will into the power to purge!
+146,7399,Reala,*,1.71,正義の心、我らに！,"Hearts of justice, be with us!"
+147,7400,Reala,,0.73,シャクネキト!,
+148,7401,Reala,,0.89,豪華な一緒!,
+149,7402,Reala,,0.81,焼き尽くせ!,
+150,7403,Reala,*,1.46,舞い降りし疾風の巫女よ！,"Priestess of the gale, descend!"
+151,7404,Reala,,0.98,我らにアダナス!,
+152,7405,Reala,,1.14,意志を切り裂かん!,
+153,7406,Reala,,0.98,スティングライブ!,
+154,7407,Reala,,1.30,シリンガファール!,
+155,7408,Reala,,1.30,あー!ステッパー!,
+156,7409,Reala,,1.38,フリーズハンター!,
+157,7410,Reala,,1.14,クラッシュガスト!,
+158,7411,Reala,,1.38,アクアリヌス!,
+159,7412,Reala,,1.14,ボタンブレイズ!,
+160,7413,Reala,,1.14,ボルカニックレイ!,
+161,7414,Reala,,1.30,ブランブライブ!,
+162,7415,Reala,,1.22,クロスブレイド!,
+163,7416,Reala,,1.22,ボルテックヒート!,
+164,7417,Reala,,1.38,シルフィスティアー!,
+165,7418,Reala,,0.65,イイイイイイ!,
+166,7419,Reala,,0.89,リザレクション!,
+167,7420,Reala,,1.06,レイズデッド!,
+168,7421,Reala,*,1.38,好きにはさせない！,I won't let you have your way!
+169,7422,Reala,*,1.14,やったやった！,"We did it, we did it!"
+170,7423,Reala,*,1.63,私たちの勝ち！,We win!
+171,7424,Reala,*,0.81,お疲れ様,"Good work, everyone."
+172,7425,Reala,*,1.06,甘い甘い！,Not even close!
+173,7426,Reala,*,1.38,負けられないってね,"We just can't lose, you know!"
+174,7427,Reala,*,1.79,えへへ、勝利勝利！,"Ehehe, victory, victory!"
+175,7428,Reala,*,1.14,みんな大丈夫？,Is everyone okay?
+176,7429,Reala,*,2.52,ふぅ、私を怒らせないで！,Phew... Don't make me angry!
+177,7430,Reala,*,0.81,負けられない,We can't lose.
+178,7431,Reala,*,1.22,これでまた一歩,One step closer now.
+179,7432,Loni,,0.65,ふん!,
+180,7433,Loni,,0.65,HUAH!,
+181,7434,Loni,,0.65,決まった?,
+182,7435,Loni,,0.65,おりゃ,
+183,7436,Loni,,0.65,今だ!,
+184,7437,Loni,,0.65,さらに,
+185,7438,Loni,,0.65,てっ!,
+186,7439,Loni,,0.65,にわっ,
+187,7440,Loni,,0.65,死ぬて!,
+188,7441,Loni,,0.65,NECK!,
+189,7442,Loni,,0.73,なんだと,
+190,7443,Loni,,0.65,あ゛゛ッ!,
+191,7444,Loni,,0.65,おりゃ,
+192,7445,Loni,,0.65,任せた,
+193,7446,Loni,,0.65,オンデレンク!,
+194,7447,Loni,,0.81,回復だ!,
+195,7448,Loni,,0.65,アブリー!,
+196,7449,Loni,,0.65,ナイス!,
+197,7450,Loni,*,1.22,よっしゃ行くぜ！,"All right, here I go!"
+198,7451,Loni,,0.65,頼んだぜ!,
+199,7452,Loni,,0.65,さすがき!,
+200,7453,Loni,*,0.89,耐えろって,Hold out!
+201,7454,Loni,*,0.98,術で行くぞ！,Switching to artes!
+202,7455,Loni,*,1.38,俺に任せろ！,Leave it to me!
+203,7456,Loni,*,0.73,いつものやつだ！,The usual!
+204,7457,Loni,,0.65,チュース!,
+205,7458,Loni,*,0.81,一気に決めろ！,Finish it in one go!
+206,7459,Loni,*,2.44,ああ、なんか納得いかねえ,"Ugh, something about this doesn't sit right."
+207,7460,Loni,*,1.30,間に合わなかったか,"Didn't make it in time, huh..."
+208,7461,Loni,*,2.19,我ながら素晴らしい連携だ！,"Even I have to admit, that was great teamwork!"
+209,7462,Loni,*,1.38,今こっち来んなって！,Don't come over here right now!
+210,7463,Loni,,0.81,そうだしょ!,
+211,7464,Loni,,0.81,来人賞,
+212,7465,Loni,,0.81,おついちゃお!,
+213,7466,Loni,,0.81,無表彰!,
+214,7467,Loni,,0.73,バッカイショー!,
+215,7468,Loni,*,0.98,続けてくれ！,Keep it up!
+216,7469,Loni,,0.65,ダメ!,
+217,7470,Loni,*,0.98,あの世に逝きな！,Off to the afterlife with you!
+218,7471,Loni,,0.65,うひゃっ,
+219,7472,Loni,,0.81,ハチオトラ!,
+220,7473,Loni,,0.81,本当に!?,
+221,7474,Loni,,0.65,クラッ!,
+222,7475,Loni,,0.81,まだ手継い!,
+223,7476,Loni,,0.73,うひぃぃぃ!,
+224,7477,Loni,,0.65,ヘリッ!,
+225,7478,Loni,,1.14,カッパ爆装撃!,
+226,7479,Loni,,0.98,空派と降弾!,
+227,7480,Loni,,1.06,成功バッパ!,
+228,7481,Loni,,1.22,真空火祭神!,
+229,7482,Loni,*,0.89,これで終わりだ！,This ends now!
+230,7483,Loni,,0.98,一撃一撃!,
+231,7484,Loni,,1.22,クリティカルブレード!,
+232,7485,Loni,*,1.46,貴様を屠る！,I'll cut you down!
+233,7486,Loni,*,1.63,この俺の一撃！,Feel this blow of mine!
+234,7487,Loni,,1.30,我が道チキッソム!,
+235,7488,Loni,,1.54,スパイラルドライバー!,
+236,7489,Loni,,0.81,叩きのメス!,
+237,7490,Loni,,0.81,まだ伸べっす!,
+238,7491,Loni,,1.06,さらに伸べす!,
+239,7492,Loni,,0.81,それが,
+240,7493,Loni,,1.38,ファイナルプレイヤー!,
+241,7494,Loni,,1.95,攻撃!,
+242,7495,Loni,,5.28,神天烈空残光旋風滅災神罰滑殺撃!,
+243,7496,Loni,,3.49,神天烈空残光旋風滅災神罰,
+244,7497,Loni,,0.73,デルタレイ!,
+245,7498,Loni,,0.89,シャドウエッジ!,
+246,7499,Loni,,1.30,ストーンドッパー!,
+247,7500,Loni,,0.98,アクアスパイク!,
+248,7501,Loni,,1.22,プリズムフラッシャー!,
+249,7502,Loni,,1.06,ネガティブゲイット!,
+250,7503,Loni,,0.65,CHEET!,
+251,7504,Loni,*,1.06,天罰決定！,Judgment is passed!
+252,7505,Loni,*,0.89,ナイスだ俺！,"Nice one, me!"
+253,7506,Loni,*,0.81,さすがだな！,As expected!
+254,7507,Loni,*,0.89,みんなに感謝！,"Thanks, everyone!"
+255,7508,Loni,*,1.38,さあ次行こうか,"Alright, on to the next one."
+256,7509,Loni,*,1.95,これが勝利の神髄だぜ！,That's the essence of victory!
+257,7510,Loni,*,1.46,運命は時に厳しい,Fate can be cruel sometimes.
+258,7511,Loni,*,1.46,あーやれやれだぜ,"Ah, good grief."
+259,7512,Loni,*,1.46,これが俺の実力よ！,That's what I'm capable of!
+260,7513,Loni,*,1.38,神にでも祈るんだな,Better start praying to God.
+261,7514,Loni,*,1.54,俺の進化は止まらんぜ！,My evolution never stops!
+262,7515,Judas,,0.65,へっ,
+263,7516,Judas,,0.65,はっ!,
+264,7517,Judas,,0.65,ザクが,
+265,7518,Judas,,0.65,邪魔だ!,
+266,7519,Judas,,0.65,くらえ!,
+267,7520,Judas,,0.65,消えろ!,
+268,7521,Judas,,0.65,イェッ!,
+269,7522,Judas,,0.65,うわっ!,
+270,7523,Judas,,0.65,ちっ!,
+271,7524,Judas,,0.65,深く,
+272,7525,Judas,,0.65,バカだ!,
+273,7526,Judas,,0.65,行くぞ!,
+274,7527,Judas,,0.65,どけ!,
+275,7528,Judas,,0.73,やむをえん,
+276,7529,Judas,,0.73,させるか!,
+277,7530,Judas,,0.65,すら!,
+278,7531,Judas,,0.65,遅い!,
+279,7532,Judas,,0.65,ふっ,
+280,7533,Judas,*,0.81,さあ行くぞ！,Let's go!
+281,7534,Judas,*,0.73,勝手にしろ,Do as you like.
+282,7535,Judas,,0.65,掴め!,
+283,7536,Judas,,0.65,黙ってろ!,
+284,7537,Judas,*,0.73,術を使え！,Use Magic Artes!
+285,7538,Judas,*,0.81,足手まといだ,You're dead weight.
+286,7539,Judas,*,0.98,黙って従え,Shut up and follow my lead.
+287,7540,Judas,*,1.06,この機を逃すな！,Don't let this chance slip!
+288,7541,Judas,*,0.81,蹴りをつけるぞ！,Let's settle this!
+289,7542,Judas,*,0.73,一旦引くぞ！,Fall back for now!
+290,7543,Judas,*,1.30,バカの一つ覚えだな,Is that the only trick you know?
+291,7544,Judas,*,1.30,ペース配分を考えろ！,Pace yourself!
+292,7545,Judas,,0.65,外すな,
+293,7546,Judas,*,2.44,その攻撃はガードしきれん！かわせ！,You can't block that attack! Dodge it!
+294,7547,Judas,,0.65,ヒレン酸!,
+295,7548,Judas,,0.73,双連撃!,
+296,7549,Judas,,0.65,幻影人!,
+297,7550,Judas,,0.65,ゲッシンク!,
+298,7551,Judas,,0.81,逃がさん!,
+299,7552,Judas,,0.65,まだだ!,
+300,7553,Judas,,0.65,ここだ!,
+301,7554,Judas,,0.65,ちっ,
+302,7555,Judas,,0.65,チレ!,
+303,7556,Judas,,1.46,戦列国王戦!,
+304,7557,Judas,,1.46,フンジンレッパーショー!,
+305,7558,Judas,,1.38,暴龍残光剣!,
+306,7559,Judas,,1.54,魔人滅殺人!,
+307,7560,Judas,,0.73,キリキゾン,
+308,7561,Judas,,1.38,魔人戦列勝!,
+309,7562,Judas,*,2.44,消えろ、僕の目の前から,Get out of my sight.
+310,7563,Judas,*,1.22,塵も残さん,Not even dust will remain.
+311,7564,Judas,,1.22,超破滅焼炎!,
+312,7565,Judas,*,1.95,闇の炎に抱かれて消えろ！,Vanish in the embrace of dark flames!
+313,7566,Judas,*,0.73,見切れるか？,Can you see through this?
+314,7567,Judas,,1.30,昭和烈光戦,
+315,7568,Judas,*,1.79,貴様に見切れる数字もない,You can't hope to see through this!
+316,7569,Judas,*,0.81,目障りだ,You're an eyesore.
+317,7570,Judas,,1.46,魔人煉獄殺す!,
+318,7571,Judas,*,1.54,二度と会うこともないだろう,We won't be meeting again.
+319,7572,Judas,*,3.98,交わらざりし命に、今もたらされん刹那の奇跡,"To lives never meant to cross, a fleeting miracle is now granted!"
+320,7573,Judas,,0.81,時を経て,
+321,7574,Judas,*,2.44,ここに融合せし未来への胎動,Fused here: the first stirrings of the future!
+322,7575,Judas,,0.98,偽証拳!,
+323,7576,Judas,*,2.19,僕には、無理だ,I... can't do it.
+324,7577,Judas,,1.06,ストーンザッパー!,
+325,7578,Judas,,0.98,エアプレッシャン!,
+326,7579,Judas,,1.14,シリングホール!,
+327,7580,Judas,,0.98,ウィンドスラッシュ!,
+328,7581,Judas,,1.06,スラストファング!,
+329,7582,Judas,,1.06,シャドウイッチ!,
+330,7583,Judas,,1.06,ネガティブケイト!,
+331,7584,Judas,,0.73,デルタレイ!,
+332,7585,Judas,,1.06,プリズムフラッシャー!,
+333,7586,Judas,,1.06,スティングレイブ,
+334,7587,Judas,,0.98,ブラッティクロス!,
+335,7588,Judas,,1.06,イビルスフィア!,
+336,7589,Judas,,0.81,貴様!,
+337,7590,Judas,*,0.65,くだらん,Worthless.
+338,7591,Judas,*,0.81,他愛ない,Too easy.
+339,7592,Judas,*,1.38,二度と面を見せるな,Never show your face again.
+340,7593,Judas,*,0.65,無駄だ,Useless.
+341,7594,Judas,*,0.89,話にならん,Pathetic.
+342,7595,Judas,*,1.06,時間の無駄だ,A waste of time.
+343,7596,Judas,*,0.81,無様だな,How pathetic.
+344,7597,Judas,*,1.22,何も言うことはない,I have nothing to say.
+345,7598,Judas,*,1.06,過去を断ち切る,I will sever the past.
+346,7599,Judas,,0.65,僕は,
+347,7600,Nanaly,,0.65,はい!,
+348,7601,Nanaly,,0.65,ふっ,
+349,7602,Nanaly,,0.65,どうだい!,
+350,7603,Nanaly,,0.65,そこだ!,
+351,7604,Nanaly,,0.65,決める!,
+352,7605,Nanaly,,0.81,まだまだ!,
+353,7606,Nanaly,,0.65,うっ,
+354,7607,Nanaly,,0.65,アーッ!,
+355,7608,Nanaly,,0.65,やば!,
+356,7609,Nanaly,,0.81,キシャー,
+357,7610,Nanaly,*,1.46,こんなところで！,Not in a place like this!
+358,7611,Nanaly,,0.65,了解,
+359,7612,Nanaly,,0.65,下がって!,
+360,7613,Nanaly,,0.65,よろしく!,
+361,7614,Nanaly,,0.65,シェイ!,
+362,7615,Nanaly,,0.65,それ!,
+363,7616,Nanaly,,0.65,甘い!,
+364,7617,Nanaly,,0.65,サンキュー,
+365,7618,Nanaly,*,1.14,さあ始めるよ,"Alright, let's get started."
+366,7619,Nanaly,*,1.71,みんな、任せてよ！,"Leave it to me, everyone!"
+367,7620,Nanaly,*,0.89,一気に行くよ,Let's go all out!
+368,7621,Nanaly,*,0.65,耐えるんだ,Hold out!
+369,7622,Nanaly,*,1.06,術で攻めるよ,Attack with Magic Artes!
+370,7623,Nanaly,*,1.22,私に任せな,Leave it to me.
+371,7624,Nanaly,*,0.89,例ので行くよ,The usual plan!
+372,7625,Nanaly,*,1.30,さあ、今だよ！,Now's our chance!
+373,7626,Nanaly,*,1.54,雑魚に用はないよ,I've got no time for small fry.
+374,7627,Nanaly,*,1.06,しょうがないね,Can't be helped.
+375,7628,Nanaly,*,0.65,注意しな,Watch out.
+376,7629,Nanaly,*,1.38,こいつはヤバいね,This one's bad news.
+377,7630,Nanaly,*,1.22,当たってないし,Didn't even touch me.
+378,7631,Nanaly,*,2.60,先に攻撃させてから一気に叩くよ,"Let them attack first, then we hit them all at once!"
+379,7632,Nanaly,,0.73,よくも!,
+380,7633,Nanaly,,0.73,炎よ!,
+381,7634,Nanaly,,0.73,しっぷー,
+382,7635,Nanaly,,0.65,流水,
+383,7636,Nanaly,,0.65,潰す!,
+384,7637,Nanaly,,0.65,オッケー!,
+385,7638,Nanaly,,0.65,捕らえた!,
+386,7639,Nanaly,,0.73,ネックスン!,
+387,7640,Nanaly,,0.73,ガレンセン,
+388,7641,Nanaly,,0.98,戦況戦!,
+389,7642,Nanaly,,0.98,水溶線,
+390,7643,Nanaly,,0.81,虚空戦,
+391,7644,Nanaly,,0.89,竜炎戦,
+392,7645,Nanaly,,1.06,フレイムドライブ,
+393,7646,Nanaly,,1.14,バーンストライク!,
+394,7647,Nanaly,,1.22,エンシャントノバ!,
+395,7648,Nanaly,,1.06,アクアスパイク!,
+396,7649,Nanaly,,0.81,スプラッシュ!,
+397,7650,Nanaly,,1.22,インブレスエンド!,
+398,7651,Nanaly,,1.30,ウィンドスラッシュ!,
+399,7652,Nanaly,,1.30,スラストファング!,
+400,7653,Nanaly,,1.14,シャドウエッジ,
+401,7654,Nanaly,,1.22,ネガティブゲイト!,
+402,7655,Nanaly,*,3.82,古より伝わりし浄化の炎、喰らえ！,"Purifying flame of ancient lore, devour them!"
+403,7656,Nanaly,*,3.90,氷結は終焉、せめて刹那にて砕けよ！,Ice is your end. Shatter in a single instant!
+404,7657,Nanaly,,1.14,フォタンブレイズ,
+405,7658,Nanaly,,1.22,ボルカニックレイ!,
+406,7659,Nanaly,,1.38,フリーズハンター,
+407,7660,Nanaly,,1.06,クラッシュガスト!,
+408,7661,Nanaly,,1.30,クロスブレイド!,
+409,7662,Nanaly,,1.38,ポリテックヒート!,
+410,7663,Nanaly,*,1.38,うぬぼれんじゃないよ！,Don't get cocky!
+411,7664,Nanaly,*,1.95,手加減っての知らないもんでね,"Sorry, I never learned how to hold back."
+412,7665,Nanaly,*,1.46,話にならないね,You're not even worth it.
+413,7666,Nanaly,*,1.46,ま、こんなもんね,"Well, that's about what I expected."
+414,7667,Nanaly,*,2.03,戦う前に気づくんだったね,Should've figured that out before you picked a fight.
+415,7668,Nanaly,*,1.95,さてと、先を急ごうか,"Right, let's hurry on."
+416,7669,Nanaly,*,0.89,はい、終わり,And done.
+417,7670,Nanaly,*,1.63,諦め悪いね,You just don't know when to quit.
+418,7671,Nanaly,*,1.06,いい加減にしな,Knock it off already.
+419,7672,Nanaly,*,1.38,もうやめときなよ,Just give it up already.
+420,7673,Nanaly,*,1.22,なかなかのもんだね,Not bad at all.
+421,7674,Harold,,0.65,ハッ!,
+422,7675,Harold,,0.65,せい!,
+423,7676,Harold,,0.65,終了!,
+424,7677,Harold,,0.65,じゃね!,
+425,7678,Harold,,0.65,ここだ!,
+426,7679,Harold,,0.65,さらに,
+427,7680,Harold,,0.65,わっ,
+428,7681,Harold,,0.65,イッタッ!,
+429,7682,Harold,,0.65,ギャバ!,
+430,7683,Harold,,0.65,うえー!,
+431,7684,Harold,*,1.87,なんで私が,Why me...?
+432,7685,Harold,,0.65,ライダー!,
+433,7686,Harold,,0.65,任せた!,
+434,7687,Harold,,0.73,おまかせ!,
+435,7688,Harold,,0.65,また!,
+436,7689,Harold,*,1.06,治したげよっか？,Want me to fix you up?
+437,7690,Harold,,0.65,バレバレ!,
+438,7691,Harold,,0.81,アリー,
+439,7692,Harold,*,0.89,データ採取！,Collecting data!
+440,7693,Harold,*,1.06,みんな行っとけー！,"Go get 'em, everyone!"
+441,7694,Harold,,0.73,ヒョッカーッ!,
+442,7695,Harold,*,0.73,耐えて耐えて,"Hold on, hold on!"
+443,7696,Harold,*,0.89,術でゴー！,"Magic Artes, go!"
+444,7697,Harold,*,1.22,私に任せて！,Leave it to me!
+445,7698,Harold,*,0.81,そろそろ行くよ,Time to get going.
+446,7699,Harold,,0.73,イマシカ!,
+447,7700,Harold,*,0.81,とっとと済ましょ！,Let's wrap this up quick!
+448,7701,Harold,*,1.63,これで勝ったと思うなよ！,Don't think you've won just yet!
+449,7702,Harold,,1.14,ピュータ!ピュータ!,
+450,7703,Harold,*,1.54,バテたー,I'm worn out...
+451,7704,Harold,*,1.63,お宝ゲット！,Got the treasure!
+452,7705,Harold,*,2.19,詠唱中くらい守んなさいよ,At least protect me while I'm casting!
+453,7706,Harold,,0.81,ライドショップ!,
+454,7707,Harold,,0.65,可憐劇!,
+455,7708,Harold,,0.89,エーセンケン!,
+456,7709,Harold,,0.89,競泳章!,
+457,7710,Harold,,0.81,スプレッシュ!,
+458,7711,Harold,,1.30,インブレイスエンド!,
+459,7712,Harold,,1.22,バーンストライク!,
+460,7713,Harold,,1.22,エンセントの場,
+461,7714,Harold,,0.89,デルタレイ!,
+462,7715,Harold,,1.71,プリズムフラッシャー!,
+463,7716,Harold,,1.46,ディバインセイバー!,
+464,7717,Harold,,1.14,シャドウエッジ,
+465,7718,Harold,,1.46,ネガティブゲイト!,
+466,7719,Harold,,1.14,エクセキューション!,
+467,7720,Harold,,0.81,キュラー!,
+468,7721,Harold,,1.06,リザレクション,
+469,7722,Harold,*,2.44,聖なる意志よ、我に仇なす敵を討て！,"O holy will, strike down the foes who stand against me!"
+470,7723,Harold,*,3.01,裁きの時来たれり、還れ、虚無の彼方,The hour of judgment has come. Return to the void beyond!
+471,7724,Harold,*,2.93,古より伝わりし、浄化の炎、消えろ！,Purifying flame of ancient lore! Burn them away!
+472,7725,Harold,*,2.84,氷結は終焉、せめて刹那にて砕けよ！,Ice is your end. Shatter in a single instant!
+473,7726,Harold,*,1.79,具現せよ、精霊の結晶！,"Take form, crystal of the spirits!"
+474,7727,Harold,*,2.76,失われし数多の意志よ、我が元へ来たれ！,"O countless lost wills, come to me!"
+475,7728,Harold,*,3.41,まばゆき無数の流星、我が心を映したまえ！,"Dazzling countless meteors, reflect my heart!"
+476,7729,Harold,*,3.01,彗星の公費、かのものに粛清の慈悲を!,Grant that one the mercy of purging!
+477,7730,Harold,*,3.49,我が旅に終結なし、されど煌めくは蒼き大地！,"My journey has no end, yet the blue earth still shines!"
+478,7731,Harold,,1.22,クレイジーコメント,
+479,7732,Harold,,1.14,トゥインクルスタート!,
+480,7733,Harold,,1.71,プリンセスオブマーメイド!,
+481,7734,Harold,,1.22,ミックスマスター!,
+482,7735,Harold,*,2.76,静かなる意志、粛清の力に変えて！,Turn this quiet will into the power to purge!
+483,7736,Harold,*,1.71,正義の心、我らに！,"Hearts of justice, be with us!"
+484,7737,Harold,,0.81,灼熱と,
+485,7738,Harold,,0.98,豪華な意志を!,
+486,7739,Harold,,0.98,焼き尽くせ!,
+487,7740,Harold,,2.03,思考の意思を我らに誓ろう,
+488,7741,Harold,,0.65,願わくば!,
+489,7742,Harold,*,1.79,浄化の光、彼らを救わん！,"Light of purification, save them!"
+490,7743,Harold,*,1.38,汚れなき断罪の意志,An undefiled will of judgment!
+491,7744,Harold,,0.81,思い知れ!,
+492,7745,Harold,,0.89,刻み込め!,
+493,7746,Harold,,0.65,そして!,
+494,7747,Harold,,0.89,ここに散れ!,
+495,7748,Harold,,1.30,クラッシュガスト!,
+496,7749,Harold,,1.63,アクアリムスー!,
+497,7750,Harold,,2.03,フランブレイブー!,
+498,7751,Harold,,1.71,トリニティスパーク!,
+499,7752,Harold,,1.54,シャイニングスピア,
+500,7753,Harold,,1.87,ソルブライト!,
+501,7754,Harold,,1.30,ブラッティクロス,
+502,7755,Harold,,1.46,イービルスフィア!,
+503,7756,Harold,,1.79,ドゥナッシェード!,
+504,7757,Harold,*,1.46,もう怒った！,"That's it, now I'm mad!"
+505,7758,Harold,*,1.46,うん！はしゃぎすぎ！,Mm! Got a little carried away!
+506,7759,Harold,*,1.14,すごいっしょ！,"Pretty amazing, right?"
+507,7760,Harold,*,1.46,データ採取完了！,Data collection complete!
+508,7761,Harold,*,1.38,終了！オッケー！,All done! Okay!
+509,7762,Harold,*,1.63,いいデータ取れたってことで,Let's just say I got some good data.
+510,7763,Harold,*,2.03,苦戦もまたよし！かな？,A tough fight is fine too! ...Right?
+511,7764,Harold,*,1.46,ちょっと時間かかりすぎ,That took a bit too long.
+512,7765,Harold,*,1.87,本気にさせたら怖いわよ,I'm scary when I get serious.
+513,7766,Harold,*,1.14,私たちの手で,With our own hands.
+514,7767,Harold,*,1.87,成長してる感じがするし,I feel like I'm getting stronger.
+515,7768,Harold,*,1.71,私に勝てると思ったの？,Did you really think you could beat me?
+516,7185,party,,2.44,見たか？　見てねーよ！　見てろよ！,Did you see that?|Didn't see a thing!|Then watch next time!
+517,7186,party,,4.96,どうよ！女がほっとかないわけ、わかってくれた？　好きに言ってなさいよ,How's that? Now you see why the ladies can't resist me?|Say whatever you like.
+518,7187,party,,2.44,どう、カイル、私の実力は,"Well, Kyle? How's that for skill?"
+519,7188,party,,3.17,足さえ引っ張られなきゃこんなもんさ　はぁ？,That's what happens when nobody's holding me back.|Excuse me?
+520,7189,party,,1.87,俺たちは負けない！,We won't lose!
+521,7190,party,,3.17,おう、カイル！もうへばったか！　くそっ！,"Hey, Kyle! Worn out already?|Damn it!"
+522,7191,party,,3.74,誰か俺の毒治してくれてもいいだろ？　ああ、ごめんごめん,"Couldn't someone cure my poison?|Oh, sorry, sorry."
+523,7192,party,,1.54,邪魔をするなと言っただろう,I told you not to get in my way.
+524,7193,party,,4.96,ふぅ、ちょっと戦闘能力を計算し直した方がいいから回復!,Phew! Our fighting strength needs recalculating. Healing!
+525,7194,party,*,0.89,まっかせて！,Leave it to me!
+526,7195,party,*,1.71,え？最初から？,Huh? From the start?
+527,7196,party,*,0.81,同感だ,Agreed.
+528,7197,party,*,1.14,援護は任せな！,I've got your back!
+529,7198,party,*,1.14,待ってました！,I've been waiting for this!
+530,7199,party,*,1.14,かなりの数だな,That's a lot of them.
+531,7200,party,*,1.87,さっき見なかったか、こいつら,Didn't we just see these guys?
+532,7201,party,*,2.28,ほう、楽しませてくれそうだ,Oh? This should be fun.
+533,7202,party,*,1.30,空の敵は任せな！,Leave the flying ones to me!
+534,7203,party,*,1.38,お！新発見！,Oh! A new discovery!
+535,7204,party,*,2.44,暑いだろ？仮面取れば？,Aren't you hot? Why not take off the mask?
+536,7205,party,*,0.89,やかましい,Shut up.
+537,7206,party,*,2.28,寒いだろう、仮面取れば？,Aren't you cold? Why not take off the mask?
+538,7207,party,*,1.06,関係ないだろ,That's none of your business.
+539,7208,party,*,1.95,行くぞカイル！ビビんなよ！,"Let's go, Kyle! Don't chicken out!"
+540,7209,party,*,1.06,分かってるって,"I know, I know."
+541,7210,party,*,1.87,攻撃一辺倒で勝てると思うな,Don't think you can win just by attacking.
+542,7211,party,*,2.03,自分のスピリッツに常に気を配れ！,Always keep an eye on your SP!
+543,7212,party,*,1.30,ガードを上手く使っていけ！,Make good use of your guard!
+544,7213,party,*,2.11,むやみに攻撃してもガードされるだけだ！,Attacking blindly will just get you blocked!
+545,7214,party,*,1.38,じゃあどうしろって言うんだよ,Then what am I supposed to do?!
+546,7215,party,*,4.31,よっしゃ！奴に先に攻撃させて、その直後を狙うんだ！,"All right! Let it attack first, then strike right after!"
+547,7216,party,*,2.11,奴のスピリッツを減らしてからの攻撃だな,"So we wear down its SP first, then attack."
+548,7217,party,*,1.79,攻撃頻度を抑える作戦で行くぞ！,Let's attack less often and pick our moments!
+549,7218,party,*,2.03,こいつ、かなりガードが硬いな！,This one's guard is really tough!
+550,7219,party,*,3.41,一度防御されると、ほとんどの攻撃が当たらねえ！,"Once it starts guarding, hardly anything gets through!"
+551,7220,party,*,3.17,ここは術を起点にして、そこから一気に畳みかけましょう,"Let's open with Magic Artes, then press the attack all at once."
+552,7221,party,*,2.03,カイル！奴の動きを見逃すな！,Kyle! Don't miss a single move it makes!
+553,7222,party,*,1.95,ここまでガードが硬いのか,Its guard is this tough?
+554,7223,party,*,1.87,攻撃一辺倒で済むと思うな！,Don't think just attacking will cut it!
+555,7224,party,*,0.98,って、はじかれた！,"Whoa, it bounced off!"
+556,7225,party,*,2.84,スピリッツが少ない時に攻撃するな！弾かれるぞ！,Don't attack when your SP is low! You'll get knocked back!
+557,7226,party,,3.41,アイテム係ご苦労だったな　勝手に係に任命するな,Thanks for handling the items.|Who put me on item duty?!
+558,7227,party,*,1.71,なんだ、この魔法陣は,What is this magic circle?
+559,7228,party,*,0.65,これは！,What's this?!
+560,7229,party,*,3.09,まずいな、この魔法陣に入っちまうと毒になっちまうらしい,Not good. Step into this magic circle and you get poisoned.
+561,7230,party,*,1.06,逃げるしかないのか！,Is running our only option?!
+562,7231,party,*,3.33,そういうわけにもいかねえだろ　体力が少なくなったらすぐに下がれ,"We can't exactly do that. If your HP gets low, fall back right away."
+563,7232,party,*,2.03,魔法陣から離れれば毒は消える！,Get out of the magic circle and the poison wears off!
+564,7233,party,*,1.22,わかった！行くぞロニ！,"Got it! Let's go, Loni!"
+565,7234,party,*,2.68,バルバトス！これ以上お前の好きにはさせない！,Barbatos! I won't let you have your way any longer!
+566,7235,party,*,2.44,負けるか！俺は絶対に勝つ！,"I won't lose! I'm going to win, no matter what!"
+567,7236,party,*,1.63,手こずらせやがって,You gave us a lot of trouble.
+568,7237,party,*,2.36,ダメージを与えると吐き出す泡が厄介だね,Those bubbles it spits when hit are a real pain.
+569,7238,party,*,1.71,ナナリー！なんとか撃ち落とせない？,Nanaly! Can't you shoot it down somehow?
+570,7239,party,*,1.14,できるだけやってみるよ,I'll do what I can.
+571,7240,party,*,1.46,私も術で援護するわ！,I'll back you up with Magic Artes too!
+572,7241,party,*,2.11,よし！もう一息だよ！頑張んな！,All right! Almost there! Keep at it!
+573,7242,party,*,1.71,こいつはゴーレムか！,Is this thing a golem?!
+574,7243,party,*,3.33,防衛機能が高そうだ！無闇に攻撃しないように注意しろ！,Its defenses look strong! Careful not to attack recklessly!
+575,7244,party,*,1.71,知ってもどうしろって言うんだよ,"Even if I knew, what am I supposed to do about it?"
+576,7245,party,*,3.66,遠距離からの攻撃だ。接近戦だけではこちらが不利になる,"It attacks from range. If we only fight up close, we're at a disadvantage."
+577,7246,party,*,1.46,わかった！援護は任せた！,Got it! I'm counting on you for support!
+578,7247,party,*,4.31,1、2発程度の攻撃では奴はグラつかない！とにかく連続して叩け！,One or two hits won't even make it flinch! Just keep hitting it!
+579,7248,party,*,1.71,おいおい、なんかやべえぞ、あいつ！,"Whoa, whoa, something's wrong with that thing!"
+580,7249,party,*,1.54,うわぁ、変態しやがった！,"Whoa, it metamorphosed!"
+581,7250,party,*,1.22,変身って言うんじゃないの？,Don't you mean 'transformed'?
+582,7251,party,*,1.06,一緒だ一緒！,Same difference!
+583,7252,party,*,1.95,そんなこと言ってる場合じゃないだろ,This is no time to be saying that!
+584,7253,party,*,0.81,術が効かない！,Magic Artes don't work!
+585,7254,party,*,2.11,あれは衝撃のみを拡散するバリアね,That barrier only disperses physical impacts.
+586,7255,party,*,2.19,スピリッツが低いうちは張れないみたいだけど,"Looks like it can't raise it while its SP is low, though."
+587,7256,party,,2.44,ダメージいってんなら気にせずどんどんかばせ!,
+588,7769,enemy,,0.65,ハッ!,
+589,7770,enemy,,0.65,ふぅ!,
+590,7771,enemy,,0.65,せっ!,
+591,7772,enemy,,0.65,うっ,
+592,7773,enemy,,0.65,うっ,
+593,7774,enemy,,0.65,うっ,
+594,7775,enemy,,0.65,行くぞ!,
+595,7776,enemy,,0.65,くらえ!,
+596,7777,enemy,,0.65,チョウリュウ!,
+597,7778,enemy,,0.65,ふん!,
+598,7779,enemy,,0.65,シィ!,
+599,7780,enemy,,0.65,オラ!,
+600,7781,enemy,,0.65,どぅ,
+601,7782,enemy,,0.65,おおっ!,
+602,7783,enemy,,0.65,んわ,
+603,7784,enemy,,0.65,ドラッ!,
+604,7785,enemy,,0.81,シェア!,
+605,7786,enemy,,0.73,はぁぁぁぁぁぁ,
+606,7787,enemy,,0.65,ほっ,
+607,7788,enemy,,0.65,ふぃ!,
+608,7789,enemy,,0.65,ヒヤ!,
+609,7790,enemy,,0.65,BOOP,
+610,7791,enemy,,0.65,ドゥアッ!,
+611,7792,enemy,,0.65,ガーッ!,
+612,7793,enemy,,0.65,くらえ!,
+613,7794,enemy,,0.65,ヒヤッ!,
+614,7795,enemy,,0.65,トリオン!,
+615,7796,enemy,,0.65,ハッ!,
+616,7797,enemy,,0.65,ふぅ!,
+617,7798,enemy,,0.65,フリア!,
+618,7799,enemy,,0.65,え?,
+619,7800,enemy,,0.65,かっ,
+620,7801,enemy,,0.65,次回予告,
+621,7802,enemy,,0.81,ああああああ,
+622,7803,enemy,,0.73,イヤー!,
+623,7804,enemy,,0.98,うおおおおおお,
+624,7805,enemy,,0.65,よ,
+625,7806,enemy,,0.65,たっ,
+626,7807,enemy,,0.65,ふんっ,
+627,7808,enemy,,0.65,うっ,
+628,7809,enemy,,0.65,うわっ!,
+629,7810,enemy,,0.65,ガッ!,
+630,7811,enemy,,0.65,シュッ,
+631,7812,enemy,,0.89,オオオオオオ,
+632,7813,enemy,,0.89,はぁぁぁぁぁぁ,
+633,7823,boss,,0.65,ハッ!,
+634,7824,boss,,0.65,そりゃ,
+635,7825,boss,,0.98,ハッハッハッハッ,
+636,7826,boss,,0.65,ん,
+637,7827,boss,,0.65,ぐっ!,
+638,7828,boss,,0.65,ぐぅっ!,
+639,7829,boss,,0.65,行け!,
+640,7830,boss,,0.65,行くぞ!,
+641,7831,boss,,0.98,ハッハッハッハッハッ,
+642,7832,boss,,0.65,ふっ!,
+643,7833,boss,,0.65,やっ!,
+644,7834,boss,,0.65,ハッ!,
+645,7835,boss,,0.65,うぅっ!,
+646,7836,boss,,0.65,うっ,
+647,7837,boss,,0.65,イエーイ!,
+648,7838,boss,,0.65,行きます,
+649,7839,boss,,0.73,See ya!,
+650,7840,boss,,0.65,はぁっ!,
+651,7841,boss,,0.65,ふっ!,
+652,7842,boss,,0.65,やっ!,
+653,7843,boss,,0.65,ハッ!,
+654,7844,boss,,0.65,あ!,
+655,7845,boss,,0.65,ああ,
+656,7846,boss,,0.65,うわっ!,
+657,7847,boss,,0.65,行くよ,
+658,7848,boss,,0.65,はっ!,
+659,7849,boss,,0.65,触れ!,
+660,7850,boss,,0.65,えいっ!,
+661,7851,boss,,0.65,やっ!,
+662,7852,boss,,0.65,つぁっ!,
+663,7853,boss,,0.73,わぁっ!,
+664,7854,boss,,0.73,あ、痛っ!,
+665,7855,boss,,0.98,ああああああ,
+666,7856,boss,,0.81,行くよ!,
+667,7857,boss,,0.65,えぇぇぇぇぇぇ,
+668,7858,boss,,0.73,ダァァァァァァ!,
+669,7859,boss,,1.14,うんうんうんうんうん,
+670,7860,boss,,0.65,ふん!,
+671,7861,boss,,0.65,ぬぅぅぅぅぅぅ�,
+672,7862,boss,,0.73,ミキット!,
+673,7863,boss,,0.65,キカヌア!,
+674,7864,boss,,0.81,五輪斬!,
+675,7865,boss,,1.14,ネガティブゲート!,
+676,7866,boss,,0.65,キュッ!,
+677,7867,boss,,0.65,よっ!,
+678,7868,boss,,2.44,貴様らはここで刀の錆となるのだ！,Here you will become rust on my blade!
+679,7869,boss,,1.22,ここまでやるとはな,I didn't think you'd get this far.
+680,7870,boss,,1.87,呪い!呪すぎる!,
+681,7871,boss,,1.79,し、信じられん！,I-impossible!
+682,7872,boss,,0.65,ヒヤッ!,
+683,7873,boss,,0.65,ギャー!,
+684,7874,boss,,0.65,どっ,
+685,7875,boss,,0.65,おぉぉぉぉぉぉ,
+686,7876,boss,,3.66,エルレイン様の理想は誰にも邪魔させぬ,No one will stand in the way of Lady Elrane's ideal.
+687,7877,boss,,2.93,彼らをエルレイン様に近づけるな！,Keep them away from Lady Elrane!
+688,7878,boss,,1.54,エロレイサー!,
+689,7879,boss,,3.17,素直に忠告に従うべきでしたな,You should have heeded my warning.
+690,7880,boss,,1.30,フィロプロストーム!,
+691,7881,boss,,1.22,シャイニングスピア!,
+692,7882,boss,,0.73,スプロッシュ!,
+693,7883,boss,,1.14,スラストファング!,
+694,7884,boss,,0.98,エオプレッシュ!,
+695,7885,boss,,0.98,クロッシュガスト!,
+696,7886,boss,,2.93,我が名のもとに敵を打ち砕け！,"In my name, crush the enemy!"
+697,7887,boss,,0.65,消える!,
+698,7888,boss,,0.73,刻む,
+699,7889,boss,,1.22,メッセよ,
+700,7890,boss,,0.73,ケロ!,
+701,7891,boss,,0.65,ふぅ,
+702,7892,boss,,0.65,ん,
+703,7893,boss,,4.14,エルレイン様、我に力を！,"Lady Elrane, grant me strength!"
+704,7894,boss,,6.26,無法なる者どもに正義の鉄槌を下す力を,Grant me the power to bring the hammer of justice down upon the lawless!
+705,7895,boss,,3.58,予告通り、ジ・エンドだ,Just as I promised. The end.
+706,7896,boss,,5.20,この力が、破れるとは,To think this power could be broken...!
+707,7897,boss,,2.93,我をここまで追い詰めた礼だ,This is my thanks for driving me this far!
+708,7898,boss,,1.79,我が全霊の一撃！,A blow with everything I have!
+709,7899,boss,,1.38,とくと味わえ！,Savor it!
+710,7900,boss,,1.54,そして消えろ！,And then vanish!
+711,7901,boss,,1.71,ネガティブゲイト!,
+712,7902,boss,,1.54,フォトンブレイズ,
+713,7903,boss,,1.38,クラッシュガスト!,
+714,7904,boss,,1.46,ボルカニックグレイ!,
+715,7905,boss,,1.71,ボルテックヘイト!,
+716,7906,boss,,1.63,イビルスフィアー!,
+717,7907,boss,,4.31,我が命に答えよ！そして滅ぼせ！,Answer my command! And destroy them!
+718,7908,boss,,0.65,ほよ,
+719,7909,boss,,0.89,シイ!,
+720,7910,boss,,0.65,ふん!,
+721,7911,boss,,0.65,ん?,
+722,7912,boss,,1.06,はっはっはっはっはっ,
+723,7913,boss,Barbatos,0.98,砕けろ！,Shatter!
+724,7914,boss,Barbatos,0.98,クズが！,Scum!
+725,7915,boss,Barbatos,3.82,一瞬で終わる。耐えぬ方が身のためだ,It'll be over in an instant. Better for you not to endure it.
+726,7916,boss,Barbatos,4.23,さあ、見せてもらおうか。貴様らのもがきとやらを,"Now, let's see this struggling of yours."
+727,7917,boss,Barbatos,4.88,さあ、来いよ！貴様ら全員、みじん切りにしてやるぜ！,Come on! I'll cut every last one of you to ribbons!
+728,7918,boss,Barbatos,3.82,今日の俺は紳士的だ。運が良かったな,I'm feeling gentlemanly today. Lucky you.
+729,7919,boss,Barbatos,4.06,せっかく生かしておいたというのに、その程度か,"I went to the trouble of letting you live, and this is all you have?"
+730,7920,boss,Barbatos,4.23,貴様らは、俺の最高の獲物だったぜ,You were the finest prey I ever hunted.
+731,7921,boss,Barbatos,1.06,こいつら,You lot...
+732,7922,boss,Barbatos,2.76,まだだ、まだ終わらんぞ！,Not yet! It's not over yet!
+733,7923,boss,Barbatos,4.71,貴様らごときに、俺は、死なんぞ,I won't die... to the likes of you.
+734,7924,boss,,0.89,死ぬか!,
+735,7925,boss,,0.98,キシューカー!,
+736,7926,boss,Barbatos,2.52,土下座してでも生き延びるのか？,Would you grovel just to stay alive?
+737,7927,boss,Barbatos,1.14,真っ二つだ！,Split in two!
+738,7928,boss,Barbatos,1.38,みじんに砕けろ！,Shatter to pieces!
+739,7929,boss,Barbatos,1.95,貴様の死に場所は？,Where will you die?
+740,7930,boss,Barbatos,1.14,ここだ！,Right here!
+741,7931,boss,Barbatos,3.66,ここだ！ここだ！ここだぁぁぁ！,Here! Here! HEEERE!
+742,7932,boss,Barbatos,2.03,灼熱のバーンストライク！,Scorching Burn Strike!
+743,7933,boss,Barbatos,1.95,絶望のシリングフォール！,Despairing Shilling Fall!
+744,7934,boss,Barbatos,1.79,破滅のグランヴァニッシュ！,Ruinous Ground Vanish!
+745,7935,boss,Barbatos,1.95,殺戮のイーヴィルスフィア！,Slaughtering Evil Sphere!
+746,7936,boss,Barbatos,2.03,断罪のエクセキューション！,Condemning Execution!
+747,7937,boss,,0.65,ふっ!,
+748,7938,boss,,0.65,ハァッ,
+749,7939,boss,,0.65,ふっ,
+750,7940,boss,,0.81,うううううう,
+751,7941,boss,,1.22,ハッハッハッハッハッ,
+752,7942,boss,,0.98,愚かな,Fools.
+753,7943,boss,,2.36,神を超えるというのか,You would surpass a god?
+754,7944,boss,,3.17,戦う前から分かっていたことだ,I knew it before we even fought.
+755,7945,boss,,0.98,デルタレイ!,
+756,7946,boss,,1.71,トリニティスパーク,
+757,7947,boss,,1.63,プリズムフラッシャー,
+758,7948,boss,,1.95,シャイニングスピア,
+759,7949,boss,,1.79,ディバインセイバー,
+760,7950,boss,,2.76,人は神には勝てないのだ,Humans cannot defeat a god.
+761,7951,boss,,2.68,力の違いを見せてやろう,Let me show you the difference in our power.
+762,7952,boss,,2.36,インディグネイトジャッジメント,
+763,7953,boss,,2.84,これ以上抗うというのなら,If you insist on resisting further...
+764,7954,boss,,3.66,せめて一瞬で葬り去るが慈悲,...a swift end is the only mercy I can offer.
+765,7955,boss,,2.19,さらばだ、未来永劫！,"Farewell, for all eternity!"
+766,7956,boss,,1.54,まだ立てるのか？,You can still stand?
+767,7957,boss,,1.63,エンシェントノーバ,
+768,7958,boss,,1.79,インブレイセンド,
+769,7959,boss,,1.71,フィアフルストーム,
+770,7960,boss,,1.71,グランバニッシュ,
+771,7961,boss,,2.28,これでもまだ抗うのか,Still you resist?
+772,7962,boss,,2.28,これで終わりと思ったか？,Did you think that was the end?
+773,7963,boss,,4.47,いでよ、虚空より来たれり数多の星屑,"Come forth, countless stardust from the void!"
+774,7964,boss,,3.49,無限の流星、我が敵を滅せよ！,"Endless meteors, destroy my enemies!"
+775,7965,boss,,3.41,母なる海にて終焉を迎えよ,Meet your end in the mother sea.
+776,7966,boss,,5.93,すべては終わる。すでに一筋の希望もあらず,All things end. Not a single ray of hope remains.
+777,7967,boss,,0.65,ふっ,
+778,7968,boss,,0.65,ふっ,
+779,7969,boss,,0.65,ん,
+780,7970,boss,,0.81,なに!?,
+781,7971,boss,,0.65,イデオ!,
+782,7972,boss,,0.81,無駄です！,Futile!
+783,7973,boss,,0.73,もろい,Fragile.
+784,7974,boss,,7.31,消える…消えると…言うのか,Vanish...? You mean I'm going to vanish...?!
+785,7975,boss,,6.83,無益だということも無駄だということも、何故に理解しないのですか,"Why can you not understand that this is futile, that it is pointless?"
+786,7976,boss,,1.14,グランバニッシュ,
+787,7977,boss,,1.06,インブレイスエンド,
+788,7978,boss,,1.06,エンシェントノバ,
+789,7979,boss,,1.06,フェアフルストーム,
+790,7980,boss,,1.22,ディヴァインシーバー,
+791,7981,boss,,0.98,エクセキューション,
+792,7982,boss,,1.06,さようなら,Farewell.
+793,7983,boss,,2.28,力の違いを見せましょう,Allow me to show you the difference in our power.
+794,7984,boss,,2.76,絶対的な差を思い知るがいい,Learn how absolute the gap between us is.
+795,7985,boss,,1.71,インディグネイトジャッジメント,
+796,7986,boss,,2.28,これ以上は時間の無駄です,Anything more would be a waste of time.
+797,7987,boss,,2.52,これで終わりにしましょう,Let us end this.
+798,7988,boss,,1.22,ラストバニッシャー,
+799,7989,boss,,2.76,抗うというのですね,So you will resist.
+800,7990,boss,,1.79,もう終わりですか？,Finished already?
+801,7991,boss,,1.14,愚かな,How foolish.
+802,7992,boss,,3.09,終わりです。何もかも,It is over. All of it.
+803,7993,boss,,2.52,跡形もなく消えましたか,"Gone without a trace, have they?"
+804,7994,boss,,0.65,いない?,
+805,7995,boss,,0.65,何?,
+806,7996,boss,,0.65,ヘッ!,
+807,7997,boss,,0.65,キャーッ!,
+808,7998,boss,,0.65,うっ,
+809,7999,boss,,0.73,ハァ!,
+810,8000,boss,,0.65,そこだ!,
+811,8001,boss,,0.65,甘い!,
+812,8002,boss,,0.65,まさか…,Impossible...
+813,8003,boss,,0.81,デルタレイ!,
+814,8004,boss,,1.14,トリニティスパーク!,
+815,8005,boss,,1.46,プリズムフラッシャー!,
+816,8006,boss,,1.30,シャイニングスピア,
+817,8007,boss,,1.22,ディバインセイバー,
+818,8008,boss,,1.38,ライトニングハウンド,
+819,8009,boss,,2.60,王に雷山豪天撃!,
+820,8010,boss,,2.76,奥義 神来昇竜劇,
+821,8011,boss,,0.98,どうやらあなたも,It seems you too...
+822,8012,boss,,1.14,私に勝てないようね,...can't beat me.
+823,8013,boss,,1.46,これで終わりね！,This is the end!
+824,8014,boss,,3.41,極限の雷、決着の時を与えよ！,"Ultimate thunder, bring the moment of reckoning!"
+825,8015,boss,,1.14,それで勝ったつもり？,You think you won with that?
+826,8016,boss,,1.14,勝負の切り札は,A trump card...
+827,8017,boss,,0.81,最後まで!,
+828,8018,boss,,1.14,取っておくものだよ！,...is something you save for last!
+829,8019,boss,,0.65,それが,
+830,8020,boss,,1.22,あなたの敗演!,
+831,8021,boss,,0.73,残念ね,Too bad.
+832,8022,boss,,0.65,シリー,
+833,8023,boss,,0.65,のけ,
+834,8024,boss,,0.65,それ,
+835,8025,boss,,0.73,ふん,
+836,8026,boss,,0.65,ほっ,
+837,8027,boss,,0.98,耐えられるか？,Can you endure this?
+838,8028,boss,,0.89,耐えられない,
+839,8029,boss,,1.30,気分はどうだ,How do you feel?
+840,8030,boss,,1.95,何とか言ったらどうなんだ,Why don't you say something?
+841,8031,boss,,1.22,何も言えぬか,Nothing to say?
+842,8032,boss,,1.22,ならば終わりだ,Then it's over.
+843,8033,boss,,1.54,安全を求めるか？,Do you seek safety?
+844,8034,boss,,2.60,ならばここから立ち去ればよいものを,Then you should have left this place.
+845,8035,boss,,1.46,愚かな輩だ,A foolish lot.
+846,8036,boss,,1.38,一撃で葬ろう,I'll bury you in one blow.
+847,8037,boss,,1.14,さあ逃げろ,"Go on, run."
+848,8038,boss,,1.30,そら、どーどー,
+849,8039,boss,,5.20,虚無の彼方に儚く散るか。さあ始めよう,"Will you scatter into the void like dust? Now, let us begin."
+850,8040,boss,,2.28,なかなか興味深かったぞ,That was rather interesting.
+851,8041,boss,,3.74,つまらん。意味のない時間を過ごした,Boring. A meaningless waste of time.
+852,8042,boss,,1.54,メッサイセシ肉体,
+853,8043,boss,,1.46,終焉摂取行動,
+854,8044,boss,,1.38,消えゆく炎,
+855,8045,boss,,1.54,強硬たる烈風,
+856,8046,boss,,1.54,盲目たる信仰,
+857,8047,boss,,1.38,歪まれし断罪,
+858,8048,boss,,1.54,おっと、忘れ物だ,"Oh, I almost forgot something."
+859,8049,boss,,4.06,主らの努力、全て水の泡とするも一興,Turning all your efforts to nothing could be amusing.
+860,8050,boss,,3.41,さあ、希望の光は一瞬のみだぞ,Now then. The light of hope lasts but an instant.
+861,8051,boss,,4.47,さあ、また繰り返すのか？,Well? Will you go through it all again?
+862,8052,boss,,2.52,見せようか、我が力のかけら,Shall I show you a fragment of my power?
+863,8053,boss,,3.25,全力を望むか。それは無理な相談だ,You want my full power? That is out of the question.
+864,8054,boss,,3.25,その程度で言える資格もないものな,"At your level, you have no right to ask that."

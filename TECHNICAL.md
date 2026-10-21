@@ -28,6 +28,7 @@ Quiz Book, enemy text, font), `ps2/movies/README.md` (PS2 movies),
 * [PSP: fonts and lowercase](#psp-fonts-and-lowercase)
 * [PSP: menus and the string pool](#psp-menus-and-the-string-pool)
 * [PSP: enemy names, movies, title](#psp-enemy-names-movies-title)
+* [PSP: battle voices and battle subtitles](#psp-battle-voices-and-battle-subtitles)
 * [Rules learned the hard way](#rules-learned-the-hard-way)
 
 ## Text encoding (both versions)
@@ -411,7 +412,12 @@ The variable width font (`psp/tools/psp_vwf.py`) hooks all of these:
   texture coordinates it wrote.
 * **Rules for code patches** (learned here): never overwrite a word the
   loader relocates (`lui`/LO16 users, `j`, `jal`: check
-  `psp_pool._relocs`); keep them in place and patch around them. Reach new
+  `psp_pool._relocs`); keep them in place and patch around them. One
+  exception is safe: a `jal` whose relocation names the text segment
+  (address base 0, at vaddr 0) may get a new target in the same module,
+  the pool included, because the loader adds the load address to whatever
+  target the word holds and every segment is loaded at load address +
+  vaddr (`psp_battle_subs.py`, `0x1B27C`). Reach new
   code without new relocation entries: build its address from a register
   that already holds a relocated address (the slot table in `v1`/`t7`/`a0`,
   data + `0xA0DE0` in `s2`) or from `ra` after a `bal`. New code lives in
@@ -526,6 +532,43 @@ The variable width font (`psp/tools/psp_vwf.py`) hooks all of these:
   monologue are its F8 strings. PSP twin of the PS2 `09028..09032.pak0`.
   The `クレスタの街` / `ラグナ遺跡` list in BOOT.BIN is a different list
   these labels never read. `psp/tools/psp_worldmap.py`, `psp_worldmap.tsv`.
+
+## PSP: battle voices and battle subtitles
+
+The PSP port compiles the PS2 battle engine into BOOT.BIN (source paths
+`../btl/bt_main.c` and so on in its strings), so the PS2 facts above
+carry over with new addresses. Found in PPSSPP on the retail image;
+vaddr (file offset = vaddr + 0xC0, runtime = vaddr + 0x08804000).
+
+* Battle globals at `0x60DBC0` (data segment `0x1DCC00` + `0x430FC0`,
+  the code builds it with `lui 0x43` / `0xFC0` under a data segment
+  relocation), laid out like the PS2 block `0x2FA000`: `+0x160` party
+  pointer, `+0x164` first enemy (party + 4 x 0x2B8), `+0x195` party size,
+  `+0x196` enemy count.
+* Actors: 0x2B8 byte records (PS2 0x2A8). The PS2 fields sit 0xC later:
+  `+0x14A` voice id being spoken (0 when silent), `+0x155` character
+  (0 Kyle ... 5 Harold), `+0x158` 1 for enemies. The voice ids are the PS2
+  ids (seen: Kyle 4, 5, 10, Loni 179, 180, the Loni victory quote 256), so
+  one table serves both versions.
+* Voice files: battle voices are VAG members `7311..8323`; PS2 member + 126
+  up to PS2 7995, + 143 from PS2 7996 (17 story voices `8122..8138` sit in
+  between), plus 126 PSP only `BTL_xx_xx_xx` files at `8198..8323`
+  (`audio/voice_pairs.csv`).
+* The battle runs inside `0x1B164`; once per frame it calls the frame
+  function `0x1B2F4` from `0x1B27C` (`jal`, return `0x1B284`).
+* Text helper `0x544F8` (draws "ENEMY DATA"): a0 x, a1 y, a2 string, a3
+  colour, t0 x scale, t1 y scale (0x100 = 1.0), the PS2 signature. It sets
+  up the game's text printer (`0x14423C`, position `0x146450`, scale
+  `0x146464`, colour `0x146484`, print `0x1464BC`), so the variable width
+  font and lowercase apply. Coordinates are the PS2 screen space, 640 x
+  448, shown at 0.75 across and about 0.61 down; at scale 0x100 a glyph
+  advances 1.05 times its `latin_glyphs.json` advance. 0x100 x 0x140 keeps
+  the letters in proportion. The victory item banner ("Cheap Meat") sits
+  at y 360..386 of that space, just above the HP bars.
+* `psp/tools/psp_battle_subs.py` appends a hook and the subtitle table to
+  the string pool and gives the `jal` at `0x1B27C` the hook as its target;
+  the hook calls the frame function and draws the lines of every speaking
+  actor (party, then enemies) from `psp/text/battle_subtitles.csv`.
 
 ## Rules learned the hard way
 

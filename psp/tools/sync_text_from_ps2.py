@@ -7,8 +7,10 @@
 The PSP build reads its text only from psp/text (and its own fixes from
 psp/text/overrides.tsv), so an edit of the PS2 text reaches the PSP when
 this tool runs, not before. Copied: the scenario and skit English, the
-movie subtitles, the text encoding table, the skit time windows and the
-PS2 Quiz Book table (ps2/menu/quiz_translations.csv, read by psp_quiz.py). Files
+movie subtitles, the text encoding table, the skit time windows, the
+PS2 Quiz Book table (ps2/menu/quiz_translations.csv, read by psp_quiz.py)
+and the battle subtitles (ps2/menu/battle_subtitles.csv, read by
+psp_battle_subs.py). Files
 are copied byte for byte; contents are compared with line endings
 normalised, so a Windows checkout (CRLF) never counts as a change.
 
@@ -40,6 +42,7 @@ PAIRS = [
     ('encoding table', 'ps2/PyTOD2/TBL.json', 'TBL.json', None),
     ('skit time windows', 'ps2/PyTOD2/skit_speeds.json', 'skit_speeds.json', None),
     ('quiz table', 'ps2/menu/quiz_translations.csv', 'quiz_translations.csv', None),
+    ('battle subtitles', 'ps2/menu/battle_subtitles.csv', 'battle_subtitles.csv', None),
 ]
 
 

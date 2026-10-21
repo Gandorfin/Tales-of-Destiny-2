@@ -145,6 +145,8 @@ class Asm:
             return self._branch(pc, a[1], (0x04 << 26) | (_reg(a[0]) << 21))
         if name == 'bnez':
             return self._branch(pc, a[1], (0x05 << 26) | (_reg(a[0]) << 21))
+        if name == 'blez':
+            return self._branch(pc, a[1], (0x06 << 26) | (_reg(a[0]) << 21))
         if name == 'b':
             return self._branch(pc, a[0], 0x04 << 26)
         if name == 'bal':

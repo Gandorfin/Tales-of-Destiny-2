@@ -38,6 +38,7 @@ class AsmTests(unittest.TestCase):
         self.assertEqual(one('jalr', 'at'), 0x0020F809)
         self.assertEqual(one('b', 0x1433C0, pc=0x143394), 0x1000000A)
         self.assertEqual(one('bal', 0x142844, pc=0x14283C), 0x04110001)
+        self.assertEqual(one('blez', 's3', 0x28C, pc=0x24C), 0x1A60000F)
         self.assertEqual(one('andi', 'v1', 'a1', 1), 0x30A30001)
         self.assertEqual(one('srl', 'fp', 'a3', 1), 0x0007F042)
         self.assertEqual(one('move', 's1', 't0'), 0x01008821)
