@@ -46,7 +46,7 @@ TP軽減力とTP回復力が上昇する	Increases TP Reduction and TP Regen	28	
 からあげ	Fried Fish	8	10	reuse
 からっぽの世界	Empty World	14	11	reuse
 が、なんか失敗・・	flopped somehow...	18	18	reuse
-が飛び出した	popped out!	12	11	reuse
+が飛び出した	 popped out!	12	12	reuse
 ここはアイグレッテ？	Is This Aigrette?	20	17	reuse
 こっちじゃない	Not This Way	14	12	reuse
 こっちじゃないぞ	Not This Way, Kid	16	17	reuse
@@ -301,6 +301,7 @@ TP軽減力とTP回復力が上昇する	Increases TP Reduction and TP Regen	28	
 オート	Auto	6	4	reuse
 オートクレール	Halteclere	14	10	reuse
 オート設定	Auto Set	10	8	reuse
+オート設定{81}i重複時{81}F{81}@{81}@{81}@{81}@{81}@{81}@{81}j	Auto-Cook Overlap:	34	18	translated
 オート重複時設定	Auto-Cook Overlap	16	17	reuse
 オーネイト	Ornate	10	6	reuse
 オーバーロード	Overlord	14	8	reuse
@@ -750,7 +751,7 @@ TP軽減力とTP回復力が上昇する	Increases TP Reduction and TP Regen	28	
 チーズケーキ	Cheesecake	12	10	reuse
 チーフテン	Chieftain	10	9	reuse
 ツイヨウセン	Tsuiyousen	12	10	reuse
-ツルハシ	Pick	8	4	reuse
+ツルハシ	Pickaxe	8	7	reuse
 ティアラ	Tiara	8	5	reuse
 ティタニア	Titania	10	7	reuse
 ティンバー	Timber	10	6	reuse
@@ -1861,7 +1862,7 @@ TP軽減力とTP回復力が上昇する	Increases TP Reduction and TP Regen	28	
 脱出～クレスタ	Escape to Cresta	14	16	reuse
 脱獄犯	Jailbreaker	6	11	reuse
 腕輪	Bangle	4	6	reuse
-自動で料理を行いません	Do not auto-cook.	22	17	reuse
+自動で料理を行いません	Do not auto-cook	22	16	reuse
 自爆した！	Self-destruct!	10	14	reuse
 自称華麗なる連続攻撃を行う特技	Base: Performs an amazing continuousattack.	30	43	reuse
 自立	Independence	4	12	reuse

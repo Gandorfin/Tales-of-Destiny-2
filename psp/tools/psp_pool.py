@@ -135,7 +135,10 @@ def _rewrite_code_pairs(b, groups, moved, st, log):
         st['code_pairs_rewritten'] += len(los)
 
 
-def add_pool_and_relocate(boot, items, log=print):
+def add_pool_and_relocate(boot, items, log=print, addressed=()):
+    """items: (japanese bytes, english bytes) matched everywhere; addressed:
+    (file offset, english bytes) for one string only (refine prefixes).
+    Key matches never touch an addressed offset."""
     b = bytearray(boot)
     if struct.unpack_from('<H', b, 0x2c)[0] != 3:
         raise ValueError('add_pool_and_relocate expects the retail three program headers')
@@ -144,8 +147,9 @@ def add_pool_and_relocate(boot, items, log=print):
     groups = _code_pair_groups(b)
     code_targets = {t for _, los in groups for _, t, _ in los}
     place = [(jp, en) for jp, en in items if len(en) > len(jp)]
+    skip = {fo for fo, _ in addressed}
     pool = bytearray(); en_off = {}
-    for jp, en in place:
+    for jp, en in place + [(None, en) for _, en in addressed]:
         if en not in en_off:
             en_off[en] = len(pool); pool += en + b'\x00'
     while len(pool) % 4:
@@ -165,6 +169,8 @@ def add_pool_and_relocate(boot, items, log=print):
             if j < 0:
                 break
             i = j + 1
+            if j in skip:
+                continue
             svaddr = _file_to_vaddr(j)
             hits = ptr_map.get(svaddr, [])
             if not (j == 0 or b[j - 1] == 0) and not hits and svaddr not in code_targets:
@@ -182,6 +188,18 @@ def add_pool_and_relocate(boot, items, log=print):
             st['no_reloc_pointer'] += 1
         else:
             st['relocated'] += 1; st['pointers_rewritten'] += rewritten
+    for fo, en in addressed:
+        newv = POOL_VADDR + en_off[en]
+        svaddr = _file_to_vaddr(fo)
+        hits = ptr_map.get(svaddr, [])
+        for p in hits:
+            b[p:p + 4] = struct.pack('<I', newv)
+        if svaddr in code_targets:
+            moved[svaddr] = newv
+        if hits or svaddr in code_targets:
+            st['addressed_relocated'] += 1
+        else:
+            st['addressed_no_reference'] += 1
     _rewrite_code_pairs(b, groups, moved, st, log)
     b += pool
     struct.pack_into('<8I', b, 0x34 + 3 * 32,
@@ -319,7 +337,12 @@ def relocate_menu(boot, table_path=None):
         for jb in keys:
             if len(eb) > len(jb):
                 items.append((jb, eb))
-    return add_pool_and_relocate(boot, items)
+    import psp_menu
+    addressed = [(fo, psp_menu.encode_en(en)) for fo, _, en in psp_menu.refine_prefixes(boot)] \
+        if boot[:4] == b'\x7fELF' else []
+    if not addressed:
+        return add_pool_and_relocate(boot, items)
+    return add_pool_and_relocate(boot, items, addressed=addressed)
 
 
 if __name__ == '__main__':

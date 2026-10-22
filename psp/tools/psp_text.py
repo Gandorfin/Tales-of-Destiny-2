@@ -499,6 +499,27 @@ def twin_english(twins, name, index, key):
     return en if jp == key and en else None
 
 
+NUMBER_MODE = re.compile(r'<0B:0000000[01]>')
+
+
+def plain_numbers(lines):
+    """English lines without the number mode codes <0B:1> .. <0B:0>.
+
+    Number mode makes the game draw what follows with full-width codes
+    (Japanese text writes numbers full width). On the PSP the full-width
+    Latin and digit codes share the proportional glyphs of the variable
+    width font but keep a full cell advance, so "1000000 Gald" read
+    "1 0 0 0 0 0 0 Gald" (playtest tab 13, the Final Merchant) and letters
+    inside a span stood apart the same way. Without the codes the number
+    variables and the text take the ASCII path like the rest of the line.
+    Choice records (<03:..>) keep their codes: their line and code
+    structure must stay as in retail (PR 107)."""
+    text = '\n'.join(lines)
+    if '<0B:' not in text or '<03:' in text:
+        return lines
+    return [NUMBER_MODE.sub('', l) for l in lines]
+
+
 def match(work, textroot=TEXT, overrides=OVERRIDES):
     corpus = load_ps2_corpus(textroot)
     corpus = {k: {norm_key(jp.split('\n')): en for jp, en in v.items()} for k, v in corpus.items()}
@@ -530,6 +551,7 @@ def match(work, textroot=TEXT, overrides=OVERRIDES):
                 if hit is not None:
                     tot['supplement'] += 1
             if hit is not None:
+                hit = plain_numbers(hit)
                 out.append(['#' + l for l in lines] + hit)
                 tot['matched'] += 1
             else:
