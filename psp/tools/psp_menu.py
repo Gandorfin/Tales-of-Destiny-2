@@ -133,6 +133,31 @@ ADDRESSED = [
 ]
 
 
+# Added Arte (追加特技) banners: names inside the battle scripts compiled into
+# BOOT.BIN (file 0x1EE4A2..0x1EEE6B, 14 names as on the PS2), opcode 0A, an
+# argument byte (0x00, 0x04, 0x06 or 0xFF), then the
+# name inline and NUL terminated, like the PS2 ENd scripts. Nothing points at
+# them and the bytecode goes on after the NUL, so the English must have the
+# exact Japanese byte length (8 bytes, space padded). Names follow the PS2
+# banners (08055 literals); 霧氷鎚閃 takes the name of its PS2 twin 霧氷槍閃.
+INLINE_BANNERS = [
+    (0x1EE4A2, '蒼破追蓮', 'Pursuit '),
+    (0x1EE50B, '雷神光燐', 'Kourin  '),
+    (0x1EE57F, '散葉枯葉', 'Wither  '),
+    (0x1EE639, '空翔裂風', 'Windrend'),
+    (0x1EE762, '閃光翔墜', 'Skyfall '),
+    (0x1EE80C, '爆炎連焼', 'Hellfire'),
+    (0x1EE9C5, '爆灰猛追', 'Stampede'),
+    (0x1EEAB5, '放墜砲墜', 'Dropshot'),
+    (0x1EEB2A, '双打連蹴', 'Renshuu '),
+    (0x1EEBAC, '霧氷鎚閃', 'Frostray'),
+    (0x1EED1F, '幻影回帰', 'Recall  '),
+    (0x1EEDBB, '双連衝破', 'Impact  '),
+    (0x1EEE19, '飛連双閃', 'Twin Ray'),
+    (0x1EEE6B, '月閃虚崩', 'Moonfall'),
+]
+
+
 # Shift-JIS strings (not the game's TBL encoding): the save title, the save
 # detail line and the Memory Stick dialogs, which the game hands to the
 # system save and message dialogs. In place only; the format specifiers keep
@@ -180,6 +205,14 @@ def patch_addressed(b, st):
             continue
         b[fo:fo + len(jb)] = eb + b'\x00' * (len(jb) - len(eb))
         st['addressed'] += 1
+    for fo, jp, en in INLINE_BANNERS:
+        jb, eb = encode_keys(jp)[0], encode_en(en)
+        if bytes(b[fo - 2:fo - 1]) != b'\x0a' or bytes(b[fo:fo + len(jb) + 1]) != jb + b'\x00' \
+                or len(eb) != len(jb):
+            st['banner_skipped'] += 1
+            continue
+        b[fo:fo + len(jb)] = eb
+        st['banner'] += 1
 
 
 def patch_menu(boot, table=None):
