@@ -506,7 +506,20 @@ The variable width font (`psp/tools/psp_vwf.py`) hooks all of these:
   `psp/tools/psp_boot_script.py` and `psp_boot_script.tsv` rebuild its text
   area in place (588 bytes of room).
 * Item and arte descriptions are two-line records `line1 0x01 line2` stored
-  as one string; key them with `{01}` in the tables.
+  as one string; key them with `{01}` in the tables. Rows reused from the PS2
+  SLPS dump lost that break and glued the words ("releases aflurry",
+  "effective onaerial"); 26 such rows got their `{01}` back in October 2026
+  from the PS2 strings (a dropped 0x01 between two letters).
+* The skill cost line under an Enchant/Skill description is built from
+  fragments: SJIS `SPを` (0x19BED8), %d, `、` (0x19BEF0), SJIS `TPを`
+  (0x19BEE0), %d, `消費` (0x19BED0), `。` (0x19BEE8); English " SP 12, TP 5
+  used." (`psp_menu.ADDRESSED`, `SJIS_ADDRESSED`, table row 消費).
+* Enchant level rows are built at run time as the name padded with ASCII
+  spaces to 20 bytes, then per level three colour codes, a space and a
+  full-width digit (0x994E..0x9951), and the row is drawn centred. Retail
+  names are two-byte, so every row had the same width; with the variable
+  width font English rows differ and the digits drift from the fixed cursor
+  positions. Not fixed yet (needs the row builder or a pixel based pad).
 * The arte grid is drawn by the bold routine; it mangles any multi-byte
   trick, so long arte names were shortened. With the variable width font
   (October 2026) the names are narrower; whether the shortened names can get
@@ -514,6 +527,9 @@ The variable width font (`psp/tools/psp_vwf.py`) hooks all of these:
 
 ## PSP: enemy names, movies, title
 
+* Mystic Arte cut-in banners are inline `0A` strings in LZSS packed `efD`
+  effect scripts (PAK child 0 of members `09029..09075`, any argument byte);
+  `psp_monsters` unpacks them and writes the English centred in place.
 * Enemy and Monster Book names live in the battle-resource members around
   `08378..09565`, one PAK level deep and then inside a raw deflate blob, in
   the game encoding (`psp/tools/psp_monsters.py`, `psp_monsters.tsv`). The

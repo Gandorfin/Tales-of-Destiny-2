@@ -1,6 +1,39 @@
 # Monster Book / enemy names, artes and boss lines for the PSP battle-resource FPB members.
 # jp<TAB>en<TAB>source. Located by pnvnd's env8 scanner (FPB 8378..9565, PAK->deflate->tod2-custom).
-# sources: termbase=Lifebottle canonical; ps2=reused ToD2 PS2 enemy_translations; hand=transliteration; ps2names=ps2/menu/enemy_names.csv (battle banner names).
+# sources: termbase=Lifebottle canonical; ps2=reused ToD2 PS2 enemy_translations; hand=transliteration; ps2names=ps2/menu/enemy_names.csv (battle banner names); efd=Mystic Arte cut-in banners and lines in the LZSS efD effect scripts (members 09029..09075; PS2 names from ps2/menu/enemy_text.py MYSTIC_ARTE_TRANSLATIONS and EXTRA_TRANSLATIONS where the PS2 has one).
+裂衝蒼破塵	Azure Dust	efd
+絶破滅焼撃	Annihilate	efd
+魔人千裂衝	Demon Rend	efd
+ファイナルプレイヤー	Final Prayer	efd
+スパイラルドライバー	Spiral Driver	efd
+蒼龍滅牙斬	Azure Fang	efd
+翔王絶憐衝	Royal Soar	efd
+斬空天翔剣	Guillotine	efd
+クリティカルブレード	Critical Blade	efd
+浄破滅焼闇	Cleansing	efd
+翔破裂光閃	Lightblast	efd
+義憐聖霊斬	Holy Mercy	efd
+ワイルド・ギース	Wild Geese	efd
+真神煉獄刹	Penitence	efd
+魔神煉獄殺	Purgatory	efd
+インブレイスエンド	Final Embrace	efd
+ディバインパウア	Divine Power	efd
+サンダーソード	Thunder Sword	efd
+震天	Sky	efd
+震天裂空	Sky Rip	efd
+震天裂空斬光	Sky Rip Ray	efd
+震天裂空斬光旋風	Sky Rip Ray Gust	efd
+震天裂空斬光旋風滅砕	Sky Rip Ray Gust Hew	efd
+震天裂空斬光旋風滅砕神罰	Sky Rip Ray Gust Hew Ire	efd
+震天裂空斬光旋風滅砕神罰割殺撃	Sky Rip Ray Gust Hew Ire Slay!	efd
+震天裂空斬光旋風滅砕神罰攻撃	Sky Rip Ray Gust Hew Ire Hit	efd
+-チガ　チヲコバム-	-Kin rejects kin-	efd
+-ココロガ　ココロヲクダク-	-Heart shatters heart-	efd
+-ユメナド・・・-	-Dreams...-	efd
+-ソコニハソンザイシナイノダカラ-	-It does not exist there-	efd
+-アラガウカ！-	-You resist!?-	efd
+-ムダダ！-	-Futile!-	efd
+-サカラエヌ、サダメガアル・・・-	-A fate none can defy...-	efd
 -アイス・レクイエム-	-Ice Requiem-	ps2
 -アジリティ・クロース-	-Agility Cloth-	ps2
 -ウィズダムロッド-	-Wisdom Rod-	ps2

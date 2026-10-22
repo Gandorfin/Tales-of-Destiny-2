@@ -23,6 +23,13 @@ member 08331 (PAK child 2, comptoe LZSS): "TEKI", then 256 records of 28
 bytes, a 24 byte name field (game encoding, space padded) and 4 bytes of
 data. Slot n is the same enemy as row n of ps2/menu/enemy_names.csv.
 patch_teki() writes the English names into it (2026-10-16).
+
+The Mystic Arte cut-in banners (蒼龍滅牙斬, ファイナルプレイヤー, ...) are
+inline 0A strings in the efD effect scripts of members 09029..09075: PAK
+child 0, comptoe LZSS (type 3), argument bytes 0x00..0xFF. The walker
+unpacks LZSS leaves that start with "efD", writes the English centred in
+the Japanese byte count (as the PS2 enemy_text.fit does) and packs them
+again (October 2026; before that they stayed Japanese).
 """
 import os, struct, zlib, importlib.util
 
@@ -70,14 +77,15 @@ def _decode(b, p):
     return ''.join(out), i
 
 
-def _is_literal(b, i):
+def _is_literal(b, i, any_arg=False):
     """True when the string at i is inline ENd text: opcode 0A, one argument
     byte, then the NUL-terminated string (enemy arte names, Mystic Arte
-    banners, boss lines; the PS2 enemy_text.py format)."""
-    return i >= 2 and b[i - 2] == 0x0A and b[i - 1] <= 0x0F
+    banners, boss lines; the PS2 enemy_text.py format). The efD effect
+    scripts use argument bytes up to 0xFF (any_arg)."""
+    return i >= 2 and b[i - 2] == 0x0A and (any_arg or b[i - 1] <= 0x0F)
 
 
-def _patch_leaf(data, names, stats):
+def _patch_leaf(data, names, stats, efd=False):
     """Overwrite any target name in a decoded leaf, in place. Returns new bytes
     or None if unchanged. English must fit the Japanese bytes (longer English
     is reported and skipped to stay in-place-safe). Name fields are padded
@@ -96,8 +104,14 @@ def _patch_leaf(data, names, stats):
             en = names[text].encode('cp932', 'replace')
             slot = end - i
             if len(en) <= slot:
-                literal = _is_literal(b, i)
-                b[i:end] = en + (b' ' if literal else b'\x00') * (slot - len(en))
+                literal = _is_literal(b, i, efd)
+                pad = slot - len(en)
+                if efd and literal:
+                    # cut-in banners are drawn centred on their full length,
+                    # so split the padding (as the PS2 enemy_text.fit does)
+                    en = b' ' * (pad // 2) + en + b' ' * (pad - pad // 2)
+                    pad = 0
+                b[i:end] = en + (b' ' if literal else b'\x00') * pad
                 changed = True
                 stats['patched'] += 1
                 stats['inline_text'] += literal
@@ -175,6 +189,25 @@ def _walk(data, names, stats, depth=0):
             if new is not None:
                 blobs[k] = new; any_change = True
         return _rebuild_pak(blobs) if any_change else None
+    # LZSS packed efD effect script (the Mystic Arte cut-in banners, PAK
+    # child 0 of members 09029..09075): its inline 0A strings
+    if len(data) > 9 and data[0] in (1, 3):
+        inl, outl = struct.unpack_from('<II', data, 1)
+        if 9 + inl <= len(data) <= 9 + inl + 3:
+            lzss = _lzss()
+            try:
+                inner = lzss.decode(data[9:9 + inl], data[0], outl)
+            except Exception:
+                inner = None
+            if inner is not None and len(inner) == outl and inner[:3] == b'efD':
+                new = _patch_leaf(inner, names, stats, efd=True)
+                if new is None:
+                    return None
+                stats['efd'] = stats.get('efd', 0) + 1
+                packed = lzss.pack(new, data[0])
+                if lzss.unpack(packed) != new:
+                    raise ValueError('efD LZSS round trip failed')
+                return packed + b'\x00' * ((-len(packed)) % 4)
     # leaf
     return _patch_leaf(data, names, stats)
 
@@ -262,8 +295,8 @@ def build_changed_members(boot_path, fpb_path, names=None, log=print):
         changed[TEKI_MEMBER] = new
     if log:
         log('monster names: %d strings patched across %d members (%d of them inline ENd text, '
-            'space padded; %d too long, skipped)'
-            % (stats['patched'], stats['members'], stats['inline_text'], stats['too_long']))
+            'space padded; %d too long, skipped; %d efD effect scripts)'
+            % (stats['patched'], stats['members'], stats['inline_text'], stats['too_long'], stats.get('efd', 0)))
         log('TEKI list (encounter banner, member %d): %d names English, %d without a translation'
             % (TEKI_MEMBER, stats.get('teki_patched', 0), stats.get('teki_untranslated', 0)))
     return changed, stats

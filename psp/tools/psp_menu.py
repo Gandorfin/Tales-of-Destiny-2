@@ -130,6 +130,11 @@ ADDRESSED = [
     (0x199FB0, 'スペル', ''),
     (0x199FB8, 'を習得', ''),
     (0x199FD8, 'の', ': '),
+    # skill cost line under an Enchant/Skill description, built from
+    # SPを %d 、 TPを %d 消費 。 -> " SP 12, TP 5 used." (SPを and TPを are
+    # Shift-JIS, see SJIS_ADDRESSED; 消費 is a table row, pooled)
+    (0x19BEE8, '。', '.'),
+    (0x19BEF0, '、', ','),
 ]
 
 
@@ -171,6 +176,8 @@ SJIS_ADDRESSED = [
     (0x19874C, '中断:', 'Susp:'),
     (0x198758, 'ガルド %s／レンズ %3d／クリア %2d', 'Gald %s / Lens %3d / Clears %2d'),
     (0x1DFAC8, 'テイルズ オブ デスティニー２', 'Tales of Destiny 2'),
+    (0x19BED8, 'SPを', ' SP '),         # skill cost line, see ADDRESSED
+    (0x19BEE0, 'TPを', ' TP '),
     (0x1DFAE8, '新規データ', 'New Data'),
     (0x1DFAF4, 'ゲームを中断しますか？\n（中断データは、\n　１つのメモリースティックTMに\n　１つしか作成できません）\n　\n'
                '中断セーブが完了したら、\nタイトル画面に戻ります',

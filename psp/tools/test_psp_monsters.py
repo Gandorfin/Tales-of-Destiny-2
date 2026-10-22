@@ -44,6 +44,38 @@ class PatchLeafTests(unittest.TestCase):
         self.assertEqual(st['too_long'], 1)
 
 
+class EfdTests(unittest.TestCase):
+    """Mystic Arte banners: inline 0A strings with any argument byte in an
+    LZSS packed efD script, centred in their slot."""
+
+    def script(self):
+        return (b'efD\0' + b'\x08\x04\x13\x00' + b'\x0a\xff' + enc(ARTE) + b'\x00'
+                + b'\x11\x00\x04\x1b' + b'\x0a\x07' + enc(NAME) + b'\x00' + b'\x33\x00')
+
+    def test_banner_centred_and_code_kept(self):
+        raw = self.script()
+        lzss = pm._lzss()
+        packed = lzss.pack(raw, 3)
+        packed += b'\0' * (-len(packed) % 4)
+        st = stats()
+        new = pm._walk(packed, NAMES, st)
+        self.assertEqual(st['efd'], 1)
+        out = lzss.unpack(new)
+        self.assertEqual(len(out), len(raw))
+        slot = len(enc(ARTE))
+        pad = slot - len('Sphere Spark')
+        self.assertEqual(out[10:10 + slot + 1],
+                         (b' ' * (pad // 2) + b'Sphere Spark').ljust(slot) + b'\0')
+        self.assertEqual(out[10 + slot + 1:10 + slot + 5], b'\x11\x00\x04\x1b')
+        self.assertIn(b'Golem', out)
+        self.assertEqual(out[-2:], b'\x33\x00')
+
+    def test_other_lzss_left_alone(self):
+        lzss = pm._lzss()
+        packed = lzss.pack(b'XXXX' + b'\x0a\xff' + enc(ARTE) + b'\x00', 3)
+        self.assertIsNone(pm._walk(packed, NAMES, stats()))
+
+
 class TableTests(unittest.TestCase):
     def test_table_loads_and_encodes(self):
         names = pm.load_names()
