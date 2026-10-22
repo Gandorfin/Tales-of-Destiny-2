@@ -192,10 +192,17 @@ addresses are EE RAM while a battle runs.
 * The battle module is `08055`, member 0 of `00017.pak3` (LZSS). The game
   loads the whole container once at boot into a heap block of its file size
   (pointer at `0x234600`) and unpacks member 0, 1 or 2 into the overlay
-  buffer at `0x2AEA80` by index. The buffer ends where the heap starts,
-  `0x303100` (crt0 end of bss); `08055` is the largest overlay and ends at
-  `0x30210C`, so 4 KB stay free behind it. The caches are flushed after the
-  unpack.
+  buffer at `0x2AEA80` by index. `08055` ends at `0x30210C`, but the space
+  behind it is NOT free: the SLPS section table lists the battle sub
+  overlays `.battle_b001` .. `.battle_b016` (ends `0x3022A1` .. `0x303040`)
+  and `.battle_s000/s001` (`0x303090`), and `08055` keeps variables at
+  `0x3030BC`/`0x3030C4`. The boss overlays are FILE.FPB members 8933..8948
+  (raw), loaded at `0x302180` by `0x2EC410` as member `8932 + [0x2FB111]`;
+  that byte comes from offset 0x19 of the enemy record (`0x2E8484`), and
+  the module's two 16 entry function tables at `0x2F9F6C` and `0x301F64`
+  point into the overlay. Free padding inside `08055`: 28 bytes at
+  `0x2EE564` between its code and its data. The caches are flushed after
+  the unpack.
 * Battle actors: 0x2A8 byte records in one array: four party slots (used or
   not), then the enemies. Pointer to the party at `0x2FA160`, to the first
   enemy at `0x2FA164` (party + 4 x 0x2A8), party size byte at `0x2FA195`,
@@ -220,10 +227,16 @@ addresses are EE RAM while a battle runs.
   dark outline. No line breaks; the font has no `[ ] _ @ ^`. One character
   is 16 x scale / 256 pixels wide (11 at 0xB0).
 * The battle frame function is called once per frame from `0x2AEC18`
-  (`jal 0x2B40B8`). `ps2/menu/battle_subs.py` appends a hook to `08055`
-  that calls it and then draws the subtitle of every speaking actor (party,
-  then enemies) from `battle_subtitles.csv`; the text is a fourth, uncompressed member of
-  `00017.pak3` (comptoe header type 0, `BSUB` table at member offset + 12).
+  (`jal 0x2B40B8`). `ps2/menu/battle_subs.py` points that call at a 7
+  instruction trampoline in the padding at `0x2EE564`, which jumps into a
+  fourth, uncompressed member of `00017.pak3` (comptoe header type 0,
+  `BSUB` at member offset + 12, hook code at `BSUB` + 32, then the line
+  table and the strings from `battle_subtitles.csv`). The hook calls the
+  frame function and draws the subtitle of every speaking actor (party,
+  then enemies). The 1.3.2 version appended its code at `0x302110`, where
+  the boss overlays load: every fight with a boss overlay (Elraine, Rimul,
+  reported by pnvnd) froze at its start. Rule: never put code or data
+  behind the end of an overlay.
 
 ## PS2: movies
 

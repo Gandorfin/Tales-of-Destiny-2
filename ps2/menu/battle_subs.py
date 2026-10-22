@@ -18,28 +18,41 @@ whole map), and the table below is keyed by that id.
 
 What this step adds:
 
-* about 300 bytes of MIPS code appended to the battle module (member 0 of
-  00017.pak3, loaded at 0x2AEA80). The module is the biggest overlay and
-  still leaves 4 KB free before the heap starts at 0x303100 (crt0 end of
-  bss); the game flushes the caches after loading an overlay, so the code
-  runs like the rest of the module.
-* the call of the battle frame function at 0x2AEC18 (jal 0x2B40B8) goes to
-  that code instead. It calls the frame function, then looks at each party
-  actor: if +0x13E holds an id that has lines in the table, it draws them
-  with the module's own text helper 0x2E6DA0 (the one that draws "ENEMY
-  DATA"), white, centred, just above the HP bars. The enemies are
-  checked the same way after the party, from their own pointer (boss
-  lines). Two speakers at once stack
-  upwards.
-* the text: a fourth member of 00017.pak3, stored uncompressed (comptoe
-  header type 0). The game loads the whole container at boot into a heap
-  block of its file size (pointer at 0x234600) and reads its three
-  modules by index, so an extra member costs nothing and changes nothing
-  else. The code finds it through the container's own offset table.
+* a hook in the battle module (member 0 of 00017.pak3, loaded at
+  0x2AEA80): the call of the battle frame function at 0x2AEC18 (jal
+  0x2B40B8) goes to a 7 instruction trampoline at 0x2EE564. Those 28
+  bytes are the padding between the module's code (ends 0x2EE564) and
+  its data (starts 0x2EE580); nothing refers to them. The module keeps
+  its size: everything after its end at 0x30210C belongs to the boss
+  overlays (FPB members 8933..8948 = .battle_b001..b016 of the SLPS
+  section table, loaded at 0x302180 by 0x2EC410 as member 8932 + the
+  byte at 0x2FB111) and to battle variables up to 0x3031xx. The first
+  version (PS2 1.3.2) appended its code at 0x302110, and every boss
+  fight with such an overlay froze at its start.
+* the subtitle member: a fourth member of 00017.pak3, stored
+  uncompressed (comptoe header type 0). The game loads the whole
+  container at boot into a heap block of its file size (pointer at
+  0x234600) and keeps it for the whole session; it reads its three
+  modules by index, so an extra member costs nothing and changes
+  nothing else. It holds the hook code (about 520 bytes) and the text.
+  The trampoline finds it through the container's own offset table
+  (pak + [pak + 0x10] + 12 + 32) and jumps there with the return
+  address of the original call. The code calls the frame function,
+  then looks at each party actor: if +0x13E holds an id that has lines
+  in the table, it draws them with the module's own text helper
+  0x2E6DA0 (the one that draws "ENEMY DATA"), white, centred, just
+  above the HP bars. The enemies are checked the same way after the
+  party, from their own pointer (boss lines). Two speakers at once
+  stack upwards. The code is position independent (relative branches,
+  absolute calls into the module only). The battle module is unpacked
+  by the CPU, so the game writes back the data cache and clears the
+  instruction cache after loading it, before the first frame runs.
 
 Running it again replaces the earlier code and text, so the table can be
 edited and the step repeated on the same folder. A container that was
-never patched is recognised by the original call at 0x2AEC18.
+never patched is recognised by the original call at 0x2AEC18, one
+patched by the 1.3.2 version by the code appended after the module
+(removed again).
 
 Table: battle_subtitles.csv next to this script (voice_id, member,
 owner, speaker, seconds, japanese, english), one row per battle voice
@@ -67,8 +80,10 @@ TABLE = os.path.join(HERE, 'battle_subtitles.csv')
 CONTAINER = '00017.pak3'
 
 BASE = 0x2AEA80             # load address of the battle module
-HEAP = 0x303100             # end of the SLPS bss = start of the heap
+MODULE_END = 0x30210C       # end of the battle module; boss overlays and variables follow
 HOOK = 0x2AEC18 - BASE      # jal 0x2B40B8 in the overlay's main loop
+TRAMPOLINE = 0x2EE564       # 28 unused bytes between the module's code and data
+TRAMPOLINE_SIZE = 28
 FRAME = 0x2B40B8            # battle frame function
 TEXT = 0x2E6DA0             # text helper (x, y, string, colour, xscale, yscale)
 PAK_POINTER = 0x234600      # SLPS: address of the resident 00017.pak3
@@ -80,7 +95,7 @@ CHARACTER = 0x149          # actor: 0 Kyle, 1 Reala, 2 Loni, 3 Judas, 4 Nanaly, 
 ENEMY = 0x14C              # actor: 1 for enemies
 NAMES = ('Kyle', 'Reala', 'Loni', 'Judas', 'Nanaly', 'Harold')
 NAME_ROOM = 8              # 'Nanaly: '
-ENTRIES = 8 + 4 * len(NAMES)
+CODE_AT = 8 + 4 * len(NAMES)   # offset of the hook code from 'BSUB'
 ENTRY_SIZE = 16
 MAGIC = b'BSUB'
 TRAILER = b'BSUBCODE'
@@ -125,6 +140,7 @@ def addu(rd, rs, rt): return (REG[rs] << 21) | (REG[rt] << 16) | (REG[rd] << 11)
 def subu(rd, rs, rt): return (REG[rs] << 21) | (REG[rt] << 16) | (REG[rd] << 11) | 0x23
 def move(rd, rs): return addu(rd, rs, 'zero')
 def jal(target): return (3 << 26) | ((target >> 2) & 0x3FFFFFF)
+def jr(rs): return (REG[rs] << 21) | 8
 def beq(rs, rt, label): return ('b', 4, rs, rt, label)
 def bne(rs, rt, label): return ('b', 5, rs, rt, label)
 def blez(rs, label): return ('b', 6, rs, 'zero', label)
@@ -139,7 +155,7 @@ def hi_lo(value):
     return ((value + 0x8000) >> 16) & 0xFFFF, value & 0xFFFF
 
 
-def assemble(lines, origin):
+def assemble(lines, origin=0):
     labels, pc = {}, origin
     for item in lines:
         if isinstance(item, str):
@@ -159,10 +175,12 @@ def assemble(lines, origin):
     return struct.pack('<%dI' % len(words), *words)
 
 
-def hook_code(origin):
-    """The frame hook. Registers: s0 actor, s1 actors left, s2 y of the
-    next block's bottom line, s3 subtitle data, s4 height of the block
-    drawn for this actor, t3/t4 table walk."""
+def hook_code(entries):
+    """The frame hook, position independent (it runs from the heap). It
+    leaves a0..a3 and t0..t3 alone until the frame function has run.
+    Registers: s0 actor, s1 actors left, s2 y of the next block's bottom
+    line, s3 subtitle data, s4 height of the block drawn for this actor,
+    t3/t4 table walk. entries = offset of the line table from 'BSUB'."""
     g_hi, g_lo = hi_lo(GLOBALS)
     p_hi, p_lo = hi_lo(PAK_POINTER)
     m_hi, m_lo = hi_lo(struct.unpack('<I', MAGIC)[0])
@@ -199,7 +217,7 @@ def hook_code(origin):
         blez('s1', 'group_end'), NOP,
         lh('t2', VOICE, 's0'),
         beq('t2', 'zero', 'next'), move('s4', 'zero'),
-        lw('t3', 4, 's3'), addiu('t4', 's3', ENTRIES),
+        lw('t3', 4, 's3'), addiu('t4', 's3', entries),
         'search',
         blez('t3', 'found'), NOP,
         lhu('t5', 0, 't4'),
@@ -246,7 +264,26 @@ def hook_code(origin):
         ld('ra', 0x00, 'sp'), ld('s0', 0x10, 'sp'), ld('s1', 0x18, 'sp'),
         ld('s2', 0x20, 'sp'), ld('s3', 0x28, 'sp'), ld('s4', 0x30, 'sp'),
         JR_RA, addiu('sp', 'sp', 0x90),
-    ], origin)
+    ])
+
+
+CODE_SIZE = len(hook_code(0))
+ENTRIES = CODE_AT + CODE_SIZE      # line table, right after the code
+
+
+def trampoline_code():
+    """In the module: jump to the hook code in the subtitle member. Only
+    v0/v1 change (the frame function returns in them anyway); ra still
+    points after the original call, so the hook returns there."""
+    p_hi, p_lo = hi_lo(PAK_POINTER)
+    code = assemble([
+        lui('v0', p_hi), lw('v0', p_lo, 'v0'),     # resident 00017.pak3
+        lw('v1', 0x10, 'v0'), addu('v0', 'v0', 'v1'),  # + offset of member 4
+        addiu('v0', 'v0', 12 + CODE_AT),           # header 9 + pad 3, then 'BSUB' + CODE_AT
+        jr('v0'), NOP,
+    ])
+    assert len(code) == TRAMPOLINE_SIZE
+    return code
 
 
 # voice id -> FILE.FPB member, as the SLPS function 0x133F30 maps them
@@ -326,9 +363,10 @@ def problems(rows):
 
 def build_data(rows):
     """Member 4 of 00017.pak3: header type 0, 3 pad bytes, then 'BSUB',
-    count, the eight character names as (u16 offset, u16 length), count x
-    (u16 id, s16 x, s16 dy, s16 block height, u32 string offset, u16 flags,
-    u16 0), strings. Offsets count from 'BSUB'."""
+    count, the six character names as (u16 offset, u16 length), the hook
+    code (at CODE_AT), count x (u16 id, s16 x, s16 dy, s16 block height,
+    u32 string offset, u16 flags, u16 0) at ENTRIES, strings. Offsets
+    count from 'BSUB'."""
     entries = []
     for row in rows:
         live = speaker_from_game(row)
@@ -349,7 +387,7 @@ def build_data(rows):
     for vid, x, dy, height, line, flags in entries:
         table += struct.pack('<HhhhIHH', vid, x, dy, height, head + len(strings), flags, 0)
         strings += line.encode('ascii') + b'\0'
-    payload = b'\0\0\0' + MAGIC + struct.pack('<I', len(entries)) + names + table + strings
+    payload = b'\0\0\0' + MAGIC + struct.pack('<I', len(entries)) + names + hook_code(ENTRIES) + table + strings
     payload += b'\0' * (-len(payload) % 4)
     return bytes([0]) + struct.pack('<II', len(payload), len(payload)) + payload, len(entries)
 
@@ -358,27 +396,36 @@ def build_data(rows):
 def strip_code(module):
     """Battle module bytes without an earlier hook: (bytes, was_patched)."""
     module = bytearray(module)
+    patched = False
     if module[-12:-4] == TRAILER:
+        # 1.3.2: code appended after the module, where the boss overlays load
         original = struct.unpack_from('<I', module, len(module) - 4)[0]
         module = module[:original]
         module[HOOK:HOOK + 4] = struct.pack('<I', jal(FRAME))
-        return bytes(module), True
+        patched = True
+    t = TRAMPOLINE - BASE
+    if struct.unpack_from('<I', module, HOOK)[0] == jal(TRAMPOLINE):
+        module[HOOK:HOOK + 4] = struct.pack('<I', jal(FRAME))
+        module[t:t + TRAMPOLINE_SIZE] = bytes(TRAMPOLINE_SIZE)
+        patched = True
     if struct.unpack_from('<I', module, HOOK)[0] != jal(FRAME):
         raise ValueError('battle module: unexpected code at 0x%X (expected jal 0x%X)' % (BASE + HOOK, FRAME))
-    return bytes(module), False
+    if BASE + len(module) != MODULE_END:
+        raise ValueError('battle module: ends at 0x%X, expected 0x%X' % (BASE + len(module), MODULE_END))
+    if any(module[t:t + TRAMPOLINE_SIZE]):
+        raise ValueError('battle module: 0x%X..0x%X is not the empty padding it should be'
+                         % (TRAMPOLINE, TRAMPOLINE + TRAMPOLINE_SIZE - 1))
+    return bytes(module), patched
 
 
 def add_code(module):
     module, _ = strip_code(module)
-    original = len(module)
-    start = (original + 15) & ~15
-    code = hook_code(BASE + start)
-    out = bytearray(module) + b'\0' * (start - original) + code
-    out += b'\0' * (-len(out) % 4) + TRAILER + struct.pack('<I', original)
-    if BASE + len(out) > HEAP:
-        raise ValueError('battle module would end at 0x%X, past the heap start 0x%X' % (BASE + len(out), HEAP))
-    out[HOOK:HOOK + 4] = struct.pack('<I', jal(BASE + start))
-    return bytes(out), BASE + start, len(code)
+    out = bytearray(module)
+    t = TRAMPOLINE - BASE
+    out[t:t + TRAMPOLINE_SIZE] = trampoline_code()
+    out[HOOK:HOOK + 4] = struct.pack('<I', jal(TRAMPOLINE))
+    assert len(out) == len(module)
+    return bytes(out), TRAMPOLINE, TRAMPOLINE_SIZE
 
 
 def is_data(blob):
@@ -399,7 +446,8 @@ def patch_container(data, rows):
     # prove it reads back
     again = [b for _, b in pak3.parse(out)]
     assert lzss.unpack(again[0]) == patched and again[3] == blob
-    return out, {'code_at': where, 'code_bytes': size, 'lines': count, 'module_end': BASE + len(patched)}
+    return out, {'trampoline_at': where, 'trampoline_bytes': size, 'code_bytes': CODE_SIZE,
+                 'lines': count, 'module_end': BASE + len(patched)}
 
 
 def main(argv=None):
@@ -428,9 +476,10 @@ def main(argv=None):
     out, info = patch_container(data, rows)
     if not a.dry_run:
         open(path, 'wb').write(out)
-    print('%s %s (%d -> %d bytes): %d subtitles, %d lines, hook code %d bytes at 0x%X, module ends 0x%X (heap 0x%X)'
+    print('%s %s (%d -> %d bytes): %d subtitles, %d lines, trampoline at 0x%X, hook code %d bytes in the '
+          'subtitle member, module still ends at 0x%X'
           % ('would rebuild' if a.dry_run else 'rebuilt', CONTAINER, len(data), len(out), with_text,
-             info['lines'], info['code_bytes'], info['code_at'], info['module_end'], HEAP))
+             info['lines'], info['trampoline_at'], info['code_bytes'], info['module_end']))
     return 0
 
 
