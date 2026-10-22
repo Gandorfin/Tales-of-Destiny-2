@@ -26,7 +26,44 @@ def load_table(path=TABLE):
         p = line.rstrip('\n').split('\t')
         if len(p) >= 2:
             out.append((p[0].replace('\\n', '\n'), p[1].replace('\\n', '\n')))
+    bad = [jp for jp, en in out if pinned_code_moved(jp, en)]
+    if bad:
+        raise SystemExit('psp_menu.tsv: a <0A:..> code must keep its retail '
+                         'byte position: ' + ', '.join(map(repr, bad)))
     return out
+
+
+PINNED_CODES = (0x0A,)
+
+
+def _codes(b):
+    """(offset, code, argument) of every argument code in an encoded string."""
+    out, i = [], 0
+    while i < len(b):
+        c = b[i]
+        if c in ARG_CODES:
+            out.append((i, c, bytes(b[i + 1:i + 5])))
+            i += 5
+        elif c >= 0x80:
+            i += 2
+        else:
+            i += 1
+    return out
+
+
+def pinned_code_moved(jp, en):
+    """True if a <0A:..> code sits at another byte offset in the English.
+    The dungeon exit banner "<button:35> <0A:0>を出る" (BOOT 0x1D57B0, the
+    0A code inserts the place name) hung the game in PSP 0.3.3/0.3.4 when
+    the English moved the code to the end ("Leave <0A:0>"), also with text
+    after it; the game needs it at byte 6 as in retail. Colour, name and size
+    codes move freely."""
+    try:
+        cj = [c for c in _codes(encode_keys(jp)[0]) if c[1] in PINNED_CODES]
+        ce = [c for c in _codes(encode_en(en)) if c[1] in PINNED_CODES]
+    except Exception:
+        return False
+    return cj != ce
 
 
 def encode_en(en):

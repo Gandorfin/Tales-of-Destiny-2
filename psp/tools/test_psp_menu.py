@@ -112,3 +112,23 @@ class AddressedTests(unittest.TestCase):
         psp_menu.patch_addressed(b, st)
         self.assertEqual(bytes(b[fo:fo + len(en)]), en.encode('ascii'))
         self.assertEqual(st['addressed'], 1)
+
+
+class PinnedCodeTests(unittest.TestCase):
+    """The dungeon exit banner hung the game when its <0A:..> place name code
+    moved (PSP 0.3.3/0.3.4, Atamoni Ovum anchor)."""
+
+    def test_moved_place_code_is_refused(self):
+        jp = '<button:00000035> <0A:00000000>を出る'
+        self.assertTrue(psp_menu.pinned_code_moved(jp, '<button:00000035> Leave <0A:00000000>'))
+        self.assertTrue(psp_menu.pinned_code_moved(jp, '<button:00000035> Leave <0A:00000000> '))
+        self.assertFalse(psp_menu.pinned_code_moved(jp, '<button:00000035> <0A:00000000>: Exit'))
+
+    def test_other_codes_may_move(self):
+        self.assertFalse(psp_menu.pinned_code_moved('疾風の<Kyle>', '<Kyle> of the Gale'))
+
+    def test_table_keeps_every_place_code(self):
+        rows = [(jp, en) for jp, en in psp_menu.load_table() if '<0A:' in jp]
+        self.assertTrue(rows)
+        for jp, en in rows:
+            self.assertFalse(psp_menu.pinned_code_moved(jp, en), jp)

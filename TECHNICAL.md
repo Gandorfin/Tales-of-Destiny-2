@@ -591,6 +591,12 @@ vaddr (file offset = vaddr + 0xC0, runtime = vaddr + 0x08804000).
   into a fifth line, which goes to a second page: the box stops
   redrawing and looks stuck. The D-pad legend row therefore carries 25
   trailing spaces, enough for the widest skit title (PS2 test 2026-10-20).
+* PSP menu strings: the place name code `<0A:00000000>` must keep its
+  retail byte position. The dungeon exit banner `<button:35> <0A:0>を出る`
+  (BOOT.BIN file 0x1D57B0) hung the game at the Atamoni Ovum anchor in
+  PSP 0.3.3 and 0.3.4 because the English moved the code behind "Leave";
+  "<0A:0>: Exit" works. `psp_menu.load_table` refuses a row that moves it.
+  Colour, name and size codes may move.
 * Scenario edits go into both `Third pass Quality-Safe Output` and
   `ps2/PyTOD2/TXT_EN` (skits: `third pass skits safe output` and
   `ps2/PyTOD2/FILE/pak1/TXT_EN`); the audit fails on any difference. The PSP

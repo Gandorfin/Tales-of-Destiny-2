@@ -4246,4 +4246,4 @@ LVに応じて(毒/衰弱/麻痺/鈍足/凍結)を解除する{01}非戦闘時�
 レシピがいっぱいで新規に作成できません{01}いずれかを削除する必要があります	The recipe list is full.{01}Delete a recipe to make a new one.	71	59	translated
 <button:00000019><button:00000036>戻る{01}	<button:00000019><button:00000036>Back{01}	15	15	translated
 <button:00000035>変更{01}<button:00000036>戻る{01}<button:00000037>説明切替{01}<button:00000038>はずす{01}<button:0000001D>使用{01}<button:00000039><button:0000003A>キャラ切替	<button:00000035>Change{01}<button:00000036>Back{01}<button:00000037>Desc{01}<button:00000038>Remove{01}<button:0000001D>Use{01}<button:00000039><button:0000003A>Character	76	72	translated
-<button:00000035> <0A:00000000>を出る	<button:00000035> Leave <0A:00000000>	17	17	translated
+<button:00000035> <0A:00000000>を出る	<button:00000035> <0A:00000000>: Exit	17	17	translated
