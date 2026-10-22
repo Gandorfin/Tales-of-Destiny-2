@@ -36,7 +36,18 @@ new relocation is needed. The hook builds every other address from its
 return address (load address + 0x1B284): it calls the frame function,
 then checks the party and the enemies and draws the lines of every actor
 whose voice id has text, white, centred, above the HP bars; a second
-speaker stacks above the first.
+speaker stacks above the first. The lines are drawn at about 80 % of the
+menu text size, and a speaker whose lines would reach above TOP_Y (four
+lines above the bottom one) is left out, so stacked speakers cover at
+most the lower part of the fight; the first speaker always shows.
+
+Not covered: the story voices that play during the last Fortuna fight
+(PSP file.fpb members 8122..8138, the PS2 story voices 5731..5747). They
+are ATRAC3plus streams, not battle voices, so no actor holds their id.
+They go through the game's one ATRAC stream channel (vaddr 0x452DC8,
+file name "file.fpb" at +8, +0 state, nonzero while it streams, +0x88
+the file offset of the next read); a hook for them would have to match
+that offset against the members and needs a test on that fight.
 
 Table: psp/text/battle_subtitles.csv, the PSP snapshot of
 ps2/menu/battle_subtitles.csv (refreshed by sync_text_from_ps2.py). The
@@ -78,15 +89,20 @@ MAGIC = b'BSUB'
 
 COLOUR = 7                  # white with the font's dark outline
 # The helper works in the PS2 screen space (640 x 448), which the PSP shows
-# at 0.75 across and 0.61 down; 0x100 x 0x140 keeps the letters in shape.
-XSCALE, YSCALE = 0x100, 0x140
+# at 0.75 across and 0.61 down; x : y = 1 : 1.25 keeps the letters in shape.
+# 0xD0 x 0x100 is about 80 % of the menu text size (tab 13: the lines were
+# too big and several speakers covered the fight).
+XSCALE, YSCALE = 0xD0, 0x100
 SPACING = 1.05              # measured advance / glyph table advance
 SCREEN_W = 640
 BOTTOM = 330                # y of the lowest line: above the HP bars and the item banner
-LINE_H = 30
-GAP = 6
+LINE_H = 24
+GAP = 4
 LINE_W = 600                # width a line may use
 MAX_LINES = 3
+# Highest line drawn: a speaker whose block would reach above this is left
+# out (at most four lines on screen; the first speaker always shows).
+TOP_Y = BOTTOM - 3 * LINE_H - GAP
 FIXED_ADVANCE = 12          # per character without the variable width font
 
 
@@ -275,6 +291,12 @@ def hook_code(origin, data):
     op('lh', 'a0', 2, 't4')
     op('lh', 't6', 4, 't4')
     op('lh', 's4', 6, 't4')
+    # the block's top line is at s2 - s4 + GAP + LINE_H: leave the speaker
+    # out when that is above TOP_Y
+    op('subu', 't7', 's2', 's4')
+    op('slti', 't7', 't7', TOP_Y - GAP - LINE_H)
+    op('bnez', 't7', 'drop')
+    op('nop')
     op('lw', 'a2', 8, 't4')
     op('addu', 'a2', 'a2', 's3')
     op('subu', 'a1', 's2', 't6')
@@ -318,6 +340,9 @@ def hook_code(origin, data):
     op('addiu', 't3', 't3', -1)
     op('b', 'search')
     op('addiu', 't4', 't4', ENTRY_SIZE)
+    a.label('drop')
+    op('b', 'next')
+    op('move', 's4', 'zero')
     a.label('found')
     op('subu', 's2', 's2', 's4')
     a.label('next')
