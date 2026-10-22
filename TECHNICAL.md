@@ -601,8 +601,9 @@ vaddr (file offset = vaddr + 0xC0, runtime = vaddr + 0x08804000).
   `0x146464`, colour `0x146484`, print `0x1464BC`), so the variable width
   font and lowercase apply. Coordinates are the PS2 screen space, 640 x
   448, shown at 0.75 across and about 0.61 down; at scale 0x100 a glyph
-  advances 1.05 times its `latin_glyphs.json` advance. 0x100 x 0x140 keeps
-  the letters in proportion. The victory item banner ("Cheap Meat") sits
+  advances 1.05 times its `latin_glyphs.json` advance. x : y = 1 : 1.25
+  keeps the letters in proportion; the subtitles use 0xD0 x 0x100 (about
+  80 % of the menu text), 24 units per line. The victory item banner ("Cheap Meat") sits
   at y 360..386 of that space, just above the HP bars.
 * Added Arte (追加特技) banners: 14 names inside battle scripts compiled
   into BOOT.BIN, file `0x1EE4A2..0x1EEE6B`: opcode `0A`, an argument byte
@@ -615,7 +616,20 @@ vaddr (file offset = vaddr + 0xC0, runtime = vaddr + 0x08804000).
 * `psp/tools/psp_battle_subs.py` appends a hook and the subtitle table to
   the string pool and gives the `jal` at `0x1B27C` the hook as its target;
   the hook calls the frame function and draws the lines of every speaking
-  actor (party, then enemies) from `psp/text/battle_subtitles.csv`.
+  actor (party, then enemies) from `psp/text/battle_subtitles.csv`. Blocks
+  stack upwards; one that would reach above `TOP_Y` (four lines above the
+  bottom line) is left out.
+* Story voices in battle: the last Fortuna fight plays 17 story voices
+  (PSP members `8122..8138`, PS2 `5731..5747`, Fortuna, Kyle and the party
+  while the Atamoni Ovum falls). They are ATRAC3plus streams, not battle
+  voices, so no actor holds an id and the subtitle hook cannot see them.
+  The game has one ATRAC stream channel, vaddr `0x452DC8` (runtime
+  `0x08C56DC8`): `+8` the file name "file.fpb", `+0` state (nonzero while
+  it streams, 6 while reading), `+0x88` the file offset of the next read
+  (advances in 0x800 multiples), `+0x90` the buffer. Not subtitled yet.
+* Exchanges between party members (victory lines 516..523, 557) carry
+  the names in the English ("Kyle: ...|Loni: ..."); the speaker column
+  holds one name only.
 
 ## Rules learned the hard way
 

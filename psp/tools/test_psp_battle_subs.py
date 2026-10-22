@@ -62,6 +62,7 @@ class Machine:
         elif op == 5: out = (rel if r[rs] != r[rt] else None, None)
         elif op == 6: out = (rel if r[rs] == 0 or r[rs] >= 0x80000000 else None, None)
         elif op == 9: r[rt] = (r[rs] + imm) & 0xFFFFFFFF
+        elif op == 10: r[rt] = int((r[rs] - (1 << 32) if r[rs] & 0x80000000 else r[rs]) < imm)
         elif op == 11: r[rt] = int(r[rs] < (imm & 0xFFFFFFFF))
         elif op == 12: r[rt] = r[rs] & (w & 0xFFFF)
         elif op == 13: r[rt] = r[rs] | (w & 0xFFFF)
@@ -159,6 +160,18 @@ class HookTests(unittest.TestCase):
         self.assertLess(boss[2], line[2])           # the second speaker stacks above
         for d in drawn:
             self.assertEqual(d[3:], (B.COLOUR, B.XSCALE, B.YSCALE))
+
+    def test_stacking_is_capped(self):
+        # one-line speakers stack upwards; the fourth would cover the fight
+        rows = [row(82, '*', 'One.'), row(83, '*', 'Two.'), row(84, '*', 'Three.'), row(700, '', 'Four.')]
+        drawn, _, _ = run_hook([0, 1, 2], 1, {0: 82, 1: 83, 2: 84, 4: 700}, rows)
+        texts = [d[0] for d in drawn]
+        self.assertEqual(texts, ['Kyle: ', 'One.', 'Reala: ', 'Two.', 'Loni: ', 'Three.'])
+        self.assertTrue(all(d[2] >= B.TOP_Y for d in drawn))
+        # a first speaker always shows, even with the most lines
+        rows = [row(100, '', 'word ' * 30)]
+        drawn, _, _ = run_hook([1], 0, {0: 100}, rows)
+        self.assertEqual(len(drawn), B.MAX_LINES)
 
     def test_name_comes_from_the_actor(self):
         drawn, _, _ = run_hook([2, 0], 0, {0: 256}, self.ROWS)

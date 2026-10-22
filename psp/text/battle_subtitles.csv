@@ -511,14 +511,14 @@ voice_id,member,owner,speaker,seconds,japanese,english
 513,7766,Harold,*,1.14,私たちの手で,With our own hands.
 514,7767,Harold,*,1.87,成長してる感じがするし,I feel like I'm getting stronger.
 515,7768,Harold,*,1.71,私に勝てると思ったの？,Did you really think you could beat me?
-516,7185,party,,2.44,見たか？　見てねーよ！　見てろよ！,Did you see that?|Didn't see a thing!|Then watch next time!
-517,7186,party,,4.96,どうよ！女がほっとかないわけ、わかってくれた？　好きに言ってなさいよ,How's that? Now you see why the ladies can't resist me?|Say whatever you like.
-518,7187,party,,2.44,どう、カイル、私の実力は,"Well, Kyle? How's that for skill?"
-519,7188,party,,3.17,足さえ引っ張られなきゃこんなもんさ　はぁ？,That's what happens when nobody's holding me back.|Excuse me?
+516,7185,party,,2.44,見たか？　見てねーよ！　見てろよ！,Kyle: Did you see that?|Loni: Didn't see a thing!|Kyle: Then watch next time!
+517,7186,party,,4.96,どうよ！女がほっとかないわけ、わかってくれた？　好きに言ってなさいよ,Loni: How's that? Now you see why the ladies can't resist me?|Nanaly: Say whatever you like.
+518,7187,party,Reala,2.44,どう、カイル、私の実力は,"Well, Kyle? How's that for skill?"
+519,7188,party,,3.17,足さえ引っ張られなきゃこんなもんさ　はぁ？,Judas: That's what happens when nobody's holding me back.|Loni: Excuse me?
 520,7189,party,,1.87,俺たちは負けない！,We won't lose!
-521,7190,party,,3.17,おう、カイル！もうへばったか！　くそっ！,"Hey, Kyle! Worn out already?|Damn it!"
-522,7191,party,,3.74,誰か俺の毒治してくれてもいいだろ？　ああ、ごめんごめん,"Couldn't someone cure my poison?|Oh, sorry, sorry."
-523,7192,party,,1.54,邪魔をするなと言っただろう,I told you not to get in my way.
+521,7190,party,,3.17,おう、カイル！もうへばったか！　くそっ！,"Loni: Hey, Kyle! Worn out already?|Kyle: Damn it!"
+522,7191,party,,3.74,誰か俺の毒治してくれてもいいだろ？　ああ、ごめんごめん,"Loni: Couldn't someone cure my poison?|Reala: Oh, sorry, sorry."
+523,7192,party,Judas,1.54,邪魔をするなと言っただろう,I told you not to get in my way.
 524,7193,party,,4.96,ふぅ、ちょっと戦闘能力を計算し直した方がいいから回復!,Phew! Our fighting strength needs recalculating. Healing!
 525,7194,party,*,0.89,まっかせて！,Leave it to me!
 526,7195,party,*,1.71,え？最初から？,Huh? From the start?
@@ -552,7 +552,7 @@ voice_id,member,owner,speaker,seconds,japanese,english
 554,7223,party,*,1.87,攻撃一辺倒で済むと思うな！,Don't think just attacking will cut it!
 555,7224,party,*,0.98,って、はじかれた！,"Whoa, it bounced off!"
 556,7225,party,*,2.84,スピリッツが少ない時に攻撃するな！弾かれるぞ！,Don't attack when your SP is low! You'll get knocked back!
-557,7226,party,,3.41,アイテム係ご苦労だったな　勝手に係に任命するな,Thanks for handling the items.|Who put me on item duty?!
+557,7226,party,,3.41,アイテム係ご苦労だったな　勝手に係に任命するな,Judas: Thanks for handling the items.|Loni: Who put me on item duty?!
 558,7227,party,*,1.71,なんだ、この魔法陣は,What is this magic circle?
 559,7228,party,*,0.65,これは！,What's this?!
 560,7229,party,*,3.09,まずいな、この魔法陣に入っちまうと毒になっちまうらしい,Not good. Step into this magic circle and you get poisoned.
@@ -747,58 +747,58 @@ voice_id,member,owner,speaker,seconds,japanese,english
 749,7939,boss,,0.65,ふっ,
 750,7940,boss,,0.81,うううううう,
 751,7941,boss,,1.22,ハッハッハッハッハッ,
-752,7942,boss,,0.98,愚かな,Fools.
-753,7943,boss,,2.36,神を超えるというのか,You would surpass a god?
-754,7944,boss,,3.17,戦う前から分かっていたことだ,I knew it before we even fought.
+752,7942,boss,Elrane,0.98,愚かな,Fools.
+753,7943,boss,Elrane,2.36,神を超えるというのか,You would surpass a god?
+754,7944,boss,Elrane,3.17,戦う前から分かっていたことだ,I knew it before we even fought.
 755,7945,boss,,0.98,デルタレイ!,
 756,7946,boss,,1.71,トリニティスパーク,
 757,7947,boss,,1.63,プリズムフラッシャー,
 758,7948,boss,,1.95,シャイニングスピア,
 759,7949,boss,,1.79,ディバインセイバー,
-760,7950,boss,,2.76,人は神には勝てないのだ,Humans cannot defeat a god.
-761,7951,boss,,2.68,力の違いを見せてやろう,Let me show you the difference in our power.
+760,7950,boss,Elrane,2.76,人は神には勝てないのだ,Humans cannot defeat a god.
+761,7951,boss,Elrane,2.68,力の違いを見せてやろう,Let me show you the difference in our power.
 762,7952,boss,,2.36,インディグネイトジャッジメント,
-763,7953,boss,,2.84,これ以上抗うというのなら,If you insist on resisting further...
-764,7954,boss,,3.66,せめて一瞬で葬り去るが慈悲,...a swift end is the only mercy I can offer.
-765,7955,boss,,2.19,さらばだ、未来永劫！,"Farewell, for all eternity!"
-766,7956,boss,,1.54,まだ立てるのか？,You can still stand?
+763,7953,boss,Elrane,2.84,これ以上抗うというのなら,If you insist on resisting further...
+764,7954,boss,Elrane,3.66,せめて一瞬で葬り去るが慈悲,...a swift end is the only mercy I can offer.
+765,7955,boss,Elrane,2.19,さらばだ、未来永劫！,"Farewell, for all eternity!"
+766,7956,boss,Elrane,1.54,まだ立てるのか？,You can still stand?
 767,7957,boss,,1.63,エンシェントノーバ,
 768,7958,boss,,1.79,インブレイセンド,
 769,7959,boss,,1.71,フィアフルストーム,
 770,7960,boss,,1.71,グランバニッシュ,
-771,7961,boss,,2.28,これでもまだ抗うのか,Still you resist?
-772,7962,boss,,2.28,これで終わりと思ったか？,Did you think that was the end?
-773,7963,boss,,4.47,いでよ、虚空より来たれり数多の星屑,"Come forth, countless stardust from the void!"
-774,7964,boss,,3.49,無限の流星、我が敵を滅せよ！,"Endless meteors, destroy my enemies!"
-775,7965,boss,,3.41,母なる海にて終焉を迎えよ,Meet your end in the mother sea.
-776,7966,boss,,5.93,すべては終わる。すでに一筋の希望もあらず,All things end. Not a single ray of hope remains.
+771,7961,boss,Elrane,2.28,これでもまだ抗うのか,Still you resist?
+772,7962,boss,Elrane,2.28,これで終わりと思ったか？,Did you think that was the end?
+773,7963,boss,Elrane,4.47,いでよ、虚空より来たれり数多の星屑,"Come forth, countless stardust from the void!"
+774,7964,boss,Elrane,3.49,無限の流星、我が敵を滅せよ！,"Endless meteors, destroy my enemies!"
+775,7965,boss,Elrane,3.41,母なる海にて終焉を迎えよ,Meet your end in the mother sea.
+776,7966,boss,Elrane,5.93,すべては終わる。すでに一筋の希望もあらず,All things end. Not a single ray of hope remains.
 777,7967,boss,,0.65,ふっ,
 778,7968,boss,,0.65,ふっ,
 779,7969,boss,,0.65,ん,
 780,7970,boss,,0.81,なに!?,
 781,7971,boss,,0.65,イデオ!,
-782,7972,boss,,0.81,無駄です！,Futile!
-783,7973,boss,,0.73,もろい,Fragile.
-784,7974,boss,,7.31,消える…消えると…言うのか,Vanish...? You mean I'm going to vanish...?!
-785,7975,boss,,6.83,無益だということも無駄だということも、何故に理解しないのですか,"Why can you not understand that this is futile, that it is pointless?"
+782,7972,boss,Fortuna,0.81,無駄です！,Futile!
+783,7973,boss,Fortuna,0.73,もろい,Fragile.
+784,7974,boss,Fortuna,7.31,消える…消えると…言うのか,Vanish...? You mean I'm going to vanish...?!
+785,7975,boss,Fortuna,6.83,無益だということも無駄だということも、何故に理解しないのですか,"Why can you not understand that this is futile, that it is pointless?"
 786,7976,boss,,1.14,グランバニッシュ,
 787,7977,boss,,1.06,インブレイスエンド,
 788,7978,boss,,1.06,エンシェントノバ,
 789,7979,boss,,1.06,フェアフルストーム,
 790,7980,boss,,1.22,ディヴァインシーバー,
 791,7981,boss,,0.98,エクセキューション,
-792,7982,boss,,1.06,さようなら,Farewell.
-793,7983,boss,,2.28,力の違いを見せましょう,Allow me to show you the difference in our power.
-794,7984,boss,,2.76,絶対的な差を思い知るがいい,Learn how absolute the gap between us is.
+792,7982,boss,Fortuna,1.06,さようなら,Farewell.
+793,7983,boss,Fortuna,2.28,力の違いを見せましょう,Allow me to show you the difference in our power.
+794,7984,boss,Fortuna,2.76,絶対的な差を思い知るがいい,This is the absolute gap between us.
 795,7985,boss,,1.71,インディグネイトジャッジメント,
-796,7986,boss,,2.28,これ以上は時間の無駄です,Anything more would be a waste of time.
-797,7987,boss,,2.52,これで終わりにしましょう,Let us end this.
+796,7986,boss,Fortuna,2.28,これ以上は時間の無駄です,Anything more would be a waste of time.
+797,7987,boss,Fortuna,2.52,これで終わりにしましょう,Let us end this.
 798,7988,boss,,1.22,ラストバニッシャー,
-799,7989,boss,,2.76,抗うというのですね,So you will resist.
-800,7990,boss,,1.79,もう終わりですか？,Finished already?
-801,7991,boss,,1.14,愚かな,How foolish.
-802,7992,boss,,3.09,終わりです。何もかも,It is over. All of it.
-803,7993,boss,,2.52,跡形もなく消えましたか,"Gone without a trace, have they?"
+799,7989,boss,Fortuna,2.76,抗うというのですね,So you will resist.
+800,7990,boss,Fortuna,1.79,もう終わりですか？,Finished already?
+801,7991,boss,Fortuna,1.14,愚かな,How foolish.
+802,7992,boss,Fortuna,3.09,終わりです。何もかも,It is over. All of it.
+803,7993,boss,Fortuna,2.52,跡形もなく消えましたか,"Gone without a trace, have they?"
 804,7994,boss,,0.65,いない?,
 805,7995,boss,,0.65,何?,
 806,7996,boss,,0.65,ヘッ!,
@@ -816,17 +816,17 @@ voice_id,member,owner,speaker,seconds,japanese,english
 818,8008,boss,,1.38,ライトニングハウンド,
 819,8009,boss,,2.60,王に雷山豪天撃!,
 820,8010,boss,,2.76,奥義 神来昇竜劇,
-821,8011,boss,,0.98,どうやらあなたも,It seems you too...
-822,8012,boss,,1.14,私に勝てないようね,...can't beat me.
-823,8013,boss,,1.46,これで終わりね！,This is the end!
-824,8014,boss,,3.41,極限の雷、決着の時を与えよ！,"Ultimate thunder, bring the moment of reckoning!"
-825,8015,boss,,1.14,それで勝ったつもり？,You think you won with that?
-826,8016,boss,,1.14,勝負の切り札は,A trump card...
+821,8011,boss,Fortuna,0.98,どうやらあなたも,It seems you too...
+822,8012,boss,Fortuna,1.14,私に勝てないようね,...can't beat me.
+823,8013,boss,Fortuna,1.46,これで終わりね！,This is the end!
+824,8014,boss,Fortuna,3.41,極限の雷、決着の時を与えよ！,"Ultimate thunder, bring the moment of reckoning!"
+825,8015,boss,Fortuna,1.14,それで勝ったつもり？,You think you won with that?
+826,8016,boss,Fortuna,1.14,勝負の切り札は,A trump card...
 827,8017,boss,,0.81,最後まで!,
-828,8018,boss,,1.14,取っておくものだよ！,...is something you save for last!
+828,8018,boss,Fortuna,1.14,取っておくものだよ！,...is something you save for last!
 829,8019,boss,,0.65,それが,
 830,8020,boss,,1.22,あなたの敗演!,
-831,8021,boss,,0.73,残念ね,Too bad.
+831,8021,boss,Fortuna,0.73,残念ね,Too bad.
 832,8022,boss,,0.65,シリー,
 833,8023,boss,,0.65,のけ,
 834,8024,boss,,0.65,それ,
