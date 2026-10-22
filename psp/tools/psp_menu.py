@@ -190,7 +190,90 @@ SJIS_ADDRESSED = [
 ]
 
 
+# Refine prefixes (psp_refine.tsv). The table at file 0x21A678 holds per
+# enchant six pointers: the effect line, then five prefixes, all strings in
+# REFINE_AREA. A refined item's name is built at display time: strcpy of the
+# prefix, then the item name right behind it (0xECEA4), so the English
+# prefix carries its own trailing space ("Rune Axe", not "RuneAxe"). Patched
+# by address, because the same katakana words are other things elsewhere
+# (マスター is the Bartender NPC, プリースト the Priestess, ナイツ...). A
+# prefix whose English with the space is longer than the Japanese goes to
+# the pool by address (psp_pool.relocate_menu, refine_prefixes on the boot it
+# gets); the key based passes leave every prefix address alone.
+REFINE_TABLE = os.path.join(HERE, 'psp_refine.tsv')
+REFINE_AREA = (0x1A23C8, 0x1A4190)
+_KATAKANA = set('ァアィイゥウェエォオカガキギクグケゲコゴサザシジスズセゼソゾタダチヂッツヅテデトドナニヌネノ'
+                'ハバパヒビピフブプヘベペホボポマミムメモャヤュユョヨラリルレロヮワヰヱヲンヴー・')
+
+
+def load_refine(path=REFINE_TABLE):
+    out = {}
+    for line in open(path, encoding='utf-8'):
+        if line.startswith('#') or not line.strip():
+            continue
+        p = line.rstrip('\n').split('\t')
+        out[p[0]] = p[1].strip() + ' '
+    return out
+
+
+def refine_prefixes(boot, table=None):
+    """[(file offset, japanese, english with the space)] for every prefix of
+    REFINE_AREA that is still Japanese (katakana only) in this boot."""
+    if boot[:4] != b'\x7fELF' or len(boot) < REFINE_AREA[1]:
+        return []              # synthetic test data
+    table = load_refine() if table is None else table
+    out = []
+    p, end = REFINE_AREA
+    while p < end:
+        if boot[p] == 0:
+            p += 1
+            continue
+        e = boot.index(b'\0', p)
+        try:
+            s = psp_text.decode_string(boot, p)
+        except Exception:
+            s = ''
+        if s and set(s) <= _KATAKANA and s in table:
+            out.append((p, s, table[s]))
+        p = e + 1
+    return out
+
+
+# Code changes by address: (file offset, retail word, new word, why).
+CODE_PATCHES = [
+    # Save list detail line "Reala    r Lv:114" (playtest tab 13). 0x169E94
+    # copies the party name into a 13 byte field (record +1..+0xD, level at
+    # +0xE) and pads it with full-width spaces two bytes at a time while the
+    # write pointer is below record +0xC. Japanese names are even byte
+    # lengths; an odd ASCII name (Reala, Judas: 5 bytes) makes the last pair
+    # land on +0xC/+0xD and the NUL on +0xE, which the level byte then
+    # overwrites (114 = 'r'), so the name ran into the level. The bound
+    # +0xB keeps even names exactly as retail and stops odd ones one pair
+    # earlier (NUL at +0xC).
+    (0x16A020, 0x2625000C, 0x2625000B, 'addiu $a1, $s1, 0xc -> 0xb (save detail name padding)'),
+]
+
+
+def patch_code(b, st):
+    import struct
+    for fo, old, new, _ in CODE_PATCHES:
+        w = struct.unpack_from('<I', b, fo)[0]
+        if w == old:
+            struct.pack_into('<I', b, fo, new)
+            st['code'] += 1
+        elif w != new:
+            st['code_skipped'] += 1
+
+
 def patch_addressed(b, st):
+    patch_code(b, st)
+    for fo, jp, en in refine_prefixes(bytes(b)):
+        jb, eb = encode_keys(jp)[0], encode_en(en)
+        if len(eb) <= len(jb) and bytes(b[fo:fo + len(jb) + 1]) == jb + b'\x00':
+            b[fo:fo + len(jb)] = eb + b'\x00' * (len(jb) - len(eb))
+            st['refine'] += 1
+        else:
+            st['refine_to_pool'] += 1
     for fo, jp, en in SJIS_ADDRESSED:
         jb, eb = jp.encode('cp932'), en.encode('ascii')
         if bytes(b[fo:fo + len(jb) + 1]) != jb + b'\x00' or len(eb) > len(jb):
@@ -224,6 +307,8 @@ def patch_menu(boot, table=None):
     st = collections.Counter()
     if boot[:4] == b'\x7fELF':
         patch_addressed(b, st)
+    # prefixes that did not fit stay Japanese here for the pool
+    protected = {fo for fo, _, _ in refine_prefixes(bytes(b))} if boot[:4] == b'\x7fELF' else set()
     # longest keys first: a whole record is patched before any shorter key
     # that also occurs inside it
     for jp, en in sorted(table, key=lambda t: -len(t[0])):
@@ -247,6 +332,8 @@ def patch_menu(boot, table=None):
                 if idx < 0:
                     break
                 i = idx + 1
+                if idx in protected:
+                    continue
                 if string_start(b, idx) or idx in refs:
                     b[idx:idx + len(pad)] = rep
                     hit += 1

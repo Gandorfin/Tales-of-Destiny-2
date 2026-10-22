@@ -170,3 +170,49 @@ class InlineBannerTests(unittest.TestCase):
         # 0A, any argument byte, 2..14 two-byte codes, NUL
         self.assertEqual(len(psp_menu.INLINE_BANNERS), 14)
         self.assertEqual(len({fo for fo, _, _ in psp_menu.INLINE_BANNERS}), 14)
+
+
+class RefinePrefixTests(unittest.TestCase):
+    def test_table(self):
+        t = psp_menu.load_refine()
+        self.assertGreater(len(t), 400)
+        for jp, en in t.items():
+            self.assertTrue(en.endswith(' ') and not en.endswith('  '), (jp, en))
+            self.assertTrue(en.strip().isascii() and en.strip(), (jp, en))
+        # the PS2 prefix, not the wording the same katakana has elsewhere
+        self.assertEqual(t['マスター'], 'Master ')
+        self.assertEqual(t['ルーン'], 'Rune ')
+
+    def test_synthetic_data_has_no_prefixes(self):
+        self.assertEqual(psp_menu.refine_prefixes(b'\0' * 64), [])
+
+
+class CodePatchTests(unittest.TestCase):
+    def test_save_detail_bound(self):
+        (fo, old, new, _), = psp_menu.CODE_PATCHES
+        # addiu $a1, $s1, imm: only the immediate changes
+        self.assertEqual(old >> 16, 0x2625)
+        self.assertEqual(new >> 16, 0x2625)
+        self.assertEqual((old & 0xFFFF, new & 0xFFFF), (0xC, 0xB))
+
+    def test_patch_only_the_retail_word(self):
+        import struct, collections
+        fo, old, new, _ = psp_menu.CODE_PATCHES[0]
+        b = bytearray(fo + 8)
+        st = collections.Counter()
+        psp_menu.patch_code(b, st)
+        self.assertEqual(st['code_skipped'], 1)
+        struct.pack_into('<I', b, fo, old)
+        psp_menu.patch_code(b, st)
+        self.assertEqual(struct.unpack_from('<I', b, fo)[0], new)
+
+
+class PlainNumberTests(unittest.TestCase):
+    def test_number_mode_dropped(self):
+        line = 'I can sell you {16}{25}{74}{C0} for <0B:00000001>{14}{35}{70}{C0}<0B:00000000> Gald.'
+        self.assertEqual(psp_text.plain_numbers([line, 'Would you like to buy it?']),
+                         ['I can sell you {16}{25}{74}{C0} for {14}{35}{70}{C0} Gald.', 'Would you like to buy it?'])
+
+    def test_choice_records_keep_their_codes(self):
+        rec = ['<03:00000000><0B:00000001>NO.{14}{14}{76}{C0}', 'x<0B:00000000>']
+        self.assertEqual(psp_text.plain_numbers(rec), rec)
