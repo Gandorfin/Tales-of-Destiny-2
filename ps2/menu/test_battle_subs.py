@@ -1,7 +1,7 @@
 """Run: python3 -B -m unittest discover -s ps2/menu -p 'test_battle_subs.py'
 
-battle_subs.py: the frame hook appended to the battle module, the text
-member added to 00017.pak3, and the subtitle table."""
+battle_subs.py: the trampoline in the battle module, the hook code and
+text in the member added to 00017.pak3, and the subtitle table."""
 import csv, os, struct, sys, unittest
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -11,7 +11,7 @@ import lzss
 import pak3
 
 
-def fake_container(module_size=0x5368C):
+def fake_container(module_size=B.MODULE_END - B.BASE):
     """Three compressed members like 00017.pak3; member 0 has the frame call."""
     module = bytearray(module_size)
     struct.pack_into('<I', module, B.HOOK, B.jal(B.FRAME))
@@ -140,19 +140,38 @@ class Container(unittest.TestCase):
         self.assertEqual(len(members), 4)
         self.assertEqual([lzss.unpack(m) for m in members[1:3]], others)
         module = lzss.unpack(members[0])
-        self.assertEqual(struct.unpack_from('<I', module, B.HOOK)[0], B.jal(info['code_at']))
-        self.assertEqual(info['code_at'], B.BASE + 0x53690)
-        self.assertLessEqual(info['module_end'], B.HEAP)
-        self.assertEqual(module[-12:-4], B.TRAILER)
+        self.assertEqual(struct.unpack_from('<I', module, B.HOOK)[0], B.jal(B.TRAMPOLINE))
+        self.assertEqual(info['trampoline_at'], B.TRAMPOLINE)
+        t = B.TRAMPOLINE - B.BASE
+        self.assertEqual(module[t:t + B.TRAMPOLINE_SIZE], B.trampoline_code())
+        # the module keeps its size: nothing lands where the boss overlays load
+        self.assertEqual(len(module), B.MODULE_END - B.BASE)
+        self.assertEqual(info['module_end'], B.MODULE_END)
         self.assertTrue(B.is_data(members[3]))
         self.assertEqual(info['lines'], 1)
         # a second run replaces code and text instead of stacking them
         again, info2 = B.patch_container(out, [row(82, 'Kyle', 'Changed.')])
         members2 = [b for _, b in pak3.parse(again)]
         self.assertEqual(len(members2), 4)
-        self.assertEqual(len(lzss.unpack(members2[0])), len(module))
+        self.assertEqual(lzss.unpack(members2[0]), module)
         self.assertIn(b'Kyle: Changed.\0', members2[3])
         self.assertNotIn(b'We did it', members2[3])
+
+    def test_old_appended_code_removed(self):
+        """A container patched by the 1.3.2 version (code appended after the
+        module end, at the boss overlay address) is cleaned up."""
+        data, _ = fake_container()
+        module = bytearray(lzss.unpack(pak3.parse(data)[0][1]))
+        original = len(module)
+        module += bytes(4) + b'\x01' * 0x20C + B.TRAILER + struct.pack('<I', original)
+        struct.pack_into('<I', module, B.HOOK, B.jal(B.BASE + original + 4))
+        members = [b for _, b in pak3.parse(data)]
+        old = pak3.build([lzss.pack(bytes(module), 3)] + members[1:] + [B.build_data([row(82, 'Kyle', 'Old.')])[0]])
+        out, info = B.patch_container(old, [row(82, 'Kyle', 'New.')])
+        fixed = lzss.unpack(pak3.parse(out)[0][1])
+        self.assertEqual(len(fixed), original)
+        self.assertEqual(struct.unpack_from('<I', fixed, B.HOOK)[0], B.jal(B.TRAMPOLINE))
+        self.assertNotIn(B.TRAILER, fixed)
 
     def test_unknown_module_refused(self):
         module = bytearray(0x1000)
@@ -160,20 +179,31 @@ class Container(unittest.TestCase):
         with self.assertRaises(ValueError):
             B.patch_container(data, [])
 
-    def test_too_big_refused(self):
-        data, _ = fake_container(B.HEAP - B.BASE - 64)
+    def test_other_module_size_refused(self):
+        data, _ = fake_container(B.MODULE_END - B.BASE + 16)
+        with self.assertRaises(ValueError):
+            B.patch_container(data, [])
+
+    def test_used_padding_refused(self):
+        module = bytearray(B.MODULE_END - B.BASE)
+        struct.pack_into('<I', module, B.HOOK, B.jal(B.FRAME))
+        module[B.TRAMPOLINE - B.BASE + 8] = 1
+        data = pak3.build([lzss.pack(bytes(module), 3), lzss.pack(b'a', 3), lzss.pack(b'b', 3)])
         with self.assertRaises(ValueError):
             B.patch_container(data, [])
 
     def test_data_layout(self):
-        """The hook reads 'BSUB' at member offset + 12, six names, entries of
-        16 bytes (id, x, dy, block height, string offset from 'BSUB', flags)."""
+        """The hook reads 'BSUB' at member offset + 12, six names, its own code
+        at CODE_AT, entries of 16 bytes (id, x, dy, block height, string
+        offset from 'BSUB', flags) at ENTRIES."""
         blob, n = B.build_data([row(510, 'Harold', 'word ' * 15)])
         self.assertEqual(n, 2)
         self.assertEqual(blob[0], 0)
         self.assertEqual(struct.unpack_from('<I', blob, 1)[0], len(blob) - 9)
         self.assertEqual(blob[12:16], B.MAGIC)
         payload = blob[12:]
+        self.assertEqual(payload[B.CODE_AT:B.ENTRIES], B.hook_code(B.ENTRIES))
+        self.assertEqual(B.ENTRIES % 4, 0)
         count = struct.unpack_from('<I', payload, 4)[0]
         lines = []
         for k in range(count):
@@ -204,30 +234,50 @@ class Container(unittest.TestCase):
 
 class Hook(unittest.TestCase):
     def test_code_shape(self):
-        code = B.hook_code(0x302110)
+        code = B.hook_code(B.ENTRIES)
         words = struct.unpack('<%dI' % (len(code) // 4), code)
         self.assertIn(B.jal(B.FRAME), words)
         self.assertIn(B.jal(B.TEXT), words)
         self.assertEqual(words[-2], B.JR_RA)
-        self.assertLess(len(code), 0x280)
+        self.assertEqual(len(code), B.CODE_SIZE)
+        # position independent: no jal into the code itself
+        for w in words:
+            if w >> 26 == 3:
+                self.assertIn((w & 0x3FFFFFF) << 2, (B.FRAME, B.TEXT))
 
-    def run_hook(self, party, enemies, voices, rows):
-        """Run the hook on a fake battle; returns the strings drawn, in order."""
+    def test_trampoline_shape(self):
+        words = struct.unpack('<7I', B.trampoline_code())
+        self.assertEqual(words[5], B.jr('v0'))
+        # only v0 (2) and v1 (3) are written: arguments for the frame function stay
+        for w in words:
+            op = w >> 26
+            if op in (9, 15, 35):
+                self.assertIn((w >> 16) & 31, (2, 3))
+            elif op == 0 and w & 63 == 0x21:
+                self.assertIn((w >> 11) & 31, (2, 3))
+
+    def run_hook(self, party, enemies, voices, rows, pak=0x1000000):
+        """Run trampoline + hook on a fake battle; returns the strings drawn, in order."""
         drawn, frames = [], []
-        m = Machine({B.FRAME: lambda r: frames.append(1),
+        m = Machine({B.FRAME: lambda r: frames.append(tuple(r[4:12])),
                      B.TEXT: lambda r: drawn.append((m.string(r[6]), r[4], r[5]))})
         blob, _ = B.build_data(rows)
-        pak = 0x1000000
         container = pak3.build([b'a', b'b', b'c', blob])
         m.load(pak, container)
         m.write(B.PAK_POINTER, 4, pak)
         battle(m, party, enemies, voices)
-        origin = 0x302110
-        m.load(origin, B.hook_code(origin))
+        m.load(B.TRAMPOLINE, B.trampoline_code())
         m.r[29] = 0x1F00000
-        m.call(origin)
-        self.assertEqual(frames, [1])
+        m.r[4:12] = list(range(0x111, 0x119))
+        m.call(B.TRAMPOLINE)
+        # the frame function ran once, with the caller's arguments untouched
+        self.assertEqual(frames, [tuple(range(0x111, 0x119))])
         return drawn
+
+    def test_hook_runs_from_any_heap_address(self):
+        rows = [row(82, '*', 'We did it!')]
+        for pak in (0x1000000, 0x3A2C40, 0x1D5F004):
+            self.assertEqual([d[0] for d in self.run_hook([0], [], {0: 82}, rows, pak)], ['Kyle: ', 'We did it!'])
 
     def test_hook_party_and_enemies(self):
         rows = [row(82, '*', 'We did it!'), row(700, '', 'Boss line.'), row(5, '*', '')]
