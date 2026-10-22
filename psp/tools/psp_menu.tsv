@@ -3,14 +3,14 @@ HPとTPが自動で回復する	Automatic HP and TP recovery	22	28	reuse
 HP回復	HP Rec	6	6	reuse
 SP分与	SP Share	6	8	reuse
 SP回復	SP Rec	6	6	reuse
-SP回復力とTP回復力が上昇	Increases SP Regen and TP Regen	24	31	reuse
+SP回復力とTP回復力が上昇	Increases SP and TP Regen	24	25	reuse
 SP減少軽減	Conserve SP	10	11	reuse
 SP転換	SP Transfer	6	11	reuse
-SP軽減力とTP軽減力が上昇	Increases SP Reduction and TP Reduction	24	39	reuse
+SP軽減力とTP軽減力が上昇	Increases SP and TP Reduction	24	29	reuse
 TP回復	TP Rec	6	6	reuse
 TP減少軽減	TP Conservation	10	15	reuse
 TP転換	TP Transfer	6	11	reuse
-TP軽減力とTP回復力が上昇する	Increases TP Reduction and TP Regen	28	35	reuse
+TP軽減力とTP回復力が上昇する	Increases TP Reduction and Regen	28	32	reuse
 「神の眼」まで急ごう！	Hurry to the Eye of Atamoni!	22	28	reuse
 」を得ました	" as a title!	12	13	reuse
 あいさつまわり	Making the Rounds	14	17	reuse
@@ -193,7 +193,7 @@ TP軽減力とTP回復力が上昇する	Increases TP Reduction and TP Regen	28	
 インスペクト	Inspect	12	7	reuse
 インディグネイト・ジャッジメント	Indignate Judgment	32	18	reuse
 インビジブル	Invisible	12	9	reuse
-インブレイスエンド	Finl Embrc	18	10	reuse
+インブレイスエンド	Final Embrace	18	13	ps2
 インプレス	Impress	10	7	reuse
 インヴァリド	Invalid	12	7	reuse
 イーサー	Aether	8	6	reuse
@@ -230,7 +230,7 @@ TP軽減力とTP回復力が上昇する	Increases TP Reduction and TP Regen	28	
 ウロボロス	Uroboros	10	8	reuse
 ウンディーネ	Undine	12	6	reuse
 ウーリー	Wool	8	4	reuse
-エアプレッシャー	Air Press.	16	10	reuse
+エアプレッシャー	Air Pressure	16	12	ps2
 エアリアル	Aerial	10	6	reuse
 エイセンケン	Eisenken	12	8	reuse
 エイミング	Aiming	10	6	reuse
@@ -267,7 +267,7 @@ TP軽減力とTP回復力が上昇する	Increases TP Reduction and TP Regen	28	
 エンカウント不能	Cannot battle.	16	14	reuse
 エンカウント無効	No Encounters	16	13	reuse
 エンシェント	Ancient	12	7	reuse
-エンシェントノヴァ	Anc. Nova	18	9	reuse
+エンシェントノヴァ	Ancient Nova	18	12	ps2
 エンジェル	Angel	10	5	reuse
 エンジェルブレスレット	Angel Bracelet	22	14	reuse
 エンジェルリング	Angel Ring	16	10	reuse
@@ -396,7 +396,7 @@ TP軽減力とTP回復力が上昇する	Increases TP Reduction and TP Regen	28	
 クリームシチュー	Cream Stew	16	10	reuse
 クリーヴァ	Cleaver	10	7	reuse
 クルセイダー	Crusader	12	8	reuse
-クレイジーコメット	CrazyComet	18	10	reuse
+クレイジーコメット	Crazy Comet	18	11	ps2
 クレイモア	Claymore	10	8	reuse
 クレスタの街	Cresta	12	6	reuse
 クレスタ～アイグレッテ	Cresta to Aigrette	22	18	reuse
@@ -423,7 +423,7 @@ TP軽減力とTP回復力が上昇する	Increases TP Reduction and TP Regen	28	
 グランドファーザー	Grandfather	18	11	reuse
 グランドプレート	Grand Plate	16	11	reuse
 グランドヘルム	Grand Helm	14	10	reuse
-グランヴァニッシュ	Grnd Vansh	18	10	reuse
+グランヴァニッシュ	Ground Vanish	18	13	ps2
 グリズリー	Grizzly	10	7	reuse
 グリフィン	Griffin	10	7	reuse
 グリフィンズタロン	Griffin's Talon	18	15	reuse
@@ -530,7 +530,7 @@ TP軽減力とTP回復力が上昇する	Increases TP Reduction and TP Regen	28	
 シャイニングスピア	Shining Spear	18	13	reuse
 シャケ	Salmon	6	6	reuse
 シャドウ	Shadow	8	6	reuse
-シャドウエッジ	ShadowEdge	14	10	reuse
+シャドウエッジ	Shadow Edge	14	11	ps2
 シャドウファング	Shadowfang	16	10	reuse
 シャムシール	Shamshir	12	8	reuse
 シャークトゥース	Shark Tooth	16	11	reuse
@@ -604,7 +604,7 @@ TP軽減力とTP回復力が上昇する	Increases TP Reduction and TP Regen	28	
 ステンレスのフライパン	Stainless Frying Pan	22	20	reuse
 ステーキ	Steak	8	5	reuse
 ステータス	Status	10	6	reuse
-ステータス異常を防ぐ確率上昇	Increases status ailment resistance	28	35	reuse
+ステータス異常を防ぐ確率上昇	Increases ailment resistance	28	28	reuse
 ストライク	Strike	10	6	reuse
 ストライクイーグル	Strike Eagle	18	12	reuse
 ストライプ	Striped	10	7	reuse
@@ -615,7 +615,7 @@ TP軽減力とTP回復力が上昇する	Increases TP Reduction and TP Regen	28	
 ストロング	Strong	10	6	reuse
 ストーム	Storm	8	5	reuse
 ストームブリンガー	Stormbringer	18	12	reuse
-ストーンザッパー	Stn Zapper	16	10	reuse
+ストーンザッパー	Stone Zapper	16	12	ps2
 スナッチャー	Snatcher	12	8	reuse
 スノーフリア	Frostheim	12	9	reuse
 スパイカー	Spiker	10	6	reuse
@@ -637,7 +637,7 @@ TP軽減力とTP回復力が上昇する	Increases TP Reduction and TP Regen	28	
 スペル	Spell	6	5	reuse
 スマイルウェイトレス	Smiling Waitress	20	16	reuse
 スライト	Sleight	8	7	reuse
-スラストファング	ThrustFang	16	10	reuse
+スラストファング	Thrust Fang	16	11	ps2
 スリヴァー	Sliver	10	6	reuse
 スレイヤー	Slayer	10	6	reuse
 スロットレベル	Slot Level	14	10	reuse
@@ -764,7 +764,7 @@ TP軽減力とTP回復力が上昇する	Increases TP Reduction and TP Regen	28	
 ディアボリックファング	Diabolic Fang	22	13	reuse
 ディザスター	Disaster	12	8	reuse
 ディジーズ	Diseased	10	8	reuse
-ディバインセイバー	Div. Saber	18	10	reuse
+ディバインセイバー	Divine Saber	18	12	ps2
 ディフェンス	Defense	12	7	reuse
 ディヴァインクレスト	Divine Crest	20	12	reuse
 ディヴァインロッド	Divine Rod	18	10	reuse
@@ -842,7 +842,7 @@ TP軽減力とTP回復力が上昇する	Increases TP Reduction and TP Regen	28	
 ニットウェア	Knitwear	12	8	reuse
 ニンジン	Carrot	8	6	reuse
 ニンブル	Nimble	8	6	reuse
-ネガティブゲイト	Neg. Gate	16	9	reuse
+ネガティブゲイト	Negative Gate	16	13	ps2
 ネビュラ	Nebula	8	6	reuse
 ノイシュタット	Neuestadt	14	9	reuse
 ノイシュタットの港へ	To Neuestadt Port	20	17	reuse
@@ -910,7 +910,7 @@ TP軽減力とTP回復力が上昇する	Increases TP Reduction and TP Regen	28	
 バルビュータ	Barbuta	12	7	reuse
 バルムンク	Balmung	10	7	reuse
 バーミリオン	Vermilion	12	9	reuse
-バーンストライク	BurnStrike	16	10	reuse
+バーンストライク	Burn Strike	16	11	ps2
 パイルドライバー	Piledriver	16	10	reuse
 パイレックス	Pyrex	12	5	reuse
 パイングミ	Pineapple Gel	10	13	reuse
@@ -933,7 +933,7 @@ TP軽減力とTP回復力が上昇する	Increases TP Reduction and TP Regen	28	
 パーティのはじまりだぜ！	Let the Party Begin!	24	20	reuse
 パーティ表示	Party Display	12	13	reuse
 パーフェクト	Perfect	12	7	reuse
-ヒット時の敵の硬直時間を長くする	Increases the stun time incurred when anenemy is hit.	32	53	reuse
+ヒット時の敵の硬直時間を長くする	Increases the stun time incurred when an{01}enemy is hit.	32	54	reuse
 ヒレンザン	Hirenzan	10	8	reuse
 ヒーティング	Heating	12	7	reuse
 ヒートリバー	Heat River	12	10	reuse
@@ -965,7 +965,7 @@ TP軽減力とTP回復力が上昇する	Increases TP Reduction and TP Regen	28	
 ファンタジー	Fantasy	12	7	reuse
 ファントム	Phantom	10	7	reuse
 ファーヴァー	Fervor	12	6	reuse
-フィアフルストーム	Fear Storm	18	10	reuse
+フィアフルストーム	Fearful Storm	18	13	ps2
 フィート	Feat	8	4	reuse
 フィートシンボル	Warrior Symbol	16	14	reuse
 フィールド	Field	10	5	reuse
@@ -1017,7 +1017,7 @@ TP軽減力とTP回復力が上昇する	Increases TP Reduction and TP Regen	28	
 フレアスカート	Flare Skirt	14	11	reuse
 フレアボトル	Flare Bottle	12	12	reuse
 フレアマント	Flare Cape	12	10	reuse
-フレイムドライブ	FlameDrive	16	10	reuse
+フレイムドライブ	Flame Drive	16	11	ps2
 フレグランス	Fragrance	12	9	reuse
 フレッチ	Fletch	8	6	reuse
 フレンジーカスク	Frenzy Casque	16	13	reuse
@@ -1057,7 +1057,7 @@ TP軽減力とTP回復力が上昇する	Increases TP Reduction and TP Regen	28	
 プラネット	Planet	10	6	reuse
 プリシジョン	Precision	12	9	reuse
 プリズム	Prism	8	5	reuse
-プリズムフラッシャ	Prism Flsh	18	10	reuse
+プリズムフラッシャ	Prism Flasher	18	13	ps2
 プリティ	Pretty	8	6	reuse
 プリティミトン	Pretty Mittens	14	14	reuse
 プリティーウェイトレス	Pretty Waitress	22	15	reuse
@@ -1306,7 +1306,7 @@ TP軽減力とTP回復力が上昇する	Increases TP Reduction and TP Regen	28	
 レアガントレット	Rare Gauntlets	16	14	reuse
 レアメタル	Rare Metal	10	10	reuse
 レアルタに行くぞ!!	To Realta!!	18	11	reuse
-レイズデッド	Resurrect	12	9	reuse
+レイズデッド	Resurrection	12	12	ps2
 レイピア	Rapier	8	6	reuse
 レインボウ	Rain Bow	10	8	reuse
 レガシー	Legacy	8	6	reuse
@@ -1378,14 +1378,14 @@ TP軽減力とTP回復力が上昇する	Increases TP Reduction and TP Regen	28	
 ヴェール	Veil	8	4	reuse
 ヴォイド	Void	8	4	reuse
 ヴォルカニックレイ	Volcanic Ray	18	12	reuse
-ヴォルテックヒート	HeatVortex	18	10	reuse
+ヴォルテックヒート	Heat Vortex	18	11	ps2
 ヴォーパルウェポン	Vorpal Weapon	18	13	reuse
 ・・・・・	.....	10	5	reuse
 一人でも、ＨＰが２０％以下なら料理を行います	An ally has 20% or less HP	44	26	reuse
 一人でも、ＴＰが２０％以下なら料理を行います	An ally has 20% or less TP	44	26	reuse
 一夜漬け	Pickled Vegetables	8	18	reuse
 一定間隔でＨＰが回復する	HP regenerates at fixed intervals	24	33	reuse
-三つの光弾を同時に撃ち出す下級晶術	Low: Three blasts of light strikedown the enemy.	34	48	reuse
+三つの光弾を同時に撃ち出す下級晶術	Low: Three blasts of light strike{01}down the enemy.	34	49	reuse
 三人以上、ＨＰが８０％以下なら料理を行います	3+ allies have 80% or less HP	44	29	reuse
 三人以上、ＴＰが８０％以下なら料理を行います	3+ allies have 80% or less TP	44	29	reuse
 三徳包丁	All-Purpose Knife	8	17	reuse
@@ -1441,7 +1441,7 @@ TP軽減力とTP回復力が上昇する	Increases TP Reduction and TP Regen	28	
 先祖	Ancestor	4	8	reuse
 光のほこら	Shrine	10	6	reuse
 光のほこらへ	To the Shrine of Light	12	22	reuse
-光の洗礼を受けた七色の剣が降り注ぐ中級晶術	Mid: Swords baptized in the seven colors oflight rain down upon the enemy.	42	74	reuse
+光の洗礼を受けた七色の剣が降り注ぐ中級晶術	Mid: Swords baptized in the seven colors of{01}light rain down upon the enemy.	42	75	reuse
 光属性	Light	6	5	reuse
 光属性を付加する	Adds Light attribute	16	20	reuse
 光属性レベル	Light Level	12	11	reuse
@@ -1481,9 +1481,9 @@ TP軽減力とTP回復力が上昇する	Increases TP Reduction and TP Regen	28	
 千戦士	1000 Soldiers	6	13	reuse
 危険な宝	Dangerous Treasure	8	18	reuse
 危険な高さ	Dangerous Height	10	16	reuse
-双剣を交互に繰り出す四連撃の特技	Base: Performs a four-stroke attackwith two swords.	32	51	reuse
+双剣を交互に繰り出す四連撃の特技	Base: Performs a four-stroke attack{01}with two swords.	32	52	reuse
 反撃に努めろ	Counter	12	7	reuse
-取得Expが増加する	Increases experience points gained	17	34	reuse
+取得Expが増加する	Increases EXP gained	17	20	reuse
 取得ガルドが増加する	Increases Gald obtained	20	23	reuse
 取得料理を引き継いでゲーム開始できます	Carry over learned recipes.	38	27	reuse
 受けたダメージを時間回復	Gradually recover damage taken	24	30	reuse
@@ -1528,7 +1528,7 @@ TP軽減力とTP回復力が上昇する	Increases TP Reduction and TP Regen	28	
 地抵抗	Earth	6	5	reuse
 地耐性を得る	Adds Earth Resistance	12	21	reuse
 地耐性－	Damage Earth Res	8	16	reuse
-地面から発生した闇の刃が敵を貫く下級晶術	Low-Ext: A dark blade springs forth fromthe ground, piercing the enemy.	40	71	reuse
+地面から発生した闇の刃が敵を貫く下級晶術	Low-Ext: A dark blade springs forth from{01}the ground, piercing the enemy.	40	72	reuse
 城でまた一泊	Another Castle Night	12	20	reuse
 城で一泊しよう	A Night at the Castle	14	21	reuse
 城下町を観光しよう	Tour the Castle Town	18	20	reuse
@@ -1542,7 +1542,7 @@ TP軽減力とTP回復力が上昇する	Increases TP Reduction and TP Regen	28	
 多忙な英雄	Busy Hero	10	9	reuse
 夢の光景	Dreamscape	8	10	reuse
 大あくび	Big Yawn	8	8	reuse
-大地に衝撃を与え、数多の岩片を吹き飛ばす奥義	Arcane: Strikes the ground and releases aflurry of rock shards.	44	63	reuse
+大地に衝撃を与え、数多の岩片を吹き飛ばす奥義	Arcane: Strikes the ground and releases a{01}flurry of rock shards.	44	64	reuse
 大神殿	Grand Temple	6	12	reuse
 大神殿に乗り込め！	Storm the Grand Temple!	18	23	reuse
 大落下	Great Fall	6	10	reuse
@@ -1583,10 +1583,10 @@ TP軽減力とTP回復力が上昇する	Increases TP Reduction and TP Regen	28	
 寝る子は寝てる	Sleeping Child	14	14	reuse
 寝言	Sleep Talk	4	10	reuse
 対のスロットが低確率でLVUP	Low chance of leveling up companion slot	26	40	reuse
-対のスロットの効果上昇	Increases companion slot effectiveness	22	38	reuse
+対のスロットの効果上昇	Increases paired slot effect	22	28	reuse
 対スロットLV上昇	Anti-Slot LV up	16	15	reuse
-対空攻撃からの連続攻撃を繰り出す奥義	Arcane: A chain attack effective onaerial enemies.	36	50	reuse
-対空能力を持った二連斬りを繰り出す特技	Base: Performs a two-stroke attack thathits flying enemies.	38	59	reuse
+対空攻撃からの連続攻撃を繰り出す奥義	Arcane: A chain attack effective on{01}aerial enemies.	36	51	reuse
+対空能力を持った二連斬りを繰り出す特技	Base: Performs a two-stroke attack that{01}hits flying enemies.	38	60	reuse
 封印を解け	Break the Seal	10	14	reuse
 小屋	Hut	4	3	reuse
 小規模な竜巻を発生させる特技	Base: Creates a small tornado.	28	30	reuse
@@ -1657,7 +1657,7 @@ TP軽減力とTP回復力が上昇する	Increases TP Reduction and TP Regen	28	
 攻撃とクリティカルが上昇する	Attack and Critical UP	28	22	reuse
 攻撃と命中が上昇する	Increases Attack and Accuracy	20	29	reuse
 攻撃と最大HPが上昇	Increases Attack and Maximum HP	18	31	reuse
-攻撃中の敵に対して絶大な追尾性能を持つ特技	Base: Targets a moving enemy withperfect aim.	42	45	reuse
+攻撃中の敵に対して絶大な追尾性能を持つ特技	Base: Targets a moving enemy with{01}perfect aim.	42	46	reuse
 攻撃力	Attack	6	6	reuse
 攻撃力アップ	Increase Attack	12	15	reuse
 攻撃力－	Damage Attack	8	13	reuse
@@ -1670,7 +1670,7 @@ TP軽減力とTP回復力が上昇する	Increases TP Reduction and TP Regen	28	
 敵本拠地へ	To the Enemy Base	10	17	reuse
 料理	Cooking	4	7	reuse
 料理引継ぎ	Carry Recipes	10	13	reuse
-斬撃の真空波が三日月の軌跡を描く特技	Base: Slashes in the shape of acrescent moon.	36	45	reuse
+斬撃の真空波が三日月の軌跡を描く特技	Base: Slashes in the shape of a{01}crescent moon.	36	46	reuse
 新作	New	4	3	reuse
 新規	New	4	3	reuse
 旅立ちの決意	Ready to Depart	12	15	reuse
@@ -1732,7 +1732,7 @@ TP軽減力とTP回復力が上昇する	Increases TP Reduction and TP Regen	28	
 水抵抗	Water	6	5	reuse
 水耐性を得る	Adds Water Resistance	12	21	reuse
 水耐性－	Damage Water Res	8	16	reuse
-氷を風の力で粉砕し、敵にぶつける中級昇華晶術	Mid-Ext: Assails the enemy with apowerful icy wind.	44	51	reuse
+氷を風の力で粉砕し、敵にぶつける中級昇華晶術	Mid-Ext: Assails the enemy with a{01}powerful icy wind.	44	52	reuse
 決心	Resolve	4	7	reuse
 油断大敵	Beware	8	6	reuse
 洞窟を抜けろ！	Through the Cave!	14	17	reuse
@@ -1753,12 +1753,12 @@ TP軽減力とTP回復力が上昇する	Increases TP Reduction and TP Regen	28	
 火抵抗	Fire	6	4	reuse
 火耐性を得る	Adds Fire Resistance	12	20	reuse
 火耐性－	Damage Fire Res	8	15	reuse
-無数の真空の刃で敵を切り裂く中級晶術	Mid: Countless blades of the voidshred the enemy.	36	49	reuse
+無数の真空の刃で敵を切り裂く中級晶術	Mid: Countless blades of the void{01}shred the enemy.	36	50	reuse
 無機物に対して有効	Strong against inorganic matter	18	31	reuse
 焼きイモ	Roast Potato	8	12	reuse
-熟練の手さばきで矢を三連射する特技	Base: Rapidly fires three arrows withexpert accuracy.	34	53	reuse
+熟練の手さばきで矢を三連射する特技	Base: Rapidly fires three arrows with{01}expert accuracy.	34	54	reuse
 熟練度の一番低い料理を行います	Use dish with the lowest skill level	30	36	reuse
-熱風を巻き起こして敵を吹き飛ばす中級昇華晶術	Mid-Ext: Creates a blazing wind that blowsthe enemy away.	44	57	reuse
+熱風を巻き起こして敵を吹き飛ばす中級昇華晶術	Mid-Ext: Creates a blazing wind that blows{01}the enemy away.	44	58	reuse
 燃える河	Burning River	8	13	reuse
 爆炎剣	Hell Sword	6	10	reuse
 父の故郷	Father's Hometown	8	17	reuse
@@ -1802,13 +1802,13 @@ TP軽減力とTP回復力が上昇する	Increases TP Reduction and TP Regen	28	
 盗めるアイテム	Steal Item	14	10	reuse
 目印	Landmark	4	8	reuse
 眠れない寝ぼすけ	Sleepless Sleepyhead	16	20	reuse
-着弾時に爆発する矢を放つ特技	Base: Fires an arrow which explodeson impact.	28	45	reuse
+着弾時に爆発する矢を放つ特技	Base: Fires an arrow which explodes{01}on impact.	28	46	reuse
 着陸できない地形です	No place to land here.	20	22	reuse
-瞬時に空中へ移動、そこから剣を振り下ろす特技	Base: Get lifted into the air for adownward strike.	44	51	reuse
+瞬時に空中へ移動、そこから剣を振り下ろす特技	Base: Get lifted into the air for a{01}downward strike.	44	52	reuse
 矢を五方向に拡散させて放つ特技	Base: Fires arrows in five directions.	30	38	reuse
 知性	Int	4	3	reuse
 知性が上昇する	Increases Intellect	14	19	reuse
-知性と詠唱速度が上昇する	Increases Intellect and Casting Speed	24	37	reuse
+知性と詠唱速度が上昇する	Increases Intellect and Cast Speed	24	34	reuse
 知性＋	Int +	6	5	reuse
 知性－	Damage Intellect	6	16	reuse
 短剣	Dagger	4	6	reuse
@@ -1827,7 +1827,7 @@ TP軽減力とTP回復力が上昇する	Increases TP Reduction and TP Regen	28	
 空の敵を狙え	Aim High	12	8	reuse
 空を見上げて	Looking Up	12	10	reuse
 空を飛んで	Flying the Skies	10	16	reuse
-空中から高速の矢で敵を狙い打つ特技	Base: Fires a high-speed arrow atthe enemy.	34	43	reuse
+空中から高速の矢で敵を狙い打つ特技	Base: Fires a high-speed arrow at{01}the enemy.	34	44	reuse
 空中都市の残骸	Aeropolis Ruin	14	14	reuse
 空想大爆発	Imagination Explosion	10	21	reuse
 突入	Charge	4	6	reuse
@@ -1864,7 +1864,7 @@ TP軽減力とTP回復力が上昇する	Increases TP Reduction and TP Regen	28	
 腕輪	Bangle	4	6	reuse
 自動で料理を行いません	Do not auto-cook	22	16	reuse
 自爆した！	Self-destruct!	10	14	reuse
-自称華麗なる連続攻撃を行う特技	Base: Performs an amazing continuousattack.	30	43	reuse
+自称華麗なる連続攻撃を行う特技	Base: Performs an amazing continuous{01}attack.	30	44	reuse
 自立	Independence	4	12	reuse
 自認ビギナー	I am a novice	12	13	reuse
 船じゃ追いつけない	A Ship Can't Catch Up	18	21	reuse
@@ -1899,7 +1899,7 @@ TP軽減力とTP回復力が上昇する	Increases TP Reduction and TP Regen	28	
 装飾品	Jewelry	6	7	reuse
 補給ロボット	Supply Robot	12	12	reuse
 補給部隊	Quartermaster	8	13	reuse
-複数の火球弾が敵を狙う下級晶術	Low: Several balls of flame are fired atthe enemy.	30	50	reuse
+複数の火球弾が敵を狙う下級晶術	Low: Several balls of flame are fired at{01}the enemy.	30	51	reuse
 襲撃！	Attack!	6	7	reuse
 見習い剣士	Apprentice Swordsman	10	20	reuse
 触媒	Catalyst	4	8	reuse
@@ -1909,8 +1909,8 @@ TP軽減力とTP回復力が上昇する	Increases TP Reduction and TP Regen	28	
 詠唱	Cast	4	4	reuse
 詠唱加速	Speed Cast	8	10	reuse
 詠唱速度	Cast Speed	8	10	reuse
-詠唱速度が上昇する	Increases Casting Speed	18	23	reuse
-詠唱速度とTP回復力が上昇	Increases Casting Speed and TP Regen	24	36	reuse
+詠唱速度が上昇する	Increases Cast Speed	18	20	reuse
+詠唱速度とTP回復力が上昇	Increases Cast Speed and TP Regen	24	33	reuse
 詠唱速度上昇	Speed Cast	12	10	reuse
 詠唱速度－	Damage Cast Speed	10	17	reuse
 話を聞こう	Let's Hear It	10	13	reuse
@@ -1943,7 +1943,7 @@ TP軽減力とTP回復力が上昇する	Increases TP Reduction and TP Regen	28	
 造り物の世界	A Fabricated World	12	18	reuse
 連携発動	Spell Save	8	10	reuse
 連携行動を行うと上昇	Rises when chaining attacks.	20	28	reuse
-連続的に水流を地面に叩きつける中級晶術	Mid: Powerful currents of water from aboveslam into the ground.	38	63	reuse
+連続的に水流を地面に叩きつける中級晶術	Mid: Powerful currents of water from above{01}slam into the ground.	38	64	reuse
 連鎖発動	Chain Trigger	8	13	reuse
 運命の出会い	Fated Meeting	12	13	reuse
 過去を否定するつもりはない	I Won't Deny the Past	26	21	reuse
@@ -2007,7 +2007,7 @@ TP軽減力とTP回復力が上昇する	Increases TP Reduction and TP Regen	28	
 難易度・称号引継ぎ	Carry Diff/Titles	18	17	reuse
 雪の街にて	In the Snowy Town	10	17	reuse
 雪中の戦い	Battle in the Snow	10	18	reuse
-電撃の力を利用して敵を討つ特技	Base: Hits the enemy with anelectric shock.	30	43	reuse
+電撃の力を利用して敵を討つ特技	Base: Hits the enemy with an{01}electric shock.	30	44	reuse
 霧が濃いため着陸できません	The fog is too thick to land.	26	29	reuse
 霧の中で	In the Mist	8	11	reuse
 風の向くまま気の向くまま	Wherever the Wind Blows	24	23	reuse
@@ -2041,7 +2041,7 @@ TP軽減力とTP回復力が上昇する	Increases TP Reduction and TP Regen	28	
 食材屋　ルックデリシャス！	Food Shop LOOKS DELICIOUS!	26	26	reuse
 食材屋　新鮮市場	Food Shop FRESH MARKET	16	22	reuse
 馬齢	Wasted Years	4	12	reuse
-高速回転させた水圧を発射する下級晶術	Low: Launches a rapidly spinningblast of water.	36	47	reuse
+高速回転させた水圧を発射する下級晶術	Low: Launches a rapidly spinning{01}blast of water.	36	48	reuse
 魔女	Witch	4	5	reuse
 魚屋　海鮮丸	Fish Shop SEAFOOD CIRCLE	12	24	reuse
 魚鍋	Fish Stew	4	9	reuse
@@ -2054,11 +2054,11 @@ TP軽減力とTP回復力が上昇する	Increases TP Reduction and TP Regen	28	
 １：自分からは攻撃・晶術を行いません	1: Don't perform attacks or spells on your   own.	36	49	reuse
 ４倍速詠唱	Quadspeed Cast	10	14	reuse
 ５：SP、TPが尽きるまで攻撃を行います	5: Attack until your SP and TP run out.	36	39	reuse
-＜確率・継続効果＞敵を一定時間凍結状態にする	(Random-Continuous) The enemy is frozen fora certain amount of time.	44	68	reuse
-＜確率・継続効果＞敵を一定時間毒状態にする	(Random-Continuous) The enemy is poisonedfor a certain amount of time.	42	70	reuse
-＜確率・継続効果＞敵を一定時間鈍足状態にする	(Random-Continuous) The enemy's pace isslowed down for a certain amount of time.	44	80	reuse
-＜確率・継続効果＞敵を一定時間麻痺状態にする	(Random-Continuous) The enemy is paralyzedfor a certain amount of time.	44	71	reuse
-＜確率効果＞の発生確率上昇	Increases random effect probability	26	35	reuse
+＜確率・継続効果＞敵を一定時間凍結状態にする	(Random-Continuous) The enemy is frozen for{01}a certain amount of time.	44	69	reuse
+＜確率・継続効果＞敵を一定時間毒状態にする	(Random-Continuous) The enemy is poisoned{01}for a certain amount of time.	42	71	reuse
+＜確率・継続効果＞敵を一定時間鈍足状態にする	(Random-Continuous) The enemy's pace is{01}slowed down for a certain amount of time.	44	81	reuse
+＜確率・継続効果＞敵を一定時間麻痺状態にする	(Random-Continuous) The enemy is paralyzed{01}for a certain amount of time.	44	72	reuse
+＜確率効果＞の発生確率上昇	Increases random effect chance	26	30	reuse
 ＜確率効果＞凍結効果を付加	Inflicts Freeze randomly	26	24	reuse
 ＜確率効果＞敵SPにダメージを与える	(Random) Damages the enemy's SP.	34	32	reuse
 ＜確率効果＞敵TPにダメージを与える	(Random) Damages the enemy's TP.	34	32	reuse
@@ -2233,7 +2233,7 @@ TP軽減力とTP回復力が上昇する	Increases TP Reduction and TP Regen	28	
 ラスト（中層・ナナリー）	Last (Mid Layer - Nanaly)	24	25	translated
 次元の狭間	Rift	10	4	translated
 終了	End	4	3	translated
-消費	Consume	4	7	translated
+消費	 used	4	5	translated
 目標の敵の足元から爆炎が起こる特技	An arte that erupts flames from beneath the target's feet	34	57	translated
 「奥義」は通常技と特技から連携可能	'Mystic Artes' chain from base and special attacks	34	50	translated
 敵を吹き飛ばす効果を持つ奥義	A Mystic Arte that blows the enemy away	28	39	translated
@@ -3266,36 +3266,36 @@ HPを吸収できる。	Can drain HP.	16	13	translated
 虚空閃	Void Shot	6	9	reuse
 龍炎閃	Wyrm Shot	6	9	reuse
 蒼破刃	Azure Edge	6	10	translated
-散葉塵	Falling Leaves	6	14	translated
-空翔斬	Sky Slash	6	9	translated
-閃光衝	Flash Impact	6	12	translated
-牙連蒼破刃	Fang Azure Edge	10	15	translated
-空破絶風撃	Void Tempest	10	12	translated
-屠龍連撃破	Dragon Slayer	10	13	translated
-疾空連殺剣	Rapid Sky Blade	10	15	translated
-岩斬滅砕陣	Rock Crusher	10	12	translated
-天翔弾	Soar Shot	6	9	translated
-風神招	WindCaller	6	10	translated
-護法蓮	Grd Lotus	6	9	translated
-流蓮弾	Lotus Shot	6	10	translated
-双打鐘	TwinStrike	6	10	translated
-雷神招	Thdr Callr	6	10	translated
-放墜鐘	Crash Bell	6	10	translated
-霧氷翔	Frost Soar	6	10	translated
-爆灰鐘	Ash Bell	6	8	translated
-割破爆走撃	Blast Chrg	10	10	translated
-空破特攻弾	Void Charge	10	11	translated
-戦吼爆ッ破	Roar Blast	10	10	translated
-神空割砕人	Heavn Clvr	10	10	translated
-飛連斬	Flying Slash	6	12	translated
-双連撃	Twin Slash	6	10	translated
-千裂虚光閃	Thousand Blades	10	15	translated
-粉塵裂破衝	Dust Cyclone	10	12	translated
-魔人滅殺闇	Demonic Void	10	12	translated
-雷牙衝	Thndr Fang	6	10	translated
-華連撃	Petal Barr	6	10	translated
-影閃剣	Shdw Flash	6	10	translated
-鏡影槍	Mirr Lance	6	10	translated
+散葉塵	Leaf Cutter	6	11	ps2
+空翔斬	Soaring Strike	6	14	ps2
+閃光衝	Force Spear	6	11	ps2
+牙連蒼破刃	Azure Storm	10	11	ps2
+空破絶風撃	Sonic Blast	10	11	ps2
+屠龍連撃破	Draco's Fury	10	12	ps2
+疾空連殺剣	Gale Assault	10	12	ps2
+岩斬滅砕陣	Slag Assault	10	12	ps2
+天翔弾	Skyward Shot	6	12	ps2
+風神招	Beseech the Wind	6	16	ps2
+護法蓮	Gohouren	6	8	ps2
+流蓮弾	Geyser Blast	6	12	ps2
+双打鐘	Soudashou	6	9	ps2
+雷神招	Raijinshou	6	10	ps2
+放墜鐘	Houtsuishou	6	11	ps2
+霧氷翔	Frostfall	6	9	ps2
+爆灰鐘	Bell Ringer	6	11	ps2
+割破爆走撃	Roaring Explosion	10	17	ps2
+空破特攻弾	Cyclone Shot	10	12	ps2
+戦吼爆ッ破	Perforating Howl	10	16	ps2
+神空割砕人	Shinkuu Kassaijin	10	17	ps2
+飛連斬	Dreadfall	6	9	ps2
+双連撃	Dual Strike	6	11	ps2
+千裂虚光閃	Deadly Descent	10	14	ps2
+粉塵裂破衝	Blast Storm	10	11	ps2
+魔人滅殺闇	Demonic Obliteration	10	20	ps2
+雷牙衝	Raigashou	6	9	ps2
+華連撃	Karengeki	6	9	ps2
+影閃剣	Eisenken	6	8	ps2
+鏡影槍	Kyoueisou	6	9	ps2
 魔人煉獄刹	Demonic Inferno	10	15	translated
 裂衝蒼破塵	Azure Devastation	10	17	translated
 キャラ特性に応じた隊列位置で、{01}固有の思考で敵を狙います	Make decisions based the{01}character's personality.	55	49	reuse
@@ -3390,7 +3390,7 @@ HPを吸収できる。	Can drain HP.	16	13	translated
 慟哭の権標{01}なんだか悲しくなってきます	A verge of lament. The feeling{01}of sorrow is passed from it.	37	59	reuse
 大審院の最高判事が持つ権標{01}敵に引導を渡します	A verge of the high court. It{01}passes judgment to one's foes.	45	60	reuse
 大君主の職杖{01}殴られるとすごく痛い	The staff of a high monarch. It's{01}extremely effective for striking.	33	67	reuse
-操者に闇の伝承の知識を与える{01}ダークエルフ族の遺産	The knowledge of darkness is handed{01}tothose of honor. A relic of dark elves.	49	76	reuse
+操者に闇の伝承の知識を与える{01}ダークエルフ族の遺産	The knowledge of darkness is handed{01}to those of honor. A relic of dark elves.	49	76	reuse
 天才のみが使える杖よん{01}<Harold>談	A staff that only a genius could{01}use. (According to Harold, that is.)	30	69	reuse
 如意棒とも呼ばれる{01}使用者の意志で自在に操ることが可能	The staff of a legendary priest. It{01}syncs with the will of its user.	53	68	reuse
 長柄の斧{01}名は体を表わす	An axe with a long handle. It's{01}named after its appearance.	23	59	reuse
@@ -3411,14 +3411,14 @@ HPを吸収できる。	Can drain HP.	16	13	translated
 スコープ付きの長弓{01}精密な射的が可能	A long bow with a scope attachment.{01}Ideal for added precision.	35	62	reuse
 戦のために作られた強弓{01}主として王城の守備兵が使っている	A tightly strung bow made for wars.{01}Primarily used to defend castles.	55	69	reuse
 ファンダリア王国近衛連隊の標準装備{01}使用者をグレネーダーと呼称する	Standard equipment for Phandaria{01}guards. Users are called "Grenadiers."	65	71	reuse
-戦用の攻城弓{01}城門の厚い扉をも貫通する	An assault bow used in wars{01}thatcan penetrate castle doors.	37	59	reuse
+戦用の攻城弓{01}城門の厚い扉をも貫通する	An assault bow used in wars{01}that can penetrate castle doors.	37	59	reuse
 毒矢で敵を絶命させる弓{01}即死した戦士が大勢いるらしい	A bow that uses poison-tipped arrows.{01}Said to have killed many instantly.	51	73	reuse
 放たれた矢は七色の軌跡で飛ぶ{01}雨上がりにしか使えないわけではない	Fires arrows that leave colored trails.{01}It does not have to be used after rain.	63	79	reuse
 衝撃波の異名を持ち、{01}超音速の矢を放つ	Named after a sonic boom, it fires{01}arrows that break the sound barrier.	37	71	reuse
 伝説の大ワシの名を冠する長弓{01}きわめて高い攻撃力を誇る	A long bow named after a legendary bird.{01}It boasts impressive offensive ability.	53	80	reuse
 北風の名を冠する強弓{01}神速の矢を放つ	A strong bow named after the North{01}Wind. Its arrows fly with godly speed.	35	73	reuse
 空飛ぶ聖獣の爪から作られた聖弓{01}誘導する不思議な矢を放つ	Made from the claw of a sacred beast. It{01}fires arrows with marvelous guidance.	55	78	reuse
-東方の英雄が魔獣退治に{01}使ったとされる退魔の弓	A bow said to be used by an Eastern{01}heroto eradicate demonic beasts.	45	68	reuse
+東方の英雄が魔獣退治に{01}使ったとされる退魔の弓	A bow said to be used by an Eastern{01}hero to eradicate demonic beasts.	45	68	reuse
 この弓が火を噴けば大地は{01}焼尽の荒野と化す	When this bow emits its flames, the{01}surrounding grounds are laid to waste.	41	74	reuse
 暗黒の力を秘めた魔弓{01}敵からＴＰを奪う	A demonic bow with hidden dark{01}power. It steals TP from enemies.	37	64	reuse
 人の一生は星のきらめきのようなもの{01}つーか、のようなものにしちゃう弓	A bow that sparkles like a star, unlike{01}anything you'll see in your entire life.	67	80	reuse
@@ -3459,7 +3459,7 @@ HPを吸収できる。	Can drain HP.	16	13	translated
 敵地に陣地を築く特殊部隊で{01}使用される頑強な兜	An obstinate helmet used by special{01}forces that infiltrate enemy country.	45	73	reuse
 古代国家で勇者に与えられたといわれる冠{01}誉れ高い戦士の証！	A crown given to an ancient hero.{01}Proof of a solider having high honor!	57	71	reuse
 野心ある勇将の用いた兜{01}敵を圧倒する威圧感があります	The helmet of an ambitious soldier.{01}It gives a feeling of great power.	51	70	reuse
-八首の大蛇を退治した東国の{01}荒ぶる漢の名を冠する兜	A helmet named after an Eastern godwho{01}defeated an eight-headed serpent.	49	72	reuse
+八首の大蛇を退治した東国の{01}荒ぶる漢の名を冠する兜	A helmet named after an Eastern god{01}who defeated an eight-headed serpent.	49	72	reuse
 暗黒騎士の兜{01}暗い奴だと思われちゃうかも？	The helmet of a dark knight. Wearing{01}it may make one appear gloomy.	41	67	reuse
 赤いリボン{01}黒髪には赤が映えますね	A cute red ribbon. The red{01}shines against black hair.	33	53	reuse
 緑の帽子{01}絵描き気分にひたれます	A little green hat. It's very{01}popular amongst artists.	31	54	reuse
