@@ -575,6 +575,14 @@ vaddr (file offset = vaddr + 0xC0, runtime = vaddr + 0x08804000).
   advances 1.05 times its `latin_glyphs.json` advance. 0x100 x 0x140 keeps
   the letters in proportion. The victory item banner ("Cheap Meat") sits
   at y 360..386 of that space, just above the HP bars.
+* Added Arte (追加特技) banners: 14 names inside battle scripts compiled
+  into BOOT.BIN, file `0x1EE4A2..0x1EEE6B`: opcode `0A`, an argument byte
+  (0x00, 0x04, 0x06 or 0xFF), the name inline (4 kanji, 8 bytes), NUL, then
+  more bytecode. No pointers, so the English keeps the 8 bytes, space
+  padded (`psp_menu.INLINE_BANNERS`, PS2 names from the 08055 literals).
+  Voice requests: `0x5B63C` (a0 actor, a1 voice id) sets `+0x14A` or queues
+  the voice in `+0x14C` with a delay in `+0x150`; player `0x5BA48`; the per
+  frame updater `0x5B8A8` clears `+0x14A` when the sound ends.
 * `psp/tools/psp_battle_subs.py` appends a hook and the subtitle table to
   the string pool and gives the `jal` at `0x1B27C` the hook as its target;
   the hook calls the frame function and draws the lines of every speaking

@@ -170,6 +170,9 @@ def main(iso, out_iso, probe=False, keep=None, version=None, lowercase_font=True
     _menu, _mst = psp_menu.patch_menu(open(boot, 'rb').read())
     open(boot, 'wb').write(_menu)
     print('menu patch:', dict(_mst))
+    if _menu[:4] == b'\x7fELF' and _mst.get('banner', 0) != len(psp_menu.INLINE_BANNERS):
+        raise SystemExit('Added Arte banners: %d of %d applied (BOOT.BIN not retail?)'
+                         % (_mst.get('banner', 0), len(psp_menu.INLINE_BANNERS)))
     if lowercase_font:
         _lc, _lcinfo = psp_lowercase.patch_boot(open(boot, 'rb').read())
         open(boot, 'wb').write(_lc)

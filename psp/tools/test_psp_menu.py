@@ -132,3 +132,41 @@ class PinnedCodeTests(unittest.TestCase):
         self.assertTrue(rows)
         for jp, en in rows:
             self.assertFalse(psp_menu.pinned_code_moved(jp, en), jp)
+
+
+class InlineBannerTests(unittest.TestCase):
+    """Added Arte banners are inline names in BOOT.BIN battle scripts
+    (opcode 0A, argument byte, name, NUL); the bytecode goes on after them."""
+
+    def test_names_keep_the_byte_length(self):
+        for fo, jp, en in psp_menu.INLINE_BANNERS:
+            self.assertEqual(len(psp_menu.encode_en(en)), len(psp_menu.encode_keys(jp)[0]), jp)
+
+    def test_patch_in_place_without_padding(self):
+        import collections
+        fo, jp, en = psp_menu.INLINE_BANNERS[0]
+        jb = psp_menu.encode_keys(jp)[0]
+        b = bytearray(b'\x11' * (fo + 64))
+        b[fo - 2:fo] = b'\x0a\x00'
+        b[fo:fo + len(jb) + 1] = jb + b'\x00'
+        after = bytes(b[fo + len(jb):])
+        st = collections.Counter()
+        psp_menu.patch_addressed(b, st)
+        self.assertEqual(bytes(b[fo:fo + len(jb)]), en.encode('ascii'))
+        self.assertEqual(bytes(b[fo + len(jb):]), after)
+        self.assertEqual(st['banner'], 1)
+
+    def test_other_bytes_are_left_alone(self):
+        import collections
+        fo, jp, en = psp_menu.INLINE_BANNERS[0]
+        b = bytearray(fo + 64)
+        st = collections.Counter()
+        psp_menu.patch_addressed(b, st)
+        self.assertEqual(bytes(b), bytes(fo + 64))
+        self.assertEqual(st['banner'], 0)
+
+    def test_every_inline_name_of_the_retail_scan_is_listed(self):
+        # the 14 banner names found by scanning retail BOOT.BIN for
+        # 0A, any argument byte, 2..14 two-byte codes, NUL
+        self.assertEqual(len(psp_menu.INLINE_BANNERS), 14)
+        self.assertEqual(len({fo for fo, _, _ in psp_menu.INLINE_BANNERS}), 14)
