@@ -47,7 +47,49 @@ class WorldMapTests(unittest.TestCase):
         _, tb = struct.unpack_from('<II', old, 4)
         changed = [p for p in range(12, tb) if old[p] != new[p]]
         self.assertTrue(all(old[p - 1] == 0xF8 or old[p - 2] == 0xF8 for p in changed))
-        self.assertEqual(new[tb:len(old)], old[tb:])         # Japanese text stays in place
+
+    def test_english_that_fits_takes_the_japanese_slot(self):
+        # クレスタの街 is 12 bytes + NUL, Cresta 6 + NUL: written in place, no growth
+        old = sced(['クレスタの街', 'ラグナ遺跡'])
+        new = w.patch_script(9272, old, {'クレスタの街': 'Cresta', 'ラグナ遺跡': 'Laguna Ruins Far Away'},
+                             collections.Counter())
+        _, tb = struct.unpack_from('<II', old, 4)
+        self.assertEqual(records(new), ['Cresta', 'Laguna Ruins Far Away'])
+        self.assertEqual(new[:tb], old[:tb][:12] + new[12:tb])           # header kept
+        self.assertEqual(struct.unpack_from('<H', new, 13)[0], 1)        # pointer kept
+        self.assertEqual(new[tb + 1:tb + 14], b'Cresta' + b'\0' * 7)
+        # the long one does not fit its 11 byte slot nor the 6 byte tail: appended
+        self.assertEqual(len(new), len(old) + 1 + len('Laguna Ruins Far Away') + (-(len(old) + 22) % 4))
+
+    def test_long_english_goes_into_a_free_tail(self):
+        old = sced(['いってらっしゃいませ', 'ラグナ遺跡'])        # 20 + NUL, 10 + NUL bytes
+        new = w.patch_script(9272, old, {'いってらっしゃいませ': 'Bye.', 'ラグナ遺跡': 'Laguna Ruins'},
+                             collections.Counter())
+        self.assertEqual(records(new), ['Bye.', 'Laguna Ruins'])
+        self.assertEqual(len(new), len(old) + (-len(old) % 4))           # nothing appended
+
+    def test_shared_and_overlapping_slots_are_not_reused(self):
+        # two operands on one string, one of them pointing into its middle
+        jp = psp_text.encode_record(['クレスタの街'])
+        code = b'\xF8\x01\x00' + b'\xF8' + struct.pack('<H', 1 + jp.index(psp_text.encode_line('の街')))
+        tb = 12 + len(code)
+        old = b'SCED' + struct.pack('<II', 12, tb) + code + b'\0' + jp
+        new = w.patch_script(9272, old, {'クレスタの街': 'Cresta'}, collections.Counter())
+        read = [psp_text.decode_string(new, tb + struct.unpack_from('<H', new, at)[0]) for at in (13, 16)]
+        self.assertEqual(read, ['Cresta', 'の街'])                     # the inner operand keeps its text
+        self.assertEqual(new[tb:tb + 1 + len(jp)], old[tb:])             # Japanese bytes untouched
+
+    def test_identical_english_is_stored_once(self):
+        old = sced(['ラグナ遺跡です', 'ラグナの遺跡'])
+        en = 'The Laguna Ruins, far away'
+        new = w.patch_script(9272, old, {'ラグナ遺跡です': en, 'ラグナの遺跡': en}, collections.Counter())
+        self.assertEqual(records(new), [en, en])
+        self.assertEqual(new.count(en.encode()), 1)
+
+    def test_pack_over_the_game_buffer_is_refused(self):
+        self.assertEqual(w.sectors(w.PACK_BUFFER - 0xC0), 0xFD800)
+        self.assertGreater(w.sectors(0xFDE6C), w.PACK_BUFFER)            # 09276 of PSP 0.3.5
+        self.assertLessEqual(w.sectors(0xFCE30), w.PACK_BUFFER)          # retail 09276
 
     def test_nothing_to_do(self):
         self.assertIsNone(w.patch_script(9272, sced(['sx = %d']), {}, collections.Counter()))

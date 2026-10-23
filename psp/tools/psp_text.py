@@ -275,6 +275,66 @@ def insert_sced(d, records, addrs):
     psp_sced.validate_code_changes(d, out)
     return bytes(out), 'rebuild', len(susp)
 
+def insert_sced_compact(d, records, addrs):
+    """Append mode for scripts that live in a fixed size buffer (the world
+    map packs, psp_worldmap.PACK_BUFFER): a changed record is written over
+    its Japanese slot when it fits there, the rest of the slot becomes NUL;
+    the others go, one copy per distinct text, into the free tails of those
+    slots (best fit) or after the text block. A slot is reused only when no
+    other text operand of the script points into it, except operands that
+    point at its start and get the same bytes. Untouched and suspicious
+    pointers keep pointing at the original text, as in append mode.
+    Returns (bytes, 'compact', skipped)."""
+    tb = struct.unpack_from('<I', d, 8)[0]
+    validate_pointer_addrs(d, addrs)
+    assert len(records) == len(addrs), 'record count %d != pointer count %d' % (len(records), len(addrs))
+    susp = suspicious_pointers(d, addrs)
+    enc = [encode_record(r) for r in records]
+    target = {at: tb + struct.unpack_from('<H', d, at)[0] for at in psp_sced.text_operands(d)}
+    slot = {a: (a, d.index(b'\x00', a)) for a in target.values()}
+    wanted = collections.defaultdict(set)          # slot start -> bytes every operand there needs
+    for at, a in target.items():
+        wanted[a].add(enc[addrs.index(at)] if at in addrs and addrs.index(at) not in susp
+                      else d[a:slot[a][1] + 1])
+    out = bytearray(d)
+    if out[-1:] != b'\x00':
+        out += b'\x00'
+    gaps, moved, skipped = [], [], 0              # gaps: [start, end) free text bytes
+    for i, at in enumerate(addrs):
+        a = target[at]
+        new, old = enc[i], d[a:slot[a][1] + 1]
+        if new == old:
+            continue
+        if i in susp:
+            skipped += 1
+            continue
+        start, end = slot[a]
+        alone = all(b == a or e < start or b > end for b, e in slot.values())
+        if alone and len(wanted[a]) == 1 and len(new) <= len(old):
+            out[start:end + 1] = new + b'\x00' * (len(old) - len(new))
+            if len(new) < len(old) and [start + len(new), end + 1] not in gaps:
+                gaps.append([start + len(new), end + 1])
+        else:
+            moved.append((at, new))
+    pos, placed = len(out) - tb, {}
+    for new in sorted({new for _, new in moved}, key=len, reverse=True):
+        fit = [g for g in gaps if g[1] - g[0] >= len(new)]
+        if fit:
+            g = min(fit, key=lambda g: g[1] - g[0])
+            out[g[0]:g[0] + len(new)] = new
+            placed[new] = g[0] - tb
+            g[0] += len(new)
+        else:
+            placed[new] = pos
+            out += new
+            pos += len(new)
+    for at, new in moved:
+        struct.pack_into('<H', out, at, placed[new])
+    if pos >= 0x10000:
+        raise ValueError('text block over 64 KB')
+    psp_sced.validate_code_changes(d, out)
+    return bytes(out), 'compact', skipped
+
 def retime_skit(name, original, rebuilt, addrs, records, table):
     """Set the text speed of every line of one skit (see ps2/PyTOD2/
     skit_speed.py). PSP skit member n plays the same lines as PS2 skit

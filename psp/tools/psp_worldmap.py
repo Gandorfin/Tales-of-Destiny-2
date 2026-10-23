@@ -32,9 +32,23 @@ back to back, every size a multiple of 4), one per era of the world map:
 
 Child 19 of each pack is the world map field script, an uncompressed SCED
 (the other children are deflate wrapped data). The labels and messages are
-ordinary SCED strings reached through F8 text operands, so the scenario
-writer psp_text.insert_sced does the work: English is appended after the
-text block and each F8 operand redirected, the bytecode keeps its length.
+ordinary SCED strings reached through F8 text operands, written by
+psp_text.insert_sced_compact: English that fits in its Japanese slot goes
+there, the rest goes once per distinct text into free slot tails or after
+the text block and its F8 operands are redirected; the bytecode keeps its
+length.
+
+Buffer. The game reads the pack of the current era into a fixed buffer of
+0xFD8C0 bytes (PACK_BUFFER) and loads member 09347 right behind it (RAM of
+the retail game and of 0.3.5 on the world map, 2026-10-23: 09347 starts
+0xFD8C0 after the pack, whatever the pack size). PSP 0.3.5 appended every
+English string, 09276 grew to 1,039,980 bytes and its last 1,452 bytes
+shared memory with 09347: on a PS Vita (Adrenaline) the game crashed when
+it went back to the world map after a battle or a town in the final era
+(DrandalZ, C1-2858-3); PPSSPP always loaded 09347 last and showed nothing.
+build_changed_members and verify refuse a pack whose size, rounded up to
+whole sectors, is over PACK_BUFFER.
+
 These are the PSP twins of the PS2 world map scripts 09028..09032.pak0,
 which ps2/menu/patch_menu_text.py translates from menu_translations.csv.
 
@@ -56,6 +70,7 @@ import psp_sced                     # noqa: E402
 import psp_text                     # noqa: E402
 
 MEMBERS = (9272, 9273, 9274, 9275, 9276)
+PACK_BUFFER = 0xFD8C0             # bytes; retail packs are at most 0xFCE30 (09276)
 TSV = os.path.join(HERE, 'psp_worldmap.tsv')
 
 
@@ -96,6 +111,12 @@ def sizes_pack(d):
 
 def build_sizes_pack(kids):
     return struct.pack('<%dI' % (len(kids) + 1), len(kids), *[len(k) for k in kids]) + b''.join(kids)
+
+
+def sectors(size):
+    """Size rounded up to whole 2 KB sectors, in case the game reads those
+    (not checked; the retail packs fit either way)."""
+    return -(-size // 0x800) * 0x800
 
 
 def script(kids):
@@ -141,9 +162,9 @@ def patch_script(member, sced, table, stats):
         stats.setdefault('lines', []).append('%05d record %d has no English: %s' % (member, i, esc(text)))
     if not done:
         return None
-    new, mode, skipped = psp_text.insert_sced(sced, records, addrs)
-    if mode != 'append' or skipped:
-        raise ValueError('%05d: %s mode, %d suspicious pointers (expected append, 0)' % (member, mode, skipped))
+    new, mode, skipped = psp_text.insert_sced_compact(sced, records, addrs)
+    if skipped:
+        raise ValueError('%05d: %d suspicious pointers (expected 0)' % (member, skipped))
     return new + b'\0' * (-len(new) % 4)          # children stay 4 byte sized
 
 
@@ -160,11 +181,17 @@ def build_changed_members(boot_path, fpb_path, table=None, log=print):
         kids = list(kids)
         kids[n] = new
         changed[member] = build_sizes_pack(kids)
+        if sectors(len(changed[member])) > PACK_BUFFER:
+            raise ValueError('%05d: pack is %d bytes, the game buffer holds %d'
+                             % (member, len(changed[member]), PACK_BUFFER))
         stats['grown bytes'] += len(new) - len(sced)
+        stats['smallest spare'] = min(stats.get('smallest spare', PACK_BUFFER), PACK_BUFFER - len(changed[member]))
     lines = stats.pop('lines', [])
     if log:
-        log('world map: %d strings in %d scripts, %d without English, script text grew by %d bytes'
-            % (stats['translated'], len(changed), stats['without English'], stats['grown bytes']))
+        log('world map: %d strings in %d scripts, %d without English, script text grew by %d bytes,'
+            ' at least %d bytes spare in the pack buffer'
+            % (stats['translated'], len(changed), stats['without English'], stats['grown bytes'],
+               stats['smallest spare']))
         for line in lines:
             log('  ' + line)
     stats['lines'] = lines
@@ -178,6 +205,8 @@ def verify(retail_boot, retail_fpb, new_boot, new_fpb, table=None):
     rboot, nboot = open(retail_boot, 'rb').read(), open(new_boot, 'rb').read()
     checked, problems = 0, []
     for (member, okids, n, old), (_m, nkids, n2, new) in zip(scripts(rboot, retail_fpb), scripts(nboot, new_fpb)):
+        if sectors(4 + 4 * len(nkids) + sum(map(len, nkids))) > PACK_BUFFER:
+            problems.append('%05d: pack larger than the game buffer (0x%X bytes)' % (member, PACK_BUFFER))
         if n != n2 or len(okids) != len(nkids):
             problems.append('%05d: pack layout changed' % member)
             continue
