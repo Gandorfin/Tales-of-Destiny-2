@@ -38,6 +38,24 @@ class PatchLeafTests(unittest.TestCase):
         self.assertEqual(len(new), len(code))
         self.assertEqual(st['inline_text'], 1)
 
+    def test_enemy_script_text_with_a_high_argument_is_space_padded(self):
+        # 08449: 0A 19 メルトダウン in an ENd script; 0.3.5 padded it with NULs
+        code = b'ENd\0' + b'\x0a\x19' + enc(ARTE) + b'\x00' + b'\x08\x19\x3d\x00'
+        st = stats()
+        new = pm._patch_leaf(code, NAMES, st)
+        slot = len(enc(ARTE))
+        self.assertEqual(new[6:6 + slot + 1], b'Sphere Spark'.ljust(slot) + b'\0')
+        self.assertEqual(new[6 + slot + 1:], b'\x08\x19\x3d\x00')
+        self.assertEqual(st['inline_text'], 1)
+
+    def test_long_name_uses_the_name_field(self):
+        # 08787: FE 00, デス (4 bytes), NULs to 23 bytes, one data byte
+        field = b'\xfe\x00' + enc('デス') + b'\0' * (23 - len(enc('デス'))) + b'\x34'
+        st = stats()
+        new = pm._patch_leaf(b'ENd\0' + b'\x0a' + field, {'デス': 'Death'}, st)
+        self.assertEqual(new[7:7 + 24], b'Death' + b'\0' * 18 + b'\x34')
+        self.assertEqual((st['patched'], st['too_long'], st['inline_text']), (1, 0, 0))
+
     def test_too_long_is_skipped(self):
         st = stats()
         self.assertIsNone(pm._patch_leaf(b'\x00' + enc('デス') + b'\x00', {'デス': 'Death'}, st))

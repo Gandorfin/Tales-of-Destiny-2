@@ -330,7 +330,7 @@ def relocate_menu(boot, table_path=None):
             # as a second key)
             keys = [pt.encode_line(jp.replace('　', '{99}{40}'))]
             if '　' in jp:
-                keys.append(pt.encode_line(jp))
+                keys.append(pt.encode_line(jp.replace('　', '{E4}{99}')))
             eb = pt.encode_line(p[1].replace('\\n', '\n').replace('　', '{99}{40}'))
         except Exception:
             continue

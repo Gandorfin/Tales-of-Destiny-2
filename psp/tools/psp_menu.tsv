@@ -3321,7 +3321,7 @@ HPを吸収できる。	Can drain HP.	16	13	translated
 大工道具の一つ{01}クギを打つのに欠かせません	A carpenter's best friend. You{01}can't pound nails without it.	41	60	reuse
 大工道具の一つ{01}材木を削るのに欠かせません	A carpenter's best friend. You{01}can't smoothen wood without it.	41	62	reuse
 一般的な作物の種{01}広く栽培されている	Seed of a popular crop. It's{01}already in wide cultivation.	35	57	reuse
-ジョニーの楽器{01}	Instruments belonging to Johnny.	15	32	reuse
+ジョニーの楽器{01}	Instrument belonging to Johnny.	15	31	translated
 トレーディングカード{01}どこかでスロットアイテムと交換	A trading card. Can be{01}exchanged for slotted items.	51	51	reuse
 安い肉{01}まずいというワケではない	Mediocre meat.{01}Obviously not the best.	31	38	reuse
 しもふり{01}最高級のしもふり肉	Quality meat. The highest{01}grade of seasoned meats.	27	50	reuse

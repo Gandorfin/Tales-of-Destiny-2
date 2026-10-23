@@ -42,6 +42,7 @@ TBL = psp_text.TBL
 MEMBER_LO, MEMBER_HI = 8378, 9565
 TEKI_MEMBER, TEKI_CHILD = 8331, 2
 TEKI_COUNT, TEKI_RECORD, TEKI_NAME = 256, 28, 24
+NAME_FIELD = 24          # enemy name field in an ENd script, see _name_field
 
 
 def load_names(path=None):
@@ -81,8 +82,22 @@ def _is_literal(b, i, any_arg=False):
     """True when the string at i is inline ENd text: opcode 0A, one argument
     byte, then the NUL-terminated string (enemy arte names, Mystic Arte
     banners, boss lines; the PS2 enemy_text.py format). The efD effect
-    scripts use argument bytes up to 0xFF (any_arg)."""
+    scripts and the ENd scripts of the PSP use argument bytes up to 0xFF
+    (any_arg): 08449 has 0A 19 メルトダウン, the cameo fights 0A FF ブラッディ
+    ローズ. Before October 2026 only 00..0F counted, so those strings were
+    padded with NULs and the script after them no longer started at the
+    byte after the terminator."""
     return i >= 2 and b[i - 2] == 0x0A and (any_arg or b[i - 1] <= 0x0F)
+
+
+def _name_field(b, i, end):
+    """True when the string at i..end is an enemy name field of an ENd
+    script: opcode byte 0xFE (08899 タナトスナイト) or 0xFE 0x00 (08787 デス),
+    then 24 bytes holding the name, NUL padding and one data byte (the PS2
+    enemy_text.NAME_FIELD layout). A name longer than its Japanese may use
+    the padding."""
+    opcode = (i >= 1 and b[i - 1] == 0xFE) or (i >= 2 and b[i - 2] == 0xFE and b[i - 1] == 0)
+    return opcode and i + NAME_FIELD <= len(b) and not any(b[end:i + NAME_FIELD - 1])
 
 
 def _patch_leaf(data, names, stats, efd=False):
@@ -93,6 +108,7 @@ def _patch_leaf(data, names, stats, efd=False):
     does: the script continues right after that string's own terminator, so
     the slot keeps exactly one NUL, where the Japanese had it."""
     b = bytearray(data)
+    script = efd or data[:3] == b'ENd'
     changed = False
     i = 0
     n = len(b)
@@ -104,7 +120,7 @@ def _patch_leaf(data, names, stats, efd=False):
             en = names[text].encode('cp932', 'replace')
             slot = end - i
             if len(en) <= slot:
-                literal = _is_literal(b, i, efd)
+                literal = _is_literal(b, i, script) and not _name_field(b, i, end)
                 pad = slot - len(en)
                 if efd and literal:
                     # cut-in banners are drawn centred on their full length,
@@ -115,6 +131,11 @@ def _patch_leaf(data, names, stats, efd=False):
                 changed = True
                 stats['patched'] += 1
                 stats['inline_text'] += literal
+            elif _name_field(b, i, end) and len(en) <= NAME_FIELD - 2:
+                b[i:i + NAME_FIELD - 1] = en + b'\x00' * (NAME_FIELD - 1 - len(en))
+                changed = True
+                stats['patched'] += 1
+                stats['name_fields'] = stats.get('name_fields', 0) + 1
             else:
                 stats['too_long'] += 1
         i = end + 1 if end >= i else i + 1
@@ -295,8 +316,10 @@ def build_changed_members(boot_path, fpb_path, names=None, log=print):
         changed[TEKI_MEMBER] = new
     if log:
         log('monster names: %d strings patched across %d members (%d of them inline ENd text, '
-            'space padded; %d too long, skipped; %d efD effect scripts)'
-            % (stats['patched'], stats['members'], stats['inline_text'], stats['too_long'], stats.get('efd', 0)))
+            'space padded; %d longer names in their 24 byte name field; %d too long, skipped; '
+            '%d efD effect scripts)'
+            % (stats['patched'], stats['members'], stats['inline_text'], stats.get('name_fields', 0),
+               stats['too_long'], stats.get('efd', 0)))
         log('TEKI list (encounter banner, member %d): %d names English, %d without a translation'
             % (TEKI_MEMBER, stats.get('teki_patched', 0), stats.get('teki_untranslated', 0)))
     return changed, stats

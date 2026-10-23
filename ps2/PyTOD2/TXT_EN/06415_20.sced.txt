@@ -236,8 +236,8 @@ Option
 Yes.
 -----------------------
 #サクラバがピアノを演奏中です
-　
-　
+#　
+#　
 #　　　　<button:00000036>で演奏中断
 Sakuraba is playing the piano.
 Press <button:00000036> to stop.
