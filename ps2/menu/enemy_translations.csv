@@ -35,6 +35,7 @@ file,offset,bytes,japanese,english
 08189.pak1,0x451,28,フィールド・オブ・エフェクト,Field of Effect
 08189.pak1,0x481,20,－マインドウィルス－,-Mind Virus-
 08190.pak1,0x5C7,18,アフターカーニバル,After Carnival
+08190.pak1,0x5FF,16,キャンサーシザー,Cancer Scissor
 08190.pak1,0x625,12,デスクラッチ,Death Clutch
 08190.pak1,0x656,22,シーチキンプレッシャー,Sea Chicken Pressure
 08191.pak1,0x76B,18,-スナイプ・リング-,-Snipe Ring-
@@ -84,6 +85,10 @@ file,offset,bytes,japanese,english
 08378.pak1,0x31D,4,流水,Flow
 08381.pak1,0x2F7,12,フルフラット,Full Flat
 08382.pak1,0x2F7,12,フルフラット,Full Flat
+08384.pak1,0x258,6,大震斧,Quake
+08385.pak1,0x258,6,大震斧,Quake
+08386.pak1,0x258,6,大震斧,Quake
+08387.pak1,0x258,6,大震斧,Quake
 08394.pak1,0x2FC,6,-竜脈-,-Vein-
 08395.pak1,0x2FC,6,-竜脈-,-Vein-
 08440.pak1,0x264,16,タイラントメイス,Tyrant Mace
@@ -94,15 +99,22 @@ file,offset,bytes,japanese,english
 08497.pak1,0x22F,18,-ラスティ・ネイル-,-Rusty Nail-
 08498.pak1,0x22F,18,-ラスティ・ネイル-,-Rusty Nail-
 08499.pak1,0x22F,18,-ラスティ・ネイル-,-Rusty Nail-
+08513.pak1,0x1D1,6,三龍旋,Whirl
+08514.pak1,0x1D1,6,三龍旋,Whirl
 08521.pak1,0x33D,20,-アイス・レクイエム-,-Ice Requiem-
 08522.pak1,0x33D,20,-アイス・レクイエム-,-Ice Requiem-
 08523.pak1,0x33D,20,-アイス・レクイエム-,-Ice Requiem-
 08524.pak1,0x33D,20,-アイス・レクイエム-,-Ice Requiem-
 08525.pak1,0x23E,8,ピコハン,Pikohan
+08525.pak1,0x24F,8,ポイハン,Poihan
 08526.pak1,0x23E,8,ピコハン,Pikohan
+08526.pak1,0x24F,8,ポイハン,Poihan
 08527.pak1,0x23E,8,ピコハン,Pikohan
+08527.pak1,0x24F,8,ポイハン,Poihan
 08528.pak1,0x23E,8,ピコハン,Pikohan
+08528.pak1,0x24F,8,ポイハン,Poihan
 08534.pak1,0x3A9,22,-バーニング・サークル-,-Burning Circle-
+08534.pak1,0x403,18,カウンタ・マジック,Counter Magic
 08541.pak1,0x10F,18,カウンタ・マジック,Counter Magic
 08542.pak1,0x10F,18,カウンタ・マジック,Counter Magic
 08543.pak1,0x10F,18,カウンタ・マジック,Counter Magic
@@ -114,6 +126,8 @@ file,offset,bytes,japanese,english
 08573.pak1,0x55E,14,セカンド・サン,Second Sun
 08587.pak1,0x2AD,14,-必中のフーガ-,-Sure Fugue-
 08587.pak1,0x2D2,18,-不断のパストラル-,-Endless Pastoral-
+08602.pak1,0x25E,6,大震斧,Quake
+08603.pak1,0x25E,6,大震斧,Quake
 08605.pak1,0x34B,16,-バリアチェンジ-,-Barrier Change-
 08605.pak1,0x373,16,-バリアチェンジ-,-Barrier Change-
 08605.pak1,0x39B,16,-バリアチェンジ-,-Barrier Change-
@@ -132,6 +146,8 @@ file,offset,bytes,japanese,english
 08614.pak1,0x42A,18,ストームブリンガー,Stormbringer
 08615.pak1,0x42A,18,ストームブリンガー,Stormbringer
 08616.pak1,0x42A,18,ストームブリンガー,Stormbringer
+08621.pak1,0x241,6,三龍旋,Whirl
+08622.pak1,0x241,6,三龍旋,Whirl
 08634.pak1,0x22F,18,-ロスト・セラフィ-,-Lost Seraph-
 08635.pak1,0x22F,18,-ロスト・セラフィ-,-Lost Seraph-
 08636.pak1,0x22F,18,-ロスト・セラフィ-,-Lost Seraph-
@@ -146,8 +162,11 @@ file,offset,bytes,japanese,english
 08685.pak1,0x22F,18,-ラスティ・ネイル-,-Rusty Nail-
 08686.pak1,0x555,12,ニブルヘイム,Niflheim
 08690.pak1,0x23E,8,ピコハン,Pikohan
+08690.pak1,0x24F,8,ポイハン,Poihan
 08698.pak1,0x541,12,ニブルヘイム,Niflheim
 08705.pak1,0x23E,8,ピコハン,Pikohan
+08705.pak1,0x24F,8,ポイハン,Poihan
+08708.pak1,0x25E,6,大震斧,Quake
 08709.pak1,0x42A,18,ストームブリンガー,Stormbringer
 08710.pak1,0x594,14,ギガスクリーム,Giga Scream
 08727.pak1,0x4FD,14,ビーストロアー,Beast Roar

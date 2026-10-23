@@ -55,7 +55,7 @@ GITHUB = 'Gandorfin/Tales-of-Destiny-2'
 API = 'https://api.github.com/repos/' + GITHUB
 UPLOADS = 'https://uploads.github.com/repos/' + GITHUB
 ACCEPTED_CRITICAL = {'code-mismatch': 4}
-MAX_ENEMY_EXTRAS = 26      # battle script lines with no table row yet (build_ps2.py --max-enemy-extras)
+MAX_ENEMY_EXTRAS = 0       # battle script lines with no table row (build_ps2.py --max-enemy-extras); 0 since the enemy_text.py scan fix
 TEST_DIRS = ('ps2/menu', 'ps2/PyTOD2', 'psp/tools', 'audio')
 
 PLATFORMS = {

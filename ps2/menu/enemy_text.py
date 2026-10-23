@@ -49,6 +49,7 @@ column are left alone.
 """
 import argparse
 import csv
+import json
 import os
 import re
 import struct
@@ -61,8 +62,22 @@ import md1patch as P   # noqa: E402
 
 DEFAULT_CSV = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'enemy_translations.csv')
 NAMES_CSV = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'enemy_names.csv')
-LITERAL = re.compile(rb'\x0a[\x00-\x0f]')
+# The text opcode 0A and its argument byte.  The lookahead only consumes the
+# 0A, so "0A 0A 07 <text>" (an operand 0A right before the opcode, as in
+# 08525.pak1 0x24C) still finds the literal at the second 0A.
+LITERAL = re.compile(rb'\x0a(?=[\x00-\x0f])')
 JP = re.compile(r'[぀-ヿ一-鿿]')
+
+# Glyph table for the battle scripts: TBL.json (via md1text) plus the 522
+# codes it lacks, listed in psp/tools/TBL_PSP.json (the PSP font is the same
+# glyph set).  Without them every literal holding one of those kanji was
+# invisible: 三龍旋 (三 0xE151, 旋 0xE045), the 震天裂空斬光旋風.. banners,
+# 義憐聖霊斬, 真神煉獄刹 and three copies of -剛力のオラトリオ-.
+TBL = dict(M.TBL)
+with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', 'psp', 'tools',
+                       'TBL_PSP.json'), encoding='utf-8') as _fh:
+    for _code, _char in json.load(_fh).items():
+        TBL.setdefault(_code, _char)
 
 TEKI_FILE = '08063.pak1'
 TEKI_STRIDE = 0x1C
@@ -110,6 +125,7 @@ EXTRA_TRANSLATIONS = {
     '-アラガウカ！-': '-You resist!?-',
     '-ムダダ！-': '-Futile!-',
     '-サカラエヌ、サダメガアル・・・-': '-A fate none can defy...-',
+    '-キセキハオトズレナイ-': '-Miracles never come-',
 }
 
 # Mystic Arte banners embedded in efD battle-effect scripts.  The katakana
@@ -126,8 +142,18 @@ MYSTIC_ARTE_TRANSLATIONS = {
     '魔人千裂衝': 'Demon Rend',
     '浄破滅焼闇': 'Cleansing',
     '蒼龍滅牙斬': 'Azure Fang',
-    '震天裂空': 'Sky Rend',
-    '震天裂空斬光': 'Sky Rend Ray',
+    # 震天裂空斬光旋風滅砕神罰攻撃 grows one step per hit in 08785.pak1,
+    # each a step longer (8, 12, 16, 20, 24, 28 bytes); "Sky Rip" keeps every
+    # step inside its slot and matches the PSP banners (psp_monsters.tsv).
+    '震天裂空': 'Sky Rip',
+    '震天裂空斬光': 'Sky Rip Ray',
+    '震天裂空斬光旋風': 'Sky Rip Ray Gust',
+    '震天裂空斬光旋風滅砕': 'Sky Rip Ray Gust Hew',
+    '震天裂空斬光旋風滅砕神罰': 'Sky Rip Ray Gust Hew Ire',
+    '震天裂空斬光旋風滅砕神罰攻撃': 'Sky Rip Ray Gust Hew Ire Hit',
+    # The Mystic Arte banners of 08778 and 08787, with the PSP names.
+    '義憐聖霊斬': 'Holy Mercy',
+    '真神煉獄刹': 'Penitence',
     # Zankuu Tenshouken / Soaring Guillotine.  The efD literal has a hard
     # 10-byte slot, so use the recognizable second half of the localized
     # name in battle; the full menu name lives elsewhere in the executable.
@@ -218,7 +244,8 @@ def decode_literal(data, p):
         text = raw.decode('shift_jis')
     except UnicodeDecodeError:
         return None
-    if text.encode('shift_jis') != raw or not JP.search(text):
+    if (text.encode('shift_jis') != raw or not JP.search(text)
+            or any(c < ' ' for c in text)):
         return None
     return text, end
 
@@ -232,9 +259,9 @@ def _decode_table_literal(data, p):
             if p + 1 >= n:
                 return None
             k = str((b << 8) | data[p + 1])
-            if k not in M.TBL:
+            if k not in TBL:
                 return None
-            out.append(M.TBL[k])
+            out.append(TBL[k])
             p += 2
         elif b == 0x01:
             out.append('\n')
@@ -249,10 +276,15 @@ def _decode_table_literal(data, p):
     return ''.join(out), p
 
 
+def literal_starts(data):
+    """Yield the start of the string after every 0A opcode + argument byte."""
+    for m in LITERAL.finditer(data):
+        yield m.end() + 1
+
+
 def find_literals(data):
     """Yield (offset, byte_count, text) for every 0A-literal with Japanese in it."""
-    for m in LITERAL.finditer(data):
-        p = m.end()
+    for p in literal_starts(data):
         r = decode_literal(data, p)
         if not r:
             continue
@@ -462,9 +494,9 @@ def teki_name(data, slot):
             if p + 1 >= len(b):
                 return None
             k = str((c << 8) | b[p + 1])
-            if k not in M.TBL:
+            if k not in TBL:
                 return None
-            out.append(M.TBL[k])
+            out.append(TBL[k])
             p += 2
         elif 0x20 <= c < 0x7F:
             out.append(chr(c))

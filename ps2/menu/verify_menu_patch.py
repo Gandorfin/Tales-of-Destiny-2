@@ -146,14 +146,14 @@ def verify_enemy_text(member):
 
     mystic_literals=[]
     for data in mystic_blobs:
-        for match in enemy_text.LITERAL.finditer(data):
-            decoded=enemy_text.decode_literal(data,match.end())
+        for start in enemy_text.literal_starts(data):
+            decoded=enemy_text.decode_literal(data,start)
             if decoded: mystic_literals.append(decoded[0].strip())
     mystic={"en":0,"jp":0,"other":0}
     for japanese,english in enemy_text.MYSTIC_ARTE_TRANSLATIONS.items():
         jp=mystic_literals.count(japanese)
         en=mystic_literals.count(english)
-        if en==1 and jp==0: mystic["en"]+=1
+        if en>=1 and jp==0: mystic["en"]+=1    # 浄破滅焼闇 has two banner copies
         elif jp==1 and en==0: mystic["jp"]+=1
         else: mystic["other"]+=1
 
