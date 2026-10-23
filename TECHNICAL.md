@@ -584,6 +584,21 @@ The variable width font (`psp/tools/psp_vwf.py`) hooks all of these:
   monologue are its F8 strings. PSP twin of the PS2 `09028..09032.pak0`.
   The `クレスタの街` / `ラグナ遺跡` list in BOOT.BIN is a different list
   these labels never read. `psp/tools/psp_worldmap.py`, `psp_worldmap.tsv`.
+* World map pack buffer: the game reads the pack of the current era into a
+  fixed buffer of `0xFD8C0` bytes and loads member `09347` (a 2 child pack,
+  133,824 bytes) right behind it, at pack + 0xFD8C0 whatever the pack size
+  (RAM of the retail game and of 0.3.5 in PPSSPP, final era, 2026-10-23).
+  The largest retail pack is `09276` at 0xFCE30. PSP 0.3.5 appended every
+  English string and made `09276` 1,039,980 bytes, so 1,452 bytes of it
+  shared memory with `09347`: Vita (Adrenaline) crash C1-2858-3 when the
+  game went back to the world map after a battle or a town in the final
+  era. PPSSPP always loaded `09347` second (it overwrote the tail of the
+  pack, children 60 and 61) and showed nothing. Rule: a member that grows
+  past the largest retail member of its kind can overflow a fixed buffer
+  that the emulator never shows; prove the room in RAM. psp_worldmap now
+  writes English into its Japanese slot when it fits
+  (`psp_text.insert_sced_compact`) and refuses a pack whose sector rounded
+  size is over the buffer.
 
 ## PSP: battle voices and battle subtitles
 
