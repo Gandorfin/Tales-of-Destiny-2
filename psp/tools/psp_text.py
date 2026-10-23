@@ -53,6 +53,13 @@ ITBL = {v: struct.pack('>H', int(k)) for k, v in TBL.items()}   # last code wins
 for k, v in json.load(open(os.path.join(HERE, 'TBL_PSP.json'), encoding='utf-8')).items():
     TBL.setdefault(k, v)
     ITBL.setdefault(v, struct.pack('>H', int(k)))
+# The full-width space U+3000 is listed twice: 0x9940 (the blank first cell
+# of the font, what the retail text uses) and 0xE499, the last code, which
+# "last code wins" picked. 0xE499 is past the end of the PSP font and draws a
+# block of noise (playtest tab 14: in front of "Proceed" / "Escape" in the
+# PSP only choice of psp_supplement.tsv, above the Info poem of 06348), so
+# encode it as 0x9940, as psp_menu.encode_keys does for the executable.
+ITBL['　'] = b'\x99\x40'
 TAGS = {0x4: 'color', 0x5: 'size', 0x6: 'num', 0x7: 'char', 0x8: 'item', 0x9: 'button'}
 ITAGS = {v: k for k, v in TAGS.items()}
 NAMES = {1: 'Kyle', 2: 'Reala', 3: 'Loni', 4: 'Judas', 5: 'Nanaly', 6: 'Harold'}

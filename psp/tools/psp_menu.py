@@ -81,7 +81,7 @@ def encode_keys(jp):
     (the shop names, scene titles and others stayed Japanese until 0.3.2)."""
     out = [psp_text.encode_line(jp.replace('　', '{99}{40}'))]
     if '　' in jp:
-        out.append(psp_text.encode_line(jp))
+        out.append(psp_text.encode_line(jp.replace('　', '{E4}{99}')))
     return out
 
 
