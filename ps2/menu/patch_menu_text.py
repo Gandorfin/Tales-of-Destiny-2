@@ -23,10 +23,20 @@ try:                                   # Windows consoles are often not UTF-8
 except Exception:
     pass
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-import md1text as M, md1patch as P, pak3, lzss, world_map_labels, shop_prompt
+import md1text as M, md1patch as P, pak3, lzss, world_map_labels, shop_prompt, refine_lens
 
 # the shop module: its sell confirmation needs a pointer repaired (shop_prompt.py)
 SHOP_MODULE = '06803.md1'
+# code fixes after the records: shop sell prompt pointer, refine lens format
+MODULE_FIXES = {SHOP_MODULE: shop_prompt.apply, '06802.md1': refine_lens.apply}
+
+# FILE.FPB holds every menu module twice: 06798..06816 as plain files and
+# 06817..06835 as comptoe LZSS copies of the same bytes (06817 = 06798 ...
+# 06835 = 06816; byte identical on the retail and the Cless disc). The game
+# loads the packed copies too: the refine screen showed the 2008 "A0,B0/ 99"
+# in 1.3.3 although 06802 says "A:0 B:0/ 99". They get the records of their
+# plain module, unpacked, patched and packed again.
+PACKED_TWINS = {f'{i + 19:05d}.md1': f'{i:05d}.md1' for i in range(6798, 6817)}
 
 FORMER_TRANSLATIONS = {
     ('09028.pak0', 0xFFE57): 'Laguna',
@@ -121,9 +131,9 @@ def main():
                 done += already
             except ValueError as error:
                 errs.append(str(error))
-        if name == SHOP_MODULE and not errs:
+        if name in MODULE_FIXES and not errs:
             try:
-                fixed, _ = shop_prompt.apply(d)
+                fixed, _ = MODULE_FIXES[name](d)
                 relocated += fixed
             except ValueError as error:
                 errs.append(str(error))
@@ -146,6 +156,7 @@ def main():
     print(f"\n{written} strings patched, {current} already current, {total} files"
           f"{' (dry run)' if a.dry_run else ''}" + (f", {skipped} skipped" if skipped else ""))
     rc=patch_containers(folder, groups, a, formers, failed)
+    rc|=patch_packed_twins(folder, groups, a, formers, failed)
     if failed:
         print("\n" + "!"*72)
         print(f"NOT PATCHED ({len(failed)}): " + ", ".join(failed))
@@ -154,6 +165,45 @@ def main():
         print("this script again; if a file still fails, report the lines above.")
         print("!"*72)
     return 1 if (skipped or rc) else 0
+
+def patch_packed_twins(folder, groups, a, formers=None, failed=None):
+    """Apply the records of 06798..06816 to their LZSS copies 06817..06835."""
+    print("\nPacked copies of the menu modules:")
+    bad=0
+    for name, plain in sorted(PACKED_TWINS.items()):
+        path=os.path.join(folder,name)
+        if not os.path.exists(path) or plain not in groups: continue
+        blob=open(path,"rb").read()
+        if not lzss.is_packed(blob):
+            print(f"  FAIL {name}: not an LZSS stream"); bad+=1
+            if failed is not None: failed.append(name)
+            continue
+        mod=lzss.unpack(blob)
+        former={off: texts for (fname, off), texts in (formers or {}).items() if fname==plain}
+        new,patched,done,errs=pak3.apply_records(mod, groups[plain], former)
+        fixed=0
+        if plain in MODULE_FIXES and not errs:
+            d=bytearray(new)
+            try:
+                fixed,_=MODULE_FIXES[plain](d); new=bytes(d)
+            except ValueError as error:
+                errs.append(str(error))
+        if errs:
+            print(f"  FAIL {name} ({plain}): {len(errs)} problem(s), file left untouched")
+            for e in errs[:5]: print("        "+e)
+            bad+=1
+            if failed is not None: failed.append(f"{name} ({plain})")
+            continue
+        if not patched and not fixed:
+            print(f"  current {name} ({plain}): all {done} strings already translated"); continue
+        out=lzss.pack(new, blob[0])
+        if lzss.unpack(out)!=new: raise RuntimeError(f"{name}: LZSS round trip failed")
+        if not a.dry_run:
+            if not a.no_backup and not os.path.exists(path+".bak"): shutil.copy(path,path+".bak")
+            open(path,"wb").write(out)
+        extra=f", {done} already done" if done else ""
+        print(f"  {'would patch' if a.dry_run else 'patched'} {name} ({plain}): {patched+fixed} strings{extra}")
+    return bad
 
 def patch_containers(folder, groups, a, formers=None, failed=None):
     """The .pak3 files hold compressed copies of some modules (00017.pak3:

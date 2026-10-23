@@ -14,8 +14,8 @@ Nothing is written. Exit code 0 if everything is English, 1 otherwise.
 """
 import csv, os, struct, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-import md1text as M, pak3, lzss, enemy_text, slps_font, slps_menu, world_map_labels, shop_prompt
-import patch_slps_titles
+import md1text as M, pak3, lzss, enemy_text, slps_font, slps_menu, world_map_labels, shop_prompt, refine_lens
+import patch_slps_titles, patch_menu_text
 try:
     sys.stdout.reconfigure(errors="replace")
 except Exception:
@@ -185,6 +185,11 @@ def main():
             except ValueError: sell=False
             if not sell: total["other"]+=1
             note="   sell prompt: " + ("repaired" if sell else "still shows iH*")
+        if name=="06802.md1":
+            try: lens=refine_lens.apply(bytearray(data))==(0,1)
+            except ValueError: lens=False
+            if not lens: total["other"]+=1
+            note="   lens line: " + ("A:0 B:0" if lens else "still A0,B0")
         print(f"{name:<12}{c['en']:>8}{c['jp']:>10}{c['other']:>7}  {verdict}{note}")
     # compressed module containers: these are the copies the game actually loads
     groups={name:[(int(r["offset"],16),r["japanese"],r["english"]) for r in recs] for name,recs in rows.items()}
@@ -202,6 +207,27 @@ def main():
             n=en+jp+other
             verdict="PATCHED" if en==n else ("NOT patched" if jp==n else "MIXED")
             print(f"{name+' > '+which:<12}{en:>8}{jp:>10}{other:>7}  {verdict}   <- the copy the game loads")
+    # LZSS copies of the menu modules (patch_menu_text.PACKED_TWINS)
+    for name,plain in sorted(patch_menu_text.PACKED_TWINS.items()):
+        data=member(name)
+        if data is None or plain not in groups: continue
+        try: mod=lzss.unpack(data)
+        except Exception: mod=None
+        if mod is None:
+            print(f"{name:<12}  (not an LZSS stream)"); total["other"]+=len(groups[plain]); continue
+        en,jp,other=pak3.classify(mod,groups[plain])
+        if plain=="06803.md1":
+            try: sell=shop_prompt.apply(bytearray(mod))==(0,1)
+            except ValueError: sell=False
+            other+=0 if sell else 1
+        if plain=="06802.md1":
+            try: lens=refine_lens.apply(bytearray(mod))==(0,1)
+            except ValueError: lens=False
+            other+=0 if lens else 1
+        for key,val in (("en",en),("jp",jp),("other",other)): total[key]+=val
+        n=en+jp+other
+        verdict="PATCHED" if en==n else ("NOT patched" if jp==n else "MIXED")
+        print(f"{name+' = '+plain:<12}{en:>8}{jp:>10}{other:>7}  {verdict}   <- packed copy")
     print(f"{'FPB total':<12}{total['en']:>8}{total['jp']:>10}{total['other']:>7}")
     ok = total["jp"]==0 and total["other"]==0
     ok = verify_enemy_text(member) and ok
