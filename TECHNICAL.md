@@ -168,6 +168,12 @@ Quiz Book, enemy text, font), `ps2/movies/README.md` (PS2 movies),
   `python ps2/menu/update_former_translations.py` and commit
   `menu_former_translations.csv`, otherwise a kept FPB folder freezes whole
   files at their old wording.
+* Every menu module is in the archive twice: `06798..06816` plain and
+  `06817..06835` as comptoe LZSS copies of the same bytes (06817 = 06798,
+  ..., 06835 = 06816). The game loads the packed copies too (the refine
+  screen of 1.3.3 showed the packed 06821). `patch_menu_text.py` patches both
+  (`PACKED_TWINS`); never patch bytes inside an LZSS stream (the old row
+  `06822.md1,0x1CC1` did, and garbled 14 shop strings after it).
 * The 2008 patch relocated many tables to English copies at the end of the
   modules, leaving the old Japanese bytes in place. Before translating a
   Japanese string in an md1, look for its English twin and check pointers,
