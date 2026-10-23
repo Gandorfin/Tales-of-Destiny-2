@@ -134,8 +134,9 @@ def tool(*argv):
 def verify(iso, max_extras):
     """verify_menu_patch.py on the finished ISO. It stays strict about the menu
     modules, the executable and the enemy tables; only "Enemy extras" (battle
-    script lines with no table row yet, 26 on main 2026-10-20, 34 in v1.3.0)
-    may be up to max_extras, since no build so far has had zero."""
+    script lines with no table row, 26 on main 2026-10-20, 34 in v1.3.0, 0 since
+    enemy_text.py reads the full glyph table and overlapping 0A opcodes) may be
+    up to max_extras."""
     result = subprocess.run([sys.executable, os.path.join(MENU, 'verify_menu_patch.py'), iso],
                             cwd=REPO, text=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
     print(result.stdout)
@@ -281,8 +282,8 @@ def parse_args(argv=None):
     ap.add_argument('--font', default=os.path.join(MENU, 'font-ready_final.png'),
                     help="Latin font PNG for patch_font_iso.py (default: dreck's font, as in the releases); "
                          "'none' keeps the font of the executable")
-    ap.add_argument('--max-enemy-extras', type=int, default=26,
-                    help='battle script lines without a table row allowed in the verify step (default 26)')
+    ap.add_argument('--max-enemy-extras', type=int, default=0,
+                    help='battle script lines without a table row allowed in the verify step (default 0)')
     ap.add_argument('--out', required=True, help='English ISO to write')
     ap.add_argument('--work', help='work folder (default: <out>.work)')
     args = ap.parse_args(argv)

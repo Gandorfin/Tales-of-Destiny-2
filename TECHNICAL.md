@@ -178,7 +178,13 @@ Quiz Book, enemy text, font), `ps2/movies/README.md` (PS2 movies),
 * Quiz Book: `sfm` members, `ps2/menu/sfm_text.py` with
   `quiz_translations.csv`.
 * Enemy artes and boss lines: `ps2/menu/enemy_text.py` with
-  `enemy_translations.csv`; banner names `enemy_names.csv`.
+  `enemy_translations.csv`; banner names `enemy_names.csv`. Text opcode
+  `0A`, one argument byte, then a NUL terminated string. Two traps hid 32
+  literals until October 2026: an operand `0A` right before the opcode
+  ("0A 0A 07 ポイハン" in 08525) swallowed the real opcode in a plain regex
+  scan, and kanji missing from `TBL.json` (三 `0xE151`, 旋 `0xE045`, ...)
+  made the decoder give up. The scan now steps one byte past each `0A` and
+  decodes with `TBL.json` plus `psp/tools/TBL_PSP.json`.
 * Title screen credit: a 4-bit TM2 texture (PS2 `00021.pak3` member 1,
   384 x 32); `ps2/menu/title_credit.py` draws "Green Gel vX.Y.Z" (the game
   shows only the first 96 pixels).
@@ -278,8 +284,9 @@ addresses are EE RAM while a battle runs.
   the released v1.3.0 image in 9,091 of 9,095 FILE.FPB members; the other
   four are merged fixes the release lacked.
 * `verify_menu_patch.py` counts "Enemy extras" (Japanese literals in battle
-  scripts with no table row): 34 in v1.3.0, 26 in v1.3.1. The release gate
-  allows up to 26 and is strict on everything else.
+  scripts with no table row): 34 in v1.3.0, 26 in v1.3.1, 0 since the
+  enemy_text.py scan fix. The release gate allows 0 and is strict on
+  everything else.
 * Release font: `ps2/menu/font-ready_final.png` (dreck), applied with
   `patch_font_iso.py` on the finished image.
 
