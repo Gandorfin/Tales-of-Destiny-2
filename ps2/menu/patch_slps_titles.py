@@ -25,7 +25,8 @@ Steps, in order, on one in-memory copy; the file is written once at the end:
      runs (LIVE below) is moved to free pool space, with its pointers.
   5. The Latin font (slps_font.py): '&' and '~' had no glyph and '*' was a
      star, so an ampersand, a tilde and an asterisk are drawn into the font
-     texture and the two ASCII table entries are pointed at them.
+     texture and the two ASCII table entries are pointed at them. The
+     apostrophe gets its own cell (0x03), apart from the double quote.
 
 Re-running is safe. The file size never changes.
 """
@@ -324,12 +325,12 @@ def patch_one(target, a):
     if moved:
         print("pool: moved off the bytes the game overwrites: " + ", ".join(moved))
 
-    # Step 5: '&', '~' and '*' glyphs in the Latin font.
+    # Step 5: '&', '~', '*' and apostrophe glyphs in the Latin font.
     try:
         src, changes = slps_font.apply(src)
     except slps_font.FontError as e:
         print(f"font: {e}. Nothing written."); return 1
-    print("font: " + (", ".join(changes) if changes else "'&', '~' and '*' glyphs already in place"))
+    print("font: " + (", ".join(changes) if changes else "'&', '~', '*' and apostrophe glyphs already in place"))
 
     assert len(src) == len(original)
     if src == original:

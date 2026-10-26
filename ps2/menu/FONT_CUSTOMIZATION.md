@@ -69,6 +69,23 @@ dimensions/palettes are rejected by `check`/`patch`; RGB can be converted by
 the explicit `prepare` command. A transparent background is strongly
 recommended because an RGB image has no way to identify transparent pixels.
 
+## Cells the English build uses for punctuation
+
+Green Gel builds point a few ASCII characters at cells other than the
+retail ones (`slps_font.py`, a step of `patch_slps_titles.py`). Draw these
+characters in these cells (cell = row * 10 + column, counted from the top
+left, starting at 0):
+
+| Character | Cell | Note |
+| --- | --- | --- |
+| `'` apostrophe | `0x03` | retail middle dot; the build copies the retail quote there |
+| `"` double quote | `0x09` | retail closing single quote; leave a quote here |
+| `&` | `0x4B` | |
+| `~` | `0x4C` | |
+| `*` | `0x4E` | |
+
+Before 1.3.4 the apostrophe and the double quote both used cell `0x09`.
+
 ## What the script preserves
 
 The template comes from your own ISO; the script contains no game font assets.

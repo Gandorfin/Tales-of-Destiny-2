@@ -18,8 +18,8 @@ Destiny II" in North America) and not the PS1 Tales of Destiny.
 
 | Version | Latest release | State |
 |---|---|---|
-| PS2 (SLPS-25172) | **QS v1.3.2** | **Complete.** The whole game is English, including subtitles for the spoken battle lines. |
-| PSP (ULJS-00097) | **v0.3.4** (one download, variable width font; v0.3.1 also came without the lowercase font hack) | **Playable in emulators and on a PS Vita.** Story, skits, movies, battle subtitles, world map and almost every menu are English; a few areas are still Japanese (listed below). A real PSP did not run v0.3.2; v0.3.4 is not tested on one yet. |
+| PS2 (SLPS-25172) | **QS v1.3.4** | **Complete.** The whole game is English, including subtitles for the spoken battle lines. |
+| PSP (ULJS-00097) | **v0.3.6** | **Playable in emulators, on a PS Vita and, by a first report, on a real PSP.** Story, skits, movies, battle subtitles, world map and almost every menu are English; a few areas are still Japanese (listed below). |
 
 ### PS2
 
@@ -42,7 +42,8 @@ Everything a player reads is English:
   phrases, the leader's orders, scripted fight hints and boss lines (since
   v1.3.2)
 * the movies with dialogue, hard-subtitled, and an English ending staff roll
-* a redrawn Latin font (by dreck, since v1.2.3)
+* a redrawn Latin font (by dreck, since v1.2.3; his final version since
+  v1.3.4, with an apostrophe and a double quote of their own)
 
 Known limits:
 
@@ -56,6 +57,22 @@ Known limits:
   showed it as a blue disc (pnvnd; it worked after burning with ImgBurn).
   Since v1.3.1 the patched disc has the retail disc structure; a PS3 test
   is still owed.
+
+New in v1.3.4 (26 October 2026): dreck's final font (clearer letters such
+as s and t, a smaller asterisk), and apostrophes and double quotes now look
+different (before, every double quote showed as a single quote); the last
+Japanese enemy arte names (Poihan of the colosseum ghost "Death", Whirl,
+Quake, Cancer Scissor) and Mystic Arte banners (the Sky Rip chain, Holy
+Mercy, Penitence) are English; the game keeps a second, packed copy of
+every menu file that some screens read, and those copies are now
+translated too (Refine shows "Lens A:0 B:0/100"); the "Highest meadow in
+the misty land" poem and the piano line no longer start with an empty line.
+
+New in v1.3.3 (22 October 2026): fixed the freeze at the start of some
+boss fights (Elrane, Rimul) that came with the battle subtitles of v1.3.2:
+those bosses load extra battle code where the subtitle code sat, which now
+lives in a place nothing else uses. Speaker names for the Elrane and
+Fortuna lines and for the victory exchanges between two characters.
 
 New in v1.3.2 (21 October 2026): English subtitles for the spoken battle
 lines (asked for by nks in the forum thread: "the only thing missing"). The
@@ -78,11 +95,34 @@ from the original disc. v1.3.1 is the first release built with
 
 ### PSP
 
-v0.3.4 (21 October 2026) has the full story script, all 608 timed skits at
+v0.3.6 (26 October 2026) has the full story script, all 608 timed skits at
 full length with per line text speed (as PS2 v1.3.0), menus, items, artes,
 titles, descriptions, the Quiz Book, battle subtitles, English subtitles in
 the nine movies with dialogue and the PSP's own ending staff roll in
-English. New in v0.3.4:
+English. New in v0.3.6:
+
+* fixed the crash when the game goes back to the world map in the final
+  era (DrandalZ's report on a PS Vita: black screen and error C1-2858-3
+  after a battle or a town). The final era map pack had grown past the
+  fixed buffer the game loads it into; it fits again.
+* the enemy arte banners that were still Japanese (Regeneration,
+  Barbatos' Blaze, Glare, Moonfall and Dragonfang of the enemy Judas), the
+  names Death and Thanatos Knight, and correct padding of some enemy lines
+* no more block of noise in front of "Proceed" and "Escape" in the Aqua
+  Labyrinth choice and above the "Highest meadow in the misty land" poem;
+  "Instrument belonging to Johnny."
+
+New in v0.3.5 (22 October 2026):
+
+* fixed the freeze when leaving the Atamoni Ovum to the world map
+* the full PS2 arte and spell names with their spaces ("Flame Drive"
+  instead of "FlameDrive"), English Mystic Arte banners and the 14 Added
+  Arte banners, arte descriptions that keep their line break
+* a space between refinement and name ("Rune Axe"), "Pickaxe", normal
+  digits in dialogue, the cooking overlap setting in English
+* smaller battle subtitles (at most four lines stacked) with speaker names
+
+New in v0.3.4:
 
 * fixed the crash when an item or an arte is used from the menu (pnvnd's
   report: Loni's Heal cast outside of battle; most likely also the "item
@@ -128,21 +168,22 @@ Android (a development build, v1.20.4 or newer, ran best) and on the
 Switch, and the PSP emulator of a PS3 run v0.3.2 and v0.3.3. A PS Vita with
 Adrenaline 8.0.2 played v0.3.3 without crashes in menus, battles, towns and
 on the world map (DrandalZ); the crash when using an item or arte from the
-menu is fixed in v0.3.4. **A real PSP does not run it yet:** a PSP-3000 stops on a
-white screen after the logos with v0.3.2, a PSP-2000 crashed often with
-v0.3.1. This is being investigated; see
+menu is fixed in v0.3.4, the final era world map crash in v0.3.6. **Real
+PSP:** MXPHunter reports that a PSP-2000 (ME firmware) and a PSP-3000 (PRO
+firmware) start and play the patch, on PRO with the "Memory Stick Speedup"
+option turned off for games; the white screen after the logos that the
+PSP-3000 showed with v0.3.2 most likely came from that option. Reports
+with the patch version are welcome; see
 [Help wanted](#help-wanted-open-psp-problems).
 
-Still Japanese on PSP (full scan of v0.3.3, October 2026):
+Still Japanese on PSP (full scan of v0.3.3 and a scan of the battle files
+of v0.3.6, October 2026):
 
 * the status ailment icons in the Monster Book (衰 痺 凍 鈍 時, small icon
   slots) and two single labels with no context yet (Ｓ・Ｏ, 彼)
-* the cooking auto setting label (オート設定（重複時：…）), which mixes game
-  codes with placeholder spaces the choice is drawn over
-* the Mystic Arte banners of some enemies, and about 50 enemy arte names
-  and boss lines that have no table yet
-* saves made before v0.3.3 keep their Japanese save title (it is written
-  into the save)
+* saves made before v0.3.3 keep their Japanese save title, and saves made
+  in the Japanese game or an older patch keep the cooking recipe names
+  they had learned (both are written into the save)
 * the kana keyboard of the name entry (on purpose)
 
 See [Help wanted](#help-wanted-open-psp-problems) for the engineering side.
@@ -174,9 +215,9 @@ See [Help wanted](#help-wanted-open-psp-problems) for the engineering side.
    `No_Font_Hack` (capitals only, for devices where the first one crashed).
 2. You need your own dump of the Japanese UMD (ULJS-00097). Apply the patch
    with Delta Patcher or `xdelta3 -d -s original.iso patch.xdelta patched.iso`.
-3. Play on PPSSPP (on Android a development build, v1.20.4 or newer) or a
-   PS Vita with Adrenaline. A real PSP with custom firmware did not run
-   v0.3.2 (see Status); v0.3.4 is not tested on one yet.
+3. Play on PPSSPP (on Android a development build, v1.20.4 or newer), a
+   PS Vita with Adrenaline or a PSP with custom firmware. On PRO firmware
+   turn the "Memory Stick Speedup" option off for games (see Status).
 
 The title screen shows the patch version ("Green Gel vX.Y.Z" on PS2,
 "Green Gel vX.Y.Z" on PSP since 0.3.3). Please include it in bug reports.
@@ -229,9 +270,14 @@ engineering, `armips` or this engine, open an issue or a pull request.
   string pool (it loads only consecutive program headers), which explained
   the missing labels, random characters and freezes on a PSP or a Vita.
   Since v0.3.1 the kernel loads it, and the PS Vita (Adrenaline) plays the
-  game with infrequent crashes. A real PSP still fails: a PSP-3000 stops on
-  a white screen after the logos with v0.3.2, a PSP-2000 crashed often
-  with v0.3.1. v0.3.3 encodes the movies like the original ones (the
+  game. v0.3.6 fixes a Vita crash on the final era world map: that map's
+  pack had grown past the fixed 0xFD8C0 byte buffer it is loaded into, and
+  on hardware the next file can be read in first (PPSSPP always loads them
+  in the same order, so it never showed). On a real PSP, MXPHunter reports
+  a PSP-2000 (ME) and a PSP-3000 (PRO, "Memory Stick Speedup" off for
+  games) starting and playing; earlier a PSP-3000 stopped on a white
+  screen after the logos with v0.3.2 and a PSP-2000 crashed often with
+  v0.3.1. v0.3.3 encodes the movies like the original ones (the
   re-encoded movies used x264 weighted prediction, which the retail movies
   never do and the PSP decodes in hardware); that cannot explain the white
   screen at boot. v0.3.4 removes a wild jump from the bold text routine
@@ -241,8 +287,9 @@ engineering, `armips` or this engine, open an issue or a pull request.
   the kernel load and relocation rules, misaligned memory access (none in
   boot, title, story, battle, town and menus), the larger executable (the
   game still runs with 2 MB less memory) and the code hooks' instructions.
-  Wanted: a crash report from a real PSP (an exception handler plugin that
-  shows the crash address) and which builds boot there.
+  Wanted: reports from real PSPs with the patch version, the firmware and
+  its options, and for a crash the crash address (an exception handler
+  plugin shows it).
   Android PPSSPP showed flickering menu items with v0.3.0; with v0.3.2 and a
   development build only some text in the cooking menu flickers.
 
@@ -288,7 +335,7 @@ One command runs every step below in order, with no GUI, on Windows,
 Linux or macOS:
 
 ```
-python ps2/build_ps2.py --japanese-iso "Tales of Destiny 2 (Japan).iso" --cless-iso "Tales of Destiny 2 (Eng-cless patch).iso" --movie-fpb MOVIE.FPB --version 1.3.2 --out tod2_ps2_en.iso
+python ps2/build_ps2.py --japanese-iso "Tales of Destiny 2 (Japan).iso" --cless-iso "Tales of Destiny 2 (Eng-cless patch).iso" --movie-fpb MOVIE.FPB --version 1.3.4 --out tod2_ps2_en.iso
 ```
 
 * `--cless-iso` is the build base: the ISO with the old (2008) Cless
@@ -302,7 +349,8 @@ python ps2/build_ps2.py --japanese-iso "Tales of Destiny 2 (Japan).iso" --cless-
   place (`ps2/menu/replace_iso_files.py`), so every other file stays
   byte for byte retail and the image has the retail disc layout.
 * `--font` is the Latin font PNG (default: dreck's
-  `ps2/menu/font-ready_final.png`, the one the releases carry).
+  `ps2/menu/font-ready_finalv2.png`, the one the releases carry since
+  v1.3.4).
 * The build runs the PyTOD2 steps through the same functions as its
   buttons, then the menu tools, Pack FPB, the ISO, the font,
   `verify_menu_patch.py` and the disc layout check, and stops at the
@@ -328,15 +376,15 @@ The manual steps (details in `ps2/menu/README.md`, "Applying it", and
    python ps2/menu/sfm_text.py build ps2/PyTOD2/FPB
    python ps2/menu/enemy_text.py build ps2/PyTOD2/FPB
    python ps2/menu/battle_subs.py build ps2/PyTOD2/FPB
-   python ps2/menu/title_credit.py ps2/PyTOD2/FPB --version 1.3.2
+   python ps2/menu/title_credit.py ps2/PyTOD2/FPB --version 1.3.4
    python ps2/menu/patch_slps_titles.py ps2/PyTOD2/SLPS_251.72
    ```
-   `title_credit.py` draws "Green Gel v1.3.2" under the title menu; the game
+   `title_credit.py` draws "Green Gel v1.3.4" under the title menu; the game
    shows only 96 pixels of that line, so the tool refuses wider labels.
 4. Pack FPB. It writes `FILE_NEW.FPB` and `new_SLPS_251.72`; those two
    (renamed to `FILE.FPB` and `SLPS_251.72`) go into the ISO. Do
    **not** run "Insert FONT": it replaces the game's Latin font with an
-   unused 2008 font and drops the `&`, `~` and `*` glyphs.
+   unused 2008 font and drops the `&`, `~`, `*` and apostrophe glyphs.
 5. Movies: they are in `MOVIE.FPB`, which none of the steps above touch.
    Build them with
    `python ps2/movies/build_hardsubbed_movies.py --ffmpeg C:\path\to\ffmpeg.exe`
@@ -360,7 +408,7 @@ One command builds the whole English ISO from a clean Japanese one:
 
 ```
 python -m pip install imageio-ffmpeg
-python psp/tools/build_psp.py "Tales of Destiny 2 (Japan) PSP.iso" tod2_psp_en.iso --version 0.3.4 --movies
+python psp/tools/build_psp.py "Tales of Destiny 2 (Japan) PSP.iso" tod2_psp_en.iso --version 0.3.6 --movies
 ```
 
 * `--version` is the number drawn on the title screen as
@@ -388,8 +436,8 @@ One command per platform builds, checks and packs a release:
 
 ```
 python -m pip install py7zr
-python scripts/make_release.py ps2 --version 1.3.2
-python scripts/make_release.py psp --version 0.3.4
+python scripts/make_release.py ps2 --version 1.3.4
+python scripts/make_release.py psp --version 0.3.6
 ```
 
 It checks out upstream/main (or `--commit`) into a clean folder, runs the

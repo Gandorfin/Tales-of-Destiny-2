@@ -293,8 +293,16 @@ addresses are EE RAM while a battle runs.
   scripts with no table row): 34 in v1.3.0, 26 in v1.3.1, 0 since the
   enemy_text.py scan fix. The release gate allows 0 and is strict on
   everything else.
-* Release font: `ps2/menu/font-ready_final.png` (dreck), applied with
-  `patch_font_iso.py` on the finished image.
+* Release font: `ps2/menu/font-ready_finalv2.png` (dreck, since 1.3.4;
+  `font-ready_final.png` before), applied with `patch_font_iso.py` on the
+  finished image.
+* Quote cells: the retail map at `0xC9D00` sends `'`, `"` and `` ` `` to
+  cell `0x09` (a closing single quote). `slps_font.py` copies that glyph
+  into cell `0x03` (the retail middle dot, unreachable from the map) while
+  0x03 still holds the dot, and points `'` at `0x03`. A custom sheet draws
+  the apostrophe in `0x03` and the double quote in `0x09`; the v2 sheet
+  does. A sheet that keeps the retail dot in `0x03` would turn every
+  apostrophe into a dot, so the verifier reports it as "MIXED".
 
 ## PSP: the executable BOOT.BIN
 

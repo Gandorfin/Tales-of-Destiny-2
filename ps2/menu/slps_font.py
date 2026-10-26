@@ -1,4 +1,4 @@
-"""Add an ampersand and a tilde to the game's Latin font (PS2).
+"""Add an ampersand, a tilde and a separate apostrophe to the game's Latin font (PS2).
 
     python3 ps2/menu/slps_font.py ps2/PyTOD2/SLPS_251.72            # patch in place
     python3 ps2/menu/slps_font.py ps2/PyTOD2/SLPS_251.72 --dry-run
@@ -16,8 +16,17 @@ that only '#' and '$' reach, characters no text of the patch uses), redraws
 cell 0x4E as an asterisk, packs the texture again into the room the
 original occupied, and points '&' and '~' at the new cells.  Replacing
 existing cells instead of painting into the empty rows keeps the packed
-size within the original 10,242 bytes.  Everything else in the texture and
-the table is untouched; running it twice changes nothing.
+size within the original 10,242 bytes.
+
+The table also sends both quote characters, '"' and "'", to cell 0x09 (a
+closing single quote), so a font could never show them apart.  This step
+copies that quote into cell 0x03 (a middle dot no table entry reaches) and
+points "'" at 0x03.  With the retail texture nothing looks different; a
+custom font such as dreck's font-ready_finalv2.png draws an apostrophe in
+0x03 and a straight double quote in 0x09.  The copy is only made while
+0x03 still holds the retail middle dot, so a custom font's apostrophe is
+never overwritten.  Everything else in the texture and the table is
+untouched; running it twice changes nothing.
 
 The 2008 fan patch's alternative font (ps2/PyTOD2/font.bin, PyTOD2's
 optional "Insert FONT") has never been part of a Green Gel release; the
@@ -90,7 +99,9 @@ GLYPHS = {
         "............",
         "............"]),
 }
-MAP = {0x26: 0x4B, 0x7E: 0x4C}      # '&' and '~'; '*' already reaches 0x4E
+MAP = {0x26: 0x4B, 0x7E: 0x4C,      # '&' and '~'; '*' already reaches 0x4E
+       0x27: 0x03}                  # "'" apart from '"', which stays on 0x09
+COPIES = {0x03: 0x09}               # cell -> cell whose pixels it receives
 
 # palette indices of the retail glyphs: white ink, grey stroke tips, dark outline
 INK, EDGE, OUTLINE, CORNER = 0xF, 0xB, 0x4, 0x2
@@ -177,21 +188,29 @@ def write_cell(tex, base, w, cell, px):
 # the 2008 English base executable: curly quotes and a star, which the
 # ASCII map would show for '&', '~' and '*' if nothing redrew them.
 BASE_CELLS = {0x4B: '39658f82357d3cc5', 0x4C: 'ab95ee54f8c981f9', 0x4E: '8e84d666d2516144'}
+# the retail middle dot in cell 0x03, which the apostrophe copy replaces
+BASE_DOT = {0x03: 'bc9797455300fa9b'}
+
+
+def cell_digest(px):
+    import hashlib
+    return hashlib.sha1(bytes(v for row in px for v in row)).hexdigest()[:16]
 
 
 def glyph_state(d):
     """'drawn' (this tool's glyphs), 'custom' (redrawn by a custom font such
     as the one patch_font_iso.py inserts) or 'base' (a cell still holds the
-    2008 quote or star) for cells 4B, 4C and 4E."""
-    import hashlib
+    2008 quote or star, or cell 03 its middle dot) for cells 4B, 4C, 4E
+    and 03."""
     tex = lzss.unpack(packed_blob(d))
     base, w, h = image_block(tex)
-    cells = {c: read_cell(tex, base, w, c) for c in GLYPHS}
-    if all(cells[c] == rendered(art) for c, (_, art) in GLYPHS.items()):
-        return 'drawn'
-    digest = lambda px: hashlib.sha1(bytes(v for row in px for v in row)).hexdigest()[:16]
-    if any(digest(cells[c]) == BASE_CELLS[c] for c in GLYPHS):
+    cells = {c: read_cell(tex, base, w, c) for c in list(GLYPHS) + list(COPIES) + list(COPIES.values())}
+    if any(cell_digest(cells[c]) == BASE_CELLS[c] for c in GLYPHS) or \
+       any(cell_digest(cells[c]) == BASE_DOT[c] for c in COPIES):
         return 'base'
+    if all(cells[c] == rendered(art) for c, (_, art) in GLYPHS.items()) and \
+       all(cells[c] == cells[s] for c, s in COPIES.items()):
+        return 'drawn'
     return 'custom'
 
 
@@ -201,7 +220,8 @@ def state(d):
     base, w, h = image_block(tex)
     if (w, h) != (TEX_W, TEX_H):
         raise FontError("unexpected font texture size %dx%d" % (w, h))
-    font_done = all(read_cell(tex, base, w, c) == rendered(art) for c, (_, art) in GLYPHS.items())
+    font_done = all(read_cell(tex, base, w, c) == rendered(art) for c, (_, art) in GLYPHS.items()) and \
+        all(read_cell(tex, base, w, c) == read_cell(tex, base, w, s) for c, s in COPIES.items())
     map_done = all(d[MAP_OFF + code - 0x20] == cell for code, cell in MAP.items())
     return font_done, map_done
 
@@ -222,6 +242,11 @@ def apply(src):
             continue
         write_cell(tex, base, w, cell, want)
         changes.append("glyph %r in cell 0x%02X" % (ch, cell))
+    for cell, source in COPIES.items():
+        if cell_digest(read_cell(tex, base, w, cell)) != BASE_DOT[cell]:
+            continue                # already copied, or a custom font drew it
+        write_cell(tex, base, w, cell, read_cell(tex, base, w, source))
+        changes.append("cell 0x%02X copied into cell 0x%02X" % (source, cell))
     if changes:
         packed = lzss.pack(bytes(tex), 3)
         if len(packed) > len(blob):
@@ -232,7 +257,7 @@ def apply(src):
     for code, cell in MAP.items():
         off = MAP_OFF + code - 0x20
         if d[off] != cell:
-            changes.append("'%s' -> cell 0x%02X (was 0x%02X)" % (chr(code), cell, d[off]))
+            changes.append("%r -> cell 0x%02X (was 0x%02X)" % (chr(code), cell, d[off]))
             d[off] = cell
     return bytes(d), changes
 
@@ -289,7 +314,7 @@ def main(argv=None):
         print("font: %s. Nothing written." % e)
         return 1
     if not changes:
-        print("font: '&' and '~' glyphs already in place")
+        print("font: '&', '~' and apostrophe glyphs already in place")
         return 0
     print("font: " + ", ".join(changes))
     if a.dry_run:

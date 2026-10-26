@@ -22,7 +22,7 @@ GUI and nothing to click:
    of the clean Japanese ISO (menu/replace_iso_files.py: files keep their
    sectors, retail disc layout).
 6. The Latin font (menu/patch_font_iso.py patch; default dreck's
-   menu/font-ready_final.png, the one the releases carry).
+   menu/font-ready_finalv2.png, the one the releases carry).
 7. verify_menu_patch.py and fix_disc_layout.py check on the result.
 
 The work folder (--work, default next to --out) keeps every intermediate
@@ -279,7 +279,7 @@ def parse_args(argv=None):
     ap.add_argument('--movie-fpb', required=True,
                     help='MOVIE.FPB with the subtitled movies (the one of the latest release)')
     ap.add_argument('--version', required=True, help='drawn under the title menu as "Green Gel vX.Y.Z"')
-    ap.add_argument('--font', default=os.path.join(MENU, 'font-ready_final.png'),
+    ap.add_argument('--font', default=os.path.join(MENU, 'font-ready_finalv2.png'),
                     help="Latin font PNG for patch_font_iso.py (default: dreck's font, as in the releases); "
                          "'none' keeps the font of the executable")
     ap.add_argument('--max-enemy-extras', type=int, default=0,
