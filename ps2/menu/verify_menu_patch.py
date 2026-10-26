@@ -251,7 +251,7 @@ def main():
             fv = "PATCHED" if cells == 'drawn' else "PATCHED (custom font draws them)"
         else:
             fv = "NOT patched" if not (glyphs or table) else "MIXED"
-        print(f"{'SLPS font':<12}{'&~*' if glyphs else '':>8}{'':>10}{'':>7}  {fv} (ampersand, tilde, asterisk glyphs)")
+        print(f"{'SLPS font':<12}{'&~*' if glyphs else '':>8}{'':>10}{'':>7}  {fv} (ampersand, tilde, asterisk, apostrophe glyphs)")
         ok = ok and glyphs and table
         manifest = slps_menu.is_applied(slps, slps_menu.load())
         print(f"{'SLPS menu':<12}{'':>8}{'':>10}{'':>7}  {'PATCHED' if manifest else 'NOT current'} (slps_menu_patch.json)")

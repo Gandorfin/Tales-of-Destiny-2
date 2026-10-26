@@ -62,33 +62,66 @@ class Glyphs(unittest.TestCase):
                          sum(r.count('#') for r in F.GLYPHS[0x4B][1]))
 
 
+def cells_of(d, *cells):
+    tex = lzss.unpack(F.packed_blob(d))
+    base, w, h = F.image_block(tex)
+    return [F.read_cell(tex, base, w, c) for c in cells]
+
+
 class Patch(unittest.TestCase):
+    def setUp(self):
+        # let the synthetic font's cell 03 stand in for the retail middle dot
+        self.saved_dot = dict(F.BASE_DOT)
+        F.BASE_DOT[0x03] = F.cell_digest(cells_of(make_slps(), 0x03)[0])
+
+    def tearDown(self):
+        F.BASE_DOT.clear()
+        F.BASE_DOT.update(self.saved_dot)
+
     def test_apply_paints_and_remaps(self):
         src = make_slps()
         self.assertEqual(F.state(src), (False, False))
         new, changes = F.apply(src)
         self.assertEqual(len(new), len(src))
-        self.assertEqual(len(changes), 5)
+        self.assertEqual(len(changes), 7)
         self.assertEqual(F.state(new), (True, True))
         self.assertEqual(new[F.MAP_OFF + 6], 0x4B)
         self.assertEqual(new[F.MAP_OFF + 0x5E], 0x4C)
-        # nothing outside the font stream and the two table bytes changed
+        self.assertEqual(new[F.MAP_OFF + 7], 0x03)          # "'"
+        self.assertEqual(new[F.MAP_OFF + 2], src[F.MAP_OFF + 2])   # '"' untouched
+        # nothing outside the font stream and the three table bytes changed
         n = struct.unpack_from("<I", src, F.FONT_OFF + 1)[0] + 9
         changed = [i for i in range(len(src)) if src[i] != new[i]]
-        self.assertTrue(all(F.FONT_OFF <= i < F.FONT_OFF + n or i in (F.MAP_OFF + 6, F.MAP_OFF + 0x5E) for i in changed))
+        table = (F.MAP_OFF + 6, F.MAP_OFF + 7, F.MAP_OFF + 0x5E)
+        self.assertTrue(all(F.FONT_OFF <= i < F.FONT_OFF + n or i in table for i in changed))
         tex = lzss.unpack(F.packed_blob(new))
         base, w, h = F.image_block(tex)
         for cell, (ch, art) in F.GLYPHS.items():
             self.assertEqual(F.read_cell(tex, base, w, cell), F.rendered(art), ch)
+        # the apostrophe cell now holds the quote of cell 09
+        self.assertEqual(F.read_cell(tex, base, w, 0x03), cells_of(src, 0x09)[0])
         # the cells next door are untouched
         before = lzss.unpack(F.packed_blob(src))
-        for cell in (0x4A, 0x4D, 0x4F):
+        for cell in (0x02, 0x04, 0x4A, 0x4D, 0x4F):
             self.assertEqual(F.read_cell(tex, base, w, cell), F.read_cell(before, base, w, cell))
+
+    def test_custom_apostrophe_is_kept(self):
+        # a custom font already drew its own glyph in cell 03: no copy
+        F.BASE_DOT[0x03] = '0' * 16
+        src = make_slps()
+        new, changes = F.apply(src)
+        self.assertFalse(any("copied" in c for c in changes))
+        self.assertEqual(cells_of(new, 0x03), cells_of(src, 0x03))
+        self.assertEqual(new[F.MAP_OFF + 7], 0x03)
+        self.assertEqual(F.glyph_state(new), 'custom')
 
     def test_glyph_state_tells_drawn_custom_and_base_apart(self):
         new, _ = F.apply(make_slps())
         self.assertEqual(F.glyph_state(new), 'drawn')
+        # the middle dot still in cell 03 counts as the base font
+        self.assertEqual(F.glyph_state(make_slps()), 'base')
         # a custom font (e.g. inserted with patch_font_iso.py) redraws the cells
+        F.BASE_DOT[0x03] = '0' * 16
         self.assertEqual(F.glyph_state(make_slps()), 'custom')
         # the 2008 quote/star cells are recognised by their fingerprints:
         # pretend this synthetic font's cell 4C is the 2008 glyph
