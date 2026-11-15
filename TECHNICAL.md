@@ -29,6 +29,7 @@ Quiz Book, enemy text, font), `ps2/movies/README.md` (PS2 movies),
 * [PSP: menus and the string pool](#psp-menus-and-the-string-pool)
 * [PSP: enemy names, movies, title](#psp-enemy-names-movies-title)
 * [PSP: battle voices and battle subtitles](#psp-battle-voices-and-battle-subtitles)
+* [Skit indicator: how SELECT finds a skit](#skit-indicator-how-select-finds-a-skit)
 * [Rules learned the hard way](#rules-learned-the-hard-way)
 
 ## Text encoding (both versions)
@@ -666,6 +667,57 @@ vaddr (file offset = vaddr + 0xC0, runtime = vaddr + 0x08804000).
 * Exchanges between party members (victory lines 516..523, 557) carry
   the names in the English ("Kyle: ...|Loni: ..."); the speaker column
   holds one name only.
+
+## Skit indicator: how SELECT finds a skit
+
+The Lumina Tales concept (requested in the thread, 2026-11): while a skit
+can be started with SELECT, the field shows "SELECT" and the skit's title.
+Both versions decide it the same way; found in PPSSPP (PSP, vaddr; data
+references in the code are relative to the data segment `0x1DCC00`) and
+statically in the PS2 SLPS (its twin functions sit next to the same
+constants 10000/20000/30000/40000 of the skit state machine).
+
+| | PSP vaddr | PS2 |
+|---|---|---|
+| SELECT check | inside the field frame `0x14BC10` (`0x14C048..0x14C0B4`) | own function `0x11C230`, called from the field overlays (seen: the world map, `jal` at `0x2B4E50` and `0x2B671C`) |
+| event running (no SELECT) | word `0x662A64 + 0x1548` | word `0x1CEE08 + 0x1548` |
+| field accepts SELECT | `0x15638C` nonzero | `0x126DC8` nonzero |
+| pad edge, SELECT bit 0x100 | `0x13BAD4(0)` | `0x10B028(0)` |
+| skits locked | signed byte `0x656CA8 + 0x2AA2` negative | byte `0x1B8278 + 0x1ED6` bit 0x80 |
+| mode 6 (`0x133274` / `0x100BD0`) | no skit while `0xA03C0` returns nonzero | `0x2B8440` (overlay) nonzero: forced skit 0x255 or 0x264 |
+| find the skit | `0x158C98` | `0x129510` |
+| found skits (halfwords, at most 8), count at +0x10 | `0x55EF30` | `0x24A878` |
+| random pick | newlib `rand()` `0x18741C`, 64 bit state at reent (`0x185874`) + 0xA8 | `0x190540`, word at `[0x1FD1E4] + 0x58` |
+| start the skit | `0x158EB4(number, 3)`, number at `0x662A64 + 0x1CE8` | `0x129758(number, 3)`, number at `0x1CEE08 + 0x1CE8` |
+| title table (entry n = skit n) | `0x289400` | SLPS file `0xD7400` (vaddr `0x1D6400`) |
+
+* The find function walks the skit lists of the current place (PSP
+  `0xABE24 + 0x1DCC00`: pairs of list id and a "skip seen skits" flag), and
+  checks every entry with `0x15D14C` (PSP): entry `+0` skit number, `+2`
+  list id, `+4`/`+8` story progress range (word `0x485E64 + 0x128`
+  relocated), `+0xC` a list of flag conditions, and the seen bit of the
+  skit at `0x656CA8 + 0x3A00` (bit n). Apart from `rand()` it only writes
+  its own scratch globals, so it can be asked every frame with the
+  `rand()` state saved and restored.
+* Skit number n is Skit Hut number n and file member 54 + 2n on PS2,
+  213 + 2n on PSP (the game asks for member `0x90000 + 2n`, group 9).
+* After a skit the next available one is found at once; when none is left
+  the indicator is gone (the Lumina version kept the old title).
+* PSP: `psp/tools/psp_skit_indicator.py` retargets two relocated `jal`
+  words, `0x14BF74` (the last update of the field frame, `jal 0x14CC70`)
+  and `0x14C08C` (`jal 0x158C98` on SELECT), to code at the end of the
+  string pool. Text through the battle subtitle helper `0x544F8`, colour 6
+  yellow, 7 white, scale 0x100 x 0xE0 (at 0x100 high the box cuts the
+  descenders). The shown skit stays while it is in the list; SELECT plays
+  the shown one, so the title never lies when several skits are available.
+* PS2 (not used yet): the field text API is in the SLPS: `0x11AEF0`
+  (current parameter block), `0x11AE88` (block, x scale, y scale),
+  `0x11AE98` (block, r, g, b, a), `0x11AEB0` (block, palette colour, a),
+  `0x11AE70` (block, x, y; GS coordinates, origin `0x6C00`/`0x7900`, x in
+  1/16, y in 1/8 pixel), `0x118D00` (string, `0xFF2000`); the debug
+  coordinate display at `0x168F00` draws outlined text that way with the
+  block on the stack. The 128 bytes at the end of the second pool (SLPS
+  file `0x115EE0..0x115F60`) are free for a trampoline.
 
 ## Rules learned the hard way
 

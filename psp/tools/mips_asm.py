@@ -118,7 +118,9 @@ class Asm:
             if name in _UNSIGNED_IMM:
                 if not 0 <= v <= 0xFFFF:
                     raise ValueError('%s immediate out of range' % name)
-            elif not -0x8000 <= v <= 0xFFFF:
+            elif not -0x8000 <= v <= (0xFFFF if isinstance(a[2], tuple) else 0x7FFF):
+                # a plain number is sign extended: 0x8000..0xFFFF would add a
+                # negative value (a lo() half is meant that way, its lui is adjusted)
                 raise ValueError('%s immediate out of range' % name)
             return (_IMM[name] << 26) | (_reg(a[1]) << 21) | (_reg(a[0]) << 16) | (v & 0xFFFF)
         if name == 'lui':

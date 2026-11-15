@@ -21,6 +21,10 @@ Steps (all from this repository, no other tools):
 6. write the new archive and the executable (as BOOT.BIN and EBOOT.BIN)
    into a copy of the image (psp_iso.py replace)
 
+The executable also gets the spoken battle line subtitles
+(psp_battle_subs.py) and the skit indicator, "SELECT <skit title>" on the
+field while a skit can be started (psp_skit_indicator.py).
+
 --probe additionally replaces two lines of the opening scene with width
 test patterns (a line of i's over a line of M's, and a long pangram), for
 checking how the engine draws Latin text. --keep leaves the work folder.
@@ -134,7 +138,7 @@ def check_sources(movies=False, report=True):
 
 sys.path.insert(0, HERE)
 check_sources(report=False)
-import psp_iso, psp_text, psp_names, psp_menu, psp_lowercase, psp_fpb, psp_pool, psp_monsters, psp_title, psp_quiz, psp_worldmap, psp_vwf, psp_latin_font, psp_boot_script, psp_pic1, psp_battle_subs
+import psp_iso, psp_text, psp_names, psp_menu, psp_lowercase, psp_fpb, psp_pool, psp_monsters, psp_title, psp_quiz, psp_worldmap, psp_vwf, psp_latin_font, psp_boot_script, psp_pic1, psp_battle_subs, psp_skit_indicator
 
 def add_probes(work):
     p = os.path.join(work, 'scenario_en', '06470.txt')
@@ -212,6 +216,10 @@ def main(iso, out_iso, probe=False, keep=None, version=None, lowercase_font=True
     _bs, _bsinfo = psp_battle_subs.patch_boot(open(boot, 'rb').read(), vwf=vwf and lowercase_font)
     open(boot, 'wb').write(_bs)
     print('battle subtitles:', _bsinfo)
+    # skit indicator: "SELECT <title>" on the field while a skit is available
+    _ski, _skinfo = psp_skit_indicator.patch_boot(open(boot, 'rb').read(), vwf=vwf and lowercase_font)
+    open(boot, 'wb').write(_ski)
+    print('skit indicator:', _skinfo)
     psp_text.extract(boot, fpb, text)
     psp_text.match(text)
     if probe:
