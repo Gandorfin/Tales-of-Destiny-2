@@ -18,8 +18,8 @@ Destiny II" in North America) and not the PS1 Tales of Destiny.
 
 | Version | Latest release | State |
 |---|---|---|
-| PS2 (SLPS-25172) | **QS v1.3.4** | **Complete.** The whole game is English, including subtitles for the spoken battle lines. |
-| PSP (ULJS-00097) | **v0.3.6** | **Playable in emulators, on a PS Vita and, by a first report, on a real PSP.** Story, skits, movies, battle subtitles, world map and almost every menu are English; a few areas are still Japanese (listed below). |
+| PS2 (SLPS-25172) | **QS v1.3.5** | **Complete.** The whole game is English, including subtitles for the spoken battle lines. |
+| PSP (ULJS-00097) | **v0.3.7** | **Playable in emulators, on a PS Vita and, by a first report, on a real PSP.** Story, skits, movies, battle subtitles, world map and almost every menu are English; a few areas are still Japanese (listed below). |
 
 ### PS2
 
@@ -44,6 +44,9 @@ Everything a player reads is English:
 * the movies with dialogue, hard-subtitled, and an English ending staff roll
 * a redrawn Latin font (by dreck, since v1.2.3; his final version since
   v1.3.4, with an apostrophe and a double quote of their own)
+* a skit indicator: while a skit can be started on the field, "SELECT" and
+  the skit title show in the bottom left corner, and SELECT plays exactly
+  that skit (since v1.3.5)
 
 Known limits:
 
@@ -57,6 +60,12 @@ Known limits:
   showed it as a blue disc (pnvnd; it worked after burning with ImgBurn).
   Since v1.3.1 the patched disc has the retail disc structure; a PS3 test
   is still owed.
+
+New in v1.3.5 (15 November 2026): the skit indicator. While a skit is
+available on the field (towns, the world map, the Skit Hut),
+"SELECT" in yellow and the skit title in white show in the bottom left
+corner, like the Lumina Tales concept; SELECT plays exactly that skit. It
+is hidden in scenes, dialogue, battles, menus and during the skit.
 
 New in v1.3.4 (26 October 2026): dreck's final font (clearer letters such
 as s and t, a smaller asterisk), and apostrophes and double quotes now look
@@ -95,11 +104,17 @@ from the original disc. v1.3.1 is the first release built with
 
 ### PSP
 
-v0.3.6 (26 October 2026) has the full story script, all 608 timed skits at
+v0.3.7 (15 November 2026) has the full story script, all 608 timed skits at
 full length with per line text speed (as PS2 v1.3.0), menus, items, artes,
 titles, descriptions, the Quiz Book, battle subtitles, English subtitles in
 the nine movies with dialogue and the PSP's own ending staff roll in
-English. New in v0.3.6:
+English. New in v0.3.7:
+
+* the skit indicator, as on PS2 v1.3.5: while a skit is available on the
+  field, "SELECT" in yellow and the skit title in white show in the bottom
+  left corner, and SELECT plays exactly that skit
+
+New in v0.3.6 (26 October 2026):
 
 * fixed the crash when the game goes back to the world map in the final
   era (DrandalZ's report on a PS Vita: black screen and error C1-2858-3
@@ -335,7 +350,7 @@ One command runs every step below in order, with no GUI, on Windows,
 Linux or macOS:
 
 ```
-python ps2/build_ps2.py --japanese-iso "Tales of Destiny 2 (Japan).iso" --cless-iso "Tales of Destiny 2 (Eng-cless patch).iso" --movie-fpb MOVIE.FPB --version 1.3.4 --out tod2_ps2_en.iso
+python ps2/build_ps2.py --japanese-iso "Tales of Destiny 2 (Japan).iso" --cless-iso "Tales of Destiny 2 (Eng-cless patch).iso" --movie-fpb MOVIE.FPB --version 1.3.5 --out tod2_ps2_en.iso
 ```
 
 * `--cless-iso` is the build base: the ISO with the old (2008) Cless
@@ -376,11 +391,11 @@ The manual steps (details in `ps2/menu/README.md`, "Applying it", and
    python ps2/menu/sfm_text.py build ps2/PyTOD2/FPB
    python ps2/menu/enemy_text.py build ps2/PyTOD2/FPB
    python ps2/menu/battle_subs.py build ps2/PyTOD2/FPB
-   python ps2/menu/title_credit.py ps2/PyTOD2/FPB --version 1.3.4
+   python ps2/menu/title_credit.py ps2/PyTOD2/FPB --version 1.3.5
    python ps2/menu/patch_slps_titles.py ps2/PyTOD2/SLPS_251.72
    python ps2/menu/skit_indicator.py build ps2/PyTOD2/FPB ps2/PyTOD2/SLPS_251.72
    ```
-   `title_credit.py` draws "Green Gel v1.3.4" under the title menu; the game
+   `title_credit.py` draws "Green Gel v1.3.5" under the title menu; the game
    shows only 96 pixels of that line, so the tool refuses wider labels.
 4. Pack FPB. It writes `FILE_NEW.FPB` and `new_SLPS_251.72`; those two
    (renamed to `FILE.FPB` and `SLPS_251.72`) go into the ISO. Do
@@ -409,7 +424,7 @@ One command builds the whole English ISO from a clean Japanese one:
 
 ```
 python -m pip install imageio-ffmpeg
-python psp/tools/build_psp.py "Tales of Destiny 2 (Japan) PSP.iso" tod2_psp_en.iso --version 0.3.6 --movies
+python psp/tools/build_psp.py "Tales of Destiny 2 (Japan) PSP.iso" tod2_psp_en.iso --version 0.3.7 --movies
 ```
 
 * `--version` is the number drawn on the title screen as
@@ -437,8 +452,8 @@ One command per platform builds, checks and packs a release:
 
 ```
 python -m pip install py7zr
-python scripts/make_release.py ps2 --version 1.3.4
-python scripts/make_release.py psp --version 0.3.6
+python scripts/make_release.py ps2 --version 1.3.5
+python scripts/make_release.py psp --version 0.3.7
 ```
 
 It checks out upstream/main (or `--commit`) into a clean folder, runs the
