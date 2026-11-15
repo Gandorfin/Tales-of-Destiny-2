@@ -434,18 +434,24 @@ def is_data(blob):
 
 def patch_container(data, rows):
     members = [blob for _, blob in pak3.parse(data)]
-    if len(members) == 4 and is_data(members[3]):
-        members = members[:3]
+    extra = []
+    if len(members) >= 4 and is_data(members[3]):
+        # members after this one (skit_indicator.py) keep their place: their
+        # trampolines in the SLPS address them by index
+        members, extra = members[:3], members[4:]
+    elif len(members) > 3 and lzss.is_packed(members[0]):
+        raise ValueError('%s: %d members but no subtitle member; run battle_subs.py before '
+                         'skit_indicator.py' % (CONTAINER, len(members)))
     if len(members) != 3 or not lzss.is_packed(members[0]):
         raise ValueError('%s: expected three compressed modules' % CONTAINER)
     module = lzss.unpack(members[0])
     patched, where, size = add_code(module)
     blob, count = build_data(rows)
     members[0] = lzss.pack(patched, members[0][0])
-    out = pak3.build(members + [blob])
+    out = pak3.build(members + [blob] + extra)
     # prove it reads back
     again = [b for _, b in pak3.parse(out)]
-    assert lzss.unpack(again[0]) == patched and again[3] == blob
+    assert lzss.unpack(again[0]) == patched and again[3] == blob and again[4:] == extra
     return out, {'trampoline_at': where, 'trampoline_bytes': size, 'code_bytes': CODE_SIZE,
                  'lines': count, 'module_end': BASE + len(patched)}
 

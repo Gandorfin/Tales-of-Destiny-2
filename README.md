@@ -378,6 +378,7 @@ The manual steps (details in `ps2/menu/README.md`, "Applying it", and
    python ps2/menu/battle_subs.py build ps2/PyTOD2/FPB
    python ps2/menu/title_credit.py ps2/PyTOD2/FPB --version 1.3.4
    python ps2/menu/patch_slps_titles.py ps2/PyTOD2/SLPS_251.72
+   python ps2/menu/skit_indicator.py build ps2/PyTOD2/FPB ps2/PyTOD2/SLPS_251.72
    ```
    `title_credit.py` draws "Green Gel v1.3.4" under the title menu; the game
    shows only 96 pixels of that line, so the tool refuses wider labels.
