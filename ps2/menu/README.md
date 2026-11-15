@@ -12,6 +12,7 @@ tables reference offsets inside files you extract yourself.
 | `*.pak0` world map scripts in `FILE.FPB` | 261 | signposts, mine entrance labels, map location labels, ferry and minigame text, the flying dragon anchor scene, the ending monologue |
 | `*.pak1` enemy packs in `FILE.FPB` | 159 table entries, alternate/cut-in literals + 218 enemy names | enemy arte and Mystic Arte names shown in battle, the lines bosses shout (Barbatos, Elrane and others) and the enemy-name banner at the start of an encounter (the name field in every enemy pack, plus the `TEKI` list in 08063.pak1), via `enemy_text.py` |
 | `00017.pak3` member 4 (new) | 356 battle subtitles | spoken battle lines, drawn while the voice plays, via `battle_subs.py` (861 voice files listed in `battle_subtitles.csv`) |
+| `00017.pak3` member 5 (new) + `SLPS_251.72` | skit indicator | "SELECT" and the skit title on the field while a skit can be started, via `skit_indicator.py` |
 | `06306.scpk` | 1 | the opening caption "And so... eighteen years passed...", a scenario package that predates the proofread range (06307 onward) and has no text file of its own; patched in place inside the package |
 | `SLPS_251.72` | 597 + 277 ops + 27 cut-ins | character titles, plus the earlier Arte / Status / Enchant / Cooking-help menu patch (`slps_menu_patch.json`) and the battle cut-in names of the 27 party artes that still flashed up in kanji, so the executable is complete from a clean English-menu base |
 
@@ -58,6 +59,7 @@ python ps2/menu/enemy_text.py build ps2/PyTOD2/FPB
 python ps2/menu/battle_subs.py build ps2/PyTOD2/FPB
 python ps2/menu/title_credit.py ps2/PyTOD2/FPB --version 1.3.4
 python ps2/menu/patch_slps_titles.py ps2/PyTOD2/SLPS_251.72
+python ps2/menu/skit_indicator.py build ps2/PyTOD2/FPB ps2/PyTOD2/SLPS_251.72
 ```
 
 Windows and PowerShell work the same way; backslashes are fine:
@@ -70,6 +72,7 @@ python ps2\menu\enemy_text.py build ps2\PyTOD2\FPB
 python ps2\menu\battle_subs.py build ps2\PyTOD2\FPB
 python ps2\menu\title_credit.py ps2\PyTOD2\FPB --version 1.3.4
 python ps2\menu\patch_slps_titles.py ps2\PyTOD2\SLPS_251.72
+python ps2\menu\skit_indicator.py build ps2\PyTOD2\FPB ps2\PyTOD2\SLPS_251.72
 ```
 
 `patch_menu_text.py` covers the menus, `sfm_text.py build` covers the Quiz
@@ -79,6 +82,9 @@ FPB. Skipping one leaves that part of the game in Japanese. `battle_subs.py
 build` adds English subtitles for the spoken battle lines (victory quotes
 and the like, "Battle subtitles" below); it must run after
 `patch_menu_text.py`, which rebuilds the same container.
+`skit_indicator.py build` adds the skit indicator ("Skit indicator"
+below); it must run after `battle_subs.py` (its member follows the
+subtitle member) and patches both `00017.pak3` and the SLPS.
 
 Do not run PyTOD2's optional "Insert FONT" afterwards: it replaces the
 game's Latin font with the 2008 alternative font (`font.bin`), which no
@@ -164,6 +170,7 @@ rebuilt. The full sequence, with the PyTOD2 button names:
    and `python ps2\menu\sfm_text.py build ps2\PyTOD2\FPB` (the Quiz Book)
    and `python ps2\menu\enemy_text.py build ps2\PyTOD2\FPB` (enemy artes)
    and `python ps2\menu\battle_subs.py build ps2\PyTOD2\FPB` (battle subtitles)
+   and `python ps2\menu\skit_indicator.py build ps2\PyTOD2\FPB ps2\PyTOD2\SLPS_251.72` (skit indicator)
    and `python ps2\menu\title_credit.py ps2\PyTOD2\FPB --version 1.3.4`
    (the patch name on the title screen, with the version being released).
 3. Make sure `new_SLPS_251.72` exists next to `SLPS_251.72` (Pack FPB
@@ -406,6 +413,29 @@ list translated, which is how the pack copies were found. The name list
 in 06813.md1 and the category and immunity tables at 06813 0x7731 still
 look dead (the 2008 patch relocated the English versions the Monster
 Book shows).
+
+## Skit indicator (`skit_indicator.py`)
+
+A skit starts when the player presses SELECT on the field, but nothing
+showed when one was available. While SELECT would start a skit, the field
+now shows "SELECT" in yellow and the skit's title (the Skit Hut title) in
+white, outlined, in the bottom left corner, as in the Lumina Tales
+concept. It is hidden whenever the game would ignore SELECT (events,
+dialogue, menus, during the skit). The game picks at random when several
+skits are available; SELECT now plays the one whose title is shown.
+
+```
+python ps2\menu\skit_indicator.py build ps2\PyTOD2\FPB ps2\PyTOD2\SLPS_251.72
+python ps2\menu\skit_indicator.py build ps2\PyTOD2\FPB ps2\PyTOD2\SLPS_251.72 --dry-run
+```
+
+Run it after `battle_subs.py` and `patch_slps_titles.py`, before Pack
+FPB. It adds a member with the code to `00017.pak3` (after the subtitle
+member) and, in the SLPS, two trampolines in the free tail of the second
+string pool (file `0x115EE0`) plus the targets of two calls in the SELECT
+handler `0x11C230`. Running it again replaces the earlier code. Addresses
+and the game's skit logic: TECHNICAL.md, "Skit indicator: how SELECT
+finds a skit".
 
 ## Battle subtitles (`battle_subs.py`)
 

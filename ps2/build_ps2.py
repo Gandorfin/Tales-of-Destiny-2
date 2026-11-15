@@ -16,7 +16,9 @@ GUI and nothing to click:
    then Pack SCED, Pack SCPK, Insert SKIT, Move Skits IN, Pack PAK1, from
    ps2/PyTOD2/TXT_EN and ps2/PyTOD2/FILE/pak1/TXT_EN of this checkout.
 3. patch_menu_text.py, sfm_text.py build, enemy_text.py build,
-   battle_subs.py build, title_credit.py --version, patch_slps_titles.py.
+   battle_subs.py build, title_credit.py --version, patch_slps_titles.py,
+   skit_indicator.py build (after battle_subs.py: its 00017.pak3 member
+   comes after the subtitle member).
 4. Pack FPB.
 5. The rebuilt FILE.FPB, SLPS_251.72 and the given MOVIE.FPB go into a copy
    of the clean Japanese ISO (menu/replace_iso_files.py: files keep their
@@ -231,6 +233,7 @@ def build(args):
     step(log, 'battle_subs.py build', tool, os.path.join(MENU, 'battle_subs.py'), 'build', fpb)
     step(log, 'title_credit.py', tool, os.path.join(MENU, 'title_credit.py'), fpb, '--version', args.version)
     step(log, 'patch_slps_titles.py', tool, os.path.join(MENU, 'patch_slps_titles.py'), slps)
+    step(log, 'skit_indicator.py build', tool, os.path.join(MENU, 'skit_indicator.py'), 'build', fpb, slps)
 
     # 4. Pack FPB
     os.chdir(work)

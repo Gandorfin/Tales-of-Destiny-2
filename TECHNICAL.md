@@ -710,14 +710,27 @@ constants 10000/20000/30000/40000 of the skit state machine).
   yellow, 7 white, scale 0x100 x 0xE0 (at 0x100 high the box cuts the
   descenders). The shown skit stays while it is in the list; SELECT plays
   the shown one, so the title never lies when several skits are available.
-* PS2 (not used yet): the field text API is in the SLPS: `0x11AEF0`
-  (current parameter block), `0x11AE88` (block, x scale, y scale),
-  `0x11AE98` (block, r, g, b, a), `0x11AEB0` (block, palette colour, a),
-  `0x11AE70` (block, x, y; GS coordinates, origin `0x6C00`/`0x7900`, x in
-  1/16, y in 1/8 pixel), `0x118D00` (string, `0xFF2000`); the debug
-  coordinate display at `0x168F00` draws outlined text that way with the
-  block on the stack. The 128 bytes at the end of the second pool (SLPS
-  file `0x115EE0..0x115F60`) are free for a trampoline.
+* PS2: `ps2/menu/skit_indicator.py`. The handler is only called from the
+  field overlays, so the hooks sit inside it: the pad read `jal 0x10B028`
+  at `0x11C288` (reached once the event and field checks passed) and the
+  search `jal 0x129510` at `0x11C32C` (SELECT) go to two 7 word
+  trampolines at the end of the second string pool (SLPS file `0x115EE0`,
+  zero after the strings `slps_menu_patch.json` places there), which jump
+  into a new last member of the resident `00017.pak3` (after the battle
+  subtitle member, found through the container's offset table as the
+  battle trampoline does). Field text through the SLPS text API (the
+  debug coordinate display at `0x168F00` uses it the same way):
+  `0x11AEF0` (current parameter block), `0x11AE88` (block, x scale, y
+  scale), `0x11AE98` (block, r, g, b, a), `0x11AE70` (block, x, y; GS
+  units, origin `0x6C00`/`0x7900`, 16 per pixel across, 8 per line of
+  the 448 line screen), `0x118D00` (string, `0xFF2000`; the second value
+  limits the width, 0 draws nothing). On the field the transparent font
+  pixels showed as a blue box: the field leaves the GS alpha test off, so
+  the hook first writes TEST_1 (register `0x47`, through `0x14F218`,
+  which writes one GS register into the frame's packet) with the alpha
+  test on (alpha greater than 0) and z test always. Outline: four black
+  copies at x plus or minus 2, y plus or minus 1 first, as the debug
+  display does. Scale `0xC0` x `0x100`, 12 pixels per character.
 
 ## Rules learned the hard way
 
