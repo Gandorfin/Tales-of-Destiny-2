@@ -382,6 +382,24 @@ letter widths of `psp/fonts/latin_glyphs.json` (at most three lines);
 python -B -m unittest discover -s psp/tools -p test_psp_battle_subs.py -v
 ```
 
+## psp_skit_indicator.py: "SELECT <title>" while a skit is available
+
+`build_psp.py` runs this step on BOOT.BIN after the battle subtitles.
+While SELECT would start a skit, the field shows "SELECT" in yellow and
+the skit's title in white in the bottom left corner (the Lumina Tales
+idea). Two `jal` words get new targets at the end of the string pool: the
+last update of the field frame (`0x14BF74`), where the hook asks the
+game's own skit search with the random number state kept, and the search
+call after SELECT (`0x14C08C`), which then plays the skit whose title is
+on screen. The indicator is hidden whenever the game would ignore SELECT
+(events, dialogue, menus, during a skit). The titles are the Skit Hut
+titles of the menu table. Addresses: TECHNICAL.md, "Skit indicator: how
+SELECT finds a skit".
+
+```
+python -B -m unittest discover -s psp/tools -p test_psp_skit_indicator.py -v
+```
+
 ## psp_jpscan.py: which Japanese is still in a build
 
 ```
