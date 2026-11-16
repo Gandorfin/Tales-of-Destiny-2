@@ -39,9 +39,23 @@ What this step adds, appended to the pool after the battle subtitles:
   the game's own pick of the new list. It draws "SELECT" and the title.
 * A pick hook: the call of 0x158C98 at 0x14C08C (SELECT pressed) is
   retargeted to it. It calls 0x158C98 as before (same rand() use) and
-  returns the skit the indicator shows if that one is still in the list,
-  otherwise the game's pick. So SELECT plays the skit whose title is on
-  screen.
+  returns the skit the indicator drew in the last frame, otherwise the
+  game's pick. So SELECT plays the skit whose title is on screen. (0.3.7
+  returned it only if it was still in the list at SELECT; the frame hook
+  asks at the end of a frame and the list can change before SELECT is
+  read, so on the world map "Landmark" showed and "Trap" played.)
+* The text: where the frame hook draws, the field leaves an alpha test
+  function that passes the transparent pixels of the font cells, so they
+  stood on black boxes (0.3.7). The hook sets sceGuAlphaFunc(GREATER, 0,
+  0xFF) (0x9F8C; what the game sets almost everywhere), turns the alpha
+  test and blending on (sceGuGetStatus 0x8E68, sceGuEnable 0x8D28; states
+  0 and 4) and puts those two enable states back after its text
+  (sceGuSetStatus 0x8DDC). Setting only the enables, the blend function,
+  the texture function or reloading the font texture changed nothing
+  (tried in PPSSPP).
+* While a skit plays (event word set, bit 0x40 of 0x662A64 + 0x1544) the
+  frame hook draws the skit's title (number at 0x662A64 + 0x1CE8)
+  centred at the top instead.
 
 Both calls are relocated jal words (R_MIPS_26 against the text segment);
 the loader adds the load address to the pool target as for the battle
@@ -79,10 +93,22 @@ CANDIDATES = 0x55EF30       # halfword skit numbers found by FIND
 CANDIDATE_COUNT = 0x10      # halfword after the list (at most 8)
 TITLES = 0x289400           # pointer table, entry n = title of skit n
 TEXT = 0x544F8              # text helper (x, y, string, colour, xscale, yscale)
+SKIT_FLAGS = 0x1544         # EVENT + this: bit 0x40 while a skit plays (as on the PS2)
+SKIT_BIT = 0x40
+PLAYING = 0x1CE8            # EVENT + this: halfword, the skit started last (0x158EB4 stores it)
+TITLE_COUNT = 623           # entries in the title table (622 is the last one)
+GU_ENABLE = 0x8D28          # sceGuEnable(state) of the game's GU library (0x8D80 disable)
+GU_SET = 0x8DDC             # sceGuSetStatus(state, value)
+GU_GET = 0x8E68             # sceGuGetStatus(state)
+GU_ALPHA_TEST, GU_BLEND = 0, 4
+GU_ALPHA_FUNC = 0x9F8C      # sceGuAlphaFunc(func, ref, mask)
+GU_GREATER = 6
 
 YELLOW, WHITE = 6, 7
 XSCALE, YSCALE = 0x100, 0xE0  # 0x100 high cut the descenders (g in "Nostalgic")
 X, Y = 16, 410              # bottom left, in the helper's 640 x 448 space
+TOP_Y = 4                   # skit title during a skit, in the grey bar at the top
+TOP_XSCALE, TOP_YSCALE = 0xE0, 0xC4
 LABEL = 'SELECT'
 GAP = 10                    # between the label and the title
 SPACING = 1.05              # measured advance / glyph table advance (battle subtitles)
@@ -105,10 +131,23 @@ def label_width(vwf=True):
     return int(units * XSCALE / 256 * SPACING + 0.5)
 
 
+def advance_table(vwf=True):
+    """Advance of each character 0x20..0x7E in the helper's space at XSCALE,
+    one byte each (0 for characters the font lacks): the top title is
+    centred with it."""
+    if vwf:
+        import psp_latin_font
+        g = psp_latin_font.load()['glyphs1']
+        units = [g[chr(c)]['adv'] if chr(c) in g else 0 for c in range(0x20, 0x7F)]
+    else:
+        units = [FIXED_ADVANCE] * (0x7F - 0x20)
+    return bytes(min(255, int(u * TOP_XSCALE / 256 * SPACING + 0.5)) for u in units)
+
+
 def hook_code(origin, vwf=True):
     """The frame hook at `origin`, the pick hook at labels['pick'], data
-    after them. Frame hook registers: s0 reent block, s1 game pick, s2
-    data, s3 load address + FRAME_RET."""
+    after them. Frame hook registers: s0 reent block, s1 game pick / title,
+    s2 data, s3 load address + FRAME_RET, s4 the GU states found."""
     a = mips_asm.Asm(origin)
     op = a.op
 
@@ -119,58 +158,94 @@ def hook_code(origin, vwf=True):
         op('addiu', reg, reg, ('lo',) + v[1:])
         op('addu', reg, reg, base_reg)
 
-    def call(target, ret):
+    def call(target, ret=FRAME_RET):
         addr('t9', target, 's3', ret)
         op('jalr', 't9')
         op('nop')
 
-    def draw(x, colour):
-        op('li', 'a0', x)
-        op('li', 'a1', Y)
+    def draw(x_reg_or_value, y, colour, xscale, yscale):
+        if isinstance(x_reg_or_value, str):
+            op('move', 'a0', x_reg_or_value)
+        else:
+            op('li', 'a0', x_reg_or_value)
+        op('li', 'a1', y)
         op('li', 'a3', colour)
-        op('li', 't0', XSCALE)
+        op('li', 't0', xscale)
         addr('t9', TEXT, 's3', FRAME_RET)
         op('jalr', 't9')
-        op('li', 't1', YSCALE)
+        op('li', 't1', yscale)
+
+    def blend_on():
+        """Alpha test "greater than 0" and blending for the text; s4 = the old
+        enable states. The field leaves an alpha test function here that lets
+        the transparent pixels of the font cells through, so they drew as
+        black boxes (0.3.7); GREATER 0 / 0xFF is what the game itself sets
+        almost everywhere (0xEE0, 0x172850, ...), so it stays set."""
+        op('li', 'a0', GU_ALPHA_TEST)
+        call(GU_GET)
+        op('move', 's4', 'v0')
+        op('li', 'a0', GU_BLEND)
+        call(GU_GET)
+        op('sll', 'v0', 'v0', 1)
+        op('addu', 's4', 's4', 'v0')                 # bit 0 alpha test, bit 1 blend
+        op('li', 'a0', GU_ALPHA_TEST)
+        call(GU_ENABLE)
+        op('li', 'a0', GU_BLEND)
+        call(GU_ENABLE)
+        op('li', 'a0', GU_GREATER)
+        op('li', 'a1', 0)
+        op('li', 'a2', 0xFF)
+        call(GU_ALPHA_FUNC)
+
+    def blend_restore():
+        op('li', 'a0', GU_ALPHA_TEST)
+        op('andi', 'a1', 's4', 1)
+        call(GU_SET)
+        op('li', 'a0', GU_BLEND)
+        op('srl', 'a1', 's4', 1)
+        call(GU_SET)
 
     # --- frame hook -------------------------------------------------------
     op('addiu', 'sp', 'sp', -0x30)
     for i, r in enumerate(('ra', 's0', 's1', 's2', 's3')):
         op('sw', r, 4 * i, 'sp')
+    op('sw', 's4', 0x20, 'sp')
     op('move', 's3', 'ra')
     op('addiu', 't9', 'ra', FRAME_PART - FRAME_RET)
     op('jalr', 't9')                                  # a0..a3 are the caller's
     op('nop')
     op('sw', 'v0', 0x14, 'sp')
     addr('s2', 'data', 's3', FRAME_RET)
+    op('sh', 'zero', 2, 's2')                         # not shown (yet) in this frame
     # the tests the game makes before it looks at SELECT
     addr('t0', EVENT, 's3', FRAME_RET)
     op('lw', 't1', EVENT_BUSY, 't0')
-    op('bnez', 't1', 'out')
+    op('bnez', 't1', 'event')
+    op('nop')
     addr('t0', FIELD, 's3', FRAME_RET)
     op('lb', 't1', FIELD_LOCK, 't0')
     op('slti', 't1', 't1', 0)
     op('bnez', 't1', 'out')
     op('nop')
-    call(IDLE, FRAME_RET)
+    call(IDLE)
     op('beqz', 'v0', 'out')
     op('nop')
-    call(MODE, FRAME_RET)
+    call(MODE)
     op('li', 't0', 6)
     op('bne', 'v0', 't0', 'ask')
     op('nop')
-    call(MODE6_BUSY, FRAME_RET)
+    call(MODE6_BUSY)
     op('bnez', 'v0', 'out')
     op('nop')
     a.label('ask')
     # ask the game, with rand() left as it was
-    call(REENT, FRAME_RET)
+    call(REENT)
     op('move', 's0', 'v0')
     op('lw', 't0', RAND_STATE, 's0')
     op('lw', 't1', RAND_STATE + 4, 's0')
     op('sw', 't0', 0x18, 'sp')
     op('sw', 't1', 0x1C, 'sp')
-    call(FIND, FRAME_RET)
+    call(FIND)
     op('move', 's1', 'v0')
     op('lw', 't0', 0x18, 'sp')
     op('lw', 't1', 0x1C, 'sp')
@@ -186,23 +261,77 @@ def hook_code(origin, vwf=True):
     op('move', 'a0', 's1')
     op('sh', 'a0', 0, 's2')
     a.label('show')
-    op('blez', 'a0', 'out')
-    op('sll', 't0', 'a0', 2)
-    addr('t1', TITLES, 's3', FRAME_RET)
-    op('addu', 't1', 't1', 't0')
-    op('lw', 's1', 0, 't1')
-    op('beqz', 's1', 'out')
+    op('bal', 'title')
     op('nop')
+    op('beqz', 'v0', 'out')
+    op('move', 's1', 'v0')
+    op('li', 't0', 1)
+    op('sh', 't0', 2, 's2')                           # on screen: SELECT plays it
+    blend_on()
     op('addiu', 'a2', 's2', 4)
-    draw(X, YELLOW)
+    draw(X, Y, YELLOW, XSCALE, YSCALE)
     op('move', 'a2', 's1')
-    draw(X + label_width(vwf) + GAP, WHITE)
+    draw(X + label_width(vwf) + GAP, Y, WHITE, XSCALE, YSCALE)
+    blend_restore()
+    op('b', 'out')
+    op('nop')
+
+    # an event runs; during a skit its title at the top, centred
+    a.label('event')
+    op('lw', 't1', SKIT_FLAGS, 't0')
+    op('andi', 't1', 't1', SKIT_BIT)
+    op('beqz', 't1', 'out')
+    op('nop')
+    op('lh', 'a0', PLAYING, 't0')
+    op('bal', 'title')
+    op('nop')
+    op('beqz', 'v0', 'out')
+    op('move', 's1', 'v0')
+    # width: sum of the advances (table at data + ADV), x = 320 - width / 2
+    op('move', 't0', 's1')
+    op('move', 't1', 'zero')
+    addr('t3', 'advances', 's3', FRAME_RET)
+    a.label('width')
+    op('lbu', 't2', 0, 't0')
+    op('beqz', 't2', 'width_end')
+    op('addiu', 't0', 't0', 1)
+    op('addiu', 't2', 't2', -0x20)
+    op('sltiu', 't4', 't2', 0x7F - 0x20)
+    op('beqz', 't4', 'width')
+    op('addu', 't4', 't3', 't2')
+    op('lbu', 't4', 0, 't4')
+    op('b', 'width')
+    op('addu', 't1', 't1', 't4')
+    a.label('width_end')
+    op('srl', 't1', 't1', 1)
+    op('li', 't2', 320)
+    op('subu', 's0', 't2', 't1')
+    blend_on()
+    op('move', 'a2', 's1')
+    draw('s0', TOP_Y, WHITE, TOP_XSCALE, TOP_YSCALE)
+    blend_restore()
+
     a.label('out')
     op('lw', 'v0', 0x14, 'sp')
     for i, r in enumerate(('ra', 's0', 's1', 's2', 's3')):
         op('lw', r, 4 * i, 'sp')
+    op('lw', 's4', 0x20, 'sp')
     op('jr', 'ra')
     op('addiu', 'sp', 'sp', 0x30)
+
+    # --- title(a0 skit, s3 base): v0 = its title, 0 if none ----------------
+    a.label('title')
+    op('blez', 'a0', 'title_end')
+    op('move', 'v0', 'zero')
+    op('sltiu', 't0', 'a0', TITLE_COUNT)
+    op('beqz', 't0', 'title_end')
+    op('sll', 't0', 'a0', 2)
+    addr('t1', TITLES, 's3', FRAME_RET)
+    op('addu', 't1', 't1', 't0')
+    op('lw', 'v0', 0, 't1')
+    a.label('title_end')
+    op('jr', 'ra')
+    op('nop')
 
     # --- listed(a0 skit, a1 list): v0 = 1 if a0 > 0 is in the list --------
     a.label('listed')
@@ -236,11 +365,10 @@ def hook_code(origin, vwf=True):
     op('nop')
     op('move', 's1', 'v0')
     addr('s2', 'data', 's3', PICK_RET)
-    op('lh', 'a0', 0, 's2')
-    addr('a1', CANDIDATES, 's3', PICK_RET)
-    op('bal', 'listed')
-    op('nop')
-    op('beqz', 'v0', 'pick_end')
+    # the skit drawn in the last frame, if any (the list may differ by now:
+    # the frame hook asks at the end of the frame, SELECT is read in the next)
+    op('lh', 't0', 2, 's2')
+    op('beqz', 't0', 'pick_end')
     op('move', 'v0', 's1')
     op('lh', 'v0', 0, 's2')
     a.label('pick_end')
@@ -252,7 +380,9 @@ def hook_code(origin, vwf=True):
     a.align(4)
     a.data(MAGIC)
     a.label('data')
-    a.data(b'\0\0\0\0' + LABEL.encode('ascii') + b'\0')   # shown skit (halfword), label
+    a.data(b'\0\0\0\0' + LABEL.encode('ascii') + b'\0')   # shown skit, on screen, label
+    a.label('advances')
+    a.data(advance_table(vwf))
     a.align(4)
     return a.assemble(), dict(a.labels)
 

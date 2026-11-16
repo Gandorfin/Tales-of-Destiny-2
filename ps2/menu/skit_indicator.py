@@ -52,6 +52,11 @@ What it adds:
   title. The pick entry calls 0x129510 as before and returns the shown
   skit if it is still in the list, otherwise the game's pick, so SELECT
   plays the skit whose title is on screen.
+* The title during a skit: the text layer 0x10DE58 is drawn after the skit
+  portraits and the black bar at the top and ends with j 0x14F218 (full
+  scissor) at 0x10E130. That jump goes to trampoline C; the layer entry
+  makes the same call, then, while bit 0x40 of 0x1CEE08 + 0x1544 is set,
+  draws the title of skit [0x1CEE08 + 0x1CE8] centred in the bar.
 """
 import argparse
 import os
@@ -72,6 +77,10 @@ FIND = 0x129510
 MODE = 0x100BD0
 MODE6_BUSY = 0x2B8440           # world map module; only called in mode 6, as the game does
 LOCK = 0x1B8278 + 0x1ED6        # bit 0x80 set: no skits
+SKIT_FLAGS = 0x1CEE08 + 0x1544  # bit 0x40 set while a skit plays (0x10E054 tests it)
+SKIT_BIT = 0x40
+PLAYING = 0x1CEE08 + 0x1CE8     # halfword: number of the skit started last (0x129758 stores it)
+LAYER_EXIT = 0x10E130           # j 0x14F218: the text layer 0x10DE58 ends with the full scissor
 RAND_BLOCK = 0x1FD1E4           # pointer to the block whose +0x58 is the rand() state
 RAND_STATE = 0x58
 CANDIDATES = 0x24A878           # halfword skit numbers found by FIND
@@ -87,12 +96,17 @@ TEST_TEXT = 1 | (6 << 1) | (1 << 16) | (1 << 17)
 PRINT_FLAGS = 0xFF2000
 PAK_POINTER = 0x234600
 
+def j_word(target): return 0x08000000 | ((target >> 2) & 0x3FFFFFF)
+
+
 TRAMP_FILE = 0x115EE0           # zero tail of the second pool (file 0x115E54..0x115F60)
 TRAMP_END = 0x115F60
 TRAMP_SIZE = 28
 
 ORIGIN_X, ORIGIN_Y = 0x6C00, 0x7900
-X, Y = 16, 410                  # bottom left, 640 x 448 space
+X, Y = 40, 388                  # bottom left, 640 x 448 space, inside the part a CRT shows
+TOP_Y = 0                       # skit title during a skit: in the black bar at the top (PCSX2:
+                                # -10 is cut at the frame buffer edge, 8 touches the picture)
 XSCALE, YSCALE = 0xC0, 0x100    # as the debug display
 ADVANCE = 12                    # pixels per character at XSCALE 0xC0 (battle font: 11 at 0xB0)
 LABEL = 'SELECT'
@@ -178,27 +192,35 @@ def hook_code():
     o(A.lh('a0', 0, 's2'))
     ext(A.move('a0', 's1'), sh('a0', 0, 's2'))
     o('show')
-    o(A.blez('a0', 'out'))
+    o(bal('title'))
     o(A.NOP)
-    ext(slti('t0', 'a0', TITLE_COUNT))
-    o(beqz('t0', 'out'))
-    o(A.sll('t0', 'a0', 2))
-    hi, lo = A.hi_lo(TITLES)
-    ext(A.lui('t1', hi), A.addu('t1', 't1', 't0'), A.lw('s1', lo, 't1'))
-    o(beqz('s1', 'out'))
-    o(A.NOP)
+    o(beqz('v0', 'out'))
+    o(A.move('s1', 'v0'))
     ext(A.addiu('a0', 's2', 4), *li('a1', gs_x(X)))
-    ext(*li('a2', rgb(YELLOW)))
+    ext(*li('a2', rgb(YELLOW)), *li('a3', gs_y(Y)))
     o(bal('draw'))
     o(A.NOP)
     ext(A.move('a0', 's1'), *li('a1', gs_x(title_x())))
-    ext(*li('a2', rgb(WHITE)))
+    ext(*li('a2', rgb(WHITE)), *li('a3', gs_y(Y)))
     o(bal('draw'))
     o(A.NOP)
     o('out')
     ext(A.lw('v0', 0x50, 'sp'),
         A.ld('ra', 0x00, 'sp'), A.ld('s0', 0x10, 'sp'), A.ld('s1', 0x20, 'sp'), A.ld('s2', 0x30, 'sp'),
         A.jr('ra'), A.addiu('sp', 'sp', 0x90))
+
+    # --- title(a0 skit): v0 = its title, 0 if none --------------------------
+    o('title')
+    o(A.blez('a0', 'title_end'))
+    o(A.move('v0', 'zero'))
+    ext(slti('t0', 'a0', TITLE_COUNT))
+    o(beqz('t0', 'title_end'))
+    o(A.sll('t0', 'a0', 2))
+    hi, lo = A.hi_lo(TITLES)
+    ext(A.lui('t1', hi), A.addu('t1', 't1', 't0'), A.lw('v0', lo, 't1'))
+    o('title_end')
+    o(A.jr('ra'))
+    o(A.NOP)
 
     # --- listed(a0 skit): v0 = 1 if a0 > 0 is in the game's list ----------
     o('listed')
@@ -225,11 +247,12 @@ def hook_code():
     o(A.jr('ra'))
     o(A.NOP)
 
-    # --- draw(a0 string, a1 GS x, a2 rgb): outline, then the colour --------
+    # --- draw(a0 string, a1 GS x, a2 rgb, a3 GS y): outline, then the colour
     o('draw')
     ext(A.addiu('sp', 'sp', -0x70),
         A.sd('ra', 0x00, 'sp'), A.sd('s0', 0x10, 'sp'), A.sd('s1', 0x20, 'sp'), A.sd('s2', 0x30, 'sp'),
-        A.move('s0', 'a0'), A.move('s1', 'a1'), A.move('s2', 'a2'),
+        A.sd('s3', 0x40, 'sp'),
+        A.move('s0', 'a0'), A.move('s1', 'a1'), A.move('s2', 'a2'), A.move('s3', 'a3'),
         A.sd('zero', 0x50, 'sp'), A.sd('zero', 0x58, 'sp'),
         A.addiu('a0', 'zero', GS_TEST_1), *li('a1', TEST_TEXT)),
     ext(A.jal(GS_SET), A.NOP,
@@ -239,7 +262,7 @@ def hook_code():
         A.jal(SET_RGBA), A.addiu('t0', 'zero', 0x80))
 
     def text(dx, dy):
-        ext(A.addiu('a0', 'sp', 0x50), A.addiu('a1', 's1', 16 * dx), *li('a2', gs_y(Y) + 8 * dy))
+        ext(A.addiu('a0', 'sp', 0x50), A.addiu('a1', 's1', 16 * dx), A.addiu('a2', 's3', 8 * dy))
         ext(A.jal(SET_POS), A.NOP, A.move('a0', 's0'), A.lui('a1', PRINT_FLAGS >> 16),
             A.jal(PRINT), ori('a1', 'a1', PRINT_FLAGS & 0xFFFF))
     for dx, dy in OUTLINE:
@@ -248,7 +271,7 @@ def hook_code():
         A.srl('a3', 's2', 16), A.jal(SET_RGBA), A.addiu('t0', 'zero', 0x80))
     text(0, 0)
     ext(A.ld('ra', 0x00, 'sp'), A.ld('s0', 0x10, 'sp'), A.ld('s1', 0x20, 'sp'), A.ld('s2', 0x30, 'sp'),
-        A.jr('ra'), A.addiu('sp', 'sp', 0x70))
+        A.ld('s3', 0x40, 'sp'), A.jr('ra'), A.addiu('sp', 'sp', 0x70))
 
     # --- pick entry: replaces jal 0x129510 at 0x11C32C ---------------------
     o('pick')
@@ -264,6 +287,36 @@ def hook_code():
     o('pick_end')
     ext(A.ld('ra', 0x00, 'sp'), A.ld('s1', 0x10, 'sp'), A.ld('s2', 0x20, 'sp'),
         A.jr('ra'), A.addiu('sp', 'sp', 0x40))
+
+    # --- layer entry: replaces the tail call j 0x14F218 at 0x10E130 --------
+    # (the text layer drawn after the skit portraits; a0/a1 = the full scissor)
+    o('layer')
+    ext(A.addiu('sp', 'sp', -0x40), A.sd('ra', 0x00, 'sp'), A.sd('s1', 0x10, 'sp'),
+        A.jal(GS_SET), A.NOP)
+    hi, lo = A.hi_lo(SKIT_FLAGS)
+    ext(A.lui('t0', hi), A.lw('t0', lo, 't0'), A.andi('t0', 't0', SKIT_BIT))
+    o(beqz('t0', 'layer_end'))
+    hi, lo = A.hi_lo(PLAYING)
+    o(A.lui('t1', hi))
+    o(A.lh('a0', lo, 't1'))
+    o(bal('title'))
+    o(A.NOP)
+    o(beqz('v0', 'layer_end'))
+    o(A.move('s1', 'v0'))
+    # centred: x = 320 - ADVANCE * length / 2 pixels
+    ext(A.move('t0', 's1'), A.move('t1', 'zero'))
+    o('len_loop')
+    ext(A.lbu('t2', 0, 't0'), A.addiu('t0', 't0', 1))
+    o(bnez('t2', 'len_loop'))
+    o(A.addiu('t1', 't1', 1))
+    assert 8 * ADVANCE == 96                          # 96 n = 64 n + 32 n
+    ext(A.addiu('t1', 't1', -1), A.sll('t2', 't1', 6), A.sll('t1', 't1', 5), A.addu('t1', 't1', 't2'),
+        *li('a1', gs_x(320)), A.subu('a1', 'a1', 't1'),
+        A.move('a0', 's1'), *li('a2', rgb(WHITE)), *li('a3', gs_y(TOP_Y)))
+    o(bal('draw'))
+    o(A.NOP)
+    o('layer_end')
+    ext(A.ld('ra', 0x00, 'sp'), A.ld('s1', 0x10, 'sp'), A.jr('ra'), A.addiu('sp', 'sp', 0x40))
     o('data')
     return L
 
@@ -342,15 +395,21 @@ def patch_slps(slps, index, labels):
         got = struct.unpack_from('<I', d, site - BIAS)[0]
         if got not in (A.jal(original), A.jal(tramp + BIAS)):
             raise ValueError('unexpected word %08x at 0x%X (not a retail SLPS_251.72?)' % (got, site))
-    area = bytes(d[TRAMP_FILE:TRAMP_FILE + 2 * TRAMP_SIZE])
+    tramp_c = TRAMP_FILE + 2 * TRAMP_SIZE
+    got = struct.unpack_from('<I', d, LAYER_EXIT - BIAS)[0]
+    if got not in (j_word(GS_SET), j_word(tramp_c + BIAS)):
+        raise ValueError('unexpected word %08x at 0x%X (not a retail SLPS_251.72?)' % (got, LAYER_EXIT))
+    area = bytes(d[TRAMP_FILE:TRAMP_FILE + 3 * TRAMP_SIZE])
     ta, tb = trampoline(index, labels['frame']), trampoline(index, labels['pick'])
     if any(area) and area[:TRAMP_SIZE][:8] != ta[:8]:
         raise ValueError('second pool tail 0x%X is in use; move the trampolines' % TRAMP_FILE)
-    assert TRAMP_FILE + 2 * TRAMP_SIZE <= TRAMP_END
+    assert TRAMP_FILE + 3 * TRAMP_SIZE <= TRAMP_END
     d[tramp_a:tramp_a + TRAMP_SIZE] = ta
     d[tramp_b:tramp_b + TRAMP_SIZE] = tb
     struct.pack_into('<I', d, PAD_CALL - BIAS, A.jal(tramp_a + BIAS))
     struct.pack_into('<I', d, PICK_CALL - BIAS, A.jal(tramp_b + BIAS))
+    d[tramp_c:tramp_c + TRAMP_SIZE] = trampoline(index, labels['layer'])
+    struct.pack_into('<I', d, LAYER_EXIT - BIAS, j_word(tramp_c + BIAS))
     return bytes(d)
 
 

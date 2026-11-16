@@ -254,7 +254,7 @@ The commands above leave the Japanese movies untouched. Release build:
 
 ```
 python -m pip install imageio-ffmpeg
-python psp/tools/build_psp.py "Tales of Destiny 2 (Japan) PSP.iso" tod2_psp_en.iso --version 0.3.7 --movies
+python psp/tools/build_psp.py "Tales of Destiny 2 (Japan) PSP.iso" tod2_psp_en.iso --version 0.3.8 --movies
 ```
 
 `--movies` needs an FFmpeg with libass and libx264. `python -m pip install
@@ -275,8 +275,8 @@ default, preserving existing build commands. `--lowercase-font off` builds
 the same English translation with the original uppercase ASCII rendering:
 
 ```
-python psp/tools/build_psp.py "Tales of Destiny 2 (Japan) PSP.iso" tod2_psp_lowercase_hack_v0.3.7.iso --version 0.3.7 --movies --lowercase-font on
-python psp/tools/build_psp.py "Tales of Destiny 2 (Japan) PSP.iso" tod2_psp_uppercase_v0.3.7.iso --version 0.3.7 --movies --lowercase-font off
+python psp/tools/build_psp.py "Tales of Destiny 2 (Japan) PSP.iso" tod2_psp_lowercase_hack_v0.3.8.iso --version 0.3.8 --movies --lowercase-font on
+python psp/tools/build_psp.py "Tales of Destiny 2 (Japan) PSP.iso" tod2_psp_uppercase_v0.3.8.iso --version 0.3.8 --movies --lowercase-font off
 ```
 
 The `off` choice skips the lowercase glyph artwork, a..z slot remapping,
@@ -391,9 +391,12 @@ idea). Two `jal` words get new targets at the end of the string pool: the
 last update of the field frame (`0x14BF74`), where the hook asks the
 game's own skit search with the random number state kept, and the search
 call after SELECT (`0x14C08C`), which then plays the skit whose title is
-on screen. The indicator is hidden whenever the game would ignore SELECT
-(events, dialogue, menus, during a skit). The titles are the Skit Hut
-titles of the menu table. Addresses: TECHNICAL.md, "Skit indicator: how
+on screen (the one drawn in the last frame). The indicator is hidden
+whenever the game would ignore SELECT (events, dialogue, menus); while a
+skit plays, its title shows centred at the top. The hook turns blending
+and the alpha test on for its text and restores them (without that the
+letters stood on black boxes, 0.3.7). The titles are the Skit Hut titles
+of the menu table. Addresses: TECHNICAL.md, "Skit indicator: how
 SELECT finds a skit".
 
 ```
