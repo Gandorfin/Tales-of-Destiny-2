@@ -57,7 +57,7 @@ python ps2/menu/patch_menu_text.py ps2/PyTOD2/FPB
 python ps2/menu/sfm_text.py build ps2/PyTOD2/FPB
 python ps2/menu/enemy_text.py build ps2/PyTOD2/FPB
 python ps2/menu/battle_subs.py build ps2/PyTOD2/FPB
-python ps2/menu/title_credit.py ps2/PyTOD2/FPB --version 1.3.5
+python ps2/menu/title_credit.py ps2/PyTOD2/FPB --version 1.3.6
 python ps2/menu/patch_slps_titles.py ps2/PyTOD2/SLPS_251.72
 python ps2/menu/skit_indicator.py build ps2/PyTOD2/FPB ps2/PyTOD2/SLPS_251.72
 ```
@@ -70,7 +70,7 @@ python ps2\menu\patch_menu_text.py ps2\PyTOD2\FPB
 python ps2\menu\sfm_text.py build ps2\PyTOD2\FPB
 python ps2\menu\enemy_text.py build ps2\PyTOD2\FPB
 python ps2\menu\battle_subs.py build ps2\PyTOD2\FPB
-python ps2\menu\title_credit.py ps2\PyTOD2\FPB --version 1.3.5
+python ps2\menu\title_credit.py ps2\PyTOD2\FPB --version 1.3.6
 python ps2\menu\patch_slps_titles.py ps2\PyTOD2\SLPS_251.72
 python ps2\menu\skit_indicator.py build ps2\PyTOD2\FPB ps2\PyTOD2\SLPS_251.72
 ```
@@ -137,7 +137,7 @@ to before it relocates anything.
 
 `title_credit.py` is the title screen: the two copyright lines under the
 menu are a 384x32 texture in `00021.pak3`, not text. The tool redraws the
-first line (the Japanese designer credit) as "Green Gel v1.3.5" and keeps
+first line (the Japanese designer credit) as "Green Gel v1.3.6" and keeps
 the Namco line; give it the version you are releasing. The title screen
 draws that first line as a sprite about 96 pixels wide (the width of the
 Japanese credit), which is why the label is short and condensed and why the
@@ -171,7 +171,7 @@ rebuilt. The full sequence, with the PyTOD2 button names:
    and `python ps2\menu\enemy_text.py build ps2\PyTOD2\FPB` (enemy artes)
    and `python ps2\menu\battle_subs.py build ps2\PyTOD2\FPB` (battle subtitles)
    and `python ps2\menu\skit_indicator.py build ps2\PyTOD2\FPB ps2\PyTOD2\SLPS_251.72` (skit indicator)
-   and `python ps2\menu\title_credit.py ps2\PyTOD2\FPB --version 1.3.5`
+   and `python ps2\menu\title_credit.py ps2\PyTOD2\FPB --version 1.3.6`
    (the patch name on the title screen, with the version being released).
 3. Make sure `new_SLPS_251.72` exists next to `SLPS_251.72` (Pack FPB
    writes the new pointer table into it), then
@@ -420,9 +420,11 @@ A skit starts when the player presses SELECT on the field, but nothing
 showed when one was available. While SELECT would start a skit, the field
 now shows "SELECT" in yellow and the skit's title (the Skit Hut title) in
 white, outlined, in the bottom left corner, as in the Lumina Tales
-concept. It is hidden whenever the game would ignore SELECT (events,
-dialogue, menus, during the skit). The game picks at random when several
-skits are available; SELECT now plays the one whose title is shown.
+concept (since 1.3.6 a little further in, so a CRT does not cut it). It
+is hidden whenever the game would ignore SELECT (events, dialogue, menus).
+The game picks at random when several skits are available; SELECT now
+plays the one whose title is shown. While a skit plays, its title shows
+in the black bar at the top.
 
 ```
 python ps2\menu\skit_indicator.py build ps2\PyTOD2\FPB ps2\PyTOD2\SLPS_251.72
@@ -431,9 +433,10 @@ python ps2\menu\skit_indicator.py build ps2\PyTOD2\FPB ps2\PyTOD2\SLPS_251.72 --
 
 Run it after `battle_subs.py` and `patch_slps_titles.py`, before Pack
 FPB. It adds a member with the code to `00017.pak3` (after the subtitle
-member) and, in the SLPS, two trampolines in the free tail of the second
-string pool (file `0x115EE0`) plus the targets of two calls in the SELECT
-handler `0x11C230`. Running it again replaces the earlier code. Addresses
+member) and, in the SLPS, three trampolines in the free tail of the
+second string pool (file `0x115EE0`) plus the targets of two calls in the
+SELECT handler `0x11C230` and of the last jump of the text layer
+(`0x10E130`). Running it again replaces the earlier code. Addresses
 and the game's skit logic: TECHNICAL.md, "Skit indicator: how SELECT
 finds a skit".
 
@@ -516,6 +519,18 @@ python ps2/menu/slps_font.py ps2/PyTOD2/SLPS_251.72 --export font.png --grid
 
 writes the texture as a PNG with cell indices (Pillow needed) for checking
 or redrawing glyphs; the glyph art itself is ASCII art in `slps_font.py`.
+
+## Field messages built by code (`slps_messages.py`)
+
+Some field messages are built by code from a template in the SLPS that
+no pointer table reaches, so no other step saw them. The Info box after a
+skit that gives a title stayed Japanese ("Kyleは / 称号「Swordian Master」を
+得ました", reported on 1.3.5). `patch_slps_titles.py` runs
+`slps_messages.py` as its sixth step: the two templates (file `0xCFCCE`,
+one character, and `0xCFCF0`, the whole party) are rewritten in place
+within the Japanese byte length, the name and title codes kept byte for
+byte: "Kyle got / the title "Swordian Master"" and "Kyle's party got
+titles". Re-running is safe; any other bytes there stop the step.
 
 ## Battle cut-in names of the party artes (`slps_artes.py`)
 

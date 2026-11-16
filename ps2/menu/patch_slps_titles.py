@@ -27,6 +27,8 @@ Steps, in order, on one in-memory copy; the file is written once at the end:
      star, so an ampersand, a tilde and an asterisk are drawn into the font
      texture and the two ASCII table entries are pointed at them. The
      apostrophe gets its own cell (0x03), apart from the double quote.
+  6. Field messages that code builds (slps_messages.py): the Info box after
+     a skit that gives a title ("Kyle got / the title ...").
 
 Re-running is safe. The file size never changes.
 """
@@ -37,7 +39,7 @@ try:                                   # Windows consoles are often not UTF-8
 except Exception:
     pass
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-import md1text as M, md1patch as P, slps_menu, slps_artes, slps_font
+import md1text as M, md1patch as P, slps_menu, slps_artes, slps_font, slps_messages
 BIAS = 0xFF000
 # The spare string pool, 0xFAB10..0xFC508. It is not unused memory: the
 # zeros are the work area of the game's CD/DVD library (the "PsIIlibcdvd"
@@ -331,6 +333,13 @@ def patch_one(target, a):
     except slps_font.FontError as e:
         print(f"font: {e}. Nothing written."); return 1
     print("font: " + (", ".join(changes) if changes else "'&', '~', '*' and apostrophe glyphs already in place"))
+
+    # Step 6: field messages built by code (title received after a skit).
+    try:
+        src, n = slps_messages.apply(src)
+    except slps_messages.MessageError as e:
+        print(f"field messages: {e}. Nothing written."); return 1
+    print(f"field messages: {n} translated" if n else "field messages: already English")
 
     assert len(src) == len(original)
     if src == original:

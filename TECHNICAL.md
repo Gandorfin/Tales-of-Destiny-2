@@ -689,7 +689,8 @@ constants 10000/20000/30000/40000 of the skit state machine).
 | found skits (halfwords, at most 8), count at +0x10 | `0x55EF30` | `0x24A878` |
 | random pick | newlib `rand()` `0x18741C`, 64 bit state at reent (`0x185874`) + 0xA8 | `0x190540`, word at `[0x1FD1E4] + 0x58` |
 | start the skit | `0x158EB4(number, 3)`, number at `0x662A64 + 0x1CE8` | `0x129758(number, 3)`, number at `0x1CEE08 + 0x1CE8` |
-| title table (entry n = skit n) | `0x289400` | SLPS file `0xD7400` (vaddr `0x1D6400`) |
+| title table (entry n = skit n) | `0x289400` (623 entries, some empty) | SLPS file `0xD7400` (vaddr `0x1D6400`) |
+| a skit plays | bit 0x40 of `0x662A64 + 0x1544` | bit 0x40 of `0x1CEE08 + 0x1544` (event word `+0x1548` is 0x40 then; story scenes 2, 4, 6, 0xA) |
 
 * The find function walks the skit lists of the current place (PSP
   `0xABE24 + 0x1DCC00`: pairs of list id and a "skip seen skits" flag), and
@@ -708,8 +709,25 @@ constants 10000/20000/30000/40000 of the skit state machine).
   and `0x14C08C` (`jal 0x158C98` on SELECT), to code at the end of the
   string pool. Text through the battle subtitle helper `0x544F8`, colour 6
   yellow, 7 white, scale 0x100 x 0xE0 (at 0x100 high the box cuts the
-  descenders). The shown skit stays while it is in the list; SELECT plays
-  the shown one, so the title never lies when several skits are available.
+  descenders). The shown skit stays while it is in the list. The frame
+  hook asks at the end of a frame and SELECT is read in the next one, and
+  the list can change in between (on the world map 0.3.7 showed "Landmark"
+  and played "Trap", reported 2026-11-15): SELECT plays the skit that was
+  drawn in the last frame, without a second list check (a halfword "on
+  screen" flag next to the shown skit). The helper's font cells drew on
+  black boxes on the field: the field leaves an alpha test function that
+  passes their transparent pixels. The hook sets `sceGuAlphaFunc(GREATER,
+  0, 0xFF)` (`0x9F8C`, what the game sets almost everywhere), turns the
+  alpha test and blending on (`sceGuGetStatus 0x8E68`, `sceGuEnable
+  0x8D28`; states 0 and 4, the switch `0xA334` writes GE commands 0x22 /
+  0x21) and restores the two enables after the text (`sceGuSetStatus
+  0x8DDC`). The print `0x1464BC` sets the blend function itself
+  (`0x53A4(0x44)`: add, 2 x source alpha, 1 - 2 x source alpha, PS2 style
+  alpha 0x80 = opaque) and reloads the font texture and its colour table
+  (`0x59E4`, `0x58A8`, cached at `0x2D6AA8`); none of those was the cause. While a skit
+  plays (the field frame still runs and reaches the hook, event word set)
+  the hook draws the skit's title centred at the top, with the advances of
+  the variable width font.
 * PS2: `ps2/menu/skit_indicator.py`. The handler is only called from the
   field overlays, so the hooks sit inside it: the pad read `jal 0x10B028`
   at `0x11C288` (reached once the event and field checks passed) and the
@@ -730,7 +748,19 @@ constants 10000/20000/30000/40000 of the skit state machine).
   which writes one GS register into the frame's packet) with the alpha
   test on (alpha greater than 0) and z test always. Outline: four black
   copies at x plus or minus 2, y plus or minus 1 first, as the debug
-  display does. Scale `0xC0` x `0x100`, 12 pixels per character.
+  display does. Scale `0xC0` x `0x100`, 12 pixels per character, at x 40
+  y 388 (inside the part of the picture a CRT shows; 1.3.5 had 16 / 410).
+* PS2, title during a skit: the field pass is drawn before the skit
+  portraits and the black bar at the top, so text drawn there is dimmed,
+  covered by the portraits and cut by the bar. The text layer `0x10DE58`
+  (message windows and, while bit 0x40 of `0x1CEE08 + 0x1544` is set, the
+  skit ticker with its own scissor) runs after them and ends with the tail
+  call `j 0x14F218` at `0x10E130` that restores the full scissor (GS
+  `SCISSOR_1` x 0..639, y 0..224 of the 224 line frame). That jump goes to
+  a third trampoline: the code makes the same call, then draws the title
+  of skit `[0x1CEE08 + 0x1CE8]` (halfword, set when a skit starts, kept
+  afterwards) centred at y 0, which is inside the black bar (PCSX2: y -10
+  is cut at the frame buffer edge, y 8 touches the picture).
 
 ## Rules learned the hard way
 

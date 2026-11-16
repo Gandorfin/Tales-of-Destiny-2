@@ -18,7 +18,7 @@ class Field:
     """A fake field: the game functions the hooks call, as stubs."""
 
     def __init__(self, candidates=(), pick=None, busy=False, idle=True, lock=0, mode=0, mode6_busy=False,
-                 titles=None):
+                 titles=None, skit_flags=0, playing=0, gu=(0, 0)):
         self.m = Machine({})
         self.calls = []
         self.drawn = []
@@ -26,6 +26,9 @@ class Field:
         self.code, self.labels = K.hook_code(ORIGIN)
         m.load(LOAD + ORIGIN, self.code)
         m.write(LOAD + K.EVENT + K.EVENT_BUSY, 4, 1 if busy else 0)
+        m.write(LOAD + K.EVENT + K.SKIT_FLAGS, 4, skit_flags)
+        m.write(LOAD + K.EVENT + K.PLAYING, 2, playing)
+        self.gu = {K.GU_ALPHA_TEST: gu[0], K.GU_BLEND: gu[1]}
         m.write(LOAD + K.FIELD + K.FIELD_LOCK, 1, lock & 0xFF)
         m.write(REENT_BLOCK + K.RAND_STATE, 4, 0x11111111)
         m.write(REENT_BLOCK + K.RAND_STATE + 4, 4, 0x22222222)
@@ -45,6 +48,11 @@ class Field:
             m.write(REENT_BLOCK + K.RAND_STATE, 4, 0xDEAD)
             r[2] = (self.pick if self.pick is not None else (self.candidates[0] if self.candidates else 0))
 
+        def text(r):
+            # the font cells need blending and the alpha test (else: black boxes)
+            assert self.gu == {K.GU_ALPHA_TEST: 1, K.GU_BLEND: 1, 'func': (K.GU_GREATER, 0, 0xFF)}, self.gu
+            self.drawn.append((m.string(r[6]), r[4], r[5], r[7], r[8], r[9]))
+
         def part(r):
             self.calls.append(('part', r[4]))
             r[2] = 0x77
@@ -55,7 +63,11 @@ class Field:
             LOAD + K.IDLE: lambda r: r.__setitem__(2, 1 if idle else 0),
             LOAD + K.MODE: lambda r: r.__setitem__(2, mode),
             LOAD + K.MODE6_BUSY: lambda r: r.__setitem__(2, 1 if mode6_busy else 0),
-            LOAD + K.TEXT: lambda r: self.drawn.append((m.string(r[6]), r[4], r[5], r[7], r[8], r[9])),
+            LOAD + K.TEXT: text,
+            LOAD + K.GU_GET: lambda r: r.__setitem__(2, self.gu[r[4]]),
+            LOAD + K.GU_ENABLE: lambda r: self.gu.__setitem__(r[4], 1),
+            LOAD + K.GU_SET: lambda r: self.gu.__setitem__(r[4], r[5]),
+            LOAD + K.GU_ALPHA_FUNC: lambda r: self.gu.__setitem__('func', (r[4], r[5], r[6])),
         }
 
     def shown(self):
@@ -131,6 +143,27 @@ class FrameHookTests(unittest.TestCase):
         f.frame()
         self.assertEqual(f.drawn[1][0], 'Skit 3')
 
+    def test_render_states_come_back(self):
+        for gu in ((0, 0), (1, 0), (0, 1), (1, 1)):
+            f = Field([4], gu=gu)
+            f.frame()
+            self.assertEqual(len(f.drawn), 2)
+            self.assertEqual(f.gu, {K.GU_ALPHA_TEST: gu[0], K.GU_BLEND: gu[1], 'func': (K.GU_GREATER, 0, 0xFF)})
+
+    def test_skit_title_on_top_during_a_skit(self):
+        f = Field([], busy=True, skit_flags=K.SKIT_BIT | 1, playing=4, titles={4: 'All Set'})
+        f.frame()
+        (title, x, y, colour, xs, ys), = f.drawn
+        width = sum(K.advance_table()[ord(c) - 0x20] for c in 'All Set')
+        self.assertEqual((title, x, y, colour, xs, ys),
+                         ('All Set', 320 - width // 2, K.TOP_Y, K.WHITE, K.TOP_XSCALE, K.TOP_YSCALE))
+        self.assertNotIn('find', f.calls)
+        for kw in ({'skit_flags': 1, 'playing': 4}, {'skit_flags': K.SKIT_BIT, 'playing': 0},
+                   {'skit_flags': K.SKIT_BIT, 'playing': 33}, {'skit_flags': K.SKIT_BIT, 'playing': K.TITLE_COUNT}):
+            f = Field([], busy=True, titles={4: 'All Set'}, **kw)
+            f.frame()
+            self.assertEqual(f.drawn, [], kw)
+
     def test_untitled_skit_draws_nothing(self):
         f = Field([7], titles={1: 'One'})
         f.frame()
@@ -145,11 +178,23 @@ class PickHookTests(unittest.TestCase):
         self.assertEqual(f.select(), 5)
         self.assertEqual(f.calls.count('find'), 2)       # the frame's and SELECT's own call
 
-    def test_game_pick_when_nothing_or_stale_was_shown(self):
-        f = Field([3, 5], pick=3)
-        self.assertEqual(f.select(), 3)                  # nothing shown yet
+    def test_shown_skit_even_if_the_list_changed(self):
+        # the frame hook asks at the end of a frame, SELECT is read in the
+        # next one: the "Landmark" report (0.3.7) was a list that changed in
+        # between, and the game's random pick played another skit
+        f = Field([6, 13], pick=6)
         f.frame()
-        f.candidates, f.pick = [5], 5                    # the shown 3 is gone
+        self.assertEqual(f.drawn[1][0], 'Skit 6')
+        f.candidates, f.pick = [13], 13
+        self.assertEqual(f.select(), 6)
+
+    def test_game_pick_when_nothing_was_shown(self):
+        f = Field([3, 5], pick=3)
+        self.assertEqual(f.select(), 3)                  # no frame yet
+        f.frame()
+        f.m.write(LOAD + K.EVENT + K.EVENT_BUSY, 4, 1)   # hidden in the last frame
+        f.frame()
+        f.candidates, f.pick = [5], 5
         self.assertEqual(f.select(), 5)
         f.candidates, f.pick = [], 0
         self.assertEqual(f.select(), 0)

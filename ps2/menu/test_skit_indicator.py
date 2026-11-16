@@ -179,7 +179,34 @@ def fake_slps():
     d = bytearray(0x135328)
     struct.pack_into('<I', d, K.PAD_CALL - K.BIAS, B.jal(K.PAD))
     struct.pack_into('<I', d, K.PICK_CALL - K.BIAS, B.jal(K.FIND))
+    struct.pack_into('<I', d, K.LAYER_EXIT - K.BIAS, K.j_word(K.GS_SET))
     return bytes(d)
+
+
+class LayerHook(unittest.TestCase):
+    """The text layer's last call: scissor first, then the title on top."""
+    def run_layer(self, f, flags, playing):
+        f.m.write(K.SKIT_FLAGS, 4, flags)
+        f.m.write(K.PLAYING, 2, playing)
+        f.m.r[4], f.m.r[5] = 0x40, 0x1234
+        f.calls.clear()
+        f.run('layer', a0=0x40)
+
+    def test_title_on_top_during_a_skit(self):
+        f = Field([], titles={4: 'All Set'})
+        self.run_layer(f, K.SKIT_BIT | 2, 4)
+        self.assertEqual(f.calls[0][:2], ('gs', 0x40))   # the game's own call
+        (title, colour, pos, _), = f.lines()
+        self.assertEqual((title, colour), ('All Set', K.WHITE))
+        self.assertEqual(pos, (K.gs_x(320) - 8 * K.ADVANCE * len('All Set'), K.gs_y(K.TOP_Y)))
+        self.assertEqual(len(f.prints), 5)                # outline + colour
+
+    def test_nothing_outside_skits(self):
+        for flags, playing in ((2, 4), (0, 4), (K.SKIT_BIT, 0), (K.SKIT_BIT, K.TITLE_COUNT)):
+            f = Field([], titles={4: 'All Set'})
+            self.run_layer(f, flags, playing)
+            self.assertEqual(f.prints, [], (flags, playing))
+            self.assertEqual([c for c in f.calls if c[0] == 'gs'], [('gs', 0x40, 0x1234)])
 
 
 class Files(unittest.TestCase):
@@ -198,24 +225,25 @@ class Files(unittest.TestCase):
         again, index2, _ = K.patch_container(out)    # repeat: replaced, not added
         self.assertEqual((again, index2), (out, 4))
         slps = K.patch_slps(fake_slps(), index, labels)
-        ta, tb = K.TRAMP_FILE, K.TRAMP_FILE + K.TRAMP_SIZE
+        ta, tb, tc = K.TRAMP_FILE, K.TRAMP_FILE + K.TRAMP_SIZE, K.TRAMP_FILE + 2 * K.TRAMP_SIZE
         self.assertEqual(struct.unpack_from('<I', slps, K.PAD_CALL - K.BIAS)[0], B.jal(ta + K.BIAS))
         self.assertEqual(struct.unpack_from('<I', slps, K.PICK_CALL - K.BIAS)[0], B.jal(tb + K.BIAS))
+        self.assertEqual(struct.unpack_from('<I', slps, K.LAYER_EXIT - K.BIAS)[0], K.j_word(tc + K.BIAS))
         self.assertEqual(K.patch_slps(slps, index, labels), slps)       # repeat
         base = fake_slps()
         changed = {i // 4 * 4 for i in range(len(slps)) if slps[i] != base[i]}
         # the two calls and the trampolines (their last word, a nop, stays 0)
-        self.assertEqual(changed, {K.PAD_CALL - K.BIAS, K.PICK_CALL - K.BIAS}
-                         | set(range(ta, ta + 24, 4)) | set(range(tb, tb + 24, 4)))
+        self.assertEqual(changed, {K.PAD_CALL - K.BIAS, K.PICK_CALL - K.BIAS, K.LAYER_EXIT - K.BIAS}
+                         | set(range(ta, ta + 24, 4)) | set(range(tb, tb + 24, 4)) | set(range(tc, tc + 24, 4)))
         # the trampolines land on the entries with v0 = the entry address
         m = Machine({})
         pak_at = 0x0043C600
         m.load(pak_at, out)
         m.write(K.PAK_POINTER, 4, pak_at)
-        m.load(ta + K.BIAS, slps[ta:ta + 2 * K.TRAMP_SIZE])
+        m.load(ta + K.BIAS, slps[ta:ta + 3 * K.TRAMP_SIZE])
         magic = pak_at + struct.unpack_from('<I', out, 4 + 4 * index)[0] + 12
         self.assertEqual(m.read(magic, 4).to_bytes(4, 'little'), K.MAGIC)
-        for tramp, label in ((ta, 'frame'), (tb, 'pick')):
+        for tramp, label in ((ta, 'frame'), (tb, 'pick'), (tc, 'layer')):
             reached = []
             m.stubs = {magic + labels[label]: lambda r: reached.append(r[2])}
             m.r[31] = 0x11C290
