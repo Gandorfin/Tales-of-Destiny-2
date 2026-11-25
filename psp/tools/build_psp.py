@@ -33,7 +33,8 @@ checking how the engine draws Latin text. --keep leaves the work folder.
 --vwf on (the default, needs the lowercase font) gives every Latin letter its
 own width in text boxes, skits, labels, menus and the box measurer, and
 lowercase plus widths to the "bold" menu text (party names, Battle Rank,
-menu tabs) (psp_vwf.py, psp_bold_lowercase.py); --vwf off keeps the retail
+menu tabs) (psp_vwf.py, psp_bold_lowercase.py) and pads the Enchant menu's
+level rows to fixed columns (psp_enchant.py); --vwf off keeps the retail
 fixed advance and capitals in the bold menu text.
 --movies also burns the English subtitles into the nine movies with dialogue
 (psp_movies.py; needs an FFmpeg with libass and libx264, or the
@@ -138,7 +139,7 @@ def check_sources(movies=False, report=True):
 
 sys.path.insert(0, HERE)
 check_sources(report=False)
-import psp_iso, psp_text, psp_names, psp_menu, psp_lowercase, psp_fpb, psp_pool, psp_monsters, psp_title, psp_quiz, psp_worldmap, psp_vwf, psp_latin_font, psp_boot_script, psp_pic1, psp_battle_subs, psp_skit_indicator
+import psp_iso, psp_text, psp_names, psp_menu, psp_lowercase, psp_fpb, psp_pool, psp_monsters, psp_title, psp_quiz, psp_worldmap, psp_vwf, psp_latin_font, psp_boot_script, psp_pic1, psp_battle_subs, psp_skit_indicator, psp_enchant
 
 def add_probes(work):
     p = os.path.join(work, 'scenario_en', '06470.txt')
@@ -207,6 +208,11 @@ def main(iso, out_iso, probe=False, keep=None, version=None, lowercase_font=True
         _vwf, _vinfo = psp_vwf.patch_boot(open(boot, 'rb').read(), _font0, bold=True, ticker=True)
         open(boot, 'wb').write(_vwf)
         print('variable width font:', _vinfo)
+        # Enchant level rows: names padded to one width, so the digits
+        # line up with the fixed cursor columns
+        _ench, _einfo = psp_enchant.patch_boot(open(boot, 'rb').read())
+        open(boot, 'wb').write(_ench)
+        print('enchant rows:', _einfo)
     elif vwf:
         print('variable width font: off (needs --lowercase-font on)')
     else:

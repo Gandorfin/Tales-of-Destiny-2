@@ -1210,7 +1210,7 @@ TP軽減力とTP回復力が上昇する	Increases TP Reduction and Regen	28	32	
 メディテイト	Meditate	12	8	reuse
 メデューサ	Medusa	10	6	reuse
 メニュー	Menu	8	4	reuse
-メニュー背景	Menu BG	12	7	reuse
+メニュー背景	Menu Background	12	15	reuse
 メルクマール	Merkmal	12	7	reuse
 メルティング	Melting	12	7	reuse
 メレーバシネット	Melee Basinet	16	13	reuse
@@ -1454,7 +1454,7 @@ TP軽減力とTP回復力が上昇する	Increases TP Reduction and Regen	28	32	
 全身に聖気をまとったような気がする	You feel wrapped in holy energy.	34	32	reuse
 全身に邪気をまとったような気がする	You feel wrapped in dark energy.	34	32	reuse
 公園に行きましょう	Let's Go to the Park	18	20	reuse
-具現結晶	Lens Crystal	8	12	reuse
+具現結晶	Manifest Crystal	8	16	reuse
 再び未来へ	To the Future Again	10	19	reuse
 再出航	Setting Sail Again	6	18	reuse
 再度未来に行くには	To the Future Again	18	19	reuse
@@ -1770,7 +1770,7 @@ TP軽減力とTP回復力が上昇する	Increases TP Reduction and Regen	28	32	
 物資装置　ストーンフェンス	Vending Machine STONE FENCE	26	27	reuse
 物資装置　ロブロイ	Vending Machine ROB ROY	18	23	reuse
 特技	Skill	4	5	reuse
-特技のクリティカル率を増やす	Increases the skill's chance of landing acritical strike.	28	57	reuse
+特技のクリティカル率を増やす	Increases the skill's chance of landing a critical strike.	28	58	reuse
 特技のダメージを増やす	Increase's the skill's damage output.	22	37	reuse
 特技の命中率を増やす	Increases the skill's accuracy.	20	31	reuse
 特技ショートカット１	Skill Shortcut 1	20	16	reuse
@@ -1819,7 +1819,7 @@ TP軽減力とTP回復力が上昇する	Increases TP Reduction and Regen	28	32	
 神団批判	Order Critic	8	12	reuse
 神殿にいるはず	She's in the Temple	14	19	reuse
 神殿の奥にエルレインが	Elrane Deep in the Temple	22	25	reuse
-秘奥義	Mystic	6	6	reuse
+秘奥義	Mystic Arte	6	11	reuse
 称号の名前を入力してください	Please input title name.	28	24	reuse
 移動時基本速度	Move Speed	14	10	reuse
 積み木遊び	Building Blocks	10	15	reuse
@@ -1934,8 +1934,8 @@ TP軽減力とTP回復力が上昇する	Increases TP Reduction and Regen	28	32	
 近くの敵を狙え	Attack Close	14	12	reuse
 迷いやすいぞ	Easy to Get Lost	12	16	reuse
 迷子札	ID Tag	6	6	reuse
-追加晶術	Added Spell	8	11	reuse
-追加特技	Added Skill	8	11	reuse
+追加晶術	Spell Extension	8	15	reuse
+追加特技	Arte Extension	8	14	reuse
 追加発動技即習得	Instant Add Artes	16	17	reuse
 逃走した・・・	Fled...	14	7	reuse
 逃走速度が上昇する	Increases escape speed	18	22	reuse
@@ -2279,24 +2279,24 @@ HPの低い敵を狙って晶術と攻撃を行います	Casts spells and attack
 信じて従うのもまた仲間であります。	Trusting and obeying is being a comrade too.	34	44	translated
 気分はナイスミドルか。	Feeling like a fine gentleman?	22	30	translated
 な発言をするのもいいけどほどほどに。	Bold words are fine, but in moderation.	36	39	translated
-アイテム強奪	Item Plunder	12	12	translated
-瞬間完全回避	Instant Perfect Evade	12	21	translated
+アイテム強奪	Thievery	12	8	reuse
+瞬間完全回避	Perfect Evasion	12	15	reuse
 全ての攻撃を回避する	Evades all attacks	20	18	translated
-反撃発動	Counter Trigger	8	15	translated
-ガード発動	Guard Trigger	10	13	translated
-空中発動	Aerial Trigger	8	14	translated
+反撃発動	Activate Counter	8	16	reuse
+ガード発動	Activate Guard	10	14	reuse
+空中発動	Aerial Skill	8	12	reuse
 ガードブレイク	Guard Break	14	11	translated
-ふっ飛ばし	Knockdown	10	9	translated
-通常技連携	Base Attack Combo	10	17	translated
-背面取り	Back Take	8	9	translated
+ふっ飛ばし	Knock Back	10	10	reuse
+通常技連携	Attack Chain	10	12	reuse
+背面取り	Backstab	8	8	reuse
 敵の背後を取る。	Takes the enemy's back.	16	23	translated
 HP吸収	HP Drain	6	8	translated
 HPを吸収できる。	Can drain HP.	16	13	translated
 引き寄せ	Pull In	8	7	translated
-一定完全回避	Fixed Perfect Evade	12	19	translated
-硬直解除	Stagger Cancel	8	14	translated
+一定完全回避	Flash Dodge	12	11	reuse
+硬直解除	Nimble Spell	8	12	reuse
 即座に行動できる。	Can act immediately.	18	20	translated
-気絶攻撃	Stun Attack	8	11	translated
+気絶攻撃	Heavy Spell	8	11	reuse
 幸運が上昇する	Luck rises	14	10	translated
 攻撃時にＨＰ吸収	HP drain on attack	16	18	translated
 攻撃時にＴＰ吸収	TP drain on attack	16	18	translated
@@ -3079,10 +3079,10 @@ HPを吸収できる。	Can drain HP.	16	13	translated
 風系召喚	Wind Summon	8	11	translated
 光系召喚	Light Summon	8	12	translated
 闇系召喚	Dark Summon	8	11	translated
-属性攻撃貫通	Pierce Elem. Def (Atk)	12	22	translated
-属性晶術貫通	Pierce Elem. Def (Arte)	12	23	translated
-攻撃後前進	Advance After Attack	10	20	translated
-攻撃後後退	Retreat After Attack	10	20	translated
+属性攻撃貫通	Penetrate Elemental	12	19	reuse
+属性晶術貫通	Spell Shield	12	12	reuse
+攻撃後前進	Hit and Rush	10	12	reuse
+攻撃後後退	Hit and Run	10	11	reuse
 アタックレベルの成長促進	Boosts Attack Level growth	24	26	translated
 スキルレベルの成長促進	Boosts Skill Level growth	22	25	translated
 マジックレベル成長促進	Boosts Magic Level growth	22	25	translated
@@ -4248,3 +4248,16 @@ LVに応じて(毒/衰弱/麻痺/鈍足/凍結)を解除する{01}非戦闘時�
 <button:00000019><button:00000036>戻る{01}	<button:00000019><button:00000036>Back{01}	15	15	translated
 <button:00000035>変更{01}<button:00000036>戻る{01}<button:00000037>説明切替{01}<button:00000038>はずす{01}<button:0000001D>使用{01}<button:00000039><button:0000003A>キャラ切替	<button:00000035>Change{01}<button:00000036>Back{01}<button:00000037>Desc{01}<button:00000038>Remove{01}<button:0000001D>Use{01}<button:00000039><button:0000003A>Character	76	72	translated
 <button:00000035> <0A:00000000>を出る	<button:00000035> <0A:00000000>: Exit	17	17	translated
+SP－	Damage SP	4	9	reuse
+TP－	Damage TP	4	9	reuse
+# Custom > Menu Background submenu (BOOT 0x1C702C..0x1C707C, rows drawn centred):
+# every row is label + padding = 124 font 1 pixels, then .R/.G/.B, so the column
+# lines up. Padding = spaces (8 px) + one space inside <size:N>..<size:00000100>
+# for the rest (N = pixels * 32). Recompute with psp/fonts/latin_glyphs.json.
+カラー.左上.{82}{71}	Upper Left  <size:000000A0> <size:00000100>.{82}{71}	14	26	translated
+{81}{40}{81}{40}{81}{40} {81}{40}{81}{40}.{82}{66}	               <size:00000080> <size:00000100>.{82}{66}	14	29	translated
+{81}{40}{81}{40}{81}{40} {81}{40}{81}{40}.{82}{61}	               <size:00000080> <size:00000100>.{82}{61}	14	29	translated
+{81}{40}{81}{40}{81}{40}.右上.{82}{71}	Upper Right <size:00000020> <size:00000100>.{82}{71}	14	26	translated
+{81}{40}{81}{40}{81}{40}.左下.{82}{71}	Lower Left  <size:00000080> <size:00000100>.{82}{71}	14	26	translated
+{81}{40}{81}{40}{81}{40}.右下.{82}{71}	Lower Right .{82}{71}	14	15	translated
+入力を取りやめますか？{01}<size:000000E0>（入力の反映は「決定」上で<button:00000035>）<size:00000100>{01} {01}<button:00000035>やめる  <button:00000036>入力に戻る	Cancel this entry?{01}<size:000000E0>(To apply it, press <button:00000035> on "Confirm")<size:00000100>{01} {01}<button:00000035>Cancel  <button:00000036>Back to entry	97	102	translated

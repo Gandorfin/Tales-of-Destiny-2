@@ -337,7 +337,10 @@ Both run inside `build_psp.py` with the lowercase font and `--vwf on`
   the text box glyph loop, the text printer (labels, choices, menus), the
   box measurer, the bold menu routine and the skit/battle ticker. The
   widths come from `psp/fonts/latin_glyphs.json`; digits share one width
-  so number columns stay aligned.
+  so number columns stay aligned. The box measurer also measures bold
+  (font 2) text with the bold advances (until PSP 0.3.8 it counted one
+  fixed cell per letter, so centred bold labels sat left of their column:
+  the lower block of the Enchant arte grid).
   The code goes into the string pool segment; no new relocation entries.
 * `mips_asm.py` is the small assembler the hooks are written in, so the
   build needs no armips. `test_psp_vwf.py` checks its output against
@@ -352,6 +355,27 @@ the old executable), check a text box, a skit, the main menu, Status and a
 battle. Stock PPSSPP loads every program header, a real PSP does not
 (TECHNICAL.md, "The pool's program header must sit between text and
 data"); a code change still needs a test on hardware.
+
+## psp_enchant.py: Enchant menu rows and arte grid
+
+`build_psp.py` runs this step on BOOT.BIN right after the variable width
+font (only with it). The Enchant list draws each enchantment as one centred
+row, "name, spaces to byte 20, then 1 2 3 4"; with proportional letters
+every row had another width, so the names started at different x and the
+level digits drifted from row to row and from the level cursor. A hook in
+the row builder pads every name to the same pixel width (spaces, plus one
+space inside a `<size>` tag for the last pixels), so the names are left
+aligned and the digits sit in four columns; the cursor column table is
+set to those columns. It also draws the lower block of the arte grid
+(Enchant > character) a little smaller. Addresses and details: the
+module's docstring and TECHNICAL.md, "PSP: menus and the string pool".
+
+```
+python psp/tools/psp_enchant.py          # check that every name fits its row
+python -B -m unittest discover -s psp/tools -p test_psp_enchant.py -v
+```
+
+The enchantment names themselves are `psp_menu.tsv` rows (the PS2 names).
 
 ## psp_battle_subs.py: subtitles for the spoken battle lines
 

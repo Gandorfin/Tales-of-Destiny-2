@@ -536,16 +536,47 @@ The variable width font (`psp/tools/psp_vwf.py`) hooks all of these:
   fragments: SJIS `SPを` (0x19BED8), %d, `、` (0x19BEF0), SJIS `TPを`
   (0x19BEE0), %d, `消費` (0x19BED0), `。` (0x19BEE8); English " SP 12, TP 5
   used." (`psp_menu.ADDRESSED`, `SJIS_ADDRESSED`, table row 消費).
-* Enchant level rows are built at run time as the name padded with ASCII
-  spaces to 20 bytes, then per level three colour codes, a space and a
-  full-width digit (0x994E..0x9951), and the row is drawn centred. Retail
-  names are two-byte, so every row had the same width; with the variable
-  width font English rows differ and the digits drift from the fixed cursor
-  positions. Not fixed yet (needs the row builder or a pixel based pad).
-* The arte grid is drawn by the bold routine; it mangles any multi-byte
-  trick, so long arte names were shortened. With the variable width font
-  (October 2026) the names are narrower; whether the shortened names can get
-  their full form back still needs a look at the grid in game.
+* Enchant level rows are built at run time (builder vaddr `0x110700`) in a
+  0x80 byte row: filled with spaces, the name copied to its start, then from
+  byte 20 per level three colour tags, a space and a full-width digit
+  (0x994E..0x9951), then a NUL. The rows are widgets drawn centred in a 16
+  cell column (4864 units at glyph size 0x130, 304 units per cell); the
+  level cursor takes its x from a fixed table, halfwords at vaddr
+  `0x23D3CC` (retail 3200, 3200, 3664, 4128, 4592). Retail names are kanji,
+  so every row was 16 cells wide. With the variable width font English rows
+  differed, the names started at different x and the digits drifted (PSP
+  0.3.8, playtest tab 15). Since November 2026 `psp/tools/psp_enchant.py`
+  hooks the builder at `0x1107D0` and pads every name to 230 font pixels
+  (10 cells): spaces of 8 px, the rest as one space inside
+  `<size:N>..<size:100>` (N = pixels * 32; the measurer and the printer
+  scale a space's advance with the size tag, checked in PPSSPP). All rows
+  are then one width, the names line up on the left and the digits in four
+  columns; the cursor table gets those columns (3246, 3246, 3664, 4082,
+  4499).
+* Enchantment names: the PSP table at BOOT `0x1A147C..0x1A2384` (name +
+  description pairs, one data pointer each) is the PS2 list in the SLPS at
+  `0xB8820` (8 byte records). Since November 2026 the PSP uses the PS2
+  English for all 62 ("Penetrate Elemental", the 20 byte row cut "Penetrate
+  Elemental Attack"; "Thievery", "Arte Extension", ...); `psp_enchant
+  check_names` refuses a name wider than the row's name area.
+* Custom > Menu Background: its rows (`0x1C702C..0x1C707C`, the G and B rows
+  shared by all four corners) are drawn centred and lined up by padding with
+  the SJIS full-width space 0x8140. The English rows are padded the same
+  way as the enchant rows (label + padding = 124 font pixels, then
+  `.Ｒ`/`.Ｇ`/`.Ｂ`), so the R/G/B column lines up (`psp_menu.tsv`).
+* The arte grid (Enchant > character) is one list of widgets (descriptor
+  and runtime object at vaddr `0x23BF3C`, glyph size 0x130 x 0x170 at
+  +0x3E/+0x40, item callback `0x112490`). The upper block (artes) is drawn
+  by the text printer; the lower block (flag bit 0, set by the callback at
+  `0x11254C`) by the bold routine, bigger. Labels are centred in their
+  column by the box measurer, which counted one fixed cell per bold letter
+  while the bold hook draws proportional letters: the lower block sat left
+  of the upper columns and hit the box edge (PSP 0.3.8). `psp_vwf` now
+  measures font 2 single-byte letters with the bold advances (cell from the
+  bold routine's private slot table), which centres every bold label as
+  drawn, and `psp_enchant` redirects the callback's `j 0x1124C4` at
+  `0x112550` (R_MIPS_26 against the text segment) to a hook that sets the
+  lower block's glyph size to 0x108 x 0x140 and jumps back.
 
 ## PSP: enemy names, movies, title
 

@@ -13,7 +13,10 @@ CRITICAL (these can crash the game or hide text, and should never grow):
                        kana in the source (other than the "･" ellipsis dot)
                        is an undecoded raw byte and counts as the code
                        {XX} of its cp932 value; the English may write it
-                       either way ("ﾀ" or "{C0}").
+                       either way ("ﾀ" or "{C0}"). A Shift-JIS kana the
+                       table lacks, written {82} plus a halfwidth kana or
+                       {XX} outside a tag ("{82}ｭ" = く), is a Japanese
+                       letter, not a code: the English drops it.
   untranslated         A record has Japanese source lines but no English
                        lines. Includes English lines accidentally prefixed
                        with '#', which the format treats as reference data.
@@ -79,6 +82,12 @@ CODE = re.compile(r'<[^<>\n]+>|\{[0-9A-Fa-f]{2}\}')
 # is a control byte and must be preserved. The halfwidth middle dot U+FF65
 # is excluded: the corpus uses it as an ellipsis, and it is real text.
 RAW_KANA = re.compile('[｡-､ｦ-ﾟ]')
+# A Shift-JIS kana missing from TBL.json: lead {81}..{84} printed as a code,
+# trail byte as a halfwidth kana or {XX}. Outside a {1x} tag (no code right
+# before it; tag payloads such as "{16}{34}{82}{C0}" stay codes) it is a real
+# Japanese letter: 00080_02 "#{82}ｭそっ！" is くそっ！ ("Damn!"), and an
+# English line that kept "{82}{AD}" showed a stray く on screen (PSP 0.3.8).
+SJIS_KANA = re.compile(r'(?<!\})\{8[1-4]\}(?:[｡-ﾟ]|\{[A-Da-d][0-9A-Fa-f]\})')
 PAGE_BREAK = '{02}'
 CJK = re.compile(r'[぀-ヿ一-鿿]')
 
@@ -102,7 +111,7 @@ def visible_len(text):
 
 
 def codes_of(text):
-    return Counter(CODE.findall(raw_bytes_as_codes(text)))
+    return Counter(CODE.findall(raw_bytes_as_codes(SJIS_KANA.sub('', text))))
 
 
 def parse_blocks(path):
