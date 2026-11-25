@@ -6,7 +6,21 @@ import unittest
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import psp_skit_indicator as K  # noqa: E402
-from test_psp_battle_subs import Machine  # noqa: E402
+from test_psp_battle_subs import Machine as BaseMachine  # noqa: E402
+
+
+class Machine(BaseMachine):
+    def step(self, pc):
+        w = self.read(pc, 4)
+        if w >> 26 == 0 and w & 63 in (0x06, 0x2B):      # srlv, sltu
+            rs, rt, rd = (w >> 21) & 31, (w >> 16) & 31, (w >> 11) & 31
+            if w & 63 == 0x06:
+                self.r[rd] = self.r[rt] >> (self.r[rs] & 31)
+            else:
+                self.r[rd] = int(self.r[rs] < self.r[rt])
+            self.r[0] = 0
+            return (None, None)
+        return super().step(pc)
 
 LOAD = 0x08804000       # where the PSP kernel puts BOOT.BIN
 ORIGIN = K.POOL_VADDR + 0x200
@@ -18,7 +32,7 @@ class Field:
     """A fake field: the game functions the hooks call, as stubs."""
 
     def __init__(self, candidates=(), pick=None, busy=False, idle=True, lock=0, mode=0, mode6_busy=False,
-                 titles=None, skit_flags=0, playing=0, gu=(0, 0)):
+                 titles=None, skit_flags=0, playing=0, gu=(0, 0), seen=()):
         self.m = Machine({})
         self.calls = []
         self.drawn = []
@@ -35,8 +49,10 @@ class Field:
         titles = titles or {n: 'Skit %d' % n for n in range(1, 40)}
         for i, (n, t) in enumerate(titles.items()):
             at = TITLE_AT + 0x40 * i
-            m.load(at, t.encode() + b'\0')
+            m.load(at, (t if isinstance(t, bytes) else t.encode()) + b'\0')
             m.write(LOAD + K.TITLES + 4 * n, 4, at)
+        for n in seen:
+            self.see(n)
         self.candidates, self.pick = list(candidates), pick
 
         def find(r):
@@ -69,6 +85,10 @@ class Field:
             LOAD + K.GU_SET: lambda r: self.gu.__setitem__(r[4], r[5]),
             LOAD + K.GU_ALPHA_FUNC: lambda r: self.gu.__setitem__('func', (r[4], r[5], r[6])),
         }
+
+    def see(self, n):
+        a = LOAD + K.FIELD + K.SEEN + n // 8
+        self.m.write(a, 1, self.m.read(a, 1) | (1 << (n % 8)))
 
     def shown(self):
         return self.m.read(LOAD + self.labels['data'], 2, True)
@@ -133,13 +153,13 @@ class FrameHookTests(unittest.TestCase):
         self.assertEqual(f.shown(), 0)
 
     def test_shown_skit_stays_while_available(self):
-        f = Field([3, 5], pick=5)
+        f = Field([5, 3], pick=3)
+        f.frame()
+        self.assertEqual(f.drawn[1][0], 'Skit 5')        # the first listed one not seen yet
+        f.candidates, f.pick = [3, 5], 3                 # order and the game's pick change
         f.frame()
         self.assertEqual(f.drawn[1][0], 'Skit 5')
-        f.pick = 3                                       # the game's pick changes with rand()
-        f.frame()
-        self.assertEqual(f.drawn[1][0], 'Skit 5')
-        f.candidates, f.pick = [3], 3                    # 5 was seen: the next one shows
+        f.candidates, f.pick = [3], 3                    # 5 is gone: the next one shows
         f.frame()
         self.assertEqual(f.drawn[1][0], 'Skit 3')
 
@@ -150,19 +170,51 @@ class FrameHookTests(unittest.TestCase):
             self.assertEqual(len(f.drawn), 2)
             self.assertEqual(f.gu, {K.GU_ALPHA_TEST: gu[0], K.GU_BLEND: gu[1], 'func': (K.GU_GREATER, 0, 0xFF)})
 
-    def test_skit_title_on_top_during_a_skit(self):
-        f = Field([], busy=True, skit_flags=K.SKIT_BIT | 1, playing=4, titles={4: 'All Set'})
+    def test_nothing_during_a_skit(self):
+        # 0.3.8 drew the title at the top; on the world map the skit covered
+        # it (pnvnd), and the testers did not want it: gone since 0.3.9
+        f = Field([4], busy=True, skit_flags=K.SKIT_BIT | 1, playing=4, titles={4: 'All Set'})
         f.frame()
-        (title, x, y, colour, xs, ys), = f.drawn
-        width = sum(K.advance_table()[ord(c) - 0x20] for c in 'All Set')
-        self.assertEqual((title, x, y, colour, xs, ys),
-                         ('All Set', 320 - width // 2, K.TOP_Y, K.WHITE, K.TOP_XSCALE, K.TOP_YSCALE))
+        self.assertEqual(f.drawn, [])
         self.assertNotIn('find', f.calls)
-        for kw in ({'skit_flags': 1, 'playing': 4}, {'skit_flags': K.SKIT_BIT, 'playing': 0},
-                   {'skit_flags': K.SKIT_BIT, 'playing': 33}, {'skit_flags': K.SKIT_BIT, 'playing': K.TITLE_COUNT}):
-            f = Field([], busy=True, titles={4: 'All Set'}, **kw)
-            f.frame()
-            self.assertEqual(f.drawn, [], kw)
+
+    def test_seen_skits_are_not_shown(self):
+        f = Field([3, 5], seen=[3])
+        f.frame()
+        self.assertEqual(f.drawn[1][0], 'Skit 5')
+        f = Field([3, 5], seen=[3, 5])
+        f.frame()
+        self.assertEqual((f.drawn, f.shown()), ([], 0))
+        f = Field([12], seen=[4, 11, 13, 20])
+        f.frame()
+        self.assertEqual(f.drawn[1][0], 'Skit 12')
+
+    def test_shown_skit_goes_once_seen(self):
+        f = Field([3, 5], pick=5)
+        f.frame()
+        self.assertEqual(f.drawn[1][0], 'Skit 3')
+        f.see(3)
+        f.frame()
+        self.assertEqual(f.drawn[1][0], 'Skit 5')
+
+    def test_nothing_when_the_game_finds_nothing(self):
+        f = Field([3, 5])
+        f.frame()
+        f.pick = 0
+        f.frame()
+        self.assertEqual((f.drawn, f.shown()), ([], 0))
+        self.assertEqual(f.select(), 0)
+
+    def test_names_in_titles(self):
+        f = Field([4, 5], titles={4: b'\x07\x03', 5: b'Hero \x07\x01!'})
+        f.frame()
+        self.assertEqual(f.drawn[1][0], 'Loni')
+        f.see(4)
+        f.frame()
+        self.assertEqual(f.drawn[1][0], 'Hero Kyle!')
+        f = Field([4], titles={4: b'y' * 50 + b'\x07\x05' * 3})
+        f.frame()
+        self.assertEqual(f.drawn[1][0], ('y' * 50 + 'Nanaly' * 2)[:K.BUF_CHARS])
 
     def test_untitled_skit_draws_nothing(self):
         f = Field([7], titles={1: 'One'})
@@ -174,8 +226,7 @@ class PickHookTests(unittest.TestCase):
     def test_select_plays_the_shown_skit(self):
         f = Field([3, 5], pick=5)
         f.frame()
-        f.pick = 3
-        self.assertEqual(f.select(), 5)
+        self.assertEqual(f.select(), 3)
         self.assertEqual(f.calls.count('find'), 2)       # the frame's and SELECT's own call
 
     def test_shown_skit_even_if_the_list_changed(self):
