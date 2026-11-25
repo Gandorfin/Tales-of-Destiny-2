@@ -256,13 +256,14 @@ class Hook(unittest.TestCase):
             elif op == 0 and w & 63 == 0x21:
                 self.assertIn((w >> 11) & 31, (2, 3))
 
-    def run_hook(self, party, enemies, voices, rows, pak=0x1000000):
-        """Run trampoline + hook on a fake battle; returns the strings drawn, in order."""
+    def run_hook(self, party, enemies, voices, rows, pak=0x1000000, extra=()):
+        """Run trampoline + hook on a fake battle; returns the strings drawn, in order.
+        extra: members after ours (the skit indicator adds one)."""
         drawn, frames = [], []
         m = Machine({B.FRAME: lambda r: frames.append(tuple(r[4:12])),
                      B.TEXT: lambda r: drawn.append((m.string(r[6]), r[4], r[5]))})
         blob, _ = B.build_data(rows)
-        container = pak3.build([b'a', b'b', b'c', blob])
+        container = pak3.build([b'a', b'b', b'c', blob] + list(extra))
         m.load(pak, container)
         m.write(B.PAK_POINTER, 4, pak)
         battle(m, party, enemies, voices)
@@ -278,6 +279,14 @@ class Hook(unittest.TestCase):
         rows = [row(82, '*', 'We did it!')]
         for pak in (0x1000000, 0x3A2C40, 0x1D5F004):
             self.assertEqual([d[0] for d in self.run_hook([0], [], {0: 82}, rows, pak)], ['Kyle: ', 'We did it!'])
+
+    def test_hook_with_later_members(self):
+        # PS2 1.3.5 and 1.3.6: the skit indicator member made the container
+        # five members long and the hook drew nothing in any battle
+        rows = [row(82, '*', 'We did it!')]
+        for extra in ([b'skit indicator'], [b'x', b'y']):
+            self.assertEqual([d[0] for d in self.run_hook([0], [], {0: 82}, rows, extra=extra)],
+                             ['Kyle: ', 'We did it!'])
 
     def test_hook_party_and_enemies(self):
         rows = [row(82, '*', 'We did it!'), row(700, '', 'Boss line.'), row(5, '*', '')]

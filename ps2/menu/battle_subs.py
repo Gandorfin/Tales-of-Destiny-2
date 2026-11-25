@@ -194,7 +194,10 @@ def hook_code(entries):
         # subtitle data = pak + offset of member 4 + 12 (header 9 + pad 3)
         lui('t0', p_hi), lw('s3', p_lo, 't0'),
         beq('s3', 'zero', 'done'), NOP,
-        lw('t1', 0, 's3'), addiu('t1', 't1', -4),
+        # at least four members: the skit indicator (skit_indicator.py) adds
+        # a fifth one after ours. 1.3.5 and 1.3.6 tested "exactly four"
+        # here, so every battle subtitle was skipped once that member came.
+        lw('t1', 0, 's3'), sltiu('t1', 't1', 4),
         bne('t1', 'zero', 'done'), NOP,
         lw('t1', 0x10, 's3'), addu('s3', 's3', 't1'), addiu('s3', 's3', 12),
         lw('t1', 0, 's3'), lui('t2', m_hi), addiu('t2', 't2', m_lo),
