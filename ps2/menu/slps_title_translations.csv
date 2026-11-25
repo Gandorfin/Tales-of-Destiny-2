@@ -7,6 +7,7 @@ offset,pointers,japanese,english
 0x113F71,0xD7418,目印,Landmark
 0x113F5E,0xD741C,冒険ごっこの思い出,Playing Adventurer
 0x113F4C,0xD7420,ふられマン\予告編,Dumped Man\Teaser
+0x113F43,0xD7424,注意散漫,Distracted
 0x113F38,0xD7428,古代の秘宝,Ancient Treasure
 0x113F27,0xD742C,父の背中を追って,Following Father
 0x113F16,0xD7430,ゴージャス孤児院,Gorgeous Orphanage
@@ -41,6 +42,7 @@ offset,pointers,japanese,english
 0x113DBD,0xD74A8,心に焼きつけて,Burned Into Memory
 0x113DB4,0xD74AC,英雄志願,Hero Hopeful
 0x113DA9,0xD74B0,ふられマン,Dumped Man
+0x113DA0,0xD74B4,母に\\\\,To Mother\\\\
 0x113D99,0xD74B8,大落下,Great Fall
 0x113D8A,0xD74BC,物を動かす方法,How to Move Things
 0x113D77,0xD74C0,あしながおにいさま,Long-Legged Big Bro
@@ -104,6 +106,7 @@ offset,pointers,japanese,english
 0x113AC6,0xD75AC,海の主の襲撃,Sea Lord's Attack
 0x113AB7,0xD75B0,緊急事態ＳＯＳ,Emergency SOS
 0x113AAA,0xD75B4,奇跡のあとで,After the Miracle
+0x113A9F,0xD75B8,逃走心旺盛,Eager to Flee
 0x113A8E,0xD75BC,オバケなんて\\\\,Ghosts Aren't Real\\\\
 0x113A89,0xD75C0,疑念,Doubt
 0x113A82,0xD75C4,想像宝,Dream Treasure
@@ -148,8 +151,10 @@ offset,pointers,japanese,english
 0x113864,0xD7664,感動の再会,Moving Reunion
 0x113857,0xD7668,あたしんちへ,To My Place
 0x113842,0xD766C,サブミッション使い１,Submission User 1
+0x113835,0xD7670,ＰＯＩＳＯＮ,POISON
 0x113828,0xD7674,カルビオラへ,To Kalviola
 0x113813,0xD7678,サブミッション使い２,Submission User 2
+0x113806,0xD767C,遥かなる現代,Distant Present
 0x1137F5,0xD7680,カルビオラ潜入１,Kalviola Infiltration 1
 0x1137E8,0xD7684,さあ、現代へ,"Now, to the Present"
 0x1137CD,0xD7688,アイグレッテのはずなのに１,This Should Be Aigrette 1
@@ -296,6 +301,7 @@ offset,pointers,japanese,english
 0x112F91,0xD78C4,マッサージしてあ\げ\る,I'll Massage You
 0x112F83,0xD78C8,ワガママ<Harold>,Selfish <Harold>
 0x112F76,0xD78CC,起きている夢,Waking Dream
+0x112F6B,0xD78D0,童顔ちゃん,Baby Face
 0x112F54,0xD78D4,飛べ飛べ！　ロケット２,"Fly, Fly! Rocket 2"
 0x112F49,0xD78D8,いいコンビ,Good Team
 0x112F3C,0xD78DC,神にケンカを,Picking a Fight With God
@@ -399,10 +405,13 @@ offset,pointers,japanese,english
 0x112902,0xD7A6C,成長１,Growth 1
 0x1128F7,0xD7A74,積み木遊び,Building Blocks
 0x1128EC,0xD7A78,今を精一杯,Live for Now
+0x1128E7,0xD7A7C,絆１,Bond (1)
+0x1128E2,0xD7A80,絆２,Bond (2)
 0x1128D7,0xD7A84,感動を演出,Staging Emotion
 0x1128C8,0xD7A88,出会いの場所１,Meeting Place 1
 0x1128B9,0xD7A8C,出会いの場所２,Meeting Place 2
 0x1128B2,0xD7A90,成長２,Growth 2
+0x1128A5,0xD7A94,ＣＨＩＣＨＩ,CHICHI
 0x11289A,0xD7A98,復活した心,A Revived Heart
 0x112885,0xD7A9C,出会いの場所へと\\\\,To the Meeting Place\\\\
 0x11287A,0xD7AA0,星に願いを,Wish Upon a Star
@@ -442,6 +451,7 @@ offset,pointers,japanese,english
 0x11266B,0xD7B30,アクアヴェイル,Aquaveil
 0x112656,0xD7B34,ホープタウンで待つ人,Waiting in Hope Town
 0x112649,0xD7B38,運命の出会い,Fated Meeting
+0x112644,0xD7B3C,指針,Guide
 0x112639,0xD7B40,白雲の尾根,White Cloud Ridge
 0x11262A,0xD7B44,山小屋がある！,A Mountain Hut!
 0x112625,0xD7B48,疑問,Question
@@ -549,6 +559,7 @@ offset,pointers,japanese,english
 0x111F32,0xD7CE4,スパイラルケイブへ５,To Spiral Cave 5
 0x111F1F,0xD7CE8,ソーディアン完成３,Swordian Complete 3
 0x111F14,0xD7CEC,決戦前夜３,Eve of Battle 3
+0x111F07,0xD7CF0,外殻を抜けろ,Get Through the Aethersphere
 0x111EF0,0xD7CF4,「神の眼」まで急ごう！,Hurry to the Eye of Atamoni!
 0x111EE3,0xD7CF8,城でまた一泊,Another Castle Night
 0x111ED0,0xD7CFC,今、何かが見えた？,Did You See Something?

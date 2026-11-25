@@ -704,12 +704,26 @@ constants 10000/20000/30000/40000 of the skit state machine).
   213 + 2n on PSP (the game asks for member `0x90000 + 2n`, group 9).
 * After a skit the next available one is found at once; when none is left
   the indicator is gone (the Lumina version kept the old title).
+* Some lists do not skip seen skits, so the game offers a seen skit again
+  (on the world map "Seeking the Hero 1" comes back after it played).
+  Since PS2 1.3.7 / PSP 0.3.9 the indicator shows only skits not seen yet
+  (pnvnd: after all skits were seen the last one stayed on screen): the
+  shown one while it is listed and unseen, else the first listed unseen
+  one, else nothing. SELECT itself is unchanged and may still replay a
+  seen skit. Seen bits: PS2 byte `0x1B8278 + 0x2E30 + n / 8`, bit `n & 7`
+  (tested by the checker `0x128F78` when the list's flag says so); PSP
+  `0x656CA8 + 0x3A00`, same layout. When the search returns 0 the
+  indicator shows nothing and the pick hook returns 0.
+* Titles can hold a character name code: PS2 `07 n 00 00 00`, PSP `07 n`
+  (n = 1 Kyle .. 6 Harold); 11 PS2 titles are only a name ("<Reala>").
+  The print helpers do not know the code (1.3.6 drew it as a glyph), so
+  the hooks copy the title into a buffer with the English names.
 * PSP: `psp/tools/psp_skit_indicator.py` retargets two relocated `jal`
   words, `0x14BF74` (the last update of the field frame, `jal 0x14CC70`)
   and `0x14C08C` (`jal 0x158C98` on SELECT), to code at the end of the
   string pool. Text through the battle subtitle helper `0x544F8`, colour 6
   yellow, 7 white, scale 0x100 x 0xE0 (at 0x100 high the box cuts the
-  descenders). The shown skit stays while it is in the list. The frame
+  descenders). The frame
   hook asks at the end of a frame and SELECT is read in the next one, and
   the list can change in between (on the world map 0.3.7 showed "Landmark"
   and played "Trap", reported 2026-11-15): SELECT plays the skit that was
@@ -724,43 +738,60 @@ constants 10000/20000/30000/40000 of the skit state machine).
   0x8DDC`). The print `0x1464BC` sets the blend function itself
   (`0x53A4(0x44)`: add, 2 x source alpha, 1 - 2 x source alpha, PS2 style
   alpha 0x80 = opaque) and reloads the font texture and its colour table
-  (`0x59E4`, `0x58A8`, cached at `0x2D6AA8`); none of those was the cause. While a skit
-  plays (the field frame still runs and reaches the hook, event word set)
-  the hook draws the skit's title centred at the top, with the advances of
-  the variable width font.
+  (`0x59E4`, `0x58A8`, cached at `0x2D6AA8`); none of those was the cause.
+  0.3.8 drew the skit's title at the top while a skit played; on the world
+  map the skit's own layer covered it (it showed only while the skit faded
+  out, pnvnd) and the testers did not want it, so 0.3.9 dropped it.
 * PS2: `ps2/menu/skit_indicator.py`. The handler is only called from the
-  field overlays, so the hooks sit inside it: the pad read `jal 0x10B028`
-  at `0x11C288` (reached once the event and field checks passed) and the
-  search `jal 0x129510` at `0x11C32C` (SELECT) go to two 7 word
+  field overlays, so the decision sits inside it: the pad read `jal
+  0x10B028` at `0x11C288` (reached once the event and field checks passed)
+  and the search `jal 0x129510` at `0x11C32C` (SELECT) go to 7 word
   trampolines at the end of the second string pool (SLPS file `0x115EE0`,
   zero after the strings `slps_menu_patch.json` places there), which jump
   into a new last member of the resident `00017.pak3` (after the battle
   subtitle member, found through the container's offset table as the
-  battle trampoline does). Field text through the SLPS text API (the
-  debug coordinate display at `0x168F00` uses it the same way):
-  `0x11AEF0` (current parameter block), `0x11AE88` (block, x scale, y
-  scale), `0x11AE98` (block, r, g, b, a), `0x11AE70` (block, x, y; GS
-  units, origin `0x6C00`/`0x7900`, 16 per pixel across, 8 per line of
-  the 448 line screen), `0x118D00` (string, `0xFF2000`; the second value
-  limits the width, 0 draws nothing). On the field the transparent font
-  pixels showed as a blue box: the field leaves the GS alpha test off, so
-  the hook first writes TEST_1 (register `0x47`, through `0x14F218`,
-  which writes one GS register into the frame's packet) with the alpha
-  test on (alpha greater than 0) and z test always. Outline: four black
-  copies at x plus or minus 2, y plus or minus 1 first, as the debug
-  display does. Scale `0xC0` x `0x100`, 12 pixels per character, at x 40
-  y 388 (inside the part of the picture a CRT shows; 1.3.5 had 16 / 410).
-* PS2, title during a skit: the field pass is drawn before the skit
-  portraits and the black bar at the top, so text drawn there is dimmed,
-  covered by the portraits and cut by the bar. The text layer `0x10DE58`
-  (message windows and, while bit 0x40 of `0x1CEE08 + 0x1544` is set, the
-  skit ticker with its own scissor) runs after them and ends with the tail
-  call `j 0x14F218` at `0x10E130` that restores the full scissor (GS
-  `SCISSOR_1` x 0..639, y 0..224 of the 224 line frame). That jump goes to
-  a third trampoline: the code makes the same call, then draws the title
-  of skit `[0x1CEE08 + 0x1CE8]` (halfword, set when a skit starts, kept
-  afterwards) centred at y 0, which is inside the black bar (PCSX2: y -10
-  is cut at the frame buffer edge, y 8 touches the picture).
+  battle trampoline does). The frame entry only decides which skit to
+  show and sets a "draw" halfword; it draws nothing.
+* PS2, drawing (since 1.3.7): 1.3.5 and 1.3.6 drew in the field pass, so
+  water reflections and other field sprites drawn later covered the text,
+  dark places dimmed it to near black (Kpeshin's screenshot) and the font
+  cells needed the alpha test (blue edges on the world map). Now the text
+  layer `0x10DE58` draws it, which runs after the field, the portraits
+  and the minimap. It has two exits: `j 0x14F218` at `0x10E130` (tail
+  call that restores the full scissor, taken while a window or the skit
+  ticker is up) and `jr ra` at `0x10E15C` (taken when no window is open,
+  every other field frame: the byte at `[fp - 0x6E90] + 4` is 0). Both go
+  to trampolines (third and fourth); the code draws when the frame entry
+  asked in this frame, after setting the full scissor itself on the
+  second exit (`SCISSOR_1` `((0xE000 << 30) | 0x9FC0) << 10`, the value
+  the first exit uses).
+* PS2 look (pnvnd's 1.3.6 sheet, Tales of Rebirth and Abyss style; the
+  1.3.6 outline of four black copies looked harsh): GS primitives through
+  `0x14F218` (one A+D register write per call, also `PRIM`, `RGBAQ`,
+  `XYZ2`; values built with `ori`/`dsll` so bit 31 is not sign extended
+  into Z). `TEST_1` alpha test on, `ALPHA_1 = 0x44` (the game's usual
+  blend). A dark band (alpha 0x48 of 0x80) from x 0 at y 394..420 of the
+  448 line space, solid to 10 pixels past the title, then a 64 pixel
+  Gouraud fade to alpha 0 (`TRISTRIP` with `IIP`). A grey key (side,
+  face, top light; untextured colours are 0..0xFF) at x 20, y 398, 58 x
+  16, with "SELECT" inside at scale `0x80` x `0xB0`; it moves down 2
+  lines and back every 32 frames like the dialogue's circle prompt. The
+  title in white at scale `0x90` x `0x100` (9 pixels per character, 12 in
+  1.3.6) at x 86, y 398. Text through the SLPS text API (the debug
+  coordinate display at `0x168F00` uses it the same way): `0x11AEF0`
+  (current parameter block), `0x11AE88` (block, x scale, y scale),
+  `0x11AE98` (block, r, g, b, a), `0x11AE70` (block, x, y; GS units,
+  origin `0x6C00`/`0x7900`, 16 per pixel across, 8 per line of the 448
+  line screen), `0x118D00` (string, `0xFF2000`; the second value limits
+  the width, 0 draws nothing).
+* PS2 1.3.6 also drew the title of a playing skit in the black bar at the
+  top from the first text layer exit. Testers did not want it (it clashes
+  with the theatre look, and the bar cuts the portraits anyway), so 1.3.7
+  dropped it.
+* Battle subtitles and the indicator share `00017.pak3`: the subtitle hook
+  checks the container before it uses member 4. Up to 1.3.6 it required
+  exactly four members, so from 1.3.5 on (the indicator is member 5) no
+  battle line showed. It now requires at least four.
 
 ## Rules learned the hard way
 

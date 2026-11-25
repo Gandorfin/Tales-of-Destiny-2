@@ -53,9 +53,11 @@ What this step adds, appended to the pool after the battle subtitles:
   (sceGuSetStatus 0x8DDC). Setting only the enables, the blend function,
   the texture function or reloading the font texture changed nothing
   (tried in PPSSPP).
-* While a skit plays (event word set, bit 0x40 of 0x662A64 + 0x1544) the
-  frame hook draws the skit's title (number at 0x662A64 + 0x1CE8)
-  centred at the top instead.
+* Since 0.3.9: only skits not seen yet are shown (seen bit n at 0x656CA8
+  + 0x3A00; some lists offer seen skits again, and after all were seen
+  the last one stayed, pnvnd), nothing when the search returns 0, name
+  codes 07 n in a title become the English names, and no title at the
+  top during a skit (0.3.8; on the world map the skit covered it).
 
 Both calls are relocated jal words (R_MIPS_26 against the text segment);
 the loader adds the load address to the pool target as for the battle
@@ -70,6 +72,8 @@ import sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 import mips_asm  # noqa: E402
+
+REGS_T5, REGS_T6 = mips_asm.REGS['t5'], mips_asm.REGS['t6']
 
 TEXT_BIAS = 0xC0
 POOL_VADDR = 0x881000
@@ -89,6 +93,9 @@ EVENT = 0x662A64            # +0x1548 nonzero while an event runs
 EVENT_BUSY = 0x1548
 FIELD = 0x656CA8            # +0x2AA2 signed byte, negative: no skits
 FIELD_LOCK = 0x2AA2
+SEEN = 0x3A00               # FIELD + this: bit n set once skit n was seen (0x15D14C tests it)
+NAMES = ('Kyle', 'Reala', 'Loni', 'Judas', 'Nanaly', 'Harold')   # title code 07 n (n = 1..6)
+BUF_CHARS = 60
 CANDIDATES = 0x55EF30       # halfword skit numbers found by FIND
 CANDIDATE_COUNT = 0x10      # halfword after the list (at most 8)
 TITLES = 0x289400           # pointer table, entry n = title of skit n
@@ -107,8 +114,6 @@ GU_GREATER = 6
 YELLOW, WHITE = 6, 7
 XSCALE, YSCALE = 0x100, 0xE0  # 0x100 high cut the descenders (g in "Nostalgic")
 X, Y = 16, 410              # bottom left, in the helper's 640 x 448 space
-TOP_Y = 4                   # skit title during a skit, in the grey bar at the top
-TOP_XSCALE, TOP_YSCALE = 0xE0, 0xC4
 LABEL = 'SELECT'
 GAP = 10                    # between the label and the title
 SPACING = 1.05              # measured advance / glyph table advance (battle subtitles)
@@ -129,19 +134,6 @@ def label_width(vwf=True):
     else:
         units = FIXED_ADVANCE * len(LABEL)
     return int(units * XSCALE / 256 * SPACING + 0.5)
-
-
-def advance_table(vwf=True):
-    """Advance of each character 0x20..0x7E in the helper's space at XSCALE,
-    one byte each (0 for characters the font lacks): the top title is
-    centred with it."""
-    if vwf:
-        import psp_latin_font
-        g = psp_latin_font.load()['glyphs1']
-        units = [g[chr(c)]['adv'] if chr(c) in g else 0 for c in range(0x20, 0x7F)]
-    else:
-        units = [FIXED_ADVANCE] * (0x7F - 0x20)
-    return bytes(min(255, int(u * TOP_XSCALE / 256 * SPACING + 0.5)) for u in units)
 
 
 def hook_code(origin, vwf=True):
@@ -220,7 +212,7 @@ def hook_code(origin, vwf=True):
     # the tests the game makes before it looks at SELECT
     addr('t0', EVENT, 's3', FRAME_RET)
     op('lw', 't1', EVENT_BUSY, 't0')
-    op('bnez', 't1', 'event')
+    op('bnez', 't1', 'out')                           # also while a skit plays (no title on top since 0.3.9)
     op('nop')
     addr('t0', FIELD, 's3', FRAME_RET)
     op('lb', 't1', FIELD_LOCK, 't0')
@@ -251,20 +243,72 @@ def hook_code(origin, vwf=True):
     op('lw', 't1', 0x1C, 'sp')
     op('sw', 't0', RAND_STATE, 's0')
     op('sw', 't1', RAND_STATE + 4, 's0')
-    # keep the shown skit while it is in the list, else take the game's pick
+    # the game would play nothing: show nothing
+    op('beqz', 's1', 'hide')
+    # keep the shown skit while it is listed and not seen yet, else the
+    # first listed one not seen yet, else none (pnvnd, 0.3.8: after all
+    # skits were seen the last one stayed; the game offers seen skits of
+    # some lists again)
     op('lh', 'a0', 0, 's2')
     addr('a1', CANDIDATES, 's3', FRAME_RET)
     op('bal', 'listed')
     op('nop')
     op('bnez', 'v0', 'show')
     op('lh', 'a0', 0, 's2')
-    op('move', 'a0', 's1')
+    addr('s0', CANDIDATES, 's3', FRAME_RET)
+    op('lhu', 's4', CANDIDATE_COUNT, 's0')
+    a.label('first')
+    op('blez', 's4', 'hide')
+    op('nop')
+    op('lh', 'a0', 0, 's0')
+    addr('a1', CANDIDATES, 's3', FRAME_RET)
+    op('bal', 'listed')
+    op('addiu', 's0', 's0', 2)
+    op('beqz', 'v0', 'first')
+    op('addiu', 's4', 's4', -1)
+    op('lh', 'a0', -2, 's0')
     op('sh', 'a0', 0, 's2')
     a.label('show')
     op('bal', 'title')
     op('nop')
     op('beqz', 'v0', 'out')
-    op('move', 's1', 'v0')
+    op('move', 't0', 'v0')
+    # copy the title, code 07 n (2 bytes) = character name n
+    addr('t1', 'buf', 's3', FRAME_RET)
+    op('addiu', 't7', 't1', BUF_CHARS)
+    a.label('copy')
+    op('lbu', 't2', 0, 't0')
+    op('beqz', 't2', 'copied')
+    op('addiu', 't3', 'zero', 7)
+    op('bne', 't2', 't3', 'copy_char')
+    op('nop')
+    op('lbu', 't2', 1, 't0')
+    op('addiu', 't0', 't0', 2)
+    op('addiu', 't2', 't2', -1)
+    op('sltiu', 't3', 't2', len(NAMES))
+    op('beqz', 't3', 'copy')
+    op('sll', 't2', 't2', 3)
+    addr('t4', 'names', 's3', FRAME_RET)
+    op('addu', 't2', 't2', 't4')
+    a.label('copy_name')
+    op('lbu', 't3', 0, 't2')
+    op('beqz', 't3', 'copy')
+    op('sltu', 't4', 't1', 't7')
+    op('beqz', 't4', 'copied')
+    op('addiu', 't2', 't2', 1)
+    op('sb', 't3', 0, 't1')
+    op('b', 'copy_name')
+    op('addiu', 't1', 't1', 1)
+    a.label('copy_char')
+    op('sltu', 't4', 't1', 't7')
+    op('beqz', 't4', 'copied')
+    op('addiu', 't0', 't0', 1)
+    op('sb', 't2', 0, 't1')
+    op('b', 'copy')
+    op('addiu', 't1', 't1', 1)
+    a.label('copied')
+    op('sb', 'zero', 0, 't1')
+    addr('s1', 'buf', 's3', FRAME_RET)
     op('li', 't0', 1)
     op('sh', 't0', 2, 's2')                           # on screen: SELECT plays it
     blend_on()
@@ -276,40 +320,8 @@ def hook_code(origin, vwf=True):
     op('b', 'out')
     op('nop')
 
-    # an event runs; during a skit its title at the top, centred
-    a.label('event')
-    op('lw', 't1', SKIT_FLAGS, 't0')
-    op('andi', 't1', 't1', SKIT_BIT)
-    op('beqz', 't1', 'out')
-    op('nop')
-    op('lh', 'a0', PLAYING, 't0')
-    op('bal', 'title')
-    op('nop')
-    op('beqz', 'v0', 'out')
-    op('move', 's1', 'v0')
-    # width: sum of the advances (table at data + ADV), x = 320 - width / 2
-    op('move', 't0', 's1')
-    op('move', 't1', 'zero')
-    addr('t3', 'advances', 's3', FRAME_RET)
-    a.label('width')
-    op('lbu', 't2', 0, 't0')
-    op('beqz', 't2', 'width_end')
-    op('addiu', 't0', 't0', 1)
-    op('addiu', 't2', 't2', -0x20)
-    op('sltiu', 't4', 't2', 0x7F - 0x20)
-    op('beqz', 't4', 'width')
-    op('addu', 't4', 't3', 't2')
-    op('lbu', 't4', 0, 't4')
-    op('b', 'width')
-    op('addu', 't1', 't1', 't4')
-    a.label('width_end')
-    op('srl', 't1', 't1', 1)
-    op('li', 't2', 320)
-    op('subu', 's0', 't2', 't1')
-    blend_on()
-    op('move', 'a2', 's1')
-    draw('s0', TOP_Y, WHITE, TOP_XSCALE, TOP_YSCALE)
-    blend_restore()
+    a.label('hide')
+    op('sh', 'zero', 0, 's2')
 
     a.label('out')
     op('lw', 'v0', 0x14, 'sp')
@@ -349,7 +361,15 @@ def hook_code(origin, vwf=True):
     op('addiu', 'a1', 'a1', 2)
     op('bne', 't3', 'a0', 'listed_loop')
     op('addiu', 't2', 't2', -1)
-    op('li', 'v0', 1)
+    # listed: 1 unless its seen bit is set (s3 = the frame hook's base)
+    op('srl', 't5', 'a0', 3)
+    addr('t6', FIELD + SEEN, 's3', FRAME_RET)
+    op('addu', 't6', 't6', 't5')
+    op('lbu', 't6', 0, 't6')
+    op('andi', 't5', 'a0', 7)
+    a.data(struct.pack('<I', (REGS_T5 << 21) | (REGS_T6 << 16) | (REGS_T6 << 11) | 0x06))   # srlv t6, t6, t5
+    op('andi', 't6', 't6', 1)
+    op('sltiu', 'v0', 't6', 1)
     a.label('listed_end')
     op('jr', 'ra')
     op('nop')
@@ -365,6 +385,8 @@ def hook_code(origin, vwf=True):
     op('nop')
     op('move', 's1', 'v0')
     addr('s2', 'data', 's3', PICK_RET)
+    op('beqz', 's1', 'pick_end')                      # the game plays nothing: nor do we
+    op('nop')
     # the skit drawn in the last frame, if any (the list may differ by now:
     # the frame hook asks at the end of the frame, SELECT is read in the next)
     op('lh', 't0', 2, 's2')
@@ -381,8 +403,11 @@ def hook_code(origin, vwf=True):
     a.data(MAGIC)
     a.label('data')
     a.data(b'\0\0\0\0' + LABEL.encode('ascii') + b'\0')   # shown skit, on screen, label
-    a.label('advances')
-    a.data(advance_table(vwf))
+    a.align(4)
+    a.label('names')
+    a.data(b''.join(n.encode('ascii').ljust(8, b'\0') for n in NAMES))
+    a.label('buf')
+    a.data(bytes(BUF_CHARS + 4))
     a.align(4)
     return a.assemble(), dict(a.labels)
 

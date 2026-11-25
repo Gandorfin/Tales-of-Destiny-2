@@ -14,7 +14,7 @@ tables reference offsets inside files you extract yourself.
 | `00017.pak3` member 4 (new) | 356 battle subtitles | spoken battle lines, drawn while the voice plays, via `battle_subs.py` (861 voice files listed in `battle_subtitles.csv`) |
 | `00017.pak3` member 5 (new) + `SLPS_251.72` | skit indicator | "SELECT" and the skit title on the field while a skit can be started, via `skit_indicator.py` |
 | `06306.scpk` | 1 | the opening caption "And so... eighteen years passed...", a scenario package that predates the proofread range (06307 onward) and has no text file of its own; patched in place inside the package |
-| `SLPS_251.72` | 597 + 277 ops + 27 cut-ins | character titles, plus the earlier Arte / Status / Enchant / Cooking-help menu patch (`slps_menu_patch.json`) and the battle cut-in names of the 27 party artes that still flashed up in kanji, so the executable is complete from a clean English-menu base |
+| `SLPS_251.72` | 608 + 277 ops + 27 cut-ins | character and skit titles (608 since 1.3.7: 11 skit titles had kanji the code table lacked), plus the earlier Arte / Status / Enchant / Cooking-help menu patch (`slps_menu_patch.json`) and the battle cut-in names of the 27 party artes that still flashed up in kanji, so the executable is complete from a clean English-menu base |
 
 The table has 787 FPB records. Eleven of them (the Battle Memo category
 headings such as ＜特技習得＞, and four cooking menu labels) use three
@@ -417,14 +417,17 @@ Book shows).
 ## Skit indicator (`skit_indicator.py`)
 
 A skit starts when the player presses SELECT on the field, but nothing
-showed when one was available. While SELECT would start a skit, the field
-now shows "SELECT" in yellow and the skit's title (the Skit Hut title) in
-white, outlined, in the bottom left corner, as in the Lumina Tales
-concept (since 1.3.6 a little further in, so a CRT does not cut it). It
-is hidden whenever the game would ignore SELECT (events, dialogue, menus).
-The game picks at random when several skits are available; SELECT now
-plays the one whose title is shown. While a skit plays, its title shows
-in the black bar at the top.
+showed when one was available. While SELECT would start a skit not seen
+yet, the bottom left corner shows a grey SELECT key (pressed and released
+in turn, like the circle prompt in dialogue) and the skit's title (the
+Skit Hut title) in white on a translucent dark band that fades out to
+the right, in the style of Tales of Rebirth and Tales of the Abyss
+(since 1.3.7; 1.3.5 and 1.3.6 had yellow "SELECT" and a black outline).
+It is hidden whenever the game would ignore SELECT (events, dialogue,
+menus, during the skit) and once every available skit was seen. The game
+picks at random when several skits are available; SELECT plays the one
+whose title is shown. The text layer draws it, after the field, so
+reflections, dark places and the world map no longer change it.
 
 ```
 python ps2\menu\skit_indicator.py build ps2\PyTOD2\FPB ps2\PyTOD2\SLPS_251.72
@@ -433,10 +436,11 @@ python ps2\menu\skit_indicator.py build ps2\PyTOD2\FPB ps2\PyTOD2\SLPS_251.72 --
 
 Run it after `battle_subs.py` and `patch_slps_titles.py`, before Pack
 FPB. It adds a member with the code to `00017.pak3` (after the subtitle
-member) and, in the SLPS, three trampolines in the free tail of the
+member) and, in the SLPS, four trampolines in the free tail of the
 second string pool (file `0x115EE0`) plus the targets of two calls in the
-SELECT handler `0x11C230` and of the last jump of the text layer
-(`0x10E130`). Running it again replaces the earlier code. Addresses
+SELECT handler `0x11C230` and of the text layer's two exits (`0x10E130`
+and `0x10E15C`). Running it again replaces the earlier code, also on an
+executable from 1.3.6 (three trampolines). Addresses
 and the game's skit logic: TECHNICAL.md, "Skit indicator: how SELECT
 finds a skit".
 
