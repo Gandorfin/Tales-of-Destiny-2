@@ -57,7 +57,7 @@ python ps2/menu/patch_menu_text.py ps2/PyTOD2/FPB
 python ps2/menu/sfm_text.py build ps2/PyTOD2/FPB
 python ps2/menu/enemy_text.py build ps2/PyTOD2/FPB
 python ps2/menu/battle_subs.py build ps2/PyTOD2/FPB
-python ps2/menu/title_credit.py ps2/PyTOD2/FPB --version 1.3.6
+python ps2/menu/title_credit.py ps2/PyTOD2/FPB --version 1.3.7
 python ps2/menu/patch_slps_titles.py ps2/PyTOD2/SLPS_251.72
 python ps2/menu/skit_indicator.py build ps2/PyTOD2/FPB ps2/PyTOD2/SLPS_251.72
 ```
@@ -70,7 +70,7 @@ python ps2\menu\patch_menu_text.py ps2\PyTOD2\FPB
 python ps2\menu\sfm_text.py build ps2\PyTOD2\FPB
 python ps2\menu\enemy_text.py build ps2\PyTOD2\FPB
 python ps2\menu\battle_subs.py build ps2\PyTOD2\FPB
-python ps2\menu\title_credit.py ps2\PyTOD2\FPB --version 1.3.6
+python ps2\menu\title_credit.py ps2\PyTOD2\FPB --version 1.3.7
 python ps2\menu\patch_slps_titles.py ps2\PyTOD2\SLPS_251.72
 python ps2\menu\skit_indicator.py build ps2\PyTOD2\FPB ps2\PyTOD2\SLPS_251.72
 ```
@@ -137,7 +137,7 @@ to before it relocates anything.
 
 `title_credit.py` is the title screen: the two copyright lines under the
 menu are a 384x32 texture in `00021.pak3`, not text. The tool redraws the
-first line (the Japanese designer credit) as "Green Gel v1.3.6" and keeps
+first line (the Japanese designer credit) as "Green Gel v1.3.7" and keeps
 the Namco line; give it the version you are releasing. The title screen
 draws that first line as a sprite about 96 pixels wide (the width of the
 Japanese credit), which is why the label is short and condensed and why the
@@ -171,7 +171,7 @@ rebuilt. The full sequence, with the PyTOD2 button names:
    and `python ps2\menu\enemy_text.py build ps2\PyTOD2\FPB` (enemy artes)
    and `python ps2\menu\battle_subs.py build ps2\PyTOD2\FPB` (battle subtitles)
    and `python ps2\menu\skit_indicator.py build ps2\PyTOD2\FPB ps2\PyTOD2\SLPS_251.72` (skit indicator)
-   and `python ps2\menu\title_credit.py ps2\PyTOD2\FPB --version 1.3.6`
+   and `python ps2\menu\title_credit.py ps2\PyTOD2\FPB --version 1.3.7`
    (the patch name on the title screen, with the version being released).
 3. Make sure `new_SLPS_251.72` exists next to `SLPS_251.72` (Pack FPB
    writes the new pointer table into it), then
