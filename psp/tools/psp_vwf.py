@@ -397,9 +397,12 @@ def _scale(a, reg, tmp, sx):
     a.op('sra', reg, reg, 8)
 
 
-def hooks(base, widths, sx=DEFAULT_SX, fontsel=1, bold_widths=None, ticker=False, bold_texture=None):
+def hooks(base, widths, sx=DEFAULT_SX, fontsel=1, bold_widths=None, ticker=False, bold_texture=None,
+          bold_table=None):
     """Assemble the hooks + width tables at vaddr base (the fifth, bold,
-    hook only with bold_widths). Returns (bytes, labels)."""
+    hook only with bold_widths; bold_table = vaddr of the bold routine's
+    private slot table, needs bold_widths, makes the measurer use the bold
+    advances for font 2 text). Returns (bytes, labels)."""
     a = mips_asm.Asm(base)
     # 1: put-char of the text printer. in: a0 item, a1 width source, a2 height,
     #    a3 &slottab[c], v1 slottab, s4 y, s5 x. out: item filled, s2 = advance
@@ -548,7 +551,7 @@ def hooks(base, widths, sx=DEFAULT_SX, fontsel=1, bold_widths=None, ticker=False
     ret4 = 0x142858
     a.label('measure')
     a.op('andi', 't9', 'v0', 2)
-    a.op('bnez', 't9', 'measure_full')
+    a.op('bnez', 't9', 'measure_bold' if bold_table is not None else 'measure_full')
     a.op('lw', 'a2', 0x4C, 'sp')
     a.op('lhu', 'a1', 0, 'a2')
     a.op('andi', 'v1', 'a1', 1)
@@ -577,6 +580,36 @@ def hooks(base, widths, sx=DEFAULT_SX, fontsel=1, bold_widths=None, ticker=False
     a.op('mflo', 'fp')
     a.op('jr', 'ra')
     a.op('sra', 'fp', 'fp', 16)
+    if bold_table is not None:
+        # font 2 (the bold routine's text, flag 2): retail measures every
+        # single-byte character one fixed cell wide, the bold hook draws it
+        # with its own advance. Measure it the same way (cell = the bold
+        # routine's private slot table, advance = bold_widths * cell / 12),
+        # or centred bold labels sit left of their column by the difference
+        # (the arte grid's lower block in the Enchant menu, PSP 0.3.8).
+        a.label('measure_bold')
+        a.op('lhu', 'fp', 0, 's6')
+        a.op('lbu', 't9', 0, 's1')
+        a.op('lui', 't8', ('hi', bold_table - ret4))
+        a.op('addiu', 't8', 't8', ('lo', bold_table - ret4))
+        a.op('addu', 't8', 't8', 'ra')
+        a.op('addu', 't9', 't9', 't8')
+        a.op('lbu', 't9', 0, 't9')                    # font 2 cell
+        a.op('sll', 't9', 't9', 1)
+        a.op('lui', 't8', ('hi', 'bold_widths', ret4))
+        a.op('addiu', 't8', 't8', ('lo', 'bold_widths', ret4))
+        a.op('addu', 't8', 't8', 'ra')
+        a.op('addu', 't8', 't8', 't9')
+        a.op('lbu', 't9', 1, 't8')                    # advance, font 2 pixels
+        a.op('beqz', 't9', 'measure_end')
+        a.op('nop')
+        a.op('mult', 'fp', 't9')
+        a.op('mflo', 'fp')
+        a.op('li', 't8', RECIP12)
+        a.op('mult', 'fp', 't8')
+        a.op('mflo', 'fp')
+        a.op('jr', 'ra')
+        a.op('sra', 'fp', 'fp', 16)
     a.label('measure_full')
     a.op('lhu', 'fp', 0, 's6')
     a.label('measure_end')
@@ -780,14 +813,15 @@ def patch_boot(boot, font_member, sx=DEFAULT_SX, gap=DEFAULT_GAP, bold=False, ti
     widths = build_widths(b[SLOTTAB_FILE:SLOTTAB_FILE + 256], gap=gap)
     pad = (-p[4]) % 16
     base = POOL_VADDR + p[4] + pad
-    bold_widths = texture = None
+    bold_widths = texture = bold_table = None
     if bold:
         import psp_bold_lowercase
         tab_at = psp_bold_lowercase.map_table(b)
         texture, _ = psp_bold_lowercase.bold_texture(b)
         bold_widths = build_bold_widths(b[tab_at:tab_at + 256])
+        bold_table = POOL_VADDR + tab_at - p[1]
     code, labels = hooks(base, widths, sx, bold_widths=bold_widths, ticker=ticker,
-                         bold_texture=texture)
+                         bold_texture=texture, bold_table=bold_table)
     b += bytes(pad) + code
     p[4] = p[5] = p[4] + pad + len(code)
     struct.pack_into('<8I', b, off, *p)

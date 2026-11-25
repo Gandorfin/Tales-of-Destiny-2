@@ -99,6 +99,8 @@ class BuildFontChoiceTests(unittest.TestCase):
             if hasattr(builder, 'psp_vwf'):
                 captured['vwf'] = mock(f'{builder.__name__}.psp_vwf.patch_boot',
                                        side_effect=lambda b, font, bold=False, ticker=False: (b, {}))
+            if hasattr(builder, 'psp_enchant'):
+                mock(f'{builder.__name__}.psp_enchant.patch_boot', side_effect=lambda b: (b, {}))
             if hasattr(builder, 'psp_battle_subs'):
                 mock(f'{builder.__name__}.psp_battle_subs.patch_boot', side_effect=lambda b, vwf=True: (b, {}))
             if hasattr(builder, 'psp_skit_indicator'):
