@@ -87,6 +87,16 @@ NAME_FIELD = 24          # enemy-pack name field: name, NUL padding, one data by
 # Approved spellings shipped before the PS2 tab-9 consistency correction.
 FORMER_ENEMY_NAMES = {
     'リムル': ('Limule', 'Limura', 'Rhym', 'Rimuru'),
+    'ショヴスリ': ('Shovsri',),        # 1.3.7 and older; the 2008 packs say Chauve-souris
+}
+
+# Name fields that the 2008 patch filled with the wrong English, per pack
+# and ENd member: {pack: {member: {current name: new name}}}.  The Forneus
+# Tail packs (08185 alone, 08186 member 4 beside Forneus) were named
+# "Forneus" like the boss (DrandalZ, 1.3.7, the ship fight).
+PACK_NAME_FIXES = {
+    '08185.pak1': {1: {'Forneus': 'Forneus Tail'}},
+    '08186.pak1': {4: {'Forneus': 'Forneus Tail'}},
 }
 
 
@@ -403,11 +413,12 @@ def find_name_fields(data, names):
     return sorted(hits)
 
 
-def patch_name_fields(raw, names):
+def patch_name_fields(raw, names, fixes=None):
     """Translate the name fields in every ENd member of one .pak1.
-    Returns (new pack bytes, fields changed); the pack is returned unchanged
-    when nothing matched.  Raises ValueError for an English name that does
-    not leave room for the terminating NUL."""
+    `fixes` maps member index -> {name: new name} for this pack (see
+    PACK_NAME_FIXES).  Returns (new pack bytes, fields changed); the pack
+    is returned unchanged when nothing matched.  Raises ValueError for an
+    English name that does not leave room for the terminating NUL."""
     members = parse_pak1(raw)
     if not members:
         return raw, 0
@@ -422,14 +433,18 @@ def patch_name_fields(raw, names):
             continue
         if data[:3] != b'ENd':
             continue
-        hits = find_name_fields(data, names)
+        member_names = names
+        if fixes and i in fixes:
+            member_names = dict(names)
+            member_names.update(fixes[i])
+        hits = find_name_fields(data, member_names)
         if not hits:
             continue
         data = bytearray(data)
         for off, jp in hits:
-            enc = P.encode(names[jp])
+            enc = P.encode(member_names[jp])
             if len(enc) > NAME_FIELD - 2:
-                raise ValueError('%r is %d bytes, the name field holds %d' % (names[jp], len(enc), NAME_FIELD - 2))
+                raise ValueError('%r is %d bytes, the name field holds %d' % (member_names[jp], len(enc), NAME_FIELD - 2))
             data[off:off + NAME_FIELD - 1] = enc + b'\0' * (NAME_FIELD - 1 - len(enc))
             changed += 1
         members[i] = lzss.pack(bytes(data), blob[0])
@@ -448,7 +463,7 @@ def build_names(args, names=None):
         path = os.path.join(args.folder, name)
         raw = open(path, 'rb').read()
         try:
-            out, changed = patch_name_fields(raw, names)
+            out, changed = patch_name_fields(raw, names, PACK_NAME_FIXES.get(name))
         except ValueError as e:
             print('  %s: %s' % (name, e))
             errors += 1

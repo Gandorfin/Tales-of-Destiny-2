@@ -22,7 +22,7 @@ offset,pointers,japanese,english
 0x113EBB,0xD7454,自立,Independence
 0x113EAC,0xD7458,ときめきの旅路,Thrilling Journey
 0x113EA5,0xD745C,脱獄犯,Jailbreaker
-0x113E9A,0xD7460,マリーの噂,Rumors of Marie
+0x113E9A,0xD7460,マリーの噂,Rumors of Mary
 0x113E85,0xD7464,コインに願いを込めて,Wish Upon a Coin
 0x113E76,0xD7468,他人事のように,Someone Else's Problem
 0x113E61,0xD746C,ＬＯＶＥ！　眼鏡ッ子,LOVE! Glasses Girl
@@ -54,7 +54,7 @@ offset,pointers,japanese,english
 0x113D25,0xD74DC,彼女が落としたもの,What She Dropped
 0x113D18,0xD74E0,アイグレッテ,Aigrette
 0x113D0F,0xD74E4,野宿無宿,No Roof Tonight
-0x113D08,0xD74E8,迷子札,ID Tag
+0x113D08,0xD74E8,迷子札,Lost Child Tag
 0x113CFD,0xD74EC,美女と信仰,Beauty and Faith
 0x113CEA,0xD74F0,ふたつのペンダント,Two Pendants
 0x113CE1,0xD74F4,聖女遭遇,Meeting a Saintess
@@ -68,7 +68,7 @@ offset,pointers,japanese,english
 0x113C85,0xD7514,仮面ストーカー,Masked Stalker
 0x113C7A,0xD7518,英雄王の噂,Rumors of the Hero King
 0x113C6D,0xD751C,エルエレエロ,Elleelero
-0x113C66,0xD7520,カイロ,Cairo
+0x113C66,0xD7520,カイロ,Kairo
 0x113C53,0xD7524,行け！　大海原を！,Go! Across the Sea!
 0x113C46,0xD7528,未来の大英雄,Future Great Hero
 0x113C3D,0xD752C,殺意の斧,Axe of Malice
@@ -160,10 +160,10 @@ offset,pointers,japanese,english
 0x1137CD,0xD7688,アイグレッテのはずなのに１,This Should Be Aigrette 1
 0x1137B8,0xD768C,二人の無事を願う二人,Two Praying for Two
 0x11379D,0xD7690,アイグレッテのはずなのに２,This Should Be Aigrette 2
-0x113794,0xD7694,出産式へ,To the Birth Rite
-0x113781,0xD7698,チェリク行き定期便,Ferry to Cherik
-0x11376C,0xD769C,ヒートリバーを越えて,Across the Heat River
-0x11375F,0xD76A0,心配される男,A Worried-Over Man
+0x113794,0xD7694,出産式へ,A Changed Aigrette
+0x113781,0xD7698,チェリク行き定期便,To the Birth Rite
+0x11376C,0xD769C,ヒートリバーを越えて,Ferry to Cherik
+0x11375F,0xD76A0,心配される男,Across the Heat River
 0x113754,0xD76A8,男の中の男,A Man Among Men
 0x113743,0xD76AC,彼女の料理の準備,Prepping Her Cooking
 0x113730,0xD76B0,チビッコにボコボコ,Beaten by Kids
@@ -411,7 +411,7 @@ offset,pointers,japanese,english
 0x1128C8,0xD7A88,出会いの場所１,Meeting Place 1
 0x1128B9,0xD7A8C,出会いの場所２,Meeting Place 2
 0x1128B2,0xD7A90,成長２,Growth 2
-0x1128A5,0xD7A94,ＣＨＩＣＨＩ,CHICHI
+0x1128A5,0xD7A94,ＣＨＩＣＨＩ,Udders
 0x11289A,0xD7A98,復活した心,A Revived Heart
 0x112885,0xD7A9C,出会いの場所へと\\\\,To the Meeting Place\\\\
 0x11287A,0xD7AA0,星に願いを,Wish Upon a Star
@@ -479,7 +479,7 @@ offset,pointers,japanese,english
 0x1124D7,0xD7BA0,遺跡の入り口を探して,Find the Ruins Entrance
 0x1124C2,0xD7BA4,あの子を探して大神殿,Seeking Her: Grand Temple
 0x1124AB,0xD7BA8,アイグレッテ港は反対だ,Aigrette Port Is Opposite
-0x11249E,0xD7BAC,リーネの中で,Inside Lien
+0x11249E,0xD7BAC,リーネの中で,Inside Lienea
 0x112495,0xD7BB0,落ち着け,Calm Down
 0x11247E,0xD7BB4,デートはハイデルベルグ,A Date in Heidelberg
 0x112477,0xD7BB8,襲撃！,Attack!

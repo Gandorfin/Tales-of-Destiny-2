@@ -70,6 +70,19 @@ FORMER_TITLE_TRANSLATIONS = {
     0x11315D: 'Untamed Forest 2',
     0x112268: "God's Egg Is\\\\\\\\",
     0x111E03: "Depths of God's Egg",
+    # 1.3.7 and older. The retail table names skits 165..168 one skit
+    # early (165 "To the Birth Rite" plays the "a lot has changed here"
+    # skit, 166 the Birth Rite one, 167 the ferry, 168 the Heat River one),
+    # so the English now follows what each skit is about.
+    0x113E9A: 'Rumors of Marie',
+    0x113D08: 'ID Tag',
+    0x113C66: 'Cairo',
+    0x113794: 'To the Birth Rite',
+    0x113781: 'Ferry to Cherik',
+    0x11376C: 'Across the Heat River',
+    0x11375F: 'A Worried-Over Man',
+    0x1128A5: 'CHICHI',
+    0x11249E: 'Inside Lien',
 }
 
 

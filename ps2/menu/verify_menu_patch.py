@@ -189,7 +189,7 @@ def main():
             try: lens=refine_lens.apply(bytearray(data))==(0,1)
             except ValueError: lens=False
             if not lens: total["other"]+=1
-            note="   lens line: " + ("A:0 B:0" if lens else "still A0,B0")
+            note="   lens line: " + ("A0 B0 Own" if lens else "still A0,B0")
         print(f"{name:<12}{c['en']:>8}{c['jp']:>10}{c['other']:>7}  {verdict}{note}")
     # compressed module containers: these are the copies the game actually loads
     groups={name:[(int(r["offset"],16),r["japanese"],r["english"]) for r in recs] for name,recs in rows.items()}

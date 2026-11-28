@@ -79,6 +79,27 @@ class NameFields(unittest.TestCase):
             self.assertEqual(struct.unpack_from('<I', data, at + E.NAME_FIELD)[0], 782)
             self.assertEqual(E.patch_name_fields(out, E.name_translations()), (out, 0))
 
+    def test_forneus_tail_member_only(self):
+        """08186 holds Forneus (member 1) and its tail (member 4), both
+        "Forneus" since 2008; only the tail member is renamed, once."""
+        boss = end_member(param_block('Forneus', 0x1E))
+        raw = pack(b'HEAD', boss, b'TM2', b'anp', end_member(param_block('Forneus', 0x1E)))
+        fixes = E.PACK_NAME_FIXES['08186.pak1']
+        out, changed = E.patch_name_fields(raw, E.name_translations(), fixes)
+        self.assertEqual(changed, 1)
+        members = E.parse_pak1(out)
+        self.assertEqual(members[1], boss)
+        tail = lzss.unpack(members[4])
+        at = tail.index(b'Forneus Tail')
+        self.assertEqual(tail[at:at + E.NAME_FIELD], b'Forneus Tail' + b'\0' * 11 + b'\x1e')
+        self.assertEqual(E.patch_name_fields(out, E.name_translations(), fixes), (out, 0))
+
+    def test_old_bat_name_becomes_the_2008_one(self):
+        raw = pack(b'HEAD', end_member(param_block('Shovsri')))
+        out, changed = E.patch_name_fields(raw, E.name_translations())
+        self.assertEqual(changed, 1)
+        self.assertIn(b'Chauve-souris\0', lzss.unpack(E.parse_pak1(out)[1]))
+
 class BuildCommand(unittest.TestCase):
     def test_patch_known_literals_covers_alternate_end_members(self):
         raw = pack(b'HEAD', literal_member('-ルーン・ウルズ-'), b'model',
